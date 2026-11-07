@@ -165,6 +165,9 @@ FB.onAuth(async (user, siswa) => {
   document.getElementById("guru-nama").textContent = `👋 ${user.email}`;
   document.getElementById("btn-logout").style.display = "";
   renderApp();
+  // Reveal Admin tab only for admins / developers.
+  const navAdmin = document.getElementById("nav-admin");
+  if (navAdmin) navAdmin.style.display = FB.userIsAdmin() ? "" : "none";
 });
 
 function renderLogin(){
@@ -206,6 +209,7 @@ function renderApp(){
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
+        <div class="nav-item ${state.tab==='admin'?'active':''}" onclick="setTab('admin')" id="nav-admin" style="display:none;"><span class="ico">🛡️</span> Admin</div>
       </div>
       <div class="main" id="main"></div>
     </div>
@@ -225,6 +229,7 @@ async function renderTab(){
     else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
+    else if (state.tab === "admin")   mount.innerHTML = await renderAdminTab();
   } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
 }
 
@@ -953,6 +958,74 @@ window.exportLaporan = async () => {
   XLSX.utils.book_append_sheet(wb, ws, "Laporan Siswa");
   XLSX.writeFile(wb, `laporan-shirose-${Date.now()}.xlsx`);
   toast("✓ Diexport");
+};
+
+/* ========== TAB: ADMIN (Part 17) ========== */
+async function renderAdminTab(){
+  if (!FB.userIsAdmin()){
+    return `<div class="panel"><h2>🛡️ Admin</h2>
+      <div class="empty">🚫 Kamu bukan admin. Minta developer untuk promote role-mu.</div></div>`;
+  }
+  const akun = await FB.listSemuaAkun();
+  const isDev = FB.userIsDeveloper();
+
+  const roleBadge = (r) => {
+    const colors = { developer:"#8b5cf6", admin:"#ef6a9a", guru:"#22d3ee", student:"#b9bfd9" };
+    const r2 = r || "student";
+    return `<span style="padding:2px 8px; border-radius:999px; background:${colors[r2]}22; color:${colors[r2]}; font-size:11px; font-weight:800;">${r2.toUpperCase()}</span>`;
+  };
+
+  const rows = akun.map(a => {
+    const unlim = !!(a.permissions?.unlimited_coins);
+    return `
+      <tr>
+        <td><b>${a.nama||"-"}</b></td>
+        <td>${a.email}</td>
+        <td>${roleBadge(a.role)}</td>
+        <td>
+          <select onchange="setAkunRole('${a.uid}', this.value)">
+            ${["student","guru","admin","developer"].map(r => {
+              const canSet = r==="student" || r==="guru" || isDev;
+              return `<option value="${r}" ${a.role===r?"selected":""} ${canSet?"":"disabled"}>${r}</option>`;
+            }).join("")}
+          </select>
+        </td>
+        <td>
+          ${isDev ? `<label style="cursor:pointer;">
+            <input type="checkbox" ${unlim?"checked":""} onchange="toggleUnlimited('${a.uid}', this.checked)"/> ∞ coins
+          </label>` : (unlim ? "∞" : "-")}
+        </td>
+      </tr>`;
+  }).join("");
+
+  return `
+    <div class="panel">
+      <h2>🛡️ Admin Dashboard</h2>
+      <p style="color:var(--gray); font-size:12px;">
+        Role-based access control. Developer bisa set role apa pun termasuk admin/developer.
+        Admin hanya bisa set student/guru. Hanya developer bisa memberi permission ∞ coins.
+      </p>
+      <div class="table-wrap" style="margin-top:12px;">
+        <table>
+          <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Set role</th><th>Unlimited</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+window.setAkunRole = async (uid, role) => {
+  try {
+    await FB.setRole(uid, role);
+    toast(`✓ Role diubah ke ${role}`);
+    renderTab();
+  } catch(e){ toast("❌ " + e.message); renderTab(); }
+};
+window.toggleUnlimited = async (uid, on) => {
+  try {
+    await FB.setUnlimitedCoins(uid, on);
+    toast(on ? "∞ coins aktif" : "∞ coins off");
+  } catch(e){ toast("❌ " + e.message); renderTab(); }
 };
 </script>
 </body>

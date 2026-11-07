@@ -50,14 +50,52 @@ let currentSiswaDoc = null;
 let onReadyCallbacks = [];
 let authListenerSet = false;
 
+// Role helpers (Part 17). The siswa doc's `role` field is authoritative;
+// the hard-coded GURU_EMAIL / DEVELOPER_EMAIL act as a bootstrap for the
+// very first admin so they can grant roles to others.
+export function siswaRole(doc){ return (doc && typeof doc.role === "string") ? doc.role : "student"; }
 export function isGuru(user) {
-  return !!user && user.email === GURU_EMAIL;
+  if (!user) return false;
+  if (user.email === GURU_EMAIL) return true;
+  const r = siswaRole(currentSiswaDoc);
+  return r === "guru" || r === "admin" || r === "developer";
 }
 export function isDeveloper(user) {
-  return !!user && user.email === DEVELOPER_EMAIL;
+  if (!user) return false;
+  if (user.email === DEVELOPER_EMAIL) return true;
+  return siswaRole(currentSiswaDoc) === "developer";
 }
-export function userIsGuru() { return isGuru(currentUser); }
+export function isAdmin(user) {
+  if (!user) return false;
+  if (user.email === DEVELOPER_EMAIL) return true; // developer >= admin
+  const r = siswaRole(currentSiswaDoc);
+  return r === "admin" || r === "developer";
+}
+export function userIsGuru()      { return isGuru(currentUser); }
 export function userIsDeveloper() { return isDeveloper(currentUser); }
+export function userIsAdmin()     { return isAdmin(currentUser); }
+
+/* ---------- Admin ops (only callable when userIsAdmin()) ---------- */
+export async function listSemuaAkun(){
+  if (!userIsAdmin()) throw new Error("Hanya admin / developer");
+  const snap = await getDocs(collection(db, "siswa"));
+  return snap.docs.map(d => ({ uid: d.id, ...d.data() }));
+}
+export async function setRole(uid, role) {
+  if (!userIsAdmin()) throw new Error("Hanya admin / developer");
+  const allowed = ["student","guru","admin","developer"];
+  if (!allowed.includes(role)) throw new Error("Role invalid");
+  // Only developer can grant developer/admin role.
+  if ((role === "developer" || role === "admin") && !userIsDeveloper())
+    throw new Error("Hanya developer yang bisa set admin / developer");
+  await updateDoc(doc(db, "siswa", uid), { role });
+}
+export async function setUnlimitedCoins(uid, enable) {
+  if (!userIsDeveloper()) throw new Error("Hanya developer");
+  await updateDoc(doc(db, "siswa", uid), {
+    "permissions.unlimited_coins": !!enable,
+  });
+}
 // Unlimited coins when developer OR siswa doc explicitly has the permission.
 // Note: permission must come from a trusted write (admin/dev) — client shouldn't
 // grant it to itself. See firestore.rules.example.
