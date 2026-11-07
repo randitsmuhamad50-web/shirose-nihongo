@@ -646,7 +646,22 @@ function renderLevelPills(){
             onclick="setLevel('${l}')">${l.toUpperCase()}</button>`;
   }).join("");
 }
+// Access guard for JLPT level. Guest gets N5 only; guru gets everything;
+// student goes by siswa.aksesLevel.
+function canAccessLevel(lvl){
+  if (!lvl) return false;
+  if (FB.userIsGuru()) return true;
+  const akses = state.siswa?.aksesLevel;
+  if (!akses){ return lvl === "n5"; } // sensible default for guest / new signup
+  return !!akses[lvl];
+}
+window.canAccessLevel = canAccessLevel;
+
 window.setLevel = async (lvl) => {
+  if (!canAccessLevel(lvl)){
+    toast("🔒 Level " + lvl.toUpperCase() + " belum dibuka — hubungi guru untuk akses");
+    return;
+  }
   state.level = lvl;
   localStorage.setItem("shirose-lvl", lvl);
   renderLevelPills();
@@ -654,6 +669,21 @@ window.setLevel = async (lvl) => {
   updateChips();
   route(location.hash.slice(1) || "home");
 };
+
+// Snap state.level back to a level the student is allowed to use. Called
+// after the siswa doc loads, and defensively before any level-scoped render.
+function enforceLevelAccess(){
+  if (canAccessLevel(state.level)) return true;
+  const akses = state.siswa?.aksesLevel || {};
+  const first = ["n5","n4","n3","n2","n1"].find(l => akses[l]) || "n5";
+  if (first !== state.level){
+    state.level = first;
+    localStorage.setItem("shirose-lvl", first);
+    renderLevelPills();
+  }
+  return false;
+}
+window.enforceLevelAccess = enforceLevelAccess;
 
 /* ========== GAMI (XP/koin) ========== */
 async function loadGami(){
@@ -729,9 +759,33 @@ const routes = {
   leaderboard: renderLeaderboard,
 };
 
+// Routes that depend on state.level (and therefore on aksesLevel).
+const LEVEL_SCOPED_ROUTES = new Set([
+  "materi","kosakata","kanji","bunpou","hafalan","quest","ujian"
+]);
+
 window.route = (path) => {
   location.hash = path;
   const [name, ...rest] = path.split("/");
+
+  // Enforce JLPT access before rendering level-scoped content.
+  if (LEVEL_SCOPED_ROUTES.has(name) && !canAccessLevel(state.level)){
+    const app = document.getElementById("app");
+    const unlocked = Object.entries(state.siswa?.aksesLevel || {}).filter(([,v]) => v).map(([k]) => k.toUpperCase());
+    app.innerHTML = `
+      <div class="panel">
+        <h2>🔒 Level ${state.level.toUpperCase()} belum terbuka</h2>
+        <div class="empty">
+          <div class="emoji">🔒</div>
+          Guru belum memberimu akses ke level ini.<br>
+          ${unlocked.length ? `Kamu bisa belajar di: <b>${unlocked.join(", ")}</b>` : "Hubungi guru untuk membuka akses."}
+        </div>
+        ${unlocked.length ? `<button class="btn" onclick="setLevel('${unlocked[0].toLowerCase()}')">Pindah ke ${unlocked[0]}</button>` : ""}
+        <button class="btn ghost" onclick="route('home')">🏠 Kembali Home</button>
+      </div>`;
+    return;
+  }
+
   const fn = routes[name] || renderHome;
   const app = document.getElementById("app");
   app.classList.remove("has-sidepanel");
@@ -1942,6 +1996,8 @@ FB.onAuth(async (user, siswa) => {
     btn.onclick = showAuthModal;
     document.getElementById("guru-link").classList.add("hidden");
   }
+  // Snap to an allowed level before loading gami / rendering routes
+  if (user && siswa) enforceLevelAccess();
   await loadGami();
   renderLevelPills();
   updateChips();

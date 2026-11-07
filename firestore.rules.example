@@ -1,0 +1,96 @@
+// =====================================================================
+// SHIROSE NIHONGO — Firestore Security Rules (example)
+// =====================================================================
+// SALIN rules ini ke Firebase Console → Firestore → Rules, lalu Publish.
+// File ini disertakan di repo sebagai referensi; file ini sendiri tidak
+// di-deploy otomatis oleh GitHub Pages (perlu `firebase deploy` jika mau).
+//
+// Tujuan:
+//   - Siapa yang boleh baca/tulis apa.
+//   - Backend enforcement untuk JLPT per-student access (Part 3).
+//   - Guru TIDAK otomatis punya developer privileges (Part 6).
+// =====================================================================
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ---------- Helpers ----------
+    function isSignedIn()      { return request.auth != null; }
+    function uid()             { return request.auth.uid; }
+    function siswa(uidX)       { return get(/databases/$(database)/documents/siswa/$(uidX)).data; }
+    function isGuru()          { return isSignedIn() && (siswa(uid()).role == "guru"); }
+    function isDeveloper()     { return isSignedIn() && (siswa(uid()).role == "developer"); }
+    function isAdmin()         { return isSignedIn() && (siswa(uid()).role == "admin"); }
+    function hasLevelAccess(l) { return isSignedIn() && (siswa(uid()).aksesLevel[l] == true); }
+
+    // ---------- /siswa/{uid} ----------
+    match /siswa/{sid} {
+      // Student bisa baca dokumennya sendiri; guru bisa baca semua.
+      allow read: if isSignedIn() && (uid() == sid || isGuru() || isAdmin() || isDeveloper());
+
+      // Create: hanya saat sign-up untuk diri sendiri, tanpa boleh set role/aksesLevel bebas.
+      allow create: if isSignedIn() && uid() == sid
+                    && !("role" in request.resource.data) // role di-set server-side / admin
+                    && (!("aksesLevel" in request.resource.data) || request.resource.data.aksesLevel.n5 == true);
+
+      // Update: siswa bisa update profil ringan (nama, karakter), TAPI tidak boleh
+      // mengubah role atau aksesLevel-nya sendiri. Guru/admin bisa update aksesLevel siswa.
+      allow update: if isSignedIn() && (
+        (uid() == sid
+          && !request.resource.data.diff(resource.data).affectedKeys().hasAny(["role","aksesLevel"]))
+        || isGuru() || isAdmin() || isDeveloper()
+      );
+
+      allow delete: if isAdmin() || isDeveloper();
+
+      // Subcollections: student owns them.
+      match /{sub}/{docId} {
+        allow read, write: if uid() == sid || isGuru() || isAdmin() || isDeveloper();
+      }
+    }
+
+    // ---------- /kategori_ujian ----------
+    match /kategori_ujian/{id} {
+      // Siswa hanya boleh baca kategori yang level-nya di-akses.
+      allow read: if isSignedIn() && (
+        isGuru() || isAdmin() || isDeveloper()
+        || hasLevelAccess(resource.data.level)
+      );
+      allow create, update, delete: if isGuru() || isAdmin() || isDeveloper();
+    }
+
+    // ---------- /soal/{kategoriId}/items/{soalId} ----------
+    match /soal/{kategoriId}/items/{soalId} {
+      // Siswa hanya bisa baca soal dari kategori level yang boleh diakses.
+      allow read: if isSignedIn() && (
+        isGuru() || isAdmin() || isDeveloper()
+        || hasLevelAccess(
+             get(/databases/$(database)/documents/kategori_ujian/$(kategoriId)).data.level
+           )
+      );
+      allow create, update, delete: if isGuru() || isAdmin() || isDeveloper();
+    }
+
+    // ---------- /item_shop/{kategori}/items/{id} ----------
+    match /item_shop/{kat}/items/{id} {
+      allow read: if isSignedIn();
+      allow write: if isGuru() || isAdmin() || isDeveloper();
+    }
+
+    // ---------- /misi_global, /achievements_catalog, dsb ----------
+    match /{coll}/{doc=**} {
+      allow read: if isSignedIn();
+      allow write: if isAdmin() || isDeveloper();
+    }
+  }
+}
+
+// =====================================================================
+// CATATAN role & permissions
+// =====================================================================
+// siswa.role ∈ { "student" (default), "guru", "admin", "developer" }
+// siswa.permissions.unlimited_coins (bool) — khusus developer, bisa diberikan
+//   ke akun lain hanya dengan write dari developer sendiri (bukan di sini,
+//   tetapi di Cloud Function atau manual Admin SDK, untuk server-side auth).
+// =====================================================================
