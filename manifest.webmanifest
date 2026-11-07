@@ -1,16 +1,18 @@
 {
-  "name": "Shirose Nihongo RPG",
-  "short_name": "Shirose RPG",
-  "description": "Platform RPG belajar bahasa Jepang JLPT N5-N1 — belajar sambil main.",
+  "name": "SHIROSE NIHONGO",
+  "short_name": "SHIROSE",
+  "description": "SHIROSE NIHONGO by SSW no Ou — Learn Japanese. Track Your Progress. Build Your Future. Platform belajar bahasa Jepang JLPT N5-N1.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#161b36",
   "theme_color": "#161b36",
   "orientation": "portrait",
   "lang": "id",
+  "categories": ["education", "productivity"],
   "icons": [
-    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "./icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
     { "src": "./apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
   ]
