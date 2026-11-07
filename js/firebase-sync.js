@@ -448,11 +448,35 @@ export async function getSiswaGami(uid) {
   }
   return result;
 }
+// Teacher view: all exam records for a specific student (newest first).
+export async function listNilaiOf(uid, limitN = 100) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  const q = query(collection(db, "siswa", uid, "nilai"), orderBy("tgl","desc"), limit(limitN));
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+// Teacher view: count SRS mastery per level. Returns { n5:{mastered,total}, ... }
+export async function getSiswaMasteryCounts(uid) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  const result = {};
+  for (const lvl of ["n5","n4","n3","n2","n1"]) {
+    const snap = await getDoc(doc(db, "siswa", uid, "srs", lvl));
+    const kartu = snap.exists() ? (snap.data().kartu || {}) : {};
+    const total = Object.keys(kartu).length;
+    const mastered = Object.values(kartu).filter(c => c?.mastered).length;
+    result[lvl] = { mastered, total };
+  }
+  return result;
+}
 
 /* ========== KELAS ========== */
 export async function listKelas() {
   const snap = await getDocs(collection(db, "kelas"));
   return snap.docs.map(d => ({ id:d.id, ...d.data() }));
+}
+export async function hapusKelas(id) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await deleteDoc(doc(db, "kelas", id));
 }
 export async function simpanKelas(data, id = null) {
   if (!userIsGuru()) throw new Error("Hanya guru");

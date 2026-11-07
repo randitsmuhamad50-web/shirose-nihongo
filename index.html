@@ -379,6 +379,26 @@ body{
 .opsi.opsi-ok{border-color:var(--green); background:rgba(16,185,129,.18);}
 .opsi.opsi-bad{border-color:var(--red); background:rgba(239,68,68,.18);}
 
+/* ========== SYLABUS ========== */
+.syl-hero{
+  text-align:center; padding:18px; border-radius:16px;
+  background:linear-gradient(135deg, rgba(239,106,154,.15), rgba(139,92,246,.15));
+  border:1px solid var(--border);
+}
+.syl-hero-num{font-family:var(--font-jp); font-size:54px; font-weight:800; color:var(--pink);}
+.syl-hero-lbl{color:var(--gray); font-size:14px;}
+.syl-grid{display:grid; grid-template-columns:repeat(auto-fill, minmax(230px,1fr)); gap:10px; margin-top:10px;}
+.syl-chunk{
+  background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:12px;
+  padding:14px; cursor:pointer; transition:transform .12s, border-color .15s;
+}
+.syl-chunk:hover{transform:translateY(-2px); border-color:var(--pink);}
+.syl-chunk.done{border-color:var(--green); background:rgba(16,185,129,.1);}
+.syl-chunk-head{display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; font-size:14px;}
+.syl-pct{color:var(--pink-light); font-weight:800;}
+.syl-chunk.done .syl-pct{color:var(--green);}
+.syl-chunk-meta{font-size:11px; color:var(--gray); margin-top:8px;}
+
 /* ========== HAFALAN: status legend + preview list ========== */
 .status-legend{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 8px;}
 .stat-pill{
@@ -1200,6 +1220,7 @@ const routes = {
   inventory: renderInventory,
   wardrobe: renderWardrobe,
   misi: renderMisiHarian,
+  sylabus: renderSylabus,
   profile: renderProfile,
   achievements: renderAchievements,
   leaderboard: renderLeaderboard,
@@ -1256,7 +1277,7 @@ function renderCharaOrbital(){
     { icon:"📝", lbl:"Rangkuman",  route:"rangkuman",   deg:72 },
     { icon:"⚔️", lbl:"Quest",      route:"quest",       deg:108 },
     { icon:"📝", lbl:"Ujian",      route:"ujian",       deg:144 },
-    { icon:"🎯", lbl:"Misi",       route:"misi",        deg:180 },
+    { icon:"🗺️", lbl:"Sylabus",    route:"sylabus",     deg:180 },
     { icon:"🛒", lbl:"Shop",       route:"shop",        deg:216 },
     { icon:"🎒", lbl:"Inventory",  route:"inventory",   deg:252 },
     { icon:"👔", lbl:"Wardrobe",   route:"wardrobe",    deg:288 },
@@ -2690,6 +2711,109 @@ window.equipThenWardrobe = async (kat, id) => {
 };
 
 /* ========== MISI HARIAN ========== */
+/* ========== SYLABUS (Part 14) ========== */
+async function renderSylabus(){
+  if (!state.user){
+    return `<div class="panel"><h2>🗺️ Sylabus</h2>
+      <div class="empty"><div class="emoji">🔒</div>Login dulu untuk melihat peta perjalanan belajarmu.<br>
+      <button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
+  }
+
+  const lvl = state.level;
+  const [kos, knj] = await Promise.all([
+    loadMateri("kosakata", lvl),
+    loadMateri("kanji", lvl),
+  ]);
+  await _loadSrs();
+  const srs = state.srs || {};
+
+  function chapterRows(tipe, data){
+    const chunks = [];
+    for (let start = 1; start <= data.length; start += 50){
+      const end = Math.min(start + 49, data.length);
+      // Count mastery within this chunk
+      let mastered = 0, learning = 0, brand = end - start + 1;
+      for (let no = start; no <= end; no++){
+        const key = tipe[0] + ":" + no;
+        const c = srs[key];
+        if (!c) continue;
+        brand--;
+        if (c.mastered) mastered++;
+        else learning++;
+      }
+      const totalInChunk = end - start + 1;
+      const pct = Math.round((mastered / totalInChunk) * 100);
+      chunks.push({ start, end, mastered, learning, brand, totalInChunk, pct });
+    }
+    return chunks;
+  }
+
+  const kosChunks = chapterRows("kosakata", kos);
+  const knjChunks = chapterRows("kanji", knj);
+
+  const chunkHtml = (ch, tipe) => {
+    const done = ch.pct >= 80;
+    const bar = `<div style="background:rgba(255,255,255,.08); height:8px; border-radius:4px; overflow:hidden;">
+      <div style="width:${ch.pct}%; height:100%; background:${done ? 'var(--green)' : 'var(--pink)'};"></div>
+    </div>`;
+    return `
+      <div class="syl-chunk ${done?'done':''}" onclick="sylabusOpenChunk('${tipe}',${ch.start},${ch.end})">
+        <div class="syl-chunk-head">
+          <b>${tipe === 'kosakata' ? '📖' : '🈷️'} No.${String(ch.start).padStart(3,'0')} – No.${String(ch.end).padStart(3,'0')}</b>
+          <span class="syl-pct">${ch.pct}%${done?' ✓':''}</span>
+        </div>
+        ${bar}
+        <div class="syl-chunk-meta">
+          🟢 ${ch.mastered} mastered · 🟡 ${ch.learning} belajar · ⚪ ${ch.brand} belum
+        </div>
+      </div>`;
+  };
+
+  // Overall progress
+  const totalMasterable = kos.length + knj.length;
+  let totalMastered = 0;
+  Object.values(srs).forEach(c => { if (c?.mastered) totalMastered++; });
+  const overallPct = totalMasterable ? Math.round((totalMastered / totalMasterable) * 100) : 0;
+
+  return `
+    <div class="panel">
+      <h2>🗺️ Sylabus · ${lvl.toUpperCase()}</h2>
+      <p style="color:var(--gray); font-size:14px; margin-bottom:12px;">Peta perjalanan belajarmu. Klik setiap chapter untuk mulai hafalan range tersebut.</p>
+
+      <div class="syl-hero">
+        <div class="syl-hero-num">${overallPct}%</div>
+        <div class="syl-hero-lbl">${totalMastered} / ${totalMasterable} mastered di ${lvl.toUpperCase()}</div>
+      </div>
+
+      <h3 style="margin-top:14px;">📖 Kosakata (${kos.length})</h3>
+      <div class="syl-grid">
+        ${kosChunks.map(c => chunkHtml(c, "kosakata")).join("")}
+      </div>
+
+      <h3 style="margin-top:18px;">🈷️ Kanji (${knj.length})</h3>
+      <div class="syl-grid">
+        ${knjChunks.map(c => chunkHtml(c, "kanji")).join("")}
+      </div>
+
+      <h3 style="margin-top:18px;">📝 Ujian</h3>
+      <p style="color:var(--gray);">Buka menu <b>Quest</b> untuk daftar ujian ${lvl.toUpperCase()}.</p>
+      <button class="btn" onclick="route('quest')">⚔️ Ke Quest</button>
+
+      <h3 style="margin-top:18px;">🎯 Misi Harian</h3>
+      <p style="color:var(--gray);">Misi harian masih ada sebagai mini-goal — klik di bawah.</p>
+      <button class="btn ghost" onclick="route('misi')">Buka Misi Harian</button>
+    </div>
+  `;
+}
+window.sylabusOpenChunk = (tipe, lo, hi) => {
+  state.hafalan = state.hafalan || {};
+  state.hafalan.tipe = tipe;
+  state.hafalan.range = `${lo}-${hi}`;
+  state.hafalan.filter = "all";
+  state.hafalan.mode = "flashcard";
+  route("hafalan");
+};
+
 async function renderMisiHarian(){
   if (!state.user) return `<div class="panel"><h2>🎯 Misi Harian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk misi harian.</div></div>`;
   const misi = await FB.getMisiHariIni();

@@ -631,24 +631,184 @@ window.konfirmasiImport = async () => {
 
 /* ========== TAB: KELAS ========== */
 async function renderKelasTab(){
-  state.kelasList = await FB.listKelas();
+  const openId = state.kelasOpen || null;
+  const [kelas, siswa] = await Promise.all([FB.listKelas(), FB.listSiswa()]);
+  state.kelasList = kelas;
+  state.siswaList = siswa;
+
+  // Group students by their kelas name
+  const byKelas = {};
+  siswa.forEach(s => {
+    const key = (s.kelas || "").trim();
+    if (!byKelas[key]) byKelas[key] = [];
+    byKelas[key].push(s);
+  });
+
+  // Each class card shows: name, description, member count, quick actions
+  const cardFor = (k) => {
+    const members = byKelas[k.nama] || [];
+    return `
+      <div class="panel panel-card ${openId===k.id?'open':''}" style="margin-bottom:10px; cursor:pointer;" onclick="toggleKelasOpen('${k.id}')">
+        <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:10px;">
+          <div style="flex:1;">
+            <h3 style="color:var(--pink-light); margin:0;">${k.nama}</h3>
+            <p style="color:var(--gray); font-size:12px; margin:4px 0;">${k.deskripsi||"(tanpa deskripsi)"}</p>
+            <div style="display:flex; gap:8px; font-size:12px; color:var(--gray-dim); margin-top:6px;">
+              <span>👥 ${members.length} siswa</span>
+            </div>
+          </div>
+          <div onclick="event.stopPropagation();">
+            <button class="btn sm ghost" onclick="editKelas('${k.id}')">Edit</button>
+            <button class="btn sm danger" onclick="hapusKelas('${k.id}')">Hapus</button>
+          </div>
+        </div>
+        ${openId===k.id ? `
+          <div style="margin-top:14px; padding-top:12px; border-top:1px solid var(--border);" onclick="event.stopPropagation();">
+            ${members.length ? `
+              <div class="table-wrap">
+                <table>
+                  <thead><tr><th>Nama</th><th>Email</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+                  <tbody>
+                    ${members.map(s => `
+                      <tr>
+                        <td><b>${s.nama||"-"}</b></td>
+                        <td>${s.email}</td>
+                        <td>${["n5","n4","n3","n2","n1"].filter(l=>s.aksesLevel?.[l]).map(l=>l.toUpperCase()).join(", ")||"-"}</td>
+                        <td><button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button></td>
+                      </tr>`).join("")}
+                  </tbody>
+                </table>
+              </div>
+            ` : `<div style="color:var(--gray); padding:10px;">Belum ada siswa di kelas ini. Assign dari tab Siswa (isi field Kelas = "${k.nama}").</div>`}
+          </div>
+        ` : ""}
+      </div>`;
+  };
+
+  // "Unassigned" bucket — students with no kelas
+  const unassigned = byKelas[""] || [];
+
   return `
     <div class="panel">
       <h2>🎓 Kelas</h2>
-      <p style="color:var(--gray); font-size:12px;">Buat kelas lalu assign murid di tab Siswa (field Kelas).</p>
+      <p style="color:var(--gray); font-size:12px;">Klik kelas untuk membuka daftar siswanya. Ganti field "Kelas" pada tab Siswa untuk pindah kelas.</p>
       <button class="btn" onclick="newKelas()">+ Kelas Baru</button>
-      <div style="margin-top:12px;">
-        ${state.kelasList.map(k => `
-          <div class="panel" style="margin-bottom:8px;">
-            <h3 style="color:var(--pink-light);">${k.nama}</h3>
-            <p style="color:var(--gray); font-size:12px;">${k.deskripsi||"(tanpa deskripsi)"}</p>
-            <button class="btn sm ghost" onclick="editKelas('${k.id}')">Edit</button>
-          </div>
-        `).join("") || '<div style="color:var(--gray); padding:20px;">Belum ada kelas. Klik + Kelas Baru.</div>'}
+      <div style="margin-top:14px;">
+        ${kelas.length ? kelas.map(cardFor).join("") : '<div style="color:var(--gray); padding:20px;">Belum ada kelas. Klik + Kelas Baru.</div>'}
       </div>
+      ${unassigned.length ? `
+        <div class="panel" style="margin-top:10px; border-color:#f59e0b;">
+          <h3 style="color:#f59e0b;">⚠️ Belum masuk kelas (${unassigned.length})</h3>
+          <div class="table-wrap" style="margin-top:8px;">
+            <table>
+              <thead><tr><th>Nama</th><th>Email</th><th>Aksi</th></tr></thead>
+              <tbody>
+                ${unassigned.map(s => `
+                  <tr><td>${s.nama||"-"}</td><td>${s.email}</td>
+                      <td><button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button></td></tr>`).join("")}
+              </tbody>
+            </table>
+          </div>
+        </div>` : ""}
     </div>
   `;
 }
+window.toggleKelasOpen = (id) => {
+  state.kelasOpen = state.kelasOpen === id ? null : id;
+  renderTab();
+};
+window.hapusKelas = async (id) => {
+  if (!confirm("Hapus kelas ini? Siswa di dalamnya TIDAK ikut terhapus — hanya field kelas mereka jadi kosong.")) return;
+  // Clear kelas field for all siswa in this kelas
+  const k = state.kelasList.find(x => x.id === id);
+  if (k){
+    const inKelas = (state.siswaList||[]).filter(s => (s.kelas||"") === k.nama);
+    for (const s of inKelas){ try { await FB.updateKelasSiswa(s.uid, ""); } catch(e){} }
+  }
+  await FB.hapusKelas(id);
+  toast("✓ Kelas dihapus");
+  renderTab();
+};
+
+// Expanded student profile (Part 16)
+window.studentProfile = async (uid) => {
+  const siswa = (state.siswaList||[]).find(s => s.uid === uid);
+  if (!siswa) return toast("Siswa tidak ditemukan");
+  modal(`<div style="text-align:center; padding:20px;">Memuat profil...</div>`);
+  const [gami, nilai, mastery] = await Promise.all([
+    FB.getSiswaGami(uid),
+    FB.listNilaiOf(uid, 20).catch(()=>[]),
+    FB.getSiswaMasteryCounts(uid).catch(()=>({})),
+  ]);
+
+  // Daily / Weekly / Monthly buckets from exam history
+  const now = Date.now();
+  const day = 86400000;
+  let daily=0, weekly=0, monthly=0, totalSkor=0, totalLulus=0;
+  nilai.forEach(n => {
+    const ts = n.tgl?.toMillis ? n.tgl.toMillis() : 0;
+    if (!ts) return;
+    if (now - ts <= 1*day) daily++;
+    if (now - ts <= 7*day) weekly++;
+    if (now - ts <= 30*day) monthly++;
+    totalSkor += n.skor || 0;
+    if ((n.skor||0) >= 60) totalLulus++;
+  });
+  const avgSkor = nilai.length ? Math.round(totalSkor/nilai.length) : 0;
+
+  const levelRow = ["n5","n4","n3","n2","n1"].map(l => {
+    const g = gami[l] || {};
+    const m = mastery[l] || {mastered:0,total:0};
+    const akses = siswa.aksesLevel?.[l];
+    return `<tr>
+      <td><b>${l.toUpperCase()}</b></td>
+      <td>${akses?'<span style="color:var(--green);">✓ Terbuka</span>':'<span style="color:var(--gray-dim);">🔒 Kunci</span>'}</td>
+      <td>Lv ${g.level_karakter||1}</td>
+      <td>${g.xp||0}</td>
+      <td>${g.koin||0}</td>
+      <td>${g.streak||0}</td>
+      <td>${m.mastered} / ${m.total}</td>
+    </tr>`;
+  }).join("");
+
+  const nilaiRow = nilai.slice(0, 10).map(n => {
+    const dt = n.tgl?.toDate ? n.tgl.toDate().toLocaleDateString("id-ID") : "-";
+    return `<tr><td>${dt}</td><td>${n.skor||0}</td><td>${n.benar||0}/${(n.benar||0)+(n.salah||0)}</td><td>${Math.floor((n.waktu||0)/60)}m ${(n.waktu||0)%60}s</td></tr>`;
+  }).join("") || '<tr><td colspan="4" style="color:var(--gray); text-align:center;">Belum ada ujian</td></tr>';
+
+  modal(`
+    <h2 style="color:var(--pink);">📊 Profil: ${siswa.nama||siswa.email}</h2>
+    <p style="color:var(--gray); font-size:12px;">${siswa.email} ${siswa.kelas?`· Kelas ${siswa.kelas}`:""}</p>
+
+    <h3 style="margin-top:14px;">Aktivitas Ujian</h3>
+    <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-top:6px;">
+      <div class="panel" style="text-align:center; padding:12px;"><div style="font-size:22px; font-weight:800; color:var(--pink);">${daily}</div><div style="font-size:11px; color:var(--gray);">Hari ini</div></div>
+      <div class="panel" style="text-align:center; padding:12px;"><div style="font-size:22px; font-weight:800; color:var(--pink);">${weekly}</div><div style="font-size:11px; color:var(--gray);">7 hari</div></div>
+      <div class="panel" style="text-align:center; padding:12px;"><div style="font-size:22px; font-weight:800; color:var(--pink);">${monthly}</div><div style="font-size:11px; color:var(--gray);">30 hari</div></div>
+      <div class="panel" style="text-align:center; padding:12px;"><div style="font-size:22px; font-weight:800; color:var(--gold);">${avgSkor}</div><div style="font-size:11px; color:var(--gray);">Rata-rata nilai</div></div>
+    </div>
+
+    <h3 style="margin-top:14px;">Progres per Level</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>JLPT</th><th>Akses</th><th>Lv</th><th>XP</th><th>Koin</th><th>Streak</th><th>Mastered</th></tr></thead>
+        <tbody>${levelRow}</tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:14px;">10 Ujian Terakhir</h3>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Tanggal</th><th>Nilai</th><th>Benar</th><th>Durasi</th></tr></thead>
+        <tbody>${nilaiRow}</tbody>
+      </table>
+    </div>
+
+    <div style="margin-top:14px; display:flex; justify-content:flex-end;">
+      <button class="btn ghost" onclick="closeModal()">Tutup</button>
+    </div>
+  `);
+};
 window.newKelas = () => editKelas(null);
 window.editKelas = (id) => {
   const k = id ? state.kelasList.find(x => x.id === id) : { nama:"", deskripsi:"" };
