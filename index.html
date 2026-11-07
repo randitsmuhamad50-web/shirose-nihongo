@@ -71,6 +71,28 @@ body{
 .hscroll::-webkit-scrollbar{display:none;}
 .hscroll > *{scroll-snap-align:start; flex:0 0 auto;}
 
+/* ========== FLOATING BACK + HOME (always available on sub-pages) ========== */
+.fab-nav{
+  position:fixed; bottom:calc(16px + env(safe-area-inset-bottom)); right:16px;
+  z-index:90; display:flex; flex-direction:column; gap:10px;
+  transition:opacity .2s, transform .2s;
+}
+.fab-nav.hidden{opacity:0; pointer-events:none; transform:translateY(20px);}
+.fab-nav .fab{
+  width:52px; height:52px; border-radius:50%; cursor:pointer;
+  background:linear-gradient(135deg,#ef6a9a,#c8325a); color:white; border:none;
+  box-shadow:0 6px 18px rgba(0,0,0,.4), 0 0 0 2px rgba(255,255,255,.08);
+  font-size:20px; font-weight:800; transition:transform .12s, box-shadow .12s;
+  display:flex; align-items:center; justify-content:center;
+}
+.fab-nav .fab:hover{transform:translateY(-2px); box-shadow:0 8px 22px rgba(239,106,154,.5);}
+.fab-nav .fab:active{transform:translateY(0);}
+.fab-nav .fab.home{background:linear-gradient(135deg,#ffd700,#c89300); color:#2a1810;}
+@media (max-width:640px){
+  .fab-nav{bottom:calc(14px + env(safe-area-inset-bottom)); right:14px;}
+  .fab-nav .fab{width:48px; height:48px; font-size:18px;}
+}
+
 /* ========== PWA INSTALL BUTTON + iOS modal ========== */
 .install-btn{
   display:none; align-items:center; gap:6px;
@@ -828,6 +850,12 @@ body{
 <!-- ============ GURU LINK ============ -->
 <a href="./teacher.html" class="guru-link hidden" id="guru-link">🛠️ Dashboard Guru</a>
 
+<!-- ============ FLOATING NAV: Back + Home (hidden on home) ============ -->
+<div class="fab-nav hidden" id="fab-nav">
+  <button class="fab" onclick="goBack()" title="Kembali">←</button>
+  <button class="fab home" onclick="route('home')" title="Home">🏠</button>
+</div>
+
 <!-- ============ AUTH MODAL ============ -->
 <div class="modal-backdrop" id="auth-modal">
   <div class="modal">
@@ -1287,6 +1315,7 @@ const routes = {
   wardrobe: renderWardrobe,
   misi: renderMisiHarian,
   sylabus: renderSylabus,
+  syl: (params) => renderSylabusChapter(params),
   kalender: renderKalender,
   profile: renderProfile,
   achievements: renderAchievements,
@@ -1298,9 +1327,52 @@ const LEVEL_SCOPED_ROUTES = new Set([
   "materi","kosakata","kanji","bunpou","hafalan","quest","ujian"
 ]);
 
+// Simple route-history stack so the floating back button can walk through
+// the student's path without leaving the SPA.
+window._routeStack = window._routeStack || [];
+window._skipStackPush = false;
+
+window.goBack = () => {
+  if (window._routeStack.length >= 2){
+    window._routeStack.pop();                // remove current
+    const prev = window._routeStack.pop();   // remove previous (route() will push it back)
+    route(prev);
+    return;
+  }
+  route("home");
+};
+
+function _updateFabNav(name){
+  const fab = document.getElementById("fab-nav");
+  if (!fab) return;
+  const isHome = !name || name === "home";
+  fab.classList.toggle("hidden", isHome);
+}
+
+function _renderRoute(name, rest){
+  const fn = routes[name] || renderHome;
+  const app = document.getElementById("app");
+  app.classList.remove("has-sidepanel");
+  app.innerHTML = '<div class="loading">Memuat…</div>';
+  Promise.resolve(fn(rest)).then(html => {
+    if (typeof html === "string") app.innerHTML = html;
+    window.scrollTo(0, 0);
+  }).catch(e => {
+    app.innerHTML = `<div class="panel"><h2>Error</h2><p>${e.message || e}</p><button class="btn" onclick="route('home')">🏠 Kembali Home</button></div>`;
+    console.error(e);
+  });
+}
+
 window.route = (path) => {
   location.hash = path;
   const [name, ...rest] = path.split("/");
+
+  // Track in history stack unless it's a duplicate of the top.
+  const top = window._routeStack[window._routeStack.length - 1];
+  if (top !== path) window._routeStack.push(path);
+  if (window._routeStack.length > 40) window._routeStack.shift();
+
+  _updateFabNav(name);
 
   // Enforce JLPT access before rendering level-scoped content.
   if (LEVEL_SCOPED_ROUTES.has(name) && !canAccessLevel(state.level)){
@@ -1320,16 +1392,7 @@ window.route = (path) => {
     return;
   }
 
-  const fn = routes[name] || renderHome;
-  const app = document.getElementById("app");
-  app.classList.remove("has-sidepanel");
-  app.innerHTML = '<div class="loading">Memuat…</div>';
-  Promise.resolve(fn(rest)).then(html => {
-    if (typeof html === "string") app.innerHTML = html;
-  }).catch(e => {
-    app.innerHTML = `<div class="panel"><h2>Error</h2><p>${e.message}</p></div>`;
-    console.error(e);
-  });
+  _renderRoute(name, rest);
 };
 
 /* ========== HOME / RPG DASHBOARD ========== */
@@ -1820,15 +1883,25 @@ function _cardStatus(card){
 }
 
 async function renderHafalanSelect(){
-  const [kos, knj, rangList] = await Promise.all([
+  // Rangkuman list only loaded when we're in the Rangkuman context — this keeps
+  // the normal Hafalan screen from being blocked by rules errors.
+  const promises = [
     loadMateri("kosakata", state.level),
     loadMateri("kanji", state.level),
-    state.user ? FB.listRangkuman() : Promise.resolve([]),
-  ]);
+  ];
+  if (state._rangkumanContext && state.user) {
+    promises.push(FB.listRangkuman().catch(() => []));
+  } else {
+    promises.push(Promise.resolve([]));
+  }
+  const [kos, knj, rangList] = await Promise.all(promises);
   await _loadSrs();
 
   const cfg = state.hafalan || { tipe:"kosakata", range:"1-50", filter:"all", mode:"flashcard" };
   state.hafalan = cfg;
+  // Normalize: if we're in the normal Hafalan screen and a prior Rangkuman
+  // session left tipe="rangkuman", bring it back to kosakata.
+  if (!state._rangkumanContext && cfg.tipe === "rangkuman") cfg.tipe = "kosakata";
 
   // Build a bucket of 50 covering the full dataset for the active type.
   function activePool(){
@@ -1899,10 +1972,11 @@ async function renderHafalanSelect(){
 
       <h3 style="margin-bottom:8px;">1. Pilih materi</h3>
       <div class="haf-type-row">
-        ${typeBtn("kosakata", "📖 Kosakata", kos.length + " kata")}
-        ${typeBtn("kanji",    "🈷️ Kanji",    knj.length + " kanji")}
-        ${typeBtn("semua",    "✨ Semua",     (kos.length + knj.length) + " item")}
-        ${typeBtn("rangkuman","📒 Rangkuman",rangList.length + " kata", !state.user || !rangList.length)}
+        ${state._rangkumanContext ? typeBtn("rangkuman", "📒 Rangkuman", rangList.length + " kata") : `
+          ${typeBtn("kosakata", "📖 Kosakata", kos.length + " kata")}
+          ${typeBtn("kanji",    "🈷️ Kanji",    knj.length + " kanji")}
+          ${typeBtn("semua",    "✨ Semua",     (kos.length + knj.length) + " item")}
+        `}
       </div>
 
       <h3 style="margin:16px 0 8px;">2. Rentang nomor <small style="color:var(--gray-dim); font-weight:400;">(bucket per 50)</small></h3>
@@ -1984,11 +2058,16 @@ window.hafCfg = (field, value) => {
 
 window.hafStart = async () => {
   const cfg = state.hafalan;
-  const [kos, knj, rangList] = await Promise.all([
+  const promises = [
     loadMateri("kosakata", state.level),
     loadMateri("kanji", state.level),
-    state.user ? FB.listRangkuman() : Promise.resolve([]),
-  ]);
+  ];
+  if (cfg.tipe === "rangkuman" && state.user){
+    promises.push(FB.listRangkuman().catch(() => []));
+  } else {
+    promises.push(Promise.resolve([]));
+  }
+  const [kos, knj, rangList] = await Promise.all(promises);
   await _loadSrs();
 
   const pool = [];
@@ -3092,11 +3171,88 @@ async function renderSylabus(){
   `;
 }
 window.sylabusOpenChunk = (tipe, lo, hi) => {
+  route(`syl/${tipe}/${lo}/${hi}`);
+};
+
+/* ========== Sylabus chapter view — list → "Test di Hafalan" ========== */
+async function renderSylabusChapter(params){
+  const [tipe, loStr, hiStr] = params || [];
+  if (!tipe || !loStr || !hiStr) return renderSylabus();
+  const lo = parseInt(loStr), hi = parseInt(hiStr);
+  const data = await loadMateri(tipe, state.level);
+  await _loadSrs();
+
+  const items = data.filter(it => {
+    const n = it.no;
+    if (!Number.isFinite(n)) return false;
+    return n >= lo && n <= hi;
+  });
+
+  // Count mastery for this chapter
+  let mastered = 0;
+  items.forEach(it => {
+    const key = tipe[0] + ":" + it.no;
+    const c = state.srs?.[key];
+    if (c?.mastered) mastered++;
+  });
+  const pct = items.length ? Math.round((mastered / items.length) * 100) : 0;
+
+  const cardHtml = (it) => {
+    const key = tipe[0] + ":" + it.no;
+    const c = state.srs?.[key];
+    const status = _cardStatus(c);
+    const kata = it.kata || it.k || it.kanji || "";
+    const kana = it.kana || it.f || `${it.on||""} ${it.kun||""}`.trim() || "";
+    const arti = it.arti || it.a || "";
+    return `
+      <div class="materi-item" style="border-color:${status.color}44;" onclick="showMateri('${tipe}', ${data.indexOf(it)})">
+        <span class="no-badge">No.${String(it.no).padStart(3,"0")}</span>
+        <div class="kanji">${kata}</div>
+        <div class="reading">${kana}</div>
+        <div class="meaning">${arti}</div>
+        <span class="status-chip" style="color:${status.color}; border:1px solid ${status.color}; margin-top:6px; display:inline-block;">${status.label}</span>
+      </div>`;
+  };
+
+  const headerLabel = tipe === "kosakata" ? "📖 Kosakata" : tipe === "kanji" ? "🈷️ Kanji" : "📐 Bunpou";
+
+  return `
+    <div class="panel">
+      <div class="haf-topbar">
+        <button class="btn ghost sm" onclick="route('sylabus')">← Sylabus</button>
+        <span style="color:var(--gray); font-weight:700;">${headerLabel} · No.${String(lo).padStart(3,"0")}–${String(hi).padStart(3,"0")}</span>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+      </div>
+
+      <div class="syl-hero" style="margin-top:4px;">
+        <div class="syl-hero-num">${pct}%</div>
+        <div class="syl-hero-lbl">${mastered} / ${items.length} mastered di chapter ini</div>
+      </div>
+
+      <div style="display:flex; gap:10px; margin:14px 0; flex-wrap:wrap;">
+        <button class="btn gold" style="flex:1; min-width:180px;" onclick="sylTest('${tipe}', ${lo}, ${hi}, 'flashcard')">🧠 Test Flashcard</button>
+        <button class="btn" onclick="sylTest('${tipe}', ${lo}, ${hi}, 'multiple')">✅ Test Pilihan Ganda</button>
+        <button class="btn ghost" onclick="sylTest('${tipe}', ${lo}, ${hi}, 'matching')">🔗 Test Matching</button>
+      </div>
+
+      <h3>Daftar ${headerLabel} (${items.length})</h3>
+      ${items.length ? `
+        <div class="materi-list">
+          ${items.map(cardHtml).join("")}
+        </div>
+      ` : `<div class="empty">Chapter ini kosong.</div>`}
+    </div>
+  `;
+}
+
+window.sylTest = (tipe, lo, hi, mode) => {
+  state._rangkumanContext = false;
   state.hafalan = state.hafalan || {};
   state.hafalan.tipe = tipe;
   state.hafalan.range = `${lo}-${hi}`;
   state.hafalan.filter = "all";
-  state.hafalan.mode = "flashcard";
+  state.hafalan.mode = mode || "flashcard";
+  // Jump straight to the Hafalan selection so user sees the preview list + starts.
   route("hafalan");
 };
 

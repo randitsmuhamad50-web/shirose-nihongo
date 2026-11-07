@@ -265,35 +265,39 @@ export async function recordActivity(type, count = 1){
   if (!currentUser) return;
   const allowed = new Set(["kanji","kosakata","latihan","ujian","sesi"]);
   if (!allowed.has(type)) return;
-  const ymd = _ymdLocal();
-  const ref = doc(db, "siswa", currentUser.uid, "activity", ymd);
-  const snap = await getDoc(ref);
-  const prev = snap.exists() ? snap.data() : { kanji:0, kosakata:0, latihan:0, ujian:0, sesi:0 };
-  const next = { ...prev, [type]: (prev[type]||0) + count, lastTs: serverTimestamp() };
-  await setDoc(ref, next, { merge: true });
+  try {
+    const ymd = _ymdLocal();
+    const ref = doc(db, "siswa", currentUser.uid, "activity", ymd);
+    const snap = await getDoc(ref);
+    const prev = snap.exists() ? snap.data() : { kanji:0, kosakata:0, latihan:0, ujian:0, sesi:0 };
+    const next = { ...prev, [type]: (prev[type]||0) + count, lastTs: serverTimestamp() };
+    await setDoc(ref, next, { merge: true });
+  } catch (e) { console.warn("recordActivity failed:", e.message); }
 }
 export async function listActivity(ym /* YYYYMM */){
   if (!currentUser) return {};
-  // Pull every doc that starts with the YYYYMM prefix. activity has small
-  // docs (one per day), so reading the whole month is cheap.
-  const col = collection(db, "siswa", currentUser.uid, "activity");
-  const snap = await getDocs(col);
-  const result = {};
-  snap.forEach(d => {
-    if (d.id.startsWith(ym)) result[d.id] = d.data();
-  });
-  return result;
+  try {
+    const col = collection(db, "siswa", currentUser.uid, "activity");
+    const snap = await getDocs(col);
+    const result = {};
+    snap.forEach(d => {
+      if (d.id.startsWith(ym)) result[d.id] = d.data();
+    });
+    return result;
+  } catch (e) { console.warn("listActivity failed:", e.message); return {}; }
 }
 
 /* ========== KOMENTAR (public per-item discussion) ========== */
 // Composite key per detail page (kanji/kosakata/bunpou + level + number).
 function _cmtKey(tipe, lvl, no){ return `${tipe}_${lvl}_${no}`; }
 export async function listKomentar(tipe, lvl, no) {
-  const key = _cmtKey(tipe, lvl, no);
-  const col = collection(db, "komentar", key, "items");
-  const q = query(col, orderBy("created", "desc"), limit(50));
-  const snap = await getDocs(q);
-  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  try {
+    const key = _cmtKey(tipe, lvl, no);
+    const col = collection(db, "komentar", key, "items");
+    const q = query(col, orderBy("created", "desc"), limit(50));
+    const snap = await getDocs(q);
+    return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  } catch (e) { console.warn("listKomentar failed:", e.message); return []; }
 }
 export async function tambahKomentar(tipe, lvl, no, text) {
   if (!currentUser) throw new Error("Harus login dulu");
@@ -310,7 +314,6 @@ export async function tambahKomentar(tipe, lvl, no, text) {
 }
 export async function hapusKomentar(tipe, lvl, no, id, ownerUid) {
   if (!currentUser) return;
-  // Only owner OR guru can delete (server rules enforce too)
   if (ownerUid && ownerUid !== currentUser.uid && !isGuru(currentUser)) {
     throw new Error("Bukan komentarmu");
   }
@@ -328,21 +331,30 @@ export async function tambahRangkuman({ jp, kana, arti, sumber = null, kategori 
   if (!currentUser) throw new Error("Harus login dulu");
   if (!jp) throw new Error("Kata kosong");
   const uid = currentUser.uid;
-  // Doc ID = sanitized jp so the second add dedupes.
   const safeId = jp.replace(/[\.#\$\[\]\/]/g, "_").slice(0, 120);
   const ref = doc(db, "siswa", uid, "rangkuman", safeId);
-  await setDoc(ref, {
-    jp, kana: kana || "", arti: arti || "",
-    sumber: sumber || "", kategori: kategori || "",
-    updated: serverTimestamp(),
-  }, { merge: true });
-  return { id: safeId };
+  try {
+    await setDoc(ref, {
+      jp, kana: kana || "", arti: arti || "",
+      sumber: sumber || "", kategori: kategori || "",
+      updated: serverTimestamp(),
+    }, { merge: true });
+    return { id: safeId };
+  } catch (e) {
+    // Most common cause: Firestore rules belum di-apply ke Firebase Console.
+    if (e.code === "permission-denied" || /permissions/i.test(e.message)) {
+      throw new Error("Firestore rules belum diperbarui — hubungi developer untuk apply rules.");
+    }
+    throw e;
+  }
 }
 export async function listRangkuman() {
   if (!currentUser) return [];
-  const col = collection(db, "siswa", currentUser.uid, "rangkuman");
-  const snap = await getDocs(col);
-  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  try {
+    const col = collection(db, "siswa", currentUser.uid, "rangkuman");
+    const snap = await getDocs(col);
+    return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+  } catch (e) { console.warn("listRangkuman failed:", e.message); return []; }
 }
 export async function hapusRangkuman(id) {
   if (!currentUser) return;
