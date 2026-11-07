@@ -293,13 +293,12 @@ async function renderKategoriTab(){
       <button class="btn" onclick="newKategori()">+ Kategori Baru</button>
       <div class="table-wrap" style="margin-top:12px;">
         <table>
-          <thead><tr><th>Nama</th><th>Level</th><th>Jumlah Soal</th><th>Durasi</th><th>Status</th><th>Aksi</th></tr></thead>
+          <thead><tr><th>Nama</th><th>Level</th><th>Durasi</th><th>Status</th><th>Aksi</th></tr></thead>
           <tbody>
             ${state.kategoriList.map(k => `
               <tr>
                 <td><b>${k.nama}</b></td>
                 <td>${(k.level||"").toUpperCase()}</td>
-                <td>${k.jumlahSoal||0}</td>
                 <td>${k.durasi||0} menit</td>
                 <td>${k.publish ? '<span class="chip on">Publish</span>' : '<span class="chip off">Draft</span>'}</td>
                 <td>
@@ -317,7 +316,7 @@ async function renderKategoriTab(){
 }
 window.newKategori = () => editKategori(null);
 window.editKategori = (id) => {
-  const k = id ? state.kategoriList.find(x => x.id === id) : { nama:"", level:"n5", deskripsi:"", jumlahSoal:20, durasi:30, lulus:60, publish:false, reward_xp:50, reward_koin:20 };
+  const k = id ? state.kategoriList.find(x => x.id === id) : { nama:"", level:"n5", deskripsi:"", durasi:30, lulus:60, publish:false, reward_xp:50, reward_koin:20 };
   modal(`
     <h2 style="color:var(--pink);">${id?"Edit":"Kategori Baru"}</h2>
     <div class="form-row"><label>Nama Ujian</label><input id="kg-nama" value="${k.nama||""}" style="flex:1;"/></div>
@@ -325,8 +324,8 @@ window.editKategori = (id) => {
       ${["n5","n4","n3","n2","n1"].map(l => `<option value="${l}" ${k.level===l?"selected":""}>${l.toUpperCase()}</option>`).join("")}
     </select></div>
     <div class="form-row"><label>Deskripsi</label><textarea id="kg-desc" rows="2" style="flex:1;">${k.deskripsi||""}</textarea></div>
-    <div class="form-row"><label>Jumlah Soal</label><input type="number" id="kg-js" value="${k.jumlahSoal||20}"/></div>
-    <div class="form-row"><label>Durasi (menit)</label><input type="number" id="kg-dur" value="${k.durasi||30}"/></div>
+    <div class="form-row"><label>Durasi (menit)</label><input type="number" id="kg-dur" value="${k.durasi||30}" min="1"/></div>
+    <p style="color:var(--gray); font-size:12px; margin:-4px 0 8px 0;">💡 Jumlah soal otomatis mengikuti jumlah soal yang kamu upload — tidak perlu diisi di sini.</p>
     <div class="form-row"><label>Nilai Lulus</label><input type="number" id="kg-lulus" value="${k.lulus||60}"/></div>
     <div class="form-row"><label>Reward XP</label><input type="number" id="kg-rxp" value="${k.reward_xp||50}"/></div>
     <div class="form-row"><label>Reward Koin</label><input type="number" id="kg-rkoin" value="${k.reward_koin||20}"/></div>
@@ -344,7 +343,6 @@ window.simpanKategori = async (id) => {
     nama: document.getElementById("kg-nama").value.trim(),
     level: document.getElementById("kg-level").value,
     deskripsi: document.getElementById("kg-desc").value,
-    jumlahSoal: parseInt(document.getElementById("kg-js").value) || 20,
     durasi: parseInt(document.getElementById("kg-dur").value) || 30,
     lulus: parseInt(document.getElementById("kg-lulus").value) || 60,
     reward_xp: parseInt(document.getElementById("kg-rxp").value) || 50,

@@ -342,7 +342,9 @@ body{
   display:flex; justify-content:space-between; padding:10px 16px; border-radius:10px;
   margin-bottom:12px; border:1px solid var(--border);
 }
-.soal-timer .time{font-family:var(--font-jp); font-size:18px; font-weight:800; color:var(--gold);}
+.soal-timer .time{font-family:var(--font-jp); font-size:18px; font-weight:800; color:var(--gold); transition:color .2s;}
+.soal-timer .time.time-danger{color:#ef5350; animation:timerPulse 1s infinite;}
+@keyframes timerPulse{0%,100%{opacity:1}50%{opacity:.55}}
 
 /* ========== Dashboard home grid ========== */
 .hub-grid{
@@ -983,7 +985,7 @@ async function renderQuest(){
               <div class="ico">📝</div>
               <div class="info">
                 <div class="ttl">${k.nama}</div>
-                <div class="sub">${k.jumlahSoal || "?"} soal · ${k.durasi || "?"} menit</div>
+                <div class="sub">⏱ ${k.durasi || "?"} menit</div>
               </div>
             </div>
           `).join("")}
@@ -1000,34 +1002,73 @@ async function renderQuest(){
 }
 
 /* ========== UJIAN engine ========== */
+// Real-time countdown: paints #timer every second, auto-submits at 0.
+let _ujianTimerId = null;
+function _fmtTime(sec){
+  const s = Math.max(0, sec|0);
+  return String(Math.floor(s/60)).padStart(2,"0") + ":" + String(s%60).padStart(2,"0");
+}
+function _stopUjianTimer(){
+  if (_ujianTimerId){ clearInterval(_ujianTimerId); _ujianTimerId = null; }
+}
+function _startUjianTimer(){
+  _stopUjianTimer();
+  const tick = () => {
+    const u = state.ujian;
+    const el = document.getElementById("timer");
+    if (!u || !el){ _stopUjianTimer(); return; }
+    const remaining = Math.max(0, Math.floor((u.endTime - Date.now()) / 1000));
+    el.textContent = "⏱ " + _fmtTime(remaining);
+    if (remaining <= 60) el.classList.add("time-danger");
+    else el.classList.remove("time-danger");
+    if (remaining === 0 && !u.autoSubmitted){
+      u.autoSubmitted = true;
+      _stopUjianTimer();
+      if (typeof toast === "function") toast("⏰ Waktu habis — jawaban dikirim otomatis");
+      if (typeof window.ujianSelesai === "function") window.ujianSelesai();
+    }
+  };
+  tick();
+  _ujianTimerId = setInterval(tick, 1000);
+}
+
 async function renderUjian(params){
   const kategoriId = params[0];
-  if (!kategoriId) return renderQuest();
+  if (!kategoriId){ _stopUjianTimer(); return renderQuest(); }
 
-  if (!state.user) return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk mengerjakan ujian.<br><button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
+  if (!state.user){ _stopUjianTimer(); return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk mengerjakan ujian.<br><button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`; }
+
+  const katList = await FB.listKategori(state.level);
+  const kat = katList.find(x => x.id === kategoriId);
+  const durasiMenit = Math.max(1, parseInt(kat?.durasi) || 30);
 
   const soal = await FB.listSoal(kategoriId);
-  if (!soal.length) return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">📭</div>Belum ada soal tersedia. Silakan tunggu guru mengunggah soal.</div></div>`;
+  if (!soal.length){ _stopUjianTimer(); return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">📭</div>Belum ada soal tersedia. Silakan tunggu guru mengunggah soal.</div></div>`; }
 
-  // Shuffle
+  _stopUjianTimer();
   state.ujian = {
     kategoriId,
     soal: soal.sort(() => Math.random() - 0.5),
     pos: 0,
     jawaban: {},
     mulai: Date.now(),
+    durasi: durasiMenit,
+    endTime: Date.now() + durasiMenit * 60 * 1000,
+    autoSubmitted: false,
   };
+  setTimeout(_startUjianTimer, 0);
   return renderUjianSoal();
 }
 function renderUjianSoal(){
   const u = state.ujian;
   const s = u.soal[u.pos];
   const picked = u.jawaban[u.pos];
+  const remaining = u.endTime ? Math.max(0, Math.floor((u.endTime - Date.now())/1000)) : 0;
   return `
     <div class="panel">
       <div class="soal-timer">
         <span>Soal ${u.pos+1} / ${u.soal.length}</span>
-        <span class="time" id="timer">--:--</span>
+        <span class="time${remaining<=60?' time-danger':''}" id="timer">⏱ ${_fmtTime(remaining)}</span>
       </div>
       <div class="soal-stem">${s.pertanyaan || ""}</div>
       <div class="opsi-list">
@@ -1055,6 +1096,7 @@ window.ujianNav = (dir) => {
   document.getElementById("app").innerHTML = renderUjianSoal();
 };
 window.ujianSelesai = async () => {
+  _stopUjianTimer();
   const u = state.ujian;
   let benar = 0, salah = 0;
   u.soal.forEach((s, i) => {
