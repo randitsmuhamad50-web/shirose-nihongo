@@ -1853,14 +1853,18 @@ function _normalizeItem(tipe, it, idx){
 
 async function _loadSrs(){
   let srs = {};
-  if (state.user) srs = await FB.loadSRS(state.level);
-  else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state.level}`) || "{}");
-  state.srs = srs;
-  return srs;
+  try {
+    if (state.user) srs = await FB.loadSRS(state.level);
+    else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state.level}`) || "{}");
+  } catch (e) { console.warn("_loadSrs:", e.message); srs = {}; }
+  state.srs = srs || {};
+  return state.srs;
 }
 async function _saveSrs(){
-  if (state.user) await FB.saveSRS(state.level, state.srs);
-  else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
+  try {
+    if (state.user) await FB.saveSRS(state.level, state.srs);
+    else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
+  } catch (e) { console.warn("_saveSrs:", e.message); }
 }
 
 // Entry router. renderHafalan() -> selection. renderHafalan(['go']) -> session using state.hafalan.
@@ -1883,24 +1887,39 @@ function _cardStatus(card){
 }
 
 async function renderHafalanSelect(){
-  // Rangkuman list only loaded when we're in the Rangkuman context — this keeps
-  // the normal Hafalan screen from being blocked by rules errors.
-  const promises = [
-    loadMateri("kosakata", state.level),
-    loadMateri("kanji", state.level),
-  ];
-  if (state._rangkumanContext && state.user) {
-    promises.push(FB.listRangkuman().catch(() => []));
-  } else {
-    promises.push(Promise.resolve([]));
+  try {
+    return await _renderHafalanSelectImpl();
+  } catch (e) {
+    console.error("renderHafalanSelect crashed:", e);
+    return `
+      <div class="panel">
+        <h2>🧠 Hafalan</h2>
+        <div class="empty">
+          <div class="emoji">⚠️</div>
+          <p>Terjadi masalah memuat Hafalan.</p>
+          <p style="color:var(--gray-dim); font-size:12px; margin-top:8px;">${e.message || "Unknown error"}</p>
+        </div>
+        <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+          <button class="btn gold" onclick="route('hafalan')">🔄 Coba lagi</button>
+          <button class="btn ghost" onclick="route('home')">🏠 Home</button>
+        </div>
+      </div>`;
   }
-  const [kos, knj, rangList] = await Promise.all(promises);
-  await _loadSrs();
+}
+async function _renderHafalanSelectImpl(){
+  // Load the two base datasets. Rangkuman only loaded in Rangkuman context.
+  const [kos, knj] = await Promise.all([
+    loadMateri("kosakata", state.level).catch(() => []),
+    loadMateri("kanji", state.level).catch(() => []),
+  ]);
+  let rangList = [];
+  if (state._rangkumanContext && state.user) {
+    rangList = await FB.listRangkuman().catch(() => []);
+  }
+  try { await _loadSrs(); } catch (e) { state.srs = state.srs || {}; }
 
   const cfg = state.hafalan || { tipe:"kosakata", range:"1-50", filter:"all", mode:"flashcard" };
   state.hafalan = cfg;
-  // Normalize: if we're in the normal Hafalan screen and a prior Rangkuman
-  // session left tipe="rangkuman", bring it back to kosakata.
   if (!state._rangkumanContext && cfg.tipe === "rangkuman") cfg.tipe = "kosakata";
 
   // Build a bucket of 50 covering the full dataset for the active type.

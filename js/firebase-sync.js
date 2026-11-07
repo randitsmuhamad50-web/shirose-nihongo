@@ -209,38 +209,46 @@ export async function equipItem(kategori, itemId) {
 /* ========== GAMI (XP / Koin / Streak per level JLPT) ========== */
 export async function getGami(level) {
   if (!currentUser) return null;
-  const snap = await getDoc(doc(db, "siswa", currentUser.uid, "gami", level));
-  return snap.exists() ? snap.data() : { xp:0, koin:0, streak:0, level_karakter:1 };
+  try {
+    const snap = await getDoc(doc(db, "siswa", currentUser.uid, "gami", level));
+    return snap.exists() ? snap.data() : { xp:0, koin:0, streak:0, level_karakter:1 };
+  } catch (e) { console.warn("getGami failed:", e.message); return { xp:0, koin:0, streak:0, level_karakter:1 }; }
 }
 export async function tambahXP(level, dXP, dKoin = 0) {
   if (!currentUser) return;
-  const ref = doc(db, "siswa", currentUser.uid, "gami", level);
-  const snap = await getDoc(ref);
-  const cur = snap.exists() ? snap.data() : { xp:0, koin:0, streak:0, level_karakter:1 };
-  cur.xp = (cur.xp || 0) + dXP;
-  cur.koin = (cur.koin || 0) + dKoin;
-  cur.level_karakter = Math.floor(Math.sqrt(cur.xp / 50)) + 1;
-  const today = new Date().toISOString().slice(0,10);
-  if (cur.lastDate !== today) {
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0,10);
-    cur.streak = cur.lastDate === yesterday ? (cur.streak || 0) + 1 : 1;
-    cur.lastDate = today;
-  }
-  await setDoc(ref, cur, { merge: true });
-  return cur;
+  try {
+    const ref = doc(db, "siswa", currentUser.uid, "gami", level);
+    const snap = await getDoc(ref);
+    const cur = snap.exists() ? snap.data() : { xp:0, koin:0, streak:0, level_karakter:1 };
+    cur.xp = (cur.xp || 0) + dXP;
+    cur.koin = (cur.koin || 0) + dKoin;
+    cur.level_karakter = Math.floor(Math.sqrt(cur.xp / 50)) + 1;
+    const today = new Date().toISOString().slice(0,10);
+    if (cur.lastDate !== today) {
+      const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0,10);
+      cur.streak = cur.lastDate === yesterday ? (cur.streak || 0) + 1 : 1;
+      cur.lastDate = today;
+    }
+    await setDoc(ref, cur, { merge: true });
+    return cur;
+  } catch (e) { console.warn("tambahXP failed:", e.message); return null; }
 }
 
 /* ========== SRS (hafalan) ========== */
 export async function saveSRS(level, kartu) {
   if (!currentUser) return;
-  await setDoc(doc(db, "siswa", currentUser.uid, "srs", level), {
-    kartu, updated: serverTimestamp()
-  }, { merge: true });
+  try {
+    await setDoc(doc(db, "siswa", currentUser.uid, "srs", level), {
+      kartu, updated: serverTimestamp()
+    }, { merge: true });
+  } catch (e) { console.warn("saveSRS failed:", e.message); }
 }
 export async function loadSRS(level) {
   if (!currentUser) return {};
-  const snap = await getDoc(doc(db, "siswa", currentUser.uid, "srs", level));
-  return snap.exists() ? (snap.data().kartu || {}) : {};
+  try {
+    const snap = await getDoc(doc(db, "siswa", currentUser.uid, "srs", level));
+    return snap.exists() ? (snap.data().kartu || {}) : {};
+  } catch (e) { console.warn("loadSRS failed:", e.message); return {}; }
 }
 
 /* ========== NILAI (riwayat ujian) ========== */
@@ -618,16 +626,18 @@ export async function getMisiHariIni() {
 }
 export async function updateMisiProgres(misiId, delta = 1) {
   if (!currentUser) return;
-  const tgl = new Date().toISOString().slice(0,10);
-  const ref = doc(db, "siswa", currentUser.uid, "misi_harian", tgl);
-  const snap = await getDoc(ref);
-  if (!snap.exists()) return;
-  const data = snap.data();
-  const m = data.misi.find(x => x.id === misiId);
-  if (!m || data.claimed.includes(misiId)) return;
-  m.progres = Math.min((m.progres || 0) + delta, m.target);
-  await setDoc(ref, data);
-  return m;
+  try {
+    const tgl = new Date().toISOString().slice(0,10);
+    const ref = doc(db, "siswa", currentUser.uid, "misi_harian", tgl);
+    const snap = await getDoc(ref);
+    if (!snap.exists()) return;
+    const data = snap.data();
+    const m = data.misi.find(x => x.id === misiId);
+    if (!m || data.claimed.includes(misiId)) return;
+    m.progres = Math.min((m.progres || 0) + delta, m.target);
+    await setDoc(ref, data);
+    return m;
+  } catch (e) { console.warn("updateMisiProgres failed:", e.message); }
 }
 export async function claimMisi(misiId, level = "n5") {
   if (!currentUser) return;
