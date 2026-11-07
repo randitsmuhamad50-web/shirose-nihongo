@@ -302,6 +302,13 @@ body{
 .rarity-rare{background:rgba(34,211,238,.18); color:#22d3ee;}
 .rarity-epic{background:rgba(139,92,246,.18); color:#8b5cf6;}
 .rarity-legendary{background:rgba(255,215,0,.18); color:#ffd700;}
+.rarity-mythic{
+  background:linear-gradient(135deg, rgba(239,68,68,.25), rgba(255,215,0,.25));
+  color:#fef3c7;
+  border:1px solid rgba(255,215,0,.5);
+  animation:mythicGlow 2s ease-in-out infinite;
+}
+@keyframes mythicGlow{0%,100%{box-shadow:0 0 6px rgba(255,215,0,.4)}50%{box-shadow:0 0 14px rgba(255,100,100,.7)}}
 
 .shop-action{margin:12px 0 10px;}
 .shop-wallet{text-align:center; font-size:14px; color:var(--gray);}
@@ -3334,6 +3341,7 @@ async function renderShop(){
     { key: "sepatu",      label: "👟 Sepatu" },
     { key: "aksesori",    label: "🎩 Aksesori" },
     { key: "item_tangan", label: "⚔️ Senjata" },
+    { key: "aura",        label: "✨ Aura" },
   ];
   const activeCat = state._shopCat && CAT_TABS.some(t => t.key === state._shopCat) ? state._shopCat : "rambut";
   state._shopCat = activeCat;

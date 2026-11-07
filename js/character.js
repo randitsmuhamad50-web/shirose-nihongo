@@ -461,6 +461,183 @@ export const HANDHELD = {
     `,
   },
 
+  /* ========== Flying Books — 3 variants (the "paling mahal") ========== */
+  /* "Buku Terbang" floats above the character; aura wraps the book. */
+  flying_book_green: {
+    nama: "📘 Buku Terbang · Aura Hijau",
+    jlpt:"all", rarity:"epic", harga:30000, unlock_lv:50,
+    svg: () => `
+      <defs><radialGradient id="fb-green"><stop offset="0%" stop-color="#10b981" stop-opacity=".9"/><stop offset="100%" stop-color="#10b981" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="200" cy="200" r="60" fill="url(#fb-green)">
+        <animate attributeName="r" values="55;70;55" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <g transform="translate(200 200)">
+        <rect x="-22" y="-18" width="44" height="36" rx="3" fill="#059669" stroke="#047857" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" values="-3;3;-3" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="-22" y="-18" width="44" height="8" fill="#047857"/>
+        <text x="0" y="8" text-anchor="middle" font-size="16" fill="#fff" font-weight="bold">語</text>
+      </g>
+      <!-- Particles -->
+      <circle cx="160" cy="180" r="2" fill="#10b981"><animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="240" cy="220" r="2" fill="#10b981"><animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/></circle>
+    `,
+  },
+  flying_book_purple: {
+    nama: "📘 Buku Terbang · Aura Ungu Epic",
+    jlpt:"all", rarity:"legendary", harga:60000, unlock_lv:75,
+    svg: () => `
+      <defs><radialGradient id="fb-purple"><stop offset="0%" stop-color="#8b5cf6" stop-opacity="1"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="200" cy="200" r="75" fill="url(#fb-purple)">
+        <animate attributeName="r" values="68;85;68" dur="2.5s" repeatCount="indefinite"/>
+      </circle>
+      <g transform="translate(200 200)">
+        <rect x="-26" y="-20" width="52" height="40" rx="3" fill="#7c3aed" stroke="#5b21b6" stroke-width="2">
+          <animateTransform attributeName="transform" type="rotate" values="-5;5;-5" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="-26" y="-20" width="52" height="9" fill="#5b21b6"/>
+        <text x="0" y="10" text-anchor="middle" font-size="18" fill="#ffd700" font-weight="bold">文</text>
+      </g>
+      <!-- Magic circles -->
+      <circle cx="200" cy="200" r="90" fill="none" stroke="#8b5cf6" stroke-width="1" opacity=".5">
+        <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="12s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Particles -->
+      <circle cx="150" cy="170" r="2.5" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="250" cy="230" r="2.5" fill="#ffd700"><animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="130" cy="230" r="2" fill="#8b5cf6"><animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/></circle>
+    `,
+  },
+  flying_book_mythic: {
+    nama: "✨ BUKU TERBANG MYTHIC · Emas + Api",
+    jlpt:"all", rarity:"mythic", harga:120000, unlock_lv:90,
+    svg: () => `
+      <defs>
+        <radialGradient id="fb-mythic"><stop offset="0%" stop-color="#ffd700" stop-opacity="1"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+        <linearGradient id="fb-fire" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <!-- Outer glow -->
+      <circle cx="200" cy="200" r="100" fill="url(#fb-mythic)">
+        <animate attributeName="r" values="90;110;90" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Fire wings -->
+      <path d="M160 200 Q130 190 120 170 Q130 200 150 220 Z" fill="url(#fb-fire)" opacity=".85">
+        <animate attributeName="opacity" values=".7;1;.7" dur="1.5s" repeatCount="indefinite"/>
+      </path>
+      <path d="M240 200 Q270 190 280 170 Q270 200 250 220 Z" fill="url(#fb-fire)" opacity=".85">
+        <animate attributeName="opacity" values=".7;1;.7" dur="1.5s" begin=".3s" repeatCount="indefinite"/>
+      </path>
+      <!-- Book -->
+      <g transform="translate(200 200)">
+        <rect x="-28" y="-22" width="56" height="44" rx="4" fill="#ffd700" stroke="#b8860b" stroke-width="2.5">
+          <animateTransform attributeName="transform" type="rotate" values="-6;6;-6" dur="2.8s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="-28" y="-22" width="56" height="10" fill="#b8860b"/>
+        <text x="0" y="14" text-anchor="middle" font-size="22" fill="#2a1810" font-weight="bold">極</text>
+      </g>
+      <!-- Spinning magic rings -->
+      <circle cx="200" cy="200" r="105" fill="none" stroke="#ffd700" stroke-width="1.5" opacity=".6">
+        <animateTransform attributeName="transform" type="rotate" from="0 200 200" to="360 200 200" dur="10s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="200" cy="200" r="115" fill="none" stroke="#f59e0b" stroke-width="1" opacity=".4" stroke-dasharray="4,4">
+        <animateTransform attributeName="transform" type="rotate" from="360 200 200" to="0 200 200" dur="14s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Fire particles -->
+      <circle cx="140" cy="150" r="3" fill="#ef4444"><animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/></circle>
+      <circle cx="260" cy="150" r="3" fill="#f59e0b"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></circle>
+      <circle cx="120" cy="240" r="2.5" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="1.3s" repeatCount="indefinite"/></circle>
+      <circle cx="280" cy="240" r="2.5" fill="#ffd700"><animate attributeName="opacity" values="1;0;1" dur="1.3s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="130" r="2" fill="#fef3c7"><animate attributeName="opacity" values="0;1;0" dur=".8s" repeatCount="indefinite"/></circle>
+    `,
+  },
+
+  /* ========== Hammers with aura (user request) ========== */
+  hammer_green: {
+    nama: "🔨 Palu · Aura Hijau",
+    jlpt:"n2", rarity:"uncommon", harga:4500, unlock_lv:10,
+    svg: () => `
+      <defs><radialGradient id="h-green"><stop offset="0%" stop-color="#10b981" stop-opacity=".7"/><stop offset="100%" stop-color="#10b981" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="334" r="28" fill="url(#h-green)"/>
+      <rect x="276" y="314" width="4" height="40" fill="#8b4513"/>
+      <rect x="262" y="310" width="30" height="14" rx="2" fill="#4b5563" stroke="#1f2937" stroke-width="1.5"/>
+    `,
+  },
+  hammer_purple: {
+    nama: "🔨 Palu · Aura Ungu Epic",
+    jlpt:"n2", rarity:"epic", harga:28000, unlock_lv:50,
+    svg: () => `
+      <defs><radialGradient id="h-purple"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".85"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="330" r="32" fill="url(#h-purple)"><animate attributeName="r" values="30;36;30" dur="2s" repeatCount="indefinite"/></circle>
+      <rect x="276" y="314" width="4" height="40" fill="#5b21b6"/>
+      <rect x="260" y="308" width="32" height="16" rx="3" fill="#7c3aed" stroke="#4c1d95" stroke-width="2"/>
+      <circle cx="252" cy="310" r="2" fill="#a78bfa"><animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="320" r="2" fill="#a78bfa"><animate attributeName="opacity" values="1;0;1" dur="1.5s" repeatCount="indefinite"/></circle>
+    `,
+  },
+  hammer_fire_gold: {
+    nama: "✨ Palu Mythic · Emas + Api",
+    jlpt:"n2", rarity:"legendary", harga:75000, unlock_lv:85,
+    svg: () => `
+      <defs>
+        <radialGradient id="h-mythic"><stop offset="0%" stop-color="#ffd700" stop-opacity="1"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+        <linearGradient id="h-fire" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <circle cx="280" cy="325" r="42" fill="url(#h-mythic)"><animate attributeName="r" values="38;48;38" dur="2s" repeatCount="indefinite"/></circle>
+      <rect x="276" y="314" width="4" height="40" fill="#b8860b"/>
+      <rect x="258" y="304" width="34" height="18" rx="3" fill="#ffd700" stroke="#b8860b" stroke-width="2.5"/>
+      <!-- Fire -->
+      <path d="M264 302 Q260 290 268 284 Q264 278 272 280 Q270 290 272 298Z" fill="url(#h-fire)" opacity=".9"/>
+      <path d="M296 302 Q300 290 292 284 Q296 278 288 280 Q290 290 288 298Z" fill="url(#h-fire)" opacity=".9"/>
+      <circle cx="248" cy="316" r="1.8" fill="#fff"><animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/></circle>
+      <circle cx="312" cy="320" r="1.8" fill="#fff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></circle>
+    `,
+  },
+
+  /* ========== Bags (tas) with aura ========== */
+  tas_green: {
+    nama: "🎒 Tas · Aura Hijau",
+    jlpt:"all", rarity:"uncommon", harga:3000, unlock_lv:10,
+    svg: () => `
+      <defs><radialGradient id="t-green"><stop offset="0%" stop-color="#10b981" stop-opacity=".6"/><stop offset="100%" stop-color="#10b981" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="283" cy="335" r="26" fill="url(#t-green)"/>
+      <rect x="265" y="315" width="35" height="40" rx="4" fill="#065f46" stroke="#064e3b" stroke-width="1.5"/>
+      <path d="M270 315 Q282 302 294 315" stroke="#064e3b" stroke-width="2.5" fill="none"/>
+      <rect x="275" y="335" width="15" height="4" fill="#064e3b"/>
+    `,
+  },
+  tas_purple: {
+    nama: "🎒 Tas · Aura Ungu Epic",
+    jlpt:"all", rarity:"rare", harga:14000, unlock_lv:25,
+    svg: () => `
+      <defs><radialGradient id="t-purple"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".75"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="283" cy="335" r="30" fill="url(#t-purple)"><animate attributeName="r" values="28;34;28" dur="2s" repeatCount="indefinite"/></circle>
+      <rect x="263" y="313" width="38" height="44" rx="5" fill="#5b21b6" stroke="#4c1d95" stroke-width="2"/>
+      <path d="M269 313 Q282 298 295 313" stroke="#4c1d95" stroke-width="3" fill="none"/>
+      <rect x="273" y="337" width="18" height="5" fill="#4c1d95"/>
+      <circle cx="255" cy="320" r="1.5" fill="#a78bfa"><animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="315" cy="330" r="1.5" fill="#a78bfa"><animate attributeName="opacity" values="1;0;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    `,
+  },
+  tas_fire_gold: {
+    nama: "✨ Tas Mythic · Emas + Api",
+    jlpt:"all", rarity:"epic", harga:35000, unlock_lv:50,
+    svg: () => `
+      <defs>
+        <radialGradient id="t-gold"><stop offset="0%" stop-color="#ffd700" stop-opacity=".9"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+        <linearGradient id="t-fire" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <circle cx="283" cy="335" r="36" fill="url(#t-gold)"><animate attributeName="r" values="32;42;32" dur="2s" repeatCount="indefinite"/></circle>
+      <path d="M268 310 Q264 300 272 294 Q268 286 276 288 Q274 298 274 304Z" fill="url(#t-fire)" opacity=".9"/>
+      <path d="M298 310 Q302 300 294 294 Q298 286 290 288 Q292 298 292 304Z" fill="url(#t-fire)" opacity=".9"/>
+      <rect x="261" y="315" width="42" height="44" rx="5" fill="#ffd700" stroke="#b8860b" stroke-width="2.5"/>
+      <path d="M267 315 Q282 298 297 315" stroke="#b8860b" stroke-width="3" fill="none"/>
+      <rect x="275" y="340" width="18" height="5" fill="#b8860b"/>
+      <text x="282" y="342" text-anchor="middle" font-size="14" fill="#2a1810" font-weight="bold">極</text>
+      <circle cx="248" cy="330" r="1.8" fill="#fff"><animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite"/></circle>
+      <circle cx="318" cy="340" r="1.8" fill="#fff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></circle>
+    `,
+  },
+
   /* LEGENDARY — Gold + Fire — unlock Lv 75 */
   legendary_golden_tome: {
     nama: "✨ Golden Tome Legendary",
@@ -509,47 +686,95 @@ export const HANDHELD = {
 /* ====== Aura (effect at high level) ====== */
 export const AURAS = {
   none: { nama: "Tidak ada", harga: 0, equipped_default: true, svg: null },
-  aura_pink: {
-    nama: "Aura Pink",
-    harga: 1000,
-    unlock_lv: 15,
+
+  /* 3 aura tiers — standalone purchases that wrap the whole character. */
+  aura_hijau: {
+    nama: "💚 Aura Hijau",
+    rarity: "uncommon", harga: 5000, unlock_lv: 10,
     svg: () => `
       <defs>
-        <radialGradient id="aura-pink-grad">
-          <stop offset="0%" stop-color="#ef6a9a" stop-opacity=".3"/>
-          <stop offset="70%" stop-color="#ef6a9a" stop-opacity=".1"/>
-          <stop offset="100%" stop-color="#ef6a9a" stop-opacity="0"/>
+        <radialGradient id="aura-green-grad">
+          <stop offset="0%" stop-color="#10b981" stop-opacity=".35"/>
+          <stop offset="70%" stop-color="#10b981" stop-opacity=".12"/>
+          <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
         </radialGradient>
       </defs>
-      <circle cx="200" cy="260" r="130" fill="url(#aura-pink-grad)">
-        <animate attributeName="r" from="120" to="140" dur="2s" repeatCount="indefinite" values="120;140;120"/>
+      <circle cx="200" cy="260" r="135" fill="url(#aura-green-grad)">
+        <animate attributeName="r" values="125;145;125" dur="2.3s" repeatCount="indefinite"/>
       </circle>
     `,
   },
-  aura_emas: {
-    nama: "Aura Emas",
-    harga: 2500,
-    unlock_lv: 30,
+
+  aura_ungu: {
+    nama: "💜 Aura Ungu Epic",
+    rarity: "rare", harga: 15000, unlock_lv: 25,
     svg: () => `
       <defs>
-        <radialGradient id="aura-emas-grad">
-          <stop offset="0%" stop-color="#ffd700" stop-opacity=".35"/>
-          <stop offset="70%" stop-color="#ffd700" stop-opacity=".1"/>
-          <stop offset="100%" stop-color="#ffd700" stop-opacity="0"/>
+        <radialGradient id="aura-purple-grad">
+          <stop offset="0%" stop-color="#8b5cf6" stop-opacity=".45"/>
+          <stop offset="70%" stop-color="#8b5cf6" stop-opacity=".15"/>
+          <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/>
         </radialGradient>
       </defs>
-      <circle cx="200" cy="260" r="140" fill="url(#aura-emas-grad)">
-        <animate attributeName="r" from="130" to="150" dur="2.5s" repeatCount="indefinite" values="130;150;130"/>
+      <circle cx="200" cy="260" r="140" fill="url(#aura-purple-grad)">
+        <animate attributeName="r" values="130;150;130" dur="2.2s" repeatCount="indefinite"/>
       </circle>
-      <!-- Sparkles -->
-      <g opacity=".8">
-        <circle cx="130" cy="150" r="3" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/></circle>
-        <circle cx="280" cy="200" r="2" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="1.5s" begin=".5s" repeatCount="indefinite"/></circle>
-        <circle cx="140" cy="350" r="2" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="1.8s" begin="1s" repeatCount="indefinite"/></circle>
-        <circle cx="290" cy="380" r="3" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="2.2s" begin=".2s" repeatCount="indefinite"/></circle>
+      <!-- Purple sparkles -->
+      <circle cx="120" cy="180" r="2" fill="#a78bfa"><animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="285" cy="220" r="2" fill="#a78bfa"><animate attributeName="opacity" values="1;0;1" dur="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="140" cy="360" r="2.5" fill="#c4b5fd"><animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/></circle>
+      <circle cx="275" cy="370" r="2" fill="#c4b5fd"><animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></circle>
+    `,
+  },
+
+  aura_emas_api: {
+    nama: "✨ Aura Emas + Api Legendary",
+    rarity: "legendary", harga: 50000, unlock_lv: 75,
+    svg: () => `
+      <defs>
+        <radialGradient id="aura-fire-grad">
+          <stop offset="0%" stop-color="#ffd700" stop-opacity=".55"/>
+          <stop offset="55%" stop-color="#f59e0b" stop-opacity=".2"/>
+          <stop offset="100%" stop-color="#ef4444" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="aura-flame" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <circle cx="200" cy="260" r="160" fill="url(#aura-fire-grad)">
+        <animate attributeName="r" values="150;175;150" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <!-- Flame wisps around character -->
+      <path d="M100 350 Q80 320 95 290 Q85 320 110 340Z" fill="url(#aura-flame)" opacity=".55">
+        <animate attributeName="opacity" values=".4;.8;.4" dur="1.3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M300 350 Q320 320 305 290 Q315 320 290 340Z" fill="url(#aura-flame)" opacity=".55">
+        <animate attributeName="opacity" values=".8;.4;.8" dur="1.3s" repeatCount="indefinite"/>
+      </path>
+      <path d="M120 180 Q100 150 115 120 Q105 150 130 170Z" fill="url(#aura-flame)" opacity=".5">
+        <animate attributeName="opacity" values=".4;.8;.4" dur="1.5s" begin=".2s" repeatCount="indefinite"/>
+      </path>
+      <path d="M280 180 Q300 150 285 120 Q295 150 270 170Z" fill="url(#aura-flame)" opacity=".5">
+        <animate attributeName="opacity" values=".8;.4;.8" dur="1.5s" begin=".2s" repeatCount="indefinite"/>
+      </path>
+      <!-- Gold sparkles -->
+      <g>
+        <circle cx="130" cy="150" r="3" fill="#ffd700"><animate attributeName="opacity" values="0;1;0" dur="1.6s" repeatCount="indefinite"/></circle>
+        <circle cx="280" cy="200" r="2.5" fill="#ffd700"><animate attributeName="opacity" values="1;0;1" dur="1.4s" repeatCount="indefinite"/></circle>
+        <circle cx="140" cy="350" r="2.5" fill="#fef3c7"><animate attributeName="opacity" values="0;1;0" dur="1.8s" repeatCount="indefinite"/></circle>
+        <circle cx="290" cy="380" r="3" fill="#ffd700"><animate attributeName="opacity" values="1;0;1" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="200" cy="100" r="2" fill="#fef3c7"><animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/></circle>
       </g>
     `,
   },
+
+  /* Legacy aliases kept so old equipped values still render */
+  aura_pink: { nama: "Aura Pink (lama)", harga: 1000, unlock_lv: 15, svg: () => `
+    <defs><radialGradient id="aura-pink-grad"><stop offset="0%" stop-color="#ef6a9a" stop-opacity=".3"/><stop offset="70%" stop-color="#ef6a9a" stop-opacity=".1"/><stop offset="100%" stop-color="#ef6a9a" stop-opacity="0"/></radialGradient></defs>
+    <circle cx="200" cy="260" r="130" fill="url(#aura-pink-grad)"><animate attributeName="r" values="120;140;120" dur="2s" repeatCount="indefinite"/></circle>
+  ` },
+  aura_emas: { nama: "Aura Emas (lama)", harga: 2500, unlock_lv: 30, svg: () => `
+    <defs><radialGradient id="aura-emas-grad"><stop offset="0%" stop-color="#ffd700" stop-opacity=".35"/><stop offset="70%" stop-color="#ffd700" stop-opacity=".1"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient></defs>
+    <circle cx="200" cy="260" r="140" fill="url(#aura-emas-grad)"><animate attributeName="r" values="130;150;130" dur="2.5s" repeatCount="indefinite"/></circle>
+  ` },
 };
 
 /* ====== ITEM CATALOGS (indexed) ====== */
