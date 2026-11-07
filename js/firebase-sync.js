@@ -212,6 +212,37 @@ export async function catatNilai(nilai) {
   return await addDoc(ref, { ...nilai, tgl: serverTimestamp() });
 }
 
+/* ========== RANGKUMAN SENDIRI (personal word collection) ========== */
+/**
+ * Add a word to the student's own "rangkuman" collection. Idempotent:
+ * if the same (jp) already exists, update arti and bump updated.
+ * Called from the word-popup after clicking any Japanese word.
+ */
+export async function tambahRangkuman({ jp, kana, arti, sumber = null, kategori = null }) {
+  if (!currentUser) throw new Error("Harus login dulu");
+  if (!jp) throw new Error("Kata kosong");
+  const uid = currentUser.uid;
+  // Doc ID = sanitized jp so the second add dedupes.
+  const safeId = jp.replace(/[\.#\$\[\]\/]/g, "_").slice(0, 120);
+  const ref = doc(db, "siswa", uid, "rangkuman", safeId);
+  await setDoc(ref, {
+    jp, kana: kana || "", arti: arti || "",
+    sumber: sumber || "", kategori: kategori || "",
+    updated: serverTimestamp(),
+  }, { merge: true });
+  return { id: safeId };
+}
+export async function listRangkuman() {
+  if (!currentUser) return [];
+  const col = collection(db, "siswa", currentUser.uid, "rangkuman");
+  const snap = await getDocs(col);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+export async function hapusRangkuman(id) {
+  if (!currentUser) return;
+  await deleteDoc(doc(db, "siswa", currentUser.uid, "rangkuman", id));
+}
+
 /**
  * Update a few safe fields in siswa.permissions (currently only
  * audio_autoplay; never let clients write unlimited_coins here).

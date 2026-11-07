@@ -379,15 +379,61 @@ body{
 .opsi.opsi-ok{border-color:var(--green); background:rgba(16,185,129,.18);}
 .opsi.opsi-bad{border-color:var(--red); background:rgba(239,68,68,.18);}
 
-/* ========== FLASHCARD v2 — swipe + 2-button rating ========== */
+/* ========== HAFALAN: status legend + preview list ========== */
+.status-legend{display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 8px;}
+.stat-pill{
+  display:inline-flex; align-items:center;
+  padding:5px 10px; border-radius:999px;
+  font-size:12px; font-weight:700;
+}
+.status-preview{
+  margin:8px 0 12px; border:1px solid var(--border); border-radius:12px;
+  background:rgba(13,16,36,.4); overflow:hidden;
+}
+.status-preview summary{
+  padding:10px 14px; cursor:pointer; user-select:none;
+  background:rgba(255,255,255,.04); font-size:13px;
+}
+.status-preview[open] summary{border-bottom:1px solid var(--border);}
+.status-list{
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+  gap:6px; padding:10px; max-height:340px; overflow-y:auto;
+}
+.status-item{
+  position:relative;
+  display:grid; grid-template-columns:auto 1fr auto; gap:8px;
+  align-items:center;
+  padding:10px 12px; border-radius:10px; border:1px solid;
+  font-family:var(--font-sans);
+}
+.status-item .status-jp{
+  font-family:var(--font-jp); font-weight:800; font-size:20px;
+  color:var(--pink-light); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.status-item .status-mean{
+  grid-column:1/-1; font-size:12px; color:var(--gray); line-height:1.3;
+  overflow:hidden; text-overflow:ellipsis; display:-webkit-box;
+  -webkit-line-clamp:1; -webkit-box-orient:vertical;
+}
+.status-item .no-badge{position:static; font-size:10px;}
+.status-item .status-chip{
+  padding:3px 8px; border-radius:999px; border:1px solid;
+  font-size:10px; font-weight:800; letter-spacing:.5px; text-transform:uppercase;
+  white-space:nowrap;
+}
+@media (max-width:640px){
+  .status-list{grid-template-columns:1fr; max-height:260px;}
+}
+
+/* ========== FLASHCARD v2 — front-only until tap, then reveal ========== */
 .flash-stage{
-  position:relative; min-height:420px;
+  position:relative; min-height:440px;
   display:flex; align-items:center; justify-content:center;
   margin:8px 0 16px; overflow:visible;
   user-select:none; -webkit-user-select:none; touch-action:pan-y;
 }
 .flash-card{
-  position:relative; width:100%; max-width:480px;
+  position:relative; width:100%; max-width:480px; min-height:380px;
   background:linear-gradient(160deg, rgba(42,50,112,.85), rgba(22,27,54,.85));
   border:1px solid var(--border); border-radius:20px;
   padding:28px 20px; text-align:center;
@@ -395,20 +441,21 @@ body{
   transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease, opacity .25s ease;
   cursor:pointer;
   will-change:transform, opacity;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
 }
 .flash-card .front{
   font-family:var(--font-jp); font-weight:800;
-  font-size:76px; line-height:1.1; color:var(--pink-light);
+  font-size:110px; line-height:1.1; color:var(--pink-light);
   margin:14px 0 10px; word-break:break-all;
 }
-@media (max-width:640px){ .flash-card .front{font-size:64px;} }
+@media (max-width:640px){ .flash-card .front{font-size:90px;} }
 .flash-card .reading{
   display:inline-block; padding:6px 14px; border-radius:999px;
   background:rgba(42,50,112,.6); color:var(--white);
-  font-family:var(--font-jp); font-size:20px; margin:4px 0 12px;
+  font-family:var(--font-jp); font-size:22px; margin:6px 0 12px;
 }
 .flash-card .arti{
-  font-size:18px; font-weight:700; color:var(--white);
+  font-size:20px; font-weight:700; color:var(--white);
   line-height:1.4; margin-top:6px;
 }
 .flash-card .contoh{
@@ -417,9 +464,18 @@ body{
   text-align:left;
 }
 .flash-card .tap-hint{
-  margin-top:14px; font-size:12px; color:var(--gray-dim);
+  margin-top:18px; font-size:13px; color:var(--gray-dim);
   letter-spacing:.3px;
+  animation:fadeHint 1.6s ease-in-out infinite;
 }
+@keyframes fadeHint{0%,100%{opacity:.4}50%{opacity:.9}}
+/* Reveal state: back face slides in */
+.flash-card .back-face{display:none;}
+.flash-card.revealed .back-face{display:block; animation:revealFade .25s ease-out;}
+.flash-card.revealed .front{font-size:72px; margin-top:0;}
+@media (max-width:640px){ .flash-card.revealed .front{font-size:58px;} }
+.flash-card.revealed .tap-hint{display:none;}
+@keyframes revealFade{0%{opacity:0; transform:translateY(8px)}100%{opacity:1; transform:translateY(0)}}
 .flash-card.swiping{transition:none;}
 .flash-card.leave-left{transform:translateX(-120%) rotate(-14deg); opacity:0;}
 .flash-card.leave-right{transform:translateX(120%) rotate(14deg); opacity:0;}
@@ -695,6 +751,149 @@ const state = {
 window.state = state;
 
 /* ========== TOAST ========== */
+/* ========== RANGKUMAN SENDIRI (personal word collection) ========== */
+// Open a popup to add any word to the student's own Rangkuman. Pre-fills
+// kana/arti via a dataset lookup when the user asks or when caller provides.
+window.rangkumPopup = (prefilled = {}, sumber = "") => {
+  const safe = (s) => (s||"").toString().replace(/"/g,"&quot;");
+  const existing = document.getElementById("rangkum-modal");
+  if (existing) existing.remove();
+  const html = `
+    <div class="modal-backdrop open" id="rangkum-modal" onclick="if(event.target===this) closeRangkumPopup()">
+      <div class="modal">
+        <h2>➕ Tambah ke Rangkuman</h2>
+        <p style="color:var(--gray); font-size:13px;">Catat kata yang mau kamu ulang-ulang nanti di menu Rangkuman.</p>
+        ${sumber ? `<p style="font-size:12px; color:var(--gray-dim); background:rgba(255,255,255,.04); padding:8px 10px; border-radius:8px; margin-top:8px;">📍 Sumber: ${sumber}</p>` : ""}
+        <div class="form-row" style="margin-top:14px;">
+          <label>Kata (日本語)</label>
+          <input id="rk-jp" value="${safe(prefilled.jp)}" placeholder="misal: 食べる" style="flex:1; font-family:var(--font-jp); font-size:20px;"/>
+        </div>
+        <div class="form-row">
+          <label>Kana</label>
+          <input id="rk-kana" value="${safe(prefilled.kana)}" placeholder="opsional, misal: たべる" style="flex:1;"/>
+        </div>
+        <div class="form-row">
+          <label>Arti</label>
+          <input id="rk-arti" value="${safe(prefilled.arti)}" placeholder="bahasa Indonesia" style="flex:1;"/>
+        </div>
+        <button class="btn ghost sm" onclick="rangkumAutoLookup()" style="margin-top:8px;">🔍 Cari otomatis di kamus SHIROSE</button>
+        <div style="display:flex; gap:10px; margin-top:16px;">
+          <button class="btn gold" onclick="rangkumSimpan('${safe(sumber)}')" style="flex:1;">💾 Simpan</button>
+          <button class="btn ghost" onclick="closeRangkumPopup()">Batal</button>
+        </div>
+      </div>
+    </div>`;
+  const wrap = document.createElement("div");
+  wrap.innerHTML = html;
+  document.body.appendChild(wrap.firstElementChild);
+  setTimeout(() => document.getElementById("rk-jp")?.focus(), 50);
+};
+
+window.closeRangkumPopup = () => { const m = document.getElementById("rangkum-modal"); if (m) m.remove(); };
+
+window.rangkumAutoLookup = async () => {
+  const jp = document.getElementById("rk-jp").value.trim();
+  if (!jp) return toast("Isi kata dulu");
+  // Search all levels across kosakata & kanji
+  for (const lvl of ["n5","n4","n3","n2","n1"]){
+    const kos = await loadMateri("kosakata", lvl);
+    const m = kos.find(it => (it.kata || it.k) === jp);
+    if (m){
+      document.getElementById("rk-kana").value = m.kana || "";
+      document.getElementById("rk-arti").value = m.arti || "";
+      toast(`✓ Ditemukan: kosakata ${lvl.toUpperCase()} No.${String(m.no||"-").padStart(3,"0")}`);
+      return;
+    }
+    const knj = await loadMateri("kanji", lvl);
+    const mk = knj.find(it => (it.kanji || it.k) === jp);
+    if (mk){
+      document.getElementById("rk-kana").value = mk.kana || "";
+      document.getElementById("rk-arti").value = mk.arti || "";
+      toast(`✓ Ditemukan: kanji ${lvl.toUpperCase()} No.${String(mk.no||"-").padStart(3,"0")}`);
+      return;
+    }
+  }
+  toast("Tidak ditemukan — tulis arti sendiri ya");
+};
+
+window.rangkumSimpan = async (sumber) => {
+  if (!state.user) return toast("Login dulu untuk menyimpan rangkuman");
+  const jp = document.getElementById("rk-jp").value.trim();
+  const kana = document.getElementById("rk-kana").value.trim();
+  const arti = document.getElementById("rk-arti").value.trim();
+  if (!jp) return toast("Kata tidak boleh kosong");
+  try {
+    await FB.tambahRangkuman({ jp, kana, arti, sumber });
+    toast(`✓ "${jp}" masuk ke rangkuman`);
+    closeRangkumPopup();
+  } catch(e){ toast("❌ " + e.message); }
+};
+
+/* ========== RANGKUMAN view ========== */
+async function renderRangkuman(){
+  if (!state.user){
+    return `<div class="panel"><h2>📝 Rangkuman Saya</h2>
+      <div class="empty"><div class="emoji">🔒</div>Login dulu untuk menyimpan rangkuman.<br>
+      <button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
+  }
+  const list = await FB.listRangkuman();
+  if (!list.length){
+    return `<div class="panel"><h2>📝 Rangkuman Saya</h2>
+      <div class="empty"><div class="emoji">📝</div>
+        Belum ada kata di rangkuman.<br><br>
+        Cara menambah:<br>
+        <small style="color:var(--gray); line-height:1.8;">
+        • Buka detail Kosakata / Kanji → tombol <b>➕ Rangkum</b><br>
+        • Setelah selesai ujian → tombol <b>➕ Rangkum</b> di tiap soal<br>
+        • Dari contoh kalimat → tombol <b>➕ Rangkum</b>
+        </small>
+      </div></div>`;
+  }
+  return `
+    <div class="panel">
+      <h2>📝 Rangkuman Saya (${list.length})</h2>
+      <p style="color:var(--gray); font-size:13px;">Kata yang kamu simpan sendiri — ulang-ulang di mode Hafalan.</p>
+      <div style="display:flex; gap:10px; margin:14px 0; flex-wrap:wrap;">
+        <button class="btn gold" onclick="rangkumToHafalan()">🧠 Mulai Hafalan dari Rangkuman</button>
+        <button class="btn ghost" onclick="route('home')">🏠 Home</button>
+      </div>
+      <div class="materi-list">
+        ${list.map((r, i) => `
+          <div class="materi-item" style="padding-right:48px;">
+            <button class="btn sm danger" onclick="rangkumHapus('${r.id}')"
+                    style="position:absolute; top:8px; right:8px; padding:4px 8px;">🗑</button>
+            <span class="no-badge">No.${String(i+1).padStart(3,"0")}</span>
+            <div class="kanji">${r.jp}</div>
+            <div class="reading">${r.kana||"—"}</div>
+            <div class="meaning">${r.arti||"—"}</div>
+            ${r.sumber ? `<div style="font-size:11px; color:var(--gray-dim); margin-top:4px;">📍 ${r.sumber}</div>` : ""}
+          </div>`).join("")}
+      </div>
+    </div>`;
+}
+
+window.rangkumHapus = async (id) => {
+  if (!confirm("Hapus kata ini dari rangkuman?")) return;
+  await FB.hapusRangkuman(id);
+  route("rangkuman");
+};
+
+window.rangkumToHafalan = async () => {
+  const list = await FB.listRangkuman();
+  if (!list.length) return toast("Rangkuman kosong");
+  state.hafalan_queue = list.map((r, i) => ({
+    tipe: "rangkuman", idx: i, no: i + 1,
+    front: r.jp, reading: r.kana || "",
+    back: r.arti || r.jp,
+  })).sort(() => Math.random() - 0.5);
+  state.hafalan_pos = 0;
+  state.hafalan_score = { benar:0, salah:0 };
+  state.hafalan = state.hafalan || {};
+  state.hafalan.tipe = "rangkuman";
+  state.hafalan.mode = "flashcard";
+  route("hafalan/go");
+};
+
 function toast(msg){
   const t = document.createElement("div");
   t.className = "toast";
@@ -855,6 +1054,7 @@ const routes = {
   kanji: () => renderMateriList("kanji"),
   bunpou: () => renderMateriList("bunpou"),
   hafalan: renderHafalan,
+  rangkuman: renderRangkuman,
   quest: renderQuest,
   ujian: (params) => renderUjian(params),
   shop: renderShop,
@@ -913,14 +1113,15 @@ function renderCharaOrbital(){
 
   const NAV = [
     { icon:"📚", lbl:"Materi",     route:"materi",      deg:0 },
-    { icon:"🧠", lbl:"Hafalan",    route:"hafalan",     deg:40 },
-    { icon:"⚔️", lbl:"Quest",      route:"quest",       deg:80 },
-    { icon:"📝", lbl:"Ujian",      route:"ujian",       deg:120 },
-    { icon:"🎯", lbl:"Misi",       route:"misi",        deg:160 },
-    { icon:"🛒", lbl:"Shop",       route:"shop",        deg:200 },
-    { icon:"🎒", lbl:"Inventory",  route:"inventory",   deg:240 },
-    { icon:"👔", lbl:"Wardrobe",   route:"wardrobe",    deg:280 },
-    { icon:"🏆", lbl:"Peringkat",  route:"leaderboard", deg:320 },
+    { icon:"🧠", lbl:"Hafalan",    route:"hafalan",     deg:36 },
+    { icon:"📝", lbl:"Rangkuman",  route:"rangkuman",   deg:72 },
+    { icon:"⚔️", lbl:"Quest",      route:"quest",       deg:108 },
+    { icon:"📝", lbl:"Ujian",      route:"ujian",       deg:144 },
+    { icon:"🎯", lbl:"Misi",       route:"misi",        deg:180 },
+    { icon:"🛒", lbl:"Shop",       route:"shop",        deg:216 },
+    { icon:"🎒", lbl:"Inventory",  route:"inventory",   deg:252 },
+    { icon:"👔", lbl:"Wardrobe",   route:"wardrobe",    deg:288 },
+    { icon:"🏆", lbl:"Peringkat",  route:"leaderboard", deg:324 },
   ];
   const R = Math.min(260, window.innerWidth * 0.35);
   const nodes = NAV.map(n => {
@@ -1110,7 +1311,10 @@ window.showMateri = async (tipe, idx) => {
             <div class="id">${c.a||""}</div>
           </div>`).join("")}
         </div>` : ""}
-        <button class="btn" style="margin-top:16px;" onclick="speakJP('${(k||"").replace(/'/g,"")}')">🔊 Dengar</button>
+        <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
+          <button class="btn" onclick="speakJP('${(k||"").replace(/'/g,"")}')">🔊 Dengar</button>
+          <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
+        </div>
       </div>
     `;
   } else if (tipe === "kosakata") {
@@ -1125,11 +1329,16 @@ window.showMateri = async (tipe, idx) => {
         <div class="big-k" style="font-size:72px;">${kata}</div>
         <div class="readings"><div class="r">${kana}</div></div>
         <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
-        ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left;">
+        ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left; position:relative;">
           <div class="jp">${contoh}</div>
           <div class="id" style="text-align:left;">${contohArti}</div>
+          <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
+                  onclick='rangkumPopup({}, "Contoh kalimat: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
         </div>` : ""}
-        <button class="btn" style="margin-top:16px;" onclick="speakJP('${(kata||"").replace(/'/g,"")}')">🔊 Dengar</button>
+        <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
+          <button class="btn" onclick="speakJP('${(kata||"").replace(/'/g,"")}')">🔊 Dengar</button>
+          <button class="btn gold" onclick='rangkumPopup({jp:"${(kata||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kosakata ${no}")'>➕ Rangkum</button>
+        </div>
       </div>
     `;
   } else {
@@ -1144,10 +1353,15 @@ window.showMateri = async (tipe, idx) => {
         <div class="big-k" style="font-size:60px;">${pola}</div>
         ${kana && kana !== pola ? `<div class="readings"><div class="r">${kana}</div></div>` : ""}
         <div style="font-size:14px; margin:12px 0; line-height:1.6; text-align:left; background:rgba(255,255,255,.04); padding:14px; border-radius:10px; white-space:pre-wrap;">${penjelasan}</div>
-        ${contoh ? `<div class="contoh-item" style="flex-direction:column; align-items:flex-start;">
+        ${contoh ? `<div class="contoh-item" style="flex-direction:column; align-items:flex-start; position:relative;">
           <div class="jp">${contoh}</div>
           <div class="id" style="text-align:left; align-self:stretch;">${contohArti}</div>
+          <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
+                  onclick='rangkumPopup({}, "Contoh grammar: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
         </div>` : ""}
+        <div style="margin-top:14px; text-align:center;">
+          <button class="btn gold" onclick='rangkumPopup({jp:"${(pola||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${((it.arti||it.e||"")+"").slice(0,80).replace(/"/g,"\\&quot;")}"}, "Bunpou ${no}")'>➕ Rangkum pola ini</button>
+        </div>
       </div>
     `;
   }
@@ -1239,31 +1453,83 @@ async function renderHafalan(params){
   return renderHafalanSelect();
 }
 
+// Classify a card by SRS state → status + color.
+// Also used to render the preview list in the Hafalan selection screen.
+function _cardStatus(card){
+  if (!card)                        return { key:"new",      label:"Baru",            color:"#ffffff", bg:"rgba(255,255,255,.08)" };
+  if (card.mastered)                return { key:"mastered", label:"Mastered",        color:"#10b981", bg:"rgba(16,185,129,.18)" };
+  if ((card.interval||1) >= 10)     return { key:"review",   label:"Review",          color:"#f59e0b", bg:"rgba(245,158,11,.18)" };
+  if ((card.interval||1) >= 3)      return { key:"learning", label:"Learning",        color:"#eab308", bg:"rgba(234,179,8,.18)" };
+  return                                   { key:"fresh",    label:"Baru dipelajari", color:"#ef5350", bg:"rgba(239,83,80,.18)" };
+}
+
 async function renderHafalanSelect(){
-  // Preload both datasets so the counts in the UI are correct
-  const [kos, knj] = await Promise.all([
+  const [kos, knj, rangList] = await Promise.all([
     loadMateri("kosakata", state.level),
     loadMateri("kanji", state.level),
+    state.user ? FB.listRangkuman() : Promise.resolve([]),
   ]);
   await _loadSrs();
 
   const cfg = state.hafalan || { tipe:"kosakata", range:"1-50", filter:"all", mode:"flashcard" };
   state.hafalan = cfg;
 
-  const makeRanges = (n) => {
-    const r = [];
-    const buckets = [50, 100, 150, 200];
-    buckets.forEach(b => { if (n >= Math.min(b, 30)) r.push(`1-${Math.min(b, n)}`); });
-    if (n > 50)  r.push("51-100");
-    if (n > 150) r.push("101-200");
-    r.push("all");
-    return Array.from(new Set(r));
-  };
-  const maxN = Math.max(kos.length, knj.length);
-  const ranges = makeRanges(maxN);
+  // Build a bucket of 50 covering the full dataset for the active type.
+  function activePool(){
+    const pool = [];
+    const push = (tipe, arr) => arr.forEach((it, idx) => pool.push(_normalizeItem(tipe, it, idx)));
+    if (cfg.tipe === "rangkuman"){
+      rangList.forEach((r, i) => pool.push({ tipe:"rangkuman", idx:i, no:i+1, front:r.jp, reading:r.kana||"", back:r.arti||"" }));
+    } else {
+      if (cfg.tipe === "kosakata" || cfg.tipe === "semua") push("kosakata", kos);
+      if (cfg.tipe === "kanji"    || cfg.tipe === "semua") push("kanji", knj);
+    }
+    return pool;
+  }
+  const pool = activePool();
+  const maxNo = pool.reduce((m, p) => Math.max(m, p.no), 0);
 
-  const typeBtn = (v, lbl, sub) => `
-    <button class="haf-pick ${cfg.tipe===v?'on':''}" onclick="hafCfg('tipe','${v}')">
+  function makeRanges(n){
+    const r = [];
+    if (n <= 0) return ["all"];
+    for (let start = 1; start <= n; start += 50){
+      const end = Math.min(start + 49, n);
+      r.push(`${start}-${end}`);
+    }
+    r.push("all");
+    return r;
+  }
+  const ranges = makeRanges(maxNo);
+
+  // Ensure cfg.range is valid for the current pool
+  if (!ranges.includes(cfg.range)) cfg.range = "all";
+
+  // Filtered preview: apply range + filter on the pool
+  const now = Date.now();
+  let preview = pool;
+  if (cfg.range !== "all"){
+    const [lo, hi] = cfg.range.split("-").map(Number);
+    preview = preview.filter(p => p.no >= lo && p.no <= hi);
+  }
+  preview = preview.filter(p => {
+    const key = _srsKey(p.tipe, {no:p.no}, p.idx);
+    const card = state.srs[key];
+    if (cfg.filter === "new")         return !card;
+    if (cfg.filter === "due")         return card && card.due <= now;
+    if (cfg.filter === "notmastered") return !card || !card.mastered;
+    if (cfg.filter === "mastered")    return !!card?.mastered;
+    return true;
+  });
+
+  // Counters by status, across the filtered set
+  const counters = { mastered:0, review:0, learning:0, fresh:0, new:0 };
+  preview.forEach(p => {
+    const key = _srsKey(p.tipe, {no:p.no}, p.idx);
+    counters[_cardStatus(state.srs[key]).key]++;
+  });
+
+  const typeBtn = (v, lbl, sub, disabled=false) => `
+    <button class="haf-pick ${cfg.tipe===v?'on':''}" ${disabled?'disabled style="opacity:.4;"':''} onclick="hafCfg('tipe','${v}')">
       <div class="lbl">${lbl}</div><div class="sub">${sub}</div>
     </button>`;
 
@@ -1273,16 +1539,17 @@ async function renderHafalanSelect(){
   return `
     <div class="panel">
       <h2>🧠 Hafalan</h2>
-      <p style="color:var(--gray); font-size:13px; margin-bottom:14px;">Pilih yang mau dihafal, rentang, filter, lalu mode belajar.</p>
+      <p style="color:var(--gray); font-size:14px; margin-bottom:14px;">Pilih yang mau dihafal, rentang, filter, lalu mode belajar.</p>
 
       <h3 style="margin-bottom:8px;">1. Pilih materi</h3>
       <div class="haf-type-row">
         ${typeBtn("kosakata", "📖 Kosakata", kos.length + " kata")}
         ${typeBtn("kanji",    "🈷️ Kanji",    knj.length + " kanji")}
         ${typeBtn("semua",    "✨ Semua",     (kos.length + knj.length) + " item")}
+        ${typeBtn("rangkuman","📝 Rangkuman",rangList.length + " kata", !state.user)}
       </div>
 
-      <h3 style="margin:16px 0 8px;">2. Rentang nomor</h3>
+      <h3 style="margin:16px 0 8px;">2. Rentang nomor <small style="color:var(--gray-dim); font-weight:400;">(bucket per 50)</small></h3>
       <div class="haf-chip-row">
         ${ranges.map(r => chip("range", r, r === "all" ? "Semua" : r)).join("")}
       </div>
@@ -1293,7 +1560,36 @@ async function renderHafalanSelect(){
         ${chip("filter","new","Baru")}
         ${chip("filter","due","Due hari ini")}
         ${chip("filter","notmastered","Belum mastered")}
+        ${chip("filter","mastered","Sudah mastered")}
       </div>
+
+      <div class="status-legend">
+        <span class="stat-pill" style="background:rgba(16,185,129,.18); color:#10b981;">● Mastered ${counters.mastered}</span>
+        <span class="stat-pill" style="background:rgba(245,158,11,.18); color:#f59e0b;">● Review ${counters.review}</span>
+        <span class="stat-pill" style="background:rgba(234,179,8,.18); color:#eab308;">● Learning ${counters.learning}</span>
+        <span class="stat-pill" style="background:rgba(239,83,80,.18); color:#ef5350;">● Baru dipelajari ${counters.fresh}</span>
+        <span class="stat-pill" style="background:rgba(255,255,255,.08); color:#fff;">● Belum ${counters.new}</span>
+      </div>
+
+      ${preview.length ? `
+        <details class="status-preview" ${cfg.filter !== "all" ? "open" : ""}>
+          <summary><b>Lihat daftar kartu (${preview.length})</b> · klik untuk buka/tutup</summary>
+          <div class="status-list">
+            ${preview.slice(0, 200).map(p => {
+              const key = _srsKey(p.tipe, {no:p.no}, p.idx);
+              const s = _cardStatus(state.srs[key]);
+              return `
+                <div class="status-item" style="background:${s.bg}; border-color:${s.color}44;">
+                  <span class="no-badge">${fmtNo(p.no)}</span>
+                  <div class="status-jp">${p.front}</div>
+                  <div class="status-mean">${p.back}</div>
+                  <span class="status-chip" style="color:${s.color}; border-color:${s.color};">${s.label}</span>
+                </div>`;
+            }).join("")}
+            ${preview.length > 200 ? `<p style="text-align:center; color:var(--gray); margin-top:8px;">...dan ${preview.length-200} kartu lainnya</p>` : ""}
+          </div>
+        </details>
+      ` : `<p style="text-align:center; color:var(--gray-dim); margin:12px 0;">Tidak ada kartu dengan filter ini.</p>`}
 
       <h3 style="margin:16px 0 8px;">4. Mode belajar</h3>
       <div class="haf-mode-row">
@@ -1315,7 +1611,7 @@ async function renderHafalanSelect(){
       </label>
 
       <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap;">
-        <button class="btn gold" style="flex:1; min-width:160px;" onclick="hafStart()">▶ Mulai Hafalan</button>
+        <button class="btn gold" style="flex:1; min-width:160px;" onclick="hafStart()">▶ Mulai Hafalan (${preview.length})</button>
         <button class="btn ghost" onclick="route('home')">← Kembali</button>
       </div>
     </div>
@@ -1330,20 +1626,24 @@ window.hafCfg = (field, value) => {
 };
 
 window.hafStart = async () => {
-  // Build pool from the selected type + range
   const cfg = state.hafalan;
-  const [kos, knj] = await Promise.all([
+  const [kos, knj, rangList] = await Promise.all([
     loadMateri("kosakata", state.level),
     loadMateri("kanji", state.level),
+    state.user ? FB.listRangkuman() : Promise.resolve([]),
   ]);
   await _loadSrs();
 
   const pool = [];
   const push = (tipe, arr) => arr.forEach((it, idx) => pool.push(_normalizeItem(tipe, it, idx)));
-  if (cfg.tipe === "kosakata" || cfg.tipe === "semua") push("kosakata", kos);
-  if (cfg.tipe === "kanji"    || cfg.tipe === "semua") push("kanji", knj);
+  if (cfg.tipe === "rangkuman"){
+    rangList.forEach((r, i) => pool.push({ tipe:"rangkuman", idx:i, no:i+1, front:r.jp, reading:r.kana||"", back:r.arti||"" }));
+  } else {
+    if (cfg.tipe === "kosakata" || cfg.tipe === "semua") push("kosakata", kos);
+    if (cfg.tipe === "kanji"    || cfg.tipe === "semua") push("kanji", knj);
+  }
 
-  // Range filter: "1-50", "51-100", ... "all"
+  // Range filter
   let inRange = pool;
   if (cfg.range && cfg.range !== "all"){
     const [lo, hi] = cfg.range.split("-").map(Number);
@@ -1357,8 +1657,9 @@ window.hafStart = async () => {
     const card = state.srs[key];
     if (cfg.filter === "new")         return !card;
     if (cfg.filter === "due")         return card && card.due <= now;
-    if (cfg.filter === "notmastered") return !card || (card.interval || 1) < 21;
-    return true; // all
+    if (cfg.filter === "notmastered") return !card || !card.mastered;
+    if (cfg.filter === "mastered")    return !!card?.mastered;
+    return true;
   });
 
   if (!filtered.length){
@@ -1366,7 +1667,7 @@ window.hafStart = async () => {
     return;
   }
 
-  // Shuffle + cap (bigger cap for matching so we have pairs)
+  // Shuffle + cap
   const cap = cfg.mode === "matching" ? Math.min(filtered.length, 20) : Math.min(filtered.length, 20);
   state.hafalan_queue = filtered.sort(() => Math.random() - 0.5).slice(0, cap);
   state.hafalan_pos = 0;
@@ -1387,18 +1688,21 @@ function renderHafalanSession(){
   return renderHafalanFlashcard();
 }
 
-/* ========== MODE 1: FLASHCARD v2 — swipe + 2 buttons + auto-audio ========== */
+/* ========== MODE 1: FLASHCARD v2 — front-only, tap = reveal, center btn = prev ========== */
 function renderHafalanFlashcard(){
   const q = state.hafalan_queue;
   const pos = state.hafalan_pos;
   if (pos >= q.length) return renderHafalanDone();
   const it = q[pos];
   const safeFront = (it.front || "").replace(/"/g, "&quot;");
-  const kemBtn = pos === 0
-    ? `<button class="flash-btn back" disabled title="Ini kartu pertama">↶</button>`
-    : `<button class="flash-btn back" onclick="hafBack()" title="Kembali ke kartu sebelumnya">↶</button>`;
+  // Fresh reveal state each new card
+  state._flashRevealed = false;
 
-  // Queue a render-time post hook (run after innerHTML swap) to wire swipe + autoplay
+  const kemBtn = pos === 0
+    ? `<button class="flash-btn back" disabled title="Ini kartu pertama">↶ Kembali</button>`
+    : `<button class="flash-btn back" onclick="hafBack()" title="Kembali ke kartu sebelumnya">↶ Kembali</button>`;
+
+  // Wire swipe + audio after DOM swap
   setTimeout(_hafPostRender, 0);
 
   return `
@@ -1413,11 +1717,13 @@ function renderHafalanFlashcard(){
         <span class="flash-badge left" id="badge-lupa">✕ LUPA</span>
         <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
         <div class="flash-card enter" id="flash-card" data-front="${safeFront}" onclick="hafCardTap(event)">
-          <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+          <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
           <div class="front">${it.front}</div>
-          <div class="reading">${it.reading || "—"}</div>
-          <div class="arti">${it.back || "—"}</div>
-          <div class="tap-hint">Geser ← Lupa · Ingat → · Tap kartu = kembali</div>
+          <div class="back-face">
+            <div class="reading">${it.reading || "—"}</div>
+            <div class="arti">${it.back || "—"}</div>
+          </div>
+          <div class="tap-hint">👆 Tap kartu untuk lihat arti · ← Geser Lupa · Ingat Geser →</div>
         </div>
       </div>
 
@@ -1425,13 +1731,11 @@ function renderHafalanFlashcard(){
         <button class="flash-btn lupa" onclick="hafRate('lupa')">
           <span class="ico">←</span>
           <span>Lupa</span>
-          <span class="sub">Geser kiri juga bisa</span>
         </button>
         ${kemBtn}
         <button class="flash-btn ingat" onclick="hafRate('ingat')">
           <span class="ico">→</span>
           <span>Ingat</span>
-          <span class="sub">Geser kanan juga bisa</span>
         </button>
       </div>
     </div>
@@ -1442,24 +1746,25 @@ function renderHafalanFlashcard(){
 function _hafPostRender(){
   const card = document.getElementById("flash-card");
   if (!card) return;
-  // Auto-play the current card's pronunciation (inside the user-interaction
-  // stack that triggered this render — satisfies mobile autoplay policy).
   const front = card.getAttribute("data-front");
+  // Auto-play the current card's pronunciation (mobile-autoplay-safe
+  // because this render was triggered by a user click/swipe).
   _autoSpeakJP(front);
-  // Wire swipe.
   _bindFlashSwipe(card);
 }
 
-// Classify a tap on the card: if the user's finger didn't actually move
-// (small movement), treat as back; otherwise the swipe handler took over.
+// Tap on the card (not on a button) = reveal. If already revealed, tap does nothing
+// (navigate with the dedicated Kembali button or swipe to rate).
 window.hafCardTap = (ev) => {
-  // Click on child elements is fine; distinguish real tap vs swipe end.
+  // If a swipe just ended, don't treat as a tap
   if (state._swipeMoved) { state._swipeMoved = false; return; }
-  // First card has nothing to go back to
-  if ((state.hafalan_pos || 0) === 0) return;
-  hafBack();
+  const card = document.getElementById("flash-card");
+  if (!card || state._flashRevealed) return;
+  state._flashRevealed = true;
+  card.classList.add("revealed");
 };
 
+// Center button: go back to the previous card (only when pos > 0).
 window.hafBack = () => {
   if ((state.hafalan_pos || 0) === 0) return;
   state.hafalan_pos--;
@@ -1651,6 +1956,8 @@ async function matchAfterPair(correct, iInBatch){
   state.srs[key] = card;
   await _saveSrs();
   if (correct){
+    // Play the Japanese word audio right after the match (user interaction = allowed autoplay)
+    _autoSpeakJP(it.front);
     await awardXP(3, justMastered ? 1 : 0);
     if (justMastered) toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
   }
@@ -1956,14 +2263,18 @@ window.ujianSelesai = async () => {
       ${u.soal.map((s, i) => {
         const pick = u.jawaban[i];
         const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
+        const kunciTeks = (s.opsi?.[kunci] || "").toString();
+        const safeQ = (s.pertanyaan||"").slice(0,80).replace(/"/g,"&quot;").replace(/'/g,"&#39;");
         return `
-          <div class="contoh-item" style="flex-direction:column; align-items:stretch; margin-bottom:10px;">
+          <div class="contoh-item" style="flex-direction:column; align-items:stretch; margin-bottom:10px; position:relative;">
             <div><b>${i+1}. ${s.pertanyaan}</b></div>
             <div style="color:${pick===kunci?'var(--green)':'var(--red)'}; font-size:12px; margin-top:4px;">
               Jawabanmu: ${pick!=null ? String.fromCharCode(65+pick) : "(kosong)"} ·
-              Kunci: ${String.fromCharCode(65+kunci)} ${s.opsi?.[kunci] || ""}
+              Kunci: ${String.fromCharCode(65+kunci)} ${kunciTeks}
             </div>
             ${s.pembahasan_id ? `<div style="font-size:12px; color:var(--gray); margin-top:4px;">${s.pembahasan_id}</div>` : ""}
+            <button class="btn sm ghost" style="margin-top:8px; align-self:flex-start;"
+                    onclick='rangkumPopup({arti:"${kunciTeks.replace(/"/g,"\\&quot;").slice(0,80)}"}, "Soal ${i+1}: ${safeQ}")'>➕ Rangkum kata dari soal ini</button>
           </div>
         `;
       }).join("")}
