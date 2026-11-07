@@ -1072,10 +1072,35 @@ body{
 .stroke-ctrl{display:flex; gap:8px; justify-content:center; margin-top:10px; flex-wrap:wrap;}
 .stroke-numlabel{
   display:inline-flex; align-items:center; gap:8px; cursor:pointer;
-  padding:6px 12px; border-radius:999px;
+  padding:8px 14px; border-radius:999px;
   background:rgba(255,255,255,.06); border:1px solid var(--border);
-  font-size:12px; font-weight:700;
+  font-size:13px; font-weight:700; min-height:38px;
 }
+
+.stroke-top-ctrl{
+  display:flex; gap:10px; flex-wrap:wrap; align-items:center;
+  margin:10px 0 12px;
+}
+.stroke-speed-row{
+  display:inline-flex; align-items:center; gap:6px; flex-wrap:wrap;
+  padding:4px 10px; border-radius:999px;
+  background:rgba(255,255,255,.04); border:1px solid var(--border);
+}
+.stroke-speed-chip{
+  padding:6px 12px; border-radius:999px; cursor:pointer; min-height:34px;
+  background:transparent; border:1px solid transparent;
+  color:var(--gray); font-weight:700; font-size:12px; transition:all .15s;
+}
+.stroke-speed-chip:hover{color:var(--white);}
+.stroke-speed-chip.on{
+  background:var(--pink); color:white; border-color:var(--pink);
+  box-shadow:0 2px 8px rgba(239,106,154,.4);
+}
+
+/* Stroke-wrap becomes interactive — click to replay */
+.stroke-wrap{cursor:pointer; transition:transform .15s;}
+.stroke-wrap:hover{transform:scale(1.02);}
+.stroke-wrap:active{transform:scale(.98);}
 
 /* Furigana toggle: hide ruby reading when exam panel has .no-furigana */
 .exam-area ruby rt{transition:opacity .2s;}
@@ -2256,10 +2281,16 @@ window.showStrokeOrder = async (word) => {
 
   const showNums = !!state._strokeShowNumbers;
 
+  const speed = state._strokeSpeed || "medium";
+  const speedChip = (val, lbl) => `
+    <button class="stroke-speed-chip ${speed===val?'on':''}" onclick="setStrokeSpeed('${val}')">${lbl}</button>
+  `;
+
   const panels = kanjiChars.map((c, i) => `
     <div class="stroke-panel">
       <div class="stroke-panel-head">${c}</div>
-      <div class="stroke-wrap${showNums?' show-numbers':''}" data-idx="${i}" data-kanji="${c}">
+      <div class="stroke-wrap${showNums?' show-numbers':''}" data-idx="${i}" data-kanji="${c}"
+           onclick="replayOneStroke(${i})" title="Klik untuk ulang animasi">
         <div style="color:#333; font-size:12px;">Memuat…</div>
       </div>
       <div class="stroke-counter" data-counter="${i}">—</div>
@@ -2270,11 +2301,19 @@ window.showStrokeOrder = async (word) => {
     <div class="modal-backdrop open" id="stroke-modal" onclick="if(event.target===this) closeStrokeOrder()">
       <div class="modal" style="max-width:720px;">
         <h2>✍️ Urutan Guratan — ${word}</h2>
-        <p style="color:var(--gray); font-size:13px;">Animasi urutan goresan tiap kanji di kata ini (data: KanjiVG).</p>
-        <label class="stroke-numlabel">
-          <input type="checkbox" ${showNums?"checked":""} onchange="toggleStrokeNumbers(this.checked)"/>
-          <span>Tampilkan nomor goresan</span>
-        </label>
+        <p style="color:var(--gray); font-size:13px;">Klik kanji untuk ulang animasinya. Atur kecepatan di bawah.</p>
+        <div class="stroke-top-ctrl">
+          <label class="stroke-numlabel">
+            <input type="checkbox" ${showNums?"checked":""} onchange="toggleStrokeNumbers(this.checked)"/>
+            <span>Nomor goresan</span>
+          </label>
+          <div class="stroke-speed-row">
+            <span style="color:var(--gray-dim); font-size:12px; font-weight:700;">Kecepatan:</span>
+            ${speedChip("slow",   "🐢 Lambat")}
+            ${speedChip("medium", "⚡ Sedang")}
+            ${speedChip("fast",   "🚀 Cepat")}
+          </div>
+        </div>
         <div class="stroke-grid" id="stroke-grid">${panels}</div>
         <div class="stroke-ctrl">
           <button class="btn ghost sm" onclick="replayAllStrokes()">↻ Ulangi semua</button>
@@ -2322,23 +2361,70 @@ async function _loadKanjiPanel(ch, idx){
     if (counter) counter.textContent = "—";
   }
 }
+// Per-stroke delay by preference. Also tweak CSS transition so slow strokes
+// actually draw slower (not just wait longer before the next one).
+const STROKE_SPEED_MS = { slow: 1200, medium: 450, fast: 180 };
+const STROKE_DRAW_SEC = { slow: 1.1,  medium: 0.6, fast: 0.25 };
+
 function _animateStrokes(paths){
-  paths.forEach(p => { p.classList.remove("drawn"); });
+  const speed = state._strokeSpeed || "medium";
+  const stepMs = STROKE_SPEED_MS[speed];
+  const drawSec = STROKE_DRAW_SEC[speed];
+  paths.forEach(p => {
+    p.classList.remove("drawn");
+    p.style.transition = `stroke-dashoffset ${drawSec}s linear`;
+  });
+  // Force a reflow so the reset of dashoffset applies before we re-trigger
+  void paths[0]?.getBoundingClientRect();
   let i = 0;
   const step = () => {
     if (i >= paths.length) return;
     paths[i].classList.add("drawn");
     i++;
-    setTimeout(step, 450);
+    setTimeout(step, stepMs);
   };
-  setTimeout(step, 200);
+  setTimeout(step, 150);
 }
+
+// Replay ONE kanji panel (clicked on the kanji square).
+window.replayOneStroke = (idx) => {
+  const w = document.querySelector(`#stroke-grid .stroke-wrap[data-idx="${idx}"]`);
+  if (!w) return;
+  const paths = Array.from(w.querySelectorAll("svg path"));
+  if (!paths.length) return;
+  // Reset each stroke's dashoffset back to its length so we see it redraw.
+  paths.forEach(p => {
+    p.classList.remove("drawn");
+    const len = p.style.getPropertyValue("--len") || p.getTotalLength?.() || 500;
+    p.style.strokeDashoffset = len;
+  });
+  // Next frame, animate again.
+  requestAnimationFrame(() => _animateStrokes(paths));
+};
+
 window.replayAllStrokes = () => {
   document.querySelectorAll("#stroke-grid .stroke-wrap").forEach(w => {
     const paths = Array.from(w.querySelectorAll("svg path"));
-    if (paths.length) _animateStrokes(paths);
+    if (!paths.length) return;
+    paths.forEach(p => {
+      p.classList.remove("drawn");
+      const len = p.style.getPropertyValue("--len") || p.getTotalLength?.() || 500;
+      p.style.strokeDashoffset = len;
+    });
+    requestAnimationFrame(() => _animateStrokes(paths));
   });
 };
+
+// Change speed — update state, repaint chip highlights, replay all so the new speed is visible.
+window.setStrokeSpeed = (val) => {
+  if (!STROKE_SPEED_MS[val]) return;
+  state._strokeSpeed = val;
+  document.querySelectorAll(".stroke-speed-chip").forEach(c => c.classList.remove("on"));
+  const activeChip = document.querySelector(`.stroke-speed-chip[onclick*="'${val}'"]`);
+  if (activeChip) activeChip.classList.add("on");
+  replayAllStrokes();
+};
+
 window.toggleStrokeNumbers = (on) => {
   state._strokeShowNumbers = !!on;
   document.querySelectorAll("#stroke-grid .stroke-wrap").forEach(w => {
