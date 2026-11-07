@@ -1064,8 +1064,12 @@ window.rangkumSimpan = async (sumber) => {
   const arti = document.getElementById("rk-arti").value.trim();
   if (!jp) return toast("Kata tidak boleh kosong");
   try {
-    await FB.tambahRangkuman({ jp, kana, arti, sumber });
-    toast(`✓ "${jp}" masuk ke rangkuman`);
+    const res = await FB.tambahRangkuman({ jp, kana, arti, sumber });
+    if (res && res.synced === false){
+      toast(`✓ "${jp}" tersimpan (offline — sync nanti)`);
+    } else {
+      toast(`✓ "${jp}" masuk ke rangkuman`);
+    }
     closeRangkumPopup();
   } catch(e){ toast("❌ " + e.message); }
 };

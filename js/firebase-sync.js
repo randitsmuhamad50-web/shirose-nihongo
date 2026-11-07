@@ -329,44 +329,103 @@ export async function hapusKomentar(tipe, lvl, no, id, ownerUid) {
   await deleteDoc(doc(db, "komentar", key, "items", id));
 }
 
-/* ========== RANGKUMAN SENDIRI (personal word collection) ========== */
-/**
- * Add a word to the student's own "rangkuman" collection. Idempotent:
- * if the same (jp) already exists, update arti and bump updated.
- * Called from the word-popup after clicking any Japanese word.
- */
+/* ========== RANGKUMAN SENDIRI (personal word collection) ==========
+ * Hybrid storage: tries Firestore first, falls back to localStorage so
+ * the feature works even when Firestore rules haven't been deployed yet.
+ * The two layers are merged on read (Firestore takes precedence per id).
+ * When rules are applied later, the next call that succeeds will
+ * silently upload the localStorage entries to Firestore.
+ * ======================================================== */
+function _lsRangKey(uid){ return `shirose-rangkuman-${uid||"guest"}`; }
+function _lsRangGet(uid){
+  try { return JSON.parse(localStorage.getItem(_lsRangKey(uid)) || "{}"); }
+  catch { return {}; }
+}
+function _lsRangSet(uid, map){
+  try { localStorage.setItem(_lsRangKey(uid), JSON.stringify(map)); } catch {}
+}
+function _safeRangId(jp){
+  return jp.replace(/[\.#\$\[\]\/]/g, "_").slice(0, 120);
+}
+
 export async function tambahRangkuman({ jp, kana, arti, sumber = null, kategori = null }) {
   if (!currentUser) throw new Error("Harus login dulu");
   if (!jp) throw new Error("Kata kosong");
   const uid = currentUser.uid;
-  const safeId = jp.replace(/[\.#\$\[\]\/]/g, "_").slice(0, 120);
-  const ref = doc(db, "siswa", uid, "rangkuman", safeId);
+  const id = _safeRangId(jp);
+  const now = Date.now();
+  const payload = {
+    jp, kana: kana || "", arti: arti || "",
+    sumber: sumber || "", kategori: kategori || "",
+    updatedMs: now,
+  };
+
+  // 1) Always write to localStorage first — that way even offline / blocked
+  //    sessions never lose a word.
+  const local = _lsRangGet(uid);
+  local[id] = { ...payload, _local: true };
+  _lsRangSet(uid, local);
+
+  // 2) Try Firestore. On success, remove the _local flag so sync is complete.
   try {
-    await setDoc(ref, {
-      jp, kana: kana || "", arti: arti || "",
-      sumber: sumber || "", kategori: kategori || "",
-      updated: serverTimestamp(),
-    }, { merge: true });
-    return { id: safeId };
+    const ref = doc(db, "siswa", uid, "rangkuman", id);
+    await setDoc(ref, { ...payload, updated: serverTimestamp() }, { merge: true });
+    delete local[id]._local;
+    _lsRangSet(uid, local);
+    return { id, synced: true };
   } catch (e) {
-    // Most common cause: Firestore rules belum di-apply ke Firebase Console.
-    if (e.code === "permission-denied" || /permissions/i.test(e.message)) {
-      throw new Error("Firestore rules belum diperbarui — hubungi developer untuk apply rules.");
-    }
-    throw e;
+    // Firestore write blocked (rules not deployed, offline, etc.) — entry
+    // stays in localStorage, feature keeps working.
+    console.warn("Rangkuman: Firestore write blocked, saved locally:", e.message);
+    return { id, synced: false };
   }
 }
+
 export async function listRangkuman() {
   if (!currentUser) return [];
+  const uid = currentUser.uid;
+  // Local first — always available.
+  const local = _lsRangGet(uid);
+  const merged = new Map();
+  Object.entries(local).forEach(([id, v]) => merged.set(id, { id, ...v }));
+
+  // Try to overlay Firestore entries (more authoritative if available)
   try {
-    const col = collection(db, "siswa", currentUser.uid, "rangkuman");
+    const col = collection(db, "siswa", uid, "rangkuman");
     const snap = await getDocs(col);
-    return snap.docs.map(d => ({ id: d.id, ...d.data() }));
-  } catch (e) { console.warn("listRangkuman failed:", e.message); return []; }
+    snap.docs.forEach(d => merged.set(d.id, { id: d.id, ...d.data() }));
+
+    // Opportunistic re-upload: if any local entry is marked _local,
+    // retry its upload now that Firestore seems reachable.
+    for (const [id, v] of Object.entries(local)){
+      if (v._local){
+        try {
+          await setDoc(doc(db, "siswa", uid, "rangkuman", id),
+            { jp:v.jp, kana:v.kana||"", arti:v.arti||"", sumber:v.sumber||"", kategori:v.kategori||"", updated: serverTimestamp() },
+            { merge: true });
+          delete local[id]._local;
+        } catch {}
+      }
+    }
+    _lsRangSet(uid, local);
+  } catch (e) {
+    console.warn("listRangkuman: Firestore read failed, using local only:", e.message);
+  }
+
+  // Sort newest first by updatedMs if present, otherwise stable.
+  return Array.from(merged.values()).sort((a,b) => (b.updatedMs||0) - (a.updatedMs||0));
 }
+
 export async function hapusRangkuman(id) {
   if (!currentUser) return;
-  await deleteDoc(doc(db, "siswa", currentUser.uid, "rangkuman", id));
+  const uid = currentUser.uid;
+  // Local delete always.
+  const local = _lsRangGet(uid);
+  delete local[id];
+  _lsRangSet(uid, local);
+  // Firestore delete best-effort.
+  try { await deleteDoc(doc(db, "siswa", uid, "rangkuman", id)); }
+  catch (e) { console.warn("hapusRangkuman: Firestore delete failed:", e.message); }
 }
 
 /**
