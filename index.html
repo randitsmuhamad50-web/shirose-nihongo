@@ -288,12 +288,23 @@ body{
 .materi-list{display:grid; gap:8px; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));}
 .materi-item{
   background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:10px;
-  padding:12px; cursor:pointer;
+  padding:12px; cursor:pointer; position:relative;
 }
 .materi-item:hover{border-color:var(--pink);}
+.materi-item .no-badge{
+  position:absolute; top:8px; right:10px;
+  font-family:var(--font-sans); font-size:10px; font-weight:700;
+  color:var(--gray-dim); letter-spacing:.5px;
+}
 .materi-item .kanji{font-family:var(--font-jp); font-size:28px; font-weight:800; color:var(--pink-light);}
 .materi-item .reading{font-size:13px; color:var(--gray); margin-top:2px;}
 .materi-item .meaning{font-size:13px; margin-top:4px;}
+.no-pill{
+  display:inline-block; padding:3px 10px; border-radius:999px;
+  background:rgba(239,106,154,.14); color:var(--pink-light);
+  font-family:var(--font-sans); font-size:11px; font-weight:700;
+  letter-spacing:.8px; margin-bottom:8px;
+}
 
 /* ========== Modals ========== */
 .modal-backdrop{
@@ -780,17 +791,23 @@ async function renderMateriHub(){
 }
 
 /* ========== MATERI LIST (kosakata/kanji/bunpou) ========== */
+// Permanent number for an item: prefer data.no, fallback to 1-based index.
+function itemNo(it, idx){ return Number.isFinite(it?.no) ? it.no : (idx + 1); }
+function fmtNo(n){ return "No." + String(n).padStart(3, "0"); }
+
 async function renderMateriList(tipe){
   const data = await loadMateri(tipe, state.level);
   const label = {kosakata:"Kosakata", kanji:"Kanji", bunpou:"Bunpou"}[tipe];
   if (!data.length) return `<div class="panel"><h2>${label}</h2><div class="empty"><div class="emoji">📭</div>Belum ada data untuk level ini.</div></div>`;
 
   const list = data.map((it, idx) => {
+    const no = fmtNo(itemNo(it, idx));
     if (tipe === "kosakata") {
       const kana = it.kana || it.f || "";
       const kata = it.kata || it.k || "";
       const arti = it.arti || it.a || "";
       return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+        <span class="no-badge">${no}</span>
         <div class="kanji">${kata}</div>
         <div class="reading">${kana}</div>
         <div class="meaning">${arti}</div>
@@ -801,6 +818,7 @@ async function renderMateriList(tipe){
       const kana = it.kana || `${it.on || ""} ${it.kun || ""}`.trim();
       const arti = it.arti || it.a || "";
       return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+        <span class="no-badge">${no}</span>
         <div class="kanji">${k}</div>
         <div class="reading">${kana}</div>
         <div class="meaning">${arti}</div>
@@ -810,6 +828,7 @@ async function renderMateriList(tipe){
       const pola = it.pola || it.p || it.kata || "";
       const arti = it.arti || it.e || it.penjelasan || "";
       return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+        <span class="no-badge">${no}</span>
         <div class="kanji" style="font-size:22px;">${pola}</div>
         <div class="meaning">${arti.slice(0, 120)}${arti.length > 120 ? "…" : ""}</div>
       </div>`;
@@ -839,6 +858,7 @@ window.filterMateri = (tipe, q) => {
 window.showMateri = async (tipe, idx) => {
   const data = state.materi[tipe][state.level];
   const it = data[idx];
+  const no = fmtNo(itemNo(it, idx));
   const app = document.getElementById("app");
   let body = "";
   if (tipe === "kanji") {
@@ -850,6 +870,7 @@ window.showMateri = async (tipe, idx) => {
     const bagikana = it.kana || "";
     body = `
       <div class="kanji-detail">
+        <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
         <div class="big-k">${k}</div>
         <div class="readings">
           ${on ? `<div class="r"><span class="lbl">Onyomi</span>${on}</div>` : ""}
@@ -874,6 +895,7 @@ window.showMateri = async (tipe, idx) => {
     const contohArti = it.arti_contoh || it.et || "";
     body = `
       <div class="kanji-detail">
+        <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
         <div class="big-k" style="font-size:72px;">${kata}</div>
         <div class="readings"><div class="r">${kana}</div></div>
         <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
@@ -892,6 +914,7 @@ window.showMateri = async (tipe, idx) => {
     const contohArti = it.arti_contoh || it.et || "";
     body = `
       <div class="kanji-detail">
+        <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
         <div class="big-k" style="font-size:60px;">${pola}</div>
         ${kana && kana !== pola ? `<div class="readings"><div class="r">${kana}</div></div>` : ""}
         <div style="font-size:14px; margin:12px 0; line-height:1.6; text-align:left; background:rgba(255,255,255,.04); padding:14px; border-radius:10px; white-space:pre-wrap;">${penjelasan}</div>
