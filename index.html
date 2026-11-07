@@ -306,6 +306,71 @@ body{
   letter-spacing:.8px; margin-bottom:8px;
 }
 
+/* ========== HAFALAN selection + session ========== */
+.haf-topbar{
+  display:flex; justify-content:space-between; align-items:center;
+  gap:8px; margin-bottom:10px;
+}
+.haf-type-row{display:grid; grid-template-columns:repeat(3, 1fr); gap:10px;}
+@media (max-width:640px){ .haf-type-row{grid-template-columns:1fr;} }
+.haf-pick{
+  background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:12px;
+  padding:14px; cursor:pointer; color:var(--white); text-align:left;
+  font-family:var(--font-sans); transition:all .15s;
+}
+.haf-pick:hover{border-color:var(--pink); transform:translateY(-1px);}
+.haf-pick.on{border-color:var(--pink); background:rgba(239,106,154,.14); box-shadow:0 0 12px rgba(239,106,154,.25);}
+.haf-pick .lbl{font-weight:800; font-size:15px;}
+.haf-pick .sub{font-size:12px; color:var(--gray); margin-top:2px;}
+
+.haf-chip-row{display:flex; flex-wrap:wrap; gap:8px;}
+.haf-chip{
+  padding:8px 14px; border-radius:999px;
+  background:rgba(255,255,255,.05); border:1px solid var(--border);
+  color:var(--gray); font-weight:700; font-size:12px; cursor:pointer;
+  transition:all .15s; min-height:36px;
+}
+.haf-chip:hover{color:var(--white); border-color:var(--pink-light);}
+.haf-chip.on{background:var(--pink); border-color:var(--pink); color:white;}
+
+.haf-mode-row{display:grid; grid-template-columns:repeat(3, 1fr); gap:10px;}
+@media (max-width:640px){ .haf-mode-row{grid-template-columns:1fr;} }
+.haf-mode{
+  background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:12px;
+  padding:14px 12px; cursor:pointer; color:var(--white); text-align:center;
+  font-family:var(--font-sans); transition:all .15s;
+}
+.haf-mode .ico{font-size:28px; margin-bottom:4px;}
+.haf-mode .lbl{font-weight:800; font-size:14px;}
+.haf-mode .sub{font-size:11px; color:var(--gray); margin-top:2px;}
+.haf-mode:hover{border-color:var(--pink); transform:translateY(-1px);}
+.haf-mode.on{border-color:var(--gold); background:rgba(255,215,0,.08); box-shadow:0 0 14px rgba(255,215,0,.25);}
+
+/* Matching grid */
+.match-grid{
+  display:grid; grid-template-columns:1fr 1fr; gap:10px;
+  margin-top:12px;
+}
+.match-col{display:flex; flex-direction:column; gap:8px;}
+.match-item{
+  position:relative; background:rgba(42,50,112,.4); border:1px solid var(--border);
+  border-radius:10px; padding:12px; text-align:left; color:var(--white); cursor:pointer;
+  font-family:var(--font-sans); transition:all .15s; min-height:60px;
+}
+.match-item:disabled{opacity:.4; cursor:default;}
+.match-item .jp{font-family:var(--font-jp); font-size:22px; font-weight:800; color:var(--pink-light);}
+.match-item .rd{font-size:11px; color:var(--gray); margin-top:2px;}
+.match-item .id{font-size:14px; line-height:1.4;}
+.match-item:hover:not(:disabled){border-color:var(--pink);}
+.match-item.picked{border-color:var(--gold); background:rgba(255,215,0,.1);}
+.match-item.match-ok{border-color:var(--green); background:rgba(16,185,129,.15); color:var(--green);}
+.match-item.match-bad{border-color:var(--red); background:rgba(239,68,68,.15); animation:shakeX .3s;}
+@keyframes shakeX{0%,100%{transform:translateX(0)}25%{transform:translateX(-4px)}75%{transform:translateX(4px)}}
+
+/* Multiple choice feedback */
+.opsi.opsi-ok{border-color:var(--green); background:rgba(16,185,129,.18);}
+.opsi.opsi-bad{border-color:var(--red); background:rgba(239,68,68,.18);}
+
 /* ========== Modals ========== */
 .modal-backdrop{
   position:fixed; inset:0; background:rgba(0,0,0,.75); backdrop-filter:blur(8px);
@@ -940,66 +1005,215 @@ window.speakJP = (txt) => {
   window.speechSynthesis.speak(u);
 };
 
-/* ========== HAFALAN (SRS FSRS-lite) ========== */
-async function renderHafalan(){
-  const kos = await loadMateri("kosakata", state.level);
-  if (!kos.length) return `<div class="panel"><h2>🧠 Hafalan</h2><div class="empty"><div class="emoji">📭</div>Belum ada kosakata.</div></div>`;
+/* ========== HAFALAN (Selection + 3 modes: Flashcard / Matching / Multiple Choice) ========== */
+// SRS key is namespaced per type so kanji and kosakata don't collide.
+function _srsKey(tipe, it, idx){ return tipe[0] + ":" + itemNo(it, idx); }
 
-  // Load SRS state
+// Normalize an item from kanji or kosakata into a common pair for drills.
+function _normalizeItem(tipe, it, idx){
+  if (tipe === "kanji"){
+    return {
+      tipe, idx, no: itemNo(it, idx),
+      front: it.kanji || it.k || "",
+      reading: it.kana || `${it.on || ""} ${it.kun || ""}`.trim() || "",
+      back: it.arti || it.a || "",
+    };
+  }
+  return {
+    tipe, idx, no: itemNo(it, idx),
+    front: it.kata || it.k || "",
+    reading: it.kana || it.f || "",
+    back: it.arti || it.a || "",
+  };
+}
+
+async function _loadSrs(){
   let srs = {};
   if (state.user) srs = await FB.loadSRS(state.level);
   else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state.level}`) || "{}");
   state.srs = srs;
-
-  // Pick kartu to review (due) or new
-  const now = Date.now();
-  const due = [];
-  const fresh = [];
-  kos.forEach((it, i) => {
-    const key = String(i);
-    const card = srs[key];
-    if (card) {
-      if (card.due <= now) due.push({idx:i, card});
-    } else {
-      fresh.push(i);
-    }
-  });
-  const queue = due.length ? due.slice(0, 20).map(d => d.idx) : fresh.slice(0, 20);
-  state.hafalan_queue = queue;
-  state.hafalan_pos = 0;
-
-  if (!queue.length) return `<div class="panel"><h2>🧠 Hafalan</h2><div class="empty"><div class="emoji">🎉</div>Semua kartu sudah selesai hari ini!<br>Datang lagi besok.</div></div>`;
-
-  return renderHafalanKartu();
+  return srs;
 }
-function renderHafalanKartu(){
-  const q = state.hafalan_queue;
-  const pos = state.hafalan_pos;
-  const kos = state.materi.kosakata[state.level];
-  if (pos >= q.length) {
-    return `<div class="panel"><h2>🧠 Hafalan selesai!</h2>
-      <div class="empty"><div class="emoji">🎉</div>Selesai ${q.length} kartu.<br>+${q.length*3} XP</div>
-      <button class="btn" onclick="route('hafalan')">Sesi lagi</button>
-      <button class="btn ghost" onclick="route('home')">Pulang</button></div>`;
-  }
-  const it = kos[q[pos]];
-  const kata = it.kata || it.k || "";
-  const kana = it.kana || it.f || "";
-  const arti = it.arti || it.a || "";
+async function _saveSrs(){
+  if (state.user) await FB.saveSRS(state.level, state.srs);
+  else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
+}
+
+// Entry router. renderHafalan() -> selection. renderHafalan(['go']) -> session using state.hafalan.
+async function renderHafalan(params){
+  const sub = (params && params[0]) || "";
+  if (sub === "go") return renderHafalanSession();
+  return renderHafalanSelect();
+}
+
+async function renderHafalanSelect(){
+  // Preload both datasets so the counts in the UI are correct
+  const [kos, knj] = await Promise.all([
+    loadMateri("kosakata", state.level),
+    loadMateri("kanji", state.level),
+  ]);
+  await _loadSrs();
+
+  const cfg = state.hafalan || { tipe:"kosakata", range:"1-50", filter:"all", mode:"flashcard" };
+  state.hafalan = cfg;
+
+  const makeRanges = (n) => {
+    const r = [];
+    const buckets = [50, 100, 150, 200];
+    buckets.forEach(b => { if (n >= Math.min(b, 30)) r.push(`1-${Math.min(b, n)}`); });
+    if (n > 50)  r.push("51-100");
+    if (n > 150) r.push("101-200");
+    r.push("all");
+    return Array.from(new Set(r));
+  };
+  const maxN = Math.max(kos.length, knj.length);
+  const ranges = makeRanges(maxN);
+
+  const typeBtn = (v, lbl, sub) => `
+    <button class="haf-pick ${cfg.tipe===v?'on':''}" onclick="hafCfg('tipe','${v}')">
+      <div class="lbl">${lbl}</div><div class="sub">${sub}</div>
+    </button>`;
+
+  const chip = (field, v, lbl) => `
+    <button class="haf-chip ${cfg[field]===v?'on':''}" onclick="hafCfg('${field}','${v}')">${lbl}</button>`;
+
   return `
     <div class="panel">
-      <h2>🧠 Hafalan · ${pos+1}/${q.length}</h2>
+      <h2>🧠 Hafalan</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:14px;">Pilih yang mau dihafal, rentang, filter, lalu mode belajar.</p>
+
+      <h3 style="margin-bottom:8px;">1. Pilih materi</h3>
+      <div class="haf-type-row">
+        ${typeBtn("kosakata", "📖 Kosakata", kos.length + " kata")}
+        ${typeBtn("kanji",    "🈷️ Kanji",    knj.length + " kanji")}
+        ${typeBtn("semua",    "✨ Semua",     (kos.length + knj.length) + " item")}
+      </div>
+
+      <h3 style="margin:16px 0 8px;">2. Rentang nomor</h3>
+      <div class="haf-chip-row">
+        ${ranges.map(r => chip("range", r, r === "all" ? "Semua" : r)).join("")}
+      </div>
+
+      <h3 style="margin:16px 0 8px;">3. Filter</h3>
+      <div class="haf-chip-row">
+        ${chip("filter","all","Semua")}
+        ${chip("filter","new","Baru")}
+        ${chip("filter","due","Due hari ini")}
+        ${chip("filter","notmastered","Belum mastered")}
+      </div>
+
+      <h3 style="margin:16px 0 8px;">4. Mode belajar</h3>
+      <div class="haf-mode-row">
+        <button class="haf-mode ${cfg.mode==='flashcard'?'on':''}" onclick="hafCfg('mode','flashcard')">
+          <div class="ico">🃏</div><div class="lbl">Flashcard</div><div class="sub">Lihat kartu, tandai hafal</div>
+        </button>
+        <button class="haf-mode ${cfg.mode==='matching'?'on':''}" onclick="hafCfg('mode','matching')">
+          <div class="ico">🔗</div><div class="lbl">Matching</div><div class="sub">Pasangkan kata & arti</div>
+        </button>
+        <button class="haf-mode ${cfg.mode==='multiple'?'on':''}" onclick="hafCfg('mode','multiple')">
+          <div class="ico">✅</div><div class="lbl">Pilihan Ganda</div><div class="sub">Pilih arti yang benar</div>
+        </button>
+      </div>
+
+      <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap;">
+        <button class="btn gold" style="flex:1; min-width:160px;" onclick="hafStart()">▶ Mulai Hafalan</button>
+        <button class="btn ghost" onclick="route('home')">← Kembali</button>
+      </div>
+    </div>
+  `;
+}
+
+window.hafCfg = (field, value) => {
+  state.hafalan = state.hafalan || {};
+  state.hafalan[field] = value;
+  document.getElementById("app").innerHTML = "";
+  renderHafalanSelect().then(h => { document.getElementById("app").innerHTML = h; });
+};
+
+window.hafStart = async () => {
+  // Build pool from the selected type + range
+  const cfg = state.hafalan;
+  const [kos, knj] = await Promise.all([
+    loadMateri("kosakata", state.level),
+    loadMateri("kanji", state.level),
+  ]);
+  await _loadSrs();
+
+  const pool = [];
+  const push = (tipe, arr) => arr.forEach((it, idx) => pool.push(_normalizeItem(tipe, it, idx)));
+  if (cfg.tipe === "kosakata" || cfg.tipe === "semua") push("kosakata", kos);
+  if (cfg.tipe === "kanji"    || cfg.tipe === "semua") push("kanji", knj);
+
+  // Range filter: "1-50", "51-100", ... "all"
+  let inRange = pool;
+  if (cfg.range && cfg.range !== "all"){
+    const [lo, hi] = cfg.range.split("-").map(Number);
+    inRange = pool.filter(p => p.no >= lo && p.no <= hi);
+  }
+
+  // Status filter
+  const now = Date.now();
+  const filtered = inRange.filter(p => {
+    const key = _srsKey(p.tipe, {no:p.no}, p.idx);
+    const card = state.srs[key];
+    if (cfg.filter === "new")         return !card;
+    if (cfg.filter === "due")         return card && card.due <= now;
+    if (cfg.filter === "notmastered") return !card || (card.interval || 1) < 21;
+    return true; // all
+  });
+
+  if (!filtered.length){
+    toast("Tidak ada item yang cocok dengan filter ini");
+    return;
+  }
+
+  // Shuffle + cap (bigger cap for matching so we have pairs)
+  const cap = cfg.mode === "matching" ? Math.min(filtered.length, 20) : Math.min(filtered.length, 20);
+  state.hafalan_queue = filtered.sort(() => Math.random() - 0.5).slice(0, cap);
+  state.hafalan_pos = 0;
+  state.hafalan_score = { benar:0, salah:0 };
+
+  route("hafalan/go");
+};
+
+function renderHafalanSession(){
+  const cfg = state.hafalan || {};
+  const mode = cfg.mode || "flashcard";
+  const q = state.hafalan_queue || [];
+  if (!q.length) return renderHafalanSelect();
+
+  if (mode === "flashcard") return renderHafalanFlashcard();
+  if (mode === "matching")  return renderHafalanMatching();
+  if (mode === "multiple")  return renderHafalanMultiple();
+  return renderHafalanFlashcard();
+}
+
+/* ========== MODE 1: FLASHCARD ========== */
+function renderHafalanFlashcard(){
+  const q = state.hafalan_queue;
+  const pos = state.hafalan_pos;
+  if (pos >= q.length) return renderHafalanDone();
+  const it = q[pos];
+  return `
+    <div class="panel">
+      <div class="haf-topbar">
+        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
+        <span style="color:var(--gray); font-size:13px;">${pos+1} / ${q.length}</span>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+      </div>
       <div class="kanji-detail">
-        <div class="big-k" style="font-size:80px;">${kata}</div>
+        <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+        <div class="big-k" style="font-size:72px;">${it.front}</div>
         <div id="haf-reveal" style="display:none;">
-          <div class="readings"><div class="r">${kana}</div></div>
-          <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
+          <div class="readings"><div class="r">${it.reading}</div></div>
+          <div style="font-size:16px; margin:12px 0;"><b>${it.back}</b></div>
+          <button class="btn ghost sm" onclick="speakJP('${(it.front||'').replace(/'/g,"")}')">🔊 Dengar</button>
         </div>
       </div>
-      <div style="display:flex; gap:8px; margin-top:16px; justify-content:center;">
+      <div style="display:flex; gap:8px; margin-top:16px; justify-content:center;" id="haf-show-wrap">
         <button class="btn ghost" id="haf-show" onclick="hafShow()">Lihat Jawaban</button>
       </div>
-      <div style="display:none; gap:8px; margin-top:16px; justify-content:center;" id="haf-rate">
+      <div style="display:none; gap:8px; margin-top:16px; justify-content:center; flex-wrap:wrap;" id="haf-rate">
         <button class="btn danger" onclick="hafRate('salah')">Salah</button>
         <button class="btn ghost" onclick="hafRate('ragu')">Ragu</button>
         <button class="btn" onclick="hafRate('benar')">Benar</button>
@@ -1010,17 +1224,16 @@ function renderHafalanKartu(){
 }
 window.hafShow = () => {
   document.getElementById("haf-reveal").style.display = "block";
-  document.getElementById("haf-show").style.display = "none";
+  document.getElementById("haf-show-wrap").style.display = "none";
   document.getElementById("haf-rate").style.display = "flex";
 };
 window.hafRate = async (rate) => {
   const q = state.hafalan_queue;
-  const idx = q[state.hafalan_pos];
-  const key = String(idx);
+  const it = q[state.hafalan_pos];
+  const key = _srsKey(it.tipe, {no:it.no}, it.idx);
   const now = Date.now();
   const card = state.srs[key] || { n:0, interval:1, due:now };
   const dayMs = 86400000;
-  const intervals = { salah:1, ragu:1, benar:3, mudah:7 };
   const mult = { salah:1, ragu:1.2, benar:2, mudah:3 };
   card.n = (card.n || 0) + 1;
   card.interval = Math.max(1, Math.round((card.interval || 1) * (mult[rate] || 1)));
@@ -1028,21 +1241,216 @@ window.hafRate = async (rate) => {
   card.due = now + card.interval * dayMs;
   card.last = rate;
   state.srs[key] = card;
+  await _saveSrs();
 
-  // Save
-  if (state.user) await FB.saveSRS(state.level, state.srs);
-  else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
-
-  // XP
-  if (rate !== "salah") await awardXP(3, 1);
-  else await awardXP(1, 0);
-
-  // Mission progress
+  if (rate !== "salah") { await awardXP(3, 1); state.hafalan_score.benar++; }
+  else { await awardXP(1, 0); state.hafalan_score.salah++; }
   if (rate !== "salah" && state.user) await FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
 
   state.hafalan_pos++;
-  document.getElementById("app").innerHTML = renderHafalanKartu();
+  document.getElementById("app").innerHTML = renderHafalanSession();
 };
+
+/* ========== MODE 2: MATCHING LINES (tap-to-pair, mobile-friendly) ========== */
+function renderHafalanMatching(){
+  // Build groups of 5 pairs at a time
+  const q = state.hafalan_queue;
+  const pos = state.hafalan_pos;
+  if (pos >= q.length) return renderHafalanDone();
+
+  const batch = q.slice(pos, Math.min(pos + 5, q.length));
+  // Shuffle arti side only, keep left side in natural order
+  const rights = batch.map((it, i) => ({ i, back: it.back })).sort(() => Math.random() - 0.5);
+
+  return `
+    <div class="panel">
+      <div class="haf-topbar">
+        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
+        <span style="color:var(--gray); font-size:13px;">Kelompok ${Math.floor(pos/5)+1} · ${batch.length} pasang</span>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+      </div>
+      <p style="color:var(--gray); font-size:13px; margin:8px 0;">Tap kata di kiri, lalu arti yang cocok di kanan.</p>
+      <div class="match-grid">
+        <div class="match-col" id="match-left">
+          ${batch.map((it, i) => `
+            <button class="match-item" data-side="L" data-i="${i}" onclick="matchTap('L', ${i})">
+              <span class="no-badge">${fmtNo(it.no)}</span>
+              <div class="jp">${it.front}</div>
+              <div class="rd">${it.reading}</div>
+            </button>`).join("")}
+        </div>
+        <div class="match-col" id="match-right">
+          ${rights.map(r => `
+            <button class="match-item" data-side="R" data-i="${r.i}" onclick="matchTap('R', ${r.i})">
+              <div class="id">${r.back}</div>
+            </button>`).join("")}
+        </div>
+      </div>
+      <div style="display:flex; gap:10px; margin-top:16px; justify-content:center;">
+        <button class="btn ghost" onclick="matchSkip()">Lewati kelompok</button>
+      </div>
+    </div>
+  `;
+}
+window.matchTap = (side, i) => {
+  state.match_pick = state.match_pick || {};
+  state.match_pick[side] = i;
+  document.querySelectorAll(`.match-item[data-side="${side}"]`).forEach(b => b.classList.remove("picked"));
+  const btn = document.querySelector(`.match-item[data-side="${side}"][data-i="${i}"]`);
+  if (btn) btn.classList.add("picked");
+
+  // When both sides picked, resolve
+  if (state.match_pick.L != null && state.match_pick.R != null){
+    const L = state.match_pick.L, R = state.match_pick.R;
+    const lb = document.querySelector(`.match-item[data-side="L"][data-i="${L}"]`);
+    const rb = document.querySelector(`.match-item[data-side="R"][data-i="${R}"]`);
+    if (L === R){
+      lb.classList.add("match-ok"); rb.classList.add("match-ok");
+      lb.disabled = true; rb.disabled = true;
+      state.hafalan_score.benar++;
+      matchAfterPair(true, L);
+    } else {
+      lb.classList.add("match-bad"); rb.classList.add("match-bad");
+      setTimeout(() => { lb.classList.remove("match-bad","picked"); rb.classList.remove("match-bad","picked"); }, 500);
+      state.hafalan_score.salah++;
+    }
+    state.match_pick = {};
+    // If the current batch is cleared, advance
+    setTimeout(matchCheckDone, 600);
+  }
+};
+async function matchAfterPair(correct, iInBatch){
+  const q = state.hafalan_queue;
+  const it = q[state.hafalan_pos + iInBatch];
+  if (!it) return;
+  const key = _srsKey(it.tipe, {no:it.no}, it.idx);
+  const now = Date.now();
+  const card = state.srs[key] || { n:0, interval:1, due:now };
+  const mult = correct ? 2 : 1;
+  card.n = (card.n || 0) + 1;
+  card.interval = correct ? Math.max(1, Math.round((card.interval||1) * mult)) : 1;
+  card.due = now + card.interval * 86400000;
+  card.last = correct ? "benar" : "salah";
+  state.srs[key] = card;
+  await _saveSrs();
+  if (correct) await awardXP(3, 1);
+}
+window.matchCheckDone = () => {
+  const remaining = document.querySelectorAll('.match-item[data-side="L"]:not(:disabled)').length;
+  if (remaining === 0){
+    state.hafalan_pos = Math.min(state.hafalan_pos + 5, state.hafalan_queue.length);
+    document.getElementById("app").innerHTML = renderHafalanSession();
+  }
+};
+window.matchSkip = () => {
+  state.hafalan_pos = Math.min(state.hafalan_pos + 5, state.hafalan_queue.length);
+  document.getElementById("app").innerHTML = renderHafalanSession();
+};
+
+/* ========== MODE 3: MULTIPLE CHOICE ========== */
+function renderHafalanMultiple(){
+  const q = state.hafalan_queue;
+  const pos = state.hafalan_pos;
+  if (pos >= q.length) return renderHafalanDone();
+  const it = q[pos];
+
+  // Build 4 options: 1 correct, 3 distractors drawn from the rest of the queue (or pool).
+  const distractors = q.filter((_, i) => i !== pos).map(x => x.back).filter(b => b && b !== it.back);
+  const shuffled = Array.from(new Set(distractors)).sort(() => Math.random() - 0.5).slice(0, 3);
+  while (shuffled.length < 3) shuffled.push("—");
+  const options = [it.back, ...shuffled].sort(() => Math.random() - 0.5);
+  state.mc_correct = it.back;
+
+  return `
+    <div class="panel">
+      <div class="haf-topbar">
+        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
+        <span style="color:var(--gray); font-size:13px;">${pos+1} / ${q.length}</span>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+      </div>
+      <div class="kanji-detail" style="padding:12px 0;">
+        <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+        <div class="big-k" style="font-size:72px;">${it.front}</div>
+        <div class="readings"><div class="r">${it.reading}</div></div>
+        <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>
+      </div>
+      <div class="opsi-list" id="mc-opts">
+        ${options.map((o, i) => `
+          <button class="opsi" data-ans="${encodeURIComponent(o)}" onclick="mcPick('${encodeURIComponent(o)}', this)">
+            ${String.fromCharCode(65+i)}. ${o}
+          </button>`).join("")}
+      </div>
+      <div id="mc-feedback" style="display:none; margin-top:14px; padding:12px; border-radius:10px;"></div>
+      <div style="display:none; margin-top:12px; justify-content:center;" id="mc-next">
+        <button class="btn gold" onclick="mcNext()">Lanjut →</button>
+      </div>
+    </div>
+  `;
+}
+window.mcPick = async (encoded, btn) => {
+  const picked = decodeURIComponent(encoded);
+  const correct = picked === state.mc_correct;
+  document.querySelectorAll("#mc-opts .opsi").forEach(b => {
+    b.disabled = true;
+    const ans = decodeURIComponent(b.dataset.ans);
+    if (ans === state.mc_correct) b.classList.add("opsi-ok");
+    else if (b === btn) b.classList.add("opsi-bad");
+  });
+  const fb = document.getElementById("mc-feedback");
+  fb.style.display = "block";
+  if (correct){
+    fb.style.background = "rgba(16,185,129,.15)";
+    fb.style.border = "1px solid var(--green)";
+    fb.innerHTML = `<b>✓ Benar!</b> ${state.mc_correct}`;
+    state.hafalan_score.benar++;
+    await awardXP(3, 1);
+  } else {
+    fb.style.background = "rgba(239,68,68,.15)";
+    fb.style.border = "1px solid var(--red)";
+    fb.innerHTML = `<b>✗ Belum tepat.</b> Jawaban: ${state.mc_correct}`;
+    state.hafalan_score.salah++;
+    await awardXP(1, 0);
+  }
+  // SRS update
+  const it = state.hafalan_queue[state.hafalan_pos];
+  const key = _srsKey(it.tipe, {no:it.no}, it.idx);
+  const now = Date.now();
+  const card = state.srs[key] || { n:0, interval:1, due:now };
+  card.n = (card.n || 0) + 1;
+  card.interval = correct ? Math.max(1, Math.round((card.interval||1) * 2)) : 1;
+  card.due = now + card.interval * 86400000;
+  card.last = correct ? "benar" : "salah";
+  state.srs[key] = card;
+  await _saveSrs();
+
+  document.getElementById("mc-next").style.display = "flex";
+};
+window.mcNext = () => {
+  state.hafalan_pos++;
+  document.getElementById("app").innerHTML = renderHafalanSession();
+};
+
+/* ========== Session done summary ========== */
+function renderHafalanDone(){
+  const s = state.hafalan_score || { benar:0, salah:0 };
+  const total = s.benar + s.salah;
+  const acc = total ? Math.round((s.benar / total) * 100) : 0;
+  return `
+    <div class="panel">
+      <h2>🎉 Hafalan selesai!</h2>
+      <div class="empty">
+        <div class="emoji">${acc >= 80 ? "🏆" : acc >= 60 ? "😊" : "💪"}</div>
+        <div style="font-size:42px; font-weight:800; color:var(--pink);">${acc}%</div>
+        <div>${s.benar} benar · ${s.salah} salah</div>
+        <div style="color:var(--gray); margin-top:6px;">+${s.benar*3} XP · +${s.benar} 🪙</div>
+      </div>
+      <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:12px;">
+        <button class="btn" onclick="route('hafalan')">Sesi lagi</button>
+        <button class="btn ghost" onclick="route('home')">🏠 Home</button>
+      </div>
+    </div>
+  `;
+}
 
 /* ========== QUEST / UJIAN ========== */
 async function renderQuest(){
