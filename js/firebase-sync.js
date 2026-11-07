@@ -36,6 +36,9 @@ const firebaseConfig = {
 };
 
 const GURU_EMAIL = "randitsmuhamad50@gmail.com";
+// Developer email (Part 6). Defaults to the same account as guru but kept
+// separate so a future rename or multi-guru setup doesn't dilute dev powers.
+const DEVELOPER_EMAIL = "randitsmuhamad50@gmail.com";
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
@@ -50,7 +53,18 @@ let authListenerSet = false;
 export function isGuru(user) {
   return !!user && user.email === GURU_EMAIL;
 }
+export function isDeveloper(user) {
+  return !!user && user.email === DEVELOPER_EMAIL;
+}
 export function userIsGuru() { return isGuru(currentUser); }
+export function userIsDeveloper() { return isDeveloper(currentUser); }
+// Unlimited coins when developer OR siswa doc explicitly has the permission.
+// Note: permission must come from a trusted write (admin/dev) — client shouldn't
+// grant it to itself. See firestore.rules.example.
+export function hasUnlimitedCoins() {
+  if (isDeveloper(currentUser)) return true;
+  return !!(currentSiswaDoc?.permissions?.unlimited_coins);
+}
 export function getUser() { return currentUser; }
 export function getSiswaDoc() { return currentSiswaDoc; }
 
@@ -128,13 +142,15 @@ export async function beliItem(kategori, itemId, harga, level) {
   const uid = currentUser.uid;
   const ref = doc(db, "siswa", uid);
   const siswa = (await getDoc(ref)).data();
+  // Developer / permission-granted accounts bypass coin deduction entirely.
+  const unlimited = isDeveloper(currentUser) || !!(siswa?.permissions?.unlimited_coins);
   // Cek koin
   const gamiRef = doc(db, "siswa", uid, "gami", level);
   const gamiSnap = await getDoc(gamiRef);
   const gami = gamiSnap.exists() ? gamiSnap.data() : { xp:0, koin:0, streak:0, level_karakter:1 };
-  if ((gami.koin || 0) < harga) throw new Error("Koin tidak cukup!");
-  // Deduct koin
-  gami.koin -= harga;
+  if (!unlimited && (gami.koin || 0) < harga) throw new Error("Koin tidak cukup!");
+  // Deduct koin (skip for unlimited)
+  if (!unlimited) gami.koin -= harga;
   // Add to inventory
   const inv = siswa.karakter?.inventory || [];
   if (inv.includes(itemId)) throw new Error("Sudah dimiliki");
@@ -142,7 +158,7 @@ export async function beliItem(kategori, itemId, harga, level) {
   await setDoc(gamiRef, gami, { merge: true });
   await updateDoc(ref, { "karakter.inventory": inv });
   currentSiswaDoc.karakter.inventory = inv;
-  return { newKoin: gami.koin };
+  return { newKoin: gami.koin, unlimited };
 }
 export async function equipItem(kategori, itemId) {
   if (!currentUser) return;
@@ -194,6 +210,39 @@ export async function catatNilai(nilai) {
   if (!currentUser) return;
   const ref = collection(db, "siswa", currentUser.uid, "nilai");
   return await addDoc(ref, { ...nilai, tgl: serverTimestamp() });
+}
+
+/**
+ * Part 5 — reward 10.000 coin ONCE when a student passes an exam.
+ * Returns { firstTime: boolean, rewardKoin: number } so caller can toast.
+ * Idempotent: a second call for the same kategoriId with any score returns
+ * { firstTime: false, rewardKoin: 0 }.
+ */
+export async function claimUjianLulusReward(kategoriId, skor, lulusMin) {
+  if (!currentUser || !kategoriId) return { firstTime:false, rewardKoin:0 };
+  if (skor < (lulusMin || 60)) return { firstTime:false, rewardKoin:0 };
+  const ref = doc(db, "siswa", currentUser.uid, "ujian_rewards", kategoriId);
+  const snap = await getDoc(ref);
+  if (snap.exists()) return { firstTime:false, rewardKoin:0 };
+  await setDoc(ref, { skor, tgl: serverTimestamp() });
+  return { firstTime:true, rewardKoin: 10000 };
+}
+
+/**
+ * Part 5 — reward 1 coin when a SRS card reaches "mastered" (interval >= 21d)
+ * for the first time. Called from hafalan after SRS updates.
+ * The caller passes the card object (already updated) and we mutate
+ * card.mastered_at + card.mastered = true on first mastery.
+ * Returns true when a coin should be awarded.
+ */
+export function detectNewMastery(card) {
+  const MASTERY_INTERVAL = 21;
+  if (!card || card.mastered) return false;
+  if ((card.interval || 0) < MASTERY_INTERVAL) return false;
+  if (card.last === "salah") return false;
+  card.mastered = true;
+  card.mastered_at = Date.now();
+  return true;
 }
 export async function listNilai(limitN = 50) {
   if (!currentUser) return [];
