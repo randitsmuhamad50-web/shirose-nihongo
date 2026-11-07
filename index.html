@@ -628,6 +628,65 @@ body{
 .soal-timer .time.time-danger{color:#ef5350; animation:timerPulse 1s infinite;}
 @keyframes timerPulse{0%,100%{opacity:1}50%{opacity:.55}}
 
+/* ========== KOMENTAR (public discussion under detail pages) ========== */
+.comments-block{
+  margin-top:28px; padding-top:20px; border-top:1px dashed var(--border);
+  text-align:left;
+}
+.comments-block h3{margin-bottom:10px; display:flex; align-items:center; gap:8px;}
+.comments-block .cmt-count{color:var(--gray-dim); font-size:13px; font-weight:600;}
+.comments-list{display:flex; flex-direction:column; gap:10px; margin-top:10px;}
+.cmt-item{
+  background:rgba(255,255,255,.03); border:1px solid var(--border);
+  border-radius:12px; padding:12px 14px;
+}
+.cmt-head{display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:6px;}
+.cmt-nama{font-weight:800; color:var(--pink-light); font-size:14px;}
+.cmt-meta{color:var(--gray-dim); font-size:11px;}
+.cmt-text{font-size:14px; line-height:1.5; white-space:pre-wrap; word-break:break-word;}
+.cmt-delete{color:var(--red); background:transparent; border:none; cursor:pointer; font-size:12px; font-weight:700;}
+.cmt-form{
+  margin-top:12px; padding:12px; border:1px dashed var(--border); border-radius:12px;
+  background:rgba(255,255,255,.02);
+}
+.cmt-form textarea{
+  width:100%; min-height:72px; resize:vertical;
+  padding:10px; border-radius:8px; border:1px solid var(--border);
+  background:var(--navy-4); color:var(--white); font-family:var(--font-sans);
+  font-size:14px;
+}
+.cmt-form textarea:focus{outline:none; border-color:var(--pink);}
+.cmt-form-row{display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap;}
+
+/* ========== KANJI STROKE ORDER ========== */
+.stroke-wrap{
+  background:#fff; border-radius:16px; padding:16px;
+  display:flex; align-items:center; justify-content:center;
+  max-width:360px; margin:12px auto;
+  aspect-ratio:1/1; position:relative;
+}
+.stroke-wrap svg{width:100%; height:100%;}
+.stroke-wrap svg path{
+  fill:none; stroke:#0f172a; stroke-width:4; stroke-linecap:round; stroke-linejoin:round;
+  stroke-dasharray:var(--len, 500); stroke-dashoffset:var(--len, 500);
+  transition:stroke-dashoffset .8s linear;
+}
+.stroke-wrap svg path.drawn{stroke-dashoffset:0;}
+.stroke-wrap .stroke-ghost path{opacity:.1;}
+.stroke-ctrl{display:flex; gap:8px; justify-content:center; margin-top:10px;}
+.stroke-counter{font-weight:700; color:var(--pink);}
+
+/* Furigana toggle: hide ruby reading when exam panel has .no-furigana */
+.exam-area ruby rt{transition:opacity .2s;}
+.exam-area.no-furigana ruby rt{opacity:0; visibility:hidden;}
+.furi-toggle{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px; border-radius:999px; cursor:pointer;
+  background:rgba(255,255,255,.06); border:1px solid var(--border);
+  font-size:12px; font-weight:700;
+}
+.furi-toggle.on{background:var(--pink); border-color:var(--pink); color:white;}
+
 /* ========== Dashboard home grid ========== */
 .hub-grid{
   display:grid; gap:12px; margin-top:16px;
@@ -751,6 +810,86 @@ const state = {
 window.state = state;
 
 /* ========== TOAST ========== */
+/* ========== KOMENTAR (public per-item discussion) ========== */
+// Render a placeholder div + schedule async load. The composite key is
+// baked into the element id so a re-render replaces the right block.
+function _commentsPlaceholder(tipe, lvl, no){
+  const id = `cmts-${tipe}-${lvl}-${no}`;
+  setTimeout(() => _loadComments(tipe, lvl, no, id), 0);
+  return `<div class="comments-block" id="${id}">
+    <h3>💬 Catatan & diskusi <span class="cmt-count">(memuat…)</span></h3>
+  </div>`;
+}
+async function _loadComments(tipe, lvl, no, hostId){
+  const host = document.getElementById(hostId);
+  if (!host) return;
+  let list = [];
+  try { list = await FB.listKomentar(tipe, lvl, no); }
+  catch(e){ /* non-fatal */ }
+
+  const myUid = state.user?.uid;
+  const canModerate = FB.userIsGuru();
+
+  const itemsHtml = list.length ? list.map(c => {
+    const isMine = myUid && c.uid === myUid;
+    const canDel = isMine || canModerate;
+    const when = c.created?.toDate ? c.created.toDate().toLocaleString("id-ID", { dateStyle:"short", timeStyle:"short" }) : "";
+    return `
+      <div class="cmt-item">
+        <div class="cmt-head">
+          <div>
+            <span class="cmt-nama">${(c.nama||"Anon").toString().slice(0,40)}</span>
+            <span class="cmt-meta">${c.jlpt ? `· ${c.jlpt.toUpperCase()}` : ""} ${c.kelas ? `· ${c.kelas}` : ""} ${when ? `· ${when}` : ""}</span>
+          </div>
+          ${canDel ? `<button class="cmt-delete" onclick="hapusKomentar('${tipe}','${lvl}',${no},'${c.id}','${c.uid||""}')">🗑 Hapus</button>` : ""}
+        </div>
+        <div class="cmt-text">${_escapeHtml(c.text||"")}</div>
+      </div>`;
+  }).join("") : `<p style="color:var(--gray-dim); font-size:13px;">Belum ada catatan. Jadi yang pertama!</p>`;
+
+  const formHtml = state.user ? `
+    <form class="cmt-form" onsubmit="submitKomentar(event, '${tipe}', '${lvl}', ${no}); return false;">
+      <textarea id="cmt-input-${hostId}" placeholder="Tulis catatan, tips, atau pertanyaan tentang kata ini..." maxlength="1000"></textarea>
+      <div class="cmt-form-row">
+        <span style="color:var(--gray-dim); font-size:12px;">Catatan akan terlihat oleh semua pengguna.</span>
+        <button class="btn gold" type="submit">💬 Kirim</button>
+      </div>
+    </form>
+  ` : `<p style="color:var(--gray-dim); font-size:13px; margin-top:10px;">🔒 <a href="#" onclick="showAuthModal(); return false;" style="color:var(--pink);">Login</a> untuk menulis catatan.</p>`;
+
+  host.innerHTML = `
+    <h3>💬 Catatan & diskusi <span class="cmt-count">(${list.length})</span></h3>
+    <div class="comments-list">${itemsHtml}</div>
+    ${formHtml}
+  `;
+}
+function _escapeHtml(s){
+  return (s||"").toString()
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+window.submitKomentar = async (ev, tipe, lvl, no) => {
+  ev.preventDefault();
+  const host = document.getElementById(`cmts-${tipe}-${lvl}-${no}`);
+  const txtEl = host?.querySelector("textarea");
+  const text = txtEl?.value || "";
+  if (!text.trim()) return toast("Teks kosong");
+  try {
+    await FB.tambahKomentar(tipe, lvl, no, text);
+    toast("✓ Catatan terkirim");
+    if (txtEl) txtEl.value = "";
+    _loadComments(tipe, lvl, no, `cmts-${tipe}-${lvl}-${no}`);
+  } catch(e){ toast("❌ " + e.message); }
+};
+window.hapusKomentar = async (tipe, lvl, no, id, ownerUid) => {
+  if (!confirm("Hapus catatan ini?")) return;
+  try {
+    await FB.hapusKomentar(tipe, lvl, no, id, ownerUid);
+    toast("✓ Dihapus");
+    _loadComments(tipe, lvl, no, `cmts-${tipe}-${lvl}-${no}`);
+  } catch(e){ toast("❌ " + e.message); }
+};
+
 /* ========== RANGKUMAN SENDIRI (personal word collection) ========== */
 // Open a popup to add any word to the student's own Rangkuman. Pre-fills
 // kana/arti via a dataset lookup when the user asks or when caller provides.
@@ -1313,8 +1452,10 @@ window.showMateri = async (tipe, idx) => {
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" onclick="speakJP('${(k||"").replace(/'/g,"")}')">🔊 Dengar</button>
+          <button class="btn ghost" onclick="showStrokeOrder('${(k||"").replace(/'/g,"")[0]||""}')">✍️ Urutan Goresan</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
         </div>
+        ${_commentsPlaceholder("kanji", state.level, itemNo(it, idx))}
       </div>
     `;
   } else if (tipe === "kosakata") {
@@ -1339,6 +1480,7 @@ window.showMateri = async (tipe, idx) => {
           <button class="btn" onclick="speakJP('${(kata||"").replace(/'/g,"")}')">🔊 Dengar</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(kata||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kosakata ${no}")'>➕ Rangkum</button>
         </div>
+        ${_commentsPlaceholder("kosakata", state.level, itemNo(it, idx))}
       </div>
     `;
   } else {
@@ -1362,6 +1504,7 @@ window.showMateri = async (tipe, idx) => {
         <div style="margin-top:14px; text-align:center;">
           <button class="btn gold" onclick='rangkumPopup({jp:"${(pola||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${((it.arti||it.e||"")+"").slice(0,80).replace(/"/g,"\\&quot;")}"}, "Bunpou ${no}")'>➕ Rangkum pola ini</button>
         </div>
+        ${_commentsPlaceholder("bunpou", state.level, itemNo(it, idx))}
       </div>
     `;
   }
@@ -1372,6 +1515,93 @@ window.showMateri = async (tipe, idx) => {
     </div>
   `;
 };
+/* ========== KANJI STROKE ORDER (KanjiVG via jsDelivr) ========== */
+// KanjiVG stores each kanji SVG under the 5-digit lowercase hex of the first
+// codepoint. CJK kanji fit in BMP so the codepoint fits in 5 hex digits.
+function _kanjiVgUrl(ch){
+  if (!ch) return null;
+  const cp = ch.codePointAt(0);
+  if (!cp) return null;
+  const hex = cp.toString(16).padStart(5, "0");
+  // jsDelivr mirror of the KanjiVG GitHub repo
+  return `https://cdn.jsdelivr.net/gh/KanjiVG/kanjivg@master/kanji/${hex}.svg`;
+}
+
+window.showStrokeOrder = async (ch) => {
+  if (!ch) return;
+  const existing = document.getElementById("stroke-modal");
+  if (existing) existing.remove();
+  const url = _kanjiVgUrl(ch);
+  const wrap = document.createElement("div");
+  wrap.innerHTML = `
+    <div class="modal-backdrop open" id="stroke-modal" onclick="if(event.target===this) closeStrokeOrder()">
+      <div class="modal" style="max-width:420px;">
+        <h2>✍️ Urutan Guratan — ${ch}</h2>
+        <p style="color:var(--gray); font-size:13px;">Animasi urutan goresan (data: KanjiVG).</p>
+        <div class="stroke-wrap" id="stroke-wrap">
+          <div style="color:#333;">Memuat...</div>
+        </div>
+        <div class="stroke-ctrl">
+          <button class="btn ghost sm" onclick="replayStrokes()">↻ Ulangi</button>
+          <span class="stroke-counter" id="stroke-counter">—</span>
+        </div>
+        <button class="btn" onclick="closeStrokeOrder()" style="width:100%; margin-top:10px;">Tutup</button>
+      </div>
+    </div>`;
+  document.body.appendChild(wrap.firstElementChild);
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error("Not found (" + res.status + ")");
+    const text = await res.text();
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(text, "image/svg+xml");
+    const svg = doc.querySelector("svg");
+    if (!svg) throw new Error("SVG kosong");
+
+    // KanjiVG wraps strokes in a <g id="kvg:StrokePaths_xxx">...</g>; grab paths.
+    const paths = Array.from(svg.querySelectorAll("path"));
+    if (!paths.length) throw new Error("No stroke paths");
+    // Reset stroke-level attributes we need
+    paths.forEach(p => {
+      const len = p.getTotalLength ? p.getTotalLength() : 500;
+      p.style.setProperty("--len", len);
+    });
+
+    const container = document.getElementById("stroke-wrap");
+    container.innerHTML = "";
+    container.appendChild(svg);
+    document.getElementById("stroke-counter").textContent = `${paths.length} goresan`;
+    _animateStrokes(paths);
+  } catch (e){
+    document.getElementById("stroke-wrap").innerHTML =
+      `<div style="color:#64748b; font-size:13px; text-align:center; padding:10px;">
+        Data goresan untuk "<b>${ch}</b>" tidak tersedia di KanjiVG.<br>
+        Coba cek langsung di <a href="https://jisho.org/search/${encodeURIComponent(ch)}%20%23kanji" target="_blank" rel="noopener" style="color:var(--pink);">Jisho.org</a>.
+      </div>`;
+    document.getElementById("stroke-counter").textContent = "—";
+  }
+};
+
+function _animateStrokes(paths){
+  // Reset all strokes to the "undrawn" state, then draw them one by one.
+  paths.forEach(p => { p.classList.remove("drawn"); });
+  let i = 0;
+  const step = () => {
+    if (i >= paths.length) return;
+    paths[i].classList.add("drawn");
+    i++;
+    setTimeout(step, 450);
+  };
+  // Small initial delay for user to see the empty frame
+  setTimeout(step, 200);
+}
+window.replayStrokes = () => {
+  const paths = document.querySelectorAll("#stroke-wrap svg path");
+  if (paths.length) _animateStrokes(Array.from(paths));
+};
+window.closeStrokeOrder = () => { const m = document.getElementById("stroke-modal"); if (m) m.remove(); };
+
 window.speakJP = (txt) => {
   if (!window.speechSynthesis) return toast("Browsermu tidak dukung suara");
   // Cancel pending utterances so rapid flashcard swiping doesn't pile up
@@ -2179,11 +2409,17 @@ function renderUjianSoal(){
   const s = u.soal[u.pos];
   const picked = u.jawaban[u.pos];
   const remaining = u.endTime ? Math.max(0, Math.floor((u.endTime - Date.now())/1000)) : 0;
+  const furiOff = state.ujianFuriOff ? " no-furigana" : "";
   return `
-    <div class="panel">
+    <div class="panel exam-area${furiOff}" id="exam-area">
       <div class="soal-timer">
         <span>Soal ${u.pos+1} / ${u.soal.length}</span>
         <span class="time${remaining<=60?' time-danger':''}" id="timer">⏱ ${_fmtTime(remaining)}</span>
+      </div>
+      <div style="margin-bottom:10px;">
+        <span class="furi-toggle${state.ujianFuriOff?'':' on'}" onclick="toggleFurigana()">
+          ${state.ujianFuriOff ? "🙈 Furigana OFF" : "👁 Furigana ON"}
+        </span>
       </div>
       <div class="soal-stem">${s.pertanyaan || ""}</div>
       <div class="opsi-list">
@@ -2205,6 +2441,18 @@ function renderUjianSoal(){
 window.pickOpsi = (i) => {
   state.ujian.jawaban[state.ujian.pos] = i;
   document.getElementById("app").innerHTML = renderUjianSoal();
+};
+// Toggle furigana visibility in exam (persists across questions in the same session)
+window.toggleFurigana = () => {
+  state.ujianFuriOff = !state.ujianFuriOff;
+  const area = document.getElementById("exam-area");
+  if (area) area.classList.toggle("no-furigana", state.ujianFuriOff);
+  // Update the button text in place without re-render (cheaper + preserves timer)
+  const btn = area?.querySelector(".furi-toggle");
+  if (btn){
+    btn.classList.toggle("on", !state.ujianFuriOff);
+    btn.textContent = state.ujianFuriOff ? "🙈 Furigana OFF" : "👁 Furigana ON";
+  }
 };
 window.ujianNav = (dir) => {
   state.ujian.pos = Math.max(0, Math.min(state.ujian.soal.length - 1, state.ujian.pos + dir));

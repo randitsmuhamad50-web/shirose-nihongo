@@ -212,6 +212,39 @@ export async function catatNilai(nilai) {
   return await addDoc(ref, { ...nilai, tgl: serverTimestamp() });
 }
 
+/* ========== KOMENTAR (public per-item discussion) ========== */
+// Composite key per detail page (kanji/kosakata/bunpou + level + number).
+function _cmtKey(tipe, lvl, no){ return `${tipe}_${lvl}_${no}`; }
+export async function listKomentar(tipe, lvl, no) {
+  const key = _cmtKey(tipe, lvl, no);
+  const col = collection(db, "komentar", key, "items");
+  const q = query(col, orderBy("created", "desc"), limit(50));
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+export async function tambahKomentar(tipe, lvl, no, text) {
+  if (!currentUser) throw new Error("Harus login dulu");
+  const clean = (text || "").toString().trim().slice(0, 1000);
+  if (!clean) throw new Error("Teks komentar kosong");
+  const key = _cmtKey(tipe, lvl, no);
+  const nama = currentSiswaDoc?.nama || currentUser.email?.split("@")[0] || "Anon";
+  const kelas = currentSiswaDoc?.kelas || "";
+  const col = collection(db, "komentar", key, "items");
+  return await addDoc(col, {
+    uid: currentUser.uid, nama, kelas, text: clean,
+    jlpt: lvl, tipe, no, created: serverTimestamp(),
+  });
+}
+export async function hapusKomentar(tipe, lvl, no, id, ownerUid) {
+  if (!currentUser) return;
+  // Only owner OR guru can delete (server rules enforce too)
+  if (ownerUid && ownerUid !== currentUser.uid && !isGuru(currentUser)) {
+    throw new Error("Bukan komentarmu");
+  }
+  const key = _cmtKey(tipe, lvl, no);
+  await deleteDoc(doc(db, "komentar", key, "items", id));
+}
+
 /* ========== RANGKUMAN SENDIRI (personal word collection) ========== */
 /**
  * Add a word to the student's own "rangkuman" collection. Idempotent:

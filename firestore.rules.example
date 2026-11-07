@@ -78,6 +78,22 @@ service cloud.firestore {
       allow write: if isGuru() || isAdmin() || isDeveloper();
     }
 
+    // ---------- /komentar/{compositeKey}/items/{id} ----------
+    // compositeKey = "<tipe>_<lvl>_<no>" e.g. "kanji_n3_12"
+    match /komentar/{key}/items/{id} {
+      allow read: if isSignedIn();
+      allow create: if isSignedIn()
+                    && request.resource.data.uid == uid()
+                    && request.resource.data.text is string
+                    && request.resource.data.text.size() <= 1000;
+      // Owner can delete their own; guru/admin can moderate any.
+      allow delete: if isSignedIn() && (
+        resource.data.uid == uid() || isGuru() || isAdmin() || isDeveloper()
+      );
+      // No edits for now — keep comments immutable so discussion history stays honest.
+      allow update: if false;
+    }
+
     // ---------- /misi_global, /achievements_catalog, dsb ----------
     match /{coll}/{doc=**} {
       allow read: if isSignedIn();
