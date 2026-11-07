@@ -213,6 +213,18 @@ export async function catatNilai(nilai) {
 }
 
 /**
+ * Update a few safe fields in siswa.permissions (currently only
+ * audio_autoplay; never let clients write unlimited_coins here).
+ */
+export async function updateSiswaPermissions(partial) {
+  if (!currentUser) return;
+  const allowed = {};
+  if (typeof partial.audio_autoplay === "boolean") allowed["permissions.audio_autoplay"] = partial.audio_autoplay;
+  if (!Object.keys(allowed).length) return;
+  await updateDoc(doc(db, "siswa", currentUser.uid), allowed);
+}
+
+/**
  * Part 5 — reward 10.000 coin ONCE when a student passes an exam.
  * Returns { firstTime: boolean, rewardKoin: number } so caller can toast.
  * Idempotent: a second call for the same kategoriId with any score returns

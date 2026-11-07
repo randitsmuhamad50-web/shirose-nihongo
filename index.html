@@ -1061,11 +1061,43 @@ window.showMateri = async (tipe, idx) => {
 };
 window.speakJP = (txt) => {
   if (!window.speechSynthesis) return toast("Browsermu tidak dukung suara");
+  // Cancel pending utterances so rapid flashcard swiping doesn't pile up
+  try { window.speechSynthesis.cancel(); } catch(e){}
   const u = new SpeechSynthesisUtterance(txt);
   u.lang = "ja-JP";
   u.rate = 0.9;
   window.speechSynthesis.speak(u);
 };
+
+/* ========== AUTO-PLAY AUDIO (Part 26) ========== */
+// Preference: "on" (default) | "off". Stored per-device in localStorage;
+// a logged-in siswa doc's permissions.audio_autoplay overrides it.
+function isAutoPlayAudio(){
+  if (state.user && state.siswa && state.siswa.permissions && typeof state.siswa.permissions.audio_autoplay === "boolean"){
+    return state.siswa.permissions.audio_autoplay;
+  }
+  const v = localStorage.getItem("shirose-auto-audio");
+  return v !== "off"; // default ON
+}
+async function setAutoPlayAudio(on){
+  localStorage.setItem("shirose-auto-audio", on ? "on" : "off");
+  if (state.user && state.siswa){
+    state.siswa.permissions = state.siswa.permissions || {};
+    state.siswa.permissions.audio_autoplay = on;
+    // Best-effort persist; not critical if offline
+    try { await FB.updateSiswaPermissions({ audio_autoplay: on }); } catch(e){}
+  }
+}
+window.isAutoPlayAudio = isAutoPlayAudio;
+window.setAutoPlayAudio = setAutoPlayAudio;
+
+// Called from flashcard renders to speak the current front if enabled.
+// Must be triggered inside a user-interaction call stack to satisfy
+// mobile browsers' autoplay policy; hafalan navigation IS user-initiated.
+function _autoSpeakJP(txt){
+  if (!txt || !isAutoPlayAudio()) return;
+  try { window.speakJP(txt); } catch(e){}
+}
 
 /* ========== HAFALAN (Selection + 3 modes: Flashcard / Matching / Multiple Choice) ========== */
 // SRS key is namespaced per type so kanji and kosakata don't collide.
@@ -1176,6 +1208,12 @@ async function renderHafalanSelect(){
           <div class="ico">✅</div><div class="lbl">Pilihan Ganda</div><div class="sub">Pilih arti yang benar</div>
         </button>
       </div>
+
+      <h3 style="margin:16px 0 8px;">5. Audio</h3>
+      <label style="display:inline-flex; align-items:center; gap:10px; cursor:pointer; padding:10px 14px; background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:10px;">
+        <input type="checkbox" id="haf-autoaudio" ${isAutoPlayAudio()?'checked':''} onchange="setAutoPlayAudio(this.checked)" style="width:20px; height:20px;"/>
+        <span>🔊 Auto-play pelafalan Jepang setelah tiap kartu</span>
+      </label>
 
       <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap;">
         <button class="btn gold" style="flex:1; min-width:160px;" onclick="hafStart()">▶ Mulai Hafalan</button>
@@ -1292,6 +1330,9 @@ window.hafShow = () => {
 window.hafRate = async (rate) => {
   const q = state.hafalan_queue;
   const it = q[state.hafalan_pos];
+  // Part 26: auto-play the card the user just rated, before advancing.
+  // Triggered inside the click handler so mobile browsers allow it.
+  _autoSpeakJP(it.front);
   const key = _srsKey(it.tipe, {no:it.no}, it.idx);
   const now = Date.now();
   const card = state.srs[key] || { n:0, interval:1, due:now };
@@ -1942,6 +1983,12 @@ async function renderProfile(){
       <h2>👤 Profil</h2>
       <h3>${nama}</h3>
       <p style="color:var(--gray); font-size:13px;">${state.user?.email || "Tamu"} ${state.siswa?.kelas ? `· Kelas ${state.siswa.kelas}` : ""}</p>
+
+      <h3>Pengaturan</h3>
+      <label style="display:flex; align-items:center; gap:10px; cursor:pointer; padding:12px; background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:10px; margin-bottom:12px;">
+        <input type="checkbox" ${isAutoPlayAudio()?'checked':''} onchange="setAutoPlayAudio(this.checked)" style="width:20px; height:20px;"/>
+        <span style="flex:1;"><b>🔊 Auto-play audio Jepang</b><br><small style="color:var(--gray);">Pelafalan diputar otomatis setelah kamu rate flashcard</small></span>
+      </label>
 
       <h3>Progres per Level</h3>
       <div class="grid grid-5" style="grid-template-columns:repeat(5,1fr); gap:8px;">
