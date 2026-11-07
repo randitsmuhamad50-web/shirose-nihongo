@@ -256,6 +256,144 @@ body{
   .app.has-sidepanel{grid-template-columns:360px 1fr;}
 }
 
+/* ========== SHOP side-by-side (Parts 18 + 23) ========== */
+.shop-layout{
+  display:grid; grid-template-columns:360px 1fr; gap:16px;
+  margin-top:10px;
+}
+@media (max-width:860px){ .shop-layout{grid-template-columns:1fr;} }
+
+.shop-preview{
+  background:linear-gradient(160deg, rgba(42,50,112,.6), rgba(13,16,36,.6));
+  border:1px solid var(--border); border-radius:16px;
+  padding:16px; position:sticky; top:12px;
+}
+@media (max-width:860px){ .shop-preview{position:relative; top:auto;} }
+
+.shop-char{
+  width:100%; aspect-ratio:7/10; max-height:380px;
+  display:flex; align-items:center; justify-content:center;
+  background:radial-gradient(ellipse at center, rgba(239,106,154,.15), transparent 70%);
+  border-radius:12px; margin-bottom:12px;
+}
+.shop-char svg{width:70%; height:100%; transition:transform .25s;}
+@media (max-width:640px){ .shop-char{max-height:300px;} .shop-char svg{width:60%;} }
+
+.shop-info{text-align:center; margin-bottom:12px;}
+.shop-item-name{font-family:var(--font-jp); font-size:22px; font-weight:800; color:var(--pink-light); margin-bottom:6px;}
+.shop-item-meta{display:flex; gap:10px; justify-content:center; align-items:center; flex-wrap:wrap; font-size:13px; color:var(--gray);}
+.rarity-chip{
+  padding:3px 10px; border-radius:999px; font-size:10px; font-weight:800; letter-spacing:.5px;
+}
+.rarity-common{background:rgba(255,255,255,.1); color:var(--gray);}
+.rarity-uncommon{background:rgba(16,185,129,.18); color:#10b981;}
+.rarity-rare{background:rgba(34,211,238,.18); color:#22d3ee;}
+.rarity-epic{background:rgba(139,92,246,.18); color:#8b5cf6;}
+.rarity-legendary{background:rgba(255,215,0,.18); color:#ffd700;}
+
+.shop-action{margin:12px 0 10px;}
+.shop-wallet{text-align:center; font-size:14px; color:var(--gray);}
+
+.shop-items-grid{
+  display:grid; grid-template-columns:repeat(auto-fill, minmax(140px, 1fr));
+  gap:10px; margin-top:8px;
+}
+.shop-tile{
+  position:relative; background:rgba(42,50,112,.4); border:2px solid var(--border);
+  border-radius:12px; padding:10px 8px; cursor:pointer;
+  transition:transform .12s, border-color .15s, box-shadow .15s;
+  text-align:center;
+}
+.shop-tile:hover{border-color:var(--pink-light); transform:translateY(-2px);}
+.shop-tile:active{transform:scale(.97);}
+.shop-tile.sel{border-color:var(--gold); box-shadow:0 0 16px rgba(255,215,0,.35);}
+.shop-tile.equipped{border-color:var(--green);}
+.shop-tile.locked{opacity:.55;}
+.shop-tile-thumb{
+  width:100%; aspect-ratio:1/1; display:flex; align-items:center; justify-content:center;
+  background:rgba(13,16,36,.4); border-radius:8px; overflow:hidden; margin-bottom:6px;
+}
+.shop-tile-thumb svg{width:70%; height:100%;}
+.shop-tile-name{font-size:12px; font-weight:700; color:var(--white); margin-bottom:2px;
+  overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.shop-tile-price{font-size:11px; color:var(--pink-light); font-weight:800;}
+.shop-tile-rarity{
+  position:absolute; top:6px; right:6px; width:12px; height:12px; border-radius:50%;
+}
+
+/* ========== LEADERBOARD (Part 15) ========== */
+.lb-tabs{display:flex; gap:6px; flex-wrap:wrap; margin-bottom:10px;}
+.lb-chip{
+  padding:8px 14px; border-radius:999px; cursor:pointer;
+  background:rgba(255,255,255,.05); border:1px solid var(--border);
+  color:var(--gray); font-weight:700; font-size:13px; min-height:36px;
+  transition:all .15s;
+}
+.lb-chip.on{background:var(--pink); border-color:var(--pink); color:white;}
+.lb-chip:hover{color:var(--white); border-color:var(--pink-light);}
+
+.lb-list{display:flex; flex-direction:column; gap:8px; margin-top:12px;}
+.lb-row{
+  display:flex; align-items:center; gap:14px;
+  padding:14px 16px; border-radius:14px;
+  background:rgba(42,50,112,.4); border:1px solid var(--border);
+  transition:transform .12s;
+}
+.lb-row.me{border-color:var(--pink); background:rgba(239,106,154,.1);}
+.lb-row:hover{transform:translateX(4px);}
+.lb-rank{font-family:var(--font-jp); font-size:26px; font-weight:800; min-width:48px; text-align:center;}
+.lb-user{flex:1; min-width:0;}
+.lb-name{font-weight:800; font-size:15px; color:var(--white); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+.lb-meta{font-size:11px; color:var(--gray); margin-top:2px;}
+.lb-score{text-align:right; min-width:80px;}
+.lb-score{font-family:var(--font-jp); font-size:20px; font-weight:800; color:var(--pink-light);}
+.lb-score-lbl{font-size:10px; color:var(--gray-dim); margin-top:2px;}
+
+/* ========== HOME MINI CALENDAR + STREAK WIDGET ========== */
+.streak-row{display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:14px;}
+.streak-pill{
+  display:flex; align-items:center; gap:10px;
+  padding:12px 10px; border-radius:14px;
+  background:rgba(42,50,112,.4); border:1px solid var(--border);
+}
+.streak-pill .ico{font-size:28px; line-height:1;}
+.streak-pill .num{font-family:var(--font-jp); font-size:22px; font-weight:800; color:var(--white); line-height:1;}
+.streak-pill .lbl{font-size:10px; color:var(--gray); margin-top:3px;}
+.streak-pill.fire{border-color:rgba(239,106,154,.35);}
+.streak-pill.trophy{border-color:rgba(255,215,0,.35);}
+.streak-pill.book{border-color:rgba(139,92,246,.35);}
+@media (max-width:640px){
+  .streak-row{gap:8px;}
+  .streak-pill{padding:10px 8px; gap:8px;}
+  .streak-pill .ico{font-size:22px;}
+  .streak-pill .num{font-size:19px;}
+}
+
+.mini-cal-head{display:flex; justify-content:space-between; align-items:center; margin:10px 0 8px;}
+.mini-cal{
+  display:grid; grid-template-columns:repeat(7, 1fr); gap:4px;
+  background:rgba(13,16,36,.4); border:1px solid var(--border);
+  border-radius:12px; padding:8px;
+}
+.mini-head{text-align:center; font-size:10px; color:var(--gray-dim); font-weight:800; padding:4px 0;}
+.mini-cell{
+  aspect-ratio:1/1; position:relative;
+  display:flex; align-items:center; justify-content:center;
+  background:rgba(255,255,255,.03); border-radius:8px;
+  cursor:default;
+}
+.mini-cell .d{font-size:12px; font-weight:700; color:var(--white);}
+.mini-cell.other{opacity:.25;}
+.mini-cell.today{outline:2px solid var(--pink);}
+.mini-cell.i1{background:rgba(239,106,154,.2);}
+.mini-cell.i2{background:rgba(239,106,154,.4);}
+.mini-cell.i3{background:rgba(239,106,154,.65);}
+.mini-cell.i4{background:var(--pink);}
+.mini-totals{
+  display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;
+  font-size:13px; color:var(--gray);
+}
+
 /* ========== RPG DASHBOARD TITLE BLOCK ========== */
 .journey-title{
   text-align:center; padding:12px 0 8px; margin-top:4px;
@@ -1599,9 +1737,9 @@ function renderCharaOrbital(){
           <div class="ico">🧠</div>
           <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>
         </div>
-        <div class="hub-card" onclick="route('misi')">
-          <div class="ico">🎯</div>
-          <div class="info"><div class="ttl">Misi Harian</div><div class="sub">3 misi, reset tiap hari</div></div>
+        <div class="hub-card" onclick="route('sylabus')">
+          <div class="ico">🗺️</div>
+          <div class="info"><div class="ttl">Sylabus</div><div class="sub">Peta perjalanan belajar</div></div>
         </div>
         <div class="hub-card" onclick="route('ujian')">
           <div class="ico">📝</div>
@@ -1613,9 +1751,105 @@ function renderCharaOrbital(){
         </div>
       </div>
     </div>
+
+    <div class="panel" id="home-calendar-panel">
+      <h2>📅 Kalender Belajar</h2>
+      <div id="home-cal-body">
+        <div style="color:var(--gray); padding:20px; text-align:center;">Memuat kalender...</div>
+      </div>
+    </div>
   `;
 }
-function renderHome(){ return renderCharaOrbital(); }
+function renderHome(){
+  // Schedule the mini-calendar fill after the home HTML is injected.
+  setTimeout(() => { _fillHomeCalendar().catch(e => console.warn(e)); }, 0);
+  return renderCharaOrbital();
+}
+
+/* ========== HOME CALENDAR + STREAK WIDGET ========== */
+async function _fillHomeCalendar(){
+  const host = document.getElementById("home-cal-body");
+  if (!host) return;
+  const now = new Date();
+  const ymKey = now.getFullYear() + String(now.getMonth()+1).padStart(2,"0");
+
+  // Streaks + this month's activity (both robust against missing rules).
+  let activity = {};
+  let streak = 0, longest = 0;
+  if (state.user){
+    activity = await FB.listActivity(ymKey).catch(() => ({}));
+    try { [streak, longest] = await _computeStreaks(); }
+    catch { streak = 0; longest = 0; }
+  }
+
+  // Monthly totals
+  const totals = { kanji:0, kosakata:0, latihan:0, ujian:0, days:0 };
+  Object.values(activity).forEach(a => {
+    totals.kanji += a.kanji||0; totals.kosakata += a.kosakata||0;
+    totals.latihan += a.latihan||0; totals.ujian += a.ujian||0;
+    if ((a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0) > 0) totals.days++;
+  });
+
+  // Build the mini grid: 7 columns, current month only
+  const first = new Date(now.getFullYear(), now.getMonth(), 1);
+  const last  = new Date(now.getFullYear(), now.getMonth()+1, 0);
+  const startWd = first.getDay();
+  const totalDays = last.getDate();
+  const cells = [];
+  const prevLast = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+  for (let i = startWd; i > 0; i--) cells.push({ d: prevLast - i + 1, other:true });
+  for (let d = 1; d <= totalDays; d++){
+    const ymd = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,"0")}${String(d).padStart(2,"0")}`;
+    cells.push({ d, ymd, a: activity[ymd] || null });
+  }
+  while (cells.length % 7 !== 0) cells.push({ other:true, d:"" });
+
+  const todayYmd = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,"0")}${String(now.getDate()).padStart(2,"0")}`;
+  const monthName = first.toLocaleString("id-ID", { month:"long", year:"numeric" });
+
+  const cellHtml = (c) => {
+    if (c.other) return `<div class="mini-cell other"><span class="d">${c.d||""}</span></div>`;
+    const a = c.a;
+    const intensity = a ? Math.min(4, Math.floor(((a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0)) / 2) + 1) : 0;
+    const isToday = c.ymd === todayYmd ? " today" : "";
+    const cls = intensity ? ` i${intensity}` : "";
+    return `<div class="mini-cell${cls}${isToday}"><span class="d">${c.d}</span></div>`;
+  };
+
+  host.innerHTML = `
+    <div class="streak-row">
+      <div class="streak-pill fire">
+        <span class="ico">🔥</span>
+        <div><div class="num">${streak}</div><div class="lbl">Streak saat ini</div></div>
+      </div>
+      <div class="streak-pill trophy">
+        <span class="ico">🏆</span>
+        <div><div class="num">${longest}</div><div class="lbl">Terpanjang</div></div>
+      </div>
+      <div class="streak-pill book">
+        <span class="ico">📚</span>
+        <div><div class="num">${totals.days}</div><div class="lbl">Hari belajar</div></div>
+      </div>
+    </div>
+
+    <div class="mini-cal-head">
+      <b>${monthName}</b>
+      <button class="btn ghost sm" onclick="route('kalender')">Lihat Detail →</button>
+    </div>
+
+    <div class="mini-cal">
+      ${["M","S","S","R","K","J","S"].map(w => `<div class="mini-head">${w}</div>`).join("")}
+      ${cells.map(cellHtml).join("")}
+    </div>
+
+    <div class="mini-totals">
+      <span>🈷️ ${totals.kanji} kanji</span>
+      <span>📖 ${totals.kosakata} kosakata</span>
+      <span>🧠 ${totals.latihan} latihan</span>
+      <span>📝 ${totals.ujian} ujian</span>
+    </div>
+  `;
+}
 
 /* ========== MATERI HUB ========== */
 async function renderMateriHub(){
@@ -2997,43 +3231,138 @@ window.ujianSelesai = async () => {
 };
 
 /* ========== SHOP ========== */
+/* ========== SHOP — Hairstyle-only, side-by-side preview (Parts 18 + 23) ========== */
 async function renderShop(){
-  const items = allShopItems();
+  // Part 18: Shop only sells hairstyle. Other categories (pakaian, sepatu,
+  // aksesori, item_tangan, aura) are character-journey equipment, not shoppable.
+  const allItems = allShopItems();
+  const hairItems = allItems.filter(it => it.kategori === "rambut");
+
   const inv = state.siswa?.karakter?.inventory || [];
   const eq = state.siswa?.karakter?.equipped || {};
-  const grouped = {};
-  items.forEach(it => {
-    if (!grouped[it.kategori]) grouped[it.kategori] = [];
-    grouped[it.kategori].push(it);
-  });
+  const skin = state.siswa?.karakter?.skinTone || "light";
+  const hairColor = state.siswa?.karakter?.hairColor;
+
+  // Pick the previewed hairstyle: user's choice, or currently equipped, or first owned, or first available.
+  const preview = state._shopPreview && hairItems.some(it => it.id === state._shopPreview)
+    ? state._shopPreview
+    : (eq.rambut || hairItems[0]?.id || null);
+  state._shopPreview = preview;
+
+  // Character with the previewed hair swapped in
+  const previewEq = { ...DEFAULT_EQUIPPED, ...eq, rambut: preview };
+  const charaSvg = renderCharacter(previewEq, skin, { hairColor });
+
+  const previewItem = hairItems.find(it => it.id === preview);
+  const isOwned = preview && inv.includes(preview);
+  const isEquipped = eq.rambut === preview;
+  const locked = previewItem && state.gami.level_karakter < previewItem.unlock_lv;
+  const unlimitedCoins = FB.hasUnlimitedCoins && FB.hasUnlimitedCoins();
+  const canAfford = unlimitedCoins || (state.gami.koin || 0) >= (previewItem?.harga || 0);
+  const kurang = Math.max(0, (previewItem?.harga || 0) - (state.gami.koin || 0));
+
+  // Action area below the preview
+  let actionHtml;
+  if (!previewItem){
+    actionHtml = `<div style="color:var(--gray); text-align:center;">Belum ada hairstyle tersedia.</div>`;
+  } else if (isEquipped){
+    actionHtml = `<button class="btn ghost" style="width:100%;" disabled>✓ Sedang dipakai</button>`;
+  } else if (isOwned){
+    actionHtml = `<button class="btn gold" style="width:100%;" onclick="shopEquip('${preview}')">👔 Pakai</button>`;
+  } else if (locked){
+    actionHtml = `<button class="btn" style="width:100%;" disabled>🔒 Butuh Lv ${previewItem.unlock_lv}</button>`;
+  } else if (!canAfford){
+    actionHtml = `<button class="btn" style="width:100%;" disabled>Kurang 🪙 ${kurang.toLocaleString("id-ID")}</button>`;
+  } else {
+    actionHtml = `
+      <button class="btn gold" style="width:100%; font-size:16px; padding:14px;" onclick="shopConfirmBeli('${preview}', ${previewItem.harga}, ${previewItem.unlock_lv})">
+        🛒 BELI · ${unlimitedCoins ? "∞" : previewItem.harga.toLocaleString("id-ID")} 🪙
+      </button>
+      ${unlimitedCoins ? `<p style="text-align:center; color:var(--gold); font-size:12px; margin-top:6px;">Developer: coin tidak berkurang</p>` : ""}
+    `;
+  }
+
+  // Thumbnail for each item (character SVG with just that hair)
+  const thumbFor = (it) => renderCharacter({ ...DEFAULT_EQUIPPED, rambut: it.id }, skin, { hairColor });
 
   return `
     <div class="panel">
-      <h2>🛒 Shop</h2>
-      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Koinmu: <b>${state.gami.koin || 0} 🪙</b></p>
-      ${Object.entries(grouped).map(([kat, list]) => `
-        <h3>${CATALOG_LABELS[kat]}</h3>
-        <div class="grid grid-4">
-          ${list.map(it => {
-            const owned = inv.includes(it.id);
-            const equipped = eq[kat] === it.id;
-            const locked = state.gami.level_karakter < it.unlock_lv;
-            const chara = renderCharacter({ ...DEFAULT_EQUIPPED, [kat]: it.id });
-            return `
-              <div class="item-card ${owned?'owned':''} ${equipped?'equipped':''} ${locked?'locked':''}"
-                   onclick="${locked ? `toast('🔒 Butuh Lv ${it.unlock_lv}')` : owned ? `equipNow('${kat}','${it.id}')` : `beliItem('${kat}','${it.id}', ${it.harga}, ${it.unlock_lv})`}">
-                ${it.rarity && it.rarity !== "common" ? `<span class="badge-rarity rarity-${it.rarity}">${it.rarity}</span>` : ""}
-                <div class="icon-wrap">${chara}</div>
-                <div class="nama">${it.nama}</div>
-                <div class="harga">${equipped ? "✓ Dipakai" : owned ? "Dimiliki — klik pakai" : locked ? `🔒 Lv ${it.unlock_lv}` : `🪙 ${it.harga}`}</div>
-              </div>
-            `;
-          }).join("")}
+      <h2>💇 Hairstyle Shop</h2>
+      <p style="color:var(--gray); font-size:14px; margin-bottom:12px;">
+        Pilih hairstyle, lihat langsung di karakter, lalu klik <b>BELI</b> untuk konfirmasi.
+        <br><small style="color:var(--gray-dim);">Baju dan item lain mengikuti perjalanan JLPT-mu, tidak dijual di sini.</small>
+      </p>
+
+      <div class="shop-layout">
+        <div class="shop-preview">
+          <div class="shop-char">${charaSvg}</div>
+          <div class="shop-info">
+            <div class="shop-item-name">${previewItem?.nama || "—"}</div>
+            <div class="shop-item-meta">
+              ${previewItem?.rarity ? `<span class="rarity-chip rarity-${previewItem.rarity}">${previewItem.rarity.toUpperCase()}</span>` : ""}
+              ${previewItem ? `<span>🪙 ${previewItem.harga.toLocaleString("id-ID")}</span>` : ""}
+              ${previewItem?.unlock_lv ? `<span>🔑 Lv ${previewItem.unlock_lv}</span>` : ""}
+            </div>
+          </div>
+          <div class="shop-action">${actionHtml}</div>
+          <div class="shop-wallet">
+            Saldo: <b>${unlimitedCoins ? "∞" : (state.gami.koin || 0).toLocaleString("id-ID")} 🪙</b>
+          </div>
         </div>
-      `).join("")}
+
+        <div class="shop-items">
+          <h3 style="margin-top:0;">Pilihan Hairstyle (${hairItems.length})</h3>
+          <div class="shop-items-grid">
+            ${hairItems.map(it => {
+              const owned = inv.includes(it.id);
+              const equipped = eq.rambut === it.id;
+              const locked = state.gami.level_karakter < it.unlock_lv;
+              const selected = it.id === preview;
+              return `
+                <div class="shop-tile ${selected?'sel':''} ${equipped?'equipped':''} ${owned?'owned':''} ${locked?'locked':''}"
+                     onclick="shopPreview('${it.id}')">
+                  <div class="shop-tile-thumb">${thumbFor(it)}</div>
+                  <div class="shop-tile-name">${it.nama}</div>
+                  <div class="shop-tile-price">
+                    ${equipped ? "✓ Dipakai" : owned ? "Dimiliki" : locked ? `🔒 Lv ${it.unlock_lv}` : `🪙 ${it.harga.toLocaleString("id-ID")}`}
+                  </div>
+                  ${it.rarity && it.rarity !== "common" ? `<span class="shop-tile-rarity rarity-${it.rarity}"></span>` : ""}
+                </div>`;
+            }).join("")}
+          </div>
+        </div>
+      </div>
     </div>
   `;
 }
+
+window.shopPreview = (id) => {
+  state._shopPreview = id;
+  // Just the shop panel changes — route re-render is fine, cheap.
+  renderShop().then(h => document.getElementById("app").innerHTML = h);
+};
+window.shopConfirmBeli = (id, harga, unlock) => {
+  if (!state.user) return toast("Login dulu untuk berbelanja");
+  const unlimited = FB.hasUnlimitedCoins && FB.hasUnlimitedCoins();
+  const msg = unlimited
+    ? `Beli hairstyle ini? (unlimited)`
+    : `Beli hairstyle ini seharga ${harga.toLocaleString("id-ID")} 🪙?`;
+  if (!confirm(msg)) return;
+  beliItem("rambut", id, harga, unlock);
+};
+window.shopEquip = async (id) => {
+  if (!state.user) return;
+  try {
+    await FB.equipItem("rambut", id);
+    // Also refresh local siswa doc
+    if (state.siswa){
+      state.siswa.karakter = state.siswa.karakter || {};
+      state.siswa.karakter.equipped = { ...(state.siswa.karakter.equipped||{}), rambut: id };
+    }
+    toast("✓ Dipakai");
+    renderShop().then(h => document.getElementById("app").innerHTML = h);
+  } catch(e){ toast("❌ " + e.message); }
+};
 window.beliItem = async (kat, id, harga, unlock) => {
   if (!state.user) return toast("Login dulu untuk berbelanja");
   if (state.gami.level_karakter < unlock) return toast(`Butuh level ${unlock}`);
@@ -3041,15 +3370,21 @@ window.beliItem = async (kat, id, harga, unlock) => {
     const r = await FB.beliItem(kat, id, harga, state.level);
     state.gami.koin = r.newKoin;
     updateChips();
-    toast(`💰 Dibeli! Buka Wardrobe untuk pakai.`);
-    await renderShop().then(h => document.getElementById("app").innerHTML = h);
+    if (r.unlimited) toast(`✨ ${state.gami.koin.toLocaleString("id-ID")} 🪙 (unlimited — tidak berkurang)`);
+    else toast(`💰 Dibeli! +1 hairstyle ke koleksi`);
+    // Update local inventory cache
+    if (state.siswa?.karakter){
+      const inv = state.siswa.karakter.inventory || [];
+      if (!inv.includes(id)){ inv.push(id); state.siswa.karakter.inventory = inv; }
+    }
+    renderShop().then(h => document.getElementById("app").innerHTML = h);
   } catch(e){ toast("❌ " + e.message); }
 };
 window.equipNow = async (kat, id) => {
   if (!state.user) return;
   await FB.equipItem(kat, id);
   toast("✓ Dipakai");
-  await renderShop().then(h => document.getElementById("app").innerHTML = h);
+  renderShop().then(h => document.getElementById("app").innerHTML = h);
 };
 
 /* ========== INVENTORY ========== */
@@ -3634,25 +3969,71 @@ async function renderAchievements(){
 
 /* ========== LEADERBOARD ========== */
 async function renderLeaderboard(){
-  if (!state.user) return `<div class="panel"><h2>🏆 Leaderboard</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk lihat ranking.</div></div>`;
-  const list = await FB.leaderboard(state.level, 20);
+  if (!state.user) return `<div class="panel"><h2>🏆 Leaderboard</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk lihat ranking.<br><button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
+
+  const kind = state._lbKind || "global";
+  const chip = (k, label) => `<button class="lb-chip ${kind===k?'on':''}" onclick="lbSetKind('${k}')">${label}</button>`;
+
+  // Fetch list for the chosen kind (robust).
+  const list = await FB.leaderboardAdvanced(kind, 20).catch(() => []);
+
+  const me = state.user?.uid;
+
+  const scoreLabel = kind === "global" ? "XP total"
+                   : kind.startsWith("jlpt-") ? "XP"
+                   : "Aktivitas";
+
+  const row = (u, i) => {
+    const rankColor = i===0?'var(--gold)':i===1?'#c0c0c0':i===2?'#cd7f32':'var(--gray)';
+    const isMe = u.uid === me;
+    return `
+      <div class="lb-row ${isMe?'me':''}">
+        <div class="lb-rank" style="color:${rankColor};">#${i+1}</div>
+        <div class="lb-user">
+          <div class="lb-name">${u.nama}${isMe?' <span style="color:var(--pink); font-size:11px;">(Kamu)</span>':''}</div>
+          <div class="lb-meta">${u.kelas?`${u.kelas} · `:''}${u.meta||''}</div>
+        </div>
+        <div class="lb-score">${(u.score||0).toLocaleString('id-ID')}<div class="lb-score-lbl">${scoreLabel}</div></div>
+      </div>
+    `;
+  };
+
   return `
     <div class="panel">
-      <h2>🏆 Leaderboard ${state.level.toUpperCase()}</h2>
+      <h2>🏆 Leaderboard</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Ranking lintas kelas berdasarkan pembelajaran valid.</p>
+
+      <div class="lb-tabs">
+        ${chip("global",  "🌐 Global")}
+        ${chip("weekly",  "📅 Minggu Ini")}
+        ${chip("monthly", "📆 Bulan Ini")}
+      </div>
+      <div class="lb-tabs" style="margin-top:6px;">
+        ${chip("jlpt-n5", "N5")}
+        ${chip("jlpt-n4", "N4")}
+        ${chip("jlpt-n3", "N3")}
+        ${chip("jlpt-n2", "N2")}
+        ${chip("jlpt-n1", "N1")}
+      </div>
+
       ${list.length ? `
-        <div class="grid">
-          ${list.map((u, i) => `
-            <div class="contoh-item" style="align-items:center;">
-              <div style="font-size:24px; font-weight:800; color:${i===0?'var(--gold)':i===1?'#c0c0c0':i===2?'#cd7f32':'var(--gray)'};">#${i+1}</div>
-              <div style="flex:1; font-weight:700;">${u.nama}</div>
-              <div class="id">Lv ${u.level_karakter||1} · ${u.xp||0} XP</div>
-            </div>
-          `).join("")}
+        <div class="lb-list">
+          ${list.map(row).join("")}
         </div>
-      ` : '<div class="empty">Belum ada data.</div>'}
+      ` : `
+        <div class="empty">
+          <div class="emoji">📭</div>
+          Belum ada data untuk kategori ini.<br>
+          <small style="color:var(--gray-dim);">Mulai belajar untuk muncul di ranking.</small>
+        </div>
+      `}
     </div>
   `;
 }
+window.lbSetKind = (kind) => {
+  state._lbKind = kind;
+  route("leaderboard");
+};
 
 /* ========== AUTH STATE ========== */
 FB.onAuth(async (user, siswa) => {

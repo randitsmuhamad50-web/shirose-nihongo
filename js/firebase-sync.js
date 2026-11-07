@@ -643,22 +643,101 @@ export async function simpanKelas(data, id = null) {
 
 /* ========== LEADERBOARD ========== */
 export async function leaderboard(level, topN = 20) {
-  // Query siswa docs (perlu aggregate query atau cursor; disederhanakan: fetch all + sort)
-  const snap = await getDocs(collection(db, "siswa"));
-  const result = [];
-  for (const d of snap.docs) {
-    try {
-      const g = await getDoc(doc(db, "siswa", d.id, "gami", level));
-      if (g.exists()) {
-        result.push({
-          uid: d.id, nama: d.data().nama || "Anonim",
-          ...g.data()
-        });
-      }
-    } catch(e) {}
-  }
-  result.sort((a,b) => (b.xp || 0) - (a.xp || 0));
-  return result.slice(0, topN);
+  // Per-level leaderboard (original behaviour, backward compatible)
+  try {
+    const snap = await getDocs(collection(db, "siswa"));
+    const result = [];
+    for (const d of snap.docs) {
+      try {
+        const g = await getDoc(doc(db, "siswa", d.id, "gami", level));
+        if (g.exists()) {
+          const sdata = d.data();
+          result.push({
+            uid: d.id,
+            nama: sdata.nama || "Anonim",
+            kelas: sdata.kelas || "",
+            avatar: sdata.karakter?.equipped || null,
+            ...g.data()
+          });
+        }
+      } catch(e) {}
+    }
+    result.sort((a,b) => (b.xp || 0) - (a.xp || 0));
+    return result.slice(0, topN);
+  } catch (e) { console.warn("leaderboard failed:", e.message); return []; }
+}
+
+/**
+ * Part 15 — Global leaderboard variants:
+ *   kind = "jlpt-{level}" (default) — per-JLPT XP
+ *   kind = "global"                 — sum XP across all 5 JLPTs
+ *   kind = "weekly" / "monthly"     — ranked by activity count in window
+ */
+export async function leaderboardAdvanced(kind = "global", topN = 20) {
+  try {
+    const snap = await getDocs(collection(db, "siswa"));
+    const result = [];
+    for (const d of snap.docs) {
+      const sdata = d.data();
+      const entry = {
+        uid: d.id,
+        nama: sdata.nama || "Anonim",
+        kelas: sdata.kelas || "",
+        avatar: sdata.karakter?.equipped || null,
+        score: 0, meta: "",
+      };
+      try {
+        if (kind.startsWith("jlpt-")){
+          const lvl = kind.slice(5);
+          const g = await getDoc(doc(db, "siswa", d.id, "gami", lvl));
+          if (!g.exists()) continue;
+          const gd = g.data();
+          entry.score = gd.xp || 0;
+          entry.level_karakter = gd.level_karakter || 1;
+          entry.streak = gd.streak || 0;
+          entry.meta = `Lv ${gd.level_karakter||1} · ${gd.streak||0}🔥`;
+        } else if (kind === "global"){
+          let total = 0, maxStreak = 0, maxLv = 1;
+          for (const lvl of ["n5","n4","n3","n2","n1"]){
+            const g = await getDoc(doc(db, "siswa", d.id, "gami", lvl));
+            if (!g.exists()) continue;
+            const gd = g.data();
+            total += gd.xp || 0;
+            if ((gd.streak||0) > maxStreak) maxStreak = gd.streak;
+            if ((gd.level_karakter||1) > maxLv) maxLv = gd.level_karakter;
+          }
+          if (total === 0) continue;
+          entry.score = total;
+          entry.level_karakter = maxLv;
+          entry.streak = maxStreak;
+          entry.meta = `Lv ${maxLv} · ${maxStreak}🔥`;
+        } else if (kind === "weekly" || kind === "monthly"){
+          // Sum activity counts within window
+          const now = new Date();
+          const windowDays = kind === "weekly" ? 7 : 30;
+          const col = await getDocs(collection(db, "siswa", d.id, "activity"));
+          let total = 0, days = 0;
+          col.forEach(ad => {
+            const ymd = ad.id;
+            if (ymd.length !== 8) return;
+            const y = +ymd.slice(0,4), m = +ymd.slice(4,6)-1, da = +ymd.slice(6,8);
+            const diff = (now - new Date(y, m, da)) / 86400000;
+            if (diff >= 0 && diff < windowDays){
+              const a = ad.data();
+              const dayTotal = (a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0);
+              if (dayTotal > 0){ total += dayTotal; days++; }
+            }
+          });
+          if (total === 0) continue;
+          entry.score = total;
+          entry.meta = `${days} hari aktif`;
+        }
+      } catch(e){ continue; }
+      result.push(entry);
+    }
+    result.sort((a,b) => (b.score||0) - (a.score||0));
+    return result.slice(0, topN);
+  } catch (e) { console.warn("leaderboardAdvanced failed:", e.message); return []; }
 }
 
 /* ========== MISI HARIAN ========== */
