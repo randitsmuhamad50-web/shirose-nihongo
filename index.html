@@ -257,6 +257,18 @@ body{
 }
 
 /* ========== SHOP side-by-side (Parts 18 + 23) ========== */
+.shop-tabs{
+  display:flex; gap:6px; flex-wrap:wrap; margin-bottom:12px;
+}
+.shop-tab{
+  padding:10px 16px; border-radius:999px; cursor:pointer;
+  background:rgba(255,255,255,.05); border:1px solid var(--border);
+  color:var(--gray); font-weight:700; font-size:13px; min-height:40px;
+  transition:all .15s;
+}
+.shop-tab.on{background:var(--pink); border-color:var(--pink); color:white;}
+.shop-tab:hover{color:var(--white); border-color:var(--pink-light);}
+
 .shop-layout{
   display:grid; grid-template-columns:360px 1fr; gap:16px;
   margin-top:10px;
@@ -380,15 +392,30 @@ body{
   aspect-ratio:1/1; position:relative;
   display:flex; align-items:center; justify-content:center;
   background:rgba(255,255,255,.03); border-radius:8px;
-  cursor:default;
+  cursor:pointer; transition:transform .12s, box-shadow .15s;
 }
-.mini-cell .d{font-size:12px; font-weight:700; color:var(--white);}
-.mini-cell.other{opacity:.25;}
+.mini-cell:hover{transform:scale(1.08); z-index:2;}
+.mini-cell .d{font-size:12px; font-weight:800; color:var(--white);}
+.mini-cell.other{opacity:.25; cursor:default;}
+.mini-cell.other:hover{transform:none;}
 .mini-cell.today{outline:2px solid var(--pink);}
-.mini-cell.i1{background:rgba(239,106,154,.2);}
-.mini-cell.i2{background:rgba(239,106,154,.4);}
-.mini-cell.i3{background:rgba(239,106,154,.65);}
-.mini-cell.i4{background:var(--pink);}
+/* Heat palette — green → yellow → orange → red → fire */
+.mini-cell.i1{background:rgba(16,185,129,.35);}                     /* sedikit */
+.mini-cell.i2{background:rgba(234,179,8,.5);}                        /* sedang */
+.mini-cell.i3{background:rgba(249,115,22,.65);}                      /* lumayan */
+.mini-cell.i4{background:rgba(239,68,68,.75);}                       /* bagus */
+.mini-cell.i5{
+  background:linear-gradient(135deg, #ef4444, #f59e0b);
+  box-shadow:0 0 12px rgba(239,68,68,.75), inset 0 0 8px rgba(255,215,0,.5);
+  animation:cellFire 1.4s ease-in-out infinite;
+}
+@keyframes cellFire{0%,100%{filter:brightness(1)}50%{filter:brightness(1.35)}}
+.cell-fire{
+  position:absolute; top:-2px; right:-2px; font-size:11px;
+  filter:drop-shadow(0 1px 1px rgba(0,0,0,.5));
+  animation:fireBob .9s ease-in-out infinite;
+}
+@keyframes fireBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-2px)}}
 .mini-totals{
   display:flex; gap:12px; flex-wrap:wrap; margin-top:12px;
   font-size:13px; color:var(--gray);
@@ -692,6 +719,14 @@ body{
 .dot-kosakata{background:#8b5cf6;}
 .dot-latihan{background:#f59e0b;}
 .dot-ujian{background:#10b981;}
+.cal-legend{display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; font-size:12px; color:var(--gray); align-items:center;}
+.cal-legend span{display:inline-flex; gap:5px; align-items:center;}
+.cal-legend .cl{display:inline-block; width:14px; height:14px; border-radius:4px;}
+.cal-legend .cl.l1{background:rgba(16,185,129,.55);}
+.cal-legend .cl.l2{background:rgba(234,179,8,.7);}
+.cal-legend .cl.l3{background:rgba(249,115,22,.75);}
+.cal-legend .cl.l4{background:rgba(239,68,68,.8);}
+.cal-legend .cl.l5{background:linear-gradient(135deg,#ef4444,#f59e0b);}
 
 /* ========== SYLABUS ========== */
 .syl-hero{
@@ -1767,6 +1802,45 @@ function renderHome(){
 }
 
 /* ========== HOME CALENDAR + STREAK WIDGET ========== */
+// Click a mini-cal day → detail popup
+window.miniCalDay = (payload) => {
+  const { ymd, a } = JSON.parse(decodeURIComponent(payload));
+  if (!ymd) return;
+  const nice = `${ymd.slice(6,8)}-${ymd.slice(4,6)}-${ymd.slice(0,4)}`;
+  const total = (a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0);
+  const empty = total === 0;
+  let verdict = "";
+  if (total >= 300)      verdict = "🔥 BRUTAL! Luar biasa!";
+  else if (total >= 150) verdict = "💪 BAGUS SEKALI!";
+  else if (total >= 50)  verdict = "👍 LUMAYAN";
+  else if (total >= 20)  verdict = "🟡 SEDANG";
+  else if (total > 0)    verdict = "🌱 BARU MULAI";
+
+  const existing = document.getElementById("mcal-day-modal");
+  if (existing) existing.remove();
+  const html = `
+    <div class="modal-backdrop open" id="mcal-day-modal" onclick="if(event.target===this) document.getElementById('mcal-day-modal').remove()">
+      <div class="modal" style="max-width:380px;">
+        <h2>${nice}</h2>
+        ${empty ? `<p style="color:var(--gray); margin-top:8px;">Belum ada aktivitas di hari ini.</p>` : `
+          <p style="color:var(--pink-light); font-weight:800; font-size:16px; margin-top:8px;">${verdict}</p>
+          <ul style="list-style:none; padding:0; margin-top:12px;">
+            <li style="padding:8px 0; border-bottom:1px solid var(--border);">🈷️ Kanji: <b>${a.kanji||0}</b></li>
+            <li style="padding:8px 0; border-bottom:1px solid var(--border);">📖 Kosakata: <b>${a.kosakata||0}</b></li>
+            <li style="padding:8px 0; border-bottom:1px solid var(--border);">🧠 Latihan: <b>${a.latihan||0}</b></li>
+            <li style="padding:8px 0;">📝 Ujian: <b>${a.ujian||0}</b></li>
+          </ul>
+          <p style="margin-top:10px; color:var(--gray); font-size:13px;">Total: <b style="color:var(--white);">${total} aktivitas</b></p>
+        `}
+        <button class="btn" style="width:100%; margin-top:14px;"
+                onclick="document.getElementById('mcal-day-modal').remove()">OK</button>
+      </div>
+    </div>`;
+  const wrap = document.createElement("div");
+  wrap.innerHTML = html;
+  document.body.appendChild(wrap.firstElementChild);
+};
+
 async function _fillHomeCalendar(){
   const host = document.getElementById("home-cal-body");
   if (!host) return;
@@ -1807,13 +1881,32 @@ async function _fillHomeCalendar(){
   const todayYmd = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,"0")}${String(now.getDate()).padStart(2,"0")}`;
   const monthName = first.toLocaleString("id-ID", { month:"long", year:"numeric" });
 
+  // Heat intensity map:
+  //   0  -> no color (belum dikerjakan)
+  //   1  -> green  (sedikit, 1-19 item)
+  //   2  -> yellow (sedang, 20-49)
+  //   3  -> orange (lumayan, 50-149)
+  //   4  -> red    (bagus, 150-299)
+  //   5  -> fire🔥 (brutal, 300+)
+  const intensityOf = (a) => {
+    if (!a) return 0;
+    const total = (a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0);
+    if (total === 0) return 0;
+    if (total < 20) return 1;
+    if (total < 50) return 2;
+    if (total < 150) return 3;
+    if (total < 300) return 4;
+    return 5;
+  };
   const cellHtml = (c) => {
     if (c.other) return `<div class="mini-cell other"><span class="d">${c.d||""}</span></div>`;
     const a = c.a;
-    const intensity = a ? Math.min(4, Math.floor(((a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0)) / 2) + 1) : 0;
+    const intensity = intensityOf(a);
     const isToday = c.ymd === todayYmd ? " today" : "";
     const cls = intensity ? ` i${intensity}` : "";
-    return `<div class="mini-cell${cls}${isToday}"><span class="d">${c.d}</span></div>`;
+    const payload = encodeURIComponent(JSON.stringify({ ymd:c.ymd, a:a||{} }));
+    const fire = intensity === 5 ? `<span class="cell-fire">🔥</span>` : "";
+    return `<div class="mini-cell${cls}${isToday}" onclick="miniCalDay('${payload}')"><span class="d">${c.d}</span>${fire}</div>`;
   };
 
   host.innerHTML = `
@@ -3231,31 +3324,42 @@ window.ujianSelesai = async () => {
 };
 
 /* ========== SHOP ========== */
-/* ========== SHOP — Hairstyle-only, side-by-side preview (Parts 18 + 23) ========== */
+/* ========== SHOP — all categories + side-by-side preview (Parts 18 + 23) ========== */
 async function renderShop(){
-  // Part 18: Shop only sells hairstyle. Other categories (pakaian, sepatu,
-  // aksesori, item_tangan, aura) are character-journey equipment, not shoppable.
+  // Category tabs — shop now sells hairstyle PLUS pakaian/sepatu/aksesori/senjata.
+  // "senjata" maps to the item_tangan slot in the character catalog.
+  const CAT_TABS = [
+    { key: "rambut",      label: "💇 Rambut" },
+    { key: "pakaian",     label: "👕 Pakaian" },
+    { key: "sepatu",      label: "👟 Sepatu" },
+    { key: "aksesori",    label: "🎩 Aksesori" },
+    { key: "item_tangan", label: "⚔️ Senjata" },
+  ];
+  const activeCat = state._shopCat && CAT_TABS.some(t => t.key === state._shopCat) ? state._shopCat : "rambut";
+  state._shopCat = activeCat;
+
   const allItems = allShopItems();
-  const hairItems = allItems.filter(it => it.kategori === "rambut");
+  const items = allItems.filter(it => it.kategori === activeCat);
 
   const inv = state.siswa?.karakter?.inventory || [];
   const eq = state.siswa?.karakter?.equipped || {};
   const skin = state.siswa?.karakter?.skinTone || "light";
   const hairColor = state.siswa?.karakter?.hairColor;
 
-  // Pick the previewed hairstyle: user's choice, or currently equipped, or first owned, or first available.
-  const preview = state._shopPreview && hairItems.some(it => it.id === state._shopPreview)
-    ? state._shopPreview
-    : (eq.rambut || hairItems[0]?.id || null);
-  state._shopPreview = preview;
+  // Per-category preview: user's choice, or equipped, or first available.
+  const prevKey = `shopPrev_${activeCat}`;
+  const preview = state[prevKey] && items.some(it => it.id === state[prevKey])
+    ? state[prevKey]
+    : (eq[activeCat] || items[0]?.id || null);
+  state[prevKey] = preview;
 
-  // Character with the previewed hair swapped in
-  const previewEq = { ...DEFAULT_EQUIPPED, ...eq, rambut: preview };
+  // Character with the previewed slot swapped in
+  const previewEq = { ...DEFAULT_EQUIPPED, ...eq, [activeCat]: preview };
   const charaSvg = renderCharacter(previewEq, skin, { hairColor });
 
-  const previewItem = hairItems.find(it => it.id === preview);
+  const previewItem = items.find(it => it.id === preview);
   const isOwned = preview && inv.includes(preview);
-  const isEquipped = eq.rambut === preview;
+  const isEquipped = eq[activeCat] === preview;
   const locked = previewItem && state.gami.level_karakter < previewItem.unlock_lv;
   const unlimitedCoins = FB.hasUnlimitedCoins && FB.hasUnlimitedCoins();
   const canAfford = unlimitedCoins || (state.gami.koin || 0) >= (previewItem?.harga || 0);
@@ -3264,34 +3368,39 @@ async function renderShop(){
   // Action area below the preview
   let actionHtml;
   if (!previewItem){
-    actionHtml = `<div style="color:var(--gray); text-align:center;">Belum ada hairstyle tersedia.</div>`;
+    actionHtml = `<div style="color:var(--gray); text-align:center;">Belum ada item di kategori ini.</div>`;
   } else if (isEquipped){
     actionHtml = `<button class="btn ghost" style="width:100%;" disabled>✓ Sedang dipakai</button>`;
   } else if (isOwned){
-    actionHtml = `<button class="btn gold" style="width:100%;" onclick="shopEquip('${preview}')">👔 Pakai</button>`;
+    actionHtml = `<button class="btn gold" style="width:100%;" onclick="shopEquip('${activeCat}','${preview}')">👔 Pakai</button>`;
   } else if (locked){
     actionHtml = `<button class="btn" style="width:100%;" disabled>🔒 Butuh Lv ${previewItem.unlock_lv}</button>`;
   } else if (!canAfford){
     actionHtml = `<button class="btn" style="width:100%;" disabled>Kurang 🪙 ${kurang.toLocaleString("id-ID")}</button>`;
   } else {
     actionHtml = `
-      <button class="btn gold" style="width:100%; font-size:16px; padding:14px;" onclick="shopConfirmBeli('${preview}', ${previewItem.harga}, ${previewItem.unlock_lv})">
+      <button class="btn gold" style="width:100%; font-size:16px; padding:14px;" onclick="shopConfirmBeli('${activeCat}','${preview}', ${previewItem.harga}, ${previewItem.unlock_lv})">
         🛒 BELI · ${unlimitedCoins ? "∞" : previewItem.harga.toLocaleString("id-ID")} 🪙
       </button>
       ${unlimitedCoins ? `<p style="text-align:center; color:var(--gold); font-size:12px; margin-top:6px;">Developer: coin tidak berkurang</p>` : ""}
     `;
   }
 
-  // Thumbnail for each item (character SVG with just that hair)
-  const thumbFor = (it) => renderCharacter({ ...DEFAULT_EQUIPPED, rambut: it.id }, skin, { hairColor });
+  // Thumbnail for each item (character SVG with just that slot populated)
+  const thumbFor = (it) => renderCharacter({ ...DEFAULT_EQUIPPED, [activeCat]: it.id }, skin, { hairColor });
+
+  const tabHtml = CAT_TABS.map(t => `
+    <button class="shop-tab ${activeCat===t.key?'on':''}" onclick="shopSetCat('${t.key}')">${t.label}</button>
+  `).join("");
 
   return `
     <div class="panel">
-      <h2>💇 Hairstyle Shop</h2>
+      <h2>🛒 Shop</h2>
       <p style="color:var(--gray); font-size:14px; margin-bottom:12px;">
-        Pilih hairstyle, lihat langsung di karakter, lalu klik <b>BELI</b> untuk konfirmasi.
-        <br><small style="color:var(--gray-dim);">Baju dan item lain mengikuti perjalanan JLPT-mu, tidak dijual di sini.</small>
+        Pilih item, lihat di karakter, lalu klik <b>BELI</b>. Pembelian hanya memotong coin setelah konfirmasi.
       </p>
+
+      <div class="shop-tabs">${tabHtml}</div>
 
       <div class="shop-layout">
         <div class="shop-preview">
@@ -3300,6 +3409,7 @@ async function renderShop(){
             <div class="shop-item-name">${previewItem?.nama || "—"}</div>
             <div class="shop-item-meta">
               ${previewItem?.rarity ? `<span class="rarity-chip rarity-${previewItem.rarity}">${previewItem.rarity.toUpperCase()}</span>` : ""}
+              ${previewItem?.jlpt ? `<span class="rarity-chip" style="background:rgba(239,106,154,.18); color:var(--pink-light);">${previewItem.jlpt.toUpperCase()}</span>` : ""}
               ${previewItem ? `<span>🪙 ${previewItem.harga.toLocaleString("id-ID")}</span>` : ""}
               ${previewItem?.unlock_lv ? `<span>🔑 Lv ${previewItem.unlock_lv}</span>` : ""}
             </div>
@@ -3311,53 +3421,58 @@ async function renderShop(){
         </div>
 
         <div class="shop-items">
-          <h3 style="margin-top:0;">Pilihan Hairstyle (${hairItems.length})</h3>
-          <div class="shop-items-grid">
-            ${hairItems.map(it => {
-              const owned = inv.includes(it.id);
-              const equipped = eq.rambut === it.id;
-              const locked = state.gami.level_karakter < it.unlock_lv;
-              const selected = it.id === preview;
-              return `
-                <div class="shop-tile ${selected?'sel':''} ${equipped?'equipped':''} ${owned?'owned':''} ${locked?'locked':''}"
-                     onclick="shopPreview('${it.id}')">
-                  <div class="shop-tile-thumb">${thumbFor(it)}</div>
-                  <div class="shop-tile-name">${it.nama}</div>
-                  <div class="shop-tile-price">
-                    ${equipped ? "✓ Dipakai" : owned ? "Dimiliki" : locked ? `🔒 Lv ${it.unlock_lv}` : `🪙 ${it.harga.toLocaleString("id-ID")}`}
-                  </div>
-                  ${it.rarity && it.rarity !== "common" ? `<span class="shop-tile-rarity rarity-${it.rarity}"></span>` : ""}
-                </div>`;
-            }).join("")}
-          </div>
+          <h3 style="margin-top:0;">${CAT_TABS.find(t=>t.key===activeCat).label} (${items.length})</h3>
+          ${items.length ? `
+            <div class="shop-items-grid">
+              ${items.map(it => {
+                const owned = inv.includes(it.id);
+                const equipped = eq[activeCat] === it.id;
+                const locked = state.gami.level_karakter < it.unlock_lv;
+                const selected = it.id === preview;
+                return `
+                  <div class="shop-tile ${selected?'sel':''} ${equipped?'equipped':''} ${owned?'owned':''} ${locked?'locked':''}"
+                       onclick="shopPreview('${activeCat}','${it.id}')">
+                    <div class="shop-tile-thumb">${thumbFor(it)}</div>
+                    <div class="shop-tile-name">${it.nama}</div>
+                    <div class="shop-tile-price">
+                      ${equipped ? "✓ Dipakai" : owned ? "Dimiliki" : locked ? `🔒 Lv ${it.unlock_lv}` : `🪙 ${it.harga.toLocaleString("id-ID")}`}
+                    </div>
+                    ${it.rarity && it.rarity !== "common" ? `<span class="shop-tile-rarity rarity-${it.rarity}"></span>` : ""}
+                  </div>`;
+              }).join("")}
+            </div>
+          ` : `<div class="empty"><div class="emoji">📭</div>Kategori ini masih kosong.</div>`}
         </div>
       </div>
     </div>
   `;
 }
 
-window.shopPreview = (id) => {
-  state._shopPreview = id;
-  // Just the shop panel changes — route re-render is fine, cheap.
+window.shopSetCat = (cat) => {
+  state._shopCat = cat;
   renderShop().then(h => document.getElementById("app").innerHTML = h);
 };
-window.shopConfirmBeli = (id, harga, unlock) => {
+window.shopPreview = (cat, id) => {
+  state._shopCat = cat;
+  state[`shopPrev_${cat}`] = id;
+  renderShop().then(h => document.getElementById("app").innerHTML = h);
+};
+window.shopConfirmBeli = (cat, id, harga, unlock) => {
   if (!state.user) return toast("Login dulu untuk berbelanja");
   const unlimited = FB.hasUnlimitedCoins && FB.hasUnlimitedCoins();
   const msg = unlimited
-    ? `Beli hairstyle ini? (unlimited)`
-    : `Beli hairstyle ini seharga ${harga.toLocaleString("id-ID")} 🪙?`;
+    ? `Beli item ini? (unlimited)`
+    : `Beli item ini seharga ${harga.toLocaleString("id-ID")} 🪙?`;
   if (!confirm(msg)) return;
-  beliItem("rambut", id, harga, unlock);
+  beliItem(cat, id, harga, unlock);
 };
-window.shopEquip = async (id) => {
+window.shopEquip = async (cat, id) => {
   if (!state.user) return;
   try {
-    await FB.equipItem("rambut", id);
-    // Also refresh local siswa doc
+    await FB.equipItem(cat, id);
     if (state.siswa){
       state.siswa.karakter = state.siswa.karakter || {};
-      state.siswa.karakter.equipped = { ...(state.siswa.karakter.equipped||{}), rambut: id };
+      state.siswa.karakter.equipped = { ...(state.siswa.karakter.equipped||{}), [cat]: id };
     }
     toast("✓ Dipakai");
     renderShop().then(h => document.getElementById("app").innerHTML = h);
@@ -3573,7 +3688,16 @@ async function renderKalender(){
         ${cells.map(cellHtml).join("")}
       </div>
 
-      <div style="margin-top:14px; font-size:12px; color:var(--gray);">
+      <div class="cal-legend">
+        <b>Intensitas:</b>
+        <span><i class="cl l1"></i> Sedikit</span>
+        <span><i class="cl l2"></i> Sedang</span>
+        <span><i class="cl l3"></i> Lumayan</span>
+        <span><i class="cl l4"></i> Bagus</span>
+        <span><i class="cl l5"></i> 🔥 Brutal (300+)</span>
+      </div>
+
+      <div style="margin-top:14px; font-size:14px; color:var(--gray);">
         <b>Total bulan ini:</b>
         🈷️ ${totals.kanji} kanji · 📖 ${totals.kosakata} kosakata ·
         🧠 ${totals.latihan} latihan · 📝 ${totals.ujian} ujian ·

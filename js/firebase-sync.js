@@ -453,7 +453,9 @@ export async function claimUjianLulusReward(kategoriId, skor, lulusMin) {
   const snap = await getDoc(ref);
   if (snap.exists()) return { firstTime:false, rewardKoin:0 };
   await setDoc(ref, { skor, tgl: serverTimestamp() });
-  return { firstTime:true, rewardKoin: 10000 };
+  // Part 5 revised reward: 2.500 coin per ujian lulus (sekali).
+  // Semula 10k, user minta diturunin supaya legendary tetap susah dibeli.
+  return { firstTime:true, rewardKoin: 2500 };
 }
 
 /**

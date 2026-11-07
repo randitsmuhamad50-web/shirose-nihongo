@@ -162,7 +162,7 @@ export const OUTFITS = {
   },
   kemeja_navy: {
     nama: "Kemeja Navy",
-    harga: 150,
+    harga: 500, rarity:"common", unlock_lv:1,
     svg: () => `
       <path d="M135 200 Q200 180 265 200 L270 345 L130 345 Z" fill="#2a3758" stroke="#1a2040" stroke-width="2"/>
       <path d="M195 200 L205 200 L208 250 L200 260 L192 250 Z" fill="#ef6a9a"/>
@@ -174,7 +174,7 @@ export const OUTFITS = {
   },
   jaket_hitam: {
     nama: "Jaket Hitam",
-    harga: 300,
+    harga: 2500, rarity:"uncommon", unlock_lv:10,
     svg: () => `
       <path d="M135 200 Q200 180 265 200 L270 345 L130 345 Z" fill="#1a1a1a" stroke="#000" stroke-width="2"/>
       <!-- Jacket zipper -->
@@ -188,7 +188,7 @@ export const OUTFITS = {
   },
   hoodie_pink: {
     nama: "Hoodie Pink Sakura",
-    harga: 400,
+    harga: 10000, rarity:"rare", unlock_lv:25,
     svg: () => `
       <path d="M135 200 Q200 180 265 200 L270 345 L130 345 Z" fill="#ef6a9a" stroke="#c8325a" stroke-width="2"/>
       <!-- Hood -->
@@ -201,9 +201,33 @@ export const OUTFITS = {
       <circle cx="277" cy="325" r="11" fill="#f5d4b3"/>
     `,
   },
+  n1_suit_legendary: {
+    nama: "✨ Executive Suit Legendary (Gold)",
+    jlpt:"n1", harga: 50000, rarity:"legendary", unlock_lv:75,
+    svg: () => `
+      <defs>
+        <radialGradient id="outfit-legend"><stop offset="0%" stop-color="#ffd700" stop-opacity=".4"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+      </defs>
+      <circle cx="200" cy="275" r="90" fill="url(#outfit-legend)"/>
+      <path d="M135 200 Q200 180 265 200 L270 345 L130 345 Z" fill="#1a1a1a" stroke="#ffd700" stroke-width="2.5"/>
+      <!-- Lapels -->
+      <path d="M160 200 L200 220 L240 200 L245 250 L200 240 L155 250 Z" fill="#000" stroke="#ffd700" stroke-width="1.5"/>
+      <!-- Shirt + tie -->
+      <path d="M190 215 L210 215 L208 270 L200 275 L192 270 Z" fill="#fff"/>
+      <path d="M194 215 L206 215 L210 245 L200 265 L190 245 Z" fill="#ffd700" stroke="#b8860b" stroke-width="1"/>
+      <!-- Gold buttons -->
+      <circle cx="200" cy="285" r="2.5" fill="#ffd700" stroke="#b8860b"/>
+      <circle cx="200" cy="310" r="2.5" fill="#ffd700" stroke="#b8860b"/>
+      <circle cx="200" cy="335" r="2.5" fill="#ffd700" stroke="#b8860b"/>
+      <path d="M135 205 Q110 240 115 300 L135 330 L145 325 L140 295 Q145 240 155 215 Z" fill="#1a1a1a" stroke="#ffd700" stroke-width="2"/>
+      <path d="M265 205 Q290 240 285 300 L265 330 L255 325 L260 295 Q255 240 245 215 Z" fill="#1a1a1a" stroke="#ffd700" stroke-width="2"/>
+      <circle cx="123" cy="325" r="11" fill="#f5d4b3"/>
+      <circle cx="277" cy="325" r="11" fill="#f5d4b3"/>
+    `,
+  },
   kimono: {
-    nama: "Kimono",
-    harga: 800,
+    nama: "Kimono Tradisional",
+    harga: 25000, rarity:"epic", unlock_lv:50,
     svg: () => `
       <path d="M135 200 Q200 180 265 200 L270 345 L130 345 Z" fill="#8c1f2e" stroke="#5a0f1a" stroke-width="2"/>
       <!-- Pattern -->
@@ -240,7 +264,7 @@ export const SHOES = {
   },
   sneakers_merah: {
     nama: "Sneakers Merah",
-    harga: 200,
+    harga: 800, rarity:"common", unlock_lv:1,
     svg: () => `
       <path d="M163 450 L203 450 L205 465 L161 465 Z" fill="#ef4444" stroke="#7a1a1a" stroke-width="1.5"/>
       <path d="M197 450 L237 450 L239 465 L195 465 Z" fill="#ef4444" stroke="#7a1a1a" stroke-width="1.5"/>
@@ -250,7 +274,7 @@ export const SHOES = {
   },
   boots: {
     nama: "Boots Hitam",
-    harga: 350,
+    harga: 4000, rarity:"uncommon", unlock_lv:10,
     svg: () => `
       <rect x="160" y="440" width="48" height="25" rx="4" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
       <rect x="192" y="440" width="48" height="25" rx="4" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
@@ -259,8 +283,8 @@ export const SHOES = {
     `,
   },
   geta: {
-    nama: "Geta (下駄)",
-    harga: 500,
+    nama: "Geta (下駄) Rare",
+    harga: 13000, rarity:"rare", unlock_lv:25,
     svg: () => `
       <rect x="163" y="454" width="42" height="10" fill="#8b4a3a" stroke="#5a2f22" stroke-width="1"/>
       <rect x="197" y="454" width="42" height="10" fill="#8b4a3a" stroke="#5a2f22" stroke-width="1"/>
@@ -277,7 +301,7 @@ export const ACCESSORIES = {
   none: { nama: "Tidak ada", harga: 0, equipped_default: true, svg: null },
   kacamata: {
     nama: "Kacamata",
-    harga: 120,
+    harga: 500, rarity:"common", unlock_lv:1,
     svg: () => `
       <circle cx="178" cy="132" r="10" fill="none" stroke="#1a1a1a" stroke-width="2"/>
       <circle cx="222" cy="132" r="10" fill="none" stroke="#1a1a1a" stroke-width="2"/>
@@ -288,7 +312,7 @@ export const ACCESSORIES = {
   },
   kacamata_pink: {
     nama: "Kacamata Pink",
-    harga: 180,
+    harga: 600, rarity:"common", unlock_lv:1,
     svg: () => `
       <circle cx="178" cy="132" r="10" fill="none" stroke="#ef6a9a" stroke-width="2.5"/>
       <circle cx="222" cy="132" r="10" fill="none" stroke="#ef6a9a" stroke-width="2.5"/>
@@ -297,7 +321,7 @@ export const ACCESSORIES = {
   },
   topi_merah: {
     nama: "Topi Merah",
-    harga: 200,
+    harga: 2800, rarity:"uncommon", unlock_lv:10,
     svg: () => `
       <ellipse cx="200" cy="90" rx="58" ry="12" fill="#ef4444"/>
       <path d="M160 88 Q200 55 240 88 L235 90 Q200 60 165 90 Z" fill="#c8325a"/>
@@ -308,7 +332,7 @@ export const ACCESSORIES = {
   },
   headband_pink: {
     nama: "Headband Pink",
-    harga: 160,
+    harga: 550, rarity:"common", unlock_lv:1,
     svg: () => `
       <path d="M152 92 Q200 78 248 92 L245 100 Q200 88 155 100 Z" fill="#ef6a9a" stroke="#c8325a" stroke-width="1.5"/>
       <!-- Rose detail -->
@@ -366,6 +390,118 @@ export const HANDHELD = {
       <rect x="276" y="260" width="4" height="85" fill="#d4a068" stroke="#8b6534" stroke-width=".5"/>
       <rect x="273" y="340" width="10" height="12" fill="#1a1a1a" rx="2"/>
       <circle cx="278" cy="258" r="3" fill="#ef6a9a"/>
+    `,
+  },
+
+  /* ========== JLPT Signature Weapons (Part 4 — character journey) ========== */
+  /* N5 — Nihongo Book progression */
+  n5_buku_common: {
+    nama: "N5 · Buku Pelajaran",
+    jlpt:"n5", rarity:"common", harga:500, unlock_lv:1,
+    svg: () => `
+      <rect x="265" y="315" width="30" height="38" rx="2" fill="#2563eb" stroke="#1e40af" stroke-width="1.5"/>
+      <rect x="265" y="315" width="30" height="6" fill="#1e40af"/>
+      <text x="280" y="340" text-anchor="middle" font-size="10" fill="#fff" font-weight="bold">語</text>
+    `,
+  },
+  n5_buku_rare: {
+    nama: "N5 · Buku Rare (Aura Hijau)",
+    jlpt:"n5", rarity:"rare", harga:12000, unlock_lv:25,
+    svg: () => `
+      <defs><radialGradient id="aura-n5r"><stop offset="0%" stop-color="#10b981" stop-opacity=".7"/><stop offset="100%" stop-color="#10b981" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="334" r="28" fill="url(#aura-n5r)"/>
+      <rect x="265" y="315" width="30" height="38" rx="2" fill="#059669" stroke="#047857" stroke-width="1.5"/>
+      <rect x="265" y="315" width="30" height="6" fill="#047857"/>
+      <text x="280" y="340" text-anchor="middle" font-size="10" fill="#fff" font-weight="bold">語</text>
+    `,
+  },
+
+  /* N4 — Dual Books (API) */
+  n4_dualbooks_epic: {
+    nama: "N4 · Dual Books Epic (Aura Ungu + Api)",
+    jlpt:"n4", rarity:"epic", harga:30000, unlock_lv:50,
+    svg: () => `
+      <defs><radialGradient id="aura-n4e"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".85"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="334" r="30" fill="url(#aura-n4e)"/>
+      <rect x="258" y="318" width="22" height="36" rx="2" fill="#7c3aed" stroke="#5b21b6" stroke-width="1.5"/>
+      <rect x="282" y="318" width="22" height="36" rx="2" fill="#7c3aed" stroke="#5b21b6" stroke-width="1.5"/>
+      <!-- fire wisps -->
+      <path d="M268 316 Q266 310 270 308 Q268 304 274 304 Q272 310 268 316Z" fill="#f59e0b" opacity=".85"/>
+      <path d="M292 316 Q290 310 294 308 Q292 304 298 304 Q296 310 292 316Z" fill="#f59e0b" opacity=".85"/>
+    `,
+  },
+
+  /* N3 — Flying Grimoire */
+  n3_grimoire_epic: {
+    nama: "N3 · Flying Grimoire (Aura Ungu)",
+    jlpt:"n3", rarity:"epic", harga:28000, unlock_lv:50,
+    svg: () => `
+      <defs><radialGradient id="aura-n3e"><stop offset="0%" stop-color="#8b5cf6" stop-opacity=".9"/><stop offset="100%" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="300" r="34" fill="url(#aura-n3e)"/>
+      <!-- Floating grimoire above hands -->
+      <rect x="260" y="282" width="40" height="30" rx="3" fill="#5b21b6" stroke="#4c1d95" stroke-width="1.5"/>
+      <rect x="260" y="282" width="40" height="6" fill="#4c1d95"/>
+      <text x="280" y="306" text-anchor="middle" font-size="12" fill="#ffd700" font-weight="bold">文</text>
+      <!-- Particles -->
+      <circle cx="252" cy="292" r="1.5" fill="#ffd700"/>
+      <circle cx="308" cy="300" r="1.5" fill="#ffd700"/>
+      <circle cx="265" cy="275" r="1" fill="#ffd700"/>
+    `,
+  },
+
+  /* N2 — Construction Hammer */
+  n2_hammer_rare: {
+    nama: "N2 · Palu Konstruksi (Aura)",
+    jlpt:"n2", rarity:"rare", harga:14000, unlock_lv:25,
+    svg: () => `
+      <defs><radialGradient id="aura-n2r"><stop offset="0%" stop-color="#f59e0b" stop-opacity=".6"/><stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="334" r="26" fill="url(#aura-n2r)"/>
+      <rect x="276" y="314" width="4" height="40" fill="#8b4513"/>
+      <rect x="265" y="312" width="26" height="12" rx="2" fill="#6b7280" stroke="#374151" stroke-width="1.5"/>
+    `,
+  },
+
+  /* LEGENDARY — Gold + Fire — unlock Lv 75 */
+  legendary_golden_tome: {
+    nama: "✨ Golden Tome Legendary",
+    jlpt:"all", rarity:"legendary", harga:50000, unlock_lv:75,
+    svg: () => `
+      <defs>
+        <radialGradient id="aura-legend"><stop offset="0%" stop-color="#ffd700" stop-opacity=".95"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+        <linearGradient id="fire-grad" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <circle cx="280" cy="332" r="42" fill="url(#aura-legend)"/>
+      <!-- Book -->
+      <rect x="263" y="316" width="34" height="38" rx="3" fill="#ffd700" stroke="#b8860b" stroke-width="2"/>
+      <rect x="263" y="316" width="34" height="7" fill="#b8860b"/>
+      <text x="280" y="342" text-anchor="middle" font-size="12" fill="#2a1810" font-weight="bold">極</text>
+      <!-- Fire wisps -->
+      <path d="M268 312 Q264 304 270 298 Q268 292 274 294 Q272 302 272 306 Q276 302 274 298 Q278 304 274 312Z" fill="url(#fire-grad)" opacity=".9"/>
+      <path d="M292 312 Q296 304 290 298 Q292 292 286 294 Q288 302 288 306 Q284 302 286 298 Q282 304 286 312Z" fill="url(#fire-grad)" opacity=".9"/>
+      <!-- Sparkles -->
+      <circle cx="254" cy="328" r="1.5" fill="#fff"/>
+      <circle cx="306" cy="330" r="1.5" fill="#fff"/>
+      <circle cx="258" cy="348" r="1" fill="#ffd700"/>
+      <circle cx="302" cy="348" r="1" fill="#ffd700"/>
+    `,
+  },
+
+  /* LEGENDARY — Hammer version for N2 workers */
+  legendary_golden_hammer: {
+    nama: "✨ Golden Hammer Legendary",
+    jlpt:"n2", rarity:"legendary", harga:50000, unlock_lv:75,
+    svg: () => `
+      <defs>
+        <radialGradient id="aura-legend-h"><stop offset="0%" stop-color="#ffd700" stop-opacity="1"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+        <linearGradient id="fire-hammer" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <circle cx="280" cy="330" r="40" fill="url(#aura-legend-h)"/>
+      <rect x="276" y="314" width="4" height="40" fill="#8b4513"/>
+      <rect x="262" y="310" width="30" height="14" rx="2" fill="#ffd700" stroke="#b8860b" stroke-width="2"/>
+      <path d="M268 308 Q264 300 270 294 Q268 288 274 290 Q272 300 272 306Z" fill="url(#fire-hammer)" opacity=".9"/>
+      <path d="M292 308 Q296 300 290 294 Q292 288 286 290 Q288 300 288 306Z" fill="url(#fire-hammer)" opacity=".9"/>
+      <circle cx="252" cy="320" r="1.5" fill="#fff"/>
+      <circle cx="308" cy="320" r="1.5" fill="#fff"/>
     `,
   },
 };
