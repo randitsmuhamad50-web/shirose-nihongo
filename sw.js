@@ -1,5 +1,5 @@
 /* Service worker: network-first, cache fallback */
-const CACHE = "shirose-nihongo-v3";
+const CACHE = "shirose-nihongo-v4";
 const CORE = [
   "./",
   "./index.html",

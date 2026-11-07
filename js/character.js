@@ -593,6 +593,70 @@ export const HANDHELD = {
     `,
   },
 
+  /* ========== Briefcase (tas hitam gaya kantoran — N1 Executive) ========== */
+  briefcase_common: {
+    nama: "💼 Briefcase Hitam",
+    jlpt:"n1", rarity:"common", harga:1500, unlock_lv:1,
+    svg: () => `
+      <!-- Classic black briefcase body -->
+      <rect x="258" y="318" width="44" height="34" rx="3" fill="#1a1a1a" stroke="#000" stroke-width="1.5"/>
+      <!-- Handle -->
+      <path d="M270 318 Q280 308 290 318" stroke="#1a1a1a" stroke-width="3" fill="none"/>
+      <path d="M270 318 Q280 310 290 318" stroke="#333" stroke-width="1" fill="none"/>
+      <!-- Lock + hinges -->
+      <rect x="277" y="330" width="6" height="4" fill="#9ca3af"/>
+      <circle cx="268" cy="340" r="1" fill="#6b7280"/>
+      <circle cx="292" cy="340" r="1" fill="#6b7280"/>
+      <!-- Horizontal seam -->
+      <line x1="258" y1="335" x2="302" y2="335" stroke="#000" stroke-width=".5"/>
+    `,
+  },
+  briefcase_leather: {
+    nama: "💼 Briefcase Kulit Rare",
+    jlpt:"n1", rarity:"rare", harga:12000, unlock_lv:25,
+    svg: () => `
+      <defs><radialGradient id="bc-leather"><stop offset="0%" stop-color="#78350f" stop-opacity=".5"/><stop offset="100%" stop-color="#78350f" stop-opacity="0"/></radialGradient></defs>
+      <circle cx="280" cy="335" r="28" fill="url(#bc-leather)"/>
+      <rect x="258" y="318" width="44" height="34" rx="4" fill="#4b2e1a" stroke="#2a1810" stroke-width="2"/>
+      <path d="M270 318 Q280 306 290 318" stroke="#2a1810" stroke-width="3.5" fill="none"/>
+      <path d="M270 318 Q280 310 290 318" stroke="#8b4513" stroke-width="1.2" fill="none"/>
+      <!-- Gold lock -->
+      <rect x="277" y="330" width="6" height="4" fill="#ffd700" stroke="#b8860b" stroke-width=".5"/>
+      <!-- Stitching -->
+      <line x1="262" y1="326" x2="298" y2="326" stroke="#3a2010" stroke-width=".5" stroke-dasharray="2,1"/>
+      <line x1="262" y1="344" x2="298" y2="344" stroke="#3a2010" stroke-width=".5" stroke-dasharray="2,1"/>
+    `,
+  },
+  briefcase_executive_gold: {
+    nama: "✨ Executive Briefcase Legendary (Emas + Api)",
+    jlpt:"n1", rarity:"legendary", harga:80000, unlock_lv:85,
+    svg: () => `
+      <defs>
+        <radialGradient id="bc-legend"><stop offset="0%" stop-color="#ffd700" stop-opacity=".95"/><stop offset="100%" stop-color="#ffd700" stop-opacity="0"/></radialGradient>
+        <linearGradient id="bc-fire" x1="0" y1="1" x2="0" y2="0"><stop offset="0%" stop-color="#ef4444"/><stop offset="60%" stop-color="#f59e0b"/><stop offset="100%" stop-color="#fef3c7"/></linearGradient>
+      </defs>
+      <circle cx="280" cy="335" r="40" fill="url(#bc-legend)"><animate attributeName="r" values="35;45;35" dur="2s" repeatCount="indefinite"/></circle>
+      <!-- Fire wisps flanking -->
+      <path d="M254 320 Q248 308 256 300 Q252 294 260 296 Q258 306 258 314Z" fill="url(#bc-fire)" opacity=".85"/>
+      <path d="M306 320 Q312 308 304 300 Q308 294 300 296 Q302 306 302 314Z" fill="url(#bc-fire)" opacity=".85"/>
+      <!-- Briefcase body in black with gold accents -->
+      <rect x="256" y="318" width="48" height="36" rx="4" fill="#0a0a0a" stroke="#ffd700" stroke-width="2.5"/>
+      <!-- Handle gold -->
+      <path d="M268 318 Q280 304 292 318" stroke="#ffd700" stroke-width="3.5" fill="none"/>
+      <!-- Center lock gold emboss -->
+      <rect x="275" y="332" width="10" height="7" rx="1" fill="#ffd700" stroke="#b8860b" stroke-width="1"/>
+      <text x="280" y="337" text-anchor="middle" font-size="5" fill="#2a1810" font-weight="bold">極</text>
+      <!-- Gold corners -->
+      <rect x="256" y="318" width="6" height="6" fill="#ffd700"/>
+      <rect x="298" y="318" width="6" height="6" fill="#ffd700"/>
+      <rect x="256" y="348" width="6" height="6" fill="#ffd700"/>
+      <rect x="298" y="348" width="6" height="6" fill="#ffd700"/>
+      <!-- Sparkles -->
+      <circle cx="248" cy="328" r="1.5" fill="#fff"><animate attributeName="opacity" values="0;1;0" dur="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="312" cy="340" r="1.5" fill="#fff"><animate attributeName="opacity" values="1;0;1" dur="1.2s" repeatCount="indefinite"/></circle>
+    `,
+  },
+
   /* ========== Bags (tas) with aura ========== */
   tas_green: {
     nama: "🎒 Tas · Aura Hijau",
