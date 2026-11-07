@@ -1,0 +1,92 @@
+[
+  {
+    "transkrip": "先日　新しい　仕事を　始めたんですが、覚えることが　多すぎて　大変です。",
+    "tts_text": "せんじつ あたらしい しごとを はじめたんですが、おぼえることが おおすぎて たいへんです。",
+    "pertanyaan": "Apa yang dikeluhkan pembicara?",
+    "opsi": ["Gaji kecil", "Bos galak", "Banyak yang harus dihafal", "Jam kerja panjang"],
+    "kunci": 2,
+    "pembahasan": "おぼえることがおおすぎる = terlalu banyak yang harus dihafal.",
+    "kategori": "work"
+  },
+  {
+    "transkrip": "この　書類は　明日の　午前中までに　提出しなければ　なりません。",
+    "tts_text": "この しょるいは あしたの ごぜんちゅうまでに ていしゅつしなければ なりません。",
+    "pertanyaan": "Kapan dokumen harus diserahkan?",
+    "opsi": ["Hari ini malam", "Besok pagi", "Besok sore", "Lusa"],
+    "kunci": 1,
+    "pembahasan": "あしたのごぜんちゅうまでに = sampai paling lambat besok pagi.",
+    "kategori": "deadline"
+  },
+  {
+    "transkrip": "最近　運動不足なので、毎朝　ジョギングを　始めることにしました。",
+    "tts_text": "さいきん うんどうぶそくなので、まいあさ ジョギングを はじめることにしました。",
+    "pertanyaan": "Apa yang diputuskan pembicara?",
+    "opsi": ["Berhenti olahraga", "Mulai jogging tiap pagi", "Pergi ke gym", "Diet"],
+    "kunci": 1,
+    "pembahasan": "〜ことにしました = memutuskan untuk. まいあさジョギング = jogging setiap pagi.",
+    "kategori": "decision"
+  },
+  {
+    "transkrip": "電車が　遅れたせいで、会議に　遅刻してしまいました。",
+    "tts_text": "でんしゃが おくれたせいで、かいぎに ちこくしてしまいました。",
+    "pertanyaan": "Mengapa pembicara terlambat?",
+    "opsi": ["Bangun kesiangan", "Kereta terlambat", "Jalanan macet", "Lupa jadwal"],
+    "kunci": 1,
+    "pembahasan": "〜せいで = karena (negatif). でんしゃがおくれた = kereta terlambat.",
+    "kategori": "cause"
+  },
+  {
+    "transkrip": "日本に　住むようになってから、生活が　ずいぶん　変わりました。",
+    "tts_text": "にほんに すむようになってから、せいかつが ずいぶん かわりました。",
+    "pertanyaan": "Apa yang berubah pada pembicara?",
+    "opsi": ["Pendapatan", "Kehidupan sehari-hari", "Pekerjaan", "Berat badan"],
+    "kunci": 1,
+    "pembahasan": "〜ようになる = menjadi (perubahan keadaan). せいかつがかわる = kehidupan berubah.",
+    "kategori": "change"
+  },
+  {
+    "transkrip": "レポートを　書きかけたまま　寝てしまい、朝　起きたら　慌てて　続きを　書きました。",
+    "tts_text": "レポートを かきかけたまま ねてしまい、あさ おきたら あわてて つづきを かきました。",
+    "pertanyaan": "Apa yang terjadi?",
+    "opsi": ["Laporan selesai sempurna", "Tertidur di tengah menulis laporan", "Lupa menulis laporan", "Laporan hilang"],
+    "kunci": 1,
+    "pembahasan": "かきかけたまま = masih dalam keadaan setengah menulis. ねてしまう = malah tertidur.",
+    "kategori": "unfinished"
+  },
+  {
+    "transkrip": "いくら　頼んでも　聞いてくれないので、もう　諦めることにしました。",
+    "tts_text": "いくら たのんでも きいてくれないので、もう あきらめることにしました。",
+    "pertanyaan": "Apa keputusan pembicara?",
+    "opsi": ["Terus mencoba", "Minta tolong orang lain", "Menyerah", "Marah"],
+    "kunci": 2,
+    "pembahasan": "いくら〜ても = sekalipun, bagaimanapun. あきらめる = menyerah.",
+    "kategori": "resignation"
+  },
+  {
+    "transkrip": "この　店の　料理は　美味しい　わりに　値段が　安いので、人気が　あります。",
+    "tts_text": "この みせの りょうりは おいしい わりに ねだんが やすいので、にんきが あります。",
+    "pertanyaan": "Mengapa restoran ini populer?",
+    "opsi": ["Interior bagus", "Enak tapi murah", "Lokasi strategis", "Pelayanan ramah"],
+    "kunci": 1,
+    "pembahasan": "〜わりに = padahal/meskipun. おいしいのにやすい = enak tapi murah.",
+    "kategori": "contrast"
+  },
+  {
+    "transkrip": "彼は　日本に　来たばかりなのに、もう　日本語が　ぺらぺらです。",
+    "tts_text": "かれは にほんに きたばかりなのに、もう にほんごが ぺらぺらです。",
+    "pertanyaan": "Apa yang mengejutkan dari orang ini?",
+    "opsi": ["Baru datang tapi sudah lancar Jepang", "Sudah lama tapi masih kaku", "Dari Jepang asli", "Guru bahasa Jepang"],
+    "kunci": 0,
+    "pembahasan": "〜たばかり = baru saja. ぺらぺら = lancar (bahasa).",
+    "kategori": "surprise"
+  },
+  {
+    "transkrip": "忙しければ　無理に　来なくても　いいですよ。また　今度で　大丈夫です。",
+    "tts_text": "いそがしければ むりに こなくても いいですよ。また こんどで だいじょうぶです。",
+    "pertanyaan": "Apa yang dikatakan pembicara?",
+    "opsi": ["Harus datang", "Boleh tidak datang kalau sibuk", "Datang terlambat tidak apa", "Datang hari lain"],
+    "kunci": 1,
+    "pembahasan": "こなくてもいい = tidak datang pun tidak apa. また こんど = lain kali.",
+    "kategori": "offer"
+  }
+]

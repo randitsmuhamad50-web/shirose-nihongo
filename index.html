@@ -1,0 +1,1438 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>Shirose Nihongo RPG — Belajar Jepang jadi Petualangan</title>
+<meta name="description" content="Platform RPG bahasa Jepang JLPT N5-N1: belajar, main, dan bangun karakter."/>
+<meta name="theme-color" content="#161b36"/>
+<link rel="manifest" href="./manifest.webmanifest"/>
+<link rel="apple-touch-icon" href="./apple-touch-icon.png"/>
+<link rel="icon" href="./icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet"/>
+
+<style>
+:root{
+  --navy:#161b36; --navy-2:#1f2650; --navy-3:#2a3270; --navy-4:#0d1024;
+  --pink:#ef6a9a; --pink-light:#f58bb0; --pink-dark:#c8325a;
+  --gold:#ffd700; --purple:#8b5cf6; --cyan:#22d3ee; --green:#10b981;
+  --red:#ef4444; --orange:#f59e0b;
+  --white:#ffffff; --off:#f6f4fa; --gray:#b9bfd9; --gray-dim:#7a80a0;
+  --border:#2a3060; --border-light:#3a4080;
+  --font-jp:'Shippori Mincho B1', 'Noto Serif JP', serif;
+  --font-sans:'Zen Kaku Gothic New', 'Inter', system-ui, -apple-system, sans-serif;
+  --shadow-glow: 0 0 30px rgba(239,106,154,.3);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html,body{height:100%;}
+body{
+  font-family:var(--font-sans);
+  color:var(--white);
+  background:
+    radial-gradient(ellipse at 20% 30%, rgba(139,92,246,.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 70%, rgba(239,106,154,.15) 0%, transparent 50%),
+    linear-gradient(to bottom, var(--navy-4), var(--navy));
+  min-height:100vh;
+  overflow-x:hidden;
+}
+@media (max-width:768px){ body{font-size:14px;} }
+
+/* ========== TOP BAR ========== */
+.topbar{
+  position:sticky; top:0; z-index:50;
+  display:flex; align-items:center; gap:12px; padding:10px 16px;
+  background:rgba(13,16,36,.85); backdrop-filter:blur(12px);
+  border-bottom:1px solid var(--border);
+}
+.brand{
+  display:flex; align-items:center; gap:8px; font-family:var(--font-jp); font-weight:800; font-size:18px;
+  color:var(--white); text-decoration:none;
+}
+.brand .rose{color:var(--pink); font-size:22px;}
+.topbar-right{margin-left:auto; display:flex; gap:8px; align-items:center;}
+.chip{
+  display:inline-flex; align-items:center; gap:6px;
+  padding:6px 12px; border-radius:999px;
+  background:rgba(255,255,255,.08); border:1px solid var(--border);
+  font-size:12px; font-weight:600; color:var(--white);
+  cursor:pointer; transition:all .2s;
+}
+.chip:hover{background:rgba(255,255,255,.12); border-color:var(--pink);}
+.chip.active{background:var(--pink); border-color:var(--pink); color:white;}
+.chip .badge{background:var(--gold); color:#2a1810; font-size:10px; padding:2px 6px; border-radius:999px; font-weight:800;}
+.chip .coin::before{content:"🪙"; margin-right:2px;}
+.chip .lv::before{content:"⭐"; margin-right:2px;}
+.chip .streak::before{content:"🔥"; margin-right:2px;}
+.btn{
+  background:var(--pink); color:white; border:none; padding:8px 16px; border-radius:8px;
+  font-weight:700; cursor:pointer; font-family:var(--font-sans); font-size:13px;
+  transition:all .15s; display:inline-flex; align-items:center; gap:6px;
+}
+.btn:hover{background:var(--pink-dark); transform:translateY(-1px); box-shadow:var(--shadow-glow);}
+.btn.ghost{background:transparent; border:1px solid var(--border);}
+.btn.ghost:hover{background:rgba(255,255,255,.06);}
+.btn.danger{background:var(--red);}
+.btn.gold{background:var(--gold); color:#2a1810;}
+.btn:disabled{opacity:.4; cursor:not-allowed; transform:none; box-shadow:none;}
+
+/* ========== LEVEL PILL ========== */
+.lvl-pill-group{display:flex; gap:4px; background:rgba(255,255,255,.05); padding:4px; border-radius:999px;}
+.lvl-pill{
+  padding:5px 10px; border-radius:999px; font-size:11px; font-weight:800; cursor:pointer;
+  border:none; background:transparent; color:var(--gray); transition:all .15s;
+  min-width:30px;
+}
+.lvl-pill:hover{color:var(--white);}
+.lvl-pill.active{background:var(--pink); color:white;}
+.lvl-pill.locked{color:#555; cursor:not-allowed;}
+
+/* ========== MAIN LAYOUT ========== */
+.app{
+  max-width:1400px; margin:0 auto; padding:16px;
+  display:grid; grid-template-columns:1fr; gap:16px;
+}
+@media (min-width:1024px){
+  .app.has-sidepanel{grid-template-columns:360px 1fr;}
+}
+
+/* ========== RPG DASHBOARD HOME ========== */
+.rpg-stage{
+  position:relative;
+  min-height:600px;
+  display:flex; align-items:center; justify-content:center;
+  background:radial-gradient(ellipse at center, rgba(139,92,246,.1), transparent 70%);
+  border-radius:24px;
+}
+@media (max-width:768px){ .rpg-stage{min-height:500px;} }
+
+.chara-wrap{
+  position:relative; width:280px; height:400px;
+  display:flex; align-items:center; justify-content:center;
+  z-index:2;
+}
+@media (max-width:640px){ .chara-wrap{width:220px; height:320px;} }
+.chara-wrap svg{width:100%; height:100%;}
+
+/* Orbital nav ring */
+.orbit{
+  position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
+  width:600px; height:600px; pointer-events:none;
+  animation: orbitSpin 60s linear infinite;
+}
+@media (max-width:768px){ .orbit{width:450px; height:450px;} }
+@media (max-width:480px){ .orbit{width:340px; height:340px;} }
+@keyframes orbitSpin{ from{transform:translate(-50%,-50%) rotate(0deg);} to{transform:translate(-50%,-50%) rotate(360deg);} }
+.orbit svg{width:100%; height:100%; stroke:var(--border); stroke-width:1; fill:none; opacity:.4;}
+
+.orbit-node{
+  position:absolute; top:50%; left:50%;
+  width:88px; height:88px; margin:-44px 0 0 -44px;
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px;
+  border-radius:50%; cursor:pointer;
+  background:linear-gradient(135deg, rgba(31,38,80,.95), rgba(13,16,36,.95));
+  border:2px solid var(--border);
+  box-shadow:0 4px 20px rgba(0,0,0,.5);
+  transition:all .2s; pointer-events:auto; z-index:3;
+  color:var(--white); text-align:center;
+  animation: orbitNodeCounter 60s linear infinite;
+}
+@keyframes orbitNodeCounter{ from{rotate:0deg;} to{rotate:-360deg;} }
+@media (max-width:640px){ .orbit-node{width:68px; height:68px; margin:-34px 0 0 -34px;} }
+.orbit-node:hover{
+  border-color:var(--pink); box-shadow:0 0 20px rgba(239,106,154,.6);
+  transform:scale(1.1);
+}
+.orbit-node .ico{font-size:22px;}
+.orbit-node .lbl{font-size:10px; font-weight:700; letter-spacing:.3px;}
+@media (max-width:640px){ .orbit-node .ico{font-size:18px;} .orbit-node .lbl{font-size:9px;} }
+
+/* ========== PANEL (right column) ========== */
+.panel{
+  background:linear-gradient(180deg, var(--navy-2), var(--navy));
+  border:1px solid var(--border); border-radius:20px; padding:20px;
+  box-shadow:0 10px 40px rgba(0,0,0,.4);
+}
+.panel h2{font-family:var(--font-jp); font-size:22px; margin-bottom:12px; color:var(--pink-light); font-weight:800;}
+.panel h3{font-size:16px; margin:16px 0 8px; color:var(--white); font-weight:700;}
+.panel-close{float:right; background:transparent; border:none; color:var(--gray); font-size:24px; cursor:pointer; padding:0;}
+.panel-close:hover{color:var(--pink);}
+
+/* ========== HERO BAR (under topbar) ========== */
+.herobar{
+  display:flex; gap:12px; align-items:center;
+  background:linear-gradient(90deg, rgba(31,38,80,.6), rgba(13,16,36,.3));
+  border:1px solid var(--border); border-radius:16px;
+  padding:12px 16px;
+}
+.herobar .avatar-mini{
+  width:50px; height:50px; border-radius:50%;
+  background:linear-gradient(135deg, var(--navy-3), var(--navy-2));
+  border:2px solid var(--pink); display:flex; align-items:center; justify-content:center;
+  font-size:24px; flex-shrink:0;
+}
+.herobar .info{flex:1; min-width:0;}
+.herobar .info .nama{font-weight:800; font-size:14px;}
+.herobar .info .meta{font-size:11px; color:var(--gray); margin-top:2px;}
+.xp-bar{
+  width:100%; height:8px; background:var(--navy-4); border-radius:4px; overflow:hidden; margin-top:6px;
+}
+.xp-fill{height:100%; background:linear-gradient(90deg, var(--pink), var(--gold)); transition:width .3s;}
+
+/* ========== CARDS ========== */
+.grid{display:grid; gap:12px;}
+.grid-2{grid-template-columns:repeat(2,1fr);}
+.grid-3{grid-template-columns:repeat(3,1fr);}
+.grid-4{grid-template-columns:repeat(4,1fr);}
+@media (max-width:640px){ .grid-3,.grid-4{grid-template-columns:repeat(2,1fr);} }
+
+.card{
+  background:linear-gradient(135deg, rgba(42,50,112,.4), rgba(31,38,80,.6));
+  border:1px solid var(--border); border-radius:14px; padding:14px;
+  transition:all .2s; cursor:pointer;
+}
+.card:hover{border-color:var(--pink); transform:translateY(-2px); box-shadow:0 10px 20px rgba(239,106,154,.2);}
+.card .title{font-weight:800; font-size:14px; margin-bottom:4px;}
+.card .desc{font-size:11px; color:var(--gray); line-height:1.4;}
+.card .meta-row{display:flex; justify-content:space-between; margin-top:10px; font-size:11px;}
+
+/* ========== Shop/Inventory item card ========== */
+.item-card{
+  position:relative;
+  background:linear-gradient(145deg, rgba(42,50,112,.5), rgba(31,38,80,.7));
+  border:2px solid var(--border); border-radius:12px;
+  padding:8px; cursor:pointer; transition:all .15s;
+  text-align:center;
+}
+.item-card:hover{border-color:var(--pink); transform:translateY(-3px);}
+.item-card.owned{border-color:var(--green);}
+.item-card.equipped{border-color:var(--gold); background:linear-gradient(145deg, rgba(255,215,0,.15), rgba(31,38,80,.7));}
+.item-card.locked{opacity:.5; cursor:not-allowed;}
+.item-card .icon-wrap{
+  height:100px; display:flex; align-items:flex-end; justify-content:center; overflow:hidden;
+}
+.item-card .icon-wrap svg{height:100%; width:auto;}
+.item-card .nama{font-size:12px; font-weight:700; margin-top:4px; line-height:1.2;}
+.item-card .harga{font-size:11px; color:var(--gold); margin-top:2px;}
+.item-card .badge-rarity{
+  position:absolute; top:4px; right:4px; font-size:9px; padding:2px 5px; border-radius:4px;
+  font-weight:800; text-transform:uppercase; letter-spacing:.5px;
+}
+.rarity-common{background:#555;}
+.rarity-uncommon{background:#10b981;}
+.rarity-rare{background:#3b82f6;}
+.rarity-legendary{background:#f59e0b; color:#2a1810;}
+.rarity-mythic{background:linear-gradient(90deg, #ef6a9a, #8b5cf6); color:white;}
+
+/* ========== Materi (kosakata/kanji/bunpou) ========== */
+.search-bar{
+  display:flex; gap:8px; margin-bottom:12px;
+}
+.search-bar input{
+  flex:1; padding:10px 14px; border-radius:10px; border:1px solid var(--border);
+  background:var(--navy-4); color:var(--white); font-size:14px; font-family:var(--font-sans);
+}
+.search-bar input:focus{outline:none; border-color:var(--pink);}
+.materi-list{display:grid; gap:8px; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));}
+.materi-item{
+  background:rgba(42,50,112,.4); border:1px solid var(--border); border-radius:10px;
+  padding:12px; cursor:pointer;
+}
+.materi-item:hover{border-color:var(--pink);}
+.materi-item .kanji{font-family:var(--font-jp); font-size:28px; font-weight:800; color:var(--pink-light);}
+.materi-item .reading{font-size:13px; color:var(--gray); margin-top:2px;}
+.materi-item .meaning{font-size:13px; margin-top:4px;}
+
+/* ========== Modals ========== */
+.modal-backdrop{
+  position:fixed; inset:0; background:rgba(0,0,0,.75); backdrop-filter:blur(8px);
+  display:none; align-items:center; justify-content:center; z-index:100; padding:20px;
+}
+.modal-backdrop.open{display:flex;}
+.modal{
+  background:linear-gradient(160deg, var(--navy-2), var(--navy));
+  border:1px solid var(--pink); border-radius:20px; padding:24px;
+  width:100%; max-width:500px; max-height:90vh; overflow-y:auto;
+  box-shadow:0 20px 60px rgba(239,106,154,.4);
+}
+.modal h2{font-family:var(--font-jp); color:var(--pink-light); margin-bottom:12px;}
+.form-group{margin-bottom:12px;}
+.form-group label{display:block; font-size:12px; margin-bottom:4px; color:var(--gray);}
+.form-group input, .form-group select, .form-group textarea{
+  width:100%; padding:10px 12px; border-radius:8px; border:1px solid var(--border);
+  background:var(--navy-4); color:var(--white); font-family:var(--font-sans); font-size:14px;
+}
+.form-group input:focus, .form-group select:focus, .form-group textarea:focus{outline:none; border-color:var(--pink);}
+
+/* ========== TOASTS ========== */
+.toast-wrap{position:fixed; top:80px; right:16px; z-index:200; display:flex; flex-direction:column; gap:8px;}
+.toast{
+  background:linear-gradient(135deg, var(--pink), var(--purple));
+  color:white; padding:12px 18px; border-radius:10px;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+  font-weight:700; font-size:13px;
+  animation: toastSlide .3s ease-out, toastOut .3s ease-in 2.7s forwards;
+}
+@keyframes toastSlide{from{transform:translateX(100%); opacity:0;} to{transform:translateX(0); opacity:1;}}
+@keyframes toastOut{to{transform:translateX(100%); opacity:0;}}
+
+/* ========== Loading ========== */
+.loading{
+  display:flex; align-items:center; justify-content:center; padding:40px;
+  color:var(--gray); font-size:14px;
+}
+.loading::before{content:"⏳"; margin-right:8px; font-size:20px; animation:spin 1.5s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg);}}
+
+/* ========== LEVEL UP OVERLAY ========== */
+.levelup-overlay{
+  position:fixed; inset:0; background:radial-gradient(circle at center, rgba(239,106,154,.4), rgba(0,0,0,.9));
+  display:none; align-items:center; justify-content:center; z-index:150;
+  animation: lvup .3s ease-out;
+}
+.levelup-overlay.show{display:flex;}
+@keyframes lvup{from{opacity:0; transform:scale(.8);} to{opacity:1; transform:scale(1);}}
+.levelup-content{text-align:center;}
+.levelup-content .text{
+  font-family:var(--font-jp); font-size:60px; font-weight:800;
+  background:linear-gradient(135deg, var(--gold), var(--pink));
+  -webkit-background-clip:text; background-clip:text; color:transparent;
+  text-shadow:0 0 30px rgba(255,215,0,.5);
+  animation: lvupText 2s ease-out;
+}
+@keyframes lvupText{0%{transform:scale(0) rotate(-180deg);} 50%{transform:scale(1.2) rotate(10deg);} 100%{transform:scale(1) rotate(0);}}
+.levelup-content .lvl{font-size:30px; color:var(--white); margin-top:10px;}
+
+/* ========== KANJI DETAIL ========== */
+.kanji-detail{text-align:center; padding:20px;}
+.kanji-detail .big-k{font-family:var(--font-jp); font-size:120px; font-weight:800; color:var(--pink);}
+.kanji-detail .readings{display:flex; gap:12px; justify-content:center; margin:10px 0;}
+.kanji-detail .readings .r{background:rgba(42,50,112,.6); padding:6px 12px; border-radius:8px; font-size:13px;}
+.kanji-detail .readings .r .lbl{font-size:10px; color:var(--gray); display:block;}
+.contoh-list{text-align:left; margin-top:16px;}
+.contoh-item{
+  display:flex; justify-content:space-between; gap:10px;
+  background:rgba(255,255,255,.04); padding:10px; border-radius:8px; margin-bottom:6px;
+}
+.contoh-item .jp{font-family:var(--font-jp); font-size:16px; font-weight:700;}
+.contoh-item .r{font-size:11px; color:var(--gray);}
+.contoh-item .id{font-size:12px; color:var(--off); text-align:right;}
+
+/* ========== Soal / Quiz ========== */
+.soal-container{padding:20px;}
+.soal-stem{
+  font-family:var(--font-jp); font-size:22px; line-height:1.6;
+  background:rgba(255,255,255,.04); padding:20px; border-radius:12px; border:1px solid var(--border);
+}
+.soal-stem rt{font-size:12px; color:var(--pink-light);}
+.opsi-list{display:grid; gap:10px; margin-top:16px;}
+.opsi{
+  background:rgba(42,50,112,.4); border:2px solid var(--border); padding:14px 16px;
+  border-radius:10px; cursor:pointer; text-align:left; font-size:16px;
+  color:var(--white); font-family:var(--font-sans); transition:all .15s;
+}
+.opsi:hover{border-color:var(--pink); background:rgba(42,50,112,.6);}
+.opsi.selected{border-color:var(--pink); background:rgba(239,106,154,.2);}
+.opsi.correct{border-color:var(--green); background:rgba(16,185,129,.2);}
+.opsi.wrong{border-color:var(--red); background:rgba(239,68,68,.2);}
+.soal-nav{display:flex; justify-content:space-between; margin-top:20px; gap:10px;}
+.soal-timer{
+  position:sticky; top:0; z-index:5; background:var(--navy-4);
+  display:flex; justify-content:space-between; padding:10px 16px; border-radius:10px;
+  margin-bottom:12px; border:1px solid var(--border);
+}
+.soal-timer .time{font-family:var(--font-jp); font-size:18px; font-weight:800; color:var(--gold);}
+
+/* ========== Dashboard home grid ========== */
+.hub-grid{
+  display:grid; gap:12px; margin-top:16px;
+  grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+}
+.hub-card{
+  background:linear-gradient(135deg, rgba(42,50,112,.5), rgba(31,38,80,.7));
+  border:1px solid var(--border); border-radius:14px; padding:14px;
+  display:flex; gap:10px; align-items:center; cursor:pointer; transition:all .15s;
+}
+.hub-card:hover{border-color:var(--pink); transform:translateY(-2px);}
+.hub-card .ico{font-size:30px;}
+.hub-card .info .ttl{font-weight:800; font-size:14px;}
+.hub-card .info .sub{font-size:11px; color:var(--gray);}
+
+/* ========== EMPTY state ========== */
+.empty{
+  text-align:center; padding:40px 20px; color:var(--gray);
+}
+.empty .emoji{font-size:48px; margin-bottom:12px;}
+
+/* ========== HEATMAP ========== */
+.heatmap{display:grid; grid-template-columns:repeat(20, 1fr); gap:2px; margin:10px 0;}
+.heatmap .cell{aspect-ratio:1; border-radius:2px; background:rgba(255,255,255,.05);}
+.heatmap .cell.l1{background:rgba(239,106,154,.3);}
+.heatmap .cell.l2{background:rgba(239,106,154,.5);}
+.heatmap .cell.l3{background:rgba(239,106,154,.7);}
+.heatmap .cell.l4{background:var(--pink);}
+
+/* ========== Guru link ========== */
+.guru-link{
+  position:fixed; bottom:16px; right:16px; z-index:10;
+  background:linear-gradient(135deg, #8b5cf6, #ef6a9a);
+  color:white; padding:10px 16px; border-radius:50px;
+  text-decoration:none; font-weight:700; font-size:12px;
+  box-shadow:0 10px 30px rgba(139,92,246,.4);
+}
+.guru-link:hover{transform:translateY(-2px); box-shadow:0 15px 40px rgba(139,92,246,.6);}
+
+.hidden{display:none !important;}
+</style>
+</head>
+<body>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <a href="#" class="brand" onclick="route('home'); return false;">シ<span class="rose">🌹</span>ロセ RPG</a>
+  <div class="lvl-pill-group" id="lvl-pills">
+    <!-- JS filled -->
+  </div>
+  <div class="topbar-right">
+    <span class="chip" title="Level karakter"><span class="lv" id="chip-lv">1</span></span>
+    <span class="chip" title="Koin"><span class="coin" id="chip-coin">0</span></span>
+    <span class="chip" title="Streak hari"><span class="streak" id="chip-streak">0</span></span>
+    <button class="btn ghost" id="btn-auth" onclick="showAuthModal()">🔑 Masuk</button>
+  </div>
+</div>
+
+<!-- ============ MAIN APP ============ -->
+<div class="app" id="app">
+  <!-- Content dynamically swapped by route() -->
+</div>
+
+<!-- ============ GURU LINK ============ -->
+<a href="./teacher.html" class="guru-link hidden" id="guru-link">🛠️ Dashboard Guru</a>
+
+<!-- ============ AUTH MODAL ============ -->
+<div class="modal-backdrop" id="auth-modal">
+  <div class="modal">
+    <h2 id="auth-title">Masuk ke akunmu</h2>
+    <p style="color:var(--gray); font-size:12px; margin-bottom:16px;" id="auth-sub">Masuk untuk simpan progres belajar.</p>
+    <div class="form-group" id="auth-nama-grp" style="display:none;">
+      <label>Nama</label>
+      <input type="text" id="auth-nama" placeholder="Nama kamu"/>
+    </div>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" id="auth-email" autocomplete="email"/>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" id="auth-pwd" autocomplete="current-password"/>
+    </div>
+    <div style="display:flex; gap:8px;">
+      <button class="btn" id="auth-submit" onclick="submitAuth()">Masuk</button>
+      <button class="btn ghost" onclick="toggleAuthMode()">Belum punya akun? Daftar</button>
+      <button class="btn ghost" onclick="closeModal('auth-modal')" style="margin-left:auto;">✕</button>
+    </div>
+    <div id="auth-err" style="color:var(--red); font-size:12px; margin-top:10px;"></div>
+  </div>
+</div>
+
+<!-- ============ TOASTS ============ -->
+<div class="toast-wrap" id="toasts"></div>
+
+<!-- ============ LEVEL UP OVERLAY ============ -->
+<div class="levelup-overlay" id="levelup">
+  <div class="levelup-content">
+    <div class="text">LEVEL UP!</div>
+    <div class="lvl" id="levelup-lvl">Level 2</div>
+  </div>
+</div>
+
+<script type="module">
+import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
+import { allShopItems } from "./js/shop-seed.js";
+import { ACHIEVEMENTS } from "./js/achievements.js";
+import * as FB from "./js/firebase-sync.js";
+
+/* ========== STATE ========== */
+const state = {
+  level: localStorage.getItem("shirose-lvl") || "n5",   // active JLPT level
+  user: null,
+  siswa: null,
+  gami: { xp:0, koin:0, streak:0, level_karakter:1 },
+  authMode: "login",
+  materi: { kosakata:{}, kanji:{}, bunpou:{} },
+  srs: {},
+};
+window.state = state;
+
+/* ========== TOAST ========== */
+function toast(msg){
+  const t = document.createElement("div");
+  t.className = "toast";
+  t.innerHTML = msg;
+  document.getElementById("toasts").appendChild(t);
+  setTimeout(()=>t.remove(), 3100);
+}
+window.toast = toast;
+
+/* ========== AUTH MODAL ========== */
+window.showAuthModal = () => { document.getElementById("auth-modal").classList.add("open"); };
+window.closeModal = (id) => { document.getElementById(id).classList.remove("open"); };
+window.toggleAuthMode = () => {
+  state.authMode = state.authMode === "login" ? "daftar" : "login";
+  document.getElementById("auth-title").textContent = state.authMode === "daftar" ? "Buat akun baru" : "Masuk ke akunmu";
+  document.getElementById("auth-nama-grp").style.display = state.authMode === "daftar" ? "block" : "none";
+  document.getElementById("auth-submit").textContent = state.authMode === "daftar" ? "Daftar" : "Masuk";
+};
+window.submitAuth = async () => {
+  const email = document.getElementById("auth-email").value.trim();
+  const pwd = document.getElementById("auth-pwd").value;
+  const nama = document.getElementById("auth-nama").value.trim();
+  const err = document.getElementById("auth-err");
+  err.textContent = "";
+  try {
+    if (state.authMode === "daftar") {
+      await FB.daftar(email, pwd, nama || email.split("@")[0]);
+      toast("Akun dibuat! 🎉");
+    } else {
+      await FB.login(email, pwd);
+      toast("Selamat datang! 👋");
+    }
+    closeModal("auth-modal");
+  } catch(e){
+    err.textContent = e.message || "Gagal masuk";
+  }
+};
+
+/* ========== LEVEL PILLS ========== */
+function renderLevelPills(){
+  const pills = document.getElementById("lvl-pills");
+  const levels = ["n5","n4","n3","n2","n1"];
+  const akses = state.siswa?.aksesLevel || { n5:true, n4:false, n3:false, n2:false, n1:false };
+  pills.innerHTML = levels.map(l => {
+    const locked = !akses[l] && !FB.userIsGuru();
+    const active = state.level === l;
+    return `<button class="lvl-pill ${active?'active':''} ${locked?'locked':''}" ${locked?'disabled':''}
+            onclick="setLevel('${l}')">${l.toUpperCase()}</button>`;
+  }).join("");
+}
+window.setLevel = async (lvl) => {
+  state.level = lvl;
+  localStorage.setItem("shirose-lvl", lvl);
+  renderLevelPills();
+  await loadGami();
+  updateChips();
+  route(location.hash.slice(1) || "home");
+};
+
+/* ========== GAMI (XP/koin) ========== */
+async function loadGami(){
+  if (!state.user) {
+    // Guest from localStorage
+    const key = `shirose-gami-${state.level}`;
+    state.gami = JSON.parse(localStorage.getItem(key) || '{"xp":0,"koin":0,"streak":0,"level_karakter":1}');
+    return;
+  }
+  state.gami = await FB.getGami(state.level);
+}
+async function awardXP(dXP, dKoin = 0){
+  const oldLvl = state.gami.level_karakter || 1;
+  if (state.user) {
+    state.gami = await FB.tambahXP(state.level, dXP, dKoin);
+  } else {
+    state.gami.xp = (state.gami.xp || 0) + dXP;
+    state.gami.koin = (state.gami.koin || 0) + dKoin;
+    state.gami.level_karakter = Math.floor(Math.sqrt(state.gami.xp / 50)) + 1;
+    const today = new Date().toISOString().slice(0,10);
+    if (state.gami.lastDate !== today) {
+      const yd = new Date(Date.now()-86400000).toISOString().slice(0,10);
+      state.gami.streak = state.gami.lastDate === yd ? (state.gami.streak||0)+1 : 1;
+      state.gami.lastDate = today;
+    }
+    localStorage.setItem(`shirose-gami-${state.level}`, JSON.stringify(state.gami));
+  }
+  toast(`+${dXP} XP${dKoin?` · +${dKoin} 🪙`:""}`);
+  if (state.gami.level_karakter > oldLvl) {
+    document.getElementById("levelup-lvl").textContent = `Level ${state.gami.level_karakter}`;
+    document.getElementById("levelup").classList.add("show");
+    setTimeout(() => document.getElementById("levelup").classList.remove("show"), 2200);
+  }
+  updateChips();
+}
+function updateChips(){
+  document.getElementById("chip-lv").textContent = state.gami.level_karakter || 1;
+  document.getElementById("chip-coin").textContent = state.gami.koin || 0;
+  document.getElementById("chip-streak").textContent = state.gami.streak || 0;
+}
+window.awardXP = awardXP;
+
+/* ========== DATA LOAD (cached) ========== */
+async function loadMateri(tipe, lvl){
+  const key = `${tipe}-${lvl}`;
+  if (state.materi[tipe][lvl]) return state.materi[tipe][lvl];
+  try {
+    const r = await fetch(`./data/${tipe}-${lvl}.json`);
+    const d = await r.json();
+    state.materi[tipe][lvl] = d;
+    return d;
+  } catch(e) {
+    return [];
+  }
+}
+
+/* ========== ROUTES ========== */
+const routes = {
+  home: renderHome,
+  materi: renderMateriHub,
+  kosakata: () => renderMateriList("kosakata"),
+  kanji: () => renderMateriList("kanji"),
+  bunpou: () => renderMateriList("bunpou"),
+  hafalan: renderHafalan,
+  quest: renderQuest,
+  ujian: (params) => renderUjian(params),
+  shop: renderShop,
+  inventory: renderInventory,
+  wardrobe: renderWardrobe,
+  misi: renderMisiHarian,
+  profile: renderProfile,
+  achievements: renderAchievements,
+  leaderboard: renderLeaderboard,
+};
+
+window.route = (path) => {
+  location.hash = path;
+  const [name, ...rest] = path.split("/");
+  const fn = routes[name] || renderHome;
+  const app = document.getElementById("app");
+  app.classList.remove("has-sidepanel");
+  app.innerHTML = '<div class="loading">Memuat…</div>';
+  Promise.resolve(fn(rest)).then(html => {
+    if (typeof html === "string") app.innerHTML = html;
+  }).catch(e => {
+    app.innerHTML = `<div class="panel"><h2>Error</h2><p>${e.message}</p></div>`;
+    console.error(e);
+  });
+};
+
+/* ========== HOME / RPG DASHBOARD ========== */
+function renderCharaOrbital(){
+  const eq = state.siswa?.karakter?.equipped || DEFAULT_EQUIPPED;
+  const skin = state.siswa?.karakter?.skinTone || "light";
+  const chara = renderCharacter(eq, skin, { hairColor: state.siswa?.karakter?.hairColor });
+
+  const NAV = [
+    { icon:"📚", lbl:"Materi",     route:"materi",      deg:0 },
+    { icon:"🧠", lbl:"Hafalan",    route:"hafalan",     deg:40 },
+    { icon:"⚔️", lbl:"Quest",      route:"quest",       deg:80 },
+    { icon:"📝", lbl:"Ujian",      route:"ujian",       deg:120 },
+    { icon:"🎯", lbl:"Misi",       route:"misi",        deg:160 },
+    { icon:"🛒", lbl:"Shop",       route:"shop",        deg:200 },
+    { icon:"🎒", lbl:"Inventory",  route:"inventory",   deg:240 },
+    { icon:"👔", lbl:"Wardrobe",   route:"wardrobe",    deg:280 },
+    { icon:"🏆", lbl:"Peringkat",  route:"leaderboard", deg:320 },
+  ];
+  const R = Math.min(260, window.innerWidth * 0.35);
+  const nodes = NAV.map(n => {
+    const rad = (n.deg - 90) * Math.PI / 180;
+    const x = Math.cos(rad) * R;
+    const y = Math.sin(rad) * R;
+    return `<div class="orbit-node" style="transform:translate(${x}px, ${y}px)" onclick="route('${n.route}')">
+              <div class="ico">${n.icon}</div>
+              <div class="lbl">${n.lbl}</div>
+            </div>`;
+  }).join("");
+
+  return `
+    <div class="herobar">
+      <div class="avatar-mini">${state.user ? "🧑" : "👤"}</div>
+      <div class="info">
+        <div class="nama">${state.siswa?.nama || "Tamu"} — ${state.level.toUpperCase()}</div>
+        <div class="meta">Lv ${state.gami.level_karakter} · ${state.gami.xp} XP · ${state.gami.koin} 🪙 · 🔥 ${state.gami.streak}</div>
+        <div class="xp-bar"><div class="xp-fill" style="width:${(state.gami.xp % 500)/5}%"></div></div>
+      </div>
+      <button class="btn ghost" onclick="route('profile')">Profil</button>
+    </div>
+
+    <div class="rpg-stage">
+      <div class="orbit">
+        <svg viewBox="-300 -300 600 600"><circle cx="0" cy="0" r="${R}"/></svg>
+        ${nodes}
+      </div>
+      <div class="chara-wrap">${chara}</div>
+    </div>
+
+    <div class="panel">
+      <h2>Aktivitas cepat</h2>
+      <div class="hub-grid">
+        <div class="hub-card" onclick="route('hafalan')">
+          <div class="ico">🧠</div>
+          <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>
+        </div>
+        <div class="hub-card" onclick="route('misi')">
+          <div class="ico">🎯</div>
+          <div class="info"><div class="ttl">Misi Harian</div><div class="sub">3 misi, reset tiap hari</div></div>
+        </div>
+        <div class="hub-card" onclick="route('ujian')">
+          <div class="ico">📝</div>
+          <div class="info"><div class="ttl">Ujian</div><div class="sub">Pilih kategori ujian</div></div>
+        </div>
+        <div class="hub-card" onclick="route('leaderboard')">
+          <div class="ico">🏆</div>
+          <div class="info"><div class="ttl">Leaderboard</div><div class="sub">Peringkat kelas</div></div>
+        </div>
+      </div>
+    </div>
+  `;
+}
+function renderHome(){ return renderCharaOrbital(); }
+
+/* ========== MATERI HUB ========== */
+async function renderMateriHub(){
+  const kosakata = await loadMateri("kosakata", state.level);
+  const kanji = await loadMateri("kanji", state.level);
+  const bunpou = await loadMateri("bunpou", state.level);
+  return `
+    <div class="panel">
+      <h2>📚 Materi ${state.level.toUpperCase()}</h2>
+      <div class="hub-grid">
+        <div class="hub-card" onclick="route('kosakata')">
+          <div class="ico">📖</div>
+          <div class="info"><div class="ttl">Kosakata</div><div class="sub">${kosakata.length} kata</div></div>
+        </div>
+        <div class="hub-card" onclick="route('kanji')">
+          <div class="ico">🈷️</div>
+          <div class="info"><div class="ttl">Kanji</div><div class="sub">${kanji.length} kanji</div></div>
+        </div>
+        <div class="hub-card" onclick="route('bunpou')">
+          <div class="ico">📐</div>
+          <div class="info"><div class="ttl">Bunpou</div><div class="sub">${bunpou.length} pola</div></div>
+        </div>
+        <div class="hub-card" onclick="route('hafalan')">
+          <div class="ico">🧠</div>
+          <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>
+        </div>
+      </div>
+    </div>
+    <div class="panel" style="margin-top:12px;">
+      <h3>Tips belajar</h3>
+      <p style="color:var(--gray); font-size:13px; line-height:1.6;">
+        🌸 Mulai dari <b>Hafalan</b> harian (10-20 kartu).<br>
+        ⚔️ Lanjutkan ke <b>Quest</b> untuk ujian nyata.<br>
+        🎯 Cek <b>Misi Harian</b> untuk bonus XP + koin.<br>
+        🛒 Pakai koin di <b>Shop</b> untuk upgrade karaktermu.
+      </p>
+    </div>
+  `;
+}
+
+/* ========== MATERI LIST (kosakata/kanji/bunpou) ========== */
+async function renderMateriList(tipe){
+  const data = await loadMateri(tipe, state.level);
+  const label = {kosakata:"Kosakata", kanji:"Kanji", bunpou:"Bunpou"}[tipe];
+  if (!data.length) return `<div class="panel"><h2>${label}</h2><div class="empty"><div class="emoji">📭</div>Belum ada data untuk level ini.</div></div>`;
+
+  const list = data.map((it, idx) => {
+    if (tipe === "kosakata") {
+      const kana = it.kana || it.f || "";
+      const kata = it.kata || it.k || "";
+      const arti = it.arti || it.a || "";
+      return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+        <div class="kanji">${kata}</div>
+        <div class="reading">${kana}</div>
+        <div class="meaning">${arti}</div>
+      </div>`;
+    }
+    if (tipe === "kanji") {
+      const k = it.kanji || it.k || "";
+      const kana = it.kana || `${it.on || ""} ${it.kun || ""}`.trim();
+      const arti = it.arti || it.a || "";
+      return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+        <div class="kanji">${k}</div>
+        <div class="reading">${kana}</div>
+        <div class="meaning">${arti}</div>
+      </div>`;
+    }
+    if (tipe === "bunpou") {
+      const pola = it.pola || it.p || it.kata || "";
+      const arti = it.arti || it.e || it.penjelasan || "";
+      return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+        <div class="kanji" style="font-size:22px;">${pola}</div>
+        <div class="meaning">${arti.slice(0, 120)}${arti.length > 120 ? "…" : ""}</div>
+      </div>`;
+    }
+  }).join("");
+
+  return `
+    <div class="panel">
+      <h2>${label === "Kosakata" ? "📖" : label === "Kanji" ? "🈷️" : "📐"} ${label} ${state.level.toUpperCase()}</h2>
+      <div class="search-bar">
+        <input type="text" id="search-${tipe}" placeholder="Cari..." oninput="filterMateri('${tipe}', this.value)"/>
+      </div>
+      <div class="materi-list" id="materi-list-${tipe}">${list}</div>
+    </div>
+  `;
+}
+window.filterMateri = (tipe, q) => {
+  const container = document.getElementById(`materi-list-${tipe}`);
+  if (!container) return;
+  const items = container.querySelectorAll(".materi-item");
+  const query = q.toLowerCase();
+  items.forEach(el => {
+    const text = el.textContent.toLowerCase();
+    el.style.display = text.includes(query) ? "" : "none";
+  });
+};
+window.showMateri = async (tipe, idx) => {
+  const data = state.materi[tipe][state.level];
+  const it = data[idx];
+  const app = document.getElementById("app");
+  let body = "";
+  if (tipe === "kanji") {
+    const k = it.kanji || it.k || "";
+    const on = it.onyomi || it.on || "";
+    const kun = it.kunyomi || it.kun || "";
+    const arti = it.arti || it.a || "";
+    const contoh = it.c || [];
+    const bagikana = it.kana || "";
+    body = `
+      <div class="kanji-detail">
+        <div class="big-k">${k}</div>
+        <div class="readings">
+          ${on ? `<div class="r"><span class="lbl">Onyomi</span>${on}</div>` : ""}
+          ${kun ? `<div class="r"><span class="lbl">Kunyomi</span>${kun}</div>` : ""}
+        </div>
+        <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
+        ${contoh.length ? `<div class="contoh-list">
+          <h3>Contoh kosakata</h3>
+          ${contoh.map(c => `<div class="contoh-item">
+            <div><div class="jp">${c.k}</div><div class="r">${c.r||""}</div></div>
+            <div class="id">${c.a||""}</div>
+          </div>`).join("")}
+        </div>` : ""}
+        <button class="btn" style="margin-top:16px;" onclick="speakJP('${(k||"").replace(/'/g,"")}')">🔊 Dengar</button>
+      </div>
+    `;
+  } else if (tipe === "kosakata") {
+    const kata = it.kata || it.k || "";
+    const kana = it.kana || it.f || "";
+    const arti = it.arti || it.a || "";
+    const contoh = it.contoh || it.ej || "";
+    const contohArti = it.arti_contoh || it.et || "";
+    body = `
+      <div class="kanji-detail">
+        <div class="big-k" style="font-size:72px;">${kata}</div>
+        <div class="readings"><div class="r">${kana}</div></div>
+        <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
+        ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left;">
+          <div class="jp">${contoh}</div>
+          <div class="id" style="text-align:left;">${contohArti}</div>
+        </div>` : ""}
+        <button class="btn" style="margin-top:16px;" onclick="speakJP('${(kata||"").replace(/'/g,"")}')">🔊 Dengar</button>
+      </div>
+    `;
+  } else {
+    const pola = it.pola || it.p || it.kata || "";
+    const kana = it.kana || it.b || "";
+    const penjelasan = it.penjelasan || it.e || "";
+    const contoh = it.contoh || it.ej || "";
+    const contohArti = it.arti_contoh || it.et || "";
+    body = `
+      <div class="kanji-detail">
+        <div class="big-k" style="font-size:60px;">${pola}</div>
+        ${kana && kana !== pola ? `<div class="readings"><div class="r">${kana}</div></div>` : ""}
+        <div style="font-size:14px; margin:12px 0; line-height:1.6; text-align:left; background:rgba(255,255,255,.04); padding:14px; border-radius:10px; white-space:pre-wrap;">${penjelasan}</div>
+        ${contoh ? `<div class="contoh-item" style="flex-direction:column; align-items:flex-start;">
+          <div class="jp">${contoh}</div>
+          <div class="id" style="text-align:left; align-self:stretch;">${contohArti}</div>
+        </div>` : ""}
+      </div>
+    `;
+  }
+  app.innerHTML = `
+    <div class="panel">
+      <button class="panel-close" onclick="route('${tipe}')">✕</button>
+      ${body}
+    </div>
+  `;
+};
+window.speakJP = (txt) => {
+  if (!window.speechSynthesis) return toast("Browsermu tidak dukung suara");
+  const u = new SpeechSynthesisUtterance(txt);
+  u.lang = "ja-JP";
+  u.rate = 0.9;
+  window.speechSynthesis.speak(u);
+};
+
+/* ========== HAFALAN (SRS FSRS-lite) ========== */
+async function renderHafalan(){
+  const kos = await loadMateri("kosakata", state.level);
+  if (!kos.length) return `<div class="panel"><h2>🧠 Hafalan</h2><div class="empty"><div class="emoji">📭</div>Belum ada kosakata.</div></div>`;
+
+  // Load SRS state
+  let srs = {};
+  if (state.user) srs = await FB.loadSRS(state.level);
+  else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state.level}`) || "{}");
+  state.srs = srs;
+
+  // Pick kartu to review (due) or new
+  const now = Date.now();
+  const due = [];
+  const fresh = [];
+  kos.forEach((it, i) => {
+    const key = String(i);
+    const card = srs[key];
+    if (card) {
+      if (card.due <= now) due.push({idx:i, card});
+    } else {
+      fresh.push(i);
+    }
+  });
+  const queue = due.length ? due.slice(0, 20).map(d => d.idx) : fresh.slice(0, 20);
+  state.hafalan_queue = queue;
+  state.hafalan_pos = 0;
+
+  if (!queue.length) return `<div class="panel"><h2>🧠 Hafalan</h2><div class="empty"><div class="emoji">🎉</div>Semua kartu sudah selesai hari ini!<br>Datang lagi besok.</div></div>`;
+
+  return renderHafalanKartu();
+}
+function renderHafalanKartu(){
+  const q = state.hafalan_queue;
+  const pos = state.hafalan_pos;
+  const kos = state.materi.kosakata[state.level];
+  if (pos >= q.length) {
+    return `<div class="panel"><h2>🧠 Hafalan selesai!</h2>
+      <div class="empty"><div class="emoji">🎉</div>Selesai ${q.length} kartu.<br>+${q.length*3} XP</div>
+      <button class="btn" onclick="route('hafalan')">Sesi lagi</button>
+      <button class="btn ghost" onclick="route('home')">Pulang</button></div>`;
+  }
+  const it = kos[q[pos]];
+  const kata = it.kata || it.k || "";
+  const kana = it.kana || it.f || "";
+  const arti = it.arti || it.a || "";
+  return `
+    <div class="panel">
+      <h2>🧠 Hafalan · ${pos+1}/${q.length}</h2>
+      <div class="kanji-detail">
+        <div class="big-k" style="font-size:80px;">${kata}</div>
+        <div id="haf-reveal" style="display:none;">
+          <div class="readings"><div class="r">${kana}</div></div>
+          <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
+        </div>
+      </div>
+      <div style="display:flex; gap:8px; margin-top:16px; justify-content:center;">
+        <button class="btn ghost" id="haf-show" onclick="hafShow()">Lihat Jawaban</button>
+      </div>
+      <div style="display:none; gap:8px; margin-top:16px; justify-content:center;" id="haf-rate">
+        <button class="btn danger" onclick="hafRate('salah')">Salah</button>
+        <button class="btn ghost" onclick="hafRate('ragu')">Ragu</button>
+        <button class="btn" onclick="hafRate('benar')">Benar</button>
+        <button class="btn gold" onclick="hafRate('mudah')">Mudah!</button>
+      </div>
+    </div>
+  `;
+}
+window.hafShow = () => {
+  document.getElementById("haf-reveal").style.display = "block";
+  document.getElementById("haf-show").style.display = "none";
+  document.getElementById("haf-rate").style.display = "flex";
+};
+window.hafRate = async (rate) => {
+  const q = state.hafalan_queue;
+  const idx = q[state.hafalan_pos];
+  const key = String(idx);
+  const now = Date.now();
+  const card = state.srs[key] || { n:0, interval:1, due:now };
+  const dayMs = 86400000;
+  const intervals = { salah:1, ragu:1, benar:3, mudah:7 };
+  const mult = { salah:1, ragu:1.2, benar:2, mudah:3 };
+  card.n = (card.n || 0) + 1;
+  card.interval = Math.max(1, Math.round((card.interval || 1) * (mult[rate] || 1)));
+  if (rate === "salah") card.interval = 1;
+  card.due = now + card.interval * dayMs;
+  card.last = rate;
+  state.srs[key] = card;
+
+  // Save
+  if (state.user) await FB.saveSRS(state.level, state.srs);
+  else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
+
+  // XP
+  if (rate !== "salah") await awardXP(3, 1);
+  else await awardXP(1, 0);
+
+  // Mission progress
+  if (rate !== "salah" && state.user) await FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
+
+  state.hafalan_pos++;
+  document.getElementById("app").innerHTML = renderHafalanKartu();
+};
+
+/* ========== QUEST / UJIAN ========== */
+async function renderQuest(){
+  const kategori = state.user ? await FB.listKategori(state.level) : [];
+  const pub = kategori.filter(k => k.publish);
+
+  return `
+    <div class="panel">
+      <h2>⚔️ Quest ${state.level.toUpperCase()}</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Pilih kategori ujian untuk memulai petualangan.</p>
+      ${pub.length ? `
+        <div class="hub-grid">
+          ${pub.map(k => `
+            <div class="hub-card" onclick="route('ujian/${k.id}')">
+              <div class="ico">📝</div>
+              <div class="info">
+                <div class="ttl">${k.nama}</div>
+                <div class="sub">${k.jumlahSoal || "?"} soal · ${k.durasi || "?"} menit</div>
+              </div>
+            </div>
+          `).join("")}
+        </div>
+      ` : `
+        <div class="empty">
+          <div class="emoji">📭</div>
+          Belum ada kategori ujian untuk level ${state.level.toUpperCase()}.<br>
+          ${FB.userIsGuru() ? "<a href='./teacher.html' style='color:var(--pink);'>Buka Dashboard Guru untuk menambah soal.</a>" : "Silakan tunggu guru mengunggah soal."}
+        </div>
+      `}
+    </div>
+  `;
+}
+
+/* ========== UJIAN engine ========== */
+async function renderUjian(params){
+  const kategoriId = params[0];
+  if (!kategoriId) return renderQuest();
+
+  if (!state.user) return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk mengerjakan ujian.<br><button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
+
+  const soal = await FB.listSoal(kategoriId);
+  if (!soal.length) return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">📭</div>Belum ada soal tersedia. Silakan tunggu guru mengunggah soal.</div></div>`;
+
+  // Shuffle
+  state.ujian = {
+    kategoriId,
+    soal: soal.sort(() => Math.random() - 0.5),
+    pos: 0,
+    jawaban: {},
+    mulai: Date.now(),
+  };
+  return renderUjianSoal();
+}
+function renderUjianSoal(){
+  const u = state.ujian;
+  const s = u.soal[u.pos];
+  const picked = u.jawaban[u.pos];
+  return `
+    <div class="panel">
+      <div class="soal-timer">
+        <span>Soal ${u.pos+1} / ${u.soal.length}</span>
+        <span class="time" id="timer">--:--</span>
+      </div>
+      <div class="soal-stem">${s.pertanyaan || ""}</div>
+      <div class="opsi-list">
+        ${(s.opsi || ["A","B","C","D"]).map((o, i) => `
+          <button class="opsi ${picked === i ? "selected" : ""}" onclick="pickOpsi(${i})">
+            ${String.fromCharCode(65+i)}. ${o}
+          </button>
+        `).join("")}
+      </div>
+      <div class="soal-nav">
+        <button class="btn ghost" ${u.pos === 0 ? "disabled" : ""} onclick="ujianNav(-1)">← Sebelum</button>
+        ${u.pos < u.soal.length - 1
+          ? `<button class="btn" onclick="ujianNav(1)">Lanjut →</button>`
+          : `<button class="btn gold" onclick="ujianSelesai()">Selesaikan ✔</button>`}
+      </div>
+    </div>
+  `;
+}
+window.pickOpsi = (i) => {
+  state.ujian.jawaban[state.ujian.pos] = i;
+  document.getElementById("app").innerHTML = renderUjianSoal();
+};
+window.ujianNav = (dir) => {
+  state.ujian.pos = Math.max(0, Math.min(state.ujian.soal.length - 1, state.ujian.pos + dir));
+  document.getElementById("app").innerHTML = renderUjianSoal();
+};
+window.ujianSelesai = async () => {
+  const u = state.ujian;
+  let benar = 0, salah = 0;
+  u.soal.forEach((s, i) => {
+    const pick = u.jawaban[i];
+    const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
+    if (pick === kunci) benar++;
+    else if (pick != null) salah++;
+  });
+  const skor = Math.round((benar / u.soal.length) * 100);
+  const durasi = Math.round((Date.now() - u.mulai) / 1000);
+  await FB.catatNilai({ kategoriId: u.kategoriId, skor, benar, salah, waktu: durasi });
+  await awardXP(benar * 5, benar * 2 + (skor === 100 ? 20 : 0));
+  await FB.updateMisiProgres("benar_20", benar).catch(()=>{});
+  await FB.updateMisiProgres("selesai_sesi", 1).catch(()=>{});
+
+  document.getElementById("app").innerHTML = `
+    <div class="panel">
+      <h2>🎉 Ujian Selesai</h2>
+      <div class="empty">
+        <div class="emoji">${skor >= 80 ? "🏆" : skor >= 60 ? "😊" : "💪"}</div>
+        <div style="font-size:48px; font-weight:800; color:var(--pink);">${skor}</div>
+        <div>${benar} benar · ${salah} salah</div>
+        <div style="color:var(--gray); margin-top:8px;">+${benar*5} XP · +${benar*2+(skor===100?20:0)} 🪙</div>
+      </div>
+      <h3>Pembahasan</h3>
+      ${u.soal.map((s, i) => {
+        const pick = u.jawaban[i];
+        const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
+        return `
+          <div class="contoh-item" style="flex-direction:column; align-items:stretch; margin-bottom:10px;">
+            <div><b>${i+1}. ${s.pertanyaan}</b></div>
+            <div style="color:${pick===kunci?'var(--green)':'var(--red)'}; font-size:12px; margin-top:4px;">
+              Jawabanmu: ${pick!=null ? String.fromCharCode(65+pick) : "(kosong)"} ·
+              Kunci: ${String.fromCharCode(65+kunci)} ${s.opsi?.[kunci] || ""}
+            </div>
+            ${s.pembahasan_id ? `<div style="font-size:12px; color:var(--gray); margin-top:4px;">${s.pembahasan_id}</div>` : ""}
+          </div>
+        `;
+      }).join("")}
+      <button class="btn" onclick="route('quest')">Kembali ke Quest</button>
+    </div>
+  `;
+};
+
+/* ========== SHOP ========== */
+async function renderShop(){
+  const items = allShopItems();
+  const inv = state.siswa?.karakter?.inventory || [];
+  const eq = state.siswa?.karakter?.equipped || {};
+  const grouped = {};
+  items.forEach(it => {
+    if (!grouped[it.kategori]) grouped[it.kategori] = [];
+    grouped[it.kategori].push(it);
+  });
+
+  return `
+    <div class="panel">
+      <h2>🛒 Shop</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Koinmu: <b>${state.gami.koin || 0} 🪙</b></p>
+      ${Object.entries(grouped).map(([kat, list]) => `
+        <h3>${CATALOG_LABELS[kat]}</h3>
+        <div class="grid grid-4">
+          ${list.map(it => {
+            const owned = inv.includes(it.id);
+            const equipped = eq[kat] === it.id;
+            const locked = state.gami.level_karakter < it.unlock_lv;
+            const chara = renderCharacter({ ...DEFAULT_EQUIPPED, [kat]: it.id });
+            return `
+              <div class="item-card ${owned?'owned':''} ${equipped?'equipped':''} ${locked?'locked':''}"
+                   onclick="${locked ? `toast('🔒 Butuh Lv ${it.unlock_lv}')` : owned ? `equipNow('${kat}','${it.id}')` : `beliItem('${kat}','${it.id}', ${it.harga}, ${it.unlock_lv})`}">
+                ${it.rarity && it.rarity !== "common" ? `<span class="badge-rarity rarity-${it.rarity}">${it.rarity}</span>` : ""}
+                <div class="icon-wrap">${chara}</div>
+                <div class="nama">${it.nama}</div>
+                <div class="harga">${equipped ? "✓ Dipakai" : owned ? "Dimiliki — klik pakai" : locked ? `🔒 Lv ${it.unlock_lv}` : `🪙 ${it.harga}`}</div>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+window.beliItem = async (kat, id, harga, unlock) => {
+  if (!state.user) return toast("Login dulu untuk berbelanja");
+  if (state.gami.level_karakter < unlock) return toast(`Butuh level ${unlock}`);
+  try {
+    const r = await FB.beliItem(kat, id, harga, state.level);
+    state.gami.koin = r.newKoin;
+    updateChips();
+    toast(`💰 Dibeli! Buka Wardrobe untuk pakai.`);
+    await renderShop().then(h => document.getElementById("app").innerHTML = h);
+  } catch(e){ toast("❌ " + e.message); }
+};
+window.equipNow = async (kat, id) => {
+  if (!state.user) return;
+  await FB.equipItem(kat, id);
+  toast("✓ Dipakai");
+  await renderShop().then(h => document.getElementById("app").innerHTML = h);
+};
+
+/* ========== INVENTORY ========== */
+async function renderInventory(){
+  const inv = state.siswa?.karakter?.inventory || [];
+  if (!inv.length) return `<div class="panel"><h2>🎒 Inventory</h2><div class="empty"><div class="emoji">📭</div>Inventorymu masih kosong.<br><button class="btn" onclick="route('shop')">Ke Shop</button></div></div>`;
+
+  const grouped = {};
+  inv.forEach(id => {
+    for (const [kat, items] of Object.entries(CATALOG)) {
+      if (items[id]) {
+        if (!grouped[kat]) grouped[kat] = [];
+        grouped[kat].push({ id, ...items[id] });
+        break;
+      }
+    }
+  });
+  const eq = state.siswa?.karakter?.equipped || {};
+  return `
+    <div class="panel">
+      <h2>🎒 Inventory</h2>
+      ${Object.entries(grouped).map(([kat, list]) => `
+        <h3>${CATALOG_LABELS[kat]}</h3>
+        <div class="grid grid-4">
+          ${list.map(it => {
+            const equipped = eq[kat] === it.id;
+            const chara = renderCharacter({ ...DEFAULT_EQUIPPED, [kat]: it.id });
+            return `
+              <div class="item-card owned ${equipped?'equipped':''}" onclick="equipNowInv('${kat}','${it.id}')">
+                <div class="icon-wrap">${chara}</div>
+                <div class="nama">${it.nama}</div>
+                <div class="harga">${equipped ? "✓ Dipakai" : "Klik pakai"}</div>
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+window.equipNowInv = async (kat, id) => {
+  if (!state.user) return;
+  await FB.equipItem(kat, id);
+  toast("✓ Dipakai");
+  route("inventory");
+};
+
+/* ========== WARDROBE ========== */
+async function renderWardrobe(){
+  const eq = state.siswa?.karakter?.equipped || DEFAULT_EQUIPPED;
+  const inv = state.siswa?.karakter?.inventory || [];
+  const skin = state.siswa?.karakter?.skinTone || "light";
+  const chara = renderCharacter(eq, skin);
+
+  return `
+    <div class="panel">
+      <h2>👔 Wardrobe</h2>
+      <p style="color:var(--gray); font-size:13px;">Preview langsung — klik item untuk pakai.</p>
+      <div style="display:flex; gap:20px; flex-wrap:wrap; margin-top:12px;">
+        <div style="width:240px; flex-shrink:0;">
+          <div style="aspect-ratio:4/5; background:rgba(255,255,255,.04); border-radius:14px; display:flex; align-items:center;">
+            ${chara}
+          </div>
+          <div style="font-size:12px; color:var(--gray); text-align:center; margin-top:6px;">
+            ${Object.entries(eq).filter(([_,v])=>v && v!=="none"&&v!=="shoes_default"&&v!=="seragam_default").map(([k,v]) => `${CATALOG_LABELS[k]}: ${CATALOG[k]?.[v]?.nama||v}`).join(" · ") || "Belum ada item dipakai"}
+          </div>
+        </div>
+        <div style="flex:1; min-width:280px;">
+          ${Object.keys(CATALOG).map(kat => {
+            const items = inv.filter(id => CATALOG[kat][id]);
+            if (!items.length) return "";
+            return `
+              <h3>${CATALOG_LABELS[kat]}</h3>
+              <div class="grid grid-3">
+                ${items.map(id => {
+                  const it = CATALOG[kat][id];
+                  const isEq = eq[kat] === id;
+                  const prevCh = renderCharacter({ ...DEFAULT_EQUIPPED, [kat]: id });
+                  return `<div class="item-card owned ${isEq?'equipped':''}" onclick="equipThenWardrobe('${kat}','${id}')">
+                    <div class="icon-wrap">${prevCh}</div>
+                    <div class="nama">${it.nama}</div>
+                    <div class="harga">${isEq?"✓ Dipakai":"Klik pakai"}</div>
+                  </div>`;
+                }).join("")}
+                ${kat === "rambut" ? `<div class="item-card ${!eq.rambut?'equipped':''}" onclick="equipThenWardrobe('rambut',null)">
+                  <div class="icon-wrap">${renderCharacter({...DEFAULT_EQUIPPED, rambut:null})}</div>
+                  <div class="nama">Botak (Default)</div>
+                  <div class="harga">${!eq.rambut?"✓ Dipakai":"Klik pakai"}</div>
+                </div>` : ""}
+              </div>
+            `;
+          }).join("")}
+        </div>
+      </div>
+    </div>
+  `;
+}
+window.equipThenWardrobe = async (kat, id) => {
+  if (!state.user) return toast("Login dulu");
+  await FB.equipItem(kat, id);
+  toast("✓ Dipakai");
+  route("wardrobe");
+};
+
+/* ========== MISI HARIAN ========== */
+async function renderMisiHarian(){
+  if (!state.user) return `<div class="panel"><h2>🎯 Misi Harian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk misi harian.</div></div>`;
+  const misi = await FB.getMisiHariIni();
+  return `
+    <div class="panel">
+      <h2>🎯 Misi Harian</h2>
+      <p style="color:var(--gray); font-size:13px;">Reset tiap hari pukul 00:00 WIB.</p>
+      <div class="hub-grid" style="margin-top:12px;">
+        ${misi.misi.map(m => {
+          const done = m.progres >= m.target;
+          const claimed = misi.claimed.includes(m.id);
+          return `
+            <div class="hub-card">
+              <div class="ico">${claimed?"🏆":done?"✅":"🎯"}</div>
+              <div class="info" style="flex:1;">
+                <div class="ttl">${m.nama}</div>
+                <div class="sub">Progres: ${m.progres || 0} / ${m.target} · +${m.reward_xp} XP +${m.reward_koin} 🪙</div>
+                <div class="xp-bar" style="margin-top:4px;"><div class="xp-fill" style="width:${Math.min(100,(m.progres||0)/m.target*100)}%"></div></div>
+              </div>
+              ${done && !claimed ? `<button class="btn gold" onclick="claimMisi('${m.id}')">Klaim</button>` : ""}
+            </div>
+          `;
+        }).join("")}
+      </div>
+    </div>
+  `;
+}
+window.claimMisi = async (id) => {
+  const m = await FB.claimMisi(id, state.level);
+  await loadGami();
+  updateChips();
+  toast(`🎉 +${m.reward_xp} XP · +${m.reward_koin} 🪙`);
+  route("misi");
+};
+
+/* ========== PROFILE ========== */
+async function renderProfile(){
+  const akses = state.siswa?.aksesLevel || {};
+  const nama = state.siswa?.nama || "Tamu";
+
+  // Load gami all levels
+  const allGami = {};
+  if (state.user) {
+    for (const lvl of ["n5","n4","n3","n2","n1"]) {
+      allGami[lvl] = await FB.getGami(lvl);
+    }
+  }
+
+  // Nilai history
+  const riwayat = state.user ? await FB.listNilai(10) : [];
+
+  return `
+    <div class="panel">
+      <h2>👤 Profil</h2>
+      <h3>${nama}</h3>
+      <p style="color:var(--gray); font-size:13px;">${state.user?.email || "Tamu"} ${state.siswa?.kelas ? `· Kelas ${state.siswa.kelas}` : ""}</p>
+
+      <h3>Progres per Level</h3>
+      <div class="grid grid-5" style="grid-template-columns:repeat(5,1fr); gap:8px;">
+        ${["n5","n4","n3","n2","n1"].map(lvl => {
+          const g = allGami[lvl] || { xp:0, koin:0, level_karakter:1 };
+          const unlocked = akses[lvl] || FB.userIsGuru();
+          return `<div class="card" style="text-align:center; cursor:default;">
+            <div style="font-weight:800;">${lvl.toUpperCase()}</div>
+            <div style="color:${unlocked?'var(--pink)':'var(--gray-dim)'}; font-size:11px;">${unlocked?'Terbuka':'🔒'}</div>
+            <div style="font-size:11px; color:var(--gray); margin-top:6px;">Lv ${g.level_karakter} · ${g.xp} XP</div>
+          </div>`;
+        }).join("")}
+      </div>
+
+      <h3>Riwayat Ujian</h3>
+      ${riwayat.length ? riwayat.map(r => `
+        <div class="contoh-item">
+          <div>${r.kategoriId}</div>
+          <div class="id">${r.skor}/100 (${r.benar} benar)</div>
+        </div>
+      `).join("") : '<div class="empty">Belum ada riwayat ujian.</div>'}
+
+      ${state.user ? `<button class="btn ghost danger" style="margin-top:16px;" onclick="logout()">Keluar</button>` : ""}
+    </div>
+  `;
+}
+window.logout = async () => {
+  await FB.keluar();
+  state.user = null; state.siswa = null;
+  toast("Dadah 👋");
+  route("home");
+};
+
+/* ========== ACHIEVEMENTS ========== */
+async function renderAchievements(){
+  // Compute status
+  const ach = state.user?.achievements || JSON.parse(localStorage.getItem("shirose-ach") || "[]");
+  const stats = {
+    user: state.user,
+    equipped: state.siswa?.karakter?.equipped || {},
+    inventory_count_pakaian: (state.siswa?.karakter?.inventory || []).filter(id => CATALOG.pakaian[id]).length,
+    total_benar: 0,
+    total_ujian: 0,
+    ada_nilai_perfect: false,
+    streak: state.gami.streak || 0,
+    level_karakter: state.gami.level_karakter || 1,
+    total_koin: state.gami.koin || 0,
+    level_dipelajari: 1,
+  };
+  return `
+    <div class="panel">
+      <h2>🏅 Achievement</h2>
+      <div class="grid grid-2">
+        ${ACHIEVEMENTS.map(a => {
+          const got = a.syarat(stats);
+          return `
+            <div class="card" style="cursor:default; opacity:${got?1:0.5};">
+              <div class="title">${got?"🏆":"🔒"} ${a.nama}</div>
+              <div class="desc">${a.desc}</div>
+              <div class="meta-row"><span>${got?"Diraih":"Belum"}</span><span>+${a.reward_koin} 🪙</span></div>
+            </div>
+          `;
+        }).join("")}
+      </div>
+    </div>
+  `;
+}
+
+/* ========== LEADERBOARD ========== */
+async function renderLeaderboard(){
+  if (!state.user) return `<div class="panel"><h2>🏆 Leaderboard</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk lihat ranking.</div></div>`;
+  const list = await FB.leaderboard(state.level, 20);
+  return `
+    <div class="panel">
+      <h2>🏆 Leaderboard ${state.level.toUpperCase()}</h2>
+      ${list.length ? `
+        <div class="grid">
+          ${list.map((u, i) => `
+            <div class="contoh-item" style="align-items:center;">
+              <div style="font-size:24px; font-weight:800; color:${i===0?'var(--gold)':i===1?'#c0c0c0':i===2?'#cd7f32':'var(--gray)'};">#${i+1}</div>
+              <div style="flex:1; font-weight:700;">${u.nama}</div>
+              <div class="id">Lv ${u.level_karakter||1} · ${u.xp||0} XP</div>
+            </div>
+          `).join("")}
+        </div>
+      ` : '<div class="empty">Belum ada data.</div>'}
+    </div>
+  `;
+}
+
+/* ========== AUTH STATE ========== */
+FB.onAuth(async (user, siswa) => {
+  state.user = user; state.siswa = siswa;
+  const btn = document.getElementById("btn-auth");
+  if (user) {
+    btn.innerHTML = `👋 ${siswa?.nama || user.email.split("@")[0]}`;
+    btn.onclick = () => route("profile");
+    document.getElementById("guru-link").classList.toggle("hidden", !FB.userIsGuru());
+  } else {
+    btn.innerHTML = "🔑 Masuk";
+    btn.onclick = showAuthModal;
+    document.getElementById("guru-link").classList.add("hidden");
+  }
+  await loadGami();
+  renderLevelPills();
+  updateChips();
+  route(location.hash.slice(1) || "home");
+});
+
+/* ========== INIT ========== */
+renderLevelPills();
+updateChips();
+window.addEventListener("hashchange", () => route(location.hash.slice(1) || "home"));
+
+// Register SW
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("./sw.js").catch(()=>{});
+}
+</script>
+
+</body>
+</html>

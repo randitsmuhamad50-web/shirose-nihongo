@@ -1,0 +1,23 @@
+/* 20 achievement default */
+export const ACHIEVEMENTS = [
+  { id:"first_login",      nama:"Pertama Kali",          desc:"Login pertama",                    syarat:(s)=>!!s.user,                                             reward_koin:50 },
+  { id:"first_benar",      nama:"Jawaban Pertama",       desc:"Jawab benar 1 soal",                syarat:(s)=>s.total_benar>=1,                                     reward_koin:20 },
+  { id:"benar_10",         nama:"Pelajar Pemula",        desc:"Jawab benar 10 soal",               syarat:(s)=>s.total_benar>=10,                                    reward_koin:50 },
+  { id:"benar_100",        nama:"Pelajar Tekun",         desc:"Jawab benar 100 soal",              syarat:(s)=>s.total_benar>=100,                                   reward_koin:200 },
+  { id:"benar_500",        nama:"Pelajar Ahli",          desc:"Jawab benar 500 soal",              syarat:(s)=>s.total_benar>=500,                                   reward_koin:500 },
+  { id:"streak_3",         nama:"Konsisten 3 Hari",      desc:"Streak 3 hari",                     syarat:(s)=>s.streak>=3,                                          reward_koin:30 },
+  { id:"streak_7",         nama:"Satu Minggu Penuh",     desc:"Streak 7 hari",                     syarat:(s)=>s.streak>=7,                                          reward_koin:100 },
+  { id:"streak_30",        nama:"Sebulan Konsisten",     desc:"Streak 30 hari",                    syarat:(s)=>s.streak>=30,                                         reward_koin:500 },
+  { id:"lv_5",             nama:"Level 5",               desc:"Capai level 5",                     syarat:(s)=>s.level_karakter>=5,                                  reward_koin:100 },
+  { id:"lv_10",            nama:"Level 10",              desc:"Capai level 10",                    syarat:(s)=>s.level_karakter>=10,                                 reward_koin:300 },
+  { id:"lv_20",            nama:"Level 20",              desc:"Capai level 20",                    syarat:(s)=>s.level_karakter>=20,                                 reward_koin:800 },
+  { id:"lv_30",            nama:"Level 30",              desc:"Capai level 30",                    syarat:(s)=>s.level_karakter>=30,                                 reward_koin:1500 },
+  { id:"first_rambut",     nama:"Tumbuh Rambut",         desc:"Beli & pakai rambut pertama",       syarat:(s)=>s.equipped?.rambut,                                   reward_koin:30 },
+  { id:"first_outfit",     nama:"Fashion Minded",        desc:"Beli pakaian pertama",              syarat:(s)=>s.inventory_count_pakaian>=2,                         reward_koin:50 },
+  { id:"all_outfits",      nama:"Fashionista",           desc:"Beli 5 pakaian",                    syarat:(s)=>s.inventory_count_pakaian>=5,                         reward_koin:200 },
+  { id:"ujian_pertama",    nama:"Ujian Pertama",         desc:"Selesaikan 1 ujian",                syarat:(s)=>s.total_ujian>=1,                                     reward_koin:30 },
+  { id:"ujian_10",         nama:"Pelajar Rajin",         desc:"Selesaikan 10 ujian",               syarat:(s)=>s.total_ujian>=10,                                    reward_koin:150 },
+  { id:"nilai_perfect",    nama:"Nilai Sempurna",        desc:"Dapat nilai 100 di 1 ujian",        syarat:(s)=>s.ada_nilai_perfect,                                  reward_koin:200 },
+  { id:"semua_level",      nama:"Multi-JLPT",            desc:"Belajar di semua level N5-N1",      syarat:(s)=>s.level_dipelajari>=5,                                reward_koin:500 },
+  { id:"koin_1000",        nama:"Kaya Raya",             desc:"Kumpulkan 1000 koin",               syarat:(s)=>s.total_koin>=1000,                                   reward_koin:100 },
+];

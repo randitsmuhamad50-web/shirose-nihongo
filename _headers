@@ -1,0 +1,5 @@
+# Correct MIME types
+/data/*
+  Content-Type: application/json; charset=utf-8
+/manifest.webmanifest
+  Content-Type: application/manifest+json

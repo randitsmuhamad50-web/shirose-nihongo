@@ -1,0 +1,92 @@
+[
+  {
+    "transkrip": "おはようございます。",
+    "tts_text": "おはようございます。",
+    "pertanyaan": "Apa arti kalimat yang terdengar?",
+    "opsi": ["Selamat pagi", "Selamat malam", "Terima kasih", "Permisi"],
+    "kunci": 0,
+    "pembahasan": "「おはようございます」dipakai di pagi hari untuk salam formal.",
+    "kategori": "greeting"
+  },
+  {
+    "transkrip": "いま　なんじですか。じゅうじはんです。",
+    "tts_text": "いま なんじですか。じゅうじはんです。",
+    "pertanyaan": "Jam berapa sekarang menurut percakapan?",
+    "opsi": ["09:30", "10:30", "11:30", "10:15"],
+    "kunci": 1,
+    "pembahasan": "じゅうじ (10 jam) + はん (setengah) = 10:30.",
+    "kategori": "time"
+  },
+  {
+    "transkrip": "わたしの　かぞくは　よにんです。ちち、はは、あに、わたし。",
+    "tts_text": "わたしの かぞくは よにんです。ちち、はは、あに、わたし。",
+    "pertanyaan": "Berapa anggota keluarga pembicara?",
+    "opsi": ["Dua", "Tiga", "Empat", "Lima"],
+    "kunci": 2,
+    "pembahasan": "よにん = 4 orang. Yaitu ayah, ibu, kakak laki-laki, dan saya.",
+    "kategori": "family"
+  },
+  {
+    "transkrip": "これは　にほんごの　ほんです。これは　えいごの　じしょです。",
+    "tts_text": "これは にほんごの ほんです。これは えいごの じしょです。",
+    "pertanyaan": "Dua benda yang disebutkan adalah?",
+    "opsi": ["Buku Jepang & kamus Inggris", "Buku Inggris & kamus Jepang", "Majalah & koran", "Kertas & pena"],
+    "kunci": 0,
+    "pembahasan": "にほんごのほん (buku bahasa Jepang) + えいごのじしょ (kamus bahasa Inggris).",
+    "kategori": "objects"
+  },
+  {
+    "transkrip": "きょうは　きんようびです。あしたは　どようびです。",
+    "tts_text": "きょうは きんようびです。あしたは どようびです。",
+    "pertanyaan": "Hari apa sekarang?",
+    "opsi": ["Kamis", "Jumat", "Sabtu", "Minggu"],
+    "kunci": 1,
+    "pembahasan": "きんようび = Jumat. Besok = Sabtu (どようび).",
+    "kategori": "days"
+  },
+  {
+    "transkrip": "すみません、えきは　どこですか。あそこです。",
+    "tts_text": "すみません、えきは どこですか。あそこです。",
+    "pertanyaan": "Pembicara menanyakan letak apa?",
+    "opsi": ["Toko", "Rumah", "Stasiun", "Sekolah"],
+    "kunci": 2,
+    "pembahasan": "えき berarti stasiun kereta.",
+    "kategori": "directions"
+  },
+  {
+    "transkrip": "きのう　えいがを　みました。おもしろかったです。",
+    "tts_text": "きのう えいがを みました。おもしろかったです。",
+    "pertanyaan": "Pembicara kemarin melakukan apa?",
+    "opsi": ["Membaca buku", "Menonton film", "Belajar bahasa", "Mendengar musik"],
+    "kunci": 1,
+    "pembahasan": "えいがをみました = menonton film.",
+    "kategori": "past_activity"
+  },
+  {
+    "transkrip": "みず、おねがいします。はい、どうぞ。",
+    "tts_text": "みず、おねがいします。はい、どうぞ。",
+    "pertanyaan": "Apa yang diminta pembicara?",
+    "opsi": ["Teh", "Kopi", "Air", "Jus"],
+    "kunci": 2,
+    "pembahasan": "みず = air.",
+    "kategori": "order"
+  },
+  {
+    "transkrip": "これは　いくらですか。せんえんです。",
+    "tts_text": "これは いくらですか。せんえんです。",
+    "pertanyaan": "Berapa harganya?",
+    "opsi": ["100 yen", "500 yen", "1000 yen", "10000 yen"],
+    "kunci": 2,
+    "pembahasan": "せん = 1000. せんえん = 1000 yen.",
+    "kategori": "price"
+  },
+  {
+    "transkrip": "きょうは　さむいです。コートを　きます。",
+    "tts_text": "きょうは さむいです。コートを きます。",
+    "pertanyaan": "Bagaimana cuaca hari ini?",
+    "opsi": ["Panas", "Dingin", "Hujan", "Cerah"],
+    "kunci": 1,
+    "pembahasan": "さむい = dingin.",
+    "kategori": "weather"
+  }
+]

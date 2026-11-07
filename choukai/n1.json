@@ -1,0 +1,92 @@
+[
+  {
+    "transkrip": "彼の　発言は　誤解を　招きかねないので、慎重に　訂正する　必要がある。",
+    "tts_text": "かれの はつげんは ごかいを まねきかねないので、しんちょうに ていせいする ひつようがある。",
+    "pertanyaan": "Apa masalah dengan pernyataan dia?",
+    "opsi": ["Terlalu jelas", "Berpotensi menimbulkan kesalahpahaman", "Tidak terdengar", "Sangat tepat"],
+    "kunci": 1,
+    "pembahasan": "〜かねない = bisa saja (negatif). ごかいをまねく = menimbulkan kesalahpahaman.",
+    "kategori": "communication"
+  },
+  {
+    "transkrip": "政府の　新政策は、国民の　支持を　得られないまま　強行された。",
+    "tts_text": "せいふの しんせいさくは、こくみんの しじを えられないまま きょうこうされた。",
+    "pertanyaan": "Bagaimana kebijakan baru diberlakukan?",
+    "opsi": ["Dengan dukungan penuh rakyat", "Dipaksakan tanpa dukungan rakyat", "Ditunda", "Dibatalkan"],
+    "kunci": 1,
+    "pembahasan": "〜まま = tetap dalam keadaan. きょうこう = pemaksaan. しじをえられない = tidak mendapat dukungan.",
+    "kategori": "politics"
+  },
+  {
+    "transkrip": "いかに　優秀な　人材と　いえども、適切な　環境が　なければ　能力を　発揮できない。",
+    "tts_text": "いかに ゆうしゅうな じんざいと いえども、てきせつな かんきょうが なければ のうりょくを はっきできない。",
+    "pertanyaan": "Apa pesan utama?",
+    "opsi": ["Talenta cukup", "Lingkungan yang tepat diperlukan untuk talenta berkembang", "Lingkungan tak penting", "Semua manusia sama"],
+    "kunci": 1,
+    "pembahasan": "いかに〜といえども = sehebat apapun. のうりょくをはっきする = mengerahkan kemampuan.",
+    "kategori": "philosophy"
+  },
+  {
+    "transkrip": "彼女の　作品は　批評家から　酷評された　ものの、一部の　愛好家には　熱狂的に　支持されている。",
+    "tts_text": "かのじょの さくひんは ひひょうかから こくひょうされた ものの、いちぶの あいこうかには ねっきょうてきに しじされている。",
+    "pertanyaan": "Bagaimana penerimaan karyanya?",
+    "opsi": ["Dicintai semua", "Dibenci kritikus tapi dicintai sebagian penggemar", "Dicintai kritikus saja", "Tidak ada yang suka"],
+    "kunci": 1,
+    "pembahasan": "〜ものの = meskipun. こくひょう = kritik pedas. ねっきょうてき = fanatik.",
+    "kategori": "art"
+  },
+  {
+    "transkrip": "長年　積み重ねてきた　努力が　実を　結び、ついに　念願だった　目標を　達成した。",
+    "tts_text": "ながねん つみかさねてきた どりょくが みを むすび、ついに ねんがんだった もくひょうを たっせいした。",
+    "pertanyaan": "Apa yang terjadi?",
+    "opsi": ["Gagal", "Usaha bertahun-tahun akhirnya membuahkan hasil, mencapai cita-cita lama", "Baru memulai", "Menyerah"],
+    "kunci": 1,
+    "pembahasan": "みをむすぶ = membuahkan hasil. ねんがん = cita-cita yang lama diidam-idamkan.",
+    "kategori": "achievement"
+  },
+  {
+    "transkrip": "問題の　解決には、表面的な　対処では　足りず、根本的な　構造改革が　必要だ。",
+    "tts_text": "もんだいの かいけつには、ひょうめんてきな たいしょでは たりず、こんぽんてきな こうぞうかいかくが ひつようだ。",
+    "pertanyaan": "Bagaimana masalah harus diselesaikan?",
+    "opsi": ["Penanganan permukaan saja", "Reformasi struktural mendasar", "Diabaikan", "Ditunggu waktu"],
+    "kunci": 1,
+    "pembahasan": "こんぽんてき = mendasar. 構造改革 = reformasi struktural.",
+    "kategori": "reform"
+  },
+  {
+    "transkrip": "いくら　理論上　可能であろうとも、実用化には　膨大な　時間と　コストが　かかる。",
+    "tts_text": "いくら りろんじょう かのうであろうとも、じつようかには ぼうだいな じかんと コストが かかる。",
+    "pertanyaan": "Apa kendala realisasinya?",
+    "opsi": ["Tidak ada kendala", "Butuh waktu dan biaya sangat besar meskipun secara teori mungkin", "Secara teori tak mungkin", "Sudah berhasil"],
+    "kunci": 1,
+    "pembahasan": "いくら〜であろうとも = sekalipun. ぼうだい = sangat besar.",
+    "kategori": "technology"
+  },
+  {
+    "transkrip": "時代が　移り変わるに　つれて、価値観や　ライフスタイルも　多様化しつつある。",
+    "tts_text": "じだいが うつりかわるに つれて、かちかんや ライフスタイルも たようかしつつある。",
+    "pertanyaan": "Apa yang sedang terjadi di masyarakat?",
+    "opsi": ["Semuanya tetap sama", "Nilai dan gaya hidup semakin beragam", "Semuanya kembali ke tradisi", "Tidak ada perubahan"],
+    "kunci": 1,
+    "pembahasan": "〜つつある = sedang dalam proses. 多様化 = diversifikasi.",
+    "kategori": "society"
+  },
+  {
+    "transkrip": "危機的な　状況に　直面した　ときこそ、リーダーの　真価が　問われる。",
+    "tts_text": "ききてきな じょうきょうに ちょくめんした ときこそ、リーダーの しんかが とわれる。",
+    "pertanyaan": "Kapan sejati pemimpin diuji?",
+    "opsi": ["Saat santai", "Justru saat menghadapi krisis", "Tidak pernah", "Saat rapat"],
+    "kunci": 1,
+    "pembahasan": "〜こそ = justru. しんかがとわれる = nilai sebenarnya dipertanyakan.",
+    "kategori": "leadership"
+  },
+  {
+    "transkrip": "伝統を　守ることと、時代に　合わせて　進化することは、一見　矛盾するように　見えるが、両立可能だ。",
+    "tts_text": "でんとうを まもることと、じだいに あわせて しんかすることは、いっけん むじゅんするように みえるが、りょうりつかのうだ。",
+    "pertanyaan": "Pendapat pembicara tentang tradisi dan evolusi?",
+    "opsi": ["Bertentangan mutlak", "Sekilas bertentangan tapi bisa berjalan bersama", "Sama saja", "Pilih salah satu"],
+    "kunci": 1,
+    "pembahasan": "むじゅん = kontradiksi. 両立可能 = bisa coexist.",
+    "kategori": "tradition"
+  }
+]

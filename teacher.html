@@ -1,0 +1,796 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Teacher Dashboard · Shirose Nihongo</title>
+<meta name="theme-color" content="#161b36"/>
+<link rel="icon" href="./icon-192.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Shippori+Mincho+B1:wght@700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --navy:#161b36; --navy-2:#1f2650; --navy-3:#2a3270; --navy-4:#0d1024;
+  --pink:#ef6a9a; --pink-light:#f58bb0; --pink-dark:#c8325a;
+  --gold:#ffd700; --green:#10b981; --red:#ef4444; --purple:#8b5cf6;
+  --white:#ffffff; --gray:#b9bfd9; --gray-dim:#7a80a0;
+  --border:#2a3060;
+  --font-sans:'Zen Kaku Gothic New', system-ui, sans-serif;
+  --font-jp:'Shippori Mincho B1', serif;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:var(--font-sans); background:var(--navy-4); color:var(--white); min-height:100vh;}
+.topbar{display:flex; align-items:center; gap:12px; padding:12px 20px; background:var(--navy); border-bottom:1px solid var(--border); position:sticky; top:0; z-index:10;}
+.brand{font-family:var(--font-jp); font-weight:800; font-size:18px; color:var(--white); text-decoration:none;}
+.topbar-right{margin-left:auto;}
+.btn{background:var(--pink); color:white; border:none; padding:8px 14px; border-radius:8px; font-weight:700; cursor:pointer; font-family:var(--font-sans); font-size:13px;}
+.btn:hover{background:var(--pink-dark);}
+.btn.ghost{background:transparent; border:1px solid var(--border);}
+.btn.gold{background:var(--gold); color:#2a1810;}
+.btn.danger{background:var(--red);}
+.btn.sm{padding:4px 10px; font-size:12px;}
+.btn:disabled{opacity:.4; cursor:not-allowed;}
+
+.layout{display:grid; grid-template-columns:240px 1fr; min-height:calc(100vh - 56px);}
+@media (max-width:900px){ .layout{grid-template-columns:1fr;} .sidebar{border-right:none; border-bottom:1px solid var(--border);} }
+.sidebar{background:var(--navy); border-right:1px solid var(--border); padding:16px;}
+.sidebar .nav-item{
+  display:flex; gap:10px; align-items:center;
+  padding:10px 14px; border-radius:10px; cursor:pointer; margin-bottom:4px;
+  color:var(--gray); font-weight:600; font-size:13px;
+}
+.sidebar .nav-item:hover{background:rgba(255,255,255,.05); color:var(--white);}
+.sidebar .nav-item.active{background:var(--pink); color:white;}
+.sidebar .nav-item .ico{font-size:18px;}
+
+.main{padding:20px; max-width:1400px;}
+.panel{background:var(--navy-2); border:1px solid var(--border); border-radius:14px; padding:20px; margin-bottom:16px;}
+.panel h2{font-size:20px; margin-bottom:12px; color:var(--pink-light);}
+.panel h3{font-size:14px; margin:12px 0 8px;}
+
+.table-wrap{overflow-x:auto;}
+table{width:100%; border-collapse:collapse; font-size:13px;}
+th,td{padding:8px 10px; text-align:left; border-bottom:1px solid var(--border); white-space:nowrap;}
+th{background:var(--navy); font-weight:700; color:var(--gray); font-size:11px; letter-spacing:.5px; text-transform:uppercase;}
+tr:hover td{background:rgba(255,255,255,.03);}
+
+.chip{display:inline-flex; align-items:center; padding:3px 8px; border-radius:999px; font-size:11px; font-weight:700; margin:0 2px;}
+.chip.on{background:var(--green); color:white;}
+.chip.off{background:#444;}
+.chip.btn-chip{cursor:pointer; background:#333;}
+.chip.btn-chip.on{background:var(--green);}
+
+.form-row{display:flex; gap:10px; align-items:center; margin-bottom:10px; flex-wrap:wrap;}
+.form-row label{font-size:12px; color:var(--gray); min-width:100px;}
+input, select, textarea{
+  padding:8px 10px; border-radius:6px; border:1px solid var(--border);
+  background:var(--navy-4); color:white; font-family:var(--font-sans); font-size:13px;
+}
+input:focus, select:focus, textarea:focus{outline:none; border-color:var(--pink);}
+
+.dropzone{
+  border:2px dashed var(--border); border-radius:12px; padding:30px; text-align:center;
+  background:var(--navy); cursor:pointer; transition:all .15s;
+}
+.dropzone:hover{border-color:var(--pink); background:rgba(239,106,154,.05);}
+.dropzone.drag{border-color:var(--gold); background:rgba(255,215,0,.08);}
+
+.alert{padding:10px 14px; border-radius:8px; margin-bottom:10px; font-size:13px;}
+.alert-err{background:rgba(239,68,68,.15); border:1px solid var(--red); color:#ffb4b4;}
+.alert-ok{background:rgba(16,185,129,.15); border:1px solid var(--green); color:#b4ffcc;}
+
+.login-box{
+  max-width:400px; margin:60px auto; background:var(--navy-2); padding:30px;
+  border-radius:16px; border:1px solid var(--border);
+}
+
+.toast-wrap{position:fixed; top:70px; right:16px; z-index:200;}
+.toast{background:var(--pink); color:white; padding:10px 16px; border-radius:8px; margin-bottom:6px; font-size:13px; animation:ts .3s;}
+@keyframes ts{from{transform:translateX(100%);}}
+
+.modal-backdrop{position:fixed; inset:0; background:rgba(0,0,0,.75); display:none; align-items:center; justify-content:center; z-index:100; padding:20px;}
+.modal-backdrop.open{display:flex;}
+.modal{background:var(--navy-2); border:1px solid var(--pink); border-radius:16px; padding:24px; max-width:600px; width:100%; max-height:90vh; overflow:auto;}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="./index.html" class="brand">シ🌹ロセ · Teacher</a>
+  <div class="topbar-right">
+    <span id="guru-nama" style="font-size:12px; color:var(--gray); margin-right:10px;"></span>
+    <button class="btn ghost" id="btn-logout" style="display:none;" onclick="guruLogout()">Keluar</button>
+  </div>
+</div>
+
+<div id="root"><div style="padding:40px; text-align:center; color:var(--gray);">Memuat…</div></div>
+
+<div class="toast-wrap" id="toasts"></div>
+<div class="modal-backdrop" id="modal"><div class="modal" id="modal-body"></div></div>
+
+<script src="https://cdn.jsdelivr.net/npm/xlsx@0.20.3/dist/xlsx.full.min.js"></script>
+<script type="module">
+import * as FB from "./js/firebase-sync.js";
+
+const state = {
+  user: null,
+  tab: "siswa",
+  siswaList: [],
+  kelasList: [],
+  kategoriList: [],
+  excelParsed: null,
+  level: "n5",
+};
+
+function toast(msg){
+  const t = document.createElement("div");
+  t.className = "toast";
+  t.textContent = msg;
+  document.getElementById("toasts").appendChild(t);
+  setTimeout(() => t.remove(), 3000);
+}
+window.toast = toast;
+
+function modal(html){
+  document.getElementById("modal-body").innerHTML = html;
+  document.getElementById("modal").classList.add("open");
+}
+window.closeModal = () => document.getElementById("modal").classList.remove("open");
+
+/* ========== AUTH GATE ========== */
+FB.onAuth(async (user, siswa) => {
+  if (!user) {
+    document.getElementById("root").innerHTML = renderLogin();
+    return;
+  }
+  if (!FB.userIsGuru()) {
+    document.getElementById("root").innerHTML = `
+      <div class="login-box">
+        <h2 style="color:var(--pink);">🚫 Akses Ditolak</h2>
+        <p style="color:var(--gray); font-size:13px; margin:12px 0;">
+          Akun ini bukan akun guru. Hubungi admin bila ini kesalahan.
+        </p>
+        <button class="btn" onclick="location.href='./index.html'">Kembali ke website</button>
+        <button class="btn ghost" onclick="guruLogout()" style="margin-left:8px;">Keluar</button>
+      </div>
+    `;
+    return;
+  }
+  state.user = user;
+  document.getElementById("guru-nama").textContent = `👋 ${user.email}`;
+  document.getElementById("btn-logout").style.display = "";
+  renderApp();
+});
+
+function renderLogin(){
+  return `
+    <div class="login-box">
+      <h2 style="color:var(--pink); margin-bottom:12px;">🔐 Login Guru</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:16px;">Hanya akun guru yang bisa masuk ke dashboard ini.</p>
+      <div class="form-row"><label>Email</label><input type="email" id="lg-email" style="flex:1;"/></div>
+      <div class="form-row"><label>Password</label><input type="password" id="lg-pwd" style="flex:1;"/></div>
+      <div id="lg-err" style="color:var(--red); font-size:12px; margin-bottom:10px;"></div>
+      <button class="btn" onclick="guruLoginSubmit()">Masuk</button>
+      <button class="btn ghost" onclick="location.href='./index.html'" style="margin-left:8px;">Kembali</button>
+    </div>
+  `;
+}
+window.guruLoginSubmit = async () => {
+  const email = document.getElementById("lg-email").value.trim();
+  const pwd = document.getElementById("lg-pwd").value;
+  try {
+    await FB.login(email, pwd);
+  } catch(e){
+    document.getElementById("lg-err").textContent = e.message;
+  }
+};
+window.guruLogout = async () => {
+  await FB.keluar();
+  location.reload();
+};
+
+/* ========== MAIN APP ========== */
+function renderApp(){
+  document.getElementById("root").innerHTML = `
+    <div class="layout">
+      <div class="sidebar">
+        <div class="nav-item ${state.tab==='siswa'?'active':''}" onclick="setTab('siswa')"><span class="ico">👥</span> Siswa</div>
+        <div class="nav-item ${state.tab==='kategori'?'active':''}" onclick="setTab('kategori')"><span class="ico">📂</span> Kategori Ujian</div>
+        <div class="nav-item ${state.tab==='soal'?'active':''}" onclick="setTab('soal')"><span class="ico">📝</span> Bank Soal</div>
+        <div class="nav-item ${state.tab==='import'?'active':''}" onclick="setTab('import')"><span class="ico">📊</span> Import Excel</div>
+        <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
+        <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
+        <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
+      </div>
+      <div class="main" id="main"></div>
+    </div>
+  `;
+  renderTab();
+}
+window.setTab = (t) => { state.tab = t; renderApp(); };
+
+async function renderTab(){
+  const mount = document.getElementById("main");
+  mount.innerHTML = '<div style="color:var(--gray);">Memuat…</div>';
+  try {
+    if (state.tab === "siswa") mount.innerHTML = await renderSiswaTab();
+    else if (state.tab === "kategori") mount.innerHTML = await renderKategoriTab();
+    else if (state.tab === "soal") mount.innerHTML = await renderSoalTab();
+    else if (state.tab === "import") mount.innerHTML = await renderImportTab();
+    else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
+    else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
+    else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
+  } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
+}
+
+/* ========== TAB: SISWA ========== */
+async function renderSiswaTab(){
+  state.siswaList = await FB.listSiswa();
+  return `
+    <div class="panel">
+      <h2>👥 Siswa</h2>
+      <p style="color:var(--gray); font-size:12px; margin-bottom:10px;">Toggle akses JLPT per murid. Server-side rules enforce (bukan cuma frontend).</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Nama</th><th>Email</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+          <tbody>
+            ${state.siswaList.map(s => `
+              <tr>
+                <td><b>${s.nama || "(nama belum diisi)"}</b></td>
+                <td>${s.email}</td>
+                <td><input type="text" placeholder="Kelas" value="${s.kelas||""}" onchange="updateKelas('${s.uid}', this.value)" style="width:100px;"/></td>
+                <td>${["n5","n4","n3","n2","n1"].map(l => {
+                  const on = s.aksesLevel?.[l];
+                  return `<span class="chip btn-chip ${on?'on':''}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`;
+                }).join("")}</td>
+                <td>
+                  <button class="btn sm ghost" onclick="lihatGami('${s.uid}', '${(s.nama||s.email).replace(/'/g,'')}')">Progres</button>
+                </td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+window.toggleAkses = async (uid, lvl) => {
+  const s = state.siswaList.find(x => x.uid === uid);
+  s.aksesLevel = s.aksesLevel || { n5:true, n4:false, n3:false, n2:false, n1:false };
+  s.aksesLevel[lvl] = !s.aksesLevel[lvl];
+  await FB.updateAksesSiswa(uid, s.aksesLevel);
+  toast("Akses diupdate");
+  renderTab();
+};
+window.updateKelas = async (uid, kls) => {
+  await FB.updateKelasSiswa(uid, kls);
+  toast("Kelas disimpan");
+};
+window.lihatGami = async (uid, nama) => {
+  const g = await FB.getSiswaGami(uid);
+  modal(`
+    <h2 style="color:var(--pink);">Progres: ${nama}</h2>
+    <table style="width:100%; margin-top:10px;">
+      <thead><tr><th>Level</th><th>XP</th><th>Koin</th><th>Lv Karakter</th><th>Streak</th></tr></thead>
+      <tbody>
+        ${["n5","n4","n3","n2","n1"].map(l => {
+          const d = g[l] || {};
+          return `<tr><td>${l.toUpperCase()}</td><td>${d.xp||0}</td><td>${d.koin||0}</td><td>${d.level_karakter||1}</td><td>${d.streak||0}</td></tr>`;
+        }).join("")}
+      </tbody>
+    </table>
+    <button class="btn ghost" style="margin-top:12px;" onclick="closeModal()">Tutup</button>
+  `);
+};
+
+/* ========== TAB: KATEGORI ========== */
+async function renderKategoriTab(){
+  state.kategoriList = await FB.listKategori();
+  return `
+    <div class="panel">
+      <h2>📂 Kategori Ujian</h2>
+      <p style="color:var(--gray); font-size:12px; margin-bottom:10px;">Guru bisa buat kategori baru tanpa edit code. Setelah publish, kategori muncul di dashboard siswa.</p>
+      <button class="btn" onclick="newKategori()">+ Kategori Baru</button>
+      <div class="table-wrap" style="margin-top:12px;">
+        <table>
+          <thead><tr><th>Nama</th><th>Level</th><th>Jumlah Soal</th><th>Durasi</th><th>Status</th><th>Aksi</th></tr></thead>
+          <tbody>
+            ${state.kategoriList.map(k => `
+              <tr>
+                <td><b>${k.nama}</b></td>
+                <td>${(k.level||"").toUpperCase()}</td>
+                <td>${k.jumlahSoal||0}</td>
+                <td>${k.durasi||0} menit</td>
+                <td>${k.publish ? '<span class="chip on">Publish</span>' : '<span class="chip off">Draft</span>'}</td>
+                <td>
+                  <button class="btn sm ghost" onclick="editKategori('${k.id}')">Edit</button>
+                  <button class="btn sm ${k.publish?'ghost':'gold'}" onclick="togglePublish('${k.id}', ${!k.publish})">${k.publish?"Unpublish":"Publish"}</button>
+                  <button class="btn sm danger" onclick="hapusKategori('${k.id}')">Hapus</button>
+                </td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+window.newKategori = () => editKategori(null);
+window.editKategori = (id) => {
+  const k = id ? state.kategoriList.find(x => x.id === id) : { nama:"", level:"n5", deskripsi:"", jumlahSoal:20, durasi:30, lulus:60, publish:false, reward_xp:50, reward_koin:20 };
+  modal(`
+    <h2 style="color:var(--pink);">${id?"Edit":"Kategori Baru"}</h2>
+    <div class="form-row"><label>Nama Ujian</label><input id="kg-nama" value="${k.nama||""}" style="flex:1;"/></div>
+    <div class="form-row"><label>Level</label><select id="kg-level">
+      ${["n5","n4","n3","n2","n1"].map(l => `<option value="${l}" ${k.level===l?"selected":""}>${l.toUpperCase()}</option>`).join("")}
+    </select></div>
+    <div class="form-row"><label>Deskripsi</label><textarea id="kg-desc" rows="2" style="flex:1;">${k.deskripsi||""}</textarea></div>
+    <div class="form-row"><label>Jumlah Soal</label><input type="number" id="kg-js" value="${k.jumlahSoal||20}"/></div>
+    <div class="form-row"><label>Durasi (menit)</label><input type="number" id="kg-dur" value="${k.durasi||30}"/></div>
+    <div class="form-row"><label>Nilai Lulus</label><input type="number" id="kg-lulus" value="${k.lulus||60}"/></div>
+    <div class="form-row"><label>Reward XP</label><input type="number" id="kg-rxp" value="${k.reward_xp||50}"/></div>
+    <div class="form-row"><label>Reward Koin</label><input type="number" id="kg-rkoin" value="${k.reward_koin||20}"/></div>
+    <div class="form-row"><label>Status</label>
+      <label style="font-size:13px;"><input type="checkbox" id="kg-pub" ${k.publish?"checked":""}/> Publish ke siswa</label>
+    </div>
+    <div style="display:flex; gap:8px; margin-top:16px;">
+      <button class="btn" onclick="simpanKategori('${id||""}')">Simpan</button>
+      <button class="btn ghost" onclick="closeModal()">Batal</button>
+    </div>
+  `);
+};
+window.simpanKategori = async (id) => {
+  const data = {
+    nama: document.getElementById("kg-nama").value.trim(),
+    level: document.getElementById("kg-level").value,
+    deskripsi: document.getElementById("kg-desc").value,
+    jumlahSoal: parseInt(document.getElementById("kg-js").value) || 20,
+    durasi: parseInt(document.getElementById("kg-dur").value) || 30,
+    lulus: parseInt(document.getElementById("kg-lulus").value) || 60,
+    reward_xp: parseInt(document.getElementById("kg-rxp").value) || 50,
+    reward_koin: parseInt(document.getElementById("kg-rkoin").value) || 20,
+    publish: document.getElementById("kg-pub").checked,
+  };
+  if (!data.nama) return toast("Isi nama dulu");
+  await FB.simpanKategori(data, id || null);
+  toast("✓ Disimpan");
+  closeModal();
+  renderTab();
+};
+window.togglePublish = async (id, newVal) => {
+  await FB.simpanKategori({ publish: newVal }, id);
+  toast(newVal?"Published":"Unpublished");
+  renderTab();
+};
+window.hapusKategori = async (id) => {
+  if (!confirm("Hapus kategori ini? Soal di dalamnya TIDAK ikut terhapus.")) return;
+  await FB.hapusKategori(id);
+  toast("Dihapus");
+  renderTab();
+};
+
+/* ========== TAB: SOAL ========== */
+async function renderSoalTab(){
+  state.kategoriList = await FB.listKategori();
+  const currentKat = state.currentKategoriId || (state.kategoriList[0]?.id);
+  state.currentKategoriId = currentKat;
+  const kat = state.kategoriList.find(k => k.id === currentKat);
+  const soal = currentKat ? await FB.listSoal(currentKat) : [];
+
+  return `
+    <div class="panel">
+      <h2>📝 Bank Soal</h2>
+      <div class="form-row">
+        <label>Kategori</label>
+        <select onchange="state.currentKategoriId = this.value; renderTab()" style="flex:1; max-width:400px;">
+          ${state.kategoriList.map(k => `<option value="${k.id}" ${k.id===currentKat?"selected":""}>${(k.level||"").toUpperCase()} · ${k.nama}</option>`).join("")}
+        </select>
+      </div>
+      <p style="color:var(--gray); font-size:12px;">${kat?`${kat.nama} · ${kat.level?.toUpperCase()} · ${soal.length} soal`:"Pilih kategori di atas"}</p>
+      <div style="margin:10px 0; display:flex; gap:8px;">
+        <button class="btn" onclick="tambahSoalManual('${currentKat}')">+ Tambah Soal Manual</button>
+        <button class="btn ghost" onclick="setTab('import')">📊 Import dari Excel</button>
+        <button class="btn ghost" onclick="exportSoal('${currentKat}')">📤 Export CSV</button>
+      </div>
+      ${soal.length ? `
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>#</th><th>Pertanyaan</th><th>Kunci</th><th>Kesulitan</th><th>Aksi</th></tr></thead>
+            <tbody>
+              ${soal.map((s, i) => `
+                <tr>
+                  <td>${i+1}</td>
+                  <td style="max-width:400px; white-space:normal;"><div style="font-family:var(--font-jp);">${(s.pertanyaan||"").slice(0,120)}</div></td>
+                  <td>${typeof s.kunci==="number"?String.fromCharCode(65+s.kunci):s.kunci}</td>
+                  <td>${s.kesulitan||"-"}</td>
+                  <td>
+                    <button class="btn sm ghost" onclick="editSoal('${currentKat}','${s.id}')">Edit</button>
+                    <button class="btn sm danger" onclick="hapusSoalRow('${currentKat}','${s.id}')">Hapus</button>
+                  </td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      ` : '<div style="color:var(--gray); text-align:center; padding:30px;">Belum ada soal. Tambah manual atau import Excel.</div>'}
+    </div>
+  `;
+}
+window.tambahSoalManual = (katId) => openSoalForm(katId, null);
+window.editSoal = async (katId, soalId) => {
+  const list = await FB.listSoal(katId);
+  const s = list.find(x => x.id === soalId);
+  openSoalForm(katId, s);
+};
+function openSoalForm(katId, s){
+  s = s || { pertanyaan:"", opsi:["","","",""], kunci:0, pembahasan_id:"", pembahasan_jp:"", materi:"", kesulitan:"Medium", poin:1 };
+  modal(`
+    <h2 style="color:var(--pink);">${s.id?"Edit Soal":"Tambah Soal"}</h2>
+    <div class="form-row"><label>Pertanyaan</label><textarea id="s-p" rows="3" style="flex:1;">${s.pertanyaan||""}</textarea></div>
+    ${[0,1,2,3].map(i => `
+      <div class="form-row"><label>Opsi ${String.fromCharCode(65+i)}</label><input id="s-o${i}" value="${s.opsi?.[i]||""}" style="flex:1;"/></div>
+    `).join("")}
+    <div class="form-row"><label>Kunci Jawaban</label><select id="s-k">${["A","B","C","D"].map((x,i)=>`<option value="${i}" ${i===(typeof s.kunci==="number"?s.kunci:"ABCD".indexOf(s.kunci||"A"))?"selected":""}>${x}</option>`).join("")}</select></div>
+    <div class="form-row"><label>Pembahasan ID</label><textarea id="s-pid" rows="2" style="flex:1;">${s.pembahasan_id||""}</textarea></div>
+    <div class="form-row"><label>Pembahasan JP</label><textarea id="s-pjp" rows="2" style="flex:1;">${s.pembahasan_jp||""}</textarea></div>
+    <div class="form-row"><label>Materi</label><input id="s-m" value="${s.materi||""}"/></div>
+    <div class="form-row"><label>Kesulitan</label><select id="s-kes">${["Easy","Medium","Hard"].map(x=>`<option ${x===s.kesulitan?"selected":""}>${x}</option>`).join("")}</select></div>
+    <div class="form-row"><label>Poin</label><input type="number" id="s-poin" value="${s.poin||1}"/></div>
+    <div style="display:flex; gap:8px; margin-top:16px;">
+      <button class="btn" onclick="simpanSoalForm('${katId}','${s.id||""}')">Simpan</button>
+      <button class="btn ghost" onclick="closeModal()">Batal</button>
+    </div>
+  `);
+}
+window.simpanSoalForm = async (katId, id) => {
+  const data = {
+    tipe: "pilihan_ganda",
+    pertanyaan: document.getElementById("s-p").value,
+    opsi: [0,1,2,3].map(i => document.getElementById(`s-o${i}`).value),
+    kunci: parseInt(document.getElementById("s-k").value),
+    pembahasan_id: document.getElementById("s-pid").value,
+    pembahasan_jp: document.getElementById("s-pjp").value,
+    materi: document.getElementById("s-m").value,
+    kesulitan: document.getElementById("s-kes").value,
+    poin: parseInt(document.getElementById("s-poin").value) || 1,
+  };
+  if (id) await FB.editSoal(katId, id, data);
+  else await FB.tambahSoalBatch(katId, [data]);
+  toast("✓ Disimpan");
+  closeModal();
+  renderTab();
+};
+window.hapusSoalRow = async (katId, soalId) => {
+  if (!confirm("Hapus soal ini?")) return;
+  await FB.hapusSoal(katId, soalId);
+  toast("Dihapus");
+  renderTab();
+};
+window.exportSoal = async (katId) => {
+  const list = await FB.listSoal(katId);
+  const ws = XLSX.utils.json_to_sheet(list.map((s,i) => ({
+    No: i+1,
+    Tipe_Soal: s.tipe || "pilihan_ganda",
+    Pertanyaan: s.pertanyaan,
+    Option_A: s.opsi?.[0] || "",
+    Option_B: s.opsi?.[1] || "",
+    Option_C: s.opsi?.[2] || "",
+    Option_D: s.opsi?.[3] || "",
+    Kunci_Jawaban: String.fromCharCode(65 + (typeof s.kunci==="number"?s.kunci:"ABCD".indexOf(s.kunci||"A"))),
+    Pembahasan_Indonesia: s.pembahasan_id || "",
+    Pembahasan_Jepang: s.pembahasan_jp || "",
+    Materi: s.materi || "",
+    Tingkat_Kesulitan: s.kesulitan || "Medium",
+    Poin: s.poin || 1,
+    Gambar: s.gambar || "",
+  })));
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Soal");
+  XLSX.writeFile(wb, `soal-${katId}-${Date.now()}.xlsx`);
+  toast("✓ Diexport");
+};
+
+/* ========== TAB: IMPORT EXCEL ========== */
+async function renderImportTab(){
+  state.kategoriList = await FB.listKategori();
+  return `
+    <div class="panel">
+      <h2>📊 Import Soal dari Excel</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Parsing 100% di browser pakai SheetJS — tidak butuh AI/cloud.</p>
+      <h3>1. Pilih Kategori Tujuan</h3>
+      <div class="form-row">
+        <label>Kategori</label>
+        <select id="imp-kat" style="flex:1; max-width:400px;">
+          ${state.kategoriList.map(k => `<option value="${k.id}">${(k.level||"").toUpperCase()} · ${k.nama}</option>`).join("")}
+        </select>
+      </div>
+      <h3>2. Download Template (opsional)</h3>
+      <button class="btn ghost" onclick="downloadTemplate()">📥 Download Template Excel</button>
+      <h3>3. Upload File Excel</h3>
+      <div class="dropzone" id="dz" onclick="document.getElementById('fin').click()">
+        <input type="file" id="fin" accept=".xlsx,.xlsm,.xls,.csv" style="display:none;" onchange="handleFile(event.target.files[0])"/>
+        <div style="font-size:48px;">📤</div>
+        <div style="margin-top:10px;">Klik atau drag file Excel di sini</div>
+        <div style="font-size:11px; color:var(--gray); margin-top:4px;">Format: .xlsx atau .xls</div>
+      </div>
+      <div id="imp-preview"></div>
+    </div>
+  `;
+}
+window.downloadTemplate = () => {
+  const data = [
+    { No:1, Tipe_Soal:"pilihan_ganda", Pertanyaan:"この こうえんには とりが（多い）です。", Option_A:"おい", Option_B:"おおきい", Option_C:"おいい", Option_D:"おおい", Kunci_Jawaban:"D", Pembahasan_Indonesia:"多い（おおい） berarti banyak.", Pembahasan_Jepang:"「多い」は「たくさん」の意味。", Materi:"問題1 Kanji→Kana", Tingkat_Kesulitan:"Easy", Poin:1, Gambar:"" },
+    { No:2, Tipe_Soal:"pilihan_ganda", Pertanyaan:"あなたは何時に（    ）か？", Option_A:"寝ます", Option_B:"寝った", Option_C:"寝る", Option_D:"寝て", Kunci_Jawaban:"A", Pembahasan_Indonesia:"Pertanyaan masa kini formal pakai ます-form.", Pembahasan_Jepang:"丁寧な現在形。", Materi:"Bunpou dasar", Tingkat_Kesulitan:"Easy", Poin:1, Gambar:"" },
+  ];
+  const ws = XLSX.utils.json_to_sheet(data);
+  // Add instruction sheet
+  const inst = XLSX.utils.aoa_to_sheet([
+    ["Petunjuk Pengisian"],
+    [""],
+    ["Kolom yang WAJIB diisi:"],
+    ["- No, Pertanyaan, Option A, Option B, Option C, Option D, Kunci Jawaban (A/B/C/D), Pembahasan Indonesia"],
+    [""],
+    ["Kolom OPSIONAL:"],
+    ["- Tipe_Soal (default: pilihan_ganda), Pembahasan_Jepang, Materi, Tingkat_Kesulitan (Easy/Medium/Hard), Poin (default: 1), Gambar"],
+    [""],
+    ["Catatan:"],
+    ["- Boleh pakai kanji, hiragana, katakana, furigana — simpan dalam format UTF-8"],
+    ["- Setiap soal di baris sendiri, tanpa baris kosong di tengah"],
+    ["- Kunci jawaban harus A, B, C, atau D (huruf besar)"],
+  ]);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Soal");
+  XLSX.utils.book_append_sheet(wb, inst, "Petunjuk");
+  XLSX.writeFile(wb, "template-soal-shirose.xlsx");
+};
+window.handleFile = async (file) => {
+  if (!file) return;
+  try {
+    const buf = await file.arrayBuffer();
+    const wb = XLSX.read(buf, { type:"array" });
+    // Use first sheet or sheet named "Soal"
+    const sheetName = wb.SheetNames.includes("Soal") ? "Soal" : wb.SheetNames[0];
+    const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheetName]);
+    validateAndPreview(rows);
+  } catch(e){
+    document.getElementById("imp-preview").innerHTML = `<div class="alert alert-err">Gagal baca file: ${e.message}</div>`;
+  }
+};
+function validateAndPreview(rows){
+  const errors = [];
+  const valid = [];
+  rows.forEach((r, i) => {
+    const lineNo = i + 2; // Excel row (header=1)
+    const p = r.Pertanyaan || r.pertanyaan || r["Pertanyaan / Teks Soal"] || r["Pertanyaan/Teks Soal"];
+    const a = r["Option A"] || r.Option_A || r.A || r.a;
+    const b = r["Option B"] || r.Option_B || r.B || r.b;
+    const c = r["Option C"] || r.Option_C || r.C || r.c;
+    const d = r["Option D"] || r.Option_D || r.D || r.d;
+    const k = (r["Kunci Jawaban"] || r.Kunci_Jawaban || r.Kunci || r.kunci || "").toString().toUpperCase().trim();
+    if (!p) { errors.push(`Baris ${lineNo}: Pertanyaan kosong`); return; }
+    if (!a||!b||!c||!d) { errors.push(`Baris ${lineNo}: Ada opsi kosong`); return; }
+    if (!["A","B","C","D"].includes(k)) { errors.push(`Baris ${lineNo}: Kunci "${k}" tidak valid (harus A/B/C/D)`); return; }
+    valid.push({
+      tipe: r["Tipe Soal"] || r.Tipe_Soal || "pilihan_ganda",
+      pertanyaan: String(p),
+      opsi: [String(a), String(b), String(c), String(d)],
+      kunci: "ABCD".indexOf(k),
+      pembahasan_id: r["Pembahasan Indonesia"] || r.Pembahasan_Indonesia || "",
+      pembahasan_jp: r["Pembahasan Jepang"] || r.Pembahasan_Jepang || "",
+      materi: r.Materi || r.Bagian || "",
+      kesulitan: r["Tingkat Kesulitan"] || r.Tingkat_Kesulitan || "Medium",
+      poin: parseInt(r.Poin) || 1,
+      gambar: r.Gambar || "",
+    });
+  });
+  state.excelParsed = valid;
+  document.getElementById("imp-preview").innerHTML = `
+    <h3>Preview (${valid.length} soal valid)</h3>
+    ${errors.length ? `<div class="alert alert-err"><b>⚠️ ${errors.length} error:</b><br>${errors.slice(0,20).join("<br>")}${errors.length>20?"<br>…":""}</div>` : '<div class="alert alert-ok">✓ Semua soal valid</div>'}
+    ${valid.length ? `
+      <div class="table-wrap" style="max-height:400px; overflow:auto;">
+        <table>
+          <thead><tr><th>#</th><th>Pertanyaan</th><th>A</th><th>B</th><th>C</th><th>D</th><th>Kunci</th><th>Materi</th></tr></thead>
+          <tbody>
+            ${valid.slice(0,100).map((s,i) => `
+              <tr>
+                <td>${i+1}</td>
+                <td style="max-width:300px; white-space:normal; font-family:var(--font-jp);">${s.pertanyaan.slice(0,80)}</td>
+                <td>${s.opsi[0].slice(0,15)}</td>
+                <td>${s.opsi[1].slice(0,15)}</td>
+                <td>${s.opsi[2].slice(0,15)}</td>
+                <td>${s.opsi[3].slice(0,15)}</td>
+                <td><b>${String.fromCharCode(65+s.kunci)}</b></td>
+                <td>${s.materi.slice(0,20)}</td>
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      </div>
+      <div style="margin-top:12px;">
+        <button class="btn gold" onclick="konfirmasiImport()">✓ Konfirmasi & Import ${valid.length} Soal</button>
+        <button class="btn ghost" onclick="state.excelParsed=null; renderTab()">Batal</button>
+      </div>
+    ` : ''}
+  `;
+}
+window.konfirmasiImport = async () => {
+  const katId = document.getElementById("imp-kat").value;
+  if (!katId) return toast("Pilih kategori dulu");
+  const soal = state.excelParsed;
+  if (!soal?.length) return toast("Tidak ada soal valid");
+  if (!confirm(`Import ${soal.length} soal ke kategori ini?`)) return;
+  const total = await FB.tambahSoalBatch(katId, soal);
+  toast(`✅ ${total} soal diimport`);
+  state.excelParsed = null;
+  setTab("soal");
+};
+
+/* ========== TAB: KELAS ========== */
+async function renderKelasTab(){
+  state.kelasList = await FB.listKelas();
+  return `
+    <div class="panel">
+      <h2>🎓 Kelas</h2>
+      <p style="color:var(--gray); font-size:12px;">Buat kelas lalu assign murid di tab Siswa (field Kelas).</p>
+      <button class="btn" onclick="newKelas()">+ Kelas Baru</button>
+      <div style="margin-top:12px;">
+        ${state.kelasList.map(k => `
+          <div class="panel" style="margin-bottom:8px;">
+            <h3 style="color:var(--pink-light);">${k.nama}</h3>
+            <p style="color:var(--gray); font-size:12px;">${k.deskripsi||"(tanpa deskripsi)"}</p>
+            <button class="btn sm ghost" onclick="editKelas('${k.id}')">Edit</button>
+          </div>
+        `).join("") || '<div style="color:var(--gray); padding:20px;">Belum ada kelas. Klik + Kelas Baru.</div>'}
+      </div>
+    </div>
+  `;
+}
+window.newKelas = () => editKelas(null);
+window.editKelas = (id) => {
+  const k = id ? state.kelasList.find(x => x.id === id) : { nama:"", deskripsi:"" };
+  modal(`
+    <h2>${id?"Edit Kelas":"Kelas Baru"}</h2>
+    <div class="form-row"><label>Nama Kelas</label><input id="kl-nama" value="${k.nama||""}" style="flex:1;"/></div>
+    <div class="form-row"><label>Deskripsi</label><textarea id="kl-desc" rows="3" style="flex:1;">${k.deskripsi||""}</textarea></div>
+    <div style="display:flex; gap:8px; margin-top:16px;">
+      <button class="btn" onclick="simpanKelas('${id||""}')">Simpan</button>
+      <button class="btn ghost" onclick="closeModal()">Batal</button>
+    </div>
+  `);
+};
+window.simpanKelas = async (id) => {
+  const data = {
+    nama: document.getElementById("kl-nama").value.trim(),
+    deskripsi: document.getElementById("kl-desc").value,
+  };
+  if (!data.nama) return toast("Isi nama");
+  await FB.simpanKelas(data, id || null);
+  toast("✓ Disimpan");
+  closeModal();
+  renderTab();
+};
+
+/* ========== TAB: CHOUKAI ========== */
+async function renderChoukaiTab(){
+  const lvl = state.level;
+  const items = await FB.listChoukai(lvl);
+  return `
+    <div class="panel">
+      <h2>🎧 Choukai (Listening)</h2>
+      <div class="form-row">
+        <label>Level</label>
+        <select onchange="state.level = this.value; renderTab()">${["n5","n4","n3","n2","n1"].map(l => `<option value="${l}" ${l===lvl?"selected":""}>${l.toUpperCase()}</option>`).join("")}</select>
+      </div>
+      <p style="color:var(--gray); font-size:12px;">Audio: TTS browser (bahasa Jepang) sebagai default. Guru bisa upload MP3 pengganti.</p>
+      <p style="font-size:12px;">⚠️ <b>Catatan:</b> TTS kualitas dan suara berbeda antar OS/browser. Pengguna iOS dapat "Kyoko", Android pakai Google TTS JP.</p>
+      <button class="btn ghost" onclick="tambahChoukai()">+ Tambah Soal Choukai</button>
+      <div style="margin-top:12px;">
+        ${items.length ? `
+          <table>
+            <thead><tr><th>#</th><th>Transkrip (teks audio)</th><th>Pertanyaan</th><th>Kunci</th></tr></thead>
+            <tbody>
+              ${items.map((s,i) => `<tr><td>${i+1}</td><td style="font-family:var(--font-jp); max-width:300px; white-space:normal;">${(s.transkrip||"").slice(0,100)}</td><td>${(s.pertanyaan||"").slice(0,80)}</td><td>${String.fromCharCode(65+(s.kunci||0))}</td></tr>`).join("")}
+            </tbody>
+          </table>
+        ` : '<div style="color:var(--gray); padding:20px;">Belum ada soal Choukai. Starter bank Shirose Nihongo tersedia — klik +Tambah atau impor dari choukai-starter.json.</div>'}
+      </div>
+      <div style="margin-top:12px;">
+        <button class="btn gold" onclick="importStarterChoukai()">📥 Import Starter 10 soal ${lvl.toUpperCase()}</button>
+      </div>
+    </div>
+  `;
+}
+window.tambahChoukai = () => {
+  modal(`
+    <h2>+ Soal Choukai</h2>
+    <div class="form-row"><label>Transkrip (teks audio)</label><textarea id="ch-ts" rows="3" style="flex:1;"></textarea></div>
+    <div class="form-row"><label>Pertanyaan</label><textarea id="ch-p" rows="2" style="flex:1;"></textarea></div>
+    ${[0,1,2,3].map(i => `<div class="form-row"><label>Opsi ${String.fromCharCode(65+i)}</label><input id="ch-o${i}" style="flex:1;"/></div>`).join("")}
+    <div class="form-row"><label>Kunci</label><select id="ch-k">${["A","B","C","D"].map((x,i)=>`<option value="${i}">${x}</option>`).join("")}</select></div>
+    <div class="form-row"><label>Pembahasan</label><textarea id="ch-pb" rows="2" style="flex:1;"></textarea></div>
+    <div style="display:flex; gap:8px; margin-top:16px;">
+      <button class="btn" onclick="simpanChoukai()">Simpan</button>
+      <button class="btn ghost" onclick="closeModal()">Batal</button>
+    </div>
+  `);
+};
+window.simpanChoukai = async () => {
+  const data = {
+    transkrip: document.getElementById("ch-ts").value,
+    tts_text: document.getElementById("ch-ts").value,
+    pertanyaan: document.getElementById("ch-p").value,
+    opsi: [0,1,2,3].map(i => document.getElementById(`ch-o${i}`).value),
+    kunci: parseInt(document.getElementById("ch-k").value),
+    pembahasan: document.getElementById("ch-pb").value,
+  };
+  if (!data.transkrip || !data.pertanyaan) return toast("Isi transkrip dan pertanyaan");
+  await FB.tambahChoukaiBatch(state.level, [data]);
+  toast("✓ Disimpan");
+  closeModal();
+  renderTab();
+};
+window.importStarterChoukai = async () => {
+  if (!confirm(`Import 10 soal Choukai starter untuk ${state.level.toUpperCase()}?`)) return;
+  const r = await fetch(`./choukai/${state.level}.json`);
+  const data = await r.json();
+  const total = await FB.tambahChoukaiBatch(state.level, data);
+  toast(`✅ ${total} soal diimport`);
+  renderTab();
+};
+
+/* ========== TAB: LAPORAN ========== */
+async function renderLaporanTab(){
+  const siswa = await FB.listSiswa();
+  // Fetch gami per siswa
+  const rows = [];
+  for (const s of siswa) {
+    const g = await FB.getSiswaGami(s.uid).catch(() => ({}));
+    const totals = Object.values(g).filter(Boolean).reduce((acc, x) => ({
+      xp: acc.xp + (x.xp||0), koin: acc.koin + (x.koin||0),
+      maxStreak: Math.max(acc.maxStreak, x.streak||0),
+      maxLvl: Math.max(acc.maxLvl, x.level_karakter||1),
+    }), { xp:0, koin:0, maxStreak:0, maxLvl:1 });
+    rows.push({ ...s, totals });
+  }
+  // Sort by XP desc
+  rows.sort((a,b) => b.totals.xp - a.totals.xp);
+  return `
+    <div class="panel">
+      <h2>📈 Laporan Kelas</h2>
+      <button class="btn ghost" onclick="exportLaporan()">📤 Export CSV</button>
+      <div class="table-wrap" style="margin-top:10px;">
+        <table>
+          <thead><tr><th>#</th><th>Nama</th><th>Email</th><th>Kelas</th><th>XP Total</th><th>Koin</th><th>Lv Tertinggi</th><th>Streak</th></tr></thead>
+          <tbody>
+            ${rows.map((r,i) => `<tr><td>${i+1}</td><td>${r.nama||"-"}</td><td>${r.email}</td><td>${r.kelas||"-"}</td><td>${r.totals.xp}</td><td>${r.totals.koin}</td><td>${r.totals.maxLvl}</td><td>${r.totals.maxStreak}</td></tr>`).join("")}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  `;
+}
+window.exportLaporan = async () => {
+  const siswa = await FB.listSiswa();
+  const rows = [];
+  for (const s of siswa) {
+    const g = await FB.getSiswaGami(s.uid).catch(()=>({}));
+    const row = { Nama:s.nama||"", Email:s.email, Kelas:s.kelas||"" };
+    for (const lvl of ["n5","n4","n3","n2","n1"]) {
+      row[`${lvl.toUpperCase()}_XP`] = g[lvl]?.xp || 0;
+      row[`${lvl.toUpperCase()}_Koin`] = g[lvl]?.koin || 0;
+      row[`${lvl.toUpperCase()}_Lv`] = g[lvl]?.level_karakter || 1;
+      row[`${lvl.toUpperCase()}_Streak`] = g[lvl]?.streak || 0;
+      row[`${lvl.toUpperCase()}_Akses`] = s.aksesLevel?.[lvl] ? "Ya" : "Tidak";
+    }
+    rows.push(row);
+  }
+  const ws = XLSX.utils.json_to_sheet(rows);
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Laporan Siswa");
+  XLSX.writeFile(wb, `laporan-shirose-${Date.now()}.xlsx`);
+  toast("✓ Diexport");
+};
+</script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+[
+  {
+    "transkrip": "来週　家族と　温泉に　行くつもりです。",
+    "tts_text": "らいしゅう かぞくと おんせんに いくつもりです。",
+    "pertanyaan": "Rencana minggu depan pembicara adalah?",
+    "opsi": ["Pergi ke gunung", "Pergi ke onsen bersama keluarga", "Pergi sendiri ke onsen", "Menerima tamu"],
+    "kunci": 1,
+    "pembahasan": "かぞくと (dengan keluarga) + おんせん (onsen) + つもり (rencana).",
+    "kategori": "plan"
+  },
+  {
+    "transkrip": "あのう、この　電車は　東京駅に　止まりますか。はい、止まります。",
+    "tts_text": "あのう、この でんしゃは とうきょうえきに とまりますか。はい、とまります。",
+    "pertanyaan": "Apa yang ditanya penumpang?",
+    "opsi": ["Apakah kereta ini berhenti di Stasiun Tokyo", "Apakah kereta ini cepat", "Apakah ada tempat duduk", "Berapa harga tiket"],
+    "kunci": 0,
+    "pembahasan": "とうきょうえきにとまりますか = berhenti di Stasiun Tokyo?",
+    "kategori": "transport"
+  },
+  {
+    "transkrip": "日本語を　習いはじめて　もう　二年に　なります。",
+    "tts_text": "にほんごを ならいはじめて もう にねんに なります。",
+    "pertanyaan": "Sudah berapa lama pembicara belajar bahasa Jepang?",
+    "opsi": ["Satu tahun", "Dua tahun", "Tiga tahun", "Baru mulai"],
+    "kunci": 1,
+    "pembahasan": "にねんになります = sudah menjadi 2 tahun.",
+    "kategori": "duration"
+  },
+  {
+    "transkrip": "宿題を　忘れて　しまいました。すみません。",
+    "tts_text": "しゅくだいを わすれて しまいました。すみません。",
+    "pertanyaan": "Apa yang terjadi?",
+    "opsi": ["Terlambat", "Lupa membawa PR", "Sakit", "Lupa membawa buku"],
+    "kunci": 1,
+    "pembahasan": "しゅくだいをわすれる = lupa PR. 〜てしまう nuance penyesalan.",
+    "kategori": "regret"
+  },
+  {
+    "transkrip": "雨が　ふっているので、傘を　持って行った　ほうが　いいですよ。",
+    "tts_text": "あめが ふっているので、かさを もっていった ほうが いいですよ。",
+    "pertanyaan": "Saran apa yang diberikan?",
+    "opsi": ["Bawa payung", "Jangan keluar", "Pakai jas hujan", "Naik mobil"],
+    "kunci": 0,
+    "pembahasan": "かさをもっていったほうがいい = sebaiknya membawa payung.",
+    "kategori": "advice"
+  },
+  {
+    "transkrip": "日本の　食べ物の　中で　一番　好きなのは　お寿司です。",
+    "tts_text": "にほんの たべものの なかで いちばん すきなのは おすしです。",
+    "pertanyaan": "Makanan Jepang favorit pembicara?",
+    "opsi": ["Ramen", "Sushi", "Tempura", "Takoyaki"],
+    "kunci": 1,
+    "pembahasan": "いちばんすきなのはおすし = yang paling disukai adalah sushi.",
+    "kategori": "food"
+  },
+  {
+    "transkrip": "映画は　七時に　始まるから、六時半までに　来てください。",
+    "tts_text": "えいがは しちじに はじまるから、ろくじはんまでに きてください。",
+    "pertanyaan": "Pembicara diminta datang paling lambat jam berapa?",
+    "opsi": ["06:00", "06:30", "07:00", "07:30"],
+    "kunci": 1,
+    "pembahasan": "ろくじはんまでに = paling lambat 06:30.",
+    "kategori": "appointment"
+  },
+  {
+    "transkrip": "この　シャツは　すこし　大きすぎます。もっと　小さいのは　ありませんか。",
+    "tts_text": "この シャツは すこし おおきすぎます。もっと ちいさいのは ありませんか。",
+    "pertanyaan": "Keluhan pembicara tentang kemeja?",
+    "opsi": ["Terlalu besar", "Terlalu kecil", "Warnanya tidak cocok", "Terlalu mahal"],
+    "kunci": 0,
+    "pembahasan": "おおきすぎます = kebesaran. もっとちいさいの = yang lebih kecil.",
+    "kategori": "shopping"
+  },
+  {
+    "transkrip": "田中さん、電話が　ありましたよ。鈴木さんからです。",
+    "tts_text": "たなかさん、でんわが ありましたよ。すずきさんからです。",
+    "pertanyaan": "Siapa yang menelepon?",
+    "opsi": ["Tanaka", "Suzuki", "Yamada", "Keluarga"],
+    "kunci": 1,
+    "pembahasan": "すずきさんから = dari Suzuki-san.",
+    "kategori": "message"
+  },
+  {
+    "transkrip": "来月　東京へ　出張に　行かなければ　なりません。",
+    "tts_text": "らいげつ とうきょうへ しゅっちょうに いかなければ なりません。",
+    "pertanyaan": "Apa yang harus dilakukan bulan depan?",
+    "opsi": ["Pindah ke Tokyo", "Dinas ke Tokyo", "Liburan ke Tokyo", "Belajar di Tokyo"],
+    "kunci": 1,
+    "pembahasan": "しゅっちょうにいく = perjalanan dinas. 〜なければならない = harus.",
+    "kategori": "work"
+  }
+]

@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.local
+.DS_Store
+*.log
+.netlify/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+backup/kanji-lama-vietnamese.json
+backup/vi-arti-unique.txt

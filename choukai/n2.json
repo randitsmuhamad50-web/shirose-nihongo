@@ -1,0 +1,92 @@
+[
+  {
+    "transkrip": "景気が　悪化するに　つれて、失業率も　上昇し続けている。",
+    "tts_text": "けいきが あっかするに つれて、しつぎょうりつも じょうしょうしつづけている。",
+    "pertanyaan": "Apa yang terjadi?",
+    "opsi": ["Ekonomi membaik, pengangguran turun", "Ekonomi memburuk, pengangguran naik", "Hanya ekonomi yang buruk", "Hanya pengangguran yang turun"],
+    "kunci": 1,
+    "pembahasan": "〜につれて = seiring dengan. あっかする = memburuk. じょうしょう = naik.",
+    "kategori": "economy"
+  },
+  {
+    "transkrip": "彼女は　一度も　諦めることなく、ずっと　努力を　続けてきた　からこそ、今の　成功が　ある。",
+    "tts_text": "かのじょは いちども あきらめることなく、ずっと どりょくを つづけてきた からこそ、いまの せいこうが ある。",
+    "pertanyaan": "Mengapa dia sukses sekarang?",
+    "opsi": ["Karena beruntung", "Karena tidak pernah menyerah dan terus berusaha", "Karena dibantu orang lain", "Karena lahir kaya"],
+    "kunci": 1,
+    "pembahasan": "〜からこそ = justru karena. あきらめることなく = tanpa menyerah.",
+    "kategori": "success"
+  },
+  {
+    "transkrip": "台風が　接近しているため、明日の　試合は　中止せざるを　得ない。",
+    "tts_text": "たいふうが せっきんしているため、あしたの しあいは ちゅうしせざるを えない。",
+    "pertanyaan": "Apa keputusan tentang pertandingan?",
+    "opsi": ["Tetap dilaksanakan", "Terpaksa dibatalkan", "Ditunda", "Dipindah lokasi"],
+    "kunci": 1,
+    "pembahasan": "〜ざるを得ない = terpaksa (tidak bisa tidak). ちゅうし = pembatalan.",
+    "kategori": "weather"
+  },
+  {
+    "transkrip": "一見　シンプルに　見える　この　作品は、実は　作るのに　何ヶ月も　かかったのだ。",
+    "tts_text": "いっけん シンプルに みえる この さくひんは、じつは つくるのに なんかげつも かかったのだ。",
+    "pertanyaan": "Apa yang mengejutkan dari karya ini?",
+    "opsi": ["Mahal", "Terlihat sederhana tapi butuh berbulan-bulan", "Mudah ditiru", "Dibuat dari bahan murah"],
+    "kunci": 1,
+    "pembahasan": "一見 = sekilas. なんかげつもかかった = butuh berbulan-bulan.",
+    "kategori": "art"
+  },
+  {
+    "transkrip": "健康の　ためと　いっても、過度な　運動は　かえって　体に　悪いことがある。",
+    "tts_text": "けんこうの ためと いっても、かどな うんどうは かえって からだに わるいことがある。",
+    "pertanyaan": "Apa yang ingin disampaikan pembicara?",
+    "opsi": ["Olahraga selalu baik", "Olahraga berlebihan bisa merugikan", "Jangan olahraga", "Olahraga sendirian"],
+    "kunci": 1,
+    "pembahasan": "〜といっても = walaupun dikatakan. かえって = malah, justru. かど = berlebihan.",
+    "kategori": "health"
+  },
+  {
+    "transkrip": "新製品の　発売を　きっかけに、会社の　売上が　急激に　伸びた。",
+    "tts_text": "しんせいひんの はつばいを きっかけに、かいしゃの うりあげが きゅうげきに のびた。",
+    "pertanyaan": "Apa yang terjadi di perusahaan?",
+    "opsi": ["Omzet turun", "Produk baru jadi pemicu lonjakan omzet", "Bangkrut", "Produk gagal"],
+    "kunci": 1,
+    "pembahasan": "〜をきっかけに = karena (pemicu). きゅうげき = drastis. のびた = bertambah.",
+    "kategori": "business"
+  },
+  {
+    "transkrip": "日本の　教育制度は、諸外国と　比べて　競争が　激しいと　言われている。",
+    "tts_text": "にほんの きょういくせいどは、しょがいこくと くらべて きょうそうが はげしいと いわれている。",
+    "pertanyaan": "Bagaimana sistem pendidikan Jepang menurut pembicara?",
+    "opsi": ["Santai", "Persaingannya ketat dibanding negara lain", "Sama dengan negara lain", "Mudah"],
+    "kunci": 1,
+    "pembahasan": "〜に比べて = dibanding. きょうそうがはげしい = persaingan ketat.",
+    "kategori": "education"
+  },
+  {
+    "transkrip": "彼の　意見には　賛成しかねますが、言いたいことは　理解できます。",
+    "tts_text": "かれの いけんには さんせいしかねますが、いいたいことは りかいできます。",
+    "pertanyaan": "Bagaimana sikap pembicara?",
+    "opsi": ["Setuju penuh", "Tidak bisa setuju tapi mengerti maksudnya", "Tidak mengerti sama sekali", "Marah"],
+    "kunci": 1,
+    "pembahasan": "〜しかねる = sulit untuk (sopan negatif). りかいできる = bisa memahami.",
+    "kategori": "opinion"
+  },
+  {
+    "transkrip": "学生時代は　お金が　なくて　苦労したが、あの　経験が　あってこそ　今の　私が　あると　思う。",
+    "tts_text": "がくせいじだいは おかねが なくて くろうしたが、あの けいけんが あってこそ いまの わたしが あると おもう。",
+    "pertanyaan": "Bagaimana pembicara melihat masa lalu?",
+    "opsi": ["Menyesali", "Pengalaman sulit itulah yang membentuknya", "Lupa saja", "Marah pada keluarga"],
+    "kunci": 1,
+    "pembahasan": "〜あってこそ = justru karena ada. くろう = perjuangan/kesulitan.",
+    "kategori": "reflection"
+  },
+  {
+    "transkrip": "この　プロジェクトを　成功させる　ためには、チーム全員の　協力が　欠かせない。",
+    "tts_text": "この プロジェクトを せいこうさせる ためには、チームぜんいんの きょうりょくが かかせない。",
+    "pertanyaan": "Apa yang penting untuk sukses proyek?",
+    "opsi": ["Anggaran besar", "Kerja sama seluruh anggota tim", "Pemimpin kuat", "Teknologi canggih"],
+    "kunci": 1,
+    "pembahasan": "〜が欠かせない = tidak boleh tidak ada. ぜんいんのきょうりょく = kerja sama semua anggota.",
+    "kategori": "teamwork"
+  }
+]
