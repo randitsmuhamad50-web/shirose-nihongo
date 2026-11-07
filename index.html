@@ -41,7 +41,15 @@ body{
   min-height:100vh;
   overflow-x:hidden;
 }
-@media (max-width:768px){ body{font-size:14px;} }
+@media (max-width:768px){ body{font-size:15px;} }
+@media (max-width:640px){
+  body{font-size:16px;}
+  h1{font-size:24px;}
+  h2{font-size:20px;}
+  h3{font-size:17px;}
+  p{font-size:15px;}
+  .panel{padding:16px 14px;}
+}
 
 /* ========== Mobile safe-area + touch targets ========== */
 body{
@@ -370,6 +378,97 @@ body{
 /* Multiple choice feedback */
 .opsi.opsi-ok{border-color:var(--green); background:rgba(16,185,129,.18);}
 .opsi.opsi-bad{border-color:var(--red); background:rgba(239,68,68,.18);}
+
+/* ========== FLASHCARD v2 — swipe + 2-button rating ========== */
+.flash-stage{
+  position:relative; min-height:420px;
+  display:flex; align-items:center; justify-content:center;
+  margin:8px 0 16px; overflow:visible;
+  user-select:none; -webkit-user-select:none; touch-action:pan-y;
+}
+.flash-card{
+  position:relative; width:100%; max-width:480px;
+  background:linear-gradient(160deg, rgba(42,50,112,.85), rgba(22,27,54,.85));
+  border:1px solid var(--border); border-radius:20px;
+  padding:28px 20px; text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,.35);
+  transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease, opacity .25s ease;
+  cursor:pointer;
+  will-change:transform, opacity;
+}
+.flash-card .front{
+  font-family:var(--font-jp); font-weight:800;
+  font-size:76px; line-height:1.1; color:var(--pink-light);
+  margin:14px 0 10px; word-break:break-all;
+}
+@media (max-width:640px){ .flash-card .front{font-size:64px;} }
+.flash-card .reading{
+  display:inline-block; padding:6px 14px; border-radius:999px;
+  background:rgba(42,50,112,.6); color:var(--white);
+  font-family:var(--font-jp); font-size:20px; margin:4px 0 12px;
+}
+.flash-card .arti{
+  font-size:18px; font-weight:700; color:var(--white);
+  line-height:1.4; margin-top:6px;
+}
+.flash-card .contoh{
+  font-size:14px; color:var(--gray); margin-top:12px;
+  padding:10px; background:rgba(255,255,255,.04); border-radius:10px;
+  text-align:left;
+}
+.flash-card .tap-hint{
+  margin-top:14px; font-size:12px; color:var(--gray-dim);
+  letter-spacing:.3px;
+}
+.flash-card.swiping{transition:none;}
+.flash-card.leave-left{transform:translateX(-120%) rotate(-14deg); opacity:0;}
+.flash-card.leave-right{transform:translateX(120%) rotate(14deg); opacity:0;}
+.flash-card.enter{animation:flashEnter .35s ease-out;}
+@keyframes flashEnter{
+  0%{transform:translateY(16px) scale(.96); opacity:0;}
+  100%{transform:translateY(0) scale(1); opacity:1;}
+}
+/* Swipe hint badges that fade in as the user drags */
+.flash-badge{
+  position:absolute; top:24px; padding:6px 16px; border-radius:8px;
+  font-weight:800; font-size:14px; letter-spacing:1px;
+  opacity:0; pointer-events:none; transition:opacity .15s;
+  border:2px solid currentColor; text-transform:uppercase;
+}
+.flash-badge.left{left:20px; color:#ef5350; transform:rotate(-10deg);}
+.flash-badge.right{right:20px; color:#10b981; transform:rotate(10deg);}
+
+/* Three-button action row */
+.flash-actions{
+  display:grid; grid-template-columns:1fr auto 1fr; gap:10px; margin-top:8px;
+}
+.flash-btn{
+  padding:16px 14px; border-radius:14px; border:none;
+  font-weight:800; font-size:16px; cursor:pointer; font-family:var(--font-sans);
+  transition:transform .12s, box-shadow .12s, filter .12s;
+  display:flex; flex-direction:column; align-items:center; gap:2px;
+  min-height:60px;
+}
+.flash-btn .ico{font-size:20px;}
+.flash-btn .sub{font-size:10px; opacity:.7; font-weight:600;}
+.flash-btn.lupa{
+  background:linear-gradient(135deg,#ef5350,#c62828); color:white;
+  box-shadow:0 4px 14px rgba(239,83,80,.4);
+}
+.flash-btn.lupa:hover{transform:translateY(-2px); filter:brightness(1.08);}
+.flash-btn.ingat{
+  background:linear-gradient(135deg,#10b981,#059669); color:white;
+  box-shadow:0 4px 14px rgba(16,185,129,.4);
+}
+.flash-btn.ingat:hover{transform:translateY(-2px); filter:brightness(1.08);}
+.flash-btn.back{
+  background:rgba(255,255,255,.08); color:var(--white);
+  border:1px solid var(--border); padding:16px 18px;
+}
+.flash-btn.back:hover{background:rgba(255,255,255,.14); border-color:var(--pink);}
+@media (max-width:640px){
+  .flash-btn{font-size:15px; padding:14px 10px; min-height:66px;}
+}
 
 /* ========== Modals ========== */
 .modal-backdrop{
@@ -1288,76 +1387,181 @@ function renderHafalanSession(){
   return renderHafalanFlashcard();
 }
 
-/* ========== MODE 1: FLASHCARD ========== */
+/* ========== MODE 1: FLASHCARD v2 — swipe + 2 buttons + auto-audio ========== */
 function renderHafalanFlashcard(){
   const q = state.hafalan_queue;
   const pos = state.hafalan_pos;
   if (pos >= q.length) return renderHafalanDone();
   const it = q[pos];
+  const safeFront = (it.front || "").replace(/"/g, "&quot;");
+  const kemBtn = pos === 0
+    ? `<button class="flash-btn back" disabled title="Ini kartu pertama">↶</button>`
+    : `<button class="flash-btn back" onclick="hafBack()" title="Kembali ke kartu sebelumnya">↶</button>`;
+
+  // Queue a render-time post hook (run after innerHTML swap) to wire swipe + autoplay
+  setTimeout(_hafPostRender, 0);
+
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
-        <span style="color:var(--gray); font-size:13px;">${pos+1} / ${q.length}</span>
+        <button class="btn ghost sm" onclick="route('hafalan')">← Menu</button>
+        <span style="color:var(--gray); font-size:14px; font-weight:700;">${pos+1} / ${q.length}</span>
         <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
       </div>
-      <div class="kanji-detail">
-        <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
-        <div class="big-k" style="font-size:72px;">${it.front}</div>
-        <div id="haf-reveal" style="display:none;">
-          <div class="readings"><div class="r">${it.reading}</div></div>
-          <div style="font-size:16px; margin:12px 0;"><b>${it.back}</b></div>
-          <button class="btn ghost sm" onclick="speakJP('${(it.front||'').replace(/'/g,"")}')">🔊 Dengar</button>
+
+      <div class="flash-stage" id="flash-stage">
+        <span class="flash-badge left" id="badge-lupa">✕ LUPA</span>
+        <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
+        <div class="flash-card enter" id="flash-card" data-front="${safeFront}" onclick="hafCardTap(event)">
+          <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+          <div class="front">${it.front}</div>
+          <div class="reading">${it.reading || "—"}</div>
+          <div class="arti">${it.back || "—"}</div>
+          <div class="tap-hint">Geser ← Lupa · Ingat → · Tap kartu = kembali</div>
         </div>
       </div>
-      <div style="display:flex; gap:8px; margin-top:16px; justify-content:center;" id="haf-show-wrap">
-        <button class="btn ghost" id="haf-show" onclick="hafShow()">Lihat Jawaban</button>
-      </div>
-      <div style="display:none; gap:8px; margin-top:16px; justify-content:center; flex-wrap:wrap;" id="haf-rate">
-        <button class="btn danger" onclick="hafRate('salah')">Salah</button>
-        <button class="btn ghost" onclick="hafRate('ragu')">Ragu</button>
-        <button class="btn" onclick="hafRate('benar')">Benar</button>
-        <button class="btn gold" onclick="hafRate('mudah')">Mudah!</button>
+
+      <div class="flash-actions">
+        <button class="flash-btn lupa" onclick="hafRate('lupa')">
+          <span class="ico">←</span>
+          <span>Lupa</span>
+          <span class="sub">Geser kiri juga bisa</span>
+        </button>
+        ${kemBtn}
+        <button class="flash-btn ingat" onclick="hafRate('ingat')">
+          <span class="ico">→</span>
+          <span>Ingat</span>
+          <span class="sub">Geser kanan juga bisa</span>
+        </button>
       </div>
     </div>
   `;
 }
-window.hafShow = () => {
-  document.getElementById("haf-reveal").style.display = "block";
-  document.getElementById("haf-show-wrap").style.display = "none";
-  document.getElementById("haf-rate").style.display = "flex";
+
+// Post-render: wire swipe handlers, auto-play audio.
+function _hafPostRender(){
+  const card = document.getElementById("flash-card");
+  if (!card) return;
+  // Auto-play the current card's pronunciation (inside the user-interaction
+  // stack that triggered this render — satisfies mobile autoplay policy).
+  const front = card.getAttribute("data-front");
+  _autoSpeakJP(front);
+  // Wire swipe.
+  _bindFlashSwipe(card);
+}
+
+// Classify a tap on the card: if the user's finger didn't actually move
+// (small movement), treat as back; otherwise the swipe handler took over.
+window.hafCardTap = (ev) => {
+  // Click on child elements is fine; distinguish real tap vs swipe end.
+  if (state._swipeMoved) { state._swipeMoved = false; return; }
+  // First card has nothing to go back to
+  if ((state.hafalan_pos || 0) === 0) return;
+  hafBack();
 };
+
+window.hafBack = () => {
+  if ((state.hafalan_pos || 0) === 0) return;
+  state.hafalan_pos--;
+  document.getElementById("app").innerHTML = renderHafalanSession();
+};
+
+// Attach touch/pointer handlers for the physical swipe.
+function _bindFlashSwipe(card){
+  let startX = 0, startY = 0, dx = 0, dy = 0, dragging = false;
+  const THRESH = 90;             // px needed to commit a rating
+  const MOVE_TAP = 8;            // px below this = treat as a tap
+
+  const badgeL = document.getElementById("badge-lupa");
+  const badgeR = document.getElementById("badge-ingat");
+
+  function onDown(x, y){
+    dragging = true; startX = x; startY = y; dx = 0; dy = 0;
+    state._swipeMoved = false;
+    card.classList.add("swiping");
+  }
+  function onMove(x, y){
+    if (!dragging) return;
+    dx = x - startX; dy = y - startY;
+    // Ignore if the user is clearly scrolling vertically
+    if (Math.abs(dy) > Math.abs(dx) * 1.2 && Math.abs(dy) > 20){ cancel(); return; }
+    if (Math.abs(dx) > MOVE_TAP) state._swipeMoved = true;
+    const rot = dx / 20;
+    card.style.transform = `translateX(${dx}px) rotate(${rot}deg)`;
+    if (badgeL) badgeL.style.opacity = dx < 0 ? Math.min(1, -dx / THRESH) : 0;
+    if (badgeR) badgeR.style.opacity = dx > 0 ? Math.min(1, dx / THRESH) : 0;
+  }
+  function onUp(){
+    if (!dragging) return;
+    dragging = false;
+    card.classList.remove("swiping");
+    if (dx <= -THRESH){
+      card.classList.add("leave-left");
+      setTimeout(() => hafRate("lupa"), 180);
+      return;
+    }
+    if (dx >= THRESH){
+      card.classList.add("leave-right");
+      setTimeout(() => hafRate("ingat"), 180);
+      return;
+    }
+    // Snap back
+    card.style.transform = "";
+    if (badgeL) badgeL.style.opacity = 0;
+    if (badgeR) badgeR.style.opacity = 0;
+  }
+  function cancel(){
+    dragging = false;
+    card.style.transform = "";
+    if (badgeL) badgeL.style.opacity = 0;
+    if (badgeR) badgeR.style.opacity = 0;
+  }
+
+  // Touch
+  card.addEventListener("touchstart", (e) => onDown(e.touches[0].clientX, e.touches[0].clientY), { passive:true });
+  card.addEventListener("touchmove",  (e) => onMove(e.touches[0].clientX, e.touches[0].clientY), { passive:true });
+  card.addEventListener("touchend",   onUp);
+  card.addEventListener("touchcancel", cancel);
+  // Mouse (desktop)
+  card.addEventListener("mousedown",  (e) => { onDown(e.clientX, e.clientY); });
+  window.addEventListener("mousemove", (e) => { if (dragging) onMove(e.clientX, e.clientY); });
+  window.addEventListener("mouseup",   () => { if (dragging) onUp(); });
+}
+
 window.hafRate = async (rate) => {
   const q = state.hafalan_queue;
   const it = q[state.hafalan_pos];
-  // Part 26: auto-play the card the user just rated, before advancing.
-  // Triggered inside the click handler so mobile browsers allow it.
-  _autoSpeakJP(it.front);
+  if (!it) return;
+  // Normalize: accept the old 4 ratings AND the new lupa/ingat
+  const normalized = (rate === "lupa" || rate === "salah") ? "lupa"
+                   : (rate === "ingat" || rate === "benar" || rate === "mudah" || rate === "ragu") ? "ingat"
+                   : "ingat";
   const key = _srsKey(it.tipe, {no:it.no}, it.idx);
   const now = Date.now();
   const card = state.srs[key] || { n:0, interval:1, due:now };
   const dayMs = 86400000;
-  const mult = { salah:1, ragu:1.2, benar:2, mudah:3 };
   card.n = (card.n || 0) + 1;
-  card.interval = Math.max(1, Math.round((card.interval || 1) * (mult[rate] || 1)));
-  if (rate === "salah") card.interval = 1;
+  if (normalized === "lupa"){
+    card.interval = 1;
+  } else {
+    // "ingat" doubles the interval (bounded reasonable minimum)
+    card.interval = Math.max(2, Math.round((card.interval || 1) * 2));
+  }
   card.due = now + card.interval * dayMs;
-  card.last = rate;
-  // Part 5: 1 coin when this card reaches mastered state for the first time
+  card.last = normalized;
   const justMastered = FB.detectNewMastery(card);
   state.srs[key] = card;
   await _saveSrs();
 
-  if (rate !== "salah") {
-    // XP per correct, no coin per answer. Coin comes only from mastery milestone.
+  if (normalized === "ingat"){
     await awardXP(3, justMastered ? 1 : 0);
     if (justMastered) toast(`🏆 ${it.tipe === "kanji" ? "Kanji" : "Kosakata"} ${it.front} — MASTERED! +1 🪙`);
     state.hafalan_score.benar++;
+    if (state.user) FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
   } else {
     await awardXP(1, 0);
     state.hafalan_score.salah++;
   }
-  if (rate !== "salah" && state.user) await FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
 
   state.hafalan_pos++;
   document.getElementById("app").innerHTML = renderHafalanSession();
