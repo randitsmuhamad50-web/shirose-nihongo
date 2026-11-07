@@ -379,6 +379,41 @@ body{
 .opsi.opsi-ok{border-color:var(--green); background:rgba(16,185,129,.18);}
 .opsi.opsi-bad{border-color:var(--red); background:rgba(239,68,68,.18);}
 
+/* ========== CALENDAR (Part 12) ========== */
+.cal-hero{
+  display:grid; grid-template-columns:repeat(3,1fr); gap:10px;
+  margin:10px 0 16px;
+}
+.cal-hero .cell{
+  text-align:center; padding:14px 10px; border-radius:12px;
+  background:rgba(42,50,112,.4); border:1px solid var(--border);
+}
+.cal-hero .num{font-family:var(--font-jp); font-size:30px; font-weight:800; color:var(--pink);}
+.cal-hero .lbl{font-size:12px; color:var(--gray); margin-top:2px;}
+.cal-nav{display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;}
+.cal-grid{
+  display:grid; grid-template-columns:repeat(7, 1fr); gap:4px;
+  background:rgba(13,16,36,.4); border:1px solid var(--border);
+  border-radius:12px; padding:8px;
+}
+.cal-head{font-size:11px; color:var(--gray-dim); font-weight:700; text-align:center; padding:4px 0;}
+.cal-cell{
+  aspect-ratio:1/1; position:relative;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  background:rgba(255,255,255,.02); border-radius:8px;
+  cursor:pointer; transition:all .15s;
+}
+.cal-cell.other-month{opacity:.3;}
+.cal-cell.today{outline:2px solid var(--pink);}
+.cal-cell:hover{background:rgba(255,255,255,.08); transform:translateY(-1px);}
+.cal-cell .day{font-size:12px; font-weight:800; color:var(--white);}
+.cal-cell .dots{display:flex; gap:2px; margin-top:4px;}
+.cal-cell .dot{width:5px; height:5px; border-radius:50%;}
+.dot-kanji{background:#ef6a9a;}
+.dot-kosakata{background:#8b5cf6;}
+.dot-latihan{background:#f59e0b;}
+.dot-ujian{background:#10b981;}
+
 /* ========== SYLABUS ========== */
 .syl-hero{
   text-align:center; padding:18px; border-radius:16px;
@@ -678,23 +713,42 @@ body{
 .cmt-form textarea:focus{outline:none; border-color:var(--pink);}
 .cmt-form-row{display:flex; justify-content:space-between; align-items:center; gap:8px; margin-top:8px; flex-wrap:wrap;}
 
-/* ========== KANJI STROKE ORDER ========== */
-.stroke-wrap{
-  background:#fff; border-radius:16px; padding:16px;
-  display:flex; align-items:center; justify-content:center;
-  max-width:360px; margin:12px auto;
-  aspect-ratio:1/1; position:relative;
+/* ========== KANJI STROKE ORDER (multi-kanji grid) ========== */
+.stroke-grid{
+  display:grid; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));
+  gap:12px; margin:12px 0;
 }
-.stroke-wrap svg{width:100%; height:100%;}
+.stroke-panel{
+  background:rgba(255,255,255,.04); border:1px solid var(--border); border-radius:14px;
+  padding:10px; display:flex; flex-direction:column; align-items:center;
+}
+.stroke-panel-head{
+  font-family:var(--font-jp); font-weight:800; font-size:18px;
+  color:var(--pink-light); margin-bottom:6px;
+}
+.stroke-wrap{
+  background:#fff; border-radius:12px; padding:8px;
+  width:100%; aspect-ratio:1/1; position:relative;
+  display:flex; align-items:center; justify-content:center;
+}
+.stroke-wrap svg{width:100%; height:100%; display:block;}
 .stroke-wrap svg path{
   fill:none; stroke:#0f172a; stroke-width:4; stroke-linecap:round; stroke-linejoin:round;
   stroke-dasharray:var(--len, 500); stroke-dashoffset:var(--len, 500);
   transition:stroke-dashoffset .8s linear;
 }
 .stroke-wrap svg path.drawn{stroke-dashoffset:0;}
-.stroke-wrap .stroke-ghost path{opacity:.1;}
-.stroke-ctrl{display:flex; gap:8px; justify-content:center; margin-top:10px;}
-.stroke-counter{font-weight:700; color:var(--pink);}
+/* KanjiVG stroke numbers live in a separate <g id="kvg:StrokeNumbers_*"> group */
+.stroke-wrap svg g[id^="kvg:StrokeNumbers"]{display:none;}
+.stroke-wrap.show-numbers svg g[id^="kvg:StrokeNumbers"]{display:block; fill:#ef4444; font-size:7px;}
+.stroke-counter{font-size:11px; color:var(--gray-dim); margin-top:4px;}
+.stroke-ctrl{display:flex; gap:8px; justify-content:center; margin-top:10px; flex-wrap:wrap;}
+.stroke-numlabel{
+  display:inline-flex; align-items:center; gap:8px; cursor:pointer;
+  padding:6px 12px; border-radius:999px;
+  background:rgba(255,255,255,.06); border:1px solid var(--border);
+  font-size:12px; font-weight:700;
+}
 
 /* Furigana toggle: hide ruby reading when exam panel has .no-furigana */
 .exam-area ruby rt{transition:opacity .2s;}
@@ -989,16 +1043,20 @@ window.rangkumSimpan = async (sumber) => {
 };
 
 /* ========== RANGKUMAN view ========== */
+// Behaves exactly like the Hafalan selection screen, but with the type
+// locked to "rangkuman" so the student sees preview + modes + start btn
+// for their own collection. Comes with a "🗑 Kelola kata" shortcut to
+// delete entries from the collection.
 async function renderRangkuman(){
   if (!state.user){
-    return `<div class="panel"><h2>📝 Rangkuman Saya</h2>
+    return `<div class="panel"><h2>📒 Rangkuman</h2>
       <div class="empty"><div class="emoji">🔒</div>Login dulu untuk menyimpan rangkuman.<br>
       <button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
   }
   const list = await FB.listRangkuman();
   if (!list.length){
-    return `<div class="panel"><h2>📝 Rangkuman Saya</h2>
-      <div class="empty"><div class="emoji">📝</div>
+    return `<div class="panel"><h2>📒 Rangkuman</h2>
+      <div class="empty"><div class="emoji">📒</div>
         Belum ada kata di rangkuman.<br><br>
         Cara menambah:<br>
         <small style="color:var(--gray); line-height:1.8;">
@@ -1008,49 +1066,57 @@ async function renderRangkuman(){
         </small>
       </div></div>`;
   }
-  return `
-    <div class="panel">
-      <h2>📝 Rangkuman Saya (${list.length})</h2>
-      <p style="color:var(--gray); font-size:13px;">Kata yang kamu simpan sendiri — ulang-ulang di mode Hafalan.</p>
-      <div style="display:flex; gap:10px; margin:14px 0; flex-wrap:wrap;">
-        <button class="btn gold" onclick="rangkumToHafalan()">🧠 Mulai Hafalan dari Rangkuman</button>
-        <button class="btn ghost" onclick="route('home')">🏠 Home</button>
-      </div>
-      <div class="materi-list">
-        ${list.map((r, i) => `
-          <div class="materi-item" style="padding-right:48px;">
-            <button class="btn sm danger" onclick="rangkumHapus('${r.id}')"
-                    style="position:absolute; top:8px; right:8px; padding:4px 8px;">🗑</button>
-            <span class="no-badge">No.${String(i+1).padStart(3,"0")}</span>
-            <div class="kanji">${r.jp}</div>
-            <div class="reading">${r.kana||"—"}</div>
-            <div class="meaning">${r.arti||"—"}</div>
-            ${r.sumber ? `<div style="font-size:11px; color:var(--gray-dim); margin-top:4px;">📍 ${r.sumber}</div>` : ""}
-          </div>`).join("")}
-      </div>
-    </div>`;
-}
-
-window.rangkumHapus = async (id) => {
-  if (!confirm("Hapus kata ini dari rangkuman?")) return;
-  await FB.hapusRangkuman(id);
-  route("rangkuman");
-};
-
-window.rangkumToHafalan = async () => {
-  const list = await FB.listRangkuman();
-  if (!list.length) return toast("Rangkuman kosong");
-  state.hafalan_queue = list.map((r, i) => ({
-    tipe: "rangkuman", idx: i, no: i + 1,
-    front: r.jp, reading: r.kana || "",
-    back: r.arti || r.jp,
-  })).sort(() => Math.random() - 0.5);
-  state.hafalan_pos = 0;
-  state.hafalan_score = { benar:0, salah:0 };
+  // Preset state.hafalan to the rangkuman flow then reuse the hafalan
+  // selection screen so UI stays identical.
   state.hafalan = state.hafalan || {};
   state.hafalan.tipe = "rangkuman";
-  state.hafalan.mode = "flashcard";
-  route("hafalan/go");
+  state.hafalan.range = "all";
+  state.hafalan.filter = state.hafalan.filter || "all";
+  state.hafalan.mode = state.hafalan.mode || "flashcard";
+  state._rangkumanContext = true;
+  return renderHafalanSelect();
+}
+
+// Open the delete-manage modal for Rangkuman (injected modal, self-contained).
+window.openRangkumanManage = async () => {
+  const list = await FB.listRangkuman();
+  if (!list.length) return toast("Rangkuman kosong");
+  const existing = document.getElementById("rk-manage-modal");
+  if (existing) existing.remove();
+  const rows = list.map(r => `
+    <div style="display:flex; align-items:center; justify-content:space-between; gap:10px;
+                padding:10px 12px; margin-bottom:6px; border:1px solid var(--border);
+                border-radius:10px; background:rgba(255,255,255,.03);">
+      <div style="flex:1; min-width:0;">
+        <div style="font-family:var(--font-jp); font-weight:800; font-size:20px; color:var(--pink-light);">${r.jp}</div>
+        <div style="font-size:12px; color:var(--gray); overflow:hidden; text-overflow:ellipsis;">${r.kana||"—"} · ${r.arti||"—"}</div>
+      </div>
+      <button class="btn sm danger" onclick="rangkumHapusCepat('${r.id}')">🗑</button>
+    </div>`).join("");
+  const html = `
+    <div class="modal-backdrop open" id="rk-manage-modal" onclick="if(event.target===this) closeRangkumanManage()">
+      <div class="modal">
+        <h2>🗑 Kelola Rangkuman (${list.length})</h2>
+        <p style="color:var(--gray); font-size:13px;">Hapus kata yang sudah tidak dibutuhkan.</p>
+        <div style="max-height:60vh; overflow-y:auto; margin-top:10px;" id="rk-manage-body">${rows}</div>
+        <div style="display:flex; justify-content:flex-end; gap:8px; margin-top:12px;">
+          <button class="btn ghost" onclick="closeRangkumanManage()">Tutup</button>
+        </div>
+      </div>
+    </div>`;
+  const wrap = document.createElement("div");
+  wrap.innerHTML = html;
+  document.body.appendChild(wrap.firstElementChild);
+};
+window.closeRangkumanManage = () => {
+  const m = document.getElementById("rk-manage-modal");
+  if (m) m.remove();
+  // Refresh rangkuman view if we're on it
+  if (location.hash.slice(1).startsWith("rangkuman")) route("rangkuman");
+};
+window.rangkumHapusCepat = async (id) => {
+  try { await FB.hapusRangkuman(id); toast("✓ Dihapus"); openRangkumanManage(); }
+  catch(e){ toast("❌ " + e.message); }
 };
 
 function toast(msg){
@@ -1221,6 +1287,7 @@ const routes = {
   wardrobe: renderWardrobe,
   misi: renderMisiHarian,
   sylabus: renderSylabus,
+  kalender: renderKalender,
   profile: renderProfile,
   achievements: renderAchievements,
   leaderboard: renderLeaderboard,
@@ -1271,17 +1338,17 @@ function renderCharaOrbital(){
   const skin = state.siswa?.karakter?.skinTone || "light";
   const chara = renderCharacter(eq, skin, { hairColor: state.siswa?.karakter?.hairColor });
 
+  // 9-item orbit — Rangkuman takes the Inventory slot (per user request).
   const NAV = [
-    { icon:"📚", lbl:"Materi",     route:"materi",      deg:0 },
-    { icon:"🧠", lbl:"Hafalan",    route:"hafalan",     deg:36 },
-    { icon:"📝", lbl:"Rangkuman",  route:"rangkuman",   deg:72 },
-    { icon:"⚔️", lbl:"Quest",      route:"quest",       deg:108 },
-    { icon:"📝", lbl:"Ujian",      route:"ujian",       deg:144 },
-    { icon:"🗺️", lbl:"Sylabus",    route:"sylabus",     deg:180 },
-    { icon:"🛒", lbl:"Shop",       route:"shop",        deg:216 },
-    { icon:"🎒", lbl:"Inventory",  route:"inventory",   deg:252 },
-    { icon:"👔", lbl:"Wardrobe",   route:"wardrobe",    deg:288 },
-    { icon:"🏆", lbl:"Peringkat",  route:"leaderboard", deg:324 },
+    { icon:"📚", lbl:"Materi",     route:"materi",      deg:0   },
+    { icon:"🧠", lbl:"Hafalan",    route:"hafalan",     deg:40  },
+    { icon:"⚔️", lbl:"Quest",      route:"quest",       deg:80  },
+    { icon:"📝", lbl:"Ujian",      route:"ujian",       deg:120 },
+    { icon:"🗺️", lbl:"Sylabus",    route:"sylabus",     deg:160 },
+    { icon:"📒", lbl:"Rangkuman",  route:"rangkuman",   deg:200 },
+    { icon:"🛒", lbl:"Shop",       route:"shop",        deg:240 },
+    { icon:"👔", lbl:"Wardrobe",   route:"wardrobe",    deg:280 },
+    { icon:"🏆", lbl:"Peringkat",  route:"leaderboard", deg:320 },
   ];
   const R = Math.min(260, window.innerWidth * 0.35);
   const nodes = NAV.map(n => {
@@ -1473,7 +1540,7 @@ window.showMateri = async (tipe, idx) => {
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" onclick="speakJP('${(k||"").replace(/'/g,"")}')">🔊 Dengar</button>
-          <button class="btn ghost" onclick="showStrokeOrder('${(k||"").replace(/'/g,"")[0]||""}')">✍️ Urutan Goresan</button>
+          <button class="btn ghost" onclick="showStrokeOrder('${(k||"").replace(/'/g,"")}')">✍️ Urutan Goresan</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
         </div>
         ${_commentsPlaceholder("kanji", state.level, itemNo(it, idx))}
@@ -1499,6 +1566,7 @@ window.showMateri = async (tipe, idx) => {
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" onclick="speakJP('${(kata||"").replace(/'/g,"")}')">🔊 Dengar</button>
+          <button class="btn ghost" onclick="showStrokeOrder('${(kata||"").replace(/'/g,"")}')">✍️ Urutan Goresan</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(kata||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kosakata ${no}")'>➕ Rangkum</button>
         </div>
         ${_commentsPlaceholder("kosakata", state.level, itemNo(it, idx))}
@@ -1536,76 +1604,104 @@ window.showMateri = async (tipe, idx) => {
     </div>
   `;
 };
-/* ========== KANJI STROKE ORDER (KanjiVG via jsDelivr) ========== */
-// KanjiVG stores each kanji SVG under the 5-digit lowercase hex of the first
-// codepoint. CJK kanji fit in BMP so the codepoint fits in 5 hex digits.
+/* ========== KANJI STROKE ORDER (KanjiVG, multi-kanji + numbers toggle) ========== */
 function _kanjiVgUrl(ch){
   if (!ch) return null;
   const cp = ch.codePointAt(0);
   if (!cp) return null;
   const hex = cp.toString(16).padStart(5, "0");
-  // jsDelivr mirror of the KanjiVG GitHub repo
   return `https://cdn.jsdelivr.net/gh/KanjiVG/kanjivg@master/kanji/${hex}.svg`;
 }
+// A character counts as kanji if it's in the CJK Unified Ideographs ranges.
+function _isKanjiChar(ch){
+  if (!ch) return false;
+  const cp = ch.codePointAt(0);
+  return (cp >= 0x4E00 && cp <= 0x9FFF)      // main CJK block
+      || (cp >= 0x3400 && cp <= 0x4DBF)      // extension A
+      || (cp >= 0xF900 && cp <= 0xFAFF);     // compatibility
+}
 
-window.showStrokeOrder = async (ch) => {
-  if (!ch) return;
+window.showStrokeOrder = async (word) => {
+  if (!word) return;
   const existing = document.getElementById("stroke-modal");
   if (existing) existing.remove();
-  const url = _kanjiVgUrl(ch);
+
+  // Grab every kanji character from the word, preserving order.
+  const kanjiChars = Array.from(word).filter(_isKanjiChar);
+  if (!kanjiChars.length){
+    toast("Tidak ada kanji di kata ini");
+    return;
+  }
+
+  const showNums = !!state._strokeShowNumbers;
+
+  const panels = kanjiChars.map((c, i) => `
+    <div class="stroke-panel">
+      <div class="stroke-panel-head">${c}</div>
+      <div class="stroke-wrap${showNums?' show-numbers':''}" data-idx="${i}" data-kanji="${c}">
+        <div style="color:#333; font-size:12px;">Memuat…</div>
+      </div>
+      <div class="stroke-counter" data-counter="${i}">—</div>
+    </div>`).join("");
+
   const wrap = document.createElement("div");
   wrap.innerHTML = `
     <div class="modal-backdrop open" id="stroke-modal" onclick="if(event.target===this) closeStrokeOrder()">
-      <div class="modal" style="max-width:420px;">
-        <h2>✍️ Urutan Guratan — ${ch}</h2>
-        <p style="color:var(--gray); font-size:13px;">Animasi urutan goresan (data: KanjiVG).</p>
-        <div class="stroke-wrap" id="stroke-wrap">
-          <div style="color:#333;">Memuat...</div>
-        </div>
+      <div class="modal" style="max-width:720px;">
+        <h2>✍️ Urutan Guratan — ${word}</h2>
+        <p style="color:var(--gray); font-size:13px;">Animasi urutan goresan tiap kanji di kata ini (data: KanjiVG).</p>
+        <label class="stroke-numlabel">
+          <input type="checkbox" ${showNums?"checked":""} onchange="toggleStrokeNumbers(this.checked)"/>
+          <span>Tampilkan nomor goresan</span>
+        </label>
+        <div class="stroke-grid" id="stroke-grid">${panels}</div>
         <div class="stroke-ctrl">
-          <button class="btn ghost sm" onclick="replayStrokes()">↻ Ulangi</button>
-          <span class="stroke-counter" id="stroke-counter">—</span>
+          <button class="btn ghost sm" onclick="replayAllStrokes()">↻ Ulangi semua</button>
+          <button class="btn" onclick="closeStrokeOrder()">Tutup</button>
         </div>
-        <button class="btn" onclick="closeStrokeOrder()" style="width:100%; margin-top:10px;">Tutup</button>
       </div>
     </div>`;
   document.body.appendChild(wrap.firstElementChild);
 
+  // Load each kanji SVG in parallel
+  await Promise.all(kanjiChars.map((c, i) => _loadKanjiPanel(c, i)));
+};
+
+async function _loadKanjiPanel(ch, idx){
+  const container = document.querySelector(`#stroke-grid .stroke-wrap[data-idx="${idx}"]`);
+  const counter = document.querySelector(`#stroke-grid [data-counter="${idx}"]`);
+  if (!container) return;
   try {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error("Not found (" + res.status + ")");
+    const res = await fetch(_kanjiVgUrl(ch));
+    if (!res.ok) throw new Error("Not in KanjiVG");
     const text = await res.text();
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(text, "image/svg+xml");
+    const doc = new DOMParser().parseFromString(text, "image/svg+xml");
     const svg = doc.querySelector("svg");
     if (!svg) throw new Error("SVG kosong");
 
-    // KanjiVG wraps strokes in a <g id="kvg:StrokePaths_xxx">...</g>; grab paths.
-    const paths = Array.from(svg.querySelectorAll("path"));
-    if (!paths.length) throw new Error("No stroke paths");
-    // Reset stroke-level attributes we need
+    // Collect stroke paths only (skip number-group text). KanjiVG puts
+    // paths under <g id="kvg:StrokePaths_..."> — fallback to all paths.
+    let paths = Array.from(svg.querySelectorAll('g[id^="kvg:StrokePaths"] path'));
+    if (!paths.length) paths = Array.from(svg.querySelectorAll("path"));
+    if (!paths.length) throw new Error("No strokes");
     paths.forEach(p => {
       const len = p.getTotalLength ? p.getTotalLength() : 500;
       p.style.setProperty("--len", len);
     });
-
-    const container = document.getElementById("stroke-wrap");
     container.innerHTML = "";
     container.appendChild(svg);
-    document.getElementById("stroke-counter").textContent = `${paths.length} goresan`;
+    if (counter) counter.textContent = `${paths.length} goresan`;
     _animateStrokes(paths);
   } catch (e){
-    document.getElementById("stroke-wrap").innerHTML =
-      `<div style="color:#64748b; font-size:13px; text-align:center; padding:10px;">
-        Data goresan untuk "<b>${ch}</b>" tidak tersedia di KanjiVG.<br>
-        Coba cek langsung di <a href="https://jisho.org/search/${encodeURIComponent(ch)}%20%23kanji" target="_blank" rel="noopener" style="color:var(--pink);">Jisho.org</a>.
+    container.innerHTML = `
+      <div style="color:#64748b; font-size:11px; text-align:center; padding:6px;">
+        Data tidak ada.<br>
+        <a href="https://jisho.org/search/${encodeURIComponent(ch)}%20%23kanji" target="_blank" rel="noopener" style="color:#ef6a9a;">Jisho</a>
       </div>`;
-    document.getElementById("stroke-counter").textContent = "—";
+    if (counter) counter.textContent = "—";
   }
-};
-
+}
 function _animateStrokes(paths){
-  // Reset all strokes to the "undrawn" state, then draw them one by one.
   paths.forEach(p => { p.classList.remove("drawn"); });
   let i = 0;
   const step = () => {
@@ -1614,12 +1710,19 @@ function _animateStrokes(paths){
     i++;
     setTimeout(step, 450);
   };
-  // Small initial delay for user to see the empty frame
   setTimeout(step, 200);
 }
-window.replayStrokes = () => {
-  const paths = document.querySelectorAll("#stroke-wrap svg path");
-  if (paths.length) _animateStrokes(Array.from(paths));
+window.replayAllStrokes = () => {
+  document.querySelectorAll("#stroke-grid .stroke-wrap").forEach(w => {
+    const paths = Array.from(w.querySelectorAll("svg path"));
+    if (paths.length) _animateStrokes(paths);
+  });
+};
+window.toggleStrokeNumbers = (on) => {
+  state._strokeShowNumbers = !!on;
+  document.querySelectorAll("#stroke-grid .stroke-wrap").forEach(w => {
+    w.classList.toggle("show-numbers", !!on);
+  });
 };
 window.closeStrokeOrder = () => { const m = document.getElementById("stroke-modal"); if (m) m.remove(); };
 
@@ -1701,6 +1804,8 @@ async function _saveSrs(){
 async function renderHafalan(params){
   const sub = (params && params[0]) || "";
   if (sub === "go") return renderHafalanSession();
+  // Reset the rangkuman-context flag when navigating to the normal /#hafalan.
+  state._rangkumanContext = false;
   return renderHafalanSelect();
 }
 
@@ -1797,7 +1902,7 @@ async function renderHafalanSelect(){
         ${typeBtn("kosakata", "📖 Kosakata", kos.length + " kata")}
         ${typeBtn("kanji",    "🈷️ Kanji",    knj.length + " kanji")}
         ${typeBtn("semua",    "✨ Semua",     (kos.length + knj.length) + " item")}
-        ${typeBtn("rangkuman","📝 Rangkuman",rangList.length + " kata", !state.user)}
+        ${typeBtn("rangkuman","📒 Rangkuman",rangList.length + " kata", !state.user || !rangList.length)}
       </div>
 
       <h3 style="margin:16px 0 8px;">2. Rentang nomor <small style="color:var(--gray-dim); font-weight:400;">(bucket per 50)</small></h3>
@@ -1863,6 +1968,7 @@ async function renderHafalanSelect(){
 
       <div style="display:flex; gap:10px; margin-top:20px; flex-wrap:wrap;">
         <button class="btn gold" style="flex:1; min-width:160px;" onclick="hafStart()">▶ Mulai Hafalan (${preview.length})</button>
+        ${state._rangkumanContext ? `<button class="btn ghost" onclick="openRangkumanManage()">🗑 Kelola kata</button>` : ""}
         <button class="btn ghost" onclick="route('home')">← Kembali</button>
       </div>
     </div>
@@ -2113,7 +2219,12 @@ window.hafRate = async (rate) => {
     await awardXP(3, justMastered ? 1 : 0);
     if (justMastered) toast(`🏆 ${it.tipe === "kanji" ? "Kanji" : "Kosakata"} ${it.front} — MASTERED! +1 🪙`);
     state.hafalan_score.benar++;
-    if (state.user) FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
+    if (state.user) {
+      FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
+      // Part 12: tag the day with the right activity type.
+      const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
+      FB.recordActivity(actType).catch(()=>{});
+    }
   } else {
     await awardXP(1, 0);
     state.hafalan_score.salah++;
@@ -2211,6 +2322,10 @@ async function matchAfterPair(correct, iInBatch){
     _autoSpeakJP(it.front);
     await awardXP(3, justMastered ? 1 : 0);
     if (justMastered) toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
+    if (state.user) {
+      const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
+      FB.recordActivity(actType).catch(()=>{});
+    }
   }
 }
 window.matchCheckDone = () => {
@@ -2304,6 +2419,10 @@ window.mcPick = async (encoded, btn) => {
   if (justMastered){
     await awardXP(0, 1);
     toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
+  }
+  if (correct && state.user){
+    const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
+    FB.recordActivity(actType).catch(()=>{});
   }
 
   document.getElementById("mc-next").style.display = "flex";
@@ -2711,6 +2830,173 @@ window.equipThenWardrobe = async (kat, id) => {
 };
 
 /* ========== MISI HARIAN ========== */
+/* ========== KALENDER AKTIVITAS (Part 12) ========== */
+async function renderKalender(){
+  if (!state.user){
+    return `<div class="panel"><h2>📅 Kalender Aktivitas</h2>
+      <div class="empty"><div class="emoji">🔒</div>Login dulu untuk melihat kalender.<br>
+      <button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`;
+  }
+  const now = new Date();
+  const navMonth = state._calMonth || now.getMonth();
+  const navYear  = state._calYear  || now.getFullYear();
+  const ymKey = navYear + String(navMonth+1).padStart(2,"0");
+  const activity = await FB.listActivity(ymKey);
+
+  // Monthly totals
+  const totals = { kanji:0, kosakata:0, latihan:0, ujian:0, sesi:0, days:0 };
+  Object.values(activity).forEach(a => {
+    totals.kanji += a.kanji||0; totals.kosakata += a.kosakata||0;
+    totals.latihan += a.latihan||0; totals.ujian += a.ujian||0;
+    totals.sesi += a.sesi||0;
+    if ((a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0) > 0) totals.days++;
+  });
+
+  // Streak + longest streak across ALL activity (pull full list to compute)
+  const [streak, longest] = await _computeStreaks();
+
+  // Build month grid
+  const first = new Date(navYear, navMonth, 1);
+  const last  = new Date(navYear, navMonth+1, 0);
+  const startWd = first.getDay(); // 0 Sunday
+  const totalDays = last.getDate();
+  const cells = [];
+  // Previous-month trailing days
+  const prevLast = new Date(navYear, navMonth, 0).getDate();
+  for (let i = startWd; i > 0; i--){
+    cells.push({ d: prevLast - i + 1, other:true });
+  }
+  for (let d = 1; d <= totalDays; d++){
+    const ymd = `${navYear}${String(navMonth+1).padStart(2,"0")}${String(d).padStart(2,"0")}`;
+    cells.push({ d, ymd, a: activity[ymd] || null });
+  }
+  // Pad to full weeks
+  while (cells.length % 7 !== 0) cells.push({ d: cells.length - startWd - totalDays + 1, other:true, pad:true });
+
+  const todayYmd = `${now.getFullYear()}${String(now.getMonth()+1).padStart(2,"0")}${String(now.getDate()).padStart(2,"0")}`;
+  const monthName = first.toLocaleString("id-ID", { month:"long", year:"numeric" });
+
+  const cellHtml = (c) => {
+    if (c.other) return `<div class="cal-cell other-month"><div class="day">${c.d}</div></div>`;
+    const a = c.a;
+    const dots = a ? [
+      a.kanji    ? '<span class="dot dot-kanji" title="Kanji"></span>' : "",
+      a.kosakata ? '<span class="dot dot-kosakata" title="Kosakata"></span>' : "",
+      a.latihan  ? '<span class="dot dot-latihan" title="Latihan"></span>' : "",
+      a.ujian    ? '<span class="dot dot-ujian" title="Ujian"></span>' : "",
+    ].join("") : "";
+    const isToday = c.ymd === todayYmd ? "today" : "";
+    return `<div class="cal-cell ${isToday}" onclick='calShowDay("${c.ymd}", ${JSON.stringify(a||{}).replace(/'/g,"&#39;")})'>
+      <div class="day">${c.d}</div>
+      <div class="dots">${dots}</div>
+    </div>`;
+  };
+
+  return `
+    <div class="panel">
+      <h2>📅 Kalender Aktivitas</h2>
+
+      <div class="cal-hero">
+        <div class="cell"><div class="num">${streak}</div><div class="lbl">🔥 Streak sekarang</div></div>
+        <div class="cell"><div class="num">${longest}</div><div class="lbl">🏆 Streak terpanjang</div></div>
+        <div class="cell"><div class="num">${totals.days}</div><div class="lbl">Hari belajar bulan ini</div></div>
+      </div>
+
+      <div class="cal-nav">
+        <button class="btn ghost sm" onclick="calNavMonth(-1)">← Bulan lalu</button>
+        <b>${monthName}</b>
+        <button class="btn ghost sm" onclick="calNavMonth(1)">Bulan depan →</button>
+      </div>
+
+      <div class="cal-grid">
+        ${["Min","Sen","Sel","Rab","Kam","Jum","Sab"].map(w => `<div class="cal-head">${w}</div>`).join("")}
+        ${cells.map(cellHtml).join("")}
+      </div>
+
+      <div style="margin-top:14px; font-size:12px; color:var(--gray);">
+        <b>Total bulan ini:</b>
+        🈷️ ${totals.kanji} kanji · 📖 ${totals.kosakata} kosakata ·
+        🧠 ${totals.latihan} latihan · 📝 ${totals.ujian} ujian ·
+        ⏱ ${totals.sesi} sesi
+      </div>
+
+      <div style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap;">
+        <button class="btn ghost" onclick="route('home')">🏠 Home</button>
+      </div>
+    </div>
+  `;
+}
+
+window.calNavMonth = (delta) => {
+  const now = new Date();
+  let m = (state._calMonth ?? now.getMonth()) + delta;
+  let y = state._calYear ?? now.getFullYear();
+  if (m < 0){ m = 11; y--; }
+  else if (m > 11){ m = 0; y++; }
+  state._calMonth = m; state._calYear = y;
+  route("kalender");
+};
+
+window.calShowDay = (ymd, a) => {
+  const nice = `${ymd.slice(6,8)}-${ymd.slice(4,6)}-${ymd.slice(0,4)}`;
+  const empty = !a || !(a.kanji||a.kosakata||a.latihan||a.ujian);
+  const existing = document.getElementById("cal-day-modal");
+  if (existing) existing.remove();
+  const html = `
+    <div class="modal-backdrop open" id="cal-day-modal" onclick="if(event.target===this) document.getElementById('cal-day-modal').remove()">
+      <div class="modal" style="max-width:360px;">
+        <h2>${nice}</h2>
+        ${empty ? `<p style="color:var(--gray);">Belum ada aktivitas di hari ini.</p>` : `
+          <ul style="list-style:none; padding:0; margin-top:10px;">
+            <li style="padding:6px 0; border-bottom:1px solid var(--border);">🈷️ Kanji direview: <b>${a.kanji||0}</b></li>
+            <li style="padding:6px 0; border-bottom:1px solid var(--border);">📖 Kosakata direview: <b>${a.kosakata||0}</b></li>
+            <li style="padding:6px 0; border-bottom:1px solid var(--border);">🧠 Latihan selesai: <b>${a.latihan||0}</b></li>
+            <li style="padding:6px 0;">📝 Ujian selesai: <b>${a.ujian||0}</b></li>
+          </ul>
+        `}
+        <button class="btn" style="width:100%; margin-top:12px;"
+                onclick="document.getElementById('cal-day-modal').remove()">OK</button>
+      </div>
+    </div>`;
+  const wrap = document.createElement("div");
+  wrap.innerHTML = html;
+  document.body.appendChild(wrap.firstElementChild);
+};
+
+// Compute current + longest streak across the last ~90 days.
+async function _computeStreaks(){
+  if (!state.user) return [0, 0];
+  const now = new Date();
+  // Build set of YMD keys that have ≥1 learning activity across last 120 days
+  const dayStrings = [];
+  for (let i = 0; i < 120; i++){
+    const d = new Date(now); d.setDate(d.getDate() - i);
+    dayStrings.push(`${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}`);
+  }
+  const months = new Set(dayStrings.map(s => s.slice(0,6)));
+  let activeDays = new Set();
+  for (const ym of months){
+    const act = await FB.listActivity(ym);
+    Object.entries(act).forEach(([k, a]) => {
+      if ((a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0) > 0) activeDays.add(k);
+    });
+  }
+  // Current streak: walk backward from today until gap
+  let cur = 0;
+  for (const d of dayStrings){
+    if (activeDays.has(d)) cur++;
+    else break;
+  }
+  // Longest streak in that window
+  let longest = 0, run = 0;
+  // Iterate oldest → newest
+  for (let i = dayStrings.length - 1; i >= 0; i--){
+    if (activeDays.has(dayStrings[i])) { run++; if (run > longest) longest = run; }
+    else run = 0;
+  }
+  return [cur, longest];
+}
+
 /* ========== SYLABUS (Part 14) ========== */
 async function renderSylabus(){
   if (!state.user){

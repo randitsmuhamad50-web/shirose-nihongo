@@ -250,6 +250,41 @@ export async function catatNilai(nilai) {
   return await addDoc(ref, { ...nilai, tgl: serverTimestamp() });
 }
 
+/* ========== ACTIVITY CALENDAR (Part 12) ========== */
+// Each activity bumps a date-bucket document. Date is YYYYMMDD in Asia/Bangkok
+// so streaks line up with the user's local day. Activity types:
+//   kanji | kosakata | latihan | ujian | sesi
+function _ymdLocal(d = new Date()){
+  // Use the browser's local timezone (which is what the user experiences)
+  const y = d.getFullYear();
+  const m = String(d.getMonth()+1).padStart(2,"0");
+  const day = String(d.getDate()).padStart(2,"0");
+  return `${y}${m}${day}`;
+}
+export async function recordActivity(type, count = 1){
+  if (!currentUser) return;
+  const allowed = new Set(["kanji","kosakata","latihan","ujian","sesi"]);
+  if (!allowed.has(type)) return;
+  const ymd = _ymdLocal();
+  const ref = doc(db, "siswa", currentUser.uid, "activity", ymd);
+  const snap = await getDoc(ref);
+  const prev = snap.exists() ? snap.data() : { kanji:0, kosakata:0, latihan:0, ujian:0, sesi:0 };
+  const next = { ...prev, [type]: (prev[type]||0) + count, lastTs: serverTimestamp() };
+  await setDoc(ref, next, { merge: true });
+}
+export async function listActivity(ym /* YYYYMM */){
+  if (!currentUser) return {};
+  // Pull every doc that starts with the YYYYMM prefix. activity has small
+  // docs (one per day), so reading the whole month is cheap.
+  const col = collection(db, "siswa", currentUser.uid, "activity");
+  const snap = await getDocs(col);
+  const result = {};
+  snap.forEach(d => {
+    if (d.id.startsWith(ym)) result[d.id] = d.data();
+  });
+  return result;
+}
+
 /* ========== KOMENTAR (public per-item discussion) ========== */
 // Composite key per detail page (kanji/kosakata/bunpou + level + number).
 function _cmtKey(tipe, lvl, no){ return `${tipe}_${lvl}_${no}`; }
