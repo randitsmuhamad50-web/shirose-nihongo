@@ -118,8 +118,8 @@ input:focus, select:focus, textarea:focus{outline:none; border-color:var(--pink)
 <script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
-// ?v=20261108f — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261108f";
+// ?v=20261108h — cache-buster, lihat catatan sama di index.html.
+import * as FB from "./js/firebase-sync.js?v=20261108h";
 
 const state = {
   user: null,
@@ -179,6 +179,8 @@ function renderLogin(){
     <div class="login-box">
       <h2 style="color:var(--pink); margin-bottom:12px;">🔐 Login Guru</h2>
       <p style="color:var(--gray); font-size:13px; margin-bottom:16px;">Hanya akun guru yang bisa masuk ke dashboard ini.</p>
+      ${(() => { const d = FB.getLastAuthDenied ? FB.getLastAuthDenied() : null;
+        return d ? `<div style="color:var(--red); font-size:13px; margin-bottom:12px;">${d === "disabled" ? "Akun ini dinonaktifkan." : "Akun ini belum terdaftar di sistem."}</div>` : ""; })()}
       <div class="form-row"><label>Email</label><input type="email" id="lg-email" style="flex:1;"/></div>
       <div class="form-row"><label>Password</label><input type="password" id="lg-pwd" style="flex:1;"/></div>
       <div id="lg-err" style="color:var(--red); font-size:12px; margin-bottom:10px;"></div>
@@ -262,16 +264,39 @@ async function renderSiswaTab(){
   return `
     <div class="panel">
       <h2>👥 Siswa <span style="color:var(--gray); font-size:14px; font-weight:400;">(${state.siswaList.length} terdaftar)</span></h2>
-      <p style="color:var(--gray); font-size:13px; margin-bottom:10px;">Toggle akses JLPT per murid. Server-side rules enforce (bukan cuma frontend).</p>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:10px;">Akun siswa hanya dibuat di sini (pendaftaran mandiri ditutup). Klik N5–N1 untuk buka/tutup akses — dicek juga oleh Firestore Rules di server.</p>
+      <details style="margin-bottom:14px; padding:12px; border:1px solid var(--pink); border-radius:10px;" ${state.siswaList.length <= 1 ? "open" : ""}>
+        <summary style="cursor:pointer; font-weight:700; color:var(--pink);">➕ Buat akun baru</summary>
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:8px; margin-top:10px;">
+          <input type="email" id="ba-email" placeholder="Email siswa" autocomplete="off"/>
+          <input type="text" id="ba-pwd" placeholder="Password awal (min. 6)" autocomplete="off"/>
+          <input type="text" id="ba-nama" placeholder="Nama"/>
+          <input type="text" id="ba-kelas" placeholder="Kelas (opsional)"/>
+          ${FB.userIsAdmin() ? `<select id="ba-role"><option value="student">Role: Siswa</option><option value="guru">Role: Guru</option></select>` : ""}
+        </div>
+        <div style="margin-top:10px; font-size:13px;">Akses awal:
+          ${["n5","n4","n3","n2","n1"].map(l => `<label style="margin-right:10px;"><input type="checkbox" id="ba-${l}" ${l==="n5"?"checked":""}/> ${l.toUpperCase()}</label>`).join("")}
+        </div>
+        <button class="btn" style="margin-top:10px;" id="ba-submit" onclick="buatAkunBaru()">Buat akun</button>
+        <span id="ba-msg" style="margin-left:10px; font-size:13px;"></span>
+      </details>
       <button class="btn sm ghost" style="margin-bottom:10px;" onclick="renderTab()">🔄 Refresh daftar</button>
       <div class="table-wrap">
         <table>
-          <thead><tr><th>Nama</th><th>Email</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+          <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Status</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
           <tbody>
-            ${state.siswaList.map(s => `
-              <tr>
+            ${state.siswaList.map(s => {
+              const role = s.role || "student";
+              const nonaktif = s.status === "nonaktif";
+              const bisaUbahStatus = role === "student" || FB.userIsAdmin();
+              return `
+              <tr style="${nonaktif?'opacity:.55;':''}">
                 <td><b>${s.nama || "(nama belum diisi)"}</b></td>
                 <td>${s.email}</td>
+                <td>${({student:"Siswa",guru:"Guru",admin:"Admin",developer:"Moderator"})[role] || role}</td>
+                <td>${bisaUbahStatus && role !== "developer"
+                    ? `<span class="chip btn-chip ${nonaktif?'':'on'}" onclick="toggleStatus('${s.uid}', ${nonaktif})">${nonaktif ? "Nonaktif" : "Aktif"}</span>`
+                    : (nonaktif ? "Nonaktif" : "Aktif")}</td>
                 <td><input type="text" placeholder="Kelas" value="${s.kelas||""}" onchange="updateKelas('${s.uid}', this.value)" style="width:100px;"/></td>
                 <td>${["n5","n4","n3","n2","n1"].map(l => {
                   const on = s.aksesLevel?.[l];
@@ -280,20 +305,45 @@ async function renderSiswaTab(){
                 <td>
                   <button class="btn sm ghost" onclick="lihatGami('${s.uid}', '${(s.nama||s.email).replace(/'/g,'')}')">Progres</button>
                 </td>
-              </tr>
-            `).join("")}
+              </tr>`; }).join("")}
           </tbody>
         </table>
       </div>
     </div>
   `;
 }
+window.buatAkunBaru = async () => {
+  const v = id => (document.getElementById(id)?.value || "").trim();
+  const msg = document.getElementById("ba-msg");
+  const btn = document.getElementById("ba-submit");
+  const aksesLevel = {};
+  ["n5","n4","n3","n2","n1"].forEach(l => aksesLevel[l] = !!document.getElementById("ba-"+l)?.checked);
+  btn.disabled = true; msg.style.color = "var(--gray)"; msg.textContent = "Membuat akun…";
+  try {
+    await FB.buatAkunSiswa({ email: v("ba-email"), password: v("ba-pwd"), nama: v("ba-nama"), kelas: v("ba-kelas"),
+                             aksesLevel, role: v("ba-role") || "student" });
+    toast("✓ Akun " + v("ba-email") + " dibuat");
+    renderTab();
+  } catch(e){
+    msg.style.color = "var(--red)"; msg.textContent = e.message || String(e);
+    btn.disabled = false;
+  }
+};
+window.toggleStatus = async (uid, sedangNonaktif) => {
+  try {
+    await FB.setStatusSiswa(uid, sedangNonaktif);
+    toast(sedangNonaktif ? "Akun diaktifkan" : "Akun dinonaktifkan");
+    renderTab();
+  } catch(e){ toast("Gagal: " + (e.message || e)); }
+};
 window.toggleAkses = async (uid, lvl) => {
   const s = state.siswaList.find(x => x.uid === uid);
   s.aksesLevel = s.aksesLevel || { n5:true, n4:false, n3:false, n2:false, n1:false };
   s.aksesLevel[lvl] = !s.aksesLevel[lvl];
-  await FB.updateAksesSiswa(uid, s.aksesLevel);
-  toast("Akses diupdate");
+  try {
+    await FB.updateAksesSiswa(uid, s.aksesLevel);
+    toast(`Akses ${lvl.toUpperCase()} ${s.aksesLevel[lvl] ? "dibuka" : "ditutup"}`);
+  } catch(e){ toast("Gagal simpan akses: " + (e.message || e)); }
   renderTab();
 };
 window.updateKelas = async (uid, kls) => {
