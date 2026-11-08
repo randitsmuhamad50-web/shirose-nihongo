@@ -19,9 +19,20 @@ service cloud.firestore {
     function isSignedIn()      { return request.auth != null; }
     function uid()             { return request.auth.uid; }
     function siswa(uidX)       { return get(/databases/$(database)/documents/siswa/$(uidX)).data; }
-    function isGuru()          { return isSignedIn() && (siswa(uid()).role == "guru"); }
-    function isDeveloper()     { return isSignedIn() && (siswa(uid()).role == "developer"); }
-    function isAdmin()         { return isSignedIn() && (siswa(uid()).role == "admin"); }
+    // Bootstrap: when a brand-new signup happens, the siswa doc doesn't exist
+    // yet, so siswa(uid()).role would fail — we recognize "owner" emails here
+    // so the first sign-in from the guru/dev email can read/write and set its
+    // own role. Edit this list to match your own hardcoded GURU_EMAIL /
+    // DEVELOPER_EMAIL in js/firebase-sync.js.
+    function ownerEmails()     { return ["randitsmuhamad50@gmail.com"]; }
+    function isOwnerEmail()    { return isSignedIn() && request.auth.token.email in ownerEmails(); }
+    function roleOrBlank(uidX) {
+      return exists(/databases/$(database)/documents/siswa/$(uidX))
+             ? siswa(uidX).role : "";
+    }
+    function isGuru()          { return isSignedIn() && (roleOrBlank(uid()) == "guru"      || isOwnerEmail()); }
+    function isDeveloper()     { return isSignedIn() && (roleOrBlank(uid()) == "developer" || isOwnerEmail()); }
+    function isAdmin()         { return isSignedIn() && (roleOrBlank(uid()) == "admin"     || isOwnerEmail()); }
     function hasLevelAccess(l) { return isSignedIn() && (siswa(uid()).aksesLevel[l] == true); }
 
     // ---------- /siswa/{uid} ----------
@@ -29,17 +40,23 @@ service cloud.firestore {
       // Student bisa baca dokumennya sendiri; guru bisa baca semua.
       allow read: if isSignedIn() && (uid() == sid || isGuru() || isAdmin() || isDeveloper());
 
-      // Create: hanya saat sign-up untuk diri sendiri, tanpa boleh set role/aksesLevel bebas.
+      // Create: hanya saat sign-up untuk diri sendiri. role hanya boleh di-set
+      // oleh owner email (bootstrap pertama kali) atau tidak di-set sama sekali.
       allow create: if isSignedIn() && uid() == sid
-                    && !("role" in request.resource.data) // role di-set server-side / admin
+                    && (
+                         !("role" in request.resource.data)
+                         || (isOwnerEmail() && request.resource.data.role in ["guru","developer","admin"])
+                       )
                     && (!("aksesLevel" in request.resource.data) || request.resource.data.aksesLevel.n5 == true);
 
       // Update: siswa bisa update profil ringan (nama, karakter), TAPI tidak boleh
-      // mengubah role atau aksesLevel-nya sendiri. Guru/admin bisa update aksesLevel siswa.
+      // mengubah role atau aksesLevel-nya sendiri. Guru/admin/owner bisa update role & aksesLevel siswa.
       allow update: if isSignedIn() && (
         (uid() == sid
           && !request.resource.data.diff(resource.data).affectedKeys().hasAny(["role","aksesLevel"]))
         || isGuru() || isAdmin() || isDeveloper()
+        // Owner email can always upgrade its own role (bootstrap recovery).
+        || (uid() == sid && isOwnerEmail())
       );
 
       allow delete: if isAdmin() || isDeveloper();

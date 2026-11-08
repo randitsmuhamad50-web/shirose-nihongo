@@ -140,16 +140,30 @@ export function onAuth(cb) {
   onReadyCallbacks.push(cb);
 }
 
+// What role should a brand-new siswa doc carry? Guru / developer emails get
+// elevated automatically so the first login already behaves as teacher, which
+// also lets Firestore's isGuru() rule read other students. Everybody else is
+// "student". Needs the updated firestore.rules.example (allows role at create
+// when email matches the bootstrap list).
+function _bootstrapRoleFor(u){
+  if (!u || !u.email) return "student";
+  if (u.email === DEVELOPER_EMAIL) return "developer";
+  if (u.email === GURU_EMAIL)      return "guru";
+  return "student";
+}
+
 async function ensureSiswaDoc(u) {
   const ref = doc(db, "siswa", u.uid);
   try {
     const snap = await getDoc(ref);
     if (!snap.exists()) {
+      const role = _bootstrapRoleFor(u);
       const data = {
         nama: u.displayName || u.email.split("@")[0],
         email: u.email,
         kelas: "",
-        aksesLevel: isGuru(u)
+        role,
+        aksesLevel: (role === "guru" || role === "developer" || role === "admin")
           ? { n5:true, n4:true, n3:true, n2:true, n1:true }
           : { n5:true, n4:false, n3:false, n2:false, n1:false },
         karakter: {
@@ -172,14 +186,32 @@ async function ensureSiswaDoc(u) {
         await setDoc(ref, data);
         currentSiswaDoc = data;
       } catch (writeErr){
-        // Firestore rules may still block the first-time write for guests, but
-        // auth itself is fine — give the caller a usable in-memory doc so the
-        // UI doesn't think "akun engga terdetect".
-        console.warn("ensureSiswaDoc: setDoc failed, using in-memory doc:", writeErr);
-        currentSiswaDoc = data;
+        // If the role field is the thing being rejected (stale rules), retry
+        // without it so the student at least ends up signed-in rather than
+        // stuck as "tamu". A guru/developer can still fix the role later via
+        // the admin panel or the Firebase console.
+        console.warn("ensureSiswaDoc: setDoc failed, retrying without role:", writeErr);
+        try {
+          const { role: _r, ...noRole } = data;
+          await setDoc(ref, noRole);
+          currentSiswaDoc = noRole;
+        } catch (writeErr2){
+          console.warn("ensureSiswaDoc: fallback setDoc also failed, using in-memory doc:", writeErr2);
+          currentSiswaDoc = data;
+        }
       }
     } else {
       currentSiswaDoc = snap.data();
+      // If a known guru/developer email is still "student" in the siswa doc
+      // (legacy signup), try to upgrade their role transparently. Needs the
+      // bootstrap-friendly rules; otherwise this is a no-op.
+      const wantedRole = _bootstrapRoleFor(u);
+      if (wantedRole !== "student" && currentSiswaDoc.role !== wantedRole){
+        try {
+          await updateDoc(ref, { role: wantedRole });
+          currentSiswaDoc.role = wantedRole;
+        } catch (_e){ /* rules may forbid; non-fatal */ }
+      }
       // update last active (non-fatal)
       updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
     }
@@ -191,6 +223,7 @@ async function ensureSiswaDoc(u) {
       nama: u.displayName || u.email.split("@")[0],
       email: u.email,
       kelas: "",
+      role: _bootstrapRoleFor(u),
       aksesLevel: { n5:true, n4:false, n3:false, n2:false, n1:false },
       karakter: null,
     };

@@ -4389,7 +4389,15 @@ window.lbSetKind = (kind) => {
 };
 
 /* ========== AUTH STATE ========== */
+// Tracks whether we've been through the auth callback at least once. Used
+// below to decide whether "no user yet" means "first visit → show login" or
+// "user just signed out → stay where they are".
+let _authFiredOnce = false;
+
 FB.onAuth(async (user, siswa) => {
+  const firstFire = !_authFiredOnce;
+  _authFiredOnce = true;
+
   state.user = user; state.siswa = siswa;
   const btn = document.getElementById("btn-auth");
   if (user) {
@@ -4401,23 +4409,52 @@ FB.onAuth(async (user, siswa) => {
     btn.onclick = () => route("login");
     document.getElementById("guru-link").classList.add("hidden");
   }
+
   // Snap to an allowed level before loading gami / rendering routes
   if (user && siswa) enforceLevelAccess();
   await loadGami();
   renderLevelPills();
   updateChips();
-  // If user just logged in and is still on the login page, send them home.
-  const currentHash = (location.hash.slice(1) || "home").split("/")[0];
+
+  const currentHash = (location.hash.slice(1) || "").split("/")[0];
+
+  // Decide where to go now:
+  //  1. User JUST logged in (or was already logged in on first fire) and
+  //     we're sitting on the login page → bounce to home so the UI really
+  //     switches out of guest mode. This fixes "udah login tapi masih jadi
+  //     tamu" — Firebase auth works, but the page was still showing login.
+  //  2. First page load and no user yet → show the dedicated login page so
+  //     people don't accidentally browse as guest ("diawla harus udah muncul
+  //     halaman login").
+  //  3. Otherwise, just re-render the current route so state.user / state.siswa
+  //     changes are reflected (e.g. after sign-out stay on home but as guest).
   if (user && (currentHash === "login" || currentHash === "masuk" || currentHash === "daftar")){
     route("home");
+  } else if (!user && firstFire && (currentHash === "" || currentHash === "home")){
+    route("login");
   } else {
-    route(location.hash.slice(1) || "home");
+    route(location.hash.slice(1) || (user ? "home" : "login"));
   }
 });
 
 /* ========== INIT ========== */
 renderLevelPills();
 updateChips();
+// Pre-paint the login page immediately so the first thing the user sees is
+// the login form, not an empty "Memuat…" state. Firebase may take ~500ms to
+// restore a persisted session; onAuth above will swap routes to home once
+// that resolves, or keep us on login if no session was persisted.
+(function _paintLoginFirst(){
+  try {
+    const app = document.getElementById("app");
+    if (!app) return;
+    // Only pre-paint when the URL has no specific target; a deep link should
+    // render its own route when onAuth fires.
+    if (location.hash && location.hash.length > 1) return;
+    document.body.classList.add("auth-mode");
+    app.innerHTML = renderLogin();
+  } catch(e){ /* best-effort; onAuth will render properly */ }
+})();
 window.addEventListener("hashchange", () => route(location.hash.slice(1) || "home"));
 
 // Register SW
