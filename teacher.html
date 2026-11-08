@@ -114,7 +114,8 @@ input:focus, select:focus, textarea:focus{outline:none; border-color:var(--pink)
 <div class="toast-wrap" id="toasts"></div>
 <div class="modal-backdrop" id="modal"><div class="modal" id="modal-body"></div></div>
 
-<script src="https://cdn.jsdelivr.net/npm/xlsx@0.20.3/dist/xlsx.full.min.js"></script>
+<!-- XLSX: SheetJS CDN resmi. jsdelivr/npm sudah 404 sejak SheetJS keluar dari npm. -->
+<script src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 import * as FB from "./js/firebase-sync.js";
