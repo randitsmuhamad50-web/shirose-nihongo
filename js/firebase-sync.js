@@ -992,6 +992,20 @@ export async function listNilaiOf(uid, limitN = 100) {
   return snap.docs.map(d => ({ id: d.id, ...d.data() }));
 }
 // Teacher view: count SRS mastery per level. Returns { n5:{mastered,total}, ... }
+// Teacher view: kartu SRS mentah per level ({ n5:{key:{mastered,...}}, ... }) —
+// dipakai untuk menghitung progres sylabus dengan rumus yang sama seperti
+// halaman Sylabus siswa.
+export async function getSiswaSrsAll(uid) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  const result = {};
+  await Promise.all(["n5","n4","n3","n2","n1"].map(async lvl => {
+    try {
+      const snap = await getDoc(doc(db, "siswa", uid, "srs", lvl));
+      result[lvl] = snap.exists() ? (snap.data().kartu || {}) : {};
+    } catch(_) { result[lvl] = {}; }
+  }));
+  return result;
+}
 export async function getSiswaMasteryCounts(uid) {
   if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
   const result = {};
