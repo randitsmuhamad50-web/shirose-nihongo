@@ -43,6 +43,31 @@ const GURU_EMAIL = "randitsmuhamad50@gmail.com";
 // separate so a future rename or multi-guru setup doesn't dilute dev powers.
 const DEVELOPER_EMAIL = "randitsmuhamad50@gmail.com";
 
+// Branding publik. Email moderator di atas tetap dipakai INTERNAL untuk
+// autentikasi/role — jangan pernah ditampilkan ke siswa. Nama tampilan
+// publik akun moderator/owner selalu memakai brand ini.
+export const BRAND_NAME = "bysswnoou";
+function _isOwnerEmail(email){ return !!email && (email === GURU_EMAIL || email === DEVELOPER_EMAIL); }
+// Nama lama yang bocor dari prefix email moderator (mis. "randitsmuhamad50").
+function _isLegacyOwnerNama(nama){
+  if (!nama) return true;
+  const ownerPrefixes = [GURU_EMAIL, DEVELOPER_EMAIL].map(e => e.split("@")[0].toLowerCase());
+  const n = String(nama).toLowerCase();
+  return ownerPrefixes.includes(n) || n.includes("randitsmuhamad");
+}
+// Bersihkan nama lama yang tersimpan di Firestore (mis. komentar lama).
+function _cleanNama(nama){
+  if (!nama) return nama;
+  const ownerPrefixes = [GURU_EMAIL, DEVELOPER_EMAIL].map(e => e.split("@")[0].toLowerCase());
+  const n = String(nama).toLowerCase();
+  return (ownerPrefixes.includes(n) || n.includes("randitsmuhamad")) ? BRAND_NAME : nama;
+}
+/** Nama tampilan publik yang aman untuk user mana pun (tidak pernah membocorkan email owner). */
+export function publicNama(u, siswaDoc){
+  if (u && _isOwnerEmail(u.email)) return BRAND_NAME;
+  return siswaDoc?.nama || (u?.email ? u.email.split("@")[0] : "") || "Anon";
+}
+
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
@@ -174,9 +199,10 @@ async function ensureSiswaDoc(u, extra = {}) {
   const emailStr = u.email || "";
   const defaultNama = u.isAnonymous
     ? `Tamu-${u.uid.slice(0, 5)}`
-    : (emailStr ? emailStr.split("@")[0] : `User-${u.uid.slice(0, 5)}`);
+    : (_isOwnerEmail(emailStr) ? BRAND_NAME
+       : (emailStr ? emailStr.split("@")[0] : `User-${u.uid.slice(0, 5)}`));
   const base = {
-    nama: extra.nama || u.displayName || defaultNama,
+    nama: _isOwnerEmail(emailStr) ? BRAND_NAME : (extra.nama || u.displayName || defaultNama),
     email: emailStr,
     isTamu: !!u.isAnonymous,
     kelas: "",
@@ -239,6 +265,17 @@ async function ensureSiswaDoc(u, extra = {}) {
         });
         currentSiswaDoc.aksesLevel = full;
       }
+    }
+
+    // Rebranding: nama publik akun moderator lama masih "randitsmuhamad50"
+    // (prefix email). Ganti ke BRAND_NAME supaya tidak tampil di leaderboard
+    // / komentar / daftar siswa. Email TIDAK diubah. Rules mengizinkan user
+    // mengubah `nama` dokumennya sendiri.
+    if (_isOwnerEmail(emailStr) && _isLegacyOwnerNama(currentSiswaDoc.nama)){
+      currentSiswaDoc.nama = BRAND_NAME;
+      updateDoc(ref, { nama: BRAND_NAME }).catch(e => {
+        console.warn("rename owner nama blocked:", e?.code);
+      });
     }
 
     // Bootstrap guru/developer role untuk owner email.
@@ -481,7 +518,7 @@ export async function listKomentar(tipe, lvl, no) {
     const col = collection(db, "komentar", key, "items");
     const q = query(col, orderBy("created", "desc"), limit(50));
     const snap = await getDocs(q);
-    return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+    return snap.docs.map(d => { const x = d.data(); return { id: d.id, ...x, nama: _cleanNama(x.nama) }; });
   } catch (e) { console.warn("listKomentar failed:", e.message); return []; }
 }
 export async function tambahKomentar(tipe, lvl, no, text) {
@@ -489,7 +526,7 @@ export async function tambahKomentar(tipe, lvl, no, text) {
   const clean = (text || "").toString().trim().slice(0, 1000);
   if (!clean) throw new Error("Teks komentar kosong");
   const key = _cmtKey(tipe, lvl, no);
-  const nama = currentSiswaDoc?.nama || currentUser.email?.split("@")[0] || "Anon";
+  const nama = publicNama(currentUser, currentSiswaDoc);
   const kelas = currentSiswaDoc?.kelas || "";
   const col = collection(db, "komentar", key, "items");
   return await addDoc(col, {
@@ -911,7 +948,7 @@ export async function leaderboard(level, topN = 20) {
           const sdata = d.data();
           result.push({
             uid: d.id,
-            nama: sdata.nama || "Anonim",
+            nama: _isOwnerEmail(sdata.email) ? BRAND_NAME : (sdata.nama || "Anonim"),
             kelas: sdata.kelas || "",
             avatar: sdata.karakter?.equipped || null,
             ...g.data()
@@ -938,7 +975,7 @@ export async function leaderboardAdvanced(kind = "global", topN = 20) {
       const sdata = d.data();
       const entry = {
         uid: d.id,
-        nama: sdata.nama || "Anonim",
+        nama: _isOwnerEmail(sdata.email) ? BRAND_NAME : (sdata.nama || "Anonim"),
         kelas: sdata.kelas || "",
         avatar: sdata.karakter?.equipped || null,
         score: 0, meta: "",
