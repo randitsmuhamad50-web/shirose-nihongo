@@ -1,24 +1,83 @@
 {
   "voices": {
-    "kurono":  {"name": "玄野武宏",   "style": "ノーマル", "label": "Kurono Takehiro — pemuda segar (cowok standar)", "speed": 1.0,  "pitch": 0.0, "intonation": 1.05, "volume": 1.0},
-    "kotaro":  {"name": "白上虎太郎", "style": "ふつう",   "label": "Shirakami Kotaro — siswa laki-laki",            "speed": 1.0,  "pitch": 0.0, "intonation": 1.1,  "volume": 1.0},
-    "aoyama":  {"name": "青山龍星",   "style": "ノーマル", "label": "Aoyama Ryusei — guru / narator, suara berat",  "speed": 0.97, "pitch": 0.0, "intonation": 1.0,  "volume": 1.0},
-    "mochiko": {"name": "もち子さん", "style": "ノーマル", "label": "Mochiko-san — perempuan jelas & tenang",       "speed": 1.08, "pitch": 0.0, "intonation": 1.05, "volume": 1.0},
-    "kenzaki": {"name": "剣崎雌雄",   "style": "ノーマル", "label": "Kenzaki Mesuo — pengumuman & instruksi",       "speed": 0.95, "pitch": 0.0, "intonation": 1.0,  "volume": 1.0},
-    "goki":    {"name": "後鬼",       "style": "人間ver.", "label": "Goki — perempuan dewasa / ibu",                "speed": 0.97, "pitch": 0.0, "intonation": 1.0,  "volume": 1.0},
-    "no7":     {"name": "No.7",       "style": "ノーマル", "label": "No.7 — perempuan tegas (guru/atasan)",          "speed": 1.0,  "pitch": 0.0, "intonation": 1.0,  "volume": 1.0},
-    "sourin":  {"name": "麒ヶ島宗麟", "style": "ノーマル", "label": "Kigashima Sourin — bapak tua / tokoh senior",  "speed": 0.95, "pitch": 0.0, "intonation": 1.0,  "volume": 1.0},
-    "nana":    {"name": "春歌ナナ",   "style": "ノーマル", "label": "Haruka Nana — siswi ceria",                    "speed": 1.02, "pitch": 0.0, "intonation": 1.1,  "volume": 1.0},
-    "kurita":  {"name": "栗田まろん", "style": "ノーマル", "label": "Kurita Maron — cowok kalem / pendiam",         "speed": 1.0,  "pitch": 0.0, "intonation": 1.0,  "volume": 1.0}
+    "aoyama": {
+      "name": "青山龍星",
+      "style": "ノーマル",
+      "label": "Aoyama Ryusei — narator, guru & instruksi (suara berat)",
+      "speed": 0.97,
+      "pitch": 0.0,
+      "intonation": 1.0,
+      "volume": 1.0
+    },
+    "mochiko": {
+      "name": "もち子さん",
+      "style": "ノーマル",
+      "label": "Mochiko-san — perempuan jelas & tenang",
+      "speed": 1.08,
+      "pitch": 0.0,
+      "intonation": 1.05,
+      "volume": 1.0
+    },
+    "goki": {
+      "name": "後鬼",
+      "style": "人間ver.",
+      "label": "Goki — perempuan dewasa / ibu",
+      "speed": 0.97,
+      "pitch": 0.0,
+      "intonation": 1.0,
+      "volume": 1.0
+    },
+    "no7": {
+      "name": "No.7",
+      "style": "ノーマル",
+      "label": "No.7 — perempuan tegas (guru/atasan)",
+      "speed": 1.0,
+      "pitch": 0.0,
+      "intonation": 1.0,
+      "volume": 1.0
+    },
+    "sourin": {
+      "name": "麒ヶ島宗麟",
+      "style": "ノーマル",
+      "label": "Kigashima Sourin — bapak tua / tokoh senior",
+      "speed": 0.95,
+      "pitch": 0.0,
+      "intonation": 1.0,
+      "volume": 1.0
+    },
+    "nana": {
+      "name": "春歌ナナ",
+      "style": "ノーマル",
+      "label": "Haruka Nana — siswi ceria",
+      "speed": 1.02,
+      "pitch": 0.0,
+      "intonation": 1.1,
+      "volume": 1.0
+    },
+    "kurita": {
+      "name": "栗田まろん",
+      "style": "ノーマル",
+      "label": "Kurita Maron — cowok / siswa laki-laki",
+      "speed": 1.0,
+      "pitch": 0.0,
+      "intonation": 1.0,
+      "volume": 1.0
+    }
   },
   "roles": {
     "kosakata": "mochiko",
-    "kosakata-contoh": "kurono",
+    "kosakata-contoh": "aoyama",
     "kanji": "no7",
     "kanji-contoh": "no7",
     "bunpou-contoh": "aoyama",
-    "pengumuman": "kenzaki",
+    "pengumuman": "aoyama",
     "umum": "mochiko"
   },
-  "materiSpeed": {"kosakata": 0.92, "kanji": 0.92, "kanji-contoh": 0.92, "kosakata-contoh": 0.95, "bunpou-contoh": 0.95}
+  "materiSpeed": {
+    "kosakata": 0.92,
+    "kanji": 0.92,
+    "kanji-contoh": 0.92,
+    "kosakata-contoh": 0.95,
+    "bunpou-contoh": 0.95
+  }
 }

@@ -83,13 +83,13 @@ function setPlayBtn(id, on, mode){
   if (m && mode !== undefined) m.textContent = mode;
 }
 window.addEventListener("sv:stop", (e) => { if (_playingId && e.detail?.next !== _playingId){ setPlayBtn(_playingId, false, ""); _playingId = null; } });
-const DEF_VOICES = { N: "kenzaki", M: "kurono", F: "mochiko", M2: "kurita", F2: "no7" };
+const DEF_VOICES = { N: "aoyama", M: "kurita", F: "mochiko", M2: "sourin", F2: "no7" };
 async function playItem(lvl, id){
   if (_playingId === id){ SV.stop(); return; }
   const data = await loadChoukai(lvl);
   let it = null;
   for (const s of data.sections){
-    if (`${lvl}-m${s.mondai}-intro` === id){ it = { audio: s.instrAudio, script: [{ s: "N", t: s.instr }], voices: { N: s.instrVoice || "kenzaki" } }; break; }
+    if (`${lvl}-m${s.mondai}-intro` === id){ it = { audio: s.instrAudio, script: [{ s: "N", t: s.instr }], voices: { N: s.instrVoice || "aoyama" } }; break; }
     const f = s.items.find(x => x.id === id); if (f){ it = f; break; }
   }
   if (!it) return;
@@ -220,7 +220,7 @@ export async function renderChoukaiJLPT(params){
       </div>
       <div class="panel ck-wrap" style="margin-top:12px;">
         <h3>🎙️ Suara VOICEVOX</h3>
-        <p class="ck-intro">10 karakter suara yang dipakai di Shirose Nihongo. Ketuk untuk mendengar contoh.</p>
+        <p class="ck-intro">Karakter suara yang dipakai di Shirose Nihongo. Ketuk untuk mendengar contoh.</p>
         <div class="vv-grid" id="vv-grid"></div>
         <p class="vv-credit" id="vv-credit"></p>
       </div>`;

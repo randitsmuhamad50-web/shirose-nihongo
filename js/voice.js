@@ -5,7 +5,7 @@
  *   1. Voice pack VOICEVOX yang sudah dibuat (file MP3 di /audio/...)
  *   2. VOICEVOX Engine lokal (opsional, http://127.0.0.1:50021) — untuk guru
  *   3. Suara bawaan browser (cadangan terakhir)
- * Hanya 10 karakter di /audio/vv/voices.json yang dipakai.
+ * Hanya karakter di /audio/vv/voices.json yang dipakai.
  * Satu pemutar global: tidak pernah bertumpuk, ada Stop, ulang, kecepatan.
  * ===================================================================== */
 
@@ -151,7 +151,7 @@ async function engineUrl(text, vkey, speed = 1){
 }
 
 /* ---------------- Cadangan: suara browser ---------------- */
-const TTS_PITCH = { kurono: .95, kotaro: 1.15, aoyama: .7, mochiko: 1.2, kenzaki: .85, goki: 1.05, no7: 1.1, sourin: .6, nana: 1.4, kurita: .9 };
+const TTS_PITCH = { aoyama: .7, mochiko: 1.2, goki: 1.05, no7: 1.1, sourin: .6, nana: 1.4, kurita: .9 };
 function ttsLines(lines, my, rate){
   return new Promise((resolve) => {
     cancelPending = () => resolve(false);
@@ -176,6 +176,11 @@ function ttsLines(lines, my, rate){
   });
 }
 
+/** "私[わたし]は…" → "わたしは…" supaya bacaan dalam kurung tidak dibaca dua kali. */
+export function cleanSay(t){
+  return String(t || "").replace(/[\u3005\u4e00-\u9fff\u30f6]+\[([^\]]+)\]/g, "$1").replace(/\[[^\]]*\]/g, "").replace(/\s+/g, "");
+}
+
 /* ---------------- API publik ---------------- */
 /** Ucapkan satu teks. opt.role: kosakata | kanji | kanji-contoh | kosakata-contoh | bunpou-contoh | pengumuman */
 export async function speak(text, opt = {}){
@@ -193,10 +198,10 @@ export async function speak(text, opt = {}){
   }
   const vkey = (CFG.roles || {})[opt.role] || (CFG.roles || {}).umum || "mochiko";
   if (await engineAvailable()){
-    try { const u = await engineUrl(opt.say || text, vkey, 1); if (my === token) await _play(u, { label: CFG.voices[vkey].name + " · VOICEVOX lokal" }, my); return; }
+    try { const u = await engineUrl(cleanSay(opt.say || text), vkey, 1); if (my === token) await _play(u, { label: CFG.voices[vkey].name + " · VOICEVOX lokal" }, my); return; }
     catch(e){ engineOk = false; }
   }
-  if (my === token) await ttsLines([{ t: opt.say || text, v: vkey }], my, prefs().speed);
+  if (my === token) await ttsLines([{ t: cleanSay(opt.say || text), v: vkey }], my, prefs().speed);
 }
 
 /** Putar naskah percakapan (Choukai). file = MP3 voice pack; lines [{s,t}]; voices {s: vkey} */
@@ -215,7 +220,7 @@ export async function playScript({ file, lines, voices, label, rate = 1, pauseN 
       for (let i = 0; i < lines.length; i++){
         if (my !== token) return "stopped";
         show("loading", `Membuat suara ${i + 1}/${lines.length}…`);
-        const u = await engineUrl(lines[i].t, voices[lines[i].s] || "kenzaki", rate);
+        const u = await engineUrl(lines[i].t, voices[lines[i].s] || "aoyama", rate);
         if (my !== token) return "stopped";
         const ok = await _play(u, { label: `${CFG.voices[voices[lines[i].s]]?.name || ""} · VOICEVOX lokal` }, my);
         if (my !== token) return "stopped";

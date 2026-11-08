@@ -85,7 +85,7 @@ def cmd_choukai(levels):
         for sec in d["sections"]:
             out = os.path.join(ROOT, sec["instrAudio"])
             if not os.path.exists(out):
-                to_mp3(silence(.2) + synth(sec["instr"], sec.get("instrVoice", "kenzaki"), sp) + silence(.4), out)
+                to_mp3(silence(.2) + synth(sec["instr"], sec.get("instrVoice", "aoyama"), sp) + silence(.4), out)
             for it in sec["items"]:
                 out = os.path.join(ROOT, it["audio"])
                 if os.path.exists(out): continue
@@ -98,11 +98,19 @@ def cmd_choukai(levels):
                 log("choukai", it["id"])
 
 # ---------------- MATERI (sprite per 50 klip) ----------------
+import re
+_RUBY = re.compile(r"[\u3005\u4e00-\u9fff\u30f6]+\[([^\]]+)\]")
+def clean_say(t):
+    """'私[わたし]は 学生[がくせい]だ。' -> 'わたしは学生だ。' (bacaan dalam kurung dipakai, tidak dibaca dua kali)."""
+    t = _RUBY.sub(lambda m: m.group(1), t or "")
+    t = re.sub(r"\[[^\]]*\]", "", t)
+    return re.sub(r"\s+", "", t)
+
 def materi_jobs(lvl):
     """(kategori, kunci teks yang dipakai situs, teks yang dibacakan, voice)."""
     R = CFG["roles"]; jobs = {}
     def add(cat, key, say):
-        key = (key or "").strip(); say = (say or key).strip()
+        key = (key or "").strip(); say = clean_say(say or key)
         if key and key not in jobs.setdefault(cat, {}): jobs[cat][key] = say
     for it in json.load(open(os.path.join(ROOT, "data", f"kosakata-{lvl}.json"), encoding="utf-8")):
         kata = it.get("kata") or it.get("k") or ""; kana = it.get("kana") or it.get("f") or ""
