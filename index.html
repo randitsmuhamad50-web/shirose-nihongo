@@ -1292,8 +1292,8 @@ body.auth-mode .companion{display:none !important;}
 import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
-// ?v=20261108f — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261108f";
+// ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
+import * as FB from "./js/firebase-sync.js?v=20261108h";
 
 /* ========== STATE ========== */
 const state = {
@@ -1588,8 +1588,13 @@ function friendlyAuthError(e){
 }
 
 function renderLogin(){
-  state.authMode = state.authMode || "login";
-  const isDaftar = state.authMode === "daftar";
+  // Pendaftaran mandiri & mode tamu ditutup — akun dibuat guru/moderator.
+  state.authMode = "login";
+  const isDaftar = false;
+  const denied = FB.getLastAuthDenied ? FB.getLastAuthDenied() : null;
+  const deniedMsg = denied === "not_registered"
+    ? "Akun ini belum terdaftar sebagai siswa. Minta guru/moderator mendaftarkan akunmu."
+    : denied === "disabled" ? "Akun ini sedang dinonaktifkan. Hubungi guru/moderator." : "";
   return `
     <div class="auth-page">
       <div class="auth-card">
@@ -1597,7 +1602,7 @@ function renderLogin(){
         <h2 id="auth-page-title">${isDaftar ? "Buat akun baru" : "Masuk ke akunmu"}</h2>
         <p class="sub" id="auth-page-sub">${isDaftar
           ? "Daftar sekali, progres belajar kamu tersimpan otomatis."
-          : "Masuk untuk simpan progres belajar & sinkronisasi antar perangkat."}</p>
+          : "Masuk dengan akun yang diberikan guru. Progres tersimpan & tersinkron di semua perangkat."}</p>
 
         <div class="form-group" id="auth-page-nama-grp" style="display:${isDaftar ? "block" : "none"};">
           <label>Nama</label>
@@ -1613,36 +1618,12 @@ function renderLogin(){
         </div>
 
         <button class="btn" id="auth-page-submit" onclick="submitAuthPage()">${isDaftar ? "Daftar Sekarang" : "Masuk"}</button>
-        <button class="btn ghost" onclick="toggleAuthPageMode()">${isDaftar ? "Sudah punya akun? Masuk di sini" : "Belum punya akun? Daftar dulu"}</button>
-        ${isDaftar ? "" : `<button class="btn ghost" onclick="kirimResetPassword()" style="font-size:12px;">Lupa password?</button>`}
-        <div style="margin:14px 0 8px; text-align:center; color:var(--gray-dim); font-size:12px;">— atau —</div>
-        <button class="btn gold" onclick="masukTamuNow()" style="width:100%;">👤 Lanjut sebagai Tamu</button>
-        <p style="font-size:11px; color:var(--gray); margin:6px 0 0; text-align:center;">Bisa langsung coba ujian tanpa daftar. Progres tidak tersimpan permanen.</p>
+        <button class="btn ghost" onclick="kirimResetPassword()" style="font-size:12px;">Lupa password?</button>
+        <p style="font-size:13px; color:var(--gray); margin:10px 0 0; text-align:center;">Belum punya akun? Akun siswa dibuat oleh guru/moderator.</p>
         <button class="btn ghost" onclick="route('home')" style="margin-top:12px;">← Kembali ke beranda</button>
 
-        <div id="auth-page-err" class="auth-err"></div>
+        <div id="auth-page-err" class="auth-err">${deniedMsg}</div>
 
-        <!-- Panel self-recovery untuk akun yang "rusak" -->
-        <details style="margin-top:20px; padding:12px; border:1px solid var(--border); border-radius:10px; background:rgba(0,0,0,.2);">
-          <summary style="cursor:pointer; color:var(--gold); font-weight:700;">⚠️ Akun saya rusak / tidak bisa login — reset akun</summary>
-          <div style="padding:10px 0; font-size:13px; color:var(--gray); line-height:1.6;">
-            Kalau kamu pernah daftar tapi sekarang:
-            <ul style="margin:6px 0 6px 20px;">
-              <li>Tidak bisa login padahal password sudah benar, atau</li>
-              <li>Login berhasil tapi aplikasi stuck / crash, atau</li>
-              <li>Email kamu "sudah terdaftar" padahal kamu belum pernah berhasil masuk</li>
-            </ul>
-            Masukkan email + password akun yang rusak di form atas, klik <b>Masuk</b> dulu (meski error),
-            kemudian tekan tombol di bawah untuk hapus akun ini:
-            <div style="margin-top:10px;">
-              <button class="btn danger" onclick="hapusAkunRusak()">🗑️ Login + Hapus Akun Rusak</button>
-            </div>
-            <p style="font-size:11px; margin-top:8px;">
-              Setelah akun dihapus, email bisa dipakai daftar ulang. Semua progres hilang
-              — tapi akun rusak memang tidak punya progres apa-apa.
-            </p>
-          </div>
-        </details>
       </div>
     </div>
   `;
@@ -1762,8 +1743,8 @@ window.submitAuthPage = async () => {
       await FB.login(email, pwd);
       toast("Selamat datang! 👋");
     }
-    // onAuth listener will update UI; go to home after a tick so state settles.
-    setTimeout(() => route("home"), 350);
+    // onAuth listener yang memindahkan ke home (kalau akun terdaftar & aktif)
+    // atau kembali ke halaman login dengan pesan (kalau akun ditolak).
   } catch(e){
     console.error("Auth error:", e);
     // Kasus khusus: akun tercipta di Auth tapi siswa doc gagal — kasih panduan
@@ -1790,31 +1771,28 @@ window.submitAuthPage = async () => {
 function renderLevelPills(){
   const pills = document.getElementById("lvl-pills");
   const levels = ["n5","n4","n3","n2","n1"];
-  // WORKAROUND Nov 2026: tidak ada lock di level pills — semua terbuka.
-  // Kode cek aksesLevel dulu dipertahankan untuk dibalikin nanti.
+  // Level yang belum dibuka guru ditandai gembok. Validasi sebenarnya ada
+  // di Firestore Rules (soal & choukai hanya bisa dibaca bila aksesLevel aktif).
   pills.innerHTML = levels.map(l => {
     const active = state.level === l;
-    return `<button class="lvl-pill ${active?'active':''}" onclick="setLevel('${l}')">${l.toUpperCase()}</button>`;
+    const ok = canAccessLevel(l);
+    return `<button class="lvl-pill ${active?'active':''} ${ok?'':'locked'}" style="${ok?'':'opacity:.45;'}" title="${ok?'':'Belum dibuka guru'}" onclick="setLevel('${l}')">${ok?'':'🔒'}${l.toUpperCase()}</button>`;
   }).join("");
 }
-// WORKAROUND Nov 2026 (permintaan guru): semua user, termasuk guest
-// yang belum login, dapat akses semua level N5-N1. Kode lama yang cek
-// per-level dipertahankan di bawah (dikomentari) supaya mudah dibalikin
-// nanti kalau guru mau kembali ke access control per-user.
+// Akses JLPT per siswa (field siswa.aksesLevel, diatur guru di teacher.html).
+// Harus login dengan akun terdaftar; guru/moderator bisa membuka semua level.
 function canAccessLevel(lvl){
   if (!lvl) return false;
-  return true;
-  /* === per-user access (restored later) ===
+  if (!state.user) return false;
   if (FB.userIsGuru()) return true;
   const akses = state.siswa?.aksesLevel;
-  if (!akses){ return lvl === "n5"; } // sensible default for guest / new signup
-  return !!akses[lvl];
-  */
+  return !!(akses && akses[lvl]);
 }
 window.canAccessLevel = canAccessLevel;
 
 window.setLevel = async (lvl) => {
   if (!canAccessLevel(lvl)){
+    if (!state.user){ toast("🔑 Masuk dulu dengan akun dari guru"); route("login"); return; }
     toast("🔒 Level " + lvl.toUpperCase() + " belum dibuka — hubungi guru untuk akses");
     return;
   }
@@ -1991,7 +1969,22 @@ window.route = (path) => {
   _updateFabNav(name);
 
   // Enforce JLPT access before rendering level-scoped content.
+  if (LEVEL_SCOPED_ROUTES.has(name) && !state.user){
+    const app = document.getElementById("app");
+    app.innerHTML = `
+      <div class="panel">
+        <h2>🔑 Masuk dulu</h2>
+        <div class="empty"><div class="emoji">🔑</div>
+          Materi dan ujian hanya untuk siswa terdaftar.<br>Masuk dengan akun yang diberikan guru.</div>
+        <button class="btn" onclick="route('login')">Masuk</button>
+        <button class="btn ghost" onclick="route('home')">🏠 Kembali Home</button>
+      </div>`;
+    return;
+  }
   if (LEVEL_SCOPED_ROUTES.has(name) && !canAccessLevel(state.level)){
+    // Pindah otomatis ke level pertama yang dibuka bila ada.
+    const firstOpen = ["n5","n4","n3","n2","n1"].find(l => canAccessLevel(l));
+    if (firstOpen){ state.level = firstOpen; localStorage.setItem("shirose-lvl", firstOpen); renderLevelPills(); return route(path); }
     const app = document.getElementById("app");
     const unlocked = Object.entries(state.siswa?.aksesLevel || {}).filter(([,v]) => v).map(([k]) => k.toUpperCase());
     app.innerHTML = `
@@ -4779,7 +4772,10 @@ FB.onAuth(async (user, siswa) => {
   //     halaman login").
   //  3. Otherwise, just re-render the current route so state.user / state.siswa
   //     changes are reflected (e.g. after sign-out stay on home but as guest).
-  if (user && (currentHash === "login" || currentHash === "masuk" || currentHash === "daftar")){
+  if (!user && FB.lastAuthDenied){
+    // Akun berhasil autentikasi tapi tidak terdaftar / nonaktif → tolak.
+    route("login");
+  } else if (user && (currentHash === "login" || currentHash === "masuk" || currentHash === "daftar")){
     route("home");
   } else if (!user && firstFire && (currentHash === "" || currentHash === "home")){
     route("login");
