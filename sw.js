@@ -1,9 +1,8 @@
 /* Service worker: network-first, cache fallback */
-// v11 — strip furigana saat ujian, soal urut sesuai Excel (tidak diacak),
-// template Excel diperbaiki (hapus Gambar_URL, tambah petunjuk lengkap),
-// "Kategori Ujian" → "Paket Soal" dengan auto-numbering & rename mudah,
-// mode Tamu via Firebase Anonymous Auth.
-const CACHE = "shirose-nihongo-v11";
+// v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
+// benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
+// tombol prev/next, tombol "Ulangi Ujian".
+const CACHE = "shirose-nihongo-v12";
 const CORE = [
   "./",
   "./index.html",

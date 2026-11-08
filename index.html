@@ -1292,8 +1292,8 @@ body.auth-mode .companion{display:none !important;}
 import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
-// ?v=20261108e — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261108e";
+// ?v=20261108f — cache-buster, lihat catatan sama di teacher.html.
+import * as FB from "./js/firebase-sync.js?v=20261108f";
 
 /* ========== STATE ========== */
 const state = {
@@ -3667,26 +3667,25 @@ window.ujianNav = (dir) => {
 window.ujianSelesai = async () => {
   _stopUjianTimer();
   const u = state.ujian;
-  // Fetch kategori again to know lulus threshold
   let kat = null;
   try {
     const list = await FB.listKategori(state.level);
     kat = list.find(x => x.id === u.kategoriId);
   } catch(e) { /* guest or offline */ }
   const lulusMin = kat?.lulus || 60;
-  let benar = 0, salah = 0;
+  let benar = 0, salah = 0, kosong = 0;
   u.soal.forEach((s, i) => {
     const pick = u.jawaban[i];
     const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
-    if (pick === kunci) benar++;
-    else if (pick != null) salah++;
+    if (pick == null) kosong++;
+    else if (pick === kunci) benar++;
+    else salah++;
   });
-  const skor = Math.round((benar / u.soal.length) * 100);
+  const total = u.soal.length;
+  const skor = Math.round((benar / total) * 100);
   const durasi = Math.round((Date.now() - u.mulai) / 1000);
   await FB.catatNilai({ kategoriId: u.kategoriId, skor, benar, salah, waktu: durasi });
-  // XP tetap per jawaban benar (Part 5 anti-exploit: tidak di-farm)
   await awardXP(benar * 5, 0);
-  // Part 5: 10.000 coins ONCE when passing this kategori
   let lulusReward = { firstTime:false, rewardKoin:0 };
   if (state.user){
     try { lulusReward = await FB.claimUjianLulusReward(u.kategoriId, skor, lulusMin); } catch(e){}
@@ -3704,45 +3703,122 @@ window.ujianSelesai = async () => {
         ? `+${benar*5} XP · (bonus lulus sudah diklaim sebelumnya)`
         : `+${benar*5} XP · belum lulus (minimum ${lulusMin}) — coba lagi!`);
 
+  // Simpan state review supaya navigasi per-soal bisa jalan
+  state.review = { pos: 0, benar, salah, kosong, total, skor, durasi, rewardLine, lulusMin };
+  renderReviewHasil();
+};
+
+// Panel review per-soal: ringkasan di atas, 1 soal di tengah, navigasi di bawah.
+window.renderReviewHasil = () => {
+  const u = state.ujian;
+  const r = state.review;
+  const i = r.pos;
+  const s = u.soal[i];
+  const pick = u.jawaban[i];
+  const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
+  const benarIni = pick === kunci;
+  const kosongIni = pick == null;
+  const cleanQ = stripFurigana(s.pertanyaan||"");
+  const cleanKunciTeks = stripFurigana((s.opsi?.[kunci] || "").toString());
+  const emoji = r.skor >= 80 ? "🏆" : r.skor >= r.lulusMin ? "😊" : "💪";
+  const skorColor = r.skor >= r.lulusMin ? "var(--green)" : "var(--red)";
+
+  const gambarHtml = s.gambar
+    ? `<div style="text-align:center; margin:10px 0;">
+         <img src="${s.gambar}" style="max-width:100%; max-height:260px; border-radius:10px; background:#fff; padding:4px;"/>
+       </div>`
+    : "";
+
+  // Opsi jawaban dengan highlight benar/salah
+  const opsiHtml = (s.opsi || ["A","B","C","D"]).map((o, oi) => {
+    const label = String.fromCharCode(65+oi) + ". " + stripFurigana(String(o));
+    let bg = "", border = "1px solid var(--border)", tag = "";
+    if (oi === kunci){ bg = "rgba(16,185,129,.15)"; border = "2px solid var(--green)"; tag = ' <span style="color:var(--green); font-weight:700; font-size:11px;">✓ Jawaban benar</span>'; }
+    if (oi === pick && !benarIni){ bg = "rgba(239,68,68,.12)"; border = "2px solid var(--red)"; tag = ' <span style="color:var(--red); font-weight:700; font-size:11px;">✗ Pilihanmu</span>'; }
+    return `<div style="padding:10px 12px; border-radius:8px; background:${bg}; border:${border}; margin-bottom:6px;">${label}${tag}</div>`;
+  }).join("");
+
+  // Grid navigasi soal — tiap nomor berwarna sesuai status
+  const grid = u.soal.map((_, idx) => {
+    const pk = u.jawaban[idx];
+    const kn = typeof u.soal[idx].kunci === "string" ? "ABCD".indexOf(u.soal[idx].kunci) : u.soal[idx].kunci;
+    let bg = "var(--navy-2)", col = "var(--gray)", border = "1px solid var(--border)";
+    if (pk == null){ bg = "#444"; col = "#ccc"; }
+    else if (pk === kn){ bg = "var(--green)"; col = "#fff"; }
+    else { bg = "var(--red)"; col = "#fff"; }
+    if (idx === i) border = "2px solid var(--pink)";
+    return `<button onclick="reviewJump(${idx})" style="min-width:36px; height:36px; border-radius:8px; background:${bg}; color:${col}; border:${border}; font-weight:700; font-size:12px; cursor:pointer;">${idx+1}</button>`;
+  }).join("");
+
   document.getElementById("app").innerHTML = `
-    <div class="panel">
+    <!-- Ringkasan hasil -->
+    <div class="panel" style="text-align:center;">
       <h2>🎉 Ujian Selesai</h2>
-      <div class="empty">
-        <div class="emoji">${skor >= 80 ? "🏆" : skor >= lulusMin ? "😊" : "💪"}</div>
-        <div style="font-size:48px; font-weight:800; color:var(--pink);">${skor}</div>
-        <div>${benar} benar · ${salah} salah · ${Math.floor(durasi/60)}m ${durasi%60}s</div>
-        <div style="color:var(--gray); margin-top:8px;">${rewardLine}</div>
+      <div style="font-size:52px; margin:6px 0;">${emoji}</div>
+      <div style="font-size:14px; color:var(--gray);">Skor kamu</div>
+      <div style="font-size:64px; font-weight:800; color:${skorColor}; line-height:1;">${r.skor}<span style="font-size:28px; color:var(--gray);">%</span></div>
+      <div style="font-size:14px; margin-top:4px;">
+        <b>${r.benar} dari ${r.total} soal benar</b>
       </div>
-      <h3>Pembahasan</h3>
-      ${u.soal.map((s, i) => {
-        const pick = u.jawaban[i];
-        const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
-        const kunciTeks = (s.opsi?.[kunci] || "").toString();
-        const safeQ = (s.pertanyaan||"").slice(0,80).replace(/"/g,"&quot;").replace(/'/g,"&#39;");
-        const gambarReviewHtml = s.gambar
-          ? `<div style="margin:6px 0;"><img src="${s.gambar}" alt="Gambar soal"
-               style="max-width:220px; max-height:140px; border-radius:6px; background:#fff; padding:3px;"/></div>`
-          : "";
-        const cleanQ = stripFurigana(s.pertanyaan||"");
-        const cleanKunciTeks = stripFurigana(kunciTeks);
-        return `
-          <div class="contoh-item no-furigana" style="flex-direction:column; align-items:stretch; margin-bottom:10px; position:relative;">
-            <div><b>${i+1}. ${cleanQ}</b></div>
-            ${gambarReviewHtml}
-            <div style="color:${pick===kunci?'var(--green)':'var(--red)'}; font-size:12px; margin-top:4px;">
-              Jawabanmu: ${pick!=null ? String.fromCharCode(65+pick) : "(kosong)"} ·
-              Kunci: ${String.fromCharCode(65+kunci)} ${cleanKunciTeks}
-            </div>
-            ${s.pembahasan_id ? `<div style="font-size:12px; color:var(--gray); margin-top:4px;"><b>Pembahasan:</b> ${s.pembahasan_id}</div>` : ""}
-            ${s.pembahasan_jp ? `<div style="font-size:12px; color:var(--gray); margin-top:2px; font-family:var(--font-jp);">${stripFurigana(s.pembahasan_jp)}</div>` : ""}
-            <button class="btn sm ghost" style="margin-top:8px; align-self:flex-start;"
-                    onclick='rangkumPopup({arti:"${cleanKunciTeks.replace(/"/g,"\\&quot;").slice(0,80)}"}, "Soal ${i+1}: ${safeQ}")'>➕ Rangkum kata dari soal ini</button>
-          </div>
-        `;
-      }).join("")}
-      <button class="btn" onclick="route('ujian')">Kembali ke Ujian</button>
+      <div style="display:flex; justify-content:center; gap:14px; margin-top:12px; font-size:13px; flex-wrap:wrap;">
+        <span style="color:var(--green);">✓ ${r.benar} benar</span>
+        <span style="color:var(--red);">✗ ${r.salah} salah</span>
+        ${r.kosong ? `<span style="color:var(--gray);">◯ ${r.kosong} kosong</span>` : ""}
+        <span style="color:var(--gray);">⏱ ${Math.floor(r.durasi/60)}m ${r.durasi%60}s</span>
+      </div>
+      <div style="color:var(--gray); margin-top:8px; font-size:12px;">${r.rewardLine}</div>
+      <div style="margin-top:14px;">
+        <button class="btn gold" onclick="route('ujian/${u.kategoriId}')">🔄 Ulangi Ujian</button>
+        <button class="btn ghost" onclick="route('ujian')">← Daftar Ujian</button>
+      </div>
+    </div>
+
+    <!-- Navigasi grid nomor soal -->
+    <div class="panel">
+      <h3 style="margin-bottom:8px;">Pembahasan per Soal</h3>
+      <p style="font-size:12px; color:var(--gray); margin-bottom:10px;">Klik nomor untuk langsung ke soal itu. Warna hijau = benar, merah = salah, abu-abu = kosong.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:6px; margin-bottom:14px;">${grid}</div>
+
+      <!-- Soal yang sedang di-review -->
+      <div class="no-furigana" style="padding:14px; background:var(--navy-4); border-radius:10px; border:1px solid var(--border);">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:10px;">
+          <b style="font-size:16px;">Soal ${i+1} dari ${r.total}</b>
+          <span style="padding:3px 10px; border-radius:999px; font-size:11px; font-weight:800; ${benarIni ? "background:var(--green); color:white;" : kosongIni ? "background:#555; color:#ccc;" : "background:var(--red); color:white;"}">
+            ${benarIni ? "✓ BENAR" : kosongIni ? "◯ KOSONG" : "✗ SALAH"}
+          </span>
+        </div>
+        ${gambarHtml}
+        <div style="font-size:15px; line-height:1.6; margin-bottom:12px;">${cleanQ}</div>
+        ${opsiHtml}
+        ${s.pembahasan_id ? `
+          <div style="margin-top:14px; padding:12px; background:rgba(239,106,154,.08); border-left:3px solid var(--pink); border-radius:6px;">
+            <b style="color:var(--pink-light); font-size:12px;">📖 PENJELASAN</b>
+            <p style="margin-top:6px; font-size:13px; line-height:1.6;">${s.pembahasan_id}</p>
+            ${s.pembahasan_jp ? `<p style="margin-top:6px; font-size:12px; color:var(--gray); font-family:var(--font-jp);">${stripFurigana(s.pembahasan_jp)}</p>` : ""}
+          </div>` : `<div style="margin-top:14px; font-size:12px; color:var(--gray-dim); font-style:italic;">(Guru tidak menyertakan penjelasan untuk soal ini.)</div>`}
+
+        <!-- Navigasi prev / next -->
+        <div style="display:flex; justify-content:space-between; gap:8px; margin-top:16px;">
+          <button class="btn ghost" ${i === 0 ? "disabled" : ""} onclick="reviewNav(-1)">← Soal ${i}</button>
+          <button class="btn" ${i >= r.total-1 ? "disabled" : ""} onclick="reviewNav(1)">Soal ${i+2} →</button>
+        </div>
+      </div>
     </div>
   `;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+window.reviewNav = (dir) => {
+  const r = state.review;
+  if (!r) return;
+  r.pos = Math.max(0, Math.min(r.total - 1, r.pos + dir));
+  renderReviewHasil();
+};
+window.reviewJump = (idx) => {
+  const r = state.review;
+  if (!r) return;
+  r.pos = Math.max(0, Math.min(r.total - 1, idx));
+  renderReviewHasil();
 };
 
 /* ========== SHOP ========== */
