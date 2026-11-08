@@ -2,7 +2,7 @@
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v18";
+const CACHE = "shirose-nihongo-v19";
 const CORE = [
   "./",
   "./index.html",
@@ -18,6 +18,7 @@ const CORE = [
   "./js/achievements.js",
   "./js/choukai-jlpt.js",
   "./css/shirose-extra.css",
+  "./js/voice.js",
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).catch(()=>{}));

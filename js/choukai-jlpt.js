@@ -71,77 +71,35 @@ function secProgress(sec, ans){
   return { total, done, ok };
 }
 
-/* ================= AUDIO: MP3 → fallback TTS ================= */
-const _exists = {};
-async function fileExists(url){
-  if (url in _exists) return _exists[url];
-  try {
-    const r = await fetch(url, { method: "HEAD", cache: "no-store" });
-    const ct = r.headers.get("content-type") || "";
-    _exists[url] = r.ok && !/text\/html/i.test(ct);
-  } catch(e){ _exists[url] = false; }
-  return _exists[url];
-}
-let _audio = null, _ttsToken = 0, _playingId = null;
-function stopAll(){
-  _ttsToken++;
-  try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch(e){}
-  if (_audio){ try { _audio.pause(); } catch(e){} _audio = null; }
-  if (_playingId) setPlayBtn(_playingId, false);
-  _playingId = null;
-}
+/* ================= AUDIO: voice pack VOICEVOX → engine lokal → TTS ================= */
+import SV from "./voice.js?v=20261108v";
+let _playingId = null;
+function stopAll(){ SV.stop(true); }
 window.ckStop = stopAll;
 function setPlayBtn(id, on, mode){
   const b = document.getElementById(`ck-play-${id}`);
   if (b){ b.classList.toggle("on", on); b.innerHTML = on ? "⏹ Stop" : "▶ Putar"; }
   const m = document.getElementById(`ck-src-${id}`);
-  if (m && mode) m.textContent = mode;
+  if (m && mode !== undefined) m.textContent = mode;
 }
-function jaVoices(){
-  try { return (window.speechSynthesis.getVoices() || []).filter(v => /^ja([-_]|$)/i.test(v.lang)); } catch(e){ return []; }
-}
-const VOICE = { N:{p:1.0, vi:0}, M:{p:.78, vi:1}, F:{p:1.22, vi:0}, M2:{p:.62, vi:1}, F2:{p:1.42, vi:2} };
-function speakLines(lines, rate, id){
-  const ss = window.speechSynthesis;
-  if (!ss){ window.toast && window.toast("Browser tidak mendukung suara."); return; }
-  const tok = ++_ttsToken, vs = jaVoices();
-  let i = 0;
-  const next = () => {
-    if (tok !== _ttsToken) return;
-    if (i >= lines.length){ setPlayBtn(id, false); _playingId = null; return; }
-    const l = lines[i++], cfg = VOICE[l.s] || VOICE.N;
-    const u = new SpeechSynthesisUtterance(l.t.replace(/\s+/g, ""));
-    u.lang = "ja-JP"; u.rate = rate; u.pitch = cfg.p;
-    if (vs.length) u.voice = vs[cfg.vi % vs.length];
-    u.onend = () => setTimeout(next, l.s === "N" ? 650 : 380);
-    u.onerror = () => setTimeout(next, 200);
-    ss.speak(u);
-  };
-  try { ss.cancel(); } catch(e){}
-  setTimeout(next, 150);
-}
+window.addEventListener("sv:stop", (e) => { if (_playingId && e.detail?.next !== _playingId){ setPlayBtn(_playingId, false, ""); _playingId = null; } });
+const DEF_VOICES = { N: "kenzaki", M: "kurono", F: "mochiko", M2: "kurita", F2: "no7" };
 async function playItem(lvl, id){
-  if (_playingId === id){ stopAll(); return; }
-  stopAll();
+  if (_playingId === id){ SV.stop(); return; }
   const data = await loadChoukai(lvl);
-  let it = null, isIntro = id.endsWith("-intro");
+  let it = null;
   for (const s of data.sections){
-    if (isIntro && `${lvl}-m${s.mondai}-intro` === id){ it = { audio: s.instrAudio, script: [{ s:"N", t:s.instr }] }; break; }
+    if (`${lvl}-m${s.mondai}-intro` === id){ it = { audio: s.instrAudio, script: [{ s: "N", t: s.instr }], voices: { N: s.instrVoice || "kenzaki" } }; break; }
     const f = s.items.find(x => x.id === id); if (f){ it = f; break; }
   }
   if (!it) return;
-  _playingId = id; setPlayBtn(id, true);
-  const rate = { n5:.82, n4:.88, n3:.95, n2:1, n1:1.05 }[lvl] || .95;
-  if (await fileExists(it.audio)){
-    if (_playingId !== id) return;
-    _audio = new Audio(it.audio);
-    _audio.onended = () => { setPlayBtn(id, false); _playingId = null; };
-    _audio.onerror = () => { setPlayBtn(id, true, "🤖 TTS"); speakLines(it.script, rate, id); };
-    setPlayBtn(id, true, "🎙️ Voice pack");
-    _audio.play().catch(() => { setPlayBtn(id, true, "🤖 TTS"); speakLines(it.script, rate, id); });
-  } else {
-    setPlayBtn(id, true, "🤖 TTS");
-    speakLines(it.script, rate, id);
+  if (_playingId) setPlayBtn(_playingId, false);
+  _playingId = id; setPlayBtn(id, true, "");
+  const rate = { n5: .88, n4: .93, n3: .98, n2: 1, n1: 1.04 }[lvl] || 1;
+  const res = await SV.playScript({ file: it.audio, lines: it.script, voices: Object.assign({}, DEF_VOICES, it.voices || {}), rate, owner: id });
+  if (_playingId === id){
+    setPlayBtn(id, false, { pack: "🎙️ VOICEVOX", engine: "🎙️ VOICEVOX lokal", tts: "🤖 suara browser" }[res] || "");
+    _playingId = null;
   }
 }
 window.ckPlay = (lvl, id) => playItem(lvl, id);
@@ -220,7 +178,18 @@ function scoreHtml(pr){
   return `<b>${pr.ok}</b> benar dari <b>${pr.done}</b> dijawab · ${pr.total} soal${pr.done ? ` · ${pct}%` : ""}`;
 }
 
+async function fillVoiceGallery(){
+  const vs = await SV.voiceList(); const g = document.getElementById("vv-grid"); if (!g) return;
+  g.innerHTML = Object.entries(vs).map(([k, v]) => `<button class="vv-card" onclick="SV.playUrl('./audio/vv/test/${k}.mp3', {label:'${esc(v.name)}'})">
+      <span class="vv-name">${esc(v.name)}</span><span class="vv-lbl">${esc(v.label.split("—")[1] || "")}</span></button>`).join("");
+  const c = document.getElementById("vv-credit");
+  if (c) c.textContent = "Suara: " + Object.values(vs).map(v => "VOICEVOX:" + v.name).join(", ");
+}
+window.addEventListener("hashchange", () => { if ((location.hash || "") === "#choukai") setTimeout(fillVoiceGallery, 400); });
+setTimeout(() => { if ((location.hash || "") === "#choukai") fillVoiceGallery(); }, 1500);
+
 export async function renderChoukaiJLPT(params){
+  if (!(params || [])[0]) setTimeout(fillVoiceGallery, 300);
   stopAll();
   const st = ST(), lvl = (st.level || "n5").toLowerCase();
   const data = await loadChoukai(lvl);
@@ -248,6 +217,12 @@ export async function renderChoukaiJLPT(params){
         <p class="ck-intro">📦 ${data.sections.length} tipe soal · ${total} soal · audio dari voice pack, otomatis TTS jika file belum ada.</p>
         ${displayBar("choukai")}
         <div class="ck-sec-grid">${cards}</div>
+      </div>
+      <div class="panel ck-wrap" style="margin-top:12px;">
+        <h3>🎙️ Suara VOICEVOX</h3>
+        <p class="ck-intro">10 karakter suara yang dipakai di Shirose Nihongo. Ketuk untuk mendengar contoh.</p>
+        <div class="vv-grid" id="vv-grid"></div>
+        <p class="vv-credit" id="vv-credit"></p>
       </div>`;
   }
 
@@ -283,5 +258,5 @@ window.setDisplayPref = (k, v) => {
   _origSet(k, v);
   if (k === "exam" && (location.hash || "").startsWith("#choukai")) window.route && window.route(location.hash.slice(1));
 };
-window.addEventListener("hashchange", () => { if (!(location.hash || "").startsWith("#choukai")) stopAll(); });
+window.addEventListener("hashchange", () => { if (_playingId) stopAll(); });
 applyDisplayPrefs();

@@ -116,3 +116,30 @@ body[data-cm="4"] .materi-item .no-badge, body[data-cm="3"] .materi-item .no-bad
 .ck-line .s{flex:0 0 auto;}
 .ck-exp{margin-top:10px; padding:10px 14px; border-left:3px solid var(--gold); background:rgba(255,215,0,.07);
   border-radius:8px; font-size:calc(17px * var(--fs)); line-height:1.55;}
+
+/* ==== Pemutar suara global (VOICEVOX) ==== */
+.sv-bar{position:fixed; left:50%; bottom:calc(14px + env(safe-area-inset-bottom)); transform:translateX(-50%); z-index:9999;
+  display:flex; align-items:center; gap:8px; max-width:calc(100vw - 24px);
+  background:rgba(13,16,36,.96); border:1px solid var(--pink); border-radius:999px; padding:6px 8px 6px 14px;
+  box-shadow:0 10px 30px rgba(0,0,0,.5); font-size:14px; color:var(--white); transition:opacity .2s, transform .2s;}
+.sv-bar.hidden{opacity:0; pointer-events:none; transform:translateX(-50%) translateY(20px);}
+.sv-bar .sv-txt{white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:38vw; font-weight:700;}
+.sv-bar[data-state="loading"] .sv-ico{animation:svspin 1s linear infinite; display:inline-block;}
+@keyframes svspin{to{transform:rotate(360deg);}}
+.sv-bar[data-state="error"]{border-color:var(--red);}
+.sv-speed{display:inline-flex; gap:2px;}
+.sv-btn{background:var(--navy-3); color:var(--white); border:none; border-radius:999px; min-width:34px; height:34px;
+  padding:0 8px; font-weight:800; font-size:13px; cursor:pointer;}
+.sv-btn.on{background:var(--pink);}
+.sv-stop{background:var(--red);}
+.say-mini{background:rgba(239,106,154,.18); border:1px solid rgba(239,106,154,.5); color:var(--white); border-radius:999px;
+  font-size:16px; line-height:1; padding:5px 8px; cursor:pointer; vertical-align:middle; margin-left:6px;}
+.say-mini:hover, .say-mini.sv-playing, .btn.sv-playing{border-color:var(--pink); box-shadow:0 0 14px rgba(239,106,154,.6);}
+@media (max-width:640px){ .sv-bar .sv-txt{max-width:30vw;} .sv-btn{min-width:38px; height:38px;} }
+.vv-grid{display:grid; gap:10px; grid-template-columns:repeat(auto-fill, minmax(170px, 1fr)); margin-top:8px;}
+.vv-card{display:flex; flex-direction:column; gap:4px; text-align:left; cursor:pointer; color:var(--white);
+  background:rgba(13,16,36,.6); border:1px solid var(--border); border-radius:12px; padding:12px;}
+.vv-card:hover{border-color:var(--pink);}
+.vv-name{font-family:var(--font-jp); font-weight:800; font-size:calc(19px * var(--fs));}
+.vv-lbl{font-size:calc(14px * var(--fs)); color:var(--gray);}
+.vv-credit{font-size:12px; color:var(--gray-dim); margin-top:12px; line-height:1.6;}

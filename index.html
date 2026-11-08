@@ -1347,7 +1347,7 @@ html{overflow-x:hidden;}
 
 .hidden{display:none !important;}
 </style>
-<link rel="stylesheet" href="./css/shirose-extra.css?v=20261108"/>
+<link rel="stylesheet" href="./css/shirose-extra.css?v=20261108v"/>
 </head>
 <body>
 
@@ -1399,7 +1399,8 @@ import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
 import * as FB from "./js/firebase-sync.js?v=20261108h";
-import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261108";
+import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261108v";
+import SV from "./js/voice.js?v=20261108v";
 
 /* ========== STATE ========== */
 const state = {
@@ -2600,12 +2601,12 @@ window.showMateri = async (tipe, idx) => {
         ${contoh.length ? `<div class="contoh-list">
           <h3>Contoh kosakata</h3>
           ${contoh.map(c => `<div class="contoh-item">
-            <div><div class="jp">${c.k}</div><div class="r">${c.r||""}</div></div>
+            <div><div class="jp">${c.k} <button class="say-mini" title="Dengarkan" data-say="${SV.escAttr(c.k)}" data-read="${SV.escAttr(c.r||c.k)}" data-role="kanji-contoh" onclick="SV.btn(this)">🔊</button></div><div class="r">${c.r||""}</div></div>
             <div class="id">${c.a||""}</div>
           </div>`).join("")}
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
-          <button class="btn" onclick="speakJP('${(k||"").replace(/'/g,"")}')">🔊 Dengar</button>
+          <button class="btn" data-say="${SV.escAttr(k)}" data-role="kanji" onclick="SV.btn(this)">🔊 Dengar</button>
           <button class="btn ghost" onclick="showStrokeOrder('${(k||"").replace(/'/g,"")}')">✍️ Urutan Goresan</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
         </div>
@@ -2625,13 +2626,13 @@ window.showMateri = async (tipe, idx) => {
         <div class="readings"><div class="r">${kana}</div></div>
         <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
         ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left; position:relative;">
-          <div class="jp">${contoh}</div>
+          <div class="jp">${contoh} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="kosakata-contoh" onclick="SV.btn(this)">🔊</button></div>
           <div class="id" style="text-align:left;">${contohArti}</div>
           <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
                   onclick='rangkumPopup({}, "Contoh kalimat: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
-          <button class="btn" onclick="speakJP('${(kata||"").replace(/'/g,"")}')">🔊 Dengar</button>
+          <button class="btn" data-say="${SV.escAttr(kata)}" data-read="${SV.escAttr(kana||kata)}" data-role="kosakata" onclick="SV.btn(this)">🔊 Dengar</button>
           <button class="btn ghost" onclick="showStrokeOrder('${(kata||"").replace(/'/g,"")}')">✍️ Urutan Goresan</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(kata||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kosakata ${no}")'>➕ Rangkum</button>
         </div>
@@ -2651,7 +2652,7 @@ window.showMateri = async (tipe, idx) => {
         ${kana && kana !== pola ? `<div class="readings"><div class="r">${kana}</div></div>` : ""}
         <div style="font-size:14px; margin:12px 0; line-height:1.6; text-align:left; background:rgba(255,255,255,.04); padding:14px; border-radius:10px; white-space:pre-wrap;">${penjelasan}</div>
         ${contoh ? `<div class="contoh-item" style="flex-direction:column; align-items:flex-start; position:relative;">
-          <div class="jp">${contoh}</div>
+          <div class="jp">${contoh} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="bunpou-contoh" onclick="SV.btn(this)">🔊</button></div>
           <div class="id" style="text-align:left; align-self:stretch;">${contohArti}</div>
           <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
                   onclick='rangkumPopup({}, "Contoh grammar: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
@@ -2932,7 +2933,9 @@ function _jaVoice(){
   catch(e){ return null; }
 }
 try { window.speechSynthesis && window.speechSynthesis.getVoices(); } catch(e){}
-window.speakJP = (txt) => {
+// Semua suara situs lewat VOICEVOX (js/voice.js): voice pack → engine lokal → suara browser.
+window.speakJP = (txt, role) => SV.speak(txt, { role });
+window._speakJPBrowser = (txt) => {
   const ss = window.speechSynthesis;
   if (!ss) return toast("Browsermu tidak dukung suara");
   if (!txt) return;
