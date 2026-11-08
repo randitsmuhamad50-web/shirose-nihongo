@@ -18,10 +18,10 @@ export function baseBody(skinKey = "light") {
     <!-- Shadow -->
     <ellipse cx="200" cy="470" rx="90" ry="12" fill="#000" opacity=".15"/>
 
-    <!-- Legs -->
+    <!-- Legs — default: celana putih polos -->
     <g data-slot="legs">
-      <rect x="170" y="340" width="26" height="110" rx="10" fill="#2a3758"/>
-      <rect x="204" y="340" width="26" height="110" rx="10" fill="#2a3758"/>
+      <rect x="170" y="340" width="26" height="110" rx="10" fill="#f7f8fc" stroke="#c7cde0" stroke-width="2"/>
+      <rect x="204" y="340" width="26" height="110" rx="10" fill="#f7f8fc" stroke="#c7cde0" stroke-width="2"/>
     </g>
 
     <!-- Shoes default -->
@@ -30,14 +30,18 @@ export function baseBody(skinKey = "light") {
       <ellipse cx="217" cy="460" rx="20" ry="9" fill="#1a1f33"/>
     </g>
 
-    <!-- Torso + arms (uniform default) -->
+    <!-- Torso + arms — default: kaos putih polos lengan pendek -->
     <g data-slot="pakaian">
+      <!-- Lengan bawah (kulit) -->
+      <path d="M116 252 Q112 285 115 300 L135 330 L145 325 L140 295 Q141 272 142 258 Z" fill="${s.skin}"/>
+      <path d="M284 252 Q288 285 285 300 L265 330 L255 325 L260 295 Q259 272 258 258 Z" fill="${s.skin}"/>
+      <!-- Badan kaos -->
       <path d="M135 200 Q200 180 265 200 L270 345 L130 345 Z" fill="#ffffff" stroke="#c7cde0" stroke-width="2"/>
-      <!-- Dasi biru default sekolah -->
-      <path d="M195 200 L205 200 L208 250 L200 260 L192 250 Z" fill="#2a3758"/>
-      <!-- Arms -->
-      <path d="M135 205 Q110 240 115 300 L135 330 L145 325 L140 295 Q145 240 155 215 Z" fill="#ffffff" stroke="#c7cde0" stroke-width="2"/>
-      <path d="M265 205 Q290 240 285 300 L265 330 L255 325 L260 295 Q255 240 245 215 Z" fill="#ffffff" stroke="#c7cde0" stroke-width="2"/>
+      <!-- Kerah bulat kaos -->
+      <path d="M182 196 Q200 214 218 196" fill="none" stroke="#c7cde0" stroke-width="3" stroke-linecap="round"/>
+      <!-- Lengan pendek -->
+      <path d="M135 203 Q114 222 110 256 L145 264 Q146 236 156 214 Z" fill="#ffffff" stroke="#c7cde0" stroke-width="2"/>
+      <path d="M265 203 Q286 222 290 256 L255 264 Q254 236 244 214 Z" fill="#ffffff" stroke="#c7cde0" stroke-width="2"/>
       <!-- Hands -->
       <circle cx="123" cy="325" r="11" fill="${s.skin}"/>
       <circle cx="277" cy="325" r="11" fill="${s.skin}"/>
@@ -155,7 +159,7 @@ export const HAIR_STYLES = {
    Item shop pakaian = replace slot 'pakaian' + 'legs' */
 export const OUTFITS = {
   seragam_default: {
-    nama: "Seragam Sekolah",
+    nama: "Kaos Putih Polos",
     harga: 0,
     equipped_default: true,
     svg: null,  // null = pakai default dari baseBody
@@ -860,7 +864,7 @@ export const CATALOG_LABELS = {
   aura: "Aura",
 };
 
-/* ====== Default equipped state (bald, uniform, standard shoes) ====== */
+/* ====== Default equipped state (botak, kaos putih + celana putih polos, sepatu standar) ====== */
 export const DEFAULT_EQUIPPED = {
   rambut: null,              // BOTAK — default harus kosong
   pakaian: "seragam_default",
