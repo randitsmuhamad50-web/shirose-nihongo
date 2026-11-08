@@ -1,7 +1,7 @@
 {
   "name": "SHIROSE NIHONGO",
   "short_name": "SHIROSE",
-  "description": "SHIROSE NIHONGO by SSW no Ou — Learn Japanese. Track Your Progress. Build Your Future. Platform belajar bahasa Jepang JLPT N5-N1.",
+  "description": "SHIROSE NIHONGO · bysswnoou — Learn Japanese. Track Your Progress. Build Your Future. Platform belajar bahasa Jepang JLPT N5-N1.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
