@@ -114,6 +114,17 @@ input:focus, select:focus, textarea:focus{outline:none; border-color:var(--pink)
 .sg-row .who .em{font-size:12px; color:var(--gray);}
 .sg-stats{flex-basis:100%; font-size:11.5px; color:var(--gray); line-height:1.6;}
 .sg-stats b{color:var(--white); font-weight:700;}
+.sg-stats details{margin-top:2px;}
+.sg-stats summary{cursor:pointer; list-style:none;}
+.sg-stats summary::-webkit-details-marker{display:none;}
+.sg-stats summary::before{content:"▸ "; color:var(--pink-light);}
+.sg-stats details[open] summary::before{content:"▾ ";}
+.syl-bagian{display:flex; flex-wrap:wrap; gap:4px 6px; margin:4px 0 6px 14px;}
+.syl-bagian .tp{width:100%; color:var(--gray-dim); font-size:11px; margin-top:2px;}
+.syl-bagian span.c{padding:1px 7px; border-radius:6px; background:rgba(255,255,255,.05); font-size:11px; white-space:nowrap;}
+.syl-bagian span.c.p1{background:rgba(239,106,154,.25); color:#fff;}
+.syl-bagian span.c.ok{background:rgba(16,185,129,.35); color:#fff;}
+tr.stat-row td{padding-top:0; border-top:none;}
 .view-toggle{display:inline-flex; border:1px solid var(--border); border-radius:10px; overflow:hidden; margin:0 8px 10px 0;}
 .view-toggle button{background:transparent; color:var(--gray); border:none; padding:8px 14px; cursor:pointer; font-weight:700; font-family:var(--font-sans);}
 .view-toggle button.on{background:var(--pink); color:#fff;}
@@ -278,6 +289,7 @@ async function renderTab(){
     else if (state.tab === "diagnostik") mount.innerHTML = await renderDiagnostikTab();
     else if (state.tab === "admin")   mount.innerHTML = await renderAdminTab();
   } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
+  isiStatSlots();
 }
 
 /* ========== TAB: SISWA ========== */
@@ -362,7 +374,8 @@ async function renderSiswaTab(){
                 <td>
                   <button class="btn sm ghost" onclick="lihatGami('${s.uid}', '${(s.nama||s.email).replace(/'/g,'')}')">Progres</button>
                 </td>
-              </tr>`; }).join("")}
+              </tr>
+              ${role === "student" ? `<tr class="stat-row" style="${nonaktif?'opacity:.55;':''}"><td colspan="7"><div class="sg-stats stat-slot" data-uid="${s.uid}">Memuat statistik…</div></td></tr>` : ""}`; }).join("")}
           </tbody>
         </table>
       </div>
@@ -377,7 +390,6 @@ function renderSiswaPerKelas(){
   siswa.forEach(s => { const k = (s.kelas || "").trim() || "Tanpa kelas"; (grup[k] = grup[k] || []).push(s); });
   const nama = Object.keys(grup).sort((a, b) => a === "Tanpa kelas" ? 1 : b === "Tanpa kelas" ? -1 : a.localeCompare(b));
   if (!nama.length) return `<div style="color:var(--gray); padding:16px; text-align:center;">Belum ada siswa.</div>`;
-  setTimeout(() => muatStatsSiswa(siswa), 0);
   return nama.map(k => `
     <div class="sg-kelas">
       <h3>🎓 ${k} <span>(${grup[k].length} siswa)</span></h3>
@@ -388,7 +400,7 @@ function renderSiswaPerKelas(){
           <div>${["n5","n4","n3","n2","n1"].map(l => `<span class="chip btn-chip ${s.aksesLevel?.[l] ? "on" : ""}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`).join("")}</div>
           <span class="chip btn-chip ${nonaktif ? "" : "on"}" onclick="toggleStatus('${s.uid}', ${nonaktif})">${nonaktif ? "Nonaktif" : "Aktif"}</span>
           <button class="btn sm ghost" onclick="studentProfile('${s.uid}')">Detail</button>
-          <div class="sg-stats" id="sg-st-${s.uid}">Memuat statistik…</div>
+          <div class="sg-stats stat-slot" data-uid="${s.uid}">Memuat statistik…</div>
         </div>`;
       }).join("")}
     </div>`).join("");
@@ -400,16 +412,20 @@ async function _jumlahMateri(lvl){
   const [kos, knj] = await Promise.all([len("kosakata"), len("kanji")]);
   return (_materiLen[lvl] = { kos, knj });
 }
-// Rumus SAMA dengan halaman Sylabus siswa: bab = 50 item, selesai bila ≥80% dikuasai.
+// Rumus SAMA dengan halaman Sylabus siswa: bagian = 50 item, % = dikuasai / jumlah item,
+// bagian dianggap selesai bila ≥80%.
 function _babSylabus(kartu, total, tipe){
-  let bab = 0, selesai = 0;
+  let bab = 0, selesai = 0; const bagian = [];
   for (let start = 1; start <= total; start += 50){
     const end = Math.min(start + 49, total); bab++;
     let m = 0; for (let no = start; no <= end; no++){ if (kartu[tipe[0] + ":" + no]?.mastered) m++; }
-    if (Math.round(m / (end - start + 1) * 100) >= 80) selesai++;
+    const pct = Math.round(m / (end - start + 1) * 100);
+    if (pct >= 80) selesai++;
+    bagian.push({ start, end, pct });
   }
-  return { bab, selesai };
+  return { bab, selesai, bagian };
 }
+const _chipBagian = (b) => `<span class="c ${b.pct >= 80 ? "ok" : b.pct > 0 ? "p1" : ""}">${b.start}–${b.end} <b>${b.pct}%</b></span>`;
 async function statsRingkas(s){
   const [gami, nilai, srs] = await Promise.all([
     FB.getSiswaGami(s.uid).catch(() => ({})),
@@ -429,23 +445,43 @@ async function statsRingkas(s){
     const { kos, knj } = await _jumlahMateri(l);
     const a = _babSylabus(kartu, kos, "kosakata"), b = _babSylabus(kartu, knj, "kanji");
     const dikuasai = Object.values(kartu).filter(c => c?.mastered).length;
-    syl.push(`${l.toUpperCase()} <b>${a.selesai + b.selesai}/${a.bab + b.bab}</b> bab · ${dikuasai} dikuasai`);
+    const total = kos + knj;
+    const pctLevel = total ? Math.round(dikuasai / total * 100) : 0;
+    syl.push(`<details><summary>📘 Sylabus <b>${l.toUpperCase()}</b>: ${pctLevel}% · ${a.selesai + b.selesai}/${a.bab + b.bab} bagian selesai · ${dikuasai}/${total} item dikuasai</summary>
+      <div class="syl-bagian"><span class="tp">📖 Kosakata</span>${a.bagian.map(_chipBagian).join("")}
+        ${b.bagian.length ? `<span class="tp">🈷️ Kanji</span>${b.bagian.map(_chipBagian).join("")}` : ""}</div></details>`);
   }
   return `Lv <b>${lvk}</b> · <b>${xp}</b> XP · 🔥 ${streak} · Ujian <b>${nilai.length}×</b>${rata != null ? ` (rata-rata <b>${rata}</b>${terakhir ? `, terakhir ${terakhir}` : ""})` : ""}`
-       + `<br>📘 Sylabus: ${syl.length ? syl.join(" &nbsp;|&nbsp; ") : "belum ada level dibuka"}`;
+       + (syl.length ? syl.join("") : `<br>📘 Sylabus: belum ada level dibuka`);
 }
-async function muatStatsSiswa(list){
-  const antri = [...list];
+// Isi semua slot statistik (tab Siswa: Per Kelas & Daftar, tab Kelas). Hasil
+// di-cache 2 menit supaya pindah tampilan tidak memuat ulang semuanya.
+const _statCache = {};
+async function isiStatSlots(){
+  const slots = [...document.querySelectorAll(".stat-slot[data-uid]")];
+  if (!slots.length) return;
+  const daftar = state.siswaList?.length ? state.siswaList : await FB.listSiswa().catch(() => []);
+  const uids = [...new Set(slots.map(e => e.dataset.uid))];
+  const antri = [...uids];
   const kerja = async () => {
     while (antri.length){
-      const s = antri.shift();
-      const el = document.getElementById(`sg-st-${s.uid}`);
-      if (!el) continue;
-      try { el.innerHTML = await statsRingkas(s); } catch(e){ el.textContent = "Statistik gagal dimuat"; }
+      const uid = antri.shift();
+      const s = daftar.find(x => x.uid === uid);
+      const els = document.querySelectorAll(`.stat-slot[data-uid="${uid}"]`);
+      if (!s){ els.forEach(e => e.textContent = ""); continue; }
+      let html;
+      const c = _statCache[uid];
+      if (c && Date.now() - c.t < 120000 && c.akses === JSON.stringify(s.aksesLevel || {})) html = c.html;
+      else {
+        try { html = await statsRingkas(s); _statCache[uid] = { t: Date.now(), html, akses: JSON.stringify(s.aksesLevel || {}) }; }
+        catch(e){ html = "Statistik gagal dimuat"; }
+      }
+      document.querySelectorAll(`.stat-slot[data-uid="${uid}"]`).forEach(e => e.innerHTML = html);
     }
   };
   await Promise.all([kerja(), kerja(), kerja()]);
 }
+window.isiStatSlots = isiStatSlots;
 window.buatAkunBaru = async () => {
   const v = id => (document.getElementById(id)?.value || "").trim();
   const msg = document.getElementById("ba-msg");
@@ -1276,7 +1312,8 @@ async function renderKelasTab(){
                           <button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button>
                           <button class="btn sm danger" onclick="keluarkanDariKelas('${s.uid}')">Keluarkan</button>
                         </td>
-                      </tr>`).join("")}
+                      </tr>
+                      <tr class="stat-row"><td colspan="4"><div class="sg-stats stat-slot" data-uid="${s.uid}">Memuat statistik…</div></td></tr>`).join("")}
                   </tbody>
                 </table>
               </div>
@@ -1306,7 +1343,8 @@ async function renderKelasTab(){
               <tbody>
                 ${unassigned.map(s => `
                   <tr><td>${s.nama||"-"}</td><td>${s.email}</td>
-                      <td><button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button></td></tr>`).join("")}
+                      <td><button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button></td></tr>
+                  <tr class="stat-row"><td colspan="3"><div class="sg-stats stat-slot" data-uid="${s.uid}">Memuat statistik…</div></td></tr>`).join("")}
               </tbody>
             </table>
           </div>
@@ -1315,6 +1353,7 @@ async function renderKelasTab(){
   `;
 }
 window.toggleKelasOpen = (id) => {
+  // (statistik anggota kelas otomatis dimuat lewat isiStatSlots setelah render)
   state.kelasOpen = state.kelasOpen === id ? null : id;
   renderTab();
 };
