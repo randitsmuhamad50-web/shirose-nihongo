@@ -18,7 +18,9 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/fireba
 import {
   getAuth, onAuthStateChanged,
   signInWithEmailAndPassword, createUserWithEmailAndPassword,
-  signOut, sendPasswordResetEmail
+  signOut, sendPasswordResetEmail,
+  setPersistence, browserLocalPersistence, browserSessionPersistence,
+  indexedDBLocalPersistence
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {
   getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc,
@@ -43,6 +45,24 @@ const DEVELOPER_EMAIL = "randitsmuhamad50@gmail.com";
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db = getFirestore(app);
+
+// Make sign-in persist across reloads and tabs. We try the strongest option
+// first (indexedDB) and fall back when the browser blocks it (Safari private
+// mode, extensions, strict privacy). Without this a fresh profile can reload
+// into a "signed-out" state even though the user just signed in — that's the
+// "akun engga terdetect" bug we're fixing. Errors are swallowed because the
+// in-memory default still works, just without cross-reload persistence.
+(async () => {
+  try {
+    await setPersistence(auth, indexedDBLocalPersistence);
+  } catch (_e1) {
+    try {
+      await setPersistence(auth, browserLocalPersistence);
+    } catch (_e2) {
+      try { await setPersistence(auth, browserSessionPersistence); } catch (_e3) {}
+    }
+  }
+})();
 
 /* ========== STATE ========== */
 let currentUser = null;
@@ -122,37 +142,58 @@ export function onAuth(cb) {
 
 async function ensureSiswaDoc(u) {
   const ref = doc(db, "siswa", u.uid);
-  const snap = await getDoc(ref);
-  if (!snap.exists()) {
-    const data = {
+  try {
+    const snap = await getDoc(ref);
+    if (!snap.exists()) {
+      const data = {
+        nama: u.displayName || u.email.split("@")[0],
+        email: u.email,
+        kelas: "",
+        aksesLevel: isGuru(u)
+          ? { n5:true, n4:true, n3:true, n2:true, n1:true }
+          : { n5:true, n4:false, n3:false, n2:false, n1:false },
+        karakter: {
+          equipped: {
+            rambut: null,
+            pakaian: "seragam_default",
+            sepatu: "shoes_default",
+            aksesori: "none",
+            item_tangan: "none",
+            aura: "none",
+          },
+          inventory: ["seragam_default", "shoes_default", "none"],
+          skinTone: "light",
+          hairColor: "#2a1810",
+        },
+        created: serverTimestamp(),
+        aktif: serverTimestamp(),
+      };
+      try {
+        await setDoc(ref, data);
+        currentSiswaDoc = data;
+      } catch (writeErr){
+        // Firestore rules may still block the first-time write for guests, but
+        // auth itself is fine — give the caller a usable in-memory doc so the
+        // UI doesn't think "akun engga terdetect".
+        console.warn("ensureSiswaDoc: setDoc failed, using in-memory doc:", writeErr);
+        currentSiswaDoc = data;
+      }
+    } else {
+      currentSiswaDoc = snap.data();
+      // update last active (non-fatal)
+      updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
+    }
+  } catch (e){
+    // getDoc failed (network, rules). Keep a minimal placeholder so other code
+    // paths can at least reflect "signed in".
+    console.warn("ensureSiswaDoc: read failed, using placeholder:", e);
+    currentSiswaDoc = {
       nama: u.displayName || u.email.split("@")[0],
       email: u.email,
       kelas: "",
-      aksesLevel: isGuru(u)
-        ? { n5:true, n4:true, n3:true, n2:true, n1:true }
-        : { n5:true, n4:false, n3:false, n2:false, n1:false },
-      karakter: {
-        equipped: {
-          rambut: null,
-          pakaian: "seragam_default",
-          sepatu: "shoes_default",
-          aksesori: "none",
-          item_tangan: "none",
-          aura: "none",
-        },
-        inventory: ["seragam_default", "shoes_default", "none"],
-        skinTone: "light",
-        hairColor: "#2a1810",
-      },
-      created: serverTimestamp(),
-      aktif: serverTimestamp(),
+      aksesLevel: { n5:true, n4:false, n3:false, n2:false, n1:false },
+      karakter: null,
     };
-    await setDoc(ref, data);
-    currentSiswaDoc = data;
-  } else {
-    currentSiswaDoc = snap.data();
-    // update last active
-    updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
   }
 }
 
