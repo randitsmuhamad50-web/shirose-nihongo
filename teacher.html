@@ -96,6 +96,15 @@ input:focus, select:focus, textarea:focus{outline:none; border-color:var(--pink)
 .modal-backdrop{position:fixed; inset:0; background:rgba(0,0,0,.75); display:none; align-items:center; justify-content:center; z-index:100; padding:20px;}
 .modal-backdrop.open{display:flex;}
 .modal{background:var(--navy-2); border:1px solid var(--pink); border-radius:16px; padding:24px; max-width:600px; width:100%; max-height:90vh; overflow:auto;}
+/* ===== Pembatas level JLPT (Paket / Bank Soal / Import) ===== */
+.lv-tabs{display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 10px;}
+.lv-tab{--c:#888; padding:10px 18px; border-radius:12px; border:2px solid var(--c); background:transparent; color:var(--white);
+  font-weight:800; font-size:15px; cursor:pointer; font-family:var(--font-sans);}
+.lv-tab span{display:inline-block; min-width:22px; padding:1px 7px; margin-left:6px; border-radius:999px; background:rgba(255,255,255,.12); font-size:12px;}
+.lv-tab.on{background:var(--c); color:#fff; box-shadow:0 6px 18px rgba(0,0,0,.35);}
+.lv-band{--c:#888; border-left:6px solid var(--c); background:color-mix(in srgb, var(--c) 16%, transparent);
+  padding:10px 14px; border-radius:10px; margin-bottom:14px; font-size:13px; color:var(--white);}
+.lv-chip{--c:#888; display:inline-block; padding:2px 10px; border-radius:999px; background:var(--c); color:#fff; font-weight:800; font-size:12px;}
 </style>
 </head>
 <body>
@@ -130,6 +139,19 @@ const state = {
   excelParsed: null,
   level: "n5",
 };
+
+/* ===== Level JLPT yang sedang dikelola guru (pembatas tegas N5–N1) ===== */
+const LV = ["n5","n4","n3","n2","n1"];
+const LV_COLOR = { n5:"#10b981", n4:"#38bdf8", n3:"#8b5cf6", n2:"#f59e0b", n1:"#ef4444" };
+state.lvl = "n5";
+const lvOf = (k) => (k?.level || "n5").toLowerCase();
+function levelTabsHtml(counts, what){
+  return `
+    <div class="lv-tabs">${LV.map(l => `<button class="lv-tab ${state.lvl===l?"on":""}" style="--c:${LV_COLOR[l]}" onclick="setLvl('${l}')">JLPT ${l.toUpperCase()}${counts ? `<span>${counts[l]||0}</span>` : ""}</button>`).join("")}</div>
+    <div class="lv-band" style="--c:${LV_COLOR[state.lvl]}">Sedang mengelola <b>JLPT ${state.lvl.toUpperCase()}</b> — ${what} di bawah ini HANYA untuk level ${state.lvl.toUpperCase()}. Pilih tab lain untuk level berbeda.</div>`;
+}
+const lvChip = (l) => `<span class="lv-chip" style="--c:${LV_COLOR[l]||"#888"}">${(l||"n5").toUpperCase()}</span>`;
+window.setLvl = (l) => { state.lvl = l; state.currentKategoriId = null; state.excelParsed = null; renderTab(); };
 
 function toast(msg){
   const t = document.createElement("div");
@@ -280,6 +302,19 @@ async function renderSiswaTab(){
         <button class="btn" style="margin-top:10px;" id="ba-submit" onclick="buatAkunBaru()">Buat akun</button>
         <span id="ba-msg" style="margin-left:10px; font-size:13px;"></span>
       </details>
+      <details style="margin-bottom:14px; padding:12px; border:1px solid var(--gold); border-radius:10px;" ${state.importSiswa ? "open" : ""}>
+        <summary style="cursor:pointer; font-weight:700; color:var(--gold);">📊 Import banyak siswa dari Excel</summary>
+        <ol style="font-size:13px; color:var(--gray); margin:10px 0 10px 18px; line-height:1.7;">
+          <li>Download format Excel, isi 1 baris = 1 siswa (Email, Password, Nama, Kelas, akses N5–N1 isi <b>Ya</b>/<b>Tidak</b>).</li>
+          <li>Upload file → cek preview → klik <b>Buat akun</b>. Akun dibuat satu per satu di sistem login yang sama.</li>
+        </ol>
+        <div style="display:flex; gap:8px; flex-wrap:wrap;">
+          <button class="btn gold" onclick="downloadFormatSiswa()">📥 Download Format Excel Siswa</button>
+          <button class="btn" onclick="document.getElementById('imp-siswa-file').click()">📤 Upload Excel Siswa</button>
+          <input type="file" id="imp-siswa-file" accept=".xlsx,.xls,.csv" style="display:none;" onchange="bacaExcelSiswa(this.files[0]); this.value='';"/>
+        </div>
+        <div id="imp-siswa-preview" style="margin-top:12px;">${state.importSiswa ? renderPreviewSiswa() : ""}</div>
+      </details>
       <button class="btn sm ghost" style="margin-bottom:10px;" onclick="renderTab()">🔄 Refresh daftar</button>
       <div class="table-wrap">
         <table>
@@ -329,6 +364,97 @@ window.buatAkunBaru = async () => {
     btn.disabled = false;
   }
 };
+/* ===== Import siswa dari Excel ===== */
+const _ya = (v) => /^(ya|y|yes|1|true|aktif|v|✓|x)$/i.test(String(v ?? "").trim());
+window.downloadFormatSiswa = () => {
+  const data = [
+    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak" },
+    { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak" },
+  ];
+  const ws = XLSX.utils.json_to_sheet(data);
+  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7}];
+  const inst = XLSX.utils.aoa_to_sheet([
+    ["FORMAT IMPORT SISWA — SHIROSE NIHONGO"], [""],
+    ["Isi sheet 'Siswa': 1 baris = 1 akun. Hapus 2 baris contoh sebelum upload."],
+    ["- Email (wajib): email login siswa, harus unik & belum terdaftar."],
+    ["- Password (wajib): minimal 6 karakter. Berikan ke siswa; siswa bisa ganti lewat 'Lupa password'."],
+    ["- Nama (wajib): nama tampilan siswa."],
+    ["- Kelas (opsional): nama kelas, misal 'Kelas A'."],
+    ["- N5, N4, N3, N2, N1: isi Ya / Tidak. Ya = level dibuka untuk siswa ini. Kosong = Tidak."],
+    [""], ["Akun dibuat di sistem login yang sama dengan website siswa & dashboard guru."],
+  ]);
+  inst["!cols"] = [{ wch:100 }];
+  const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Siswa");
+  XLSX.utils.book_append_sheet(wb, inst, "Petunjuk");
+  XLSX.writeFile(wb, "format-import-siswa-shirose.xlsx");
+};
+window.bacaExcelSiswa = async (file) => {
+  if (!file) return;
+  try {
+    const wb = XLSX.read(await file.arrayBuffer(), { type:"array" });
+    const sheet = wb.SheetNames.includes("Siswa") ? "Siswa" : wb.SheetNames[0];
+    const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheet], { defval:"" });
+    const sudahAda = new Set(state.siswaList.map(x => (x.email||"").toLowerCase()));
+    const dipakai = new Set();
+    state.importSiswa = rows.map((r, i) => {
+      const g = (k) => String(r[k] ?? r[k.toLowerCase()] ?? r[k.toUpperCase()] ?? "").trim();
+      const email = g("Email").toLowerCase();
+      const password = g("Password");
+      const nama = g("Nama");
+      const kelas = g("Kelas");
+      const aksesLevel = {}; ["n5","n4","n3","n2","n1"].forEach(l => aksesLevel[l] = _ya(r[l.toUpperCase()] ?? r[l]));
+      let err = "";
+      if (!email && !password && !nama) return null;
+      if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) err = "Email tidak valid";
+      else if (/@contoh\.com$/.test(email)) err = "Masih baris contoh — hapus atau ganti";
+      else if (password.length < 6) err = "Password < 6 karakter";
+      else if (!nama) err = "Nama kosong";
+      else if (sudahAda.has(email)) err = "Email sudah terdaftar";
+      else if (dipakai.has(email)) err = "Email dobel di file";
+      dipakai.add(email);
+      return { baris: i + 2, email, password, nama, kelas, aksesLevel, err, hasil: "" };
+    }).filter(Boolean);
+    document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
+  } catch(e){
+    document.getElementById("imp-siswa-preview").innerHTML = `<div style="color:var(--red);">Gagal membaca file: ${e.message}</div>`;
+  }
+};
+function renderPreviewSiswa(){
+  const list = state.importSiswa || [];
+  const ok = list.filter(x => !x.err && !x.hasil);
+  const esc = (t) => String(t||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  return `
+    <div style="font-size:13px; margin-bottom:8px;"><b>${list.length}</b> baris · <span style="color:var(--green);">${ok.length} siap dibuat</span> · <span style="color:var(--red);">${list.filter(x=>x.err).length} bermasalah (dilewati)</span></div>
+    <div class="table-wrap" style="max-height:340px; overflow:auto;"><table>
+      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>Status</th></tr></thead>
+      <tbody>${list.map(x => `<tr>
+        <td>${x.baris}</td><td>${esc(x.email)}</td><td>${esc(x.nama)}</td><td>${esc(x.kelas)}</td>
+        <td>${["n5","n4","n3","n2","n1"].filter(l => x.aksesLevel[l]).map(l => l.toUpperCase()).join(", ") || "-"}</td>
+        <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || "Siap")}</td>
+      </tr>`).join("")}</tbody></table></div>
+    <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
+      ${ok.length ? `<button class="btn gold" id="imp-siswa-go" onclick="prosesImportSiswa()">✓ Buat ${ok.length} akun siswa</button>` : ""}
+      <button class="btn ghost" onclick="state.importSiswa=null; renderTab()">Tutup</button>
+    </div>`;
+}
+window.prosesImportSiswa = async () => {
+  const list = (state.importSiswa || []).filter(x => !x.err && !x.hasil);
+  if (!list.length) return;
+  if (!confirm(`Buat ${list.length} akun siswa baru?`)) return;
+  const btn = document.getElementById("imp-siswa-go");
+  let n = 0, gagal = 0;
+  for (const x of list){
+    if (btn){ btn.disabled = true; btn.textContent = `Membuat akun ${n + gagal + 1}/${list.length}…`; }
+    try {
+      await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
+      x.hasil = "✓ Akun dibuat"; n++;
+    } catch(e){ x.err = e.message || String(e); gagal++; }
+    document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
+  }
+  toast(`Import selesai: ${n} akun dibuat${gagal ? `, ${gagal} gagal` : ""}`);
+  state.siswaList = await FB.listSiswa().catch(() => state.siswaList);
+};
 window.toggleStatus = async (uid, sedangNonaktif) => {
   try {
     await FB.setStatusSiswa(uid, sedangNonaktif);
@@ -376,6 +502,9 @@ window.lihatGami = async (uid, nama) => {
  */
 async function renderKategoriTab(){
   state.kategoriList = await FB.listKategori();
+  const perLevel = {}; state.kategoriList.forEach(k => perLevel[lvOf(k)] = (perLevel[lvOf(k)]||0) + 1);
+  const semua = state.kategoriList;
+  state.kategoriList = semua.filter(k => lvOf(k) === state.lvl);
   // Hitung soal per paket — guru perlu tahu paket mana masih kosong
   const counts = {};
   for (const k of state.kategoriList){
@@ -383,16 +512,18 @@ async function renderKategoriTab(){
   }
   return `
     <div class="panel">
-      <h2>📂 Paket Soal <span style="color:var(--gray); font-size:14px; font-weight:400;">(${state.kategoriList.length} paket)</span></h2>
-      <p style="color:var(--gray); font-size:12px; margin-bottom:10px;">Tiap paket adalah kumpulan soal. Klik <b>+ Paket Baru</b> untuk buat, lalu isi soal via tab Bank Soal (tambah manual atau import Excel). Nama paket bisa di-rename kapan saja.</p>
-      <button class="btn gold" onclick="newKategori()">+ Paket Baru</button>
+      <h2>📂 Paket Soal</h2>
+      ${levelTabsHtml(perLevel, "paket soal")}
+      <p style="color:var(--gray); font-size:12px; margin-bottom:10px;">Tiap paket adalah kumpulan soal untuk SATU level JLPT. Siswa hanya melihat paket dari level yang dibuka guru.</p>
+      <button class="btn gold" onclick="newKategori()">+ Paket Baru JLPT ${state.lvl.toUpperCase()}</button>
       <div class="table-wrap" style="margin-top:12px;">
         <table>
-          <thead><tr><th>#</th><th>Nama Paket</th><th>Jumlah Soal</th><th>Aksi</th></tr></thead>
+          <thead><tr><th>#</th><th>Level</th><th>Nama Paket</th><th>Jumlah Soal</th><th>Aksi</th></tr></thead>
           <tbody>
             ${state.kategoriList.length ? state.kategoriList.map((k, i) => `
               <tr>
                 <td>${i+1}</td>
+                <td>${lvChip(lvOf(k))}</td>
                 <td><b>${k.nama}</b></td>
                 <td>${counts[k.id] ?? 0} soal</td>
                 <td>
@@ -401,7 +532,7 @@ async function renderKategoriTab(){
                   <button class="btn sm danger" onclick="hapusKategori('${k.id}')">🗑️ Hapus</button>
                 </td>
               </tr>
-            `).join("") : `<tr><td colspan="4" style="color:var(--gray); text-align:center; padding:20px;">Belum ada paket. Klik <b>+ Paket Baru</b> di atas.</td></tr>`}
+            `).join("") : `<tr><td colspan="5" style="color:var(--gray); text-align:center; padding:20px;">Belum ada paket JLPT ${state.lvl.toUpperCase()}. Klik <b>+ Paket Baru</b> di atas.</td></tr>`}
           </tbody>
         </table>
       </div>
@@ -409,23 +540,28 @@ async function renderKategoriTab(){
   `;
 }
 window.bukaBankSoalPaket = (id) => {
+  const k = state.kategoriList.find(x => x.id === id);
+  if (k) state.lvl = lvOf(k);
   state.currentKategoriId = id;
   setTab("soal");
 };
 // Default nama "Paket Soal N" — N = jumlah paket + 1
 function _defaultPaketName(){
-  return `Paket Soal ${(state.kategoriList?.length || 0) + 1}`;
+  return `Paket ${state.lvl.toUpperCase()} ${(state.kategoriList?.length || 0) + 1}`;
 }
 window.newKategori = () => editKategori(null);
 window.editKategori = (id) => {
   const existing = id ? state.kategoriList.find(x => x.id === id) : null;
-  const k = existing || { nama: _defaultPaketName(), level:"n5", deskripsi:"", durasi:30, lulus:60, publish:true, reward_xp:50, reward_koin:20 };
+  const k = existing || { nama: _defaultPaketName(), level:state.lvl, deskripsi:"", durasi:30, lulus:60, publish:true, reward_xp:50, reward_koin:20 };
   modal(`
     <h2 style="color:var(--pink);">${id?"Rename Paket Soal":"Paket Soal Baru"}</h2>
+    <div class="form-row"><label>Level JLPT</label>
+      <select id="kg-level" style="font-weight:800;">${LV.map(l => `<option value="${l}" ${lvOf(k)===l?"selected":""}>JLPT ${l.toUpperCase()}</option>`).join("")}</select>
+      <span style="font-size:11px; color:var(--gray);">Soal di paket ini hanya muncul untuk siswa level ini.</span></div>
     <div class="form-row"><label>Nama Paket</label><input id="kg-nama" value="${k.nama||""}" style="flex:1;" placeholder="${_defaultPaketName()}"/></div>
     <div class="form-row"><label>Deskripsi (opsional)</label><textarea id="kg-desc" rows="2" style="flex:1;" placeholder="Misal: soal latihan harian atau try-out">${k.deskripsi||""}</textarea></div>
     <div class="form-row"><label>Durasi Ujian</label><input type="number" id="kg-dur" value="${k.durasi||30}" min="1"/> menit</div>
-    <p style="color:var(--gray); font-size:11px; margin:-2px 0 6px;">💡 Paket akan otomatis terbit (publish) ke siswa — akses JLPT dibuka penuh buat semua akun.</p>
+    <p style="color:var(--gray); font-size:11px; margin:-2px 0 6px;">💡 Paket otomatis terbit untuk siswa yang akses level-nya dibuka guru.</p>
     <div style="display:flex; gap:8px; margin-top:16px;">
       <button class="btn" onclick="simpanKategori('${id||""}')">Simpan</button>
       <button class="btn ghost" onclick="closeModal()">Batal</button>
@@ -439,14 +575,15 @@ window.simpanKategori = async (id) => {
     deskripsi: document.getElementById("kg-desc").value,
     durasi: parseInt(document.getElementById("kg-dur").value) || 30,
     // Field-field berikut diset default supaya back-compat tidak rusak.
-    level: existing?.level || "n5",
+    level: document.getElementById("kg-level")?.value || existing?.level || state.lvl,
     lulus: existing?.lulus || 60,
     reward_xp: existing?.reward_xp || 50,
     reward_koin: existing?.reward_koin || 20,
     publish: existing ? (existing.publish ?? true) : true,
   };
   await FB.simpanKategori(data, id || null);
-  toast(id ? "✓ Paket di-rename" : "✓ Paket dibuat");
+  toast(id ? "✓ Paket disimpan" : `✓ Paket JLPT ${data.level.toUpperCase()} dibuat`);
+  state.lvl = data.level;
   closeModal();
   renderTab();
 };
@@ -464,15 +601,20 @@ window.hapusKategori = async (id) => {
 
 /* ========== TAB: SOAL ========== */
 async function renderSoalTab(){
-  state.kategoriList = await FB.listKategori();
-  const currentKat = state.currentKategoriId || (state.kategoriList[0]?.id);
+  const semua = await FB.listKategori();
+  const perLevel = {}; semua.forEach(k => perLevel[lvOf(k)] = (perLevel[lvOf(k)]||0) + 1);
+  // HANYA paket dari level yang dipilih — bukan semua soal.
+  state.kategoriList = semua.filter(k => lvOf(k) === state.lvl);
+  const valid = state.kategoriList.some(k => k.id === state.currentKategoriId);
+  const currentKat = valid ? state.currentKategoriId : (state.kategoriList[0]?.id);
   state.currentKategoriId = currentKat;
   const kat = state.kategoriList.find(k => k.id === currentKat);
   const soal = currentKat ? await FB.listSoal(currentKat) : [];
 
   return `
     <div class="panel">
-      <h2>📝 Bank Soal <span style="color:var(--gray); font-size:14px; font-weight:400;">${kat?`(${soal.length} soal di kategori ini)`:""}</span></h2>
+      <h2>📝 Bank Soal <span style="color:var(--gray); font-size:14px; font-weight:400;">${kat?`(${soal.length} soal di paket ini)`:""}</span></h2>
+      ${levelTabsHtml(perLevel, "paket & soal")}
 
       <!-- Action bar prominent di atas: download template + import + tambah -->
       <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px; margin:12px 0 18px;">
@@ -482,7 +624,7 @@ async function renderSoalTab(){
         <button class="btn" onclick="setTab('import')" style="padding:14px; font-size:14px;">
           📊 IMPORT SOAL EXCEL
         </button>
-        <button class="btn ghost" onclick="tambahSoalManual('${currentKat||''}')" style="padding:14px; font-size:14px;">
+        <button class="btn ghost" ${currentKat ? "" : "disabled"} onclick="tambahSoalManual('${currentKat||''}')" style="padding:14px; font-size:14px;">
           + TAMBAH SOAL MANUAL
         </button>
       </div>
@@ -492,11 +634,11 @@ async function renderSoalTab(){
         <select onchange="state.currentKategoriId = this.value; renderTab()" style="flex:1; max-width:400px;">
           ${state.kategoriList.length
             ? state.kategoriList.map(k => `<option value="${k.id}" ${k.id===currentKat?"selected":""}>${k.nama}</option>`).join("")
-            : '<option value="">(Belum ada paket — buat di tab Paket Soal)</option>'}
+            : `<option value="">(Belum ada paket JLPT ${state.lvl.toUpperCase()} — buat di tab Paket Soal)</option>`}
         </select>
         <button class="btn sm ghost" onclick="exportSoal('${currentKat||''}')">📤 Export</button>
       </div>
-      <p style="color:var(--gray); font-size:12px;">${kat?`${kat.nama} · ${soal.length} soal (urutan sesuai Excel)`:"Pilih paket di atas atau buat paket baru di tab Paket Soal."}</p>
+      <p style="color:var(--gray); font-size:12px;">${kat?`${lvChip(lvOf(kat))} ${kat.nama} · ${soal.length} soal (urutan sesuai Excel)`:`Belum ada paket JLPT ${state.lvl.toUpperCase()}. Buat dulu di tab Paket Soal.`}</p>
       ${soal.length ? `
         <div class="table-wrap">
           <table>
@@ -629,7 +771,9 @@ window.exportSoal = async (katId) => {
 
 /* ========== TAB: IMPORT EXCEL ========== */
 async function renderImportTab(){
-  state.kategoriList = await FB.listKategori();
+  const semua = await FB.listKategori();
+  const perLevel = {}; semua.forEach(k => perLevel[lvOf(k)] = (perLevel[lvOf(k)]||0) + 1);
+  state.kategoriList = semua.filter(k => lvOf(k) === state.lvl);
   return `
     <div class="panel">
       <h2>📊 Import Soal dari Excel</h2>
@@ -637,13 +781,14 @@ async function renderImportTab(){
         Parsing 100% di browser — gambar embedded di Excel diekstrak otomatis.
         Soal akan disimpan dengan urutan sesuai baris di Excel (<b>tidak diacak</b>).
       </p>
-      <h3>1. Pilih Paket Tujuan</h3>
+      ${levelTabsHtml(perLevel, "import soal")}
+      <h3>1. Pilih Paket Tujuan (JLPT ${state.lvl.toUpperCase()})</h3>
       <div class="form-row">
         <label>Paket Soal</label>
         <select id="imp-kat" style="flex:1; max-width:400px;">
           ${state.kategoriList.length
             ? state.kategoriList.map(k => `<option value="${k.id}">${k.nama}</option>`).join("")
-            : '<option value="">(Belum ada paket — buat di tab Paket Soal dulu)</option>'}
+            : `<option value="">(Belum ada paket JLPT ${state.lvl.toUpperCase()} — buat di tab Paket Soal dulu)</option>`}
         </select>
       </div>
       <h3>2. Download Template (sangat disarankan)</h3>
@@ -695,6 +840,8 @@ window.downloadTemplate = () => {
       Pembahasan_Jepang:"〒は郵便局のマークです。",
       Materi:"Simbol & Rambu", Tingkat_Kesulitan:"Medium", Poin:2 },
   ];
+  // Contoh di template mengikuti level yang sedang dipilih guru.
+  data.forEach(d => d.JLPT_Level = state.lvl.toUpperCase());
   const ws = XLSX.utils.json_to_sheet(data);
   ws["!cols"] = [
     { wch:5 }, { wch:11 }, { wch:12 }, { wch:14 }, { wch:40 },
@@ -752,7 +899,7 @@ window.downloadTemplate = () => {
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "Soal");
   XLSX.utils.book_append_sheet(wb, inst, "Petunjuk");
-  XLSX.writeFile(wb, "template-paket-soal-shirose.xlsx");
+  XLSX.writeFile(wb, `template-soal-JLPT-${state.lvl.toUpperCase()}-shirose.xlsx`);
   toast("Template diunduh");
 };
 /* ==========================================================================
@@ -888,11 +1035,14 @@ function validateAndPreview(rows, embeddedImages){
     if (!p) { errors.push(`Baris ${lineNo}: Pertanyaan kosong`); return; }
     if (!a||!b||!c||!d) { errors.push(`Baris ${lineNo}: Ada opsi kosong`); return; }
     if (!["A","B","C","D"].includes(k)) { errors.push(`Baris ${lineNo}: Kunci "${k}" tidak valid (harus A/B/C/D)`); return; }
+    // Pembatas level: soal N4 tidak boleh masuk ke paket N5, dst.
+    const lvBaris = (r.JLPT_Level || r["JLPT Level"] || "").toString().trim().toLowerCase();
+    if (lvBaris && lvBaris !== state.lvl) { errors.push(`Baris ${lineNo}: JLPT_Level ${lvBaris.toUpperCase()} ≠ level yang dipilih (${state.lvl.toUpperCase()}) — tidak diimpor`); return; }
     // Hanya embedded image (data URL) — URL eksternal tidak didukung lagi
     const gambar = embeddedImages?.get(i) || "";
     valid.push({
       tipe: r["Tipe Soal"] || r.Tipe_Soal || "pilihan_ganda",
-      jlpt_level: (r.JLPT_Level || r["JLPT Level"] || "").toString().toLowerCase(),
+      jlpt_level: state.lvl,
       kategori_soal: r.Kategori || r["Kategori Soal"] || "",
       pertanyaan: String(p),
       opsi: [String(a), String(b), String(c), String(d)],
@@ -966,7 +1116,9 @@ window.konfirmasiImport = async () => {
   if (!katId) return toast("Pilih kategori dulu");
   const soal = state.excelParsed;
   if (!soal?.length) return toast("Tidak ada soal valid");
-  if (!confirm(`Import ${soal.length} soal ke kategori ini?`)) return;
+  const kat = state.kategoriList.find(k => k.id === katId);
+  if (kat && lvOf(kat) !== state.lvl) return toast("Paket tujuan bukan level " + state.lvl.toUpperCase());
+  if (!confirm(`Import ${soal.length} soal JLPT ${state.lvl.toUpperCase()} ke paket "${kat?.nama||""}"?`)) return;
   const total = await FB.tambahSoalBatch(katId, soal);
   toast(`✅ ${total} soal diimport`);
   state.excelParsed = null;
