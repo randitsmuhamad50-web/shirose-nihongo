@@ -1347,6 +1347,7 @@ html{overflow-x:hidden;}
 
 .hidden{display:none !important;}
 </style>
+<link rel="stylesheet" href="./css/shirose-extra.css?v=20261108"/>
 </head>
 <body>
 
@@ -1398,6 +1399,7 @@ import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
 import * as FB from "./js/firebase-sync.js?v=20261108h";
+import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261108";
 
 /* ========== STATE ========== */
 const state = {
@@ -1993,6 +1995,7 @@ async function loadMateri(tipe, lvl){
   }
 }
 
+window.__SHIROSE_STATE = state;
 /* ========== ROUTES ========== */
 const routes = {
   "pilih-level": renderPilihLevel,
@@ -2019,11 +2022,12 @@ const routes = {
   profile: renderProfile,
   achievements: renderAchievements,
   leaderboard: renderLeaderboard,
+  choukai: (params) => renderChoukaiJLPT(params),
 };
 
 // Routes that depend on state.level (and therefore on aksesLevel).
 const LEVEL_SCOPED_ROUTES = new Set([
-  "materi","kosakata","kanji","bunpou","hafalan","quest","ujian"
+  "materi","kosakata","kanji","bunpou","hafalan","quest","ujian","choukai"
 ]);
 
 // Simple route-history stack so the floating back button can walk through
@@ -2147,6 +2151,9 @@ function renderCharaOrbital(){
     { icon:"📅", jp:"暦",    lbl:"KALENDER",  route:"kalender",    deg:270 },
     { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:315 },
   ];
+  // Choukai JLPT ditambahkan → 9 node, jarak dihitung ulang supaya orbit tetap simetris.
+  NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
+  NAV.forEach((n, i) => { n.deg = i * 360 / NAV.length; });
   // Desktop: posisi di lingkaran memakai CSS var --R (radius responsif).
   // HP: node yang sama ditampilkan di kolom kiri & kanan karakter.
   const isi = (n) => `<div class="ico">${n.icon}</div><div class="jp">${n.jp}</div><div class="lbl">${n.lbl}</div>`;
@@ -2156,8 +2163,8 @@ function renderCharaOrbital(){
     return `<div class="orbit-node" style="transform:translate(calc(var(--R) * ${cx}), calc(var(--R) * ${cy}))" onclick="route('${n.route}')">${isi(n)}</div>`;
   }).join("");
   const sideNode = (n) => `<div class="side-node" onclick="route('${n.route}')">${isi(n)}</div>`;
-  const kiri = NAV.slice(0, 4).map(sideNode).join("");
-  const kanan = NAV.slice(4).map(sideNode).join("");
+  const kiri = NAV.slice(0, Math.ceil(NAV.length / 2)).map(sideNode).join("");
+  const kanan = NAV.slice(Math.ceil(NAV.length / 2)).map(sideNode).join("");
 
   return `
     <div class="herobar">
@@ -2181,6 +2188,7 @@ function renderCharaOrbital(){
       <div class="chara-wrap">${chara}</div>
       <div class="side-col kanan">${kanan}</div>
     </div>
+    <div class="home-disp">${displayBar("home")}</div>
 
     <div class="panel">
       <h2>Aktivitas cepat</h2>
@@ -2456,6 +2464,10 @@ async function renderMateriHub(){
           <div class="ico">📐</div>
           <div class="info"><div class="ttl">Bunpou</div><div class="sub">${bunpou.length} pola</div></div>
         </div>
+        <div class="hub-card" onclick="route('choukai')">
+          <div class="ico">🎧</div>
+          <div class="info"><div class="ttl">Choukai JLPT</div><div class="sub">Listening format ujian asli</div></div>
+        </div>
         <div class="hub-card" onclick="route('hafalan')">
           <div class="ico">🧠</div>
           <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>
@@ -2534,6 +2546,7 @@ async function renderMateriList(tipe){
       <div class="search-bar">
         <input type="text" id="search-${tipe}" placeholder="Cari di semua nomor..." oninput="filterMateri('${tipe}', this.value)"/>
       </div>
+      ${displayBar("materi")}
       ${tabs}
       <div class="materi-list" id="materi-list-${tipe}">${list}</div>
     </div>
@@ -4622,6 +4635,7 @@ async function renderSylabus(){
         <div class="syl-hero-lbl">${totalMastered} / ${totalMasterable} mastered di ${lvl.toUpperCase()}</div>
       </div>
 
+      ${displayBar("sylabus")}
       <h3 style="margin-top:14px;">📖 Kosakata (${kos.length})</h3>
       <div class="syl-grid">
         ${kosChunks.map(c => chunkHtml(c, "kosakata")).join("")}
@@ -4708,6 +4722,7 @@ async function renderSylabusChapter(params){
       </div>
 
       <h3>Daftar ${headerLabel} (${items.length})</h3>
+      ${displayBar("materi")}
       ${items.length ? `
         <div class="materi-list">
           ${items.map(cardHtml).join("")}
