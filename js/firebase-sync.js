@@ -154,79 +154,71 @@ function _bootstrapRoleFor(u){
 
 async function ensureSiswaDoc(u) {
   const ref = doc(db, "siswa", u.uid);
+  const bootstrapRole = _bootstrapRoleFor(u);
+  const isOwner = bootstrapRole !== "student";
+
+  // Base siswa payload — intentionally does NOT include `role`, so this call
+  // passes BOTH the old firestore rules (which block role at create) and the
+  // new ones. The role, if any, is written as a separate updateDoc call
+  // afterwards; that update succeeds under the new ownerEmail rules and is
+  // just a no-op under the old ones.
+  const base = {
+    nama: u.displayName || u.email.split("@")[0],
+    email: u.email,
+    kelas: "",
+    aksesLevel: isOwner
+      ? { n5:true, n4:true, n3:true, n2:true, n1:true }
+      : { n5:true, n4:false, n3:false, n2:false, n1:false },
+    karakter: {
+      equipped: {
+        rambut: null,
+        pakaian: "seragam_default",
+        sepatu: "shoes_default",
+        aksesori: "none",
+        item_tangan: "none",
+        aura: "none",
+      },
+      inventory: ["seragam_default", "shoes_default", "none"],
+      skinTone: "light",
+      hairColor: "#2a1810",
+    },
+    created: serverTimestamp(),
+    aktif: serverTimestamp(),
+  };
+
   try {
     const snap = await getDoc(ref);
     if (!snap.exists()) {
-      const role = _bootstrapRoleFor(u);
-      const data = {
-        nama: u.displayName || u.email.split("@")[0],
-        email: u.email,
-        kelas: "",
-        role,
-        aksesLevel: (role === "guru" || role === "developer" || role === "admin")
-          ? { n5:true, n4:true, n3:true, n2:true, n1:true }
-          : { n5:true, n4:false, n3:false, n2:false, n1:false },
-        karakter: {
-          equipped: {
-            rambut: null,
-            pakaian: "seragam_default",
-            sepatu: "shoes_default",
-            aksesori: "none",
-            item_tangan: "none",
-            aura: "none",
-          },
-          inventory: ["seragam_default", "shoes_default", "none"],
-          skinTone: "light",
-          hairColor: "#2a1810",
-        },
-        created: serverTimestamp(),
-        aktif: serverTimestamp(),
-      };
+      // Brand-new siswa: must create the doc so the guru can see them in
+      // listSiswa. Without this write the account only exists in Firebase Auth
+      // and never shows up in the dashboard — that's the "siswa baru engga
+      // otomatis ada di daftar" bug.
       try {
-        await setDoc(ref, data);
-        currentSiswaDoc = data;
+        await setDoc(ref, base);
+        currentSiswaDoc = { ...base };
       } catch (writeErr){
-        // If the role field is the thing being rejected (stale rules), retry
-        // without it so the student at least ends up signed-in rather than
-        // stuck as "tamu". A guru/developer can still fix the role later via
-        // the admin panel or the Firebase console.
-        console.warn("ensureSiswaDoc: setDoc failed, retrying without role:", writeErr);
-        try {
-          const { role: _r, ...noRole } = data;
-          await setDoc(ref, noRole);
-          currentSiswaDoc = noRole;
-        } catch (writeErr2){
-          console.warn("ensureSiswaDoc: fallback setDoc also failed, using in-memory doc:", writeErr2);
-          currentSiswaDoc = data;
-        }
+        console.warn("ensureSiswaDoc: initial setDoc failed:", writeErr);
+        currentSiswaDoc = { ...base };
       }
     } else {
       currentSiswaDoc = snap.data();
-      // If a known guru/developer email is still "student" in the siswa doc
-      // (legacy signup), try to upgrade their role transparently. Needs the
-      // bootstrap-friendly rules; otherwise this is a no-op.
-      const wantedRole = _bootstrapRoleFor(u);
-      if (wantedRole !== "student" && currentSiswaDoc.role !== wantedRole){
-        try {
-          await updateDoc(ref, { role: wantedRole });
-          currentSiswaDoc.role = wantedRole;
-        } catch (_e){ /* rules may forbid; non-fatal */ }
-      }
       // update last active (non-fatal)
       updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
+    }
+
+    // Bootstrap guru/developer role for the owner email. Done as a separate
+    // update so a rejection here doesn't poison the create above.
+    if (isOwner && currentSiswaDoc.role !== bootstrapRole){
+      try {
+        await updateDoc(ref, { role: bootstrapRole });
+        currentSiswaDoc.role = bootstrapRole;
+      } catch (_e){ /* needs updated rules; dashboard still works for own data */ }
     }
   } catch (e){
     // getDoc failed (network, rules). Keep a minimal placeholder so other code
     // paths can at least reflect "signed in".
     console.warn("ensureSiswaDoc: read failed, using placeholder:", e);
-    currentSiswaDoc = {
-      nama: u.displayName || u.email.split("@")[0],
-      email: u.email,
-      kelas: "",
-      role: _bootstrapRoleFor(u),
-      aksesLevel: { n5:true, n4:false, n3:false, n2:false, n1:false },
-      karakter: null,
-    };
+    currentSiswaDoc = { ...base, role: bootstrapRole };
   }
 }
 
@@ -656,8 +648,18 @@ export async function tambahChoukaiBatch(level, soalArr) {
 /* ========== SISWA (guru dashboard) ========== */
 export async function listSiswa() {
   if (!userIsGuru()) throw new Error("Hanya guru");
-  const snap = await getDocs(collection(db, "siswa"));
-  return snap.docs.map(d => ({ uid:d.id, ...d.data() }));
+  try {
+    const snap = await getDocs(collection(db, "siswa"));
+    return snap.docs.map(d => ({ uid:d.id, ...d.data() }));
+  } catch (e){
+    // Firestore most likely rejected the collection read because the guru's
+    // siswa doc still has role != "guru" (bootstrap not applied). Give a
+    // clearer message so the user knows the Firebase Console step to take.
+    if (e && (e.code === "permission-denied" || /permission/i.test(e.message || ""))){
+      throw new Error("Firestore menolak baca daftar siswa. Update Firestore Rules dari firestore.rules.example (Firebase Console → Firestore → Rules → Publish), lalu refresh halaman.");
+    }
+    throw e;
+  }
 }
 export async function updateAksesSiswa(uid, aksesLevel) {
   if (!userIsGuru()) throw new Error("Hanya guru");
@@ -666,6 +668,15 @@ export async function updateAksesSiswa(uid, aksesLevel) {
 export async function updateKelasSiswa(uid, kelas) {
   if (!userIsGuru()) throw new Error("Hanya guru");
   await updateDoc(doc(db, "siswa", uid), { kelas });
+}
+// Bulk-assign: put each uid into the given kelas (or "" to unassign).
+export async function assignSiswaKeKelas(uids, namaKelas) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  if (!Array.isArray(uids) || uids.length === 0) return 0;
+  const b = writeBatch(db);
+  uids.forEach(uid => b.update(doc(db, "siswa", uid), { kelas: namaKelas || "" }));
+  await b.commit();
+  return uids.length;
 }
 export async function getSiswaGami(uid) {
   if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");

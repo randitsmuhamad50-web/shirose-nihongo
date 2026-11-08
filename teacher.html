@@ -236,11 +236,29 @@ async function renderTab(){
 
 /* ========== TAB: SISWA ========== */
 async function renderSiswaTab(){
-  state.siswaList = await FB.listSiswa();
+  try {
+    state.siswaList = await FB.listSiswa();
+  } catch(e){
+    return `
+      <div class="panel">
+        <h2>👥 Siswa</h2>
+        <div style="padding:16px; background:rgba(239,68,68,.12); border:1px solid var(--red); border-radius:10px; color:var(--white);">
+          <b>⚠️ Gagal memuat daftar siswa</b>
+          <p style="margin-top:8px; font-size:14px; line-height:1.5;">${e.message || e}</p>
+          <p style="margin-top:8px; font-size:13px; color:var(--gray);">
+            Buka Firebase Console → Firestore → Rules → paste isi file
+            <code>firestore.rules.example</code> dari repo → Publish. Lalu refresh halaman ini.
+          </p>
+          <button class="btn" style="margin-top:12px;" onclick="renderTab()">🔄 Coba lagi</button>
+        </div>
+      </div>
+    `;
+  }
   return `
     <div class="panel">
-      <h2>👥 Siswa</h2>
-      <p style="color:var(--gray); font-size:12px; margin-bottom:10px;">Toggle akses JLPT per murid. Server-side rules enforce (bukan cuma frontend).</p>
+      <h2>👥 Siswa <span style="color:var(--gray); font-size:14px; font-weight:400;">(${state.siswaList.length} terdaftar)</span></h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:10px;">Toggle akses JLPT per murid. Server-side rules enforce (bukan cuma frontend).</p>
+      <button class="btn sm ghost" style="margin-bottom:10px;" onclick="renderTab()">🔄 Refresh daftar</button>
       <div class="table-wrap">
         <table>
           <thead><tr><th>Nama</th><th>Email</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
@@ -670,6 +688,9 @@ async function renderKelasTab(){
         </div>
         ${openId===k.id ? `
           <div style="margin-top:14px; padding-top:12px; border-top:1px solid var(--border);" onclick="event.stopPropagation();">
+            <div style="display:flex; gap:8px; margin-bottom:12px; flex-wrap:wrap;">
+              <button class="btn" onclick="openAssignSiswaModal('${k.id}')">➕ Tambah Siswa ke Kelas</button>
+            </div>
             ${members.length ? `
               <div class="table-wrap">
                 <table>
@@ -680,12 +701,15 @@ async function renderKelasTab(){
                         <td><b>${s.nama||"-"}</b></td>
                         <td>${s.email}</td>
                         <td>${["n5","n4","n3","n2","n1"].filter(l=>s.aksesLevel?.[l]).map(l=>l.toUpperCase()).join(", ")||"-"}</td>
-                        <td><button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button></td>
+                        <td>
+                          <button class="btn sm" onclick="studentProfile('${s.uid}')">📊 Profil</button>
+                          <button class="btn sm danger" onclick="keluarkanDariKelas('${s.uid}')">Keluarkan</button>
+                        </td>
                       </tr>`).join("")}
                   </tbody>
                 </table>
               </div>
-            ` : `<div style="color:var(--gray); padding:10px;">Belum ada siswa di kelas ini. Assign dari tab Siswa (isi field Kelas = "${k.nama}").</div>`}
+            ` : `<div style="color:var(--gray); padding:10px;">Belum ada siswa di kelas ini. Klik <b>➕ Tambah Siswa</b> di atas.</div>`}
           </div>
         ` : ""}
       </div>`;
@@ -734,6 +758,74 @@ window.hapusKelas = async (id) => {
   await FB.hapusKelas(id);
   toast("✓ Kelas dihapus");
   renderTab();
+};
+
+// Picker modal: shows all siswa NOT already in this class, checkbox select.
+window.openAssignSiswaModal = async (kelasId) => {
+  const k = (state.kelasList||[]).find(x => x.id === kelasId);
+  if (!k) return toast("Kelas tidak ditemukan");
+  // Fetch fresh so newly-signed-up students show up too.
+  let semua = [];
+  try { semua = await FB.listSiswa(); state.siswaList = semua; }
+  catch(e){ return toast(e.message || "Gagal baca daftar siswa"); }
+  const kandidat = semua.filter(s => (s.kelas || "") !== k.nama);
+  if (!kandidat.length){
+    modal(`
+      <h2 style="color:var(--pink);">Tambah siswa ke "${k.nama}"</h2>
+      <p style="color:var(--gray); margin:12px 0;">Semua siswa yang terdaftar sudah masuk kelas ini, atau belum ada siswa yang signup.</p>
+      <button class="btn ghost" onclick="closeModal()">Tutup</button>
+    `);
+    return;
+  }
+  const rows = kandidat.map(s => `
+    <tr>
+      <td><input type="checkbox" class="assign-pick" value="${s.uid}" style="width:20px; height:20px;"/></td>
+      <td><b>${s.nama||"-"}</b></td>
+      <td>${s.email}</td>
+      <td style="color:var(--gray-dim); font-size:13px;">${s.kelas ? `dari: ${s.kelas}` : "belum ada kelas"}</td>
+    </tr>`).join("");
+  modal(`
+    <h2 style="color:var(--pink);">➕ Tambah siswa ke "${k.nama}"</h2>
+    <p style="color:var(--gray); font-size:14px; margin:8px 0 12px;">Centang siswa yang mau dimasukkan ke kelas ini. Jika siswa sudah ada di kelas lain, dia akan dipindah ke sini.</p>
+    <div style="display:flex; gap:8px; margin-bottom:10px;">
+      <button class="btn sm ghost" onclick="document.querySelectorAll('.assign-pick').forEach(c=>c.checked=true)">Pilih semua</button>
+      <button class="btn sm ghost" onclick="document.querySelectorAll('.assign-pick').forEach(c=>c.checked=false)">Kosongkan</button>
+    </div>
+    <div class="table-wrap" style="max-height:50vh; overflow:auto;">
+      <table>
+        <thead><tr><th></th><th>Nama</th><th>Email</th><th>Status</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+    <div style="display:flex; gap:8px; margin-top:16px;">
+      <button class="btn" onclick="submitAssignSiswa('${kelasId}')">Masukkan ke kelas</button>
+      <button class="btn ghost" onclick="closeModal()">Batal</button>
+    </div>
+  `);
+};
+window.submitAssignSiswa = async (kelasId) => {
+  const k = (state.kelasList||[]).find(x => x.id === kelasId);
+  if (!k) return;
+  const picked = Array.from(document.querySelectorAll(".assign-pick:checked")).map(c => c.value);
+  if (!picked.length){ toast("Centang dulu siswanya"); return; }
+  try {
+    const n = await FB.assignSiswaKeKelas(picked, k.nama);
+    toast(`✓ ${n} siswa dimasukkan ke "${k.nama}"`);
+    closeModal();
+    renderTab();
+  } catch(e){
+    toast(e.message || "Gagal assign siswa");
+  }
+};
+window.keluarkanDariKelas = async (uid) => {
+  const s = (state.siswaList||[]).find(x => x.uid === uid);
+  if (!s) return;
+  if (!confirm(`Keluarkan ${s.nama || s.email} dari kelas "${s.kelas}"?`)) return;
+  try {
+    await FB.updateKelasSiswa(uid, "");
+    toast("✓ Siswa dikeluarkan dari kelas");
+    renderTab();
+  } catch(e){ toast(e.message || "Gagal"); }
 };
 
 // Expanded student profile (Part 16)
