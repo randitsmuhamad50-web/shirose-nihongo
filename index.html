@@ -1292,8 +1292,8 @@ body.auth-mode .companion{display:none !important;}
 import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
-// ?v=20261108d — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261108d";
+// ?v=20261108e — cache-buster, lihat catatan sama di teacher.html.
+import * as FB from "./js/firebase-sync.js?v=20261108e";
 
 /* ========== STATE ========== */
 const state = {
@@ -1615,7 +1615,10 @@ function renderLogin(){
         <button class="btn" id="auth-page-submit" onclick="submitAuthPage()">${isDaftar ? "Daftar Sekarang" : "Masuk"}</button>
         <button class="btn ghost" onclick="toggleAuthPageMode()">${isDaftar ? "Sudah punya akun? Masuk di sini" : "Belum punya akun? Daftar dulu"}</button>
         ${isDaftar ? "" : `<button class="btn ghost" onclick="kirimResetPassword()" style="font-size:12px;">Lupa password?</button>`}
-        <button class="btn ghost" onclick="route('home')">← Kembali ke beranda</button>
+        <div style="margin:14px 0 8px; text-align:center; color:var(--gray-dim); font-size:12px;">— atau —</div>
+        <button class="btn gold" onclick="masukTamuNow()" style="width:100%;">👤 Lanjut sebagai Tamu</button>
+        <p style="font-size:11px; color:var(--gray); margin:6px 0 0; text-align:center;">Bisa langsung coba ujian tanpa daftar. Progres tidak tersimpan permanen.</p>
+        <button class="btn ghost" onclick="route('home')" style="margin-top:12px;">← Kembali ke beranda</button>
 
         <div id="auth-page-err" class="auth-err"></div>
 
@@ -1644,6 +1647,31 @@ function renderLogin(){
     </div>
   `;
 }
+
+// Masuk sebagai Tamu (anonymous Firebase Auth). Mode ini bikin siswa
+// langsung bisa ngerjain ujian tanpa daftar. Kalau Firebase Console
+// belum enable Anonymous provider, kasih pesan panduan ke user.
+window.masukTamuNow = async () => {
+  const err = document.getElementById("auth-page-err");
+  if (err) err.innerHTML = "";
+  try {
+    await FB.masukTamu();
+    toast("Selamat datang, Tamu! 🎉");
+    setTimeout(() => route("home"), 400);
+  } catch(e){
+    if (e.code === "auth/admin-restricted-operation" || e.code === "auth/operation-not-allowed"){
+      if (err) err.innerHTML = `
+        <div style="padding:10px; background:rgba(239,68,68,.15); border:1px solid var(--red); border-radius:8px; text-align:left; font-size:12px;">
+          <b>Fitur Tamu belum diaktifkan guru.</b><br>
+          Guru harus buka
+          <a href="https://console.firebase.google.com/project/shirose-nihongo/authentication/providers" target="_blank" style="color:var(--gold);">Firebase Console → Authentication → Sign-in method</a>,
+          cari <b>Anonymous</b>, klik <b>Enable</b>, lalu Save. Setelah itu tombol ini akan jalan.
+        </div>`;
+    } else {
+      if (err) err.textContent = "Gagal masuk sebagai tamu: " + (e.message||e);
+    }
+  }
+};
 
 // Kirim email reset password — dipakai user yang lupa password atau
 // mau ubah password akun yang tidak bisa login.
@@ -3516,7 +3544,27 @@ async function renderUjian(params){
   const kategoriId = params[0];
   if (!kategoriId){ _stopUjianTimer(); return renderUjianList(); }
 
-  if (!state.user){ _stopUjianTimer(); return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk mengerjakan ujian.<br><button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`; }
+  // Guest juga boleh ngerjain ujian — kalau belum sign-in sama sekali,
+  // auto-coba anonymous sign-in. Kalau anonymous provider belum di-enable
+  // di Firebase Console, arahkan ke halaman login.
+  if (!state.user){
+    try {
+      await FB.masukTamu();
+      // onAuth callback akan render ulang route — return loading state
+      // sambil nunggu. Return null supaya caller lanjut dengan render.
+      return `<div class="panel"><h2>Ujian</h2><div class="loading">Masuk sebagai tamu…</div></div>`;
+    } catch(e){
+      _stopUjianTimer();
+      return `
+        <div class="panel"><h2>Ujian</h2>
+          <div class="empty">
+            <div class="emoji">👤</div>
+            Login atau masuk sebagai Tamu dulu untuk mengerjakan ujian.<br>
+            <button class="btn" onclick="route('login')">🔑 Masuk / Daftar / Tamu</button>
+          </div>
+        </div>`;
+    }
+  }
 
   const katList = await FB.listKategori(state.level);
   const kat = katList.find(x => x.id === kategoriId);
@@ -3526,9 +3574,11 @@ async function renderUjian(params){
   if (!soal.length){ _stopUjianTimer(); return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">📭</div>Belum ada soal tersedia. Silakan tunggu guru mengunggah soal.</div></div>`; }
 
   _stopUjianTimer();
+  // Soal TIDAK diacak — urutan harus sesuai Excel yang di-upload guru.
+  // listSoal() sudah sort by field `urutan` di client, jadi tinggal pakai apa adanya.
   state.ujian = {
     kategoriId,
-    soal: soal.sort(() => Math.random() - 0.5),
+    soal: soal,
     pos: 0,
     jawaban: {},
     mulai: Date.now(),
@@ -3539,38 +3589,49 @@ async function renderUjian(params){
   setTimeout(_startUjianTimer, 0);
   return renderUjianSoal();
 }
+// Bersihkan furigana dari teks soal — sesuai permintaan guru Nov 2026
+// soal ujian TIDAK BOLEH ada furigana. Dua bentuk yang kita bersihin:
+//  1. HTML <ruby>字<rt>じ</rt></ruby>  →  字
+//  2. Parenthetical kanji(hiragana) / kanji（hiragana）  →  kanji
+// Tetap biarkan hiragana/katakana murni (tidak dalam kurung) karena itu
+// bagian dari soal, bukan furigana.
+function stripFurigana(text){
+  if (!text) return text;
+  let out = String(text);
+  // <ruby>base<rt>reading</rt></ruby>  → base
+  out = out.replace(/<ruby>([\s\S]*?)<rt>[\s\S]*?<\/rt>([\s\S]*?)<\/ruby>/gi, "$1$2");
+  // kanji(hiragana) atau kanji（hiragana） — hanya jika isi kurung murni kana
+  out = out.replace(/[\(（]([぀-ゟ゠-ヿーー・]+)[\)）]/g, "");
+  return out;
+}
+window.stripFurigana = stripFurigana;
+
 function renderUjianSoal(){
   const u = state.ujian;
   const s = u.soal[u.pos];
   const picked = u.jawaban[u.pos];
   const remaining = u.endTime ? Math.max(0, Math.floor((u.endTime - Date.now())/1000)) : 0;
-  const furiOff = state.ujianFuriOff ? " no-furigana" : "";
   setTimeout(_mountCompanion, 0);
-  // Gambar soal (kalau ada): base64 data URL dari embedded Excel atau URL eksternal.
-  // Ditempel sebelum pertanyaan supaya murid bisa lihat dulu baru baca.
+  // Gambar soal (hanya embedded base64 dari Excel; URL external tidak didukung lagi).
   const gambarHtml = s.gambar
     ? `<div style="text-align:center; margin:8px 0 14px;">
          <img src="${s.gambar}" alt="Gambar soal" loading="lazy"
               style="max-width:100%; max-height:280px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background:#fff; padding:4px;"/>
        </div>`
     : "";
+  const pertanyaan = stripFurigana(s.pertanyaan || "");
   return `
-    <div class="panel exam-area${furiOff}" id="exam-area">
+    <div class="panel exam-area no-furigana" id="exam-area">
       <div class="soal-timer">
         <span>Soal ${u.pos+1} / ${u.soal.length}</span>
         <span class="time${remaining<=60?' time-danger':''}" id="timer">⏱ ${_fmtTime(remaining)}</span>
       </div>
-      <div style="margin-bottom:10px;">
-        <span class="furi-toggle${state.ujianFuriOff?'':' on'}" onclick="toggleFurigana()">
-          ${state.ujianFuriOff ? "🙈 Furigana OFF" : "👁 Furigana ON"}
-        </span>
-      </div>
       ${gambarHtml}
-      <div class="soal-stem">${s.pertanyaan || ""}</div>
+      <div class="soal-stem">${pertanyaan}</div>
       <div class="opsi-list">
         ${(s.opsi || ["A","B","C","D"]).map((o, i) => `
           <button class="opsi ${picked === i ? "selected" : ""}" onclick="pickOpsi(${i})">
-            ${String.fromCharCode(65+i)}. ${o}
+            ${String.fromCharCode(65+i)}. ${stripFurigana(String(o))}
           </button>
         `).join("")}
       </div>
@@ -3662,18 +3723,20 @@ window.ujianSelesai = async () => {
           ? `<div style="margin:6px 0;"><img src="${s.gambar}" alt="Gambar soal"
                style="max-width:220px; max-height:140px; border-radius:6px; background:#fff; padding:3px;"/></div>`
           : "";
+        const cleanQ = stripFurigana(s.pertanyaan||"");
+        const cleanKunciTeks = stripFurigana(kunciTeks);
         return `
-          <div class="contoh-item" style="flex-direction:column; align-items:stretch; margin-bottom:10px; position:relative;">
-            <div><b>${i+1}. ${s.pertanyaan}</b></div>
+          <div class="contoh-item no-furigana" style="flex-direction:column; align-items:stretch; margin-bottom:10px; position:relative;">
+            <div><b>${i+1}. ${cleanQ}</b></div>
             ${gambarReviewHtml}
             <div style="color:${pick===kunci?'var(--green)':'var(--red)'}; font-size:12px; margin-top:4px;">
               Jawabanmu: ${pick!=null ? String.fromCharCode(65+pick) : "(kosong)"} ·
-              Kunci: ${String.fromCharCode(65+kunci)} ${kunciTeks}
+              Kunci: ${String.fromCharCode(65+kunci)} ${cleanKunciTeks}
             </div>
             ${s.pembahasan_id ? `<div style="font-size:12px; color:var(--gray); margin-top:4px;"><b>Pembahasan:</b> ${s.pembahasan_id}</div>` : ""}
-            ${s.pembahasan_jp ? `<div style="font-size:12px; color:var(--gray); margin-top:2px; font-family:var(--font-jp);">${s.pembahasan_jp}</div>` : ""}
+            ${s.pembahasan_jp ? `<div style="font-size:12px; color:var(--gray); margin-top:2px; font-family:var(--font-jp);">${stripFurigana(s.pembahasan_jp)}</div>` : ""}
             <button class="btn sm ghost" style="margin-top:8px; align-self:flex-start;"
-                    onclick='rangkumPopup({arti:"${kunciTeks.replace(/"/g,"\\&quot;").slice(0,80)}"}, "Soal ${i+1}: ${safeQ}")'>➕ Rangkum kata dari soal ini</button>
+                    onclick='rangkumPopup({arti:"${cleanKunciTeks.replace(/"/g,"\\&quot;").slice(0,80)}"}, "Soal ${i+1}: ${safeQ}")'>➕ Rangkum kata dari soal ini</button>
           </div>
         `;
       }).join("")}

@@ -1,7 +1,9 @@
 /* Service worker: network-first, cache fallback */
-// v10 — WORKAROUND: semua akun dapat akses N5-N1 penuh otomatis. Level
-// pills tidak lagi locked. User lama di-upgrade saat next login.
-const CACHE = "shirose-nihongo-v10";
+// v11 — strip furigana saat ujian, soal urut sesuai Excel (tidak diacak),
+// template Excel diperbaiki (hapus Gambar_URL, tambah petunjuk lengkap),
+// "Kategori Ujian" → "Paket Soal" dengan auto-numbering & rename mudah,
+// mode Tamu via Firebase Anonymous Auth.
+const CACHE = "shirose-nihongo-v11";
 const CORE = [
   "./",
   "./index.html",

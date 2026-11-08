@@ -68,24 +68,17 @@ service cloud.firestore {
     }
 
     // ---------- /kategori_ujian ----------
+    // Nov 2026: akses JLPT dibuka penuh buat semua akun. Rule hasLevelAccess
+    // dihapus — asalkan signed in (termasuk tamu / anonymous), bisa baca
+    // paket soal yang publish. Guru tetap pegang CRUD.
     match /kategori_ujian/{id} {
-      // Siswa hanya boleh baca kategori yang level-nya di-akses.
-      allow read: if isSignedIn() && (
-        isGuru() || isAdmin() || isDeveloper()
-        || hasLevelAccess(resource.data.level)
-      );
+      allow read: if isSignedIn();
       allow create, update, delete: if isGuru() || isAdmin() || isDeveloper();
     }
 
     // ---------- /soal/{kategoriId}/items/{soalId} ----------
     match /soal/{kategoriId}/items/{soalId} {
-      // Siswa hanya bisa baca soal dari kategori level yang boleh diakses.
-      allow read: if isSignedIn() && (
-        isGuru() || isAdmin() || isDeveloper()
-        || hasLevelAccess(
-             get(/databases/$(database)/documents/kategori_ujian/$(kategoriId)).data.level
-           )
-      );
+      allow read: if isSignedIn();
       allow create, update, delete: if isGuru() || isAdmin() || isDeveloper();
     }
 

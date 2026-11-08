@@ -18,6 +18,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/fireba
 import {
   getAuth, onAuthStateChanged,
   signInWithEmailAndPassword, createUserWithEmailAndPassword,
+  signInAnonymously,
   signOut, sendPasswordResetEmail,
   setPersistence, browserLocalPersistence, browserSessionPersistence,
   indexedDBLocalPersistence
@@ -168,9 +169,16 @@ async function ensureSiswaDoc(u, extra = {}) {
   const bootstrapRole = _bootstrapRoleFor(u);
   const isOwner = bootstrapRole !== "student";
 
+  // Nama default: untuk tamu (anonymous user, u.email == null) kasih
+  // nama "Tamu-xxxx" biar beda dari akun siswa asli di dashboard guru.
+  const emailStr = u.email || "";
+  const defaultNama = u.isAnonymous
+    ? `Tamu-${u.uid.slice(0, 5)}`
+    : (emailStr ? emailStr.split("@")[0] : `User-${u.uid.slice(0, 5)}`);
   const base = {
-    nama: extra.nama || u.displayName || u.email.split("@")[0],
-    email: u.email,
+    nama: extra.nama || u.displayName || defaultNama,
+    email: emailStr,
+    isTamu: !!u.isAnonymous,
     kelas: "",
     // WORKAROUND Nov 2026 (permintaan guru): semua akun dapat akses N5-N1
     // sepenuhnya, tidak dibatasi per-level. Guru bisa kembalikan ke access
@@ -319,6 +327,24 @@ export async function daftar(email, pwd, nama) {
 }
 export async function keluar() { return await signOut(auth); }
 export async function resetPassword(email) { return await sendPasswordResetEmail(auth, email); }
+
+/**
+ * Masuk sebagai Tamu (anonymous Firebase Auth user). Perlu Anonymous
+ * provider di-enable di Firebase Console → Authentication → Sign-in
+ * method. Kalau belum, Firebase throw auth/admin-restricted-operation
+ * atau auth/operation-not-allowed — caller tampilkan pesan panduan.
+ * Tamu dapat akses JLPT penuh (thanks to workaround Nov 2026) tapi
+ * progres tidak permanen antar device.
+ */
+export async function masukTamu(){
+  const cred = await signInAnonymously(auth);
+  // Siswa doc otomatis dibuat oleh onAuthStateChanged → ensureSiswaDoc.
+  // Nama default "Tamu-xxxxx" biar guru tahu kalau ini anonymous.
+  return cred;
+}
+export function isGuestUser(){
+  return !!(currentUser && currentUser.isAnonymous);
+}
 
 /* ========== CHARACTER / INVENTORY ========== */
 export async function updateKarakter(karakter) {
@@ -657,17 +683,48 @@ export async function hapusKategori(id) {
   await deleteDoc(doc(db, "kategori_ujian", id));
 }
 
-/* ========== SOAL (per kategori) ========== */
+/* ========== SOAL (per kategori / paket soal) ========== */
+// Urutan soal harus dipertahankan sesuai input Excel — Firestore tidak
+// menjamin urutan dari getDocs, jadi kita simpan field `urutan` di tiap
+// soal dan sort di client.
 export async function listSoal(kategoriId) {
   const col = collection(db, "soal", kategoriId, "items");
   const snap = await getDocs(col);
-  return snap.docs.map(d => ({ id:d.id, ...d.data() }));
+  const arr = snap.docs.map(d => ({ id:d.id, ...d.data() }));
+  arr.sort((a, b) => {
+    const au = typeof a.urutan === "number" ? a.urutan : Infinity;
+    const bu = typeof b.urutan === "number" ? b.urutan : Infinity;
+    if (au !== bu) return au - bu;
+    // Fallback stable: timestamp created lalu id
+    const at = a.created?.toMillis ? a.created.toMillis() : 0;
+    const bt = b.created?.toMillis ? b.created.toMillis() : 0;
+    if (at !== bt) return at - bt;
+    return (a.id || "").localeCompare(b.id || "");
+  });
+  return arr;
+}
+// Hitung berapa soal yang sudah ada — buat tahu nomor urut berikutnya saat
+// tambah manual. Tidak error kalau kategori belum ada.
+async function _nextUrutan(kategoriId){
+  try {
+    const existing = await listSoal(kategoriId);
+    const maxU = existing.reduce((m, s) => Math.max(m, typeof s.urutan === "number" ? s.urutan : 0), 0);
+    return maxU + 1;
+  } catch(e) { return 1; }
 }
 export async function tambahSoalBatch(kategoriId, soalArr) {
   if (!userIsGuru()) throw new Error("Hanya guru");
+  // Jika caller tidak kasih `urutan`, kita lanjutkan dari max yang sudah ada.
+  const needAssign = soalArr.some(s => typeof s.urutan !== "number");
+  let base = 0;
+  if (needAssign) base = await _nextUrutan(kategoriId);
+  const withUrutan = soalArr.map((s, i) => ({
+    ...s,
+    urutan: typeof s.urutan === "number" ? s.urutan : (base + i),
+  }));
   const batches = [];
-  for (let i = 0; i < soalArr.length; i += 400) {
-    batches.push(soalArr.slice(i, i + 400));
+  for (let i = 0; i < withUrutan.length; i += 400) {
+    batches.push(withUrutan.slice(i, i + 400));
   }
   let total = 0;
   for (const batch of batches) {
