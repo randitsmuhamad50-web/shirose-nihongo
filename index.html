@@ -1292,7 +1292,8 @@ body.auth-mode .companion{display:none !important;}
 import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
-import * as FB from "./js/firebase-sync.js";
+// ?v=20261108b — cache-buster, lihat catatan sama di teacher.html.
+import * as FB from "./js/firebase-sync.js?v=20261108b";
 
 /* ========== STATE ========== */
 const state = {
