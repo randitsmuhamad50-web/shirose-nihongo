@@ -226,6 +226,9 @@ window.guruLogout = async () => {
 };
 
 /* ========== MAIN APP ========== */
+// Tombol/dropdown memakai atribut onclick/onchange (scope global), sedangkan
+// script ini adalah ES module — jadi state & renderTab harus diekspos ke window.
+window.state = state;
 function renderApp(){
   document.getElementById("root").innerHTML = `
     <div class="layout">
@@ -247,6 +250,7 @@ function renderApp(){
 }
 window.setTab = (t) => { state.tab = t; renderApp(); };
 
+window.renderTab = (...a) => renderTab(...a);
 async function renderTab(){
   const mount = document.getElementById("main");
   mount.innerHTML = '<div style="color:var(--gray);">Memuat…</div>';
