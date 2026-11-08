@@ -1001,6 +1001,8 @@ html{overflow-x:hidden;}
 .flash-card .say-btn{position:absolute; top:12px; right:12px; width:52px; height:52px; border-radius:50%;
   border:2px solid var(--border); background:rgba(255,255,255,.06); color:var(--white); font-size:24px; cursor:pointer; z-index:3;}
 .flash-card .say-btn:active{transform:scale(.94);}
+.flash-card .say-btn{display:none;}               /* suara hanya di sisi belakang */
+.flash-card.revealed .say-btn{display:block;}
 @keyframes revealFade{0%{opacity:0; transform:translateY(8px)}100%{opacity:1; transform:translateY(0)}}
 .flash-card.swiping{transition:none;}
 .flash-card.leave-left{transform:translateX(-120%) rotate(-14deg); opacity:0;}
@@ -3258,7 +3260,8 @@ window.hafStart = async () => {
   }
 
   // Shuffle + cap
-  const cap = cfg.mode === "matching" ? Math.min(filtered.length, 20) : Math.min(filtered.length, 20);
+  // Jumlah kartu = SEMUA item di rentang yang dipilih (1–50 → 50 kartu), tidak dipotong 20.
+  const cap = filtered.length;
   state.hafalan_queue = filtered.sort(() => Math.random() - 0.5).slice(0, cap);
   state.hafalan_pos = 0;
   state.hafalan_score = { benar:0, salah:0 };
@@ -3337,8 +3340,7 @@ function renderHafalanFlashcard(){
 function _hafPostRender(){
   const card = document.getElementById("flash-card");
   if (!card) return;
-  const front = card.getAttribute("data-front");
-  _autoSpeakJP(front);
+  // Suara TIDAK diputar di sisi depan — baru diputar saat kartu dibalik.
   _bindFlashSwipe(card);
   _mountCompanion();  // Part 24: companion presence
 }
@@ -3351,6 +3353,8 @@ window.hafCardTap = (ev) => {
   if (!card) return;
   state._flashRevealed = !state._flashRevealed;
   card.classList.toggle("revealed", state._flashRevealed);
+  // Sisi belakang terbuka → putar suara (kalau auto-audio aktif).
+  if (state._flashRevealed) _autoSpeakJP(card.dataset.say);
 };
 
 // Center button: go back to the previous card (only when pos > 0).
