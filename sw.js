@@ -2,7 +2,7 @@
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v13";
+const CACHE = "shirose-nihongo-v14";
 const CORE = [
   "./",
   "./index.html",
