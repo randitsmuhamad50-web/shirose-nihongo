@@ -508,10 +508,10 @@ body.pick-mode .lvl-pill-group{visibility:hidden;}
 .mini-cell.other:hover{transform:none;}
 .mini-cell.today{outline:2px solid var(--pink);}
 /* Heat palette — green → yellow → orange → red → fire */
-.mini-cell.i1{background:rgba(16,185,129,.35);}                     /* sedikit */
-.mini-cell.i2{background:rgba(234,179,8,.5);}                        /* sedang */
-.mini-cell.i3{background:rgba(249,115,22,.65);}                      /* lumayan */
-.mini-cell.i4{background:rgba(239,68,68,.75);}                       /* bagus */
+.mini-cell.i1{background:rgba(16,185,129,.75);}                     /* sedikit */
+.mini-cell.i2{background:rgba(234,179,8,.85);}                       /* sedang */
+.mini-cell.i3{background:rgba(249,115,22,.9);}                       /* lumayan */
+.mini-cell.i4{background:rgba(239,68,68,.95);}                       /* bagus */
 .mini-cell.i5{
   background:linear-gradient(135deg, #ef4444, #f59e0b);
   box-shadow:0 0 12px rgba(239,68,68,.75), inset 0 0 8px rgba(255,215,0,.5);
@@ -546,63 +546,82 @@ body.pick-mode .lvl-pill-group{visibility:hidden;}
 }
 
 /* ========== RPG DASHBOARD HOME — big, mobile-first ========== */
+/* Desktop: orbit melingkar besar. HP (portrait/landscape): menu di KIRI &
+   KANAN karakter, tidak melingkar. Ukuran tombol diperbesar ±2,5x. */
 .rpg-stage{
+  --R: min(400px, calc(46vw - 90px));
+  --node: 156px;
   position:relative;
-  min-height:min(92vh, 720px);
+  min-height:calc(var(--R) * 2 + var(--node) + 20px);
   display:flex; align-items:center; justify-content:center;
   background:radial-gradient(ellipse at center, rgba(139,92,246,.18), transparent 70%);
   border-radius:24px;
   padding:10px 0;
 }
-@media (max-width:640px){ .rpg-stage{min-height:min(86vh, 640px); padding:4px 0;} }
-
 .chara-wrap{
   position:relative;
-  width:min(62vw, 340px);
+  width:min(26vw, 300px);
   aspect-ratio:7/10;
   display:flex; align-items:center; justify-content:center;
   z-index:2;
 }
-@media (max-width:640px){ .chara-wrap{width:min(58vw, 280px);} }
 .chara-wrap svg{width:100%; height:100%;}
 
-/* Orbital nav ring — fills most of the viewport on mobile */
 .orbit{
   position:absolute; top:50%; left:50%; transform:translate(-50%,-50%);
-  width:min(95vw, 620px);
-  height:min(95vw, 620px);
+  width:calc(var(--R) * 2 + var(--node));
+  height:calc(var(--R) * 2 + var(--node));
   pointer-events:none;
-  animation: orbitSpin 90s linear infinite;
+  animation: orbitSpin 120s linear infinite;
 }
 @keyframes orbitSpin{ from{transform:translate(-50%,-50%) rotate(0deg);} to{transform:translate(-50%,-50%) rotate(360deg);} }
-.orbit svg{width:100%; height:100%; stroke:var(--border); stroke-width:1; fill:none; opacity:.4;}
+.orbit .ring{position:absolute; inset:calc(var(--node) / 2); border-radius:50%; border:1px dashed var(--border); opacity:.5;}
 
+.orbit-node, .side-node{
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px;
+  cursor:pointer; color:var(--white); text-align:center;
+  background:linear-gradient(135deg, rgba(31,38,80,.96), rgba(13,16,36,.96));
+  border:2px solid var(--border);
+  box-shadow:0 8px 28px rgba(0,0,0,.55);
+  transition:border-color .2s, box-shadow .2s, filter .2s;
+  -webkit-tap-highlight-color:transparent;
+}
 .orbit-node{
   position:absolute; top:50%; left:50%;
-  width:92px; height:92px; margin:-46px 0 0 -46px;
-  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:4px;
-  border-radius:50%; cursor:pointer;
-  background:linear-gradient(135deg, rgba(31,38,80,.95), rgba(13,16,36,.95));
-  border:2px solid var(--border);
-  box-shadow:0 6px 24px rgba(0,0,0,.55);
-  transition:all .2s; pointer-events:auto; z-index:3;
-  color:var(--white); text-align:center;
-  animation: orbitNodeCounter 90s linear infinite;
+  width:var(--node); height:var(--node);
+  margin:calc(var(--node) / -2) 0 0 calc(var(--node) / -2);
+  border-radius:50%; pointer-events:auto; z-index:3;
+  animation: orbitNodeCounter 120s linear infinite;
 }
 @keyframes orbitNodeCounter{ from{rotate:0deg;} to{rotate:-360deg;} }
-@media (max-width:640px){ .orbit-node{width:84px; height:84px; margin:-42px 0 0 -42px;} }
-.orbit-node:hover{
-  border-color:var(--pink); box-shadow:0 0 24px rgba(239,106,154,.7);
-  transform:scale(1.08);
+.orbit-node:hover, .side-node:hover{border-color:var(--pink); box-shadow:0 0 28px rgba(239,106,154,.7); filter:brightness(1.12);}
+.orbit-node:active, .side-node:active{filter:brightness(.92);}
+.orbit-node .ico, .side-node .ico{font-size:54px; line-height:1;}
+.orbit-node .jp, .side-node .jp{font-family:var(--font-jp); font-size:26px; font-weight:800; line-height:1;}
+.orbit-node .lbl, .side-node .lbl{font-size:14px; font-weight:800; letter-spacing:1px; color:var(--pink-light); line-height:1;}
+
+/* Kolom kiri/kanan — hanya dipakai di HP */
+.side-col{display:none;}
+
+@media (max-width:820px), (orientation:landscape) and (max-height:560px){
+  .orbit{display:none;}
+  .rpg-stage{
+    min-height:0; display:grid; align-items:center; gap:10px; padding:10px 8px;
+    grid-template-columns:minmax(0,1fr) minmax(0,1.15fr) minmax(0,1fr);
+  }
+  .side-col{display:grid; gap:10px; grid-template-rows:repeat(4, 1fr); height:100%;}
+  .side-node{border-radius:22px; padding:12px 6px; min-height:112px;}
+  .side-node .ico{font-size:clamp(36px, 10vw, 54px);}
+  .side-node .jp{font-size:clamp(18px, 5vw, 26px);}
+  .side-node .lbl{font-size:clamp(11px, 3vw, 14px); letter-spacing:.5px;}
+  .chara-wrap{width:100%; max-width:300px; justify-self:center;}
 }
-.orbit-node:active{transform:scale(.98);}
-.orbit-node .ico{font-size:24px; line-height:1;}
-.orbit-node .jp{font-family:var(--font-jp); font-size:14px; font-weight:800; color:var(--white); margin-top:2px; line-height:1;}
-.orbit-node .lbl{font-size:9px; font-weight:800; letter-spacing:.5px; color:var(--pink-light); margin-top:2px; line-height:1;}
-@media (max-width:640px){
-  .orbit-node .ico{font-size:22px;}
-  .orbit-node .jp{font-size:13px;}
-  .orbit-node .lbl{font-size:8px;}
+/* HP landscape: tiap sisi 2x2 supaya muat di tinggi layar yang pendek */
+@media (orientation:landscape) and (max-height:560px){
+  .rpg-stage{grid-template-columns:minmax(0,1fr) minmax(0,.7fr) minmax(0,1fr);}
+  .side-col{grid-template-columns:1fr 1fr; grid-template-rows:repeat(2, 1fr);}
+  .side-node{min-height:calc((100vh - 120px) / 2); max-height:170px;}
+  .chara-wrap{max-height:calc(100vh - 110px); width:auto; height:calc(100vh - 110px);}
 }
 
 /* ========== PANEL (right column) ========== */
@@ -819,6 +838,9 @@ body.pick-mode .lvl-pill-group{visibility:hidden;}
   cursor:pointer; transition:all .15s;
 }
 .cal-cell.other-month{opacity:.3;}
+.cal-cell.i1{background:rgba(16,185,129,.75);} .cal-cell.i2{background:rgba(234,179,8,.85);}
+.cal-cell.i3{background:rgba(249,115,22,.9);}  .cal-cell.i4{background:rgba(239,68,68,.95);}
+.cal-cell.i5{background:linear-gradient(135deg,#ef4444,#f59e0b); box-shadow:0 0 12px rgba(239,68,68,.6);}
 .cal-cell.today{outline:2px solid var(--pink);}
 .cal-cell:hover{background:rgba(255,255,255,.08); transform:translateY(-1px);}
 .cal-cell .day{font-size:16px; font-weight:800; color:var(--white);}
@@ -1113,6 +1135,30 @@ body.pick-mode .lvl-pill-group{visibility:hidden;}
 }
 .soal-stem rt{font-size:18px; color:var(--pink-light);}
 .opsi-list{display:grid; gap:14px; margin-top:20px;}
+.opsi{touch-action:manipulation; user-select:none; -webkit-user-select:none;}
+/* Navigasi nomor soal ujian (lompat bebas) */
+.ujian-nomor{margin:0 0 14px;}
+.ujian-nomor .info{display:flex; justify-content:space-between; align-items:center; gap:8px; font-size:14px; color:var(--gray); margin-bottom:8px; flex-wrap:wrap;}
+.ujian-nomor .info b{color:var(--white);}
+.ujian-nomor .grid{display:flex; flex-wrap:wrap; gap:6px; max-height:132px; overflow-y:auto; padding:2px;}
+.ujian-nomor .no{min-width:40px; height:40px; padding:0 6px; border-radius:10px; font-weight:800; font-size:14px;
+  border:2px solid var(--border); background:rgba(255,255,255,.04); color:var(--gray); cursor:pointer; font-family:inherit;}
+.ujian-nomor .no.terjawab{background:var(--green); border-color:var(--green); color:#fff;}
+.ujian-nomor .no.aktif{border-color:var(--pink); box-shadow:0 0 0 2px rgba(239,106,154,.45); color:var(--white);}
+.ujian-nomor .no.terjawab.aktif{color:#fff;}
+.ujian-hint{font-size:12px; color:var(--gray-dim); text-align:center; margin-top:10px;}
+@media (max-width:640px){ .ujian-nomor .no{min-width:44px; height:44px;} .ujian-nomor .grid{max-height:150px;} }
+/* Legenda heatmap kalender */
+.heat-legend{display:flex; flex-wrap:wrap; gap:10px 14px; align-items:center; justify-content:center; font-size:12px; color:var(--gray); margin-top:10px;}
+.heat-legend .sw{display:inline-block; width:14px; height:14px; border-radius:4px; vertical-align:-2px; margin-right:4px; background:rgba(255,255,255,.06); border:1px solid var(--border);}
+.heat-legend .sw.i1{background:rgba(16,185,129,.75);} .heat-legend .sw.i2{background:rgba(234,179,8,.85);}
+.heat-legend .sw.i3{background:rgba(249,115,22,.9);} .heat-legend .sw.i4{background:rgba(239,68,68,.95);}
+.heat-legend .sw.i5{background:linear-gradient(135deg,#ef4444,#f59e0b);}
+/* Tab bagian materi (1–50, 51–100, ...) */
+.chunk-tabs{display:flex; flex-wrap:wrap; gap:8px; margin:6px 0 14px;}
+.chunk-tabs button{padding:10px 16px; border-radius:999px; border:2px solid var(--border); background:rgba(255,255,255,.04);
+  color:var(--gray); font-weight:800; font-size:15px; cursor:pointer; font-family:inherit;}
+.chunk-tabs button.on{background:var(--pink); border-color:var(--pink); color:#fff;}
 .opsi{
   background:rgba(42,50,112,.4); border:2px solid var(--border); padding:22px 24px;
   border-radius:14px; cursor:pointer; text-align:left; font-size:26px;
@@ -2087,20 +2133,17 @@ function renderCharaOrbital(){
     { icon:"📅", jp:"暦",    lbl:"KALENDER",  route:"kalender",    deg:270 },
     { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:315 },
   ];
-  // Orbit radius fills most of the viewport so nav nodes land near the edges.
-  // Cap at 290 so it doesn't blow out on large screens.
-  const vw = Math.max(320, window.innerWidth);
-  const R = Math.min(290, (Math.min(vw, 620) / 2) - 50);
+  // Desktop: posisi di lingkaran memakai CSS var --R (radius responsif).
+  // HP: node yang sama ditampilkan di kolom kiri & kanan karakter.
+  const isi = (n) => `<div class="ico">${n.icon}</div><div class="jp">${n.jp}</div><div class="lbl">${n.lbl}</div>`;
   const nodes = NAV.map(n => {
     const rad = (n.deg - 90) * Math.PI / 180;
-    const x = Math.cos(rad) * R;
-    const y = Math.sin(rad) * R;
-    return `<div class="orbit-node" style="transform:translate(${x}px, ${y}px)" onclick="route('${n.route}')">
-              <div class="ico">${n.icon}</div>
-              <div class="jp">${n.jp}</div>
-              <div class="lbl">${n.lbl}</div>
-            </div>`;
+    const cx = Math.cos(rad).toFixed(4), cy = Math.sin(rad).toFixed(4);
+    return `<div class="orbit-node" style="transform:translate(calc(var(--R) * ${cx}), calc(var(--R) * ${cy}))" onclick="route('${n.route}')">${isi(n)}</div>`;
   }).join("");
+  const sideNode = (n) => `<div class="side-node" onclick="route('${n.route}')">${isi(n)}</div>`;
+  const kiri = NAV.slice(0, 4).map(sideNode).join("");
+  const kanan = NAV.slice(4).map(sideNode).join("");
 
   return `
     <div class="herobar">
@@ -2119,11 +2162,10 @@ function renderCharaOrbital(){
     </div>
 
     <div class="rpg-stage">
-      <div class="orbit">
-        <svg viewBox="-300 -300 600 600"><circle cx="0" cy="0" r="${R}"/></svg>
-        ${nodes}
-      </div>
+      <div class="orbit"><div class="ring"></div>${nodes}</div>
+      <div class="side-col kiri">${kiri}</div>
       <div class="chara-wrap">${chara}</div>
+      <div class="side-col kanan">${kanan}</div>
     </div>
 
     <div class="panel">
@@ -2361,6 +2403,15 @@ async function _fillHomeCalendar(){
       ${cells.map(cellHtml).join("")}
     </div>
 
+    <div class="heat-legend">
+      <span><i class="sw"></i>Belum</span>
+      <span><i class="sw i1"></i>1–19</span>
+      <span><i class="sw i2"></i>20–49</span>
+      <span><i class="sw i3"></i>50–149</span>
+      <span><i class="sw i4"></i>150–299</span>
+      <span><i class="sw i5"></i>300+ 🔥</span>
+    </div>
+
     <div class="mini-totals">
       <span>🈷️ ${totals.kanji} kanji</span>
       <span>📖 ${totals.kosakata} kosakata</span>
@@ -2419,13 +2470,22 @@ async function renderMateriList(tipe){
   const label = {kosakata:"Kosakata", kanji:"Kanji", bunpou:"Bunpou"}[tipe];
   if (!data.length) return `<div class="panel"><h2>${label}</h2><div class="empty"><div class="emoji">📭</div>Belum ada data untuk level ini.</div></div>`;
 
+  // Bagi materi per 50 item: 1–50, 51–100, dst.
+  const PER = 50;
+  const nChunk = Math.ceil(data.length / PER);
+  state.materiChunk = state.materiChunk || {};
+  const ck = `${tipe}-${state.level}`;
+  const aktif = Math.min(state.materiChunk[ck] || 0, nChunk - 1);
+  const chunkAttr = (idx) => `data-chunk="${Math.floor(idx / PER)}" style="${Math.floor(idx / PER) === aktif ? "" : "display:none"}"`;
+  const tabs = nChunk > 1 ? `<div class="chunk-tabs" id="chunk-tabs-${tipe}">${Array.from({length:nChunk}, (_, c) =>
+      `<button class="${c === aktif ? "on" : ""}" onclick="setMateriChunk('${tipe}', ${c})">${c*PER + 1}–${Math.min((c+1)*PER, data.length)}</button>`).join("")}</div>` : "";
   const list = data.map((it, idx) => {
     const no = fmtNo(itemNo(it, idx));
     if (tipe === "kosakata") {
       const kana = it.kana || it.f || "";
       const kata = it.kata || it.k || "";
       const arti = it.arti || it.a || "";
-      return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+      return `<div class="materi-item" ${chunkAttr(idx)} onclick="showMateri('${tipe}', ${idx})">
         <span class="no-badge">${no}</span>
         <div class="kanji">${kata}</div>
         <div class="reading">${kana}</div>
@@ -2436,7 +2496,7 @@ async function renderMateriList(tipe){
       const k = it.kanji || it.k || "";
       const kana = it.kana || `${it.on || ""} ${it.kun || ""}`.trim();
       const arti = it.arti || it.a || "";
-      return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+      return `<div class="materi-item" ${chunkAttr(idx)} onclick="showMateri('${tipe}', ${idx})">
         <span class="no-badge">${no}</span>
         <div class="kanji">${k}</div>
         <div class="reading">${kana}</div>
@@ -2446,7 +2506,7 @@ async function renderMateriList(tipe){
     if (tipe === "bunpou") {
       const pola = it.pola || it.p || it.kata || "";
       const arti = it.arti || it.e || it.penjelasan || "";
-      return `<div class="materi-item" onclick="showMateri('${tipe}', ${idx})">
+      return `<div class="materi-item" ${chunkAttr(idx)} onclick="showMateri('${tipe}', ${idx})">
         <span class="no-badge">${no}</span>
         <div class="kanji" style="font-size:22px;">${pola}</div>
         <div class="meaning">${arti.slice(0, 120)}${arti.length > 120 ? "…" : ""}</div>
@@ -2458,8 +2518,9 @@ async function renderMateriList(tipe){
     <div class="panel">
       <h2>${label === "Kosakata" ? "📖" : label === "Kanji" ? "🈷️" : "📐"} ${label} ${state.level.toUpperCase()}</h2>
       <div class="search-bar">
-        <input type="text" id="search-${tipe}" placeholder="Cari..." oninput="filterMateri('${tipe}', this.value)"/>
+        <input type="text" id="search-${tipe}" placeholder="Cari di semua nomor..." oninput="filterMateri('${tipe}', this.value)"/>
       </div>
+      ${tabs}
       <div class="materi-list" id="materi-list-${tipe}">${list}</div>
     </div>
   `;
@@ -2468,11 +2529,24 @@ window.filterMateri = (tipe, q) => {
   const container = document.getElementById(`materi-list-${tipe}`);
   if (!container) return;
   const items = container.querySelectorAll(".materi-item");
-  const query = q.toLowerCase();
+  const query = q.toLowerCase().trim();
+  const aktif = String((state.materiChunk || {})[`${tipe}-${state.level}`] || 0);
+  const tabs = document.getElementById(`chunk-tabs-${tipe}`);
+  if (tabs) tabs.style.opacity = query ? ".4" : "";
   items.forEach(el => {
-    const text = el.textContent.toLowerCase();
-    el.style.display = text.includes(query) ? "" : "none";
+    // Saat mencari: cari di SEMUA bagian. Tanpa kata kunci: tampilkan bagian aktif.
+    if (query) el.style.display = el.textContent.toLowerCase().includes(query) ? "" : "none";
+    else el.style.display = (el.dataset.chunk == null || el.dataset.chunk === aktif) ? "" : "none";
   });
+};
+window.setMateriChunk = (tipe, c) => {
+  state.materiChunk = state.materiChunk || {};
+  state.materiChunk[`${tipe}-${state.level}`] = c;
+  const inp = document.getElementById(`search-${tipe}`);
+  if (inp) inp.value = "";
+  document.querySelectorAll(`#chunk-tabs-${tipe} button`).forEach((b, i) => b.classList.toggle("on", i === c));
+  filterMateri(tipe, "");
+  document.getElementById(`chunk-tabs-${tipe}`)?.scrollIntoView({ block:"start", behavior:"smooth" });
 };
 window.showMateri = async (tipe, idx) => {
   const data = state.materi[tipe][state.level];
@@ -3742,8 +3816,18 @@ function renderUjianSoal(){
        </div>`
     : "";
   const pertanyaan = stripFurigana(s.pertanyaan || "");
+  const terjawab = Object.keys(u.jawaban).filter(k => u.jawaban[k] != null).length;
+  const nomor = u.soal.map((_, i) => {
+    const cls = (u.jawaban[i] != null ? " terjawab" : "") + (i === u.pos ? " aktif" : "");
+    return `<button class="no${cls}" onclick="ujianLompat(${i})" aria-label="Soal ${i+1}">${i+1}</button>`;
+  }).join("");
   return `
     <div class="panel exam-area no-furigana" id="exam-area">
+      <div class="ujian-nomor">
+        <div class="info"><span>Terjawab <b>${terjawab}</b> / ${u.soal.length}</span>
+          <span style="font-size:12px;">Hijau = sudah dijawab · bingkai pink = soal ini</span></div>
+        <div class="grid" id="ujian-nomor-grid">${nomor}</div>
+      </div>
       <div class="soal-timer">
         <span>Soal ${u.pos+1} / ${u.soal.length}</span>
         <span class="time${remaining<=60?' time-danger':''}" id="timer">⏱ ${_fmtTime(remaining)}</span>
@@ -3763,12 +3847,42 @@ function renderUjianSoal(){
           ? `<button class="btn" onclick="ujianNav(1)">Lanjut →</button>`
           : `<button class="btn gold" onclick="ujianSelesai()">Selesaikan ✔</button>`}
       </div>
+      <div class="ujian-hint">💡 Ketuk jawaban 2× untuk langsung lanjut ke soal berikutnya</div>
     </div>
   `;
 }
-window.pickOpsi = (i) => {
-  state.ujian.jawaban[state.ujian.pos] = i;
+function _renderUjianKeepScroll(){
+  const g = document.getElementById("ujian-nomor-grid");
+  const sc = g ? g.scrollTop : 0;
   document.getElementById("app").innerHTML = renderUjianSoal();
+  const g2 = document.getElementById("ujian-nomor-grid");
+  if (g2){
+    g2.scrollTop = sc;
+    const akt = g2.querySelector(".no.aktif");
+    if (akt && (akt.offsetTop < g2.scrollTop || akt.offsetTop > g2.scrollTop + g2.clientHeight - 40)) g2.scrollTop = akt.offsetTop - 8;
+  }
+}
+// Ketuk sekali = pilih. Ketuk opsi yang SAMA dua kali (≤ 450 ms) = pilih
+// lalu otomatis lanjut ke soal berikutnya. Pakai timer sendiri (bukan
+// dblclick) supaya jalan juga di layar sentuh HP.
+window.pickOpsi = (i) => {
+  const u = state.ujian;
+  const now = Date.now();
+  const last = u._lastTap;
+  u.jawaban[u.pos] = i;
+  if (last && last.pos === u.pos && last.i === i && now - last.t <= 450){
+    u._lastTap = null;
+    if (u.pos < u.soal.length - 1){ u.pos++; _renderUjianKeepScroll(); return; }
+    _renderUjianKeepScroll(); toast("Ini soal terakhir — tekan Selesaikan ✔"); return;
+  }
+  u._lastTap = { pos:u.pos, i, t:now };
+  _renderUjianKeepScroll();
+};
+window.ujianLompat = (i) => {
+  const u = state.ujian;
+  u.pos = Math.max(0, Math.min(u.soal.length - 1, i));
+  u._lastTap = null;
+  _renderUjianKeepScroll();
 };
 // Toggle furigana visibility in exam (persists across questions in the same session)
 window.toggleFurigana = () => {
@@ -3784,7 +3898,8 @@ window.toggleFurigana = () => {
 };
 window.ujianNav = (dir) => {
   state.ujian.pos = Math.max(0, Math.min(state.ujian.soal.length - 1, state.ujian.pos + dir));
-  document.getElementById("app").innerHTML = renderUjianSoal();
+  state.ujian._lastTap = null;
+  _renderUjianKeepScroll();
 };
 window.ujianSelesai = async () => {
   _stopUjianTimer();
@@ -3818,6 +3933,8 @@ window.ujianSelesai = async () => {
   }
   await FB.updateMisiProgres("benar_20", benar).catch(()=>{});
   await FB.updateMisiProgres("selesai_sesi", 1).catch(()=>{});
+  // Heatmap kalender: hitung soal yang dijawab di ujian ini.
+  FB.recordActivity("ujian", Math.max(1, benar + salah)).catch(()=>{});
 
   const rewardLine = lulusReward.firstTime
     ? `+${benar*5} XP · <b style="color:var(--gold);">+${lulusReward.rewardKoin.toLocaleString("id-ID")} 🪙 (BONUS LULUS)</b>`
@@ -4282,7 +4399,9 @@ async function renderKalender(){
       a.ujian    ? '<span class="dot dot-ujian" title="Ujian"></span>' : "",
     ].join("") : "";
     const isToday = c.ymd === todayYmd ? "today" : "";
-    return `<div class="cal-cell ${isToday}" onclick='calShowDay("${c.ymd}", ${JSON.stringify(a||{}).replace(/'/g,"&#39;")})'>
+    const tot = a ? (a.kanji||0)+(a.kosakata||0)+(a.latihan||0)+(a.ujian||0) : 0;
+    const heat = !tot ? "" : tot < 20 ? "i1" : tot < 50 ? "i2" : tot < 150 ? "i3" : tot < 300 ? "i4" : "i5";
+    return `<div class="cal-cell ${isToday} ${heat}" onclick='calShowDay("${c.ymd}", ${JSON.stringify(a||{}).replace(/'/g,"&#39;")})'>
       <div class="day">${c.d}</div>
       <div class="dots">${dots}</div>
     </div>`;
