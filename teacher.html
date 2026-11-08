@@ -115,6 +115,7 @@ input:focus, select:focus, textarea:focus{outline:none; border-color:var(--pink)
 <div class="modal-backdrop" id="modal"><div class="modal" id="modal-body"></div></div>
 
 <script src="https://cdn.jsdelivr.net/npm/xlsx@0.20.3/dist/xlsx.full.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 import * as FB from "./js/firebase-sync.js";
 
@@ -210,6 +211,7 @@ function renderApp(){
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
+        <div class="nav-item ${state.tab==='diagnostik'?'active':''}" onclick="setTab('diagnostik')"><span class="ico">🔧</span> Diagnostik</div>
         <div class="nav-item ${state.tab==='admin'?'active':''}" onclick="setTab('admin')" id="nav-admin" style="display:none;"><span class="ico">🛡️</span> Admin</div>
       </div>
       <div class="main" id="main"></div>
@@ -230,6 +232,7 @@ async function renderTab(){
     else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
+    else if (state.tab === "diagnostik") mount.innerHTML = await renderDiagnostikTab();
     else if (state.tab === "admin")   mount.innerHTML = await renderAdminTab();
   } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
 }
@@ -406,27 +409,40 @@ async function renderSoalTab(){
 
   return `
     <div class="panel">
-      <h2>📝 Bank Soal</h2>
+      <h2>📝 Bank Soal <span style="color:var(--gray); font-size:14px; font-weight:400;">${kat?`(${soal.length} soal di kategori ini)`:""}</span></h2>
+
+      <!-- Action bar prominent di atas: download template + import + tambah -->
+      <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)); gap:10px; margin:12px 0 18px;">
+        <button class="btn gold" onclick="downloadTemplate()" style="padding:14px; font-size:14px;">
+          📥 DOWNLOAD TEMPLATE EXCEL
+        </button>
+        <button class="btn" onclick="setTab('import')" style="padding:14px; font-size:14px;">
+          📊 IMPORT SOAL EXCEL
+        </button>
+        <button class="btn ghost" onclick="tambahSoalManual('${currentKat||''}')" style="padding:14px; font-size:14px;">
+          + TAMBAH SOAL MANUAL
+        </button>
+      </div>
+
       <div class="form-row">
         <label>Kategori</label>
         <select onchange="state.currentKategoriId = this.value; renderTab()" style="flex:1; max-width:400px;">
-          ${state.kategoriList.map(k => `<option value="${k.id}" ${k.id===currentKat?"selected":""}>${(k.level||"").toUpperCase()} · ${k.nama}</option>`).join("")}
+          ${state.kategoriList.length
+            ? state.kategoriList.map(k => `<option value="${k.id}" ${k.id===currentKat?"selected":""}>${(k.level||"").toUpperCase()} · ${k.nama}</option>`).join("")
+            : '<option value="">(Belum ada kategori — buat di tab Kategori Ujian)</option>'}
         </select>
+        <button class="btn sm ghost" onclick="exportSoal('${currentKat||''}')">📤 Export</button>
       </div>
-      <p style="color:var(--gray); font-size:12px;">${kat?`${kat.nama} · ${kat.level?.toUpperCase()} · ${soal.length} soal`:"Pilih kategori di atas"}</p>
-      <div style="margin:10px 0; display:flex; gap:8px;">
-        <button class="btn" onclick="tambahSoalManual('${currentKat}')">+ Tambah Soal Manual</button>
-        <button class="btn ghost" onclick="setTab('import')">📊 Import dari Excel</button>
-        <button class="btn ghost" onclick="exportSoal('${currentKat}')">📤 Export CSV</button>
-      </div>
+      <p style="color:var(--gray); font-size:12px;">${kat?`${kat.nama} · ${kat.level?.toUpperCase()} · ${soal.length} soal`:"Pilih kategori di atas atau buat kategori baru di tab Kategori Ujian."}</p>
       ${soal.length ? `
         <div class="table-wrap">
           <table>
-            <thead><tr><th>#</th><th>Pertanyaan</th><th>Kunci</th><th>Kesulitan</th><th>Aksi</th></tr></thead>
+            <thead><tr><th>#</th><th>Gbr</th><th>Pertanyaan</th><th>Kunci</th><th>Kesulitan</th><th>Aksi</th></tr></thead>
             <tbody>
               ${soal.map((s, i) => `
                 <tr>
                   <td>${i+1}</td>
+                  <td>${s.gambar ? `<img src="${s.gambar}" style="max-height:36px; max-width:60px; border-radius:4px; background:#fff;"/>` : '<span style="color:var(--gray-dim);">-</span>'}</td>
                   <td style="max-width:400px; white-space:normal;"><div style="font-family:var(--font-jp);">${(s.pertanyaan||"").slice(0,120)}</div></td>
                   <td>${typeof s.kunci==="number"?String.fromCharCode(65+s.kunci):s.kunci}</td>
                   <td>${s.kesulitan||"-"}</td>
@@ -450,10 +466,23 @@ window.editSoal = async (katId, soalId) => {
   openSoalForm(katId, s);
 };
 function openSoalForm(katId, s){
-  s = s || { pertanyaan:"", opsi:["","","",""], kunci:0, pembahasan_id:"", pembahasan_jp:"", materi:"", kesulitan:"Medium", poin:1 };
+  s = s || { pertanyaan:"", opsi:["","","",""], kunci:0, pembahasan_id:"", pembahasan_jp:"", materi:"", kesulitan:"Medium", poin:1, gambar:"" };
+  // Simpan gambar di state biar tidak hilang kalau user ganti-ganti field.
+  state.editGambar = s.gambar || "";
   modal(`
     <h2 style="color:var(--pink);">${s.id?"Edit Soal":"Tambah Soal"}</h2>
     <div class="form-row"><label>Pertanyaan</label><textarea id="s-p" rows="3" style="flex:1;">${s.pertanyaan||""}</textarea></div>
+    <div class="form-row">
+      <label>Gambar Soal</label>
+      <div style="flex:1;">
+        <div id="s-img-preview" style="margin-bottom:6px;">
+          ${state.editGambar ? `<img src="${state.editGambar}" style="max-width:220px; max-height:140px; border-radius:6px; background:#fff; padding:3px;"/>` : '<span style="color:var(--gray-dim); font-size:12px;">(belum ada gambar)</span>'}
+        </div>
+        <input type="file" id="s-img-file" accept="image/*" onchange="pickGambarSoal(event)" style="display:block; margin-bottom:4px;"/>
+        <input type="text" id="s-img-url" placeholder="atau tempel URL gambar" value="${state.editGambar && state.editGambar.startsWith('http') ? state.editGambar : ''}" style="flex:1; width:100%;" onchange="pickGambarSoalUrl(this.value)"/>
+        ${state.editGambar ? '<button class="btn sm danger" onclick="hapusGambarSoal()" style="margin-top:6px;">Hapus gambar</button>' : ''}
+      </div>
+    </div>
     ${[0,1,2,3].map(i => `
       <div class="form-row"><label>Opsi ${String.fromCharCode(65+i)}</label><input id="s-o${i}" value="${s.opsi?.[i]||""}" style="flex:1;"/></div>
     `).join("")}
@@ -469,6 +498,30 @@ function openSoalForm(katId, s){
     </div>
   `);
 }
+window.pickGambarSoal = async (evt) => {
+  const f = evt.target.files?.[0];
+  if (!f) return;
+  const reader = new FileReader();
+  reader.onload = async () => {
+    const resized = await resizeImageDataUrl(reader.result, 800, 600, 0.75);
+    state.editGambar = resized;
+    document.getElementById("s-img-preview").innerHTML = `<img src="${resized}" style="max-width:220px; max-height:140px; border-radius:6px; background:#fff; padding:3px;"/>`;
+    toast("Gambar diambil dan di-resize");
+  };
+  reader.readAsDataURL(f);
+};
+window.pickGambarSoalUrl = (url) => {
+  state.editGambar = (url||"").trim();
+  const preview = document.getElementById("s-img-preview");
+  if (state.editGambar) preview.innerHTML = `<img src="${state.editGambar}" style="max-width:220px; max-height:140px; border-radius:6px; background:#fff; padding:3px;"/>`;
+  else preview.innerHTML = '<span style="color:var(--gray-dim); font-size:12px;">(belum ada gambar)</span>';
+};
+window.hapusGambarSoal = () => {
+  state.editGambar = "";
+  document.getElementById("s-img-preview").innerHTML = '<span style="color:var(--gray-dim); font-size:12px;">(belum ada gambar)</span>';
+  const urlEl = document.getElementById("s-img-url");
+  if (urlEl) urlEl.value = "";
+};
 window.simpanSoalForm = async (katId, id) => {
   const data = {
     tipe: "pilihan_ganda",
@@ -480,9 +533,11 @@ window.simpanSoalForm = async (katId, id) => {
     materi: document.getElementById("s-m").value,
     kesulitan: document.getElementById("s-kes").value,
     poin: parseInt(document.getElementById("s-poin").value) || 1,
+    gambar: state.editGambar || "",
   };
   if (id) await FB.editSoal(katId, id, data);
   else await FB.tambahSoalBatch(katId, [data]);
+  state.editGambar = "";
   toast("✓ Disimpan");
   closeModal();
   renderTab();
@@ -545,45 +600,204 @@ async function renderImportTab(){
   `;
 }
 window.downloadTemplate = () => {
+  // Template berisi 3 contoh: soal teks biasa, soal dengan gambar via URL,
+  // dan placeholder untuk gambar embedded (guru tinggal insert gambar ke
+  // kolom Gambar di Excel — sistem akan ekstrak otomatis saat import).
   const data = [
-    { No:1, Tipe_Soal:"pilihan_ganda", Pertanyaan:"この こうえんには とりが（多い）です。", Option_A:"おい", Option_B:"おおきい", Option_C:"おいい", Option_D:"おおい", Kunci_Jawaban:"D", Pembahasan_Indonesia:"多い（おおい） berarti banyak.", Pembahasan_Jepang:"「多い」は「たくさん」の意味。", Materi:"問題1 Kanji→Kana", Tingkat_Kesulitan:"Easy", Poin:1, Gambar:"" },
-    { No:2, Tipe_Soal:"pilihan_ganda", Pertanyaan:"あなたは何時に（    ）か？", Option_A:"寝ます", Option_B:"寝った", Option_C:"寝る", Option_D:"寝て", Kunci_Jawaban:"A", Pembahasan_Indonesia:"Pertanyaan masa kini formal pakai ます-form.", Pembahasan_Jepang:"丁寧な現在形。", Materi:"Bunpou dasar", Tingkat_Kesulitan:"Easy", Poin:1, Gambar:"" },
+    { No:1, JLPT_Level:"N5", Kategori:"Bunpou", Tipe_Soal:"pilihan_ganda",
+      Pertanyaan:"あなたは何時に（    ）か。",
+      Option_A:"寝ます", Option_B:"寝った",
+      Option_C:"寝る", Option_D:"寝て",
+      Kunci_Jawaban:"A",
+      Pembahasan:"Pertanyaan masa kini formal pakai masu-form.",
+      Pembahasan_Jepang:"丁寧な現在形。",
+      Materi:"Bunpou dasar", Tingkat_Kesulitan:"Easy", Poin:1, Gambar_URL:"" },
+    { No:2, JLPT_Level:"N5", Kategori:"Goi", Tipe_Soal:"pilihan_ganda",
+      Pertanyaan:"「多い」の読み方はどれですか。",
+      Option_A:"おい", Option_B:"おおきい",
+      Option_C:"おいい", Option_D:"おおい",
+      Kunci_Jawaban:"D",
+      Pembahasan:"Kanji 'ooi' dibaca ooi dan berarti banyak.",
+      Pembahasan_Jepang:"「多い」は「たくさん」の意味。",
+      Materi:"Kanji ke Kana", Tingkat_Kesulitan:"Easy", Poin:1, Gambar_URL:"" },
+    { No:3, JLPT_Level:"N4", Kategori:"Dokkai", Tipe_Soal:"pilihan_ganda",
+      Pertanyaan:"[Lihat gambar di baris ini] Apa yang ditunjukkan simbol tersebut?",
+      Option_A:"Sekolah", Option_B:"Rumah sakit", Option_C:"Kantor pos", Option_D:"Stasiun",
+      Kunci_Jawaban:"C",
+      Pembahasan:"Simbol pos adalah lambang kantor pos (yuubinkyoku).",
+      Pembahasan_Jepang:"〒は郵便局のマークです。",
+      Materi:"Simbol", Tingkat_Kesulitan:"Medium", Poin:2,
+      Gambar_URL:"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Japan_Post_logo.svg/120px-Japan_Post_logo.svg.png" },
   ];
   const ws = XLSX.utils.json_to_sheet(data);
-  // Add instruction sheet
+  ws["!cols"] = [
+    { wch:5 }, { wch:11 }, { wch:12 }, { wch:14 }, { wch:40 },
+    { wch:16 }, { wch:16 }, { wch:16 }, { wch:16 }, { wch:7 },
+    { wch:50 }, { wch:36 }, { wch:16 }, { wch:14 }, { wch:5 }, { wch:40 },
+  ];
   const inst = XLSX.utils.aoa_to_sheet([
-    ["Petunjuk Pengisian"],
+    ["PETUNJUK PENGISIAN TEMPLATE SOAL SHIROSE NIHONGO"],
     [""],
-    ["Kolom yang WAJIB diisi:"],
-    ["- No, Pertanyaan, Option A, Option B, Option C, Option D, Kunci Jawaban (A/B/C/D), Pembahasan Indonesia"],
+    ["KOLOM WAJIB:"],
+    ["- No"],
+    ["- JLPT_Level: N5 / N4 / N3 / N2 / N1"],
+    ["- Kategori: Goi / Kanji / Bunpou / Dokkai / Choukai (bebas)"],
+    ["- Pertanyaan: teks soal, boleh pakai kanji, hiragana, katakana, furigana"],
+    ["- Option_A, Option_B, Option_C, Option_D"],
+    ["- Kunci_Jawaban: salah satu A / B / C / D (huruf besar)"],
+    ["- Pembahasan: penjelasan jawaban (Bahasa Indonesia)"],
     [""],
-    ["Kolom OPSIONAL:"],
-    ["- Tipe_Soal (default: pilihan_ganda), Pembahasan_Jepang, Materi, Tingkat_Kesulitan (Easy/Medium/Hard), Poin (default: 1), Gambar"],
+    ["KOLOM OPSIONAL:"],
+    ["- Tipe_Soal (default: pilihan_ganda)"],
+    ["- Pembahasan_Jepang: penjelasan dalam Bahasa Jepang"],
+    ["- Materi: sub-topik soal"],
+    ["- Tingkat_Kesulitan: Easy / Medium / Hard (default: Medium)"],
+    ["- Poin: angka, default 1"],
+    ["- Gambar_URL: URL gambar (jpg/png) kalau soal pakai gambar dari internet"],
     [""],
-    ["Catatan:"],
-    ["- Boleh pakai kanji, hiragana, katakana, furigana — simpan dalam format UTF-8"],
-    ["- Setiap soal di baris sendiri, tanpa baris kosong di tengah"],
-    ["- Kunci jawaban harus A, B, C, atau D (huruf besar)"],
+    ["CARA MEMASUKKAN GAMBAR LANGSUNG KE EXCEL (embedded):"],
+    ["1. Klik sel di kolom Gambar_URL di baris soal yang bersangkutan"],
+    ["2. Menu Excel: Insert -> Pictures -> pilih file gambar"],
+    ["3. Posisikan gambar di area baris yang sama dengan soal"],
+    ["4. Simpan file"],
+    ["5. Saat upload, sistem akan deteksi gambar embedded, ekstrak jadi base64,"],
+    ["   dan menyimpannya bersama soal secara permanen"],
+    [""],
+    ["CATATAN PENTING:"],
+    ["- Satu soal = satu baris"],
+    ["- Jangan ada baris kosong di tengah"],
+    ["- Gambar sebaiknya kecil (<500KB) supaya tidak kena limit 1MB Firestore"],
+    ["- Sistem otomatis resize gambar ke max 800x600 untuk efisiensi"],
+    ["- Setelah import: soal langsung masuk ke bank soal, tersedia untuk ujian"],
+    ["- Impor file yang sama 2x akan menduplikasi soal — hati-hati"],
   ]);
+  inst["!cols"] = [{ wch:90 }];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "Soal");
   XLSX.utils.book_append_sheet(wb, inst, "Petunjuk");
   XLSX.writeFile(wb, "template-soal-shirose.xlsx");
+  toast("Template diunduh");
 };
+/* ==========================================================================
+ * EXTRAKSI GAMBAR EMBEDDED DARI .XLSX
+ * --------------------------------------------------------------------------
+ * File .xlsx itu sebenarnya zip. Gambar yang di-insert lewat Excel ada di:
+ *   xl/media/image1.png, image2.jpg, ...
+ * Dan anchor-nya (baris/kolom mana) ada di:
+ *   xl/drawings/drawing1.xml
+ * Lalu drawing1.xml.rels ngomongin rId → media file.
+ * Kita parse semua itu, convert tiap gambar jadi base64 data URL, lalu
+ * map ke baris Excel berdasarkan anchor <xdr:from><xdr:row>N</xdr:row>.
+ * ========================================================================== */
+async function extractImagesFromXlsx(buf){
+  // Hasil: Map<rowIndex0Based, base64DataUrl> — rowIndex sudah dikurangin 1 header.
+  const byRow = new Map();
+  try {
+    const zip = await JSZip.loadAsync(buf);
+    // 1) Temukan semua drawing XML (biasanya 1 per sheet)
+    const drawingFiles = Object.keys(zip.files)
+      .filter(f => /^xl\/drawings\/drawing\d+\.xml$/.test(f));
+    if (!drawingFiles.length) return byRow;
+
+    for (const dxml of drawingFiles){
+      const num = dxml.match(/drawing(\d+)\.xml$/)[1];
+      const relsPath = `xl/drawings/_rels/drawing${num}.xml.rels`;
+      const relsText = zip.files[relsPath] ? await zip.files[relsPath].async("text") : "";
+      // Parse relasi: <Relationship Id="rIdX" Target="../media/imageN.png"/>
+      const relMap = {};
+      relsText.replace(/<Relationship[^>]*Id="([^"]+)"[^>]*Target="([^"]+)"/g, (m, id, tgt) => {
+        // Target biasanya "../media/imageN.png" — normalisasi ke xl/media/imageN.png
+        const cleanTarget = tgt.replace(/^\.\.\//, "xl/");
+        relMap[id] = cleanTarget;
+      });
+
+      // Parse drawing XML: cari setiap <xdr:twoCellAnchor> atau <xdr:oneCellAnchor>
+      const drawText = await zip.files[dxml].async("text");
+      // Setiap anchor berisi <xdr:from><xdr:row>N</xdr:row></xdr:from>
+      // dan di dalamnya <a:blip r:embed="rIdX"/> untuk <xdr:pic>.
+      const anchorRe = /<xdr:(?:two|one)CellAnchor[^>]*>([\s\S]*?)<\/xdr:(?:two|one)CellAnchor>/g;
+      let m;
+      while ((m = anchorRe.exec(drawText)) !== null){
+        const body = m[1];
+        const rowMatch = body.match(/<xdr:from>[\s\S]*?<xdr:row>(\d+)<\/xdr:row>/);
+        const embedMatch = body.match(/<a:blip[^>]*r:embed="([^"]+)"/);
+        if (!rowMatch || !embedMatch) continue;
+        const rowZero = parseInt(rowMatch[1]); // 0-based (header=0, data mulai 1)
+        const rId = embedMatch[1];
+        const mediaPath = relMap[rId];
+        if (!mediaPath || !zip.files[mediaPath]) continue;
+        const file = zip.files[mediaPath];
+        const ext = (mediaPath.match(/\.([a-z0-9]+)$/i) || ["", "png"])[1].toLowerCase();
+        const mime = ext === "jpg" || ext === "jpeg" ? "image/jpeg"
+                   : ext === "gif" ? "image/gif"
+                   : ext === "webp" ? "image/webp"
+                   : "image/png";
+        // Baca binary → base64
+        const b64 = await file.async("base64");
+        const dataUrl = `data:${mime};base64,${b64}`;
+        // Resize sebelum disimpan supaya tidak lebih dari ~500KB base64.
+        const resized = await resizeImageDataUrl(dataUrl, 800, 600, 0.75);
+        // dataIndex = rowZero - 1 karena header di baris 0, data mulai index 0
+        const dataIdx = Math.max(0, rowZero - 1);
+        // Kalau beberapa gambar di satu baris, pertahankan yang pertama.
+        if (!byRow.has(dataIdx)) byRow.set(dataIdx, resized);
+      }
+    }
+  } catch(e){
+    console.warn("extractImagesFromXlsx gagal:", e);
+  }
+  return byRow;
+}
+
+// Resize gambar via canvas; kembalikan data URL baru yang lebih kecil.
+async function resizeImageDataUrl(dataUrl, maxW, maxH, quality){
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.onload = () => {
+      let w = img.naturalWidth || img.width;
+      let h = img.naturalHeight || img.height;
+      if (w <= maxW && h <= maxH){
+        // Sudah cukup kecil — tapi tetep rerender ke JPEG supaya ukuran kecil.
+        // Kecuali gambar sangat kecil, langsung return original.
+        if ((dataUrl.length * 3/4) < 100_000) return resolve(dataUrl);
+      }
+      const ratio = Math.min(maxW / w, maxH / h, 1);
+      w = Math.round(w * ratio);
+      h = Math.round(h * ratio);
+      const c = document.createElement("canvas");
+      c.width = w; c.height = h;
+      const ctx = c.getContext("2d");
+      ctx.fillStyle = "#fff";
+      ctx.fillRect(0, 0, w, h);
+      ctx.drawImage(img, 0, 0, w, h);
+      // Pakai JPEG supaya kompresi efisien
+      try { resolve(c.toDataURL("image/jpeg", quality || 0.75)); }
+      catch { resolve(dataUrl); }
+    };
+    img.onerror = () => resolve(dataUrl);
+    img.src = dataUrl;
+  });
+}
+
 window.handleFile = async (file) => {
   if (!file) return;
+  const prev = document.getElementById("imp-preview");
+  prev.innerHTML = '<div style="color:var(--gray);">Membaca file dan mengekstrak gambar…</div>';
   try {
     const buf = await file.arrayBuffer();
     const wb = XLSX.read(buf, { type:"array" });
-    // Use first sheet or sheet named "Soal"
     const sheetName = wb.SheetNames.includes("Soal") ? "Soal" : wb.SheetNames[0];
     const rows = XLSX.utils.sheet_to_json(wb.Sheets[sheetName]);
-    validateAndPreview(rows);
+    // Ekstraksi gambar embedded (async)
+    const images = await extractImagesFromXlsx(buf);
+    validateAndPreview(rows, images);
   } catch(e){
-    document.getElementById("imp-preview").innerHTML = `<div class="alert alert-err">Gagal baca file: ${e.message}</div>`;
+    console.error(e);
+    prev.innerHTML = `<div class="alert alert-err">Gagal baca file: ${e.message}</div>`;
   }
 };
-function validateAndPreview(rows){
+
+function validateAndPreview(rows, embeddedImages){
   const errors = [];
   const valid = [];
   rows.forEach((r, i) => {
@@ -597,50 +811,78 @@ function validateAndPreview(rows){
     if (!p) { errors.push(`Baris ${lineNo}: Pertanyaan kosong`); return; }
     if (!a||!b||!c||!d) { errors.push(`Baris ${lineNo}: Ada opsi kosong`); return; }
     if (!["A","B","C","D"].includes(k)) { errors.push(`Baris ${lineNo}: Kunci "${k}" tidak valid (harus A/B/C/D)`); return; }
+    // Prefer embedded image (data URL) ke URL eksternal
+    const gambarUrl = r.Gambar_URL || r["Gambar URL"] || r.Gambar || r.gambar || "";
+    const gambar = embeddedImages?.get(i) || (gambarUrl && String(gambarUrl).trim()) || "";
     valid.push({
       tipe: r["Tipe Soal"] || r.Tipe_Soal || "pilihan_ganda",
+      jlpt_level: (r.JLPT_Level || r["JLPT Level"] || "").toString().toLowerCase(),
+      kategori_soal: r.Kategori || r["Kategori Soal"] || "",
       pertanyaan: String(p),
       opsi: [String(a), String(b), String(c), String(d)],
       kunci: "ABCD".indexOf(k),
-      pembahasan_id: r["Pembahasan Indonesia"] || r.Pembahasan_Indonesia || "",
+      pembahasan_id: r.Pembahasan || r["Pembahasan Indonesia"] || r.Pembahasan_Indonesia || "",
       pembahasan_jp: r["Pembahasan Jepang"] || r.Pembahasan_Jepang || "",
       materi: r.Materi || r.Bagian || "",
       kesulitan: r["Tingkat Kesulitan"] || r.Tingkat_Kesulitan || "Medium",
       poin: parseInt(r.Poin) || 1,
-      gambar: r.Gambar || "",
+      gambar,
     });
   });
   state.excelParsed = valid;
+  const withImg = valid.filter(v => v.gambar).length;
   document.getElementById("imp-preview").innerHTML = `
-    <h3>Preview (${valid.length} soal valid)</h3>
-    ${errors.length ? `<div class="alert alert-err"><b>⚠️ ${errors.length} error:</b><br>${errors.slice(0,20).join("<br>")}${errors.length>20?"<br>…":""}</div>` : '<div class="alert alert-ok">✓ Semua soal valid</div>'}
+    <h3>Preview</h3>
+    <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(140px,1fr)); gap:8px; margin:8px 0 12px;">
+      <div class="panel" style="padding:10px; text-align:center; margin:0;">
+        <div style="font-size:22px; font-weight:800; color:var(--white);">${rows.length}</div>
+        <div style="font-size:11px; color:var(--gray);">Total baris Excel</div>
+      </div>
+      <div class="panel" style="padding:10px; text-align:center; margin:0;">
+        <div style="font-size:22px; font-weight:800; color:var(--green);">${valid.length}</div>
+        <div style="font-size:11px; color:var(--gray);">Valid</div>
+      </div>
+      <div class="panel" style="padding:10px; text-align:center; margin:0;">
+        <div style="font-size:22px; font-weight:800; color:var(--red);">${errors.length}</div>
+        <div style="font-size:11px; color:var(--gray);">Bermasalah</div>
+      </div>
+      <div class="panel" style="padding:10px; text-align:center; margin:0;">
+        <div style="font-size:22px; font-weight:800; color:var(--gold);">${withImg}</div>
+        <div style="font-size:11px; color:var(--gray);">Dengan gambar</div>
+      </div>
+    </div>
+    ${errors.length ? `<div class="alert alert-err"><b>⚠️ ${errors.length} baris bermasalah (akan di-skip):</b><br>${errors.slice(0,20).join("<br>")}${errors.length>20?"<br>…":""}</div>` : (valid.length ? '<div class="alert alert-ok">✓ Semua soal valid</div>' : '')}
     ${valid.length ? `
-      <div class="table-wrap" style="max-height:400px; overflow:auto;">
+      <div class="table-wrap" style="max-height:500px; overflow:auto;">
         <table>
-          <thead><tr><th>#</th><th>Pertanyaan</th><th>A</th><th>B</th><th>C</th><th>D</th><th>Kunci</th><th>Materi</th></tr></thead>
+          <thead><tr><th>#</th><th>Gbr</th><th>Pertanyaan</th><th>A</th><th>B</th><th>C</th><th>D</th><th>Kunci</th><th>Materi</th></tr></thead>
           <tbody>
             ${valid.slice(0,100).map((s,i) => `
               <tr>
                 <td>${i+1}</td>
-                <td style="max-width:300px; white-space:normal; font-family:var(--font-jp);">${s.pertanyaan.slice(0,80)}</td>
-                <td>${s.opsi[0].slice(0,15)}</td>
-                <td>${s.opsi[1].slice(0,15)}</td>
-                <td>${s.opsi[2].slice(0,15)}</td>
-                <td>${s.opsi[3].slice(0,15)}</td>
+                <td>${s.gambar ? `<img src="${s.gambar}" style="max-height:48px; max-width:72px; border-radius:4px;"/>` : '<span style="color:var(--gray-dim);">-</span>'}</td>
+                <td style="max-width:300px; white-space:normal; font-family:var(--font-jp);">${escHtml(s.pertanyaan.slice(0,120))}</td>
+                <td>${escHtml(s.opsi[0].slice(0,18))}</td>
+                <td>${escHtml(s.opsi[1].slice(0,18))}</td>
+                <td>${escHtml(s.opsi[2].slice(0,18))}</td>
+                <td>${escHtml(s.opsi[3].slice(0,18))}</td>
                 <td><b>${String.fromCharCode(65+s.kunci)}</b></td>
-                <td>${s.materi.slice(0,20)}</td>
+                <td>${escHtml((s.materi||"").slice(0,20))}</td>
               </tr>
             `).join("")}
           </tbody>
         </table>
       </div>
+      ${valid.length > 100 ? `<p style="color:var(--gray); font-size:12px; margin-top:6px;">Menampilkan 100 baris pertama. Semua ${valid.length} akan diimpor.</p>` : ""}
       <div style="margin-top:12px;">
-        <button class="btn gold" onclick="konfirmasiImport()">✓ Konfirmasi & Import ${valid.length} Soal</button>
+        <button class="btn gold" onclick="konfirmasiImport()">✓ Konfirmasi &amp; Import ${valid.length} Soal</button>
         <button class="btn ghost" onclick="state.excelParsed=null; renderTab()">Batal</button>
       </div>
     ` : ''}
   `;
 }
+function escHtml(s){ return String(s||"").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+window.escHtml = escHtml;
 window.konfirmasiImport = async () => {
   const katId = document.getElementById("imp-kat").value;
   if (!katId) return toast("Pilih kategori dulu");
@@ -1051,6 +1293,127 @@ window.exportLaporan = async () => {
   XLSX.utils.book_append_sheet(wb, ws, "Laporan Siswa");
   XLSX.writeFile(wb, `laporan-shirose-${Date.now()}.xlsx`);
   toast("✓ Diexport");
+};
+
+/* ========== TAB: DIAGNOSTIK ==========
+ * Menolong guru debug "akun baru engga muncul" dengan cara test setiap
+ * aturan Firestore yang paling sering salah, tanpa modifikasi data.
+ */
+async function renderDiagnostikTab(){
+  return `
+    <div class="panel">
+      <h2>🔧 Diagnostik Sistem</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">
+        Kalau <b>akun baru yang daftar dari website tidak muncul di tab Siswa</b>,
+        penyebab paling umum adalah Firestore Rules belum ter-deploy sesuai
+        <code>firestore.rules.example</code>. Tombol di bawah akan mengetes
+        setiap operasi penting dan menunjukkan mana yang block.
+      </p>
+
+      <div style="padding:14px; background:rgba(239,106,154,.08); border:1px solid var(--pink); border-radius:10px; margin-bottom:14px;">
+        <b style="color:var(--pink-light);">Cara deploy rules yang benar:</b>
+        <ol style="font-size:13px; line-height:1.7; margin-top:6px; padding-left:20px; color:var(--white);">
+          <li>Buka <a href="https://console.firebase.google.com/project/shirose-nihongo/firestore/rules" target="_blank" style="color:var(--gold);">Firebase Console → Firestore → Rules</a></li>
+          <li>Salin isi file <code>firestore.rules.example</code> dari repo</li>
+          <li>Paste di editor rules → klik <b>Publish</b></li>
+          <li>Refresh halaman ini, lalu jalankan diagnostik lagi</li>
+        </ol>
+      </div>
+
+      <button class="btn" onclick="jalankanDiagnosa()">▶️ Jalankan Diagnosa</button>
+      <button class="btn ghost" onclick="scanAkunHilang()" style="margin-left:6px;">🔍 Scan Akun Hilang di Firestore</button>
+      <div id="diag-result" style="margin-top:14px;"></div>
+    </div>
+
+    <div class="panel">
+      <h3>Status Firebase</h3>
+      <div style="font-size:13px; color:var(--gray); line-height:1.6;">
+        <div>📧 Login sebagai: <b style="color:var(--white);">${state.user?.email || "-"}</b></div>
+        <div>🔑 UID: <code>${state.user?.uid || "-"}</code></div>
+        <div>🏷️ Peran: <b style="color:var(--pink);">${FB.userIsDeveloper()?"developer":FB.userIsAdmin()?"admin":FB.userIsGuru()?"guru":"student"}</b></div>
+        <div>🌐 Origin: <code>${location.origin}</code></div>
+        <div style="margin-top:8px; font-size:12px;">
+          ⚠️ Pastikan <code>${location.hostname}</code> ada di
+          <a href="https://console.firebase.google.com/project/shirose-nihongo/authentication/settings" target="_blank" style="color:var(--gold);">
+            Firebase Auth → Authorized domains
+          </a>.
+          Kalau domain tidak terdaftar, signup dari sini akan gagal silent di sebagian browser.
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+window.jalankanDiagnosa = async () => {
+  const mount = document.getElementById("diag-result");
+  mount.innerHTML = '<div style="color:var(--gray);">Menjalankan 5 tes…</div>';
+  const results = await FB.diagnosaRules();
+  const row = (r) => `
+    <tr>
+      <td><code>${r.op||""}</code></td>
+      <td><code style="font-size:11px;">${r.path||"-"}</code></td>
+      <td>${r.ok
+        ? '<span class="chip on">✓ OK</span>'
+        : `<span class="chip" style="background:var(--red); color:white;">✗ BLOCK</span>`}</td>
+      <td style="color:${r.ok?'var(--gray)':'var(--red)'}; font-size:12px;">${r.error||"-"}</td>
+    </tr>`;
+  const anyBlocked = results.some(r => !r.ok);
+  mount.innerHTML = `
+    ${anyBlocked ? `
+      <div class="alert alert-err">
+        <b>⚠️ Ada rule yang block.</b> Deploy ulang <code>firestore.rules.example</code>
+        di Firebase Console (lihat petunjuk di atas), lalu klik "Jalankan Diagnosa" lagi.
+      </div>` : `
+      <div class="alert alert-ok">
+        <b>✓ Semua rule OK.</b> Kalau akun baru masih tidak muncul, cek bahwa domain
+        <code>${location.hostname}</code> ada di <b>Authorized domains</b> Firebase Auth.
+      </div>`}
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Operasi</th><th>Path</th><th>Status</th><th>Detail</th></tr></thead>
+        <tbody>${results.map(row).join("")}</tbody>
+      </table>
+    </div>
+  `;
+};
+
+// Bandingkan daftar siswa di Firestore dengan siapa saja yang pernah dicatat
+// di localStorage "last signed-in email" (opsional, hanya petunjuk).
+window.scanAkunHilang = async () => {
+  const mount = document.getElementById("diag-result");
+  mount.innerHTML = '<div style="color:var(--gray);">Mencari akun hilang…</div>';
+  try {
+    const siswa = await FB.listSiswa();
+    const emails = new Set(siswa.map(s => (s.email||"").toLowerCase()));
+    mount.innerHTML = `
+      <div class="alert alert-ok">
+        <b>Ada ${siswa.length} siswa terdaftar di Firestore.</b>
+        <p style="font-size:12px; margin-top:6px;">
+          Firebase Spark plan tidak memberi akses ke daftar Firebase Auth users
+          dari web tanpa Admin SDK — jadi guru tidak bisa langsung lihat user
+          yang ada di Auth tapi tidak ada di Firestore. Yang bisa dilakukan:
+        </p>
+        <ol style="font-size:13px; margin-top:6px; padding-left:20px;">
+          <li>Deploy ulang Firestore Rules (seperti tertulis di atas).</li>
+          <li>Minta siswa yang gagal daftar untuk <b>daftar ulang</b>
+              dengan email yang <b>belum pernah dipakai</b>. Email mereka yang
+              gagal sebelumnya sudah dihapus otomatis oleh sistem baru.</li>
+          <li>Kalau mereka tetap pakai email lama, minta mereka reset password
+              dulu via "Lupa password?" lalu login — setelah login sistem akan
+              otomatis membuatkan siswa doc.</li>
+        </ol>
+      </div>
+      <div class="table-wrap" style="margin-top:12px;">
+        <table>
+          <thead><tr><th>#</th><th>Nama</th><th>Email</th><th>Terdaftar</th></tr></thead>
+          <tbody>
+            ${siswa.map((s,i) => `<tr><td>${i+1}</td><td>${s.nama||"-"}</td><td>${s.email}</td><td style="font-size:11px;">${s.created?.toDate ? s.created.toDate().toLocaleDateString("id-ID") : "-"}</td></tr>`).join("")}
+          </tbody>
+        </table>
+      </div>`;
+  } catch(e){
+    mount.innerHTML = `<div class="alert alert-err">Gagal: ${e.message}</div>`;
+  }
 };
 
 /* ========== TAB: ADMIN (Part 17) ========== */

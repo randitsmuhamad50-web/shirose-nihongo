@@ -152,7 +152,13 @@ function _bootstrapRoleFor(u){
   return "student";
 }
 
-async function ensureSiswaDoc(u) {
+// Status terakhir ensureSiswaDoc — dipakai halaman login untuk tahu apakah
+// siswa doc benar-benar sudah dibuat di Firestore, atau cuma ada di Auth.
+// Nilai: "ok" | "write_blocked" | "read_blocked" | null
+export let lastSiswaDocStatus = null;
+export function getLastSiswaDocStatus(){ return lastSiswaDocStatus; }
+
+async function ensureSiswaDoc(u, extra = {}) {
   const ref = doc(db, "siswa", u.uid);
   const bootstrapRole = _bootstrapRoleFor(u);
   const isOwner = bootstrapRole !== "student";
@@ -163,7 +169,7 @@ async function ensureSiswaDoc(u) {
   // afterwards; that update succeeds under the new ownerEmail rules and is
   // just a no-op under the old ones.
   const base = {
-    nama: u.displayName || u.email.split("@")[0],
+    nama: extra.nama || u.displayName || u.email.split("@")[0],
     email: u.email,
     kelas: "",
     aksesLevel: isOwner
@@ -186,22 +192,38 @@ async function ensureSiswaDoc(u) {
     aktif: serverTimestamp(),
   };
 
+  lastSiswaDocStatus = null;
+
   try {
     const snap = await getDoc(ref);
     if (!snap.exists()) {
       // Brand-new siswa: must create the doc so the guru can see them in
       // listSiswa. Without this write the account only exists in Firebase Auth
       // and never shows up in the dashboard — that's the "siswa baru engga
-      // otomatis ada di daftar" bug.
+      // otomatis ada di daftar" bug. Error di sini TIDAK lagi ditelan diam-
+      // diam: lastSiswaDocStatus di-set supaya UI bisa tampilkan pesan jelas.
       try {
         await setDoc(ref, base);
         currentSiswaDoc = { ...base };
+        lastSiswaDocStatus = "ok";
       } catch (writeErr){
-        console.warn("ensureSiswaDoc: initial setDoc failed:", writeErr);
+        console.error("ensureSiswaDoc: initial setDoc failed:", writeErr);
         currentSiswaDoc = { ...base };
+        lastSiswaDocStatus = "write_blocked";
+        // Re-throw dengan context jelas supaya daftar() bisa surface ke UI.
+        const err = new Error(
+          "Akun dibuat di Firebase Auth tetapi profil siswa GAGAL disimpan ke " +
+          "Firestore. Firestore Rules menolak create pada /siswa/{uid}. " +
+          "Minta guru deploy ulang rules dari firestore.rules.example. " +
+          "(Detail: " + (writeErr.code || writeErr.message || writeErr) + ")"
+        );
+        err.code = "siswa-doc-create-blocked";
+        err.firestoreError = writeErr;
+        throw err;
       }
     } else {
       currentSiswaDoc = snap.data();
+      lastSiswaDocStatus = "ok";
       // update last active (non-fatal)
       updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
     }
@@ -215,20 +237,46 @@ async function ensureSiswaDoc(u) {
       } catch (_e){ /* needs updated rules; dashboard still works for own data */ }
     }
   } catch (e){
+    // Jika kita yang throw karena write ditolak, propagate ke caller.
+    if (e.code === "siswa-doc-create-blocked") throw e;
     // getDoc failed (network, rules). Keep a minimal placeholder so other code
-    // paths can at least reflect "signed in".
-    console.warn("ensureSiswaDoc: read failed, using placeholder:", e);
+    // paths can at least reflect "signed in". Tandai status untuk UI.
+    console.error("ensureSiswaDoc: read failed:", e);
     currentSiswaDoc = { ...base, role: bootstrapRole };
+    lastSiswaDocStatus = "read_blocked";
   }
+}
+
+/**
+ * Coba buat ulang siswa doc untuk user yang sudah login tapi dokumennya hilang.
+ * Dipakai tombol "Perbaiki Akun Saya" di UI: user yang akunnya ada di Firebase
+ * Auth tapi tidak terlihat di dashboard guru bisa menekan tombol ini.
+ */
+export async function reparasiAkunSaya(nama){
+  if (!currentUser) throw new Error("Belum login");
+  await ensureSiswaDoc(currentUser, { nama });
+  return { status: lastSiswaDocStatus, doc: currentSiswaDoc };
 }
 
 export async function login(email, pwd) {
   return await signInWithEmailAndPassword(auth, email, pwd);
 }
 export async function daftar(email, pwd, nama) {
+  // Step 1: buat user di Firebase Auth.
   const cred = await createUserWithEmailAndPassword(auth, email, pwd);
-  if (nama) {
-    await updateDoc(doc(db, "siswa", cred.user.uid), { nama }).catch(()=>{});
+  // Step 2: WAJIB pastikan siswa doc tercipta di Firestore — kalau ini
+  // gagal, akun cuma ada di Auth dan tidak akan muncul di dashboard guru
+  // (bug yang dilaporkan: "akun baru engga terdetect"). Dulu updateDoc
+  // di sini race dengan onAuthStateChanged dan gagal silent; sekarang
+  // kita panggil ensureSiswaDoc langsung dengan nama dan throw jika gagal.
+  try {
+    await ensureSiswaDoc(cred.user, { nama: nama || null });
+  } catch(e){
+    // Rollback: hapus akun Firebase Auth supaya user bisa coba lagi dengan
+    // email yang sama setelah rules diperbaiki, daripada stuck di "email
+    // sudah terdaftar" padahal profilnya belum sempat dibuat.
+    try { await cred.user.delete(); } catch(_){}
+    throw e;
   }
   return cred;
 }
@@ -660,6 +708,34 @@ export async function listSiswa() {
     }
     throw e;
   }
+}
+
+/**
+ * Diagnosa cepat untuk guru: cek permission tulis/baca di titik-titik penting
+ * tanpa benar-benar memodifikasi data. Dipakai tombol "Diagnosa Firestore Rules"
+ * di teacher dashboard — guru bisa lihat mana rule yang block dan tahu harus
+ * publish ulang firestore.rules.example.
+ * Return: array { op, path, ok, error }
+ */
+export async function diagnosaRules(){
+  const results = [];
+  const check = async (op, path, fn) => {
+    try { await fn(); results.push({ op, path, ok:true }); }
+    catch(e){ results.push({ op, path, ok:false, error: e.code || e.message }); }
+  };
+  if (!currentUser){ return [{ op:"auth", ok:false, error:"Belum login" }]; }
+  const uid = currentUser.uid;
+  // Baca siswa doc sendiri
+  await check("read", `/siswa/${uid}`, () => getDoc(doc(db, "siswa", uid)));
+  // Baca koleksi siswa (guru only)
+  await check("list", `/siswa (all)`, () => getDocs(collection(db, "siswa")));
+  // Baca subkoleksi activity sendiri
+  await check("read", `/siswa/${uid}/activity`, () => getDocs(collection(db, "siswa", uid, "activity")));
+  // Baca kategori_ujian
+  await check("read", `/kategori_ujian`, () => getDocs(collection(db, "kategori_ujian")));
+  // Coba tulis timestamp ke siswa doc sendiri (non-destruktif, hanya update aktif)
+  await check("write", `/siswa/${uid}.aktif`, () => updateDoc(doc(db, "siswa", uid), { aktif: serverTimestamp() }));
+  return results;
 }
 export async function updateAksesSiswa(uid, aksesLevel) {
   if (!userIsGuru()) throw new Error("Hanya guru");

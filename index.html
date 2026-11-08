@@ -1631,7 +1631,7 @@ window.submitAuthPage = async () => {
   const pwd = document.getElementById("auth-page-pwd")?.value || "";
   const nama = (document.getElementById("auth-page-nama")?.value || "").trim();
   const err = document.getElementById("auth-page-err");
-  if (err) err.textContent = "";
+  if (err) err.innerHTML = "";
   if (!email || !pwd){
     if (err) err.textContent = "Email dan password wajib diisi.";
     return;
@@ -1654,7 +1654,22 @@ window.submitAuthPage = async () => {
     setTimeout(() => route("home"), 350);
   } catch(e){
     console.error("Auth error:", e);
-    if (err) err.textContent = friendlyAuthError(e);
+    // Kasus khusus: akun tercipta di Auth tapi siswa doc gagal — kasih panduan
+    // konkret alih-alih error cryptic.
+    if (e.code === "siswa-doc-create-blocked"){
+      if (err) err.innerHTML = `
+        <div style="padding:10px; background:rgba(239,68,68,.15); border:1px solid #ef4444; border-radius:8px; text-align:left;">
+          <b>⚠️ Registrasi belum lengkap</b><br>
+          <span style="font-size:12px;">${e.message}</span><br><br>
+          <b>Yang terjadi:</b> Email kamu sudah terdaftar di Firebase Auth, tapi
+          profil siswa gagal disimpan karena <b>Firestore Rules</b> saat ini menolak.
+          Guru harus deploy ulang <code>firestore.rules.example</code> di
+          Firebase Console → Firestore → Rules → Publish, lalu coba daftar lagi
+          dengan email lain (email yang gagal tadi sudah dihapus otomatis).
+        </div>`;
+    } else {
+      if (err) err.textContent = friendlyAuthError(e);
+    }
     if (btn){ btn.disabled = false; btn.textContent = state.authMode === "daftar" ? "Daftar Sekarang" : "Masuk"; }
   }
 };
@@ -1785,7 +1800,8 @@ const routes = {
   bunpou: () => renderMateriList("bunpou"),
   hafalan: renderHafalan,
   rangkuman: renderRangkuman,
-  quest: renderQuest,
+  // `quest` lama diarahkan ke `ujian` supaya bookmark / hash lama tetap jalan.
+  quest: renderUjianList,
   ujian: (params) => renderUjian(params),
   shop: renderShop,
   inventory: renderInventory,
@@ -1886,16 +1902,17 @@ function renderCharaOrbital(){
   const chara = renderCharacter(eq, skin, { hairColor: state.siswa?.karakter?.hairColor });
 
   // 9-item orbit with Japanese + Indonesian labels (Netlify-style).
+  // Quest menu dihilangkan sesuai permintaan guru (Nov 2026) — fokus ke
+  // UJIAN. Tombol lain digeser agar orbit tetap simetris (8 node, 45° spacing).
   const NAV = [
     { icon:"📚", jp:"学習",  lbl:"MATERI",    route:"materi",      deg:0   },
-    { icon:"🧠", jp:"暗記",  lbl:"HAFALAN",   route:"hafalan",     deg:40  },
-    { icon:"⚔️", jp:"冒険",  lbl:"QUEST",     route:"quest",       deg:80  },
-    { icon:"📝", jp:"試験",  lbl:"UJIAN",     route:"ujian",       deg:120 },
-    { icon:"🗺️", jp:"目次",  lbl:"SYLABUS",   route:"sylabus",     deg:160 },
-    { icon:"📒", jp:"記録",  lbl:"RANGKUMAN", route:"rangkuman",   deg:200 },
-    { icon:"🛒", jp:"商店",  lbl:"SHOP",      route:"shop",        deg:240 },
-    { icon:"📅", jp:"暦",    lbl:"KALENDER",  route:"kalender",    deg:280 },
-    { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:320 },
+    { icon:"🧠", jp:"暗記",  lbl:"HAFALAN",   route:"hafalan",     deg:45  },
+    { icon:"📝", jp:"試験",  lbl:"UJIAN",     route:"ujian",       deg:90  },
+    { icon:"🗺️", jp:"目次",  lbl:"SYLABUS",   route:"sylabus",     deg:135 },
+    { icon:"📒", jp:"記録",  lbl:"RANGKUMAN", route:"rangkuman",   deg:180 },
+    { icon:"🛒", jp:"商店",  lbl:"SHOP",      route:"shop",        deg:225 },
+    { icon:"📅", jp:"暦",    lbl:"KALENDER",  route:"kalender",    deg:270 },
+    { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:315 },
   ];
   // Orbit radius fills most of the viewport so nav nodes land near the edges.
   // Cap at 290 so it doesn't blow out on large screens.
@@ -3337,15 +3354,20 @@ function renderHafalanDone(){
   `;
 }
 
-/* ========== QUEST / UJIAN ========== */
-async function renderQuest(){
+/* ========== UJIAN LIST (sebelumnya "Quest") ==========
+ * renderUjianList menampilkan daftar kategori ujian yang di-publish untuk
+ * level JLPT siswa saat ini. Fungsi lama `renderQuest` dihapus dan menu
+ * Quest dihilangkan dari home orbit (permintaan guru, Nov 2026). Hash lama
+ * `#quest` masih bekerja — route map mengarahkannya ke fungsi ini.
+ */
+async function renderUjianList(){
   const kategori = state.user ? await FB.listKategori(state.level) : [];
   const pub = kategori.filter(k => k.publish);
 
   return `
     <div class="panel">
-      <h2>⚔️ Quest ${state.level.toUpperCase()}</h2>
-      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Pilih kategori ujian untuk memulai petualangan.</p>
+      <h2>📝 Ujian ${state.level.toUpperCase()}</h2>
+      <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Pilih kategori ujian untuk mulai mengerjakan.</p>
       ${pub.length ? `
         <div class="hub-grid">
           ${pub.map(k => `
@@ -3368,6 +3390,8 @@ async function renderQuest(){
     </div>
   `;
 }
+// Alias untuk kompatibilitas: beberapa tempat masih memanggil renderQuest().
+const renderQuest = renderUjianList;
 
 /* ========== UJIAN engine ========== */
 // Real-time countdown: paints #timer every second, auto-submits at 0.
@@ -3402,7 +3426,7 @@ function _startUjianTimer(){
 
 async function renderUjian(params){
   const kategoriId = params[0];
-  if (!kategoriId){ _stopUjianTimer(); return renderQuest(); }
+  if (!kategoriId){ _stopUjianTimer(); return renderUjianList(); }
 
   if (!state.user){ _stopUjianTimer(); return `<div class="panel"><h2>Ujian</h2><div class="empty"><div class="emoji">🔒</div>Login dulu untuk mengerjakan ujian.<br><button class="btn" onclick="showAuthModal()">Masuk</button></div></div>`; }
 
@@ -3434,6 +3458,14 @@ function renderUjianSoal(){
   const remaining = u.endTime ? Math.max(0, Math.floor((u.endTime - Date.now())/1000)) : 0;
   const furiOff = state.ujianFuriOff ? " no-furigana" : "";
   setTimeout(_mountCompanion, 0);
+  // Gambar soal (kalau ada): base64 data URL dari embedded Excel atau URL eksternal.
+  // Ditempel sebelum pertanyaan supaya murid bisa lihat dulu baru baca.
+  const gambarHtml = s.gambar
+    ? `<div style="text-align:center; margin:8px 0 14px;">
+         <img src="${s.gambar}" alt="Gambar soal" loading="lazy"
+              style="max-width:100%; max-height:280px; border-radius:10px; border:1px solid rgba(255,255,255,.08); background:#fff; padding:4px;"/>
+       </div>`
+    : "";
   return `
     <div class="panel exam-area${furiOff}" id="exam-area">
       <div class="soal-timer">
@@ -3445,6 +3477,7 @@ function renderUjianSoal(){
           ${state.ujianFuriOff ? "🙈 Furigana OFF" : "👁 Furigana ON"}
         </span>
       </div>
+      ${gambarHtml}
       <div class="soal-stem">${s.pertanyaan || ""}</div>
       <div class="opsi-list">
         ${(s.opsi || ["A","B","C","D"]).map((o, i) => `
@@ -3537,20 +3570,26 @@ window.ujianSelesai = async () => {
         const kunci = typeof s.kunci === "string" ? "ABCD".indexOf(s.kunci) : s.kunci;
         const kunciTeks = (s.opsi?.[kunci] || "").toString();
         const safeQ = (s.pertanyaan||"").slice(0,80).replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+        const gambarReviewHtml = s.gambar
+          ? `<div style="margin:6px 0;"><img src="${s.gambar}" alt="Gambar soal"
+               style="max-width:220px; max-height:140px; border-radius:6px; background:#fff; padding:3px;"/></div>`
+          : "";
         return `
           <div class="contoh-item" style="flex-direction:column; align-items:stretch; margin-bottom:10px; position:relative;">
             <div><b>${i+1}. ${s.pertanyaan}</b></div>
+            ${gambarReviewHtml}
             <div style="color:${pick===kunci?'var(--green)':'var(--red)'}; font-size:12px; margin-top:4px;">
               Jawabanmu: ${pick!=null ? String.fromCharCode(65+pick) : "(kosong)"} ·
               Kunci: ${String.fromCharCode(65+kunci)} ${kunciTeks}
             </div>
-            ${s.pembahasan_id ? `<div style="font-size:12px; color:var(--gray); margin-top:4px;">${s.pembahasan_id}</div>` : ""}
+            ${s.pembahasan_id ? `<div style="font-size:12px; color:var(--gray); margin-top:4px;"><b>Pembahasan:</b> ${s.pembahasan_id}</div>` : ""}
+            ${s.pembahasan_jp ? `<div style="font-size:12px; color:var(--gray); margin-top:2px; font-family:var(--font-jp);">${s.pembahasan_jp}</div>` : ""}
             <button class="btn sm ghost" style="margin-top:8px; align-self:flex-start;"
                     onclick='rangkumPopup({arti:"${kunciTeks.replace(/"/g,"\\&quot;").slice(0,80)}"}, "Soal ${i+1}: ${safeQ}")'>➕ Rangkum kata dari soal ini</button>
           </div>
         `;
       }).join("")}
-      <button class="btn" onclick="route('quest')">Kembali ke Quest</button>
+      <button class="btn" onclick="route('ujian')">Kembali ke Ujian</button>
     </div>
   `;
 };
@@ -4099,8 +4138,8 @@ async function renderSylabus(){
       </div>
 
       <h3 style="margin-top:18px;">📝 Ujian</h3>
-      <p style="color:var(--gray);">Buka menu <b>Quest</b> untuk daftar ujian ${lvl.toUpperCase()}.</p>
-      <button class="btn" onclick="route('quest')">⚔️ Ke Quest</button>
+      <p style="color:var(--gray);">Buka menu <b>Ujian</b> untuk daftar ujian ${lvl.toUpperCase()}.</p>
+      <button class="btn" onclick="route('ujian')">📝 Ke Ujian</button>
 
       <h3 style="margin-top:18px;">🎯 Misi Harian</h3>
       <p style="color:var(--gray);">Misi harian masih ada sebagai mini-goal — klik di bawah.</p>
