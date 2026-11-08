@@ -159,15 +159,15 @@ export let lastSiswaDocStatus = null;
 export function getLastSiswaDocStatus(){ return lastSiswaDocStatus; }
 
 async function ensureSiswaDoc(u, extra = {}) {
+  // PENTING: fungsi ini TIDAK PERNAH throw ke caller onAuthStateChanged —
+  // sebelumnya throw di sini bikin onReadyCallbacks tidak dipanggil dan UI
+  // stuck di "Memuat…" untuk user yang akunnya orphan (ada di Firebase Auth
+  // tapi tidak ada di Firestore). Caller yang butuh tahu hasilnya baca
+  // lastSiswaDocStatus setelah await.
   const ref = doc(db, "siswa", u.uid);
   const bootstrapRole = _bootstrapRoleFor(u);
   const isOwner = bootstrapRole !== "student";
 
-  // Base siswa payload — intentionally does NOT include `role`, so this call
-  // passes BOTH the old firestore rules (which block role at create) and the
-  // new ones. The role, if any, is written as a separate updateDoc call
-  // afterwards; that update succeeds under the new ownerEmail rules and is
-  // just a no-op under the old ones.
   const base = {
     nama: extra.nama || u.displayName || u.email.split("@")[0],
     email: u.email,
@@ -197,54 +197,70 @@ async function ensureSiswaDoc(u, extra = {}) {
   try {
     const snap = await getDoc(ref);
     if (!snap.exists()) {
-      // Brand-new siswa: must create the doc so the guru can see them in
-      // listSiswa. Without this write the account only exists in Firebase Auth
-      // and never shows up in the dashboard — that's the "siswa baru engga
-      // otomatis ada di daftar" bug. Error di sini TIDAK lagi ditelan diam-
-      // diam: lastSiswaDocStatus di-set supaya UI bisa tampilkan pesan jelas.
+      // Brand-new siswa (atau orphan: ada di Auth tapi dokumennya hilang).
+      // Coba bikin — kalau diterima rules, selesai. Kalau rules reject,
+      // tandai status write_blocked supaya UI bisa tampilkan tombol recovery.
       try {
         await setDoc(ref, base);
         currentSiswaDoc = { ...base };
         lastSiswaDocStatus = "ok";
       } catch (writeErr){
-        console.error("ensureSiswaDoc: initial setDoc failed:", writeErr);
+        console.warn("ensureSiswaDoc: setDoc blocked oleh Firestore Rules:", writeErr?.code || writeErr?.message);
         currentSiswaDoc = { ...base };
         lastSiswaDocStatus = "write_blocked";
-        // Re-throw dengan context jelas supaya daftar() bisa surface ke UI.
-        const err = new Error(
-          "Akun dibuat di Firebase Auth tetapi profil siswa GAGAL disimpan ke " +
-          "Firestore. Firestore Rules menolak create pada /siswa/{uid}. " +
-          "Minta guru deploy ulang rules dari firestore.rules.example. " +
-          "(Detail: " + (writeErr.code || writeErr.message || writeErr) + ")"
-        );
-        err.code = "siswa-doc-create-blocked";
-        err.firestoreError = writeErr;
-        throw err;
+        lastSiswaDocError = writeErr;
+        // TIDAK throw — biarkan UI render dengan placeholder dan tampilkan banner recovery.
       }
     } else {
       currentSiswaDoc = snap.data();
       lastSiswaDocStatus = "ok";
-      // update last active (non-fatal)
       updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
     }
 
-    // Bootstrap guru/developer role for the owner email. Done as a separate
-    // update so a rejection here doesn't poison the create above.
+    // Bootstrap guru/developer role untuk owner email.
     if (isOwner && currentSiswaDoc.role !== bootstrapRole){
       try {
         await updateDoc(ref, { role: bootstrapRole });
         currentSiswaDoc.role = bootstrapRole;
-      } catch (_e){ /* needs updated rules; dashboard still works for own data */ }
+      } catch (_e){ /* perlu rules baru; dashboard tetap bisa jalan */ }
     }
   } catch (e){
-    // Jika kita yang throw karena write ditolak, propagate ke caller.
-    if (e.code === "siswa-doc-create-blocked") throw e;
-    // getDoc failed (network, rules). Keep a minimal placeholder so other code
-    // paths can at least reflect "signed in". Tandai status untuk UI.
-    console.error("ensureSiswaDoc: read failed:", e);
+    console.warn("ensureSiswaDoc: read blocked:", e?.code || e?.message);
     currentSiswaDoc = { ...base, role: bootstrapRole };
     lastSiswaDocStatus = "read_blocked";
+    lastSiswaDocError = e;
   }
+}
+
+export let lastSiswaDocError = null;
+
+/**
+ * Hapus akun saya SENDIRI (Firebase Auth user + siswa doc kalau ada).
+ * Dipakai user yang orphan supaya bisa daftar ulang dengan email yang sama.
+ * HARUS login dulu (Firebase client Auth requirement).
+ */
+export async function hapusAkunSendiri(){
+  if (!currentUser) throw new Error("Belum login");
+  const uid = currentUser.uid;
+  // Best-effort delete siswa doc dulu (kalau ada).
+  try { await deleteDoc(doc(db, "siswa", uid)); } catch(_){}
+  // Delete Firebase Auth user — ini yang critical supaya email bisa dipakai lagi.
+  try {
+    await currentUser.delete();
+  } catch(e){
+    // Firebase kadang minta "recent login" untuk delete. Kasih pesan jelas.
+    if (e.code === "auth/requires-recent-login"){
+      throw new Error(
+        "Firebase minta login ulang sebelum hapus akun (keamanan). " +
+        "Silakan logout, login lagi, lalu klik tombol hapus akun ini sekali lagi."
+      );
+    }
+    throw e;
+  }
+  currentUser = null;
+  currentSiswaDoc = null;
+  lastSiswaDocStatus = null;
+  return true;
 }
 
 /**
@@ -264,19 +280,24 @@ export async function login(email, pwd) {
 export async function daftar(email, pwd, nama) {
   // Step 1: buat user di Firebase Auth.
   const cred = await createUserWithEmailAndPassword(auth, email, pwd);
-  // Step 2: WAJIB pastikan siswa doc tercipta di Firestore — kalau ini
-  // gagal, akun cuma ada di Auth dan tidak akan muncul di dashboard guru
-  // (bug yang dilaporkan: "akun baru engga terdetect"). Dulu updateDoc
-  // di sini race dengan onAuthStateChanged dan gagal silent; sekarang
-  // kita panggil ensureSiswaDoc langsung dengan nama dan throw jika gagal.
-  try {
-    await ensureSiswaDoc(cred.user, { nama: nama || null });
-  } catch(e){
-    // Rollback: hapus akun Firebase Auth supaya user bisa coba lagi dengan
-    // email yang sama setelah rules diperbaiki, daripada stuck di "email
-    // sudah terdaftar" padahal profilnya belum sempat dibuat.
+  // Step 2: pastikan siswa doc tercipta. ensureSiswaDoc tidak throw lagi
+  // (biar onAuthStateChanged tidak stuck untuk login orphan). Kita cek
+  // lastSiswaDocStatus setelah await.
+  await ensureSiswaDoc(cred.user, { nama: nama || null });
+  if (lastSiswaDocStatus !== "ok"){
+    const writeErr = lastSiswaDocError;
+    // Rollback: hapus akun Auth supaya email bisa dipakai daftar lagi
+    // setelah rules diperbaiki, daripada stuck "email sudah terdaftar".
     try { await cred.user.delete(); } catch(_){}
-    throw e;
+    const err = new Error(
+      "Pendaftaran belum selesai: Firestore Rules menolak pembuatan profil " +
+      "siswa. Guru perlu deploy ulang firestore.rules.example di Firebase " +
+      "Console. Email kamu sudah dihapus otomatis, silakan coba daftar ulang " +
+      "setelah guru memberi tahu rules sudah diperbaiki. " +
+      "(Detail: " + (writeErr?.code || writeErr?.message || "permission-denied") + ")"
+    );
+    err.code = "siswa-doc-create-blocked";
+    throw err;
   }
   return cred;
 }

@@ -1,7 +1,8 @@
 /* Service worker: network-first, cache fallback */
-// v8 — bust cache karena firebase-sync.js tambahan diagnosaRules + reparasiAkunSaya,
-// teacher.html tambah tab Diagnostik dan Excel image import, index.html hilangin Quest.
-const CACHE = "shirose-nihongo-v8";
+// v9 — ensureSiswaDoc tidak throw lagi; tambah hapusAkunSendiri untuk self
+// recovery user orphan; banner recovery di home; tombol Lupa password & Reset
+// Akun Rusak di login.
+const CACHE = "shirose-nihongo-v9";
 const CORE = [
   "./",
   "./index.html",

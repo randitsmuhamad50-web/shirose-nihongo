@@ -1292,8 +1292,8 @@ body.auth-mode .companion{display:none !important;}
 import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
-// ?v=20261108b — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261108b";
+// ?v=20261108c — cache-buster, lihat catatan sama di teacher.html.
+import * as FB from "./js/firebase-sync.js?v=20261108c";
 
 /* ========== STATE ========== */
 const state = {
@@ -1614,13 +1614,96 @@ function renderLogin(){
 
         <button class="btn" id="auth-page-submit" onclick="submitAuthPage()">${isDaftar ? "Daftar Sekarang" : "Masuk"}</button>
         <button class="btn ghost" onclick="toggleAuthPageMode()">${isDaftar ? "Sudah punya akun? Masuk di sini" : "Belum punya akun? Daftar dulu"}</button>
+        ${isDaftar ? "" : `<button class="btn ghost" onclick="kirimResetPassword()" style="font-size:12px;">Lupa password?</button>`}
         <button class="btn ghost" onclick="route('home')">← Kembali ke beranda</button>
 
         <div id="auth-page-err" class="auth-err"></div>
+
+        <!-- Panel self-recovery untuk akun yang "rusak" -->
+        <details style="margin-top:20px; padding:12px; border:1px solid var(--border); border-radius:10px; background:rgba(0,0,0,.2);">
+          <summary style="cursor:pointer; color:var(--gold); font-weight:700;">⚠️ Akun saya rusak / tidak bisa login — reset akun</summary>
+          <div style="padding:10px 0; font-size:13px; color:var(--gray); line-height:1.6;">
+            Kalau kamu pernah daftar tapi sekarang:
+            <ul style="margin:6px 0 6px 20px;">
+              <li>Tidak bisa login padahal password sudah benar, atau</li>
+              <li>Login berhasil tapi aplikasi stuck / crash, atau</li>
+              <li>Email kamu "sudah terdaftar" padahal kamu belum pernah berhasil masuk</li>
+            </ul>
+            Masukkan email + password akun yang rusak di form atas, klik <b>Masuk</b> dulu (meski error),
+            kemudian tekan tombol di bawah untuk hapus akun ini:
+            <div style="margin-top:10px;">
+              <button class="btn danger" onclick="hapusAkunRusak()">🗑️ Login + Hapus Akun Rusak</button>
+            </div>
+            <p style="font-size:11px; margin-top:8px;">
+              Setelah akun dihapus, email bisa dipakai daftar ulang. Semua progres hilang
+              — tapi akun rusak memang tidak punya progres apa-apa.
+            </p>
+          </div>
+        </details>
       </div>
     </div>
   `;
 }
+
+// Kirim email reset password — dipakai user yang lupa password atau
+// mau ubah password akun yang tidak bisa login.
+window.kirimResetPassword = async () => {
+  const email = (document.getElementById("auth-page-email")?.value || "").trim();
+  const err = document.getElementById("auth-page-err");
+  if (err) err.innerHTML = "";
+  if (!email){
+    if (err) err.textContent = "Isi email dulu di atas, baru klik 'Lupa password?'.";
+    return;
+  }
+  try {
+    await FB.resetPassword(email);
+    if (err) err.innerHTML = `
+      <div style="padding:10px; background:rgba(16,185,129,.15); border:1px solid var(--green); border-radius:8px; color:#b4ffcc;">
+        ✓ Email reset password sudah dikirim ke <b>${email}</b>. Cek inbox (dan folder spam).
+        Buka link di email itu untuk set password baru, lalu login lagi di sini.
+      </div>`;
+  } catch(e){
+    if (err) err.textContent = friendlyAuthError(e);
+  }
+};
+
+// Login dulu lalu hapus akun — dipakai user yang orphan (ada di Auth
+// tapi siswa doc gagal dibuat). Firebase Auth butuh "recent login"
+// sebelum delete, jadi urutannya login → delete.
+window.hapusAkunRusak = async () => {
+  const email = (document.getElementById("auth-page-email")?.value || "").trim();
+  const pwd = document.getElementById("auth-page-pwd")?.value || "";
+  const err = document.getElementById("auth-page-err");
+  if (err) err.innerHTML = "";
+  if (!email || !pwd){
+    if (err) err.textContent = "Isi email + password dulu di form atas, baru tekan tombol ini.";
+    return;
+  }
+  if (!confirm(`HAPUS akun ${email} secara permanen? Email akan bisa dipakai daftar ulang setelah ini.`)) return;
+  try {
+    // Step 1: login — ini supaya Firebase anggap sebagai "recent login"
+    try { await FB.login(email, pwd); }
+    catch(e){
+      if (err) err.textContent = "Login gagal (" + friendlyAuthError(e) + "). Pastikan password benar, lalu coba lagi.";
+      return;
+    }
+    // Step 2: hapus akun Auth + siswa doc (kalau ada)
+    await FB.hapusAkunSendiri();
+    if (err) err.innerHTML = `
+      <div style="padding:10px; background:rgba(16,185,129,.15); border:1px solid var(--green); border-radius:8px; color:#b4ffcc;">
+        ✓ Akun <b>${email}</b> dihapus. Silakan daftar ulang dengan email yang sama.
+      </div>`;
+    // Kosongkan password, pindah ke mode daftar
+    const pwdEl = document.getElementById("auth-page-pwd");
+    if (pwdEl) pwdEl.value = "";
+    setTimeout(() => {
+      state.authMode = "daftar";
+      route("login");
+    }, 1500);
+  } catch(e){
+    if (err) err.textContent = "Gagal hapus akun: " + (e.message || e);
+  }
+};
 
 window.toggleAuthPageMode = () => {
   state.authMode = state.authMode === "login" ? "daftar" : "login";
@@ -4438,6 +4521,83 @@ window.lbSetKind = (kind) => {
 // "user just signed out → stay where they are".
 let _authFiredOnce = false;
 
+// --- Banner "Akun rusak" untuk user yang login tapi orphan ---
+// Dipasang sekali di body, tampil kalau FB.getLastSiswaDocStatus() !== "ok"
+// setelah auth state change.
+function _ensureOrphanBannerEl(){
+  let b = document.getElementById("orphan-banner");
+  if (b) return b;
+  b = document.createElement("div");
+  b.id = "orphan-banner";
+  b.style.cssText = "display:none; position:fixed; bottom:16px; left:16px; right:16px; max-width:640px; margin:auto; z-index:300; background:#2a0f1a; border:2px solid #ef4444; border-radius:14px; padding:14px 16px; box-shadow:0 10px 32px rgba(0,0,0,.6); color:#fff; font-size:13px; line-height:1.5;";
+  document.body.appendChild(b);
+  return b;
+}
+function hideOrphanBanner(){
+  const b = document.getElementById("orphan-banner");
+  if (b) b.style.display = "none";
+}
+function showOrphanBannerIfNeeded(){
+  const status = FB.getLastSiswaDocStatus ? FB.getLastSiswaDocStatus() : null;
+  if (status === "ok" || status == null){ hideOrphanBanner(); return; }
+  const b = _ensureOrphanBannerEl();
+  const guruMode = FB.userIsGuru && FB.userIsGuru();
+  // Guru email menang: untuk dia, orphan bisa diselesaikan dengan tombol reparasi.
+  b.innerHTML = `
+    <div style="display:flex; justify-content:space-between; align-items:flex-start; gap:12px;">
+      <div>
+        <b style="color:#ff9b9b;">⚠️ Profil siswa tidak terbaca</b><br>
+        <span style="color:#d9d9e0;">
+          Login berhasil, tapi Firestore ${status === "write_blocked" ? "menolak membuat profil siswa baru" : "menolak membaca profil siswa"}
+          — biasanya karena Firestore Rules belum ter-deploy sesuai <code>firestore.rules.example</code>.
+          ${guruMode ? "Deploy rules dulu di Firebase Console, lalu klik Coba Lagi." : "Hubungi guru untuk deploy rules, atau klik Reset Akun untuk daftar ulang."}
+        </span>
+      </div>
+      <button onclick="hideOrphanBanner()" style="background:transparent; border:none; color:#aaa; font-size:20px; cursor:pointer; padding:0 6px;">×</button>
+    </div>
+    <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
+      <button class="btn" onclick="cobaReparasiAkun()">🔄 Coba Lagi</button>
+      <button class="btn danger" onclick="resetAkunSekarang()">🗑️ Reset Akun (hapus & daftar ulang)</button>
+      <button class="btn ghost" onclick="FB.keluar().then(()=>location.reload())">Keluar</button>
+    </div>
+  `;
+  b.style.display = "block";
+}
+window.hideOrphanBanner = hideOrphanBanner;
+
+window.cobaReparasiAkun = async () => {
+  try {
+    const r = await FB.reparasiAkunSaya(state.siswa?.nama || null);
+    if (r.status === "ok"){
+      toast("✓ Profil siswa berhasil dibuat");
+      hideOrphanBanner();
+      setTimeout(() => location.reload(), 1000);
+    } else {
+      toast("Masih diblok rules. Minta guru deploy firestore.rules.example.");
+    }
+  } catch(e){
+    toast("Gagal: " + (e.message||e));
+  }
+};
+
+window.resetAkunSekarang = async () => {
+  if (!confirm("HAPUS akun kamu? Email kamu bisa dipakai daftar ulang setelah ini. Tindakan ini tidak bisa dibatalkan.")) return;
+  try {
+    await FB.hapusAkunSendiri();
+    toast("✓ Akun dihapus. Silakan daftar ulang.");
+    hideOrphanBanner();
+    setTimeout(() => { state.authMode = "daftar"; route("login"); }, 800);
+  } catch(e){
+    if (/recent-login/.test(e.message||"")){
+      toast("Login ulang dulu, baru klik Reset lagi.");
+      await FB.keluar();
+      route("login");
+    } else {
+      toast("Gagal: " + (e.message||e));
+    }
+  }
+};
+
 FB.onAuth(async (user, siswa) => {
   const firstFire = !_authFiredOnce;
   _authFiredOnce = true;
@@ -4448,10 +4608,14 @@ FB.onAuth(async (user, siswa) => {
     btn.innerHTML = `👋 ${siswa?.nama || user.email.split("@")[0]}`;
     btn.onclick = () => route("profile");
     document.getElementById("guru-link").classList.toggle("hidden", !FB.userIsGuru());
+    // Banner recovery: kalau login sukses tapi siswa doc gagal dibuat/dibaca,
+    // tampilkan panel yang mencolok supaya user tahu dan bisa reset akun.
+    showOrphanBannerIfNeeded();
   } else {
     btn.innerHTML = "🔑 Masuk";
     btn.onclick = () => route("login");
     document.getElementById("guru-link").classList.add("hidden");
+    hideOrphanBanner();
   }
 
   // Snap to an allowed level before loading gami / rendering routes
