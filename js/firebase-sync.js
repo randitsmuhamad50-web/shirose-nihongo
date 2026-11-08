@@ -172,9 +172,11 @@ async function ensureSiswaDoc(u, extra = {}) {
     nama: extra.nama || u.displayName || u.email.split("@")[0],
     email: u.email,
     kelas: "",
-    aksesLevel: isOwner
-      ? { n5:true, n4:true, n3:true, n2:true, n1:true }
-      : { n5:true, n4:false, n3:false, n2:false, n1:false },
+    // WORKAROUND Nov 2026 (permintaan guru): semua akun dapat akses N5-N1
+    // sepenuhnya, tidak dibatasi per-level. Guru bisa kembalikan ke access
+    // per-user nanti dengan toggle di tab Siswa. isOwner tetap digunakan
+    // untuk role bootstrap di updateDoc selanjutnya.
+    aksesLevel: { n5:true, n4:true, n3:true, n2:true, n1:true },
     karakter: {
       equipped: {
         rambut: null,
@@ -215,6 +217,20 @@ async function ensureSiswaDoc(u, extra = {}) {
       currentSiswaDoc = snap.data();
       lastSiswaDocStatus = "ok";
       updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
+      // WORKAROUND akses JLPT Nov 2026: kalau ada level yang masih false,
+      // upgrade otomatis jadi true. Ini supaya user lama (yang didaftarin
+      // waktu aksesLevel default cuma n5) langsung dapat N5-N1 saat login
+      // tanpa perlu guru toggle manual. Dilakukan best-effort — kalau
+      // rules nolak updateDoc, UI tetap jalan dengan state in-memory.
+      const a = currentSiswaDoc.aksesLevel || {};
+      const needUpgrade = ["n5","n4","n3","n2","n1"].some(l => a[l] !== true);
+      if (needUpgrade){
+        const full = { n5:true, n4:true, n3:true, n2:true, n1:true };
+        updateDoc(ref, { aksesLevel: full }).catch(e => {
+          console.warn("aksesLevel upgrade blocked:", e?.code);
+        });
+        currentSiswaDoc.aksesLevel = full;
+      }
     }
 
     // Bootstrap guru/developer role untuk owner email.

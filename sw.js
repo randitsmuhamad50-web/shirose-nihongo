@@ -1,8 +1,7 @@
 /* Service worker: network-first, cache fallback */
-// v9 — ensureSiswaDoc tidak throw lagi; tambah hapusAkunSendiri untuk self
-// recovery user orphan; banner recovery di home; tombol Lupa password & Reset
-// Akun Rusak di login.
-const CACHE = "shirose-nihongo-v9";
+// v10 — WORKAROUND: semua akun dapat akses N5-N1 penuh otomatis. Level
+// pills tidak lagi locked. User lama di-upgrade saat next login.
+const CACHE = "shirose-nihongo-v10";
 const CORE = [
   "./",
   "./index.html",

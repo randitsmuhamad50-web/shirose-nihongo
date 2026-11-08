@@ -1292,8 +1292,8 @@ body.auth-mode .companion{display:none !important;}
 import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js/character.js";
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
-// ?v=20261108c — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261108c";
+// ?v=20261108d — cache-buster, lihat catatan sama di teacher.html.
+import * as FB from "./js/firebase-sync.js?v=20261108d";
 
 /* ========== STATE ========== */
 const state = {
@@ -1762,22 +1762,26 @@ window.submitAuthPage = async () => {
 function renderLevelPills(){
   const pills = document.getElementById("lvl-pills");
   const levels = ["n5","n4","n3","n2","n1"];
-  const akses = state.siswa?.aksesLevel || { n5:true, n4:false, n3:false, n2:false, n1:false };
+  // WORKAROUND Nov 2026: tidak ada lock di level pills — semua terbuka.
+  // Kode cek aksesLevel dulu dipertahankan untuk dibalikin nanti.
   pills.innerHTML = levels.map(l => {
-    const locked = !akses[l] && !FB.userIsGuru();
     const active = state.level === l;
-    return `<button class="lvl-pill ${active?'active':''} ${locked?'locked':''}" ${locked?'disabled':''}
-            onclick="setLevel('${l}')">${l.toUpperCase()}</button>`;
+    return `<button class="lvl-pill ${active?'active':''}" onclick="setLevel('${l}')">${l.toUpperCase()}</button>`;
   }).join("");
 }
-// Access guard for JLPT level. Guest gets N5 only; guru gets everything;
-// student goes by siswa.aksesLevel.
+// WORKAROUND Nov 2026 (permintaan guru): semua user, termasuk guest
+// yang belum login, dapat akses semua level N5-N1. Kode lama yang cek
+// per-level dipertahankan di bawah (dikomentari) supaya mudah dibalikin
+// nanti kalau guru mau kembali ke access control per-user.
 function canAccessLevel(lvl){
   if (!lvl) return false;
+  return true;
+  /* === per-user access (restored later) ===
   if (FB.userIsGuru()) return true;
   const akses = state.siswa?.aksesLevel;
   if (!akses){ return lvl === "n5"; } // sensible default for guest / new signup
   return !!akses[lvl];
+  */
 }
 window.canAccessLevel = canAccessLevel;
 
