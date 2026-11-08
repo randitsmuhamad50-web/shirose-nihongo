@@ -310,6 +310,16 @@ body.auth-mode .companion{display:none !important;}
 .lvl-badge:hover{background:rgba(239,106,154,.25);}
 body.pick-mode .lvl-pill-group{visibility:hidden;}
 @media (max-width:520px){ .lvl-badge{padding:6px 12px; font-size:14px;} .lvl-badge .ganti{display:none;} }
+/* Topbar HP: tidak boleh melebar keluar layar (tanpa scroll horizontal) */
+@media (max-width:560px){
+  .topbar{flex-wrap:wrap; row-gap:6px;}
+  .topbar-right{flex-wrap:wrap; justify-content:flex-end; gap:6px; min-width:0; max-width:100%;}
+  .topbar-right .chip{min-height:34px; font-size:14px; padding:4px 10px;}
+  .topbar-right .install-btn{padding:6px 10px; font-size:12px;}
+  #btn-auth{max-width:118px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; padding:6px 10px; font-size:14px;}
+  .brand > span:last-child{display:none;}
+}
+html{overflow-x:hidden;}
 
 /* ========== HALAMAN PEMILIHAN JLPT ========== */
 .jlpt-pick{width:100%; max-width:1100px; margin:0 auto; padding:24px 16px 48px; box-sizing:border-box;}
