@@ -14,13 +14,13 @@
      kelas/{id}: { nama, murid[], guru }
    ============================================================ */
 
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
+import { initializeApp, deleteApp } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js";
 import {
   getAuth, onAuthStateChanged,
   signInWithEmailAndPassword, createUserWithEmailAndPassword,
   signInAnonymously,
   signOut, sendPasswordResetEmail,
-  setPersistence, browserLocalPersistence, browserSessionPersistence,
+  setPersistence, browserLocalPersistence, browserSessionPersistence, inMemoryPersistence,
   indexedDBLocalPersistence
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js";
 import {
@@ -153,13 +153,29 @@ export function getUser() { return currentUser; }
 export function getSiswaDoc() { return currentSiswaDoc; }
 
 /* ========== AUTH ========== */
+// Alasan login terakhir ditolak: "not_registered" | "disabled" | null.
+// Dibaca halaman login untuk menampilkan pesan yang jelas.
+export let lastAuthDenied = null;
+export function getLastAuthDenied(){ const r = lastAuthDenied; lastAuthDenied = null; return r; }
+
 export function onAuth(cb) {
   if (!authListenerSet) {
     authListenerSet = true;
     onAuthStateChanged(auth, async (u) => {
       currentUser = u;
-      if (u) await ensureSiswaDoc(u);
-      else currentSiswaDoc = null;
+      if (u) {
+        await ensureSiswaDoc(u);
+        // Pendaftaran ditutup: akun yang tidak punya profil di Firestore
+        // (belum didaftarkan guru/moderator), akun tamu, dan akun yang
+        // dinonaktifkan langsung dikeluarkan. Firestore Rules juga menolak
+        // semua akses data untuk akun seperti ini (backend enforcement).
+        if (lastSiswaDocStatus === "not_registered" || lastSiswaDocStatus === "disabled") {
+          lastAuthDenied = lastSiswaDocStatus;
+          currentUser = null; currentSiswaDoc = null;
+          try { await signOut(auth); } catch(_) {}
+          return; // onAuthStateChanged akan terpanggil lagi dengan u = null
+        }
+      } else currentSiswaDoc = null;
       onReadyCallbacks.forEach(c => c(u, currentSiswaDoc));
     });
   }
@@ -180,7 +196,7 @@ function _bootstrapRoleFor(u){
 
 // Status terakhir ensureSiswaDoc — dipakai halaman login untuk tahu apakah
 // siswa doc benar-benar sudah dibuat di Firestore, atau cuma ada di Auth.
-// Nilai: "ok" | "write_blocked" | "read_blocked" | null
+// Nilai: "ok" | "write_blocked" | "read_blocked" | "not_registered" | "disabled" | null
 export let lastSiswaDocStatus = null;
 export function getLastSiswaDocStatus(){ return lastSiswaDocStatus; }
 
@@ -206,11 +222,10 @@ async function ensureSiswaDoc(u, extra = {}) {
     email: emailStr,
     isTamu: !!u.isAnonymous,
     kelas: "",
-    // WORKAROUND Nov 2026 (permintaan guru): semua akun dapat akses N5-N1
-    // sepenuhnya, tidak dibatasi per-level. Guru bisa kembalikan ke access
-    // per-user nanti dengan toggle di tab Siswa. isOwner tetap digunakan
-    // untuk role bootstrap di updateDoc selanjutnya.
+    // Akses JLPT per siswa diatur guru di teacher.html (field aksesLevel).
+    // Hanya akun moderator yang dibuat otomatis di sini, dengan akses penuh.
     aksesLevel: { n5:true, n4:true, n3:true, n2:true, n1:true },
+    status: "aktif",
     karakter: {
       equipped: {
         rambut: null,
@@ -232,10 +247,16 @@ async function ensureSiswaDoc(u, extra = {}) {
 
   try {
     const snap = await getDoc(ref);
+    if (!snap.exists() && !isOwner) {
+      // Pendaftaran ditutup: profil siswa HANYA dibuat oleh guru/moderator
+      // lewat teacher.html (buatAkunSiswa). Akun Auth tanpa profil = belum
+      // terdaftar → ditolak (lihat onAuth).
+      currentSiswaDoc = null;
+      lastSiswaDocStatus = "not_registered";
+      return;
+    }
     if (!snap.exists()) {
-      // Brand-new siswa (atau orphan: ada di Auth tapi dokumennya hilang).
-      // Coba bikin — kalau diterima rules, selesai. Kalau rules reject,
-      // tandai status write_blocked supaya UI bisa tampilkan tombol recovery.
+      // Bootstrap akun moderator/owner pertama kali.
       try {
         await setDoc(ref, base);
         currentSiswaDoc = { ...base };
@@ -249,22 +270,16 @@ async function ensureSiswaDoc(u, extra = {}) {
       }
     } else {
       currentSiswaDoc = snap.data();
+      if (!isOwner && currentSiswaDoc.status === "nonaktif"){
+        currentSiswaDoc = null;
+        lastSiswaDocStatus = "disabled";
+        return;
+      }
       lastSiswaDocStatus = "ok";
       updateDoc(ref, { aktif: serverTimestamp() }).catch(()=>{});
-      // WORKAROUND akses JLPT Nov 2026: kalau ada level yang masih false,
-      // upgrade otomatis jadi true. Ini supaya user lama (yang didaftarin
-      // waktu aksesLevel default cuma n5) langsung dapat N5-N1 saat login
-      // tanpa perlu guru toggle manual. Dilakukan best-effort — kalau
-      // rules nolak updateDoc, UI tetap jalan dengan state in-memory.
-      const a = currentSiswaDoc.aksesLevel || {};
-      const needUpgrade = ["n5","n4","n3","n2","n1"].some(l => a[l] !== true);
-      if (needUpgrade){
-        const full = { n5:true, n4:true, n3:true, n2:true, n1:true };
-        updateDoc(ref, { aksesLevel: full }).catch(e => {
-          console.warn("aksesLevel upgrade blocked:", e?.code);
-        });
-        currentSiswaDoc.aksesLevel = full;
-      }
+      // aksesLevel dibaca apa adanya dari database — TIDAK di-upgrade
+      // otomatis. Perubahan akses oleh guru langsung berlaku saat login.
+      if (!currentSiswaDoc.aksesLevel) currentSiswaDoc.aksesLevel = { n5:false, n4:false, n3:false, n2:false, n1:false };
     }
 
     // Rebranding: nama publik akun moderator lama masih "randitsmuhamad50"
@@ -339,6 +354,11 @@ export async function login(email, pwd) {
   return await signInWithEmailAndPassword(auth, email, pwd);
 }
 export async function daftar(email, pwd, nama) {
+  // Pendaftaran mandiri DITUTUP — akun siswa dibuat guru/moderator dari
+  // teacher.html. Firestore Rules juga menolak pembuatan profil oleh siswa.
+  throw new Error("Pendaftaran mandiri ditutup. Minta akun ke guru/moderator.");
+}
+async function _daftarLamaTidakDipakai(email, pwd, nama) {
   // Step 1: buat user di Firebase Auth.
   const cred = await createUserWithEmailAndPassword(auth, email, pwd);
   // Step 2: pastikan siswa doc tercipta. ensureSiswaDoc tidak throw lagi
@@ -374,6 +394,9 @@ export async function resetPassword(email) { return await sendPasswordResetEmail
  * progres tidak permanen antar device.
  */
 export async function masukTamu(){
+  throw new Error("Mode tamu ditutup. Minta akun ke guru/moderator.");
+}
+async function _masukTamuLamaTidakDipakai(){
   const cred = await signInAnonymously(auth);
   // Siswa doc otomatis dibuat oleh onAuthStateChanged → ensureSiswaDoc.
   // Nama default "Tamu-xxxxx" biar guru tahu kalau ini anonymous.
@@ -868,9 +891,76 @@ export async function diagnosaRules(){
   await check("write", `/siswa/${uid}.aktif`, () => updateDoc(doc(db, "siswa", uid), { aktif: serverTimestamp() }));
   return results;
 }
+const LEVELS = ["n5","n4","n3","n2","n1"];
+function _normAkses(a){ const r = {}; LEVELS.forEach(l => r[l] = !!(a && a[l])); return r; }
+function _profilBaru(uid, email, nama, kelas, aksesLevel, role){
+  return {
+    nama: (nama || "").trim() || email.split("@")[0],
+    email, isTamu: false, kelas: kelas || "",
+    aksesLevel: _normAkses(aksesLevel || { n5:true }),
+    role: role || "student",
+    status: "aktif",
+    dibuatOleh: currentUser?.uid || null,
+    karakter: {
+      equipped: { rambut:null, pakaian:"seragam_default", sepatu:"shoes_default", aksesori:"none", item_tangan:"none", aura:"none" },
+      inventory: ["seragam_default", "shoes_default", "none"],
+      skinTone: "light", hairColor: "#2a1810",
+    },
+    created: serverTimestamp(),
+  };
+}
+/**
+ * Guru/moderator membuat akun baru (Firebase Auth + profil Firestore).
+ * Pakai instance Firebase App KEDUA dengan persistence in-memory supaya
+ * sesi login guru di tab ini tidak tergantikan oleh akun yang baru dibuat.
+ * role "guru" hanya boleh dibuat oleh admin/moderator.
+ */
+export async function buatAkunSiswa({ email, password, nama, kelas, aksesLevel, role = "student" }) {
+  if (!userIsGuru()) throw new Error("Hanya guru/moderator");
+  if (role !== "student" && !userIsAdmin()) throw new Error("Hanya moderator yang bisa membuat akun guru");
+  if (!["student","guru"].includes(role)) throw new Error("Role tidak valid");
+  email = (email || "").trim().toLowerCase();
+  if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) throw new Error("Email tidak valid");
+  if (!password || password.length < 6) throw new Error("Password minimal 6 karakter");
+  const sec = initializeApp(firebaseConfig, "akun-creator-" + Date.now());
+  const secAuth = getAuth(sec);
+  try {
+    await setPersistence(secAuth, inMemoryPersistence);
+    const cred = await createUserWithEmailAndPassword(secAuth, email, password);
+    const uid = cred.user.uid;
+    try {
+      await setDoc(doc(db, "siswa", uid), _profilBaru(uid, email, nama, kelas, aksesLevel, role));
+    } catch (e) {
+      // Rollback supaya tidak ada akun Auth yatim tanpa profil.
+      try { await cred.user.delete(); } catch(_){}
+      throw new Error("Akun dibatalkan — gagal menyimpan profil: " + (e.code || e.message));
+    }
+    return uid;
+  } catch (e) {
+    if (e.code === "auth/email-already-in-use") throw new Error("Email sudah terdaftar di sistem login.");
+    if (e.code === "auth/weak-password") throw new Error("Password terlalu lemah (min. 6 karakter).");
+    throw e;
+  } finally {
+    try { await signOut(secAuth); } catch(_){}
+    try { await deleteApp(sec); } catch(_){}
+  }
+}
+/** Daftarkan akun Auth yang SUDAH ada (punya UID) tapi belum punya profil. */
+export async function daftarkanAkunExisting({ uid, email, nama, kelas, aksesLevel }) {
+  if (!userIsGuru()) throw new Error("Hanya guru/moderator");
+  const ref = doc(db, "siswa", uid);
+  if ((await getDoc(ref)).exists()) throw new Error("Profil sudah ada");
+  await setDoc(ref, _profilBaru(uid, (email||"").trim().toLowerCase(), nama, kelas, aksesLevel, "student"));
+  return uid;
+}
+/** Aktifkan / nonaktifkan akun (akun nonaktif tidak bisa login & ditolak Rules). */
+export async function setStatusSiswa(uid, aktif) {
+  if (!userIsGuru()) throw new Error("Hanya guru/moderator");
+  await updateDoc(doc(db, "siswa", uid), { status: aktif ? "aktif" : "nonaktif" });
+}
 export async function updateAksesSiswa(uid, aksesLevel) {
   if (!userIsGuru()) throw new Error("Hanya guru");
-  await updateDoc(doc(db, "siswa", uid), { aksesLevel });
+  await updateDoc(doc(db, "siswa", uid), { aksesLevel: _normAkses(aksesLevel) });
 }
 export async function updateKelasSiswa(uid, kelas) {
   if (!userIsGuru()) throw new Error("Hanya guru");
