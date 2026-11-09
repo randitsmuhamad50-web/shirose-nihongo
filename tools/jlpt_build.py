@@ -237,9 +237,29 @@ def ck_from_sokuji(x, no):
         },
     }
 
+def paket_choukai(lv, exam_no):
+    """Paket Choukai guru: paket 1 = choukai/jlpt-{lv}.json, paket 2–10 = choukai/paket/{lv}-p{n}.json."""
+    f = f"choukai/jlpt-{lv}.json" if exam_no == 0 else f"choukai/paket/{lv}-p{exam_no+1}.json"
+    try:
+        d = load(f)
+    except Exception:
+        return None
+    return d
+
 def choukai_items(rnd, lv, exam_no, real):
     items = []
-    # 2–3 soal rekaman asli (bergantian supaya tiap paket berbeda)
+    pk = paket_choukai(lv, exam_no)
+    if pk:
+        # Pakai paket Choukai Shirose milik guru (satu paket per Full Exam → tidak ada yang sama).
+        ambil = {"kadai": 2, "point": 2, "gaiyou": 1, "hatsuwa": 1, "sokuji": 3, "togo": 1}
+        for sec in pk.get("sections", []):
+            its = sec.get("items", [])[: ambil.get(sec.get("type"), 1)]
+            for it in its:
+                for qi, qq in enumerate(it.get("qs", [])[:1]):
+                    items.append(ck_from_real({"sec": sec, "it": it, "qi": qi, "q": qq}))
+        if len(items) >= 6:
+            return items
+    # Level tanpa paket tambahan: soal rekaman yang ada (bergantian) + template + 即時応答.
     per = max(2, min(3, len(real) // 10))
     for k in range(per):
         idx = exam_no * per + k
