@@ -87,7 +87,7 @@ function secProgress(sec, ans){
 }
 
 /* ================= AUDIO: voice pack VOICEVOX → engine lokal → TTS ================= */
-import SV from "./voice.js?v=20261109a";
+import SV from "./voice.js?v=20261109c";
 let _playingId = null;
 function stopAll(){ SV.stop(true); }
 window.ckStop = stopAll;
@@ -120,6 +120,23 @@ async function playItem(lvl, id){
   }
 }
 window.ckPlay = (lvl, id) => playItem(lvl, id);
+
+/* ================= SIMPAN OFFLINE ================= */
+const packUrls = (d) => d.sections.flatMap(s => [s.instrAudio, ...s.items.map(i => i.audio)]).filter(Boolean);
+window.ckSaveOffline = async (lvl, pk) => {
+  const d = await loadChoukai(lvl, pk); if (!d) return;
+  const box = document.getElementById("ck-off"); const btn = document.getElementById("ck-off-btn");
+  if (btn) btn.disabled = true;
+  const r = await SV.saveOffline(packUrls(d), (done, total) => { if (box) box.textContent = `⬇️ Mengunduh audio ${done}/${total}…`; });
+  if (box) box.textContent = r.ok === r.total ? `✅ ${r.ok}/${r.total} audio tersimpan — paket ini bisa diputar tanpa internet.`
+    : `⚠️ ${r.ok}/${r.total} audio tersimpan. Sisanya belum tersedia di server (sedang dibuat) — coba lagi nanti.`;
+  if (btn) btn.disabled = false;
+};
+async function offlineBadge(lvl, pk, d){
+  const urls = packUrls(d); const n = await SV.countOffline(urls);
+  const el = document.getElementById("ck-off");
+  if (el) el.textContent = n ? `💾 ${n}/${urls.length} audio sudah tersimpan offline.` : "Audio diunduh otomatis saat diputar, atau simpan sekaligus untuk dipakai tanpa internet.";
+}
 
 /* ================= RENDER ================= */
 const SPK = { N:"🎙️", M:"👨", F:"👩", M2:"👨‍💼", F2:"👩‍💼" };
@@ -288,8 +305,12 @@ export async function renderChoukaiJLPT(params){
         <p class="ck-intro">${esc(data.karakter)}</p>
         <p class="ck-intro">📦 ${data.sections.length} tipe soal · ${total} soal · audio dari voice pack, otomatis TTS jika file belum ada.</p>
         ${displayBar("choukai")}
+        <div class="ck-instr" style="align-items:center;">
+          <button class="btn ghost sm" id="ck-off-btn" onclick="ckSaveOffline('${lvl}', ${pk})">💾 Simpan offline</button>
+          <span id="ck-off"></span>
+        </div>
         <div class="ck-sec-grid">${cards}</div>
-      </div>`;
+      </div>${(setTimeout(() => offlineBadge(lvl, pk, data), 50), "")}`;
   }
 
   const pr = secProgress(sec, ans);

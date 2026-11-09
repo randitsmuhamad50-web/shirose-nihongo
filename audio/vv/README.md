@@ -29,3 +29,23 @@ Semua suara di website memakai **7 karakter VOICEVOX** (daftar dan pengaturannya
 File yang sudah ada dilewati, jadi aman dijalankan ulang.
 
 Kredit wajib: `VOICEVOX:青山龍星`, `VOICEVOX:もち子さん`, `VOICEVOX:後鬼`, `VOICEVOX:No.7`, `VOICEVOX:麒ヶ島宗麟`, `VOICEVOX:春歌ナナ`, `VOICEVOX:栗田まろん` (sudah ditampilkan di halaman Choukai).
+
+## ⚡ Otomatis lewat GitHub (tanpa install apa pun)
+Workflow `.github/workflows/voice-pack.yml` menjalankan VOICEVOX ENGINE (Docker, karakter yang sama)
+di GitHub Actions setiap ada konten baru yang masuk ke `main`:
+
+| Kamu memasukkan… | Yang dibuat otomatis |
+|---|---|
+| `tools/choukai-src/n5-p11.txt` (naskah, format lihat `tools/choukai_build.py`) | `choukai/paket/n5-p11.json` + MP3 di `audio/choukai/n5/p11/` |
+| `choukai/jlpt-*.json` / `choukai/paket/*.json` | MP3 yang belum ada |
+| `data/kosakata-*.json`, `data/kanji-*.json`, `data/bunpou-*.json` | audio materi `audio/vv/{level}/…` |
+
+Aturan suara Choukai: **青山龍星 (aoyama) = narator**; dialog & pilihan dibacakan acak oleh
+もち子さん/後鬼/No.7/春歌ナナ (perempuan) dan 栗田まろん/麒ヶ島宗麟 (laki-laki).
+Hasil 5–60 menit kemudian sudah ter-commit dan tampil di website. Bisa juga dijalankan manual:
+tab **Actions → Voice pack VOICEVOX (otomatis) → Run workflow**.
+
+## 📴 Offline
+Setiap MP3 yang pernah diputar disimpan di perangkat (Cache Storage `shirose-audio-v1`) dan
+diputar dari sana tanpa internet. Di halaman paket Choukai ada tombol **💾 Simpan offline**
+untuk mengunduh semua audio paket sekaligus.

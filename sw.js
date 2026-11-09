@@ -3,7 +3,8 @@
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v23";
+const CACHE = "shirose-nihongo-v24";
+const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
 const CORE = [
   "./",
   "./index.html",
@@ -28,13 +29,21 @@ self.addEventListener("install", (e) => {
   self.skipWaiting();
 });
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))));
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== AUDIO).map(k => caches.delete(k)))));
   self.clients.claim();
 });
 self.addEventListener("fetch", (e) => {
   const u = new URL(e.request.url);
   // Don't cache firebase or external APIs
   if (u.hostname.includes("firebase") || u.hostname.includes("googleapis") || u.hostname.includes("gstatic")) return;
+  // MP3 voice pack: ambil dari cache offline dulu (file audio tidak pernah berubah isinya)
+  if (u.origin === location.origin && /\.mp3$/i.test(u.pathname)) {
+    e.respondWith(caches.match(e.request.url, { ignoreMethod: true, ignoreVary: true }).then(hit => {
+      if (hit && !e.request.headers.has("range")) return hit;
+      return fetch(e.request).catch(() => hit || new Response("Offline", { status: 503 }));
+    }));
+    return;
+  }
   e.respondWith(
     fetch(e.request).then(r => {
       if (r.ok && e.request.method === "GET" && u.origin === location.origin) {

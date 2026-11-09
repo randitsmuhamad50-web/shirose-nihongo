@@ -103,6 +103,50 @@ function _play(url, { start = 0, dur = 0, label = "", onend } = {}, my){
   });
 }
 
+/* ---------------- Cache offline voice pack ---------------- */
+// Semua MP3 voice pack yang pernah diputar (atau diunduh lewat "Simpan offline")
+// disimpan di Cache Storage "shirose-audio", lalu diputar dari sana tanpa internet.
+export const AUDIO_CACHE = "shirose-audio-v1";
+const _blobUrls = {};
+async function offlineUrl(url){
+  const abs = new URL(url, location.href).href;
+  if (_blobUrls[abs]) return _blobUrls[abs];
+  try {
+    const r = await caches.match(abs, { ignoreVary: true });
+    if (r && r.ok){ _blobUrls[abs] = URL.createObjectURL(await r.blob()); return _blobUrls[abs]; }
+  } catch(e){}
+  return null;
+}
+function keepOffline(url){
+  try {
+    const abs = new URL(url, location.href).href;
+    caches.open(AUDIO_CACHE).then(c => c.match(abs).then(h => h || c.add(abs))).catch(() => {});
+  } catch(e){}
+}
+/** Unduh banyak file sekaligus ke cache offline. onProgress(done,total) */
+export async function saveOffline(urls, onProgress){
+  const c = await caches.open(AUDIO_CACHE);
+  let done = 0, ok = 0;
+  const list = [...new Set(urls)].map(u => new URL(u, location.href).href);
+  const q = list.slice();
+  const worker = async () => {
+    while (q.length){
+      const u = q.shift();
+      try { if (await c.match(u)) ok++; else { const r = await fetch(u, { cache: "no-cache" });
+        if (r.ok && !/text\/html/i.test(r.headers.get("content-type") || "")){ await c.put(u, r); ok++; } } } catch(e){}
+      done++; onProgress && onProgress(done, list.length, ok);
+    }
+  };
+  await Promise.all([worker(), worker(), worker(), worker()]);
+  return { total: list.length, ok };
+}
+export async function countOffline(urls){
+  let n = 0;
+  try { const c = await caches.open(AUDIO_CACHE);
+    for (const u of urls) if (await c.match(new URL(u, location.href).href)) n++; } catch(e){}
+  return n;
+}
+
 /* ---------------- Indeks voice pack materi ---------------- */
 const CATS = ["kosakata", "kanji", "kanji-contoh", "kosakata-contoh", "bunpou-contoh"];
 const idxCache = {};
@@ -193,7 +237,9 @@ export async function speak(text, opt = {}){
   const clip = await findClip(text, opt.role, lvl);
   if (my !== token) return;
   if (clip){
-    const ok = await _play(clip.url, { start: clip.start, dur: clip.dur, label: CFG.voices[clip.voice]?.name || "" }, my);
+    const off = await offlineUrl(clip.url);
+    if (!off) keepOffline(clip.url);
+    const ok = await _play(off || clip.url, { start: clip.start, dur: clip.dur, label: CFG.voices[clip.voice]?.name || "" }, my);
     if (ok || my !== token) return;
   }
   const vkey = (CFG.roles || {})[opt.role] || (CFG.roles || {}).umum || "mochiko";
@@ -210,10 +256,13 @@ export async function playScript({ file, lines, voices, label, rate = 1, pauseN 
   lastReplay = () => playScript(arguments[0]);
   await cfgReady;
   if (file){
+    const off = await offlineUrl(file);
+    if (my !== token) return "stopped";
+    if (off){ await _play(off, { label: label || "Voice pack VOICEVOX" }, my); return "pack"; }
     let ok = false;
     try { const h = await fetch(file, { method: "HEAD", cache: "no-cache" }); ok = h.ok && !/text\/html/i.test(h.headers.get("content-type") || ""); } catch(e){}
     if (my !== token) return "stopped";
-    if (ok){ await _play(file, { label: label || "Voice pack VOICEVOX" }, my); return "pack"; }
+    if (ok){ keepOffline(file); await _play(file, { label: label || "Voice pack VOICEVOX" }, my); return "pack"; }
   }
   if (await engineAvailable()){
     try {
@@ -250,6 +299,6 @@ export const escAttr = (s) => String(s ?? "").replace(/&/g, "&amp;").replace(/"/
 
 export function voiceList(){ return cfgReady.then(() => CFG.voices); }
 
-const SV = { speak, stop, playScript, setSpeed, setPref, prefs, btn, escAttr, engineAvailable, voiceList, playUrl };
+const SV = { speak, stop, playScript, setSpeed, setPref, prefs, btn, escAttr, engineAvailable, voiceList, playUrl, saveOffline, countOffline };
 window.SV = SV;
 export default SV;

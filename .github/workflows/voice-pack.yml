@@ -1,0 +1,156 @@
+name: Voice pack VOICEVOX (otomatis)
+
+# Semua audio Shirose Nihongo dibuat OTOMATIS dengan 7 karakter VOICEVOX
+# (青山龍星・もち子さん・後鬼・No.7・麒ヶ島宗麟・春歌ナナ・栗田まろん, lihat audio/vv/voices.json).
+#
+# Cukup masukkan konten ke repo, sisanya otomatis:
+#   • Naskah Choukai baru   → tools/choukai-src/{level}-p{paket}.txt  (JSON soal + MP3 dibuat)
+#   • Soal Choukai (JSON)   → choukai/jlpt-*.json, choukai/paket/*.json
+#   • Materi                → data/kosakata-*.json, data/kanji-*.json, data/bunpou-*.json
+# File audio yang sudah ada dilewati, jadi hanya yang baru yang dibuat.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/choukai-src/**"
+      - "choukai/**"
+      - "data/kosakata-*.json"
+      - "data/kanji-*.json"
+      - "data/bunpou-*.json"
+      - "audio/vv/voices.json"
+      - ".github/workflows/voice-pack.yml"
+  workflow_dispatch:
+    inputs:
+      materi:
+        description: "Buat juga audio materi (kosakata/kanji/bunpou)? true/false"
+        default: "true"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: voice-pack
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Naskah → JSON soal
+        run: |
+          python3 tools/choukai_build.py
+          git config user.name "shirose-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add choukai/paket
+          if ! git diff --cached --quiet; then
+            git commit -m "choukai: bangun ulang paket dari naskah"
+            git pull --rebase -q origin main && git push origin HEAD:main
+          fi
+
+  choukai:
+    needs: prepare
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        level: [n5, n4, n3, n2, n1]
+        paket: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    services:
+      voicevox:
+        image: voicevox/voicevox_engine:cpu-latest
+        ports: ["50021:50021"]
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Perlu dibuat?
+        id: chk
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          lvl, pk = "${{ matrix.level }}", ${{ matrix.paket }}
+          f = f"choukai/jlpt-{lvl}.json" if pk == 1 else f"choukai/paket/{lvl}-p{pk}.json"
+          miss = 0
+          if os.path.exists(f):
+              d = json.load(open(f, encoding="utf-8"))
+              for s in d["sections"]:
+                  for a in [s.get("instrAudio")] + [i["audio"] for i in s["items"]]:
+                      if a and not os.path.exists(a): miss += 1
+          print(f"miss={miss}")
+          PY
+      - name: Pasang ffmpeg
+        if: steps.chk.outputs.miss != '0'
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Tunggu VOICEVOX
+        if: steps.chk.outputs.miss != '0'
+        run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
+      - name: Buat audio Choukai
+        if: steps.chk.outputs.miss != '0'
+        run: |
+          python3 tools/vv_build.py choukai ${{ matrix.level }} --paket ${{ matrix.paket }}
+          mkdir -p _out && git ls-files --others --exclude-standard audio | while read f; do mkdir -p "_out/$(dirname "$f")"; cp "$f" "_out/$f"; done
+      - uses: actions/upload-artifact@v4
+        if: steps.chk.outputs.miss != '0'
+        with:
+          name: vp-choukai-${{ matrix.level }}-p${{ matrix.paket }}
+          path: _out/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  materi:
+    needs: prepare
+    if: github.event_name == 'push' || github.event.inputs.materi == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        level: [n5, n4, n3, n2, n1]
+        cat: [kosakata, kanji, kanji-contoh, kosakata-contoh, bunpou-contoh]
+    services:
+      voicevox:
+        image: voicevox/voicevox_engine:cpu-latest
+        ports: ["50021:50021"]
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - name: Pasang ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+      - name: Tunggu VOICEVOX
+        run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
+      - name: Buat audio materi
+        run: |
+          python3 tools/vv_build.py materi ${{ matrix.level }} --only ${{ matrix.cat }}
+          mkdir -p _out && git ls-files --others --modified --exclude-standard audio | while read f; do mkdir -p "_out/$(dirname "$f")"; cp "$f" "_out/$f"; done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vp-materi-${{ matrix.level }}-${{ matrix.cat }}
+          path: _out/
+          if-no-files-found: ignore
+          retention-days: 3
+
+  commit:
+    needs: [choukai, materi]
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/download-artifact@v4
+        with:
+          path: _vp
+          pattern: vp-*
+      - name: Gabung & commit
+        run: |
+          shopt -s nullglob
+          for d in _vp/vp-*; do cp -rf "$d"/. ./; done
+          rm -rf _vp
+          git config user.name "shirose-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add audio
+          if git diff --cached --quiet; then echo "Tidak ada audio baru"; exit 0; fi
+          git commit -m "audio: voice pack VOICEVOX otomatis"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q origin main && git push origin HEAD:main && exit 0; sleep 10; done; exit 1
