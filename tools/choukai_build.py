@@ -15,7 +15,8 @@ FORMAT NASKAH
   == 1                  ← mulai 問題1 (tipe soal diambil dari paket 1 level tsb.)
   S 教室で先生と学生が話しています。   ← situasi (hatsuwa: kalimat situasi + 何と言いますか)
   Q 学生は明日何を持ってきますか。     ← pertanyaan (統合理解 2 soal: "Q 質問1　…=1" dst.)
-  V F=no7 M=kurita      ← (opsional) suara per pembicara
+  V F=no7 M=kurita      ← (opsional) petunjuk suara. Narator N selalu aoyama; pembicara lain
+                          diacak dari mochiko/goki/no7/nana (F) dan kurita/sourin (M)
   C Kamu ingin …         ← (hatsuwa) keterangan gambar dalam bahasa Indonesia
   R M                   ← (opsional) siapa yang membacakan pilihan (hatsuwa / sokuji)
   F: …  M: …  F2: …  M2: …  N: …       ← baris percakapan
@@ -25,7 +26,7 @@ FORMAT NASKAH
   E Pembahasan dalam bahasa Indonesia.
   (baris kosong = soal berikutnya; baris diawali ; = komentar)
 """
-import json, os, re, sys, glob, collections, hashlib
+import json, os, re, sys, glob, collections, hashlib, random
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SRC = os.path.join(ROOT, "tools", "choukai-src")
@@ -34,6 +35,32 @@ DEF_V = {"N": "aoyama", "M": "kurita", "F": "mochiko", "M2": "sourin", "F2": "no
 SPK = re.compile(r"^(N|M2|F2|M|F)[:：]\s*(.+)$")
 ROMAN = {"kadai", "point"}
 NUMERIC = re.compile(r"[0-9０-９一二三四五六七八九十百千万]|時|分|円|曜日|階|番|ページ|歳|年|月")
+
+
+FEMALE = ["mochiko", "goki", "no7", "nana"]
+MALE = ["kurita", "sourin"]
+
+
+def assign_voices(seed, it):
+    """Narator (N) SELALU aoyama. Pembicara lain diacak dari 6 karakter lain
+    (perempuan: mochiko/goki/no7/nana, laki-laki: kurita/sourin), tidak dobel dalam satu soal.
+    Baris V hanya dipakai sebagai petunjuk peran bila suaranya bukan aoyama."""
+    rnd = random.Random(seed)
+    hint = {}
+    for kv in it.get("V", "").split():
+        k, _, v = kv.partition("=")
+        if v and v != "aoyama": hint[k] = v
+    out, used = {"N": "aoyama"}, set()
+    for k in ("F", "F2", "M", "M2"):
+        pool = FEMALE if k.startswith("F") else MALE
+        h = hint.get(k)
+        if h in pool and h not in used and rnd.random() < 0.5:
+            v = h
+        else:
+            free = [x for x in pool if x not in used] or pool
+            v = rnd.choice(free)
+        out[k] = v; used.add(v)
+    return out
 
 
 def parse(path):
@@ -102,9 +129,7 @@ def build(lvl, pk):
                     and 0 <= qs[0]["ans"] < 4 and it.get("FIX") is None and not any(NUMERIC.search(o) for o in opts):
                 tgt = [3, 0, 2, 1, 0, 3, 1, 2][(no - 1 + pk * 3 + mn) % 8]
                 good = opts.pop(qs[0]["ans"]); opts.insert(tgt, good); qs[0]["ans"] = tgt
-            voices = dict(DEF_V)
-            for kv in it.get("V", "").split():
-                k, _, v = kv.partition("="); voices[k] = v
+            voices = assign_voices(f"{lvl}-{pk}-{mn}-{no}", it)
             dialog = it["lines"]
             set_ = it.get("S", "")
             q0 = qs[0]["q"]
