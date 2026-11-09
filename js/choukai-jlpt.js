@@ -72,7 +72,7 @@ function secProgress(sec, ans){
 }
 
 /* ================= AUDIO: voice pack VOICEVOX → engine lokal → TTS ================= */
-import SV from "./voice.js?v=20261108v";
+import SV from "./voice.js?v=20261109a";
 let _playingId = null;
 function stopAll(){ SV.stop(true); }
 window.ckStop = stopAll;
@@ -178,8 +178,10 @@ function scoreHtml(pr){
   return `<b>${pr.ok}</b> benar dari <b>${pr.done}</b> dijawab · ${pr.total} soal${pr.done ? ` · ${pct}%` : ""}`;
 }
 
-async function fillVoiceGallery(){
-  const vs = await SV.voiceList(); const g = document.getElementById("vv-grid"); if (!g) return;
+async function fillVoiceGallery(tries = 0){
+  const vs = await SV.voiceList(); const g = document.getElementById("vv-grid");
+  if (!g || g.dataset.filled){ if (!g && tries < 40) setTimeout(() => fillVoiceGallery(tries + 1), 150); return; }
+  g.dataset.filled = "1";
   g.innerHTML = Object.entries(vs).map(([k, v]) => `<button class="vv-card" onclick="SV.playUrl('./audio/vv/test/${k}.mp3', {label:'${esc(v.name)}'})">
       <span class="vv-name">${esc(v.name)}</span><span class="vv-lbl">${esc(v.label.split("—")[1] || "")}</span></button>`).join("");
   const c = document.getElementById("vv-credit");
