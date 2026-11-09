@@ -522,16 +522,66 @@ const REKOM = {
   dokkai: ["Biasakan membaca pertanyaan dulu, lalu cari kalimat kunci.", "Untuk 情報検索, coret pilihan berdasarkan syarat satu per satu."],
   choukai: ["Latih di menu Choukai dengan Mode Ujian (teks disembunyikan).", "Perhatikan perubahan rencana di tengah percakapan (でも／じゃあ)."],
 };
+// ---- Penilaian ala JLPT resmi (jlpt.jp): seksi, skala poin, ambang lulus, CEFR ----
+const JLPT_PASS = {
+  n5: { overall: 80, cefr: "A1" }, n4: { overall: 90, cefr: "A2" },
+  n3: { overall: 95, cefr: "B1" }, n2: { overall: 90, cefr: "B2" }, n1: { overall: 100, cefr: "C1" },
+};
+function jlptSections(lv) {
+  if (lv === "n5" || lv === "n4") return [
+    { label: "言語知識・読解", sub: "Kosakata・Tata Bahasa・Membaca", max: 120, pass: 38, cats: ["kanji", "kotoba", "bunpou", "dokkai"] },
+    { label: "聴解", sub: "Menyimak", max: 60, pass: 19, cats: ["choukai"] },
+  ];
+  return [
+    { label: "言語知識", sub: "Kosakata・Tata Bahasa", max: 60, pass: 19, cats: ["kanji", "kotoba", "bunpou"] },
+    { label: "読解", sub: "Membaca", max: 60, pass: 19, cats: ["dokkai"] },
+    { label: "聴解", sub: "Menyimak", max: 60, pass: 19, cats: ["choukai"] },
+  ];
+}
+function hitungJLPT(h) {
+  const per = h.perKategori || {};
+  const secs = jlptSections(h.lv).map(s => {
+    let benar = 0, total = 0;
+    s.cats.forEach(c => { if (per[c]) { benar += per[c].benar; total += per[c].total; } });
+    const skor = total ? Math.round(benar / total * s.max) : 0;
+    return { ...s, benar, total, skor, lulus: skor >= s.pass };
+  });
+  const total = secs.reduce((a, s) => a + s.skor, 0);
+  const cfg = JLPT_PASS[h.lv] || { overall: 90, cefr: "-" };
+  const lulus = total >= cfg.overall && secs.every(s => s.lulus);
+  return { secs, total, overall: cfg.overall, cefr: cfg.cefr, lulus };
+}
 function htmlHasil() {
   const { hasil: h, pkg, tersimpan } = R;
   const a = analisis(h.perKategori || {});
-  const warna = h.skor >= 80 ? "var(--green)" : h.skor >= 60 ? "var(--gold)" : "var(--red)";
   const rata = h.total ? h.durasiAktual / h.total : 0;
+  const isFull = h.jenis === "full";
+  const J = isFull ? hitungJLPT(h) : null;
+  const warna = J ? (J.lulus ? "var(--green)" : "var(--red)") : (h.skor >= 80 ? "var(--green)" : h.skor >= 60 ? "var(--gold)" : "var(--red)");
+  const scorecard = J ? `
+    <div class="jx-jlpt-card ${J.lulus ? "lulus" : "gagal"}">
+      <div class="jx-jlpt-top">
+        <div class="verdict">${J.lulus ? "✅ GÔKAKU · LULUS" : "❌ FUGÔKAKU · TIDAK LULUS"}</div>
+        <div class="tot"><b>${J.total}</b> <span>/ 180</span></div>
+        <div class="jx-muted">Ambang lulus ${h.lv.toUpperCase()}: ${J.overall} · CEFR ≈ <b>${J.cefr}</b></div>
+      </div>
+      <table class="jx-jlpt-sec">
+        <tr><th>Seksi</th><th>Skor</th><th>Min.</th><th></th></tr>
+        ${J.secs.map(s => `<tr>
+          <td><b>${s.label}</b><br><small class="jx-muted">${s.sub} · ${s.benar}/${s.total} benar</small></td>
+          <td><b>${s.skor}</b> / ${s.max}</td>
+          <td>${s.pass}</td>
+          <td class="${s.lulus ? "g" : "r"}">${s.lulus ? "✔ lolos" : "✗ di bawah minimum"}</td>
+        </tr>`).join("")}
+      </table>
+      <div class="jx-muted sm">Skor diskalakan proporsional sebagai <b>estimasi</b> — JLPT asli memakai skala setara (equated). Lulus = total ≥ ambang DAN setiap seksi ≥ minimumnya.</div>
+    </div>` : "";
   return `
   <div class="panel jx jx-result">
     ${crumbs([["JLPT Center", "jlpt"], [`JLPT ${h.lv.toUpperCase()}`, `jlpt/${h.lv}`], [JENIS[h.jenis]?.nama || h.jenis, `jlpt/${h.lv}/${h.jenis}`], ["Hasil"]])}
+    ${scorecard}
     <div class="jx-res-head">
-      <div class="skor" style="--c:${warna}"><b>${h.skor}</b><span>%</span><div class="jx-muted">Estimasi hasil latihan</div></div>
+      <div class="skor" style="--c:${warna}"><b>${h.skor}</b><span>%</span><div class="jx-muted">${isFull ? "Akurasi jawaban" : "Estimasi hasil latihan"}</div></div>
       <div class="meta">
         <div><span>Nama</span><b>${esc(h.nama)}</b></div>
         <div><span>Level</span><b>JLPT ${h.lv.toUpperCase()}</b></div>

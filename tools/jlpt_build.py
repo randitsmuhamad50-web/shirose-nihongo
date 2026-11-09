@@ -17,7 +17,7 @@ Deterministik (seed tetap) supaya hasil bisa direproduksi.
 import json, os, random, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from jlpt_core import Bank, LEVELS, LV_IDX, ROOT, load, parse_annot, plain_of
-from jlpt_gen import (Targets, GramPool, make_yomi, make_hyouki, make_bunmyaku, make_imi, make_youhou,
+from jlpt_gen import (Targets, GramPool, make_yomi, make_hyouki, make_bunmyaku, make_imi, make_iikae, make_youhou,
                       make_bunpou_form, make_bunpou_star, ABCD)
 import jlpt_content as JC
 
@@ -28,24 +28,37 @@ INSTR = {
     "hyouki":   ("表記", "kanji", "＿＿＿の ことばは どう 書きますか。いちばん いい ものを 一つ えらんで ください。"),
     "bunmyaku": ("文脈規定", "kotoba", "（　　　）に なにを 入れますか。いちばん いい ものを 一つ えらんで ください。"),
     "imi":      ("語彙の意味", "kotoba", "＿＿＿の ことばの いみとして いちばん 近い ものを 一つ えらんで ください。"),
+    "iikae":    ("言い換え類義", "kotoba", "＿＿＿の ことばに いみが いちばん 近い ものを 一つ えらんで ください。"),
+    "settou":   ("接頭辞・接尾辞", "kotoba", "（　）に 入れるのに いちばん いい ものを 一つ えらんで ください。"),
     "youhou":   ("用法", "kotoba", "つぎの ことばの つかいかたとして いちばん いい ものを 一つ えらんで ください。"),
     "keishiki": ("文法形式の判断", "bunpou", "つぎの 文の（　　　）に 入れるのに いちばん いい ものを 一つ えらんで ください。"),
     "kumitate": ("文の組み立て", "bunpou", "つぎの 文の ★ に 入る いちばん いい ものを 一つ えらんで ください。"),
+    "bunshou":  ("文章の文法", "bunpou", "つぎの 文章を 読んで、（　）に 入れるのに いちばん いい ものを 一つ えらんで ください。"),
     "dokkai":   ("読解", "dokkai", "つぎの 文章を 読んで、しつもんに こたえて ください。答えは 1・2・3・4から いちばん いい ものを 一つ えらんで ください。"),
     "choukai":  ("聴解", "choukai", "▶ を押して音声を聞いてから、いちばんいいものを一つえらんでください。音声はテキスト読み上げ（TTS）または録音です。"),
 }
 JUDUL = {"yomi": "Cara baca kanji", "hyouki": "Penulisan kanji", "bunmyaku": "Kosakata sesuai konteks",
-         "imi": "Makna kosakata", "youhou": "Penggunaan kosakata", "keishiki": "Bentuk tata bahasa",
-         "kumitate": "Menyusun kalimat (★)", "dokkai": "Pemahaman bacaan", "choukai": "Pemahaman mendengar"}
+         "imi": "Makna kosakata", "iikae": "Sinonim / parafrasa", "settou": "Imbuhan (awalan/akhiran)", "youhou": "Penggunaan kosakata",
+         "keishiki": "Bentuk tata bahasa", "kumitate": "Menyusun kalimat (★)", "bunshou": "Tata bahasa dalam teks",
+         "dokkai": "Pemahaman bacaan", "choukai": "Pemahaman mendengar"}
 
+# Full Exam baru (mengikuti pola Mondai JLPT247): tepat 60 soal Moji-Goi + Bunpou + Dokkai,
+# lalu Choukai di-CLONE penuh dari paket choukai level itu (bagian tersendiri).
+#   mojigoi/bunpou: daftar (tipe, jumlah) · dokkai: jumlah soal · (total mojigoi+bunpou+dokkai = 60)
 FULL_PLAN = {
-    "n5": [("yomi", 7), ("hyouki", 5), ("bunmyaku", 6), ("imi", 3), ("keishiki", 9), ("kumitate", 4)],
-    "n4": [("yomi", 7), ("hyouki", 5), ("bunmyaku", 8), ("imi", 4), ("youhou", 4), ("keishiki", 10), ("kumitate", 4)],
-    "n3": [("yomi", 7), ("hyouki", 5), ("bunmyaku", 8), ("imi", 4), ("youhou", 4), ("keishiki", 10), ("kumitate", 4)],
-    "n2": [("yomi", 5), ("hyouki", 5), ("bunmyaku", 6), ("imi", 4), ("youhou", 5), ("keishiki", 10), ("kumitate", 4)],
-    "n1": [("yomi", 6), ("bunmyaku", 7), ("imi", 5), ("youhou", 5), ("keishiki", 10), ("kumitate", 5)],
+    "n5": {"mojigoi": [("yomi", 8), ("hyouki", 7), ("bunmyaku", 8), ("iikae", 6)],
+           "bunpou": [("keishiki", 16), ("kumitate", 5), ("bunshou", 3)], "dokkai": 7},
+    "n4": {"mojigoi": [("yomi", 7), ("hyouki", 6), ("bunmyaku", 6), ("iikae", 5), ("youhou", 5)],
+           "bunpou": [("keishiki", 14), ("kumitate", 5), ("bunshou", 3)], "dokkai": 9},
+    "n3": {"mojigoi": [("yomi", 7), ("hyouki", 6), ("bunmyaku", 6), ("iikae", 5), ("youhou", 5)],
+           "bunpou": [("keishiki", 12), ("kumitate", 4), ("bunshou", 2)], "dokkai": 13},
+    "n2": {"mojigoi": [("yomi", 5), ("hyouki", 5), ("settou", 4), ("bunmyaku", 4), ("iikae", 4), ("youhou", 3)],
+           "bunpou": [("keishiki", 12), ("kumitate", 4), ("bunshou", 2)], "dokkai": 17},
+    "n1": {"mojigoi": [("yomi", 5), ("hyouki", 4), ("settou", 4), ("bunmyaku", 4), ("iikae", 4), ("youhou", 4)],
+           "bunpou": [("keishiki", 12), ("kumitate", 4), ("bunshou", 2)], "dokkai": 17},
 }
-PRACTICE = {"kanji": ["yomi", "hyouki"], "kotoba": ["bunmyaku", "imi", "youhou"], "bunpou": ["keishiki", "kumitate"]}
+DOKKAI_TARGET = {"n5": 7, "n4": 9, "n3": 13, "n2": 17, "n1": 17}
+PRACTICE = {"kanji": ["yomi", "hyouki"], "kotoba": ["bunmyaku", "imi", "iikae", "youhou"], "bunpou": ["keishiki", "kumitate"]}
 CAT_NAME = {"kanji": "Kanji", "kotoba": "Kotoba", "bunpou": "Bunpou"}
 
 def key_of(q):
@@ -56,7 +69,7 @@ def build_pools(bank, lv, rnd):
     TK = Targets(bank, lv, "kanji")
     TV = Targets(bank, lv, "kotoba")
     G = GramPool(bank, lv)
-    pools = {k: [] for k in ["yomi", "hyouki", "bunmyaku", "imi", "youhou", "keishiki", "kumitate"]}
+    pools = {k: [] for k in ["yomi", "hyouki", "bunmyaku", "imi", "iikae", "youhou", "keishiki", "kumitate"]}
     def run(name, items, fn):
         items = items[:]; rnd.shuffle(items)
         seen = set()
@@ -68,6 +81,7 @@ def build_pools(bank, lv, rnd):
     run("hyouki", TK.items, lambda t: make_hyouki(bank, t, lv, rnd, ""))
     run("bunmyaku", TV.items, lambda t: make_bunmyaku(bank, t, lv, rnd, "", TV.items))
     run("imi", TV.items, lambda t: make_imi(bank, t, lv, rnd, "", TV.items))
+    run("iikae", TV.items, lambda t: make_iikae(bank, t, lv, rnd, "", TV.items))
     run("youhou", TV.items, lambda t: make_youhou(bank, t, lv, rnd, "", TV.items))
     seen = set()
     for it in G.items:
@@ -137,7 +151,19 @@ def number(pkg):
 
 # ------------------------------------------------------------------ dokkai & choukai
 def dokkai_items(rnd, lv, exam_no, pkg_id):
-    passages = JC.dokkai_set(rnd, lv, exam_no)
+    target = DOKKAI_TARGET[lv]
+    passages, seen_jp, seen_q, cnt, k = [], set(), set(), 0, 0
+    # kumpulkan bacaan sampai target soal UNIK (dedup teks bacaan & teks pertanyaan)
+    while cnt < target and k < 60:
+        for p in JC.dokkai_set(rnd, lv, exam_no + k):
+            if cnt >= target: break
+            if p["jp"] in seen_jp: continue
+            qs = [q for q in p["qs"] if q["q"] not in seen_q]
+            if not qs: continue
+            qs = qs[: target - cnt]
+            for q in qs: seen_q.add(q["q"])
+            seen_jp.add(p["jp"]); passages.append({**p, "qs": qs}); cnt += len(qs)
+        k += 1
     items, store = [], {}
     for pi, p in enumerate(passages):
         pid = f"p{pi+1}"
@@ -277,6 +303,45 @@ def choukai_items(rnd, lv, exam_no, real):
         items.append(ck_from_sokuji((x[0], opts, opts.index(correct), x[3], x[4]), len(items) + 1))
     return items
 
+def choukai_packages(lv):
+    """Semua paket Choukai level ini, berurutan: jlpt-{lv}.json, lalu paket/{lv}-p2..p10."""
+    pkgs = []
+    try:
+        pkgs.append(load(f"choukai/jlpt-{lv}.json"))
+    except Exception:
+        pass
+    for n in range(2, 11):
+        try:
+            pkgs.append(load(f"choukai/paket/{lv}-p{n}.json"))
+        except Exception:
+            pass
+    return pkgs
+
+CK_JUDUL = {"課題理解": "Pemahaman tugas", "ポイント理解": "Pemahaman poin", "概要理解": "Pemahaman garis besar",
+            "発話表現": "Ungkapan lisan", "即時応答": "Respons langsung", "統合理解": "Pemahaman terpadu"}
+
+def choukai_clone_sections(lv, exam_no, mondai_start):
+    """CLONE penuh satu paket Choukai level ini (bagian tersendiri di Full Test).
+    Satu Mondai per section sumber; semua soal ikut. ID baru diberikan oleh number()."""
+    pkgs = choukai_packages(lv)
+    if not pkgs:
+        return []
+    pk = pkgs[exam_no % len(pkgs)]
+    secs, m = [], mondai_start
+    for s in pk.get("sections", []):
+        items = []
+        for it in s.get("items", []):
+            for qi, qq in enumerate(it.get("qs", [])):
+                items.append(ck_from_real({"sec": s, "it": it, "qi": qi, "q": qq}))
+        if not items:
+            continue
+        m += 1
+        jp = s.get("jp", "聴解")
+        secs.append({"mondai": m, "tipe": "choukai", "cat": "choukai", "tipe_jp": jp,
+                     "judul": CK_JUDUL.get(jp, "Pemahaman mendengar"), "instr": INSTR["choukai"][2],
+                     "items": items, "choukai": True, "src": pk.get("title", "")})
+    return secs
+
 # ------------------------------------------------------------------ main
 def main():
     bank = Bank()
@@ -291,18 +356,43 @@ def main():
         real = real_choukai(lv)
         lvl_index = {"full": [], "kanji": [], "kotoba": [], "bunpou": []}
         # ---------- FULL EXAM
+        POOL = {"yomi", "hyouki", "bunmyaku", "imi", "iikae", "youhou", "keishiki", "kumitate"}
+        masters = {k: pools[k][:] for k in pools}  # cadangan: isi ulang bila pool kecil habis
+        def build_sec(tipe, n, used, m):
+            if tipe in POOL:
+                its = take(pools[tipe], n, used)
+                if len(its) < n:  # pool habis (mis. kumitate kecil) → ambil dari master, unik per-paket
+                    for q in masters.get(tipe, []):
+                        if len(its) >= n: break
+                        if key_of(q) not in used:
+                            used.add(key_of(q)); its.append(q)
+            elif tipe == "bunshou":
+                its = JC.bunshou_items(rnd, lv, n)
+            elif tipe == "settou":
+                its = JC.settou_items(rnd, lv, n)
+            else:
+                its = []
+            return section(tipe, m, its) if its else None
+        plan = FULL_PLAN[lv]
         for e in range(10):
             pid = f"{lv}-full-{e+1:02d}"
             used = set()
             secs, m = [], 0
-            for tipe, n in FULL_PLAN[lv]:
-                its = take(pools[tipe], n, used)
-                if its:
-                    m += 1; secs.append(section(tipe, m, its))
+            for tipe, n in plan["mojigoi"] + plan["bunpou"]:
+                s = build_sec(tipe, n, used, m + 1)
+                if s: m += 1; secs.append(s)
             d_items, passages = dokkai_items(rnd, lv, e, pid)
             m += 1; secs.append(section("dokkai", m, d_items))
-            c_items = choukai_items(rnd, lv, e, real)
-            m += 1; secs.append(section("choukai", m, c_items))
+            # jamin tepat 60 soal utama: bila dokkai kurang dari target (variasi bacaan terbatas),
+            # tambal ke 60 dari pool 文脈規定 (unik dalam paket)
+            nmain = sum(len(s["items"]) for s in secs if s["cat"] != "choukai")
+            if nmain < 60:
+                extra = build_sec("bunmyaku", 60 - nmain, used, 0)
+                tgt = next((s for s in secs if s["tipe"] == "bunmyaku"), None)
+                if extra and tgt:
+                    tgt["items"].extend(extra["items"])
+            for s in choukai_clone_sections(lv, e, m):
+                m = s["mondai"]; secs.append(s)
             pkg = number({"id": pid, "lv": lv, "jenis": "full", "judul": f"JLPT {lv.upper()} Full Exam {e+1:02d}",
                           "durasi": 70, "sections": secs, "passages": passages})
             json.dump(pkg, open(os.path.join(OUT, lv, f"full-{e+1:02d}.json"), "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))

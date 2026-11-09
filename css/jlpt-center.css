@@ -195,3 +195,17 @@
 .jx-tbl th, .jx-tbl td{padding:10px 8px; border-bottom:1px solid var(--border); text-align:left; white-space:nowrap;}
 .jx-tbl tbody tr{cursor:pointer;} .jx-tbl tbody tr:hover{background:rgba(255,255,255,.04);}
 .jx-home{border-color:var(--gold) !important;}
+
+/* ---- Kartu skor JLPT (lulus/tidak, per-seksi, CEFR) ---- */
+.jx-jlpt-card{border-radius:16px; padding:16px 18px; margin:6px 0 16px; border:2px solid var(--border); background:var(--navy-4);}
+.jx-jlpt-card.lulus{border-color:var(--green); background:linear-gradient(180deg,rgba(46,204,113,.10),var(--navy-4));}
+.jx-jlpt-card.gagal{border-color:var(--red); background:linear-gradient(180deg,rgba(231,76,60,.10),var(--navy-4));}
+.jx-jlpt-top{display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 18px; margin-bottom:12px;}
+.jx-jlpt-top .verdict{font-weight:800; font-size:20px; letter-spacing:.3px;}
+.jx-jlpt-card.lulus .verdict{color:var(--green);} .jx-jlpt-card.gagal .verdict{color:var(--red);}
+.jx-jlpt-top .tot{font-size:16px; color:var(--gray);} .jx-jlpt-top .tot b{font-size:34px; color:var(--ink,#fff);}
+.jx-jlpt-sec{width:100%; border-collapse:collapse; font-size:14px; margin:4px 0 8px;}
+.jx-jlpt-sec th{font-size:12px; color:var(--gray); text-align:left; padding:4px 8px; border-bottom:1px solid var(--border);}
+.jx-jlpt-sec td{padding:8px; border-bottom:1px solid var(--border); vertical-align:top;}
+.jx-jlpt-sec td b{font-size:16px;} .jx-jlpt-sec .g{color:var(--green); font-weight:700;} .jx-jlpt-sec .r{color:var(--red); font-weight:700;}
+.jx-jlpt-card .sm{font-size:11.5px; line-height:1.5; margin-top:4px;}
