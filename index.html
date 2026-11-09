@@ -1347,7 +1347,7 @@ html{overflow-x:hidden;}
 
 .hidden{display:none !important;}
 </style>
-<link rel="stylesheet" href="./css/shirose-extra.css?v=20261109a"/>
+<link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 </head>
 <body>
 
@@ -2036,7 +2036,29 @@ const LEVEL_SCOPED_ROUTES = new Set([
 window._routeStack = window._routeStack || [];
 window._skipStackPush = false;
 
+// Detail kosakata/kanji/bunpou dibuka di atas daftar (tanpa ganti hash).
+// Tombol kembali/✕/back HP menutup detail → kembali ke daftar & posisi item tadi.
+window._materiDetail = null;
+window.backFromDetail = async (fromPop) => {
+  const d = window._materiDetail; if (!d) return false;
+  if (!fromPop && d.pushed){ history.back(); return true; }   // popstate yang menutup
+  window._materiDetail = null;
+  route(d.back);
+  for (let i = 0; i < 40; i++){
+    await new Promise(r => setTimeout(r, 60));
+    const el = document.querySelector(`.materi-item[onclick="showMateri('${d.tipe}', ${d.idx})"]`);
+    if (el){ el.scrollIntoView({ block: "center" }); el.classList.add("just-viewed"); setTimeout(() => el.classList.remove("just-viewed"), 1500); return true; }
+  }
+  window.scrollTo(0, d.scroll || 0);
+  return true;
+};
+window.addEventListener("popstate", () => {
+  const d = window._materiDetail;
+  if (d && d.pushed && (location.hash.slice(1) || "") === d.back){ d.pushed = false; window.backFromDetail(true); }
+});
+
 window.goBack = () => {
+  if (window._materiDetail && (location.hash.slice(1) || "") === window._materiDetail.back){ window.backFromDetail(); return; }
   const cur = (location.hash.slice(1) || "home").split("/")[0];
   if (cur === "home" && state.user){ route("pilih-level"); return; }
   if (window._routeStack.length >= 2){
@@ -2080,6 +2102,7 @@ function _renderRoute(name, rest){
 }
 
 window.route = (path) => {
+  window._materiDetail = null;
   location.hash = path;
   const [name, ...rest] = path.split("/");
 
@@ -2664,12 +2687,16 @@ window.showMateri = async (tipe, idx) => {
       </div>
     `;
   }
+  const prevDetail = window._materiDetail;
+  window._materiDetail = { back: location.hash.slice(1) || tipe, tipe, idx, scroll: prevDetail ? prevDetail.scroll : window.scrollY, pushed: prevDetail ? prevDetail.pushed : false };
+  if (!window._materiDetail.pushed){ try { history.pushState({ materiDetail: true }, "", location.href); window._materiDetail.pushed = true; } catch(e){} }
   app.innerHTML = `
     <div class="panel">
-      <button class="panel-close" onclick="route('${tipe}')">✕</button>
+      <button class="panel-close" onclick="backFromDetail()" title="Kembali ke daftar">✕</button>
       ${body}
     </div>
   `;
+  window.scrollTo(0, 0);
 };
 /* ========== CHARACTER JOURNEY / COMPANION / JURUS (Part 4 + 24 + 25) ========== */
 // Per-JLPT character descriptor. Signature weapons come from the master prompt:
