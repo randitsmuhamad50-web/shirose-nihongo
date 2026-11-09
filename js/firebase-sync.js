@@ -524,6 +524,25 @@ export async function getHasilJLPT(uid, id) {
   return s.exists() ? { id: s.id, ...s.data() } : null;
 }
 
+/* ========== PROGRES KANA & LATIHAN MENULIS ==========
+ * Disimpan di siswa/{uid}/kana_progres/data — sub-koleksi milik siswa, sudah
+ * tercakup Firestore Rules yang ada (pemilik + guru boleh baca/tulis, siswa
+ * lain TIDAK bisa). Tidak perlu mengubah rules.
+ * Isi: { v, u, hira{}, kata{}, kanji{n5..n1{}}, flash[], tes[] }  (lihat js/kana-center.js)
+ */
+export async function loadKanaProgres(uidOverride = null) {
+  const id = uidOverride || currentUser?.uid;
+  if (!id) return null;
+  if (uidOverride && uidOverride !== currentUser?.uid && !userIsGuru()) throw new Error("Tidak diizinkan");
+  const snap = await getDoc(doc(db, "siswa", id, "kana_progres", "data"));
+  return snap.exists() ? snap.data() : null;
+}
+export async function saveKanaProgres(data) {
+  if (!currentUser) return;
+  await setDoc(doc(db, "siswa", currentUser.uid, "kana_progres", "data"),
+    { ...data, uid: currentUser.uid, updated: serverTimestamp() });
+}
+
 /* ========== ACTIVITY CALENDAR (Part 12) ========== */
 // Each activity bumps a date-bucket document. Date is YYYYMMDD in Asia/Bangkok
 // so streaks line up with the user's local day. Activity types:

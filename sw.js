@@ -1,10 +1,12 @@
 /* Service worker: network-first, cache fallback */
+// v25 — Hiragana & Katakana (kana-center, writer, data kana + goresan), cache goresan KanjiVG.
 // v23 — JLPT Center (Full Exam + Practice N5–N1, timer, pembahasan, riwayat).
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v24";
+const CACHE = "shirose-nihongo-v25";
 const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
+const KVG = "shirose-kvg-v1";       // goresan KanjiVG yang pernah dibuka (offline; tidak dihapus saat update)
 const CORE = [
   "./",
   "./index.html",
@@ -23,19 +25,32 @@ const CORE = [
   "./js/voice.js",
   "./js/jlpt-center.js",
   "./css/jlpt-center.css",
+  "./js/writer.js",
+  "./js/kana-center.js",
+  "./css/kana-center.css",
+  "./data/kana.json",
+  "./data/kana-strokes.json",
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).catch(()=>{}));
   self.skipWaiting();
 });
 self.addEventListener("activate", (e) => {
-  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== AUDIO).map(k => caches.delete(k)))));
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE && k !== AUDIO && k !== KVG).map(k => caches.delete(k)))));
   self.clients.claim();
 });
 self.addEventListener("fetch", (e) => {
   const u = new URL(e.request.url);
   // Don't cache firebase or external APIs
   if (u.hostname.includes("firebase") || u.hostname.includes("googleapis") || u.hostname.includes("gstatic")) return;
+  // Goresan KanjiVG (CDN): cache-first — file SVG ini tidak pernah berubah untuk commit yang sama.
+  if (/KanjiVG\/kanjivg/i.test(u.pathname) && /\.svg$/i.test(u.pathname)) {
+    e.respondWith(caches.open(KVG).then(c => c.match(e.request).then(hit => hit || fetch(e.request).then(r => {
+      if (r.ok) c.put(e.request, r.clone()).catch(()=>{});
+      return r;
+    }))));
+    return;
+  }
   // MP3 voice pack: ambil dari cache offline dulu (file audio tidak pernah berubah isinya)
   if (u.origin === location.origin && /\.mp3$/i.test(u.pathname)) {
     e.respondWith(caches.match(e.request.url, { ignoreMethod: true, ignoreVary: true }).then(hit => {
