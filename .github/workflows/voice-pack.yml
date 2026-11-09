@@ -28,13 +28,12 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: voice-pack
-  cancel-in-progress: false
-
 jobs:
   prepare:
     runs-on: ubuntu-latest
+    outputs:
+      choukai: ${{ steps.plan.outputs.choukai }}
+      materi: ${{ steps.plan.outputs.materi }}
     steps:
       - uses: actions/checkout@v4
       - name: Naskah → JSON soal
@@ -47,17 +46,48 @@ jobs:
             git commit -m "choukai: bangun ulang paket dari naskah"
             git pull --rebase -q origin main && git push origin HEAD:main
           fi
+      - name: Cari audio yang belum ada
+        id: plan
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os, sys, glob
+          sys.path.insert(0, "tools")
+          ch = []
+          for lvl in ["n5", "n4", "n3", "n2", "n1"]:
+              files = [(1, f"choukai/jlpt-{lvl}.json")] + [
+                  (int(f.rsplit("-p", 1)[1][:-5]), f) for f in glob.glob(f"choukai/paket/{lvl}-p*.json")]
+              for pk, f in files:
+                  if not os.path.exists(f): continue
+                  d = json.load(open(f, encoding="utf-8"))
+                  need = [a for s in d["sections"] for a in [s.get("instrAudio")] + [i["audio"] for i in s["items"]]
+                          if a and not os.path.exists(a)]
+                  if need: ch.append({"level": lvl, "paket": pk})
+          ma = []
+          if "${{ github.event_name }}" == "push" or "${{ github.event.inputs.materi }}" == "true":
+              import vv_build
+              for lvl in ["n5", "n4", "n3", "n2", "n1"]:
+                  try: jobs = vv_build.materi_jobs(lvl)
+                  except Exception: continue
+                  for cat, (vkey, items) in jobs.items():
+                      ip = f"audio/vv/{lvl}/{cat}.json"
+                      have = json.load(open(ip, encoding="utf-8"))["clips"] if os.path.exists(ip) else {}
+                      if any(k not in have for k in items): ma.append({"level": lvl, "cat": cat})
+          print("choukai=" + json.dumps(ch))
+          print("materi=" + json.dumps(ma))
+          PY
+          cat "$GITHUB_OUTPUT"
 
   choukai:
     needs: prepare
+    if: needs.prepare.outputs.choukai != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 180
+    concurrency: { group: "vpc-${{ matrix.level }}-${{ matrix.paket }}", cancel-in-progress: false }
     strategy:
       fail-fast: false
       max-parallel: 20
       matrix:
-        level: [n5, n4, n3, n2, n1]
-        paket: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+        include: ${{ fromJSON(needs.prepare.outputs.choukai) }}
     services:
       voicevox:
         image: voicevox/voicevox_engine:cpu-latest
@@ -65,51 +95,54 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }
-      - name: Perlu dibuat?
-        id: chk
-        run: |
-          python3 - <<'PY' >> "$GITHUB_OUTPUT"
-          import json, os
-          lvl, pk = "${{ matrix.level }}", ${{ matrix.paket }}
-          f = f"choukai/jlpt-{lvl}.json" if pk == 1 else f"choukai/paket/{lvl}-p{pk}.json"
-          miss = 0
-          if os.path.exists(f):
-              d = json.load(open(f, encoding="utf-8"))
-              for s in d["sections"]:
-                  for a in [s.get("instrAudio")] + [i["audio"] for i in s["items"]]:
-                      if a and not os.path.exists(a): miss += 1
-          print(f"miss={miss}")
-          PY
       - name: Pasang ffmpeg
-        if: steps.chk.outputs.miss != '0'
         run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
       - name: Tunggu VOICEVOX
-        if: steps.chk.outputs.miss != '0'
         run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
       - name: Buat audio Choukai
-        if: steps.chk.outputs.miss != '0'
         run: |
           python3 tools/vv_build.py choukai ${{ matrix.level }} --paket ${{ matrix.paket }}
           mkdir -p _out && git ls-files --others --exclude-standard audio | while read f; do mkdir -p "_out/$(dirname "$f")"; cp "$f" "_out/$f"; done
       - uses: actions/upload-artifact@v4
-        if: steps.chk.outputs.miss != '0'
         with:
-          name: vp-choukai-${{ matrix.level }}-p${{ matrix.paket }}
+          name: vpc-${{ matrix.level }}-p${{ matrix.paket }}
           path: _out/
           if-no-files-found: ignore
           retention-days: 3
 
+  commit-choukai:
+    needs: choukai
+    if: always() && needs.choukai.result != 'skipped'
+    concurrency: { group: vp-commit, cancel-in-progress: false }
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/download-artifact@v4
+        with: { path: _vp, pattern: vpc-* }
+      - name: Gabung & commit
+        run: |
+          shopt -s nullglob
+          for d in _vp/vpc-*; do cp -rf "$d"/. ./; done
+          rm -rf _vp
+          git config user.name "shirose-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add audio
+          if git diff --cached --quiet; then echo "Tidak ada audio baru"; exit 0; fi
+          git commit -m "audio: Choukai VOICEVOX otomatis"
+          for i in 1 2 3 4 5; do git pull --rebase -X theirs -q origin main && git push origin HEAD:main && exit 0; sleep 10; done; exit 1
+
   materi:
     needs: prepare
-    if: github.event_name == 'push' || github.event.inputs.materi == 'true'
+    if: needs.prepare.outputs.materi != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 350
+    concurrency: { group: "vpm-${{ matrix.level }}-${{ matrix.cat }}", cancel-in-progress: false }
     strategy:
       fail-fast: false
       max-parallel: 20
       matrix:
-        level: [n5, n4, n3, n2, n1]
-        cat: [kosakata, kanji, kanji-contoh, kosakata-contoh, bunpou-contoh]
+        include: ${{ fromJSON(needs.prepare.outputs.materi) }}
     services:
       voicevox:
         image: voicevox/voicevox_engine:cpu-latest
@@ -127,30 +160,29 @@ jobs:
           mkdir -p _out && git ls-files --others --modified --exclude-standard audio | while read f; do mkdir -p "_out/$(dirname "$f")"; cp "$f" "_out/$f"; done
       - uses: actions/upload-artifact@v4
         with:
-          name: vp-materi-${{ matrix.level }}-${{ matrix.cat }}
+          name: vpm-${{ matrix.level }}-${{ matrix.cat }}
           path: _out/
           if-no-files-found: ignore
           retention-days: 3
 
-  commit:
-    needs: [choukai, materi]
-    if: always()
+  commit-materi:
+    needs: materi
+    if: always() && needs.materi.result != 'skipped'
+    concurrency: { group: vp-commit-materi, cancel-in-progress: false }
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with: { ref: main }
       - uses: actions/download-artifact@v4
-        with:
-          path: _vp
-          pattern: vp-*
+        with: { path: _vp, pattern: vpm-* }
       - name: Gabung & commit
         run: |
           shopt -s nullglob
-          for d in _vp/vp-*; do cp -rf "$d"/. ./; done
+          for d in _vp/vpm-*; do cp -rf "$d"/. ./; done
           rm -rf _vp
           git config user.name "shirose-bot"
           git config user.email "actions@users.noreply.github.com"
           git add audio
           if git diff --cached --quiet; then echo "Tidak ada audio baru"; exit 0; fi
-          git commit -m "audio: voice pack VOICEVOX otomatis"
+          git commit -m "audio: materi VOICEVOX otomatis"
           for i in 1 2 3 4 5; do git pull --rebase -X theirs -q origin main && git push origin HEAD:main && exit 0; sleep 10; done; exit 1
