@@ -1,8 +1,11 @@
 /* =====================================================================
  * Choukai JLPT (N5–N1) + Pengaturan Tampilan (kolom, ukuran huruf, menu)
  * ---------------------------------------------------------------------
- * Data soal : ./choukai/jlpt-n{5..1}.json  (script, pilihan, kunci, pembahasan)
- * Audio     : ./audio/choukai/n{X}/m{mondai}_{no}.mp3  (voice pack)
+ * Data soal : ./choukai/jlpt-n{5..1}.json  = Paket 1
+ *             ./choukai/paket/n{X}-p{k}.json = Paket 2.. (dibuat tools/choukai_build.py)
+ *             ./choukai/paket/index.json    = daftar paket per level
+ * Audio     : ./audio/choukai/n{X}/m{mondai}_{no}.mp3  (paket 1)
+ *             ./audio/choukai/n{X}/p{k}/m{mondai}_{no}.mp3  (paket k)
  *             Kalau file MP3 belum ada → otomatis pakai TTS browser (ja-JP).
  * Naskah rekaman lengkap: ./audio/choukai/naskah-rekaman.csv
  * ===================================================================== */
@@ -48,15 +51,27 @@ export function displayBar(scope = "materi"){
 
 /* ================= DATA CHOUKAI ================= */
 const _cache = {};
-async function loadChoukai(lvl){
-  if (_cache[lvl]) return _cache[lvl];
+async function loadChoukai(lvl, pk = 1){
+  const key = `${lvl}-${pk}`;
+  if (key in _cache) return _cache[key];
   try {
-    const r = await fetch(`./choukai/jlpt-${lvl}.json`);
+    const r = await fetch(pk === 1 ? `./choukai/jlpt-${lvl}.json` : `./choukai/paket/${lvl}-p${pk}.json`);
     if (!r.ok) throw new Error(r.status);
-    _cache[lvl] = await r.json();
-  } catch(e){ _cache[lvl] = null; }
-  return _cache[lvl];
+    _cache[key] = await r.json();
+  } catch(e){ _cache[key] = null; }
+  return _cache[key];
 }
+let _pkIndex = null;
+async function packList(lvl){
+  if (!_pkIndex){
+    try { const r = await fetch("./choukai/paket/index.json", { cache: "no-cache" }); _pkIndex = r.ok ? await r.json() : {}; }
+    catch(e){ _pkIndex = {}; }
+  }
+  return [1, ...((_pkIndex[lvl] || []).filter(n => n > 1))];
+}
+/** Paket dari id soal: "n5-m1-01" → 1, "n5-p3-m1-01" → 3 */
+const pkOf = (id) => { const m = /^n\d-p(\d+)-/.exec(id); return m ? +m[1] : 1; };
+const pfx = (lvl, pk) => pk === 1 ? lvl : `${lvl}-p${pk}`;
 const ANS_KEY = () => `shirose-choukai:${ST().user?.uid || "guest"}`;
 const getAns = () => LS.get(ANS_KEY(), {});
 const setAns = (a) => LS.set(ANS_KEY(), a);
@@ -86,10 +101,12 @@ window.addEventListener("sv:stop", (e) => { if (_playingId && e.detail?.next !==
 const DEF_VOICES = { N: "aoyama", M: "kurita", F: "mochiko", M2: "sourin", F2: "no7" };
 async function playItem(lvl, id){
   if (_playingId === id){ SV.stop(); return; }
-  const data = await loadChoukai(lvl);
+  const pk = pkOf(id);
+  const data = await loadChoukai(lvl, pk);
+  if (!data) return;
   let it = null;
   for (const s of data.sections){
-    if (`${lvl}-m${s.mondai}-intro` === id){ it = { audio: s.instrAudio, script: [{ s: "N", t: s.instr }], voices: { N: s.instrVoice || "aoyama" } }; break; }
+    if (`${pfx(lvl, pk)}-m${s.mondai}-intro` === id){ it = { audio: s.instrAudio, script: [{ s: "N", t: s.instr }], voices: { N: s.instrVoice || "aoyama" } }; break; }
     const f = s.items.find(x => x.id === id); if (f){ it = f; break; }
   }
   if (!it) return;
@@ -146,7 +163,8 @@ window.ckAnswer = async (lvl, id, qi, oi) => {
   const k = `${id}#${qi}`;
   if (ans[k] != null) return;
   ans[k] = oi; setAns(ans);
-  const data = await loadChoukai(lvl);
+  const pk = pkOf(id);
+  const data = await loadChoukai(lvl, pk);
   const sec = data.sections.find(s => s.items.some(x => x.id === id));
   const it = sec.items.find(x => x.id === id);
   const el = document.getElementById(`ck-card-${id}`);
@@ -158,20 +176,20 @@ window.ckAnswer = async (lvl, id, qi, oi) => {
   if (pr.done === pr.total){
     const doneKey = `${ANS_KEY()}:bonus`;
     const got = LS.get(doneKey, {});
-    const sk = `${lvl}-m${sec.mondai}`;
+    const sk = `${pfx(lvl, pk)}-m${sec.mondai}`;
     if (!got[sk] && typeof window.awardXP === "function"){
       got[sk] = 1; LS.set(doneKey, got);
       const xp = 5 + pr.ok * 2;
       try { await window.awardXP(xp, Math.ceil(pr.ok / 2)); } catch(e){}
-      window.toast && window.toast(`🎧 問題${sec.mondai} selesai: ${pr.ok}/${pr.total} · +${xp} XP`);
+      window.toast && window.toast(`🎧 ${pk > 1 ? `Paket ${pk} · ` : ""}問題${sec.mondai} selesai: ${pr.ok}/${pr.total} · +${xp} XP`);
     }
   }
 };
-window.ckReset = (lvl, mn) => {
+window.ckReset = (lvl, pk, mn) => {
   const ans = getAns();
-  Object.keys(ans).forEach(k => { if (k.startsWith(`${lvl}-m${mn}-`)) delete ans[k]; });
+  Object.keys(ans).forEach(k => { if (k.startsWith(`${pfx(lvl, pk)}-m${mn}-`)) delete ans[k]; });
   setAns(ans);
-  window.route && window.route(`choukai/${mn}`);
+  window.route && window.route(`choukai/p${pk}/${mn}`);
 };
 function scoreHtml(pr){
   const pct = pr.done ? Math.round(pr.ok / pr.done * 100) : 0;
@@ -191,32 +209,42 @@ window.addEventListener("hashchange", () => { if ((location.hash || "") === "#ch
 setTimeout(() => { if ((location.hash || "") === "#choukai") fillVoiceGallery(); }, 1500);
 
 export async function renderChoukaiJLPT(params){
-  if (!(params || [])[0]) setTimeout(fillVoiceGallery, 300);
+  params = params || [];
   stopAll();
   const st = ST(), lvl = (st.level || "n5").toLowerCase();
-  const data = await loadChoukai(lvl);
-  if (!data) return `<div class="panel"><h2>🎧 Choukai</h2><div class="empty"><div class="emoji">📭</div>Bank soal ${lvl.toUpperCase()} belum tersedia.</div></div>`;
   const ans = getAns(), p = getPrefs();
-  const mn = parseInt((params || [])[0]);
-  const sec = data.sections.find(s => s.mondai === mn);
+  // Rute: choukai → pilih paket · choukai/p3 → daftar 問題 · choukai/p3/2 → soal
+  //       choukai/2 (lama) → paket 1 問題2
+  let pk = 0, mn = NaN;
+  if (/^p\d+$/.test(params[0] || "")){ pk = +params[0].slice(1); mn = parseInt(params[1]); }
+  else if (params[0]){ pk = 1; mn = parseInt(params[0]); }
 
-  if (!sec){
-    const cards = data.sections.map(s => {
-      const pr = secProgress(s, ans), pct = Math.round(pr.done / pr.total * 100);
-      return `<div class="ck-sec" onclick="route('choukai/${s.mondai}')">
-        <div class="ck-sec-top"><span class="ck-mondai">問題${s.mondai}</span><span class="ck-pct">${pr.ok}/${pr.total}</span></div>
-        <div class="ck-sec-jp">${esc(s.jp)}</div>
-        <div class="ck-sec-ro">${esc(s.romaji)} · ${s.items.length} soal</div>
-        <div class="ck-sec-desc">${esc(s.desc)}</div>
+  if (!pk){
+    setTimeout(fillVoiceGallery, 300);
+    const list = await packList(lvl);
+    const datas = await Promise.all(list.map(k => loadChoukai(lvl, k)));
+    const ok = list.map((k, i) => [k, datas[i]]).filter(([, d]) => d);
+    if (!ok.length) return `<div class="panel"><h2>🎧 Choukai</h2><div class="empty"><div class="emoji">📭</div>Bank soal ${lvl.toUpperCase()} belum tersedia.</div></div>`;
+    const base = ok[0][1];
+    const cards = ok.map(([k, d]) => {
+      let total = 0, done = 0, good = 0;
+      d.sections.forEach(s => { const r = secProgress(s, ans); total += r.total; done += r.done; good += r.ok; });
+      const pct = Math.round(done / total * 100);
+      const state = done === 0 ? "Belum dikerjakan" : done === total ? `Selesai · ${Math.round(good / total * 100)}%` : `${done}/${total} dijawab`;
+      return `<div class="ck-sec ${done === total ? "ck-done" : ""}" onclick="route('choukai/p${k}')">
+        <div class="ck-sec-top"><span class="ck-mondai">Paket ${k}</span><span class="ck-pct">${good}/${total}</span></div>
+        <div class="ck-sec-jp">第${k}回 模擬試験</div>
+        <div class="ck-sec-ro">${d.sections.length} tipe soal · ${total} soal</div>
+        <div class="ck-sec-desc">${state}</div>
         <div class="ck-bar"><div style="width:${pct}%"></div></div>
       </div>`;
     }).join("");
-    const total = data.sections.reduce((a, s) => a + s.items.length, 0);
+    const types = base.sections.map(s => `問題${s.mondai} ${esc(s.jp)}`).join(" · ");
     return `
       <div class="panel ck-wrap">
-        <h2>🎧 聴解 Choukai · ${esc(data.title)}</h2>
-        <p class="ck-intro">${esc(data.karakter)}</p>
-        <p class="ck-intro">📦 ${data.sections.length} tipe soal · ${total} soal · audio dari voice pack, otomatis TTS jika file belum ada.</p>
+        <h2>🎧 聴解 Choukai · ${esc(base.title)}</h2>
+        <p class="ck-intro">${esc(base.karakter)}</p>
+        <p class="ck-intro">📦 ${ok.length} paket soal · tiap paket: ${types}</p>
         ${displayBar("choukai")}
         <div class="ck-sec-grid">${cards}</div>
       </div>
@@ -228,28 +256,69 @@ export async function renderChoukaiJLPT(params){
       </div>`;
   }
 
+  const data = await loadChoukai(lvl, pk);
+  if (!data) return `<div class="panel"><h2>🎧 Choukai</h2><div class="empty"><div class="emoji">📭</div>Paket ${pk} ${lvl.toUpperCase()} belum tersedia.</div>
+    <button class="btn ghost sm" onclick="route('choukai')">← Daftar paket</button></div>`;
+  const sec = data.sections.find(s => s.mondai === mn);
+  const P = `p${pk}`;
+
+  if (!sec){
+    const cards = data.sections.map(s => {
+      const pr = secProgress(s, ans), pct = Math.round(pr.done / pr.total * 100);
+      return `<div class="ck-sec" onclick="route('choukai/${P}/${s.mondai}')">
+        <div class="ck-sec-top"><span class="ck-mondai">問題${s.mondai}</span><span class="ck-pct">${pr.ok}/${pr.total}</span></div>
+        <div class="ck-sec-jp">${esc(s.jp)}</div>
+        <div class="ck-sec-ro">${esc(s.romaji)} · ${s.items.length} soal</div>
+        <div class="ck-sec-desc">${esc(s.desc)}</div>
+        <div class="ck-bar"><div style="width:${pct}%"></div></div>
+      </div>`;
+    }).join("");
+    const total = data.sections.reduce((a, s) => a + s.items.length, 0);
+    const list = await packList(lvl);
+    const pnav = list.map(k => `<button class="${k === pk ? "on" : ""}" onclick="route('choukai/p${k}')">Paket ${k}</button>`).join("");
+    return `
+      <div class="panel ck-wrap">
+        <div class="haf-topbar">
+          <button class="btn ghost sm" onclick="route('choukai')">← Semua paket</button>
+          <span style="color:var(--gray); font-weight:700;">${lvl.toUpperCase()}</span>
+          <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+        </div>
+        <div class="chunk-tabs ck-nav">${pnav}</div>
+        <h2>🎧 聴解 Choukai · ${esc(data.title)}</h2>
+        <p class="ck-intro">${esc(data.karakter)}</p>
+        <p class="ck-intro">📦 ${data.sections.length} tipe soal · ${total} soal · audio dari voice pack, otomatis TTS jika file belum ada.</p>
+        ${displayBar("choukai")}
+        <div class="ck-sec-grid">${cards}</div>
+      </div>`;
+  }
+
   const pr = secProgress(sec, ans);
-  const nav = data.sections.map(s => `<button class="${s.mondai === mn ? "on" : ""}" onclick="route('choukai/${s.mondai}')">問題${s.mondai}</button>`).join("");
+  const introId = `${pfx(lvl, pk)}-m${sec.mondai}-intro`;
+  const nav = data.sections.map(s => `<button class="${s.mondai === mn ? "on" : ""}" onclick="route('choukai/${P}/${s.mondai}')">問題${s.mondai}</button>`).join("");
+  const nextSec = data.sections.find(s => s.mondai === mn + 1);
+  const list = await packList(lvl);
+  const nextPk = list[list.indexOf(pk) + 1];
   return `
     <div class="panel ck-wrap">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('choukai')">← Choukai</button>
-        <span style="color:var(--gray); font-weight:700;">${lvl.toUpperCase()}</span>
+        <button class="btn ghost sm" onclick="route('choukai/${P}')">← Paket ${pk}</button>
+        <span style="color:var(--gray); font-weight:700;">${lvl.toUpperCase()} · Paket ${pk}</span>
         <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
       </div>
       <div class="chunk-tabs ck-nav">${nav}</div>
       <h2>問題${sec.mondai} · ${esc(sec.jp)} <small>${esc(sec.romaji)}</small></h2>
       <p class="ck-intro">${esc(sec.desc)}</p>
       <div class="ck-instr">
-        <button class="btn ghost sm ck-play" id="ck-play-${lvl}-m${sec.mondai}-intro" onclick="ckPlay('${lvl}','${lvl}-m${sec.mondai}-intro')">▶ Putar</button>
+        <button class="btn ghost sm ck-play" id="ck-play-${introId}" onclick="ckPlay('${lvl}','${introId}')">▶ Putar</button>
         <span>${esc(sec.instr)}</span>
       </div>
       ${displayBar("choukai")}
       <div class="ck-score" id="ck-score">${scoreHtml(pr)}</div>
       <div class="ck-list">${sec.items.map(it => cardHtml(lvl, sec, it, ans, !!p.exam)).join("")}</div>
       <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:16px;">
-        <button class="btn ghost" onclick="ckReset('${lvl}', ${sec.mondai})">🔄 Ulangi 問題${sec.mondai}</button>
-        ${data.sections.find(s => s.mondai === mn + 1) ? `<button class="btn" onclick="route('choukai/${mn + 1}')">Lanjut 問題${mn + 1} →</button>` : ""}
+        <button class="btn ghost" onclick="ckReset('${lvl}', ${pk}, ${sec.mondai})">🔄 Ulangi 問題${sec.mondai}</button>
+        ${nextSec ? `<button class="btn" onclick="route('choukai/${P}/${mn + 1}')">Lanjut 問題${mn + 1} →</button>`
+          : nextPk ? `<button class="btn" onclick="route('choukai/p${nextPk}')">Lanjut Paket ${nextPk} →</button>` : ""}
       </div>
     </div>`;
 }

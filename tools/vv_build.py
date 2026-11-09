@@ -6,7 +6,8 @@ Shirose Nihongo — pembuat voice pack VOICEVOX.
 Butuh: VOICEVOX (app atau engine) berjalan di http://127.0.0.1:50021, Python 3, dan ffmpeg.
 Pemakaian (jalankan dari folder root repo):
     python tools/vv_build.py test                       # 10 contoh suara -> audio/vv/test/
-    python tools/vv_build.py choukai n5 n4 n3 n2 n1     # audio Choukai
+    python tools/vv_build.py choukai n5 n4 n3 n2 n1     # audio Choukai (semua paket)
+    python tools/vv_build.py choukai n5 --paket 2 3     # paket tertentu saja
     python tools/vv_build.py materi n5                  # kosakata, kanji, bunpou N5
     python tools/vv_build.py materi n5 --only kosakata kanji kanji-contoh bunpou-contoh kosakata-contoh
 
@@ -79,8 +80,23 @@ def cmd_test(_):
 
 # ---------------- CHOUKAI ----------------
 def cmd_choukai(levels):
+    """Paket 1 (choukai/jlpt-{lvl}.json) + semua paket di choukai/paket/{lvl}-p*.json.
+    Tambah --paket 2 3 untuk membuat paket tertentu saja (1 = paket asli)."""
+    import glob
+    only = None
+    if "--paket" in levels:
+        i = levels.index("--paket"); only = {int(x) for x in levels[i + 1:]}; levels = levels[:i]
     for lvl in levels:
-        d = json.load(open(os.path.join(ROOT, "choukai", f"jlpt-{lvl}.json"), encoding="utf-8"))
+        files = [(1, os.path.join(ROOT, "choukai", f"jlpt-{lvl}.json"))]
+        for f in sorted(glob.glob(os.path.join(ROOT, "choukai", "paket", f"{lvl}-p*.json")),
+                        key=lambda x: int(x.rsplit("-p", 1)[1].split(".")[0])):
+            files.append((int(f.rsplit("-p", 1)[1].split(".")[0]), f))
+        for pk, f in files:
+            if only and pk not in only: continue
+            print(f"== {lvl.upper()} paket {pk}", flush=True)
+            _choukai_file(lvl, json.load(open(f, encoding="utf-8")))
+
+def _choukai_file(lvl, d):
         sp = LEVEL_SPEED[lvl]
         for sec in d["sections"]:
             out = os.path.join(ROOT, sec["instrAudio"])

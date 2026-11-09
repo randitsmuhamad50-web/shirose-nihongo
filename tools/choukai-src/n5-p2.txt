@@ -1,0 +1,225 @@
+== 1
+S 男の学生と女の学生が話しています。
+Q 男の学生はこのあと何を買いますか。
+V F=nana M=kurita
+F: 山田さん、パーティーの飲み物はもう買いましたか。
+M: ジュースは買いました。でも、お茶はまだです。
+F: お茶は私が家から持ってきますよ。
+M: ありがとう。じゃあ、コップを買いに行きます。
+F: コップは教室にたくさんありますよ。お皿を買ってください。
+M: わかりました。
+O ジュース / お茶 / コップ / お皿
+A 4
+E Jus sudah dibeli, teh dibawa si perempuan, gelas sudah ada di kelas → yang dibeli piring (お皿).
+
+S 先生が学生に話しています。
+Q 学生は明日何時に学校に来ますか。
+V F=no7
+F: 明日はバスで動物園に行きます。バスは九時に出ますから、八時四十五分までに学校に来てください。
+M: 先生、八時半に来てもいいですか。
+F: はい、いいですよ。でも、遅れないでくださいね。
+M: はい。じゃあ、八時半に来ます。
+O 八時 / 八時半 / 八時四十五分 / 九時
+A 2
+E Batas 8:45, tetapi siswa memutuskan datang jam 8:30 (八時半).
+
+S 女の人と男の人が電話で話しています。
+Q 女の人はどこで男の人を待ちますか。
+V F=mochiko M=kurita
+M: もしもし、今、駅に着きました。
+F: あ、私は駅の前の本屋にいます。
+M: 本屋ですか。どこですか。
+F: 銀行の隣です。でも、私が行きますよ。駅の北口で待っていてください。
+M: いいえ、いいです。北口は人が多いですから、私が本屋へ行きます。
+F: そうですか。じゃあ、ここで待っています。
+O 駅の 北口 / 本屋 / 銀行 / 駅の 南口
+A 2
+E Si laki-laki yang akan datang ke toko buku, jadi perempuan menunggu di toko buku (ここで待っています).
+
+S 男の人と女の人が話しています。
+Q 男の人は何を持っていきますか。
+V F=goki M=kurita
+M: お母さん、今日は午後から雨ですか。
+F: ええ、テレビで夕方から雨だと言っていましたよ。傘を持っていってね。
+M: はい。それから、寒いですか。
+F: 今日は暖かいですよ。コートはいりません。
+M: わかりました。あ、お弁当もお願いします。
+F: 今日は土曜日ですから、学校の食堂は休みね。はい、どうぞ。
+O 傘と コート / 傘と お弁当 / コートと お弁当 / 傘だけ
+A 2
+E Bawa payung (hujan sore) dan bekal; mantel tidak perlu karena hangat.
+
+S 店で男の人と店の人が話しています。
+Q 男の人はいくら払いますか。
+V F=mochiko M=sourin
+M: すみません、このパンはいくらですか。
+F: 一つ百五十円です。
+M: じゃあ、二つください。それから、牛乳も一本ください。
+F: 牛乳は二百円です。全部で五百円です。
+M: はい。
+O 百五十円 / 三百円 / 三百五十円 / 五百円
+A 4
+E Roti 150×2 = 300 + susu 200 = 500 yen.
+
+S 女の学生と男の学生が話しています。
+Q 二人はどこで勉強しますか。
+V F=nana M=kurita
+F: 明日のテスト、一緒に勉強しませんか。
+M: いいですね。図書館はどうですか。
+F: 図書館は今日休みですよ。
+M: じゃあ、喫茶店で勉強しましょう。
+F: 喫茶店はうるさいです。私のうちに来ませんか。
+M: いいですか。じゃあ、そうしましょう。
+O 図書館 / 喫茶店 / 女の学生の うち / 男の学生の うち
+A 3
+E Perpustakaan tutup, kafe berisik → belajar di rumah si perempuan.
+
+S 会社で男の人と女の人が話しています。
+Q 女の人は何を何枚コピーしますか。
+V F=mochiko M=aoyama
+M: 中村さん、この紙をコピーしてください。
+F: はい。何枚ですか。
+M: 会議に十人来ますから、十枚お願いします。あ、この地図も同じです。
+F: はい、わかりました。
+M: あ、すみません。会議は八人になりました。
+F: じゃあ、どちらも八枚ですね。
+O 紙を 十枚 / 紙と 地図を 十枚ずつ / 紙を 八枚 / 紙と 地図を 八枚ずつ
+A 4
+E Kertas dan peta sama-sama, peserta berubah jadi 8 orang → masing-masing 8 lembar.
+
+== 2
+S 女の人と男の人が話しています。
+Q 男の人は日曜日に何をしましたか。
+V F=mochiko M=kurita
+F: 日曜日はどこかへ行きましたか。
+M: いいえ。友だちと山へ行きたかったですが、友だちが病気になりましたから、行きませんでした。
+F: そうですか。じゃあ、うちにいましたか。
+M: はい。うちで部屋のそうじをしました。
+O 山へ 行きました / 友だちと 遊びました / 部屋の そうじを しました / 病院へ 行きました
+A 3
+E Rencana ke gunung batal karena teman sakit; di rumah membersihkan kamar.
+
+S 男の人と女の人が話しています。
+Q 女の人の誕生日はいつですか。
+V F=nana M=kurita
+M: 鈴木さん、誕生日はいつですか。
+F: 六月です。
+M: 六月の何日ですか。
+F: 八日です。山田さんは？
+M: 私は九月四日です。
+O 六月四日 / 六月八日 / 九月四日 / 九月八日
+A 2
+E 六月八日 (8 Juni). 九月四日 = ulang tahun si laki-laki.
+
+S 先生と学生が話しています。
+Q 学生はどうして昨日学校を休みましたか。
+V F=no7 M=kurita
+F: リンさん、昨日はどうしましたか。
+M: すみません。頭が痛かったです。
+F: そうですか。病院へ行きましたか。
+M: いいえ。薬を飲んで、ずっと寝ていました。
+F: 今日はもう大丈夫ですか。
+M: はい、もう元気です。
+O 病院へ 行きましたから / 頭が 痛かったですから / 寝坊しましたから / 薬を 買いに 行きましたから
+A 2
+E Alasan absen: sakit kepala (頭が痛かった).
+
+S 男の人と女の人が話しています。
+Q 女の人のお姉さんはどの人ですか。
+V F=mochiko M=kurita
+M: 写真の、この人は誰ですか。
+F: 私の姉です。
+M: めがねをかけている人ですか。
+F: いいえ。姉はめがねをかけていません。その隣の、髪が長い人です。
+M: ああ、帽子をかぶっている人ですね。
+F: はい、そうです。
+O めがねを かけている 人 / 髪が 短い 人 / 髪が 長くて 帽子を かぶっている 人 / めがねを かけて 帽子を かぶっている 人
+A 3
+E Kakak: tidak berkacamata, rambut panjang, bertopi.
+
+S 女の人と男の人が話しています。
+Q 男の人の家族は何人ですか。
+V F=mochiko M=kurita
+F: 田中さんは何人家族ですか。
+M: 父と母と兄と私です。
+F: 兄弟は一人ですか。
+M: いいえ、妹もいます。今、アメリカにいます。
+O 三人 / 四人 / 五人 / 六人
+A 3
+E Ayah, ibu, kakak laki-laki, dia, dan adik perempuan = 5 orang.
+
+S 男の人と女の人が話しています。
+Q 女の人は毎朝何で会社へ行きますか。
+V F=mochiko M=aoyama
+M: 毎朝、何で会社へ来ますか。
+F: 前はバスでしたが、今は自転車です。
+M: 雨の日はどうしますか。
+F: 雨の日は歩きます。でも、毎朝は自転車です。
+O バス / 自転車 / 歩いて / 電車
+A 2
+E Dulu bus, sekarang sepeda setiap pagi (jalan kaki hanya saat hujan).
+
+== 3
+S 友だちが遊びに来ました。うちに入ってほしいです。何と言いますか。
+C Teman datang berkunjung; kamu mempersilakannya masuk.
+O どうぞ、上がってください。 / おじゃまします。 / いってきます。
+A 1
+E どうぞ上がってください = silakan masuk. おじゃまします diucapkan oleh tamu.
+
+S 店で、もっと小さいかばんが見たいです。何と言いますか。
+C Di toko, kamu ingin melihat tas yang lebih kecil.
+R M
+O もっと 小さいのは ありませんか。 / これは 小さいですね。 / 小さいのを あげます。
+A 1
+E もっと小さいのはありませんか = adakah yang lebih kecil?
+
+S 先生に質問があります。何と言いますか。
+C Kamu ingin bertanya kepada guru.
+O 先生、質問しましょうか。 / 先生、ちょっと いいですか。 / 先生、質問を ください。
+A 2
+E ちょっといいですか = permisi, boleh minta waktunya sebentar?
+
+S 朝、会社で部長に会いました。何と言いますか。
+C Pagi hari di kantor, kamu bertemu manajer.
+R M
+O おやすみなさい。 / こんばんは。 / おはようございます。
+A 3
+E Salam pagi = おはようございます.
+
+S 友だちの家から帰ります。何と言いますか。
+C Kamu hendak pulang dari rumah teman.
+O じゃ、また 明日。 / いらっしゃい。 / おかえりなさい。
+A 1
+E じゃ、また明日 = sampai jumpa besok. いらっしゃい/おかえりなさい untuk menyambut.
+
+== 4
+M: すみません、トイレはどこですか。
+O あちらです。 / トイレです。 / はい、どうぞ。
+A 1
+E Ditanya lokasi → あちらです (di sebelah sana).
+
+F: お飲み物は何がいいですか。
+V M=sourin
+O コーヒーを お願いします。 / はい、飲みます。 / 食堂で 飲みます。
+A 1
+E Ditanya mau minum apa → sebutkan minumannya.
+
+M: 毎日、何時に寝ますか。
+O 七時間です。 / 十一時ごろです。 / 毎日 寝ます。
+A 2
+E 何時 = jam berapa → 十一時ごろ.
+
+F: これ、どうぞ。旅行のおみやげです。
+O いいえ、どういたしまして。 / わあ、ありがとうございます。 / はい、どうぞ。
+A 2
+E Menerima oleh-oleh → ありがとうございます.
+
+M: 日本語の勉強はどうですか。
+O 難しいですが、おもしろいです。 / 日本語を 勉強します。 / はい、そうです。
+A 1
+E Ditanya kesan → 難しいですが、おもしろい.
+
+F: すみません、このペン、借りてもいいですか。
+O はい、借ります。 / ええ、どうぞ。 / いいえ、貸しません。
+A 2
+E Diminta izin meminjam → ええ、どうぞ.

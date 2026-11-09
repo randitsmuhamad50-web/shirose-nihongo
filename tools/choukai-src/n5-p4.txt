@@ -1,0 +1,213 @@
+== 1
+S 先生と学生が話しています。
+Q 学生は何ページを読みますか。
+V F=no7 M=kurita
+F: 今日は教科書の三十ページを読みましょう。
+M: 先生、三十ページはきのう読みました。
+F: あ、そうでしたね。じゃあ、次のページを読んでください。
+M: 三十一ページですね。
+F: はい、そうです。
+O 二十九ページ / 三十ページ / 三十一ページ / 三十二ページ
+A 3
+E Halaman 30 sudah dibaca kemarin → halaman berikutnya, 31.
+
+S 女の人と男の人が話しています。
+Q 男の人はどこに車を止めますか。
+V F=mochiko M=kurita
+F: 車はこの店の前に止めないでください。
+M: え、じゃあ、どこに止めますか。
+F: 店の後ろに駐車場があります。そこに止めてください。
+M: わかりました。
+O 店の 前 / 店の 後ろ / 店の 隣 / 駅の 前
+A 2
+E Tidak boleh di depan toko → parkir di belakang toko.
+
+S 男の人と女の人が話しています。
+Q 女の人は何を持っていきますか。
+V F=nana M=kurita
+M: 明日のピクニック、天気がいいですから、海へ行きましょう。
+F: いいですね。じゃあ、水着を持っていきます。
+M: あ、海はまだ冷たいですから、泳ぎませんよ。
+F: そうですか。じゃあ、カメラを持っていきます。
+M: いいですね。
+O 水着 / カメラ / 水着と カメラ / お弁当
+A 2
+E Laut masih dingin, tidak berenang → bawa kamera saja.
+
+S 会社で女の人と男の人が話しています。
+Q 男の人はこのあと何をしますか。
+V F=no7 M=kurita
+F: 木村さん、お客さんが三時に来ます。会議室のそうじをしてください。
+M: はい。いすも並べますか。
+F: いすはもう並べました。お茶を準備してください。
+M: そうじとお茶ですね。わかりました。
+O そうじだけ します / そうじを して、お茶を 準備します / いすを 並べます / お客さんを 迎えに 行きます
+A 2
+E Bersih-bersih ruang rapat + siapkan teh; kursi sudah diatur.
+
+S 男の人と女の人が話しています。
+Q 二人はいつ映画を見に行きますか。
+V F=mochiko M=kurita
+M: 映画を見に行きませんか。土曜日はどうですか。
+F: 土曜日はアルバイトがあります。日曜日はどうですか。
+M: 日曜日は国の友だちが来ます。
+F: じゃあ、来週の金曜日の夜はどうですか。
+M: いいですよ。
+O 土曜日 / 日曜日 / 来週の 金曜日の 夜 / 来週の 土曜日
+A 3
+E Sabtu dan Minggu tidak bisa → Jumat malam minggu depan.
+
+S 女の人が電話で話しています。
+Q 男の人は何を買って帰りますか。
+V F=goki M=sourin
+F: もしもし、あなた、帰りに卵を買ってきてください。
+M: 卵だけでいいですか。
+F: あ、それから、パンもお願いします。牛乳はまだあります。
+M: 卵とパンですね。わかりました。
+O 卵だけ / 卵と パン / パンと 牛乳 / 卵と 牛乳
+A 2
+E Beli telur dan roti; susu masih ada.
+
+S 男の学生と女の学生が話しています。
+Q 女の学生は何番のバスに乗りますか。
+V F=nana M=kurita
+F: すみません、さくら大学へ行きたいです。
+M: 三番か五番のバスに乗ってください。
+F: どちらが速いですか。
+M: 五番のバスは速いですが、今日は日曜日ですから、ありません。
+F: じゃあ、こちらに乗ります。
+O 一番 / 三番 / 五番 / 七番
+A 2
+E Bus 5 tidak ada hari Minggu → naik bus nomor 3.
+
+== 2
+S 女の人と男の人が話しています。
+Q 男の人の国はどこですか。
+V F=mochiko M=kurita
+F: マイクさんはアメリカ人ですか。
+M: いいえ、アメリカ人じゃありません。
+F: じゃあ、イギリスですか。
+M: いいえ、オーストラリアです。でも、アメリカで勉強しました。
+O アメリカ / イギリス / オーストラリア / カナダ
+A 3
+E Ia orang Australia; pernah belajar di Amerika.
+
+S 男の人と女の人が話しています。
+Q 女の人は何が好きですか。
+V F=nana M=kurita
+M: 何のスポーツが好きですか。
+F: テニスが好きです。
+M: サッカーは？
+F: サッカーは見るのは好きですが、するのはあまり好きじゃありません。
+M: 私は野球が好きです。
+O 野球 / サッカーを すること / テニス / 水泳
+A 3
+E Olahraga yang disukai: tenis. Sepak bola hanya suka menonton.
+
+S 女の人と男の人が話しています。
+Q 男の人は昨日何時に起きましたか。
+V F=mochiko M=kurita
+F: 眠そうですね。
+M: ええ。いつもは七時に起きますが、昨日は五時に起きました。
+F: どうしてですか。
+M: 朝早く空港へ友だちを迎えに行きましたから。
+O 五時 / 六時 / 七時 / 八時
+A 1
+E Biasanya jam 7, kemarin jam 5 (menjemput teman ke bandara).
+
+S 男の人と女の人が話しています。
+Q 女の人はきのう誰と買い物に行きましたか。
+V F=mochiko M=kurita
+M: きのう、デパートで山田さんを見ましたよ。
+F: え、私ですか。
+M: はい。お母さんと一緒でしたか。
+F: いいえ、あれは姉です。母は家にいました。
+O 母 / 姉 / 妹 / 友だち
+A 2
+E Yang bersama adalah kakak perempuan (姉), bukan ibu.
+
+S 女の人と男の人が話しています。
+Q 男の人のかさはどれですか。
+V F=goki M=kurita
+F: このかさはあなたのですか。
+M: いいえ、私のは黒いかさです。
+F: 黒いのが二つありますよ。
+M: 私のは長いほうです。名前が書いてあります。
+O 黒くて 長い かさ / 黒くて 短い かさ / 白くて 長い かさ / 白くて 短い かさ
+A 1
+E Payung hitam yang panjang (ada namanya).
+
+S 先生と学生が話しています。
+Q テストは何曜日ですか。
+V F=no7 M=kurita
+M: 先生、テストは水曜日ですか。
+F: いいえ、水曜日は休みですから、木曜日にします。
+M: 木曜日ですか。わかりました。
+F: 月曜日に練習の問題をしますよ。
+O 月曜日 / 火曜日 / 水曜日 / 木曜日
+A 4
+E Rabu libur → ujian hari Kamis. Senin = latihan soal.
+
+== 3
+S 友だちの誕生日です。何と言いますか。
+C Hari ini ulang tahun temanmu.
+O おめでとうございます。 / お誕生日を ください。 / ありがとうございます。
+A 1
+E Ucapan selamat → おめでとうございます.
+
+S 店に入りました。店の人は何と言いますか。
+C Kamu (pelayan toko) menyambut tamu yang masuk.
+R M
+O いってらっしゃい。 / いらっしゃいませ。 / ただいま。
+A 2
+E Menyambut pelanggan → いらっしゃいませ.
+
+S 友だちの消しゴムを使いたいです。何と言いますか。
+C Kamu ingin memakai penghapus temanmu.
+O 消しゴム、使いましょうか。 / 消しゴム、使いませんか。 / 消しゴム、借りても いい？
+A 3
+E Minta izin meminjam: 借りてもいい？
+
+S 電車で、おばあさんが立っています。何と言いますか。
+C Di kereta, seorang nenek berdiri. Kamu ingin memberikan kursimu.
+R M
+O どうぞ、座って ください。 / すみません、座っても いいですか。 / 座りませんでした。
+A 1
+E Mempersilakan duduk: どうぞ座ってください.
+
+S 会社から帰ります。何と言いますか。
+C Kamu pulang lebih dulu dari kantor.
+O お先に 失礼します。 / いってきます。 / ごちそうさまでした。
+A 1
+E Pulang duluan dari kantor: お先に失礼します.
+
+== 4
+M: 何か飲みますか。
+O はい、ジュースを お願いします。 / はい、飲みました。 / いいえ、まだです。
+A 1
+E Ditawari minum → sebut minuman yang diinginkan.
+
+F: お国はどちらですか。
+O タイです。 / 東京です。 / そちらです。
+A 1
+E Ditanya negara asal → タイです.
+
+M: すみません。今、何時ですか。
+O 三時間です。 / 三時十分です。 / 三回です。
+A 2
+E 何時 → 三時十分.
+
+F: 週末は何をしましたか。
+O 友だちと 映画を 見ました。 / 週末です。 / 来週 します。
+A 1
+E Kegiatan akhir pekan (lampau) → 映画を見ました.
+
+M: このケーキ、おいしいですね。
+O はい、ケーキです。 / ええ、駅の 前の 店で 買いました。 / いいえ、食べません。
+A 2
+E Menanggapi pujian: ya, beli di toko depan stasiun.
+
+F: 田中さんはいますか。
+O はい、いません。 / 今、出かけています。 / 田中さんです。
+A 2
+E Orangnya sedang keluar → 今、出かけています.
