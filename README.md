@@ -8,7 +8,7 @@ Platform RPG belajar bahasa Jepang JLPT N5–N1. Dulunya website materi biasa, s
 ## Fitur utama
 
 ### Untuk siswa
-- **RPG Dashboard** dengan karakter botak default + orbital navigation (9 menu mengorbit).
+- **RPG Dashboard** dengan karakter botak default + orbital navigation (10 menu mengorbit, termasuk **KANA**).
 - **Karakter layered**: beli rambut, pakaian, sepatu, aksesori di Shop pakai koin. Default botak — rambut HARUS dibeli & dipakai lewat Wardrobe.
 - **5 Level JLPT** (N5, N4, N3, N2, N1) — akses dikontrol per-murid oleh guru lewat server-side rules Firestore (bukan cuma frontend lock).
 - **Materi**: Kosakata, Kanji, Bunpou per level. Data semuanya sudah dalam Bahasa Indonesia (2.787 kanji N5–N1 bebas Vietnamese).
@@ -19,13 +19,33 @@ Platform RPG belajar bahasa Jepang JLPT N5–N1. Dulunya website materi biasa, s
 - **Choukai (Listening)** dengan TTS browser sebagai audio default, guru bisa override pakai MP3.
 
 ### Untuk guru
-- **Teacher Dashboard** (`/teacher.html`) — email `randitsmuhamad50@gmail.com` saja yang boleh masuk.
+- **Teacher Dashboard** (`/teacher.html`) — bisa dibuka oleh email pemilik **dan** semua akun terdaftar dengan `role` = `guru`, `admin`, atau `developer` (field `role` di dokumen `siswa/{uid}`; atur lewat Firestore/Console). Akun guru melihat kartu **Dashboard Guru** di halaman pilih level, di Aktivitas cepat, dan di Profil, serta pil melayang di pojok. Siswa biasa tidak melihat pintu ini dan jika membuka `/teacher.html` langsung akan mendapat "Akses Ditolak".
 - **Siswa**: toggle akses N5/N4/N3/N2/N1 per-murid (field `aksesLevel`), assign ke kelas.
 - **Kategori Ujian**: buat, edit, hapus kategori sendiri lewat UI (tanpa edit source code).
 - **Bank Soal**: tambah manual + CRUD + export CSV/Excel.
 - **Import Excel** 100% client-side (SheetJS CDN) — tidak butuh AI/cloud. Template Excel bisa didownload.
 - **Choukai**: tambah soal listening + import starter bank 10 soal/level.
 - **Laporan Kelas**: export XP/koin/level/streak/akses semua murid ke Excel.
+
+## Hiragana & Katakana + Menulis Kanji (sesi mandiri)
+
+Sesi baru `#kana` (kartu **Hiragana & Katakana** di halaman pilih level, Aktivitas cepat, dan menu orbit **KANA**). Tidak bergantung pada pilihan level JLPT, jadi bisa dibuka kapan saja oleh siswa.
+
+- **Tabel** Hiragana & Katakana lengkap (gojuon, dakuten, handakuten, youon; katakana tambahan ファ ティ チェ ヴァ dll.). Klik huruf → panel: huruf besar, romaji, cara baca, animasi urutan goresan bernomor (putar ulang, jeda, lambat, hasil akhir), tombol latihan.
+- **Latihan menulis** di kanvas (mouse / sentuh / stylus) dengan kotak panduan dan 3 mode: **Trace**, **Copy**, **Memory**. Tombol Hapus, Ulangi, Tampilkan contoh, Cek hasil.
+- **Penilaian jujur**: nilai adalah *perkiraan geometris* (bentuk, arah, urutan, posisi, kemiripan) terhadap data goresan, **bukan** pengenalan tulisan tangan. Hasil selalu disertai perbandingan visual tulisan vs contoh. Batas yang diketahui: dua huruf yang bentuknya hampir identik bisa mendapat nilai tinggi untuk satu sama lain.
+- **文字を覚えよう** (kartu hafalan) dengan sistem ulang berjarak (kotak Leitner 0–5; interval 0/1/2/4/8/16 hari): Sudah hafal / Belum hafal / Ulangi / Berikutnya.
+- **読み方テスト**: Karakter→Romaji, Romaji→Karakter, Membaca Kata, Campuran; tingkat Dasar/Menengah/Lanjutan/Campuran; 4 pilihan, dinilai otomatis, pembahasan, riwayat.
+- **Menulis semua Kanji N5–N1** dari bank Kanji yang sudah ada (2.787 entri; tanpa daftar kanji baru). Di detail kanji ada **書き順を見る** dan **書いてみよう ✍️**; daftar kanji punya filter level N5–N1 dan lencana progres. Kata majemuk (mis. 駐車) dilatih per karakter.
+- **Progres per akun**: Firestore `siswa/{uid}/kana_progres/data` + cadangan `localStorage` (`shirose-kana:{uid}`; yang lebih baru menang). Sub-koleksi `siswa/{uid}/*` sudah tercakup Firestore Rules yang ada, **tidak perlu mengubah rules**.
+
+### Data goresan & atribusi
+Urutan goresan berasal dari **[KanjiVG](https://kanjivg.tagaini.net/)** © Ulrich Apel, lisensi **CC BY-SA 3.0**. Data kana dipaketkan lokal (`data/kana-strokes.json`, turunan KanjiVG, tetap CC BY-SA 3.0); data kanji dimuat dari CDN pada commit yang dikunci (`610091ce…`) dan di-cache offline oleh service worker setelah dibuka sekali.
+
+```bash
+git clone https://github.com/KanjiVG/kanjivg /tmp/kvg
+python3 -I tools/kana_build.py /tmp/kvg/kanjivg   # tulis ulang data/kana.json & data/kana-strokes.json
+```
 
 ## JLPT Center (Full Exam & Individual Practice)
 
