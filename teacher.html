@@ -152,7 +152,7 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261108i";
+import * as FB from "./js/firebase-sync.js?v=20261109j";
 
 const state = {
   user: null,
@@ -264,6 +264,7 @@ function renderApp(){
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
+        <div class="nav-item ${state.tab==='jlpt'?'active':''}" onclick="setTab('jlpt')"><span class="ico">🏯</span> Hasil JLPT</div>
         <div class="nav-item ${state.tab==='diagnostik'?'active':''}" onclick="setTab('diagnostik')"><span class="ico">🔧</span> Diagnostik</div>
         <div class="nav-item ${state.tab==='admin'?'active':''}" onclick="setTab('admin')" id="nav-admin" style="display:none;"><span class="ico">🛡️</span> Admin</div>
       </div>
@@ -286,6 +287,7 @@ async function renderTab(){
     else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
+    else if (state.tab === "jlpt") mount.innerHTML = await renderJlptTab();
     else if (state.tab === "diagnostik") mount.innerHTML = await renderDiagnostikTab();
     else if (state.tab === "admin")   mount.innerHTML = await renderAdminTab();
   } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
@@ -1689,6 +1691,96 @@ window.exportLaporan = async () => {
   XLSX.utils.book_append_sheet(wb, ws, "Laporan Siswa");
   XLSX.writeFile(wb, `laporan-shirose-${Date.now()}.xlsx`);
   toast("✓ Diexport");
+};
+
+/* ========== TAB: HASIL JLPT CENTER ==========
+ * Membaca siswa/{uid}/jlpt_hasil untuk setiap siswa (rules: hanya guru).
+ * Filter: level, nama, rentang tanggal. Klik baris → detail per kategori
+ * dan jawaban per nomor (kunci diambil dari ./jlpt/{file}).
+ */
+state.jx = state.jx || { lv: "", nama: "", dari: "", sampai: "", data: null };
+const _jxFmt = (sec) => { sec = Math.round(sec || 0); return `${Math.floor(sec/60)}m ${sec%60}s`; };
+const _jxMs = (h) => h.selesai || (h.tgl?.seconds ? h.tgl.seconds * 1000 : 0);
+const _jxKat = { kanji:"Kanji", kotoba:"Kotoba", bunpou:"Bunpou", dokkai:"Dokkai", choukai:"Choukai" };
+function _jxLemah(h){
+  const r = Object.entries(h.perKategori || {}).filter(([,v]) => v.total).map(([k,v]) => [k, v.benar / v.total]);
+  r.sort((a,b) => a[1]-b[1]);
+  return r.length ? `${_jxKat[r[0][0]] || r[0][0]} (${Math.round(r[0][1]*100)}%)` : "-";
+}
+async function renderJlptTab(){
+  if (!state.jx.data){
+    const siswa = await FB.listSiswa();
+    const all = [];
+    for (const s of siswa){
+      try { (await FB.listHasilJLPTOf(s.uid, 200)).forEach(h => all.push({ ...h, _uid: s.uid, _nama: s.nama || h.nama || s.email, _kelas: s.kelas || "" })); }
+      catch(e){ console.warn("jlpt hasil", s.uid, e.message); }
+    }
+    all.sort((a,b) => _jxMs(b) - _jxMs(a));
+    state.jx.data = all;
+  }
+  const f = state.jx;
+  const dari = f.dari ? new Date(f.dari + "T00:00:00").getTime() : 0;
+  const sampai = f.sampai ? new Date(f.sampai + "T23:59:59").getTime() : Infinity;
+  const rows = f.data.filter(h => (!f.lv || h.lv === f.lv)
+    && (!f.nama || (h._nama || "").toLowerCase().includes(f.nama.toLowerCase()))
+    && _jxMs(h) >= dari && _jxMs(h) <= sampai);
+  const rata = rows.length ? Math.round(rows.reduce((a,h) => a + (h.skor||0), 0) / rows.length) : 0;
+  return `
+    <div class="panel">
+      <h2>🏯 Hasil JLPT Center</h2>
+      <p style="color:var(--gray); font-size:13px;">Hasil Full Exam & latihan Kanji/Kotoba/Bunpou dari semua siswa. Nilai = estimasi latihan, bukan nilai resmi JLPT.</p>
+      <div class="form-row" style="flex-wrap:wrap; gap:8px;">
+        <select onchange="state.jx.lv=this.value; renderTab()"><option value="">Semua level</option>${LV.map(l => `<option value="${l}" ${f.lv===l?"selected":""}>JLPT ${l.toUpperCase()}</option>`).join("")}</select>
+        <input placeholder="Cari nama siswa" value="${f.nama}" onchange="state.jx.nama=this.value; renderTab()"/>
+        <label style="font-size:12px;">Dari <input type="date" value="${f.dari}" onchange="state.jx.dari=this.value; renderTab()"/></label>
+        <label style="font-size:12px;">Sampai <input type="date" value="${f.sampai}" onchange="state.jx.sampai=this.value; renderTab()"/></label>
+        <button class="btn ghost" onclick="state.jx.data=null; renderTab()">↻ Muat ulang</button>
+        <button class="btn ghost" onclick="exportJlpt()">📤 Export Excel</button>
+      </div>
+      <div style="margin:8px 0; color:var(--gray); font-size:13px;">${rows.length} hasil · rata-rata ${rata}%</div>
+      <div class="table-wrap" style="max-height:65vh; overflow:auto;">
+        <table>
+          <thead><tr><th>Tanggal</th><th>Siswa</th><th>Kelas</th><th>Level</th><th>Paket</th><th>Nilai</th><th>Benar</th><th>Salah</th><th>Kosong</th><th>Durasi</th><th>Status</th><th>Kategori lemah</th></tr></thead>
+          <tbody>${rows.map(h => `<tr style="cursor:pointer;" onclick="jlptDetail('${h._uid}','${h.id}')">
+            <td>${new Date(_jxMs(h)).toLocaleString("id-ID", { dateStyle:"short", timeStyle:"short" })}</td>
+            <td>${h._nama}</td><td>${h._kelas}</td><td>${lvChip(h.lv)}</td><td>${h.judul}</td>
+            <td><b>${h.skor}%</b></td><td>${h.benar}</td><td>${h.salah}</td><td>${h.kosong}</td>
+            <td>${_jxFmt(h.durasiAktual)} / ${Math.round((h.durasiDipilih||0)/60)}m</td><td>${h.status === "timeout" ? "⏰ timeout" : "✔ selesai"}</td>
+            <td>${_jxLemah(h)}</td></tr>`).join("") || `<tr><td colspan="12" style="text-align:center; color:var(--gray);">Belum ada hasil.</td></tr>`}</tbody>
+        </table>
+      </div>
+    </div>`;
+}
+window.jlptDetail = async (uid, id) => {
+  const h = (state.jx.data || []).find(x => x._uid === uid && x.id === id);
+  if (!h) return;
+  let pkg = null;
+  try { pkg = await (await fetch("./jlpt/" + h.file)).json(); } catch(e){}
+  const flat = []; (pkg?.sections || []).forEach(s => s.items.forEach(q => flat.push({ ...q, _m: s.mondai, _t: s.tipe_jp })));
+  const kat = Object.entries(h.perKategori || {}).map(([k,v]) => `<tr><td>${_jxKat[k]||k}</td><td>${v.benar}/${v.total}</td><td>${v.total ? Math.round(v.benar/v.total*100) : 0}%</td></tr>`).join("");
+  const L = (q, i) => i < 0 ? "—" : (q?.cat === "choukai" ? String(i+1) : "ABCD"[i]);
+  const per = (h.jawaban || []).map((a, i) => {
+    const q = flat[i]; const ok = q && a === q.ans;
+    return `<tr><td>${i+1}</td><td>問題${q?._m ?? "?"} ${q?._t ?? ""}</td><td>${L(q, a)}</td><td>${q ? L(q, q.ans) : "?"}</td>
+      <td style="color:${a < 0 ? "var(--gray)" : ok ? "var(--green)" : "var(--red)"}">${a < 0 ? "kosong" : ok ? "✓" : "✗"}</td><td>${h.tandai?.[i] ? "🚩" : ""}</td></tr>`;
+  }).join("");
+  modal(`<h3>${h._nama} — ${h.judul}</h3>
+    <p style="font-size:13px; color:var(--gray);">Mulai ${new Date(h.mulai).toLocaleString("id-ID")} · Selesai ${new Date(h.selesai).toLocaleString("id-ID")} · ${h.status}</p>
+    <p><b>${h.skor}%</b> · benar ${h.benar} · salah ${h.salah} · kosong ${h.kosong} dari ${h.total} · durasi ${_jxFmt(h.durasiAktual)} (dipilih ${Math.round(h.durasiDipilih/60)} menit)</p>
+    <div class="table-wrap"><table><thead><tr><th>Kategori</th><th>Benar</th><th>%</th></tr></thead><tbody>${kat}</tbody></table></div>
+    <h4 style="margin-top:12px;">Jawaban per nomor</h4>
+    <div class="table-wrap" style="max-height:45vh; overflow:auto;"><table><thead><tr><th>No</th><th>Mondai</th><th>Jawaban</th><th>Kunci</th><th></th><th></th></tr></thead><tbody>${per}</tbody></table></div>
+    <button class="btn ghost" style="margin-top:10px;" onclick="closeModal()">Tutup</button>`);
+};
+window.exportJlpt = () => {
+  const rows = (state.jx.data || []).map(h => ({
+    Tanggal: new Date(_jxMs(h)).toLocaleString("id-ID"), Siswa: h._nama, Kelas: h._kelas, Level: h.lv.toUpperCase(), Paket: h.judul,
+    Nilai: h.skor, Benar: h.benar, Salah: h.salah, Kosong: h.kosong, Total: h.total,
+    "Durasi (detik)": h.durasiAktual, "Waktu dipilih (menit)": Math.round((h.durasiDipilih||0)/60), Status: h.status,
+    ...Object.fromEntries(Object.entries(h.perKategori || {}).map(([k,v]) => [`${_jxKat[k]||k} %`, v.total ? Math.round(v.benar/v.total*100) : 0])),
+  }));
+  const ws = XLSX.utils.json_to_sheet(rows); const wb = XLSX.utils.book_new();
+  XLSX.utils.book_append_sheet(wb, ws, "Hasil JLPT"); XLSX.writeFile(wb, `hasil-jlpt-${Date.now()}.xlsx`);
 };
 
 /* ========== TAB: DIAGNOSTIK ==========

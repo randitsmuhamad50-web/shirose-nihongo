@@ -495,6 +495,35 @@ export async function catatNilai(nilai) {
   return await addDoc(ref, { ...nilai, tgl: serverTimestamp() });
 }
 
+/* ========== HASIL UJIAN JLPT CENTER ==========
+ * Disimpan di siswa/{uid}/jlpt_hasil/{autoId} — sub-koleksi milik siswa,
+ * sudah tercakup Firestore Rules yang ada (pemilik + guru boleh baca,
+ * siswa lain TIDAK bisa). Tidak perlu mengubah rules.
+ */
+export async function simpanHasilJLPT(hasil) {
+  if (!currentUser) throw new Error("Belum login");
+  const ref = collection(db, "siswa", currentUser.uid, "jlpt_hasil");
+  const d = await addDoc(ref, { ...hasil, uid: currentUser.uid, tgl: serverTimestamp() });
+  return d.id;
+}
+export async function listHasilJLPT(limitN = 100) {
+  if (!currentUser) return [];
+  const q = query(collection(db, "siswa", currentUser.uid, "jlpt_hasil"), orderBy("tgl", "desc"), limit(limitN));
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+export async function listHasilJLPTOf(uid, limitN = 100) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  const q = query(collection(db, "siswa", uid, "jlpt_hasil"), orderBy("tgl", "desc"), limit(limitN));
+  const snap = await getDocs(q);
+  return snap.docs.map(d => ({ id: d.id, ...d.data() }));
+}
+export async function getHasilJLPT(uid, id) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  const s = await getDoc(doc(db, "siswa", uid, "jlpt_hasil", id));
+  return s.exists() ? { id: s.id, ...s.data() } : null;
+}
+
 /* ========== ACTIVITY CALENDAR (Part 12) ========== */
 // Each activity bumps a date-bucket document. Date is YYYYMMDD in Asia/Bangkok
 // so streaks line up with the user's local day. Activity types:

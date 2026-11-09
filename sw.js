@@ -1,8 +1,9 @@
 /* Service worker: network-first, cache fallback */
+// v23 — JLPT Center (Full Exam + Practice N5–N1, timer, pembahasan, riwayat).
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v22";
+const CACHE = "shirose-nihongo-v23";
 const CORE = [
   "./",
   "./index.html",
@@ -19,6 +20,8 @@ const CORE = [
   "./js/choukai-jlpt.js",
   "./css/shirose-extra.css",
   "./js/voice.js",
+  "./js/jlpt-center.js",
+  "./css/jlpt-center.css",
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).catch(()=>{}));

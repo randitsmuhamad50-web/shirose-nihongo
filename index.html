@@ -1348,6 +1348,7 @@ html{overflow-x:hidden;}
 .hidden{display:none !important;}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
+<link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 </head>
 <body>
 
@@ -1398,9 +1399,11 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261108h";
+import * as FB from "./js/firebase-sync.js?v=20261109j";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109b";
 import SV from "./js/voice.js?v=20261109a";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261109j";
+initJlpt(FB);
 
 /* ========== STATE ========== */
 const state = {
@@ -2024,6 +2027,10 @@ const routes = {
   achievements: renderAchievements,
   leaderboard: renderLeaderboard,
   choukai: (params) => renderChoukaiJLPT(params),
+  // JLPT Center: Full Exam + Individual Practice (js/jlpt-center.js)
+  jlpt: (params) => renderJlpt(params),
+  "jlpt-riwayat": () => renderRiwayatJlpt(),
+  "jlpt-review": (params) => renderReviewJlpt(params),
 };
 
 // Routes that depend on state.level (and therefore on aksesLevel).
@@ -2217,6 +2224,14 @@ function renderCharaOrbital(){
     <div class="panel">
       <h2>Aktivitas cepat</h2>
       <div class="hub-grid">
+        <div class="hub-card jx-home" onclick="route('jlpt')">
+          <div class="ico">🏯</div>
+          <div class="info"><div class="ttl">JLPT Center</div><div class="sub" id="jx-home-last">Full Exam &amp; latihan Kanji/Kotoba/Bunpou</div></div>
+        </div>
+        <div class="hub-card" onclick="route('jlpt-riwayat')">
+          <div class="ico">📊</div>
+          <div class="info"><div class="ttl">Riwayat JLPT</div><div class="sub">Nilai &amp; grafik perkembangan</div></div>
+        </div>
         <div class="hub-card" onclick="route('hafalan')">
           <div class="ico">🧠</div>
           <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>
@@ -2312,6 +2327,11 @@ window.pilihLevel = async (lvl) => {
 function renderHome(){
   // Schedule the mini-calendar fill after the home HTML is injected.
   setTimeout(() => { _fillHomeCalendar().catch(e => console.warn(e)); }, 0);
+  // Nilai JLPT terakhir di kartu dashboard (estimasi latihan).
+  setTimeout(async () => {
+    const h = await ringkasanTerakhir(); const el = document.getElementById("jx-home-last");
+    if (h && el) el.textContent = `Nilai terakhir: ${h.skor}% · ${h.judul}`;
+  }, 0);
   return renderCharaOrbital();
 }
 
@@ -3749,6 +3769,10 @@ async function renderUjianList(){
   return `
     <div class="panel">
       <h2>📝 Ujian ${state.level.toUpperCase()}</h2>
+      <div class="hub-card jx-home" onclick="route('jlpt/${state.level}')" style="margin-bottom:14px;">
+        <div class="ico">🏯</div>
+        <div class="info"><div class="ttl">JLPT Center ${state.level.toUpperCase()}</div><div class="sub">10 Full Exam + 60 paket latihan (Kanji · Kotoba · Bunpou) dengan timer &amp; pembahasan lengkap</div></div>
+      </div>
       <p style="color:var(--gray); font-size:13px; margin-bottom:12px;">Pilih kategori ujian untuk mulai mengerjakan.</p>
       ${pub.length ? `
         <div class="hub-grid">

@@ -27,6 +27,29 @@ Platform RPG belajar bahasa Jepang JLPT N5–N1. Dulunya website materi biasa, s
 - **Choukai**: tambah soal listening + import starter bank 10 soal/level.
 - **Laporan Kelas**: export XP/koin/level/streak/akses semua murid ke Excel.
 
+## JLPT Center (Full Exam & Individual Practice)
+
+Menu baru `#jlpt` (kartu **JLPT Center** di Home dan di halaman Ujian).
+
+- **Full Exam**: 10 paket per level (N5–N1) — Kanji, Kotoba, Bunpou, Dokkai, Choukai. Default 70 menit; siswa bisa pilih 30/45/60/70/custom.
+- **Individual Practice**: Kanji, Kotoba, Bunpou — 20 paket per level, maks. 20 soal per paket. Default 20 menit; pilihan 5/10/15/20/custom.
+- **Timer** memakai waktu selesai absolut + progres disimpan di `localStorage` → refresh/tutup tab tidak mereset timer & jawaban. Waktu habis = dikumpulkan otomatis.
+- **Ujian**: navigasi nomor, penanda dijawab/belum, 🚩 tandai untuk ditinjau, konfirmasi sebelum kumpulkan. Kunci tidak ditampilkan selama ujian.
+- **Hasil**: benar/salah/kosong, %, waktu dipilih vs terpakai, rata-rata per soal, mulai/selesai, status selesai/timeout, analisis per kategori + rekomendasi (label "estimasi hasil latihan").
+- **Pembahasan** 10 bagian (正解, 問題の意味, 正解の理由, 選択肢の解説, 文法解説, 語彙解説, 漢字解説, 文構造, 例文, 学習ポイント) + filter Semua/Benar/Salah/Kosong/Ditandai. Choukai: transkrip di pembahasan.
+- **Penyimpanan**: Firestore `siswa/{uid}/jlpt_hasil` (sudah tercakup rules yang ada — siswa hanya melihat miliknya, guru melihat semua). Cadangan lokal bila offline, disinkron saat buka Riwayat.
+- **Riwayat** `#jlpt-riwayat`: nilai terakhir, grafik, progress per level, rekomendasi.
+- **Dashboard guru** → tab **Hasil JLPT**: filter level/nama/tanggal, detail per kategori & jawaban per nomor, export Excel.
+
+### Bank soal
+Soal **orisinal**, dibangun otomatis dari materi di `data/` (kosakata, kanji, bunpou) + teks Dokkai/Choukai yang ditulis khusus (`tools/jlpt_content.py`) + soal Choukai rekaman yang sudah ada (`choukai/jlpt-n*.json`).
+
+```bash
+python3 tools/jlpt_build.py     # tulis ulang folder jlpt/
+python3 tools/jlpt_validate.py  # QC: ID unik, kunci valid, opsi lengkap, pembahasan ada
+```
+Catatan: file `jlpt/*.json` bersifat publik (situs statis), jadi kunci jawaban secara teknis bisa dibuka lewat DevTools.
+
 ## Arsitektur
 
 - **Frontend**: Static HTML + JS modular (ES modules via CDN import maps). Tidak ada bundler.
