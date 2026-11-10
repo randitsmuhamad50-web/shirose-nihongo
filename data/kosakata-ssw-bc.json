@@ -30,7 +30,9 @@
  {
   "kata": "早退",
   "kana": "そうたい",
-  "arti": "pulang lebih awal"
+  "arti": "pulang lebih awal",
+  "contoh": "④ 遅刻[ちこく]・早退[そうたい]・欠勤[けっきん]",
+  "arti_contoh": "④ Keterlambatan, datang awal, absen"
  },
  {
   "kata": "欠勤",
@@ -49,17 +51,23 @@
  {
   "kata": "迷惑",
   "kana": "めいわく",
-  "arti": "merepotkan; gangguan"
+  "arti": "merepotkan; gangguan",
+  "contoh": "遅刻[ちこく]や欠勤[けっきん]は迷惑[めいわく]をかける",
+  "arti_contoh": "Datang terlambat itu merepotkan orang lain"
  },
  {
   "kata": "準備",
   "kana": "じゅんび",
-  "arti": "persiapan"
+  "arti": "persiapan",
+  "contoh": "ミーティング・準備[じゅんび]",
+  "arti_contoh": "Rapat, persiapan"
  },
  {
   "kata": "後片付け",
   "kana": "あとかたづけ",
-  "arti": "beres-beres akhir"
+  "arti": "beres-beres akhir",
+  "contoh": "作業報告[さぎょうほうこく]・後片付[あとかたづ]け",
+  "arti_contoh": "Laporan pekerjaan dan beres-beres akhir"
  },
  {
   "kata": "器材",
@@ -71,17 +79,23 @@
  {
   "kata": "点検",
   "kana": "てんけん",
-  "arti": "pemeriksaan; inspeksi"
+  "arti": "pemeriksaan; inspeksi",
+  "contoh": "資器材[しきざい]の整理[せいり]・整頓[せいとん]・点検[てんけん]に心[こころ]がける",
+  "arti_contoh": "Ingatlah untuk Mengatur, Merapihkan, Memeriksa peralatan."
  },
  {
   "kata": "不具合",
   "kana": "ふぐあい",
-  "arti": "kerusakan; gangguan fungsi"
+  "arti": "kerusakan; gangguan fungsi",
+  "contoh": "使用[しよう]した器材[きざい]の点検[てんけん]をし、不具合[ふぐあい]があれば責任者[せきにんしゃ]へ必[かなら]ず報告[ほうこく]する",
+  "arti_contoh": "Periksa peralatan yang digunakan; selalu laporkan ke PIC jika ada kerusakan pada peralatan."
  },
  {
   "kata": "紛失",
   "kana": "ふんしつ",
-  "arti": "kehilangan; hilang"
+  "arti": "kehilangan; hilang",
+  "contoh": "紛失[ふんしつ]はクレームにつながるのでゴミか判断[はんだん]できないものは責任者[せきにんしゃ]に相談[そうだん]しよう！",
+  "arti_contoh": "Kehilangan barang akan menimbulkan komplain, jadi jika ada barang yang tidak bisa diidentifikasi, konsultasikan ke PIC."
  },
  {
   "kata": "身だしなみ",
@@ -100,57 +114,79 @@
  {
   "kata": "事故防止",
   "kana": "じこぼうし",
-  "arti": "pencegahan kecelakaan"
+  "arti": "pencegahan kecelakaan",
+  "contoh": "事故防止[じこぼうし]のためにアクセサリーを外[はず]す。",
+  "arti_contoh": "Melepas aksesoris untuk mencegah kecelakaan."
  },
  {
   "kata": "清潔感",
   "kana": "せいけつかん",
-  "arti": "kesan bersih; kebersihan"
+  "arti": "kesan bersih; kebersihan",
+  "contoh": "清潔感[せいけつかん]のある服装[ふくそう]を心[こころ]がける。",
+  "arti_contoh": "Berusaha berpakaian yang tampak bersih."
  },
  {
   "kata": "清掃",
   "kana": "せいそう",
-  "arti": "pembersihan"
+  "arti": "pembersihan",
+  "contoh": "窓[まど]ガラスの清掃[せいそう]",
+  "arti_contoh": "Pembersihan Kaca"
  },
  {
   "kata": "日常清掃",
   "kana": "にちじょうせいそう",
-  "arti": "pembersihan harian"
+  "arti": "pembersihan harian",
+  "contoh": "第[だい]２章[しょう] 日常清掃[にちじょうせいそう]",
+  "arti_contoh": "BAB 2 Pembersihan Harian"
  },
  {
   "kata": "定期清掃",
   "kana": "ていきせいそう",
-  "arti": "pembersihan berkala"
+  "arti": "pembersihan berkala",
+  "contoh": "第[だい]３章[しょう] 定期清掃[ていきせいそう]",
+  "arti_contoh": "BAB 3 Pembersihan Berkala"
  },
  {
   "kata": "ワックス",
   "kana": "ワックス",
-  "arti": "wax (pelapis lantai)"
+  "arti": "wax (pelapis lantai)",
+  "contoh": "**水性[すいせい]ワックス：**ロウが主成分[しゅせいぶん]。",
+  "arti_contoh": "Wax cair: berbahan utama lilin."
  },
  {
   "kata": "建材",
   "kana": "けんざい",
-  "arti": "bahan bangunan"
+  "arti": "bahan bangunan",
+  "contoh": "建材[けんざい]や場所[ばしょ]によって様々[さまざま]な汚[よご]れがある。",
+  "arti_contoh": "Ada macam-macam kotoran, tergantung material lantai dan tempatnya."
  },
  {
   "kata": "汚れ",
   "kana": "よごれ",
-  "arti": "kotoran; noda"
+  "arti": "kotoran; noda",
+  "contoh": "② 汚[よご]れの種類[しゅるい]（5種類[しゅるい]）",
+  "arti_contoh": "② Jenis kotoran (5 jenis)"
  },
  {
   "kata": "洗剤",
   "kana": "せんざい",
-  "arti": "deterjen; bahan pembersih"
+  "arti": "deterjen; bahan pembersih",
+  "contoh": "① 洗剤[せんざい]の塗布[とふ]",
+  "arti_contoh": "① Mengaplikasikan sabun"
  },
  {
   "kata": "作業方法",
   "kana": "さぎょうほうほう",
-  "arti": "cara kerja; metode kerja"
+  "arti": "cara kerja; metode kerja",
+  "contoh": "作業方法[さぎょうほうほう]の知識[ちしき]",
+  "arti_contoh": "Pengetahuan mengenai cara membersihkan"
  },
  {
   "kata": "予防策",
   "kana": "よぼうさく",
-  "arti": "langkah pencegahan"
+  "arti": "langkah pencegahan",
+  "contoh": "予防策[よぼうさく]の知識[ちしき]",
+  "arti_contoh": "Pengetahuan mengenai tindakan pencegahan"
  },
  {
   "kata": "挨拶",
@@ -169,97 +205,135 @@
  {
   "kata": "おはようございます",
   "kana": "おはようございます",
-  "arti": "selamat pagi"
+  "arti": "selamat pagi",
+  "contoh": "仕事[しごと]のはじめは元気[げんき]な挨拶[あいさつ]から（「おはようございます」）",
+  "arti_contoh": "Mulailah bekerja dengan salam sapa yang semangat (\"Selamat pagi\")."
  },
  {
   "kata": "ありがとうございました",
   "kana": "ありがとうございました",
-  "arti": "terima kasih"
+  "arti": "terima kasih",
+  "contoh": "手伝[てつだ]っていただいて、ありがとうございました。",
+  "arti_contoh": "Terima kasih sudah membantu (sudah selesai)."
  },
  {
   "kata": "承知しました",
   "kana": "しょうちしました",
-  "arti": "baik, saya mengerti"
+  "arti": "baik, saya mengerti",
+  "contoh": "承知[しょうち]しました（かしこまりました）",
+  "arti_contoh": "Baik, saya mengerti — 承知しました（かしこまりました）"
  },
  {
   "kata": "かしこまりました",
   "kana": "かしこまりました",
-  "arti": "baik, saya mengerti (sangat sopan)"
+  "arti": "baik, saya mengerti (sangat sopan)",
+  "contoh": "承知[しょうち]しました（かしこまりました）",
+  "arti_contoh": "Baik, saya mengerti — 承知しました（かしこまりました）"
  },
  {
   "kata": "申し訳ございません",
   "kana": "もうしわけございません",
-  "arti": "mohon maaf"
+  "arti": "mohon maaf",
+  "contoh": "遅[おく]れて申し訳[もうしわけ]ございません。",
+  "arti_contoh": "Mohon maaf atas keterlambatan saya."
  },
  {
   "kata": "よろしくお願いします",
   "kana": "よろしくおねがいします",
-  "arti": "mohon bantuannya"
+  "arti": "mohon bantuannya",
+  "contoh": "今日[きょう]もよろしくお願[よろしくおねが]いします。",
+  "arti_contoh": "Mohon bantuannya hari ini juga."
  },
  {
   "kata": "お待たせしました",
   "kana": "おまたせしました",
-  "arti": "maaf sudah menunggu"
+  "arti": "maaf sudah menunggu",
+  "contoh": "お待[おま]たせしました。清掃[せいそう]が終[お]わりました。",
+  "arti_contoh": "Maaf menunggu. Pembersihan sudah selesai."
  },
  {
   "kata": "失礼します",
   "kana": "しつれいします",
-  "arti": "permisi"
+  "arti": "permisi",
+  "contoh": "失礼[しつれい]します。清掃[せいそう]に入[はい]ります。",
+  "arti_contoh": "Permisi. Saya masuk untuk membersihkan."
  },
  {
   "kata": "お疲れ様でした",
   "kana": "おつかれさまでした",
-  "arti": "terima kasih atas kerja kerasnya"
+  "arti": "terima kasih atas kerja kerasnya",
+  "contoh": "「お疲[つか]れ様[さま]でした」の一言[ひとこと]を忘[わす]れない",
+  "arti_contoh": "Jangan lupa mengatakan \"Otsukaresama deshita\"."
  },
  {
   "kata": "責任者",
   "kana": "せきにんしゃ",
-  "arti": "penanggung jawab (PIC); atasan"
+  "arti": "penanggung jawab (PIC); atasan",
+  "contoh": "**「責任者[せきにんしゃ]（上司[じょうし]）」**",
+  "arti_contoh": "PIC (Atasan)"
  },
  {
   "kata": "上司",
   "kana": "じょうし",
-  "arti": "atasan"
+  "arti": "atasan",
+  "contoh": "**「責任者[せきにんしゃ]（上司[じょうし]）」**",
+  "arti_contoh": "PIC (Atasan)"
  },
  {
   "kata": "先輩",
   "kana": "せんぱい",
-  "arti": "senior"
+  "arti": "senior",
+  "contoh": "**「先輩[せんぱい]」**",
+  "arti_contoh": "Senior"
  },
  {
   "kata": "同僚",
   "kana": "どうりょう",
-  "arti": "rekan kerja"
+  "arti": "rekan kerja",
+  "contoh": "**「同僚[どうりょう]」**",
+  "arti_contoh": "Rekan Kerja"
  },
  {
   "kata": "報告",
   "kana": "ほうこく",
-  "arti": "melapor; laporan"
+  "arti": "melapor; laporan",
+  "contoh": "作業報告[さぎょうほうこく]・後片付[あとかたづ]け",
+  "arti_contoh": "Laporan pekerjaan dan beres-beres akhir"
  },
  {
   "kata": "連絡",
   "kana": "れんらく",
-  "arti": "komunikasi; menghubungi"
+  "arti": "komunikasi; menghubungi",
+  "contoh": "病気[びょうき]等[など]で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
+  "arti_contoh": "Jika tidak bisa masuk kerja karena sakit atau hal lain, harus menghubungi/memberi kabar."
  },
  {
   "kata": "相談",
   "kana": "そうだん",
-  "arti": "konsultasi; berdiskusi"
+  "arti": "konsultasi; berdiskusi",
+  "contoh": "困[こま]った時[とき]は、勝手[かって]に判断[はんだん]せず、相談[そうだん]しましょう。",
+  "arti_contoh": "Saat kesulitan, jangan ambil keputusan sendiri, diskusikan dengan atasan Anda."
  },
  {
   "kata": "ホウレンソウ",
   "kana": "ほうれんそう",
-  "arti": "HOUkoku・RENraku・SOUdan (lapor, komunikasi, konsultasi)"
+  "arti": "HOUkoku・RENraku・SOUdan (lapor, komunikasi, konsultasi)",
+  "contoh": "ホウレンソウ（報告[ほうこく]・連絡[れんらく]・相談[そうだん]）が大切[たいせつ]です。",
+  "arti_contoh": "Houren-sou (lapor, kabari, konsultasi) itu penting."
  },
  {
   "kata": "クレーム",
   "kana": "クレーム",
-  "arti": "komplain; teguran dari tamu"
+  "arti": "komplain; teguran dari tamu",
+  "contoh": "紛失[ふんしつ]はクレームにつながるのでゴミか判断[はんだん]できないものは責任者[せきにんしゃ]に相談[そうだん]しよう！",
+  "arti_contoh": "Kehilangan barang akan menimbulkan komplain, jadi jika ada barang yang tidak bisa diidentifikasi, konsultasikan ke PIC."
  },
  {
   "kata": "ミーティング",
   "kana": "ミーティング",
-  "arti": "rapat"
+  "arti": "rapat",
+  "contoh": "ミーティング・準備[じゅんび]",
+  "arti_contoh": "Rapat, persiapan"
  },
  {
   "kata": "掃除機",
@@ -271,17 +345,23 @@
  {
   "kata": "自在ぼうき",
   "kana": "じざいぼうき",
-  "arti": "sapu ruangan"
+  "arti": "sapu ruangan",
+  "contoh": "自在[じざい]ぼうきは毛先[けさき]を上[うえ]にした状態[じょうたい]で保管[ほかん]しておく。",
+  "arti_contoh": "Saat menyimpan sapu ruangan, arahkan ujung sapu ke atas, taruh dalam Cleaning Trolley."
  },
  {
   "kata": "文化ちり取り",
   "kana": "ぶんかちりとり",
-  "arti": "pengki (serokan)"
+  "arti": "pengki (serokan)",
+  "contoh": "作業標示板[さぎょうひょうじばん]（フロアサイン）、自在[じざい]ぼうき、シダぼうき、文化[ぶんか]ちり取[と]り、ダストクロス。",
+  "arti_contoh": "Papan Tanda (Floor Sign); Sapu Ruangan; Sapu Ijuk; Pengki (Serokan); Dust Cloth."
  },
  {
   "kata": "ダストクロス",
   "kana": "ダストクロス",
-  "arti": "dust cloth (lap debu)"
+  "arti": "dust cloth (lap debu)",
+  "contoh": "ダストクロスでの清掃[せいそう]",
+  "arti_contoh": "Dust Cloth untuk lantai keramik"
  },
  {
   "kata": "モップ",
@@ -293,12 +373,16 @@
  {
   "kata": "バケツ",
   "kana": "バケツ",
-  "arti": "ember"
+  "arti": "ember",
+  "contoh": "ブラシ・ケース、仕切[しき]りバケツ、手袋[てぶくろ]（便器用[べんきよう]・その他[ほか]）、フロアサイン。",
+  "arti_contoh": "Sikat (brush) dan kotak; ember dengan sekat; sarung tangan (untuk toilet dan lainnya); Floor Sign."
  },
  {
   "kata": "タオル",
   "kana": "タオル",
-  "arti": "lap; handuk lap"
+  "arti": "lap; handuk lap",
+  "contoh": "タオルの絞[しぼ]り方[かた]",
+  "arti_contoh": "Cara memeras lap"
  },
  {
   "kata": "手袋",
@@ -317,17 +401,23 @@
  {
   "kata": "養生マット",
   "kana": "ようじょうマット",
-  "arti": "curing mat (alas peralatan)"
+  "arti": "curing mat (alas peralatan)",
+  "contoh": "ほこり取[と]り、モップ（赤[あか]）、自在[じざい]ぼうき、文化[ぶんか]ちりとり、バケツ、養生[ようじょう]マット。",
+  "arti_contoh": "Kemoceng; lap (merah); sapu ruangan; pengki (serokan); ember; curing mat."
  },
  {
   "kata": "白パッド",
   "kana": "しろパッド",
-  "arti": "pad putih"
+  "arti": "pad putih",
+  "contoh": "洗面台全体[せんめんだいぜんたい]を白[しろ]パッドで洗浄[せんじょう]してからタオルで水拭[みずぶ]きしよう。",
+  "arti_contoh": "Setelah membersihkan wastafel dengan pad putih, lap dengan kain basah."
  },
  {
   "kata": "ブラシ",
   "kana": "ブラシ",
-  "arti": "sikat (brush)"
+  "arti": "sikat (brush)",
+  "contoh": "トラップはブラシで奥[おく]までしっかり清掃[せいそう]。",
+  "arti_contoh": "Untuk lubang kloset, bersihkan dengan sikat sampai ke ujungnya."
  },
  {
   "kata": "幅木",
@@ -339,32 +429,44 @@
  {
   "kata": "ホコリ",
   "kana": "ホコリ",
-  "arti": "debu"
+  "arti": "debu",
+  "contoh": "汚[よご]れ（ホコリ）の種類[しゅるい]と大[おお]きさ",
+  "arti_contoh": "Ukuran dan jenis kotoran (debu)"
  },
  {
   "kata": "土砂",
   "kana": "どしゃ",
-  "arti": "tanah dan pasir"
+  "arti": "tanah dan pasir",
+  "contoh": "石材[せきざい]の床[ゆか]＋土砂[どしゃ] → 自在[じざい]ぼうきやデッキブラシ",
+  "arti_contoh": "Lantai berbahan batu + debu pasir (banyak kotoran debu pasir) → sapu dan Deck Brush."
  },
  {
   "kata": "水拭き",
   "kana": "みずぶき",
-  "arti": "mengelap basah"
+  "arti": "mengelap basah",
+  "contoh": "便器外側[べんきそとがわ]の水拭[みずぶ]き",
+  "arti_contoh": "Mengelap urinoir bagian luar (basah)."
  },
  {
   "kata": "乾拭き",
   "kana": "からぶき",
-  "arti": "mengelap kering"
+  "arti": "mengelap kering",
+  "contoh": "最後[さいご]に乾拭[からぶ]きをして仕上[しあ]げよう。",
+  "arti_contoh": "Terakhir lap dengan lap kering."
  },
  {
   "kata": "歩行動線",
   "kana": "ほこうどうせん",
-  "arti": "jalur lalu lalang"
+  "arti": "jalur lalu lalang",
+  "contoh": "歩行動線[ほこうどうせん]を重点的[じゅうてんてき]に",
+  "arti_contoh": "Pusatkan di jalur lalu lalang"
  },
  {
   "kata": "漏電",
   "kana": "ろうでん",
-  "arti": "kebocoran listrik"
+  "arti": "kebocoran listrik",
+  "contoh": "漏電[ろうでん]・過電流防止装置[かでんりゅうぼうしそうち]。",
+  "arti_contoh": "Perangkat pencegah listrik bocor atau arus pendek."
  },
  {
   "kata": "プラグ",
@@ -376,22 +478,30 @@
  {
   "kata": "コード",
   "kana": "コード",
-  "arti": "kabel listrik"
+  "arti": "kabel listrik",
+  "contoh": "コードの根元[ねもと]からタオルで拭[ふ]く。",
+  "arti_contoh": "Lap kabel dengan kain lap dari pangkal kabelnya."
  },
  {
   "kata": "ノズル",
   "kana": "ノズル",
-  "arti": "nosel"
+  "arti": "nosel",
+  "contoh": "ノズル、ウォンド、ホース、本体[ほんたい]。",
+  "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
  },
  {
   "kata": "ウォンド",
   "kana": "ウォンド",
-  "arti": "wand (tongkat penyedot)"
+  "arti": "wand (tongkat penyedot)",
+  "contoh": "ノズル、ウォンド、ホース、本体[ほんたい]。",
+  "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
  },
  {
   "kata": "ホース",
   "kana": "ホース",
-  "arti": "selang"
+  "arti": "selang",
+  "contoh": "ノズル、ウォンド、ホース、本体[ほんたい]。",
+  "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
  },
  {
   "kata": "紙袋",
@@ -403,22 +513,30 @@
  {
   "kata": "本体",
   "kana": "ほんたい",
-  "arti": "body (badan mesin)"
+  "arti": "body (badan mesin)",
+  "contoh": "ノズル、ウォンド、ホース、本体[ほんたい]。",
+  "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
  },
  {
   "kata": "異音",
   "kana": "いおん",
-  "arti": "bunyi aneh"
+  "arti": "bunyi aneh",
+  "contoh": "機械[きかい]から異音[いおん]がしたら、すぐに報告[ほうこく]する。",
+  "arti_contoh": "Kalau mesin berbunyi aneh, segera laporkan."
  },
  {
   "kata": "発熱",
   "kana": "はつねつ",
-  "arti": "panas berlebih"
+  "arti": "panas berlebih",
+  "contoh": "本体[ほんたい]が発熱[はつねつ]していないか確認[かくにん]する。",
+  "arti_contoh": "Periksa apakah bodi mesin tidak panas berlebihan."
  },
  {
   "kata": "断線",
   "kana": "だんせん",
-  "arti": "kabel putus"
+  "arti": "kabel putus",
+  "contoh": "コードが断線[だんせん]していないか点検[てんけん]する。",
+  "arti_contoh": "Periksa apakah kabel tidak putus."
  },
  {
   "kata": "目皿",
@@ -430,42 +548,58 @@
  {
   "kata": "小便器",
   "kana": "しょうべんき",
-  "arti": "urinoir"
+  "arti": "urinoir",
+  "contoh": "小便器清掃[しょうべんきせいそう]の3つの工程[こうてい]",
+  "arti_contoh": "3 proses membersihkan urinoir"
  },
  {
   "kata": "大便器",
   "kana": "だいべんき",
-  "arti": "kloset (WC)"
+  "arti": "kloset (WC)",
+  "contoh": "日本[にほん]の大便器[だいべんき]",
+  "arti_contoh": "Kloset di Jepang"
  },
  {
   "kata": "洗面台",
   "kana": "せんめんだい",
-  "arti": "wastafel"
+  "arti": "wastafel",
+  "contoh": "トイレ清掃[せいそう]：ごみ箱[ばこ]・補充[ほじゅう]、洗面台[せんめんだい]、小便器[しょうべんき]、便器[べんき]、床[ゆか]",
+  "arti_contoh": "Pembersihan Toilet: tempat sampah dan pengisian ulang, wastafel, urinoir, kloset/WC, lantai"
  },
  {
   "kata": "蛇口",
   "kana": "じゃぐち",
-  "arti": "keran"
+  "arti": "keran",
+  "contoh": "蛇口[じゃぐち]の水[みず]を止[と]める。",
+  "arti_contoh": "Mematikan air keran."
  },
  {
   "kata": "排水口",
   "kana": "はいすいこう",
-  "arti": "lubang pembuangan (afur)"
+  "arti": "lubang pembuangan (afur)",
+  "contoh": "排水口[はいすいこう]のごみを取[と]り除[のぞ]く。",
+  "arti_contoh": "Membuang sampah di lubang pembuangan."
  },
  {
   "kata": "リム",
   "kana": "リム",
-  "arti": "rim (tepi dalam kloset)"
+  "arti": "rim (tepi dalam kloset)",
+  "contoh": "リムの裏側[うらがわ]に汚[よご]れがつくのでしっかりと清掃[せいそう]しないといけない。",
+  "arti_contoh": "Di sisi belakang rim ada kotoran yang menempel, jadi harus dibersihkan dengan teliti."
  },
  {
   "kata": "人感センサー",
   "kana": "じんかんセンサー",
-  "arti": "sensor manusia"
+  "arti": "sensor manusia",
+  "contoh": "人[ひと]が触[さわ]る場所[ばしょ]の乾拭[からぶ]き（棚[たな]、人感[じんかん]センサー）",
+  "arti_contoh": "Mengelap bagian yang disentuh orang (kering): rak, sensor manusia."
  },
  {
   "kata": "廃棄物",
   "kana": "はいきぶつ",
-  "arti": "limbah; sampah"
+  "arti": "limbah; sampah",
+  "contoh": "廃棄物[はいきぶつ]コレクターを移動[いどう]しながらゴミを回収[かいしゅう]。",
+  "arti_contoh": "Kumpulkan sampah sambil mendorong keranjang limbah."
  },
  {
   "kata": "分別",
@@ -484,82 +618,114 @@
  {
   "kata": "感染予防",
   "kana": "かんせんよぼう",
-  "arti": "pencegahan infeksi"
+  "arti": "pencegahan infeksi",
+  "contoh": "手洗[てあら]い＝感染予防[かんせんよぼう]",
+  "arti_contoh": "Cuci tangan = pencegahan infeksi"
  },
  {
   "kata": "安全",
   "kana": "あんぜん",
-  "arti": "keselamatan; aman"
+  "arti": "keselamatan; aman",
+  "contoh": "なぜ安全[あんぜん]が大切[たいせつ]か",
+  "arti_contoh": "Mengapa keamanan penting"
  },
  {
   "kata": "衛生",
   "kana": "えいせい",
-  "arti": "kebersihan; sanitasi"
+  "arti": "kebersihan; sanitasi",
+  "contoh": "労働衛生[ろうどうえいせい]で守[まも]ること",
+  "arti_contoh": "Hal yang harus dilakukan untuk Kesehatan Kerja"
  },
  {
   "kata": "転倒",
   "kana": "てんとう",
-  "arti": "terjungkal; jatuh terpeleset"
+  "arti": "terjungkal; jatuh terpeleset",
+  "contoh": "労働災害[ろうどうさいがい]は転倒[てんとう]が4割[わり]、墜落[ついらく]・転落[てんらく]が2割[わり]です。",
+  "arti_contoh": "40% kecelakaan kerja dalam pekerjaan Cleaning Service adalah terjungkal, dan 20% adalah tabrakan dan terjatuh."
  },
  {
   "kata": "感電",
   "kana": "かんでん",
-  "arti": "tersetrum listrik"
+  "arti": "tersetrum listrik",
+  "contoh": "ぬれた手[て]でプラグを触[ふ]ると感電[かんでん]する。",
+  "arti_contoh": "Menyentuh colokan dengan tangan basah bisa tersengat listrik."
  },
  {
   "kata": "塩素系",
   "kana": "えんそけい",
-  "arti": "berbahan dasar klorin"
+  "arti": "berbahan dasar klorin",
+  "contoh": "**洗剤[せんざい]を使[つか]う時[とき]：**塩素系[えんそけい]と酸性[さんせい]の洗剤[せんざい]を混[ま]ぜると、中毒[ちゅうどく]を起[お]こすことがあるので絶対[ぜったい]に行[おこな]ってはいけません。",
+  "arti_contoh": "Saat menggunakan karbol/sabun: jangan pernah mencampurkan karbol berbahan dasar klorin dengan asam karena akan menyebabkan keracunan."
  },
  {
   "kata": "注射針",
   "kana": "ちゅうしゃばり",
-  "arti": "jarum suntik"
+  "arti": "jarum suntik",
+  "contoh": "ごみ箱[ごみばこ]に注射針[ちゅうしゃばり]が入[はい]っていることがある。",
+  "arti_contoh": "Kadang ada jarum suntik di tempat sampah."
  },
  {
   "kata": "床材",
   "kana": "ゆかざい",
-  "arti": "material lantai"
+  "arti": "material lantai",
+  "contoh": "① 床材[ゆかざい]の種類[しゅるい]",
+  "arti_contoh": "① Jenis material lantai"
  },
  {
   "kata": "弾性床材",
   "kana": "だんせいゆかざい",
-  "arti": "lantai elastis (vinil, linoleum, karet)"
+  "arti": "lantai elastis (vinil, linoleum, karet)",
+  "contoh": "**弾性床材[だんせいゆかざい]：**ビニル系[けい]、リノリウム系[けい]、ゴム系[けい]",
+  "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
  },
  {
   "kata": "カーペット",
   "kana": "カーペット",
-  "arti": "karpet"
+  "arti": "karpet",
+  "contoh": "**カーペット床材[ゆかざい]：**タイルカーペット、じゅうたん",
+  "arti_contoh": "Lantai karpet: karpet vinil, loop pile (tidak berbulu)."
  },
  {
   "kata": "無機質",
   "kana": "むきしつ",
-  "arti": "anorganik"
+  "arti": "anorganik",
+  "contoh": "**無機質[むきしつ]の汚[よご]れ：**ホコリ（土[つち]、綿[わた]）、灰[はい]など。",
+  "arti_contoh": "Kotoran anorganik: debu (pasir, kapas), debu rokok."
  },
  {
   "kata": "水溶性",
   "kana": "すいようせい",
-  "arti": "larut air"
+  "arti": "larut air",
+  "contoh": "**水溶性[すいようせい]：**染[し]み、飲[の]み物[もの]など。",
+  "arti_contoh": "Tipe cair (larut air): noda cair, minuman, dan lainnya."
  },
  {
   "kata": "しつれいします",
   "kana": "しつれいします",
-  "arti": "permisi (masuk/keluar)"
+  "arti": "permisi (masuk/keluar)",
+  "contoh": "しつれいします。",
+  "arti_contoh": "Permisi."
  },
  {
   "kata": "おつかれさまでした",
   "kana": "おつかれさまでした",
-  "arti": "terima kasih atas kerja kerasnya"
+  "arti": "terima kasih atas kerja kerasnya",
+  "contoh": "おつかれさまでした。お先[さき]に失礼[しつれい]します。",
+  "arti_contoh": "Terima kasih atas kerja kerasnya. Saya pulang duluan."
  },
  {
   "kata": "だいじょうぶ",
   "kana": "だいじょうぶ",
-  "arti": "tidak apa-apa; aman"
+  "arti": "tidak apa-apa; aman",
+  "contoh": "だいじょうぶですか。",
+  "arti_contoh": "Apakah baik-baik saja?"
  },
  {
   "kata": "きをつけて",
   "kana": "きをつけて",
-  "arti": "hati-hati"
+  "arti": "hati-hati",
+  "contoh": "床[ゆか]がぬれているので、きをつけて。",
+  "arti_contoh": "Lantainya basah, hati-hati."
  },
  {
   "kata": "ゆっくり",
@@ -585,62 +751,86 @@
  {
   "kata": "すこし",
   "kana": "すこし",
-  "arti": "sedikit"
+  "arti": "sedikit",
+  "contoh": "すこし待[ま]ってください。",
+  "arti_contoh": "Tolong tunggu sebentar."
  },
  {
   "kata": "たくさん",
   "kana": "たくさん",
-  "arti": "banyak"
+  "arti": "banyak",
+  "contoh": "ごみがたくさんあります。",
+  "arti_contoh": "Ada banyak sampah."
  },
  {
   "kata": "かならず",
   "kana": "かならず",
-  "arti": "pasti; selalu"
+  "arti": "pasti; selalu",
+  "contoh": "かならず報告[ほうこく]します。",
+  "arti_contoh": "Pasti saya laporkan."
  },
  {
   "kata": "油溶性",
   "kana": "ゆようせい",
-  "arti": "larut minyak"
+  "arti": "larut minyak",
+  "contoh": "**油溶性[ゆようせい]：**ヒールマーク、皮脂[ひし]など。",
+  "arti_contoh": "Tipe minyak: bekas heal (sepatu), sebum, dan lainnya."
  },
  {
   "kata": "まず",
   "kana": "まず",
-  "arti": "pertama-tama"
+  "arti": "pertama-tama",
+  "contoh": "まずヘッドにダストクロスを巻[ま]き込[こ]んで固定[こてい]する（養生[ようじょう]マットの上[うえ]で挟[はさ]んで固定[こてい]）。",
+  "arti_contoh": "Pertama, pasang Dust Cloth ke bagian kepala pel: letakkan di atas Curing Mat (sejenis tatakan), jepit, lalu rapihkan."
  },
  {
   "kata": "つぎに",
   "kana": "つぎに",
-  "arti": "selanjutnya"
+  "arti": "selanjutnya",
+  "contoh": "つぎに、床[ゆか]を拭[ふ]きます。",
+  "arti_contoh": "Selanjutnya, mengelap lantai."
  },
  {
   "kata": "さいごに",
   "kana": "さいごに",
-  "arti": "terakhir"
+  "arti": "terakhir",
+  "contoh": "さいごに、道具[どうぐ]を片付[かたづ]けます。",
+  "arti_contoh": "Terakhir, merapikan peralatan."
  },
  {
   "kata": "かるく",
   "kana": "かるく",
-  "arti": "ringan; pelan"
+  "arti": "ringan; pelan",
+  "contoh": "かるく絞[しぼ]ってから使[つか]う。",
+  "arti_contoh": "Peras ringan sebelum dipakai."
  },
  {
   "kata": "ていねいに",
   "kana": "ていねいに",
-  "arti": "dengan teliti; sopan"
+  "arti": "dengan teliti; sopan",
+  "contoh": "ていねいに拭[ふ]く。",
+  "arti_contoh": "Mengelap dengan teliti."
  },
  {
   "kata": "はやく",
   "kana": "はやく",
-  "arti": "cepat"
+  "arti": "cepat",
+  "contoh": "はやく報告[ほうこく]してください。",
+  "arti_contoh": "Tolong lapor dengan cepat."
  },
  {
   "kata": "おなじ",
   "kana": "おなじ",
-  "arti": "sama"
+  "arti": "sama",
+  "contoh": "おなじ場所[ばしょ]を二回[にかい]拭[ふ]く。",
+  "arti_contoh": "Mengelap tempat yang sama dua kali."
  },
  {
   "kata": "ぜんぶ",
   "kana": "ぜんぶ",
-  "arti": "semua"
+  "arti": "semua",
+  "contoh": "ぜんぶ終[お]わりました。",
+  "arti_contoh": "Semuanya sudah selesai."
  },
  {
   "kata": "すぐ",
@@ -659,7 +849,9 @@
  {
   "kata": "感染性",
   "kana": "かんせんせい",
-  "arti": "dapat menularkan penyakit"
+  "arti": "dapat menularkan penyakit",
+  "contoh": "**感染性[かんせんせい]の汚[よご]れ：**カビ、ダニなど。",
+  "arti_contoh": "Kotoran yang dapat menularkan penyakit: jamur, kutu, dan lainnya."
  },
  {
   "kata": "〜ないでください",
@@ -734,7 +926,9 @@
  {
   "kata": "酸性",
   "kana": "さんせい",
-  "arti": "asam"
+  "arti": "asam",
+  "contoh": "**酸性[さんせい]（pH 0）：**酸性[さんせい]トイレクリーナー、鉄[てつ]サビ落[お]とし。",
+  "arti_contoh": "Tipe asam (pH 0): pembersih toilet asam, pembersih karat besi."
  },
  {
   "kata": "〜てから",
@@ -809,7 +1003,9 @@
  {
   "kata": "中性",
   "kana": "ちゅうせい",
-  "arti": "netral"
+  "arti": "netral",
+  "contoh": "**弱酸性[じゃくさんせい]（pH 3）：**浴室用洗剤[よくしつようせんざい]、中性[ちゅうせい]トイレクリーナー。",
+  "arti_contoh": "Tipe keasaman rendah (pH 3): karbol toilet."
  },
  {
   "kata": "〜やすい",
@@ -884,7 +1080,9 @@
  {
   "kata": "アルカリ性",
   "kana": "アルカリせい",
-  "arti": "alkali"
+  "arti": "alkali",
+  "contoh": "**弱[じゃく]アルカリ性[せい]（pH 8）：**表面洗浄剤[ひょうめんせんじょうざい]、一般住宅用洗剤[いっぱんじゅうたくようせんざい]、アルカリ性[せい]トイレクリーナー。",
+  "arti_contoh": "Tipe alkali rendah (pH 8): karbol untuk permukaan lantai, karbol umum di pasaran, pembersih toilet tipe alkali."
  },
  {
   "kata": "〜を〜に（移動）",
@@ -959,7 +1157,9 @@
  {
   "kata": "界面活性剤",
   "kana": "かいめんかっせいざい",
-  "arti": "surfaktan"
+  "arti": "surfaktan",
+  "contoh": "洗剤[せんざい]には界面活性剤[かいめんかっせいざい]が入[はい]っている。",
+  "arti_contoh": "Deterjen mengandung surfaktan."
  },
  {
   "kata": "〜から〜まで",
@@ -997,14 +1197,193 @@
   "arti_contoh": "Kalau tidak diperiksa, berbahaya."
  },
  {
+  "kata": "表紙",
+  "kana": "ひょうし",
+  "arti": "sampul",
+  "contoh": "本[ほん]の表紙[ひょうし]を見[み]る。",
+  "arti_contoh": "Melihat sampul buku."
+ },
+ {
+  "kata": "協会",
+  "kana": "きょうかい",
+  "arti": "asosiasi",
+  "contoh": "特定技能評価試験[とくていぎのうひょうかしけん]：日本[にほん]ビルメンテナンス協会[きょうかい]（JBMA）",
+  "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)"
+ },
+ {
+  "kata": "特定技能",
+  "kana": "とくていぎのう",
+  "arti": "keterampilan khusus (TOKUTEI GINOU)",
+  "contoh": "**特定技能[とくていぎのう]評価試験[ひょうかしけん]に合格[ごうかく]**しました。",
+  "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU."
+ },
+ {
+  "kata": "評価試験",
+  "kana": "ひょうかしけん",
+  "arti": "ujian penilaian",
+  "contoh": "**特定技能[とくていぎのう]評価試験[ひょうかしけん]に合格[ごうかく]**しました。",
+  "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU."
+ },
+ {
+  "kata": "特定技能評価試験",
+  "kana": "とくていぎのうひょうかしけん",
+  "arti": "ujian penilaian TOKUTEI GINOU",
+  "contoh": "**特定技能[とくていぎのう]評価試験[ひょうかしけん]に合格[ごうかく]**しました。",
+  "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU."
+ },
+ {
   "kata": "浸透",
   "kana": "しんとう",
-  "arti": "penetrasi; meresap"
+  "arti": "penetrasi; meresap",
+  "contoh": "洗剤[せんざい]を汚[よご]れに浸透[しんとう]させる。",
+  "arti_contoh": "Membiarkan deterjen meresap ke kotoran."
+ },
+ {
+  "kata": "学習",
+  "kana": "がくしゅう",
+  "arti": "belajar; pembelajaran",
+  "contoh": "毎日[まいにち]、学習[がくしゅう]する。",
+  "arti_contoh": "Belajar setiap hari."
+ },
+ {
+  "kata": "最初",
+  "kana": "さいしょ",
+  "arti": "pertama; awal",
+  "contoh": "最初[さいしょ]のページから読[よ]む。",
+  "arti_contoh": "Membaca dari halaman pertama."
+ },
+ {
+  "kata": "初出社",
+  "kana": "はつしゅっしゃ",
+  "arti": "hari pertama masuk kerja",
+  "contoh": "はじめのマンガ：初出社[はつしゅっしゃ]の日[ひ]",
+  "arti_contoh": "Cerita pembuka: hari pertama masuk kerja"
+ },
+ {
+  "kata": "今日",
+  "kana": "きょう",
+  "arti": "hari ini",
+  "contoh": "今日[きょう]から初出社[はつしゅっしゃ]です。",
+  "arti_contoh": "Mulai hari ini hari pertama masuk kerja."
+ },
+ {
+  "kata": "声",
+  "kana": "こえ",
+  "arti": "suara",
+  "contoh": "元気[げんき]な声[こえ]であいさつをする。",
+  "arti_contoh": "Memberi salam dengan suara semangat."
+ },
+ {
+  "kata": "子供",
+  "kana": "こども",
+  "arti": "anak-anak",
+  "contoh": "子供[こども]の頃[ころ]からマンガやアニメが好[す]きで、日本[にほん]に憧[あこが]れていました。",
+  "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang."
+ },
+ {
+  "kata": "憧れる",
+  "kana": "あこがれる",
+  "arti": "mengagumi; mendambakan",
+  "contoh": "子供[こども]の頃[ころ]からマンガやアニメが好[す]きで、日本[にほん]に憧[あこが]れていました。",
+  "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang."
+ },
+ {
+  "kata": "合格",
+  "kana": "ごうかく",
+  "arti": "lulus (ujian)",
+  "contoh": "**特定技能[とくていぎのう]評価試験[ひょうかしけん]に合格[ごうかく]**しました。",
+  "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU."
+ },
+ {
+  "kata": "取得",
+  "kana": "しゅとく",
+  "arti": "memperoleh; mendapatkan",
+  "contoh": "合格[ごうかく]して、**特定技能[とくていぎのう]ビザを取得[しゅとく]**しました。",
+  "arti_contoh": "Setelah lulus, Mai mendapat visa TOKUTEI GINOU sehingga bisa bekerja di Jepang."
+ },
+ {
+  "kata": "感謝",
+  "kana": "かんしゃ",
+  "arti": "rasa syukur; terima kasih",
+  "contoh": "合格[ごうかく]できて感謝[かんしゃ]しています。",
+  "arti_contoh": "Saya bersyukur bisa lulus."
  },
  {
   "kata": "樹脂",
   "kana": "じゅし",
-  "arti": "resin"
+  "arti": "resin",
+  "contoh": "**乳化性[にゅうかせい]ワックス：**ロウ、合成樹脂[ごうせいじゅし]。",
+  "arti_contoh": "Wax emulsi: lilin, resin sintetis."
+ },
+ {
+  "kata": "就労",
+  "kana": "しゅうろう",
+  "arti": "bekerja; masuk dunia kerja",
+  "contoh": "流[なが]れ：特定技能[とくていぎのう]評価試験[ひょうかしけん] → 合格[ごうかく] → 特定技能[とくていぎのう]ビザ取得[しゅとく] → 就労[しゅうろう]",
+  "arti_contoh": "Alur ke Jepang: Ujian Penilaian TOKUTEI GINOU → LULUS → dapat Visa TOKUTEI GINOU → mulai bekerja."
+ },
+ {
+  "kata": "第一印象",
+  "kana": "だいいちいんしょう",
+  "arti": "kesan pertama",
+  "contoh": "マイさんの第一印象[だいいちいんしょう]：日本[にほん]のビルはとても綺麗[きれい]",
+  "arti_contoh": "Kesan pertama Mai: gedung di Jepang sangat bersih"
+ },
+ {
+  "kata": "驚く",
+  "kana": "おどろく",
+  "arti": "terkejut",
+  "contoh": "ビルがきれいで驚[おどろ]いた。",
+  "arti_contoh": "Saya kaget gedungnya sangat bersih."
+ },
+ {
+  "kata": "公共施設",
+  "kana": "こうきょうしせつ",
+  "arti": "fasilitas umum",
+  "contoh": "公共施設[こうきょうしせつ]のトイレを掃除[そうじ]する。",
+  "arti_contoh": "Membersihkan toilet fasilitas umum."
+ },
+ {
+  "kata": "説明",
+  "kana": "せつめい",
+  "arti": "penjelasan",
+  "contoh": "先輩[せんぱい]が仕事[しごと]を説明[せつめい]する。",
+  "arti_contoh": "Senior menjelaskan pekerjaan."
+ },
+ {
+  "kata": "安全性",
+  "kana": "あんぜんせい",
+  "arti": "keamanan; sifat aman",
+  "contoh": "**安全性[あんぜんせい]の維持[いじ]**：害虫[がいちゅう]や病気[びょうき]から人々[ひとびと]を守[まも]る。",
+  "arti_contoh": "Menjaga Keamanan: dengan Cleaning Service kita melindungi orang-orang dari hama dan penyakit."
+ },
+ {
+  "kata": "害虫",
+  "kana": "がいちゅう",
+  "arti": "hama; serangga pengganggu",
+  "contoh": "**安全性[あんぜんせい]の維持[いじ]**：害虫[がいちゅう]や病気[びょうき]から人々[ひとびと]を守[まも]る。",
+  "arti_contoh": "Menjaga Keamanan: dengan Cleaning Service kita melindungi orang-orang dari hama dan penyakit."
+ },
+ {
+  "kata": "暮らす",
+  "kana": "くらす",
+  "arti": "hidup; tinggal",
+  "contoh": "みんなが快適[かいてき]に暮[く]らせるようにする。",
+  "arti_contoh": "Membuat semua orang bisa hidup nyaman."
+ },
+ {
+  "kata": "幸せ",
+  "kana": "しあわせ",
+  "arti": "bahagia",
+  "contoh": "みんなを幸[しあわ]せにしよう。",
+  "arti_contoh": "Mari membahagiakan semua orang."
+ },
+ {
+  "kata": "試験",
+  "kana": "しけん",
+  "arti": "ujian",
+  "contoh": "**特定技能[とくていぎのう]評価試験[ひょうかしけん]に合格[ごうかく]**しました。",
+  "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU."
  },
  {
   "kata": "ポリッシャー",
@@ -1014,39 +1393,536 @@
   "arti_contoh": "Polisher dikendalikan dengan pegangan tanpa banyak tenaga."
  },
  {
+  "kata": "社会",
+  "kana": "しゃかい",
+  "arti": "masyarakat",
+  "contoh": "社会[しゃかい]の期待[きたい]に応[こた]える。",
+  "arti_contoh": "Memenuhi harapan masyarakat."
+ },
+ {
+  "kata": "期待",
+  "kana": "きたい",
+  "arti": "harapan",
+  "contoh": "お客様[おきゃくさま]の期待[きたい]に応[こた]える。",
+  "arti_contoh": "Memenuhi harapan tamu."
+ },
+ {
+  "kata": "団体",
+  "kana": "だんたい",
+  "arti": "organisasi; kelompok",
+  "contoh": "ASCFは、JBMAの依頼[いらい]に応[こた]え、クリーニング業界[ぎょうかい]の**外国人材[がいこくじんざい]の採用[さいよう]と教育[きょういく]を支援[しえん]**する団体[だんたい]です。",
+  "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik."
+ },
+ {
+  "kata": "設立",
+  "kana": "せつりつ",
+  "arti": "pendirian",
+  "contoh": "1996年[ねん]に設立[せつりつ]された。",
+  "arti_contoh": "Didirikan pada tahun 1996."
+ },
+ {
+  "kata": "分野",
+  "kana": "ぶんや",
+  "arti": "bidang",
+  "contoh": "ビルクリーニング分野[ぶんや]の試験[しけん]を受[う]ける。",
+  "arti_contoh": "Mengikuti ujian bidang pembersihan gedung."
+ },
+ {
+  "kata": "実施",
+  "kana": "じっし",
+  "arti": "pelaksanaan; menyelenggarakan",
+  "contoh": "試験[しけん]を実施[じっし]する。",
+  "arti_contoh": "Menyelenggarakan ujian."
+ },
+ {
+  "kata": "外国人材",
+  "kana": "がいこくじんざい",
+  "arti": "tenaga kerja asing",
+  "contoh": "ASCF（外国人材[がいこくじんざい]受入[うけい]れサポートセンター）",
+  "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)"
+ },
+ {
+  "kata": "受入れ",
+  "kana": "うけいれ",
+  "arti": "penerimaan",
+  "contoh": "ASCF（外国人材[がいこくじんざい]受入[うけい]れサポートセンター）",
+  "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)"
+ },
+ {
+  "kata": "依頼",
+  "kana": "いらい",
+  "arti": "permintaan",
+  "contoh": "ASCFは、JBMAの依頼[いらい]に応[こた]え、クリーニング業界[ぎょうかい]の**外国人材[がいこくじんざい]の採用[さいよう]と教育[きょういく]を支援[しえん]**する団体[だんたい]です。",
+  "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik."
+ },
+ {
+  "kata": "業界",
+  "kana": "ぎょうかい",
+  "arti": "industri",
+  "contoh": "ASCFは、JBMAの依頼[いらい]に応[こた]え、クリーニング業界[ぎょうかい]の**外国人材[がいこくじんざい]の採用[さいよう]と教育[きょういく]を支援[しえん]**する団体[だんたい]です。",
+  "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik."
+ },
+ {
   "kata": "パッド",
   "kana": "パッド",
-  "arti": "pad"
+  "arti": "pad",
+  "contoh": "パッドへの圧[あつ]",
+  "arti_contoh": "Tekanan pad"
+ },
+ {
+  "kata": "採用",
+  "kana": "さいよう",
+  "arti": "perekrutan",
+  "contoh": "ASCFは、JBMAの依頼[いらい]に応[こた]え、クリーニング業界[ぎょうかい]の**外国人材[がいこくじんざい]の採用[さいよう]と教育[きょういく]を支援[しえん]**する団体[だんたい]です。",
+  "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik."
+ },
+ {
+  "kata": "支援",
+  "kana": "しえん",
+  "arti": "dukungan; bantuan",
+  "contoh": "ASCFは、JBMAの依頼[いらい]に応[こた]え、クリーニング業界[ぎょうかい]の**外国人材[がいこくじんざい]の採用[さいよう]と教育[きょういく]を支援[しえん]**する団体[だんたい]です。",
+  "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik."
+ },
+ {
+  "kata": "資格",
+  "kana": "しかく",
+  "arti": "kualifikasi; sertifikat",
+  "contoh": "クリーニングに関[かん]する資格[しかく]",
+  "arti_contoh": "Kualifikasi mengenai Cleaning Service"
+ },
+ {
+  "kata": "技能者",
+  "kana": "ぎのうしゃ",
+  "arti": "tenaga terampil",
+  "contoh": "プロの技能者[ぎのうしゃ]を育[そだ]てる。",
+  "arti_contoh": "Mendidik tenaga terampil profesional."
+ },
+ {
+  "kata": "講習",
+  "kana": "こうしゅう",
+  "arti": "pelatihan; kursus",
+  "contoh": "講習[こうしゅう]を受[う]ける。",
+  "arti_contoh": "Mengikuti pelatihan."
+ },
+ {
+  "kata": "国",
+  "kana": "くに",
+  "arti": "negara",
+  "contoh": "ASCF（外国人材[がいこくじんざい]受入[うけい]れサポートセンター）",
+  "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)"
+ },
+ {
+  "kata": "技能",
+  "kana": "ぎのう",
+  "arti": "keterampilan",
+  "contoh": "特定技能評価試験[とくていぎのうひょうかしけん]：日本[にほん]ビルメンテナンス協会[きょうかい]（JBMA）",
+  "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)"
+ },
+ {
+  "kata": "検定",
+  "kana": "けんてい",
+  "arti": "ujian sertifikasi",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
+  "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional)."
+ },
+ {
+  "kata": "毎年",
+  "kana": "まいとし",
+  "arti": "setiap tahun",
+  "contoh": "毎年[まいとし]、試験[しけん]がある。",
+  "arti_contoh": "Setiap tahun ada ujian."
+ },
+ {
+  "kata": "数千人",
+  "kana": "すうせんにん",
+  "arti": "beberapa ribu orang",
+  "contoh": "毎年[まいとし]、数千人[すうせんにん]が受験[じゅけん]する。",
+  "arti_contoh": "Setiap tahun ribuan orang mengikuti ujian."
  },
  {
   "kata": "フロアパッド",
   "kana": "フロアパッド",
-  "arti": "floor pad"
+  "arti": "floor pad",
+  "contoh": "次[つぎ]はフロアパッドを外[はず]して汚水[おすい]をたらさないように回収[かいしゅう]しよう（タオルで汚水[おすい]を受[う]ける）。",
+  "arti_contoh": "Lepaskan floor pad. Kumpulkan air kotor jangan sampai menetes (lap air kotor dengan kain lap)."
+ },
+ {
+  "kata": "号",
+  "kana": "ごう",
+  "arti": "nomor; No. (1号)",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
+  "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional)."
+ },
+ {
+  "kata": "技能検定",
+  "kana": "ぎのうけんてい",
+  "arti": "ujian keterampilan nasional",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
+  "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional)."
+ },
+ {
+  "kata": "級",
+  "kana": "きゅう",
+  "arti": "tingkat; level (3級)",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
+  "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional)."
+ },
+ {
+  "kata": "実施団体",
+  "kana": "じっしだんたい",
+  "arti": "organisasi penyelenggara",
+  "contoh": "JBMAは試験[しけん]の実施団体[じっしだんたい]です。",
+  "arti_contoh": "JBMA adalah organisasi penyelenggara ujian."
+ },
+ {
+  "kata": "目次",
+  "kana": "もくじ",
+  "arti": "daftar isi",
+  "contoh": "目次[もくじ]で内容[ないよう]を探[さが]す。",
+  "arti_contoh": "Mencari isi buku lewat daftar isi."
+ },
+ {
+  "kata": "章",
+  "kana": "しょう",
+  "arti": "bab",
+  "contoh": "第[だい]２章[しょう] 日常清掃[にちじょうせいそう]",
+  "arti_contoh": "BAB 2 Pembersihan Harian"
+ },
+ {
+  "kata": "探す",
+  "kana": "さがす",
+  "arti": "mencari",
+  "contoh": "目次[もくじ]でページを探[さが]す。",
+  "arti_contoh": "Mencari halaman lewat daftar isi."
+ },
+ {
+  "kata": "衛生管理",
+  "kana": "えいせいかんり",
+  "arti": "pengelolaan kebersihan/kesehatan",
+  "contoh": "廃棄物[はいきぶつ]の処理[しょり]、衛生管理[えいせいかんり]、作業[さぎょう]の安全[あんぜん]と衛生[えいせい]の手順[てじゅん]",
+  "arti_contoh": "Pengolahan Limbah, Mengenai Kontrol Kebersihan, Prosedur Keamanan dan Kebersihan Bekerja"
+ },
+ {
+  "kata": "態度",
+  "kana": "たいど",
+  "arti": "sikap",
+  "contoh": "お客様[おきゃくさま]への態度[たいど]に注意[ちゅうい]する。",
+  "arti_contoh": "Memperhatikan sikap pada tamu."
+ },
+ {
+  "kata": "扉",
+  "kana": "とびら",
+  "arti": "pintu; halaman sampul bab",
+  "contoh": "16ページ：第[だい]２章[しょう]「日常清掃[にちじょうせいそう]」の扉[とびら]ページ。",
+  "arti_contoh": "Halaman 16: sampul BAB 2 \"Pembersihan Harian\" (日常清掃) yang membuka bab pembersihan harian."
  },
  {
   "kata": "ハンドル",
   "kana": "ハンドル",
-  "arti": "pegangan (handle)"
+  "arti": "pegangan (handle)",
+  "contoh": "ハンドルを少[すこ]し上[あ]げる → 右[みぎ]に進[すす]む。",
+  "arti_contoh": "Naikkan sedikit pegangan → polisher maju ke kanan."
+ },
+ {
+  "kata": "発行",
+  "kana": "はっこう",
+  "arti": "penerbitan",
+  "contoh": "83〜85ページ：本[ほん]の最後[さいご]のページと発行[はっこう]情報[じょうほう]（JBMA）。",
+  "arti_contoh": "Halaman 83–85: halaman penutup buku dan keterangan penerbit (JBMA)."
+ },
+ {
+  "kata": "働く",
+  "kana": "はたらく",
+  "arti": "bekerja",
+  "contoh": "労働衛生[ろうどうえいせい]で守[まも]ること",
+  "arti_contoh": "Hal yang harus dilakukan untuk Kesehatan Kerja"
+ },
+ {
+  "kata": "頃",
+  "kana": "ころ",
+  "arti": "masa; sekitar (子供の頃)",
+  "contoh": "子供[こども]の頃[ころ]からマンガやアニメが好[す]きで、日本[にほん]に憧[あこが]れていました。",
+  "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang."
+ },
+ {
+  "kata": "好き",
+  "kana": "すき",
+  "arti": "suka",
+  "contoh": "子供[こども]の頃[ころ]からマンガやアニメが好[す]きで、日本[にほん]に憧[あこが]れていました。",
+  "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang."
+ },
+ {
+  "kata": "保つ",
+  "kana": "たもつ",
+  "arti": "menjaga; mempertahankan",
+  "contoh": "**キレイの維持[いじ]**：きれいな状態[じょうたい]を保[たも]つ。",
+  "arti_contoh": "Menjaga kebersihan (キレイの維持): tetap bersih dan nyaman."
+ },
+ {
+  "kata": "応える",
+  "kana": "こたえる",
+  "arti": "memenuhi (harapan); menanggapi",
+  "contoh": "ASCFは、JBMAの依頼[いらい]に応[こた]え、クリーニング業界[ぎょうかい]の**外国人材[がいこくじんざい]の採用[さいよう]と教育[きょういく]を支援[しえん]**する団体[だんたい]です。",
+  "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik."
+ },
+ {
+  "kata": "育てる",
+  "kana": "そだてる",
+  "arti": "mendidik; membesarkan",
+  "contoh": "プロの技能者[ぎのうしゃ]を育[そだ]てる。",
+  "arti_contoh": "Mendidik tenaga terampil profesional."
+ },
+ {
+  "kata": "雑巾",
+  "kana": "ぞうきん",
+  "arti": "kain lap",
+  "contoh": "ほうきとちりとり、ダストクロス、雑巾[ぞうきん]",
+  "arti_contoh": "Sapu dan Pengki (Serokan), Dust Cloth (Lap Debu), Lap"
+ },
+ {
+  "kata": "ごみ箱",
+  "kana": "ごみばこ",
+  "arti": "tempat sampah",
+  "contoh": "トイレ清掃[せいそう]：ごみ箱[ばこ]・補充[ほじゅう]、洗面台[せんめんだい]、小便器[しょうべんき]、便器[べんき]、床[ゆか]",
+  "arti_contoh": "Pembersihan Toilet: tempat sampah dan pengisian ulang, wastafel, urinoir, kloset/WC, lantai"
+ },
+ {
+  "kata": "手伝う",
+  "kana": "てつだう",
+  "arti": "membantu",
+  "contoh": "先輩[せんぱい]が仕事[しごと]を手伝[てつだ]う。",
+  "arti_contoh": "Senior membantu pekerjaan."
  },
  {
   "kata": "セーフティロック",
   "kana": "セーフティロック",
-  "arti": "safety lock"
+  "arti": "safety lock",
+  "contoh": "セーフティロックを押[お]し込[こ]みながら右[みぎ]レバーを握[にぎ]る。",
+  "arti_contoh": "Pegang tuas kanan sambil dorong safety lock."
+ },
+ {
+  "kata": "遅れる",
+  "kana": "おくれる",
+  "arti": "terlambat",
+  "contoh": "電車[でんしゃ]で遅[おく]れるときは、連絡[れんらく]する。",
+  "arti_contoh": "Kalau akan terlambat karena kereta, kabari."
+ },
+ {
+  "kata": "先",
+  "kana": "さき",
+  "arti": "duluan; depan",
+  "contoh": "**「先輩[せんぱい]」**",
+  "arti_contoh": "Senior"
+ },
+ {
+  "kata": "二回",
+  "kana": "にかい",
+  "arti": "dua kali",
+  "contoh": "同[おな]じ場所[ばしょ]を二回[にかい]拭[ふ]く。",
+  "arti_contoh": "Mengelap tempat yang sama dua kali."
+ },
+ {
+  "kata": "受験",
+  "kana": "じゅけん",
+  "arti": "mengikuti ujian",
+  "contoh": "毎年[まいとし]、たくさんの人[ひと]が受験[じゅけん]する。",
+  "arti_contoh": "Setiap tahun banyak orang mengikuti ujian."
+ },
+ {
+  "kata": "安定",
+  "kana": "あんてい",
+  "arti": "stabil",
+  "contoh": "脚立[きゃたつ]は安定[あんてい]した場所[ばしょ]に置[お]く。",
+  "arti_contoh": "Tangga lipat ditaruh di tempat stabil."
+ },
+ {
+  "kata": "事前",
+  "kana": "じぜん",
+  "arti": "sebelumnya; di muka",
+  "contoh": "休[やす]むときは、事前[じぜん]に連絡[れんらく]する。",
+  "arti_contoh": "Kalau libur, kabari lebih dulu."
+ },
+ {
+  "kata": "不安",
+  "kana": "ふあん",
+  "arti": "cemas; ragu",
+  "contoh": "お客様[おきゃくさま]に不安[ふあん]を与[あた]えない。",
+  "arti_contoh": "Jangan membuat tamu merasa cemas."
+ },
+ {
+  "kata": "走る",
+  "kana": "はしる",
+  "arti": "berlari",
+  "contoh": "建物[たてもの]の中[なか]では走[はし]らない。",
+  "arti_contoh": "Jangan berlari di dalam gedung."
+ },
+ {
+  "kata": "増える",
+  "kana": "ふえる",
+  "arti": "bertambah",
+  "contoh": "湿気[しっけ]があるとカビが増[ふ]える。",
+  "arti_contoh": "Kalau lembap, jamur bertambah."
+ },
+ {
+  "kata": "権利",
+  "kana": "けんり",
+  "arti": "hak",
+  "contoh": "働[はたら]く人[ひと]には安全[あんぜん]に働[はたら]く権利[けんり]がある。",
+  "arti_contoh": "Pekerja berhak bekerja dengan aman."
  },
  {
   "kata": "スタンド",
   "kana": "スタンド",
-  "arti": "penyangga (stand)"
+  "arti": "penyangga (stand)",
+  "contoh": "ポリッシャーを起[お]こして：スタンドを収納[しゅうのう]する、タイヤを固定[こてい]する。",
+  "arti_contoh": "Bangunkan polisher: tarik kembali penyangga (stand), kunci rodanya (tarik kembali roda)."
+ },
+ {
+  "kata": "参加",
+  "kana": "さんか",
+  "arti": "ikut serta",
+  "contoh": "朝[あさ]のミーティングに参加[さんか]する。",
+  "arti_contoh": "Ikut rapat pagi."
+ },
+ {
+  "kata": "油",
+  "kana": "あぶら",
+  "arti": "minyak; lemak",
+  "contoh": "**油溶性[ゆようせい]：**ヒールマーク、皮脂[ひし]など。",
+  "arti_contoh": "Tipe minyak: bekas heal (sepatu), sebum, dan lainnya."
+ },
+ {
+  "kata": "開ける",
+  "kana": "あける",
+  "arti": "membuka",
+  "contoh": "ふたを開[あ]ける。",
+  "arti_contoh": "Membuka tutup."
+ },
+ {
+  "kata": "閉める",
+  "kana": "しめる",
+  "arti": "menutup",
+  "contoh": "ドアを閉[し]める。",
+  "arti_contoh": "Menutup pintu."
+ },
+ {
+  "kata": "拾う",
+  "kana": "ひろう",
+  "arti": "memungut",
+  "contoh": "トングでごみを拾[ひろ]う。",
+  "arti_contoh": "Memungut sampah dengan penjepit."
+ },
+ {
+  "kata": "通る",
+  "kana": "とおる",
+  "arti": "lewat",
+  "contoh": "普通[ふつう]はタオルにガラスクリーナーをつけてから拭[ふ]く。",
+  "arti_contoh": "Biasanya, semprotkan dulu pembersih kaca ke kain lap, lalu lap."
+ },
+ {
+  "kata": "大丈夫",
+  "kana": "だいじょうぶ",
+  "arti": "tidak apa-apa; aman",
+  "contoh": "大丈夫[だいじょうぶ]ですか。",
+  "arti_contoh": "Apakah baik-baik saja?"
+ },
+ {
+  "kata": "読む",
+  "kana": "よむ",
+  "arti": "membaca",
+  "contoh": "テキストを読[よ]む。",
+  "arti_contoh": "Membaca buku teks."
+ },
+ {
+  "kata": "覚える",
+  "kana": "おぼえる",
+  "arti": "menghafal; mengingat",
+  "contoh": "あいさつの言葉[ことば]を覚[おぼ]える。",
+  "arti_contoh": "Menghafal kata-kata salam."
+ },
+ {
+  "kata": "仲よく",
+  "kana": "なかよく",
+  "arti": "dengan akrab",
+  "contoh": "みんなと仲[なか]よく働[はたら]く。",
+  "arti_contoh": "Bekerja akrab dengan semua orang."
  },
  {
   "kata": "反時計回り",
   "kana": "はんとけいまわり",
-  "arti": "berlawanan arah jarum jam"
+  "arti": "berlawanan arah jarum jam",
+  "contoh": "はじめは外周[がいしゅう]に洗剤[せんざい]をまきながら反時計回[はんとけいまわ]りに清掃[せいそう]しよう。",
+  "arti_contoh": "Pertama, tebarkan karbol pada sisi luar dan bersihkan berlawanan arah jarum jam."
+ },
+ {
+  "kata": "制服",
+  "kana": "せいふく",
+  "arti": "seragam",
+  "contoh": "制服[せいふく]をきれいに着[き]る。",
+  "arti_contoh": "Memakai seragam dengan rapi."
+ },
+ {
+  "kata": "量",
+  "kana": "りょう",
+  "arti": "jumlah; takaran",
+  "contoh": "計量[けいりょう]カップ、プランジャー、作業[さぎょう]カート、廃棄物[はいきぶつ]コレクター、手押[ておし]し台車[だいしゃ]。",
+  "arti_contoh": "Gelas Pengukur; Alat Sedot WC; Keranjang Peralatan; Keranjang Limbah; Troli Dorong."
+ },
+ {
+  "kata": "先に",
+  "kana": "さきに",
+  "arti": "lebih dulu",
+  "contoh": "**「先輩[せんぱい]」**",
+  "arti_contoh": "Senior"
+ },
+ {
+  "kata": "朝",
+  "kana": "あさ",
+  "arti": "pagi",
+  "contoh": "朝[あさ]のミーティングに参加[さんか]する。",
+  "arti_contoh": "Ikut rapat pagi."
+ },
+ {
+  "kata": "電車",
+  "kana": "でんしゃ",
+  "arti": "kereta listrik",
+  "contoh": "電車[でんしゃ]が遅[おく]れたら、連絡[れんらく]する。",
+  "arti_contoh": "Kalau kereta terlambat, kabari."
+ },
+ {
+  "kata": "建物",
+  "kana": "たてもの",
+  "arti": "bangunan",
+  "contoh": "建物[たてもの]の中[なか]をきれいにする。",
+  "arti_contoh": "Membersihkan bagian dalam bangunan."
+ },
+ {
+  "kata": "湿気",
+  "kana": "しっけ",
+  "arti": "kelembapan",
+  "contoh": "湿気[しっけ]が多[おお]いとカビが増[ふ]える。",
+  "arti_contoh": "Kalau lembap, jamur bertambah."
+ },
+ {
+  "kata": "年",
+  "kana": "ねん",
+  "arti": "tahun",
+  "contoh": "1996年[ねん]に設立[せつりつ]された。",
+  "arti_contoh": "Didirikan pada tahun 1996."
+ },
+ {
+  "kata": "等",
+  "kana": "など",
+  "arti": "dan lain-lain (等)",
+  "contoh": "病気[びょうき]等[など]で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
+  "arti_contoh": "Jika tidak bisa masuk kerja karena sakit atau hal lain, harus menghubungi/memberi kabar."
  },
  {
   "kata": "圧",
   "kana": "あつ",
-  "arti": "tekanan"
+  "arti": "tekanan",
+  "contoh": "パッドへの圧[あつ]",
+  "arti_contoh": "Tekanan pad"
  },
  {
   "kata": "汚水",
@@ -1058,12 +1934,16 @@
  {
   "kata": "シャンパー",
   "kana": "シャンパー",
-  "arti": "window washer (alat oles sabun kaca)"
+  "arti": "window washer (alat oles sabun kaca)",
+  "contoh": "洗剤[せんざい]の塗布[とふ]（シャンパー）",
+  "arti_contoh": "Mengaplikasikan sabun pembersih kaca (window washer)."
  },
  {
   "kata": "ウインドスクイジー",
   "kana": "ウインドスクイジー",
-  "arti": "window cleaner (squeegee)"
+  "arti": "window cleaner (squeegee)",
+  "contoh": "シャンパーとウインドスクイジー。",
+  "arti_contoh": "Window washer (alat pengoles sabun) dan window cleaner (squeegee)."
  },
  {
   "kata": "四隅",
@@ -1075,12 +1955,16 @@
  {
   "kata": "脚立",
   "kana": "きゃたつ",
-  "arti": "tangga lipat"
+  "arti": "tangga lipat",
+  "contoh": "脚立[きゃたつ]を使[つか]うときは、安定[あんてい]した場所[ばしょ]に置[お]く。",
+  "arti_contoh": "Saat memakai tangga lipat, taruh di tempat yang stabil."
  },
  {
   "kata": "運搬車",
   "kana": "うんぱんしゃ",
-  "arti": "kereta angkut"
+  "arti": "kereta angkut",
+  "contoh": "**運搬車[うんぱんしゃ]を使[つか]う時[とき]：**運搬中[うんぱんちゅう]にお客様[きゃくさま]とぶつからないよう周[まわ]りをみて移動[いどう]しましょう。",
+  "arti_contoh": "Saat menggunakan motor roda tiga (kereta angkut): gunakan dengan melihat sekitar dan jangan sampai menabrak tamu."
  },
  {
   "kata": "お客様",
@@ -1204,7 +2088,9 @@
  {
   "kata": "出社時間",
   "kana": "しゅっしゃじかん",
-  "arti": "jam masuk kerja"
+  "arti": "jam masuk kerja",
+  "contoh": "出社時間[しゅっしゃじかん]を守[まも]る",
+  "arti_contoh": "Jangan terlambat."
  },
  {
   "kata": "勤務中",
@@ -1217,7 +2103,7 @@
   "kata": "反する",
   "kana": "はんする",
   "arti": "bertentangan",
-  "contoh": "SNS等に業務[ぎょうむ]に関[かか]わることやマナーに反[はん]することを記入[きにゅう]しないこと",
+  "contoh": "SNS等[など]に業務[ぎょうむ]に関[かか]わることやマナーに反[はん]することを記入[きにゅう]しないこと",
   "arti_contoh": ""
  },
  {
@@ -1280,7 +2166,7 @@
   "kata": "届出",
   "kana": "とどけで",
   "arti": "pemberitahuan",
-  "contoh": "病気[びょうき]等で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
+  "contoh": "病気[びょうき]等[など]で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
   "arti_contoh": ""
  },
  {
@@ -1315,7 +2201,7 @@
   "kata": "必ず",
   "kana": "かならず",
   "arti": "pasti",
-  "contoh": "病気[びょうき]等で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
+  "contoh": "病気[びょうき]等[など]で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
   "arti_contoh": ""
  },
  {
@@ -1335,7 +2221,9 @@
  {
   "kata": "手入れ",
   "kana": "ていれ",
-  "arti": "perawatan"
+  "arti": "perawatan",
+  "contoh": "道具[どうぐ]の手入[てい]れをする。",
+  "arti_contoh": "Merawat peralatan."
  },
  {
   "kata": "持つ",
@@ -1361,7 +2249,9 @@
  {
   "kata": "揃える",
   "kana": "そろえる",
-  "arti": "merapikan"
+  "arti": "merapikan",
+  "contoh": "道具[どうぐ]を揃[そろ]えてから作業[さぎょう]を始[はじ]める。",
+  "arti_contoh": "Mulai bekerja setelah melengkapi peralatan."
  },
  {
   "kata": "携帯",
@@ -1387,7 +2277,9 @@
  {
   "kata": "日頃",
   "kana": "ひごろ",
-  "arti": "sehari-hari"
+  "arti": "sehari-hari",
+  "contoh": "日頃[ひごろ]から健康[けんこう]に気[き]をつける。",
+  "arti_contoh": "Menjaga kesehatan sehari-hari."
  },
  {
   "kata": "時間",
@@ -1462,7 +2354,9 @@
  {
   "kata": "清掃作業",
   "kana": "せいそうさぎょう",
-  "arti": "pekerjaan membersihkan"
+  "arti": "pekerjaan membersihkan",
+  "contoh": "清掃作業[せいそうさぎょう]の前[まえ]にミーティングをする。",
+  "arti_contoh": "Rapat sebelum pekerjaan pembersihan."
  },
  {
   "kata": "済ませる",
@@ -1594,18 +2488,22 @@
   "kata": "記入",
   "kana": "きにゅう",
   "arti": "menulis (mengisi)",
-  "contoh": "SNS等に業務[ぎょうむ]に関[かか]わることやマナーに反[はん]することを記入[きにゅう]しないこと",
+  "contoh": "SNS等[など]に業務[ぎょうむ]に関[かか]わることやマナーに反[はん]することを記入[きにゅう]しないこと",
   "arti_contoh": ""
  },
  {
   "kata": "貸与",
   "kana": "たいよ",
-  "arti": "dipinjamkan"
+  "arti": "dipinjamkan",
+  "contoh": "会社[かいしゃ]から貸与[たいよ]された制服[せいふく]を大切[たいせつ]にする。",
+  "arti_contoh": "Merawat seragam yang dipinjamkan perusahaan."
  },
  {
   "kata": "返納",
   "kana": "へんのう",
-  "arti": "mengembalikan"
+  "arti": "mengembalikan",
+  "contoh": "退職[たいしょく]するときに制服[せいふく]を返納[へんのう]する。",
+  "arti_contoh": "Mengembalikan seragam saat berhenti kerja."
  },
  {
   "kata": "退勤前",
@@ -1617,7 +2515,9 @@
  {
   "kata": "退職",
   "kana": "たいしょく",
-  "arti": "berhenti kerja"
+  "arti": "berhenti kerja",
+  "contoh": "退職[たいしょく]するときは、事前[じぜん]に連絡[れんらく]する。",
+  "arti_contoh": "Saat berhenti kerja, kabari terlebih dahulu."
  },
  {
   "kata": "通勤",
@@ -1637,7 +2537,7 @@
   "kata": "関わる",
   "kana": "かかわる",
   "arti": "berkaitan",
-  "contoh": "SNS等に業務[ぎょうむ]に関[かか]わることやマナーに反[はん]することを記入[きにゅう]しないこと",
+  "contoh": "SNS等[など]に業務[ぎょうむ]に関[かか]わることやマナーに反[はん]することを記入[きにゅう]しないこと",
   "arti_contoh": ""
  },
  {
@@ -1832,7 +2732,9 @@
  {
   "kata": "毎日",
   "kana": "まいにち",
-  "arti": "tiap hari"
+  "arti": "tiap hari",
+  "contoh": "毎日[まいにち]の清掃[せいそう]を大切[たいせつ]にする。",
+  "arti_contoh": "Menghargai pembersihan harian."
  },
  {
   "kata": "毎日行",
@@ -1942,7 +2844,9 @@
  {
   "kata": "乱暴",
   "kana": "らんぼう",
-  "arti": "kasar"
+  "arti": "kasar",
+  "contoh": "道具[どうぐ]を乱暴[らんぼう]に扱[あつか]わない。",
+  "arti_contoh": "Jangan memperlakukan peralatan dengan kasar."
  },
  {
   "kata": "会話",
@@ -1961,7 +2865,9 @@
  {
   "kata": "失礼",
   "kana": "しつれい",
-  "arti": "permisi (maaf)"
+  "arti": "permisi (maaf)",
+  "contoh": "お客様[おきゃくさま]に失礼[しつれい]のないようにする。",
+  "arti_contoh": "Jangan sampai bersikap tidak sopan pada tamu."
  },
  {
   "kata": "姿勢",
@@ -2029,7 +2935,9 @@
  {
   "kata": "用語",
   "kana": "ようご",
-  "arti": "istilah"
+  "arti": "istilah",
+  "contoh": "おはようございます",
+  "arti_contoh": "Selamat Pagi — おはようございます"
  },
  {
   "kata": "申す",
@@ -2076,7 +2984,9 @@
  {
   "kata": "角度",
   "kana": "かくど",
-  "arti": "sudut (derajat)"
+  "arti": "sudut (derajat)",
+  "contoh": "角度[かくど]を固定[こてい]したまま引[ひ]き降[お]ろす。",
+  "arti_contoh": "Menarik ke bawah dengan sudut yang tetap."
  },
  {
   "kata": "言葉",
@@ -2144,7 +3054,9 @@
  {
   "kata": "人間関係",
   "kana": "にんげんかんけい",
-  "arti": "hubungan antar manusia"
+  "arti": "hubungan antar manusia",
+  "contoh": "職場[しょくば]の人間関係[にんげんかんけい]",
+  "arti_contoh": "Hubungan rekan kerja di tempat kerja"
  },
  {
   "kata": "仕事仲間",
@@ -2163,7 +3075,9 @@
  {
   "kata": "伝える",
   "kana": "つたえる",
-  "arti": "menyampaikan"
+  "arti": "menyampaikan",
+  "contoh": "ほかの人[ひと]にも情報[じょうほう]を伝[つた]える。",
+  "arti_contoh": "Menyampaikan informasi pada orang lain juga."
  },
  {
   "kata": "作る",
@@ -2175,12 +3089,16 @@
  {
   "kata": "共有",
   "kana": "きょうゆう",
-  "arti": "dipakai bersama"
+  "arti": "dipakai bersama",
+  "contoh": "情報[じょうほう]を共有[きょうゆう]する。",
+  "arti_contoh": "Berbagi informasi."
  },
  {
   "kata": "具体的",
   "kana": "ぐたいてき",
-  "arti": "secara konkret"
+  "arti": "secara konkret",
+  "contoh": "具体的[ぐたいてき]に報告[ほうこく]する。",
+  "arti_contoh": "Melapor secara konkret."
  },
  {
   "kata": "出席",
@@ -2206,12 +3124,16 @@
  {
   "kata": "努力",
   "kana": "どりょく",
-  "arti": "usaha"
+  "arti": "usaha",
+  "contoh": "毎日[まいにち]努力[どりょく]する。",
+  "arti_contoh": "Berusaha setiap hari."
  },
  {
   "kata": "効率",
   "kana": "こうりつ",
-  "arti": "efisiensi"
+  "arti": "efisiensi",
+  "contoh": "効率[こうりつ]よく作業[さぎょう]を進[すす]める。",
+  "arti_contoh": "Mengerjakan pekerjaan secara efisien."
  },
  {
   "kata": "勝手",
@@ -2223,7 +3145,9 @@
  {
   "kata": "勤める",
   "kana": "つとめる",
-  "arti": "bekerja (di)"
+  "arti": "bekerja (di)",
+  "contoh": "ビルクリーニングの会社[かいしゃ]に勤[つと]める。",
+  "arti_contoh": "Bekerja di perusahaan pembersihan gedung."
  },
  {
   "kata": "友人",
@@ -2249,7 +3173,9 @@
  {
   "kata": "叱る",
   "kana": "しかる",
-  "arti": "memarahi"
+  "arti": "memarahi",
+  "contoh": "お客様[おきゃくさま]に叱[しか]られたら、すぐに上司[じょうし]に報告[ほうこく]する。",
+  "arti_contoh": "Kalau dimarahi tamu, segera lapor ke atasan."
  },
  {
   "kata": "合う",
@@ -2268,12 +3194,16 @@
  {
   "kata": "向上",
   "kana": "こうじょう",
-  "arti": "peningkatan"
+  "arti": "peningkatan",
+  "contoh": "技術[ぎじゅつ]を向上[こうじょう]させる。",
+  "arti_contoh": "Meningkatkan keterampilan."
  },
  {
   "kata": "問題",
   "kana": "もんだい",
-  "arti": "masalah"
+  "arti": "masalah",
+  "contoh": "問題[もんだい]があれば、すぐに報告[ほうこく]する。",
+  "arti_contoh": "Kalau ada masalah, segera laporkan."
  },
  {
   "kata": "困る",
@@ -2327,7 +3257,9 @@
  {
   "kata": "年齢",
   "kana": "ねんれい",
-  "arti": "usia"
+  "arti": "usia",
+  "contoh": "年齢[ねんれい]や性別[せいべつ]に関係[かんけい]なく、あいさつをする。",
+  "arti_contoh": "Memberi salam tanpa memandang usia atau jenis kelamin."
  },
  {
   "kata": "広い",
@@ -2339,7 +3271,9 @@
  {
   "kata": "従事者",
   "kana": "じゅうじしゃ",
-  "arti": "pekerja"
+  "arti": "pekerja",
+  "contoh": "清掃[せいそう]の従事者[じゅうじしゃ]は、衛生[えいせい]に注意[ちゅうい]する。",
+  "arti_contoh": "Pekerja pembersihan memperhatikan kebersihan diri."
  },
  {
   "kata": "徹底",
@@ -2351,7 +3285,9 @@
  {
   "kata": "性別",
   "kana": "せいべつ",
-  "arti": "jenis kelamin"
+  "arti": "jenis kelamin",
+  "contoh": "性別[せいべつ]に関係[かんけい]なく、仲[なか]よく働[はたら]く。",
+  "arti_contoh": "Bekerja akrab tanpa memandang jenis kelamin."
  },
  {
   "kata": "情報",
@@ -2370,7 +3306,9 @@
  {
   "kata": "技術",
   "kana": "ぎじゅつ",
-  "arti": "teknik"
+  "arti": "teknik",
+  "contoh": "清掃[せいそう]の技術[ぎじゅつ]を身[み]につける。",
+  "arti_contoh": "Menguasai teknik pembersihan."
  },
  {
   "kata": "接する",
@@ -2382,12 +3320,16 @@
  {
   "kata": "提供",
   "kana": "ていきょう",
-  "arti": "menyediakan"
+  "arti": "menyediakan",
+  "contoh": "きれいな環境[かんきょう]を提供[ていきょう]する。",
+  "arti_contoh": "Menyediakan lingkungan yang bersih."
  },
  {
   "kata": "改善",
   "kana": "かいぜん",
-  "arti": "perbaikan"
+  "arti": "perbaikan",
+  "contoh": "作業方法[さぎょうほうほう]を改善[かいぜん]する。",
+  "arti_contoh": "Memperbaiki cara kerja."
  },
  {
   "kata": "敬う",
@@ -2413,12 +3355,16 @@
  {
   "kata": "明るい",
   "kana": "あかるい",
-  "arti": "terang"
+  "arti": "terang",
+  "contoh": "明[あか]るい声[こえ]であいさつをする。",
+  "arti_contoh": "Memberi salam dengan suara ceria."
  },
  {
   "kata": "明確",
   "kana": "めいかく",
-  "arti": "menjelaskan dengan jelas"
+  "arti": "menjelaskan dengan jelas",
+  "contoh": "指示[しじ]を明確[めいかく]にする。",
+  "arti_contoh": "Memperjelas instruksi."
  },
  {
   "kata": "時",
@@ -2437,17 +3383,23 @@
  {
   "kata": "求める",
   "kana": "もとめる",
-  "arti": "dituntut"
+  "arti": "dituntut",
+  "contoh": "上司[じょうし]に指示[しじ]を求[もと]める。",
+  "arti_contoh": "Meminta instruksi dari atasan."
  },
  {
   "kata": "点",
   "kana": "てん",
-  "arti": "titik"
+  "arti": "titik",
+  "contoh": "歩行動線[ほこうどうせん]を重点的[じゅうてんてき]に",
+  "arti_contoh": "Pusatkan di jalur lalu lalang"
  },
  {
   "kata": "理解",
   "kana": "りかい",
-  "arti": "memahami"
+  "arti": "memahami",
+  "contoh": "作業[さぎょう]の方法[ほうほう]を理解[りかい]する。",
+  "arti_contoh": "Memahami cara kerja."
  },
  {
   "kata": "異なる",
@@ -2466,17 +3418,23 @@
  {
   "kata": "立場",
   "kana": "たちば",
-  "arti": "posisi"
+  "arti": "posisi",
+  "contoh": "相手[あいて]の立場[たちば]で考[かんが]える。",
+  "arti_contoh": "Berpikir dari sudut pandang lawan bicara."
  },
  {
   "kata": "笑顔",
   "kana": "えがお",
-  "arti": "wajah tersenyum"
+  "arti": "wajah tersenyum",
+  "contoh": "笑顔[えがお]であいさつをする。",
+  "arti_contoh": "Memberi salam dengan senyum."
  },
  {
   "kata": "築く",
   "kana": "きずく",
-  "arti": "membangun"
+  "arti": "membangun",
+  "contoh": "よい人間関係[にんげんかんけい]を築[きず]く。",
+  "arti_contoh": "Membangun hubungan yang baik."
  },
  {
   "kata": "終わる",
@@ -2495,7 +3453,9 @@
  {
   "kata": "経験年数",
   "kana": "けいけんねんすう",
-  "arti": "tahun pengalaman"
+  "arti": "tahun pengalaman",
+  "contoh": "経験年数[けいけんねんすう]に関係[かんけい]なく、基本[きほん]を守[まも]る。",
+  "arti_contoh": "Menaati dasar-dasar terlepas dari lamanya pengalaman."
  },
  {
   "kata": "繰り返す",
@@ -2507,7 +3467,9 @@
  {
   "kata": "聞く",
   "kana": "きく",
-  "arti": "mendengar"
+  "arti": "mendengar",
+  "contoh": "新聞紙[しんぶんし]や本[ほん]はビニールに入[い]れずにそのまま回収[かいしゅう]しよう。",
+  "arti_contoh": "Jangan masukkan koran dan buku ke plastik sampah, langsung kumpulkan begitu saja."
  },
  {
   "kata": "職場",
@@ -2519,7 +3481,9 @@
  {
   "kata": "良好",
   "kana": "りょうこう",
-  "arti": "baik"
+  "arti": "baik",
+  "contoh": "良好[りょうこう]な人間関係[にんげんかんけい]が大切[たいせつ]です。",
+  "arti_contoh": "Hubungan yang baik itu penting."
  },
  {
   "kata": "言う",
@@ -2531,7 +3495,9 @@
  {
   "kata": "話",
   "kana": "はなし",
-  "arti": "pembicaraan"
+  "arti": "pembicaraan",
+  "contoh": "会社[かいしゃ]の電話[でんわ]、携帯電話[けいたいでんわ]、コピー機[き]などを私用[しよう]に使[つか]わない",
+  "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
  },
  {
   "kata": "認める",
@@ -2550,12 +3516,16 @@
  {
   "kata": "質",
   "kana": "しつ",
-  "arti": "kualitas"
+  "arti": "kualitas",
+  "contoh": "**木質床材[もくしつゆかざい]：**フローリング、コルク",
+  "arti_contoh": "Lantai kayu: flooring, cork."
  },
  {
   "kata": "身近",
   "kana": "みぢか",
-  "arti": "dekat"
+  "arti": "dekat",
+  "contoh": "身近[みぢか]な人[ひと]にもあいさつをする。",
+  "arti_contoh": "Memberi salam juga pada orang di sekitar."
  },
  {
   "kata": "返す",
@@ -2574,12 +3544,16 @@
  {
   "kata": "開始時刻",
   "kana": "かいしじこく",
-  "arti": "waktu mulai"
+  "arti": "waktu mulai",
+  "contoh": "作業[さぎょう]の開始時刻[かいしじこく]を守[まも]る。",
+  "arti_contoh": "Menaati jam mulai kerja."
  },
  {
   "kata": "関係",
   "kana": "かんけい",
-  "arti": "hubungan"
+  "arti": "hubungan",
+  "contoh": "職場[しょくば]の人間関係[にんげんかんけい]",
+  "arti_contoh": "Hubungan rekan kerja di tempat kerja"
  },
  {
   "kata": "位置",
@@ -2640,7 +3614,9 @@
  {
   "kata": "搬入",
   "kana": "はんにゅう",
-  "arti": "memasukkan barang"
+  "arti": "memasukkan barang",
+  "contoh": "資器材[しきざい]の搬入[はんにゅう]",
+  "arti_contoh": "Membawa perlengkapan"
  },
  {
   "kata": "方法",
@@ -2771,7 +3747,9 @@
  {
   "kata": "急ぐ",
   "kana": "いそぐ",
-  "arti": "bergegas"
+  "arti": "bergegas",
+  "contoh": "急[いそ]いでいても、走[はし]らない。",
+  "arti_contoh": "Meski terburu-buru, jangan berlari."
  },
  {
   "kata": "拭く",
@@ -2839,7 +3817,9 @@
  {
   "kata": "表示",
   "kana": "ひょうじ",
-  "arti": "menampilkan"
+  "arti": "menampilkan",
+  "contoh": "作業中[さぎょうちゅう]の表示[ひょうじ]を出[で]す。",
+  "arti_contoh": "Memasang tanda sedang bekerja."
  },
  {
   "kata": "設置",
@@ -2879,7 +3859,9 @@
  {
   "kata": "与える",
   "kana": "あたえる",
-  "arti": "memberi"
+  "arti": "memberi",
+  "contoh": "お客様[おきゃくさま]に不安[ふあん]を与[あた]えない。",
+  "arti_contoh": "Jangan membuat tamu merasa cemas."
  },
  {
   "kata": "例",
@@ -2912,7 +3894,9 @@
  {
   "kata": "存在",
   "kana": "そんざい",
-  "arti": "ada, eksis"
+  "arti": "ada, eksis",
+  "contoh": "あいさつは自分[じぶん]の存在[そんざい]を知[し]らせる。",
+  "arti_contoh": "Salam memberi tahu keberadaan diri."
  },
  {
   "kata": "害",
@@ -3106,7 +4090,9 @@
  {
   "kata": "保管方法",
   "kana": "ほかんほうほう",
-  "arti": "cara penyimpanan"
+  "arti": "cara penyimpanan",
+  "contoh": "洗剤[せんざい]の保管方法[ほかんほうほう]を守[まも]る。",
+  "arti_contoh": "Menaati cara penyimpanan deterjen."
  },
  {
   "kata": "先端",
@@ -3293,7 +4279,9 @@
  {
   "kata": "直角",
   "kana": "ちょっかく",
-  "arti": "tegak lurus"
+  "arti": "tegak lurus",
+  "contoh": "文化[ぶんか]ちりとりを持[も]ち上[あ]げるとゴミが残[のこ]っているので、ゴミがなくなるまで繰[く]り返[かえ]し回収[かいしゅう]しよう（直角[ちょっかく]に向[む]ける）。",
+  "arti_contoh": "Jika pengki diangkat, sampahnya akan tersisa. Ulangi gerakan barusan sampai sampahnya tidak tersisa (arahkan sapu ke bagian kanan / tegak lurus)."
  },
  {
   "kata": "落とす",
@@ -3389,7 +4377,9 @@
  {
   "kata": "仕方",
   "kana": "しかた",
-  "arti": "cara, metode"
+  "arti": "cara, metode",
+  "contoh": "使[つか]い方[かた]と洗[あら]い方[かた]の仕方[しかた]を覚[おぼ]える。",
+  "arti_contoh": "Menghafal cara pakai dan cara mencuci."
  },
  {
   "kata": "内側",
@@ -3506,7 +4496,9 @@
  {
   "kata": "構成",
   "kana": "こうせい",
-  "arti": "tersusun"
+  "arti": "tersusun",
+  "contoh": "機械[きかい]の構成[こうせい]を確認[かくにん]する。",
+  "arti_contoh": "Memeriksa susunan mesin."
  },
  {
   "kata": "歩く",
@@ -3637,7 +4629,9 @@
  {
   "kata": "効率的",
   "kana": "こうりつてき",
-  "arti": "secara efisien"
+  "arti": "secara efisien",
+  "contoh": "効率的[こうりつてき]な順番[じゅんばん]で掃除[そうじ]する。",
+  "arti_contoh": "Membersihkan dengan urutan yang efisien."
  },
  {
   "kata": "器",
@@ -3782,7 +4776,9 @@
  {
   "kata": "重要",
   "kana": "じゅうよう",
-  "arti": "penting"
+  "arti": "penting",
+  "contoh": "安全[あんぜん]の確認[かくにん]は重要[じゅうよう]です。",
+  "arti_contoh": "Memeriksa keselamatan itu penting."
  },
  {
   "kata": "面",
@@ -3802,7 +4798,7 @@
   "kata": "伸ばす",
   "kana": "のばす",
   "arti": "meregangkan",
-  "contoh": "まずコードを伸[の]ばし切[き]ろう。ねじれていると断線[だんせん]等の原因[げんいん]になる。",
+  "contoh": "まずコードを伸[の]ばし切[き]ろう。ねじれていると断線[だんせん]等[など]の原因[げんいん]になる。",
   "arti_contoh": ""
  },
  {
@@ -3816,7 +4812,7 @@
   "kata": "切る",
   "kana": "きる",
   "arti": "memotong",
-  "contoh": "まずコードを伸[の]ばし切[き]ろう。ねじれていると断線[だんせん]等の原因[げんいん]になる。",
+  "contoh": "まずコードを伸[の]ばし切[き]ろう。ねじれていると断線[だんせん]等[など]の原因[げんいん]になる。",
   "arti_contoh": ""
  },
  {
@@ -3837,18 +4833,22 @@
   "kata": "原因",
   "kana": "げんいん",
   "arti": "penyebab",
-  "contoh": "まずコードを伸[の]ばし切[き]ろう。ねじれていると断線[だんせん]等の原因[げんいん]になる。",
+  "contoh": "まずコードを伸[の]ばし切[き]ろう。ねじれていると断線[だんせん]等[など]の原因[げんいん]になる。",
   "arti_contoh": ""
  },
  {
   "kata": "各型",
   "kana": "かくがた",
-  "arti": "tiap tipe"
+  "arti": "tiap tipe",
+  "contoh": "各型[かくがた]の掃除機[そうじき]を使[つか]い分[わ]ける。",
+  "arti_contoh": "Memakai berbagai tipe penyedot debu sesuai kebutuhan."
  },
  {
   "kata": "各部",
   "kana": "かくぶ",
-  "arti": "tiap bagian"
+  "arti": "tiap bagian",
+  "contoh": "ポッド型[がた]の各部[かくぶ]",
+  "arti_contoh": "Bagian Tipe Pod"
  },
  {
   "kata": "吸う",
@@ -3986,7 +4986,9 @@
  {
   "kata": "破損",
   "kana": "はそん",
-  "arti": "kerusakan"
+  "arti": "kerusakan",
+  "contoh": "コードの破損[はそん]を点検[てんけん]する。",
+  "arti_contoh": "Memeriksa kerusakan kabel."
  },
  {
   "kata": "硬い",
@@ -4012,7 +5014,9 @@
  {
   "kata": "裂ける",
   "kana": "さける",
-  "arti": "sobek"
+  "arti": "sobek",
+  "contoh": "ホースが裂[さ]けていないか確認[かくにん]する。",
+  "arti_contoh": "Periksa apakah selang tidak sobek."
  },
  {
   "kata": "詰まる",
@@ -4073,7 +5077,9 @@
  {
   "kata": "重点",
   "kana": "じゅうてん",
-  "arti": "titik berat"
+  "arti": "titik berat",
+  "contoh": "歩行動線[ほこうどうせん]を重点的[じゅうてんてき]に",
+  "arti_contoh": "Pusatkan di jalur lalu lalang"
  },
  {
   "kata": "重点的",
@@ -4099,7 +5105,9 @@
  {
   "kata": "使用場所",
   "kana": "しようばしょ",
-  "arti": "tempat pemakaian"
+  "arti": "tempat pemakaian",
+  "contoh": "使用場所[しようばしょ]に合[あ]った洗剤[せんざい]を選[えら]ぶ。",
+  "arti_contoh": "Memilih deterjen sesuai tempat pemakaian."
  },
  {
   "kata": "側",
@@ -4160,7 +5168,9 @@
  {
   "kata": "緑",
   "kana": "みどり",
-  "arti": "hijau"
+  "arti": "hijau",
+  "contoh": "緑[みどり]のパッドを使[つか]う。",
+  "arti_contoh": "Memakai pad berwarna hijau."
  },
  {
   "kata": "肘",
@@ -4179,12 +5189,16 @@
  {
   "kata": "青",
   "kana": "あお",
-  "arti": "biru"
+  "arti": "biru",
+  "contoh": "青[あお]いパッドは軽[かる]い汚[よご]れ用[よう]です。",
+  "arti_contoh": "Pad biru untuk kotoran ringan."
  },
  {
   "kata": "黄色",
   "kana": "きいろ",
-  "arti": "kuning"
+  "arti": "kuning",
+  "contoh": "黄色[きいろ]の表示[ひょうじ]に注意[ちゅうい]する。",
+  "arti_contoh": "Memperhatikan tanda kuning."
  },
  {
   "kata": "中指",
@@ -4329,7 +5343,9 @@
  {
   "kata": "不足",
   "kana": "ふそく",
-  "arti": "kekurangan"
+  "arti": "kekurangan",
+  "contoh": "洗剤[せんざい]が不足[ふそく]していないか確認[かくにん]する。",
+  "arti_contoh": "Memeriksa apakah deterjen tidak kurang."
  },
  {
   "kata": "中身",
@@ -4362,7 +5378,9 @@
  {
   "kata": "減る",
   "kana": "へる",
-  "arti": "berkurang"
+  "arti": "berkurang",
+  "contoh": "洗剤[せんざい]の量[りょう]が減[へ]ったら補充[ほじゅう]する。",
+  "arti_contoh": "Kalau jumlah deterjen berkurang, isi ulang."
  },
  {
   "kata": "目安",
@@ -4451,7 +5469,9 @@
  {
   "kata": "立面",
   "kana": "りつめん",
-  "arti": "tampak depan"
+  "arti": "tampak depan",
+  "contoh": "立面[りつめん]の汚[よご]れは上[うえ]から下[した]へ拭[ふ]く。",
+  "arti_contoh": "Kotoran pada permukaan tegak dilap dari atas ke bawah."
  },
  {
   "kata": "裏側",
@@ -4463,7 +5483,9 @@
  {
   "kata": "鏡",
   "kana": "かがみ",
-  "arti": "cermin"
+  "arti": "cermin",
+  "contoh": "鏡[かがみ]をきれいに拭[ふ]く。",
+  "arti_contoh": "Mengelap cermin sampai bersih."
  },
  {
   "kata": "防止",
@@ -4573,7 +5595,9 @@
  {
   "kata": "手摺",
   "kana": "てすり",
-  "arti": "pegangan tangga"
+  "arti": "pegangan tangga",
+  "contoh": "手摺[てすり]は多[おお]くの人[ひと]が触[ふ]る。",
+  "arti_contoh": "Pegangan tangga disentuh banyak orang."
  },
  {
   "kata": "棚",
@@ -4718,7 +5742,9 @@
  {
   "kata": "表面",
   "kana": "ひょうめん",
-  "arti": "permukaan"
+  "arti": "permukaan",
+  "contoh": "**弱[じゃく]アルカリ性[せい]（pH 8）：**表面洗浄剤[ひょうめんせんじょうざい]、一般住宅用洗剤[いっぱんじゅうたくようせんざい]、アルカリ性[せい]トイレクリーナー。",
+  "arti_contoh": "Tipe alkali rendah (pH 8): karbol untuk permukaan lantai, karbol umum di pasaran, pembersih toilet tipe alkali."
  },
  {
   "kata": "隙間",
@@ -4730,7 +5756,9 @@
  {
   "kata": "類",
   "kana": "るい",
-  "arti": "jenis"
+  "arti": "jenis",
+  "contoh": "掃除機[そうじき]の4種類[しゅるい]",
+  "arti_contoh": "4 jenis penyedot debu"
  },
  {
   "kata": "型掃除機",
@@ -4854,7 +5882,9 @@
  {
   "kata": "付着",
   "kana": "ふちゃく",
-  "arti": "menempel (melekat)"
+  "arti": "menempel (melekat)",
+  "contoh": "汚[よご]れが付着[ふちゃく]している。",
+  "arti_contoh": "Kotoran menempel."
  },
  {
   "kata": "十分注意",
@@ -4922,7 +5952,9 @@
  {
   "kata": "目的",
   "kana": "もくてき",
-  "arti": "tujuan"
+  "arti": "tujuan",
+  "contoh": "清掃[せいそう]の目的[もくてき]を理解[りかい]する。",
+  "arti_contoh": "Memahami tujuan pembersihan."
  },
  {
   "kata": "石けん",
@@ -4948,12 +5980,16 @@
  {
   "kata": "雑菌",
   "kana": "ざっきん",
-  "arti": "kuman"
+  "arti": "kuman",
+  "contoh": "雑菌[ざっきん]が増[ふ]えないように、こまめに拭[ふ]く。",
+  "arti_contoh": "Mengelap sering agar kuman tidak berkembang."
  },
  {
   "kata": "一人一人",
   "kana": "ひとりひとり",
-  "arti": "masing-masing orang"
+  "arti": "masing-masing orang",
+  "contoh": "一人一人[ひとりひとり]がルールを守[まも]る。",
+  "arti_contoh": "Setiap orang menaati aturan."
  },
  {
   "kata": "一番",
@@ -4979,12 +6015,16 @@
  {
   "kata": "仕事中",
   "kana": "しごとちゅう",
-  "arti": "saat bekerja"
+  "arti": "saat bekerja",
+  "contoh": "仕事中[しごとちゅう]は携帯電話[けいたいでんわ]を使[つか]わない。",
+  "arti_contoh": "Tidak memakai HP saat bekerja."
  },
  {
   "kata": "会社",
   "kana": "がいしゃ",
-  "arti": "perusahaan"
+  "arti": "perusahaan",
+  "contoh": "会社[かいしゃ]の電話[でんわ]、携帯電話[けいたいでんわ]、コピー機[き]などを私用[しよう]に使[つか]わない",
+  "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
  },
  {
   "kata": "体",
@@ -4996,12 +6036,16 @@
  {
   "kata": "使用前後",
   "kana": "しようぜんご",
-  "arti": "sebelum dan sesudah dipakai"
+  "arti": "sebelum dan sesudah dipakai",
+  "contoh": "使用前後[しようぜんご]に道具[どうぐ]を点検[てんけん]する。",
+  "arti_contoh": "Memeriksa peralatan sebelum dan sesudah dipakai."
  },
  {
   "kata": "使用済",
   "kana": "しようず",
-  "arti": "sudah dipakai"
+  "arti": "sudah dipakai",
+  "contoh": "使用済[しようず]のタオルは分[わ]けて洗[あら]う。",
+  "arti_contoh": "Lap yang sudah dipakai dicuci terpisah."
  },
  {
   "kata": "共同作業",
@@ -5020,7 +6064,9 @@
  {
   "kata": "労働安全衛生",
   "kana": "ろうどうあんぜんえいせい",
-  "arti": "keselamatan dan kesehatan kerja"
+  "arti": "keselamatan dan kesehatan kerja",
+  "contoh": "労働安全衛生[ろうどうあんぜんえいせい]のルールを守[まも]る。",
+  "arti_contoh": "Menaati aturan keselamatan dan kesehatan kerja."
  },
  {
   "kata": "労働災害",
@@ -5032,7 +6078,9 @@
  {
   "kata": "労働者",
   "kana": "ろうどうしゃ",
-  "arti": "pekerja"
+  "arti": "pekerja",
+  "contoh": "労働者[ろうどうしゃ]は安全[あんぜん]に働[はたら]く権利[けんり]がある。",
+  "arti_contoh": "Pekerja berhak bekerja dengan aman."
  },
  {
   "kata": "労働衛生",
@@ -5058,7 +6106,9 @@
  {
   "kata": "在宅医療用",
   "kana": "ざいたくいりょうよう",
-  "arti": "untuk perawatan medis di rumah"
+  "arti": "untuk perawatan medis di rumah",
+  "contoh": "在宅医療用[ざいたくいりょうよう]の注射針[ちゅうしゃばり]は、一般[いっぱん]のごみ箱[ごみばこ]に入[はい]れない。",
+  "arti_contoh": "Jarum suntik untuk perawatan di rumah tidak dibuang ke tempat sampah biasa."
  },
  {
   "kata": "墜落",
@@ -5077,12 +6127,16 @@
  {
   "kata": "家族",
   "kana": "かぞく",
-  "arti": "keluarga"
+  "arti": "keluarga",
+  "contoh": "家族[かぞく]に連絡[れんらく]する。",
+  "arti_contoh": "Mengabari keluarga."
  },
  {
   "kata": "就職",
   "kana": "しゅうしょく",
-  "arti": "mendapat pekerjaan"
+  "arti": "mendapat pekerjaan",
+  "contoh": "日本[にほん]の会社[かいしゃ]に就職[しゅうしょく]する。",
+  "arti_contoh": "Bekerja di perusahaan Jepang."
  },
  {
   "kata": "床洗浄中",
@@ -5094,12 +6148,16 @@
  {
   "kata": "従業者",
   "kana": "じゅうぎょうしゃ",
-  "arti": "pekerja"
+  "arti": "pekerja",
+  "contoh": "従業者[じゅうぎょうしゃ]はルールを守[まも]る。",
+  "arti_contoh": "Karyawan menaati aturan."
  },
  {
   "kata": "心配",
   "kana": "しんぱい",
-  "arti": "khawatir"
+  "arti": "khawatir",
+  "contoh": "お客様[おきゃくさま]に心配[しんぱい]をかけない。",
+  "arti_contoh": "Jangan membuat tamu khawatir."
  },
  {
   "kata": "思う",
@@ -5160,7 +6218,9 @@
  {
   "kata": "活動",
   "kana": "かつどう",
-  "arti": "aktivitas"
+  "arti": "aktivitas",
+  "contoh": "清掃[せいそう]活動[かつどう]に参加[さんか]する。",
+  "arti_contoh": "Ikut kegiatan pembersihan."
  },
  {
   "kata": "深酒",
@@ -5172,7 +6232,9 @@
  {
   "kata": "混合禁止",
   "kana": "こんごうきんし",
-  "arti": "dilarang dicampur"
+  "arti": "dilarang dicampur",
+  "contoh": "混[ま]ぜるな危険[きけん]。混合禁止[こんごうきんし]の洗剤[せんざい]がある。",
+  "arti_contoh": "Ada deterjen yang dilarang dicampur (berbahaya)."
  },
  {
   "kata": "滑る",
@@ -5198,7 +6260,9 @@
  {
   "kata": "病院以外",
   "kana": "びょういんいがい",
-  "arti": "selain rumah sakit"
+  "arti": "selain rumah sakit",
+  "contoh": "病院以外[びょういんいがい]のごみ箱[ごみばこ]にも注意[ちゅうい]する。",
+  "arti_contoh": "Waspada juga pada tempat sampah selain di rumah sakit."
  },
  {
   "kata": "睡眠",
@@ -5210,12 +6274,16 @@
  {
   "kata": "知事登録",
   "kana": "ちじとうろく",
-  "arti": "pendaftaran gubernur"
+  "arti": "pendaftaran gubernur",
+  "contoh": "知事登録[ちじとうろく]をした会社[かいしゃ]に頼[たよ]む。",
+  "arti_contoh": "Meminta perusahaan yang terdaftar di gubernur."
  },
  {
   "kata": "積極的",
   "kana": "せっきょくてき",
-  "arti": "secara aktif"
+  "arti": "secara aktif",
+  "contoh": "積極的[せっきょくてき]にあいさつをする。",
+  "arti_contoh": "Aktif memberi salam."
  },
  {
   "kata": "第一",
@@ -5241,12 +6309,16 @@
  {
   "kata": "自然",
   "kana": "しぜん",
-  "arti": "secara alami"
+  "arti": "secara alami",
+  "contoh": "自然[しぜん]に乾[かわ]くまで待[ま]つ。",
+  "arti_contoh": "Menunggu sampai kering secara alami."
  },
  {
   "kata": "自身",
   "kana": "じしん",
-  "arti": "diri sendiri"
+  "arti": "diri sendiri",
+  "contoh": "自身[じしん]の健康[けんこう]を守[まも]る。",
+  "arti_contoh": "Menjaga kesehatan diri sendiri."
  },
  {
   "kata": "訓練",
@@ -5258,7 +6330,9 @@
  {
   "kata": "話す",
   "kana": "はなす",
-  "arti": "berbicara"
+  "arti": "berbicara",
+  "contoh": "会社[かいしゃ]の電話[でんわ]、携帯電話[けいたいでんわ]、コピー機[き]などを私用[しよう]に使[つか]わない",
+  "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
  },
  {
   "kata": "転ぶ",
@@ -5284,12 +6358,16 @@
  {
   "kata": "防ぐ",
   "kana": "ふせぐ",
-  "arti": "mencegah"
+  "arti": "mencegah",
+  "contoh": "予防策[よぼうさく]の知識[ちしき]",
+  "arti_contoh": "Pengetahuan mengenai tindakan pencegahan"
  },
  {
   "kata": "電気機械",
   "kana": "でんききかい",
-  "arti": "mesin listrik"
+  "arti": "mesin listrik",
+  "contoh": "電気機械[でんききかい]は水[みず]に弱[じゃく]い。",
+  "arti_contoh": "Mesin listrik rentan terhadap air."
  },
  {
   "kata": "頭",
@@ -5427,7 +6505,9 @@
  {
   "kata": "分解",
   "kana": "ぶんかい",
-  "arti": "membongkar"
+  "arti": "membongkar",
+  "contoh": "機械[きかい]を勝手[かって]に分解[ぶんかい]しない。",
+  "arti_contoh": "Jangan membongkar mesin seenaknya."
  },
  {
   "kata": "分離",
@@ -5439,12 +6519,16 @@
  {
   "kata": "剤",
   "kana": "ざい",
-  "arti": "bahan/zat"
+  "arti": "bahan/zat",
+  "contoh": "③ 液性[えきせい]による洗剤[せんざい]の用途[ようと]（pH）",
+  "arti_contoh": "③ Penggunaan karbol cair (skala pH)"
  },
  {
   "kata": "塩素系漂白剤",
   "kana": "えんそけいひょうはくざい",
-  "arti": "pemutih berbahan klorin"
+  "arti": "pemutih berbahan klorin",
+  "contoh": "塩素系漂白剤[えんそけいひょうはくざい]は、酸性[さんせい]の洗剤[せんざい]と混[ま]ぜない。",
+  "arti_contoh": "Pemutih klorin tidak dicampur dengan deterjen asam."
  },
  {
   "kata": "床用中性洗剤",
@@ -5484,7 +6568,9 @@
  {
   "kata": "換気扇用洗剤",
   "kana": "かんきせんようせんざい",
-  "arti": "deterjen kipas ventilasi"
+  "arti": "deterjen kipas ventilasi",
+  "contoh": "換気扇用洗剤[かんきせんようせんざい]を使[つか]う。",
+  "arti_contoh": "Memakai deterjen khusus kipas penyedot udara."
  },
  {
   "kata": "業務用",
@@ -5510,7 +6596,9 @@
  {
   "kata": "疎水基",
   "kana": "そすいき",
-  "arti": "gugus hidrofobik"
+  "arti": "gugus hidrofobik",
+  "contoh": "洗剤[せんざい]の疎水基[そすいき]は油[あぶら]になじむ。",
+  "arti_contoh": "Gugus hidrofobik deterjen menyatu dengan minyak."
  },
  {
   "kata": "病院",
@@ -5543,7 +6631,9 @@
  {
   "kata": "親水基",
   "kana": "しんすいき",
-  "arti": "gugus hidrofilik"
+  "arti": "gugus hidrofilik",
+  "contoh": "親水基[しんすいき]は水[みず]になじむ。",
+  "arti_contoh": "Gugus hidrofilik menyatu dengan air."
  },
  {
   "kata": "誤飲",
@@ -5605,7 +6695,7 @@
   "kata": "塗布",
   "kana": "とふ",
   "arti": "pengolesan",
-  "contoh": "床材[ゆかざい]等を汚[よご]れから守[まも]りキレイを維持[いじ]するために床維持材[ゆかいじざい]を塗布[とふ]するなど予防策[よぼうさく]も必要[ひつよう]なんだよ。",
+  "contoh": "床材[ゆかざい]等[など]を汚[よご]れから守[まも]りキレイを維持[いじ]するために床維持材[ゆかいじざい]を塗布[とふ]するなど予防策[よぼうさく]も必要[ひつよう]なんだよ。",
   "arti_contoh": ""
  },
  {
@@ -5619,7 +6709,7 @@
   "kata": "床維持材",
   "kana": "ゆかいじざい",
   "arti": "bahan perawat lantai",
-  "contoh": "床材[ゆかざい]等を汚[よご]れから守[まも]りキレイを維持[いじ]するために床維持材[ゆかいじざい]を塗布[とふ]するなど予防策[よぼうさく]も必要[ひつよう]なんだよ。",
+  "contoh": "床材[ゆかざい]等[など]を汚[よご]れから守[まも]りキレイを維持[いじ]するために床維持材[ゆかいじざい]を塗布[とふ]するなど予防策[よぼうさく]も必要[ひつよう]なんだよ。",
   "arti_contoh": ""
  },
  {
@@ -5646,7 +6736,9 @@
  {
   "kata": "凸凹",
   "kana": "でこぼこ",
-  "arti": "permukaan tidak rata"
+  "arti": "permukaan tidak rata",
+  "contoh": "パッド台[だい]にフロアパッドを付[つ]けてポリッシャーへ装着[そうちゃく]（圧着[あっちゃく]、凸凹[でこぼこ]を合[あ]わせる、パッドを回転[かいてん]させて固定[こてい]する）。",
+  "arti_contoh": "Pasangkan alas pad ke Floor Pad (tempel), sesuaikan ketidakrataannya, lalu pasang ke polisher: putar pad dan kunci."
  },
  {
   "kata": "動作確認",
@@ -5672,7 +6764,9 @@
  {
   "kata": "圧着",
   "kana": "あっちゃく",
-  "arti": "menempel kuat"
+  "arti": "menempel kuat",
+  "contoh": "パッド台[だい]にフロアパッドを付[つ]けてポリッシャーへ装着[そうちゃく]（圧着[あっちゃく]、凸凹[でこぼこ]を合[あ]わせる、パッドを回転[かいてん]させて固定[こてい]する）。",
+  "arti_contoh": "Pasangkan alas pad ke Floor Pad (tempel), sesuaikan ketidakrataannya, lalu pasang ke polisher: putar pad dan kunci."
  },
  {
   "kata": "寝かす",
@@ -5691,7 +6785,9 @@
  {
   "kata": "床維持剤塗布",
   "kana": "ゆかいじざいとふ",
-  "arti": "pengolesan bahan perawat lantai"
+  "arti": "pengolesan bahan perawat lantai",
+  "contoh": "床維持剤塗布[ゆかいじざいとふ]のあとは、よく乾[かわ]かす。",
+  "arti_contoh": "Setelah pelapisan wax lantai, keringkan dengan baik."
  },
  {
   "kata": "性洗剤",
@@ -5836,7 +6932,9 @@
  {
   "kata": "作業範囲",
   "kana": "さぎょうはんい",
-  "arti": "area kerja"
+  "arti": "area kerja",
+  "contoh": "作業範囲[さぎょうはんい]を分[わ]けて進[すす]める。",
+  "arti_contoh": "Membagi area kerja lalu mengerjakannya."
  },
  {
   "kata": "傾ける",
@@ -5848,7 +6946,9 @@
  {
   "kata": "分割",
   "kana": "ぶんかつ",
-  "arti": "membagi"
+  "arti": "membagi",
+  "contoh": "作業範囲[さぎょうはんい]を分割[ぶんかつ]する。",
+  "arti_contoh": "Membagi area kerja."
  },
  {
   "kata": "初心者",
@@ -5860,7 +6960,9 @@
  {
   "kata": "回る",
   "kana": "まわる",
-  "arti": "berputar"
+  "arti": "berputar",
+  "contoh": "はじめは外周[がいしゅう]に洗剤[せんざい]をまきながら反時計回[はんとけいまわ]りに清掃[せいそう]しよう。",
+  "arti_contoh": "Pertama, tebarkan karbol pada sisi luar dan bersihkan berlawanan arah jarum jam."
  },
  {
   "kata": "均等",
@@ -5872,7 +6974,9 @@
  {
   "kata": "壁",
   "kana": "かべ",
-  "arti": "dinding"
+  "arti": "dinding",
+  "contoh": "幅木[はばき]や家具[かぐ]にぶつけないように注意[ちゅうい]！壁際[かべぎわ]は右[みぎ]から左[ひだり]へ移動[いどう]すると壁[かべ]や幅木[はばき]を汚[よご]さない（汚[よご]れが内側[うちがわ]へ入[はい]り込[こ]む）。",
+  "arti_contoh": "Jangan sampai menabrak plint dinding dan perabotan; jangan mengotori plint dinding dan tembok saat menggerakkan kepala pel (di dekat dinding bergerak dari kanan ke kiri; kotoran masuk ke dalam)."
  },
  {
   "kata": "左手",
@@ -5919,7 +7023,9 @@
  {
   "kata": "二又部分",
   "kana": "ふたまたぶぶん",
-  "arti": "bagian bercabang dua"
+  "arti": "bagian bercabang dua",
+  "contoh": "二又部分[ふたまたぶぶん]に注意[ちゅうい]する。",
+  "arti_contoh": "Perhatikan bagian bercabang dua."
  },
  {
   "kata": "垂直",
@@ -5973,7 +7079,9 @@
  {
   "kata": "一気",
   "kana": "いっき",
-  "arti": "sekaligus"
+  "arti": "sekaligus",
+  "contoh": "一気[いっき]に引[ひ]き降[お]ろす。",
+  "arti_contoh": "Menarik ke bawah sekaligus."
  },
  {
   "kata": "下部",
@@ -6013,12 +7121,16 @@
  {
   "kata": "降ろす",
   "kana": "おろす",
-  "arti": "menurunkan"
+  "arti": "menurunkan",
+  "contoh": "スクイジーを下[した]に降[お]ろす。",
+  "arti_contoh": "Menurunkan squeegee ke bawah."
  },
  {
   "kata": "一緒",
   "kana": "いっしょ",
-  "arti": "bersama-sama"
+  "arti": "bersama-sama",
+  "contoh": "みんなで一緒[いっしょ]に頑張[がんば]る。",
+  "arti_contoh": "Berjuang bersama-sama."
  },
  {
   "kata": "人々",
@@ -6030,12 +7142,16 @@
  {
   "kata": "環境",
   "kana": "かんきょう",
-  "arti": "lingkungan"
+  "arti": "lingkungan",
+  "contoh": "きれいな環境[かんきょう]をつくる。",
+  "arti_contoh": "Menciptakan lingkungan yang bersih."
  },
  {
   "kata": "私",
   "kana": "わたし",
-  "arti": "saya"
+  "arti": "saya",
+  "contoh": "会社[かいしゃ]の電話[でんわ]、携帯電話[けいたいでんわ]、コピー機[き]などを私用[しよう]に使[つか]わない",
+  "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
  },
  {
   "kata": "窓",
@@ -6047,7 +7163,9 @@
  {
   "kata": "頑張る",
   "kana": "がんばる",
-  "arti": "berusaha keras"
+  "arti": "berusaha keras",
+  "contoh": "今日[きょう]も頑張[がんば]る。",
+  "arti_contoh": "Berjuang hari ini juga."
  },
  {
   "kata": "一覧",
@@ -6094,7 +7212,9 @@
  {
   "kata": "真空掃除機",
   "kana": "しんくうそうじき",
-  "arti": "penyedot debu vakum"
+  "arti": "penyedot debu vakum",
+  "contoh": "漏電[ろうでん]・過電流防止装置[かでんりゅうぼうしそうち]、真空掃除機[しんくうそうじき]（ポッド型[がた]・アップライト型[がた]）、ハンディバキューム、ウエットバキューム。",
+  "arti_contoh": "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet."
  },
  {
   "kata": "自動床洗浄機",
@@ -6141,13 +7261,15 @@
  {
   "kata": "ビルメンテナンス",
   "kana": "ビルメンテナンス",
-  "arti": "pemeliharaan gedung (building maintenance)"
+  "arti": "pemeliharaan gedung (building maintenance)",
+  "contoh": "特定技能評価試験[とくていぎのうひょうかしけん]：日本[にほん]ビルメンテナンス協会[きょうかい]（JBMA）",
+  "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)"
  },
  {
   "kata": "ビル",
   "kana": "ビル",
   "arti": "gedung",
-  "contoh": "ビルはとても綺麗です",
+  "contoh": "ビルはとても綺麗[きれい]です",
   "arti_contoh": "Gedungnya sangat bersih."
  },
  {
@@ -6181,7 +7303,9 @@
  {
   "kata": "マット",
   "kana": "マット",
-  "arti": "keset; matras"
+  "arti": "keset; matras",
+  "contoh": "ほこり取[と]り、モップ（赤[あか]）、自在[じざい]ぼうき、文化[ぶんか]ちりとり、バケツ、養生[ようじょう]マット。",
+  "arti_contoh": "Kemoceng; lap (merah); sapu ruangan; pengki (serokan); ember; curing mat."
  },
  {
   "kata": "カビ",
@@ -6193,22 +7317,30 @@
  {
   "kata": "ダニ",
   "kana": "ダニ",
-  "arti": "tungau"
+  "arti": "tungau",
+  "contoh": "**感染性[かんせんせい]の汚[よご]れ：**カビ、ダニなど。",
+  "arti_contoh": "Kotoran yang dapat menularkan penyakit: jamur, kutu, dan lainnya."
  },
  {
   "kata": "ウイルス",
   "kana": "ウイルス",
-  "arti": "virus"
+  "arti": "virus",
+  "contoh": "肉眼[にくがん]で見[み]えない汚[よご]れは肺[はい]に入[はい]り込[こ]む：ウイルス・細菌[さいきん]・カビ",
+  "arti_contoh": "Kotoran yang tidak terlihat akan masuk ke paru-paru: virus, bakteri, jamur."
  },
  {
   "kata": "サビ",
   "kana": "サビ",
-  "arti": "karat"
+  "arti": "karat",
+  "contoh": "**その他[ほか]：**サビ、日焼[ひや]けなど。",
+  "arti_contoh": "Lainnya: karat, bekas terbakar matahari, dan lainnya."
  },
  {
   "kata": "ビニル",
   "kana": "ビニル",
-  "arti": "vinil (vinyl)"
+  "arti": "vinil (vinyl)",
+  "contoh": "**弾性床材[だんせいゆかざい]：**ビニル系[けい]、リノリウム系[けい]、ゴム系[けい]",
+  "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
  },
  {
   "kata": "ビニール",
@@ -6220,162 +7352,226 @@
  {
   "kata": "リノリウム",
   "kana": "リノリウム",
-  "arti": "linoleum (bahan lantai)"
+  "arti": "linoleum (bahan lantai)",
+  "contoh": "**弾性床材[だんせいゆかざい]：**ビニル系[けい]、リノリウム系[けい]、ゴム系[けい]",
+  "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
  },
  {
   "kata": "フローリング",
   "kana": "フローリング",
-  "arti": "lantai kayu (flooring)"
+  "arti": "lantai kayu (flooring)",
+  "contoh": "**木質床材[もくしつゆかざい]：**フローリング、コルク",
+  "arti_contoh": "Lantai kayu: flooring, cork."
  },
  {
   "kata": "コンクリート",
   "kana": "コンクリート",
-  "arti": "beton"
+  "arti": "beton",
+  "contoh": "**硬性床材[こうせいゆかざい]：**石材[せきざい]、陶磁器[とうじき]、コンクリート",
+  "arti_contoh": "Lantai marmer (keras): batu, keramik, semen."
  },
  {
   "kata": "ゴム",
   "kana": "ゴム",
-  "arti": "karet"
+  "arti": "karet",
+  "contoh": "**弾性床材[だんせいゆかざい]：**ビニル系[けい]、リノリウム系[けい]、ゴム系[けい]",
+  "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
  },
  {
   "kata": "コルク",
   "kana": "コルク",
-  "arti": "gabus (cork)"
+  "arti": "gabus (cork)",
+  "contoh": "**木質床材[もくしつゆかざい]：**フローリング、コルク",
+  "arti_contoh": "Lantai kayu: flooring, cork."
  },
  {
   "kata": "タイルカーペット",
   "kana": "タイルカーペット",
-  "arti": "karpet ubin (tile carpet)"
+  "arti": "karpet ubin (tile carpet)",
+  "contoh": "**カーペット床材[ゆかざい]：**タイルカーペット、じゅうたん",
+  "arti_contoh": "Lantai karpet: karpet vinil, loop pile (tidak berbulu)."
  },
  {
   "kata": "タイル",
   "kana": "タイル",
-  "arti": "ubin; keramik"
+  "arti": "ubin; keramik",
+  "contoh": "**カーペット床材[ゆかざい]：**タイルカーペット、じゅうたん",
+  "arti_contoh": "Lantai karpet: karpet vinil, loop pile (tidak berbulu)."
  },
  {
   "kata": "パイル",
   "kana": "パイル",
-  "arti": "bulu karpet (pile)"
+  "arti": "bulu karpet (pile)",
+  "contoh": "**カーペットの床[ゆか]：**染[し]み、パイル内[ない]のホコリ。",
+  "arti_contoh": "Lantai karpet: noda, debu di celah karpet."
  },
  {
   "kata": "ヒールマーク",
   "kana": "ヒールマーク",
-  "arti": "bekas gesekan tumit sepatu (heel mark)"
+  "arti": "bekas gesekan tumit sepatu (heel mark)",
+  "contoh": "**油溶性[ゆようせい]：**ヒールマーク、皮脂[ひし]など。",
+  "arti_contoh": "Tipe minyak: bekas heal (sepatu), sebum, dan lainnya."
  },
  {
   "kata": "ステープル",
   "kana": "ステープル",
-  "arti": "staples (kawat jepret)"
+  "arti": "staples (kawat jepret)",
+  "contoh": "**オフィスの床[ゆか]：**髪[かみ]・ゴミ、ステープルの芯[しん]・クリップなど。",
+  "arti_contoh": "Lantai kantor: rambut dan sampah, isi staples dan clip."
  },
  {
   "kata": "クリップ",
   "kana": "クリップ",
-  "arti": "klip"
+  "arti": "klip",
+  "contoh": "**オフィスの床[ゆか]：**髪[かみ]・ゴミ、ステープルの芯[しん]・クリップなど。",
+  "arti_contoh": "Lantai kantor: rambut dan sampah, isi staples dan clip."
  },
  {
   "kata": "アルカリ",
   "kana": "アルカリ",
-  "arti": "alkali"
+  "arti": "alkali",
+  "contoh": "養生[ようじょう]マット、アルカリ性洗剤[せいせんざい]、樹脂[じゅし]ワックス、フロアサイン。",
+  "arti_contoh": "Curing mat, karbol tipe alkali, wax resin, Floor Sign."
  },
  {
   "kata": "アクリル",
   "kana": "アクリル",
-  "arti": "akrilik"
+  "arti": "akrilik",
+  "contoh": "**樹脂[じゅし]ワックス：**ウレタン系[けい]、アクリル系[けい]。",
+  "arti_contoh": "Wax resin: tipe uretan dan tipe akrilik."
  },
  {
   "kata": "ウレタン",
   "kana": "ウレタン",
-  "arti": "urethane (pelapis)"
+  "arti": "urethane (pelapis)",
+  "contoh": "**樹脂[じゅし]ワックス：**ウレタン系[けい]、アクリル系[けい]。",
+  "arti_contoh": "Wax resin: tipe uretan dan tipe akrilik."
  },
  {
   "kata": "ガラスクリーナー",
   "kana": "ガラスクリーナー",
-  "arti": "pembersih kaca"
+  "arti": "pembersih kaca",
+  "contoh": "普通[ふつう]はタオルにガラスクリーナーをつけてから拭[ふ]く。",
+  "arti_contoh": "Biasanya, semprotkan dulu pembersih kaca ke kain lap, lalu lap."
  },
  {
   "kata": "トイレクリーナー",
   "kana": "トイレクリーナー",
-  "arti": "pembersih toilet"
+  "arti": "pembersih toilet",
+  "contoh": "**酸性[さんせい]（pH 0）：**酸性[さんせい]トイレクリーナー、鉄[てつ]サビ落[お]とし。",
+  "arti_contoh": "Tipe asam (pH 0): pembersih toilet asam, pembersih karat besi."
  },
  {
   "kata": "ハンドソープ",
   "kana": "ハンドソープ",
-  "arti": "sabun tangan"
+  "arti": "sabun tangan",
+  "contoh": "ハンドソープを補充[ほじゅう]する。",
+  "arti_contoh": "Mengisi ulang sabun tangan."
  },
  {
   "kata": "トイレットペーパー",
   "kana": "トイレットペーパー",
-  "arti": "kertas toilet"
+  "arti": "kertas toilet",
+  "contoh": "トイレットペーパーを補充[ほじゅう]する。",
+  "arti_contoh": "Mengisi ulang kertas toilet."
  },
  {
   "kata": "トイレットペーパーホルダー",
   "kana": "トイレットペーパーホルダー",
-  "arti": "tempat kertas toilet"
+  "arti": "tempat kertas toilet",
+  "contoh": "トイレットペーパーホルダーを拭[ふ]く。",
+  "arti_contoh": "Mengelap tempat kertas toilet."
  },
  {
   "kata": "スプレー",
   "kana": "スプレー",
-  "arti": "semprotan (spray)"
+  "arti": "semprotan (spray)",
+  "contoh": "スプレーを使[つか]わないとき",
+  "arti_contoh": "Jika tidak memakai spray"
  },
  {
   "kata": "スポンジ",
   "kana": "スポンジ",
-  "arti": "spons"
+  "arti": "spons",
+  "contoh": "スポンジで洗[あら]う。",
+  "arti_contoh": "Mencuci dengan spons."
  },
  {
   "kata": "デッキブラシ",
   "kana": "デッキブラシ",
-  "arti": "sikat lantai bergagang (deck brush)"
+  "arti": "sikat lantai bergagang (deck brush)",
+  "contoh": "石材[せきざい]の床[ゆか]＋土砂[どしゃ] → 自在[じざい]ぼうきやデッキブラシ",
+  "arti_contoh": "Lantai berbahan batu + debu pasir (banyak kotoran debu pasir) → sapu dan Deck Brush."
  },
  {
   "kata": "ワンタッチモップ",
   "kana": "ワンタッチモップ",
-  "arti": "mop sekali tekan (one-touch mop)"
+  "arti": "mop sekali tekan (one-touch mop)",
+  "contoh": "ダストクロス型[がた]モップ、湿式[しっしき]モップ（ワンタッチモップ）、T字型[じがた]モップ、乾式[かんしき]モップ、フラット型[がた]モップ。",
+  "arti_contoh": "Dust Cloth Tipe Pel; Pel Basah (sekali pakai); Pel Bentuk T; Pel Kering; Pel Bentuk Datar."
  },
  {
   "kata": "ハンディバキューム",
   "kana": "ハンディバキューム",
-  "arti": "penyedot debu genggam (handy vacuum)"
+  "arti": "penyedot debu genggam (handy vacuum)",
+  "contoh": "漏電[ろうでん]・過電流防止装置[かでんりゅうぼうしそうち]、真空掃除機[しんくうそうじき]（ポッド型[がた]・アップライト型[がた]）、ハンディバキューム、ウエットバキューム。",
+  "arti_contoh": "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet."
  },
  {
   "kata": "ウエットバキューム",
   "kana": "ウエットバキューム",
-  "arti": "penyedot basah (wet vacuum)"
+  "arti": "penyedot basah (wet vacuum)",
+  "contoh": "漏電[ろうでん]・過電流防止装置[かでんりゅうぼうしそうち]、真空掃除機[しんくうそうじき]（ポッド型[がた]・アップライト型[がた]）、ハンディバキューム、ウエットバキューム。",
+  "arti_contoh": "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet."
  },
  {
   "kata": "エクストラクター",
   "kana": "エクストラクター",
-  "arti": "mesin ekstraksi karpet (extractor)"
+  "arti": "mesin ekstraksi karpet (extractor)",
+  "contoh": "フロアパッド、ポリッシャー、自動床洗浄機[じどうゆかせんじょうき]、エクストラクター、高圧洗浄機[こうあつせんじょうき]。",
+  "arti_contoh": "Floor Pad; Polisher; Pembersih Lantai Otomatis; Extractor; Mesin Pembersih Bertekanan Tinggi."
  },
  {
   "kata": "ハンドパッド",
   "kana": "ハンドパッド",
-  "arti": "pad tangan (hand pad)"
+  "arti": "pad tangan (hand pad)",
+  "contoh": "送風機[そうふうき]、ハンドパッド、静電気[せいでんき]ほこり取[と]り、保護手袋[ほごてぶくろ]、スクレーパー。",
+  "arti_contoh": "Kipas Pengering; Hand Pad; Pembersih Debu Elektrik; Sarung Tangan Pelindung; Scraper."
  },
  {
   "kata": "スクレーパー",
   "kana": "スクレーパー",
-  "arti": "kape; pengerok (scraper)"
+  "arti": "kape; pengerok (scraper)",
+  "contoh": "送風機[そうふうき]、ハンドパッド、静電気[せいでんき]ほこり取[と]り、保護手袋[ほごてぶくろ]、スクレーパー。",
+  "arti_contoh": "Kipas Pengering; Hand Pad; Pembersih Debu Elektrik; Sarung Tangan Pelindung; Scraper."
  },
  {
   "kata": "プランジャー",
   "kana": "プランジャー",
-  "arti": "penyedot kloset (plunger)"
+  "arti": "penyedot kloset (plunger)",
+  "contoh": "計量[けいりょう]カップ、プランジャー、作業[さぎょう]カート、廃棄物[はいきぶつ]コレクター、手押[ておし]し台車[だいしゃ]。",
+  "arti_contoh": "Gelas Pengukur; Alat Sedot WC; Keranjang Peralatan; Keranjang Limbah; Troli Dorong."
  },
  {
   "kata": "スクイジー",
   "kana": "スクイジー",
-  "arti": "squeegee (pengering kaca)"
+  "arti": "squeegee (pengering kaca)",
+  "contoh": "汚[よご]れの除去[じょきょ]（スクイジー）",
+  "arti_contoh": "Menghilangkan kotoran (window cleaner / squeegee)."
  },
  {
   "kata": "フロアスクイジー",
   "kana": "フロアスクイジー",
-  "arti": "squeegee lantai"
+  "arti": "squeegee lantai",
+  "contoh": "デッキブラシ、フロアスクイジー、汚水取[おすいと]り、シャンパー、ウインドスクイジー。",
+  "arti_contoh": "Sikat Dek; alat penarik air lantai (squeegee); Pengki untuk air; window washer; window cleaner."
  },
  {
   "kata": "カート",
   "kana": "カート",
-  "arti": "kereta dorong (cart)"
+  "arti": "kereta dorong (cart)",
+  "contoh": "作業[さぎょう]カートから離[はな]れるときは歩行動線[ほこうどうせん]を避[さ]けた場所[ばしょ]に置[お]く",
+  "arti_contoh": "Saat akan menaruh keranjang peralatan, jauhkan dari tempat orang lalu lalang (jalur lalu lalang)."
  },
  {
   "kata": "コンセント",
@@ -6387,87 +7583,121 @@
  {
   "kata": "スイッチ",
   "kana": "スイッチ",
-  "arti": "saklar"
+  "arti": "saklar",
+  "contoh": "温水洗浄便座[おんすいせんじょうべんざ]はノズルを引[ひ]き出[だ]して、温水洗浄[おんすいせんじょう]スイッチを汚[よご]さないようにタオルで覆[おお]う。",
+  "arti_contoh": "Keluarkan nosel pipa bidet. Agar tombol bidet tidak kotor, tutup dengan lap."
  },
  {
   "kata": "スイッチパネル",
   "kana": "スイッチパネル",
-  "arti": "panel saklar"
+  "arti": "panel saklar",
+  "contoh": "スイッチパネルを拭[ふ]く。",
+  "arti_contoh": "Mengelap panel saklar."
  },
  {
   "kata": "センサー",
   "kana": "センサー",
-  "arti": "sensor"
+  "arti": "sensor",
+  "contoh": "人[ひと]が触[さわ]る場所[ばしょ]の乾拭[からぶ]き（棚[たな]、人感[じんかん]センサー）",
+  "arti_contoh": "Mengelap bagian yang disentuh orang (kering): rak, sensor manusia."
  },
  {
   "kata": "レバー",
   "kana": "レバー",
-  "arti": "tuas (lever)"
+  "arti": "tuas (lever)",
+  "contoh": "セーフティロックを押[お]し込[こ]みながら右[みぎ]レバーを握[にぎ]る。",
+  "arti_contoh": "Pegang tuas kanan sambil dorong safety lock."
  },
  {
   "kata": "フットペダル",
   "kana": "フットペダル",
-  "arti": "pedal kaki"
+  "arti": "pedal kaki",
+  "contoh": "ハンドル位置[いち]を調整[ちょうせい]しよう（フットペダル）。",
+  "arti_contoh": "Sesuaikan posisi pegangan dengan pedal kaki."
  },
  {
   "kata": "ストッパーボタン",
   "kana": "ストッパーボタン",
-  "arti": "tombol pengunci (stopper button)"
+  "arti": "tombol pengunci (stopper button)",
+  "contoh": "ストッパーボタンを押[お]して固定[こてい]する。",
+  "arti_contoh": "Menekan tombol pengunci untuk mengunci."
  },
  {
   "kata": "タイヤ",
   "kana": "タイヤ",
-  "arti": "ban; roda"
+  "arti": "ban; roda",
+  "contoh": "タイヤを足[あし]で固定[こてい]して倒[たお]すんだよ。",
+  "arti_contoh": "Dorong ke depan rodanya dengan kaki (kunci ban dengan kaki, lalu rebahkan)."
  },
  {
   "kata": "グリップ",
   "kana": "グリップ",
-  "arti": "pegangan (grip)"
+  "arti": "pegangan (grip)",
+  "contoh": "グリップを持[も]つ。",
+  "arti_contoh": "Memegang pegangan."
  },
  {
   "kata": "フレーム",
   "kana": "フレーム",
-  "arti": "bingkai (frame)"
+  "arti": "bingkai (frame)",
+  "contoh": "水拭[みずぶ]き（フレーム、床[ゆか]）（タオル）",
+  "arti_contoh": "Lap basah (bingkai jendela, lantai) dengan lap."
  },
  {
   "kata": "ヘッド",
   "kana": "ヘッド",
-  "arti": "kepala (alat)"
+  "arti": "kepala (alat)",
+  "contoh": "ヘッド幅[はば]を1/4くらい重[かさ]ねながら前進[ぜんしん]しよう。",
+  "arti_contoh": "Maju ke depan dengan menumpuk 1/4 lebar kepala pel."
  },
  {
   "kata": "ポッド",
   "kana": "ポッド",
-  "arti": "pod (wadah penampung debu)"
+  "arti": "pod (wadah penampung debu)",
+  "contoh": "ポッド型[がた]の各部[かくぶ]",
+  "arti_contoh": "Bagian Tipe Pod"
  },
  {
   "kata": "ファン",
   "kana": "ファン",
-  "arti": "kipas"
+  "arti": "kipas",
+  "contoh": "ファンにほこりがたまる。",
+  "arti_contoh": "Debu menumpuk di kipas."
  },
  {
   "kata": "ケース",
   "kana": "ケース",
-  "arti": "kotak; wadah"
+  "arti": "kotak; wadah",
+  "contoh": "ブラシ・ケース、仕切[しき]りバケツ、手袋[てぶくろ]（便器用[べんきよう]・その他[ほか]）、フロアサイン。",
+  "arti_contoh": "Sikat (brush) dan kotak; ember dengan sekat; sarung tangan (untuk toilet dan lainnya); Floor Sign."
  },
  {
   "kata": "タンク",
   "kana": "タンク",
-  "arti": "tangki"
+  "arti": "tangki",
+  "contoh": "仕上[しあ]げに本体[ほんたい]をタオルで水拭[みずぶ]きしてキレイにしよう（タンク、本体裏[ほんたいうら]、本体[ほんたい]）。",
+  "arti_contoh": "Terakhir, lap body dengan lap basah (tangki, sisi belakang body, body)."
  },
  {
   "kata": "トラップ",
   "kana": "トラップ",
-  "arti": "perangkap bau (trap)"
+  "arti": "perangkap bau (trap)",
+  "contoh": "トラップはブラシで奥[おく]までしっかり清掃[せいそう]。",
+  "arti_contoh": "Untuk lubang kloset, bersihkan dengan sikat sampai ke ujungnya."
  },
  {
   "kata": "シャワー",
   "kana": "シャワー",
-  "arti": "pancuran (shower)"
+  "arti": "pancuran (shower)",
+  "contoh": "シャワーで水[みず]をかける。",
+  "arti_contoh": "Menyiram air dengan pancuran."
  },
  {
   "kata": "ロープ",
   "kana": "ロープ",
-  "arti": "tali"
+  "arti": "tali",
+  "contoh": "隙間[すきま]はタオルをロープ状[じょう]にするなど工夫[くふう]するといいよ。",
+  "arti_contoh": "Gulung lap seperti tali untuk membersihkan bagian celahnya."
  },
  {
   "kata": "マスク",
@@ -6479,17 +7709,23 @@
  {
   "kata": "キャップ",
   "kana": "キャップ",
-  "arti": "tutup botol; topi"
+  "arti": "tutup botol; topi",
+  "contoh": "洗剤[せんざい]のキャップを閉[し]める。",
+  "arti_contoh": "Menutup tutup botol deterjen."
  },
  {
   "kata": "ペットボトル",
   "kana": "ペットボトル",
-  "arti": "botol PET"
+  "arti": "botol PET",
+  "contoh": "いろんなゴミが混[ま]ざっている（燃[も]えるゴミ、缶[かん]、ペットボトル）。",
+  "arti_contoh": "Sampah sering tercampur: sampah terbakar, kaleng, botol plastik."
  },
  {
   "kata": "ビン",
   "kana": "ビン",
-  "arti": "botol kaca"
+  "arti": "botol kaca",
+  "contoh": "ゴミの分別[ぶんべつ]は全[すべ]てのゴミ回収後[かいしゅうご]にまとめてやってね：一般[いっぱん]ゴミ、ビン・缶[かん]、ペットボトル。",
+  "arti_contoh": "Lakukan pemisahan jenis sampah setelah semua sampah terkumpul: sampah umum; botol kaca dan kaleng; botol plastik."
  },
  {
   "kata": "マニュアル",
@@ -6501,62 +7737,86 @@
  {
   "kata": "ガムテープ",
   "kana": "ガムテープ",
-  "arti": "lakban"
+  "arti": "lakban",
+  "contoh": "ガムテープで袋[ふくろ]をとめる。",
+  "arti_contoh": "Merekatkan kantong dengan lakban."
  },
  {
   "kata": "テープ",
   "kana": "テープ",
-  "arti": "pita; selotip"
+  "arti": "pita; selotip",
+  "contoh": "**オフィスの床[ゆか]：**髪[かみ]・ゴミ、ステープルの芯[しん]・クリップなど。",
+  "arti_contoh": "Lantai kantor: rambut dan sampah, isi staples dan clip."
  },
  {
   "kata": "トング",
   "kana": "トング",
-  "arti": "penjepit sampah (tongs)"
+  "arti": "penjepit sampah (tongs)",
+  "contoh": "トングでごみを拾[ひろ]う。",
+  "arti_contoh": "Mengambil sampah dengan penjepit."
  },
  {
   "kata": "ドライバー",
   "kana": "ドライバー",
-  "arti": "obeng"
+  "arti": "obeng",
+  "contoh": "ドライバーで外[はず]す。",
+  "arti_contoh": "Melepas dengan obeng."
  },
  {
   "kata": "マイナスドライバー",
   "kana": "マイナスドライバー",
-  "arti": "obeng minus"
+  "arti": "obeng minus",
+  "contoh": "マイナスドライバーでふたを開[あ]ける。",
+  "arti_contoh": "Membuka tutup dengan obeng minus."
  },
  {
   "kata": "エントランス",
   "kana": "エントランス",
-  "arti": "pintu masuk (entrance)"
+  "arti": "pintu masuk (entrance)",
+  "contoh": "**廊下[ろうか]・エントランスの床[ゆか]：**土砂[どしゃ]・ホコリ、カビ、日焼[ひや]け・家具[かぐ]の跡[あと]。",
+  "arti_contoh": "Lantai pintu masuk dan koridor: debu pasir dan debu, jamur, bekas matahari dan bekas jejak perabotan."
  },
  {
   "kata": "エレベーター",
   "kana": "エレベーター",
-  "arti": "lift (elevator)"
+  "arti": "lift (elevator)",
+  "contoh": "エレベーターの使用中[しようちゅう]にお客様[きゃくさま]が待[ま]っていたら、いったん外[そと]に出[で]て譲[ゆず]るなどの気配[きくば]りも必要[ひつよう]",
+  "arti_contoh": "Saat naik lift, jika ada tamu yang akan masuk lift, keluar dulu dari lift. Mengalah juga perlu."
  },
  {
   "kata": "コーナー",
   "kana": "コーナー",
-  "arti": "sudut (corner)"
+  "arti": "sudut (corner)",
+  "contoh": "ホースをコーナーや家具[かぐ]に引[ひ]っ掛[か]けないよう注意[ちゅうい]。",
+  "arti_contoh": "Jangan sampai kabel tersangkut di sudut ruangan atau furnitur."
  },
  {
   "kata": "テーブル",
   "kana": "テーブル",
-  "arti": "meja"
+  "arti": "meja",
+  "contoh": "はじめにテーブルの隅[すみ]を拭[ふ]いてから中央部分[ちゅうおうぶぶん]を拭[ふ]きあげよう（①外周[がいしゅう]、②③中央[ちゅうおう]）。",
+  "arti_contoh": "Pertama, lap terlebih dulu sudut-sudut meja, setelahnya lap bagian tengahnya (① tepi, ② ③ bagian tengah)."
  },
  {
   "kata": "クロス",
   "kana": "クロス",
-  "arti": "kain lap (cloth)"
+  "arti": "kain lap (cloth)",
+  "contoh": "ダストクロスでの清掃[せいそう]",
+  "arti_contoh": "Dust Cloth untuk lantai keramik"
  },
  {
   "kata": "オフィス",
   "kana": "オフィス",
-  "arti": "kantor (office)"
+  "arti": "kantor (office)",
+  "contoh": "廊下[ろうか]やオフィスのゴミを廃棄物[はいきぶつ]コレクターに回収[かいしゅう]する（保護手袋[ほごてぶくろ]）。",
+  "arti_contoh": "Kumpulkan sampah di koridor dan kantor ke keranjang limbah (廃棄物コレクター), dengan sarung tangan pelindung."
  },
  {
   "kata": "スペース",
   "kana": "スペース",
-  "arti": "ruang; tempat (space)"
+  "arti": "ruang; tempat (space)",
+  "contoh": "コードを左手[ひだりて]でさばきながら移動[いどう]しよう（ポリッシャーが進[すす]むスペースを確保[かくほ]する）。",
+  "arti_contoh": "Singkirkan kabel ke kiri dan kanan sambil membersihkan (kendalikan dengan tangan kiri). Berikan jarak untuk polisher bergerak."
  },
  {
   "kata": "ルール",
@@ -6575,7 +7835,9 @@
  {
   "kata": "プライベート",
   "kana": "プライベート",
-  "arti": "urusan pribadi (private)"
+  "arti": "urusan pribadi (private)",
+  "contoh": "仕事仲間[しごとなかま]だけでなく、プライベートでは友人[ゆうじん]にもなる人[ひと]です。",
+  "arti_contoh": "Bukan rekan saat bekerja saja, rekan Anda akan menjadi teman Anda juga."
  },
  {
   "kata": "スケジュール",
@@ -6594,7 +7856,9 @@
  {
   "kata": "スムーズ",
   "kana": "スムーズ",
-  "arti": "lancar (smooth)"
+  "arti": "lancar (smooth)",
+  "contoh": "スムーズに作業[さぎょう]を進[すす]める。",
+  "arti_contoh": "Pekerjaan berjalan lancar."
  },
  {
   "kata": "メモ",
@@ -6606,17 +7870,23 @@
  {
   "kata": "コピー",
   "kana": "コピー",
-  "arti": "salinan; fotokopi"
+  "arti": "salinan; fotokopi",
+  "contoh": "会社[かいしゃ]の電話[でんわ]、携帯電話[けいたいでんわ]、コピー機[き]などを私用[しよう]に使[つか]わない",
+  "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
  },
  {
   "kata": "リセット",
   "kana": "リセット",
-  "arti": "reset; mengatur ulang"
+  "arti": "reset; mengatur ulang",
+  "contoh": "定期清掃[ていきせいそう]で汚[よご]れをリセットし、日常清掃[にちじょうせいそう]でキレイを長持[ながも]ちさせる。",
+  "arti_contoh": "Dengan Pembersihan Berkala kita membersihkan tuntas kotoran; Pembersihan Harian menjaga agar kebersihan tetap awet."
  },
  {
   "kata": "ピアス",
   "kana": "ピアス",
-  "arti": "anting tindik"
+  "arti": "anting tindik",
+  "contoh": "ピアスは外[はず]す。",
+  "arti_contoh": "Lepaskan anting tindik."
  },
  {
   "kata": "アクセサリー",
@@ -6628,42 +7898,58 @@
  {
   "kata": "プロ",
   "kana": "プロ",
-  "arti": "profesional (pro)"
+  "arti": "profesional (pro)",
+  "contoh": "プロとして働[はたら]く。",
+  "arti_contoh": "Bekerja sebagai profesional."
  },
  {
   "kata": "ポイント",
   "kana": "ポイント",
-  "arti": "poin; titik penting"
+  "arti": "poin; titik penting",
+  "contoh": "大切[たいせつ]なポイントをメモする。",
+  "arti_contoh": "Mencatat poin penting."
  },
  {
   "kata": "スタート",
   "kana": "スタート",
-  "arti": "mulai (start)"
+  "arti": "mulai (start)",
+  "contoh": "奥[おく]からスタートする。",
+  "arti_contoh": "Mulai dari bagian dalam."
  },
  {
   "kata": "メートル",
   "kana": "メートル",
-  "arti": "meter"
+  "arti": "meter",
+  "contoh": "１メートルずつ進[すす]む。",
+  "arti_contoh": "Maju satu meter demi satu meter."
  },
  {
   "kata": "ウエット",
   "kana": "ウエット",
-  "arti": "basah (wet)"
+  "arti": "basah (wet)",
+  "contoh": "ウエット型[がた]：汚水[おすい]を吸[す]う。",
+  "arti_contoh": "Tipe Wet (basah): menyedot air kotor."
  },
  {
   "kata": "メンテナンス",
   "kana": "メンテナンス",
-  "arti": "perawatan (maintenance)"
+  "arti": "perawatan (maintenance)",
+  "contoh": "特定技能評価試験[とくていぎのうひょうかしけん]：日本[にほん]ビルメンテナンス協会[きょうかい]（JBMA）",
+  "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)"
  },
  {
   "kata": "クッション",
   "kana": "クッション",
-  "arti": "bantalan (cushion)"
+  "arti": "bantalan (cushion)",
+  "contoh": "これは人[ひと]にぶつかったときに親指[おやゆび]がクッションの役割[やくわり]をするため。",
+  "arti_contoh": "Tujuannya supaya saat bagian ujungnya terkena orang lain, ibu jari Anda bisa berfungsi sebagai bantalan."
  },
  {
   "kata": "フラット",
   "kana": "フラット",
-  "arti": "datar (flat)"
+  "arti": "datar (flat)",
+  "contoh": "ダストクロス型[がた]モップ、湿式[しっしき]モップ（ワンタッチモップ）、T字型[じがた]モップ、乾式[かんしき]モップ、フラット型[がた]モップ。",
+  "arti_contoh": "Dust Cloth Tipe Pel; Pel Basah (sekali pakai); Pel Bentuk T; Pel Kering; Pel Bentuk Datar."
  },
  {
   "kata": "ビザ",
@@ -6675,42 +7961,58 @@
  {
   "kata": "マンガ",
   "kana": "マンガ",
-  "arti": "manga (komik)"
+  "arti": "manga (komik)",
+  "contoh": "はじめのマンガ：初出社[はつしゅっしゃ]の日[ひ]",
+  "arti_contoh": "Cerita pembuka: hari pertama masuk kerja"
  },
  {
   "kata": "アニメ",
   "kana": "アニメ",
-  "arti": "anime"
+  "arti": "anime",
+  "contoh": "子供[こども]の頃[ころ]からマンガやアニメが好[す]きで、日本[にほん]に憧[あこが]れていました。",
+  "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang."
  },
  {
   "kata": "ホームページ",
   "kana": "ホームページ",
-  "arti": "situs web (homepage)"
+  "arti": "situs web (homepage)",
+  "contoh": "ホームページ：https://ascf.jp/",
+  "arti_contoh": "Homepage ASCF: https://ascf.jp/"
  },
  {
   "kata": "メール",
   "kana": "メール",
-  "arti": "email"
+  "arti": "email",
+  "contoh": "メール：support@ascf.jp",
+  "arti_contoh": "Email: support@ascf.jp"
  },
  {
   "kata": "サポートセンター",
   "kana": "サポートセンター",
-  "arti": "pusat dukungan (support center)"
+  "arti": "pusat dukungan (support center)",
+  "contoh": "ASCF（外国人材[がいこくじんざい]受入[うけい]れサポートセンター）",
+  "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)"
  },
  {
   "kata": "レベル",
   "kana": "レベル",
-  "arti": "tingkat (level)"
+  "arti": "tingkat (level)",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
+  "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional)."
  },
  {
   "kata": "テキスト",
   "kana": "テキスト",
-  "arti": "buku teks"
+  "arti": "buku teks",
+  "contoh": "テキストを読[よ]む。",
+  "arti_contoh": "Membaca buku teks."
  },
  {
   "kata": "ページ",
   "kana": "ページ",
-  "arti": "halaman"
+  "arti": "halaman",
+  "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと第[だい]１〜３章[しょう]が本[ほん]の順番[じゅんばん]で続[つづ]きます。",
+  "arti_contoh": "Di aplikasi ini subbab pengantar (1.1–1.3) memuat halaman 1–7, lalu bab 1–3 mengikuti urutan buku."
  },
  {
   "kata": "ごみ",
@@ -6743,27 +8045,37 @@
  {
   "kata": "ちりとり",
   "kana": "ちりとり",
-  "arti": "pengki"
+  "arti": "pengki",
+  "contoh": "文化[ぶんか]ちりとり",
+  "arti_contoh": "Pengki (文化ちりとり / Serokan)"
  },
  {
   "kata": "こんにちは",
   "kana": "こんにちは",
-  "arti": "selamat siang"
+  "arti": "selamat siang",
+  "contoh": "こんにちは。今日[きょう]もよろしくお願[よろしくおねが]いします。",
+  "arti_contoh": "Selamat siang. Mohon bantuannya hari ini."
  },
  {
   "kata": "ありがとうございます",
   "kana": "ありがとうございます",
-  "arti": "terima kasih"
+  "arti": "terima kasih",
+  "contoh": "ありがとうございます。",
+  "arti_contoh": "Terima kasih."
  },
  {
   "kata": "すみません",
   "kana": "すみません",
-  "arti": "permisi; maaf"
+  "arti": "permisi; maaf",
+  "contoh": "すみません、通[とお]ります。",
+  "arti_contoh": "Permisi, saya lewat."
  },
  {
   "kata": "ごめんなさい",
   "kana": "ごめんなさい",
-  "arti": "maaf (akrab)"
+  "arti": "maaf (akrab)",
+  "contoh": "ごめんなさい。",
+  "arti_contoh": "Maaf."
  },
  {
   "kata": "おねがいします",
@@ -6775,16 +8087,22 @@
  {
   "kata": "はい",
   "kana": "はい",
-  "arti": "ya"
+  "arti": "ya",
+  "contoh": "作業[さぎょう]にはいくつか基本的[きほんてき]な進[すす]め方[かた]があるんだよ：",
+  "arti_contoh": "Saat membersihkan ada beberapa teknik yang bisa digunakan:"
  },
  {
   "kata": "いいえ",
   "kana": "いいえ",
-  "arti": "tidak"
+  "arti": "tidak",
+  "contoh": "いいえ、大丈夫[だいじょうぶ]です。",
+  "arti_contoh": "Tidak, tidak apa-apa."
  },
  {
   "kata": "わかりました",
   "kana": "わかりました",
-  "arti": "saya mengerti"
+  "arti": "saya mengerti",
+  "contoh": "はい、わかりました。",
+  "arti_contoh": "Ya, saya mengerti."
  }
 ]
