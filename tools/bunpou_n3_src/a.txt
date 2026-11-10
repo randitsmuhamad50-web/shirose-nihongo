@@ -1,0 +1,359 @@
+## 1 | 疑問詞 + ばいいですか | ぎもんし ばいいですか
+arti: Sebaiknya ... bagaimana / ke mana / siapa? (meminta saran)
+pen: Dipakai untuk bertanya apa yang sebaiknya dilakukan. Kata tanya (誰・どこ・何・どう) dikombinasikan dengan bentuk ば.
+- Kata tanya + KK bentuk ば + いいですか
+- 例: 食べる → 食べれば / 行く → 行けば / する → すれば / 来る → 来れば
+C: 道の案内を、誰に聞けばいいですか。
+T: Sebaiknya saya bertanya kepada siapa tentang petunjuk jalan?
+## 2 | べき | べき
+arti: Seharusnya; sudah semestinya (kewajiban atau nasihat moral).
+pen: Menyatakan pendapat bahwa sesuatu sudah seharusnya dilakukan. Mirip dengan なければならない. Untuk kata する, boleh すべき atau するべき.
+- KK bentuk kamus + べきだ
+- KK bentuk kamus + べきです
+- する → すべき / するべき
+C: 太っている人は運動をすべきだと思う。
+T: Saya pikir orang yang gemuk seharusnya berolahraga.
+## 3 | 〜中（ちゅう・じゅう） | ちゅう
+arti: Sedang ...; selama ...; sepanjang ...
+pen: Menunjukkan bahwa suatu kegiatan sedang berlangsung (ちゅう), atau seluruh rentang waktu/tempat (じゅう, mis. 一日中, 世界中).
+- KB (kegiatan) + 中(ちゅう) → 会議中, 勉強中, 恋愛中
+- KB (waktu / tempat) + 中(じゅう) → 一日中, 世界中
+C: 会議中は携帯電話の電源を切ってください。
+T: Selama rapat berlangsung, tolong matikan ponsel.
+## 4 | 〜上で（うえで） | うえで
+arti: Setelah ... (baru) ...; dalam hal ...
+pen: Pola 1: setelah melakukan A, lalu melakukan B yang merupakan langkah lanjutan yang tepat. Pola 2: KB + の + 上で berarti "dalam hal / dalam rangka".
+- KK bentuk た + 上で + keputusan/tindakan lanjutan
+- KB + の + 上で + KK / KSい / KSな
+C: 家族とよく相談した上で、仕事を辞めることにしました。
+T: Setelah berdiskusi baik-baik dengan keluarga, saya memutuskan untuk berhenti bekerja.
+## 5 | ことだ / ことです | ことだ
+arti: Sebaiknya ...; yang penting adalah ... (saran / nasihat)
+pen: Dipakai memberi nasihat kepada orang lain mengenai tindakan yang sebaiknya dilakukan. Tidak dipakai untuk menasihati atasan.
+- KK bentuk kamus + ことだ / ことです
+- KK bentuk ない + ことだ / ことです
+C: 明日大切な試合があるから、今日は早く寝ることだ。
+T: Karena besok ada pertandingan penting, sebaiknya hari ini tidur lebih awal.
+## 6 | そうだ（伝聞） | そうだ
+arti: Katanya ...; kabarnya ... (mengabarkan informasi dari orang lain)
+pen: Menyampaikan informasi yang didengar dari orang lain atau berita. Berbeda dengan そうだ (kelihatannya) yang memakai bentuk ます dicoret.
+- KK bentuk biasa + そうだ (食べる / 食べた / 食べない / 食べなかった)
+- KSい bentuk biasa + そうだ (高い / 高かった / 高くない)
+- KSな bentuk biasa + そうだ (静かだ / 静かだった / 静かではない)
+- KB bentuk biasa + そうだ (学生だ / 学生だった / 学生ではない)
+C: トムの彼女は女優だそうだ。
+T: Katanya pacar Tom adalah seorang aktris.
+## 7 | ほど | ほど
+arti: Sampai (tingkat) ...; sebegitu ... sehingga ...
+pen: Menggambarkan tingkat suatu keadaan dengan membandingkannya dengan keadaan ekstrem yang mudah dibayangkan.
+- KK bentuk biasa (kamus / ない) + ほど + KSい / KSな / KK
+- KSい + ほど
+- KSな + な + ほど
+- KB + ほど
+C: 死にたいほど暑い。
+T: Panasnya sampai rasanya mau mati.
+## 8 | という | という
+arti: Yang bernama ...; yang disebut ...
+pen: Memperkenalkan nama atau sebutan suatu benda, tempat, atau orang kepada lawan bicara.
+- KB (nama) + という + KB (jenis)
+- Kalimat bentuk biasa + という + KB (isi: 噂, 話, 事実)
+C: ポケモンというゲームを知っていますか。
+T: Apakah kamu tahu permainan yang bernama Pokémon?
+## 9 | なぜなら〜から | なぜなら〜から
+arti: Alasannya karena ...
+pen: Pertama menyatakan kesimpulan atau fakta, lalu menjelaskan alasannya dengan なぜなら ... から / ためだ. Kalimat alasan diakhiri から.
+- Kalimat A。なぜなら、Kalimat B (bentuk biasa) + から(だ)
+- Kalimat A。なぜなら、KB + だから(だ)
+C: 彼は泳ぎに行けなかった。なぜなら、寒かったからだ。
+T: Dia tidak bisa pergi berenang. Alasannya, karena cuacanya dingin.
+## 10 | によると / によれば | によると
+arti: Menurut ...; berdasarkan ...
+pen: Menyebutkan sumber informasi (berita, ramalan cuaca, orang). Bagian akhir kalimat biasanya そうだ / らしい / ということだ.
+- KB (sumber informasi) + によると / によれば + kalimat bentuk biasa + そうだ / らしい
+C: 天気予報によると、明日は晴れだそうです。
+T: Menurut ramalan cuaca, katanya besok akan cerah.
+## 11 | ため（に） | ために
+arti: Demi ...; untuk ...; karena ...
+pen: Menyatakan tujuan (untuk) atau alasan (karena). Tujuan dipakai dengan kata kerja yang disengaja (volitional). Alasan biasanya untuk hal yang objektif.
+- Tujuan: KK bentuk kamus + ために
+- Tujuan: KB + の + ために
+- Alasan: KK bentuk biasa + ために
+- Alasan: KSい + ために
+- Alasan: KSな + な + ために
+- Alasan: KB + の + ために
+C: 日本語が上手になるために、毎日勉強しています。
+T: Agar menjadi mahir bahasa Jepang, saya belajar setiap hari.
+## 12 | ところが | ところが
+arti: Tetapi ternyata ...; namun ...
+pen: Kata sambung untuk menyatakan hasil yang bertentangan dengan dugaan atau harapan. Kalimat setelahnya adalah fakta, bukan perintah atau ajakan.
+- Kalimat A (dugaan/harapan)。ところが、Kalimat B (hasil yang berlawanan)
+C: 日本のチームが勝つと思っていた。ところが、負けてしまった。
+T: Saya kira tim Jepang akan menang. Namun ternyata mereka kalah.
+## 13 | 〜ば〜ほど | ばほど
+arti: Semakin ... semakin ...
+pen: Menyatakan bahwa jika suatu keadaan/tindakan bertambah, hasilnya juga ikut bertambah.
+- KK bentuk ば + KK bentuk kamus + ほど (食べれば食べるほど)
+- KSい (い → ければ) + KSい bentuk kamus + ほど (高ければ高いほど)
+- KSな (〜なら(ば)) + KSな + ほど (静かなら(ば)静かなほど)
+- KB (KBなら(ば)) + KB + ほど
+C: この豆は食べれば食べるほど痩せるらしい。
+T: Katanya kacang ini, semakin banyak dimakan, semakin kurus badan.
+## 14 | 〜ばよかった | ばよかった
+arti: Seharusnya (dulu) ...; andai saja ... (penyesalan)
+pen: Menyatakan penyesalan atas hal yang tidak dilakukan (atau yang sudah dilakukan, dengan bentuk ない) di masa lalu.
+- KK bentuk ば + よかった
+- KK bentuk ない → なければ + よかった (menyesal telah melakukan)
+- KSい / KSな / KB: 〜ければ / 〜なら + よかった
+C: 私のパソコンを持ってくればよかった。
+T: Seharusnya saya membawa laptop saya.
+## 15 | べきではない | べきではない
+arti: Tidak seharusnya ...; tidak boleh ...
+pen: Lawan dari べき. Menyatakan bahwa suatu tindakan sebaiknya tidak dilakukan.
+- KK bentuk kamus + べきではない
+- する → すべきではない / するべきではない
+C: 腐っている食べ物を食べるべきではない。
+T: Kita tidak seharusnya memakan makanan yang busuk.
+## 16 | 〜の間に（あいだに） | のあいだに
+arti: Selama ...; selagi ... (suatu kejadian terjadi dalam rentang waktu itu)
+pen: Menyatakan bahwa dalam rentang waktu tertentu terjadi suatu kejadian atau dilakukan suatu tindakan (sekali, dalam rentang itu).
+- KK bentuk ている + 間に
+- KSい + 間に
+- KSな + な + 間に
+- KB + の + 間に
+C: 今日の午後2時から3時の間には、ここに来ないでください。
+T: Mohon jangan datang ke sini antara jam 2 sampai jam 3 siang hari ini.
+## 17 | 〜うちに | うちに
+arti: Selagi masih ...; mumpung ...; sebelum ...
+pen: Melakukan sesuatu selama keadaan tertentu masih berlangsung, sebelum keadaan itu berubah. Dengan bentuk ない berarti "sebelum (keadaan) terjadi".
+- KK bentuk ている + うちに
+- KK bentuk ない + うちに
+- KSい + うちに
+- KSな + な + うちに
+- KB + の + うちに
+C: 若いうちに、いろいろな国を旅行したい。
+T: Mumpung masih muda, saya ingin bepergian ke berbagai negara.
+## 18 | 〜たらいい・〜といい | たらいい
+arti: Sebaiknya ...; alangkah baiknya jika ... (saran)
+pen: Dipakai untuk memberi saran atau menyatakan harapan. ばいい juga bisa dipakai dengan makna serupa.
+- KK bentuk た + ら + いい (ですよ / よ)
+- KK bentuk kamus + と + いい (ですよ / よ)
+C: 日本語が上手になりたかったら、日本人と話したらいいですよ。
+T: Kalau ingin pandai bahasa Jepang, sebaiknya bicara dengan orang Jepang.
+## 19 | もの・もん | もの
+arti: Habisnya ... sih; soalnya ...
+pen: Dipakai dalam percakapan santai untuk menyatakan alasan atau pembelaan, sering dengan nada manja atau merajuk. Tidak untuk bahasa tulis.
+- KK bentuk biasa + もの / もん
+- KSい + もの / もん
+- KSな + な + もの / もん
+- KB + な + もの / もん
+C: だって、彼女は嘘をついているもの。
+T: Habisnya, dia memang berbohong sih.
+## 20 | 〜によって | によって
+arti: Tergantung ...; berbeda-beda menurut ...
+pen: Menyatakan bahwa hasil atau keadaan berbeda tergantung kasus/orang/situasi. Biasanya diikuti 違う・変わる・いろいろ.
+- KB + によって + 違う / 変わる / さまざまだ
+- KB + によって + KK (pasif: 作られる / 発見された) → "oleh ..."
+C: 国によって、習慣が違います。
+T: Kebiasaan berbeda-beda tergantung negaranya.
+## 21 | 〜（の）ため | のため
+arti: Karena ... (alasan objektif / akibat peristiwa)
+pen: Menyatakan sebab yang logis atau alamiah, sering dipakai untuk berita, pengumuman, dan tulisan. Kalimat akibat tidak berupa perintah atau ajakan.
+- KK bentuk biasa + ため
+- KSい + ため
+- KSな + な + ため
+- KB + の + ため
+C: 大雪のため、電車が止まっています。
+T: Karena salju lebat, kereta berhenti beroperasi.
+## 22 | 〜ということだ / ということです | ということだ
+arti: Itu berarti ...; katanya ...; jadi intinya ...
+pen: Dipakai untuk menarik kesimpulan dari informasi yang sudah disampaikan, atau menyampaikan kabar yang didengar.
+- KK bentuk biasa + ということだ / ということです
+- KSい + ということだ
+- KSな + だ + ということだ
+- KB + だ + ということだ
+C: イルカは動物の中で頭が一番いいということだ。
+T: Katanya, di antara hewan, lumba-lumba adalah yang paling pintar.
+## 23 | ところで / ちなみに | ところで
+arti: Ngomong-ngomong ...; omong-omong ... (mengganti topik)
+pen: ところで dipakai untuk berpindah ke topik lain. ちなみに dipakai menambahkan informasi tambahan yang berhubungan dengan topik yang sedang dibicarakan.
+- ところで + kalimat dengan topik baru
+- ちなみに + informasi tambahan
+C: ところで、明日はどこに行くつもりですか。
+T: Ngomong-ngomong, besok kamu berencana pergi ke mana?
+## 24 | あまり〜ない | あまり
+arti: Tidak begitu ...; tidak terlalu ...
+pen: Dipakai dengan bentuk negatif untuk menyatakan tingkat yang tidak tinggi. あまり + bentuk positif kadang berarti "terlalu" (dalam pola あまりの KB に).
+- あまり + KK bentuk ない / ません
+- あまり + KSい (〜くない)
+- あまり + KSな (〜じゃない / ではない)
+C: 昨日はあまり寝られなかったので、眠いです。
+T: Kemarin saya tidak bisa tidur nyenyak, jadi saya mengantuk.
+## 25 | 〜ばかり | ばかり
+arti: Melulu; hanya ...; terus-menerus ...
+pen: Menyatakan bahwa sesuatu hampir selalu atau hanya hal itu saja yang terjadi, biasanya dengan nuansa kurang baik.
+- KB + ばかり + KK
+- KK bentuk て + ばかり + いる
+- KB + を + KK bentuk て + ばかり + いる
+C: 彼はいつも嘘ばかり言っている。
+T: Dia selalu saja berkata bohong.
+## 26 | どんなに〜ても | どんなに
+arti: Bagaimanapun ...; sebanyak/seberapa pun ... tetap ...
+pen: Menyatakan bahwa hasil tidak berubah, seberapa pun tingkat atau usaha yang dilakukan. Bagian akhir kalimat tidak mengikuti harapan.
+- どんなに + KK bentuk て + も
+- どんなに + KSい (い → くて) + も
+- どんなに + KSな + でも
+- どんなに + KB + でも
+C: どんなに勉強しても、うまくならない。
+T: Sebanyak apa pun belajar, saya tidak juga menjadi pandai.
+## 27 | KB1 は KB2 ほど〜ない | ほどない
+arti: KB1 tidak se... KB2.
+pen: Membandingkan dua hal; KB1 tingkatnya lebih rendah dari KB2. Dipakai dalam kalimat negatif.
+- KB1 は KB2 ほど + KSい (い → くない)
+- KB1 は KB2 ほど + KSな (な → じゃない / ではない)
+- KB1 は KB2 ほど + KK bentuk ない
+C: 今日は昨日ほど寒くない。
+T: Hari ini tidak sedingin kemarin.
+## 28 | 〜ことがある | ことがある
+arti: Pernah ...; kadang-kadang ...
+pen: Bentuk た menyatakan pengalaman; bentuk kamus/ない menyatakan kejadian yang kadang-kadang terjadi.
+- KK bentuk た + ことがある (pernah)
+- KK bentuk kamus + ことがある (kadang-kadang)
+- KK bentuk ない + ことがある (kadang tidak)
+C: 学校に送ってもらうことがある。
+T: Kadang-kadang saya diantar ke sekolah.
+## 29 | 〜ものだ | ものだ
+arti: Memang begitu sifatnya; sudah sewajarnya ...; dulu sering ...
+pen: Menyatakan kebenaran umum, sifat alami sesuatu, atau pendapat umum. Dengan bentuk た dipakai untuk mengenang kebiasaan masa lalu.
+- KSい + ものだ
+- KSな + な + ものだ
+- KK bentuk kamus + ものだ (sifat umum)
+- KK bentuk た + ものだ (nostalgia)
+C: 子どもは元気なものだ。
+T: Anak-anak itu memang pada dasarnya penuh semangat.
+## 30 | 〜に比べて | にくらべて
+arti: Dibandingkan dengan ...
+pen: Membandingkan dua hal atau dua keadaan, atau menunjukkan perubahan dibanding sebelumnya.
+- KB + に比べて + kalimat
+- KK / KSい / KSな bentuk biasa + の + に比べて
+C: 一学期に比べて、成績がよくなった。
+T: Dibandingkan semester pertama, nilai saya menjadi lebih baik.
+## 31 | 〜について | について
+arti: Tentang ...; mengenai ...
+pen: Menunjukkan topik pembicaraan, pikiran, atau penelitian.
+- KB + について + KK (話す・考える・調べる・書く)
+- KB + についての + KB
+C: この問題について、誰かに話しましたか。
+T: Apakah kamu sudah membicarakan masalah ini dengan seseorang?
+## 32 | 〜最中に（さいちゅうに） | さいちゅうに
+arti: Tepat di tengah-tengah ...; ketika sedang asyik ...
+pen: Menyatakan bahwa sesuatu yang tak terduga terjadi tepat saat suatu kegiatan sedang berlangsung. Biasanya hal yang mengganggu.
+- KK bentuk ている + 最中に + kejadian
+- KB (kegiatan) + の + 最中に + kejadian
+C: 映画を見ている最中に、彼から電話がかかってきた。
+T: Tepat ketika sedang menonton film, dia menelepon.
+## 33 | 〜と言っても | といっても
+arti: Walaupun dibilang ..., (sebenarnya) ...
+pen: Mengakui pernyataan awal tetapi menambahkan bahwa kenyataannya tidak sebesar/sehebat yang dibayangkan.
+- KK bentuk biasa + と言っても
+- KSい + と言っても
+- KSな + (だ) + と言っても
+- KB + (だ) + と言っても
+C: 今日は忙しいと言っても、昨日ほどではない。
+T: Walaupun dibilang sibuk, hari ini tidak sesibuk kemarin.
+## 34 | 〜というのは | というのは
+arti: Yang dimaksud dengan ... adalah ...
+pen: Dipakai untuk menjelaskan arti atau definisi suatu kata.
+- KB + というのは + penjelasan + の / こと / ことだ
+C: 「じはんき」というのは、自動販売機のことだ。
+T: Yang dimaksud "jihanki" adalah mesin penjual otomatis.
+## 35 | 〜わけだ | わけだ
+arti: Pantas saja ...; jadi wajar kalau ...
+pen: Menyatakan kesimpulan yang wajar dari fakta atau penjelasan sebelumnya.
+- KK bentuk biasa + わけだ
+- KSい + わけだ
+- KSな + な + わけだ
+- KB + の + わけだ
+C: 雪が降っていた。寒いわけだ。
+T: Ternyata sedang turun salju. Pantas saja dingin.
+## 36 | あまりに | あまりに
+arti: Terlalu ...; saking ...
+pen: Menyatakan tingkat yang berlebihan, sehingga muncul akibat tertentu (biasanya negatif).
+- あまりに + KSい
+- あまりに + KSな
+- あまりに + KSい (い → く) / KSな (な → に) + KK
+C: あまりに早く着きすぎて、誰もいなかった。
+T: Saya tiba terlalu awal sehingga tidak ada siapa-siapa.
+## 37 | 〜ばかりだ | ばかりだ
+arti: Terus-menerus menjadi ...; makin lama makin ...
+pen: Menyatakan keadaan yang terus berubah ke arah tertentu (biasanya memburuk).
+- KK bentuk kamus + ばかりだ (増える・悪くなる)
+- KB + に + なっていく + ばかりだ
+- KSい (い → く) + なっていく + ばかりだ
+- KSな + に + なっていく + ばかりだ
+C: 最近、ビットコインの価値は下がっていくばかりだ。
+T: Akhir-akhir ini nilai Bitcoin terus saja menurun.
+## 38 | いくら〜ても | いくら
+arti: Seberapa pun ... tetap ...
+pen: Sama seperti どんなに〜ても: menyatakan bahwa hasil tetap sama walau tingkatnya dinaikkan.
+- いくら + KK bentuk て + も
+- いくら + KSい (い → くて) + も
+- いくら + KSな + でも
+- いくら + KB + でも
+C: いくら食べても、太らない。
+T: Sebanyak apa pun makan, saya tidak gemuk.
+## 39 | 〜ことはない | ことはない
+arti: Tidak perlu ...; tidak ada gunanya ...
+pen: Menyatakan bahwa tindakan tidak perlu dilakukan. Sering dipakai untuk menenangkan lawan bicara.
+- KK bentuk kamus + ことはない
+C: これ以上何も言うことはない。
+T: Tidak ada lagi yang perlu saya katakan.
+## 40 | 〜くらい / 〜ぐらい（程度） | くらい
+arti: Sampai-sampai ...; kira-kira sampai tingkat ...
+pen: Menyatakan tingkat atau batas suatu keadaan dengan perbandingan ringan. くらい sama dengan ほど.
+- KK bentuk kamus / ない + くらい + KSい / KK
+- KSい + くらい
+- KSな + な + くらい
+- KB + くらい
+C: 吐きたいくらい頭が痛い。
+T: Kepala saya sakit sampai rasanya ingin muntah.
+## 41 | 〜まま | まま
+arti: Dalam keadaan tetap ...; tanpa berubah ...
+pen: Menyatakan bahwa suatu keadaan tetap berlangsung tanpa berubah, sementara hal lain dilakukan.
+- KK bentuk た + まま
+- KK bentuk ない + まま
+- KSい + まま
+- KSな + な + まま
+- KB + の + まま
+C: 窓を開けたまま、寝てしまった。
+T: Saya tertidur dengan jendela masih terbuka.
+## 42 | 〜に関する・〜に関して | にかんする
+arti: Mengenai ...; yang berkaitan dengan ... (lebih formal dari について)
+pen: Menunjukkan topik pembahasan dalam bahasa yang lebih formal. に関する dipakai di depan kata benda, に関して di depan kata kerja.
+- KB + に関して + KK
+- KB1 + に関する + KB2
+C: ダンスに関する本が、机の上にあります。
+T: Buku tentang dansa ada di atas meja.
+## 43 | 〜に対して | にたいして
+arti: Terhadap ...; sebaliknya dibandingkan ...
+pen: Menunjukkan sasaran sikap/tindakan, atau kontras dua hal.
+- KB + に対して + KK / KSい / KSな
+- KB + に対する + KB
+- KK bentuk biasa + のに対して (kontras)
+C: 先生は、学生の質問に対して、丁寧に答えてくれた。
+T: Guru menjawab dengan sopan terhadap pertanyaan murid-murid.
+## 44 | 〜おかげで | おかげで
+arti: Berkat ...; karena bantuan ... (hasil baik)
+pen: Menyatakan bahwa hasil yang baik terjadi karena orang atau hal tertentu, dengan rasa terima kasih.
+- KK bentuk biasa + おかげで
+- KSい + おかげで
+- KSな + な + おかげで
+- KB + の + おかげで
+C: 先生のおかげで、試験に合格しました。
+T: Berkat guru, saya lulus ujian.
+## 45 | 〜てもかまわない | てもかまわない
+arti: Tidak apa-apa walau ...; boleh ...
+pen: Menyatakan izin atau bahwa suatu keadaan dapat diterima. Mirip てもいい tetapi lebih lunak.
+- KK bentuk て + も + かまわない / かまいません
+- KK bentuk ない → なくても + かまわない
+C: ここに座ってもかまいませんか。
+T: Tidak apa-apa kalau saya duduk di sini?

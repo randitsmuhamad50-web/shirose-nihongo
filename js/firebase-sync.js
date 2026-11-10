@@ -26,7 +26,7 @@ import {
 import {
   getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc,
   collection, getDocs, onSnapshot, query, orderBy, limit, addDoc,
-  where, writeBatch, serverTimestamp
+  where, writeBatch, serverTimestamp, FieldPath, deleteField
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -821,6 +821,22 @@ export async function simpanKategori(data, id = null) {
 export async function hapusKategori(id) {
   if (!userIsGuru()) throw new Error("Hanya guru");
   await deleteDoc(doc(db, "kategori_ujian", id));
+}
+
+/* ========== KELAS KATA KOSAKATA (override guru) ==========
+   kosakata_pos/{lvl} = { map: { "<kata>": ["KK"|"KB"|"KSい"|"KSな", ...] | ["-"] } }
+   Data JSON asli tidak diubah; override dipasang di memori saat Materi/Hafalan dimuat. */
+export async function getPosOverride(lvl) {
+  const snap = await getDoc(doc(db, "kosakata_pos", lvl));
+  return snap.exists() ? (snap.data().map || {}) : {};
+}
+export async function setPosOverride(lvl, kata, tags) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await setDoc(doc(db, "kosakata_pos", lvl), { map: { [kata]: (tags && tags.length) ? tags : ["-"] }, updated: serverTimestamp() }, { merge: true });
+}
+export async function resetPosOverride(lvl, kata) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "kosakata_pos", lvl), new FieldPath("map", kata), deleteField());
 }
 
 /* ========== SOAL (per kategori / paket soal) ========== */
