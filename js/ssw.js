@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261110n";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110n";
+} from "./ssw-core.js?v=20261110o";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110o";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -56,10 +56,11 @@ const L = (o, lang) => (o && (o[lang] ?? o.id ?? o.jp)) || "";
 const pageFile = (slug, lang, n) => `./assets/ssw/${slug}/${lang}/p${String(n).padStart(2, "0")}.webp`;
 const AUDIO_LEVEL = { "building-cleaning": "ssw-bc" };
 
-function say(text, slug) {
+// Semua suara lewat VOICEVOX (voice pack → engine lokal → cadangan). key = teks kunci voice pack, read = bacaan.
+function say(text, slug, read) {
   const t = spoken(text); if (!t) return;
-  try { if (window.SV && window.SV.speak) { window.SV.speak(t, { role: "kosakata", level: AUDIO_LEVEL[slug] || "ssw-bc" }); return; } } catch (_) {}
-  try { const u = new SpeechSynthesisUtterance(t); u.lang = "ja-JP"; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (_) { toast("Suara tidak tersedia di perangkat ini"); }
+  try { window.SV.speak(t, { role: "kosakata", level: AUDIO_LEVEL[slug] || "ssw-bc", say: read ? spoken(read) : undefined }); }
+  catch (_) { toast("Suara tidak tersedia di perangkat ini"); }
 }
 
 const crumbs = (parts) => `<div class="sw-crumbs">${parts.map((p, i) => p.go ? `<a onclick="${p.go}">${p.t}</a>` : `<b>${p.t}</b>`).join(" <span>›</span> ")}</div>`;
@@ -636,7 +637,7 @@ const SSW = window.SSW = {
     const el = document.getElementById("hf-n"); if (el) el.textContent = set.size; HF.sel = q; HF.n = set.size;
   },
   async alatInit(slug) {
-    try { if (!ALAT.items) ALAT.items = (await (await fetch(`./data/ssw/${slug}/alat.json?v=20261110n`)).json()).items; if (window.sswSrsLoad) ALAT.srs = await window.sswSrsLoad(); alatDraw(); }
+    try { if (!ALAT.items) ALAT.items = (await (await fetch(`./data/ssw/${slug}/alat.json?v=20261110o`)).json()).items; if (window.sswSrsLoad) ALAT.srs = await window.sswSrsLoad(); alatDraw(); }
     catch (e) { const b = document.getElementById("alat-body"); if (b) b.innerHTML = `<p class="sw-muted">Data peralatan belum bisa dimuat.</p>`; }
   },
   alatSet(k, v) { ALAT[k] = v; alatDraw(); },
@@ -690,7 +691,7 @@ const SSW = window.SSW = {
     if (nextId) SSW.go(slug, nextId); else { toast("🎉 Bab selesai!"); const pack = await loadPack(slug); const c = pack.chapters.find(x => x.subs.some(s => s.id === subId)); route(`ssw-bab/${slug}/${c.id}`); }
   },
   async sayTitle(slug, subId, lang) { const pack = await loadPack(slug); for (const c of pack.chapters) for (const s of c.subs) if (s.id === subId) say(L(s.title, lang), slug); },
-  async sayWord(slug, id) { const pack = await loadPack(slug); const v = pack.vocab.find(x => x.id === id); if (v) say(v.kana || v.kata, slug); },
+  async sayWord(slug, id) { const pack = await loadPack(slug); const v = pack.vocab.find(x => x.id === id); if (v) say(v.kata || v.kana, slug, v.kana); },
   /* --- buku --- */
   bookInit(slug, lang, pg, total) {
     const st = document.getElementById("bk-stage"); if (!st) return;
@@ -779,7 +780,7 @@ const SSW = window.SSW = {
     FC.i = h.i; FC.flipped = true; touch(FC.slug); SSW.fcDraw();
   },
   fcShuffle() { if (!FC) return; const rest = FC.queue.slice(FC.i); FC.queue = [...FC.queue.slice(0, FC.i), ...shuffle(rest)]; SSW.fcDraw(); },
-  fcSay() { if (!FC) return; const v = FC.queue[FC.i]; if (v) say(v.kana || v.kata, FC.slug); },
+  fcSay() { if (!FC) return; const v = FC.queue[FC.i]; if (v) say(v.kata || v.kana, FC.slug, v.kana); },
   /* --- kuis --- */
   qzDraw() {
     const root = document.getElementById("qz-root"); if (!root || !QZ) return;

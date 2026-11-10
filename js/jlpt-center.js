@@ -421,11 +421,8 @@ function putar(qOverride) {
   if (!q || !q.ck) return;
   if (!qOverride && E) { E.sesi.putar[E.sesi.pos] = (E.sesi.putar[E.sesi.pos] || 0) + 1; simpanSesi(); }
   const lines = (q.ck.script && q.ck.script.length ? q.ck.script : q.ck.dialog).map(l => ({ s: l.s, t: String(l.t).replace(/<[^>]+>/g, "") }));
-  if (window.SV && window.SV.playScript) {
+  {
     window.SV.playScript({ file: q.ck.audio ? "./" + q.ck.audio : null, lines, voices: q.ck.voices || { N: "aoyama", F: "mochiko", M: "kurita" }, label: "Choukai", owner: "jlpt" });
-  } else if ("speechSynthesis" in window) {
-    speechSynthesis.cancel();
-    lines.forEach(l => { const u = new SpeechSynthesisUtterance(l.t); u.lang = "ja-JP"; speechSynthesis.speak(u); });
   }
   if (!qOverride) {
     const sp = document.querySelector(".jx-audio .jx-muted");

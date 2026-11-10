@@ -17,6 +17,10 @@ on:
       - "data/kosakata-*.json"
       - "data/kanji-*.json"
       - "data/bunpou-*.json"
+      - "data/kana*.json"
+      - "data/ssw/**"
+      - "js/kana-center.js"
+      - "tools/vv_build.py"
       - "audio/vv/voices.json"
       - ".github/workflows/voice-pack.yml"
   workflow_dispatch:
@@ -65,7 +69,7 @@ jobs:
           ma = []
           if "${{ github.event_name }}" == "push" or "${{ github.event.inputs.materi }}" == "true":
               import vv_build
-              for lvl in ["n5", "n4", "n3", "n2", "n1", "ssw-bc"]:
+              for lvl in ["n5", "n4", "n3", "n2", "n1", "ssw-bc", "kana"]:
                   try: jobs = vv_build.materi_jobs(lvl)
                   except Exception: continue
                   for cat, (vkey, items) in jobs.items():
