@@ -98,8 +98,7 @@ function stats(t) {
 /* ============================== util UI ============================== */
 const bar = (pct, cls = "") => `<div class="kc-bar ${cls}"><i style="width:${Math.max(0, Math.min(100, pct))}%"></i></div>`;
 function say(text) {
-  try { if (window.SV && window.SV.speak) { window.SV.speak(text, { role: "kosakata" }); return; } } catch (_) {}
-  try { const u = new SpeechSynthesisUtterance(text); u.lang = "ja-JP"; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (_) { toast("Suara tidak tersedia di perangkat ini"); }
+  try { window.SV.speak(text, { role: "kosakata", level: "kana" }); } catch (_) { toast("Suara tidak tersedia di perangkat ini"); }
 }
 const fmtTgl = (ms) => ms ? new Date(ms).toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short" }) : "-";
 const fmtDur = (s) => `${Math.floor(s / 60)}m ${String(Math.round(s % 60)).padStart(2, "0")}d`;
@@ -727,7 +726,7 @@ document.addEventListener("keydown", (e) => { if (e.key === "Escape" && WS) clos
 window.addEventListener("hashchange", () => { if (WS) closeWriter(true); });
 /* ============================== LATIHAN BACA 200 KATA ============================== */
 let BACA = null; const KB = { t: "hira", set: "all", mode: "kartu", list: [], i: 0, show: false, sc: { ok: 0, ng: 0 }, pick: null };
-async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110n"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
+async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110o"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
 const bst = (t, k) => { const o = P.baca[t][k]; return !o ? "baru" : (o.ok >= 2 && o.last === 1) ? "kuasa" : o.last === 1 ? "bisa" : "belum"; };
 function bacaPool() { const all = BACA[KB.t]; if (KB.set === "all") return all; if (KB.set === "belum") return all.filter(w => { const s = bst(KB.t, w.k); return s === "baru" || s === "belum"; }); const n = +KB.set; return all.slice(n * 20, n * 20 + 20); }
 export async function renderKanaBaca([t]) {

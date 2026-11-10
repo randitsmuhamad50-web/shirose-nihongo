@@ -48,9 +48,9 @@
 .jx-bar.big{height:12px; flex:1; margin:0;}
 
 /* paket */
-.jx-pkglist{display:grid; grid-template-columns:repeat(2, 1fr); gap:10px;}
-@media (max-width:760px){ .jx-pkglist{grid-template-columns:1fr;} }
-.jx-pkg{display:flex; gap:12px; align-items:center; padding:14px; border-radius:14px; background:var(--navy-3); border:1px solid var(--border); cursor:pointer;}
+.jx-pkglist{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:10px; min-width:0; max-width:100%;}
+@media (max-width:760px){ .jx-pkglist{grid-template-columns:minmax(0,1fr);} }
+.jx-pkg{min-width:0; max-width:100%; box-sizing:border-box; display:flex; gap:12px; align-items:center; padding:14px; border-radius:14px; background:var(--navy-3); border:1px solid var(--border); cursor:pointer;}
 .jx-pkg:hover{border-color:var(--pink);}
 .jx-pkg.done{border-left:4px solid var(--green);}
 .jx-pkg.aktif{border-color:var(--gold); box-shadow:0 0 0 1px var(--gold) inset;}
@@ -58,7 +58,9 @@
 .jx-pkg .info{flex:1; min-width:0;}
 .jx-pkg .ttl{font-weight:800; font-size:17px;}
 .jx-pkg .sub{font-size:13px; color:var(--gray);}
-.jx-pkg .mondai{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.jx-pkg .mondai{white-space:normal; overflow-wrap:anywhere; font-size:12px; line-height:1.5; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+.jx-pkg .mondai:hover{-webkit-line-clamp:unset;}
+.panel.jx{min-width:0; max-width:100%;}
 .jx-pkg .st{display:flex; flex-direction:column; gap:4px; align-items:flex-end; flex:none;}
 
 /* setup */
