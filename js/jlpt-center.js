@@ -97,8 +97,14 @@ export async function renderJlpt(params = []) {
     setTimeout(() => window.route && window.route("login"), 0);
     return `<div class="loading">Memuat…</div>`;
   }
-  const sesi = LS.get(SESI_KEY(), null);
-  const [lv, jenis, pkgId] = params;
+  let sesi = LS.get(SESI_KEY(), null);
+  let [lv, jenis, pkgId] = params;
+  // JLPT Center hanya untuk level yang sedang dipilih siswa (tidak digabung / tidak ada tautan antar level).
+  const cur = curLevel();
+  if (cur) {
+    if (sesi && sesi.lv && sesi.lv !== cur) sesi = null;
+    if (lv !== cur) { lv = cur; jenis = undefined; pkgId = undefined; }
+  }
   try {
     if (sesi && !sesi.selesai && pkgId && sesi.pkgId === pkgId) return await mulaiAtauLanjut(sesi);
     if (!lv) return await viewLevel(sesi);
@@ -116,6 +122,7 @@ export async function renderJlpt(params = []) {
 export async function renderRiwayatJlpt() { stopTimer(); return await viewRiwayat(); }
 export async function renderReviewJlpt(params = []) { stopTimer(); return await viewReviewDariRiwayat(params[0]); }
 
+const curLevel = () => { const l = String(S().level || "").toLowerCase(); return LV.includes(l) ? l : null; };
 function bolehLevel(lv) {
   return typeof window.canAccessLevel === "function" ? window.canAccessLevel(lv) : true;
 }
@@ -749,9 +756,10 @@ function grafik(list) {
 async function viewRiwayat() {
   const n = await sinkronLokal();
   if (n) toast(`☁️ ${n} hasil tersinkron ke server`);
-  const list = await riwayat(true);
+  const cur = curLevel();
+  const list = (await riwayat(true)).filter(h => !cur || h.lv === cur);
   const idx = await loadIndex();
-  const perLv = LV.map(lv => {
+  const perLv = LV.filter(l => !cur || l === cur).map(lv => {
     const total = Object.keys(JENIS).reduce((a, j) => a + (idx.level[lv]?.[j]?.length || 0), 0);
     const mine = list.filter(h => h.lv === lv);
     const unik = new Set(mine.map(h => h.pkgId)).size;
@@ -772,7 +780,7 @@ async function viewRiwayat() {
     <h2>📊 Riwayat &amp; Perkembangan</h2>
     <div class="jx-cards4">
       <div><span>Nilai terakhir</span><b>${last ? last.skor + "%" : "-"}</b><small>${last ? esc(last.judul) : "Belum ada"}</small></div>
-      <div><span>Total ujian</span><b>${list.length}</b><small>semua level</small></div>
+      <div><span>Total ujian</span><b>${list.length}</b><small>${cur ? "level " + cur.toUpperCase() : "semua level"}</small></div>
       <div><span>Rata-rata</span><b>${list.length ? Math.round(list.reduce((s, h) => s + (h.skor || 0), 0) / list.length) + "%" : "-"}</b><small>estimasi latihan</small></div>
       <div><span>Perlu dilatih</span><b>${a.lemah ? CAT_LABEL[a.lemah.k] : "-"}</b><small>${a.lemah ? a.lemah.pct + "% benar" : ""}</small></div>
     </div>
@@ -793,7 +801,7 @@ async function viewRiwayat() {
 
 /* ---------------- ringkasan untuk widget dashboard ---------------- */
 export async function ringkasanTerakhir() {
-  try { const l = await riwayat(); return l[0] || null; } catch (e) { return null; }
+  try { const c = curLevel(); const l = (await riwayat()).filter(h => !c || h.lv === c); return l[0] || null; } catch (e) { return null; }
 }
 
 window.JLPT = {
