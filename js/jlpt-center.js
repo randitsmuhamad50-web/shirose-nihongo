@@ -22,6 +22,7 @@ const JENIS = {
   kanji:  { ico: "漢", nama: "Kanji", jp: "漢字", desc: "Cara baca & penulisan kanji", durasi: 20 },
   kotoba: { ico: "語", nama: "Kotoba", jp: "語彙", desc: "Kosakata: konteks, makna, penggunaan", durasi: 20 },
   bunpou: { ico: "文", nama: "Bunpou", jp: "文法", desc: "Tata bahasa & menyusun kalimat (★)", durasi: 20 },
+  dokkai: { ico: "読", nama: "Dokkai", jp: "読解", desc: "Membaca: teks pendek, menengah, panjang, pencarian informasi", durasi: 20 },
 };
 const CAT_LABEL = { kanji: "Kanji", kotoba: "Kotoba", bunpou: "Bunpou", dokkai: "Dokkai", choukai: "Choukai" };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -229,8 +230,8 @@ async function viewSetup(lv, jenis, pkgId, sesi) {
   const idx = await loadIndex();
   const meta = findMeta(idx, pkgId);
   if (!meta) throw new Error("Paket tidak ditemukan");
-  const def = JENIS[jenis].durasi;
-  const pilihan = jenis === "full" ? [30, 45, 60, 70] : [5, 10, 15, 20];
+  const def = meta.durasi || JENIS[jenis].durasi;
+  const pilihan = [...new Set([...(jenis === "full" ? [30, 45, 60, 70] : [5, 10, 15, 20]), def])].sort((a, b) => a - b);
   const lain = sesi && !sesi.selesai && sesi.pkgId !== pkgId;
   return `
     <div class="panel jx">
@@ -376,7 +377,7 @@ function htmlUjian() {
             ${ck.set && printed ? `<div class="jx-muted">${esc(ck.set)}</div>` : ""}</div>` : ""}
         <div class="jx-q">
           <div class="no">${s.pos + 1}</div>
-          <div class="txt">${safe(q.q)}</div>
+          <div class="txt">${qHtml(q)}</div>
         </div>
         <div class="jx-opts ${q.html_opts ? "long" : ""}">${opsiHtml}</div>
         <div class="jx-nav">
@@ -394,13 +395,28 @@ function htmlUjian() {
     </div>
   </div>`;
 }
+/* Soal ★ (文の組み立て): kotak kosong ditampilkan tanpa garis ＿＿＿, tanda ★ tetap. */
+function qHtml(q) { let t = q.q || ""; if (q.tipe === "kumitate") t = t.replace(/＿{2,}/g, "□").replace(/★□/g, "★ □").replace(/□★/g, "□ ★"); return safe(t); }
+/* Di app ini <body> yang punya overflow:auto, jadi window.scrollY selalu 0. Pakai elemen yang benar-benar menggulung. */
+function scroller() {
+  const b = document.body;
+  return (b.scrollHeight > b.clientHeight + 1 && /(auto|scroll)/.test(getComputedStyle(b).overflowY)) ? b : (document.scrollingElement || document.documentElement);
+}
+function toTop() { scroller().scrollTop = 0; window.scrollTo(0, 0); }
 function rerender(keepScroll) {
-  const y = window.scrollY;
+  const sc = scroller(), y = sc.scrollTop;
+  const g0 = document.querySelector(".jx-grid"), gy = g0 ? g0.scrollTop : 0;
   document.getElementById("app").innerHTML = htmlUjian();
   mulaiTimer();
-  if (keepScroll) window.scrollTo(0, y); else {
+  const g1 = document.querySelector(".jx-grid"); if (g1) g1.scrollTop = gy;   /* daftar nomor tidak lompat ke atas */
+  /* Pertahankan posisi scroll; hanya pindah kalau soal baru tidak terlihat di layar. */
+  scroller().scrollTop = y;
+  if (!keepScroll) {
     const el = document.querySelector(".jx-q");
-    if (el && el.getBoundingClientRect().top < 0) el.scrollIntoView({ block: "start" });
+    if (el) {
+      const top = el.getBoundingClientRect().top;
+      if (top < 0 || top > window.innerHeight * 0.7) el.scrollIntoView({ block: "start" });
+    }
   }
 }
 function jawab(i) {
@@ -411,9 +427,8 @@ function geser(d) {
   if (!E) return;
   stopAudio();
   E.sesi.pos = Math.max(0, Math.min(E.pkg.flat.length - 1, E.sesi.pos + d)); simpanSesi(); rerender(false);
-  window.scrollTo({ top: 0 });
 }
-function lompat(i) { if (!E) return; stopAudio(); E.sesi.pos = i; simpanSesi(); rerender(false); window.scrollTo({ top: 0 }); }
+function lompat(i) { if (!E) return; stopAudio(); E.sesi.pos = i; simpanSesi(); rerender(false); }
 function tandai() { if (!E) return; const p = E.sesi.pos; E.sesi.tandai[p] = !E.sesi.tandai[p]; simpanSesi(); rerender(true); }
 function stopAudio() { try { window.SV && window.SV.stop(true); } catch (e) {} }
 function putar(qOverride) {
@@ -506,7 +521,7 @@ async function kumpulkan(timeout) {
     R = { hasil, pkg, filter: "semua", pos: 0, tersimpan };
     E = null;
     document.getElementById("app").innerHTML = htmlHasil();
-    window.scrollTo(0, 0);
+    toTop();
   } finally { _mengumpulkan = false; }
 }
 
@@ -631,7 +646,7 @@ function daftarFilter() {
 function bukaReview() { R.filter = "semua"; R.pos = 0; renderReview(); }
 function renderReview() {
   document.getElementById("app").innerHTML = htmlReview();
-  window.scrollTo(0, 0);
+  toTop();
   linkKanji(document.querySelector(".jx-revq")).catch(() => {});
 }
 /* ---------------- 8b. KANJI BISA DIPENCET DI PEMBAHASAN (kamus dari materi) ---------------- */
@@ -812,7 +827,7 @@ function htmlReview() {
       <div class="jx-muted">Jawabanmu: <b>${pick == null || pick < 0 ? "—" : (ck ? pick + 1 : ABCD[pick])}</b> · Jawaban benar: <b>${ck ? q.ans + 1 : ABCD[q.ans]}</b></div>
       ${passage ? `<details class="jx-passage" open><summary>📄 Bacaan</summary><div class="jp">${safe(passage.jp)}</div></details>` : ""}
       ${ck ? `<div class="jx-audio"><button class="btn ghost" onclick="JLPT.putarReview(${i})">▶ Putar ulang audio</button></div>` : ""}
-      <div class="jx-q"><div class="no">${i + 1}</div><div class="txt">${safe(q.q)}</div></div>
+      <div class="jx-q"><div class="no">${i + 1}</div><div class="txt">${qHtml(q)}</div></div>
       <div class="jx-opts ${q.html_opts ? "long" : ""}">${opts}</div>
       ${htmlEx(q, pkg)}
       <div class="jx-nav">
@@ -830,7 +845,7 @@ function revLompat(i) {
   if (!ids.includes(i)) { R.filter = "semua"; ids = daftarFilter(); }
   R.pos = ids.indexOf(i); renderReview();
 }
-function kembaliHasil() { document.getElementById("app").innerHTML = htmlHasil(); window.scrollTo(0, 0); }
+function kembaliHasil() { document.getElementById("app").innerHTML = htmlHasil(); toTop(); }
 function putarReview(i) { putar(R.pkg.flat[i]); }
 
 async function viewReviewDariRiwayat(id) {
