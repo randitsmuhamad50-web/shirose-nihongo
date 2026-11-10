@@ -41,17 +41,44 @@ EXTRA = {"次": "つぎ", "仕事": "しごと", "流": "なが", "病気": "び
 DICT = {}
 for e in items:
     w = rb(e["kata"], e["kana"])
-    if w: DICT[w[0]] = w[1]
+    if w and len(w[0]) > 1: DICT[w[0]] = w[1]
 DICT.update({k: v for k, v in EXTRA.items() if k not in DICT})
-KEYS = sorted(DICT, key=len, reverse=True)
+# kata bertanda okurigana: kunci -> (dasar, bacaan, ekor)
+TAIL = {"何の": ("何", "なん", "の"), "何も": ("何", "なに", "も"), "食べ": ("食", "た", "べ"), "保つ": ("保", "たも", "つ"), "働き": ("働", "はたら", "き"),
+        "補い": ("補", "おぎな", "い"), "覚える": ("覚", "おぼ", "える"), "曲げ": ("曲", "ま", "げ"), "忙し": ("忙", "いそが", "し"), "お詫び": ("詫", "わ", "び"),
+        "人通り": ("通", "とお", "り"), "危な": ("危", "あぶ", "な"), "固い": ("固", "かた", "い"), "治って": ("治", "なお", "って"), "先に": ("先", "さき", "に"),
+        "外して": ("外", "はず", "して"), "増や": ("増", "ふ", "や"), "消す": ("消", "け", "す"), "放って": ("放", "ほう", "って"), "変わ": ("変", "か", "わ"),
+        "節約": ("節約", "せつやく", ""), "小さ": ("小", "ちい", "さ"), "簡単": ("簡単", "かんたん", "")}
+for _ln in open(os.path.join(ROOT, "tools", "ssw", "src", "ruby_pairs.txt"), encoding="utf-8"):
+    _p = _ln.strip().split("|")
+    if len(_p) < 2 or not _p[0] or not _p[1]: continue
+    _ok = [x for x in (_p[2].split(",") if len(_p) > 2 else []) if x]
+    if _ok:
+        for x in _ok: TAIL.setdefault(_p[0] + x, (_p[0], _p[1], x))
+    elif len(_p[0]) > 1 and _p[0] not in DICT: DICT[_p[0]] = _p[1]
+for _k, _v in {"制服": "せいふく", "苦情": "くじょう", "優先": "ゆうせん", "金属": "きんぞく", "天井": "てんじょう", "屋根": "やね", "略": "りゃく", "約": "やく",
+               "絵": "え", "初": "しょ", "栓": "せん", "布": "ぬの", "感染": "かんせん", "有毒": "ゆうどく", "塩素": "えんそ", "酸": "さん", "衝突": "しょうとつ",
+               "火事": "かじ", "材質": "ざいしつ", "大理石": "だいりせき", "特有": "とくゆう", "油性": "ゆせい", "予防": "よぼう", "準備": "じゅんび", "操作": "そうさ",
+               "作業": "さぎょう", "後片付け": "あとかたづけ", "仕上げ": "しあげ", "部屋": "へや", "出口": "でぐち", "自動": "じどう", "全部": "ぜんぶ", "列": "れつ",
+               "砂": "すな", "木": "き", "車": "くるま", "説明": "せつめい", "回収": "かいしゅう", "年": "ねん", "回": "かい", "水栓": "すいせん", "拭": "ふ", "辞儀": "じぎ", "何": "なん", "先": "さき", "通": "とお", "放": "ほう", "補助具": "ほじょぐ", "低": "ひく", "建": "けん", "材": "ざい"}.items():
+    DICT[_k] = _v
+KEYS = sorted(set(DICT) | set(TAIL), key=len, reverse=True)
 def auto(t):
-    if not t or "{" in t: return t           # sudah diberi ruby manual
-    out, i = "", 0
-    while i < len(t):
-        for k in KEYS:
-            if t.startswith(k, i): out += "{%s|%s}" % (k, DICT[k]); i += len(k); break
-        else: out += t[i]; i += 1
-    return out
+    if not t: return t
+    parts = re.split(r"(\{[^|{}]+\|[^{}]+\})", t)      # bagian yang sudah diberi ruby manual dibiarkan
+    res = []
+    for seg in parts:
+        if seg.startswith("{") and "|" in seg: res.append(seg); continue
+        out, i = "", 0
+        while i < len(seg):
+            for k in KEYS:
+                if seg.startswith(k, i):
+                    if k in TAIL: b, r, tl = TAIL[k]; out += "{%s|%s}%s" % (b, r, tl)
+                    else: out += "{%s|%s}" % (k, DICT[k])
+                    i += len(k); break
+            else: out += seg[i]; i += 1
+        res.append(out)
+    return "".join(res)
 def fix(d):
     d["q"]["jp"] = auto(d["q"]["jp"]); d["exp"]["jp"] = auto(d["exp"]["jp"])
     for o in d["opts"]: o["jp"] = auto(o["jp"])
@@ -62,6 +89,8 @@ for bab, sets in CHAPTERS.items():
 from quiz_sub import SUB
 for subid, bab, no, tid, tjp, its in SUB:
     quiz["bab"][bab].append({"id": f"{subid}-q", "sub": subid, "title": {"id": f"Subbab {no} · {tid}", "jp": f"{no} {tjp}"}, "items": [fix(x) for x in its]})
+from quiz_tema import TEMA
+quiz["tema"] = [{"id": tid, "tema": True, "title": t, "items": [fix(x) for x in its]} for tid, t, its in TEMA]
 json.dump(quiz, open(os.path.join(out, "quiz.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(sum(len(q["items"]) for v in quiz["bab"].values() for q in v), "soal")
 
