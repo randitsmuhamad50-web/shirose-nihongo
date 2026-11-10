@@ -1,10 +1,11 @@
 /* Service worker: network-first, cache fallback */
+// v26 — SSW 特定技能 (ssw.js, ssw-core.js, ssw-art.js, css/ssw.css; data & gambar halaman buku dicache saat dibuka).
 // v25 — Hiragana & Katakana (kana-center, writer, data kana + goresan), cache goresan KanjiVG.
 // v23 — JLPT Center (Full Exam + Practice N5–N1, timer, pembahasan, riwayat).
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v25";
+const CACHE = "shirose-nihongo-v28";
 const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
 const KVG = "shirose-kvg-v1";       // goresan KanjiVG yang pernah dibuka (offline; tidak dihapus saat update)
 const CORE = [
@@ -30,6 +31,10 @@ const CORE = [
   "./css/kana-center.css",
   "./data/kana.json",
   "./data/kana-strokes.json",
+  "./js/ssw.js",
+  "./js/ssw-core.js",
+  "./js/ssw-art.js",
+  "./css/ssw.css",
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).catch(()=>{}));

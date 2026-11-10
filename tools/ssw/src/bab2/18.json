@@ -1,0 +1,43 @@
+{
+ "id": "b2s18", "no": 18,
+ "title": { "id": "Mengenai Kontrol Kebersihan", "jp": "衛生管理について" },
+ "pages": [58, 59],
+ "full": {
+  "id": [
+   { "h": "Cuci tangan = pencegahan infeksi" },
+   { "p": "Setelah selesai bekerja, cuci tangan. Cuci tangan untuk melindungi diri kamu sendiri: ada kemungkinan jamur, bakteri, virus, dan kotoran menempel pada tangan." },
+   { "h": "Cara mencuci tangan" },
+   { "ol": [
+     "Setelah membasahi tangan dengan air mengalir, gunakan sabun batang dan gosok telapak tangan.",
+     "Gosok-gosok punggung tangan dengan dilebarkan.",
+     "Gosok dengan teliti bagian ujung jari dan kuku.",
+     "Cuci bagian sela jari-jari.",
+     "Lingkarkan tangan di ibu jari, kemudian gosok-gosok.",
+     "Jangan lupa cuci juga pergelangan tangan."
+   ] },
+   { "p": "Cucilah tangan lebih dari 20 detik." },
+   { "h": "Perlengkapan kebersihan diri" },
+   { "p": "Ada tempat yang perlu masker, sarung kepala dan sarung tangan, jadi perhatikan kebersihan diri sendiri ya." }
+  ],
+  "jp": [
+   { "h": "{手洗|てあら}い＝{感染予防|かんせんよぼう}" },
+   { "p": "{作業後|さぎょうご}はちゃんと{手洗|てあら}いをする。{手洗|てあら}いは{自分|じぶん}の{身|み}を{守|まも}るためだよ！{雑菌|ざっきん}やウイルス、カビが{付着|ふちゃく}しているかもしれないからね。" },
+   { "h": "{手|て}の{洗|あら}い{方|かた}" },
+   { "ol": [
+     "{流水|りゅうすい}でよく{手|て}をぬらした{後|あと}、{石|せっ}けんをつけ、{手|て}のひらをよくこすります。",
+     "{手|て}の{甲|こう}をのばすようにこすります。",
+     "{指先|ゆびさき}・{爪|つめ}の{間|あいだ}を{念入|ねんい}りにこすります。",
+     "{指|ゆび}の{間|あいだ}を{洗|あら}います。",
+     "{親指|おやゆび}と{手|て}のひらをねじり{洗|あら}いします。",
+     "{手首|てくび}も{忘|わす}れずに{洗|あら}います。"
+   ] },
+   { "p": "20{秒以上|びょういじょう}かけて{手|て}を{洗|あら}う。" },
+   { "h": "{衛生面|えいせいめん}" },
+   { "p": "マスクやキャップ、{手袋|てぶくろ}が{必要|ひつよう}な{現場|げんば}もあるからね。{衛生面|えいせいめん}には{十分注意|じゅうぶんちゅうい}しよう。" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Cuci tangan >20 detik setelah kerja. 6 langkah. Pakai masker/sarung kepala/sarung tangan bila perlu.", "points": ["Tujuan: cegah infeksi.", "6 langkah: telapak, punggung, ujung jari/kuku, sela jari, ibu jari, pergelangan.", "Lebih dari 20 detik."], "avoid": ["Lupa cuci tangan setelah kerja.", "Lupa pergelangan tangan."], "exam": ["Durasi cuci tangan (20 detik).", "Langkah cuci tangan."] },
+  "jp": { "core": "{作業後|さぎょうご}は20{秒以上|びょういじょう}{手洗|てあら}い。6{工程|こうてい}。{必要|ひつよう}ならマスク・キャップ・{手袋|てぶくろ}。", "points": ["{目的|もくてき}：{感染予防|かんせんよぼう}", "6{工程|こうてい}：{手|て}のひら・{甲|こう}・{指先|ゆびさき}・{指|ゆび}の{間|あいだ}・{親指|おやゆび}・{手首|てくび}", "20{秒以上|びょういじょう}"], "avoid": ["{手洗|てあら}いを{忘|わす}れる", "{手首|てくび}を{忘|わす}れる"], "exam": ["{手洗|てあら}いの{時間|じかん}", "{洗|あら}い{方|かた}の{順番|じゅんばん}"] }
+ }
+}

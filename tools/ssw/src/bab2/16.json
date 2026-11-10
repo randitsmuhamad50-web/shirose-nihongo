@@ -1,0 +1,29 @@
+{
+ "id": "b2s16", "no": 16,
+ "title": { "id": "Toilet ⑤ Lantai", "jp": "トイレ清掃 ⑤床" },
+ "pages": [55, 55],
+ "full": {
+  "id": [
+   { "ol": [
+     "Bersihkan kotoran yang menumpuk di lantai dengan sapu ruangan dan penyedot debu handheld (lihat Sapu Ruangan, p.22).",
+     "Bersihkan dengan air dan lap dengan kain lap (mop) yang sudah diperas (lihat Kain Lap, p.30). Permukaan lantai mudah kotor.",
+     "Pada saat ini hati-hati jangan sampai kepala pelnya bertabrakan dengan urinoir: urinoir mudah pecah.",
+     "Jangan lupa lap lantai di bawah tempat sampah dan lady bin (geser, lalu lap juga bawahnya).",
+     "Terakhir lap dengan lap kering."
+   ] }
+  ],
+  "jp": [
+   { "ol": [
+     "{床|ゆか}にゴミが{溜|た}まるので{自在|じざい}ぼうきやハンディ{型掃除機|がたそうじき}で{回収|かいしゅう}してから（{自在|じざい}ぼうき P.22）。",
+     "{硬|かた}く{絞|しぼ}ったモップで{床|ゆか}を{水拭|みずぶ}きしよう（モップ P.30）。{汚垂石|おだれいし}は{汚|よご}れやすい。",
+     "このときラーグを{便器|べんき}にぶつけないように{注意|ちゅうい}してね。{便器|べんき}が{割|わ}れるので{注意|ちゅうい}！！",
+     "{汚物入|おぶついれ}やゴミ{箱|ばこ}の{下|した}も{忘|わす}れずに{拭|ふ}いておいてね。",
+     "{最後|さいご}に{乾拭|からぶ}きをして{仕上|しあ}げよう。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Lantai toilet: sapu/handheld dulu, mop basah, mop kering. Jangan tabrak urinoir; lap bawah tempat sampah.", "points": ["Sapu ruangan + handheld dulu.", "Mop basah yang diperas.", "Lap bawah tempat sampah.", "Terakhir lap kering."], "avoid": ["Kepala mop menabrak urinoir (mudah pecah)."], "exam": ["Urutan lantai toilet.", "Bagian yang sering terlewat."] },
+  "jp": { "core": "{床|ゆか}：ぼうき→{水拭|みずぶ}き→{乾拭|からぶ}き。{便器|べんき}にぶつけない。", "points": ["{自在|じざい}ぼうき・ハンディ{型|がた}", "{硬|かた}く{絞|しぼ}ったモップ", "ゴミ{箱|ばこ}の{下|した}も{拭|ふ}く", "{最後|さいご}に{乾拭|からぶ}き"], "avoid": ["モップを{便器|べんき}にぶつける"], "exam": ["{床|ゆか}の{順番|じゅんばん}"] }
+ }
+}

@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "bidang": "building-cleaning",
+  "source": "Japan Building Maintenance Association (JBMA) — Buku Panduan Pelajar Ujian TOKUTEI GINOU Building Cleaning",
+  "markup": "Teks JP memakai {kanji|furigana} untuk ruby. Teks ID/JP memakai **tebal**.",
+  "bab": {
+    "id": "bab1",
+    "no": 1,
+    "title": { "id": "Cleaning Service", "jp": "ビルクリーニング" },
+    "intro": {
+      "id": "Pengenalan dunia kerja Cleaning Service: aturan mulai/istirahat/selesai kerja, tata krama, jenis pembersihan, 5 prinsip, salam, dan peraturan tempat kerja.",
+      "jp": "ビルクリーニングの仕事の基本：出勤・休憩・退勤のルール、身だしなみ、日常清掃と定期清掃、5原則、あいさつ、職場でのルール。"
+    },
+    "pages": [7, 14],
+    "subs": [
+      {
+        "id": "b1s1",
+        "no": 1,
+        "title": { "id": "Mulai Bekerja, Istirahat, Selesai Bekerja", "jp": "{出勤|しゅっきん}・{休憩|きゅうけい}・{退勤|たいきん}について" },
+        "pages": [8, 9],
+        "full": {
+          "id": [
+            { "h": "Datang terlambat itu merepotkan orang lain" },
+            { "p": "Telat dan bolos akan merepotkan teman kerja dan para tamu. Jadi tidak boleh terlambat. Sebelum mulai kerja kamu juga harus sudah berganti baju." },
+            { "h": "Alur pekerjaan dalam 1 hari" },
+            { "ol": ["Masuk kerja", "Rapat, persiapan", "Pembersihan", "Laporan pekerjaan dan beres-beres akhir", "Selesai bekerja"] },
+            { "h": "① Masuk kerja" },
+            { "ul": ["Jangan terlambat.", "Mulailah bekerja dengan salam sapa yang semangat (\"Selamat pagi\").", "Bekerjalah dengan perasaan yang riang."] },
+            { "h": "② Istirahat" },
+            { "ul": ["Istirahatlah pada waktu dan tempat yang ditentukan.", "Bersihkan sampah bekas makan kalian.", "Tetap jaga sikap sebagai karyawan saat istirahat."] },
+            { "h": "③ Selesai bekerja" },
+            { "ul": ["Cek apakah pekerjaan sudah selesai atau belum. Setelah lapor ke PIC, diperbolehkan pulang.", "Periksa peralatan yang digunakan; selalu laporkan ke PIC jika ada kerusakan pada peralatan.", "Jangan lupa mengatakan \"Otsukaresama deshita\"."] },
+            { "h": "④ Keterlambatan, datang awal, absen" },
+            { "ul": ["Jika tidak bisa masuk kerja karena sakit atau hal lain, harus menghubungi/memberi kabar.", "Jika Anda telat atau absen tanpa izin, itu akan membuat tamu dan rekan kalian kerepotan.", "Ingatlah untuk menjaga kesehatan dan mengontrol jadwal Anda."] },
+            { "h": "Hal lain yang harus diperhatikan" },
+            { "ul": [
+              "Jangan meninggalkan tempat kerja yang sudah ditentukan tanpa izin saat jam kerja.",
+              "Barang yang dipinjamkan perusahaan seperti seragam, sepatu, handuk, dan lainnya harus dirawat dengan baik dan dikembalikan saat berhenti kerja.",
+              "Kunci gedung harus dijaga dan dipakai sesuai dengan perintah. Jangan sampai hilang atau terbawa pulang.",
+              "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi.",
+              "Jangan update apapun di medsos mengenai masalah di pekerjaan.",
+              "Patuhi peraturan lalu lintas saat berangkat dan pulang kerja. Berhati-hatilah jangan sampai ada kecelakaan."
+            ] }
+          ],
+          "jp": [
+            { "h": "{遅刻|ちこく}や{欠勤|けっきん}は{迷惑|めいわく}をかける" },
+            { "p": "{遅刻|ちこく}や{欠勤|けっきん}は{仲間|なかま}やお{客様|きゃくさま}に{迷惑|めいわく}をかけます。{絶対|ぜったい}にダメです。{着替|きが}えも{済|す}ませておきましょう。" },
+            { "h": "1日の仕事の流れ" },
+            { "ol": ["{出勤|しゅっきん}", "ミーティング・{準備|じゅんび}", "{清掃作業|せいそうさぎょう}", "{作業報告|さぎょうほうこく}・{後片付|あとかたづ}け", "{退勤|たいきん}"] },
+            { "h": "① {出勤|しゅっきん}" },
+            { "ul": ["{出社時間|しゅっしゃじかん}を{守|まも}る", "{仕事|しごと}のはじめは{元気|げんき}な{挨拶|あいさつ}から（「おはようございます」）", "さわやかな{気持|きも}ちで{仕事|しごと}にかかろう"] },
+            { "h": "② {休憩|きゅうけい}" },
+            { "ul": ["{定|さだ}められた{時間|じかん}に{指定|してい}の{場所|ばしょ}で{休|やす}む", "{休憩|きゅうけい}で{使用|しよう}した{茶器|ちゃき}の{後片付|あとかたづ}けを{行|おこな}う", "{休憩|きゅうけい}の{間|あいだ}も{社員|しゃいん}として{行動|こうどう}する"] },
+            { "h": "③ {退勤|たいきん}" },
+            { "ul": ["{仕事|しごと}が{完了|かんりょう}したことを{確認|かくにん}し、{責任者|せきにんしゃ}に{報告|ほうこく}してから{退勤|たいきん}する", "{使用|しよう}した{器材|きざい}の{点検|てんけん}をし、{不具合|ふぐあい}があれば{責任者|せきにんしゃ}へ{必|かなら}ず{報告|ほうこく}する", "「お{疲|つか}れ{様|さま}でした」の{一言|ひとこと}を{忘|わす}れない"] },
+            { "h": "④ {遅刻|ちこく}・{早退|そうたい}・{欠勤|けっきん}" },
+            { "ul": ["{病気|びょうき}等で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です", "{無断|むだん}で{欠勤|けっきん}、{遅刻|ちこく}をすると{仲間|なかま}やお{客様|きゃくさま}に{迷惑|めいわく}をかけることになります", "{体調管理|たいちょうかんり}やスケジュールの{管理|かんり}を{心|こころ}がけよう"] },
+            { "h": "その{他|ほか}の{注意事項|ちゅういじこう}" },
+            { "ul": [
+              "{勤務中|きんむちゅう}は{仕事|しごと}のために{定|さだ}められた{場所|ばしょ}を{無断|むだん}で{離|はな}れないこと",
+              "{会社|かいしゃ}から{貸与|たいよ}されたユニフォーム、{靴|くつ}、タオル、その{他|ほか}の{物品|ぶっぴん}は{日頃|ひごろ}から{手入|ていれ}れをして、{新|あたら}しいものと{交換|こうかん}や{退職|たいしょく}するときは{全|すべ}て{揃|そろ}えて{返納|へんのう}する",
+              "{現場|げんば}のカギは{指示|しじ}に{従|したが}って{管理|かんり}、{使用|しよう}する。{絶対|ぜったい}に{持|も}ち{帰|かえ}ったり{紛失|ふんしつ}しないように{注意|ちゅうい}すること",
+              "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+              "SNS等に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
+              "{通勤|つうきん}、{帰宅時|きたくじ}は{交通|こうつう}ルールを{守|まも}り、{事故|じこ}のないように{注意|ちゅうい}すること"
+            ] }
+          ]
+        },
+        "summary": {
+          "id": {
+            "core": "Datang tepat waktu, bersikap sopan, dan lapor sebelum pulang adalah dasar pekerjaan Cleaning Service.",
+            "points": ["Alur 1 hari: masuk kerja → rapat/persiapan → pembersihan → laporan & beres-beres → selesai kerja.", "Terlambat/absen merepotkan rekan dan tamu; kabari bila tidak bisa masuk.", "Istirahat di waktu & tempat yang ditentukan, bersihkan sampah sendiri.", "Sebelum pulang: cek pekerjaan, lapor ke PIC, periksa peralatan, ucapkan \"Otsukaresama deshita\"."],
+            "avoid": ["Meninggalkan tempat kerja tanpa izin.", "Memakai telepon/HP/mesin foto copy perusahaan untuk urusan pribadi.", "Menulis soal masalah kerja di media sosial.", "Membawa pulang atau menghilangkan kunci gedung."],
+            "exam": ["Urutan alur kerja 1 hari.", "Prosedur pelaporan sebelum pulang.", "Larangan memakai fasilitas perusahaan untuk pribadi."]
+          },
+          "jp": {
+            "core": "{時間|じかん}を{守|まも}り、{礼儀正|れいぎただ}しく{行動|こうどう}し、{退勤前|たいきんまえ}に{報告|ほうこく}することが{基本|きほん}です。",
+            "points": ["1日の流れ：{出勤|しゅっきん}→ミーティング・{準備|じゅんび}→{清掃|せいそう}→{報告|ほうこく}・{後片付|あとかたづ}け→{退勤|たいきん}", "{遅刻|ちこく}・{欠勤|けっきん}は{仲間|なかま}やお{客様|きゃくさま}の{迷惑|めいわく}。{連絡|れんらく}を{忘|わす}れない。", "{休憩|きゅうけい}は{決|き}められた{時間|じかん}と{場所|ばしょ}で。ゴミは{自分|じぶん}で{片付|かたづ}ける。", "{退勤前|たいきんまえ}：{確認|かくにん}→{責任者|せきにんしゃ}に{報告|ほうこく}→{器材点検|きざいてんけん}→「お{疲|つか}れ{様|さま}でした」"],
+            "avoid": ["{無断|むだん}で{持|も}ち{場|ば}を{離|はな}れる。", "{会社|かいしゃ}の{電話|でんわ}・{携帯|けいたい}・コピー{機|き}の{私用|しよう}。", "SNSに{業務|ぎょうむ}の{内容|ないよう}を{書|か}く。", "カギを{持|も}ち{帰|かえ}る・{紛失|ふんしつ}する。"],
+            "exam": ["1日の{仕事|しごと}の{流|なが}れの{順番|じゅんばん}", "{退勤前|たいきんまえ}の{報告手順|ほうこくてじゅん}", "{会社|かいしゃ}の{物品|ぶっぴん}の{私用禁止|しようきんし}"]
+          }
+        }
+      },
+      {
+        "id": "b1s2",
+        "no": 2,
+        "title": { "id": "Tata Tertib (Tata Krama)", "jp": "みだしなみ" },
+        "pages": [10, 10],
+        "full": {
+          "id": [
+            { "h": "Penampilan harus rapi dan bersih" },
+            { "ul": ["Pakailah seragam dengan rapi; jangan memakai sepatu dengan menginjak ujung/tumitnya.", "Anting, cincin, dan aksesoris lainnya harus dilepas untuk menghindari kecelakaan kerja.", "Perhatikan seragam yang kotor dan tata krama.", "Kita harus memakai pakaian yang bersih dan rapih."] },
+            { "note": "Contoh dari buku: Mai memakai kalung dan anting saat bekerja → ditegur Kak Kei dan diminta melepasnya." }
+          ],
+          "jp": [
+            { "h": "{身|み}だしなみは{清潔|せいけつ}に" },
+            { "ul": ["ユニフォームを{着崩|きくず}してはダメ。{靴|くつ}の{かかと|かかと}を{踏|ふ}まない。", "ピアスや{指輪|ゆびわ}などのアクセサリーは{事故防止|じこぼうし}のために{外|はず}しておこう。", "ユニフォームの{汚|よご}れやみだしなみに{注意|ちゅうい}しよう。", "{清潔感|せいけつかん}のある{服装|ふくそう}を{心|こころ}がけよう。"] }
+          ]
+        },
+        "summary": {
+          "id": { "core": "Seragam rapi dan bersih, tanpa aksesoris.", "points": ["Seragam dipakai dengan rapi.", "Sepatu tidak diinjak tumitnya.", "Lepas anting, cincin, aksesoris."], "avoid": ["Seragam kotor atau berantakan.", "Memakai aksesoris saat bekerja."], "exam": ["Alasan melepas aksesoris: mencegah kecelakaan kerja."] },
+          "jp": { "core": "ユニフォームを{整|ととの}え、{清潔|せいけつ}に。アクセサリーは{外|はず}す。", "points": ["ユニフォームはきちんと{着|き}る。", "{靴|くつ}のかかとを{踏|ふ}まない。", "ピアス・{指輪|ゆびわ}は{外|はず}す。"], "avoid": ["{汚|よご}れたユニフォーム", "{作業中|さぎょうちゅう}のアクセサリー"], "exam": ["アクセサリーを{外|はず}す{理由|りゆう}＝{事故防止|じこぼうし}"] }
+        }
+      },
+      {
+        "id": "b1s3",
+        "no": 3,
+        "title": { "id": "Pembersihan Harian dan Pembersihan Berkala", "jp": "{日常清掃|にちじょうせいそう}と{定期清掃|ていきせいそう}" },
+        "pages": [11, 11],
+        "full": {
+          "id": [
+            { "h": "Dua jenis pembersihan" },
+            { "p": "**Pembersihan Harian** — dilakukan tiap hari untuk menjaga kebersihan sehari-hari." },
+            { "p": "**Pembersihan Berkala** — dilakukan berkala untuk membersihkan kotoran yang tidak bisa dibersihkan dengan cara biasa." },
+            { "ul": ["Pembersihan Berkala: membersihkan tuntas kotoran dan pemeliharaan bangunan (wax).", "Dengan Pembersihan Berkala kita membersihkan tuntas kotoran; Pembersihan Harian menjaga agar kebersihan tetap awet."] }
+          ],
+          "jp": [
+            { "h": "{清掃|せいそう}には{二|ふた}つの{種類|しゅるい}" },
+            { "p": "**{日常清掃|にちじょうせいそう}**：{毎日行|まいにちおこな}う{清掃|せいそう}で、キレイを{維持|いじ}するための{清掃|せいそう}。（{日々|ひび}の{清掃|せいそう}）" },
+            { "p": "**{定期清掃|ていきせいそう}**：{定期的|ていきてき}に{行|おこな}うもので、{普段除去|ふだんじょきょ}できない{汚|よご}れを{取|と}り{除|のぞ}く{清掃|せいそう}。" },
+            { "ul": ["{定期清掃|ていきせいそう}＝{汚|よご}れの{除去|じょきょ}、{建材|けんざい}の{維持|いじ}（ワックス）", "{定期清掃|ていきせいそう}で{汚|よご}れをリセットし、{日常清掃|にちじょうせいそう}でキレイを{長持|ながも}ちさせる。"] }
+          ]
+        },
+        "summary": {
+          "id": { "core": "Harian = menjaga bersih tiap hari. Berkala = menuntaskan kotoran & merawat bangunan (wax).", "points": ["Pembersihan Harian: sehari-hari.", "Pembersihan Berkala: kotoran yang tak bisa dibersihkan cara biasa, pemeliharaan lantai (wax).", "Keduanya saling melengkapi."], "avoid": ["Mengira pembersihan harian cukup tanpa pembersihan berkala."], "exam": ["Bedakan tujuan harian vs berkala."] },
+          "jp": { "core": "{日常清掃|にちじょうせいそう}＝キレイを{維持|いじ}。{定期清掃|ていきせいそう}＝{汚|よご}れ{除去|じょきょ}と{建材|けんざい}の{維持|いじ}。", "points": ["{日常清掃|にちじょうせいそう}：{毎日|まいにち}", "{定期清掃|ていきせいそう}：{普段|ふだん}{落|お}ちない{汚|よご}れ、ワックス", "{両方|りょうほう}で{効果|こうか}が{出|で}る"], "avoid": ["{日常清掃|にちじょうせいそう}だけで{十分|じゅうぶん}と{考|かんが}える"], "exam": ["{日常清掃|にちじょうせいそう}と{定期清掃|ていきせいそう}の{違|ちが}い"] }
+        }
+      },
+      {
+        "id": "b1s4",
+        "no": 4,
+        "title": { "id": "5 Prinsip Cleaning Service", "jp": "ビルクリーニングの5{原則|げんそく}" },
+        "pages": [12, 12],
+        "full": {
+          "id": [
+            { "p": "Untuk pekerjaan profesional, kita harus mematuhi 5 prinsip dasar — bukan sekadar \"yang penting bersih kotoran\"." },
+            { "ol": ["Pengetahuan mengenai Bangunan (建材の知識)", "Pengetahuan mengenai Kotoran (汚れの知識)", "Pengetahuan mengenai Pembersih (洗剤の知識)", "Pengetahuan mengenai Cara Membersihkan (作業方法の知識)", "Pengetahuan mengenai Tindakan Pencegahan (予防策の知識)"] },
+            { "note": "Prinsip ini akan diingat sambil membaca bab-bab berikutnya." }
+          ],
+          "jp": [
+            { "p": "プロの{仕事|しごと}のためには5{原則|げんそく}に{従|したが}って{作業|さぎょう}をしなければいけません。" },
+            { "ol": ["{建材|けんざい}の{知識|ちしき}", "{汚|よご}れの{知識|ちしき}", "{洗剤|せんざい}の{知識|ちしき}", "{作業方法|さぎょうほうほう}の{知識|ちしき}", "{予防策|よぼうさく}の{知識|ちしき}"] }
+          ]
+        },
+        "summary": {
+          "id": { "core": "5 prinsip: bangunan, kotoran, pembersih, cara membersihkan, pencegahan.", "points": ["① Bangunan ② Kotoran ③ Pembersih ④ Cara kerja ⑤ Pencegahan"], "avoid": ["Membersihkan tanpa tahu jenis bahan bangunan dan pembersih yang cocok."], "exam": ["Sebutkan 5 prinsip beserta urutannya."] },
+          "jp": { "core": "5{原則|げんそく}：{建材|けんざい}・{汚|よご}れ・{洗剤|せんざい}・{作業方法|さぎょうほうほう}・{予防策|よぼうさく}の{知識|ちしき}。", "points": ["①{建材|けんざい} ②{汚|よご}れ ③{洗剤|せんざい} ④{作業方法|さぎょうほうほう} ⑤{予防策|よぼうさく}"], "avoid": ["{建材|けんざい}や{洗剤|せんざい}を{知|し}らずに{作業|さぎょう}する"], "exam": ["5{原則|げんそく}の{名前|なまえ}と{順番|じゅんばん}"] }
+        }
+      },
+      {
+        "id": "b1s5",
+        "no": 5,
+        "title": { "id": "Istilah Salam Sapa", "jp": "あいさつ{用語|ようご}" },
+        "pages": [13, 13],
+        "full": {
+          "id": [
+            { "p": "Pembersihan sering berhadapan langsung dengan tamu, jadi perhatikan tutur kata dan postur tubuh." },
+            { "ul": ["Gunakan bahasa sopan dan postur yang benar.", "Lihat mata lawan bicara.", "Ojigi (membungkuk) menunjukkan penghormatan; bungkukkan badan dari pinggang, kaki dirapatkan, sudut 15°〜45°."] },
+            { "h": "Kata yang sering digunakan saat salam sapa" },
+            { "ol": ["Selamat Pagi — おはようございます", "Terima kasih — ありがとうございました", "Baik, saya mengerti — 承知しました（かしこまりました）", "Mohon maaf — 申し訳ございません", "Mohon bantuannya — よろしくお願いします", "Maaf sudah menunggu — お待たせしました", "Permisi — 失礼します"] }
+          ],
+          "jp": [
+            { "p": "{清掃|せいそう}はお{客様相手|きゃくさまあいて}の{仕事|しごと}なので{言葉使|ことばづか}いや{姿勢|しせい}にも{注意|ちゅうい}が{必要|ひつよう}です。" },
+            { "ul": ["お{客様|きゃくさま}と{会話|かいわ}をするときは{丁寧|ていねい}な{言葉使|ことばづか}いと{正|ただ}しい{姿勢|しせい}を{心|こころ}がけよう。", "{相手|あいて}の{目|め}を{見|み}る。", "お{辞儀|じぎ}は{相手|あいて}に{敬意|けいい}を{表|あらわ}す{動作|どうさ}です。{腰|こし}から{折|お}るようにお{辞儀|じぎ}をしよう。{足|あし}をそろえる。15°〜45°。"] },
+            { "h": "あいさつでよく{使|つか}う{言葉|ことば}" },
+            { "ol": ["おはようございます", "ありがとうございました", "{承知|しょうち}しました（かしこまりました）", "{申|もう}し{訳|わけ}ございません", "よろしくお{願|ねが}いします", "お{待|ま}たせしました", "{失礼|しつれい}します"] }
+          ]
+        },
+        "summary": {
+          "id": { "core": "Sopan dan ojigi 15°〜45° saat bicara dengan tamu; hafalkan 7 salam dasar.", "points": ["Tatap mata lawan bicara.", "Ojigi dari pinggang, kaki rapat.", "7 salam: ohayou gozaimasu, arigatou gozaimashita, shouchi shimashita, moushiwake gozaimasen, yoroshiku onegai shimasu, omatase shimashita, shitsurei shimasu."], "avoid": ["Bicara kasar atau tanpa menatap tamu."], "exam": ["Sudut ojigi 15°〜45°.", "Arti 7 salam dasar."] },
+          "jp": { "core": "{丁寧|ていねい}な{言葉|ことば}と15°〜45°のお{辞儀|じぎ}。{基本|きほん}のあいさつ7つ。", "points": ["{相手|あいて}の{目|め}を{見|み}る", "{腰|こし}から{折|お}る、{足|あし}をそろえる", "{基本|きほん}のあいさつ7つ"], "avoid": ["{乱暴|らんぼう}な{言葉使|ことばづか}い", "{目|め}を{見|み}ない{対応|たいおう}"], "exam": ["お{辞儀|じぎ}の{角度|かくど}", "あいさつ7つの{意味|いみ}"] }
+        }
+      },
+      {
+        "id": "b1s6",
+        "no": 6,
+        "title": { "id": "Peraturan di Tempat Kerja", "jp": "{職場|しょくば}でのルール" },
+        "pages": [14, 14],
+        "full": {
+          "id": [
+            { "p": "Tempat kerja yang bagus hubungan antar rekannya membuat efisiensi dan kualitas pekerjaan tinggi, dan akan membuat skill pekerja meningkat. Cleaning Service adalah pekerjaan yang membutuhkan kerja sama tim. Tetap tersenyum dan semangat di tempat kerja." },
+            { "h": "Hubungan rekan kerja di tempat kerja" },
+            { "p": "Umur, ataupun jenis kelamin tidak ada hubungannya. Posisi ditentukan berdasarkan pengalaman kerja dan tanggung jawabnya. Pahami posisi masing-masing, cobalah membuat hubungan baik antar sesama." },
+            { "p": "**PIC (Atasan)**" },
+            { "ul": ["Orang yang memiliki tanggung jawab atas pekerjaan di tempat kerja.", "Bicaralah dengan rasa hormat dan bahasa yang sopan ke atasan Anda.", "Saat kena teguran, renungkan dengan baik, dan berusahalah agar tidak mengulanginya lagi.", "Saat kesulitan, jangan ambil keputusan sendiri, diskusikan dengan atasan Anda."] },
+            { "p": "**Senior**" },
+            { "ul": ["Orang yang pengalaman kerjanya lebih banyak dibanding Anda.", "Pada dasarnya, perlakukan senior Anda seperti atasan Anda."] },
+            { "p": "**Rekan Kerja**" },
+            { "ul": ["Bukan rekan saat bekerja saja, rekan Anda akan menjadi teman Anda juga.", "Pisahkan masalah di tempat kerja dan masalah pribadi, saling hargai sesama saat bekerja."] },
+            { "h": "HOURENSOU (報連相)" },
+            { "p": "HOURENSOU adalah singkatan dari **HOU**koku (Lapor), **REN**raku (Komunikasi), **SOU**dan (Konsultasi). Di Jepang sering digunakan. Sangat penting demi kelancaran pekerjaan. Saat pekerjaan yang diminta selesai, HOUkoku (Lapor) ke PIC. Saat ada info baru atau masalah dalam pekerjaan, terapkan 5W1H dan RENraku (Komunikasi) dengan PIC. Jika ada pekerjaan yang perlu perbaikan atau tidak dimengerti, SOUdan (Konsultasi) dengan PIC." },
+            { "h": "Komplain" },
+            { "p": "Di tempat kerja Cleaning Service, bukan hanya ada PIC, senior, dan rekan dari perusahaan saja, ada para tamu yang menggunakan pelayanan Cleaning Service. Mungkin Anda akan mendapatkan komplain (teguran) dari para tamu saat bekerja. Jika dikomplain, jangan mengelak, tulis komplain dari tamu, katakan \"Saya mohon maaf. Untuk selanjutnya saya akan hati-hati\". Setelahnya, segera laporkan ke PIC." },
+            { "h": "Rapat" },
+            { "p": "Saat memulai dan mengakhiri pekerjaan, akan ada rapat. Jika PIC bilang untuk ikut rapat, pastikan untuk ikut rapatnya dan jangan sampai telat ke rapat. Saat rapat, dengarkan perkataan PIC dan rekan lainnya, tulis pembahasan yang penting. Kemudian, jika diminta untuk bicara, cobalah untuk bicara dengan baik sesuai dengan pemikiran Anda." }
+          ],
+          "jp": [
+            { "p": "{人間関係|にんげんかんけい}のよい{職場|しょくば}は、{仕事|しごと}の{効率|こうりつ}や{質|しつ}もあがり、おのずと{従事者|じゅうじしゃ}の{技術|ぎじゅつ}も{向上|こうじょう}していきます。ビルクリーニングはチームワークが{必要|ひつよう}な{仕事|しごと}です。{職場|しょくば}では、{明|あか}るく{笑顔|えがお}で{元気|げんき}に{仕事|しごと}をしましょう。" },
+            { "h": "{職場|しょくば}の{人間関係|にんげんかんけい}" },
+            { "p": "{職場|しょくば}では、{年齢|ねんれい}や{性別|せいべつ}は{関係|かんけい}ありません。{仕事|しごと}の{経験年数|けいけんねんすう}や{責任|せきにん}により{立場|たちば}が{異|こと}なります。それぞれの{立場|たちば}を{理解|りかい}して、{良好|りょうこう}な{人間関係|にんげんかんけい}を{築|きず}くように{努力|どりょく}をしましょう。" },
+            { "p": "**「{責任者|せきにんしゃ}（{上司|じょうし}）」**" },
+            { "ul": ["{職場|しょくば}での{仕事|しごと}に{責任|せきにん}を{持|も}つ{人|ひと}です。", "{上司|じょうし}には、{尊敬|そんけい}の{気持|きも}ちをもって{丁寧|ていねい}な{言葉使|ことばづか}いをしましょう。", "{注意|ちゅうい}を{受|う}けた{時|とき}は、きちんと{反省|はんせい}し、{同|おな}じことを{繰|く}り{返|かえ}さないようにしましょう。", "{困|こま}った{時|とき}は、{勝手|かって}に{判断|はんだん}せず、{相談|そうだん}しましょう。"] },
+            { "p": "**「{先輩|せんぱい}」**" },
+            { "ul": ["あなたより、{職場|しょくば}での{経験|けいけん}が{多|おお}い{人|ひと}です。", "{基本的|きほんてき}には、{上司|じょうし}と{同|おな}じように{接|せっ}しましょう。"] },
+            { "p": "**「{同僚|どうりょう}」**" },
+            { "ul": ["{仕事仲間|しごとなかま}だけでなく、プライベートでは{友人|ゆうじん}にもなる{人|ひと}です。", "{職場|しょくば}とプライベートははっきり{分|わ}けて、{職場|しょくば}ではお{互|たが}いに{認|みと}め{合|あ}って{仕事|しごと}をしましょう。"] },
+            { "h": "ホウレンソウ" },
+            { "p": "ホウレンソウとは、{報告|ほうこく}（ほうこく）・{連絡|れんらく}（れんらく）・{相談|そうだん}（そうだん）から{作|つく}った{用語|ようご}です。{日本|にほん}の{職場|しょくば}で{広|ひろ}く{使|つか}われています。ホウレンソウの{徹底|てってい}は{仕事|しごと}をスムーズに{進|すす}めるためにとても{大切|たいせつ}です。{指示|しじ}された{仕事|しごと}が{終|お}わったら、{指示|しじ}をもらった{方|かた}へ「{報告|ほうこく}」をし、{仕事|しごと}をする{中|なか}で{責任者|せきにんしゃ}をはじめみんなと{共有|きょうゆう}すべき{情報|じょうほう}や{問題|もんだい}があれば5W1Hを{明確|めいかく}にして「{連絡|れんらく}」をし、{仕事|しごと}に{改善|かいぜん}すべき{点|てん}やわからない{点|てん}があれば{具体的|ぐたいてき}に「{相談|そうだん}」をしましょう。" },
+            { "h": "クレーム" },
+            { "p": "ビルクリーニングの{職場|しょくば}には、あなたが{勤|つと}める{会社|かいしゃ}の{責任者|せきにんしゃ}・{先輩|せんぱい}・{同僚|どうりょう}だけでなく、ビルクリーニングサービスを{提供|ていきょう}するお{客様|きゃくさま}が{常|つね}に{身近|みぢか}にいます。{仕事|しごと}をしていると、お{客様|きゃくさま}からクレーム（お{叱|しか}り）を{受|う}けることがあるかもしれません。そのような{時|とき}は{言|い}い{訳|わけ}をせずに、クレームの{内容|ないよう}をメモし、「{申|もう}し{訳|わけ}ございませんでした。これから{気|き}を{付|つ}けます」と{伝|つた}え、すぐに{責任者|せきにんしゃ}に{報告|ほうこく}しましょう。" },
+            { "h": "ミーティング" },
+            { "p": "{仕事|しごと}を{始|はじ}める{時|とき}と{終|お}わる{時|とき}にミーティングがあります。{責任者|せきにんしゃ}から{出席|しゅっせき}するように{言|い}われたら、ミーティングの{開始時刻|かいしじこく}には{遅刻|ちこく}せずに、{必|かなら}ず{出席|しゅっせき}しましょう。ミーティングでは{責任者|せきにんしゃ}やみんなの{話|はなし}をしっかりと{聞|き}き、{大切|たいせつ}なことはメモをとりましょう。また、{発言|はつげん}を{求|もと}められたら、{自分|じぶん}の{考|かんが}えをきちんと{伝|つた}えるよう{努力|どりょく}しましょう。" }
+          ]
+        },
+        "summary": {
+          "id": { "core": "Kerja sama tim: hormati PIC & senior, terapkan HOURENSOU, tangani komplain dengan benar, ikut rapat.", "points": ["PIC = atasan yang bertanggung jawab; senior = diperlakukan seperti atasan.", "HOURENSOU = HOUkoku (lapor), RENraku (komunikasi, pakai 5W1H), SOUdan (konsultasi).", "Komplain tamu: jangan mengelak, catat, ucapkan maaf, segera lapor PIC.", "Rapat: jangan telat, dengarkan, catat, bicara bila diminta."], "avoid": ["Mengambil keputusan sendiri saat kesulitan.", "Berdalih saat dikomplain.", "Terlambat ke rapat."], "exam": ["Arti singkatan HOURENSOU.", "Cara menangani komplain tamu."] },
+          "jp": { "core": "チームワーク：{上司|じょうし}・{先輩|せんぱい}を{敬|うやま}い、ホウレンソウを{徹底|てってい}、クレームは{言|い}い{訳|わけ}せず{報告|ほうこく}、ミーティングに{出席|しゅっせき}。", "points": ["ホウレンソウ＝{報告|ほうこく}・{連絡|れんらく}（5W1H）・{相談|そうだん}", "クレーム：メモ→おわび→{責任者|せきにんしゃ}に{報告|ほうこく}", "ミーティング：{遅刻|ちこく}しない、メモ、{発言|はつげん}"], "avoid": ["{勝手|かって}に{判断|はんだん}する", "{言|い}い{訳|わけ}をする", "ミーティングに{遅刻|ちこく}する"], "exam": ["ホウレンソウの{意味|いみ}", "クレーム{対応|たいおう}の{手順|てじゅん}"] }
+        }
+      }
+    ]
+  }
+}

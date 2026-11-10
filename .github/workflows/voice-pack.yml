@@ -65,7 +65,7 @@ jobs:
           ma = []
           if "${{ github.event_name }}" == "push" or "${{ github.event.inputs.materi }}" == "true":
               import vv_build
-              for lvl in ["n5", "n4", "n3", "n2", "n1"]:
+              for lvl in ["n5", "n4", "n3", "n2", "n1", "ssw-bc"]:
                   try: jobs = vv_build.materi_jobs(lvl)
                   except Exception: continue
                   for cat, (vkey, items) in jobs.items():

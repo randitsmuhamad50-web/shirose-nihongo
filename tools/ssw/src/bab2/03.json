@@ -1,0 +1,31 @@
+{
+ "id": "b2s3", "no": 3,
+ "title": { "id": "Jenis dan Ukuran Kotoran (Debu)", "jp": "{汚|よご}れ（ホコリ）の{種類|しゅるい}と{大|おお}きさ" },
+ "pages": [21, 21],
+ "full": {
+  "id": [
+   { "h": "Ukuran dan jenis kotoran (debu)" },
+   { "p": "Kotoran (debu) memiliki macam-macam jenis dan ukuran. Bukan hanya kotoran yang merusak estetika, perlu perhatikan juga untuk kotoran yang tidak terlihat yang bisa merusak kesehatan. Kotoran yang bisa dilihat, dapat dibersihkan atau digosok. Kotoran yang tidak dilihat, memerlukan desinfeksi atau pemutih, jadi sesuaikan cara pembersihan dan bahan pembersihnya." },
+   { "ul": [
+     "Tidak terlihat dengan mata telanjang → berdampak buruk untuk kesehatan (contoh: virus, bakteri, asap rokok, spora jamur).",
+     "Dapat terlihat dengan mata telanjang → merusak estetika dan berdampak buruk ke kesehatan (contoh: kotoran tanah, rambut, debu, serbuk bunga, kutu).",
+     "Kotoran yang terlihat bisa ditangkap oleh hidung: serbuk bunga, kutu, debu.",
+     "Kotoran yang tidak terlihat akan masuk ke paru-paru: virus, bakteri, jamur."
+   ] }
+  ],
+  "jp": [
+   { "h": "{汚|よご}れ（ホコリ）の{種類|しゅるい}と{大|おお}きさ" },
+   { "p": "{汚|よご}れ（ほこり）には{様々|さまざま}な{種類|しゅるい}と{大|おお}きさがあります。{美観|びかん}を{損|そこ}ねる{汚|よご}れだけでなく、{健康|けんこう}に{悪影響|あくえいきょう}を{与|あた}える{肉眼|にくがん}で{見|み}えない{汚|よご}れも{存在|そんざい}するので{注意|ちゅうい}が{必要|ひつよう}です。{肉眼|にくがん}で{見|み}える{汚|よご}れは{除塵|じょじん}や{拭|ふ}き{掃除|そうじ}等の{清掃|せいそう}で{綺麗|きれい}にできます。{肉眼|にくがん}で{見|み}えない{汚|よご}れは{消毒|しょうどく}や{漂白|ひょうはく}などの{作業|さぎょう}が{必要|ひつよう}になるので{建材|けんざい}や{汚|よご}れに{合|あ}わせた{作業方法|さぎょうほうほう}を{行|おこな}ってください。" },
+   { "ul": [
+     "{肉眼|にくがん}で{見|み}えない → {健康|けんこう}に{悪影響|あくえいきょう}（ウイルス・{細菌|さいきん}・タバコ{煙|けむり}・カビ{胞子|ほうし}）",
+     "{肉眼|にくがん}で{見|み}える → {美観|びかん}を{損|そこ}ねる・{健康|けんこう}に{悪影響|あくえいきょう}（{土砂|どしゃ}・{毛髪|もうはつ}・ほこり・{花粉|かふん}・ダニ）",
+     "{肉眼|にくがん}で{見|み}える{汚|よご}れは{鼻|はな}でキャッチする：{花粉|かふん}・ダニ・ほこり",
+     "{肉眼|にくがん}で{見|み}えない{汚|よご}れは{肺|はい}に{入|はい}り{込|こ}む：ウイルス・{細菌|さいきん}・カビ"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Kotoran ada yang terlihat dan tidak; yang tidak terlihat tetap berbahaya bagi kesehatan.", "points": ["Terlihat: dibersihkan/digosok (debu, rambut, tanah).", "Tidak terlihat: butuh desinfeksi/pemutih (virus, bakteri, jamur).", "Sesuaikan cara & bahan pembersih dengan jenis kotoran."], "avoid": ["Mengira kotoran tak terlihat tidak berbahaya."], "exam": ["Contoh kotoran terlihat vs tidak terlihat.", "Cara menangani masing-masing."] },
+  "jp": { "core": "{汚|よご}れには{見|み}えるものと{見|み}えないものがあり、{見|み}えない{汚|よご}れも{健康|けんこう}に{害|がい}がある。", "points": ["{見|み}える：{除塵|じょじん}・{拭|ふ}き{掃除|そうじ}", "{見|み}えない：{消毒|しょうどく}・{漂白|ひょうはく}", "{汚|よご}れに{合|あ}わせた{方法|ほうほう}・{洗剤|せんざい}"], "avoid": ["{見|み}えない{汚|よご}れを{無視|むし}する"], "exam": ["{見|み}える/{見|み}えない{汚|よご}れの{例|れい}"] }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "id": "b3s3", "no": 3,
+ "title": { "id": "Pengetahuan Mengenai Karbol (Deterjen)", "jp": "洗剤の知識" },
+ "pages": [64, 64],
+ "full": {
+  "id": [
+   { "h": "③ Penggunaan karbol cair (skala pH)" },
+   { "p": "Karbol pembersih sangat berbahaya, jadi hati-hati saat menggunakannya. Pada waktu menggunakannya, pastikan untuk cek jenisnya ya." },
+   { "ul": [
+     "**Tipe asam (pH 0):** pembersih toilet asam, pembersih karat besi.",
+     "**Tipe keasaman rendah (pH 3):** karbol toilet.",
+     "**Tipe menengah (pH 6):** karbol menengah untuk lantai, pembersih toilet menengah, karbol untuk karpet, sabun untuk cuci tangan.",
+     "**Tipe alkali rendah (pH 8):** karbol untuk permukaan lantai, karbol umum di pasaran, pembersih toilet tipe alkali.",
+     "**Tipe alkali (pH 11–14):** pembersih cat, pembersih untuk ventilasi udara, pembersih untuk jamur, pembersih untuk oven, pemutih klorin."
+   ] },
+   { "h": "Mekanisme menghilangkan kotoran" },
+   { "p": "Karbol bekerja dengan menembus kotoran dan menguraikan kotoran untuk menghilangkan kotoran tersebut. Zat aktifnya (surfaktan) punya bagian hidrofilik (suka air) dan hidrofobik (tidak suka air). Urutannya: kotoran → penetrasi → memisahkan → mengangkat kotoran." },
+   { "h": "Keselamatan" },
+   { "ul": [
+     "Karbol untuk Cleaning Service sangat berbahaya, jadi selalu gunakan sarung tangan.",
+     "Jika karbol terkena mata atau tertelan, segera ke rumah sakit."
+   ] }
+  ],
+  "jp": [
+   { "h": "③ {液性|えきせい}による{洗剤|せんざい}の{用途|ようと}（pH）" },
+   { "p": "{洗剤|せんざい}はとても{危険|きけん}だから{取|と}り{扱|あつか}い{注意|ちゅうい}だよ！{使用|しよう}の{際|さい}は{必|かなら}ず{種類|しゅるい}を{確認|かくにん}してね。" },
+   { "ul": [
+     "**{酸性|さんせい}（pH 0）：**{酸性|さんせい}トイレクリーナー、{鉄|てつ}サビ{落|お}とし。",
+     "**{弱酸性|じゃくさんせい}（pH 3）：**{浴室用洗剤|よくしつようせんざい}、{中性|ちゅうせい}トイレクリーナー。",
+     "**{中性|ちゅうせい}（pH 6）：**{床用中性洗剤|ゆかようちゅうせいせんざい}、カーペット{洗剤|せんざい}、{手洗|てあら}い{用洗剤|ようせんざい}。",
+     "**{弱|じゃく}アルカリ{性|せい}（pH 8）：**{表面洗浄剤|ひょうめんせんじょうざい}、{一般住宅用洗剤|いっぱんじゅうたくようせんざい}、アルカリ{性|せい}トイレクリーナー。",
+     "**アルカリ{性|せい}（pH 11〜14）：**ハクリ{剤|ざい}、{換気扇用洗剤|かんきせんようせんざい}、カビ{取|と}り{剤|ざい}、ガスレンジ{用洗剤|ようせんざい}、{塩素系漂白剤|えんそけいひょうはくざい}。"
+   ] },
+   { "h": "{汚|よご}れの{落|お}ちるメカニズム" },
+   { "p": "{洗剤|せんざい}は{汚|よご}れに{浸透|しんとう}して{分解|ぶんかい}することで{汚|よご}れを{落|お}としているんだよ。{界面活性剤|かいめんかっせいざい}には{親水基|しんすいき}と{疎水基|そすいき}がある。{汚|よご}れ→{浸透|しんとう}→{分離|ぶんり}→{汚|よご}れを{浮|う}かす。" },
+   { "h": "{安全|あんぜん}" },
+   { "ul": [
+     "{業務用|ぎょうむよう}の{洗剤|せんざい}は{危険|きけん}だから{必|かなら}ず{手袋|てぶくろ}を{着用|ちゃくよう}すること！",
+     "{洗剤|せんざい}が{目|め}に{入|はい}ったときや{誤飲|ごいん}したときはすぐに{病院|びょういん}へ{行|い}くこと！"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Cek jenis karbol sebelum pakai. Asam–netral–alkali menurut pH. Selalu pakai sarung tangan; terkena mata/tertelan → rumah sakit.", "points": ["pH 0 asam → pH 14 alkali.", "Karbol bekerja: penetrasi, pisah, angkat kotoran.", "Selalu sarung tangan."], "avoid": ["Mencampur klorin dengan asam.", "Memakai karbol tanpa cek jenis."], "exam": ["Tipe karbol menurut pH.", "Tindakan bila tertelan/terkena mata."] },
+  "jp": { "core": "{洗剤|せんざい}は{種類|しゅるい}を{確認|かくにん}。{酸性|さんせい}・{中性|ちゅうせい}・アルカリ{性|せい}。{手袋|てぶくろ}{必須|ひっす}。{目|め}に{入|はい}ったら{病院|びょういん}へ。", "points": ["pH0{酸性|さんせい}〜pH14アルカリ{性|せい}", "{浸透|しんとう}→{分離|ぶんり}→{浮|う}かす", "{手袋|てぶくろ}を{着用|ちゃくよう}"], "avoid": ["{塩素系|えんそけい}と{酸性|さんせい}を{混|ま}ぜる", "{種類|しゅるい}を{確認|かくにん}せず{使|つか}う"], "exam": ["pHと{洗剤|せんざい}の{種類|しゅるい}", "{誤飲|ごいん}・{目|め}に{入|はい}った{時|とき}の{対応|たいおう}"] }
+ }
+}

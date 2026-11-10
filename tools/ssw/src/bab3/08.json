@@ -1,0 +1,35 @@
+{
+ "id": "b3s8", "no": 8,
+ "title": { "id": "Polisher: Setelah Selesai", "jp": "ポリッシャー：作業後の片付け" },
+ "pages": [73, 74],
+ "full": {
+  "id": [
+   { "ol": [
+     "Setelah selesai, turunkan rodanya. Sesuaikan roda dengan kaki, lalu kembalikan pegangannya ke posisi tegak.",
+     "Baringkan polisher di atas curing mat; berdirikan penyangga (stand).",
+     "Sebelum melepas pad, cabut dulu colokannya. Pegang colokan, jangan tarik kabelnya.",
+     "Lepaskan floor pad. Kumpulkan air kotor jangan sampai menetes (lap air kotor dengan kain lap).",
+     "Alas pad mudah dilepaskan dengan obeng minus: ① masukkan obeng ke bagian bercabang dua, ② angkat.",
+     "Terakhir, lap body dengan lap basah (tangki, sisi belakang body, body).",
+     "Lap juga kabelnya sambil menggulung; tahan dengan tangan kiri, kunci roda dengan kaki.",
+     "Bereskan peralatan, kemudian selesai."
+   ] }
+  ],
+  "jp": [
+   { "ol": [
+     "{清掃後|せいそうご}はタイヤを{下|お}ろしてから。タイヤを{足|あし}で{固定|こてい}してポリッシャーを{寝|ね}かせよう（ハンドルを{垂直|すいちょく}に{戻|もど}し）。",
+     "{養生|ようじょう}マットの{上|うえ}に{寝|ね}かせ、スタンドを{立|た}てる。",
+     "パッドを{外|はず}す{前|まえ}に{電源|でんげん}からプラグを{抜|ぬ}こう。プラグを{持|も}つ。コードを{引|ひ}っ{張|ぱ}ってはいけない！！",
+     "{次|つぎ}はフロアパッドを{外|はず}して{汚水|おすい}をたらさないように{回収|かいしゅう}しよう（タオルで{汚水|おすい}を{受|う}ける）。",
+     "パッド{台|だい}はマイナスドライバーを{使|つか}うとかんたんに{外|はず}せるんだよ：①{二又部分|ふたまたぶぶん}にドライバーを{差|さ}し{込|こ}む、②{持|も}ち{上|あ}げる。",
+     "{仕上|しあ}げに{本体|ほんたい}をタオルで{水拭|みずぶ}きしてキレイにしよう（タンク、{本体裏|ほんたいうら}、{本体|ほんたい}）。",
+     "コードもタオルで{拭|ふ}きながら{回収|かいしゅう}しよう。{左手|ひだりて}でおさえる、{足|あし}でタイヤを{固定|こてい}する。",
+     "{資器材|しきざい}を{片付|かたづ}けたら{作業完了|さぎょうかんりょう}だよ！"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Cabut colokan (pegang steker) sebelum lepas pad. Kumpulkan air kotor. Lap body dan kabel, bereskan peralatan.", "points": ["Roda diturunkan, polisher dibaringkan di curing mat.", "Cabut colokan dulu.", "Air kotor ditampung dengan lap.", "Alas pad dilepas dengan obeng minus."], "avoid": ["Menarik kabel.", "Melepas pad saat masih tercolok."], "exam": ["Urutan setelah polisher selesai dipakai."] },
+  "jp": { "core": "パッドを{外|はず}す{前|まえ}にプラグを{抜|ぬ}く。{汚水|おすい}を{受|う}ける。{本体|ほんたい}とコードを{拭|ふ}き{片付|かたづ}ける。", "points": ["タイヤを{下|お}ろし、{養生|ようじょう}マットの{上|うえ}で{寝|ね}かせる", "まずプラグを{抜|ぬ}く", "タオルで{汚水|おすい}を{受|う}ける", "パッド{台|だい}はマイナスドライバー"], "avoid": ["コードを{引|ひ}っ{張|ぱ}る", "プラグを{挿|さ}したままパッドを{外|はず}す"], "exam": ["{作業後|さぎょうご}の{手順|てじゅん}"] }
+ }
+}

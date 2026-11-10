@@ -1,0 +1,29 @@
+{
+ "id": "b2s12", "no": 12,
+ "title": { "id": "Toilet ① Tempat Sampah dan Pengisian Ulang", "jp": "トイレ清掃 ①ゴミ箱・補充" },
+ "pages": [46, 46],
+ "full": {
+  "id": [
+   { "ol": [
+     "Pasang Floor Sign, setelah itu baru mulai bersihkan.",
+     "Pertama, bersihkan dulu debu yang ada di tempat tinggi (dengan kemoceng).",
+     "Cek apakah sabun dan tisu toilet masih cukup atau tidak. Jika tidak cukup, lakukan pengisian ulang. Jika tisu toilet dan sabun tersisa 1/3-nya, isi ulang atau tukar dengan yang baru.",
+     "Selanjutnya, ambil sampah dari lady bin (tempat sampah pembalut) dan tempat sampah. Pakai sarung tangan untuk mengolah sampah, lalu pasangkan kantung sampah baru.",
+     "Jika tutup dan bagian dalam tempat sampah kotor, bersihkan dengan lap biru."
+   ] }
+  ],
+  "jp": [
+   { "ol": [
+     "フロアサインを{設置|せっち}して{作業開始|さぎょうかいし}します。",
+     "はじめに{高所|こうしょ}のホコリを{除去|じょきょ}してから。",
+     "トイレットペーパーやハンドソープが{減|へ}っていないか{確認|かくにん}！{不足|ふそく}していれば{補充|ほじゅう}をしておこう。1/3ほどに{減|へ}っていたら{新|あたら}しいものと{交換|こうかん}・{補充|ほじゅう}する。",
+     "{次|つぎ}に{汚物入|おぶつい}れとゴミ{箱|ばこ}の{中身|なかみ}を{回収|かいしゅう}。ゴミ{処理用手袋|しょりようてぶくろ}、{新|あたら}しい{袋|ふくろ}を{装着|そうちゃく}。",
+     "フタやゴミ{箱|ばこ}の{内部|ないぶ}が{汚|よご}れていたらタオルで{拭|ふ}いておく。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Pasang Floor Sign, debu tempat tinggi, cek sabun/tisu (isi ulang saat sisa 1/3), kosongkan tempat sampah.", "points": ["Floor Sign dulu.", "Kemoceng bagian atas.", "Isi ulang saat sisa 1/3.", "Sarung tangan khusus sampah.", "Lap tutup/dalam tempat sampah dengan lap biru."], "avoid": ["Mulai tanpa Floor Sign."], "exam": ["Batas isi ulang (1/3).", "Warna lap tempat sampah (biru)."] },
+  "jp": { "core": "フロアサイン→{高所|こうしょ}のホコリ→{補充|ほじゅう}（1/3）→ゴミ{回収|かいしゅう}。", "points": ["フロアサイン", "{高所|こうしょ}のホコリ{取|と}り", "1/3で{補充|ほじゅう}", "ゴミ{処理用手袋|しょりようてぶくろ}", "フタ・{内部|ないぶ}を{拭|ふ}く"], "avoid": ["フロアサインなしで{始|はじ}める"], "exam": ["{補充|ほじゅう}の{目安|めやす}（1/3）"] }
+ }
+}

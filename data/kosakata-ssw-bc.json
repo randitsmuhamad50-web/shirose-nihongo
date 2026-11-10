@@ -1,0 +1,660 @@
+[
+ {
+  "kata": "出勤",
+  "kana": "しゅっきん",
+  "arti": "masuk kerja; berangkat kerja",
+  "contoh": "出社時間[しゅっしゃじかん]を守[まも]る",
+  "arti_contoh": "Menaati jam masuk kerja."
+ },
+ {
+  "kata": "休憩",
+  "kana": "きゅうけい",
+  "arti": "istirahat",
+  "contoh": "定[さだ]められた時間[じかん]に指定[してい]の場所[ばしょ]で休[やす]む",
+  "arti_contoh": "Istirahat pada waktu dan tempat yang ditentukan."
+ },
+ {
+  "kata": "退勤",
+  "kana": "たいきん",
+  "arti": "selesai kerja; pulang kerja",
+  "contoh": "責任者[せきにんしゃ]に報告[ほうこく]してから退勤[たいきん]する",
+  "arti_contoh": "Pulang setelah melapor ke PIC."
+ },
+ {
+  "kata": "遅刻",
+  "kana": "ちこく",
+  "arti": "terlambat",
+  "contoh": "遅刻[ちこく]や欠勤[けっきん]は仲間[なかま]やお客様[きゃくさま]に迷惑[めいわく]をかける",
+  "arti_contoh": "Terlambat dan absen merepotkan rekan kerja dan tamu."
+ },
+ {
+  "kata": "早退",
+  "kana": "そうたい",
+  "arti": "pulang lebih awal"
+ },
+ {
+  "kata": "欠勤",
+  "kana": "けっきん",
+  "arti": "tidak masuk kerja; absen",
+  "contoh": "無断[むだん]で欠勤[けっきん]をすると迷惑[めいわく]をかける",
+  "arti_contoh": "Absen tanpa izin merepotkan orang lain."
+ },
+ {
+  "kata": "無断",
+  "kana": "むだん",
+  "arti": "tanpa izin",
+  "contoh": "無断[むだん]で持[も]ち場[ば]を離[はな]れない",
+  "arti_contoh": "Jangan meninggalkan tempat kerja tanpa izin."
+ },
+ {
+  "kata": "迷惑",
+  "kana": "めいわく",
+  "arti": "merepotkan; gangguan"
+ },
+ {
+  "kata": "準備",
+  "kana": "じゅんび",
+  "arti": "persiapan"
+ },
+ {
+  "kata": "後片付け",
+  "kana": "あとかたづけ",
+  "arti": "beres-beres akhir"
+ },
+ {
+  "kata": "器材",
+  "kana": "きざい",
+  "arti": "peralatan; perlengkapan",
+  "contoh": "使用[しよう]した器材[きざい]の点検[てんけん]をする",
+  "arti_contoh": "Memeriksa peralatan yang telah dipakai."
+ },
+ {
+  "kata": "点検",
+  "kana": "てんけん",
+  "arti": "pemeriksaan; inspeksi"
+ },
+ {
+  "kata": "不具合",
+  "kana": "ふぐあい",
+  "arti": "kerusakan; gangguan fungsi"
+ },
+ {
+  "kata": "紛失",
+  "kana": "ふんしつ",
+  "arti": "kehilangan; hilang"
+ },
+ {
+  "kata": "身だしなみ",
+  "kana": "みだしなみ",
+  "arti": "penampilan; tata krama berpakaian",
+  "contoh": "身[み]だしなみに注意[ちゅうい]しよう",
+  "arti_contoh": "Perhatikan penampilan."
+ },
+ {
+  "kata": "ユニフォーム",
+  "kana": "ユニフォーム",
+  "arti": "seragam",
+  "contoh": "ユニフォームを着崩[きくず]してはダメ",
+  "arti_contoh": "Jangan memakai seragam dengan berantakan."
+ },
+ {
+  "kata": "事故防止",
+  "kana": "じこぼうし",
+  "arti": "pencegahan kecelakaan"
+ },
+ {
+  "kata": "清潔感",
+  "kana": "せいけつかん",
+  "arti": "kesan bersih; kebersihan"
+ },
+ {
+  "kata": "清掃",
+  "kana": "せいそう",
+  "arti": "pembersihan"
+ },
+ {
+  "kata": "日常清掃",
+  "kana": "にちじょうせいそう",
+  "arti": "pembersihan harian"
+ },
+ {
+  "kata": "定期清掃",
+  "kana": "ていきせいそう",
+  "arti": "pembersihan berkala"
+ },
+ {
+  "kata": "ワックス",
+  "kana": "ワックス",
+  "arti": "wax (pelapis lantai)"
+ },
+ {
+  "kata": "建材",
+  "kana": "けんざい",
+  "arti": "bahan bangunan"
+ },
+ {
+  "kata": "汚れ",
+  "kana": "よごれ",
+  "arti": "kotoran; noda"
+ },
+ {
+  "kata": "洗剤",
+  "kana": "せんざい",
+  "arti": "deterjen; bahan pembersih"
+ },
+ {
+  "kata": "作業方法",
+  "kana": "さぎょうほうほう",
+  "arti": "cara kerja; metode kerja"
+ },
+ {
+  "kata": "予防策",
+  "kana": "よぼうさく",
+  "arti": "langkah pencegahan"
+ },
+ {
+  "kata": "挨拶",
+  "kana": "あいさつ",
+  "arti": "salam sapa",
+  "contoh": "仕事[しごと]のはじめは元気[げんき]な挨拶[あいさつ]から",
+  "arti_contoh": "Awali pekerjaan dengan salam yang semangat."
+ },
+ {
+  "kata": "お辞儀",
+  "kana": "おじぎ",
+  "arti": "membungkuk (tanda hormat)",
+  "contoh": "腰[こし]から折[お]るようにお辞儀[じぎ]をしよう",
+  "arti_contoh": "Membungkuklah dari pinggang."
+ },
+ {
+  "kata": "おはようございます",
+  "kana": "おはようございます",
+  "arti": "selamat pagi"
+ },
+ {
+  "kata": "ありがとうございました",
+  "kana": "ありがとうございました",
+  "arti": "terima kasih"
+ },
+ {
+  "kata": "承知しました",
+  "kana": "しょうちしました",
+  "arti": "baik, saya mengerti"
+ },
+ {
+  "kata": "かしこまりました",
+  "kana": "かしこまりました",
+  "arti": "baik, saya mengerti (sangat sopan)"
+ },
+ {
+  "kata": "申し訳ございません",
+  "kana": "もうしわけございません",
+  "arti": "mohon maaf"
+ },
+ {
+  "kata": "よろしくお願いします",
+  "kana": "よろしくおねがいします",
+  "arti": "mohon bantuannya"
+ },
+ {
+  "kata": "お待たせしました",
+  "kana": "おまたせしました",
+  "arti": "maaf sudah menunggu"
+ },
+ {
+  "kata": "失礼します",
+  "kana": "しつれいします",
+  "arti": "permisi"
+ },
+ {
+  "kata": "お疲れ様でした",
+  "kana": "おつかれさまでした",
+  "arti": "terima kasih atas kerja kerasnya"
+ },
+ {
+  "kata": "責任者",
+  "kana": "せきにんしゃ",
+  "arti": "penanggung jawab (PIC); atasan"
+ },
+ {
+  "kata": "上司",
+  "kana": "じょうし",
+  "arti": "atasan"
+ },
+ {
+  "kata": "先輩",
+  "kana": "せんぱい",
+  "arti": "senior"
+ },
+ {
+  "kata": "同僚",
+  "kana": "どうりょう",
+  "arti": "rekan kerja"
+ },
+ {
+  "kata": "報告",
+  "kana": "ほうこく",
+  "arti": "melapor; laporan"
+ },
+ {
+  "kata": "連絡",
+  "kana": "れんらく",
+  "arti": "komunikasi; menghubungi"
+ },
+ {
+  "kata": "相談",
+  "kana": "そうだん",
+  "arti": "konsultasi; berdiskusi"
+ },
+ {
+  "kata": "ホウレンソウ",
+  "kana": "ほうれんそう",
+  "arti": "HOUkoku・RENraku・SOUdan (lapor, komunikasi, konsultasi)"
+ },
+ {
+  "kata": "クレーム",
+  "kana": "クレーム",
+  "arti": "komplain; teguran dari tamu"
+ },
+ {
+  "kata": "ミーティング",
+  "kana": "ミーティング",
+  "arti": "rapat"
+ },
+ {
+  "kata": "掃除機",
+  "kana": "そうじき",
+  "arti": "penyedot debu",
+  "contoh": "掃除機[そうじき]は電源[でんげん]から離[はな]れていくように進[すす]む",
+  "arti_contoh": "Penyedot debu digerakkan menjauhi stop kontak."
+ },
+ {
+  "kata": "自在ぼうき",
+  "kana": "じざいぼうき",
+  "arti": "sapu ruangan"
+ },
+ {
+  "kata": "文化ちり取り",
+  "kana": "ぶんかちりとり",
+  "arti": "pengki (serokan)"
+ },
+ {
+  "kata": "ダストクロス",
+  "kana": "ダストクロス",
+  "arti": "dust cloth (lap debu)"
+ },
+ {
+  "kata": "モップ",
+  "kana": "モップ",
+  "arti": "mop (pel)",
+  "contoh": "モップは後退[こうたい]しながら拭[ふ]く",
+  "arti_contoh": "Mop dipakai sambil mundur."
+ },
+ {
+  "kata": "バケツ",
+  "kana": "バケツ",
+  "arti": "ember"
+ },
+ {
+  "kata": "タオル",
+  "kana": "タオル",
+  "arti": "lap; handuk lap"
+ },
+ {
+  "kata": "手袋",
+  "kana": "てぶくろ",
+  "arti": "sarung tangan",
+  "contoh": "手袋[てぶくろ]の裾[すそ]を折[お]り返[かえ]す",
+  "arti_contoh": "Lipat ujung sarung tangan."
+ },
+ {
+  "kata": "フロアサイン",
+  "kana": "フロアサイン",
+  "arti": "floor sign (papan tanda lantai)",
+  "contoh": "作業開始[さぎょうかいし]の前[まえ]にフロアサインを設置[せっち]する",
+  "arti_contoh": "Pasang floor sign sebelum mulai kerja."
+ },
+ {
+  "kata": "養生マット",
+  "kana": "ようじょうマット",
+  "arti": "curing mat (alas peralatan)"
+ },
+ {
+  "kata": "白パッド",
+  "kana": "しろパッド",
+  "arti": "pad putih"
+ },
+ {
+  "kata": "ブラシ",
+  "kana": "ブラシ",
+  "arti": "sikat (brush)"
+ },
+ {
+  "kata": "幅木",
+  "kana": "はばき",
+  "arti": "plint dinding",
+  "contoh": "幅木[はばき]にぶつけないように気[き]をつける",
+  "arti_contoh": "Hati-hati jangan menabrak plint dinding."
+ },
+ {
+  "kata": "ホコリ",
+  "kana": "ホコリ",
+  "arti": "debu"
+ },
+ {
+  "kata": "土砂",
+  "kana": "どしゃ",
+  "arti": "tanah dan pasir"
+ },
+ {
+  "kata": "水拭き",
+  "kana": "みずぶき",
+  "arti": "mengelap basah"
+ },
+ {
+  "kata": "乾拭き",
+  "kana": "からぶき",
+  "arti": "mengelap kering"
+ },
+ {
+  "kata": "歩行動線",
+  "kana": "ほこうどうせん",
+  "arti": "jalur lalu lalang"
+ },
+ {
+  "kata": "漏電",
+  "kana": "ろうでん",
+  "arti": "kebocoran listrik"
+ },
+ {
+  "kata": "プラグ",
+  "kana": "プラグ",
+  "arti": "steker (colokan)",
+  "contoh": "プラグを持[も]って引[ひ]き抜[ぬ]く",
+  "arti_contoh": "Cabut dengan memegang steker."
+ },
+ {
+  "kata": "コード",
+  "kana": "コード",
+  "arti": "kabel listrik"
+ },
+ {
+  "kata": "ノズル",
+  "kana": "ノズル",
+  "arti": "nosel"
+ },
+ {
+  "kata": "ウォンド",
+  "kana": "ウォンド",
+  "arti": "wand (tongkat penyedot)"
+ },
+ {
+  "kata": "ホース",
+  "kana": "ホース",
+  "arti": "selang"
+ },
+ {
+  "kata": "紙袋",
+  "kana": "かみぶくろ",
+  "arti": "kantung kertas (penyedot debu)",
+  "contoh": "紙袋[かみぶくろ]に2／3ほどゴミが溜[た]まったら交換[こうかん]する",
+  "arti_contoh": "Ganti saat kantung terisi sekitar 2/3."
+ },
+ {
+  "kata": "本体",
+  "kana": "ほんたい",
+  "arti": "body (badan mesin)"
+ },
+ {
+  "kata": "異音",
+  "kana": "いおん",
+  "arti": "bunyi aneh"
+ },
+ {
+  "kata": "発熱",
+  "kana": "はつねつ",
+  "arti": "panas berlebih"
+ },
+ {
+  "kata": "断線",
+  "kana": "だんせん",
+  "arti": "kabel putus"
+ },
+ {
+  "kata": "目皿",
+  "kana": "めざら",
+  "arti": "penutup lubang urinoir",
+  "contoh": "目皿[めざら]を割[わ]らないように注意[ちゅうい]する",
+  "arti_contoh": "Hati-hati jangan memecahkan penutup lubang."
+ },
+ {
+  "kata": "小便器",
+  "kana": "しょうべんき",
+  "arti": "urinoir"
+ },
+ {
+  "kata": "大便器",
+  "kana": "だいべんき",
+  "arti": "kloset (WC)"
+ },
+ {
+  "kata": "洗面台",
+  "kana": "せんめんだい",
+  "arti": "wastafel"
+ },
+ {
+  "kata": "蛇口",
+  "kana": "じゃぐち",
+  "arti": "keran"
+ },
+ {
+  "kata": "排水口",
+  "kana": "はいすいこう",
+  "arti": "lubang pembuangan (afur)"
+ },
+ {
+  "kata": "リム",
+  "kana": "リム",
+  "arti": "rim (tepi dalam kloset)"
+ },
+ {
+  "kata": "人感センサー",
+  "kana": "じんかんセンサー",
+  "arti": "sensor manusia"
+ },
+ {
+  "kata": "廃棄物",
+  "kana": "はいきぶつ",
+  "arti": "limbah; sampah"
+ },
+ {
+  "kata": "分別",
+  "kana": "ぶんべつ",
+  "arti": "pemisahan jenis sampah",
+  "contoh": "ゴミの分別[ぶんべつ]は回収後[かいしゅうご]にまとめてする",
+  "arti_contoh": "Pemisahan sampah dilakukan setelah semua terkumpul."
+ },
+ {
+  "kata": "手洗い",
+  "kana": "てあらい",
+  "arti": "cuci tangan",
+  "contoh": "20秒以上[びょういじょう]かけて手洗[てあら]いをする",
+  "arti_contoh": "Cuci tangan lebih dari 20 detik."
+ },
+ {
+  "kata": "感染予防",
+  "kana": "かんせんよぼう",
+  "arti": "pencegahan infeksi"
+ },
+ {
+  "kata": "安全",
+  "kana": "あんぜん",
+  "arti": "keselamatan; aman"
+ },
+ {
+  "kata": "衛生",
+  "kana": "えいせい",
+  "arti": "kebersihan; sanitasi"
+ },
+ {
+  "kata": "転倒",
+  "kana": "てんとう",
+  "arti": "terjungkal; jatuh terpeleset"
+ },
+ {
+  "kata": "感電",
+  "kana": "かんでん",
+  "arti": "tersetrum listrik"
+ },
+ {
+  "kata": "塩素系",
+  "kana": "えんそけい",
+  "arti": "berbahan dasar klorin"
+ },
+ {
+  "kata": "注射針",
+  "kana": "ちゅうしゃばり",
+  "arti": "jarum suntik"
+ },
+ {
+  "kata": "床材",
+  "kana": "ゆかざい",
+  "arti": "material lantai"
+ },
+ {
+  "kata": "弾性床材",
+  "kana": "だんせいゆかざい",
+  "arti": "lantai elastis (vinil, linoleum, karet)"
+ },
+ {
+  "kata": "カーペット",
+  "kana": "カーペット",
+  "arti": "karpet"
+ },
+ {
+  "kata": "無機質",
+  "kana": "むきしつ",
+  "arti": "anorganik"
+ },
+ {
+  "kata": "水溶性",
+  "kana": "すいようせい",
+  "arti": "larut air"
+ },
+ {
+  "kata": "油溶性",
+  "kana": "ゆようせい",
+  "arti": "larut minyak"
+ },
+ {
+  "kata": "感染性",
+  "kana": "かんせんせい",
+  "arti": "dapat menularkan penyakit"
+ },
+ {
+  "kata": "酸性",
+  "kana": "さんせい",
+  "arti": "asam"
+ },
+ {
+  "kata": "中性",
+  "kana": "ちゅうせい",
+  "arti": "netral"
+ },
+ {
+  "kata": "アルカリ性",
+  "kana": "アルカリせい",
+  "arti": "alkali"
+ },
+ {
+  "kata": "界面活性剤",
+  "kana": "かいめんかっせいざい",
+  "arti": "surfaktan"
+ },
+ {
+  "kata": "浸透",
+  "kana": "しんとう",
+  "arti": "penetrasi; meresap"
+ },
+ {
+  "kata": "樹脂",
+  "kana": "じゅし",
+  "arti": "resin"
+ },
+ {
+  "kata": "ポリッシャー",
+  "kana": "ポリッシャー",
+  "arti": "polisher (mesin pembersih lantai)",
+  "contoh": "ポリッシャーは力[ちから]を入[い]れずにハンドルで操作[そうさ]する",
+  "arti_contoh": "Polisher dikendalikan dengan pegangan tanpa banyak tenaga."
+ },
+ {
+  "kata": "パッド",
+  "kana": "パッド",
+  "arti": "pad"
+ },
+ {
+  "kata": "フロアパッド",
+  "kana": "フロアパッド",
+  "arti": "floor pad"
+ },
+ {
+  "kata": "ハンドル",
+  "kana": "ハンドル",
+  "arti": "pegangan (handle)"
+ },
+ {
+  "kata": "セーフティロック",
+  "kana": "セーフティロック",
+  "arti": "safety lock"
+ },
+ {
+  "kata": "スタンド",
+  "kana": "スタンド",
+  "arti": "penyangga (stand)"
+ },
+ {
+  "kata": "反時計回り",
+  "kana": "はんとけいまわり",
+  "arti": "berlawanan arah jarum jam"
+ },
+ {
+  "kata": "圧",
+  "kana": "あつ",
+  "arti": "tekanan"
+ },
+ {
+  "kata": "汚水",
+  "kana": "おすい",
+  "arti": "air kotor",
+  "contoh": "汚水[おすい]をたらさないように回収[かいしゅう]する",
+  "arti_contoh": "Kumpulkan air kotor agar tidak menetes."
+ },
+ {
+  "kata": "シャンパー",
+  "kana": "シャンパー",
+  "arti": "window washer (alat oles sabun kaca)"
+ },
+ {
+  "kata": "ウインドスクイジー",
+  "kana": "ウインドスクイジー",
+  "arti": "window cleaner (squeegee)"
+ },
+ {
+  "kata": "四隅",
+  "kana": "よすみ",
+  "arti": "empat sudut",
+  "contoh": "ガラスの四隅[よすみ]から塗布[とふ]する",
+  "arti_contoh": "Oles dari empat sudut kaca."
+ },
+ {
+  "kata": "脚立",
+  "kana": "きゃたつ",
+  "arti": "tangga lipat"
+ },
+ {
+  "kata": "運搬車",
+  "kana": "うんぱんしゃ",
+  "arti": "kereta angkut"
+ }
+]

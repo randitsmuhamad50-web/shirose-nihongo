@@ -1,0 +1,81 @@
+{
+ "id": "b2s15", "no": 15,
+ "title": { "id": "Toilet ④ Kloset (WC)", "jp": "トイレ清掃 ④大便器" },
+ "pages": [51, 54],
+ "full": {
+  "id": [
+   { "h": "Kloset di Jepang" },
+   { "p": "Banyak kloset di Jepang memiliki bidet air hangat (温水洗浄便座) yang mencuci dengan pancuran air hangat. Sangat higienis dan nyaman." },
+   { "h": "3 langkah membersihkan kloset" },
+   { "ol": [
+     "Pembersihan bagian dalam.",
+     "Pembersihan bagian luar dengan air (lap basah).",
+     "Pembersihan bagian luar dengan lap kering. ①② untuk titik yang terkena kotoran; ③ untuk titik yang sering disentuh orang."
+   ] },
+   { "h": "Bagian dalam" },
+   { "ul": [
+     "Angkat penutupnya (dan dudukan). Semprotkan karbol ke pad putih.",
+     "Bersihkan bagian dalam kloset. Hati-hati jangan sampai lutut menyentuh lantai.",
+     "Di sisi belakang rim ada kotoran yang menempel, jadi harus dibersihkan dengan teliti.",
+     "Untuk lubang kloset, bersihkan dengan sikat sampai ke ujungnya.",
+     "Saat mengembalikan sikat, masukkan ke dalam kotaknya. Tiriskan sikat sebelum dimasukkan ke kotak (kotak menampung air kotor)."
+   ] },
+   { "h": "Nosel bidet" },
+   { "ul": [
+     "Keluarkan nosel pipa bidet. Agar tombol bidet tidak kotor, tutup dengan lap.",
+     "Bersihkan dengan pad, kembalikan nosel bidet."
+   ] },
+   { "h": "Bagian luar" },
+   { "ul": [
+     "Ganti dengan lap basah yang sudah diperas.",
+     "Lap bagian luar kloset dari atas sampai bawah, sampai ke bagian belakang kloset. Juga tutup dan sisi belakang dudukan.",
+     "Habis dipakai lap 1 kali, lipat ke bagian yang masih bersih. Jangan sampai lutut menyentuh lantai."
+   ] },
+   { "h": "Penyelesaian" },
+   { "ul": [
+     "Terakhir, lap dengan lap kering warna putih untuk bagian yang sering disentuh orang (tangki, tempat tisu toilet, tombol panel, permukaan kloset dan tutup). Lepaskan sarung tangan.",
+     "Cek bagian yang mudah menumpuk kotoran: kotoran di celah, tuas yang kotor, colokan/kabel. Bersihkan dengan lap hingga bersih.",
+     "Gulung lap seperti tali untuk membersihkan bagian celahnya."
+   ] }
+  ],
+  "jp": [
+   { "h": "{日本|にほん}の{大便器|だいべんき}" },
+   { "p": "{日本|にほん}の{大便器|だいべんき}には{温水洗浄便座|おんすいせんじょうべんざ}が{多|おお}い。{温水|おんすい}シャワーでおしりを{洗浄|せんじょう}する。{衛生的|えいせいてき}で{快適|かいてき}。" },
+   { "h": "{清掃|せいそう}の{手順|てじゅん}は3つの{工程|こうてい}" },
+   { "ol": [
+     "{便器内|べんきない}の{洗浄|せんじょう}",
+     "{便器外側|べんきそとがわ}の{水拭|みずぶ}き",
+     "{便器外側|べんきそとがわ}の{乾拭|からぶ}き（①②→{汚物|おぶつ}が{直接触|ちょくせつさわ}れるところ、③→{人|ひと}が{触|さわ}る{場所|ばしょ}）"
+   ] },
+   { "h": "{便器内|べんきない}" },
+   { "ul": [
+     "{便座|べんざ}を{上|あ}げて、{白|しろ}パッドに{洗剤|せんざい}をつけてから。",
+     "{便器内|べんきない}を{清掃|せいそう}していこう。ヒザをつかないように{注意|ちゅうい}！",
+     "リムの{裏側|うらがわ}に{汚|よご}れがつくのでしっかりと{清掃|せいそう}しないといけない。",
+     "トラップはブラシで{奥|おく}までしっかり{清掃|せいそう}。",
+     "ブラシの{回収|かいしゅう}にはケースを{使|つか}ってね（{汚水|おすい}をたらさないようにケースで{受|う}ける）。"
+   ] },
+   { "h": "{温水洗浄|おんすいせんじょう}ノズル" },
+   { "ul": [
+     "{温水洗浄便座|おんすいせんじょうべんざ}はノズルを{引|ひ}き{出|だ}して、{温水洗浄|おんすいせんじょう}スイッチを{汚|よご}さないようにタオルで{覆|おお}う。",
+     "パッドなどで{洗|あら}い、ノズルを{戻|もど}しておこう。"
+   ] },
+   { "h": "{外側|そとがわ}" },
+   { "ul": [
+     "{次|つぎ}は{硬|かた}く{絞|しぼ}った{別|べつ}のタオルに{持|も}ち{替|か}えて。",
+     "{便器|べんき}の{外側|そとがわ}を{拭|ふ}き{上|あ}げる。{上|うえ}から{下|した}へ{拭|ふ}いていく。{便座|べんざ}の{後|うし}ろまでしっかり{拭|ふ}く。フタ・{便座|べんざ}の{裏側|うらがわ}も。",
+     "{一度拭|いちどふ}いたらタオルを{折|お}り{返|かえ}す。ヒザをつかないように{注意|ちゅうい}！"
+   ] },
+   { "h": "{仕上|しあ}げ" },
+   { "ul": [
+     "{手|て}が{触|ふ}れるところを{乾|かわ}いたタオルで{乾拭|からぶ}きしていこう（タンク、トイレットペーパーホルダー・スイッチパネル、{便座|べんざ}・フタの{表面|ひょうめん}）。{手袋|てぶくろ}を{外|はず}す。",
+     "ホコリが{溜|た}まりやすい{場所|ばしょ}を{確認|かくにん}しておき、キレイに{拭|ふ}き{取|と}ってあげてね（{隙間|すきま}のホコリ、レバーの{汚|よご}れ、コード{類|るい}）。",
+     "{隙間|すきま}はタオルをロープ{状|じょう}にするなど{工夫|くふう}するといいよ。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Kloset: dalam (pad + sikat, rim belakang) → luar lap basah atas ke bawah → lap kering bagian yang disentuh. Lutut jangan menyentuh lantai.", "points": ["3 langkah: dalam, luar basah, luar kering.", "Rim sisi belakang dibersihkan teliti.", "Sikat ditiriskan lalu masuk kotak.", "Tutup tombol bidet dengan lap.", "Celah: gulung lap seperti tali."], "avoid": ["Lutut menyentuh lantai.", "Melewatkan rim belakang dan celah."], "exam": ["3 langkah kloset.", "Cara mengembalikan sikat."] },
+  "jp": { "core": "{大便器|だいべんき}：{内|うち}→{外|そと}{水拭|みずぶ}き→{乾拭|からぶ}き。リムの{裏|うら}を{忘|わす}れずに。ヒザはつかない。", "points": ["3{工程|こうてい}：{内|うち}・{外|そと}{水拭|みずぶ}き・{乾拭|からぶ}き", "リムの{裏側|うらがわ}", "ブラシはケースで{受|う}ける", "{洗浄|せんじょう}スイッチをタオルで{覆|おお}う", "{隙間|すきま}はロープ{状|じょう}にしたタオル"], "avoid": ["ヒザを{床|ゆか}につく", "リムの{裏|うら}・{隙間|すきま}の{拭|ふ}き{残|のこ}し"], "exam": ["{大便器|だいべんき}の3{工程|こうてい}", "ブラシの{戻|もど}し{方|かた}"] }
+ }
+}

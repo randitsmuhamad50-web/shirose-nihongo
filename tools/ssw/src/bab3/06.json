@@ -1,0 +1,51 @@
+{
+ "id": "b3s6", "no": 6,
+ "title": { "id": "Polisher: Menegakkan dan Mengendalikan", "jp": "ポリッシャー：起こし方と操作" },
+ "pages": [68, 69],
+ "full": {
+  "id": [
+   { "h": "Membangunkan polisher" },
+   { "ul": [
+     "Bangunkan polisher: tarik kembali penyangga (stand), kunci rodanya (tarik kembali roda).",
+     "Sesuaikan posisi pegangan dengan pedal kaki.",
+     "Angkat rodanya setelah menyesuaikan posisi pegangan.",
+     "Pegang tuas kanan sambil dorong safety lock."
+   ] },
+   { "p": "Jika posisi pegangan salah, polisher bergerak sendiri dan sulit dikendalikan. Jangan panik: lepaskan tuas dan polisher berhenti." },
+   { "h": "Posisi pad" },
+   { "ul": [
+     "Gerakkan pegangan ke atas dan ke bawah untuk mengatur pad agar tetap dalam posisi horizontal.",
+     "Buat pad dalam posisi horizontal."
+   ] },
+   { "h": "Mengarahkan polisher" },
+   { "ul": [
+     "Naikkan sedikit pegangan → polisher maju ke kanan.",
+     "Turunkan sedikit pegangan → polisher maju ke kiri."
+   ] }
+  ],
+  "jp": [
+   { "h": "ポリッシャーを{起|お}こす" },
+   { "ul": [
+     "ポリッシャーを{起|お}こして：スタンドを{収納|しゅうのう}する、タイヤを{固定|こてい}する。",
+     "ハンドル{位置|いち}を{調整|ちょうせい}しよう（フットペダル）。",
+     "タイヤを{持|も}ち{上|あ}げる（タイヤはハンドル{位置調整|いちちょうせい}の{後|あと}に{上|あ}げる）。",
+     "セーフティロックを{押|お}し{込|こ}みながら{右|みぎ}レバーを{握|にぎ}る。"
+   ] },
+   { "p": "ハンドルの{位置|いち}が{悪|わる}いと{勝手|かって}に{動|うご}きまわる！{落|お}ち{着|つ}いて！レバーを{離|はな}せば{止|と}まる。" },
+   { "h": "パッドの{向|む}き" },
+   { "ul": [
+     "ハンドルを{上下|じょうげ}させてパッドが{水平|すいへい}になるように{調整|ちょうせい}して！",
+     "パッドを{水平|すいへい}にする。"
+   ] },
+   { "h": "{進|すす}む{向|む}きの{操作|そうさ}" },
+   { "ul": [
+     "ハンドルを{少|すこ}し{上|あ}げる → {右|みぎ}に{進|すす}む。",
+     "ハンドルを{少|すこ}し{下|さ}げる → {左|ひだり}に{進|すす}む。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Bangunkan polisher setelah atur pegangan. Pegangan naik → kanan; pegangan turun → kiri. Pad harus horizontal.", "points": ["Roda diangkat setelah posisi pegangan diatur.", "Tuas kanan + safety lock.", "Naik = kanan, turun = kiri.", "Lepas tuas → berhenti."], "avoid": ["Panik saat polisher bergerak sendiri."], "exam": ["Arah gerak saat pegangan naik/turun.", "Posisi pad."] },
+  "jp": { "core": "ハンドルを{調整|ちょうせい}してから{起|お}こす。{上|あ}げる＝{右|みぎ}、{下|さ}げる＝{左|ひだり}。パッドは{水平|すいへい}。", "points": ["{位置調整|いちちょうせい}の{後|あと}にタイヤを{上|あ}げる", "{右|みぎ}レバー＋セーフティロック", "{上|あ}げる＝{右|みぎ}・{下|さ}げる＝{左|ひだり}", "レバーを{離|はな}すと{止|と}まる"], "avoid": ["{暴走|ぼうそう}してあわてる"], "exam": ["ハンドルの{上下|じょうげ}と{進行方向|しんこうほうこう}", "パッドの{向|む}き"] }
+ }
+}

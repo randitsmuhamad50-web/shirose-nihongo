@@ -1350,6 +1350,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261110b"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261110b"/>
 </head>
 <body>
 
@@ -1406,8 +1407,11 @@ import SV from "./js/voice.js?v=20261109c";
 import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261109j";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110b";
+// SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110b";
 initJlpt(FB);
 initKana(FB);
+initSsw(FB);
 
 /* ========== STATE ========== */
 const state = {
@@ -2037,6 +2041,8 @@ const routes = {
   "jlpt-review": (params) => renderReviewJlpt(params),
   // Hiragana & Katakana (js/kana-center.js): #kana, #kana-tabel, #kana-order, #kana-tulis, #kana-hafalan, #kana-tes, #kana-progres
   ...KANA_ROUTES,
+  // SSW 特定技能 (js/ssw.js)
+  ...SSW_ROUTES,
 };
 
 // Routes that depend on state.level (and therefore on aksesLevel).
@@ -2229,12 +2235,17 @@ function renderCharaOrbital(){
     </div>
     <div class="home-disp">${displayBar("home")}</div>
 
+    <div id="ssw-dash">${(() => { setTimeout(() => window.SSW && window.SSW.dashCard && window.SSW.dashCard(), 0); return ""; })()}</div>
     <div class="panel">
       <h2>Aktivitas cepat</h2>
       <div class="hub-grid">
         <div class="hub-card kc-entry" onclick="route('kana')">
           <div class="ico">あ</div>
           <div class="info"><div class="ttl">Hiragana &amp; Katakana</div><div class="sub">Tabel, urutan goresan, latihan menulis, hafalan &amp; tes</div></div>
+        </div>
+        <div class="hub-card" onclick="route('ssw')">
+          <div class="ico">技</div>
+          <div class="info"><div class="ttl">SSW 特定技能</div><div class="sub">Pulau bidang kerja, materi, kosakata &amp; kuis</div></div>
         </div>
         ${FB.userIsGuru() ? `<div class="hub-card" onclick="location.href='./teacher.html'">
           <div class="ico">🛠️</div>
@@ -2279,7 +2290,8 @@ function renderCharaOrbital(){
 // Halaman yang boleh dibuka sebelum memilih level.
 // Rute kana berdiri sendiri (tidak butuh level JLPT) → boleh dibuka sebelum memilih level.
 const BEBAS_PILIH_LEVEL = new Set(["pilih-level","login","masuk","daftar","profile",
-  "kana","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres"]);
+  "kana","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
+  "ssw","ssw-peta","ssw-bab","ssw-baca","ssw-buku","ssw-kosa","ssw-kartu","ssw-kuis","ssw-progres"]);
 const _KEY_PILIH = "shirose-level-dipilih";   // sessionStorage: uid yang sudah memilih di sesi ini
 function levelSudahDipilih(){
   if (!state.user) return false;
@@ -2323,6 +2335,13 @@ function renderPilihLevel(){
         <span class="desc">Hiragana &amp; Katakana dari nol: tabel, urutan goresan, latihan menulis, hafalan, dan tes membaca.</span>
         <span class="st">Tanpa pilih level</span>
       </button>`;
+  const kartuSsw = `
+      <button class="jlpt-card ssw" data-kanji="技" onclick="route('ssw')">
+        <span class="lv">SSW</span>
+        <span class="jpname">特定技能 · Bidang kerja</span>
+        <span class="desc">Belajar bahasa Jepang &amp; keterampilan kerja per bidang. Jelajahi pulau, masuki gedung belajar, hafalkan kosakata, kerjakan kuis.</span>
+        <span class="st">Tanpa pilih level</span>
+      </button>`;
   const kartuGuru = FB.userIsGuru() ? `
       <button class="jlpt-card guru" data-kanji="師" onclick="location.href='./teacher.html'">
         <span class="lv">師</span>
@@ -2337,7 +2356,7 @@ function renderPilihLevel(){
         <h1>${nama ? `Halo, ${nama}! ` : ""}Pilih level JLPT</h1>
         <p>Semua materi, hafalan, dan ujian akan mengikuti level yang kamu pilih.</p>
       </div>
-      <div class="jlpt-grid">${cards}${kartuKana}${kartuGuru}</div>
+      <div class="jlpt-grid">${cards}${kartuKana}${kartuSsw}${kartuGuru}</div>
       <div class="foot">
         ${adaYangBuka ? "Level bergembok dibuka oleh guru." : "Belum ada level yang dibuka untukmu — hubungi guru."}
         <div style="margin-top:12px;"><button class="btn ghost" onclick="logout()">Keluar</button></div>

@@ -1,0 +1,49 @@
+{
+ "id": "b3s2", "no": 2,
+ "title": { "id": "Pengetahuan Mengenai Kotoran", "jp": "汚れの知識" },
+ "pages": [63, 63],
+ "full": {
+  "id": [
+   { "h": "Macam-macam kotoran di macam-macam lokasi" },
+   { "ul": [
+     "**Lantai vinil:** kerak (noda air), bekas heal (sepatu).",
+     "**Lantai pintu masuk dan koridor:** debu pasir dan debu, jamur, bekas matahari dan bekas jejak perabotan.",
+     "**Lantai karpet:** noda, debu di celah karpet.",
+     "**Lantai kantor:** rambut dan sampah, isi staples dan clip."
+   ] },
+   { "p": "Ada macam-macam kotoran, tergantung material lantai dan tempatnya." },
+   { "h": "② Jenis kotoran (5 jenis)" },
+   { "ul": [
+     "**Kotoran anorganik:** debu (pasir, kapas), debu rokok.",
+     "**Tipe cair (larut air):** noda cair, minuman, dan lainnya.",
+     "**Tipe minyak:** bekas heal (sepatu), sebum, dan lainnya.",
+     "**Kotoran yang dapat menularkan penyakit:** jamur, kutu, dan lainnya.",
+     "**Lainnya:** karat, bekas terbakar matahari, dan lainnya."
+   ] },
+   { "note": "Bekas terbakar matahari tidak bisa dibersihkan dengan pembersihan biasa." }
+  ],
+  "jp": [
+   { "h": "いろんな{場所|ばしょ}のいろんな{汚|よご}れ" },
+   { "ul": [
+     "**ビニル{系|けい}の{床|ゆか}：**{水|みず}アカ、ヒールマーク。",
+     "**{廊下|ろうか}・エントランスの{床|ゆか}：**{土砂|どしゃ}・ホコリ、カビ、{日焼|ひや}け・{家具|かぐ}の{跡|あと}。",
+     "**カーペットの{床|ゆか}：**{染|し}み、パイル{内|ない}のホコリ。",
+     "**オフィスの{床|ゆか}：**{髪|かみ}・ゴミ、ステープルの{芯|しん}・クリップなど。"
+   ] },
+   { "p": "{建材|けんざい}や{場所|ばしょ}によって{様々|さまざま}な{汚|よご}れがある。" },
+   { "h": "② {汚|よご}れの{種類|しゅるい}（5{種類|しゅるい}）" },
+   { "ul": [
+     "**{無機質|むきしつ}の{汚|よご}れ：**ホコリ（{土|つち}、{綿|わた}）、{灰|はい}など。",
+     "**{水溶性|すいようせい}：**{染|し}み、{飲|の}み{物|もの}など。",
+     "**{油溶性|ゆようせい}：**ヒールマーク、{皮脂|ひし}など。",
+     "**{感染性|かんせんせい}の{汚|よご}れ：**カビ、ダニなど。",
+     "**その{他|ほか}：**サビ、{日焼|ひや}けなど。"
+   ] },
+   { "note": "{日焼|ひや}けなどは{清掃|せいそう}では{落|お}ちない。" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Kotoran dibagi 5 jenis: anorganik, larut air, minyak, penular penyakit, lainnya.", "points": ["Setiap lokasi punya kotoran khas.", "Anorganik = debu/pasir/abu.", "Minyak = bekas heal, sebum.", "Penular = jamur, kutu."], "avoid": ["Menganggap semua kotoran hanya debu dan pasir."], "exam": ["5 jenis kotoran.", "Kotoran yang tidak bisa dibersihkan: bekas terbakar matahari."] },
+  "jp": { "core": "{汚|よご}れは5{種類|しゅるい}：{無機質|むきしつ}・{水溶性|すいようせい}・{油溶性|ゆようせい}・{感染性|かんせんせい}・その{他|ほか}。", "points": ["{場所|ばしょ}ごとに{汚|よご}れが{違|ちが}う", "{無機質|むきしつ}＝ホコリ・{土|つち}・{灰|はい}", "{油溶性|ゆようせい}＝ヒールマーク・{皮脂|ひし}", "{感染性|かんせんせい}＝カビ・ダニ"], "avoid": ["{汚|よご}れは{土|つち}とホコリだけと{思|おも}う"], "exam": ["{汚|よご}れの5{種類|しゅるい}", "{落|お}ちない{汚|よご}れ（{日焼|ひや}け）"] }
+ }
+}
