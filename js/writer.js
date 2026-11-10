@@ -135,6 +135,7 @@ export function parseKvgSvg(text) {
 
 /* ============================ pemuat glyph ============================ */
 const _glyph = new Map();
+const _kShard = {};
 let _kanaStrokes = null;
 const hexOf = (ch) => ch.codePointAt(0).toString(16).padStart(5, "0");
 export const kvgUrls = (ch) => [
@@ -164,6 +165,14 @@ export async function loadGlyph(ch, base = "./") {
   if ((code >= 0x3041 && code <= 0x30FF)) {
     const ks = await loadKanaStrokes(base);
     g = ks[ch] || null;
+  }
+  if (!g && !(code >= 0x3041 && code <= 0x30FF)) {   // kanji: data lokal dulu (data/kanji-strokes), tanpa internet
+    try {
+      const sh = (code >> 8).toString(16).padStart(3, "0");
+      if (!_kShard[sh]) _kShard[sh] = fetch(base + `data/kanji-strokes/${sh}.json`).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+      const e = (await _kShard[sh])[ch];
+      if (e && e.s && e.s.length) g = { s: e.s, n: e.n && e.n.length === e.s.length ? e.n : e.s.map(d => { const p = samplePath(d)[0] || [10, 10]; return [p[0] - 6, p[1] - 2]; }) };
+    } catch (_) {}
   }
   if (!g) {
     let lastErr = null;
