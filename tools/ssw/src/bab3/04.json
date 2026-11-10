@@ -1,0 +1,49 @@
+{
+ "id": "b3s4", "no": 4,
+ "title": { "id": "Cara Membersihkan dan Tindakan Pencegahan", "jp": "作業方法・予防策の知識" },
+ "pages": [65, 65],
+ "full": {
+  "id": [
+   { "h": "④ Rute pembersihan dasar" },
+   { "p": "Saat membersihkan ada beberapa teknik yang bisa digunakan:" },
+   { "ul": [
+     "Dari atas ke bawah.",
+     "Dari ujung ke depan.",
+     "Dari tempat sempit ke tempat luas.",
+     "Dari tempat yang sedikit kotoran ke tempat yang banyak kotoran.",
+     "Cek tempat penggunanya."
+   ] },
+   { "h": "⑤ Tindakan pencegahan" },
+   { "p": "Perlu tindakan pencegahan dengan menggunakan material perawatan lantai untuk melindungi lantai dari kotoran dan menjaga kebersihannya." },
+   { "h": "Jenis bahan perawatan lantai" },
+   { "ul": [
+     "**Wax resin:** tipe uretan dan tipe akrilik.",
+     "**Wax cair:** berbahan utama lilin.",
+     "**Wax emulsi:** lilin, resin sintetis."
+   ] }
+  ],
+  "jp": [
+   { "h": "④ {作業動線|さぎょうどうせん}の{基本|きほん}" },
+   { "p": "{作業|さぎょう}にはいくつか{基本的|きほんてき}な{進|すす}め{方|かた}があるんだよ：" },
+   { "ul": [
+     "{上|うえ}から{下|した}",
+     "{奥|おく}から{手前|てまえ}へ",
+     "{狭|せま}い{所|ところ}から{広|ひろ}い{所|ところ}へ",
+     "{汚|よご}れの{少|すく}ない{所|ところ}から{汚|よご}れの{多|おお}い{所|ところ}へ",
+     "{利用者|りようしゃ}の{位置|いち}で{確認|かくにん}"
+   ] },
+   { "h": "⑤ {予防策|よぼうさく}" },
+   { "p": "{床材|ゆかざい}等を{汚|よご}れから{守|まも}りキレイを{維持|いじ}するために{床維持材|ゆかいじざい}を{塗布|とふ}するなど{予防策|よぼうさく}も{必要|ひつよう}なんだよ。" },
+   { "h": "{床維持剤|ゆかいじざい}の{種類|しゅるい}" },
+   { "ul": [
+     "**{樹脂|じゅし}ワックス：**ウレタン{系|けい}、アクリル{系|けい}。",
+     "**{水性|すいせい}ワックス：**ロウが{主成分|しゅせいぶん}。",
+     "**{乳化性|にゅうかせい}ワックス：**ロウ、{合成樹脂|ごうせいじゅし}。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Rute: atas→bawah, ujung→depan, sempit→luas, bersih→kotor. Wax melindungi lantai.", "points": ["5 aturan rute dasar.", "Wax resin, cair, emulsi."], "avoid": ["Mulai dari tempat paling kotor."], "exam": ["Rute dasar.", "Jenis wax."] },
+  "jp": { "core": "{順|じゅん}：{上|うえ}→{下|した}、{奥|おく}→{手前|てまえ}、{狭|せま}い→{広|ひろ}い、{少|すく}→{多|おお}。ワックスで{床|ゆか}を{守|まも}る。", "points": ["{作業動線|さぎょうどうせん}の5つの{基本|きほん}", "{樹脂|じゅし}・{水性|すいせい}・{乳化性|にゅうかせい}ワックス"], "avoid": ["{汚|よご}れの{多|おお}い{所|ところ}から{始|はじ}める"], "exam": ["{作業動線|さぎょうどうせん}の{基本|きほん}", "ワックスの{種類|しゅるい}"] }
+ }
+}

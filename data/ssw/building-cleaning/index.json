@@ -15,6 +15,10 @@
   {
    "id": "bab2",
    "file": "bab2.json"
+  },
+  {
+   "id": "bab3",
+   "file": "bab3.json"
   }
  ],
  "vocab": "vocab.json",

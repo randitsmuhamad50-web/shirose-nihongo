@@ -61,7 +61,7 @@ BAB_META = {
     "bab2": {"no": 2, "title": {"id": "Pembersihan Harian", "jp": "日常清掃"}, "pages": [15, 60],
              "intro": {"id": "Teknik pembersihan harian: peralatan, keamanan, sapu, dust cloth, mop, penyedot debu, lap meja dan kaca, toilet, pengolahan limbah, kebersihan diri, dan keselamatan kerja.",
                        "jp": "日常清掃の基本：持ち物、安全、ほうき、ダストクロス、モップ、掃除機、拭き清掃、トイレ、廃棄物、衛生管理、安全。"}},
-    "bab3": {"no": 3, "title": {"id": "Pembersihan Berkala", "jp": "定期清掃"}, "pages": [61, 85],
+    "bab3": {"no": 3, "title": {"id": "Pembersihan Berkala", "jp": "定期清掃"}, "pages": [61, 82],
              "intro": {"id": "Pembersihan berkala: lantai, polisher, kaca, dan daftar perlengkapan.",
                        "jp": "定期清掃の基本：床、ポリッシャー、ガラス、資器材一覧。"}},
 }

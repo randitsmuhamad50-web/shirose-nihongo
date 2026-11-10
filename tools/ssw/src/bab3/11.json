@@ -1,0 +1,35 @@
+{
+ "id": "b3s11", "no": 11,
+ "title": { "id": "Membersihkan Kaca: Lap Basah dan Penutup", "jp": "ガラス清掃：水拭きと仕上げ" },
+ "pages": [78, 80],
+ "full": {
+  "id": [
+   { "h": "③ Lap basah" },
+   { "ul": [
+     "Siapkan lap yang sudah diperas. Lipat lap sesuai dengan lebar bingkai.",
+     "Lap bingkai jendela mengikuti urutan ①〜④; lipat lap ke bagian yang bersih setiap selesai membersihkan satu bagian. Jangan sampai menyentuh kaca.",
+     "Setelah selesai, cek apakah ada sisa sabun atau tidak. Kotoran mudah menumpuk di bagian tertentu.",
+     "Bersihkan lantai dengan lap basah (zig-zag); lap kemudian lipat ke bagian yang masih bersih.",
+     "Bereskan peralatan, kemudian pekerjaan selesai."
+   ] },
+   { "h": "Penutup" },
+   { "p": "Pekerjaan kita bukan hanya membersihkan saja; kita juga harus membuat lingkungan bersih dengan aman untuk memberikan kenyamanan kepada orang-orang. Mulai sekarang kita berjuang bersama sebagai Cleaning Service." }
+  ],
+  "jp": [
+   { "h": "③ {水拭|みずぶ}き" },
+   { "ul": [
+     "{硬|かた}く{絞|しぼ}ったタオルを{用意|ようい}して。タオルをフレームの{幅|はば}に{折|お}る。",
+     "{窓|まど}のフレームを{拭|ふ}きあげよう。①〜④ごとにタオルを{新|あたら}しい{面|めん}に{折|お}り{返|かえ}す。ガラスに{触|ふ}れないように。",
+     "{終|お}わったら{洗剤|せんざい}や{汚|よご}れの{拭|ふ}き{残|のこ}しがないか{確認|かくにん}しよう。{汚|よご}れが{残|のこ}りやすい{所|ところ}がある。",
+     "{床|ゆか}をタオルで{水拭|みずぶ}きして（ひと{拭|ふ}きしたらタオルを{折|お}り{返|かえ}す）。",
+     "{資器材|しきざい}の{片付|かたづ}けをしたら{作業完了|さぎょうかんりょう}だよ。"
+   ] },
+   { "h": "おわりに" },
+   { "p": "{私|わたし}たちのお{仕事|しごと}はただキレイにするだけではなく{安全|あんぜん}で{清潔|せいけつ}な{環境|かんきょう}を{作|つく}り{出|だ}すことで{人々|ひとびと}に{快適|かいてき}を{与|あた}えることができるんだ。これから{一緒|いっしょ}に{頑張|がんば}っていこうね！" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Lap basah bingkai ①〜④ dan lantai, balik lap tiap bagian, cek sisa sabun, bereskan peralatan.", "points": ["Lipat lap sesuai lebar bingkai.", "Jangan sentuh kaca.", "Cek sisa sabun.", "Lap lantai zig-zag."], "avoid": ["Meninggalkan sisa sabun atau noda."], "exam": ["Urutan akhir pembersihan kaca."] },
+  "jp": { "core": "フレームと{床|ゆか}を{水拭|みずぶ}き、{折|お}り{返|かえ}し、{拭|ふ}き{残|のこ}しを{確認|かくにん}、{片付|かたづ}け。", "points": ["タオルをフレーム{幅|はば}に{折|お}る", "ガラスに{触|ふ}れない", "{拭|ふ}き{残|のこ}しを{確認|かくにん}", "{床|ゆか}を{水拭|みずぶ}き"], "avoid": ["{洗剤|せんざい}や{汚|よご}れの{拭|ふ}き{残|のこ}し"], "exam": ["ガラス{清掃|せいそう}の{最後|さいご}の{手順|てじゅん}"] }
+ }
+}
