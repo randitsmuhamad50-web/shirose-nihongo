@@ -57,6 +57,9 @@ def fix(d):
 quiz = {"bab": {}}
 for bab, sets in CHAPTERS.items():
     quiz["bab"][bab] = [{"id": f"{bab}-q{i+1}", "title": t, "items": [fix(x) for x in its]} for i, (qid, t, its) in enumerate(sets)]
+from quiz_sub import SUB
+for subid, bab, no, tid, tjp, its in SUB:
+    quiz["bab"][bab].append({"id": f"{subid}-q", "sub": subid, "title": {"id": f"Subbab {no} · {tid}", "jp": f"{no} {tjp}"}, "items": [fix(x) for x in its]})
 json.dump(quiz, open(os.path.join(out, "quiz.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(sum(len(q["items"]) for v in quiz["bab"].values() for q in v), "soal")
 

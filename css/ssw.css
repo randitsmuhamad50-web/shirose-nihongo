@@ -175,3 +175,27 @@ body.sw-lbopen{overflow:hidden;}
 .sw-kosa-chips,.sw-chips{max-width:100%;}
 .sw-vrow{max-width:100%;} .sw-vrow>div{min-width:0; flex-wrap:wrap;} .sw-vrow .sw-chip{white-space:normal; flex:0 1 auto;}
 .sw-vrow summary{min-width:0; gap:6px;} .sw-vrow .m{min-width:0; overflow-wrap:anywhere;} .sw-vrow .k{min-width:0; max-width:36%; overflow-wrap:anywhere; font-size:18px;} .sw-vrow .b{flex:none;} .sw-vrow summary .sw-chip{flex:none; padding:6px 9px;}
+/* soal ○× */
+.sw-opts.mb{flex-direction:row; gap:12px;} .sw-opts.mb .sw-opt{flex:1; justify-content:center; flex-direction:column; text-align:center; min-height:96px; font-size:15px;}
+.sw-opts.mb .sw-opt .l{width:52px; height:52px; font-size:30px; border-radius:50%;}
+
+/* toolbar baca (sticky) */
+.sw-rtool{position:sticky; top:0; z-index:40; background:rgba(14,16,40,.97); border-bottom:1px solid var(--border); padding:8px 0 6px; margin:0 0 10px; backdrop-filter:blur(6px);}
+.sw-rtool .r1{display:flex; gap:8px; align-items:center;} .sw-rtool .r1 .btn{min-width:48px; min-height:44px; padding:0 14px; font-size:22px; line-height:1;} .sw-rtool select{flex:1; min-width:0; min-height:44px; border-radius:12px; border:1px solid var(--border-light); background:var(--navy-3,#232650); color:#fff; font:inherit; font-size:14px; padding:0 10px;}
+.sw-rtool .r2{display:flex; gap:6px; align-items:center; overflow-x:auto; padding:8px 2px 2px; -webkit-overflow-scrolling:touch; scrollbar-width:none;} .sw-rtool .r2::-webkit-scrollbar{display:none;} .sw-rtool .r2>*{flex:none; margin:0;} .sw-rtool .r2 .sw-chip{min-height:38px; padding:6px 12px;}
+/* kata yang bisa diketuk */
+.sw-w{border-bottom:2px dotted var(--pink,#ef6a9a); cursor:pointer; border-radius:3px;} .sw-w:hover,.sw-w:focus{background:rgba(239,106,154,.22); outline:none;}
+#sw-vs[hidden]{display:none;} #sw-vs{position:fixed; inset:0; z-index:1500; display:flex; align-items:flex-end; justify-content:center;}
+.sw-vs-bg{position:absolute; inset:0; background:rgba(5,4,14,.6);}
+.sw-vs-in{position:relative; width:min(560px,100%); max-height:86vh; overflow:auto; background:#1d1a2b; border:1px solid var(--border-light); border-radius:20px 20px 0 0; padding:16px 16px calc(16px + env(safe-area-inset-bottom,0px)); color:#fff;}
+.sw-vs-h{display:flex; justify-content:space-between; align-items:flex-start;} .sw-vs-h .k{font-size:38px; font-weight:800;} .sw-vs-x{background:none; border:0; color:#fff; font-size:22px; min-width:44px; min-height:44px; cursor:pointer;}
+.sw-vs-m{font-size:20px; margin:2px 0 8px;} .sw-vs-r{display:flex; flex-wrap:wrap; gap:6px 16px; font-size:14px; opacity:.9; margin-bottom:8px;}
+.sw-vs-ex{background:rgba(255,255,255,.07); border-radius:12px; padding:10px 12px; margin:8px 0;} .sw-vs-ex p{margin:2px 0;}
+.sw-vs-b{display:flex; flex-wrap:wrap; gap:8px; margin-top:12px;} .sw-vs-b .btn{flex:1 1 44%; min-height:46px; white-space:normal;}
+/* hub hafalan */
+.hf-stats{display:flex; flex-wrap:wrap; gap:6px 14px; font-size:13px;} .hf-stats b{color:#ffd36b;}
+.hf-f{margin:10px 0;} .hf-f button{flex:1 1 30%; white-space:normal !important;}
+.hf-g{margin-bottom:10px;} .hf-bab{display:flex; gap:8px; align-items:center; min-height:44px; cursor:pointer;} .hf-subs{display:flex; flex-direction:column; gap:2px;}
+.hf-sub{display:flex; gap:10px; align-items:center; min-height:44px; padding:4px 6px; border-radius:10px; cursor:pointer;} .hf-sub:hover{background:rgba(255,255,255,.06);} .hf-sub.off{opacity:.45;} .hf-sub span{flex:1; min-width:0; overflow-wrap:anywhere;} .hf-sub small{opacity:.7; flex:none;}
+.hf-g input[type=checkbox]{width:22px; height:22px; accent-color:var(--pink,#ef6a9a); flex:none;}
+.hf-bar{position:sticky; bottom:0; z-index:30; display:flex; gap:10px; align-items:center; justify-content:space-between; background:rgba(14,16,40,.97); border-top:1px solid var(--border); padding:10px 4px calc(10px + env(safe-area-inset-bottom,0px)); flex-wrap:wrap;} .hf-bar .btn{flex:1 1 160px;}

@@ -237,24 +237,31 @@ export function buildQueue(P, vocab, { newLimit = 15, now = Date.now(), mode = "
   }
   due.sort((a, b) => (P.cards[a.id].due - P.cards[b.id].due));
   if (mode === "semua") return shuffle(vocab);
+  if (mode === "baru") return shuffle(vocab.filter(v => cardState(P.cards[v.id], now) === "baru"));
+  if (mode === "ulang") return shuffle(vocab.filter(v => ["belum", "ulang"].includes(cardState(P.cards[v.id], now))));
+  if (mode === "hafal") return shuffle(vocab.filter(v => ["hafal", "kuasa"].includes(cardState(P.cards[v.id], now))));
   if (mode === "belum") return shuffle(vocab.filter(v => ["belum", "ulang"].includes(cardState(P.cards[v.id], now))));
   return [...due, ...fresh.slice(0, newLimit)];
 }
 
 /* ============================ KUIS ============================ */
 /** 3 kuis penuh = sampel deterministik dari seluruh bank soal semua bab. */
-export function fullQuizzes(pack, perQuiz = 20) {
+export function fullQuizzes(pack, perQuiz = 20, count = 10) {
   const pool = [];
   for (const ch of pack.chapters) for (const q of (pack.quiz.bab?.[ch.id] || [])) for (const it of q.items) pool.push({ ...it, bab: ch.id });
   if (!pool.length) return [];
   const out = [];
-  for (let n = 1; n <= 3; n++) {
+  const isImg = (x) => !!x.img, isMB = (x) => !!x.mb && !x.img, isMC = (x) => !x.mb && !x.img;
+  for (let n = 1; n <= count; n++) {
     const rnd = seeded(`${pack.slug}-full-${n}`);
-    // ambil merata dari tiap bab
-    const byBab = {}; for (const it of pool) (byBab[it.bab] = byBab[it.bab] || []).push(it);
-    const keys = Object.keys(byBab).map(k => shuffle(byBab[k], rnd));
-    const pick = []; let i = 0;
-    while (pick.length < Math.min(perQuiz, pool.length)) { const arr = keys[i % keys.length]; const it = arr.shift(); if (it) pick.push(it); i++; if (keys.every(a => !a.length)) break; }
+    const take = (arr, k, used) => shuffle(arr.filter(x => !used.has(x)), rnd).slice(0, k);
+    const used = new Set(), pick = [];
+    const nImg = Math.min(4, pool.filter(isImg).length), nMB = 6;
+    for (const grp of [take(pool.filter(isImg), nImg, used), take(pool.filter(isMB), nMB, used)]) for (const x of grp) { used.add(x); pick.push(x); }
+    // sisanya pilihan ganda, dibagi merata antar bab
+    const byBab = {}; for (const it of pool.filter(isMC)) (byBab[it.bab] = byBab[it.bab] || []).push(it);
+    const keys = Object.keys(byBab).map(k => shuffle(byBab[k], rnd)); let i = 0;
+    while (pick.length < Math.min(perQuiz, pool.length) && keys.some(a => a.length)) { const it = keys[i++ % keys.length].shift(); if (it) pick.push(it); }
     out.push({ id: `full-q${n}`, title: { id: `Ujian Penuh ${n}`, jp: `総合テスト ${n}` }, items: shuffle(pick, rnd) });
   }
   return out;
