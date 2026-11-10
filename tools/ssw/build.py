@@ -20,6 +20,8 @@ for bab, lst in BABS.items():
         if contoh: e["contoh"] = contoh; e["arti_contoh"] = arti_c
         seen[kata] = e; items.append(e)
 out = os.path.join(ROOT, "data", "ssw", "building-cleaning")
+from vocab_auto import extend
+print("kata otomatis:", extend(items, ROOT))
 json.dump({"items": items}, open(os.path.join(out, "vocab.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 br = lambda t: re.sub(r"\{([^|{}]+)\|([^{}]+)\}", r"\1[\2]", t)
 old = [{"kata": e["kata"], "kana": e["kana"], "arti": e["arti"], **({"contoh": br(e["contoh"]), "arti_contoh": e["arti_contoh"]} if e.get("contoh") else {})} for e in items]

@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, DAY
-} from "./ssw-core.js?v=20261110e";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110e";
+} from "./ssw-core.js?v=20261110f";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110f";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -266,8 +266,9 @@ async function renderBaca([slug, subId, mode, lang]) {
     <div class="sw-panel"><h2>📖 Halaman buku (${p1 === p2 ? "hal. " + p1 : `hal. ${p1}–${p2}`})</h2>
       <div class="sw-thumbs">${thumbs.map(p => `<a onclick="route('ssw-buku/${slug}/${lang}/${p}')"><img loading="lazy" src="${pageFile(slug, lang, p + 1)}" alt="Halaman ${p}"><span>${p}</span></a>`).join("")}</div>
     </div>
-    ${words.length ? `<div class="sw-panel"><h2>📚 Kosakata subbab ini (${words.length})</h2><div class="sw-vchips">${words.map(v => `<button class="sw-vc" onclick="SSW.sayWord('${slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button>`).join("")}</div>
-      <button class="btn ghost" onclick="route('ssw-kosa/${slug}/${c.id}')">Buka bank kosakata</button></div>` : ""}
+    ${words.length ? `<div class="sw-panel"><h2>📚 Kosakata subbab ini (${words.length})</h2>
+      <details class="sw-vdet" open><summary>Ketuk kata untuk arti & bacaan</summary><div class="sw-vchips">${words.map(v => `<button class="sw-vc" onclick="SSW.vsheet('${slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button>`).join("")}</div></details>
+      <div class="sw-actions left"><button class="btn" onclick="route('ssw-hafal/${slug}/${c.id}')">🃏 Hafalkan kosakata ini</button><button class="btn ghost" onclick="route('ssw-kosa/${slug}/${c.id}')">Buka bank kosakata</button></div></div>` : ""}
     <div class="sw-nav">
       ${prev ? `<button class="btn ghost" onclick="${link(prev)}">‹ ${plain(L(prev.s.title, "id")).slice(0, 26)}</button>` : `<button class="btn ghost" onclick="route('ssw-bab/${slug}/${c.id}')">‹ Pengantar bab</button>`}
       ${next ? `<button class="btn" onclick="SSW.finish('${slug}','${s.id}','${next.s.id}')">Selesai & lanjut ›</button>` : `<button class="btn" onclick="SSW.finish('${slug}','${s.id}',null)">Selesai bab ✓</button>`}
@@ -559,6 +560,14 @@ const SSW = window.SSW = {
     const pack = await loadPack(slug);
     const list = (pack.vocab || []).filter(v => v.kata && v.kata.length >= 2);
     if (!list.length) return;
+    const byRb = new Map(); for (const v of pack.vocab) for (const k of (v.rb || [])) if (!byRb.has(k)) byRb.set(k, v);
+    root.querySelectorAll("ruby").forEach((ru) => {
+      if (ru.closest(".sw-w")) return;
+      const k = [...ru.childNodes].filter(n => n.nodeType === 3).map(n => n.nodeValue).join("") + "|" + (ru.querySelector("rt")?.textContent || "");
+      const v = byRb.get(k); if (!v) return;
+      const sp = document.createElement("span"); sp.className = "sw-w"; sp.dataset.v = v.id; sp.tabIndex = 0; sp.setAttribute("role", "button");
+      ru.replaceWith(sp); sp.appendChild(ru);
+    });
     const byKata = new Map(); for (const v of list) if (!byKata.has(v.kata)) byKata.set(v.kata, v);
     const re = new RegExp([...byKata.keys()].sort((x, y) => y.length - x.length).map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "g");
     const BLK = "p,li,td,th,h1,h2,h3,h4,h5,figcaption,div,summary,blockquote";
