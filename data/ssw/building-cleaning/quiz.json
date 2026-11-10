@@ -20,7 +20,7 @@
        },
        {
         "id": "Pembersihan",
-        "jp": "{清掃|せいそう}{作業|さぎょう}"
+        "jp": "{清掃作業|せいそうさぎょう}"
        },
        {
         "id": "Selesai bekerja",
@@ -28,13 +28,13 @@
        },
        {
         "id": "Laporan pekerjaan",
-        "jp": "{作業|さぎょう}{報告|ほうこく}・{後片付|あとかたづ}け"
+        "jp": "{作業報告|さぎょうほうこく}・{後片付|あとかたづ}け"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Urutan: masuk kerja → rapat/persiapan → pembersihan → laporan & beres-beres akhir → selesai bekerja.",
-       "jp": "{流|なが}れ：{出勤|しゅっきん}→ミーティング・{準備|じゅんび}→{清掃|せいそう}{作業|さぎょう}→{作業|さぎょう}{報告|ほうこく}・{後片付|あとかたづ}け→{退勤|たいきん}。"
+       "jp": "{流|なが}れ：{出勤|しゅっきん}→ミーティング・{準備|じゅんび}→{清掃作業|せいそうさぎょう}→{作業報告|さぎょうほうこく}・{後片付|あとかたづ}け→{退勤|たいきん}。"
       }
      },
      {
@@ -63,7 +63,7 @@
       "a": 0,
       "exp": {
        "id": "Jika tidak bisa masuk, harus menghubungi/memberi kabar. Absen tanpa izin merepotkan rekan dan tamu.",
-       "jp": "{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必|かなら}{要|よう}です。"
+       "jp": "{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です。"
       }
      },
      {
@@ -78,27 +78,27 @@
        },
        {
         "id": "Ditinggalkan di meja",
-        "jp": "{机|つくえ}に置いておく"
+        "jp": "{机|つくえ}に{置|お}いておく"
        },
        {
         "id": "Dibuang oleh petugas lain",
-        "jp": "ほかの人に{任|まか}せる"
+        "jp": "ほかの{人|ひと}に{任|まか}せる"
        },
        {
         "id": "Dibawa pulang saja",
-        "jp": "持ち{帰|かえ}るだけ"
+        "jp": "{持|も}ち{帰|かえ}るだけ"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Bersihkan sampah bekas makan kalian dan tetap jaga sikap sebagai karyawan.",
-       "jp": "{休憩|きゅうけい}で{使|つか}った{茶器|ちゃき}の{後片付|あとかたづ}けを行います。"
+       "jp": "{休憩|きゅうけい}で{使|つか}った{茶器|ちゃき}の{後片付|あとかたづ}けを{行|い}います。"
       }
      },
      {
       "q": {
        "id": "Sebelum pulang, kepada siapa pekerjaan dilaporkan?",
-       "jp": "{退勤|たいきん}の前に、{誰|だれ}に{報告|ほうこく}しますか。"
+       "jp": "{退勤|たいきん}の{前|まえ}に、{誰|だれ}に{報告|ほうこく}しますか。"
       },
       "opts": [
        {
@@ -107,11 +107,11 @@
        },
        {
         "id": "Tamu gedung",
-        "jp": "お{客|きゃく}{様|さま}"
+        "jp": "{お客様|おきゃくさま}"
        },
        {
         "id": "Teman dekat saja",
-        "jp": "仲間だけ"
+        "jp": "{仲間|なかま}だけ"
        },
        {
         "id": "Tidak perlu lapor",
@@ -127,12 +127,12 @@
      {
       "q": {
        "id": "Mengapa anting, cincin, dan aksesoris harus dilepas saat bekerja?",
-       "jp": "ピアスや指輪を外すのはなぜですか。"
+       "jp": "ピアスや{指輪|ゆびわ}を{外|そと}すのはなぜですか。"
       },
       "opts": [
        {
         "id": "Untuk mencegah kecelakaan kerja",
-        "jp": "事故を防ぐため"
+        "jp": "{事故|じこ}を{防|ふせ}ぐため"
        },
        {
         "id": "Agar terlihat lebih mahal",
@@ -140,7 +140,7 @@
        },
        {
         "id": "Karena warnanya mencolok",
-        "jp": "{色|いろ}が{目|め}立つため"
+        "jp": "{色|いろ}が{目|め}{立|た}つため"
        },
        {
         "id": "Supaya mudah dibersihkan nanti",
@@ -150,7 +150,7 @@
       "a": 0,
       "exp": {
        "id": "Aksesoris harus dilepas untuk menghindari kecelakaan kerja.",
-       "jp": "アクセサリーは{事故防止|じこぼうし}のために外します。"
+       "jp": "アクセサリーは{事故防止|じこぼうし}のために{外|そと}します。"
       },
       "img": {
        "p": 10,
@@ -171,7 +171,7 @@
      {
       "q": {
        "id": "Mana yang BENAR tentang telepon dan mesin foto copy perusahaan?",
-       "jp": "{会社|かいしゃ}の{電話|でんわ}やコピー{機|き}について{正しい|ただしい}のはどれですか。"
+       "jp": "{会社|がいしゃ}の{電話|でんわ}やコピー{機|き}について{正しい|ただしい}のはどれですか。"
       },
       "opts": [
        {
@@ -180,21 +180,21 @@
        },
        {
         "id": "Boleh dipakai saat istirahat",
-        "jp": "{休憩|きゅうけい}中なら{使|つか}ってよい"
+        "jp": "{休憩|きゅうけい}{中|なか}なら{使|つか}ってよい"
        },
        {
         "id": "Boleh jika sedang sepi",
-        "jp": "人がいなければ{使|つか}ってよい"
+        "jp": "{人|ひと}がいなければ{使|つか}ってよい"
        },
        {
         "id": "Boleh untuk foto copy dokumen sendiri",
-        "jp": "{自分|じぶん}の{書|か}類のコピーはよい"
+        "jp": "{自分|じぶん}の{書|か}{類|るい}のコピーはよい"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi.",
-       "jp": "{会社|かいしゃ}の{電話|でんわ}、{携帯|けいたい}{電話|でんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない。"
+       "jp": "{会社|がいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない。"
       }
      },
      {
@@ -229,7 +229,7 @@
      {
       "q": {
        "id": "Apa kalimat yang tidak boleh lupa diucapkan saat selesai bekerja?",
-       "jp": "{退勤|たいきん}するとき、忘れてはいけない{一|いち}{言|い}は何ですか。"
+       "jp": "{退勤|たいきん}するとき、{忘|わす}れてはいけない{一言|ひとこと}は何ですか。"
       },
       "opts": [
        {
@@ -252,7 +252,7 @@
       "a": 0,
       "exp": {
        "id": "Jangan lupa mengatakan \"Otsukaresama deshita\".",
-       "jp": "「{お疲れ様|おつかれさま}でした」の{一|いち}{言|い}を忘れない。"
+       "jp": "「{お疲れ様|おつかれさま}でした」の{一言|ひとこと}を{忘|わす}れない。"
       }
      }
     ]
@@ -267,7 +267,7 @@
      {
       "q": {
        "id": "Tujuan Pembersihan Harian adalah…",
-       "jp": "{日常清掃|にちじょうせいそう}の{目|め}的はどれですか。"
+       "jp": "{日常清掃|にちじょうせいそう}の{目的|もくてき}はどれですか。"
       },
       "opts": [
        {
@@ -290,7 +290,7 @@
       "a": 0,
       "exp": {
        "id": "Pembersihan harian dilakukan tiap hari untuk menjaga kebersihan sehari-hari.",
-       "jp": "{日常清掃|にちじょうせいそう}は{毎日|まいにち}行い、きれいを{維持|いじ}します。"
+       "jp": "{日常清掃|にちじょうせいそう}は{毎日行|まいにちおこな}い、きれいを{維持|いじ}します。"
       }
      },
      {
@@ -309,11 +309,11 @@
        },
        {
         "id": "Mengosongkan tempat sampah harian",
-        "jp": "{毎日|まいにち}ゴミ{箱|ばこ}を{空|あ}にすること"
+        "jp": "{毎日|まいにち}ゴミ{箱|はこ}を{空|あ}にすること"
        },
        {
         "id": "Menyapa tamu",
-        "jp": "お{客|きゃく}{様|さま}にあいさつすること"
+        "jp": "{お客様|おきゃくさま}にあいさつすること"
        }
       ],
       "a": 0,
@@ -421,7 +421,7 @@
       "a": 0,
       "exp": {
        "id": "Ojigi dilakukan dengan membungkuk dari pinggang, kaki dirapatkan, 15°〜45°.",
-       "jp": "{お辞儀|おじぎ}は腰から折り、足をそろえ、15°〜45°で行います。"
+       "jp": "{お辞儀|おじぎ}は{腰|こし}から{折|お}り、{足|あし}をそろえ、15°〜45°で{行|い}います。"
       },
       "img": {
        "p": 13,
@@ -465,7 +465,7 @@
       "a": 0,
       "exp": {
        "id": "承知しました = baik, saya mengerti.",
-       "jp": "{承知|しょうち}しました＝わかりました（{丁寧|ていねい}な{言|い}い方）。"
+       "jp": "{承知|しょうち}しました＝わかりました（{丁寧|ていねい}な{言|い}い{方|かた}）。"
       }
      },
      {
@@ -480,7 +480,7 @@
        },
        {
         "id": "Mohon bantuannya",
-        "jp": "お願いします"
+        "jp": "お{願|ねが}いします"
        },
        {
         "id": "Selamat pagi",
@@ -500,7 +500,7 @@
      {
       "q": {
        "id": "Sikap yang benar saat berbicara dengan tamu adalah…",
-       "jp": "お{客|きゃく}{様|さま}と{話|はな}すときの{正しい|ただしい}{態度|たいど}はどれですか。"
+       "jp": "{お客様|おきゃくさま}と{話|はな}すときの{正しい|ただしい}{態度|たいど}はどれですか。"
       },
       "opts": [
        {
@@ -513,7 +513,7 @@
        },
        {
         "id": "Menunduk tanpa menatap",
-        "jp": "{目|め}を合わせない"
+        "jp": "{目|め}を{合|あ}わせない"
        },
        {
         "id": "Berbicara sambil bekerja tanpa berhenti",
@@ -523,7 +523,7 @@
       "a": 0,
       "exp": {
        "id": "Gunakan bahasa sopan dan postur yang benar; lihat mata lawan bicara.",
-       "jp": "{丁寧|ていねい}な{言葉|ことば}{使|つか}いと{正しい|ただしい}{姿勢|しせい}で、{相手|あいて}の{目|め}を{見|み}ます。"
+       "jp": "{丁寧|ていねい}な{言葉使|ことばづか}いと{正しい|ただしい}{姿勢|しせい}で、{相手|あいて}の{目|め}を{見|み}ます。"
       }
      }
     ]
@@ -580,7 +580,7 @@
        },
        {
         "id": "RENraku ke tamu",
-        "jp": "お{客|きゃく}{様|さま}に「{連絡|れんらく}」する"
+        "jp": "{お客様|おきゃくさま}に「{連絡|れんらく}」する"
        },
        {
         "id": "Langsung pulang",
@@ -590,13 +590,13 @@
       "a": 0,
       "exp": {
        "id": "Pekerjaan selesai → HOUkoku (lapor) ke PIC.",
-       "jp": "{仕事|しごと}が{終|お}わったら、{指示|しじ}をくれた人に{報告|ほうこく}します。"
+       "jp": "{仕事|しごと}が{終|お}わったら、{指示|しじ}をくれた{人|ひと}に{報告|ほうこく}します。"
       }
      },
      {
       "q": {
        "id": "Jika ada info baru atau masalah dalam pekerjaan, apa yang dilakukan?",
-       "jp": "{仕事|しごと}で新しい{情報|じょうほう}や{問題|もんだい}があったら、どうしますか。"
+       "jp": "{仕事|しごと}で{新|あたら}しい{情報|じょうほう}や{問題|もんだい}があったら、どうしますか。"
       },
       "opts": [
        {
@@ -638,7 +638,7 @@
        },
        {
         "id": "Dilewati saja",
-        "jp": "とばして進める"
+        "jp": "とばして{進|すす}める"
        },
        {
         "id": "Menunggu orang lain",
@@ -654,7 +654,7 @@
      {
       "q": {
        "id": "Jika tamu memberi komplain, tindakan yang benar adalah…",
-       "jp": "お{客|きゃく}{様|さま}からクレームを{受|う}けたとき、{正しい|ただしい}対応はどれですか。"
+       "jp": "{お客様|おきゃくさま}からクレームを{受|う}けたとき、{正しい|ただしい}{対応|たいおう}はどれですか。"
       },
       "opts": [
        {
@@ -663,7 +663,7 @@
        },
        {
         "id": "Membela diri",
-        "jp": "{自分|じぶん}の{言|い}い分を説明する"
+        "jp": "{自分|じぶん}の{言|い}い{分|わ}を説{明|あか}する"
        },
        {
         "id": "Mengabaikan",
@@ -671,7 +671,7 @@
        },
        {
         "id": "Menunggu tamu pergi",
-        "jp": "お{客|きゃく}{様|さま}が{帰|かえ}るのを{待|ま}つ"
+        "jp": "{お客様|おきゃくさま}が{帰|かえ}るのを{待|ま}つ"
        }
       ],
       "a": 0,
@@ -683,7 +683,7 @@
      {
       "q": {
        "id": "Bagaimana sebaiknya memperlakukan senior di tempat kerja?",
-       "jp": "{先輩|せんぱい}にはどう{接|せっ}するのが基本ですか。"
+       "jp": "{先輩|せんぱい}にはどう{接|せっ}するのが{基本|きほん}ですか。"
       },
       "opts": [
        {
@@ -721,7 +721,7 @@
        },
        {
         "id": "Boleh telat sedikit",
-        "jp": "{少|すこ}し{遅|おく}れてもよい"
+        "jp": "{少|すく}し{遅|おく}れてもよい"
        },
        {
         "id": "Hanya diam tanpa mencatat",
@@ -729,7 +729,7 @@
        },
        {
         "id": "Memakai HP selama rapat",
-        "jp": "{会議|かいぎ}中に{携帯|けいたい}を{使|つか}う"
+        "jp": "{会議|かいぎ}{中|なか}に{携帯|けいたい}を{使|つか}う"
        }
       ],
       "a": 0,
@@ -764,7 +764,7 @@
       "a": 0,
       "exp": {
        "id": "Saat kesulitan, jangan ambil keputusan sendiri; diskusikan dengan atasan.",
-       "jp": "{困|こま}った時は{勝手|かって}に{判断|はんだん}せず、{相談|そうだん}しましょう。"
+       "jp": "{困|こま}った{時|とき}は{勝手|かって}に{判断|はんだん}せず、{相談|そうだん}しましょう。"
       }
      }
     ]
@@ -780,7 +780,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sebelum pulang, pekerjaan dilaporkan ke PIC.",
-       "jp": "○か×か。{退勤|たいきん}の前に、{責任者|せきにんしゃ}に{報告|ほうこく}します。"
+       "jp": "○か×か。{退勤|たいきん}の{前|まえ}に、{責任者|せきにんしゃ}に{報告|ほうこく}します。"
       },
       "opts": [
        {
@@ -789,7 +789,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
@@ -802,7 +802,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Boleh memakai mesin foto copy perusahaan untuk urusan pribadi.",
-       "jp": "○か×か。{会社|かいしゃ}のコピー{機|き}を{私用|しよう}で{使|つか}ってもよいです。"
+       "jp": "○か×か。{会社|がいしゃ}のコピー{機|き}を{私用|しよう}で{使|つか}ってもよいです。"
       },
       "opts": [
        {
@@ -811,13 +811,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Tidak boleh memakai telepon/HP/mesin foto copy perusahaan untuk urusan pribadi.",
-       "jp": "{会社|かいしゃ}の{電話|でんわ}やコピー{機|き}を{私用|しよう}で{使|つか}ってはいけません。"
+       "jp": "{会社|がいしゃ}の{電話|でんわ}やコピー{機|き}を{私用|しよう}で{使|つか}ってはいけません。"
       },
       "mb": true
      },
@@ -863,7 +863,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sepatu boleh dipakai dengan tumit diinjak.",
-       "jp": "○か×か。靴のかかとを踏んではいてもよいです。"
+       "jp": "○か×か。{靴|くつ}のかかとを{踏|ふ}んではいてもよいです。"
       },
       "opts": [
        {
@@ -872,20 +872,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Tumit sepatu tidak boleh diinjak; seragam harus rapi.",
-       "jp": "靴のかかとは踏みません。制服はきちんと着ます。"
+       "jp": "{靴|くつ}のかかとは{踏|ふ}みません。制服はきちんと{着|つ}ます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Anting, cincin, dan aksesoris dilepas saat bekerja.",
-       "jp": "○か×か。ピアスや指輪などのアクセサリーは外して働きます。"
+       "jp": "○か×か。ピアスや{指輪|ゆびわ}などのアクセサリーは{外|そと}して働きます。"
       },
       "opts": [
        {
@@ -894,13 +894,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Aksesoris dilepas untuk mencegah kecelakaan kerja.",
-       "jp": "アクセサリーは{事故防止|じこぼうし}のために外します。"
+       "jp": "アクセサリーは{事故防止|じこぼうし}のために{外|そと}します。"
       },
       "mb": true
      },
@@ -912,11 +912,11 @@
       "opts": [
        {
         "id": "Seragam rapi dan bersih",
-        "jp": "制服をきれいに着る"
+        "jp": "制服をきれいに{着|つ}る"
        },
        {
         "id": "Memakai cincin agar rapi",
-        "jp": "指輪をつける"
+        "jp": "{指輪|ゆびわ}をつける"
        },
        {
         "id": "Seragam dibiarkan kotor",
@@ -924,13 +924,13 @@
        },
        {
         "id": "Sepatu diinjak tumitnya",
-        "jp": "靴のかかとを踏む"
+        "jp": "{靴|くつ}のかかとを{踏|ふ}む"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Seragam dipakai rapi dan bersih, tanpa aksesoris.",
-       "jp": "制服はきれいに着て、アクセサリーは外します。"
+       "jp": "制服はきれいに{着|つ}て、アクセサリーは{外|そと}します。"
       }
      }
     ]
@@ -946,7 +946,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pembersihan harian sudah cukup, pembersihan berkala tidak perlu.",
-       "jp": "○か×か。{日常清掃|にちじょうせいそう}だけで{十|じゅう}分で、{定期清掃|ていきせいそう}は{必|かなら}{要|よう}ありません。"
+       "jp": "○か×か。{日常清掃|にちじょうせいそう}だけで{十分|じゅうぶん}で、{定期清掃|ていきせいそう}は{必要|ひつよう}ありません。"
       },
       "opts": [
        {
@@ -955,7 +955,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
@@ -977,13 +977,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Pembersihan berkala termasuk pemeliharaan lantai (wax) dan kotoran yang sulit.",
-       "jp": "{定期清掃|ていきせいそう}は{床|ゆか}のワックスなど、ふだん{落|お}とせない{汚|よご}れを{取|と}り、建物を{守|まも}ります。"
+       "jp": "{定期清掃|ていきせいそう}は{床|ゆか}のワックスなど、ふだん{落|お}とせない{汚|よご}れを{取|と}り、建{物|もの}を{守|まも}ります。"
       },
       "mb": true
      },
@@ -999,7 +999,7 @@
        },
        {
         "id": "Merawat lantai dengan wax setahun sekali",
-        "jp": "年に1回ワックスをかける"
+        "jp": "年に1{回|まわ}ワックスをかける"
        },
        {
         "id": "Hanya membersihkan toilet",
@@ -1029,7 +1029,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Salah satu dari 5 prinsip adalah mengetahui jenis kotoran.",
-       "jp": "○か×か。5{原則|げんそく}の1つは「{汚|よご}れを知る」ことです。"
+       "jp": "○か×か。5{原則|げんそく}の1つは「{汚|よご}れを{知|し}る」ことです。"
       },
       "opts": [
        {
@@ -1038,20 +1038,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "5 prinsip: bangunan, kotoran, pembersih, cara membersihkan, pencegahan.",
-       "jp": "5{原則|げんそく}：{建材|けんざい}・{汚|よご}れ・{洗剤|せんざい}・{作業方法|さぎょうほうほう}・予防。"
+       "jp": "5{原則|げんそく}：{建材|けんざい}・{汚|よご}れ・{洗剤|せんざい}・{作業方法|さぎょうほうほう}・予{防|ふせ}。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Bahan bangunan tidak perlu diketahui sebelum membersihkan.",
-       "jp": "○か×か。{掃除|そうじ}の前に{建材|けんざい}を知らなくてもよいです。"
+       "jp": "○か×か。{掃除|そうじ}の{前|まえ}に{建材|けんざい}を{知|し}らなくてもよいです。"
       },
       "opts": [
        {
@@ -1060,25 +1060,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Bahan bangunan adalah prinsip pertama.",
-       "jp": "{建材|けんざい}を知ることは5{原則|げんそく}の1つです。"
+       "jp": "{建材|けんざい}を{知|し}ることは5{原則|げんそく}の1つです。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Mana yang BUKAN bagian dari 5 prinsip?",
-       "jp": "5{原則|げんそく}に入っていないものはどれですか。"
+       "jp": "5{原則|げんそく}に{入|い}っていないものはどれですか。"
       },
       "opts": [
        {
         "id": "Menghafal nama tamu",
-        "jp": "お{客|きゃく}{様|さま}の名前を覚える"
+        "jp": "{お客様|おきゃくさま}の{名前|なまえ}を覚える"
        },
        {
         "id": "Pengetahuan pembersih",
@@ -1090,13 +1090,13 @@
        },
        {
         "id": "Pencegahan",
-        "jp": "予防方法の{知識|ちしき}"
+        "jp": "予{防|ふせ}{方法|ほうほう}の{知識|ちしき}"
        }
       ],
       "a": 0,
       "exp": {
        "id": "5 prinsip tidak mencakup menghafal nama tamu.",
-       "jp": "お{客|きゃく}{様|さま}の名前を覚えることは5{原則|げんそく}にはありません。"
+       "jp": "{お客様|おきゃくさま}の{名前|なまえ}を覚えることは5{原則|げんそく}にはありません。"
       },
       "img": {
        "p": 12,
@@ -1127,7 +1127,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Saat memberi hormat (ojigi), tatap mata lawan bicara dan bungkuk dari pinggang.",
-       "jp": "○か×か。{お辞儀|おじぎ}は{相手|あいて}を{見|み}て、腰から曲げます。"
+       "jp": "○か×か。{お辞儀|おじぎ}は{相手|あいて}を{見|み}て、{腰|こし}から曲げます。"
       },
       "opts": [
        {
@@ -1136,20 +1136,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Tatap mata, ojigi dari pinggang dengan kaki rapat.",
-       "jp": "{相手|あいて}の{目|め}を{見|み}て、足をそろえて腰から曲げます。"
+       "jp": "{相手|あいて}の{目|め}を{見|み}て、{足|あし}をそろえて{腰|こし}から曲げます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Boleh bicara kasar kepada tamu bila sedang sibuk.",
-       "jp": "○か×か。忙しいときはお{客|きゃく}{様|さま}に乱暴に{話|はな}してもよいです。"
+       "jp": "○か×か。忙しいときは{お客様|おきゃくさま}に{乱暴|らんぼう}に{話|はな}してもよいです。"
       },
       "opts": [
        {
@@ -1158,13 +1158,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Selalu sopan kepada tamu.",
-       "jp": "お{客|きゃく}{様|さま}にはいつも{丁寧|ていねい}に{話|はな}します。"
+       "jp": "{お客様|おきゃくさま}にはいつも{丁寧|ていねい}に{話|はな}します。"
       },
       "mb": true
      },
@@ -1188,7 +1188,7 @@
        },
        {
         "id": "Meminta tolong",
-        "jp": "お願いするとき"
+        "jp": "お{願|ねが}いするとき"
        }
       ],
       "a": 0,
@@ -1219,7 +1219,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
@@ -1232,7 +1232,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Jika dikomplain tamu, sebaiknya berdalih dulu.",
-       "jp": "○か×か。お{客|きゃく}{様|さま}に苦情を{言|い}われたら、まず{言|い}い{訳|わけ}をします。"
+       "jp": "○か×か。{お客様|おきゃくさま}に苦情を{言|い}われたら、まず{言|い}い{訳|わけ}をします。"
       },
       "opts": [
        {
@@ -1241,7 +1241,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
@@ -1254,7 +1254,7 @@
      {
       "q": {
        "id": "Apa yang dilakukan saat tamu komplain?",
-       "jp": "お{客|きゃく}{様|さま}から苦情を{言|い}われたとき、どうしますか。"
+       "jp": "{お客様|おきゃくさま}から苦情を{言|い}われたとき、どうしますか。"
       },
       "opts": [
        {
@@ -1263,7 +1263,7 @@
        },
        {
         "id": "Mengabaikannya",
-        "jp": "無視する"
+        "jp": "{無視|むし}する"
        },
        {
         "id": "Memutuskan sendiri",
@@ -1271,7 +1271,7 @@
        },
        {
         "id": "Berdebat dengan tamu",
-        "jp": "{言|い}い返す"
+        "jp": "{言|い}い{返|かえ}す"
        }
       ],
       "a": 0,
@@ -2091,7 +2091,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Keranjang peralatan dibawa di tengah jalur lalu lalang tamu.",
-       "jp": "○か×か。道具かごは人通りの真ん中で運びます。"
+       "jp": "○か×か。{道具|どうぐ}かごは{人|ひと}通りの{真|ま}ん{中|なか}で{運|はこ}びます。"
       },
       "opts": [
        {
@@ -2100,20 +2100,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Bawa di pinggir jalur dan jangan menghalangi tamu.",
-       "jp": "道具かごは通路の端を運び、お{客|きゃく}{様|さま}の邪魔をしません。"
+       "jp": "{道具|どうぐ}かごは{通路|つうろ}の{端|はし}を{運|はこ}び、{お客様|おきゃくさま}の{邪魔|じゃま}をしません。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Di lift, keluar dulu jika ada tamu yang akan masuk.",
-       "jp": "○か×か。エレベーターでは、お{客|きゃく}{様|さま}が乗るときは先に降ります。"
+       "jp": "○か×か。エレベーターでは、{お客様|おきゃくさま}が{乗|の}るときは先に{降|お}ります。"
       },
       "opts": [
        {
@@ -2122,13 +2122,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Tamu didahulukan.",
-       "jp": "お{客|きゃく}{様|さま}を優先します。"
+       "jp": "{お客様|おきゃくさま}を優先します。"
       },
       "mb": true
      },
@@ -2140,15 +2140,15 @@
       "opts": [
        {
         "id": "Sebelum tamu mulai bekerja",
-        "jp": "お{客|きゃく}{様|さま}の{出勤|しゅっきん}前"
+        "jp": "{お客様|おきゃくさま}の{出勤|しゅっきん}{前|まえ}"
        },
        {
         "id": "Saat jam sibuk tamu",
-        "jp": "お{客|きゃく}{様|さま}が多い{時間|じかん}"
+        "jp": "{お客様|おきゃくさま}が{多|おお}い{時間|じかん}"
        },
        {
         "id": "Setelah tamu pulang saja",
-        "jp": "お{客|きゃく}{様|さま}が{帰|かえ}った{後|あと}だけ"
+        "jp": "{お客様|おきゃくさま}が{帰|かえ}った{後|あと}だけ"
        },
        {
         "id": "Kapan saja",
@@ -2158,7 +2158,7 @@
       "a": 0,
       "exp": {
        "id": "Area ramai dijadwalkan di luar jam tamu; toilet sebelum tamu masuk kerja.",
-       "jp": "混む{場所|ばしょ}はお{客|きゃく}{様|さま}の{時間|じかん}を避け、トイレは{出勤|しゅっきん}前に{掃除|そうじ}します。"
+       "jp": "{混|ま}む{場所|ばしょ}は{お客様|おきゃくさま}の{時間|じかん}を{避|さ}け、トイレは{出勤|しゅっきん}{前|まえ}に{掃除|そうじ}します。"
       }
      }
     ]
@@ -2174,7 +2174,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pasang Floor Sign saat bekerja di lantai yang basah.",
-       "jp": "○か×か。{床|ゆか}がぬれているときは、フロアサインを立てます。"
+       "jp": "○か×か。{床|ゆか}がぬれているときは、フロアサインを{立|た}てます。"
       },
       "opts": [
        {
@@ -2183,13 +2183,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Genangan segera dilap dan Floor Sign dipasang.",
-       "jp": "水たまりはすぐふき、フロアサインを立てます。"
+       "jp": "{水|みず}たまりはすぐふき、フロアサインを{立|た}てます。"
       },
       "mb": true
      },
@@ -2205,20 +2205,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Karpet memakai penyedot debu khusus karpet.",
-       "jp": "カーペットは専用の{掃除機|そうじき}で{掃除|そうじ}します。"
+       "jp": "カーペットは{専用|せんよう}の{掃除機|そうじき}で{掃除|そうじ}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Lantai keramik berdebu, alat yang cocok adalah…",
-       "jp": "タイルの{床|ゆか}のほこりに合う道具はどれですか。"
+       "jp": "タイルの{床|ゆか}のほこりに{合|あ}う{道具|どうぐ}はどれですか。"
       },
       "opts": [
        {
@@ -2231,11 +2231,11 @@
        },
        {
         "id": "Hanya air",
-        "jp": "水だけ"
+        "jp": "{水|みず}だけ"
        },
        {
         "id": "Pemutih",
-        "jp": "漂{白|しろ}剤"
+        "jp": "{漂白|ひょうはく}{剤|ざい}"
        }
       ],
       "a": 0,
@@ -2266,20 +2266,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Virus, bakteri, jamur tak terlihat tetap berbahaya.",
-       "jp": "ウイルス・細菌・カビは{見|み}えなくても健康に悪いです。"
+       "jp": "ウイルス・{細菌|さいきん}・カビは{見|み}えなくても{健康|けんこう}に{悪|わる}いです。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kotoran terlihat dibersihkan dengan digosok atau dibuang.",
-       "jp": "○か×か。{見|み}える{汚|よご}れは、こすったり{取|と}り除いたりします。"
+       "jp": "○か×か。{見|み}える{汚|よご}れは、こすったり{取|と}り{除|のぞ}いたりします。"
       },
       "opts": [
        {
@@ -2288,33 +2288,33 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Terlihat: dibersihkan/digosok. Tak terlihat: desinfeksi.",
-       "jp": "{見|み}える{汚|よご}れは{取|と}り除き、{見|み}えない{汚|よご}れは消毒します。"
+       "jp": "{見|み}える{汚|よご}れは{取|と}り{除|のぞ}き、{見|み}えない{汚|よご}れは{消毒|しょうどく}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Virus dan bakteri termasuk kotoran yang…",
-       "jp": "ウイルスや細菌はどんな{汚|よご}れですか。"
+       "jp": "ウイルスや{細菌|さいきん}はどんな{汚|よご}れですか。"
       },
       "opts": [
        {
         "id": "Tidak terlihat, butuh desinfeksi",
-        "jp": "{見|み}えない・消毒が{必|かなら}{要|よう}"
+        "jp": "{見|み}えない・{消毒|しょうどく}が{必要|ひつよう}"
        },
        {
         "id": "Terlihat dan mudah disapu",
-        "jp": "{見|み}えてほうきで掃ける"
+        "jp": "{見|み}えてほうきで{掃|は}ける"
        },
        {
         "id": "Tidak perlu ditangani",
-        "jp": "対応しなくてよい"
+        "jp": "{対応|たいおう}しなくてよい"
        },
        {
         "id": "Hanya ada di lantai",
@@ -2324,7 +2324,7 @@
       "a": 0,
       "exp": {
        "id": "Kotoran tak terlihat butuh desinfeksi/pemutih.",
-       "jp": "{見|み}えない{汚|よご}れには消毒が{必|かなら}{要|よう}です。"
+       "jp": "{見|み}えない{汚|よご}れには{消毒|しょうどく}が{必要|ひつよう}です。"
       }
      }
     ]
@@ -2340,7 +2340,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sapu ruangan diayunkan agar debu cepat terkumpul.",
-       "jp": "○か×か。ほうきは大きくふって、ほこりを集めます。"
+       "jp": "○か×か。ほうきは{大|おお}きくふって、ほこりを{集|あつ}めます。"
       },
       "opts": [
        {
@@ -2349,20 +2349,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Sapu tidak diayunkan; ujung tidak dilepas dari lantai.",
-       "jp": "ほうきはふらず、先を{床|ゆか}から離しません。"
+       "jp": "ほうきはふらず、先を{床|ゆか}から{離|はな}しません。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sampah dikumpulkan di tengah lalu dimasukkan ke pengki.",
-       "jp": "○か×か。ゴミは真ん中に集めてから、ちりとりに入れます。"
+       "jp": "○か×か。ゴミは{真|ま}ん{中|なか}に{集|あつ}めてから、ちりとりに{入|い}れます。"
       },
       "opts": [
        {
@@ -2371,25 +2371,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Kumpulkan di tengah, lalu masuk pengki.",
-       "jp": "真ん中に集めてちりとりに入れます。"
+       "jp": "{真|ま}ん{中|なか}に{集|あつ}めてちりとりに{入|い}れます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Cara menyimpan sapu yang benar:",
-       "jp": "ほうきのしまい方で{正しい|ただしい}のはどれですか。"
+       "jp": "ほうきのしまい{方|かた}で{正しい|ただしい}のはどれですか。"
       },
       "opts": [
        {
         "id": "Ujung sapu menghadap ke atas, setelah dibersihkan",
-        "jp": "先を上にして、きれいにしてからしまう"
+        "jp": "先を{上|あ}にして、きれいにしてからしまう"
        },
        {
         "id": "Ujung sapu di lantai",
@@ -2401,13 +2401,13 @@
        },
        {
         "id": "Ditaruh di jalur tangga",
-        "jp": "階段の通路に置く"
+        "jp": "{階段|かいだん}の{通路|つうろ}に{置|お}く"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Simpan dengan ujung ke atas; bersihkan ujung setelah dipakai.",
-       "jp": "先を上にしてしまい、{使|つか}った{後|あと}は先をきれいにします。"
+       "jp": "先を{上|あ}にしてしまい、{使|つか}った{後|あと}は先をきれいにします。"
       }
      }
     ]
@@ -2423,7 +2423,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Dust Cloth boleh ditarik mundur dan diangkat saat bekerja.",
-       "jp": "○か×か。ダストクロスは、持ち上げたり引き戻したりしてもよいです。"
+       "jp": "○か×か。ダストクロスは、{持|も}ち{上|あ}げたり{引|ひ}き{戻|もど}したりしてもよいです。"
       },
       "opts": [
        {
@@ -2432,20 +2432,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Dust Cloth selalu maju ke depan, tidak diangkat atau ditarik mundur.",
-       "jp": "ダストクロスは前に進め、持ち上げたり引き戻したりしません。"
+       "jp": "ダストクロスは{前|まえ}に{進|すす}め、{持|も}ち{上|あ}げたり{引|ひ}き{戻|もど}したりしません。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Setelah selesai, kain dilipat ke dalam sebelum dibuang.",
-       "jp": "○か×か。{終|お}わったら、クロスは内側に折ってから捨てます。"
+       "jp": "○か×か。{終|お}わったら、クロスは{内側|うちがわ}に{折|お}ってから{捨|す}てます。"
       },
       "opts": [
        {
@@ -2454,25 +2454,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Lipat cloth ke dalam agar debu tidak berhamburan.",
-       "jp": "ほこりが{落|お}ちないように内側に折ります。"
+       "jp": "ほこりが{落|お}ちないように{内側|うちがわ}に{折|お}ります。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Dust Cloth cocok untuk lantai…",
-       "jp": "ダストクロスが向いている{床|ゆか}はどれですか。"
+       "jp": "ダストクロスが{向|む}いている{床|ゆか}はどれですか。"
       },
       "opts": [
        {
         "id": "Keramik/vinil/flooring",
-        "jp": "ビニール・フローリングなどの硬い{床|ゆか}"
+        "jp": "ビニール・フローリングなどの{硬|かた}い{床|ゆか}"
        },
        {
         "id": "Karpet",
@@ -2506,7 +2506,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Saat mengepel, pekerja bergerak mundur agar tidak menginjak lantai yang sudah dipel.",
-       "jp": "○か×か。モップは{後|あと}ろに下がりながら、ふいたところを踏まないようにします。"
+       "jp": "○か×か。モップは{後|あと}ろに{下|お}がりながら、ふいたところを{踏|ふ}まないようにします。"
       },
       "opts": [
        {
@@ -2515,20 +2515,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Mop bergerak mundur.",
-       "jp": "モップは{後|あと}ろ向きに進みます。"
+       "jp": "モップは{後|あと}ろ{向|む}きに{進|すす}みます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kain pel merah dipakai untuk ruang umum.",
-       "jp": "○か×か。赤いモップは{一|いち}般の{場所|ばしょ}に{使|つか}います。"
+       "jp": "○か×か。{赤|あか}いモップは{一般|いっぱん}の{場所|ばしょ}に{使|つか}います。"
       },
       "opts": [
        {
@@ -2537,20 +2537,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Putih = umum, merah = toilet.",
-       "jp": "{白|しろ}は{一|いち}般、赤はトイレに{使|つか}います。"
+       "jp": "{白|しろ}は{一般|いっぱん}、{赤|あか}はトイレに{使|つか}います。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Berapa kira-kira jarak kain pel dibalik?",
-       "jp": "モップは何mぐらいごとに面を返しますか。"
+       "jp": "モップは何mぐらいごとに{面|めん}を{返|かえ}しますか。"
       },
       "opts": [
        {
@@ -2563,7 +2563,7 @@
        },
        {
         "id": "Tidak pernah",
-        "jp": "返さない"
+        "jp": "{返|かえ}さない"
        },
        {
         "id": "Setiap 10 cm",
@@ -2573,7 +2573,7 @@
       "a": 0,
       "exp": {
        "id": "Balik kain pel tiap sekitar 2 m.",
-       "jp": "約2mごとにモップの面を返します。"
+       "jp": "約2mごとにモップの{面|めん}を{返|かえ}します。"
       }
      }
     ]
@@ -2589,7 +2589,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Steker dicabut dengan menarik kabelnya.",
-       "jp": "○か×か。プラグはコードを引っぱって抜きます。"
+       "jp": "○か×か。プラグはコードを{引|ひ}っぱって{抜|ぬ}きます。"
       },
       "opts": [
        {
@@ -2598,20 +2598,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Cabut steker, bukan kabel.",
-       "jp": "コードではなく、プラグを持って抜きます。"
+       "jp": "コードではなく、プラグを{持|も}って{抜|ぬ}きます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kantung penyedot debu diganti saat sekitar 2/3 penuh.",
-       "jp": "○か×か。ごみ袋は約2/3たまったら交換します。"
+       "jp": "○か×か。ごみ{袋|ぶくろ}は約2/3たまったら{交換|こうかん}します。"
       },
       "opts": [
        {
@@ -2620,20 +2620,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Ganti kantung saat 2/3 penuh.",
-       "jp": "約2/3になったら交換します。"
+       "jp": "約2/3になったら{交換|こうかん}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pada gambar, memindahkan body penyedot debu dengan tangan (tidak menarik selang/kabel) adalah cara yang benar.",
-       "jp": "○か×か。絵のように、{本体|ほんたい}は手で持って移動します（ホースを引っぱらない）。"
+       "jp": "○か×か。絵のように、{本体|ほんたい}は{手|て}で{持|も}って{移動|いどう}します（ホースを{引|ひ}っぱらない）。"
       },
       "opts": [
        {
@@ -2642,13 +2642,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Pindahkan body dengan tangan; jangan tarik kabel/selang.",
-       "jp": "{本体|ほんたい}は手で持って移動し、ホースやコードは引っぱりません。"
+       "jp": "{本体|ほんたい}は{手|て}で{持|も}って{移動|いどう}し、ホースやコードは{引|ひ}っぱりません。"
       },
       "mb": true,
       "img": {
@@ -2670,7 +2670,7 @@
      {
       "q": {
        "id": "Tipe penyedot debu untuk lantai keras adalah…",
-       "jp": "硬い{床|ゆか}に{使|つか}う{掃除機|そうじき}のタイプはどれですか。"
+       "jp": "{硬|かた}い{床|ゆか}に{使|つか}う{掃除機|そうじき}のタイプはどれですか。"
       },
       "opts": [
        {
@@ -2693,7 +2693,7 @@
       "a": 0,
       "exp": {
        "id": "Pod untuk lantai keras; Upright untuk karpet.",
-       "jp": "硬い{床|ゆか}にはポッド、カーペットにはアップライトを{使|つか}います。"
+       "jp": "{硬|かた}い{床|ゆか}にはポッド、カーペットにはアップライトを{使|つか}います。"
       }
      }
     ]
@@ -2718,20 +2718,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Sikat dalam nosel memukul pile karpet.",
-       "jp": "ノズルの中のブラシがカーペットのパイルをたたきます。"
+       "jp": "ノズルの{中|なか}のブラシがカーペットのパイルをたたきます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Jalur lalu lalang tidak perlu diprioritaskan.",
-       "jp": "○か×か。人がよく通る所は{後|あと}回しでよいです。"
+       "jp": "○か×か。{人|ひと}がよく通る{所|ところ}は{後|あと}{回|まわ}しでよいです。"
       },
       "opts": [
        {
@@ -2740,13 +2740,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Fokus di jalur lalu lalang.",
-       "jp": "人がよく通る所を重{点|てん}的に{掃除|そうじ}します。"
+       "jp": "{人|ひと}がよく通る{所|ところ}を{重点的|じゅうてんてき}に{掃除|そうじ}します。"
       },
       "mb": true
      },
@@ -2758,15 +2758,15 @@
       "opts": [
        {
         "id": "Memukul pile dan mengangkat kotoran",
-        "jp": "パイルをたたいて{汚|よご}れを出す"
+        "jp": "パイルをたたいて{汚|よご}れを{出|だ}す"
        },
        {
         "id": "Memotong karpet",
-        "jp": "カーペットを切る"
+        "jp": "カーペットを{切|き}る"
        },
        {
         "id": "Menambah air",
-        "jp": "水を足す"
+        "jp": "{水|みず}を{足|あし}す"
        },
        {
         "id": "Menyemprot wax",
@@ -2776,7 +2776,7 @@
       "a": 0,
       "exp": {
        "id": "Sikat memukul pile, kotoran disedot.",
-       "jp": "ブラシがパイルをたたき、{汚|よご}れを吸います。"
+       "jp": "ブラシがパイルをたたき、{汚|よご}れを{吸|す}います。"
       }
      }
     ]
@@ -2792,7 +2792,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Lap meja dilipat 8 dan diperas pada lipatan 16 dengan siku melebar.",
-       "jp": "○か×か。ふきんは8つに折って、ひじを広げてしぼります。"
+       "jp": "○か×か。ふきんは8つに{折|お}って、ひじを{広|ひろ}げてしぼります。"
       },
       "opts": [
        {
@@ -2801,20 +2801,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Lipat 8; peras dengan siku melebar, tidak horizontal.",
-       "jp": "8つに折り、ひじを広げてしぼります（横にはしぼらない）。"
+       "jp": "8つに{折|お}り、ひじを{広|ひろ}げてしぼります（{横|よこ}にはしぼらない）。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Boleh memakai lap lantai untuk meja.",
-       "jp": "○か×か。ゆか用のふきんでテーブルをふいてもよいです。"
+       "jp": "○か×か。ゆか{用|よう}のふきんでテーブルをふいてもよいです。"
       },
       "opts": [
        {
@@ -2823,29 +2823,29 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Warna lap menentukan tempat pemakaian.",
-       "jp": "ふきんは{色|いろ}で{使|つか}う{場所|ばしょ}を分けます。"
+       "jp": "ふきんは{色|いろ}で{使|つか}う{場所|ばしょ}を{分|わ}けます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Mana urutan mengelap meja yang benar?",
-       "jp": "テーブルのふき方で{正しい|ただしい}のはどれですか。"
+       "jp": "テーブルのふき{方|かた}で{正しい|ただしい}のはどれですか。"
       },
       "opts": [
        {
         "id": "Tepi dulu, baru tengah",
-        "jp": "はしからふいて、真ん中は{後|あと}"
+        "jp": "はしからふいて、{真|ま}ん{中|なか}は{後|あと}"
        },
        {
         "id": "Tengah dulu, tepi belakangan",
-        "jp": "真ん中を先にふく"
+        "jp": "{真|ま}ん{中|なか}を先にふく"
        },
        {
         "id": "Acak",
@@ -2853,13 +2853,13 @@
        },
        {
         "id": "Satu titik saja",
-        "jp": "1か所だけふく"
+        "jp": "1か{所|ところ}だけふく"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Sudut/tepi meja dulu, tengah kemudian.",
-       "jp": "テーブルの角・はしを先に、真ん中を{後|あと}にふきます。"
+       "jp": "テーブルの{角|すみ}・はしを先に、{真|ま}ん{中|なか}を{後|あと}にふきます。"
       },
       "img": {
        "p": 41,
@@ -2890,7 +2890,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kaca dilap dengan memutar-mutar.",
-       "jp": "○か×か。ガラスは円をえがくようにふきます。"
+       "jp": "○か×か。ガラスは{円|えん}をえがくようにふきます。"
       },
       "opts": [
        {
@@ -2899,20 +2899,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Lap atas ke bawah dalam zig-zag, tidak memutar.",
-       "jp": "ガラスは上から下へジグザグにふき、円はえがきません。"
+       "jp": "ガラスは{上|あ}から{下|お}へジグザグにふき、{円|えん}はえがきません。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sudut bingkai dilap dengan jari tengah.",
-       "jp": "○か×か。わくのすみは中指でふきます。"
+       "jp": "○か×か。わくのすみは{中指|なかゆび}でふきます。"
       },
       "opts": [
        {
@@ -2921,20 +2921,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Sudut bingkai memakai jari tengah.",
-       "jp": "わくのすみは中指を{使|つか}います。"
+       "jp": "わくのすみは{中指|なかゆび}を{使|つか}います。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Apa langkah terakhir mengelap kaca?",
-       "jp": "ガラスをふいた{後|あと}の{最|さい}{後|あと}の{作業|さぎょう}はどれですか。"
+       "jp": "ガラスをふいた{後|あと}の{最後|さいご}の{作業|さぎょう}はどれですか。"
       },
       "opts": [
        {
@@ -2957,7 +2957,7 @@
       "a": 0,
       "exp": {
        "id": "Cek visual di akhir.",
-       "jp": "{最|さい}{後|あと}に{目|め}で{見|み}て{確認|かくにん}します。"
+       "jp": "{最後|さいご}に{目|め}で{見|み}て{確認|かくにん}します。"
       }
      }
     ]
@@ -2973,7 +2973,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Toilet dibersihkan mulai dari tempat yang paling kotor.",
-       "jp": "○か×か。トイレは{一|いち}番{汚|よご}いところから{掃除|そうじ}します。"
+       "jp": "○か×か。トイレは{一番|いちばん}{汚|よご}いところから{掃除|そうじ}します。"
       },
       "opts": [
        {
@@ -2982,20 +2982,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Dari yang paling sedikit kotor ke yang paling kotor.",
-       "jp": "{汚|よご}れの{少|すこ}ない所から多い所へ{掃除|そうじ}します。"
+       "jp": "{汚|よご}れの{少|すく}ない{所|ところ}から{多|おお}い{所|ところ}へ{掃除|そうじ}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Urutan: tempat sampah → wastafel → urinoir → kloset → lantai.",
-       "jp": "○か×か。順番は、ゴミ{箱|ばこ}→{洗面台|せんめんだい}→{小便器|しょうべんき}→{大便器|だいべんき}→{床|ゆか}です。"
+       "jp": "○か×か。{順番|じゅんばん}は、ゴミ{箱|はこ}→{洗面台|せんめんだい}→{小便器|しょうべんき}→{大便器|だいべんき}→{床|ゆか}です。"
       },
       "opts": [
        {
@@ -3004,20 +3004,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Urutan ①〜⑤ sesuai tingkat kekotoran.",
-       "jp": "①〜⑤の順番で{掃除|そうじ}します。"
+       "jp": "①〜⑤の{順番|じゅんばん}で{掃除|そうじ}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Mana yang dibersihkan TERAKHIR di toilet?",
-       "jp": "トイレで{最|さい}{後|あと}に{掃除|そうじ}するのはどれですか。"
+       "jp": "トイレで{最後|さいご}に{掃除|そうじ}するのはどれですか。"
       },
       "opts": [
        {
@@ -3030,7 +3030,7 @@
        },
        {
         "id": "Tempat sampah",
-        "jp": "ゴミ{箱|ばこ}"
+        "jp": "ゴミ{箱|はこ}"
        },
        {
         "id": "Urinoir",
@@ -3040,7 +3040,7 @@
       "a": 0,
       "exp": {
        "id": "Lantai adalah ⑤ (terakhir).",
-       "jp": "{床|ゆか}が{最|さい}{後|あと}（⑤）です。"
+       "jp": "{床|ゆか}が{最後|さいご}（⑤）です。"
       }
      }
     ]
@@ -3056,7 +3056,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Floor Sign dipasang paling awal.",
-       "jp": "○か×か。{最|さい}初にフロアサインを立てます。"
+       "jp": "○か×か。{最|さい}初にフロアサインを{立|た}てます。"
       },
       "opts": [
        {
@@ -3065,20 +3065,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Pasang Floor Sign dulu.",
-       "jp": "まずフロアサインを立てます。"
+       "jp": "まずフロアサインを{立|た}てます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sabun dan tisu diisi ulang saat habis total.",
-       "jp": "○か×か。せっけんやペーパーは、全部なくなってから補充します。"
+       "jp": "○か×か。せっけんやペーパーは、{全|すべ}部なくなってから{補充|ほじゅう}します。"
       },
       "opts": [
        {
@@ -3087,43 +3087,43 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Isi ulang saat tersisa sekitar 1/3.",
-       "jp": "約1/3になったら補充します。"
+       "jp": "約1/3になったら{補充|ほじゅう}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Lap apa untuk tutup dan bagian dalam tempat sampah?",
-       "jp": "ゴミ{箱|ばこ}のふたや中は何でふきますか。"
+       "jp": "ゴミ{箱|はこ}のふたや{中|なか}は何でふきますか。"
       },
       "opts": [
        {
         "id": "Lap biru",
-        "jp": "青いふきん"
+        "jp": "{青|あお}いふきん"
        },
        {
         "id": "Lap merah",
-        "jp": "赤いふきん"
+        "jp": "{赤|あか}いふきん"
        },
        {
         "id": "Lap kuning",
-        "jp": "黄{色|いろ}いふきん"
+        "jp": "{黄色|きいろ}いふきん"
        },
        {
         "id": "Tangan kosong",
-        "jp": "素手"
+        "jp": "{素手|すで}"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Lap tutup/dalam tempat sampah dengan lap biru.",
-       "jp": "ゴミ{箱|ばこ}のふたや中は青いふきんでふきます。"
+       "jp": "ゴミ{箱|はこ}のふたや{中|なか}は{青|あお}いふきんでふきます。"
       }
      }
     ]
@@ -3139,7 +3139,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Urutan wastafel: keran → wastafel → afur.",
-       "jp": "○か×か。{洗面台|せんめんだい}は、水栓→ボウル→{排水口|はいすいこう}の順です。"
+       "jp": "○か×か。{洗面台|せんめんだい}は、{水|みず}栓→ボウル→{排水口|はいすいこう}の{順|じゅん}です。"
       },
       "opts": [
        {
@@ -3148,20 +3148,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Keran, wastafel, afur.",
-       "jp": "水栓・{洗|あら}面ボウル・{排水口|はいすいこう}の順です。"
+       "jp": "{水|みず}栓・{洗|あら}{面|めん}ボウル・{排水口|はいすいこう}の{順|じゅん}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Lap kering tidak perlu karena air akan menguap.",
-       "jp": "○か×か。水は自然に乾くので、から拭きは{不要|ふよう}です。"
+       "jp": "○か×か。{水|みず}は{自然|しぜん}に{乾|かわ}くので、から{拭|ふ}きは{不要|ふよう}です。"
       },
       "opts": [
        {
@@ -3170,29 +3170,29 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Lap kering agar tidak ada kerak.",
-       "jp": "水あかが残らないようにから拭きをします。"
+       "jp": "{水|みず}あかが{残|のこ}らないようにから{拭|ふ}きをします。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Cermin dilap dengan…",
-       "jp": "鏡は何で拭きますか。"
+       "jp": "{鏡|かがみ}は何で{拭|ふ}きますか。"
       },
       "opts": [
        {
         "id": "Cloth khusus, 1 kali",
-        "jp": "専用クロスで1回"
+        "jp": "{専用|せんよう}クロスで1{回|まわ}"
        },
        {
         "id": "Lap lantai",
-        "jp": "{床|ゆか}用ふきん"
+        "jp": "{床用|ゆかよう}ふきん"
        },
        {
         "id": "Sikat kasar",
@@ -3200,13 +3200,13 @@
        },
        {
         "id": "Dibiarkan",
-        "jp": "拭かない"
+        "jp": "{拭|ふ}かない"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Cermin: cloth khusus 1 kali.",
-       "jp": "鏡は専用クロスで1回ふきます。"
+       "jp": "{鏡|かがみ}は{専用|せんよう}クロスで1{回|まわ}ふきます。"
       }
      }
     ]
@@ -3231,7 +3231,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
@@ -3244,7 +3244,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Lap urinoir boleh dipakai untuk rak dan pegangan.",
-       "jp": "○か×か。{小便器|しょうべんき}用のふきんで棚や手すりもふいてよいです。"
+       "jp": "○か×か。{小便器|しょうべんき}{用|よう}のふきんで{棚|たな}や{手|て}すりもふいてよいです。"
       },
       "opts": [
        {
@@ -3253,13 +3253,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Rak/pegangan memakai lap yang berbeda.",
-       "jp": "棚や手すりは別のふきんでふきます。"
+       "jp": "{棚|たな}や{手|て}すりは{別|べつ}のふきんでふきます。"
       },
       "mb": true
      },
@@ -3271,25 +3271,25 @@
       "opts": [
        {
         "id": "Dalam → luar basah → yang disentuh kering",
-        "jp": "内側→外側のぬれぶき→触る所のから拭き"
+        "jp": "{内側|うちがわ}→{外側|そとがわ}のぬれぶき→{触|さわ}る{所|ところ}のから{拭|ふ}き"
        },
        {
         "id": "Luar → dalam → lantai",
-        "jp": "外側→内側→{床|ゆか}"
+        "jp": "{外側|そとがわ}→{内側|うちがわ}→{床|ゆか}"
        },
        {
         "id": "Sensor → air → wax",
-        "jp": "センサー→水→ワックス"
+        "jp": "センサー→{水|みず}→ワックス"
        },
        {
         "id": "Hanya dalam",
-        "jp": "内側だけ"
+        "jp": "{内側|うちがわ}だけ"
        }
       ],
       "a": 0,
       "exp": {
        "id": "3 proses: dalam, luar basah, bagian yang disentuh kering.",
-       "jp": "内側、外側のぬれぶき、触る所のから拭きの3つです。"
+       "jp": "{内側|うちがわ}、{外側|そとがわ}のぬれぶき、{触|さわ}る{所|ところ}のから{拭|ふ}きの3つです。"
       },
       "img": {
        "p": 49,
@@ -3329,7 +3329,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
@@ -3342,7 +3342,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Rim sisi belakang kloset dibersihkan dengan teliti.",
-       "jp": "○か×か。{大便器|だいべんき}のふちの裏はていねいに{掃除|そうじ}します。"
+       "jp": "○か×か。{大便器|だいべんき}のふちの{裏|うら}はていねいに{掃除|そうじ}します。"
       },
       "opts": [
        {
@@ -3351,13 +3351,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Rim belakang tidak boleh terlewat.",
-       "jp": "ふちの裏を忘れないようにします。"
+       "jp": "ふちの{裏|うら}を{忘|わす}れないようにします。"
       },
       "mb": true,
       "img": {
@@ -3379,16 +3379,16 @@
      {
       "q": {
        "id": "Celah kecil dibersihkan dengan…",
-       "jp": "せまいすき間はどうやって{掃除|そうじ}しますか。"
+       "jp": "せまいすき{間|あいだ}はどうやって{掃除|そうじ}しますか。"
       },
       "opts": [
        {
         "id": "Lap digulung seperti tali",
-        "jp": "ふきんをひものように丸めてふく"
+        "jp": "ふきんをひものように{丸|まる}めてふく"
        },
        {
         "id": "Disemprot air kuat",
-        "jp": "強い水をかける"
+        "jp": "{強|つよ}い{水|みず}をかける"
        },
        {
         "id": "Dibiarkan",
@@ -3402,7 +3402,7 @@
       "a": 0,
       "exp": {
        "id": "Celah: gulung lap seperti tali.",
-       "jp": "すき間はふきんをひものように丸めてふきます。"
+       "jp": "すき{間|あいだ}はふきんをひものように{丸|まる}めてふきます。"
       }
      }
     ]
@@ -3418,7 +3418,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Lantai toilet: sapu dulu, mop basah, lalu mop kering.",
-       "jp": "○か×か。トイレの{床|ゆか}は、ほうき→ぬれモップ→から拭きモップの順です。"
+       "jp": "○か×か。トイレの{床|ゆか}は、ほうき→ぬれモップ→から{拭|ふ}きモップの{順|じゅん}です。"
       },
       "opts": [
        {
@@ -3427,13 +3427,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Sapu → mop basah → mop kering.",
-       "jp": "ほうき、ぬれモップ、から拭きモップの順です。"
+       "jp": "ほうき、ぬれモップ、から{拭|ふ}きモップの{順|じゅん}です。"
       },
       "mb": true
      },
@@ -3449,25 +3449,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Urinoir mudah pecah.",
-       "jp": "{小便器|しょうべんき}は割れやすいのでぶつけません。"
+       "jp": "{小便器|しょうべんき}は{割|わり}れやすいのでぶつけません。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Mana yang harus dilap di lantai toilet?",
-       "jp": "トイレの{床|ゆか}で忘れずにふく{場所|ばしょ}はどこですか。"
+       "jp": "トイレの{床|ゆか}で{忘|わす}れずにふく{場所|ばしょ}はどこですか。"
       },
       "opts": [
        {
         "id": "Bawah tempat sampah",
-        "jp": "ゴミ{箱|ばこ}の下"
+        "jp": "ゴミ{箱|はこ}の{下|お}"
        },
        {
         "id": "Plafon",
@@ -3479,13 +3479,13 @@
        },
        {
         "id": "Jendela luar",
-        "jp": "外の窓"
+        "jp": "{外|そと}の{窓|まど}"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Lap bawah tempat sampah.",
-       "jp": "ゴミ{箱|ばこ}の下もふきます。"
+       "jp": "ゴミ{箱|はこ}の{下|お}もふきます。"
       }
      }
     ]
@@ -3501,7 +3501,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Barang yang tidak jelas boleh langsung dibuang.",
-       "jp": "○か×か。分からないものは、そのまま捨ててよいです。"
+       "jp": "○か×か。{分|わ}からないものは、そのまま{捨|す}ててよいです。"
       },
       "opts": [
        {
@@ -3510,20 +3510,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Tanya PIC bila tidak jelas.",
-       "jp": "分からないものは{責任者|せきにんしゃ}に{聞|き}きます。"
+       "jp": "{分|わ}からないものは{責任者|せきにんしゃ}に{聞|き}きます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sampah dipisah: umum, botol/kaleng, botol plastik.",
-       "jp": "○か×か。ゴミは{一|いち}般・びんかん・ペットボトルに分けます。"
+       "jp": "○か×か。ゴミは{一般|いっぱん}・びんかん・ペットボトルに{分|わ}けます。"
       },
       "opts": [
        {
@@ -3532,25 +3532,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Pisahkan setelah semua terkumpul.",
-       "jp": "集め{終|お}わってから{分別|ぶんべつ}します。"
+       "jp": "{集|あつ}め{終|お}わってから{分別|ぶんべつ}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Saat menangani sampah, pekerja memakai…",
-       "jp": "ゴミを扱うとき、何をつけますか。"
+       "jp": "ゴミを{扱|あつか}うとき、何をつけますか。"
       },
       "opts": [
        {
         "id": "Sarung tangan pelindung",
-        "jp": "保護{手袋|てぶくろ}"
+        "jp": "{保護手袋|ほごてぶくろ}"
        },
        {
         "id": "Tanpa apa-apa",
@@ -3568,7 +3568,7 @@
       "a": 0,
       "exp": {
        "id": "Pakai sarung tangan pelindung.",
-       "jp": "保護{手袋|てぶくろ}を着けます。"
+       "jp": "{保護手袋|ほごてぶくろ}を{着|つ}けます。"
       }
      }
     ]
@@ -3584,7 +3584,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Cuci tangan setelah kerja dilakukan lebih dari 20 detik.",
-       "jp": "○か×か。{仕事|しごと}の{後|あと}の{手洗|てあら}いは20秒{以上|いじょう}します。"
+       "jp": "○か×か。{仕事|しごと}の{後|あと}の{手洗|てあら}いは20{秒以上|びょういじょう}します。"
       },
       "opts": [
        {
@@ -3593,20 +3593,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Cuci tangan >20 detik, 6 langkah.",
-       "jp": "{手洗|てあら}いは20秒{以上|いじょう}、6つの手順で行います。"
+       "jp": "{手洗|てあら}いは20{秒以上|びょういじょう}、6つの{手順|てじゅん}で{行|い}います。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pergelangan tangan tidak perlu dicuci.",
-       "jp": "○か×か。手首は{洗|あら}わなくてもよいです。"
+       "jp": "○か×か。{手首|てくび}は{洗|あら}わなくてもよいです。"
       },
       "opts": [
        {
@@ -3615,29 +3615,29 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Langkah ke-6 adalah pergelangan.",
-       "jp": "6{番目|ばんめ}の手順は手首です。"
+       "jp": "6{番目|ばんめ}の{手順|てじゅん}は{手首|てくび}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Tujuan utama mencuci tangan adalah…",
-       "jp": "{手洗|てあら}いの{目|め}的は何ですか。"
+       "jp": "{手洗|てあら}いの{目的|もくてき}は何ですか。"
       },
       "opts": [
        {
         "id": "Mencegah infeksi",
-        "jp": "感染をふせぐ"
+        "jp": "感{染|し}をふせぐ"
        },
        {
         "id": "Menghemat air",
-        "jp": "水を節約する"
+        "jp": "{水|みず}を節約する"
        },
        {
         "id": "Menghabiskan waktu",
@@ -3645,13 +3645,13 @@
        },
        {
         "id": "Menghias tangan",
-        "jp": "手をかざる"
+        "jp": "{手|て}をかざる"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Tujuan: mencegah infeksi.",
-       "jp": "感染を防ぐためです。"
+       "jp": "感{染|し}を{防|ふせ}ぐためです。"
       }
      }
     ]
@@ -3667,7 +3667,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pembersih klorin boleh dicampur dengan asam.",
-       "jp": "○か×か。{塩素系|えんそけい}の{洗剤|せんざい}は{酸性|さんせい}の{洗剤|せんざい}と混ぜてもよいです。"
+       "jp": "○か×か。{塩素系|えんそけい}の{洗剤|せんざい}は{酸性|さんせい}の{洗剤|せんざい}と{混|ま}ぜてもよいです。"
       },
       "opts": [
        {
@@ -3676,20 +3676,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Klorin + asam menghasilkan gas beracun.",
-       "jp": "塩素と酸を混ぜると有毒ガスが出て危険です。"
+       "jp": "塩素と酸を{混|ま}ぜると有毒ガスが{出|だ}て{危険|きけん}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Jarum suntik tidak boleh disentuh dengan tangan.",
-       "jp": "○か×か。{注射針|ちゅうしゃばり}は素手でさわってはいけません。"
+       "jp": "○か×か。{注射針|ちゅうしゃばり}は{素手|すで}でさわってはいけません。"
       },
       "opts": [
        {
@@ -3698,7 +3698,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
@@ -3711,7 +3711,7 @@
      {
       "q": {
        "id": "Kecelakaan kerja terbanyak (sekitar 40%) adalah…",
-       "jp": "{仕事|しごと}中の事故でいちばん多い（約40%）のはどれですか。"
+       "jp": "{仕事中|しごとちゅう}の{事故|じこ}でいちばん{多|おお}い（約40%）のはどれですか。"
       },
       "opts": [
        {
@@ -3734,7 +3734,7 @@
       "a": 0,
       "exp": {
        "id": "Sekitar 40% kecelakaan = terjungkal, 20% = tabrakan/terjatuh.",
-       "jp": "事故の約40%は{転倒|てんとう}です。"
+       "jp": "{事故|じこ}の約40%は{転倒|てんとう}です。"
       }
      }
     ]
@@ -4519,7 +4519,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Semua jenis lantai dibersihkan dengan cara yang sama.",
-       "jp": "○か×か。どんな{床|ゆか}も{同|おな}じやり方で{掃除|そうじ}します。"
+       "jp": "○か×か。どんな{床|ゆか}も{同|おな}じやり{方|かた}で{掃除|そうじ}します。"
       },
       "opts": [
        {
@@ -4528,20 +4528,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Cara tergantung material dan kotoran.",
-       "jp": "{床|ゆか}の材質と{汚|よご}れによって方法が変わります。"
+       "jp": "{床|ゆか}の材{質|しつ}と{汚|よご}れによって{方法|ほうほう}が変わります。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Ada 5 jenis material lantai.",
-       "jp": "○か×か。{床|ゆか}の材質は5つに分けられます。"
+       "jp": "○か×か。{床|ゆか}の材{質|しつ}は5つに{分|わ}けられます。"
       },
       "opts": [
        {
@@ -4550,25 +4550,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Vinil, keras, kayu, karpet, lainnya.",
-       "jp": "ビニール・硬い{床|ゆか}・木・カーペット・その他です。"
+       "jp": "ビニール・{硬|かた}い{床|ゆか}・木・カーペット・その{他|ほか}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Marmer, keramik, dan semen termasuk lantai…",
-       "jp": "大理石・タイル・セメントはどの{床|ゆか}ですか。"
+       "jp": "{大|おお}理{石|せっ}・タイル・セメントはどの{床|ゆか}ですか。"
       },
       "opts": [
        {
         "id": "Keras",
-        "jp": "硬い{床|ゆか}"
+        "jp": "{硬|かた}い{床|ゆか}"
        },
        {
         "id": "Karpet",
@@ -4586,7 +4586,7 @@
       "a": 0,
       "exp": {
        "id": "Lantai keras: marmer/keramik/semen.",
-       "jp": "大理石・タイル・セメントは硬い{床|ゆか}です。"
+       "jp": "{大|おお}理{石|せっ}・タイル・セメントは{硬|かた}い{床|ゆか}です。"
       }
      }
     ]
@@ -4602,7 +4602,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kotoran terbagi 5 jenis.",
-       "jp": "○か×か。{汚|よご}れは5つの種類に分けられます。"
+       "jp": "○か×か。{汚|よご}れは5つの{種類|しゅるい}に{分|わ}けられます。"
       },
       "opts": [
        {
@@ -4611,13 +4611,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Anorganik, larut air, minyak, penular penyakit, lainnya.",
-       "jp": "{無機質|むきしつ}・{水溶性|すいようせい}・油性・{感染性|かんせんせい}・その他です。"
+       "jp": "{無機質|むきしつ}・{水溶性|すいようせい}・油{性|せい}・{感染性|かんせんせい}・その{他|ほか}です。"
       },
       "mb": true
      },
@@ -4633,20 +4633,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Setiap lokasi punya kotoran khas.",
-       "jp": "{場所|ばしょ}ごとに特有の{汚|よご}れがあります。"
+       "jp": "{場所|ばしょ}ごとに{特|とく}有の{汚|よご}れがあります。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Debu, pasir, dan abu termasuk kotoran…",
-       "jp": "ほこり・砂・灰はどの{汚|よご}れですか。"
+       "jp": "ほこり・砂・{灰|はい}はどの{汚|よご}れですか。"
       },
       "opts": [
        {
@@ -4655,7 +4655,7 @@
        },
        {
         "id": "Minyak",
-        "jp": "油性の{汚|よご}れ"
+        "jp": "油{性|せい}の{汚|よご}れ"
        },
        {
         "id": "Penular penyakit",
@@ -4669,7 +4669,7 @@
       "a": 0,
       "exp": {
        "id": "Anorganik = debu/pasir/abu.",
-       "jp": "ほこり・砂・灰は{無機質|むきしつ}の{汚|よご}れです。"
+       "jp": "ほこり・砂・{灰|はい}は{無機質|むきしつ}の{汚|よご}れです。"
       }
      }
     ]
@@ -4685,7 +4685,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sebelum memakai karbol, jenisnya dicek dulu.",
-       "jp": "○か×か。{洗剤|せんざい}は{使|つか}う前に種類を{確認|かくにん}します。"
+       "jp": "○か×か。{洗剤|せんざい}は{使|つか}う{前|まえ}に{種類|しゅるい}を{確認|かくにん}します。"
       },
       "opts": [
        {
@@ -4694,7 +4694,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
@@ -4707,7 +4707,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Karbol terkena mata cukup dibiarkan saja.",
-       "jp": "○か×か。{洗剤|せんざい}が{目|め}に入っても、そのままでよいです。"
+       "jp": "○か×か。{洗剤|せんざい}が{目|め}に{入|い}っても、そのままでよいです。"
       },
       "opts": [
        {
@@ -4716,13 +4716,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Terkena mata/tertelan → ke rumah sakit.",
-       "jp": "{目|め}に入ったり飲んだりしたら病院へ行きます。"
+       "jp": "{目|め}に{入|い}ったり{飲|の}んだりしたら{病院|びょういん}へ{行|い}きます。"
       },
       "mb": true
      },
@@ -4768,7 +4768,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Rute: atas ke bawah, ujung ke depan, sempit ke luas, bersih ke kotor.",
-       "jp": "○か×か。上から下、奥から手前、せまい所から広い所、きれいな所から{汚|よご}い所へ{掃除|そうじ}します。"
+       "jp": "○か×か。{上|あ}から{下|お}、{奥|おく}から{手前|てまえ}、せまい{所|ところ}から{広|ひろ}い{所|ところ}、きれいな{所|ところ}から{汚|よご}い{所|ところ}へ{掃除|そうじ}します。"
       },
       "opts": [
        {
@@ -4777,20 +4777,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "5 aturan rute dasar.",
-       "jp": "{作業|さぎょう}の基本ルールです。"
+       "jp": "{作業|さぎょう}の{基本|きほん}ルールです。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Mulai membersihkan dari tempat yang paling kotor.",
-       "jp": "○か×か。{一|いち}番{汚|よご}い所から{掃除|そうじ}を始めます。"
+       "jp": "○か×か。{一番|いちばん}{汚|よご}い{所|ところ}から{掃除|そうじ}を{始|はじ}めます。"
       },
       "opts": [
        {
@@ -4799,20 +4799,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Mulai dari yang bersih.",
-       "jp": "きれいな所から{汚|よご}い所へ進みます。"
+       "jp": "きれいな{所|ところ}から{汚|よご}い{所|ところ}へ{進|すす}みます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Wax pada lantai berfungsi untuk…",
-       "jp": "{床|ゆか}のワックスの{目|め}的はどれですか。"
+       "jp": "{床|ゆか}のワックスの{目的|もくてき}はどれですか。"
       },
       "opts": [
        {
@@ -4851,7 +4851,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Peralatan ditaruh di atas curing mat.",
-       "jp": "○か×か。道具は{養生|ようじょう}マットの上に置きます。"
+       "jp": "○か×か。{道具|どうぐ}は{養生|ようじょう}マットの{上|あ}に{置|お}きます。"
       },
       "opts": [
        {
@@ -4860,13 +4860,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Agar lantai tidak kotor/rusak.",
-       "jp": "{養生|ようじょう}マットの上に{準備|じゅんび}します。"
+       "jp": "{養生|ようじょう}マットの{上|あ}に{準備|じゅんび}します。"
       },
       "mb": true,
       "img": {
@@ -4888,7 +4888,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pad dipasang sebelum mengecek operasi mesin.",
-       "jp": "○か×か。動作を{確認|かくにん}する前にパッドを付けます。"
+       "jp": "○か×か。{動作|どうさ}を{確認|かくにん}する{前|まえ}にパッドを{付|つ}けます。"
       },
       "opts": [
        {
@@ -4897,29 +4897,29 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Baringkan polisher, cek tuas, baru pasang pad.",
-       "jp": "ポリッシャーを寝かせてレバーを{確認|かくにん}してからパッドを付けます。"
+       "jp": "ポリッシャーを{寝|ね}かせてレバーを{確認|かくにん}してからパッドを{付|つ}けます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Tuas kanan polisher berfungsi untuk…",
-       "jp": "ポリッシャーの右のレバーは何ですか。"
+       "jp": "ポリッシャーの{右|みぎ}のレバーは何ですか。"
       },
       "opts": [
        {
         "id": "Memutar pad",
-        "jp": "パッドを回す"
+        "jp": "パッドを{回|まわ}す"
        },
        {
         "id": "Menyemprot karbol",
-        "jp": "{洗剤|せんざい}を出す"
+        "jp": "{洗剤|せんざい}を{出|だ}す"
        },
        {
         "id": "Mengerem total",
@@ -4927,13 +4927,13 @@
        },
        {
         "id": "Menggulung kabel",
-        "jp": "コードを巻く"
+        "jp": "コードを{巻|ま}く"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Kanan = putar, kiri = semprot karbol.",
-       "jp": "右が回転、左が{洗剤|せんざい}のスプレーです。"
+       "jp": "{右|みぎ}が{回転|かいてん}、{左|ひだり}が{洗剤|せんざい}のスプレーです。"
       }
      }
     ]
@@ -4949,7 +4949,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pegangan dinaikkan membuat polisher bergerak ke kanan.",
-       "jp": "○か×か。ハンドルを上げると右に動きます。"
+       "jp": "○か×か。ハンドルを{上|あ}げると{右|みぎ}に{動|うご}きます。"
       },
       "opts": [
        {
@@ -4958,20 +4958,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Naik → kanan, turun → kiri.",
-       "jp": "ハンドルを上げると右、下げると左です。"
+       "jp": "ハンドルを{上|あ}げると{右|みぎ}、{下|お}げると{左|ひだり}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Jika polisher bergerak sendiri, panik dan terus pegang erat.",
-       "jp": "○か×か。ポリッシャーが{勝手|かって}に動いたら、あわててにぎり続けます。"
+       "jp": "○か×か。ポリッシャーが{勝手|かって}に{動|うご}いたら、あわててにぎり{続|つづ}けます。"
       },
       "opts": [
        {
@@ -4980,25 +4980,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Lepas tuas → berhenti.",
-       "jp": "レバーをはなすと止まります。"
+       "jp": "レバーをはなすと{止|と}まります。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Posisi pad saat bekerja harus…",
-       "jp": "{作業|さぎょう}中のパッドはどんな状態がよいですか。"
+       "jp": "{作業中|さぎょうちゅう}のパッドはどんな{状態|じょうたい}がよいですか。"
       },
       "opts": [
        {
         "id": "Horizontal (datar)",
-        "jp": "水平"
+        "jp": "{水平|すいへい}"
        },
        {
         "id": "Miring ke satu sisi",
@@ -5006,7 +5006,7 @@
        },
        {
         "id": "Terangkat",
-        "jp": "浮かせる"
+        "jp": "{浮|う}かせる"
        },
        {
         "id": "Terbalik",
@@ -5016,7 +5016,7 @@
       "a": 0,
       "exp": {
        "id": "Pad harus horizontal.",
-       "jp": "パッドは水平にします。"
+       "jp": "パッドは{水平|すいへい}にします。"
       }
      }
     ]
@@ -5032,7 +5032,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pad ditumpuk sekitar 1/3 lebarnya saat jalur berikutnya.",
-       "jp": "○か×か。{次|つぎ}の列は、パッドの約1/3を重ねます。"
+       "jp": "○か×か。{次|つぎ}の列は、パッドの約1/3を{重|かさ}ねます。"
       },
       "opts": [
        {
@@ -5041,20 +5041,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Tumpuk 1/3 lebar pad.",
-       "jp": "パッド幅の約1/3を重ねます。"
+       "jp": "パッド{幅|はば}の約1/3を{重|かさ}ねます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kabel boleh terinjak atau terbelit selama mesin jalan.",
-       "jp": "○か×か。コードは踏んだり巻きついたりしても{気|き}にしません。"
+       "jp": "○か×か。コードは{踏|ふ}んだり{巻|ま}きついたりしても{気|き}にしません。"
       },
       "opts": [
        {
@@ -5063,25 +5063,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Kelola kabel, gulung yang berlebih.",
-       "jp": "コードを管理し、余分は巻きます。"
+       "jp": "コードを{管理|かんり}し、{余|あま}{分|わ}は{巻|ま}きます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Mulai bekerja dari…",
-       "jp": "どこから{作業|さぎょう}を始めますか。"
+       "jp": "どこから{作業|さぎょう}を{始|はじ}めますか。"
       },
       "opts": [
        {
         "id": "Tempat terjauh dari stop kontak",
-        "jp": "コンセントから{一|いち}番遠い所"
+        "jp": "コンセントから{一番|いちばん}{遠|とお}い{所|ところ}"
        },
        {
         "id": "Tepat di dekat stop kontak",
@@ -5089,17 +5089,17 @@
        },
        {
         "id": "Tengah ruangan saja",
-        "jp": "部屋の真ん中だけ"
+        "jp": "部屋の{真|ま}ん{中|なか}だけ"
        },
        {
         "id": "Pintu keluar",
-        "jp": "出口"
+        "jp": "{出|だ}口"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Mulai dari yang terjauh dari stop kontak.",
-       "jp": "コンセントから{一|いち}番遠い所から始めます。"
+       "jp": "コンセントから{一番|いちばん}{遠|とお}い{所|ところ}から{始|はじ}めます。"
       }
      }
     ]
@@ -5115,7 +5115,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Colokan dicabut (pegang steker) sebelum melepas pad.",
-       "jp": "○か×か。パッドを外す前にプラグを抜きます。"
+       "jp": "○か×か。パッドを{外|そと}す{前|まえ}にプラグを{抜|ぬ}きます。"
       },
       "opts": [
        {
@@ -5124,20 +5124,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Cabut colokan dulu, lalu lepas pad.",
-       "jp": "先にプラグを抜いてからパッドを外します。"
+       "jp": "先にプラグを{抜|ぬ}いてからパッドを{外|そと}します。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Kabel dicabut dengan ditarik.",
-       "jp": "○か×か。コードを引っぱってプラグを抜きます。"
+       "jp": "○か×か。コードを{引|ひ}っぱってプラグを{抜|ぬ}きます。"
       },
       "opts": [
        {
@@ -5146,25 +5146,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Pegang steker, jangan tarik kabel.",
-       "jp": "プラグを持って抜きます。"
+       "jp": "プラグを{持|も}って{抜|ぬ}きます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Air kotor setelah polisher ditampung dengan…",
-       "jp": "{作業|さぎょう}の{後|あと}の{汚|よご}れた水はどうしますか。"
+       "jp": "{作業|さぎょう}の{後|あと}の{汚|よご}れた{水|みず}はどうしますか。"
       },
       "opts": [
        {
         "id": "Lap/kain",
-        "jp": "布で吸い{取|と}る"
+        "jp": "布で{吸|す}い{取|と}る"
        },
        {
         "id": "Dibiarkan mengering",
@@ -5172,17 +5172,17 @@
        },
        {
         "id": "Dialirkan ke tamu",
-        "jp": "お{客|きゃく}{様|さま}の方へ{流|なが}す"
+        "jp": "{お客様|おきゃくさま}の{方|かた}へ{流|なが}す"
        },
        {
         "id": "Ditambah wax",
-        "jp": "ワックスを足す"
+        "jp": "ワックスを{足|あし}す"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Kumpulkan air kotor dengan lap.",
-       "jp": "{汚|よご}れた水は布で集めます。"
+       "jp": "{汚|よご}れた{水|みず}は布で{集|あつ}めます。"
       }
      }
     ]
@@ -5198,7 +5198,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Window washer dipakai untuk mengoles sabun.",
-       "jp": "○か×か。ウィンドウウォッシャーは{洗剤|せんざい}を塗るために{使|つか}います。"
+       "jp": "○か×か。ウィンドウウォッシャーは{洗剤|せんざい}を{塗|ぬ}るために{使|つか}います。"
       },
       "opts": [
        {
@@ -5207,20 +5207,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Washer = oles sabun.",
-       "jp": "ウォッシャーは{洗剤|せんざい}を塗る道具です。"
+       "jp": "ウォッシャーは{洗剤|せんざい}を{塗|ぬ}る{道具|どうぐ}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Oles sabun dimulai dari tengah saja.",
-       "jp": "○か×か。{洗剤|せんざい}は真ん中だけに塗ります。"
+       "jp": "○か×か。{洗剤|せんざい}は{真|ま}ん{中|なか}だけに{塗|ぬ}ります。"
       },
       "opts": [
        {
@@ -5229,25 +5229,25 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Oles dari 4 sudut, lalu tengah tanpa terlewat.",
-       "jp": "4すみから塗り、真ん中もぬけなく塗ります。"
+       "jp": "4すみから{塗|ぬ}り、{真|ま}ん{中|なか}もぬけなく{塗|ぬ}ります。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "3 tahap membersihkan kaca:",
-       "jp": "ガラス{掃除|そうじ}の3つの工程はどれですか。"
+       "jp": "ガラス{掃除|そうじ}の3つの{工程|こうてい}はどれですか。"
       },
       "opts": [
        {
         "id": "Oles sabun → squeegee → lap basah",
-        "jp": "{洗剤|せんざい}を塗る→スクイジー→ぬれぶき"
+        "jp": "{洗剤|せんざい}を{塗|ぬ}る→スクイジー→ぬれぶき"
        },
        {
         "id": "Squeegee → wax → polisher",
@@ -5255,7 +5255,7 @@
        },
        {
         "id": "Lap basah → sabun → tinggalkan",
-        "jp": "ぬれぶき→{洗剤|せんざい}→放置"
+        "jp": "ぬれぶき→{洗剤|せんざい}→放{置|お}"
        },
        {
         "id": "Hanya squeegee",
@@ -5265,7 +5265,7 @@
       "a": 0,
       "exp": {
        "id": "Oles sabun, hilangkan kotoran (squeegee), lap basah.",
-       "jp": "{洗剤|せんざい}塗り、{汚|よご}れ{取|と}り（スクイジー）、ぬれぶきの順です。"
+       "jp": "{洗剤|せんざい}{塗|ぬ}り、{汚|よご}れ{取|と}り（スクイジー）、ぬれぶきの{順|じゅん}です。"
       }
      }
     ]
@@ -5281,7 +5281,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Squeegee ditarik lurus ke bawah dan dilap tiap tarikan.",
-       "jp": "○か×か。スクイジーは真下に引き、1回ごとにふきます。"
+       "jp": "○か×か。スクイジーは{真|ま}{下|お}に{引|ひ}き、1{回|まわ}ごとにふきます。"
       },
       "opts": [
        {
@@ -5290,20 +5290,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Lap squeegee tiap tarikan.",
-       "jp": "1回引くごとにスクイジーをふきます。"
+       "jp": "1{回|まわ}{引|ひ}くごとにスクイジーをふきます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Bagian bawah kaca ditarik lurus hingga lantai.",
-       "jp": "○か×か。ガラスの下は、{最|さい}{後|あと}まで真下に引きます。"
+       "jp": "○か×か。ガラスの{下|お}は、{最後|さいご}まで{真|ま}{下|お}に{引|ひ}きます。"
       },
       "opts": [
        {
@@ -5312,43 +5312,43 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Sisakan 20 cm di bawah lalu tarik ke samping.",
-       "jp": "下は20cm残して横に引きます。"
+       "jp": "{下|お}は20cm{残|のこ}して{横|よこ}に{引|ひ}きます。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Squeegee ditumpuk berapa lebarnya?",
-       "jp": "スクイジーは{次|つぎ}の列で何分の1を重ねますか。"
+       "jp": "スクイジーは{次|つぎ}の列で何{分|わ}の1を{重|かさ}ねますか。"
       },
       "opts": [
        {
         "id": "1/4",
-        "jp": "4分の1"
+        "jp": "4{分|わ}の1"
        },
        {
         "id": "1/10",
-        "jp": "10分の1"
+        "jp": "10{分|わ}の1"
        },
        {
         "id": "Tidak ditumpuk",
-        "jp": "重ねない"
+        "jp": "{重|かさ}ねない"
        },
        {
         "id": "Seluruhnya",
-        "jp": "全部"
+        "jp": "{全|すべ}部"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Tumpuk 1/4 lebar squeegee.",
-       "jp": "スクイジー幅の4分の1を重ねます。"
+       "jp": "スクイジー{幅|はば}の4{分|わ}の1を{重|かさ}ねます。"
       },
       "img": {
        "p": 77,
@@ -5379,7 +5379,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Sisa sabun dicek setelah mengelap bingkai.",
-       "jp": "○か×か。わくをふいた{後|あと}、{洗剤|せんざい}の残りを{確認|かくにん}します。"
+       "jp": "○か×か。わくをふいた{後|あと}、{洗剤|せんざい}の{残|のこ}りを{確認|かくにん}します。"
       },
       "opts": [
        {
@@ -5388,13 +5388,13 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Cek sisa sabun dan noda.",
-       "jp": "{洗剤|せんざい}の残りやよごれを{確認|かくにん}します。"
+       "jp": "{洗剤|せんざい}の{残|のこ}りやよごれを{確認|かくにん}します。"
       },
       "mb": true
      },
@@ -5410,7 +5410,7 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
@@ -5423,7 +5423,7 @@
      {
       "q": {
        "id": "Lantai di bawah kaca dilap dengan pola…",
-       "jp": "ガラスの下の{床|ゆか}はどうふきますか。"
+       "jp": "ガラスの{下|お}の{床|ゆか}はどうふきますか。"
       },
       "opts": [
        {
@@ -5432,11 +5432,11 @@
        },
        {
         "id": "Melingkar",
-        "jp": "円"
+        "jp": "{円|えん}"
        },
        {
         "id": "Satu titik",
-        "jp": "1か所"
+        "jp": "1か{所|ところ}"
        },
        {
         "id": "Tidak dilap",
@@ -5462,7 +5462,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Pod, Upright, Handheld, dan Wet adalah jenis penyedot debu.",
-       "jp": "○か×か。ポッド・アップライト・ハンディ・ウェットは{掃除機|そうじき}の種類です。"
+       "jp": "○か×か。ポッド・アップライト・ハンディ・ウェットは{掃除機|そうじき}の{種類|しゅるい}です。"
       },
       "opts": [
        {
@@ -5471,20 +5471,20 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 0,
       "exp": {
        "id": "Jenis penyedot debu dalam daftar.",
-       "jp": "{掃除機|そうじき}の種類です。"
+       "jp": "{掃除機|そうじき}の{種類|しゅるい}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Polisher termasuk perlengkapan penunjang kecil.",
-       "jp": "○か×か。ポリッシャーは小さな補助用具です。"
+       "jp": "○か×か。ポリッシャーは小さな補助{用|よう}具です。"
       },
       "opts": [
        {
@@ -5493,29 +5493,29 @@
        },
        {
         "id": "Salah (×)",
-        "jp": "× 間違い"
+        "jp": "× {間|あいだ}{違|ちが}い"
        }
       ],
       "a": 1,
       "exp": {
        "id": "Polisher termasuk mesin.",
-       "jp": "ポリッシャーは{機|き}械です。"
+       "jp": "ポリッシャーは{機械|きかい}です。"
       },
       "mb": true
      },
      {
       "q": {
        "id": "Extractor dan high pressure termasuk…",
-       "jp": "エクストラクターや{高|たか}{圧|あつ}{洗|あら}浄{機|き}はどれですか。"
+       "jp": "エクストラクターや{高圧洗浄機|こうあつせんじょうき}はどれですか。"
       },
       "opts": [
        {
         "id": "Mesin",
-        "jp": "{機|き}械"
+        "jp": "{機械|きかい}"
        },
        {
         "id": "Alat tangan sederhana",
-        "jp": "簡単な手道具"
+        "jp": "簡単な{手|て}{道具|どうぐ}"
        },
        {
         "id": "Seragam",
@@ -5529,7 +5529,7 @@
       "a": 0,
       "exp": {
        "id": "Mesin: polisher, pembersih otomatis, extractor, high pressure.",
-       "jp": "{機|き}械：ポリッシャー・自動{洗|あら}浄{機|き}・エクストラクター・{高|たか}{圧|あつ}{洗|あら}浄{機|き}。"
+       "jp": "{機械|きかい}：ポリッシャー・自{動|うご}{洗浄|せんじょう}{機|き}・エクストラクター・{高圧洗浄機|こうあつせんじょうき}。"
       }
      }
     ]

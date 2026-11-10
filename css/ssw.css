@@ -199,3 +199,5 @@ body.sw-lbopen{overflow:hidden;}
 .hf-sub{display:flex; gap:10px; align-items:center; min-height:44px; padding:4px 6px; border-radius:10px; cursor:pointer;} .hf-sub:hover{background:rgba(255,255,255,.06);} .hf-sub.off{opacity:.45;} .hf-sub span{flex:1; min-width:0; overflow-wrap:anywhere;} .hf-sub small{opacity:.7; flex:none;}
 .hf-g input[type=checkbox]{width:22px; height:22px; accent-color:var(--pink,#ef6a9a); flex:none;}
 .hf-bar{position:sticky; bottom:0; z-index:30; display:flex; gap:10px; align-items:center; justify-content:space-between; background:rgba(14,16,40,.97); border-top:1px solid var(--border); padding:10px 4px calc(10px + env(safe-area-inset-bottom,0px)); flex-wrap:wrap;} .hf-bar .btn{flex:1 1 160px;}
+.sw-vdet>summary{cursor:pointer; font-size:13px; opacity:.8; min-height:40px; display:flex; align-items:center;} .sw-vdet .sw-vchips{max-height:320px; overflow:auto; margin-bottom:10px;}
+.sw-lesson ruby .sw-w{border-bottom:0;} .sw-w ruby{border-bottom:2px dotted var(--pink,#ef6a9a);}
