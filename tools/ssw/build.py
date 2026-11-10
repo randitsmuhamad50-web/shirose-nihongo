@@ -91,6 +91,29 @@ for subid, bab, no, tid, tjp, its in SUB:
     quiz["bab"][bab].append({"id": f"{subid}-q", "sub": subid, "title": {"id": f"Subbab {no} · {tid}", "jp": f"{no} {tjp}"}, "items": [fix(x) for x in its]})
 from quiz_tema import TEMA
 quiz["tema"] = [{"id": tid, "tema": True, "title": t, "items": [fix(x) for x in its]} for tid, t, its in TEMA]
+# ---- Peralatan bergambar: data kartu + kuis gambar (gambar = potongan hal. 81-82 buku) ----
+import random
+from alat import build as build_alat
+ALAT = build_alat(ROOT)
+_vk = {}
+for _e in items:
+    _vk.setdefault(_e["kata"], _e["id"])
+for _a in ALAT:
+    _b = re.sub(r"[（(].*?[）)]", "", _a["jp"]).strip()
+    if _b in _vk: _a["vid"] = _vk[_b]
+json.dump({"schema": "ssw.alat/1", "items": ALAT}, open(os.path.join(out, "alat.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+_short = lambda t: re.sub(r"\s*[（(].*?[）)]", "", t).strip()
+for _g in range(4):
+    _items = []
+    for _a in ALAT[_g * 10:(_g + 1) * 10]:
+        _rnd = random.Random(_a["id"])
+        _others = [o for o in ALAT if o["id"] != _a["id"] and _short(o["arti"]) != _short(_a["arti"])]
+        _opts = _rnd.sample(_others, 3) + [_a]; _rnd.shuffle(_opts)
+        _items.append(fix({"q": {"id": "Gambar alat apa ini?", "jp": "これは何の道具ですか。"},
+            "opts": [{"id": _short(o["arti"]), "jp": o["jp"]} for o in _opts], "a": _opts.index(_a),
+            "exp": {"id": "%s (%s) — %s" % (_short(_a["arti"]), _a["jp"], _a["fungsi"]), "jp": _a["jp"]},
+            "img": {"src": _a["img"]}}))
+    quiz["tema"].append({"id": "tema-alat%d" % (_g + 1), "tema": True, "title": {"id": "Kuis Gambar Peralatan %d" % (_g + 1), "jp": "用具のクイズ %d" % (_g + 1)}, "items": _items})
 json.dump(quiz, open(os.path.join(out, "quiz.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(sum(len(q["items"]) for v in quiz["bab"].values() for q in v), "soal")
 

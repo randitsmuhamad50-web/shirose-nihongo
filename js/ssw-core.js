@@ -125,7 +125,7 @@ export function syncRank(slug) {
   _rankT[slug] = setTimeout(async () => {
     try { const d = (FB.getSiswaDoc && FB.getSiswaDoc()) || {}; const r = points(e.P);
       await FB.saveSswRank(slug, { nama: d.nama || "Siswa", kelas: d.kelas || "", poin: r.poin, rinci: r.rinci }); } catch (err) { console.warn("ssw: rank gagal:", err.message || err); }
-  }, 4000);
+  }, 1200);
 }
 export async function loadRank(slug) {
   if (!(FB && FB.loadSswRank) || isGuest()) return [];

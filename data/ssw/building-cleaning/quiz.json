@@ -6617,6 +6617,1326 @@
      }
     }
    ]
+  },
+  {
+   "id": "tema-alat1",
+   "tema": true,
+   "title": {
+    "id": "Kuis Gambar Peralatan 1",
+    "jp": "用具のクイズ 1"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Papan Tanda",
+       "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）"
+      },
+      {
+       "id": "Pel Basah",
+       "jp": "{湿式|しっしき}モップ（ワンタッチモップ）"
+      },
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（アップライト型）"
+      },
+      {
+       "id": "Alat Pemeras Kain Pel",
+       "jp": "モップ{絞|しぼ}り器"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Papan Tanda (作業標示板（フロアサイン）) — Dipasang di lokasi kerja untuk memperingatkan orang sekitar (mis. lantai basah/sedang dibersihkan).",
+      "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）（さぎょうひょうじばん）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/01.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Sapu Ruangan",
+       "jp": "{自在|じざい}ぼうき"
+      },
+      {
+       "id": "Window Cleaner",
+       "jp": "ウインドスクイジー"
+      },
+      {
+       "id": "Pel Kering",
+       "jp": "{乾式|かんしき}モップ"
+      },
+      {
+       "id": "Hand Pad",
+       "jp": "ハンドパッド"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Sapu Ruangan (自在ぼうき) — Sapu bergagang panjang untuk menyapu lantai dalam ruangan.",
+      "jp": "{自在|じざい}ぼうき（じざいぼうき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/02.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Alat Pemeras Kain Pel",
+       "jp": "モップ{絞|しぼ}り器"
+      },
+      {
+       "id": "Sapu Ijuk",
+       "jp": "シダぼうき"
+      },
+      {
+       "id": "Window Washer",
+       "jp": "シャンバー"
+      },
+      {
+       "id": "Penyedot Debu Tipe Handheld",
+       "jp": "ハンディバキューム"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Sapu Ijuk (シダぼうき) — Sapu dari serat alami untuk menyapu debu dan sampah.",
+      "jp": "シダぼうき（シダぼうき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/03.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Pengki",
+       "jp": "{文化ちり取|ぶんかちりと}り"
+      },
+      {
+       "id": "Alat Pemeras Kain Pel",
+       "jp": "モップ{絞|しぼ}り器"
+      },
+      {
+       "id": "Ember",
+       "jp": "バケツ"
+      },
+      {
+       "id": "Keranjang Limbah",
+       "jp": "{廃棄物|はいきぶつ}コレクター"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Pengki (文化ちり取り) — Pengki bergagang untuk menampung sampah hasil sapuan tanpa membungkuk.",
+      "jp": "{文化ちり取|ぶんかちりと}り（ぶんかちりとり）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/04.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Extractor",
+       "jp": "エクストラクター"
+      },
+      {
+       "id": "Alat Sedot WC",
+       "jp": "プランジャー"
+      },
+      {
+       "id": "Dust Cloth",
+       "jp": "ダストクロス"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Dust Cloth (ダストクロス) — Kain khusus penangkap debu.",
+      "jp": "ダストクロス（ダストクロス）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/05.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      },
+      {
+       "id": "Dust Cloth Tipe Pel",
+       "jp": "ダストクロス型モップ"
+      },
+      {
+       "id": "Window Washer",
+       "jp": "シャンバー"
+      },
+      {
+       "id": "Sikat Dek",
+       "jp": "デッキブラシ"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Dust Cloth Tipe Pel (ダストクロス型モップ) — Pel yang memakai dust cloth untuk menyapu debu di lantai.",
+      "jp": "ダストクロス型モップ（ダストクロスがたモップ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/06.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Perangkat Pencegah Listrik Bocor atau Arus Pendek",
+       "jp": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}"
+      },
+      {
+       "id": "Squeegee Lantai",
+       "jp": "フロアスクイジー"
+      },
+      {
+       "id": "Pel Basah",
+       "jp": "{湿式|しっしき}モップ（ワンタッチモップ）"
+      },
+      {
+       "id": "Penyedot Debu Tipe Handheld",
+       "jp": "ハンディバキューム"
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Pel Basah (湿式モップ（ワンタッチモップ）) — Pel basah untuk mengepel lantai.",
+      "jp": "{湿式|しっしき}モップ（ワンタッチモップ）（しっしきモップ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/07.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Sapu Ruangan",
+       "jp": "{自在|じざい}ぼうき"
+      },
+      {
+       "id": "Pel Bentuk T",
+       "jp": "T{字型|じがた}モップ"
+      },
+      {
+       "id": "Squeegee Lantai",
+       "jp": "フロアスクイジー"
+      },
+      {
+       "id": "Lap",
+       "jp": "タオル"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Pel Bentuk T (T字型モップ) — Pel berbentuk T untuk mengepel lantai.",
+      "jp": "T{字型|じがた}モップ（ティーじがたモップ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/08.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Floor Pad",
+       "jp": "フロアパッド"
+      },
+      {
+       "id": "Gelas Pengukur",
+       "jp": "{計量|けいりょう}カップ"
+      },
+      {
+       "id": "Pel Bentuk Datar",
+       "jp": "フラット型モップ"
+      },
+      {
+       "id": "Pel Kering",
+       "jp": "{乾式|かんしき}モップ"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Pel Kering (乾式モップ) — Pel kering untuk menyapu debu dan kotoran ringan di lantai.",
+      "jp": "{乾式|かんしき}モップ（かんしきモップ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/09.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Pel Bentuk Datar",
+       "jp": "フラット型モップ"
+      },
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（ポッド型）"
+      },
+      {
+       "id": "Lap Serat Ultrafine",
+       "jp": "{超極細繊維|ちょうごくさいせんい}クロス"
+      },
+      {
+       "id": "Pengki untuk Air",
+       "jp": "{汚水取|おすいと}り"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Pel Bentuk Datar (フラット型モップ) — Pel berbentuk datar (flat) untuk mengepel/menyapu lantai dengan rata.",
+      "jp": "フラット型モップ（フラットがたモップ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/10.webp"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-alat2",
+   "tema": true,
+   "title": {
+    "id": "Kuis Gambar Peralatan 2",
+    "jp": "用具のクイズ 2"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Gelas Pengukur",
+       "jp": "{計量|けいりょう}カップ"
+      },
+      {
+       "id": "Sikat Dek",
+       "jp": "デッキブラシ"
+      },
+      {
+       "id": "Floor Pad",
+       "jp": "フロアパッド"
+      },
+      {
+       "id": "Hand Pad",
+       "jp": "ハンドパッド"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Sikat Dek (デッキブラシ) — Sikat bergagang panjang untuk menggosok lantai.",
+      "jp": "デッキブラシ（デッキブラシ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/11.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Kipas Pengering",
+       "jp": "{送風機|そうふうき}"
+      },
+      {
+       "id": "Squeegee Lantai",
+       "jp": "フロアスクイジー"
+      },
+      {
+       "id": "Penyedot Debu Tipe Handheld",
+       "jp": "ハンディバキューム"
+      },
+      {
+       "id": "Sarung Tangan Pelindung",
+       "jp": "{保護手袋|ほごてぶくろ}"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Squeegee Lantai (フロアスクイジー) — Karet pendorong untuk mengumpulkan dan membuang air dari lantai.",
+      "jp": "フロアスクイジー（フロアスクイジー）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/12.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Mesin Pembersih Bertekanan Tinggi",
+       "jp": "{高圧洗浄機|こうあつせんじょうき}"
+      },
+      {
+       "id": "Pengki untuk Air",
+       "jp": "{汚水取|おすいと}り"
+      },
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（アップライト型）"
+      },
+      {
+       "id": "Scraper",
+       "jp": "スクレーパー"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Pengki untuk Air (汚水取り) — Wadah penampung untuk mengambil air kotor.",
+      "jp": "{汚水取|おすいと}り（おすいとり）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/13.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Window Washer",
+       "jp": "シャンバー"
+      },
+      {
+       "id": "Gelas Pengukur",
+       "jp": "{計量|けいりょう}カップ"
+      },
+      {
+       "id": "Pembersih Debu Elektrik",
+       "jp": "{静電気|せいでんき}ほこり{取|と}り"
+      },
+      {
+       "id": "Polisher",
+       "jp": "ポリッシャー"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Window Washer (シャンバー) — Alat berbulu/busa untuk membasahi dan menggosok kaca.",
+      "jp": "シャンバー（シャンバー）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/14.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（ポッド型）"
+      },
+      {
+       "id": "Window Cleaner",
+       "jp": "ウインドスクイジー"
+      },
+      {
+       "id": "Dust Cloth",
+       "jp": "ダストクロス"
+      },
+      {
+       "id": "Pel Bentuk Datar",
+       "jp": "フラット型モップ"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Window Cleaner (ウインドスクイジー) — Karet pembersih kaca untuk menyapu air dari permukaan kaca.",
+      "jp": "ウインドスクイジー（ウインドスクイジー）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/15.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Troli Dorong",
+       "jp": "{手押|ておし}し{台車|だいしゃ}"
+      },
+      {
+       "id": "Sapu Ruangan",
+       "jp": "{自在|じざい}ぼうき"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      },
+      {
+       "id": "Lap",
+       "jp": "タオル"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Lap (タオル) — Kain lap untuk mengelap permukaan.",
+      "jp": "タオル（タオル）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/16.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Pembersih Lantai Otomatis",
+       "jp": "{自動床洗浄機|じどうゆかせんじょうき}"
+      },
+      {
+       "id": "Lap",
+       "jp": "タオル"
+      },
+      {
+       "id": "Papan Tanda",
+       "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）"
+      },
+      {
+       "id": "Lap Serat Ultrafine",
+       "jp": "{超極細繊維|ちょうごくさいせんい}クロス"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Lap Serat Ultrafine (超極細繊維クロス) — Kain serat sangat halus untuk membersihkan kotoran dengan baik.",
+      "jp": "{超極細繊維|ちょうごくさいせんい}クロス（ちょうごくさいせんいクロス）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/17.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Pel Bentuk T",
+       "jp": "T{字型|じがた}モップ"
+      },
+      {
+       "id": "Keranjang Limbah",
+       "jp": "{廃棄物|はいきぶつ}コレクター"
+      },
+      {
+       "id": "Sikat Rambut",
+       "jp": "{毛|け}かき"
+      },
+      {
+       "id": "Sikat Dek",
+       "jp": "デッキブラシ"
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Sikat Rambut (毛かき) — Alat untuk mengambil rambut/kotoran yang tersangkut di sikat atau mesin.",
+      "jp": "{毛|け}かき（けかき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/18.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Penyedot Debu Tipe Wet",
+       "jp": "ウェットバキューム"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      },
+      {
+       "id": "Sapu Ijuk",
+       "jp": "シダぼうき"
+      },
+      {
+       "id": "Ember",
+       "jp": "バケツ"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Ember (バケツ) — Wadah air atau larutan pembersih.",
+      "jp": "バケツ（バケツ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/19.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Troli Dorong",
+       "jp": "{手押|ておし}し{台車|だいしゃ}"
+      },
+      {
+       "id": "Extractor",
+       "jp": "エクストラクター"
+      },
+      {
+       "id": "Papan Tanda",
+       "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）"
+      },
+      {
+       "id": "Alat Pemeras Kain Pel",
+       "jp": "モップ{絞|しぼ}り器"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Alat Pemeras Kain Pel (モップ絞り器) — Alat untuk memeras kain pel.",
+      "jp": "モップ{絞|しぼ}り器（モップしぼりき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/20.webp"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-alat3",
+   "tema": true,
+   "title": {
+    "id": "Kuis Gambar Peralatan 3",
+    "jp": "用具のクイズ 3"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Perangkat Pencegah Listrik Bocor atau Arus Pendek",
+       "jp": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}"
+      },
+      {
+       "id": "Extractor",
+       "jp": "エクストラクター"
+      },
+      {
+       "id": "Pel Kering",
+       "jp": "{乾式|かんしき}モップ"
+      },
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（ポッド型）"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Perangkat Pencegah Listrik Bocor atau Arus Pendek (漏電・過電流防止装置) — Alat pengaman yang memutus listrik bila terjadi kebocoran arus atau arus berlebih.",
+      "jp": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}（ろうでん・かでんりゅうぼうしそうち）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/21.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（ポッド型）"
+      },
+      {
+       "id": "Polisher",
+       "jp": "ポリッシャー"
+      },
+      {
+       "id": "Squeegee Lantai",
+       "jp": "フロアスクイジー"
+      },
+      {
+       "id": "Pengki",
+       "jp": "{文化ちり取|ぶんかちりと}り"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Penyedot Debu (真空掃除機（ポッド型）) — Penyedot debu bentuk tabung untuk menyedot debu di lantai.",
+      "jp": "{真空掃除機|しんくうそうじき}（ポッド型）（しんくうそうじき（ポッドがた））"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/22.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Window Washer",
+       "jp": "シャンバー"
+      },
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（アップライト型）"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      },
+      {
+       "id": "Sikat Rambut",
+       "jp": "{毛|け}かき"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Penyedot Debu (真空掃除機（アップライト型）) — Penyedot debu tegak, cocok untuk karpet.",
+      "jp": "{真空掃除機|しんくうそうじき}（アップライト型）（しんくうそうじき（アップライトがた））"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/23.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Alat Sedot WC",
+       "jp": "プランジャー"
+      },
+      {
+       "id": "Penyedot Debu Tipe Handheld",
+       "jp": "ハンディバキューム"
+      },
+      {
+       "id": "Pembersih Lantai Otomatis",
+       "jp": "{自動床洗浄機|じどうゆかせんじょうき}"
+      },
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（アップライト型）"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Penyedot Debu Tipe Handheld (ハンディバキューム) — Penyedot debu genggam untuk tempat sempit dan sudut.",
+      "jp": "ハンディバキューム（ハンディバキューム）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/24.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Penyedot Debu Tipe Wet",
+       "jp": "ウェットバキューム"
+      },
+      {
+       "id": "Pel Bentuk T",
+       "jp": "T{字型|じがた}モップ"
+      },
+      {
+       "id": "Hand Pad",
+       "jp": "ハンドパッド"
+      },
+      {
+       "id": "Squeegee Lantai",
+       "jp": "フロアスクイジー"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Penyedot Debu Tipe Wet (ウェットバキューム) — Penyedot yang dapat menyedot air dan kotoran basah.",
+      "jp": "ウェットバキューム（ウェットバキューム）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/25.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Sapu Ijuk",
+       "jp": "シダぼうき"
+      },
+      {
+       "id": "Floor Pad",
+       "jp": "フロアパッド"
+      },
+      {
+       "id": "Lap",
+       "jp": "タオル"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Floor Pad (フロアパッド) — Bantalan yang dipasang pada polisher untuk menggosok atau memoles lantai.",
+      "jp": "フロアパッド（フロアパッド）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/26.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Pel Kering",
+       "jp": "{乾式|かんしき}モップ"
+      },
+      {
+       "id": "Kipas Pengering",
+       "jp": "{送風機|そうふうき}"
+      },
+      {
+       "id": "Pembersih Debu Elektrik",
+       "jp": "{静電気|せいでんき}ほこり{取|と}り"
+      },
+      {
+       "id": "Polisher",
+       "jp": "ポリッシャー"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Polisher (ポリッシャー) — Mesin putar untuk menggosok dan memoles lantai.",
+      "jp": "ポリッシャー（ポリッシャー）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/27.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Alat Sedot WC",
+       "jp": "プランジャー"
+      },
+      {
+       "id": "Ember",
+       "jp": "バケツ"
+      },
+      {
+       "id": "Sarung Tangan Pelindung",
+       "jp": "{保護手袋|ほごてぶくろ}"
+      },
+      {
+       "id": "Pembersih Lantai Otomatis",
+       "jp": "{自動床洗浄機|じどうゆかせんじょうき}"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Pembersih Lantai Otomatis (自動床洗浄機) — Mesin yang menyikat dan menyedot air kotor lantai secara otomatis.",
+      "jp": "{自動床洗浄機|じどうゆかせんじょうき}（じどうゆかせんじょうき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/28.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Penyedot Debu",
+       "jp": "{真空掃除機|しんくうそうじき}（ポッド型）"
+      },
+      {
+       "id": "Extractor",
+       "jp": "エクストラクター"
+      },
+      {
+       "id": "Ember",
+       "jp": "バケツ"
+      },
+      {
+       "id": "Pembersih Lantai Otomatis",
+       "jp": "{自動床洗浄機|じどうゆかせんじょうき}"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Extractor (エクストラクター) — Mesin pencuci karpet yang menyemprot cairan dan menyedot kembali.",
+      "jp": "エクストラクター（エクストラクター）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/29.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Mesin Pembersih Bertekanan Tinggi",
+       "jp": "{高圧洗浄機|こうあつせんじょうき}"
+      },
+      {
+       "id": "Dust Cloth Tipe Pel",
+       "jp": "ダストクロス型モップ"
+      },
+      {
+       "id": "Pengki",
+       "jp": "{文化ちり取|ぶんかちりと}り"
+      },
+      {
+       "id": "Alat Sedot WC",
+       "jp": "プランジャー"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Mesin Pembersih Bertekanan Tinggi (高圧洗浄機) — Mesin penyemprot air bertekanan tinggi untuk kotoran membandel.",
+      "jp": "{高圧洗浄機|こうあつせんじょうき}（こうあつせんじょうき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/30.webp"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-alat4",
+   "tema": true,
+   "title": {
+    "id": "Kuis Gambar Peralatan 4",
+    "jp": "用具のクイズ 4"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Kipas Pengering",
+       "jp": "{送風機|そうふうき}"
+      },
+      {
+       "id": "Pengki untuk Air",
+       "jp": "{汚水取|おすいと}り"
+      },
+      {
+       "id": "Dust Cloth",
+       "jp": "ダストクロス"
+      },
+      {
+       "id": "Window Cleaner",
+       "jp": "ウインドスクイジー"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Kipas Pengering (送風機) — Kipas untuk mengeringkan lantai atau karpet yang basah.",
+      "jp": "{送風機|そうふうき}（そうふうき）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/31.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Pel Bentuk Datar",
+       "jp": "フラット型モップ"
+      },
+      {
+       "id": "Scraper",
+       "jp": "スクレーパー"
+      },
+      {
+       "id": "Hand Pad",
+       "jp": "ハンドパッド"
+      },
+      {
+       "id": "Keranjang Limbah",
+       "jp": "{廃棄物|はいきぶつ}コレクター"
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Hand Pad (ハンドパッド) — Bantalan gosok yang dipegang tangan untuk menggosok kotoran.",
+      "jp": "ハンドパッド（ハンドパッド）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/32.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Window Cleaner",
+       "jp": "ウインドスクイジー"
+      },
+      {
+       "id": "Polisher",
+       "jp": "ポリッシャー"
+      },
+      {
+       "id": "Pembersih Debu Elektrik",
+       "jp": "{静電気|せいでんき}ほこり{取|と}り"
+      },
+      {
+       "id": "Troli Dorong",
+       "jp": "{手押|ておし}し{台車|だいしゃ}"
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Pembersih Debu Elektrik (静電気ほこり取り) — Alat penarik debu dengan listrik statis untuk tempat tinggi/sempit.",
+      "jp": "{静電気|せいでんき}ほこり{取|と}り（せいでんきほこりとり）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/33.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Sarung Tangan Pelindung",
+       "jp": "{保護手袋|ほごてぶくろ}"
+      },
+      {
+       "id": "Pel Kering",
+       "jp": "{乾式|かんしき}モップ"
+      },
+      {
+       "id": "Pel Bentuk Datar",
+       "jp": "フラット型モップ"
+      },
+      {
+       "id": "Floor Pad",
+       "jp": "フロアパッド"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Sarung Tangan Pelindung (保護手袋) — Melindungi tangan dari pembersih dan kotoran.",
+      "jp": "{保護手袋|ほごてぶくろ}（ほごてぶくろ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/34.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Papan Tanda",
+       "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）"
+      },
+      {
+       "id": "Lap Serat Ultrafine",
+       "jp": "{超極細繊維|ちょうごくさいせんい}クロス"
+      },
+      {
+       "id": "Sapu Ijuk",
+       "jp": "シダぼうき"
+      },
+      {
+       "id": "Scraper",
+       "jp": "スクレーパー"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Scraper (スクレーパー) — Alat pengerok untuk mengangkat kotoran yang menempel.",
+      "jp": "スクレーパー（スクレーパー）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/35.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Gelas Pengukur",
+       "jp": "{計量|けいりょう}カップ"
+      },
+      {
+       "id": "Pembersih Debu Elektrik",
+       "jp": "{静電気|せいでんき}ほこり{取|と}り"
+      },
+      {
+       "id": "Pengki untuk Air",
+       "jp": "{汚水取|おすいと}り"
+      },
+      {
+       "id": "Pel Bentuk Datar",
+       "jp": "フラット型モップ"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Gelas Pengukur (計量カップ) — Untuk menakar jumlah cairan pembersih.",
+      "jp": "{計量|けいりょう}カップ（けいりょうカップ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/36.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Lap Serat Ultrafine",
+       "jp": "{超極細繊維|ちょうごくさいせんい}クロス"
+      },
+      {
+       "id": "Window Washer",
+       "jp": "シャンバー"
+      },
+      {
+       "id": "Alat Sedot WC",
+       "jp": "プランジャー"
+      },
+      {
+       "id": "Kipas Pengering",
+       "jp": "{送風機|そうふうき}"
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Alat Sedot WC (プランジャー) — Alat pelontak untuk melancarkan saluran yang tersumbat.",
+      "jp": "プランジャー（プランジャー）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/37.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Papan Tanda",
+       "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）"
+      },
+      {
+       "id": "Window Washer",
+       "jp": "シャンバー"
+      },
+      {
+       "id": "Pembersih Debu Elektrik",
+       "jp": "{静電気|せいでんき}ほこり{取|と}り"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Keranjang Peralatan (作業カート) — Troli untuk membawa peralatan dan bahan pembersih.",
+      "jp": "{作業|さぎょう}カート（さぎょうカート）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/38.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Penyedot Debu Tipe Handheld",
+       "jp": "ハンディバキューム"
+      },
+      {
+       "id": "Keranjang Limbah",
+       "jp": "{廃棄物|はいきぶつ}コレクター"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      },
+      {
+       "id": "Window Cleaner",
+       "jp": "ウインドスクイジー"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Keranjang Limbah (廃棄物コレクター) — Wadah/troli untuk mengumpulkan sampah.",
+      "jp": "{廃棄物|はいきぶつ}コレクター（はいきぶつコレクター）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/39.webp"
+     }
+    },
+    {
+     "q": {
+      "id": "Gambar alat apa ini?",
+      "jp": "これは{何|なん}の{道具|どうぐ}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Troli Dorong",
+       "jp": "{手押|ておし}し{台車|だいしゃ}"
+      },
+      {
+       "id": "Keranjang Peralatan",
+       "jp": "{作業|さぎょう}カート"
+      },
+      {
+       "id": "Pengki",
+       "jp": "{文化ちり取|ぶんかちりと}り"
+      },
+      {
+       "id": "Alat Sedot WC",
+       "jp": "プランジャー"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Troli Dorong (手押し台車) — Troli dorong untuk mengangkut barang.",
+      "jp": "{手押|ておし}し{台車|だいしゃ}（ておしだいしゃ）"
+     },
+     "img": {
+      "src": "assets/ssw/building-cleaning/alat/40.webp"
+     }
+    }
+   ]
   }
  ]
 }

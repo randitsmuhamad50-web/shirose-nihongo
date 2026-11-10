@@ -1350,7 +1350,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261110b"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261110i"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261110j"/>
 </head>
 <body>
 
@@ -1380,7 +1380,7 @@ html{overflow-x:hidden;}
 <!-- ============ FLOATING NAV: Back + Home (hidden on home) ============ -->
 <div class="fab-nav hidden" id="fab-nav">
   <button class="fab" onclick="goBack()" title="Kembali">←</button>
-  <button class="fab home" onclick="route('home')" title="Home">🏠</button>
+  <button class="fab home" onclick="goHomeFab()" title="Beranda mapel">🏠</button>
 </div>
 
 <!-- ============ AUTH: now a dedicated page at route('login'); modal removed ============ -->
@@ -1408,7 +1408,7 @@ import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTer
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110b";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110i";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110j";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -2076,18 +2076,48 @@ window.addEventListener("popstate", () => {
   if (d && d.pushed && (location.hash.slice(1) || "") === d.back){ d.pushed = false; window.backFromDetail(true); }
 });
 
+// Mapel dipisah: JLPT, Kana, dan SSW tidak saling terhubung. Pindah mapel hanya lewat layar "pilih-level".
+const _subjectOf = (path) => { const n = String(path || "").split("/")[0]; if (n.startsWith("ssw")) return "ssw"; if (n.startsWith("kana")) return "kana";
+  if (n === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) return "ssw"; return "jlpt"; };
+const _parentOf = (path) => {
+  const [n, slug = "building-cleaning", a2] = String(path || "").split("/");
+  if (n === "ssw") return "pilih-level";
+  if (n === "hafalan" && _subjectOf(path) === "ssw") return state.hafalan_back || "ssw";
+  if (n === "ssw-peta") return "ssw";
+  if (n === "ssw-bab") return `ssw-peta/${slug}`;
+  if (n === "ssw-baca") { const m = /^b(\d+)s/.exec(a2 || ""); return m ? `ssw-bab/${slug}/bab${m[1]}` : `ssw-peta/${slug}`; }
+  if (n === "ssw-progres") return "ssw";
+  if (n.startsWith("ssw-")) return `ssw-peta/${slug}`;
+  if (n === "kana") return "pilih-level";
+  if (n.startsWith("kana-")) return "kana";
+  return null;
+};
 window.goBack = () => {
   if (window._materiDetail && (location.hash.slice(1) || "") === window._materiDetail.back){ window.backFromDetail(); return; }
-  const cur = (location.hash.slice(1) || "home").split("/")[0];
+  const here = location.hash.slice(1) || "home";
+  const cur = here.split("/")[0];
+  const sub = _subjectOf(here);
+  const st = window._routeStack;
+  if (sub !== "jlpt"){
+    // Mundur tepat 1 halaman di mapel yang sama; kalau riwayat habis/beda mapel → halaman induk (bukan pemilihan JLPT).
+    let i = st.length - 1;
+    while (i >= 0 && (st[i] === here || (cur === "ssw-buku" && String(st[i]).startsWith("ssw-buku")))) i--;
+    const prev = i >= 0 ? st[i] : null;
+    window._routeStack = st.slice(0, Math.max(0, i));
+    if (prev && _subjectOf(prev) === sub && prev !== here){ route(prev); return; }
+    route(_parentOf(here) || "pilih-level"); return;
+  }
   if (cur === "home" && state.user){ route("pilih-level"); return; }
-  if (window._routeStack.length >= 2){
-    window._routeStack.pop();                // remove current
-    const prev = window._routeStack.pop();   // remove previous (route() will push it back)
+  if (st.length >= 2){
+    st.pop();                // remove current
+    const prev = st.pop();   // remove previous (route() will push it back)
+    if (_subjectOf(prev) !== "jlpt"){ route("home"); return; }
     route(prev);
     return;
   }
   route("home");
 };
+window.goHomeFab = () => { const sub = _subjectOf(location.hash.slice(1) || "home"); route(sub === "ssw" ? "ssw" : sub === "kana" ? "kana" : "home"); };
 
 function _updateFabNav(name){
   const fab = document.getElementById("fab-nav");
@@ -2197,7 +2227,6 @@ function renderCharaOrbital(){
   // Choukai JLPT ditambahkan → 9 node, jarak dihitung ulang supaya orbit tetap simetris.
   NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
   // Sesi Hiragana & Katakana (berdiri sendiri) → 10 node, jarak dihitung ulang di bawah.
-  NAV.splice(1, 0, { icon:"あ", jp:"仮名", lbl:"KANA", route:"kana" });
   NAV.forEach((n, i) => { n.deg = i * 360 / NAV.length; });
   // Desktop: posisi di lingkaran memakai CSS var --R (radius responsif).
   // HP: node yang sama ditampilkan di kolom kiri & kanan karakter.
@@ -2235,18 +2264,9 @@ function renderCharaOrbital(){
     </div>
     <div class="home-disp">${displayBar("home")}</div>
 
-    <div id="ssw-dash">${(() => { setTimeout(() => window.SSW && window.SSW.dashCard && window.SSW.dashCard(), 0); return ""; })()}</div>
     <div class="panel">
       <h2>Aktivitas cepat</h2>
       <div class="hub-grid">
-        <div class="hub-card kc-entry" onclick="route('kana')">
-          <div class="ico">あ</div>
-          <div class="info"><div class="ttl">Hiragana &amp; Katakana</div><div class="sub">Tabel, urutan goresan, latihan menulis, hafalan &amp; tes</div></div>
-        </div>
-        <div class="hub-card" onclick="route('ssw')">
-          <div class="ico">技</div>
-          <div class="info"><div class="ttl">SSW 特定技能</div><div class="sub">Pulau bidang kerja, materi, kosakata &amp; kuis</div></div>
-        </div>
         ${FB.userIsGuru() ? `<div class="hub-card" onclick="location.href='./teacher.html'">
           <div class="ico">🛠️</div>
           <div class="info"><div class="ttl">Dashboard Guru</div><div class="sub">Kelola siswa, bank soal &amp; laporan</div></div>
@@ -2723,8 +2743,6 @@ window.showMateri = async (tipe, idx) => {
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" data-say="${SV.escAttr(k)}" data-role="kanji" onclick="SV.btn(this)">🔊 Dengar</button>
-          <button class="btn ghost" onclick="KC.openKanji(${idx},'belajar')">書き順を見る</button>
-          <button class="btn" onclick="KC.openKanji(${idx},'latihan')">書いてみよう ✍️</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
         </div>
         ${_commentsPlaceholder("kanji", state.level, itemNo(it, idx))}
@@ -3139,6 +3157,8 @@ async function _saveSrs(){
     if (state.user) await FB.saveSRS(state._srsLevel || state.level, state.srs);
     else localStorage.setItem(`shirose-srs-${state._srsLevel || state.level}`, JSON.stringify(state.srs));
   } catch (e) { console.warn("_saveSrs:", e.message); }
+  // Progres SSW (poin & peringkat) langsung dihitung tiap kartu digeser, tidak menunggu sesi selesai.
+  if (state._srsLevel === "ssw-bc" && window.sswOnProgress) window.sswOnProgress();
 }
 
 // Entry router. renderHafalan() -> selection. renderHafalan(['go']) -> session using state.hafalan.
@@ -3486,10 +3506,12 @@ function renderHafalanFlashcard(){
         <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
         <div class="flash-card enter" id="flash-card" data-front="${safeFront}" data-say="${safeFront}" onclick="hafCardTap(event)">
           <div class="no-pill">${fmtNo(it.no)} · ${_hafBadge(it)}</div>
-          <div class="front">${it.front}</div>
+          ${it.img ? `<div class="front imgf"><img src="${it.img}" alt="Gambar peralatan" draggable="false"></div>` : `<div class="front">${it.front}</div>`}
           <div class="back-face">
+            ${it.img ? `<div class="jpname">${it.front}</div>` : ""}
             <div class="reading">${it.reading || "—"}</div>
             <div class="arti">${it.back || "—"}</div>
+            ${it.fungsi ? `<div class="fungsi">${it.fungsi}</div>` : ""}
           </div>
           <button class="say-btn" title="Dengarkan" onclick="event.stopPropagation(); speakJP(this.closest('.flash-card').dataset.say)">🔊</button>
           <div class="tap-hint">👆 Tap kartu = bolak-balik depan/belakang · ← Geser Lupa · Ingat Geser →</div>
@@ -3624,11 +3646,12 @@ window.hafRate = async (rate) => {
   card.last = normalized;
   const justMastered = FB.detectNewMastery(card);
   state.srs[key] = card;
+  if (it.tipe === "ssw" && it.vnum) state.srs[_srsKey("ssw", { no: it.vnum }, it.vnum - 1)] = { ...card };   // kartu alat ikut progres kosakata utamanya
   await _saveSrs();
 
   if (normalized === "ingat"){
     playJurus();   // Part 25: signature animation on correct recall
-    await awardXP(3, justMastered ? 1 : 0);
+    await awardXP(3, justMastered ? 2 : 1);
     if (justMastered) toast(`🏆 ${it.tipe === "kanji" ? "Kanji" : "Kosakata"} ${it.front} — MASTERED! +1 🪙`);
     state.hafalan_score.benar++;
     if (state.user) {
@@ -3671,8 +3694,8 @@ function renderHafalanMatching(){
           ${batch.map((it, i) => `
             <button class="match-item" data-side="L" data-i="${i}" onclick="matchTap('L', ${i})">
               <span class="no-badge">${fmtNo(it.no)}</span>
-              <div class="jp">${it.front}</div>
-              <div class="rd">${it.reading}</div>
+              ${it.img ? `<img class="match-img" src="${it.img}" alt="Alat">` : `<div class="jp">${it.front}</div>
+              <div class="rd">${it.reading}</div>`}
             </button>`).join("")}
         </div>
         <div class="match-col" id="match-right">
@@ -3733,7 +3756,7 @@ async function matchAfterPair(correct, iInBatch){
   if (correct){
     _autoSpeakJP(it.front);
     playJurus();
-    await awardXP(3, justMastered ? 1 : 0);
+    await awardXP(3, justMastered ? 2 : 1);
     if (justMastered) toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
     if (state.user) {
       const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
@@ -3777,9 +3800,10 @@ function renderHafalanMultiple(){
       </div>
       <div class="kanji-detail" style="padding:12px 0;">
         <div class="no-pill">${fmtNo(it.no)} · ${_hafBadge(it)}</div>
-        <div class="big-k" style="font-size:72px;">${it.front}</div>
+        ${it.img ? `<img class="mc-img" src="${it.img}" alt="Alat" draggable="false"><p style="color:var(--gray); margin-top:8px;">Alat apa ini? (pilih namanya)</p>`
+          : `<div class="big-k" style="font-size:72px;">${it.front}</div>
         <div class="readings"><div class="r">${it.reading}</div></div>
-        <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>
+        <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>`}
       </div>
       <div class="opsi-list" id="mc-opts">
         ${options.map((o, i) => `
@@ -4129,7 +4153,7 @@ window.ujianSelesai = async () => {
   const skor = Math.round((benar / total) * 100);
   const durasi = Math.round((Date.now() - u.mulai) / 1000);
   await FB.catatNilai({ kategoriId: u.kategoriId, skor, benar, salah, waktu: durasi });
-  await awardXP(benar * 5, 0);
+  await awardXP(benar * 5, benar > 0 ? Math.ceil(benar / 4) : 0);
   let lulusReward = { firstTime:false, rewardKoin:0 };
   if (state.user){
     try { lulusReward = await FB.claimUjianLulusReward(u.kategoriId, skor, lulusMin); } catch(e){}
