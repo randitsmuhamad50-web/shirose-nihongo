@@ -153,6 +153,7 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
 import * as FB from "./js/firebase-sync.js?v=20261109j";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261110a";
 
 const state = {
   user: null,
@@ -263,6 +264,7 @@ function renderApp(){
         <div class="nav-item ${state.tab==='import'?'active':''}" onclick="setTab('import')"><span class="ico">📊</span> Import Excel</div>
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
+        <div class="nav-item ${state.tab==='ssw'?'active':''}" onclick="setTab('ssw')"><span class="ico">🌏</span> SSW</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
         <div class="nav-item ${state.tab==='jlpt'?'active':''}" onclick="setTab('jlpt')"><span class="ico">🏯</span> Hasil JLPT</div>
         <div class="nav-item ${state.tab==='diagnostik'?'active':''}" onclick="setTab('diagnostik')"><span class="ico">🔧</span> Diagnostik</div>
@@ -286,6 +288,7 @@ async function renderTab(){
     else if (state.tab === "import") mount.innerHTML = await renderImportTab();
     else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
+    else if (state.tab === "ssw") mount.innerHTML = await renderSswTab(FB, { toast, rerender: () => renderTab() });
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
     else if (state.tab === "jlpt") mount.innerHTML = await renderJlptTab();
     else if (state.tab === "diagnostik") mount.innerHTML = await renderDiagnostikTab();
