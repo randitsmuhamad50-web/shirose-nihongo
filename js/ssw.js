@@ -13,9 +13,9 @@
  * ===================================================================== */
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
-  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, DAY
-} from "./ssw-core.js?v=20261110f";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110f";
+  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
+} from "./ssw-core.js?v=20261110g";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110g";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -28,14 +28,16 @@ const setLang = (l) => LSset("shirose-ssw-lang", l);
 const getMode = () => LSget("shirose-ssw-mode", "lengkap") === "ringkas" ? "ringkas" : "lengkap";
 const setMode = (m) => LSset("shirose-ssw-mode", m);
 const ruby = () => LSget("shirose-ssw-ruby", "1") !== "0";
-const PREF_DEF = { size: 100, fw: 0, lh: 0 };
+const PREF_DEF = { size: 100, fw: 0, lh: 0, popup: 1, hafal: 1 };
+const hafalOn = () => getPrefs().hafal !== 0;
+const popupOn = () => getPrefs().popup !== 0;
 const getPrefs = () => { try { return { ...PREF_DEF, ...JSON.parse(LSget("shirose-ssw-ui", "{}")) }; } catch (e) { return { ...PREF_DEF }; } };
 const setPrefs = (p) => LSset("shirose-ssw-ui", JSON.stringify(p));
 const onSsw = () => /^#\/?ssw/.test(location.hash);
 function applyPrefs() {
   const p = getPrefs(), b = document.body;
   b.style.setProperty("--sw-zoom", String(Math.min(2.2, Math.max(0.7, p.size / 100))));
-  b.dataset.swFw = String(p.fw); b.dataset.swLh = String(p.lh);
+  b.dataset.swFw = String(p.fw); b.dataset.swLh = String(p.lh); b.classList.toggle("sw-nohafal", p.hafal === 0);
   ensurePrefsUI();
   const fab = document.getElementById("sw-aa"); if (fab) fab.style.display = onSsw() ? "" : "none";
   if (!onSsw()) { const sh = document.getElementById("sw-prefs"); if (sh) sh.hidden = true; }
@@ -77,6 +79,8 @@ async function gate(slug) {
   try { pack = await loadPack(slug); }
   catch (e) { return { err: msgPage("🚧", `${esc(b.nama)} belum tersedia`, "Materi untuk bidang ini belum diunggah.") }; }
   const P = await getProgress(slug);
+  await syncCards(P, pack.vocab || []);
+  if (P.pref) { const lp = getPrefs(); setPrefs({ ...lp, ...P.pref }); }
   return { b, pack, P };
 }
 const visibleChapters = (b, pack) => pack.chapters.filter(c => siswaBolehBab(b, c.id));
@@ -161,7 +165,7 @@ async function renderPeta([slug]) {
     <div class="sw-map sw-map-l">${mapSVG(nodes, false)}</div>
     <div class="sw-actions">
       ${last ? `<button class="btn" onclick="route('${esc(last.route)}')">▶ Lanjutkan: ${esc(last.label)}</button>` : ""}
-      <button class="btn ghost" onclick="route('ssw-kartu/${slug}/all/review')">🃏 Flashcard${st.due ? ` · ${st.due} jatuh tempo` : ""}</button>
+      <button class="btn ghost" onclick="route('ssw-hafal/${slug}')">🃏 Flashcard${st.due ? ` · ${st.due} jatuh tempo` : ""}</button>
       <button class="btn ghost" onclick="route('ssw-kosa/${slug}/all')">📚 Kosakata (${st.total})</button>
       <button class="btn ghost" onclick="route('ssw-buku/${slug}/${getLang()}/1')">📖 Buku interaktif</button>
       <button class="btn ghost" onclick="route('ssw-kuis/${slug}')">📝 Kuis</button>
@@ -200,7 +204,7 @@ async function renderBab([slug, babId]) {
     <div class="sw-panel"><h2>Subbab</h2><ol class="sw-subs">${subs}</ol></div>
     <div class="sw-panel"><h2>Latihan bab ini</h2><div class="sw-actions left"><button class="btn" onclick="route('ssw-hafal/${slug}/${c.id}')">🃏 HAFALAN KOSAKATA · 単語暗記</button>
       <button class="btn ghost" onclick="route('ssw-kosa/${slug}/${c.id}')">📚 Kosakata BAB ${c.no} (${words.length})</button>
-      <button class="btn ghost" onclick="route('ssw-kartu/${slug}/${c.id}/review')">🃏 Flashcard BAB ${c.no}</button>
+      <button class="btn ghost" onclick="route('ssw-hafal/${slug}/${c.id}')">🃏 Flashcard BAB ${c.no}</button>
       ${qz.map((q, i) => `<button class="btn ghost" onclick="route('ssw-kuis/${slug}/${q.id}')">📝 Kuis ${i + 1}${P.quiz[q.id] ? ` · ${P.quiz[q.id].best}%` : ""}</button>`).join("")}
     </div></div>`);
 }
@@ -242,11 +246,12 @@ async function renderBaca([slug, subId, mode, lang]) {
   setTimeout(() => window.SSW.linkVocab(slug), 0);
   return wrap(`
     ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: `BAB ${c.no}`, go: `route('ssw-bab/${slug}/${c.id}')` }, { t: `${s.no}` }])}
-    <div class="sw-rtool">
+    <div class="sw-rtool ${LSget("shirose-ssw-tb", "1") === "0" ? "min" : ""}">
       <div class="r1">
         ${prev ? `<button class="btn ghost" onclick="${link(prev)}" aria-label="Subbab sebelumnya">‹</button>` : `<button class="btn ghost" onclick="route('ssw-bab/${slug}/${c.id}')" aria-label="Pengantar bab">‹</button>`}
         <select aria-label="Pilih subbab" onchange="if(this.value)SSW.go('${slug}',this.value)">${(() => { let g = null, h = ""; for (const x of flat) { if (g !== x.c.id) { if (g) h += "</optgroup>"; g = x.c.id; h += `<optgroup label="BAB ${x.c.no} — ${esc(plain(L(x.c.title, "id")))}">`; } h += `<option value="${x.s.id}" ${x.s.id === subId ? "selected" : ""}>${P.read[x.s.id] ? "✓ " : ""}${x.c.no}.${x.s.no} ${esc(plain(L(x.s.title, "id")))}</option>`; } return h + "</optgroup>"; })()}</select>
         ${next ? `<button class="btn" onclick="SSW.finish('${slug}','${s.id}','${next.s.id}')" aria-label="Subbab berikutnya">›</button>` : `<button class="btn" onclick="SSW.finish('${slug}','${s.id}',null)" aria-label="Selesai bab">✓</button>`}
+        <button class="btn ghost tbt" onclick="SSW.toolbarToggle()" aria-label="Tampilkan/sembunyikan pengaturan">⚙</button>
       </div>
       <div class="r2">
         <div class="sw-seg sm"><button class="${mode === "lengkap" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/lengkap/${lang}')">Lengkap</button><button class="${mode === "ringkas" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/ringkas/${lang}')">Ringkas</button></div>
@@ -325,7 +330,7 @@ async function renderKosa([slug, scope = "all"]) {
       <p>${vocab.length} kata · ${st.hafal + st.kuasa} hafal · ${st.belum + st.ulang} perlu review · ${st.baru} baru</p></div>
     <div class="sw-tabs"><button class="${scope === "all" ? "on" : ""}" onclick="route('ssw-kosa/${slug}/all')">All Vocabulary</button>${chs.map(c => `<button class="${scope === c.id ? "on" : ""}" onclick="route('ssw-kosa/${slug}/${c.id}')">BAB ${c.no} Vocabulary</button>`).join("")}</div>
     <div class="sw-tools"><input id="sw-q" type="search" placeholder="Cari kata / arti / romaji…" oninput="SSW.vFilter()"><select id="sw-cat" onchange="SSW.vFilter()"><option value="">Semua kategori</option>${cats.map(c => `<option>${esc(c)}</option>`).join("")}</select>
-      <button class="btn" onclick="route('ssw-kartu/${slug}/${scope}/review')">🃏 Flashcard</button></div>
+      <button class="btn" onclick="route('ssw-hafal/${slug}/${scope === "all" ? "" : scope}')">🃏 Flashcard</button></div>
     <div class="sw-vlist" id="sw-vlist"></div>`);
 }
 function vRow(v, P, slug) {
@@ -339,35 +344,36 @@ function vRow(v, P, slug) {
 
 /* ============================== FLASHCARD SM-2 ============================== */
 let FC = null;
-async function renderKartu([slug, scope = "all", mode = "review"]) {
-  applyRuby();
+const hafItems = (vocab) => vocab.map(v => ({ tipe: "ssw", idx: vnum(v) - 1, no: vnum(v), front: v.kata, reading: v.kana || "", back: v.arti || "", vid: v.id }));
+/** Flashcard/hafalan = mesin JLPT (index.html: sswHafalStart). Rute lama ssw-kartu hanya meluncurkan mesin itu. */
+async function renderKartu([slug, scope = "all", mode = "semua"]) {
   const g = await gate(slug); if (g.err) return g.err;
+  if (!hafalOn()) return msgPage("🃏", "Fitur hafalan dimatikan", "Aktifkan lagi di tombol Aa (Pengaturan tampilan) › Fitur hafalan.", `ssw-peta/${slug}`);
   const { b, pack, P } = g;
   const okBab = new Set(visibleChapters(b, pack).map(c => c.id));
   let vocab = pack.vocab.filter(v => okBab.has(v.bab));
-  if (scope !== "all") vocab = vocab.filter(v => v.bab === scope);
-  const queue = buildQueue(P, vocab, { mode });
-  P.last = { route: `ssw-kartu/${slug}/${scope}/${mode}`, label: `Flashcard ${scope === "all" ? "semua bab" : /^[sw]:/.test(scope) ? "pilihan" : scope.replace("bab", "BAB ")}`, t: Date.now() };
-  FC = { slug, scope, mode, vocab, P, queue, i: 0, hist: [], rq: {}, ok: 0, ng: 0, flipped: false };
-  setTimeout(() => window.SSW.fcDraw(), 0);
-  const st = cardStats(P, vocab);
-  return wrap(`
-    ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Flashcard" }])}
-    <div class="sw-tabs sm"><button class="${mode === "review" ? "on" : ""}" onclick="route('ssw-kartu/${slug}/${scope}/review')">Review harian (${buildQueue(P, vocab, {}).length})</button><button class="${mode === "belum" ? "on" : ""}" onclick="route('ssw-kartu/${slug}/${scope}/belum')">Belum hafal (${st.belum + st.ulang})</button><button class="${mode === "semua" ? "on" : ""}" onclick="route('ssw-kartu/${slug}/${scope}/semua')">Semua kartu (${vocab.length})</button></div>
-    <div id="fc-root"></div>`, "sw-fcwrap");
+  if (scope.startsWith("s:")) { const ss = scope.slice(2).split("+"); vocab = vocab.filter(v => (v.src || []).some(x => ss.includes(x))); }
+  else if (scope.startsWith("w:")) { const ws = scope.slice(2).split("+"); vocab = pack.vocab.filter(v => ws.includes(v.id)); }
+  else if (scope !== "all") vocab = vocab.filter(v => v.bab === scope);
+  vocab = filterByState(P, vocab, mode);
+  if (!window.sswHafalStart) return msgPage("🚧", "Mesin hafalan belum siap", "Muat ulang halaman.", `ssw-peta/${slug}`);
+  P.last = { route: `ssw-hafal/${slug}`, label: "Hafalan kosakata", t: Date.now() }; touch(slug);
+  const ok = await window.sswHafalStart({ items: hafItems(vocab), mode: "flashcard", back: `ssw-hafal/${slug}` });
+  if (ok === false) return msgPage("🃏", "Tidak ada kosakata", "Tidak ada kata yang cocok dengan filter ini.", `ssw-hafal/${slug}`);
 }
+const filterByState = (P, vocab, f) => vocab.filter(v => { const st = cardState(P.cards[v.id]); return !f || f === "semua" || f === "all" || f === "review" || f === st || (f === "hafal" && st === "kuasa") || ((f === "ulang" || f === "belum") && (st === "belum" || st === "ulang")); });
 
 
 
 /* ============================== VOCABULARY HUB ============================== */
-let HF = { slug: "", vocab: [], P: null, f: "semua", sel: [], n: 0 };
+let HF = { slug: "", vocab: [], P: null, f: "semua", sel: [], n: 0, mode: "flashcard" };
 async function renderHafal([slug, pre]) {
   applyRuby();
   const g = await gate(slug); if (g.err) return g.err;
   const { b, pack, P } = g;
   const chs = visibleChapters(b, pack);
   const okBab = new Set(chs.map(c => c.id));
-  HF = { slug, vocab: pack.vocab.filter(v => okBab.has(v.bab)), P, f: "semua", sel: [], n: 0 };
+  HF = { slug, vocab: pack.vocab.filter(v => okBab.has(v.bab)), P, f: "semua", sel: [], n: 0, mode: "flashcard" };
   const cnt = (sid) => HF.vocab.filter(w => (w.src || []).includes(sid)).length;
   const st = cardStats(P, HF.vocab);
   const groups = chs.map(c => `<div class="sw-panel hf-g"><label class="hf-bab"><input type="checkbox" ${(!pre || pre === c.id) ? "checked" : ""} onchange="SSW.hafalBab('${c.id}',this.checked)"> <b>BAB ${c.no} — ${esc(plain(L(c.title, "id")))}</b></label>
@@ -377,9 +383,11 @@ async function renderHafal([slug, pre]) {
     <div class="sw-head compact"><div class="jp">単語暗記</div><h1>Hafalan Kosakata</h1><p>Pilih subbab (boleh banyak). Kata yang sama dari beberapa subbab hanya muncul sekali.</p></div>
     <div class="sw-panel"><div class="hf-stats"><span>Baru <b>${st.baru}</b></span><span>Belum <b>${st.belum}</b></span><span>Perlu ulang <b>${st.due}</b></span><span>Hafal <b>${st.hafal}</b></span><span>Kuasa <b>${st.kuasa}</b></span></div></div>
     <div class="hf-f sw-seg sm" style="flex-wrap:wrap;border-radius:18px">${[["semua", "Semua"], ["baru", "Baru"], ["belum", "Belum hafal"], ["ulang", "Perlu diulang"], ["hafal", "Sudah hafal"]].map(([k, t]) => `<button data-f="${k}" class="${k === "semua" ? "on" : ""}" onclick="SSW.hafalFilter('${k}')">${t}</button>`).join("")}</div>
+    <div class="hf-quick"><button class="sw-chip" onclick="SSW.hafalAll(true)">☑ Semua Building Cleaning</button><button class="sw-chip" onclick="SSW.hafalAll(false)">☐ Kosongkan</button>${chs.map(c => `<button class="sw-chip" onclick="SSW.hafalOnly('${c.id}')">Hanya BAB ${c.no}</button>`).join("")}</div>
+    <div class="hf-m sw-seg sm" style="border-radius:18px;margin-bottom:10px">${[["flashcard", "🃏 Flashcard"], ["matching", "🔗 Matching"], ["multiple", "✅ Pilihan Ganda"]].map(([k, t]) => `<button data-m="${k}" class="${k === "flashcard" ? "on" : ""}" onclick="SSW.hafalMode('${k}')">${t}</button>`).join("")}</div>
     <div id="hf-list">${groups}</div>
     <div class="hf-bar"><span>Total kosakata unik: <b id="hf-n">0</b> kata</span><button class="btn sw-big" onclick="SSW.hafalGo()">MULAI HAFALAN ›</button></div>
-    <div class="sw-attr">Sistem hafalan memakai SM-2 (jadwal ulang otomatis). Satu kali menekan "Hafal" belum dianggap dikuasai.</div>`);
+    <div class="sw-attr">Hafalan memakai mesin yang sama dengan JLPT (Flashcard, Matching, Pilihan Ganda); progres SSW tersimpan terpisah di akunmu.</div>`);
 }
 
 /* ============================== LEADERBOARD ============================== */
@@ -488,6 +496,7 @@ async function dashCard() {
 
 /* ============================== HANDLER GLOBAL ============================== */
 const SSW = window.SSW = {
+  toolbarToggle() { const t = document.querySelector(".sw-rtool"); if (!t) return; const m = t.classList.toggle("min"); LSset("shirose-ssw-tb", m ? "0" : "1"); },
   /* --- tampilan & zoom --- */
   prefs() {
     const sh = document.getElementById("sw-prefs"); if (!sh) return;
@@ -500,11 +509,15 @@ const SSW = window.SSW = {
       <div class="sw-seg sm"><button type="button" class="${p.fw === 0 ? "on" : ""}" onclick="SSW.prefSet('fw',0)">Normal</button><button type="button" class="${p.fw === 1 ? "on" : ""}" onclick="SSW.prefSet('fw',1)">Tebal</button><button type="button" class="${p.fw === 2 ? "on" : ""}" onclick="SSW.prefSet('fw',2)">Sangat tebal</button></div>
       <label>Jarak baris</label>
       <div class="sw-seg sm"><button type="button" class="${p.lh === 0 ? "on" : ""}" onclick="SSW.prefSet('lh',0)">Normal</button><button type="button" class="${p.lh === 1 ? "on" : ""}" onclick="SSW.prefSet('lh',1)">Lega</button><button type="button" class="${p.lh === 2 ? "on" : ""}" onclick="SSW.prefSet('lh',2)">Sangat lega</button></div>
+      <label>Pop-up kosakata di materi</label>
+      <div class="sw-seg sm"><button type="button" class="${p.popup !== 0 ? "on" : ""}" onclick="SSW.prefSet('popup',1)">ON</button><button type="button" class="${p.popup === 0 ? "on" : ""}" onclick="SSW.prefSet('popup',0)">OFF</button></div>
+      <label>Fitur hafalan kosakata</label>
+      <div class="sw-seg sm"><button type="button" class="${p.hafal !== 0 ? "on" : ""}" onclick="SSW.prefSet('hafal',1)">ON</button><button type="button" class="${p.hafal === 0 ? "on" : ""}" onclick="SSW.prefSet('hafal',0)">OFF</button></div>
       <button type="button" class="btn ghost" style="margin-top:10px;width:100%" onclick="SSW.prefReset()">Atur ulang</button></div>`;
     sh.hidden = false;
   },
   pref(k, d) { const p = getPrefs(); this.prefSet(k, Math.min(220, Math.max(70, p[k] + d)), true); },
-  prefSet(k, v, redraw) { const p = getPrefs(); p[k] = Number(v); setPrefs(p); applyPrefs(); if (k === "size") { const o = document.getElementById("sw-o1"); if (o) o.textContent = p.size + "%"; const r = document.getElementById("sw-r1"); if (r) r.value = p.size; } else { const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } } },
+  prefSet(k, v, redraw) { const p = getPrefs(); p[k] = Number(v); setPrefs(p); applyPrefs(); if (k === "popup" || k === "hafal") { const slug = (location.hash.match(/^#\/?ssw-[a-z]+\/([^\/]+)/) || [])[1] || "building-cleaning"; getProgress(slug).then(P => { P.pref = { popup: p.popup, hafal: p.hafal }; touch(slug); flush(slug); }); toast(k === "popup" ? (v ? "Pop-up kosakata ON" : "Pop-up kosakata OFF") : (v ? "Hafalan ON" : "Hafalan OFF")); } if (k === "size") { const o = document.getElementById("sw-o1"); if (o) o.textContent = p.size + "%"; const r = document.getElementById("sw-r1"); if (r) r.value = p.size; } else { const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } } },
   prefReset() { setPrefs({ ...PREF_DEF }); applyPrefs(); const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } },
   zoomPage(url) { SSW.zoomImg({ style: { backgroundImage: `url('${url}')`, aspectRatio: "1", backgroundSize: "100%", backgroundPosition: "0% 0%" } }, "full"); },
   zoomImg(el, startMode) {
@@ -557,6 +570,7 @@ const SSW = window.SSW = {
   /* --- kosakata di dalam materi --- */
   async linkVocab(slug) {
     const root = document.querySelector(".sw-lesson .sw-body"); if (!root || root.dataset.vl) return; root.dataset.vl = "1";
+    if (!popupOn()) return;
     const pack = await loadPack(slug);
     const list = (pack.vocab || []).filter(v => v.kata && v.kata.length >= 2);
     if (!list.length) return;
@@ -611,16 +625,24 @@ const SSW = window.SSW = {
     sh.hidden = false; document.body.classList.add("sw-lbopen");
   },
   vclose() { const sh = document.getElementById("sw-vs"); if (sh) sh.hidden = true; document.body.classList.remove("sw-lbopen"); },
-  async vadd(slug, id) { const P = await getProgress(slug); if (!P.cards[id]) P.cards[id] = newCard(); touch(slug); flush(slug); toast("Masuk daftar hafalan ✓"); },
+  async vadd(slug, id) { const pack = await loadPack(slug), v = pack.vocab.find(x => x.id === id); if (!v || !window.sswAddCard) return; await window.sswAddCard(vnum(v), vnum(v) - 1); const P = await getProgress(slug); await syncCards(P, pack.vocab, true); toast("Masuk daftar hafalan ✓"); },
   /* --- hub hafalan --- */
   hafalCount() {
     const q = [...document.querySelectorAll("#hf-list input[data-sub]:checked")].map(i => i.dataset.sub);
     const set = new Set(); for (const w of HF.vocab) if ((w.src || []).some(x => q.includes(x))) { const c = HF.P.cards[w.id], stt = cardState(c); if (HF.f === "semua" || HF.f === stt || (HF.f === "hafal" && stt === "kuasa") || ((HF.f === "ulang" || HF.f === "belum") && (stt === "belum" || stt === "ulang"))) set.add(w.id); }
     const el = document.getElementById("hf-n"); if (el) el.textContent = set.size; HF.sel = q; HF.n = set.size;
   },
+  hafalAll(on) { document.querySelectorAll('#hf-list input[type=checkbox]:not(:disabled)').forEach(i => i.checked = on); SSW.hafalCount(); },
+  hafalOnly(babId) { document.querySelectorAll('#hf-list input[type=checkbox]:not(:disabled)').forEach(i => { i.checked = (i.dataset.bab === babId) || (i.closest('.hf-g')?.querySelector('input[data-sub][data-bab="' + babId + '"]') && !i.dataset.sub); }); SSW.hafalCount(); },
   hafalBab(babId, on) { document.querySelectorAll(`#hf-list input[data-bab="${babId}"]`).forEach(i => i.checked = on); SSW.hafalCount(); },
   hafalFilter(f) { HF.f = f; document.querySelectorAll(".hf-f button").forEach(b => b.classList.toggle("on", b.dataset.f === f)); SSW.hafalCount(); },
-  hafalGo() { if (!HF.sel.length) return toast("Pilih minimal 1 subbab"); if (!HF.n) return toast("Tidak ada kosakata dengan filter ini"); route(`ssw-kartu/${HF.slug}/s:${HF.sel.join("+")}/${HF.f === "semua" ? "semua" : HF.f}`); },
+  hafalMode(m) { HF.mode = m; document.querySelectorAll(".hf-m button").forEach(b => b.classList.toggle("on", b.dataset.m === m)); },
+  async hafalGo() {
+    if (!HF.sel.length) return toast("Pilih minimal 1 subbab");
+    const sel = HF.sel; const vocab = filterByState(HF.P, HF.vocab.filter(w => (w.src || []).some(x => sel.includes(x))), HF.f);
+    if (!vocab.length) return toast("Tidak ada kosakata dengan filter ini");
+    await window.sswHafalStart({ items: hafItems(vocab), mode: HF.mode || "flashcard", back: `ssw-hafal/${HF.slug}` });
+  },
   rankScope(slug, sc) { RANK_SCOPE = sc; route(`ssw-rank/${slug}`); },
   /* --- hub --- */
   async pick(slug) {

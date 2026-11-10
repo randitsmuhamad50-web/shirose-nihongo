@@ -1350,7 +1350,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261110b"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261110f"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261110g"/>
 </head>
 <body>
 
@@ -1408,7 +1408,7 @@ import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTer
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110b";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110f";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110g";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -2134,7 +2134,7 @@ window.route = (path) => {
 
   // Alur wajib: LOGIN → PEMILIHAN JLPT → CHARACTER → fitur. Selama siswa
   // belum memilih level di sesi ini, semua halaman diarahkan ke #pilih-level.
-  if (state.user && !BEBAS_PILIH_LEVEL.has(name) && !levelSudahDipilih()){
+  if (state.user && !BEBAS_PILIH_LEVEL.has(name) && !String(name).startsWith("ssw") && !(name === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) && !levelSudahDipilih()){
     return route("pilih-level");
   }
   renderLevelPills();
@@ -3128,16 +3128,16 @@ function _normalizeItem(tipe, it, idx){
 async function _loadSrs(){
   let srs = {};
   try {
-    if (state.user) srs = await FB.loadSRS(state.level);
-    else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state.level}`) || "{}");
+    if (state.user) srs = await FB.loadSRS(state._srsLevel || state.level);
+    else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state._srsLevel || state.level}`) || "{}");
   } catch (e) { console.warn("_loadSrs:", e.message); srs = {}; }
   state.srs = srs || {};
   return state.srs;
 }
 async function _saveSrs(){
   try {
-    if (state.user) await FB.saveSRS(state.level, state.srs);
-    else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
+    if (state.user) await FB.saveSRS(state._srsLevel || state.level, state.srs);
+    else localStorage.setItem(`shirose-srs-${state._srsLevel || state.level}`, JSON.stringify(state.srs));
   } catch (e) { console.warn("_saveSrs:", e.message); }
 }
 
@@ -3147,6 +3147,7 @@ async function renderHafalan(params){
   if (sub === "go") return renderHafalanSession();
   // Reset the rangkuman-context flag when navigating to the normal /#hafalan.
   state._rangkumanContext = false;
+  if (state._srsLevel) { state._srsLevel = null; state.hafalan_ctx = null; state.hafalan_back = null; state.hafalan_queue = []; state.srs = {}; }
   return renderHafalanSelect();
 }
 
@@ -3350,6 +3351,7 @@ window.hafCfg = (field, value) => {
 };
 
 window.hafStart = async () => {
+  state._srsLevel = null; state.hafalan_ctx = null; state.hafalan_back = null;
   const cfg = state.hafalan;
   const promises = [
     loadMateri("kosakata", state.level),
@@ -3406,11 +3408,47 @@ window.hafStart = async () => {
   route("hafalan/go");
 };
 
-function renderHafalanSession(){
+/* ===== Jembatan SSW → mesin hafalan JLPT (3 mode yang sama; progres di dokumen SRS terpisah "ssw-bc") ===== */
+const _SSW_SESS = "shirose-ssw-hafsess";
+const _hafSSW = () => state.hafalan_ctx === "ssw";
+const _hafMenu = () => (_hafSSW() && state.hafalan_back) || "hafalan";
+const _hafHome = () => (_hafSSW() && state.hafalan_back) || "home";
+const _hafHomeLbl = () => _hafSSW() ? "↩ Kembali" : "🏠 Home";
+const _hafBadge = (it) => it.tipe === "ssw" ? "SSW · BUILDING CLEANING" : `${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}`;
+function _sswSaveSess(){ try { sessionStorage.setItem(_SSW_SESS, JSON.stringify({ q: state.hafalan_queue, pos: state.hafalan_pos, mode: (state.hafalan||{}).mode, back: state.hafalan_back, score: state.hafalan_score })); } catch(e){} }
+window.sswHafalStart = async ({ items, mode, back }) => {
+  if (!items || !items.length) { toast("Tidak ada kosakata untuk sesi ini"); return false; }
+  state._srsLevel = "ssw-bc"; state.hafalan_ctx = "ssw"; state.hafalan_back = back || "ssw";
+  await _loadSrs();
+  state.hafalan = { tipe: "ssw", mode: mode || "flashcard", range: "all", filter: "all" };
+  state.hafalan_queue = items.slice().sort(() => Math.random() - 0.5);
+  state.hafalan_pos = 0; state.hafalan_score = { benar: 0, salah: 0 };
+  _sswSaveSess();
+  route("hafalan/go");
+  return true;
+};
+window.sswSrsLoad = async () => { const keep = state._srsLevel; state._srsLevel = "ssw-bc"; const r = await _loadSrs(); state._srsLevel = keep; return r; };
+window.sswAddCard = async (no, idx) => {
+  const keep = state._srsLevel, keepSrs = state.srs; state._srsLevel = "ssw-bc"; await _loadSrs();
+  const k = _srsKey("ssw", { no }, idx); if (!state.srs[k]) state.srs[k] = { n: 0, interval: 1, due: Date.now() };
+  await _saveSrs(); state._srsLevel = keep; state.srs = keepSrs || {};
+};
+async function _sswRestore(){
+  try {
+    const d = JSON.parse(sessionStorage.getItem(_SSW_SESS) || "null"); if (!d || !d.q || !d.q.length) return false;
+    state._srsLevel = "ssw-bc"; state.hafalan_ctx = "ssw"; state.hafalan_back = d.back || "ssw";
+    await _loadSrs();
+    state.hafalan = { tipe: "ssw", mode: d.mode || "flashcard", range: "all", filter: "all" };
+    state.hafalan_queue = d.q; state.hafalan_pos = d.pos || 0; state.hafalan_score = d.score || { benar: 0, salah: 0 };
+    return true;
+  } catch (e) { return false; }
+}
+async function renderHafalanSession(){
+  if (!(state.hafalan_queue || []).length && await _sswRestore()) { /* sesi SSW dipulihkan setelah refresh */ }
   const cfg = state.hafalan || {};
   const mode = cfg.mode || "flashcard";
   const q = state.hafalan_queue || [];
-  if (!q.length) return renderHafalanSelect();
+  if (!q.length) { if (_hafSSW() || sessionStorage.getItem(_SSW_SESS)) return `<div class="panel"><h2>Sesi hafalan selesai / kedaluwarsa</h2><button class="btn" onclick="route('${state.hafalan_back || "ssw"}')">↩ Kembali ke hafalan</button></div>`; return renderHafalanSelect(); }
 
   if (mode === "flashcard") return renderHafalanFlashcard();
   if (mode === "matching")  return renderHafalanMatching();
@@ -3438,16 +3476,16 @@ function renderHafalanFlashcard(){
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('hafalan')">← Menu</button>
+        <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:14px; font-weight:700;">${pos+1} / ${q.length}</span>
-        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+        <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
 
       <div class="flash-stage" id="flash-stage">
         <span class="flash-badge left" id="badge-lupa">✕ LUPA</span>
         <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
         <div class="flash-card enter" id="flash-card" data-front="${safeFront}" data-say="${safeFront}" onclick="hafCardTap(event)">
-          <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+          <div class="no-pill">${fmtNo(it.no)} · ${_hafBadge(it)}</div>
           <div class="front">${it.front}</div>
           <div class="back-face">
             <div class="reading">${it.reading || "—"}</div>
@@ -3498,7 +3536,7 @@ window.hafCardTap = (ev) => {
 window.hafBack = () => {
   if ((state.hafalan_pos || 0) === 0) return;
   state.hafalan_pos--;
-  document.getElementById("app").innerHTML = renderHafalanSession();
+  if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
 };
 
 // Attach touch/pointer handlers for the physical swipe.
@@ -3596,7 +3634,7 @@ window.hafRate = async (rate) => {
     if (state.user) {
       FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
       const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
-      FB.recordActivity(actType).catch(()=>{});
+      if (it.tipe !== "ssw") FB.recordActivity(actType).catch(()=>{});
     }
   } else {
     await awardXP(1, 0);
@@ -3604,7 +3642,8 @@ window.hafRate = async (rate) => {
   }
 
   state.hafalan_pos++;
-  document.getElementById("app").innerHTML = renderHafalanSession();
+  if (_hafSSW()) _sswSaveSess();
+  document.getElementById("app").innerHTML = await renderHafalanSession();
 };
 
 /* ========== MODE 2: MATCHING LINES (tap-to-pair, mobile-friendly) ========== */
@@ -3622,9 +3661,9 @@ function renderHafalanMatching(){
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
+        <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:13px;">Kelompok ${Math.floor(pos/5)+1} · ${batch.length} pasang</span>
-        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+        <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
       <p style="color:var(--gray); font-size:13px; margin:8px 0;">Tap kata di kiri, lalu arti yang cocok di kanan.</p>
       <div class="match-grid">
@@ -3698,7 +3737,7 @@ async function matchAfterPair(correct, iInBatch){
     if (justMastered) toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
     if (state.user) {
       const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
-      FB.recordActivity(actType).catch(()=>{});
+      if (it.tipe !== "ssw") FB.recordActivity(actType).catch(()=>{});
     }
   }
 }
@@ -3706,12 +3745,12 @@ window.matchCheckDone = () => {
   const remaining = document.querySelectorAll('.match-item[data-side="L"]:not(:disabled)').length;
   if (remaining === 0){
     state.hafalan_pos = Math.min(state.hafalan_pos + 5, state.hafalan_queue.length);
-    document.getElementById("app").innerHTML = renderHafalanSession();
+    if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
   }
 };
 window.matchSkip = () => {
   state.hafalan_pos = Math.min(state.hafalan_pos + 5, state.hafalan_queue.length);
-  document.getElementById("app").innerHTML = renderHafalanSession();
+  if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
 };
 
 /* ========== MODE 3: MULTIPLE CHOICE ========== */
@@ -3732,12 +3771,12 @@ function renderHafalanMultiple(){
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
+        <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:13px;">${pos+1} / ${q.length}</span>
-        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
+        <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
       <div class="kanji-detail" style="padding:12px 0;">
-        <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+        <div class="no-pill">${fmtNo(it.no)} · ${_hafBadge(it)}</div>
         <div class="big-k" style="font-size:72px;">${it.front}</div>
         <div class="readings"><div class="r">${it.reading}</div></div>
         <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>
@@ -3798,14 +3837,14 @@ window.mcPick = async (encoded, btn) => {
   }
   if (correct && state.user){
     const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
-    FB.recordActivity(actType).catch(()=>{});
+    if (it.tipe !== "ssw") FB.recordActivity(actType).catch(()=>{});
   }
 
   document.getElementById("mc-next").style.display = "flex";
 };
 window.mcNext = () => {
   state.hafalan_pos++;
-  document.getElementById("app").innerHTML = renderHafalanSession();
+  if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
 };
 
 /* ========== Session done summary ========== */
@@ -3823,8 +3862,8 @@ function renderHafalanDone(){
         <div style="color:var(--gray); margin-top:6px;">+${s.benar*3} XP · +${s.benar} 🪙</div>
       </div>
       <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:12px;">
-        <button class="btn" onclick="route('hafalan')">Sesi lagi</button>
-        <button class="btn ghost" onclick="route('home')">🏠 Home</button>
+        <button class="btn" onclick="route('${_hafMenu()}')">Sesi lagi</button>
+        <button class="btn ghost" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
     </div>
   `;
