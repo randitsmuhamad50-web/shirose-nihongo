@@ -236,3 +236,9 @@ body.sw-nohafal .sw-wrap [onclick*="ssw-hafal"],body.sw-nohafal .sw-wrap [onclic
 ruby rt{font-family:inherit; font-weight:500; letter-spacing:0;}
 .sw-w{border-bottom:1px dotted rgba(239,106,154,.75);} .sw-w ruby{border-bottom:1px dotted rgba(239,106,154,.75);}
 @media (max-width:600px){ .sw-lesson,.sw-lesson.jp{font-size:16px; line-height:1.9;} }
+
+/* === Fix utama teks keluar kanan di HP: #app adalah grid, item grid melebar mengikuti isi terpanjang (breadcrumb) === */
+#app > .sw-wrap,.sw-wrap{min-width:0; width:100%; max-width:min(1040px,100%); box-sizing:border-box;}
+.sw-wrap > *{min-width:0; max-width:100%;}
+.sw-crumbs{flex-wrap:wrap; white-space:normal; overflow-wrap:anywhere; min-width:0;}
+.sw-lesson,.sw-lesson *{overflow-wrap:anywhere;}
