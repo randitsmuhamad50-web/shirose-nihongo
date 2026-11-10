@@ -632,7 +632,122 @@ function bukaReview() { R.filter = "semua"; R.pos = 0; renderReview(); }
 function renderReview() {
   document.getElementById("app").innerHTML = htmlReview();
   window.scrollTo(0, 0);
+  linkKanji(document.querySelector(".jx-revq")).catch(() => {});
 }
+/* ---------------- 8b. KANJI BISA DIPENCET DI PEMBAHASAN (kamus dari materi) ---------------- */
+const LV_ORDER = ["n5", "n4", "n3", "n2", "n1"];
+const isKj = (ch) => { const c = ch.codePointAt(0); return (c >= 0x4E00 && c <= 0x9FFF) || (c >= 0x3400 && c <= 0x4DBF) || (c >= 0xF900 && c <= 0xFAFF) || ch === "々"; };
+const hasKj = (str) => Array.from(str).some(isKj);
+const isHira = (ch) => ch >= "ぁ" && ch <= "ゖ";
+let KD = null, KD_PROMISE = null;
+async function loadKD(lv) {
+  const need = LV_ORDER.slice(0, Math.max(1, LV_ORDER.indexOf(lv) + 1));
+  const key = need.join();
+  if (KD && KD.key === key) return KD;
+  if (KD_PROMISE && KD_PROMISE.key === key) return KD_PROMISE.p;
+  const p = (async () => {
+    const getJ = (u) => fetch(u).then(r => r.ok ? r.json() : []).catch(() => []);
+    const files = await Promise.all(need.flatMap(l => [getJ(`./data/kosakata-${l}.json`), getJ(`./data/kanji-${l}.json`)]));
+    const words = new Map(), stems = new Map(), chars = new Map(), byChar = new Map();
+    const addWord = (kata, kana, arti, contoh, ctArti, l) => {
+      kata = String(kata || "").replace(/[（(][^）)]*[）)]|[～〜○]/g, "").trim();
+      if (!kata || !hasKj(kata) || words.has(kata)) return;
+      const e = { kata, kana: kana || "", arti: arti || "", contoh: contoh || "", ctArti: ctArti || "", lv: l };
+      words.set(kata, e);
+      for (const ch of new Set(Array.from(kata).filter(isKj))) { const a = byChar.get(ch) || []; if (a.length < 8) { a.push(e); byChar.set(ch, a); } }
+      const last = kata[kata.length - 1];
+      if (kata.length >= 3 && isHira(last)) { const st = kata.slice(0, -1); if (hasKj(st) && !stems.has(st)) stems.set(st, e); }
+    };
+    need.forEach((l, i) => {
+      for (const it of files[i * 2] || []) addWord(it.kata || it.k, it.kana || it.f, it.arti || it.a, it.contoh || it.ej, it.arti_contoh || it.et, l);
+      for (const it of files[i * 2 + 1] || []) {
+        const k = it.kanji || it.k || "";
+        if (Array.from(k).length === 1 && !chars.has(k)) chars.set(k, { k, on: it.onyomi || it.on || "", kun: it.kunyomi || it.kun || "", arti: it.arti || it.a || "", lv: l });
+        for (const c of it.c || []) addWord(c.k, c.r, c.a, "", "", l);
+      }
+    });
+    const maxLen = Math.max(...[...words.keys()].map(k => k.length), 2);
+    KD = { key, words, stems, chars, byChar, maxLen: Math.min(maxLen, 8), lv };
+    return KD;
+  })();
+  KD_PROMISE = { key, p };
+  return p;
+}
+function tokenKanji(str, D) {
+  const A = Array.from(str), out = []; let i = 0, buf = "";
+  const flush = () => { if (buf) { out.push({ t: buf }); buf = ""; } };
+  while (i < A.length) {
+    if (!isKj(A[i])) { buf += A[i++]; continue; }
+    let hit = null;
+    for (let n = Math.min(D.maxLen, A.length - i); n >= 1 && !hit; n--) {
+      const seg = A.slice(i, i + n).join("");
+      if (n >= 2 && D.words.has(seg)) hit = { seg, ty: "w", key: seg };
+      else if (n >= 2 && D.stems.has(seg)) hit = { seg, ty: "w", key: D.stems.get(seg).kata };
+    }
+    if (!hit) hit = { seg: A[i], ty: "c", key: A[i] };
+    flush(); out.push({ t: hit.seg, ty: hit.ty, key: hit.key }); i += Array.from(hit.seg).length;
+  }
+  flush(); return out;
+}
+async function linkKanji(root) {
+  if (!root || root.dataset.kw) return; root.dataset.kw = "1";
+  const D = await loadKD(R?.hasil?.lv || S().level || "n5").catch(() => null); if (!D) return;
+  const sels = ".jx-q .txt, .jx-opt .t, .jx-passage .jp, .jx-ex .ans, .jx-ex .jp, .jx-ex li, .jx-ex p";
+  for (const box of root.querySelectorAll(sels)) {
+    const tw = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest("rt,rp,.jx-w,script,style,button") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; let n; while ((n = tw.nextNode())) if (hasKj(n.nodeValue)) nodes.push(n);
+    for (const nd of nodes) {
+      const toks = tokenKanji(nd.nodeValue, D); if (!toks.some(t => t.ty)) continue;
+      const fr = document.createDocumentFragment();
+      for (const t of toks) {
+        if (!t.ty) { fr.append(t.t); continue; }
+        const sp = document.createElement("span"); sp.className = "jx-w"; sp.dataset.ty = t.ty; sp.dataset.key = t.key; sp.tabIndex = 0; sp.setAttribute("role", "button");
+        sp.textContent = t.t; fr.append(sp);
+      }
+      nd.replaceWith(fr);
+    }
+  }
+}
+const brRuby = (t) => safe(String(t || "")).replace(/([\u3400-\u9fff々]+)\[([^\]]+)\]/g, "<ruby>$1<rt>$2</rt></ruby>");
+function kwClose() { document.getElementById("jx-kw")?.remove(); }
+function kwOpen(el) {
+  const D = KD; if (!D) return;
+  const ty = el.dataset.ty, key = el.dataset.key; let body = "", say = "", read = "";
+  const L = (D.lv || "").toUpperCase();
+  if (ty === "w") {
+    const e = D.words.get(key); if (!e) return;
+    say = e.kata; read = e.kana;
+    body = `<div class="jx-kw-h"><ruby class="jp">${esc(e.kata)}<rt>${esc(e.kana)}</rt></ruby><span class="tag">N${e.lv.slice(1)}</span></div>
+      <div class="jx-kw-m"><b>${esc(e.arti)}</b></div>
+      <div class="jx-muted">Bacaan: <b class="jp">${esc(e.kana)}</b></div>
+      ${e.contoh ? `<div class="jx-kw-ex"><p class="jp">${brRuby(e.contoh)}</p><p class="jx-muted">${esc(e.ctArti)}</p></div>` : ""}`;
+  } else {
+    const c = D.chars.get(key), ws = D.byChar.get(key) || [];
+    say = key; read = c ? (c.kun || c.on || "").split(/[、,\s]/)[0].replace(/[.\-]/g, "") : "";
+    body = `<div class="jx-kw-h"><span class="jp big">${esc(key)}</span>${c ? `<span class="tag">N${c.lv.slice(1)}</span>` : ""}</div>
+      ${c ? `<div class="jx-kw-m"><b>${esc(c.arti)}</b></div>
+        ${c.on ? `<div class="jx-muted">Onyomi: <b class="jp">${esc(c.on)}</b></div>` : ""}${c.kun ? `<div class="jx-muted">Kunyomi: <b class="jp">${esc(c.kun)}</b></div>` : ""}` : `<div class="jx-muted">Kanji ini belum ada di data materi level ${L} ke bawah.</div>`}
+      ${ws.length ? `<div class="jx-kw-ex"><b>Kata dengan ${esc(key)}:</b><ul>${ws.slice(0, 6).map(w => `<li><span class="jp">${esc(w.kata)}</span> (${esc(w.kana)}) — ${esc(w.arti)}</li>`).join("")}</ul></div>` : ""}`;
+  }
+  kwClose();
+  const sh = document.createElement("div"); sh.id = "jx-kw";
+  sh.innerHTML = `<div class="jx-kw-bg" onclick="JLPT.kwClose()"></div><div class="jx-kw-in" role="dialog" aria-label="Detail kanji">
+    <button type="button" class="jx-kw-x" onclick="JLPT.kwClose()" aria-label="Tutup">✕</button>${body}
+    <div class="jx-row"><button class="btn" onclick="JLPT.kwSay()">🔊 Dengar</button><button class="btn ghost" onclick="JLPT.kwClose()">Tutup</button></div></div>`;
+  sh.dataset.say = say; sh.dataset.read = read;
+  document.body.append(sh);
+}
+function kwSay() {
+  const sh = document.getElementById("jx-kw"); if (!sh) return;
+  try { window.SV.speak(sh.dataset.say, { role: "kosakata", level: (R?.hasil?.lv || "n5"), say: sh.dataset.read || undefined }); } catch (_) {}
+}
+if (!window.__jxKw) {
+  window.__jxKw = true;
+  const go = (e) => { const w = e.target.closest?.(".jx-w"); if (!w) return; e.preventDefault(); kwOpen(w); };
+  document.addEventListener("click", go);
+  document.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") go(e); });
+}
+
 function htmlEx(q, pkg) {
   const x = q.ex || {};
   const part = (no, jp, id, body) => body ? `<section><h5><span class="n">${no}</span>${jp} <small>${id}</small></h5>${body}</section>` : "";
@@ -803,5 +918,5 @@ export async function ringkasanTerakhir() {
 
 window.JLPT = {
   pilihWaktu, mulai, batalSesi, jawab, geser, lompat, tandai, putar: () => putar(), konfirmasi,
-  bukaReview, filter: filterReview, revGeser, revLompat, kembaliHasil, putarReview,
+  bukaReview, kwClose, kwSay, filter: filterReview, revGeser, revLompat, kembaliHasil, putarReview,
 };
