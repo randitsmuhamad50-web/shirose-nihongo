@@ -168,7 +168,7 @@ async function renderBab([slug, babId]) {
         <button class="${mode === "lengkap" ? "on" : ""}" data-v="lengkap" onclick="SSW.setM('lengkap')"><b>A. Materi Lengkap</b><span>Seluruh penjelasan, prosedur, catatan keselamatan.</span></button>
         <button class="${mode === "ringkas" ? "on" : ""}" data-v="ringkas" onclick="SSW.setM('ringkas')"><b>B. Ringkasan Materi</b><span>Inti, poin penting, kesalahan, potensi soal ujian.</span></button>
       </div>
-      <div class="sw-seg" id="sw-lang"><button class="${lang === "jp" ? "on" : ""}" data-v="jp" onclick="SSW.setL('jp')">日本語 · Bahasa Jepang</button><button class="${lang === "id" ? "on" : ""}" data-v="id" onclick="SSW.setL('id')">Bahasa Indonesia</button></div>
+      <div class="sw-seg" id="sw-lang"><button class="${lang === "jp" ? "on" : ""}" data-v="jp" onclick="SSW.setL('jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" data-v="id" onclick="SSW.setL('id')">Indonesia</button></div>
       <button class="btn sw-big" onclick="SSW.go('${slug}','${c.subs[0].id}')">Mulai belajar ›</button>
     </div>
     <div class="sw-panel"><h2>Subbab</h2><ol class="sw-subs">${subs}</ol></div>

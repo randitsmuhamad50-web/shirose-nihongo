@@ -769,6 +769,1573 @@
      }
     ]
    }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q1",
+    "title": {
+     "id": "Peralatan, keamanan & sapu",
+     "jp": "資器材・安全・ほうき"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Di mana keranjang peralatan dibawa saat berjalan?",
+       "jp": "{作業|さぎょう}カートはどこを{通|とお}って{運|はこ}びますか。"
+      },
+      "opts": [
+       {
+        "id": "Di pinggir jalur lalu lalang",
+        "jp": "{歩行動線|ほこうどうせん}の{端|はし}"
+       },
+       {
+        "id": "Di tengah jalur lalu lalang",
+        "jp": "{歩行動線|ほこうどうせん}の{真|ま}ん{中|なか}"
+       },
+       {
+        "id": "Di depan pintu",
+        "jp": "{入口|いりぐち}の{前|まえ}"
+       },
+       {
+        "id": "Di mana saja",
+        "jp": "どこでもよい"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bawa dan taruh keranjang di pinggir/ jauh dari jalur lalu lalang agar tidak mengganggu tamu.",
+       "jp": "{歩行動線|ほこうどうせん}をふさがないようにします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa yang dilakukan bila di lift ada tamu yang akan masuk?",
+       "jp": "エレベーターでお{客様|きゃくさま}が{乗|の}ってくるとき、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Keluar dulu / mendahulukan tamu",
+        "jp": "お{客様|きゃくさま}を{先|さき}にする"
+       },
+       {
+        "id": "Tetap di tengah lift",
+        "jp": "そのまま{動|うご}かない"
+       },
+       {
+        "id": "Masuk lebih dulu",
+        "jp": "{先|さき}に{乗|の}る"
+       },
+       {
+        "id": "Menutup pintu cepat-cepat",
+        "jp": "{急|いそ}いで{閉|し}める"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dahulukan tamu: keluar dulu jika tamu akan masuk.",
+       "jp": "お{客様|きゃくさま}を{優先|ゆうせん}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Fungsi Floor Sign adalah…",
+       "jp": "フロアサインの{役目|やくめ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Memberi tanda area sedang dibersihkan agar aman",
+        "jp": "{清掃中|せいそうちゅう}を{知|し}らせて{安全|あんぜん}を{守|まも}る"
+       },
+       {
+        "id": "Pengganti sapu",
+        "jp": "ほうきの{代|か}わり"
+       },
+       {
+        "id": "Tempat menaruh lap",
+        "jp": "タオルを{置|お}く{台|だい}"
+       },
+       {
+        "id": "Hiasan lantai",
+        "jp": "{床|ゆか}の{飾|かざ}り"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Floor Sign dipasang saat bekerja untuk menjamin keamanan.",
+       "jp": "{作業|さぎょう}中はフロアサインを{置|お}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Karpet dengan debu dibersihkan dengan…",
+       "jp": "カーペットのホコリは{何|なに}で{掃除|そうじ}しますか。"
+      },
+      "opts": [
+       {
+        "id": "Penyedot debu khusus karpet",
+        "jp": "カーペット{用|よう}{掃除機|そうじき}"
+       },
+       {
+        "id": "Mop basah",
+        "jp": "{濡|ぬ}れたモップ"
+       },
+       {
+        "id": "Deck brush",
+        "jp": "デッキブラシ"
+       },
+       {
+        "id": "Dust Cloth basah",
+        "jp": "{濡|ぬ}れたダストクロス"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Karpet + debu: penyedot debu khusus karpet.",
+       "jp": "カーペットのホコリは{掃除機|そうじき}を{使|つか}います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bagaimana memegang sapu ruangan?",
+       "jp": "{自在|じざい}ぼうきの{持|も}ち{方|かた}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Ibu jari menekan ujung pegangan",
+        "jp": "{親指|おやゆび}で{先|さき}を{押|お}さえる"
+       },
+       {
+        "id": "Diayunkan sekuat tenaga",
+        "jp": "{力|ちから}いっぱい{振|ふ}る"
+       },
+       {
+        "id": "Dipegang di tengah batang",
+        "jp": "{真|ま}ん{中|なか}を{持|も}つ"
+       },
+       {
+        "id": "Dipegang dengan satu jari",
+        "jp": "{指|ゆび}1{本|ぽん}で{持|も}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ujung dipegang dengan ibu jari (30–40 cm); sapu tidak dilepas dari lantai.",
+       "jp": "{親指|おやゆび}でハンドルの{先|さき}を{押|お}さえます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bagaimana sampah di sapu dikumpulkan?",
+       "jp": "ごみはどこに{集|あつ}めますか。"
+      },
+      "opts": [
+       {
+        "id": "Di tengah, lalu masuk pengki",
+        "jp": "{中央|ちゅうおう}に{集|あつ}めてちりとりに{入|い}れる"
+       },
+       {
+        "id": "Di sudut saja",
+        "jp": "{隅|すみ}だけ"
+       },
+       {
+        "id": "Dihamburkan",
+        "jp": "{飛|と}ばす"
+       },
+       {
+        "id": "Dibiarkan",
+        "jp": "そのまま"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kumpulkan di tengah lalu masukkan ke pengki; ulangi sampai bersih.",
+       "jp": "{中央|ちゅうおう}に{集|あつ}めてちりとりへ。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa Dust Cloth hanya maju ke depan?",
+       "jp": "ダストクロスは{前|まえ}にだけ{進|すす}めるのはなぜですか。"
+      },
+      "opts": [
+       {
+        "id": "Agar debu tidak berhamburan/terangkat",
+        "jp": "ホコリを{舞|ま}い{上|あ}げないため"
+       },
+       {
+        "id": "Agar lebih cepat capek",
+        "jp": "{疲|つか}れるため"
+       },
+       {
+        "id": "Agar lantai licin",
+        "jp": "{床|ゆか}を{滑|すべ}らせるため"
+       },
+       {
+        "id": "Tidak ada alasan",
+        "jp": "{理由|りゆう}はない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan mengangkat atau menarik mundur Dust Cloth.",
+       "jp": "ダストクロスは{持|も}ち{上|あ}げたり{後|うし}ろに{引|ひ}いたりしません。"
+      }
+     },
+     {
+      "q": {
+       "id": "Berapa tumpukan lebar kepala pel di bagian tengah saat memakai Dust Cloth?",
+       "jp": "ダストクロスで{中央|ちゅうおう}を{拭|ふ}くとき、ヘッド{幅|はば}をどれだけ{重|かさ}ねますか。"
+      },
+      "opts": [
+       {
+        "id": "1/4",
+        "jp": "4{分|ぶん}の1"
+       },
+       {
+        "id": "Tidak ditumpuk",
+        "jp": "{重|かさ}ねない"
+       },
+       {
+        "id": "Setengah",
+        "jp": "{半分|はんぶん}"
+       },
+       {
+        "id": "3/4",
+        "jp": "4{分|ぶん}の3"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tumpuk 1/4 lebar kepala pel.",
+       "jp": "ヘッド{幅|はば}を4{分|ぶん}の1{重|かさ}ねます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q2",
+    "title": {
+     "id": "Mop, penyedot debu & lap",
+     "jp": "モップ・掃除機・拭き清掃"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Mop digerakkan ke arah…",
+       "jp": "モップはどの{向|む}きに{進|すす}みますか。"
+      },
+      "opts": [
+       {
+        "id": "Mundur, agar tidak menginjak bagian yang sudah dipel",
+        "jp": "{後退|こうたい}しながら{進|すす}む"
+       },
+       {
+        "id": "Maju menginjak yang basah",
+        "jp": "{前|まえ}に{進|すす}む"
+       },
+       {
+        "id": "Melingkar",
+        "jp": "{円|えん}を{描|えが}く"
+       },
+       {
+        "id": "Bebas",
+        "jp": "どちらでもよい"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mop bergerak mundur (kebalikan Dust Cloth).",
+       "jp": "モップは{後退|こうたい}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Warna kain pel untuk toilet adalah…",
+       "jp": "トイレ{用|よう}のラーグは{何色|なにいろ}ですか。"
+      },
+      "opts": [
+       {
+        "id": "Merah",
+        "jp": "{赤|あか}"
+       },
+       {
+        "id": "Putih",
+        "jp": "{白|しろ}"
+       },
+       {
+        "id": "Biru",
+        "jp": "{青|あお}"
+       },
+       {
+        "id": "Hijau",
+        "jp": "{緑|みどり}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Putih = lainnya; merah = toilet.",
+       "jp": "{赤|あか}はトイレ{用|よう}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan kain pel dibalik ke sisi bersih?",
+       "jp": "ラーグはいつ{裏返|うらがえ}しますか。"
+      },
+      "opts": [
+       {
+        "id": "Sekitar tiap 2 meter",
+        "jp": "2メートルほど{拭|ふ}いたら"
+       },
+       {
+        "id": "Tidak pernah",
+        "jp": "{裏返|うらがえ}さない"
+       },
+       {
+        "id": "Setiap 10 detik",
+        "jp": "10{秒|びょう}ごと"
+       },
+       {
+        "id": "Di akhir hari",
+        "jp": "{一日|いちにち}の{終|お}わり"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika sudah sekitar 2 meter, balik ke sisi lain.",
+       "jp": "2メートルほど{拭|ふ}いたら{裏返|うらがえ}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Berapa lama satu kali maju-mundur penyedot debu tipe Pod?",
+       "jp": "ポッド{型|がた}{掃除機|そうじき}の{往復|おうふく}の{速|はや}さは{約|やく}どれくらいですか。"
+      },
+      "opts": [
+       {
+        "id": "Sekitar 2 detik",
+        "jp": "{約|やく}2{秒|びょう}"
+       },
+       {
+        "id": "Sekitar 10 detik",
+        "jp": "{約|やく}10{秒|びょう}"
+       },
+       {
+        "id": "0,5 detik",
+        "jp": "0.5{秒|びょう}"
+       },
+       {
+        "id": "1 menit",
+        "jp": "1{分|ぷん}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kecepatan sekitar 2 detik per bolak-balik.",
+       "jp": "{往復|おうふく}2{秒|びょう}くらいです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Cara mencabut colokan penyedot debu?",
+       "jp": "{掃除機|そうじき}のプラグの{抜|ぬ}き{方|かた}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Memegang steker",
+        "jp": "プラグを{持|も}つ"
+       },
+       {
+        "id": "Menarik kabel",
+        "jp": "コードを{引|ひ}っ{張|ぱ}る"
+       },
+       {
+        "id": "Menendang",
+        "jp": "{蹴|け}る"
+       },
+       {
+        "id": "Memotong kabel",
+        "jp": "{切|き}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pegang colokan, jangan tarik kabelnya.",
+       "jp": "コードを{引|ひ}っ{張|ぱ}ってはいけません。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kantung penyedot debu diganti saat terisi…",
+       "jp": "{紙袋|かみぶくろ}はどのくらい{溜|た}まったら{交換|こうかん}しますか。"
+      },
+      "opts": [
+       {
+        "id": "Sekitar 2/3",
+        "jp": "2／3{程度|ていど}"
+       },
+       {
+        "id": "Kosong",
+        "jp": "{空|から}のとき"
+       },
+       {
+        "id": "Penuh sekali",
+        "jp": "{満杯|まんぱい}"
+       },
+       {
+        "id": "Tidak pernah",
+        "jp": "{交換|こうかん}しない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ganti segera jika sampah sudah sampai 2/3.",
+       "jp": "2／3ほど{溜|た}まったら{交換|こうかん}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Penyedot debu mana yang dipakai untuk karpet?",
+       "jp": "カーペットに{使|つか}う{掃除機|そうじき}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Upright",
+        "jp": "アップライト{型|がた}"
+       },
+       {
+        "id": "Wet",
+        "jp": "ウエット{型|がた}"
+       },
+       {
+        "id": "Handy",
+        "jp": "ハンディ{型|がた}"
+       },
+       {
+        "id": "Pod",
+        "jp": "ポッド{型|がた}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Upright: sikat mengangkat kotoran dari karpet lalu disedot.",
+       "jp": "アップライト{型|がた}はカーペット{用|よう}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Berapa lipatan lap saat mengelap meja?",
+       "jp": "{机|つくえ}を{拭|ふ}くとき、タオルは{何|なん}{折|お}りにしますか。"
+      },
+      "opts": [
+       {
+        "id": "8 lipatan",
+        "jp": "8{折|お}り"
+       },
+       {
+        "id": "2 lipatan",
+        "jp": "2{折|お}り"
+       },
+       {
+        "id": "Tidak dilipat",
+        "jp": "{折|お}らない"
+       },
+       {
+        "id": "20 lipatan",
+        "jp": "20{折|お}り"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lipat lap sampai 8 lipatan.",
+       "jp": "タオルは8{折|お}りにします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Berapa warna lap yang dibedakan pemakaiannya pada gambar?",
+       "jp": "{図|ず}のタオルは{何色|なにいろ}に{使|つか}い{分|わ}けますか。"
+      },
+      "opts": [
+       {
+        "id": "5 warna",
+        "jp": "5{色|しょく}"
+       },
+       {
+        "id": "2 warna",
+        "jp": "2{色|しょく}"
+       },
+       {
+        "id": "8 warna",
+        "jp": "8{色|しょく}"
+       },
+       {
+        "id": "1 warna",
+        "jp": "1{色|しょく}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Biru, hijau, putih, kuning, pink/merah: fungsinya berbeda tergantung warna.",
+       "jp": "{色|いろ}によって{使用場所|しようばしょ}が{異|こと}なります。"
+      },
+      "img": {
+       "p": 40,
+       "id": [
+        42,
+        36,
+        23,
+        17
+       ],
+       "jp": [
+        42,
+        36.3,
+        23,
+        19
+       ]
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q3",
+    "title": {
+     "id": "Toilet, sampah & keselamatan",
+     "jp": "トイレ・廃棄物・安全"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Urutan pembersihan toilet yang benar dimulai dari…",
+       "jp": "トイレ{清掃|せいそう}の{順番|じゅんばん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tempat sampah → wastafel → urinoir → kloset → lantai",
+        "jp": "ゴミ{箱|ばこ}→{洗面台|せんめんだい}→{小便器|しょうべんき}→{大便器|だいべんき}→{床|ゆか}"
+       },
+       {
+        "id": "Lantai dulu",
+        "jp": "{床|ゆか}から{始|はじ}める"
+       },
+       {
+        "id": "Kloset dulu",
+        "jp": "{大便器|だいべんき}から{始|はじ}める"
+       },
+       {
+        "id": "Acak",
+        "jp": "{順番|じゅんばん}は{自由|じゆう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dari tempat yang paling sedikit kotor ke yang paling kotor ①〜⑤.",
+       "jp": "{汚|よご}れの{少|すく}ない{所|ところ}から{多|おお}い{所|ところ}へ。"
+      }
+     },
+     {
+      "q": {
+       "id": "Isi ulang sabun/tisu toilet dilakukan saat sisa…",
+       "jp": "トイレットペーパーやハンドソープはどのくらい{減|へ}ったら{補充|ほじゅう}しますか。"
+      },
+      "opts": [
+       {
+        "id": "1/3",
+        "jp": "3{分|ぶん}の1"
+       },
+       {
+        "id": "Habis total",
+        "jp": "{全|まった}くなくなったら"
+       },
+       {
+        "id": "Setengah",
+        "jp": "{半分|はんぶん}"
+       },
+       {
+        "id": "Tidak perlu",
+        "jp": "{補充|ほじゅう}しない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika tersisa 1/3, isi ulang atau tukar dengan yang baru.",
+       "jp": "1/3ほどに{減|へ}ったら{補充|ほじゅう}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa yang ditutup dengan kain sebelum membersihkan urinoir?",
+       "jp": "{小便器|しょうべんき}の{清掃|せいそう}の{前|まえ}に、{何|なに}をタオルで{覆|おお}いますか。"
+      },
+      "opts": [
+       {
+        "id": "Sensor manusia",
+        "jp": "{人感|じんかん}センサー"
+       },
+       {
+        "id": "Keran",
+        "jp": "{蛇口|じゃぐち}"
+       },
+       {
+        "id": "Lantai",
+        "jp": "{床|ゆか}"
+       },
+       {
+        "id": "Pintu",
+        "jp": "ドア"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tutup sensor manusia dengan kain lap, baru mulai membersihkan.",
+       "jp": "{人感|じんかん}センサーを{覆|おお}います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Di bagian mana kotoran kloset mudah menempel dan harus dibersihkan teliti?",
+       "jp": "{大便器|だいべんき}で{汚|よご}れがつきやすいのはどこですか。"
+      },
+      "opts": [
+       {
+        "id": "Sisi belakang rim",
+        "jp": "リムの{裏側|うらがわ}"
+       },
+       {
+        "id": "Tutup luar saja",
+        "jp": "フタの{外|そと}だけ"
+       },
+       {
+        "id": "Lantai kamar lain",
+        "jp": "ほかの{部屋|へや}の{床|ゆか}"
+       },
+       {
+        "id": "Dinding luar",
+        "jp": "{外壁|がいへき}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Di sisi belakang rim ada kotoran menempel; bersihkan dengan teliti.",
+       "jp": "リムの{裏側|うらがわ}はしっかり{清掃|せいそう}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pemisahan jenis sampah dilakukan…",
+       "jp": "ゴミの{分別|ぶんべつ}はいつしますか。"
+      },
+      "opts": [
+       {
+        "id": "Setelah semua sampah terkumpul",
+        "jp": "{全|すべ}てのゴミを{回収|かいしゅう}した{後|あと}"
+       },
+       {
+        "id": "Sebelum mengumpulkan",
+        "jp": "{回収|かいしゅう}の{前|まえ}"
+       },
+       {
+        "id": "Tidak dilakukan",
+        "jp": "しない"
+       },
+       {
+        "id": "Besok",
+        "jp": "{明日|あした}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lakukan pemisahan setelah semua sampah terkumpul.",
+       "jp": "{回収後|かいしゅうご}にまとめてします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Barang di atas/samping tempat sampah yang tidak jelas sebaiknya…",
+       "jp": "ゴミ{箱|ばこ}のそばの{判別|はんべつ}できないものはどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Konsultasikan ke PIC",
+        "jp": "{責任者|せきにんしゃ}に{相談|そうだん}する"
+       },
+       {
+        "id": "Dibuang",
+        "jp": "{捨|す}てる"
+       },
+       {
+        "id": "Dibawa pulang",
+        "jp": "{持|も}ち{帰|かえ}る"
+       },
+       {
+        "id": "Diabaikan",
+        "jp": "{無視|むし}する"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kehilangan barang menimbulkan komplain; konsultasi ke PIC.",
+       "jp": "{紛失|ふんしつ}はクレームになるので{相談|そうだん}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Berapa lama minimal mencuci tangan?",
+       "jp": "{手洗|てあら}いは{何秒|なんびょう}{以上|いじょう}かけますか。"
+      },
+      "opts": [
+       {
+        "id": "Lebih dari 20 detik",
+        "jp": "20{秒以上|びょういじょう}"
+       },
+       {
+        "id": "5 detik",
+        "jp": "5{秒|びょう}"
+       },
+       {
+        "id": "1 detik",
+        "jp": "1{秒|びょう}"
+       },
+       {
+        "id": "Tidak perlu",
+        "jp": "{必要|ひつよう}ない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cucilah tangan lebih dari 20 detik.",
+       "jp": "20{秒以上|びょういじょう}かけて{手|て}を{洗|あら}います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa yang tidak boleh dicampur?",
+       "jp": "{混|ま}ぜてはいけない{組|く}み{合|あ}わせはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Karbol klorin dengan asam",
+        "jp": "{塩素系|えんそけい}と{酸性|さんせい}"
+       },
+       {
+        "id": "Air dan air",
+        "jp": "{水|みず}と{水|みず}"
+       },
+       {
+        "id": "Lap dan ember",
+        "jp": "タオルとバケツ"
+       },
+       {
+        "id": "Sapu dan pengki",
+        "jp": "ほうきとちりとり"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mencampur klorin dengan asam menyebabkan keracunan.",
+       "jp": "{塩素系|えんそけい}と{酸性|さんせい}は{混|ま}ぜると{中毒|ちゅうどく}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika menemukan jarum suntik jatuh…",
+       "jp": "{注射針|ちゅうしゃばり}が{落|お}ちていたらどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Pungut dengan selotip/penjepit, lapor PIC",
+        "jp": "ガムテープやトングで{取|と}り{責任者|せきにんしゃ}に{報告|ほうこく}"
+       },
+       {
+        "id": "Pungut dengan tangan",
+        "jp": "{素手|すで}で{拾|ひろ}う"
+       },
+       {
+        "id": "Dibiarkan",
+        "jp": "そのままにする"
+       },
+       {
+        "id": "Dibuang ke lantai",
+        "jp": "{床|ゆか}に{捨|す}てる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pungut dengan selotip atau penjepit, lalu laporkan ke PIC.",
+       "jp": "トングで{取|と}り{責任者|せきにんしゃ}に{報告|ほうこく}します。"
+      }
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q1",
+    "title": {
+     "id": "Material, kotoran & karbol",
+     "jp": "床材・汚れ・洗剤"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jumlah jenis material lantai pada dasarnya adalah…",
+       "jp": "{床材|ゆかざい}は{主|おも}に{何種類|なんしゅるい}に{分類|ぶんるい}できますか。"
+      },
+      "opts": [
+       {
+        "id": "5",
+        "jp": "5{種類|しゅるい}"
+       },
+       {
+        "id": "2",
+        "jp": "2{種類|しゅるい}"
+       },
+       {
+        "id": "10",
+        "jp": "10{種類|しゅるい}"
+       },
+       {
+        "id": "3",
+        "jp": "3{種類|しゅるい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Vinil, keras, kayu, karpet, lainnya = 5 jenis.",
+       "jp": "5{種類|しゅるい}に{分類|ぶんるい}できます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Linoleum termasuk lantai…",
+       "jp": "リノリウムはどの{床材|ゆかざい}ですか。"
+      },
+      "opts": [
+       {
+        "id": "Vinil/elastis",
+        "jp": "{弾性|だんせい}（ビニル{系|けい}）"
+       },
+       {
+        "id": "Kayu",
+        "jp": "{木質|もくしつ}"
+       },
+       {
+        "id": "Batu",
+        "jp": "{石材|せきざい}"
+       },
+       {
+        "id": "Karpet",
+        "jp": "カーペット"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lantai vinil: tipe plastik, linoleum, karet.",
+       "jp": "ビニル{系|けい}・リノウム{系|けい}・ゴム{系|けい}は{弾性|だんせい}{床材|ゆかざい}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bekas heal sepatu termasuk kotoran jenis…",
+       "jp": "ヒールマークはどの{汚|よご}れですか。"
+      },
+      "opts": [
+       {
+        "id": "Minyak",
+        "jp": "{油溶性|ゆようせい}"
+       },
+       {
+        "id": "Anorganik",
+        "jp": "{無機質|むきしつ}"
+       },
+       {
+        "id": "Larut air",
+        "jp": "{水溶性|すいようせい}"
+       },
+       {
+        "id": "Penular penyakit",
+        "jp": "{感染性|かんせんせい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tipe minyak: bekas heal, sebum.",
+       "jp": "ヒールマークは{油溶性|ゆようせい}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jamur dan kutu termasuk…",
+       "jp": "カビやダニはどの{汚|よご}れですか。"
+      },
+      "opts": [
+       {
+        "id": "Kotoran yang dapat menularkan penyakit",
+        "jp": "{感染性|かんせんせい}の{汚|よご}れ"
+       },
+       {
+        "id": "Anorganik",
+        "jp": "{無機質|むきしつ}"
+       },
+       {
+        "id": "Larut air",
+        "jp": "{水溶性|すいようせい}"
+       },
+       {
+        "id": "Minyak",
+        "jp": "{油溶性|ゆようせい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jamur, kutu = kotoran penular penyakit.",
+       "jp": "カビ・ダニは{感染性|かんせんせい}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kotoran yang tidak bisa dibersihkan dengan pembersihan biasa:",
+       "jp": "{清掃|せいそう}では{落|お}ちない{汚|よご}れは？"
+      },
+      "opts": [
+       {
+        "id": "Bekas terbakar matahari",
+        "jp": "{日焼|ひや}け"
+       },
+       {
+        "id": "Debu",
+        "jp": "ホコリ"
+       },
+       {
+        "id": "Noda minuman",
+        "jp": "{飲|の}み{物|もの}の{染|し}み"
+       },
+       {
+        "id": "Rambut",
+        "jp": "{髪|かみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bekas terbakar matahari tidak bisa dibersihkan.",
+       "jp": "{日焼|ひや}けは{清掃|せいそう}では{落|お}ちません。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pembersih toilet asam bernilai pH sekitar…",
+       "jp": "{酸性|さんせい}トイレクリーナーのpHは？"
+      },
+      "opts": [
+       {
+        "id": "0 (asam)",
+        "jp": "0（{酸性|さんせい}）"
+       },
+       {
+        "id": "7",
+        "jp": "7"
+       },
+       {
+        "id": "14",
+        "jp": "14"
+       },
+       {
+        "id": "11",
+        "jp": "11"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tipe asam dimulai pH 0; alkali mendekati 14.",
+       "jp": "{酸性|さんせい}はpH0{付近|ふきん}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Cara kerja karbol dalam menghilangkan kotoran:",
+       "jp": "{洗剤|せんざい}が{汚|よご}れを{落|お}とす{仕組|しく}みは？"
+      },
+      "opts": [
+       {
+        "id": "Menembus kotoran lalu menguraikan dan mengangkatnya",
+        "jp": "{浸透|しんとう}して{分離|ぶんり}し{汚|よご}れを{浮|う}かす"
+       },
+       {
+        "id": "Mengecat kotoran",
+        "jp": "{汚|よご}れを{塗|ぬ}る"
+       },
+       {
+        "id": "Membekukan",
+        "jp": "{凍|こお}らせる"
+       },
+       {
+        "id": "Menyerap warna",
+        "jp": "{色|いろ}を{吸|す}う"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penetrasi → memisahkan → mengangkat kotoran.",
+       "jp": "{浸透|しんとう}→{分離|ぶんり}→{浮|う}かす。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika karbol terkena mata atau tertelan…",
+       "jp": "{洗剤|せんざい}が{目|め}に{入|はい}ったときは？"
+      },
+      "opts": [
+       {
+        "id": "Segera ke rumah sakit",
+        "jp": "すぐ{病院|びょういん}へ{行|い}く"
+       },
+       {
+        "id": "Dibiarkan",
+        "jp": "{放|ほう}っておく"
+       },
+       {
+        "id": "Minum air saja",
+        "jp": "{水|みず}だけ{飲|の}む"
+       },
+       {
+        "id": "Tidur",
+        "jp": "{寝|ね}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Segera ke rumah sakit.",
+       "jp": "すぐに{病院|びょういん}へ{行|い}きます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q2",
+    "title": {
+     "id": "Polisher",
+     "jp": "ポリッシャー"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Peralatan polisher sebaiknya ditaruh di atas…",
+       "jp": "{資器材|しきざい}はどこに{置|お}きますか。"
+      },
+      "opts": [
+       {
+        "id": "Curing mat",
+        "jp": "{養生|ようじょう}マット"
+       },
+       {
+        "id": "Langsung di lantai",
+        "jp": "{直接床|ちょくせつゆか}"
+       },
+       {
+        "id": "Di kursi",
+        "jp": "{椅子|いす}"
+       },
+       {
+        "id": "Di meja tamu",
+        "jp": "お{客様|きゃくさま}の{机|つくえ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan taruh peralatan langsung di lantai.",
+       "jp": "{養生|ようじょう}マットの{上|うえ}に{置|お}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Tuas kanan polisher berfungsi untuk…",
+       "jp": "ポリッシャーの{右|みぎ}レバーの{役割|やくわり}は？"
+      },
+      "opts": [
+       {
+        "id": "Memutar pad",
+        "jp": "{軸|じく}の{回転|かいてん}"
+       },
+       {
+        "id": "Menyemprot karbol",
+        "jp": "{洗剤|せんざい}{散布|さんぷ}"
+       },
+       {
+        "id": "Mematikan listrik",
+        "jp": "{電源|でんげん}を{切|き}る"
+       },
+       {
+        "id": "Melipat pegangan",
+        "jp": "ハンドルを{折|お}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kanan = rotasi putaran; kiri = penyemprot karbol.",
+       "jp": "{右|みぎ}レバーは{回転|かいてん}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Menaikkan pegangan sedikit membuat polisher…",
+       "jp": "ハンドルを{少|すこ}し{上|あ}げるとどう{進|すす}みますか。"
+      },
+      "opts": [
+       {
+        "id": "Maju ke kanan",
+        "jp": "{右|みぎ}に{進|すす}む"
+       },
+       {
+        "id": "Maju ke kiri",
+        "jp": "{左|ひだり}に{進|すす}む"
+       },
+       {
+        "id": "Berhenti",
+        "jp": "{止|と}まる"
+       },
+       {
+        "id": "Mati",
+        "jp": "{消|き}える"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pegangan naik → kanan; turun → kiri.",
+       "jp": "{上|あ}げると{右|みぎ}に{進|すす}みます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Arah membersihkan sisi luar ruangan:",
+       "jp": "{外周|がいしゅう}はどの{向|む}きに{清掃|せいそう}しますか。"
+      },
+      "opts": [
+       {
+        "id": "Berlawanan arah jarum jam",
+        "jp": "{反時計回|はんとけいまわ}り"
+       },
+       {
+        "id": "Searah jarum jam",
+        "jp": "{時計回|とけいまわ}り"
+       },
+       {
+        "id": "Zig-zag",
+        "jp": "ジグザグ"
+       },
+       {
+        "id": "Acak",
+        "jp": "ランダム"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tebarkan karbol di sisi luar dan bersihkan berlawanan arah jarum jam.",
+       "jp": "{反時計回|はんとけいまわ}りです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mulai membersihkan dari tempat…",
+       "jp": "どこから{清掃|せいそう}を{始|はじ}めますか。"
+      },
+      "opts": [
+       {
+        "id": "Paling jauh dari stop kontak",
+        "jp": "{電源|でんげん}から{一番遠|いちばんとお}い{所|ところ}"
+       },
+       {
+        "id": "Paling dekat stop kontak",
+        "jp": "{電源|でんげん}に{一番近|いちばんちか}い{所|ところ}"
+       },
+       {
+        "id": "Pintu keluar",
+        "jp": "{出口|でぐち}"
+       },
+       {
+        "id": "Bebas",
+        "jp": "どこでも"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mulai dari tempat paling jauh dari stop kontak, mundur mendekatinya.",
+       "jp": "{電源|でんげん}から{遠|とお}い{所|ところ}から。"
+      }
+     },
+     {
+      "q": {
+       "id": "Tumpukan lebar pad saat membersihkan:",
+       "jp": "パッド{幅|はば}はどれだけ{重|かさ}ねますか。"
+      },
+      "opts": [
+       {
+        "id": "Sekitar 1/3",
+        "jp": "{約|やく}3{分|ぶん}の1"
+       },
+       {
+        "id": "Tidak ditumpuk",
+        "jp": "{重|かさ}ねない"
+       },
+       {
+        "id": "Seluruhnya",
+        "jp": "{全部|ぜんぶ}"
+       },
+       {
+        "id": "1/10",
+        "jp": "10{分|ぶん}の1"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bersihkan dengan menumpukkan 1/3 lebar pad.",
+       "jp": "パッド{幅|はば}を1/3{重|かさ}ねます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum melepas pad, yang harus dilakukan:",
+       "jp": "パッドを{外|はず}す{前|まえ}にすることは？"
+      },
+      "opts": [
+       {
+        "id": "Mencabut colokan",
+        "jp": "プラグを{抜|ぬ}く"
+       },
+       {
+        "id": "Menyalakan mesin",
+        "jp": "{電源|でんげん}を{入|い}れる"
+       },
+       {
+        "id": "Memanaskan",
+        "jp": "{温|あたた}める"
+       },
+       {
+        "id": "Mengecat",
+        "jp": "{塗|ぬ}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sebelum melepas pad cabut dulu colokannya (jangan tarik kabel).",
+       "jp": "{電源|でんげん}からプラグを{抜|ぬ}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alat untuk melepas alas pad dengan mudah:",
+       "jp": "パッド{台|だい}を{簡単|かんたん}に{外|はず}せる{道具|どうぐ}は？"
+      },
+      "opts": [
+       {
+        "id": "Obeng minus",
+        "jp": "マイナスドライバー"
+       },
+       {
+        "id": "Palu",
+        "jp": "ハンマー"
+       },
+       {
+        "id": "Gunting",
+        "jp": "はさみ"
+       },
+       {
+        "id": "Sapu",
+        "jp": "ほうき"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Alas pad mudah dilepas dengan obeng minus.",
+       "jp": "マイナスドライバーを{使|つか}います。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q3",
+    "title": {
+     "id": "Kaca & peralatan",
+     "jp": "ガラス清掃・資器材"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tiga tahap membersihkan kaca yang benar:",
+       "jp": "ガラス{清掃|せいそう}の3{工程|こうてい}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Oles sabun → squeegee → lap basah",
+        "jp": "{洗剤塗布|せんざいとふ}→スクイジー→{水拭|みずぶ}き"
+       },
+       {
+        "id": "Lap basah → oles sabun → squeegee",
+        "jp": "{水拭|みずぶ}き→{洗剤塗布|せんざいとふ}→スクイジー"
+       },
+       {
+        "id": "Squeegee → sabun → debu",
+        "jp": "スクイジー→{洗剤|せんざい}→ホコリ"
+       },
+       {
+        "id": "Tidak ada urutan",
+        "jp": "{順番|じゅんばん}はない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "① sabun dengan window washer, ② hilangkan kotoran dengan squeegee, ③ lap basah.",
+       "jp": "{洗剤|せんざい}→{汚|よご}れ{除去|じょきょ}→{水拭|みずぶ}き。"
+      }
+     },
+     {
+      "q": {
+       "id": "Window washer dipakai untuk…",
+       "jp": "シャンパーは{何|なに}のために{使|つか}いますか。"
+      },
+      "opts": [
+       {
+        "id": "Mengoleskan sabun",
+        "jp": "{洗剤|せんざい}を{塗|ぬ}る"
+       },
+       {
+        "id": "Menyedot debu",
+        "jp": "ホコリを{吸|す}う"
+       },
+       {
+        "id": "Menarik air",
+        "jp": "{水|みず}を{引|ひ}く"
+       },
+       {
+        "id": "Mengecat",
+        "jp": "{塗装|とそう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Window washer = alat oles sabun.",
+       "jp": "シャンパーは{洗剤|せんざい}を{塗布|とふ}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Oleskan sabun di kaca mulai dari…",
+       "jp": "{洗剤|せんざい}はどこから{塗|ぬ}りますか。"
+      },
+      "opts": [
+       {
+        "id": "Empat sudut",
+        "jp": "{四隅|よすみ}"
+       },
+       {
+        "id": "Tengah",
+        "jp": "{中央|ちゅうおう}"
+       },
+       {
+        "id": "Bawah saja",
+        "jp": "{下|した}だけ"
+       },
+       {
+        "id": "Acak",
+        "jp": "ランダム"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Oleskan ke 4 sudut kaca terlebih dahulu.",
+       "jp": "{四隅|よすみ}から{塗布|とふ}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Squeegee ditarik ke bawah sejauh sekitar… sekali tarik",
+       "jp": "スクイジーは{一度|いちど}にどれくらい{引|ひ}き{降|お}ろしますか。"
+      },
+      "opts": [
+       {
+        "id": "20 cm",
+        "jp": "20cm"
+       },
+       {
+        "id": "2 cm",
+        "jp": "2cm"
+       },
+       {
+        "id": "2 m",
+        "jp": "2m"
+       },
+       {
+        "id": "1 cm",
+        "jp": "1cm"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tarik ke bawah sekaligus hingga 20 cm.",
+       "jp": "{下|した}から20cmまで{一気|いっき}に。"
+      }
+     },
+     {
+      "q": {
+       "id": "Tumpukan lebar squeegee:",
+       "jp": "スクイジー{幅|はば}の{重|かさ}ね{方|かた}は？"
+      },
+      "opts": [
+       {
+        "id": "1/4",
+        "jp": "4{分|ぶん}の1"
+       },
+       {
+        "id": "1/2",
+        "jp": "2{分|ぶん}の1"
+       },
+       {
+        "id": "Tidak ditumpuk",
+        "jp": "{重|かさ}ねない"
+       },
+       {
+        "id": "Penuh",
+        "jp": "{全部|ぜんぶ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tumpuk 1/4 lebar window cleaner.",
+       "jp": "4{分|ぶん}の1{重|かさ}ねます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa lap digerakkan setelah setiap tarikan squeegee?",
+       "jp": "{一回引|いっかいひ}くごとにタオルで{拭|ふ}くのはなぜですか。"
+      },
+      "opts": [
+       {
+        "id": "Untuk menyingkirkan sisa sabun",
+        "jp": "{洗剤|せんざい}を{拭|ふ}き{取|と}るため"
+       },
+       {
+        "id": "Agar kain basah",
+        "jp": "タオルを{濡|ぬ}らすため"
+       },
+       {
+        "id": "Agar lama",
+        "jp": "{時間|じかん}をかけるため"
+       },
+       {
+        "id": "Tidak ada alasan",
+        "jp": "{理由|りゆう}はない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah ditarik ke bawah, sisa sabun harus segera dibersihkan dengan lap.",
+       "jp": "{洗剤|せんざい}をすぐ{拭|ふ}き{取|と}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kain pel kaca dilipat sesuai…",
+       "jp": "{水拭|みずぶ}きのタオルは{何|なに}に{合|あ}わせて{折|お}りますか。"
+      },
+      "opts": [
+       {
+        "id": "Lebar bingkai",
+        "jp": "フレームの{幅|はば}"
+       },
+       {
+        "id": "Lebar kaca",
+        "jp": "ガラスの{幅|はば}"
+       },
+       {
+        "id": "Lebar ember",
+        "jp": "バケツの{幅|はば}"
+       },
+       {
+        "id": "Tidak dilipat",
+        "jp": "{折|お}らない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lipat lap sesuai dengan lebar bingkai.",
+       "jp": "フレームの{幅|はば}に{折|お}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Perlengkapan untuk menyedot air kotor di lantai:",
+       "jp": "{汚水|おすい}を{回収|かいしゅう}する{道具|どうぐ}は？"
+      },
+      "opts": [
+       {
+        "id": "Pengki untuk air",
+        "jp": "{汚水取|おすいと}り"
+       },
+       {
+        "id": "Sapu ijuk",
+        "jp": "シダぼうき"
+       },
+       {
+        "id": "Kipas",
+        "jp": "{送風機|そうふうき}"
+       },
+       {
+        "id": "Gelas ukur",
+        "jp": "{計量|けいりょう}カップ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pengki untuk air tercantum di daftar peralatan.",
+       "jp": "{汚水取|おすいと}りがあります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Berapa jenis ember yang disiapkan untuk membersihkan kaca (lihat gambar)?",
+       "jp": "{図|ず}のガラス{清掃|せいそう}で{使|つか}うバケツは{何|なん}{種類|しゅるい}ですか。"
+      },
+      "opts": [
+       {
+        "id": "2 (untuk lap dan untuk window washer)",
+        "jp": "2{種類|しゅるい}（タオル{用|よう}・シャンパー{用|よう}）"
+       },
+       {
+        "id": "1",
+        "jp": "1{種類|しゅるい}"
+       },
+       {
+        "id": "3",
+        "jp": "3{種類|しゅるい}"
+       },
+       {
+        "id": "Tidak ada",
+        "jp": "なし"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ada ember untuk lap dan ember untuk window washer.",
+       "jp": "バケツはタオル{用|よう}とシャンパー{用|よう}があります。"
+      },
+      "img": {
+       "p": 75,
+       "id": [
+        18.5,
+        34,
+        63,
+        25.5
+       ],
+       "jp": [
+        18.5,
+        35.5,
+        63,
+        27.5
+       ]
+      }
+     }
+    ]
+   }
   ]
  }
 }

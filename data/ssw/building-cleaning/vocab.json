@@ -280,7 +280,8 @@
    "cat": "Peralatan",
    "bab": "bab1",
    "src": [
-    "b1s3"
+    "b1s3",
+    "b3s4"
    ]
   },
   {
@@ -304,7 +305,8 @@
    "cat": "5 prinsip",
    "bab": "bab1",
    "src": [
-    "b1s4"
+    "b1s4",
+    "b3s2"
    ]
   },
   {
@@ -316,7 +318,9 @@
    "cat": "5 prinsip",
    "bab": "bab1",
    "src": [
-    "b1s4"
+    "b1s4",
+    "b2s11",
+    "b3s3"
    ]
   },
   {
@@ -604,6 +608,945 @@
    "src": [
     "b1s6",
     "b1s1"
+   ]
+  },
+  {
+   "id": "bc-049",
+   "kata": "掃除機",
+   "kana": "そうじき",
+   "romaji": "soujiki",
+   "arti": "penyedot debu",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{掃除機|そうじき}は{電源|でんげん}から{離|はな}れていくように{進|すす}む",
+   "arti_contoh": "Penyedot debu digerakkan menjauhi stop kontak."
+  },
+  {
+   "id": "bc-050",
+   "kata": "自在ぼうき",
+   "kana": "じざいぼうき",
+   "romaji": "jizaibouki",
+   "arti": "sapu ruangan",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ]
+  },
+  {
+   "id": "bc-051",
+   "kata": "文化ちり取り",
+   "kana": "ぶんかちりとり",
+   "romaji": "bunka chiritori",
+   "arti": "pengki (serokan)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ]
+  },
+  {
+   "id": "bc-052",
+   "kata": "ダストクロス",
+   "kana": "ダストクロス",
+   "romaji": "dasutokurosu",
+   "arti": "dust cloth (lap debu)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-053",
+   "kata": "モップ",
+   "kana": "モップ",
+   "romaji": "moppu",
+   "arti": "mop (pel)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "モップは{後退|こうたい}しながら{拭|ふ}く",
+   "arti_contoh": "Mop dipakai sambil mundur."
+  },
+  {
+   "id": "bc-054",
+   "kata": "バケツ",
+   "kana": "バケツ",
+   "romaji": "baketsu",
+   "arti": "ember",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s6",
+    "b2s11"
+   ]
+  },
+  {
+   "id": "bc-055",
+   "kata": "タオル",
+   "kana": "タオル",
+   "romaji": "taoru",
+   "arti": "lap; handuk lap",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s9",
+    "b2s10"
+   ]
+  },
+  {
+   "id": "bc-056",
+   "kata": "手袋",
+   "kana": "てぶくろ",
+   "romaji": "tebukuro",
+   "arti": "sarung tangan",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s14"
+   ],
+   "contoh": "{手袋|てぶくろ}の{裾|すそ}を{折|お}り{返|かえ}す",
+   "arti_contoh": "Lipat ujung sarung tangan."
+  },
+  {
+   "id": "bc-057",
+   "kata": "フロアサイン",
+   "kana": "フロアサイン",
+   "romaji": "furoasain",
+   "arti": "floor sign (papan tanda lantai)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s2",
+    "b2s12"
+   ],
+   "contoh": "{作業開始|さぎょうかいし}の{前|まえ}にフロアサインを{設置|せっち}する",
+   "arti_contoh": "Pasang floor sign sebelum mulai kerja."
+  },
+  {
+   "id": "bc-058",
+   "kata": "養生マット",
+   "kana": "ようじょうマット",
+   "romaji": "youjou matto",
+   "arti": "curing mat (alas peralatan)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s14"
+   ]
+  },
+  {
+   "id": "bc-059",
+   "kata": "白パッド",
+   "kana": "しろパッド",
+   "romaji": "shiro paddo",
+   "arti": "pad putih",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s13",
+    "b2s14"
+   ]
+  },
+  {
+   "id": "bc-060",
+   "kata": "ブラシ",
+   "kana": "ブラシ",
+   "romaji": "burashi",
+   "arti": "sikat (brush)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s14",
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-061",
+   "kata": "幅木",
+   "kana": "はばき",
+   "romaji": "habaki",
+   "arti": "plint dinding",
+   "cat": "Tempat",
+   "bab": "bab2",
+   "src": [
+    "b2s5",
+    "b2s7"
+   ],
+   "contoh": "{幅木|はばき}にぶつけないように{気|き}をつける",
+   "arti_contoh": "Hati-hati jangan menabrak plint dinding."
+  },
+  {
+   "id": "bc-062",
+   "kata": "ホコリ",
+   "kana": "ホコリ",
+   "romaji": "hokori",
+   "arti": "debu",
+   "cat": "Kotoran",
+   "bab": "bab2",
+   "src": [
+    "b2s3",
+    "b2s12"
+   ]
+  },
+  {
+   "id": "bc-063",
+   "kata": "土砂",
+   "kana": "どしゃ",
+   "romaji": "dosha",
+   "arti": "tanah dan pasir",
+   "cat": "Kotoran",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ]
+  },
+  {
+   "id": "bc-064",
+   "kata": "水拭き",
+   "kana": "みずぶき",
+   "romaji": "mizubuki",
+   "arti": "mengelap basah",
+   "cat": "Cara kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s9",
+    "b2s13"
+   ]
+  },
+  {
+   "id": "bc-065",
+   "kata": "乾拭き",
+   "kana": "からぶき",
+   "romaji": "karabuki",
+   "arti": "mengelap kering",
+   "cat": "Cara kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s10",
+    "b2s16"
+   ]
+  },
+  {
+   "id": "bc-066",
+   "kata": "歩行動線",
+   "kana": "ほこうどうせん",
+   "romaji": "hokoudousen",
+   "arti": "jalur lalu lalang",
+   "cat": "Tempat",
+   "bab": "bab2",
+   "src": [
+    "b2s1",
+    "b2s8"
+   ]
+  },
+  {
+   "id": "bc-067",
+   "kata": "漏電",
+   "kana": "ろうでん",
+   "romaji": "rouden",
+   "arti": "kebocoran listrik",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s7",
+    "b3s5"
+   ]
+  },
+  {
+   "id": "bc-068",
+   "kata": "プラグ",
+   "kana": "プラグ",
+   "romaji": "puragu",
+   "arti": "steker (colokan)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "プラグを{持|も}って{引|ひ}き{抜|ぬ}く",
+   "arti_contoh": "Cabut dengan memegang steker."
+  },
+  {
+   "id": "bc-069",
+   "kata": "コード",
+   "kana": "コード",
+   "romaji": "koodo",
+   "arti": "kabel listrik",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-070",
+   "kata": "ノズル",
+   "kana": "ノズル",
+   "romaji": "nozuru",
+   "arti": "nosel",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-071",
+   "kata": "ウォンド",
+   "kana": "ウォンド",
+   "romaji": "wondo",
+   "arti": "wand (tongkat penyedot)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-072",
+   "kata": "ホース",
+   "kana": "ホース",
+   "romaji": "hoosu",
+   "arti": "selang",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-073",
+   "kata": "紙袋",
+   "kana": "かみぶくろ",
+   "romaji": "kamibukuro",
+   "arti": "kantung kertas (penyedot debu)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{紙袋|かみぶくろ}に2／3ほどゴミが{溜|た}まったら{交換|こうかん}する",
+   "arti_contoh": "Ganti saat kantung terisi sekitar 2/3."
+  },
+  {
+   "id": "bc-074",
+   "kata": "本体",
+   "kana": "ほんたい",
+   "romaji": "hontai",
+   "arti": "body (badan mesin)",
+   "cat": "Alat",
+   "bab": "bab2",
+   "src": [
+    "b2s7",
+    "b3s8"
+   ]
+  },
+  {
+   "id": "bc-075",
+   "kata": "異音",
+   "kana": "いおん",
+   "romaji": "ion",
+   "arti": "bunyi aneh",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-076",
+   "kata": "発熱",
+   "kana": "はつねつ",
+   "romaji": "hatsunetsu",
+   "arti": "panas berlebih",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-077",
+   "kata": "断線",
+   "kana": "だんせん",
+   "romaji": "dansen",
+   "arti": "kabel putus",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-078",
+   "kata": "目皿",
+   "kana": "めざら",
+   "romaji": "mezara",
+   "arti": "penutup lubang urinoir",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s14"
+   ],
+   "contoh": "{目皿|めざら}を{割|わ}らないように{注意|ちゅうい}する",
+   "arti_contoh": "Hati-hati jangan memecahkan penutup lubang."
+  },
+  {
+   "id": "bc-079",
+   "kata": "小便器",
+   "kana": "しょうべんき",
+   "romaji": "shoubenki",
+   "arti": "urinoir",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s14"
+   ]
+  },
+  {
+   "id": "bc-080",
+   "kata": "大便器",
+   "kana": "だいべんき",
+   "romaji": "daibenki",
+   "arti": "kloset (WC)",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-081",
+   "kata": "洗面台",
+   "kana": "せんめんだい",
+   "romaji": "senmendai",
+   "arti": "wastafel",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s13"
+   ]
+  },
+  {
+   "id": "bc-082",
+   "kata": "蛇口",
+   "kana": "じゃぐち",
+   "romaji": "jaguchi",
+   "arti": "keran",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s13"
+   ]
+  },
+  {
+   "id": "bc-083",
+   "kata": "排水口",
+   "kana": "はいすいこう",
+   "romaji": "haisuikou",
+   "arti": "lubang pembuangan (afur)",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s13"
+   ]
+  },
+  {
+   "id": "bc-084",
+   "kata": "リム",
+   "kana": "リム",
+   "romaji": "rimu",
+   "arti": "rim (tepi dalam kloset)",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-085",
+   "kata": "人感センサー",
+   "kana": "じんかんセンサー",
+   "romaji": "jinkan sensaa",
+   "arti": "sensor manusia",
+   "cat": "Toilet",
+   "bab": "bab2",
+   "src": [
+    "b2s14"
+   ]
+  },
+  {
+   "id": "bc-086",
+   "kata": "廃棄物",
+   "kana": "はいきぶつ",
+   "romaji": "haikibutsu",
+   "arti": "limbah; sampah",
+   "cat": "Sampah",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ]
+  },
+  {
+   "id": "bc-087",
+   "kata": "分別",
+   "kana": "ぶんべつ",
+   "romaji": "bunbetsu",
+   "arti": "pemisahan jenis sampah",
+   "cat": "Sampah",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ],
+   "contoh": "ゴミの{分別|ぶんべつ}は{回収後|かいしゅうご}にまとめてする",
+   "arti_contoh": "Pemisahan sampah dilakukan setelah semua terkumpul."
+  },
+  {
+   "id": "bc-088",
+   "kata": "手洗い",
+   "kana": "てあらい",
+   "romaji": "tearai",
+   "arti": "cuci tangan",
+   "cat": "Kebersihan",
+   "bab": "bab2",
+   "src": [
+    "b2s18"
+   ],
+   "contoh": "20{秒以上|びょういじょう}かけて{手洗|てあら}いをする",
+   "arti_contoh": "Cuci tangan lebih dari 20 detik."
+  },
+  {
+   "id": "bc-089",
+   "kata": "感染予防",
+   "kana": "かんせんよぼう",
+   "romaji": "kansen yobou",
+   "arti": "pencegahan infeksi",
+   "cat": "Kebersihan",
+   "bab": "bab2",
+   "src": [
+    "b2s18"
+   ]
+  },
+  {
+   "id": "bc-090",
+   "kata": "安全",
+   "kana": "あんぜん",
+   "romaji": "anzen",
+   "arti": "keselamatan; aman",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-091",
+   "kata": "衛生",
+   "kana": "えいせい",
+   "romaji": "eisei",
+   "arti": "kebersihan; sanitasi",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s18",
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-092",
+   "kata": "転倒",
+   "kana": "てんとう",
+   "romaji": "tentou",
+   "arti": "terjungkal; jatuh terpeleset",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-093",
+   "kata": "感電",
+   "kana": "かんでん",
+   "romaji": "kanden",
+   "arti": "tersetrum listrik",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-094",
+   "kata": "塩素系",
+   "kana": "えんそけい",
+   "romaji": "ensokei",
+   "arti": "berbahan dasar klorin",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-095",
+   "kata": "注射針",
+   "kana": "ちゅうしゃばり",
+   "romaji": "chuushabari",
+   "arti": "jarum suntik",
+   "cat": "Keselamatan",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-096",
+   "kata": "床材",
+   "kana": "ゆかざい",
+   "romaji": "yukazai",
+   "arti": "material lantai",
+   "cat": "Lantai",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-097",
+   "kata": "弾性床材",
+   "kana": "だんせいゆかざい",
+   "romaji": "dansei yukazai",
+   "arti": "lantai elastis (vinil, linoleum, karet)",
+   "cat": "Lantai",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-098",
+   "kata": "カーペット",
+   "kana": "カーペット",
+   "romaji": "kaapetto",
+   "arti": "karpet",
+   "cat": "Lantai",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-099",
+   "kata": "無機質",
+   "kana": "むきしつ",
+   "romaji": "mukishitsu",
+   "arti": "anorganik",
+   "cat": "Kotoran",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-100",
+   "kata": "水溶性",
+   "kana": "すいようせい",
+   "romaji": "suiyousei",
+   "arti": "larut air",
+   "cat": "Kotoran",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-101",
+   "kata": "油溶性",
+   "kana": "ゆようせい",
+   "romaji": "yuyousei",
+   "arti": "larut minyak",
+   "cat": "Kotoran",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-102",
+   "kata": "感染性",
+   "kana": "かんせんせい",
+   "romaji": "kansensei",
+   "arti": "dapat menularkan penyakit",
+   "cat": "Kotoran",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-103",
+   "kata": "酸性",
+   "kana": "さんせい",
+   "romaji": "sansei",
+   "arti": "asam",
+   "cat": "Karbol",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-104",
+   "kata": "中性",
+   "kana": "ちゅうせい",
+   "romaji": "chuusei",
+   "arti": "netral",
+   "cat": "Karbol",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-105",
+   "kata": "アルカリ性",
+   "kana": "アルカリせい",
+   "romaji": "arukarisei",
+   "arti": "alkali",
+   "cat": "Karbol",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-106",
+   "kata": "界面活性剤",
+   "kana": "かいめんかっせいざい",
+   "romaji": "kaimen kasseizai",
+   "arti": "surfaktan",
+   "cat": "Karbol",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-107",
+   "kata": "浸透",
+   "kana": "しんとう",
+   "romaji": "shintou",
+   "arti": "penetrasi; meresap",
+   "cat": "Karbol",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-108",
+   "kata": "樹脂",
+   "kana": "じゅし",
+   "romaji": "jushi",
+   "arti": "resin",
+   "cat": "Lantai",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ]
+  },
+  {
+   "id": "bc-109",
+   "kata": "ポリッシャー",
+   "kana": "ポリッシャー",
+   "romaji": "porisshaa",
+   "arti": "polisher (mesin pembersih lantai)",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s5",
+    "b3s6"
+   ],
+   "contoh": "ポリッシャーは{力|ちから}を{入|い}れずにハンドルで{操作|そうさ}する",
+   "arti_contoh": "Polisher dikendalikan dengan pegangan tanpa banyak tenaga."
+  },
+  {
+   "id": "bc-110",
+   "kata": "パッド",
+   "kana": "パッド",
+   "romaji": "paddo",
+   "arti": "pad",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s5",
+    "b3s7"
+   ]
+  },
+  {
+   "id": "bc-111",
+   "kata": "フロアパッド",
+   "kana": "フロアパッド",
+   "romaji": "furoa paddo",
+   "arti": "floor pad",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s5",
+    "b3s8"
+   ]
+  },
+  {
+   "id": "bc-112",
+   "kata": "ハンドル",
+   "kana": "ハンドル",
+   "romaji": "handoru",
+   "arti": "pegangan (handle)",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s6"
+   ]
+  },
+  {
+   "id": "bc-113",
+   "kata": "セーフティロック",
+   "kana": "セーフティロック",
+   "romaji": "seefuthi rokku",
+   "arti": "safety lock",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s6"
+   ]
+  },
+  {
+   "id": "bc-114",
+   "kata": "スタンド",
+   "kana": "スタンド",
+   "romaji": "sutando",
+   "arti": "penyangga (stand)",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s5",
+    "b3s6"
+   ]
+  },
+  {
+   "id": "bc-115",
+   "kata": "反時計回り",
+   "kana": "はんとけいまわり",
+   "romaji": "han tokei mawari",
+   "arti": "berlawanan arah jarum jam",
+   "cat": "Cara kerja",
+   "bab": "bab3",
+   "src": [
+    "b3s7"
+   ]
+  },
+  {
+   "id": "bc-116",
+   "kata": "圧",
+   "kana": "あつ",
+   "romaji": "atsu",
+   "arti": "tekanan",
+   "cat": "Cara kerja",
+   "bab": "bab3",
+   "src": [
+    "b3s7"
+   ]
+  },
+  {
+   "id": "bc-117",
+   "kata": "汚水",
+   "kana": "おすい",
+   "romaji": "osui",
+   "arti": "air kotor",
+   "cat": "Cara kerja",
+   "bab": "bab3",
+   "src": [
+    "b3s8"
+   ],
+   "contoh": "{汚水|おすい}をたらさないように{回収|かいしゅう}する",
+   "arti_contoh": "Kumpulkan air kotor agar tidak menetes."
+  },
+  {
+   "id": "bc-118",
+   "kata": "シャンパー",
+   "kana": "シャンパー",
+   "romaji": "shanpaa",
+   "arti": "window washer (alat oles sabun kaca)",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s9"
+   ]
+  },
+  {
+   "id": "bc-119",
+   "kata": "ウインドスクイジー",
+   "kana": "ウインドスクイジー",
+   "romaji": "uindo sukuijii",
+   "arti": "window cleaner (squeegee)",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b3s9",
+    "b3s10"
+   ]
+  },
+  {
+   "id": "bc-120",
+   "kata": "四隅",
+   "kana": "よすみ",
+   "romaji": "yosumi",
+   "arti": "empat sudut",
+   "cat": "Cara kerja",
+   "bab": "bab3",
+   "src": [
+    "b3s9",
+    "b3s11"
+   ],
+   "contoh": "ガラスの{四隅|よすみ}から{塗布|とふ}する",
+   "arti_contoh": "Oles dari empat sudut kaca."
+  },
+  {
+   "id": "bc-121",
+   "kata": "脚立",
+   "kana": "きゃたつ",
+   "romaji": "kyatatsu",
+   "arti": "tangga lipat",
+   "cat": "Keselamatan",
+   "bab": "bab3",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-122",
+   "kata": "運搬車",
+   "kana": "うんぱんしゃ",
+   "romaji": "unpansha",
+   "arti": "kereta angkut",
+   "cat": "Alat",
+   "bab": "bab3",
+   "src": [
+    "b2s19",
+    "b3s12"
    ]
   }
  ]

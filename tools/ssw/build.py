@@ -5,6 +5,8 @@ Duplikat (kata sama) digabung: satu kata, banyak sumber subbab."""
 import json, os, re, sys
 sys.path.insert(0, os.path.dirname(__file__))
 from vocab_bc import BABS
+from vocab_bc2 import BAB2, BAB3
+BABS["bab2"] = BAB2; BABS["bab3"] = BAB3
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 items, seen = [], {}
 for bab, lst in BABS.items():
@@ -26,6 +28,8 @@ print(len(items), "kata")
 
 # ---------------- kuis ----------------
 from quiz_bc import CHAPTERS
+from quiz_bc2 import BAB2 as QB2, BAB3 as QB3
+CHAPTERS["bab2"] = QB2; CHAPTERS["bab3"] = QB3
 # furigana otomatis untuk kata yang dikenal
 def rb(kata, kana):
     k, r = kata, kana
