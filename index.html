@@ -1349,8 +1349,8 @@ html{overflow-x:hidden;}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
-<link rel="stylesheet" href="./css/kana-center.css?v=20261110b"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261110k"/>
+<link rel="stylesheet" href="./css/kana-center.css?v=20261110l"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261110l"/>
 </head>
 <body>
 
@@ -1404,11 +1404,11 @@ import { ACHIEVEMENTS } from "./js/achievements.js";
 import * as FB from "./js/firebase-sync.js?v=20261110c";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
-import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261110k";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261110l";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
-import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110b";
+import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110l";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110k";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110l";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -2310,7 +2310,7 @@ function renderCharaOrbital(){
 // Halaman yang boleh dibuka sebelum memilih level.
 // Rute kana berdiri sendiri (tidak butuh level JLPT) → boleh dibuka sebelum memilih level.
 const BEBAS_PILIH_LEVEL = new Set(["pilih-level","login","masuk","daftar","profile",
-  "kana","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
+  "kana","kana-baca","kana-aturan","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
   "ssw","ssw-peta","ssw-bab","ssw-baca","ssw-buku","ssw-kosa","ssw-kartu","ssw-kuis","ssw-progres"]);
 const _KEY_PILIH = "shirose-level-dipilih";   // sessionStorage: uid yang sudah memilih di sesi ini
 function levelSudahDipilih(){

@@ -146,3 +146,16 @@ body.kc-lock{overflow:hidden;}
 .jlpt-card.kc-band{width:100%; min-height:0; flex-direction:row; align-items:center; gap:6px 18px; flex-wrap:wrap; padding:16px 22px; margin:0 0 16px; box-sizing:border-box;}
 .jlpt-card.kc-band.guru{margin:16px 0 0;} .jlpt-card.kc-band .lv{font-size:38px; min-width:112px;} .jlpt-card.kc-band .jpname{flex:0 0 auto;} .jlpt-card.kc-band .desc{flex:1 1 240px; min-width:0;} .jlpt-card.kc-band .st{margin-left:auto;}
 @media (max-width:560px){ .jlpt-card.kc-band{padding:12px 14px; gap:4px 12px;} .jlpt-card.kc-band .lv{font-size:28px; min-width:0;} .jlpt-card.kc-band .desc{flex-basis:100%; font-size:12.5px;} .jlpt-card.kc-band .st{margin-left:0;} }
+
+/* ===== Latihan baca & aturan tanda ===== */
+.kb-card{text-align:center;} .kb-top{display:flex; align-items:center; gap:10px; font-size:13px; color:var(--gray);} .kb-bar{flex:1; height:8px; border-radius:99px; background:#ffffff1a; overflow:hidden;} .kb-bar i{display:block; height:100%; background:linear-gradient(90deg,var(--pink),var(--gold,#f5c542));}
+.kb-word{font-size:clamp(40px,14vw,76px); font-weight:800; margin:14px 0; line-height:1.25; overflow-wrap:anywhere;}
+.kb-ans{margin:8px 0 12px;} .kb-rom{font-size:28px; font-weight:800; color:var(--pink-light,#ffb0cf);} .kb-ar{font-size:18px; margin:4px 0 8px;}
+.kb-btns{display:flex; gap:10px; justify-content:center; flex-wrap:wrap;} .kb-opts{display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px;}
+.kb-opt{background:rgba(13,16,36,.6); border:1px solid var(--border); color:var(--white); border-radius:14px; padding:12px 6px; font:inherit; font-size:18px; font-weight:700; cursor:pointer; overflow-wrap:anywhere;} .kb-opt.ok{background:#1f8f4e; border-color:#1f8f4e;} .kb-opt.ng{background:#b3392f; border-color:#b3392f;}
+.kb-list{display:flex; flex-direction:column; gap:6px;} .kb-row{display:grid; grid-template-columns:1.1fr 1fr 1.2fr auto; gap:8px; align-items:center; text-align:left; background:rgba(13,16,36,.5); border:1px solid var(--border); color:var(--white); border-radius:12px; padding:8px 10px; font:inherit; cursor:pointer;} .kb-w{font-size:20px; overflow-wrap:anywhere;} .kb-r{color:var(--pink-light,#ffb0cf); font-weight:700; overflow-wrap:anywhere;} .kb-a{font-size:13px; color:var(--gray); overflow-wrap:anywhere;}
+.kb-rule h2 small{font-size:13px; color:var(--gray); font-weight:600;} .kb-rule p{line-height:1.7;}
+.kb-map{display:flex; flex-wrap:wrap; gap:8px; margin:10px 0;} .kb-map span{background:rgba(255,255,255,.07); border:1px solid var(--border); border-radius:12px; padding:8px 12px; line-height:1.5; overflow-wrap:anywhere; max-width:100%;} .kb-map b{color:var(--pink-light,#ffb0cf);}
+.kb-egs{display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); gap:8px; margin-top:10px;}
+.kb-eg{background:rgba(13,16,36,.6); border:1px solid var(--border); color:var(--white); border-radius:14px; padding:10px 6px; font:inherit; cursor:pointer; display:flex; flex-direction:column; gap:2px; align-items:center; min-width:0;} .kb-eg b{font-size:22px; overflow-wrap:anywhere;} .kb-eg span{color:var(--pink-light,#ffb0cf); font-weight:700; font-size:14px;} .kb-eg small{color:var(--gray); font-size:12px;}
+@media(max-width:480px){ .kb-row{grid-template-columns:1fr 1fr auto;} .kb-a{grid-column:1 / -1; order:5;} }
