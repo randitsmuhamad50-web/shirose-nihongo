@@ -1,10 +1,11 @@
 // Panel guru SSW: aktif/nonaktif bidang, urutan, tambah bidang, status bab (Draft/Published/Hidden), progres siswa.
 // Menonaktifkan bidang TIDAK menghapus progres siswa (dokumen progres tidak disentuh).
-import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js";
+import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261110c";
 
 const TEMA = ["building", "kaigo", "factory", "restaurant", "farm", "construction", "hotel", "generic"];
 const BAB_ST = { published: "Published (tampil untuk siswa)", draft: "Draft (hanya guru)", hidden: "Hidden (disembunyikan)" };
-let FB = null, CTX = { toast: () => {}, rerender: () => {} }, VIEW = { progres: null };
+let FB = null, CTX = { toast: () => {}, rerender: () => {} }, VIEW = { progres: null, rank: null, kelas: "", cari: "" };
+let SIS = [];
 
 async function loadAll() {
   let remote = [];
@@ -44,14 +45,17 @@ export async function renderSswTab(fb, ctx) {
         <label>Nama <input value="${esc(b.nama)}" style="width:150px" onchange="SSWT.field('${b.slug}','nama',this.value)"></label>
         <label>日本語 <input value="${esc(b.jp || "")}" style="width:150px" onchange="SSWT.field('${b.slug}','jp',this.value)"></label>
         <button class="btn ghost sm" onclick="SSWT.progres('${b.slug}')">👥 Progres siswa</button>
+        <button class="btn ghost sm" onclick="SSWT.rank('${b.slug}')">🏆 Leaderboard</button>
       </div>
       ${babs.length ? `<div class="table-wrap" style="margin-top:10px"><table><thead><tr><th>Bab</th><th>Status</th></tr></thead><tbody>${babRows}</tbody></table></div>` : ""}
       ${b.aktif && !b.hasContent ? `<div style="color:var(--gold,#f59e0b);font-size:12px;margin-top:8px">⚠ Bidang aktif tapi belum ada materi: siswa hanya melihat "belum tersedia".</div>` : ""}
+      ${VIEW.rank === b.slug ? `<div id="sswt-rank" style="margin-top:10px">Memuat…</div>` : ""}
       ${VIEW.progres === b.slug ? `<div id="sswt-prog" style="margin-top:10px">Memuat progres…</div>` : ""}
     </div>`;
   }
-  setTimeout(() => { if (VIEW.progres) fillProgres(VIEW.progres); }, 0);
-  return `<div class="page-title"><h2>🌏 SSW 特定技能</h2></div>
+  setTimeout(() => { if (VIEW.progres) fillProgres(VIEW.progres); if (VIEW.rank) rankHtml(VIEW.rank); }, 0);
+  const akses = await aksesHtml();
+  return `<div class="page-title"><h2>🌏 SSW 特定技能</h2></div>${akses}
     <p style="color:var(--gray);font-size:13px;margin:0 0 12px">Aktifkan bidang yang sudah punya materi. Bab berstatus Draft/Hidden tidak terlihat siswa. Menonaktifkan bidang tidak menghapus progres belajar siswa.</p>
     ${rows}
     <div class="card"><b>➕ Tambah bidang baru</b>
@@ -61,6 +65,32 @@ export async function renderSswTab(fb, ctx) {
         <select id="sswt-tema">${TEMA.map(t => `<option>${t}</option>`).join("")}</select>
         <button class="btn" onclick="SSWT.add()">Tambah</button></div>
       <div style="color:var(--gray);font-size:12px;margin-top:6px">Bidang baru tampil sebagai "belum tersedia" sampai materinya (folder <code>data/ssw/{slug}/</code>) ditambahkan dan dicentang aktif.</div></div>`;
+}
+
+async function aksesHtml() {
+  try { SIS = (await FB.listSiswa()).filter(x => (x.role || "student") === "student"); } catch (e) { SIS = []; return `<div class="card" style="margin-bottom:14px"><b>🔑 Akses siswa ke SSW</b><div style="color:var(--gray);font-size:13px;margin-top:6px">${esc(e.message || e)}</div></div>`; }
+  const kelas = [...new Set(SIS.map(x => x.kelas).filter(Boolean))].sort();
+  const q = VIEW.cari.toLowerCase();
+  const vis = SIS.filter(x => (!VIEW.kelas || x.kelas === VIEW.kelas) && (!q || ((x.nama || "") + " " + (x.email || "")).toLowerCase().includes(q)))
+    .sort((a, b) => (a.nama || "").localeCompare(b.nama || ""));
+  const on = SIS.filter(x => x.aksesSsw !== false).length;
+  const rows = vis.map(x => `<tr><td>${esc(x.nama || x.email || x.uid)}<div style="color:var(--gray);font-size:12px">${esc(x.kelas || "-")}</div></td>
+    <td style="text-align:right"><label style="display:inline-flex;gap:6px;align-items:center;cursor:pointer;min-height:40px"><input type="checkbox" ${x.aksesSsw !== false ? "checked" : ""} onchange="SSWT.akses('${x.uid}',this.checked)"> ${x.aksesSsw !== false ? "Boleh" : "Diblokir"}</label></td></tr>`).join("");
+  return `<div class="card" style="margin-bottom:14px"><b>🔑 Akses siswa ke SSW</b>
+    <div style="color:var(--gray);font-size:12px;margin:4px 0 8px">Siswa baru otomatis boleh. Hilangkan centang untuk memblokir. Progres siswa yang diblokir tetap tersimpan. ${on}/${SIS.length} siswa punya akses.</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px">
+      <select onchange="SSWT.filter('kelas',this.value)"><option value="">Semua kelas</option>${kelas.map(k => `<option ${VIEW.kelas === k ? "selected" : ""}>${esc(k)}</option>`).join("")}</select>
+      <input id="sswt-cari" placeholder="Cari nama/email" value="${esc(VIEW.cari)}" style="width:160px" onchange="SSWT.filter('cari',this.value)">
+      <button class="btn ghost sm" onclick="SSWT.massal(true)">✅ Izinkan yang tampil (${vis.length})</button>
+      <button class="btn ghost sm" onclick="SSWT.massal(false)">🚫 Blokir yang tampil</button></div>
+    ${rows ? `<div class="table-wrap" style="max-height:340px;overflow:auto"><table><tbody>${rows}</tbody></table></div>` : `<div style="color:var(--gray)">Tidak ada siswa.</div>`}</div>`;
+}
+async function rankHtml(slug) {
+  const el = document.getElementById("sswt-rank"); if (!el) return;
+  let rows = []; try { rows = await FB.loadSswRank(slug); } catch (e) { el.textContent = "Gagal: " + (e.message || e); return; }
+  rows.sort((a, b) => (b.poin || 0) - (a.poin || 0));
+  el.innerHTML = rows.length ? `<div class="table-wrap"><table><thead><tr><th>#</th><th>Siswa</th><th>Kelas</th><th>Poin</th></tr></thead><tbody>${rows.map((r, i) => `<tr><td>${i + 1}</td><td>${esc(r.nama)}</td><td>${esc(r.kelas || "-")}</td><td>${r.poin}</td></tr>`).join("")}</tbody></table></div>
+    <button class="btn ghost sm" style="margin-top:8px" onclick="SSWT.resetRank('${slug}')">🗑 Reset leaderboard</button>` : `<div style="color:var(--gray)">Belum ada data.</div>`;
 }
 
 async function save(slug, data, msg) {
@@ -94,6 +124,17 @@ window.SSWT = {
     if (!slug || !nama) return CTX.toast("Isi slug dan nama");
     await save(slug, { nama, jp: document.getElementById("sswt-jp").value.trim(), tema: document.getElementById("sswt-tema").value, aktif: false, hasContent: false, urut: 50 }, "Bidang ditambahkan");
     CTX.rerender();
+  },
+  rank: (slug) => { VIEW.rank = VIEW.rank === slug ? null : slug; CTX.rerender(); },
+  resetRank: async (slug) => { if (!confirm("Hapus semua poin leaderboard bidang ini? Progres belajar siswa TIDAK terhapus.")) return; try { await FB.resetSswRank(slug); CTX.toast("Leaderboard direset"); } catch (e) { CTX.toast("Gagal: " + (e.message || e)); } CTX.rerender(); },
+  filter: (k, v) => { VIEW[k] = v; CTX.rerender(); },
+  akses: async (uid, v) => { try { await FB.setAksesSsw(uid, v); const x = SIS.find(y => y.uid === uid); if (x) x.aksesSsw = !!v; CTX.toast(v ? "Akses SSW dibuka" : "Akses SSW diblokir"); } catch (e) { CTX.toast("Gagal: " + (e.message || e)); } CTX.rerender(); },
+  massal: async (v) => {
+    const q = VIEW.cari.toLowerCase();
+    const vis = SIS.filter(x => (!VIEW.kelas || x.kelas === VIEW.kelas) && (!q || ((x.nama || "") + " " + (x.email || "")).toLowerCase().includes(q)));
+    if (!vis.length || !confirm(`${v ? "Izinkan" : "Blokir"} ${vis.length} siswa?`)) return;
+    let n = 0; for (const x of vis) { try { await FB.setAksesSsw(x.uid, v); n++; } catch (e) {} }
+    CTX.toast(`${n} siswa diperbarui`); CTX.rerender();
   },
   progres: (slug) => { VIEW.progres = VIEW.progres === slug ? null : slug; CTX.rerender(); },
 };

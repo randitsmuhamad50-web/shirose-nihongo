@@ -46,7 +46,7 @@ service cloud.firestore {
       allow update: if
           // Siswa: profil ringan saja (nama, karakter, aktif), tidak boleh ubah hak akses.
           (me() == sid && aktif()
-             && !diubah().hasAny(['role', 'aksesLevel', 'kelas', 'status', 'email', 'permissions', 'dibuatOleh']))
+             && !diubah().hasAny(['role', 'aksesLevel', 'aksesSsw', 'kelas', 'status', 'email', 'permissions', 'dibuatOleh']))
           // Moderator boleh memperbaiki profilnya sendiri.
           || (me() == sid && ownerEmail())
           // Guru: atur akses/kelas/status/nama siswa (bukan role, bukan akun guru lain).
@@ -88,6 +88,17 @@ service cloud.firestore {
       allow read: if terdaftar();
       allow write: if isGuru();
       allow delete: if isAdmin();
+    }
+
+    // Leaderboard SSW: siswa terdaftar membaca; tiap siswa hanya menulis dokumennya sendiri.
+    match /ssw_rank/{rid} {
+      allow read: if terdaftar();
+      allow create, update: if signedIn() && aktif()
+          && request.resource.data.uid == me()
+          && rid == request.resource.data.slug + '__' + me()
+          && request.resource.data.keys().hasOnly(['uid', 'slug', 'nama', 'kelas', 'poin', 'rinci', 'upd'])
+          && request.resource.data.poin is number && request.resource.data.poin >= 0 && request.resource.data.poin <= 1000000;
+      allow delete: if isGuru();
     }
 
     // ---------- Lain-lain ----------

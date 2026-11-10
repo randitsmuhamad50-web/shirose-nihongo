@@ -103,6 +103,36 @@ export async function loadPack(slug) {
 export const babStatus = (bidang, babId) => (bidang?.bab && bidang.bab[babId]) || "published";
 export const siswaBolehBab = (bidang, babId) => isGuru() || babStatus(bidang, babId) === "published";
 
+
+/* ============================ AKSES & LEADERBOARD ============================ */
+/** Guru mengatur per siswa (siswa/{uid}.aksesSsw). Kosong = diizinkan. */
+export function sswAllowed() {
+  if (isGuru()) return true;
+  try { const d = FB && FB.getSiswaDoc && FB.getSiswaDoc(); return !d || d.aksesSsw !== false; } catch (e) { return true; }
+}
+/** Poin: subbab dibaca ×10, kartu sudah dikuasai ×2 (+3 bila "kuasa"), skor terbaik tiap kuis ×0.5. */
+export function points(P) {
+  const baca = Object.keys(P.read || {}).length * 10;
+  let kartu = 0; for (const c of Object.values(P.cards || {})) { if ((c.reps || 0) >= 1) kartu += 2; if ((c.reps || 0) >= 3 && (c.iv || 0) >= 7) kartu += 3; }
+  let kuis = 0; for (const q of Object.values(P.quiz || {})) kuis += Math.max(0, q.best || 0) * 0.5;
+  return { poin: Math.round(baca + kartu + kuis), rinci: { baca, kartu, kuis: Math.round(kuis) } };
+}
+const _rankT = {};
+export function syncRank(slug) {
+  if (isGuru() || isGuest() || !(FB && FB.saveSswRank)) return;
+  const e = PS[slug]; if (!e) return;
+  clearTimeout(_rankT[slug]);
+  _rankT[slug] = setTimeout(async () => {
+    try { const d = (FB.getSiswaDoc && FB.getSiswaDoc()) || {}; const r = points(e.P);
+      await FB.saveSswRank(slug, { nama: d.nama || "Siswa", kelas: d.kelas || "", poin: r.poin, rinci: r.rinci }); } catch (err) { console.warn("ssw: rank gagal:", err.message || err); }
+  }, 4000);
+}
+export async function loadRank(slug) {
+  if (!(FB && FB.loadSswRank) || isGuest()) return [];
+  const rows = await FB.loadSswRank(slug);
+  return rows.sort((a, b) => (b.poin || 0) - (a.poin || 0) || String(a.nama).localeCompare(String(b.nama)));
+}
+
 /* ============================ PROGRES ============================ */
 const DEF = () => ({ v: 1, u: 0, read: {}, cards: {}, quiz: {}, last: null, log: [] });
 const PS = {};   // slug → { id, P }
@@ -123,7 +153,7 @@ export async function getProgress(slug) {
 }
 export function touch(slug) {
   const e = PS[slug]; if (!e) return;
-  e.P.u = Date.now(); LS.set(LKEY(slug), e.P);
+  e.P.u = Date.now(); LS.set(LKEY(slug), e.P); syncRank(slug);
   clearTimeout(_timers[slug]); _timers[slug] = setTimeout(() => flush(slug), 1500);
 }
 export async function flush(slug) {

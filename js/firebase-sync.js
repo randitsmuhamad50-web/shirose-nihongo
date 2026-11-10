@@ -1119,6 +1119,31 @@ export async function simpanKelas(data, id = null) {
   }
 }
 
+
+/* ---- SSW: akses per siswa + leaderboard ----
+ * siswa/{uid}.aksesSsw  (boolean; kosong = diizinkan)  — hanya guru yang boleh mengubah (rules).
+ * ssw_rank/{slug}__{uid} { uid, slug, nama, kelas, poin, rinci{baca,kartu,kuis}, upd } — siswa menulis dokumennya sendiri. */
+export async function setAksesSsw(uid, on) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "siswa", uid), { aksesSsw: !!on });
+}
+export async function saveSswRank(slug, data) {
+  if (!currentUser) return;
+  const d = { uid: currentUser.uid, slug, nama: String(data.nama || "Siswa").slice(0, 60), kelas: String(data.kelas || "").slice(0, 40),
+    poin: Math.max(0, Math.min(1000000, Math.round(data.poin || 0))), rinci: data.rinci || {}, upd: serverTimestamp() };
+  await setDoc(doc(db, "ssw_rank", `${slug}__${currentUser.uid}`), d);
+}
+export async function loadSswRank(slug) {
+  const snap = await getDocs(query(collection(db, "ssw_rank"), where("slug", "==", slug)));
+  return snap.docs.map(x => x.data());
+}
+export async function resetSswRank(slug) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  const rows = await loadSswRank(slug);
+  for (const r of rows) await deleteDoc(doc(db, "ssw_rank", `${slug}__${r.uid}`));
+  return rows.length;
+}
+
 /* ========== LEADERBOARD ========== */
 export async function leaderboard(level, topN = 20) {
   // Per-level leaderboard (original behaviour, backward compatible)
