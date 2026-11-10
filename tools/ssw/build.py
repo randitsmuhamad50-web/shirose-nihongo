@@ -55,3 +55,26 @@ for bab, sets in CHAPTERS.items():
     quiz["bab"][bab] = [{"id": f"{bab}-q{i+1}", "title": t, "items": [fix(x) for x in its]} for i, (qid, t, its) in enumerate(sets)]
 json.dump(quiz, open(os.path.join(out, "quiz.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 print(sum(len(q["items"]) for v in quiz["bab"].values() for q in v), "soal")
+
+# ---------------- rakit bab dari tools/ssw/src/babN/*.json ----------------
+BAB_META = {
+    "bab2": {"no": 2, "title": {"id": "Pembersihan Harian", "jp": "日常清掃"}, "pages": [15, 60],
+             "intro": {"id": "Teknik pembersihan harian: peralatan, keamanan, sapu, dust cloth, mop, penyedot debu, lap meja dan kaca, toilet, pengolahan limbah, kebersihan diri, dan keselamatan kerja.",
+                       "jp": "日常清掃の基本：持ち物、安全、ほうき、ダストクロス、モップ、掃除機、拭き清掃、トイレ、廃棄物、衛生管理、安全。"}},
+    "bab3": {"no": 3, "title": {"id": "Pembersihan Berkala", "jp": "定期清掃"}, "pages": [61, 85],
+             "intro": {"id": "Pembersihan berkala: lantai, polisher, kaca, dan daftar perlengkapan.",
+                       "jp": "定期清掃の基本：床、ポリッシャー、ガラス、資器材一覧。"}},
+}
+SRC = os.path.join(os.path.dirname(__file__), "src")
+SOURCE = "JBMA（一般社団法人 全国ビルメンテナンス協会）「Buku Panduan Pelajar Ujian TOKUTEI GINOU Building Cleaning」"
+for bid, meta in BAB_META.items():
+    d = os.path.join(SRC, bid)
+    if not os.path.isdir(d): continue
+    subs = [json.load(open(os.path.join(d, f), encoding="utf-8")) for f in sorted(os.listdir(d)) if f.endswith(".json")]
+    ids = [s["id"] for s in subs]
+    assert len(ids) == len(set(ids)), "id subbab dobel"
+    for i, s in enumerate(subs): s["no"] = i + 1
+    bab = {"id": bid, **meta, "subs": subs}
+    json.dump({"schema": 1, "bidang": "building-cleaning", "source": SOURCE, "bab": bab},
+              open(os.path.join(out, bid + ".json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(bid, len(subs), "subbab")

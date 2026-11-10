@@ -1,0 +1,37 @@
+{
+ "id": "b2s8", "no": 8,
+ "title": { "id": "Penyedot Debu Tipe Upright", "jp": "アップライト型掃除機" },
+ "pages": [39, 39],
+ "full": {
+  "id": [
+   { "p": "Untuk membersihkan karpet, gunakan penyedot debu tipe Upright." },
+   { "h": "Bedanya dengan tipe Pod" },
+   { "p": "Sikat (brush) di dalam nosel memukul karpet (pile) sehingga kotoran terangkat, lalu disedot ke kantung kertas oleh kipas." },
+   { "h": "Cara menyedot" },
+   { "ul": [
+     "Saat menarik, lakukan dengan posisi lurus. Saat maju, miringkan.",
+     "Tumpuk lebar nosel.",
+     "Pegang kabel di tangan."
+   ] },
+   { "h": "Pusatkan di jalur lalu lalang" },
+   { "p": "Kotoran di karpet menumpuk di bagian jalur lalu lalang, jadi pusatkan di bagian tengah saat membersihkannya." }
+  ],
+  "jp": [
+   { "p": "カーペットの{清掃|せいそう}にはアップライト{型|がた}の{掃除機|そうじき}を{使用|しよう}するんだ。" },
+   { "h": "ポッド{型|がた}との{違|ちが}い" },
+   { "p": "ノズル{内|ない}のブラシでパイルを{叩|たた}きゴミを{浮|う}かせて{吸引|きゅういん}する。{紙袋|かみぶくろ}へファンで{送|おく}る。" },
+   { "h": "{吸|す}い{方|かた}" },
+   { "ul": [
+     "{引|ひ}くときはまっすぐ、{進|すす}むときは{斜|なな}めに{清掃|せいそう}していこう。",
+     "ノズル{幅|はば}を{重|かさ}ねる。",
+     "コードを{持|も}つ。"
+   ] },
+   { "h": "{歩行動線|ほこうどうせん}を{重点的|じゅうてんてき}に" },
+   { "p": "カーペットは{歩行動線|ほこうどうせん}に{汚|よご}れが{溜|た}まるので{中央|ちゅうおう}を{重点的|じゅうてんてき}に{清掃|せいそう}しよう。" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Upright untuk karpet: sikat memukul pile, kotoran disedot. Fokus di jalur lalu lalang.", "points": ["Karpet = tipe Upright.", "Sikat dalam nosel mengangkat kotoran.", "Tumpuk lebar nosel.", "Pegang kabel."], "avoid": ["Mengabaikan jalur lalu lalang."], "exam": ["Tipe untuk karpet.", "Bagian yang dipusatkan."] },
+  "jp": { "core": "カーペットはアップライト{型|がた}。ブラシでゴミを{浮|う}かせ{吸|す}う。{歩行動線|ほこうどうせん}を{重点的|じゅうてんてき}に。", "points": ["カーペット＝アップライト{型|がた}", "ノズル{内|ない}のブラシ", "ノズル{幅|はば}を{重|かさ}ねる", "コードを{持|も}つ"], "avoid": ["{歩行動線|ほこうどうせん}を{忘|わす}れる"], "exam": ["カーペットの{掃除機|そうじき}", "{重点|じゅうてん}の{場所|ばしょ}"] }
+ }
+}

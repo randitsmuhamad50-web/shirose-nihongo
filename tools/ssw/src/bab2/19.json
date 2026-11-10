@@ -1,0 +1,69 @@
+{
+ "id": "b2s19", "no": 19,
+ "title": { "id": "Proses Cleaning dan Keamanannya", "jp": "清掃作業の安全と衛生" },
+ "pages": [60, 60],
+ "full": {
+  "id": [
+   { "h": "Mengapa keamanan penting" },
+   { "p": "\"Keamanan\" bagi semua orang merupakan hal yang sangat penting. Jika pada saat bekerja Anda terluka, Anda yang akan merasa kesakitan. Keluarga Anda juga akan khawatir. Kemudian, Anda akan merepotkan perusahaan." },
+   { "p": "Di Jepang, perusahaan berperan aktif untuk melindungi kesehatan dan keamanan pekerja dalam kegiatan \"Keselamatan dan Kesehatan Kerja\". JBMA tempat Anda bekerja sudah terdaftar di pemerintah daerah, maka JBMA diwajibkan mendidik pekerjanya mengenai \"Keselamatan\" dan \"Kebersihan\". Setiap orang harus hati-hati, dan jika ada poin atau pekerjaan yang berbahaya, diskusikan di tempat kerja: dengan perbaikan, kecelakaan bisa dicegah." },
+   { "h": "Hal yang harus dilakukan demi Keselamatan" },
+   { "ul": [
+     "Bekerjalah sesuai dengan panduan bekerja.",
+     "Jika ada hal tidak normal, segera laporkan ke PIC.",
+     "Saat bekerja dalam tim, jangan ganggu pekerja lain.",
+     "Ingatlah untuk Mengatur, Merapihkan, Memeriksa peralatan.",
+     "Latih terus diri Anda sampai Anda bisa mengerti cara memprediksi bahaya."
+   ] },
+   { "h": "Hal yang harus dilakukan untuk Kesehatan Kerja" },
+   { "ul": [
+     "Pertama, untuk kesehatan diri sendiri, harus diperhatikan oleh diri sendiri.",
+     "Hindari minum alkohol dan makan terlalu banyak, usahakan tidur dengan cukup.",
+     "Jika merasa ada kelainan pada tubuh atau mental, jangan ditahan dan segera konsultasikan ke orang yang dipercaya."
+   ] },
+   { "h": "Poin berbahaya dari Cleaning Service" },
+   { "p": "40% kecelakaan kerja dalam pekerjaan Cleaning Service adalah terjungkal, dan 20% adalah tabrakan dan terjatuh." },
+   { "ul": [
+     "**Saat mengepel lantai:** banyak kecelakaan karena terpeleset. Hati-hati juga jangan sampai melibatkan para tamu.",
+     "**Saat bekerja dengan tangga:** ada kecelakaan saat membersihkan tempat tinggi. Gunakanlah tangga dengan benar.",
+     "**Saat menggunakan alat elektronik:** ada kecelakaan tersetrum saat menggerakkan polisher dengan tangan yang basah. Ketidaknormalan pada mesin bisa mengakibatkan kecelakaan, maka selalu cek sebelum mulai bekerja.",
+     "**Saat menggunakan karbol/sabun:** jangan pernah mencampurkan karbol berbahan dasar klorin dengan asam karena akan menyebabkan keracunan.",
+     "**Saat menggunakan motor roda tiga (kereta angkut):** gunakan dengan melihat sekitar dan jangan sampai menabrak tamu.",
+     "**Saat mengolah sampah:** walaupun bukan gedung rumah sakit, ada kaca dan jarum suntik bekas pakai (bekas perawatan di rumah) yang terjatuh di gedung. Jika menemukan jarum suntik, segera pungut dengan selotip atau penjepit, lalu laporkan ke PIC."
+   ] }
+  ],
+  "jp": [
+   { "h": "なぜ{安全|あんぜん}が{大切|たいせつ}か" },
+   { "p": "「{安全|あんぜん}」は、{全|すべ}ての{人|ひと}にとってとても{大切|たいせつ}なことです。あなた{自身|じしん}が{仕事中|しごとちゅう}にけがをしたら、あなたが{一番|いちばん}つらいですし、ご{家族|かぞく}も{心配|しんぱい}するでしょう。そして、{会社|かいしゃ}にも{迷惑|めいわく}をかけることになります。" },
+   { "p": "{日本|にほん}では、{職場|しょくば}の{労働者|ろうどうしゃ}の{安全|あんぜん}と{健康|けんこう}を{守|まも}る「{労働安全衛生|ろうどうあんぜんえいせい}」{活動|かつどう}に{積極的|せっきょくてき}に{取|と}り{組|く}んでいます。みなさんが{就職|しゅうしょく}する{日本|にほん}のビルメンテナンス{会社|がいしゃ}は{知事登録|ちじとうろく}を{取|と}っており、{従業者|じゅうぎょうしゃ}に{必|かなら}ず「{安全|あんぜん}」と「{衛生|えいせい}」について{教育|きょういく}を{行|おこな}います。{事故|じこ}の{多|おお}くは、{一人一人|ひとりひとり}が{十分|じゅうぶん}に{安全|あんぜん}に{気|き}を{付|つ}けるとともに、{危険|きけん}な{箇所|かしょ}や{作業|さぎょう}があれば{職場|しょくば}で{話|はな}し{合|あ}い、{改善|かいぜん}することで{自然|しぜん}と{防|ふせ}ぐことができます。" },
+   { "h": "{安全|あんぜん}のために{守|まも}ること" },
+   { "ul": [
+     "{作業|さぎょう}マニュアルに{従|したが}った{作業|さぎょう}をする",
+     "{異常|いじょう}があったら{責任者|せきにんしゃ}に{報告|ほうこく}する",
+     "{共同作業|きょうどうさぎょう}をする{時|とき}はチームワークを{乱|みだ}さない",
+     "{資器材|しきざい}の{整理|せいり}・{整頓|せいとん}・{点検|てんけん}に{心|こころ}がける",
+     "{危険予知行動|きけんよちこうどう}を{頭|あたま}に{入|い}れるまで{繰|く}り{返|かえ}し{訓練|くんれん}する"
+   ] },
+   { "h": "{労働衛生|ろうどうえいせい}で{守|まも}ること" },
+   { "ul": [
+     "{自分|じぶん}の{健康|けんこう}は、まず{自分|じぶん}で{気|き}を{付|つ}けましょう",
+     "{深酒|ふかざけ}・{暴食|ぼうしょく}をつつしみ、{十分|じゅうぶん}な{睡眠|すいみん}をとるようにしましょう",
+     "{体|からだ}や{心|こころ}に{不調|ふちょう}があれば、{我慢|がまん}せず、{頼|たよ}れる{方|かた}に{相談|そうだん}しましょう"
+   ] },
+   { "h": "ビルクリーニングの{危険|きけん}な{箇所|かしょ}" },
+   { "p": "{労働災害|ろうどうさいがい}は{転倒|てんとう}が4{割|わり}、{墜落|ついらく}・{転落|てんらく}が2{割|わり}です。" },
+   { "ul": [
+     "**{床|ゆか}を{洗|あら}う{時|とき}：**{床洗浄中|ゆかせんじょうちゅう}に{滑|すべ}って{転|ころ}ぶ{事故|じこ}が{多|おお}いです。お{客様|きゃくさま}も{巻|ま}き{込|こ}まないよう{注意|ちゅうい}しましょう。",
+     "**{脚立|きゃたつ}を{使|つか}って{作業|さぎょう}をする{時|とき}：**{高|たか}い{場所|ばしょ}を{清掃|せいそう}する{時|とき}に{転落|てんらく}することもあります。{脚立|きゃたつ}は{正|ただ}しく{使|つか}うようにしましょう。",
+     "**{電気機械|でんききかい}を{使|つか}う{時|とき}：**ポリッシャーを{濡|ぬ}れた{手|て}で{動|うご}かすと{感電|かんでん}することがあります。また、{機械|きかい}に{不具合|ふぐあい}があると{思|おも}わぬ{事故|じこ}につながりますので、{使用前後|しようぜんご}は{点検|てんけん}しましょう。",
+     "**{洗剤|せんざい}を{使|つか}う{時|とき}：**{塩素系|えんそけい}と{酸性|さんせい}の{洗剤|せんざい}を{混|ま}ぜると、{中毒|ちゅうどく}を{起|お}こすことがあるので{絶対|ぜったい}に{行|おこな}ってはいけません。",
+     "**{運搬車|うんぱんしゃ}を{使|つか}う{時|とき}：**{運搬中|うんぱんちゅう}にお{客様|きゃくさま}とぶつからないよう{周|まわ}りをみて{移動|いどう}しましょう。",
+     "**ごみを{扱|あつか}う{時|とき}：**{病院以外|びょういんいがい}のビルであっても、ガラスや{在宅医療用|ざいたくいりょうよう}の{使用済|しようず}みの{注射針|ちゅうしゃばり}が{落|お}ちていることがあります。{注射針|ちゅうしゃばり}が{落|お}ちていたら、ガムテープやトングで{取|と}り、{責任者|せきにんしゃ}に{報告|ほうこく}しましょう。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Keselamatan dulu: ikuti panduan, lapor hal tidak normal ke PIC, cek alat. Jangan campur klorin dengan asam. Jarum suntik: pungut dengan selotip/penjepit, lapor.", "points": ["40% kecelakaan = terjungkal; 20% = tabrakan/terjatuh.", "Lantai basah = licin; tangga dipakai benar.", "Polisher: jangan dengan tangan basah; cek mesin.", "Klorin + asam = keracunan.", "Jaga kesehatan: tidur cukup, hindari alkohol berlebihan."], "avoid": ["Mencampur karbol klorin dengan asam.", "Memegang polisher dengan tangan basah.", "Menyentuh jarum suntik dengan tangan."], "exam": ["Penyebab kecelakaan terbanyak.", "Tindakan bila ada jarum suntik.", "Larangan campuran karbol."] },
+  "jp": { "core": "{安全|あんぜん}が{第一|だいいち}。マニュアルに{従|したが}い、{異常|いじょう}は{報告|ほうこく}。{塩素系|えんそけい}と{酸性|さんせい}は{混|ま}ぜない。{注射針|ちゅうしゃばり}はトングで。", "points": ["{転倒|てんとう}4{割|わり}・{墜落転落|ついらくてんらく}2{割|わり}", "{濡|ぬ}れた{床|ゆか}は{滑|すべ}る・{脚立|きゃたつ}は{正|ただ}しく", "ポリッシャーは{濡|ぬ}れた{手|て}で{触|さわ}らない・{点検|てんけん}", "{塩素系|えんそけい}＋{酸性|さんせい}＝{中毒|ちゅうどく}", "{睡眠|すいみん}・{深酒|ふかざけ}をつつしむ"], "avoid": ["{塩素系|えんそけい}と{酸性|さんせい}を{混|ま}ぜる", "{濡|ぬ}れた{手|て}でポリッシャー", "{注射針|ちゅうしゃばり}を{素手|すで}で{触|さわ}る"], "exam": ["{事故|じこ}の{多|おお}い{原因|げんいん}", "{注射針|ちゅうしゃばり}の{対応|たいおう}", "{洗剤|せんざい}の{混合禁止|こんごうきんし}"] }
+ }
+}

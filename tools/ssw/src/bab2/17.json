@@ -1,0 +1,55 @@
+{
+ "id": "b2s17", "no": 17,
+ "title": { "id": "Mengolah Limbah", "jp": "廃棄物の処理" },
+ "pages": [56, 57],
+ "full": {
+  "id": [
+   { "h": "Mengumpulkan sampah" },
+   { "ul": [
+     "Kumpulkan sampah di koridor dan kantor ke keranjang limbah (廃棄物コレクター), dengan sarung tangan pelindung.",
+     "Kumpulkan mulai dari pintu masuk sampai kembali ke pintu masuk lagi.",
+     "Kumpulkan sampah sambil mendorong keranjang limbah.",
+     "Masukkan sampah ke keranjang limbah, lalu kembalikan tempat sampah ke tempatnya."
+   ] },
+   { "h": "Pemisahan" },
+   { "ul": [
+     "Sampah sering tercampur: sampah terbakar, kaleng, botol plastik.",
+     "Lakukan pemisahan jenis sampah setelah semua sampah terkumpul: sampah umum; botol kaca dan kaleng; botol plastik.",
+     "Jangan masukkan koran dan buku ke plastik sampah, langsung kumpulkan begitu saja."
+   ] },
+   { "h": "Barang yang tidak jelas" },
+   { "ul": [
+     "Jangan buang barang yang ada di atas atau di samping tempat sampah (barang yang tidak bisa diidentifikasi sebagai sampah).",
+     "Kehilangan barang akan menimbulkan komplain, jadi jika ada barang yang tidak bisa diidentifikasi, konsultasikan ke PIC."
+   ] },
+   { "h": "Setelah mengumpulkan" },
+   { "p": "Ganti dengan plastik sampah baru untuk tempat sampah umum (ruang bersama). Bersihkan jika bagian dalamnya kotor." }
+  ],
+  "jp": [
+   { "h": "ゴミの{回収|かいしゅう}" },
+   { "ul": [
+     "{廊下|ろうか}やオフィスのゴミを{廃棄物|はいきぶつ}コレクターに{回収|かいしゅう}する（{保護手袋|ほごてぶくろ}）。",
+     "ゴミの{回収|かいしゅう}は{入口|いりぐち}から{進|すす}めて{入口|いりぐち}に{戻|もど}ってくる。",
+     "{廃棄物|はいきぶつ}コレクターを{移動|いどう}しながらゴミを{回収|かいしゅう}。",
+     "ゴミは{廃棄物|はいきぶつ}コレクターに{回収|かいしゅう}して、ゴミ{箱|ばこ}を{元|もと}の{場所|ばしょ}に{戻|もど}しておく。"
+   ] },
+   { "h": "{分別|ぶんべつ}" },
+   { "ul": [
+     "いろんなゴミが{混|ま}ざっている（{燃|も}えるゴミ、{缶|かん}、ペットボトル）。",
+     "ゴミの{分別|ぶんべつ}は{全|すべ}てのゴミ{回収後|かいしゅうご}にまとめてやってね：{一般|いっぱん}ゴミ、ビン・{缶|かん}、ペットボトル。",
+     "{新聞紙|しんぶんし}や{本|ほん}はビニールに{入|い}れずにそのまま{回収|かいしゅう}しよう。"
+   ] },
+   { "h": "{判別|はんべつ}できないもの" },
+   { "ul": [
+     "ゴミ{箱|ばこ}の{上|うえ}やそばにあるものは{回収|かいしゅう}してはいけない（ゴミか{判別|はんべつ}できないもの）。",
+     "{紛失|ふんしつ}はクレームにつながるのでゴミか{判断|はんだん}できないものは{責任者|せきにんしゃ}に{相談|そうだん}しよう！"
+   ] },
+   { "h": "{回収後|かいしゅうご}" },
+   { "p": "{共用|きょうよう}スペースのゴミ{箱|ばこ}はゴミ{袋|ぶくろ}を{交換|こうかん}しておこう。{内部|ないぶ}が{汚|よご}れていたら{拭|ふ}いておく。" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Sampah: kumpulkan dari pintu masuk ke pintu masuk, pisahkan setelah terkumpul, barang tidak jelas → tanya PIC.", "points": ["Pakai sarung tangan pelindung.", "Pisahkan: umum, botol/kaleng, botol plastik.", "Koran & buku tanpa plastik.", "Ganti kantung baru."], "avoid": ["Membuang barang di atas/samping tempat sampah tanpa tanya.", "Memisahkan sebelum semua terkumpul."], "exam": ["Tindakan untuk barang tak teridentifikasi.", "Waktu pemisahan sampah."] },
+  "jp": { "core": "ゴミ{回収|かいしゅう}は{入口|いりぐち}から{入口|いりぐち}。{分別|ぶんべつ}は{回収後|かいしゅうご}。{判別|はんべつ}できないものは{責任者|せきにんしゃ}へ。", "points": ["{保護手袋|ほごてぶくろ}", "{一般|いっぱん}・ビン缶・ペットボトル", "{新聞|しんぶん}・{本|ほん}はそのまま", "ゴミ{袋|ぶくろ}を{交換|こうかん}"], "avoid": ["ゴミ{箱|ばこ}のそばの{物|もの}を{勝手|かって}に{捨|す}てる"], "exam": ["{判別|はんべつ}できない{物|もの}の{対応|たいおう}", "{分別|ぶんべつ}のタイミング"] }
+ }
+}

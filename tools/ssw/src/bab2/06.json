@@ -1,0 +1,62 @@
+{
+ "id": "b2s6", "no": 6,
+ "title": { "id": "Lap (Pel / Mop)", "jp": "モップ" },
+ "pages": [30, 33],
+ "full": {
+  "id": [
+   { "h": "Peralatan lap" },
+   { "p": "Lap (mop) dipakai untuk membersihkan lantai basah dan mengelap air. Terdiri dari kain pel (putih = lainnya; merah = untuk toilet), tangkai pegangan, dan ember." },
+   { "h": "Cara memegang dan menggerakkan" },
+   { "ul": [
+     "Pertama, atur tinggi pegangan: sesuaikan dengan tinggi mata, tahan dengan jempol (30〜40 cm).",
+     "Lap dengan cara arahkan kain pelnya ke kiri dan kanan. Postur tubuh ke depan; buka kaki selebar bahu; jangan ditekan terlalu kuat.",
+     "Agar kain pel tidak terinjak, bergerak dengan MUNDUR ke belakang. Jangan injak bagian yang sudah dipel. (Kebalikan dari cara pakai Dust Cloth.)"
+   ] },
+   { "h": "Atur rute!" },
+   { "ul": [
+     "Karena bagian yang sudah dipel tidak boleh diinjak, sangat penting memperhatikan rute pembersihannya. Lebih efisien jika Anda lap dengan satu rute: mulai dari pintu masuk, kemudian akhiri ke pintu masuk lagi.",
+     "Pertama, mulai lap dari pinggir dinding. Jangan sampai pelnya terkena plint dinding.",
+     "Untuk sudut ruangan, bersihkan dengan tangan lap sampai ke sudut-sudut; jangan sampai pel terkena plint dinding.",
+     "Setelah membersihkan bagian luar, bersihkan bagian dalamnya. Saat mengelap permukaan, hati-hati jangan sampai ada sisa yang tidak kena pel (tumpuk lebar pel).",
+     "Jika kain pel mulai kotor, balik kain pel ke sisi yang masih bersih, kemudian pel kembali. Jika sudah sekitar 2 meter, balik ke sisi lainnya.",
+     "Jika kain pel tersibak (rambutnya tidak rata) tidak akan bisa membersihkan dengan baik; perhatikan agar kain pel tetap selaras saat mengepel.",
+     "Jika sudah kembali ke pintu masuk lagi, bersihkan perlahan bagian dekat pintu (tekan dengan tangan, kemudian lap), setelahnya angkat kain pel, dan selesai."
+   ] },
+   { "h": "Kain pel yang kotor" },
+   { "ul": [
+     "Lepaskan kain pel yang kotor dari pegangan, cuci dengan air.",
+     "Belah kain pel yang sudah dicuci menjadi 2 bagian. Peras ke arah dalam menggunakan tangan yang dominan.",
+     "Ada kalanya memakai wastafel (SK) dan alat peras pel (Mop Wringer); jepit tangkai dengan selangkangan."
+   ] }
+  ],
+  "jp": [
+   { "h": "モップ" },
+   { "p": "ぬれた{床|ゆか}の{清掃|せいそう}や{水拭|みずぶ}き{用|よう}。ラーグ（{白|しろ}＝その{他|ほか}、{赤|あか}＝トイレ{用|よう}）、{収縮|しゅうしゅく}ハンドル、バケツ。" },
+   { "h": "{持|も}ち{方|かた}と{動|うご}かし{方|かた}" },
+   { "ul": [
+     "まずハンドルの{長|なが}さを{調整|ちょうせい}。{親指|おやゆび}を{乗|の}せる（30〜40cm）、ハンドルは{目|め}の{高|たか}さに{合|あ}わせる。",
+     "これを{左右|さゆう}に{振|ふ}りながら{拭|ふ}きあげる。{身体|からだ}はまっすぐ、{足|あし}は{肩幅|かたはば}、{強|つよ}く{押|お}さえつけない。",
+     "モップは{拭|ふ}いた{所|ところ}を{踏|ふ}まないように{後退|こうたい}しながら{進|すす}む。ダストクロスとは{逆|ぎゃく}。"
+   ] },
+   { "h": "{計画的|けいかくてき}に！" },
+   { "ul": [
+     "{拭|ふ}いた{跡|あと}を{踏|ふ}めないから{清掃|せいそう}する{順路|じゅんろ}が{重要|じゅうよう}。{一筆書|ひとふでが}きのように{進|すす}むと{効率的|こうりつてき}（{入口|いりぐち}からスタートして{入口|いりぐち}へ{戻|もど}る）。",
+     "まず{壁際|かべぎわ}から{拭|ふ}いていく。ラーグやフサを{幅木|はばき}に{触|ふ}れないようにする。",
+     "コーナーは{手|て}を{添|そ}えて{隅|すみ}までしっかり{拭|ふ}きあげよう。",
+     "{外周|がいしゅう}の{次|つぎ}は{中央部分|ちゅうおうぶぶん}。{面|めん}で{拭|ふ}くときはモップ{幅|はば}を{重|かさ}ね{拭|ふ}き{残|のこ}しのないよう{注意|ちゅうい}する。",
+     "ラーグが{汚|よご}れてきたら{裏返|うらがえ}してキレイな{面|めん}で{拭|ふ}く（2メートルほど{拭|ふ}いたら{裏返|うらがえ}す）。フサがばらけていると{拭|ふ}けないので{毛先|けさき}を{揃|そろ}えるよう{気|き}をつける。",
+     "{入口|いりぐち}に{戻|もど}ってきたら{入口付近|いりぐちふきん}をていねいに{拭|ふ}き{上|あ}げて{完了|かんりょう}。{手|て}で{押|お}さえて{拭|ふ}く。"
+   ] },
+   { "h": "{汚|よご}れたラーグ" },
+   { "ul": [
+     "{汚|よご}れたラーグはハンドルから{外|はず}して{水洗|みずあら}い。",
+     "{洗|あら}ったラーグは2{房|ふさ}に{分|わ}けて、{利|き}き{手|て}で{内側|うちがわ}へねじるようにして{絞|しぼ}る。",
+     "{洗|あら}い{場|ば}（SK）やモップ{絞|しぼ}り{器|き}を{使|つか}う{場合|ばあい}もある（{股|また}に{挟|はさ}む）。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Mop: bergerak mundur agar tidak menginjak yang sudah dipel; atur rute satu jalur dari pintu masuk ke pintu masuk.", "points": ["Putih = umum; merah = toilet.", "Tinggi pegangan setinggi mata; kaki selebar bahu.", "Mundur sambil menggerakkan kiri-kanan.", "Mulai dari pinggir dinding; sudut dibantu tangan.", "Balik kain pel tiap sekitar 2 m; peras ke arah dalam."], "avoid": ["Menginjak bagian yang sudah dipel.", "Membiarkan kain pel tersibak/tidak rata.", "Pel menyentuh plint dinding."], "exam": ["Arah gerak mop vs Dust Cloth.", "Warna kain pel untuk toilet.", "Kapan membalik kain pel."] },
+  "jp": { "core": "モップは{後退|こうたい}しながら{拭|ふ}き、{入口|いりぐち}から{入口|いりぐち}へ{一筆書|ひとふでが}きで{順路|じゅんろ}を{決|き}める。", "points": ["{白|しろ}＝{一般|いっぱん}、{赤|あか}＝トイレ", "ハンドルは{目|め}の{高|たか}さ・{足|あし}は{肩幅|かたはば}", "{後退|こうたい}しながら{左右|さゆう}に{振|ふ}る", "{壁際|かべぎわ}から・コーナーは{手|て}を{添|そ}える", "2mごとに{裏返|うらがえ}す"], "avoid": ["{拭|ふ}いた{跡|あと}を{踏|ふ}む", "フサが{乱|みだ}れたまま{拭|ふ}く", "{幅木|はばき}に{当|あ}てる"], "exam": ["モップとダストクロスの{進|すす}む{向|む}き", "トイレ{用|よう}の{色|いろ}"] }
+ }
+}

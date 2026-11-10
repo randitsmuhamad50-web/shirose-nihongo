@@ -1,0 +1,63 @@
+{
+ "id": "b2s5", "no": 5,
+ "title": { "id": "Dust Cloth (Lap Debu)", "jp": "ダストクロス" },
+ "pages": [26, 29],
+ "full": {
+  "id": [
+   { "h": "Dust Cloth untuk lantai keramik" },
+   { "p": "Dust Cloth dipakai untuk lantai keramik: jenis vinil, linolium, flooring, dan sejenisnya. Terdiri dari kain (Dust Cloth), kepala pel, dan tangkai pegangan." },
+   { "h": "Memasang" },
+   { "ul": [
+     "Pertama, pasang Dust Cloth ke bagian kepala pel: letakkan di atas Curing Mat (sejenis tatakan), jepit, lalu rapihkan.",
+     "Setelah pasang pegangannya, atur panjang pendeknya: tinggi pegangan setara dengan tinggi mata; tahan dengan jempol (sekitar 30〜40 cm)."
+   ] },
+   { "h": "Cara membersihkan" },
+   { "ul": [
+     "Umumnya, saat membersihkan bergerak maju ke depan agar tidak menginjak sampah; jalan di bagian yang bersih (sudut pegangan sekitar 45°).",
+     "Hati-hati jangan sampai mengangkat atau menarik kembali kain pelnya: jika diangkat, sampah akan jatuh; jika ditarik kembali, akan menyisakan sampah.",
+     "Debu di lantai keramik biasanya mengumpul di sudut ruangan (di luar jalur jalan).",
+     "Bersihkan dari pinggir dinding. Hati-hati jangan sampai kepala pel menyentuh plint dinding.",
+     "Jangan bersihkan sudut dengan melingkar (NO); bersihkan sampai ke ujung sudutnya. Saat bersihkan pinggir dinding, miringkan bagian kepala pelnya (OK).",
+     "Selanjutnya bersihkan bagian tengahnya: dari ujung sampai ke pintu masuk, bergerak maju ke depan sambil menggerakkan lap ke kiri dan kanan. Kumpulkan sampah di dekat pintu masuk.",
+     "Agar kepala pel mudah digerakkan: putar pegangan dengan tangan di atas, gerakkan ke kiri-kanan dengan tangan di bawah.",
+     "Maju ke depan dengan menumpuk 1/4 lebar kepala pel."
+   ] },
+   { "h": "Setelah selesai" },
+   { "ul": [
+     "Lepas pegangan dan kepala pel. Letakkan kepala pel dengan arahkan spons menghadap ke atas.",
+     "Sambil berhati-hati agar sampah tidak berserakan, lipat Cloth ke arah dalam (balik cloth, lipat), lalu masukkan ke tempat sampah.",
+     "Bersihkan sampah yang tersisa di lantai menggunakan sapu dan pengki."
+   ] }
+  ],
+  "jp": [
+   { "h": "ダストクロスでの{清掃|せいそう}" },
+   { "p": "ツルツルした{床|ゆか}（ビニル{系|けい}・リノリウム・フローリングなど）にはダストクロス{型|がた}モップを{使|つか}う。ダストクロス・ヘッド・{収縮|しゅうしゅく}ハンドルで{構成|こうせい}される。" },
+   { "h": "{取|と}り{付|つ}け" },
+   { "ul": [
+     "まずヘッドにダストクロスを{巻|ま}き{込|こ}んで{固定|こてい}する（{養生|ようじょう}マットの{上|うえ}で{挟|はさ}んで{固定|こてい}）。",
+     "ハンドルを{取|と}り{付|つ}けてから{長|なが}さを{調整|ちょうせい}しよう。ハンドルの{長|なが}さは{目|め}の{高|たか}さ、{親指|おやゆび}をのせる（30〜40cm）。"
+   ] },
+   { "h": "{清掃|せいそう}の{仕方|しかた}" },
+   { "ul": [
+     "{基本|きほん}は{前進|ぜんしん}でゴミを{踏|ふ}まないように{清掃|せいそう}する。キレイな{所|ところ}を{歩|ある}く（45°）。",
+     "モップを{浮|う}かせたり{後退|こうたい}したりしないように{気|き}をつける。{後退|こうたい}するとゴミが{残|のこ}る、{浮|う}かせるとゴミが{落|お}ちる。",
+     "ツルツルした{床|ゆか}のホコリは{隅|すみ}に{溜|た}まりやすい（{歩行動線|ほこうどうせん}の{外|そと}）。",
+     "{壁際|かべぎわ}からキレイにしていく。ヘッドが{幅木|はばき}に{触|ふ}れないように{注意|ちゅうい}する。",
+     "コーナーは{丸|まる}くならないように{角|すみ}までキレイにしよう（NO）。{壁際|かべぎわ}はヘッドを{斜|なな}めにする（OK）。",
+     "{次|つぎ}は{中央部分|ちゅうおうぶぶん}を{清掃|せいそう}。{奥|おく}から{入口|いりぐち}へ{向|む}かって{進|すす}む。モップを{左右|さゆう}に{振|ふ}りながら{前進|ぜんしん}する。ここにゴミを{集|あつ}める。",
+     "{上|うえ}の{手|て}でハンドルを{回転|かいてん}、{下|した}の{手|て}で{左右|さゆう}に{振|ふ}るようにするとモップを{動|うご}かしやすい。",
+     "ヘッド{幅|はば}を1/4くらい{重|かさ}ねながら{前進|ぜんしん}しよう。"
+   ] },
+   { "h": "{清掃|せいそう}が{終|お}わったら" },
+   { "ul": [
+     "ハンドルとヘッドを{外|はず}す。ヘッドはスポンジを{上|うえ}にして{置|お}く。",
+     "ゴミを{散|ち}らさないように{注意|ちゅうい}しながら、クロスを{折|お}りたたんでゴミ{箱|ばこ}へ{回収|かいしゅう}（{裏返|うらがえ}す→ゴミを{落|お}とさないように{内側|うちがわ}へ{折|お}りたたむ）。",
+     "{床|ゆか}に{残|のこ}ったゴミは{自在|じざい}ぼうきと{文化|ぶんか}ちりとりを{使|つか}って{回収|かいしゅう}しておく。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Dust Cloth: maju ke depan, dari pinggir dinding ke tengah, tidak diangkat/ditarik mundur; setelah selesai lipat cloth ke dalam.", "points": ["Untuk lantai keramik (vinil, linolium, flooring).", "Tinggi pegangan setara mata; sudut 45°.", "Sudut: jangan melingkar; miringkan kepala pel di dinding.", "Bagian tengah: gerak kiri-kanan sambil maju, tumpuk 1/4 lebar kepala pel.", "Setelah selesai: lepas, lipat cloth ke dalam, buang; sisa sampah pakai sapu & pengki."], "avoid": ["Mengangkat atau menarik mundur kain pel.", "Menyentuh plint dinding dengan kepala pel.", "Membersihkan sudut dengan gerakan melingkar."], "exam": ["Alasan hanya maju ke depan.", "Tumpukan 1/4 lebar kepala pel.", "Cara melipat Cloth."] },
+  "jp": { "core": "ダストクロスは{前進|ぜんしん}で{壁際|かべぎわ}から{中央|ちゅうおう}へ。{浮|う}かせず{後退|こうたい}せず、{終|お}わったらクロスを{内側|うちがわ}に{折|お}る。", "points": ["ツルツルした{床|ゆか}に{使用|しよう}", "ハンドルは{目|め}の{高|たか}さ・45°", "コーナーは{丸|まる}くならない", "{中央|ちゅうおう}は{左右|さゆう}に{振|ふ}りながら1/4{重|かさ}ねる", "{終|お}わったら{折|お}りたたんで{回収|かいしゅう}"], "avoid": ["モップを{浮|う}かす・{後退|こうたい}する", "{幅木|はばき}に{当|あ}てる", "コーナーを{丸|まる}く{拭|ふ}く"], "exam": ["{前進|ぜんしん}する{理由|りゆう}", "1/4{重|かさ}ね", "クロスの{折|お}り{方|かた}"] }
+ }
+}

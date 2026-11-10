@@ -1,0 +1,53 @@
+{
+ "id": "b2s9", "no": 9,
+ "title": { "id": "Lap Pembersih (Horizontal)", "jp": "拭き清掃（平面）" },
+ "pages": [40, 41],
+ "full": {
+  "id": [
+   { "p": "Lap untuk meja dan permukaan datar tidak sama dengan lap lantai. Handuk lap meja jangan dipakai untuk lantai." },
+   { "h": "Warna lap" },
+   { "p": "Lap memiliki fungsi yang berbeda tergantung warnanya (biru, hijau, putih, kuning, pink/merah). Jadi harus dibedakan pemakaiannya." },
+   { "h": "Cara melipat lap" },
+   { "ul": [
+     "Lipat lap sampai 8 lipatan (lipat 2, lipat 4, lipat 8).",
+     "Tahan dengan jempol di bagian yang berantakan (sisi ujung lipatan yang terbuka), kemudian mulai lap."
+   ] },
+   { "h": "Urutan mengelap meja" },
+   { "ul": [
+     "Pertama, lap terlebih dulu sudut-sudut meja, setelahnya lap bagian tengahnya (① tepi, ② ③ bagian tengah).",
+     "Lipat ke bagian bersih setelah mengelap bagian ①; lakukan seterusnya untuk bagian ② ③. Selalu lap dengan bagian yang masih bersih."
+   ] },
+   { "h": "Cara memeras lap" },
+   { "ul": [
+     "Lipat lap dengan 4 lipatan, kemudian cuci dalam ember (pegang sisi panjang lap; alas ember: curing mat).",
+     "Lipat 16, peras dengan melebarkan siku Anda. Hati-hati jangan peras lapnya dengan posisi horizontal.",
+     "Terakhir, lap tangan Anda yang basah. Jika lantainya jadi kotor setelah membersihkan, lap lantai dengan kain lap."
+   ] }
+  ],
+  "jp": [
+   { "p": "{拭|ふ}き{清掃|せいそう}（{平面|へいめん}）のタオルは{床用|ゆかよう}と{別|べつ}。{床用|ゆかよう}のタオルで{机|つくえ}を{拭|ふ}かない。" },
+   { "h": "タオルの{色|いろ}" },
+   { "p": "タオルは{色|いろ}によって{使用場所|しようばしょ}が{異|こと}なる（{青|あお}・{緑|みどり}・{白|しろ}・{黄色|きいろ}・ピンク（{赤|あか}））。ちゃんと{使|つか}い{分|わ}けないといけない。" },
+   { "h": "タオルのたたみ{方|かた}" },
+   { "ul": [
+     "タオルは8{つ折|おり}りにする（2つ{折|お}り→4つ{折|お}り→8つ{折|お}り）。",
+     "タオルのバラバラ{側|がわ}に{親指|おやゆび}をかけて{持|も}って{拭|ふ}こう。"
+   ] },
+   { "h": "{机|つくえ}の{拭|ふ}き{方|かた}" },
+   { "ul": [
+     "はじめにテーブルの{隅|すみ}を{拭|ふ}いてから{中央部分|ちゅうおうぶぶん}を{拭|ふ}きあげよう（①{外周|がいしゅう}、②③{中央|ちゅうおう}）。",
+     "タオルは{一拭|ひとふ}きごと、①②③ごとにキレイな{面|めん}に{折|お}り{返|かえ}して{拭|ふ}こう。{常|つね}にキレイな{面|めん}で{拭|ふ}く。"
+   ] },
+   { "h": "タオルの{絞|しぼ}り{方|かた}" },
+   { "ul": [
+     "タオルは4つ{折|お}りの{状態|じょうたい}でバケツでもみ{洗|あら}いしてから（タオルの{長手側|ながてがわ}を{持|も}つ。{養生|ようじょう}マット）。",
+     "16{折|お}りにして{肘|ひじ}を{伸|の}ばすように{絞|しぼ}る。タオルを{横|よこ}にしない{持|も}ち{方|かた}に{注意|ちゅうい}しよう。",
+     "{最後|さいご}に{手|て}を{拭|ふ}いておいてね。{清掃後|せいそうご}に{床|ゆか}が{汚|よご}れていたらタオルで{拭|ふ}き{取|と}っておこう。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Lap meja: lipat 8, tepi dulu baru tengah, balik ke sisi bersih tiap bagian. Warna lap menentukan tempat pakai.", "points": ["Biru, hijau, putih, kuning, pink/merah: dibedakan pemakaiannya.", "Lipat 8; tahan dengan jempol.", "Sudut meja dulu, tengah kemudian.", "Peras pada lipatan 16 dengan siku melebar; jangan horizontal."], "avoid": ["Memakai lap lantai untuk meja.", "Memeras lap secara horizontal.", "Mengelap dengan sisi yang sudah kotor."], "exam": ["Cara melipat (8 lipatan).", "Urutan mengelap meja.", "Cara memeras lap."] },
+  "jp": { "core": "{机|つくえ}は8{折|お}り、{隅|すみ}から{中央|ちゅうおう}へ。{一拭|ひとふ}きごとにキレイな{面|めん}へ。{色|いろ}で{使|つか}い{分|わ}け。", "points": ["{色|いろ}で{使|つか}い{分|わ}ける", "8{折|お}りにして{親指|おやゆび}をかける", "{隅|すみ}→{中央|ちゅうおう}", "16{折|お}り・{肘|ひじ}を{伸|の}ばして{絞|しぼ}る"], "avoid": ["{床用|ゆかよう}で{机|つくえ}を{拭|ふ}く", "{横|よこ}にして{絞|しぼ}る", "{汚|よご}れた{面|めん}で{拭|ふ}く"], "exam": ["タオルのたたみ{方|かた}", "{拭|ふ}く{順番|じゅんばん}", "{絞|しぼ}り{方|かた}"] }
+ }
+}

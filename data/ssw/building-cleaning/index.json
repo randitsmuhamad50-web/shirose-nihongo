@@ -1,10 +1,22 @@
 {
-  "slug": "building-cleaning",
-  "nama": "Building Cleaning",
-  "jp": "ビルクリーニング",
-  "audioLevel": "ssw-bc",
-  "pages": { "id": 85, "jp": 86 },
-  "bab": [ { "id": "bab1", "file": "bab1.json" } ],
-  "vocab": "vocab.json",
-  "quiz": "quiz.json"
+ "slug": "building-cleaning",
+ "nama": "Building Cleaning",
+ "jp": "ビルクリーニング",
+ "audioLevel": "ssw-bc",
+ "pages": {
+  "id": 85,
+  "jp": 86
+ },
+ "bab": [
+  {
+   "id": "bab1",
+   "file": "bab1.json"
+  },
+  {
+   "id": "bab2",
+   "file": "bab2.json"
+  }
+ ],
+ "vocab": "vocab.json",
+ "quiz": "quiz.json"
 }
