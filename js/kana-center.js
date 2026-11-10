@@ -734,7 +734,7 @@ document.addEventListener("keydown", (e) => { if (e.key === "Escape" && WS) clos
 window.addEventListener("hashchange", () => { if (WS) closeWriter(true); });
 /* ============================== LATIHAN BACA 200 KATA ============================== */
 let BACA = null; const KB = { t: "hira", set: "all", mode: "kartu", list: [], i: 0, show: false, sc: { ok: 0, ng: 0 }, pick: null };
-async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110p"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
+async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110q"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
 const bst = (t, k) => { const o = P.baca[t][k]; return !o ? "baru" : (o.ok >= 2 && o.last === 1) ? "kuasa" : o.last === 1 ? "bisa" : "belum"; };
 function bacaPool() { const all = BACA[KB.t]; if (KB.set === "all") return all; if (KB.set === "belum") return all.filter(w => { const s = bst(KB.t, w.k); return s === "baru" || s === "belum"; }); const n = +KB.set; return all.slice(n * 20, n * 20 + 20); }
 export async function renderKanaBaca([t]) {
