@@ -5,7 +5,7 @@
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v37";
+const CACHE = "shirose-nihongo-v38";
 const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
 const KVG = "shirose-kvg-v1";       // goresan KanjiVG yang pernah dibuka (offline; tidak dihapus saat update)
 const CORE = [
@@ -30,6 +30,7 @@ const CORE = [
   "./js/kana-center.js",
   "./css/kana-center.css",
   "./data/kana.json",
+  "./data/kana-baca.json",
   "./data/kana-strokes.json",
   "./js/ssw.js",
   "./js/ssw-core.js",

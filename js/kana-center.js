@@ -53,7 +53,7 @@ function keysOf(t, secIds = null, common = true) {
 }
 
 /* ============================== progres ============================== */
-const DEF = () => ({ v: 1, u: 0, hira: {}, kata: {}, kanji: {}, flash: [], tes: [] });
+const DEF = () => ({ v: 1, u: 0, hira: {}, kata: {}, kanji: {}, flash: [], tes: [], baca: { hira: {}, kata: {} } });
 let P = null, Pid = null, _saveT = 0, _loading = null;
 const LKEY = () => `shirose-kana:${uid()}`;
 export async function ensureProgress() {
@@ -67,7 +67,7 @@ export async function ensureProgress() {
     const pick = !local ? remote : !remote ? local : ((remote.u || 0) >= (local.u || 0) ? remote : local);
     P = Object.assign(DEF(), pick || {}); Pid = id;
     for (const k of ["hira", "kata", "kanji"]) P[k] = P[k] || {};
-    P.flash = P.flash || []; P.tes = P.tes || [];
+    P.flash = P.flash || []; P.tes = P.tes || []; P.baca = P.baca || {}; P.baca.hira = P.baca.hira || {}; P.baca.kata = P.baca.kata || {};
     return P;
   })();
   _loading = { id, p };
@@ -130,6 +130,14 @@ export async function renderKanaHub() {
       <a class="kc-card" onclick="route('kana-tulis')">
         <div class="art art-write" id="kc-prev-write"><span class="ghost">あ</span></div>
         <h3>Latihan Menulis</h3><p>Menulis langsung dengan jari atau mouse.</p>
+      </a>
+      <a class="kc-card" onclick="route('kana-baca/hira')">
+        <div class="art art-quiz"><div class="fc"><b>ねこ</b><small>neko · kucing</small></div></div>
+        <h3>Latihan Baca 200 Kata</h3><p>200 kata hiragana dan 200 kata katakana yang mudah, dengan bacaan &amp; arti.</p>
+      </a>
+      <a class="kc-card" onclick="route('kana-aturan')">
+        <div class="art art-quiz"><div class="fc"><b>が ぱ っ ー</b><small>゛ ゜ っ ー</small></div></div>
+        <h3>Ten-ten, Maru, っ kecil &amp; ー</h3><p>Penjelasan tanda baca khusus kana beserta contoh dan suara.</p>
       </a>
       <div class="kc-card">
         <div class="art art-quiz" onclick="route('kana-hafalan')"><div class="fc"><b>あ</b><small>a · あめ = hujan</small></div></div>
@@ -717,7 +725,111 @@ document.addEventListener("click", (e) => {
 });
 document.addEventListener("keydown", (e) => { if (e.key === "Escape" && WS) closeWriter(); });
 window.addEventListener("hashchange", () => { if (WS) closeWriter(true); });
+/* ============================== LATIHAN BACA 200 KATA ============================== */
+let BACA = null; const KB = { t: "hira", set: "all", mode: "kartu", list: [], i: 0, show: false, sc: { ok: 0, ng: 0 }, pick: null };
+async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110l"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
+const bst = (t, k) => { const o = P.baca[t][k]; return !o ? "baru" : (o.ok >= 2 && o.last === 1) ? "kuasa" : o.last === 1 ? "bisa" : "belum"; };
+function bacaPool() { const all = BACA[KB.t]; if (KB.set === "all") return all; if (KB.set === "belum") return all.filter(w => { const s = bst(KB.t, w.k); return s === "baru" || s === "belum"; }); const n = +KB.set; return all.slice(n * 20, n * 20 + 20); }
+export async function renderKanaBaca([t]) {
+  await Promise.all([loadBaca(), ensureProgress()]);
+  if (t === "hira" || t === "kata") KB.t = t;
+  KB.list = []; KB.i = 0; KB.show = false; KB.sc = { ok: 0, ng: 0 }; KB.set = KB.set || "all";
+  const all = BACA[KB.t], ku = all.filter(w => bst(KB.t, w.k) === "kuasa").length, ada = all.filter(w => bst(KB.t, w.k) !== "baru").length;
+  const sets = Array.from({ length: 10 }, (_, n) => `<button class="${KB.set === String(n) ? "on" : ""}" onclick="KC.bacaSet('${n}')">${n * 20 + 1}–${n * 20 + 20}</button>`).join("");
+  return `<div class="kc-wrap">${crumbs("Latihan baca")}
+    <div class="kc-head"><div class="jp">${KB.t === "hira" ? "ひらがな" : "カタカナ"} 読み練習</div><h1>Latihan Baca ${all.length} Kata ${SCRIPT_NAME[KB.t]}</h1>
+      <p>Baca kata di layar, lalu cek bacaan dan artinya. ${KB.t === "hira" ? "Semua kata ditulis hanya dengan hiragana." : "Kata serapan yang mudah, ditulis dengan katakana."}</p></div>
+    <div class="kc-panel">
+      <div class="kc-seg" style="display:flex;gap:8px;margin-bottom:10px"><button class="${KB.t === "hira" ? "on" : ""}" onclick="route('kana-baca/hira')">ひらがな Hiragana</button><button class="${KB.t === "kata" ? "on" : ""}" onclick="route('kana-baca/kata')">カタカナ Katakana</button></div>
+      <div class="kc-prog-sub">${ku} dikuasai · ${ada} sudah dicoba · dari ${all.length} kata</div>
+      <h3 style="margin:12px 0 6px">Pilih kelompok</h3>
+      <div class="kc-chips"><button class="${KB.set === "all" ? "on" : ""}" onclick="KC.bacaSet('all')">Semua ${all.length}</button><button class="${KB.set === "belum" ? "on" : ""}" onclick="KC.bacaSet('belum')">Belum dikuasai</button>${sets}</div>
+      <div class="kc-chips"><button class="${KB.mode === "kartu" ? "on" : ""}" onclick="KC.bacaMode('kartu')">🃏 Baca &amp; cek</button><button class="${KB.mode === "pilih" ? "on" : ""}" onclick="KC.bacaMode('pilih')">✅ Pilih bacaan (romaji)</button><button class="${KB.mode === "daftar" ? "on" : ""}" onclick="KC.bacaMode('daftar')">📋 Daftar kata</button></div>
+      <button class="btn sw-big" onclick="KC.bacaMulai()">MULAI ›</button>
+      <p class="kc-note"><a class="kc-link" onclick="route('kana-aturan')">Bingung ゛ ゜ っ ー? Baca penjelasannya ›</a></p>
+    </div><div id="kb-root"></div></div>`;
+}
+const bacaDraw = () => {
+  const root = document.getElementById("kb-root"); if (!root) return;
+  if (KB.mode === "daftar") {
+    const L = bacaPool(); const ico = { baru: "", belum: "🔸", bisa: "✅", kuasa: "🏆" };
+    root.innerHTML = `<div class="kc-panel"><h3>${L.length} kata</h3><div class="kb-list">${L.map(w => `<button class="kb-row" onclick="KC.sayKata('${w.k}')"><b class="kb-w">${w.k}</b><span class="kb-r">${w.r}</span><span class="kb-a">${esc(w.a)}</span><span>${ico[bst(KB.t, w.k)]}</span></button>`).join("")}</div><p class="kc-note">Ketuk baris untuk mendengar suaranya.</p></div>`; return;
+  }
+  if (KB.i >= KB.list.length) {
+    root.innerHTML = `<div class="kc-panel kb-end"><div style="font-size:42px">${KB.sc.ok >= KB.list.length * 0.8 ? "🏆" : "👍"}</div><h2>Selesai!</h2><p>${KB.sc.ok} bisa · ${KB.sc.ng} belum dari ${KB.list.length} kata.</p><button class="btn sw-big" onclick="KC.bacaMulai()">Ulangi ›</button></div>`; return;
+  }
+  const w = KB.list[KB.i], pct = Math.round(KB.i / KB.list.length * 100);
+  let body;
+  if (KB.mode === "kartu") {
+    body = KB.show ? `<div class="kb-ans"><div class="kb-rom">${w.r}</div><div class="kb-ar">${esc(w.a)}</div><button class="kc-chip" onclick="KC.sayKata('${w.k}')">🔊 Dengar</button></div>
+      <div class="kb-btns"><button class="btn ghost" onclick="KC.bacaNilai(0)">✕ Belum bisa</button><button class="btn gold" onclick="KC.bacaNilai(1)">✓ Bisa baca</button></div>`
+      : `<p class="kc-note">Coba baca dulu dalam hati, lalu cek.</p><button class="btn sw-big" onclick="KC.bacaShow()">Lihat bacaan &amp; arti</button>`;
+  } else {
+    const opts = KB.pick || (KB.pick = (() => { const o = shuffle(BACA[KB.t].filter(x => x.r !== w.r)).slice(0, 3).map(x => x.r); o.push(w.r); return shuffle(o); })());
+    body = `<div class="kb-opts">${opts.map(o => `<button class="kb-opt ${KB.show ? (o === w.r ? "ok" : KB.chosen === o ? "ng" : "") : ""}" ${KB.show ? "disabled" : ""} onclick="KC.bacaPilih('${o}')">${o}</button>`).join("")}</div>
+      ${KB.show ? `<div class="kb-ans"><div class="kb-ar">${esc(w.a)}</div><button class="kc-chip" onclick="KC.sayKata('${w.k}')">🔊 Dengar</button></div><button class="btn gold" onclick="KC.bacaNext()">Lanjut →</button>` : ""}`;
+  }
+  root.innerHTML = `<div class="kc-panel kb-card"><div class="kb-top"><span>${KB.i + 1} / ${KB.list.length}</span><div class="kb-bar"><i style="width:${pct}%"></i></div></div><div class="kb-word">${w.k}</div>${body}</div>`;
+};
+function bacaRecord(w, ok) {
+  const o = P.baca[KB.t][w.k] || (P.baca[KB.t][w.k] = { ok: 0, ng: 0 }); if (ok) o.ok++; else o.ng++; o.last = ok ? 1 : 0; o.ts = Date.now(); touch();
+  if (ok) KB.sc.ok++; else KB.sc.ng++;
+  if (ok && window.awardXP) window.awardXP(2, 1);   // koin & XP langsung bertambah tiap bacaan benar
+}
+Object.assign(KC, {
+  bacaSet(v) { KB.set = v; const h = location.hash; route(h.replace(/^#/, "")); },
+  bacaMode(m) { KB.mode = m; if (m === "daftar") { bacaDraw(); } else route(location.hash.replace(/^#/, "")); },
+  bacaMulai() { KB.list = shuffle(bacaPool()); KB.i = 0; KB.show = false; KB.pick = null; KB.chosen = null; KB.sc = { ok: 0, ng: 0 }; if (!KB.list.length) { toast("Tidak ada kata di kelompok ini"); return; } bacaDraw(); document.getElementById("kb-root")?.scrollIntoView({ behavior: "smooth", block: "start" }); },
+  bacaShow() { KB.show = true; bacaDraw(); },
+  bacaNilai(ok) { bacaRecord(KB.list[KB.i], ok); KB.i++; KB.show = false; bacaDraw(); },
+  bacaPilih(o) { const w = KB.list[KB.i]; KB.chosen = o; KB.show = true; bacaRecord(w, o === w.r); bacaDraw(); },
+  bacaNext() { KB.i++; KB.show = false; KB.pick = null; KB.chosen = null; bacaDraw(); },
+  sayKata(k) { say(k); },
+  sayText(t) { say(t); },
+});
+
+/* ============================== ATURAN: ゛ ゜ っ ー ============================== */
+const eg = (k, r, a) => `<button class="kb-eg" onclick="KC.sayText('${k}')"><b>${k}</b><span>${r}</span><small>${a}</small></button>`;
+export async function renderKanaAturan() {
+  return `<div class="kc-wrap">${crumbs("Tanda khusus")}
+    <div class="kc-head"><div class="jp">濁点・半濁点・促音・長音</div><h1>Ten-ten, Maru, っ kecil &amp; Garis panjang</h1><p>Empat tanda kecil yang mengubah bunyi. Ketuk contoh untuk mendengar suaranya.</p></div>
+
+    <div class="kc-panel kb-rule"><h2>① Ten-ten ゛ <small>(dakuten 濁点)</small></h2>
+      <p>Dua titik kecil di kanan atas huruf membuat bunyinya <b>menjadi bersuara (lebih "berat")</b>.</p>
+      <div class="kb-map"><span>か ka → <b>が ga</b></span><span>さ sa → <b>ざ za</b></span><span>た ta → <b>だ da</b></span><span>は ha → <b>ば ba</b></span></div>
+      <div class="kb-map"><span>き→<b>ぎ</b> gi</span><span>し→<b>じ</b> ji</span><span>ち→<b>ぢ</b> ji</span><span>く→<b>ぐ</b> gu</span><span>す→<b>ず</b> zu</span><span>つ→<b>づ</b> zu</span></div>
+      <p class="kc-note">じ/ぢ dan ず/づ bunyinya sama; yang dipakai sehari-hari adalah じ dan ず. Katakana sama: カ→ガ, ハ→バ.</p>
+      <div class="kb-egs">${eg("がっこう", "gakkou", "sekolah")}${eg("だいがく", "daigaku", "universitas")}${eg("でんしゃ", "densha", "kereta")}${eg("ごはん", "gohan", "nasi")}${eg("ぶた", "buta", "babi")}${eg("バス", "basu", "bus")}</div></div>
+
+    <div class="kc-panel kb-rule"><h2>② Maru ゜ <small>(handakuten 半濁点)</small></h2>
+      <p>Lingkaran kecil <b>hanya dipakai pada baris は (ha)</b>, mengubahnya menjadi bunyi "p".</p>
+      <div class="kb-map"><span>は→<b>ぱ</b> pa</span><span>ひ→<b>ぴ</b> pi</span><span>ふ→<b>ぷ</b> pu</span><span>へ→<b>ぺ</b> pe</span><span>ほ→<b>ぽ</b> po</span></div>
+      <p class="kc-note">Bandingkan: は ha → ば ba (ten-ten) → ぱ pa (maru). Katakana: ハ→バ→パ.</p>
+      <div class="kb-egs">${eg("ぱん", "pan", "roti")}${eg("えんぴつ", "enpitsu", "pensil")}${eg("さんぽ", "sanpo", "jalan-jalan")}${eg("てんぷら", "tenpura", "tempura")}${eg("ペン", "pen", "pena")}${eg("パン", "pan", "roti")}</div></div>
+
+    <div class="kc-panel kb-rule"><h2>③ っ / ッ kecil <small>(sokuon 促音)</small></h2>
+      <p>Huruf <b>tsu ditulis kecil</b> tidak dibaca "tsu". Ia berarti <b>jeda singkat</b> lalu konsonan sesudahnya <b>diucapkan dua kali</b> (ditahan sebentar).</p>
+      <div class="kb-map"><span>き<b>っ</b>て → ki<b>t</b>te</span><span>ざ<b>っ</b>し → za<b>s</b>shi</span><span>が<b>っ</b>こう → ga<b>k</b>kou</span><span>い<b>っ</b>ぱい → i<b>p</b>pai</span></div>
+      <p class="kc-note">Dalam tulisan mendatar, っ kecil ada di kanan bawah. Panjang bunyi berbeda arti: きて <i>kite</i> "datanglah" vs きって <i>kitte</i> "perangko". Katakana memakai ッ: ベッド beddo, ロッカー rokkā.</p>
+      <div class="kb-egs">${eg("きって", "kitte", "perangko")}${eg("ざっし", "zasshi", "majalah")}${eg("ちょっと", "chotto", "sebentar")}${eg("ずっと", "zutto", "terus-menerus")}${eg("ベッド", "beddo", "tempat tidur")}${eg("コップ", "koppu", "gelas")}</div></div>
+
+    <div class="kc-panel kb-rule"><h2>④ Garis panjang ー <small>(chōonpu 長音符)</small></h2>
+      <p>Di <b>katakana</b>, tanda <b>ー</b> memanjangkan vokal sebelumnya (bunyi dibaca dua ketukan).</p>
+      <div class="kb-map"><span>コ<b>ー</b>ヒー → kōhī</span><span>ビ<b>ー</b>ル → bīru</span><span>ラ<b>ー</b>メン → rāmen</span><span>ケ<b>ー</b>キ → kēki</span></div>
+      <p>Di <b>hiragana</b> tidak ada ー; vokal panjang ditulis dengan menambah huruf vokal:</p>
+      <div class="kb-map"><span>あ段 + <b>あ</b>: おかあさん okaasan</span><span>い段 + <b>い</b>: おにいさん oniisan</span><span>う段 + <b>う</b>: ゆうめい yuumei</span><span>え段 + <b>い/え</b>: せんせい sensei, おねえさん oneesan</span><span>お段 + <b>う/お</b>: とうきょう toukyou, おおきい ookii</span></div>
+      <p class="kc-note">Panjang pendek mengubah arti: おばさん (bibi) vs おばあさん (nenek); おじさん (paman) vs おじいさん (kakek); ビル (gedung) vs ビール (bir).</p>
+      <div class="kb-egs">${eg("コーヒー", "kōhī", "kopi")}${eg("ビール", "bīru", "bir")}${eg("ラーメン", "rāmen", "ramen")}${eg("おかあさん", "okaasan", "ibu")}${eg("おばあさん", "obaasan", "nenek")}${eg("ゆうめい", "yuumei", "terkenal")}</div></div>
+
+    <div class="kc-panel"><h2>Bonus: ゃ ゅ ょ kecil <small>(youon 拗音)</small></h2>
+      <p>Ya/yu/yo kecil menggabung dengan huruf sebelumnya menjadi <b>satu suku kata</b>: き+ゃ → <b>kya</b>, し+ゅ → <b>shu</b>, ち+ょ → <b>cho</b>.</p>
+      <div class="kb-egs">${eg("しゃしん", "shashin", "foto")}${eg("きょう", "kyou", "hari ini")}${eg("じゅう", "juu", "sepuluh")}${eg("りょうり", "ryouri", "masakan")}</div>
+      <button class="btn sw-big" onclick="route('kana-baca/hira')">Latihan baca 200 kata ›</button></div>
+  </div>`;
+}
 export const KANA_ROUTES = {
+  "kana-baca": (p) => renderKanaBaca(p),
+  "kana-aturan": () => renderKanaAturan(),
   kana: () => renderKanaHub(),
   "kana-tabel": (p) => renderKanaTabel(p, "tabel"),
   "kana-order": (p) => renderKanaTabel(p, "order"),
