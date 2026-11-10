@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, DAY
-} from "./ssw-core.js?v=20261110c";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110c";
+} from "./ssw-core.js?v=20261110d";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110d";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -278,10 +278,10 @@ async function renderBuku([slug, lang, page]) {
       <button class="sw-back" onclick="route('ssw-peta/${slug}')">← Peta</button>
       <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="route('ssw-buku/${slug}/jp/${pg}')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="route('ssw-buku/${slug}/id/${pg}')">ID</button></div>
       <span class="sw-pg">Hal. <b id="bk-n">${pg}</b> / ${total - 1}</span>
-      <button class="sw-chip" onclick="SSW.bookZoom(-.25)">−</button><button class="sw-chip" onclick="SSW.bookZoom(.25)">＋</button>
+      <button class="sw-chip" onclick="SSW.bookZoom()">🔍 Perbesar</button>
     </div>
     <div class="sw-book-chips">${chips}</div>
-    <div class="sw-book-stage" id="bk-stage"><img id="bk-img" alt="Halaman ${pg}" src="${pageFile(slug, lang, pg + 1)}" draggable="false"></div>
+    <div class="sw-book-stage" id="bk-stage"><span class="sw-zhint">🔍 Ketuk untuk memperbesar</span><img id="bk-img" alt="Halaman ${pg}" src="${pageFile(slug, lang, pg + 1)}" draggable="false"></div>
     <div class="sw-book-nav"><button class="btn ghost" onclick="SSW.bookGo(-1)">‹ Sebelumnya</button>
       <input id="bk-range" type="range" min="0" max="${total - 1}" value="${pg}" aria-label="Halaman" oninput="SSW.bookJump(this.value)">
       <button class="btn" onclick="SSW.bookGo(1)">Berikutnya ›</button></div>
@@ -466,7 +466,8 @@ const SSW = window.SSW = {
   pref(k, d) { const p = getPrefs(); this.prefSet(k, Math.min(220, Math.max(70, p[k] + d)), true); },
   prefSet(k, v, redraw) { const p = getPrefs(); p[k] = Number(v); setPrefs(p); applyPrefs(); if (k === "size") { const o = document.getElementById("sw-o1"); if (o) o.textContent = p.size + "%"; const r = document.getElementById("sw-r1"); if (r) r.value = p.size; } else { const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } } },
   prefReset() { setPrefs({ ...PREF_DEF }); applyPrefs(); const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } },
-  zoomImg(el) {
+  zoomPage(url) { SSW.zoomImg({ style: { backgroundImage: `url('${url}')`, aspectRatio: "1", backgroundSize: "100%", backgroundPosition: "0% 0%" } }, "full"); },
+  zoomImg(el, startMode) {
     const bg = el.style.backgroundImage, ar = parseFloat(el.style.aspectRatio) || 1;
     const bs = parseFloat(el.style.backgroundSize) || 100, pos = el.style.backgroundPosition.split(" ").map(parseFloat);
     // gambar penuh halaman, digeser agar potongan berada di tengah; zoom awal = potongan memenuhi layar
@@ -475,7 +476,7 @@ const SSW = window.SSW = {
     lb.innerHTML = `<div class="sw-lbbar"><button type="button" data-a="out">−</button><span id="sw-lbz">100%</span><button type="button" data-a="in">+</button><button type="button" data-a="fit">Pas</button><button type="button" data-a="full">Halaman</button><button type="button" data-a="x" aria-label="Tutup">✕</button></div><div class="sw-lbv"><div class="sw-lbi"></div></div><div class="sw-lbhelp">Cubit / roda mouse = zoom · geser = pindah · ketuk 2× = zoom</div>`;
     document.body.append(lb); document.body.classList.add("sw-lbopen");
     const v = lb.querySelector(".sw-lbv"), im = lb.querySelector(".sw-lbi");
-    let mode = "crop", sc = 1, tx = 0, ty = 0, W = 0, H = 0;
+    let mode = startMode || "crop", sc = 1, tx = 0, ty = 0, W = 0, H = 0;
     const url = bg.replace(/^url\(["']?|["']?\)$/g, "");
     const draw = () => { im.style.transform = `translate(${tx}px,${ty}px) scale(${sc})`; lb.querySelector("#sw-lbz").textContent = Math.round(sc * 100) + "%"; };
     const setup = () => {
@@ -555,13 +556,13 @@ const SSW = window.SSW = {
     st.onpointerdown = (e) => { x0 = e.clientX; y0 = e.clientY; t0 = Date.now(); };
     st.onpointerup = (e) => {
       if (x0 == null) return; const dx = e.clientX - x0, dy = e.clientY - y0; x0 = null;
-      if (BOOK.zoom === 1 && Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) { SSW.bookGo(dx < 0 ? 1 : -1); return; }
-      if (Math.abs(dx) < 8 && Math.abs(dy) < 8 && Date.now() - t0 < 300) { const n = Date.now(); if (n - lastTap < 320) { BOOK.zoom = BOOK.zoom > 1 ? 1 : 2; SSW.bookApply(); } lastTap = n; }
+      if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) { SSW.bookGo(dx < 0 ? 1 : -1); return; }
+      if (Math.abs(dx) < 8 && Math.abs(dy) < 8 && Date.now() - t0 < 300) SSW.bookZoom();
     };
     window.onkeydown = (e) => { if (!document.getElementById("bk-stage")) { window.onkeydown = null; return; } if (e.key === "ArrowRight") SSW.bookGo(1); if (e.key === "ArrowLeft") SSW.bookGo(-1); };
   },
   bookApply() { const i = document.getElementById("bk-img"); if (i) { i.style.width = (BOOK.zoom * 100) + "%"; } },
-  bookZoom(d) { BOOK.zoom = Math.max(1, Math.min(3.5, BOOK.zoom + d)); SSW.bookApply(); },
+  bookZoom() { const i = document.getElementById("bk-img"); if (i) SSW.zoomPage(i.src); },
   bookGo(d) { const n = Math.max(0, Math.min(BOOK.total - 1, BOOK.pg + d)); if (n !== BOOK.pg) route(`ssw-buku/${BOOK.slug}/${BOOK.lang}/${n}`); },
   bookJump(v) { const n = parseInt(v, 10); const el = document.getElementById("bk-n"); if (el) el.textContent = n; clearTimeout(BOOK._t); BOOK._t = setTimeout(() => route(`ssw-buku/${BOOK.slug}/${BOOK.lang}/${n}`), 350); },
   /* --- kosakata --- */

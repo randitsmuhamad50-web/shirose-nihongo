@@ -162,3 +162,16 @@ body.sw-lbopen{overflow:hidden;}
 .sw-rank li{display:flex; align-items:center; gap:10px; background:rgba(255,255,255,.06); border:1px solid var(--border-light); border-radius:12px; padding:9px 12px;}
 .sw-rank .n{width:28px; text-align:center; font-weight:800; opacity:.8;} .sw-rank .nm{flex:1; min-width:0; display:flex; flex-direction:column;} .sw-rank .nm b{overflow-wrap:anywhere;} .sw-rank small{opacity:.65; font-size:12px;} .sw-rank .pt{font-weight:800; color:#ffd36b;}
 .btn.gold{background:linear-gradient(135deg,#f6c453,#e8943a); color:#2a1a00; border:0; font-weight:800;}
+
+/* buku & FAB: tidak menimpa, tidak melebar */
+.sw-book{padding-bottom:96px; max-width:100%; overflow-x:hidden;}
+.sw-book-stage{position:relative; overflow:hidden; max-height:none; touch-action:pan-y; cursor:zoom-in;}
+.sw-book-stage img{width:100%; max-width:100%; height:auto; display:block;}
+.sw-book-stage .sw-zhint{top:8px; bottom:auto;}
+#sw-aa{right:auto; left:14px;}
+#sw-prefs{right:auto; left:10px;}
+.sw-wrap,.sw-book{box-sizing:border-box;} body{overflow-x:hidden;}
+.sw-book-nav{flex-wrap:wrap; justify-content:space-between;} .sw-book-nav .btn{flex:1 1 40%; min-width:0;} .sw-book-nav input{order:3; flex:1 1 100%; width:100%; min-height:34px;}
+.sw-kosa-chips,.sw-chips{max-width:100%;}
+.sw-vrow{max-width:100%;} .sw-vrow>div{min-width:0; flex-wrap:wrap;} .sw-vrow .sw-chip{white-space:normal; flex:0 1 auto;}
+.sw-vrow summary{min-width:0; gap:6px;} .sw-vrow .m{min-width:0; overflow-wrap:anywhere;} .sw-vrow .k{min-width:0; max-width:36%; overflow-wrap:anywhere; font-size:18px;} .sw-vrow .b{flex:none;} .sw-vrow summary .sw-chip{flex:none; padding:6px 9px;}
