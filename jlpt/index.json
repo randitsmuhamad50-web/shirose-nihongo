@@ -903,6 +903,23 @@
       "文の組み立て (1)"
      ]
     }
+   ],
+   "dokkai": [
+    {
+     "id": "n5-dokkai-01",
+     "file": "n5/dokkai-01.json",
+     "judul": "Dokkai Practice 01",
+     "jumlah": 10,
+     "durasi": 15,
+     "mondai": [
+      "読解 (10)",
+      "Mencari informasi (情報検索)",
+      "Pesan / memo (メモ)",
+      "Teks menengah / cerita (中文)",
+      "Teks menengah / email (中文)",
+      "Teks pendek / diary (短文)"
+     ]
+    }
    ]
   },
   "n4": {
@@ -1811,6 +1828,24 @@
      "durasi": 20,
      "mondai": [
       "文法形式の判断 (10)"
+     ]
+    }
+   ],
+   "dokkai": [
+    {
+     "id": "n4-dokkai-01",
+     "file": "n4/dokkai-01.json",
+     "judul": "Dokkai Practice 01",
+     "jumlah": 10,
+     "durasi": 20,
+     "mondai": [
+      "読解 (10)",
+      "Mencari informasi (情報検索)",
+      "Pengumuman (お知らせ)",
+      "Teks menengah / budaya (中文)",
+      "Teks menengah / email (中文)",
+      "Teks menengah / esai (中文)",
+      "Teks pendek / diary (短文)"
      ]
     }
    ]
@@ -2751,6 +2786,23 @@
      "mondai": [
       "文法形式の判断 (4)",
       "文の組み立て (2)"
+     ]
+    }
+   ],
+   "dokkai": [
+    {
+     "id": "n3-dokkai-01",
+     "file": "n3/dokkai-01.json",
+     "judul": "Dokkai Practice 01",
+     "jumlah": 10,
+     "durasi": 25,
+     "mondai": [
+      "読解 (10)",
+      "Email kerja (ビジネスメール・中文)",
+      "Mencari informasi (情報検索)",
+      "Pengumuman / teks pendek (短文)",
+      "Teks menengah / esai (中文)",
+      "Teks panjang (長文)"
      ]
     }
    ]
@@ -3700,6 +3752,22 @@
      "mondai": [
       "文法形式の判断 (5)",
       "文の組み立て (1)"
+     ]
+    }
+   ],
+   "dokkai": [
+    {
+     "id": "n2-dokkai-01",
+     "file": "n2/dokkai-01.json",
+     "judul": "Dokkai Practice 01",
+     "jumlah": 10,
+     "durasi": 30,
+     "mondai": [
+      "読解 (10)",
+      "Email bisnis (ビジネスメール)",
+      "Mencari informasi (情報検索)",
+      "Teks menengah / opini (中文)",
+      "Teks panjang / esai (長文)"
      ]
     }
    ]
@@ -4652,8 +4720,24 @@
       "文の組み立て (3)"
      ]
     }
+   ],
+   "dokkai": [
+    {
+     "id": "n1-dokkai-01",
+     "file": "n1/dokkai-01.json",
+     "judul": "Dokkai Practice 01",
+     "jumlah": 10,
+     "durasi": 35,
+     "mondai": [
+      "読解 (10)",
+      "Mencari informasi (情報検索)",
+      "Teks menengah / kritik (中文・評論)",
+      "Teks panjang / esai (長文)",
+      "Teks panjang / kritik (長文・評論)"
+     ]
+    }
    ]
   }
  },
- "total_soal": 9153
+ "total_soal": 9203
 }

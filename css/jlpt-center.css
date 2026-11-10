@@ -226,3 +226,5 @@
 .jx-kw-ex ul{margin:6px 0 0; padding-left:18px;}
 .jx-kw-in .jx-row{display:flex; gap:8px; margin-top:14px; flex-wrap:wrap;}
 @media (min-width:700px){ #jx-kw{align-items:center;} .jx-kw-in{border-radius:18px;} }
+
+.jx-q{scroll-margin-top:120px;}
