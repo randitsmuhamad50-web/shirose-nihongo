@@ -128,14 +128,19 @@ def materi_jobs(lvl):
     def add(cat, key, say):
         key = (key or "").strip(); say = clean_say(say or key)
         if key and key not in jobs.setdefault(cat, {}): jobs[cat][key] = say
-    for it in json.load(open(os.path.join(ROOT, "data", f"kosakata-{lvl}.json"), encoding="utf-8")):
+    def _load(name):
+        # level pseudo (mis. "ssw-bc") hanya punya kosakata; file kanji/bunpou boleh tidak ada.
+        pth = os.path.join(ROOT, "data", f"{name}-{lvl}.json")
+        if not os.path.exists(pth) and lvl.startswith("ssw-"): return []
+        return json.load(open(pth, encoding="utf-8"))
+    for it in _load("kosakata"):
         kata = it.get("kata") or it.get("k") or ""; kana = it.get("kana") or it.get("f") or ""
         add("kosakata", kata, kana or kata)
         add("kosakata-contoh", it.get("contoh") or it.get("ej") or "", None)
-    for it in json.load(open(os.path.join(ROOT, "data", f"kanji-{lvl}.json"), encoding="utf-8")):
+    for it in _load("kanji"):
         add("kanji", it.get("kanji") or it.get("k"), None)
         for c in it.get("c") or []: add("kanji-contoh", c.get("k"), c.get("r") or c.get("k"))
-    for it in json.load(open(os.path.join(ROOT, "data", f"bunpou-{lvl}.json"), encoding="utf-8")):
+    for it in _load("bunpou"):
         add("bunpou-contoh", it.get("contoh") or "", None)
     return {cat: (R[cat], items) for cat, items in jobs.items()}
 
