@@ -1,43 +1,94 @@
 {
- "id": "b3s12", "no": 12,
- "title": { "id": "Daftar Peralatan Cleaning Service", "jp": "ビルクリーニングに使用する資器材リスト" },
- "pages": [81, 82],
+ "id": "b3s12",
+ "no": 12,
+ "title": {
+  "id": "Daftar Peralatan Cleaning Service",
+  "jp": "ビルクリーニングに使用する資器材リスト"
+ },
+ "pages": [
+  81,
+  84
+ ],
  "full": {
   "id": [
-   { "h": "Peralatan dasar (hal. 81)" },
-   { "ul": [
+   {
+    "note": "Halaman 83–85: halaman penutup buku dan keterangan penerbit (JBMA)."
+   },
+   {
+    "h": "Peralatan dasar (hal. 81)"
+   },
+   {
+    "ul": [
      "Papan Tanda (Floor Sign); Sapu Ruangan; Sapu Ijuk; Pengki (Serokan); Dust Cloth.",
      "Dust Cloth Tipe Pel; Pel Basah (sekali pakai); Pel Bentuk T; Pel Kering; Pel Bentuk Datar.",
      "Sikat Dek; alat penarik air lantai (squeegee); Pengki untuk air; window washer; window cleaner.",
      "Lap; lap serat ultrafine; Sikat Rambut; Ember; Alat Pemeras Kain Pel."
-   ] },
-   { "h": "Mesin dan perlengkapan lain (hal. 82)" },
-   { "ul": [
+    ]
+   },
+   {
+    "h": "Mesin dan perlengkapan lain (hal. 82)"
+   },
+   {
+    "ul": [
      "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet.",
      "Floor Pad; Polisher; Pembersih Lantai Otomatis; Extractor; Mesin Pembersih Bertekanan Tinggi.",
      "Kipas Pengering; Hand Pad; Pembersih Debu Elektrik; Sarung Tangan Pelindung; Scraper.",
      "Gelas Pengukur; Alat Sedot WC; Keranjang Peralatan; Keranjang Limbah; Troli Dorong."
-   ] }
+    ]
+   }
   ],
   "jp": [
-   { "h": "{基本|きほん}の{資器材|しきざい}（P.81）" },
-   { "ul": [
+   {
+    "note": "83〜85ページ：{本|ほん}の{最後|さいご}のページと{発行|はっこう}{情報|じょうほう}（JBMA）。"
+   },
+   {
+    "h": "{基本|きほん}の{資器材|しきざい}（P.81）"
+   },
+   {
+    "ul": [
      "{作業標示板|さぎょうひょうじばん}（フロアサイン）、{自在|じざい}ぼうき、シダぼうき、{文化|ぶんか}ちり{取|と}り、ダストクロス。",
      "ダストクロス{型|がた}モップ、{湿式|しっしき}モップ（ワンタッチモップ）、T{字型|じがた}モップ、{乾式|かんしき}モップ、フラット{型|がた}モップ。",
      "デッキブラシ、フロアスクイジー、{汚水取|おすいと}り、シャンパー、ウインドスクイジー。",
      "タオル、{超極細繊維|ちょうごくさいせんい}クロス、{毛|け}かき、バケツ、モップ{絞|しぼ}り{器|き}。"
-   ] },
-   { "h": "{機械|きかい}とその{他|ほか}（P.82）" },
-   { "ul": [
+    ]
+   },
+   {
+    "h": "{機械|きかい}とその{他|ほか}（P.82）"
+   },
+   {
+    "ul": [
      "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}、{真空掃除機|しんくうそうじき}（ポッド{型|がた}・アップライト{型|がた}）、ハンディバキューム、ウエットバキューム。",
      "フロアパッド、ポリッシャー、{自動床洗浄機|じどうゆかせんじょうき}、エクストラクター、{高圧洗浄機|こうあつせんじょうき}。",
      "{送風機|そうふうき}、ハンドパッド、{静電気|せいでんき}ほこり{取|と}り、{保護手袋|ほごてぶくろ}、スクレーパー。",
      "{計量|けいりょう}カップ、プランジャー、{作業|さぎょう}カート、{廃棄物|はいきぶつ}コレクター、{手押|ておし}し{台車|だいしゃ}。"
-   ] }
+    ]
+   }
   ]
  },
  "summary": {
-  "id": { "core": "Daftar peralatan Cleaning Service: alat dasar, mesin, dan perlengkapan penunjang.", "points": ["Pel: dust cloth, basah, T, kering, datar.", "Penyedot debu: Pod, Upright, Handheld, Wet.", "Mesin: polisher, pembersih otomatis, extractor, high pressure."], "avoid": [], "exam": ["Nama alat dan fungsinya."] },
-  "jp": { "core": "ビルクリーニングで{使|つか}う{資器材|しきざい}の{一覧|いちらん}。", "points": ["モップ{類|るい}", "{掃除機|そうじき}の{種類|しゅるい}", "ポリッシャー・{自動床洗浄機|じどうゆかせんじょうき}など"], "avoid": [], "exam": ["{道具|どうぐ}の{名前|なまえ}と{用途|ようと}"] }
+  "id": {
+   "core": "Daftar peralatan Cleaning Service: alat dasar, mesin, dan perlengkapan penunjang.",
+   "points": [
+    "Pel: dust cloth, basah, T, kering, datar.",
+    "Penyedot debu: Pod, Upright, Handheld, Wet.",
+    "Mesin: polisher, pembersih otomatis, extractor, high pressure."
+   ],
+   "avoid": [],
+   "exam": [
+    "Nama alat dan fungsinya."
+   ]
+  },
+  "jp": {
+   "core": "ビルクリーニングで{使|つか}う{資器材|しきざい}の{一覧|いちらん}。",
+   "points": [
+    "モップ{類|るい}",
+    "{掃除機|そうじき}の{種類|しゅるい}",
+    "ポリッシャー・{自動床洗浄機|じどうゆかせんじょうき}など"
+   ],
+   "avoid": [],
+   "exam": [
+    "{道具|どうぐ}の{名前|なまえ}と{用途|ようと}"
+   ]
+  }
  }
 }

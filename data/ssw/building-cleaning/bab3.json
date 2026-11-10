@@ -11,7 +11,7 @@
   },
   "pages": [
    61,
-   82
+   84
   ],
   "intro": {
    "id": "Pembersihan berkala: lantai, polisher, kaca, dan daftar perlengkapan.",
@@ -26,11 +26,14 @@
      "jp": "床面清掃：建材の知識"
     },
     "pages": [
-     62,
+     61,
      62
     ],
     "full": {
      "id": [
+      {
+       "note": "Halaman 62: sampul BAB 3 \"Pembersihan Berkala\" (定期清掃) yang membuka bab pembersihan berkala."
+      },
       {
        "p": "Untuk membersihkan permukaan lantai biasanya dipakai polisher. Kita harus memilih cara membersihkan yang tepat, tergantung material lantai dan jenis kotorannya."
       },
@@ -63,6 +66,9 @@
       }
      ],
      "jp": [
+      {
+       "note": "62ページ：{第|だい}３{章|しょう}「{定期清掃|ていきせいそう}」の{扉|とびら}ページ。"
+      },
       {
        "p": "{床面清掃|ゆかめんせいそう}といえばポリッシャーですよね！{床材|ゆかざい}と{汚|よご}れに{合|あ}った{清掃方法|せいそうほうほう}を{選|えら}ばないといけない。"
       },
@@ -1245,10 +1251,13 @@
     },
     "pages": [
      81,
-     82
+     84
     ],
     "full": {
      "id": [
+      {
+       "note": "Halaman 83–85: halaman penutup buku dan keterangan penerbit (JBMA)."
+      },
       {
        "h": "Peralatan dasar (hal. 81)"
       },
@@ -1273,6 +1282,9 @@
       }
      ],
      "jp": [
+      {
+       "note": "83〜85ページ：{本|ほん}の{最後|さいご}のページと{発行|はっこう}{情報|じょうほう}（JBMA）。"
+      },
       {
        "h": "{基本|きほん}の{資器材|しきざい}（P.81）"
       },

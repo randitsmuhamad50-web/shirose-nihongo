@@ -26,11 +26,14 @@
      "jp": "{資器材|しきざい}の{搬入|はんにゅう}"
     },
     "pages": [
-     16,
+     15,
      17
     ],
     "full": {
      "id": [
+      {
+       "note": "Halaman 16: sampul BAB 2 \"Pembersihan Harian\" (日常清掃) yang membuka bab pembersihan harian."
+      },
       {
        "h": "Pembersihan Harian: tempat berbeda, cara berbeda"
       },
@@ -55,6 +58,9 @@
       }
      ],
      "jp": [
+      {
+       "note": "16ページ：{第|だい}２{章|しょう}「{日常清掃|にちじょうせいそう}」の{扉|とびら}ページ。"
+      },
       {
        "h": "{日常清掃|にちじょうせいそう}は{場所|ばしょ}によって{方法|ほうほう}が{異|こと}なる"
       },

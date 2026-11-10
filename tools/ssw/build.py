@@ -7,6 +7,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 from vocab_bc import BABS
 from vocab_bc2 import BAB2, BAB3
 BABS["bab2"] = BAB2; BABS["bab3"] = BAB3
+from vocab_front import LIST as FRONT
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 items, seen = [], {}
 for bab, lst in BABS.items():
@@ -22,6 +23,27 @@ for bab, lst in BABS.items():
 out = os.path.join(ROOT, "data", "ssw", "building-cleaning")
 from vocab_auto import extend
 print("kata otomatis:", extend(items, ROOT))
+# kosakata tambahan (katakana/kana/bunpou): ditambah SETELAH semua kata lama agar ID kartu hafalan siswa tidak bergeser
+_by = {e["kata"]: e for e in items}
+for (kata, kana, romaji, arti, cat, src, contoh, arti_c) in FRONT:
+    if kata in _by:
+        e = _by[kata]
+        for sid in src:
+            if sid not in e["src"]: e["src"].append(sid)
+        continue
+    e = {"id": f"bc-{len(items)+1:03d}", "kata": kata, "kana": kana, "romaji": romaji, "arti": arti, "cat": cat, "bab": "bab" + src[0][1], "src": list(src)}
+    if contoh: e["contoh"] = contoh; e["arti_contoh"] = arti_c
+    _by[kata] = e; items.append(e)
+# ID stabil: kata lama tetap memakai ID lama (kartu SRS siswa), kata baru mendapat ID berikutnya
+_reg = json.load(open(os.path.join(ROOT, "tools", "ssw", "src", "id_registry.json"), encoding="utf-8"))
+_mx = max(int(i.split("-")[1]) for v in _reg.values() for i in v)
+_pool = {k: list(v) for k, v in _reg.items()}
+for e in items:
+    if _pool.get(e["kata"]): e["id"] = _pool[e["kata"]].pop(0)
+    else:
+        _mx += 1; e["id"] = f"bc-{_mx:03d}"; _reg.setdefault(e["kata"], []).append(e["id"])
+items.sort(key=lambda e: e["id"])
+json.dump(_reg, open(os.path.join(ROOT, "tools", "ssw", "src", "id_registry.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 json.dump({"items": items}, open(os.path.join(out, "vocab.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 br = lambda t: re.sub(r"\{([^|{}]+)\|([^{}]+)\}", r"\1[\2]", t)
 old = [{"kata": e["kata"], "kana": e["kana"], "arti": e["arti"], **({"contoh": br(e["contoh"]), "arti_contoh": e["arti_contoh"]} if e.get("contoh") else {})} for e in items]
@@ -122,7 +144,7 @@ BAB_META = {
     "bab2": {"no": 2, "title": {"id": "Pembersihan Harian", "jp": "日常清掃"}, "pages": [15, 60],
              "intro": {"id": "Teknik pembersihan harian: peralatan, keamanan, sapu, dust cloth, mop, penyedot debu, lap meja dan kaca, toilet, pengolahan limbah, kebersihan diri, dan keselamatan kerja.",
                        "jp": "日常清掃の基本：持ち物、安全、ほうき、ダストクロス、モップ、掃除機、拭き清掃、トイレ、廃棄物、衛生管理、安全。"}},
-    "bab3": {"no": 3, "title": {"id": "Pembersihan Berkala", "jp": "定期清掃"}, "pages": [61, 82],
+    "bab3": {"no": 3, "title": {"id": "Pembersihan Berkala", "jp": "定期清掃"}, "pages": [61, 84],
              "intro": {"id": "Pembersihan berkala: lantai, polisher, kaca, dan daftar perlengkapan.",
                        "jp": "定期清掃の基本：床、ポリッシャー、ガラス、資器材一覧。"}},
 }

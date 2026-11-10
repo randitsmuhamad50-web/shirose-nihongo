@@ -9,7 +9,8 @@
    "cat": "Kerja harian",
    "bab": "bab1",
    "src": [
-    "b1s1"
+    "b1s1",
+    "b1s9"
    ],
    "contoh": "{出社時間|しゅっしゃじかん}を{守|まも}る",
    "arti_contoh": "Menaati jam masuk kerja.",
@@ -26,7 +27,8 @@
    "cat": "Kerja harian",
    "bab": "bab1",
    "src": [
-    "b1s1"
+    "b1s1",
+    "b1s9"
    ],
    "contoh": "{定|さだ}められた{時間|じかん}に{指定|してい}の{場所|ばしょ}で{休|やす}む",
    "arti_contoh": "Istirahat pada waktu dan tempat yang ditentukan.",
@@ -43,7 +45,8 @@
    "cat": "Kerja harian",
    "bab": "bab1",
    "src": [
-    "b1s1"
+    "b1s1",
+    "b1s9"
    ],
    "contoh": "{責任者|せきにんしゃ}に{報告|ほうこく}してから{退勤|たいきん}する",
    "arti_contoh": "Pulang setelah melapor ke PIC.",
@@ -304,6 +307,8 @@
    "bab": "bab1",
    "src": [
     "b1s3",
+    "b1s7",
+    "b1s9",
     "b1s1",
     "b1s5",
     "b2s1",
@@ -338,6 +343,7 @@
    "bab": "bab1",
    "src": [
     "b1s3",
+    "b1s9",
     "b2s1"
    ],
    "rb": [
@@ -353,7 +359,9 @@
    "cat": "Jenis pembersihan",
    "bab": "bab1",
    "src": [
-    "b1s3"
+    "b1s3",
+    "b1s9",
+    "b3s1"
    ],
    "rb": [
     "定期清掃|ていきせいそう"
@@ -369,7 +377,8 @@
    "bab": "bab1",
    "src": [
     "b1s3",
-    "b3s4"
+    "b3s4",
+    "b1s7"
    ]
   },
   {
@@ -382,6 +391,7 @@
    "bab": "bab1",
    "src": [
     "b1s4",
+    "b1s7",
     "b1s3",
     "b2s3",
     "b3s1",
@@ -419,6 +429,7 @@
     "b1s4",
     "b2s11",
     "b3s3",
+    "b1s9",
     "b2s3",
     "b2s13",
     "b2s14",
@@ -675,7 +686,8 @@
    "cat": "Tempat kerja",
    "bab": "bab1",
    "src": [
-    "b1s6"
+    "b1s6",
+    "b1s7"
    ],
    "rb": [
     "先輩|せんぱい"
@@ -794,6 +806,7 @@
    "bab": "bab2",
    "src": [
     "b2s7",
+    "b1s9",
     "b2s2",
     "b2s8",
     "b3s12"
@@ -964,7 +977,8 @@
    "bab": "bab2",
    "src": [
     "b2s14",
-    "b2s15"
+    "b2s15",
+    "b2s4"
    ]
   },
   {
@@ -1029,6 +1043,7 @@
    "src": [
     "b2s9",
     "b2s13",
+    "b1s9",
     "b2s6",
     "b2s10",
     "b2s14",
@@ -1265,7 +1280,8 @@
    "bab": "bab2",
    "src": [
     "b2s11",
-    "b2s14"
+    "b2s14",
+    "b1s9"
    ],
    "rb": [
     "小便器|しょうべんき"
@@ -1297,7 +1313,8 @@
    "bab": "bab2",
    "src": [
     "b2s11",
-    "b2s13"
+    "b2s13",
+    "b1s9"
    ],
    "rb": [
     "洗面台|せんめんだい"
@@ -1370,6 +1387,7 @@
    "bab": "bab2",
    "src": [
     "b2s17",
+    "b1s9",
     "b3s12"
    ],
    "rb": [
@@ -1437,6 +1455,8 @@
    "bab": "bab2",
    "src": [
     "b2s19",
+    "b1s7",
+    "b1s9",
     "b2s2",
     "b3s3",
     "b3s11"
@@ -1455,7 +1475,8 @@
    "bab": "bab2",
    "src": [
     "b2s18",
-    "b2s19"
+    "b2s19",
+    "b1s9"
    ],
    "rb": [
     "衛生|えいせい"
@@ -1532,6 +1553,7 @@
    "bab": "bab3",
    "src": [
     "b3s1",
+    "b1s9",
     "b2s2",
     "b3s4"
    ],
@@ -1563,7 +1585,8 @@
    "cat": "Lantai",
    "bab": "bab3",
    "src": [
-    "b3s1"
+    "b3s1",
+    "b2s7"
    ]
   },
   {
@@ -1597,6 +1620,133 @@
    ]
   },
   {
+   "id": "bc-1000",
+   "kata": "しつれいします",
+   "kana": "しつれいします",
+   "romaji": "shitsureishimasu",
+   "arti": "permisi (masuk/keluar)",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-1001",
+   "kata": "おつかれさまでした",
+   "kana": "おつかれさまでした",
+   "romaji": "otsukaresamadeshita",
+   "arti": "terima kasih atas kerja kerasnya",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-1002",
+   "kata": "だいじょうぶ",
+   "kana": "だいじょうぶ",
+   "romaji": "daijoubu",
+   "arti": "tidak apa-apa; aman",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-1003",
+   "kata": "きをつけて",
+   "kana": "きをつけて",
+   "romaji": "kiotsukete",
+   "arti": "hati-hati",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ]
+  },
+  {
+   "id": "bc-1004",
+   "kata": "ゆっくり",
+   "kana": "ゆっくり",
+   "romaji": "yukkuri",
+   "arti": "pelan-pelan",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "ゆっくり{動|うご}かす",
+   "arti_contoh": "Menggerakkan pelan-pelan."
+  },
+  {
+   "id": "bc-1005",
+   "kata": "きちんと",
+   "kana": "きちんと",
+   "romaji": "kichinto",
+   "arti": "dengan rapi; semestinya",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "きちんと{着|き}る",
+   "arti_contoh": "Memakai dengan rapi."
+  },
+  {
+   "id": "bc-1006",
+   "kata": "しっかり",
+   "kana": "しっかり",
+   "romaji": "shikkari",
+   "arti": "dengan kuat; sungguh-sungguh",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "しっかり{絞|しぼ}る",
+   "arti_contoh": "Memeras dengan kuat."
+  },
+  {
+   "id": "bc-1007",
+   "kata": "すこし",
+   "kana": "すこし",
+   "romaji": "sukoshi",
+   "arti": "sedikit",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-1008",
+   "kata": "たくさん",
+   "kana": "たくさん",
+   "romaji": "takusan",
+   "arti": "banyak",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ]
+  },
+  {
+   "id": "bc-1009",
+   "kata": "かならず",
+   "kana": "かならず",
+   "romaji": "kanarazu",
+   "arti": "pasti; selalu",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
    "id": "bc-101",
    "kata": "油溶性",
    "kana": "ゆようせい",
@@ -1612,6 +1762,131 @@
    ]
   },
   {
+   "id": "bc-1010",
+   "kata": "まず",
+   "kana": "まず",
+   "romaji": "mazu",
+   "arti": "pertama-tama",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-1011",
+   "kata": "つぎに",
+   "kana": "つぎに",
+   "romaji": "tsugini",
+   "arti": "selanjutnya",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-1012",
+   "kata": "さいごに",
+   "kana": "さいごに",
+   "romaji": "saigoni",
+   "arti": "terakhir",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-1013",
+   "kata": "かるく",
+   "kana": "かるく",
+   "romaji": "karuku",
+   "arti": "ringan; pelan",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-1014",
+   "kata": "ていねいに",
+   "kana": "ていねいに",
+   "romaji": "teineini",
+   "arti": "dengan teliti; sopan",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-1015",
+   "kata": "はやく",
+   "kana": "はやく",
+   "romaji": "hayaku",
+   "arti": "cepat",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s9"
+   ]
+  },
+  {
+   "id": "bc-1016",
+   "kata": "おなじ",
+   "kana": "おなじ",
+   "romaji": "onaji",
+   "arti": "sama",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s9"
+   ]
+  },
+  {
+   "id": "bc-1017",
+   "kata": "ぜんぶ",
+   "kana": "ぜんぶ",
+   "romaji": "zenbu",
+   "arti": "semua",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-1018",
+   "kata": "すぐ",
+   "kana": "すぐ",
+   "romaji": "sugu",
+   "arti": "segera",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "すぐ{報告|ほうこく}する",
+   "arti_contoh": "Segera melapor."
+  },
+  {
+   "id": "bc-1019",
+   "kata": "〜てください",
+   "kana": "てください",
+   "romaji": "~te kudasai",
+   "arti": "tolong lakukan ~ (permintaan)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b1s6"
+   ],
+   "contoh": "{報告|ほうこく}してください",
+   "arti_contoh": "Tolong laporkan."
+  },
+  {
    "id": "bc-102",
    "kata": "感染性",
    "kana": "かんせんせい",
@@ -1625,6 +1900,150 @@
    "rb": [
     "感染性|かんせんせい"
    ]
+  },
+  {
+   "id": "bc-1020",
+   "kata": "〜ないでください",
+   "kana": "ないでください",
+   "romaji": "~naide kudasai",
+   "arti": "tolong jangan ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b2s2"
+   ],
+   "contoh": "{走|はし}らないでください",
+   "arti_contoh": "Tolong jangan berlari."
+  },
+  {
+   "id": "bc-1021",
+   "kata": "〜てはいけません",
+   "kana": "てはいけません",
+   "romaji": "~te wa ikemasen",
+   "arti": "tidak boleh ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b1s6"
+   ],
+   "contoh": "{勝手|かって}に{帰|かえ}ってはいけません",
+   "arti_contoh": "Tidak boleh pulang seenaknya."
+  },
+  {
+   "id": "bc-1022",
+   "kata": "〜てはいけない",
+   "kana": "てはいけない",
+   "romaji": "~te wa ikenai",
+   "arti": "tidak boleh ~ (bentuk biasa)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{遅刻|ちこく}してはいけない",
+   "arti_contoh": "Tidak boleh terlambat."
+  },
+  {
+   "id": "bc-1023",
+   "kata": "〜なければなりません",
+   "kana": "なければなりません",
+   "romaji": "~nakereba narimasen",
+   "arti": "harus ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b1s6"
+   ],
+   "contoh": "{報告|ほうこく}しなければなりません",
+   "arti_contoh": "Harus melapor."
+  },
+  {
+   "id": "bc-1024",
+   "kata": "〜なければならない",
+   "kana": "なければならない",
+   "romaji": "~nakereba naranai",
+   "arti": "harus ~ (bentuk biasa)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{守|まも}らなければならない",
+   "arti_contoh": "Harus ditaati."
+  },
+  {
+   "id": "bc-1025",
+   "kata": "〜ましょう",
+   "kana": "ましょう",
+   "romaji": "~mashou",
+   "arti": "mari ~ / ayo ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s4"
+   ],
+   "contoh": "{挨拶|あいさつ}をしましょう",
+   "arti_contoh": "Mari memberi salam."
+  },
+  {
+   "id": "bc-1026",
+   "kata": "〜ましょう（意志）",
+   "kana": "ましょう（意志）",
+   "romaji": "~mashou",
+   "arti": "ayo kita ~ (ajakan)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{一緒|いっしょ}に{頑張|がんば}りましょう",
+   "arti_contoh": "Ayo berjuang bersama."
+  },
+  {
+   "id": "bc-1027",
+   "kata": "〜ます / 〜ません",
+   "kana": "ます / ません",
+   "romaji": "~masu / ~masen",
+   "arti": "bentuk sopan: ~ / tidak ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{朝|あさ}{掃除|そうじ}をします",
+   "arti_contoh": "Membersihkan di pagi hari."
+  },
+  {
+   "id": "bc-1028",
+   "kata": "〜です / 〜ではありません",
+   "kana": "です / ではありません",
+   "romaji": "~desu / ~dewa arimasen",
+   "arti": "adalah / bukan",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "これはモップです",
+   "arti_contoh": "Ini adalah mop."
+  },
+  {
+   "id": "bc-1029",
+   "kata": "〜ています",
+   "kana": "ています",
+   "romaji": "~te imasu",
+   "arti": "sedang ~ ; keadaan ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{床|ゆか}を{拭|ふ}いています",
+   "arti_contoh": "Sedang mengelap lantai."
   },
   {
    "id": "bc-103",
@@ -1643,6 +2062,151 @@
    ]
   },
   {
+   "id": "bc-1030",
+   "kata": "〜てから",
+   "kana": "てから",
+   "romaji": "~te kara",
+   "arti": "setelah ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s2",
+    "b2s7"
+   ],
+   "contoh": "{手|て}を{洗|あら}ってから{作業|さぎょう}する",
+   "arti_contoh": "Bekerja setelah cuci tangan."
+  },
+  {
+   "id": "bc-1031",
+   "kata": "〜まえに",
+   "kana": "まえに",
+   "romaji": "~mae ni",
+   "arti": "sebelum ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s2",
+    "b1s1"
+   ],
+   "contoh": "{作業|さぎょう}の{前|まえ}に{確認|かくにん}する",
+   "arti_contoh": "Memeriksa sebelum bekerja."
+  },
+  {
+   "id": "bc-1032",
+   "kata": "〜あとで",
+   "kana": "あとで",
+   "romaji": "~ato de",
+   "arti": "sesudah ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{終|お}わった{後|あと}で{報告|ほうこく}する",
+   "arti_contoh": "Melapor setelah selesai."
+  },
+  {
+   "id": "bc-1033",
+   "kata": "〜ながら",
+   "kana": "ながら",
+   "romaji": "~nagara",
+   "arti": "sambil ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s6",
+    "b2s7"
+   ],
+   "contoh": "{後退|こうたい}しながら{拭|ふ}く",
+   "arti_contoh": "Mengepel sambil mundur."
+  },
+  {
+   "id": "bc-1034",
+   "kata": "〜たら",
+   "kana": "たら",
+   "romaji": "~tara",
+   "arti": "jika/kalau/setelah ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s2",
+    "b1s6"
+   ],
+   "contoh": "{汚|よご}れたら{交換|こうかん}する",
+   "arti_contoh": "Kalau kotor, ganti."
+  },
+  {
+   "id": "bc-1035",
+   "kata": "〜と",
+   "kana": "と",
+   "romaji": "~to",
+   "arti": "kalau ~ maka (otomatis/pasti)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{引|ひ}っ{張|ぱ}るとコードが{切|き}れる",
+   "arti_contoh": "Kalau ditarik, kabel bisa putus."
+  },
+  {
+   "id": "bc-1036",
+   "kata": "〜ので",
+   "kana": "ので",
+   "romaji": "~node",
+   "arti": "karena ~ (alasan sopan)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{危|あぶ}ないので{注意|ちゅうい}する",
+   "arti_contoh": "Karena berbahaya, berhati-hati."
+  },
+  {
+   "id": "bc-1037",
+   "kata": "〜から",
+   "kana": "から",
+   "romaji": "~kara",
+   "arti": "karena ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{滑|すべ}るからフロアサインを{置|お}く",
+   "arti_contoh": "Karena licin, memasang floor sign."
+  },
+  {
+   "id": "bc-1038",
+   "kata": "〜ために",
+   "kana": "ために",
+   "romaji": "~tame ni",
+   "arti": "supaya/untuk ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s2",
+    "b2s2"
+   ],
+   "contoh": "{事故|じこ}を{防|ふせ}ぐために{外|はず}す",
+   "arti_contoh": "Dilepas untuk mencegah kecelakaan."
+  },
+  {
+   "id": "bc-1039",
+   "kata": "〜ように",
+   "kana": "ように",
+   "romaji": "~you ni",
+   "arti": "supaya ~ ; sehingga ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{滑|すべ}らないようにする",
+   "arti_contoh": "Berusaha agar tidak terpeleset."
+  },
+  {
    "id": "bc-104",
    "kata": "中性",
    "kana": "ちゅうせい",
@@ -1656,6 +2220,148 @@
    "rb": [
     "中性|ちゅうせい"
    ]
+  },
+  {
+   "id": "bc-1040",
+   "kata": "〜やすい",
+   "kana": "やすい",
+   "romaji": "~yasui",
+   "arti": "mudah ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{滑|すべ}りやすい",
+   "arti_contoh": "Mudah licin."
+  },
+  {
+   "id": "bc-1041",
+   "kata": "〜にくい",
+   "kana": "にくい",
+   "romaji": "~nikui",
+   "arti": "sulit ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{落|お}ちにくい{汚|よご}れ",
+   "arti_contoh": "Kotoran yang sulit hilang."
+  },
+  {
+   "id": "bc-1042",
+   "kata": "〜すぎる",
+   "kana": "すぎる",
+   "romaji": "~sugiru",
+   "arti": "terlalu ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7",
+    "b3s4"
+   ],
+   "contoh": "{水|みず}を{使|つか}いすぎない",
+   "arti_contoh": "Jangan memakai air terlalu banyak."
+  },
+  {
+   "id": "bc-1043",
+   "kata": "〜たい",
+   "kana": "たい",
+   "romaji": "~tai",
+   "arti": "ingin ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{綺麗|きれい}にしたいです",
+   "arti_contoh": "Ingin membersihkan."
+  },
+  {
+   "id": "bc-1044",
+   "kata": "〜たほうがいい",
+   "kana": "たほうがいい",
+   "romaji": "~ta hou ga ii",
+   "arti": "sebaiknya ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{早|はや}めに{連絡|れんらく}したほうがいい",
+   "arti_contoh": "Sebaiknya segera menghubungi."
+  },
+  {
+   "id": "bc-1045",
+   "kata": "〜てもいいです",
+   "kana": "てもいいです",
+   "romaji": "~te mo ii desu",
+   "arti": "boleh ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{帰|かえ}ってもいいです",
+   "arti_contoh": "Boleh pulang."
+  },
+  {
+   "id": "bc-1046",
+   "kata": "〜ことができる",
+   "kana": "ことができる",
+   "romaji": "~koto ga dekiru",
+   "arti": "bisa ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "ゴミを{吸|す}うことができる",
+   "arti_contoh": "Bisa menyedot sampah."
+  },
+  {
+   "id": "bc-1047",
+   "kata": "〜をする",
+   "kana": "をする",
+   "romaji": "~wo suru",
+   "arti": "melakukan ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{掃除|そうじ}をする",
+   "arti_contoh": "Membersihkan."
+  },
+  {
+   "id": "bc-1048",
+   "kata": "〜に〜をする（目的）",
+   "kana": "にをする（目的）",
+   "romaji": "~ni ~wo suru",
+   "arti": "melakukan ~ untuk ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{床|ゆか}にワックスをかける",
+   "arti_contoh": "Memberi wax pada lantai."
+  },
+  {
+   "id": "bc-1049",
+   "kata": "〜で（手段）",
+   "kana": "で（手段）",
+   "romaji": "~de",
+   "arti": "dengan ~ (alat/cara)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s4",
+    "b2s5"
+   ],
+   "contoh": "ほうきで{掃|は}く",
+   "arti_contoh": "Menyapu dengan sapu."
   },
   {
    "id": "bc-105",
@@ -1673,6 +2379,146 @@
    ]
   },
   {
+   "id": "bc-1050",
+   "kata": "〜を〜に（移動）",
+   "kana": "をに（移動）",
+   "romaji": "~wo ~ni",
+   "arti": "menaruh/membawa ~ ke ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s11"
+   ],
+   "contoh": "ゴミを{袋|ふくろ}に{入|い}れる",
+   "arti_contoh": "Memasukkan sampah ke kantong."
+  },
+  {
+   "id": "bc-1051",
+   "kata": "〜は〜です（名詞文）",
+   "kana": "はです（名詞文）",
+   "romaji": "~wa ~desu",
+   "arti": "~ adalah ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{私|わたし}はマイです",
+   "arti_contoh": "Saya Mai."
+  },
+  {
+   "id": "bc-1052",
+   "kata": "〜があります",
+   "kana": "があります",
+   "romaji": "~ga arimasu",
+   "arti": "ada ~ (benda)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{段差|だんさ}があります",
+   "arti_contoh": "Ada tonjolan/undakan."
+  },
+  {
+   "id": "bc-1053",
+   "kata": "〜がいます",
+   "kana": "がいます",
+   "romaji": "~ga imasu",
+   "arti": "ada ~ (orang/hewan)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{人|ひと}がいます",
+   "arti_contoh": "Ada orang."
+  },
+  {
+   "id": "bc-1054",
+   "kata": "〜か？",
+   "kana": "か？",
+   "romaji": "~ka?",
+   "arti": "partikel tanya",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{大丈夫|だいじょうぶ}ですか？",
+   "arti_contoh": "Apakah baik-baik saja?"
+  },
+  {
+   "id": "bc-1055",
+   "kata": "〜も",
+   "kana": "も",
+   "romaji": "~mo",
+   "arti": "juga ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{隅|すみ}も{拭|ふ}く",
+   "arti_contoh": "Sudut juga dilap."
+  },
+  {
+   "id": "bc-1056",
+   "kata": "〜だけ",
+   "kana": "だけ",
+   "romaji": "~dake",
+   "arti": "hanya ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{汚|よご}れた{所|ところ}だけ{拭|ふ}く",
+   "arti_contoh": "Hanya mengelap yang kotor."
+  },
+  {
+   "id": "bc-1057",
+   "kata": "〜より",
+   "kana": "より",
+   "romaji": "~yori",
+   "arti": "dibandingkan ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "{水|みず}より{洗剤|せんざい}がよく{落|お}とす",
+   "arti_contoh": "Deterjen lebih bersih dari air."
+  },
+  {
+   "id": "bc-1058",
+   "kata": "〜という",
+   "kana": "という",
+   "romaji": "~to iu",
+   "arti": "yang disebut ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "５{原則|げんそく}という{考|かんが}え{方|かた}",
+   "arti_contoh": "Konsep yang disebut 5 prinsip."
+  },
+  {
+   "id": "bc-1059",
+   "kata": "〜や〜",
+   "kana": "や",
+   "romaji": "~ya ~",
+   "arti": "~ dan ~ (contoh-contoh)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "contoh": "モップやバケツを{持|も}つ",
+   "arti_contoh": "Membawa mop, ember, dll."
+  },
+  {
    "id": "bc-106",
    "kata": "界面活性剤",
    "kana": "かいめんかっせいざい",
@@ -1686,6 +2532,76 @@
    "rb": [
     "界面活性剤|かいめんかっせいざい"
    ]
+  },
+  {
+   "id": "bc-1060",
+   "kata": "〜から〜まで",
+   "kana": "からまで",
+   "romaji": "~kara ~made",
+   "arti": "dari ~ sampai ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{奥|おく}から{手前|てまえ}まで",
+   "arti_contoh": "Dari dalam sampai depan."
+  },
+  {
+   "id": "bc-1061",
+   "kata": "〜の{前|まえ}に",
+   "kana": "の{前|まえ}に",
+   "romaji": "~no mae ni",
+   "arti": "sebelum (benda/kejadian) ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{作業|さぎょう}の{前|まえ}に{着替|きが}える",
+   "arti_contoh": "Berganti baju sebelum kerja."
+  },
+  {
+   "id": "bc-1062",
+   "kata": "〜の{後|あと}で",
+   "kana": "の{後|あと}で",
+   "romaji": "~no ato de",
+   "arti": "sesudah (benda/kejadian) ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{作業|さぎょう}の{後|あと}で{報告|ほうこく}する",
+   "arti_contoh": "Melapor setelah kerja."
+  },
+  {
+   "id": "bc-1063",
+   "kata": "〜ずに",
+   "kana": "ずに",
+   "romaji": "~zu ni",
+   "arti": "tanpa ~",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{連絡|れんらく}せずに{休|やす}まない",
+   "arti_contoh": "Jangan libur tanpa kabar."
+  },
+  {
+   "id": "bc-1064",
+   "kata": "〜ないと",
+   "kana": "ないと",
+   "romaji": "~nai to",
+   "arti": "kalau tidak ~ (nanti)",
+   "cat": "Bunpou (tata bahasa)",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ],
+   "contoh": "{確認|かくにん}しないと{危|あぶ}ない",
+   "arti_contoh": "Kalau tidak diperiksa, berbahaya."
   },
   {
    "id": "bc-107",
@@ -2026,6 +2942,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s1",
     "b1s4",
     "b1s5",
@@ -2035,7 +2952,7 @@
    "rb": [
     "仕事|しごと"
    ],
-   "contoh": "さわやかな{気持|きも}ちで{仕事|しごと}にかかろう",
+   "contoh": "ビルクリーニングの{仕事|しごと}の３つの{意味|いみ}",
    "arti_contoh": ""
   },
   {
@@ -2103,6 +3020,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s1",
     "b1s6",
     "b2s19"
@@ -2156,6 +3074,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s1",
     "b1s5",
     "b1s6",
@@ -2176,7 +3095,7 @@
    "rb": [
     "使|つか"
    ],
-   "contoh": "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+   "contoh": "ビルクリーニングで{使|つか}う{機械|きかい}・{道具|どうぐ}の{一覧|いちらん}",
    "arti_contoh": ""
   },
   {
@@ -2214,6 +3133,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s1",
     "b1s6"
    ],
@@ -2251,13 +3171,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s1",
     "b1s6"
    ],
    "rb": [
     "内容|ないよう"
    ],
-   "contoh": "SNSに{業務|ぎょうむ}の{内容|ないよう}を{書|か}く。",
+   "contoh": "この{本|ほん}は{試験|しけん}の{説明|せつめい}と**３つの{章|しょう}**でできています。{目次|もくじ}で{内容|ないよう}を{探|さが}しましょう。",
    "arti_contoh": ""
   },
   {
@@ -2335,6 +3256,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s1",
     "b1s5",
     "b2s5",
@@ -2344,7 +3266,7 @@
    "rb": [
     "基本|きほん"
    ],
-   "contoh": "{時間|じかん}を{守|まも}り、{礼儀正|れいぎただ}しく{行動|こうどう}し、{退勤前|たいきんまえ}に{報告|ほうこく}することが{基本|きほん}です。",
+   "contoh": "{第|だい}１{章|しょう}＝{基本|きほん}、{第|だい}２{章|しょう}＝{日常|にちじょう}、{第|だい}３{章|しょう}＝{定期|てい}{清掃|せいそう}。",
    "arti_contoh": ""
   },
   {
@@ -2418,6 +3340,8 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
+    "b1s8",
     "b1s1",
     "b2s18",
     "b2s19",
@@ -2426,7 +3350,7 @@
    "rb": [
     "守|まも"
    ],
-   "contoh": "{通勤|つうきん}、{帰宅時|きたくじ}は{交通|こうつう}ルールを{守|まも}り、{事故|じこ}のないように{注意|ちゅうい}すること",
+   "contoh": "{害虫|がいちゅう}や{病気|びょうき}から{人|ひと}を{守|まも}る。",
    "arti_contoh": ""
   },
   {
@@ -2584,6 +3508,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s1",
     "b1s5",
     "b1s6",
@@ -2599,7 +3524,7 @@
    "rb": [
     "必要|ひつよう"
    ],
-   "contoh": "{病気|びょうき}等で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
    "arti_contoh": ""
   },
   {
@@ -2650,6 +3575,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s1",
     "b1s6",
     "b2s4",
@@ -2665,7 +3591,7 @@
    "rb": [
     "持|も"
    ],
-   "contoh": "カギを{持|も}ち{帰|かえ}る・{紛失|ふんしつ}する。",
+   "contoh": "{持|も}ち{物|もの}・{安全|あんぜん}の{確保|かくほ}",
    "arti_contoh": ""
   },
   {
@@ -2762,6 +3688,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s1",
     "b2s12",
     "b3s11"
@@ -2970,6 +3897,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s1",
     "b2s14",
     "b3s5"
@@ -2977,7 +3905,7 @@
    "rb": [
     "流|なが"
    ],
-   "contoh": "1日の{仕事|しごと}の{流|なが}れの{順番|じゅんばん}",
+   "contoh": "{流|なが}れ：{特定技能|とくていぎのう}{評価試験|ひょうかしけん} → {合格|ごうかく} → {特定技能|とくていぎのう}ビザ{取得|しゅとく} → {就労|しゅうろう}",
    "arti_contoh": ""
   },
   {
@@ -3093,12 +4021,13 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s1"
    ],
    "rb": [
     "病気|びょうき"
    ],
-   "contoh": "{病気|びょうき}等で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
+   "contoh": "{害虫|がいちゅう}や{病気|びょうき}から{人|ひと}を{守|まも}る。",
    "arti_contoh": ""
   },
   {
@@ -3517,6 +4446,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s1",
     "b1s4",
     "b2s9",
@@ -3529,7 +4459,7 @@
    "rb": [
     "順番|じゅんばん"
    ],
-   "contoh": "1日の{仕事|しごと}の{流|なが}れの{順番|じゅんばん}",
+   "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと{第|だい}１〜３{章|しょう}が{本|ほん}の{順番|じゅんばん}で{続|つづ}きます。",
    "arti_contoh": ""
   },
   {
@@ -3649,6 +4579,8 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
+    "b1s9",
     "b1s2",
     "b1s3",
     "b1s4",
@@ -3679,7 +4611,7 @@
    "rb": [
     "汚|よご"
    ],
-   "contoh": "{汚|よご}れたユニフォーム",
+   "contoh": "**ごみや{汚|よご}れを{取|と}り{除|のぞ}く**：{清掃|せいそう}をして{綺麗|きれい}にする。",
    "arti_contoh": ""
   },
   {
@@ -3833,6 +4765,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s3",
     "b2s1"
    ],
@@ -3886,6 +4819,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s3",
     "b2s2",
     "b2s5",
@@ -3905,7 +4839,7 @@
    "rb": [
     "取|と"
    ],
-   "contoh": "**{定期清掃|ていきせいそう}**：{定期的|ていきてき}に{行|おこな}うもので、{普段除去|ふだんじょきょ}できない{汚|よご}れを{取|と}り{除|のぞ}く{清掃|せいそう}。",
+   "contoh": "**ごみや{汚|よご}れを{取|と}り{除|のぞ}く**：{清掃|せいそう}をして{綺麗|きれい}にする。",
    "arti_contoh": ""
   },
   {
@@ -4017,6 +4951,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s3",
     "b2s2",
     "b2s3",
@@ -4030,7 +4965,7 @@
    "rb": [
     "種類|しゅるい"
    ],
-   "contoh": "{清掃|せいそう}には{二|ふた}つの{種類|しゅるい}",
+   "contoh": "{汚|よご}れ（ほこり）の{種類|しゅるい}と{大|おお}きさ",
    "arti_contoh": ""
   },
   {
@@ -4042,13 +4977,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s3",
     "b3s4"
    ],
    "rb": [
     "維持|いじ"
    ],
-   "contoh": "{定期清掃|ていきせいそう}＝{汚|よご}れの{除去|じょきょ}、{建材|けんざい}の{維持|いじ}（ワックス）",
+   "contoh": "**キレイの{維持|いじ}**：きれいな{状態|じょうたい}を{保|たも}つ。",
    "arti_contoh": ""
   },
   {
@@ -4102,6 +5038,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s3",
     "b2s8",
     "b3s2"
@@ -4121,12 +5058,13 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s3"
    ],
    "rb": [
     "長持|ながも"
    ],
-   "contoh": "{定期清掃|ていきせいそう}で{汚|よご}れをリセットし、{日常清掃|にちじょうせいそう}でキレイを{長持|ながも}ちさせる。",
+   "contoh": "ワックスは{建材|けんざい}を{守|まも}り、ビルを{長持|ながも}ちさせる。",
    "arti_contoh": ""
   },
   {
@@ -4138,12 +5076,13 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s3"
    ],
    "rb": [
     "除|のぞ"
    ],
-   "contoh": "**{定期清掃|ていきせいそう}**：{定期的|ていきてき}に{行|おこな}うもので、{普段除去|ふだんじょきょ}できない{汚|よご}れを{取|と}り{除|のぞ}く{清掃|せいそう}。",
+   "contoh": "**ごみや{汚|よご}れを{取|と}り{除|のぞ}く**：{清掃|せいそう}をして{綺麗|きれい}にする。",
    "arti_contoh": ""
   },
   {
@@ -4155,6 +5094,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s3",
     "b2s4",
     "b2s7",
@@ -4166,7 +5106,7 @@
    "rb": [
     "除去|じょきょ"
    ],
-   "contoh": "{定期清掃|ていきせいそう}＝{汚|よご}れの{除去|じょきょ}、{建材|けんざい}の{維持|いじ}（ワックス）",
+   "contoh": "{意味|いみ}：{汚|よご}れ{除去|じょきょ}・キレイの{維持|いじ}・{建材|けんざい}の{維持|いじ}・{安全性|あんぜんせい}の{維持|いじ}",
    "arti_contoh": ""
   },
   {
@@ -4178,6 +5118,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s4",
     "b2s1",
     "b2s2",
@@ -4193,7 +5134,7 @@
    "rb": [
     "作業|さぎょう"
    ],
-   "contoh": "{建材|けんざい}や{洗剤|せんざい}を{知|し}らずに{作業|さぎょう}する",
+   "contoh": "{廃棄物|はいきぶつ}の{処理|しょり}、{衛生管理|えいせいかんり}、{作業|さぎょう}の{安全|あんぜん}と{衛生|えいせい}の{手順|てじゅん}",
    "arti_contoh": ""
   },
   {
@@ -4205,13 +5146,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s4",
     "b3s1"
    ],
    "rb": [
     "原則|げんそく"
    ],
-   "contoh": "ビルクリーニングの5{原則|げんそく}",
+   "contoh": "ビルクリーニングの５{原則|げんそく}",
    "arti_contoh": ""
   },
   {
@@ -4258,13 +5200,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s4",
     "b3s1"
    ],
    "rb": [
     "知識|ちしき"
    ],
-   "contoh": "5{原則|げんそく}：{建材|けんざい}・{汚|よご}れ・{洗剤|せんざい}・{作業方法|さぎょうほうほう}・{予防策|よぼうさく}の{知識|ちしき}。",
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
    "arti_contoh": ""
   },
   {
@@ -4434,13 +5377,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s5",
     "b1s6"
    ],
    "rb": [
     "意味|いみ"
    ],
-   "contoh": "あいさつ7つの{意味|いみ}",
+   "contoh": "ビルクリーニングの{仕事|しごと}の３つの{意味|いみ}",
    "arti_contoh": ""
   },
   {
@@ -4561,6 +5505,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s5",
     "b2s5",
     "b2s6",
@@ -4569,7 +5514,7 @@
    "rb": [
     "目|め"
    ],
-   "contoh": "{相手|あいて}の{目|め}を{見|み}る。",
+   "contoh": "{見|み}た{目|め}だけの{仕事|しごと}だと{思|おも}うこと",
    "arti_contoh": ""
   },
   {
@@ -4632,13 +5577,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s5",
     "b2s3"
    ],
    "rb": [
     "見|み"
    ],
-   "contoh": "{相手|あいて}の{目|め}を{見|み}る。",
+   "contoh": "{見|み}た{目|め}だけの{仕事|しごと}だと{思|おも}うこと",
    "arti_contoh": ""
   },
   {
@@ -4666,6 +5612,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s5"
    ],
    "rb": [
@@ -4809,6 +5756,8 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
+    "b1s8",
     "b1s6",
     "b2s4",
     "b2s14",
@@ -4818,7 +5767,7 @@
    "rb": [
     "人|ひと"
    ],
-   "contoh": "あなたより、{職場|しょくば}での{経験|けいけん}が{多|おお}い{人|ひと}です。",
+   "contoh": "{害虫|がいちゅう}や{病気|びょうき}から{人|ひと}を{守|まも}る。",
    "arti_contoh": ""
   },
   {
@@ -4899,6 +5848,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
     "b1s6",
     "b2s1",
     "b3s11"
@@ -5101,6 +6051,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s6",
     "b2s14",
     "b2s15",
@@ -5160,13 +6111,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s6",
     "b3s1"
    ],
    "rb": [
     "同|おな"
    ],
-   "contoh": "{基本的|きほんてき}には、{上司|じょうし}と{同|おな}じように{接|せっ}しましょう。",
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
    "arti_contoh": ""
   },
   {
@@ -5422,11 +6374,14 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
-    "b1s6"
+    "b1s6",
+    "b3s12"
    ],
    "rb": [
     "情報|じょうほう"
-   ]
+   ],
+   "contoh": "83〜85ページ：{本|ほん}の{最後|さいご}のページと{発行|はっこう}{情報|じょうほう}（JBMA）。",
+   "arti_contoh": ""
   },
   {
    "id": "bc-313",
@@ -5437,6 +6392,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s6",
     "b2s10",
     "b2s15",
@@ -5446,7 +6402,7 @@
    "rb": [
     "手順|てじゅん"
    ],
-   "contoh": "クレーム{対応|たいおう}の{手順|てじゅん}",
+   "contoh": "{廃棄物|はいきぶつ}の{処理|しょり}、{衛生管理|えいせいかんり}、{作業|さぎょう}の{安全|あんぜん}と{衛生|えいせい}の{手順|てじゅん}",
    "arti_contoh": ""
   },
   {
@@ -5568,6 +6524,8 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s7",
+    "b1s8",
     "b1s6",
     "b2s15",
     "b2s19"
@@ -5575,7 +6533,7 @@
    "rb": [
     "日本|にほん"
    ],
-   "contoh": "{日本|にほん}の{大便器|だいべんき}には{温水洗浄便座|おんすいせんじょうべんざ}が{多|おお}い。{温水|おんすい}シャワーでおしりを{洗浄|せんじょう}する。{衛生的|えいせいてき}で{快適|かいてき}。",
+   "contoh": "マイさんの{第一印象|だいいちいんしょう}：{日本|にほん}のビルはとても{綺麗|きれい}",
    "arti_contoh": ""
   },
   {
@@ -5661,6 +6619,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s6"
    ],
    "rb": [
@@ -5875,6 +6834,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s9",
     "b1s6",
     "b2s19"
    ],
@@ -5940,6 +6900,7 @@
    "cat": "Istilah materi",
    "bab": "bab1",
    "src": [
+    "b1s8",
     "b1s6"
    ],
    "rb": [
@@ -6242,8 +7203,9 @@
    "romaji": "houhou",
    "arti": "cara, metode",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s1",
     "b2s3",
     "b3s1"
@@ -6251,7 +7213,7 @@
    "rb": [
     "方法|ほうほう"
    ],
-   "contoh": "{日常清掃|にちじょうせいそう}は{場所|ばしょ}によって{方法|ほうほう}が{異|こと}なる",
+   "contoh": "{床|ゆか}の{清掃|せいそう}（{床材|ゆかざい}・{汚|よご}れ・{洗剤|せんざい}・{方法|ほうほう}）",
    "arti_contoh": ""
   },
   {
@@ -6543,8 +7505,9 @@
    "romaji": "yuka",
    "arti": "lantai",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s2",
     "b2s4",
     "b2s5",
@@ -6565,7 +7528,7 @@
    "rb": [
     "床|ゆか"
    ],
-   "contoh": "ツルツルの{床|ゆか}：ダストクロス・{掃除機|そうじき}",
+   "contoh": "３{章|しょう}：{床|ゆか}・カーペット・{窓|まど}・{機械|きかい}",
    "arti_contoh": ""
   },
   {
@@ -6729,8 +7692,9 @@
    "romaji": "kakuho",
    "arti": "memastikan",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s2",
     "b3s5",
     "b3s7"
@@ -6738,7 +7702,7 @@
    "rb": [
     "確保|かくほ"
    ],
-   "contoh": "{歩行動線|ほこうどうせん}を{確保|かくほ}する。",
+   "contoh": "{持|も}ち{物|もの}・{安全|あんぜん}の{確保|かくほ}",
    "arti_contoh": ""
   },
   {
@@ -6821,8 +7785,9 @@
    "romaji": "dougu",
    "arti": "alat",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s2",
     "b2s13",
     "b3s12"
@@ -6830,7 +7795,7 @@
    "rb": [
     "道具|どうぐ"
    ],
-   "contoh": "{床|ゆか}に{合|あ}わない{道具|どうぐ}を{使|つか}う",
+   "contoh": "ビルクリーニングで{使|つか}う{機械|きかい}・{道具|どうぐ}の{一覧|いちらん}",
    "arti_contoh": ""
   },
   {
@@ -6963,14 +7928,15 @@
    "romaji": "ookisa",
    "arti": "ukuran",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s3"
    ],
    "rb": [
     "大|おお"
    ],
-   "contoh": "{汚|よご}れ（ホコリ）の{種類|しゅるい}と{大|おお}きさ",
+   "contoh": "{汚|よご}れ（ほこり）の{種類|しゅるい}と{大|おお}きさ",
    "arti_contoh": ""
   },
   {
@@ -7029,15 +7995,16 @@
    "romaji": "soujisuru",
    "arti": "membersihkan",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s7",
     "b2s3",
     "b3s1"
    ],
    "rb": [
     "掃除|そうじ"
    ],
-   "contoh": "{見|み}える：{除塵|じょじん}・{拭|ふ}き{掃除|そうじ}",
+   "contoh": "{掃除|そうじ}でビルが{綺麗|きれい}で{快適|かいてき}になる。",
    "arti_contoh": ""
   },
   {
@@ -7184,13 +8151,16 @@
    "romaji": "kirei",
    "arti": "bersih, cantik",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s7",
     "b2s3"
    ],
    "rb": [
     "綺麗|きれい"
-   ]
+   ],
+   "contoh": "{掃除|そうじ}でビルが{綺麗|きれい}で{快適|かいてき}になる。",
+   "arti_contoh": ""
   },
   {
    "id": "bc-411",
@@ -7541,8 +8511,9 @@
    "romaji": "iriguchi",
    "arti": "pintu masuk",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s7",
     "b2s4",
     "b2s5",
     "b2s6",
@@ -7999,15 +8970,16 @@
    "romaji": "joutai",
    "arti": "keadaan",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s7",
     "b2s4",
     "b2s9"
    ],
    "rb": [
     "状態|じょうたい"
    ],
-   "contoh": "{自在|じざい}ぼうきは{毛先|けさき}を{上|うえ}にした{状態|じょうたい}で{保管|ほかん}しておく。",
+   "contoh": "**キレイの{維持|いじ}**：きれいな{状態|じょうたい}を{保|たも}つ。",
    "arti_contoh": ""
   },
   {
@@ -8408,8 +9380,9 @@
    "romaji": "gata",
    "arti": "tipe",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s5",
     "b2s7",
     "b2s8",
@@ -8420,7 +9393,7 @@
    "rb": [
     "型|がた"
    ],
-   "contoh": "ウエット{型|がた}：{汚水|おすい}を{吸|す}う。",
+   "contoh": "{掃除機|そうじき}、アップライト{型|がた}{掃除機|そうじき}",
    "arti_contoh": ""
   },
   {
@@ -8679,8 +9652,9 @@
    "romaji": "hako",
    "arti": "kotak",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s5",
     "b2s7",
     "b2s11",
@@ -8691,7 +9665,7 @@
    "rb": [
     "箱|ばこ"
    ],
-   "contoh": "{紙袋|かみぶくろ}に2／3ほどゴミが{溜|た}まっていたら{交換|こうかん}。{穴|あな}をテープで{塞|ふさ}ぎゴミ{箱|ばこ}へ。{内部|ないぶ}が{汚|よご}れていたら{拭|ふ}いておく。",
+   "contoh": "トイレ{清掃|せいそう}：ごみ{箱|ばこ}・{補充|ほじゅう}、{洗面台|せんめんだい}、{小便器|しょうべんき}、{便器|べんき}、{床|ゆか}",
    "arti_contoh": ""
   },
   {
@@ -10273,7 +11247,8 @@
     "b2s13",
     "b2s16",
     "b3s10",
-    "b3s11"
+    "b3s11",
+    "b3s12"
    ],
    "rb": [
     "最後|さいご"
@@ -10743,15 +11718,16 @@
    "romaji": "hojuu",
    "arti": "pengisian ulang",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s11",
     "b2s12"
    ],
    "rb": [
     "補充|ほじゅう"
    ],
-   "contoh": "{補充|ほじゅう}の{目安|めやす}（1/3）",
+   "contoh": "トイレ{清掃|せいそう}：ごみ{箱|ばこ}・{補充|ほじゅう}、{洗面台|せんめんだい}、{小便器|しょうべんき}、{便器|べんき}、{床|ゆか}",
    "arti_contoh": ""
   },
   {
@@ -11213,8 +12189,9 @@
    "romaji": "benki",
    "arti": "kloset",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s14",
     "b2s15",
     "b2s16"
@@ -11222,7 +12199,7 @@
    "rb": [
     "便器|べんき"
    ],
-   "contoh": "{便器|べんき}のタオルで{棚|たな}を{拭|ふ}く",
+   "contoh": "トイレ{清掃|せいそう}：ごみ{箱|ばこ}・{補充|ほじゅう}、{洗面台|せんめんだい}、{小便器|しょうべんき}、{便器|べんき}、{床|ゆか}",
    "arti_contoh": ""
   },
   {
@@ -11459,15 +12436,16 @@
    "romaji": "tsuzuku",
    "arti": "berlanjut",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s14",
     "b3s10"
    ],
    "rb": [
     "続|つづ"
    ],
-   "contoh": "{続|つづ}いてトラップの{中|なか}をブラシで{清掃|せいそう}しよう。",
+   "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと{第|だい}１〜３{章|しょう}が{本|ほん}の{順番|じゅんばん}で{続|つづ}きます。",
    "arti_contoh": ""
   },
   {
@@ -11620,15 +12598,17 @@
    "romaji": "kaiteki",
    "arti": "nyaman",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s7",
+    "b1s8",
     "b2s15",
     "b3s11"
    ],
    "rb": [
     "快適|かいてき"
    ],
-   "contoh": "{日本|にほん}の{大便器|だいべんき}には{温水洗浄便座|おんすいせんじょうべんざ}が{多|おお}い。{温水|おんすい}シャワーでおしりを{洗浄|せんじょう}する。{衛生的|えいせいてき}で{快適|かいてき}。",
+   "contoh": "{掃除|そうじ}でビルが{綺麗|きれい}で{快適|かいてき}になる。",
    "arti_contoh": ""
   },
   {
@@ -12011,14 +12991,17 @@
    "romaji": "hon",
    "arti": "buku",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
-    "b2s17"
+    "b1s7",
+    "b1s9",
+    "b2s17",
+    "b3s12"
    ],
    "rb": [
     "本|ほん"
    ],
-   "contoh": "{新聞|しんぶん}・{本|ほん}はそのまま",
+   "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと{第|だい}１〜３{章|しょう}が{本|ほん}の{順番|じゅんばん}で{続|つづ}きます。",
    "arti_contoh": ""
   },
   {
@@ -12064,15 +13047,16 @@
    "romaji": "mono",
    "arti": "barang",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s17",
     "b3s2"
    ],
    "rb": [
     "物|もの"
    ],
-   "contoh": "{判別|はんべつ}できない{物|もの}の{対応|たいおう}",
+   "contoh": "{持|も}ち{物|もの}・{安全|あんぜん}の{確保|かくほ}",
    "arti_contoh": ""
   },
   {
@@ -12771,15 +13755,17 @@
    "romaji": "omou",
    "arti": "berpikir",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s7",
+    "b1s8",
     "b2s19",
     "b3s2"
    ],
    "rb": [
     "思|おも"
    ],
-   "contoh": "{汚|よご}れは{土|つち}とホコリだけと{思|おも}う",
+   "contoh": "{見|み}た{目|め}だけの{仕事|しごと}だと{思|おも}うこと",
    "arti_contoh": ""
   },
   {
@@ -12825,13 +13811,16 @@
    "romaji": "kyouiku",
    "arti": "pendidikan",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s8",
     "b2s19"
    ],
    "rb": [
     "教育|きょういく"
-   ]
+   ],
+   "contoh": "ASCFは{採用|さいよう}と{教育|きょういく}を{支援|しえん}。",
+   "arti_contoh": ""
   },
   {
    "id": "bc-726",
@@ -12891,15 +13880,16 @@
    "romaji": "kikai",
    "arti": "mesin",
    "cat": "Istilah materi",
-   "bab": "bab2",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b2s19",
     "b3s12"
    ],
    "rb": [
     "機械|きかい"
    ],
-   "contoh": "{機械|きかい}とその{他|ほか}（P.82）",
+   "contoh": "３{章|しょう}：{床|ゆか}・カーペット・{窓|まど}・{機械|きかい}",
    "arti_contoh": ""
   },
   {
@@ -14551,15 +15541,16 @@
    "romaji": "suihei",
    "arti": "datar (horizontal)",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b3s6",
     "b3s7"
    ],
    "rb": [
     "水平|すいへい"
    ],
-   "contoh": "パッドを{水平|すいへい}にする。",
+   "contoh": "{水拭|みずぶ}き（{水平|すいへい}・{垂直|すいちょく}）",
    "arti_contoh": ""
   },
   {
@@ -14851,14 +15842,15 @@
    "romaji": "suichoku",
    "arti": "tegak lurus",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b3s8"
    ],
    "rb": [
     "垂直|すいちょく"
    ],
-   "contoh": "{清掃後|せいそうご}はタイヤを{下|お}ろしてから。タイヤを{足|あし}で{固定|こてい}してポリッシャーを{寝|ね}かせよう（ハンドルを{垂直|すいちょく}に{戻|もど}し）。",
+   "contoh": "{水拭|みずぶ}き（{水平|すいへい}・{垂直|すいちょく}）",
    "arti_contoh": ""
   },
   {
@@ -15102,13 +16094,16 @@
    "romaji": "hitobito",
    "arti": "orang-orang",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s7",
     "b3s11"
    ],
    "rb": [
     "人々|ひとびと"
-   ]
+   ],
+   "contoh": "**{安全性|あんぜんせい}の{維持|いじ}**：{害虫|がいちゅう}や{病気|びょうき}から{人々|ひとびと}を{守|まも}る。",
+   "arti_contoh": ""
   },
   {
    "id": "bc-862",
@@ -15117,8 +16112,9 @@
    "romaji": "kankyou",
    "arti": "lingkungan",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s8",
     "b3s11"
    ],
    "rb": [
@@ -15147,14 +16143,15 @@
    "romaji": "mado",
    "arti": "jendela",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b3s11"
    ],
    "rb": [
     "窓|まど"
    ],
-   "contoh": "{窓|まど}のフレームを{拭|ふ}きあげよう。①〜④ごとにタオルを{新|あたら}しい{面|めん}に{折|お}り{返|かえ}す。ガラスに{触|ふ}れないように。",
+   "contoh": "３{章|しょう}：{床|ゆか}・カーペット・{窓|まど}・{機械|きかい}",
    "arti_contoh": ""
   },
   {
@@ -15164,8 +16161,9 @@
    "romaji": "ganbaru",
    "arti": "berusaha keras",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s7",
     "b3s11"
    ],
    "rb": [
@@ -15179,14 +16177,15 @@
    "romaji": "ichiran",
    "arti": "daftar",
    "cat": "Istilah materi",
-   "bab": "bab3",
+   "bab": "bab1",
    "src": [
+    "b1s9",
     "b3s12"
    ],
    "rb": [
     "一覧|いちらん"
    ],
-   "contoh": "ビルクリーニングで{使|つか}う{資器材|しきざい}の{一覧|いちらん}。",
+   "contoh": "ビルクリーニングで{使|つか}う{機械|きかい}・{道具|どうぐ}の{一覧|いちらん}",
    "arti_contoh": ""
   },
   {
@@ -15373,6 +16372,1565 @@
    ],
    "contoh": "フロアパッド、ポリッシャー、{自動床洗浄機|じどうゆかせんじょうき}、エクストラクター、{高圧洗浄機|こうあつせんじょうき}。",
    "arti_contoh": ""
+  },
+  {
+   "id": "bc-878",
+   "kata": "ビルクリーニング",
+   "kana": "ビルクリーニング",
+   "romaji": "birukuriiningu",
+   "arti": "pembersihan gedung (Building Cleaning)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s8",
+    "b1s1"
+   ],
+   "contoh": "ビルクリーニングの{仕事|しごと}をします",
+   "arti_contoh": "Bekerja di bidang pembersihan gedung."
+  },
+  {
+   "id": "bc-879",
+   "kata": "ビルメンテナンス",
+   "kana": "ビルメンテナンス",
+   "romaji": "birumentenansu",
+   "arti": "pemeliharaan gedung (building maintenance)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ]
+  },
+  {
+   "id": "bc-880",
+   "kata": "ビル",
+   "kana": "ビル",
+   "romaji": "biru",
+   "arti": "gedung",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "ビルはとても綺麗です",
+   "arti_contoh": "Gedungnya sangat bersih."
+  },
+  {
+   "id": "bc-881",
+   "kata": "キレイ",
+   "kana": "キレイ",
+   "romaji": "kirei",
+   "arti": "bersih; indah (ditulis katakana di buku)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s3"
+   ],
+   "contoh": "キレイを{維持|いじ}する",
+   "arti_contoh": "Menjaga kebersihan."
+  },
+  {
+   "id": "bc-882",
+   "kata": "ゴミ",
+   "kana": "ゴミ",
+   "romaji": "gomi",
+   "arti": "sampah",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s12",
+    "b2s17",
+    "b2s4"
+   ],
+   "contoh": "ゴミを{集|あつ}める",
+   "arti_contoh": "Mengumpulkan sampah."
+  },
+  {
+   "id": "bc-883",
+   "kata": "トイレ",
+   "kana": "トイレ",
+   "romaji": "toire",
+   "arti": "toilet",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b1s7"
+   ],
+   "contoh": "トイレを{掃除|そうじ}する",
+   "arti_contoh": "Membersihkan toilet."
+  },
+  {
+   "id": "bc-884",
+   "kata": "ガラス",
+   "kana": "ガラス",
+   "romaji": "garasu",
+   "arti": "kaca",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s9",
+    "b3s10",
+    "b3s11",
+    "b2s10"
+   ],
+   "contoh": "ガラスを{拭|ふ}く",
+   "arti_contoh": "Mengelap kaca."
+  },
+  {
+   "id": "bc-885",
+   "kata": "マット",
+   "kana": "マット",
+   "romaji": "matto",
+   "arti": "keset; matras",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-886",
+   "kata": "カビ",
+   "kana": "カビ",
+   "romaji": "kabi",
+   "arti": "jamur",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s3",
+    "b2s18",
+    "b3s2"
+   ],
+   "contoh": "カビは{湿気|しっけ}で{増|ふ}える",
+   "arti_contoh": "Jamur bertambah karena kelembapan."
+  },
+  {
+   "id": "bc-887",
+   "kata": "ダニ",
+   "kana": "ダニ",
+   "romaji": "dani",
+   "arti": "tungau",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s3",
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-888",
+   "kata": "ウイルス",
+   "kana": "ウイルス",
+   "romaji": "uirusu",
+   "arti": "virus",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s3",
+    "b2s18"
+   ]
+  },
+  {
+   "id": "bc-889",
+   "kata": "サビ",
+   "kana": "サビ",
+   "romaji": "sabi",
+   "arti": "karat",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s2",
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-890",
+   "kata": "ビニル",
+   "kana": "ビニル",
+   "romaji": "biniru",
+   "arti": "vinil (vinyl)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1",
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-891",
+   "kata": "ビニール",
+   "kana": "ビニール",
+   "romaji": "biniiru",
+   "arti": "plastik (kantong plastik)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ],
+   "contoh": "ビニール{袋|ぶくろ}にゴミを{入|い}れる",
+   "arti_contoh": "Memasukkan sampah ke kantong plastik."
+  },
+  {
+   "id": "bc-892",
+   "kata": "リノリウム",
+   "kana": "リノリウム",
+   "romaji": "rinoriumu",
+   "arti": "linoleum (bahan lantai)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1",
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-893",
+   "kata": "フローリング",
+   "kana": "フローリング",
+   "romaji": "furooringu",
+   "arti": "lantai kayu (flooring)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1",
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-894",
+   "kata": "コンクリート",
+   "kana": "コンクリート",
+   "romaji": "konkuriito",
+   "arti": "beton",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-895",
+   "kata": "ゴム",
+   "kana": "ゴム",
+   "romaji": "gomu",
+   "arti": "karet",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-896",
+   "kata": "コルク",
+   "kana": "コルク",
+   "romaji": "koruku",
+   "arti": "gabus (cork)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-897",
+   "kata": "タイルカーペット",
+   "kana": "タイルカーペット",
+   "romaji": "tairukaapetto",
+   "arti": "karpet ubin (tile carpet)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-898",
+   "kata": "タイル",
+   "kana": "タイル",
+   "romaji": "tairu",
+   "arti": "ubin; keramik",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s4",
+    "b3s1"
+   ]
+  },
+  {
+   "id": "bc-899",
+   "kata": "パイル",
+   "kana": "パイル",
+   "romaji": "pairu",
+   "arti": "bulu karpet (pile)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s8",
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-900",
+   "kata": "ヒールマーク",
+   "kana": "ヒールマーク",
+   "romaji": "hiirumaaku",
+   "arti": "bekas gesekan tumit sepatu (heel mark)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-901",
+   "kata": "ステープル",
+   "kana": "ステープル",
+   "romaji": "suteepuru",
+   "arti": "staples (kawat jepret)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-902",
+   "kata": "クリップ",
+   "kana": "クリップ",
+   "romaji": "kurippu",
+   "arti": "klip",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-903",
+   "kata": "アルカリ",
+   "kana": "アルカリ",
+   "romaji": "arukari",
+   "arti": "alkali",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s3",
+    "b3s5"
+   ]
+  },
+  {
+   "id": "bc-904",
+   "kata": "アクリル",
+   "kana": "アクリル",
+   "romaji": "akuriru",
+   "arti": "akrilik",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ]
+  },
+  {
+   "id": "bc-905",
+   "kata": "ウレタン",
+   "kana": "ウレタン",
+   "romaji": "uretan",
+   "arti": "urethane (pelapis)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ]
+  },
+  {
+   "id": "bc-906",
+   "kata": "ガラスクリーナー",
+   "kana": "ガラスクリーナー",
+   "romaji": "garasukuriinaa",
+   "arti": "pembersih kaca",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s10"
+   ]
+  },
+  {
+   "id": "bc-907",
+   "kata": "トイレクリーナー",
+   "kana": "トイレクリーナー",
+   "romaji": "toirekuriinaa",
+   "arti": "pembersih toilet",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ]
+  },
+  {
+   "id": "bc-908",
+   "kata": "ハンドソープ",
+   "kana": "ハンドソープ",
+   "romaji": "handosoopu",
+   "arti": "sabun tangan",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s12"
+   ]
+  },
+  {
+   "id": "bc-909",
+   "kata": "トイレットペーパー",
+   "kana": "トイレットペーパー",
+   "romaji": "toirettopeepaa",
+   "arti": "kertas toilet",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s12",
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-910",
+   "kata": "トイレットペーパーホルダー",
+   "kana": "トイレットペーパーホルダー",
+   "romaji": "toirettopeepaahorudaa",
+   "arti": "tempat kertas toilet",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-911",
+   "kata": "スプレー",
+   "kana": "スプレー",
+   "romaji": "supuree",
+   "arti": "semprotan (spray)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s10"
+   ]
+  },
+  {
+   "id": "bc-912",
+   "kata": "スポンジ",
+   "kana": "スポンジ",
+   "romaji": "suponji",
+   "arti": "spons",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ]
+  },
+  {
+   "id": "bc-913",
+   "kata": "デッキブラシ",
+   "kana": "デッキブラシ",
+   "romaji": "dekkiburashi",
+   "arti": "sikat lantai bergagang (deck brush)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s2",
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-914",
+   "kata": "ワンタッチモップ",
+   "kana": "ワンタッチモップ",
+   "romaji": "wantacchimoppu",
+   "arti": "mop sekali tekan (one-touch mop)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-915",
+   "kata": "ハンディバキューム",
+   "kana": "ハンディバキューム",
+   "romaji": "handeぃbakyuumu",
+   "arti": "penyedot debu genggam (handy vacuum)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-916",
+   "kata": "ウエットバキューム",
+   "kana": "ウエットバキューム",
+   "romaji": "uettobakyuumu",
+   "arti": "penyedot basah (wet vacuum)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-917",
+   "kata": "エクストラクター",
+   "kana": "エクストラクター",
+   "romaji": "ekusutorakutaa",
+   "arti": "mesin ekstraksi karpet (extractor)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-918",
+   "kata": "ハンドパッド",
+   "kana": "ハンドパッド",
+   "romaji": "handopaddo",
+   "arti": "pad tangan (hand pad)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-919",
+   "kata": "スクレーパー",
+   "kana": "スクレーパー",
+   "romaji": "sukureepaa",
+   "arti": "kape; pengerok (scraper)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-920",
+   "kata": "プランジャー",
+   "kana": "プランジャー",
+   "romaji": "puranjaa",
+   "arti": "penyedot kloset (plunger)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-921",
+   "kata": "スクイジー",
+   "kana": "スクイジー",
+   "romaji": "sukuijii",
+   "arti": "squeegee (pengering kaca)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s9",
+    "b3s10"
+   ]
+  },
+  {
+   "id": "bc-922",
+   "kata": "フロアスクイジー",
+   "kana": "フロアスクイジー",
+   "romaji": "furoasukuijii",
+   "arti": "squeegee lantai",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12",
+    "b3s5"
+   ]
+  },
+  {
+   "id": "bc-923",
+   "kata": "カート",
+   "kana": "カート",
+   "romaji": "kaato",
+   "arti": "kereta dorong (cart)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s1",
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-924",
+   "kata": "コンセント",
+   "kana": "コンセント",
+   "romaji": "konsento",
+   "arti": "stop kontak",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s7",
+    "b3s5"
+   ],
+   "contoh": "コンセントにプラグを{差|さ}す",
+   "arti_contoh": "Memasukkan colokan ke stop kontak."
+  },
+  {
+   "id": "bc-925",
+   "kata": "スイッチ",
+   "kana": "スイッチ",
+   "romaji": "suicchi",
+   "arti": "saklar",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-926",
+   "kata": "スイッチパネル",
+   "kana": "スイッチパネル",
+   "romaji": "suicchipaneru",
+   "arti": "panel saklar",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-927",
+   "kata": "センサー",
+   "kana": "センサー",
+   "romaji": "sensaa",
+   "arti": "sensor",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s14"
+   ]
+  },
+  {
+   "id": "bc-928",
+   "kata": "レバー",
+   "kana": "レバー",
+   "romaji": "rebaa",
+   "arti": "tuas (lever)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15",
+    "b3s5",
+    "b3s6"
+   ]
+  },
+  {
+   "id": "bc-929",
+   "kata": "フットペダル",
+   "kana": "フットペダル",
+   "romaji": "futtopedaru",
+   "arti": "pedal kaki",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s6"
+   ]
+  },
+  {
+   "id": "bc-930",
+   "kata": "ストッパーボタン",
+   "kana": "ストッパーボタン",
+   "romaji": "sutoppaabotan",
+   "arti": "tombol pengunci (stopper button)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s5"
+   ]
+  },
+  {
+   "id": "bc-931",
+   "kata": "タイヤ",
+   "kana": "タイヤ",
+   "romaji": "taiya",
+   "arti": "ban; roda",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s5",
+    "b3s6",
+    "b3s8"
+   ]
+  },
+  {
+   "id": "bc-932",
+   "kata": "グリップ",
+   "kana": "グリップ",
+   "romaji": "gurippu",
+   "arti": "pegangan (grip)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s10"
+   ]
+  },
+  {
+   "id": "bc-933",
+   "kata": "フレーム",
+   "kana": "フレーム",
+   "romaji": "fureemu",
+   "arti": "bingkai (frame)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s10",
+    "b3s9",
+    "b3s11"
+   ]
+  },
+  {
+   "id": "bc-934",
+   "kata": "ヘッド",
+   "kana": "ヘッド",
+   "romaji": "heddo",
+   "arti": "kepala (alat)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s5",
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-935",
+   "kata": "ポッド",
+   "kana": "ポッド",
+   "romaji": "poddo",
+   "arti": "pod (wadah penampung debu)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s7",
+    "b2s8"
+   ]
+  },
+  {
+   "id": "bc-936",
+   "kata": "ファン",
+   "kana": "ファン",
+   "romaji": "fuぁn",
+   "arti": "kipas",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s8"
+   ]
+  },
+  {
+   "id": "bc-937",
+   "kata": "ケース",
+   "kana": "ケース",
+   "romaji": "keesu",
+   "arti": "kotak; wadah",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s11",
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-938",
+   "kata": "タンク",
+   "kana": "タンク",
+   "romaji": "tanku",
+   "arti": "tangki",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15",
+    "b3s8"
+   ]
+  },
+  {
+   "id": "bc-939",
+   "kata": "トラップ",
+   "kana": "トラップ",
+   "romaji": "torappu",
+   "arti": "perangkap bau (trap)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s14",
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-940",
+   "kata": "シャワー",
+   "kana": "シャワー",
+   "romaji": "shawaa",
+   "arti": "pancuran (shower)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-941",
+   "kata": "ロープ",
+   "kana": "ロープ",
+   "romaji": "roopu",
+   "arti": "tali",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s15"
+   ]
+  },
+  {
+   "id": "bc-942",
+   "kata": "マスク",
+   "kana": "マスク",
+   "romaji": "masuku",
+   "arti": "masker",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s18"
+   ],
+   "contoh": "マスクを{着用|ちゃくよう}する",
+   "arti_contoh": "Memakai masker."
+  },
+  {
+   "id": "bc-943",
+   "kata": "キャップ",
+   "kana": "キャップ",
+   "romaji": "kyappu",
+   "arti": "tutup botol; topi",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s18"
+   ]
+  },
+  {
+   "id": "bc-944",
+   "kata": "ペットボトル",
+   "kana": "ペットボトル",
+   "romaji": "pettobotoru",
+   "arti": "botol PET",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ]
+  },
+  {
+   "id": "bc-945",
+   "kata": "ビン",
+   "kana": "ビン",
+   "romaji": "bin",
+   "arti": "botol kaca",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ]
+  },
+  {
+   "id": "bc-946",
+   "kata": "マニュアル",
+   "kana": "マニュアル",
+   "romaji": "manyuaru",
+   "arti": "manual; buku panduan",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ],
+   "contoh": "マニュアルを{守|まも}る",
+   "arti_contoh": "Menaati manual."
+  },
+  {
+   "id": "bc-947",
+   "kata": "ガムテープ",
+   "kana": "ガムテープ",
+   "romaji": "gamuteepu",
+   "arti": "lakban",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-948",
+   "kata": "テープ",
+   "kana": "テープ",
+   "romaji": "teepu",
+   "arti": "pita; selotip",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-949",
+   "kata": "トング",
+   "kana": "トング",
+   "romaji": "tongu",
+   "arti": "penjepit sampah (tongs)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s19"
+   ]
+  },
+  {
+   "id": "bc-950",
+   "kata": "ドライバー",
+   "kana": "ドライバー",
+   "romaji": "doraibaa",
+   "arti": "obeng",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s8"
+   ]
+  },
+  {
+   "id": "bc-951",
+   "kata": "マイナスドライバー",
+   "kana": "マイナスドライバー",
+   "romaji": "mainasudoraibaa",
+   "arti": "obeng minus",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s8"
+   ]
+  },
+  {
+   "id": "bc-952",
+   "kata": "エントランス",
+   "kana": "エントランス",
+   "romaji": "entoransu",
+   "arti": "pintu masuk (entrance)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s1",
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-953",
+   "kata": "エレベーター",
+   "kana": "エレベーター",
+   "romaji": "erebeetaa",
+   "arti": "lift (elevator)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ]
+  },
+  {
+   "id": "bc-954",
+   "kata": "コーナー",
+   "kana": "コーナー",
+   "romaji": "koonaa",
+   "arti": "sudut (corner)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s5",
+    "b2s6",
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-955",
+   "kata": "テーブル",
+   "kana": "テーブル",
+   "romaji": "teeburu",
+   "arti": "meja",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s9"
+   ]
+  },
+  {
+   "id": "bc-956",
+   "kata": "クロス",
+   "kana": "クロス",
+   "romaji": "kurosu",
+   "arti": "kain lap (cloth)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s5",
+    "b2s11",
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-957",
+   "kata": "オフィス",
+   "kana": "オフィス",
+   "romaji": "ofuぃsu",
+   "arti": "kantor (office)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s17",
+    "b3s2"
+   ]
+  },
+  {
+   "id": "bc-958",
+   "kata": "スペース",
+   "kana": "スペース",
+   "romaji": "supeesu",
+   "arti": "ruang; tempat (space)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s17",
+    "b3s7"
+   ]
+  },
+  {
+   "id": "bc-959",
+   "kata": "ルール",
+   "kana": "ルール",
+   "romaji": "ruuru",
+   "arti": "aturan (rule)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b1s6"
+   ],
+   "contoh": "ルールを{守|まも}る",
+   "arti_contoh": "Menaati aturan."
+  },
+  {
+   "id": "bc-960",
+   "kata": "マナー",
+   "kana": "マナー",
+   "romaji": "manaa",
+   "arti": "tata krama (manner)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "マナーを{守|まも}る",
+   "arti_contoh": "Menjaga tata krama."
+  },
+  {
+   "id": "bc-961",
+   "kata": "プライベート",
+   "kana": "プライベート",
+   "romaji": "puraibeeto",
+   "arti": "urusan pribadi (private)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-962",
+   "kata": "スケジュール",
+   "kana": "スケジュール",
+   "romaji": "sukejuuru",
+   "arti": "jadwal",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "スケジュールを{確認|かくにん}する",
+   "arti_contoh": "Memeriksa jadwal."
+  },
+  {
+   "id": "bc-963",
+   "kata": "チームワーク",
+   "kana": "チームワーク",
+   "romaji": "chiimuwaaku",
+   "arti": "kerja sama tim",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "チームワークが{大切|たいせつ}です",
+   "arti_contoh": "Kerja sama tim itu penting."
+  },
+  {
+   "id": "bc-964",
+   "kata": "スムーズ",
+   "kana": "スムーズ",
+   "romaji": "sumuuzu",
+   "arti": "lancar (smooth)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-965",
+   "kata": "メモ",
+   "kana": "メモ",
+   "romaji": "memo",
+   "arti": "catatan (memo)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "メモを{取|と}る",
+   "arti_contoh": "Mencatat."
+  },
+  {
+   "id": "bc-966",
+   "kata": "コピー",
+   "kana": "コピー",
+   "romaji": "kopii",
+   "arti": "salinan; fotokopi",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-967",
+   "kata": "リセット",
+   "kana": "リセット",
+   "romaji": "risetto",
+   "arti": "reset; mengatur ulang",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "bc-968",
+   "kata": "ピアス",
+   "kana": "ピアス",
+   "romaji": "piasu",
+   "arti": "anting tindik",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ]
+  },
+  {
+   "id": "bc-969",
+   "kata": "アクセサリー",
+   "kana": "アクセサリー",
+   "romaji": "akusesarii",
+   "arti": "aksesoris",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "アクセサリーは{外|はず}す",
+   "arti_contoh": "Lepaskan aksesoris."
+  },
+  {
+   "id": "bc-970",
+   "kata": "プロ",
+   "kana": "プロ",
+   "romaji": "puro",
+   "arti": "profesional (pro)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s4",
+    "b1s8"
+   ]
+  },
+  {
+   "id": "bc-971",
+   "kata": "ポイント",
+   "kana": "ポイント",
+   "romaji": "pointo",
+   "arti": "poin; titik penting",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s13"
+   ]
+  },
+  {
+   "id": "bc-972",
+   "kata": "スタート",
+   "kana": "スタート",
+   "romaji": "sutaato",
+   "arti": "mulai (start)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ]
+  },
+  {
+   "id": "bc-973",
+   "kata": "メートル",
+   "kana": "メートル",
+   "romaji": "meetoru",
+   "arti": "meter",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ]
+  },
+  {
+   "id": "bc-974",
+   "kata": "ウエット",
+   "kana": "ウエット",
+   "romaji": "uetto",
+   "arti": "basah (wet)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-975",
+   "kata": "メンテナンス",
+   "kana": "メンテナンス",
+   "romaji": "mentenansu",
+   "arti": "perawatan (maintenance)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s7"
+   ]
+  },
+  {
+   "id": "bc-976",
+   "kata": "クッション",
+   "kana": "クッション",
+   "romaji": "kusshon",
+   "arti": "bantalan (cushion)",
+   "cat": "Katakana",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ]
+  },
+  {
+   "id": "bc-977",
+   "kata": "フラット",
+   "kana": "フラット",
+   "romaji": "furatto",
+   "arti": "datar (flat)",
+   "cat": "Katakana",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ]
+  },
+  {
+   "id": "bc-978",
+   "kata": "ビザ",
+   "kana": "ビザ",
+   "romaji": "biza",
+   "arti": "visa",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{特定技能|とくていぎのう}のビザを{取得|しゅとく}する",
+   "arti_contoh": "Memperoleh visa Tokutei Ginou."
+  },
+  {
+   "id": "bc-979",
+   "kata": "マンガ",
+   "kana": "マンガ",
+   "romaji": "manga",
+   "arti": "manga (komik)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ]
+  },
+  {
+   "id": "bc-980",
+   "kata": "アニメ",
+   "kana": "アニメ",
+   "romaji": "anime",
+   "arti": "anime",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ]
+  },
+  {
+   "id": "bc-981",
+   "kata": "ホームページ",
+   "kana": "ホームページ",
+   "romaji": "hoomupeeji",
+   "arti": "situs web (homepage)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ]
+  },
+  {
+   "id": "bc-982",
+   "kata": "メール",
+   "kana": "メール",
+   "romaji": "meeru",
+   "arti": "email",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ]
+  },
+  {
+   "id": "bc-983",
+   "kata": "サポートセンター",
+   "kana": "サポートセンター",
+   "romaji": "sapootosentaa",
+   "arti": "pusat dukungan (support center)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ]
+  },
+  {
+   "id": "bc-984",
+   "kata": "レベル",
+   "kana": "レベル",
+   "romaji": "reberu",
+   "arti": "tingkat (level)",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ]
+  },
+  {
+   "id": "bc-985",
+   "kata": "テキスト",
+   "kana": "テキスト",
+   "romaji": "tekisuto",
+   "arti": "buku teks",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ]
+  },
+  {
+   "id": "bc-986",
+   "kata": "ページ",
+   "kana": "ページ",
+   "romaji": "peeji",
+   "arti": "halaman",
+   "cat": "Katakana",
+   "bab": "bab1",
+   "src": [
+    "b1s9"
+   ]
+  },
+  {
+   "id": "bc-987",
+   "kata": "ごみ",
+   "kana": "ごみ",
+   "romaji": "gomi",
+   "arti": "sampah (hiragana)",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ],
+   "contoh": "ごみを{分別|ぶんべつ}する",
+   "arti_contoh": "Memilah sampah."
+  },
+  {
+   "id": "bc-988",
+   "kata": "ほこり",
+   "kana": "ほこり",
+   "romaji": "hokori",
+   "arti": "debu",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s3",
+    "b2s4"
+   ],
+   "contoh": "ほこりを{取|と}る",
+   "arti_contoh": "Menghilangkan debu."
+  },
+  {
+   "id": "bc-989",
+   "kata": "ぞうきん",
+   "kana": "ぞうきん",
+   "romaji": "zoukin",
+   "arti": "lap kain",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "ぞうきんをしぼる",
+   "arti_contoh": "Memeras kain lap."
+  },
+  {
+   "id": "bc-990",
+   "kata": "ほうき",
+   "kana": "ほうき",
+   "romaji": "houki",
+   "arti": "sapu",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ],
+   "contoh": "ほうきで{掃|は}く",
+   "arti_contoh": "Menyapu dengan sapu."
+  },
+  {
+   "id": "bc-991",
+   "kata": "ちりとり",
+   "kana": "ちりとり",
+   "romaji": "chiritori",
+   "arti": "pengki",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ]
+  },
+  {
+   "id": "bc-992",
+   "kata": "こんにちは",
+   "kana": "こんにちは",
+   "romaji": "konnichiha",
+   "arti": "selamat siang",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-993",
+   "kata": "ありがとうございます",
+   "kana": "ありがとうございます",
+   "romaji": "arigatougozaimasu",
+   "arti": "terima kasih",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-994",
+   "kata": "すみません",
+   "kana": "すみません",
+   "romaji": "sumimasen",
+   "arti": "permisi; maaf",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-995",
+   "kata": "ごめんなさい",
+   "kana": "ごめんなさい",
+   "romaji": "gomennasai",
+   "arti": "maaf (akrab)",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-996",
+   "kata": "おねがいします",
+   "kana": "おねがいします",
+   "romaji": "onegaishimasu",
+   "arti": "mohon bantuannya",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "おねがいします",
+   "arti_contoh": "Mohon bantuannya."
+  },
+  {
+   "id": "bc-997",
+   "kata": "はい",
+   "kana": "はい",
+   "romaji": "hai",
+   "arti": "ya",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-998",
+   "kata": "いいえ",
+   "kana": "いいえ",
+   "romaji": "iie",
+   "arti": "tidak",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-999",
+   "kata": "わかりました",
+   "kana": "わかりました",
+   "romaji": "wakarimashita",
+   "arti": "saya mengerti",
+   "cat": "Hiragana (tanpa kanji)",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
   }
  ]
 }

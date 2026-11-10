@@ -124,7 +124,8 @@
    "arti": "Sikat Dek",
    "fungsi": "Sikat bergagang panjang untuk menggosok lantai.",
    "img": "assets/ssw/building-cleaning/alat/11.webp",
-   "p": 81
+   "p": 81,
+   "vid": "bc-913"
   },
   {
    "id": "alat-12",
@@ -135,7 +136,8 @@
    "arti": "Squeegee Lantai (di buku ID tertulis: Penanda “Lantai Licin”)",
    "fungsi": "Karet pendorong untuk mengumpulkan dan membuang air dari lantai.",
    "img": "assets/ssw/building-cleaning/alat/12.webp",
-   "p": 81
+   "p": 81,
+   "vid": "bc-922"
   },
   {
    "id": "alat-13",
@@ -272,7 +274,8 @@
    "arti": "Penyedot Debu Tipe Handheld",
    "fungsi": "Penyedot debu genggam untuk tempat sempit dan sudut.",
    "img": "assets/ssw/building-cleaning/alat/24.webp",
-   "p": 82
+   "p": 82,
+   "vid": "bc-915"
   },
   {
    "id": "alat-25",
@@ -330,7 +333,8 @@
    "arti": "Extractor",
    "fungsi": "Mesin pencuci karpet yang menyemprot cairan dan menyedot kembali.",
    "img": "assets/ssw/building-cleaning/alat/29.webp",
-   "p": 82
+   "p": 82,
+   "vid": "bc-917"
   },
   {
    "id": "alat-30",
@@ -365,7 +369,8 @@
    "arti": "Hand Pad",
    "fungsi": "Bantalan gosok yang dipegang tangan untuk menggosok kotoran.",
    "img": "assets/ssw/building-cleaning/alat/32.webp",
-   "p": 82
+   "p": 82,
+   "vid": "bc-918"
   },
   {
    "id": "alat-33",
@@ -399,7 +404,8 @@
    "arti": "Scraper",
    "fungsi": "Alat pengerok untuk mengangkat kotoran yang menempel.",
    "img": "assets/ssw/building-cleaning/alat/35.webp",
-   "p": 82
+   "p": 82,
+   "vid": "bc-919"
   },
   {
    "id": "alat-36",
@@ -421,7 +427,8 @@
    "arti": "Alat Sedot WC",
    "fungsi": "Alat pelontak untuk melancarkan saluran yang tersumbat.",
    "img": "assets/ssw/building-cleaning/alat/37.webp",
-   "p": 82
+   "p": 82,
+   "vid": "bc-920"
   },
   {
    "id": "alat-38",

@@ -770,11 +770,216 @@
     ]
    },
    {
+    "id": "b1s7-q",
+    "sub": "b1s7",
+    "title": {
+     "id": "Subbab 1.1 · Kisah Mai: Hari Pertama",
+     "jp": "1.1 マイさんの初出社"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar (○) atau salah (×)? Mai mendapat visa TOKUTEI GINOU setelah lulus ujian penilaian.",
+       "jp": "○か×か。マイさんは試験に合格して特定技能ビザを{取|と}得しました。"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× 間{違|ちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Alurnya: ujian → lulus → visa TOKUTEI GINOU.",
+       "jp": "試験→合格→特定技能ビザの{順|じゅん}です。"
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar (○) atau salah (×)? WAX hanya untuk membuat lantai terlihat mengkilap, tidak melindungi bangunan.",
+       "jp": "○か×か。ワックスは{見|み}た{目|め}だけで、{建材|けんざい}を{守|まも}りません。"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× 間{違|ちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "WAX adalah tindakan pencegahan yang memperpanjang umur bangunan.",
+       "jp": "ワックスは{建材|けんざい}の{維持|いじ}に役立ち、ビルを{長持|ながも}ちさせます。"
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Mana yang BUKAN makna pekerjaan Cleaning Service dalam komik pembuka?",
+       "jp": "マンガにある{仕事|しごと}の{意味|いみ}でないものはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Menghilangkan sampah dan kotoran",
+        "jp": "ごみや{汚|よご}れを{取|と}り{除|のぞ}く"
+       },
+       {
+        "id": "Menjaga kebersihan",
+        "jp": "キレイの{維持|いじ}"
+       },
+       {
+        "id": "Melindungi orang dari hama dan penyakit",
+        "jp": "害虫や{病気|びょうき}から人を{守|まも}る"
+       },
+       {
+        "id": "Menjual peralatan pembersih",
+        "jp": "{掃除|そうじ}{道具|どうぐ}を売る"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Cleaning Service: hilangkan kotoran, jaga kebersihan, jaga bahan bangunan, jaga keamanan.",
+       "jp": "{汚|よご}れ{除去|じょきょ}・キレイの{維持|いじ}・{建材|けんざい}の{維持|いじ}・{安全|あんぜん}性の{維持|いじ}です。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s8-q",
+    "sub": "b1s8",
+    "title": {
+     "id": "Subbab 1.2 · JBMA, ASCF, Kualifikasi",
+     "jp": "1.2 JBMAとASCF"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar (○) atau salah (×)? JBMA menyelenggarakan ujian TOKUTEI GINOU bidang Building Cleaning.",
+       "jp": "○か×か。JBMAはビルクリーニングの特定技能試験を実施しています。"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× 間{違|ちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "JBMA berdiri 1996 dan menyelenggarakan ujian.",
+       "jp": "JBMAは1996{年|ねん}に設立され、試験を実施します。"
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "ASCF berperan sebagai…",
+       "jp": "ASCFの{役割|やくわり}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Mendukung perekrutan dan pelatihan tenaga kerja asing",
+        "jp": "外国人{材|ざい}の採用・{教育|きょういく}を支援する"
+       },
+       {
+        "id": "Menjual bahan pembersih",
+        "jp": "{洗剤|せんざい}を売る"
+       },
+       {
+        "id": "Membangun gedung",
+        "jp": "ビルを{建|けん}てる"
+       },
+       {
+        "id": "Mengeluarkan visa",
+        "jp": "ビザを発行する"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ASCF mendukung perekrutan & pelatihan tenaga asing atas permintaan JBMA.",
+       "jp": "ASCFはJBMAの依頼で採用と{教育|きょういく}を支援します。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s9-q",
+    "sub": "b1s9",
+    "title": {
+     "id": "Subbab 1.3 · Daftar Isi",
+     "jp": "1.3 目次"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pembersihan lantai dengan polisher dan kaca dibahas di bab…",
+       "jp": "ポリッシャーと窓ガラスの{清掃|せいそう}は第{何|なん}章ですか。"
+      },
+      "opts": [
+       {
+        "id": "BAB 1",
+        "jp": "第1章"
+       },
+       {
+        "id": "BAB 2",
+        "jp": "第2章"
+       },
+       {
+        "id": "BAB 3",
+        "jp": "第3章"
+       },
+       {
+        "id": "Tidak dibahas",
+        "jp": "ない"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "BAB 3 = pembersihan berkala (lantai, polisher, kaca, perlengkapan).",
+       "jp": "第3章は{定期清掃|ていきせいそう}（{床|ゆか}・ポリッシャー・ガラス・{資器材|しざい}）です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar (○) atau salah (×)? BAB 2 membahas pembersihan harian termasuk toilet.",
+       "jp": "○か×か。第2章は、トイレを含む{日常清掃|にちじょうせいそう}です。"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× 間{違|ちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "BAB 2 = Pembersihan Harian.",
+       "jp": "第2章は{日常清掃|にちじょうせいそう}です。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
     "id": "b1s1-q",
     "sub": "b1s1",
     "title": {
-     "id": "Subbab 1.1 · Mulai Bekerja, Istirahat, Selesai",
-     "jp": "1.1 出勤・休憩・退勤"
+     "id": "Subbab 1.4 · Mulai Bekerja, Istirahat, Selesai",
+     "jp": "1.4 出勤・休憩・退勤"
     },
     "items": [
      {
@@ -856,8 +1061,8 @@
     "id": "b1s2-q",
     "sub": "b1s2",
     "title": {
-     "id": "Subbab 1.2 · Tata Tertib (Tata Krama)",
-     "jp": "1.2 身だしなみ"
+     "id": "Subbab 1.5 · Tata Tertib (Tata Krama)",
+     "jp": "1.5 身だしなみ"
     },
     "items": [
      {
@@ -939,8 +1144,8 @@
     "id": "b1s3-q",
     "sub": "b1s3",
     "title": {
-     "id": "Subbab 1.3 · Pembersihan Harian dan Berkala",
-     "jp": "1.3 日常清掃と定期清掃"
+     "id": "Subbab 1.6 · Pembersihan Harian dan Berkala",
+     "jp": "1.6 日常清掃と定期清掃"
     },
     "items": [
      {
@@ -1022,8 +1227,8 @@
     "id": "b1s4-q",
     "sub": "b1s4",
     "title": {
-     "id": "Subbab 1.4 · 5 Prinsip Cleaning Service",
-     "jp": "1.4 清掃の5原則"
+     "id": "Subbab 1.7 · 5 Prinsip Cleaning Service",
+     "jp": "1.7 清掃の5原則"
     },
     "items": [
      {
@@ -1120,8 +1325,8 @@
     "id": "b1s5-q",
     "sub": "b1s5",
     "title": {
-     "id": "Subbab 1.5 · Istilah Salam Sapa",
-     "jp": "1.5 あいさつ用語"
+     "id": "Subbab 1.8 · Istilah Salam Sapa",
+     "jp": "1.8 あいさつ用語"
     },
     "items": [
      {
@@ -1203,8 +1408,8 @@
     "id": "b1s6-q",
     "sub": "b1s6",
     "title": {
-     "id": "Subbab 1.6 · Peraturan di Tempat Kerja",
-     "jp": "1.6 職場のルール"
+     "id": "Subbab 1.9 · Peraturan di Tempat Kerja",
+     "jp": "1.9 職場のルール"
     },
     "items": [
      {
@@ -6652,7 +6857,7 @@
      "a": 0,
      "exp": {
       "id": "Papan Tanda (作業標示板（フロアサイン）) — Dipasang di lokasi kerja untuk memperingatkan orang sekitar (mis. lantai basah/sedang dibersihkan).",
-      "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）（さぎょうひょうじばん）"
+      "jp": "{作業標示板|さぎょうひょうじばん}（フロアサイン）"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/01.webp"
@@ -6684,7 +6889,7 @@
      "a": 0,
      "exp": {
       "id": "Sapu Ruangan (自在ぼうき) — Sapu bergagang panjang untuk menyapu lantai dalam ruangan.",
-      "jp": "{自在|じざい}ぼうき（じざいぼうき）"
+      "jp": "{自在|じざい}ぼうき"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/02.webp"
@@ -6716,7 +6921,7 @@
      "a": 1,
      "exp": {
       "id": "Sapu Ijuk (シダぼうき) — Sapu dari serat alami untuk menyapu debu dan sampah.",
-      "jp": "シダぼうき（シダぼうき）"
+      "jp": "シダぼうき"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/03.webp"
@@ -6748,7 +6953,7 @@
      "a": 0,
      "exp": {
       "id": "Pengki (文化ちり取り) — Pengki bergagang untuk menampung sampah hasil sapuan tanpa membungkuk.",
-      "jp": "{文化ちり取|ぶんかちりと}り（ぶんかちりとり）"
+      "jp": "{文化ちり取|ぶんかちりと}り"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/04.webp"
@@ -6780,7 +6985,7 @@
      "a": 2,
      "exp": {
       "id": "Dust Cloth (ダストクロス) — Kain khusus penangkap debu.",
-      "jp": "ダストクロス（ダストクロス）"
+      "jp": "ダストクロス"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/05.webp"
@@ -6812,7 +7017,7 @@
      "a": 1,
      "exp": {
       "id": "Dust Cloth Tipe Pel (ダストクロス型モップ) — Pel yang memakai dust cloth untuk menyapu debu di lantai.",
-      "jp": "ダストクロス型モップ（ダストクロスがたモップ）"
+      "jp": "ダストクロス型モップ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/06.webp"
@@ -6844,7 +7049,7 @@
      "a": 2,
      "exp": {
       "id": "Pel Basah (湿式モップ（ワンタッチモップ）) — Pel basah untuk mengepel lantai.",
-      "jp": "{湿式|しっしき}モップ（ワンタッチモップ）（しっしきモップ）"
+      "jp": "{湿式|しっしき}モップ（ワンタッチモップ）"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/07.webp"
@@ -6876,7 +7081,7 @@
      "a": 1,
      "exp": {
       "id": "Pel Bentuk T (T字型モップ) — Pel berbentuk T untuk mengepel lantai.",
-      "jp": "T{字型|じがた}モップ（ティーじがたモップ）"
+      "jp": "T{字型|じがた}モップ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/08.webp"
@@ -6908,7 +7113,7 @@
      "a": 3,
      "exp": {
       "id": "Pel Kering (乾式モップ) — Pel kering untuk menyapu debu dan kotoran ringan di lantai.",
-      "jp": "{乾式|かんしき}モップ（かんしきモップ）"
+      "jp": "{乾式|かんしき}モップ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/09.webp"
@@ -6940,7 +7145,7 @@
      "a": 0,
      "exp": {
       "id": "Pel Bentuk Datar (フラット型モップ) — Pel berbentuk datar (flat) untuk mengepel/menyapu lantai dengan rata.",
-      "jp": "フラット型モップ（フラットがたモップ）"
+      "jp": "フラット型モップ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/10.webp"
@@ -6982,7 +7187,7 @@
      "a": 1,
      "exp": {
       "id": "Sikat Dek (デッキブラシ) — Sikat bergagang panjang untuk menggosok lantai.",
-      "jp": "デッキブラシ（デッキブラシ）"
+      "jp": "デッキブラシ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/11.webp"
@@ -7014,7 +7219,7 @@
      "a": 1,
      "exp": {
       "id": "Squeegee Lantai (フロアスクイジー) — Karet pendorong untuk mengumpulkan dan membuang air dari lantai.",
-      "jp": "フロアスクイジー（フロアスクイジー）"
+      "jp": "フロアスクイジー"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/12.webp"
@@ -7046,7 +7251,7 @@
      "a": 1,
      "exp": {
       "id": "Pengki untuk Air (汚水取り) — Wadah penampung untuk mengambil air kotor.",
-      "jp": "{汚水取|おすいと}り（おすいとり）"
+      "jp": "{汚水取|おすいと}り"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/13.webp"
@@ -7078,7 +7283,7 @@
      "a": 0,
      "exp": {
       "id": "Window Washer (シャンバー) — Alat berbulu/busa untuk membasahi dan menggosok kaca.",
-      "jp": "シャンバー（シャンバー）"
+      "jp": "シャンバー"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/14.webp"
@@ -7110,7 +7315,7 @@
      "a": 1,
      "exp": {
       "id": "Window Cleaner (ウインドスクイジー) — Karet pembersih kaca untuk menyapu air dari permukaan kaca.",
-      "jp": "ウインドスクイジー（ウインドスクイジー）"
+      "jp": "ウインドスクイジー"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/15.webp"
@@ -7142,7 +7347,7 @@
      "a": 3,
      "exp": {
       "id": "Lap (タオル) — Kain lap untuk mengelap permukaan.",
-      "jp": "タオル（タオル）"
+      "jp": "タオル"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/16.webp"
@@ -7174,7 +7379,7 @@
      "a": 3,
      "exp": {
       "id": "Lap Serat Ultrafine (超極細繊維クロス) — Kain serat sangat halus untuk membersihkan kotoran dengan baik.",
-      "jp": "{超極細繊維|ちょうごくさいせんい}クロス（ちょうごくさいせんいクロス）"
+      "jp": "{超極細繊維|ちょうごくさいせんい}クロス"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/17.webp"
@@ -7206,7 +7411,7 @@
      "a": 2,
      "exp": {
       "id": "Sikat Rambut (毛かき) — Alat untuk mengambil rambut/kotoran yang tersangkut di sikat atau mesin.",
-      "jp": "{毛|け}かき（けかき）"
+      "jp": "{毛|け}かき"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/18.webp"
@@ -7238,7 +7443,7 @@
      "a": 3,
      "exp": {
       "id": "Ember (バケツ) — Wadah air atau larutan pembersih.",
-      "jp": "バケツ（バケツ）"
+      "jp": "バケツ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/19.webp"
@@ -7270,7 +7475,7 @@
      "a": 3,
      "exp": {
       "id": "Alat Pemeras Kain Pel (モップ絞り器) — Alat untuk memeras kain pel.",
-      "jp": "モップ{絞|しぼ}り器（モップしぼりき）"
+      "jp": "モップ{絞|しぼ}り器"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/20.webp"
@@ -7312,7 +7517,7 @@
      "a": 0,
      "exp": {
       "id": "Perangkat Pencegah Listrik Bocor atau Arus Pendek (漏電・過電流防止装置) — Alat pengaman yang memutus listrik bila terjadi kebocoran arus atau arus berlebih.",
-      "jp": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}（ろうでん・かでんりゅうぼうしそうち）"
+      "jp": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/21.webp"
@@ -7344,7 +7549,7 @@
      "a": 0,
      "exp": {
       "id": "Penyedot Debu (真空掃除機（ポッド型）) — Penyedot debu bentuk tabung untuk menyedot debu di lantai.",
-      "jp": "{真空掃除機|しんくうそうじき}（ポッド型）（しんくうそうじき（ポッドがた））"
+      "jp": "{真空掃除機|しんくうそうじき}（ポッド型）"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/22.webp"
@@ -7376,7 +7581,7 @@
      "a": 1,
      "exp": {
       "id": "Penyedot Debu (真空掃除機（アップライト型）) — Penyedot debu tegak, cocok untuk karpet.",
-      "jp": "{真空掃除機|しんくうそうじき}（アップライト型）（しんくうそうじき（アップライトがた））"
+      "jp": "{真空掃除機|しんくうそうじき}（アップライト型）"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/23.webp"
@@ -7408,7 +7613,7 @@
      "a": 1,
      "exp": {
       "id": "Penyedot Debu Tipe Handheld (ハンディバキューム) — Penyedot debu genggam untuk tempat sempit dan sudut.",
-      "jp": "ハンディバキューム（ハンディバキューム）"
+      "jp": "ハンディバキューム"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/24.webp"
@@ -7440,7 +7645,7 @@
      "a": 0,
      "exp": {
       "id": "Penyedot Debu Tipe Wet (ウェットバキューム) — Penyedot yang dapat menyedot air dan kotoran basah.",
-      "jp": "ウェットバキューム（ウェットバキューム）"
+      "jp": "ウェットバキューム"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/25.webp"
@@ -7472,7 +7677,7 @@
      "a": 1,
      "exp": {
       "id": "Floor Pad (フロアパッド) — Bantalan yang dipasang pada polisher untuk menggosok atau memoles lantai.",
-      "jp": "フロアパッド（フロアパッド）"
+      "jp": "フロアパッド"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/26.webp"
@@ -7504,7 +7709,7 @@
      "a": 3,
      "exp": {
       "id": "Polisher (ポリッシャー) — Mesin putar untuk menggosok dan memoles lantai.",
-      "jp": "ポリッシャー（ポリッシャー）"
+      "jp": "ポリッシャー"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/27.webp"
@@ -7536,7 +7741,7 @@
      "a": 3,
      "exp": {
       "id": "Pembersih Lantai Otomatis (自動床洗浄機) — Mesin yang menyikat dan menyedot air kotor lantai secara otomatis.",
-      "jp": "{自動床洗浄機|じどうゆかせんじょうき}（じどうゆかせんじょうき）"
+      "jp": "{自動床洗浄機|じどうゆかせんじょうき}"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/28.webp"
@@ -7568,7 +7773,7 @@
      "a": 1,
      "exp": {
       "id": "Extractor (エクストラクター) — Mesin pencuci karpet yang menyemprot cairan dan menyedot kembali.",
-      "jp": "エクストラクター（エクストラクター）"
+      "jp": "エクストラクター"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/29.webp"
@@ -7600,7 +7805,7 @@
      "a": 0,
      "exp": {
       "id": "Mesin Pembersih Bertekanan Tinggi (高圧洗浄機) — Mesin penyemprot air bertekanan tinggi untuk kotoran membandel.",
-      "jp": "{高圧洗浄機|こうあつせんじょうき}（こうあつせんじょうき）"
+      "jp": "{高圧洗浄機|こうあつせんじょうき}"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/30.webp"
@@ -7642,7 +7847,7 @@
      "a": 0,
      "exp": {
       "id": "Kipas Pengering (送風機) — Kipas untuk mengeringkan lantai atau karpet yang basah.",
-      "jp": "{送風機|そうふうき}（そうふうき）"
+      "jp": "{送風機|そうふうき}"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/31.webp"
@@ -7674,7 +7879,7 @@
      "a": 2,
      "exp": {
       "id": "Hand Pad (ハンドパッド) — Bantalan gosok yang dipegang tangan untuk menggosok kotoran.",
-      "jp": "ハンドパッド（ハンドパッド）"
+      "jp": "ハンドパッド"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/32.webp"
@@ -7706,7 +7911,7 @@
      "a": 2,
      "exp": {
       "id": "Pembersih Debu Elektrik (静電気ほこり取り) — Alat penarik debu dengan listrik statis untuk tempat tinggi/sempit.",
-      "jp": "{静電気|せいでんき}ほこり{取|と}り（せいでんきほこりとり）"
+      "jp": "{静電気|せいでんき}ほこり{取|と}り"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/33.webp"
@@ -7738,7 +7943,7 @@
      "a": 0,
      "exp": {
       "id": "Sarung Tangan Pelindung (保護手袋) — Melindungi tangan dari pembersih dan kotoran.",
-      "jp": "{保護手袋|ほごてぶくろ}（ほごてぶくろ）"
+      "jp": "{保護手袋|ほごてぶくろ}"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/34.webp"
@@ -7770,7 +7975,7 @@
      "a": 3,
      "exp": {
       "id": "Scraper (スクレーパー) — Alat pengerok untuk mengangkat kotoran yang menempel.",
-      "jp": "スクレーパー（スクレーパー）"
+      "jp": "スクレーパー"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/35.webp"
@@ -7802,7 +8007,7 @@
      "a": 0,
      "exp": {
       "id": "Gelas Pengukur (計量カップ) — Untuk menakar jumlah cairan pembersih.",
-      "jp": "{計量|けいりょう}カップ（けいりょうカップ）"
+      "jp": "{計量|けいりょう}カップ"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/36.webp"
@@ -7834,7 +8039,7 @@
      "a": 2,
      "exp": {
       "id": "Alat Sedot WC (プランジャー) — Alat pelontak untuk melancarkan saluran yang tersumbat.",
-      "jp": "プランジャー（プランジャー）"
+      "jp": "プランジャー"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/37.webp"
@@ -7866,7 +8071,7 @@
      "a": 3,
      "exp": {
       "id": "Keranjang Peralatan (作業カート) — Troli untuk membawa peralatan dan bahan pembersih.",
-      "jp": "{作業|さぎょう}カート（さぎょうカート）"
+      "jp": "{作業|さぎょう}カート"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/38.webp"
@@ -7898,7 +8103,7 @@
      "a": 1,
      "exp": {
       "id": "Keranjang Limbah (廃棄物コレクター) — Wadah/troli untuk mengumpulkan sampah.",
-      "jp": "{廃棄物|はいきぶつ}コレクター（はいきぶつコレクター）"
+      "jp": "{廃棄物|はいきぶつ}コレクター"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/39.webp"
@@ -7930,7 +8135,7 @@
      "a": 0,
      "exp": {
       "id": "Troli Dorong (手押し台車) — Troli dorong untuk mengangkut barang.",
-      "jp": "{手押|ておし}し{台車|だいしゃ}（ておしだいしゃ）"
+      "jp": "{手押|ておし}し{台車|だいしゃ}"
      },
      "img": {
       "src": "assets/ssw/building-cleaning/alat/40.webp"
