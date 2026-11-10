@@ -542,9 +542,119 @@
   "arti": "larut air"
  },
  {
+  "kata": "しつれいします",
+  "kana": "しつれいします",
+  "arti": "permisi (masuk/keluar)"
+ },
+ {
+  "kata": "おつかれさまでした",
+  "kana": "おつかれさまでした",
+  "arti": "terima kasih atas kerja kerasnya"
+ },
+ {
+  "kata": "だいじょうぶ",
+  "kana": "だいじょうぶ",
+  "arti": "tidak apa-apa; aman"
+ },
+ {
+  "kata": "きをつけて",
+  "kana": "きをつけて",
+  "arti": "hati-hati"
+ },
+ {
+  "kata": "ゆっくり",
+  "kana": "ゆっくり",
+  "arti": "pelan-pelan",
+  "contoh": "ゆっくり動[うご]かす",
+  "arti_contoh": "Menggerakkan pelan-pelan."
+ },
+ {
+  "kata": "きちんと",
+  "kana": "きちんと",
+  "arti": "dengan rapi; semestinya",
+  "contoh": "きちんと着[き]る",
+  "arti_contoh": "Memakai dengan rapi."
+ },
+ {
+  "kata": "しっかり",
+  "kana": "しっかり",
+  "arti": "dengan kuat; sungguh-sungguh",
+  "contoh": "しっかり絞[しぼ]る",
+  "arti_contoh": "Memeras dengan kuat."
+ },
+ {
+  "kata": "すこし",
+  "kana": "すこし",
+  "arti": "sedikit"
+ },
+ {
+  "kata": "たくさん",
+  "kana": "たくさん",
+  "arti": "banyak"
+ },
+ {
+  "kata": "かならず",
+  "kana": "かならず",
+  "arti": "pasti; selalu"
+ },
+ {
   "kata": "油溶性",
   "kana": "ゆようせい",
   "arti": "larut minyak"
+ },
+ {
+  "kata": "まず",
+  "kana": "まず",
+  "arti": "pertama-tama"
+ },
+ {
+  "kata": "つぎに",
+  "kana": "つぎに",
+  "arti": "selanjutnya"
+ },
+ {
+  "kata": "さいごに",
+  "kana": "さいごに",
+  "arti": "terakhir"
+ },
+ {
+  "kata": "かるく",
+  "kana": "かるく",
+  "arti": "ringan; pelan"
+ },
+ {
+  "kata": "ていねいに",
+  "kana": "ていねいに",
+  "arti": "dengan teliti; sopan"
+ },
+ {
+  "kata": "はやく",
+  "kana": "はやく",
+  "arti": "cepat"
+ },
+ {
+  "kata": "おなじ",
+  "kana": "おなじ",
+  "arti": "sama"
+ },
+ {
+  "kata": "ぜんぶ",
+  "kana": "ぜんぶ",
+  "arti": "semua"
+ },
+ {
+  "kata": "すぐ",
+  "kana": "すぐ",
+  "arti": "segera",
+  "contoh": "すぐ報告[ほうこく]する",
+  "arti_contoh": "Segera melapor."
+ },
+ {
+  "kata": "〜てください",
+  "kana": "てください",
+  "arti": "tolong lakukan ~ (permintaan)",
+  "contoh": "報告[ほうこく]してください",
+  "arti_contoh": "Tolong laporkan."
  },
  {
   "kata": "感染性",
@@ -552,9 +662,149 @@
   "arti": "dapat menularkan penyakit"
  },
  {
+  "kata": "〜ないでください",
+  "kana": "ないでください",
+  "arti": "tolong jangan ~",
+  "contoh": "走[はし]らないでください",
+  "arti_contoh": "Tolong jangan berlari."
+ },
+ {
+  "kata": "〜てはいけません",
+  "kana": "てはいけません",
+  "arti": "tidak boleh ~",
+  "contoh": "勝手[かって]に帰[かえ]ってはいけません",
+  "arti_contoh": "Tidak boleh pulang seenaknya."
+ },
+ {
+  "kata": "〜てはいけない",
+  "kana": "てはいけない",
+  "arti": "tidak boleh ~ (bentuk biasa)",
+  "contoh": "遅刻[ちこく]してはいけない",
+  "arti_contoh": "Tidak boleh terlambat."
+ },
+ {
+  "kata": "〜なければなりません",
+  "kana": "なければなりません",
+  "arti": "harus ~",
+  "contoh": "報告[ほうこく]しなければなりません",
+  "arti_contoh": "Harus melapor."
+ },
+ {
+  "kata": "〜なければならない",
+  "kana": "なければならない",
+  "arti": "harus ~ (bentuk biasa)",
+  "contoh": "守[まも]らなければならない",
+  "arti_contoh": "Harus ditaati."
+ },
+ {
+  "kata": "〜ましょう",
+  "kana": "ましょう",
+  "arti": "mari ~ / ayo ~",
+  "contoh": "挨拶[あいさつ]をしましょう",
+  "arti_contoh": "Mari memberi salam."
+ },
+ {
+  "kata": "〜ましょう（意志）",
+  "kana": "ましょう（意志）",
+  "arti": "ayo kita ~ (ajakan)",
+  "contoh": "一緒[いっしょ]に頑張[がんば]りましょう",
+  "arti_contoh": "Ayo berjuang bersama."
+ },
+ {
+  "kata": "〜ます / 〜ません",
+  "kana": "ます / ません",
+  "arti": "bentuk sopan: ~ / tidak ~",
+  "contoh": "朝[あさ]掃除[そうじ]をします",
+  "arti_contoh": "Membersihkan di pagi hari."
+ },
+ {
+  "kata": "〜です / 〜ではありません",
+  "kana": "です / ではありません",
+  "arti": "adalah / bukan",
+  "contoh": "これはモップです",
+  "arti_contoh": "Ini adalah mop."
+ },
+ {
+  "kata": "〜ています",
+  "kana": "ています",
+  "arti": "sedang ~ ; keadaan ~",
+  "contoh": "床[ゆか]を拭[ふ]いています",
+  "arti_contoh": "Sedang mengelap lantai."
+ },
+ {
   "kata": "酸性",
   "kana": "さんせい",
   "arti": "asam"
+ },
+ {
+  "kata": "〜てから",
+  "kana": "てから",
+  "arti": "setelah ~",
+  "contoh": "手[て]を洗[あら]ってから作業[さぎょう]する",
+  "arti_contoh": "Bekerja setelah cuci tangan."
+ },
+ {
+  "kata": "〜まえに",
+  "kana": "まえに",
+  "arti": "sebelum ~",
+  "contoh": "作業[さぎょう]の前[まえ]に確認[かくにん]する",
+  "arti_contoh": "Memeriksa sebelum bekerja."
+ },
+ {
+  "kata": "〜あとで",
+  "kana": "あとで",
+  "arti": "sesudah ~",
+  "contoh": "終[お]わった後[あと]で報告[ほうこく]する",
+  "arti_contoh": "Melapor setelah selesai."
+ },
+ {
+  "kata": "〜ながら",
+  "kana": "ながら",
+  "arti": "sambil ~",
+  "contoh": "後退[こうたい]しながら拭[ふ]く",
+  "arti_contoh": "Mengepel sambil mundur."
+ },
+ {
+  "kata": "〜たら",
+  "kana": "たら",
+  "arti": "jika/kalau/setelah ~",
+  "contoh": "汚[よご]れたら交換[こうかん]する",
+  "arti_contoh": "Kalau kotor, ganti."
+ },
+ {
+  "kata": "〜と",
+  "kana": "と",
+  "arti": "kalau ~ maka (otomatis/pasti)",
+  "contoh": "引[ひ]っ張[ぱ]るとコードが切[き]れる",
+  "arti_contoh": "Kalau ditarik, kabel bisa putus."
+ },
+ {
+  "kata": "〜ので",
+  "kana": "ので",
+  "arti": "karena ~ (alasan sopan)",
+  "contoh": "危[あぶ]ないので注意[ちゅうい]する",
+  "arti_contoh": "Karena berbahaya, berhati-hati."
+ },
+ {
+  "kata": "〜から",
+  "kana": "から",
+  "arti": "karena ~",
+  "contoh": "滑[すべ]るからフロアサインを置[お]く",
+  "arti_contoh": "Karena licin, memasang floor sign."
+ },
+ {
+  "kata": "〜ために",
+  "kana": "ために",
+  "arti": "supaya/untuk ~",
+  "contoh": "事故[じこ]を防[ふせ]ぐために外[はず]す",
+  "arti_contoh": "Dilepas untuk mencegah kecelakaan."
+ },
+ {
+  "kata": "〜ように",
+  "kana": "ように",
+  "arti": "supaya ~ ; sehingga ~",
+  "contoh": "滑[すべ]らないようにする",
+  "arti_contoh": "Berusaha agar tidak terpeleset."
  },
  {
   "kata": "中性",
@@ -562,14 +812,189 @@
   "arti": "netral"
  },
  {
+  "kata": "〜やすい",
+  "kana": "やすい",
+  "arti": "mudah ~",
+  "contoh": "滑[すべ]りやすい",
+  "arti_contoh": "Mudah licin."
+ },
+ {
+  "kata": "〜にくい",
+  "kana": "にくい",
+  "arti": "sulit ~",
+  "contoh": "落[お]ちにくい汚[よご]れ",
+  "arti_contoh": "Kotoran yang sulit hilang."
+ },
+ {
+  "kata": "〜すぎる",
+  "kana": "すぎる",
+  "arti": "terlalu ~",
+  "contoh": "水[みず]を使[つか]いすぎない",
+  "arti_contoh": "Jangan memakai air terlalu banyak."
+ },
+ {
+  "kata": "〜たい",
+  "kana": "たい",
+  "arti": "ingin ~",
+  "contoh": "綺麗[きれい]にしたいです",
+  "arti_contoh": "Ingin membersihkan."
+ },
+ {
+  "kata": "〜たほうがいい",
+  "kana": "たほうがいい",
+  "arti": "sebaiknya ~",
+  "contoh": "早[はや]めに連絡[れんらく]したほうがいい",
+  "arti_contoh": "Sebaiknya segera menghubungi."
+ },
+ {
+  "kata": "〜てもいいです",
+  "kana": "てもいいです",
+  "arti": "boleh ~",
+  "contoh": "帰[かえ]ってもいいです",
+  "arti_contoh": "Boleh pulang."
+ },
+ {
+  "kata": "〜ことができる",
+  "kana": "ことができる",
+  "arti": "bisa ~",
+  "contoh": "ゴミを吸[す]うことができる",
+  "arti_contoh": "Bisa menyedot sampah."
+ },
+ {
+  "kata": "〜をする",
+  "kana": "をする",
+  "arti": "melakukan ~",
+  "contoh": "掃除[そうじ]をする",
+  "arti_contoh": "Membersihkan."
+ },
+ {
+  "kata": "〜に〜をする（目的）",
+  "kana": "にをする（目的）",
+  "arti": "melakukan ~ untuk ~",
+  "contoh": "床[ゆか]にワックスをかける",
+  "arti_contoh": "Memberi wax pada lantai."
+ },
+ {
+  "kata": "〜で（手段）",
+  "kana": "で（手段）",
+  "arti": "dengan ~ (alat/cara)",
+  "contoh": "ほうきで掃[は]く",
+  "arti_contoh": "Menyapu dengan sapu."
+ },
+ {
   "kata": "アルカリ性",
   "kana": "アルカリせい",
   "arti": "alkali"
  },
  {
+  "kata": "〜を〜に（移動）",
+  "kana": "をに（移動）",
+  "arti": "menaruh/membawa ~ ke ~",
+  "contoh": "ゴミを袋[ふくろ]に入[い]れる",
+  "arti_contoh": "Memasukkan sampah ke kantong."
+ },
+ {
+  "kata": "〜は〜です（名詞文）",
+  "kana": "はです（名詞文）",
+  "arti": "~ adalah ~",
+  "contoh": "私[わたし]はマイです",
+  "arti_contoh": "Saya Mai."
+ },
+ {
+  "kata": "〜があります",
+  "kana": "があります",
+  "arti": "ada ~ (benda)",
+  "contoh": "段差[だんさ]があります",
+  "arti_contoh": "Ada tonjolan/undakan."
+ },
+ {
+  "kata": "〜がいます",
+  "kana": "がいます",
+  "arti": "ada ~ (orang/hewan)",
+  "contoh": "人[ひと]がいます",
+  "arti_contoh": "Ada orang."
+ },
+ {
+  "kata": "〜か？",
+  "kana": "か？",
+  "arti": "partikel tanya",
+  "contoh": "大丈夫[だいじょうぶ]ですか？",
+  "arti_contoh": "Apakah baik-baik saja?"
+ },
+ {
+  "kata": "〜も",
+  "kana": "も",
+  "arti": "juga ~",
+  "contoh": "隅[すみ]も拭[ふ]く",
+  "arti_contoh": "Sudut juga dilap."
+ },
+ {
+  "kata": "〜だけ",
+  "kana": "だけ",
+  "arti": "hanya ~",
+  "contoh": "汚[よご]れた所[ところ]だけ拭[ふ]く",
+  "arti_contoh": "Hanya mengelap yang kotor."
+ },
+ {
+  "kata": "〜より",
+  "kana": "より",
+  "arti": "dibandingkan ~",
+  "contoh": "水[みず]より洗剤[せんざい]がよく落[お]とす",
+  "arti_contoh": "Deterjen lebih bersih dari air."
+ },
+ {
+  "kata": "〜という",
+  "kana": "という",
+  "arti": "yang disebut ~",
+  "contoh": "５原則[げんそく]という考[かんが]え方[かた]",
+  "arti_contoh": "Konsep yang disebut 5 prinsip."
+ },
+ {
+  "kata": "〜や〜",
+  "kana": "や",
+  "arti": "~ dan ~ (contoh-contoh)",
+  "contoh": "モップやバケツを持[も]つ",
+  "arti_contoh": "Membawa mop, ember, dll."
+ },
+ {
   "kata": "界面活性剤",
   "kana": "かいめんかっせいざい",
   "arti": "surfaktan"
+ },
+ {
+  "kata": "〜から〜まで",
+  "kana": "からまで",
+  "arti": "dari ~ sampai ~",
+  "contoh": "奥[おく]から手前[てまえ]まで",
+  "arti_contoh": "Dari dalam sampai depan."
+ },
+ {
+  "kata": "〜の{前|まえ}に",
+  "kana": "の{前|まえ}に",
+  "arti": "sebelum (benda/kejadian) ~",
+  "contoh": "作業[さぎょう]の前[まえ]に着替[きが]える",
+  "arti_contoh": "Berganti baju sebelum kerja."
+ },
+ {
+  "kata": "〜の{後|あと}で",
+  "kana": "の{後|あと}で",
+  "arti": "sesudah (benda/kejadian) ~",
+  "contoh": "作業[さぎょう]の後[あと]で報告[ほうこく]する",
+  "arti_contoh": "Melapor setelah kerja."
+ },
+ {
+  "kata": "〜ずに",
+  "kana": "ずに",
+  "arti": "tanpa ~",
+  "contoh": "連絡[れんらく]せずに休[やす]まない",
+  "arti_contoh": "Jangan libur tanpa kabar."
+ },
+ {
+  "kata": "〜ないと",
+  "kana": "ないと",
+  "arti": "kalau tidak ~ (nanti)",
+  "contoh": "確認[かくにん]しないと危[あぶ]ない",
+  "arti_contoh": "Kalau tidak diperiksa, berbahaya."
  },
  {
   "kata": "浸透",
@@ -696,7 +1121,7 @@
   "kata": "仕事",
   "kana": "しごと",
   "arti": "pekerjaan",
-  "contoh": "さわやかな気持[きも]ちで仕事[しごと]にかかろう",
+  "contoh": "ビルクリーニングの仕事[しごと]の３つの意味[いみ]",
   "arti_contoh": ""
  },
  {
@@ -745,7 +1170,7 @@
   "kata": "使う",
   "kana": "つかう",
   "arti": "memakai",
-  "contoh": "会社[かいしゃ]の電話[でんわ]、携帯電話[けいたいでんわ]、コピー機[き]などを私用[しよう]に使[つか]わない",
+  "contoh": "ビルクリーニングで使[つか]う機械[きかい]・道具[どうぐ]の一覧[いちらん]",
   "arti_contoh": ""
  },
  {
@@ -773,7 +1198,7 @@
   "kata": "内容",
   "kana": "ないよう",
   "arti": "isi",
-  "contoh": "SNSに業務[ぎょうむ]の内容[ないよう]を書[か]く。",
+  "contoh": "この本[ほん]は試験[しけん]の説明[せつめい]と**３つの章[しょう]**でできています。目次[もくじ]で内容[ないよう]を探[さが]しましょう。",
   "arti_contoh": ""
  },
  {
@@ -806,7 +1231,7 @@
   "kata": "基本",
   "kana": "きほん",
   "arti": "dasar",
-  "contoh": "時間[じかん]を守[まも]り、礼儀正[れいぎただ]しく行動[こうどう]し、退勤前[たいきんまえ]に報告[ほうこく]することが基本[きほん]です。",
+  "contoh": "第[だい]１章[しょう]＝基本[きほん]、第[だい]２章[しょう]＝日常[にちじょう]、第[だい]３章[しょう]＝定期[てい]清掃[せいそう]。",
   "arti_contoh": ""
  },
  {
@@ -834,7 +1259,7 @@
   "kata": "守る",
   "kana": "まもる",
   "arti": "menaati",
-  "contoh": "通勤[つうきん]、帰宅時[きたくじ]は交通[こうつう]ルールを守[まも]り、事故[じこ]のないように注意[ちゅうい]すること",
+  "contoh": "害虫[がいちゅう]や病気[びょうき]から人[ひと]を守[まも]る。",
   "arti_contoh": ""
  },
  {
@@ -897,7 +1322,7 @@
   "kata": "必要",
   "kana": "ひつよう",
   "arti": "perlu",
-  "contoh": "病気[びょうき]等で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
   "arti_contoh": ""
  },
  {
@@ -916,7 +1341,7 @@
   "kata": "持つ",
   "kana": "もつ",
   "arti": "memegang",
-  "contoh": "カギを持[も]ち帰[かえ]る・紛失[ふんしつ]する。",
+  "contoh": "持[も]ち物[もの]・安全[あんぜん]の確保[かくほ]",
   "arti_contoh": ""
  },
  {
@@ -1031,7 +1456,7 @@
   "kata": "流す",
   "kana": "ながす",
   "arti": "mengalirkan",
-  "contoh": "1日の仕事[しごと]の流[なが]れの順番[じゅんばん]",
+  "contoh": "流[なが]れ：特定技能[とくていぎのう]評価試験[ひょうかしけん] → 合格[ごうかく] → 特定技能[とくていぎのう]ビザ取得[しゅとく] → 就労[しゅうろう]",
   "arti_contoh": ""
  },
  {
@@ -1078,7 +1503,7 @@
   "kata": "病気",
   "kana": "びょうき",
   "arti": "penyakit",
-  "contoh": "病気[びょうき]等で出勤[しゅっきん]できないときは必[かなら]ず連絡[れんらく]や届出[とどけで]が必要[ひつよう]です",
+  "contoh": "害虫[がいちゅう]や病気[びょうき]から人[ひと]を守[まも]る。",
   "arti_contoh": ""
  },
  {
@@ -1240,7 +1665,7 @@
   "kata": "順番",
   "kana": "じゅんばん",
   "arti": "urutan",
-  "contoh": "1日の仕事[しごと]の流[なが]れの順番[じゅんばん]",
+  "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと第[だい]１〜３章[しょう]が本[ほん]の順番[じゅんばん]で続[つづ]きます。",
   "arti_contoh": ""
  },
  {
@@ -1289,7 +1714,7 @@
   "kata": "汚れる",
   "kana": "よごれる",
   "arti": "kotor",
-  "contoh": "汚[よご]れたユニフォーム",
+  "contoh": "**ごみや汚[よご]れを取[と]り除[のぞ]く**：清掃[せいそう]をして綺麗[きれい]にする。",
   "arti_contoh": ""
  },
  {
@@ -1373,7 +1798,7 @@
   "kata": "取る",
   "kana": "とる",
   "arti": "mengambil",
-  "contoh": "**定期清掃[ていきせいそう]**：定期的[ていきてき]に行[おこな]うもので、普段除去[ふだんじょきょ]できない汚[よご]れを取[と]り除[のぞ]く清掃[せいそう]。",
+  "contoh": "**ごみや汚[よご]れを取[と]り除[のぞ]く**：清掃[せいそう]をして綺麗[きれい]にする。",
   "arti_contoh": ""
  },
  {
@@ -1420,14 +1845,14 @@
   "kata": "種類",
   "kana": "しゅるい",
   "arti": "jenis",
-  "contoh": "清掃[せいそう]には二[ふた]つの種類[しゅるい]",
+  "contoh": "汚[よご]れ（ほこり）の種類[しゅるい]と大[おお]きさ",
   "arti_contoh": ""
  },
  {
   "kata": "維持",
   "kana": "いじ",
   "arti": "mempertahankan",
-  "contoh": "定期清掃[ていきせいそう]＝汚[よご]れの除去[じょきょ]、建材[けんざい]の維持[いじ]（ワックス）",
+  "contoh": "**キレイの維持[いじ]**：きれいな状態[じょうたい]を保[たも]つ。",
   "arti_contoh": ""
  },
  {
@@ -1455,35 +1880,35 @@
   "kata": "長持ち",
   "kana": "ながもち",
   "arti": "tahan lama",
-  "contoh": "定期清掃[ていきせいそう]で汚[よご]れをリセットし、日常清掃[にちじょうせいそう]でキレイを長持[ながも]ちさせる。",
+  "contoh": "ワックスは建材[けんざい]を守[まも]り、ビルを長持[ながも]ちさせる。",
   "arti_contoh": ""
  },
  {
   "kata": "除く",
   "kana": "のぞく",
   "arti": "menyingkirkan",
-  "contoh": "**定期清掃[ていきせいそう]**：定期的[ていきてき]に行[おこな]うもので、普段除去[ふだんじょきょ]できない汚[よご]れを取[と]り除[のぞ]く清掃[せいそう]。",
+  "contoh": "**ごみや汚[よご]れを取[と]り除[のぞ]く**：清掃[せいそう]をして綺麗[きれい]にする。",
   "arti_contoh": ""
  },
  {
   "kata": "除去",
   "kana": "じょきょ",
   "arti": "penghilangan",
-  "contoh": "定期清掃[ていきせいそう]＝汚[よご]れの除去[じょきょ]、建材[けんざい]の維持[いじ]（ワックス）",
+  "contoh": "意味[いみ]：汚[よご]れ除去[じょきょ]・キレイの維持[いじ]・建材[けんざい]の維持[いじ]・安全性[あんぜんせい]の維持[いじ]",
   "arti_contoh": ""
  },
  {
   "kata": "作業",
   "kana": "さぎょう",
   "arti": "pekerjaan, operasi",
-  "contoh": "建材[けんざい]や洗剤[せんざい]を知[し]らずに作業[さぎょう]する",
+  "contoh": "廃棄物[はいきぶつ]の処理[しょり]、衛生管理[えいせいかんり]、作業[さぎょう]の安全[あんぜん]と衛生[えいせい]の手順[てじゅん]",
   "arti_contoh": ""
  },
  {
   "kata": "原則",
   "kana": "げんそく",
   "arti": "prinsip",
-  "contoh": "ビルクリーニングの5原則[げんそく]",
+  "contoh": "ビルクリーニングの５原則[げんそく]",
   "arti_contoh": ""
  },
  {
@@ -1504,7 +1929,7 @@
   "kata": "知識",
   "kana": "ちしき",
   "arti": "pengetahuan",
-  "contoh": "5原則[げんそく]：建材[けんざい]・汚[よご]れ・洗剤[せんざい]・作業方法[さぎょうほうほう]・予防策[よぼうさく]の知識[ちしき]。",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
   "arti_contoh": ""
  },
  {
@@ -1570,7 +1995,7 @@
   "kata": "意味",
   "kana": "いみ",
   "arti": "arti",
-  "contoh": "あいさつ7つの意味[いみ]",
+  "contoh": "ビルクリーニングの仕事[しごと]の３つの意味[いみ]",
   "arti_contoh": ""
  },
  {
@@ -1617,7 +2042,7 @@
   "kata": "目",
   "kana": "め",
   "arti": "mata",
-  "contoh": "相手[あいて]の目[め]を見[み]る。",
+  "contoh": "見[み]た目[め]だけの仕事[しごと]だと思[おも]うこと",
   "arti_contoh": ""
  },
  {
@@ -1645,7 +2070,7 @@
   "kata": "見える",
   "kana": "みえる",
   "arti": "terlihat",
-  "contoh": "相手[あいて]の目[め]を見[み]る。",
+  "contoh": "見[み]た目[め]だけの仕事[しごと]だと思[おも]うこと",
   "arti_contoh": ""
  },
  {
@@ -1713,7 +2138,7 @@
   "kata": "人",
   "kana": "ひと",
   "arti": "orang",
-  "contoh": "あなたより、職場[しょくば]での経験[けいけん]が多[おお]い人[ひと]です。",
+  "contoh": "害虫[がいちゅう]や病気[びょうき]から人[ひと]を守[まも]る。",
   "arti_contoh": ""
  },
  {
@@ -1837,7 +2262,7 @@
   "kata": "同じ",
   "kana": "おなじ",
   "arti": "sama",
-  "contoh": "基本的[きほんてき]には、上司[じょうし]と同[おな]じように接[せっ]しましょう。",
+  "contoh": "特定技能[とくていぎのう]１号[ごう]ビルクリーニングの試験[しけん]は、技能検定[ぎのうけんてい]**３級[きゅう]**と同[おな]じレベルの知識[ちしき]と技能[ぎのう]が必要[ひつよう]です。",
   "arti_contoh": ""
  },
  {
@@ -1931,13 +2356,15 @@
  {
   "kata": "情報",
   "kana": "じょうほう",
-  "arti": "informasi"
+  "arti": "informasi",
+  "contoh": "83〜85ページ：本[ほん]の最後[さいご]のページと発行[はっこう]情報[じょうほう]（JBMA）。",
+  "arti_contoh": ""
  },
  {
   "kata": "手順",
   "kana": "てじゅん",
   "arti": "prosedur",
-  "contoh": "クレーム対応[たいおう]の手順[てじゅん]",
+  "contoh": "廃棄物[はいきぶつ]の処理[しょり]、衛生管理[えいせいかんり]、作業[さぎょう]の安全[あんぜん]と衛生[えいせい]の手順[てじゅん]",
   "arti_contoh": ""
  },
  {
@@ -1980,7 +2407,7 @@
   "kata": "日本",
   "kana": "にほん",
   "arti": "Jepang",
-  "contoh": "日本[にほん]の大便器[だいべんき]には温水洗浄便座[おんすいせんじょうべんざ]が多[おお]い。温水[おんすい]シャワーでおしりを洗浄[せんじょう]する。衛生的[えいせいてき]で快適[かいてき]。",
+  "contoh": "マイさんの第一印象[だいいちいんしょう]：日本[にほん]のビルはとても綺麗[きれい]",
   "arti_contoh": ""
  },
  {
@@ -2219,7 +2646,7 @@
   "kata": "方法",
   "kana": "ほうほう",
   "arti": "cara, metode",
-  "contoh": "日常清掃[にちじょうせいそう]は場所[ばしょ]によって方法[ほうほう]が異[こと]なる",
+  "contoh": "床[ゆか]の清掃[せいそう]（床材[ゆかざい]・汚[よご]れ・洗剤[せんざい]・方法[ほうほう]）",
   "arti_contoh": ""
  },
  {
@@ -2331,7 +2758,7 @@
   "kata": "床",
   "kana": "ゆか",
   "arti": "lantai",
-  "contoh": "ツルツルの床[ゆか]：ダストクロス・掃除機[そうじき]",
+  "contoh": "３章[しょう]：床[ゆか]・カーペット・窓[まど]・機械[きかい]",
   "arti_contoh": ""
  },
  {
@@ -2392,7 +2819,7 @@
   "kata": "確保",
   "kana": "かくほ",
   "arti": "memastikan",
-  "contoh": "歩行動線[ほこうどうせん]を確保[かくほ]する。",
+  "contoh": "持[も]ち物[もの]・安全[あんぜん]の確保[かくほ]",
   "arti_contoh": ""
  },
  {
@@ -2425,7 +2852,7 @@
   "kata": "道具",
   "kana": "どうぐ",
   "arti": "alat",
-  "contoh": "床[ゆか]に合[あ]わない道具[どうぐ]を使[つか]う",
+  "contoh": "ビルクリーニングで使[つか]う機械[きかい]・道具[どうぐ]の一覧[いちらん]",
   "arti_contoh": ""
  },
  {
@@ -2479,7 +2906,7 @@
   "kata": "大きさ",
   "kana": "おおきさ",
   "arti": "ukuran",
-  "contoh": "汚[よご]れ（ホコリ）の種類[しゅるい]と大[おお]きさ",
+  "contoh": "汚[よご]れ（ほこり）の種類[しゅるい]と大[おお]きさ",
   "arti_contoh": ""
  },
  {
@@ -2505,7 +2932,7 @@
   "kata": "掃除する",
   "kana": "そうじする",
   "arti": "membersihkan",
-  "contoh": "見[み]える：除塵[じょじん]・拭[ふ]き掃除[そうじ]",
+  "contoh": "掃除[そうじ]でビルが綺麗[きれい]で快適[かいてき]になる。",
   "arti_contoh": ""
  },
  {
@@ -2567,7 +2994,9 @@
  {
   "kata": "綺麗",
   "kana": "きれい",
-  "arti": "bersih, cantik"
+  "arti": "bersih, cantik",
+  "contoh": "掃除[そうじ]でビルが綺麗[きれい]で快適[かいてき]になる。",
+  "arti_contoh": ""
  },
  {
   "kata": "美観",
@@ -2858,7 +3287,7 @@
   "kata": "状態",
   "kana": "じょうたい",
   "arti": "keadaan",
-  "contoh": "自在[じざい]ぼうきは毛先[けさき]を上[うえ]にした状態[じょうたい]で保管[ほかん]しておく。",
+  "contoh": "**キレイの維持[いじ]**：きれいな状態[じょうたい]を保[たも]つ。",
   "arti_contoh": ""
  },
  {
@@ -3008,7 +3437,7 @@
   "kata": "型",
   "kana": "がた",
   "arti": "tipe",
-  "contoh": "ウエット型[がた]：汚水[おすい]を吸[す]う。",
+  "contoh": "掃除機[そうじき]、アップライト型[がた]掃除機[そうじき]",
   "arti_contoh": ""
  },
  {
@@ -3104,7 +3533,7 @@
   "kata": "箱",
   "kana": "はこ",
   "arti": "kotak",
-  "contoh": "紙袋[かみぶくろ]に2／3ほどゴミが溜[た]まっていたら交換[こうかん]。穴[あな]をテープで塞[ふさ]ぎゴミ箱[ばこ]へ。内部[ないぶ]が汚[よご]れていたら拭[ふ]いておく。",
+  "contoh": "トイレ清掃[せいそう]：ごみ箱[ばこ]・補充[ほじゅう]、洗面台[せんめんだい]、小便器[しょうべんき]、便器[べんき]、床[ゆか]",
   "arti_contoh": ""
  },
  {
@@ -3887,7 +4316,7 @@
   "kata": "補充",
   "kana": "ほじゅう",
   "arti": "pengisian ulang",
-  "contoh": "補充[ほじゅう]の目安[めやす]（1/3）",
+  "contoh": "トイレ清掃[せいそう]：ごみ箱[ばこ]・補充[ほじゅう]、洗面台[せんめんだい]、小便器[しょうべんき]、便器[べんき]、床[ゆか]",
   "arti_contoh": ""
  },
  {
@@ -4068,7 +4497,7 @@
   "kata": "便器",
   "kana": "べんき",
   "arti": "kloset",
-  "contoh": "便器[べんき]のタオルで棚[たな]を拭[ふ]く",
+  "contoh": "トイレ清掃[せいそう]：ごみ箱[ばこ]・補充[ほじゅう]、洗面台[せんめんだい]、小便器[しょうべんき]、便器[べんき]、床[ゆか]",
   "arti_contoh": ""
  },
  {
@@ -4164,7 +4593,7 @@
   "kata": "続く",
   "kana": "つづく",
   "arti": "berlanjut",
-  "contoh": "続[つづ]いてトラップの中[なか]をブラシで清掃[せいそう]しよう。",
+  "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと第[だい]１〜３章[しょう]が本[ほん]の順番[じゅんばん]で続[つづ]きます。",
   "arti_contoh": ""
  },
  {
@@ -4227,7 +4656,7 @@
   "kata": "快適",
   "kana": "かいてき",
   "arti": "nyaman",
-  "contoh": "日本[にほん]の大便器[だいべんき]には温水洗浄便座[おんすいせんじょうべんざ]が多[おお]い。温水[おんすい]シャワーでおしりを洗浄[せんじょう]する。衛生的[えいせいてき]で快適[かいてき]。",
+  "contoh": "掃除[そうじ]でビルが綺麗[きれい]で快適[かいてき]になる。",
   "arti_contoh": ""
  },
  {
@@ -4384,7 +4813,7 @@
   "kata": "本",
   "kana": "ほん",
   "arti": "buku",
-  "contoh": "新聞[しんぶん]・本[ほん]はそのまま",
+  "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと第[だい]１〜３章[しょう]が本[ほん]の順番[じゅんばん]で続[つづ]きます。",
   "arti_contoh": ""
  },
  {
@@ -4405,7 +4834,7 @@
   "kata": "物",
   "kana": "もの",
   "arti": "barang",
-  "contoh": "判別[はんべつ]できない物[もの]の対応[たいおう]",
+  "contoh": "持[も]ち物[もの]・安全[あんぜん]の確保[かくほ]",
   "arti_contoh": ""
  },
  {
@@ -4676,7 +5105,7 @@
   "kata": "思う",
   "kana": "おもう",
   "arti": "berpikir",
-  "contoh": "汚[よご]れは土[つち]とホコリだけと思[おも]う",
+  "contoh": "見[み]た目[め]だけの仕事[しごと]だと思[おも]うこと",
   "arti_contoh": ""
  },
  {
@@ -4696,7 +5125,9 @@
  {
   "kata": "教育",
   "kana": "きょういく",
-  "arti": "pendidikan"
+  "arti": "pendidikan",
+  "contoh": "ASCFは採用[さいよう]と教育[きょういく]を支援[しえん]。",
+  "arti_contoh": ""
  },
  {
   "kata": "整理",
@@ -4723,7 +5154,7 @@
   "kata": "機械",
   "kana": "きかい",
   "arti": "mesin",
-  "contoh": "機械[きかい]とその他[ほか]（P.82）",
+  "contoh": "３章[しょう]：床[ゆか]・カーペット・窓[まど]・機械[きかい]",
   "arti_contoh": ""
  },
  {
@@ -5378,7 +5809,7 @@
   "kata": "水平",
   "kana": "すいへい",
   "arti": "datar (horizontal)",
-  "contoh": "パッドを水平[すいへい]にする。",
+  "contoh": "水拭[みずぶ]き（水平[すいへい]・垂直[すいちょく]）",
   "arti_contoh": ""
  },
  {
@@ -5494,7 +5925,7 @@
   "kata": "垂直",
   "kana": "すいちょく",
   "arti": "tegak lurus",
-  "contoh": "清掃後[せいそうご]はタイヤを下[お]ろしてから。タイヤを足[あし]で固定[こてい]してポリッシャーを寝[ね]かせよう（ハンドルを垂直[すいちょく]に戻[もど]し）。",
+  "contoh": "水拭[みずぶ]き（水平[すいへい]・垂直[すいちょく]）",
   "arti_contoh": ""
  },
  {
@@ -5592,7 +6023,9 @@
  {
   "kata": "人々",
   "kana": "ひとびと",
-  "arti": "orang-orang"
+  "arti": "orang-orang",
+  "contoh": "**安全性[あんぜんせい]の維持[いじ]**：害虫[がいちゅう]や病気[びょうき]から人々[ひとびと]を守[まも]る。",
+  "arti_contoh": ""
  },
  {
   "kata": "環境",
@@ -5608,7 +6041,7 @@
   "kata": "窓",
   "kana": "まど",
   "arti": "jendela",
-  "contoh": "窓[まど]のフレームを拭[ふ]きあげよう。①〜④ごとにタオルを新[あたら]しい面[めん]に折[お]り返[かえ]す。ガラスに触[ふ]れないように。",
+  "contoh": "３章[しょう]：床[ゆか]・カーペット・窓[まど]・機械[きかい]",
   "arti_contoh": ""
  },
  {
@@ -5620,7 +6053,7 @@
   "kata": "一覧",
   "kana": "いちらん",
   "arti": "daftar",
-  "contoh": "ビルクリーニングで使[つか]う資器材[しきざい]の一覧[いちらん]。",
+  "contoh": "ビルクリーニングで使[つか]う機械[きかい]・道具[どうぐ]の一覧[いちらん]",
   "arti_contoh": ""
  },
  {
@@ -5697,5 +6130,661 @@
   "arti": "mesin cuci tekanan tinggi",
   "contoh": "フロアパッド、ポリッシャー、自動床洗浄機[じどうゆかせんじょうき]、エクストラクター、高圧洗浄機[こうあつせんじょうき]。",
   "arti_contoh": ""
+ },
+ {
+  "kata": "ビルクリーニング",
+  "kana": "ビルクリーニング",
+  "arti": "pembersihan gedung (Building Cleaning)",
+  "contoh": "ビルクリーニングの仕事[しごと]をします",
+  "arti_contoh": "Bekerja di bidang pembersihan gedung."
+ },
+ {
+  "kata": "ビルメンテナンス",
+  "kana": "ビルメンテナンス",
+  "arti": "pemeliharaan gedung (building maintenance)"
+ },
+ {
+  "kata": "ビル",
+  "kana": "ビル",
+  "arti": "gedung",
+  "contoh": "ビルはとても綺麗です",
+  "arti_contoh": "Gedungnya sangat bersih."
+ },
+ {
+  "kata": "キレイ",
+  "kana": "キレイ",
+  "arti": "bersih; indah (ditulis katakana di buku)",
+  "contoh": "キレイを維持[いじ]する",
+  "arti_contoh": "Menjaga kebersihan."
+ },
+ {
+  "kata": "ゴミ",
+  "kana": "ゴミ",
+  "arti": "sampah",
+  "contoh": "ゴミを集[あつ]める",
+  "arti_contoh": "Mengumpulkan sampah."
+ },
+ {
+  "kata": "トイレ",
+  "kana": "トイレ",
+  "arti": "toilet",
+  "contoh": "トイレを掃除[そうじ]する",
+  "arti_contoh": "Membersihkan toilet."
+ },
+ {
+  "kata": "ガラス",
+  "kana": "ガラス",
+  "arti": "kaca",
+  "contoh": "ガラスを拭[ふ]く",
+  "arti_contoh": "Mengelap kaca."
+ },
+ {
+  "kata": "マット",
+  "kana": "マット",
+  "arti": "keset; matras"
+ },
+ {
+  "kata": "カビ",
+  "kana": "カビ",
+  "arti": "jamur",
+  "contoh": "カビは湿気[しっけ]で増[ふ]える",
+  "arti_contoh": "Jamur bertambah karena kelembapan."
+ },
+ {
+  "kata": "ダニ",
+  "kana": "ダニ",
+  "arti": "tungau"
+ },
+ {
+  "kata": "ウイルス",
+  "kana": "ウイルス",
+  "arti": "virus"
+ },
+ {
+  "kata": "サビ",
+  "kana": "サビ",
+  "arti": "karat"
+ },
+ {
+  "kata": "ビニル",
+  "kana": "ビニル",
+  "arti": "vinil (vinyl)"
+ },
+ {
+  "kata": "ビニール",
+  "kana": "ビニール",
+  "arti": "plastik (kantong plastik)",
+  "contoh": "ビニール袋[ぶくろ]にゴミを入[い]れる",
+  "arti_contoh": "Memasukkan sampah ke kantong plastik."
+ },
+ {
+  "kata": "リノリウム",
+  "kana": "リノリウム",
+  "arti": "linoleum (bahan lantai)"
+ },
+ {
+  "kata": "フローリング",
+  "kana": "フローリング",
+  "arti": "lantai kayu (flooring)"
+ },
+ {
+  "kata": "コンクリート",
+  "kana": "コンクリート",
+  "arti": "beton"
+ },
+ {
+  "kata": "ゴム",
+  "kana": "ゴム",
+  "arti": "karet"
+ },
+ {
+  "kata": "コルク",
+  "kana": "コルク",
+  "arti": "gabus (cork)"
+ },
+ {
+  "kata": "タイルカーペット",
+  "kana": "タイルカーペット",
+  "arti": "karpet ubin (tile carpet)"
+ },
+ {
+  "kata": "タイル",
+  "kana": "タイル",
+  "arti": "ubin; keramik"
+ },
+ {
+  "kata": "パイル",
+  "kana": "パイル",
+  "arti": "bulu karpet (pile)"
+ },
+ {
+  "kata": "ヒールマーク",
+  "kana": "ヒールマーク",
+  "arti": "bekas gesekan tumit sepatu (heel mark)"
+ },
+ {
+  "kata": "ステープル",
+  "kana": "ステープル",
+  "arti": "staples (kawat jepret)"
+ },
+ {
+  "kata": "クリップ",
+  "kana": "クリップ",
+  "arti": "klip"
+ },
+ {
+  "kata": "アルカリ",
+  "kana": "アルカリ",
+  "arti": "alkali"
+ },
+ {
+  "kata": "アクリル",
+  "kana": "アクリル",
+  "arti": "akrilik"
+ },
+ {
+  "kata": "ウレタン",
+  "kana": "ウレタン",
+  "arti": "urethane (pelapis)"
+ },
+ {
+  "kata": "ガラスクリーナー",
+  "kana": "ガラスクリーナー",
+  "arti": "pembersih kaca"
+ },
+ {
+  "kata": "トイレクリーナー",
+  "kana": "トイレクリーナー",
+  "arti": "pembersih toilet"
+ },
+ {
+  "kata": "ハンドソープ",
+  "kana": "ハンドソープ",
+  "arti": "sabun tangan"
+ },
+ {
+  "kata": "トイレットペーパー",
+  "kana": "トイレットペーパー",
+  "arti": "kertas toilet"
+ },
+ {
+  "kata": "トイレットペーパーホルダー",
+  "kana": "トイレットペーパーホルダー",
+  "arti": "tempat kertas toilet"
+ },
+ {
+  "kata": "スプレー",
+  "kana": "スプレー",
+  "arti": "semprotan (spray)"
+ },
+ {
+  "kata": "スポンジ",
+  "kana": "スポンジ",
+  "arti": "spons"
+ },
+ {
+  "kata": "デッキブラシ",
+  "kana": "デッキブラシ",
+  "arti": "sikat lantai bergagang (deck brush)"
+ },
+ {
+  "kata": "ワンタッチモップ",
+  "kana": "ワンタッチモップ",
+  "arti": "mop sekali tekan (one-touch mop)"
+ },
+ {
+  "kata": "ハンディバキューム",
+  "kana": "ハンディバキューム",
+  "arti": "penyedot debu genggam (handy vacuum)"
+ },
+ {
+  "kata": "ウエットバキューム",
+  "kana": "ウエットバキューム",
+  "arti": "penyedot basah (wet vacuum)"
+ },
+ {
+  "kata": "エクストラクター",
+  "kana": "エクストラクター",
+  "arti": "mesin ekstraksi karpet (extractor)"
+ },
+ {
+  "kata": "ハンドパッド",
+  "kana": "ハンドパッド",
+  "arti": "pad tangan (hand pad)"
+ },
+ {
+  "kata": "スクレーパー",
+  "kana": "スクレーパー",
+  "arti": "kape; pengerok (scraper)"
+ },
+ {
+  "kata": "プランジャー",
+  "kana": "プランジャー",
+  "arti": "penyedot kloset (plunger)"
+ },
+ {
+  "kata": "スクイジー",
+  "kana": "スクイジー",
+  "arti": "squeegee (pengering kaca)"
+ },
+ {
+  "kata": "フロアスクイジー",
+  "kana": "フロアスクイジー",
+  "arti": "squeegee lantai"
+ },
+ {
+  "kata": "カート",
+  "kana": "カート",
+  "arti": "kereta dorong (cart)"
+ },
+ {
+  "kata": "コンセント",
+  "kana": "コンセント",
+  "arti": "stop kontak",
+  "contoh": "コンセントにプラグを差[さ]す",
+  "arti_contoh": "Memasukkan colokan ke stop kontak."
+ },
+ {
+  "kata": "スイッチ",
+  "kana": "スイッチ",
+  "arti": "saklar"
+ },
+ {
+  "kata": "スイッチパネル",
+  "kana": "スイッチパネル",
+  "arti": "panel saklar"
+ },
+ {
+  "kata": "センサー",
+  "kana": "センサー",
+  "arti": "sensor"
+ },
+ {
+  "kata": "レバー",
+  "kana": "レバー",
+  "arti": "tuas (lever)"
+ },
+ {
+  "kata": "フットペダル",
+  "kana": "フットペダル",
+  "arti": "pedal kaki"
+ },
+ {
+  "kata": "ストッパーボタン",
+  "kana": "ストッパーボタン",
+  "arti": "tombol pengunci (stopper button)"
+ },
+ {
+  "kata": "タイヤ",
+  "kana": "タイヤ",
+  "arti": "ban; roda"
+ },
+ {
+  "kata": "グリップ",
+  "kana": "グリップ",
+  "arti": "pegangan (grip)"
+ },
+ {
+  "kata": "フレーム",
+  "kana": "フレーム",
+  "arti": "bingkai (frame)"
+ },
+ {
+  "kata": "ヘッド",
+  "kana": "ヘッド",
+  "arti": "kepala (alat)"
+ },
+ {
+  "kata": "ポッド",
+  "kana": "ポッド",
+  "arti": "pod (wadah penampung debu)"
+ },
+ {
+  "kata": "ファン",
+  "kana": "ファン",
+  "arti": "kipas"
+ },
+ {
+  "kata": "ケース",
+  "kana": "ケース",
+  "arti": "kotak; wadah"
+ },
+ {
+  "kata": "タンク",
+  "kana": "タンク",
+  "arti": "tangki"
+ },
+ {
+  "kata": "トラップ",
+  "kana": "トラップ",
+  "arti": "perangkap bau (trap)"
+ },
+ {
+  "kata": "シャワー",
+  "kana": "シャワー",
+  "arti": "pancuran (shower)"
+ },
+ {
+  "kata": "ロープ",
+  "kana": "ロープ",
+  "arti": "tali"
+ },
+ {
+  "kata": "マスク",
+  "kana": "マスク",
+  "arti": "masker",
+  "contoh": "マスクを着用[ちゃくよう]する",
+  "arti_contoh": "Memakai masker."
+ },
+ {
+  "kata": "キャップ",
+  "kana": "キャップ",
+  "arti": "tutup botol; topi"
+ },
+ {
+  "kata": "ペットボトル",
+  "kana": "ペットボトル",
+  "arti": "botol PET"
+ },
+ {
+  "kata": "ビン",
+  "kana": "ビン",
+  "arti": "botol kaca"
+ },
+ {
+  "kata": "マニュアル",
+  "kana": "マニュアル",
+  "arti": "manual; buku panduan",
+  "contoh": "マニュアルを守[まも]る",
+  "arti_contoh": "Menaati manual."
+ },
+ {
+  "kata": "ガムテープ",
+  "kana": "ガムテープ",
+  "arti": "lakban"
+ },
+ {
+  "kata": "テープ",
+  "kana": "テープ",
+  "arti": "pita; selotip"
+ },
+ {
+  "kata": "トング",
+  "kana": "トング",
+  "arti": "penjepit sampah (tongs)"
+ },
+ {
+  "kata": "ドライバー",
+  "kana": "ドライバー",
+  "arti": "obeng"
+ },
+ {
+  "kata": "マイナスドライバー",
+  "kana": "マイナスドライバー",
+  "arti": "obeng minus"
+ },
+ {
+  "kata": "エントランス",
+  "kana": "エントランス",
+  "arti": "pintu masuk (entrance)"
+ },
+ {
+  "kata": "エレベーター",
+  "kana": "エレベーター",
+  "arti": "lift (elevator)"
+ },
+ {
+  "kata": "コーナー",
+  "kana": "コーナー",
+  "arti": "sudut (corner)"
+ },
+ {
+  "kata": "テーブル",
+  "kana": "テーブル",
+  "arti": "meja"
+ },
+ {
+  "kata": "クロス",
+  "kana": "クロス",
+  "arti": "kain lap (cloth)"
+ },
+ {
+  "kata": "オフィス",
+  "kana": "オフィス",
+  "arti": "kantor (office)"
+ },
+ {
+  "kata": "スペース",
+  "kana": "スペース",
+  "arti": "ruang; tempat (space)"
+ },
+ {
+  "kata": "ルール",
+  "kana": "ルール",
+  "arti": "aturan (rule)",
+  "contoh": "ルールを守[まも]る",
+  "arti_contoh": "Menaati aturan."
+ },
+ {
+  "kata": "マナー",
+  "kana": "マナー",
+  "arti": "tata krama (manner)",
+  "contoh": "マナーを守[まも]る",
+  "arti_contoh": "Menjaga tata krama."
+ },
+ {
+  "kata": "プライベート",
+  "kana": "プライベート",
+  "arti": "urusan pribadi (private)"
+ },
+ {
+  "kata": "スケジュール",
+  "kana": "スケジュール",
+  "arti": "jadwal",
+  "contoh": "スケジュールを確認[かくにん]する",
+  "arti_contoh": "Memeriksa jadwal."
+ },
+ {
+  "kata": "チームワーク",
+  "kana": "チームワーク",
+  "arti": "kerja sama tim",
+  "contoh": "チームワークが大切[たいせつ]です",
+  "arti_contoh": "Kerja sama tim itu penting."
+ },
+ {
+  "kata": "スムーズ",
+  "kana": "スムーズ",
+  "arti": "lancar (smooth)"
+ },
+ {
+  "kata": "メモ",
+  "kana": "メモ",
+  "arti": "catatan (memo)",
+  "contoh": "メモを取[と]る",
+  "arti_contoh": "Mencatat."
+ },
+ {
+  "kata": "コピー",
+  "kana": "コピー",
+  "arti": "salinan; fotokopi"
+ },
+ {
+  "kata": "リセット",
+  "kana": "リセット",
+  "arti": "reset; mengatur ulang"
+ },
+ {
+  "kata": "ピアス",
+  "kana": "ピアス",
+  "arti": "anting tindik"
+ },
+ {
+  "kata": "アクセサリー",
+  "kana": "アクセサリー",
+  "arti": "aksesoris",
+  "contoh": "アクセサリーは外[はず]す",
+  "arti_contoh": "Lepaskan aksesoris."
+ },
+ {
+  "kata": "プロ",
+  "kana": "プロ",
+  "arti": "profesional (pro)"
+ },
+ {
+  "kata": "ポイント",
+  "kana": "ポイント",
+  "arti": "poin; titik penting"
+ },
+ {
+  "kata": "スタート",
+  "kana": "スタート",
+  "arti": "mulai (start)"
+ },
+ {
+  "kata": "メートル",
+  "kana": "メートル",
+  "arti": "meter"
+ },
+ {
+  "kata": "ウエット",
+  "kana": "ウエット",
+  "arti": "basah (wet)"
+ },
+ {
+  "kata": "メンテナンス",
+  "kana": "メンテナンス",
+  "arti": "perawatan (maintenance)"
+ },
+ {
+  "kata": "クッション",
+  "kana": "クッション",
+  "arti": "bantalan (cushion)"
+ },
+ {
+  "kata": "フラット",
+  "kana": "フラット",
+  "arti": "datar (flat)"
+ },
+ {
+  "kata": "ビザ",
+  "kana": "ビザ",
+  "arti": "visa",
+  "contoh": "特定技能[とくていぎのう]のビザを取得[しゅとく]する",
+  "arti_contoh": "Memperoleh visa Tokutei Ginou."
+ },
+ {
+  "kata": "マンガ",
+  "kana": "マンガ",
+  "arti": "manga (komik)"
+ },
+ {
+  "kata": "アニメ",
+  "kana": "アニメ",
+  "arti": "anime"
+ },
+ {
+  "kata": "ホームページ",
+  "kana": "ホームページ",
+  "arti": "situs web (homepage)"
+ },
+ {
+  "kata": "メール",
+  "kana": "メール",
+  "arti": "email"
+ },
+ {
+  "kata": "サポートセンター",
+  "kana": "サポートセンター",
+  "arti": "pusat dukungan (support center)"
+ },
+ {
+  "kata": "レベル",
+  "kana": "レベル",
+  "arti": "tingkat (level)"
+ },
+ {
+  "kata": "テキスト",
+  "kana": "テキスト",
+  "arti": "buku teks"
+ },
+ {
+  "kata": "ページ",
+  "kana": "ページ",
+  "arti": "halaman"
+ },
+ {
+  "kata": "ごみ",
+  "kana": "ごみ",
+  "arti": "sampah (hiragana)",
+  "contoh": "ごみを分別[ぶんべつ]する",
+  "arti_contoh": "Memilah sampah."
+ },
+ {
+  "kata": "ほこり",
+  "kana": "ほこり",
+  "arti": "debu",
+  "contoh": "ほこりを取[と]る",
+  "arti_contoh": "Menghilangkan debu."
+ },
+ {
+  "kata": "ぞうきん",
+  "kana": "ぞうきん",
+  "arti": "lap kain",
+  "contoh": "ぞうきんをしぼる",
+  "arti_contoh": "Memeras kain lap."
+ },
+ {
+  "kata": "ほうき",
+  "kana": "ほうき",
+  "arti": "sapu",
+  "contoh": "ほうきで掃[は]く",
+  "arti_contoh": "Menyapu dengan sapu."
+ },
+ {
+  "kata": "ちりとり",
+  "kana": "ちりとり",
+  "arti": "pengki"
+ },
+ {
+  "kata": "こんにちは",
+  "kana": "こんにちは",
+  "arti": "selamat siang"
+ },
+ {
+  "kata": "ありがとうございます",
+  "kana": "ありがとうございます",
+  "arti": "terima kasih"
+ },
+ {
+  "kata": "すみません",
+  "kana": "すみません",
+  "arti": "permisi; maaf"
+ },
+ {
+  "kata": "ごめんなさい",
+  "kana": "ごめんなさい",
+  "arti": "maaf (akrab)"
+ },
+ {
+  "kata": "おねがいします",
+  "kana": "おねがいします",
+  "arti": "mohon bantuannya",
+  "contoh": "おねがいします",
+  "arti_contoh": "Mohon bantuannya."
+ },
+ {
+  "kata": "はい",
+  "kana": "はい",
+  "arti": "ya"
+ },
+ {
+  "kata": "いいえ",
+  "kana": "いいえ",
+  "arti": "tidak"
+ },
+ {
+  "kata": "わかりました",
+  "kana": "わかりました",
+  "arti": "saya mengerti"
  }
 ]

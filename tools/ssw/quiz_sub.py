@@ -14,28 +14,47 @@ def MB(sid, sjp, truth, exp, img=None):
 
 # (subId, bab, no, judul_id, judul_jp, [soal...])
 SUB = [
- ("b1s1", "bab1", "1.1", "Mulai Bekerja, Istirahat, Selesai", "出勤・休憩・退勤", [
+ ("b1s7", "bab1", "1.1", "Kisah Mai: Hari Pertama", "マイさんの初出社", [
+  MB("Mai mendapat visa TOKUTEI GINOU setelah lulus ujian penilaian.", "マイさんは試験に合格して特定技能ビザを取得しました。", True, ("Alurnya: ujian → lulus → visa TOKUTEI GINOU.", "試験→合格→特定技能ビザの順です。")),
+  MB("WAX hanya untuk membuat lantai terlihat mengkilap, tidak melindungi bangunan.", "ワックスは見た目だけで、建材を守りません。", False, ("WAX adalah tindakan pencegahan yang memperpanjang umur bangunan.", "ワックスは建材の維持に役立ち、ビルを長持ちさせます。")),
+  Q("Mana yang BUKAN makna pekerjaan Cleaning Service dalam komik pembuka?", "マンガにある仕事の意味でないものはどれですか。",
+    [("Menghilangkan sampah dan kotoran", "ごみや汚れを取り除く"), ("Menjaga kebersihan", "キレイの維持"), ("Melindungi orang dari hama dan penyakit", "害虫や病気から人を守る"), ("Menjual peralatan pembersih", "掃除道具を売る")], 3,
+    ("Cleaning Service: hilangkan kotoran, jaga kebersihan, jaga bahan bangunan, jaga keamanan.", "汚れ除去・キレイの維持・建材の維持・安全性の維持です。")),
+ ]),
+ ("b1s8", "bab1", "1.2", "JBMA, ASCF, Kualifikasi", "JBMAとASCF", [
+  MB("JBMA menyelenggarakan ujian TOKUTEI GINOU bidang Building Cleaning.", "JBMAはビルクリーニングの特定技能試験を実施しています。", True, ("JBMA berdiri 1996 dan menyelenggarakan ujian.", "JBMAは1996年に設立され、試験を実施します。")),
+  Q("ASCF berperan sebagai…", "ASCFの役割はどれですか。",
+    [("Mendukung perekrutan dan pelatihan tenaga kerja asing", "外国人材の採用・教育を支援する"), ("Menjual bahan pembersih", "洗剤を売る"), ("Membangun gedung", "ビルを建てる"), ("Mengeluarkan visa", "ビザを発行する")], 0,
+    ("ASCF mendukung perekrutan & pelatihan tenaga asing atas permintaan JBMA.", "ASCFはJBMAの依頼で採用と教育を支援します。")),
+ ]),
+ ("b1s9", "bab1", "1.3", "Daftar Isi", "目次", [
+  Q("Pembersihan lantai dengan polisher dan kaca dibahas di bab…", "ポリッシャーと窓ガラスの清掃は第何章ですか。",
+    [("BAB 1", "第1章"), ("BAB 2", "第2章"), ("BAB 3", "第3章"), ("Tidak dibahas", "ない")], 2,
+    ("BAB 3 = pembersihan berkala (lantai, polisher, kaca, perlengkapan).", "第3章は定期清掃（床・ポリッシャー・ガラス・資器材）です。")),
+  MB("BAB 2 membahas pembersihan harian termasuk toilet.", "第2章は、トイレを含む日常清掃です。", True, ("BAB 2 = Pembersihan Harian.", "第2章は日常清掃です。")),
+ ]),
+ ("b1s1", "bab1", "1.4", "Mulai Bekerja, Istirahat, Selesai", "出勤・休憩・退勤", [
   MB("Sebelum pulang, pekerjaan dilaporkan ke PIC.", "退勤の前に、責任者に報告します。", True, ("Cek pekerjaan, lapor ke PIC, baru pulang.", "完了を確認し、責任者に報告してから退勤します。")),
   MB("Boleh memakai mesin foto copy perusahaan untuk urusan pribadi.", "会社のコピー機を私用で使ってもよいです。", False, ("Tidak boleh memakai telepon/HP/mesin foto copy perusahaan untuk urusan pribadi.", "会社の電話やコピー機を私用で使ってはいけません。")),
   Q("Mana urutan alur kerja 1 hari yang BENAR?", "1日の仕事の流れで正しいのはどれですか。",
     [("Masuk → rapat/persiapan → pembersihan → laporan → selesai", "出勤→ミーティング→清掃→報告→退勤"), ("Pembersihan → masuk → laporan → rapat", "清掃→出勤→報告→ミーティング"), ("Masuk → laporan → pembersihan → rapat", "出勤→報告→清掃→ミーティング"), ("Rapat → selesai → pembersihan → masuk", "ミーティング→退勤→清掃→出勤")], 0,
     ("Urutan benar: masuk kerja → rapat/persiapan → pembersihan → laporan & beres-beres → selesai.", "出勤→ミーティング・準備→清掃→報告・後片付け→退勤。")),
  ]),
- ("b1s2", "bab1", "1.2", "Tata Tertib (Tata Krama)", "身だしなみ", [
+ ("b1s2", "bab1", "1.5", "Tata Tertib (Tata Krama)", "身だしなみ", [
   MB("Sepatu boleh dipakai dengan tumit diinjak.", "靴のかかとを踏んではいてもよいです。", False, ("Tumit sepatu tidak boleh diinjak; seragam harus rapi.", "靴のかかとは踏みません。制服はきちんと着ます。")),
   MB("Anting, cincin, dan aksesoris dilepas saat bekerja.", "ピアスや指輪などのアクセサリーは外して働きます。", True, ("Aksesoris dilepas untuk mencegah kecelakaan kerja.", "アクセサリーは事故防止のために外します。")),
   Q("Mana yang sesuai dengan tata krama berpakaian?", "身だしなみとして正しいのはどれですか。",
     [("Seragam rapi dan bersih", "制服をきれいに着る"), ("Memakai cincin agar rapi", "指輪をつける"), ("Seragam dibiarkan kotor", "制服が汚れていてもよい"), ("Sepatu diinjak tumitnya", "靴のかかとを踏む")], 0,
     ("Seragam dipakai rapi dan bersih, tanpa aksesoris.", "制服はきれいに着て、アクセサリーは外します。")),
  ]),
- ("b1s3", "bab1", "1.3", "Pembersihan Harian dan Berkala", "日常清掃と定期清掃", [
+ ("b1s3", "bab1", "1.6", "Pembersihan Harian dan Berkala", "日常清掃と定期清掃", [
   MB("Pembersihan harian sudah cukup, pembersihan berkala tidak perlu.", "日常清掃だけで十分で、定期清掃は必要ありません。", False, ("Keduanya saling melengkapi.", "日常清掃と定期清掃はおたがいを補います。")),
   MB("Pemberian wax pada lantai termasuk pembersihan berkala.", "床のワックスがけは定期清掃です。", True, ("Pembersihan berkala termasuk pemeliharaan lantai (wax) dan kotoran yang sulit.", "定期清掃は床のワックスなど、ふだん落とせない汚れを取り、建物を守ります。")),
   Q("Pembersihan harian adalah…", "日常清掃とは何ですか。",
     [("Menjaga kebersihan setiap hari", "毎日きれいに保つ"), ("Merawat lantai dengan wax setahun sekali", "年に1回ワックスをかける"), ("Hanya membersihkan toilet", "トイレだけを掃除する"), ("Membersihkan hanya saat tamu komplain", "苦情のときだけ掃除する")], 0,
     ("Harian = menjaga kebersihan sehari-hari.", "日常清掃は毎日の清掃です。")),
  ]),
- ("b1s4", "bab1", "1.4", "5 Prinsip Cleaning Service", "清掃の5原則", [
+ ("b1s4", "bab1", "1.7", "5 Prinsip Cleaning Service", "清掃の5原則", [
   MB("Salah satu dari 5 prinsip adalah mengetahui jenis kotoran.", "5原則の1つは「汚れを知る」ことです。", True, ("5 prinsip: bangunan, kotoran, pembersih, cara membersihkan, pencegahan.", "5原則：建材・汚れ・洗剤・作業方法・予防。")),
   MB("Bahan bangunan tidak perlu diketahui sebelum membersihkan.", "掃除の前に建材を知らなくてもよいです。", False, ("Bahan bangunan adalah prinsip pertama.", "建材を知ることは5原則の1つです。")),
   Q("Mana yang BUKAN bagian dari 5 prinsip?", "5原則に入っていないものはどれですか。",
@@ -43,14 +62,14 @@ SUB = [
     ("5 prinsip tidak mencakup menghafal nama tamu.", "お客様の名前を覚えることは5原則にはありません。"),
     {"p": 12, "id": [18, 38, 76, 41], "jp": [18, 36, 76, 44]}),
  ]),
- ("b1s5", "bab1", "1.5", "Istilah Salam Sapa", "あいさつ用語", [
+ ("b1s5", "bab1", "1.8", "Istilah Salam Sapa", "あいさつ用語", [
   MB("Saat memberi hormat (ojigi), tatap mata lawan bicara dan bungkuk dari pinggang.", "お辞儀は相手を見て、腰から曲げます。", True, ("Tatap mata, ojigi dari pinggang dengan kaki rapat.", "相手の目を見て、足をそろえて腰から曲げます。")),
   MB("Boleh bicara kasar kepada tamu bila sedang sibuk.", "忙しいときはお客様に乱暴に話してもよいです。", False, ("Selalu sopan kepada tamu.", "お客様にはいつも丁寧に話します。")),
   Q("Apa arti 「申し訳ございません」?", "「申し訳ございません」はどんなときに使いますか。",
     [("Meminta maaf", "あやまるとき"), ("Berterima kasih", "ありがとうと言うとき"), ("Menyapa pagi", "朝のあいさつ"), ("Meminta tolong", "お願いするとき")], 0,
     ("Moushiwake gozaimasen = permintaan maaf yang sopan.", "申し訳ございませんはていねいなお詫びです。")),
  ]),
- ("b1s6", "bab1", "1.6", "Peraturan di Tempat Kerja", "職場のルール", [
+ ("b1s6", "bab1", "1.9", "Peraturan di Tempat Kerja", "職場のルール", [
   MB("HOURENSOU adalah lapor, komunikasi, dan konsultasi.", "ほうれんそうは報告・連絡・相談です。", True, ("HOUkoku, RENraku, SOUdan.", "報告・連絡・相談のことです。")),
   MB("Jika dikomplain tamu, sebaiknya berdalih dulu.", "お客様に苦情を言われたら、まず言い訳をします。", False, ("Jangan berdalih: catat, minta maaf, lapor PIC.", "言い訳せず、メモをとり、お詫びして責任者に報告します。")),
   Q("Apa yang dilakukan saat tamu komplain?", "お客様から苦情を言われたとき、どうしますか。",
