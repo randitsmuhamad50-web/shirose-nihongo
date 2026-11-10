@@ -654,6 +654,14 @@ const KC = window.KC = {
     const level = S().level, no = Number.isFinite(it.no) ? it.no : idx + 1;   // sama dengan itemNo() di index.html
     openWriter({ kind: "kanji", entry: it, level, no, tab: tab || "belajar", list: null });
   },
+  async openWord(idx, tab) {   // latihan menulis untuk kata di Kosakata (kanji dalam kata)
+    await ensureProgress(); await loadKana().catch(() => {});
+    const st = S(), it = (st.materi?.kosakata?.[st.level] || [])[idx]; if (!it) { toast("Data kosakata belum dimuat"); return; }
+    const kata = it.kata || it.k || "";
+    if (!writableChars(kata).some(c => c.codePointAt(0) >= 0x3400)) { toast("Kata ini tidak berisi kanji"); return; }
+    const no = 100000 + (Number.isFinite(it.no) ? it.no : idx + 1);   // jauh dari nomor kanji agar progres tidak bentrok
+    openWriter({ kind: "kanji", entry: { kanji: kata, kana: it.kana || it.f || "", arti: it.arti || it.a || "" }, level: st.level, no, tab: tab || "latihan", list: null });
+  },
   close() { closeWriter(); },
   step(d) {
     if (!WS || !WS.list) return;
@@ -726,7 +734,7 @@ document.addEventListener("keydown", (e) => { if (e.key === "Escape" && WS) clos
 window.addEventListener("hashchange", () => { if (WS) closeWriter(true); });
 /* ============================== LATIHAN BACA 200 KATA ============================== */
 let BACA = null; const KB = { t: "hira", set: "all", mode: "kartu", list: [], i: 0, show: false, sc: { ok: 0, ng: 0 }, pick: null };
-async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110o"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
+async function loadBaca() { if (BACA) return BACA; const r = await fetch("./data/kana-baca.json?v=20261110p"); if (!r.ok) throw new Error("Data latihan baca belum tersedia"); BACA = await r.json(); return BACA; }
 const bst = (t, k) => { const o = P.baca[t][k]; return !o ? "baru" : (o.ok >= 2 && o.last === 1) ? "kuasa" : o.last === 1 ? "bisa" : "belum"; };
 function bacaPool() { const all = BACA[KB.t]; if (KB.set === "all") return all; if (KB.set === "belum") return all.filter(w => { const s = bst(KB.t, w.k); return s === "baru" || s === "belum"; }); const n = +KB.set; return all.slice(n * 20, n * 20 + 20); }
 export async function renderKanaBaca([t]) {

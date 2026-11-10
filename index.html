@@ -1349,8 +1349,8 @@ html{overflow-x:hidden;}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
-<link rel="stylesheet" href="./css/kana-center.css?v=20261110o"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261110o"/>
+<link rel="stylesheet" href="./css/kana-center.css?v=20261110p"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261110p"/>
 </head>
 <body>
 
@@ -1404,11 +1404,11 @@ import { ACHIEVEMENTS } from "./js/achievements.js";
 import * as FB from "./js/firebase-sync.js?v=20261110c";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
-import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261110o";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261110p";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
-import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110o";
+import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110p";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110o";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110p";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -2743,6 +2743,8 @@ window.showMateri = async (tipe, idx) => {
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" data-say="${SV.escAttr(k)}" data-role="kanji" onclick="SV.btn(this)">🔊 Dengar</button>
+          <button class="btn ghost" onclick="showStrokeOrder('${(k||"").replace(/'/g,"")}')">書き順を見る</button>
+          <button class="btn" onclick="KC.openKanji(${idx},'latihan')">書いてみよう ✍️</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
         </div>
         ${_commentsPlaceholder("kanji", state.level, itemNo(it, idx))}
@@ -2769,6 +2771,7 @@ window.showMateri = async (tipe, idx) => {
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" data-say="${SV.escAttr(kata)}" data-read="${SV.escAttr(kana||kata)}" data-role="kosakata" onclick="SV.btn(this)">🔊 Dengar</button>
           <button class="btn ghost" onclick="showStrokeOrder('${(kata||"").replace(/'/g,"")}')">✍️ Urutan Goresan</button>
+          ${/[\u3400-\u9fff]/.test(kata) ? `<button class="btn" onclick="KC.openWord(${idx},'latihan')">書いてみよう ✍️</button>` : ""}
           <button class="btn gold" onclick='rangkumPopup({jp:"${(kata||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kosakata ${no}")'>➕ Rangkum</button>
         </div>
         ${_commentsPlaceholder("kosakata", state.level, itemNo(it, idx))}
@@ -2962,14 +2965,30 @@ window.showStrokeOrder = async (word) => {
   await Promise.all(kanjiChars.map((c, i) => _loadKanjiPanel(c, i)));
 };
 
+const _strokeShards = {};
+async function _localStroke(ch){
+  const sh = (ch.codePointAt(0) >> 8).toString(16).padStart(3, "0");
+  if (!_strokeShards[sh]) _strokeShards[sh] = fetch(`./data/kanji-strokes/${sh}.json`).then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  return (await _strokeShards[sh])[ch] || null;
+}
+function _strokeSvg(g){
+  const nums = g.n || g.s.map(d => { const m = /M\s*([\d.\-]+)[ ,]([\d.\-]+)/.exec(d); return m ? [parseFloat(m[1]) - 6, parseFloat(m[2]) - 2] : [10, 10]; });
+  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109 109"><g id="kvg:StrokePaths_x">${g.s.map(d => `<path d="${d}"/>`).join("")}</g><g id="kvg:StrokeNumbers_x">${nums.map((n, i) => `<text transform="matrix(1 0 0 1 ${n[0]} ${n[1]})">${i + 1}</text>`).join("")}</g></svg>`;
+}
 async function _loadKanjiPanel(ch, idx){
   const container = document.querySelector(`#stroke-grid .stroke-wrap[data-idx="${idx}"]`);
   const counter = document.querySelector(`#stroke-grid [data-counter="${idx}"]`);
   if (!container) return;
   try {
-    const res = await fetch(_kanjiVgUrl(ch));
-    if (!res.ok) throw new Error("Not in KanjiVG");
-    const text = await res.text();
+    // 1) data goresan lokal (dibundel di repo: data/kanji-strokes/) → tidak tergantung internet/CDN
+    // 2) cadangan: KanjiVG lewat CDN
+    let text = null;
+    try { const g = await _localStroke(ch); if (g) text = _strokeSvg(g); } catch(_){}
+    if (!text) {
+      const res = await fetch(_kanjiVgUrl(ch));
+      if (!res.ok) throw new Error("Not in KanjiVG");
+      text = await res.text();
+    }
     const doc = new DOMParser().parseFromString(text, "image/svg+xml");
     const svg = doc.querySelector("svg");
     if (!svg) throw new Error("SVG kosong");
