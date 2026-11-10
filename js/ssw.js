@@ -13,7 +13,7 @@
  * ===================================================================== */
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
-  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, recordQuiz, DAY
+  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, DAY
 } from "./ssw-core.js";
 import { islandSVG, buildingSVG } from "./ssw-art.js";
 
@@ -338,9 +338,10 @@ async function renderKuis([slug, quizId]) {
       ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Kuis & Evaluasi" }])}
       <div class="sw-head compact"><div class="jp">試験センター</div><h1>Evaluasi — Examination Center</h1><p>3 kuis tiap bab dan 3 ujian penuh dari semua bab. Skor terbaik tersimpan di akunmu.</p></div>
       ${chs.map(c => `<div class="sw-panel"><h2>BAB ${c.no} — ${esc(L(c.title, "id"))}</h2><div class="sw-qlist">${(pack.quiz.bab?.[c.id] || []).map((q, i) => row(q, `Kuis ${i + 1} · ${esc(L(q.title, "id"))}`)).join("") || '<p class="sw-muted">Belum ada kuis.</p>'}</div></div>`).join("")}
+      <div class="sw-panel"><h2>Tes Membaca Kosakata</h2><p class="sw-muted">Kanji dari kosakata buku → pilih bacaannya (hiragana/katakana). 15 soal acak.</p><div class="sw-qlist">${row({ id: "baca-kosakata", items: { length: 15 } }, "読み方テスト · Tes Membaca")}</div></div>
       <div class="sw-panel"><h2>Ujian Penuh (semua bab)</h2><div class="sw-qlist">${full.map((q, i) => row(q, `Ujian Penuh ${i + 1}`)).join("") || '<p class="sw-muted">Belum ada soal.</p>'}</div></div>`);
   }
-  const q = [...chs.flatMap(c => pack.quiz.bab?.[c.id] || []), ...full].find(x => x.id === quizId);
+  const q = quizId === "baca-kosakata" ? readingQuiz(pack) : [...chs.flatMap(c => pack.quiz.bab?.[c.id] || []), ...full].find(x => x.id === quizId);
   if (!q) return msgPage("🧭", "Kuis tidak ditemukan", "Kuis ini tidak ada atau belum dipublikasikan.", `route('ssw-kuis/${slug}')`);
   const lang = getLang();
   const rnd = seeded(quizId + Date.now());

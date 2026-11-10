@@ -229,6 +229,21 @@ export function fullQuizzes(pack, perQuiz = 20) {
   }
   return out;
 }
+
+/** Tes membaca: kanji kosakata → bacaan kana (diambil dari bank kosakata). 15 soal acak tiap kali dibuka. */
+export function readingQuiz(pack, n = 15) {
+  const items = (pack.vocab?.items || pack.vocab || []).filter(v => /[\u4e00-\u9fff]/.test(v.kata) && v.kana && v.kana !== v.kata);
+  if (items.length < 4) return null;
+  const pickN = shuffle(items).slice(0, Math.min(n, items.length));
+  const out = pickN.map(v => {
+    const others = shuffle(items.filter(o => o.kana !== v.kana)).sort((a, b) => Math.abs(a.kana.length - v.kana.length) - Math.abs(b.kana.length - v.kana.length)).slice(0, 6);
+    const wrong = shuffle(others).slice(0, 3).map(o => o.kana);
+    const opts = shuffle([v.kana, ...wrong]);
+    return { q: { id: `Bagaimana cara membaca ${v.kata} ?`, jp: `「${v.kata}」の{読|よ}み{方|かた}は？` }, opts: opts.map(k => ({ id: k, jp: k })), a: opts.indexOf(v.kana),
+      exp: { id: `${v.kata} dibaca ${v.kana} (${v.romaji}) = ${v.arti}.`, jp: `${v.kata}＝${v.kana}。` } };
+  });
+  return { id: "baca-kosakata", title: { id: "Tes Membaca Kosakata", jp: "{読|よ}み{方|かた}テスト" }, items: out };
+}
 export function recordQuiz(P, quizId, score, total, wrongIds) {
   const pct = Math.round(100 * score / Math.max(1, total));
   const q = P.quiz[quizId] || { best: -1, n: 0, hist: [] };
