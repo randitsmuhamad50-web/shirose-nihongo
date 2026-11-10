@@ -101,6 +101,12 @@ service cloud.firestore {
       allow delete: if isGuru();
     }
 
+    // ---------- Kelas kata kosakata (override guru) ----------
+    match /kosakata_pos/{lvl} {
+      allow read: if terdaftar();
+      allow write: if isGuru();
+    }
+
     // ---------- Lain-lain ----------
     match /kelas/{kid} {
       allow read: if terdaftar();

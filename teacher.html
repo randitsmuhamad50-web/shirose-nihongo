@@ -152,8 +152,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261110c";
-import { renderSswTab } from "./js/ssw-teacher.js?v=20261110s";
+import * as FB from "./js/firebase-sync.js?v=20261110t";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261110t";
 
 const state = {
   user: null,
@@ -263,6 +263,7 @@ function renderApp(){
         <div class="nav-item ${state.tab==='kategori'?'active':''}" onclick="setTab('kategori')"><span class="ico">📂</span> Paket Soal</div>
         <div class="nav-item ${state.tab==='soal'?'active':''}" onclick="setTab('soal')"><span class="ico">📝</span> Bank Soal</div>
         <div class="nav-item ${state.tab==='import'?'active':''}" onclick="setTab('import')"><span class="ico">📊</span> Import Excel</div>
+        <div class="nav-item ${state.tab==='kpos'?'active':''}" onclick="setTab('kpos')"><span class="ico">🏷️</span> Kategori Kosakata</div>
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
         <div class="nav-item ${state.tab==='ssw'?'active':''}" onclick="setTab('ssw')"><span class="ico">🌏</span> SSW</div>
@@ -288,6 +289,7 @@ async function renderTab(){
     else if (state.tab === "soal") mount.innerHTML = await renderSoalTab();
     else if (state.tab === "import") mount.innerHTML = await renderImportTab();
     else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
+    else if (state.tab === "kpos") mount.innerHTML = await renderKposTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
     else if (state.tab === "ssw") mount.innerHTML = await renderSswTab(FB, { toast, rerender: () => renderTab() });
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
@@ -296,6 +298,56 @@ async function renderTab(){
     else if (state.tab === "admin")   mount.innerHTML = await renderAdminTab();
   } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
 }
+
+/* ========== TAB: KATEGORI KOSAKATA (kelas kata) ========== */
+const KPOS = [["KK","動詞 Kata Kerja"],["KB","名詞 Kata Benda"],["KSい","い形容詞"],["KSな","な形容詞"]];
+state.kpos = state.kpos || { lv:"n5", q:"", page:0, rows:[], ov:{} };
+async function renderKposTab(){
+  const S = state.kpos;
+  const base = await (await fetch(`./data/kosakata-${S.lv}.json`, { cache:"no-store" })).json();
+  try { S.ov = await FB.getPosOverride(S.lv); } catch(e){ S.ov = {}; S.err = e.message; }
+  base.forEach(it => { const t = S.ov[it.kata]; it._base = it.pos; if (t) { if (t[0] === "-") delete it.pos; else it.pos = t; } it._ov = !!t; });
+  S.rows = base;
+  return kposDraw();
+}
+function kposDraw(){
+  const S = state.kpos, q = S.q.trim().toLowerCase(), PER = 50;
+  const idx = S.rows.map((it,i)=>i).filter(i => !q || (S.rows[i].kata+S.rows[i].kana+S.rows[i].arti).toLowerCase().includes(q));
+  const pages = Math.max(1, Math.ceil(idx.length / PER)); S.page = Math.min(S.page, pages-1);
+  const cnt = k => S.rows.filter(it => (it.pos||[]).includes(k)).length;
+  return `<div class="panel"><h2>🏷️ Kategori Kosakata</h2>
+    <p style="color:var(--gray);font-size:13px;">Centang kelas kata tiap kosakata (boleh lebih dari satu). Perubahan langsung tampil di Materi &amp; Hafalan siswa. Data asli tidak diubah.</p>
+    ${S.err ? `<div class="alert alert-err">Tidak bisa membaca/menulis override: ${escHtml(S.err)}. Publish rule <code>kosakata_pos</code> (lihat firestore.rules.example).</div>` : ""}
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;">
+      <select onchange="kposLv(this.value)">${["n5","n4","n3","n2","n1"].map(l=>`<option value="${l}" ${l===S.lv?"selected":""}>${l.toUpperCase()}</option>`).join("")}</select>
+      <input id="kpos-q" placeholder="Cari kata / arti…" value="${escHtml(S.q)}" oninput="kposQ(this.value)" style="flex:1;min-width:160px;"/>
+    </div>
+    <div style="font-size:13px;color:var(--gray);margin-bottom:8px;">${KPOS.map(([k,l])=>`${l}: <b>${cnt(k)}</b>`).join(" · ")} · Total ${S.rows.length}</div>
+    <div style="overflow:auto;"><table><thead><tr><th>#</th><th>Kata</th><th>Arti</th>${KPOS.map(([k,l])=>`<th>${l}</th>`).join("")}<th></th></tr></thead><tbody>
+    ${idx.slice(S.page*PER,(S.page+1)*PER).map(i=>{const it=S.rows[i];return `<tr><td>${i+1}</td><td><b>${escHtml(it.kata)}</b><br><small>${escHtml(it.kana||"")}</small></td><td>${escHtml((it.arti||"").slice(0,60))}</td>
+      ${KPOS.map(([k])=>`<td style="text-align:center;"><input type="checkbox" ${(it.pos||[]).includes(k)?"checked":""} onchange="kposSet(${i},'${k}',this.checked)"/></td>`).join("")}
+      <td>${it._ov ? `<button class="btn ghost" onclick="kposReset(${i})" title="Kembalikan ke bawaan">↺</button>` : ""}</td></tr>`}).join("")}
+    </tbody></table></div>
+    <div style="display:flex;gap:8px;margin-top:10px;align-items:center;">${Array.from({length:pages},(_,p)=>`<button class="btn ${p===S.page?"":"ghost"}" onclick="kposPage(${p})">${p+1}</button>`).join("")}</div></div>`;
+}
+const kposRedraw = () => { document.getElementById("main").innerHTML = kposDraw(); const q=document.getElementById("kpos-q"); if(q && document.activeElement!==q){} };
+window.kposLv = (l) => { state.kpos.lv = l; state.kpos.page = 0; renderTab(); };
+window.kposQ = (v) => { state.kpos.q = v; state.kpos.page = 0; kposRedraw(); const q=document.getElementById("kpos-q"); q.focus(); q.setSelectionRange(v.length, v.length); };
+window.kposPage = (p) => { state.kpos.page = p; kposRedraw(); };
+window.kposSet = async (i, k, on) => {
+  const S = state.kpos, it = S.rows[i], set = new Set(it.pos || []);
+  on ? set.add(k) : set.delete(k);
+  const tags = KPOS.map(([x])=>x).filter(x => set.has(x));
+  try { await FB.setPosOverride(S.lv, it.kata, tags); it.pos = tags.length ? tags : undefined; it._ov = true; S.err = null; toast("Tersimpan ✓"); }
+  catch(e){ S.err = e.message; toast("Gagal simpan: " + e.message); }
+  kposRedraw();
+};
+window.kposReset = async (i) => {
+  const S = state.kpos, it = S.rows[i];
+  try { await FB.resetPosOverride(S.lv, it.kata); it.pos = it._base; it._ov = false; toast("Dikembalikan ke bawaan"); }
+  catch(e){ toast("Gagal: " + e.message); }
+  kposRedraw();
+};
 
 /* ========== TAB: SISWA ========== */
 async function renderSiswaTab(){

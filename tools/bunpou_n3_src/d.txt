@@ -1,0 +1,367 @@
+## 161 | 一体 | いったい
+arti: Sebenarnya ...?; apa sih sebenarnya ...?
+pen: Dipakai dengan kata tanya untuk menyatakan rasa heran atau menuntut jawaban.
+- 一体 + 疑問詞 (何・どう・なぜ・いつ) + KK / KSい / KSな
+C: いったい、いつになったら外出の準備ができるんだろう。
+T: Sebenarnya kapan sih aku bisa siap untuk keluar?
+## 162 | 〜でよければ | でよければ
+arti: Kalau ... tidak keberatan; kalau ... cukup
+pen: Menawarkan bantuan atau pilihan secara rendah hati ("kalau saya/ini bisa diterima").
+- KB + で + よければ
+- KB + で + いいなら
+C: 私でよければ、案内しますが。
+T: Kalau saya tidak apa-apa, saya bisa memandu.
+## 163 | あるいは | あるいは
+arti: Atau ...
+pen: Kata sambung formal untuk menyatakan pilihan (setara それとも / または).
+- KB1 + あるいは + KB2
+- Kalimat A、あるいは Kalimat B
+C: 月曜日あるいは火曜日であれば、参加できます。
+T: Kalau hari Senin atau Selasa, saya bisa ikut.
+## 164 | 〜おきに | おきに
+arti: Setiap selang ...; tiap ...
+pen: Menyatakan interval yang berulang. 1時間おき = tiap 1 jam (selang 1 jam).
+- KB (jumlah / waktu) + おきに
+C: 1時間おきに、温度を測ってください。
+T: Tolong ukur suhu setiap satu jam.
+## 165 | 〜上がる・〜上げる | あがる・あげる
+arti: Selesai ...; ... sampai tuntas
+pen: Akhiran yang menyatakan bahwa sesuatu dikerjakan sampai selesai atau menjadi lengkap.
+- KK bentuk ます dicoret + 上がる (jidoushi: 出来上がる・仕上がる)
+- KK bentuk ます dicoret + 上げる (tadoushi: 書き上げる・作り上げる)
+C: やっと、絵が描き上がった。
+T: Akhirnya gambarnya selesai dibuat.
+## 166 | ますます | ますます
+arti: Semakin ...; makin lama makin ...
+pen: Menyatakan bahwa suatu keadaan semakin meningkat dari sebelumnya.
+- ますます + KSい / KSな / KK
+C: 水不足がますます深刻になってきている。
+T: Kekurangan air semakin lama semakin serius.
+## 167 | 〜だけでなく〜も | だけでなく
+arti: Bukan hanya ..., tetapi juga ...
+pen: Menambahkan hal lain yang juga berlaku. Bentuk percakapan: だけじゃなくて.
+- KB + だけでなく + KB + も
+- KK / KSい bentuk biasa + だけでなく + ... + も
+- KSな + な / である + だけでなく ... も
+C: アイスクリームだけじゃなくて、プリンも買いました。
+T: Saya membeli bukan hanya es krim, tetapi juga puding.
+## 168 | 〜ようとしたが | ようとしたが
+arti: Berusaha ... tetapi ...
+pen: Menyatakan bahwa seseorang berusaha melakukan sesuatu tetapi hasilnya berbeda.
+- KK bentuk volisional + としたが / としたけど
+C: 僕と彼は同時にジャンプしようとしたけれど、失敗した。
+T: Aku dan dia berusaha melompat bersamaan, tetapi gagal.
+## 169 | 〜たて | たて
+arti: Baru saja ...; masih segar ...
+pen: Menyatakan bahwa sesuatu baru saja selesai dibuat/dilakukan dan masih segar.
+- KK bentuk ます dicoret + たて (焼きたて・取れたて・できたて)
+C: 釣りたての魚を食べるのは最高だ。
+T: Memakan ikan yang baru saja ditangkap itu luar biasa.
+## 170 | すでに | すでに
+arti: Sudah ...; telah ...
+pen: Adverbia formal untuk menyatakan bahwa sesuatu sudah terjadi sebelum waktu bicara.
+- すでに + KK bentuk た / ている
+C: すでにご存じかもしれませんが、確認のためもう一度お聞きします。
+T: Mungkin Anda sudah tahu, tetapi sekadar memastikan, saya tanyakan sekali lagi.
+## 171 | 遂に | ついに
+arti: Akhirnya ...; pada akhirnya
+pen: Menyatakan bahwa hal yang ditunggu akhirnya terjadi, atau (dengan negatif) tidak terjadi sampai akhir.
+- ついに + KK bentuk た
+- ついに + KK bentuk ない (tidak pernah ... sampai akhir)
+C: ついに、論文を書き上げた。
+T: Akhirnya saya selesai menulis tesis.
+## 172 | 必ずしも〜ない | かならずしも
+arti: Belum tentu ...; tidak selalu ...
+pen: Menyangkal bahwa suatu hal selalu benar. Selalu dipakai dengan negatif (とは限らない・わけではない).
+- 必ずしも + KK / KSい / KSな / KB + とは限らない
+- 必ずしも + KK bentuk ない
+C: 男の人が必ずしも運転が上手とは限らない。
+T: Laki-laki belum tentu pandai mengemudi.
+## 173 | 〜たものだ | たものだ
+arti: Dulu sering ...; (mengenang) ...
+pen: Mengenang kebiasaan yang sering dilakukan di masa lalu dengan rasa nostalgia.
+- KK bentuk た + ものだ
+C: 子どもの頃は、よく海へ泳ぎに行ったものだ。
+T: Waktu kecil, saya dulu sering pergi berenang di laut.
+## 174 | つい | つい
+arti: Tanpa sengaja ...; terlanjur ...
+pen: Menyatakan bahwa tindakan dilakukan tanpa disengaja atau karena tidak bisa menahan diri.
+- つい + KK bentuk た / てしまう
+C: ダイエット中なのに、ついアイスクリームを食べてしまった。
+T: Padahal sedang diet, saya tak sengaja memakan es krim.
+## 175 | 〜だけしか〜ない | だけしか
+arti: Hanya ... saja (tidak ada yang lain)
+pen: Gabungan だけ dan しか~ない untuk menekankan jumlah yang sedikit.
+- KB + だけしか + KK bentuk ない
+C: この時間、医師は一人だけしかいません。
+T: Pada jam ini hanya ada satu dokter saja.
+## 176 | 即ち | すなわち
+arti: Yaitu ...; dengan kata lain ...
+pen: Kata sambung formal untuk menjelaskan ulang dengan padanan yang sama.
+- KB1 + 、すなわち + KB2
+C: 彼は母の弟の息子、すなわち私のいとこです。
+T: Dia adalah anak adik ibu saya, yaitu sepupu saya.
+## 177 | どうしても | どうしても
+arti: Bagaimanapun juga ...; (dengan negatif) sama sekali tidak bisa ...
+pen: Dengan bentuk positif: sangat ingin / harus. Dengan negatif: sekeras apa pun usahanya tidak bisa.
+- どうしても + KK bentuk たい / KK bentuk ます dicoret + たい
+- どうしても + KK bentuk ない / 〜れない
+C: どうしてもお土産を買いたい。
+T: Bagaimanapun saya ingin membeli oleh-oleh.
+## 178 | わざわざ | わざわざ
+arti: Dengan sengaja ...; repot-repot ...
+pen: Menyatakan bahwa seseorang melakukan sesuatu dengan sengaja/repot-repot, meskipun sebenarnya tidak perlu.
+- わざわざ + KK
+C: わざわざここまで来てくださって、ありがとうございます。
+T: Terima kasih sudah repot-repot datang sampai ke sini.
+## 179 | もしも〜なら・もしも〜でも | もしも
+arti: Seandainya ... (maka / pun) ...
+pen: もしも menekankan pengandaian dibanding もし.
+- もしも + KK bentuk biasa + なら / としても
+- もしも + KSい + なら / くても
+- もしも + KB + なら / でも
+C: もしもドラえもんがいたなら、助けてもらえるのに。
+T: Seandainya Doraemon ada, aku pasti ditolong.
+## 180 | 〜と同じで・〜と違って | とおなじで
+arti: Sama dengan ... / berbeda dengan ...
+pen: Membandingkan kesamaan atau perbedaan dengan hal lain.
+- KB + と同じで + kalimat
+- KB + と違って + kalimat
+C: 母親と違って、彼女はとても料理が上手だ。
+T: Berbeda dengan ibunya, dia sangat pandai memasak.
+## 181 | 〜に基づいて | にもとづいて
+arti: Berdasarkan ...
+pen: Menyatakan bahwa sesuatu dibuat atau dilakukan dengan dasar fakta, data, atau aturan.
+- KB + に基づいて + KK
+- KB + に基づく + KB
+C: 歴史的事実に基づいて作られた映画です。
+T: Ini film yang dibuat berdasarkan fakta sejarah.
+## 182 | 〜かは〜によって違う | かはによってちがう
+arti: Apakah ... berbeda-beda tergantung ...
+pen: Menyatakan bahwa penilaian atau jawaban berbeda menurut orang atau kondisi.
+- KK / KSい / KSな bentuk biasa + か + は + KB + によって + 違う
+C: 音楽が好きか嫌いかは、人によって違う。
+T: Suka atau tidak suka musik berbeda-beda tergantung orangnya.
+## 183 | 助詞 + の（との・での・からの） | じょしのの
+arti: Partikel + の (untuk menghubungkan ke kata benda)
+pen: Untuk memodifikasi kata benda dengan frasa berpartikel, tambahkan の setelah partikel (との, での, への, からの, までの).
+- KB + と + の + KB (との握手会)
+- KB + で + の + KB (ここでの生活)
+- KB + から + の + KB
+- KB + まで + の + KB
+C: アイドルとの握手会に行こう。
+T: Ayo pergi ke acara jabat tangan dengan idola.
+## 184 | また〜も | またも
+arti: Juga ...; selain itu ... juga ...
+pen: また menambahkan informasi lain; ~も memperkuat nuansa "juga".
+- Kalimat A。また、Kalimat B
+- KB1 + も + また + KB2
+C: 「から」は理由を表す。また、起点を表すこともある。
+T: "Kara" menyatakan alasan. Selain itu, juga bisa menyatakan titik awal.
+## 185 | 〜と同じくらい | とおなじくらい
+arti: Sama ... dengan ...; setara dengan ...
+pen: Menyatakan bahwa tingkat dua hal hampir sama.
+- KB1 + は + KB2 + と同じくらい + KSい / KSな / KK
+C: このレシピは、卵焼きと同じくらい簡単です。
+T: Resep ini semudah membuat telur dadar.
+## 186 | KB + 型 | がた
+arti: Tipe ...; model ...
+pen: Akhiran yang menyatakan jenis atau bentuk.
+- KB + 型 (血液型・データ型)
+- KB + 型の + KB
+C: 整数はデータ型の一つである。
+T: Bilangan bulat adalah salah satu tipe data.
+## 187 | 〜合う | あう
+arti: Saling ...; bersama-sama ...
+pen: Akhiran kata kerja yang menyatakan tindakan timbal balik.
+- KK bentuk ます dicoret + 合う
+C: 友達が苦しんでいる時は、助け合うべきだ。
+T: Saat teman sedang kesulitan, kita seharusnya saling membantu.
+## 188 | 〜と言える | といえる
+arti: Dapat dikatakan ...
+pen: Menyatakan penilaian atau kesimpulan dengan hati-hati.
+- KK / KSい bentuk biasa + と言える
+- KSな / KB + だ + と言える
+C: 昨年度に比べて、今年度は成功だと言えるでしょう。
+T: Dibanding tahun lalu, tahun ini dapat dikatakan sukses.
+## 189 | 〜のことだ / 〜ということだ（定義） | のことだ
+arti: Yang dimaksud adalah ...
+pen: Dipakai untuk menjelaskan arti suatu kata.
+- KB1 + というのは + KB2 + のことだ
+- KB1 + とは + KB2 + のことだ
+C: 幽霊船というのは、生きた乗組員のいない船舶のことである。
+T: Yang disebut kapal hantu adalah kapal tanpa awak yang hidup.
+## 190 | 〜のは〜の方だ | のはのほうだ
+arti: Yang ... adalah pihak ...
+pen: Menekankan pihak mana yang melakukan atau terkait suatu hal.
+- KK bentuk biasa + のは + KB + の方だ
+- KSい / KSな + のは + KB + の方だ
+C: 悪いのは君ではない。謝るべきなのは、僕の方だ。
+T: Bukan kamu yang salah. Yang seharusnya minta maaf adalah aku.
+## 191 | 〜は〜となっている | はとなっている
+arti: ... adalah (aturannya) ...; ... ditetapkan sebagai ...
+pen: Menyatakan aturan, ketentuan, atau keadaan yang sudah ditetapkan.
+- KB1 + は + KB2 + と + なっている
+- KK bentuk kamus + こと + に + なっている
+C: この国では、20歳未満の飲酒は違法となっている。
+T: Di negara ini, minum alkohol di bawah 20 tahun adalah melanggar hukum.
+## 192 | 〜に当たる | にあたる
+arti: Setara dengan ...; bertepatan dengan ...
+pen: Menyatakan bahwa sesuatu sepadan atau bertepatan dengan hal lain.
+- KB1 + は + KB2 + に当たる
+C: 私にとって、彼は叔父に当たる人です。
+T: Bagi saya, dia termasuk paman saya.
+## 193 | 〜と関係がある | とかんけいがある
+arti: Ada hubungannya dengan ...
+pen: Menyatakan bahwa suatu hal berhubungan dengan hal lain.
+- KB1 + は + KB2 + と + 関係がある
+- KB1 + は + KB2 + に + 関係がない (tidak ada hubungan)
+C: この事件は、あの会社と関係がある。
+T: Kasus ini ada kaitannya dengan perusahaan itu.
+## 194 | 〜という点で | というてんで
+arti: Dalam hal ...; dari segi ...
+pen: Menunjukkan aspek atau sudut pandang suatu penilaian.
+- KK / KSい bentuk biasa + という点で
+- KB + という点で
+- KB + の点で
+C: 何らかの対策が必要だという点で、全員の意見が一致した。
+T: Dalam hal perlunya langkah tertentu, pendapat semua orang sama.
+## 195 | 〜という理由で | というりゆうで
+arti: Dengan alasan ...
+pen: Menyatakan alasan yang dikemukakan.
+- KK / KSい bentuk biasa + という理由で
+- KSな / KB + だ + という理由で
+C: 病気だという理由で、会議を休んだ。
+T: Dengan alasan sakit, dia absen dari rapat.
+## 196 | せっかく | せっかく
+arti: Susah payah ...; sayang kalau tidak ...
+pen: Menyatakan bahwa sudah susah payah, atau bahwa kesempatan langka sayang jika disia-siakan.
+- せっかく + KK bentuk た + のに + kalimat negatif
+- せっかく + KK bentuk た + から + kalimat ajakan
+C: せっかく勉強したのに、試験に落ちてしまった。
+T: Sudah susah payah belajar, tetapi saya gagal ujian.
+## 197 | 〜は言うまでもない | はいうまでもない
+arti: Tidak perlu dikatakan lagi ...; apalagi ...
+pen: Menyatakan bahwa sesuatu sudah sangat jelas sehingga tidak perlu dikatakan; sering diikuti hal yang lebih jauh.
+- KB + は + 言うまでもない
+- KK / KSい bentuk biasa + のは + 言うまでもない
+C: 困っている人を助けるべきなのは、言うまでもない。
+T: Tidak perlu dikatakan lagi bahwa kita harus menolong orang yang kesulitan.
+C: ライオンやヘビは言うまでもなく、カバも危ない。
+T: Apalagi singa dan ular, kuda nil pun berbahaya.
+## 198 | 〜かというと | かというと
+arti: Kalau ditanya apakah ..., (jawabannya) ...
+pen: Menyatakan "kalau ditanya mengapa/apakah..." lalu menjelaskan jawabannya.
+- KK / KSい bentuk biasa + かというと
+- KSな / KB + かというと
+C: なぜ買わなかったかというと、前に買って二週間で壊れたからだ。
+T: Kalau ditanya kenapa tidak membeli, karena dulu pernah beli dan rusak dalam dua minggu.
+C: 何でこうなったかというと、すべては一週間前に始まった。
+T: Kalau ditanya kenapa jadi begini, semuanya dimulai seminggu yang lalu.
+## 199 | 〜で言うと | でいうと
+arti: Kalau dinyatakan dengan ...; dalam istilah ...
+pen: Menjelaskan sesuatu dengan padanannya dalam sistem atau sudut pandang lain.
+- KB + で言うと
+C: 西暦2019年は、令和で言うと元年にあたります。
+T: Tahun 2019 Masehi, dalam istilah Reiwa, adalah tahun pertama.
+## 200 | 〜ずつ | ずつ
+arti: Masing-masing ...; sedikit demi sedikit ...
+pen: Menyatakan pembagian atau penambahan dengan jumlah yang sama setiap kali.
+- KB (jumlah) + ずつ
+C: 地球温暖化のため、気温は毎年0.008度ずつ上がっている。
+T: Karena pemanasan global, suhu naik 0,008 derajat setiap tahun.
+## 201 | 〜同士 | どうし
+arti: Sesama ...; antar ...
+pen: Menyatakan bahwa orang atau hal sejenis atau dalam hubungan yang sama saling melakukan sesuatu.
+- KB + 同士
+C: キリンはオス同士でけんかをする。
+T: Jerapah jantan berkelahi sesama jantan.
+## 202 | 〜と並んで | とならんで
+arti: Sejajar dengan ...; sama pentingnya dengan ...
+pen: Menyatakan bahwa dua hal berada pada tingkat yang sama.
+- KB1 + と並んで + KB2
+C: この作品はモナリザと並んで、高く評価されている。
+T: Karya ini dihargai tinggi, sejajar dengan Mona Lisa.
+## 203 | 第一 | だいいち
+arti: Yang terpenting ...; pertama-tama ...
+pen: Menyatakan hal yang paling diutamakan atau urutan pertama.
+- KB + 第一
+- 第一に + KK
+C: 安全第一で作業してください。
+T: Tolong bekerja dengan mengutamakan keselamatan.
+## 204 | 〜は考えられない | はかんがえられない
+arti: Tidak terpikirkan ...; mustahil ...
+pen: Menyatakan bahwa sesuatu tidak masuk akal atau tidak mungkin.
+- KB + は + 考えられない
+- KK bentuk biasa + ことは + 考えられない
+C: 子どもがそんな難しい問題を解くとは、考えられない。
+T: Tidak masuk akal kalau anak kecil bisa memecahkan soal sesulit itu.
+## 205 | 〜なし | なし
+arti: Tanpa ...; tidak ada ...
+pen: Menyatakan ketiadaan sesuatu.
+- KB + なし
+- KB + なしで / KB + なしの + KB
+C: 砂糖なしのダイエットドリンクです。
+T: Ini adalah minuman diet tanpa gula.
+## 206 | 〜込む | こむ
+arti: Masuk ke dalam ...; sampai habis/sungguh-sungguh ...
+pen: Akhiran yang menyatakan masuk ke dalam (持ち込む), atau melakukan sesuatu secara mendalam / penuh (黙り込む・考え込む).
+- KK bentuk ます dicoret + 込む
+C: ドラゴンを教室に持ち込むのは、ルール違反じゃないか。
+T: Membawa naga ke dalam kelas bukankah melanggar aturan?
+C: みんな、いっせいに黙り込んでしまった。
+T: Semua orang serentak terdiam.
+## 207 | さ（語尾・フィラー・感嘆） | さ
+arti: Partikel percakapan "sa" (memantapkan, pengisi, ajakan)
+pen: Dipakai dalam percakapan santai: sebagai pengisi/pemanis kalimat, untuk menegaskan pernyataan, atau seruan ajakan.
+- Kalimat + さ (menegaskan: 本当さ)
+- Kata / frasa + さ (pengisi: 内緒だけどさ)
+- さあ + ajakan (さあ、始めよう)
+C: 内緒だけどさ、彼、宝くじに当たったんだよ。
+T: Ini rahasia, ya, tapi dia menang undian.
+C: 明日までに終えることができるさ。本当さ。
+T: Aku bisa menyelesaikannya sampai besok. Sungguh.
+C: さあ、仕事を始めよう。
+T: Ayo, mari kita mulai bekerja.
+## 208 | 〜でもある | でもある
+arti: Juga merupakan ...
+pen: Menyatakan bahwa suatu hal mempunyai sisi atau peran lain juga.
+- KB + でもある
+- KSな + でもある
+C: 語学を学ぶことは楽しい。しかし、自分との戦いでもある。
+T: Belajar bahasa itu menyenangkan. Tetapi juga merupakan pertarungan melawan diri sendiri.
+## 209 | 〜（の）姿 | すがた
+arti: Sosok ...; wujud ...; penampilan ...
+pen: Menyatakan penampilan atau keadaan yang tampak dari seseorang saat melakukan sesuatu.
+- KK bentuk biasa + 姿
+- KB + の + 姿
+C: あなたの動く姿が好きです。
+T: Saya suka sosokmu saat bergerak.
+## 210 | かなり | かなり
+arti: Cukup ...; lumayan ...
+pen: Menyatakan tingkat yang cukup tinggi (lebih tinggi dari とても tidak, tetapi lebih dari biasa).
+- かなり + KSい / KSな / KK
+C: ここは、かなり遠いほうだね。
+T: Tempat ini termasuk cukup jauh ya.
+## 211 | 〜を左右する | をさゆうする
+arti: Menentukan ...; mempengaruhi ...
+pen: Menyatakan bahwa sesuatu sangat mempengaruhi hasil atau keputusan.
+- KB + を + 左右する
+- KB + に + 左右される
+C: 靴の手入れが、靴の寿命を左右する。
+T: Perawatan sepatu menentukan umur sepatu.
+## 212 | ちゃんと・きちんと | ちゃんと
+arti: Dengan benar ...; dengan rapi ...
+pen: Menyatakan bahwa sesuatu dilakukan sesuai aturan atau dengan teliti.
+- ちゃんと / きちんと + KK
+C: おばあちゃんが来る前に、部屋をきちんと片付けなさい。
+T: Rapikan kamar dengan baik sebelum nenek datang.
+## 213 | 〜ずっと | ずっと
+arti: Jauh lebih ...; terus-menerus ...
+pen: Pola 1: menekankan perbedaan besar pada perbandingan. Pola 2: menyatakan keadaan terus berlangsung.
+- KB1 + のほうが + KB2 + より + ずっと + KSい / KSな
+- ずっと + KK (terus ...)
+C: 太陽のほうが地球よりずっと大きいです。
+T: Matahari jauh lebih besar daripada bumi.
+C: 昨日からずっと雨が降っている。
+T: Sejak kemarin hujan terus turun.
