@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, DAY
-} from "./ssw-core.js?v=20261110d";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110d";
+} from "./ssw-core.js?v=20261110e";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110e";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -147,7 +147,7 @@ async function renderPeta([slug]) {
     const pr = babProgress(P, c, pack.vocab);
     return { bld: NODE_BLD[i] || "training", st: pr.status, label: `BAB ${c.no}`, sub: L(c.title, "id"), pct: pr.pct, go: `route('ssw-bab/${slug}/${c.id}')` };
   });
-  const qDone = [...chs.map(c => [1, 2, 3].map(n => `${c.id}-q${n}`)).flat(), "full-q1", "full-q2", "full-q3"].filter(q => P.quiz[q]).length;
+  const qDone = Object.keys(P.quiz || {}).length;
   nodes.push({ bld: "exam", st: qDone ? "proses" : "belum", label: "EVALUASI", sub: "試験センター", pct: null, go: `route('ssw-kuis/${slug}')` });
   const st = cardStats(P, pack.vocab);
   const last = P.last;
@@ -165,6 +165,7 @@ async function renderPeta([slug]) {
       <button class="btn ghost" onclick="route('ssw-kosa/${slug}/all')">📚 Kosakata (${st.total})</button>
       <button class="btn ghost" onclick="route('ssw-buku/${slug}/${getLang()}/1')">📖 Buku interaktif</button>
       <button class="btn ghost" onclick="route('ssw-kuis/${slug}')">📝 Kuis</button>
+      <button class="btn" onclick="route('ssw-hafal/${slug}')">🃏 Hafalan</button>
       <button class="btn gold" onclick="route('ssw-rank/${slug}')">🏆 Leaderboard</button>
     </div>
     <div class="sw-attr">Materi: ${esc(pack.chapters[0]?.source || "")}</div>
@@ -197,7 +198,7 @@ async function renderBab([slug, babId]) {
       <button class="btn sw-big" onclick="SSW.go('${slug}','${c.subs[0].id}')">Mulai belajar ›</button>
     </div>
     <div class="sw-panel"><h2>Subbab</h2><ol class="sw-subs">${subs}</ol></div>
-    <div class="sw-panel"><h2>Latihan bab ini</h2><div class="sw-actions left">
+    <div class="sw-panel"><h2>Latihan bab ini</h2><div class="sw-actions left"><button class="btn" onclick="route('ssw-hafal/${slug}/${c.id}')">🃏 HAFALAN KOSAKATA · 単語暗記</button>
       <button class="btn ghost" onclick="route('ssw-kosa/${slug}/${c.id}')">📚 Kosakata BAB ${c.no} (${words.length})</button>
       <button class="btn ghost" onclick="route('ssw-kartu/${slug}/${c.id}/review')">🃏 Flashcard BAB ${c.no}</button>
       ${qz.map((q, i) => `<button class="btn ghost" onclick="route('ssw-kuis/${slug}/${q.id}')">📝 Kuis ${i + 1}${P.quiz[q.id] ? ` · ${P.quiz[q.id].best}%` : ""}</button>`).join("")}
@@ -238,12 +239,24 @@ async function renderBaca([slug, subId, mode, lang]) {
   const [p1, p2] = s.pages;
   const thumbs = []; for (let p = p1; p <= p2; p++) thumbs.push(p);
   const body = mode === "lengkap" ? blocksHTML(s.full?.[lang]) : summaryHTML(s.summary?.[lang]);
+  setTimeout(() => window.SSW.linkVocab(slug), 0);
   return wrap(`
     ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: `BAB ${c.no}`, go: `route('ssw-bab/${slug}/${c.id}')` }, { t: `${s.no}` }])}
-    <div class="sw-bar-top">
-      <div class="sw-seg sm"><button class="${mode === "lengkap" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/lengkap/${lang}')">Lengkap</button><button class="${mode === "ringkas" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/ringkas/${lang}')">Ringkasan</button></div>
-      <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/${mode}/jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/${mode}/id')">ID</button></div>
-      ${lang === "jp" ? `<button class="sw-chip" onclick="SSW.toggleRuby()">${ruby() ? "ふりがな ON" : "ふりがな OFF"}</button>` : ""}
+    <div class="sw-rtool">
+      <div class="r1">
+        ${prev ? `<button class="btn ghost" onclick="${link(prev)}" aria-label="Subbab sebelumnya">‹</button>` : `<button class="btn ghost" onclick="route('ssw-bab/${slug}/${c.id}')" aria-label="Pengantar bab">‹</button>`}
+        <select aria-label="Pilih subbab" onchange="if(this.value)SSW.go('${slug}',this.value)">${(() => { let g = null, h = ""; for (const x of flat) { if (g !== x.c.id) { if (g) h += "</optgroup>"; g = x.c.id; h += `<optgroup label="BAB ${x.c.no} — ${esc(plain(L(x.c.title, "id")))}">`; } h += `<option value="${x.s.id}" ${x.s.id === subId ? "selected" : ""}>${P.read[x.s.id] ? "✓ " : ""}${x.c.no}.${x.s.no} ${esc(plain(L(x.s.title, "id")))}</option>`; } return h + "</optgroup>"; })()}</select>
+        ${next ? `<button class="btn" onclick="SSW.finish('${slug}','${s.id}','${next.s.id}')" aria-label="Subbab berikutnya">›</button>` : `<button class="btn" onclick="SSW.finish('${slug}','${s.id}',null)" aria-label="Selesai bab">✓</button>`}
+      </div>
+      <div class="r2">
+        <div class="sw-seg sm"><button class="${mode === "lengkap" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/lengkap/${lang}')">Lengkap</button><button class="${mode === "ringkas" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/ringkas/${lang}')">Ringkas</button></div>
+        <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/${mode}/jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/${mode}/id')">ID</button></div>
+        <button class="sw-chip" onclick="SSW.toggleRuby()">${ruby() ? "ふりがな ON" : "ふりがな OFF"}</button>
+        <button class="sw-chip" onclick="SSW.pref('size',-10)" aria-label="Perkecil tulisan">A−</button><button class="sw-chip" onclick="SSW.pref('size',10)" aria-label="Perbesar tulisan">A＋</button>
+        <button class="sw-chip" onclick="route('ssw-kosa/${slug}/${c.id}')">📚 Kosakata</button>
+        <button class="sw-chip" onclick="route('ssw-hafal/${slug}/${c.id}')">🃏 Hafalan</button>
+        <button class="sw-chip" onclick="route('ssw-bab/${slug}/${c.id}')">☰ Daftar isi</button>
+      </div>
     </div>
     <article class="sw-panel sw-lesson ${lang}">
       <div class="sw-lh"><small>BAB ${c.no} · Subbab ${s.no}/${c.subs.length}</small><h1>${rich(L(s.title, lang))}</h1>
@@ -298,7 +311,9 @@ async function renderKosa([slug, scope = "all"]) {
   const chs = visibleChapters(b, pack);
   const okBab = new Set(chs.map(c => c.id));
   let vocab = pack.vocab.filter(v => okBab.has(v.bab));
-  if (scope !== "all") vocab = vocab.filter(v => v.bab === scope);
+  if (scope.startsWith("s:")) { const ss = scope.slice(2).split("+"); vocab = vocab.filter(v => (v.src || []).some(x => ss.includes(x))); }
+  else if (scope.startsWith("w:")) { const ws = scope.slice(2).split("+"); vocab = pack.vocab.filter(v => ws.includes(v.id)); }
+  else if (scope !== "all") vocab = vocab.filter(v => v.bab === scope);
   const cats = [...new Set(vocab.map(v => v.cat).filter(Boolean))];
   const st = cardStats(P, vocab);
   window.__swVocab = { slug, vocab };
@@ -331,7 +346,7 @@ async function renderKartu([slug, scope = "all", mode = "review"]) {
   let vocab = pack.vocab.filter(v => okBab.has(v.bab));
   if (scope !== "all") vocab = vocab.filter(v => v.bab === scope);
   const queue = buildQueue(P, vocab, { mode });
-  P.last = { route: `ssw-kartu/${slug}/${scope}/${mode}`, label: `Flashcard ${scope === "all" ? "semua bab" : scope.replace("bab", "BAB ")}`, t: Date.now() };
+  P.last = { route: `ssw-kartu/${slug}/${scope}/${mode}`, label: `Flashcard ${scope === "all" ? "semua bab" : /^[sw]:/.test(scope) ? "pilihan" : scope.replace("bab", "BAB ")}`, t: Date.now() };
   FC = { slug, scope, mode, vocab, P, queue, i: 0, hist: [], rq: {}, ok: 0, ng: 0, flipped: false };
   setTimeout(() => window.SSW.fcDraw(), 0);
   const st = cardStats(P, vocab);
@@ -341,6 +356,30 @@ async function renderKartu([slug, scope = "all", mode = "review"]) {
     <div id="fc-root"></div>`, "sw-fcwrap");
 }
 
+
+
+/* ============================== VOCABULARY HUB ============================== */
+let HF = { slug: "", vocab: [], P: null, f: "semua", sel: [], n: 0 };
+async function renderHafal([slug, pre]) {
+  applyRuby();
+  const g = await gate(slug); if (g.err) return g.err;
+  const { b, pack, P } = g;
+  const chs = visibleChapters(b, pack);
+  const okBab = new Set(chs.map(c => c.id));
+  HF = { slug, vocab: pack.vocab.filter(v => okBab.has(v.bab)), P, f: "semua", sel: [], n: 0 };
+  const cnt = (sid) => HF.vocab.filter(w => (w.src || []).includes(sid)).length;
+  const st = cardStats(P, HF.vocab);
+  const groups = chs.map(c => `<div class="sw-panel hf-g"><label class="hf-bab"><input type="checkbox" ${(!pre || pre === c.id) ? "checked" : ""} onchange="SSW.hafalBab('${c.id}',this.checked)"> <b>BAB ${c.no} — ${esc(plain(L(c.title, "id")))}</b></label>
+    <div class="hf-subs">${c.subs.map(s => `<label class="hf-sub ${cnt(s.id) ? "" : "off"}"><input type="checkbox" data-sub="${s.id}" data-bab="${c.id}" ${(!pre || pre === c.id) && cnt(s.id) ? "checked" : ""} ${cnt(s.id) ? "" : "disabled"} onchange="SSW.hafalCount()"><span>${c.no}.${s.no} ${esc(plain(L(s.title, "id")))}</span><small>${cnt(s.id)} kata</small></label>`).join("")}</div></div>`).join("");
+  setTimeout(() => SSW.hafalCount(), 0);
+  return wrap(`${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Hafalan kosakata" }])}
+    <div class="sw-head compact"><div class="jp">単語暗記</div><h1>Hafalan Kosakata</h1><p>Pilih subbab (boleh banyak). Kata yang sama dari beberapa subbab hanya muncul sekali.</p></div>
+    <div class="sw-panel"><div class="hf-stats"><span>Baru <b>${st.baru}</b></span><span>Belum <b>${st.belum}</b></span><span>Perlu ulang <b>${st.due}</b></span><span>Hafal <b>${st.hafal}</b></span><span>Kuasa <b>${st.kuasa}</b></span></div></div>
+    <div class="hf-f sw-seg sm" style="flex-wrap:wrap;border-radius:18px">${[["semua", "Semua"], ["baru", "Baru"], ["belum", "Belum hafal"], ["ulang", "Perlu diulang"], ["hafal", "Sudah hafal"]].map(([k, t]) => `<button data-f="${k}" class="${k === "semua" ? "on" : ""}" onclick="SSW.hafalFilter('${k}')">${t}</button>`).join("")}</div>
+    <div id="hf-list">${groups}</div>
+    <div class="hf-bar"><span>Total kosakata unik: <b id="hf-n">0</b> kata</span><button class="btn sw-big" onclick="SSW.hafalGo()">MULAI HAFALAN ›</button></div>
+    <div class="sw-attr">Sistem hafalan memakai SM-2 (jadwal ulang otomatis). Satu kali menekan "Hafal" belum dianggap dikuasai.</div>`);
+}
 
 /* ============================== LEADERBOARD ============================== */
 let RANK_SCOPE = "semua";
@@ -385,7 +424,7 @@ async function renderKuis([slug, quizId]) {
   if (!quizId) {
     return wrap(`
       ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Kuis & Evaluasi" }])}
-      <div class="sw-head compact"><div class="jp">試験センター</div><h1>Evaluasi — Examination Center</h1><p>3 kuis tiap bab dan 3 ujian penuh dari semua bab. Skor terbaik tersimpan di akunmu.</p></div>
+      <div class="sw-head compact"><div class="jp">試験センター</div><h1>Evaluasi — Examination Center</h1><p>Kuis tiap subbab, 3 kuis tiap bab, dan 10 ujian penuh (pilihan ganda, ○× dan soal bergambar). Skor terbaik tersimpan di akunmu.</p></div>
       ${chs.map(c => `<div class="sw-panel"><h2>BAB ${c.no} — ${esc(L(c.title, "id"))}</h2><div class="sw-qlist">${(pack.quiz.bab?.[c.id] || []).map((q, i) => row(q, `Kuis ${i + 1} · ${esc(L(q.title, "id"))}`)).join("") || '<p class="sw-muted">Belum ada kuis.</p>'}</div></div>`).join("")}
       <div class="sw-panel"><h2>Tes Membaca Kosakata</h2><p class="sw-muted">Kanji dari kosakata buku → pilih bacaannya (hiragana/katakana). 15 soal acak.</p><div class="sw-qlist">${row({ id: "baca-kosakata", items: { length: 15 } }, "読み方テスト · Tes Membaca")}</div></div>
       <div class="sw-panel"><h2>Ujian Penuh (semua bab)</h2><div class="sw-qlist">${full.map((q, i) => row(q, `Ujian Penuh ${i + 1}`)).join("") || '<p class="sw-muted">Belum ada soal.</p>'}</div></div>`);
@@ -395,7 +434,7 @@ async function renderKuis([slug, quizId]) {
   const lang = getLang();
   const rnd = seeded(quizId + Date.now());
   const items = q.items.map((it, i) => {
-    const order = shuffle(it.opts.map((_, k) => k), rnd);
+    const order = it.mb ? it.opts.map((_, k) => k) : shuffle(it.opts.map((_, k) => k), rnd);
     return { ...it, _i: i, order };
   });
   P.last = { route: `ssw-kuis/${slug}/${quizId}`, label: `Kuis ${L(q.title, "id")}`, t: Date.now() };
@@ -514,6 +553,65 @@ const SSW = window.SSW = {
       if (a === "x") close(); else if (a === "in") zoomAt(1.3, cx, cy); else if (a === "out") zoomAt(1 / 1.3, cx, cy); else if (a === "fit") { mode = "crop"; setup(); } else if (a === "full") { mode = "full"; setup(); } });
     requestAnimationFrame(setup);
   },
+  /* --- kosakata di dalam materi --- */
+  async linkVocab(slug) {
+    const root = document.querySelector(".sw-lesson .sw-body"); if (!root || root.dataset.vl) return; root.dataset.vl = "1";
+    const pack = await loadPack(slug);
+    const list = (pack.vocab || []).filter(v => v.kata && v.kata.length >= 2);
+    if (!list.length) return;
+    const byKata = new Map(); for (const v of list) if (!byKata.has(v.kata)) byKata.set(v.kata, v);
+    const re = new RegExp([...byKata.keys()].sort((x, y) => y.length - x.length).map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "g");
+    const BLK = "p,li,td,th,h1,h2,h3,h4,h5,figcaption,div,summary,blockquote";
+    const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest("rt,rp,.sw-w,button,a,script,style") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const groups = new Map(); let n;
+    while ((n = tw.nextNode())) { const k = n.parentElement.closest(BLK) || root; if (!groups.has(k)) groups.set(k, []); groups.get(k).push(n); }
+    for (const nodes of groups.values()) {
+      let str = "", map = []; for (const nd of nodes) { map.push({ nd, st: str.length }); str += nd.nodeValue; }
+      const hits = [...str.matchAll(re)]; if (!hits.length) continue;
+      const loc = (pos, end) => { for (let i = map.length - 1; i >= 0; i--) { if (pos >= map[i].st && (!end || pos > map[i].st)) return { nd: map[i].nd, off: pos - map[i].st }; } return null; };
+      for (const m of hits.reverse()) {
+        const st = loc(m.index, false), en = loc(m.index + m[0].length, true); if (!st || !en) continue;
+        try {
+          const r = document.createRange(); const rs = st.nd.parentElement.closest("ruby"), re2 = en.nd.parentElement.closest("ruby");
+          rs ? r.setStartBefore(rs) : r.setStart(st.nd, st.off); re2 ? r.setEndAfter(re2) : r.setEnd(en.nd, en.off);
+          const sp = document.createElement("span"); sp.className = "sw-w"; sp.dataset.v = byKata.get(m[0]).id; sp.tabIndex = 0; sp.setAttribute("role", "button");
+          sp.appendChild(r.extractContents()); r.insertNode(sp);
+        } catch (e) { /* lewati */ }
+      }
+    }
+    const open = (e) => { const w = e.target.closest?.(".sw-w"); if (!w) return; e.preventDefault(); SSW.vsheet(slug, w.dataset.v); };
+    root.addEventListener("click", open); root.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") open(e); });
+  },
+  async vsheet(slug, id) {
+    const pack = await loadPack(slug), v = pack.vocab.find(x => x.id === id); if (!v) return;
+    const P = await getProgress(slug), st = cardState(P.cards[id]);
+    const stl = { baru: "Baru", belum: "Belum hafal", ulang: "Perlu diulang", hafal: "Hafal", kuasa: "Dikuasai" }[st];
+    const srcs = (v.src || []).map(x => `<a onclick="SSW.vclose();SSW.go('${slug}','${x}')">${esc(x.replace(/^b(\d+)s(\d+)$/, "BAB $1.$2"))}</a>`).join(" · ");
+    let sh = document.getElementById("sw-vs"); if (!sh) { sh = document.createElement("div"); sh.id = "sw-vs"; document.body.append(sh); }
+    const k = ruby() && v.kana && v.kana !== v.kata ? `<ruby>${esc(v.kata)}<rt>${esc(v.kana)}</rt></ruby>` : esc(v.kata);
+    sh.innerHTML = `<div class="sw-vs-bg" onclick="SSW.vclose()"></div><div class="sw-vs-in" role="dialog" aria-label="Detail kosakata">
+      <div class="sw-vs-h"><div class="jp k">${k}</div><button type="button" class="sw-vs-x" onclick="SSW.vclose()" aria-label="Tutup">✕</button></div>
+      <div class="sw-vs-m"><b>${esc(v.arti)}</b></div>
+      <div class="sw-vs-r"><span>Bacaan: <b class="jp">${esc(v.kana || "")}</b></span>${v.romaji ? `<span>Romaji: <b>${esc(v.romaji)}</b></span>` : ""}<span>Status: <b>${stl}</b></span></div>
+      ${v.contoh ? `<div class="sw-vs-ex"><p class="jp">${rich(v.contoh)}</p><p class="sw-muted">${esc(v.arti_contoh || "")}</p></div>` : ""}
+      ${v.cat ? `<p class="sw-muted">Kategori: ${esc(v.cat)}</p>` : ""}${srcs ? `<p class="sw-muted">Muncul di: ${srcs}</p>` : ""}
+      <div class="sw-vs-b"><button class="btn" onclick="SSW.sayWord('${slug}','${id}')">🔊 Dengar</button>
+        <button class="btn ghost" onclick="SSW.vadd('${slug}','${id}')">➕ Tambah ke hafalan</button>
+        <button class="btn ghost" onclick="SSW.vclose();route('ssw-kartu/${slug}/w:${id}/semua')">🃏 Flashcard kata ini</button>
+        <button class="btn ghost" onclick="SSW.vclose()">↩ Kembali ke materi</button></div></div>`;
+    sh.hidden = false; document.body.classList.add("sw-lbopen");
+  },
+  vclose() { const sh = document.getElementById("sw-vs"); if (sh) sh.hidden = true; document.body.classList.remove("sw-lbopen"); },
+  async vadd(slug, id) { const P = await getProgress(slug); if (!P.cards[id]) P.cards[id] = newCard(); touch(slug); flush(slug); toast("Masuk daftar hafalan ✓"); },
+  /* --- hub hafalan --- */
+  hafalCount() {
+    const q = [...document.querySelectorAll("#hf-list input[data-sub]:checked")].map(i => i.dataset.sub);
+    const set = new Set(); for (const w of HF.vocab) if ((w.src || []).some(x => q.includes(x))) { const c = HF.P.cards[w.id], stt = cardState(c); if (HF.f === "semua" || HF.f === stt || (HF.f === "hafal" && stt === "kuasa") || ((HF.f === "ulang" || HF.f === "belum") && (stt === "belum" || stt === "ulang"))) set.add(w.id); }
+    const el = document.getElementById("hf-n"); if (el) el.textContent = set.size; HF.sel = q; HF.n = set.size;
+  },
+  hafalBab(babId, on) { document.querySelectorAll(`#hf-list input[data-bab="${babId}"]`).forEach(i => i.checked = on); SSW.hafalCount(); },
+  hafalFilter(f) { HF.f = f; document.querySelectorAll(".hf-f button").forEach(b => b.classList.toggle("on", b.dataset.f === f)); SSW.hafalCount(); },
+  hafalGo() { if (!HF.sel.length) return toast("Pilih minimal 1 subbab"); if (!HF.n) return toast("Tidak ada kosakata dengan filter ini"); route(`ssw-kartu/${HF.slug}/s:${HF.sel.join("+")}/${HF.f === "semua" ? "semua" : HF.f}`); },
   rankScope(slug, sc) { RANK_SCOPE = sc; route(`ssw-rank/${slug}`); },
   /* --- hub --- */
   async pick(slug) {
@@ -653,9 +751,9 @@ const SSW = window.SSW = {
       <div class="sw-fc-top"><span>${Q.i + 1} / ${total}</span><div class="sw-bar"><i style="width:${Math.round(100 * Q.i / total)}%"></i></div>
         <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="SSW.qzLang('jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="SSW.qzLang('id')">ID</button></div></div>
       <div class="sw-panel sw-q">${it.img ? qImage(Q.slug, lang, it.img) : ""}<h2>${rich(L(it.q, lang))}</h2>
-        <div class="sw-opts">${it.order.map((k, n) => {
+        <div class="sw-opts ${it.mb ? "mb" : ""}">${it.order.map((k, n) => {
           const cls = answered ? (k === it.a ? "ok" : k === Q.sel ? "ng" : "") : "";
-          return `<button class="sw-opt ${cls}" ${answered ? "disabled" : ""} onclick="SSW.qzPick(${k})"><span class="l">${"ABCD"[n]}</span><span>${rich(L(it.opts[k], lang))}</span></button>`;
+          return `<button class="sw-opt ${cls}" ${answered ? "disabled" : ""} onclick="SSW.qzPick(${k})"><span class="l">${it.mb ? ["○", "×"][n] : "ABCD"[n]}</span><span>${rich(L(it.opts[k], lang))}</span></button>`;
         }).join("")}</div>
         ${answered ? `<div class="sw-exp ${Q.sel === it.a ? "ok" : "ng"}"><b>${Q.sel === it.a ? "Benar!" : "Kurang tepat."}</b> ${rich(L(it.exp, lang))}</div><button class="btn sw-big" onclick="SSW.qzNext()">${Q.i + 1 >= total ? "Lihat hasil" : "Soal berikutnya ›"}</button>` : ""}
       </div>`;
@@ -682,5 +780,6 @@ export const SSW_ROUTES = {
   "ssw-kartu": (p) => renderKartu(p),
   "ssw-kuis": (p) => renderKuis(p),
   "ssw-rank": (p) => renderRank(p),
+  "ssw-hafal": (p) => renderHafal(p),
   "ssw-progres": () => renderProgres(),
 };
