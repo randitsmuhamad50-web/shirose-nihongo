@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261110g";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110g";
+} from "./ssw-core.js?v=20261110h";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110h";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -435,10 +435,11 @@ async function renderKuis([slug, quizId]) {
       ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Kuis & Evaluasi" }])}
       <div class="sw-head compact"><div class="jp">試験センター</div><h1>Evaluasi — Examination Center</h1><p>Kuis tiap subbab, 3 kuis tiap bab, dan 10 ujian penuh (pilihan ganda, ○× dan soal bergambar). Skor terbaik tersimpan di akunmu.</p></div>
       ${chs.map(c => `<div class="sw-panel"><h2>BAB ${c.no} — ${esc(L(c.title, "id"))}</h2><div class="sw-qlist">${(pack.quiz.bab?.[c.id] || []).map((q, i) => row(q, `Kuis ${i + 1} · ${esc(L(q.title, "id"))}`)).join("") || '<p class="sw-muted">Belum ada kuis.</p>'}</div></div>`).join("")}
+      ${(pack.quiz.tema || []).length ? `<div class="sw-panel"><h2>Kuis Tema</h2><p class="sw-muted">Satu kuis untuk satu topik: rute pembersihan, jenis lantai, karpet, dan pH.</p><div class="sw-qlist">${pack.quiz.tema.map(q => row(q, esc(L(q.title, "id")))).join("")}</div></div>` : ""}
       <div class="sw-panel"><h2>Tes Membaca Kosakata</h2><p class="sw-muted">Kanji dari kosakata buku → pilih bacaannya (hiragana/katakana). 15 soal acak.</p><div class="sw-qlist">${row({ id: "baca-kosakata", items: { length: 15 } }, "読み方テスト · Tes Membaca")}</div></div>
       <div class="sw-panel"><h2>Ujian Penuh (semua bab)</h2><div class="sw-qlist">${full.map((q, i) => row(q, `Ujian Penuh ${i + 1}`)).join("") || '<p class="sw-muted">Belum ada soal.</p>'}</div></div>`);
   }
-  const q = quizId === "baca-kosakata" ? readingQuiz(pack) : [...chs.flatMap(c => pack.quiz.bab?.[c.id] || []), ...full].find(x => x.id === quizId);
+  const q = quizId === "baca-kosakata" ? readingQuiz(pack) : [...chs.flatMap(c => pack.quiz.bab?.[c.id] || []), ...full, ...(pack.quiz.tema || [])].find(x => x.id === quizId);
   if (!q) return msgPage("🧭", "Kuis tidak ditemukan", "Kuis ini tidak ada atau belum dipublikasikan.", `route('ssw-kuis/${slug}')`);
   const lang = getLang();
   const rnd = seeded(quizId + Date.now());
@@ -780,7 +781,8 @@ const SSW = window.SSW = {
     const it = Q.items[Q.i], lang = Q.lang, answered = Q.sel != null;
     root.innerHTML = `
       <div class="sw-fc-top"><span>${Q.i + 1} / ${total}</span><div class="sw-bar"><i style="width:${Math.round(100 * Q.i / total)}%"></i></div>
-        <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="SSW.qzLang('jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="SSW.qzLang('id')">ID</button></div></div>
+        <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="SSW.qzLang('jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="SSW.qzLang('id')">ID</button></div>
+        ${lang === "jp" ? `<button class="sw-chip" onclick="SSW.qzRuby()">${ruby() ? "ふりがな ON" : "ふりがな OFF"}</button>` : ""}</div>
       <div class="sw-panel sw-q">${it.img ? qImage(Q.slug, lang, it.img) : ""}<h2>${rich(L(it.q, lang))}</h2>
         <div class="sw-opts ${it.mb ? "mb" : ""}">${it.order.map((k, n) => {
           const cls = answered ? (k === it.a ? "ok" : k === Q.sel ? "ng" : "") : "";
@@ -789,6 +791,7 @@ const SSW = window.SSW = {
         ${answered ? `<div class="sw-exp ${Q.sel === it.a ? "ok" : "ng"}"><b>${Q.sel === it.a ? "Benar!" : "Kurang tepat."}</b> ${rich(L(it.exp, lang))}</div><button class="btn sw-big" onclick="SSW.qzNext()">${Q.i + 1 >= total ? "Lihat hasil" : "Soal berikutnya ›"}</button>` : ""}
       </div>`;
   },
+  qzRuby() { LSset("shirose-ssw-ruby", ruby() ? "0" : "1"); applyRuby(); if (QZ) SSW.qzDraw(); },
   qzLang(l) { if (!QZ) return; QZ.lang = l; setLang(l); SSW.qzDraw(); },
   qzPick(k) { if (!QZ || QZ.sel != null) return; const it = QZ.items[QZ.i]; QZ.sel = k; if (k === it.a) QZ.score++; else QZ.wrong.push(it); SSW.qzDraw(); },
   qzNext() { if (!QZ) return; QZ.i++; QZ.sel = null; SSW.qzDraw(); window.scrollTo(0, 0); },

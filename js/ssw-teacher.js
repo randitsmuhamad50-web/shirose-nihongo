@@ -1,6 +1,6 @@
 // Panel guru SSW: aktif/nonaktif bidang, urutan, tambah bidang, status bab (Draft/Published/Hidden), progres siswa.
 // Menonaktifkan bidang TIDAK menghapus progres siswa (dokumen progres tidak disentuh).
-import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261110g";
+import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261110h";
 
 const TEMA = ["building", "kaigo", "factory", "restaurant", "farm", "construction", "hotel", "generic"];
 const BAB_ST = { published: "Published (tampil untuk siswa)", draft: "Draft (hanya guru)", hidden: "Hidden (disembunyikan)" };

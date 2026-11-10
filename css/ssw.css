@@ -228,3 +228,11 @@ body.sw-nohafal .sw-wrap [onclick*="ssw-hafal"],body.sw-nohafal .sw-wrap [onclic
 .sw-rtool .r2{background:transparent; padding:10px 0 4px; margin:0 0 6px;}
 .sw-wrap .sw-seg button{white-space:nowrap; overflow-wrap:normal;} .sw-rtool .r2 .sw-seg button{flex:0 0 auto;} .sw-wrap .hf-f button{white-space:normal;}
 .hf-quick{display:flex; flex-wrap:wrap; gap:6px; margin:8px 0;} .hf-quick .sw-chip{min-height:38px;}
+
+/* === Font materi di HP: satu keluarga huruf gothic yang jelas (bukan Mincho tipis campur-campur) === */
+.sw-lesson,.sw-lesson.jp,.sw-lesson *,.sw-q,.sw-q *,.sw-vs-in,.sw-vs-in *,.sw-vdet,.sw-vdet *{font-family:"Zen Kaku Gothic New","Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",system-ui,sans-serif !important;}
+.sw-lesson.jp,.sw-q h2{font-weight:500; letter-spacing:0;}
+.sw-lesson b,.sw-lesson strong{font-weight:700;}
+ruby rt{font-family:inherit; font-weight:500; letter-spacing:0;}
+.sw-w{border-bottom:1px dotted rgba(239,106,154,.75);} .sw-w ruby{border-bottom:1px dotted rgba(239,106,154,.75);}
+@media (max-width:600px){ .sw-lesson,.sw-lesson.jp{font-size:16px; line-height:1.9;} }
