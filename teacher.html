@@ -152,8 +152,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261109j";
-import { renderSswTab } from "./js/ssw-teacher.js?v=20261110a";
+import * as FB from "./js/firebase-sync.js?v=20261110c";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261110c";
 
 const state = {
   user: null,
@@ -164,6 +164,7 @@ const state = {
   excelParsed: null,
   level: "n5",
 };
+if (/^#\/?ssw/.test(location.hash)) state.tab = "ssw";
 
 /* ===== Level JLPT yang sedang dikelola guru (pembatas tegas N5–N1) ===== */
 const LV = ["n5","n4","n3","n2","n1"];

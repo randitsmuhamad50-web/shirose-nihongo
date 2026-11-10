@@ -13,9 +13,9 @@
  * ===================================================================== */
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
-  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, DAY
-} from "./ssw-core.js";
-import { islandSVG, buildingSVG } from "./ssw-art.js";
+  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, points, syncRank, loadRank, uidNow, DAY
+} from "./ssw-core.js?v=20261110c";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261110c";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -28,7 +28,28 @@ const setLang = (l) => LSset("shirose-ssw-lang", l);
 const getMode = () => LSget("shirose-ssw-mode", "lengkap") === "ringkas" ? "ringkas" : "lengkap";
 const setMode = (m) => LSset("shirose-ssw-mode", m);
 const ruby = () => LSget("shirose-ssw-ruby", "1") !== "0";
-const applyRuby = () => document.body.classList.toggle("sw-noruby", !ruby());
+const PREF_DEF = { size: 100, fw: 0, lh: 0 };
+const getPrefs = () => { try { return { ...PREF_DEF, ...JSON.parse(LSget("shirose-ssw-ui", "{}")) }; } catch (e) { return { ...PREF_DEF }; } };
+const setPrefs = (p) => LSset("shirose-ssw-ui", JSON.stringify(p));
+const onSsw = () => /^#\/?ssw/.test(location.hash);
+function applyPrefs() {
+  const p = getPrefs(), b = document.body;
+  b.style.setProperty("--sw-zoom", String(Math.min(2.2, Math.max(0.7, p.size / 100))));
+  b.dataset.swFw = String(p.fw); b.dataset.swLh = String(p.lh);
+  ensurePrefsUI();
+  const fab = document.getElementById("sw-aa"); if (fab) fab.style.display = onSsw() ? "" : "none";
+  if (!onSsw()) { const sh = document.getElementById("sw-prefs"); if (sh) sh.hidden = true; }
+}
+function ensurePrefsUI() {
+  if (document.getElementById("sw-aa")) return;
+  const fab = document.createElement("button");
+  fab.id = "sw-aa"; fab.type = "button"; fab.setAttribute("aria-label", "Pengaturan tampilan"); fab.innerHTML = "Aa";
+  fab.onclick = () => window.SSW.prefs();
+  const sh = document.createElement("div"); sh.id = "sw-prefs"; sh.hidden = true;
+  document.body.append(fab, sh);
+  window.addEventListener("hashchange", applyPrefs);
+}
+const applyRuby = () => { document.body.classList.toggle("sw-noruby", !ruby()); applyPrefs(); };
 const L = (o, lang) => (o && (o[lang] ?? o.id ?? o.jp)) || "";
 const pageFile = (slug, lang, n) => `./assets/ssw/${slug}/${lang}/p${String(n).padStart(2, "0")}.webp`;
 const AUDIO_LEVEL = { "building-cleaning": "ssw-bc" };
@@ -45,8 +66,10 @@ const msgPage = (emoji, title, text, back = "route('ssw')") => wrap(`
   <div class="sw-panel sw-center"><div class="sw-emoji">${emoji}</div><h2>${title}</h2><p class="sw-muted">${text}</p>
   <button class="btn" onclick="${back}">← Kembali</button></div>`);
 
+const noAccess = () => msgPage("🔒", "Akses SSW belum dibuka", "Guru belum membuka akses SSW untuk akunmu. Hubungi gurumu. Progres belajarmu tetap tersimpan.", "route('pilih-level')");
 /** Cek akses bidang. Konfigurasi dibaca dari Firestore (dilindungi rules), bukan sekadar menyembunyikan tombol. */
 async function gate(slug) {
+  if (!sswAllowed()) return { err: noAccess() };
   const b = await bidangBySlug(slug);
   if (!b) return { err: msgPage("🧭", "Bidang tidak ditemukan", "Bidang SSW ini belum terdaftar.") };
   if (!b.aktif && !isGuru()) return { err: msgPage("🔒", `${esc(b.nama)} belum tersedia`, "Materi bidang ini sedang ditutup guru atau belum dibuka. Progres belajarmu tidak hilang dan tetap tersimpan.") };
@@ -61,6 +84,7 @@ const visibleChapters = (b, pack) => pack.chapters.filter(c => siswaBolehBab(b, 
 /* ============================== HUB: pulau melayang ============================== */
 async function renderHub() {
   applyRuby();
+  if (!sswAllowed()) return noAccess();
   const list = await loadBidang();
   const guru = isGuru();
   const isl = list.map((b, i) => {
@@ -141,6 +165,7 @@ async function renderPeta([slug]) {
       <button class="btn ghost" onclick="route('ssw-kosa/${slug}/all')">📚 Kosakata (${st.total})</button>
       <button class="btn ghost" onclick="route('ssw-buku/${slug}/${getLang()}/1')">📖 Buku interaktif</button>
       <button class="btn ghost" onclick="route('ssw-kuis/${slug}')">📝 Kuis</button>
+      <button class="btn gold" onclick="route('ssw-rank/${slug}')">🏆 Leaderboard</button>
     </div>
     <div class="sw-attr">Materi: ${esc(pack.chapters[0]?.source || "")}</div>
   </div>`;
@@ -316,6 +341,30 @@ async function renderKartu([slug, scope = "all", mode = "review"]) {
     <div id="fc-root"></div>`, "sw-fcwrap");
 }
 
+
+/* ============================== LEADERBOARD ============================== */
+let RANK_SCOPE = "semua";
+async function renderRank([slug]) {
+  applyRuby();
+  const g = await gate(slug); if (g.err) return g.err;
+  const { b } = g;
+  await getProgress(slug);
+  if (!isGuru()) { syncRank(slug); await new Promise(r => setTimeout(r, 4300)); }
+  let rows = []; try { rows = await loadRank(slug); } catch (e) { console.warn(e); }
+  const me = uidNow(), my = (FB.getSiswaDoc && FB.getSiswaDoc()) || {};
+  const list = RANK_SCOPE === "kelas" && my.kelas ? rows.filter(r => r.kelas === my.kelas) : rows;
+  const medal = ["🥇", "🥈", "🥉"];
+  const pod = list.slice(0, 3).map((r, i) => `<div class="sw-pod p${i + 1} ${r.uid === me ? "me" : ""}"><div class="m">${medal[i]}</div><b>${esc(r.nama)}</b><small>${esc(r.kelas || "")}</small><span>${r.poin} poin</span></div>`).join("");
+  const idx = list.findIndex(r => r.uid === me);
+  const rowsHtml = list.slice(0, 50).map((r, i) => `<li class="${r.uid === me ? "me" : ""}"><span class="n">${i + 1}</span><span class="nm"><b>${esc(r.nama)}</b><small>${esc(r.kelas || "")} · baca ${r.rinci?.baca ?? 0} · kartu ${r.rinci?.kartu ?? 0} · kuis ${r.rinci?.kuis ?? 0}</small></span><span class="pt">${r.poin}</span></li>`).join("");
+  return wrap(`${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Leaderboard" }])}
+    <div class="sw-head compact"><div class="jp">ランキング</div><h1>🏆 Leaderboard ${esc(b.nama)}</h1>
+      <p>${idx >= 0 ? `Peringkatmu: <b>#${idx + 1}</b> dari ${list.length}` : (isGuru() ? "Mode guru: tidak ikut peringkat." : "Belajar dulu untuk masuk peringkat.")}</p></div>
+    <div class="sw-seg sm" style="max-width:320px;margin:0 auto 12px"><button class="${RANK_SCOPE === "semua" ? "on" : ""}" onclick="SSW.rankScope('${slug}','semua')">Semua</button><button class="${RANK_SCOPE === "kelas" ? "on" : ""}" onclick="SSW.rankScope('${slug}','kelas')">Kelasku${my.kelas ? "" : " (belum ada)"}</button></div>
+    ${list.length ? `<div class="sw-podium">${pod}</div><ol class="sw-rank">${rowsHtml}</ol>` : '<div class="sw-panel sw-center"><p class="sw-muted">Belum ada data peringkat.</p></div>'}
+    <div class="sw-attr">Poin = subbab dibaca ×10 + kartu dikuasai ×2 (+3 bila kuasa) + skor terbaik tiap kuis ×0,5.</div>`);
+}
+
 /* ============================== KUIS ============================== */
 let QZ = null;
 function qImage(slug, lang, im) {
@@ -324,7 +373,7 @@ function qImage(slug, lang, im) {
   const [x, y, w, h] = box;
   const ar = (lang === "jp" ? 612 / 792 : 595.32 / 841.92) * w / h;
   const bgW = 10000 / w, px = w >= 100 ? 0 : (x / (100 - w)) * 100, py = h >= 100 ? 0 : (y / (100 - h)) * 100;
-  return `<div class="sw-qimg" style="aspect-ratio:${ar.toFixed(3)};background-image:url('${pageFile(slug, lang, im.p + 1)}');background-size:${bgW.toFixed(1)}% auto;background-position:${px.toFixed(1)}% ${py.toFixed(1)}%" role="img" aria-label="Gambar soal"></div>`;
+  return `<div class="sw-qimg" role="button" tabindex="0" title="Ketuk untuk memperbesar" onclick="SSW.zoomImg(this)" style="aspect-ratio:${ar.toFixed(3)};background-image:url('${pageFile(slug, lang, im.p + 1)}');background-size:${bgW.toFixed(1)}% auto;background-position:${px.toFixed(1)}% ${py.toFixed(1)}%" aria-label="Gambar soal — ketuk untuk memperbesar"><span class="sw-zhint">🔍 Perbesar</span></div>`;
 }
 async function renderKuis([slug, quizId]) {
   applyRuby();
@@ -382,7 +431,7 @@ async function renderProgres() {
         <div><b>${s.st.total}</b><span>Kosakata</span></div><div><b>${s.st.hafal + s.st.kuasa}</b><span>Sudah hafal</span></div><div><b>${s.st.belum + s.st.ulang}</b><span>Perlu review</span></div></div>
       ${s.quizzes.length ? `<h3>Hasil tes terakhir</h3><ul class="sw-ql">${s.quizzes.slice(0, 5).map(q => `<li><span>${esc(q.id)}</span><b class="${q.best >= 60 ? "ok" : "ng"}">terakhir ${q.last}% · terbaik ${q.best}%</b></li>`).join("")}</ul>` : ""}
       ${s.P.log.length ? `<h3>Aktivitas terakhir</h3><ul class="sw-ql">${s.P.log.slice(0, 4).map(l => `<li><span>${esc(l.x)}</span><b>${new Date(l.t).toLocaleString("id-ID", { dateStyle: "medium", timeStyle: "short" })}</b></li>`).join("")}</ul>` : ""}
-      <div class="sw-actions left">${s.P.last ? `<button class="btn" onclick="route('${esc(s.P.last.route)}')">▶ Lanjutkan: ${esc(s.P.last.label)}</button>` : ""}<button class="btn ghost" onclick="route('ssw-peta/${s.b.slug}')">Buka peta</button></div></div>`).join("")}`);
+      <div class="sw-actions left">${s.P.last ? `<button class="btn" onclick="route('${esc(s.P.last.route)}')">▶ Lanjutkan: ${esc(s.P.last.label)}</button>` : ""}<button class="btn ghost" onclick="route('ssw-peta/${s.b.slug}')">Buka peta</button><button class="btn gold" onclick="route('ssw-rank/${s.b.slug}')">🏆 Leaderboard</button></div></div>`).join("")}`);
 }
 /** Kartu ringkas untuk dashboard siswa (home). Mengisi #ssw-dash. */
 async function dashCard() {
@@ -399,6 +448,72 @@ async function dashCard() {
 
 /* ============================== HANDLER GLOBAL ============================== */
 const SSW = window.SSW = {
+  /* --- tampilan & zoom --- */
+  prefs() {
+    const sh = document.getElementById("sw-prefs"); if (!sh) return;
+    if (!sh.hidden) { sh.hidden = true; return; }
+    const p = getPrefs();
+    sh.innerHTML = `<div class="sw-pin"><div class="sw-ph"><b>Aa Tampilan</b><button type="button" onclick="SSW.prefs()" aria-label="Tutup">✕</button></div>
+      <label>Ukuran huruf <output id="sw-o1">${p.size}%</output></label>
+      <div class="sw-prow"><button type="button" onclick="SSW.pref('size',-10)">A−</button><input id="sw-r1" type="range" min="70" max="220" step="5" value="${p.size}" oninput="SSW.prefSet('size',this.value)"><button type="button" onclick="SSW.pref('size',10)">A+</button></div>
+      <label>Ketebalan huruf</label>
+      <div class="sw-seg sm"><button type="button" class="${p.fw === 0 ? "on" : ""}" onclick="SSW.prefSet('fw',0)">Normal</button><button type="button" class="${p.fw === 1 ? "on" : ""}" onclick="SSW.prefSet('fw',1)">Tebal</button><button type="button" class="${p.fw === 2 ? "on" : ""}" onclick="SSW.prefSet('fw',2)">Sangat tebal</button></div>
+      <label>Jarak baris</label>
+      <div class="sw-seg sm"><button type="button" class="${p.lh === 0 ? "on" : ""}" onclick="SSW.prefSet('lh',0)">Normal</button><button type="button" class="${p.lh === 1 ? "on" : ""}" onclick="SSW.prefSet('lh',1)">Lega</button><button type="button" class="${p.lh === 2 ? "on" : ""}" onclick="SSW.prefSet('lh',2)">Sangat lega</button></div>
+      <button type="button" class="btn ghost" style="margin-top:10px;width:100%" onclick="SSW.prefReset()">Atur ulang</button></div>`;
+    sh.hidden = false;
+  },
+  pref(k, d) { const p = getPrefs(); this.prefSet(k, Math.min(220, Math.max(70, p[k] + d)), true); },
+  prefSet(k, v, redraw) { const p = getPrefs(); p[k] = Number(v); setPrefs(p); applyPrefs(); if (k === "size") { const o = document.getElementById("sw-o1"); if (o) o.textContent = p.size + "%"; const r = document.getElementById("sw-r1"); if (r) r.value = p.size; } else { const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } } },
+  prefReset() { setPrefs({ ...PREF_DEF }); applyPrefs(); const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } },
+  zoomImg(el) {
+    const bg = el.style.backgroundImage, ar = parseFloat(el.style.aspectRatio) || 1;
+    const bs = parseFloat(el.style.backgroundSize) || 100, pos = el.style.backgroundPosition.split(" ").map(parseFloat);
+    // gambar penuh halaman, digeser agar potongan berada di tengah; zoom awal = potongan memenuhi layar
+    let lb = document.getElementById("sw-lb"); if (lb) lb.remove();
+    lb = document.createElement("div"); lb.id = "sw-lb";
+    lb.innerHTML = `<div class="sw-lbbar"><button type="button" data-a="out">−</button><span id="sw-lbz">100%</span><button type="button" data-a="in">+</button><button type="button" data-a="fit">Pas</button><button type="button" data-a="full">Halaman</button><button type="button" data-a="x" aria-label="Tutup">✕</button></div><div class="sw-lbv"><div class="sw-lbi"></div></div><div class="sw-lbhelp">Cubit / roda mouse = zoom · geser = pindah · ketuk 2× = zoom</div>`;
+    document.body.append(lb); document.body.classList.add("sw-lbopen");
+    const v = lb.querySelector(".sw-lbv"), im = lb.querySelector(".sw-lbi");
+    let mode = "crop", sc = 1, tx = 0, ty = 0, W = 0, H = 0;
+    const url = bg.replace(/^url\(["']?|["']?\)$/g, "");
+    const draw = () => { im.style.transform = `translate(${tx}px,${ty}px) scale(${sc})`; lb.querySelector("#sw-lbz").textContent = Math.round(sc * 100) + "%"; };
+    const setup = () => {
+      const vw = v.clientWidth, vh = v.clientHeight;
+      const pw = mode === "crop" ? 100 / bs : 1; // fraksi lebar halaman yang tampil
+      const natW = 1000; // koordinat internal
+      im.style.backgroundImage = bg; im.style.backgroundRepeat = "no-repeat";
+      if (mode === "crop") {
+        W = vw; H = vw / ar; if (H > vh) { H = vh; W = vh * ar; }
+        im.style.width = W + "px"; im.style.height = H + "px"; im.style.backgroundSize = bs + "% auto"; im.style.backgroundPosition = el.style.backgroundPosition;
+      } else {
+        const r = new Image(); r.src = url;
+        const fin = () => { const a = r.naturalWidth / r.naturalHeight || 0.7; W = vw; H = vw / a; im.style.width = W + "px"; im.style.height = H + "px"; im.style.backgroundSize = "100% 100%"; im.style.backgroundPosition = "0 0"; sc = 1; tx = 0; ty = 0; draw(); };
+        if (r.complete) fin(); else r.onload = fin; return;
+      }
+      sc = 1; tx = (vw - W) / 2; ty = Math.max(0, (vh - H) / 2); draw();
+    };
+    const clamp = () => { const vw = v.clientWidth, vh = v.clientHeight, w = W * sc, h = H * sc;
+      tx = w <= vw ? (vw - w) / 2 : Math.min(0, Math.max(vw - w, tx)); ty = h <= vh ? (vh - h) / 2 : Math.min(0, Math.max(vh - h, ty)); };
+    const zoomAt = (f, cx, cy) => { const n = Math.min(8, Math.max(0.5, sc * f)); const k = n / sc; tx = cx - (cx - tx) * k; ty = cy - (cy - ty) * k; sc = n; clamp(); draw(); };
+    const ptrs = new Map(); let last = 0, d0 = 0, s0 = 1, lastTap = 0;
+    v.style.touchAction = "none";
+    v.addEventListener("pointerdown", (e) => { v.setPointerCapture(e.pointerId); ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY });
+      if (ptrs.size === 2) { const [a, b] = [...ptrs.values()]; d0 = Math.hypot(a.x - b.x, a.y - b.y); s0 = sc; }
+      const t = Date.now(); if (ptrs.size === 1 && t - lastTap < 300) { const r = v.getBoundingClientRect(); sc > 1.2 ? (sc = 1, clamp(), draw()) : zoomAt(2.5, e.clientX - r.left, e.clientY - r.top); } lastTap = t; });
+    v.addEventListener("pointermove", (e) => { const pr = ptrs.get(e.pointerId); if (!pr) return;
+      if (ptrs.size === 2) { ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY }); const [a, b] = [...ptrs.values()]; const d = Math.hypot(a.x - b.x, a.y - b.y); const r = v.getBoundingClientRect(); zoomAt((s0 * d / d0) / sc, (a.x + b.x) / 2 - r.left, (a.y + b.y) / 2 - r.top); }
+      else { tx += e.clientX - pr.x; ty += e.clientY - pr.y; ptrs.set(e.pointerId, { x: e.clientX, y: e.clientY }); clamp(); draw(); } });
+    const up = (e) => { ptrs.delete(e.pointerId); }; v.addEventListener("pointerup", up); v.addEventListener("pointercancel", up);
+    v.addEventListener("wheel", (e) => { e.preventDefault(); const r = v.getBoundingClientRect(); zoomAt(e.deltaY < 0 ? 1.15 : 1 / 1.15, e.clientX - r.left, e.clientY - r.top); }, { passive: false });
+    const close = () => { lb.remove(); document.body.classList.remove("sw-lbopen"); document.removeEventListener("keydown", key); };
+    const key = (e) => { if (e.key === "Escape") close(); if (e.key === "+" || e.key === "=") zoomAt(1.2, v.clientWidth / 2, v.clientHeight / 2); if (e.key === "-") zoomAt(1 / 1.2, v.clientWidth / 2, v.clientHeight / 2); };
+    document.addEventListener("keydown", key);
+    lb.querySelector(".sw-lbbar").addEventListener("click", (e) => { const a = e.target.closest("button")?.dataset.a; if (!a) return; const cx = v.clientWidth / 2, cy = v.clientHeight / 2;
+      if (a === "x") close(); else if (a === "in") zoomAt(1.3, cx, cy); else if (a === "out") zoomAt(1 / 1.3, cx, cy); else if (a === "fit") { mode = "crop"; setup(); } else if (a === "full") { mode = "full"; setup(); } });
+    requestAnimationFrame(setup);
+  },
+  rankScope(slug, sc) { RANK_SCOPE = sc; route(`ssw-rank/${slug}`); },
   /* --- hub --- */
   async pick(slug) {
     const w = document.getElementById("sw-world"), sheet = document.getElementById("sw-sheet"); if (!w) return;
@@ -565,5 +680,6 @@ export const SSW_ROUTES = {
   "ssw-kosa": (p) => renderKosa(p),
   "ssw-kartu": (p) => renderKartu(p),
   "ssw-kuis": (p) => renderKuis(p),
+  "ssw-rank": (p) => renderRank(p),
   "ssw-progres": () => renderProgres(),
 };
