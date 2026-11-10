@@ -201,3 +201,30 @@ body.sw-lbopen{overflow:hidden;}
 .hf-bar{position:sticky; bottom:0; z-index:30; display:flex; gap:10px; align-items:center; justify-content:space-between; background:rgba(14,16,40,.97); border-top:1px solid var(--border); padding:10px 4px calc(10px + env(safe-area-inset-bottom,0px)); flex-wrap:wrap;} .hf-bar .btn{flex:1 1 160px;}
 .sw-vdet>summary{cursor:pointer; font-size:13px; opacity:.8; min-height:40px; display:flex; align-items:center;} .sw-vdet .sw-vchips{max-height:320px; overflow:auto; margin-bottom:10px;}
 .sw-lesson ruby .sw-w{border-bottom:0;} .sw-w ruby{border-bottom:2px dotted var(--pink,#ef6a9a);}
+
+/* ===== teks selalu turun ke bawah, tidak keluar layar ===== */
+.sw-wrap,.sw-book{overflow-wrap:anywhere; word-break:normal;}
+.sw-wrap p,.sw-wrap li,.sw-wrap h1,.sw-wrap h2,.sw-wrap h3,.sw-wrap td,.sw-wrap th,.sw-wrap small,.sw-wrap span,.sw-wrap summary,.sw-wrap label,.sw-wrap button,.sw-wrap .btn,.sw-wrap select,.sw-wrap a{overflow-wrap:anywhere; min-width:0; max-width:100%;}
+.sw-wrap .jp,.sw-lesson,.sw-q,.sw-opt span{line-break:strict; word-break:break-word;}
+.sw-wrap img,.sw-wrap svg,.sw-wrap video,.sw-wrap canvas{max-width:100%; height:auto;}
+.sw-wrap table{display:block; max-width:100%; overflow-x:auto;}
+.sw-wrap pre,.sw-wrap code{white-space:pre-wrap; overflow-wrap:anywhere;}
+.sw-wrap .btn,.sw-wrap .sw-chip,.sw-wrap .sw-seg button,.sw-wrap .sw-tabs button{white-space:normal; text-align:center; line-height:1.25;}
+.sw-bar-top,.sw-actions,.sw-nav{flex-wrap:wrap;}
+.sw-nav .btn{flex:1 1 140px;}
+/* toolbar baca: baris kedua turun ke bawah (wrap), bisa disembunyikan */
+.sw-rtool .r2{flex-wrap:wrap; overflow:visible; row-gap:6px;} .sw-rtool .r2>*{flex:0 1 auto;}
+.sw-rtool .r2 .sw-seg{flex:0 0 auto;} .sw-rtool .tbt{min-width:44px; padding:0 10px !important; font-size:18px !important;}
+.sw-rtool.min .r2{display:none;}
+.sw-rtool{position:relative; top:auto;} @media (min-height:640px){.sw-rtool{position:sticky; top:0;}}
+body.sw-nohafal .sw-wrap [onclick*="ssw-hafal"],body.sw-nohafal .sw-wrap [onclick*="ssw-kartu"]{display:none !important;}
+@media (max-width:480px){
+  .sw-lesson{padding:14px 12px;} .sw-lesson .sw-body{font-size:16px; line-height:1.9;}
+  .sw-rtool .r2 .sw-seg button{padding:7px 10px; min-height:38px;}
+  .sw-panel{padding:14px 12px;}
+}
+.sw-rtool,.sw-rtool.min{display:contents; position:static;}
+.sw-rtool .r1{position:sticky; top:0; z-index:40; background:rgba(14,16,40,.97); padding:8px 0; border-bottom:1px solid var(--border); backdrop-filter:blur(6px); margin:0;}
+.sw-rtool .r2{background:transparent; padding:10px 0 4px; margin:0 0 6px;}
+.sw-wrap .sw-seg button{white-space:nowrap; overflow-wrap:normal;} .sw-rtool .r2 .sw-seg button{flex:0 0 auto;} .sw-wrap .hf-f button{white-space:normal;}
+.hf-quick{display:flex; flex-wrap:wrap; gap:6px; margin:8px 0;} .hf-quick .sw-chip{min-height:38px;}

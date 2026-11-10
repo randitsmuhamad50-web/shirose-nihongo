@@ -151,6 +151,22 @@ export async function getProgress(slug) {
   PS[slug] = { id, P };
   return P;
 }
+/** Kartu hafalan SSW memakai MESIN JLPT (dokumen SRS "ssw-bc", kunci "s:<no>") → dipetakan ke bentuk kartu SSW untuk statistik. */
+export const vnum = (v) => parseInt(String(v.id).replace(/\D/g, ""), 10) || 0;
+let _srsT = 0;
+export async function syncCards(P, vocab, force) {
+  if (typeof window === "undefined" || !window.sswSrsLoad) return;
+  if (!force && P._srsOk && Date.now() - _srsT < 2500) return;
+  let srs = {}; try { srs = await window.sswSrsLoad(); } catch (e) { return; }
+  _srsT = Date.now(); P._srsOk = 1;
+  const out = {};
+  for (const v of vocab) {
+    const c = srs["s:" + vnum(v)]; if (!c) continue;
+    const ok = c.last === "ingat", iv = c.mastered ? Math.max(c.interval || 1, 7) : (c.interval || 1);
+    out[v.id] = { last: c.n > 0 ? (c.due || Date.now()) - iv * 86400000 : 0, due: c.due || 0, iv, reps: c.mastered ? 3 : ok ? Math.max(1, Math.min(c.n || 1, 5)) : 0, lg: ok ? 1 : 0, ok: ok ? c.n : 0, ng: ok ? 0 : c.n };
+  }
+  P.cards = out;
+}
 export function touch(slug) {
   const e = PS[slug]; if (!e) return;
   e.P.u = Date.now(); LS.set(LKEY(slug), e.P); syncRank(slug);
