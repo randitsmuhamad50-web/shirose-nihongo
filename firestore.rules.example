@@ -81,6 +81,15 @@ service cloud.firestore {
       allow write: if isGuru();
     }
 
+    // ---------- SSW 特定技能 ----------
+    // Konfigurasi bidang (aktif/nonaktif, status bab). Siswa terdaftar boleh membaca; hanya guru yang menulis.
+    // Progres siswa ada di siswa/{uid}/ssw_progres/{slug} → sudah tercakup rule sub-koleksi di atas.
+    match /ssw_bidang/{slug} {
+      allow read: if terdaftar();
+      allow write: if isGuru();
+      allow delete: if isAdmin();
+    }
+
     // ---------- Lain-lain ----------
     match /kelas/{kid} {
       allow read: if terdaftar();

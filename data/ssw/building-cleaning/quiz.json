@@ -1,0 +1,774 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q1",
+    "title": {
+     "id": "Aturan kerja & tata krama",
+     "jp": "勤務ルールと身だしなみ"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Setelah masuk kerja, langkah berikutnya dalam alur pekerjaan 1 hari adalah…",
+       "jp": "出勤の{次|つぎ}は、1日の仕事の流れのどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Rapat dan persiapan",
+        "jp": "ミーティング・{準備|じゅんび}"
+       },
+       {
+        "id": "Pembersihan",
+        "jp": "{清掃|せいそう}{作業|さぎょう}"
+       },
+       {
+        "id": "Selesai bekerja",
+        "jp": "{退勤|たいきん}"
+       },
+       {
+        "id": "Laporan pekerjaan",
+        "jp": "{作業|さぎょう}{報告|ほうこく}・{後片付|あとかたづ}け"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Urutan: masuk kerja → rapat/persiapan → pembersihan → laporan & beres-beres akhir → selesai bekerja.",
+       "jp": "{流|なが}れ：{出勤|しゅっきん}→ミーティング・{準備|じゅんび}→{清掃|せいそう}{作業|さぎょう}→{作業|さぎょう}{報告|ほうこく}・{後片付|あとかたづ}け→{退勤|たいきん}。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika tidak bisa masuk kerja karena sakit, apa yang harus dilakukan?",
+       "jp": "{病気|びょうき}で{出勤|しゅっきん}できないときは、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Menghubungi/memberi kabar",
+        "jp": "{連絡|れんらく}や{届出|とどけで}をする"
+       },
+       {
+        "id": "Tidak perlu apa-apa",
+        "jp": "何もしなくてよい"
+       },
+       {
+        "id": "Menunggu sampai sembuh lalu datang",
+        "jp": "治ってから{来|く}る"
+       },
+       {
+        "id": "Menitip pesan ke teman tanpa kabar ke PIC",
+        "jp": "{友達|ともだち}に{伝|つた}えるだけでよい"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika tidak bisa masuk, harus menghubungi/memberi kabar. Absen tanpa izin merepotkan rekan dan tamu.",
+       "jp": "{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必|かなら}{要|よう}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa yang harus dilakukan terhadap sampah bekas makan saat istirahat?",
+       "jp": "{休憩|きゅうけい}のあと、食べたあとのゴミはどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Dibersihkan sendiri",
+        "jp": "{自分|じぶん}で{片付|かたづ}ける"
+       },
+       {
+        "id": "Ditinggalkan di meja",
+        "jp": "{机|つくえ}に置いておく"
+       },
+       {
+        "id": "Dibuang oleh petugas lain",
+        "jp": "ほかの人に{任|まか}せる"
+       },
+       {
+        "id": "Dibawa pulang saja",
+        "jp": "持ち{帰|かえ}るだけ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bersihkan sampah bekas makan kalian dan tetap jaga sikap sebagai karyawan.",
+       "jp": "{休憩|きゅうけい}で{使|つか}った{茶器|ちゃき}の{後片付|あとかたづ}けを行います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum pulang, kepada siapa pekerjaan dilaporkan?",
+       "jp": "{退勤|たいきん}の前に、{誰|だれ}に{報告|ほうこく}しますか。"
+      },
+      "opts": [
+       {
+        "id": "PIC (penanggung jawab)",
+        "jp": "{責任者|せきにんしゃ}"
+       },
+       {
+        "id": "Tamu gedung",
+        "jp": "お{客|きゃく}{様|さま}"
+       },
+       {
+        "id": "Teman dekat saja",
+        "jp": "仲間だけ"
+       },
+       {
+        "id": "Tidak perlu lapor",
+        "jp": "{報告|ほうこく}は{不要|ふよう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cek pekerjaan sudah selesai, lapor ke PIC, baru boleh pulang.",
+       "jp": "{完了|かんりょう}を{確認|かくにん}し、{責任者|せきにんしゃ}に{報告|ほうこく}してから{退勤|たいきん}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa anting, cincin, dan aksesoris harus dilepas saat bekerja?",
+       "jp": "ピアスや指輪を外すのはなぜですか。"
+      },
+      "opts": [
+       {
+        "id": "Untuk mencegah kecelakaan kerja",
+        "jp": "事故を防ぐため"
+       },
+       {
+        "id": "Agar terlihat lebih mahal",
+        "jp": "{高|たか}く{見|み}せるため"
+       },
+       {
+        "id": "Karena warnanya mencolok",
+        "jp": "{色|いろ}が{目|め}立つため"
+       },
+       {
+        "id": "Supaya mudah dibersihkan nanti",
+        "jp": "あとで{洗|あら}いやすいため"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Aksesoris harus dilepas untuk menghindari kecelakaan kerja.",
+       "jp": "アクセサリーは{事故防止|じこぼうし}のために外します。"
+      },
+      "img": {
+       "p": 10,
+       "id": [
+        50,
+        39,
+        31,
+        13
+       ],
+       "jp": [
+        50,
+        42,
+        31,
+        13
+       ]
+      }
+     },
+     {
+      "q": {
+       "id": "Mana yang BENAR tentang telepon dan mesin foto copy perusahaan?",
+       "jp": "{会社|かいしゃ}の{電話|でんわ}やコピー{機|き}について{正しい|ただしい}のはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh dipakai untuk keperluan pribadi",
+        "jp": "{私用|しよう}で{使|つか}ってはいけない"
+       },
+       {
+        "id": "Boleh dipakai saat istirahat",
+        "jp": "{休憩|きゅうけい}中なら{使|つか}ってよい"
+       },
+       {
+        "id": "Boleh jika sedang sepi",
+        "jp": "人がいなければ{使|つか}ってよい"
+       },
+       {
+        "id": "Boleh untuk foto copy dokumen sendiri",
+        "jp": "{自分|じぶん}の{書|か}類のコピーはよい"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi.",
+       "jp": "{会社|かいしゃ}の{電話|でんわ}、{携帯|けいたい}{電話|でんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない。"
+      }
+     },
+     {
+      "q": {
+       "id": "Arti dari 退勤 (たいきん) adalah…",
+       "jp": "「{退勤|たいきん}」の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Selesai kerja / pulang kerja",
+        "jp": "{仕事|しごと}が{終|お}わって{帰|かえ}ること"
+       },
+       {
+        "id": "Masuk kerja",
+        "jp": "{仕事|しごと}に{来|く}ること"
+       },
+       {
+        "id": "Istirahat",
+        "jp": "{休|やす}むこと"
+       },
+       {
+        "id": "Terlambat",
+        "jp": "{遅|おく}れること"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "出勤 = masuk kerja, 休憩 = istirahat, 退勤 = selesai kerja.",
+       "jp": "{出勤|しゅっきん}＝{仕事|しごと}に{来|く}る、{休憩|きゅうけい}＝{休|やす}む、{退勤|たいきん}＝{仕事|しごと}が{終|お}わって{帰|かえ}る。"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa kalimat yang tidak boleh lupa diucapkan saat selesai bekerja?",
+       "jp": "{退勤|たいきん}するとき、忘れてはいけない{一|いち}{言|い}は何ですか。"
+      },
+      "opts": [
+       {
+        "id": "Otsukaresama deshita",
+        "jp": "{お疲れ様|おつかれさま}でした"
+       },
+       {
+        "id": "Ohayou gozaimasu",
+        "jp": "おはようございます"
+       },
+       {
+        "id": "Shitsurei shimasu",
+        "jp": "{失礼|しつれい}します"
+       },
+       {
+        "id": "Omatase shimashita",
+        "jp": "{お待|おま}たせしました"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan lupa mengatakan \"Otsukaresama deshita\".",
+       "jp": "「{お疲れ様|おつかれさま}でした」の{一|いち}{言|い}を忘れない。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q2",
+    "title": {
+     "id": "Jenis pembersihan, 5 prinsip, salam",
+     "jp": "清掃の種類・5原則・あいさつ"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tujuan Pembersihan Harian adalah…",
+       "jp": "{日常清掃|にちじょうせいそう}の{目|め}的はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Menjaga kebersihan sehari-hari",
+        "jp": "{毎日|まいにち}きれいを保つこと"
+       },
+       {
+        "id": "Membersihkan tuntas kotoran membandel",
+        "jp": "{落|お}ちない{汚|よご}れを{取|と}ること"
+       },
+       {
+        "id": "Merawat lantai dengan wax",
+        "jp": "ワックスで{床|ゆか}を{守|まも}ること"
+       },
+       {
+        "id": "Membersihkan hanya sebulan sekali",
+        "jp": "{月|つき}に{一度|いちど}{掃除|そうじ}すること"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pembersihan harian dilakukan tiap hari untuk menjaga kebersihan sehari-hari.",
+       "jp": "{日常清掃|にちじょうせいそう}は{毎日|まいにち}行い、きれいを{維持|いじ}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mana yang termasuk Pembersihan Berkala?",
+       "jp": "{定期清掃|ていきせいそう}にあてはまるのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Membersihkan tuntas kotoran dan pemeliharaan bangunan (wax)",
+        "jp": "{汚|よご}れの{除去|じょきょ}と{建材|けんざい}の{維持|いじ}（ワックス）"
+       },
+       {
+        "id": "Menyapu lantai tiap pagi",
+        "jp": "{毎朝|まいあさ}{床|ゆか}をはくこと"
+       },
+       {
+        "id": "Mengosongkan tempat sampah harian",
+        "jp": "{毎日|まいにち}ゴミ{箱|ばこ}を{空|あ}にすること"
+       },
+       {
+        "id": "Menyapa tamu",
+        "jp": "お{客|きゃく}{様|さま}にあいさつすること"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pembersihan berkala: tuntaskan kotoran + pemeliharaan bangunan (wax).",
+       "jp": "{定期清掃|ていきせいそう}：{汚|よご}れの{除去|じょきょ}、{建材|けんざい}の{維持|いじ}（ワックス）。"
+      },
+      "img": {
+       "p": 11,
+       "id": [
+        19,
+        56,
+        63,
+        24
+       ],
+       "jp": [
+        19,
+        61,
+        62,
+        24
+       ]
+      }
+     },
+     {
+      "q": {
+       "id": "Pengetahuan ketiga dari 5 prinsip Cleaning Service adalah pengetahuan mengenai…",
+       "jp": "5{原則|げんそく}の3{番目|ばんめ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Pembersih (洗剤)",
+        "jp": "{洗剤|せんざい}の{知識|ちしき}"
+       },
+       {
+        "id": "Bangunan (建材)",
+        "jp": "{建材|けんざい}の{知識|ちしき}"
+       },
+       {
+        "id": "Kotoran (汚れ)",
+        "jp": "{汚|よご}れの{知識|ちしき}"
+       },
+       {
+        "id": "Tindakan pencegahan (予防策)",
+        "jp": "{予防策|よぼうさく}の{知識|ちしき}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Urutan: ① Bangunan ② Kotoran ③ Pembersih ④ Cara membersihkan ⑤ Tindakan pencegahan.",
+       "jp": "①{建材|けんざい}②{汚|よご}れ③{洗剤|せんざい}④{作業方法|さぎょうほうほう}⑤{予防策|よぼうさく}。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ada berapa prinsip dasar Cleaning Service?",
+       "jp": "ビルクリーニングの{原則|げんそく}はいくつありますか。"
+      },
+      "opts": [
+       {
+        "id": "5",
+        "jp": "5つ"
+       },
+       {
+        "id": "3",
+        "jp": "3つ"
+       },
+       {
+        "id": "7",
+        "jp": "7つ"
+       },
+       {
+        "id": "10",
+        "jp": "10"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ada 5 prinsip dasar.",
+       "jp": "5{原則|げんそく}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Sudut membungkuk (ojigi) yang benar adalah…",
+       "jp": "{お辞儀|おじぎ}の{角度|かくど}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "15°〜45°",
+        "jp": "15°〜45°"
+       },
+       {
+        "id": "0°〜5°",
+        "jp": "0°〜5°"
+       },
+       {
+        "id": "60°〜90°",
+        "jp": "60°〜90°"
+       },
+       {
+        "id": "100° ke atas",
+        "jp": "100°{以上|いじょう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ojigi dilakukan dengan membungkuk dari pinggang, kaki dirapatkan, 15°〜45°.",
+       "jp": "{お辞儀|おじぎ}は腰から折り、足をそろえ、15°〜45°で行います。"
+      },
+      "img": {
+       "p": 13,
+       "id": [
+        51,
+        36,
+        30,
+        23
+       ],
+       "jp": [
+        52,
+        40,
+        30,
+        24
+       ]
+      }
+     },
+     {
+      "q": {
+       "id": "Arti 承知しました (かしこまりました) adalah…",
+       "jp": "「{承知|しょうち}しました」の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Baik, saya mengerti",
+        "jp": "わかりました（{丁寧|ていねい}）"
+       },
+       {
+        "id": "Mohon maaf",
+        "jp": "ごめんなさい"
+       },
+       {
+        "id": "Permisi",
+        "jp": "さようなら"
+       },
+       {
+        "id": "Terima kasih",
+        "jp": "ありがとう"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "承知しました = baik, saya mengerti.",
+       "jp": "{承知|しょうち}しました＝わかりました（{丁寧|ていねい}な{言|い}い方）。"
+      }
+     },
+     {
+      "q": {
+       "id": "Arti 申し訳ございません adalah…",
+       "jp": "「{申し訳|もうしわけ}ございません」の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Mohon maaf",
+        "jp": "すみません（{丁寧|ていねい}）"
+       },
+       {
+        "id": "Mohon bantuannya",
+        "jp": "お願いします"
+       },
+       {
+        "id": "Selamat pagi",
+        "jp": "おはよう"
+       },
+       {
+        "id": "Maaf sudah menunggu",
+        "jp": "{お待|おま}たせしました"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "申し訳ございません = mohon maaf.",
+       "jp": "{申し訳|もうしわけ}ございません＝{深|ふか}くおわびします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap yang benar saat berbicara dengan tamu adalah…",
+       "jp": "お{客|きゃく}{様|さま}と{話|はな}すときの{正しい|ただしい}{態度|たいど}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Bahasa sopan, postur benar, menatap mata lawan bicara",
+        "jp": "{丁寧|ていねい}な{言葉|ことば}と{正しい|ただしい}{姿勢|しせい}で、{相手|あいて}の{目|め}を{見|み}る"
+       },
+       {
+        "id": "Berbicara santai",
+        "jp": "{友達|ともだち}のように{話|はな}す"
+       },
+       {
+        "id": "Menunduk tanpa menatap",
+        "jp": "{目|め}を合わせない"
+       },
+       {
+        "id": "Berbicara sambil bekerja tanpa berhenti",
+        "jp": "{作業|さぎょう}しながら{話|はな}す"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gunakan bahasa sopan dan postur yang benar; lihat mata lawan bicara.",
+       "jp": "{丁寧|ていねい}な{言葉|ことば}{使|つか}いと{正しい|ただしい}{姿勢|しせい}で、{相手|あいて}の{目|め}を{見|み}ます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q3",
+    "title": {
+     "id": "Peraturan di tempat kerja",
+     "jp": "職場でのルール"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "HOURENSOU adalah singkatan dari…",
+       "jp": "ホウレンソウとは何の略ですか。"
+      },
+      "opts": [
+       {
+        "id": "Lapor, Komunikasi, Konsultasi",
+        "jp": "{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}"
+       },
+       {
+        "id": "Hormat, Rajin, Sopan",
+        "jp": "{尊敬|そんけい}・{熱心|ねっしん}・{丁寧|ていねい}"
+       },
+       {
+        "id": "Hadir, Rapat, Selesai",
+        "jp": "{出席|しゅっせき}・{会議|かいぎ}・{終了|しゅうりょう}"
+       },
+       {
+        "id": "Bersih, Rapi, Teliti",
+        "jp": "{清潔|せいけつ}・{整頓|せいとん}・{丁寧|ていねい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "HOUkoku (lapor), RENraku (komunikasi), SOUdan (konsultasi).",
+       "jp": "{報告|ほうこく}（ほうこく）・{連絡|れんらく}（れんらく）・{相談|そうだん}（そうだん）。"
+      }
+     },
+     {
+      "q": {
+       "id": "Saat pekerjaan yang diminta sudah selesai, apa yang dilakukan?",
+       "jp": "{指示|しじ}された{仕事|しごと}が{終|お}わったら、何をしますか。"
+      },
+      "opts": [
+       {
+        "id": "HOUkoku (lapor) ke PIC",
+        "jp": "{責任者|せきにんしゃ}に「{報告|ほうこく}」する"
+       },
+       {
+        "id": "SOUdan ke rekan",
+        "jp": "{同僚|どうりょう}に「{相談|そうだん}」する"
+       },
+       {
+        "id": "RENraku ke tamu",
+        "jp": "お{客|きゃく}{様|さま}に「{連絡|れんらく}」する"
+       },
+       {
+        "id": "Langsung pulang",
+        "jp": "そのまま{帰|かえ}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pekerjaan selesai → HOUkoku (lapor) ke PIC.",
+       "jp": "{仕事|しごと}が{終|お}わったら、{指示|しじ}をくれた人に{報告|ほうこく}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika ada info baru atau masalah dalam pekerjaan, apa yang dilakukan?",
+       "jp": "{仕事|しごと}で新しい{情報|じょうほう}や{問題|もんだい}があったら、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "RENraku dengan PIC menggunakan 5W1H",
+        "jp": "5W1Hをはっきりさせて{責任者|せきにんしゃ}に「{連絡|れんらく}」する"
+       },
+       {
+        "id": "Disimpan sendiri",
+        "jp": "{自分|じぶん}だけで{考|かんが}える"
+       },
+       {
+        "id": "Diceritakan di media sosial",
+        "jp": "SNSに{書|か}く"
+       },
+       {
+        "id": "Menunggu ditanya",
+        "jp": "{聞|き}かれるまで{待|ま}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Info baru/masalah → RENraku (komunikasi) dengan PIC, terapkan 5W1H.",
+       "jp": "{共有|きょうゆう}すべき{情報|じょうほう}や{問題|もんだい}は5W1Hを{明確|めいかく}にして{連絡|れんらく}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika ada pekerjaan yang tidak dimengerti, apa yang dilakukan?",
+       "jp": "わからない{点|てん}があるとき、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "SOUdan (konsultasi) dengan PIC",
+        "jp": "{責任者|せきにんしゃ}に「{相談|そうだん}」する"
+       },
+       {
+        "id": "Menebak-nebak",
+        "jp": "{自分|じぶん}で{判断|はんだん}する"
+       },
+       {
+        "id": "Dilewati saja",
+        "jp": "とばして進める"
+       },
+       {
+        "id": "Menunggu orang lain",
+        "jp": "{誰|だれ}かが{気|き}づくのを{待|ま}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tidak dimengerti/perlu perbaikan → SOUdan (konsultasi) dengan PIC.",
+       "jp": "{改善|かいぜん}{点|てん}やわからない{点|てん}は{具体的|ぐたいてき}に「{相談|そうだん}」します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika tamu memberi komplain, tindakan yang benar adalah…",
+       "jp": "お{客|きゃく}{様|さま}からクレームを{受|う}けたとき、{正しい|ただしい}対応はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak mengelak, catat, minta maaf, lalu segera lapor PIC",
+        "jp": "{言|い}い{訳|わけ}せず、メモし、おわびして、すぐ{責任者|せきにんしゃ}に{報告|ほうこく}"
+       },
+       {
+        "id": "Membela diri",
+        "jp": "{自分|じぶん}の{言|い}い分を説明する"
+       },
+       {
+        "id": "Mengabaikan",
+        "jp": "{聞|き}こえないふりをする"
+       },
+       {
+        "id": "Menunggu tamu pergi",
+        "jp": "お{客|きゃく}{様|さま}が{帰|かえ}るのを{待|ま}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan mengelak, tulis komplain, katakan permohonan maaf, segera laporkan ke PIC.",
+       "jp": "{言|い}い{訳|わけ}をせずメモし、おわびを{伝|つた}え、すぐ{報告|ほうこく}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bagaimana sebaiknya memperlakukan senior di tempat kerja?",
+       "jp": "{先輩|せんぱい}にはどう{接|せっ}するのが基本ですか。"
+      },
+      "opts": [
+       {
+        "id": "Seperti memperlakukan atasan",
+        "jp": "{上司|じょうし}と{同|おな}じように{接|せっ}する"
+       },
+       {
+        "id": "Seperti teman akrab",
+        "jp": "{友達|ともだち}のように{接|せっ}する"
+       },
+       {
+        "id": "Diabaikan",
+        "jp": "{気|き}にしない"
+       },
+       {
+        "id": "Disaingi",
+        "jp": "{競争|きょうそう}する"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada dasarnya, perlakukan senior seperti atasan.",
+       "jp": "{基本的|きほんてき}には、{上司|じょうし}と{同|おな}じように{接|せっ}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang benar saat mengikuti rapat adalah…",
+       "jp": "ミーティングで{正しい|ただしい}のはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak telat, mendengarkan, mencatat hal penting",
+        "jp": "{遅刻|ちこく}せず、よく{聞|き}き、{大切|たいせつ}なことはメモする"
+       },
+       {
+        "id": "Boleh telat sedikit",
+        "jp": "{少|すこ}し{遅|おく}れてもよい"
+       },
+       {
+        "id": "Hanya diam tanpa mencatat",
+        "jp": "メモは{不要|ふよう}"
+       },
+       {
+        "id": "Memakai HP selama rapat",
+        "jp": "{会議|かいぎ}中に{携帯|けいたい}を{使|つか}う"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan telat ke rapat; dengarkan PIC dan rekan; tulis pembahasan penting.",
+       "jp": "{遅刻|ちこく}せず、{話|はな}をよく{聞|き}き、メモをとります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Saat kesulitan memutuskan sesuatu, sebaiknya…",
+       "jp": "{判断|はんだん}に{困|こま}ったとき、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Mendiskusikan dengan atasan",
+        "jp": "{勝手|かって}に{判断|はんだん}せず、{相談|そうだん}する"
+       },
+       {
+        "id": "Memutuskan sendiri",
+        "jp": "{自分|じぶん}で{決|き}める"
+       },
+       {
+        "id": "Menunggu rekan memutuskan",
+        "jp": "{同僚|どうりょう}に{任|まか}せる"
+       },
+       {
+        "id": "Berhenti bekerja",
+        "jp": "{仕事|しごと}をやめる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat kesulitan, jangan ambil keputusan sendiri; diskusikan dengan atasan.",
+       "jp": "{困|こま}った時は{勝手|かって}に{判断|はんだん}せず、{相談|そうだん}しましょう。"
+      }
+     }
+    ]
+   }
+  ]
+ }
+}

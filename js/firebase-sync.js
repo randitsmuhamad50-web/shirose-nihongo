@@ -543,6 +543,38 @@ export async function saveKanaProgres(data) {
     { ...data, uid: currentUser.uid, updated: serverTimestamp() });
 }
 
+/* ========== SSW 特定技能 ==========
+ * ssw_bidang/{slug}            konfigurasi bidang (guru menulis, siswa terdaftar membaca):
+ *                              { nama, jp, aktif, urut, tema, gambar, hasContent, bab:{babId:"draft|published|hidden"} }
+ * siswa/{uid}/ssw_progres/{slug} progres siswa — sub-koleksi milik siswa, sudah tercakup rules {sub}/{docId}.
+ * Menonaktifkan bidang TIDAK menghapus progres (dokumen progres tidak disentuh).
+ */
+export async function loadSswBidang() {
+  const snap = await getDocs(collection(db, "ssw_bidang"));
+  return snap.docs.map(d => ({ slug: d.id, ...d.data() }));
+}
+export async function saveSswBidang(slug, data) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  const clean = { ...data }; delete clean.slug;
+  await setDoc(doc(db, "ssw_bidang", slug), { ...clean, updated: serverTimestamp(), updatedBy: currentUser.uid }, { merge: true });
+}
+export async function deleteSswBidang(slug) {
+  if (!userIsAdmin() && !userIsDeveloper()) throw new Error("Hanya admin");
+  await deleteDoc(doc(db, "ssw_bidang", slug));
+}
+export async function loadSswProgres(slug, uidOverride = null) {
+  const id = uidOverride || currentUser?.uid;
+  if (!id) return null;
+  if (uidOverride && uidOverride !== currentUser?.uid && !userIsGuru()) throw new Error("Tidak diizinkan");
+  const snap = await getDoc(doc(db, "siswa", id, "ssw_progres", slug));
+  return snap.exists() ? snap.data() : null;
+}
+export async function saveSswProgres(slug, data) {
+  if (!currentUser) return;
+  await setDoc(doc(db, "siswa", currentUser.uid, "ssw_progres", slug),
+    { ...data, uid: currentUser.uid, updated: serverTimestamp() });
+}
+
 /* ========== ACTIVITY CALENDAR (Part 12) ========== */
 // Each activity bumps a date-bucket document. Date is YYYYMMDD in Asia/Bangkok
 // so streaks line up with the user's local day. Activity types:

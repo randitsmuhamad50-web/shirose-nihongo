@@ -1,0 +1,264 @@
+[
+ {
+  "kata": "出勤",
+  "kana": "しゅっきん",
+  "arti": "masuk kerja; berangkat kerja",
+  "contoh": "出社時間[しゅっしゃじかん]を守[まも]る",
+  "arti_contoh": "Menaati jam masuk kerja."
+ },
+ {
+  "kata": "休憩",
+  "kana": "きゅうけい",
+  "arti": "istirahat",
+  "contoh": "定[さだ]められた時間[じかん]に指定[してい]の場所[ばしょ]で休[やす]む",
+  "arti_contoh": "Istirahat pada waktu dan tempat yang ditentukan."
+ },
+ {
+  "kata": "退勤",
+  "kana": "たいきん",
+  "arti": "selesai kerja; pulang kerja",
+  "contoh": "責任者[せきにんしゃ]に報告[ほうこく]してから退勤[たいきん]する",
+  "arti_contoh": "Pulang setelah melapor ke PIC."
+ },
+ {
+  "kata": "遅刻",
+  "kana": "ちこく",
+  "arti": "terlambat",
+  "contoh": "遅刻[ちこく]や欠勤[けっきん]は仲間[なかま]やお客様[きゃくさま]に迷惑[めいわく]をかける",
+  "arti_contoh": "Terlambat dan absen merepotkan rekan kerja dan tamu."
+ },
+ {
+  "kata": "早退",
+  "kana": "そうたい",
+  "arti": "pulang lebih awal"
+ },
+ {
+  "kata": "欠勤",
+  "kana": "けっきん",
+  "arti": "tidak masuk kerja; absen",
+  "contoh": "無断[むだん]で欠勤[けっきん]をすると迷惑[めいわく]をかける",
+  "arti_contoh": "Absen tanpa izin merepotkan orang lain."
+ },
+ {
+  "kata": "無断",
+  "kana": "むだん",
+  "arti": "tanpa izin",
+  "contoh": "無断[むだん]で持[も]ち場[ば]を離[はな]れない",
+  "arti_contoh": "Jangan meninggalkan tempat kerja tanpa izin."
+ },
+ {
+  "kata": "迷惑",
+  "kana": "めいわく",
+  "arti": "merepotkan; gangguan"
+ },
+ {
+  "kata": "準備",
+  "kana": "じゅんび",
+  "arti": "persiapan"
+ },
+ {
+  "kata": "後片付け",
+  "kana": "あとかたづけ",
+  "arti": "beres-beres akhir"
+ },
+ {
+  "kata": "器材",
+  "kana": "きざい",
+  "arti": "peralatan; perlengkapan",
+  "contoh": "使用[しよう]した器材[きざい]の点検[てんけん]をする",
+  "arti_contoh": "Memeriksa peralatan yang telah dipakai."
+ },
+ {
+  "kata": "点検",
+  "kana": "てんけん",
+  "arti": "pemeriksaan; inspeksi"
+ },
+ {
+  "kata": "不具合",
+  "kana": "ふぐあい",
+  "arti": "kerusakan; gangguan fungsi"
+ },
+ {
+  "kata": "紛失",
+  "kana": "ふんしつ",
+  "arti": "kehilangan; hilang"
+ },
+ {
+  "kata": "身だしなみ",
+  "kana": "みだしなみ",
+  "arti": "penampilan; tata krama berpakaian",
+  "contoh": "身[み]だしなみに注意[ちゅうい]しよう",
+  "arti_contoh": "Perhatikan penampilan."
+ },
+ {
+  "kata": "ユニフォーム",
+  "kana": "ユニフォーム",
+  "arti": "seragam",
+  "contoh": "ユニフォームを着崩[きくず]してはダメ",
+  "arti_contoh": "Jangan memakai seragam dengan berantakan."
+ },
+ {
+  "kata": "事故防止",
+  "kana": "じこぼうし",
+  "arti": "pencegahan kecelakaan"
+ },
+ {
+  "kata": "清潔感",
+  "kana": "せいけつかん",
+  "arti": "kesan bersih; kebersihan"
+ },
+ {
+  "kata": "清掃",
+  "kana": "せいそう",
+  "arti": "pembersihan"
+ },
+ {
+  "kata": "日常清掃",
+  "kana": "にちじょうせいそう",
+  "arti": "pembersihan harian"
+ },
+ {
+  "kata": "定期清掃",
+  "kana": "ていきせいそう",
+  "arti": "pembersihan berkala"
+ },
+ {
+  "kata": "ワックス",
+  "kana": "ワックス",
+  "arti": "wax (pelapis lantai)"
+ },
+ {
+  "kata": "建材",
+  "kana": "けんざい",
+  "arti": "bahan bangunan"
+ },
+ {
+  "kata": "汚れ",
+  "kana": "よごれ",
+  "arti": "kotoran; noda"
+ },
+ {
+  "kata": "洗剤",
+  "kana": "せんざい",
+  "arti": "deterjen; bahan pembersih"
+ },
+ {
+  "kata": "作業方法",
+  "kana": "さぎょうほうほう",
+  "arti": "cara kerja; metode kerja"
+ },
+ {
+  "kata": "予防策",
+  "kana": "よぼうさく",
+  "arti": "langkah pencegahan"
+ },
+ {
+  "kata": "挨拶",
+  "kana": "あいさつ",
+  "arti": "salam sapa",
+  "contoh": "仕事[しごと]のはじめは元気[げんき]な挨拶[あいさつ]から",
+  "arti_contoh": "Awali pekerjaan dengan salam yang semangat."
+ },
+ {
+  "kata": "お辞儀",
+  "kana": "おじぎ",
+  "arti": "membungkuk (tanda hormat)",
+  "contoh": "腰[こし]から折[お]るようにお辞儀[じぎ]をしよう",
+  "arti_contoh": "Membungkuklah dari pinggang."
+ },
+ {
+  "kata": "おはようございます",
+  "kana": "おはようございます",
+  "arti": "selamat pagi"
+ },
+ {
+  "kata": "ありがとうございました",
+  "kana": "ありがとうございました",
+  "arti": "terima kasih"
+ },
+ {
+  "kata": "承知しました",
+  "kana": "しょうちしました",
+  "arti": "baik, saya mengerti"
+ },
+ {
+  "kata": "かしこまりました",
+  "kana": "かしこまりました",
+  "arti": "baik, saya mengerti (sangat sopan)"
+ },
+ {
+  "kata": "申し訳ございません",
+  "kana": "もうしわけございません",
+  "arti": "mohon maaf"
+ },
+ {
+  "kata": "よろしくお願いします",
+  "kana": "よろしくおねがいします",
+  "arti": "mohon bantuannya"
+ },
+ {
+  "kata": "お待たせしました",
+  "kana": "おまたせしました",
+  "arti": "maaf sudah menunggu"
+ },
+ {
+  "kata": "失礼します",
+  "kana": "しつれいします",
+  "arti": "permisi"
+ },
+ {
+  "kata": "お疲れ様でした",
+  "kana": "おつかれさまでした",
+  "arti": "terima kasih atas kerja kerasnya"
+ },
+ {
+  "kata": "責任者",
+  "kana": "せきにんしゃ",
+  "arti": "penanggung jawab (PIC); atasan"
+ },
+ {
+  "kata": "上司",
+  "kana": "じょうし",
+  "arti": "atasan"
+ },
+ {
+  "kata": "先輩",
+  "kana": "せんぱい",
+  "arti": "senior"
+ },
+ {
+  "kata": "同僚",
+  "kana": "どうりょう",
+  "arti": "rekan kerja"
+ },
+ {
+  "kata": "報告",
+  "kana": "ほうこく",
+  "arti": "melapor; laporan"
+ },
+ {
+  "kata": "連絡",
+  "kana": "れんらく",
+  "arti": "komunikasi; menghubungi"
+ },
+ {
+  "kata": "相談",
+  "kana": "そうだん",
+  "arti": "konsultasi; berdiskusi"
+ },
+ {
+  "kata": "ホウレンソウ",
+  "kana": "ほうれんそう",
+  "arti": "HOUkoku・RENraku・SOUdan (lapor, komunikasi, konsultasi)"
+ },
+ {
+  "kata": "クレーム",
+  "kana": "クレーム",
+  "arti": "komplain; teguran dari tamu"
+ },
+ {
+  "kata": "ミーティング",
+  "kana": "ミーティング",
+  "arti": "rapat"
+ }
+]

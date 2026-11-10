@@ -1,0 +1,610 @@
+{
+ "items": [
+  {
+   "id": "bc-001",
+   "kata": "出勤",
+   "kana": "しゅっきん",
+   "romaji": "shukkin",
+   "arti": "masuk kerja; berangkat kerja",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{出社時間|しゅっしゃじかん}を{守|まも}る",
+   "arti_contoh": "Menaati jam masuk kerja."
+  },
+  {
+   "id": "bc-002",
+   "kata": "休憩",
+   "kana": "きゅうけい",
+   "romaji": "kyuukei",
+   "arti": "istirahat",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{定|さだ}められた{時間|じかん}に{指定|してい}の{場所|ばしょ}で{休|やす}む",
+   "arti_contoh": "Istirahat pada waktu dan tempat yang ditentukan."
+  },
+  {
+   "id": "bc-003",
+   "kata": "退勤",
+   "kana": "たいきん",
+   "romaji": "taikin",
+   "arti": "selesai kerja; pulang kerja",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{責任者|せきにんしゃ}に{報告|ほうこく}してから{退勤|たいきん}する",
+   "arti_contoh": "Pulang setelah melapor ke PIC."
+  },
+  {
+   "id": "bc-004",
+   "kata": "遅刻",
+   "kana": "ちこく",
+   "romaji": "chikoku",
+   "arti": "terlambat",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{遅刻|ちこく}や{欠勤|けっきん}は{仲間|なかま}やお{客様|きゃくさま}に{迷惑|めいわく}をかける",
+   "arti_contoh": "Terlambat dan absen merepotkan rekan kerja dan tamu."
+  },
+  {
+   "id": "bc-005",
+   "kata": "早退",
+   "kana": "そうたい",
+   "romaji": "soutai",
+   "arti": "pulang lebih awal",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-006",
+   "kata": "欠勤",
+   "kana": "けっきん",
+   "romaji": "kekkin",
+   "arti": "tidak masuk kerja; absen",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{無断|むだん}で{欠勤|けっきん}をすると{迷惑|めいわく}をかける",
+   "arti_contoh": "Absen tanpa izin merepotkan orang lain."
+  },
+  {
+   "id": "bc-007",
+   "kata": "無断",
+   "kana": "むだん",
+   "romaji": "mudan",
+   "arti": "tanpa izin",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{無断|むだん}で{持|も}ち{場|ば}を{離|はな}れない",
+   "arti_contoh": "Jangan meninggalkan tempat kerja tanpa izin."
+  },
+  {
+   "id": "bc-008",
+   "kata": "迷惑",
+   "kana": "めいわく",
+   "romaji": "meiwaku",
+   "arti": "merepotkan; gangguan",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-009",
+   "kata": "準備",
+   "kana": "じゅんび",
+   "romaji": "junbi",
+   "arti": "persiapan",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-010",
+   "kata": "後片付け",
+   "kana": "あとかたづけ",
+   "romaji": "atokatazuke",
+   "arti": "beres-beres akhir",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-011",
+   "kata": "器材",
+   "kana": "きざい",
+   "romaji": "kizai",
+   "arti": "peralatan; perlengkapan",
+   "cat": "Peralatan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{使用|しよう}した{器材|きざい}の{点検|てんけん}をする",
+   "arti_contoh": "Memeriksa peralatan yang telah dipakai."
+  },
+  {
+   "id": "bc-012",
+   "kata": "点検",
+   "kana": "てんけん",
+   "romaji": "tenken",
+   "arti": "pemeriksaan; inspeksi",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-013",
+   "kata": "不具合",
+   "kana": "ふぐあい",
+   "romaji": "fuguai",
+   "arti": "kerusakan; gangguan fungsi",
+   "cat": "Peralatan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-014",
+   "kata": "紛失",
+   "kana": "ふんしつ",
+   "romaji": "funshitsu",
+   "arti": "kehilangan; hilang",
+   "cat": "Kerja harian",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-015",
+   "kata": "身だしなみ",
+   "kana": "みだしなみ",
+   "romaji": "midashinami",
+   "arti": "penampilan; tata krama berpakaian",
+   "cat": "Tata krama",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "{身|み}だしなみに{注意|ちゅうい}しよう",
+   "arti_contoh": "Perhatikan penampilan."
+  },
+  {
+   "id": "bc-016",
+   "kata": "ユニフォーム",
+   "kana": "ユニフォーム",
+   "romaji": "yunifoomu",
+   "arti": "seragam",
+   "cat": "Tata krama",
+   "bab": "bab1",
+   "src": [
+    "b1s2",
+    "b1s1"
+   ],
+   "contoh": "ユニフォームを{着崩|きくず}してはダメ",
+   "arti_contoh": "Jangan memakai seragam dengan berantakan."
+  },
+  {
+   "id": "bc-017",
+   "kata": "事故防止",
+   "kana": "じこぼうし",
+   "romaji": "jikoboushi",
+   "arti": "pencegahan kecelakaan",
+   "cat": "Keselamatan",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ]
+  },
+  {
+   "id": "bc-018",
+   "kata": "清潔感",
+   "kana": "せいけつかん",
+   "romaji": "seiketsukan",
+   "arti": "kesan bersih; kebersihan",
+   "cat": "Tata krama",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ]
+  },
+  {
+   "id": "bc-019",
+   "kata": "清掃",
+   "kana": "せいそう",
+   "romaji": "seisou",
+   "arti": "pembersihan",
+   "cat": "Jenis pembersihan",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "bc-020",
+   "kata": "日常清掃",
+   "kana": "にちじょうせいそう",
+   "romaji": "nichijouseisou",
+   "arti": "pembersihan harian",
+   "cat": "Jenis pembersihan",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "bc-021",
+   "kata": "定期清掃",
+   "kana": "ていきせいそう",
+   "romaji": "teikiseisou",
+   "arti": "pembersihan berkala",
+   "cat": "Jenis pembersihan",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "bc-022",
+   "kata": "ワックス",
+   "kana": "ワックス",
+   "romaji": "wakkusu",
+   "arti": "wax (pelapis lantai)",
+   "cat": "Peralatan",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "bc-023",
+   "kata": "建材",
+   "kana": "けんざい",
+   "romaji": "kenzai",
+   "arti": "bahan bangunan",
+   "cat": "5 prinsip",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ]
+  },
+  {
+   "id": "bc-024",
+   "kata": "汚れ",
+   "kana": "よごれ",
+   "romaji": "yogore",
+   "arti": "kotoran; noda",
+   "cat": "5 prinsip",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ]
+  },
+  {
+   "id": "bc-025",
+   "kata": "洗剤",
+   "kana": "せんざい",
+   "romaji": "senzai",
+   "arti": "deterjen; bahan pembersih",
+   "cat": "5 prinsip",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ]
+  },
+  {
+   "id": "bc-026",
+   "kata": "作業方法",
+   "kana": "さぎょうほうほう",
+   "romaji": "sagyouhouhou",
+   "arti": "cara kerja; metode kerja",
+   "cat": "5 prinsip",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ]
+  },
+  {
+   "id": "bc-027",
+   "kata": "予防策",
+   "kana": "よぼうさく",
+   "romaji": "yoboosaku",
+   "arti": "langkah pencegahan",
+   "cat": "5 prinsip",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ]
+  },
+  {
+   "id": "bc-028",
+   "kata": "挨拶",
+   "kana": "あいさつ",
+   "romaji": "aisatsu",
+   "arti": "salam sapa",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5",
+    "b1s1"
+   ],
+   "contoh": "{仕事|しごと}のはじめは{元気|げんき}な{挨拶|あいさつ}から",
+   "arti_contoh": "Awali pekerjaan dengan salam yang semangat."
+  },
+  {
+   "id": "bc-029",
+   "kata": "お辞儀",
+   "kana": "おじぎ",
+   "romaji": "ojigi",
+   "arti": "membungkuk (tanda hormat)",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{腰|こし}から{折|お}るようにお{辞儀|じぎ}をしよう",
+   "arti_contoh": "Membungkuklah dari pinggang."
+  },
+  {
+   "id": "bc-030",
+   "kata": "おはようございます",
+   "kana": "おはようございます",
+   "romaji": "ohayou gozaimasu",
+   "arti": "selamat pagi",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5",
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-031",
+   "kata": "ありがとうございました",
+   "kana": "ありがとうございました",
+   "romaji": "arigatou gozaimashita",
+   "arti": "terima kasih",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-032",
+   "kata": "承知しました",
+   "kana": "しょうちしました",
+   "romaji": "shouchi shimashita",
+   "arti": "baik, saya mengerti",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-033",
+   "kata": "かしこまりました",
+   "kana": "かしこまりました",
+   "romaji": "kashikomarimashita",
+   "arti": "baik, saya mengerti (sangat sopan)",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-034",
+   "kata": "申し訳ございません",
+   "kana": "もうしわけございません",
+   "romaji": "moushiwake gozaimasen",
+   "arti": "mohon maaf",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5",
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-035",
+   "kata": "よろしくお願いします",
+   "kana": "よろしくおねがいします",
+   "romaji": "yoroshiku onegai shimasu",
+   "arti": "mohon bantuannya",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-036",
+   "kata": "お待たせしました",
+   "kana": "おまたせしました",
+   "romaji": "omatase shimashita",
+   "arti": "maaf sudah menunggu",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-037",
+   "kata": "失礼します",
+   "kana": "しつれいします",
+   "romaji": "shitsurei shimasu",
+   "arti": "permisi",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ]
+  },
+  {
+   "id": "bc-038",
+   "kata": "お疲れ様でした",
+   "kana": "おつかれさまでした",
+   "romaji": "otsukaresama deshita",
+   "arti": "terima kasih atas kerja kerasnya",
+   "cat": "Salam & sapaan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-039",
+   "kata": "責任者",
+   "kana": "せきにんしゃ",
+   "romaji": "sekininsha",
+   "arti": "penanggung jawab (PIC); atasan",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6",
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-040",
+   "kata": "上司",
+   "kana": "じょうし",
+   "romaji": "joushi",
+   "arti": "atasan",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-041",
+   "kata": "先輩",
+   "kana": "せんぱい",
+   "romaji": "senpai",
+   "arti": "senior",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-042",
+   "kata": "同僚",
+   "kana": "どうりょう",
+   "romaji": "douryou",
+   "arti": "rekan kerja",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-043",
+   "kata": "報告",
+   "kana": "ほうこく",
+   "romaji": "houkoku",
+   "arti": "melapor; laporan",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6",
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-044",
+   "kata": "連絡",
+   "kana": "れんらく",
+   "romaji": "renraku",
+   "arti": "komunikasi; menghubungi",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6",
+    "b1s1"
+   ]
+  },
+  {
+   "id": "bc-045",
+   "kata": "相談",
+   "kana": "そうだん",
+   "romaji": "soudan",
+   "arti": "konsultasi; berdiskusi",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-046",
+   "kata": "ホウレンソウ",
+   "kana": "ほうれんそう",
+   "romaji": "hourensou",
+   "arti": "HOUkoku・RENraku・SOUdan (lapor, komunikasi, konsultasi)",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-047",
+   "kata": "クレーム",
+   "kana": "クレーム",
+   "romaji": "kuremu",
+   "arti": "komplain; teguran dari tamu",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ]
+  },
+  {
+   "id": "bc-048",
+   "kata": "ミーティング",
+   "kana": "ミーティング",
+   "romaji": "miitingu",
+   "arti": "rapat",
+   "cat": "Tempat kerja",
+   "bab": "bab1",
+   "src": [
+    "b1s6",
+    "b1s1"
+   ]
+  }
+ ]
+}

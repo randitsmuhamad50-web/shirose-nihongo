@@ -1,0 +1,58 @@
+# -*- coding: utf-8 -*-
+"""Sumber kosakata Building Cleaning (SSW). Tiap bab = satu daftar tuple.
+Format: (kata, kana, romaji, arti, kategori, [subbab], contoh{ruby}, arti_contoh)
+ - contoh memakai {漢字|かんじ}; builder mengubahnya ke 漢字[かんじ] untuk pipeline audio VOICEVOX.
+ - Semua istilah diambil dari buku JBMA (MATERI INDO / MATERI JEPANG). Jangan menambah istilah di luar buku.
+Jalankan:  python3 tools/ssw/build.py"""
+
+BAB1 = [
+ ("出勤", "しゅっきん", "shukkin", "masuk kerja; berangkat kerja", "Kerja harian", ["b1s1"], "{出社時間|しゅっしゃじかん}を{守|まも}る", "Menaati jam masuk kerja."),
+ ("休憩", "きゅうけい", "kyuukei", "istirahat", "Kerja harian", ["b1s1"], "{定|さだ}められた{時間|じかん}に{指定|してい}の{場所|ばしょ}で{休|やす}む", "Istirahat pada waktu dan tempat yang ditentukan."),
+ ("退勤", "たいきん", "taikin", "selesai kerja; pulang kerja", "Kerja harian", ["b1s1"], "{責任者|せきにんしゃ}に{報告|ほうこく}してから{退勤|たいきん}する", "Pulang setelah melapor ke PIC."),
+ ("遅刻", "ちこく", "chikoku", "terlambat", "Kerja harian", ["b1s1"], "{遅刻|ちこく}や{欠勤|けっきん}は{仲間|なかま}やお{客様|きゃくさま}に{迷惑|めいわく}をかける", "Terlambat dan absen merepotkan rekan kerja dan tamu."),
+ ("早退", "そうたい", "soutai", "pulang lebih awal", "Kerja harian", ["b1s1"], None, None),
+ ("欠勤", "けっきん", "kekkin", "tidak masuk kerja; absen", "Kerja harian", ["b1s1"], "{無断|むだん}で{欠勤|けっきん}をすると{迷惑|めいわく}をかける", "Absen tanpa izin merepotkan orang lain."),
+ ("無断", "むだん", "mudan", "tanpa izin", "Kerja harian", ["b1s1"], "{無断|むだん}で{持|も}ち{場|ば}を{離|はな}れない", "Jangan meninggalkan tempat kerja tanpa izin."),
+ ("迷惑", "めいわく", "meiwaku", "merepotkan; gangguan", "Kerja harian", ["b1s1"], None, None),
+ ("準備", "じゅんび", "junbi", "persiapan", "Kerja harian", ["b1s1"], None, None),
+ ("後片付け", "あとかたづけ", "atokatazuke", "beres-beres akhir", "Kerja harian", ["b1s1"], None, None),
+ ("器材", "きざい", "kizai", "peralatan; perlengkapan", "Peralatan", ["b1s1"], "{使用|しよう}した{器材|きざい}の{点検|てんけん}をする", "Memeriksa peralatan yang telah dipakai."),
+ ("点検", "てんけん", "tenken", "pemeriksaan; inspeksi", "Kerja harian", ["b1s1"], None, None),
+ ("不具合", "ふぐあい", "fuguai", "kerusakan; gangguan fungsi", "Peralatan", ["b1s1"], None, None),
+ ("紛失", "ふんしつ", "funshitsu", "kehilangan; hilang", "Kerja harian", ["b1s1"], None, None),
+ ("身だしなみ", "みだしなみ", "midashinami", "penampilan; tata krama berpakaian", "Tata krama", ["b1s2"], "{身|み}だしなみに{注意|ちゅうい}しよう", "Perhatikan penampilan."),
+ ("ユニフォーム", "ユニフォーム", "yunifoomu", "seragam", "Tata krama", ["b1s2", "b1s1"], "ユニフォームを{着崩|きくず}してはダメ", "Jangan memakai seragam dengan berantakan."),
+ ("事故防止", "じこぼうし", "jikoboushi", "pencegahan kecelakaan", "Keselamatan", ["b1s2"], None, None),
+ ("清潔感", "せいけつかん", "seiketsukan", "kesan bersih; kebersihan", "Tata krama", ["b1s2"], None, None),
+ ("清掃", "せいそう", "seisou", "pembersihan", "Jenis pembersihan", ["b1s3"], None, None),
+ ("日常清掃", "にちじょうせいそう", "nichijouseisou", "pembersihan harian", "Jenis pembersihan", ["b1s3"], None, None),
+ ("定期清掃", "ていきせいそう", "teikiseisou", "pembersihan berkala", "Jenis pembersihan", ["b1s3"], None, None),
+ ("ワックス", "ワックス", "wakkusu", "wax (pelapis lantai)", "Peralatan", ["b1s3"], None, None),
+ ("建材", "けんざい", "kenzai", "bahan bangunan", "5 prinsip", ["b1s4"], None, None),
+ ("汚れ", "よごれ", "yogore", "kotoran; noda", "5 prinsip", ["b1s4"], None, None),
+ ("洗剤", "せんざい", "senzai", "deterjen; bahan pembersih", "5 prinsip", ["b1s4"], None, None),
+ ("作業方法", "さぎょうほうほう", "sagyouhouhou", "cara kerja; metode kerja", "5 prinsip", ["b1s4"], None, None),
+ ("予防策", "よぼうさく", "yoboosaku", "langkah pencegahan", "5 prinsip", ["b1s4"], None, None),
+ ("挨拶", "あいさつ", "aisatsu", "salam sapa", "Salam & sapaan", ["b1s5", "b1s1"], "{仕事|しごと}のはじめは{元気|げんき}な{挨拶|あいさつ}から", "Awali pekerjaan dengan salam yang semangat."),
+ ("お辞儀", "おじぎ", "ojigi", "membungkuk (tanda hormat)", "Salam & sapaan", ["b1s5"], "{腰|こし}から{折|お}るようにお{辞儀|じぎ}をしよう", "Membungkuklah dari pinggang."),
+ ("おはようございます", "おはようございます", "ohayou gozaimasu", "selamat pagi", "Salam & sapaan", ["b1s5", "b1s1"], None, None),
+ ("ありがとうございました", "ありがとうございました", "arigatou gozaimashita", "terima kasih", "Salam & sapaan", ["b1s5"], None, None),
+ ("承知しました", "しょうちしました", "shouchi shimashita", "baik, saya mengerti", "Salam & sapaan", ["b1s5"], None, None),
+ ("かしこまりました", "かしこまりました", "kashikomarimashita", "baik, saya mengerti (sangat sopan)", "Salam & sapaan", ["b1s5"], None, None),
+ ("申し訳ございません", "もうしわけございません", "moushiwake gozaimasen", "mohon maaf", "Salam & sapaan", ["b1s5", "b1s6"], None, None),
+ ("よろしくお願いします", "よろしくおねがいします", "yoroshiku onegai shimasu", "mohon bantuannya", "Salam & sapaan", ["b1s5"], None, None),
+ ("お待たせしました", "おまたせしました", "omatase shimashita", "maaf sudah menunggu", "Salam & sapaan", ["b1s5"], None, None),
+ ("失礼します", "しつれいします", "shitsurei shimasu", "permisi", "Salam & sapaan", ["b1s5"], None, None),
+ ("お疲れ様でした", "おつかれさまでした", "otsukaresama deshita", "terima kasih atas kerja kerasnya", "Salam & sapaan", ["b1s1"], None, None),
+ ("責任者", "せきにんしゃ", "sekininsha", "penanggung jawab (PIC); atasan", "Tempat kerja", ["b1s6", "b1s1"], None, None),
+ ("上司", "じょうし", "joushi", "atasan", "Tempat kerja", ["b1s6"], None, None),
+ ("先輩", "せんぱい", "senpai", "senior", "Tempat kerja", ["b1s6"], None, None),
+ ("同僚", "どうりょう", "douryou", "rekan kerja", "Tempat kerja", ["b1s6"], None, None),
+ ("報告", "ほうこく", "houkoku", "melapor; laporan", "Tempat kerja", ["b1s6", "b1s1"], None, None),
+ ("連絡", "れんらく", "renraku", "komunikasi; menghubungi", "Tempat kerja", ["b1s6", "b1s1"], None, None),
+ ("相談", "そうだん", "soudan", "konsultasi; berdiskusi", "Tempat kerja", ["b1s6"], None, None),
+ ("ホウレンソウ", "ほうれんそう", "hourensou", "HOUkoku・RENraku・SOUdan (lapor, komunikasi, konsultasi)", "Tempat kerja", ["b1s6"], None, None),
+ ("クレーム", "クレーム", "kuremu", "komplain; teguran dari tamu", "Tempat kerja", ["b1s6"], None, None),
+ ("ミーティング", "ミーティング", "miitingu", "rapat", "Tempat kerja", ["b1s6", "b1s1"], None, None),
+]
+BABS = {"bab1": BAB1}
