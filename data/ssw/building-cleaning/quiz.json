@@ -780,7 +780,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Mai mendapat visa TOKUTEI GINOU setelah lulus ujian penilaian.",
-       "jp": "○か×か。マイさんは試験に合格して特定技能ビザを{取|と}得しました。"
+       "jp": "○か×か。マイさんは{試験|しけん}に{合格|ごうかく}して{特定技能|とくていぎのう}ビザを{取得|しゅとく}しました。"
       },
       "opts": [
        {
@@ -795,7 +795,7 @@
       "a": 0,
       "exp": {
        "id": "Alurnya: ujian → lulus → visa TOKUTEI GINOU.",
-       "jp": "試験→合格→特定技能ビザの{順|じゅん}です。"
+       "jp": "{試験|しけん}→{合格|ごうかく}→{特定技能|とくていぎのう}ビザの{順|じゅん}です。"
       },
       "mb": true
      },
@@ -837,7 +837,7 @@
        },
        {
         "id": "Melindungi orang dari hama dan penyakit",
-        "jp": "害虫や{病気|びょうき}から人を{守|まも}る"
+        "jp": "{害虫|がいちゅう}や{病気|びょうき}から人を{守|まも}る"
        },
        {
         "id": "Menjual peralatan pembersih",
@@ -847,7 +847,7 @@
       "a": 3,
       "exp": {
        "id": "Cleaning Service: hilangkan kotoran, jaga kebersihan, jaga bahan bangunan, jaga keamanan.",
-       "jp": "{汚|よご}れ{除去|じょきょ}・キレイの{維持|いじ}・{建材|けんざい}の{維持|いじ}・{安全|あんぜん}性の{維持|いじ}です。"
+       "jp": "{汚|よご}れ{除去|じょきょ}・キレイの{維持|いじ}・{建材|けんざい}の{維持|いじ}・{安全性|あんぜんせい}の{維持|いじ}です。"
       }
      }
     ]
@@ -863,7 +863,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? JBMA menyelenggarakan ujian TOKUTEI GINOU bidang Building Cleaning.",
-       "jp": "○か×か。JBMAはビルクリーニングの特定技能試験を実施しています。"
+       "jp": "○か×か。JBMAはビルクリーニングの{特定技能|とくていぎのう}{試験|しけん}を{実施|じっし}しています。"
       },
       "opts": [
        {
@@ -878,7 +878,7 @@
       "a": 0,
       "exp": {
        "id": "JBMA berdiri 1996 dan menyelenggarakan ujian.",
-       "jp": "JBMAは1996{年|ねん}に設立され、試験を実施します。"
+       "jp": "JBMAは1996{年|ねん}に{設立|せつりつ}され、{試験|しけん}を{実施|じっし}します。"
       },
       "mb": true
      },
@@ -890,7 +890,7 @@
       "opts": [
        {
         "id": "Mendukung perekrutan dan pelatihan tenaga kerja asing",
-        "jp": "外国人{材|ざい}の採用・{教育|きょういく}を支援する"
+        "jp": "{外国人材|がいこくじんざい}の{採用|さいよう}・{教育|きょういく}を{支援|しえん}する"
        },
        {
         "id": "Menjual bahan pembersih",
@@ -902,13 +902,13 @@
        },
        {
         "id": "Mengeluarkan visa",
-        "jp": "ビザを発行する"
+        "jp": "ビザを{発行|はっこう}する"
        }
       ],
       "a": 0,
       "exp": {
        "id": "ASCF mendukung perekrutan & pelatihan tenaga asing atas permintaan JBMA.",
-       "jp": "ASCFはJBMAの依頼で採用と{教育|きょういく}を支援します。"
+       "jp": "ASCFはJBMAの{依頼|いらい}で{採用|さいよう}と{教育|きょういく}を{支援|しえん}します。"
       }
      }
     ]
@@ -1188,7 +1188,7 @@
       "a": 0,
       "exp": {
        "id": "Pembersihan berkala termasuk pemeliharaan lantai (wax) dan kotoran yang sulit.",
-       "jp": "{定期清掃|ていきせいそう}は{床|ゆか}のワックスなど、ふだん{落|お}とせない{汚|よご}れを{取|と}り、{建|けん}{物|もの}を{守|まも}ります。"
+       "jp": "{定期清掃|ていきせいそう}は{床|ゆか}のワックスなど、ふだん{落|お}とせない{汚|よご}れを{取|と}り、{建物|たてもの}を{守|まも}ります。"
       },
       "mb": true
      },
@@ -3261,7 +3261,7 @@
      {
       "q": {
        "id": "Benar (○) atau salah (×)? Floor Sign dipasang paling awal.",
-       "jp": "○か×か。{最|さい}{初|しょ}にフロアサインを立てます。"
+       "jp": "○か×か。{最初|さいしょ}にフロアサインを立てます。"
       },
       "opts": [
        {
@@ -6200,7 +6200,7 @@
      "a": 0,
      "exp": {
       "id": "Prinsip pertama: pengetahuan bangunan (material lantai).",
-      "jp": "{最|さい}{初|しょ}の{原則|げんそく}は{建材|けんざい}（{床|ゆか}の{材質|ざいしつ}）を知ることです。"
+      "jp": "{最初|さいしょ}の{原則|げんそく}は{建材|けんざい}（{床|ゆか}の{材質|ざいしつ}）を知ることです。"
      },
      "mb": true
     },

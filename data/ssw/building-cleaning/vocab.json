@@ -85,7 +85,9 @@
    ],
    "rb": [
     "早退|そうたい"
-   ]
+   ],
+   "contoh": "④ {遅刻|ちこく}・{早退|そうたい}・{欠勤|けっきん}",
+   "arti_contoh": "④ Keterlambatan, datang awal, absen"
   },
   {
    "id": "bc-006",
@@ -136,7 +138,9 @@
    ],
    "rb": [
     "迷惑|めいわく"
-   ]
+   ],
+   "contoh": "{遅刻|ちこく}や{欠勤|けっきん}は{迷惑|めいわく}をかける",
+   "arti_contoh": "Datang terlambat itu merepotkan orang lain"
   },
   {
    "id": "bc-009",
@@ -152,7 +156,9 @@
    ],
    "rb": [
     "準備|じゅんび"
-   ]
+   ],
+   "contoh": "ミーティング・{準備|じゅんび}",
+   "arti_contoh": "Rapat, persiapan"
   },
   {
    "id": "bc-010",
@@ -168,7 +174,9 @@
    "rb": [
     "後片付け|あとかたづけ",
     "後片付|あとかたづ"
-   ]
+   ],
+   "contoh": "{作業報告|さぎょうほうこく}・{後片付|あとかたづ}け",
+   "arti_contoh": "Laporan pekerjaan dan beres-beres akhir"
   },
   {
    "id": "bc-011",
@@ -201,7 +209,9 @@
    ],
    "rb": [
     "点検|てんけん"
-   ]
+   ],
+   "contoh": "{資器材|しきざい}の{整理|せいり}・{整頓|せいとん}・{点検|てんけん}に{心|こころ}がける",
+   "arti_contoh": "Ingatlah untuk Mengatur, Merapihkan, Memeriksa peralatan."
   },
   {
    "id": "bc-013",
@@ -217,7 +227,9 @@
    ],
    "rb": [
     "不具合|ふぐあい"
-   ]
+   ],
+   "contoh": "{使用|しよう}した{器材|きざい}の{点検|てんけん}をし、{不具合|ふぐあい}があれば{責任者|せきにんしゃ}へ{必|かなら}ず{報告|ほうこく}する",
+   "arti_contoh": "Periksa peralatan yang digunakan; selalu laporkan ke PIC jika ada kerusakan pada peralatan."
   },
   {
    "id": "bc-014",
@@ -233,7 +245,9 @@
    ],
    "rb": [
     "紛失|ふんしつ"
-   ]
+   ],
+   "contoh": "{紛失|ふんしつ}はクレームにつながるのでゴミか{判断|はんだん}できないものは{責任者|せきにんしゃ}に{相談|そうだん}しよう！",
+   "arti_contoh": "Kehilangan barang akan menimbulkan komplain, jadi jika ada barang yang tidak bisa diidentifikasi, konsultasikan ke PIC."
   },
   {
    "id": "bc-015",
@@ -280,7 +294,9 @@
    ],
    "rb": [
     "事故防止|じこぼうし"
-   ]
+   ],
+   "contoh": "{事故防止|じこぼうし}のためにアクセサリーを{外|はず}す。",
+   "arti_contoh": "Melepas aksesoris untuk mencegah kecelakaan."
   },
   {
    "id": "bc-018",
@@ -295,7 +311,9 @@
    ],
    "rb": [
     "清潔感|せいけつかん"
-   ]
+   ],
+   "contoh": "{清潔感|せいけつかん}のある{服装|ふくそう}を{心|こころ}がける。",
+   "arti_contoh": "Berusaha berpakaian yang tampak bersih."
   },
   {
    "id": "bc-019",
@@ -331,7 +349,9 @@
    ],
    "rb": [
     "清掃|せいそう"
-   ]
+   ],
+   "contoh": "{窓|まど}ガラスの{清掃|せいそう}",
+   "arti_contoh": "Pembersihan Kaca"
   },
   {
    "id": "bc-020",
@@ -348,7 +368,9 @@
    ],
    "rb": [
     "日常清掃|にちじょうせいそう"
-   ]
+   ],
+   "contoh": "{第|だい}２{章|しょう} {日常清掃|にちじょうせいそう}",
+   "arti_contoh": "BAB 2 Pembersihan Harian"
   },
   {
    "id": "bc-021",
@@ -365,7 +387,9 @@
    ],
    "rb": [
     "定期清掃|ていきせいそう"
-   ]
+   ],
+   "contoh": "{第|だい}３{章|しょう} {定期清掃|ていきせいそう}",
+   "arti_contoh": "BAB 3 Pembersihan Berkala"
   },
   {
    "id": "bc-022",
@@ -379,7 +403,9 @@
     "b1s3",
     "b3s4",
     "b1s7"
-   ]
+   ],
+   "contoh": "**{水性|すいせい}ワックス：**ロウが{主成分|しゅせいぶん}。",
+   "arti_contoh": "Wax cair: berbahan utama lilin."
   },
   {
    "id": "bc-023",
@@ -399,7 +425,9 @@
    ],
    "rb": [
     "建材|けんざい"
-   ]
+   ],
+   "contoh": "{建材|けんざい}や{場所|ばしょ}によって{様々|さまざま}な{汚|よご}れがある。",
+   "arti_contoh": "Ada macam-macam kotoran, tergantung material lantai dan tempatnya."
   },
   {
    "id": "bc-024",
@@ -415,7 +443,9 @@
    ],
    "rb": [
     "汚れ|よごれ"
-   ]
+   ],
+   "contoh": "② {汚|よご}れの{種類|しゅるい}（5{種類|しゅるい}）",
+   "arti_contoh": "② Jenis kotoran (5 jenis)"
   },
   {
    "id": "bc-025",
@@ -444,7 +474,9 @@
    ],
    "rb": [
     "洗剤|せんざい"
-   ]
+   ],
+   "contoh": "① {洗剤|せんざい}の{塗布|とふ}",
+   "arti_contoh": "① Mengaplikasikan sabun"
   },
   {
    "id": "bc-026",
@@ -461,7 +493,9 @@
    ],
    "rb": [
     "作業方法|さぎょうほうほう"
-   ]
+   ],
+   "contoh": "{作業方法|さぎょうほうほう}の{知識|ちしき}",
+   "arti_contoh": "Pengetahuan mengenai cara membersihkan"
   },
   {
    "id": "bc-027",
@@ -478,7 +512,9 @@
    ],
    "rb": [
     "予防策|よぼうさく"
-   ]
+   ],
+   "contoh": "{予防策|よぼうさく}の{知識|ちしき}",
+   "arti_contoh": "Pengetahuan mengenai tindakan pencegahan"
   },
   {
    "id": "bc-028",
@@ -526,7 +562,9 @@
    "src": [
     "b1s5",
     "b1s1"
-   ]
+   ],
+   "contoh": "{仕事|しごと}のはじめは{元気|げんき}な{挨拶|あいさつ}から（「おはようございます」）",
+   "arti_contoh": "Mulailah bekerja dengan salam sapa yang semangat (\"Selamat pagi\")."
   },
   {
    "id": "bc-031",
@@ -538,7 +576,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "{手伝|てつだ}っていただいて、ありがとうございました。",
+   "arti_contoh": "Terima kasih sudah membantu (sudah selesai)."
   },
   {
    "id": "bc-032",
@@ -553,7 +593,9 @@
    ],
    "rb": [
     "承知しました|しょうちしました"
-   ]
+   ],
+   "contoh": "{承知|しょうち}しました（かしこまりました）",
+   "arti_contoh": "Baik, saya mengerti — 承知しました（かしこまりました）"
   },
   {
    "id": "bc-033",
@@ -565,7 +607,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "{承知|しょうち}しました（かしこまりました）",
+   "arti_contoh": "Baik, saya mengerti — 承知しました（かしこまりました）"
   },
   {
    "id": "bc-034",
@@ -581,7 +625,9 @@
    ],
    "rb": [
     "申し訳ございません|もうしわけございません"
-   ]
+   ],
+   "contoh": "{遅|おく}れて{申し訳|もうしわけ}ございません。",
+   "arti_contoh": "Mohon maaf atas keterlambatan saya."
   },
   {
    "id": "bc-035",
@@ -596,7 +642,9 @@
    ],
    "rb": [
     "よろしくお願いします|よろしくおねがいします"
-   ]
+   ],
+   "contoh": "{今日|きょう}も{よろしくお願|よろしくおねが}いします。",
+   "arti_contoh": "Mohon bantuannya hari ini juga."
   },
   {
    "id": "bc-036",
@@ -611,7 +659,9 @@
    ],
    "rb": [
     "お待たせしました|おまたせしました"
-   ]
+   ],
+   "contoh": "{お待|おま}たせしました。{清掃|せいそう}が{終|お}わりました。",
+   "arti_contoh": "Maaf menunggu. Pembersihan sudah selesai."
   },
   {
    "id": "bc-037",
@@ -626,7 +676,9 @@
    ],
    "rb": [
     "失礼します|しつれいします"
-   ]
+   ],
+   "contoh": "{失礼|しつれい}します。{清掃|せいそう}に{入|はい}ります。",
+   "arti_contoh": "Permisi. Saya masuk untuk membersihkan."
   },
   {
    "id": "bc-038",
@@ -641,7 +693,9 @@
    ],
    "rb": [
     "お疲れ様でした|おつかれさまでした"
-   ]
+   ],
+   "contoh": "「お{疲|つか}れ{様|さま}でした」の{一言|ひとこと}を{忘|わす}れない",
+   "arti_contoh": "Jangan lupa mengatakan \"Otsukaresama deshita\"."
   },
   {
    "id": "bc-039",
@@ -660,7 +714,9 @@
    ],
    "rb": [
     "責任者|せきにんしゃ"
-   ]
+   ],
+   "contoh": "**「{責任者|せきにんしゃ}（{上司|じょうし}）」**",
+   "arti_contoh": "PIC (Atasan)"
   },
   {
    "id": "bc-040",
@@ -675,7 +731,9 @@
    ],
    "rb": [
     "上司|じょうし"
-   ]
+   ],
+   "contoh": "**「{責任者|せきにんしゃ}（{上司|じょうし}）」**",
+   "arti_contoh": "PIC (Atasan)"
   },
   {
    "id": "bc-041",
@@ -691,7 +749,9 @@
    ],
    "rb": [
     "先輩|せんぱい"
-   ]
+   ],
+   "contoh": "**「{先輩|せんぱい}」**",
+   "arti_contoh": "Senior"
   },
   {
    "id": "bc-042",
@@ -706,7 +766,9 @@
    ],
    "rb": [
     "同僚|どうりょう"
-   ]
+   ],
+   "contoh": "**「{同僚|どうりょう}」**",
+   "arti_contoh": "Rekan Kerja"
   },
   {
    "id": "bc-043",
@@ -724,7 +786,9 @@
    ],
    "rb": [
     "報告|ほうこく"
-   ]
+   ],
+   "contoh": "{作業報告|さぎょうほうこく}・{後片付|あとかたづ}け",
+   "arti_contoh": "Laporan pekerjaan dan beres-beres akhir"
   },
   {
    "id": "bc-044",
@@ -740,7 +804,9 @@
    ],
    "rb": [
     "連絡|れんらく"
-   ]
+   ],
+   "contoh": "{病気|びょうき}{等|など}で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
+   "arti_contoh": "Jika tidak bisa masuk kerja karena sakit atau hal lain, harus menghubungi/memberi kabar."
   },
   {
    "id": "bc-045",
@@ -757,7 +823,9 @@
    ],
    "rb": [
     "相談|そうだん"
-   ]
+   ],
+   "contoh": "{困|こま}った{時|とき}は、{勝手|かって}に{判断|はんだん}せず、{相談|そうだん}しましょう。",
+   "arti_contoh": "Saat kesulitan, jangan ambil keputusan sendiri, diskusikan dengan atasan Anda."
   },
   {
    "id": "bc-046",
@@ -769,7 +837,9 @@
    "bab": "bab1",
    "src": [
     "b1s6"
-   ]
+   ],
+   "contoh": "ホウレンソウ（{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}）が{大切|たいせつ}です。",
+   "arti_contoh": "Houren-sou (lapor, kabari, konsultasi) itu penting."
   },
   {
    "id": "bc-047",
@@ -781,7 +851,9 @@
    "bab": "bab1",
    "src": [
     "b1s6"
-   ]
+   ],
+   "contoh": "{紛失|ふんしつ}はクレームにつながるのでゴミか{判断|はんだん}できないものは{責任者|せきにんしゃ}に{相談|そうだん}しよう！",
+   "arti_contoh": "Kehilangan barang akan menimbulkan komplain, jadi jika ada barang yang tidak bisa diidentifikasi, konsultasikan ke PIC."
   },
   {
    "id": "bc-048",
@@ -794,7 +866,9 @@
    "src": [
     "b1s6",
     "b1s1"
-   ]
+   ],
+   "contoh": "ミーティング・{準備|じゅんび}",
+   "arti_contoh": "Rapat, persiapan"
   },
   {
    "id": "bc-049",
@@ -830,7 +904,9 @@
    ],
    "rb": [
     "自在ぼうき|じざいぼうき"
-   ]
+   ],
+   "contoh": "{自在|じざい}ぼうきは{毛先|けさき}を{上|うえ}にした{状態|じょうたい}で{保管|ほかん}しておく。",
+   "arti_contoh": "Saat menyimpan sapu ruangan, arahkan ujung sapu ke atas, taruh dalam Cleaning Trolley."
   },
   {
    "id": "bc-051",
@@ -845,7 +921,9 @@
    ],
    "rb": [
     "文化ちり取り|ぶんかちりとり"
-   ]
+   ],
+   "contoh": "{作業標示板|さぎょうひょうじばん}（フロアサイン）、{自在|じざい}ぼうき、シダぼうき、{文化|ぶんか}ちり{取|と}り、ダストクロス。",
+   "arti_contoh": "Papan Tanda (Floor Sign); Sapu Ruangan; Sapu Ijuk; Pengki (Serokan); Dust Cloth."
   },
   {
    "id": "bc-052",
@@ -857,7 +935,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "ダストクロスでの{清掃|せいそう}",
+   "arti_contoh": "Dust Cloth untuk lantai keramik"
   },
   {
    "id": "bc-053",
@@ -884,7 +964,9 @@
    "src": [
     "b2s6",
     "b2s11"
-   ]
+   ],
+   "contoh": "ブラシ・ケース、{仕切|しき}りバケツ、{手袋|てぶくろ}（{便器用|べんきよう}・その{他|ほか}）、フロアサイン。",
+   "arti_contoh": "Sikat (brush) dan kotak; ember dengan sekat; sarung tangan (untuk toilet dan lainnya); Floor Sign."
   },
   {
    "id": "bc-055",
@@ -897,7 +979,9 @@
    "src": [
     "b2s9",
     "b2s10"
-   ]
+   ],
+   "contoh": "タオルの{絞|しぼ}り{方|かた}",
+   "arti_contoh": "Cara memeras lap"
   },
   {
    "id": "bc-056",
@@ -949,7 +1033,9 @@
    ],
    "rb": [
     "養生マット|ようじょうマット"
-   ]
+   ],
+   "contoh": "ほこり{取|と}り、モップ（{赤|あか}）、{自在|じざい}ぼうき、{文化|ぶんか}ちりとり、バケツ、{養生|ようじょう}マット。",
+   "arti_contoh": "Kemoceng; lap (merah); sapu ruangan; pengki (serokan); ember; curing mat."
   },
   {
    "id": "bc-059",
@@ -965,7 +1051,9 @@
    ],
    "rb": [
     "白パッド|しろパッド"
-   ]
+   ],
+   "contoh": "{洗面台全体|せんめんだいぜんたい}を{白|しろ}パッドで{洗浄|せんじょう}してからタオルで{水拭|みずぶ}きしよう。",
+   "arti_contoh": "Setelah membersihkan wastafel dengan pad putih, lap dengan kain basah."
   },
   {
    "id": "bc-060",
@@ -979,7 +1067,9 @@
     "b2s14",
     "b2s15",
     "b2s4"
-   ]
+   ],
+   "contoh": "トラップはブラシで{奥|おく}までしっかり{清掃|せいそう}。",
+   "arti_contoh": "Untuk lubang kloset, bersihkan dengan sikat sampai ke ujungnya."
   },
   {
    "id": "bc-061",
@@ -1013,7 +1103,9 @@
    "src": [
     "b2s3",
     "b2s12"
-   ]
+   ],
+   "contoh": "{汚|よご}れ（ホコリ）の{種類|しゅるい}と{大|おお}きさ",
+   "arti_contoh": "Ukuran dan jenis kotoran (debu)"
   },
   {
    "id": "bc-063",
@@ -1030,7 +1122,9 @@
    ],
    "rb": [
     "土砂|どしゃ"
-   ]
+   ],
+   "contoh": "{石材|せきざい}の{床|ゆか}＋{土砂|どしゃ} → {自在|じざい}ぼうきやデッキブラシ",
+   "arti_contoh": "Lantai berbahan batu + debu pasir (banyak kotoran debu pasir) → sapu dan Deck Brush."
   },
   {
    "id": "bc-064",
@@ -1057,7 +1151,9 @@
    "rb": [
     "水拭き|みずぶき",
     "水拭|みずぶ"
-   ]
+   ],
+   "contoh": "{便器外側|べんきそとがわ}の{水拭|みずぶ}き",
+   "arti_contoh": "Mengelap urinoir bagian luar (basah)."
   },
   {
    "id": "bc-065",
@@ -1073,7 +1169,9 @@
    ],
    "rb": [
     "乾拭き|からぶき"
-   ]
+   ],
+   "contoh": "{最後|さいご}に{乾拭|からぶ}きをして{仕上|しあ}げよう。",
+   "arti_contoh": "Terakhir lap dengan lap kering."
   },
   {
    "id": "bc-066",
@@ -1092,7 +1190,9 @@
    ],
    "rb": [
     "歩行動線|ほこうどうせん"
-   ]
+   ],
+   "contoh": "{歩行動線|ほこうどうせん}を{重点的|じゅうてんてき}に",
+   "arti_contoh": "Pusatkan di jalur lalu lalang"
   },
   {
    "id": "bc-067",
@@ -1109,7 +1209,9 @@
    ],
    "rb": [
     "漏電|ろうでん"
-   ]
+   ],
+   "contoh": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}。",
+   "arti_contoh": "Perangkat pencegah listrik bocor atau arus pendek."
   },
   {
    "id": "bc-068",
@@ -1135,7 +1237,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "コードの{根元|ねもと}からタオルで{拭|ふ}く。",
+   "arti_contoh": "Lap kabel dengan kain lap dari pangkal kabelnya."
   },
   {
    "id": "bc-070",
@@ -1147,7 +1251,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "ノズル、ウォンド、ホース、{本体|ほんたい}。",
+   "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
   },
   {
    "id": "bc-071",
@@ -1159,7 +1265,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "ノズル、ウォンド、ホース、{本体|ほんたい}。",
+   "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
   },
   {
    "id": "bc-072",
@@ -1171,7 +1279,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "ノズル、ウォンド、ホース、{本体|ほんたい}。",
+   "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
   },
   {
    "id": "bc-073",
@@ -1206,7 +1316,9 @@
    ],
    "rb": [
     "本体|ほんたい"
-   ]
+   ],
+   "contoh": "ノズル、ウォンド、ホース、{本体|ほんたい}。",
+   "arti_contoh": "Nosel, wand (tongkat), selang, dan body (badan mesin)."
   },
   {
    "id": "bc-075",
@@ -1221,7 +1333,9 @@
    ],
    "rb": [
     "異音|いおん"
-   ]
+   ],
+   "contoh": "{機械|きかい}から{異音|いおん}がしたら、すぐに{報告|ほうこく}する。",
+   "arti_contoh": "Kalau mesin berbunyi aneh, segera laporkan."
   },
   {
    "id": "bc-076",
@@ -1236,7 +1350,9 @@
    ],
    "rb": [
     "発熱|はつねつ"
-   ]
+   ],
+   "contoh": "{本体|ほんたい}が{発熱|はつねつ}していないか{確認|かくにん}する。",
+   "arti_contoh": "Periksa apakah bodi mesin tidak panas berlebihan."
   },
   {
    "id": "bc-077",
@@ -1251,7 +1367,9 @@
    ],
    "rb": [
     "断線|だんせん"
-   ]
+   ],
+   "contoh": "コードが{断線|だんせん}していないか{点検|てんけん}する。",
+   "arti_contoh": "Periksa apakah kabel tidak putus."
   },
   {
    "id": "bc-078",
@@ -1285,7 +1403,9 @@
    ],
    "rb": [
     "小便器|しょうべんき"
-   ]
+   ],
+   "contoh": "{小便器清掃|しょうべんきせいそう}の3つの{工程|こうてい}",
+   "arti_contoh": "3 proses membersihkan urinoir"
   },
   {
    "id": "bc-080",
@@ -1301,7 +1421,9 @@
    ],
    "rb": [
     "大便器|だいべんき"
-   ]
+   ],
+   "contoh": "{日本|にほん}の{大便器|だいべんき}",
+   "arti_contoh": "Kloset di Jepang"
   },
   {
    "id": "bc-081",
@@ -1318,7 +1440,9 @@
    ],
    "rb": [
     "洗面台|せんめんだい"
-   ]
+   ],
+   "contoh": "トイレ{清掃|せいそう}：ごみ{箱|ばこ}・{補充|ほじゅう}、{洗面台|せんめんだい}、{小便器|しょうべんき}、{便器|べんき}、{床|ゆか}",
+   "arti_contoh": "Pembersihan Toilet: tempat sampah dan pengisian ulang, wastafel, urinoir, kloset/WC, lantai"
   },
   {
    "id": "bc-082",
@@ -1333,7 +1457,9 @@
    ],
    "rb": [
     "蛇口|じゃぐち"
-   ]
+   ],
+   "contoh": "{蛇口|じゃぐち}の{水|みず}を{止|と}める。",
+   "arti_contoh": "Mematikan air keran."
   },
   {
    "id": "bc-083",
@@ -1348,7 +1474,9 @@
    ],
    "rb": [
     "排水口|はいすいこう"
-   ]
+   ],
+   "contoh": "{排水口|はいすいこう}のごみを{取|と}り{除|のぞ}く。",
+   "arti_contoh": "Membuang sampah di lubang pembuangan."
   },
   {
    "id": "bc-084",
@@ -1360,7 +1488,9 @@
    "bab": "bab2",
    "src": [
     "b2s15"
-   ]
+   ],
+   "contoh": "リムの{裏側|うらがわ}に{汚|よご}れがつくのでしっかりと{清掃|せいそう}しないといけない。",
+   "arti_contoh": "Di sisi belakang rim ada kotoran yang menempel, jadi harus dibersihkan dengan teliti."
   },
   {
    "id": "bc-085",
@@ -1375,7 +1505,9 @@
    ],
    "rb": [
     "人感センサー|じんかんセンサー"
-   ]
+   ],
+   "contoh": "{人|ひと}が{触|さわ}る{場所|ばしょ}の{乾拭|からぶ}き（{棚|たな}、{人感|じんかん}センサー）",
+   "arti_contoh": "Mengelap bagian yang disentuh orang (kering): rak, sensor manusia."
   },
   {
    "id": "bc-086",
@@ -1392,7 +1524,9 @@
    ],
    "rb": [
     "廃棄物|はいきぶつ"
-   ]
+   ],
+   "contoh": "{廃棄物|はいきぶつ}コレクターを{移動|いどう}しながらゴミを{回収|かいしゅう}。",
+   "arti_contoh": "Kumpulkan sampah sambil mendorong keranjang limbah."
   },
   {
    "id": "bc-087",
@@ -1443,7 +1577,9 @@
    ],
    "rb": [
     "感染予防|かんせんよぼう"
-   ]
+   ],
+   "contoh": "{手洗|てあら}い＝{感染予防|かんせんよぼう}",
+   "arti_contoh": "Cuci tangan = pencegahan infeksi"
   },
   {
    "id": "bc-090",
@@ -1463,7 +1599,9 @@
    ],
    "rb": [
     "安全|あんぜん"
-   ]
+   ],
+   "contoh": "なぜ{安全|あんぜん}が{大切|たいせつ}か",
+   "arti_contoh": "Mengapa keamanan penting"
   },
   {
    "id": "bc-091",
@@ -1480,7 +1618,9 @@
    ],
    "rb": [
     "衛生|えいせい"
-   ]
+   ],
+   "contoh": "{労働衛生|ろうどうえいせい}で{守|まも}ること",
+   "arti_contoh": "Hal yang harus dilakukan untuk Kesehatan Kerja"
   },
   {
    "id": "bc-092",
@@ -1495,7 +1635,9 @@
    ],
    "rb": [
     "転倒|てんとう"
-   ]
+   ],
+   "contoh": "{労働災害|ろうどうさいがい}は{転倒|てんとう}が4{割|わり}、{墜落|ついらく}・{転落|てんらく}が2{割|わり}です。",
+   "arti_contoh": "40% kecelakaan kerja dalam pekerjaan Cleaning Service adalah terjungkal, dan 20% adalah tabrakan dan terjatuh."
   },
   {
    "id": "bc-093",
@@ -1510,7 +1652,9 @@
    ],
    "rb": [
     "感電|かんでん"
-   ]
+   ],
+   "contoh": "ぬれた{手|て}でプラグを{触|ふ}ると{感電|かんでん}する。",
+   "arti_contoh": "Menyentuh colokan dengan tangan basah bisa tersengat listrik."
   },
   {
    "id": "bc-094",
@@ -1526,7 +1670,9 @@
    ],
    "rb": [
     "塩素系|えんそけい"
-   ]
+   ],
+   "contoh": "**{洗剤|せんざい}を{使|つか}う{時|とき}：**{塩素系|えんそけい}と{酸性|さんせい}の{洗剤|せんざい}を{混|ま}ぜると、{中毒|ちゅうどく}を{起|お}こすことがあるので{絶対|ぜったい}に{行|おこな}ってはいけません。",
+   "arti_contoh": "Saat menggunakan karbol/sabun: jangan pernah mencampurkan karbol berbahan dasar klorin dengan asam karena akan menyebabkan keracunan."
   },
   {
    "id": "bc-095",
@@ -1541,7 +1687,9 @@
    ],
    "rb": [
     "注射針|ちゅうしゃばり"
-   ]
+   ],
+   "contoh": "{ごみ箱|ごみばこ}に{注射針|ちゅうしゃばり}が{入|はい}っていることがある。",
+   "arti_contoh": "Kadang ada jarum suntik di tempat sampah."
   },
   {
    "id": "bc-096",
@@ -1559,7 +1707,9 @@
    ],
    "rb": [
     "床材|ゆかざい"
-   ]
+   ],
+   "contoh": "① {床材|ゆかざい}の{種類|しゅるい}",
+   "arti_contoh": "① Jenis material lantai"
   },
   {
    "id": "bc-097",
@@ -1574,7 +1724,9 @@
    ],
    "rb": [
     "弾性床材|だんせいゆかざい"
-   ]
+   ],
+   "contoh": "**{弾性床材|だんせいゆかざい}：**ビニル{系|けい}、リノリウム{系|けい}、ゴム{系|けい}",
+   "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
   },
   {
    "id": "bc-098",
@@ -1587,7 +1739,9 @@
    "src": [
     "b3s1",
     "b2s7"
-   ]
+   ],
+   "contoh": "**カーペット{床材|ゆかざい}：**タイルカーペット、じゅうたん",
+   "arti_contoh": "Lantai karpet: karpet vinil, loop pile (tidak berbulu)."
   },
   {
    "id": "bc-099",
@@ -1602,7 +1756,9 @@
    ],
    "rb": [
     "無機質|むきしつ"
-   ]
+   ],
+   "contoh": "**{無機質|むきしつ}の{汚|よご}れ：**ホコリ（{土|つち}、{綿|わた}）、{灰|はい}など。",
+   "arti_contoh": "Kotoran anorganik: debu (pasir, kapas), debu rokok."
   },
   {
    "id": "bc-100",
@@ -1617,7 +1773,9 @@
    ],
    "rb": [
     "水溶性|すいようせい"
-   ]
+   ],
+   "contoh": "**{水溶性|すいようせい}：**{染|し}み、{飲|の}み{物|もの}など。",
+   "arti_contoh": "Tipe cair (larut air): noda cair, minuman, dan lainnya."
   },
   {
    "id": "bc-1000",
@@ -1629,7 +1787,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "しつれいします。",
+   "arti_contoh": "Permisi."
   },
   {
    "id": "bc-1001",
@@ -1642,7 +1802,9 @@
    "src": [
     "b1s1",
     "b1s5"
-   ]
+   ],
+   "contoh": "おつかれさまでした。お{先|さき}に{失礼|しつれい}します。",
+   "arti_contoh": "Terima kasih atas kerja kerasnya. Saya pulang duluan."
   },
   {
    "id": "bc-1002",
@@ -1654,7 +1816,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "だいじょうぶですか。",
+   "arti_contoh": "Apakah baik-baik saja?"
   },
   {
    "id": "bc-1003",
@@ -1666,7 +1830,9 @@
    "bab": "bab2",
    "src": [
     "b2s2"
-   ]
+   ],
+   "contoh": "{床|ゆか}がぬれているので、きをつけて。",
+   "arti_contoh": "Lantainya basah, hati-hati."
   },
   {
    "id": "bc-1004",
@@ -1720,7 +1886,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "すこし{待|ま}ってください。",
+   "arti_contoh": "Tolong tunggu sebentar."
   },
   {
    "id": "bc-1008",
@@ -1732,7 +1900,9 @@
    "bab": "bab2",
    "src": [
     "b2s3"
-   ]
+   ],
+   "contoh": "ごみがたくさんあります。",
+   "arti_contoh": "Ada banyak sampah."
   },
   {
    "id": "bc-1009",
@@ -1744,7 +1914,9 @@
    "bab": "bab1",
    "src": [
     "b1s1"
-   ]
+   ],
+   "contoh": "かならず{報告|ほうこく}します。",
+   "arti_contoh": "Pasti saya laporkan."
   },
   {
    "id": "bc-101",
@@ -1759,7 +1931,9 @@
    ],
    "rb": [
     "油溶性|ゆようせい"
-   ]
+   ],
+   "contoh": "**{油溶性|ゆようせい}：**ヒールマーク、{皮脂|ひし}など。",
+   "arti_contoh": "Tipe minyak: bekas heal (sepatu), sebum, dan lainnya."
   },
   {
    "id": "bc-1010",
@@ -1771,7 +1945,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "まずヘッドにダストクロスを{巻|ま}き{込|こ}んで{固定|こてい}する（{養生|ようじょう}マットの{上|うえ}で{挟|はさ}んで{固定|こてい}）。",
+   "arti_contoh": "Pertama, pasang Dust Cloth ke bagian kepala pel: letakkan di atas Curing Mat (sejenis tatakan), jepit, lalu rapihkan."
   },
   {
    "id": "bc-1011",
@@ -1783,7 +1959,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "つぎに、{床|ゆか}を{拭|ふ}きます。",
+   "arti_contoh": "Selanjutnya, mengelap lantai."
   },
   {
    "id": "bc-1012",
@@ -1795,7 +1973,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "さいごに、{道具|どうぐ}を{片付|かたづ}けます。",
+   "arti_contoh": "Terakhir, merapikan peralatan."
   },
   {
    "id": "bc-1013",
@@ -1807,7 +1987,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "かるく{絞|しぼ}ってから{使|つか}う。",
+   "arti_contoh": "Peras ringan sebelum dipakai."
   },
   {
    "id": "bc-1014",
@@ -1819,7 +2001,9 @@
    "bab": "bab1",
    "src": [
     "b1s6"
-   ]
+   ],
+   "contoh": "ていねいに{拭|ふ}く。",
+   "arti_contoh": "Mengelap dengan teliti."
   },
   {
    "id": "bc-1015",
@@ -1831,7 +2015,9 @@
    "bab": "bab2",
    "src": [
     "b2s9"
-   ]
+   ],
+   "contoh": "はやく{報告|ほうこく}してください。",
+   "arti_contoh": "Tolong lapor dengan cepat."
   },
   {
    "id": "bc-1016",
@@ -1843,7 +2029,9 @@
    "bab": "bab2",
    "src": [
     "b2s9"
-   ]
+   ],
+   "contoh": "おなじ{場所|ばしょ}を{二回|にかい}{拭|ふ}く。",
+   "arti_contoh": "Mengelap tempat yang sama dua kali."
   },
   {
    "id": "bc-1017",
@@ -1855,7 +2043,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "ぜんぶ{終|お}わりました。",
+   "arti_contoh": "Semuanya sudah selesai."
   },
   {
    "id": "bc-1018",
@@ -1899,7 +2089,9 @@
    ],
    "rb": [
     "感染性|かんせんせい"
-   ]
+   ],
+   "contoh": "**{感染性|かんせんせい}の{汚|よご}れ：**カビ、ダニなど。",
+   "arti_contoh": "Kotoran yang dapat menularkan penyakit: jamur, kutu, dan lainnya."
   },
   {
    "id": "bc-1020",
@@ -2059,7 +2251,9 @@
    ],
    "rb": [
     "酸性|さんせい"
-   ]
+   ],
+   "contoh": "**{酸性|さんせい}（pH 0）：**{酸性|さんせい}トイレクリーナー、{鉄|てつ}サビ{落|お}とし。",
+   "arti_contoh": "Tipe asam (pH 0): pembersih toilet asam, pembersih karat besi."
   },
   {
    "id": "bc-1030",
@@ -2219,7 +2413,9 @@
    ],
    "rb": [
     "中性|ちゅうせい"
-   ]
+   ],
+   "contoh": "**{弱酸性|じゃくさんせい}（pH 3）：**{浴室用洗剤|よくしつようせんざい}、{中性|ちゅうせい}トイレクリーナー。",
+   "arti_contoh": "Tipe keasaman rendah (pH 3): karbol toilet."
   },
   {
    "id": "bc-1040",
@@ -2376,7 +2572,9 @@
    ],
    "rb": [
     "アルカリ性|アルカリせい"
-   ]
+   ],
+   "contoh": "**{弱|じゃく}アルカリ{性|せい}（pH 8）：**{表面洗浄剤|ひょうめんせんじょうざい}、{一般住宅用洗剤|いっぱんじゅうたくようせんざい}、アルカリ{性|せい}トイレクリーナー。",
+   "arti_contoh": "Tipe alkali rendah (pH 8): karbol untuk permukaan lantai, karbol umum di pasaran, pembersih toilet tipe alkali."
   },
   {
    "id": "bc-1050",
@@ -2531,7 +2729,9 @@
    ],
    "rb": [
     "界面活性剤|かいめんかっせいざい"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}には{界面活性剤|かいめんかっせいざい}が{入|はい}っている。",
+   "arti_contoh": "Deterjen mengandung surfaktan."
   },
   {
    "id": "bc-1060",
@@ -2604,6 +2804,93 @@
    "arti_contoh": "Kalau tidak diperiksa, berbahaya."
   },
   {
+   "id": "bc-1065",
+   "kata": "表紙",
+   "kana": "ひょうし",
+   "romaji": "hyoushi",
+   "arti": "sampul",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{本|ほん}の{表紙|ひょうし}を{見|み}る。",
+   "arti_contoh": "Melihat sampul buku.",
+   "rb": [
+    "表紙|ひょうし"
+   ]
+  },
+  {
+   "id": "bc-1066",
+   "kata": "協会",
+   "kana": "きょうかい",
+   "romaji": "kyoukai",
+   "arti": "asosiasi",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{特定技能評価試験|とくていぎのうひょうかしけん}：{日本|にほん}ビルメンテナンス{協会|きょうかい}（JBMA）",
+   "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)",
+   "rb": [
+    "協会|きょうかい"
+   ]
+  },
+  {
+   "id": "bc-1067",
+   "kata": "特定技能",
+   "kana": "とくていぎのう",
+   "romaji": "tokuteiginou",
+   "arti": "keterampilan khusus (TOKUTEI GINOU)",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s8"
+   ],
+   "contoh": "**{特定技能|とくていぎのう}{評価試験|ひょうかしけん}に{合格|ごうかく}**しました。",
+   "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU.",
+   "rb": [
+    "特定技能|とくていぎのう"
+   ]
+  },
+  {
+   "id": "bc-1068",
+   "kata": "評価試験",
+   "kana": "ひょうかしけん",
+   "romaji": "hyoukashiken",
+   "arti": "ujian penilaian",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s8"
+   ],
+   "contoh": "**{特定技能|とくていぎのう}{評価試験|ひょうかしけん}に{合格|ごうかく}**しました。",
+   "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU.",
+   "rb": [
+    "評価試験|ひょうかしけん"
+   ]
+  },
+  {
+   "id": "bc-1069",
+   "kata": "特定技能評価試験",
+   "kana": "とくていぎのうひょうかしけん",
+   "romaji": "tokuteiginouhyoukashiken",
+   "arti": "ujian penilaian TOKUTEI GINOU",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "**{特定技能|とくていぎのう}{評価試験|ひょうかしけん}に{合格|ごうかく}**しました。",
+   "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU.",
+   "rb": [
+    "特定技能評価試験|とくていぎのうひょうかしけん"
+   ]
+  },
+  {
    "id": "bc-107",
    "kata": "浸透",
    "kana": "しんとう",
@@ -2616,6 +2903,178 @@
    ],
    "rb": [
     "浸透|しんとう"
+   ],
+   "contoh": "{洗剤|せんざい}を{汚|よご}れに{浸透|しんとう}させる。",
+   "arti_contoh": "Membiarkan deterjen meresap ke kotoran."
+  },
+  {
+   "id": "bc-1070",
+   "kata": "学習",
+   "kana": "がくしゅう",
+   "romaji": "gakushuu",
+   "arti": "belajar; pembelajaran",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{毎日|まいにち}、{学習|がくしゅう}する。",
+   "arti_contoh": "Belajar setiap hari.",
+   "rb": [
+    "学習|がくしゅう"
+   ]
+  },
+  {
+   "id": "bc-1071",
+   "kata": "最初",
+   "kana": "さいしょ",
+   "romaji": "saisho",
+   "arti": "pertama; awal",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{最初|さいしょ}のページから{読|よ}む。",
+   "arti_contoh": "Membaca dari halaman pertama.",
+   "rb": [
+    "最初|さいしょ"
+   ]
+  },
+  {
+   "id": "bc-1072",
+   "kata": "初出社",
+   "kana": "はつしゅっしゃ",
+   "romaji": "hatsushussha",
+   "arti": "hari pertama masuk kerja",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "はじめのマンガ：{初出社|はつしゅっしゃ}の{日|ひ}",
+   "arti_contoh": "Cerita pembuka: hari pertama masuk kerja",
+   "rb": [
+    "初出社|はつしゅっしゃ"
+   ]
+  },
+  {
+   "id": "bc-1073",
+   "kata": "今日",
+   "kana": "きょう",
+   "romaji": "kyou",
+   "arti": "hari ini",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{今日|きょう}から{初出社|はつしゅっしゃ}です。",
+   "arti_contoh": "Mulai hari ini hari pertama masuk kerja.",
+   "rb": [
+    "今日|きょう"
+   ]
+  },
+  {
+   "id": "bc-1074",
+   "kata": "声",
+   "kana": "こえ",
+   "romaji": "koe",
+   "arti": "suara",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{元気|げんき}な{声|こえ}であいさつをする。",
+   "arti_contoh": "Memberi salam dengan suara semangat.",
+   "rb": [
+    "声|こえ"
+   ]
+  },
+  {
+   "id": "bc-1075",
+   "kata": "子供",
+   "kana": "こども",
+   "romaji": "kodomo",
+   "arti": "anak-anak",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{子供|こども}の{頃|ころ}からマンガやアニメが{好|す}きで、{日本|にほん}に{憧|あこが}れていました。",
+   "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang.",
+   "rb": [
+    "子供|こども"
+   ]
+  },
+  {
+   "id": "bc-1076",
+   "kata": "憧れる",
+   "kana": "あこがれる",
+   "romaji": "akogareru",
+   "arti": "mengagumi; mendambakan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{子供|こども}の{頃|ころ}からマンガやアニメが{好|す}きで、{日本|にほん}に{憧|あこが}れていました。",
+   "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang.",
+   "rb": [
+    "憧|あこが"
+   ]
+  },
+  {
+   "id": "bc-1077",
+   "kata": "合格",
+   "kana": "ごうかく",
+   "romaji": "goukaku",
+   "arti": "lulus (ujian)",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "**{特定技能|とくていぎのう}{評価試験|ひょうかしけん}に{合格|ごうかく}**しました。",
+   "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU.",
+   "rb": [
+    "合格|ごうかく"
+   ]
+  },
+  {
+   "id": "bc-1078",
+   "kata": "取得",
+   "kana": "しゅとく",
+   "romaji": "shutoku",
+   "arti": "memperoleh; mendapatkan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{合格|ごうかく}して、**{特定技能|とくていぎのう}ビザを{取得|しゅとく}**しました。",
+   "arti_contoh": "Setelah lulus, Mai mendapat visa TOKUTEI GINOU sehingga bisa bekerja di Jepang.",
+   "rb": [
+    "取得|しゅとく"
+   ]
+  },
+  {
+   "id": "bc-1079",
+   "kata": "感謝",
+   "kana": "かんしゃ",
+   "romaji": "kansha",
+   "arti": "rasa syukur; terima kasih",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{合格|ごうかく}できて{感謝|かんしゃ}しています。",
+   "arti_contoh": "Saya bersyukur bisa lulus.",
+   "rb": [
+    "感謝|かんしゃ"
    ]
   },
   {
@@ -2632,6 +3091,180 @@
    ],
    "rb": [
     "樹脂|じゅし"
+   ],
+   "contoh": "**{乳化性|にゅうかせい}ワックス：**ロウ、{合成樹脂|ごうせいじゅし}。",
+   "arti_contoh": "Wax emulsi: lilin, resin sintetis."
+  },
+  {
+   "id": "bc-1080",
+   "kata": "就労",
+   "kana": "しゅうろう",
+   "romaji": "shuurou",
+   "arti": "bekerja; masuk dunia kerja",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{流|なが}れ：{特定技能|とくていぎのう}{評価試験|ひょうかしけん} → {合格|ごうかく} → {特定技能|とくていぎのう}ビザ{取得|しゅとく} → {就労|しゅうろう}",
+   "arti_contoh": "Alur ke Jepang: Ujian Penilaian TOKUTEI GINOU → LULUS → dapat Visa TOKUTEI GINOU → mulai bekerja.",
+   "rb": [
+    "就労|しゅうろう"
+   ]
+  },
+  {
+   "id": "bc-1081",
+   "kata": "第一印象",
+   "kana": "だいいちいんしょう",
+   "romaji": "daiichiinshou",
+   "arti": "kesan pertama",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "マイさんの{第一印象|だいいちいんしょう}：{日本|にほん}のビルはとても{綺麗|きれい}",
+   "arti_contoh": "Kesan pertama Mai: gedung di Jepang sangat bersih",
+   "rb": [
+    "第一印象|だいいちいんしょう"
+   ]
+  },
+  {
+   "id": "bc-1082",
+   "kata": "驚く",
+   "kana": "おどろく",
+   "romaji": "odoroku",
+   "arti": "terkejut",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "ビルがきれいで{驚|おどろ}いた。",
+   "arti_contoh": "Saya kaget gedungnya sangat bersih.",
+   "rb": [
+    "驚|おどろ"
+   ]
+  },
+  {
+   "id": "bc-1083",
+   "kata": "公共施設",
+   "kana": "こうきょうしせつ",
+   "romaji": "koukyoushisetsu",
+   "arti": "fasilitas umum",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{公共施設|こうきょうしせつ}のトイレを{掃除|そうじ}する。",
+   "arti_contoh": "Membersihkan toilet fasilitas umum.",
+   "rb": [
+    "公共施設|こうきょうしせつ"
+   ]
+  },
+  {
+   "id": "bc-1084",
+   "kata": "説明",
+   "kana": "せつめい",
+   "romaji": "setsumei",
+   "arti": "penjelasan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s9"
+   ],
+   "contoh": "{先輩|せんぱい}が{仕事|しごと}を{説明|せつめい}する。",
+   "arti_contoh": "Senior menjelaskan pekerjaan.",
+   "rb": [
+    "説明|せつめい"
+   ]
+  },
+  {
+   "id": "bc-1085",
+   "kata": "安全性",
+   "kana": "あんぜんせい",
+   "romaji": "anzensei",
+   "arti": "keamanan; sifat aman",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "**{安全性|あんぜんせい}の{維持|いじ}**：{害虫|がいちゅう}や{病気|びょうき}から{人々|ひとびと}を{守|まも}る。",
+   "arti_contoh": "Menjaga Keamanan: dengan Cleaning Service kita melindungi orang-orang dari hama dan penyakit.",
+   "rb": [
+    "安全性|あんぜんせい"
+   ]
+  },
+  {
+   "id": "bc-1086",
+   "kata": "害虫",
+   "kana": "がいちゅう",
+   "romaji": "gaichuu",
+   "arti": "hama; serangga pengganggu",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "**{安全性|あんぜんせい}の{維持|いじ}**：{害虫|がいちゅう}や{病気|びょうき}から{人々|ひとびと}を{守|まも}る。",
+   "arti_contoh": "Menjaga Keamanan: dengan Cleaning Service kita melindungi orang-orang dari hama dan penyakit.",
+   "rb": [
+    "害虫|がいちゅう"
+   ]
+  },
+  {
+   "id": "bc-1087",
+   "kata": "暮らす",
+   "kana": "くらす",
+   "romaji": "kurasu",
+   "arti": "hidup; tinggal",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "みんなが{快適|かいてき}に{暮|く}らせるようにする。",
+   "arti_contoh": "Membuat semua orang bisa hidup nyaman.",
+   "rb": [
+    "暮|く"
+   ]
+  },
+  {
+   "id": "bc-1088",
+   "kata": "幸せ",
+   "kana": "しあわせ",
+   "romaji": "shiawase",
+   "arti": "bahagia",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "みんなを{幸|しあわ}せにしよう。",
+   "arti_contoh": "Mari membahagiakan semua orang.",
+   "rb": [
+    "幸|しあわ"
+   ]
+  },
+  {
+   "id": "bc-1089",
+   "kata": "試験",
+   "kana": "しけん",
+   "romaji": "shiken",
+   "arti": "ujian",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8",
+    "b1s7"
+   ],
+   "contoh": "**{特定技能|とくていぎのう}{評価試験|ひょうかしけん}に{合格|ごうかく}**しました。",
+   "arti_contoh": "Mai lulus ujian penilaian TOKUTEI GINOU.",
+   "rb": [
+    "試験|しけん"
    ]
   },
   {
@@ -2650,6 +3283,176 @@
    "arti_contoh": "Polisher dikendalikan dengan pegangan tanpa banyak tenaga."
   },
   {
+   "id": "bc-1090",
+   "kata": "社会",
+   "kana": "しゃかい",
+   "romaji": "shakai",
+   "arti": "masyarakat",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{社会|しゃかい}の{期待|きたい}に{応|こた}える。",
+   "arti_contoh": "Memenuhi harapan masyarakat.",
+   "rb": [
+    "社会|しゃかい"
+   ]
+  },
+  {
+   "id": "bc-1091",
+   "kata": "期待",
+   "kana": "きたい",
+   "romaji": "kitai",
+   "arti": "harapan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{お客様|おきゃくさま}の{期待|きたい}に{応|こた}える。",
+   "arti_contoh": "Memenuhi harapan tamu.",
+   "rb": [
+    "期待|きたい"
+   ]
+  },
+  {
+   "id": "bc-1092",
+   "kata": "団体",
+   "kana": "だんたい",
+   "romaji": "dantai",
+   "arti": "organisasi; kelompok",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCFは、JBMAの{依頼|いらい}に{応|こた}え、クリーニング{業界|ぎょうかい}の**{外国人材|がいこくじんざい}の{採用|さいよう}と{教育|きょういく}を{支援|しえん}**する{団体|だんたい}です。",
+   "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik.",
+   "rb": [
+    "団体|だんたい"
+   ]
+  },
+  {
+   "id": "bc-1093",
+   "kata": "設立",
+   "kana": "せつりつ",
+   "romaji": "setsuritsu",
+   "arti": "pendirian",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "1996{年|ねん}に{設立|せつりつ}された。",
+   "arti_contoh": "Didirikan pada tahun 1996.",
+   "rb": [
+    "設立|せつりつ"
+   ]
+  },
+  {
+   "id": "bc-1094",
+   "kata": "分野",
+   "kana": "ぶんや",
+   "romaji": "bunya",
+   "arti": "bidang",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ビルクリーニング{分野|ぶんや}の{試験|しけん}を{受|う}ける。",
+   "arti_contoh": "Mengikuti ujian bidang pembersihan gedung.",
+   "rb": [
+    "分野|ぶんや"
+   ]
+  },
+  {
+   "id": "bc-1095",
+   "kata": "実施",
+   "kana": "じっし",
+   "romaji": "jisshi",
+   "arti": "pelaksanaan; menyelenggarakan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{試験|しけん}を{実施|じっし}する。",
+   "arti_contoh": "Menyelenggarakan ujian.",
+   "rb": [
+    "実施|じっし"
+   ]
+  },
+  {
+   "id": "bc-1096",
+   "kata": "外国人材",
+   "kana": "がいこくじんざい",
+   "romaji": "gaikokujinzai",
+   "arti": "tenaga kerja asing",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCF（{外国人材|がいこくじんざい}{受入|うけい}れサポートセンター）",
+   "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)",
+   "rb": [
+    "外国人材|がいこくじんざい"
+   ]
+  },
+  {
+   "id": "bc-1097",
+   "kata": "受入れ",
+   "kana": "うけいれ",
+   "romaji": "ukeire",
+   "arti": "penerimaan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCF（{外国人材|がいこくじんざい}{受入|うけい}れサポートセンター）",
+   "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)",
+   "rb": [
+    "受入|うけい"
+   ]
+  },
+  {
+   "id": "bc-1098",
+   "kata": "依頼",
+   "kana": "いらい",
+   "romaji": "irai",
+   "arti": "permintaan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCFは、JBMAの{依頼|いらい}に{応|こた}え、クリーニング{業界|ぎょうかい}の**{外国人材|がいこくじんざい}の{採用|さいよう}と{教育|きょういく}を{支援|しえん}**する{団体|だんたい}です。",
+   "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik.",
+   "rb": [
+    "依頼|いらい"
+   ]
+  },
+  {
+   "id": "bc-1099",
+   "kata": "業界",
+   "kana": "ぎょうかい",
+   "romaji": "gyoukai",
+   "arti": "industri",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCFは、JBMAの{依頼|いらい}に{応|こた}え、クリーニング{業界|ぎょうかい}の**{外国人材|がいこくじんざい}の{採用|さいよう}と{教育|きょういく}を{支援|しえん}**する{団体|だんたい}です。",
+   "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik.",
+   "rb": [
+    "業界|ぎょうかい"
+   ]
+  },
+  {
    "id": "bc-110",
    "kata": "パッド",
    "kana": "パッド",
@@ -2660,6 +3463,178 @@
    "src": [
     "b3s5",
     "b3s7"
+   ],
+   "contoh": "パッドへの{圧|あつ}",
+   "arti_contoh": "Tekanan pad"
+  },
+  {
+   "id": "bc-1100",
+   "kata": "採用",
+   "kana": "さいよう",
+   "romaji": "saiyou",
+   "arti": "perekrutan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCFは、JBMAの{依頼|いらい}に{応|こた}え、クリーニング{業界|ぎょうかい}の**{外国人材|がいこくじんざい}の{採用|さいよう}と{教育|きょういく}を{支援|しえん}**する{団体|だんたい}です。",
+   "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik.",
+   "rb": [
+    "採用|さいよう"
+   ]
+  },
+  {
+   "id": "bc-1101",
+   "kata": "支援",
+   "kana": "しえん",
+   "romaji": "shien",
+   "arti": "dukungan; bantuan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCFは、JBMAの{依頼|いらい}に{応|こた}え、クリーニング{業界|ぎょうかい}の**{外国人材|がいこくじんざい}の{採用|さいよう}と{教育|きょういく}を{支援|しえん}**する{団体|だんたい}です。",
+   "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik.",
+   "rb": [
+    "支援|しえん"
+   ]
+  },
+  {
+   "id": "bc-1102",
+   "kata": "資格",
+   "kana": "しかく",
+   "romaji": "shikaku",
+   "arti": "kualifikasi; sertifikat",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "クリーニングに{関|かん}する{資格|しかく}",
+   "arti_contoh": "Kualifikasi mengenai Cleaning Service",
+   "rb": [
+    "資格|しかく"
+   ]
+  },
+  {
+   "id": "bc-1103",
+   "kata": "技能者",
+   "kana": "ぎのうしゃ",
+   "romaji": "ginousha",
+   "arti": "tenaga terampil",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "プロの{技能者|ぎのうしゃ}を{育|そだ}てる。",
+   "arti_contoh": "Mendidik tenaga terampil profesional.",
+   "rb": [
+    "技能者|ぎのうしゃ"
+   ]
+  },
+  {
+   "id": "bc-1104",
+   "kata": "講習",
+   "kana": "こうしゅう",
+   "romaji": "koushuu",
+   "arti": "pelatihan; kursus",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{講習|こうしゅう}を{受|う}ける。",
+   "arti_contoh": "Mengikuti pelatihan.",
+   "rb": [
+    "講習|こうしゅう"
+   ]
+  },
+  {
+   "id": "bc-1105",
+   "kata": "国",
+   "kana": "くに",
+   "romaji": "kuni",
+   "arti": "negara",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCF（{外国人材|がいこくじんざい}{受入|うけい}れサポートセンター）",
+   "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)",
+   "rb": [
+    "国|くに"
+   ]
+  },
+  {
+   "id": "bc-1106",
+   "kata": "技能",
+   "kana": "ぎのう",
+   "romaji": "ginou",
+   "arti": "keterampilan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{特定技能評価試験|とくていぎのうひょうかしけん}：{日本|にほん}ビルメンテナンス{協会|きょうかい}（JBMA）",
+   "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)",
+   "rb": [
+    "技能|ぎのう"
+   ]
+  },
+  {
+   "id": "bc-1107",
+   "kata": "検定",
+   "kana": "けんてい",
+   "romaji": "kentei",
+   "arti": "ujian sertifikasi",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
+   "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional).",
+   "rb": [
+    "検定|けんてい"
+   ]
+  },
+  {
+   "id": "bc-1108",
+   "kata": "毎年",
+   "kana": "まいとし",
+   "romaji": "maitoshi",
+   "arti": "setiap tahun",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{毎年|まいとし}、{試験|しけん}がある。",
+   "arti_contoh": "Setiap tahun ada ujian.",
+   "rb": [
+    "毎年|まいとし"
+   ]
+  },
+  {
+   "id": "bc-1109",
+   "kata": "数千人",
+   "kana": "すうせんにん",
+   "romaji": "suusennin",
+   "arti": "beberapa ribu orang",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{毎年|まいとし}、{数千人|すうせんにん}が{受験|じゅけん}する。",
+   "arti_contoh": "Setiap tahun ribuan orang mengikuti ujian.",
+   "rb": [
+    "数千人|すうせんにん"
    ]
   },
   {
@@ -2673,6 +3648,180 @@
    "src": [
     "b3s5",
     "b3s8"
+   ],
+   "contoh": "{次|つぎ}はフロアパッドを{外|はず}して{汚水|おすい}をたらさないように{回収|かいしゅう}しよう（タオルで{汚水|おすい}を{受|う}ける）。",
+   "arti_contoh": "Lepaskan floor pad. Kumpulkan air kotor jangan sampai menetes (lap air kotor dengan kain lap)."
+  },
+  {
+   "id": "bc-1110",
+   "kata": "号",
+   "kana": "ごう",
+   "romaji": "gou",
+   "arti": "nomor; No. (1号)",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
+   "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional).",
+   "rb": [
+    "号|ごう"
+   ]
+  },
+  {
+   "id": "bc-1111",
+   "kata": "技能検定",
+   "kana": "ぎのうけんてい",
+   "romaji": "ginoukentei",
+   "arti": "ujian keterampilan nasional",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
+   "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional).",
+   "rb": [
+    "技能検定|ぎのうけんてい"
+   ]
+  },
+  {
+   "id": "bc-1112",
+   "kata": "級",
+   "kana": "きゅう",
+   "romaji": "kyuu",
+   "arti": "tingkat; level (3級)",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
+   "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional).",
+   "rb": [
+    "級|きゅう"
+   ]
+  },
+  {
+   "id": "bc-1113",
+   "kata": "実施団体",
+   "kana": "じっしだんたい",
+   "romaji": "jisshidantai",
+   "arti": "organisasi penyelenggara",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "JBMAは{試験|しけん}の{実施団体|じっしだんたい}です。",
+   "arti_contoh": "JBMA adalah organisasi penyelenggara ujian.",
+   "rb": [
+    "実施団体|じっしだんたい"
+   ]
+  },
+  {
+   "id": "bc-1114",
+   "kata": "目次",
+   "kana": "もくじ",
+   "romaji": "mokuji",
+   "arti": "daftar isi",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9"
+   ],
+   "contoh": "{目次|もくじ}で{内容|ないよう}を{探|さが}す。",
+   "arti_contoh": "Mencari isi buku lewat daftar isi.",
+   "rb": [
+    "目次|もくじ"
+   ]
+  },
+  {
+   "id": "bc-1115",
+   "kata": "章",
+   "kana": "しょう",
+   "romaji": "shou",
+   "arti": "bab",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9"
+   ],
+   "contoh": "{第|だい}２{章|しょう} {日常清掃|にちじょうせいそう}",
+   "arti_contoh": "BAB 2 Pembersihan Harian",
+   "rb": [
+    "章|しょう"
+   ]
+  },
+  {
+   "id": "bc-1116",
+   "kata": "探す",
+   "kana": "さがす",
+   "romaji": "sagasu",
+   "arti": "mencari",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9"
+   ],
+   "contoh": "{目次|もくじ}でページを{探|さが}す。",
+   "arti_contoh": "Mencari halaman lewat daftar isi.",
+   "rb": [
+    "探|さが"
+   ]
+  },
+  {
+   "id": "bc-1117",
+   "kata": "衛生管理",
+   "kana": "えいせいかんり",
+   "romaji": "eiseikanri",
+   "arti": "pengelolaan kebersihan/kesehatan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9",
+    "b2s18"
+   ],
+   "contoh": "{廃棄物|はいきぶつ}の{処理|しょり}、{衛生管理|えいせいかんり}、{作業|さぎょう}の{安全|あんぜん}と{衛生|えいせい}の{手順|てじゅん}",
+   "arti_contoh": "Pengolahan Limbah, Mengenai Kontrol Kebersihan, Prosedur Keamanan dan Kebersihan Bekerja",
+   "rb": [
+    "衛生管理|えいせいかんり"
+   ]
+  },
+  {
+   "id": "bc-1118",
+   "kata": "態度",
+   "kana": "たいど",
+   "romaji": "taido",
+   "arti": "sikap",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9",
+    "b1s6"
+   ],
+   "contoh": "{お客様|おきゃくさま}への{態度|たいど}に{注意|ちゅうい}する。",
+   "arti_contoh": "Memperhatikan sikap pada tamu.",
+   "rb": [
+    "態度|たいど"
+   ]
+  },
+  {
+   "id": "bc-1119",
+   "kata": "扉",
+   "kana": "とびら",
+   "romaji": "tobira",
+   "arti": "pintu; halaman sampul bab",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9"
+   ],
+   "contoh": "16ページ：{第|だい}２{章|しょう}「{日常清掃|にちじょうせいそう}」の{扉|とびら}ページ。",
+   "arti_contoh": "Halaman 16: sampul BAB 2 \"Pembersihan Harian\" (日常清掃) yang membuka bab pembersihan harian.",
+   "rb": [
+    "扉|とびら"
    ]
   },
   {
@@ -2685,7 +3834,177 @@
    "bab": "bab3",
    "src": [
     "b3s6"
+   ],
+   "contoh": "ハンドルを{少|すこ}し{上|あ}げる → {右|みぎ}に{進|すす}む。",
+   "arti_contoh": "Naikkan sedikit pegangan → polisher maju ke kanan."
+  },
+  {
+   "id": "bc-1120",
+   "kata": "発行",
+   "kana": "はっこう",
+   "romaji": "hakkou",
+   "arti": "penerbitan",
+   "cat": "Istilah materi",
+   "bab": "bab3",
+   "src": [
+    "b3s12"
+   ],
+   "contoh": "83〜85ページ：{本|ほん}の{最後|さいご}のページと{発行|はっこう}{情報|じょうほう}（JBMA）。",
+   "arti_contoh": "Halaman 83–85: halaman penutup buku dan keterangan penerbit (JBMA).",
+   "rb": [
+    "発行|はっこう"
    ]
+  },
+  {
+   "id": "bc-1121",
+   "kata": "働く",
+   "kana": "はたらく",
+   "romaji": "hataraku",
+   "arti": "bekerja",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s1"
+   ],
+   "contoh": "{労働衛生|ろうどうえいせい}で{守|まも}ること",
+   "arti_contoh": "Hal yang harus dilakukan untuk Kesehatan Kerja",
+   "rb": [
+    "働|はたら"
+   ]
+  },
+  {
+   "id": "bc-1122",
+   "kata": "頃",
+   "kana": "ころ",
+   "romaji": "koro",
+   "arti": "masa; sekitar (子供の頃)",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{子供|こども}の{頃|ころ}からマンガやアニメが{好|す}きで、{日本|にほん}に{憧|あこが}れていました。",
+   "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang.",
+   "rb": [
+    "頃|ころ"
+   ]
+  },
+  {
+   "id": "bc-1123",
+   "kata": "好き",
+   "kana": "すき",
+   "romaji": "suki",
+   "arti": "suka",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{子供|こども}の{頃|ころ}からマンガやアニメが{好|す}きで、{日本|にほん}に{憧|あこが}れていました。",
+   "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang.",
+   "rb": [
+    "好|す"
+   ]
+  },
+  {
+   "id": "bc-1124",
+   "kata": "保つ",
+   "kana": "たもつ",
+   "romaji": "tamotsu",
+   "arti": "menjaga; mempertahankan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7",
+    "b1s3"
+   ],
+   "contoh": "**キレイの{維持|いじ}**：きれいな{状態|じょうたい}を{保|たも}つ。",
+   "arti_contoh": "Menjaga kebersihan (キレイの維持): tetap bersih dan nyaman.",
+   "rb": [
+    "保|たも"
+   ]
+  },
+  {
+   "id": "bc-1125",
+   "kata": "応える",
+   "kana": "こたえる",
+   "romaji": "kotaeru",
+   "arti": "memenuhi (harapan); menanggapi",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "ASCFは、JBMAの{依頼|いらい}に{応|こた}え、クリーニング{業界|ぎょうかい}の**{外国人材|がいこくじんざい}の{採用|さいよう}と{教育|きょういく}を{支援|しえん}**する{団体|だんたい}です。",
+   "arti_contoh": "ASCF adalah organisasi yang menjawab permintaan JBMA untuk mendukung industri Cleaning Service dalam perekrutan dan pelatihan tenaga kerja asing agar berjalan baik.",
+   "rb": [
+    "応|こた"
+   ]
+  },
+  {
+   "id": "bc-1126",
+   "kata": "育てる",
+   "kana": "そだてる",
+   "romaji": "sodateru",
+   "arti": "mendidik; membesarkan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "プロの{技能者|ぎのうしゃ}を{育|そだ}てる。",
+   "arti_contoh": "Mendidik tenaga terampil profesional.",
+   "rb": [
+    "育|そだ"
+   ]
+  },
+  {
+   "id": "bc-1127",
+   "kata": "雑巾",
+   "kana": "ぞうきん",
+   "romaji": "zoukin",
+   "arti": "kain lap",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9",
+    "b2s6"
+   ],
+   "contoh": "ほうきとちりとり、ダストクロス、{雑巾|ぞうきん}",
+   "arti_contoh": "Sapu dan Pengki (Serokan), Dust Cloth (Lap Debu), Lap",
+   "rb": [
+    "雑巾|ぞうきん"
+   ]
+  },
+  {
+   "id": "bc-1128",
+   "kata": "ごみ箱",
+   "kana": "ごみばこ",
+   "romaji": "gomibako",
+   "arti": "tempat sampah",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s12",
+    "b2s11"
+   ],
+   "contoh": "トイレ{清掃|せいそう}：ごみ{箱|ばこ}・{補充|ほじゅう}、{洗面台|せんめんだい}、{小便器|しょうべんき}、{便器|べんき}、{床|ゆか}",
+   "arti_contoh": "Pembersihan Toilet: tempat sampah dan pengisian ulang, wastafel, urinoir, kloset/WC, lantai"
+  },
+  {
+   "id": "bc-1129",
+   "kata": "手伝う",
+   "kana": "てつだう",
+   "romaji": "tetsudau",
+   "arti": "membantu",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{先輩|せんぱい}が{仕事|しごと}を{手伝|てつだ}う。",
+   "arti_contoh": "Senior membantu pekerjaan."
   },
   {
    "id": "bc-113",
@@ -2697,7 +4016,149 @@
    "bab": "bab3",
    "src": [
     "b3s6"
-   ]
+   ],
+   "contoh": "セーフティロックを{押|お}し{込|こ}みながら{右|みぎ}レバーを{握|にぎ}る。",
+   "arti_contoh": "Pegang tuas kanan sambil dorong safety lock."
+  },
+  {
+   "id": "bc-1130",
+   "kata": "遅れる",
+   "kana": "おくれる",
+   "romaji": "okureru",
+   "arti": "terlambat",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{電車|でんしゃ}で{遅|おく}れるときは、{連絡|れんらく}する。",
+   "arti_contoh": "Kalau akan terlambat karena kereta, kabari."
+  },
+  {
+   "id": "bc-1131",
+   "kata": "先",
+   "kana": "さき",
+   "romaji": "saki",
+   "arti": "duluan; depan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "**「{先輩|せんぱい}」**",
+   "arti_contoh": "Senior"
+  },
+  {
+   "id": "bc-1132",
+   "kata": "二回",
+   "kana": "にかい",
+   "romaji": "nikai",
+   "arti": "dua kali",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s9"
+   ],
+   "contoh": "{同|おな}じ{場所|ばしょ}を{二回|にかい}{拭|ふ}く。",
+   "arti_contoh": "Mengelap tempat yang sama dua kali."
+  },
+  {
+   "id": "bc-1133",
+   "kata": "受験",
+   "kana": "じゅけん",
+   "romaji": "juken",
+   "arti": "mengikuti ujian",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{毎年|まいとし}、たくさんの{人|ひと}が{受験|じゅけん}する。",
+   "arti_contoh": "Setiap tahun banyak orang mengikuti ujian."
+  },
+  {
+   "id": "bc-1134",
+   "kata": "安定",
+   "kana": "あんてい",
+   "romaji": "antei",
+   "arti": "stabil",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{脚立|きゃたつ}は{安定|あんてい}した{場所|ばしょ}に{置|お}く。",
+   "arti_contoh": "Tangga lipat ditaruh di tempat stabil."
+  },
+  {
+   "id": "bc-1135",
+   "kata": "事前",
+   "kana": "じぜん",
+   "romaji": "jizen",
+   "arti": "sebelumnya; di muka",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{休|やす}むときは、{事前|じぜん}に{連絡|れんらく}する。",
+   "arti_contoh": "Kalau libur, kabari lebih dulu."
+  },
+  {
+   "id": "bc-1136",
+   "kata": "不安",
+   "kana": "ふあん",
+   "romaji": "fuan",
+   "arti": "cemas; ragu",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{お客様|おきゃくさま}に{不安|ふあん}を{与|あた}えない。",
+   "arti_contoh": "Jangan membuat tamu merasa cemas."
+  },
+  {
+   "id": "bc-1137",
+   "kata": "走る",
+   "kana": "はしる",
+   "romaji": "hashiru",
+   "arti": "berlari",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{建物|たてもの}の{中|なか}では{走|はし}らない。",
+   "arti_contoh": "Jangan berlari di dalam gedung."
+  },
+  {
+   "id": "bc-1138",
+   "kata": "増える",
+   "kana": "ふえる",
+   "romaji": "fueru",
+   "arti": "bertambah",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{湿気|しっけ}があるとカビが{増|ふ}える。",
+   "arti_contoh": "Kalau lembap, jamur bertambah."
+  },
+  {
+   "id": "bc-1139",
+   "kata": "権利",
+   "kana": "けんり",
+   "romaji": "kenri",
+   "arti": "hak",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{働|はたら}く{人|ひと}には{安全|あんぜん}に{働|はたら}く{権利|けんり}がある。",
+   "arti_contoh": "Pekerja berhak bekerja dengan aman."
   },
   {
    "id": "bc-114",
@@ -2710,7 +4171,149 @@
    "src": [
     "b3s5",
     "b3s6"
-   ]
+   ],
+   "contoh": "ポリッシャーを{起|お}こして：スタンドを{収納|しゅうのう}する、タイヤを{固定|こてい}する。",
+   "arti_contoh": "Bangunkan polisher: tarik kembali penyangga (stand), kunci rodanya (tarik kembali roda)."
+  },
+  {
+   "id": "bc-1140",
+   "kata": "参加",
+   "kana": "さんか",
+   "romaji": "sanka",
+   "arti": "ikut serta",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{朝|あさ}のミーティングに{参加|さんか}する。",
+   "arti_contoh": "Ikut rapat pagi."
+  },
+  {
+   "id": "bc-1141",
+   "kata": "油",
+   "kana": "あぶら",
+   "romaji": "abura",
+   "arti": "minyak; lemak",
+   "cat": "Istilah materi",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "**{油溶性|ゆようせい}：**ヒールマーク、{皮脂|ひし}など。",
+   "arti_contoh": "Tipe minyak: bekas heal (sepatu), sebum, dan lainnya."
+  },
+  {
+   "id": "bc-1142",
+   "kata": "開ける",
+   "kana": "あける",
+   "romaji": "akeru",
+   "arti": "membuka",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s11"
+   ],
+   "contoh": "ふたを{開|あ}ける。",
+   "arti_contoh": "Membuka tutup."
+  },
+  {
+   "id": "bc-1143",
+   "kata": "閉める",
+   "kana": "しめる",
+   "romaji": "shimeru",
+   "arti": "menutup",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s11"
+   ],
+   "contoh": "ドアを{閉|し}める。",
+   "arti_contoh": "Menutup pintu."
+  },
+  {
+   "id": "bc-1144",
+   "kata": "拾う",
+   "kana": "ひろう",
+   "romaji": "hirou",
+   "arti": "memungut",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s17"
+   ],
+   "contoh": "トングでごみを{拾|ひろ}う。",
+   "arti_contoh": "Memungut sampah dengan penjepit."
+  },
+  {
+   "id": "bc-1145",
+   "kata": "通る",
+   "kana": "とおる",
+   "romaji": "tooru",
+   "arti": "lewat",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{普通|ふつう}はタオルにガラスクリーナーをつけてから{拭|ふ}く。",
+   "arti_contoh": "Biasanya, semprotkan dulu pembersih kaca ke kain lap, lalu lap."
+  },
+  {
+   "id": "bc-1146",
+   "kata": "大丈夫",
+   "kana": "だいじょうぶ",
+   "romaji": "daijoubu",
+   "arti": "tidak apa-apa; aman",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{大丈夫|だいじょうぶ}ですか。",
+   "arti_contoh": "Apakah baik-baik saja?"
+  },
+  {
+   "id": "bc-1147",
+   "kata": "読む",
+   "kana": "よむ",
+   "romaji": "yomu",
+   "arti": "membaca",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s9"
+   ],
+   "contoh": "テキストを{読|よ}む。",
+   "arti_contoh": "Membaca buku teks."
+  },
+  {
+   "id": "bc-1148",
+   "kata": "覚える",
+   "kana": "おぼえる",
+   "romaji": "oboeru",
+   "arti": "menghafal; mengingat",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "あいさつの{言葉|ことば}を{覚|おぼ}える。",
+   "arti_contoh": "Menghafal kata-kata salam."
+  },
+  {
+   "id": "bc-1149",
+   "kata": "仲よく",
+   "kana": "なかよく",
+   "romaji": "nakayoku",
+   "arti": "dengan akrab",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "みんなと{仲|なか}よく{働|はたら}く。",
+   "arti_contoh": "Bekerja akrab dengan semua orang."
   },
   {
    "id": "bc-115",
@@ -2726,7 +4329,138 @@
    "rb": [
     "反時計回り|はんとけいまわり",
     "反時計回|はんとけいまわ"
+   ],
+   "contoh": "はじめは{外周|がいしゅう}に{洗剤|せんざい}をまきながら{反時計回|はんとけいまわ}りに{清掃|せいそう}しよう。",
+   "arti_contoh": "Pertama, tebarkan karbol pada sisi luar dan bersihkan berlawanan arah jarum jam."
+  },
+  {
+   "id": "bc-1150",
+   "kata": "制服",
+   "kana": "せいふく",
+   "romaji": "seifuku",
+   "arti": "seragam",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "{制服|せいふく}をきれいに{着|き}る。",
+   "arti_contoh": "Memakai seragam dengan rapi."
+  },
+  {
+   "id": "bc-1151",
+   "kata": "量",
+   "kana": "りょう",
+   "romaji": "ryou",
+   "arti": "jumlah; takaran",
+   "cat": "Istilah materi",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "{計量|けいりょう}カップ、プランジャー、{作業|さぎょう}カート、{廃棄物|はいきぶつ}コレクター、{手押|ておし}し{台車|だいしゃ}。",
+   "arti_contoh": "Gelas Pengukur; Alat Sedot WC; Keranjang Peralatan; Keranjang Limbah; Troli Dorong."
+  },
+  {
+   "id": "bc-1152",
+   "kata": "先に",
+   "kana": "さきに",
+   "romaji": "sakini",
+   "arti": "lebih dulu",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "**「{先輩|せんぱい}」**",
+   "arti_contoh": "Senior"
+  },
+  {
+   "id": "bc-1153",
+   "kata": "朝",
+   "kana": "あさ",
+   "romaji": "asa",
+   "arti": "pagi",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{朝|あさ}のミーティングに{参加|さんか}する。",
+   "arti_contoh": "Ikut rapat pagi."
+  },
+  {
+   "id": "bc-1154",
+   "kata": "電車",
+   "kana": "でんしゃ",
+   "romaji": "densha",
+   "arti": "kereta listrik",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{電車|でんしゃ}が{遅|おく}れたら、{連絡|れんらく}する。",
+   "arti_contoh": "Kalau kereta terlambat, kabari."
+  },
+  {
+   "id": "bc-1155",
+   "kata": "建物",
+   "kana": "たてもの",
+   "romaji": "tatemono",
+   "arti": "bangunan",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{建物|たてもの}の{中|なか}をきれいにする。",
+   "arti_contoh": "Membersihkan bagian dalam bangunan."
+  },
+  {
+   "id": "bc-1156",
+   "kata": "湿気",
+   "kana": "しっけ",
+   "romaji": "shikke",
+   "arti": "kelembapan",
+   "cat": "Istilah materi",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{湿気|しっけ}が{多|おお}いとカビが{増|ふ}える。",
+   "arti_contoh": "Kalau lembap, jamur bertambah."
+  },
+  {
+   "id": "bc-1157",
+   "kata": "年",
+   "kana": "ねん",
+   "romaji": "nen",
+   "arti": "tahun",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "1996{年|ねん}に{設立|せつりつ}された。",
+   "arti_contoh": "Didirikan pada tahun 1996.",
+   "rb": [
+    "年|ねん"
    ]
+  },
+  {
+   "id": "bc-1158",
+   "kata": "等",
+   "kana": "など",
+   "romaji": "nado",
+   "arti": "dan lain-lain (等)",
+   "cat": "Istilah materi",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{病気|びょうき}{等|など}で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
+   "arti_contoh": "Jika tidak bisa masuk kerja karena sakit atau hal lain, harus menghubungi/memberi kabar."
   },
   {
    "id": "bc-116",
@@ -2741,7 +4475,9 @@
    ],
    "rb": [
     "圧|あつ"
-   ]
+   ],
+   "contoh": "パッドへの{圧|あつ}",
+   "arti_contoh": "Tekanan pad"
   },
   {
    "id": "bc-117",
@@ -2772,7 +4508,9 @@
    "bab": "bab3",
    "src": [
     "b3s9"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}の{塗布|とふ}（シャンパー）",
+   "arti_contoh": "Mengaplikasikan sabun pembersih kaca (window washer)."
   },
   {
    "id": "bc-119",
@@ -2785,7 +4523,9 @@
    "src": [
     "b3s9",
     "b3s10"
-   ]
+   ],
+   "contoh": "シャンパーとウインドスクイジー。",
+   "arti_contoh": "Window washer (alat pengoles sabun) dan window cleaner (squeegee)."
   },
   {
    "id": "bc-120",
@@ -2819,7 +4559,9 @@
    ],
    "rb": [
     "脚立|きゃたつ"
-   ]
+   ],
+   "contoh": "{脚立|きゃたつ}を{使|つか}うときは、{安定|あんてい}した{場所|ばしょ}に{置|お}く。",
+   "arti_contoh": "Saat memakai tangga lipat, taruh di tempat yang stabil."
   },
   {
    "id": "bc-122",
@@ -2835,7 +4577,9 @@
    ],
    "rb": [
     "運搬車|うんぱんしゃ"
-   ]
+   ],
+   "contoh": "**{運搬車|うんぱんしゃ}を{使|つか}う{時|とき}：**{運搬中|うんぱんちゅう}にお{客様|きゃくさま}とぶつからないよう{周|まわ}りをみて{移動|いどう}しましょう。",
+   "arti_contoh": "Saat menggunakan motor roda tiga (kereta angkut): gunakan dengan melihat sekitar dan jangan sampai menabrak tamu."
   },
   {
    "id": "bc-123",
@@ -3194,7 +4938,9 @@
    ],
    "rb": [
     "出社時間|しゅっしゃじかん"
-   ]
+   ],
+   "contoh": "{出社時間|しゅっしゃじかん}を{守|まも}る",
+   "arti_contoh": "Jangan terlambat."
   },
   {
    "id": "bc-141",
@@ -3227,7 +4973,7 @@
    "rb": [
     "反|はん"
    ],
-   "contoh": "SNS等に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
+   "contoh": "SNS{等|など}に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
    "arti_contoh": ""
   },
   {
@@ -3403,7 +5149,7 @@
    "rb": [
     "届出|とどけで"
    ],
-   "contoh": "{病気|びょうき}等で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
+   "contoh": "{病気|びょうき}{等|など}で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
    "arti_contoh": ""
   },
   {
@@ -3496,7 +5242,7 @@
    "rb": [
     "必|かなら"
    ],
-   "contoh": "{病気|びょうき}等で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
+   "contoh": "{病気|びょうき}{等|など}で{出勤|しゅっきん}できないときは{必|かなら}ず{連絡|れんらく}や{届出|とどけで}が{必要|ひつよう}です",
    "arti_contoh": ""
   },
   {
@@ -3564,7 +5310,9 @@
    ],
    "rb": [
     "手入|ていれ"
-   ]
+   ],
+   "contoh": "{道具|どうぐ}の{手入|てい}れをする。",
+   "arti_contoh": "Merawat peralatan."
   },
   {
    "id": "bc-160",
@@ -3643,7 +5391,9 @@
    ],
    "rb": [
     "揃|そろ"
-   ]
+   ],
+   "contoh": "{道具|どうぐ}を{揃|そろ}えてから{作業|さぎょう}を{始|はじ}める。",
+   "arti_contoh": "Mulai bekerja setelah melengkapi peralatan."
   },
   {
    "id": "bc-164",
@@ -3712,7 +5462,9 @@
    ],
    "rb": [
     "日頃|ひごろ"
-   ]
+   ],
+   "contoh": "{日頃|ひごろ}から{健康|けんこう}に{気|き}をつける。",
+   "arti_contoh": "Menjaga kesehatan sehari-hari."
   },
   {
    "id": "bc-168",
@@ -3921,7 +5673,9 @@
    ],
    "rb": [
     "清掃作業|せいそうさぎょう"
-   ]
+   ],
+   "contoh": "{清掃作業|せいそうさぎょう}の{前|まえ}にミーティングをする。",
+   "arti_contoh": "Rapat sebelum pekerjaan pembersihan."
   },
   {
    "id": "bc-179",
@@ -4264,7 +6018,7 @@
    "rb": [
     "記入|きにゅう"
    ],
-   "contoh": "SNS等に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
+   "contoh": "SNS{等|など}に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
    "arti_contoh": ""
   },
   {
@@ -4280,7 +6034,9 @@
    ],
    "rb": [
     "貸与|たいよ"
-   ]
+   ],
+   "contoh": "{会社|かいしゃ}から{貸与|たいよ}された{制服|せいふく}を{大切|たいせつ}にする。",
+   "arti_contoh": "Merawat seragam yang dipinjamkan perusahaan."
   },
   {
    "id": "bc-199",
@@ -4295,7 +6051,9 @@
    ],
    "rb": [
     "返納|へんのう"
-   ]
+   ],
+   "contoh": "{退職|たいしょく}するときに{制服|せいふく}を{返納|へんのう}する。",
+   "arti_contoh": "Mengembalikan seragam saat berhenti kerja."
   },
   {
    "id": "bc-200",
@@ -4327,7 +6085,9 @@
    ],
    "rb": [
     "退職|たいしょく"
-   ]
+   ],
+   "contoh": "{退職|たいしょく}するときは、{事前|じぜん}に{連絡|れんらく}する。",
+   "arti_contoh": "Saat berhenti kerja, kabari terlebih dahulu."
   },
   {
    "id": "bc-202",
@@ -4378,7 +6138,7 @@
    "rb": [
     "関|かか"
    ],
-   "contoh": "SNS等に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
+   "contoh": "SNS{等|など}に{業務|ぎょうむ}に{関|かか}わることやマナーに{反|はん}することを{記入|きにゅう}しないこと",
    "arti_contoh": ""
   },
   {
@@ -4923,7 +6683,9 @@
    ],
    "rb": [
     "毎日|まいにち"
-   ]
+   ],
+   "contoh": "{毎日|まいにち}の{清掃|せいそう}を{大切|たいせつ}にする。",
+   "arti_contoh": "Menghargai pembersihan harian."
   },
   {
    "id": "bc-233",
@@ -5241,7 +7003,9 @@
    ],
    "rb": [
     "乱暴|らんぼう"
-   ]
+   ],
+   "contoh": "{道具|どうぐ}を{乱暴|らんぼう}に{扱|あつか}わない。",
+   "arti_contoh": "Jangan memperlakukan peralatan dengan kasar."
   },
   {
    "id": "bc-249",
@@ -5291,7 +7055,9 @@
    ],
    "rb": [
     "失礼|しつれい"
-   ]
+   ],
+   "contoh": "{お客様|おきゃくさま}に{失礼|しつれい}のないようにする。",
+   "arti_contoh": "Jangan sampai bersikap tidak sopan pada tamu."
   },
   {
    "id": "bc-252",
@@ -5476,7 +7242,9 @@
    ],
    "rb": [
     "用語|ようご"
-   ]
+   ],
+   "contoh": "おはようございます",
+   "arti_contoh": "Selamat Pagi — おはようございます"
   },
   {
    "id": "bc-262",
@@ -5601,7 +7369,9 @@
    ],
    "rb": [
     "角度|かくど"
-   ]
+   ],
+   "contoh": "{角度|かくど}を{固定|こてい}したまま{引|ひ}き{降|お}ろす。",
+   "arti_contoh": "Menarik ke bawah dengan sudut yang tetap."
   },
   {
    "id": "bc-269",
@@ -5783,7 +7553,9 @@
    ],
    "rb": [
     "人間関係|にんげんかんけい"
-   ]
+   ],
+   "contoh": "{職場|しょくば}の{人間関係|にんげんかんけい}",
+   "arti_contoh": "Hubungan rekan kerja di tempat kerja"
   },
   {
    "id": "bc-279",
@@ -5837,7 +7609,9 @@
    ],
    "rb": [
     "伝|つた"
-   ]
+   ],
+   "contoh": "ほかの{人|ひと}にも{情報|じょうほう}を{伝|つた}える。",
+   "arti_contoh": "Menyampaikan informasi pada orang lain juga."
   },
   {
    "id": "bc-282",
@@ -5872,7 +7646,9 @@
    ],
    "rb": [
     "共有|きょうゆう"
-   ]
+   ],
+   "contoh": "{情報|じょうほう}を{共有|きょうゆう}する。",
+   "arti_contoh": "Berbagi informasi."
   },
   {
    "id": "bc-284",
@@ -5887,7 +7663,9 @@
    ],
    "rb": [
     "具体的|ぐたいてき"
-   ]
+   ],
+   "contoh": "{具体的|ぐたいてき}に{報告|ほうこく}する。",
+   "arti_contoh": "Melapor secara konkret."
   },
   {
    "id": "bc-285",
@@ -5957,7 +7735,9 @@
    ],
    "rb": [
     "努力|どりょく"
-   ]
+   ],
+   "contoh": "{毎日|まいにち}{努力|どりょく}する。",
+   "arti_contoh": "Berusaha setiap hari."
   },
   {
    "id": "bc-289",
@@ -5972,7 +7752,9 @@
    ],
    "rb": [
     "効率|こうりつ"
-   ]
+   ],
+   "contoh": "{効率|こうりつ}よく{作業|さぎょう}を{進|すす}める。",
+   "arti_contoh": "Mengerjakan pekerjaan secara efisien."
   },
   {
    "id": "bc-290",
@@ -6006,7 +7788,9 @@
    ],
    "rb": [
     "勤|つと"
-   ]
+   ],
+   "contoh": "ビルクリーニングの{会社|かいしゃ}に{勤|つと}める。",
+   "arti_contoh": "Bekerja di perusahaan pembersihan gedung."
   },
   {
    "id": "bc-292",
@@ -6077,7 +7861,9 @@
    ],
    "rb": [
     "叱|しか"
-   ]
+   ],
+   "contoh": "{お客様|おきゃくさま}に{叱|しか}られたら、すぐに{上司|じょうし}に{報告|ほうこく}する。",
+   "arti_contoh": "Kalau dimarahi tamu, segera lapor ke atasan."
   },
   {
    "id": "bc-296",
@@ -6134,7 +7920,9 @@
    ],
    "rb": [
     "向上|こうじょう"
-   ]
+   ],
+   "contoh": "{技術|ぎじゅつ}を{向上|こうじょう}させる。",
+   "arti_contoh": "Meningkatkan keterampilan."
   },
   {
    "id": "bc-299",
@@ -6149,7 +7937,9 @@
    ],
    "rb": [
     "問題|もんだい"
-   ]
+   ],
+   "contoh": "{問題|もんだい}があれば、すぐに{報告|ほうこく}する。",
+   "arti_contoh": "Kalau ada masalah, segera laporkan."
   },
   {
    "id": "bc-300",
@@ -6297,7 +8087,9 @@
    ],
    "rb": [
     "年齢|ねんれい"
-   ]
+   ],
+   "contoh": "{年齢|ねんれい}や{性別|せいべつ}に{関係|かんけい}なく、あいさつをする。",
+   "arti_contoh": "Memberi salam tanpa memandang usia atau jenis kelamin."
   },
   {
    "id": "bc-308",
@@ -6331,7 +8123,9 @@
    ],
    "rb": [
     "従事者|じゅうじしゃ"
-   ]
+   ],
+   "contoh": "{清掃|せいそう}の{従事者|じゅうじしゃ}は、{衛生|えいせい}に{注意|ちゅうい}する。",
+   "arti_contoh": "Pekerja pembersihan memperhatikan kebersihan diri."
   },
   {
    "id": "bc-310",
@@ -6363,7 +8157,9 @@
    ],
    "rb": [
     "性別|せいべつ"
-   ]
+   ],
+   "contoh": "{性別|せいべつ}に{関係|かんけい}なく、{仲|なか}よく{働|はたら}く。",
+   "arti_contoh": "Bekerja akrab tanpa memandang jenis kelamin."
   },
   {
    "id": "bc-312",
@@ -6418,7 +8214,9 @@
    ],
    "rb": [
     "技術|ぎじゅつ"
-   ]
+   ],
+   "contoh": "{清掃|せいそう}の{技術|ぎじゅつ}を{身|み}につける。",
+   "arti_contoh": "Menguasai teknik pembersihan."
   },
   {
    "id": "bc-315",
@@ -6450,7 +8248,9 @@
    ],
    "rb": [
     "提供|ていきょう"
-   ]
+   ],
+   "contoh": "きれいな{環境|かんきょう}を{提供|ていきょう}する。",
+   "arti_contoh": "Menyediakan lingkungan yang bersih."
   },
   {
    "id": "bc-317",
@@ -6466,7 +8266,9 @@
    ],
    "rb": [
     "改善|かいぜん"
-   ]
+   ],
+   "contoh": "{作業方法|さぎょうほうほう}を{改善|かいぜん}する。",
+   "arti_contoh": "Memperbaiki cara kerja."
   },
   {
    "id": "bc-318",
@@ -6549,7 +8351,9 @@
    ],
    "rb": [
     "明|あか"
-   ]
+   ],
+   "contoh": "{明|あか}るい{声|こえ}であいさつをする。",
+   "arti_contoh": "Memberi salam dengan suara ceria."
   },
   {
    "id": "bc-322",
@@ -6564,7 +8368,9 @@
    ],
    "rb": [
     "明確|めいかく"
-   ]
+   ],
+   "contoh": "{指示|しじ}を{明確|めいかく}にする。",
+   "arti_contoh": "Memperjelas instruksi."
   },
   {
    "id": "bc-323",
@@ -6624,7 +8430,9 @@
    ],
    "rb": [
     "求|もと"
-   ]
+   ],
+   "contoh": "{上司|じょうし}に{指示|しじ}を{求|もと}める。",
+   "arti_contoh": "Meminta instruksi dari atasan."
   },
   {
    "id": "bc-326",
@@ -6639,7 +8447,9 @@
    ],
    "rb": [
     "点|てん"
-   ]
+   ],
+   "contoh": "{歩行動線|ほこうどうせん}を{重点的|じゅうてんてき}に",
+   "arti_contoh": "Pusatkan di jalur lalu lalang"
   },
   {
    "id": "bc-327",
@@ -6654,7 +8464,9 @@
    ],
    "rb": [
     "理解|りかい"
-   ]
+   ],
+   "contoh": "{作業|さぎょう}の{方法|ほうほう}を{理解|りかい}する。",
+   "arti_contoh": "Memahami cara kerja."
   },
   {
    "id": "bc-328",
@@ -6705,7 +8517,9 @@
    ],
    "rb": [
     "立場|たちば"
-   ]
+   ],
+   "contoh": "{相手|あいて}の{立場|たちば}で{考|かんが}える。",
+   "arti_contoh": "Berpikir dari sudut pandang lawan bicara."
   },
   {
    "id": "bc-331",
@@ -6720,7 +8534,9 @@
    ],
    "rb": [
     "笑顔|えがお"
-   ]
+   ],
+   "contoh": "{笑顔|えがお}であいさつをする。",
+   "arti_contoh": "Memberi salam dengan senyum."
   },
   {
    "id": "bc-332",
@@ -6735,7 +8551,9 @@
    ],
    "rb": [
     "築|きず"
-   ]
+   ],
+   "contoh": "よい{人間関係|にんげんかんけい}を{築|きず}く。",
+   "arti_contoh": "Membangun hubungan yang baik."
   },
   {
    "id": "bc-333",
@@ -6788,7 +8606,9 @@
    ],
    "rb": [
     "経験年数|けいけんねんすう"
-   ]
+   ],
+   "contoh": "{経験年数|けいけんねんすう}に{関係|かんけい}なく、{基本|きほん}を{守|まも}る。",
+   "arti_contoh": "Menaati dasar-dasar terlepas dari lamanya pengalaman."
   },
   {
    "id": "bc-336",
@@ -6823,7 +8643,9 @@
    ],
    "rb": [
     "聞|き"
-   ]
+   ],
+   "contoh": "{新聞紙|しんぶんし}や{本|ほん}はビニールに{入|い}れずにそのまま{回収|かいしゅう}しよう。",
+   "arti_contoh": "Jangan masukkan koran dan buku ke plastik sampah, langsung kumpulkan begitu saja."
   },
   {
    "id": "bc-338",
@@ -6857,7 +8679,9 @@
    ],
    "rb": [
     "良好|りょうこう"
-   ]
+   ],
+   "contoh": "{良好|りょうこう}な{人間関係|にんげんかんけい}が{大切|たいせつ}です。",
+   "arti_contoh": "Hubungan yang baik itu penting."
   },
   {
    "id": "bc-340",
@@ -6889,7 +8713,9 @@
    ],
    "rb": [
     "話|はなし"
-   ]
+   ],
+   "contoh": "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+   "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
   },
   {
    "id": "bc-342",
@@ -6939,7 +8765,9 @@
    ],
    "rb": [
     "質|しつ"
-   ]
+   ],
+   "contoh": "**{木質床材|もくしつゆかざい}：**フローリング、コルク",
+   "arti_contoh": "Lantai kayu: flooring, cork."
   },
   {
    "id": "bc-345",
@@ -6954,7 +8782,9 @@
    ],
    "rb": [
     "身近|みぢか"
-   ]
+   ],
+   "contoh": "{身近|みぢか}な{人|ひと}にもあいさつをする。",
+   "arti_contoh": "Memberi salam juga pada orang di sekitar."
   },
   {
    "id": "bc-346",
@@ -7020,7 +8850,9 @@
    ],
    "rb": [
     "開始時刻|かいしじこく"
-   ]
+   ],
+   "contoh": "{作業|さぎょう}の{開始時刻|かいしじこく}を{守|まも}る。",
+   "arti_contoh": "Menaati jam mulai kerja."
   },
   {
    "id": "bc-349",
@@ -7035,7 +8867,9 @@
    ],
    "rb": [
     "関係|かんけい"
-   ]
+   ],
+   "contoh": "{職場|しょくば}の{人間関係|にんげんかんけい}",
+   "arti_contoh": "Hubungan rekan kerja di tempat kerja"
   },
   {
    "id": "bc-350",
@@ -7194,7 +9028,9 @@
    ],
    "rb": [
     "搬入|はんにゅう"
-   ]
+   ],
+   "contoh": "{資器材|しきざい}の{搬入|はんにゅう}",
+   "arti_contoh": "Membawa perlengkapan"
   },
   {
    "id": "bc-359",
@@ -7561,7 +9397,9 @@
    ],
    "rb": [
     "急|いそ"
-   ]
+   ],
+   "contoh": "{急|いそ}いでいても、{走|はし}らない。",
+   "arti_contoh": "Meski terburu-buru, jangan berlari."
   },
   {
    "id": "bc-378",
@@ -7758,7 +9596,9 @@
    ],
    "rb": [
     "表示|ひょうじ"
-   ]
+   ],
+   "contoh": "{作業中|さぎょうちゅう}の{表示|ひょうじ}を{出|で}す。",
+   "arti_contoh": "Memasang tanda sedang bekerja."
   },
   {
    "id": "bc-388",
@@ -7865,7 +9705,9 @@
    ],
    "rb": [
     "与|あた"
-   ]
+   ],
+   "contoh": "{お客様|おきゃくさま}に{不安|ふあん}を{与|あた}えない。",
+   "arti_contoh": "Jangan membuat tamu merasa cemas."
   },
   {
    "id": "bc-394",
@@ -7952,7 +9794,9 @@
    ],
    "rb": [
     "存在|そんざい"
-   ]
+   ],
+   "contoh": "あいさつは{自分|じぶん}の{存在|そんざい}を{知|し}らせる。",
+   "arti_contoh": "Salam memberi tahu keberadaan diri."
   },
   {
    "id": "bc-399",
@@ -8462,7 +10306,9 @@
    ],
    "rb": [
     "保管方法|ほかんほうほう"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}の{保管方法|ほかんほうほう}を{守|まも}る。",
+   "arti_contoh": "Menaati cara penyimpanan deterjen."
   },
   {
    "id": "bc-427",
@@ -8995,7 +10841,9 @@
    ],
    "rb": [
     "直角|ちょっかく"
-   ]
+   ],
+   "contoh": "{文化|ぶんか}ちりとりを{持|も}ち{上|あ}げるとゴミが{残|のこ}っているので、ゴミがなくなるまで{繰|く}り{返|かえ}し{回収|かいしゅう}しよう（{直角|ちょっかく}に{向|む}ける）。",
+   "arti_contoh": "Jika pengki diangkat, sampahnya akan tersisa. Ulangi gerakan barusan sampai sampahnya tidak tersisa (arahkan sapu ke bagian kanan / tegak lurus)."
   },
   {
    "id": "bc-454",
@@ -9255,7 +11103,9 @@
    ],
    "rb": [
     "仕方|しかた"
-   ]
+   ],
+   "contoh": "{使|つか}い{方|かた}と{洗|あら}い{方|かた}の{仕方|しかた}を{覚|おぼ}える。",
+   "arti_contoh": "Menghafal cara pakai dan cara mencuci."
   },
   {
    "id": "bc-468",
@@ -9583,7 +11433,9 @@
    ],
    "rb": [
     "構成|こうせい"
-   ]
+   ],
+   "contoh": "{機械|きかい}の{構成|こうせい}を{確認|かくにん}する。",
+   "arti_contoh": "Memeriksa susunan mesin."
   },
   {
    "id": "bc-485",
@@ -9946,7 +11798,9 @@
    ],
    "rb": [
     "効率的|こうりつてき"
-   ]
+   ],
+   "contoh": "{効率的|こうりつてき}な{順番|じゅんばん}で{掃除|そうじ}する。",
+   "arti_contoh": "Membersihkan dengan urutan yang efisien."
   },
   {
    "id": "bc-504",
@@ -10336,7 +12190,9 @@
    ],
    "rb": [
     "重要|じゅうよう"
-   ]
+   ],
+   "contoh": "{安全|あんぜん}の{確認|かくにん}は{重要|じゅうよう}です。",
+   "arti_contoh": "Memeriksa keselamatan itu penting."
   },
   {
    "id": "bc-525",
@@ -10391,7 +12247,7 @@
    "rb": [
     "伸|の"
    ],
-   "contoh": "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}等の{原因|げんいん}になる。",
+   "contoh": "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}{等|など}の{原因|げんいん}になる。",
    "arti_contoh": ""
   },
   {
@@ -10428,7 +12284,7 @@
    "rb": [
     "切|き"
    ],
-   "contoh": "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}等の{原因|げんいん}になる。",
+   "contoh": "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}{等|など}の{原因|げんいん}になる。",
    "arti_contoh": ""
   },
   {
@@ -10483,7 +12339,7 @@
    "rb": [
     "原因|げんいん"
    ],
-   "contoh": "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}等の{原因|げんいん}になる。",
+   "contoh": "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}{等|など}の{原因|げんいん}になる。",
    "arti_contoh": ""
   },
   {
@@ -10499,7 +12355,9 @@
    ],
    "rb": [
     "各型|かくがた"
-   ]
+   ],
+   "contoh": "{各型|かくがた}の{掃除機|そうじき}を{使|つか}い{分|わ}ける。",
+   "arti_contoh": "Memakai berbagai tipe penyedot debu sesuai kebutuhan."
   },
   {
    "id": "bc-534",
@@ -10514,7 +12372,9 @@
    ],
    "rb": [
     "各部|かくぶ"
-   ]
+   ],
+   "contoh": "ポッド{型|がた}の{各部|かくぶ}",
+   "arti_contoh": "Bagian Tipe Pod"
   },
   {
    "id": "bc-535",
@@ -10868,7 +12728,9 @@
    ],
    "rb": [
     "破損|はそん"
-   ]
+   ],
+   "contoh": "コードの{破損|はそん}を{点検|てんけん}する。",
+   "arti_contoh": "Memeriksa kerusakan kabel."
   },
   {
    "id": "bc-555",
@@ -10939,7 +12801,9 @@
    ],
    "rb": [
     "裂|さ"
-   ]
+   ],
+   "contoh": "ホースが{裂|さ}けていないか{確認|かくにん}する。",
+   "arti_contoh": "Periksa apakah selang tidak sobek."
   },
   {
    "id": "bc-559",
@@ -11095,7 +12959,9 @@
    ],
    "rb": [
     "重点|じゅうてん"
-   ]
+   ],
+   "contoh": "{歩行動線|ほこうどうせん}を{重点的|じゅうてんてき}に",
+   "arti_contoh": "Pusatkan di jalur lalu lalang"
   },
   {
    "id": "bc-568",
@@ -11161,7 +13027,9 @@
    ],
    "rb": [
     "使用場所|しようばしょ"
-   ]
+   ],
+   "contoh": "{使用場所|しようばしょ}に{合|あ}った{洗剤|せんざい}を{選|えら}ぶ。",
+   "arti_contoh": "Memilih deterjen sesuai tempat pemakaian."
   },
   {
    "id": "bc-572",
@@ -11321,7 +13189,9 @@
    ],
    "rb": [
     "緑|みどり"
-   ]
+   ],
+   "contoh": "{緑|みどり}のパッドを{使|つか}う。",
+   "arti_contoh": "Memakai pad berwarna hijau."
   },
   {
    "id": "bc-581",
@@ -11370,7 +13240,9 @@
    ],
    "rb": [
     "青|あお"
-   ]
+   ],
+   "contoh": "{青|あお}いパッドは{軽|かる}い{汚|よご}れ{用|よう}です。",
+   "arti_contoh": "Pad biru untuk kotoran ringan."
   },
   {
    "id": "bc-584",
@@ -11385,7 +13257,9 @@
    ],
    "rb": [
     "黄色|きいろ"
-   ]
+   ],
+   "contoh": "{黄色|きいろ}の{表示|ひょうじ}に{注意|ちゅうい}する。",
+   "arti_contoh": "Memperhatikan tanda kuning."
   },
   {
    "id": "bc-585",
@@ -11761,7 +13635,9 @@
    ],
    "rb": [
     "不足|ふそく"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}が{不足|ふそく}していないか{確認|かくにん}する。",
+   "arti_contoh": "Memeriksa apakah deterjen tidak kurang."
   },
   {
    "id": "bc-606",
@@ -11844,7 +13720,9 @@
    ],
    "rb": [
     "減|へ"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}の{量|りょう}が{減|へ}ったら{補充|ほじゅう}する。",
+   "arti_contoh": "Kalau jumlah deterjen berkurang, isi ulang."
   },
   {
    "id": "bc-611",
@@ -11927,7 +13805,8 @@
     "b2s13",
     "b2s14",
     "b2s15",
-    "b3s10"
+    "b3s10",
+    "b2s7"
    ],
    "rb": [
     "一度|いちど",
@@ -12076,7 +13955,9 @@
    ],
    "rb": [
     "立面|りつめん"
-   ]
+   ],
+   "contoh": "{立面|りつめん}の{汚|よご}れは{上|うえ}から{下|した}へ{拭|ふ}く。",
+   "arti_contoh": "Kotoran pada permukaan tegak dilap dari atas ke bawah."
   },
   {
    "id": "bc-624",
@@ -12110,7 +13991,9 @@
    ],
    "rb": [
     "鏡|かがみ"
-   ]
+   ],
+   "contoh": "{鏡|かがみ}をきれいに{拭|ふ}く。",
+   "arti_contoh": "Mengelap cermin sampai bersih."
   },
   {
    "id": "bc-626",
@@ -12393,7 +14276,9 @@
    ],
    "rb": [
     "手摺|てすり"
-   ]
+   ],
+   "contoh": "{手摺|てすり}は{多|おお}くの{人|ひと}が{触|ふ}る。",
+   "arti_contoh": "Pegangan tangga disentuh banyak orang."
   },
   {
    "id": "bc-642",
@@ -12761,7 +14646,9 @@
    ],
    "rb": [
     "表面|ひょうめん"
-   ]
+   ],
+   "contoh": "**{弱|じゃく}アルカリ{性|せい}（pH 8）：**{表面洗浄剤|ひょうめんせんじょうざい}、{一般住宅用洗剤|いっぱんじゅうたくようせんざい}、アルカリ{性|せい}トイレクリーナー。",
+   "arti_contoh": "Tipe alkali rendah (pH 8): karbol untuk permukaan lantai, karbol umum di pasaran, pembersih toilet tipe alkali."
   },
   {
    "id": "bc-663",
@@ -12794,7 +14681,9 @@
    ],
    "rb": [
     "類|るい"
-   ]
+   ],
+   "contoh": "{掃除機|そうじき}の4{種類|しゅるい}",
+   "arti_contoh": "4 jenis penyedot debu"
   },
   {
    "id": "bc-665",
@@ -13106,7 +14995,9 @@
    ],
    "rb": [
     "付着|ふちゃく"
-   ]
+   ],
+   "contoh": "{汚|よご}れが{付着|ふちゃく}している。",
+   "arti_contoh": "Kotoran menempel."
   },
   {
    "id": "bc-683",
@@ -13275,7 +15166,9 @@
    ],
    "rb": [
     "目的|もくてき"
-   ]
+   ],
+   "contoh": "{清掃|せいそう}の{目的|もくてき}を{理解|りかい}する。",
+   "arti_contoh": "Memahami tujuan pembersihan."
   },
   {
    "id": "bc-693",
@@ -13341,7 +15234,9 @@
    ],
    "rb": [
     "雑菌|ざっきん"
-   ]
+   ],
+   "contoh": "{雑菌|ざっきん}が{増|ふ}えないように、こまめに{拭|ふ}く。",
+   "arti_contoh": "Mengelap sering agar kuman tidak berkembang."
   },
   {
    "id": "bc-697",
@@ -13356,7 +15251,9 @@
    ],
    "rb": [
     "一人一人|ひとりひとり"
-   ]
+   ],
+   "contoh": "{一人一人|ひとりひとり}がルールを{守|まも}る。",
+   "arti_contoh": "Setiap orang menaati aturan."
   },
   {
    "id": "bc-698",
@@ -13368,7 +15265,8 @@
    "bab": "bab2",
    "src": [
     "b2s19",
-    "b3s7"
+    "b3s7",
+    "b2s7"
    ],
    "rb": [
     "一番|いちばん",
@@ -13424,7 +15322,9 @@
    ],
    "rb": [
     "仕事中|しごとちゅう"
-   ]
+   ],
+   "contoh": "{仕事中|しごとちゅう}は{携帯電話|けいたいでんわ}を{使|つか}わない。",
+   "arti_contoh": "Tidak memakai HP saat bekerja."
   },
   {
    "id": "bc-702",
@@ -13439,7 +15339,9 @@
    ],
    "rb": [
     "会社|がいしゃ"
-   ]
+   ],
+   "contoh": "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+   "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
   },
   {
    "id": "bc-703",
@@ -13471,7 +15373,9 @@
    ],
    "rb": [
     "使用前後|しようぜんご"
-   ]
+   ],
+   "contoh": "{使用前後|しようぜんご}に{道具|どうぐ}を{点検|てんけん}する。",
+   "arti_contoh": "Memeriksa peralatan sebelum dan sesudah dipakai."
   },
   {
    "id": "bc-705",
@@ -13486,7 +15390,9 @@
    ],
    "rb": [
     "使用済|しようず"
-   ]
+   ],
+   "contoh": "{使用済|しようず}のタオルは{分|わ}けて{洗|あら}う。",
+   "arti_contoh": "Lap yang sudah dipakai dicuci terpisah."
   },
   {
    "id": "bc-706",
@@ -13535,7 +15441,9 @@
    ],
    "rb": [
     "労働安全衛生|ろうどうあんぜんえいせい"
-   ]
+   ],
+   "contoh": "{労働安全衛生|ろうどうあんぜんえいせい}のルールを{守|まも}る。",
+   "arti_contoh": "Menaati aturan keselamatan dan kesehatan kerja."
   },
   {
    "id": "bc-709",
@@ -13567,7 +15475,9 @@
    ],
    "rb": [
     "労働者|ろうどうしゃ"
-   ]
+   ],
+   "contoh": "{労働者|ろうどうしゃ}は{安全|あんぜん}に{働|はたら}く{権利|けんり}がある。",
+   "arti_contoh": "Pekerja berhak bekerja dengan aman."
   },
   {
    "id": "bc-711",
@@ -13635,7 +15545,9 @@
    ],
    "rb": [
     "在宅医療用|ざいたくいりょうよう"
-   ]
+   ],
+   "contoh": "{在宅医療用|ざいたくいりょうよう}の{注射針|ちゅうしゃばり}は、{一般|いっぱん}の{ごみ箱|ごみばこ}に{入|はい}れない。",
+   "arti_contoh": "Jarum suntik untuk perawatan di rumah tidak dibuang ke tempat sampah biasa."
   },
   {
    "id": "bc-715",
@@ -13684,7 +15596,9 @@
    ],
    "rb": [
     "家族|かぞく"
-   ]
+   ],
+   "contoh": "{家族|かぞく}に{連絡|れんらく}する。",
+   "arti_contoh": "Mengabari keluarga."
   },
   {
    "id": "bc-718",
@@ -13699,7 +15613,9 @@
    ],
    "rb": [
     "就職|しゅうしょく"
-   ]
+   ],
+   "contoh": "{日本|にほん}の{会社|かいしゃ}に{就職|しゅうしょく}する。",
+   "arti_contoh": "Bekerja di perusahaan Jepang."
   },
   {
    "id": "bc-719",
@@ -13731,7 +15647,9 @@
    ],
    "rb": [
     "従業者|じゅうぎょうしゃ"
-   ]
+   ],
+   "contoh": "{従業者|じゅうぎょうしゃ}はルールを{守|まも}る。",
+   "arti_contoh": "Karyawan menaati aturan."
   },
   {
    "id": "bc-721",
@@ -13746,7 +15664,9 @@
    ],
    "rb": [
     "心配|しんぱい"
-   ]
+   ],
+   "contoh": "{お客様|おきゃくさま}に{心配|しんぱい}をかけない。",
+   "arti_contoh": "Jangan membuat tamu khawatir."
   },
   {
    "id": "bc-722",
@@ -13905,7 +15825,9 @@
    ],
    "rb": [
     "活動|かつどう"
-   ]
+   ],
+   "contoh": "{清掃|せいそう}{活動|かつどう}に{参加|さんか}する。",
+   "arti_contoh": "Ikut kegiatan pembersihan."
   },
   {
    "id": "bc-731",
@@ -13937,7 +15859,9 @@
    ],
    "rb": [
     "混合禁止|こんごうきんし"
-   ]
+   ],
+   "contoh": "{混|ま}ぜるな{危険|きけん}。{混合禁止|こんごうきんし}の{洗剤|せんざい}がある。",
+   "arti_contoh": "Ada deterjen yang dilarang dicampur (berbahaya)."
   },
   {
    "id": "bc-733",
@@ -14003,7 +15927,9 @@
    ],
    "rb": [
     "病院以外|びょういんいがい"
-   ]
+   ],
+   "contoh": "{病院以外|びょういんいがい}の{ごみ箱|ごみばこ}にも{注意|ちゅうい}する。",
+   "arti_contoh": "Waspada juga pada tempat sampah selain di rumah sakit."
   },
   {
    "id": "bc-737",
@@ -14035,7 +15961,9 @@
    ],
    "rb": [
     "知事登録|ちじとうろく"
-   ]
+   ],
+   "contoh": "{知事登録|ちじとうろく}をした{会社|かいしゃ}に{頼|たよ}む。",
+   "arti_contoh": "Meminta perusahaan yang terdaftar di gubernur."
   },
   {
    "id": "bc-739",
@@ -14050,7 +15978,9 @@
    ],
    "rb": [
     "積極的|せっきょくてき"
-   ]
+   ],
+   "contoh": "{積極的|せっきょくてき}にあいさつをする。",
+   "arti_contoh": "Aktif memberi salam."
   },
   {
    "id": "bc-740",
@@ -14116,7 +16046,9 @@
    ],
    "rb": [
     "自然|しぜん"
-   ]
+   ],
+   "contoh": "{自然|しぜん}に{乾|かわ}くまで{待|ま}つ。",
+   "arti_contoh": "Menunggu sampai kering secara alami."
   },
   {
    "id": "bc-744",
@@ -14131,7 +16063,9 @@
    ],
    "rb": [
     "自身|じしん"
-   ]
+   ],
+   "contoh": "{自身|じしん}の{健康|けんこう}を{守|まも}る。",
+   "arti_contoh": "Menjaga kesehatan diri sendiri."
   },
   {
    "id": "bc-745",
@@ -14163,7 +16097,9 @@
    ],
    "rb": [
     "話|はな"
-   ]
+   ],
+   "contoh": "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+   "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
   },
   {
    "id": "bc-747",
@@ -14229,7 +16165,9 @@
    ],
    "rb": [
     "防|ふせ"
-   ]
+   ],
+   "contoh": "{予防策|よぼうさく}の{知識|ちしき}",
+   "arti_contoh": "Pengetahuan mengenai tindakan pencegahan"
   },
   {
    "id": "bc-751",
@@ -14244,7 +16182,9 @@
    ],
    "rb": [
     "電気機械|でんききかい"
-   ]
+   ],
+   "contoh": "{電気機械|でんききかい}は{水|みず}に{弱|じゃく}い。",
+   "arti_contoh": "Mesin listrik rentan terhadap air."
   },
   {
    "id": "bc-752",
@@ -14584,7 +16524,9 @@
    ],
    "rb": [
     "分解|ぶんかい"
-   ]
+   ],
+   "contoh": "{機械|きかい}を{勝手|かって}に{分解|ぶんかい}しない。",
+   "arti_contoh": "Jangan membongkar mesin seenaknya."
   },
   {
    "id": "bc-772",
@@ -14616,7 +16558,9 @@
    ],
    "rb": [
     "剤|ざい"
-   ]
+   ],
+   "contoh": "③ {液性|えきせい}による{洗剤|せんざい}の{用途|ようと}（pH）",
+   "arti_contoh": "③ Penggunaan karbol cair (skala pH)"
   },
   {
    "id": "bc-774",
@@ -14631,7 +16575,9 @@
    ],
    "rb": [
     "塩素系漂白剤|えんそけいひょうはくざい"
-   ]
+   ],
+   "contoh": "{塩素系漂白剤|えんそけいひょうはくざい}は、{酸性|さんせい}の{洗剤|せんざい}と{混|ま}ぜない。",
+   "arti_contoh": "Pemutih klorin tidak dicampur dengan deterjen asam."
   },
   {
    "id": "bc-775",
@@ -14731,7 +16677,9 @@
    ],
    "rb": [
     "換気扇用洗剤|かんきせんようせんざい"
-   ]
+   ],
+   "contoh": "{換気扇用洗剤|かんきせんようせんざい}を{使|つか}う。",
+   "arti_contoh": "Memakai deterjen khusus kipas penyedot udara."
   },
   {
    "id": "bc-781",
@@ -14797,7 +16745,9 @@
    ],
    "rb": [
     "疎水基|そすいき"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}の{疎水基|そすいき}は{油|あぶら}になじむ。",
+   "arti_contoh": "Gugus hidrofobik deterjen menyatu dengan minyak."
   },
   {
    "id": "bc-785",
@@ -14880,7 +16830,9 @@
    ],
    "rb": [
     "親水基|しんすいき"
-   ]
+   ],
+   "contoh": "{親水基|しんすいき}は{水|みず}になじむ。",
+   "arti_contoh": "Gugus hidrofilik menyatu dengan air."
   },
   {
    "id": "bc-790",
@@ -15033,7 +16985,7 @@
    "rb": [
     "塗布|とふ"
    ],
-   "contoh": "{床材|ゆかざい}等を{汚|よご}れから{守|まも}りキレイを{維持|いじ}するために{床維持材|ゆかいじざい}を{塗布|とふ}するなど{予防策|よぼうさく}も{必要|ひつよう}なんだよ。",
+   "contoh": "{床材|ゆかざい}{等|など}を{汚|よご}れから{守|まも}りキレイを{維持|いじ}するために{床維持材|ゆかいじざい}を{塗布|とふ}するなど{予防策|よぼうさく}も{必要|ひつよう}なんだよ。",
    "arti_contoh": ""
   },
   {
@@ -15068,7 +17020,7 @@
    "rb": [
     "床維持材|ゆかいじざい"
    ],
-   "contoh": "{床材|ゆかざい}等を{汚|よご}れから{守|まも}りキレイを{維持|いじ}するために{床維持材|ゆかいじざい}を{塗布|とふ}するなど{予防策|よぼうさく}も{必要|ひつよう}なんだよ。",
+   "contoh": "{床材|ゆかざい}{等|など}を{汚|よご}れから{守|まも}りキレイを{維持|いじ}するために{床維持材|ゆかいじざい}を{塗布|とふ}するなど{予防策|よぼうさく}も{必要|ひつよう}なんだよ。",
    "arti_contoh": ""
   },
   {
@@ -15135,7 +17087,9 @@
    ],
    "rb": [
     "凸凹|でこぼこ"
-   ]
+   ],
+   "contoh": "パッド{台|だい}にフロアパッドを{付|つ}けてポリッシャーへ{装着|そうちゃく}（{圧着|あっちゃく}、{凸凹|でこぼこ}を{合|あ}わせる、パッドを{回転|かいてん}させて{固定|こてい}する）。",
+   "arti_contoh": "Pasangkan alas pad ke Floor Pad (tempel), sesuaikan ketidakrataannya, lalu pasang ke polisher: putar pad dan kunci."
   },
   {
    "id": "bc-805",
@@ -15204,7 +17158,9 @@
    ],
    "rb": [
     "圧着|あっちゃく"
-   ]
+   ],
+   "contoh": "パッド{台|だい}にフロアパッドを{付|つ}けてポリッシャーへ{装着|そうちゃく}（{圧着|あっちゃく}、{凸凹|でこぼこ}を{合|あ}わせる、パッドを{回転|かいてん}させて{固定|こてい}する）。",
+   "arti_contoh": "Pasangkan alas pad ke Floor Pad (tempel), sesuaikan ketidakrataannya, lalu pasang ke polisher: putar pad dan kunci."
   },
   {
    "id": "bc-809",
@@ -15256,7 +17212,9 @@
    ],
    "rb": [
     "床維持剤塗布|ゆかいじざいとふ"
-   ]
+   ],
+   "contoh": "{床維持剤塗布|ゆかいじざいとふ}のあとは、よく{乾|かわ}かす。",
+   "arti_contoh": "Setelah pelapisan wax lantai, keringkan dengan baik."
   },
   {
    "id": "bc-812",
@@ -15617,7 +17575,9 @@
    ],
    "rb": [
     "作業範囲|さぎょうはんい"
-   ]
+   ],
+   "contoh": "{作業範囲|さぎょうはんい}を{分|わ}けて{進|すす}める。",
+   "arti_contoh": "Membagi area kerja lalu mengerjakannya."
   },
   {
    "id": "bc-833",
@@ -15650,7 +17610,9 @@
    ],
    "rb": [
     "分割|ぶんかつ"
-   ]
+   ],
+   "contoh": "{作業範囲|さぎょうはんい}を{分割|ぶんかつ}する。",
+   "arti_contoh": "Membagi area kerja."
   },
   {
    "id": "bc-835",
@@ -15682,7 +17644,9 @@
    ],
    "rb": [
     "回|まわ"
-   ]
+   ],
+   "contoh": "はじめは{外周|がいしゅう}に{洗剤|せんざい}をまきながら{反時計回|はんとけいまわ}りに{清掃|せいそう}しよう。",
+   "arti_contoh": "Pertama, tebarkan karbol pada sisi luar dan bersihkan berlawanan arah jarum jam."
   },
   {
    "id": "bc-837",
@@ -15714,7 +17678,9 @@
    ],
    "rb": [
     "壁|かべ"
-   ]
+   ],
+   "contoh": "{幅木|はばき}や{家具|かぐ}にぶつけないように{注意|ちゅうい}！{壁際|かべぎわ}は{右|みぎ}から{左|ひだり}へ{移動|いどう}すると{壁|かべ}や{幅木|はばき}を{汚|よご}さない（{汚|よご}れが{内側|うちがわ}へ{入|はい}り{込|こ}む）。",
+   "arti_contoh": "Jangan sampai menabrak plint dinding dan perabotan; jangan mengotori plint dinding dan tembok saat menggerakkan kepala pel (di dekat dinding bergerak dari kanan ke kiri; kotoran masuk ke dalam)."
   },
   {
    "id": "bc-839",
@@ -15833,7 +17799,9 @@
    ],
    "rb": [
     "二又部分|ふたまたぶぶん"
-   ]
+   ],
+   "contoh": "{二又部分|ふたまたぶぶん}に{注意|ちゅうい}する。",
+   "arti_contoh": "Perhatikan bagian bercabang dua."
   },
   {
    "id": "bc-846",
@@ -15948,7 +17916,8 @@
    "cat": "Istilah materi",
    "bab": "bab3",
    "src": [
-    "b3s10"
+    "b3s10",
+    "b2s7"
    ],
    "rb": [
     "一回|いっかい",
@@ -15970,7 +17939,9 @@
    ],
    "rb": [
     "一気|いっき"
-   ]
+   ],
+   "contoh": "{一気|いっき}に{引|ひ}き{降|お}ろす。",
+   "arti_contoh": "Menarik ke bawah sekaligus."
   },
   {
    "id": "bc-854",
@@ -16070,7 +18041,9 @@
    ],
    "rb": [
     "降|お"
-   ]
+   ],
+   "contoh": "スクイジーを{下|した}に{降|お}ろす。",
+   "arti_contoh": "Menurunkan squeegee ke bawah."
   },
   {
    "id": "bc-860",
@@ -16085,7 +18058,9 @@
    ],
    "rb": [
     "一緒|いっしょ"
-   ]
+   ],
+   "contoh": "みんなで{一緒|いっしょ}に{頑張|がんば}る。",
+   "arti_contoh": "Berjuang bersama-sama."
   },
   {
    "id": "bc-861",
@@ -16119,7 +18094,9 @@
    ],
    "rb": [
     "環境|かんきょう"
-   ]
+   ],
+   "contoh": "きれいな{環境|かんきょう}をつくる。",
+   "arti_contoh": "Menciptakan lingkungan yang bersih."
   },
   {
    "id": "bc-863",
@@ -16134,7 +18111,9 @@
    ],
    "rb": [
     "私|わたし"
-   ]
+   ],
+   "contoh": "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+   "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
   },
   {
    "id": "bc-864",
@@ -16168,7 +18147,9 @@
    ],
    "rb": [
     "頑張|がんば"
-   ]
+   ],
+   "contoh": "{今日|きょう}も{頑張|がんば}る。",
+   "arti_contoh": "Berjuang hari ini juga."
   },
   {
    "id": "bc-866",
@@ -16286,7 +18267,9 @@
    ],
    "rb": [
     "真空掃除機|しんくうそうじき"
-   ]
+   ],
+   "contoh": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}、{真空掃除機|しんくうそうじき}（ポッド{型|がた}・アップライト{型|がた}）、ハンディバキューム、ウエットバキューム。",
+   "arti_contoh": "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet."
   },
   {
    "id": "bc-873",
@@ -16399,7 +18382,9 @@
    "bab": "bab1",
    "src": [
     "b1s8"
-   ]
+   ],
+   "contoh": "{特定技能評価試験|とくていぎのうひょうかしけん}：{日本|にほん}ビルメンテナンス{協会|きょうかい}（JBMA）",
+   "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)"
   },
   {
    "id": "bc-880",
@@ -16412,7 +18397,7 @@
    "src": [
     "b1s7"
    ],
-   "contoh": "ビルはとても綺麗です",
+   "contoh": "ビルはとても{綺麗|きれい}です",
    "arti_contoh": "Gedungnya sangat bersih."
   },
   {
@@ -16489,7 +18474,9 @@
    "src": [
     "b2s11",
     "b2s5"
-   ]
+   ],
+   "contoh": "ほこり{取|と}り、モップ（{赤|あか}）、{自在|じざい}ぼうき、{文化|ぶんか}ちりとり、バケツ、{養生|ようじょう}マット。",
+   "arti_contoh": "Kemoceng; lap (merah); sapu ruangan; pengki (serokan); ember; curing mat."
   },
   {
    "id": "bc-886",
@@ -16518,7 +18505,9 @@
    "src": [
     "b2s3",
     "b3s2"
-   ]
+   ],
+   "contoh": "**{感染性|かんせんせい}の{汚|よご}れ：**カビ、ダニなど。",
+   "arti_contoh": "Kotoran yang dapat menularkan penyakit: jamur, kutu, dan lainnya."
   },
   {
    "id": "bc-888",
@@ -16531,7 +18520,9 @@
    "src": [
     "b2s3",
     "b2s18"
-   ]
+   ],
+   "contoh": "{肉眼|にくがん}で{見|み}えない{汚|よご}れは{肺|はい}に{入|はい}り{込|こ}む：ウイルス・{細菌|さいきん}・カビ",
+   "arti_contoh": "Kotoran yang tidak terlihat akan masuk ke paru-paru: virus, bakteri, jamur."
   },
   {
    "id": "bc-889",
@@ -16544,7 +18535,9 @@
    "src": [
     "b3s2",
     "b3s3"
-   ]
+   ],
+   "contoh": "**その{他|ほか}：**サビ、{日焼|ひや}けなど。",
+   "arti_contoh": "Lainnya: karat, bekas terbakar matahari, dan lainnya."
   },
   {
    "id": "bc-890",
@@ -16557,7 +18550,9 @@
    "src": [
     "b3s1",
     "b2s5"
-   ]
+   ],
+   "contoh": "**{弾性床材|だんせいゆかざい}：**ビニル{系|けい}、リノリウム{系|けい}、ゴム{系|けい}",
+   "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
   },
   {
    "id": "bc-891",
@@ -16584,7 +18579,9 @@
    "src": [
     "b3s1",
     "b2s5"
-   ]
+   ],
+   "contoh": "**{弾性床材|だんせいゆかざい}：**ビニル{系|けい}、リノリウム{系|けい}、ゴム{系|けい}",
+   "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
   },
   {
    "id": "bc-893",
@@ -16597,7 +18594,9 @@
    "src": [
     "b3s1",
     "b2s5"
-   ]
+   ],
+   "contoh": "**{木質床材|もくしつゆかざい}：**フローリング、コルク",
+   "arti_contoh": "Lantai kayu: flooring, cork."
   },
   {
    "id": "bc-894",
@@ -16609,7 +18608,9 @@
    "bab": "bab3",
    "src": [
     "b3s1"
-   ]
+   ],
+   "contoh": "**{硬性床材|こうせいゆかざい}：**{石材|せきざい}、{陶磁器|とうじき}、コンクリート",
+   "arti_contoh": "Lantai marmer (keras): batu, keramik, semen."
   },
   {
    "id": "bc-895",
@@ -16621,7 +18622,9 @@
    "bab": "bab3",
    "src": [
     "b3s1"
-   ]
+   ],
+   "contoh": "**{弾性床材|だんせいゆかざい}：**ビニル{系|けい}、リノリウム{系|けい}、ゴム{系|けい}",
+   "arti_contoh": "Lantai vinil: tipe plastik, tipe linoleum, tipe karet."
   },
   {
    "id": "bc-896",
@@ -16633,7 +18636,9 @@
    "bab": "bab3",
    "src": [
     "b3s1"
-   ]
+   ],
+   "contoh": "**{木質床材|もくしつゆかざい}：**フローリング、コルク",
+   "arti_contoh": "Lantai kayu: flooring, cork."
   },
   {
    "id": "bc-897",
@@ -16645,7 +18650,9 @@
    "bab": "bab3",
    "src": [
     "b3s1"
-   ]
+   ],
+   "contoh": "**カーペット{床材|ゆかざい}：**タイルカーペット、じゅうたん",
+   "arti_contoh": "Lantai karpet: karpet vinil, loop pile (tidak berbulu)."
   },
   {
    "id": "bc-898",
@@ -16658,7 +18665,9 @@
    "src": [
     "b2s4",
     "b3s1"
-   ]
+   ],
+   "contoh": "**カーペット{床材|ゆかざい}：**タイルカーペット、じゅうたん",
+   "arti_contoh": "Lantai karpet: karpet vinil, loop pile (tidak berbulu)."
   },
   {
    "id": "bc-899",
@@ -16671,7 +18680,9 @@
    "src": [
     "b2s8",
     "b3s2"
-   ]
+   ],
+   "contoh": "**カーペットの{床|ゆか}：**{染|し}み、パイル{内|ない}のホコリ。",
+   "arti_contoh": "Lantai karpet: noda, debu di celah karpet."
   },
   {
    "id": "bc-900",
@@ -16683,7 +18694,9 @@
    "bab": "bab3",
    "src": [
     "b3s2"
-   ]
+   ],
+   "contoh": "**{油溶性|ゆようせい}：**ヒールマーク、{皮脂|ひし}など。",
+   "arti_contoh": "Tipe minyak: bekas heal (sepatu), sebum, dan lainnya."
   },
   {
    "id": "bc-901",
@@ -16695,7 +18708,9 @@
    "bab": "bab3",
    "src": [
     "b3s2"
-   ]
+   ],
+   "contoh": "**オフィスの{床|ゆか}：**{髪|かみ}・ゴミ、ステープルの{芯|しん}・クリップなど。",
+   "arti_contoh": "Lantai kantor: rambut dan sampah, isi staples dan clip."
   },
   {
    "id": "bc-902",
@@ -16707,7 +18722,9 @@
    "bab": "bab3",
    "src": [
     "b3s2"
-   ]
+   ],
+   "contoh": "**オフィスの{床|ゆか}：**{髪|かみ}・ゴミ、ステープルの{芯|しん}・クリップなど。",
+   "arti_contoh": "Lantai kantor: rambut dan sampah, isi staples dan clip."
   },
   {
    "id": "bc-903",
@@ -16720,7 +18737,9 @@
    "src": [
     "b3s3",
     "b3s5"
-   ]
+   ],
+   "contoh": "{養生|ようじょう}マット、アルカリ{性洗剤|せいせんざい}、{樹脂|じゅし}ワックス、フロアサイン。",
+   "arti_contoh": "Curing mat, karbol tipe alkali, wax resin, Floor Sign."
   },
   {
    "id": "bc-904",
@@ -16732,7 +18751,9 @@
    "bab": "bab3",
    "src": [
     "b3s4"
-   ]
+   ],
+   "contoh": "**{樹脂|じゅし}ワックス：**ウレタン{系|けい}、アクリル{系|けい}。",
+   "arti_contoh": "Wax resin: tipe uretan dan tipe akrilik."
   },
   {
    "id": "bc-905",
@@ -16744,7 +18765,9 @@
    "bab": "bab3",
    "src": [
     "b3s4"
-   ]
+   ],
+   "contoh": "**{樹脂|じゅし}ワックス：**ウレタン{系|けい}、アクリル{系|けい}。",
+   "arti_contoh": "Wax resin: tipe uretan dan tipe akrilik."
   },
   {
    "id": "bc-906",
@@ -16756,7 +18779,9 @@
    "bab": "bab2",
    "src": [
     "b2s10"
-   ]
+   ],
+   "contoh": "{普通|ふつう}はタオルにガラスクリーナーをつけてから{拭|ふ}く。",
+   "arti_contoh": "Biasanya, semprotkan dulu pembersih kaca ke kain lap, lalu lap."
   },
   {
    "id": "bc-907",
@@ -16768,7 +18793,9 @@
    "bab": "bab3",
    "src": [
     "b3s3"
-   ]
+   ],
+   "contoh": "**{酸性|さんせい}（pH 0）：**{酸性|さんせい}トイレクリーナー、{鉄|てつ}サビ{落|お}とし。",
+   "arti_contoh": "Tipe asam (pH 0): pembersih toilet asam, pembersih karat besi."
   },
   {
    "id": "bc-908",
@@ -16780,7 +18807,9 @@
    "bab": "bab2",
    "src": [
     "b2s12"
-   ]
+   ],
+   "contoh": "ハンドソープを{補充|ほじゅう}する。",
+   "arti_contoh": "Mengisi ulang sabun tangan."
   },
   {
    "id": "bc-909",
@@ -16793,7 +18822,9 @@
    "src": [
     "b2s12",
     "b2s15"
-   ]
+   ],
+   "contoh": "トイレットペーパーを{補充|ほじゅう}する。",
+   "arti_contoh": "Mengisi ulang kertas toilet."
   },
   {
    "id": "bc-910",
@@ -16805,7 +18836,9 @@
    "bab": "bab2",
    "src": [
     "b2s15"
-   ]
+   ],
+   "contoh": "トイレットペーパーホルダーを{拭|ふ}く。",
+   "arti_contoh": "Mengelap tempat kertas toilet."
   },
   {
    "id": "bc-911",
@@ -16817,7 +18850,9 @@
    "bab": "bab2",
    "src": [
     "b2s10"
-   ]
+   ],
+   "contoh": "スプレーを{使|つか}わないとき",
+   "arti_contoh": "Jika tidak memakai spray"
   },
   {
    "id": "bc-912",
@@ -16829,7 +18864,9 @@
    "bab": "bab2",
    "src": [
     "b2s5"
-   ]
+   ],
+   "contoh": "スポンジで{洗|あら}う。",
+   "arti_contoh": "Mencuci dengan spons."
   },
   {
    "id": "bc-913",
@@ -16842,7 +18879,9 @@
    "src": [
     "b2s2",
     "b3s12"
-   ]
+   ],
+   "contoh": "{石材|せきざい}の{床|ゆか}＋{土砂|どしゃ} → {自在|じざい}ぼうきやデッキブラシ",
+   "arti_contoh": "Lantai berbahan batu + debu pasir (banyak kotoran debu pasir) → sapu dan Deck Brush."
   },
   {
    "id": "bc-914",
@@ -16854,7 +18893,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "ダストクロス{型|がた}モップ、{湿式|しっしき}モップ（ワンタッチモップ）、T{字型|じがた}モップ、{乾式|かんしき}モップ、フラット{型|がた}モップ。",
+   "arti_contoh": "Dust Cloth Tipe Pel; Pel Basah (sekali pakai); Pel Bentuk T; Pel Kering; Pel Bentuk Datar."
   },
   {
    "id": "bc-915",
@@ -16866,7 +18907,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}、{真空掃除機|しんくうそうじき}（ポッド{型|がた}・アップライト{型|がた}）、ハンディバキューム、ウエットバキューム。",
+   "arti_contoh": "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet."
   },
   {
    "id": "bc-916",
@@ -16878,7 +18921,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}、{真空掃除機|しんくうそうじき}（ポッド{型|がた}・アップライト{型|がた}）、ハンディバキューム、ウエットバキューム。",
+   "arti_contoh": "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet."
   },
   {
    "id": "bc-917",
@@ -16890,7 +18935,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "フロアパッド、ポリッシャー、{自動床洗浄機|じどうゆかせんじょうき}、エクストラクター、{高圧洗浄機|こうあつせんじょうき}。",
+   "arti_contoh": "Floor Pad; Polisher; Pembersih Lantai Otomatis; Extractor; Mesin Pembersih Bertekanan Tinggi."
   },
   {
    "id": "bc-918",
@@ -16902,7 +18949,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "{送風機|そうふうき}、ハンドパッド、{静電気|せいでんき}ほこり{取|と}り、{保護手袋|ほごてぶくろ}、スクレーパー。",
+   "arti_contoh": "Kipas Pengering; Hand Pad; Pembersih Debu Elektrik; Sarung Tangan Pelindung; Scraper."
   },
   {
    "id": "bc-919",
@@ -16914,7 +18963,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "{送風機|そうふうき}、ハンドパッド、{静電気|せいでんき}ほこり{取|と}り、{保護手袋|ほごてぶくろ}、スクレーパー。",
+   "arti_contoh": "Kipas Pengering; Hand Pad; Pembersih Debu Elektrik; Sarung Tangan Pelindung; Scraper."
   },
   {
    "id": "bc-920",
@@ -16926,7 +18977,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "{計量|けいりょう}カップ、プランジャー、{作業|さぎょう}カート、{廃棄物|はいきぶつ}コレクター、{手押|ておし}し{台車|だいしゃ}。",
+   "arti_contoh": "Gelas Pengukur; Alat Sedot WC; Keranjang Peralatan; Keranjang Limbah; Troli Dorong."
   },
   {
    "id": "bc-921",
@@ -16939,7 +18992,9 @@
    "src": [
     "b3s9",
     "b3s10"
-   ]
+   ],
+   "contoh": "{汚|よご}れの{除去|じょきょ}（スクイジー）",
+   "arti_contoh": "Menghilangkan kotoran (window cleaner / squeegee)."
   },
   {
    "id": "bc-922",
@@ -16952,7 +19007,9 @@
    "src": [
     "b3s12",
     "b3s5"
-   ]
+   ],
+   "contoh": "デッキブラシ、フロアスクイジー、{汚水取|おすいと}り、シャンパー、ウインドスクイジー。",
+   "arti_contoh": "Sikat Dek; alat penarik air lantai (squeegee); Pengki untuk air; window washer; window cleaner."
   },
   {
    "id": "bc-923",
@@ -16965,7 +19022,9 @@
    "src": [
     "b2s1",
     "b3s12"
-   ]
+   ],
+   "contoh": "{作業|さぎょう}カートから{離|はな}れるときは{歩行動線|ほこうどうせん}を{避|さ}けた{場所|ばしょ}に{置|お}く",
+   "arti_contoh": "Saat akan menaruh keranjang peralatan, jauhkan dari tempat orang lalu lalang (jalur lalu lalang)."
   },
   {
    "id": "bc-924",
@@ -16992,7 +19051,9 @@
    "bab": "bab2",
    "src": [
     "b2s15"
-   ]
+   ],
+   "contoh": "{温水洗浄便座|おんすいせんじょうべんざ}はノズルを{引|ひ}き{出|だ}して、{温水洗浄|おんすいせんじょう}スイッチを{汚|よご}さないようにタオルで{覆|おお}う。",
+   "arti_contoh": "Keluarkan nosel pipa bidet. Agar tombol bidet tidak kotor, tutup dengan lap."
   },
   {
    "id": "bc-926",
@@ -17004,7 +19065,9 @@
    "bab": "bab2",
    "src": [
     "b2s15"
-   ]
+   ],
+   "contoh": "スイッチパネルを{拭|ふ}く。",
+   "arti_contoh": "Mengelap panel saklar."
   },
   {
    "id": "bc-927",
@@ -17016,7 +19079,9 @@
    "bab": "bab2",
    "src": [
     "b2s14"
-   ]
+   ],
+   "contoh": "{人|ひと}が{触|さわ}る{場所|ばしょ}の{乾拭|からぶ}き（{棚|たな}、{人感|じんかん}センサー）",
+   "arti_contoh": "Mengelap bagian yang disentuh orang (kering): rak, sensor manusia."
   },
   {
    "id": "bc-928",
@@ -17030,7 +19095,9 @@
     "b2s15",
     "b3s5",
     "b3s6"
-   ]
+   ],
+   "contoh": "セーフティロックを{押|お}し{込|こ}みながら{右|みぎ}レバーを{握|にぎ}る。",
+   "arti_contoh": "Pegang tuas kanan sambil dorong safety lock."
   },
   {
    "id": "bc-929",
@@ -17042,7 +19109,9 @@
    "bab": "bab3",
    "src": [
     "b3s6"
-   ]
+   ],
+   "contoh": "ハンドル{位置|いち}を{調整|ちょうせい}しよう（フットペダル）。",
+   "arti_contoh": "Sesuaikan posisi pegangan dengan pedal kaki."
   },
   {
    "id": "bc-930",
@@ -17054,7 +19123,9 @@
    "bab": "bab3",
    "src": [
     "b3s5"
-   ]
+   ],
+   "contoh": "ストッパーボタンを{押|お}して{固定|こてい}する。",
+   "arti_contoh": "Menekan tombol pengunci untuk mengunci."
   },
   {
    "id": "bc-931",
@@ -17068,7 +19139,9 @@
     "b3s5",
     "b3s6",
     "b3s8"
-   ]
+   ],
+   "contoh": "タイヤを{足|あし}で{固定|こてい}して{倒|たお}すんだよ。",
+   "arti_contoh": "Dorong ke depan rodanya dengan kaki (kunci ban dengan kaki, lalu rebahkan)."
   },
   {
    "id": "bc-932",
@@ -17080,7 +19153,9 @@
    "bab": "bab3",
    "src": [
     "b3s10"
-   ]
+   ],
+   "contoh": "グリップを{持|も}つ。",
+   "arti_contoh": "Memegang pegangan."
   },
   {
    "id": "bc-933",
@@ -17094,7 +19169,9 @@
     "b2s10",
     "b3s9",
     "b3s11"
-   ]
+   ],
+   "contoh": "{水拭|みずぶ}き（フレーム、{床|ゆか}）（タオル）",
+   "arti_contoh": "Lap basah (bingkai jendela, lantai) dengan lap."
   },
   {
    "id": "bc-934",
@@ -17107,7 +19184,9 @@
    "src": [
     "b2s5",
     "b2s7"
-   ]
+   ],
+   "contoh": "ヘッド{幅|はば}を1/4くらい{重|かさ}ねながら{前進|ぜんしん}しよう。",
+   "arti_contoh": "Maju ke depan dengan menumpuk 1/4 lebar kepala pel."
   },
   {
    "id": "bc-935",
@@ -17120,7 +19199,9 @@
    "src": [
     "b2s7",
     "b2s8"
-   ]
+   ],
+   "contoh": "ポッド{型|がた}の{各部|かくぶ}",
+   "arti_contoh": "Bagian Tipe Pod"
   },
   {
    "id": "bc-936",
@@ -17132,7 +19213,9 @@
    "bab": "bab2",
    "src": [
     "b2s8"
-   ]
+   ],
+   "contoh": "ファンにほこりがたまる。",
+   "arti_contoh": "Debu menumpuk di kipas."
   },
   {
    "id": "bc-937",
@@ -17145,7 +19228,9 @@
    "src": [
     "b2s11",
     "b2s15"
-   ]
+   ],
+   "contoh": "ブラシ・ケース、{仕切|しき}りバケツ、{手袋|てぶくろ}（{便器用|べんきよう}・その{他|ほか}）、フロアサイン。",
+   "arti_contoh": "Sikat (brush) dan kotak; ember dengan sekat; sarung tangan (untuk toilet dan lainnya); Floor Sign."
   },
   {
    "id": "bc-938",
@@ -17158,7 +19243,9 @@
    "src": [
     "b2s15",
     "b3s8"
-   ]
+   ],
+   "contoh": "{仕上|しあ}げに{本体|ほんたい}をタオルで{水拭|みずぶ}きしてキレイにしよう（タンク、{本体裏|ほんたいうら}、{本体|ほんたい}）。",
+   "arti_contoh": "Terakhir, lap body dengan lap basah (tangki, sisi belakang body, body)."
   },
   {
    "id": "bc-939",
@@ -17171,7 +19258,9 @@
    "src": [
     "b2s14",
     "b2s15"
-   ]
+   ],
+   "contoh": "トラップはブラシで{奥|おく}までしっかり{清掃|せいそう}。",
+   "arti_contoh": "Untuk lubang kloset, bersihkan dengan sikat sampai ke ujungnya."
   },
   {
    "id": "bc-940",
@@ -17183,7 +19272,9 @@
    "bab": "bab2",
    "src": [
     "b2s15"
-   ]
+   ],
+   "contoh": "シャワーで{水|みず}をかける。",
+   "arti_contoh": "Menyiram air dengan pancuran."
   },
   {
    "id": "bc-941",
@@ -17195,7 +19286,9 @@
    "bab": "bab2",
    "src": [
     "b2s15"
-   ]
+   ],
+   "contoh": "{隙間|すきま}はタオルをロープ{状|じょう}にするなど{工夫|くふう}するといいよ。",
+   "arti_contoh": "Gulung lap seperti tali untuk membersihkan bagian celahnya."
   },
   {
    "id": "bc-942",
@@ -17221,7 +19314,9 @@
    "bab": "bab2",
    "src": [
     "b2s18"
-   ]
+   ],
+   "contoh": "{洗剤|せんざい}のキャップを{閉|し}める。",
+   "arti_contoh": "Menutup tutup botol deterjen."
   },
   {
    "id": "bc-944",
@@ -17233,7 +19328,9 @@
    "bab": "bab2",
    "src": [
     "b2s17"
-   ]
+   ],
+   "contoh": "いろんなゴミが{混|ま}ざっている（{燃|も}えるゴミ、{缶|かん}、ペットボトル）。",
+   "arti_contoh": "Sampah sering tercampur: sampah terbakar, kaleng, botol plastik."
   },
   {
    "id": "bc-945",
@@ -17245,7 +19342,9 @@
    "bab": "bab2",
    "src": [
     "b2s17"
-   ]
+   ],
+   "contoh": "ゴミの{分別|ぶんべつ}は{全|すべ}てのゴミ{回収後|かいしゅうご}にまとめてやってね：{一般|いっぱん}ゴミ、ビン・{缶|かん}、ペットボトル。",
+   "arti_contoh": "Lakukan pemisahan jenis sampah setelah semua sampah terkumpul: sampah umum; botol kaca dan kaleng; botol plastik."
   },
   {
    "id": "bc-946",
@@ -17271,7 +19370,9 @@
    "bab": "bab2",
    "src": [
     "b2s19"
-   ]
+   ],
+   "contoh": "ガムテープで{袋|ふくろ}をとめる。",
+   "arti_contoh": "Merekatkan kantong dengan lakban."
   },
   {
    "id": "bc-948",
@@ -17283,7 +19384,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "**オフィスの{床|ゆか}：**{髪|かみ}・ゴミ、ステープルの{芯|しん}・クリップなど。",
+   "arti_contoh": "Lantai kantor: rambut dan sampah, isi staples dan clip."
   },
   {
    "id": "bc-949",
@@ -17295,7 +19398,9 @@
    "bab": "bab2",
    "src": [
     "b2s19"
-   ]
+   ],
+   "contoh": "トングでごみを{拾|ひろ}う。",
+   "arti_contoh": "Mengambil sampah dengan penjepit."
   },
   {
    "id": "bc-950",
@@ -17307,7 +19412,9 @@
    "bab": "bab3",
    "src": [
     "b3s8"
-   ]
+   ],
+   "contoh": "ドライバーで{外|はず}す。",
+   "arti_contoh": "Melepas dengan obeng."
   },
   {
    "id": "bc-951",
@@ -17319,7 +19426,9 @@
    "bab": "bab3",
    "src": [
     "b3s8"
-   ]
+   ],
+   "contoh": "マイナスドライバーでふたを{開|あ}ける。",
+   "arti_contoh": "Membuka tutup dengan obeng minus."
   },
   {
    "id": "bc-952",
@@ -17332,7 +19441,9 @@
    "src": [
     "b2s1",
     "b3s2"
-   ]
+   ],
+   "contoh": "**{廊下|ろうか}・エントランスの{床|ゆか}：**{土砂|どしゃ}・ホコリ、カビ、{日焼|ひや}け・{家具|かぐ}の{跡|あと}。",
+   "arti_contoh": "Lantai pintu masuk dan koridor: debu pasir dan debu, jamur, bekas matahari dan bekas jejak perabotan."
   },
   {
    "id": "bc-953",
@@ -17344,7 +19455,9 @@
    "bab": "bab2",
    "src": [
     "b2s1"
-   ]
+   ],
+   "contoh": "エレベーターの{使用中|しようちゅう}にお{客様|きゃくさま}が{待|ま}っていたら、いったん{外|そと}に{出|で}て{譲|ゆず}るなどの{気配|きくば}りも{必要|ひつよう}",
+   "arti_contoh": "Saat naik lift, jika ada tamu yang akan masuk lift, keluar dulu dari lift. Mengalah juga perlu."
   },
   {
    "id": "bc-954",
@@ -17358,7 +19471,9 @@
     "b2s5",
     "b2s6",
     "b2s7"
-   ]
+   ],
+   "contoh": "ホースをコーナーや{家具|かぐ}に{引|ひ}っ{掛|か}けないよう{注意|ちゅうい}。",
+   "arti_contoh": "Jangan sampai kabel tersangkut di sudut ruangan atau furnitur."
   },
   {
    "id": "bc-955",
@@ -17370,7 +19485,9 @@
    "bab": "bab2",
    "src": [
     "b2s9"
-   ]
+   ],
+   "contoh": "はじめにテーブルの{隅|すみ}を{拭|ふ}いてから{中央部分|ちゅうおうぶぶん}を{拭|ふ}きあげよう（①{外周|がいしゅう}、②③{中央|ちゅうおう}）。",
+   "arti_contoh": "Pertama, lap terlebih dulu sudut-sudut meja, setelahnya lap bagian tengahnya (① tepi, ② ③ bagian tengah)."
   },
   {
    "id": "bc-956",
@@ -17384,7 +19501,9 @@
     "b2s5",
     "b2s11",
     "b3s12"
-   ]
+   ],
+   "contoh": "ダストクロスでの{清掃|せいそう}",
+   "arti_contoh": "Dust Cloth untuk lantai keramik"
   },
   {
    "id": "bc-957",
@@ -17397,7 +19516,9 @@
    "src": [
     "b2s17",
     "b3s2"
-   ]
+   ],
+   "contoh": "{廊下|ろうか}やオフィスのゴミを{廃棄物|はいきぶつ}コレクターに{回収|かいしゅう}する（{保護手袋|ほごてぶくろ}）。",
+   "arti_contoh": "Kumpulkan sampah di koridor dan kantor ke keranjang limbah (廃棄物コレクター), dengan sarung tangan pelindung."
   },
   {
    "id": "bc-958",
@@ -17410,7 +19531,9 @@
    "src": [
     "b2s17",
     "b3s7"
-   ]
+   ],
+   "contoh": "コードを{左手|ひだりて}でさばきながら{移動|いどう}しよう（ポリッシャーが{進|すす}むスペースを{確保|かくほ}する）。",
+   "arti_contoh": "Singkirkan kabel ke kiri dan kanan sambil membersihkan (kendalikan dengan tangan kiri). Berikan jarak untuk polisher bergerak."
   },
   {
    "id": "bc-959",
@@ -17451,7 +19574,9 @@
    "bab": "bab1",
    "src": [
     "b1s6"
-   ]
+   ],
+   "contoh": "{仕事仲間|しごとなかま}だけでなく、プライベートでは{友人|ゆうじん}にもなる{人|ひと}です。",
+   "arti_contoh": "Bukan rekan saat bekerja saja, rekan Anda akan menjadi teman Anda juga."
   },
   {
    "id": "bc-962",
@@ -17491,7 +19616,9 @@
    "bab": "bab1",
    "src": [
     "b1s6"
-   ]
+   ],
+   "contoh": "スムーズに{作業|さぎょう}を{進|すす}める。",
+   "arti_contoh": "Pekerjaan berjalan lancar."
   },
   {
    "id": "bc-965",
@@ -17517,7 +19644,9 @@
    "bab": "bab1",
    "src": [
     "b1s1"
-   ]
+   ],
+   "contoh": "{会社|かいしゃ}の{電話|でんわ}、{携帯電話|けいたいでんわ}、コピー{機|き}などを{私用|しよう}に{使|つか}わない",
+   "arti_contoh": "Jangan menggunakan telepon perusahaan, HP, dan mesin foto copy untuk keperluan pribadi."
   },
   {
    "id": "bc-967",
@@ -17529,7 +19658,9 @@
    "bab": "bab1",
    "src": [
     "b1s3"
-   ]
+   ],
+   "contoh": "{定期清掃|ていきせいそう}で{汚|よご}れをリセットし、{日常清掃|にちじょうせいそう}でキレイを{長持|ながも}ちさせる。",
+   "arti_contoh": "Dengan Pembersihan Berkala kita membersihkan tuntas kotoran; Pembersihan Harian menjaga agar kebersihan tetap awet."
   },
   {
    "id": "bc-968",
@@ -17541,7 +19672,9 @@
    "bab": "bab1",
    "src": [
     "b1s2"
-   ]
+   ],
+   "contoh": "ピアスは{外|はず}す。",
+   "arti_contoh": "Lepaskan anting tindik."
   },
   {
    "id": "bc-969",
@@ -17568,7 +19701,9 @@
    "src": [
     "b1s4",
     "b1s8"
-   ]
+   ],
+   "contoh": "プロとして{働|はたら}く。",
+   "arti_contoh": "Bekerja sebagai profesional."
   },
   {
    "id": "bc-971",
@@ -17580,7 +19715,9 @@
    "bab": "bab2",
    "src": [
     "b2s13"
-   ]
+   ],
+   "contoh": "{大切|たいせつ}なポイントをメモする。",
+   "arti_contoh": "Mencatat poin penting."
   },
   {
    "id": "bc-972",
@@ -17592,7 +19729,9 @@
    "bab": "bab2",
    "src": [
     "b2s6"
-   ]
+   ],
+   "contoh": "{奥|おく}からスタートする。",
+   "arti_contoh": "Mulai dari bagian dalam."
   },
   {
    "id": "bc-973",
@@ -17604,7 +19743,9 @@
    "bab": "bab2",
    "src": [
     "b2s6"
-   ]
+   ],
+   "contoh": "１メートルずつ{進|すす}む。",
+   "arti_contoh": "Maju satu meter demi satu meter."
   },
   {
    "id": "bc-974",
@@ -17616,7 +19757,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "ウエット{型|がた}：{汚水|おすい}を{吸|す}う。",
+   "arti_contoh": "Tipe Wet (basah): menyedot air kotor."
   },
   {
    "id": "bc-975",
@@ -17628,7 +19771,9 @@
    "bab": "bab2",
    "src": [
     "b2s7"
-   ]
+   ],
+   "contoh": "{特定技能評価試験|とくていぎのうひょうかしけん}：{日本|にほん}ビルメンテナンス{協会|きょうかい}（JBMA）",
+   "arti_contoh": "Ujian Penilaian TOKUTEI GINOU: Japan Building Maintenance Association (JBMA)"
   },
   {
    "id": "bc-976",
@@ -17640,7 +19785,9 @@
    "bab": "bab2",
    "src": [
     "b2s4"
-   ]
+   ],
+   "contoh": "これは{人|ひと}にぶつかったときに{親指|おやゆび}がクッションの{役割|やくわり}をするため。",
+   "arti_contoh": "Tujuannya supaya saat bagian ujungnya terkena orang lain, ibu jari Anda bisa berfungsi sebagai bantalan."
   },
   {
    "id": "bc-977",
@@ -17652,7 +19799,9 @@
    "bab": "bab3",
    "src": [
     "b3s12"
-   ]
+   ],
+   "contoh": "ダストクロス{型|がた}モップ、{湿式|しっしき}モップ（ワンタッチモップ）、T{字型|じがた}モップ、{乾式|かんしき}モップ、フラット{型|がた}モップ。",
+   "arti_contoh": "Dust Cloth Tipe Pel; Pel Basah (sekali pakai); Pel Bentuk T; Pel Kering; Pel Bentuk Datar."
   },
   {
    "id": "bc-978",
@@ -17678,7 +19827,9 @@
    "bab": "bab1",
    "src": [
     "b1s7"
-   ]
+   ],
+   "contoh": "はじめのマンガ：{初出社|はつしゅっしゃ}の{日|ひ}",
+   "arti_contoh": "Cerita pembuka: hari pertama masuk kerja"
   },
   {
    "id": "bc-980",
@@ -17690,7 +19841,9 @@
    "bab": "bab1",
    "src": [
     "b1s7"
-   ]
+   ],
+   "contoh": "{子供|こども}の{頃|ころ}からマンガやアニメが{好|す}きで、{日本|にほん}に{憧|あこが}れていました。",
+   "arti_contoh": "Sejak kecil Mai menyukai manga dan anime, jadi ia selalu mengagumi Jepang."
   },
   {
    "id": "bc-981",
@@ -17702,7 +19855,9 @@
    "bab": "bab1",
    "src": [
     "b1s8"
-   ]
+   ],
+   "contoh": "ホームページ：https://ascf.jp/",
+   "arti_contoh": "Homepage ASCF: https://ascf.jp/"
   },
   {
    "id": "bc-982",
@@ -17714,7 +19869,9 @@
    "bab": "bab1",
    "src": [
     "b1s8"
-   ]
+   ],
+   "contoh": "メール：support@ascf.jp",
+   "arti_contoh": "Email: support@ascf.jp"
   },
   {
    "id": "bc-983",
@@ -17726,7 +19883,9 @@
    "bab": "bab1",
    "src": [
     "b1s8"
-   ]
+   ],
+   "contoh": "ASCF（{外国人材|がいこくじんざい}{受入|うけい}れサポートセンター）",
+   "arti_contoh": "Acceptance Support Center for Foreign talent (ASCF)"
   },
   {
    "id": "bc-984",
@@ -17738,7 +19897,9 @@
    "bab": "bab1",
    "src": [
     "b1s8"
-   ]
+   ],
+   "contoh": "{特定技能|とくていぎのう}１{号|ごう}ビルクリーニングの{試験|しけん}は、{技能検定|ぎのうけんてい}**３{級|きゅう}**と{同|おな}じレベルの{知識|ちしき}と{技能|ぎのう}が{必要|ひつよう}です。",
+   "arti_contoh": "Ujian TOKUTEI GINOU Cleaning Service No. 1 membutuhkan pengetahuan dan keterampilan setara dengan level 3 pada kualifikasi pembuktian keterampilan (ujian keterampilan nasional)."
   },
   {
    "id": "bc-985",
@@ -17750,7 +19911,9 @@
    "bab": "bab1",
    "src": [
     "b1s7"
-   ]
+   ],
+   "contoh": "テキストを{読|よ}む。",
+   "arti_contoh": "Membaca buku teks."
   },
   {
    "id": "bc-986",
@@ -17762,7 +19925,9 @@
    "bab": "bab1",
    "src": [
     "b1s9"
-   ]
+   ],
+   "contoh": "このアプリでは、はじめの７ページを１.１〜１.３にまとめ、そのあと{第|だい}１〜３{章|しょう}が{本|ほん}の{順番|じゅんばん}で{続|つづ}きます。",
+   "arti_contoh": "Di aplikasi ini subbab pengantar (1.1–1.3) memuat halaman 1–7, lalu bab 1–3 mengikuti urutan buku."
   },
   {
    "id": "bc-987",
@@ -17831,7 +19996,9 @@
    "bab": "bab2",
    "src": [
     "b2s4"
-   ]
+   ],
+   "contoh": "{文化|ぶんか}ちりとり",
+   "arti_contoh": "Pengki (文化ちりとり / Serokan)"
   },
   {
    "id": "bc-992",
@@ -17844,7 +20011,9 @@
    "src": [
     "b1s7",
     "b1s5"
-   ]
+   ],
+   "contoh": "こんにちは。{今日|きょう}も{よろしくお願|よろしくおねが}いします。",
+   "arti_contoh": "Selamat siang. Mohon bantuannya hari ini."
   },
   {
    "id": "bc-993",
@@ -17856,7 +20025,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "ありがとうございます。",
+   "arti_contoh": "Terima kasih."
   },
   {
    "id": "bc-994",
@@ -17868,7 +20039,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "すみません、{通|とお}ります。",
+   "arti_contoh": "Permisi, saya lewat."
   },
   {
    "id": "bc-995",
@@ -17880,7 +20053,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "ごめんなさい。",
+   "arti_contoh": "Maaf."
   },
   {
    "id": "bc-996",
@@ -17906,7 +20081,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "{作業|さぎょう}にはいくつか{基本的|きほんてき}な{進|すす}め{方|かた}があるんだよ：",
+   "arti_contoh": "Saat membersihkan ada beberapa teknik yang bisa digunakan:"
   },
   {
    "id": "bc-998",
@@ -17918,7 +20095,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "いいえ、{大丈夫|だいじょうぶ}です。",
+   "arti_contoh": "Tidak, tidak apa-apa."
   },
   {
    "id": "bc-999",
@@ -17930,7 +20109,9 @@
    "bab": "bab1",
    "src": [
     "b1s5"
-   ]
+   ],
+   "contoh": "はい、わかりました。",
+   "arti_contoh": "Ya, saya mengerti."
   }
  ]
 }

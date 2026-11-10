@@ -43,6 +43,12 @@ for e in items:
     else:
         _mx += 1; e["id"] = f"bc-{_mx:03d}"; _reg.setdefault(e["kata"], []).append(e["id"])
 items.sort(key=lambda e: e["id"])
+from contoh_auto import fill, fill_manual, fill_rb, rubify_all
+from vocab_front import MANUAL
+print("contoh otomatis:", fill(items, ROOT), "manual:", fill_manual(items, MANUAL))
+print("ruby contoh:", rubify_all(items))
+print("rb tambahan:", fill_rb(items, ROOT))
+print("tanpa contoh:", sum(1 for e in items if not e.get("contoh")))
 json.dump(_reg, open(os.path.join(ROOT, "tools", "ssw", "src", "id_registry.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=0)
 json.dump({"items": items}, open(os.path.join(out, "vocab.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 br = lambda t: re.sub(r"\{([^|{}]+)\|([^{}]+)\}", r"\1[\2]", t)
