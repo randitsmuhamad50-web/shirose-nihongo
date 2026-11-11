@@ -1363,6 +1363,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261112x"/>
 <link rel="stylesheet" href="./css/ssw.css?v=20261112x"/>
+<link rel="stylesheet" href="./css/jft.css?v=20261113a"/>
 </head>
 <body>
 
@@ -1421,9 +1422,11 @@ import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTer
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261112x";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
 import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261112x";
+import { JFT_ROUTES, initJft } from "./js/jft.js?v=20261113a";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
+initJft(FB, (t, l) => loadMateri(t, l));
 
 /* ========== STATE ========== */
 const state = {
@@ -1904,7 +1907,7 @@ function renderLevelPills(){
   const pills = document.getElementById("lvl-pills");
   if (!pills) return;
   if (!state.user || !levelSudahDipilih()){ pills.innerHTML = ""; return; }
-  pills.innerHTML = `<button class="lvl-badge" onclick="route('pilih-level')" title="Ganti level di halaman pemilihan JLPT">JLPT ${state.level.toUpperCase()} <span class="ganti">GANTI LEVEL</span></button>`;
+  pills.innerHTML = `<button class="lvl-badge" onclick="route('pilih-level')" title="Ganti level di halaman pemilihan JLPT">${window.levelLabel(state.level)} <span class="ganti">GANTI LEVEL</span></button>`;
   return;
   const levels = ["n5","n4","n3","n2","n1"];
   // Level yang belum dibuka guru ditandai gembok. Validasi sebenarnya ada
@@ -1920,6 +1923,7 @@ function renderLevelPills(){
 function canAccessLevel(lvl){
   if (!lvl) return false;
   if (!state.user) return false;
+  if (String(lvl).startsWith("ir")) return true;   // JFT (Irodori): terbuka untuk semua siswa terdaftar
   if (FB.userIsGuru()) return true;
   const akses = state.siswa?.aksesLevel;
   return !!(akses && akses[lvl]);
@@ -2062,6 +2066,8 @@ const routes = {
   ...KANA_ROUTES,
   // SSW 特定技能 (js/ssw.js)
   ...SSW_ROUTES,
+  // JFT-Basic / Irodori (js/jft.js)
+  ...JFT_ROUTES,
 };
 
 // Routes that depend on state.level (and therefore on aksesLevel).
@@ -2096,7 +2102,7 @@ window.addEventListener("popstate", () => {
 });
 
 // Mapel dipisah: JLPT, Kana, dan SSW tidak saling terhubung. Pindah mapel hanya lewat layar "pilih-level".
-const _subjectOf = (path) => { const n = String(path || "").split("/")[0]; if (n.startsWith("ssw")) return "ssw"; if (n.startsWith("kana")) return "kana";
+const _subjectOf = (path) => { const n = String(path || "").split("/")[0]; if (n.startsWith("ssw")) return "ssw"; if (n.startsWith("kana")) return "kana"; if (n === "jft" || n.startsWith("jft-")) return "jft";
   if (n === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) return "ssw"; return "jlpt"; };
 const _parentOf = (path) => {
   const [n, slug = "building-cleaning", a2] = String(path || "").split("/");
@@ -2107,6 +2113,8 @@ const _parentOf = (path) => {
   if (n === "ssw-baca") { const m = /^b(\d+)s/.exec(a2 || ""); return m ? `ssw-bab/${slug}/bab${m[1]}` : `ssw-peta/${slug}`; }
   if (n === "ssw-progres") return "ssw";
   if (n.startsWith("ssw-")) return `ssw-peta/${slug}`;
+  if (n === "jft") return "pilih-level";
+  if (n.startsWith("jft-")) return "jft";
   if (n === "kana") return "pilih-level";
   if (n.startsWith("kana-")) return "kana";
   return null;
@@ -2165,7 +2173,7 @@ window.goHomeFab = () => {
   const here = location.hash.slice(1) || "home";
   const cur = here.split("/")[0];
   const sub = _subjectOf(here);
-  const awal = sub === "ssw" ? "ssw" : sub === "kana" ? "kana" : "home";
+  const awal = sub === "ssw" ? "ssw" : sub === "kana" ? "kana" : sub === "jft" ? "jft" : "home";
   route(cur === awal ? "pilih-level" : awal);
 };
 
@@ -2216,7 +2224,7 @@ window.route = (path) => {
 
   // Alur wajib: LOGIN → PEMILIHAN JLPT → CHARACTER → fitur. Selama siswa
   // belum memilih level di sesi ini, semua halaman diarahkan ke #pilih-level.
-  if (state.user && !BEBAS_PILIH_LEVEL.has(name) && !String(name).startsWith("ssw") && !(name === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) && !levelSudahDipilih()){
+  if (state.user && !BEBAS_PILIH_LEVEL.has(name) && !String(name).startsWith("ssw") && !String(name).startsWith("jft") && !(name === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) && !levelSudahDipilih()){
     return route("pilih-level");
   }
   renderLevelPills();
@@ -2277,7 +2285,8 @@ function renderCharaOrbital(){
     { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:315 },
   ];
   // Choukai JLPT ditambahkan → 9 node, jarak dihitung ulang supaya orbit tetap simetris.
-  NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
+  if (String(state.level).startsWith("ir")){ NAV.find(n => n.route === "ujian").route = "jft"; NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"LISTENING", route:"jft-tes/latihan/listening" }); }
+  else NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
   // Sesi Hiragana & Katakana (berdiri sendiri) → 10 node, jarak dihitung ulang di bawah.
   NAV.forEach((n, i) => { n.deg = i * 360 / NAV.length; });
   // Desktop: posisi di lingkaran memakai CSS var --R (radius responsif).
@@ -2361,7 +2370,7 @@ function renderCharaOrbital(){
 /* ========== PEMILIHAN JLPT (halaman utama siswa setelah login) ========== */
 // Halaman yang boleh dibuka sebelum memilih level.
 // Rute kana berdiri sendiri (tidak butuh level JLPT) → boleh dibuka sebelum memilih level.
-const BEBAS_PILIH_LEVEL = new Set(["pilih-level","login","masuk","daftar","profile",
+const BEBAS_PILIH_LEVEL = new Set(["pilih-level","jft","login","masuk","daftar","profile",
   "kana","kana-baca","kana-aturan","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
   "ssw","ssw-peta","ssw-bab","ssw-baca","ssw-buku","ssw-kosa","ssw-kartu","ssw-kuis","ssw-progres"]);
 const _KEY_PILIH = "shirose-level-dipilih";   // sessionStorage: uid yang sudah memilih di sesi ini
@@ -2374,6 +2383,9 @@ function levelSudahDipilih(){
 function _lupakanPilihanLevel(){ try { sessionStorage.removeItem(_KEY_PILIH); } catch(_){} }
 window.levelSudahDipilih = levelSudahDipilih;
 
+// Label level: JLPT N5..N1 atau JFT (Irodori) ir0/ir1/ir2.
+const IR_NAMA = { ir0:["入門","Starter A1","いろどり 入門"], ir1:["初級1","Shokyuu 1 A2","いろどり 初級1"], ir2:["初級2","Shokyuu 2 A2","いろどり 初級2"] };
+window.levelLabel = (l, panjang) => IR_NAMA[l] ? (panjang ? "JFT · " + IR_NAMA[l][1] : "JFT " + IR_NAMA[l][1]) : "JLPT " + String(l).toUpperCase();
 const JLPT_INFO = {
   n5: { jp:"入門", kanji:"五", nama:"Dasar",          desc:"Hiragana, katakana, ±100 kanji, kalimat sederhana sehari-hari." },
   n4: { jp:"初級", kanji:"四", nama:"Pemula",         desc:"Percakapan dasar, ±300 kanji, tata bahasa untuk kebutuhan harian." },
@@ -2407,6 +2419,13 @@ function renderPilihLevel(){
         <span class="desc">Hiragana &amp; Katakana dari nol: tabel, urutan goresan, latihan menulis, hafalan, dan tes membaca.</span>
         <span class="st">Tanpa pilih level</span>
       </button>`;
+  const kartuJft = `
+      <button class="jlpt-card jft" data-kanji="日" onclick="route('jft')">
+        <span class="lv">JFT</span>
+        <span class="jpname">JFT-Basic A2 · いろどり</span>
+        <span class="desc">Irodori Starter A1, Shokyuu 1 &amp; 2: kosakata, kanji, bunpou, hafalan, dan simulasi ujian CBT dengan skor 10–250.</span>
+        <span class="st">Terbuka untuk semua siswa</span>
+      </button>`;
   const kartuSsw = `
       <button class="jlpt-card ssw" data-kanji="技" onclick="route('ssw')">
         <span class="lv">SSW</span>
@@ -2428,7 +2447,7 @@ function renderPilihLevel(){
         <h1>${nama ? `Halo, ${nama}! ` : ""}Pilih level JLPT</h1>
         <p>Semua materi, hafalan, dan ujian akan mengikuti level yang kamu pilih.</p>
       </div>
-      <div class="jlpt-grid">${cards}${kartuKana}${kartuSsw}${kartuGuru}</div>
+      <div class="jlpt-grid">${cards}${kartuJft}${kartuKana}${kartuSsw}${kartuGuru}</div>
       <div class="foot">
         ${adaYangBuka ? "Level bergembok dibuka oleh guru." : "Belum ada level yang dibuka untukmu — hubungi guru."}
         <div style="margin-top:12px;"><button class="btn ghost" onclick="logout()">Keluar</button></div>
@@ -2628,7 +2647,7 @@ async function renderMateriHub(){
   const bunpou = await loadMateri("bunpou", state.level);
   return `
     <div class="panel">
-      <h2>📚 Materi ${state.level.toUpperCase()}</h2>
+      <h2>📚 Materi ${window.levelLabel(state.level, true)}</h2>
       <div class="hub-grid">
         <div class="hub-card" onclick="route('kosakata')">
           <div class="ico">📖</div>
@@ -2642,10 +2661,13 @@ async function renderMateriHub(){
           <div class="ico">📐</div>
           <div class="info"><div class="ttl">Bunpou</div><div class="sub">${bunpou.length} pola</div></div>
         </div>
-        <div class="hub-card" onclick="route('choukai')">
+        ${String(state.level).startsWith("ir") ? `<div class="hub-card" onclick="route('jft')">
+          <div class="ico">📝</div>
+          <div class="info"><div class="ttl">Simulasi JFT-Basic</div><div class="sub">CBT 50 soal · skor 10–250</div></div>
+        </div>` : `<div class="hub-card" onclick="route('choukai')">
           <div class="ico">🎧</div>
           <div class="info"><div class="ttl">Choukai JLPT</div><div class="sub">Listening format ujian asli</div></div>
-        </div>
+        </div>`}
         <div class="hub-card" onclick="route('hafalan')">
           <div class="ico">🧠</div>
           <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>

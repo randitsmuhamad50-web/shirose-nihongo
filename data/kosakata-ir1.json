@@ -1,0 +1,4252 @@
+[
+{
+"kata": "先輩",
+"kana": "せんぱい",
+"arti": "Kakak tingkat; senior",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 1
+},
+{
+"kata": "後輩",
+"kana": "こうはい",
+"arti": "Adik tingkat; junior",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 2
+},
+{
+"kata": "知り合い",
+"kana": "しりあい",
+"arti": "Kenalan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 3
+},
+{
+"kata": "久しぶり",
+"kana": "ひさしぶり",
+"arti": "Sudah lama tidak berjumpa",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 4
+},
+{
+"kata": "元気（な）",
+"kana": "げんき（な）",
+"arti": "Sehat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 5
+},
+{
+"kata": "おかげさまで",
+"kana": "おかげさまで",
+"arti": "Terima kasih.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 6
+},
+{
+"kata": "半年",
+"kana": "はんとし／はんとし",
+"arti": "Setengah tahun",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 7
+},
+{
+"kata": "1 年",
+"kana": "いちねん",
+"arti": "Satu tahun",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 8
+},
+{
+"kata": "先月",
+"kana": "せんげつ／せんげつ",
+"arti": "Bulan lalu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 9
+},
+{
+"kata": "去年",
+"kana": "きょねん",
+"arti": "Tahun lalu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 10
+},
+{
+"kata": "生活",
+"kana": "せいかつ",
+"arti": "Kehidupan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 11
+},
+{
+"kata": "もう",
+"kana": "もう",
+"arti": "Sudah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 12
+},
+{
+"kata": "慣れる",
+"kana": "なれる",
+"arti": "Terbiasa; betah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 13
+},
+{
+"kata": "ちょうど",
+"kana": "ちょうど",
+"arti": "Pas; tepat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 14
+},
+{
+"kata": "なんとか",
+"kana": "なんとか",
+"arti": "Lumayan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 15
+},
+{
+"kata": "まだ",
+"kana": "まだ",
+"arti": "Belum",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 16
+},
+{
+"kata": "〜になる（1 年になる）",
+"kana": "〜になる",
+"arti": "Sudah 〜tahun/bulan (Sudah setahun saya di Jepang.)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 17
+},
+{
+"kata": "〜か月",
+"kana": "〜かげつ",
+"arti": "〜 bulan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 18
+},
+{
+"kata": "1 か月",
+"kana": "いっかげつ",
+"arti": "Satu bulan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 19
+},
+{
+"kata": "2 か月",
+"kana": "にかげつ",
+"arti": "Dua bulan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 20
+},
+{
+"kata": "3 か月",
+"kana": "さんかげつ",
+"arti": "Tiga bulan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 21
+},
+{
+"kata": "4 か月",
+"kana": "よんかげつ",
+"arti": "Empat bulan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 1,
+"no": 22
+},
+{
+"kata": "趣味",
+"kana": "しゅみ",
+"arti": "Hobi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 23
+},
+{
+"kata": "音楽",
+"kana": "おんがく",
+"arti": "Musik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 24
+},
+{
+"kata": "聞く",
+"kana": "きく",
+"arti": "Mendengar",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 25
+},
+{
+"kata": "本",
+"kana": "ほん",
+"arti": "Buku",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 26
+},
+{
+"kata": "読む",
+"kana": "よむ",
+"arti": "Membaca",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 27
+},
+{
+"kata": "もの（おいしいもの）",
+"kana": "もの（おいしいもの）",
+"arti": "Makanan; sesuatu (yang enak)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 28
+},
+{
+"kata": "写真",
+"kana": "しゃしん",
+"arti": "Foto",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 29
+},
+{
+"kata": "撮る",
+"kana": "とる",
+"arti": "Mengambil (foto; video)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 30
+},
+{
+"kata": "ピアノ",
+"kana": "ピアノ",
+"arti": "Piano",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 31
+},
+{
+"kata": "ギター",
+"kana": "ギター／ギター",
+"arti": "Gitar",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 32
+},
+{
+"kata": "弾く",
+"kana": "ひく",
+"arti": "Bermain (alat musik)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 33
+},
+{
+"kata": "おしゃべり",
+"kana": "おしゃべり",
+"arti": "Bincang-bincang; obrolan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 34
+},
+{
+"kata": "料理",
+"kana": "りょうり",
+"arti": "Masak; masakan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 35
+},
+{
+"kata": "旅行",
+"kana": "りょこう",
+"arti": "Perjalanan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 36
+},
+{
+"kata": "テニス",
+"kana": "テニス",
+"arti": "Tenis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 37
+},
+{
+"kata": "いろいろ（な）",
+"kana": "いろいろ（な）",
+"arti": "Bermacam-macam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 38
+},
+{
+"kata": "こと（好きなこと）",
+"kana": "こと（すきなこと）",
+"arti": "Hal; sesuatu (cth: hal yang disukai)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 39
+},
+{
+"kata": "人",
+"kana": "ひと",
+"arti": "Orang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 40
+},
+{
+"kata": "話す",
+"kana": "はなす",
+"arti": "Berbicara",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 41
+},
+{
+"kata": "特にない",
+"kana": "とくにない",
+"arti": "Tidak ada yang khusus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 42
+},
+{
+"kata": "野球",
+"kana": "やきゅう",
+"arti": "Bisbol; kasti",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 43
+},
+{
+"kata": "バドミントン",
+"kana": "バドミントン",
+"arti": "Bulu tangkis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 44
+},
+{
+"kata": "アニメ",
+"kana": "アニメ／アニメ",
+"arti": "Anime (animasi)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 2,
+"no": 45
+},
+{
+"kata": "季節",
+"kana": "きせつ",
+"arti": "Musim",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 46
+},
+{
+"kata": "ことば",
+"kana": "ことば",
+"arti": "Kata; kosakata",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 47
+},
+{
+"kata": "暑い",
+"kana": "あつい",
+"arti": "Panas",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 48
+},
+{
+"kata": "すずしい",
+"kana": "すずしい",
+"arti": "Sejuk",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 49
+},
+{
+"kata": "寒い",
+"kana": "さむい",
+"arti": "Dingin",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 50
+},
+{
+"kata": "暖かい",
+"kana": "あたたかい",
+"arti": "Hangat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 51
+},
+{
+"kata": "じめじめする",
+"kana": "じめじめする",
+"arti": "Panas dan lembab",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 52
+},
+{
+"kata": "蒸し暑い",
+"kana": "むしあつい",
+"arti": "Panas dan pengap / gerah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 53
+},
+{
+"kata": "雨",
+"kana": "あめ",
+"arti": "Hujan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 54
+},
+{
+"kata": "降る",
+"kana": "ふる",
+"arti": "Turun (hujan, salju, dll.)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 55
+},
+{
+"kata": "雪",
+"kana": "ゆき",
+"arti": "Salju",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 56
+},
+{
+"kata": "桜",
+"kana": "さくら",
+"arti": "Bunga sakura",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 57
+},
+{
+"kata": "花",
+"kana": "はな",
+"arti": "Bunga",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 58
+},
+{
+"kata": "咲く",
+"kana": "さく",
+"arti": "Mekar",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 59
+},
+{
+"kata": "もみじ",
+"kana": "もみじ",
+"arti": "Daun yang berubah warna pada musim gugur",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 60
+},
+{
+"kata": "きれい（な）",
+"kana": "きれい（な）",
+"arti": "Indah; cantik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 61
+},
+{
+"kata": "セミ",
+"kana": "セミ",
+"arti": "Tonggeret",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 62
+},
+{
+"kata": "鳴く",
+"kana": "なく",
+"arti": "Bersuara (hewan; serangga)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 63
+},
+{
+"kata": "春",
+"kana": "はる",
+"arti": "Musim semi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 64
+},
+{
+"kata": "梅雨",
+"kana": "つゆ",
+"arti": "Musim hujan pada akhir Mei s.d. pertengahan Juli sebelum memasuki musim panas di Jepang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 65
+},
+{
+"kata": "夏",
+"kana": "なつ",
+"arti": "Musim panas",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 66
+},
+{
+"kata": "秋",
+"kana": "あき",
+"arti": "Musim gugur",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 67
+},
+{
+"kata": "冬",
+"kana": "ふゆ",
+"arti": "Musim dingin",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 68
+},
+{
+"kata": "たくさん",
+"kana": "たくさん",
+"arti": "Banyak",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 3,
+"no": 69
+},
+{
+"kata": "天気",
+"kana": "てんき",
+"arti": "Cuaca",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 70
+},
+{
+"kata": "晴れ",
+"kana": "はれ",
+"arti": "Cerah; baik (cuaca)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 71
+},
+{
+"kata": "晴れる",
+"kana": "はれる",
+"arti": "Cerah; menjadi cerah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 72
+},
+{
+"kata": "いい天気",
+"kana": "いいてんき",
+"arti": "Cuacanya cerah; cuacanya baik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 73
+},
+{
+"kata": "くもり",
+"kana": "くもり",
+"arti": "Berawan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 74
+},
+{
+"kata": "くもる",
+"kana": "くもる",
+"arti": "Berawan; mendung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 75
+},
+{
+"kata": "降る",
+"kana": "ふる",
+"arti": "Turun (hujan; salju dll.)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 76
+},
+{
+"kata": "風",
+"kana": "かぜ",
+"arti": "Angin",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 77
+},
+{
+"kata": "吹く",
+"kana": "ふく",
+"arti": "(angin) bertiup; meniup",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 78
+},
+{
+"kata": "雷",
+"kana": "かみなり",
+"arti": "Guntur",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 79
+},
+{
+"kata": "鳴る",
+"kana": "なる",
+"arti": "(guntur) bergemuruh",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 80
+},
+{
+"kata": "今",
+"kana": "いま",
+"arti": "Sekarang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 81
+},
+{
+"kata": "昨日",
+"kana": "きのう／きのう",
+"arti": "Kemarin",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 82
+},
+{
+"kata": "だいぶ",
+"kana": "だいぶ",
+"arti": "Banyak; cukup",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 83
+},
+{
+"kata": "嫌になる",
+"kana": "いやになる",
+"arti": "Mengganggu; mengesalkan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 84
+},
+{
+"kata": "ゆうべ",
+"kana": "ゆうべ／ゆうべ",
+"arti": "Tadi malam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 85
+},
+{
+"kata": "すごい",
+"kana": "すごい",
+"arti": "Deras (hujan); hebat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 86
+},
+{
+"kata": "本当ですね",
+"kana": "ほんとうですね",
+"arti": "Benar sekali",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 87
+},
+{
+"kata": "よなか",
+"kana": "よなか",
+"arti": "Tengah malam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 88
+},
+{
+"kata": "明日",
+"kana": "あした／あした",
+"arti": "Besok",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 89
+},
+{
+"kata": "1 日",
+"kana": "いちにち／いちにち",
+"arti": "Sepanjang hari",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 4,
+"no": 90
+},
+{
+"kata": "どんな",
+"kana": "どんな",
+"arti": "Bagaimana",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 91
+},
+{
+"kata": "町",
+"kana": "まち",
+"arti": "Kota",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 92
+},
+{
+"kata": "便利（な）",
+"kana": "べんり（な）",
+"arti": "Praktis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 93
+},
+{
+"kata": "不便（な）",
+"kana": "ふべん（な）",
+"arti": "Tidak praktis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 94
+},
+{
+"kata": "にぎやか（な）",
+"kana": "にぎやか（な）",
+"arti": "Ramai",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 95
+},
+{
+"kata": "緑",
+"kana": "みどり",
+"arti": "Pepohonan; tanaman hijau",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 96
+},
+{
+"kata": "多い",
+"kana": "おおい",
+"arti": "Banyak",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 97
+},
+{
+"kata": "少ない",
+"kana": "すくない",
+"arti": "Sedikit",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 98
+},
+{
+"kata": "やさしい",
+"kana": "やさしい／やさしい",
+"arti": "Ramah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 99
+},
+{
+"kata": "親切（な）",
+"kana": "しんせつ（な）",
+"arti": "Baik hati",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 100
+},
+{
+"kata": "冷たい",
+"kana": "つめたい／つめたい",
+"arti": "Dingin (sikap); tidak peduli",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 101
+},
+{
+"kata": "田舎",
+"kana": "いなか",
+"arti": "Desa; pedesaan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 102
+},
+{
+"kata": "都会",
+"kana": "とかい",
+"arti": "Kota",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 103
+},
+{
+"kata": "きれい（な）",
+"kana": "きれい（な）",
+"arti": "Indah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 104
+},
+{
+"kata": "確かに",
+"kana": "たしかに",
+"arti": "Pastinya",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 105
+},
+{
+"kata": "住みやすい",
+"kana": "すみやすい",
+"arti": "Nyaman",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 106
+},
+{
+"kata": "店",
+"kana": "みせ",
+"arti": "Toko / restoran",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 107
+},
+{
+"kata": "安い",
+"kana": "やすい",
+"arti": "Murah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 108
+},
+{
+"kata": "おもしろい",
+"kana": "おもしろい",
+"arti": "Menarik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 109
+},
+{
+"kata": "遠い",
+"kana": "とおい／とおい",
+"arti": "Jauh",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 110
+},
+{
+"kata": "どこか",
+"kana": "どこか",
+"arti": "Suatu tempat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 111
+},
+{
+"kata": "ところ",
+"kana": "ところ",
+"arti": "Tempat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 5,
+"no": 112
+},
+{
+"kata": "ある（町にあるもの）",
+"kana": "ある",
+"arti": "Ada (berbagai hal / sesuatu yang ada di kota)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 113
+},
+{
+"kata": "もの",
+"kana": "もの",
+"arti": "Hal / sesuatu; benda",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 114
+},
+{
+"kata": "信号",
+"kana": "しんごう",
+"arti": "Lampu lalu lintas",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 115
+},
+{
+"kata": "横断歩道",
+"kana": "おうだんほどう",
+"arti": "Penyeberangan pejalan kaki; zebra cross",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 116
+},
+{
+"kata": "角",
+"kana": "かど",
+"arti": "Sudut",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 117
+},
+{
+"kata": "交差点",
+"kana": "こうさてん",
+"arti": "Persimpangan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 118
+},
+{
+"kata": "道",
+"kana": "みち",
+"arti": "Jalan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 119
+},
+{
+"kata": "橋",
+"kana": "はし",
+"arti": "Jembatan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 120
+},
+{
+"kata": "道案内",
+"kana": "みちあんない",
+"arti": "Petunjuk arah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 121
+},
+{
+"kata": "まっすぐ",
+"kana": "まっすぐ",
+"arti": "Lurus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 122
+},
+{
+"kata": "左",
+"kana": "ひだり",
+"arti": "Kiri",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 123
+},
+{
+"kata": "曲がる",
+"kana": "まがる",
+"arti": "Belok; berbelok",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 124
+},
+{
+"kata": "右",
+"kana": "みぎ",
+"arti": "Kanan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 125
+},
+{
+"kata": "渡る",
+"kana": "わたる",
+"arti": "Menyeberang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 126
+},
+{
+"kata": "〜つ目",
+"kana": "〜つめ",
+"arti": "Yang~ (menyatakan urutan; angka)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 127
+},
+{
+"kata": "1 つ目",
+"kana": "ひとつめ",
+"arti": "Pertama",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 128
+},
+{
+"kata": "2 つ目",
+"kana": "ふたつめ",
+"arti": "Kedua",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 129
+},
+{
+"kata": "バス停",
+"kana": "バスてい",
+"arti": "Pemberhentian bus; halte bus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 130
+},
+{
+"kata": "郵便局",
+"kana": "ゆうびんきょく",
+"arti": "Kantor pos",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 131
+},
+{
+"kata": "デパート",
+"kana": "デパート",
+"arti": "Toserba; pasaraya; department store",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 132
+},
+{
+"kata": "かがく",
+"kana": "かがく",
+"arti": "Ilmu pengetahuan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 133
+},
+{
+"kata": "博物館",
+"kana": "はくぶつかん",
+"arti": "Museum",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 134
+},
+{
+"kata": "ずっと",
+"kana": "ずっと",
+"arti": "(lurus) terus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 135
+},
+{
+"kata": "銀行",
+"kana": "ぎんこう",
+"arti": "Bank",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 136
+},
+{
+"kata": "神社",
+"kana": "じんじゃ",
+"arti": "Kuil Shinto",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 137
+},
+{
+"kata": "駐車場",
+"kana": "ちゅうしゃじょう",
+"arti": "Tempat parkir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 138
+},
+{
+"kata": "交番",
+"kana": "こうばん",
+"arti": "Pos polisi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 139
+},
+{
+"kata": "病院",
+"kana": "びょういん",
+"arti": "Rumah sakit",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 140
+},
+{
+"kata": "黒い",
+"kana": "くろい",
+"arti": "Hitam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 141
+},
+{
+"kata": "白い",
+"kana": "しろい",
+"arti": "Putih",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 142
+},
+{
+"kata": "青い",
+"kana": "あおい",
+"arti": "Biru",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 143
+},
+{
+"kata": "ビル",
+"kana": "ビル",
+"arti": "Bangunan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 144
+},
+{
+"kata": "アジア食材",
+"kana": "アジアしょくざい",
+"arti": "Bahan makanan khas Asia",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 145
+},
+{
+"kata": "そちら",
+"kana": "そちら",
+"arti": "Di situ",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 146
+},
+{
+"kata": "北口",
+"kana": "きたぐち",
+"arti": "Pintu utara",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 147
+},
+{
+"kata": "間（〜と〜の間）",
+"kana": "あいだ（〜と〜のあいだ）",
+"arti": "Di antara 〜 dan 〜",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 148
+},
+{
+"kata": "そうすると",
+"kana": "そうすると",
+"arti": "Setelah itu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 149
+},
+{
+"kata": "見える",
+"kana": "みえる",
+"arti": "Terlihat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 150
+},
+{
+"kata": "お待ちしております",
+"kana": "おまちしております",
+"arti": "Kami menantikan kedatangan Anda.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 151
+},
+{
+"kata": "帰る",
+"kana": "かえる",
+"arti": "Pulang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 152
+},
+{
+"kata": "〜町（小島町）",
+"kana": "〜ちょう（こじまちょう）",
+"arti": "Kota~ (pembagian geografis dalam suatu distrik, mis. Kojima-cho / Kota Kojima)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 153
+},
+{
+"kata": "高校",
+"kana": "こうこう",
+"arti": "SMA",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 154
+},
+{
+"kata": "送る",
+"kana": "おくる",
+"arti": "Mengantar (orang)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 155
+},
+{
+"kata": "大きな",
+"kana": "おおきな",
+"arti": "Besar",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 156
+},
+{
+"kata": "入る",
+"kana": "はいる",
+"arti": "Masuk; berbelok",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 6,
+"no": 157
+},
+{
+"kata": "駅",
+"kana": "えき",
+"arti": "Stasiun",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 158
+},
+{
+"kata": "受付",
+"kana": "うけつけ",
+"arti": "Resepsionis; meja informasi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 159
+},
+{
+"kata": "ホール",
+"kana": "ホール",
+"arti": "Aula",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 160
+},
+{
+"kata": "会社",
+"kana": "かいしゃ",
+"arti": "Perusahaan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 161
+},
+{
+"kata": "門",
+"kana": "もん",
+"arti": "Gerbang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 162
+},
+{
+"kata": "集合（する）",
+"kana": "しゅうごう（する）",
+"arti": "Berkumpul",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 163
+},
+{
+"kata": "では",
+"kana": "では",
+"arti": "Jadi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 164
+},
+{
+"kata": "案内する",
+"kana": "あんないする",
+"arti": "Memandu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 165
+},
+{
+"kata": "待ち合わせ",
+"kana": "まちあわせ",
+"arti": "Janjian bertemu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 166
+},
+{
+"kata": "イベント",
+"kana": "イベント",
+"arti": "Acara",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 167
+},
+{
+"kata": "始まる",
+"kana": "はじまる",
+"arti": "Mulai",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 168
+},
+{
+"kata": "スタッフ",
+"kana": "スタッフ",
+"arti": "Staf",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 169
+},
+{
+"kata": "〜前（3 0分前）",
+"kana": "〜まえ（さんじゅっぷんまえ）",
+"arti": "〜 sebelum (30 menit sebelum)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 170
+},
+{
+"kata": "待ち合わせする",
+"kana": "まちあわせする",
+"arti": "Bertemu (satu sama lain)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 171
+},
+{
+"kata": "平和",
+"kana": "へいわ",
+"arti": "Perdamaian",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 172
+},
+{
+"kata": "鳥",
+"kana": "とり",
+"arti": "Burung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 173
+},
+{
+"kata": "像",
+"kana": "ぞう",
+"arti": "Patung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 174
+},
+{
+"kata": "それ、何ですか？",
+"kana": "それ、なんですか？",
+"arti": "Apa itu? (Ungkapan konfirmasi yang digunakan untuk bertanya sebaliknya kepada pembicara ketika kita tidak memahami apa",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 7,
+"no": 175
+},
+{
+"kata": "動物園",
+"kana": "どうぶつえん",
+"arti": "Kebun binatang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 176
+},
+{
+"kata": "お城",
+"kana": "おしろ",
+"arti": "Istana",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 177
+},
+{
+"kata": "レストラン",
+"kana": "レストラン",
+"arti": "Restoran",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 178
+},
+{
+"kata": "アウトレットモール",
+"kana": "アウトレットモール",
+"arti": "Outlet mall",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 179
+},
+{
+"kata": "プロレス",
+"kana": "プロレス",
+"arti": "Gulat profesional",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 180
+},
+{
+"kata": "タワー",
+"kana": "タワー",
+"arti": "Menara",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 181
+},
+{
+"kata": "野球",
+"kana": "やきゅう",
+"arti": "Bisbol",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 182
+},
+{
+"kata": "アジア",
+"kana": "アジア",
+"arti": "Asia",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 183
+},
+{
+"kata": "すごく",
+"kana": "すごく",
+"arti": "Sangat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 184
+},
+{
+"kata": "市民体育館",
+"kana": "しみんたいいくかん",
+"arti": "Gimnasium / gedung olahraga publik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 185
+},
+{
+"kata": "試合",
+"kana": "しあい",
+"arti": "Pertandingan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 186
+},
+{
+"kata": "やる",
+"kana": "やる",
+"arti": "Melakukan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 187
+},
+{
+"kata": "メンバー",
+"kana": "メンバー",
+"arti": "Anggota",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 188
+},
+{
+"kata": "足りない",
+"kana": "たりない",
+"arti": "Tidak cukup; kurang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 189
+},
+{
+"kata": "無理（な）",
+"kana": "むり（な）",
+"arti": "Tidak mungkin",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 190
+},
+{
+"kata": "わかる",
+"kana": "わかる",
+"arti": "Mengerti",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 191
+},
+{
+"kata": "おかね",
+"kana": "おかね",
+"arti": "Uang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 192
+},
+{
+"kata": "おろす",
+"kana": "おろす",
+"arti": "Menarik / mengambil (uang)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 193
+},
+{
+"kata": "食事",
+"kana": "しょくじ",
+"arti": "Makan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 8,
+"no": 194
+},
+{
+"kata": "日本語学校",
+"kana": "にほんごがっこう",
+"arti": "Sekolah bahasa Jepang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 195
+},
+{
+"kata": "どれぐらい",
+"kana": "どれぐらい",
+"arti": "Berapa lama",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 196
+},
+{
+"kata": "上手（な）",
+"kana": "じょうず（な）",
+"arti": "Pandai / terampil",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 197
+},
+{
+"kata": "〜間（2 年間）",
+"kana": "〜かん（にねんかん）",
+"arti": "Selama 〜 (selama 2 tahun)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 198
+},
+{
+"kata": "自分で",
+"kana": "じぶんで",
+"arti": "Melakukan sendiri",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 199
+},
+{
+"kata": "まだまだです",
+"kana": "まだ△まだです",
+"arti": "Masih belum begitu mahir.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 200
+},
+{
+"kata": "そんなことないです",
+"kana": "そんなことないです",
+"arti": "Tidak juga",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 201
+},
+{
+"kata": "大学",
+"kana": "だいがく",
+"arti": "Universitas",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 202
+},
+{
+"kata": "ラジオ",
+"kana": "ラジオ",
+"arti": "Radio",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 203
+},
+{
+"kata": "ネット",
+"kana": "ネット",
+"arti": "Internet",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 204
+},
+{
+"kata": "アプリ",
+"kana": "アプリ",
+"arti": "Aplikasi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 205
+},
+{
+"kata": "日本語",
+"kana": "にほんご",
+"arti": "Bahasa Jepang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 206
+},
+{
+"kata": "勉強",
+"kana": "べんきょう",
+"arti": "Belajar",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 207
+},
+{
+"kata": "簡単（な）",
+"kana": "かんたん（な）",
+"arti": "Mudah; gampang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 208
+},
+{
+"kata": "難しい",
+"kana": "むずかしい／むずかしい",
+"arti": "Susah; sulit",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 209
+},
+{
+"kata": "似ている",
+"kana": "にている",
+"arti": "Serupa; mirip",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 210
+},
+{
+"kata": "違う",
+"kana": "ちがう",
+"arti": "Berbeda",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 211
+},
+{
+"kata": "得意（な）",
+"kana": "とくい（な）／とくいな",
+"arti": "Mahir; pandai",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 212
+},
+{
+"kata": "にがて（な）",
+"kana": "にがて（な）",
+"arti": "Tidak mahir; tidak pandai",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 213
+},
+{
+"kata": "文法",
+"kana": "ぶんぽう",
+"arti": "Tata bahasa",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 214
+},
+{
+"kata": "発音",
+"kana": "はつおん",
+"arti": "Pelafalan; pengucapan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 9,
+"no": 215
+},
+{
+"kata": "曜日",
+"kana": "ようび",
+"arti": "Hari",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 216
+},
+{
+"kata": "時間",
+"kana": "じかん",
+"arti": "Waktu; jam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 217
+},
+{
+"kata": "費用",
+"kana": "ひよう",
+"arti": "Biaya",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 218
+},
+{
+"kata": "毎月",
+"kana": "まいつき",
+"arti": "Setiap bulan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 219
+},
+{
+"kata": "第〜（第 3木曜日）",
+"kana": "だい〜（だいさんもくようび）",
+"arti": "Ke~ (menyatakan urutan ke-1, ke-2, ke-3 dan seterusnya. Misalnya : hari Kamis ke-3 (ketiga) setiap bulannya)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 220
+},
+{
+"kata": "公民館",
+"kana": "こうみんかん",
+"arti": "Balai kegiatan publik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 221
+},
+{
+"kata": "問い合わせ",
+"kana": "といあわせ",
+"arti": "Informasi lebih lanjut",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 222
+},
+{
+"kata": "スタート（1 0月スタート）",
+"kana": "スタート",
+"arti": "Mulai (mulai bulan Oktober)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 223
+},
+{
+"kata": "旬",
+"kana": "しゅん／しゅん",
+"arti": "Masakan; makanan musiman",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 224
+},
+{
+"kata": "味わう",
+"kana": "あじわう",
+"arti": "Merasakan; mencicipi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 225
+},
+{
+"kata": "全〜回（全 4回）",
+"kana": "ぜん〜かい",
+"arti": "Total sebanyak 〜 kali (total sebanyak 4 kali)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 226
+},
+{
+"kata": "調理室",
+"kana": "ちょうりしつ",
+"arti": "Dapur",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 227
+},
+{
+"kata": "各",
+"kana": "かく",
+"arti": "Setiap; masing-masing",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 228
+},
+{
+"kata": "先着",
+"kana": "せんちゃく",
+"arti": "Pendaftaran dengan prinsip sesuai urutan waktu daftar; pendaftar yang lebih dulu akan mendapatkan tempat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 229
+},
+{
+"kata": "書道",
+"kana": "しょどう",
+"arti": "Kaligrafi Jepang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 230
+},
+{
+"kata": "日時",
+"kana": "にちじ",
+"arti": "Tanggal, hari dan waktu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 231
+},
+{
+"kata": "〜代（テキスト代）",
+"kana": "〜だい（テキストだい）",
+"arti": "Biaya〜 (biaya buku)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 232
+},
+{
+"kata": "外国人向け",
+"kana": "がいこくじんむけ",
+"arti": "Bagi orang asing",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 233
+},
+{
+"kata": "体験教室",
+"kana": "たいけんきょうしつ",
+"arti": "Kelas percobaan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 10,
+"no": 234
+},
+{
+"kata": "バーベキュー",
+"kana": "バーベキュー",
+"arti": "Barbeku; BBQ",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 235
+},
+{
+"kata": "肉",
+"kana": "にく",
+"arti": "Daging",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 236
+},
+{
+"kata": "牛肉",
+"kana": "ぎゅうにく",
+"arti": "Daging sapi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 237
+},
+{
+"kata": "豚肉",
+"kana": "ぶたにく",
+"arti": "Daging babi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 238
+},
+{
+"kata": "鶏肉",
+"kana": "とりにく",
+"arti": "Daging ayam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 239
+},
+{
+"kata": "ソーセージ",
+"kana": "ソーセージ",
+"arti": "Sosis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 240
+},
+{
+"kata": "シーフード",
+"kana": "シーフード",
+"arti": "Makanan laut; seafood",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 241
+},
+{
+"kata": "魚",
+"kana": "さかな",
+"arti": "Ikan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 242
+},
+{
+"kata": "エビ",
+"kana": "エビ",
+"arti": "Udang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 243
+},
+{
+"kata": "イカ",
+"kana": "イカ",
+"arti": "Cumi-cumi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 244
+},
+{
+"kata": "ホタテ",
+"kana": "ホタテ",
+"arti": "Kerang; simping",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 245
+},
+{
+"kata": "りんご",
+"kana": "りんご",
+"arti": "Apel",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 246
+},
+{
+"kata": "バナナ",
+"kana": "バナナ",
+"arti": "Pisang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 247
+},
+{
+"kata": "焼きそば",
+"kana": "やきそば",
+"arti": "Yakisoba (mie goreng)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 248
+},
+{
+"kata": "おにぎり",
+"kana": "おにぎり",
+"arti": "Onigiri (rice ball; nasi kepal)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 249
+},
+{
+"kata": "焼肉",
+"kana": "やきにく",
+"arti": "Yakiniku (daging panggang khas Jepang)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 250
+},
+{
+"kata": "たれ",
+"kana": "たれ",
+"arti": "Tare (saus celup; saus cocol)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 251
+},
+{
+"kata": "ソース",
+"kana": "ソース",
+"arti": "Saus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 252
+},
+{
+"kata": "お菓子",
+"kana": "おかし",
+"arti": "Kue",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 253
+},
+{
+"kata": "ソフトドリンク",
+"kana": "ソフトドリンク",
+"arti": "Soft drink; minuman ringan (tanpa alkohol)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 254
+},
+{
+"kata": "お茶",
+"kana": "おちゃ",
+"arti": "Teh; teh khas Jepang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 255
+},
+{
+"kata": "ジュース",
+"kana": "ジュース",
+"arti": "Jus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 256
+},
+{
+"kata": "お酒",
+"kana": "おさけ",
+"arti": "Alkohol",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 257
+},
+{
+"kata": "ビール",
+"kana": "ビール",
+"arti": "Bir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 11,
+"no": 258
+},
+{
+"kata": "味",
+"kana": "あじ",
+"arti": "Rasa",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 259
+},
+{
+"kata": "甘い",
+"kana": "あまい／あまい",
+"arti": "Manis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 260
+},
+{
+"kata": "辛い",
+"kana": "からい",
+"arti": "Pedas",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 261
+},
+{
+"kata": "すっぱい",
+"kana": "すっぱい",
+"arti": "Asam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 262
+},
+{
+"kata": "しょっぱい",
+"kana": "しょっぱい",
+"arti": "Asin",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 263
+},
+{
+"kata": "苦い",
+"kana": "にがい",
+"arti": "Pahit",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 264
+},
+{
+"kata": "こい（味がこい）",
+"kana": "こい（あじがこい）",
+"arti": "Kental; kuat (contoh : rasanya kental / kuat / kaya rasa)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 265
+},
+{
+"kata": "うすい（味がうすい）",
+"kana": "うすい／うすい",
+"arti": "Hambar (contoh : rasanya hambar)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 266
+},
+{
+"kata": "まずい",
+"kana": "まずい",
+"arti": "Tidak enak; tidak lezat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 267
+},
+{
+"kata": "お弁当",
+"kana": "おべんとう",
+"arti": "Bekal",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 268
+},
+{
+"kata": "チョコレートバニラクリームラテ",
+"kana": "チョコレートバニラクリームラテ",
+"arti": "Minuman chocolate vanilla cream latte",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 269
+},
+{
+"kata": "みかん",
+"kana": "みかん",
+"arti": "Jeruk",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 270
+},
+{
+"kata": "庭",
+"kana": "にわ",
+"arti": "Halaman; pekarangan; taman",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 271
+},
+{
+"kata": "とれる",
+"kana": "とれる",
+"arti": "Petik; memetik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 272
+},
+{
+"kata": "そんなことない",
+"kana": "そんなことない",
+"arti": "Sebenarnya tidak begitu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 273
+},
+{
+"kata": "卵焼き",
+"kana": "たまごやき",
+"arti": "Tamago-yaki (telur dadar gulung)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 274
+},
+{
+"kata": "お好み焼き",
+"kana": "おこのみやき",
+"arti": "Okonomiyaki (panekuk khas Jepang yang isiannya berbagai macam jenis sayur, daging, dan seafood)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 275
+},
+{
+"kata": "梅干し",
+"kana": "うめぼし",
+"arti": "Umeboshi (asinan buah prem Jepang)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 276
+},
+{
+"kata": "すき焼き",
+"kana": "すきやき",
+"arti": "Sukiyaki (hidangan rebus yang berisi irisan tipis daging sapi, daun bawang, sayur, dll yang dimasak dalam panci)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 277
+},
+{
+"kata": "生",
+"kana": "なま",
+"arti": "Mentah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 278
+},
+{
+"kata": "もう1 つ",
+"kana": "もうひとつ",
+"arti": "Satu lagi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 12,
+"no": 279
+},
+{
+"kata": "電気",
+"kana": "でんき",
+"arti": "Lampu; listrik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 280
+},
+{
+"kata": "つく（電気がつく）",
+"kana": "つく（でんきがつく）",
+"arti": "Menyala (lampu menyala)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 281
+},
+{
+"kata": "変（な）",
+"kana": "へん（な）",
+"arti": "Aneh",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 282
+},
+{
+"kata": "音",
+"kana": "おと",
+"arti": "Bunyi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 283
+},
+{
+"kata": "音がする",
+"kana": "おとがする",
+"arti": "Berbunyi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 284
+},
+{
+"kata": "動く",
+"kana": "うごく",
+"arti": "Bergerak; beroperasi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 285
+},
+{
+"kata": "トイレットペーパー",
+"kana": "トイレットペーパー",
+"arti": "Tisu toilet",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 286
+},
+{
+"kata": "なくなる",
+"kana": "なくなる",
+"arti": "Habis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 287
+},
+{
+"kata": "業者",
+"kana": "ぎょうしゃ／ぎょうしゃ",
+"arti": "Dealer; vendor",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 288
+},
+{
+"kata": "電話する",
+"kana": "でんわする",
+"arti": "Menelepon",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 289
+},
+{
+"kata": "再起動する",
+"kana": "さいきどうする",
+"arti": "To restart; memulai ulang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 290
+},
+{
+"kata": "管理室",
+"kana": "かんりしつ",
+"arti": "Ruang manajemen; ruang kontrol",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 291
+},
+{
+"kata": "連絡する",
+"kana": "れんらくする",
+"arti": "Menghubungi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 292
+},
+{
+"kata": "倉庫",
+"kana": "そうこ",
+"arti": "Gudang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 293
+},
+{
+"kata": "取って来る",
+"kana": "とってくる",
+"arti": "Mengambil (lalu kembali ke tempat semula)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 294
+},
+{
+"kata": "コーヒーマシーン",
+"kana": "コーヒーマシーン",
+"arti": "Mesin pembuat kopi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 295
+},
+{
+"kata": "パソコン",
+"kana": "パソコン",
+"arti": "PC; komputer",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 296
+},
+{
+"kata": "とりあえず",
+"kana": "とりあえず",
+"arti": "Untuk saat ini; sementara ini",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 297
+},
+{
+"kata": "やり方",
+"kana": "やりかた",
+"arti": "Cara melakukan (sesuatu)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 298
+},
+{
+"kata": "おわる",
+"kana": "おわる",
+"arti": "Selesai",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 299
+},
+{
+"kata": "もうすぐ",
+"kana": "もうすぐ",
+"arti": "Segera; sebentar lagi; hampir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 300
+},
+{
+"kata": "できる",
+"kana": "できる",
+"arti": "Selesai; rampung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 13,
+"no": 301
+},
+{
+"kata": "混んでいる",
+"kana": "こんでいる",
+"arti": "Macet",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 302
+},
+{
+"kata": "せき",
+"kana": "せき",
+"arti": "Batuk",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 303
+},
+{
+"kata": "ひどい",
+"kana": "ひどい",
+"arti": "Parah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 304
+},
+{
+"kata": "熱",
+"kana": "ねつ",
+"arti": "Demam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 305
+},
+{
+"kata": "熱がある",
+"kana": "ねつがある",
+"arti": "Demam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 306
+},
+{
+"kata": "財布",
+"kana": "さいふ",
+"arti": "Dompet",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 307
+},
+{
+"kata": "忘れる",
+"kana": "わすれる",
+"arti": "Lupa",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 308
+},
+{
+"kata": "家",
+"kana": "いえ",
+"arti": "Rumah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 309
+},
+{
+"kata": "これから",
+"kana": "これから",
+"arti": "Sekarang; setelah ini",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 310
+},
+{
+"kata": "取る",
+"kana": "とる",
+"arti": "Mengambil",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 311
+},
+{
+"kata": "それで",
+"kana": "それで",
+"arti": "Oleh karena itu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 312
+},
+{
+"kata": "遅くなる",
+"kana": "おそくなる",
+"arti": "Terlambat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 313
+},
+{
+"kata": "みなさん",
+"kana": "みなさん",
+"arti": "Semua orang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 314
+},
+{
+"kata": "伝える",
+"kana": "つたえる",
+"arti": "Menyampaikan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 315
+},
+{
+"kata": "遅刻する",
+"kana": "ちこくする",
+"arti": "Terlambat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 316
+},
+{
+"kata": "あとで",
+"kana": "あとで",
+"arti": "Nanti",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 317
+},
+{
+"kata": "休む",
+"kana": "やすむ",
+"arti": "Cuti; tidak masuk kerja; libur",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 318
+},
+{
+"kata": "申し訳ありません",
+"kana": "もうしわけありません",
+"arti": "Saya mohon maaf.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 319
+},
+{
+"kata": "具合が悪い",
+"kana": "ぐあいがわるい",
+"arti": "(kondisi tubuh) kurang fit; tidak enak badan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 14,
+"no": 320
+},
+{
+"kata": "症状",
+"kana": "しょうじょう",
+"arti": "Gejala penyakit",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 321
+},
+{
+"kata": "のど",
+"kana": "のど",
+"arti": "Tenggorokan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 322
+},
+{
+"kata": "痛い",
+"kana": "いたい",
+"arti": "Sakit",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 323
+},
+{
+"kata": "お腹",
+"kana": "おなか",
+"arti": "Perut",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 324
+},
+{
+"kata": "出る (せき／鼻水が出る）",
+"kana": "でるでる）",
+"arti": "Keluar; sedang mengalami (batuk / pilek)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 325
+},
+{
+"kata": "鼻水",
+"kana": "はなみず／はなみず",
+"arti": "Ingus (pada saat pilek)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 326
+},
+{
+"kata": "吐き気",
+"kana": "はきけ",
+"arti": "Mual; rasa ingin muntah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 327
+},
+{
+"kata": "吐き気がする",
+"kana": "はきけがする",
+"arti": "Merasa mual",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 328
+},
+{
+"kata": "食欲",
+"kana": "しょくよく／しょくよく",
+"arti": "Nafsu makan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 329
+},
+{
+"kata": "目",
+"kana": "め",
+"arti": "Mata",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 330
+},
+{
+"kata": "かゆい",
+"kana": "かゆい",
+"arti": "Gatal",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 331
+},
+{
+"kata": "足",
+"kana": "あし",
+"arti": "Kaki",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 332
+},
+{
+"kata": "くじく",
+"kana": "くじく",
+"arti": "Keseleo",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 333
+},
+{
+"kata": "頭",
+"kana": "あたま",
+"arti": "Kepala",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 334
+},
+{
+"kata": "ぶつける",
+"kana": "ぶつける",
+"arti": "Terantuk; terbentur; menabrak",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 335
+},
+{
+"kata": "おととい",
+"kana": "おととい／おととい",
+"arti": "Kemarin lusa; 2 hari lalu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 336
+},
+{
+"kata": "転ぶ",
+"kana": "ころぶ",
+"arti": "Jatuh",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 337
+},
+{
+"kata": "こう",
+"kana": "こう",
+"arti": "Begini; seperti ini",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 338
+},
+{
+"kata": "レントゲン",
+"kana": "レントゲン",
+"arti": "Rontgen",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 339
+},
+{
+"kata": "〜週間（1 週間）",
+"kana": "〜しゅうかん",
+"arti": "〜 minggu / pekan (seminggu / sepekan)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 340
+},
+{
+"kata": "花粉症",
+"kana": "かふんしょう",
+"arti": "Alergi polen (serbuk sari)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 15,
+"no": 341
+},
+{
+"kata": "顔",
+"kana": "かお",
+"arti": "Muka; wajah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 342
+},
+{
+"kata": "体",
+"kana": "からだ",
+"arti": "Badan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 343
+},
+{
+"kata": "鼻",
+"kana": "はな",
+"arti": "Hidung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 344
+},
+{
+"kata": "歯",
+"kana": "は",
+"arti": "Gigi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 345
+},
+{
+"kata": "首",
+"kana": "くび",
+"arti": "Leher",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 346
+},
+{
+"kata": "耳",
+"kana": "みみ",
+"arti": "Telinga",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 347
+},
+{
+"kata": "口",
+"kana": "くち",
+"arti": "Mulut",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 348
+},
+{
+"kata": "肩",
+"kana": "かた",
+"arti": "Bahu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 349
+},
+{
+"kata": "胸",
+"kana": "むね",
+"arti": "Dada",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 350
+},
+{
+"kata": "背中",
+"kana": "せなか",
+"arti": "Punggung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 351
+},
+{
+"kata": "腰",
+"kana": "こし",
+"arti": "Pinggang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 352
+},
+{
+"kata": "腕",
+"kana": "うで",
+"arti": "Lengan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 353
+},
+{
+"kata": "手",
+"kana": "て",
+"arti": "Tangan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 354
+},
+{
+"kata": "指",
+"kana": "ゆび",
+"arti": "Jari",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 355
+},
+{
+"kata": "肩がこる",
+"kana": "かたがこる",
+"arti": "Bahu kaku",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 356
+},
+{
+"kata": "だるい",
+"kana": "だるい／だるい",
+"arti": "Lemas; terlalu letih dan lesu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 357
+},
+{
+"kata": "胃",
+"kana": "い",
+"arti": "Lambung",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 358
+},
+{
+"kata": "調子が悪い",
+"kana": "ちょうしがわるい",
+"arti": "Dalam kondisi tidak baik",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 359
+},
+{
+"kata": "二日酔い",
+"kana": "ふつかよい",
+"arti": "Keadaan tidak nyaman setelah bangun tidur, akibat terlalu banyak mengonsumsi minuman beralkohol",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 16,
+"no": 360
+},
+{
+"kata": "上がる",
+"kana": "あがる",
+"arti": "Masuk ke rumah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 361
+},
+{
+"kata": "うちの",
+"kana": "うちの",
+"arti": "~saya",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 362
+},
+{
+"kata": "奥さん",
+"kana": "おくさん",
+"arti": "Istri",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 363
+},
+{
+"kata": "息子",
+"kana": "むすこ",
+"arti": "Putra; anak laki-laki",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 364
+},
+{
+"kata": "お茶",
+"kana": "おちゃ",
+"arti": "Teh khas Jepang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 365
+},
+{
+"kata": "足をくずす",
+"kana": "あしをくずす",
+"arti": "Duduk lebih rileks dan nyaman",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 366
+},
+{
+"kata": "楽にする",
+"kana": "らくにする",
+"arti": "Anggap saja seperti di rumah sendiri",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 367
+},
+{
+"kata": "遊びに来る",
+"kana": "あそびにくる",
+"arti": "Datang berkunjung (main)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 368
+},
+{
+"kata": "ごめんください",
+"kana": "ごめんください",
+"arti": "Permisi.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 369
+},
+{
+"kata": "いらっしゃい",
+"kana": "いらっしゃい",
+"arti": "Selamat datang. / Silakan masuk.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 370
+},
+{
+"kata": "ようこそ",
+"kana": "ようこそ",
+"arti": "Selamat datang.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 371
+},
+{
+"kata": "おじゃまします",
+"kana": "おじゃまします",
+"arti": "Permisi, mohon maaf mengganggu Anda.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 372
+},
+{
+"kata": "お世話になっています",
+"kana": "おせわになっています",
+"arti": "Terima kasih untuk semua bantuannya selama ini.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 373
+},
+{
+"kata": "こちらこそ",
+"kana": "こちらこそ",
+"arti": "Sama-sama.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 374
+},
+{
+"kata": "ごちそうさまでした",
+"kana": "ごちそうさまでした",
+"arti": "Terima kasih untuk hidangannya.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 375
+},
+{
+"kata": "おじゃましました",
+"kana": "おじゃましました",
+"arti": "Maaf saya telah mengganggu / merepotkan Anda.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 376
+},
+{
+"kata": "お土産",
+"kana": "おみやげ",
+"arti": "Oleh-oleh; cendera mata",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 377
+},
+{
+"kata": "コーヒー",
+"kana": "コーヒー",
+"arti": "Kopi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 378
+},
+{
+"kata": "調味料",
+"kana": "ちょうみりょう",
+"arti": "Bumbu",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 379
+},
+{
+"kata": "カップ",
+"kana": "カップ",
+"arti": "Cangkir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 380
+},
+{
+"kata": "キーホルダー",
+"kana": "キーホルダー",
+"arti": "Gantungan kunci",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 381
+},
+{
+"kata": "ペン",
+"kana": "ペン",
+"arti": "Pena",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 17,
+"no": 382
+},
+{
+"kata": "結婚（する）",
+"kana": "けっこん（する）",
+"arti": "Menikah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 383
+},
+{
+"kata": "出産",
+"kana": "しゅっさん",
+"arti": "Melahirkan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 384
+},
+{
+"kata": "生まれる",
+"kana": "うまれる",
+"arti": "Lahir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 385
+},
+{
+"kata": "合格（する）",
+"kana": "ごうかく（する）",
+"arti": "Lulus",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 386
+},
+{
+"kata": "男の子",
+"kana": "おとこのこ",
+"arti": "Anak laki-laki",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 387
+},
+{
+"kata": "女の子",
+"kana": "おんなのこ",
+"arti": "Anak perempuan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 388
+},
+{
+"kata": "決める",
+"kana": "きめる",
+"arti": "Memutuskan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 389
+},
+{
+"kata": "考える",
+"kana": "かんがえる",
+"arti": "Berpikir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 390
+},
+{
+"kata": "ご結婚",
+"kana": "ごけっこん",
+"arti": "Pernikahan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 391
+},
+{
+"kata": "私たち",
+"kana": "わたしたち",
+"arti": "Kami; kita",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 392
+},
+{
+"kata": "うれしい",
+"kana": "うれしい",
+"arti": "Senang",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 393
+},
+{
+"kata": "相手",
+"kana": "あいて",
+"arti": "Pasangan; suami / istri",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 394
+},
+{
+"kata": "お祝い",
+"kana": "おいわい",
+"arti": "Perayaan; hadiah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 395
+},
+{
+"kata": "ごちそうする",
+"kana": "ごちそうする",
+"arti": "Menjamu; mentraktir",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 396
+},
+{
+"kata": "きっと",
+"kana": "きっと",
+"arti": "Pasti",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 397
+},
+{
+"kata": "あげる",
+"kana": "あげる",
+"arti": "Memberi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 398
+},
+{
+"kata": "楽しみですね",
+"kana": "たのしみですね",
+"arti": "Wah, menyenangkan, ya.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 399
+},
+{
+"kata": "おめでとう（ございます）",
+"kana": "おめでとう（ございます）",
+"arti": "Selamat .",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 400
+},
+{
+"kata": "お幸せに",
+"kana": "おしあわせに",
+"arti": "Semoga bahagia.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 401
+},
+{
+"kata": "J LPT",
+"kana": "ジェーエルピーティー",
+"arti": "JLPT (Japanese-Language Proficiency Test)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 402
+},
+{
+"kata": "フォトフレーム",
+"kana": "フォトフレーム",
+"arti": "Bingkai foto",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 403
+},
+{
+"kata": "時計",
+"kana": "とけい",
+"arti": "Jam",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 404
+},
+{
+"kata": "ネクタイ",
+"kana": "ネクタイ",
+"arti": "Dasi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 405
+},
+{
+"kata": "メッセージ",
+"kana": "メッセージ",
+"arti": "Pesan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 406
+},
+{
+"kata": "とうとう",
+"kana": "とうとう",
+"arti": "Akhirnya",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 407
+},
+{
+"kata": "〜代（3 0代）",
+"kana": "〜だい（さんじゅうだい）",
+"arti": "〜 an (usia 30-an)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 408
+},
+{
+"kata": "歌う",
+"kana": "うたう",
+"arti": "Menyanyi",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 409
+},
+{
+"kata": "踊る",
+"kana": "おどる",
+"arti": "Menari",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 410
+},
+{
+"kata": "サービス",
+"kana": "サービス",
+"arti": "Layanan; layanan gratis",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 411
+},
+{
+"kata": "あたたかい",
+"kana": "あたたかい",
+"arti": "Hangat",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 412
+},
+{
+"kata": "カラオケ",
+"kana": "カラオケ",
+"arti": "Karaoke",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 413
+},
+{
+"kata": "幸せ（な）",
+"kana": "しあわせ（な）",
+"arti": "Bahagia",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 414
+},
+{
+"kata": "素敵（な）",
+"kana": "すてき（な）",
+"arti": "Istimewa; indah",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 415
+},
+{
+"kata": "〜ますように",
+"kana": "〜ますように",
+"arti": "Semoga〜 . (digunakan untuk mengekspresikan harapan)",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 416
+},
+{
+"kata": "家庭",
+"kana": "かてい",
+"arti": "Rumah tangga; keluarga",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 417
+},
+{
+"kata": "いつまでも",
+"kana": "いつまでも",
+"arti": "Selamanya",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 418
+},
+{
+"kata": "築く",
+"kana": "きずく",
+"arti": "Membangun",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 419
+},
+{
+"kata": "末永く",
+"kana": "すえながく",
+"arti": "Selamanya",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 420
+},
+{
+"kata": "いなくなる",
+"kana": "いなくなる",
+"arti": "Pergi meninggalkan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 421
+},
+{
+"kata": "がんばってください",
+"kana": "がんばってください",
+"arti": "Sukses selalu dan tetap semangat.",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 422
+},
+{
+"kata": "これまで",
+"kana": "これまで",
+"arti": "Sampai saat ini",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 423
+},
+{
+"kata": "活躍",
+"kana": "かつやく",
+"arti": "Keberhasilan",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 424
+},
+{
+"kata": "期待する",
+"kana": "きたいする",
+"arti": "Berharap",
+"contoh": "",
+"arti_contoh": "",
+"pos": [],
+"bab": 18,
+"no": 425
+}
+]
