@@ -192,6 +192,11 @@ def main(levels):
         lvl, pk = m.group(1), int(m.group(2))
         data, errs = build(lvl, pk)
         all_errs += errs
+        if lvl == "n3":  # gambar adegan/pilihan (assets/jlpt/img); level lain menyusul
+            sys.path.insert(0, os.path.join(ROOT, "tools", "jlpt_img"))
+            from attach import attach
+            for sec in data["sections"]:
+                for it in sec["items"]: attach(it, sec["type"], it["id"], it["set"], it["opts"])
         json.dump(data, open(os.path.join(OUT, f"{lvl}-p{pk}.json"), "w", encoding="utf-8"),
                   ensure_ascii=False, separators=(",", ":"))
         pk_list = sorted(set(index.get(lvl, []) + [pk]))

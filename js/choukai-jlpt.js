@@ -153,12 +153,12 @@ function cardHtml(lvl, sec, it, ans, exam){
       let cls = "ck-opt";
       if (v != null){ if (oi === q.ans) cls += " ok"; else if (oi === v) cls += " ng"; else cls += " dim"; }
       return `<button class="${cls}" ${v != null ? "disabled" : ""} onclick="ckAnswer('${lvl}','${it.id}',${qi},${oi})">
-        <span class="n">${NUM[oi]}</span><span class="t">${hideOpts ? "<i>(didengarkan)</i>" : esc(o)}</span></button>`;
+        <span class="n">${NUM[oi]}</span><span class="t">${it.oimg && it.oimg[oi] ? `<img class="ck-oimg" src="./${it.oimg[oi]}" alt="Pilihan ${oi + 1}" loading="lazy" draggable="false">${v != null ? `<small>${esc(o)}</small>` : ""}` : hideOpts ? "<i>(didengarkan)</i>" : esc(o)}</span></button>`;
     }).join("");
     const verdict = v == null ? "" : `<div class="ck-verdict ${v === q.ans ? "ok" : "ng"}">${v === q.ans ? "✅ Benar!" : `❌ Kurang tepat — jawaban: ${NUM[q.ans]}`}</div>`;
-    return `${head}<div class="ck-opts ${it.opts.length === 3 ? "three" : ""}">${btns}</div>${verdict}`;
+    return `${head}<div class="ck-opts ${it.opts.length === 3 ? "three" : ""} ${it.oimg ? "pics" : ""}">${btns}</div>${verdict}`;
   }).join("");
-  const scene = sec.type === "hatsuwa" ? `<div class="ck-scene">🖼️ <b>${esc(it.scene)}</b><div class="jp">${esc(it.set)}</div></div>` : "";
+  const scene = sec.type === "hatsuwa" ? (it.img ? `<div class="ck-scene pic"><img src="./${it.img}" alt="Gambar situasi" loading="lazy" draggable="false">${answered || !exam ? `<b>${esc(it.scene)}</b><div class="jp">${esc(it.set)}</div>` : ""}</div>` : `<div class="ck-scene">🖼️ <b>${esc(it.scene)}</b><div class="jp">${esc(it.set)}</div></div>`) : "";
   const setting = (!exam || answered) && it.set && sec.type !== "hatsuwa" ? `<div class="ck-set">${esc(it.set)}</div>` : "";
   const script = it.script.map(l => `<div class="ck-line"><span class="s">${SPK[l.s] || ""}</span><span class="t">${esc(l.t)}</span></div>`).join("");
   return `
