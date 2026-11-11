@@ -315,3 +315,6 @@ body.sw-figopen{padding-bottom:62vh;}
 #sw-langfloat.show{display:flex;}
 #sw-langfloat button{min-width:56px;}
 .sw-rtool .r1{top:var(--tb-h,0px);}
+
+.sw-tsub{margin:2px 0 8px;font-size:.92rem;color:var(--muted,#6b7280);font-weight:500}
+.sw-qrow .sw-tsub{margin-left:6px;font-size:.8rem}
