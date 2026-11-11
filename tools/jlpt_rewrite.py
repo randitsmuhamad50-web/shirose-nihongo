@@ -12,6 +12,14 @@ def load(n, var):
     sp = importlib.util.spec_from_file_location(n, f); m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m)
     return getattr(m, var)
 BANK = {k: v for k, v in ((k, load(k, VAR[k])) for k in VAR) if v}
+NEX = int(os.environ.get('NEX', '10'))
+if os.environ.get('AUTO', '1') == '1':
+    sys.path.insert(0, H)
+    import jlpt_vocab_gen as _g
+    _Y, _H = _g.build(LV)
+    _hy = {r[1] for r in BANK.get('yomi', [])}; _hh = {r[1] for r in BANK.get('hyouki', [])}
+    BANK['yomi'] = list(BANK.get('yomi', [])) + [r for r in _Y if r[1] not in _hy]
+    BANK['hyouki'] = list(BANK.get('hyouki', [])) + [r for r in _H if r[1] not in _hh]
 def u(s): return re.sub(r'\[(.+?)\]', r'<u>\1</u>', s)
 def plain(s): return re.sub(r'\[(.+?)\]', r'\1', s)
 SMALL = {'iikae': '<br><small>Pilih kalimat yang maknanya paling dekat dengan kalimat bergaris bawah.</small>'}
@@ -24,13 +32,13 @@ def distract(r, seed):
         if ch == 'っ': c.append(r[:i] + r[i+1:])
         if ch in 'ょゅゃ': c.append(r[:i] + {'ょ':'よ','ゅ':'ゆ','ゃ':'や'}[ch] + r[i+1:])
         if ch == 'う' and i > 0: c.append(r[:i] + r[i+1:])
-        if ch in 'おこそとのほもよろごぞどぼぽょ' and r[i+1:i+2] not in ('う', 'ゃ', 'ゅ', 'ょ', 'い'): c.append(r[:i+1] + 'う' + r[i+1:])
+        if ch in 'おこそとのほもよろごぞどぼぽょ' and i < len(r) - 1 and r[i+1:i+2] not in ('う', 'ゃ', 'ゅ', 'ょ', 'い'): c.append(r[:i+1] + 'う' + r[i+1:])
         if ch in 'いきしちにひみりぎじ' and r[i+1:i+2] not in ('い', 'ゃ', 'ゅ', 'ょ', 'う', 'え') and i < len(r) - 1: c.append(r[:i+1] + 'い' + r[i+1:])
         if ch in 'かさたはまやらわ' and i < len(r) - 1 and r[i+1:i+2] not in 'ゃゅょ': c.append(r[:i+1] + 'っ' + r[i+1:] if r[i+1] in 'かきくけこさしすせそたちつてとぱぴぷぺぽ' else r)
     c = [x for x in dict.fromkeys(c) if x != r and len(x) >= 2]
     rr.shuffle(c)
     if len(c) < 3:  # cadangan: ganti vokal pada satu mora / tukar dua mora
-        ROWS = ['あいうえお', 'かきくけこ', 'さしすせそ', 'たちつてと', 'なにぬねの', 'はひふへほ', 'まみむめも', 'らりるれろ']
+        ROWS = ['あいうえお', 'かきくけこ', 'さしすせそ', 'たちつてと', 'なにぬねの', 'はひふへほ', 'まみむめも', 'らりるれろ', 'がぎぐげご', 'ざじずぜぞ', 'だぢづでど', 'ばびぶべぼ', 'ぱぴぷぺぽ', 'やゆよ']
         for i, ch in enumerate(r):
             for row in ROWS:
                 if ch in row:
@@ -88,9 +96,13 @@ def build(tipe, e, i, row):
     opsi = [f'{L[k]}. {o} — BENAR. {al.split(". ")[0]}.' if k == a else f'{L[k]}. {o} — Salah. {why(o)}' for k, o in enumerate(opts)]
     return {'q': qq, 'opts': opts, 'ans': a, 'ex': {'jawaban': f'{L[a]}. {opts[a]}', 'terjemahan': tr, 'alasan': al, 'opsi': opsi, 'kosakata': None, 'poin': poin}}
 def main():
-    for e in range(10):
+    for e in range(NEX):
         fp = os.path.join(ROOT, 'jlpt', LV, f'full-{e+1:02d}.json')
-        d = json.load(open(fp, encoding='utf8'))
+        if os.path.exists(fp): d = json.load(open(fp, encoding='utf8'))
+        else:
+            d = json.load(open(os.path.join(ROOT, 'jlpt', LV, 'full-01.json'), encoding='utf8'))
+            d['id'] = f'{LV}-full-{e+1:02d}'; d['judul'] = f'JLPT {LV.upper()} Full Exam {e+1:02d}'
+            d['sections'] = [s for s in d['sections'] if s['tipe'] in BANK]; d['passages'] = {}; d['staging'] = True
         for s in d['sections']:
             t = s['tipe']
             if t not in BANK: continue
