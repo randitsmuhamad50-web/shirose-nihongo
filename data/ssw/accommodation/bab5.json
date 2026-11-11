@@ -1,0 +1,285 @@
+{
+ "schema": 1,
+ "bidang": "accommodation",
+ "source": "全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』(2024)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab5",
+  "no": 5,
+  "title": {
+   "id": "Keselamatan, Kebersihan, dan Pengetahuan Dasar Lain",
+   "jp": "{安全衛生管理|あんぜんえいせいかんり}・その{他|た}{基礎知識|きそちしき}"
+  },
+  "intro": {
+   "id": "Risiko, keselamatan tamu, kebersihan, pengelolaan fasilitas, lingkungan.",
+   "jp": "{安全衛生管理|あんぜんえいせいかんり}・その{他|た}{基礎知識|きそちしき}"
+  },
+  "pages": [
+   46,
+   51
+  ],
+  "subs": [
+   {
+    "id": "b5s1",
+    "no": 1,
+    "title": {
+     "id": "Memahami dan Menghindari Risiko",
+     "jp": "リスクの{理解|りかい}と{回避|かいひ}"
+    },
+    "pages": [
+     47,
+     47
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Penginapan dihuni banyak tamu tak dikenal dalam waktu lama; kebakaran, bencana alam, dan kecelakaan bisa terjadi kapan saja. Latih diri dan simulasikan respons."
+      },
+      {
+       "ul": [
+        "Ikuti latihan evakuasi kebakaran/gempa.",
+        "Ketahui lokasi & cara pakai alat keselamatan (alarm kebakaran, APAR, alat evakuasi kamar).",
+        "Selalu periksa pintu darurat dan jalur darurat; pandu tamu dengan akurat.",
+        "Pahami & jalankan manual penanganan darurat (orang sakit mendadak, kecelakaan, kebakaran).",
+        "Pahami bahaya dan penanganan penyakit menular.",
+        "Selalu awasi benda mencurigakan tanpa pemilik atau orang mencurigakan di dalam gedung."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "宿泊施設は不特定多数のお客様が長時間にわたって滞在する施設です。いつ、どこで、火災、自然災害、事故などが起こるか分かりません。日常から訓練を行い、想定されるリスクを理解し、対応をシミュレーションしておく必要があります。"
+      },
+      {
+       "ul": [
+        "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
+        "機器類（火災報知器、消火器、客室からの避難具など）の場所と使い方を正しく理解する",
+        "非常口と非常通路を常に確認し、お客様に正確に案内する",
+        "急病人の発生、事故、火災などの緊急事態について、各施設の対応マニュアルを理解し実行する",
+        "病気や伝染病の危険性・感染の広がり・正確な対応方法の知識を得る",
+        "持ち主がわからない不審物や不審人物がないか、常に館内の状態に目を配る"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Latihan evakuasi, kenali alat keselamatan, pintu & jalur darurat, patuhi manual, awasi benda/orang mencurigakan.",
+      "points": [
+       "Ikuti latihan evakuasi.",
+       "Ketahui lokasi APAR, alarm, alat evakuasi.",
+       "Awasi benda tanpa pemilik."
+      ],
+      "avoid": [
+       "Mengabaikan benda mencurigakan."
+      ],
+      "exam": [
+       "Hal yang dilakukan karyawan untuk mengurangi risiko"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s2",
+    "no": 2,
+    "title": {
+     "id": "Menjamin Keselamatan Tamu",
+     "jp": "お{客様|きゃくさま}の{安全確保|あんぜんかくほ}"
+    },
+    "pages": [
+     48,
+     48
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Menjamin keselamatan tamu dari semua risiko adalah yang terpenting."
+      },
+      {
+       "h": "Pencegahan kecelakaan"
+      },
+      {
+       "ul": [
+        "Jaga kerahasiaan data pribadi tamu (nama, alamat, dll.).",
+        "Jangan taruh benda mudah terbakar (linen, sisa makanan) dekat api; buang puntung rokok dengan benar.",
+        "Sapa tamu lansia/penyandang disabilitas dan tanyakan bantuan; jangan pernah menolak tamu tunanetra dengan anjing penuntun."
+       ]
+      },
+      {
+       "h": "Bila terjadi sesuatu"
+      },
+      {
+       "ul": [
+        "Kebakaran: segera padamkan api awal dan evakuasi tamu dengan aman.",
+        "Gempa: jangan pakai lift; pakai tangga darurat dan evakuasi tamu ke tempat aman.",
+        "Kebakaran/orang sakit: hubungi pemadam kebakaran/ambulans di 119 dan jelaskan keadaan serinci mungkin."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "あらゆるリスクからお客様の安全を確保することが何より重要です。"
+      },
+      {
+       "h": "事故の未然防止策"
+      },
+      {
+       "ul": [
+        "お客様の個人情報（氏名、住所などプライバシーに関する情報）が流出しないよう細心の注意を払う",
+        "リネン類・食べ残しの食材など燃えやすいものは火の近くに置かない。タバコの吸い殻は適切に処理する",
+        "お年寄りや障がいのあるお客様にはお声がけして必要なサポートを確認する。盲導犬の受け入れを断ってはいけない"
+       ]
+      },
+      {
+       "h": "万一の場合"
+      },
+      {
+       "ul": [
+        "火災を発見した場合は、速やかに初期消火を実施し、お客様を安全に避難させる",
+        "地震が発生した場合は、絶対にエレベーターを使用せず、非常階段等で避難させる",
+        "火災や急病人が出た場合は、消防署（119番）に連絡し、状況をできるだけ詳しく説明する"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Lindungi data tamu; hindari api; bantu lansia/disabilitas (anjing penuntun diterima); gempa jangan pakai lift; darurat hubungi 119.",
+      "points": [
+       "Gempa: tangga darurat, bukan lift.",
+       "119 = pemadam/ambulans.",
+       "Anjing penuntun tidak boleh ditolak.",
+       "Data pribadi tidak boleh bocor."
+      ],
+      "avoid": [
+       "Memakai lift saat gempa."
+      ],
+      "exam": [
+       "Nomor darurat 119",
+       "Aturan saat gempa"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s3",
+    "no": 3,
+    "title": {
+     "id": "Kebersihan, Fasilitas, dan Lingkungan",
+     "jp": "{衛生管理|えいせいかんり}・{施設管理|しせつかんり}・{環境対応|かんきょうたいおう}"
+    },
+    "pages": [
+     49,
+     51
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Kebersihan (衛生管理)"
+      },
+      {
+       "p": "Cegah keracunan makanan dan penyakit menular."
+      },
+      {
+       "ul": [
+        "Selalu pakai seragam bersih; rambut & kuku higienis.",
+        "Biasakan berkumur dan cuci tangan.",
+        "Jangan melayani tamu dengan parfum kuat.",
+        "Cek kotoran di eksterior (lantai, dinding, jendela) dan interior (meja, kursi, perlengkapan); bersihkan segera.",
+        "Perhatikan cuaca (suhu, kelembapan) untuk mencegah jamur dan hama."
+       ]
+      },
+      {
+       "h": "Pengelolaan fasilitas (施設管理)"
+      },
+      {
+       "p": "Cacat kecil bisa menjadi kecelakaan besar."
+      },
+      {
+       "ul": [
+        "Periksa AC, peralatan, perabot, interior di front, lobi, kamar; bila ada cacat segera hubungi petugas fasilitas.",
+        "Permintaan seperti pegangan tangan atau ramp dicatat dan diusulkan ke petugas fasilitas.",
+        "Rapikan juga ruang yang tak terlihat tamu."
+       ]
+      },
+      {
+       "h": "Lingkungan (環境対応)"
+      },
+      {
+       "p": "Seiring pentingnya SDGs: hemat listrik dan air, kurangi kertas dan pilah sampah, usulkan daur ulang/penghematan sumber daya ke atasan."
+      }
+     ],
+     "jp": [
+      {
+       "h": "衛生管理について"
+      },
+      {
+       "p": "食中毒、感染症などを発生させぬよう、衛生管理を適切に行うことが重要です。"
+      },
+      {
+       "ul": [
+        "常に清潔なユニフォームを着用し、頭髪や爪など身だしなみを衛生的に保つ",
+        "うがいや手洗いを普段から習慣づける",
+        "香りの強い香水を使って接客してはいけない",
+        "床・壁・窓などのエクステリヤやテーブル・椅子・備品類のインテリアに汚れがないか常に確認し、すぐに清掃する",
+        "毎日の天候（気温・湿度）に注意し、カビや害虫の発生防止に注意を払う"
+       ]
+      },
+      {
+       "h": "施設管理について"
+      },
+      {
+       "p": "小さな不備が大きな事故につながる可能性があります。"
+      },
+      {
+       "ul": [
+        "フロント、ロビー、客室の空調設備、各種機器、器具、什器備品、内装などに不備がないかを常に確認し、発見したら速やかに施設担当者に連絡する",
+        "手すりやスロープの設置などのリクエストは内容を記録し、施設担当者に提案する",
+        "お客様の目に触れないスペースも整理整頓し、安全で働きやすい職場環境を維持する"
+       ]
+      },
+      {
+       "h": "環境対応について"
+      },
+      {
+       "p": "SDGsの重要性が増す中、環境にやさしい取り組みを進めます。"
+      },
+      {
+       "ul": [
+        "節電、節水などの省エネルギーに努める",
+        "紙の無駄使いをなくし、捨てる時は分別に努める",
+        "環境リサイクルや資源の節減について上司や担当者に提案する"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kebersihan (seragam, cuci tangan, tanpa parfum kuat, cek kotoran, cegah jamur/hama); fasilitas (cek & laporkan cacat); lingkungan (hemat energi, pilah sampah, SDGs).",
+      "points": [
+       "Jangan pakai parfum kuat saat melayani.",
+       "Cacat fasilitas → hubungi petugas fasilitas.",
+       "Hemat listrik/air, pilah sampah.",
+       "Perhatikan suhu & kelembapan (jamur)."
+      ],
+      "avoid": [
+       "Mendiamkan cacat kecil pada fasilitas."
+      ],
+      "exam": [
+       "Tiga isi 衛生管理/施設管理/環境対応"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -177,7 +177,7 @@ async function renderPeta([slug]) {
       ${last ? `<button class="btn" onclick="route('${esc(last.route)}')">▶ Lanjutkan: ${esc(last.label)}</button>` : ""}
       <button class="btn ghost" onclick="route('ssw-hafal/${slug}')">🃏 Flashcard${st.due ? ` · ${st.due} jatuh tempo` : ""}</button>
       <button class="btn ghost" onclick="route('ssw-kosa/${slug}/all')">📚 Kosakata (${st.total})</button>
-      <button class="btn ghost" onclick="route('ssw-buku/${slug}/${getLang()}/1')">📖 Buku interaktif</button>
+      ${pack.idx.nobook ? "" : `<button class="btn ghost" onclick="route('ssw-buku/${slug}/${getLang()}/1')">📖 Buku interaktif</button>`}
       <button class="btn ghost" onclick="route('ssw-kuis/${slug}')">📝 Kuis</button>
       <button class="btn" onclick="route('ssw-hafal/${slug}')">🃏 Hafalan</button>
       <button class="btn gold" onclick="route('ssw-rank/${slug}')">🏆 Leaderboard</button>
@@ -278,9 +278,9 @@ async function renderBaca([slug, subId, mode, lang]) {
         <button class="sw-chip" onclick="SSW.sayTitle('${slug}','${s.id}','${lang}')">🔊</button></div>
       <div class="sw-body">${body || '<p class="sw-muted">Konten belum tersedia untuk tampilan ini.</p>'}</div>
     </article>
-    <div class="sw-panel"><h2>📖 Halaman buku (${p1 === p2 ? "hal. " + p1 : `hal. ${p1}–${p2}`})</h2>
+    ${pack.idx.nobook ? `<div class="sw-panel"><p class="sw-muted">Sumber: buku Jepang hal. ${p1 === p2 ? p1 : p1 + "–" + p2} (tampilan halaman buku tidak tersedia untuk bidang ini).</p></div>` : `<div class="sw-panel"><h2>📖 Halaman buku (${p1 === p2 ? "hal. " + p1 : `hal. ${p1}–${p2}`})</h2>
       <div class="sw-thumbs">${thumbs.map(p => `<a onclick="route('ssw-buku/${slug}/${lang}/${p}')"><img loading="lazy" src="${pageFile(slug, lang, p + 1)}" alt="Halaman ${p}"><span>${p}</span></a>`).join("")}</div>
-    </div>
+    </div>`}
     ${words.length ? `<div class="sw-panel"><h2>📚 Kosakata subbab ini (${words.length})</h2>
       <details class="sw-vdet" open><summary>Ketuk kata untuk arti & bacaan</summary><div class="sw-vchips">${words.map(v => `<button class="sw-vc" onclick="SSW.vsheet('${slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button>`).join("")}</div></details>
       <div class="sw-actions left"><button class="btn" onclick="route('ssw-hafal/${slug}/${c.id}')">🃏 Hafalkan kosakata ini</button><button class="btn ghost" onclick="route('ssw-kosa/${slug}/${c.id}')">Buka bank kosakata</button></div></div>` : ""}

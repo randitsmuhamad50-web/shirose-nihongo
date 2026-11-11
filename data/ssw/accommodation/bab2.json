@@ -1,0 +1,242 @@
+{
+ "schema": 1,
+ "bidang": "accommodation",
+ "source": "全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』(2024)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Perencanaan dan Humas",
+   "jp": "{企画|きかく}・{広報|こうほう}"
+  },
+  "intro": {
+   "id": "Merancang paket/acara dan menyebarkan informasi lewat situs web dan SNS.",
+   "jp": "{企画|きかく}・{広報|こうほう}"
+  },
+  "pages": [
+   19,
+   25
+  ],
+  "subs": [
+   {
+    "id": "b2s1",
+    "no": 1,
+    "title": {
+     "id": "Perencanaan dan Istilah Penting",
+     "jp": "{企画|きかく}{業務|ぎょうむ}と{用語|ようご}"
+    },
+    "pages": [
+     19,
+     22
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Perencanaan = mengembangkan paket baru (menginap, day-use, lunch buffet) dan merancang acara yang menyenangkan tamu. Tentukan target pelanggan, pahami kebutuhannya lewat pemasaran, lalu susun rencana yang tepat."
+      },
+      {
+       "ul": [
+        "Contoh: menginap + pengalaman budaya Jepang → wisatawan inbound luar negeri.",
+        "Menginap + makanan sehat berbahan lokal → vegetarian/vegan.",
+        "Suite → kalangan kaya."
+       ]
+      },
+      {
+       "h": "Istilah"
+      },
+      {
+       "ul": [
+        "1泊2食 (ippaku nishoku): tarif sudah termasuk makan malam & sarapan (umumnya ryokan).",
+        "B&B: hanya sarapan (umumnya hotel).",
+        "連泊 (renpaku): 2 malam berturut-turut atau lebih; kadang ada diskon.",
+        "ウォークイン: datang tanpa reservasi.",
+        "預り金 (deposit): jaminan penggunaan layanan.",
+        "ダイレクトブッキング: reservasi langsung tanpa agen/OTA → komisi lebih kecil.",
+        "OTA: agen perjalanan online.",
+        "FIT: wisatawan individu bebas.",
+        "ダイナミックプライシング: harga kamar naik-turun mengikuti permintaan & kekosongan.",
+        "オールインクルーシブ: semua layanan termasuk dalam tarif.",
+        "リピーター: tamu yang datang berulang kali."
+       ]
+      },
+      {
+       "h": "Angka manajemen"
+      },
+      {
+       "ul": [
+        "稼働率 (OCC) = jumlah kamar terjual ÷ total kamar × 100. Contoh 70 dari 100 kamar = 70%.",
+        "ADR = total pendapatan kamar ÷ jumlah kamar terjual (harga jual rata-rata per kamar).",
+        "RevPAR = OCC × ADR (pendapatan per kamar tersedia).",
+        "レベニューマネジメント: mengatur harga kamar untuk memaksimalkan laba."
+       ]
+      },
+      {
+       "note": "Ringkasan Bahasa Indonesia ditulis Shirose dari buku Jepang 全旅連 (bukan terjemahan resmi). Pegangan utama untuk ujian: teks Jepang."
+      }
+     ],
+     "jp": [
+      {
+       "p": "宿泊プラン、日帰りプラン、ランチビュッフェプランなど、お客様に喜んでいただける新プランの開発やイベントの設計を行います。ターゲットとする客層を正しく設定し、マーケティングでニーズを理解して企画します。"
+      },
+      {
+       "ul": [
+        "宿泊＋地域の日本文化体験 → インバウンド客層",
+        "宿泊＋地域の食材を生かした健康的食事 → ベジタリアン、ビーガン客層",
+        "スイートルーム宿泊 → 富裕層"
+       ]
+      },
+      {
+       "h": "用語"
+      },
+      {
+       "ul": [
+        "１泊２食：夕食と朝食が含まれる（主に旅館）",
+        "ベッド＆ブレックファースト（B＆B）：朝食のみ（主にホテル）",
+        "連泊：同じ施設で2泊以上の連続宿泊",
+        "ウォークイン：事前の予約なしに直接訪れる",
+        "預り金：サービス利用を保証するために支払う金額（デポジット）",
+        "ダイレクトブッキング：旅行会社・OTAを介さず直接予約・契約。手数料を減らせる",
+        "OTA：Online Travel Agent。オンライン旅行代理店",
+        "FIT：Free Independent Traveler。自由な個人旅行者",
+        "ダイナミックプライシング：予約状況・空室状況に応じて価格を上げ下げする",
+        "オールインクルーシブ：全てのサービス費用が含まれるプラン",
+        "リピーター：繰り返し利用するお客様"
+       ]
+      },
+      {
+       "ul": [
+        "稼働率（OCC）＝予約室数÷総室数×100",
+        "ADR＝宿泊売上合計÷稼働している客室数",
+        "RevPAR＝客室稼働率（OCC）×客室平均単価（ADR）",
+        "レベニューマネジメント：客室価格をコントロールして利益を確保する"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Perencanaan = paket & acara sesuai target; hafal istilah dan rumus OCC, ADR, RevPAR.",
+      "points": [
+       "OCC = kamar terjual ÷ total kamar × 100.",
+       "ADR = pendapatan kamar ÷ kamar terjual.",
+       "RevPAR = OCC × ADR.",
+       "1泊2食 (ryokan) vs B&B (hotel).",
+       "ダイレクトブッキング mengurangi komisi."
+      ],
+      "avoid": [
+       "Menukar rumus ADR dengan RevPAR."
+      ],
+      "exam": [
+       "Rumus OCC/ADR/RevPAR",
+       "Beda 1泊2食 dan B&B",
+       "OTA, FIT, 連泊"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s2",
+    "no": 2,
+    "title": {
+     "id": "Humas: Situs Web dan SNS",
+     "jp": "{広報|こうほう}{業務|ぎょうむ}（HP・SNS）"
+    },
+    "pages": [
+     23,
+     25
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Humas = menyebarkan informasi kegiatan perusahaan dan produk (penginapan) kepada pemangku kepentingan (wisatawan, mitra, pemegang saham, karyawan, warga). Hasilnya: hubungan baik, nilai perusahaan naik, dan menarik tamu. Ulasan dari mulut ke mulut (口コミ) setelah check-out juga sangat berpengaruh."
+      },
+      {
+       "h": "A. Situs web sendiri"
+      },
+      {
+       "ul": [
+        "Desain mudah dipakai & navigasi jelas.",
+        "Informasi lengkap: tarif, fasilitas kamar, peta, akses.",
+        "Foto dan video yang menarik.",
+        "Sistem reservasi online (bisa mengurangi komisi agen).",
+        "SEO (pemakaian kata kunci, mutu konten).",
+        "Kumpulkan umpan balik tamu.",
+        "Perbarui & rawat secara berkala."
+       ]
+      },
+      {
+       "h": "B. SNS"
+      },
+      {
+       "ul": [
+        "Susun strategi konten (foto, info wisata lokal, promosi).",
+        "Posting rutin sesuai target.",
+        "Balas pertanyaan/komentar dengan cepat; beri komentar/like pada postingan tamu.",
+        "Kerja sama dengan asosiasi wisata & usaha lokal.",
+        "Manfaatkan konten buatan tamu (hashtag, kampanye).",
+        "Analisis efek posting dan perilaku pengikut, lalu perbaiki."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "広報は自社の活動や商品の情報発信を行う仕事です。ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。「口コミ」も集客の大きな力です。"
+      },
+      {
+       "h": "A. 自社ホームページの運用方法"
+      },
+      {
+       "ul": [
+        "ウェブサイトのデザインと使いやすさ",
+        "施設情報の充実（料金・設備・地図・アクセス）",
+        "写真や動画の活用",
+        "オンライン予約システムの導入（手数料を減らせる）",
+        "検索エンジン最適化（SEO）",
+        "顧客のフィードバックの収集",
+        "定期的な更新とメンテナンス"
+       ]
+      },
+      {
+       "h": "B. SNSの運用方法"
+      },
+      {
+       "ul": [
+        "コンテンツ戦略の策定",
+        "定期的な投稿",
+        "コミュニケーションの活性化（質問・コメントにすぐ返信）",
+        "地域との連携",
+        "お客様生成コンテンツの活用",
+        "分析と改善"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Humas = menyebar informasi ke pemangku kepentingan; situs web (informasi, reservasi online, SEO) dan SNS (konten, posting rutin, balas cepat).",
+      "points": [
+       "口コミ = ulasan dari mulut ke mulut.",
+       "Reservasi online mengurangi komisi.",
+       "SEO = peringkat di mesin pencari.",
+       "SNS: balas cepat, kerja sama lokal, analisis."
+      ],
+      "avoid": [
+       "Posting tanpa menganalisis hasil."
+      ],
+      "exam": [
+       "Isi humas HP & SNS",
+       "Arti SEO / 口コミ"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
