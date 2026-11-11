@@ -1,0 +1,78 @@
+{
+ "schema": 1,
+ "bidang": "food-manufacturing",
+ "source": "飲食料品製造業技能測定試験 学習用テキスト 第4版 (2024年2月) — 一般社団法人 外国人食品産業技能評価機構 (OTAFF), bahasa Jepang; indeks kosakata hal. 66–75 (cetak)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Keterampilan di Industri Makanan dan Minuman",
+   "jp": "{飲食料品製造業|いんしょくりょうひんせいぞうぎょう}で{必要|ひつよう}な{技能|ぎのう}"
+  },
+  "intro": {
+   "id": "Bab 1 modul: macam-macam pabrik makanan dan minuman serta dua keterampilan inti SSW 1: kebersihan pangan dan keselamatan kerja.",
+   "jp": "{飲食料品製造業|いんしょくりょうひんせいぞうぎょう}で{必要|ひつよう}な{技能|ぎのう}"
+  },
+  "pages": [
+   6,
+   8
+  ],
+  "subs": [
+   {
+    "id": "m1s1",
+    "no": 1,
+    "title": {
+     "id": "Industri dan Keterampilan yang Dibutuhkan",
+     "jp": "{飲食料品製造業|いんしょくりょうひんせいぞうぎょう}の{仕事|しごと}"
+    },
+    "pages": [
+     6,
+     8
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Industri makanan dan minuman"
+      },
+      {
+       "ul": [
+        "Produk: ham-sosis, ikan kaleng, bumbu, roti dan kue, bento dan lauk siap santap, makanan beku, minuman (jus, teh, kopi).",
+        "Nilai produksi industri pangan Jepang sekitar **37 triliun yen** per tahun.",
+        "Bidang kerja SSW 1: pangan hewani, hasil laut, bumbu, roti/kue, lauk siap santap (惣菜), makanan beku, minuman ringan, dll."
+       ]
+      },
+      {
+       "h": "Dua keterampilan inti"
+      },
+      {
+       "ul": [
+        "**Kebersihan pangan (食品衛生)**: melindungi orang agar tidak sakit atau terluka karena makanan. Pabrik yang lalai kehilangan kepercayaan.",
+        "**Keselamatan kerja (労働安全)**: melindungi keselamatan dan kesehatan pekerja — pakai pakaian dan APD dengan benar, patuhi aturan dan SOP (作業手順書)."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dua pilar kerja di pabrik pangan: kebersihan pangan dan keselamatan kerja.",
+      "points": [
+       "Kebersihan pangan = makanan tidak membuat orang sakit/terluka.",
+       "Keselamatan kerja = menjaga keselamatan dan kesehatan pekerja.",
+       "Aturan pabrik dan SOP selalu diikuti."
+      ],
+      "avoid": [
+       "Mengabaikan aturan pabrik karena merasa sudah paham."
+      ],
+      "exam": [
+       "Definisi 食品衛生 dan 労働安全."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

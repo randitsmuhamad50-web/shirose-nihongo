@@ -1,0 +1,2159 @@
+{
+ "items": [
+  {
+   "id": "fm-001",
+   "kata": "アニサキス",
+   "kana": "あにさきす",
+   "romaji": "anisakisu",
+   "arti": "anisakis (cacing parasit ikan)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2"
+   ]
+  },
+  {
+   "id": "fm-002",
+   "kata": "アニサキス食中毒",
+   "kana": "あにさきすしょくちゅうどく",
+   "romaji": "anisakisushokuchuudoku",
+   "arti": "keracunan makanan akibat anisakis",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2"
+   ],
+   "rb": [
+    "アニサキス食中毒|あにさきすしょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fm-003",
+   "kata": "アレルギー反応",
+   "kana": "あれるぎーはんのう",
+   "romaji": "arerugiihannou",
+   "arti": "reaksi alergi",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ],
+   "rb": [
+    "アレルギー反応|あれるぎーはんのう"
+   ]
+  },
+  {
+   "id": "fm-004",
+   "kata": "アレルギー物質",
+   "kana": "あれるぎーぶっしつ",
+   "romaji": "arerugiibusshitsu",
+   "arti": "zat alergen",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s4",
+    "m2s5"
+   ],
+   "rb": [
+    "アレルギー物質|あれるぎーぶっしつ"
+   ]
+  },
+  {
+   "id": "fm-005",
+   "kata": "アレルゲン",
+   "kana": "あれるげん",
+   "romaji": "arerugen",
+   "arti": "alergen",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ]
+  },
+  {
+   "id": "fm-006",
+   "kata": "安全カバー",
+   "kana": "あんぜんかばー",
+   "romaji": "anzenkabaa",
+   "arti": "penutup pengaman",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4"
+   ],
+   "rb": [
+    "安全カバー|あんぜんかばー"
+   ]
+  },
+  {
+   "id": "fm-007",
+   "kata": "安全靴",
+   "kana": "あんぜんぐつ",
+   "romaji": "anzengutsu",
+   "arti": "sepatu pengaman",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "安全靴|あんぜんぐつ"
+   ]
+  },
+  {
+   "id": "fm-008",
+   "kata": "安全装置",
+   "kana": "あんぜんそうち",
+   "romaji": "anzensouchi",
+   "arti": "alat pengaman",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4",
+    "m3s7"
+   ],
+   "rb": [
+    "安全装置|あんぜんそうち"
+   ]
+  },
+  {
+   "id": "fm-009",
+   "kata": "安全標識",
+   "kana": "あんぜんひょうしき",
+   "romaji": "anzenhyoushiki",
+   "arti": "tanda keselamatan",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s3",
+    "m3s8"
+   ],
+   "rb": [
+    "安全標識|あんぜんひょうしき"
+   ]
+  },
+  {
+   "id": "fm-010",
+   "kata": "安全保護具",
+   "kana": "あんぜんほごぐ",
+   "romaji": "anzenhogogu",
+   "arti": "alat pelindung diri (APD)",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "安全保護具|あんぜんほごぐ"
+   ]
+  },
+  {
+   "id": "fm-011",
+   "kata": "異物",
+   "kana": "いぶつ",
+   "romaji": "ibutsu",
+   "arti": "benda asing",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s3",
+    "m2s4",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "異物|いぶつ"
+   ]
+  },
+  {
+   "id": "fm-012",
+   "kata": "飲食料品製造業",
+   "kana": "いんしょくりょうひんせいぞうぎょう",
+   "romaji": "inshokuryouhinseizougyou",
+   "arti": "industri pengolahan makanan dan minuman",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "飲食料品製造業|いんしょくりょうひんせいぞうぎょう"
+   ]
+  },
+  {
+   "id": "fm-013",
+   "kata": "ウェルシュ菌",
+   "kana": "うぇるしゅきん",
+   "romaji": "uerushukin",
+   "arti": "bakteri Clostridium perfringens (Welch)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "ウェルシュ菌|うぇるしゅきん"
+   ]
+  },
+  {
+   "id": "fm-014",
+   "kata": "衛生管理",
+   "kana": "えいせいかんり",
+   "romaji": "eiseikanri",
+   "arti": "pengelolaan kebersihan/higiene",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "衛生管理|えいせいかんり"
+   ]
+  },
+  {
+   "id": "fm-015",
+   "kata": "Ｘ線異物検出機",
+   "kana": "えっくすせんいぶつけんしゅつき",
+   "romaji": "ekkususenibutsukenshutsuki",
+   "arti": "detektor benda asing sinar-X",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "Ｘ線異物検出機|えっくすせんいぶつけんしゅつき"
+   ]
+  },
+  {
+   "id": "fm-016",
+   "kata": "エプロン",
+   "kana": "えぷろん",
+   "romaji": "epuron",
+   "arti": "celemek",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s4"
+   ]
+  },
+  {
+   "id": "fm-017",
+   "kata": "黄色ブドウ球菌",
+   "kana": "おうしょくぶどうきゅうきん",
+   "romaji": "oushokubudoukyuukin",
+   "arti": "Staphylococcus aureus",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "黄色ブドウ球菌|おうしょくぶどうきゅうきん"
+   ]
+  },
+  {
+   "id": "fm-018",
+   "kata": "汚染作業区域",
+   "kana": "おせんさぎょうくいき",
+   "romaji": "osensagyoukuiki",
+   "arti": "area kerja terkontaminasi",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s4"
+   ],
+   "rb": [
+    "汚染作業区域|おせんさぎょうくいき"
+   ]
+  },
+  {
+   "id": "fm-019",
+   "kata": "改善措置",
+   "kana": "かいぜんそち",
+   "romaji": "kaizensochi",
+   "arti": "tindakan perbaikan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s6"
+   ],
+   "rb": [
+    "改善措置|かいぜんそち"
+   ]
+  },
+  {
+   "id": "fm-020",
+   "kata": "解凍",
+   "kana": "かいとう",
+   "romaji": "kaitou",
+   "arti": "pencairan (thawing)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "解凍|かいとう"
+   ]
+  },
+  {
+   "id": "fm-021",
+   "kata": "開封",
+   "kana": "かいふう",
+   "romaji": "kaifuu",
+   "arti": "pembukaan kemasan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "開封|かいふう"
+   ]
+  },
+  {
+   "id": "fm-022",
+   "kata": "加温",
+   "kana": "かおん",
+   "romaji": "kaon",
+   "arti": "pemanasan ringan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "加温|かおん"
+   ]
+  },
+  {
+   "id": "fm-023",
+   "kata": "化学的危害要因",
+   "kana": "かがくてききがいよういん",
+   "romaji": "kagakutekikigaiyouin",
+   "arti": "bahaya kimia",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ],
+   "rb": [
+    "化学的危害要因|かがくてききがいよういん"
+   ]
+  },
+  {
+   "id": "fm-024",
+   "kata": "加熱殺菌",
+   "kana": "かねつさっきん",
+   "romaji": "kanetsusakkin",
+   "arti": "sterilisasi dengan pemanasan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "加熱殺菌|かねつさっきん"
+   ]
+  },
+  {
+   "id": "fm-025",
+   "kata": "加熱調理",
+   "kana": "かねつちょうり",
+   "romaji": "kanetsuchouri",
+   "arti": "memasak dengan pemanasan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s3",
+    "m2s4",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "加熱調理|かねつちょうり"
+   ]
+  },
+  {
+   "id": "fm-026",
+   "kata": "カバー付き長靴",
+   "kana": "かばーつきながぐつ",
+   "romaji": "kabaatsukinagagutsu",
+   "arti": "sepatu bot bertutup",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "カバー付き長靴|かばーつきながぐつ"
+   ]
+  },
+  {
+   "id": "fm-027",
+   "kata": "芽胞",
+   "kana": "がほう",
+   "romaji": "gahou",
+   "arti": "spora bakteri",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "芽胞|がほう"
+   ]
+  },
+  {
+   "id": "fm-028",
+   "kata": "芽胞菌",
+   "kana": "がほうきん",
+   "romaji": "gahoukin",
+   "arti": "bakteri pembentuk spora",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "芽胞菌|がほうきん"
+   ]
+  },
+  {
+   "id": "fm-029",
+   "kata": "感染症",
+   "kana": "かんせんしょう",
+   "romaji": "kansenshou",
+   "arti": "penyakit menular",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "感染症|かんせんしょう"
+   ]
+  },
+  {
+   "id": "fm-030",
+   "kata": "カンピロバクター属菌",
+   "kana": "かんぴろばくたーぞくきん",
+   "romaji": "kanpirobakutaazokukin",
+   "arti": "bakteri Campylobacter",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "カンピロバクター属菌|かんぴろばくたーぞくきん"
+   ]
+  },
+  {
+   "id": "fm-031",
+   "kata": "管理基準",
+   "kana": "かんりきじゅん",
+   "romaji": "kanrikijun",
+   "arti": "standar pengendalian",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "管理基準|かんりきじゅん"
+   ]
+  },
+  {
+   "id": "fm-032",
+   "kata": "管理基準からの逸脱",
+   "kana": "かんりきじゅんからのいつだつ",
+   "romaji": "kanrikijunkaranoitsudatsu",
+   "arti": "penyimpangan dari standar pengendalian",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s6"
+   ],
+   "rb": [
+    "管理基準からの逸脱|かんりきじゅんからのいつだつ"
+   ]
+  },
+  {
+   "id": "fm-033",
+   "kata": "危害要因",
+   "kana": "きがいよういん",
+   "romaji": "kigaiyouin",
+   "arti": "faktor bahaya (hazard)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s3",
+    "m2s4",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "危害要因|きがいよういん"
+   ]
+  },
+  {
+   "id": "fm-034",
+   "kata": "危害要因分析",
+   "kana": "きがいよういんぶんせき",
+   "romaji": "kigaiyouinbunseki",
+   "arti": "analisis bahaya",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "危害要因分析|きがいよういんぶんせき"
+   ]
+  },
+  {
+   "id": "fm-035",
+   "kata": "危険予知訓練",
+   "kana": "きけんよちくんれん",
+   "romaji": "kikenyochikunren",
+   "arti": "pelatihan prediksi bahaya (KYT)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s6"
+   ],
+   "rb": [
+    "危険予知訓練|きけんよちくんれん"
+   ]
+  },
+  {
+   "id": "fm-036",
+   "kata": "寄生虫",
+   "kana": "きせいちゅう",
+   "romaji": "kiseichuu",
+   "arti": "parasit",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2"
+   ],
+   "rb": [
+    "寄生虫|きせいちゅう"
+   ]
+  },
+  {
+   "id": "fm-037",
+   "kata": "記録",
+   "kana": "きろく",
+   "romaji": "kiroku",
+   "arti": "pencatatan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s4",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "記録|きろく"
+   ]
+  },
+  {
+   "id": "fm-038",
+   "kata": "緊急停止ボタン",
+   "kana": "きんきゅうていしぼたん",
+   "romaji": "kinkyuuteishibotan",
+   "arti": "tombol berhenti darurat",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4",
+    "m3s5"
+   ],
+   "rb": [
+    "緊急停止ボタン|きんきゅうていしぼたん"
+   ]
+  },
+  {
+   "id": "fm-039",
+   "kata": "金属探知機",
+   "kana": "きんぞくたんちき",
+   "romaji": "kinzokutanchiki",
+   "arti": "detektor logam",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "金属探知機|きんぞくたんちき"
+   ]
+  },
+  {
+   "id": "fm-040",
+   "kata": "くさり手袋",
+   "kana": "くさりてぶくろ",
+   "romaji": "kusaritebukuro",
+   "arti": "sarung tangan rantai",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "くさり手袋|くさりてぶくろ"
+   ]
+  },
+  {
+   "id": "fm-041",
+   "kata": "区分衛生管理",
+   "kana": "くぶんえいせいかんり",
+   "romaji": "kubuneiseikanri",
+   "arti": "pengelolaan higiene per zona",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s4"
+   ],
+   "rb": [
+    "区分衛生管理|くぶんえいせいかんり"
+   ]
+  },
+  {
+   "id": "fm-042",
+   "kata": "健康チェック",
+   "kana": "けんこうちぇっく",
+   "romaji": "kenkouchiekku",
+   "arti": "pemeriksaan kesehatan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "健康チェック|けんこうちぇっく"
+   ]
+  },
+  {
+   "id": "fm-043",
+   "kata": "原材料の保管",
+   "kana": "げんざいりょうのほかん",
+   "romaji": "genzairyounohokan",
+   "arti": "penyimpanan bahan baku",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "原材料の保管|げんざいりょうのほかん"
+   ]
+  },
+  {
+   "id": "fm-044",
+   "kata": "交差汚染",
+   "kana": "こうさおせん",
+   "romaji": "kousaosen",
+   "arti": "kontaminasi silang",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "交差汚染|こうさおせん"
+   ]
+  },
+  {
+   "id": "fm-045",
+   "kata": "硬質異物",
+   "kana": "こうしついぶつ",
+   "romaji": "koushitsuibutsu",
+   "arti": "benda asing keras",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s3",
+    "m2s5"
+   ],
+   "rb": [
+    "硬質異物|こうしついぶつ"
+   ]
+  },
+  {
+   "id": "fm-046",
+   "kata": "５Ｓ",
+   "kana": "ごえす",
+   "romaji": "goesu",
+   "arti": "5S (seiri, seiton, seisou, seiketsu, shitsuke)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s3"
+   ]
+  },
+  {
+   "id": "fm-047",
+   "kata": "ゴム手袋",
+   "kana": "ごむてぶくろ",
+   "romaji": "gomutebukuro",
+   "arti": "sarung tangan karet",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "ゴム手袋|ごむてぶくろ"
+   ]
+  },
+  {
+   "id": "fm-048",
+   "kata": "細菌",
+   "kana": "さいきん",
+   "romaji": "saikin",
+   "arti": "bakteri",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "細菌|さいきん"
+   ]
+  },
+  {
+   "id": "fm-049",
+   "kata": "先入れ先出し",
+   "kana": "さきいれさきだし",
+   "romaji": "sakiiresakidashi",
+   "arti": "masuk pertama keluar pertama (FIFO)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "先入れ先出し|さきいれさきだし"
+   ]
+  },
+  {
+   "id": "fm-050",
+   "kata": "作業服",
+   "kana": "さぎょうふく",
+   "romaji": "sagyoufuku",
+   "arti": "pakaian kerja",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "作業服|さぎょうふく"
+   ]
+  },
+  {
+   "id": "fm-051",
+   "kata": "作業手順書",
+   "kana": "さぎょうてじゅんしょ",
+   "romaji": "sagyoutejunsho",
+   "arti": "prosedur/instruksi kerja tertulis (SOP)",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "作業手順書|さぎょうてじゅんしょ"
+   ]
+  },
+  {
+   "id": "fm-052",
+   "kata": "殺菌",
+   "kana": "さっきん",
+   "romaji": "sakkin",
+   "arti": "sterilisasi/pembunuhan kuman",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s3",
+    "m2s4",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "殺菌|さっきん"
+   ]
+  },
+  {
+   "id": "fm-053",
+   "kata": "サルモネラ属菌",
+   "kana": "さるもねらぞくきん",
+   "romaji": "sarumonerazokukin",
+   "arti": "bakteri Salmonella",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "サルモネラ属菌|さるもねらぞくきん"
+   ]
+  },
+  {
+   "id": "fm-054",
+   "kata": "次亜塩素酸ナトリウム",
+   "kana": "じあえんそさんなとりうむ",
+   "romaji": "jiaensosannatoriumu",
+   "arti": "natrium hipoklorit",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "次亜塩素酸ナトリウム|じあえんそさんなとりうむ"
+   ]
+  },
+  {
+   "id": "fm-055",
+   "kata": "始業前点検",
+   "kana": "しぎょうまえてんけん",
+   "romaji": "shigyoumaetenken",
+   "arti": "pemeriksaan sebelum mulai kerja",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s3",
+    "m3s4"
+   ],
+   "rb": [
+    "始業前点検|しぎょうまえてんけん"
+   ]
+  },
+  {
+   "id": "fm-056",
+   "kata": "指差呼称",
+   "kana": "しさこしょう",
+   "romaji": "shisakoshou",
+   "arti": "menunjuk dan menyebut",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s3",
+    "m3s7"
+   ],
+   "rb": [
+    "指差呼称|しさこしょう"
+   ]
+  },
+  {
+   "id": "fm-057",
+   "kata": "自然解凍",
+   "kana": "しぜんかいとう",
+   "romaji": "shizenkaitou",
+   "arti": "pencairan pada suhu ruang",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "自然解凍|しぜんかいとう"
+   ]
+  },
+  {
+   "id": "fm-058",
+   "kata": "下処理",
+   "kana": "したしょり",
+   "romaji": "shitashori",
+   "arti": "penanganan awal",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s3",
+    "m2s5"
+   ],
+   "rb": [
+    "下処理|したしょり"
+   ]
+  },
+  {
+   "id": "fm-059",
+   "kata": "しつけ",
+   "kana": "しつけ",
+   "romaji": "shitsuke",
+   "arti": "pembiasaan (shitsuke)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ]
+  },
+  {
+   "id": "fm-060",
+   "kata": "習慣付け",
+   "kana": "しゅうかんづけ",
+   "romaji": "shuukanzuke",
+   "arti": "pembiasaan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "習慣付け|しゅうかんづけ"
+   ]
+  },
+  {
+   "id": "fm-061",
+   "kata": "充填",
+   "kana": "じゅうてん",
+   "romaji": "juuten",
+   "arti": "pengisian ke wadah",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "充填|じゅうてん"
+   ]
+  },
+  {
+   "id": "fm-062",
+   "kata": "重要管理点",
+   "kana": "じゅうようかんりてん",
+   "romaji": "juuyoukanriten",
+   "arti": "titik kendali kritis (CCP)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "重要管理点|じゅうようかんりてん"
+   ]
+  },
+  {
+   "id": "fm-063",
+   "kata": "準清潔作業区域",
+   "kana": "じゅんせいけつさぎょうくいき",
+   "romaji": "junseiketsusagyoukuiki",
+   "arti": "area kerja semi-bersih",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "準清潔作業区域|じゅんせいけつさぎょうくいき"
+   ]
+  },
+  {
+   "id": "fm-064",
+   "kata": "使用期限",
+   "kana": "しようきげん",
+   "romaji": "shiyoukigen",
+   "arti": "batas pemakaian",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "使用期限|しようきげん"
+   ]
+  },
+  {
+   "id": "fm-065",
+   "kata": "消費期限",
+   "kana": "しょうひきげん",
+   "romaji": "shouhikigen",
+   "arti": "tanggal kedaluwarsa (konsumsi)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "消費期限|しょうひきげん"
+   ]
+  },
+  {
+   "id": "fm-066",
+   "kata": "賞味期限",
+   "kana": "しょうみきげん",
+   "romaji": "shoumikigen",
+   "arti": "tanggal terbaik dikonsumsi",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "賞味期限|しょうみきげん"
+   ]
+  },
+  {
+   "id": "fm-067",
+   "kata": "食中毒菌",
+   "kana": "しょくちゅうどくきん",
+   "romaji": "shokuchuudokukin",
+   "arti": "bakteri penyebab keracunan makanan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "食中毒菌|しょくちゅうどくきん"
+   ]
+  },
+  {
+   "id": "fm-068",
+   "kata": "食中毒予防の３原則",
+   "kana": "しょくちゅうどくよぼうのさんげんそく",
+   "romaji": "shokuchuudokuyobounosangensoku",
+   "arti": "3 prinsip pencegahan keracunan makanan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2"
+   ],
+   "rb": [
+    "食中毒予防の３原則|しょくちゅうどくよぼうのさんげんそく"
+   ]
+  },
+  {
+   "id": "fm-069",
+   "kata": "食品衛生",
+   "kana": "しょくひんえいせい",
+   "romaji": "shokuhineisei",
+   "arti": "kebersihan/higiene pangan",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "食品衛生|しょくひんえいせい"
+   ]
+  },
+  {
+   "id": "fm-070",
+   "kata": "水冷",
+   "kana": "すいれい",
+   "romaji": "suirei",
+   "arti": "pendinginan dengan air",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "水冷|すいれい"
+   ]
+  },
+  {
+   "id": "fm-071",
+   "kata": "成型",
+   "kana": "せいけい",
+   "romaji": "seikei",
+   "arti": "pembentukan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "成型|せいけい"
+   ]
+  },
+  {
+   "id": "fm-072",
+   "kata": "清潔",
+   "kana": "せいけつ",
+   "romaji": "seiketsu",
+   "arti": "kebersihan (seiketsu)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s3",
+    "m2s4",
+    "m2s5"
+   ],
+   "rb": [
+    "清潔|せいけつ"
+   ]
+  },
+  {
+   "id": "fm-073",
+   "kata": "清潔作業区域",
+   "kana": "せいけつさぎょうくいき",
+   "romaji": "seiketsusagyoukuiki",
+   "arti": "area kerja bersih",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "清潔作業区域|せいけつさぎょうくいき"
+   ]
+  },
+  {
+   "id": "fm-074",
+   "kata": "清掃",
+   "kana": "せいそう",
+   "romaji": "seisou",
+   "arti": "pembersihan (seisou)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s5"
+   ],
+   "rb": [
+    "清掃|せいそう"
+   ]
+  },
+  {
+   "id": "fm-075",
+   "kata": "整頓",
+   "kana": "せいとん",
+   "romaji": "seiton",
+   "arti": "penataan (seiton)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "整頓|せいとん"
+   ]
+  },
+  {
+   "id": "fm-076",
+   "kata": "生物的危害要因",
+   "kana": "せいぶつてききがいよういん",
+   "romaji": "seibutsutekikigaiyouin",
+   "arti": "bahaya biologis",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s5"
+   ],
+   "rb": [
+    "生物的危害要因|せいぶつてききがいよういん"
+   ]
+  },
+  {
+   "id": "fm-077",
+   "kata": "整理",
+   "kana": "せいり",
+   "romaji": "seiri",
+   "arti": "pemilahan (seiri)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "整理|せいり"
+   ]
+  },
+  {
+   "id": "fm-078",
+   "kata": "セレウス菌",
+   "kana": "せれうすきん",
+   "romaji": "sereusukin",
+   "arti": "bakteri Bacillus cereus",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "セレウス菌|せれうすきん"
+   ]
+  },
+  {
+   "id": "fm-079",
+   "kata": "洗浄",
+   "kana": "せんじょう",
+   "romaji": "senjou",
+   "arti": "pencucian",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s3",
+    "m2s5"
+   ],
+   "rb": [
+    "洗浄|せんじょう"
+   ]
+  },
+  {
+   "id": "fm-080",
+   "kata": "惣菜",
+   "kana": "そうざい",
+   "romaji": "souzai",
+   "arti": "lauk siap santap (sōzai)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s6"
+   ],
+   "rb": [
+    "惣菜|そうざい"
+   ]
+  },
+  {
+   "id": "fm-081",
+   "kata": "惣菜製造業",
+   "kana": "そうざいせいぞうぎょう",
+   "romaji": "souzaiseizougyou",
+   "arti": "industri lauk siap santap",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "惣菜製造業|そうざいせいぞうぎょう"
+   ]
+  },
+  {
+   "id": "fm-082",
+   "kata": "ゾーニング",
+   "kana": "ぞーにんぐ",
+   "romaji": "zooningu",
+   "arti": "pembagian zona",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ]
+  },
+  {
+   "id": "fm-083",
+   "kata": "ソラニン",
+   "kana": "そらにん",
+   "romaji": "soranin",
+   "arti": "solanin",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ]
+  },
+  {
+   "id": "fm-084",
+   "kata": "耐切創手袋",
+   "kana": "たいせっそうてぶくろ",
+   "romaji": "taisessoutebukuro",
+   "arti": "sarung tangan tahan sayatan",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2",
+    "m3s7"
+   ],
+   "rb": [
+    "耐切創手袋|たいせっそうてぶくろ"
+   ]
+  },
+  {
+   "id": "fm-085",
+   "kata": "耐熱エプロン",
+   "kana": "たいねつえぷろん",
+   "romaji": "tainetsuepuron",
+   "arti": "celemek tahan panas",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "耐熱エプロン|たいねつえぷろん"
+   ]
+  },
+  {
+   "id": "fm-086",
+   "kata": "中心温度",
+   "kana": "ちゅうしんおんど",
+   "romaji": "chuushinondo",
+   "arti": "suhu bagian tengah",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "中心温度|ちゅうしんおんど"
+   ]
+  },
+  {
+   "id": "fm-087",
+   "kata": "腸炎ビブリオ",
+   "kana": "ちょうえんびぶりお",
+   "romaji": "chouenbiburio",
+   "arti": "Vibrio parahaemolyticus",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2"
+   ],
+   "rb": [
+    "腸炎ビブリオ|ちょうえんびぶりお"
+   ]
+  },
+  {
+   "id": "fm-088",
+   "kata": "腸管出血性大腸菌",
+   "kana": "ちょうかんしゅっけつせいだいちょうきん",
+   "romaji": "choukanshukketsuseidaichoukin",
+   "arti": "E. coli enterohemoragik (O157)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2"
+   ],
+   "rb": [
+    "腸管出血性大腸菌|ちょうかんしゅっけつせいだいちょうきん"
+   ]
+  },
+  {
+   "id": "fm-089",
+   "kata": "調理器具",
+   "kana": "ちょうりきぐ",
+   "romaji": "chourikigu",
+   "arti": "alat masak",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2"
+   ],
+   "rb": [
+    "調理器具|ちょうりきぐ"
+   ]
+  },
+  {
+   "id": "fm-090",
+   "kata": "手洗い",
+   "kana": "てあらい",
+   "romaji": "tearai",
+   "arti": "cuci tangan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s4"
+   ],
+   "rb": [
+    "手洗い|てあらい"
+   ]
+  },
+  {
+   "id": "fm-091",
+   "kata": "テストピース",
+   "kana": "てすとぴーす",
+   "romaji": "tesutopiisu",
+   "arti": "benda uji (test piece)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ]
+  },
+  {
+   "id": "fm-092",
+   "kata": "手袋",
+   "kana": "てぶくろ",
+   "romaji": "tebukuro",
+   "arti": "sarung tangan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s4"
+   ],
+   "rb": [
+    "手袋|てぶくろ"
+   ]
+  },
+  {
+   "id": "fm-093",
+   "kata": "電源",
+   "kana": "でんげん",
+   "romaji": "dengen",
+   "arti": "sumber listrik",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4"
+   ],
+   "rb": [
+    "電源|でんげん"
+   ]
+  },
+  {
+   "id": "fm-094",
+   "kata": "毒素",
+   "kana": "どくそ",
+   "romaji": "dokuso",
+   "arti": "toksin",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2"
+   ],
+   "rb": [
+    "毒素|どくそ"
+   ]
+  },
+  {
+   "id": "fm-095",
+   "kata": "特定原材料",
+   "kana": "とくていげんざいりょう",
+   "romaji": "tokuteigenzairyou",
+   "arti": "bahan alergen wajib label",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ],
+   "rb": [
+    "特定原材料|とくていげんざいりょう"
+   ]
+  },
+  {
+   "id": "fm-096",
+   "kata": "特定原材料に準ずるもの",
+   "kana": "とくていげんざいりょうにじゅんずるもの",
+   "romaji": "tokuteigenzairyounijunzurumono",
+   "arti": "bahan alergen yang dianjurkan diberi label",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ],
+   "rb": [
+    "特定原材料に準ずるもの|とくていげんざいりょうにじゅんずるもの"
+   ]
+  },
+  {
+   "id": "fm-097",
+   "kata": "トッピング",
+   "kana": "とっぴんぐ",
+   "romaji": "toppingu",
+   "arti": "topping",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ]
+  },
+  {
+   "id": "fm-098",
+   "kata": "ドリップ",
+   "kana": "どりっぷ",
+   "romaji": "dorippu",
+   "arti": "cairan yang keluar dari daging/ikan beku",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ]
+  },
+  {
+   "id": "fm-099",
+   "kata": "二次災害",
+   "kana": "にじさいがい",
+   "romaji": "nijisaigai",
+   "arti": "kecelakaan sekunder",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s5"
+   ],
+   "rb": [
+    "二次災害|にじさいがい"
+   ]
+  },
+  {
+   "id": "fm-100",
+   "kata": "熱中症",
+   "kana": "ねっちゅうしょう",
+   "romaji": "necchuushou",
+   "arti": "sengatan panas (heat stroke)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s1",
+    "m3s7"
+   ],
+   "rb": [
+    "熱中症|ねっちゅうしょう"
+   ]
+  },
+  {
+   "id": "fm-101",
+   "kata": "ノロウイルス",
+   "kana": "のろういるす",
+   "romaji": "norouirusu",
+   "arti": "norovirus",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ]
+  },
+  {
+   "id": "fm-102",
+   "kata": "ハインリッヒの法則",
+   "kana": "はいんりっひのほうそく",
+   "romaji": "hainrihhinohousoku",
+   "arti": "hukum Heinrich (1:29:300)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s6"
+   ],
+   "rb": [
+    "ハインリッヒの法則|はいんりっひのほうそく"
+   ]
+  },
+  {
+   "id": "fm-103",
+   "kata": "ハザード",
+   "kana": "はざーど",
+   "romaji": "hazaado",
+   "arti": "hazard/bahaya",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s5",
+    "m2s6"
+   ]
+  },
+  {
+   "id": "fm-104",
+   "kata": "ハザード分析",
+   "kana": "はざーどぶんせき",
+   "romaji": "hazaadobunseki",
+   "arti": "analisis hazard",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "ハザード分析|はざーどぶんせき"
+   ]
+  },
+  {
+   "id": "fm-105",
+   "kata": "ＨＡＣＣＰによる衛生管理",
+   "kana": "はさっぷによるえいせいかんり",
+   "romaji": "hasappuniyorueiseikanri",
+   "arti": "pengelolaan higiene dengan HACCP",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s5"
+   ],
+   "rb": [
+    "ＨＡＣＣＰによる衛生管理|はさっぷによるえいせいかんり"
+   ]
+  },
+  {
+   "id": "fm-106",
+   "kata": "ＨＡＣＣＰの７原則",
+   "kana": "はさっぷのななげんそく",
+   "romaji": "hasappunonanagensoku",
+   "arti": "7 prinsip HACCP",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "ＨＡＣＣＰの７原則|はさっぷのななげんそく"
+   ]
+  },
+  {
+   "id": "fm-107",
+   "kata": "ＨＡＣＣＰプラン",
+   "kana": "はさっぷぷらん",
+   "romaji": "hasappupuran",
+   "arti": "rencana HACCP",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ]
+  },
+  {
+   "id": "fm-108",
+   "kata": "非加熱調理",
+   "kana": "ひかねつちょうり",
+   "romaji": "hikanetsuchouri",
+   "arti": "pengolahan tanpa pemanasan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s4"
+   ],
+   "rb": [
+    "非加熱調理|ひかねつちょうり"
+   ]
+  },
+  {
+   "id": "fm-109",
+   "kata": "非常停止ボタン",
+   "kana": "ひじょうていしぼたん",
+   "romaji": "hijouteishibotan",
+   "arti": "tombol berhenti darurat",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4"
+   ],
+   "rb": [
+    "非常停止ボタン|ひじょうていしぼたん"
+   ]
+  },
+  {
+   "id": "fm-110",
+   "kata": "ヒスタミン",
+   "kana": "ひすたみん",
+   "romaji": "hisutamin",
+   "arti": "histamin",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ]
+  },
+  {
+   "id": "fm-111",
+   "kata": "ヒスタミン食中毒",
+   "kana": "ひすたみんしょくちゅうどく",
+   "romaji": "hisutaminshokuchuudoku",
+   "arti": "keracunan histamin",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ],
+   "rb": [
+    "ヒスタミン食中毒|ひすたみんしょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fm-112",
+   "kata": "微生物",
+   "kana": "びせいぶつ",
+   "romaji": "biseibutsu",
+   "arti": "mikroorganisme",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s3",
+    "m2s4",
+    "m2s5"
+   ],
+   "rb": [
+    "微生物|びせいぶつ"
+   ]
+  },
+  {
+   "id": "fm-113",
+   "kata": "微生物検査",
+   "kana": "びせいぶつけんさ",
+   "romaji": "biseibutsukensa",
+   "arti": "pemeriksaan mikroorganisme",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "微生物検査|びせいぶつけんさ"
+   ]
+  },
+  {
+   "id": "fm-114",
+   "kata": "ヒヤリ・ハット",
+   "kana": "ひやり・はっと",
+   "romaji": "hiyari・hatto",
+   "arti": "nyaris celaka (hiyari-hatto)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s6"
+   ]
+  },
+  {
+   "id": "fm-115",
+   "kata": "ヒヤリ・ハット活動",
+   "kana": "ひやり・はっとかつどう",
+   "romaji": "hiyari・hattokatsudou",
+   "arti": "kegiatan pelaporan nyaris celaka",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s6"
+   ],
+   "rb": [
+    "ヒヤリ・ハット活動|ひやり・はっとかつどう"
+   ]
+  },
+  {
+   "id": "fm-116",
+   "kata": "病原性微生物",
+   "kana": "びょうげんせいびせいぶつ",
+   "romaji": "byougenseibiseibutsu",
+   "arti": "mikroorganisme patogen",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s3",
+    "m2s4",
+    "m2s5"
+   ],
+   "rb": [
+    "病原性微生物|びょうげんせいびせいぶつ"
+   ]
+  },
+  {
+   "id": "fm-117",
+   "kata": "風冷",
+   "kana": "ふうれい",
+   "romaji": "fuurei",
+   "arti": "pendinginan dengan udara",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "風冷|ふうれい"
+   ]
+  },
+  {
+   "id": "fm-118",
+   "kata": "フールプルーフ",
+   "kana": "ふーるぷるーふ",
+   "romaji": "fuurupuruufu",
+   "arti": "foolproof (anti salah operasi)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4"
+   ]
+  },
+  {
+   "id": "fm-119",
+   "kata": "フェールセーフ",
+   "kana": "ふぇーるせーふ",
+   "romaji": "fueeruseefu",
+   "arti": "fail-safe (aman saat rusak)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s4"
+   ]
+  },
+  {
+   "id": "fm-120",
+   "kata": "物理的危害要因",
+   "kana": "ぶつりてききがいよういん",
+   "romaji": "butsuritekikigaiyouin",
+   "arti": "bahaya fisik",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1"
+   ],
+   "rb": [
+    "物理的危害要因|ぶつりてききがいよういん"
+   ]
+  },
+  {
+   "id": "fm-121",
+   "kata": "ヘルメット",
+   "kana": "へるめっと",
+   "romaji": "herumetto",
+   "arti": "helm",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ]
+  },
+  {
+   "id": "fm-122",
+   "kata": "弁当",
+   "kana": "べんとう",
+   "romaji": "bentou",
+   "arti": "bekal/bento",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "弁当|べんとう"
+   ]
+  },
+  {
+   "id": "fm-123",
+   "kata": "包装",
+   "kana": "ほうそう",
+   "romaji": "housou",
+   "arti": "pengemasan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s4",
+    "m2s5"
+   ],
+   "rb": [
+    "包装|ほうそう"
+   ]
+  },
+  {
+   "id": "fm-124",
+   "kata": "保管温度",
+   "kana": "ほかんおんど",
+   "romaji": "hokanondo",
+   "arti": "suhu penyimpanan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "保管温度|ほかんおんど"
+   ]
+  },
+  {
+   "id": "fm-125",
+   "kata": "保護メガネ",
+   "kana": "ほごめがね",
+   "romaji": "hogomegane",
+   "arti": "kacamata pelindung",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2",
+    "m3s4"
+   ],
+   "rb": [
+    "保護メガネ|ほごめがね"
+   ]
+  },
+  {
+   "id": "fm-126",
+   "kata": "ボツリヌス菌",
+   "kana": "ぼつりぬすきん",
+   "romaji": "botsurinusukin",
+   "arti": "bakteri botulinum",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s2",
+    "m2s5"
+   ],
+   "rb": [
+    "ボツリヌス菌|ぼつりぬすきん"
+   ]
+  },
+  {
+   "id": "fm-127",
+   "kata": "混ぜる",
+   "kana": "まぜる",
+   "romaji": "mazeru",
+   "arti": "mencampur",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "混ぜる|まぜる"
+   ]
+  },
+  {
+   "id": "fm-128",
+   "kata": "ミトン手袋",
+   "kana": "みとんてぶくろ",
+   "romaji": "mitontebukuro",
+   "arti": "sarung tangan mitten (tahan panas)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "ミトン手袋|みとんてぶくろ"
+   ]
+  },
+  {
+   "id": "fm-129",
+   "kata": "耳栓",
+   "kana": "みみせん",
+   "romaji": "mimisen",
+   "arti": "sumbat telinga",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "耳栓|みみせん"
+   ]
+  },
+  {
+   "id": "fm-130",
+   "kata": "メクセル手袋",
+   "kana": "めくせるてぶくろ",
+   "romaji": "mekuserutebukuro",
+   "arti": "sarung tangan Mexel (tahan sayatan)",
+   "cat": "Keselamatan Kerja",
+   "bab": "bab3",
+   "src": [
+    "m3s2"
+   ],
+   "rb": [
+    "メクセル手袋|めくせるてぶくろ"
+   ]
+  },
+  {
+   "id": "fm-131",
+   "kata": "盛り付け",
+   "kana": "もりつけ",
+   "romaji": "moritsuke",
+   "arti": "penataan/penyajian di wadah",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s4"
+   ],
+   "rb": [
+    "盛り付け|もりつけ"
+   ]
+  },
+  {
+   "id": "fm-132",
+   "kata": "薬剤",
+   "kana": "やくざい",
+   "romaji": "yakuzai",
+   "arti": "bahan kimia (disinfektan dll.)",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s1",
+    "m2s2",
+    "m2s3",
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "薬剤|やくざい"
+   ]
+  },
+  {
+   "id": "fm-133",
+   "kata": "薬剤の管理",
+   "kana": "やくざいのかんり",
+   "romaji": "yakuzainokanri",
+   "arti": "pengelolaan bahan kimia",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3"
+   ],
+   "rb": [
+    "薬剤の管理|やくざいのかんり"
+   ]
+  },
+  {
+   "id": "fm-134",
+   "kata": "薬剤による殺菌",
+   "kana": "やくざいによるさっきん",
+   "romaji": "yakuzainiyorusakkin",
+   "arti": "sterilisasi dengan bahan kimia",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s3",
+    "m2s6"
+   ],
+   "rb": [
+    "薬剤による殺菌|やくざいによるさっきん"
+   ]
+  },
+  {
+   "id": "fm-135",
+   "kata": "流水",
+   "kana": "りゅうすい",
+   "romaji": "ryuusui",
+   "arti": "air mengalir",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s4",
+    "m2s5"
+   ],
+   "rb": [
+    "流水|りゅうすい"
+   ]
+  },
+  {
+   "id": "fm-136",
+   "kata": "流水解凍",
+   "kana": "りゅうすいかいとう",
+   "romaji": "ryuusuikaitou",
+   "arti": "pencairan dengan air mengalir",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "流水解凍|りゅうすいかいとう"
+   ]
+  },
+  {
+   "id": "fm-137",
+   "kata": "冷却",
+   "kana": "れいきゃく",
+   "romaji": "reikyaku",
+   "arti": "pendinginan",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5",
+    "m2s6"
+   ],
+   "rb": [
+    "冷却|れいきゃく"
+   ]
+  },
+  {
+   "id": "fm-138",
+   "kata": "冷凍",
+   "kana": "れいとう",
+   "romaji": "reitou",
+   "arti": "pembekuan",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "冷凍|れいとう"
+   ]
+  },
+  {
+   "id": "fm-139",
+   "kata": "冷凍庫",
+   "kana": "れいとうこ",
+   "romaji": "reitouko",
+   "arti": "freezer",
+   "cat": "Kebersihan Pangan",
+   "bab": "bab2",
+   "src": [
+    "m2s5"
+   ],
+   "rb": [
+    "冷凍庫|れいとうこ"
+   ]
+  },
+  {
+   "id": "fm-140",
+   "kata": "労働安全",
+   "kana": "ろうどうあんぜん",
+   "romaji": "roudouanzen",
+   "arti": "keselamatan kerja",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "労働安全|ろうどうあんぜん"
+   ]
+  },
+  {
+   "id": "fm-141",
+   "kata": "労働災害",
+   "kana": "ろうどうさいがい",
+   "romaji": "roudousaigai",
+   "arti": "kecelakaan kerja",
+   "cat": "Keterampilan di Industri Makanan dan Minuman",
+   "bab": "bab1",
+   "src": [
+    "m1s1"
+   ],
+   "rb": [
+    "労働災害|ろうどうさいがい"
+   ]
+  }
+ ]
+}
