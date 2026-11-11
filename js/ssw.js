@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261111g";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111g";
+} from "./ssw-core.js?v=20261111h";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -54,6 +54,7 @@ function ensurePrefsUI() {
 const applyRuby = () => { document.body.classList.toggle("sw-noruby", !ruby()); applyPrefs(); };
 const L = (o, lang) => (o && (o[lang] ?? o.id ?? o.jp)) || "";
 // Buku tiap bidang: index.json boleh menyebut "assets" (folder gambar bidang lain) dan "book" (hanya satu bahasa buku).
+const spages = (s, lang) => (lang === "jp" && s.pagesJp) || s.pages;   // buku Jepang bisa bernomor halaman beda
 const BK = {};   // slug → { dir, one }
 const pageFile = (slug, lang, n) => `./assets/ssw/${BK[slug]?.dir || slug}/${BK[slug]?.one || lang}/p${String(n).padStart(2, "0")}.webp`;
 const AUDIO_LEVEL = { "building-cleaning": "ssw-bc" };
@@ -249,7 +250,7 @@ async function renderBaca([slug, subId, mode, lang]) {
   P.last = { route: `ssw-baca/${slug}/${subId}/${mode}/${lang}`, label: `BAB ${c.no} · ${plain(L(s.title, "id"))}`, t: Date.now() };
   touch(slug);
   const words = pack.vocab.filter(v => (v.src || []).includes(s.id));
-  const [p1, p2] = s.pages;
+  const [p1, p2] = spages(s, lang);
   const thumbs = []; for (let p = p1; p <= p2; p++) thumbs.push(p);
   const body = mode === "lengkap" ? blocksHTML(s.full?.[lang] || s.full?.id) : summaryHTML(s.summary?.[lang] || s.summary?.id);
   setTimeout(() => window.SSW.linkVocab(slug), 0);
@@ -300,7 +301,7 @@ async function renderBuku([slug, lang, page]) {
   const pg = Math.max(0, Math.min(total - 1, parseInt(page, 10) || 1));
   setLang(lang); BOOK.zoom = 1;
   const other = lang === "jp" ? "id" : "jp";
-  const chips = flatSubs(b, pack).map(({ c, s }) => `<button class="sw-chip ${pg >= s.pages[0] && pg <= s.pages[1] ? "on" : ""}" onclick="route('ssw-buku/${slug}/${lang}/${s.pages[0]}')">${c.no}.${s.no}</button>`).join("");
+  const chips = flatSubs(b, pack).map(({ c, s }) => `<button class="sw-chip ${pg >= spages(s, lang)[0] && pg <= spages(s, lang)[1] ? "on" : ""}" onclick="route('ssw-buku/${slug}/${lang}/${spages(s, lang)[0]}')">${c.no}.${s.no}</button>`).join("");
   setTimeout(() => window.SSW.bookInit(slug, lang, pg, total), 0);
   return `<div class="sw-book">
     <div class="sw-book-top">
@@ -647,7 +648,7 @@ const SSW = window.SSW = {
     const el = document.getElementById("hf-n"); if (el) el.textContent = set.size; HF.sel = q; HF.n = set.size;
   },
   async alatInit(slug) {
-    try { if (!ALAT.items) ALAT.items = (await (await fetch(`./data/ssw/${slug}/alat.json?v=20261111g`)).json()).items; if (window.sswSrsLoad) ALAT.srs = await window.sswSrsLoad(); alatDraw(); }
+    try { if (!ALAT.items) ALAT.items = (await (await fetch(`./data/ssw/${slug}/alat.json?v=20261111h`)).json()).items; if (window.sswSrsLoad) ALAT.srs = await window.sswSrsLoad(); alatDraw(); }
     catch (e) { const b = document.getElementById("alat-body"); if (b) b.innerHTML = `<p class="sw-muted">Data peralatan belum bisa dimuat.</p>`; }
   },
   alatSet(k, v) { ALAT[k] = v; alatDraw(); },

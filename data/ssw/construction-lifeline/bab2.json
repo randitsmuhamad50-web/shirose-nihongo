@@ -18,10 +18,18 @@
    13,
    33
   ],
+  "pagesJp": [
+   7,
+   18
+  ],
   "subs": [
    {
     "id": "b2s1",
     "no": 1,
+    "pagesJp": [
+     7,
+     12
+    ],
     "title": {
      "id": "Undang-Undang Ketenagakerjaan",
      "jp": "{労働基準法|ろうどうきじゅんほう}"
@@ -78,6 +86,10 @@
    {
     "id": "b2s2",
     "no": 2,
+    "pagesJp": [
+     13,
+     13
+    ],
     "title": {
      "id": "UU Industri Konstruksi dan UU Standar Bangunan",
      "jp": "{建設業法|けんせつぎょうほう}・{建築基準法|けんちくきじゅんほう}"
@@ -133,6 +145,10 @@
    {
     "id": "b2s3",
     "no": 3,
+    "pagesJp": [
+     14,
+     15
+    ],
     "title": {
      "id": "Hukum Lingkungan: Limbah, Daur Ulang, Udara, Bising, Air",
      "jp": "{環境|かんきょう}の{法律|ほうりつ}"
@@ -177,6 +193,10 @@
    {
     "id": "b2s4",
     "no": 4,
+    "pagesJp": [
+     15,
+     18
+    ],
     "title": {
      "id": "UU Pemadam, Air, Drainase, Gas, Listrik, Telekomunikasi, Penerbangan, Parkir",
      "jp": "ライフラインと{安全|あんぜん}の{法律|ほうりつ}"

@@ -18,10 +18,18 @@
    135,
    151
   ],
+  "pagesJp": [
+   107,
+   120
+  ],
   "subs": [
    {
     "id": "b7s1",
     "no": 1,
+    "pagesJp": [
+     107,
+     111
+    ],
     "title": {
      "id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
      "jp": "{死亡災害|しぼうさいがい}"
@@ -77,6 +85,10 @@
    {
     "id": "b7s2",
     "no": 2,
+    "pagesJp": [
+     112,
+     120
+    ],
     "title": {
      "id": "Kegiatan Keselamatan di Lokasi Konstruksi",
      "jp": "{現場|げんば}の{安全活動|あんぜんかつどう}"

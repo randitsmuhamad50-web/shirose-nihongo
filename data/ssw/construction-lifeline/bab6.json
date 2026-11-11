@@ -18,10 +18,18 @@
    156,
    193
   ],
+  "pagesJp": [
+   83,
+   106
+  ],
   "subs": [
    {
     "id": "b6s1",
     "no": 1,
+    "pagesJp": [
+     83,
+     85
+    ],
     "title": {
      "id": "Hal Umum di Lokasi Konstruksi",
      "jp": "{現場|げんば}の{共通|きょうつう}{事項|じこう}"
@@ -78,6 +86,10 @@
    {
     "id": "b6s2",
     "no": 2,
+    "pagesJp": [
+     86,
+     89
+    ],
     "title": {
      "id": "Pengolahan Pipa",
      "jp": "{配管|はいかん}{工事|こうじ}"
@@ -125,6 +137,10 @@
    {
     "id": "b6s3",
     "no": 3,
+    "pagesJp": [
+     90,
+     92
+    ],
     "title": {
      "id": "Pendingin Udara dan Isolasi Panas",
      "jp": "{空調|くうちょう}と{保温|ほおん}"
@@ -173,6 +189,10 @@
    {
     "id": "b6s4",
     "no": 4,
+    "pagesJp": [
+     93,
+     97
+    ],
     "title": {
      "id": "Pipa Lifeline",
      "jp": "ライフライン{配管|はいかん}"
@@ -231,6 +251,10 @@
    {
     "id": "b6s5",
     "no": 5,
+    "pagesJp": [
+     98,
+     99
+    ],
     "title": {
      "id": "Pelat Logam Arsitektur",
      "jp": "{板金|ばんきん}{工事|こうじ}"
@@ -277,6 +301,10 @@
    {
     "id": "b6s6",
     "no": 6,
+    "pagesJp": [
+     100,
+     104
+    ],
     "title": {
      "id": "Peralatan Listrik dan Telekomunikasi",
      "jp": "{電気|でんき}・{通信|つうしん}{設備|せつび}"
@@ -328,6 +356,10 @@
    {
     "id": "b6s7",
     "no": 7,
+    "pagesJp": [
+     105,
+     106
+    ],
     "title": {
      "id": "Tungku dan Peralatan Pemadam",
      "jp": "{炉|ろ}と{消防設備|しょうぼうせつび}"

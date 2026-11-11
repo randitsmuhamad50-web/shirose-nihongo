@@ -2,9 +2,9 @@
  "slug": "construction-lifeline",
  "nama": "Construction — Lifeline & Peralatan (Setsubi)",
  "jp": "建設（ライフライン・設備）",
- "book": "id",
  "pages": {
-  "id": 212
+  "id": 212,
+  "jp": 121
  },
  "bab": [
   {
