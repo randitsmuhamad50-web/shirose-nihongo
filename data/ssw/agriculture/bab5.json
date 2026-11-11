@@ -1,0 +1,344 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab5",
+  "no": 5,
+  "title": {
+   "id": "Hortikultura Rumah Kaca",
+   "jp": "{施設園芸|しせつえんげい}"
+  },
+  "intro": {
+   "id": "Bagian 6 modul: tanaman rumah kaca, jenis dan struktur fasilitas, bahan penutup, perlengkapan, pengelolaan lingkungan, hidroponik, dan pembibitan.",
+   "jp": "{施設園芸|しせつえんげい}"
+  },
+  "pages": [
+   61,
+   73
+  ],
+  "subs": [
+   {
+    "id": "a5s1",
+    "no": 1,
+    "title": {
+     "id": "Tanaman di Rumah Kaca",
+     "jp": "{施設園芸|しせつえんげい}の{作物|さくもつ}"
+    },
+    "pages": [
+     61,
+     63
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Sayuran"
+      },
+      {
+       "ul": [
+        "**Tomat** (suku Solanaceae): banyak tipe, sepanjang tahun, suka suhu agak tinggi dan cahaya kuat.",
+        "**Stroberi** (Rosaceae): bangku tinggi; reproduksi vegetatif lewat **geragih** (stolon); pembibitan mempercepat diferensiasi pucuk bunga → **budidaya dipercepat**.",
+        "**Timun** (Cucurbitaceae): bunga jantan dan betina, tetapi bisa berbuah tanpa penyerbukan (**partenokarpi**); budidaya tiang penopang.",
+        "Lainnya: bayam (Chenopodiaceae), terong, paprika (Solanaceae)."
+       ]
+      },
+      {
+       "h": "Bunga"
+      },
+      {
+       "ul": [
+        "**Krisan**: abadi, pembibitan **setek**; krisan musim gugur tanaman hari pendek → diterangi lampu malam untuk menunda mekar.",
+        "**Mawar**: bunga potong dari pohon. **Lili**: dari umbi (bakung paskah, tipe asiatik, oriental).",
+        "**Anyelir**: bunga potong; ±70% tipe cipratan (satu batang banyak bunga)."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 61–63. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Rumah kaca memungkinkan produksi sepanjang tahun untuk sayuran dan bunga.",
+      "points": [
+       "Stroberi: geragih; timun: partenokarpi.",
+       "Krisan musim gugur = hari pendek.",
+       "Krisan dibibitkan dengan setek."
+      ],
+      "avoid": [
+       "Menyamakan tomat (Solanaceae) dengan timun (Cucurbitaceae)."
+      ],
+      "exam": [
+       "Suku tanaman.",
+       "Penundaan mekar krisan dengan lampu malam."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a5s2",
+    "no": 2,
+    "title": {
+     "id": "Jenis Fasilitas dan Bahan Penutup",
+     "jp": "{施設|しせつ}の{種類|しゅるい}と{被覆資材|ひふくしざい}"
+    },
+    "pages": [
+     63,
+     66
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Jenis fasilitas"
+      },
+      {
+       "ul": [
+        "**Rumah kaca (glass house)**: tembus cahaya baik, awet bertahun-tahun, biaya pembuatan lebih mahal.",
+        "**Rumah kaca plastik**: membran plastik fleksibel/tegar yang ringan; daya tahan lebih rendah tetapi biaya murah sehingga makin banyak dipakai.",
+        "**Rumah hujan (atap saja ditutup)**: mencegah penyakit, hama, dan buah pecah karena tidak terkena hujan langsung.",
+        "Tipe **tunggal** (kuat terhadap angin dan salju, ventilasi baik) dan tipe **rangkaian** (efisiensi pemanas lebih baik, ruang luas, tetapi sinar di bagian sambungan berkurang).",
+        "Bentuk atap: dua sisi, bulat, dan tipe besar Belanda."
+       ]
+      },
+      {
+       "h": "Bahan penutup luar"
+      },
+      {
+       "ul": [
+        "**Kaca** lembaran: cahaya menembus baik.",
+        "**Vinil klorida (PVC) pertanian**: retensi panas baik; berat, lengket, mudah kotor dan sobek; ganti tiap **1–2 tahun**; beracun bila dibakar.",
+        "**Poliolefin khusus**: lebih ringan, tidak lengket; 2–3 tahun atau 3–5 tahun.",
+        "**Fluorin**: >10 tahun. **Papan akrilik**: >10 tahun."
+       ]
+      },
+      {
+       "h": "Bahan penutup dalam"
+      },
+      {
+       "ul": [
+        "**Membran plastik lunak** transparan (lebih tipis daripada penutup luar); polietilen kurang baik menahan panas.",
+        "Dipakai sebagai gorden penahan panas; **Kain saringan (kanreisha)** menghalangi cahaya tetapi berventilasi."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 63–66. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pilih fasilitas dan bahan penutup menurut biaya, umur pakai, dan tembus cahaya.",
+      "points": [
+       "Kaca awet tapi mahal; plastik murah.",
+       "PVC ganti 1–2 tahun, fluorin >10 tahun.",
+       "Rumah hujan: hanya atap ditutup."
+      ],
+      "avoid": [
+       "Membakar membran PVC (gas beracun)."
+      ],
+      "exam": [
+       "Umur pakai bahan penutup.",
+       "Manfaat rumah hujan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a5s3",
+    "no": 3,
+    "title": {
+     "id": "Perlengkapan dalam Fasilitas",
+     "jp": "{施設内|しせつない}の{設備|せつび}"
+    },
+    "pages": [
+     66,
+     67
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pemanas"
+      },
+      {
+       "ul": [
+        "Metode **udara hangat** (banyak dipakai) dan **air hangat**. Bahan bakar: minyak berat/minyak tanah; juga listrik, gas, pelet kayu; panas matahari dan pompa panas mulai dipakai.",
+        "**Rumah tanpa pemanas** cocok untuk tanaman tahan dingin; dengan terowongan efek retensi panas malam naik."
+       ]
+      },
+      {
+       "h": "Ventilasi"
+      },
+      {
+       "ul": [
+        "Siang hari suhu naik, perlu **ventilasi**: **alami** (buka jendela/penutup; dipengaruhi cuaca) dan **paksa** (kipas; butuh listrik).",
+        "Urutan: mulai ventilasi alami — buka penutup dalam, lalu jendela atap, lalu bagian samping. Bila suhu belum turun → ventilasi paksa."
+       ]
+      },
+      {
+       "h": "CO2 dan pengendalian hama"
+      },
+      {
+       "ul": [
+        "**Alat penghasil gas CO2** mendorong fotosintesis di fasilitas tertutup.",
+        "Suhu dan kelembapan tinggi memudahkan hama: pakai **penyemprot berjalan sendiri**, atau **penerangan anti serangga** (lampu kuning) tanpa pestisida kimia."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 66–67. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pemanas, ventilasi, CO2, dan alat anti hama menjaga lingkungan rumah kaca.",
+      "points": [
+       "Ventilasi alami dulu, baru paksa.",
+       "Lampu kuning = anti serangga.",
+       "CO2 mendorong fotosintesis."
+      ],
+      "avoid": [
+       "Langsung ventilasi paksa tanpa mencoba ventilasi alami."
+      ],
+      "exam": [
+       "Urutan ventilasi.",
+       "Fungsi alat CO2."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a5s4",
+    "no": 4,
+    "title": {
+     "id": "Pengelolaan Lingkungan dan Diagnosis",
+     "jp": "{環境管理|かんきょうかんり}と{診断|しんだん}"
+    },
+    "pages": [
+     68,
+     70
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Suhu udara"
+      },
+      {
+       "ul": [
+        "Atur suhu sesuai jenis tanaman: siang **ventilasi** (kadang pendingin di musim panas); pagi dan malam **pemanas**.",
+        "Alat ukur: termometer batang (alkohol berwarna), **termometer maksimum-minimum** (merkuri; suhu sekarang, maksimum, minimum sejak reset), termometer digital.",
+        "Jepang memakai skala **Celsius**; angka dibaca dari sisi cairan.",
+        "Retensi panas naik dengan **lapisan bahan penutup berlapis**, serta menutup celah (kekedapan udara); penutup dalam, gorden, atau terowongan 1–2 lapis."
+       ]
+      },
+      {
+       "h": "Air dan kelembapan"
+      },
+      {
+       "ul": [
+        "Kadar air tanah dengan tensiometer; nilai tepat sekitar 35%…",
+        "Kelembapan mudah naik di fasilitas, terutama **malam musim dingin** sehingga muncul penyakit; turunkan kelembapan dan cegah **kondensasi**."
+       ]
+      },
+      {
+       "h": "Kontrol majemuk dan diagnosis"
+      },
+      {
+       "ul": [
+        "**Kontrol lingkungan majemuk**: mengelola suhu, kelembapan, cahaya, CO2 bersamaan, otomatis dengan komputer.",
+        "**Diagnosis pertumbuhan**: periksa jumlah daun, panjang antar ruas, tinggi tanaman, warna daun sebelum memberi air atau pupuk."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 68–70. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Suhu, kelembapan, dan faktor lain dikontrol; kondisi tanaman dibaca dari daun dan ruas.",
+      "points": [
+       "Termometer maksimum-minimum menampilkan 3 suhu.",
+       "Kelembapan tinggi malam hari → penyakit.",
+       "Kontrol majemuk dengan komputer."
+      ],
+      "avoid": [
+       "Membiarkan kondensasi di malam musim dingin."
+      ],
+      "exam": [
+       "Fungsi termometer max-min.",
+       "Pengertian kontrol lingkungan majemuk."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a5s5",
+    "no": 5,
+    "title": {
+     "id": "Hidroponik dan Pembibitan",
+     "jp": "{養液栽培|ようえきさいばい}と{育苗|いくびょう}"
+    },
+    "pages": [
+     71,
+     73
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bibit sehat dan penyebab gagal tumbuh"
+      },
+      {
+       "ul": [
+        "Bibit tidak sehat: tumbuh terlalu panjang, ada bekas penyakit/hama, antar daun kuning, daun terlepas, menua.",
+        "**Kurang air**: ujung batang menurun, daun layu. **Kurang kalsium**: gangguan fisiologis (busuk bawah). **Kurang zat besi**: daun baru menguning. **Kurang cahaya**: batang kecil, antar ruas panjang, daun tipis dan lebar."
+       ]
+      },
+      {
+       "h": "Hidroponik"
+      },
+      {
+       "ul": [
+        "Menumbuhkan tanaman dengan **larutan inkubasi (larutan nutrisi)** tanpa tanah. Dengan media padat (rockwool, sabut kelapa, peat moss, kerikil) atau tanpa media padat (**aeroponik**, **hiponika**).",
+        "Keunggulan: penyakit tanah jarang, tanpa pengolahan tanah/penyiraman/penyiangan, pupuk tidak terbuang, tanpa gagal tanam berulang, mudah otomatis. Kekurangan: biaya pembangunan."
+       ]
+      },
+      {
+       "p": "Peralatan: tangki larutan, wadah, pompa pengirim larutan."
+      },
+      {
+       "h": "Cara pembibitan"
+      },
+      {
+       "ul": [
+        "**Tanah persemaian** (hangat dengan kawat listrik, atau dingin), **kotak pembibitan**, **polypot**, **paperpot** (terurai di tanah), **pembibitan pembentukan sel** (wadah sel).",
+        "**Okulasi**: batang bawah kuat terhadap penyakit/hama + batang atas unggul; untuk terong, timun, tomat, semangka; bibit kuat dan hasil banyak.",
+        "Bibit sehat: ruas pendek, batang tebal kekar. **Bibit panjang** karena air berlebih, suhu tinggi, atau kurang cahaya. Kurang nitrogen → daun bawah kuning."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 71–73. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hidroponik memakai larutan nutrisi tanpa tanah; bibit sehat berruas pendek dan batang tebal.",
+      "points": [
+       "Okulasi = batang bawah kuat + batang atas unggul.",
+       "Kurang kalsium → busuk bawah.",
+       "Bibit panjang: kurang cahaya, air berlebih."
+      ],
+      "avoid": [
+       "Memberi air berlebih pada bibit."
+      ],
+      "exam": [
+       "Keunggulan hidroponik.",
+       "Penyebab bibit panjang."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

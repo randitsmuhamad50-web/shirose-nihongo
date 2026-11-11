@@ -64,7 +64,7 @@ export const DEFAULT_BIDANG = [
   { slug: "food-manufacturing", nama: "Food Manufacturing", jp: "飲食料品製造業", aktif: false, urut: 3, tema: "factory" },
   { slug: "food-service", nama: "Food Service (Jasa Boga)", jp: "外食業", aktif: true, urut: 4, tema: "restaurant", hasContent: true },
   { slug: "food-service-jp", nama: "Food Service (Bahasa Jepang)", jp: "外食業（日本語）", induk: "food-service", aktif: true, urut: 4.5, tema: "restaurant", hasContent: true },
-  { slug: "agriculture", nama: "Agriculture", jp: "農業", aktif: false, urut: 5, tema: "farm" },
+  { slug: "agriculture", nama: "Agriculture (Pertanian)", jp: "農業", aktif: true, urut: 5, tema: "farm", hasContent: true },
   { slug: "construction", nama: "Construction", jp: "建設", aktif: false, urut: 6, tema: "construction" },
   { slug: "accommodation", nama: "Accommodation", jp: "宿泊", aktif: false, urut: 7, tema: "hotel" },
 ];

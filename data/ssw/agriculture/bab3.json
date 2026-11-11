@@ -1,0 +1,227 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Budidaya Padi",
+   "jp": "{稲作|いなさく}"
+  },
+  "intro": {
+   "id": "Bagian 4 modul: persiapan benih, pembibitan, pengelolaan sawah, penanaman, pemanenan, pengeringan, serta budidaya hemat biaya dan beras pakan.",
+   "jp": "{稲作|いなさく}"
+  },
+  "pages": [
+   44,
+   50
+  ],
+  "subs": [
+   {
+    "id": "a3s1",
+    "no": 1,
+    "title": {
+     "id": "Benih dan Pembibitan Padi",
+     "jp": "{種籾|たねもみ}と{育苗|いくびょう}"
+    },
+    "pages": [
+     44,
+     46
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Di Jepang umumnya dipakai budidaya **tanam pindah dengan mesin transplanter**."
+      },
+      {
+       "h": "Persiapan benih"
+      },
+      {
+       "ul": [
+        "Benih padi = **beras coklat** (embrio + endosperma) dan **kulit padi**. Embrio menjadi daun dan akar; endosperma berisi nutrisi.",
+        "**Sterilisasi benih** terhadap penyakit seperti white-tip nematode, gibberella fujikuroi, pseudomonas glumae, dan **penyakit blas**.",
+        "**Perendaman**: 7–10 hari dalam air 10–15°C (acuan suhu akumulasi 100°C).",
+        "**Mempercepat pertunasan**: 30–32°C sebelum semai, sampai bertunas sekitar 1 mm (**bentuk dada merpati**)."
+       ]
+      },
+      {
+       "h": "Pembibitan"
+      },
+      {
+       "ul": [
+        "Wadah bibit 60 × 30 × 3 cm diisi tanah (media) berpupuk, disiram, benih ditanam, lalu ditutup tanah.",
+        "Ditutup bahan penjaga suhu untuk bertunas; setelah bertunas dijajarkan di rumah kaca dan ditutupi sampai hijau.",
+        "**Bibit muda**: 20–25 hari; **bibit sedang**: 30–35 hari."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 44–46. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Benih disterilisasi, direndam, dipercepat bertunas (dada merpati), lalu dibibitkan 20–35 hari.",
+      "points": [
+       "Embrio → daun dan akar; endosperma → nutrisi.",
+       "Rendam 10–15°C selama 7–10 hari.",
+       "Bibit muda 20–25 hari, bibit sedang 30–35 hari."
+      ],
+      "avoid": [
+       "Menanam benih yang belum disterilisasi."
+      ],
+      "exam": [
+       "Struktur benih.",
+       "Bentuk dada merpati."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a3s2",
+    "no": 2,
+    "title": {
+     "id": "Sawah, Penanaman, dan Pemeliharaan",
+     "jp": "{田植|たう}えと{管理|かんり}"
+    },
+    "pages": [
+     46,
+     47
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Persiapan sawah"
+      },
+      {
+       "ul": [
+        "Sawah dibajak dengan traktor (rotary) dan diratakan; setelah diberi air, tanah diaduk hingga empuk — disebut **pelumpuran**.",
+        "Pupuk disebar sebelum pelumpuran; ada juga **pemupukan bersamaan tanam**."
+       ]
+      },
+      {
+       "h": "Penanaman dan air"
+      },
+      {
+       "ul": [
+        "Transplanter menanam **2–8 baris**, jarak antar baris **30 cm**, jarak antar rumpun diatur sekitar **10–30 cm**.",
+        "Setelah tanam, **pemasukan air** untuk melindungi bibit. Bila akar/daun baru keluar, air didangkalkan untuk memperbanyak anakan (**penganakan**).",
+        "Kemudian air dikeluarkan (**pengeringan sawah**) atau dimasukkan sesuai pertumbuhan."
+       ]
+      },
+      {
+       "h": "Perawatan"
+      },
+      {
+       "ul": [
+        "**Herbisida** disemprot setelah tanam (tipe granula, flowable, dll.).",
+        "Kendalikan penyakit blas, bercak cokelat, dan hama pemakan daun/malai (misalnya sorghum plant bug).",
+        "**Pupuk tambahan** (pupuk malai): nitrogen dan kalium sekitar **15–25 hari sebelum malai keluar**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 46–47. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Sawah dilumpurkan, ditanam transplanter, airnya diatur, lalu dirawat dengan herbisida dan pupuk tambahan.",
+      "points": [
+       "Jarak antar baris 30 cm; antar rumpun 10–30 cm.",
+       "Penganakan: air didangkalkan.",
+       "Pupuk malai 15–25 hari sebelum malai keluar."
+      ],
+      "avoid": [
+       "Membiarkan sawah tanpa pengendalian blas dan hama."
+      ],
+      "exam": [
+       "Pengertian pelumpuran dan penganakan.",
+       "Waktu pupuk tambahan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a3s3",
+    "no": 3,
+    "title": {
+     "id": "Panen, Pengiriman, dan Budidaya Hemat Biaya",
+     "jp": "{収穫|しゅうかく}・{出荷|しゅっか}"
+    },
+    "pages": [
+     48,
+     50
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pemanenan"
+      },
+      {
+       "ul": [
+        "Setelah beralih ke pertumbuhan generatif, malai terdiferensiasi (**diferensiasi bibit muda**). Sekitar 30 hari kemudian malai keluar; **30–60 hari** setelah keluar malai masuk masa panen.",
+        "Hampir semua daerah memanen dengan **combine** (mesin pemanen + perontok), umumnya **tipe perontokan otomatis**."
+       ]
+      },
+      {
+       "h": "Pengaturan dan pengiriman"
+      },
+      {
+       "ul": [
+        "Gabah saat panen berkadar air **20–27%**; dikeringkan dengan tenaga api hingga **14–15%**.",
+        "Digiling untuk membuang kulit → **beras coklat**; disortir buang beras cacat; dikirim dalam kantong beras atau flexible container 30 kg."
+       ]
+      },
+      {
+       "h": "Setelah panen"
+      },
+      {
+       "p": "Sawah dibajak rotary untuk menimbun merang, jerami, dan gulma."
+      },
+      {
+       "h": "Budidaya hemat biaya"
+      },
+      {
+       "ul": [
+        "**Penyemaian langsung**: benih disebar langsung ke sawah tanpa pembibitan (hemat waktu dan alat). Ada pada sawah berair (benih berlapis kalsium peroksida/besi) dan sawah kering.",
+        "**Penanaman jarak lebar**: jarak antar rumpun 15 → 28 cm, kotak bibit berkurang ≥ 40%."
+       ]
+      },
+      {
+       "h": "Beras untuk pakan"
+      },
+      {
+       "ul": [
+        "Dua jenis: **beras pakan** (gabahnya) dan **WCS padi / silase seluruh tanaman** (buah, batang, daun dipanen bersama, sekitar **tahap matang kuning**).",
+        "Perlu kerja sama petani padi dan peternak; harga lebih murah sehingga biaya produksi harus ditekan."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 48–50. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Panen dengan combine saat 30–60 hari setelah malai; gabah dikeringkan ke 14–15% lalu digiling.",
+      "points": [
+       "Kadar air 20–27% → 14–15%.",
+       "Penyemaian langsung = tanpa pembibitan.",
+       "WCS padi dipanen sekitar tahap matang kuning."
+      ],
+      "avoid": [
+       "Membiarkan gabah berkadar air tinggi."
+      ],
+      "exam": [
+       "Kadar air pengeringan.",
+       "Definisi penyemaian langsung dan WCS."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,537 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Pertanaman Umum",
+   "jp": "{耕種農業|こうしゅのうぎょう}{全般|ぜんぱん}"
+  },
+  "intro": {
+   "id": "Bagian 2 modul: pertumbuhan tanaman, penanaman benih dan bibit, air, tanah, pupuk, pemeliharaan, pemanenan, bahan penutup, serta pengendalian hama dan gulma.",
+   "jp": "{耕種農業|こうしゅのうぎょう}{全般|ぜんぱん}"
+  },
+  "pages": [
+   7,
+   35
+  ],
+  "subs": [
+   {
+    "id": "a1s1",
+    "no": 1,
+    "title": {
+     "id": "Pertanian di Jepang dan Pertumbuhan Organ Tanaman",
+     "jp": "{作物|さくもつ}の{生育|せいいく}"
+    },
+    "pages": [
+     7,
+     10
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pertanian umum di Jepang"
+      },
+      {
+       "ul": [
+        "**Padi**: ada padi Asia dan padi Afrika. Padi Asia terbagi **Indica** dan **Japonica**; yang dibudidayakan di Jepang kebanyakan **Japonica**. Buah padi tanpa kulit sekam = beras.",
+        "**Sayuran**: sayuran **akar** (bagian akar/umbi), **daun**, dan **buah**. Dengan fasilitas dan bahan penutup, sayuran sejenis dapat dihasilkan sepanjang tahun (budidaya sepanjang tahun).",
+        "**Pohon buah**: hijau abadi (jeruk unshiu, loquat) dan peluruh (apel, anggur, pir). Apel di daerah dingin; unshiu di daerah hangat."
+       ]
+      },
+      {
+       "note": "Sebelum masuk Jepang: seminggu sebelumnya jangan menyentuh hewan ternak; seminggu setelah masuk jangan memasuki kandang; jangan bawa pakaian/sepatu kerja kotor dari luar negeri; produk daging tanpa sertifikat inspeksi tidak boleh dibawa."
+      },
+      {
+       "h": "Organ dan pertumbuhan"
+      },
+      {
+       "ul": [
+        "**Organ vegetatif**: daun, batang, akar. **Organ generatif**: bunga dan buah (menghasilkan anakan).",
+        "**Pertumbuhan vegetatif** pada daun/batang/akar; **pertumbuhan generatif** untuk menghasilkan buah dan benih.",
+        "**Fotosintesis** memerlukan **cahaya, CO2, dan air**; hasilnya karbohidrat. Makin kuat cahaya, makin banyak fotosintesis.",
+        "**Pernapasan**: makin banyak saat tumbuh pesat atau suhu tinggi; suhu malam tinggi membuat karbohidrat terpakai banyak sehingga cadangan berkurang.",
+        "**Transpirasi**: air keluar lewat **stoma** daun. **Penyerapan nutrisi dan air** lewat akar."
+       ]
+      },
+      {
+       "h": "Diferensiasi pucuk bunga"
+      },
+      {
+       "ul": [
+        "Teratur setelah tahap pertumbuhan tertentu (contoh **tomat**).",
+        "Dipengaruhi lingkungan: suhu dan lama penyinaran (contoh lobak, bayam).",
+        "**Tanaman hari pendek**: berbunga bila gelap lebih panjang — **stroberi, krisan**. **Tanaman hari panjang**: gelap lebih pendek — **bayam**. Suhu rendah memicu bunga pada **lobak, kol, brokoli**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 7–10. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bedakan organ vegetatif dan generatif; fotosintesis butuh cahaya, CO2, air.",
+      "points": [
+       "Japonica dominan di Jepang.",
+       "Hari pendek: stroberi, krisan; hari panjang: bayam.",
+       "Stoma = jalur transpirasi."
+      ],
+      "avoid": [
+       "Menyentuh ternak seminggu sebelum ke Jepang."
+      ],
+      "exam": [
+       "Organ vegetatif vs generatif.",
+       "Syarat fotosintesis."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s2",
+    "no": 2,
+    "title": {
+     "id": "Tata Tanam, Penanaman Benih, Pembibitan, dan Penanaman",
+     "jp": "{栽培|さいばい}の{基本|きほん}"
+    },
+    "pages": [
+     10,
+     13
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Tata cara penanaman**: jenis tanaman dan urutan budidaya di lahan. **Tipe penanaman**: perbedaan waktu/cara budidaya pada satu jenis (mis. kol ditanam musim semi/panas/gugur; timun/tomat **budidaya dipercepat** atau **diperlambat** dibanding budidaya biasa di luar ruangan).",
+        "**Penanaman benih**: benih butuh **air, suhu sesuai, dan oksigen** (3 syarat bertunas), terpenuhi dengan menutupnya tanah.",
+        "**Fotoblastik positif**: mudah bertunas bila kena cahaya → tutup tanah **tipis**. **Fotoblastik negatif** → tutup tanah **tebal**.",
+        "**Penanaman langsung** (lobak, wortel). **Penjarangan**: mencabut bibit cacat, terserang hama, atau berlebih agar jarak tepat.",
+        "**Pembibitan**: menanam benih di tempat lain (persemaian) untuk sayur buah (tomat, timun) dan sayur daun (kol, selada). Keunggulan: bibit terlindung dari cuaca/hama, sehat dan seragam, **masa di lahan lebih pendek**, efisien di lahan sempit.",
+        "**Penanaman**: memindahkan bibit ke lahan. **Transplanter** (mesin): cepat untuk lahan luas tetapi butuh bibit seragam dan teknik tinggi. **Manual**: pasti dan murah tetapi lama dan melelahkan.",
+        "Penanaman bibit yang keliru: terlalu dalam, terlalu dangkal, atau miring."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 10–13. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tiga syarat bertunas: air, suhu, oksigen. Pembibitan memperpendek masa di lahan.",
+      "points": [
+       "Fotoblastik positif → tanah tipis.",
+       "Penjarangan: cabut bibit cacat/hama/rapat.",
+       "Transplanter = cepat, butuh bibit seragam."
+      ],
+      "avoid": [
+       "Menutup benih fotoblastik positif dengan tanah tebal."
+      ],
+      "exam": [
+       "3 syarat bertunas.",
+       "Keunggulan pembibitan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s3",
+    "no": 3,
+    "title": {
+     "id": "Penyiraman Air",
+     "jp": "{水|みず}やり"
+    },
+    "pages": [
+     14,
+     15
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Siram dengan melihat **kondisi tanaman dan tanah**. Kebutuhan air berbeda menurut suhu dan kelembapan. **Berlebihan → akar membusuk**. Terutama **pagi dan sore**; hindari siang hari musim panas.",
+        "**Dari atas**: selang, gembor, sprinkler, tube. **Di pangkal tanaman**: tube tetes — **menghemat air**. **Di alur**: mengalirkan air, **butuh air banyak**.",
+        "Alat: mulut gembor, sprinkler, tube penyiram, tube penyiram tetes (irigasi tetes)."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 14–15. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Siram pagi/sore sesuai kondisi; irigasi tetes hemat air.",
+      "points": [
+       "Berlebih → akar busuk.",
+       "Alur = paling boros air.",
+       "Hindari siang musim panas."
+      ],
+      "avoid": [
+       "Menyiram berlebihan."
+      ],
+      "exam": [
+       "Cara penyiraman paling hemat air.",
+       "Waktu menyiram."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s4",
+    "no": 4,
+    "title": {
+     "id": "Tanah: Tekstur, Jenis, Remah, dan Tiga Fase",
+     "jp": "{土|つち}の{性質|せいしつ}"
+    },
+    "pages": [
+     16,
+     18
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Tekstur tanah (menurut kandungan tanah liat)"
+      },
+      {
+       "ul": [
+        "**Lempung** ≥50%: tampung nutrisi baik, pembuangan air **tidak baik**.",
+        "**Geluh lempung** 37,5–50%: nutrisi baik, air kurang baik.",
+        "**Geluh** 25–37,5%: nutrisi baik, air baik.",
+        "**Lempung berpasir** 12,5–25%: nutrisi kurang baik, air baik.",
+        "**Pasir** ≤12,5%: nutrisi tidak baik, air baik.",
+        "Paling cocok untuk kebanyakan tanaman: **geluh dan geluh lempung**."
+       ]
+      },
+      {
+       "p": "Cara sederhana: kepal tanah — tidak mengeras (pasir/lempung berpasir), sedikit mengeras tetapi merekah (geluh/geluh lempung), mengeras (lempung)."
+      },
+      {
+       "h": "Jenis tanah di Jepang"
+      },
+      {
+       "ul": [
+        "**Andosol**: abu gunung berapi, banyak humus, hitam; separuh ladang Jepang.",
+        "**Lahan rendah coklat**: tanggul alam, untuk ladang.",
+        "**Lahan rendah abu-abu**: pembuangan air baik, untuk sawah.",
+        "**Glei**: relung aluvial, abu-abu kebiruan, untuk sawah."
+       ]
+      },
+      {
+       "h": "Remah dan tiga fase"
+      },
+      {
+       "ul": [
+        "**Struktur remah** (gumpalan partikel): empuk, ventilasi dan retensi air baik, menyerap nutrisi. Kebalikannya **struktur berbutir tunggal** (padat dan keras). Tambahkan pupuk dan zat organik untuk memperbanyak remah.",
+        "**Tiga fase**: padat (partikel + organik), cair (air), gas (udara). Komposisi baik: **masing-masing 30–40%**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 16–18. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Geluh dan geluh lempung paling cocok; struktur remah dan tiga fase seimbang.",
+      "points": [
+       "Lempung ≥50% tanah liat.",
+       "Andosol = separuh ladang Jepang.",
+       "Tiga fase 30–40% masing-masing."
+      ],
+      "avoid": [
+       "Memakai tanah berbutir tunggal tanpa perbaikan."
+      ],
+      "exam": [
+       "Urutan tekstur tanah.",
+       "Ciri struktur remah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s5",
+    "no": 5,
+    "title": {
+     "id": "Kesuburan Tanah, pH, dan Penanaman Berurutan",
+     "jp": "{地力|ちりょく}・pH・{連作障害|れんさくしょうがい}"
+    },
+    "pages": [
+     18,
+     21
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Tanah subur"
+      },
+      {
+       "ul": [
+        "Lapisan tebal dan empuk (ventilasi, retensi air baik).",
+        "Nutrisi tepat dan **kadar asam tepat**.",
+        "Zat organik tepat dan mikroba aktif."
+       ]
+      },
+      {
+       "h": "Perbaikan sifat tanah"
+      },
+      {
+       "ul": [
+        "**Pembajakan** → memperbaiki sifat **fisik** (ventilasi, pembuangan air); pembajakan dalam = tanah diolah sampai dalam.",
+        "**Perbaikan keasaman** → sifat **kimia**: tanah Jepang umumnya asam; taburkan **kapur atau kapur magnesium**.",
+        "**Zat organik** (kompos, pupuk) → memperbaiki **mikroflora**."
+       ]
+      },
+      {
+       "h": "pH"
+      },
+      {
+       "ul": [
+        "pH 7 netral; <7 asam; >7 alkali. Kebanyakan tanaman cocok **pH 5,5–6,5**.",
+        "Bayam 6,5–7,0; lobak/kol/tomat 6,0–7,0; terong/selada 6,0–6,5; stroberi/bawang bombay/wortel 5,5–6,5; ubi jalar 5,5–6,0; kentang 5,0–6,5; teh/bluberi 4,5–5,5.",
+        "Alat ukur: pengukur keasaman tusuk (siram tanah sampai lembab, tusukkan elektroda sampai rapat, tunggu ± 1 menit), kolorimeter, digital."
+       ]
+      },
+      {
+       "p": "Alat bajak: cangkul, cangkul garpu, sekop; traktor (rotary, plough), **traktor tangan (Kanriki)**."
+      },
+      {
+       "h": "Dampak negatif penanaman berurutan"
+      },
+      {
+       "p": "Menanam jenis yang sama terus di lahan yang sama menurunkan panen: patogen dan hama (termasuk nematoda) bertambah, nutrisi tertentu berkurang, zat penghambat menumpuk."
+      },
+      {
+       "ul": [
+        "Penanggulangan utama: **penanaman bergilir** (jenis berbeda secara berkala).",
+        "Lainnya: **enten (grafting)**, varietas tahan penyakit, perbaikan tanah dengan pupuk, sterilisasi tanah dengan obat atau sinar matahari."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 18–21. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Perbaiki tanah fisik (bajak), kimia (kapur), biologi (organik); pH 5,5–6,5; gilir tanaman.",
+      "points": [
+       "Tanah asam → kapur/kapur magnesium.",
+       "Bayam suka pH 6,5–7,0; teh/bluberi 4,5–5,5.",
+       "Penanaman bergilir mencegah dampak berurutan."
+      ],
+      "avoid": [
+       "Menanam jenis sama terus di lahan sama."
+      ],
+      "exam": [
+       "Perbaikan fisik/kimia/biologi.",
+       "Penanggulangan dampak berurutan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s6",
+    "no": 6,
+    "title": {
+     "id": "Pupuk dan Pemupukan",
+     "jp": "{肥料|ひりょう}と{施肥|せひ}"
+    },
+    "pages": [
+     22,
+     26
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Unsur dan tiga zat pupuk"
+      },
+      {
+       "ul": [
+        "**16 unsur esensial**. Tiga zat pupuk: **N (nitrogen), P (fosfor), K (kalium)**.",
+        "C, H, O diperoleh dari udara dan air.",
+        "**N**: pertumbuhan dan jumlah panen, memperpanjang batang-daun, daun lebih tua; **berlebih → tanaman lembek**.",
+        "**P**: pemekaran bunga dan pembuahan. **K**: pemekaran, pembuahan, dan **pertumbuhan akar**."
+       ]
+      },
+      {
+       "h": "Jenis pupuk"
+      },
+      {
+       "ul": [
+        "**Pupuk kimia (anorganik)**: manfaat cepat. **Tunggal**: satu zat (amonium sulfat, urea; superfosfat; kalium sulfat/klorida). **Majemuk**: ≥2 zat (buatan dan campuran). **Buatan tinggi** jika total ≥30%; kurang dari itu biasa.",
+        "**Pupuk organik**: dari sisa nabati/hewani (ampas biji rapa, bubuk tulang, sisa ikan); bekerja **perlahan**.",
+        "**Kompos**: hasil fermentasi kotoran ternak, kulit pohon, daun, jerami; memperbaiki tanah dan juga pupuk.",
+        "**Pupuk cair**.",
+        "Menurut kecepatan: **bekerja cepat** (efek hingga 30 hari), **lepas lambat** (30–120 hari), **bekerja lambat** (diurai mikroba, bisa setahun).",
+        "Bentuk: bubuk, tablet, cair, pelet."
+       ]
+      },
+      {
+       "h": "Cara memberi pupuk"
+      },
+      {
+       "ul": [
+        "**Pemupukan dasar**: sebelum tanam, terutama pupuk lepas lambat. **Pemupukan tambahan**: sesuai pertumbuhan, pupuk kerja cepat; pupuk cair juga bisa disemprot ke daun.",
+        "Jangan langsung menyentuh **biji dan akar** (menyebabkan layu).",
+        "Pupuk berlebih → konsentrasi garam naik → **gangguan garam**; diperiksa lewat **EC (konduktivitas listrik)**, EC tinggi = pupuk masih banyak.",
+        "Alat: broadcaster, manure spreader, lime sower."
+       ]
+      },
+      {
+       "h": "Membaca kantong pupuk dan menghitung"
+      },
+      {
+       "p": "Tertulis **10-8-8** artinya N 10%, P 8%, K 8% (total 26% <30% → buatan biasa). Kantong 20 kg: N = 20×10% = **2 kg**; P = 1,6 kg; K = 1,6 kg."
+      },
+      {
+       "p": "**Jumlah pupuk = (kebutuhan zat ÷ persentase kandungan) × 100.** Contoh: N 21 kg dari amonium sulfat (N 21%) → 21÷21×100 = **100 kg**; P 23 kg dari superfosfat (46%) → **50 kg**; K 18 kg dari KCl (60%) → **30 kg**."
+      },
+      {
+       "note": "Sumber: modul hal. 22–26. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "N-P-K, jenis dan kecepatan pupuk, serta cara menghitung dosis.",
+      "points": [
+       "N batang-daun, P bunga-buah, K akar-buah.",
+       "Pupuk buatan tinggi ≥30%.",
+       "EC tinggi → pupuk berlebih (gangguan garam).",
+       "Dosis = kebutuhan ÷ % × 100."
+      ],
+      "avoid": [
+       "Pupuk menyentuh langsung biji/akar.",
+       "Nitrogen berlebihan."
+      ],
+      "exam": [
+       "Menghitung dosis pupuk.",
+       "Cepat vs lepas lambat vs lambat."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s7",
+    "no": 7,
+    "title": {
+     "id": "Bedengan, Pemangkasan, Penyerbukan, Pengikatan, dan Panen",
+     "jp": "{畝立|うねた}て・{整枝|せいし}・{収穫|しゅうかく}"
+    },
+    "pages": [
+     27,
+     31
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Bedengan**: media tanah ditimbun untuk memperbaiki pembuangan air dan ventilasi. Pada lahan air tanah tinggi buat **bedengan tinggi**. Istilah: lebar bedengan, tinggi bedengan, alur, lebar media. Alat: cangkul, traktor dengan mesin pembentuk bedengan, ridger.",
+        "**Pemangkasan tunas ujung**: memotong tajuk batang agar nutrisi menyebar ke daun/buah dan memudahkan pengelolaan. **Tunas samping** (dari ketiak daun) dihilangkan agar tidak lebat berlebih. **Pemangkasan daun** membuang daun sakit/berlebih agar sirkulasi udara dan cahaya baik.",
+        "**Pemangkasan tunas/bunga/buah**: membuang yang berlebih, cacat, atau terserang hama agar nutrisi terkonsentrasi → buah berkualitas (juga pada semangka, melon, tomat).",
+        "**Penyerbukan**: serbuk bunga menempel pada kepala putik. **Penyerbukan buatan** untuk semangka, melon, labu. Di rumah kaca dipakai **kumbang madu/tawon** (stroberi: kumbang madu).",
+        "**Perapian ranting** mengatur jumlah ranting; **pengikatan**: menata ranting pada tiang/pita (tomat, terong, timun), ikatan **angka delapan** menstabilkan.",
+        "**Pemanenan** pada waktu tepat: tomat dari warna, bayam dari tinggi, timun dari panjang buah. Alat: gunting panen, wadah, kantong; mesin: combine, pemanen daun bawang, pencangkul kentang.",
+        "**Pra-pendinginan**: mendinginkan hasil panen untuk menjaga kesegaran; panen pagi karena efek ini. Umum **pra-pendinginan hampa udara**; ada juga peredaran udara paksa."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 27–31. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Rapikan tanaman dan panen tepat waktu lalu dinginkan.",
+      "points": [
+       "Air tanah tinggi → bedengan tinggi.",
+       "Tunas samping tumbuh di ketiak daun.",
+       "Pra-pendinginan menjaga kesegaran."
+      ],
+      "avoid": [
+       "Membiarkan tunas samping dan buah berlebih."
+      ],
+      "exam": [
+       "Jenis pemangkasan.",
+       "Tujuan pra-pendinginan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a1s8",
+    "no": 8,
+    "title": {
+     "id": "Bahan Penutup serta Pengendalian Hama dan Gulma",
+     "jp": "{被覆資材|ひふくしざい}・{病害虫|びょうがいちゅう}・{雑草|ざっそう}"
+    },
+    "pages": [
+     31,
+     35
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bahan penutup"
+      },
+      {
+       "ul": [
+        "**Budidaya terowongan**: menutup bedengan dengan penutup berbentuk terowongan (tiang + bahan). Manfaat: mempertahankan suhu, mencegah angin/hujan/hama.",
+        "**Penutupan langsung**: bahan menyentuh tanaman langsung (kain bukan tenunan, kain saringan): menstabilkan pertunasan, memperbaiki pertumbuhan awal.",
+        "**Pemulsaan** (jerami padi, plastik): mengatur suhu tanah, menjaga tanah empuk dan mencegah air-pupuk hilang, mencegah penyakit/hama, **mencegah gulma**.",
+        "Warna mulsa: **bening** menaikkan suhu tanah paling tinggi; **hitam** mencegah gulma; **putih** mencegah suhu naik; dua lapis putih-hitam menekan suhu; **silver** memantulkan cahaya dan mencegah hama; **biodegradasi** diurai mikroba.",
+        "**Membran bekas** diminta ditangani ahli; **dilarang dibakar di lahan** (gas berbahaya)."
+       ]
+      },
+      {
+       "h": "Pengendalian hama dan penyakit"
+      },
+      {
+       "ul": [
+        "Prinsip: ciptakan lingkungan sulit timbul hama; temukan dini dan kendalikan segera.",
+        "**Fungisida** untuk penyakit; **Insektisida** untuk hama.",
+        "Non-kimia: varietas tahan penyakit; tanaman penekan (marigold menurunkan nematoda; bawang pada akar labu-labuan menurunkan bakteri wabah panama); **musuh alami**; **feromon seks** (perangkap, gangguan perkawinan); indra penglihat (pita reflektif untuk kutu daun, lampu kuning, pita perekat); fisik (**jaring anti serangga**)."
+       ]
+      },
+      {
+       "h": "Pengendalian gulma"
+      },
+      {
+       "ul": [
+        "Cegah benih gulma terbawa; **cabut sebelum menghasilkan benih**.",
+        "**Herbisida**: gunakan yang manjur untuk jenis gulmanya; **dilarang di tanaman yang tidak terdaftar**; patuhi standar pemakaian; **alat herbisida tidak boleh dipakai untuk hama**; pakai nosel/penutup khusus agar tidak terbang (**drift**).",
+        "Non-herbisida: mulsa tak tembus cahaya, penggarapan di alur dan menggeser tanah ke pangkal, membajak lahan kosong.",
+        "Alat: penyemprot gendong (knapsack), power sprayer, speed sprayer (SS); pemotong rumput, hammer knife mower."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 31–35. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Mulsa hitam anti gulma; herbisida hanya untuk tanaman terdaftar; film bekas tidak dibakar.",
+      "points": [
+       "Bening = suhu tanah naik paling tinggi.",
+       "Fungisida=penyakit, insektisida=hama.",
+       "Herbisida jangan dipakai ulang untuk hama."
+      ],
+      "avoid": [
+       "Membakar membran di lahan.",
+       "Memakai alat herbisida untuk insektisida."
+      ],
+      "exam": [
+       "Efek warna mulsa.",
+       "Aturan herbisida."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
