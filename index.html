@@ -1363,7 +1363,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261112v"/>
 <link rel="stylesheet" href="./css/ssw.css?v=20261112z"/>
-<link rel="stylesheet" href="./css/jft.css?v=20261113a"/>
+<link rel="stylesheet" href="./css/jft.css?v=20261113c"/>
 </head>
 <body>
 
@@ -1422,7 +1422,7 @@ import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTer
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261112v";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
 import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261112z";
-import { JFT_ROUTES, initJft } from "./js/jft.js?v=20261113b";
+import { JFT_ROUTES, initJft } from "./js/jft.js?v=20261113c";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -2114,7 +2114,8 @@ const _parentOf = (path) => {
   if (n === "ssw-progres") return "ssw";
   if (n.startsWith("ssw-")) return `ssw-peta/${slug}`;
   if (n === "jft") return "pilih-level";
-  if (n.startsWith("jft-")) return "jft";
+  if (n === "jft-ujian") return "jft";
+  if (n.startsWith("jft-")) return "jft-ujian";
   if (n === "kana") return "pilih-level";
   if (n.startsWith("kana-")) return "kana";
   return null;
@@ -2285,7 +2286,7 @@ function renderCharaOrbital(){
     { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:315 },
   ];
   // Choukai JLPT ditambahkan → 9 node, jarak dihitung ulang supaya orbit tetap simetris.
-  if (String(state.level).startsWith("ir")){ NAV.find(n => n.route === "ujian").route = "jft"; NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"LISTENING", route:"jft-tes/latihan/listening" }); }
+  if (String(state.level).startsWith("ir")){ NAV.find(n => n.route === "ujian").route = "jft-ujian"; }
   else NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
   // Sesi Hiragana & Katakana (berdiri sendiri) → 10 node, jarak dihitung ulang di bawah.
   NAV.forEach((n, i) => { n.deg = i * 360 / NAV.length; });
@@ -2661,7 +2662,7 @@ async function renderMateriHub(){
           <div class="ico">📐</div>
           <div class="info"><div class="ttl">Bunpou</div><div class="sub">${bunpou.length} pola</div></div>
         </div>
-        ${String(state.level).startsWith("ir") ? `<div class="hub-card" onclick="route('jft')">
+        ${String(state.level).startsWith("ir") ? `<div class="hub-card" onclick="route('jft-ujian')">
           <div class="ico">📝</div>
           <div class="info"><div class="ttl">Simulasi JFT-Basic</div><div class="sub">CBT 50 soal · skor 10–250</div></div>
         </div>` : `<div class="hub-card" onclick="route('choukai')">

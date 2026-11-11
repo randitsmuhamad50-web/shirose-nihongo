@@ -36,3 +36,19 @@
 .jft-rv .q{font-weight:700;margin:6px 0}.jft-rv .n{font-size:13px;color:var(--gray);margin-top:6px}
 .jlpt-card.jft .lv{font-size:26px}
 @media (max-width:640px){.jft-qtext{font-size:17px}.jft-nomor .no{min-width:44px;height:44px}}
+.jft-crumb{font-size:12px;color:var(--pink,#ef6a9a);margin-bottom:4px}
+.jft-pre{font-size:13px;color:var(--gray);margin-bottom:4px}
+.jft-blok{margin-top:12px}.jft-blok h3{margin:0 0 4px}
+.jft-paket{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+.jft-pk{flex:1 1 120px;min-width:110px;padding:14px 10px;border-radius:14px;border:2px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);color:inherit;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:4px;font-size:15px}
+.jft-pk:hover{border-color:var(--pink,#ef6a9a)}
+.jft-done{color:#22c55e;font-weight:800}
+.jft-simcard{border:2px solid var(--pink,#ef6a9a)}
+.jft-grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:700px){.jft-grid2{grid-template-columns:1fr}}
+.jft-ul{padding-left:18px;margin:8px 0;font-size:13px;line-height:1.7;color:var(--gray)}
+.jft-wk{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.jft-wk button{padding:10px 14px;border-radius:12px;border:2px solid rgba(255,255,255,.15);background:rgba(255,255,255,.05);color:inherit;cursor:pointer}
+.jft-wk button.on{background:var(--pink,#ef6a9a);border-color:var(--pink,#ef6a9a);color:#fff}
+.jft-go{width:100%;margin-top:10px;padding:14px;font-size:16px}
+.jlpt-card.jft{cursor:pointer}.jft-ujbtn{margin-top:10px;width:100%}
