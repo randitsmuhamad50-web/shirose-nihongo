@@ -10496,19 +10496,19 @@
      "opts": [
       {
        "id": "Masuk → rapat/persiapan → pembersihan → laporan & beres-beres → selesai",
-       "jp": "{出勤|しゅっきん}→ミーティング・{準備|じゅんび}→{清掃|せいそう}→{報告|ほうこく}・{後片付|あとかたづ}け→{退勤|たいきん}"
+       "jp": "{出勤|しゅっきん}→ミーティング→{清掃|せいそう}→{報告|ほうこく}→{退勤|たいきん}"
       },
       {
-       "id": "Pembersihan → masuk → laporan → rapat",
-       "jp": "{清掃|せいそう}→{出勤|しゅっきん}→{報告|ほうこく}→ミーティング"
+       "id": "Masuk → pembersihan → rapat/persiapan → laporan → selesai",
+       "jp": "{出勤|しゅっきん}→{清掃|せいそう}→ミーティング→{報告|ほうこく}→{退勤|たいきん}"
       },
       {
-       "id": "Rapat → selesai → pembersihan → masuk",
-       "jp": "ミーティング→{退勤|たいきん}→{清掃|せいそう}→{出勤|しゅっきん}"
+       "id": "Rapat/persiapan → masuk → pembersihan → selesai → laporan",
+       "jp": "ミーティング→{出勤|しゅっきん}→{清掃|せいそう}→{退勤|たいきん}→{報告|ほうこく}"
       },
       {
-       "id": "Masuk → laporan → pembersihan → selesai",
-       "jp": "{出勤|しゅっきん}→{報告|ほうこく}→{清掃|せいそう}→{退勤|たいきん}"
+       "id": "Masuk → rapat → laporan → pembersihan → selesai",
+       "jp": "{出勤|しゅっきん}→ミーティング→{報告|ほうこく}→{清掃|せいそう}→{退勤|たいきん}"
       }
      ],
      "a": 0,
@@ -10532,12 +10532,12 @@
        "jp": "{下|した}から{上|うえ}へ"
       },
       {
-       "id": "Dari tengah ke pinggir sembarang",
-       "jp": "{真|ま}ん{中|なか}から{適当|てきとう}に"
+       "id": "Dari kiri ke kanan tanpa memandang tinggi",
+       "jp": "{左|ひだり}から{右|みぎ}へ"
       },
       {
-       "id": "Mulai dari tempat paling kotor",
-       "jp": "いちばん{汚|よご}いところから"
+       "id": "Dari tengah ke atas",
+       "jp": "{中央|ちゅうおう}から{上|うえ}へ"
       }
      ],
      "a": 0,
@@ -10554,7 +10554,7 @@
      "opts": [
       {
        "id": "Dari tempat luas ke tempat sempit",
-       "jp": "{広|ひろ}いところから{狭|せま}いところへ"
+       "jp": "{広|ひろ}い{所|ところ}から{狭|せま}い{所|ところ}へ"
       },
       {
        "id": "Dari ujung ke depan",
@@ -10562,11 +10562,11 @@
       },
       {
        "id": "Dari tempat sempit ke tempat luas",
-       "jp": "{狭|せま}いところから{広|ひろ}いところへ"
+       "jp": "{狭|せま}い{所|ところ}から{広|ひろ}い{所|ところ}へ"
       },
       {
        "id": "Dari sedikit kotor ke banyak kotor",
-       "jp": "{汚|よご}れが{少|すく}ないところから{多|おお}いところへ"
+       "jp": "{汚|よご}れの{少|すく}ない{所|ところ}から{多|おお}い{所|ところ}へ"
       }
      ],
      "a": 0,
@@ -10583,19 +10583,19 @@
      "opts": [
       {
        "id": "Supaya kotoran tidak menyebar ke tempat bersih",
-       "jp": "{汚|よご}れが{広|ひろ}がらないようにするため"
+       "jp": "{汚|よご}れが{綺麗|きれい}な{所|ところ}に{広|ひろ}がらないように"
       },
       {
-       "id": "Supaya pekerjaan lebih lama",
-       "jp": "{仕事|しごと}を{長|なが}くするため"
-      },
-      {
-       "id": "Supaya pembersih hemat",
+       "id": "Supaya alat pembersih tidak cepat habis",
        "jp": "{洗剤|せんざい}を{節約|せつやく}するため"
       },
       {
-       "id": "Tidak ada alasan khusus",
-       "jp": "{特|とく}に{理由|りゆう}はない"
+       "id": "Supaya tempat kotor ditangani paling awal oleh tenaga penuh",
+       "jp": "{一番|いちばん}{汚|よご}れた{所|ところ}を{先|さき}に{力|ちから}いっぱい{掃除|そうじ}するため"
+      },
+      {
+       "id": "Supaya tamu tidak melihat pekerja",
+       "jp": "お{客様|きゃくさま}に{見|み}られないため"
       }
      ],
      "a": 0,
@@ -10722,19 +10722,19 @@
      "opts": [
       {
        "id": "Tempat penggunanya (siapa/kapan dipakai)",
-       "jp": "{使|つか}う{人|ひと}・{使|つか}う{時間|じかん}"
+       "jp": "{使|つか}う{人|ひと}の{場所|ばしょ}（{誰|だれ}が・いつ{使|つか}うか）"
       },
       {
-       "id": "Warna dinding saja",
-       "jp": "{壁|かべ}の{色|いろ}だけ"
+       "id": "Jenis karbol yang tersisa",
+       "jp": "{残|のこ}っている{洗剤|せんざい}の{種類|しゅるい}"
       },
       {
-       "id": "Harga alat",
-       "jp": "{道具|どうぐ}の{値段|ねだん}"
+       "id": "Jumlah lampu di ruangan",
+       "jp": "{部屋|へや}の{電気|でんき}の{数|かず}"
       },
       {
-       "id": "Tidak perlu cek apa pun",
-       "jp": "{何|なに}も{確認|かくにん}しない"
+       "id": "Jam kerja rekan lain",
+       "jp": "{同僚|どうりょう}の{勤務|きんむ}{時間|じかん}"
       }
      ],
      "a": 0,
@@ -10764,16 +10764,16 @@
        "jp": "5{種類|しゅるい}"
       },
       {
+       "id": "4 jenis",
+       "jp": "4{種類|しゅるい}"
+      },
+      {
+       "id": "6 jenis",
+       "jp": "6{種類|しゅるい}"
+      },
+      {
        "id": "3 jenis",
        "jp": "3{種類|しゅるい}"
-      },
-      {
-       "id": "7 jenis",
-       "jp": "7{種類|しゅるい}"
-      },
-      {
-       "id": "10 jenis",
-       "jp": "10{種類|しゅるい}"
       }
      ],
      "a": 0,
@@ -10790,7 +10790,7 @@
      "opts": [
       {
        "id": "Keras (marmer)",
-       "jp": "{硬|かた}い{床|ゆか}"
+       "jp": "{石|いし}・{硬|かた}い{床|ゆか}"
       },
       {
        "id": "Vinil",
@@ -10801,8 +10801,8 @@
        "jp": "{木|き}の{床|ゆか}"
       },
       {
-       "id": "Karpet",
-       "jp": "カーペット"
+       "id": "Lainnya",
+       "jp": "その{他|ほか}"
       }
      ],
      "a": 0,
@@ -10826,12 +10826,12 @@
        "jp": "ビニール{床|ゆか}"
       },
       {
-       "id": "Keras",
-       "jp": "{硬|かた}い{床|ゆか}"
+       "id": "Keras (marmer)",
+       "jp": "{石|いし}・{硬|かた}い{床|ゆか}"
       },
       {
-       "id": "Karpet",
-       "jp": "カーペット"
+       "id": "Lainnya",
+       "jp": "その{他|ほか}"
       }
      ],
      "a": 0,
@@ -10855,12 +10855,12 @@
        "jp": "{木|き}の{床|ゆか}"
       },
       {
-       "id": "Keras",
-       "jp": "{硬|かた}い{床|ゆか}"
+       "id": "Keras (marmer)",
+       "jp": "{石|いし}・{硬|かた}い{床|ゆか}"
       },
       {
        "id": "Lainnya",
-       "jp": "その{他|た}"
+       "jp": "その{他|ほか}"
       }
      ],
      "a": 0,
@@ -10877,7 +10877,7 @@
      "opts": [
       {
        "id": "Lainnya",
-       "jp": "その{他|た}"
+       "jp": "その{他|ほか}"
       },
       {
        "id": "Vinil",
@@ -10994,19 +10994,19 @@
      "opts": [
       {
        "id": "Wax resin, wax cair, wax emulsi",
-       "jp": "{樹脂|じゅし}ワックス、{液体|えきたい}ワックス、エマルジョンワックス"
+       "jp": "{樹脂|じゅし}ワックス・{液体|えきたい}ワックス・エマルジョンワックス"
       },
       {
-       "id": "Hanya satu jenis",
-       "jp": "1{種類|しゅるい}だけ"
+       "id": "Wax resin, wax padat, wax emulsi",
+       "jp": "{樹脂|じゅし}ワックス・{固形|こけい}ワックス・エマルジョンワックス"
       },
       {
-       "id": "Wax kayu, wax besi",
-       "jp": "{木|き}ワックス、{鉄|てつ}ワックス"
+       "id": "Wax akrilik, wax kayu, wax cair",
+       "jp": "アクリルワックス・{木|き}ワックス・{液体|えきたい}ワックス"
       },
       {
-       "id": "Wax karpet",
-       "jp": "カーペットワックス"
+       "id": "Wax cair, wax gel, wax uretan",
+       "jp": "{液体|えきたい}ワックス・ジェルワックス・ウレタンワックス"
       }
      ],
      "a": 0,
@@ -11033,19 +11033,19 @@
      "opts": [
       {
        "id": "Upright",
-       "jp": "アップライト{型|がた}"
+       "jp": "アップライト"
       },
       {
-       "id": "Tipe kaleng untuk air",
-       "jp": "{水|みず}{用|よう}の{缶型|かんがた}"
+       "id": "Pod (kering)",
+       "jp": "ポッド{型|がた}（{乾式|かんしき}）"
       },
       {
-       "id": "Sapu biasa",
-       "jp": "ふつうのほうき"
+       "id": "Wet (basah)",
+       "jp": "ウェット{型|がた}（{湿式|しっしき}）"
       },
       {
-       "id": "Tidak perlu penyedot",
-       "jp": "{掃除機|そうじき}はいらない"
+       "id": "Handy",
+       "jp": "ハンディ"
       }
      ],
      "a": 0,
@@ -11062,19 +11062,19 @@
      "opts": [
       {
        "id": "Sikat memukul pile sehingga kotoran terangkat, lalu disedot",
-       "jp": "ブラシがパイルをたたいて{汚|よご}れを{浮|う}かせ、{吸|す}い{込|こ}む"
+       "jp": "ブラシがパイルをたたいて{汚|よご}れを{浮|う}かせ{吸|す}う"
       },
       {
-       "id": "Disiram air lalu dilap",
-       "jp": "{水|みず}をかけて{拭|ふ}く"
+       "id": "Kipas menyedot kotoran tanpa sikat",
+       "jp": "ブラシなしでファンが{吸|す}う"
       },
       {
-       "id": "Dibakar",
-       "jp": "{燃|も}やす"
+       "id": "Sikat menyapu permukaan lalu dibuang ke pengki",
+       "jp": "ブラシで{掃|は}いてちりとりに{入|い}れる"
       },
       {
-       "id": "Dikikis dengan pisau",
-       "jp": "ナイフでけずる"
+       "id": "Air panas menyemprot lalu disedot",
+       "jp": "{温水|おんすい}を{噴射|ふんしゃ}して{吸|す}う"
       }
      ],
      "a": 0,
@@ -11091,19 +11091,19 @@
      "opts": [
       {
        "id": "Jalur lalu lalang",
-       "jp": "{人|ひと}がよく{通|とお}る{道|みち}"
+       "jp": "{通|とお}り{道|みち}"
       },
       {
-       "id": "Di bawah sofa saja",
-       "jp": "ソファの{下|した}だけ"
+       "id": "Di bawah furnitur",
+       "jp": "{家具|かぐ}の{下|した}"
       },
       {
-       "id": "Di sudut dinding saja",
-       "jp": "{壁|かべ}の{角|かど}だけ"
+       "id": "Sudut ruangan",
+       "jp": "{隅|すみ}"
       },
       {
-       "id": "Merata sama",
-       "jp": "どこも{同|おな}じ"
+       "id": "Tepi dinding",
+       "jp": "{壁際|かべぎわ}"
       }
      ],
      "a": 0,
@@ -11120,19 +11120,19 @@
      "opts": [
       {
        "id": "Karpet vinil dan loop pile (tidak berbulu)",
-       "jp": "ビニールカーペット、ループパイル"
-      },
-      {
-       "id": "Marmer dan keramik",
-       "jp": "{大理石|だいりせき}・タイル"
+       "jp": "ビニールカーペット・ループパイル"
       },
       {
        "id": "Flooring dan cork",
        "jp": "フローリング・コルク"
       },
       {
-       "id": "Tatami",
-       "jp": "{畳|たたみ}"
+       "id": "Lantai cat dan tatami",
+       "jp": "{塗|ぬ}り{床|ゆか}・{畳|たたみ}"
+      },
+      {
+       "id": "Tipe plastik dan linoleum",
+       "jp": "プラスチック・リノリウム"
       }
      ],
      "a": 0,
@@ -11149,19 +11149,19 @@
      "opts": [
       {
        "id": "Noda dan debu di celah karpet",
-       "jp": "しみと、カーペットのすきまのほこり"
+       "jp": "シミ・{目|め}の{間|あいだ}のほこり"
       },
       {
-       "id": "Kerak air dan bekas sepatu",
-       "jp": "{水|みず}あかと{靴|くつ}のあと"
+       "id": "Kerak air dan bekas heal sepatu",
+       "jp": "{水垢|みずあか}・ヒールマーク"
       },
       {
        "id": "Isi staples dan clip",
-       "jp": "ホチキスの{芯|しん}とクリップ"
+       "jp": "ホッチキスの{芯|しん}・クリップ"
       },
       {
-       "id": "Bekas matahari saja",
-       "jp": "{日焼|ひや}けだけ"
+       "id": "Bekas matahari dan jejak perabotan",
+       "jp": "{日焼|ひや}け・{家具|かぐ}の{跡|あと}"
       }
      ],
      "a": 0,
@@ -11306,11 +11306,11 @@
       },
       {
        "id": "Alkali",
-       "jp": "{アルカリ性|アルカリせい}"
+       "jp": "アルカリ{性|せい}"
       },
       {
-       "id": "Air murni",
-       "jp": "{純水|じゅんすい}"
+       "id": "Alkali rendah",
+       "jp": "{弱|じゃく}アルカリ{性|せい}"
       }
      ],
      "a": 0,
@@ -11330,16 +11330,16 @@
        "jp": "pH0（{酸性|さんせい}）"
       },
       {
+       "id": "pH 3 (keasaman rendah)",
+       "jp": "pH3（{弱酸性|じゃくさんせい}）"
+      },
+      {
        "id": "pH 6 (menengah)",
        "jp": "pH6（{中性|ちゅうせい}）"
       },
       {
-       "id": "pH 8",
-       "jp": "pH8"
-      },
-      {
-       "id": "pH 11–14",
-       "jp": "pH11〜14"
+       "id": "pH 8 (alkali rendah)",
+       "jp": "pH8（{弱|じゃく}アルカリ）"
       }
      ],
      "a": 0,
@@ -11359,16 +11359,16 @@
        "jp": "pH6（{中性|ちゅうせい}）"
       },
       {
-       "id": "pH 0",
-       "jp": "pH0"
+       "id": "pH 3 (keasaman rendah)",
+       "jp": "pH3（{弱酸性|じゃくさんせい}）"
       },
       {
-       "id": "pH 11–14",
-       "jp": "pH11〜14"
+       "id": "pH 8 (alkali rendah)",
+       "jp": "pH8（{弱|じゃく}アルカリ）"
       },
       {
-       "id": "pH 3",
-       "jp": "pH3"
+       "id": "pH 11–14 (alkali)",
+       "jp": "pH11〜14（アルカリ）"
       }
      ],
      "a": 0,
@@ -11385,19 +11385,19 @@
      "opts": [
       {
        "id": "pH 11–14 (alkali)",
-       "jp": "pH11〜14（{アルカリ性|アルカリせい}）"
+       "jp": "pH11〜14（アルカリ）"
       },
       {
-       "id": "pH 0",
-       "jp": "pH0"
+       "id": "pH 8 (alkali rendah)",
+       "jp": "pH8（{弱|じゃく}アルカリ）"
       },
       {
-       "id": "pH 6",
-       "jp": "pH6"
+       "id": "pH 6 (menengah)",
+       "jp": "pH6（{中性|ちゅうせい}）"
       },
       {
-       "id": "pH 3",
-       "jp": "pH3"
+       "id": "pH 0 (asam)",
+       "jp": "pH0（{酸性|さんせい}）"
       }
      ],
      "a": 0,
@@ -11417,16 +11417,16 @@
        "jp": "pH3"
       },
       {
-       "id": "pH 8",
-       "jp": "pH8"
-      },
-      {
-       "id": "pH 14",
-       "jp": "pH14"
-      },
-      {
        "id": "pH 0",
        "jp": "pH0"
+      },
+      {
+       "id": "pH 6",
+       "jp": "pH6"
+      },
+      {
+       "id": "pH 8",
+       "jp": "pH8"
       }
      ],
      "a": 0,
@@ -11443,19 +11443,19 @@
      "opts": [
       {
        "id": "pH 8 (alkali rendah)",
-       "jp": "pH8（{弱|じゃく}{アルカリ性|アルカリせい}）"
+       "jp": "pH8（{弱|じゃく}アルカリ）"
       },
       {
-       "id": "pH 0",
-       "jp": "pH0"
+       "id": "pH 6 (menengah)",
+       "jp": "pH6（{中性|ちゅうせい}）"
       },
       {
-       "id": "pH 3",
-       "jp": "pH3"
+       "id": "pH 11 (alkali)",
+       "jp": "pH11（アルカリ）"
       },
       {
-       "id": "pH 14",
-       "jp": "pH14"
+       "id": "pH 3 (keasaman rendah)",
+       "jp": "pH3（{弱酸性|じゃくさんせい}）"
       }
      ],
      "a": 0,
@@ -11538,19 +11538,19 @@
      "opts": [
       {
        "id": "Segera ke rumah sakit",
-       "jp": "すぐに{病院|びょういん}へ{行|い}く"
+       "jp": "すぐ{病院|びょういん}へ{行|い}く"
       },
       {
-       "id": "Dibiarkan saja",
-       "jp": "{放|ほう}っておく"
+       "id": "Berkumur dan menunggu apakah gejala muncul",
+       "jp": "うがいして{様子|ようす}を{見|み}る"
       },
       {
-       "id": "Minum banyak kopi",
-       "jp": "コーヒーを{飲|の}む"
+       "id": "Minum susu lalu lanjut bekerja",
+       "jp": "{牛乳|ぎゅうにゅう}を{飲|の}んで{仕事|しごと}を{続|つづ}ける"
       },
       {
-       "id": "Tidur dulu",
-       "jp": "{先|さき}に{寝|ね}る"
+       "id": "Menetralkan dengan karbol asam",
+       "jp": "{酸性|さんせい}{洗剤|せんざい}で{中和|ちゅうわ}する"
       }
      ],
      "a": 0,
