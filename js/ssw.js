@@ -810,9 +810,11 @@ const SSW = window.SSW = {
         <div class="sw-seg sm"><button class="${lang === "jp" ? "on" : ""}" onclick="SSW.qzLang('jp')">日本語</button><button class="${lang === "id" ? "on" : ""}" onclick="SSW.qzLang('id')">ID</button></div>
         ${lang === "jp" ? `<button class="sw-chip" onclick="SSW.qzRuby()">${ruby() ? "ふりがな ON" : "ふりがな OFF"}</button>` : ""}</div>
       <div class="sw-panel sw-q">${it.img ? qImage(Q.slug, lang, it.img) : ""}<h2>${rich(L(it.q, lang))}</h2>
-        <div class="sw-opts ${it.mb ? "mb" : ""}">${it.order.map((k, n) => {
+        <div class="sw-opts ${it.mb ? "mb" : ""} ${it.opts[0]?.img ? "imgs" : ""}">${it.order.map((k, n) => {
           const cls = answered ? (k === it.a ? "ok" : k === Q.sel ? "ng" : "") : "";
-          return `<button class="sw-opt ${cls}" ${answered ? "disabled" : ""} onclick="SSW.qzPick(${k})"><span class="l">${it.mb ? ["○", "×"][n] : "ABCD"[n]}</span><span>${rich(L(it.opts[k], lang))}</span></button>`;
+          const o = it.opts[k];
+          if (o.img) return `<button class="sw-opt img ${cls}" ${answered ? "disabled" : ""} onclick="SSW.qzPick(${k})" aria-label="Pilihan ${"ABCD"[n]}"><span class="l">${"ABCD"[n]}</span><img src="./${esc(o.img)}" alt="" draggable="false"><span class="cap">${answered ? rich(L(o, lang)) : ""}</span></button>`;
+          return `<button class="sw-opt ${cls}" ${answered ? "disabled" : ""} onclick="SSW.qzPick(${k})"><span class="l">${it.mb ? ["○", "×"][n] : "ABCD"[n]}</span><span>${rich(L(o, lang))}</span></button>`;
         }).join("")}</div>
         ${answered ? `<div class="sw-exp ${Q.sel === it.a ? "ok" : "ng"}"><b>${Q.sel === it.a ? "Benar!" : "Kurang tepat."}</b> ${rich(L(it.exp, lang))}</div><button class="btn sw-big" onclick="SSW.qzNext()">${Q.i + 1 >= total ? "Lihat hasil" : "Soal berikutnya ›"}</button>` : ""}
       </div>`;
