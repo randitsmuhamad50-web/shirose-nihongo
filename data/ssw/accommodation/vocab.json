@@ -56,7 +56,7 @@
    "rb": [
     "予約|よやく"
    ],
-   "contoh": "1. 予約管理",
+   "contoh": "問い合わせでは宿泊日と予約者名を必ず確認し、お客様を特定して対応します。",
    "auto": true,
    "pos": [
     "KB",
@@ -78,7 +78,6 @@
     "宿泊税|しゅくはくぜい"
    ],
    "tek": 1,
-   "contoh": "料金の詳細（宿泊税・入湯税・サービス料などが発生することが多い）",
    "auto": true,
    "pos": [
     "KB"
@@ -99,7 +98,6 @@
     "入湯税|にゅうとうぜい"
    ],
    "tek": 1,
-   "contoh": "料金の詳細（宿泊税・入湯税・サービス料などが発生することが多い）",
    "auto": true,
    "pos": [
     "KB"
@@ -135,7 +133,6 @@
     "b1s1"
    ],
    "tek": 1,
-   "contoh": "宿泊日・氏名・連絡先（電話番号・メールアドレス）・宿泊人数・交通手段（到着予定時間）・食事のアレルギーを事前に聞き、ノーショーの防止と最高のおもてなしの準備をします。",
    "auto": true,
    "pos": [
     "KB"
@@ -153,7 +150,7 @@
     "b1s2"
    ],
    "tek": 1,
-   "contoh": "チェックイン業務",
+   "contoh": "チェックインは14時または15時、チェックアウトは10時または11時が多くなっています。",
    "auto": true,
    "pos": [
     "KB"
@@ -171,7 +168,6 @@
     "b1s2"
    ],
    "tek": 1,
-   "contoh": "C. ルームキーのお渡し、館内・設備などの説明",
    "auto": true,
    "pos": [
     "KB"
@@ -248,7 +244,6 @@
     "b1s3"
    ],
    "tek": 1,
-   "contoh": "ハウスキーパー業務：清掃とアメニティのセット",
    "auto": true,
    "pos": [
     "KB"
@@ -269,7 +264,6 @@
     "仲居|なかい"
    ],
    "tek": 1,
-   "contoh": "仲居業務（旅館のみ）：お客様のお世話全般、ご案内、食事の提供",
    "auto": true,
    "pos": [
     "KB"
@@ -305,7 +299,6 @@
     "b1s4"
    ],
    "tek": 1,
-   "contoh": "プランに含まれない飲料・ルームサービス・マッサージなどを「館内利用」といい、チェックアウトの際に確認します。",
    "auto": true,
    "pos": [
     "KB"
@@ -407,7 +400,6 @@
     "連泊|れんぱく"
    ],
    "tek": 1,
-   "contoh": "連泊：同じ施設で2泊以上の連続宿泊",
    "auto": true,
    "pos": [
     "KB"
@@ -444,7 +436,6 @@
     "預り金|あずかりきん"
    ],
    "tek": 1,
-   "contoh": "預り金：サービス利用を保証するために支払う金額（デポジット）",
    "auto": true,
    "pos": [
     "KB"
@@ -465,7 +456,6 @@
     "稼働率|かどうりつ"
    ],
    "tek": 1,
-   "contoh": "稼働率（OCC）＝予約室数÷総室数×100",
    "auto": true,
    "pos": [
     "KB"
@@ -483,7 +473,6 @@
     "b2s1"
    ],
    "tek": 1,
-   "contoh": "ダイナミックプライシング：予約状況・空室状況に応じて価格を上げ下げする",
    "auto": true,
    "pos": [
     "KB"
@@ -501,7 +490,6 @@
     "b2s1"
    ],
    "tek": 1,
-   "contoh": "リピーター：繰り返し利用するお客様",
    "auto": true,
    "pos": [
     "KB"
@@ -539,7 +527,6 @@
    "src": [
     "b3s1"
    ],
-   "contoh": "「いらっしゃいませ」：お客様がいらっしゃった時",
    "auto": true
   },
   {
@@ -554,7 +541,6 @@
     "b3s1"
    ],
    "tek": 1,
-   "contoh": "「はい、かしこまりました」：ご要望に応えられる時",
    "auto": true,
    "pos": [
     "KB"
@@ -575,7 +561,6 @@
     "申し訳ございません|もうしわけございません"
    ],
    "tek": 1,
-   "contoh": "「申し訳ございません」：お詫びを表明する時（まず詫びて、すぐにチームの責任者に報告する）",
    "auto": true
   },
   {
@@ -593,7 +578,6 @@
     "恐れ入りますが|おそれいりますが"
    ],
    "tek": 1,
-   "contoh": "「恐れ入りますが、・・・・・」：お客様に何かお願いする時",
    "auto": true
   },
   {
@@ -611,7 +595,6 @@
     "お待たせいたしました|おまたせいたしました"
    ],
    "tek": 1,
-   "contoh": "「お待たせいたしました」：お待たせしてしまった時",
    "auto": true,
    "pos": [
     "KB"
@@ -632,7 +615,6 @@
     "会釈|えしゃく"
    ],
    "tek": 1,
-   "contoh": "会釈：約15°前傾。",
    "auto": true,
    "pos": [
     "KB"
@@ -653,7 +635,6 @@
     "最敬礼|さいけいれい"
    ],
    "tek": 1,
-   "contoh": "最敬礼：約45°前傾。",
    "auto": true,
    "pos": [
     "KB"
@@ -674,7 +655,6 @@
     "尊敬語|そんけいご"
    ],
    "tek": 1,
-   "contoh": "尊敬語：目上の人や自分より立場が上の人をうやまい、相手を立てる気持ちを表す",
    "auto": true,
    "pos": [
     "KB"
@@ -695,7 +675,6 @@
     "謙譲語|けんじょうご"
    ],
    "tek": 1,
-   "contoh": "謙譲語：自分がへりくだることで相手を立て、敬意を表す",
    "auto": true,
    "pos": [
     "KB"
@@ -716,7 +695,6 @@
     "丁寧語|ていねいご"
    ],
    "tek": 1,
-   "contoh": "丁寧語：「です」「ます」「ございます」を付けたり、「お料理」「ご宿泊」のように「お」「ご」を付けたりして丁寧にする",
    "auto": true,
    "pos": [
     "KB"
@@ -752,7 +730,6 @@
     "b3s5"
    ],
    "tek": 1,
-   "contoh": "クレーム（苦情）対応のポイント",
    "auto": true,
    "pos": [
     "KB"
@@ -794,7 +771,6 @@
     "懐石料理|かいせきりょうり"
    ],
    "tek": 1,
-   "contoh": "懐石料理の提供順序：①前菜 ②椀盛 ③お造り ④焼き物 ⑤煮物 ⑥揚物 ⑦酢の物 ⑧ごはん、香の物 ⑨水菓子",
    "auto": true,
    "pos": [
     "KB"
@@ -833,7 +809,6 @@
     "b4s3"
    ],
    "tek": 1,
-   "contoh": "症状がひどいときはアナフィラキシーショックといい、呼吸困難など重い症状が出て、適切な対応をしないと死にいたる場合があります。",
    "auto": true,
    "pos": [
     "KB"
@@ -872,7 +847,6 @@
     "配膳|はいぜん"
    ],
    "tek": 1,
-   "contoh": "配膳：料理や飲み物をテーブルに運び適切に提供すること",
    "auto": true,
    "pos": [
     "KB"
@@ -890,7 +864,6 @@
     "b4s4"
    ],
    "tek": 1,
-   "contoh": "ブッフェ料理：好きな料理を選んで取り分ける食事スタイル（ホテルの朝食に多い）",
    "auto": true,
    "pos": [
     "KB"
@@ -924,7 +897,6 @@
     "b4s4"
    ],
    "tek": 1,
-   "contoh": "ソムリエ：ワインの専門的知識を持ち、最適なワインを提案する専門職",
    "auto": true,
    "pos": [
     "KB"
@@ -960,7 +932,6 @@
     "b4s4"
    ],
    "tek": 1,
-   "contoh": "ベジタリアン：肉を含まない料理や食事スタイル",
    "auto": true,
    "pos": [
     "KB"
@@ -981,7 +952,6 @@
     "消防署|しょうぼうしょ"
    ],
    "tek": 1,
-   "contoh": "火災や急病人が出た場合は、消防署（119番）に連絡し、状況をできるだけ詳しく説明する",
    "auto": true,
    "pos": [
     "KB"
@@ -1047,7 +1017,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "B. 予約内容の確認",
+   "contoh": "ルームサービスの注文は、内容を繰り返して確認します。",
    "pos": [
     "KB",
     "KK"
@@ -1070,7 +1040,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "レストラン業務：料理の提供",
+   "contoh": "ハラール：イスラム法に基づいて許可された食品や方法で調理された料理。",
    "pos": [
     "KB",
     "KK"
@@ -1094,7 +1064,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "長い場合はヘアネットやヘアバンドを使う",
+   "contoh": "外国人のお客様の場合、パスポートのコピーをとって保管することが日本の法律で定められています。",
    "pos": [
     "KB"
    ],
@@ -1116,7 +1086,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "チェックイン業務",
+   "contoh": "ドアマン業務：お出迎え・お見送り。",
    "pos": [
     "KB"
    ],
@@ -1140,7 +1110,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "C. 客室での対応",
+   "contoh": "清潔感のある身だしなみ、正しい姿勢、丁寧な言葉づかいで対応します。",
    "pos": [
     "KB",
     "KK"
@@ -1164,7 +1134,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食事・ドリンクの提供",
+   "contoh": "食事中はナイフとフォークをプレートの上にハの字に置く。",
    "pos": [
     "KB",
     "KK"
@@ -1187,7 +1157,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "取り次ぐ場合は、相手の名前（会社名）を確認する",
+   "contoh": "明るく元気に笑顔で、相手に届く声で、相手の目を見て、気持ちを込めてあいさつします。",
    "pos": [
     "KB"
    ]
@@ -1209,7 +1179,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "A. 館内で行う電話対応",
+   "contoh": "コンシェルジュ業務：館内・館外の情報提供や手配。",
    "pos": [
     "KB"
    ],
@@ -1232,7 +1202,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "サービスの基本動作",
+   "contoh": "心のこもった接客やサービスを「おもてなし」といいます。",
    "pos": [
     "KB"
    ]
@@ -1253,7 +1223,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ご予約のプラン",
    "pos": [
     "KB"
    ],
@@ -1275,7 +1244,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊予約の有無",
+   "contoh": "宿泊のお客様に「泊まって良かったな」と満足していただくことが最も重要です。",
    "pos": [
     "KB",
     "KK"
@@ -1297,7 +1266,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食事・ドリンクの提供",
+   "contoh": "コンシェルジュ業務：館内・館外の情報提供や手配。",
    "pos": [
     "KB",
     "KK"
@@ -1320,7 +1289,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カスターセット：テーブル上の調味料などのセット",
    "pos": [
     "KB"
    ],
@@ -1342,7 +1310,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "タバコの吸い殻は適切に処理する",
+   "contoh": "食中毒、感染症などを発生させぬよう、衛生管理を適切に行うことが重要です。",
    "pos": [
     "KSな"
    ],
@@ -1363,7 +1331,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "最初にフロントへ案内する",
    "pos": [
     "KB"
    ]
@@ -1406,7 +1373,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "電話対応のポイント",
+   "contoh": "電話を切る際は、お客様が切ってから切ります。",
    "pos": [
     "KB",
     "KK"
@@ -1448,7 +1415,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "クレームの原因を丁寧に確認する",
+   "contoh": "清潔感のある身だしなみ、正しい姿勢、丁寧な言葉づかいで対応します。",
    "pos": [
     "KSな"
    ],
@@ -1469,7 +1436,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "最初にフロントへ案内する",
    "pos": [
     "KB",
     "KK"
@@ -1490,7 +1456,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "店内や入り口の清掃",
+   "contoh": "こまめな清掃は、お客様が快適に食事をすることや食中毒の防止にも繋がります。",
    "pos": [
     "KB"
    ],
@@ -1556,7 +1522,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様を見かけたら、自分から積極的にあいさつする",
    "pos": [
     "KB"
    ],
@@ -1618,7 +1583,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "「失礼します」：お部屋やテーブルにうかがった時、離れる時",
+   "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB"
    ]
@@ -1636,7 +1601,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "景色・料理などの詳細／地域の文化・行事の情報",
    "pos": [
     "KB"
    ],
@@ -1658,7 +1622,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "料金の詳細（宿泊税・入湯税・サービス料などが発生することが多い）",
+   "contoh": "食中毒、感染症などを発生させぬよう、衛生管理を適切に行うことが重要です。",
    "pos": [
     "KB"
    ],
@@ -1679,7 +1643,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "地域との連携",
    "pos": [
     "KB"
    ],
@@ -1700,7 +1663,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "B. お客様情報の確認",
+   "contoh": "予約時や来店時に必ずアレルギーの有無を確認し、正確な情報を調理場やスタッフ内で共有します。",
    "pos": [
     "KB"
    ]
@@ -1719,7 +1682,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "C. ルームキーのお渡し、館内・設備などの説明",
+   "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB",
     "KK"
@@ -1740,7 +1703,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "リピーター：繰り返し利用するお客様",
+   "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB",
     "KK"
@@ -1761,7 +1724,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "C. 客室での対応",
+   "contoh": "必ずドアをノックするか呼び鈴を鳴らし、お客様の許可をもらってから客室に入ります。",
    "pos": [
     "KB"
    ],
@@ -1823,7 +1786,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "自然な表情で、お客様には笑顔を忘れない",
    "pos": [
     "KSな"
    ],
@@ -1844,7 +1806,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お皿の持ち方に注意し、親指が料理についたり指紋がつかないようにする",
    "pos": [
     "KB",
     "KK"
@@ -1923,7 +1884,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "事故の未然防止策",
+   "contoh": "小さな不備が大きな事故につながる可能性があります。",
    "pos": [
     "KB"
    ]
@@ -1942,7 +1903,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "フロント（レセプション）の仕事",
+   "contoh": "広報は自社の活動や商品の情報発信を行う仕事です。",
    "pos": [
     "KB"
    ]
@@ -2002,7 +1963,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "施設情報の充実（料金・設備・地図・アクセス）",
+   "contoh": "館内利用・宿泊料金・サービス料・税などを記載した請求明細書を発行して見せ、料金を請求します。",
    "pos": [
     "KB"
    ],
@@ -2022,7 +1983,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ベッド＆ブレックファースト（B＆B）：朝食のみ（主にホテル）",
    "pos": [
     "KB"
    ]
@@ -2042,7 +2002,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ハウスキーパー業務：清掃とアメニティのセット",
    "pos": [
     "KB"
    ],
@@ -2063,7 +2022,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の氏名",
    "pos": [
     "KB"
    ],
@@ -2082,7 +2040,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "C. 予約のキャンセル、調整など",
+   "contoh": "キャンセルは宿泊施設が定めるキャンセルポリシーにしたがい、キャンセル料をいただきます。",
    "pos": [
     "KB"
    ]
@@ -2101,7 +2059,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "施設情報の充実（料金・設備・地図・アクセス）",
    "pos": [
     "KB"
    ]
@@ -2141,7 +2098,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "小さな施設ではフロントが兼務",
+   "contoh": "宿泊施設は不特定多数のお客様が長時間にわたって滞在する施設です。",
    "pos": [
     "KB"
    ],
@@ -2181,7 +2138,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊＋地域の日本文化体験 → インバウンド客層",
+   "contoh": "ターゲットとする客層を正しく設定し、マーケティングでニーズを理解して企画します。",
    "pos": [
     "KB"
    ],
@@ -2201,7 +2158,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "１泊２食：夕食と朝食が含まれる（主に旅館）",
    "pos": [
     "KB",
     "KK"
@@ -2222,7 +2178,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "責任者に報告する",
    "pos": [
     "KB"
    ],
@@ -2242,7 +2197,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "責任者に報告する",
    "pos": [
     "KB"
    ],
@@ -2261,7 +2215,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "会釈：約15°前傾。",
+   "contoh": "普通礼（敬礼）：約30°前傾。",
    "pos": [
     "KB"
    ],
@@ -2282,7 +2236,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ひげは毎日そり、必要であれば軽く自然なメイクを施す",
+   "contoh": "お年寄りや障がいのあるお客様にはお声がけして必要なサポートを確認する。",
    "pos": [
     "KSな"
    ]
@@ -2301,7 +2255,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "くつは清潔で汚れがないように気を付ける",
    "pos": [
     "KSな"
    ],
@@ -2320,7 +2273,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "洋食では、料理は左側から、お飲み物は右側から提供する",
+   "contoh": "左側にご飯、右側に汁、左奥に副菜、右奥に主菜を置きます。",
    "pos": [
     "KB"
    ],
@@ -2339,7 +2292,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "洋食では、料理は左側から、お飲み物は右側から提供する",
+   "contoh": "左側にご飯、右側に汁、左奥に副菜、右奥に主菜を置きます。",
    "pos": [
     "KB"
    ]
@@ -2357,7 +2310,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食物アレルギーとは、特定のアレルギー成分を含んだ食べ物を食べた後にアレルギー症状が引き起こされることです。",
    "pos": [
     "KB"
    ],
@@ -2377,7 +2329,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "非常口と非常通路を常に確認し、お客様に正確に案内する",
+   "contoh": "予約時や来店時に必ずアレルギーの有無を確認し、正確な情報を調理場やスタッフ内で共有します。",
    "pos": [
     "KSな"
    ],
@@ -2397,7 +2349,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境対応について",
+   "contoh": "SDGsの重要性が増す中、環境にやさしい取り組みを進めます。",
    "pos": [
     "KB"
    ],
@@ -2417,7 +2369,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "店内や入り口の清掃",
    "pos": [
     "KB"
    ],
@@ -2436,7 +2387,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食器や備品類の補充や整理整頓",
    "pos": [
     "KB"
    ],
@@ -2456,7 +2406,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食器や備品類の補充や整理整頓",
    "pos": [
     "KB"
    ],
@@ -2475,7 +2424,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ベジタリアン：肉を含まない料理や食事スタイル",
    "pos": [
     "KB"
    ],
@@ -2495,7 +2443,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境リサイクルや資源の節減について上司や担当者に提案する",
    "pos": [
     "KB",
     "KK"
@@ -2535,7 +2482,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "3. 館内でのお客様対応と情報提供",
+   "contoh": "コンシェルジュ業務：館内・館外の情報提供や手配。",
    "pos": [
     "KB"
    ],
@@ -2555,7 +2502,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "サービスの詳細（チェックイン・チェックアウトの時間など）",
+   "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB"
    ]
@@ -2593,7 +2540,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ォークイン：事前の予約なしに直接訪れる",
    "pos": [
     "KB"
    ],
@@ -2634,7 +2580,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食器や備品などの適切な準備や整理整頓",
    "pos": [
     "KB",
     "KK"
@@ -2673,7 +2618,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "A. 身だしなみ・姿勢・言葉遣い",
+   "contoh": "清潔感のある身だしなみ、正しい姿勢、丁寧な言葉づかいで対応します。",
    "pos": [
     "KB"
    ],
@@ -2693,7 +2638,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "A. 身だしなみ・姿勢・言葉遣い",
+   "contoh": "日本では接客サービスにおいて「おもてなし」という言葉を用います。",
    "pos": [
     "KB"
    ]
@@ -2712,7 +2657,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊予約の有無",
+   "contoh": "予約時や来店時に必ずアレルギーの有無を確認し、正確な情報を調理場やスタッフ内で共有します。",
    "pos": [
     "KB"
    ],
@@ -2732,7 +2677,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食品は適切な温度や環境で保管し、生の肉や魚は他の食品と分けて冷蔵・冷凍保存する",
+   "contoh": "外国人のお客様の場合、パスポートのコピーをとって保管することが日本の法律で定められています。",
    "pos": [
     "KB",
     "KK"
@@ -2812,7 +2757,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "１泊２食：夕食と朝食が含まれる（主に旅館）",
    "pos": [
     "KB"
    ]
@@ -2831,7 +2775,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "レストラン業務：料理の提供",
    "pos": [
     "KB"
    ]
@@ -2868,7 +2811,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "A. 館内でご利用したサービス、飲料などの確認",
    "pos": [
     "KB"
    ],
@@ -2907,7 +2849,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ベッド＆ブレックファースト（B＆B）：朝食のみ（主にホテル）",
    "pos": [
     "KB"
    ]
@@ -2926,7 +2867,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "手数料を減らせる",
    "pos": [
     "KB"
    ],
@@ -2946,7 +2886,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "オンライン旅行代理店",
    "pos": [
     "KB"
    ],
@@ -2985,7 +2924,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "A. 自社ホームページの運用方法",
+   "contoh": "広報は自社の活動や商品の情報発信を行う仕事です。",
    "pos": [
     "KB"
    ],
@@ -3004,7 +2943,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "B. SNSの運用方法",
    "pos": [
     "KB"
    ],
@@ -3024,7 +2962,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "施設情報の充実（料金・設備・地図・アクセス）",
    "pos": [
     "KB"
    ]
@@ -3042,7 +2979,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "写真や動画の活用",
    "pos": [
     "KB"
    ],
@@ -3061,7 +2997,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "定期的な投稿",
    "pos": [
     "KSな"
    ],
@@ -3080,7 +3015,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コンテンツ戦略の策定",
    "pos": [
     "KB"
    ],
@@ -3120,7 +3054,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "相手の目を見て、元気ではっきりとした声であいさつする",
+   "contoh": "明るく元気に笑顔で、相手に届く声で、相手の目を見て、気持ちを込めてあいさつします。",
    "pos": [
     "KSな"
    ]
@@ -3139,7 +3073,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "尊敬語：目上の人や自分より立場が上の人をうやまい、相手を立てる気持ちを表す",
+   "contoh": "明るく元気に笑顔で、相手に届く声で、相手の目を見て、気持ちを込めてあいさつします。",
    "pos": [
     "KB"
    ],
@@ -3158,7 +3092,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "退勤時：「お先に失礼します」",
    "pos": [
     "KSな"
    ],
@@ -3177,7 +3110,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "休憩に入る時：「休憩に入ります」",
    "pos": [
     "KB",
     "KK"
@@ -3197,7 +3129,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "名前は名字に「さん」をつけて呼ぶ",
    "pos": [
     "KB"
    ]
@@ -3236,7 +3167,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "おじぎの種類",
+   "contoh": "敬語には3種類あります。",
    "pos": [
     "KB"
    ],
@@ -3256,7 +3187,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "手すりやスロープの設置などのリクエストは内容を記録し、施設担当者に提案する",
+   "contoh": "急なリクエストでもすぐに断らず、どうしたらお応えできるか考え、判断できなければ上司に相談します。",
    "pos": [
     "KB"
    ],
@@ -3276,7 +3207,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境リサイクルや資源の節減について上司や担当者に提案する",
+   "contoh": "急なリクエストでもすぐに断らず、どうしたらお応えできるか考え、判断できなければ上司に相談します。",
    "pos": [
     "KB"
    ],
@@ -3296,7 +3227,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑦ルームキーは、相手から見て正面に向けて両手でお渡しする",
    "pos": [
     "KB"
    ],
@@ -3316,7 +3246,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑧エレベーターは常にお客様を優先する",
    "pos": [
     "KB"
    ],
@@ -3335,7 +3264,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "電話対応のポイント",
    "pos": [
     "KB"
    ],
@@ -3355,7 +3283,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ひげは毎日そり、必要であれば軽く自然なメイクを施す",
    "pos": [
     "KB"
    ]
@@ -3374,7 +3301,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "香りが強い香水は身につけない",
    "pos": [
     "KB"
    ],
@@ -3393,7 +3319,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "洋食では、料理は左側から、お飲み物は右側から提供する",
    "pos": [
     "KB"
    ]
@@ -3431,7 +3356,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "メインディッシュ：食事の中心となる主要な料理",
    "pos": [
     "KB"
    ],
@@ -3451,7 +3375,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "外側から順番に使用する",
    "pos": [
     "KB"
    ],
@@ -3470,7 +3393,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "調理場との料理内容やゲスト情報の確認",
+   "contoh": "予約時や来店時に必ずアレルギーの有無を確認し、正確な情報を調理場やスタッフ内で共有します。",
    "pos": [
     "KB"
    ],
@@ -3490,7 +3413,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "豚肉やアルコールを含まない",
    "pos": [
     "KB"
    ]
@@ -3508,7 +3430,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "テーブルやいすのセッティングや消毒剤でのふきあげ",
    "pos": [
     "KB"
    ],
@@ -3527,7 +3448,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "テーブルやいすのセッティングや消毒剤でのふきあげ",
    "pos": [
     "KB"
    ],
@@ -3546,7 +3466,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カスターセットの洗浄や補充",
    "pos": [
     "KB"
    ],
@@ -3565,7 +3484,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ソムリエ：ワインの専門的知識を持ち、最適なワインを提案する専門職",
    "pos": [
     "KB"
    ]
@@ -3604,7 +3522,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
    "pos": [
     "KB"
    ]
@@ -3623,7 +3540,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
    "pos": [
     "KB"
    ],
@@ -3643,7 +3559,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や急病人が出た場合は、消防署（119番）に連絡し、状況をできるだけ詳しく説明する",
    "pos": [
     "KB"
    ],
@@ -3663,7 +3578,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災を発見した場合は、速やかに初期消火を実施し、お客様を安全に避難させる",
    "pos": [
     "KB",
     "KK"
@@ -3682,7 +3596,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災を発見した場合は、速やかに初期消火を実施し、お客様を安全に避難させる",
    "pos": [
     "KB"
    ],
@@ -3702,7 +3615,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や急病人が出た場合は、消防署（119番）に連絡し、状況をできるだけ詳しく説明する",
    "pos": [
     "KB",
     "KK"
@@ -3721,7 +3633,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "衛生管理について",
+   "contoh": "食中毒、感染症などを発生させぬよう、衛生管理を適切に行うことが重要です。",
    "pos": [
     "KB"
    ],
@@ -3759,7 +3671,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "フロント（レセプション）の仕事",
    "pos": [
     "KB"
    ],
@@ -3816,7 +3727,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お部屋のタイプ（シングルルーム＝ベッド1つ、ツインルーム＝ベッド2つ）",
    "pos": [
     "KB"
    ],
@@ -3835,7 +3745,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お部屋のタイプ（シングルルーム＝ベッド1つ、ツインルーム＝ベッド2つ）",
    "pos": [
     "KB"
    ],
@@ -3854,7 +3763,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お部屋のタイプ（シングルルーム＝ベッド1つ、ツインルーム＝ベッド2つ）",
    "pos": [
     "KB"
    ],
@@ -3873,7 +3781,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "販売しているプランの詳細（食事やオプションがセットのもの）",
    "pos": [
     "KB"
    ],
@@ -3892,7 +3799,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "販売しているプランの詳細（食事やオプションがセットのもの）",
    "pos": [
     "KB",
     "KK"
@@ -3912,7 +3818,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "景色・料理などの詳細／地域の文化・行事の情報",
    "pos": [
     "KB"
    ]
@@ -3930,7 +3835,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "景色・料理などの詳細／地域の文化・行事の情報",
    "pos": [
     "KB"
    ],
@@ -3949,7 +3853,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊日・氏名・連絡先（電話番号・メールアドレス）・宿泊人数・交通手段（到着予定時間）・食事のアレルギーを事前に聞き、ノーショーの防止と最高のおもてなしの準備をします。",
    "pos": [
     "KB"
    ],
@@ -3968,7 +3871,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊日・氏名・連絡先（電話番号・メールアドレス）・宿泊人数・交通手段（到着予定時間）・食事のアレルギーを事前に聞き、ノーショーの防止と最高のおもてなしの準備をします。",
    "pos": [
     "KB"
    ]
@@ -3986,7 +3888,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊日・氏名・連絡先（電話番号・メールアドレス）・宿泊人数・交通手段（到着予定時間）・食事のアレルギーを事前に聞き、ノーショーの防止と最高のおもてなしの準備をします。",
    "pos": [
     "KB"
    ],
@@ -4005,7 +3906,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊日・氏名・連絡先（電話番号・メールアドレス）・宿泊人数・交通手段（到着予定時間）・食事のアレルギーを事前に聞き、ノーショーの防止と最高のおもてなしの準備をします。",
    "pos": [
     "KB"
    ],
@@ -4024,7 +3924,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "C. 予約のキャンセル、調整など",
    "pos": [
     "KB"
    ],
@@ -4043,7 +3942,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "到着したお客様の受付をし、予約内容の確認、宿泊の手続き、ルームキーのお渡し、館内・設備の説明を行う業務です。",
    "pos": [
     "KB",
     "KK"
@@ -4062,7 +3960,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "到着したお客様の受付をし、予約内容の確認、宿泊の手続き、ルームキーのお渡し、館内・設備の説明を行う業務です。",
    "pos": [
     "KB"
    ]
@@ -4192,7 +4089,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "B. フロントが把握しておくべきほかの業務",
    "pos": [
     "KB"
    ],
@@ -4211,7 +4107,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "最初にフロントへ案内する",
    "pos": [
     "KB"
    ]
@@ -4229,7 +4124,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ハウスキーパー業務：清掃とアメニティのセット",
    "pos": [
     "KB"
    ],
@@ -4286,7 +4180,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "小さな施設ではフロントが兼務",
    "pos": [
     "KB"
    ],
@@ -4457,7 +4350,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊プラン、日帰りプラン、ランチビュッフェプランなど、お客様に喜んでいただける新プランの開発やイベントの設計を行います。",
    "pos": [
     "KB"
    ],
@@ -4533,7 +4425,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊プラン、日帰りプラン、ランチビュッフェプランなど、お客様に喜んでいただける新プランの開発やイベントの設計を行います。",
    "pos": [
     "KB",
     "KK"
@@ -4553,7 +4444,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊プラン、日帰りプラン、ランチビュッフェプランなど、お客様に喜んでいただける新プランの開発やイベントの設計を行います。",
    "pos": [
     "KB",
     "KK"
@@ -4611,7 +4501,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊＋地域の日本文化体験 → インバウンド客層",
    "pos": [
     "KB"
    ],
@@ -4630,7 +4519,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "宿泊＋地域の食材を生かした健康的食事 → ベジタリアン、ビーガン客層",
    "pos": [
     "KB"
    ],
@@ -4649,7 +4537,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "スイートルーム宿泊 → 富裕層",
    "pos": [
     "KB"
    ],
@@ -4668,7 +4555,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "スイートルーム宿泊 → 富裕層",
    "pos": [
     "KB"
    ],
@@ -4705,7 +4591,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "１泊２食：夕食と朝食が含まれる（主に旅館）",
    "pos": [
     "KB",
     "KK"
@@ -4725,7 +4610,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ベッド＆ブレックファースト（B＆B）：朝食のみ（主にホテル）",
    "pos": [
     "KB"
    ],
@@ -4744,7 +4628,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "預り金：サービス利用を保証するために支払う金額（デポジット）",
    "pos": [
     "KB"
    ],
@@ -4763,7 +4646,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "預り金：サービス利用を保証するために支払う金額（デポジット）",
    "pos": [
     "KB",
     "KK"
@@ -4783,7 +4665,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "預り金：サービス利用を保証するために支払う金額（デポジット）",
    "pos": [
     "KB"
    ]
@@ -4840,7 +4721,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "オンライン旅行代理店",
    "pos": [
     "KB"
    ],
@@ -4859,7 +4739,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "自由な個人旅行者",
    "pos": [
     "KSな"
    ]
@@ -4877,7 +4756,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "レベニューマネジメント：客室価格をコントロールして利益を確保する",
    "pos": [
     "KB"
    ],
@@ -4896,7 +4774,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ールインクルーシブ：全てのサービス費用が含まれるプラン",
    "pos": [
     "KB"
    ],
@@ -4915,7 +4792,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ADR＝宿泊売上合計÷稼働している客室数",
    "pos": [
     "KB"
    ],
@@ -4934,7 +4810,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "RevPAR＝客室稼働率（OCC）×客室平均単価（ADR）",
    "pos": [
     "KB"
    ],
@@ -4953,7 +4828,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "レベニューマネジメント：客室価格をコントロールして利益を確保する",
    "pos": [
     "KB"
    ],
@@ -4972,7 +4846,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "レベニューマネジメント：客室価格をコントロールして利益を確保する",
    "pos": [
     "KB"
    ],
@@ -4991,7 +4864,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。",
    "pos": [
     "KB"
    ],
@@ -5087,7 +4959,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。",
    "pos": [
     "KB"
    ],
@@ -5106,7 +4977,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。",
    "pos": [
     "KB"
    ],
@@ -5125,7 +4995,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。",
    "pos": [
     "KB"
    ],
@@ -5144,7 +5013,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。",
    "pos": [
     "KB"
    ],
@@ -5163,7 +5031,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ステークホルダー（旅行者、関係取引先、株主、従業員、地域住民など）によく知ってもらい、良い関係を作ります。",
    "pos": [
     "KB"
    ]
@@ -5200,7 +5067,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "A. 自社ホームページの運用方法",
    "pos": [
     "KB"
    ],
@@ -5237,7 +5103,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ェブサイトのデザインと使いやすさ",
    "pos": [
     "KB"
    ]
@@ -5255,7 +5120,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "施設情報の充実（料金・設備・地図・アクセス）",
    "pos": [
     "KB"
    ],
@@ -5274,7 +5138,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "写真や動画の活用",
    "pos": [
     "KB"
    ]
@@ -5292,7 +5155,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "写真や動画の活用",
    "pos": [
     "KB"
    ],
@@ -5311,7 +5173,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ンライン予約システムの導入（手数料を減らせる）",
    "pos": [
     "KB"
    ],
@@ -5330,7 +5191,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ンライン予約システムの導入（手数料を減らせる）",
    "pos": [
     "KB"
    ],
@@ -5349,7 +5209,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "検索エンジン最適化（SEO）",
    "pos": [
     "KB"
    ]
@@ -5367,7 +5226,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "検索エンジン最適化（SEO）",
    "pos": [
     "KB",
     "KK"
@@ -5387,7 +5245,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "検索エンジン最適化（SEO）",
    "pos": [
     "KB"
    ],
@@ -5406,7 +5263,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "顧客のフィードバックの収集",
    "pos": [
     "KB"
    ],
@@ -5425,7 +5281,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "顧客のフィードバックの収集",
    "pos": [
     "KB"
    ],
@@ -5444,7 +5299,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "顧客のフィードバックの収集",
    "pos": [
     "KB"
    ],
@@ -5463,7 +5317,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "定期的な更新とメンテナンス",
    "pos": [
     "KB"
    ],
@@ -5482,7 +5335,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "定期的な更新とメンテナンス",
    "pos": [
     "KB"
    ],
@@ -5501,7 +5353,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コンテンツ戦略の策定",
    "pos": [
     "KB"
    ],
@@ -5520,7 +5371,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コンテンツ戦略の策定",
    "pos": [
     "KB"
    ],
@@ -5539,7 +5389,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "定期的な投稿",
    "pos": [
     "KB"
    ],
@@ -5558,7 +5407,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コミュニケーションの活性化（質問・コメントにすぐ返信）",
    "pos": [
     "KB"
    ],
@@ -5577,7 +5425,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コミュニケーションの活性化（質問・コメントにすぐ返信）",
    "pos": [
     "KB"
    ],
@@ -5596,7 +5443,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コミュニケーションの活性化（質問・コメントにすぐ返信）",
    "pos": [
     "KB",
     "KK"
@@ -5615,7 +5461,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コミュニケーションの活性化（質問・コメントにすぐ返信）",
    "pos": [
     "KB"
    ],
@@ -5634,7 +5479,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "地域との連携",
    "pos": [
     "KB"
    ],
@@ -5690,7 +5534,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "「はい、かしこまりました」：ご要望に応えられる時",
    "pos": [
     "KB"
    ],
@@ -5709,7 +5552,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "「申し訳ございません」：お詫びを表明する時（まず詫びて、すぐにチームの責任者に報告する）",
    "pos": [
     "KB"
    ]
@@ -5727,7 +5569,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "「申し訳ございません」：お詫びを表明する時（まず詫びて、すぐにチームの責任者に報告する）",
    "pos": [
     "KB"
    ],
@@ -5745,8 +5586,7 @@
     "b3s1"
    ],
    "auto": true,
-   "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "「少々お待ちください（ませ）」：お待たせしてしまう場合"
+   "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)"
   },
   {
    "id": "ac-a0295",
@@ -5761,7 +5601,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "退勤時：「お先に失礼します」",
    "pos": [
     "KB"
    ],
@@ -5780,7 +5619,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "名前は名字に「さん」をつけて呼ぶ",
    "pos": [
     "KB"
    ],
@@ -5799,7 +5637,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "背筋を伸ばす",
    "pos": [
     "KB"
    ],
@@ -5818,7 +5655,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "肩の力を抜き、腹よりやや下の位置で右手を下にして軽く重ねる（男性は自然に横に下げても良い）",
    "pos": [
     "KB"
    ],
@@ -5837,7 +5673,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "肩の力を抜き、腹よりやや下の位置で右手を下にして軽く重ねる（男性は自然に横に下げても良い）",
    "pos": [
     "KB"
    ]
@@ -5855,7 +5690,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "自然な表情で、お客様には笑顔を忘れない",
    "pos": [
     "KB"
    ],
@@ -5874,7 +5708,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "最敬礼：約45°前傾。",
+   "contoh": "普通礼（敬礼）：約30°前傾。",
    "pos": [
     "KB"
    ],
@@ -5893,7 +5727,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様をお迎えする時をはじめ、様々な場面で最も使う",
    "pos": [
     "KSな"
    ],
@@ -5912,7 +5745,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様をお迎えする時をはじめ、様々な場面で最も使う",
    "pos": [
     "KB"
    ],
@@ -5989,7 +5821,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "尊敬語：目上の人や自分より立場が上の人をうやまい、相手を立てる気持ちを表す",
    "pos": [
     "KB"
    ],
@@ -6008,7 +5839,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "尊敬語：目上の人や自分より立場が上の人をうやまい、相手を立てる気持ちを表す",
    "pos": [
     "KB"
    ],
@@ -6027,7 +5857,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "謙譲語：自分がへりくだることで相手を立て、敬意を表す",
    "pos": [
     "KB"
    ],
@@ -6065,7 +5894,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "①何か探されている様子の場合は、「何かお探しでしょうか」とお声がけする",
    "pos": [
     "KB"
    ]
@@ -6083,7 +5911,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "②ご案内する際は、2〜3歩、左前方を、お客様の歩調に合わせて歩く",
    "pos": [
     "KB"
    ],
@@ -6102,7 +5929,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "③すれ違う時は、お客様が通過するまで立ち止まって会釈する",
    "pos": [
     "KB"
    ],
@@ -6121,7 +5947,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "④呼び止められた時は、「お呼びでございますか」と返事をする",
    "pos": [
     "KB",
     "KK"
@@ -6140,7 +5965,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑤手荷物は丁寧に客室内までお持ちする",
    "pos": [
     "KB"
    ],
@@ -6159,7 +5983,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑥地図で道案内する時は、手のひらを上に向け4本の指をそろえる",
    "pos": [
     "KB"
    ],
@@ -6178,7 +6001,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑦ルームキーは、相手から見て正面に向けて両手でお渡しする",
    "pos": [
     "KB"
    ],
@@ -6197,7 +6019,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑧エレベーターは常にお客様を優先する",
    "pos": [
     "KB"
    ],
@@ -6216,7 +6037,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑪杖をついた足の不自由な方がレストランにいらした時は、希望があれば出入り口に近い席にご案内する",
    "pos": [
     "KB"
    ],
@@ -6235,7 +6055,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑪杖をついた足の不自由な方がレストランにいらした時は、希望があれば出入り口に近い席にご案内する",
    "pos": [
     "KB"
    ],
@@ -6254,7 +6073,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "⑪杖をついた足の不自由な方がレストランにいらした時は、希望があれば出入り口に近い席にご案内する",
    "pos": [
     "KB"
    ],
@@ -6273,7 +6091,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "電話を取る前にメモと筆記用具を用意しておく",
    "pos": [
     "KB"
    ],
@@ -6292,7 +6109,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "電話を取る前にメモと筆記用具を用意しておく",
    "pos": [
     "KB"
    ]
@@ -6310,7 +6126,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "電話に出たら、まず名乗る",
    "pos": [
     "KB"
    ],
@@ -6329,7 +6144,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "取り次ぐ場合は、相手の名前（会社名）を確認する",
    "pos": [
     "KB"
    ],
@@ -6348,7 +6162,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様からの電話は、相手が受話器を置いたのを確認してから置く",
    "pos": [
     "KB"
    ],
@@ -6367,7 +6180,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "クレーム（苦情）対応のポイント",
    "pos": [
     "KB"
    ],
@@ -6386,7 +6198,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "まず、不快にさせたことをお詫びする",
    "pos": [
     "KSな"
    ],
@@ -6405,7 +6216,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "クレームの原因を丁寧に確認する",
    "pos": [
     "KB"
    ]
@@ -6423,7 +6233,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "自分のミスが明らかでも、自分ですべて解決しようとするとさらなるクレームにつながるため、責任者へ報告することが重要です。",
    "pos": [
     "KB",
     "KK"
@@ -6500,7 +6309,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様を見かけたら、自分から積極的にあいさつする",
    "pos": [
     "KSな"
    ],
@@ -6519,7 +6327,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "笑顔は「口の両端をあげる」「目じりをさげる」ことを意識する",
    "pos": [
     "KB"
    ],
@@ -6538,7 +6345,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "笑顔は「口の両端をあげる」「目じりをさげる」ことを意識する",
    "pos": [
     "KB"
    ],
@@ -6557,7 +6363,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "心からの温かみを伝える自然な笑顔が大切",
    "pos": [
     "KSな"
    ]
@@ -6575,7 +6380,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "服装・身だしなみ",
    "pos": [
     "KB"
    ],
@@ -6594,7 +6398,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "長い場合はヘアネットやヘアバンドを使う",
    "pos": [
     "KB"
    ],
@@ -6613,7 +6416,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "長い場合はヘアネットやヘアバンドを使う",
    "pos": [
     "KB"
    ],
@@ -6650,7 +6452,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ひげは毎日そり、必要であれば軽く自然なメイクを施す",
    "pos": [
     "KB"
    ],
@@ -6669,7 +6470,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ネイルアートや派手なマニキュアは避ける",
    "pos": [
     "KB"
    ],
@@ -6688,7 +6488,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ネイルアートや派手なマニキュアは避ける",
    "pos": [
     "KB"
    ],
@@ -6707,7 +6506,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ネイルアートや派手なマニキュアは避ける",
    "pos": [
     "KSな"
    ],
@@ -6726,7 +6524,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "制服は清潔で、しわや汚れがなく、ボタンはすべてとめる",
    "pos": [
     "KB"
    ],
@@ -6745,7 +6542,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "制服は清潔で、しわや汚れがなく、ボタンはすべてとめる",
    "pos": [
     "KB"
    ],
@@ -6764,7 +6560,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "装飾品は原則的に身につけず、時計も高価なものや華美なものは避ける",
    "pos": [
     "KB"
    ],
@@ -6783,7 +6578,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "装飾品は原則的に身につけず、時計も高価なものや華美なものは避ける",
    "pos": [
     "KSな"
    ],
@@ -6802,7 +6596,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "装飾品は原則的に身につけず、時計も高価なものや華美なものは避ける",
    "pos": [
     "KB"
    ]
@@ -6820,7 +6613,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "装飾品は原則的に身につけず、時計も高価なものや華美なものは避ける",
    "pos": [
     "KB"
    ],
@@ -6839,7 +6631,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "装飾品は原則的に身につけず、時計も高価なものや華美なものは避ける",
    "pos": [
     "KB"
    ],
@@ -6858,7 +6649,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お皿の持ち方に注意し、親指が料理についたり指紋がつかないようにする",
    "pos": [
     "KB"
    ],
@@ -6877,7 +6667,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お皿の持ち方に注意し、親指が料理についたり指紋がつかないようにする",
    "pos": [
     "KB"
    ],
@@ -7100,7 +6889,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "懐石料理の提供順序：①前菜 ②椀盛 ③お造り ④焼き物 ⑤煮物 ⑥揚物 ⑦酢の物 ⑧ごはん、香の物 ⑨水菓子",
    "pos": [
     "KB"
    ],
@@ -7119,7 +6907,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "懐石料理の提供順序：①前菜 ②椀盛 ③お造り ④焼き物 ⑤煮物 ⑥揚物 ⑦酢の物 ⑧ごはん、香の物 ⑨水菓子",
    "pos": [
     "KB"
    ],
@@ -7138,7 +6925,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "懐石料理の提供順序：①前菜 ②椀盛 ③お造り ④焼き物 ⑤煮物 ⑥揚物 ⑦酢の物 ⑧ごはん、香の物 ⑨水菓子",
    "pos": [
     "KB"
    ],
@@ -7157,7 +6943,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "懐石料理の提供順序：①前菜 ②椀盛 ③お造り ④焼き物 ⑤煮物 ⑥揚物 ⑦酢の物 ⑧ごはん、香の物 ⑨水菓子",
    "pos": [
     "KB"
    ],
@@ -7176,7 +6961,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ]
@@ -7194,7 +6978,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ],
@@ -7213,7 +6996,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ],
@@ -7232,7 +7014,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ],
@@ -7251,7 +7032,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ],
@@ -7270,7 +7050,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ],
@@ -7289,7 +7068,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "コース料理の提供順序：①オードブル ②スープ ③魚料理 ④肉料理 ⑤デザート ⑥コーヒー",
    "pos": [
     "KB"
    ],
@@ -7308,7 +7086,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カトラリー類はプレートを中心に、左側にフォーク、右側にナイフやスプーン、上部にデザートフォークやデザートスプーン、左上部にパン皿を置く",
    "pos": [
     "KB"
    ],
@@ -7327,7 +7104,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カトラリー類はプレートを中心に、左側にフォーク、右側にナイフやスプーン、上部にデザートフォークやデザートスプーン、左上部にパン皿を置く",
    "pos": [
     "KB"
    ]
@@ -7345,7 +7121,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カトラリー類はプレートを中心に、左側にフォーク、右側にナイフやスプーン、上部にデザートフォークやデザートスプーン、左上部にパン皿を置く",
    "pos": [
     "KB"
    ],
@@ -7383,7 +7158,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "外側から順番に使用する",
    "pos": [
     "KB"
    ],
@@ -7402,7 +7176,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "外側から順番に使用する",
    "pos": [
     "KB"
    ],
@@ -7421,7 +7194,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "終了後は揃えて右下に置く",
    "pos": [
     "KB"
    ],
@@ -7440,7 +7212,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "終了後は揃えて右下に置く",
    "pos": [
     "KB"
    ],
@@ -7459,7 +7230,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "症状がひどいときはアナフィラキシーショックといい、呼吸困難など重い症状が出て、適切な対応をしないと死にいたる場合があります。",
    "pos": [
     "KB"
    ],
@@ -7497,7 +7267,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食物アレルギーとは、特定のアレルギー成分を含んだ食べ物を食べた後にアレルギー症状が引き起こされることです。",
    "pos": [
     "KB"
    ],
@@ -7516,7 +7285,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食物アレルギーとは、特定のアレルギー成分を含んだ食べ物を食べた後にアレルギー症状が引き起こされることです。",
    "pos": [
     "KB"
    ],
@@ -7535,7 +7303,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "症状がひどいときはアナフィラキシーショックといい、呼吸困難など重い症状が出て、適切な対応をしないと死にいたる場合があります。",
    "pos": [
     "KB"
    ],
@@ -7685,7 +7452,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ハンドソープのほか、アルコールの手指消毒も行う",
    "pos": [
     "KB"
    ],
@@ -7742,7 +7508,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食品は適切な温度や環境で保管し、生の肉や魚は他の食品と分けて冷蔵・冷凍保存する",
    "pos": [
     "KB"
    ],
@@ -7761,7 +7526,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食品は適切な温度や環境で保管し、生の肉や魚は他の食品と分けて冷蔵・冷凍保存する",
    "pos": [
     "KB"
    ],
@@ -7780,7 +7544,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食品は適切な温度や環境で保管し、生の肉や魚は他の食品と分けて冷蔵・冷凍保存する",
    "pos": [
     "KB"
    ],
@@ -7799,7 +7562,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "食器や備品類の補充や整理整頓",
    "pos": [
     "KB"
    ],
@@ -7818,7 +7580,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "テーブルセッティング（ナプキン・食器・カトラリー・カスターなど）の確認",
    "pos": [
     "KB"
    ],
@@ -7837,7 +7598,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "調理場との料理内容やゲスト情報の確認",
    "pos": [
     "KB"
    ],
@@ -7856,7 +7616,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カスターセットの洗浄や補充",
    "pos": [
     "KB"
    ],
@@ -7912,7 +7671,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "シルバー：ナイフやフォークなど",
    "pos": [
     "KB"
    ],
@@ -7931,7 +7689,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "カスターセット：テーブル上の調味料などのセット",
    "pos": [
     "KB"
    ]
@@ -7967,7 +7724,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ェルカムドリンク：歓迎の意を示す飲み物",
    "pos": [
     "KB"
    ],
@@ -7986,7 +7742,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "メインディッシュ：食事の中心となる主要な料理",
    "pos": [
     "KB"
    ],
@@ -8005,7 +7760,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "メインディッシュ：食事の中心となる主要な料理",
    "pos": [
     "KB"
    ],
@@ -8024,7 +7778,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ラカルト：メニューから個々の料理を選んで注文するスタイル",
    "pos": [
     "KB"
    ]
@@ -8042,7 +7795,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ラカルト：メニューから個々の料理を選んで注文するスタイル",
    "pos": [
     "KB"
    ],
@@ -8061,7 +7813,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ソムリエ：ワインの専門的知識を持ち、最適なワインを提案する専門職",
    "pos": [
     "KB"
    ],
@@ -8080,7 +7831,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ソムリエ：ワインの専門的知識を持ち、最適なワインを提案する専門職",
    "pos": [
     "KSな"
    ],
@@ -8099,7 +7849,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "ソムリエ：ワインの専門的知識を持ち、最適なワインを提案する専門職",
    "pos": [
     "KB"
    ],
@@ -8118,7 +7867,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "テイクアウト：店内で食事をせずに持ち帰ること",
    "pos": [
     "KB"
    ],
@@ -8193,7 +7941,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "豚肉やアルコールを含まない",
    "pos": [
     "KB"
    ]
@@ -8325,7 +8072,7 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
+   "contoh": "日常から訓練を行い、想定されるリスクを理解し、対応をシミュレーションしておく必要があります。",
    "pos": [
     "KB",
     "KK"
@@ -8364,7 +8111,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
    "pos": [
     "KB"
    ],
@@ -8383,7 +8129,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
    "pos": [
     "KB",
     "KK"
@@ -8402,7 +8147,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や地震に関する避難訓練に参加し、万一の場合のお客様の安全確保に備える",
    "pos": [
     "KB"
    ],
@@ -8421,7 +8165,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "機器類（火災報知器、消火器、客室からの避難具など）の場所と使い方を正しく理解する",
    "pos": [
     "KB"
    ],
@@ -8440,7 +8183,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "機器類（火災報知器、消火器、客室からの避難具など）の場所と使い方を正しく理解する",
    "pos": [
     "KB"
    ],
@@ -8459,7 +8201,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "急病人の発生、事故、火災などの緊急事態について、各施設の対応マニュアルを理解し実行する",
    "pos": [
     "KB"
    ],
@@ -8478,7 +8219,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "急病人の発生、事故、火災などの緊急事態について、各施設の対応マニュアルを理解し実行する",
    "pos": [
     "KB"
    ],
@@ -8497,7 +8237,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "急病人の発生、事故、火災などの緊急事態について、各施設の対応マニュアルを理解し実行する",
    "pos": [
     "KB",
     "KK"
@@ -8517,7 +8256,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "病気や伝染病の危険性・感染の広がり・正確な対応方法の知識を得る",
    "pos": [
     "KB"
    ]
@@ -8535,7 +8273,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "病気や伝染病の危険性・感染の広がり・正確な対応方法の知識を得る",
    "pos": [
     "KB"
    ],
@@ -8554,7 +8291,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "病気や伝染病の危険性・感染の広がり・正確な対応方法の知識を得る",
    "pos": [
     "KB"
    ],
@@ -8573,7 +8309,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "病気や伝染病の危険性・感染の広がり・正確な対応方法の知識を得る",
    "pos": [
     "KB"
    ],
@@ -8592,7 +8327,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "病気や伝染病の危険性・感染の広がり・正確な対応方法の知識を得る",
    "pos": [
     "KB"
    ],
@@ -8611,7 +8345,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "持ち主がわからない不審物や不審人物がないか、常に館内の状態に目を配る",
    "pos": [
     "KB"
    ],
@@ -8630,7 +8363,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "持ち主がわからない不審物や不審人物がないか、常に館内の状態に目を配る",
    "pos": [
     "KB"
    ],
@@ -8649,7 +8381,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の個人情報（氏名、住所などプライバシーに関する情報）が流出しないよう細心の注意を払う",
    "pos": [
     "KB"
    ],
@@ -8668,7 +8399,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の個人情報（氏名、住所などプライバシーに関する情報）が流出しないよう細心の注意を払う",
    "pos": [
     "KB"
    ],
@@ -8687,7 +8417,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の個人情報（氏名、住所などプライバシーに関する情報）が流出しないよう細心の注意を払う",
    "pos": [
     "KB"
    ]
@@ -8705,7 +8434,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の個人情報（氏名、住所などプライバシーに関する情報）が流出しないよう細心の注意を払う",
    "pos": [
     "KB"
    ],
@@ -8724,7 +8452,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の個人情報（氏名、住所などプライバシーに関する情報）が流出しないよう細心の注意を払う",
    "pos": [
     "KB"
    ],
@@ -8762,7 +8489,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "タバコの吸い殻は適切に処理する",
    "pos": [
     "KB"
    ],
@@ -8781,7 +8507,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "タバコの吸い殻は適切に処理する",
    "pos": [
     "KB",
     "KK"
@@ -8839,7 +8564,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "盲導犬の受け入れを断ってはいけない",
    "pos": [
     "KB"
    ],
@@ -8858,7 +8582,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災を発見した場合は、速やかに初期消火を実施し、お客様を安全に避難させる",
    "pos": [
     "KB",
     "KK"
@@ -8878,7 +8601,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "地震が発生した場合は、絶対にエレベーターを使用せず、非常階段等で避難させる",
    "pos": [
     "KB"
    ]
@@ -8896,7 +8618,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "火災や急病人が出た場合は、消防署（119番）に連絡し、状況をできるだけ詳しく説明する",
    "pos": [
     "KB"
    ],
@@ -8915,7 +8636,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "常に清潔なユニフォームを着用し、頭髪や爪など身だしなみを衛生的に保つ",
    "pos": [
     "KB"
    ],
@@ -8934,7 +8654,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "常に清潔なユニフォームを着用し、頭髪や爪など身だしなみを衛生的に保つ",
    "pos": [
     "KB"
    ],
@@ -8953,7 +8672,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "常に清潔なユニフォームを着用し、頭髪や爪など身だしなみを衛生的に保つ",
    "pos": [
     "KB"
    ],
@@ -8972,7 +8690,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "常に清潔なユニフォームを着用し、頭髪や爪など身だしなみを衛生的に保つ",
    "pos": [
     "KSな"
    ],
@@ -8991,7 +8708,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "うがいや手洗いを普段から習慣づける",
    "pos": [
     "KB"
    ],
@@ -9010,7 +8726,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "うがいや手洗いを普段から習慣づける",
    "pos": [
     "KB"
    ],
@@ -9029,7 +8744,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "うがいや手洗いを普段から習慣づける",
    "pos": [
     "KB"
    ]
@@ -9047,7 +8761,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "床・壁・窓などのエクステリヤやテーブル・椅子・備品類のインテリアに汚れがないか常に確認し、すぐに清掃する",
    "pos": [
     "KB"
    ],
@@ -9066,7 +8779,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "床・壁・窓などのエクステリヤやテーブル・椅子・備品類のインテリアに汚れがないか常に確認し、すぐに清掃する",
    "pos": [
     "KB"
    ]
@@ -9084,7 +8796,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "毎日の天候（気温・湿度）に注意し、カビや害虫の発生防止に注意を払う",
    "pos": [
     "KB"
    ],
@@ -9103,7 +8814,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "毎日の天候（気温・湿度）に注意し、カビや害虫の発生防止に注意を払う",
    "pos": [
     "KB"
    ]
@@ -9121,7 +8831,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "毎日の天候（気温・湿度）に注意し、カビや害虫の発生防止に注意を払う",
    "pos": [
     "KB"
    ],
@@ -9140,7 +8849,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "毎日の天候（気温・湿度）に注意し、カビや害虫の発生防止に注意を払う",
    "pos": [
     "KB"
    ],
@@ -9178,7 +8886,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "フロント、ロビー、客室の空調設備、各種機器、器具、什器備品、内装などに不備がないかを常に確認し、発見したら速やかに施設担当者に連絡する",
    "pos": [
     "KB"
    ]
@@ -9196,7 +8903,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "フロント、ロビー、客室の空調設備、各種機器、器具、什器備品、内装などに不備がないかを常に確認し、発見したら速やかに施設担当者に連絡する",
    "pos": [
     "KB"
    ],
@@ -9215,7 +8921,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "フロント、ロビー、客室の空調設備、各種機器、器具、什器備品、内装などに不備がないかを常に確認し、発見したら速やかに施設担当者に連絡する",
    "pos": [
     "KB"
    ],
@@ -9234,7 +8939,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "フロント、ロビー、客室の空調設備、各種機器、器具、什器備品、内装などに不備がないかを常に確認し、発見したら速やかに施設担当者に連絡する",
    "pos": [
     "KB"
    ],
@@ -9253,7 +8957,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "手すりやスロープの設置などのリクエストは内容を記録し、施設担当者に提案する",
    "pos": [
     "KB"
    ],
@@ -9272,7 +8975,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "手すりやスロープの設置などのリクエストは内容を記録し、施設担当者に提案する",
    "pos": [
     "KB"
    ],
@@ -9291,7 +8993,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "手すりやスロープの設置などのリクエストは内容を記録し、施設担当者に提案する",
    "pos": [
     "KB"
    ],
@@ -9310,7 +9011,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の目に触れないスペースも整理整頓し、安全で働きやすい職場環境を維持する",
    "pos": [
     "KB"
    ],
@@ -9329,7 +9029,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の目に触れないスペースも整理整頓し、安全で働きやすい職場環境を維持する",
    "pos": [
     "KB"
    ],
@@ -9348,7 +9047,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "お客様の目に触れないスペースも整理整頓し、安全で働きやすい職場環境を維持する",
    "pos": [
     "KB"
    ],
@@ -9386,7 +9084,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "節電、節水などの省エネルギーに努める",
    "pos": [
     "KB"
    ],
@@ -9405,7 +9102,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "節電、節水などの省エネルギーに努める",
    "pos": [
     "KB"
    ],
@@ -9424,7 +9120,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "節電、節水などの省エネルギーに努める",
    "pos": [
     "KB"
    ],
@@ -9443,7 +9138,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "紙の無駄使いをなくし、捨てる時は分別に努める",
    "pos": [
     "KB"
    ],
@@ -9462,7 +9156,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境リサイクルや資源の節減について上司や担当者に提案する",
    "pos": [
     "KB"
    ]
@@ -9480,7 +9173,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境リサイクルや資源の節減について上司や担当者に提案する",
    "pos": [
     "KB"
    ],
@@ -9499,7 +9191,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境リサイクルや資源の節減について上司や担当者に提案する",
    "pos": [
     "KB"
    ],
@@ -9518,7 +9209,6 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "環境リサイクルや資源の節減について上司や担当者に提案する",
    "pos": [
     "KB"
    ],

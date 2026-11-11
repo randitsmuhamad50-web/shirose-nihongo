@@ -14,7 +14,7 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261112c";
+} from "./ssw-core.js?v=20261112d";
 import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
 
 let FB = null;
@@ -619,7 +619,7 @@ const SSW = window.SSW = {
     const pack = await loadPack(slug);
     const list = (pack.vocab || []).filter(v => v.kata && v.kata.length >= 2);
     if (!list.length) return;
-    const byRb = new Map(); for (const v of pack.vocab) for (const k of (v.rb || [])) if (!byRb.has(k)) byRb.set(k, v);
+    const byRb = new Map(); for (const v of pack.vocab) for (const k of (Array.isArray(v.rb) ? v.rb : [])) if (!byRb.has(k)) byRb.set(k, v);
     root.querySelectorAll("ruby").forEach((ru) => {
       if (ru.closest(".sw-w")) return;
       const k = [...ru.childNodes].filter(n => n.nodeType === 3).map(n => n.nodeValue).join("") + "|" + (ru.querySelector("rt")?.textContent || "");
