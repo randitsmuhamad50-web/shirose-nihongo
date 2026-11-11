@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """Bidang SSW accommodation (宿泊): 特定技能1号評価試験 宿泊分野 学習用テキスト (全旅連, 2024) — buku hanya bahasa Jepang.
-Tanpa gambar halaman (font Jepang PDF tidak ter-embed → tidak bisa dirender). Teks JP dari buku; ringkasan ID oleh Shirose."""
+Halaman buku = terjemahan resmi Indonesia (hotel_bahasa_indonesia.pdf, 52 hal., halaman sama dengan buku Jepang) → assets/ssw/accommodation/id/p01..p53 (p01 = salinan sampul). Teks JP dari buku Jepang; ringkasan ID oleh Shirose."""
 import os, sys, random
 sys.path.insert(0, os.path.dirname(__file__)); sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src", "accommodation"))
 from bidang_lib import vocab_item, vocab_quiz, write_pack
@@ -36,5 +36,5 @@ for i, (k, kana, arti, cat, bab, src) in enumerate(VOCAB, 1):
     w = vocab_item("ac", i, k, kana, arti, cat, bab, [src]); words.append(w)
 quiz["tema"].append(vocab_quiz("tema-kosakata1", {"id": "Kosakata penginapan (A)", "jp": "{語彙|ごい}"}, words, 3, 10))
 quiz["tema"].append(vocab_quiz("tema-kosakata2", {"id": "Kosakata penginapan (B)", "jp": "{語彙|ごい}"}, words, 4, 10))
-index = {"slug": "accommodation", "nama": "Accommodation (Penginapan)", "jp": "宿泊", "pages": {"jp": 52}, "book": "jp", "nobook": True}
+index = {"slug": "accommodation", "nama": "Accommodation (Penginapan)", "jp": "宿泊", "pages": {"id": 53}, "book": "id"}
 write_pack("accommodation", index, babs, words, quiz)

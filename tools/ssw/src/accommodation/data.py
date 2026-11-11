@@ -4,7 +4,7 @@ Teks JP = kutipan/penyusunan ulang dari buku; teks ID = ringkasan oleh Shirose (
 def H(t): return {"h": t}
 def P(t): return {"p": t}
 def U(*t): return {"ul": list(t)}
-NOTE = {"note": "Ringkasan Bahasa Indonesia ditulis Shirose dari buku Jepang 全旅連 (bukan terjemahan resmi). Pegangan utama untuk ujian: teks Jepang."}
+NOTE = {"note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks resmi Bahasa Indonesia pada halaman buku di bawah."}
 JNOTE = {"note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"}
 
 # (bab id, no, title_id, title_jp, intro_id, pages, subs)
