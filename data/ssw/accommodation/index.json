@@ -3,10 +3,9 @@
  "nama": "Accommodation (Penginapan)",
  "jp": "宿泊",
  "pages": {
-  "jp": 52
+  "id": 53
  },
- "book": "jp",
- "nobook": true,
+ "book": "id",
  "bab": [
   {
    "id": "bab1",
