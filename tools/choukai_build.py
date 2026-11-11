@@ -192,7 +192,7 @@ def main(levels):
         lvl, pk = m.group(1), int(m.group(2))
         data, errs = build(lvl, pk)
         all_errs += errs
-        if lvl == "n3":  # gambar adegan/pilihan (assets/jlpt/img); level lain menyusul
+        if True:  # gambar adegan/pilihan (assets/jlpt/img)
             sys.path.insert(0, os.path.join(ROOT, "tools", "jlpt_img"))
             from attach import attach
             for sec in data["sections"]:
