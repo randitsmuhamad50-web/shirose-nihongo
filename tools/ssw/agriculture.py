@@ -42,7 +42,7 @@ def build():
         babs.append({"schema": 1, "bidang": "agriculture", "source": SOURCE, "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
                      "bab": {"id": bid, "no": bi, "title": {"id": B["title"][0], "jp": B["title"][1]}, "intro": {"id": B["intro"], "jp": B["title"][1]},
                              "pages": [B["subs"][0]["pages"][0], B["subs"][-1]["pages"][1]], "subs": subs_out}})
-    index = {"slug": "agriculture", "nama": "Agriculture (Pertanian)", "jp": "農業", "book": "id", "pages": {"id": 102}}
+    index = {"slug": "agriculture", "nama": "Agriculture (Pertanian)", "jp": "農業", "book": "id", "pages": {"id": 103}}
     write_pack("agriculture", index, babs, vocab, quiz)
     print("soal tulis-tangan (unik):", nsoal)
 

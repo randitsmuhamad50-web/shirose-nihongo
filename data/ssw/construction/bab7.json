@@ -1,0 +1,141 @@
+{
+ "schema": 1,
+ "bidang": "construction",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori sipil: sipil_indo (151 hal.)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab7",
+  "no": 7,
+  "title": {
+   "id": "Keselamatan Pekerjaan Konstruksi",
+   "jp": "{建設|けんせつ}{工事|こうじ}の{安全|あんぜん}"
+  },
+  "intro": {
+   "id": "Kecelakaan fatal dan kegiatan keselamatan di lokasi.",
+   "jp": "{建設|けんせつ}{工事|こうじ}の{安全|あんぜん}"
+  },
+  "pages": [
+   135,
+   151
+  ],
+  "subs": [
+   {
+    "id": "b7s1",
+    "no": 1,
+    "title": {
+     "id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+     "jp": "{死亡災害|しぼうさいがい}"
+    },
+    "pages": [
+     135,
+     140
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Gambaran"
+      },
+      {
+       "ul": [
+        "Tahun 2021, korban jiwa kecelakaan kerja industri konstruksi: **288 orang**.",
+        "Penyebab terbanyak: **jatuh/terguling**, disusul runtuh/roboh, terjepit/terperangkap, kecelakaan lalu lintas, dan tertabrak.",
+        "Jatuh bisa terjadi dari tempat rendah (bak dump truck) atau ke lubang galian; pakai **full harness** di ketinggian."
+       ]
+      },
+      {
+       "h": "Pencegahan"
+      },
+      {
+       "ul": [
+        "Mesin konstruksi hanya untuk tujuannya; jangan berada di bawah beban gantung.",
+        "Jangan menaiki jalur selain yang ditentukan; jangan letakkan barang di lorong.",
+        "Pada backhoe: hindari area putar lengan dan bucket."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Penyebab fatal utama: jatuh, runtuh, terjepit, lalu lintas; pencegahan: harness, jarak dari mesin, jalur aman.",
+      "points": [
+       "Jatuh = penyebab terbanyak.",
+       "Jangan berdiri di bawah beban gantung.",
+       "Full harness di ketinggian."
+      ],
+      "avoid": [
+       "Berdiri di bawah beban gantung."
+      ],
+      "exam": [
+       "Penyebab fatal terbanyak."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b7s2",
+    "no": 2,
+    "title": {
+     "id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+     "jp": "{現場|げんば}の{安全活動|あんぜんかつどう}"
+    },
+    "pages": [
+     141,
+     151
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Siklus pelaksanaan konstruksi yang aman (harian)"
+      },
+      {
+       "ol": [
+        "Apel pagi keselamatan.",
+        "Rapat keselamatan.",
+        "Inspeksi sebelum mulai bekerja.",
+        "Bimbingan dan pengawasan selama bekerja.",
+        "Patroli keselamatan.",
+        "Rapat proses keselamatan.",
+        "Membereskan tempat kerja sendiri.",
+        "Konfirmasi keselamatan di akhir pekerjaan."
+       ]
+      },
+      {
+       "h": "Pendidikan dan peralatan"
+      },
+      {
+       "ul": [
+        "**Pendatang baru**: hampir separuh korban jiwa terjadi dalam seminggu pertama; pendidikan pendatang baru ± **30 menit**.",
+        "**Full harness** wajib bila tinggi kerja > **6,75 m** (sejak 2 Januari 2022); di konstruksi dipakai sejak > **5 m**.",
+        "Sarung tangan **tidak boleh** dipakai di dekat mata pisau berputar (gergaji bundar, bor).",
+        "**Sengatan panas**: hari > 30 ℃ (musim panas) dan > 35 ℃ (hari sangat panas); istirahat, minum air dan garam."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Keselamatan dijaga lewat siklus harian, pendidikan pendatang baru, APD, dan pencegahan sengatan panas.",
+      "points": [
+       "Siklus aman: 8 langkah harian.",
+       "Pendatang baru berisiko tinggi seminggu pertama.",
+       "Harness > 6,75 m (konstruksi > 5 m).",
+       "Sengatan panas: istirahat dan minum air + garam."
+      ],
+      "avoid": [
+       "Memakai sarung tangan dekat mata pisau berputar."
+      ],
+      "exam": [
+       "Angka 6,75 m, 5 m, 30 ℃ dan 35 ℃."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

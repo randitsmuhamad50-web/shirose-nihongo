@@ -56,7 +56,7 @@ def build():
         babs.append({"schema": 1, "bidang": "food-manufacturing", "source": SOURCE, "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
                      "bab": {"id": bid, "no": bi, "title": {"id": B["title"][0], "jp": B["title"][1]}, "intro": {"id": B["intro"], "jp": B["title"][1]},
                              "pages": [B["subs"][0]["pages"][0], B["subs"][-1]["pages"][1]], "subs": subs_out}})
-    index = {"slug": "food-manufacturing", "nama": "Food Manufacturing", "jp": "飲食料品製造業", "book": "jp", "pages": {"jp": 82}}
+    index = {"slug": "food-manufacturing", "nama": "Food Manufacturing", "jp": "飲食料品製造業", "book": "jp", "pages": {"jp": 83}}
     write_pack("food-manufacturing", index, babs, vocab, quiz)
     print("soal tulis-tangan:", nsoal, "| kosakata per bab:", {b["id"]: sum(1 for w in vocab if w["bab"] == b["id"]) for b in BABS})
 

@@ -1,0 +1,174 @@
+{
+ "schema": 1,
+ "bidang": "construction-bangunan",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori bangunan: building_indo (152 hal.)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab4",
+  "no": 4,
+  "title": {
+   "id": "Salam, Istilah, dan Kehidupan Bersama",
+   "jp": "あいさつ・{用語|ようご}・{共同生活|きょうどうせいかつ}"
+  },
+  "intro": {
+   "id": "Salam dan panggilan darurat, istilah lokasi konstruksi, 5S dan aturan pos pekerja.",
+   "jp": "あいさつ・{用語|ようご}・{共同生活|きょうどうせいかつ}"
+  },
+  "pages": [
+   60,
+   77
+  ],
+  "subs": [
+   {
+    "id": "b4s1",
+    "no": 1,
+    "title": {
+     "id": "Salam dan Panggilan Darurat",
+     "jp": "あいさつと{緊急|きんきゅう}の{呼|よ}びかけ"
+    },
+    "pages": [
+     60,
+     61
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Selamat pagi**: sapaan dasar pagi hari.",
+        "**Goanzen ni** (semoga selamat): mengharapkan keselamatan sendiri dan orang lain; dipakai di akhir apel pagi.",
+        "**Otsukare-sama desu**: menghargai kerja keras; dipakai di mana saja tempat orang bekerja.",
+        "**Gokuro-sama**: sebaiknya tidak dipakai untuk orang yang lebih tua/atasan; tanggapi dengan “Terima kasih” bila diucapkan kepada Anda.",
+        "**Shitsurei shimasu** (permisi): saat masuk ruangan atau menyela; **Osaki ni shitsurei shimasu** saat pulang lebih dulu.",
+        "**Abunai** (bahaya!): seruan darurat."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Salam yang tepat membuat suasana kerja baik dan aman.",
+      "points": [
+       "Goanzen ni = semoga selamat.",
+       "Otsukare-sama desu = terima kasih atas kerja kerasnya.",
+       "Gokuro-sama jangan untuk atasan.",
+       "Abunai = bahaya."
+      ],
+      "avoid": [
+       "Memakai Gokuro-sama kepada atasan."
+      ],
+      "exam": [
+       "Arti tiap salam."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b4s2",
+    "no": 2,
+    "title": {
+     "id": "Istilah di Lokasi Konstruksi",
+     "jp": "{現場|げんば}の{用語|ようご}"
+    },
+    "pages": [
+     62,
+     73
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Subbab ini menjelaskan istilah yang harus dipahami saat bekerja di bawah arahan mandor atau senior: penandaan (sumi, yarikata), pondasi, rebar, perancah, bekisting, dan lain-lain. Daftar istilah juga tersedia di menu Kosakata."
+      },
+      {
+       "h": "Istilah penandaan (contoh)"
+      },
+      {
+       "ul": [
+        "**Tinta referensi**: garis lurus horizontal/vertikal yang menjadi acuan membangun.",
+        "**Garis pusat**: garis yang melewati pusat dinding atau tiang.",
+        "**Yarikata**: pagar sementara agar garis acuan dan tinggi acuan terlihat."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Memahami istilah lokasi memperlancar komunikasi dan menjaga keselamatan.",
+      "points": [
+       "Tinta referensi = acuan garis.",
+       "Yarikata = pagar sementara pembawa acuan."
+      ],
+      "avoid": [
+       "Berpura-pura paham istilah."
+      ],
+      "exam": [
+       "Istilah penandaan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b4s3",
+    "no": 3,
+    "title": {
+     "id": "Hal yang Perlu Diperhatikan dalam Kehidupan Bersama",
+     "jp": "{共同生活|きょうどうせいかつ}の{注意|ちゅうい}"
+    },
+    "pages": [
+     74,
+     77
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Kegiatan 5S"
+      },
+      {
+       "ul": [
+        "**Seiri** (ringkas): pisahkan yang perlu dan tidak perlu.",
+        "**Seiton** (rapi): letakkan di tempat yang ditentukan.",
+        "**Seisou** (resik): bersihkan setelah bekerja.",
+        "**Seiketsu** (rawat): jaga keadaan tetap ringkas, rapi, resik.",
+        "**Shitsuke** (rajin): patuhi aturan yang ditetapkan."
+       ]
+      },
+      {
+       "h": "Pos pekerja"
+      },
+      {
+       "ul": [
+        "Merokok hanya di tempat yang ditentukan; tidak membuang sampah sembarangan.",
+        "Helm dan sabuk pengaman diletakkan di tempat yang ditentukan; barang pribadi dalam loker.",
+        "Cuci tangan, desinfeksi, dan berkumur saat masuk-keluar; lihat papan buletin."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "5S dan aturan pos pekerja menjaga lokasi aman dan nyaman.",
+      "points": [
+       "5S: Seiri, Seiton, Seisou, Seiketsu, Shitsuke.",
+       "Merokok hanya di tempat yang ditentukan.",
+       "Cuci tangan saat masuk/keluar pos."
+      ],
+      "avoid": [
+       "Merokok sembunyi-sembunyi."
+      ],
+      "exam": [
+       "Urutan dan arti 5S."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,150 @@
+{
+ "schema": 1,
+ "bidang": "construction",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori sipil: sipil_indo (151 hal.)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab5",
+  "no": 5,
+  "title": {
+   "id": "Alat, Mesin, Material, dan Alat Ukur",
+   "jp": "{道具|どうぐ}・{機械|きかい}・{材料|ざいりょう}"
+  },
+  "intro": {
+   "id": "Alat, mesin, material dan alat ukur khusus tiap pekerjaan serta yang umum.",
+   "jp": "{道具|どうぐ}・{機械|きかい}・{材料|ざいりょう}"
+  },
+  "pages": [
+   78,
+   105
+  ],
+  "subs": [
+   {
+    "id": "b5s1",
+    "no": 1,
+    "title": {
+     "id": "Alat dan Material Khusus per Pekerjaan",
+     "jp": "{専門|せんもん}{工事|こうじ}の{道具|どうぐ}"
+    },
+    "pages": [
+     78,
+     94
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat, mesin, material, dan alat ukur khusus tiap pekerjaan khusus."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Mesin konstruksi (hal. 78)",
+        "Pekerjaan terowongan propulsi (hal. 79)",
+        "Pekerjaan teknik sipil kelautan (hal. 81)",
+        "Pekerjaan pengeboran sumur (hal. 82)",
+        "Pekerjaan titik sumur (hal. 83)",
+        "Pekerjaan perkerasan (hal. 83)",
+        "Pekerjaan tiang pancang (hal. 83)",
+        "Pekerjaan rangka baja (hal. 86)",
+        "Pekerjaan rebar (hal. 87)",
+        "Pekerjaan sambungan rebar (hal. 88)",
+        "Pekerjaan las (hal. 90)",
+        "Pekerjaan bekisting (hal. 90)",
+        "Pekerjaan pemompaan beton (hal. 92)"
+       ]
+      },
+      {
+       "h": "Contoh mesin konstruksi (dari buku)"
+      },
+      {
+       "ul": [
+        "**Crane**: mengangkat dan memindahkan beban; jenis tower crane, rough terrain crane, crawler crane.",
+        "**Tower crane**: untuk gedung tinggi; bagian crane naik bersama tiang (mast climbing) atau bersama bangunan (floor climbing).",
+        "**Ekskavator hidrolik (backhoe)**: menggali dan memuat dengan boom, arm, dan bucket; attachment bisa diganti (breaker, ripper, crusher).",
+        "**Perancah jenis pengikat baji**: dirakit dan dibongkar dengan satu palu; material galvanis tahan karat."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat, mesin, material, dan alat ukur khusus tiap pekerjaan khusus.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s2",
+    "no": 2,
+    "title": {
+     "id": "Alat, Mesin, dan Material Umum",
+     "jp": "{共通|きょうつう}の{道具|どうぐ}"
+    },
+    "pages": [
+     95,
+     105
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat umum: alat listrik, penggali, penanda, pengukur, pemotong, pengencang, pengangkut, tangga."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pekerjaan lanskap (hal. 95)",
+        "Alat listrik (hal. 95)",
+        "Menggali/meratakan/memadatkan dan mengencangkan (hal. 96)",
+        "Penandaan dan menandakan (hal. 97)",
+        "Mengukur dan memeriksa (hal. 98)",
+        "Memotong/menekuk/memangkas (hal. 99)",
+        "Mengikis/memoles/mengebor (hal. 100)",
+        "Mengetatkan/mengencangkan (hal. 101)",
+        "Menguleni/mencampur (hal. 102)",
+        "Merawat (hal. 102)",
+        "Menghilangkan kotoran (hal. 102)",
+        "Mengangkut barang (hal. 103)",
+        "Menggantung/mengangkat/menarik (hal. 103)",
+        "Alas kerja/tangga (hal. 104)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat umum: alat listrik, penggali, penanda, pengukur, pemotong, pengencang, pengangkut, tangga.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

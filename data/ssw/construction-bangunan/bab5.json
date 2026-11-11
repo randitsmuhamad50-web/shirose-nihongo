@@ -1,0 +1,200 @@
+{
+ "schema": 1,
+ "bidang": "construction-bangunan",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori bangunan: building_indo (152 hal.)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab5",
+  "no": 5,
+  "title": {
+   "id": "Alat, Mesin, Material, dan Alat Ukur",
+   "jp": "{道具|どうぐ}・{機械|きかい}・{材料|ざいりょう}"
+  },
+  "intro": {
+   "id": "Pekerjaan kerangka, interior dan eksterior, serta alat dan material umum.",
+   "jp": "{道具|どうぐ}・{機械|きかい}・{材料|ざいりょう}"
+  },
+  "pages": [
+   78,
+   107
+  ],
+  "subs": [
+   {
+    "id": "b5s1",
+    "no": 1,
+    "title": {
+     "id": "Pekerjaan Kerangka",
+     "jp": "{躯体|くたい}{工事|こうじ}"
+    },
+    "pages": [
+     78,
+     88
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat dan material pekerjaan kerangka: mesin konstruksi, perancah, rangka baja, rebar, las, bekisting, beton."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Mesin konstruksi (hal. 78)",
+        "Pekerjaan rangka baja (hal. 81)",
+        "Pekerjaan rebar (hal. 82)",
+        "Pekerjaan sambungan rebar (hal. 83)",
+        "Pekerjaan las (hal. 84)",
+        "Pekerjaan bekisting (hal. 85)",
+        "Pekerjaan pemompaan beton (hal. 87)",
+        "Pekerjaan pertukangan konstruksi (hal. 88)"
+       ]
+      },
+      {
+       "h": "Contoh mesin konstruksi (dari buku)"
+      },
+      {
+       "ul": [
+        "**Crane**: mengangkat dan memindahkan beban; jenis tower crane, rough terrain crane, crawler crane.",
+        "**Tower crane**: untuk gedung tinggi; bagian crane naik bersama tiang (mast climbing) atau bersama bangunan (floor climbing).",
+        "**Ekskavator hidrolik (backhoe)**: menggali dan memuat dengan boom, arm, dan bucket; attachment bisa diganti (breaker, ripper, crusher).",
+        "**Perancah jenis pengikat baji**: dirakit dan dibongkar dengan satu palu; material galvanis tahan karat."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat dan material pekerjaan kerangka: mesin konstruksi, perancah, rangka baja, rebar, las, bekisting, beton.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s2",
+    "no": 2,
+    "title": {
+     "id": "Pekerjaan Interior dan Eksterior",
+     "jp": "{内装|ないそう}・{外装|がいそう}{工事|こうじ}"
+    },
+    "pages": [
+     89,
+     96
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat dan material plesteran, pengecatan, atap, ubin, finishing interior, fitting, sash, anti air."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pekerjaan plesteran (hal. 89)",
+        "Pekerjaan pengecatan (hal. 90)",
+        "Pekerjaan atap (hal. 91)",
+        "Pekerjaan pemasangan ubin (hal. 92)",
+        "Pekerjaan finishing interior (hal. 93)",
+        "Pekerjaan pemajangan (hal. 94)",
+        "Pekerjaan fitting (hal. 95)",
+        "Pekerjaan sash (hal. 95)",
+        "Pekerjaan isolasi uretan semprot (hal. 95)",
+        "Pekerjaan anti air (hal. 95)",
+        "Pekerjaan pemasangan batu (hal. 96)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat dan material plesteran, pengecatan, atap, ubin, finishing interior, fitting, sash, anti air.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s3",
+    "no": 3,
+    "title": {
+     "id": "Alat, Mesin, dan Material Umum",
+     "jp": "{共通|きょうつう}の{道具|どうぐ}"
+    },
+    "pages": [
+     97,
+     107
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat umum untuk semua pekerjaan bangunan."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Alat listrik (hal. 97)",
+        "Menggali/meratakan/memadatkan dan mengencangkan (hal. 98)",
+        "Penandaan dan menandakan (hal. 99)",
+        "Mengukur dan memeriksa (hal. 99)",
+        "Memotong/menekuk/memangkas (hal. 101)",
+        "Memukul/mencabut (hal. 102)",
+        "Mengikis/memoles/mengebor (hal. 102)",
+        "Mengetatkan/mengencangkan (hal. 103)",
+        "Menguleni/mencampur (hal. 103)",
+        "Merawat (hal. 104)",
+        "Menghilangkan kotoran (hal. 104)",
+        "Mengangkut barang (hal. 104)",
+        "Alas kerja/tangga (hal. 106)",
+        "Membersihkan (hal. 107)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat umum untuk semua pekerjaan bangunan.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,287 @@
+{
+ "schema": 1,
+ "bidang": "construction-lifeline",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori lifeline: Textbook THEORY_ID (hal. 1–117) + PRACTICE_ID hal. 5–98 (hal. 118–211)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Jenis dan Tugas Pekerjaan Konstruksi",
+   "jp": "{工事|こうじ}の{種類|しゅるい}と{仕事|しごと}"
+  },
+  "intro": {
+   "id": "Jenis pekerjaan, 37 pekerjaan khusus utama, dan kualifikasi.",
+   "jp": "{工事|こうじ}の{種類|しゅるい}と{仕事|しごと}"
+  },
+  "pages": [
+   34,
+   94
+  ],
+  "subs": [
+   {
+    "id": "b3s1",
+    "no": 1,
+    "title": {
+     "id": "Jenis Pekerjaan Konstruksi",
+     "jp": "{工事|こうじ}の{種類|しゅるい}"
+    },
+    "pages": [
+     34,
+     47
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pekerjaan teknik sipil"
+      },
+      {
+       "ul": [
+        "**Bendungan**: dua tujuan — pengendalian banjir dan pemanfaatan air.",
+        "**Sungai/pantai**: pemecah gelombang, tembok laut, tanggul, perlindungan tepian sungai.",
+        "**Jalan**: perkerasan aspal/semen, rambu, marka, trotoar, penerangan.",
+        "**Terowongan**: ada 4 jenis — **gunung (NATM)**, **terbuka**, **perisai (shield)**, dan **propulsi**.",
+        "**Jembatan penyeberangan perairan**: dibangun dalam dua tahap, konstruksi bawah (fondasi) dan atas (badan jembatan)."
+       ]
+      },
+      {
+       "h": "Lainnya"
+      },
+      {
+       "p": "Buku juga membahas pekerjaan teknik sipil kelautan, pekerjaan arsitektur/bangunan, dan lifeline serta peralatan. Baca halaman buku untuk gambar dan penjelasannya."
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jenis pekerjaan: bendungan, sungai/pantai, jalan, terowongan, jembatan, kelautan, bangunan, lifeline.",
+      "points": [
+       "Bendungan: pengendalian banjir + pemanfaatan air.",
+       "Terowongan: gunung, terbuka, perisai, propulsi.",
+       "NATM = shotcrete + penopang baja + baut batuan."
+      ],
+      "avoid": [
+       "Menyamakan semua metode terowongan."
+      ],
+      "exam": [
+       "Empat jenis terowongan dan fungsi bendungan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s2",
+    "no": 2,
+    "title": {
+     "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+     "jp": "{主要専門工事|しゅようせんもんこうじ}①"
+    },
+    "pages": [
+     48,
+     56
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pekerjaan pada subbab ini (3.2.1–3.2.9)"
+      },
+      {
+       "ul": [
+        "Pekerjaan tanah (hal. 48)",
+        "Pekerjaan terowongan propulsi (hal. 49)",
+        "Pekerjaan teknik sipil kelautan (hal. 50)",
+        "Pekerjaan pengeboran sumur (hal. 51)",
+        "Pekerjaan titik sumur (hal. 52)",
+        "Pekerjaan perkerasan (hal. 53)",
+        "Pekerjaan tanah mekanis (hal. 53)",
+        "Pekerjaan tiang pancang (hal. 55)",
+        "Pekerjaan perancah (hal. 56)"
+       ]
+      },
+      {
+       "p": "Tiap pekerjaan dijelaskan dengan gambar dan contoh di halaman buku; baca terutama pekerjaan yang akan kamu kerjakan."
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Daftar pekerjaan khusus utama (3.2.1–3.2.9): tanah, terowongan propulsi, teknik sipil kelautan, pengeboran sumur, dan lainnya.",
+      "points": [
+       "Tiap pekerjaan punya alat, bahan, dan bahaya sendiri.",
+       "Rujuk halaman buku untuk gambar dan contohnya."
+      ],
+      "avoid": [
+       "Mengerjakan pekerjaan tanpa mengetahui bahayanya."
+      ],
+      "exam": [
+       "Nama dan ruang lingkup tiap pekerjaan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s3",
+    "no": 3,
+    "title": {
+     "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+     "jp": "{主要専門工事|しゅようせんもんこうじ}②"
+    },
+    "pages": [
+     57,
+     67
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pekerjaan pada subbab ini (3.2.10–3.2.20)"
+      },
+      {
+       "ul": [
+        "Pekerjaan rangka baja (hal. 57)",
+        "Pekerjaan rebar (hal. 58)",
+        "Pekerjaan sambungan rebar (hal. 59)",
+        "Pekerjaan las (hal. 60)",
+        "Pekerjaan bekisting (hal. 61)",
+        "Pekerjaan pemompaan beton (hal. 62)",
+        "Pekerjaan pengecatan (hal. 63)",
+        "Pekerjaan lanskap (hal. 64)",
+        "Pekerjaan plesteran (hal. 65)",
+        "Pekerjaan pertukangan konstruksi (hal. 66)",
+        "Pekerjaan atap (hal. 67)"
+       ]
+      },
+      {
+       "p": "Tiap pekerjaan dijelaskan dengan gambar dan contoh di halaman buku; baca terutama pekerjaan yang akan kamu kerjakan."
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Daftar pekerjaan khusus utama (3.2.10–3.2.20): rangka baja, rebar, sambungan rebar, las, dan lainnya.",
+      "points": [
+       "Tiap pekerjaan punya alat, bahan, dan bahaya sendiri.",
+       "Rujuk halaman buku untuk gambar dan contohnya."
+      ],
+      "avoid": [
+       "Mengerjakan pekerjaan tanpa mengetahui bahayanya."
+      ],
+      "exam": [
+       "Nama dan ruang lingkup tiap pekerjaan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s4",
+    "no": 4,
+    "title": {
+     "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+     "jp": "{主要専門工事|しゅようせんもんこうじ}③"
+    },
+    "pages": [
+     68,
+     81
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pekerjaan pada subbab ini (3.2.21–3.2.37)"
+      },
+      {
+       "ul": [
+        "Pekerjaan pelat logam arsitektur (hal. 68)",
+        "Pekerjaan pemasangan ubin (hal. 69)",
+        "Pekerjaan finishing interior (hal. 70)",
+        "Pekerjaan pemajangan (hal. 71)",
+        "Pekerjaan fitting (hal. 72)",
+        "Pekerjaan sash (hal. 72)",
+        "Pekerjaan isolasi uretan semprot (hal. 73)",
+        "Pekerjaan anti air (hal. 74)",
+        "Pekerjaan pemasangan batu (hal. 75)",
+        "Pekerjaan peralatan listrik (hal. 75)",
+        "Pekerjaan telekomunikasi (hal. 77)",
+        "Pekerjaan pemipaan (hal. 78)",
+        "Pekerjaan peralatan pendingin dan pengatur udara (hal. 78)",
+        "Pekerjaan peralatan suplai air, drainase dan kebersihan (hal. 79)",
+        "Pekerjaan menjaga suhu panas dan dingin (hal. 80)",
+        "Pekerjaan pembuatan tungku (hal. 80)",
+        "Pekerjaan peralatan pemadam kebakaran (hal. 81)"
+       ]
+      },
+      {
+       "p": "Tiap pekerjaan dijelaskan dengan gambar dan contoh di halaman buku; baca terutama pekerjaan yang akan kamu kerjakan."
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Daftar pekerjaan khusus utama (3.2.21–3.2.37): pelat logam arsitektur, pemasangan ubin, finishing interior, pemajangan, dan lainnya.",
+      "points": [
+       "Tiap pekerjaan punya alat, bahan, dan bahaya sendiri.",
+       "Rujuk halaman buku untuk gambar dan contohnya."
+      ],
+      "avoid": [
+       "Mengerjakan pekerjaan tanpa mengetahui bahayanya."
+      ],
+      "exam": [
+       "Nama dan ruang lingkup tiap pekerjaan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s5",
+    "no": 5,
+    "title": {
+     "id": "Kualifikasi yang Diperlukan",
+     "jp": "{必要|ひつよう}な{資格|しかく}"
+    },
+    "pages": [
+     82,
+     94
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Tiga jenis kualifikasi menurut UU Keselamatan dan Kesehatan Kerja: **izin nasional**, **pelatihan keterampilan**, dan **pendidikan khusus**.",
+        "Pelatihan keterampilan dilakukan organisasi terdaftar di dinas tenaga kerja prefektur.",
+        "Pekerjaan yang diatur UU memerlukan **kepala operasi** di lapangan untuk mengawasi pekerja."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pekerjaan tertentu tidak boleh dikerjakan tanpa izin, pelatihan keterampilan, atau pendidikan khusus.",
+      "points": [
+       "Tiga jenis: izin, pelatihan keterampilan, pendidikan khusus.",
+       "Kepala operasi mengawasi pekerjaan yang diatur UU."
+      ],
+      "avoid": [
+       "Mengoperasikan mesin tanpa kualifikasi."
+      ],
+      "exam": [
+       "Tiga jenis kualifikasi."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

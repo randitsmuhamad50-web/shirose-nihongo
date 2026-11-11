@@ -1,0 +1,2038 @@
+{
+"sipil": [
+[
+4,
+"1.5.1",
+"Apel pagi umum"
+],
+[
+6,
+"1.5.2",
+"Apel pagi berdasarkan jenis pekerjaan"
+],
+[
+8,
+"2.1.1",
+"UU Standar Ketenagakerjaan"
+],
+[
+10,
+"2.1.2",
+"UU Keselamatan dan Kesehatan Kerja"
+],
+[
+12,
+"2.1.3",
+"Undang-Undang Upah Minimum"
+],
+[
+13,
+"2.1.4",
+"Undang-Undang Asuransi Ganti Rugi Kecelakaan Kerja (Asuransi"
+],
+[
+13,
+"2.1.5",
+"Undang-Undang Asuransi Ketenagakerjaan"
+],
+[
+14,
+"2.1.6",
+"Undang-Undang Peningkatan Perekrutan Pekerja Konstruksi"
+],
+[
+15,
+"2.1.7",
+"Undang-Undang Promosi Pengembangan Kemampuan Profesi"
+],
+[
+22,
+"3.1.1",
+"Pekerjaan teknik sipil"
+],
+[
+26,
+"3.1.2",
+"Pekerjaan arsitektur"
+],
+[
+29,
+"3.1.3",
+"Pekerjaan lifeline/peralatan"
+],
+[
+33,
+"3.2.1",
+"Pekerjaan tanah"
+],
+[
+34,
+"3.2.2",
+"Pekerjaan terowongan propulsi"
+],
+[
+35,
+"3.2.3",
+"Pekerjaan teknik sipil kelautan"
+],
+[
+36,
+"3.2.4",
+"Pekerjaan pengeboran sumur"
+],
+[
+36,
+"3.2.5",
+"Pekerjaan titik sumur"
+],
+[
+37,
+"3.2.6",
+"Pekerjaan perkerasan"
+],
+[
+38,
+"3.2.7",
+"Pekerjaan tanah mekanis"
+],
+[
+39,
+"3.2.8",
+"Pekerjaan tiang pancang"
+],
+[
+39,
+"3.2.9",
+"Pekerjaan perancah"
+],
+[
+40,
+"3.2.10",
+"Pekerjaan rangka baja"
+],
+[
+41,
+"3.2.11",
+"Pekerjaan rebar"
+],
+[
+42,
+"3.2.12",
+"Pekerjaan sambungan rebar"
+],
+[
+43,
+"3.2.13",
+"Pekerjaan las"
+],
+[
+43,
+"3.2.14",
+"Pekerjaan bekisting"
+],
+[
+44,
+"3.2.15",
+"Pekerjaan pemompaan beton"
+],
+[
+45,
+"3.2.16",
+"Pekerjaan pengecatan"
+],
+[
+45,
+"3.2.17",
+"Pekerjaan lanskap"
+],
+[
+46,
+"3.2.18",
+"Pekerjaan plesteran"
+],
+[
+47,
+"3.2.19",
+"Pekerjaan pertukangan konstruksi"
+],
+[
+47,
+"3.2.20",
+"Pekerjaan atap"
+],
+[
+48,
+"3.2.21",
+"Pekerjaan pelat logam arsitektur"
+],
+[
+49,
+"3.2.22",
+"Pekerjaan pemasangan ubin"
+],
+[
+50,
+"3.2.23",
+"Pekerjaan finishing interior"
+],
+[
+51,
+"3.2.24",
+"Pekerjaan pemajangan"
+],
+[
+52,
+"3.2.25",
+"Pekerjaan fitting"
+],
+[
+52,
+"3.2.26",
+"Pekerjaan sash"
+],
+[
+52,
+"3.2.27",
+"Pekerjaan isolasi uretan semprot"
+],
+[
+53,
+"3.2.28",
+"Pekerjaan anti air"
+],
+[
+54,
+"3.2.29",
+"Pekerjaan pemasangan batu"
+],
+[
+54,
+"3.2.30",
+"Pekerjaan peralatan listrik"
+],
+[
+55,
+"3.2.31",
+"Pekerjaan telekomunikasi"
+],
+[
+56,
+"3.2.32",
+"Pekerjaan pemipaan"
+],
+[
+56,
+"3.2.33",
+"Pekerjaan peralatan pendingin dan pengatur udara"
+],
+[
+57,
+"3.2.34",
+"Pekerjaan peralatan suplai air, drainase dan kebersihan"
+],
+[
+57,
+"3.2.35",
+"Pekerjaan menjaga suhu panas dan dingin"
+],
+[
+57,
+"3.2.36",
+"Pekerjaan pembuatan tungku"
+],
+[
+58,
+"3.2.37",
+"Pekerjaan peralatan pemadam kebakaran"
+],
+[
+59,
+"3.3.1",
+"Jenis kualifikasi berdasarkan UU Keselamatan dan Kesehatan Kerja"
+],
+[
+60,
+"4.1.1",
+"“Selamat pagi”"
+],
+[
+60,
+"4.1.2",
+"“Goanzen ni” (Semoga selamat)"
+],
+[
+61,
+"4.1.3",
+"“Otsukare-sama desu” (Terima kasih atas kerja kerasnya)"
+],
+[
+61,
+"4.1.4",
+"“Gokuro-sama”"
+],
+[
+61,
+"4.1.5",
+"“Shitsurei shimasu” (Permisi)"
+],
+[
+62,
+"4.1.6",
+"“Abunai” (Bahaya)"
+],
+[
+62,
+"4.2.1",
+"Istilah terkait dengan penandaan"
+],
+[
+64,
+"4.2.2",
+"Istilah terkait “yarikata” (cara mengerjakan)"
+],
+[
+64,
+"4.2.3",
+"Istilah terkait pekerjaan tanah"
+],
+[
+66,
+"4.2.4",
+"Istilah terkait pekerjaan tanah dan fondasi"
+],
+[
+67,
+"4.2.5",
+"Istilah terkait perancah dan konstruksi sementara"
+],
+[
+67,
+"4.2.6",
+"Istilah terkait pekerjaan rebar, bekisting, dan pengecoran beton"
+],
+[
+68,
+"4.2.7",
+"Istilah yang menyatakan fitting dan kondisi"
+],
+[
+70,
+"4.2.8",
+"Istilah terkait panjang, luas, dan lebar"
+],
+[
+70,
+"4.2.9",
+"Istilah untuk struktur bangunan"
+],
+[
+71,
+"4.2.10",
+"Istilah terkait pekerjaan listrik dan pekerjaan telekomunikasi"
+],
+[
+73,
+"4.2.11",
+"Istilah yang digunakan dalam pekerjaan lifeline dan peralatan"
+],
+[
+74,
+"4.3.1",
+"Kegiatan 5S"
+],
+[
+74,
+"4.3.2",
+"Pos pekerja"
+],
+[
+76,
+"4.3.3",
+"Hal-hal yang perlu diperhatikan tentang pakaian"
+],
+[
+76,
+"4.3.4",
+"Penggunaan bahasa"
+],
+[
+77,
+"4.3.5",
+"Pemberesan"
+],
+[
+78,
+"5.1.1",
+"Mesin konstruksi"
+],
+[
+79,
+"5.1.2",
+"Pekerjaan terowongan propulsi"
+],
+[
+81,
+"5.1.3",
+"Pekerjaan teknik sipil kelautan"
+],
+[
+82,
+"5.1.4",
+"Pekerjaan pengeboran sumur"
+],
+[
+83,
+"5.1.5",
+"Pekerjaan titik sumur"
+],
+[
+83,
+"5.1.6",
+"Pekerjaan perkerasan"
+],
+[
+83,
+"5.1.7",
+"Pekerjaan tiang pancang"
+],
+[
+86,
+"5.1.9",
+"Pekerjaan rangka baja"
+],
+[
+87,
+"5.1.10",
+"Pekerjaan rebar"
+],
+[
+88,
+"5.1.11",
+"Pekerjaan sambungan rebar"
+],
+[
+90,
+"5.1.12",
+"Pekerjaan las"
+],
+[
+90,
+"5.1.13",
+"Pekerjaan bekisting"
+],
+[
+92,
+"5.1.14",
+"Pekerjaan pemompaan beton"
+],
+[
+93,
+"5.2.15",
+"Pekerjaan pengecatan"
+],
+[
+95,
+"5.2.16",
+"Pekerjaan lanskap"
+],
+[
+95,
+"5.2.1",
+"Alat listrik"
+],
+[
+96,
+"5.2.2",
+"Menggali/meratakan/memadatkan dan mengencangkan"
+],
+[
+97,
+"5.2.3",
+"Penandaan dan menandakan"
+],
+[
+98,
+"5.2.4",
+"Mengukur dan memeriksa"
+],
+[
+99,
+"5.2.5",
+"Memotong/menekuk/memangkas"
+],
+[
+100,
+"5.3.6",
+"Memukul/mencabut"
+],
+[
+100,
+"5.2.7",
+"Mengikis/memoles/mengebor"
+],
+[
+101,
+"5.2.8",
+"Mengetatkan/mengencangkan"
+],
+[
+102,
+"5.2.9",
+"Menguleni/mencampur"
+],
+[
+102,
+"5.2.10",
+"Merawat"
+],
+[
+102,
+"5.2.11",
+"Menghilangkan kotoran"
+],
+[
+103,
+"5.2.12",
+"Mengangkut barang"
+],
+[
+103,
+"5.2.13",
+"Menggantung/mengangkat/menarik"
+],
+[
+104,
+"5.2.14",
+"Alas kerja/tangga"
+],
+[
+106,
+"6.1.1",
+"Karakteristik pekerjaan konstruksi"
+],
+[
+107,
+"6.1.2",
+"Rencana pelaksanaan konstruksi"
+],
+[
+107,
+"6.1.3",
+"Manajemen pelaksanaan konstruksi"
+],
+[
+108,
+"6.1.4",
+"Persiapan sebelum pelaksanaan konstruksi"
+],
+[
+108,
+"6.1.5",
+"Penandaan (penandaan tinta)"
+],
+[
+109,
+"6.2.1",
+"Pekerjaan tanah"
+],
+[
+111,
+"6.2.2",
+"Pekerjaan terowongan propulsi"
+],
+[
+113,
+"6.2.3",
+"Pekerjaan teknik sipil kelautan"
+],
+[
+116,
+"6.2.4",
+"Pekerjaan pengeboran sumur"
+],
+[
+117,
+"6.2.5",
+"Pekerjaan titik sumur"
+],
+[
+118,
+"6.2.6",
+"Pekerjaan perkerasan"
+],
+[
+119,
+"6.2.7",
+"Pekerjaan tanah mekanis"
+],
+[
+119,
+"6.2.8",
+"Pekerjaan tiang pancang"
+],
+[
+121,
+"6.2.9",
+"Pekerjaan perancah"
+],
+[
+123,
+"6.2.10",
+"Pekerjaan rangka baja"
+],
+[
+124,
+"6.2.11",
+"Pekerjaan rebar"
+],
+[
+127,
+"6.2.12",
+"Pekerjaan sambungan rebar"
+],
+[
+128,
+"6.2.13",
+"Pekerjaan las"
+],
+[
+129,
+"6.2.14",
+"Pekerjaan bekisting"
+],
+[
+130,
+"6.2.15",
+"Pekerjaan pemompaan beton"
+],
+[
+131,
+"6.2.16",
+"Pekerjaan pengecatan"
+],
+[
+132,
+"6.2.17",
+"Pekerjaan lanskap"
+],
+[
+133,
+"6.2.18",
+"Pekerjaan pembongkaran"
+],
+[
+136,
+"7.1.1",
+"Status kecelakaan fatal dalam pekerjaan konstruksi"
+],
+[
+137,
+"7.1.2",
+"Jenis kecelakaan fatal"
+],
+[
+139,
+"7.1.3",
+"Pekerjaan konstruksi dengan banyak kecelakaan fatal"
+],
+[
+141,
+"7.2.1",
+"Siklus pelaksanaan konstruksi yang aman"
+],
+[
+143,
+"7.2.2",
+"Pendidikan keselamatan dan kesehatan bagi pekerja baru"
+],
+[
+144,
+"7.2.3",
+"Pendidikan bagi pengunjung baru"
+],
+[
+146,
+"7.2.4",
+"Peralatan untuk pekerjaan yang aman"
+],
+[
+147,
+"7.2.5",
+"Penanggulangan sengatan panas"
+],
+[
+148,
+"7.2.6",
+"Tanda kesadaran untuk bekerja aman"
+],
+[
+148,
+"7.2.7",
+"Memahami human error"
+]
+],
+"bangunan": [
+[
+4,
+"1.5.1",
+"Apel pagi umum"
+],
+[
+6,
+"1.5.2",
+"Apel pagi berdasarkan jenis pekerjaan"
+],
+[
+8,
+"2.1.1",
+"UU Standar Ketenagakerjaan"
+],
+[
+10,
+"2.1.2",
+"UU Keselamatan dan Kesehatan Kerja"
+],
+[
+12,
+"2.1.3",
+"Undang-Undang Upah Minimum"
+],
+[
+13,
+"2.1.4",
+"Undang-Undang Asuransi Ganti Rugi Kecelakaan Kerja (Asuransi"
+],
+[
+13,
+"2.1.5",
+"Undang-Undang Asuransi Ketenagakerjaan"
+],
+[
+14,
+"2.1.6",
+"Undang-Undang Peningkatan Perekrutan Pekerja Konstruksi"
+],
+[
+15,
+"2.1.7",
+"Undang-Undang Promosi Pengembangan Kemampuan Profesi"
+],
+[
+22,
+"3.1.1",
+"Pekerjaan teknik sipil"
+],
+[
+26,
+"3.1.2",
+"Pekerjaan arsitektur"
+],
+[
+29,
+"3.1.3",
+"Pekerjaan lifeline/peralatan"
+],
+[
+33,
+"3.2.1",
+"Pekerjaan tanah"
+],
+[
+34,
+"3.2.2",
+"Pekerjaan terowongan propulsi"
+],
+[
+35,
+"3.2.3",
+"Pekerjaan teknik sipil kelautan"
+],
+[
+36,
+"3.2.4",
+"Pekerjaan pengeboran sumur"
+],
+[
+36,
+"3.2.5",
+"Pekerjaan titik sumur"
+],
+[
+37,
+"3.2.6",
+"Pekerjaan perkerasan"
+],
+[
+38,
+"3.2.7",
+"Pekerjaan tanah mekanis"
+],
+[
+39,
+"3.2.8",
+"Pekerjaan tiang pancang"
+],
+[
+39,
+"3.2.9",
+"Pekerjaan perancah"
+],
+[
+40,
+"3.2.10",
+"Pekerjaan rangka baja"
+],
+[
+41,
+"3.2.11",
+"Pekerjaan rebar"
+],
+[
+42,
+"3.2.12",
+"Pekerjaan sambungan rebar"
+],
+[
+43,
+"3.2.13",
+"Pekerjaan las"
+],
+[
+43,
+"3.2.14",
+"Pekerjaan bekisting"
+],
+[
+44,
+"3.2.15",
+"Pekerjaan pemompaan beton"
+],
+[
+45,
+"3.2.16",
+"Pekerjaan pengecatan"
+],
+[
+45,
+"3.2.17",
+"Pekerjaan lanskap"
+],
+[
+46,
+"3.2.18",
+"Pekerjaan plesteran"
+],
+[
+47,
+"3.2.19",
+"Pekerjaan pertukangan konstruksi"
+],
+[
+47,
+"3.2.20",
+"Pekerjaan atap"
+],
+[
+48,
+"3.2.21",
+"Pekerjaan pelat logam arsitektur"
+],
+[
+49,
+"3.2.22",
+"Pekerjaan pemasangan ubin"
+],
+[
+50,
+"3.2.23",
+"Pekerjaan finishing interior"
+],
+[
+51,
+"3.2.24",
+"Pekerjaan pemajangan"
+],
+[
+52,
+"3.2.25",
+"Pekerjaan fitting"
+],
+[
+52,
+"3.2.26",
+"Pekerjaan sash"
+],
+[
+52,
+"3.2.27",
+"Pekerjaan isolasi uretan semprot"
+],
+[
+53,
+"3.2.28",
+"Pekerjaan anti air"
+],
+[
+54,
+"3.2.29",
+"Pekerjaan pemasangan batu"
+],
+[
+54,
+"3.2.30",
+"Pekerjaan peralatan listrik"
+],
+[
+55,
+"3.2.31",
+"Pekerjaan telekomunikasi"
+],
+[
+56,
+"3.2.32",
+"Pekerjaan pemipaan"
+],
+[
+56,
+"3.2.33",
+"Pekerjaan peralatan pendingin dan pengatur udara"
+],
+[
+57,
+"3.2.34",
+"Pekerjaan peralatan suplai air, drainase dan kebersihan"
+],
+[
+57,
+"3.2.35",
+"Pekerjaan menjaga suhu panas dan dingin"
+],
+[
+57,
+"3.2.36",
+"Pekerjaan pembuatan tungku"
+],
+[
+58,
+"3.2.37",
+"Pekerjaan peralatan pemadam kebakaran"
+],
+[
+59,
+"3.3.1",
+"Jenis kualifikasi berdasarkan UU Keselamatan dan Kesehatan Kerja"
+],
+[
+60,
+"4.1.1",
+"“Selamat pagi”"
+],
+[
+60,
+"4.1.2",
+"“Goanzen ni” (Semoga selamat)"
+],
+[
+61,
+"4.1.3",
+"“Otsukare-sama desu” (Terima kasih atas kerja kerasnya)"
+],
+[
+61,
+"4.1.4",
+"“Gokuro-sama”"
+],
+[
+61,
+"4.1.5",
+"“Shitsurei shimasu” (Permisi)"
+],
+[
+62,
+"4.1.6",
+"“Abunai” (Bahaya)"
+],
+[
+62,
+"4.2.1",
+"Istilah terkait dengan penandaan"
+],
+[
+64,
+"4.2.2",
+"Istilah terkait “yarikata” (cara mengerjakan)"
+],
+[
+64,
+"4.2.3",
+"Istilah terkait pekerjaan tanah"
+],
+[
+66,
+"4.2.4",
+"Istilah terkait pekerjaan tanah dan fondasi"
+],
+[
+67,
+"4.2.5",
+"Istilah terkait perancah dan konstruksi sementara"
+],
+[
+67,
+"4.2.6",
+"Istilah terkait pekerjaan rebar, bekisting, dan pengecoran beton"
+],
+[
+68,
+"4.2.7",
+"Istilah yang menyatakan fitting dan kondisi"
+],
+[
+70,
+"4.2.8",
+"Istilah terkait panjang, luas, dan lebar"
+],
+[
+70,
+"4.2.9",
+"Istilah untuk struktur bangunan"
+],
+[
+71,
+"4.2.10",
+"Istilah terkait pekerjaan listrik dan pekerjaan telekomunikasi"
+],
+[
+73,
+"4.2.11",
+"Istilah yang digunakan dalam pekerjaan lifeline dan peralatan"
+],
+[
+74,
+"4.3.1",
+"Kegiatan 5S"
+],
+[
+74,
+"4.3.2",
+"Pos pekerja"
+],
+[
+76,
+"4.3.3",
+"Hal-hal yang perlu diperhatikan tentang pakaian"
+],
+[
+76,
+"4.3.4",
+"Penggunaan bahasa"
+],
+[
+77,
+"4.3.5",
+"Pemberesan"
+],
+[
+78,
+"5.1.1",
+"Mesin konstruksi"
+],
+[
+81,
+"5.1.3",
+"Pekerjaan rangka baja"
+],
+[
+82,
+"5.1.4",
+"Pekerjaan rebar"
+],
+[
+83,
+"5.1.5",
+"Pekerjaan sambungan rebar"
+],
+[
+84,
+"5.1.6",
+"Pekerjaan las"
+],
+[
+85,
+"5.1.7",
+"Pekerjaan bekisting"
+],
+[
+87,
+"5.1.8",
+"Pekerjaan pemompaan beton"
+],
+[
+88,
+"5.1.9",
+"Pekerjaan pertukangan konstruksi"
+],
+[
+89,
+"5.2.1",
+"Pekerjaan plesteran"
+],
+[
+90,
+"5.2.2",
+"Pekerjaan pengecatan"
+],
+[
+91,
+"5.2.3",
+"Pekerjaan atap"
+],
+[
+92,
+"5.2.5",
+"Pekerjaan pemasangan ubin"
+],
+[
+93,
+"5.2.6",
+"Pekerjaan finishing interior"
+],
+[
+94,
+"5.2.7",
+"Pekerjaan pemajangan"
+],
+[
+95,
+"5.2.8",
+"Pekerjaan fitting"
+],
+[
+95,
+"5.2.9",
+"Pekerjaan sash"
+],
+[
+95,
+"5.2.10",
+"Pekerjaan isolasi uretan semprot"
+],
+[
+95,
+"5.2.11",
+"Pekerjaan anti air"
+],
+[
+96,
+"5.2.12",
+"Pekerjaan pemasangan batu"
+],
+[
+97,
+"5.3.1",
+"Alat listrik"
+],
+[
+98,
+"5.3.2",
+"Menggali/meratakan/memadatkan dan mengencangkan"
+],
+[
+99,
+"5.3.3",
+"Penandaan dan menandakan"
+],
+[
+99,
+"5.3.4",
+"Mengukur dan memeriksa"
+],
+[
+101,
+"5.3.5",
+"Memotong/menekuk/memangkas"
+],
+[
+102,
+"5.3.6",
+"Memukul/mencabut"
+],
+[
+102,
+"5.3.7",
+"Mengikis/memoles/mengebor"
+],
+[
+103,
+"5.3.8",
+"Mengetatkan/mengencangkan"
+],
+[
+103,
+"5.3.9",
+"Menguleni/mencampur"
+],
+[
+104,
+"5.3.10",
+"Merawat"
+],
+[
+104,
+"5.3.11",
+"Menghilangkan kotoran"
+],
+[
+104,
+"5.3.12",
+"Mengangkut barang"
+],
+[
+106,
+"5.3.14",
+"Alas kerja/tangga"
+],
+[
+107,
+"5.3.15",
+"Membersihkan"
+],
+[
+108,
+"6.1.1",
+"Karakteristik pekerjaan konstruksi"
+],
+[
+109,
+"6.1.2",
+"Rencana pelaksanaan konstruksi"
+],
+[
+109,
+"6.1.3",
+"Manajemen pelaksanaan konstruksi"
+],
+[
+110,
+"6.1.4",
+"Persiapan sebelum pelaksanaan konstruksi"
+],
+[
+110,
+"6.1.5",
+"Penandaan (penandaan tinta)"
+],
+[
+111,
+"6.2.1",
+"Pekerjaan perancah"
+],
+[
+113,
+"6.2.2",
+"Pekerjaan rangka baja"
+],
+[
+115,
+"6.2.3",
+"Pekerjaan rebar"
+],
+[
+117,
+"6.2.4",
+"Pekerjaan sambungan rebar"
+],
+[
+119,
+"6.2.5",
+"Pekerjaan las"
+],
+[
+119,
+"6.2.6",
+"Pekerjaan bekisting"
+],
+[
+121,
+"6.2.7",
+"Pekerjaan pemompaan beton"
+],
+[
+121,
+"6.2.8",
+"Pekerjaan pengecatan"
+],
+[
+123,
+"6.2.9",
+"Pekerjaan plesteran"
+],
+[
+124,
+"6.2.10",
+"Pekerjaan pertukangan konstruksi"
+],
+[
+126,
+"6.2.11",
+"Pekerjaan atap"
+],
+[
+127,
+"6.2.12",
+"Pekerjaan pelat logam arsitektur"
+],
+[
+129,
+"6.2.13",
+"Pekerjaan pemasangan ubin"
+],
+[
+129,
+"6.2.14",
+"Pekerjaan finishing interior"
+],
+[
+130,
+"6.2.15",
+"Pekerjaan pemajangan"
+],
+[
+131,
+"6.2.16",
+"Pekerjaan fitting"
+],
+[
+132,
+"6.2.17",
+"Pekerjaan sash"
+],
+[
+133,
+"6.2.18",
+"Pekerjaan penyemprotan uretan"
+],
+[
+133,
+"6.2.19",
+"Pekerjaan anti air"
+],
+[
+134,
+"6.2.20",
+"Pekerjaan pemasangan batu"
+],
+[
+135,
+"6.2.21",
+"Pekerjaan pembongkaran"
+],
+[
+138,
+"7.1.1",
+"Status kecelakaan fatal dalam pekerjaan konstruksi"
+],
+[
+139,
+"7.1.2",
+"Jenis kecelakaan fatal"
+],
+[
+141,
+"7.1.3",
+"Pekerjaan konstruksi dengan banyak kecelakaan fatal"
+],
+[
+143,
+"7.2.1",
+"Siklus pelaksanaan konstruksi yang aman"
+],
+[
+145,
+"7.2.2",
+"Pendidikan keselamatan dan kesehatan bagi pekerja baru"
+],
+[
+146,
+"7.2.3",
+"Pendidikan bagi pengunjung baru"
+],
+[
+147,
+"7.2.4",
+"Peralatan untuk pekerjaan yang aman"
+],
+[
+149,
+"7.2.5",
+"Penanggulangan sengatan panas"
+],
+[
+149,
+"7.2.6",
+"Tanda kesadaran untuk bekerja aman"
+],
+[
+150,
+"7.2.7",
+"Memahami human error"
+]
+],
+"lifeline": [
+[
+9,
+"1.5.1",
+"Apel pagi umum"
+],
+[
+11,
+"1.5.2",
+"Apel pagi berdasarkan jenis pekerjaan"
+],
+[
+13,
+"2.1.1",
+"UU Standar Ketenagakerjaan"
+],
+[
+16,
+"2.1.2",
+"UU Keselamatan dan Kesehatan Kerja"
+],
+[
+18,
+"2.1.3",
+"Undang-Undang Upah Minimum"
+],
+[
+19,
+"2.1.4",
+"Undang-Undang Asuransi Ganti Rugi Kecelakaan Kerja (Asuransi"
+],
+[
+21,
+"2.1.5",
+"Undang-Undang Asuransi Ketenagakerjaan"
+],
+[
+22,
+"2.1.6",
+"Undang-Undang Peningkatan Perekrutan Pekerja Konstruksi"
+],
+[
+24,
+"2.1.7",
+"Undang-Undang Promosi Pengembangan Kemampuan Profesi"
+],
+[
+34,
+"3.1.1",
+"Pekerjaan teknik sipil"
+],
+[
+39,
+"3.1.2",
+"Pekerjaan arsitektur"
+],
+[
+44,
+"3.1.3",
+"Pekerjaan lifeline/peralatan"
+],
+[
+48,
+"3.2.1",
+"Pekerjaan tanah"
+],
+[
+49,
+"3.2.2",
+"Pekerjaan terowongan propulsi"
+],
+[
+50,
+"3.2.3",
+"Pekerjaan teknik sipil kelautan"
+],
+[
+51,
+"3.2.4",
+"Pekerjaan pengeboran sumur"
+],
+[
+52,
+"3.2.5",
+"Pekerjaan titik sumur"
+],
+[
+53,
+"3.2.6",
+"Pekerjaan perkerasan"
+],
+[
+53,
+"3.2.7",
+"Pekerjaan tanah mekanis"
+],
+[
+55,
+"3.2.8",
+"Pekerjaan tiang pancang"
+],
+[
+56,
+"3.2.9",
+"Pekerjaan perancah"
+],
+[
+57,
+"3.2.10",
+"Pekerjaan rangka baja"
+],
+[
+58,
+"3.2.11",
+"Pekerjaan rebar"
+],
+[
+59,
+"3.2.12",
+"Pekerjaan sambungan rebar"
+],
+[
+60,
+"3.2.13",
+"Pekerjaan las"
+],
+[
+61,
+"3.2.14",
+"Pekerjaan bekisting"
+],
+[
+62,
+"3.2.15",
+"Pekerjaan pemompaan beton"
+],
+[
+63,
+"3.2.16",
+"Pekerjaan pengecatan"
+],
+[
+64,
+"3.2.17",
+"Pekerjaan lanskap"
+],
+[
+65,
+"3.2.18",
+"Pekerjaan plesteran"
+],
+[
+66,
+"3.2.19",
+"Pekerjaan pertukangan konstruksi"
+],
+[
+67,
+"3.2.20",
+"Pekerjaan atap"
+],
+[
+68,
+"3.2.21",
+"Pekerjaan pelat logam arsitektur"
+],
+[
+69,
+"3.2.22",
+"Pekerjaan pemasangan ubin"
+],
+[
+70,
+"3.2.23",
+"Pekerjaan finishing interior"
+],
+[
+71,
+"3.2.24",
+"Pekerjaan pemajangan"
+],
+[
+72,
+"3.2.25",
+"Pekerjaan fitting"
+],
+[
+72,
+"3.2.26",
+"Pekerjaan sash"
+],
+[
+73,
+"3.2.27",
+"Pekerjaan isolasi uretan semprot"
+],
+[
+74,
+"3.2.28",
+"Pekerjaan anti air"
+],
+[
+75,
+"3.2.29",
+"Pekerjaan pemasangan batu"
+],
+[
+75,
+"3.2.30",
+"Pekerjaan peralatan listrik"
+],
+[
+77,
+"3.2.31",
+"Pekerjaan telekomunikasi"
+],
+[
+78,
+"3.2.32",
+"Pekerjaan pemipaan"
+],
+[
+78,
+"3.2.33",
+"Pekerjaan peralatan pendingin dan pengatur udara"
+],
+[
+79,
+"3.2.34",
+"Pekerjaan peralatan suplai air, drainase dan kebersihan"
+],
+[
+80,
+"3.2.35",
+"Pekerjaan menjaga suhu panas dan dingin"
+],
+[
+80,
+"3.2.36",
+"Pekerjaan pembuatan tungku"
+],
+[
+81,
+"3.2.37",
+"Pekerjaan peralatan pemadam kebakaran"
+],
+[
+82,
+"3.2.38",
+"Pekerjaan pembongkaran"
+],
+[
+82,
+"3.3.1",
+"Jenis kualifikasi berdasarkan UU Keselamatan dan Kesehatan Kerja"
+],
+[
+83,
+"3.3.2",
+"Daftar kualifikasi berdasarkan UU Keselamatan dan Kesehatan Kerja"
+],
+[
+95,
+"4.1.1",
+"“Selamat pagi”"
+],
+[
+95,
+"4.1.2",
+"“Goanzen ni” (Semoga selamat)"
+],
+[
+96,
+"4.1.3",
+"“Otsukare-sama desu” (Terima kasih atas kerja kerasnya)"
+],
+[
+96,
+"4.1.4",
+"“Gokuro-sama”"
+],
+[
+96,
+"4.1.5",
+"“Shitsurei shimasu” (Permisi)"
+],
+[
+97,
+"4.1.6",
+"“Abunai” (Bahaya)"
+],
+[
+97,
+"4.2.1",
+"Istilah terkait dengan penandaan"
+],
+[
+99,
+"4.2.2",
+"Istilah terkait “yarikata” (cara mengerjakan)"
+],
+[
+100,
+"4.2.3",
+"Istilah terkait pekerjaan tanah"
+],
+[
+103,
+"4.2.4",
+"Istilah terkait pekerjaan tanah dan fondasi"
+],
+[
+104,
+"4.2.5",
+"Istilah terkait perancah dan konstruksi sementara"
+],
+[
+104,
+"4.2.6",
+"Istilah terkait pekerjaan rebar, bekisting, dan pengecoran beton"
+],
+[
+106,
+"4.2.7",
+"Istilah yang menyatakan fitting dan kondisi"
+],
+[
+109,
+"4.2.8",
+"Istilah terkait panjang, luas, dan lebar"
+],
+[
+109,
+"4.2.9",
+"Istilah untuk struktur bangunan"
+],
+[
+109,
+"4.2.10",
+"Istilah terkait pekerjaan listrik dan pekerjaan telekomunikasi"
+],
+[
+112,
+"4.2.11",
+"Istilah yang digunakan dalam pekerjaan lifeline dan peralatan"
+],
+[
+114,
+"4.3.1",
+"Kegiatan 5S"
+],
+[
+115,
+"4.3.2",
+"Pos pekerja"
+],
+[
+116,
+"4.3.3",
+"Hal-hal yang perlu diperhatikan tentang pakaian"
+],
+[
+117,
+"4.3.4",
+"Penggunaan bahasa"
+],
+[
+117,
+"4.3.5",
+"Pemberesan"
+],
+[
+118,
+"5.1.1",
+"Mesin konstruksi"
+],
+[
+120,
+"5.1.2",
+"Pekerjaan peralatan listrik"
+],
+[
+127,
+"5.1.3",
+"Pekerjaan telekomunikasi"
+],
+[
+134,
+"5.1.5",
+"Pekerjaan peralatan pendingin dan pengatur udara"
+],
+[
+134,
+"5.1.6",
+"Pekerjaan peralatan suplai air, drainase dan kebersihan"
+],
+[
+135,
+"5.1.7",
+"Pekerjaan menjaga suhu panas dan dingin"
+],
+[
+135,
+"5.1.8",
+"Pekerjaan fasilitas pemadam kebakaran"
+],
+[
+137,
+"5.2.1",
+"Alat listrik"
+],
+[
+140,
+"5.2.2",
+"Menggali/meratakan/memadatkan dan mengencangkan"
+],
+[
+142,
+"5.2.3",
+"Penandaan dan menandakan"
+],
+[
+143,
+"5.2.4",
+"Mengukur/memeriksa"
+],
+[
+145,
+"5.2.5",
+"Memotong/menekuk/memangkas"
+],
+[
+146,
+"5.2.6",
+"Memukul/mencabut"
+],
+[
+147,
+"5.2.7",
+"Mengikis/memoles/mengebor"
+],
+[
+148,
+"5.2.8",
+"Mengetatkan/mengencangkan"
+],
+[
+149,
+"5.2.9",
+"Menguleni/mencampur"
+],
+[
+150,
+"5.2.10",
+"Merawat"
+],
+[
+151,
+"5.2.11",
+"Menghilangkan kotoran"
+],
+[
+151,
+"5.2.12",
+"Mengangkut barang"
+],
+[
+152,
+"5.2.13",
+"Menggantung/mengangkat/menarik"
+],
+[
+154,
+"5.2.14",
+"Alas kerja/tangga"
+],
+[
+155,
+"5.2.15",
+"Membersihkan"
+],
+[
+156,
+"6.1.1",
+"Karakteristik pekerjaan konstruksi"
+],
+[
+157,
+"6.1.2",
+"Rencana pelaksanaan konstruksi"
+],
+[
+158,
+"6.1.3",
+"Manajemen pelaksanaan konstruksi"
+],
+[
+159,
+"6.1.4",
+"Persiapan sebelum pelaksanaan konstruksi"
+],
+[
+160,
+"6.1.5",
+"Penandaan (penandaan tinta)"
+],
+[
+161,
+"6.2.1",
+"Pengolahan pipa baja karbon untuk pemipaan"
+],
+[
+166,
+"6.2.2",
+"Pengolahan pipa polivinil klorida keras"
+],
+[
+168,
+"6.2.3",
+"Pengolahan pipa baja berlapis vinil klorida keras untuk suplai air"
+],
+[
+169,
+"6.3.1",
+"Pengolahan pipa tembaga berlapis untuk refrigeran"
+],
+[
+171,
+"6.3.2",
+"Sambungan pipa untuk refrigeran"
+],
+[
+172,
+"6.4.1",
+"Bentuk dan jenis bahan isolasi termal"
+],
+[
+172,
+"6.4.2",
+"Contoh menjaga panas dan dingin untuk pemipaan"
+],
+[
+173,
+"6.4.3",
+"Contoh menjaga panas dan dingin saluran"
+],
+[
+173,
+"6.5.1",
+"Konstruksi pipa besi cor ulet suplai air"
+],
+[
+176,
+"6.5.2",
+"Sambungan EF suplai air/gas"
+],
+[
+178,
+"6.5.3",
+"Hal-hal yang perlu diperhatikan dalam pekerjaan telekomunikasi"
+],
+[
+178,
+"6.5.4",
+"Hal-hal yang perlu diperhatikan dalam membenamkan pipa"
+],
+[
+181,
+"6.6.1",
+"Pengolahan pelat logam"
+],
+[
+182,
+"6.6.2",
+"Metode sambungan saluran"
+],
+[
+185,
+"6.7.2",
+"Korsleting, ground fault, kebocoran listrik"
+],
+[
+186,
+"6.7.3",
+"Hal-hal yang perlu diperhatikan dalam pekerjaan crimping kawat"
+],
+[
+186,
+"6.7.4",
+"Kerusakan/pemotongan pipa terpendam yang ada, pemutusan pengabelan"
+],
+[
+187,
+"6.7.5",
+"Hal-hal yang perlu diperhatikan dalam menggunakan jalan"
+],
+[
+188,
+"6.8.1",
+"Jenis peralatan telekomunikasi"
+],
+[
+190,
+"6.8.2",
+"Pemasangan conduit bawah tanah"
+],
+[
+191,
+"6.8.3",
+"Hal-hal yang perlu diperhatikan dalam bekerja"
+],
+[
+195,
+"7.1.1",
+"Status kecelakaan fatal dalam pekerjaan konstruksi"
+],
+[
+196,
+"7.1.2",
+"Jenis kecelakaan fatal"
+],
+[
+201,
+"7.2.1",
+"Siklus pelaksanaan konstruksi yang aman"
+],
+[
+203,
+"7.2.2",
+"Pendidikan keselamatan dan kesehatan bagi pekerja baru"
+],
+[
+204,
+"7.2.3",
+"Pendidikan bagi pengunjung baru"
+],
+[
+205,
+"7.2.4",
+"Peralatan untuk pekerjaan yang aman"
+],
+[
+207,
+"7.2.5",
+"Penanggulangan sengatan panas"
+],
+[
+207,
+"7.2.6",
+"Tanda kesadaran untuk bekerja aman"
+],
+[
+208,
+"7.2.7",
+"Memahami human error"
+]
+]
+}

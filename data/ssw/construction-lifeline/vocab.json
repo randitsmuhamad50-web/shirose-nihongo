@@ -1,0 +1,1372 @@
+{
+ "items": [
+  {
+   "id": "cn-001",
+   "kata": "Penandaan",
+   "kana": "Penandaan",
+   "romaji": "",
+   "arti": "Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-002",
+   "kata": "Tinta referensi",
+   "kana": "Tinta referensi",
+   "romaji": "",
+   "arti": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-003",
+   "kata": "Garis pusat",
+   "kana": "Garis pusat",
+   "romaji": "",
+   "arti": "Garis yang melewati pusat",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-004",
+   "kata": "Tinta tanah",
+   "kana": "Tinta tanah",
+   "romaji": "",
+   "arti": "Tinta dengan tinggi referensi untuk menunjukkan horizontal, juga dikenal sebagai “rikuzumi”. Ini juga disebut tinta pinggang, tinta air,…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-005",
+   "kata": "Tatezumi",
+   "kana": "Tatezumi",
+   "romaji": "",
+   "arti": "Garis vertikal ditampilkan pada permukaan seperti dinding, tiang, dll",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-006",
+   "kata": "Jisumi",
+   "kana": "Jisumi",
+   "romaji": "",
+   "arti": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-007",
+   "kata": "Tinta finishing",
+   "kana": "Tinta finishing",
+   "romaji": "",
+   "arti": "Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-008",
+   "kata": "Pusat dinding",
+   "kana": "Pusat dinding",
+   "romaji": "",
+   "arti": "Garis yang melewati bagian tengah dinding",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-009",
+   "kata": "Pusat tiang",
+   "kana": "Pusat tiang",
+   "romaji": "",
+   "arti": "Garis yang melewati bagian tengah tiang",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-010",
+   "kata": "Tinta induk",
+   "kana": "Tinta induk",
+   "romaji": "",
+   "arti": "“Tinta induk” mengacu pada garis yang menjadi acuan untuk pekerjaan penandaan pada proses selanjutnya, seperti garis pusat atau tinta tanah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-011",
+   "kata": "Yarikata",
+   "kana": "Yarikata",
+   "romaji": "",
+   "arti": "“Pagar sementara” yang dibuat sedemikian rupa hingga garis-garis acuan untuk membangun bangunan (pusat tiang atau dinding, garis…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-012",
+   "kata": "Mizunuki",
+   "kana": "Mizunuki",
+   "romaji": "",
+   "arti": "Ini adalah papan yang dipukul secara horizontal terhadap tiang pancang saat membuat “yarikata”",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-013",
+   "kata": "Mizumori",
+   "kana": "Mizumori",
+   "romaji": "",
+   "arti": "Menentukan tingkat horizontal yang menjadi acuan tinggi bangunan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-014",
+   "kata": "Mizuito (benang air)",
+   "kana": "Mizuito (benang air)",
+   "romaji": "",
+   "arti": "Ini adalah benang yang direntangkan di antara mizunuki untuk menunjukkan kehorizontalan pada saat melakukan “yarikata”. Ini akan menjadi…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-015",
+   "kata": "Pekerjaan tanah",
+   "kana": "Pekerjaan tanah",
+   "romaji": "",
+   "arti": "Melakukan pekerjaan untuk membuat tanah/fondasi bangunan atau struktur bawah tanah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-016",
+   "kata": "Penimbunan tanah",
+   "kana": "Penimbunan tanah",
+   "romaji": "",
+   "arti": "Menciptakan permukaan tanah yang rata dengan menumpuk tanah dan pasir pada lereng, tanah yang tidak rata, dan lahan rendah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-017",
+   "kata": "Pemotongan undakan",
+   "kana": "Pemotongan undakan",
+   "romaji": "",
+   "arti": "Saat melakukan penimbunan tanah di lereng yang curam, tanah dipotong membentuk tangga untuk mencegah timbunan tanah tergelincir ke bawah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-018",
+   "kata": "Pemadatan",
+   "kana": "Pemadatan",
+   "romaji": "",
+   "arti": "Celah antar partikel dikurangi dan densitas ditingkatkan (disebut “mitsujitsu”) dengan memberikan tekanan pada tanah, pasir atau aspal",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-019",
+   "kata": "Ten-atsu",
+   "kana": "Ten-atsu",
+   "romaji": "",
+   "arti": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-020",
+   "kata": "Penimbunan kembali",
+   "kana": "Penimbunan kembali",
+   "romaji": "",
+   "arti": "Memasukkan tanah hingga ke dasar ruang tanah di dalam dan di luar bangunan setelah pekerjaan bawah tanah seperti balok bawah tanah, dll.…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-021",
+   "kata": "Tsuki katame",
+   "kana": "Tsuki katame",
+   "romaji": "",
+   "arti": "Meningkatkan kepadatan tanah penimbunan kembali dengan menggunakan penumbuk, pelat, dll",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-022",
+   "kata": "Nekiri",
+   "kana": "Nekiri",
+   "romaji": "",
+   "arti": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-023",
+   "kata": "Penahan tanah",
+   "kana": "Penahan tanah",
+   "romaji": "",
+   "arti": "Menahan tanah agar lereng, timbunan tanah, parit galian, dll. tidak runtuh",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-024",
+   "kata": "Dinding penahan",
+   "kana": "Dinding penahan",
+   "romaji": "",
+   "arti": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-025",
+   "kata": "Utsu (pukul)",
+   "kana": "Utsu (pukul)",
+   "romaji": "",
+   "arti": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-026",
+   "kata": "Danbane",
+   "kana": "Danbane",
+   "romaji": "",
+   "arti": "Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-027",
+   "kata": "Lereng",
+   "kana": "Lereng",
+   "romaji": "",
+   "arti": "Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-028",
+   "kata": "Menyangga tanah",
+   "kana": "Menyangga tanah",
+   "romaji": "",
+   "arti": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-029",
+   "kata": "Yaita (tumpukan lembaran)",
+   "kana": "Yaita (tumpukan lembaran)",
+   "romaji": "",
+   "arti": "Papan untuk menopang tanah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-030",
+   "kata": "Penggantian air",
+   "kana": "Penggantian air",
+   "romaji": "",
+   "arti": "Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-031",
+   "kata": "Ketel",
+   "kana": "Ketel",
+   "romaji": "",
+   "arti": "Sebuah lubang di mana pompa air dipasang untuk penggantian air",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-032",
+   "kata": "Fondasi",
+   "kana": "Fondasi",
+   "romaji": "",
+   "arti": "Bagian yang meneruskan berat bangunan (disebut “beban bangunan”) secara langsung ke tanah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-033",
+   "kata": "Fondasi langsung",
+   "kana": "Fondasi langsung",
+   "romaji": "",
+   "arti": "Fondasi yang secara langsung meneruskan beban bangunan ke tanah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-034",
+   "kata": "Fondasi tiang pancang",
+   "kana": "Fondasi tiang pancang",
+   "romaji": "",
+   "arti": "Ini adalah fondasi yang dibuat di tempat yang tanahnya lemah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-035",
+   "kata": "Pekerjaan tiang pancang",
+   "kana": "Pekerjaan tiang pancang",
+   "romaji": "",
+   "arti": "Pekerjaan tanah untuk fondasi tiang pancang",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-036",
+   "kata": "Perancah",
+   "kana": "Perancah",
+   "romaji": "",
+   "arti": "Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-037",
+   "kata": "Lantai kerja",
+   "kana": "Lantai kerja",
+   "romaji": "",
+   "arti": "Merupakan lantai perancah yang dibuat dengan merentangkan papan perancah (disebut “papan kain”) sehingga orang dapat naik dan bekerja",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-038",
+   "kata": "Pagar sementara",
+   "kana": "Pagar sementara",
+   "romaji": "",
+   "arti": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-039",
+   "kata": "Pengaturan rebar",
+   "kana": "Pengaturan rebar",
+   "romaji": "",
+   "arti": "Menempatkan dan merakit rebar",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-040",
+   "kata": "Hiroidashi",
+   "kana": "Hiroidashi",
+   "romaji": "",
+   "arti": "Menghitung material yang diperlukan, kuantitasnya, dan tenaga kerjanya (berapa banyak orang yang dibutuhkan) dari denah dan spesifikasi",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-041",
+   "kata": "Asobi",
+   "kana": "Asobi",
+   "romaji": "",
+   "arti": "Ini tentang keluangan dan kelonggaran",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-042",
+   "kata": "Aki",
+   "kana": "Aki",
+   "romaji": "",
+   "arti": "Jarak antar rebar",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-043",
+   "kata": "Interval",
+   "kana": "Interval",
+   "romaji": "",
+   "arti": "Jarak antar pusat rebar",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-044",
+   "kata": "Sute concrete (beton buang)",
+   "kana": "Sute concrete (beton buang)",
+   "romaji": "",
+   "arti": "Beton dengan tebal 5 cm - 10 cm dan dicor dengan rata terutama untuk menandai dan mendirikan bekisting",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-045",
+   "kata": "Kessoku (persatuan)",
+   "kana": "Kessoku (persatuan)",
+   "romaji": "",
+   "arti": "Hal mengikat",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-046",
+   "kata": "Tatekomi",
+   "kana": "Tatekomi",
+   "romaji": "",
+   "arti": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-047",
+   "kata": "Noro",
+   "kana": "Noro",
+   "romaji": "",
+   "arti": "Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-048",
+   "kata": "Pengalihan penggunaan",
+   "kana": "Pengalihan penggunaan",
+   "romaji": "",
+   "arti": "Menggunakan material bekisting yang sama di lokasi konstruksi lain",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-049",
+   "kata": "Punk",
+   "kana": "Punk",
+   "romaji": "",
+   "arti": "Mengalirnya beton karena pecahnya bekisting pada waktu pengecoran/pengerasan beton",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-050",
+   "kata": "Kugijimai",
+   "kana": "Kugijimai",
+   "romaji": "",
+   "arti": "Melepaskan paku dari bekisting untuk menggunakan kembali material bekisting",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-051",
+   "kata": "Pengecoran",
+   "kana": "Pengecoran",
+   "romaji": "",
+   "arti": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-052",
+   "kata": "Pengecoran sambung",
+   "kana": "Pengecoran sambung",
+   "romaji": "",
+   "arti": "Menuangkan beton di atas beton yang sudah mengeras",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-053",
+   "kata": "Tamping",
+   "kana": "Tamping",
+   "romaji": "",
+   "arti": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-054",
+   "kata": "Menguleni dan mencampur",
+   "kana": "Menguleni dan mencampur",
+   "romaji": "",
+   "arti": "Mencampur semen dan agregat secara merata",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-055",
+   "kata": "Pencampuran",
+   "kana": "Pencampuran",
+   "romaji": "",
+   "arti": "Ini adalah persentase dari setiap material pembuat beton",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-056",
+   "kata": "Osamari (fitting)",
+   "kana": "Osamari (fitting)",
+   "romaji": "",
+   "arti": "Kata yang mengungkapkan keseimbangan penempatan barang",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-057",
+   "kata": "Antarmuka",
+   "kana": "Antarmuka",
+   "romaji": "",
+   "arti": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-058",
+   "kata": "Toori (jalan)",
+   "kana": "Toori (jalan)",
+   "romaji": "",
+   "arti": "Kondisi dalam bentuk garis lurus",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-059",
+   "kata": "Tsura (muka)",
+   "kana": "Tsura (muka)",
+   "romaji": "",
+   "arti": "Sebuah kata yang mengacu pada permukaan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-060",
+   "kata": "Ttsura ichi (satu muka)",
+   "kana": "Ttsura ichi (satu muka)",
+   "romaji": "",
+   "arti": "Kata ini menyatakan keadaan di mana permukaan dari 2 material adalah sejajar secara merata",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-061",
+   "kata": "Sori",
+   "kana": "Sori",
+   "romaji": "",
+   "arti": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-062",
+   "kata": "Okori",
+   "kana": "Okori",
+   "romaji": "",
+   "arti": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cembung",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-063",
+   "kata": "Nige",
+   "kana": "Nige",
+   "romaji": "",
+   "arti": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-064",
+   "kata": "Beta",
+   "kana": "Beta",
+   "romaji": "",
+   "arti": "Kata yang menggambarkan kondisi yang menyebar ke seluruh permukaan tanpa ada celah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-065",
+   "kata": "Fukashi",
+   "kana": "Fukashi",
+   "romaji": "",
+   "arti": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-066",
+   "kata": "Temodori (pengerjaan ulang)",
+   "kana": "Temodori (pengerjaan ulang)",
+   "romaji": "",
+   "arti": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-067",
+   "kata": "Tenaoshi (pembetulan)",
+   "kana": "Tenaoshi (pembetulan)",
+   "romaji": "",
+   "arti": "Memperbaiki sebagian dari pekerjaan yang sudah selesai",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-068",
+   "kata": "Dame (tidak boleh)",
+   "kana": "Dame (tidak boleh)",
+   "romaji": "",
+   "arti": "Digunakan untuk menyatakan bahwa ada sesuatu yang terlewatkan atau tertinggal pada tahap setelah pekerjaan arsitektur hampir selesai",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-069",
+   "kata": "Pitch",
+   "kana": "Pitch",
+   "romaji": "",
+   "arti": "Ini adalah interval alokasi",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-070",
+   "kata": "Ikuti",
+   "kana": "Ikuti",
+   "romaji": "",
+   "arti": "Mengeluarkan dimensi dari posisi referensi",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-071",
+   "kata": "Dimensi",
+   "kana": "Dimensi",
+   "romaji": "",
+   "arti": "Hal tentang panjang",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-072",
+   "kata": "Ikken",
+   "kana": "Ikken",
+   "romaji": "",
+   "arti": "Satuan panjang yang telah digunakan sejak zaman dulu di Jepang",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-073",
+   "kata": "Issun",
+   "kana": "Issun",
+   "romaji": "",
+   "arti": "1/10 dari isshaku",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-074",
+   "kata": "Satu tsubo",
+   "kana": "Satu tsubo",
+   "romaji": "",
+   "arti": "Satuan luas yang telah digunakan sejak zaman dulu di Jepang",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-075",
+   "kata": "Konstruksi RC",
+   "kana": "Konstruksi RC",
+   "romaji": "",
+   "arti": "RC singkatan dari Reinforced Concrete",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-076",
+   "kata": "Konstruksi S",
+   "kana": "Konstruksi S",
+   "romaji": "",
+   "arti": "S singkatan dari Steel",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-077",
+   "kata": "Konstruksi SRC",
+   "kana": "Konstruksi SRC",
+   "romaji": "",
+   "arti": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-078",
+   "kata": "Struktur kayu",
+   "kana": "Struktur kayu",
+   "romaji": "",
+   "arti": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-079",
+   "kata": "Koneksi",
+   "kana": "Koneksi",
+   "romaji": "",
+   "arti": "Secara umum, menghubungkan 2 hal atau lebih disebut “koneksi”. Saat menghubungkan jalur komunikasi, itu juga disebut “koneksi jalur”",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-080",
+   "kata": "Pengabelan",
+   "kana": "Pengabelan",
+   "romaji": "",
+   "arti": "Meregangkan kabel logam, kabel serat optik, dll",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-081",
+   "kata": "Pemisahan",
+   "kana": "Pemisahan",
+   "romaji": "",
+   "arti": "Memisahkan kabel dan pipa satu sama lain",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-082",
+   "kata": "Isolasi",
+   "kana": "Isolasi",
+   "romaji": "",
+   "arti": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-083",
+   "kata": "Penetrasi",
+   "kana": "Penetrasi",
+   "romaji": "",
+   "arti": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-084",
+   "kata": "Conduit",
+   "kana": "Conduit",
+   "romaji": "",
+   "arti": "Pipa yang dilalui kabel listrik",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-085",
+   "kata": "Pembenaman",
+   "kana": "Pembenaman",
+   "romaji": "",
+   "arti": "Mengubur kabel listrik, dll. di dalam tanah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-086",
+   "kata": "Pengabelan overhead",
+   "kana": "Pengabelan overhead",
+   "romaji": "",
+   "arti": "Metode pengabelan kabel ke bagian dalam bangunan menggunakan tiang listrik",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-087",
+   "kata": "Plumbing",
+   "kana": "Plumbing",
+   "romaji": "",
+   "arti": "Memasang pipa yang dilalui kabel",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-088",
+   "kata": "Wiring",
+   "kana": "Wiring",
+   "romaji": "",
+   "arti": "Melewatkan kabel melalui pipa",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-089",
+   "kata": "Pemipaan pelat",
+   "kana": "Pemipaan pelat",
+   "romaji": "",
+   "arti": "Plumbing yang dibenamkan di lantai atau plafon bangunan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-090",
+   "kata": "MDF",
+   "kana": "MDF",
+   "romaji": "",
+   "arti": "Singkatan dari Main Distribution Frame dan merupakan panel distribusi kabel untuk",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-091",
+   "kata": "Sengatan listrik",
+   "kana": "Sengatan listrik",
+   "romaji": "",
+   "arti": "Arus listrik yang mengalir melalui tubuh manusia",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-092",
+   "kata": "Kebocoran listrik",
+   "kana": "Kebocoran listrik",
+   "romaji": "",
+   "arti": "Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-093",
+   "kata": "Pentanahan/grounding",
+   "kana": "Pentanahan/grounding",
+   "romaji": "",
+   "arti": "Menyambungkan peralatan listrik atau sirkuit ke tanah secara elektrik",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-094",
+   "kata": "Penangkal petir",
+   "kana": "Penangkal petir",
+   "romaji": "",
+   "arti": "Peralatan untuk melindungi bangunan dan manusia dari petir",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-095",
+   "kata": "Alat penangkal petir",
+   "kana": "Alat penangkal petir",
+   "romaji": "",
+   "arti": "Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-096",
+   "kata": "Korsleting",
+   "kana": "Korsleting",
+   "romaji": "",
+   "arti": "Terhubungnya 2 titik dalam rangkaian listrik dengan konduktor berhambatan rendah",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-097",
+   "kata": "Crimping",
+   "kana": "Crimping",
+   "romaji": "",
+   "arti": "Penyambungan dengan memberikan tekanan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-098",
+   "kata": "Pelapis",
+   "kana": "Pelapis",
+   "romaji": "",
+   "arti": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-099",
+   "kata": "Listrik hidup",
+   "kana": "Listrik hidup",
+   "romaji": "",
+   "arti": "Artinya listrik melewati benda itu",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-100",
+   "kata": "Ataru",
+   "kana": "Ataru",
+   "romaji": "",
+   "arti": "Menyelidiki sesuatu disebut “ataru”. Dalam pekerjaan listrik, istilah ini digunakan saat menggunakan detektor tegangan untuk memeriksa…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-101",
+   "kata": "Crimp",
+   "kana": "Crimp",
+   "romaji": "",
+   "arti": "Mengencangkan dengan kuat sambungan kawat dengan menghancurkan terminal crimping seperti sleeve ring, dll. dengan menggunakan tang…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-102",
+   "kata": "Furu (geser)",
+   "kana": "Furu (geser)",
+   "romaji": "",
+   "arti": "Mengubah rute pemipaan dan pengabelan untuk menghindari rintangan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-103",
+   "kata": "Terbang/jatuh",
+   "kana": "Terbang/jatuh",
+   "romaji": "",
+   "arti": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-104",
+   "kata": "AC",
+   "kana": "AC",
+   "romaji": "",
+   "arti": "Menyesuaikan suhu, kelembapan, dll. ruangan",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-105",
+   "kata": "Suhu",
+   "kana": "Suhu",
+   "romaji": "",
+   "arti": "Kata yang menyatakan derajat panas atau dingin",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-106",
+   "kata": "Kelembapan",
+   "kana": "Kelembapan",
+   "romaji": "",
+   "arti": "Persentase kandungan air di udara",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-107",
+   "kata": "Ventilasi",
+   "kana": "Ventilasi",
+   "romaji": "",
+   "arti": "Menukar udara kotor di dalam ruangan dengan udara bersih",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-108",
+   "kata": "Pembuangan asap",
+   "kana": "Pembuangan asap",
+   "romaji": "",
+   "arti": "Mengeluarkan asap yang dihasilkan saat terjadi kebakaran, dll. dari dalam ruangan ke luar",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-109",
+   "kata": "Kebersihan",
+   "kana": "Kebersihan",
+   "romaji": "",
+   "arti": "Melindungi kesehatan manusia dan menjaga sanitasi",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-110",
+   "kata": "Lining (pelapisan)",
+   "kana": "Lining (pelapisan)",
+   "romaji": "",
+   "arti": "Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-111",
+   "kata": "Uji kebocoran",
+   "kana": "Uji kebocoran",
+   "romaji": "",
+   "arti": "Ini adalah pengujian untuk memeriksa bahwa tidak ada air yang bocor (disebut kebocoran air) setelah pemipaan selesai",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-112",
+   "kata": "Uji tekanan hidrolik",
+   "kana": "Uji tekanan hidrolik",
+   "romaji": "",
+   "arti": "Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-113",
+   "kata": "Uji air penuh",
+   "kana": "Uji air penuh",
+   "romaji": "",
+   "arti": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  },
+  {
+   "id": "cn-114",
+   "kata": "Gradien",
+   "kana": "Gradien",
+   "romaji": "",
+   "arti": "Kemiringan yang landai untuk memungkinkan air mengalir",
+   "cat": "Istilah lokasi",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ]
+  }
+ ]
+}

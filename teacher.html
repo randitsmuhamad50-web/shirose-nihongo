@@ -152,8 +152,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261111c";
-import { renderSswTab } from "./js/ssw-teacher.js?v=20261111c";
+import * as FB from "./js/firebase-sync.js?v=20261111f";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261111f";
 
 const state = {
   user: null,
@@ -589,7 +589,7 @@ window.buatAkunBaru = async () => {
 const _ya = (v) => /^(ya|y|yes|1|true|aktif|v|✓|x)$/i.test(String(v ?? "").trim());
 // Kolom akses SSW di Excel → slug bidang. Kosong = tidak diatur (TIDAK otomatis diberi akses).
 const SSW_KOLOM = [["SSW Building Cleaning","building-cleaning"],["SSW Kaigo","kaigo"],["SSW Kaigo Indonesia","kaigo"],["SSW Kaigo Jepang","kaigo"],["SSW Food Manufacturing","food-manufacturing"],
-  ["SSW Food Service","food-service"],["SSW Food Service Indonesia","food-service"],["SSW Food Service Jepang","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
+  ["SSW Food Service","food-service"],["SSW Food Service Indonesia","food-service"],["SSW Food Service Jepang","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Construction Sipil","construction"],["SSW Construction Bangunan","construction-bangunan"],["SSW Construction Lifeline","construction-lifeline"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
 const _tidak = (v) => /^(tidak|t|no|n|0|false|blokir)$/i.test(String(v ?? "").trim());
 function _bacaSsw(r){ const o = {}; for (const [kol, slug] of SSW_KOLOM){ const v = r[kol] ?? r[kol.toLowerCase()]; if (_ya(v)) o[slug] = true; else if (_tidak(v)) o[slug] = false; } return o; }
 window.downloadFormatSiswa = () => {

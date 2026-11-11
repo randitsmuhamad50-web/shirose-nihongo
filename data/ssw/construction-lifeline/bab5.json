@@ -1,0 +1,233 @@
+{
+ "schema": 1,
+ "bidang": "construction-lifeline",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori lifeline: Textbook THEORY_ID (hal. 1–117) + PRACTICE_ID hal. 5–98 (hal. 118–211)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab5",
+  "no": 5,
+  "title": {
+   "id": "Alat, Mesin, Material, dan Alat Ukur",
+   "jp": "{道具|どうぐ}・{機械|きかい}・{材料|ざいりょう}"
+  },
+  "intro": {
+   "id": "Alat dan material pekerjaan lifeline dan peralatan, serta alat umum (buku praktik).",
+   "jp": "{道具|どうぐ}・{機械|きかい}・{材料|ざいりょう}"
+  },
+  "pages": [
+   118,
+   155
+  ],
+  "subs": [
+   {
+    "id": "b5s1",
+    "no": 1,
+    "title": {
+     "id": "Mesin Konstruksi dan Peralatan Listrik",
+     "jp": "{建設機械|けんせつきかい}と{電気設備|でんきせつび}"
+    },
+    "pages": [
+     118,
+     126
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Mesin konstruksi serta alat dan material pekerjaan peralatan listrik."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Mesin konstruksi (hal. 118)",
+        "Pekerjaan peralatan listrik (hal. 120)"
+       ]
+      },
+      {
+       "h": "Contoh mesin konstruksi (dari buku)"
+      },
+      {
+       "ul": [
+        "**Crane**: mengangkat dan memindahkan beban; jenis tower crane, rough terrain crane, crawler crane.",
+        "**Tower crane**: untuk gedung tinggi; bagian crane naik bersama tiang (mast climbing) atau bersama bangunan (floor climbing).",
+        "**Ekskavator hidrolik (backhoe)**: menggali dan memuat dengan boom, arm, dan bucket; attachment bisa diganti (breaker, ripper, crusher).",
+        "**Perancah jenis pengikat baji**: dirakit dan dibongkar dengan satu palu; material galvanis tahan karat."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Mesin konstruksi serta alat dan material pekerjaan peralatan listrik.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s2",
+    "no": 2,
+    "title": {
+     "id": "Telekomunikasi",
+     "jp": "{通信|つうしん}{工事|こうじ}"
+    },
+    "pages": [
+     127,
+     133
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat dan material pekerjaan telekomunikasi."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pekerjaan telekomunikasi (hal. 127)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat dan material pekerjaan telekomunikasi.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s3",
+    "no": 3,
+    "title": {
+     "id": "Pendingin, Air-Drainase, Isolasi, Pemadam",
+     "jp": "{空調|くうちょう}・{給排水|きゅうはいすい}・{消防|しょうぼう}"
+    },
+    "pages": [
+     134,
+     136
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat dan material AC, suplai air-drainase-sanitasi, isolasi panas, dan fasilitas pemadam."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pekerjaan peralatan pendingin dan pengatur udara (hal. 134)",
+        "Pekerjaan peralatan suplai air, drainase dan kebersihan (hal. 134)",
+        "Pekerjaan menjaga suhu panas dan dingin (hal. 135)",
+        "Pekerjaan fasilitas pemadam kebakaran (hal. 135)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat dan material AC, suplai air-drainase-sanitasi, isolasi panas, dan fasilitas pemadam.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s4",
+    "no": 4,
+    "title": {
+     "id": "Alat dan Material Umum",
+     "jp": "{共通|きょうつう}の{道具|どうぐ}"
+    },
+    "pages": [
+     137,
+     155
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alat listrik, penggali, penanda, pengukur, pemotong, pemukul, pengencang, pengangkut, tangga, pembersih."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Alat listrik (hal. 137)",
+        "Menggali/meratakan/memadatkan dan mengencangkan (hal. 140)",
+        "Penandaan dan menandakan (hal. 142)",
+        "Mengukur/memeriksa (hal. 143)",
+        "Memotong/menekuk/memangkas (hal. 145)",
+        "Memukul/mencabut (hal. 146)",
+        "Mengikis/memoles/mengebor (hal. 147)",
+        "Mengetatkan/mengencangkan (hal. 148)",
+        "Menguleni/mencampur (hal. 149)",
+        "Merawat (hal. 150)",
+        "Menghilangkan kotoran (hal. 151)",
+        "Mengangkut barang (hal. 151)",
+        "Menggantung/mengangkat/menarik (hal. 152)",
+        "Alas kerja/tangga (hal. 154)",
+        "Membersihkan (hal. 155)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alat listrik, penggali, penanda, pengukur, pemotong, pemukul, pengencang, pengangkut, tangga, pembersih.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
