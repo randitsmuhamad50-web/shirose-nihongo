@@ -2,14 +2,14 @@
 """Ganti bacaan Dokkai di jlpt/{lv}/full-01..10.json dengan bank bacaan panjang (tools/dokkai_long/{lv}_*.py).
 Bacaan 情報検索 (info) yang sudah ada dipertahankan; sisanya diganti. Jumlah soal tetap (target level).
 Pakai: python3 tools/jlpt_dokkai_long.py n1 [n2 ...]"""
-import json, os, sys, glob, importlib.util
+import json, os, sys, glob, random, hashlib, importlib.util
 H = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.join(H, '..')
 L = 'ABCD'
 PLAN = {  # urutan slot per ujian: (slot, jumlah bacaan)
  'n1': [('tan', 4), ('chu', 2), ('tou', 1), ('cho', 1)],
  'n2': [('tan', 4), ('chu', 2), ('tou', 1), ('cho', 1)],
  'n3': [('tan', 3), ('chu', 2), ('cho', 1)],
- 'n4': [('tan', 2), ('chu', 2)],
+ 'n4': [('tan', 3), ('chu', 2)],
  'n5': [('tan', 2), ('chu', 1)],
 }
 def bank(lv):
@@ -45,7 +45,11 @@ def apply(lv):
             for (q, opts, ans, alasan, bukti, wrong, poin) in qs:
                 assert len(opts) == 4 and len(wrong) == 3 and 0 <= ans < 4 and len(set(opts)) == 4, (lv, e, q)
                 wi = iter(wrong)
-                lines = [f'{L[i]}. {o} — BENAR. {alasan}' if i == ans else f'{L[i]}. {o} — Salah. {next(wi)}' for i, o in enumerate(opts)]
+                tag = [(o, i == ans, alasan if i == ans else next(wi)) for i, o in enumerate(opts)]
+                rr = random.Random(int(hashlib.md5((lv + str(e % 3) + q).encode()).hexdigest()[:8], 16))
+                rr.shuffle(tag)
+                opts = [t[0] for t in tag]; ans = next(i for i, t in enumerate(tag) if t[1])
+                lines = [f'{L[i]}. {t[0]} — BENAR. {t[2]}' if t[1] else f'{L[i]}. {t[0]} — Salah. {t[2]}' for i, t in enumerate(tag)]
                 items.append({'cat': 'dokkai', 'tipe': 'dokkai', 'tipe_jp': '読解', 'pid': pid, 'q': q, 'opts': opts, 'ans': ans,
                               'ex': {'jawaban': f'{L[ans]}. {opts[ans]}', 'terjemahan': passages[pid]['id'], 'alasan': alasan,
                                      'bukti': bukti, 'opsi': lines, 'kosakata': None, 'poin': poin}})
