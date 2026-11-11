@@ -100,7 +100,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: main }
       - name: Pasang ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) || command -v ffmpeg
       - name: Tunggu VOICEVOX
         run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
       - name: Buat audio Choukai
@@ -155,7 +155,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: main }
       - name: Pasang ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) || command -v ffmpeg
       - name: Tunggu VOICEVOX
         run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
       - name: Buat audio materi
