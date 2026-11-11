@@ -19,7 +19,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kondisi tidak kosong disebut \"penuh\" (manshitsu), kondisi kosong disebut \"kamar kosong\" (kuushitsu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-002",
@@ -40,7 +42,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kondisi tidak kosong disebut \"penuh\" (manshitsu), kondisi kosong disebut \"kamar kosong\" (kuushitsu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-003",
@@ -61,7 +65,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Pada pertanyaan, selalu pastikan tanggal menginap dan nama pemesan, kenali tamunya, lalu layani.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-004",
@@ -119,7 +125,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pembatalan dikenai biaya sesuai kebijakan pembatalan yang ditetapkan penginapan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-007",
@@ -154,7 +162,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Check-in umumnya jam 14.00 atau 15.00, check-out jam 10.00 atau 11.00.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-009",
@@ -191,7 +201,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-011",
@@ -212,7 +224,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-012",
@@ -230,7 +244,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tugas doorman: menyambut dan mengantar tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-013",
@@ -285,7 +301,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tugas concierge: memberi informasi dan mengatur hal di dalam dan luar gedung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-016",
@@ -323,7 +341,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terbitkan dan tunjukkan rincian tagihan yang memuat pemakaian fasilitas, biaya menginap, biaya layanan, pajak, dan sebagainya, lalu tagih biayanya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-018",
@@ -344,7 +364,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terbitkan dan tunjukkan rincian tagihan yang memuat pemakaian fasilitas, biaya menginap, biaya layanan, pajak, dan sebagainya, lalu tagih biayanya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-019",
@@ -364,7 +386,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Setelah pembayaran, terbitkan dan serahkan kuitansi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-020",
@@ -514,7 +538,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"Ulasan dari mulut ke mulut\" juga kekuatan besar untuk menarik tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-028",
@@ -716,7 +742,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pelayanan tulus dari hati disebut \"omotenashi\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-039",
@@ -754,7 +782,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dasarnya \"ichijuu sansai\": menu berisi nasi, sup, dan tiga lauk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-041",
@@ -795,7 +825,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Gunakan bahan makanan musiman (shun) yang segar dan enak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-043",
@@ -830,7 +862,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Alergen umum antara lain telur, susu, kacang-kacangan, makanan laut, gandum, dan kedelai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-045",
@@ -918,7 +952,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Halal: masakan yang dimasak dengan bahan dan cara yang diizinkan menurut hukum Islam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-050",
@@ -976,7 +1012,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penting melakukan pengelolaan kebersihan yang tepat agar tidak terjadi keracunan makanan dan penyakit menular.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-053",
@@ -997,7 +1035,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penting melakukan pengelolaan kebersihan yang tepat agar tidak terjadi keracunan makanan dan penyakit menular.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0054",
@@ -1021,7 +1061,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Pesanan room service diulang dan dikonfirmasi isinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0055",
@@ -1044,7 +1086,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Halal: masakan yang dimasak dengan bahan dan cara yang diizinkan menurut hukum Islam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0056",
@@ -1068,7 +1112,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk tamu asing, hukum Jepang mewajibkan menyalin dan menyimpan paspor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0057",
@@ -1090,7 +1136,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas doorman: menyambut dan mengantar tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0058",
@@ -1115,7 +1163,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Layani dengan penampilan bersih, sikap tubuh benar, dan bahasa sopan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0059",
@@ -1138,7 +1188,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Saat makan, letakkan pisau dan garpu di atas piring membentuk huruf \"ハ\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0060",
@@ -1160,7 +1212,9 @@
    "contoh": "明るく元気に笑顔で、相手に届く声で、相手の目を見て、気持ちを込めてあいさつします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Beri salam dengan ceria, senyum, suara yang terdengar, menatap mata lawan bicara, dan sepenuh hati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0061",
@@ -1183,7 +1237,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas concierge: memberi informasi dan mengatur hal di dalam dan luar gedung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0062",
@@ -1205,7 +1261,9 @@
    "contoh": "心のこもった接客やサービスを「おもてなし」といいます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pelayanan tulus dari hati disebut \"omotenashi\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0063",
@@ -1249,7 +1307,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang terpenting adalah membuat tamu menginap puas dengan perasaan \"senang menginap di sini\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0065",
@@ -1271,7 +1331,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas concierge: memberi informasi dan mengatur hal di dalam dan luar gedung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0066",
@@ -1314,7 +1376,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting melakukan pengelolaan kebersihan yang tepat agar tidak terjadi keracunan makanan dan penyakit menular.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0068",
@@ -1356,7 +1420,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting menguasai tata krama yang benar (cara berbahasa dan sebagainya).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0070",
@@ -1377,7 +1443,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Saat menutup telepon, tutup setelah tamu menutup.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0071",
@@ -1397,7 +1465,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0072",
@@ -1419,7 +1489,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Layani dengan penampilan bersih, sikap tubuh benar, dan bahasa sopan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0073",
@@ -1460,7 +1532,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pembersihan rutin membuat tamu nyaman makan dan juga mencegah keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0075",
@@ -1483,7 +1557,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Salam adalah dasar pelayanan tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0076",
@@ -1505,7 +1581,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bicara dengan menatap mata tamu dan tersenyum.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0077",
@@ -1545,7 +1623,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kita tidak tahu kapan dan di mana kebakaran, bencana alam, atau kecelakaan terjadi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0079",
@@ -1566,7 +1646,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas yang mengurus prosedur dan pembayaran saat tamu pulang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0080",
@@ -1586,7 +1668,9 @@
    "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0081",
@@ -1626,7 +1710,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting melakukan pengelolaan kebersihan yang tepat agar tidak terjadi keracunan makanan dan penyakit menular.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0083",
@@ -1666,7 +1752,9 @@
    "contoh": "予約時や来店時に必ずアレルギーの有無を確認し、正確な情報を調理場やスタッフ内で共有します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0085",
@@ -1686,7 +1774,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0086",
@@ -1707,7 +1797,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0087",
@@ -1728,7 +1820,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selalu ketuk pintu atau bunyikan bel, dan masuk kamar setelah mendapat izin tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0088",
@@ -1749,7 +1843,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0089",
@@ -1770,7 +1866,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan bahan makanan musiman (shun) yang segar dan enak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0090",
@@ -1828,7 +1926,9 @@
    "contoh": "ナイフは右手、フォークは左手。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pisau di tangan kanan, garpu di tangan kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0093",
@@ -1847,7 +1947,9 @@
    "contoh": "ナイフは右手、フォークは左手。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pisau di tangan kanan, garpu di tangan kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0094",
@@ -1867,7 +1969,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci tangan sebelum dan sesudah menangani makanan dan setelah memakai toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0095",
@@ -1887,7 +1991,9 @@
    "contoh": "小さな不備が大きな事故につながる可能性があります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kekurangan kecil dapat menjadi kecelakaan besar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0096",
@@ -1906,7 +2012,9 @@
    "contoh": "広報は自社の活動や商品の情報発信を行う仕事です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Humas adalah pekerjaan menyebarkan informasi tentang kegiatan dan produk perusahaan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0097",
@@ -1926,7 +2034,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penginapan adalah fasilitas tempat banyak tamu tak tertentu tinggal dalam waktu lama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0098",
@@ -1946,7 +2056,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kondisi tidak kosong disebut \"penuh\" (manshitsu), kondisi kosong disebut \"kamar kosong\" (kuushitsu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0099",
@@ -1967,7 +2079,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terbitkan dan tunjukkan rincian tagihan yang memuat pemakaian fasilitas, biaya menginap, biaya layanan, pajak, dan sebagainya, lalu tagih biayanya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0100",
@@ -2043,7 +2157,9 @@
    "contoh": "キャンセルは宿泊施設が定めるキャンセルポリシーにしたがい、キャンセル料をいただきます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pembatalan dikenai biaya sesuai kebijakan pembatalan yang ditetapkan penginapan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0104",
@@ -2081,7 +2197,9 @@
    "contoh": "日本ではチップを受け取る文化はありません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di Jepang tidak ada budaya menerima tip.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0106",
@@ -2102,7 +2220,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penginapan adalah fasilitas tempat banyak tamu tak tertentu tinggal dalam waktu lama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0107",
@@ -2123,7 +2243,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Setelah pembayaran, terbitkan dan serahkan kuitansi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0108",
@@ -2142,7 +2264,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0109",
@@ -2219,7 +2343,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Hormat biasa (keirei): membungkuk sekitar 30°.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0113",
@@ -2239,7 +2365,9 @@
    "contoh": "お年寄りや障がいのあるお客様にはお声がけして必要なサポートを確認する。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Kepada tamu lansia dan penyandang disabilitas, tegur dan pastikan dukungan yang diperlukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0114",
@@ -2277,7 +2405,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Nasi diletakkan di kiri, sup di kanan, lauk pendamping di kiri belakang, lauk utama di kanan belakang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0116",
@@ -2295,7 +2425,9 @@
    "contoh": "左側にご飯、右側に汁、左奥に副菜、右奥に主菜を置きます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Nasi diletakkan di kiri, sup di kanan, lauk pendamping di kiri belakang, lauk utama di kanan belakang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0117",
@@ -2333,7 +2465,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0119",
@@ -2353,7 +2487,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seiring pentingnya SDGs, jalankan upaya yang ramah lingkungan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0120",
@@ -2466,7 +2602,9 @@
    "contoh": "あらゆるリスクからお客様の安全を確保することが何より重要です。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Yang terpenting adalah menjamin keselamatan tamu dari segala risiko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0126",
@@ -2486,7 +2624,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas concierge: memberi informasi dan mengatur hal di dalam dan luar gedung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0127",
@@ -2505,7 +2645,9 @@
    "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0128",
@@ -2524,7 +2666,9 @@
    "contoh": "日本ではチップを受け取る文化はありません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di Jepang tidak ada budaya menerima tip.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0129",
@@ -2564,7 +2708,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pembersihan rutin membuat tamu nyaman makan dan juga mencegah keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0131",
@@ -2603,7 +2749,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada pertanyaan, selalu pastikan tanggal menginap dan nama pemesan, kenali tamunya, lalu layani.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0133",
@@ -2622,7 +2770,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Layani dengan penampilan bersih, sikap tubuh benar, dan bahasa sopan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0134",
@@ -2641,7 +2791,9 @@
    "contoh": "日本では接客サービスにおいて「おもてなし」という言葉を用います。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di Jepang, dalam pelayanan tamu dipakai kata \"omotenashi\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0135",
@@ -2661,7 +2813,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0136",
@@ -2682,7 +2836,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk tamu asing, hukum Jepang mewajibkan menyalin dan menyimpan paspor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0137",
@@ -2701,7 +2857,9 @@
    "contoh": "お部屋への行き方、利用できる場所と時間、非常口と避難経路を丁寧に説明します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jelaskan dengan sopan cara menuju kamar, tempat dan waktu yang bisa dipakai, pintu darurat dan jalur evakuasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0138",
@@ -2721,7 +2879,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Pesanan room service diulang dan dikonfirmasi isinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0139",
@@ -2741,7 +2901,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pesanan room service diulang dan dikonfirmasi isinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0140",
@@ -2796,7 +2958,9 @@
    "contoh": "ハラール：イスラム法に基づいて許可された食品や方法で調理された料理。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Halal: masakan yang dimasak dengan bahan dan cara yang diizinkan menurut hukum Islam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0143",
@@ -2833,7 +2997,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Setelah pembayaran, terbitkan dan serahkan kuitansi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0145",
@@ -2909,7 +3075,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang terpenting adalah menjamin keselamatan tamu dari segala risiko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0149",
@@ -2928,7 +3096,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Humas adalah pekerjaan menyebarkan informasi tentang kegiatan dan produk perusahaan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0150",
@@ -3038,7 +3208,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Salam adalah dasar pelayanan tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0156",
@@ -3057,7 +3229,9 @@
    "contoh": "明るく元気に笑顔で、相手に届く声で、相手の目を見て、気持ちを込めてあいさつします。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Beri salam dengan ceria, senyum, suara yang terdengar, menatap mata lawan bicara, dan sepenuh hati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0157",
@@ -3077,7 +3251,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Beri salam dengan ceria, senyum, suara yang terdengar, menatap mata lawan bicara, dan sepenuh hati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0158",
@@ -3151,7 +3327,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pisau di tangan kanan, garpu di tangan kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0162",
@@ -3171,7 +3349,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ada tiga jenis bahasa hormat (keigo).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0163",
@@ -3191,7 +3371,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Meski permintaan mendadak, jangan langsung menolak; pikirkan cara memenuhinya, dan jika tidak bisa memutuskan, konsultasikan ke atasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0164",
@@ -3211,7 +3393,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Meski permintaan mendadak, jangan langsung menolak; pikirkan cara memenuhinya, dan jika tidak bisa memutuskan, konsultasikan ke atasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0165",
@@ -3340,7 +3524,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat makan, letakkan pisau dan garpu di atas piring membentuk huruf \"ハ\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0172",
@@ -3397,7 +3583,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0175",
@@ -3506,7 +3694,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang terpenting adalah menjamin keselamatan tamu dari segala risiko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0181",
@@ -3637,7 +3827,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting melakukan pengelolaan kebersihan yang tepat agar tidak terjadi keracunan makanan dan penyakit menular.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0188",
@@ -3656,7 +3848,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kekurangan kecil dapat menjadi kecelakaan besar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0189",
@@ -3693,7 +3887,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pekerjaan yang mengurus berbagai prosedur dari menyambut sampai mengantar tamu, disebut \"wajah penginapan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0191",
@@ -3712,7 +3908,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting menguasai tata krama yang benar (cara berbahasa dan sebagainya).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0192",
@@ -3981,7 +4179,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Layani dengan penampilan bersih, sikap tubuh benar, dan bahasa sopan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0207",
@@ -4000,7 +4200,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk tamu asing, hukum Jepang mewajibkan menyalin dan menyimpan paspor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0208",
@@ -4018,7 +4220,9 @@
    "contoh": "外国人のお客様の場合、パスポートのコピーをとって保管することが日本の法律で定められています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk tamu asing, hukum Jepang mewajibkan menyalin dan menyimpan paspor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0209",
@@ -4037,7 +4241,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk tamu asing, hukum Jepang mewajibkan menyalin dan menyimpan paspor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0210",
@@ -4055,7 +4261,9 @@
    "contoh": "外国人のお客様の場合、パスポートのコピーをとって保管することが日本の法律で定められています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk tamu asing, hukum Jepang mewajibkan menyalin dan menyimpan paspor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0211",
@@ -4074,7 +4282,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pesanan room service diulang dan dikonfirmasi isinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0212",
@@ -4146,7 +4356,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas concierge: memberi informasi dan mengatur hal di dalam dan luar gedung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0216",
@@ -4165,7 +4377,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas concierge: memberi informasi dan mengatur hal di dalam dan luar gedung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0217",
@@ -4202,7 +4416,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selalu ketuk pintu atau bunyikan bel, dan masuk kamar setelah mendapat izin tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0219",
@@ -4221,7 +4437,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Proses prosedur dengan lancar dan minta pembayaran tanpa kesalahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0220",
@@ -4240,7 +4458,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tugas yang mengurus prosedur dan pembayaran saat tamu pulang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0221",
@@ -4277,7 +4497,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di Jepang tidak ada budaya menerima tip.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0223",
@@ -4296,7 +4518,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terbitkan dan tunjukkan rincian tagihan yang memuat pemakaian fasilitas, biaya menginap, biaya layanan, pajak, dan sebagainya, lalu tagih biayanya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0224",
@@ -4315,7 +4539,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terbitkan dan tunjukkan rincian tagihan yang memuat pemakaian fasilitas, biaya menginap, biaya layanan, pajak, dan sebagainya, lalu tagih biayanya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0225",
@@ -4335,7 +4561,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terbitkan dan tunjukkan rincian tagihan yang memuat pemakaian fasilitas, biaya menginap, biaya layanan, pajak, dan sebagainya, lalu tagih biayanya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0226",
@@ -4372,7 +4600,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0228",
@@ -4391,7 +4621,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0229",
@@ -4410,7 +4642,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0230",
@@ -4467,7 +4701,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0233",
@@ -4486,7 +4722,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tetapkan segmen tamu target dengan benar, pahami kebutuhan lewat pemasaran, lalu rancang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0234",
@@ -4686,7 +4924,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Direct booking: memesan/berkontrak langsung tanpa melalui biro perjalanan atau OTA.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0245",
@@ -4706,7 +4946,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Direct booking: memesan/berkontrak langsung tanpa melalui biro perjalanan atau OTA.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0246",
@@ -4886,7 +5128,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Humas adalah pekerjaan menyebarkan informasi tentang kegiatan dan produk perusahaan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0256",
@@ -4906,7 +5150,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Humas adalah pekerjaan menyebarkan informasi tentang kegiatan dan produk perusahaan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0257",
@@ -4925,7 +5171,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Humas adalah pekerjaan menyebarkan informasi tentang kegiatan dan produk perusahaan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0258",
@@ -4944,7 +5192,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Humas adalah pekerjaan menyebarkan informasi tentang kegiatan dan produk perusahaan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0259",
@@ -5052,7 +5302,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Ulasan dari mulut ke mulut\" juga kekuatan besar untuk menarik tamu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0265",
@@ -5712,7 +5964,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Hormat biasa (keirei): membungkuk sekitar 30°.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0302",
@@ -5768,7 +6022,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Meski permintaan mendadak, jangan langsung menolak; pikirkan cara memenuhinya, dan jika tidak bisa memutuskan, konsultasikan ke atasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0305",
@@ -5787,7 +6043,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Meski permintaan mendadak, jangan langsung menolak; pikirkan cara memenuhinya, dan jika tidak bisa memutuskan, konsultasikan ke atasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0306",
@@ -5806,7 +6064,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ada tiga jenis bahasa hormat (keigo).",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0307",
@@ -5879,7 +6139,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang terpenting adalah membuat tamu menginap puas dengan perasaan \"senang menginap di sini\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0311",
@@ -6256,7 +6518,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sinonim dari \"hospitality\" dalam bahasa Inggris.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0332",
@@ -6275,7 +6539,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sinonim dari \"hospitality\" dalam bahasa Inggris.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0333",
@@ -6294,7 +6560,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sinonim dari \"hospitality\" dalam bahasa Inggris.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0334",
@@ -6437,7 +6705,9 @@
    "contoh": "髪型はきちんと整え、顔にかからないようまとめる。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Rapikan gaya rambut dan ikat agar tidak menutupi wajah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0342",
@@ -6689,7 +6959,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pegang gelas di bagian bawah setengah tinggi gelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0356",
@@ -6707,7 +6979,9 @@
    "contoh": "グラスはコップの半分よりも下を持つ。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pegang gelas di bagian bawah setengah tinggi gelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0357",
@@ -6725,7 +6999,9 @@
    "contoh": "グラスはコップの半分よりも下を持つ。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pegang gelas di bagian bawah setengah tinggi gelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0358",
@@ -6761,7 +7037,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan bahan makanan musiman (shun) yang segar dan enak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0360",
@@ -6779,7 +7057,9 @@
    "contoh": "新鮮で味が良い季節ごとの食材（旬の食材）を使います。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Gunakan bahan makanan musiman (shun) yang segar dan enak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0361",
@@ -6798,7 +7078,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dasarnya \"ichijuu sansai\": menu berisi nasi, sup, dan tiga lauk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0362",
@@ -6817,7 +7099,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Nasi diletakkan di kiri, sup di kanan, lauk pendamping di kiri belakang, lauk utama di kanan belakang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0363",
@@ -6836,7 +7120,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Nasi diletakkan di kiri, sup di kanan, lauk pendamping di kiri belakang, lauk utama di kanan belakang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0364",
@@ -6855,7 +7141,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Nasi diletakkan di kiri, sup di kanan, lauk pendamping di kiri belakang, lauk utama di kanan belakang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0365",
@@ -6874,7 +7162,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Nasi diletakkan di kiri, sup di kanan, lauk pendamping di kiri belakang, lauk utama di kanan belakang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0366",
@@ -7143,7 +7433,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pisau di tangan kanan, garpu di tangan kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0381",
@@ -7252,7 +7544,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0387",
@@ -7325,7 +7619,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alergen umum antara lain telur, susu, kacang-kacangan, makanan laut, gandum, dan kedelai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0391",
@@ -7343,7 +7639,9 @@
    "contoh": "一般的なアレルゲンは卵・牛乳・ナッツ類・魚介類・小麦・大豆などです。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Alergen umum antara lain telur, susu, kacang-kacangan, makanan laut, gandum, dan kedelai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0392",
@@ -7362,7 +7660,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alergen umum antara lain telur, susu, kacang-kacangan, makanan laut, gandum, dan kedelai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0393",
@@ -7381,7 +7681,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alergen umum antara lain telur, susu, kacang-kacangan, makanan laut, gandum, dan kedelai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0394",
@@ -7400,7 +7702,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alergen umum antara lain telur, susu, kacang-kacangan, makanan laut, gandum, dan kedelai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0395",
@@ -7419,7 +7723,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat reservasi atau kedatangan, selalu pastikan ada tidaknya alergi, dan bagikan informasi akurat ke dapur dan staf.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0396",
@@ -7437,7 +7743,9 @@
    "contoh": "食品をあつかう前後やトイレ使用後などに手を洗う。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Cuci tangan sebelum dan sesudah menangani makanan dan setelah memakai toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0397",
@@ -7474,7 +7782,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci tangan sebelum dan sesudah menangani makanan dan setelah memakai toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0399",
@@ -7493,7 +7803,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci tangan sebelum dan sesudah menangani makanan dan setelah memakai toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0400",
@@ -7656,7 +7968,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pembersihan rutin membuat tamu nyaman makan dan juga mencegah keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0409",
@@ -7889,7 +8203,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Halal: masakan yang dimasak dengan bahan dan cara yang diizinkan menurut hukum Islam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0422",
@@ -7907,7 +8223,9 @@
    "contoh": "ハラール：イスラム法に基づいて許可された食品や方法で調理された料理。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Halal: masakan yang dimasak dengan bahan dan cara yang diizinkan menurut hukum Islam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0423",
@@ -7926,7 +8244,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Halal: masakan yang dimasak dengan bahan dan cara yang diizinkan menurut hukum Islam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0424",
@@ -7962,7 +8282,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perlu berlatih sehari-hari, memahami risiko yang diperkirakan, dan mensimulasikan penanganannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0426",
@@ -7981,7 +8303,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penginapan adalah fasilitas tempat banyak tamu tak tertentu tinggal dalam waktu lama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0427",
@@ -8000,7 +8324,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penginapan adalah fasilitas tempat banyak tamu tak tertentu tinggal dalam waktu lama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0428",
@@ -8019,7 +8345,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penginapan adalah fasilitas tempat banyak tamu tak tertentu tinggal dalam waktu lama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0429",
@@ -8038,7 +8366,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kita tidak tahu kapan dan di mana kebakaran, bencana alam, atau kecelakaan terjadi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0430",
@@ -8057,7 +8387,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perlu berlatih sehari-hari, memahami risiko yang diperkirakan, dan mensimulasikan penanganannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0431",
@@ -8077,7 +8409,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perlu berlatih sehari-hari, memahami risiko yang diperkirakan, dan mensimulasikan penanganannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0432",
@@ -8096,7 +8430,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perlu berlatih sehari-hari, memahami risiko yang diperkirakan, dan mensimulasikan penanganannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0433",
@@ -8474,7 +8810,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan taruh benda mudah terbakar seperti linen dan sisa bahan makanan dekat api.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0454",
@@ -8530,7 +8868,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kepada tamu lansia dan penyandang disabilitas, tegur dan pastikan dukungan yang diperlukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0457",
@@ -8549,7 +8889,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kepada tamu lansia dan penyandang disabilitas, tegur dan pastikan dukungan yang diperlukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0458",
@@ -8871,7 +9213,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kekurangan kecil dapat menjadi kecelakaan besar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0476",
@@ -9069,7 +9413,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seiring pentingnya SDGs, jalankan upaya yang ramah lingkungan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "ac-a0487",
