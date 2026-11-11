@@ -682,7 +682,7 @@ const SSW = window.SSW = {
       ru.replaceWith(sp); sp.appendChild(ru);
     });
     const byKata = new Map(); for (const v of list) if (!byKata.has(v.kata)) byKata.set(v.kata, v);
-    const re = new RegExp([...byKata.keys()].sort((x, y) => y.length - x.length).map(k => { const e = k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); return KJ.test(k) ? "(?<![\\u4e00-\\u9fff])" + e + "(?![\\u4e00-\\u9fff])" : e; }).join("|"), "g");
+    const re = new RegExp([...byKata.keys()].sort((x, y) => y.length - x.length).map(k => { const e = k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); return KJ.test(k) ? "(?<![\\u4e00-\\u9fff])" + e + "(?![\\u4e00-\\u9fff])" : /^[\u3040-\u309f]+$/.test(k) ? "(?<![\\u3040-\\u309f])" + e : e; }).join("|"), "g");
     const BLK = "p,li,td,th,h1,h2,h3,h4,h5,figcaption,div,summary,blockquote";
     const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest("rt,rp,.sw-w,button,a,script,style") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
     const groups = new Map(); let n;
