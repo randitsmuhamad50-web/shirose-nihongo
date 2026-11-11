@@ -16,7 +16,7 @@ import choukai_build as cb
 ROOT = cb.ROOT
 SRC = os.path.join(ROOT, "tools", "jft-src")
 OUT = os.path.join(ROOT, "choukai", "paket")
-FILES = {901: ("ir0", ["ir0.txt"]), 902: ("ir1", ["ir1.txt"]), 903: ("ir2", ["ir2.txt"]), 904: ("sim", ["sim_new.txt", "sim_old.txt"])}
+FILES = {901: ("ir0", ["ir0.txt", "ir0_more.txt"]), 902: ("ir1", ["ir1.txt", "ir1_more.txt"]), 903: ("ir2", ["ir2.txt", "ir2_more.txt"]), 904: ("sim", ["sim_new.txt", "sim_old.txt"])}
 INSTR = "これから 会話を 聞きます。質問を よく 聞いて、いちばん いい ものを 選んで ください。"
 
 def build(pk):
@@ -39,8 +39,9 @@ def build(pk):
         if not 0 <= ans < len(opts): errs.append(f"{where}: kunci salah")
         if not it.get("E"): errs.append(f"{where}: pembahasan kosong")
         q = it["Q"][-1] if it.get("Q") else ""
-        k = counts.setdefault((fn, blok), 0); counts[(fn, blok)] += 1
-        iid = f"jft-{lv}-{fn[:3] if lv == 'sim' else 'b'}{blok + 1}-{k + 1:02d}" if lv != "sim" else f"jft-sim-{idx + 1:02d}"
+        ck_ = blok if lv != "sim" else fn
+        k = counts.setdefault(ck_, 0); counts[ck_] += 1
+        iid = f"jft-{lv}-b{blok + 1}-{k + 1:02d}" if lv != "sim" else f"jft-sim-{idx + 1:02d}"
         voices = cb.assign_voices(iid, it)
         dialog = it["lines"]
         N = lambda t: {"s": "N", "t": t}
