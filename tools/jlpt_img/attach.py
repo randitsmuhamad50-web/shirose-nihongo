@@ -10,7 +10,7 @@ W, H, FY = 480, 290, 250
 RULES = [  # (regex, jenis)
  (r"電話で|電話がかかって|電話を借り", "phone"), (r"病気|入院|お見舞い", "bed"), (r"携帯電話|会議|紹介|部長|課長|上司|先輩|取引先|仕事|会社|飲み会", "office"),
  (r"試着|レジ|店員|お店|店で|店です", "shop"), (r"コーヒー", "coffee"), (r"ケーキ", "cake"), (r"お土産|玄関|プレゼント", "gift"), (r"引っ越し", "move"), (r"たばこ", "smoke"),
- (r"図書館", "library"), (r"電車|気分", "train"), (r"先生|研究室|授業|学校", "school"), (r"道で", "street"), (r"髪型", "hair"), (r"ペン|レポート|メール|旅行|写真", "desk"), (r"家", "home")]
+ (r"熱|寝て", "bed"), (r"映画館", "cinema"), (r"レストラン|料理|ご飯|食事|お腹|お茶|ジュース|お水|水が", "meal"), (r"帰り|帰る|玄関|入って|入ります|来ました|靴|約束", "door"), (r"傘|かさ", "umbrella"), (r"誕生日|合格", "cake"), (r"荷物", "move"), (r"道|駅へ|駅への|行き方", "street"), (r"暑い|エアコン|窓", "hot"), (r"本屋|本を|ノート|消しゴム|借り", "desk"), (r"図書館", "library"), (r"電車|気分", "train"), (r"先生|研究室|授業|学校", "school"), (r"道で", "street"), (r"髪型", "hair"), (r"ペン|レポート|メール|旅行|写真", "desk"), (r"家", "home")]
 def scene_kind(t):
     for r, k in RULES:
         if re.search(r, t): return k
@@ -22,6 +22,11 @@ def scene(iid, t):
     b = [rect(0, 0, W, H, "#eef3f8"), floor(W, H, FY, "#e6d9c4")]
     listener = True; hold = None; ls_fem = not fem; props = ""
     if k == "phone": listener = False; hold = "phone"; props = window(300, 60) + clockwall(400, 80); sp_x = 190
+    elif k == "meal": props = table(230, 200, 170) + cup(300, 170) + circ(370, 196, 16, "#ffffff", "#9aa6b2", 3) + circ(370, 196, 8, "#f0a64c")
+    elif k == "door": props = door(350, 110) + window(60, 50)
+    elif k == "umbrella": props = path("M250,130 Q300,70 350,130 Z", "#e8738f", "#b24a68", 3) + line(300, 130, 300, 215, INK, 4) + window(60, 50)
+    elif k == "cinema": props = rect(200, 40, 260, 100, "#2f3a4a", 6) + rect(210, 50, 240, 80, "#8ad0f0", 4) + seatrow(230, 210)
+    elif k == "hot": props = window(300, 50, 90, 70) + rect(60, 60, 110, 36, "#ffffff", 8, "#9aa6b2", 3) + line(70, 104, 160, 104, "#8ad0f0", 3) + line(80, 114, 150, 114, "#8ad0f0", 3)
     elif k == "bed": props = bed(250, 170) + window(330, 50); ls_lie = True; listener = False
     elif k == "office": props = board(250, 60) + table(250, 200, 170) + papers(300, 180) + clockwall(440, 50); ls_x = 360
     elif k == "shop": props = rack(250, 90) + rack(250, 160)
@@ -50,7 +55,7 @@ def write(name, content):
 def attach(item, kind, iid, set_, opts):
     """kind: 発話表現/hatsuwa → adegan; 課題理解/kadai → pilihan bergambar bila semua pilihan punya ikon. True bila ada perubahan."""
     if kind in ("発話表現", "hatsuwa"):
-        item["img"] = write("n3-%s.svg" % iid.replace("n3-", ""), scene(iid, set_)); return True
+        item["img"] = write("%s.svg" % iid, scene(iid, set_)); return True
     if kind in ("課題理解", "kadai"):
         ims = [compose(o) for o in opts]
         if all(ims):
