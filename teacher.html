@@ -164,6 +164,9 @@ tr.stat-row td{padding-top:0; border-top:none;}
   .cards-m td::before{content:attr(data-label); color:var(--gray-dim); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.4px; text-align:left;}
   .cards-m td.nama{font-size:16px; justify-content:flex-start;}
   .cards-m td.nama::before, .cards-m td.aksi::before{display:none;}
+  .cards-m td[data-label="Akses"]{flex-direction:column; align-items:flex-start; gap:4px;}
+  .cards-m td[data-label="Akses"] .chip{margin:2px 4px 2px 0;}
+  .topbar .btn{white-space:nowrap; font-size:12px;}
   .cards-m td.aksi{justify-content:flex-end; gap:8px;}
   .cards-m td.aksi .btn{flex:1 1 auto;}
   .cards-m td select, .cards-m td input{max-width:60%;}
