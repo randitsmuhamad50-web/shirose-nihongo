@@ -51,7 +51,7 @@ function withOpts(q, opts, ans, extra) {
 }
 async function buatVocab(n) {
   const kos = await loadKos();
-  const base = kos.filter(w => w.kata.length <= 8 && !/[～〜（）()／]/.test(w.kata) && !w.kana.includes("／"));
+  const base = kos.filter(w => w.kata.length <= 6 && !/(です|ます|ました|ません|ですか|ください)$/.test(w.kata) && !/[。、]/.test(w.kata) && !/[～〜（）()／]/.test(w.kata) && !w.kana.includes("／"));
   const kj = base.filter(w => hasKanji(w.kata));
   const out = [];
   const jenis = ["arti", "baca", "kanji"];
