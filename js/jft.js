@@ -240,7 +240,7 @@ async function mulaiPaket(kode, menit) {
   const lv = S().level; const k = parseKode(kode);
   if (!LV[lv] || !k) return false;
   let qs, daftar, flat, mode;
-  if (k.jenis === "bab") { qs = await paketBab(lv, k.blok, k.p); daftar = ["kotoba", "kanji", "bunpou", "choukai", "reading"]; flat = true; mode = "bab"; menit = menit || 20; }
+  if (k.jenis === "bab") { qs = await paketBab(lv, k.blok, k.p); daftar = ["kotoba", "kanji", "bunpou", "choukai", "reading"]; flat = true; mode = "bab"; menit = menit || 25; }
   else { qs = await paketSim(k.p); daftar = URUT; flat = false; mode = "sim"; menit = 60; }
   J = { mode, kode, lv, judul: judulKode(lv, k), daftar, flat, qs, ans: {}, plays: {}, idx: 0, mulai: Date.now(), endAt: Date.now() + menit * 60000, menit, selesai: false, konfirm: false };
   simpanSesi(); return true;
@@ -362,8 +362,8 @@ window.JFT = {
   hapusRiwayat() { LS.del(HIS_KEY()); LS.del(BEST_KEY()); route("jft-ujian"); },
   tampilReview() { const el = $("jft-review"); if (el) el.hidden = false; },
   waktu(m, btn) { document.querySelectorAll(".jft-wk button").forEach(b => b.classList.remove("on")); btn.classList.add("on"); window.__jftMenit = m; },
-  waktuCustom() { const v = parseInt(prompt("Durasi (menit, 5–90):", "20"), 10); if (v >= 5 && v <= 90) { window.__jftMenit = v; document.querySelectorAll(".jft-wk button").forEach(b => b.classList.remove("on")); document.getElementById("jft-wk-c").classList.add("on"); document.getElementById("jft-wk-c").textContent = `★ ${v} menit`; } },
-  mulaiDariIntro(kode) { window.JFT.mulai(kode, window.__jftMenit || 20); },
+  waktuCustom() { const v = parseInt(prompt("Durasi (menit, 5–90):", "25"), 10); if (v >= 5 && v <= 90) { window.__jftMenit = v; document.querySelectorAll(".jft-wk button").forEach(b => b.classList.remove("on")); document.getElementById("jft-wk-c").classList.add("on"); document.getElementById("jft-wk-c").textContent = `★ ${v} menit`; } },
+  mulaiDariIntro(kode) { window.JFT.mulai(kode, window.__jftMenit || 25); },
 };
 const toastP = (m) => (window.toast ? window.toast(m) : console.log(m));
 
@@ -429,12 +429,12 @@ async function renderUjian() {
 async function renderPaket(params) {
   const st = S(); const lv = st.level; const kode = (params || [])[0]; const k = parseKode(kode);
   if (!st.user || !LV[lv] || !k) { setTimeout(() => route("jft-ujian"), 0); return '<div class="loading">Memuat…</div>'; }
-  window.__jftMenit = 20;
+  window.__jftMenit = 25;
   let isi = "";
   if (k.jenis === "bab") isi = `<li>語彙 Kotoba (8)</li><li>漢字 Kanji (6)</li><li>文法 Bunpou (6)</li><li>聴解 Choukai (5) — suara VOICEVOX</li><li>読解 Dokkai (4) — panflet</li><li>Total <b>29 soal</b> dari bab ${BLOK[k.blok][0]}–${BLOK[k.blok][1]}</li>`;
   else isi = URUT.map(s => `<li>${SEK[s].jp} ${SEK[s].nama} (${SEK[s].n})</li>`).join("") + "<li>Total <b>50 soal</b></li>";
-  const waktu = k.jenis === "bab" ? `<h3>⏱ Pengaturan waktu</h3><div class="jft-sub">Rekomendasi: <b>20 menit</b>. Kamu boleh memilih sendiri.</div>
-      <div class="jft-wk">${[10, 15, 20, 30].map(m => `<button class="${m === 20 ? "on" : ""}" onclick="JFT.waktu(${m},this)">${m} menit${m === 20 ? " ★" : ""}</button>`).join("")}<button id="jft-wk-c" onclick="JFT.waktuCustom()">Custom</button></div>`
+  const waktu = k.jenis === "bab" ? `<h3>⏱ Pengaturan waktu</h3><div class="jft-sub">Rekomendasi: <b>25 menit</b>. Kamu boleh memilih sendiri.</div>
+      <div class="jft-wk">${[15, 20, 25, 30].map(m => `<button class="${m === 25 ? "on" : ""}" onclick="JFT.waktu(${m},this)">${m} menit${m === 25 ? " ★" : ""}</button>`).join("")}<button id="jft-wk-c" onclick="JFT.waktuCustom()">Custom</button></div>`
     : `<h3>⏱ Waktu</h3><div class="jft-sub">60 menit (tetap, seperti ujian asli).</div>`;
   const aturan = k.jenis === "bab" ? `<li>Soal bebas dibuka ulang sebelum dikumpulkan.</li>` : `<li>Dalam satu bagian soal bebas dibuka ulang; bagian yang sudah selesai terkunci.</li><li>Listening: audio 2× putar, tidak bisa kembali ke soal sebelumnya.</li><li>Skor dihitung estimasi skala 10–250 (lulus A2 ≥ 200).</li>`;
   return `
