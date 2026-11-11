@@ -32,6 +32,7 @@ const SEK = {
   listening: { nama: "Listening Comprehension", jp: "聴解", n: 12 },
   reading:   { nama: "Reading Comprehension", jp: "読解", n: 12 },
   kotoba:    { nama: "Kotoba", jp: "語彙", n: 8 },
+  choukai:   { nama: "Choukai", jp: "聴解", n: 3 },
   kanji:     { nama: "Kanji", jp: "漢字", n: 6 },
   bunpou:    { nama: "Bunpou", jp: "文法", n: 6 },
 };
@@ -51,6 +52,17 @@ function withOpts(q, opts, ans, extra) { const idx = shuffle(opts.map((o, i) => 
 const _cache = {};
 async function dat(url) { if (!_cache[url]) { try { _cache[url] = await (await fetch(url)).json(); } catch (e) { _cache[url] = []; } } return _cache[url]; }
 const bank = () => dat("./data/jft/bank.json");
+const gambarD = async () => { const g = await dat("./data/jft/gambar.json"); return Array.isArray(g) ? { w: {}, k: {} } : g; };
+const choukaiPool = async (pk) => { const d = await dat(`./choukai/paket/n5-p${pk}.json`); return (d && d.sections && d.sections[0] && d.sections[0].items) || []; };
+const CK_PK = { ir0: 901, ir1: 902, ir2: 903, sim: 904 };
+const ADA_EMO = (o) => /^[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}]/u.test(o);
+const SOLO_EMO = (o) => !/[\u3040-\u30ff\u4e00-\u9fffA-Za-z]/.test(o);
+const emoPic = (e) => `pic:${e}`;
+function ckSoal(it, sec) {
+  const dlg = it.script.filter(l => l.s !== "N").map(l => l.t).join("\n");
+  const q = it.qs[0];
+  return { sec, q: q.q, o: it.opts, a: q.ans, n: it.exp, audio: it.audio, say: [it.set + q.q, ...it.dialog.map(l => (l.s.startsWith("M") ? "男：" : "女：") + l.t), q.q].join("\n"), cid: it.id };
+}
 const kosOf = (l) => dat(`./data/kosakata-${l}.json`);
 const kanjiOf = (l) => dat(`./data/kanji-${l}.json`);
 const bunOf = (l) => dat(`./data/bunpou-${l}.json`);
@@ -73,16 +85,33 @@ async function paketBab(lv, blok, p) {
   const kosKj = kosPool.filter(w => hasKanji(w.kata)), kosAll = semua.filter(w => hasKanji(w.kata));
   const dipakai = new Set();
   const ambil = (arr) => { const w = arr.find(x => !dipakai.has(x.kata)); if (w) dipakai.add(w.kata); return w; };
-  const tipeKos = ["arti", "arti", "baca", "arti", "kanji", "arti", "baca", "kanji"];
+  const G = await gambarD();
+  const adaG = (w) => G.w[w.kata] || G.w[w.kata.replace(/^お/, "")];
+  const gAll = semua.filter(adaG);
+  const gPool = kosPool.filter(adaG);
+  const tipeKos = ["arti", "gA", "baca", "gB", "kanji", "arti", "baca", "gA"];
   tipeKos.forEach(t => {
+    if (t === "gA" || t === "gB") {
+      const w = ambil(gPool.length ? gPool : gAll.filter(x => !dipakai.has(x.kata)).slice(0, 40)) || ambil(gAll); if (!w) return;
+      const e = adaG(w);
+      const lain = pick(gAll.filter(x => adaG(x) !== e), 3);
+      if (t === "gA") out.push(withOpts("Gambar ini disebut apa dalam bahasa Jepang?", [w.kata, ...lain.map(x => x.kata)], 0, { sec: "kotoba", emo: e, n: `${e} = ${w.kata}（${w.kana}）${pendek(w.arti)}` }));
+      else out.push(withOpts(`「${w.kata}」 yang mana?`, [emoPic(e), ...lain.map(x => emoPic(adaG(x)))], 0, { sec: "kotoba", n: `${w.kata}（${w.kana}）= ${e} ${pendek(w.arti)}` }));
+      return;
+    }
     if (t === "arti") { const w = ambil(kosPool); if (!w) return; const salah = pick(semua.filter(x => pendek(x.arti) !== pendek(w.arti)), 3); out.push(withOpts(`「${w.kata}」 artinya…`, [pendek(w.arti), ...salah.map(x => pendek(x.arti))], 0, { sec: "kotoba", n: `${w.kata}（${w.kana}）= ${pendek(w.arti)}` })); }
     else if (t === "baca") { const w = ambil(kosKj) || ambil(kosPool); if (!w) return; const base = kosAll.length > 6 ? kosAll : semua; const salah = pick(base.filter(x => x.kana !== w.kana), 3); out.push(withOpts(`「${w.kata}」 cara bacanya…`, [w.kana, ...salah.map(x => x.kana)], 0, { sec: "kotoba", n: `${w.kata} dibaca ${w.kana} (${pendek(w.arti)})` })); }
     else { const w = ambil(kosKj) || ambil(kosPool); if (!w) return; const base = kosAll.length > 6 ? kosAll : semua; const salah = pick(base.filter(x => x.kata !== w.kata), 3); out.push(withOpts(`「${w.kana}」 ditulis dengan…`, [w.kata, ...salah.map(x => x.kata)], 0, { sec: "kotoba", n: `${w.kana} = ${w.kata} (${pendek(w.arti)})` })); }
   });
   // kanji (6): arti & baca kata gabungan
+  const kjG = kjAll.filter(x => G.k[x.k]);
   kjPool.slice(0, 6).forEach((k, i) => {
     const c = (k.c || []).find(x => x.k && x.r && hasKanji(x.k));
-    if (i % 2 === 1 && c) {
+    if (i % 3 === 0 && (G.k[k.k] || kjG.length > 4)) {
+      const kk = G.k[k.k] ? k : kjG[Math.floor(rng() * kjG.length)]; const e = G.k[kk.k];
+      const lain = pick(kjG.filter(x => G.k[x.k] !== e), 3);
+      out.push(withOpts(`Kanji 「${kk.k}」 — gambar yang mana?`, [emoPic(e), ...lain.map(x => emoPic(G.k[x.k]))], 0, { sec: "kanji", n: `${kk.k} = ${e} ${pendek(kk.a)}` }));
+    } else if (i % 2 === 1 && c) {
       const salah = pick(kjAll.flatMap(x => (x.c || []).filter(y => y.r && y.r !== c.r).map(y => y.r)), 3);
       out.push(withOpts(`「${c.k}」 cara bacanya…`, [c.r.replace(/\s/g, ""), ...salah], 0, { sec: "kanji", n: `${c.k} = ${c.r} (${pendek(c.a)})` }));
     } else {
@@ -101,6 +130,9 @@ async function paketBab(lv, blok, p) {
       out.push(withOpts(b.contoh, [b.pola, ...salah.map(x => x.pola)], 0, { sec: "bunpou", pre: "Pola yang dipakai kalimat ini…", n: `${b.pola.replace(/\[[^\]]*\]/g, "")}: ${b.penjelasan}` }));
     }
   });
+  // choukai (3): dibacakan VOICEVOX (mp3 dibuat otomatis dari choukai/paket/n5-p90x.json)
+  const ck = (await choukaiPool(CK_PK[lv])).filter(it => it.blok === blok && it.p === p);
+  ck.forEach(it => out.push(ckSoal(it, "choukai")));
   unseed();
   return out;
 }
@@ -111,9 +143,16 @@ async function vocabSim(n, lvls) {
   const kj = kos.filter(w => hasKanji(w.kata));
   const out = []; const used = new Set();
   const ambil = (arr) => { for (let t = 0; t < 60; t++) { const w = arr[Math.floor(rng() * arr.length)]; if (!used.has(w.kata)) { used.add(w.kata); return w; } } return arr[0]; };
-  const tipe = ["arti", "baca", "kanji"];
+  const G = await gambarD(); const adaG = (w) => G.w[w.kata] || G.w[w.kata.replace(/^お/, "")]; const gAll = kos.filter(adaG);
+  const tipe = ["arti", "baca", "gambar", "kanji", "gambar2", "baca"];
   for (let i = 0; i < n; i++) {
-    const j = tipe[i % 3];
+    const j = tipe[i % 6];
+    if (j === "gambar" || j === "gambar2") {
+      const w = ambil(gAll); const e = adaG(w); const lain = pick(gAll.filter(x => adaG(x) !== e), 3);
+      if (j === "gambar") out.push(withOpts("Gambar ini disebut apa dalam bahasa Jepang?", [w.kata, ...lain.map(x => x.kata)], 0, { sec: "vocab", emo: e, n: `${e} = ${w.kata}（${w.kana}）` }));
+      else out.push(withOpts(`「${w.kata}」 yang mana?`, [emoPic(e), ...lain.map(x => emoPic(adaG(x)))], 0, { sec: "vocab", n: `${w.kata} = ${e}` }));
+      continue;
+    }
     if (j === "arti") { const w = ambil(kos); const salah = pick(kos.filter(x => pendek(x.arti) !== pendek(w.arti)), 3); out.push(withOpts(`「${w.kata}」 artinya…`, [pendek(w.arti), ...salah.map(x => pendek(x.arti))], 0, { sec: "vocab", n: `${w.kata}（${w.kana}）= ${pendek(w.arti)}` })); }
     else if (j === "baca") { const w = ambil(kj); const salah = pick(kj.filter(x => x.kana !== w.kana), 3); out.push(withOpts(`「${w.kata}」 cara bacanya…`, [w.kana, ...salah.map(x => x.kana)], 0, { sec: "vocab", n: `${w.kata} dibaca ${w.kana}` })); }
     else { const w = ambil(kj); const salah = pick(kj.filter(x => x.kata !== w.kata), 3); out.push(withOpts(`「${w.kana}」 ditulis dengan kanji…`, [w.kata, ...salah.map(x => x.kata)], 0, { sec: "vocab", n: `${w.kana} = ${w.kata}` })); }
@@ -124,8 +163,8 @@ async function soalSek(sek, n, lvls) {
   const b = await bank();
   if (sek === "vocab") return vocabSim(n, lvls || ["ir0", "ir1", "ir2"]);
   if (sek === "conv") return pick(b.conv, n).map(x => withOpts(x.q, x.o, x.a, { sec: "conv", n: x.n }));
-  if (sek === "listening") return pick(b.listen, n).map(x => withOpts(x.q, x.o, x.a, { sec: "listening", say: x.say, n: x.n }));
-  const out = []; pick(b.read, Math.ceil(n / 2)).forEach((t, ti) => t.qs.forEach(x => out.push(withOpts(x.q, x.o, x.a, { sec: "reading", p: t.p, pid: ti, n: x.n }))));
+  if (sek === "listening") return pick(await choukaiPool(CK_PK.sim), n).map(it => ckSoal(it, "listening"));
+  const out = []; pick(b.read, Math.ceil(n / 2)).forEach((t, ti) => t.qs.forEach(x => out.push(withOpts(x.q, x.o, x.a, { sec: "reading", fl: t.fl, pid: ti, n: x.n }))));
   return out.slice(0, n);
 }
 async function paketSim(p) {
@@ -191,7 +230,7 @@ async function mulaiPaket(kode, menit) {
   const lv = S().level; const k = parseKode(kode);
   if (!LV[lv] || !k) return false;
   let qs, daftar, flat, mode;
-  if (k.jenis === "bab") { qs = await paketBab(lv, k.blok, k.p); daftar = ["kotoba", "kanji", "bunpou"]; flat = true; mode = "bab"; menit = menit || 20; }
+  if (k.jenis === "bab") { qs = await paketBab(lv, k.blok, k.p); daftar = ["kotoba", "kanji", "bunpou", "choukai"]; flat = true; mode = "bab"; menit = menit || 20; }
   else { qs = await paketSim(k.p); daftar = URUT; flat = false; mode = "sim"; menit = 60; }
   J = { mode, kode, lv, judul: judulKode(lv, k), daftar, flat, qs, ans: {}, plays: {}, idx: 0, mulai: Date.now(), endAt: Date.now() + menit * 60000, menit, selesai: false, konfirm: false };
   simpanSesi(); return true;
@@ -214,18 +253,32 @@ function startTick() {
 }
 function draw() { const app = $("app"); if (app) { app.innerHTML = renderSoal(); window.scrollTo(0, 0); } }
 
+const fmtOpt = (o) => {
+  if (String(o).startsWith("pic:")) return `<span class="jft-emo big">${esc(o.slice(4))}</span>`;
+  if (ADA_EMO(o) && SOLO_EMO(o)) return `<span class="jft-emo big">${esc(o)}</span>`;
+  const m = /^((?:[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\uFE0F\u200D])+(?:×\d+)?(?:\s+(?:[\p{Extended_Pictographic}\u{1F1E6}-\u{1F1FF}\uFE0F\u200D])+(?:×\d+)?)*)\s*(.*)$/u.exec(o);
+  if (m && m[2]) return `<span class="jft-emo">${esc(m[1])}</span> ${rb(m[2])}`;
+  if (m) return `<span class="jft-emo big">${esc(m[1])}</span>`;
+  return rb(o);
+};
+const isPicOpts = (arr) => arr.every(o => String(o).startsWith("pic:") || (ADA_EMO(o) && SOLO_EMO(o)));
+function renderFlyer(f) {
+  const rows = (f.r || []).map(([k, v]) => `<div class="fl-row"><span class="k">${esc(k)}</span><span class="v">${esc(v)}</span></div>`).join("");
+  return `<div class="jft-flyer t-${esc(f.t || "notice")}"><div class="fl-head"><span class="fl-emo">${f.e || ""}</span><div><div class="fl-title">${esc(f.j)}</div>${f.s ? `<div class="fl-sub">${esc(f.s)}</div>` : ""}</div></div><div class="fl-body">${rows}</div>${f.f ? `<div class="fl-foot">${esc(f.f)}</div>` : ""}</div>`;
+}
 function renderSoal() {
   const q = J.qs[J.idx]; const sek = q.sec; const sim = J.mode === "sim"; const timed = !!J.endAt;
   const idxSek = grup(sek); const posSek = idxSek.indexOf(J.idx);
-  const dengar = sek === "listening";
-  const terkunciMaju = sim && dengar;
+  const dengar = sek === "listening" || sek === "choukai";
+  const terkunciMaju = sim && sek === "listening";
   const main = (J.plays[J.idx] || 0); const maxPlay = sim ? 2 : 99;
   const nomor = idxSek.map((gi, k) => `<button class="no ${J.ans[gi] != null ? "terjawab" : ""} ${gi === J.idx ? "aktif" : ""}" ${terkunciMaju ? "disabled" : ""} onclick="JFT.ke(${gi})">${k + 1}</button>`).join("");
-  const teks = q.p ? `<div class="jft-passage">${nl(q.p)}</div>` : "";
+  const teks = q.fl ? renderFlyer(q.fl) : q.p ? `<div class="jft-passage">${nl(q.p)}</div>` : "";
   const audio = dengar ? `<div class="jft-audio">
       <button class="btn" id="jft-play" ${main >= maxPlay ? "disabled" : ""} onclick="JFT.play()">▶ Putar audio ${sim ? `(${main}/${maxPlay})` : ""}</button>
       <div class="jft-hint">${sim ? "Audio hanya bisa diputar 2 kali. Soal tidak bisa kembali." : "Latihan: audio bisa diputar berulang."} Teks audio tidak ditampilkan saat ujian.</div></div>` : "";
-  const opsi = q.o.map((o, i) => `<button class="jft-opt ${J.ans[J.idx] === i ? "on" : ""}" onclick="JFT.jawab(${i})"><b>${"ABCD"[i]}</b> ${rb(o)}</button>`).join("");
+  const picO = isPicOpts(q.o);
+  const opsi = q.o.map((o, i) => `<button class="jft-opt ${J.ans[J.idx] === i ? "on" : ""} ${picO ? "pic" : ""}" onclick="JFT.jawab(${i})"><b>${"ABCD"[i]}</b> ${fmtOpt(o)}</button>`).join("");
   const adaNext = posSek < idxSek.length - 1;
   const bagianAkhir = J.flat || J.daftar.indexOf(sek) === J.daftar.length - 1;
   const nav = `<div class="jft-nav">
@@ -245,7 +298,7 @@ function renderSoal() {
       ${timed ? `<div class="jft-timer" id="jft-timer">${mmss(sisaDetik())}</div>` : `<button class="btn ghost" onclick="JFT.minta()">Selesai</button>`}
     </div>
     <div class="jft-nomor">${nomor}</div>
-    <div class="panel jft-q">${teks}${audio}${q.pre ? `<div class="jft-pre">${esc(q.pre)}</div>` : ""}<div class="jft-qtext">${rb(q.q)}</div><div class="jft-opts">${opsi}</div></div>
+    <div class="panel jft-q">${teks}${audio}${q.pre ? `<div class="jft-pre">${esc(q.pre)}</div>` : ""}${q.emo ? `<div class="jft-bigemo">${q.emo}</div>` : ""}<div class="jft-qtext">${rb(q.q)}</div><div class="jft-opts ${picO ? "pics" : ""}">${opsi}</div></div>
     ${peringatan}${nav}
   </div>`;
 }
@@ -258,7 +311,7 @@ function selesaiSesi() {
   const benar = Object.values(per).reduce((a, x) => a + x.benar, 0), total = J.qs.length;
   const pct = total ? benar / total : 0;
   const rec = { t: Date.now(), mode: J.mode, kode: J.kode, lv: J.lv, judul: J.judul, per, benar, total, pct, skor: J.mode === "sim" ? skalaJft(pct) : null, detik: Math.round((Date.now() - J.mulai) / 1000) };
-  rec.review = J.qs.map((q, i) => ({ sec: q.sec, q: q.q, o: q.o, a: q.a, u: J.ans[i] ?? null, n: q.n || "", p: q.p || "", say: q.say || "", pre: q.pre || "" }));
+  rec.review = J.qs.map((q, i) => ({ sec: q.sec, q: q.q, o: q.o, a: q.a, u: J.ans[i] ?? null, n: q.n || "", p: q.p || "", fl: q.fl || null, emo: q.emo || "", say: q.say || "", pre: q.pre || "" }));
   if (J.mode !== "latihan") {
     const his = LS.get(HIS_KEY(), []); his.unshift({ ...rec, review: undefined }); LS.set(HIS_KEY(), his.slice(0, 40));
     const best = LS.get(BEST_KEY(), {}); const bk = `${J.lv}:${J.kode}`; if (!best[bk] || pct > best[bk].pct) best[bk] = { pct, skor: rec.skor, t: rec.t }; LS.set(BEST_KEY(), best);
@@ -279,7 +332,12 @@ window.JFT = {
     const sim = J.mode === "sim"; const n = (J.plays[J.idx] || 0);
     if (sim && n >= 2) return; J.plays[J.idx] = n + 1; simpanSesi();
     const b = $("jft-play"); if (b) { b.disabled = true; b.textContent = "🔊 Memutar…"; }
-    bicara(J.qs[J.idx].say, (ok) => { if (!J || J.selesai) return; draw(); if (ok === false) toastP("Browser ini tidak punya suara bahasa Jepang"); });
+    const q = J.qs[J.idx];
+    const selesai = (ok) => { if (!J || J.selesai) return; draw(); if (ok === false) toastP("Audio tidak bisa diputar di perangkat ini"); };
+    const cadangan = () => bicara(q.say, selesai);
+    if (q.audio) {
+      try { try { speechSynthesis.cancel(); } catch (e) {} const a = new Audio("./" + q.audio); window.__jftAudio = a; a.onended = () => selesai(true); a.onerror = cadangan; const pr = a.play(); if (pr && pr.catch) pr.catch(cadangan); } catch (e) { cadangan(); }
+    } else cadangan();
   },
   minta() { J.konfirm = true; draw(); },
   batalKonfirm() { J.konfirm = false; draw(); },
@@ -337,7 +395,7 @@ async function renderUjian() {
   const sesi = pulihSesi();
   const blok = BLOK.map((r, b) => `
     <div class="panel jft-blok"><h3>Bab ${r[0]}–${r[1]}</h3>
-      <div class="jft-sub">Kotoba · Kanji · Bunpou dari bab ${r[0]}–${r[1]} (20 soal per paket)</div>
+      <div class="jft-sub">Kotoba · Kanji · Bunpou dari bab ${r[0]}–${r[1]} (23 soal per paket)</div>
       <div class="jft-paket">${[0, 1, 2].map(p => `<button class="jft-pk" onclick="route('jft-paket/b${b}p${p}')"><b>Paket ${p + 1}</b>${lencana(lv, `b${b}p${p}`)}</button>`).join("")}</div>
     </div>`).join("");
   const sim = lv === "ir2" ? `
@@ -363,7 +421,7 @@ async function renderPaket(params) {
   if (!st.user || !LV[lv] || !k) { setTimeout(() => route("jft-ujian"), 0); return '<div class="loading">Memuat…</div>'; }
   window.__jftMenit = 20;
   let isi = "";
-  if (k.jenis === "bab") isi = `<li>語彙 Kotoba (8)</li><li>漢字 Kanji (6)</li><li>文法 Bunpou (6)</li><li>Total <b>20 soal</b> dari bab ${BLOK[k.blok][0]}–${BLOK[k.blok][1]}</li>`;
+  if (k.jenis === "bab") isi = `<li>語彙 Kotoba (8)</li><li>漢字 Kanji (6)</li><li>文法 Bunpou (6)</li><li>聴解 Choukai (3) — suara VOICEVOX</li><li>Total <b>23 soal</b> dari bab ${BLOK[k.blok][0]}–${BLOK[k.blok][1]}</li>`;
   else isi = URUT.map(s => `<li>${SEK[s].jp} ${SEK[s].nama} (${SEK[s].n})</li>`).join("") + "<li>Total <b>50 soal</b></li>";
   const waktu = k.jenis === "bab" ? `<h3>⏱ Pengaturan waktu</h3><div class="jft-sub">Rekomendasi: <b>20 menit</b>. Kamu boleh memilih sendiri.</div>
       <div class="jft-wk">${[10, 15, 20, 30].map(m => `<button class="${m === 20 ? "on" : ""}" onclick="JFT.waktu(${m},this)">${m} menit${m === 20 ? " ★" : ""}</button>`).join("")}<button id="jft-wk-c" onclick="JFT.waktuCustom()">Custom</button></div>`
@@ -396,9 +454,9 @@ function renderHasil() {
   const rv = r.review.map((x, i) => {
     const ok = x.u === x.a;
     return `<div class="jft-rv ${ok ? "ok" : "ng"}"><div class="h">${i + 1}. ${ok ? "✅" : "❌"} <small>${SEK[x.sec].jp}</small></div>
-      ${x.p ? `<div class="jft-passage">${nl(x.p)}</div>` : ""}${x.say ? `<div class="jft-passage">🎧 ${nl(x.say)}</div>` : ""}
+      ${x.fl ? renderFlyer(x.fl) : x.p ? `<div class="jft-passage">${nl(x.p)}</div>` : ""}${x.say ? `<div class="jft-passage">🎧 ${nl(x.say)}</div>` : ""}${x.emo ? `<div class="jft-bigemo">${x.emo}</div>` : ""}
       ${x.pre ? `<div class="jft-pre">${esc(x.pre)}</div>` : ""}<div class="q">${rb(x.q)}</div>
-      <div class="a">Jawabanmu: ${x.u == null ? "—" : `${"ABCD"[x.u]}. ${rb(x.o[x.u])}`}${ok ? "" : `<br>Benar: <b>${"ABCD"[x.a]}. ${rb(x.o[x.a])}</b>`}</div>
+      <div class="a">Jawabanmu: ${x.u == null ? "—" : `${"ABCD"[x.u]}. ${fmtOpt(x.o[x.u])}`}${ok ? "" : `<br>Benar: <b>${"ABCD"[x.a]}. ${fmtOpt(x.o[x.a])}</b>`}</div>
       ${x.n ? `<div class="n">💡 ${esc(x.n)}</div>` : ""}</div>`;
   }).join("");
   return `

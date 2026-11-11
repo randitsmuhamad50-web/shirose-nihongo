@@ -156,7 +156,7 @@ function loadIndex(lvl, cat){
     .then(r => r.ok ? r.json() : null).catch(() => null);
   return idxCache[k];
 }
-const ALL_LEVELS = ["n5", "n4", "n3", "n2", "n1", "ssw-bc", "kana"];
+const ALL_LEVELS = ["n5", "n4", "n3", "n2", "n1", "ssw-bc", "kana", "ir0", "ir1", "ir2"];
 async function findClipIn(text, role, lvl){
   const order = role && CATS.includes(role) ? [role, ...CATS.filter(c => c !== role)] : CATS;
   for (const cat of order){

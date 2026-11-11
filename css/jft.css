@@ -52,3 +52,20 @@
 .jft-wk button.on{background:var(--pink,#ef6a9a);border-color:var(--pink,#ef6a9a);color:#fff}
 .jft-go{width:100%;margin-top:10px;padding:14px;font-size:16px}
 .jlpt-card.jft{cursor:pointer}.jft-ujbtn{margin-top:10px;width:100%}
+.jft-emo{font-size:26px;line-height:1;margin-right:6px;vertical-align:middle}
+.jft-emo.big{font-size:44px;margin:0}
+.jft-opts.pics{grid-template-columns:1fr 1fr}
+.jft-opt.pic{text-align:center;display:flex;align-items:center;justify-content:center;gap:8px;min-height:90px}
+.jft-bigemo{font-size:96px;line-height:1.1;text-align:center;margin:6px 0 10px}
+.jft-flyer{border-radius:14px;overflow:hidden;border:3px solid #f59e0b;background:#fffaf0;color:#2b2b33;margin-bottom:14px;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+.jft-flyer .fl-head{display:flex;align-items:center;gap:12px;padding:12px 14px;background:#f59e0b;color:#fff}
+.jft-flyer .fl-emo{font-size:40px}.jft-flyer .fl-title{font-size:19px;font-weight:900;line-height:1.3}.jft-flyer .fl-sub{font-size:13px;opacity:.95}
+.jft-flyer .fl-body{padding:8px 14px}.jft-flyer .fl-row{display:flex;gap:12px;padding:8px 0;border-bottom:1px dashed #e7c98a;font-size:16px;line-height:1.5}
+.jft-flyer .fl-row:last-child{border-bottom:0}.jft-flyer .k{min-width:84px;font-weight:800;color:#b45309}.jft-flyer .v{flex:1}
+.jft-flyer .fl-foot{padding:8px 14px;background:#fde8c0;font-size:13px;font-weight:700}
+.jft-flyer.t-menu{border-color:#b45309;background:#fff7ed}.jft-flyer.t-menu .fl-head{background:#b45309}
+.jft-flyer.t-price{border-color:#dc2626;background:#fff1f2}.jft-flyer.t-price .fl-head{background:#dc2626}
+.jft-flyer.t-time{border-color:#2563eb;background:#eff6ff}.jft-flyer.t-time .fl-head{background:#2563eb}.jft-flyer.t-time .k{color:#1d4ed8}
+.jft-flyer.t-memo{border-color:#65a30d;background:#f7fee7}.jft-flyer.t-memo .fl-head{background:#65a30d}
+.jft-flyer.t-guide{border-color:#0d9488;background:#f0fdfa}.jft-flyer.t-guide .fl-head{background:#0d9488}
+.jft-flyer.t-notice{border-color:#7c3aed;background:#faf5ff}.jft-flyer.t-notice .fl-head{background:#7c3aed}.jft-flyer.t-notice .k{color:#6d28d9}
