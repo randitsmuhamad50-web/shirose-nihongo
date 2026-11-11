@@ -32,6 +32,7 @@ export function rich(s, opt = {}) {
   let t = esc(s);
   t = t.replace(/\{([^|{}]+)\|([^{}]+)\}/g, (m, b, r) => opt.ruby === false ? b : `<ruby>${b}<rt>${r}</rt></ruby>`);
   t = t.replace(/\*\*([^*]+)\*\*/g, "<b>$1</b>");
+  t = t.replace(/\n/g, "<br>");   // baris baru (dialog pada soal)
   return t;
 }
 /** teks polos tanpa markup (untuk TTS & pencarian) */
@@ -58,7 +59,8 @@ async function getJSON(url) {
  *  Hanya building-cleaning yang punya materi (hasContent). Sisanya "belum tersedia". */
 export const DEFAULT_BIDANG = [
   { slug: "building-cleaning", nama: "Building Cleaning", jp: "ビルクリーニング", aktif: true, urut: 1, tema: "building", hasContent: true },
-  { slug: "kaigo", nama: "Kaigo", jp: "介護", aktif: false, urut: 2, tema: "kaigo" },
+  { slug: "kaigo", nama: "Kaigo (Indonesia)", jp: "介護", aktif: true, urut: 2, tema: "kaigo", hasContent: true },
+  { slug: "kaigo-jp", nama: "Kaigo (Bahasa Jepang)", jp: "介護の日本語", aktif: true, urut: 2.5, tema: "kaigo", hasContent: true },
   { slug: "food-manufacturing", nama: "Food Manufacturing", jp: "飲食料品製造業", aktif: false, urut: 3, tema: "factory" },
   { slug: "food-service", nama: "Food Service", jp: "外食業", aktif: false, urut: 4, tema: "restaurant" },
   { slug: "agriculture", nama: "Agriculture", jp: "農業", aktif: false, urut: 5, tema: "farm" },
@@ -105,10 +107,34 @@ export const siswaBolehBab = (bidang, babId) => isGuru() || babStatus(bidang, ba
 
 
 /* ============================ AKSES & LEADERBOARD ============================ */
-/** Guru mengatur per siswa (siswa/{uid}.aksesSsw). Kosong = diizinkan. */
-export function sswAllowed() {
+/** Akses SSW.
+ *  - siswa/{uid}.aksesSsw === false            → seluruh SSW diblokir (aturan lama, tetap berlaku).
+ *  - Per bidang (slug), urutan prioritas:
+ *      1. siswa/{uid}.aksesSswBidang[slug]  (true/false, diatur guru per siswa)
+ *      2. kelas/{id}.aksesSswBidang[slug]   (true/false, diatur guru per kelas; dicocokkan lewat nama kelas)
+ *      3. bawaan aman: hanya "building-cleaning" yang terbuka (seperti sebelum ada akses per bidang).
+ *  Tanpa slug = cek akses SSW umum saja. */
+export const BIDANG_BAWAAN_BUKA = "building-cleaning";
+let _kelasAkses = null;   // { uid, map }
+export async function loadKelasAkses() {
+  const d = (FB && FB.getSiswaDoc && FB.getSiswaDoc()) || null;
+  if (!d || !d.kelas || isGuru() || isGuest()) return {};
+  if (_kelasAkses && _kelasAkses.uid === uidNow() && _kelasAkses.kelas === d.kelas) return _kelasAkses.map;
+  let map = {};
+  try { const k = (await FB.listKelas()).find(x => x.nama === d.kelas); map = (k && k.aksesSswBidang) || {}; } catch (e) { console.warn("ssw: akses kelas gagal dimuat:", e.message || e); }
+  _kelasAkses = { uid: uidNow(), kelas: d.kelas, map };
+  return map;
+}
+export function sswAllowed(slug) {
   if (isGuru()) return true;
-  try { const d = FB && FB.getSiswaDoc && FB.getSiswaDoc(); return !d || d.aksesSsw !== false; } catch (e) { return true; }
+  let d = null; try { d = FB && FB.getSiswaDoc && FB.getSiswaDoc(); } catch (e) {}
+  if (d && d.aksesSsw === false) return false;
+  if (!slug) return true;
+  const a = d && d.aksesSswBidang ? d.aksesSswBidang[slug] : undefined;
+  if (typeof a === "boolean") return a;
+  const k = _kelasAkses && _kelasAkses.uid === uidNow() ? _kelasAkses.map[slug] : undefined;
+  if (typeof k === "boolean") return k;
+  return slug === BIDANG_BAWAAN_BUKA;
 }
 /** Poin: subbab dibaca ×10, kartu sudah dikuasai ×2 (+3 bila "kuasa"), skor terbaik tiap kuis ×0.5. */
 export function points(P) {
@@ -264,7 +290,7 @@ export function buildQueue(P, vocab, { newLimit = 15, now = Date.now(), mode = "
 /** 3 kuis penuh = sampel deterministik dari seluruh bank soal semua bab. */
 export function fullQuizzes(pack, perQuiz = 20, count = 10) {
   const pool = [];
-  for (const ch of pack.chapters) for (const q of (pack.quiz.bab?.[ch.id] || [])) for (const it of q.items) pool.push({ ...it, bab: ch.id });
+  for (const ch of pack.chapters) for (const q of (pack.quiz.bab?.[ch.id] || [])) { if (q.rev) continue; for (const it of q.items) pool.push({ ...it, bab: ch.id }); }   // q.rev = kuis ulangan (soalnya sudah ada di kuis subbab)
   if (!pool.length) return [];
   const out = [];
   const isImg = (x) => !!x.img, isMB = (x) => !!x.mb && !x.img, isMC = (x) => !x.mb && !x.img;

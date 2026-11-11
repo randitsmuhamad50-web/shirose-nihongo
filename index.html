@@ -1360,8 +1360,8 @@ html{overflow-x:hidden;}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
-<link rel="stylesheet" href="./css/kana-center.css?v=20261110t"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261110t"/>
+<link rel="stylesheet" href="./css/kana-center.css?v=20261111a"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261111a"/>
 </head>
 <body>
 
@@ -1412,14 +1412,14 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261110t";
+import * as FB from "./js/firebase-sync.js?v=20261111a";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
-import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261110t";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261111a";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
-import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110t";
+import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261111a";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261110t";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261111a";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -3242,7 +3242,7 @@ async function _saveSrs(){
     else localStorage.setItem(`shirose-srs-${state._srsLevel || state.level}`, JSON.stringify(state.srs));
   } catch (e) { console.warn("_saveSrs:", e.message); }
   // Progres SSW (poin & peringkat) langsung dihitung tiap kartu digeser, tidak menunggu sesi selesai.
-  if (state._srsLevel === "ssw-bc" && window.sswOnProgress) window.sswOnProgress();
+  if (String(state._srsLevel || "").startsWith("ssw-") && window.sswOnProgress) window.sswOnProgress();
 }
 
 // Entry router. renderHafalan() -> selection. renderHafalan(['go']) -> session using state.hafalan.
@@ -3523,11 +3523,13 @@ const _hafSSW = () => state.hafalan_ctx === "ssw";
 const _hafMenu = () => (_hafSSW() && state.hafalan_back) || "hafalan";
 const _hafHome = () => (_hafSSW() && state.hafalan_back) || "home";
 const _hafHomeLbl = () => _hafSSW() ? "↩ Kembali" : "🏠 Home";
-const _hafBadge = (it) => it.tipe === "ssw" ? "SSW · BUILDING CLEANING" : `${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}`;
-function _sswSaveSess(){ try { sessionStorage.setItem(_SSW_SESS, JSON.stringify({ q: state.hafalan_queue, pos: state.hafalan_pos, mode: (state.hafalan||{}).mode, back: state.hafalan_back, score: state.hafalan_score })); } catch(e){} }
+// Dokumen SRS per bidang SSW: Building Cleaning tetap "ssw-bc" (data lama), bidang lain "ssw-<slug>".
+const _sswLvl = (slug) => { slug = slug || (window.__sswSlug && window.__sswSlug()) || "building-cleaning"; return slug === "building-cleaning" ? "ssw-bc" : "ssw-" + slug; };
+const _hafBadge = (it) => it.tipe === "ssw" ? "SSW · " + String((window.__sswSlug && window.__sswSlug()) || "").replace(/-/g, " ").toUpperCase() : `${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}`;
+function _sswSaveSess(){ try { sessionStorage.setItem(_SSW_SESS, JSON.stringify({ lvl: state._srsLevel, q: state.hafalan_queue, pos: state.hafalan_pos, mode: (state.hafalan||{}).mode, back: state.hafalan_back, score: state.hafalan_score })); } catch(e){} }
 window.sswHafalStart = async ({ items, mode, back }) => {
   if (!items || !items.length) { toast("Tidak ada kosakata untuk sesi ini"); return false; }
-  state._srsLevel = "ssw-bc"; state.hafalan_ctx = "ssw"; state.hafalan_back = back || "ssw";
+  state._srsLevel = _sswLvl(); state.hafalan_ctx = "ssw"; state.hafalan_back = back || "ssw";
   await _loadSrs();
   state.hafalan = { tipe: "ssw", mode: mode || "flashcard", range: "all", filter: "all" };
   state.hafalan_queue = items.slice().sort(() => Math.random() - 0.5);
@@ -3536,16 +3538,16 @@ window.sswHafalStart = async ({ items, mode, back }) => {
   route("hafalan/go");
   return true;
 };
-window.sswSrsLoad = async () => { const keep = state._srsLevel; state._srsLevel = "ssw-bc"; const r = await _loadSrs(); state._srsLevel = keep; return r; };
+window.sswSrsLoad = async () => { const keep = state._srsLevel; state._srsLevel = _sswLvl(); const r = await _loadSrs(); state._srsLevel = keep; return r; };
 window.sswAddCard = async (no, idx) => {
-  const keep = state._srsLevel, keepSrs = state.srs; state._srsLevel = "ssw-bc"; await _loadSrs();
+  const keep = state._srsLevel, keepSrs = state.srs; state._srsLevel = _sswLvl(); await _loadSrs();
   const k = _srsKey("ssw", { no }, idx); if (!state.srs[k]) state.srs[k] = { n: 0, interval: 1, due: Date.now() };
   await _saveSrs(); state._srsLevel = keep; state.srs = keepSrs || {};
 };
 async function _sswRestore(){
   try {
     const d = JSON.parse(sessionStorage.getItem(_SSW_SESS) || "null"); if (!d || !d.q || !d.q.length) return false;
-    state._srsLevel = "ssw-bc"; state.hafalan_ctx = "ssw"; state.hafalan_back = d.back || "ssw";
+    state._srsLevel = d.lvl || "ssw-bc"; state.hafalan_ctx = "ssw"; state.hafalan_back = d.back || "ssw";
     await _loadSrs();
     state.hafalan = { tipe: "ssw", mode: d.mode || "flashcard", range: "all", filter: "all" };
     state.hafalan_queue = d.q; state.hafalan_pos = d.pos || 0; state.hafalan_score = d.score || { benar: 0, salah: 0 };

@@ -1,0 +1,327 @@
+{
+ "schema": 1,
+ "bidang": "kaigo",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Dasar Perawatan Lansia",
+   "jp": "{介護|かいご}の{基本|きほん}"
+  },
+  "intro": {
+   "id": "Bagian 1 modul: martabat & kemandirian, peran dan etika staf perawat lansia, serta keselamatan dan manajemen risiko.",
+   "jp": "{介護|かいご}の{基本|きほん}"
+  },
+  "pages": [
+   10,
+   39
+  ],
+  "subs": [
+   {
+    "id": "k1s1",
+    "no": 1,
+    "title": {
+     "id": "Martabat dan Kemandirian Manusia dalam Perawatan Lansia",
+     "jp": "{尊厳|そんげん}の{保持|ほじ}と{自立支援|じりつしえん}"
+    },
+    "pages": [
+     10,
+     15
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Perawatan lansia yang mendukung martabat"
+      },
+      {
+       "p": "Staf perawat lansia ({介護職|かいごしょく}) adalah tenaga profesional yang mendukung orang yang kesulitan menjalani aktivitas sehari-hari karena lanjut usia atau disabilitas, supaya ia tetap bisa hidup sesuai keinginannya."
+      },
+      {
+       "ul": [
+        "**Martabat manusia** ({尊厳|そんげん}) adalah konsep dasar pemberian dukungan: setiap orang dihormati sebagai individu.",
+        "Walaupun membutuhkan perawatan, pengguna tetap dihormati dan **hak asasinya dilindungi**.",
+        "**Pelaku utama kehidupan adalah pengguna sendiri** ({利用者|りようしゃ}). Staf memahami kehidupan yang ia inginkan, menghormati cara hidup dan pola pikirnya."
+       ]
+      },
+      {
+       "h": "QOL dan Normalisasi"
+      },
+      {
+       "ul": [
+        "**QOL (Quality of Life / kualitas hidup)**: cara berpikir tentang kehidupan yang mencakup kekayaan batin, seperti rasa puas, bahagia, dan alasan hidup.",
+        "**Normalisasi** (ノーマライゼーション): penyandang disabilitas dapat hidup normal tanpa prasangka dan hak asasinya dilindungi, sama seperti orang tanpa disabilitas, di tengah masyarakat."
+       ]
+      },
+      {
+       "h": "2. Dukungan kemandirian"
+      },
+      {
+       "p": "**Dukungan kemandirian** ({自立支援|じりつしえん}) membantu pengguna memilih bagaimana ia ingin hidup lalu menjalaninya berdasarkan keputusannya sendiri. Dukungan tidak hanya soal gerakan tubuh (berpindah, berganti pakaian), tetapi disesuaikan dengan kemampuan pengguna."
+      },
+      {
+       "ul": [
+        "Staf menghargai nilai dan prinsip pengguna, dan berupaya agar pengguna merasakan pencapaian dengan menambah hal yang bisa ia lakukan sendiri.",
+        "**Pilihan sendiri dan keputusan sendiri** ({自己選択|じこせんたく}・{自己決定|じこけってい}): pengguna yang memutuskan apa yang ia lakukan.",
+        "Ada dua jenis kemandirian: **fisik** dan **mental**."
+       ]
+      },
+      {
+       "note": "Contoh di modul: staf bertanya \"Hari ini Anda ingin memakai baju yang mana?\" dan pengguna memilih sendiri."
+      },
+      {
+       "h": "3. Pemahaman kehidupan"
+      },
+      {
+       "ul": [
+        "Kehidupan berbeda menurut budaya, kebiasaan, kemauan, dan nilai tiap orang.",
+        "Ritme hidup: bangun, ganti pakaian, cuci muka, makan, ekskresi, mandi, waktu senggang, lalu tidur malam.",
+        "Kehidupan terkait kondisi kesehatan, tempat tinggal, kemampuan mengerjakan pekerjaan rumah, keluarga, komunitas, dan masyarakat.",
+        "Orang yang memerlukan perawatan cenderung menjadi **pasif**; staf bertugas **membangkitkan semangat** pengguna."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 10–15. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dasar kaigo: menghormati martabat, pengguna sebagai pelaku utama hidupnya, dan mendukung kemandirian lewat pilihan dan keputusan sendiri.",
+      "points": [
+       "Martabat ({尊厳|そんげん}) = dihormati sebagai individu, hak asasi dilindungi.",
+       "QOL = kualitas hidup termasuk rasa puas dan bahagia.",
+       "Normalisasi = hidup normal di masyarakat tanpa prasangka.",
+       "Kemandirian ada dua: fisik dan mental."
+      ],
+      "avoid": [
+       "Memutuskan semuanya untuk pengguna tanpa bertanya.",
+       "Menganggap dukungan kemandirian hanya soal gerakan tubuh."
+      ],
+      "exam": [
+       "Definisi QOL dan normalisasi.",
+       "Siapa pelaku utama kehidupan? → pengguna."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k1s2",
+    "no": 2,
+    "title": {
+     "id": "Peran Staf Perawat Lansia: Etika Profesi",
+     "jp": "{介護職|かいごしょく}の{役割|やくわり}・{職業倫理|しょくぎょうりんり}"
+    },
+    "pages": [
+     16,
+     23
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Etika profesi"
+      },
+      {
+       "ul": [
+        "**Privasi** (プライバシー): kulit pengguna terlihat saat mandi dan ekskresi, jadi jaga agar pengguna tidak merasa malu.",
+        "**Menjaga kerahasiaan** ({秘密保持|ひみつほじ}): informasi pribadi (usia, alamat, riwayat kesehatan, dll.) tidak boleh dibicarakan dengan orang lain tanpa izin, dan tidak boleh diunggah ke internet/media sosial."
+       ]
+      },
+      {
+       "h": "Larangan pembatasan fisik"
+      },
+      {
+       "p": "**Pembatasan fisik** ({身体拘束|しんたいこうそく}) adalah tindakan merampas kebebasan pengguna. Dampaknya buruk: kemampuan fisik menurun dan demensia memburuk."
+      },
+      {
+       "ol": [
+        "Mengikat tubuh, tangan, dan kaki sehingga tidak bisa bergerak.",
+        "Memagari tempat tidur sehingga pengguna tidak bisa turun sendiri.",
+        "Mengunci kamar dan mengurung pengguna.",
+        "Memasang sabuk penahan sehingga tidak bisa bangkit.",
+        "Meminumkan obat psikotropika dengan dosis berlebihan."
+       ]
+      },
+      {
+       "h": "Lima jenis kekerasan"
+      },
+      {
+       "p": "**Kekerasan** ({虐待|ぎゃくたい}) melanggar hak asasi pengguna."
+      },
+      {
+       "ol": [
+        "**Kekerasan fisik**: kekerasan terhadap tubuh.",
+        "**Kekerasan psikis**: kata-kata/tindakan yang melukai jiwa.",
+        "**Pengabaian (neglect)**: menelantarkan orang yang perlu perawatan.",
+        "**Kekerasan ekonomi**: mengambil keuntungan dari aset pengguna secara semena-mena.",
+        "**Kekerasan seksual**: tindakan tidak senonoh."
+       ]
+      },
+      {
+       "h": "2. Kerja sama dengan profesi lain (pendekatan tim)"
+      },
+      {
+       "ul": [
+        "**Dokter**: diagnosis dan pengobatan. **Perawat** ({看護師|かんごし}): perawatan pemulihan kesehatan dan membantu pemeriksaan di bawah arahan dokter. Pada prinsipnya **staf perawat lansia tidak melakukan tindakan medis**.",
+        "**Terapis fisik (PT)**: melatih gerak seperti berjalan. **Terapis okupasi (OT)**: melatih tindakan untuk aktivitas sehari-hari. **Terapis wicara (ST)**: melatih bicara dan menelan.",
+        "**Ahli gizi terdaftar**: menyusun menu dengan gizi seimbang.",
+        "**Manajer perawatan** (ケアマネジャー) dan **pekerja sosial**: konsultasi, menyusun rencana dukungan, koordinasi layanan dan keluarga."
+       ]
+      },
+      {
+       "h": "3. Layanan perawatan lansia"
+      },
+      {
+       "ol": [
+        "**Layanan kunjungan**: staf datang ke rumah pengguna (home help service).",
+        "**Layanan ambulatori**: pengguna datang ke fasilitas pada siang hari (day service).",
+        "**Layanan inap**: pengguna tinggal di fasilitas (panti wreda perawatan khusus)."
+       ]
+      },
+      {
+       "h": "Proses perawatan lansia"
+      },
+      {
+       "p": "Rencana perawatan disusun untuk tiap pengguna. Alurnya berputar: **(1) Penilaian** (kumpulkan informasi, analisis tantangan) → **(2) Penyusunan rencana** → **(3) Pelaksanaan** → **(4) Evaluasi**."
+      },
+      {
+       "note": "Sumber: modul hal. 16–23. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Etika staf: jaga privasi dan rahasia, tidak membatasi fisik, tidak melakukan kekerasan; bekerja sebagai tim dengan profesi lain mengikuti proses perawatan.",
+      "points": [
+       "5 contoh pembatasan fisik dan 5 jenis kekerasan.",
+       "Tindakan medis dilakukan dokter dan perawat, bukan staf kaigo.",
+       "PT = gerak, OT = aktivitas harian, ST = bicara & menelan.",
+       "Proses: penilaian → rencana → pelaksanaan → evaluasi."
+      ],
+      "avoid": [
+       "Membicarakan/mengunggah informasi pengguna tanpa izin.",
+       "Memagari tempat tidur atau mengunci kamar \"demi keamanan\"."
+      ],
+      "exam": [
+       "Membedakan jenis kekerasan.",
+       "Tiga jenis layanan: kunjungan, ambulatori, inap."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k1s3",
+    "no": 3,
+    "title": {
+     "id": "Menjamin Keselamatan dan Manajemen Risiko",
+     "jp": "{介護|かいご}における{安全|あんぜん}の{確保|かくほ}とリスクマネジメント"
+    },
+    "pages": [
+     24,
+     39
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Observasi"
+      },
+      {
+       "p": "**Observasi** ({観察|かんさつ}) = melihat dengan cermat untuk mengetahui kondisi pengguna (\"kondisinya berbeda dari biasanya\"). Hasilnya dicatat dan disampaikan ke semua staf untuk memperbaiki kehidupan pengguna. Informasi didapat lewat interaksi dan lewat pengukuran (misalnya suhu tubuh)."
+      },
+      {
+       "h": "2. Kesehatan staf: mencegah sakit pinggang"
+      },
+      {
+       "p": "Staf rentan **sakit pinggang** ({腰痛|ようつう}). Pencegahannya dengan pengetahuan dan praktik yang benar, terutama **mekanika tubuh** (ボディメカニクス): kerja sama rangka dan otot sehingga perawatan aman dengan sedikit tenaga."
+      },
+      {
+       "ol": [
+        "Perlebar **landasan penopang** dan rendahkan pusat berat.",
+        "Dekatkan pusat berat ke pengguna.",
+        "Gunakan **grup otot besar** (paha, pantat), bukan hanya punggung bawah.",
+        "**Perkecil bentuk tubuh** pengguna.",
+        "**Tarik** mendekat, jangan mendorong (gesekan lebih kecil).",
+        "Pindahkan pusat berat **secara datar**.",
+        "Arahkan kaki ke arah berpindah, **jangan memuntir tubuh**.",
+        "Gunakan **prinsip tuas** (buat titik tumpu)."
+       ]
+      },
+      {
+       "ul": [
+        "Poin lain: manfaatkan kemampuan pengguna, gunakan alat bantu (alat pemindah, papan penggeser), dan perbaiki gaya hidup (olahraga, gizi, istirahat).",
+        "**Kesehatan mental**: cukup makan dan tidur, punya cara melepas stres, bicara/konsultasi dengan senior dan rekan; jangan memendam sendiri."
+       ]
+      },
+      {
+       "h": "3. Penyakit menular"
+      },
+      {
+       "p": "**Penyakit menular** ({感染症|かんせんしょう}) timbul saat patogen (virus, bakteri, jamur, parasit) masuk ke tubuh. Lansia berdaya tahan lemah dan hidup berkelompok sehingga rentan. Jika terlihat demam, muntah, diare, sakit perut, ruam, atau wajah pucat → **laporkan ke tenaga medis**."
+      },
+      {
+       "ul": [
+        "**Tiga elemen**: sumber infeksi, jalur infeksi, inang. Prinsip: **putus mata rantainya** (hilangkan sumber, putus jalur, tingkatkan daya tahan).",
+        "Dasar pengendalian: **tidak membawa masuk, tidak membawa keluar, tidak menyebarkan**.",
+        "Jalur: **droplet** (influenza), **udara** (tuberkulosis, campak), **kontak** (norovirus, O157).",
+        "**Kewaspadaan standar** (スタンダード・プリコーション): semua darah, cairan tubuh, sekreta, ekskreta, luka, mukosa dianggap berisiko infeksi. Jangan disentuh dengan tangan polos; pakai sarung tangan, celemek plastik, masker. **Tetap cuci tangan walau sudah bersarung tangan.**",
+        "Masker menutup dari hidung sampai dagu. Sarung tangan sekali pakai: balik sisi kotor ke dalam, buang di tempatnya, **ganti tiap tindakan**."
+       ]
+      },
+      {
+       "h": "Cuci tangan"
+      },
+      {
+       "p": "Dengan air mengalir + sabun cair, atau alkohol. Bagian yang mudah terlewat: **ujung jari, sela jari, punggung tangan, pangkal ibu jari, pergelangan tangan**."
+      },
+      {
+       "ol": [
+        "Lepas cincin dan jam tangan.",
+        "Basahi tangan dengan air mengalir.",
+        "Ambil sabun cair, gosok kedua telapak sampai berbuih.",
+        "Punggung tangan → sela jari → ibu jari → ujung jari → pergelangan.",
+        "Bilas dengan air mengalir.",
+        "Keringkan dengan tisu sampai benar-benar kering."
+       ]
+      },
+      {
+       "h": "4. Pencegahan kecelakaan, manajemen risiko, bencana"
+      },
+      {
+       "ul": [
+        "Cegah jatuh: pakaian dan alas kaki tepat (selop mudah lepas, celana terlalu panjang membuat tersandung), amati kondisi pengguna, **periksa alat bantu sebelum dipakai**, periksa lingkungan (lantai basah, kabel).",
+        "**Manajemen risiko** (リスクマネジメント): memperkirakan bahaya dan mencegah kecelakaan secara sistematik. **Catatan** penting untuk mencegah kecelakaan.",
+        "Contoh: pengguna hampir jatuh saat pindah ke kursi roda → sebabnya lupa rem → dicatat → ke depan selalu pastikan rem aktif dan informasikan ke semua staf.",
+        "**Bencana** (gempa, topan, kebakaran): siapkan barang yang diperlukan dan lakukan simulasi agar tidak panik."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 24–39. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Keselamatan dimulai dari observasi, menjaga kesehatan staf (mekanika tubuh), memutus rantai infeksi, dan mencegah kecelakaan lewat catatan dan prediksi bahaya.",
+      "points": [
+       "8 prinsip mekanika tubuh.",
+       "3 elemen infeksi: sumber, jalur, inang → putus rantainya.",
+       "Kewaspadaan standar: sarung tangan + tetap cuci tangan.",
+       "Manajemen risiko: prediksi bahaya, catat, bagikan informasi."
+      ],
+      "avoid": [
+       "Mengangkat dengan punggung bawah dan lutut lurus.",
+       "Menyentuh darah/ekskreta dengan tangan polos.",
+       "Memakai satu sarung tangan untuk beberapa tindakan."
+      ],
+      "exam": [
+       "Jalur infeksi: droplet / udara / kontak dan contohnya.",
+       "Bagian tangan yang mudah tidak tercuci.",
+       "Menarik vs mendorong pada mekanika tubuh."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
