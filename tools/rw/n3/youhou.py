@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+# N3 用法: (kata, kalimat benar, [3 salah], terjemahan, catatan)
+U = [
+ ("おおぜい", "駅前に おおぜいの 人が あつまって います。", ["おおぜいの 本を 読みました。", "この 町には おおぜいの 雨が ふります。", "おおぜいの 魚を 一人で 食べました。"], "Banyak orang berkumpul di depan stasiun.", "おおぜい = banyak (orang)."),
+ ("ぐうぜん", "駅で ぐうぜん 昔の 友だちに 会いました。", ["ぐうぜん 毎日 日本語を 勉強して います。", "ぐうぜん 先生に 質問しました。", "ぐうぜん 宿題を 出しました。"], "Di stasiun saya kebetulan bertemu teman lama.", "ぐうぜん = kebetulan."),
+ ("めったに", "かれは めったに 学校を 休みません。", ["めったに 毎日 学校へ 行きます。", "めったに 雨が ふって います。", "めったに 宿題を して います。"], "Dia jarang bolos sekolah.", "めったに + negatif."),
+ ("ようやく", "三日 かかって、ようやく 仕事が おわりました。", ["ようやく 雨が ふって います。", "ようやく 友だちが いません。", "ようやく 山に 登る つもりです。"], "Butuh tiga hari, akhirnya pekerjaan selesai.", "ようやく = akhirnya."),
+ ("さっそく", "新しい 辞書を 買って、さっそく 使って みました。", ["さっそく 昨日 食べました。", "この 本は さっそく 古いです。", "さっそく 雨が ふって いました。"], "Beli kamus baru, langsung mencobanya.", "さっそく = segera."),
+ ("きちんと", "宿題は きちんと 出して ください。", ["きちんと 雨が ふります。", "きちんと 学校に 休みました。", "いつも きちんと ねむいです。"], "Tolong kumpulkan PR dengan rapi.", "きちんと = rapi/tertib."),
+ ("たしかめる", "出発する 前に、時間を もう 一度 たしかめましょう。", ["かぜを たしかめて ねました。", "宿題を たしかめて しまいました。", "友だちを たしかめて 食べました。"], "Sebelum berangkat, mari pastikan sekali lagi waktunya.", "たしかめる = memastikan."),
+ ("おさえる", "いたい ところを 手で おさえました。", ["さいふを 道に おさえました。", "友だちを 家に おさえます。", "音楽を 高く おさえました。"], "Saya menekan bagian yang sakit dengan tangan.", "おさえる = menekan/menahan."),
+ ("あきらめる", "試験に 落ちても、あきらめないで がんばります。", ["あきらめて ごはんを 食べました。", "あきらめた 雨が ふって います。", "友だちと あきらめました。"], "Meski gagal ujian, saya tidak menyerah.", "あきらめる = menyerah."),
+ ("かたづける", "食事の あと、テーブルを かたづけます。", ["本を 高く かたづけます。", "友だちを かたづけて 帰ります。", "雨を かたづけました。"], "Setelah makan, saya membereskan meja.", "かたづける = membereskan."),
+ ("ひろう", "道で 財布を ひろいました。", ["雨で 本を ひろいました。", "電車を ひろいました。", "友だちに あいさつを ひろいます。"], "Saya memungut dompet di jalan.", "ひろう = memungut."),
+ ("やぶる", "あやまって 大切な 書類を やぶって しまいました。", ["窓を やぶって 空気を 入れました。(salah)", "友だちを やぶって 家に 来ました。", "ごはんを やぶって 食べました。"], "Tanpa sengaja saya merobek dokumen penting.", "やぶる = merobek."),
+ ("おくれる", "雪で 電車が おくれて、会社に つくのが おそく なりました。", ["時間が おくれて おなかが すきました。", "雨が おくれて ふって います。", "おくれた 本を 買いました。"], "Karena salju kereta terlambat, saya terlambat sampai kantor.", "おくれる = terlambat."),
+ ("もどる", "いったん 家に もどって 傘を とって きます。", ["ごはんが 食べ物に もどります。", "友だちが 宿題に もどりました。", "雨が もどって 本を 読みます。"], "Saya kembali dulu ke rumah mengambil payung.", "もどる = kembali."),
+ ("ふくざつ", "この 機械の 使い方は ふくざつです。", ["ふくざつな 雨が ふります。", "ふくざつに ごはんを 食べます。", "ふくざつな 犬が 来ました。"], "Cara memakai mesin ini rumit.", "ふくざつ = rumit."),
+ ("ていねい", "お客さまには ていねいに 話さなければ なりません。", ["ていねいに 雨が ふります。", "この 服は ていねいで 安いです。", "ていねいな 川に 行きます。"], "Kepada tamu kita harus berbicara dengan sopan.", "ていねい = sopan/teliti."),
+ ("かんたん", "この 機械は かんたんに 使えます。", ["かんたんな 雨が ふります。", "かんたんに 病気に なります。(sering)", "かんたんな 山を 見ます。"], "Mesin ini mudah dipakai.", "かんたん = mudah."),
+ ("じゅうぶん", "三人なら、この 部屋で じゅうぶん です。", ["じゅうぶん 雨が ふって いません。", "友だちが じゅうぶん 来ません。", "じゅうぶん 電車に 乗りました。"], "Untuk tiga orang, ruangan ini sudah cukup.", "じゅうぶん = cukup."),
+ ("すっかり", "長い 旅行で すっかり つかれました。", ["すっかり 明日 行きます。", "すっかり 友だちと 行きます。", "この 本は すっかり おもしろいです。"], "Karena perjalanan panjang, saya benar-benar lelah.", "すっかり = sepenuhnya."),
+ ("むかし", "むかし、この 町には 大きい 川が ありました。", ["あした、むかしの ことを 話します。", "むかし 雨が ふります。", "むかし 友だちに 行きます。"], "Dulu di kota ini ada sungai besar.", "むかし = dulu."),
+ ("ふべん", "駅から とおくて、とても ふべんです。", ["ふべんな 雨が ふりました。", "ふべんな 本を 読みます。", "この 食べ物は ふべんです。"], "Jauh dari stasiun, sangat tidak praktis.", "ふべん = tidak praktis."),
+ ("めいわく", "夜 おそく 大きい 音を 出すと、近所に めいわくです。", ["めいわくで ごはんを 食べました。", "めいわくな 雨が ふります。", "めいわくを 買いました。"], "Kalau mengeluarkan suara keras larut malam, menyusahkan tetangga.", "めいわく = merepotkan."),
+ ("しゅうりする", "こわれた 時計を しゅうりして もらいました。", ["雨を しゅうりして 外に 出ました。", "友だちを しゅうりして 帰りました。", "ごはんを しゅうりしました。"], "Saya minta jam rusak diperbaiki.", "修理 = perbaikan."),
+ ("れんしゅう", "毎日 ピアノを れんしゅうして います。", ["雨を れんしゅうして います。", "ごはんを れんしゅうします。", "れんしゅうが 高いです。"], "Saya berlatih piano setiap hari.", "練習 = latihan."),
+ ("へる", "最近 この 店に 来る 客が へって います。", ["最近 雨が へって 山に 行きます。", "お金が へって 来月 買います (nambah)。", "へった 本を 読みます。"], "Belakangan pengunjung toko ini berkurang.", "へる = berkurang."),
+ ("あやまる", "わたしの せいで おくれたので、みんなに あやまりました。", ["雨が あやまって ふりました。", "友だちに あやまって 食べました。", "本を あやまって 買います。"], "Karena kesalahan saya, terlambat; saya minta maaf pada semua.", "あやまる = minta maaf."),
+ ("そろえる", "本を 大きさ ごとに そろえて たなに ならべました。", ["雨を そろえて 傘を さしました。", "友だちを そろえて 食べました。", "道を そろえて 歩きました。"], "Saya menyusun buku menurut ukuran di rak.", "そろえる = menyamakan/merapikan."),
+ ("つぶれる", "あの 店は 去年 つぶれて しまいました。", ["雨が つぶれて 外に 出ました。", "友だちが つぶれて 学校へ 行きます。", "ごはんが つぶれて 帰りました。"], "Toko itu bangkrut tahun lalu.", "つぶれる = bangkrut/hancur."),
+ ("ならぶ", "店の 前に 人が ならんで います。", ["雨が ならんで 帰ります。", "ごはんが ならんで 走ります。", "駅が ならんで います 食べます。"], "Orang berbaris di depan toko.", "ならぶ = berbaris."),
+]
+U = [r for r in U if not any(x in ''.join(r[2]) for x in ('(salah', '(sering', '(nambah', '(kurang'))]
+U = [r for r in U if not any('(' in w for w in r[2])]
