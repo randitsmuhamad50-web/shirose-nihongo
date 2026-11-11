@@ -152,8 +152,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261111b";
-import { renderSswTab } from "./js/ssw-teacher.js?v=20261111b";
+import * as FB from "./js/firebase-sync.js?v=20261111c";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261111c";
 
 const state = {
   user: null,
@@ -588,13 +588,13 @@ window.buatAkunBaru = async () => {
 /* ===== Import siswa dari Excel ===== */
 const _ya = (v) => /^(ya|y|yes|1|true|aktif|v|✓|x)$/i.test(String(v ?? "").trim());
 // Kolom akses SSW di Excel → slug bidang. Kosong = tidak diatur (TIDAK otomatis diberi akses).
-const SSW_KOLOM = [["SSW Building Cleaning","building-cleaning"],["SSW Kaigo Indonesia","kaigo"],["SSW Kaigo Jepang","kaigo-jp"],["SSW Food Manufacturing","food-manufacturing"],
-  ["SSW Food Service","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
+const SSW_KOLOM = [["SSW Building Cleaning","building-cleaning"],["SSW Kaigo","kaigo"],["SSW Kaigo Indonesia","kaigo"],["SSW Kaigo Jepang","kaigo"],["SSW Food Manufacturing","food-manufacturing"],
+  ["SSW Food Service","food-service"],["SSW Food Service Indonesia","food-service"],["SSW Food Service Jepang","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
 const _tidak = (v) => /^(tidak|t|no|n|0|false|blokir)$/i.test(String(v ?? "").trim());
 function _bacaSsw(r){ const o = {}; for (const [kol, slug] of SSW_KOLOM){ const v = r[kol] ?? r[kol.toLowerCase()]; if (_ya(v)) o[slug] = true; else if (_tidak(v)) o[slug] = false; } return o; }
 window.downloadFormatSiswa = () => {
   const data = [
-    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", "SSW Building Cleaning":"Ya", "SSW Kaigo Indonesia":"Ya", "SSW Kaigo Jepang":"", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
+    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", "SSW Building Cleaning":"Ya", "SSW Kaigo":"Ya", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
     { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak" },
   ];
   const ws = XLSX.utils.json_to_sheet(data);

@@ -59,10 +59,11 @@ async function getJSON(url) {
  *  Hanya building-cleaning yang punya materi (hasContent). Sisanya "belum tersedia". */
 export const DEFAULT_BIDANG = [
   { slug: "building-cleaning", nama: "Building Cleaning", jp: "ビルクリーニング", aktif: true, urut: 1, tema: "building", hasContent: true },
-  { slug: "kaigo", nama: "Kaigo (Indonesia)", jp: "介護", aktif: true, urut: 2, tema: "kaigo", hasContent: true },
-  { slug: "kaigo-jp", nama: "Kaigo (Bahasa Jepang)", jp: "介護の日本語", aktif: true, urut: 2.5, tema: "kaigo", hasContent: true },
+  { slug: "kaigo", nama: "Kaigo", jp: "介護", aktif: true, urut: 2, tema: "kaigo", hasContent: true },
+  { slug: "kaigo-jp", nama: "Kaigo (Bahasa Jepang)", jp: "介護の日本語", induk: "kaigo", aktif: true, urut: 2.5, tema: "kaigo", hasContent: true },
   { slug: "food-manufacturing", nama: "Food Manufacturing", jp: "飲食料品製造業", aktif: false, urut: 3, tema: "factory" },
   { slug: "food-service", nama: "Food Service (Jasa Boga)", jp: "外食業", aktif: true, urut: 4, tema: "restaurant", hasContent: true },
+  { slug: "food-service-jp", nama: "Food Service (Bahasa Jepang)", jp: "外食業（日本語）", induk: "food-service", aktif: true, urut: 4.5, tema: "restaurant", hasContent: true },
   { slug: "agriculture", nama: "Agriculture", jp: "農業", aktif: false, urut: 5, tema: "farm" },
   { slug: "construction", nama: "Construction", jp: "建設", aktif: false, urut: 6, tema: "construction" },
   { slug: "accommodation", nama: "Accommodation", jp: "宿泊", aktif: false, urut: 7, tema: "hotel" },
@@ -130,11 +131,16 @@ export function sswAllowed(slug) {
   let d = null; try { d = FB && FB.getSiswaDoc && FB.getSiswaDoc(); } catch (e) {}
   if (d && d.aksesSsw === false) return false;
   if (!slug) return true;
-  const a = d && d.aksesSswBidang ? d.aksesSswBidang[slug] : undefined;
-  if (typeof a === "boolean") return a;
-  const k = _kelasAkses && _kelasAkses.uid === uidNow() ? _kelasAkses.map[slug] : undefined;
-  if (typeof k === "boolean") return k;
-  return slug === BIDANG_BAWAAN_BUKA;
+  // Bidang "turunan" (mis. Kaigo Bahasa Jepang) mengikuti bidang induknya (Kaigo) kecuali diatur sendiri.
+  const cek = (sl) => {
+    const a = d && d.aksesSswBidang ? d.aksesSswBidang[sl] : undefined;
+    if (typeof a === "boolean") return a;
+    const k = _kelasAkses && _kelasAkses.uid === uidNow() ? _kelasAkses.map[sl] : undefined;
+    return typeof k === "boolean" ? k : undefined;
+  };
+  let r = cek(slug);
+  if (r === undefined) { const ind = (DEFAULT_BIDANG.find(b => b.slug === slug) || {}).induk; if (ind) r = cek(ind); }
+  return typeof r === "boolean" ? r : (slug === BIDANG_BAWAAN_BUKA);
 }
 /** Poin: subbab dibaca ×10, kartu sudah dikuasai ×2 (+3 bila "kuasa"), skor terbaik tiap kuis ×0.5. */
 export function points(P) {

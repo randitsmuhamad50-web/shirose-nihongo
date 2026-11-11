@@ -1,6 +1,6 @@
 // Panel guru SSW: aktif/nonaktif bidang, urutan, tambah bidang, status bab (Draft/Published/Hidden), progres siswa.
 // Menonaktifkan bidang TIDAK menghapus progres siswa (dokumen progres tidak disentuh).
-import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261111b";
+import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261111c";
 
 const TEMA = ["building", "kaigo", "factory", "restaurant", "farm", "construction", "hotel", "generic"];
 const BAB_ST = { published: "Published (tampil untuk siswa)", draft: "Draft (hanya guru)", hidden: "Hidden (disembunyikan)" };
@@ -89,7 +89,7 @@ async function aksesHtml() {
     ${rows ? `<div class="table-wrap" style="max-height:340px;overflow:auto"><table><tbody>${rows}</tbody></table></div>` : `<div style="color:var(--gray)">Tidak ada siswa.</div>`}</div>`;
 }
 /* ---- Akses per bidang: siswa (prioritas 1) → kelas (prioritas 2) → bawaan (hanya Building Cleaning terbuka) ---- */
-const bidangSelect = () => `<select onchange="SSWT.filter('bidang',this.value)"><option value="">Semua SSW (blokir total)</option>${BID.map(b => `<option value="${esc(b.slug)}" ${VIEW.bidang === b.slug ? "selected" : ""}>Bidang: ${esc(b.nama)}</option>`).join("")}</select>`;
+const bidangSelect = () => `<select onchange="SSWT.filter('bidang',this.value)"><option value="">Semua SSW (blokir total)</option>${BID.filter(b => !b.induk).map(b => `<option value="${esc(b.slug)}" ${VIEW.bidang === b.slug ? "selected" : ""}>Bidang: ${esc(b.nama)}</option>`).join("")}</select>`;
 const tri = (v) => typeof v === "boolean" ? (v ? "1" : "0") : "";
 const triSel = (cur, fn) => `<select onchange="${fn}"><option value="" ${cur === "" ? "selected" : ""}>Ikut bawaan</option><option value="1" ${cur === "1" ? "selected" : ""}>Boleh</option><option value="0" ${cur === "0" ? "selected" : ""}>Blokir</option></select>`;
 async function aksesBidangHtml(kelas, vis) {

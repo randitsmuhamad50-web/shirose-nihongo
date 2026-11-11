@@ -1,0 +1,288 @@
+{
+ "schema": 1,
+ "bidang": "food-service-jp",
+ "source": "外食業技能測定試験 学習用テキスト【衛生管理】【飲食物調理】【接客全般】令和3年4月15日改訂版 — 一般社団法人 日本フードサービス協会 (versi Jepang); indeks kosakata di akhir tiap modul",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Layanan Pelanggan",
+   "jp": "{接客全般|せっきゃくぜんぱん}"
+  },
+  "intro": {
+   "id": "Modul 接客全般: layanan pelanggan, pengetahuan makanan, pengelolaan toko, keluhan, dan keadaan darurat.",
+   "jp": "{接客全般|せっきゃくぜんぱん}"
+  },
+  "pages": [
+   99,
+   144
+  ],
+  "subs": [
+   {
+    "id": "j3s1",
+    "no": 1,
+    "title": {
+     "id": "Layanan dan Gerakan Dasar",
+     "jp": "{接客|せっきゃく}サービス・{基本動作|きほんどうさ}"
+    },
+    "pages": [
+     99,
+     106
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Dasar layanan pelanggan dan gerakan dasar (sapaan, membungkuk, sikap). Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 99–106 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dasar layanan pelanggan dan gerakan dasar (sapaan, membungkuk, sikap).",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s2",
+    "no": 2,
+    "title": {
+     "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+     "jp": "マナー・{配慮|はいりょ}・{配膳|はいぜん}"
+    },
+    "pages": [
+     107,
+     113
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Etiket makan, pelayanan pelanggan yang perlu perhatian khusus, dan penyajian hidangan. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 107–113 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Etiket makan, pelayanan pelanggan yang perlu perhatian khusus, dan penyajian hidangan.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s3",
+    "no": 3,
+    "title": {
+     "id": "Istilah Dasar Layanan",
+     "jp": "{接客基本用語|せっきゃくきほんようご}"
+    },
+    "pages": [
+     114,
+     117
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Istilah dasar layanan pelanggan dan cara memakainya. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 114–117 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Istilah dasar layanan pelanggan dan cara memakainya.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s4",
+    "no": 4,
+    "title": {
+     "id": "Pengetahuan tentang Makanan",
+     "jp": "{食|しょく}に{関|かん}する{知識|ちしき}"
+    },
+    "pages": [
+     118,
+     122
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Alergi makanan, minuman beralkohol, gizi, indra perasa, dan keberagaman makanan. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 118–122 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Alergi makanan, minuman beralkohol, gizi, indra perasa, dan keberagaman makanan.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s5",
+    "no": 5,
+    "title": {
+     "id": "Pengelolaan Toko",
+     "jp": "{店舗管理|てんぽかんり}"
+    },
+    "pages": [
+     123,
+     129
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Persiapan buka dan tutup, pembersihan, serta uang tunai dan pembayaran cashless. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 123–129 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Persiapan buka dan tutup, pembersihan, serta uang tunai dan pembayaran cashless.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s6",
+    "no": 6,
+    "title": {
+     "id": "Keluhan dan Benda Asing",
+     "jp": "クレーム・{異物混入|いぶつこんにゅう}"
+    },
+    "pages": [
+     130,
+     132
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Menangani keluhan pelanggan dan kejadian benda asing. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 130–132 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Menangani keluhan pelanggan dan kejadian benda asing.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s7",
+    "no": 7,
+    "title": {
+     "id": "Keadaan Darurat",
+     "jp": "{緊急時|きんきゅうじ}の{対応|たいおう}"
+    },
+    "pages": [
+     133,
+     136
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pelanggan/karyawan sakit dan bencana. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 133–136 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pelanggan/karyawan sakit dan bencana.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j3s8",
+    "no": 8,
+    "title": {
+     "id": "Bahan Acuan",
+     "jp": "{参考資料|さんこうしりょう}"
+    },
+    "pages": [
+     137,
+     144
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Lampiran dan daftar kosakata modul. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 137–144 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Lampiran dan daftar kosakata modul.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,222 @@
+{
+ "schema": 1,
+ "bidang": "food-service-jp",
+ "source": "外食業技能測定試験 学習用テキスト【衛生管理】【飲食物調理】【接客全般】令和3年4月15日改訂版 — 一般社団法人 日本フードサービス協会 (versi Jepang); indeks kosakata di akhir tiap modul",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Pengawasan Kebersihan",
+   "jp": "{衛生管理|えいせいかんり}"
+  },
+  "intro": {
+   "id": "Modul 衛生管理: dasar keracunan makanan, kebersihan umum, dan HACCP. Baca halaman buku berbahasa Jepang, lalu latih kosakata.",
+   "jp": "{衛生管理|えいせいかんり}"
+  },
+  "pages": [
+   4,
+   43
+  ],
+  "subs": [
+   {
+    "id": "j1s1",
+    "no": 1,
+    "title": {
+     "id": "Dasar Keracunan Makanan",
+     "jp": "{食中毒|しょくちゅうどく}の{基礎|きそ}"
+    },
+    "pages": [
+     4,
+     9
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pengetahuan dasar keracunan makanan, 3 prinsip pencegahan, serta bakteri dan virus penyebab utama. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 4–9 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pengetahuan dasar keracunan makanan, 3 prinsip pencegahan, serta bakteri dan virus penyebab utama.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j1s2",
+    "no": 2,
+    "title": {
+     "id": "Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat",
+     "jp": "{原材料|げんざいりょう}・{温度|おんど}・{交差汚染|こうさおせん}・{洗浄|せんじょう}"
+    },
+    "pages": [
+     10,
+     13
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pemeriksaan bahan masuk, suhu kulkas/freezer, pencegahan kontaminasi silang, pencucian-disinfeksi-sterilisasi alat masak. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 10–13 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pemeriksaan bahan masuk, suhu kulkas/freezer, pencegahan kontaminasi silang, pencucian-disinfeksi-sterilisasi alat masak.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j1s3",
+    "no": 3,
+    "title": {
+     "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+     "jp": "トイレ・{健康管理|けんこうかんり}・{手洗|てあら}い・{清掃|せいそう}"
+    },
+    "pages": [
+     14,
+     18
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pembersihan toilet, kesehatan dan pakaian kerja, cuci tangan, kebersihan dapur dan pengelolaan sampah. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 14–18 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pembersihan toilet, kesehatan dan pakaian kerja, cuci tangan, kebersihan dapur dan pengelolaan sampah.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j1s4",
+    "no": 4,
+    "title": {
+     "id": "Konsep HACCP",
+     "jp": "HACCPの{考|かんが}え{方|かた}"
+    },
+    "pages": [
+     19,
+     21
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pengawasan kebersihan dengan konsep HACCP dan titik pengendalian penting. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 19–21 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pengawasan kebersihan dengan konsep HACCP dan titik pengendalian penting.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j1s5",
+    "no": 5,
+    "title": {
+     "id": "Pengelolaan Tiap Kelompok",
+     "jp": "グループ{別|べつ}の{管理|かんり}"
+    },
+    "pages": [
+     22,
+     26
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Kelompok 1 (tanpa pemanasan), kelompok 2 (dipanaskan), kelompok 3 (pemanasan-pendinginan berulang), dan titik penting lain. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 22–26 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kelompok 1 (tanpa pemanasan), kelompok 2 (dipanaskan), kelompok 3 (pemanasan-pendinginan berulang), dan titik penting lain.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j1s6",
+    "no": 6,
+    "title": {
+     "id": "Catatan dan Bahan Acuan",
+     "jp": "{記録|きろく}・{参考資料|さんこうしりょう}"
+    },
+    "pages": [
+     27,
+     43
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pencatatan pengawasan kebersihan, contoh formulir, dan daftar kosakata. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 27–43 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pencatatan pengawasan kebersihan, contoh formulir, dan daftar kosakata.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   }
+  ]
+ }
+}

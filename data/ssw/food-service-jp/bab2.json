@@ -1,0 +1,222 @@
+{
+ "schema": 1,
+ "bidang": "food-service-jp",
+ "source": "外食業技能測定試験 学習用テキスト【衛生管理】【飲食物調理】【接客全般】令和3年4月15日改訂版 — 一般社団法人 日本フードサービス協会 (versi Jepang); indeks kosakata di akhir tiap modul",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Persiapan Makanan dan Minuman",
+   "jp": "{飲食物調理|いんしょくぶつちょうり}"
+  },
+  "intro": {
+   "id": "Modul 飲食物調理: bahan makanan, penanganan awal, cara memasak, mesin dan alat, serta keselamatan kerja di dapur.",
+   "jp": "{飲食物調理|いんしょくぶつちょうり}"
+  },
+  "pages": [
+   50,
+   94
+  ],
+  "subs": [
+   {
+    "id": "j2s1",
+    "no": 1,
+    "title": {
+     "id": "Bahan Makanan",
+     "jp": "{食材|しょくざい}"
+    },
+    "pages": [
+     50,
+     57
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Daging, ikan dan hasil laut, serta sayur dan buah. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 50–57 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Daging, ikan dan hasil laut, serta sayur dan buah.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j2s2",
+    "no": 2,
+    "title": {
+     "id": "Penanganan Awal",
+     "jp": "{下処理|したしょり}"
+    },
+    "pages": [
+     58,
+     62
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Tujuan penanganan awal, sayuran, serta ikan dan hasil laut. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 58–62 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tujuan penanganan awal, sayuran, serta ikan dan hasil laut.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j2s3",
+    "no": 3,
+    "title": {
+     "id": "Cara Memasak",
+     "jp": "{調理方法|ちょうりほうほう}"
+    },
+    "pages": [
+     63,
+     67
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Memasak dengan pemanasan dan tanpa pemanasan. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 63–67 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Memasak dengan pemanasan dan tanpa pemanasan.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j2s4",
+    "no": 4,
+    "title": {
+     "id": "Mesin, Alat, dan Alat Ukur",
+     "jp": "{調理機器|ちょうりきき}・{器具|きぐ}・{計測機器|けいそくきき}"
+    },
+    "pages": [
+     68,
+     77
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Mesin masak, alat dan perlengkapan, serta alat ukur. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 68–77 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Mesin masak, alat dan perlengkapan, serta alat ukur.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j2s5",
+    "no": 5,
+    "title": {
+     "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+     "jp": "{労働安全衛生|ろうどうあんぜんえいせい}・{火災防止|かさいぼうし}"
+    },
+    "pages": [
+     78,
+     85
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Keselamatan dan kesehatan kerja di dapur, penggunaan mesin dan alat, pencegahan kebakaran. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 78–85 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Keselamatan dan kesehatan kerja di dapur, penggunaan mesin dan alat, pencegahan kebakaran.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   },
+   {
+    "id": "j2s6",
+    "no": 6,
+    "title": {
+     "id": "Bahan Acuan",
+     "jp": "{参考資料|さんこうしりょう}"
+    },
+    "pages": [
+     86,
+     94
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Lampiran dan daftar kosakata modul. Teks asli modul berbahasa Jepang ada pada halaman buku di bawah; baca langsung dari halaman, lalu latih kosakatanya."
+      },
+      {
+       "note": "Sumber: modul bahasa Jepang hal. 86–94 (buku gabungan). Daftar kosakata resmi modul ada di bagian belakang tiap modul; di sini kosakata dikelompokkan per subbab."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Lampiran dan daftar kosakata modul.",
+      "points": [
+       "Baca halaman buku berbahasa Jepang (hiragana ditulis di atas kanji).",
+       "Hafalkan kosakata subbab ini, lalu kerjakan latihan arti kata."
+      ],
+      "avoid": "Menghafal arti saja tanpa membaca kalimat di halaman buku.",
+      "exam": "Ujian memakai istilah Jepang seperti pada modul; kenali kanji dan cara bacanya."
+     }
+    }
+   }
+  ]
+ }
+}

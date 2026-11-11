@@ -1,0 +1,8764 @@
+{
+ "items": [
+  {
+   "id": "fj-001",
+   "kata": "赤身魚",
+   "kana": "あかみさかな",
+   "romaji": "akamisakana",
+   "arti": "ikan merah",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "赤身魚|あかみさかな"
+   ]
+  },
+  {
+   "id": "fj-002",
+   "kata": "アニサキス",
+   "kana": "あにさきす",
+   "romaji": "anisakisu",
+   "arti": "Anisakis (parasit)",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s5"
+   ]
+  },
+  {
+   "id": "fj-003",
+   "kata": "アルコール（消毒）",
+   "kana": "あるこーる（しょうどく）",
+   "romaji": "arukooru（shoudoku）",
+   "arti": "alkohol (disinfeksi)",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ]
+  },
+  {
+   "id": "fj-004",
+   "kata": "E型肝炎ウイルス",
+   "kana": "いーがたかんえんういるす",
+   "romaji": "iigatakanenuirusu",
+   "arti": "virus Hepatitis E",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "E型肝炎ウイルス|いーがたかんえんういるす"
+   ]
+  },
+  {
+   "id": "fj-005",
+   "kata": "一般的衛生管理",
+   "kana": "いっぱんてきえいせいかんり",
+   "romaji": "ippantekieiseikanri",
+   "arti": "pengawasan kebersihan umum",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s6"
+   ],
+   "rb": [
+    "一般的衛生管理|いっぱんてきえいせいかんり"
+   ]
+  },
+  {
+   "id": "fj-006",
+   "kata": "異物",
+   "kana": "いぶつ",
+   "romaji": "ibutsu",
+   "arti": "benda asing",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "異物|いぶつ"
+   ]
+  },
+  {
+   "id": "fj-007",
+   "kata": "飲食店",
+   "kana": "いんしょくてん",
+   "romaji": "inshokuten",
+   "arti": "restoran/kedai makan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "飲食店|いんしょくてん"
+   ]
+  },
+  {
+   "id": "fj-008",
+   "kata": "ウイルス",
+   "kana": "ういるす",
+   "romaji": "uirusu",
+   "arti": "virus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ]
+  },
+  {
+   "id": "fj-009",
+   "kata": "ウイルス性食中毒",
+   "kana": "ういるすせいしょくちゅうどく",
+   "romaji": "uirususeishokuchuudoku",
+   "arti": "keracunan makanan akibat virus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "ウイルス性食中毒|ういるすせいしょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fj-010",
+   "kata": "ウェルシュ菌",
+   "kana": "うぇるしゅきん",
+   "romaji": "uerushukin",
+   "arti": "Clostridium perfringens",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "ウェルシュ菌|うぇるしゅきん"
+   ]
+  },
+  {
+   "id": "fj-011",
+   "kata": "塩素系殺菌剤",
+   "kana": "えんそけいさっきんざい",
+   "romaji": "ensokeisakkinzai",
+   "arti": "disinfektan berklorin",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "塩素系殺菌剤|えんそけいさっきんざい"
+   ]
+  },
+  {
+   "id": "fj-012",
+   "kata": "黄色ブドウ球菌",
+   "kana": "おうしょくぶどうきゅうきん",
+   "romaji": "oushokubudoukyuukin",
+   "arti": "Staphylococcus aureus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "黄色ブドウ球菌|おうしょくぶどうきゅうきん"
+   ]
+  },
+  {
+   "id": "fj-013",
+   "kata": "おう吐",
+   "kana": "おうと",
+   "romaji": "outo",
+   "arti": "muntah",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "おう吐|おうと"
+   ]
+  },
+  {
+   "id": "fj-014",
+   "kata": "親指",
+   "kana": "おやゆび",
+   "romaji": "oyayubi",
+   "arti": "ibu jari",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "親指|おやゆび"
+   ]
+  },
+  {
+   "id": "fj-015",
+   "kata": "温度",
+   "kana": "おんど",
+   "romaji": "ondo",
+   "arti": "suhu",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "温度|おんど"
+   ]
+  },
+  {
+   "id": "fj-016",
+   "kata": "温度管理",
+   "kana": "おんどかんり",
+   "romaji": "ondokanri",
+   "arti": "pengawasan suhu",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "温度管理|おんどかんり"
+   ]
+  },
+  {
+   "id": "fj-017",
+   "kata": "温度計",
+   "kana": "おんどけい",
+   "romaji": "ondokei",
+   "arti": "termometer",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "温度計|おんどけい"
+   ]
+  },
+  {
+   "id": "fj-018",
+   "kata": "温度帯",
+   "kana": "おんどたい",
+   "romaji": "ondotai",
+   "arti": "rentang suhu",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "温度帯|おんどたい"
+   ]
+  },
+  {
+   "id": "fj-019",
+   "kata": "回虫",
+   "kana": "かいちゅう",
+   "romaji": "kaichuu",
+   "arti": "cacing gelang",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "回虫|かいちゅう"
+   ]
+  },
+  {
+   "id": "fj-020",
+   "kata": "化学性食中毒",
+   "kana": "かがくせいしょくちゅうどく",
+   "romaji": "kagakuseishokuchuudoku",
+   "arti": "keracunan makanan akibat bahan kimia",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "化学性食中毒|かがくせいしょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fj-021",
+   "kata": "加工品",
+   "kana": "かこうひん",
+   "romaji": "kakouhin",
+   "arti": "produk olahan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "加工品|かこうひん"
+   ]
+  },
+  {
+   "id": "fj-022",
+   "kata": "加熱",
+   "kana": "かねつ",
+   "romaji": "kanetsu",
+   "arti": "pemanasan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "加熱|かねつ"
+   ]
+  },
+  {
+   "id": "fj-023",
+   "kata": "加熱不足",
+   "kana": "かねつぶそく",
+   "romaji": "kanetsubusoku",
+   "arti": "pemanasan kurang",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "加熱不足|かねつぶそく"
+   ]
+  },
+  {
+   "id": "fj-024",
+   "kata": "芽胞",
+   "kana": "がほう",
+   "romaji": "gahou",
+   "arti": "spora",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "芽胞|がほう"
+   ]
+  },
+  {
+   "id": "fj-025",
+   "kata": "からあげ",
+   "kana": "からあげ",
+   "romaji": "karaage",
+   "arti": "ayam goreng tepung (karaage)",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-026",
+   "kata": "カレー",
+   "kana": "かれー",
+   "romaji": "karee",
+   "arti": "kari",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-027",
+   "kata": "乾燥",
+   "kana": "かんそう",
+   "romaji": "kansou",
+   "arti": "pengeringan/kering",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "乾燥|かんそう"
+   ]
+  },
+  {
+   "id": "fj-028",
+   "kata": "カンピロバクター",
+   "kana": "かんぴろばくたー",
+   "romaji": "kanpirobakutaa",
+   "arti": "Campylobacter",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ]
+  },
+  {
+   "id": "fj-029",
+   "kata": "管理基準",
+   "kana": "かんりきじゅん",
+   "romaji": "kanrikijun",
+   "arti": "standar pengawasan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "管理基準|かんりきじゅん"
+   ]
+  },
+  {
+   "id": "fj-030",
+   "kata": "危害要因分析",
+   "kana": "きがいよういんぶんせき",
+   "romaji": "kigaiyouinbunseki",
+   "arti": "analisis bahaya",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "危害要因分析|きがいよういんぶんせき"
+   ]
+  },
+  {
+   "id": "fj-031",
+   "kata": "危険温度帯",
+   "kana": "きけんおんどたい",
+   "romaji": "kikenondotai",
+   "arti": "zona suhu berbahaya",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "危険温度帯|きけんおんどたい"
+   ]
+  },
+  {
+   "id": "fj-032",
+   "kata": "寄生虫",
+   "kana": "きせいちゅう",
+   "romaji": "kiseichuu",
+   "arti": "parasit",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "寄生虫|きせいちゅう"
+   ]
+  },
+  {
+   "id": "fj-033",
+   "kata": "寄生虫食中毒",
+   "kana": "きせいちゅうしょくちゅうどく",
+   "romaji": "kiseichuushokuchuudoku",
+   "arti": "keracunan makanan akibat parasit",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "寄生虫食中毒|きせいちゅうしょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fj-034",
+   "kata": "業者",
+   "kana": "ぎょうしゃ",
+   "romaji": "gyousha",
+   "arti": "pemasok/vendor",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "業者|ぎょうしゃ"
+   ]
+  },
+  {
+   "id": "fj-035",
+   "kata": "記録",
+   "kana": "きろく",
+   "romaji": "kiroku",
+   "arti": "catatan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "記録|きろく"
+   ]
+  },
+  {
+   "id": "fj-036",
+   "kata": "グリストラップ",
+   "kana": "ぐりすとらっぷ",
+   "romaji": "gurisutorappu",
+   "arti": "perangkap lemak",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-037",
+   "kata": "下痢",
+   "kana": "げり",
+   "romaji": "geri",
+   "arti": "diare",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "下痢|げり"
+   ]
+  },
+  {
+   "id": "fj-038",
+   "kata": "原因物質",
+   "kana": "げんいんぶっしつ",
+   "romaji": "geninbusshitsu",
+   "arti": "zat penyebab",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "原因物質|げんいんぶっしつ"
+   ]
+  },
+  {
+   "id": "fj-039",
+   "kata": "健康管理",
+   "kana": "けんこうかんり",
+   "romaji": "kenkoukanri",
+   "arti": "pengelolaan kesehatan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "健康管理|けんこうかんり"
+   ]
+  },
+  {
+   "id": "fj-040",
+   "kata": "健康被害",
+   "kana": "けんこうひがい",
+   "romaji": "kenkouhigai",
+   "arti": "gangguan kesehatan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "健康被害|けんこうひがい"
+   ]
+  },
+  {
+   "id": "fj-041",
+   "kata": "交差汚染",
+   "kana": "こうさおせん",
+   "romaji": "kousaosen",
+   "arti": "kontaminasi silang",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "交差汚染|こうさおせん"
+   ]
+  },
+  {
+   "id": "fj-042",
+   "kata": "硬質異物",
+   "kana": "こうしついぶつ",
+   "romaji": "koushitsuibutsu",
+   "arti": "benda asing keras",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s5"
+   ],
+   "rb": [
+    "硬質異物|こうしついぶつ"
+   ]
+  },
+  {
+   "id": "fj-043",
+   "kata": "５S",
+   "kana": "ごえす",
+   "romaji": "goesu",
+   "arti": "5S (seiri, seiton, seisou, seiketsu, shitsuke)",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-044",
+   "kata": "ごはん",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "arti": "nasi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-045",
+   "kata": "細菌",
+   "kana": "さいきん",
+   "romaji": "saikin",
+   "arti": "bakteri",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "細菌|さいきん"
+   ]
+  },
+  {
+   "id": "fj-046",
+   "kata": "細菌性食中毒",
+   "kana": "さいきんせいしょくちゅうどく",
+   "romaji": "saikinseishokuchuudoku",
+   "arti": "keracunan makanan akibat bakteri",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "細菌性食中毒|さいきんせいしょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fj-047",
+   "kata": "作業工程",
+   "kana": "さぎょうこうてい",
+   "romaji": "sagyoukoutei",
+   "arti": "proses kerja",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "作業工程|さぎょうこうてい"
+   ]
+  },
+  {
+   "id": "fj-048",
+   "kata": "作業台",
+   "kana": "さぎょうだい",
+   "romaji": "sagyoudai",
+   "arti": "meja kerja",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "作業台|さぎょうだい"
+   ]
+  },
+  {
+   "id": "fj-049",
+   "kata": "刺身",
+   "kana": "さしみ",
+   "romaji": "sashimi",
+   "arti": "sashimi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "刺身|さしみ"
+   ]
+  },
+  {
+   "id": "fj-050",
+   "kata": "殺菌",
+   "kana": "さっきん",
+   "romaji": "sakkin",
+   "arti": "sterilisasi bakteri",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "殺菌|さっきん"
+   ]
+  },
+  {
+   "id": "fj-051",
+   "kata": "雑菌",
+   "kana": "ざっきん",
+   "romaji": "zakkin",
+   "arti": "bakteri campuran/liar",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "雑菌|ざっきん"
+   ]
+  },
+  {
+   "id": "fj-052",
+   "kata": "殺虫剤",
+   "kana": "さっちゅうざい",
+   "romaji": "sacchuuzai",
+   "arti": "insektisida",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "殺虫剤|さっちゅうざい"
+   ]
+  },
+  {
+   "id": "fj-053",
+   "kata": "サルモネラ菌",
+   "kana": "さるもねらきん",
+   "romaji": "sarumonerakin",
+   "arti": "Salmonella",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "サルモネラ菌|さるもねらきん"
+   ]
+  },
+  {
+   "id": "fj-054",
+   "kata": "室温",
+   "kana": "しつおん",
+   "romaji": "shitsuon",
+   "arti": "suhu ruang",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "室温|しつおん"
+   ]
+  },
+  {
+   "id": "fj-055",
+   "kata": "湿度",
+   "kana": "しつど",
+   "romaji": "shitsudo",
+   "arti": "kelembapan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "湿度|しつど"
+   ]
+  },
+  {
+   "id": "fj-056",
+   "kata": "習慣",
+   "kana": "しゅうかん",
+   "romaji": "shuukan",
+   "arti": "kebiasaan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "習慣|しゅうかん"
+   ]
+  },
+  {
+   "id": "fj-057",
+   "kata": "重要管理点",
+   "kana": "じゅうようかんりてん",
+   "romaji": "juuyoukanriten",
+   "arti": "titik pengawasan penting",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "重要管理点|じゅうようかんりてん"
+   ]
+  },
+  {
+   "id": "fj-058",
+   "kata": "重要管理ポイント",
+   "kana": "じゅうようかんりぽいんと",
+   "romaji": "juuyoukanripointo",
+   "arti": "poin pengawasan penting",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "重要管理ポイント|じゅうようかんりぽいんと"
+   ]
+  },
+  {
+   "id": "fj-059",
+   "kata": "装飾品",
+   "kana": "しょうしょくひん",
+   "romaji": "shoushokuhin",
+   "arti": "perhiasan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "装飾品|しょうしょくひん"
+   ]
+  },
+  {
+   "id": "fj-060",
+   "kata": "消毒",
+   "kana": "しょうどく",
+   "romaji": "shoudoku",
+   "arti": "disinfeksi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "消毒|しょうどく"
+   ]
+  },
+  {
+   "id": "fj-061",
+   "kata": "消費期限",
+   "kana": "しょうひきげん",
+   "romaji": "shouhikigen",
+   "arti": "tanggal kedaluwarsa",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "消費期限|しょうひきげん"
+   ]
+  },
+  {
+   "id": "fj-062",
+   "kata": "賞味期限",
+   "kana": "しょうみきげん",
+   "romaji": "shoumikigen",
+   "arti": "tanggal sebaiknya dikonsumsi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "賞味期限|しょうみきげん"
+   ]
+  },
+  {
+   "id": "fj-063",
+   "kata": "照明",
+   "kana": "しょうめい",
+   "romaji": "shoumei",
+   "arti": "pencahayaan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "照明|しょうめい"
+   ]
+  },
+  {
+   "id": "fj-064",
+   "kata": "食中毒",
+   "kana": "しょくちゅうどく",
+   "romaji": "shokuchuudoku",
+   "arti": "keracunan makanan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "食中毒|しょくちゅうどく"
+   ]
+  },
+  {
+   "id": "fj-065",
+   "kata": "食中毒予防３原則",
+   "kana": "しょくちゅうどくよぼうさんげんそく",
+   "romaji": "shokuchuudokuyobousangensoku",
+   "arti": "3 prinsip pencegahan keracunan makanan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "食中毒予防３原則|しょくちゅうどくよぼうさんげんそく"
+   ]
+  },
+  {
+   "id": "fj-066",
+   "kata": "食品残さ",
+   "kana": "しょくひんざんさ",
+   "romaji": "shokuhinzansa",
+   "arti": "sisa makanan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "食品残さ|しょくひんざんさ"
+   ]
+  },
+  {
+   "id": "fj-067",
+   "kata": "シンク",
+   "kana": "しんく",
+   "romaji": "shinku",
+   "arti": "bak cuci",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-068",
+   "kata": "水洗レバー",
+   "kana": "すいせんればー",
+   "romaji": "suisenrebaa",
+   "arti": "tuas penyiram toilet",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "水洗レバー|すいせんればー"
+   ]
+  },
+  {
+   "id": "fj-069",
+   "kata": "水道水",
+   "kana": "すいどうすい",
+   "romaji": "suidousui",
+   "arti": "air keran",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "水道水|すいどうすい"
+   ]
+  },
+  {
+   "id": "fj-070",
+   "kata": "スープ",
+   "kana": "すーぷ",
+   "romaji": "suupu",
+   "arti": "sup",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-071",
+   "kata": "ステーキ",
+   "kana": "すてーき",
+   "romaji": "suteeki",
+   "arti": "steak",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-072",
+   "kata": "清潔",
+   "kana": "せいけつ",
+   "romaji": "seiketsu",
+   "arti": "bersih/sanitasi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "清潔|せいけつ"
+   ]
+  },
+  {
+   "id": "fj-073",
+   "kata": "清掃",
+   "kana": "せいそう",
+   "romaji": "seisou",
+   "arti": "membersihkan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "清掃|せいそう"
+   ]
+  },
+  {
+   "id": "fj-074",
+   "kata": "製造",
+   "kana": "せいぞう",
+   "romaji": "seizou",
+   "arti": "produksi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "製造|せいぞう"
+   ]
+  },
+  {
+   "id": "fj-075",
+   "kata": "整頓",
+   "kana": "せいとん",
+   "romaji": "seiton",
+   "arti": "menata rapi",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "整頓|せいとん"
+   ]
+  },
+  {
+   "id": "fj-076",
+   "kata": "整理",
+   "kana": "せいり",
+   "romaji": "seiri",
+   "arti": "mengorganisir",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "整理|せいり"
+   ]
+  },
+  {
+   "id": "fj-077",
+   "kata": "赤外線放射温度計",
+   "kana": "せきがいせんほうしゃおんどけい",
+   "romaji": "sekigaisenhoushaondokei",
+   "arti": "termometer inframerah",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "赤外線放射温度計|せきがいせんほうしゃおんどけい"
+   ]
+  },
+  {
+   "id": "fj-078",
+   "kata": "セレウス菌",
+   "kana": "せれうすきん",
+   "romaji": "sereusukin",
+   "arti": "Bacillus cereus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "セレウス菌|せれうすきん"
+   ]
+  },
+  {
+   "id": "fj-079",
+   "kata": "洗剤",
+   "kana": "せんざい",
+   "romaji": "senzai",
+   "arti": "detergen",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "洗剤|せんざい"
+   ]
+  },
+  {
+   "id": "fj-080",
+   "kata": "洗浄剤",
+   "kana": "せんじょうざい",
+   "romaji": "senjouzai",
+   "arti": "bahan pembersih",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "洗浄剤|せんじょうざい"
+   ]
+  },
+  {
+   "id": "fj-081",
+   "kata": "鮮度",
+   "kana": "せんど",
+   "romaji": "sendo",
+   "arti": "kesegaran",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "鮮度|せんど"
+   ]
+  },
+  {
+   "id": "fj-082",
+   "kata": "ソース",
+   "kana": "そーす",
+   "romaji": "soosu",
+   "arti": "saus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-083",
+   "kata": "体調不良",
+   "kana": "たいちょうふりょう",
+   "romaji": "taichoufuryou",
+   "arti": "kondisi tubuh tidak sehat",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "体調不良|たいちょうふりょう"
+   ]
+  },
+  {
+   "id": "fj-084",
+   "kata": "ダクト",
+   "kana": "だくと",
+   "romaji": "dakuto",
+   "arti": "saluran udara/cerobong",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-085",
+   "kata": "たれ",
+   "kana": "たれ",
+   "romaji": "tare",
+   "arti": "saus tare (kecap/mirin)",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-086",
+   "kata": "中心温度",
+   "kana": "ちゅうしんおんど",
+   "romaji": "chuushinondo",
+   "arti": "suhu inti",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "中心温度|ちゅうしんおんど"
+   ]
+  },
+  {
+   "id": "fj-087",
+   "kata": "腸炎ビブリオ",
+   "kana": "ちょうえんびぶりお",
+   "romaji": "chouenbiburio",
+   "arti": "Vibrio parahaemolyticus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "腸炎ビブリオ|ちょうえんびぶりお"
+   ]
+  },
+  {
+   "id": "fj-088",
+   "kata": "腸管出血性大腸菌",
+   "kana": "ちょうかんしゅっけつせいだいちょうきん",
+   "romaji": "choukanshukketsuseidaichoukin",
+   "arti": "E. coli enterohemoragik",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "腸管出血性大腸菌|ちょうかんしゅっけつせいだいちょうきん"
+   ]
+  },
+  {
+   "id": "fj-089",
+   "kata": "手洗い場",
+   "kana": "てあらいば",
+   "romaji": "tearaiba",
+   "arti": "tempat cuci tangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "手洗い場|てあらいば"
+   ]
+  },
+  {
+   "id": "fj-090",
+   "kata": "定期清掃",
+   "kana": "ていきせいそう",
+   "romaji": "teikiseisou",
+   "arti": "pembersihan berkala",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "定期清掃|ていきせいそう"
+   ]
+  },
+  {
+   "id": "fj-091",
+   "kata": "手首",
+   "kana": "てくび",
+   "romaji": "tekubi",
+   "arti": "pergelangan tangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "手首|てくび"
+   ]
+  },
+  {
+   "id": "fj-092",
+   "kata": "手の甲",
+   "kana": "てのこう",
+   "romaji": "tenokou",
+   "arti": "punggung tangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "手の甲|てのこう"
+   ]
+  },
+  {
+   "id": "fj-093",
+   "kata": "手のひら",
+   "kana": "てのひら",
+   "romaji": "tenohira",
+   "arti": "telapak tangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "手のひら|てのひら"
+   ]
+  },
+  {
+   "id": "fj-094",
+   "kata": "手袋",
+   "kana": "てぶくろ",
+   "romaji": "tebukuro",
+   "arti": "sarung tangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "手袋|てぶくろ"
+   ]
+  },
+  {
+   "id": "fj-095",
+   "kata": "てんぷら",
+   "kana": "てんぷら",
+   "romaji": "tenpura",
+   "arti": "tempura",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-096",
+   "kata": "ドアノブ",
+   "kana": "どあのぶ",
+   "romaji": "doanobu",
+   "arti": "gagang pintu",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ]
+  },
+  {
+   "id": "fj-097",
+   "kata": "トイレ",
+   "kana": "といれ",
+   "romaji": "toire",
+   "arti": "toilet",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ]
+  },
+  {
+   "id": "fj-098",
+   "kata": "生ごみ",
+   "kana": "なまごみ",
+   "romaji": "namagomi",
+   "arti": "sampah basah",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "生ごみ|なまごみ"
+   ]
+  },
+  {
+   "id": "fj-099",
+   "kata": "生野菜サラダ",
+   "kana": "なまやさいさらだ",
+   "romaji": "namayasaisarada",
+   "arti": "salad sayuran segar",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "生野菜サラダ|なまやさいさらだ"
+   ]
+  },
+  {
+   "id": "fj-100",
+   "kata": "軟質異物",
+   "kana": "なんしついぶつ",
+   "romaji": "nanshitsuibutsu",
+   "arti": "benda asing lunak",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s5"
+   ],
+   "rb": [
+    "軟質異物|なんしついぶつ"
+   ]
+  },
+  {
+   "id": "fj-101",
+   "kata": "二次汚染",
+   "kana": "にじおせん",
+   "romaji": "nijiosen",
+   "arti": "pencemaran sekunder",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "二次汚染|にじおせん"
+   ]
+  },
+  {
+   "id": "fj-102",
+   "kata": "日常清掃",
+   "kana": "にちじょうせいそう",
+   "romaji": "nichijouseisou",
+   "arti": "pembersihan harian",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "日常清掃|にちじょうせいそう"
+   ]
+  },
+  {
+   "id": "fj-103",
+   "kata": "日誌",
+   "kana": "にっし",
+   "romaji": "nisshi",
+   "arti": "diari/catatan harian",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "日誌|にっし"
+   ]
+  },
+  {
+   "id": "fj-104",
+   "kata": "二枚貝",
+   "kana": "にまいがい",
+   "romaji": "nimaigai",
+   "arti": "kerang-kerangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "二枚貝|にまいがい"
+   ]
+  },
+  {
+   "id": "fj-105",
+   "kata": "入荷",
+   "kana": "にゅうか",
+   "romaji": "nyuuka",
+   "arti": "barang masuk",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "入荷|にゅうか"
+   ]
+  },
+  {
+   "id": "fj-106",
+   "kata": "熱湯",
+   "kana": "ねっとう",
+   "romaji": "nettou",
+   "arti": "air mendidih",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "熱湯|ねっとう"
+   ]
+  },
+  {
+   "id": "fj-107",
+   "kata": "納品",
+   "kana": "のうひん",
+   "romaji": "nouhin",
+   "arti": "pengantaran barang",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "納品|のうひん"
+   ]
+  },
+  {
+   "id": "fj-108",
+   "kata": "農薬",
+   "kana": "のうやく",
+   "romaji": "nouyaku",
+   "arti": "pestisida pertanian",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "農薬|のうやく"
+   ]
+  },
+  {
+   "id": "fj-109",
+   "kata": "ノロウイルス",
+   "kana": "のろういるす",
+   "romaji": "norouirusu",
+   "arti": "Norovirus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ]
+  },
+  {
+   "id": "fj-110",
+   "kata": "廃棄",
+   "kana": "はいき",
+   "romaji": "haiki",
+   "arti": "pembuangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "廃棄|はいき"
+   ]
+  },
+  {
+   "id": "fj-111",
+   "kata": "廃棄物",
+   "kana": "はいきぶつ",
+   "romaji": "haikibutsu",
+   "arti": "limbah",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "廃棄物|はいきぶつ"
+   ]
+  },
+  {
+   "id": "fj-112",
+   "kata": "排水溝",
+   "kana": "はいすいこう",
+   "romaji": "haisuikou",
+   "arti": "saluran pembuangan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "排水溝|はいすいこう"
+   ]
+  },
+  {
+   "id": "fj-113",
+   "kata": "廃油",
+   "kana": "はいゆ",
+   "romaji": "haiyu",
+   "arti": "minyak bekas",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "廃油|はいゆ"
+   ]
+  },
+  {
+   "id": "fj-114",
+   "kata": "HACCP",
+   "kana": "はせっぷ（はさっぷ）",
+   "romaji": "haseppu（hasappu）",
+   "arti": "HACCP",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-115",
+   "kata": "発生要因",
+   "kana": "はっせいよういん",
+   "romaji": "hasseiyouin",
+   "arti": "faktor penyebab",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "発生要因|はっせいよういん"
+   ]
+  },
+  {
+   "id": "fj-116",
+   "kata": "バンソウコウ",
+   "kana": "ばんそうこう",
+   "romaji": "bansoukou",
+   "arti": "plester",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-117",
+   "kata": "ハンバーグ",
+   "kana": "はんばーぐ",
+   "romaji": "hanbaagu",
+   "arti": "hamburger",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-118",
+   "kata": "ヒスタミン",
+   "kana": "ひすたみん",
+   "romaji": "hisutamin",
+   "arti": "histamin",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ]
+  },
+  {
+   "id": "fj-119",
+   "kata": "冷奴",
+   "kana": "ひややっこ",
+   "romaji": "hiyayakko",
+   "arti": "tahu dingin (hiyayakko)",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "冷奴|ひややっこ"
+   ]
+  },
+  {
+   "id": "fj-120",
+   "kata": "不快異物",
+   "kana": "ふかいいぶつ",
+   "romaji": "fukaiibutsu",
+   "arti": "benda asing yang tidak menyenangkan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s5"
+   ],
+   "rb": [
+    "不快異物|ふかいいぶつ"
+   ]
+  },
+  {
+   "id": "fj-121",
+   "kata": "ブドウ球菌",
+   "kana": "ぶどうきゅうきん",
+   "romaji": "budoukyuukin",
+   "arti": "Staphylococcus",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "ブドウ球菌|ぶどうきゅうきん"
+   ]
+  },
+  {
+   "id": "fj-122",
+   "kata": "フライドチキン",
+   "kana": "ふらいどちきん",
+   "romaji": "furaidochikin",
+   "arti": "ayam goreng",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s5"
+   ]
+  },
+  {
+   "id": "fj-123",
+   "kata": "便器",
+   "kana": "べんき",
+   "romaji": "benki",
+   "arti": "bowl toilet",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "便器|べんき"
+   ]
+  },
+  {
+   "id": "fj-124",
+   "kata": "便座",
+   "kana": "べんざ",
+   "romaji": "benza",
+   "arti": "dudukan toilet",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "便座|べんざ"
+   ]
+  },
+  {
+   "id": "fj-125",
+   "kata": "包丁",
+   "kana": "ほうちょう",
+   "romaji": "houchou",
+   "arti": "pisau dapur",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "包丁|ほうちょう"
+   ]
+  },
+  {
+   "id": "fj-126",
+   "kata": "母指球",
+   "kana": "ぼしきゅう",
+   "romaji": "boshikyuu",
+   "arti": "pangkal ibu jari",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "母指球|ぼしきゅう"
+   ]
+  },
+  {
+   "id": "fj-127",
+   "kata": "保存",
+   "kana": "ほぞん",
+   "romaji": "hozon",
+   "arti": "penyimpanan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "保存|ほぞん"
+   ]
+  },
+  {
+   "id": "fj-128",
+   "kata": "保存方法",
+   "kana": "ほぞんほうほう",
+   "romaji": "hozonhouhou",
+   "arti": "cara penyimpanan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "保存方法|ほぞんほうほう"
+   ]
+  },
+  {
+   "id": "fj-129",
+   "kata": "ポテトサラダ",
+   "kana": "ぽてとさらだ",
+   "romaji": "potetosarada",
+   "arti": "salad kentang",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ]
+  },
+  {
+   "id": "fj-130",
+   "kata": "まな板",
+   "kana": "まないた",
+   "romaji": "manaita",
+   "arti": "talenan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s1"
+   ],
+   "rb": [
+    "まな板|まないた"
+   ]
+  },
+  {
+   "id": "fj-131",
+   "kata": "焼き魚",
+   "kana": "やきさかな",
+   "romaji": "yakisakana",
+   "arti": "ikan bakar",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "焼き魚|やきさかな"
+   ]
+  },
+  {
+   "id": "fj-132",
+   "kata": "焼き鳥",
+   "kana": "やきとり",
+   "romaji": "yakitori",
+   "arti": "yakitori",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s4"
+   ],
+   "rb": [
+    "焼き鳥|やきとり"
+   ]
+  },
+  {
+   "id": "fj-133",
+   "kata": "薬剤",
+   "kana": "やくざい",
+   "romaji": "yakuzai",
+   "arti": "bahan kimia/obat",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "薬剤|やくざい"
+   ]
+  },
+  {
+   "id": "fj-134",
+   "kata": "指",
+   "kana": "ゆび",
+   "romaji": "yubi",
+   "arti": "jari",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "指|ゆび"
+   ]
+  },
+  {
+   "id": "fj-135",
+   "kata": "指先",
+   "kana": "ゆびさき",
+   "romaji": "yubisaki",
+   "arti": "ujung jari",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "指先|ゆびさき"
+   ]
+  },
+  {
+   "id": "fj-136",
+   "kata": "流水",
+   "kana": "りゅうすい",
+   "romaji": "ryuusui",
+   "arti": "air mengalir",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "流水|りゅうすい"
+   ]
+  },
+  {
+   "id": "fj-137",
+   "kata": "冷却",
+   "kana": "れいきゃく",
+   "romaji": "reikyaku",
+   "arti": "pendinginan",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ],
+   "rb": [
+    "冷却|れいきゃく"
+   ]
+  },
+  {
+   "id": "fj-138",
+   "kata": "冷却機器",
+   "kana": "れいきゃくきき",
+   "romaji": "reikyakukiki",
+   "arti": "alat pendingin",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s5"
+   ],
+   "rb": [
+    "冷却機器|れいきゃくきき"
+   ]
+  },
+  {
+   "id": "fj-139",
+   "kata": "冷蔵庫",
+   "kana": "れいぞうこ",
+   "romaji": "reizouko",
+   "arti": "kulkas",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "冷蔵庫|れいぞうこ"
+   ]
+  },
+  {
+   "id": "fj-140",
+   "kata": "冷凍庫",
+   "kana": "れいとうこ",
+   "romaji": "reitouko",
+   "arti": "freezer",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s2"
+   ],
+   "rb": [
+    "冷凍庫|れいとうこ"
+   ]
+  },
+  {
+   "id": "fj-141",
+   "kata": "レンジ",
+   "kana": "れんじ",
+   "romaji": "renji",
+   "arti": "kompor",
+   "cat": "Pengawasan Kebersihan",
+   "bab": "bab1",
+   "src": [
+    "j1s3"
+   ]
+  },
+  {
+   "id": "fj-142",
+   "kata": "IHレンジ",
+   "kana": "あいえいちれんじ",
+   "romaji": "aieichirenji",
+   "arti": "kompor induksi (IH)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-143",
+   "kata": "和える",
+   "kana": "あえる",
+   "romaji": "aeru",
+   "arti": "memberi saus/mengaduk (aeru)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "和える|あえる"
+   ]
+  },
+  {
+   "id": "fj-144",
+   "kata": "赤身肉",
+   "kana": "あかみにく",
+   "romaji": "akaminiku",
+   "arti": "daging merah",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "赤身肉|あかみにく"
+   ]
+  },
+  {
+   "id": "fj-145",
+   "kata": "揚げ鍋（てんぷら鍋）",
+   "kana": "あげなべ（てんぷらなべ）",
+   "romaji": "agenabe（tenpuranabe）",
+   "arti": "wajan penggorengan (tempura)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-146",
+   "kata": "揚げる",
+   "kana": "あげる",
+   "romaji": "ageru",
+   "arti": "menggoreng",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "揚げる|あげる"
+   ]
+  },
+  {
+   "id": "fj-147",
+   "kata": "アサリ",
+   "kana": "あさり",
+   "romaji": "asari",
+   "arti": "kerang asari",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-148",
+   "kata": "アスパラガス",
+   "kana": "あすぱらがす",
+   "romaji": "asuparagasu",
+   "arti": "asparagus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-149",
+   "kata": "油",
+   "kana": "あぶら",
+   "romaji": "abura",
+   "arti": "minyak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "油|あぶら"
+   ]
+  },
+  {
+   "id": "fj-150",
+   "kata": "アユ",
+   "kana": "あゆ",
+   "romaji": "ayu",
+   "arti": "ikan ayu",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-151",
+   "kata": "あられ切り",
+   "kana": "あられぎり",
+   "romaji": "araregiri",
+   "arti": "potongan dadu kecil (araregiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "あられ切り|あられぎり"
+   ]
+  },
+  {
+   "id": "fj-152",
+   "kata": "泡だて",
+   "kana": "あわだて",
+   "romaji": "awadate",
+   "arti": "pengocok/mengocok busa",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "泡だて|あわだて"
+   ]
+  },
+  {
+   "id": "fj-153",
+   "kata": "安全装置",
+   "kana": "あんぜんそうち",
+   "romaji": "anzensouchi",
+   "arti": "pengaman",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "安全装置|あんぜんそうち"
+   ]
+  },
+  {
+   "id": "fj-154",
+   "kata": "炒め物",
+   "kana": "いためもの",
+   "romaji": "itamemono",
+   "arti": "hidangan tumis",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "炒め物|いためもの"
+   ]
+  },
+  {
+   "id": "fj-155",
+   "kata": "炒める",
+   "kana": "いためる",
+   "romaji": "itameru",
+   "arti": "menumis",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "炒める|いためる"
+   ]
+  },
+  {
+   "id": "fj-156",
+   "kata": "いちご",
+   "kana": "いちご",
+   "romaji": "ichigo",
+   "arti": "stroberi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-157",
+   "kata": "いちょう切り",
+   "kana": "いちょうぎり",
+   "romaji": "ichougiri",
+   "arti": "potong seperempat (daun ginkgo)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "いちょう切り|いちょうぎり"
+   ]
+  },
+  {
+   "id": "fj-158",
+   "kata": "うぐいす骨",
+   "kana": "うぐいすぼね",
+   "romaji": "uguisubone",
+   "arti": "tulang ikan (bagian uguisu-bone)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "うぐいす骨|うぐいすぼね"
+   ]
+  },
+  {
+   "id": "fj-159",
+   "kata": "うちもも（牛肉）",
+   "kana": "うちもも（ぎゅうにく）",
+   "romaji": "uchimomo（gyuuniku）",
+   "arti": "gandik dalam (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-160",
+   "kata": "えだまめ",
+   "kana": "えだまめ",
+   "romaji": "edamame",
+   "arti": "edamame",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-161",
+   "kata": "えらふた",
+   "kana": "えらふた",
+   "romaji": "erafuta",
+   "arti": "tutup insang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-162",
+   "kata": "おたま",
+   "kana": "おたま",
+   "romaji": "otama",
+   "arti": "centong sup",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-163",
+   "kata": "おにぎり",
+   "kana": "おにぎり",
+   "romaji": "onigiri",
+   "arti": "nasi kepal (onigiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-164",
+   "kata": "おひれ",
+   "kana": "おひれ",
+   "romaji": "ohire",
+   "arti": "sirip",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-165",
+   "kata": "温度計",
+   "kana": "おんどけい",
+   "romaji": "ondokei",
+   "arti": "termometer",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "温度計|おんどけい"
+   ]
+  },
+  {
+   "id": "fj-166",
+   "kata": "温度計（冷蔵・冷凍庫用）",
+   "kana": "おんどけい（れいぞう・れいとうこよう）",
+   "romaji": "ondokei（reizou・reitoukoyou）",
+   "arti": "termometer kulkas/freezer",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-167",
+   "kata": "回転釜",
+   "kana": "かいてんがま",
+   "romaji": "kaitengama",
+   "arti": "kuali putar (tilting kettle)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "回転釜|かいてんがま"
+   ]
+  },
+  {
+   "id": "fj-168",
+   "kata": "回転動力機",
+   "kana": "かいてんどうりょくき",
+   "romaji": "kaitendouryokuki",
+   "arti": "mesin berputar bertenaga",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "回転動力機|かいてんどうりょくき"
+   ]
+  },
+  {
+   "id": "fj-169",
+   "kata": "解凍",
+   "kana": "かいとう",
+   "romaji": "kaitou",
+   "arti": "defrost/mencairkan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "解凍|かいとう"
+   ]
+  },
+  {
+   "id": "fj-170",
+   "kata": "解凍方法",
+   "kana": "かいとうほうほう",
+   "romaji": "kaitouhouhou",
+   "arti": "cara defrost",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "解凍方法|かいとうほうほう"
+   ]
+  },
+  {
+   "id": "fj-171",
+   "kata": "カキ",
+   "kana": "かき",
+   "romaji": "kaki",
+   "arti": "tiram",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-172",
+   "kata": "かき",
+   "kana": "かき",
+   "romaji": "kaki",
+   "arti": "kesemek",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-173",
+   "kata": "火災",
+   "kana": "かさい",
+   "romaji": "kasai",
+   "arti": "kebakaran",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s5"
+   ],
+   "rb": [
+    "火災|かさい"
+   ]
+  },
+  {
+   "id": "fj-174",
+   "kata": "火事",
+   "kana": "かじ",
+   "romaji": "kaji",
+   "arti": "kebakaran",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "火事|かじ"
+   ]
+  },
+  {
+   "id": "fj-175",
+   "kata": "ガスレンジ",
+   "kana": "がすれんじ",
+   "romaji": "gasurenji",
+   "arti": "kompor gas",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-176",
+   "kata": "かた（牛肉）",
+   "kana": "かた（ぎゅうにく）",
+   "romaji": "kata（gyuuniku）",
+   "arti": "sampil (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-177",
+   "kata": "かた（豚肉）",
+   "kana": "かた（ぶたにく）",
+   "romaji": "kata（butaniku）",
+   "arti": "sampil (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-178",
+   "kata": "片手鍋",
+   "kana": "かたてなべ",
+   "romaji": "katatenabe",
+   "arti": "panci lengan satu",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "片手鍋|かたてなべ"
+   ]
+  },
+  {
+   "id": "fj-179",
+   "kata": "かたばら（牛肉）",
+   "kana": "かたばら（ぎゅうにく）",
+   "romaji": "katabara（gyuuniku）",
+   "arti": "sandung lamur (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-180",
+   "kata": "肩ロース（牛肉）",
+   "kana": "かたろーす（ぎゅうにく）",
+   "romaji": "kataroosu（gyuuniku）",
+   "arti": "punuk-panggang (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-181",
+   "kata": "肩ロース（豚肉）",
+   "kana": "かたろーす（ぶたにく）",
+   "romaji": "kataroosu（butaniku）",
+   "arti": "punuk-panggang (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-182",
+   "kata": "カツオ",
+   "kana": "かつお",
+   "romaji": "katsuo",
+   "arti": "cakalang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-183",
+   "kata": "カッターミキサー",
+   "kana": "かったーみきさー",
+   "romaji": "kattaamikisaa",
+   "arti": "pemotong-pengaduk (cutter mixer)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-184",
+   "kata": "かっぺん",
+   "kana": "かっぺん",
+   "romaji": "kappen",
+   "arti": "perubahan warna",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-185",
+   "kata": "かつらむき",
+   "kana": "かつらむき",
+   "romaji": "katsuramuki",
+   "arti": "mengupas tipis memanjang (katsuramuki)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-186",
+   "kata": "かぶ",
+   "kana": "かぶ",
+   "romaji": "kabu",
+   "arti": "lobak kabu",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-187",
+   "kata": "かぼちゃ",
+   "kana": "かぼちゃ",
+   "romaji": "kabocha",
+   "arti": "labu kabocha",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-188",
+   "kata": "かま",
+   "kana": "かま",
+   "romaji": "kama",
+   "arti": "bagian kolar ikan (kama)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-189",
+   "kata": "からあげ",
+   "kana": "からあげ",
+   "romaji": "karaage",
+   "arti": "ayam goreng tepung (karaage)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-190",
+   "kata": "ガラス",
+   "kana": "がらす",
+   "romaji": "garasu",
+   "arti": "kaca/serpihan kaca",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-191",
+   "kata": "カルビ焼き",
+   "kana": "かるびやき",
+   "romaji": "karubiyaki",
+   "arti": "daging panggang gaya Korea (karubi-yaki)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "カルビ焼き|かるびやき"
+   ]
+  },
+  {
+   "id": "fj-192",
+   "kata": "カレー",
+   "kana": "かれー",
+   "romaji": "karee",
+   "arti": "kari",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-193",
+   "kata": "皮むき器",
+   "kana": "かわむきき",
+   "romaji": "kawamukiki",
+   "arti": "pengupas kulit",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "皮むき器|かわむきき"
+   ]
+  },
+  {
+   "id": "fj-194",
+   "kata": "喫煙",
+   "kana": "きつえん",
+   "romaji": "kitsuen",
+   "arti": "merokok",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "喫煙|きつえん"
+   ]
+  },
+  {
+   "id": "fj-195",
+   "kata": "キッチンタイマー",
+   "kana": "きっちんたいまー",
+   "romaji": "kicchintaimaa",
+   "arti": "timer dapur",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-196",
+   "kata": "キッチンポット",
+   "kana": "きっちんぽっと",
+   "romaji": "kicchinpotto",
+   "arti": "panci dapur",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-197",
+   "kata": "キャベツ",
+   "kana": "きゃべつ",
+   "romaji": "kyabetsu",
+   "arti": "kubis",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-198",
+   "kata": "牛肉",
+   "kana": "ぎゅうにく",
+   "romaji": "gyuuniku",
+   "arti": "daging sapi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "牛肉|ぎゅうにく"
+   ]
+  },
+  {
+   "id": "fj-199",
+   "kata": "きゅうり",
+   "kana": "きゅうり",
+   "romaji": "kyuuri",
+   "arti": "timun Jepang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-200",
+   "kata": "ギンナン",
+   "kana": "ぎんなん",
+   "romaji": "ginnan",
+   "arti": "kacang ginkgo",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-201",
+   "kata": "きんぴら",
+   "kana": "きんぴら",
+   "romaji": "kinpira",
+   "arti": "kinpira (gobou tumis)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-202",
+   "kata": "くり",
+   "kana": "くり",
+   "romaji": "kuri",
+   "arti": "kastanye",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-203",
+   "kata": "グリドル",
+   "kana": "ぐりどる",
+   "romaji": "guridoru",
+   "arti": "papan pemanggang (griddle)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-204",
+   "kata": "車えび",
+   "kana": "くるまえび",
+   "romaji": "kurumaebi",
+   "arti": "udang kuruma",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "車えび|くるまえび"
+   ]
+  },
+  {
+   "id": "fj-205",
+   "kata": "計量カップ",
+   "kana": "けいりょうかっぷ",
+   "romaji": "keiryoukappu",
+   "arti": "gelas takar",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "計量カップ|けいりょうかっぷ"
+   ]
+  },
+  {
+   "id": "fj-206",
+   "kata": "計量スプーン",
+   "kana": "けいりょうすぷーん",
+   "romaji": "keiryousupuun",
+   "arti": "sendok takar",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "計量スプーン|けいりょうすぷーん"
+   ]
+  },
+  {
+   "id": "fj-207",
+   "kata": "ケーキバット（角盆）",
+   "kana": "けーきばっと（かくぼん）",
+   "romaji": "keekibatto（kakubon）",
+   "arti": "baki persegi (cake vat)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-208",
+   "kata": "ゴーヤー",
+   "kana": "ごーやー",
+   "romaji": "gooyaa",
+   "arti": "paria (goya)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-209",
+   "kata": "小型洗浄機",
+   "kana": "こがたせんじょうき",
+   "romaji": "kogatasenjouki",
+   "arti": "pencuci piring kecil",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "小型洗浄機|こがたせんじょうき"
+   ]
+  },
+  {
+   "id": "fj-210",
+   "kata": "小型調理器",
+   "kana": "こがたちょうりき",
+   "romaji": "kogatachouriki",
+   "arti": "alat masak kecil",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "小型調理器|こがたちょうりき"
+   ]
+  },
+  {
+   "id": "fj-211",
+   "kata": "小口切り",
+   "kana": "こぐちぎり",
+   "romaji": "koguchigiri",
+   "arti": "potong bulat tipis (koguchigiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "小口切り|こぐちぎり"
+   ]
+  },
+  {
+   "id": "fj-212",
+   "kata": "ごはん",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "arti": "nasi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-213",
+   "kata": "ごぼう",
+   "kana": "ごぼう",
+   "romaji": "gobou",
+   "arti": "ketela Jepang (gobou)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-214",
+   "kata": "五目煮",
+   "kana": "ごもくに",
+   "romaji": "gomokuni",
+   "arti": "rebusan campuran (gomoku ni)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "五目煮|ごもくに"
+   ]
+  },
+  {
+   "id": "fj-215",
+   "kata": "コロッケ",
+   "kana": "ころっけ",
+   "romaji": "korokke",
+   "arti": "kroket",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-216",
+   "kata": "コンセント",
+   "kana": "こんせんと",
+   "romaji": "konsento",
+   "arti": "stop kontak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-217",
+   "kata": "コンベアタイプ洗浄機",
+   "kana": "こんべあたいぷせんじょうき",
+   "romaji": "konbeataipusenjouki",
+   "arti": "pencuci piring ban berjalan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "コンベアタイプ洗浄機|こんべあたいぷせんじょうき"
+   ]
+  },
+  {
+   "id": "fj-218",
+   "kata": "サーロイン",
+   "kana": "さーろいん",
+   "romaji": "saaroin",
+   "arti": "has luar (sirloin)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-219",
+   "kata": "サーロイン（牛肉）",
+   "kana": "さーろいん（ぎゅうにく）",
+   "romaji": "saaroin（gyuuniku）",
+   "arti": "has luar (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-220",
+   "kata": "西京焼き",
+   "kana": "さいきょうやき",
+   "romaji": "saikyouyaki",
+   "arti": "ikan panggang gaya Kyoto (saikyoyaki)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "西京焼き|さいきょうやき"
+   ]
+  },
+  {
+   "id": "fj-221",
+   "kata": "サイの目切り",
+   "kana": "さいのめぎり",
+   "romaji": "sainomegiri",
+   "arti": "potong dadu 1 cm (sainomekiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "サイの目切り|さいのめぎり"
+   ]
+  },
+  {
+   "id": "fj-222",
+   "kata": "さいばし",
+   "kana": "さいばし",
+   "romaji": "saibashi",
+   "arti": "sumpit panjang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-223",
+   "kata": "サケ",
+   "kana": "さけ",
+   "romaji": "sake",
+   "arti": "salmon",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-224",
+   "kata": "ささがき",
+   "kana": "ささがき",
+   "romaji": "sasagaki",
+   "arti": "serut tipis seperti bambu (sasagaki)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-225",
+   "kata": "ささみ（鶏肉）",
+   "kana": "ささみ（とりにく）",
+   "romaji": "sasami（toriniku）",
+   "arti": "dada bagian bawah (ayam)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-226",
+   "kata": "刺身",
+   "kana": "さしみ",
+   "romaji": "sashimi",
+   "arti": "sashimi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "刺身|さしみ"
+   ]
+  },
+  {
+   "id": "fj-227",
+   "kata": "刺身包丁",
+   "kana": "さしみほうちょう",
+   "romaji": "sashimihouchou",
+   "arti": "pisau sashimi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "刺身包丁|さしみほうちょう"
+   ]
+  },
+  {
+   "id": "fj-228",
+   "kata": "殺菌庫",
+   "kana": "さっきんこ",
+   "romaji": "sakkinko",
+   "arti": "pensteril",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "殺菌庫|さっきんこ"
+   ]
+  },
+  {
+   "id": "fj-229",
+   "kata": "さつまいも",
+   "kana": "さつまいも",
+   "romaji": "satsumaimo",
+   "arti": "ubi jalar",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-230",
+   "kata": "さといも",
+   "kana": "さといも",
+   "romaji": "satoimo",
+   "arti": "talas",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-231",
+   "kata": "さやいんげん",
+   "kana": "さやいんげん",
+   "romaji": "sayaingen",
+   "arti": "kacang panjang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-232",
+   "kata": "サワラ",
+   "kana": "さわら",
+   "romaji": "sawara",
+   "arti": "makerel pasifik (sawara)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-233",
+   "kata": "サンマ",
+   "kana": "さんま",
+   "romaji": "sanma",
+   "arti": "sauri pasifik",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-234",
+   "kata": "三枚おろし",
+   "kana": "さんまいおろし",
+   "romaji": "sanmaioroshi",
+   "arti": "filet tiga bagian",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "三枚おろし|さんまいおろし"
+   ]
+  },
+  {
+   "id": "fj-235",
+   "kata": "ジェットオーブン",
+   "kana": "じぇっとおーぶん",
+   "romaji": "jiettooobun",
+   "arti": "jet oven",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-236",
+   "kata": "色紙切り",
+   "kana": "しきしぎり",
+   "romaji": "shikishigiri",
+   "arti": "potong kotak ± 3 cm (shikishigiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "色紙切り|しきしぎり"
+   ]
+  },
+  {
+   "id": "fj-237",
+   "kata": "下味",
+   "kana": "したあじ",
+   "romaji": "shitaaji",
+   "arti": "bumbu awal/marinasi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "下味|したあじ"
+   ]
+  },
+  {
+   "id": "fj-238",
+   "kata": "下処理",
+   "kana": "したしょり",
+   "romaji": "shitashori",
+   "arti": "persiapan dasar",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "下処理|したしょり"
+   ]
+  },
+  {
+   "id": "fj-239",
+   "kata": "シチュー",
+   "kana": "しちゅー",
+   "romaji": "shichuu",
+   "arti": "semur",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-240",
+   "kata": "湿度計",
+   "kana": "しつどけい",
+   "romaji": "shitsudokei",
+   "arti": "higrometer",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "湿度計|しつどけい"
+   ]
+  },
+  {
+   "id": "fj-241",
+   "kata": "自動手指消毒器",
+   "kana": "じどうてゆびしょうどくき",
+   "romaji": "jidouteyubishoudokuki",
+   "arti": "pembersih tangan otomatis",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "自動手指消毒器|じどうてゆびしょうどくき"
+   ]
+  },
+  {
+   "id": "fj-242",
+   "kata": "脂肪",
+   "kana": "しぼう",
+   "romaji": "shibou",
+   "arti": "lemak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "脂肪|しぼう"
+   ]
+  },
+  {
+   "id": "fj-243",
+   "kata": "シメジ",
+   "kana": "しめじ",
+   "romaji": "shimeji",
+   "arti": "jamur shimeji",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-244",
+   "kata": "シャーレン鍋",
+   "kana": "しゃーれんなべ",
+   "romaji": "shaarennabe",
+   "arti": "wok/kuali Tiongkok",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "シャーレン鍋|しゃーれんなべ"
+   ]
+  },
+  {
+   "id": "fj-245",
+   "kata": "じゃがいも",
+   "kana": "じゃがいも",
+   "romaji": "jagaimo",
+   "arti": "kentang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-246",
+   "kata": "しゃぶしゃぶ",
+   "kana": "しゃぶしゃぶ",
+   "romaji": "shabushabu",
+   "arti": "shabu-shabu",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-247",
+   "kata": "しゃもじ（宮島）",
+   "kana": "しゃもじ（みやじま）",
+   "romaji": "shamoji（miyajima）",
+   "arti": "sendok nasi Miyajima",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-248",
+   "kata": "しゅうまい",
+   "kana": "しゅうまい",
+   "romaji": "shuumai",
+   "arti": "shumai",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-249",
+   "kata": "旬",
+   "kana": "しゅん",
+   "romaji": "shun",
+   "arti": "sedang musim",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "旬|しゅん"
+   ]
+  },
+  {
+   "id": "fj-250",
+   "kata": "しゅんぎく",
+   "kana": "しゅんぎく",
+   "romaji": "shungiku",
+   "arti": "daun seruni (shungiku)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-251",
+   "kata": "消火活動",
+   "kana": "しょうかかつどう",
+   "romaji": "shoukakatsudou",
+   "arti": "kegiatan pemadaman",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s5"
+   ],
+   "rb": [
+    "消火活動|しょうかかつどう"
+   ]
+  },
+  {
+   "id": "fj-252",
+   "kata": "消火器",
+   "kana": "しょうかき",
+   "romaji": "shoukaki",
+   "arti": "alat pemadam",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s5"
+   ],
+   "rb": [
+    "消火器|しょうかき"
+   ]
+  },
+  {
+   "id": "fj-253",
+   "kata": "しょうがやき",
+   "kana": "しょうがやき",
+   "romaji": "shougayaki",
+   "arti": "babi bakar jahe (shogayaki)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-254",
+   "kata": "食塩水",
+   "kana": "しょくえんすい",
+   "romaji": "shokuensui",
+   "arti": "air garam",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "食塩水|しょくえんすい"
+   ]
+  },
+  {
+   "id": "fj-255",
+   "kata": "食感",
+   "kana": "しょっかん",
+   "romaji": "shokkan",
+   "arti": "tekstur di mulut",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "食感|しょっかん"
+   ]
+  },
+  {
+   "id": "fj-256",
+   "kata": "食器",
+   "kana": "しょっき",
+   "romaji": "shokki",
+   "arti": "peralatan makan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "食器|しょっき"
+   ]
+  },
+  {
+   "id": "fj-257",
+   "kata": "しらが",
+   "kana": "しらが",
+   "romaji": "shiraga",
+   "arti": "potong korek amat tipis (shiraga)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-258",
+   "kata": "しりひれ",
+   "kana": "しりひれ",
+   "romaji": "shirihire",
+   "arti": "sirip anus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-259",
+   "kata": "真空包装機",
+   "kana": "しんくうほうそうき",
+   "romaji": "shinkuuhousouki",
+   "arti": "pengemas vakum",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "真空包装機|しんくうほうそうき"
+   ]
+  },
+  {
+   "id": "fj-260",
+   "kata": "真空冷却機",
+   "kana": "しんくうれいきゃくき",
+   "romaji": "shinkuureikyakuki",
+   "arti": "pendingin vakum",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "真空冷却機|しんくうれいきゃくき"
+   ]
+  },
+  {
+   "id": "fj-261",
+   "kata": "すいか",
+   "kana": "すいか",
+   "romaji": "suika",
+   "arti": "semangka",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-262",
+   "kata": "スキヤキ",
+   "kana": "すきやき",
+   "romaji": "sukiyaki",
+   "arti": "sukiyaki",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-263",
+   "kata": "すくい網",
+   "kana": "すくいあみ",
+   "romaji": "sukuiami",
+   "arti": "sendok jaring",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "すくい網|すくいあみ"
+   ]
+  },
+  {
+   "id": "fj-264",
+   "kata": "スクランブルエッグ",
+   "kana": "すくらんぶるえっぐ",
+   "romaji": "sukuranburueggu",
+   "arti": "telur orak-arik",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-265",
+   "kata": "すし",
+   "kana": "すし",
+   "romaji": "sushi",
+   "arti": "sushi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-266",
+   "kata": "スチームコンベクションオーブン",
+   "kana": "すちーむこんべくしょんおーぶん",
+   "romaji": "suchiimukonbekushonoobun",
+   "arti": "oven konveksi uap",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-267",
+   "kata": "ステーキ",
+   "kana": "ステーキ",
+   "romaji": "suteeki",
+   "arti": "steak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-268",
+   "kata": "ステンレスざる",
+   "kana": "すてんれすざる",
+   "romaji": "sutenresuzaru",
+   "arti": "saringan besi tahan karat",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-269",
+   "kata": "すね（牛肉）",
+   "kana": "すね（ぎゅうにく）",
+   "romaji": "sune（gyuuniku）",
+   "arti": "sengkel (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-270",
+   "kata": "スパテラ",
+   "kana": "すぱてら",
+   "romaji": "supatera",
+   "arti": "spatula",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-271",
+   "kata": "酢水",
+   "kana": "すみず",
+   "romaji": "sumizu",
+   "arti": "air cuka",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "酢水|すみず"
+   ]
+  },
+  {
+   "id": "fj-272",
+   "kata": "スルメイカ",
+   "kana": "するめいか",
+   "romaji": "surumeika",
+   "arti": "cumi-cumi surume",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-273",
+   "kata": "ズワイガニ",
+   "kana": "ずわいがに",
+   "romaji": "zuwaigani",
+   "arti": "kepiting salju",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-274",
+   "kata": "寸胴",
+   "kana": "ずんどう",
+   "romaji": "zundou",
+   "arti": "panci silindris",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "寸胴|ずんどう"
+   ]
+  },
+  {
+   "id": "fj-275",
+   "kata": "成形",
+   "kana": "せいけい",
+   "romaji": "seikei",
+   "arti": "membentuk",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "成形|せいけい"
+   ]
+  },
+  {
+   "id": "fj-276",
+   "kata": "製氷機",
+   "kana": "せいひょうき",
+   "romaji": "seihyouki",
+   "arti": "pembuat es",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "製氷機|せいひょうき"
+   ]
+  },
+  {
+   "id": "fj-277",
+   "kata": "赤外線放射温度計",
+   "kana": "せきがいせんほうしゃおんどけい",
+   "romaji": "sekigaisenhoushaondokei",
+   "arti": "termometer inframerah",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "赤外線放射温度計|せきがいせんほうしゃおんどけい"
+   ]
+  },
+  {
+   "id": "fj-278",
+   "kata": "赤飯",
+   "kana": "せきはん",
+   "romaji": "sekihan",
+   "arti": "nasi ketan merah (sekihan)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "赤飯|せきはん"
+   ]
+  },
+  {
+   "id": "fj-279",
+   "kata": "せびれ",
+   "kana": "せびれ",
+   "romaji": "sebire",
+   "arti": "sirip punggung",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-280",
+   "kata": "セミドレス",
+   "kana": "せみどれす",
+   "romaji": "semidoresu",
+   "arti": "semi-dressed (hanya organ dibuang)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-281",
+   "kata": "千切り",
+   "kana": "せんぎり",
+   "romaji": "sengiri",
+   "arti": "potong korek api (sengiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "千切り|せんぎり"
+   ]
+  },
+  {
+   "id": "fj-282",
+   "kata": "そくせん",
+   "kana": "そくせん",
+   "romaji": "sokusen",
+   "arti": "garis rusuk/linea lateral ikan (sokusen)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-283",
+   "kata": "そともも（牛肉）",
+   "kana": "そともも（ぎゅうにく）",
+   "romaji": "sotomomo（gyuuniku）",
+   "arti": "gandik luar (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-284",
+   "kata": "そともも（豚肉）",
+   "kana": "そともも（ぶたにく）",
+   "romaji": "sotomomo（butaniku）",
+   "arti": "kaki luar (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-285",
+   "kata": "そらまめ",
+   "kana": "そらまめ",
+   "romaji": "soramame",
+   "arti": "kacang bakla/sora-mame",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-286",
+   "kata": "だいこん",
+   "kana": "だいこん",
+   "romaji": "daikon",
+   "arti": "lobak putih",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-287",
+   "kata": "台車",
+   "kana": "だいしゃ",
+   "romaji": "daisha",
+   "arti": "troli",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "台車|だいしゃ"
+   ]
+  },
+  {
+   "id": "fj-288",
+   "kata": "炊く",
+   "kana": "たく",
+   "romaji": "taku",
+   "arti": "menanak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "炊く|たく"
+   ]
+  },
+  {
+   "id": "fj-289",
+   "kata": "卓上炊飯器",
+   "kana": "たくじょうすいはんき",
+   "romaji": "takujousuihanki",
+   "arti": "penanak nasi meja",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "卓上炊飯器|たくじょうすいはんき"
+   ]
+  },
+  {
+   "id": "fj-290",
+   "kata": "たけのこ",
+   "kana": "たけのこ",
+   "romaji": "takenoko",
+   "arti": "rebung",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-291",
+   "kata": "たまねぎ",
+   "kana": "たまねぎ",
+   "romaji": "tamanegi",
+   "arti": "bawang bombay",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-292",
+   "kata": "タラ",
+   "kana": "たら",
+   "romaji": "tara",
+   "arti": "ikan kod",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-293",
+   "kata": "短冊切り",
+   "kana": "たんざくぎり",
+   "romaji": "tanzakugiri",
+   "arti": "potong persegi panjang tipis (tanzakugiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "短冊切り|たんざくぎり"
+   ]
+  },
+  {
+   "id": "fj-294",
+   "kata": "チキンカツ",
+   "kana": "ちきんかつ",
+   "romaji": "chikinkatsu",
+   "arti": "cutlet ayam",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-295",
+   "kata": "茶碗蒸し",
+   "kana": "ちゃわんむし",
+   "romaji": "chawanmushi",
+   "arti": "puding telur gurih (chawanmushi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "茶碗蒸し|ちゃわんむし"
+   ]
+  },
+  {
+   "id": "fj-296",
+   "kata": "中華炒め",
+   "kana": "ちゅうかいため",
+   "romaji": "chuukaitame",
+   "arti": "tumisan Tiongkok",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "中華炒め|ちゅうかいため"
+   ]
+  },
+  {
+   "id": "fj-297",
+   "kata": "中華鍋（広東鍋）",
+   "kana": "ちゅうかなべ（かんとんなべ）",
+   "romaji": "chuukanabe（kantonnabe）",
+   "arti": "wok Guangdong",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-298",
+   "kata": "中華鍋（北京鍋）",
+   "kana": "ちゅうかなべ（ぺきんなべ）",
+   "romaji": "chuukanabe（pekinnabe）",
+   "arti": "wok Beijing",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-299",
+   "kata": "中華包丁",
+   "kana": "ちゅうかほうちょう",
+   "romaji": "chuukahouchou",
+   "arti": "golok dapur Tiongkok",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "中華包丁|ちゅうかほうちょう"
+   ]
+  },
+  {
+   "id": "fj-300",
+   "kata": "中華用おたま",
+   "kana": "ちゅうかようおたま",
+   "romaji": "chuukayouotama",
+   "arti": "centong sup Tiongkok",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "中華用おたま|ちゅうかようおたま"
+   ]
+  },
+  {
+   "id": "fj-301",
+   "kata": "中華レンジ",
+   "kana": "ちゅうかれんじ",
+   "romaji": "chuukarenji",
+   "arti": "kompor gas masakan Tiongkok",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "中華レンジ|ちゅうかれんじ"
+   ]
+  },
+  {
+   "id": "fj-302",
+   "kata": "中心温度計",
+   "kana": "ちゅうしんおんどけい",
+   "romaji": "chuushinondokei",
+   "arti": "termometer suhu inti",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "中心温度計|ちゅうしんおんどけい"
+   ]
+  },
+  {
+   "id": "fj-303",
+   "kata": "調理機器",
+   "kana": "ちょうりきき",
+   "romaji": "chourikiki",
+   "arti": "perlengkapan masak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "調理機器|ちょうりきき"
+   ]
+  },
+  {
+   "id": "fj-304",
+   "kata": "テーブル型冷蔵冷凍庫",
+   "kana": "てーぶるがたれいぞうれいとうこ",
+   "romaji": "teeburugatareizoureitouko",
+   "arti": "kulkas freezer meja kerja",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "テーブル型冷蔵冷凍庫|てーぶるがたれいぞうれいとうこ"
+   ]
+  },
+  {
+   "id": "fj-305",
+   "kata": "デジタルはかり",
+   "kana": "でじたるはかり",
+   "romaji": "dejitaruhakari",
+   "arti": "timbangan digital",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-306",
+   "kata": "デジタル中心温度計",
+   "kana": "でじたるはかりちゅしんおんどけい",
+   "romaji": "dejitaruhakarichushinondokei",
+   "arti": "termometer jarum digital",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "デジタル中心温度計|でじたるはかりちゅしんおんどけい"
+   ]
+  },
+  {
+   "id": "fj-307",
+   "kata": "てば（鶏肉）",
+   "kana": "てば（とりにく）",
+   "romaji": "teba（toriniku）",
+   "arti": "sayap (ayam)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-308",
+   "kata": "てぼ（和麺、中華麺）",
+   "kana": "てぼ（わめん、ちゅうかめん）",
+   "romaji": "tebo（wamen、chuukamen）",
+   "arti": "saringan mi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-309",
+   "kata": "照り焼き",
+   "kana": "てりやき",
+   "romaji": "teriyaki",
+   "arti": "teriyaki",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "照り焼き|てりやき"
+   ]
+  },
+  {
+   "id": "fj-310",
+   "kata": "電源",
+   "kana": "でんげん",
+   "romaji": "dengen",
+   "arti": "sumber listrik",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "電源|でんげん"
+   ]
+  },
+  {
+   "id": "fj-311",
+   "kata": "電源プラグ",
+   "kana": "でんげんぷらぐ",
+   "romaji": "dengenpuragu",
+   "arti": "steker listrik",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "電源プラグ|でんげんぷらぐ"
+   ]
+  },
+  {
+   "id": "fj-312",
+   "kata": "てんぷら",
+   "kana": "てんぷら",
+   "romaji": "tenpura",
+   "arti": "tempura",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-313",
+   "kata": "ドアタイプ洗浄機",
+   "kana": "どあたいぷせんじょうき",
+   "romaji": "doataipusenjouki",
+   "arti": "pencuci piring berpintu",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "ドアタイプ洗浄機|どあたいぷせんじょうき"
+   ]
+  },
+  {
+   "id": "fj-314",
+   "kata": "とうがらし",
+   "kana": "とうがらし",
+   "romaji": "tougarashi",
+   "arti": "cabai rawit",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-315",
+   "kata": "陶器",
+   "kana": "とうき",
+   "romaji": "touki",
+   "arti": "tembikar",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "陶器|とうき"
+   ]
+  },
+  {
+   "id": "fj-316",
+   "kata": "整え",
+   "kana": "ととのえ",
+   "romaji": "totonoe",
+   "arti": "merapikan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "整え|ととのえ"
+   ]
+  },
+  {
+   "id": "fj-317",
+   "kata": "トマト",
+   "kana": "とまと",
+   "romaji": "tomato",
+   "arti": "tomat",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-318",
+   "kata": "ともばら（牛肉）",
+   "kana": "ともばら（ぎゅうにく）",
+   "romaji": "tomobara（gyuuniku）",
+   "arti": "perut & samcan (sapi, tomobara)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-319",
+   "kata": "ドライキッチン",
+   "kana": "どらいきっちん",
+   "romaji": "doraikicchin",
+   "arti": "dapur tidak basah",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-320",
+   "kata": "鶏肉",
+   "kana": "とりにく",
+   "romaji": "toriniku",
+   "arti": "daging ayam",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "鶏肉|とりにく"
+   ]
+  },
+  {
+   "id": "fj-321",
+   "kata": "ドレス",
+   "kana": "どれす",
+   "romaji": "doresu",
+   "arti": "dressed (kepala, insang, organ dibuang)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-322",
+   "kata": "とんかつ",
+   "kana": "とんかつ",
+   "romaji": "tonkatsu",
+   "arti": "cutlet babi (tonkatsu)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-323",
+   "kata": "トンポーロー",
+   "kana": "とんぽーろー",
+   "romaji": "tonpooroo",
+   "arti": "babi Dongpo",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-324",
+   "kata": "菜切包丁",
+   "kana": "なきりほうちょう",
+   "romaji": "nakirihouchou",
+   "arti": "pisau sayur",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "菜切包丁|なきりほうちょう"
+   ]
+  },
+  {
+   "id": "fj-325",
+   "kata": "なし",
+   "kana": "なし",
+   "romaji": "nashi",
+   "arti": "pir",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-326",
+   "kata": "なす",
+   "kana": "なす",
+   "romaji": "nasu",
+   "arti": "terong",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-327",
+   "kata": "斜め切り",
+   "kana": "ななめぎり",
+   "romaji": "nanamegiri",
+   "arti": "potong diagonal (nanamegiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "斜め切り|ななめぎり"
+   ]
+  },
+  {
+   "id": "fj-328",
+   "kata": "菜の花",
+   "kana": "なのはな",
+   "romaji": "nanohana",
+   "arti": "bunga nanohana",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "菜の花|なのはな"
+   ]
+  },
+  {
+   "id": "fj-329",
+   "kata": "肉じゃが",
+   "kana": "にくじゃが",
+   "romaji": "nikujaga",
+   "arti": "daging dan kentang rebus (nikujaga)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "肉じゃが|にくじゃが"
+   ]
+  },
+  {
+   "id": "fj-330",
+   "kata": "肉類",
+   "kana": "にくるい",
+   "romaji": "nikurui",
+   "arti": "jenis daging",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "肉類|にくるい"
+   ]
+  },
+  {
+   "id": "fj-331",
+   "kata": "煮込み料理",
+   "kana": "にこみりょうり",
+   "romaji": "nikomiryouri",
+   "arti": "hidangan rebus lama",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "煮込み料理|にこみりょうり"
+   ]
+  },
+  {
+   "id": "fj-332",
+   "kata": "煮る",
+   "kana": "にる",
+   "romaji": "niru",
+   "arti": "merebus perlahan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "煮る|にる"
+   ]
+  },
+  {
+   "id": "fj-333",
+   "kata": "にんじん",
+   "kana": "にんじん",
+   "romaji": "ninjin",
+   "arti": "wortel",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-334",
+   "kata": "ねぎ",
+   "kana": "ねぎ",
+   "romaji": "negi",
+   "arti": "bawang daun",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-335",
+   "kata": "濃度",
+   "kana": "のうど",
+   "romaji": "noudo",
+   "arti": "konsentrasi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "濃度|のうど"
+   ]
+  },
+  {
+   "id": "fj-336",
+   "kata": "刃",
+   "kana": "は",
+   "romaji": "ha",
+   "arti": "mata pisau",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "刃|は"
+   ]
+  },
+  {
+   "id": "fj-337",
+   "kata": "はかり",
+   "kana": "はかり",
+   "romaji": "hakari",
+   "arti": "timbangan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-338",
+   "kata": "はくさい",
+   "kana": "はくさい",
+   "romaji": "hakusai",
+   "arti": "sawi putih",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-339",
+   "kata": "ハタハタ",
+   "kana": "はたはた",
+   "romaji": "hatahata",
+   "arti": "ikan pasir (hatahata)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-340",
+   "kata": "刃物",
+   "kana": "はもの",
+   "romaji": "hamono",
+   "arti": "benda tajam",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "刃物|はもの"
+   ]
+  },
+  {
+   "id": "fj-341",
+   "kata": "ばら（豚肉）",
+   "kana": "ばら（ぶたにく）",
+   "romaji": "bara（butaniku）",
+   "arti": "samcan (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-342",
+   "kata": "腹ひれ",
+   "kana": "はらひれ",
+   "romaji": "harahire",
+   "arti": "sirip perut",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "腹ひれ|はらひれ"
+   ]
+  },
+  {
+   "id": "fj-343",
+   "kata": "パン切りナイフ",
+   "kana": "ぱんきりないふ",
+   "romaji": "pankirinaifu",
+   "arti": "pisau roti",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "パン切りナイフ|ぱんきりないふ"
+   ]
+  },
+  {
+   "id": "fj-344",
+   "kata": "半月切り",
+   "kana": "はんげつぎり",
+   "romaji": "hangetsugiri",
+   "arti": "potong setengah lingkaran (hangetsugiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "半月切り|はんげつぎり"
+   ]
+  },
+  {
+   "id": "fj-345",
+   "kata": "ビーフカツ",
+   "kana": "びーふかつ",
+   "romaji": "biifukatsu",
+   "arti": "cutlet sapi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-346",
+   "kata": "ピーマン",
+   "kana": "ぴーまん",
+   "romaji": "piiman",
+   "arti": "paprika",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-347",
+   "kata": "非加熱調理",
+   "kana": "ひかねつちょうり",
+   "romaji": "hikanetsuchouri",
+   "arti": "memasak tanpa panas",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "非加熱調理|ひかねつちょうり"
+   ]
+  },
+  {
+   "id": "fj-348",
+   "kata": "拍子切り",
+   "kana": "ひょうしぎり",
+   "romaji": "hyoushigiri",
+   "arti": "potong balok (hyoshigikiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "拍子切り|ひょうしぎり"
+   ]
+  },
+  {
+   "id": "fj-349",
+   "kata": "ヒレ（牛肉）",
+   "kana": "ひれ（ぎゅうにく）",
+   "romaji": "hire（gyuuniku）",
+   "arti": "filet has dalam (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-350",
+   "kata": "ヒレ（豚肉）",
+   "kana": "ひれ（ぶたにく）",
+   "romaji": "hire（butaniku）",
+   "arti": "filet (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-351",
+   "kata": "部位",
+   "kana": "ぶい",
+   "romaji": "bui",
+   "arti": "bagian/potongan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "部位|ぶい"
+   ]
+  },
+  {
+   "id": "fj-352",
+   "kata": "フィーレ",
+   "kana": "ふぃーれ",
+   "romaji": "fuiire",
+   "arti": "filet (tanpa tulang utama, sirip, ekor)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-353",
+   "kata": "フードスライサー",
+   "kana": "ふーどすらいさー",
+   "romaji": "fuudosuraisaa",
+   "arti": "pengiris makanan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-354",
+   "kata": "ふき",
+   "kana": "ふき",
+   "romaji": "fuki",
+   "arti": "daun fuki",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-355",
+   "kata": "フグ",
+   "kana": "ふぐ",
+   "romaji": "fugu",
+   "arti": "ikan buntal (fugu)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-356",
+   "kata": "豚しゃぶ",
+   "kana": "ぶたしゃぶ",
+   "romaji": "butashabu",
+   "arti": "babi shabu-shabu",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "豚しゃぶ|ぶたしゃぶ"
+   ]
+  },
+  {
+   "id": "fj-357",
+   "kata": "豚肉",
+   "kana": "ぶたにく",
+   "romaji": "butaniku",
+   "arti": "daging babi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "豚肉|ぶたにく"
+   ]
+  },
+  {
+   "id": "fj-358",
+   "kata": "豚の角煮",
+   "kana": "ぶたのかくに",
+   "romaji": "butanokakuni",
+   "arti": "babi rebus potong dadu (kakuni)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "豚の角煮|ぶたのかくに"
+   ]
+  },
+  {
+   "id": "fj-359",
+   "kata": "フナ",
+   "kana": "ふな",
+   "romaji": "funa",
+   "arti": "karper krusia",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-360",
+   "kata": "フライ",
+   "kana": "ふらい",
+   "romaji": "furai",
+   "arti": "gorengan bertepung",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-361",
+   "kata": "フライパン",
+   "kana": "ふらいぱん",
+   "romaji": "furaipan",
+   "arti": "wajan penggorengan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-362",
+   "kata": "フライヤー",
+   "kana": "ふらいやー",
+   "romaji": "furaiyaa",
+   "arti": "penggorengan (fryer)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-363",
+   "kata": "プラスチックざる",
+   "kana": "ぷらすちっくざる",
+   "romaji": "purasuchikkuzaru",
+   "arti": "saringan plastik",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-364",
+   "kata": "ブラストチラー",
+   "kana": "ぶらすとちらー",
+   "romaji": "burasutochiraa",
+   "arti": "blast chiller",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-365",
+   "kata": "ブリ",
+   "kana": "ぶり",
+   "romaji": "buri",
+   "arti": "ikan amberjack (buri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-366",
+   "kata": "フリッター",
+   "kana": "ふりったー",
+   "romaji": "furittaa",
+   "arti": "goreng adonan (fritter)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-367",
+   "kata": "ブレージングパン",
+   "kana": "ぶれーじんぐぱん",
+   "romaji": "bureejingupan",
+   "arti": "braising pan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-368",
+   "kata": "プレハブ冷蔵冷凍庫",
+   "kana": "ぷれはぶれいぞうれいとうこ",
+   "romaji": "purehabureizoureitouko",
+   "arti": "kulkas/freezer prefabrik",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "プレハブ冷蔵冷凍庫|ぷれはぶれいぞうれいとうこ"
+   ]
+  },
+  {
+   "id": "fj-369",
+   "kata": "ブロッコリー",
+   "kana": "ぶろっこりー",
+   "romaji": "burokkorii",
+   "arti": "brokoli",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-370",
+   "kata": "へら",
+   "kana": "へら",
+   "romaji": "hera",
+   "arti": "spatula",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-371",
+   "kata": "包丁（三徳包丁）",
+   "kana": "ほうちょう（さんとくほうちょう）",
+   "romaji": "houchou（santokuhouchou）",
+   "arti": "pisau Santoku",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-372",
+   "kata": "ほうれんそう",
+   "kana": "ほうれんそう",
+   "romaji": "hourensou",
+   "arti": "bayam Jepang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-373",
+   "kata": "ポークビーンズ",
+   "kana": "ぽーくびーんず",
+   "romaji": "pookubiinzu",
+   "arti": "kacang dengan babi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-374",
+   "kata": "ボール",
+   "kana": "ぼーる",
+   "romaji": "booru",
+   "arti": "mangkuk",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-375",
+   "kata": "ホタテ",
+   "kana": "ほたて",
+   "romaji": "hotate",
+   "arti": "skalop",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-376",
+   "kata": "ホッケ",
+   "kana": "ほっけ",
+   "romaji": "hokke",
+   "arti": "makerel hokke",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-377",
+   "kata": "ポテトサラダ",
+   "kana": "ぽてとさらだ",
+   "romaji": "potetosarada",
+   "arti": "salad kentang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-378",
+   "kata": "ホテルパン（フードパン）",
+   "kana": "ほてるぱん（ふーどぱん）",
+   "romaji": "hoterupan（fuudopan）",
+   "arti": "loyang hotel",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-379",
+   "kata": "ほほ骨",
+   "kana": "ほほぼね",
+   "romaji": "hohobone",
+   "arti": "tulang pipi ikan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "ほほ骨|ほほぼね"
+   ]
+  },
+  {
+   "id": "fj-380",
+   "kata": "ボンレスハム",
+   "kana": "ぼんれすはむ",
+   "romaji": "bonresuhamu",
+   "arti": "ham bebas tulang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-381",
+   "kata": "マアジ",
+   "kana": "まあじ",
+   "romaji": "maaji",
+   "arti": "makerel jack Jepang (maaji)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-382",
+   "kata": "マイワシ",
+   "kana": "まいわし",
+   "romaji": "maiwashi",
+   "arti": "sarden Jepang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-383",
+   "kata": "巻き物",
+   "kana": "まきもの",
+   "romaji": "makimono",
+   "arti": "nasi gulung (makimono)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "巻き物|まきもの"
+   ]
+  },
+  {
+   "id": "fj-384",
+   "kata": "マグロ",
+   "kana": "まぐろ",
+   "romaji": "maguro",
+   "arti": "tuna",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-385",
+   "kata": "マサバ",
+   "kana": "まさば",
+   "romaji": "masaba",
+   "arti": "ikan saba",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-386",
+   "kata": "マダイ",
+   "kana": "まだい",
+   "romaji": "madai",
+   "arti": "seabream merah",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-387",
+   "kata": "まな板",
+   "kana": "まないた",
+   "romaji": "manaita",
+   "arti": "talenan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "まな板|まないた"
+   ]
+  },
+  {
+   "id": "fj-388",
+   "kata": "マリネ",
+   "kana": "まりね",
+   "romaji": "marine",
+   "arti": "marinasi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-389",
+   "kata": "みじん切り",
+   "kana": "みじんぎり",
+   "romaji": "mijingiri",
+   "arti": "cincang halus (mijingiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "みじん切り|みじんぎり"
+   ]
+  },
+  {
+   "id": "fj-390",
+   "kata": "水菜",
+   "kana": "みずな",
+   "romaji": "mizuna",
+   "arti": "sayur mizuna",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "水菜|みずな"
+   ]
+  },
+  {
+   "id": "fj-391",
+   "kata": "蒸し器",
+   "kana": "むしき",
+   "romaji": "mushiki",
+   "arti": "pengukus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "蒸し器|むしき"
+   ]
+  },
+  {
+   "id": "fj-392",
+   "kata": "蒸し器（鍋）",
+   "kana": "むしき（なべ）",
+   "romaji": "mushiki（nabe）",
+   "arti": "kukusan (panci)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-393",
+   "kata": "蒸し鶏",
+   "kana": "むしどり",
+   "romaji": "mushidori",
+   "arti": "ayam kukus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "蒸し鶏|むしどり"
+   ]
+  },
+  {
+   "id": "fj-394",
+   "kata": "蒸す",
+   "kana": "むす",
+   "romaji": "musu",
+   "arti": "mengukus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "蒸す|むす"
+   ]
+  },
+  {
+   "id": "fj-395",
+   "kata": "むね（鶏肉）",
+   "kana": "むね（とりにく）",
+   "romaji": "mune（toriniku）",
+   "arti": "dada (ayam)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-396",
+   "kata": "胸ひれ",
+   "kana": "むねひれ",
+   "romaji": "munehire",
+   "arti": "sirip dada",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "胸ひれ|むねひれ"
+   ]
+  },
+  {
+   "id": "fj-397",
+   "kata": "メロン",
+   "kana": "めろん",
+   "romaji": "meron",
+   "arti": "melon",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-398",
+   "kata": "もも",
+   "kana": "もも",
+   "romaji": "momo",
+   "arti": "persik/paha",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-399",
+   "kata": "もも（鶏肉）",
+   "kana": "もも（とりにく）",
+   "romaji": "momo（toriniku）",
+   "arti": "paha (ayam)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-400",
+   "kata": "もも（豚肉）",
+   "kana": "もも（ぶたにく）",
+   "romaji": "momo（butaniku）",
+   "arti": "kapsim (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-401",
+   "kata": "盛り付け",
+   "kana": "もりつけ",
+   "romaji": "moritsuke",
+   "arti": "penataan hidangan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "盛り付け|もりつけ"
+   ]
+  },
+  {
+   "id": "fj-402",
+   "kata": "やかん（ケトル）",
+   "kana": "やかん（けとる）",
+   "romaji": "yakan（ketoru）",
+   "arti": "ceret",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-403",
+   "kata": "焼き鳥",
+   "kana": "やきとり",
+   "romaji": "yakitori",
+   "arti": "yakitori",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "焼き鳥|やきとり"
+   ]
+  },
+  {
+   "id": "fj-404",
+   "kata": "焼肉",
+   "kana": "やきにく",
+   "romaji": "yakiniku",
+   "arti": "yakiniku (daging bakar)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "焼肉|やきにく"
+   ]
+  },
+  {
+   "id": "fj-405",
+   "kata": "焼豚",
+   "kana": "やきぶた",
+   "romaji": "yakibuta",
+   "arti": "babi panggang (yakibuta)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "焼豚|やきぶた"
+   ]
+  },
+  {
+   "id": "fj-406",
+   "kata": "焼物器",
+   "kana": "やきものき",
+   "romaji": "yakimonoki",
+   "arti": "panggangan",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "焼物器|やきものき"
+   ]
+  },
+  {
+   "id": "fj-407",
+   "kata": "焼く",
+   "kana": "やく",
+   "romaji": "yaku",
+   "arti": "memanggang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "焼く|やく"
+   ]
+  },
+  {
+   "id": "fj-408",
+   "kata": "野菜・果実類",
+   "kana": "やさい・かじつるい",
+   "romaji": "yasai・kajitsurui",
+   "arti": "sayuran dan buah",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "野菜・果実類|やさい・かじつるい"
+   ]
+  },
+  {
+   "id": "fj-409",
+   "kata": "野菜炒め",
+   "kana": "やさいいため",
+   "romaji": "yasaiitame",
+   "arti": "tumis sayuran",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "野菜炒め|やさいいため"
+   ]
+  },
+  {
+   "id": "fj-410",
+   "kata": "野菜サラダ",
+   "kana": "やさいさらだ",
+   "romaji": "yasaisarada",
+   "arti": "salad sayur",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "野菜サラダ|やさいさらだ"
+   ]
+  },
+  {
+   "id": "fj-411",
+   "kata": "雪平鍋",
+   "kana": "ゆきひらなべ",
+   "romaji": "yukihiranabe",
+   "arti": "panci aluminium lengan satu (yukihira)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "雪平鍋|ゆきひらなべ"
+   ]
+  },
+  {
+   "id": "fj-412",
+   "kata": "茹で枝豆",
+   "kana": "ゆでえだまめ",
+   "romaji": "yudeedamame",
+   "arti": "edamame rebus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "茹で枝豆|ゆでえだまめ"
+   ]
+  },
+  {
+   "id": "fj-413",
+   "kata": "茹でじゃがいも",
+   "kana": "ゆでじゃがいも",
+   "romaji": "yudejagaimo",
+   "arti": "kentang rebus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "茹でじゃがいも|ゆでじゃがいも"
+   ]
+  },
+  {
+   "id": "fj-414",
+   "kata": "ゆで麺器",
+   "kana": "ゆでめんき",
+   "romaji": "yudemenki",
+   "arti": "perebus mi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "ゆで麺器|ゆでめんき"
+   ]
+  },
+  {
+   "id": "fj-415",
+   "kata": "茹でる",
+   "kana": "ゆでる",
+   "romaji": "yuderu",
+   "arti": "merebus",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ],
+   "rb": [
+    "茹でる|ゆでる"
+   ]
+  },
+  {
+   "id": "fj-416",
+   "kata": "ライスウォーマー",
+   "kana": "らいすうぉーまー",
+   "romaji": "raisuuoomaa",
+   "arti": "penghangat nasi",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ]
+  },
+  {
+   "id": "fj-417",
+   "kata": "ラウンド",
+   "kana": "らうんど",
+   "romaji": "raundo",
+   "arti": "ikan utuh/round (belum diproses)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s2"
+   ]
+  },
+  {
+   "id": "fj-418",
+   "kata": "乱切り",
+   "kana": "らんぎり",
+   "romaji": "rangiri",
+   "arti": "potong acak (rangiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "乱切り|らんぎり"
+   ]
+  },
+  {
+   "id": "fj-419",
+   "kata": "ランプ（牛肉）",
+   "kana": "らんぷ（ぎゅうにく）",
+   "romaji": "ranpu（gyuuniku）",
+   "arti": "tanjung (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-420",
+   "kata": "立体式炊飯器",
+   "kana": "りったいしきすいはんき",
+   "romaji": "rittaishikisuihanki",
+   "arti": "kabinet nasi bertingkat",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "立体式炊飯器|りったいしきすいはんき"
+   ]
+  },
+  {
+   "id": "fj-421",
+   "kata": "リブリース（牛肉）",
+   "kana": "りぶろーす（ぎゅうにく）",
+   "romaji": "riburoosu（gyuuniku）",
+   "arti": "iga-panggang (sapi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-422",
+   "kata": "流水解凍",
+   "kana": "りゅうすいかいとう",
+   "romaji": "ryuusuikaitou",
+   "arti": "defrost dengan air mengalir",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "流水解凍|りゅうすいかいとう"
+   ]
+  },
+  {
+   "id": "fj-423",
+   "kata": "料理鍋",
+   "kana": "りょうりなべ",
+   "romaji": "ryourinabe",
+   "arti": "panci masak",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ],
+   "rb": [
+    "料理鍋|りょうりなべ"
+   ]
+  },
+  {
+   "id": "fj-424",
+   "kata": "冷蔵解凍",
+   "kana": "れいぞうかいとう",
+   "romaji": "reizoukaitou",
+   "arti": "defrost di kulkas",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "冷蔵解凍|れいぞうかいとう"
+   ]
+  },
+  {
+   "id": "fj-425",
+   "kata": "冷蔵ショーケース",
+   "kana": "れいぞうしょーけーす",
+   "romaji": "reizoushookeesu",
+   "arti": "kulkas etalase",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "冷蔵ショーケース|れいぞうしょーけーす"
+   ]
+  },
+  {
+   "id": "fj-426",
+   "kata": "冷蔵冷凍庫",
+   "kana": "れいぞうれいとうこ",
+   "romaji": "reizoureitouko",
+   "arti": "kulkas freezer",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s3"
+   ],
+   "rb": [
+    "冷蔵冷凍庫|れいぞうれいとうこ"
+   ]
+  },
+  {
+   "id": "fj-427",
+   "kata": "レードル",
+   "kana": "れーどる",
+   "romaji": "reedoru",
+   "arti": "centong/sendok sup",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s4"
+   ]
+  },
+  {
+   "id": "fj-428",
+   "kata": "レタス",
+   "kana": "れたす",
+   "romaji": "retasu",
+   "arti": "selada",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-429",
+   "kata": "れんこん",
+   "kana": "れんこん",
+   "romaji": "renkon",
+   "arti": "akar teratai",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-430",
+   "kata": "ロース（豚肉）",
+   "kana": "ろーす（ぶたにく）",
+   "romaji": "roosu（butaniku）",
+   "arti": "has dalam (babi)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-431",
+   "kata": "ロースハム",
+   "kana": "ろーすはむ",
+   "romaji": "roosuhamu",
+   "arti": "ham loin",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-432",
+   "kata": "ローストビーフ",
+   "kana": "ろすとびーふ",
+   "romaji": "rosutobiifu",
+   "arti": "daging sapi panggang",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-433",
+   "kata": "ワカメ",
+   "kana": "わかめ",
+   "romaji": "wakame",
+   "arti": "rumput laut wakame",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ]
+  },
+  {
+   "id": "fj-434",
+   "kata": "輪切り",
+   "kana": "わぎり",
+   "romaji": "wagiri",
+   "arti": "potong bundar (wagiri)",
+   "cat": "Persiapan Makanan dan Minuman",
+   "bab": "bab2",
+   "src": [
+    "j2s1"
+   ],
+   "rb": [
+    "輪切り|わぎり"
+   ]
+  },
+  {
+   "id": "fj-435",
+   "kata": "あいさつ",
+   "kana": "あいさつ",
+   "romaji": "aisatsu",
+   "arti": "sapaan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-436",
+   "kata": "赤ワイン",
+   "kana": "あかわいん",
+   "romaji": "akawain",
+   "arti": "anggur merah",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "赤ワイン|あかわいん"
+   ]
+  },
+  {
+   "id": "fj-437",
+   "kata": "揚げ物",
+   "kana": "あげもの",
+   "romaji": "agemono",
+   "arti": "gorengan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "揚げ物|あげもの"
+   ]
+  },
+  {
+   "id": "fj-438",
+   "kata": "アナフィラキシーショック",
+   "kana": "あなふぃらきしーしょっく",
+   "romaji": "anafuirakishiishokku",
+   "arti": "syok anafilaksis",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ]
+  },
+  {
+   "id": "fj-439",
+   "kata": "甘味",
+   "kana": "あまみ",
+   "romaji": "amami",
+   "arti": "rasa manis",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "甘味|あまみ"
+   ]
+  },
+  {
+   "id": "fj-440",
+   "kata": "アレルギー表示",
+   "kana": "あれるぎーひょうじ",
+   "romaji": "arerugiihyouji",
+   "arti": "pelabelan alergen",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "アレルギー表示|あれるぎーひょうじ"
+   ]
+  },
+  {
+   "id": "fj-441",
+   "kata": "アレルギー物質",
+   "kana": "あれるぎーぶっしつ",
+   "romaji": "arerugiibusshitsu",
+   "arti": "zat alergen",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "アレルギー物質|あれるぎーぶっしつ"
+   ]
+  },
+  {
+   "id": "fj-442",
+   "kata": "イスラム教",
+   "kana": "いすらむきょう",
+   "romaji": "isuramukyou",
+   "arti": "agama Islam",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "イスラム教|いすらむきょう"
+   ]
+  },
+  {
+   "id": "fj-443",
+   "kata": "イスラム法",
+   "kana": "いすらむほう",
+   "romaji": "isuramuhou",
+   "arti": "hukum Islam",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "イスラム法|いすらむほう"
+   ]
+  },
+  {
+   "id": "fj-444",
+   "kata": "一汁三菜",
+   "kana": "いちじゅうさんさい",
+   "romaji": "ichijuusansai",
+   "arti": "satu sup tiga lauk",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "一汁三菜|いちじゅうさんさい"
+   ]
+  },
+  {
+   "id": "fj-445",
+   "kata": "異物",
+   "kana": "いぶつ",
+   "romaji": "ibutsu",
+   "arti": "benda asing",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "異物|いぶつ"
+   ]
+  },
+  {
+   "id": "fj-446",
+   "kata": "異物混入",
+   "kana": "いぶつこんにゅう",
+   "romaji": "ibutsukonnyuu",
+   "arti": "pencemaran benda asing",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "異物混入|いぶつこんにゅう"
+   ]
+  },
+  {
+   "id": "fj-447",
+   "kata": "芋焼酎",
+   "kana": "いもしょうちゅう",
+   "romaji": "imoshouchuu",
+   "arti": "shochu ubi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "芋焼酎|いもしょうちゅう"
+   ]
+  },
+  {
+   "id": "fj-448",
+   "kata": "飲食店",
+   "kana": "いんしょくてん",
+   "romaji": "inshokuten",
+   "arti": "restoran/kedai makan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "飲食店|いんしょくてん"
+   ]
+  },
+  {
+   "id": "fj-449",
+   "kata": "ヴィーガン",
+   "kana": "う゛ぃーがん",
+   "romaji": "u゛iigan",
+   "arti": "vegan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-450",
+   "kata": "ウイスキー",
+   "kana": "ういすきー",
+   "romaji": "uisukii",
+   "arti": "wiski",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-451",
+   "kata": "うま味",
+   "kana": "うまみ",
+   "romaji": "umami",
+   "arti": "umami",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "うま味|うまみ"
+   ]
+  },
+  {
+   "id": "fj-452",
+   "kata": "笑顔",
+   "kana": "えがお",
+   "romaji": "egao",
+   "arti": "senyum",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "笑顔|えがお"
+   ]
+  },
+  {
+   "id": "fj-453",
+   "kata": "会釈",
+   "kana": "えしゃく",
+   "romaji": "eshaku",
+   "arti": "membungkuk ringan (eshaku)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "会釈|えしゃく"
+   ]
+  },
+  {
+   "id": "fj-454",
+   "kata": "えび",
+   "kana": "えび",
+   "romaji": "ebi",
+   "arti": "udang",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ]
+  },
+  {
+   "id": "fj-455",
+   "kata": "円卓",
+   "kana": "えんたく",
+   "romaji": "entaku",
+   "arti": "meja bundar",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "円卓|えんたく"
+   ]
+  },
+  {
+   "id": "fj-456",
+   "kata": "おう吐",
+   "kana": "おうと",
+   "romaji": "outo",
+   "arti": "muntah",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "おう吐|おうと"
+   ]
+  },
+  {
+   "id": "fj-457",
+   "kata": "オードブル",
+   "kana": "おーどぶる",
+   "romaji": "oodoburu",
+   "arti": "hidangan pembuka (hors d'oeuvre)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-458",
+   "kata": "お客様",
+   "kana": "おきゃくさま",
+   "romaji": "okyakusama",
+   "arti": "pelanggan (hormat)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "お客様|おきゃくさま"
+   ]
+  },
+  {
+   "id": "fj-459",
+   "kata": "お酒",
+   "kana": "おさけ",
+   "romaji": "osake",
+   "arti": "minuman beralkohol",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "お酒|おさけ"
+   ]
+  },
+  {
+   "id": "fj-460",
+   "kata": "お辞儀",
+   "kana": "おじぎ",
+   "romaji": "ojigi",
+   "arti": "membungkuk",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "お辞儀|おじぎ"
+   ]
+  },
+  {
+   "id": "fj-461",
+   "kata": "お造り",
+   "kana": "おつくり",
+   "romaji": "otsukuri",
+   "arti": "sashimi (hidangan)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "お造り|おつくり"
+   ]
+  },
+  {
+   "id": "fj-462",
+   "kata": "おもてなし",
+   "kana": "おもてなし",
+   "romaji": "omotenashi",
+   "arti": "keramahtamahan (omotenashi)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-463",
+   "kata": "会計",
+   "kana": "かいけい",
+   "romaji": "kaikei",
+   "arti": "pembayaran/tagihan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "会計|かいけい"
+   ]
+  },
+  {
+   "id": "fj-464",
+   "kata": "介助犬",
+   "kana": "かいじょけん",
+   "romaji": "kaijoken",
+   "arti": "anjing bantu fisik",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "介助犬|かいじょけん"
+   ]
+  },
+  {
+   "id": "fj-465",
+   "kata": "介助用車椅子",
+   "kana": "かいじょようくるまいす",
+   "romaji": "kaijoyoukurumaisu",
+   "arti": "kursi roda yang didorong pendamping",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "介助用車椅子|かいじょようくるまいす"
+   ]
+  },
+  {
+   "id": "fj-466",
+   "kata": "会席料理",
+   "kana": "かいせきりょうり",
+   "romaji": "kaisekiryouri",
+   "arti": "hidangan perjamuan kaiseki",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "会席料理|かいせきりょうり"
+   ]
+  },
+  {
+   "id": "fj-467",
+   "kata": "快適性",
+   "kana": "かいてきせい",
+   "romaji": "kaitekisei",
+   "arti": "kenyamanan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "快適性|かいてきせい"
+   ]
+  },
+  {
+   "id": "fj-468",
+   "kata": "開店準備",
+   "kana": "かいてんじゅんび",
+   "romaji": "kaitenjunbi",
+   "arti": "persiapan buka",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "開店準備|かいてんじゅんび"
+   ]
+  },
+  {
+   "id": "fj-469",
+   "kata": "回転卓",
+   "kana": "かいてんたく",
+   "romaji": "kaitentaku",
+   "arti": "meja putar",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "回転卓|かいてんたく"
+   ]
+  },
+  {
+   "id": "fj-470",
+   "kata": "火事",
+   "kana": "かじ",
+   "romaji": "kaji",
+   "arti": "kebakaran",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "火事|かじ"
+   ]
+  },
+  {
+   "id": "fj-471",
+   "kata": "果実酒",
+   "kana": "かじつしゅ",
+   "romaji": "kajitsushu",
+   "arti": "minuman beralkohol buah",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "果実酒|かじつしゅ"
+   ]
+  },
+  {
+   "id": "fj-472",
+   "kata": "カスターセット",
+   "kana": "かすたーせっと",
+   "romaji": "kasutaasetto",
+   "arti": "set bumbu di meja",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-473",
+   "kata": "価値",
+   "kana": "かち",
+   "romaji": "kachi",
+   "arti": "nilai",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "価値|かち"
+   ]
+  },
+  {
+   "id": "fj-474",
+   "kata": "かに",
+   "kana": "かに",
+   "romaji": "kani",
+   "arti": "kepiting",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ]
+  },
+  {
+   "id": "fj-475",
+   "kata": "上座",
+   "kana": "かみざ",
+   "romaji": "kamiza",
+   "arti": "tempat kehormatan (kamiza)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "上座|かみざ"
+   ]
+  },
+  {
+   "id": "fj-476",
+   "kata": "完全菜食主義者",
+   "kana": "かんぜんさいしょくしゅぎしゃ",
+   "romaji": "kanzensaishokushugisha",
+   "arti": "vegan (vegetarian murni)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "完全菜食主義者|かんぜんさいしょくしゅぎしゃ"
+   ]
+  },
+  {
+   "id": "fj-477",
+   "kata": "期待感",
+   "kana": "きたいかん",
+   "romaji": "kitaikan",
+   "arti": "harapan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "期待感|きたいかん"
+   ]
+  },
+  {
+   "id": "fj-478",
+   "kata": "基本動作",
+   "kana": "きほんどうさ",
+   "romaji": "kihondousa",
+   "arti": "gerakan dasar",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "基本動作|きほんどうさ"
+   ]
+  },
+  {
+   "id": "fj-479",
+   "kata": "キャッシュレス決済",
+   "kana": "きゃっしゅれすけっさい",
+   "romaji": "kyasshuresukessai",
+   "arti": "pembayaran cashless",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "キャッシュレス決済|きゃっしゅれすけっさい"
+   ]
+  },
+  {
+   "id": "fj-480",
+   "kata": "QRコード決済",
+   "kana": "きゅーあーるこーどけっさい",
+   "romaji": "kyuuaarukoodokessai",
+   "arti": "pembayaran kode QR",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "QRコード決済|きゅーあーるこーどけっさい"
+   ]
+  },
+  {
+   "id": "fj-481",
+   "kata": "QSCA",
+   "kana": "きゅーえすしーえー",
+   "romaji": "kyuuesushiiee",
+   "arti": "QSCA (kualitas, layanan, kebersihan, suasana)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-482",
+   "kata": "救急車",
+   "kana": "きゅうきゅうしゃ",
+   "romaji": "kyuukyuusha",
+   "arti": "ambulans",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "救急車|きゅうきゅうしゃ"
+   ]
+  },
+  {
+   "id": "fj-483",
+   "kata": "記録用紙",
+   "kana": "きろくようし",
+   "romaji": "kirokuyoushi",
+   "arti": "lembar catatan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "記録用紙|きろくようし"
+   ]
+  },
+  {
+   "id": "fj-484",
+   "kata": "金銭",
+   "kana": "きんせん",
+   "romaji": "kinsen",
+   "arti": "uang",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "金銭|きんせん"
+   ]
+  },
+  {
+   "id": "fj-485",
+   "kata": "苦情",
+   "kana": "くじょう",
+   "romaji": "kujou",
+   "arti": "keluhan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "苦情|くじょう"
+   ]
+  },
+  {
+   "id": "fj-486",
+   "kata": "口もと",
+   "kana": "くちもと",
+   "romaji": "kuchimoto",
+   "arti": "area mulut",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "口もと|くちもと"
+   ]
+  },
+  {
+   "id": "fj-487",
+   "kata": "グラス",
+   "kana": "ぐらす",
+   "romaji": "gurasu",
+   "arti": "gelas",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-488",
+   "kata": "車椅子",
+   "kana": "くるまいす",
+   "romaji": "kurumaisu",
+   "arti": "kursi roda",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "車椅子|くるまいす"
+   ]
+  },
+  {
+   "id": "fj-489",
+   "kata": "クレーム",
+   "kana": "くれーむ",
+   "romaji": "kureemu",
+   "arti": "klaim/keluhan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-490",
+   "kata": "クレジットカード",
+   "kana": "くれじっとかーど",
+   "romaji": "kurejittokaado",
+   "arti": "kartu kredit",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ]
+  },
+  {
+   "id": "fj-491",
+   "kata": "経験",
+   "kana": "けいけん",
+   "romaji": "keiken",
+   "arti": "pengalaman",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "経験|けいけん"
+   ]
+  },
+  {
+   "id": "fj-492",
+   "kata": "敬礼（普通礼）",
+   "kana": "けいれい（ふつうれい）",
+   "romaji": "keirei（futsuurei）",
+   "arti": "membungkuk sopan (keirei, 30°)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-493",
+   "kata": "ゲリラ豪雨",
+   "kana": "げりらごうう",
+   "romaji": "geriragouu",
+   "arti": "hujan lebat mendadak",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "ゲリラ豪雨|げりらごうう"
+   ]
+  },
+  {
+   "id": "fj-494",
+   "kata": "現金",
+   "kana": "げんきん",
+   "romaji": "genkin",
+   "arti": "uang tunai",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "現金|げんきん"
+   ]
+  },
+  {
+   "id": "fj-495",
+   "kata": "硬貨",
+   "kana": "こうか",
+   "romaji": "kouka",
+   "arti": "koin",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "硬貨|こうか"
+   ]
+  },
+  {
+   "id": "fj-496",
+   "kata": "硬質異物",
+   "kana": "こうしついぶつ",
+   "romaji": "koushitsuibutsu",
+   "arti": "benda asing keras",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "硬質異物|こうしついぶつ"
+   ]
+  },
+  {
+   "id": "fj-497",
+   "kata": "香の物",
+   "kana": "こうのもの",
+   "romaji": "kounomono",
+   "arti": "acar Jepang (tsukemono)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "香の物|こうのもの"
+   ]
+  },
+  {
+   "id": "fj-498",
+   "kata": "高齢者",
+   "kana": "こうれいしゃ",
+   "romaji": "koureisha",
+   "arti": "lansia",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "高齢者|こうれいしゃ"
+   ]
+  },
+  {
+   "id": "fj-499",
+   "kata": "コールバック",
+   "kana": "こーるばっく",
+   "romaji": "koorubakku",
+   "arti": "menelepon balik",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ]
+  },
+  {
+   "id": "fj-500",
+   "kata": "顧客満足",
+   "kana": "こきゃくまんぞく",
+   "romaji": "kokyakumanzoku",
+   "arti": "kepuasan pelanggan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "顧客満足|こきゃくまんぞく"
+   ]
+  },
+  {
+   "id": "fj-501",
+   "kata": "呼吸困難",
+   "kana": "こきゅうこんなん",
+   "romaji": "kokyuukonnan",
+   "arti": "sesak napas",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "呼吸困難|こきゅうこんなん"
+   ]
+  },
+  {
+   "id": "fj-502",
+   "kata": "心",
+   "kana": "こころ",
+   "romaji": "kokoro",
+   "arti": "hati/perasaan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "心|こころ"
+   ]
+  },
+  {
+   "id": "fj-503",
+   "kata": "５大栄養素",
+   "kana": "ごだいえいようそ",
+   "romaji": "godaieiyouso",
+   "arti": "5 gizi utama",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "５大栄養素|ごだいえいようそ"
+   ]
+  },
+  {
+   "id": "fj-504",
+   "kata": "コニャック",
+   "kana": "こにゃっく",
+   "romaji": "konyakku",
+   "arti": "cognac",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-505",
+   "kata": "ごはん",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "arti": "nasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-506",
+   "kata": "ゴブレットグラス",
+   "kana": "ごぶれっとぐらす",
+   "romaji": "goburettogurasu",
+   "arti": "gelas bertangkai (goblet)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-507",
+   "kata": "コミュニケーション",
+   "kana": "こみゅにけーしょん",
+   "romaji": "komyunikeeshon",
+   "arti": "komunikasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-508",
+   "kata": "小麦",
+   "kana": "こむぎ",
+   "romaji": "komugi",
+   "arti": "gandum",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "小麦|こむぎ"
+   ]
+  },
+  {
+   "id": "fj-509",
+   "kata": "災害",
+   "kana": "さいがい",
+   "romaji": "saigai",
+   "arti": "bencana",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "災害|さいがい"
+   ]
+  },
+  {
+   "id": "fj-510",
+   "kata": "最敬礼",
+   "kana": "さいけいれい",
+   "romaji": "saikeirei",
+   "arti": "membungkuk hormat (saikeirei, 45°)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "最敬礼|さいけいれい"
+   ]
+  },
+  {
+   "id": "fj-511",
+   "kata": "魚料理",
+   "kana": "さかなりょうり",
+   "romaji": "sakanaryouri",
+   "arti": "hidangan ikan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "魚料理|さかなりょうり"
+   ]
+  },
+  {
+   "id": "fj-512",
+   "kata": "サジェスチョンサービス",
+   "kana": "さじぇすちょんさーびす",
+   "romaji": "sajiesuchonsaabisu",
+   "arti": "layanan rekomendasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ]
+  },
+  {
+   "id": "fj-513",
+   "kata": "作法",
+   "kana": "さほう",
+   "romaji": "sahou",
+   "arti": "tata cara/etiket",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "作法|さほう"
+   ]
+  },
+  {
+   "id": "fj-514",
+   "kata": "酸味",
+   "kana": "さんみ",
+   "romaji": "sanmi",
+   "arti": "rasa asam",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "酸味|さんみ"
+   ]
+  },
+  {
+   "id": "fj-515",
+   "kata": "シードル",
+   "kana": "しーどる",
+   "romaji": "shiidoru",
+   "arti": "cider",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-516",
+   "kata": "ジェネヴァ",
+   "kana": "じぇねヴぁ",
+   "romaji": "jieneゔa",
+   "arti": "jenever (gin)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-517",
+   "kata": "塩味",
+   "kana": "しおあじ",
+   "romaji": "shioaji",
+   "arti": "rasa asin",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "塩味|しおあじ"
+   ]
+  },
+  {
+   "id": "fj-518",
+   "kata": "脂質",
+   "kana": "ししつ",
+   "romaji": "shishitsu",
+   "arti": "lemak",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "脂質|ししつ"
+   ]
+  },
+  {
+   "id": "fj-519",
+   "kata": "地震",
+   "kana": "じしん",
+   "romaji": "jishin",
+   "arti": "gempa bumi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "地震|じしん"
+   ]
+  },
+  {
+   "id": "fj-520",
+   "kata": "自然災害",
+   "kana": "しぜんさいがい",
+   "romaji": "shizensaigai",
+   "arti": "bencana alam",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "自然災害|しぜんさいがい"
+   ]
+  },
+  {
+   "id": "fj-521",
+   "kata": "自走式車椅子",
+   "kana": "じそうしきくるまいす",
+   "romaji": "jisoushikikurumaisu",
+   "arti": "kursi roda yang dikayuh sendiri",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "自走式車椅子|じそうしきくるまいす"
+   ]
+  },
+  {
+   "id": "fj-522",
+   "kata": "紙幣",
+   "kana": "しへい",
+   "romaji": "shihei",
+   "arti": "uang kertas",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "紙幣|しへい"
+   ]
+  },
+  {
+   "id": "fj-523",
+   "kata": "下座",
+   "kana": "しもざ",
+   "romaji": "shimoza",
+   "arti": "tempat biasa (shimoza)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "下座|しもざ"
+   ]
+  },
+  {
+   "id": "fj-524",
+   "kata": "車両",
+   "kana": "しゃりょう",
+   "romaji": "sharyou",
+   "arti": "kendaraan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "車両|しゃりょう"
+   ]
+  },
+  {
+   "id": "fj-525",
+   "kata": "主菜",
+   "kana": "しゅさい",
+   "romaji": "shusai",
+   "arti": "lauk utama",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "主菜|しゅさい"
+   ]
+  },
+  {
+   "id": "fj-526",
+   "kata": "消火器",
+   "kana": "しょうかき",
+   "romaji": "shoukaki",
+   "arti": "alat pemadam",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "消火器|しょうかき"
+   ]
+  },
+  {
+   "id": "fj-527",
+   "kata": "紹興酒",
+   "kana": "しょうこうしゅ",
+   "romaji": "shoukoushu",
+   "arti": "anggur shaoxing",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "紹興酒|しょうこうしゅ"
+   ]
+  },
+  {
+   "id": "fj-528",
+   "kata": "醸造酒",
+   "kana": "じょうぞうしゅ",
+   "romaji": "jouzoushu",
+   "arti": "minuman hasil fermentasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "醸造酒|じょうぞうしゅ"
+   ]
+  },
+  {
+   "id": "fj-529",
+   "kata": "焼酎",
+   "kana": "しょうちゅう",
+   "romaji": "shouchuu",
+   "arti": "shochu",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "焼酎|しょうちゅう"
+   ]
+  },
+  {
+   "id": "fj-530",
+   "kata": "蒸留酒",
+   "kana": "じょうりゅうしゅ",
+   "romaji": "jouryuushu",
+   "arti": "minuman hasil distilasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "蒸留酒|じょうりゅうしゅ"
+   ]
+  },
+  {
+   "id": "fj-531",
+   "kata": "食品ロス",
+   "kana": "しょくひんろす",
+   "romaji": "shokuhinrosu",
+   "arti": "makanan terbuang",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "食品ロス|しょくひんろす"
+   ]
+  },
+  {
+   "id": "fj-532",
+   "kata": "食物アレルギー",
+   "kana": "しょくもつあれるぎー",
+   "romaji": "shokumotsuarerugii",
+   "arti": "alergi makanan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "食物アレルギー|しょくもつあれるぎー"
+   ]
+  },
+  {
+   "id": "fj-533",
+   "kata": "汁",
+   "kana": "しる",
+   "romaji": "shiru",
+   "arti": "sup",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "汁|しる"
+   ]
+  },
+  {
+   "id": "fj-534",
+   "kata": "シルバー",
+   "kana": "しるばー",
+   "romaji": "shirubaa",
+   "arti": "perangkat makan perak (pisau-garpu)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-535",
+   "kata": "白ワイン",
+   "kana": "しろわいん",
+   "romaji": "shirowain",
+   "arti": "anggur putih",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "白ワイン|しろわいん"
+   ]
+  },
+  {
+   "id": "fj-536",
+   "kata": "ジン",
+   "kana": "じん",
+   "romaji": "jin",
+   "arti": "gin",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-537",
+   "kata": "吸い物",
+   "kana": "すいもの",
+   "romaji": "suimono",
+   "arti": "sup bening (suimono)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "吸い物|すいもの"
+   ]
+  },
+  {
+   "id": "fj-538",
+   "kata": "スープ",
+   "kana": "すーぷ",
+   "romaji": "suupu",
+   "arti": "sup",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-539",
+   "kata": "酢の物",
+   "kana": "すのもの",
+   "romaji": "sunomono",
+   "arti": "hidangan bercuka (sunomono)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "酢の物|すのもの"
+   ]
+  },
+  {
+   "id": "fj-540",
+   "kata": "スパークリングワイン",
+   "kana": "すぱーくりんぐわいん",
+   "romaji": "supaakuringuwain",
+   "arti": "anggur bersoda",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-541",
+   "kata": "スプーン",
+   "kana": "すぷーん",
+   "romaji": "supuun",
+   "arti": "sendok",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-542",
+   "kata": "スマイル＆アイコンタクト",
+   "kana": "すまいるあんどあいこんたくと",
+   "romaji": "sumairuandoaikontakuto",
+   "arti": "senyum dan kontak mata",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-543",
+   "kata": "清潔感（Cleanliness）",
+   "kana": "せいけつかん",
+   "romaji": "seiketsukan",
+   "arti": "kebersihan (Cleanliness)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-544",
+   "kata": "精算",
+   "kana": "せいさん",
+   "romaji": "seisan",
+   "arti": "perhitungan/pelunasan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "精算|せいさん"
+   ]
+  },
+  {
+   "id": "fj-545",
+   "kata": "清酒",
+   "kana": "せいしゅ",
+   "romaji": "seishu",
+   "arti": "sake murni",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "清酒|せいしゅ"
+   ]
+  },
+  {
+   "id": "fj-546",
+   "kata": "接客",
+   "kana": "せっきゃく",
+   "romaji": "sekkyaku",
+   "arti": "melayani pelanggan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "接客|せっきゃく"
+   ]
+  },
+  {
+   "id": "fj-547",
+   "kata": "接客サービス（Service）",
+   "kana": "せっきゃくさーびす",
+   "romaji": "sekkyakusaabisu",
+   "arti": "layanan pelanggan (Service)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-548",
+   "kata": "前菜",
+   "kana": "ぜんさい",
+   "romaji": "zensai",
+   "arti": "hidangan pembuka",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "前菜|ぜんさい"
+   ]
+  },
+  {
+   "id": "fj-549",
+   "kata": "そば",
+   "kana": "そば",
+   "romaji": "soba",
+   "arti": "soba",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ]
+  },
+  {
+   "id": "fj-550",
+   "kata": "体調不良",
+   "kana": "たいちょうふりょう",
+   "romaji": "taichoufuryou",
+   "arti": "kondisi tubuh tidak sehat",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "体調不良|たいちょうふりょう"
+   ]
+  },
+  {
+   "id": "fj-551",
+   "kata": "台風",
+   "kana": "たいふう",
+   "romaji": "taifuu",
+   "arti": "topan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "台風|たいふう"
+   ]
+  },
+  {
+   "id": "fj-552",
+   "kata": "卵",
+   "kana": "たまご",
+   "romaji": "tamago",
+   "arti": "telur",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "卵|たまご"
+   ]
+  },
+  {
+   "id": "fj-553",
+   "kata": "炭水化物",
+   "kana": "たんすいかぶつ",
+   "romaji": "tansuikabutsu",
+   "arti": "karbohidrat",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "炭水化物|たんすいかぶつ"
+   ]
+  },
+  {
+   "id": "fj-554",
+   "kata": "たんぱく質",
+   "kana": "たんぱくしつ",
+   "romaji": "tanpakushitsu",
+   "arti": "protein",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "たんぱく質|たんぱくしつ"
+   ]
+  },
+  {
+   "id": "fj-555",
+   "kata": "中国料理",
+   "kana": "ちゅうごくりょうり",
+   "romaji": "chuugokuryouri",
+   "arti": "masakan Tiongkok",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "中国料理|ちゅうごくりょうり"
+   ]
+  },
+  {
+   "id": "fj-556",
+   "kata": "聴導犬",
+   "kana": "ちょうどうけん",
+   "romaji": "choudouken",
+   "arti": "anjing pemandu tunarungu",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "聴導犬|ちょうどうけん"
+   ]
+  },
+  {
+   "id": "fj-557",
+   "kata": "津波",
+   "kana": "つなみ",
+   "romaji": "tsunami",
+   "arti": "tsunami",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "津波|つなみ"
+   ]
+  },
+  {
+   "id": "fj-558",
+   "kata": "提供禁止",
+   "kana": "ていきょうきんし",
+   "romaji": "teikyoukinshi",
+   "arti": "dilarang menyajikan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "提供禁止|ていきょうきんし"
+   ]
+  },
+  {
+   "id": "fj-559",
+   "kata": "テイクアウト",
+   "kana": "ていくあうと",
+   "romaji": "teikuauto",
+   "arti": "bungkus (take-out)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-560",
+   "kata": "テーブルセッティング",
+   "kana": "てーぶるせってぃんぐ",
+   "romaji": "teeburusetteingu",
+   "arti": "penataan meja",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-561",
+   "kata": "デザート",
+   "kana": "でざーと",
+   "romaji": "dezaato",
+   "arti": "hidangan penutup",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-562",
+   "kata": "デビットカード",
+   "kana": "でびっとかーど",
+   "romaji": "debittokaado",
+   "arti": "kartu debit",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ]
+  },
+  {
+   "id": "fj-563",
+   "kata": "デミコーヒー",
+   "kana": "でもこーひー",
+   "romaji": "demokoohii",
+   "arti": "demi-coffee (kopi kecil)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-564",
+   "kata": "電子マネー",
+   "kana": "でんしまねー",
+   "romaji": "denshimanee",
+   "arti": "uang elektronik",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "電子マネー|でんしまねー"
+   ]
+  },
+  {
+   "id": "fj-565",
+   "kata": "伝票",
+   "kana": "でんぴょう",
+   "romaji": "denpyou",
+   "arti": "bon/nota",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "伝票|でんぴょう"
+   ]
+  },
+  {
+   "id": "fj-566",
+   "kata": "トレイ",
+   "kana": "といれ",
+   "romaji": "toire",
+   "arti": "baki",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-567",
+   "kata": "動物性食品",
+   "kana": "どうぶつせいしょくひん",
+   "romaji": "doubutsuseishokuhin",
+   "arti": "makanan hewani",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "動物性食品|どうぶつせいしょくひん"
+   ]
+  },
+  {
+   "id": "fj-568",
+   "kata": "特定原材料",
+   "kana": "とくていげんざいりょう",
+   "romaji": "tokuteigenzairyou",
+   "arti": "bahan alergen yang ditetapkan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "特定原材料|とくていげんざいりょう"
+   ]
+  },
+  {
+   "id": "fj-569",
+   "kata": "床の間",
+   "kana": "とこのま",
+   "romaji": "tokonoma",
+   "arti": "tokonoma (ruang hiasan)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "床の間|とこのま"
+   ]
+  },
+  {
+   "id": "fj-570",
+   "kata": "ナイフ",
+   "kana": "ないふ",
+   "romaji": "naifu",
+   "arti": "pisau makan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-571",
+   "kata": "軟質異物",
+   "kana": "なんしついぶつ",
+   "romaji": "nanshitsuibutsu",
+   "arti": "benda asing lunak",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s5"
+   ],
+   "rb": [
+    "軟質異物|なんしついぶつ"
+   ]
+  },
+  {
+   "id": "fj-572",
+   "kata": "苦味",
+   "kana": "にがみ",
+   "romaji": "nigami",
+   "arti": "rasa pahit",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "苦味|にがみ"
+   ]
+  },
+  {
+   "id": "fj-573",
+   "kata": "肉料理（アントレー）",
+   "kana": "にくりょうり（あんとれー）",
+   "romaji": "nikuryouri（antoree）",
+   "arti": "hidangan daging (entrée)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-574",
+   "kata": "にごり酒",
+   "kana": "にごりざけ",
+   "romaji": "nigorizake",
+   "arti": "sake berawan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "にごり酒|にごりざけ"
+   ]
+  },
+  {
+   "id": "fj-575",
+   "kata": "日本酒",
+   "kana": "にほんしゅ",
+   "romaji": "nihonshu",
+   "arti": "sake Jepang",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "日本酒|にほんしゅ"
+   ]
+  },
+  {
+   "id": "fj-576",
+   "kata": "日本料理",
+   "kana": "にほんりょうり",
+   "romaji": "nihonryouri",
+   "arti": "masakan Jepang",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "日本料理|にほんりょうり"
+   ]
+  },
+  {
+   "id": "fj-577",
+   "kata": "煮物",
+   "kana": "にもの",
+   "romaji": "nimono",
+   "arti": "hidangan rebus",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "煮物|にもの"
+   ]
+  },
+  {
+   "id": "fj-578",
+   "kata": "乳",
+   "kana": "にゅう",
+   "romaji": "nyuu",
+   "arti": "susu",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "乳|にゅう"
+   ]
+  },
+  {
+   "id": "fj-579",
+   "kata": "乳幼児",
+   "kana": "にゅうようじ",
+   "romaji": "nyuuyouji",
+   "arti": "bayi dan balita",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "乳幼児|にゅうようじ"
+   ]
+  },
+  {
+   "id": "fj-580",
+   "kata": "年齢確認",
+   "kana": "ねんれいかくにん",
+   "romaji": "nenreikakunin",
+   "arti": "pemeriksaan usia",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "年齢確認|ねんれいかくにん"
+   ]
+  },
+  {
+   "id": "fj-581",
+   "kata": "ハーネス（胴輪）",
+   "kana": "はーねす（どうわ）",
+   "romaji": "haanesu（douwa）",
+   "arti": "harness (sabuk badan anjing)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-582",
+   "kata": "配膳",
+   "kana": "はいぜん",
+   "romaji": "haizen",
+   "arti": "menata dan menyajikan hidangan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "配膳|はいぜん"
+   ]
+  },
+  {
+   "id": "fj-583",
+   "kata": "配膳（サービング）",
+   "kana": "はいぜん（さーびんぐ）",
+   "romaji": "haizen（saabingu）",
+   "arti": "penyajian (serving)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-584",
+   "kata": "配慮",
+   "kana": "はいりょ",
+   "romaji": "hairyo",
+   "arti": "perhatian/pertimbangan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "配慮|はいりょ"
+   ]
+  },
+  {
+   "id": "fj-585",
+   "kata": "麦酒",
+   "kana": "ばくしゅ",
+   "romaji": "bakushu",
+   "arti": "bir",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "麦酒|ばくしゅ"
+   ]
+  },
+  {
+   "id": "fj-586",
+   "kata": "箸",
+   "kana": "はし",
+   "romaji": "hashi",
+   "arti": "sumpit",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "箸|はし"
+   ]
+  },
+  {
+   "id": "fj-587",
+   "kata": "ハラーム",
+   "kana": "はらーむ",
+   "romaji": "haraamu",
+   "arti": "haram",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-588",
+   "kata": "ハラール",
+   "kana": "はらーる",
+   "romaji": "haraaru",
+   "arti": "halal",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-589",
+   "kata": "ハンドルキーパー",
+   "kana": "はんどるきーぱー",
+   "romaji": "handorukiipaa",
+   "arti": "designated driver",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-590",
+   "kata": "ピークタイム",
+   "kana": "ぴーくたいむ",
+   "romaji": "piikutaimu",
+   "arti": "jam ramai",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-591",
+   "kata": "ビール",
+   "kana": "びーる",
+   "romaji": "biiru",
+   "arti": "bir",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-592",
+   "kata": "ビタミン",
+   "kana": "びたみん",
+   "romaji": "bitamin",
+   "arti": "vitamin",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-593",
+   "kata": "避難",
+   "kana": "ひなん",
+   "romaji": "hinan",
+   "arti": "evakuasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "避難|ひなん"
+   ]
+  },
+  {
+   "id": "fj-594",
+   "kata": "避難場所",
+   "kana": "ひなんばしょ",
+   "romaji": "hinanbasho",
+   "arti": "tempat evakuasi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s6"
+   ],
+   "rb": [
+    "避難場所|ひなんばしょ"
+   ]
+  },
+  {
+   "id": "fj-595",
+   "kata": "風習",
+   "kana": "ふうしゅう",
+   "romaji": "fuushuu",
+   "arti": "kebiasaan/adat",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "風習|ふうしゅう"
+   ]
+  },
+  {
+   "id": "fj-596",
+   "kata": "フードサービス業",
+   "kana": "ふーどさーびすぎょう",
+   "romaji": "fuudosaabisugyou",
+   "arti": "industri jasa boga",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "フードサービス業|ふーどさーびすぎょう"
+   ]
+  },
+  {
+   "id": "fj-597",
+   "kata": "フォーク",
+   "kana": "ふぉーく",
+   "romaji": "fuooku",
+   "arti": "garpu",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-598",
+   "kata": "副菜",
+   "kana": "ふくさい",
+   "romaji": "fukusai",
+   "arti": "lauk pelengkap",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "副菜|ふくさい"
+   ]
+  },
+  {
+   "id": "fj-599",
+   "kata": "不満",
+   "kana": "ふまん",
+   "romaji": "fuman",
+   "arti": "ketidakpuasan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "不満|ふまん"
+   ]
+  },
+  {
+   "id": "fj-600",
+   "kata": "フランス料理",
+   "kana": "ふらんすりょうり",
+   "romaji": "furansuryouri",
+   "arti": "masakan Prancis",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "フランス料理|ふらんすりょうり"
+   ]
+  },
+  {
+   "id": "fj-601",
+   "kata": "ブランデー",
+   "kana": "ぶらんでー",
+   "romaji": "burandee",
+   "arti": "brandy",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-602",
+   "kata": "ブレンデッドウイスキー",
+   "kana": "ぶれんでっどういすきー",
+   "romaji": "burendeddouisukii",
+   "arti": "wiski campuran",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-603",
+   "kata": "雰囲気（Atmosphere）",
+   "kana": "ふんいき",
+   "romaji": "funiki",
+   "arti": "suasana (Atmosphere)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-604",
+   "kata": "文化",
+   "kana": "ぶんか",
+   "romaji": "bunka",
+   "arti": "budaya",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "文化|ぶんか"
+   ]
+  },
+  {
+   "id": "fj-605",
+   "kata": "閉店作業",
+   "kana": "へいてんさぎょう",
+   "romaji": "heitensagyou",
+   "arti": "tugas tutup restoran",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "閉店作業|へいてんさぎょう"
+   ]
+  },
+  {
+   "id": "fj-606",
+   "kata": "ベジタリアン",
+   "kana": "べじたりあん",
+   "romaji": "bejitarian",
+   "arti": "vegetarian",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-607",
+   "kata": "法律",
+   "kana": "ほうりつ",
+   "romaji": "houritsu",
+   "arti": "hukum",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "法律|ほうりつ"
+   ]
+  },
+  {
+   "id": "fj-608",
+   "kata": "補助犬",
+   "kana": "ほじょけん",
+   "romaji": "hojoken",
+   "arti": "anjing asisten",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "補助犬|ほじょけん"
+   ]
+  },
+  {
+   "id": "fj-609",
+   "kata": "ホスピタリティ",
+   "kana": "ほすぴたりてぃ",
+   "romaji": "hosupitaritei",
+   "arti": "keramahtamahan (hospitality)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-610",
+   "kata": "マナー",
+   "kana": "まなー",
+   "romaji": "manaa",
+   "arti": "tata krama",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-611",
+   "kata": "満足",
+   "kana": "まんぞく",
+   "romaji": "manzoku",
+   "arti": "kepuasan",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "満足|まんぞく"
+   ]
+  },
+  {
+   "id": "fj-612",
+   "kata": "味覚",
+   "kana": "みかく",
+   "romaji": "mikaku",
+   "arti": "indra perasa/rasa",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "味覚|みかく"
+   ]
+  },
+  {
+   "id": "fj-613",
+   "kata": "水菓子",
+   "kana": "みずがし",
+   "romaji": "mizugashi",
+   "arti": "buah (hidangan penutup)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "水菓子|みずがし"
+   ]
+  },
+  {
+   "id": "fj-614",
+   "kata": "未成年",
+   "kana": "みせいねん",
+   "romaji": "miseinen",
+   "arti": "di bawah umur",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "未成年|みせいねん"
+   ]
+  },
+  {
+   "id": "fj-615",
+   "kata": "身だしなみ",
+   "kana": "みだしなみ",
+   "romaji": "midashinami",
+   "arti": "penampilan rapi",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "身だしなみ|みだしなみ"
+   ]
+  },
+  {
+   "id": "fj-616",
+   "kata": "ミネラル",
+   "kana": "みねらる",
+   "romaji": "mineraru",
+   "arti": "mineral",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-617",
+   "kata": "身分証明証",
+   "kana": "みぶんしょうめいしょう",
+   "romaji": "mibunshoumeishou",
+   "arti": "kartu identitas",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "身分証明証|みぶんしょうめいしょう"
+   ]
+  },
+  {
+   "id": "fj-618",
+   "kata": "麦焼酎",
+   "kana": "むぎしょうちゅう",
+   "romaji": "mugishouchuu",
+   "arti": "shochu gandum",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "麦焼酎|むぎしょうちゅう"
+   ]
+  },
+  {
+   "id": "fj-619",
+   "kata": "目もと",
+   "kana": "めもと",
+   "romaji": "memoto",
+   "arti": "area mata",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "目もと|めもと"
+   ]
+  },
+  {
+   "id": "fj-620",
+   "kata": "盲導犬",
+   "kana": "もうどうけん",
+   "romaji": "moudouken",
+   "arti": "anjing penuntun tunanetra",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "盲導犬|もうどうけん"
+   ]
+  },
+  {
+   "id": "fj-621",
+   "kata": "モルトウイスキー",
+   "kana": "もるとういすきー",
+   "romaji": "morutouisukii",
+   "arti": "wiski malt",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-622",
+   "kata": "焼き物",
+   "kana": "やきもの",
+   "romaji": "yakimono",
+   "arti": "hidangan bakar",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "焼き物|やきもの"
+   ]
+  },
+  {
+   "id": "fj-623",
+   "kata": "洋食",
+   "kana": "ようしょく",
+   "romaji": "youshoku",
+   "arti": "masakan Barat",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "洋食|ようしょく"
+   ]
+  },
+  {
+   "id": "fj-624",
+   "kata": "老酒",
+   "kana": "らおちゅう",
+   "romaji": "raochuu",
+   "arti": "laojiu (arak beras Tiongkok)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "老酒|らおちゅう"
+   ]
+  },
+  {
+   "id": "fj-625",
+   "kata": "落花生",
+   "kana": "らっかせい",
+   "romaji": "rakkasei",
+   "arti": "kacang tanah",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s3"
+   ],
+   "rb": [
+    "落花生|らっかせい"
+   ]
+  },
+  {
+   "id": "fj-626",
+   "kata": "リピーター",
+   "kana": "りぴーたー",
+   "romaji": "ripiitaa",
+   "arti": "pelanggan yang kembali",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-627",
+   "kata": "料理の品質（Quality）",
+   "kana": "りょうりのひんしつ",
+   "romaji": "ryourinohinshitsu",
+   "arti": "kualitas hidangan (Quality)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ]
+  },
+  {
+   "id": "fj-628",
+   "kata": "礼儀",
+   "kana": "れいぎ",
+   "romaji": "reigi",
+   "arti": "sopan santun",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s1"
+   ],
+   "rb": [
+    "礼儀|れいぎ"
+   ]
+  },
+  {
+   "id": "fj-629",
+   "kata": "レジ",
+   "kana": "れじ",
+   "romaji": "reji",
+   "arti": "mesin kas",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-630",
+   "kata": "レジ締め",
+   "kana": "れじしめ",
+   "romaji": "rejishime",
+   "arti": "menutup kas/menghitung kas",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ],
+   "rb": [
+    "レジ締め|れじしめ"
+   ]
+  },
+  {
+   "id": "fj-631",
+   "kata": "レディーファースト",
+   "kana": "れでぃーふぁーすと",
+   "romaji": "redeiifuaasuto",
+   "arti": "utamakan perempuan (ladies first)",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ]
+  },
+  {
+   "id": "fj-632",
+   "kata": "ロンドンジン",
+   "kana": "ろんどんじん",
+   "romaji": "rondonjin",
+   "arti": "London gin",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-633",
+   "kata": "ワイン",
+   "kana": "わいん",
+   "romaji": "wain",
+   "arti": "anggur",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s4"
+   ]
+  },
+  {
+   "id": "fj-634",
+   "kata": "和食",
+   "kana": "わしょく",
+   "romaji": "washoku",
+   "arti": "masakan Jepang",
+   "cat": "Layanan Pelanggan",
+   "bab": "bab3",
+   "src": [
+    "j3s2"
+   ],
+   "rb": [
+    "和食|わしょく"
+   ]
+  }
+ ]
+}
