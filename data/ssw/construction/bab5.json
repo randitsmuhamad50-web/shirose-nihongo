@@ -18,10 +18,18 @@
    78,
    105
   ],
+  "pagesJp": [
+   63,
+   83
+  ],
   "subs": [
    {
     "id": "b5s1",
     "no": 1,
+    "pagesJp": [
+     63,
+     74
+    ],
     "title": {
      "id": "Alat dan Material Khusus per Pekerjaan",
      "jp": "{専門|せんもん}{工事|こうじ}の{道具|どうぐ}"
@@ -90,6 +98,10 @@
    {
     "id": "b5s2",
     "no": 2,
+    "pagesJp": [
+     75,
+     83
+    ],
     "title": {
      "id": "Alat, Mesin, dan Material Umum",
      "jp": "{共通|きょうつう}の{道具|どうぐ}"

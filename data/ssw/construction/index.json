@@ -2,9 +2,9 @@
  "slug": "construction",
  "nama": "Construction — Sipil (Doboku)",
  "jp": "建設（土木）",
- "book": "id",
  "pages": {
-  "id": 152
+  "id": 152,
+  "jp": 121
  },
  "bab": [
   {

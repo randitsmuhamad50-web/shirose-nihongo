@@ -18,10 +18,18 @@
    1,
    7
   ],
+  "pagesJp": [
+   1,
+   6
+  ],
   "subs": [
    {
     "id": "b1s1",
     "no": 1,
+    "pagesJp": [
+     1,
+     1
+    ],
     "title": {
      "id": "Kerja Sama Tim dan Sistem Pelaksanaan Konstruksi",
      "jp": "チームワークと{施工|せこう}のしくみ"
@@ -75,6 +83,10 @@
    {
     "id": "b1s2",
     "no": 2,
+    "pagesJp": [
+     2,
+     2
+    ],
     "title": {
      "id": "Sistem Kenaikan Karier Konstruksi (Career Up)",
      "jp": "キャリアアップシステム"
@@ -120,6 +132,10 @@
    {
     "id": "b1s3",
     "no": 3,
+    "pagesJp": [
+     3,
+     6
+    ],
     "title": {
      "id": "Salam dan Apel Pagi",
      "jp": "あいさつと{朝礼|ちょうれい}"

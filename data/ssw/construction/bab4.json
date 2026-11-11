@@ -18,10 +18,18 @@
    60,
    77
   ],
+  "pagesJp": [
+   48,
+   62
+  ],
   "subs": [
    {
     "id": "b4s1",
     "no": 1,
+    "pagesJp": [
+     48,
+     49
+    ],
     "title": {
      "id": "Salam dan Panggilan Darurat",
      "jp": "あいさつと{緊急|きんきゅう}の{呼|よ}びかけ"
@@ -68,6 +76,10 @@
    {
     "id": "b4s2",
     "no": 2,
+    "pagesJp": [
+     50,
+     58
+    ],
     "title": {
      "id": "Istilah di Lokasi Konstruksi",
      "jp": "{現場|げんば}の{用語|ようご}"
@@ -115,6 +127,10 @@
    {
     "id": "b4s3",
     "no": 3,
+    "pagesJp": [
+     59,
+     62
+    ],
     "title": {
      "id": "Hal yang Perlu Diperhatikan dalam Kehidupan Bersama",
      "jp": "{共同生活|きょうどうせいかつ}の{注意|ちゅうい}"

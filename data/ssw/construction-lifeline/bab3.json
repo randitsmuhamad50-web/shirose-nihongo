@@ -18,10 +18,18 @@
    34,
    94
   ],
+  "pagesJp": [
+   19,
+   47
+  ],
   "subs": [
    {
     "id": "b3s1",
     "no": 1,
+    "pagesJp": [
+     19,
+     26
+    ],
     "title": {
      "id": "Jenis Pekerjaan Konstruksi",
      "jp": "{工事|こうじ}の{種類|しゅるい}"
@@ -75,6 +83,10 @@
    {
     "id": "b3s2",
     "no": 2,
+    "pagesJp": [
+     27,
+     31
+    ],
     "title": {
      "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
      "jp": "{主要専門工事|しゅようせんもんこうじ}①"
@@ -128,6 +140,10 @@
    {
     "id": "b3s3",
     "no": 3,
+    "pagesJp": [
+     32,
+     37
+    ],
     "title": {
      "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
      "jp": "{主要専門工事|しゅようせんもんこうじ}②"
@@ -183,6 +199,10 @@
    {
     "id": "b3s4",
     "no": 4,
+    "pagesJp": [
+     38,
+     46
+    ],
     "title": {
      "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
      "jp": "{主要専門工事|しゅようせんもんこうじ}③"
@@ -244,6 +264,10 @@
    {
     "id": "b3s5",
     "no": 5,
+    "pagesJp": [
+     47,
+     47
+    ],
     "title": {
      "id": "Kualifikasi yang Diperlukan",
      "jp": "{必要|ひつよう}な{資格|しかく}"

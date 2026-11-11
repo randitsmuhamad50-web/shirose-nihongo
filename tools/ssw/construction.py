@@ -77,6 +77,16 @@ LIFELINE = dict(slug="construction-lifeline", nama="Construction — Lifeline & 
   ("bab7", *SIPIL["babs"][6][1:4], [sub("b7s1", "b7_a", [81 + O, 86 + O]), sub("b7s2", "b7_b", [87 + O, 98 + O])]),
 ])
 PACKS = [SIPIL, BANGUNAN, LIFELINE]
+# Halaman buku JEPANG (ctextd / bangunan / INFRASTRUCTURE_TEXTBOOK_JP, masing-masing 120 hal.; Bab 1–4 sama di ketiganya)
+JP_COMMON = {"b1s1": [1, 1], "b1s2": [2, 2], "b1s3": [3, 6], "b2s1": [7, 12], "b2s2": [13, 13], "b2s3": [14, 15], "b2s4": [15, 18],
+             "b3s1": [19, 26], "b3s2": [27, 31], "b3s3": [32, 37], "b3s4": [38, 46], "b3s5": [47, 47], "b4s1": [48, 49], "b4s2": [50, 58], "b4s3": [59, 62],
+             "b7s1": [107, 111], "b7s2": [112, 120]}
+JP_PAGES = {
+ "sipil": dict(JP_COMMON, b5s1=[63, 74], b5s2=[75, 83], b6s1=[84, 85], b6s2=[86, 96], b6s3=[97, 106]),
+ "bangunan": dict(JP_COMMON, b5s1=[63, 70], b5s2=[71, 75], b5s3=[76, 84], b6s1=[85, 86], b6s2=[87, 95], b6s3=[96, 106]),
+ "lifeline": dict(JP_COMMON, b5s1=[63, 72], b5s2=[63, 72], b5s3=[63, 72], b5s4=[73, 82], b6s1=[83, 85], b6s2=[86, 89], b6s3=[90, 92], b6s4=[93, 97], b6s5=[98, 99], b6s6=[100, 104], b6s7=[105, 106]),
+}
+JP_TOTAL = 121  # 120 hal. + sampul
 SOURCE = "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori %s: %s"
 
 def soal_item(t, page):
@@ -131,7 +141,7 @@ def build_pack(P, glossary):
                 full = [{"p": s["intro"]}, {"h": "Topik pada subbab ini (judul asli buku)"}, {"ul": ["%s (hal. %d)" % (t, p) for p, n, t in hs] or ["Lihat halaman buku."]}] + list(s["extra"]) + [{"note": D.NOTE}]
                 summ = dict(core=s["intro"], points=["Baca topik sesuai pekerjaan yang akan kamu kerjakan.", "Perhatikan gambar alat dan urutan kerja di halaman buku."], avoid=["Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."], exam=["Nama alat/material dan fungsinya."])
                 items = [soal_item(t, p1) for t in s["soal"]]
-            subs_out.append(dict(id=s["id"], no=si, title={"id": ti_s, "jp": tj_s}, pages=[p1, p2], full={"id": full}, summary={"id": summ}, _items=items, _hs=hs))
+            subs_out.append(dict(id=s["id"], no=si, pagesJp=JP_PAGES[kat][s["id"]], title={"id": ti_s, "jp": tj_s}, pages=[p1, p2], full={"id": full}, summary={"id": summ}, _items=items, _hs=hs))
         # soal navigasi untuk subbab tanpa soal tulis-tangan
         for so in subs_out:
             if so["_items"]: continue
@@ -153,8 +163,8 @@ def build_pack(P, glossary):
         q3 = vocab_quiz("%s-q3" % bid, {"id": "Arti istilah lokasi (Bab %d)" % bi, "jp": "{現場用語|げんばようご}の{意味|いみ}"}, vocab, "cn-" + bid, n=8, pool=vocab)
         quiz["bab"][bid] = [rev(1, semua[0::2]), rev(2, semua[1::2]), q3] + qs_sub
         babs_out.append({"schema": 1, "bidang": P["slug"], "source": SOURCE % (P["kat"], P["books"]), "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
-                         "bab": {"id": bid, "no": bi, "title": {"id": ti, "jp": tj}, "intro": {"id": intro, "jp": tj}, "pages": [subs[0]["pages"][0], subs[-1]["pages"][1]], "subs": subs_out}})
-    index = {"slug": P["slug"], "nama": P["nama"], "jp": P["jp"], "book": "id", "pages": {"id": P["total"]}}
+                         "bab": {"id": bid, "no": bi, "title": {"id": ti, "jp": tj}, "intro": {"id": intro, "jp": tj}, "pages": [subs[0]["pages"][0], subs[-1]["pages"][1]], "pagesJp": [subs_out[0]["pagesJp"][0], subs_out[-1]["pagesJp"][1]], "subs": subs_out}})
+    index = {"slug": P["slug"], "nama": P["nama"], "jp": P["jp"], "pages": {"id": P["total"], "jp": JP_TOTAL}}
     write_pack(P["slug"], index, babs_out, vocab, quiz)
     print("  soal total:", nsoal)
 

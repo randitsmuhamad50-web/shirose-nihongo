@@ -18,10 +18,18 @@
    118,
    155
   ],
+  "pagesJp": [
+   63,
+   82
+  ],
   "subs": [
    {
     "id": "b5s1",
     "no": 1,
+    "pagesJp": [
+     63,
+     72
+    ],
     "title": {
      "id": "Mesin Konstruksi dan Peralatan Listrik",
      "jp": "{建設機械|けんせつきかい}と{電気設備|でんきせつび}"
@@ -79,6 +87,10 @@
    {
     "id": "b5s2",
     "no": 2,
+    "pagesJp": [
+     63,
+     72
+    ],
     "title": {
      "id": "Telekomunikasi",
      "jp": "{通信|つうしん}{工事|こうじ}"
@@ -124,6 +136,10 @@
    {
     "id": "b5s3",
     "no": 3,
+    "pagesJp": [
+     63,
+     72
+    ],
     "title": {
      "id": "Pendingin, Air-Drainase, Isolasi, Pemadam",
      "jp": "{空調|くうちょう}・{給排水|きゅうはいすい}・{消防|しょうぼう}"
@@ -172,6 +188,10 @@
    {
     "id": "b5s4",
     "no": 4,
+    "pagesJp": [
+     73,
+     82
+    ],
     "title": {
      "id": "Alat dan Material Umum",
      "jp": "{共通|きょうつう}の{道具|どうぐ}"

@@ -18,10 +18,18 @@
    78,
    107
   ],
+  "pagesJp": [
+   63,
+   84
+  ],
   "subs": [
    {
     "id": "b5s1",
     "no": 1,
+    "pagesJp": [
+     63,
+     70
+    ],
     "title": {
      "id": "Pekerjaan Kerangka",
      "jp": "{躯体|くたい}{工事|こうじ}"
@@ -85,6 +93,10 @@
    {
     "id": "b5s2",
     "no": 2,
+    "pagesJp": [
+     71,
+     75
+    ],
     "title": {
      "id": "Pekerjaan Interior dan Eksterior",
      "jp": "{内装|ないそう}・{外装|がいそう}{工事|こうじ}"
@@ -140,6 +152,10 @@
    {
     "id": "b5s3",
     "no": 3,
+    "pagesJp": [
+     76,
+     84
+    ],
     "title": {
      "id": "Alat, Mesin, dan Material Umum",
      "jp": "{共通|きょうつう}の{道具|どうぐ}"

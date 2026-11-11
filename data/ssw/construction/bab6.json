@@ -18,10 +18,18 @@
    106,
    134
   ],
+  "pagesJp": [
+   84,
+   106
+  ],
   "subs": [
    {
     "id": "b6s1",
     "no": 1,
+    "pagesJp": [
+     84,
+     85
+    ],
     "title": {
      "id": "Hal Umum di Lokasi Konstruksi",
      "jp": "{現場|げんば}の{共通|きょうつう}{事項|じこう}"
@@ -78,6 +86,10 @@
    {
     "id": "b6s2",
     "no": 2,
+    "pagesJp": [
+     86,
+     96
+    ],
     "title": {
      "id": "Pelaksanaan: Tanah sampai Tiang Pancang",
      "jp": "{土木工事|どぼくこうじ}の{知識|ちしき}"
@@ -130,6 +142,10 @@
    {
     "id": "b6s3",
     "no": 3,
+    "pagesJp": [
+     97,
+     106
+    ],
     "title": {
      "id": "Pelaksanaan: Perancah sampai Pembongkaran",
      "jp": "{仮設|かせつ}から{解体|かいたい}まで"

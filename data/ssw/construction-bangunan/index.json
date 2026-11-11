@@ -2,9 +2,9 @@
  "slug": "construction-bangunan",
  "nama": "Construction — Bangunan (Kenchiku)",
  "jp": "建設（建築）",
- "book": "id",
  "pages": {
-  "id": 153
+  "id": 153,
+  "jp": 121
  },
  "bab": [
   {
