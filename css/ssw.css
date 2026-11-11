@@ -308,3 +308,10 @@ body.sw-figopen{padding-bottom:62vh;}
 
 .pk-p{border-color:#d6a93a;} .pk-p h2{margin:0 0 4px;}
 .sw-vc:has(.pk-k){display:inline-flex;align-items:center;gap:4px;padding:0;} .pk-k{background:none;border:0;color:inherit;text-align:left;padding:6px 8px;cursor:pointer;} .pk-x{background:none;border:0;color:#ff9aa8;font-size:14px;padding:6px 8px;cursor:pointer;}
+
+/* === Tombol bahasa melayang di halaman baca + toolbar tidak tertutup topbar === */
+#sw-langfloat{position:fixed; left:12px; bottom:calc(16px + env(safe-area-inset-bottom,0px)); z-index:880; display:none; margin:0;
+  background:rgba(14,16,40,.96); box-shadow:0 6px 20px rgba(0,0,0,.5); border-color:var(--pink,#ef6a9a);}
+#sw-langfloat.show{display:flex;}
+#sw-langfloat button{min-width:56px;}
+.sw-rtool .r1{top:var(--tb-h,0px);}

@@ -438,6 +438,33 @@ window.kposReset = async (i) => {
   kposRedraw();
 };
 
+/* ===== Tabel otomatis jadi kartu di HP (CSS .cards-m aktif hanya di layar <=900px) =====
+   Semua tabel di #main/#modal-body diberi label kolom dari <th>, jadi tab Kelas/Soal/JLPT/Laporan/dll
+   ikut ramah HP tanpa mengubah template tiap tab. Baris kolom pertama dijadikan judul kartu. */
+function kartuMobile(root){
+  if (!root) return;
+  root.querySelectorAll("table").forEach(t => {
+    if (t.dataset.cm) return;
+    const ths = [...t.querySelectorAll("thead th")].map(h => h.textContent.trim());
+    if (!ths.length || ths.length > 14) return;
+    t.dataset.cm = "1"; t.classList.add("cards-m");
+    t.querySelectorAll("tbody tr").forEach(tr => {
+      const cells = [...tr.children].filter(c => c.tagName === "TD");
+      cells.forEach((td, i) => {
+        if (td.colSpan > 1) return;
+        if (!td.hasAttribute("data-label") && ths[i]) td.setAttribute("data-label", ths[i]);
+        if (i === 0 && !td.classList.contains("nama")) td.classList.add("nama");
+        if (i === cells.length - 1 && cells.length > 2 && td.querySelector("button, a") && !td.classList.contains("aksi")) td.classList.add("aksi");
+      });
+    });
+  });
+}
+(function(){
+  let tmr = null;
+  const jalan = () => { clearTimeout(tmr); tmr = setTimeout(() => { kartuMobile(document.getElementById("main")); kartuMobile(document.getElementById("modal-body")); }, 60); };
+  new MutationObserver(jalan).observe(document.body, { childList: true, subtree: true });
+})();
+
 /* ========== TAB: SISWA ========== */
 async function renderSiswaTab(){
   try {

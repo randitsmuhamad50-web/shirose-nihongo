@@ -263,6 +263,23 @@ function summaryHTML(s) {
     box("Poin yang harus diingat", "pt", s.points) + box("Kesalahan yang harus dihindari", "av", s.avoid) + box("Berpotensi keluar di ujian", "ex", s.exam);
 }
 function flatSubs(b, pack) { const out = []; for (const c of visibleChapters(b, pack)) for (const s of c.subs) out.push({ c, s }); return out; }
+// Tombol ganti bahasa melayang (muncul saat halaman di-scroll turun) di halaman baca materi.
+window.__swLangFloat = (slug, subId, mode, lang) => {
+  document.getElementById("sw-langfloat")?.remove();
+  if (window.__swLfOff) { window.__swLfOff(); window.__swLfOff = null; }
+  const el = document.createElement("div");
+  el.id = "sw-langfloat"; el.className = "sw-seg sm"; el.setAttribute("aria-label", "Ganti bahasa materi");
+  const mk = (l, t) => `<button type="button" class="${lang === l ? "on" : ""}" onclick="route('ssw-baca/${slug}/${subId}/${mode}/${l}')">${t}</button>`;
+  el.innerHTML = mk("jp", "日本語") + mk("id", "ID");
+  document.body.append(el);
+  const upd = () => {
+    if (!document.querySelector(".sw-lesson")) { el.remove(); window.removeEventListener("scroll", upd); return; }
+    el.classList.toggle("show", window.scrollY > 200);
+  };
+  window.addEventListener("scroll", upd, { passive: true });
+  window.__swLfOff = () => window.removeEventListener("scroll", upd);
+  upd();
+};
 async function renderBaca([slug, subId, mode, lang]) {
   const g = await gate(slug); if (g.err) return g.err;
   const { b, pack, P } = g;
@@ -283,6 +300,7 @@ async function renderBaca([slug, subId, mode, lang]) {
   window.__swFig = { slug, subId: s.id, lang, pick: fg.pick, n: 0, title: plain(L(s.title, lang)) };
   const body = mode === "lengkap" ? blocksHTML(fgBlocks, fg.map) : summaryHTML(s.summary?.[lang] || s.summary?.id);
   setTimeout(() => window.SSW.linkVocab(slug), 0);
+  setTimeout(() => window.__swLangFloat && window.__swLangFloat(slug, subId, mode, lang), 0);
   return wrap(`
     ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: `BAB ${c.no}`, go: `route('ssw-bab/${slug}/${c.id}')` }, { t: `${s.no}` }])}
     <div class="sw-rtool ${LSget("shirose-ssw-tb", "1") === "0" ? "min" : ""}">

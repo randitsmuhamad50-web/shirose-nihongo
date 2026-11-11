@@ -1362,7 +1362,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261112d"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261112f"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261112g"/>
 </head>
 <body>
 
@@ -1420,7 +1420,7 @@ import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTer
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261112d";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261112f";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261112g";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -2111,7 +2111,29 @@ const _parentOf = (path) => {
   if (n.startsWith("kana-")) return "kana";
   return null;
 };
+// Tutup popup/overlay paling atas (kalau ada). true = ada yang ditutup → jangan pindah halaman.
+window.closeTopOverlay = () => {
+  const cand = [];
+  const add = (sel, close) => document.querySelectorAll(sel).forEach(el => {
+    const cs = getComputedStyle(el);
+    if (cs.display === "none" || cs.visibility === "hidden") return;
+    cand.push({ el, z: parseInt(cs.zIndex, 10) || 0, close });
+  });
+  add("#sw-figlb", el => { const x = el.querySelector(".x"); x ? x.click() : el.remove(); });
+  add("#sw-lb", el => { const x = el.querySelector('[data-a="x"]'); x ? x.click() : el.remove(); });
+  add("#sw-vs:not([hidden])", () => window.SSW && window.SSW.vclose());
+  add("#jx-kw", () => window.JLPT && window.JLPT.kwClose());
+  add(".jx-modal", el => { const n = el.querySelector("[data-no]"); n ? n.click() : el.remove(); });
+  add("#kc-modal", el => el.click());
+  add(".modal-backdrop.open", el => { el.click(); if (document.body.contains(el) && el.classList.contains("open")) el.classList.remove("open"); });
+  add("#sw-prefs:not([hidden])", el => { el.hidden = true; });
+  if (!cand.length) return false;
+  cand.sort((a, b) => b.z - a.z);
+  try { cand[0].close(cand[0].el); } catch (e) { try { cand[0].el.remove(); } catch (_) {} }
+  return true;
+};
 window.goBack = () => {
+  if (window.closeTopOverlay()) return;   // popup terbuka: tutup popup-nya saja, halaman di belakang tetap
   if (window._materiDetail && (location.hash.slice(1) || "") === window._materiDetail.back){ window.backFromDetail(); return; }
   const here = location.hash.slice(1) || "home";
   const cur = here.split("/")[0];
@@ -2136,7 +2158,16 @@ window.goBack = () => {
   }
   route("home");
 };
-window.goHomeFab = () => { const sub = _subjectOf(location.hash.slice(1) || "home"); route(sub === "ssw" ? "ssw" : sub === "kana" ? "kana" : "home"); };
+// Home: JLPT → halaman karakter, SSW → pulau awal (hub), Kana → awal kana.
+// Kalau sudah di halaman awal itu, tekan lagi → kembali ke pilih level.
+window.goHomeFab = () => {
+  for (let i = 0; i < 6 && window.closeTopOverlay(); i++) {}
+  const here = location.hash.slice(1) || "home";
+  const cur = here.split("/")[0];
+  const sub = _subjectOf(here);
+  const awal = sub === "ssw" ? "ssw" : sub === "kana" ? "kana" : "home";
+  route(cur === awal ? "pilih-level" : awal);
+};
 
 function _updateFabNav(name){
   const fab = document.getElementById("fab-nav");
@@ -2150,6 +2181,8 @@ function _updateFabNav(name){
   const isAuth = name === "login" || name === "masuk" || name === "daftar";
   document.body.classList.toggle("auth-mode", isAuth);
   if (isAuth) fab.classList.add("hidden");
+  const tb = document.querySelector(".topbar");
+  if (tb) document.documentElement.style.setProperty("--tb-h", tb.offsetHeight + "px");
 }
 
 function _renderRoute(name, rest){
