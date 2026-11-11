@@ -1,0 +1,453 @@
+{
+ "schema": 1,
+ "bidang": "food-manufacturing",
+ "source": "飲食料品製造業技能測定試験 学習用テキスト 第4版 (2024年2月) — 一般社団法人 外国人食品産業技能評価機構 (OTAFF), bahasa Jepang; indeks kosakata hal. 66–75 (cetak)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Kebersihan Pangan",
+   "jp": "{食品衛生|しょくひんえいせい}"
+  },
+  "intro": {
+   "id": "Bab 2 modul: bahaya fisik, kimia, dan biologis; higiene umum (5S, zona, pekerja, bahan baku); serta pengelolaan higiene dengan HACCP.",
+   "jp": "{食品衛生|しょくひんえいせい}"
+  },
+  "pages": [
+   9,
+   46
+  ],
+  "subs": [
+   {
+    "id": "m2s1",
+    "no": 1,
+    "title": {
+     "id": "Kebersihan Pangan, Bahaya Fisik dan Kimia",
+     "jp": "{危害要因|きがいよういん}：{物理的|ぶつりてき}・{化学的|かがくてき}"
+    },
+    "pages": [
+     9,
+     15
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Higiene umum dan HACCP"
+      },
+      {
+       "ul": [
+        "**Higiene umum (一般衛生管理)**: dasar yang sama di semua pabrik: cuci tangan, pakaian dan sarung tangan, alat bersih, suhu simpan. Empat butir: 5S, fasilitas/alat, pekerja, bahan baku/pangan.",
+        "**Titik kendali kritis (重要管理点, CCP)** + higiene umum = **HACCP**. HACCP = Hazard Analysis and Critical Control Point (危害要因分析重要管理点).",
+        "**Hazard (危害要因)** = penyebab orang sakit atau terluka."
+       ]
+      },
+      {
+       "h": "Bahaya fisik"
+      },
+      {
+       "ul": [
+        "Contoh: logam, kaca, plastik, batu — **benda asing keras (硬質異物)**. Bisa membuat gigi patah atau melukai mulut.",
+        "Serangga, rambut, kertas = benda asing tidak keras; bukan bahaya fisik, tetapi menimbulkan keluhan dan retur.",
+        "Bila menemukan benda asing: **hentikan kerja dan lapor penanggung jawab**."
+       ]
+      },
+      {
+       "h": "Bahaya kimia"
+      },
+      {
+       "ul": [
+        "**Zat alergen**: gejala gatal, biduran, bengkak bibir/kelopak mata, sesak napas, mual; bisa fatal. Label wajib **8 bahan (特定原材料)**: udang, kepiting, kenari, gandum, soba, telur, susu, kacang tanah. 20 bahan lain dianjurkan diberi label.",
+        "Alat yang dipakai untuk bahan beralergen **wajib dicuci** sebelum dipakai bahan lain; talenan dan pisau dipisah per bahan (contoh telur rebus).",
+        "**Histamin**: pada ikan merah (tuna, ajji, sarden, makarel) yang disimpan buruk → keracunan histamin. Bahan ikan segera didinginkan/dibekukan.",
+        "**Solanin**: tunas dan kulit hijau kentang → mual, muntah, diare. Buang tunas dan kulit hijau.",
+        "Deterjen/disinfektan juga bahaya kimia: bilas hingga tidak tersisa."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bahaya terbagi fisik, kimia, biologis; benda asing dan alergen harus dicegah masuk makanan.",
+      "points": [
+       "Alergen wajib label: udang, kepiting, kenari, gandum, soba, telur, susu, kacang tanah.",
+       "Benda asing → hentikan dan lapor.",
+       "Ikan merah → histamin; kentang bertunas → solanin."
+      ],
+      "avoid": [
+       "Memakai alat bekas bahan alergen tanpa mencuci."
+      ],
+      "exam": [
+       "Daftar 8 alergen.",
+       "Contoh bahaya kimia."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m2s2",
+    "no": 2,
+    "title": {
+     "id": "Bahaya Biologis: Bakteri, Virus, Jamur, Parasit",
+     "jp": "{生物的危害要因|せいぶつてききがいよういん}"
+    },
+    "pages": [
+     15,
+     19
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bakteri penyebab keracunan makanan"
+      },
+      {
+       "ul": [
+        "**Campylobacter** (daging ayam), **Salmonella** (telur ayam, daging ayam), **Vibrio parahaemolyticus** (hasil laut), **E. coli O157** (daging sapi, sayur, air sumur), **Staphylococcus aureus** (kulit dan luka manusia; onigiri, sandwich; toksin tahan panas), **Bacillus cereus** (nasi goreng, olahan biji-bijian), **Clostridium perfringens** (kari, semur), **botulinum** (makanan dalam botol/retort).",
+        "**Spora (芽胞)**: bentuk bertahan bakteri tertentu (cereus, perfringens, botulinum) yang tahan panas dan kering."
+       ]
+      },
+      {
+       "h": "Tiga prinsip pencegahan keracunan makanan"
+      },
+      {
+       "ul": [
+        "**Jangan menempelkan (つけない)**: cuci tangan, cuci dan sterilkan mesin/alat.",
+        "**Jangan memperbanyak (増やさない)**: bakteri butuh suhu, air, nutrisi. Tumbuh 20–50°C, paling cepat **30–40°C**; lambat ≤10°C; hampir berhenti ≤4°C; berhenti ≤ −15°C. Simpan dingin.",
+        "**Bunuh (やっつける)**: panaskan ≥75°C selama ≥1 menit untuk bakteri umum; spora butuh syarat lebih ketat. Setelah masak, **segera dinginkan**."
+       ]
+      },
+      {
+       "h": "Norovirus"
+      },
+      {
+       "ul": [
+        "Menular lewat kerang dua cangkang dan tinja/muntahan; **tidak berkembang di makanan**, berkembang di usus manusia.",
+        "Dibunuh dengan pemanasan **suhu tengah 85–90°C ≥90 detik**; **tidak mati oleh alkohol** — pakai **natrium hipoklorit 200 ppm**.",
+        "Empat prinsip: **jangan membawa masuk**, **jangan menempelkan**, **bunuh**, **jangan menyebarkan**."
+       ]
+      },
+      {
+       "h": "Jamur dan parasit"
+      },
+      {
+       "ul": [
+        "Spora jamur ada di mana-mana; makanan berjamur **tidak dipakai**.",
+        "**Anisakis** pada ikan (makarel, sarden, salmon, ajji, cumi): nyeri perut hebat bila dimakan mentah. Mati pada ≥70°C (60°C 1 menit) atau beku **−20°C ≥24 jam**."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cegah keracunan dengan menjaga bakteri dan virus tidak menempel, tidak berkembang, dan mati.",
+      "points": [
+       "Bakteri paling cepat tumbuh 30–40°C.",
+       "Norovirus: 85–90°C ≥90 detik; alkohol tidak efektif.",
+       "Anisakis: beku −20°C ≥24 jam."
+      ],
+      "avoid": [
+       "Mengandalkan alkohol untuk norovirus."
+      ],
+      "exam": [
+       "Tiga prinsip.",
+       "Suhu dan waktu pemanasan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m2s3",
+    "no": 3,
+    "title": {
+     "id": "5S, Zona Kerja, dan Pengelolaan Fasilitas",
+     "jp": "５Ｓ・{施設|しせつ}・{設備|せつび}の{管理|かんり}"
+    },
+    "pages": [
+     19,
+     23
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "5S"
+      },
+      {
+       "ul": [
+        "**整理 (Seiri)** buang yang tidak dipakai; **整頓 (Seiton)** tata agar mudah diambil; **清掃 (Seisou)** bersihkan; **清潔 (Seiketsu)** tetap bersih dan aman pangan; **習慣付け/しつけ (Shitsuke)** biasakan aturan.",
+        "5S bermanfaat untuk kebersihan pangan **dan** keselamatan kerja."
+       ]
+      },
+      {
+       "h": "Kontaminasi silang dan zona"
+      },
+      {
+       "ul": [
+        "**Kontaminasi silang (交差汚染)**: orang/benda bersih tersentuh yang tidak bersih.",
+        "**Zona (区分衛生管理)**: **area bersih** (setelah sterilisasi: topping, penataan, pengemasan), **area semi-bersih** (bahan baku sebelum sterilisasi: penanganan awal, memasak), **area terkontaminasi** (penerimaan bahan, produk dalam karton).",
+        "Pekerja area kotor tidak masuk area bersih; bahan baku tidak dibawa dalam karton/kontainer ke area bersih; sampah dikeluarkan lewat rute yang ditentukan."
+       ]
+      },
+      {
+       "h": "Pembersihan dan bahan kimia"
+      },
+      {
+       "ul": [
+        "Bersihkan rutin; selokan dan bawah mesin mudah jadi sarang serangga; **lantai jangan dibiarkan basah**.",
+        "Mixer, slicer, food cutter dicuci tiap ganti bahan baku dan setelah selesai; bagian yang menyentuh pangan **disinfeksi**.",
+        "Alat dikeringkan sebelum disimpan; kain pel, spons, dll. jangan dibiarkan kotor/basah.",
+        "**Bahan kimia**: simpan di tempat khusus (bukan satu gudang dengan bahan baku), beri label nama; ada yang tak berlabel → lapor."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "5S dan pembagian zona mencegah kontaminasi silang.",
+      "points": [
+       "Tiga zona: bersih, semi-bersih, terkontaminasi.",
+       "Lantai tidak dibiarkan basah.",
+       "Bahan kimia terpisah dan berlabel."
+      ],
+      "avoid": [
+       "Membawa bahan baku dalam karton ke area bersih."
+      ],
+      "exam": [
+       "Arti 5S.",
+       "Zona dan contoh pekerjaannya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m2s4",
+    "no": 4,
+    "title": {
+     "id": "Kebersihan Pekerja",
+     "jp": "{作業者|さぎょうしゃ}の{衛生管理|えいせいかんり}"
+    },
+    "pages": [
+     23,
+     32
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cek kesehatan dan pakaian kerja"
+      },
+      {
+       "ul": [
+        "**Cek kesehatan (健康チェック)** sebelum kerja: diare, demam, mual, luka di tangan. Bila ada → **lapor penanggung jawab**; bila muncul saat kerja → hentikan kerja dan lapor. Ikuti pemeriksaan kesehatan berkala dan tes tinja.",
+        "Pakaian kerja dipakai di **ruang ganti**; ukuran pas, bersih; kuku pendek, **tanpa kuku palsu/cat kuku**, tanpa cincin, jam tangan, aksesori, jepit rambut, bulu mata palsu.",
+        "Urutan: sikat rambut → hairnet → topi → pakaian kerja (kancing/ritsleting rapat) → periksa di cermin.",
+        "Jangan membuka topi/masker atau menggulung lengan meski panas. Bersihkan debu dengan roller lengket atau air shower sebelum masuk.",
+        "Dilarang keluar area kerja memakai pakaian/topi/sepatu kerja; di toilet ganti alas kaki."
+       ]
+      },
+      {
+       "h": "Cuci tangan"
+      },
+      {
+       "ul": [
+        "Kapan: sebelum masuk area kerja, tepat sebelum mulai kerja, setelah ke toilet, setelah menyentuh daging/ikan/telur mentah, sebelum menyentuh pangan langsung, saat pindah dari area terkontaminasi.",
+        "Cara: ① air mengalir, ② sabun (tangan, jari, pergelangan, sela jari, kuku) **±30 detik**, ③ bilas **±20 detik**, ④ keringkan dengan **kertas sekali pakai/air towel**, ⑤ semprot alkohol dan gosok."
+       ]
+      },
+      {
+       "h": "Sarung tangan, celemek, dan aturan"
+      },
+      {
+       "ul": [
+        "Cuci tangan sebelum memakai sarung tangan. **Ganti** bila ganti bahan baku (daging/ikan → sayur), setelah menyentuh karton/kontainer, setelah toilet/istirahat, saat menyentuh bahan yang sudah steril, bila robek, atau ganti jenis penataan.",
+        "Dilarang makan/minum/merokok, meludah, bersin/batuk dekat pangan di area kerja; jangan menyentuh rambut/wajah lalu bekerja; jangan lap tangan ke pakaian kerja.",
+        "Jangan membawa barang pribadi (jam, ponsel, rokok), dokumen berstaples/klip, pensil; **parfum** dilarang karena menutupi bau pangan rusak."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pekerja tidak boleh membawa kotoran, mikroba, atau benda asing ke area kerja.",
+      "points": [
+       "Cuci tangan sabun ±30 detik, bilas ±20 detik.",
+       "Lapor bila diare, demam, mual, atau luka.",
+       "Ganti sarung tangan saat ganti bahan baku."
+      ],
+      "avoid": [
+       "Memakai aksesori atau kuku palsu di area kerja."
+      ],
+      "exam": [
+       "Urutan cuci tangan.",
+       "Kapan mengganti sarung tangan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m2s5",
+    "no": 5,
+    "title": {
+     "id": "Kebersihan Bahan Baku dan Proses Produksi",
+     "jp": "{原材料|げんざいりょう}・{製造工程|せいぞうこうてい}の{衛生管理|えいせいかんり}"
+    },
+    "pages": [
+     32,
+     42
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Penerimaan dan penyimpanan"
+      },
+      {
+       "ul": [
+        "**Pemeriksaan penerimaan**: cocokkan dokumen pesanan, tampilan, bau, ukuran, kemasan, tanggal, cara simpan, suhu barang. **Tolak** bila busuk, kemasan rusak, lewat tanggal, atau penyimpanan salah.",
+        "Suhu simpan: beras ≤15°C; daging/produk daging ≤10°C; daging beku ≤ −15°C; ikan segar ≤5°C; hasil laut beku/makanan beku ≤ −18°C; telur utuh ≤10°C; telur cair ≤8°C; telur beku ≤ −18°C; sayur/buah segar sekitar 10°C; susu ≤10°C; mentega/keju ≤15°C.",
+        "Undang-undang: **freezer ≤ −15°C, kulkas ≤10°C**. Catat suhu tiap hari. Jangan menjejalkan kulkas penuh; jangan biarkan pintu terbuka."
+       ]
+      },
+      {
+       "h": "Batas waktu"
+      },
+      {
+       "ul": [
+        "**使用期限**: batas pemakaian ditentukan pabrik pemakai. **賞味期限**: tanggal terbaik rasa (boleh dimakan tetapi pabrik umumnya tak memakai). **消費期限**: batas aman; setelah lewat **tidak boleh dipakai**.",
+        "**先入れ先出し (FIFO)**: yang masuk lebih dulu dipakai lebih dulu."
+       ]
+      },
+      {
+       "h": "Pembukaan kemasan dan penanganan awal"
+      },
+      {
+       "ul": [
+        "Buka kemasan agar potongan tidak jatuh ke produk: jangan memotong tempat sama dua kali, cocokkan potongan, hitung jumlah kemasan = jumlah potongan.",
+        "Pencairan: suhu ruang, kulkas, atau **air mengalir**; taruh di nampan agar **drip** tidak mengenai bahan lain; cek kantong tidak bocor.",
+        "Cuci bahan; sayur tanpa pemanasan disterilkan dengan bahan kimia. Buang bagian tak terpakai (akar, tunas, kulit, sisik); detektor sinar-X dapat memeriksa tulang daging."
+       ]
+      },
+      {
+       "h": "Pemanasan, pendinginan, bahan kimia"
+      },
+      {
+       "ul": [
+        "**Pemanasan sterilisasi (加熱殺菌)** dikelola dengan **suhu tengah**: spora 120°C ≥4 menit; norovirus 85–90°C ≥90 detik; bakteri umum 75°C ≥1 menit.",
+        "**Pendinginan** segera: **30 menit sampai 20°C** atau **60 menit sampai 10°C** (udara 風冷 atau air 水冷).",
+        "**Sterilisasi bahan kimia**: natrium hipoklorit **200 ppm 5 menit** atau **100 ppm 10 menit**.",
+        "**Pembekuan** cepat agar tekstur baik."
+       ]
+      },
+      {
+       "h": "Pengisian, inspeksi, pengiriman"
+      },
+      {
+       "ul": [
+        "Wadah dan kemasan bersih; jangan menyentuh mulut botol/tutup/sisi dalam kantong. Cetak tanggal dengan benar dan **cek oleh orang kedua**.",
+        "**Detektor logam**: cek dengan **test piece** sebelum dan sesudah produksi; bila tak berfungsi lapor. **Detektor sinar-X** menemukan batu, kaca (plastik sulit).",
+        "**Uji mikroorganisme**: jumlah bakteri umum, E. coli, koliform (kadang Staphylococcus, Salmonella, Campylobacter).",
+        "Simpan **sampel produk**; pengiriman FIFO pada suhu yang ditetapkan."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kendalikan bahan baku dari penerimaan hingga pengiriman: suhu, tanggal, pemanasan, pendinginan.",
+      "points": [
+       "Suhu tengah: 75°C/1 menit, 85–90°C/90 detik, 120°C/4 menit.",
+       "Dinginkan: 20°C dalam 30 menit atau 10°C dalam 60 menit.",
+       "NaClO 200 ppm 5 menit atau 100 ppm 10 menit."
+      ],
+      "avoid": [
+       "Memakai bahan lewat 消費期限."
+      ],
+      "exam": [
+       "Suhu simpan.",
+       "Perbedaan 賞味期限 dan 消費期限."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m2s6",
+    "no": 6,
+    "title": {
+     "id": "Pengelolaan Higiene dengan HACCP",
+     "jp": "ＨＡＣＣＰ"
+    },
+    "pages": [
+     42,
+     46
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Gagasan HACCP"
+      },
+      {
+       "p": "Untuk pangan yang tidak cukup dengan higiene umum, dibuat sistem khusus: ① analisis hazard, ② tentukan **CCP** dan standar pengendaliannya, ③ **pantau (monitoring)**; bila gagal, produk tidak dikirim."
+      },
+      {
+       "h": "7 prinsip HACCP"
+      },
+      {
+       "ol": [
+        "Analisis hazard",
+        "Penentuan CCP",
+        "Penetapan standar pengendalian (管理基準)",
+        "Penetapan cara pemantauan",
+        "Penetapan tindakan perbaikan (改善措置)",
+        "Penetapan cara verifikasi",
+        "Pencatatan (記録)"
+       ]
+      },
+      {
+       "h": "CCP, penyimpangan, perbaikan, catatan"
+      },
+      {
+       "ul": [
+        "CCP khas: ① sterilisasi pemanasan, ② pendinginan setelah pemanasan, ③ sterilisasi bahan kimia, ④ detektor logam, ⑤ detektor sinar-X.",
+        "**Penyimpangan (逸脱)**: mis. ditetapkan 75°C 1 menit tetapi hanya 70°C; atau 100 ppm 10 menit tetapi hanya 5 menit. Segera **lapor** dan ikuti perintah penanggung jawab.",
+        "**Tindakan perbaikan**: mencegah terulang + menentukan nasib produk (buang/buat ulang). Contoh: kecepatan konveyor diperlambat dan produk kurang panas dibuang.",
+        "**Catatan**: tentukan kapan, siapa, bagaimana. Catat **saat mengukur/memeriksa**; jangan dicatat belakangan, jangan dicatat sebelum mengukur, jangan mencatat yang tidak benar, jangan mengubah sendiri."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "HACCP menambah pengendalian CCP di atas higiene umum, dengan standar, pemantauan, perbaikan, dan catatan.",
+      "points": [
+       "HACCP punya 7 prinsip.",
+       "Lima CCP khas.",
+       "Catatan harus jujur dan seketika."
+      ],
+      "avoid": [
+       "Mencatat sebelum mengukur."
+      ],
+      "exam": [
+       "Urutan 7 prinsip.",
+       "Contoh penyimpangan."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

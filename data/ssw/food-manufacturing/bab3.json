@@ -1,0 +1,365 @@
+{
+ "schema": 1,
+ "bidang": "food-manufacturing",
+ "source": "飲食料品製造業技能測定試験 学習用テキスト 第4版 (2024年2月) — 一般社団法人 外国人食品産業技能評価機構 (OTAFF), bahasa Jepang; indeks kosakata hal. 66–75 (cetak)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Keselamatan Kerja",
+   "jp": "{労働安全|ろうどうあんぜん}"
+  },
+  "intro": {
+   "id": "Bab 3 modul: kecepatan kecelakaan di pabrik pangan, hal yang harus dipatuhi, pakaian dan APD, mesin, kondisi abnormal, mengenali bahaya, contoh kasus, dan tanda keselamatan.",
+   "jp": "{労働安全|ろうどうあんぜん}"
+  },
+  "pages": [
+   47,
+   70
+  ],
+  "subs": [
+   {
+    "id": "m3s1",
+    "no": 1,
+    "title": {
+     "id": "Kecelakaan Kerja di Industri Pangan",
+     "jp": "{労働災害|ろうどうさいがい}"
+    },
+    "pages": [
+     47,
+     50
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Pekerja **kurang berpengalaman (<3 tahun)** paling banyak menjadi korban di industri pangan — sekitar **separuh** kecelakaan.",
+        "Tiga jenis terbanyak: ① **tergelincir/jatuh (転倒)**, ② **terjepit/terlilit**, ③ **teriris/tergesek**; total ±60%.",
+        "**転倒**: lantai licin, tersandung, membawa barang. **はさまれ・巻き込まれ**: tangan masuk mesin, membersihkan gigi konveyor — bisa fatal. **切れ・こすれ**: pisau/cutter. **落ちる**: tangga/tangga lipat. **やけど**: oven, air panas. **腰痛**: mengangkat berat. **熱中症**: kerja lama di suhu/kelembapan tinggi. **激突**: tabrakan dengan forklift."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pemula paling rawan kecelakaan; tiga jenis terbanyak: jatuh, terjepit, teriris.",
+      "points": [
+       "Pekerja <3 tahun = separuh korban.",
+       "Delapan jenis kecelakaan utama.",
+       "Ikuti penanggung jawab dan aturan."
+      ],
+      "avoid": [
+       "Menganggap remeh bahaya karena sudah terbiasa."
+      ],
+      "exam": [
+       "Tiga jenis kecelakaan terbanyak."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s2",
+    "no": 2,
+    "title": {
+     "id": "5S, Pakaian, dan Alat Pelindung Diri",
+     "jp": "５Ｓ・{服装|ふくそう}・{保護具|ほごぐ}"
+    },
+    "pages": [
+     50,
+     52
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**5S** mencegah kecelakaan: rapi (jatuh berkurang), mesin bersih (kerusakan/terlilit berkurang), kebiasaan baik.",
+        "Pakaian kerja pas dan mudah bergerak; lengan panjang kancing ujung, jangan digulung.",
+        "**APD**: **helm** (kerja ≥2 m = 高所作業), **kacamata** (bahan kimia, serbuk, cuci tekanan tinggi), **sarung tangan karet** (panas/bahan kimia; jangan dimasukkan ke cairan panas), **sumbat telinga** (bising), **mitten** dan **celemek tahan panas**, **sarung tangan Mexel/rantai** (tahan sayatan; pisau, daging, labu), **sepatu pengaman** (ujung/tumit baja), **sepatu bot bertutup** (anti licin dan air panas)."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pakai pakaian dan APD sesuai perintah, dan benar.",
+      "points": [
+       "Helm untuk kerja tinggi ≥2 m.",
+       "Sarung tangan tahan sayatan untuk pisau.",
+       "Sepatu pengaman cegah luka tertimpa."
+      ],
+      "avoid": [
+       "Memasukkan sarung tangan karet ke cairan panas."
+      ],
+      "exam": [
+       "Fungsi tiap APD."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s3",
+    "no": 3,
+    "title": {
+     "id": "Patuhi SOP, Aturan, dan Tanda Keselamatan",
+     "jp": "{作業手順書|さぎょうてじゅんしょ}とルール"
+    },
+    "pages": [
+     53,
+     54
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Patuhi **SOP**; aturan area: jangan berlari, jalan di jalur yang ditentukan, kontak mata dengan pengemudi **forklift**, jangan menerobos bawah konveyor, jangan berlari di tangga.",
+        "Aturan kerja: ikuti urutan, **指差呼称** (menunjuk dan menyebut) sebelum menyalakan, komunikasi saat kerja bersama, tidak lengah, alat di tempatnya, **laporkan bahaya**, tegur orang yang bekerja berbahaya, pamit sebelum meninggalkan tempat.",
+        "**Tanda keselamatan (安全標識)** harus dipahami."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "SOP dan aturan kerja menjaga keselamatan; menunjuk-dan-menyebut membantu memastikan.",
+      "points": [
+       "Jangan berlari di area kerja.",
+       "Tunjuk dan sebut sebelum kerja.",
+       "Lapor bila melihat bahaya."
+      ],
+      "avoid": [
+       "Berjalan di jalur forklift tanpa kontak mata."
+      ],
+      "exam": [
+       "Arti 指差呼称."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s4",
+    "no": 4,
+    "title": {
+     "id": "Memakai Mesin dengan Benar",
+     "jp": "{機械|きかい}を{正|ただ}しく{使|つか}う"
+    },
+    "pages": [
+     54,
+     57
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Kecelakaan besar banyak terjadi saat memakai mesin; bekerja teliti dan tenang. Berdua → saling memberi aba-aba; jika kurang orang jangan bekerja sendirian.",
+        "**Pemeriksaan sebelum mulai (始業前点検)**: kotoran/benda terselip, bau, suara dan getaran tak biasa, mata pisau, komponen hilang/baut kendor, alat pengaman, lampu.",
+        "**Kondisi abnormal**: jangan memasukkan tangan ke mesin yang tersambung listrik (benda tersangkut tampak berhenti tetapi bisa berputar); tekan **tombol berhenti darurat (非常停止ボタン)** — hal terpenting: **hentikan mesin dulu**.",
+        "**Fail-safe (フェールセーフ)**: mesin berhenti otomatis saat pintu dibuka/rusak. **Foolproof (フールプルーフ)**: penutup pengaman mencegah tangan masuk karena lalai.",
+        "Memperbaiki konveyor: **matikan listrik**; pasang papan 'sedang diperbaiki'; kunci saklar. Rencanakan **inspeksi dan perawatan** walau sibuk; periksa alat pengaman."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hentikan mesin sebelum menangani masalah; pakai fail-safe dan foolproof.",
+      "points": [
+       "始業前点検 setiap hari.",
+       "Kunci saklar saat perbaikan.",
+       "Tombol darurat menghentikan mesin dulu."
+      ],
+      "avoid": [
+       "Memasukkan tangan ke mesin yang hidup."
+      ],
+      "exam": [
+       "Beda fail-safe dan foolproof."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s5",
+    "no": 5,
+    "title": {
+     "id": "Bahan Kimia, Kondisi Abnormal, dan Kecelakaan",
+     "jp": "{薬剤|やくざい}・{異常事態|いじょうじたい}"
+    },
+    "pages": [
+     57,
+     58
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Saat memakai deterjen/bahan kimia: pakai kacamata, sarung tangan, celemek; APD di tempat mudah diraih. **Detergen klorin + asam** tidak boleh dicampur (gas klorin beracun). Alkohol disinfektan jauh dari oven/fryer (kebakaran).",
+        "**Kondisi abnormal**: ① pastikan apa yang terjadi dan **beri tahu sekitar dengan suara keras**; ② bila bisa, **tekan tombol darurat**; ③ ikuti perintah penanggung jawab, jangan bertindak sendiri.",
+        "**Ada korban**: jangan mendekat tergesa — penolong bisa ikut celaka (**二次災害**); lakukan langkah ①–③. Latihan evakuasi dan tombol darurat dilakukan rutin."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hindari mencampur bahan kimia; saat kecelakaan jangan mendekat tergesa.",
+      "points": [
+       "Klorin + asam = gas beracun.",
+       "Beri tahu sekitar, hentikan mesin, ikuti perintah.",
+       "Penolong bisa jadi korban kedua."
+      ],
+      "avoid": [
+       "Mencampur deterjen klorin dengan asam."
+      ],
+      "exam": [
+       "Arti 二次災害."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s6",
+    "no": 6,
+    "title": {
+     "id": "Melatih Kepekaan terhadap Bahaya",
+     "jp": "{危険|きけん}に{気|き}づく{力|ちから}"
+    },
+    "pages": [
+     58,
+     61
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Pelajari **kasus kecelakaan** di dalam dan di luar perusahaan.",
+        "**ヒヤリ・ハット**: nyaris celaka. **Hukum Heinrich (ハインリッヒの法則)**: 1 kecelakaan berat : 29 ringan : **300 nyaris celaka**. Laporkan sebanyak mungkin, sekecil apa pun; dicatat dan dibagi untuk perbaikan.",
+        "**KYT (危険予知訓練)**: melatih menemukan bahaya tersembunyi sebelum terjadi, dan cara mencegahnya. Contoh: air panas masuk sepatu bot, forklift muncul, tumpukan barang jatuh, lantai licin (es di depan freezer, minyak di dapur), api kompor mati dan gas menyebar."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Laporkan nyaris celaka dan latih memprediksi bahaya.",
+      "points": [
+       "Heinrich 1:29:300.",
+       "Laporkan semua nyaris celaka.",
+       "KYT = prediksi bahaya."
+      ],
+      "avoid": [
+       "Merasa laporan kecil tidak penting."
+      ],
+      "exam": [
+       "Angka hukum Heinrich."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s7",
+    "no": 7,
+    "title": {
+     "id": "Contoh Kasus dan Pencegahan",
+     "jp": "{事例|じれい}と{予防|よぼう}"
+    },
+    "pages": [
+     61,
+     67
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Jatuh**: lantai basah (lap sampai kering); kotak kosong di jalur dan membawa tumpukan kotak (jangan simpan barang di jalur, cek jalur, bawa jumlah yang masih terlihat jalan).",
+        "**Terjepit/terlilit**: membuka penutup tanpa menekan tombol berhenti; membersihkan konveyor yang hidup → hentikan dan pastikan berhenti total.",
+        "**Teriris**: memakai tangan menekan roti di slicer → pakai **papan pendorong**; memotong ikan beku tanpa **sarung tangan tahan sayatan**.",
+        "**Jatuh dari tinggi**: tangga lipat tanpa pengunci pembuka → pasang pengunci, satu tangan bebas, dua orang bila barang besar.",
+        "**Luka bakar**: pelat oven → pakai sarung tangan pelindung, cek suhu dulu.",
+        "**Nyeri pinggang**: dekatkan tubuh, tekuk lutut, bangun pelan; pakai troli.",
+        "**Sengatan panas**: istirahat, air dan garam, pakaian menyerap keringat. Gejala: lapor, pindah ke tempat sejuk, istirahat, longgarkan pakaian dan dinginkan leher/ketiak/pangkal paha, minum air garam/sports drink.",
+        "**Tabrakan**: forklift **berhenti sejenak** di pintu gudang dan **tunjuk-sebut**."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Setiap contoh kasus memberi pelajaran: sebab dan tindakan pencegahan.",
+      "points": [
+       "Tekan tombol berhenti dan pastikan mesin berhenti.",
+       "Pakai sarung tangan tahan sayatan dan pelindung panas.",
+       "Forklift berhenti sejenak di pintu."
+      ],
+      "avoid": [
+       "Membersihkan konveyor yang masih hidup."
+      ],
+      "exam": [
+       "Penanganan sengatan panas."
+      ]
+     }
+    }
+   },
+   {
+    "id": "m3s8",
+    "no": 8,
+    "title": {
+     "id": "Tanda Keselamatan",
+     "jp": "{安全標識|あんぜんひょうしき}"
+    },
+    "pages": [
+     68,
+     70
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Contoh tanda yang dipakai di tempat kerja: larangan masuk, larangan berlari, larangan membiarkan pintu terbuka, larangan menyentuh dengan tangan, peringatan bahaya jatuh/terpeleset, bahaya terpotong, bahaya terlilit mesin, bahaya sengatan listrik, wajib helm, **wajib kacamata**, **petunjuk pintu darurat**, **lokasi alat pemadam**.",
+        "Lihat gambar tanda pada halaman buku."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan modul bahasa Jepang (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali arti tanda keselamatan di tempat kerja.",
+      "points": [
+       "Tanda larangan, peringatan, kewajiban, dan petunjuk.",
+       "Hafalkan lokasi pintu darurat dan alat pemadam."
+      ],
+      "avoid": [
+       "Mengabaikan tanda keselamatan."
+      ],
+      "exam": [
+       "Arti tanda umum."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
