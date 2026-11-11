@@ -69,6 +69,7 @@ export const DEFAULT_BIDANG = [
   { slug: "construction-bangunan", nama: "Construction (Bangunan)", jp: "建設（建築）", label: "🏢 Bangunan (Kenchiku) ›", induk: "construction", aktif: true, urut: 6.1, tema: "construction", hasContent: true },
   { slug: "construction-lifeline", nama: "Construction (Lifeline & Peralatan)", jp: "建設（ライフライン・設備）", label: "🔧 Lifeline & Peralatan ›", induk: "construction", aktif: true, urut: 6.2, tema: "construction", hasContent: true },
   { slug: "accommodation", nama: "Accommodation (Penginapan)", jp: "宿泊", aktif: true, urut: 7, tema: "hotel", hasContent: true },
+  { slug: "livestock", nama: "Livestock (Peternakan)", jp: "畜産業", aktif: true, urut: 8, tema: "farm", hasContent: true },
 ];
 
 let _bidang = null;

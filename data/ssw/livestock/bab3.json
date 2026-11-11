@@ -1,0 +1,1324 @@
+{
+ "schema": 1,
+ "bidang": "livestock",
+ "source": "農業技能測定試験 テキスト 畜産農業全般 (全国農業会議所 / Dewan Pertanian Nasional), versi Indonesia, ver. 1.0",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Pekerjaan Pengelolaan Ternak Setiap Hari",
+   "jp": "{毎日|まいにち}の{飼養管理|しようかんり}の{作業|さぎょう}"
+  },
+  "intro": {
+   "id": "Sanitasi dan keselamatan lahan ternak, pekerjaan harian tiap jenis ternak, dan poin pengamatan ujian praktik.",
+   "jp": "{毎日|まいにち}の{飼養管理|しようかんり}の{作業|さぎょう}"
+  },
+  "pages": [
+   113,
+   147
+  ],
+  "subs": [
+   {
+    "id": "b3s1",
+    "no": 1,
+    "title": {
+     "id": "Pengelolaan Sanitasi dan Keselamatan Lahan Ternak",
+     "jp": "{衛生管理|えいせいかんり}と{安全管理|あんぜんかんり}"
+    },
+    "pages": [
+     113,
+     116
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "１ Pengelolaan Sanitasi dan Pengelolaan"
+      },
+      {
+       "h": "1 Kondisi Penyakit Menular yang Ganas"
+      },
+      {
+       "p": "(1) Pada tahun 2010 di Jepang muncul penyakit mulut dan kuku, sehingga banyak babi dan sapi yang dimusnahkan."
+      },
+      {
+       "p": "(2) Pada tahun 2007 di Jepang muncul flu burung yang sangat patogenik."
+      },
+      {
+       "p": "(3) Sejak tahun 2013 di Jepang kemunculan diare babi yang epidemik di setiap wilayah menjadi permasalahan."
+      },
+      {
+       "p": "(4) Ketiga penyakit menular di atas merupakan penyakit infeksi yang disebabkan virus."
+      },
+      {
+       "p": "(5) Di negara tetangga Jepang pun telah muncul penyakit mulut dan kuku, dan juga flu burung yang sangat patogenik."
+      },
+      {
+       "p": "(6) Beberapa tahun ini banyak keluar-masuk orang dan barang antar negara, dan resiko masuknya penyakit menular ganas ke Jepang semakin tinggi."
+      },
+      {
+       "h": "2 Hal yang Harus Diperhatikan Orang Peternakan"
+      },
+      {
+       "p": "(1) Saat keluar dan masuk kandang, melakukan disinfektan pada sepatu panjang dan pakaian kerja dengan cukup."
+      },
+      {
+       "p": "(2) Amati dengan memperhatikan baik-baik kondisi ternak, dan laporkan ke pemilik peternakan bila merasa ketidaknormalan."
+      },
+      {
+       "p": "(3) Cegah masuknya binatang liar seperti burung liar atau tikus ke kandang."
+      },
+      {
+       "p": "(4) Selain lalat menghantarkan virus atau bakteri patogen, munculnya larva lalat akan membuat burung liar berkumpul, sehingga penting untuk memusnahkan lalat."
+      },
+      {
+       "h": "3 Area Lahan Ternak"
+      },
+      {
+       "p": "Diperlukan pengelolaan area lahan ternak sebagai area pengelolaan sanitasi, untuk mencegah masuknya patogen. Pada area lahan ternak terdapat 2 area, yakni area ternak (kandang, area bermain) dan area pengelolaan (tangki pakan ternak, gudang pakan ternak, lorong, kantor, dan sebagainya), namun pada kedua area ini keluar-masuknya orang atau kendaraan harus diatur dan dikelola dengan ketat."
+      },
+      {
+       "p": "(1) Jangan sampai pengunjung peternakan seenaknya masuk ke kandang, dan pada saat demikian maka perlu untuk memberitahukan kepada pemilik peternakan."
+      },
+      {
+       "p": "(2) Bila mengantar pengunjung peternakan ke kandang, maka mintakan untuk mengenakan boots cover (dari plastik) ke sepatu, mengenakan pakaian kerja yang bersih, dan melakukan disinfeksi pada tangki disinfeksi pijakan, barulah memasuki kandang."
+      },
+      {
+       "h": "4 Fasilitas Disinfeksi pada Pintu Keluar-Masuk Area Pengelolaan Sanitasi"
+      },
+      {
+       "h": "（１）Keluar-Masuknya Kendaraan Mobil"
+      },
+      {
+       "p": "Terdapat fasilitas disinfeksi seperti “gerbang disinfeksi kendaraan mobil”, “alat penyemprot disinfektan”, “tanki disinfektan untuk kendaraan mobil”, “zona calcium hydroxide”, dan sebagainya. Terhadap mobil yang keluar-masuk ke lahan ternak dilakukan disinfeksi ban dengan alat penyemprot disinfektan atau tangki disinfektan untuk kendaraan mobil."
+      },
+      {
+       "h": "（２）Keluar-Masuknya Orang"
+      },
+      {
+       "p": "Saat orang keluar-masuk pada area pengelolan sanitasi seperti area ternak atau area pengelolaan, maka dilakukan disinfeksi pada kaki (sepatu panjang) atau pakaian kerja dengan “alat penyemprot disinfektan”, “tangki disinfeksi pijakan”, “zona calcium hydroxide”, dan sebagainya."
+      },
+      {
+       "h": "5 Pengelolaan Alat Disinfeksi, Tangki Disinfeksi, dan Zona Disinfeksi"
+      },
+      {
+       "h": "（１）Gerbang Disinfeksi Kendaraan Mobil"
+      },
+      {
+       "p": "Begitu kendaraan mobil masuk, maka sensor akan terbuka, dan cairan kimia akan tersemprot dari atas, bawah, kiri, dan kanan, sehingga seluruh badan kendaraan mobil akan terdisinfeksi, termasuk bagian bawahnya. Perlu dilakukan pengelolaan harian terhadap pengisian cairan disinfektan atau alat penyemprot."
+      },
+      {
+       "h": "（２）Alat Penyemprot Disinfektan"
+      },
+      {
+       "p": "Pada tipe manual, untuk kendaraan mobil dilakukan disinfeksi sekitar mobil atau ban, dan untuk orang dilakukan disinfeksi pada kaki bawah. Perlu selalu dilakukan pengisian cairan disinfektan."
+      },
+      {
+       "h": "（３）Tangki Disinfeksi untuk Kendaraan Mobil"
+      },
+      {
+       "p": "Kendarai perlahan kendaraan mobil ke dalam cairan disinfektan, terutama lakukan disinfeksi pada ban. Karena efek disinfektan akan menurun seiring berjalannya waktu, maka perlu memperbaharui cairan kimia setiap 2-3 kali seminggu. Kemudian, bila lumpur atau pasir masuk ke dalam cairan disinfektan, maka efek disinfeksi akan berkurang, sehingga diperlukan pembersihan."
+      },
+      {
+       "h": "（４）Tangki Disinfeksi Pijakan"
+      },
+      {
+       "p": "Lakukan disinfeksi dengan merendam sepatu panjang selama 15-30 detik pada wadah yang telah dimasukkan disinfektan. Karena efek disinfektan akan menurun seiring berjalannya waktu, maka perlu memperbaharui cairan kimia. Pembaharuan cairan kimia dilakukan setiap hari, dan saat kotornya parah, maka dilakukan pada saat itu."
+      },
+      {
+       "h": "（５）Zona Calcium Hydroxide (Zona Disinfeksi)"
+      },
+      {
+       "p": "Semprotkan calcium hydroxide di pintu keluar-masuk, untuk kendaraan mobil lakukan disinfeksi pada ban, untuk orang pada alas dari sepatu panjang. Penyemprotan calcium hydroxide perlu dilakukan setiap hari."
+      },
+      {
+       "h": "6 Poin yang Perlu Diperhatikan dalam Penggunaan Cairan Disinfektan"
+      },
+      {
+       "p": "Bila menggunakan cairan disinfektan, maka harus mematuhi “cara pemakaian dan dosis”, “cairan disinfektan harus dipersiapkan pada saat akan digunakan”, “harus menyimpan cairan disinfektan"
+      },
+      {
+       "p": "(stock solution) di tempat yang kering dan teduh”, “tidak dicampur dengan cairan disinfektan atau pestisida lain”, “pakai sarung tangan sanitasi saat penanganan, pakai masker saat penyemprotan”. Pakai pakaian kerja saat melakukan disinfeksi, dan hati-hati agar cairan disinfektan tidak mengenai tubuh, dan bila cairan disinfektan mengenai tubuh, maka penting untuk segera mencucinya dengan air."
+      },
+      {
+       "p": "Penyimpanan Cairan Disinfektan Mari Mengenakan Pakaian Pelindung dengan Benar Cara Mengenakan Pakaian Pelindung yang Benar Sedapat mungkin, topi yang berlidah (pelindung silau) Kaca Mata Pelindung Melekat di Wajah."
+      },
+      {
+       "p": "Gunakan yang Tipe Pakaian Pelindung Kenakan pakaian pelindung yang berlengan dan bercelana panjang. Kenakan masker saat menimbang, mempersiapkan, dan menyemprot. Sarung Tangan Karet Kenakan atasan berlengan panjang di atas sarung tangan."
+      },
+      {
+       "p": "Sepatu Panjang Agar cairan kimia tidak masuk ke dalam pakaian, biarkan sepatu panjang tertutupi celana panjang."
+      },
+      {
+       "h": "7 Pengelolaan Keselamatan Kandang Ternak"
+      },
+      {
+       "h": "（１）Bahan Bakar / Listrik"
+      },
+      {
+       "p": "Saat menangani bahan bakar (minyak bumi, bensin, dan sebagainya), berhati-hatilah akan kebakaran dengan memastikan untuk periksa bahwa di sekitar tidak ada api. Terutama perlu perhatikan api rokok, dan pemantik api. Pastikan untuk tidak mendekatinya."
+      },
+      {
+       "h": "（２）Sistem Kelistrikan"
+      },
+      {
+       "p": "Bila basah, maka colokan listrik memiliki resiko korsleting. Saat membersihkan, berhati-hatilah agar colokan listrik tidak basah."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 113–116). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "(1) Pada tahun 2010 di Jepang muncul penyakit mulut dan kuku, sehingga banyak babi dan sapi yang dimusnahkan.",
+      "points": [
+       "Pengelolaan Sanitasi dan Pengelolaan",
+       "Kondisi Penyakit Menular yang Ganas",
+       "Hal yang Harus Diperhatikan Orang Peternakan",
+       "Area Lahan Ternak",
+       "Fasilitas Disinfeksi pada Pintu Keluar-Masuk Area Pengelolaan Sanitasi",
+       "（１）Keluar-Masuknya Kendaraan Mobil",
+       "（２）Keluar-Masuknya Orang",
+       "Pengelolaan Alat Disinfeksi, Tangki Disinfeksi, dan Zona Disinfeksi",
+       "（１）Gerbang Disinfeksi Kendaraan Mobil",
+       "（２）Alat Penyemprot Disinfektan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 113–116)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s2",
+    "no": 2,
+    "title": {
+     "id": "Pekerjaan Harian Sapi Perah",
+     "jp": "{酪農|らくのう}の{作業|さぎょう}"
+    },
+    "pages": [
+     117,
+     124
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Keseharian Peternak"
+      },
+      {
+       "p": "Pembersihan Wadah Pakan Menyapu Pakan Ternak Pembersihan Lorong Pembersihan Tangki Air dan Water Cup Penanganan Kotoran dan Urin Pemerahan Susu Pemerahan Susu"
+      },
+      {
+       "p": "(Pemberian Pakan Ternak) Pemberian Pakan Ternak Pemberian Pakan Ternak Menyapu Pakan Ternak Pembersihan Lorong"
+      },
+      {
+       "h": "2 Pengelolaan Fasilitas"
+      },
+      {
+       "h": "（１）Lorong"
+      },
+      {
+       "p": "Menyapu Pakan Ternak Adalah penting untuk menjaga agar lorong yang dilewati sapi perah itu bersih dan tidak licin."
+      },
+      {
+       "h": "（２）Gudang Pakan Ternak"
+      },
+      {
+       "ul": [
+        "Hati-hati agar burung liar atau tikus tidak masuk ke dalam gudang pakan ternak.",
+        "Bersihkan agar selalu bersih.",
+        "Diperiksa apakah tidak ada jamur tumbuh pada pakan ternak."
+       ]
+      },
+      {
+       "h": "（３）Wadah Pakan"
+      },
+      {
+       "ul": [
+        "Pagi sebelum memberi pakan ternak, bersihkan wadah pakan agar bersih.",
+        "Permukaan wadah pakan yang ideal adalah kondisi licin tanpa ada lubang atau cekungan kecil."
+       ]
+      },
+      {
+       "h": "（４）Menyapu Pakan Ternak"
+      },
+      {
+       "p": "Agar sapi perah mudah memakan pakan ternak, maka penting untuk menyapu pakan ternak di dekat mulut sapi. Pekerjaan Menyapu Pakan Ternak"
+      },
+      {
+       "h": "（５）Pembersihan Tangki Air dan Water Cup"
+      },
+      {
+       "ul": [
+        "Pagi hari, penting untuk menyingkirkan dengan baik pakan ternak yang ada di dalam tangki air atau water cup, agar sapi perah dapat meminum air yang segar.",
+        "Agar dapat meminum air dingin di masa panasnya musim panas, maka sebaiknya lakukan penggantian air pada tangki air."
+       ]
+      },
+      {
+       "h": "（６）Ventilasi Kandang Sapi"
+      },
+      {
+       "ul": [
+        "Cegah celah angin saat masa dingin.",
+        "Penting untuk mendukung pengaliran udara pada kipas angin pada masa panas.",
+        "Pada masa panas, banyak kasus suhu rektal lebih dari 39°C, jumlah napas sapi akan meningkat, dan volume konsumsi pakan ternak pun menurun."
+       ]
+      },
+      {
+       "h": "（７）Lantai Kandang Sapi"
+      },
+      {
+       "ul": [
+        "Lantai kandang sapi (stall) dalam kondisi bersih dan kering.",
+        "Untuk meminimalisir luka kaki sapi perah dan memberikan kenyamanan, maka dijaga kondisi elsatisitasnya dengan mempergunakan alas kandang."
+       ]
+      },
+      {
+       "h": "（８）Pengontrolan Ektoparasit"
+      },
+      {
+       "ul": [
+        "Harus dijaga agar lalat kandang dan lalat rumah tidak berkembang biak di kandang sapi.",
+        "Untuk itu, kotoran perlu dibersihkan dan dihilangkan,alas kandang perlu diganti, dan pakan ternak yang telah membusuk perlu dihilangkan."
+       ]
+      },
+      {
+       "h": "（９）Observasi Sapi"
+      },
+      {
+       "p": "Dilakukan observasi mengenai “persaingan antara sapi yang kuat dengan sapi yang lemah”, “penemuan sapi yang kurang sehat”, “luka badan sapi”, “makan pilih pakan ternak (selective feeding)”, “kondisi kotoran seperti diare”."
+      },
+      {
+       "h": "3 Prosedur Memerah Susu"
+      },
+      {
+       "h": "（１）Persiapan dan Prinsip Pemerahan Susu"
+      },
+      {
+       "ul": [
+        "Lakukan inspeksi, pembersihan, dan sterilisasi alat pemerah susu sebelum melakukan pemerahan susu.",
+        "Sapi yang memiliki jumlah sel somatik tinggi atau sapi yang memiliki radang ambing (mastitis) diperah belakangan."
+       ]
+      },
+      {
+       "h": "（２）Pra Pemerahan"
+      },
+      {
+       "ul": [
+        "Pra pemerahan dilakukan untuk “menemukan zat padat dalam susu”, “membuang perah susu sapi yang tinggi kemungkinan kontaminasi bakteri yang masuk ke dalam ambing saat pemerahan sebelumnya”, dan untuk “membuang perah dipping solution yang tersisa di ambing setelah pemerahan sebelumnya”.",
+        "Dinsinfeksi tangan dan sarung tangan pemerahan susu: mempersiapkan ember mencuci tangan dan handuk lap tangan."
+       ]
+      },
+      {
+       "ul": [
+        "Gelas pemerahan (strip cup): Pra pemerahan dilakukan pada strip cup untuk setiap ambing, dan dilakukan pengecekan zat padat dalam susu."
+       ]
+      },
+      {
+       "p": "Kemudian, bila ambing sangat kotor, maka lakukan pembersihan ambing terlebih dahulu."
+      },
+      {
+       "p": "（３）Pre-Dipping (Dilakukan pada Peternak dengan Sedikit Ambing Kotor)"
+      },
+      {
+       "p": "① Setelah pra pemerahan, dilakukan sebagai pengganti “pengelapan ambing” berikutnya dengan cairandisinfektan."
+      },
+      {
+       "p": "② Dipping artinya “mencelupkan ke cairan kimia”."
+      },
+      {
+       "h": "③ Tujuan dipping adalah membunuh kuman pada ambing dan"
+      },
+      {
+       "p": "④ Pada dipping solution terkandung pensteril dan bahan pelindung permukaan ambing (gliserin dan sebagainya)."
+      },
+      {
+       "h": "⑤ Setelah selesai, untuk mencegah tersisanya cairan kimia pada"
+      },
+      {
+       "p": "susu, maka dilap dengan baik menggunakan handuk kertas sekali pakai. Dipping Solution"
+      },
+      {
+       "h": "（４）Pengelapan Ambing"
+      },
+      {
+       "ul": [
+        "Ambing dilap dengan handuk yang sudah dicelup ke dalam desinfektan.",
+        "Tujuan pengelapan adalah “memberikan rangsangan perah susu” dan “sterilisasi permukaan ambing”.",
+        "Handuk disiapkan lebih dari satu lembar untuk 1 ekor sapi, dan handuk yang telah selesai dipergunakan dimasukkan ke dalam ember lainnya.",
+        "Dapat juga mempergunakan paper towel sekali pakai buang, dan bukan handuk kain."
+       ]
+      },
+      {
+       "h": "（５）Pengeringan Ambing"
+      },
+      {
+       "p": "Setelah ambing dilap, atau setelah dilakukan pre-dipping, maka lakukan pengelapan ambing dengan handuk kertas sekali pakai, kemudian keringkan ambing."
+      },
+      {
+       "h": "（６）Pemasangan Teat Cup, Pemerahan Susu, dan Pelepasan Teat Cup"
+      },
+      {
+       "ul": [
+        "Sejak mulai pra pemerahan hingga 1~2 menit kemudian dipasang teat cup.",
+        "Unit teat cup dipasang dengan benar pada 4 ambing.",
+        "Standarnya perah susu dilakukan dalam waktu hingga 5 menit.",
+        "Jangan lakukan overmilking (machine stripping) untuk memerah habis susu sapi. Karena akan menyebabkan luka pada ujung ambing atau saluran ambing. Jangan memerah terlalu keras.",
+        "Setelah selesai memerah susu, lepaskan keempat teat cup dari ambing secara bersamaan."
+       ]
+      },
+      {
+       "p": "Pemasangan Teat Cup Metode Pemerahan Susu yang Benar Hentikan Machine Stripping (Contoh Buruk) Jangan sampai ada kekosongan (vacuum), tunggu sebentar agar susu sapi turun secara alami dan lepaskan keempat teat cup bersamaan."
+      },
+      {
+       "p": "Luka sekitar ujung ambing akibat overmilking."
+      },
+      {
+       "h": "（７）Post Dipping"
+      },
+      {
+       "ul": [
+        "Dipping setelah melepaskan teat cup disebut dengan post dipping.",
+        "Tujuannya untuk mencegah infeksi bakteri pada ambing pada antara waktu hingga pemerahan susu berikutnya."
+       ]
+      },
+      {
+       "h": "（８）Pengelolaan Suhu Bulk Cooler"
+      },
+      {
+       "ul": [
+        "Saat pertama kali dimasukkan, dalam satu jam setelah pemerahan susu suhu dikelola dibawah 10°C, dan kemudian dalam satu jam lagi suhu dikelola kurang dari 4,4°C.",
+        "Saat dilakukan masukan tambahan, suhu dikelola agar tidak lebih dari 10°C."
+       ]
+      },
+      {
+       "h": "4 Penemuan Sapi Birahi (Estrus)"
+      },
+      {
+       "h": "（１）Periode Estrus"
+      },
+      {
+       "p": "Periode estrus sapi perah adalah 21 hari."
+      },
+      {
+       "h": "（２）Observasi"
+      },
+      {
+       "ul": [
+        "Begitu mendekati estrus, maka sapi perah jadi tidak tenang, akan mendekat dan menggosokkan badannya ke sapi lain atau ke orang, dan pada malam hari saat sapi lainnya tenang, maka dia akan berjalan-jalan.",
+        "Periode keberlanjutan estrus dahulu sekitar 12-18 jam pada jaman dulu, namun seiring dengan meningkatnya volume susu maka periode menjadi singkat, dan akhir-akhir ini periode keberlanjutan estrus standarnya menjadi 7-8 jam.",
+        "Dilakukan observasi estrus (standing estrus dan sebagainya) pada subuh dan malam hari.",
+        "Kondisi diam tanpa penolakan saat akan dinaiki oleh sapi lain disebut dengan standing estrus."
+       ]
+      },
+      {
+       "p": "Dianggap sebagai estrus yang sebenarnya."
+      },
+      {
+       "h": "（３）Penemuan Estrus di Kandang Tambat"
+      },
+      {
+       "p": "Untuk kandang tambat di kandang sapi stanchion, dilakukan pengecekan kondisi sebagai berikut:"
+      },
+      {
+       "ul": [
+        "Nafsu makan berkurang",
+        "Volume susu berkurang",
+        "Sapi tidak tenang",
+        "Melenguh",
+        "Kebocoran lender estrus",
+        "Pembengkakan vulva Vulva yang memerah dan membengkak"
+       ]
+      },
+      {
+       "h": "5 Merawat Pedet Saat Dilahirkan (Persiapan)"
+      },
+      {
+       "ul": [
+        "Sebelum melahirkan pedet, adalah penting untuk mempersiapkan kandang perawatan yang bersih dan kering yang telah diberikan pakan tabur dengan cukup.",
+        "Adalah penting untuk mempersiapkan handuk bersih untuk mengelap air ketuban pedet, alat pengangkut, solusi disinfektan (iodine tincture), dan sebagainya."
+       ]
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 117–124). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pembersihan Wadah Pakan Menyapu Pakan Ternak Pembersihan Lorong Pembersihan Tangki Air dan Water Cup Penanganan Kotoran dan Urin Pemerahan Susu Pemerahan Susu",
+      "points": [
+       "Keseharian Peternak",
+       "Pengelolaan Fasilitas",
+       "（１）Lorong",
+       "（２）Gudang Pakan Ternak",
+       "（３）Wadah Pakan",
+       "（４）Menyapu Pakan Ternak",
+       "（５）Pembersihan Tangki Air dan Water Cup",
+       "（６）Ventilasi Kandang Sapi",
+       "（７）Lantai Kandang Sapi",
+       "（８）Pengontrolan Ektoparasit"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 117–124)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s3",
+    "no": 3,
+    "title": {
+     "id": "Pekerjaan Harian Sapi Pedaging",
+     "jp": "{肉用牛|にくようぎゅう}の{作業|さぎょう}"
+    },
+    "pages": [
+     125,
+     127
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Inspeksi Fasilitas"
+      },
+      {
+       "p": "Pada dasarnya sama dengan “Pengelolaan Fasilitas” pada III. 1. 2 . Silakan rujuk bagian itu."
+      },
+      {
+       "h": "2 Inspeksi Kesehatan"
+      },
+      {
+       "h": "（１）Nafsu Makan"
+      },
+      {
+       "p": "Untuk kasus berikut ini, dicurigai adanya penyakit organ pencernaan, penyakit demam, dan penyakit gigi."
+      },
+      {
+       "ul": [
+        "Tidak datang mendekat ke wadah pakan",
+        "Ada sisa makan, banyak menyisakan makan",
+        "Memisahkan diri dari kelompok"
+       ]
+      },
+      {
+       "h": "（２）Apakah Matanya Lembut dan bersemangat"
+      },
+      {
+       "p": "Untuk kasus di bawah, dicurigai adanya anemia, sakit kuning, atau fase awal penyakit organ pernapasan."
+      },
+      {
+       "ul": [
+        "Tidakbersemangat",
+        "Anemia mukosa",
+        "Hiperemia mukosa",
+        "Mukosa yang menguning",
+        "Purulent conjunctivitis",
+        "Keluar banyak air mata, kotoran mata"
+       ]
+      },
+      {
+       "h": "（３）Kondisi Hidung"
+      },
+      {
+       "p": "Untuk kasus di bawah, dicurigai adanya penyakit organ pernapasan atau demam."
+      },
+      {
+       "ul": [
+        "Ingus cair",
+        "Ingus berwarna kuning keputihan atau kuning kehijauan",
+        "Hidung kering"
+       ]
+      },
+      {
+       "h": "（４）Perilaku dan Penyakit / Isu yang Dicurigai"
+      },
+      {
+       "ul": [
+        "Tidak tenang, “mengiler” / gigi gemeretak, mengamuk, mengais-ngais kaki depan, kesakitan, melihat bagian perut → sakit organ dalam, keracunan",
+        "Depresi, gelisah, berputar-putar, gaduh, kram, gangguan kesadaran / gejala syaraf seperti lumpuh → penyakit infeksi, kekurangan vitamin B1",
+        "Pincang→ Penyakit kuku",
+        "Memar / keseleo / radang sendi → buruknya struktur lantai",
+        "Punggung atau Tulang tumitmelengkung aneh saat buang air kecil atau besar → Penyakit metabolisme",
+        "Menggosokkan badan ke dinding atau tiang → Penyakit kulit",
+        "Bahu / pinggang terhuyung → Radang otak, keracunan",
+        "Bulu kasar, bengkak di keempat kaki, bola mata menonjol, menurun daya pandang → Kekurangan vitamin A"
+       ]
+      },
+      {
+       "h": "（５）Pangkal Ekor, Kondisi Ekor"
+      },
+      {
+       "p": "Untuk kasus berikut ini, dicurigai adanya diare."
+      },
+      {
+       "ul": [
+        "Bulu ekor botak rontok",
+        "Kotor berwarna kuning putih atau coklat gelap menempel di pangkal ekor",
+        "Kotor menempel di keseluruhan ekor"
+       ]
+      },
+      {
+       "h": "（６）Kondisi Pernapasan"
+      },
+      {
+       "p": "Untuk kasus berikut ini, dicurigai adanya penyakit organ pernapasan."
+      },
+      {
+       "ul": [
+        "Bernapas dengan mulut terbuka, bernapas susah",
+        "Peningkatan jumlah napas (bernapas dengan cepat)",
+        "Pernapasan perut"
+       ]
+      },
+      {
+       "h": "（７）Saat Batuk"
+      },
+      {
+       "p": "Dicurigai adanya tersedak (salah menelan) atau penyakit organ pernapasan."
+      },
+      {
+       "h": "（８）Suhu Tubuh (Suhu Rektal)"
+      },
+      {
+       "p": "Dicurigai adanya penyakit organ pernapasan bila muncul demam di atas 40°C atau tubuh sapi gemetar."
+      },
+      {
+       "h": "（９）Kondisi Bulu"
+      },
+      {
+       "ul": [
+        "Kasar, tidak berkilau → Dicurigai nutrisi buruk",
+        "Panjang dan berantakan, kusut → Dicurigai terinfeksi parasit",
+        "Bulu rontok → Dicurigai penyakit kulit",
+        "Kristal halus putih menempel di ujung bulu kelamin → Dicurigai kencing batu"
+       ]
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 125–127). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pada dasarnya sama dengan “Pengelolaan Fasilitas” pada III.",
+      "points": [
+       "Inspeksi Fasilitas",
+       "Inspeksi Kesehatan",
+       "（１）Nafsu Makan",
+       "（２）Apakah Matanya Lembut dan bersemangat",
+       "（３）Kondisi Hidung",
+       "（４）Perilaku dan Penyakit / Isu yang Dicurigai",
+       "（５）Pangkal Ekor, Kondisi Ekor",
+       "（６）Kondisi Pernapasan",
+       "（７）Saat Batuk",
+       "（８）Suhu Tubuh (Suhu Rektal)"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 125–127)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s4",
+    "no": 4,
+    "title": {
+     "id": "Pekerjaan Harian Babi",
+     "jp": "{養豚|ようとん}の{作業|さぎょう}"
+    },
+    "pages": [
+     128,
+     131
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Hal yang Perlu Diperhatikan Saat Induk Babi Menyusui"
+      },
+      {
+       "p": "Ambing induk babi terdiri dari dua baris kiri-kanan, dengan lebih dari 12 ambing. Ambing yang dekat dengan kepala volume susunya banyak. Beberapa hari setelah melahirkan, setiap anak babi ditentukan posisi urutan ambing-nya (teat order), dan mereka akan menyusu dari ambing yang sama. Menyusu sekitar satu jam satu kali. Waktu menyusu yang sebenarnya sekitar 10~20 detik."
+      },
+      {
+       "p": "Pada saat menyusu, sering terjadi kecelakaan mati tertindih induk babi. Adalah lumrah untuk tidak membuat induk babi terkejut, namun lakukan pengelolaan dengan memperhatikan 3 hal di bawah ini."
+      },
+      {
+       "ul": [
+        "Pengelolaan nutrisi induk babi yang buruk menyebabkan volume laktasi sedikit, sehingga anak babi tidak mau terpisah dari induknya.",
+        "Induk babi sulit minum air, sehingga bangkit dan tiduran berulang-ulang.",
+        "Anak babi kurang terjaga kehangatannya, mencari kehangatan induk babi, sehingga tidur dan tertindih induk babi."
+       ]
+      },
+      {
+       "h": "2 Mengenai Pemanasan Saat Menyusui / Memelihara Anak Babi"
+      },
+      {
+       "p": "Suhuoptimalbagianakbabiadalahsuhutinggi,dankarenakemampuanmenyesuaikan suhutubuhnyamasihrendah,makadiperlukanpemanasanyangmencukupi. Karena kisaran suhu optimal akan berubah seiring dengan pertumbuhan, maka optimal atau tidaknya dinilai pada saat-saat itu. Suhu optimal saat lahir adalah 36 derajatCelsius,kemudianperlahanakansemakinmenurunmenjadi30derajatCelsius satupekankemudian,dandalam2pekanmenjadi28derajatCelsius,3pekan26derajat Celsius. Apabila anak babi berdempetan tepat di bawah alat pemanas, maka dinilai kedinginan. Sebaliknya, apabila anak babi tidur jauh dari alat pemanas, maka dinilai kepanasan.Dijagaagaranakbabidalamkondisitersebardengansedang."
+      },
+      {
+       "p": "Berhati-hatidalammenanganialatpemanas.Sebagianbesarkebakarankandangbabi penyebabnyaadalahjatuhnyaalatpemanas,ataumunculnyaapidarialatpemanas. Umur / Bobot Setelah Lahir 1-3 Hari Setelah Lahir 100 kg atau Lebih Kisaran Suhu Optimal Babi"
+      },
+      {
+       "h": "3 Hal yang Perlu Diperhatikan dalam Pengelolaan Anak Babi"
+      },
+      {
+       "p": "Anak babi mudah sakit, sehingga sering terkena kelainan organ pencernaan (diare) dan kelainan organ pernapasan (radang paru-paru). Kemudian, karena akan muncul cacat tumbuh akibat parasite dari induk babi, maka insektivirus babi indukan yang merupakan induk babi juga penting, dan dilakukan vaksinasi baik bagi induk babi maupun bagi anak babi."
+      },
+      {
+       "h": "4 Hal yang Perlu Diperhatikan Saat Mengebiri (Kastrasi) Anak Babi"
+      },
+      {
+       "p": "Anak babi akan digemukkan setelah dikebiri, untuk mencegah tertularnya bau pejantan pada daging bagi. Kastrasi dilakukan sejak beberapa hari setelah dilahirkan hingga sebelum disapih, namun kebanyakan dilakukan sampai dengan 1 pekan setelah dilahirkan."
+      },
+      {
+       "p": "5 Hal yang Perlu Diperhatikan Saat Babi Indukan Estrus, Kawin, dan Melahirkan Tidak lama setelah anak babi disapih, maka estrus akan datang kembali. Siklus estrus adalah 21 hari, dan walau akan berbeda setiap individu babi, namun estrus akan berlanjut selama 2-3 hari. Gejala estrus dilihat dari berbirahi, berkurangnya nafsu makan, ekor tegak, membengkaknya vulva, dan berlendir. Temukan secara dini pada fase awal estrus dimana vulva membengkak karena aliran darah, dan begitu memasuki fase estrus, maka dilakukan perkawinan pada fase optimal kawin. Fase optimal kawin dengan rasio tertinggi dibuahi adalah 10-25 jam setelah memasuki fase estrus. Begitu memasuki fase estrus, maka saat orang mengamati respon tekanan punggung dengan menekan bagian punggung atau pinggul babi indukan dengan kedua tangan, maka babi akan tenang. Kemudian, saat pejantan mendekat, maka betina yang mau dikawini akan tenang tak bergerak walau dinaiki, dan akan menegakkan kupingnya."
+      },
+      {
+       "p": "Babi yang belum pengalaman melahirkan kadang gejala estrusnya tidak jelas. Pengecekan Estrus Vulva Memerah dan Membengkak"
+      },
+      {
+       "p": "(Sumber: Organisasi Pusat Pengembangan Ternak)"
+      },
+      {
+       "h": "（１）Fase Awal Estrus: 2,7 Hari Vulva mulai memerah dan membengkak"
+      },
+      {
+       "p": "（２）Fase Estrus: 2,4 Hari Sejak mau dikawini pejantan hingga selesai"
+      },
+      {
+       "p": "（３）Fase Akhir Estrus: 1,8 Hari Berkurangnya merah dan bengkak pada vulva"
+      },
+      {
+       "h": "（４）Fase Jeda Estrus: 14,1 Hari"
+      },
+      {
+       "p": "Dari panjangnya periode fase estrus pada babi, maka untuk mendapatkan rasio tinggi pembuahan dan kelahiran yang maksimal dari 1 induk, walau dengan perkawinan alami dengan babi jantan maupun dengan inseminasi buatan, dicobakan 2 kali inseminasi dalam 1 fase estrus."
+      },
+      {
+       "p": "Pengecekan kehamilan adalah dengan tidak adanya estrus datang kembali 21 hari setelahnya, dan dicek dengan alat diagnosis kehamilan. Bila hamil, kebanyakan babi akan menjadi tenang dan bertambah nafsu makan."
+      },
+      {
+       "p": "Sebelum memasukkan babi ke dalam kandang untuk melahirkan, maka sebelumnya dilakukan pembersihan kandang, disinfektan, dan pengeringan. Babi mudah melahirkan, dan jarang mengalami sulit melahirkan. Kemudian, apabila anak babi tidak bernapas, maka dilakukan pernapasan buatan."
+      },
+      {
+       "h": "46 Masa Ovulasi"
+      },
+      {
+       "p": "Hubungan Gejala pada Vulva Seiring Estrus dengan Fase Optimal Kawin (Pembuahan)"
+      },
+      {
+       "p": "(Kawin Alami dan Inseminasi Buatan dengan Sperma Cair)"
+      },
+      {
+       "h": "6 Hal yang Perlu Diperhatikan pada Saat Panas"
+      },
+      {
+       "p": "Anak babi tidak kuat dingin, sementara babi bakalan dewasa dan babi indukan tidak kuat panas. Lingkungan pemeliharaan babi bakalan dan babi indukan yang tepat adalah sekitar 20°C. Babi indukan dan anak babi dengan kisaran suhu yang berbeda, bila babi betina indukan (induk babi) terkena pengaruh suhu tinggi sekitar sebelum dan sesudah melahirkan, maka pengaruh buruk itu pun akan mempengaruhi anak babi."
+      },
+      {
+       "p": "Pada saat panas, dilakukan ventilasi paksaan dengan kipas angin, terutama dijaga ventilasi didekat permukaan lantai. Ini adalah untuk agar angin mengenai badan babi, dan menghilangkan kelembaban. Standar kecepatan angin sekitar 1,0 m / detik atau lebih. Agar arah angin itu bertiup dengan tetap di dalam kandang babi, maka penempatan arah alat ventilasi memperhatikan arah angin. Bila pasokan angin panas dan efek hembusan angin rendah, maka pasanglah duct blower yang mempergunakan perangkat pendingin. Karena lingkungan musim panas Jepang yang bersuhu dan berkelembaban tinggi itu memiliki prasyarat yang lebih ketat daripada lingkungan panasnya musim panas di Eropa dan Amerika, maka sering kali teknologi pengelolaan panas luar negeri itu tidak terpakai."
+      },
+      {
+       "h": "7 Pengelolaan Wadah Pakan, Air Minum"
+      },
+      {
+       "p": "Babi bakalan itu prinsipnya makan tanpa henti. Kondisikan pakan ternak selalu ada pada wadah pakan. Hati-hati dengan pembusukan sisa makan untuk wet feeder yang menambahkan air saat babi makan. Cegah masuknya burung yang ingin mengambil pakan ternak, dan lakukan juga pembasmian tikus secara berkala. Sediakan air agar babi dapat minum dengan bebas. Hati-hati karena ada kalanya pada tipe byte dan tipe nipple, babi kadang tidak dapat meminum cukup air dengan volume yang dibutuhkan tergantung pada tekanan airnya."
+      },
+      {
+       "h": "8 Hal yang Perlu Diperhatikan saat Menyimpan dan Penanganan Pakan"
+      },
+      {
+       "p": "Sedapat mungkin pakan ternak disimpan di tempat yang teduh dan sejuk, dan hindari lingkungan dengan suhu dan kelembaban tinggi. Terutama karena susu afkir sering gagal, maka segera habiskan. Jangan berikan pakan ternak yang sudah berjamur. Cegah kerusakan pakan dari tikus, burung, atau serangga, dengan menyimpannya di gudang."
+      },
+      {
+       "h": "9 Pengelolaan Lingkungan dan Higienitas Kandang Babi"
+      },
+      {
+       "p": "Pengaturan higienitas kandang babi adalah teramat penting tidak hanya untuk mencegah penyakit babi, atau menjaga kesehatan babi saja, melainkan juga menjaga kesehatan pekerja. Menjaga lingkungan kandang babi yang higienis itu menjaga lingkungan bekerja bagi pekerja."
+      },
+      {
+       "p": "Dari segi higienitas bahan makanan, dan dari sudut pandang pencegahan polusi lingkungan sekitar, pengaturan higienitas kandang babi itu penting. Jadikan flow line kandang babi satu arah dengan membedakan area perkembangbiakan dengan area penggemukan. Sediakan satu kandang babi karantina untuk babi indukan yang ada masukan dari luar. Kemudian untuk penempatan secara keseluruhan, tempatkan kandang babi bakalan di lokasi yang lebih mengarah ke luar, untuk berjaga bila ada masuknya patogen pun untuk sampai menimbulkan kerusakan hingga pada babi bakalan."
+      },
+      {
+       "p": "Gejala penyakit babi muncul dalam berbagai bentuk. Bila disadari ada gejala penyakit, segera laporkan ke dokter hewan peternakan babi dan patuhi keputusannya."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 128–131). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Ambing induk babi terdiri dari dua baris kiri-kanan, dengan lebih dari 12 ambing.",
+      "points": [
+       "Hal yang Perlu Diperhatikan Saat Induk Babi Menyusui",
+       "Mengenai Pemanasan Saat Menyusui / Memelihara Anak Babi",
+       "Hal yang Perlu Diperhatikan dalam Pengelolaan Anak Babi",
+       "Hal yang Perlu Diperhatikan Saat Mengebiri (Kastrasi) Anak Babi",
+       "（１）Fase Awal Estrus: 2,7 Hari Vulva mulai memerah dan membengkak",
+       "（４）Fase Jeda Estrus: 14,1 Hari",
+       "Masa Ovulasi",
+       "Hal yang Perlu Diperhatikan pada Saat Panas",
+       "Pengelolaan Wadah Pakan, Air Minum",
+       "Hal yang Perlu Diperhatikan saat Menyimpan dan Penanganan Pakan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 128–131)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s5",
+    "no": 5,
+    "title": {
+     "id": "Pekerjaan Harian Peternakan Ayam",
+     "jp": "{養鶏|ようけい}の{作業|さぎょう}"
+    },
+    "pages": [
+     132,
+     138
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Peternakan Ayam (Ayam Petelur dan Ayam Pedaging)"
+      },
+      {
+       "h": "1 Pengelolaan Kandang Pelihara Anak Ayam"
+      },
+      {
+       "h": "（１）Pengelolaan Suhu"
+      },
+      {
+       "p": "Anak ayam baru menetas badannya kecil dan suhu badannya rendah, juga kekuatan untuk beradaptasi dengan suhu lingkungannya masih lemah, sehingga harus diberi suplai suhu. Baik format kandang ayam (kandang ayam terbuka atau kandang ayam tertutup), maupun metode pemeliharaan (kandang anak ayam sangkar/baterai, kandang umbaran, dan kandang alas berpemanas), sembari observasi kondisi anak ayam baru menetas, dari suhu 32~35°C saat anak ayam baru menetas dimasukkan, perlahan suhu diturunkan, agar mereka terbiasa dengan suhu ruangan 3~4 minggu kemudian."
+      },
+      {
+       "h": "（２）Pengelolaan Kelembaban"
+      },
+      {
+       "p": "Anak ayam baru menetas dengan kelembaban 65% dibiasakan agar semakin dapat beradaptasi dengan kelembaban ruangan. Untuk menjaga kelembaban 65% dengan suhu di bawah 35°C pada saat anak ayam baru dimasukkan, di kandang pelihara anak ayam yang mana pun perlu dilakukan penambahan kelembaban dengan menaruh basin. Namun setelah sekitar seminggu berlalu, maka volume kotoran akan meningkat dan volume penguapan kelembaban dari kotoran pun akan banyak, sehingga volume injeksi cairan dikurangi menyesuaikan dengan hal itu. Sejak sekitar hari ke-10 malahan dikeringkan."
+      },
+      {
+       "h": "（３）Pengelolaan Ventilasi"
+      },
+      {
+       "p": "Bila suhu di kandang pelihara anak ayam tinggi, maka akan ada perbedaan dengan suhu ruangan, sehingga dilakukan ventilasi alami. Namun ventilasi yang berlebih akan menurunkan suhu kandang pelihara anak ayam. Sembari observasi kondisi anak ayam, maka berhati-hatilah saat mengatur kehangatan."
+      },
+      {
+       "h": "2 Pengelolaan Wadah Umpan dan Wadah Air"
+      },
+      {
+       "h": "（１）Periode Anak Ayam Kecil"
+      },
+      {
+       "p": "Baik kandang sangkar/baterai maupun kandang panggung (dalam chick guard), agar pemberian umpan menjadi baik saat anak ayam baru dimasukkan, maka prestarter umpan yang sudah diremas ditaburkan ke kotak umpan (yang datar dan bertepi rendah) dalam volume sedikit dan frekuensi sering. Wadah air pun agar mudah diminum, maka dipersiapkan basin air dan drinker tambahan. Karena anak ayam kecil akan sering mengulang makan dan minum, maka wadah umpan dan wadah air diletakkan di dekatnya."
+      },
+      {
+       "p": "Bila dilakukan pengelolaan suhu dengan tepat (dari 32~35°C suhu bagian penghangat suhu saat anak ayam baru dimasukkan kemudian perlahan suhu diturunkan), maka semakin hari anak ayam akan keluar dari bagian penghangat suhu ke bagian suhu ruangan, dan akan makan dan minum. 2 hari kemudian setelah pemberian umpan, siapkan pakan ternak dan air minum di bagian suhu ruangan (area bermain pada kandang sangkar/baterai, bagian yang terpisah dari sumber panas dalam chick guard pada kandang umbar). Bila sebagian besar anak ayam sudah makan pada bagian suhu ruangan, maka pemberian pakan ternak dan air pada bagian penghangat suhu dihentikan."
+      },
+      {
+       "p": "Pakan ternak dan air minum selalu dipersiapkan pada periode anak ayam kecil, agar mereka makan dan minum dengan bebas. Volume pakan ternak yang dimasukkan ke dalam wadah umpan sekitar setengahnya, agar pakan tidak tumpah saat dimakan. Agar anak ayam tidak masuk ke dalam wadah umpan, maka dicari ide dengan memberi payung atau separator. Air minum selalu diberikan, namun basin air bentuk bell yang menampung air di piring wadah air dapat bercampur dengan pakan ternak atau kotoran, sehingga dibersihkan dan diganti 1 kali sehari. Untuk nipple drinker, lihatlah tetesan air di ujung nipple, dan arena anak ayam akan langsung meminum, maka akan higienis. Baik nipple drinker maupun wadah air bentuk bell tersebut disesuaikan tinggi dan water level-nya menyesuaikan dengan pertumbuhan anak ayam."
+      },
+      {
+       "p": "Penempatan Wadah Umpan dan Wadah Air di Dalam Chick Guard"
+      },
+      {
+       "h": "（２）Periode Anak Ayam Sedang ~ Anak Ayam Besar"
+      },
+      {
+       "h": "① Pengelolaan Wadah Umpan"
+      },
+      {
+       "p": "Karena pada periode ini space pemberian umpan akan menjadi tidak cukup, maka pada kandang anak ayam sangkar/baterai area bermain diperluas, dan pada kandang umbaran chick guard diperluas, umpan diisi kembali dengan mempergunakan piring wadah umpan."
+      },
+      {
+       "p": "Setelah itu, pasang parit wadah umpan pada sisi melintang kadang di kandang tipe baterai untuk memandu anak ayam makan dengan mengeluarkan kepalanya dari kandang. Kemudian pada kandang umbaran, pindahkan ke wadah umpan bentuk hopper sampai dengan chick guard dilepas, sementara kandang ayam yang ada garis pengumpan, akan lama-kelamaan berganti dari pemberian umpan manual ke pemberian umpan otomatis. Pada pemberian umpan otomatis, pemberian makan dilakukan dengan alat pengumpan yang memposisikan garis pengumpan, sementara pada kandang baterai, makan diberikan ke parit wadah umpan, sementara pada kandang umbaran, makan diberikan pada pan feeder (piring)."
+      },
+      {
+       "p": "Observasilah pertumbuhan dan kondisi makan anak ayam, dan atur tinggi wadah umpan, volume umpan di dalam parit wadah umpan atau hopper. Adalah penting umpan ternak dimasukkan ke piring umpan wadah pengumpan otomatis secara merata agar anak ayam dapat makan dengan mudah. Pada kandang tipe baterai anak ayam tidak akan masuk ke dalam wadah pengumpan (parit), namun untuk kandang umbaran, agar anak ayam tidak masuk ke wadah pengumpan, maka dicari ide dengan memasang payung, separator, atauheliks."
+      },
+      {
+       "h": "② Pengelolaan Wadah Air"
+      },
+      {
+       "p": "Seiring dengan diperluas/dihilangkannya area bermain atau chick guard, jumlah alat penyuplai air ditambah, dan ditempatkan secara merata. Baik kandang tipe baterai maupun tipe umbaran, pikirkan jumlah nipple drinker-nya, tempatkan nipple agak sedikit lebih tinggi dari mata anak ayam, kemudian atur tekanan air agar anak ayam mudah meminum. Pada kandang umbaran, sesuaikan tinggi posisi piring wadah air bentuk bel setinggi dada anak ayam. Terutama untuk broiler, sesuaikan dengan anak ayam betina. Karena volume air minum akan bertambah, sehingga pengelolaan mesin penyuplai air pun penting (wadah air, pipa air, subtank, dan sebagainya), dan lakukan pembersihan secara berkala."
+      },
+      {
+       "h": "3 Metode Potong Paruh (Debeak)"
+      },
+      {
+       "p": "Selama masa pelihara anak ayam, sering terlihat aktivitas patuk ekor pada anak ayam. Selama masih kecil, terluka hanya di sekitar ekor saja, namun sebelum melahirkan pertama, maka akan banyak mematuk hingga perut, dan dapat saja membawa kerugian yang tidak terduga dalam waktu singkat. Untuk mencegah kerugian yang demikian ini, biasanya dilakukan potong paruh (debeak)."
+      },
+      {
+       "p": "Potong paruh adalah memotong ujung paruh atas dan bawah dengan menggunakan alat potong paruh (debeaker), dan untuk ayam petelur kebanyakan dilakukan pada umur 3-10 hari. Untuk broiler dilakukan pada umur 1 hari atau dilakukan secepat mungkin, namun ada kalanya dilakukan di peternakan penetasan (penangkaran) ayam."
+      },
+      {
+       "p": "Dengan memotong paruh, maka selain mencegah munculnya kebiasaan buruk, juga mengurangi tumpahnya pakan ternak saat makan. Setelah menjadi ayam dewasa, maka kerugian pada telur akibat telur dipatuk akan berkurang."
+      },
+      {
+       "p": "Keadaan Potong Paruh (Debeak)"
+      },
+      {
+       "h": "4 Pengukuran Bobot"
+      },
+      {
+       "p": "Karena akan menjadi index yang sangat baik untuk cukup memahami pertumbuhan anak ayam petelur dan kemampuan bertelur ke depannya, maka pastikan untuk melakukan pengukuran bobot secara acak (random) setiap selang 1~2 minggu. Kemudian, pada rencana pengiriman broiler, penggemukan badan anak ayam pedaging adalah penting."
+      },
+      {
+       "p": "Setelah mulai bertelur pun dilakukan penimbangan bobot setiap selang 4 minggu, dan perlu juga memperbandingkan perubahan bobot untuk mengetahui apakah anak ayam makan dengan tepat atau nutrisinya kekurangan atau berlebih. Penimbangan bobot ayam dewasa mengenai ayam yang sama diharapkan ditimbang sendiri-sendiri."
+      },
+      {
+       "h": "5 Perhatian pada Penerimaan, Penyimpanan, dan Penanganan Pakan Ternak"
+      },
+      {
+       "h": "（１）Penerimaan Pakan Ternak"
+      },
+      {
+       "p": "Tangki pakan ternak atau gudang penyimpanan dibersihkan sebelum memasukkan pakan ternak, mobil pengangkut pakan ternak harus didisinfeksi dengan baik di pintu masuk lahan ternak. Pakan ternak harus diperiksa penampakan, warna, rasa, dan mutunya tidak ada keanehan, atau diketahui tidak ada benda asing, dan pakan ternak yang berasal dari pabrik dilakukan inspeksi salmonella secara berkala, dimana perlu dilampirkan hasil inspeksi tersebut. Kemudian, penting untuk memahami zat aditif pakan ternak yang tercampur, atau nama zat aditif dan kedaluarsa pengiriman."
+      },
+      {
+       "h": "（２）Penyimpanan Pakan Ternak"
+      },
+      {
+       "p": "Rencana pembelian pakan ternak telah ditentukan terlebih dahulu, untuk berhati-hati agar tidak menjadi stock jangka panjang. Pakan ternak tidak boleh dikotori jamur dan sebagainya, dan unsur di dalam pakan ternak"
+      },
+      {
+       "p": "(protein, lipid, dan sebagainya) tidak boleh berubah mutu. Kemudian, zat aditif seperti vitamin premix perlu disimpan di tempat yang teduh dan sejuk. Juga perlu untuk mengecek bahwa di gudang penyimpanan tidak ada tikus atau kotoran tikus."
+      },
+      {
+       "h": "（３）Penanganan Pakan Ternak"
+      },
+      {
+       "p": "Pemberian pakan ternak ditentukan dengan desain pakan ternak yang tepat, dan bila ditambahkan zat aditif pakan ternak di peternakan, maka harus dicampurkan merata ke dalam pakan ternak, atau perlu untuk memberikannya kepada pakan ternak sesuai dengan metode dan volumenya. Terutama, setelah anak ayam baru dimasukkan, dengan melakukan penimbangan bobot berselang 1 minggu, dapat dilakukan pemberian pakan ternak berbagi jenis yang sesuai dengan rencana pemberian pakan (sistem pakan ternak) mengikuti pertumbuhan anak ayam dan tahap produksi. Kemudian, perlu mematuhi kedaluarsa pengiriman zat aditif pakan ternak yang langsung mempengaruhi mutu barang produksi ayam (telur, daging), dan memberikan pakan memperhatikan mutu pakan ternak (penampakan, warna, rasa, jamur, perubahan mutu, dan sebagainya)."
+      },
+      {
+       "p": "Buku catatan pengelolaan pemberian pakan ternak perlu setidaknya disimpan selama 2 tahun."
+      },
+      {
+       "h": "6 Pengelolaan saat Cuaca Panas"
+      },
+      {
+       "p": "Selama musim panas, dalam kandang ayam terbuka untuk ayam petelur, kadang ada ayam yang mati kepanasan walau suhu luar hanya 32~33°C. Atap dan dinding panas karena sinar matahari, dan menerima radiasi panas dari tanah yang terbakar, kadang suhu 5°C lebih tinggi daripada suhu luar, dan sekitar tubuh ayam akan lebih panas lagi. Untuk itu, perlu dilakukan pencegahan panas. Pada kandang ayam terbuka, lakukan perbaikan ventilasi di dalam kandang, dan bila angin tidak bertiup, maka berikan angin dengan blower berkecepatan angin sekitar 0,5~0,8 meter/detik."
+      },
+      {
+       "p": "Teduhkan dengan pohon, untuk menghindari sinar matahari langsung. Penyemprotan (spray) air ke dalam kandang juga efektif untuk menurunkan suhu. Bila suhu kandang ayam meningkat, maka temperature air minum pun meningkat, dan air minum yang hangat tidak akan diminum, sehingga sedapat mungkin berikan air yang dingin."
+      },
+      {
+       "p": "Pada kandang ayam tertutup (windowless), lakukan metode vetnilasi agar suhu di dalam kandang ayam sedapat mungkin secara merata lebih rendah daripada suhu luar. Umumnya, suhu yang dirasakan oleh ayam diturunkan dengan menambahkan volume ventilasi. Baik atau buruknya properti penolakan panas seperti plafon atau dinding akan berpengaruh, dimana semakin baik property penolakan panas maka akan sulit dipengaruhi suhu luar."
+      },
+      {
+       "p": "Tindakan mencegah panas saat musim panas adalah pengelolaan yang paling penting bagi ayam broiler. Di dalamnya, ventilasi udara merupakan garis hidup anak ayam. Untuk itu, pada masa yang amat panas maka dilakukan metode penyambungan duct dari mesin kipas angin untuk menghantarkan angin secara langsung ke dalam kandang ayam. Kemudian, saat puncak panas di siang hari, lakukan penyemprotan air, dan turunkan suhu dalam kandang dengan penguapan air. Kematian ayam akibat panas mudah terjadi pada ayam yang tumbuh menjelang pengiriman."
+      },
+      {
+       "p": "Pada saat itu, maka suhu sekitar badan ayam akan lebih tinggi hampir 5 derajat Celsius dari suhu ruangan. Karena mati akbiat panas itu terjadi secara tiba-tiba, maka adalah penting untuk segera melakukan tindakan di hari yang bersuhu panas."
+      },
+      {
+       "h": "7 Pengelolaan Saat Cuaca Dingin"
+      },
+      {
+       "p": "Pada kandang ayam terbuka, perlu dilakukan pencegahan dingin agar angin dingin tidak bertiup masuk dengan mempergunakan korden. Agar tidak tertutup dan ventilasi jadi memburuk. Pada kandang ayam tertutup (windowless), volume ventilasi akan menjadi berkurang, namun perlu hati- hati agar tidak terjadi ventilasi yang buruk."
+      },
+      {
+       "h": "8 Pengelolaan Kesehatan Ayam"
+      },
+      {
+       "p": "Dalam memelihara ayam, perlu melakukan observasi terlihat atau tidaknya pada ekor kotor, kaki lemah, suara napas aneh, cara jalan aneh, dan kelainan gejala klinis lainnya. Perlu dilakukan pengelolaan suhu, kelembaban, dan ventilasi yang benar sesuai dengan usia pemeliharaan varietas ayam, perlu dilakukan pengelolaan ventilasi yang sesuai dengan usia pemeliharaan dan suhu (suhu ruangan) dengan baik, dan juga perlu dilakukan penjagaan area pemeliharaan yang sesuai dengan usia pemeliharaan."
+      },
+      {
+       "p": "Pengelola melakukan observasi harian atas ruangan pemeliharaan, observasi ada atau tidaknya ayam abnormal dan ayam mati, mengukur suhu, kelembaban, dan volume ventilasi, dan mengecek apakah pakan ternak dan air minum diberikan dengan tepat atau tidak."
+      },
+      {
+       "h": "9 Pengiriman sejak Pengumpulan Telur"
+      },
+      {
+       "p": "Kebanyakan ayam petelur bertelur di pagi hari. Proses pekerjaan pengumpulan telur → seleksi → inspeksi telur → pencucian telur → pengiriman itu dilakukan terlepas dari skala dan fasilitas peternakan ayam, dan terbagi menjadi pekerjaan mesin atau pekerjaan manual, tergantung terpasang atau tidaknya mesin pengumpul telur otomatis atau mesin penyeleksi otomatis atau mesin pencuci telur otomatis."
+      },
+      {
+       "p": "Saat pengumpulan telur, agar tidak ada benturan antar telur, atau telur retak dipatuk ayam"
+      },
+      {
+       "p": "(kebiasaan mematuk telur), atau kotor (ekor kotor), maka adalah penting untuk mengumpulkannya dengan cepat. Pisahkan telur yang jelek seperti retak atau bentuk abnormal, kumpulkan pada egg tray, dan umumnya dikirimkan dengan container. Terdapat berbagai metode dari pencucian dan penyeleksian telur (pemisahan berat standar), pembungkusan, memasukkan ke kotak, pengiriman ke rumah, atau direct selling yang juga dilakukan oleh peternak. Pada GP Center yang berdampingan dengan kandang ayam petelur (fasilitas mengumpulkan, menyeleksi, mencuci, dan mengepak telur), terdapat line pengumpulan telur yang disebut dengan inline system."
+      },
+      {
+       "p": "Sebelum dikirimkan, telur disimpan di tempat yang jauh dari kandang ayam, dimana sembari dilakukan perbandingan pengelolaan suhu gudang penyimpanan dengan suhu luar, dilakukan penyesesuaian suhu agar telur tidak berkondensasi. Periode penyimpanan sedapat mungkin dipersingkat."
+      },
+      {
+       "p": "Sebelum melakukan pekerjaan, pekerja mencuci dan mendisinfeksi tangan. Pergunakan kotak pengumpul telur, egg tray, dan egg container yang telah dicuci dan didisinfeksikan. Perlu persiapan dengan baik dengan mengecek peralatan pengumpul telur dan mesin apakah dapat beroperasi dengan normal. Lakukan inspeksi, cuci, dan disinfeksi peralatan pengumpul telur dan mesin secara berkala. Untuk pengumpulan telur manual, agar terjaga kesegarannya, maka sedapat mungkin perbanyak frekuensi pengumpulan telur dalam 1 hari."
+      },
+      {
+       "p": "\u001a Pengiriman Ayam Muda Pedaging (Broiler) 7 hari sebelum pengiriman, diberikan pakan non-kimia (pakan ternak yang tidak mengandung zat anti bakteri). Apabila memberikan zat anti bakteri selama masa pemeliharaan, maka dilakukan pengecekan apakah periode batas pengiriman sudah lewat atau belum. Dilakukan penerangan 24 jam sejak 7 hari sebelum pengiriman. Dilakukan penghentian pemberian pakan sejak 12 jam sebelum jadwal rencana pengolahan (tidak diberi makan). Penangkapan ayam dimulai menyesuaikan dengan jadwal pengiriman, namun sembari mengecek ada atau tidaknya pakan yang tersisa, maka dipisahkan ayam sakit dan ayam yang badannya nampak sangat kotor, dan dikirimkan ayam sehat dan ayam yang bersih."
+      },
+      {
+       "p": "\u001a Maintenance dan Pengelolaan Higienitas Fasilitas dan Mesin Penempatan fasilitas kandang ayam, fasilitas penyimpanan pakan ternak, fasilitas penyimpanan kompos, fasilitas waste storage, dan fasilitas tambahan adalah penting agar ayam dapat dipelihara secara higienis. Pengelolaan harian adalah perlu agar fasilitas tidak rusak, atau tetap normal, atau tetap higienis tanpa debu dan kotoran."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 132–138). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Anak ayam baru menetas badannya kecil dan suhu badannya rendah, juga kekuatan untuk beradaptasi dengan suhu lingkungannya masih lemah, sehingga harus diberi suplai suhu.",
+      "points": [
+       "Pengelolaan Kandang Pelihara Anak Ayam",
+       "（１）Pengelolaan Suhu",
+       "（２）Pengelolaan Kelembaban",
+       "（３）Pengelolaan Ventilasi",
+       "Pengelolaan Wadah Umpan dan Wadah Air",
+       "（１）Periode Anak Ayam Kecil",
+       "（２）Periode Anak Ayam Sedang ~ Anak Ayam Besar",
+       "① Pengelolaan Wadah Umpan",
+       "② Pengelolaan Wadah Air",
+       "Metode Potong Paruh (Debeak)"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 132–138)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s6",
+    "no": 6,
+    "title": {
+     "id": "Pekerjaan Harian Kuda dan Lebah",
+     "jp": "{馬|うま}・{養蜂|ようほう}の{作業|さぎょう}"
+    },
+    "pages": [
+     139,
+     144
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "６ Lain-Lain"
+      },
+      {
+       "h": "① Kuda Tipe Ringan"
+      },
+      {
+       "h": "1 Pengelolaan Kesehatan"
+      },
+      {
+       "h": "（１）Suhu Tubuh (Suhu Rektum)"
+      },
+      {
+       "p": "Panas normal adalah 37,5 ~ 38,4 derajat Celsius. Apabila melebihi 38,5 derajat Celsius, maka dianggap demam."
+      },
+      {
+       "h": "（２）Pengecekan Keempat Kaki"
+      },
+      {
+       "p": "Keempat kaki mudah bengkak akibat munculnya infeksi bakteri dari luka, dan kadang merupakan kendala dalam latihan. Amati dengan baik pada sebelum dan sesudah merumput ataupun latihan, dan penting untuk segera dirawat bila terdapat luka."
+      },
+      {
+       "h": "2 Pemasangan Tapal Kuda"
+      },
+      {
+       "ul": [
+        "Dengan semakin berlatih, karena kuku kuda cepat susut, maka dipasangkan tapal kuda untuk menjaga kuku kuda.",
+        "Frekuensi penggantian tapal kuda biasanya antara 3 pekan hingga 1 bulan."
+       ]
+      },
+      {
+       "h": "3 Pengelolaan Area Merumput"
+      },
+      {
+       "h": "（１）Membabat Rumput"
+      },
+      {
+       "p": "Dilakukan pembabatan rumput secara rutin untuk memperpendek tinggi rumput pada area merumput. Karena kuda menyukai rumput yang pendek, maka kuda akan banyak makan, dan berkesinambungan dengan pengontrolan rumput."
+      },
+      {
+       "h": "（２）Pengelolaan Sanitasi"
+      },
+      {
+       "p": "Kotoran kuda di area merumput dikumpulkan untuk mencegah meluasnya infeksi parasit."
+      },
+      {
+       "h": "4 Poin Pengelolaan Pemeliharaan"
+      },
+      {
+       "h": "（１）Pengelolaan Peternakan Produksi Kuda"
+      },
+      {
+       "ul": [
+        "Umumnya dilakukan pengelolaan merumput induk kuda bersama dengan anak kuda. Karena pada musim dingin di Hokkaido yang merupakan daerah penghasil utama itu suhunya rendah dan bertumpuk banyak salju, maka untuk musim dingin merumput hanya dilakukan pada siang hari, yakni merumput siang hari yang waktu selain itu dipelihara di dalam kandang, dan selain musim dingin dipelihara di dalam kandang hanya pada jam-jam tertentu di siang hari, dimana"
+       ]
+      },
+      {
+       "p": "kebanyakan waktu selain itu dilakukan merumput siang-malam atau juga merumput malam."
+      },
+      {
+       "ul": [
+        "Saat dipelihara di kandang, kuda diberi pakan konsentrat, namun akan ditambahkan volume pemberian pakan pada induk kuda pada masa menyusui atau fase akhir hamil.",
+        "Merumput dilakukan secara berkelompok, namun anak kuda pasca disapih dibiarkan merumput dipisahkan masing-masing jantan dengan betina."
+       ]
+      },
+      {
+       "p": "Merumput Siang Hari Merumput Malam Hari"
+      },
+      {
+       "h": "（２）Pengelolaan Peternakan Pemeliharaan Kuda"
+      },
+      {
+       "ul": [
+        "Volume pemberian pakan konsentrat ditingkatkan menyesuaikan dengan tingkat kesulitan latihan ditunggangi.",
+        "Untuk kuda yang telah cukup latihan ditunggangi, karena akan dipasangkan tapal kuda pada kukunya, maka tidak dibiarkan merumput berkelompok agar tidak terluka saling bermain, melainkan umumnya merumput di area merumput kecil untuk setiap 1 ekor kuda (paddock)."
+       ]
+      },
+      {
+       "h": "② Peternakan Lebah"
+      },
+      {
+       "h": "1 Alur Pekerjaan Selama 1 Tahun (Contoh)"
+      },
+      {
+       "p": "１ Pengecekan madu dalam sarang, pengelolaan suhu dalam kotak sarang. Pengecekan madu dalam sarang, disinfeksi dan perbaikan peralatan peternakan lebah, pengecekan lebah dalam kotak sarang, pemberian pakan dan obat."
+      },
+      {
+       "p": "Penambahan bingkai sarang di dalam kotak sarang, pengecekan lebah dalam kotak sarang. Penambahan bingkai sarang di dalam kotak sarang, pengecekan lebah dalam kotak sarang. ５ Pengambilan madu. ６ Pengambilan madu."
+      },
+      {
+       "p": "７ Pengelolaan suhu dalam kotak sarang, pemberian pakan dan obat. Pengelolaan suhu dalam kotak sarang, pemberian pakan dan obat, pengurangan bingkai sarang dalam kotak sarang, pembasmian tabuhan (hornet)."
+      },
+      {
+       "p": "Pemberian pakan, pengurangan bingkai sarang dalam kotak sarang, pembasmian tabuhan (hornet). Pemberian pakan dan obat, penyimpanan bingkai sarang, pembasmian tabuhan"
+      },
+      {
+       "p": "(hornet). Pemberian pakan. Pengelolaan suhu di dalam kotak sarang. ※ Tabuhan (hornet) = musuh lebah"
+      },
+      {
+       "h": "2 Pakaian"
+      },
+      {
+       "p": "Saat melakukan pengecekan lebah dalam kotak sarang, atau melakukan pekerjaan mengambil madu, pekerjaan dilakukan dengan mengenakan tudung muka (pelindung wajah) dan sarung tangan, dan pakaian terang yang tidak memperlihatkan kulit."
+      },
+      {
+       "h": "3 Peralatan Peternakan Lebah"
+      },
+      {
+       "h": "（１）Alat Pengasap"
+      },
+      {
+       "p": "Digunakan untuk meniupkan asap pada lebah untuk mengurangi daya serang lebah. Digunakan dengan membakar kain rami atau kertas, atau daun kering."
+      },
+      {
+       "h": "（２）Hive tool"
+      },
+      {
+       "p": "Spatula besi yang digunakan untuk membongkar saat bingkai sarang melekat kuat pada kotak sarang."
+      },
+      {
+       "h": "（３）Sikat Lebah"
+      },
+      {
+       "p": "Digunakan saat mengusir lebah dari bingkai sarang atau kotak sarang. Alat Pengasap Sarung Tangan Pemandangan Pekerjan Beternak Lebah"
+      },
+      {
+       "h": "4 Peralatan untuk Memproduksi Madu"
+      },
+      {
+       "h": "（１）Pisau Madu"
+      },
+      {
+       "p": "Pisau tajam yang digunakan saat mengiris tutup madu pada bagian dimana madu tertimbun saat memanen madu. Digunakan sembari dihangatkan dengan air panas, dan terdapat juga yang elektrik."
+      },
+      {
+       "h": "（２）Alat Pengekstrak"
+      },
+      {
+       "p": "Mesin untuk mengekstrasi madu dengan gaya sentrifugal dengan memasukkan dan memutar bingkai sarang yang tertimbun madu yang telah dipotong tutup sarangnya."
+      },
+      {
+       "h": "（３）Alat Penyaring Madu"
+      },
+      {
+       "p": "Digunakan untuk memisahkan madu dari kotoran sarang, saat memindahkan madu dari alat pengekstrak ke wadah penyimpan."
+      },
+      {
+       "h": "（４）Alat Pengukur Kadar Gula"
+      },
+      {
+       "p": "Digunakan untuk mengukur kadar gula madu. Alat Pengekstrak Alat Penyaring Madu Alat Pengukur Kadar Gula"
+      },
+      {
+       "h": "5 Pekerjaan Mengambil Madu"
+      },
+      {
+       "p": "lebah dengan asap dari alat pengasap. Masukkan dalam mesin pengekstrak, dan diputar-putar, maka madu akan keluar dari bawah. Melepaskan bingkai sarang. Terdapat sekitar 2.000 ekor lebah pada satu lembar bingkai sarang."
+      },
+      {
+       "p": "Melepaskan tutup madu. Hingga Madu Terbentuk Begitu disaring dengan jaring, maka akan jadi madu yang bersih dan murni!"
+      },
+      {
+       "h": "6 Pemanfaatan Peternakan Lebah"
+      },
+      {
+       "p": "Lebah akan mendatangi bunga untuk mendapatkan bahan makanan, namun dalam waktu yang bersamaan juga berperan membawa serbuk sari dari bunga ke bunga. Untuk itu, lebah dimanfaatkan dalam bidang produksi pertanian yang menghasilkan buah seperti strawberi, melon, semangka, ceri, dan sebagainya."
+      },
+      {
+       "p": "Lebah yang Membawa Serbuk Sari Bunga Strawberi Kotak Sarang yang Diletakkan pada Rumah Strawberi"
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 139–144). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Panas normal adalah 37,5 ~ 38,4 derajat Celsius.",
+      "points": [
+       "Lain-Lain",
+       "① Kuda Tipe Ringan",
+       "Pengelolaan Kesehatan",
+       "（１）Suhu Tubuh (Suhu Rektum)",
+       "（２）Pengecekan Keempat Kaki",
+       "Pemasangan Tapal Kuda",
+       "Pengelolaan Area Merumput",
+       "（１）Membabat Rumput",
+       "（２）Pengelolaan Sanitasi",
+       "Poin Pengelolaan Pemeliharaan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 139–144)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s7",
+    "no": 7,
+    "title": {
+     "id": "Poin Pengamatan Ujian Praktik",
+     "jp": "{実技試験|じつぎしけん}の{観察|かんさつ}ポイント"
+    },
+    "pages": [
+     145,
+     147
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Poin Pengamatan Pekerjaan Pengelolaan dan Peternakan (Untuk Ujian Praktek) Dalam pekerjaan di lahan ternak setiap hari, sembari bekerja dengan diajari oleh pengelola, penting untuk mengetahui metode kerja yang benar dan melakukan observasi ternak berikut ini."
+      },
+      {
+       "h": "1 Sapi"
+      },
+      {
+       "ul": [
+        "Cara mendekati, menarik, dan mengikat sapi",
+        "Cara membedakan sapi yang sehat dengan yang tidak sehat",
+        "Kondisi kuku dan cara memotong kuku sapi",
+        "Mengecek nama dan fungsi fasilitas (area kompos, silo, kandang free barn, kandang free stall, milking parlour, dan sebagainya)",
+        "Mengecek nama dan fungsi peralatan atau instalasi yang dipergunakan pada sapi perah",
+        "Pengelolaan higienitas saat pemerahan susu, dan cara pemasangan/pelepasan milker",
+        "Observasi kondisi kotoran (membedakan kotoran normal saat diare atau lembek)",
+        "Mengecek jenis dan nama pakan ternak (perbedaan antara pakan kasar dengan pakan konsentrat)",
+        "Perbedaan antara separate feeding pakan kasar dan pakan konsentrat dengan pakan ternak campuran (TMR: Total Mixed Ration)",
+        "Urutan pemberian pakan kasar dan pakan konsentrat pada separate feeding sapi perah",
+        "Poin pengelolaan harian tangki pakan dan tangki air",
+        "Observasi gejala estrus",
+        "Cara kastrasi (kebiri)",
+        "Cara potong tanduk",
+        "Cara menyusui anak sapi",
+        "Cara membedakan kolostrum dengan susu biasa",
+        "Mengecek cara buat tangki disinfeksi pijakan dan metode melewatinya"
+       ]
+      },
+      {
+       "h": "2 Peternakan Babi"
+      },
+      {
+       "ul": [
+        "Cara membawa babi",
+        "Cara membedakan babi yang sehat dengan yang tidak sehat",
+        "Mengecek jenis dan nama pakan ternak",
+        "Cara merawat anak babi baru lahir",
+        "Observasi kondisi kotoran (membedakan kotoran normal dengan saat diare atau lembek)",
+        "Cara kastrasi (kebiri)",
+        "Cara membedakan babi indukan dengan babi bakalan",
+        "Observasi dan pengecekan barisan ambing yang normal",
+        "Pengecekan periode pengiriman dan ukuran besar babi",
+        "Varietas babi",
+        "Observasi karkas babi",
+        "Mengecek cara buat tangki disinfeksi pijakan dan metode melewatinya"
+       ]
+      },
+      {
+       "h": "3 Peternakan Ayam (Ayam Petelur)"
+      },
+      {
+       "ul": [
+        "Observasi kondisi kotoran",
+        "Seleksi telur yang kotor",
+        "Cara menyusun telur untuk ditetaskan ke dudukan telur di inkubator",
+        "Cara membedakan telur yang subur",
+        "Cara membedakan anak ayam yang sehat dengan yang tidak sehat",
+        "Proses pertumbuhan anak ayam",
+        "Observasi suhu di dalam ruang pengelolaan anak ayam dan kondisi berkumpul atau berpencar",
+        "Cara membedakan dan membersihkan wadah air dan wadah pengumpan",
+        "Metode penyuntikan vaksin",
+        "Metode beak trimming (Potong paruh)",
+        "Cara mencari tahu kondisi nutrisi dan kondisi kesehatan ayam petelur (metode melalui observasi otot dada)",
+        "Observasi kondisi bertelur ayam petelur",
+        "Metode penggunaan egg tray",
+        "Pengecekan varietas ayam petelur dan warna telur",
+        "Memutuskan mutu telur melalui pembelahan telur ayam",
+        "Pengecekan pakan ternak untuk anak ayam, anak ayam sedang, ayam dewasa",
+        "Mengecek cara buat tangki disinfeksi pijakan dan metode melewatinya."
+       ]
+      },
+      {
+       "h": "4 Pengelolaan Higienitas"
+      },
+      {
+       "p": "１．Pengecekan pakaian saat masuk ke kandang (topi, sarung tangan, pakaian kerja, handuk, sepatu panjang). ２．Meminta orang dari luar yang datang ke lahan ternak untuk memakai boots cover dari plastik ３．Hal yang harus diperika (masuknya binatang kecil seperti burung liar atau tikus, apakah ada jamur pada silase, apakah ada orang tak dikenal yang masuk ke lahan ternak) ４．Cara memakai pakaian pelindung yang benar ５．Cara Melarutkan Disinfektan Sedapat mungkin, topi Kacamata pelindung Melekat di wajah Pakai yang google Pakaian pelindung Kenakan pakaian pelindung berlengan panjang dan celana panjang Pakai masker saat menim- bang, mempersiapkan, atau menyemprot pestisida Sarung tangan karet Pakai atasan berlengan panjang di atas sarung tangan."
+      },
+      {
+       "p": "Sepatu panjang Agar cairan kimia tidak masuk ke dalam pakaian, maka biarkan sepatu panjang tertutupi celana panjang."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 145–147). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Poin Pengamatan Pekerjaan Pengelolaan dan Peternakan (Untuk Ujian Praktek) Dalam pekerjaan di lahan ternak setiap hari, sembari bekerja dengan diajari oleh pengelola, penting untuk mengetahui metode kerja yang benar dan melakukan observasi ternak berikut ini.",
+      "points": [
+       "Peternakan Babi",
+       "Peternakan Ayam (Ayam Petelur)",
+       "Pengelolaan Higienitas"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 145–147)."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
