@@ -14,7 +14,7 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261111h";
+} from "./ssw-core.js?v=20261112a";
 import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
 
 let FB = null;
@@ -230,6 +230,22 @@ function blocksHTML(arr) {
     return "";
   }).join("");
 }
+/** Gambar/diagram potongan buku, ditaruh di samping materi. Hanya bidang dengan "figs" di index.json (Agriculture/Livestock tidak terpengaruh). */
+function figsHTML(pack, s, lang) {
+  const all = (pack.figs || []).filter(f => f.sub === s.id); if (!all.length) return "";
+  const pick = all.some(f => f.book === lang) ? all.filter(f => f.book === lang) : all;
+  const other = lang === "jp" ? "id" : "jp", oname = lang === "jp" ? "Bahasa Indonesia" : "日本語";
+  const byId = new Map((pack.vocab || []).map(v => [v.id, v]));
+  const cards = pick.map(f => {
+    const chips = (f.terms || []).map(id => byId.get(id)).filter(Boolean).map(v => `<button type="button" class="sw-vc" onclick="SSW.vsheet('${pack.slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button>`).join("");
+    return `<figure class="sw-fig"><button type="button" class="sw-fig-img" onclick="SSW.figZoom('${f.src}')" aria-label="Perbesar gambar"><img loading="lazy" src="${f.src}" width="${f.w}" height="${f.h}" alt="${esc(f.cap?.[lang] || f.cap?.id || "")}"></button>
+      <figcaption><b class="${lang === "jp" ? "jp" : ""}">${esc(f.cap?.[lang] || f.cap?.id || "")}</b><p>${esc(f.exp?.[lang] || f.exp?.id || "")}</p>
+      ${chips ? `<div class="sw-vchips">${chips}</div>` : ""}
+      <details><summary>${oname}</summary><p><b class="${other === "jp" ? "jp" : ""}">${esc(f.cap?.[other] || "")}</b></p><p>${esc(f.exp?.[other] || "")}</p></details>
+      <small class="sw-muted">Hal. buku ${f.page}${f.auto ? " · penjelasan otomatis, perlu ditinjau" : ""}</small></figcaption></figure>`;
+  }).join("");
+  return `<aside class="sw-figs" aria-label="Gambar dan diagram"><h2>🖼️ Gambar &amp; diagram (${pick.length})</h2>${cards}</aside>`;
+}
 function summaryHTML(s) {
   if (!s) return "";
   const box = (t, cls, arr) => arr && arr.length ? `<div class="sw-sbox ${cls}"><h4>${t}</h4><ul>${arr.map(x => `<li>${rich(x)}</li>`).join("")}</ul></div>` : "";
@@ -276,7 +292,11 @@ async function renderBaca([slug, subId, mode, lang]) {
     <article class="sw-panel sw-lesson ${lang}">
       <div class="sw-lh"><small>BAB ${c.no} · Subbab ${s.no}/${c.subs.length}</small><h1>${rich(L(s.title, lang))}</h1>
         <button class="sw-chip" onclick="SSW.sayTitle('${slug}','${s.id}','${lang}')">🔊</button></div>
-      <div class="sw-body">${body || '<p class="sw-muted">Konten belum tersedia untuk tampilan ini.</p>'}</div>
+      ${(() => { const miss = pack.idx.unified && ((mode === "lengkap" && lang === "jp" && !s.full?.jp && !s.pagesJp) || (mode === "ringkas" && lang === "jp" && !s.summary?.jp)); return miss ? `<div class="sw-note sw-langmiss">⚠️ Versi 日本語 untuk bagian ini belum tersedia — yang tampil adalah teks Indonesia.</div>` : ""; })()}
+      <div class="${mode === "lengkap" && (pack.figs || []).some(f => f.sub === s.id) ? "sw-lgrid" : ""}">
+        <div class="sw-body">${body || '<p class="sw-muted">Konten belum tersedia untuk tampilan ini.</p>'}</div>
+        ${mode === "lengkap" ? figsHTML(pack, s, lang) : ""}
+      </div>
     </article>
     ${pack.idx.nobook ? `<div class="sw-panel"><p class="sw-muted">Sumber: buku Jepang hal. ${p1 === p2 ? p1 : p1 + "–" + p2} (tampilan halaman buku tidak tersedia untuk bidang ini).</p></div>` : `<div class="sw-panel"><h2>📖 Halaman buku (${p1 === p2 ? "hal. " + p1 : `hal. ${p1}–${p2}`})</h2>
       <div class="sw-thumbs">${thumbs.map(p => `<a onclick="route('ssw-buku/${slug}/${lang}/${p}')"><img loading="lazy" src="${pageFile(slug, lang, p + 1)}" alt="Halaman ${p}"><span>${p}</span></a>`).join("")}</div>
@@ -321,6 +341,7 @@ async function renderBuku([slug, lang, page]) {
 
 /* ============================== KOSAKATA ============================== */
 const VS = { q: "", cat: "" };
+const vScript = (k) => { k = String(k || ""); if (/[\u3400-\u9fff々]/.test(k)) return "kanji"; if (/^[\u3040-\u309fー・\s]+$/.test(k)) return "hira"; if (/^[\u30a0-\u30ffー・\s]+$/.test(k)) return "kata"; return "other"; };
 async function renderKosa([slug, scope = "all"]) {
   applyRuby();
   const g = await gate(slug); if (g.err) return g.err;
@@ -333,7 +354,7 @@ async function renderKosa([slug, scope = "all"]) {
   else if (scope !== "all") vocab = vocab.filter(v => v.bab === scope);
   const cats = [...new Set(vocab.map(v => v.cat).filter(Boolean))];
   const st = cardStats(P, vocab);
-  window.__swVocab = { slug, vocab };
+  window.__swVocab = { slug, vocab }; window.__swVF = {};
   setTimeout(() => window.SSW.vFilter(), 0);
   return wrap(`
     ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Kosakata" }])}
@@ -342,6 +363,10 @@ async function renderKosa([slug, scope = "all"]) {
     <div class="sw-tabs"><button class="${scope === "all" ? "on" : ""}" onclick="route('ssw-kosa/${slug}/all')">All Vocabulary</button>${chs.map(c => `<button class="${scope === c.id ? "on" : ""}" onclick="route('ssw-kosa/${slug}/${c.id}')">BAB ${c.no} Vocabulary</button>`).join("")}</div>
     <div class="sw-tools"><input id="sw-q" type="search" placeholder="Cari kata / arti / romaji…" oninput="SSW.vFilter()"><select id="sw-cat" onchange="SSW.vFilter()"><option value="">Semua kategori</option>${cats.map(c => `<option>${esc(c)}</option>`).join("")}</select>
       <button class="btn" onclick="route('ssw-hafal/${slug}/${scope === "all" ? "" : scope}')">🃏 Flashcard</button></div>
+    ${pack.idx.unified ? `<div class="sw-vf" id="sw-vf">
+      <div class="sw-vfg"><b>Aksara</b>${[["", "Semua"], ["kanji", "Kanji"], ["hira", "Hiragana"], ["kata", "Katakana"]].map(([k, t]) => `<button class="sw-chip${k ? "" : " on"}" data-g="scr" data-v="${k}" onclick="SSW.vChip(this)">${t}</button>`).join("")}</div>
+      <div class="sw-vfg"><b>Jenis</b>${[["", "Semua"], ["KK", "Kata kerja"], ["KB", "Kata benda"], ["KS", "Kata sifat"], ["tek", "Istilah teknis"]].map(([k, t]) => `<button class="sw-chip${k ? "" : " on"}" data-g="pos" data-v="${k}" onclick="SSW.vChip(this)">${t}</button>`).join("")}</div>
+      <div class="sw-vfg"><span id="sw-vcount" class="sw-muted"></span><button class="btn ghost" onclick="SSW.vHafal('flashcard')">🃏 Flashcard</button><button class="btn ghost" onclick="SSW.vHafal('multiple')">✅ Pilihan ganda</button><button class="btn ghost" onclick="SSW.vHafal('matching')">🔗 Matching</button><button class="btn ghost" onclick="SSW.vHafal('mixed')">🎲 Campur</button></div></div>` : ""}
     <div class="sw-vlist" id="sw-vlist"></div>`);
 }
 function vRow(v, P, slug) {
@@ -534,6 +559,11 @@ const SSW = window.SSW = {
   pref(k, d) { const p = getPrefs(); this.prefSet(k, Math.min(220, Math.max(70, p[k] + d)), true); },
   prefSet(k, v, redraw) { const p = getPrefs(); p[k] = Number(v); setPrefs(p); applyPrefs(); if (k === "popup" || k === "hafal") { const slug = (location.hash.match(/^#\/?ssw-[a-z]+\/([^\/]+)/) || [])[1] || "building-cleaning"; getProgress(slug).then(P => { P.pref = { popup: p.popup, hafal: p.hafal }; touch(slug); flush(slug); }); toast(k === "popup" ? (v ? "Pop-up kosakata ON" : "Pop-up kosakata OFF") : (v ? "Hafalan ON" : "Hafalan OFF")); } if (k === "size") { const o = document.getElementById("sw-o1"); if (o) o.textContent = p.size + "%"; const r = document.getElementById("sw-r1"); if (r) r.value = p.size; } else { const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } } },
   prefReset() { setPrefs({ ...PREF_DEF }); applyPrefs(); const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } },
+  figZoom(src) {
+    let lb = document.getElementById("sw-figlb"); if (lb) lb.remove();
+    lb = document.createElement("div"); lb.id = "sw-figlb"; lb.innerHTML = `<button type="button" class="x" aria-label="Tutup">✕</button><img src="${src}" alt="">`;
+    lb.onclick = () => { lb.remove(); document.body.classList.remove("sw-lbopen"); }; document.body.append(lb); document.body.classList.add("sw-lbopen");
+  },
   zoomPage(url) { SSW.zoomImg({ style: { backgroundImage: `url('${url}')`, aspectRatio: "1", backgroundSize: "100%", backgroundPosition: "0% 0%" } }, "full"); },
   zoomImg(el, startMode) {
     const bg = el.style.backgroundImage, ar = parseFloat(el.style.aspectRatio) || 1;
@@ -721,12 +751,25 @@ const SSW = window.SSW = {
   bookGo(d) { const n = Math.max(0, Math.min(BOOK.total - 1, BOOK.pg + d)); if (n !== BOOK.pg) route(`ssw-buku/${BOOK.slug}/${BOOK.lang}/${n}`); },
   bookJump(v) { const n = parseInt(v, 10); const el = document.getElementById("bk-n"); if (el) el.textContent = n; clearTimeout(BOOK._t); BOOK._t = setTimeout(() => route(`ssw-buku/${BOOK.slug}/${BOOK.lang}/${n}`), 350); },
   /* --- kosakata --- */
+  vChip(el) {
+    const g = el.dataset.g, vf = (window.__swVF = window.__swVF || {}); vf[g] = el.dataset.v;
+    document.querySelectorAll(`#sw-vf [data-g="${g}"]`).forEach(b => b.classList.toggle("on", b === el)); SSW.vFilter();
+  },
+  async vHafal(mode) {
+    const rows = window.__swRows || (window.__swVocab && window.__swVocab.vocab) || [];
+    if (!rows.length) return toast("Tidak ada kata pada filter ini");
+    let items = hafItems(rows), m = mode;
+    if (mode === "mixed") { const ms = ["flashcard", "multiple", "matching"]; m = ms[Math.floor(Math.random() * ms.length)]; toast("Mode acak: " + { flashcard: "Flashcard", multiple: "Pilihan ganda", matching: "Matching" }[m]); }
+    await window.sswHafalStart({ items, mode: m, back: `ssw-kosa/${window.__swVocab.slug}/all` });
+  },
   vFilter() {
     const box = document.getElementById("sw-vlist"); if (!box || !window.__swVocab) return;
     const { slug, vocab } = window.__swVocab;
     const q = (document.getElementById("sw-q")?.value || "").toLowerCase().trim(), cat = document.getElementById("sw-cat")?.value || "";
     getProgress(slug).then(P => {
-      const rows = vocab.filter(v => (!cat || v.cat === cat) && (!q || [v.kata, v.kana, v.romaji, v.arti].some(x => String(x || "").toLowerCase().includes(q))));
+      const f = window.__swVF || {}, scr = f.scr || "", pos = f.pos || "";
+      const rows = vocab.filter(v => (!cat || v.cat === cat) && (!q || [v.kata, v.kana, v.romaji, v.arti].some(x => String(x || "").toLowerCase().includes(q))) && (!scr || vScript(v.kata) === scr) && (!pos || (pos === "tek" ? v.tek : (v.pos || []).some(t => t.startsWith(pos)))));
+      window.__swRows = rows; const cEl = document.getElementById("sw-vcount"); if (cEl) cEl.textContent = rows.length + " kata";
       box.innerHTML = rows.length ? rows.map(v => vRow(v, P, slug)).join("") : '<div class="sw-muted sw-center">Tidak ada kata yang cocok.</div>';
     });
   },

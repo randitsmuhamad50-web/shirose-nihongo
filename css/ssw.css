@@ -260,3 +260,28 @@ ruby rt{font-family:inherit; font-weight:500; letter-spacing:0;}
 
 /* opsi berupa gambar (kuis peralatan) */
 .sw-opts.imgs{display:grid; grid-template-columns:1fr 1fr; gap:10px;} .sw-opt.img{flex-direction:column; align-items:center; gap:6px; padding:8px; position:relative; min-height:150px;} .sw-opt.img img{width:100%; height:140px; object-fit:contain; background:#fff; border-radius:8px;} .sw-opt.img .l{position:absolute; top:6px; left:6px; z-index:1;} .sw-opt.img .cap{font-size:12px; line-height:1.3; text-align:center; min-height:0;} .sw-opt.img .cap:empty{display:none;}
+
+/* ---- gambar di samping materi (bidang dengan figs.json) ---- */
+.sw-lgrid{display:block;}
+.sw-figs{margin-top:18px;}
+.sw-figs h2{font-size:16px;margin:0 0 10px;}
+.sw-fig{margin:0 0 14px;background:rgba(42,50,112,.28);border:1px solid var(--border,#2a3270);border-radius:12px;overflow:hidden;}
+.sw-fig-img{display:block;width:100%;padding:8px;background:#fff;border:0;cursor:zoom-in;}
+.sw-fig-img img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;}
+.sw-fig figcaption{padding:10px 12px;font-size:14px;line-height:1.6;}
+.sw-fig figcaption p{margin:4px 0;} .sw-fig details{margin:4px 0;font-size:13px;opacity:.9;} .sw-fig summary{cursor:pointer;}
+.sw-langmiss{margin:8px 0;}
+@media (min-width:1000px){
+  .sw-lgrid{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:22px;align-items:start;}
+  .sw-lgrid .sw-figs{position:sticky;top:12px;margin-top:0;max-height:calc(100vh - 24px);overflow:auto;padding-right:4px;}
+}
+#sw-figlb{position:fixed;inset:0;z-index:99999;background:rgba(5,8,25,.92);display:flex;align-items:center;justify-content:center;padding:12px;cursor:zoom-out;}
+#sw-figlb img{max-width:100%;max-height:100%;background:#fff;border-radius:8px;} #sw-figlb .x{position:absolute;top:10px;right:12px;font-size:22px;background:none;border:0;color:#fff;}
+
+/* ===== filter kosakata (bidang unified) ===== */
+.sw-vf{display:flex; flex-direction:column; gap:8px; margin:4px 0 10px;}
+.sw-vfg{display:flex; flex-wrap:wrap; gap:6px; align-items:center;}
+.sw-vfg>b{font-size:12px; opacity:.7; min-width:46px;}
+.sw-vfg .sw-chip.on{background:var(--gold,#f5b301); color:#111; border-color:transparent;}
+.sw-vfg .btn{min-height:40px; padding:0 12px; font-size:13px;}
+@media (max-width:560px){.sw-vfg .btn{flex:1 1 44%;}}

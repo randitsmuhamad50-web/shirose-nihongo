@@ -2,9 +2,9 @@
  "slug": "food-service",
  "nama": "Food Service (Jasa Boga)",
  "jp": "外食業",
- "book": "id",
  "pages": {
-  "id": 128
+  "id": 128,
+  "jp": 145
  },
  "bab": [
   {
@@ -21,5 +21,7 @@
   }
  ],
  "vocab": "vocab.json",
- "quiz": "quiz.json"
+ "quiz": "quiz.json",
+ "figs": "figs.json",
+ "unified": true
 }

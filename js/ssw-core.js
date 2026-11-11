@@ -63,7 +63,6 @@ export const DEFAULT_BIDANG = [
   { slug: "kaigo-jp", nama: "Kaigo (Bahasa Jepang)", jp: "介護の日本語", induk: "kaigo", aktif: true, urut: 2.5, tema: "kaigo", hasContent: true },
   { slug: "food-manufacturing", nama: "Food Manufacturing", jp: "飲食料品製造業", aktif: true, urut: 3, tema: "factory", hasContent: true },
   { slug: "food-service", nama: "Food Service (Jasa Boga)", jp: "外食業", aktif: true, urut: 4, tema: "restaurant", hasContent: true },
-  { slug: "food-service-jp", nama: "Food Service (Bahasa Jepang)", jp: "外食業（日本語）", induk: "food-service", aktif: true, urut: 4.5, tema: "restaurant", hasContent: true },
   { slug: "agriculture", nama: "Agriculture (Pertanian)", jp: "農業", aktif: true, urut: 5, tema: "farm", hasContent: true },
   { slug: "construction", nama: "Construction", jp: "建設", label: "🏗️ Sipil (Doboku) ›", aktif: true, urut: 6, tema: "construction", hasContent: true },
   { slug: "construction-bangunan", nama: "Construction (Bangunan)", jp: "建設（建築）", label: "🏢 Bangunan (Kenchiku) ›", induk: "construction", aktif: true, urut: 6.1, tema: "construction", hasContent: true },
@@ -99,8 +98,10 @@ export async function loadPack(slug) {
     let vocab = [], quiz = { bab: {}, full: [] };
     try { vocab = await getJSON(`${base}/${idx.vocab || "vocab.json"}`); } catch (e) {}
     try { quiz = await getJSON(`${base}/${idx.quiz || "quiz.json"}`); } catch (e) {}
+    let figs = [];   // gambar/diagram potongan dari buku (hanya bidang yang menyebut "figs" di index.json)
+    if (idx.figs) { try { figs = (await getJSON(`${base}/${idx.figs}`)).figs || []; } catch (e) {} }
     const chapters = babs.map((d, i) => ({ ...d.bab, source: d.source, order: i, subs: d.bab.subs }));
-    return { slug, idx, chapters, vocab: vocab.items || vocab, quiz };
+    return { slug, idx, chapters, vocab: vocab.items || vocab, quiz, figs };
   })();
   try { return await _pack[slug]; } catch (e) { delete _pack[slug]; throw e; }
 }
