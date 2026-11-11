@@ -24,6 +24,12 @@
     Cache-Control = "no-cache"
     Content-Type = "application/javascript"
 
+# Audio VOICEVOX: boleh di-cache browser 7 hari (hemat bandwidth, siswa tidak unduh ulang).
+[[headers]]
+  for = "/audio/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
 [[headers]]
   for = "/*"
   [headers.values]

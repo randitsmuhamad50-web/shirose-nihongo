@@ -152,8 +152,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261111z";
-import { renderSswTab } from "./js/ssw-teacher.js?v=20261111z";
+import * as FB from "./js/firebase-sync.js?v=20261112a";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261112a";
 
 const state = {
   user: null,
@@ -277,7 +277,7 @@ function renderApp(){
   `;
   renderTab();
 }
-window.setTab = (t) => { state.tab = t; renderApp(); };
+window.setTab = (t) => { state.tab = t; state.siswaStale = true; renderApp(); };
 
 window.renderTab = (...a) => renderTab(...a);
 async function renderTab(){
@@ -352,7 +352,13 @@ window.kposReset = async (i) => {
 /* ========== TAB: SISWA ========== */
 async function renderSiswaTab(){
   try {
-    state.siswaList = await FB.listSiswa();
+    // Daftar dimuat dari Firebase hanya saat tab dibuka / tombol Refresh.
+    // Klik di dalam tab (status, akses, pindah kelas, buka kelas) memakai data yang sudah ada.
+    if (state.siswaStale !== false || !state.siswaLoaded){
+      const [sl, kl] = await Promise.all([FB.listSiswa(), FB.listKelas().catch(() => state.kelasList || [])]);
+      state.siswaList = sl; state.kelasList = kl;
+      state.siswaLoaded = true; state.siswaStale = false;
+    }
   } catch(e){
     return `
       <div class="panel">
@@ -405,13 +411,34 @@ async function renderSiswaTab(){
         <button class="${state.siswaView !== "daftar" ? "on" : ""}" onclick="setSiswaView('kelas')">🎓 Per Kelas</button>
         <button class="${state.siswaView === "daftar" ? "on" : ""}" onclick="setSiswaView('daftar')">📋 Daftar</button>
       </div>
-      <button class="btn sm ghost" style="margin-bottom:10px;" onclick="renderTab()">🔄 Refresh daftar</button>
-      ${state.siswaView !== "daftar" ? renderSiswaPerKelas() : ""}
-      <div class="table-wrap" style="${state.siswaView !== "daftar" ? "display:none;" : ""}">
+      <button class="btn sm ghost" style="margin-bottom:10px;" onclick="refreshSiswa()">🔄 Refresh daftar</button>
+      ${state.siswaView !== "daftar" ? renderSiswaPerKelas() : renderSiswaDaftar()}
+    </div>
+  `;
+}
+/* ===== Daftar siswa per kelas + statistik ringkas (termasuk sylabus) ===== */
+window.setSiswaView = (v) => { state.siswaView = v; renderTab(); };
+function _bolehHapus(s){
+  const role = s.role || "student";
+  if (role === "developer") return false;
+  if (role !== "student" && !FB.userIsAdmin()) return false;
+  return true;
+}
+// Batasi baris yang digambar supaya halaman tetap ringan walau siswa ribuan.
+function _potong(arr){ return arr.slice(0, state.siswaMax || 100); }
+function _tombolLebih(total){
+  const tampil = Math.min(total, state.siswaMax || 100);
+  return total > tampil
+    ? `<div style="text-align:center; margin:8px 0;"><button class="btn sm ghost" onclick="lebihBanyak()">Tampilkan lebih banyak (${tampil} dari ${total})</button></div>` : "";
+}
+window.lebihBanyak = () => { state.siswaMax = (state.siswaMax || 100) + 100; renderTab(); };
+window.refreshSiswa = () => { state.siswaStale = true; renderTab(); };
+function renderSiswaDaftarTabel(){
+  return `      <div class="table-wrap">
         <table>
           <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Status</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
           <tbody>
-            ${state.siswaList.map(s => {
+            ${_potong(state.siswaList).map(s => {
               const role = s.role || "student";
               const nonaktif = s.status === "nonaktif";
               const bisaUbahStatus = role === "student" || FB.userIsAdmin();
@@ -431,38 +458,119 @@ async function renderSiswaTab(){
                 <td>
                   ${role === "student" ? `<button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>` : ""}
                   <button class="btn sm ghost" onclick="lihatGami('${s.uid}', '${(s.nama||s.email).replace(/'/g,'')}')">Progres</button>
+                  ${_bolehHapus(s) ? `<button class="btn sm danger" onclick="hapusSiswa('${s.uid}')">🗑️ Hapus</button>` : ""}
                 </td>
               </tr>
               ${role === "student" ? `<tr class="stat-row" hidden style="${nonaktif?'opacity:.55;':''}"><td colspan="7"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>` : ""}`; }).join("")}
           </tbody>
         </table>
-      </div>
-    </div>
-  `;
+      </div>`;
 }
-/* ===== Daftar siswa per kelas + statistik ringkas (termasuk sylabus) ===== */
-window.setSiswaView = (v) => { state.siswaView = v; renderTab(); };
-function renderSiswaPerKelas(){
+function renderSiswaDaftar(){
+  return `${renderSiswaDaftarTabel()}${_tombolLebih(state.siswaList.length)}`;
+}
+function _grupSiswa(){
   const siswa = state.siswaList.filter(s => (s.role || "student") === "student");
-  const grup = {};
-  siswa.forEach(s => { const k = (s.kelas || "").trim() || "Tanpa kelas"; (grup[k] = grup[k] || []).push(s); });
-  const nama = Object.keys(grup).sort((a, b) => a === "Tanpa kelas" ? 1 : b === "Tanpa kelas" ? -1 : a.localeCompare(b));
-  if (!nama.length) return `<div style="color:var(--gray); padding:16px; text-align:center;">Belum ada siswa.</div>`;
-  return nama.map(k => `
-    <div class="sg-kelas">
-      <h3>🎓 ${k} <span>(${grup[k].length} siswa)</span></h3>
-      ${grup[k].map(s => {
-        const nonaktif = s.status === "nonaktif";
-        return `<div class="sg-row" style="${nonaktif ? "opacity:.55;" : ""}">
-          <div class="who"><b>${s.nama || "(tanpa nama)"}</b><span class="em">${s.email || ""}</span></div>
-          <div>${["n5","n4","n3","n2","n1"].map(l => `<span class="chip btn-chip ${s.aksesLevel?.[l] ? "on" : ""}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`).join("")}</div>
-          <span class="chip btn-chip ${nonaktif ? "" : "on"}" onclick="toggleStatus('${s.uid}', ${nonaktif})">${nonaktif ? "Nonaktif" : "Aktif"}</span>
-          <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
-          <div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div>
-        </div>`;
-      }).join("")}
-    </div>`).join("");
+  const grup = {}, tanpa = [];
+  siswa.forEach(s => { const k = (s.kelas || "").trim(); if (!k) tanpa.push(s); else (grup[k] = grup[k] || []).push(s); });
+  (state.kelasList || []).forEach(k => { const n = (k.nama || "").trim(); if (n && !grup[n]) grup[n] = []; });
+  return { grup, tanpa, nama: Object.keys(grup).sort((a, b) => a.localeCompare(b)) };
 }
+const _chipAkses = (s) => ["n5","n4","n3","n2","n1"].map(l => `<span class="chip btn-chip ${s.aksesLevel?.[l] ? "on" : ""}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`).join("");
+const _chipStatus = (s) => { const n = s.status === "nonaktif"; return `<span class="chip btn-chip ${n ? "" : "on"}" onclick="toggleStatus('${s.uid}', ${n})">${n ? "Nonaktif" : "Aktif"}</span>`; };
+function _barisSiswaKelas(s){
+  const nonaktif = s.status === "nonaktif";
+  return `<div class="sg-row" style="${nonaktif ? "opacity:.55;" : ""}">
+    <div class="who"><b>${escHtml(s.nama || "(tanpa nama)")}</b><span class="em">${escHtml(s.email || "")}</span></div>
+    <div>${_chipAkses(s)}</div>
+    ${_chipStatus(s)}
+    <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
+    <button class="btn sm ghost" onclick="pindahKelas('${s.uid}', '')">↩︎ Keluarkan</button>
+    ${_bolehHapus(s) ? `<button class="btn sm danger" onclick="hapusSiswa('${s.uid}')">🗑️ Hapus</button>` : ""}
+    <div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div>
+  </div>`;
+}
+function _isiKelas(i){
+  const { grup, nama } = _grupSiswa();
+  const list = grup[nama[i]] || [];
+  if (!list.length) return `<div style="color:var(--gray); padding:8px 0;">Belum ada siswa di kelas ini.</div>`;
+  return _potong(list).map(_barisSiswaKelas).join("") + _tombolLebih(list.length);
+}
+function renderSiswaPerKelas(){
+  const { grup, tanpa, nama } = _grupSiswa();
+  state.siswaBuka = state.siswaBuka || {};
+  const opsiKelas = nama.map(k => `<option value="${escHtml(k)}">${escHtml(k)}</option>`).join("");
+  const tabelTanpa = tanpa.length ? `
+    <div class="table-wrap"><table>
+      <thead><tr><th>Nama</th><th>Email</th><th>Status</th><th>Akses JLPT</th><th>Masukkan ke kelas</th><th>Aksi</th></tr></thead>
+      <tbody>${_potong(tanpa).map(s => {
+        const nonaktif = s.status === "nonaktif";
+        return `<tr style="${nonaktif ? "opacity:.55;" : ""}">
+          <td><b>${escHtml(s.nama || "(nama belum diisi)")}</b></td>
+          <td>${escHtml(s.email || "")}</td>
+          <td>${_chipStatus(s)}</td>
+          <td>${_chipAkses(s)}</td>
+          <td>${nama.length ? `<select onchange="pindahKelas('${s.uid}', this.value)"><option value="">— pilih kelas —</option>${opsiKelas}</select>` : `<span style="color:var(--gray); font-size:12px;">Belum ada kelas</span>`}</td>
+          <td>
+            <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
+            ${_bolehHapus(s) ? `<button class="btn sm danger" onclick="hapusSiswa('${s.uid}')">🗑️ Hapus</button>` : ""}
+          </td>
+        </tr>
+        <tr class="stat-row" hidden><td colspan="6"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`;
+      }).join("")}</tbody>
+    </table></div>${_tombolLebih(tanpa.length)}` : `<div style="color:var(--gray); padding:8px 0;">Semua siswa sudah punya kelas ✓</div>`;
+  const blokTanpa = `<div class="sg-kelas" style="border-color:#f59e0b;">
+      <h3 style="color:#f59e0b;">⚠️ Siswa Tanpa Kelas <span>(${tanpa.length})</span></h3>${tabelTanpa}</div>`;
+  const blokKelas = nama.map((k, i) => {
+    const buka = !!state.siswaBuka[k];
+    return `<div class="sg-kelas">
+      <h3 style="cursor:pointer; user-select:none;" onclick="bukaKelasSiswa(${i})"><span id="kel-ar-${i}">${buka ? "▾" : "▸"}</span> 🎓 ${escHtml(k)} <span>(${grup[k].length} siswa)</span></h3>
+      <div id="kel-isi-${i}" style="${buka ? "" : "display:none;"}">${buka ? _isiKelas(i) : ""}</div>
+    </div>`;
+  }).join("");
+  return blokTanpa + (blokKelas || `<div style="color:var(--gray); padding:16px; text-align:center;">Belum ada kelas. Buat di tab Kelas.</div>`);
+}
+// Isi kelas baru digambar saat kelas dibuka (lazy), tanpa memuat ulang dari Firebase.
+window.bukaKelasSiswa = (i) => {
+  const { nama } = _grupSiswa();
+  const k = nama[i]; if (k === undefined) return;
+  state.siswaBuka = state.siswaBuka || {};
+  const buka = !state.siswaBuka[k];
+  state.siswaBuka[k] = buka;
+  const isi = document.getElementById("kel-isi-" + i), ar = document.getElementById("kel-ar-" + i);
+  if (!isi) return;
+  isi.innerHTML = buka ? _isiKelas(i) : "";
+  isi.style.display = buka ? "" : "none";
+  if (ar) ar.textContent = buka ? "▾" : "▸";
+};
+window.pindahKelas = async (uid, kls) => {
+  kls = (kls || "").trim();
+  try {
+    await FB.updateKelasSiswa(uid, kls);
+    const s = state.siswaList.find(x => x.uid === uid);
+    if (s) s.kelas = kls;
+    toast(kls ? `✓ Dimasukkan ke kelas ${kls}` : "✓ Dikeluarkan dari kelas");
+    renderTab();
+  } catch(e){ toast("Gagal: " + (e.message || e)); }
+};
+window.hapusSiswa = async (uid) => {
+  const s = state.siswaList.find(x => x.uid === uid);
+  if (!s) return;
+  if (!_bolehHapus(s)) return toast("Tidak boleh menghapus akun ini");
+  if (!confirm(`Hapus akun "${s.nama || s.email}" (${s.email})?\n\nSeluruh data belajarnya ikut terhapus (nilai, progres, hafalan, XP). Tidak bisa dibatalkan.`)) return;
+  if ((prompt("Ketik HAPUS (huruf besar) untuk konfirmasi:") || "").trim() !== "HAPUS") return toast("Dibatalkan");
+  try {
+    await FB.hapusSiswa(uid);
+    state.siswaList = state.siswaList.filter(x => x.uid !== uid);
+    toast("✓ Akun siswa dihapus");
+    renderTab();
+  } catch(e){
+    const m = e && (e.code === "permission-denied" || /permission/i.test(e.message || ""))
+      ? "Firestore menolak hapus. Update Rules dari firestore.rules.example lalu Publish."
+      : (e.message || e);
+    toast("Gagal hapus: " + m);
+  }
+};
 const _materiLen = {};
 async function _jumlahMateri(lvl){
   if (_materiLen[lvl]) return _materiLen[lvl];
@@ -579,6 +687,7 @@ window.buatAkunBaru = async () => {
     await FB.buatAkunSiswa({ email: v("ba-email"), password: v("ba-pwd"), nama: v("ba-nama"), kelas: v("ba-kelas"),
                              aksesLevel, role: v("ba-role") || "student" });
     toast("✓ Akun " + v("ba-email") + " dibuat");
+    state.siswaStale = true;
     renderTab();
   } catch(e){
     msg.style.color = "var(--red)"; msg.textContent = e.message || String(e);
@@ -696,6 +805,8 @@ window.prosesImportSiswa = async () => {
 window.toggleStatus = async (uid, sedangNonaktif) => {
   try {
     await FB.setStatusSiswa(uid, sedangNonaktif);
+    const sl = state.siswaList.find(x => x.uid === uid);
+    if (sl) sl.status = sedangNonaktif ? "aktif" : "nonaktif";
     toast(sedangNonaktif ? "Akun diaktifkan" : "Akun dinonaktifkan");
     renderTab();
   } catch(e){ toast("Gagal: " + (e.message || e)); }
@@ -712,6 +823,8 @@ window.toggleAkses = async (uid, lvl) => {
 };
 window.updateKelas = async (uid, kls) => {
   await FB.updateKelasSiswa(uid, kls);
+  const sl = state.siswaList.find(x => x.uid === uid);
+  if (sl) sl.kelas = (kls || "").trim();
   toast("Kelas disimpan");
 };
 window.lihatGami = async (uid, nama) => {

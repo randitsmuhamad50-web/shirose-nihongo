@@ -26,7 +26,7 @@ import {
 import {
   getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc,
   collection, getDocs, onSnapshot, query, orderBy, limit, addDoc,
-  where, writeBatch, serverTimestamp, FieldPath, deleteField
+  where, writeBatch, serverTimestamp, FieldPath, deleteField, documentId
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -602,8 +602,10 @@ export async function recordActivity(type, count = 1){
 export async function listActivity(ym /* YYYYMM */){
   if (!currentUser) return {};
   try {
+    // Hanya baca dokumen bulan yang diminta (id = YYYYMMDD), bukan seluruh riwayat.
     const col = collection(db, "siswa", currentUser.uid, "activity");
-    const snap = await getDocs(col);
+    const q = query(col, where(documentId(), ">=", ym), where(documentId(), "<", ym + "\uf8ff"));
+    const snap = await getDocs(q);
     const result = {};
     snap.forEach(d => {
       if (d.id.startsWith(ym)) result[d.id] = d.data();
@@ -1049,6 +1051,37 @@ export async function daftarkanAkunExisting({ uid, email, nama, kelas, aksesLeve
   await setDoc(ref, _profilBaru(uid, (email||"").trim().toLowerCase(), nama, kelas, aksesLevel, "student"));
   return uid;
 }
+/**
+ * Guru/moderator menghapus akun siswa: semua data belajarnya (sub-koleksi) lalu
+ * profil siswa/{uid}. Catatan: record login di Firebase Authentication TIDAK ikut
+ * terhapus (itu butuh Admin SDK / Firebase Console). Tanpa profil, akun itu tidak
+ * bisa membaca data apa pun (status "belum terdaftar" di Rules).
+ */
+const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
+export async function hapusSiswa(uid) {
+  if (!userIsGuru()) throw new Error("Hanya guru/moderator");
+  if (!uid) throw new Error("UID kosong");
+  if (currentUser && uid === currentUser.uid) throw new Error("Tidak bisa menghapus akun sendiri");
+  const ref = doc(db, "siswa", uid);
+  const snap = await getDoc(ref);
+  if (!snap.exists()) return 0;
+  const data = snap.data() || {};
+  const role = data.role || "student";
+  if (role === "developer" || _isOwnerEmail(data.email)) throw new Error("Akun moderator tidak bisa dihapus");
+  if (role !== "student" && !userIsAdmin()) throw new Error("Hanya moderator yang bisa menghapus akun guru");
+  let n = 0;
+  for (const sub of _SUB_SISWA) {
+    const docs = (await getDocs(collection(db, "siswa", uid, sub))).docs;
+    for (let i = 0; i < docs.length; i += 400) {
+      const b = writeBatch(db);
+      docs.slice(i, i + 400).forEach(d => b.delete(d.ref));
+      await b.commit();
+      n += Math.min(400, docs.length - i);
+    }
+  }
+  await deleteDoc(ref);
+  return n + 1;
+}
 /** Aktifkan / nonaktifkan akun (akun nonaktif tidak bisa login & ditolak Rules). */
 export async function setStatusSiswa(uid, aktif) {
   if (!userIsGuru()) throw new Error("Hanya guru/moderator");
@@ -1171,6 +1204,9 @@ export async function resetSswRank(slug) {
 }
 
 /* ========== LEADERBOARD ========== */
+// PERINGATAN SKALA: dua fungsi di bawah membaca SELURUH koleksi siswa + sub-koleksi
+// tiap siswa (ribuan baca per pemanggilan). Jangan dihubungkan ke UI siswa sebelum
+// dibuat ulang memakai satu koleksi ringkasan (mis. leaderboard/{level}) + limit(20).
 export async function leaderboard(level, topN = 20) {
   // Per-level leaderboard (original behaviour, backward compatible)
   try {
