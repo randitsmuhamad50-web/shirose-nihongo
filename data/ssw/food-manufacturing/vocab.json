@@ -16,7 +16,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"keracunan makanan Anisakis\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-002",
@@ -37,7 +39,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"keracunan makanan Anisakis\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-003",
@@ -58,7 +62,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"Zat alergen\" adalah zat penyebab reaksi alergi, juga disebut alergen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-004",
@@ -81,7 +87,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini untuk mencegah zat alergen telur menempel pada bahan baku lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-005",
@@ -99,7 +107,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"Zat alergen\" adalah zat penyebab reaksi alergi, juga disebut alergen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-006",
@@ -120,7 +130,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penutup pengaman adalah mekanisme fool-proof agar tangan tidak bisa masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-007",
@@ -162,7 +174,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Perangkat pengaman juga harus selalu diperiksa.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-009",
@@ -184,7 +198,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "(※) Untuk rambu keselamatan, lihat materi tambahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-010",
@@ -229,7 +245,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Benda asing bukan hanya menjadi faktor bahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-012",
@@ -250,7 +268,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pekerjaan membuat minuman dan makanan di pabrik adalah \"industri manufaktur makanan dan minuman\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-013",
@@ -293,7 +313,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Orang yang makan makanan dengan pengelolaan higiene kurang (makanan tidak aman) bisa sakit atau terluka.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-015",
@@ -314,7 +336,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat memakai daging mentah, kadang dicek dengan detektor benda asing sinar-X apakah ada tulang tersisa di dalam daging.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-016",
@@ -331,7 +355,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Demi higiene menyeluruh, sering dipakai sarung tangan dan celemek sekali pakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-017",
@@ -375,7 +401,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat berpindah dari area kerja kotor ke area kerja bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-019",
@@ -396,7 +424,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dua tindakan yang diperlukan ini disebut \"tindakan perbaikan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-020",
@@ -417,7 +447,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika kantong berlubang atau robek, pindahkan ke kantong lain, tutup rapat, lalu cairkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-021",
@@ -438,7 +470,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pastikan jumlah kantong/wadah yang dibuka sama dengan jumlah potongan sobekannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-022",
@@ -459,7 +493,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bahan baku berlemak padat atau pasta keras lebih mudah dikeluarkan dari wadah jika dihangatkan agar lunak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-023",
@@ -480,7 +516,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Deterjen dan disinfektan juga merupakan faktor bahaya kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-024",
@@ -502,7 +540,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"sterilisasi dengan pemanasan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-025",
@@ -527,7 +567,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yaitu pra-pengolahan, memasak dengan panas, dan sebagainya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-026",
@@ -590,7 +632,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di antara bakteri ada mikroba tahan panas seperti bakteri pembentuk spora (※) yang tidak mati bahkan pada 100℃ ke atas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-029",
@@ -611,7 +655,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kebersihan berguna bukan hanya mencegah keracunan makanan, tetapi juga mencegah infeksi pada pekerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-030",
@@ -633,7 +679,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, kadang juga diperiksa Staphylococcus aureus, Salmonella, dan Campylobacter.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-031",
@@ -655,7 +703,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Prinsip 3: Menetapkan batas kritis. Tentukan batas kritis untuk titik kendali kritis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-032",
@@ -700,7 +750,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Deterjen dan disinfektan juga merupakan faktor bahaya kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-034",
@@ -723,7 +775,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika diterjemahkan ke bahasa Jepang menjadi \"analisis bahaya dan titik kendali kritis\", tetapi tetap dipakai sebagai \"HACCP\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-035",
@@ -765,7 +819,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya, ada parasit bernama Anisakis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-037",
@@ -788,7 +844,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan mencatat sekaligus di kemudian hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-038",
@@ -810,7 +868,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dilakukan secara berkala latihan evakuasi kebakaran, latihan evakuasi bencana lain, dan latihan menekan tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-039",
@@ -832,7 +892,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena di antara benda asing keras, logam dapat dideteksi dengan detektor logam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-040",
@@ -874,7 +936,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Mengelola higiene dengan membagi area seperti ini disebut \"pengelolaan higiene per zona (zoning)\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-042",
@@ -895,7 +959,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"pemeriksaan kesehatan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-043",
@@ -916,7 +982,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Suhu penyimpanan bahan baku utama adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-044",
@@ -937,7 +1005,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"kontaminasi silang\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-045",
@@ -960,7 +1030,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena di antara benda asing keras, logam dapat dideteksi dengan detektor logam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-046",
@@ -975,7 +1047,9 @@
     "m2s3"
    ],
    "contoh": "「５Ｓ」とは、「Ｓ」で{始|はじ}まる５つの{活動|かつどう}（※）を{意味|いみ}する{言葉|ことば}です。",
-   "auto": true
+   "auto": true,
+   "arti_contoh": "\"5S\" adalah istilah yang berarti lima kegiatan (※) yang diawali huruf \"S\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-047",
@@ -1019,7 +1093,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "(※) Spora adalah seperti benih bakteri yang berselubung cangkang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-049",
@@ -1079,7 +1155,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu, kerja harus dilakukan dengan menaati aturan pabrik dan prosedur kerja tertulis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-052",
@@ -1105,7 +1183,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"sterilisasi dengan pemanasan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-053",
@@ -1170,7 +1250,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"pemeriksaan sebelum mulai kerja\", pekerjaan penting untuk produksi yang stabil setiap hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-056",
@@ -1192,7 +1274,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sebelum menyalakan sakelar pekerjaan atau mesin, periksa dengan menunjuk dan menyebut (※).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-057",
@@ -1235,7 +1319,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yaitu pra-pengolahan, memasak dengan panas, dan sebagainya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-059",
@@ -1295,7 +1381,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Makanan yang bahayanya sudah cukup berkurang melalui penyortiran dan sterilisasi diisi dan dikemas ke dalam wadah bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-062",
@@ -1318,7 +1406,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Mana titik kendali kritis berbeda-beda menurut jenis makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-063",
@@ -1339,7 +1429,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di \"area kerja semi-bersih\", ditangani bahan baku sebelum disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-064",
@@ -1360,7 +1452,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tanggal batas penggunaan ditentukan untuk setiap bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-065",
@@ -1381,7 +1475,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sering terjadi kesalahan angka pada tanggal kedaluwarsa (shomi kigen) atau batas konsumsi (shohi kigen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-066",
@@ -1402,7 +1498,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sering terjadi kesalahan angka pada tanggal kedaluwarsa (shomi kigen) atau batas konsumsi (shohi kigen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-067",
@@ -1425,7 +1523,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di antara bakteri keracunan makanan ada yang menghasilkan racun.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-068",
@@ -1446,7 +1546,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena itu, dari tiga prinsip pencegahan keracunan makanan, langkah \"jangan memperbanyak\" tidak efektif.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-069",
@@ -1467,7 +1569,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di industri apa pun diperlukan pengetahuan dan keterampilan \"higiene pangan\" dan \"keselamatan kerja\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-070",
@@ -1553,7 +1657,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di \"area kerja semi-bersih\", ditangani bahan baku sebelum disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-074",
@@ -1619,7 +1725,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di antara bahaya biologis, bakteri dan virus penyebab penyakit juga disebut \"mikroorganisme patogen\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-077",
@@ -1686,7 +1794,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bagian yang bisa dibongkar dibongkar lalu dicuci.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-080",
@@ -1708,7 +1818,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya di industri lauk-pauk, itu area untuk pekerjaan topping, penataan, dan pengemasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-081",
@@ -1729,7 +1841,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya di industri lauk-pauk, itu area untuk pekerjaan topping, penataan, dan pengemasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-082",
@@ -1747,7 +1861,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Mengelola higiene dengan membagi area seperti ini disebut \"pengelolaan higiene per zona (zoning)\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-083",
@@ -1765,7 +1881,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tunas dan kulit hijau kentang mengandung zat bernama \"solanin\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-084",
@@ -1787,7 +1905,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tidak memakai sarung tangan pelindung anti-sayat di tangan kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-085",
@@ -1830,7 +1950,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada pemanasan bahan baku besar seperti gumpalan daging, selalu pastikan suhu di bagian tengah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-087",
@@ -1893,7 +2015,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, mesin dan alat masak dicuci dan disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-090",
@@ -1916,7 +2040,9 @@
    "tek": 1,
    "pos": [
     "KSい"
-   ]
+   ],
+   "arti_contoh": "Cuci tangan dilakukan pada kasus berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-091",
@@ -1934,7 +2060,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ukuran test piece yang dipakai ditentukan oleh masing-masing pabrik makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-092",
@@ -1955,7 +2083,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat sarung tangan yang dipakai robek.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-093",
@@ -1975,7 +2105,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kunci sakelar daya agar tidak bisa bergerak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-094",
@@ -1996,7 +2128,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Racun ini juga menjadi penyebab keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-095",
@@ -2056,7 +2190,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya di industri lauk-pauk, itu area untuk pekerjaan topping, penataan, dan pengemasan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-098",
@@ -2074,7 +2210,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kadang diletakkan di nampan jaring pada rak pencairan, dan tetesan air dialirkan langsung ke saluran pembuangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-099",
@@ -2095,7 +2233,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena orang yang berusaha menolong juga bisa mengalami kecelakaan kerja (ini disebut \"kecelakaan sekunder\").",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-100",
@@ -2117,7 +2257,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Heatstroke terjadi saat bekerja lama di tempat bersuhu dan kelembapan tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-101",
@@ -2136,7 +2278,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Norovirus tidak mati dengan disinfeksi alkohol.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-102",
@@ -2157,7 +2301,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"Hukum Heinrich\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-103",
@@ -2177,7 +2323,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"Faktor bahaya (hazard)\" adalah penyebab orang sakit atau terluka.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-104",
@@ -2220,7 +2368,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selanjutnya akan dipelajari \"faktor bahaya\", \"higiene umum\", dan \"pengelolaan higiene dengan HACCP\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-106",
@@ -2277,7 +2427,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat menyentuh bahan baku yang sudah steril (dimasak/tidak dimasak).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-109",
@@ -2298,7 +2450,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Panel operasi yang memakai tombol henti darurat dilengkapi tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-110",
@@ -2316,7 +2470,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"keracunan makanan histamin\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-111",
@@ -2337,7 +2493,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"keracunan makanan histamin\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-112",
@@ -2362,7 +2520,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Fasilitas dan alat tidak tercemar mikroorganisme patogen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-113",
@@ -2383,7 +2543,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Makanan yang wajib diperiksa mikrobanya menurut hukum diperiksa dengan metode dan butir yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-114",
@@ -2401,7 +2563,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yang penting adalah mengemukakan sebanyak mungkin pengalaman hiyari-hatto sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-115",
@@ -2445,7 +2609,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Fasilitas dan alat tidak tercemar mikroorganisme patogen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-117",
@@ -2483,7 +2649,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penutup pengaman adalah mekanisme fool-proof agar tangan tidak bisa masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-119",
@@ -2501,7 +2669,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Perangkat pengaman pada mesin juga merupakan mekanisme fail-safe agar tidak salah menyentuh mesin yang bergerak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-120",
@@ -2522,7 +2692,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tabel berikut adalah yang representatif di antara bahaya fisik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-121",
@@ -2581,7 +2753,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Cetak tanggal kedaluwarsa dan batas konsumsi dengan benar pada wadah/kemasan makanan olahan yang dikirim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-124",
@@ -2602,7 +2776,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Suhu penyimpanan bahan baku utama adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-125",
@@ -2747,7 +2923,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sebelum pekerjaan yang menyentuh langsung makanan, seperti penataan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-132",
@@ -2772,7 +2950,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"sterilisasi dengan bahan kimia\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-133",
@@ -2814,7 +2994,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di \"area kerja bersih\", ditangani makanan yang sudah selesai disterilkan dengan panas atau bahan kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-135",
@@ -2836,7 +3018,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bersihkan kotoran dengan baik di bawah air mengalir.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-136",
@@ -2857,7 +3041,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada pencairan dengan air mengalir, pastikan kantong penutup bahan baku beku tidak berlubang atau robek.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-137",
@@ -2879,7 +3065,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Mendinginkan segera juga penting agar rasa enak makanan yang sudah jadi tidak berkurang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-138",
@@ -2920,7 +3108,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"Freezer\" adalah tempat membekukan makanan atau menyimpan makanan beku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-140",
@@ -2941,7 +3131,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Menjaga keselamatan dan kesehatan pekerja adalah \"keselamatan kerja\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fm-141",
@@ -2962,7 +3154,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di pabrik makanan terjadi kecelakaan kerja seperti cedera.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0142",
@@ -2986,7 +3180,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan yang berjamur tidak dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0143",
@@ -3035,7 +3231,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tepat sebelum memulai pekerjaan di tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0145",
@@ -3059,7 +3257,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, mesin dan alat masak dicuci dan disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0146",
@@ -3083,7 +3283,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tepat sebelum memulai pekerjaan di tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0147",
@@ -3107,7 +3309,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci tangan dilakukan pada kasus berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0148",
@@ -3155,7 +3359,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Jangan mencatat jika belum memeriksa.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0150",
@@ -3178,7 +3384,9 @@
    "contoh": "この{毒素|どくそ}も{食中毒|しょくちゅうどく}の{原因|げんいん}になります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Racun ini juga menjadi penyebab keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0151",
@@ -3202,7 +3410,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang juga diperkenalkan contoh kecelakaan kerja di luar perusahaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0152",
@@ -3249,7 +3459,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, mesin dan alat masak dicuci dan disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0154",
@@ -3272,7 +3484,9 @@
    "contoh": "{設備|せつび}や{器具|きぐ}が、{病原性微生物|びょうげんせいびせいぶつ}に{汚染|おせん}されていないこと。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Fasilitas dan alat tidak tercemar mikroorganisme patogen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0155",
@@ -3295,7 +3509,9 @@
    "contoh": "これで{転倒災害|てんとうさいがい}の{危険|きけん}が{減|へ}ります。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Dengan ini risiko kecelakaan terpeleset berkurang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0156",
@@ -3319,7 +3535,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menjaga keselamatan dan kesehatan pekerja adalah \"keselamatan kerja\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0157",
@@ -3338,7 +3556,9 @@
    "contoh": "また、-15℃{以下|いか}では{増|ふ}えなくなります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dan pada -15℃ ke bawah, tidak berkembang biak lagi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0158",
@@ -3360,7 +3580,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yaitu pra-pengolahan, memasak dengan panas, dan sebagainya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0159",
@@ -3380,7 +3602,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang juga diperkenalkan contoh kecelakaan kerja di luar perusahaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0160",
@@ -3405,7 +3629,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di pabrik makanan terjadi kecelakaan kerja seperti cedera.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0161",
@@ -3429,7 +3655,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Laporkan kepada penanggung jawab, lalu lakukan pengembalian atau penukaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0162",
@@ -3449,7 +3677,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 3: Menetapkan batas kritis. Tentukan batas kritis untuk titik kendali kritis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0163",
@@ -3472,7 +3702,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Suhu penyimpanan bahan baku utama adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0164",
@@ -3496,7 +3728,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Konsentrasi bahan kimia dan waktu perlakuan penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0165",
@@ -3519,7 +3753,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Racun ini juga menjadi penyebab keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0166",
@@ -3540,7 +3776,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini untuk mencegah zat alergen telur menempel pada bahan baku lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0167",
@@ -3561,7 +3799,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini untuk mencegah zat alergen telur menempel pada bahan baku lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0168",
@@ -3581,7 +3821,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "(※) Untuk rambu keselamatan, lihat materi tambahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0169",
@@ -3630,7 +3872,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Suhu penyimpanan bahan baku utama adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0171",
@@ -3653,7 +3897,9 @@
    "contoh": "（{注|ちゅう}１）{室温|しつおん}で{乾燥|かんそう}した{場所|ばしょ}で{保管|ほかん}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "(Catatan 1) Simpan di tempat kering pada suhu ruang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0172",
@@ -3676,7 +3922,9 @@
    "contoh": "Ｓは、{労働災害|ろうどうさいがい}を{防|ふせ}ぐためにも{大切|たいせつ}な{活動|かつどう}です。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "S juga merupakan kegiatan penting untuk mencegah kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0173",
@@ -3698,7 +3946,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika gejalanya berat, bisa menyebabkan kematian.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0174",
@@ -3720,7 +3970,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini juga \"masuk lebih dulu, keluar lebih dulu\" (lihat ① penerimaan dan penyimpanan bahan baku).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0175",
@@ -3742,7 +3994,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kancingkan dan tutup ritsleting dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0176",
@@ -3765,7 +4019,9 @@
    "contoh": "{安全装置|あんぜんそうち}も{必|かなら}ず{点検|てんけん}する。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Perangkat pengaman juga harus selalu diperiksa.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0177",
@@ -3788,7 +4044,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Artinya \"sebaiknya dicantumkan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0178",
@@ -3809,7 +4067,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, dari tiga prinsip pencegahan keracunan makanan, langkah \"jangan memperbanyak\" tidak efektif.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0179",
@@ -3830,7 +4090,9 @@
    "contoh": "{大|おお}きな{製品|せいひん}の{場合|ばあい}は、{二人|ふたり}で{作業|さぎょう}する。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk produk besar, kerjakan berdua.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0180",
@@ -3854,7 +4116,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Saat memakai deterjen atau bahan kimia, perhatikan hal berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0181",
@@ -3874,7 +4138,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 4: Menetapkan metode pemantauan. Tentukan cara memantau kondisi pengendalian titik kendali kritis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0182",
@@ -3894,7 +4160,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Fasilitas dan peralatan harus dibersihkan secara berkala dan selalu dijaga bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0183",
@@ -3918,7 +4186,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Laporkan kepada penanggung jawab, lalu lakukan pengembalian atau penukaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0184",
@@ -3940,7 +4210,9 @@
    "contoh": "{原則|げんそく}６で{決|き}めた{方法|ほうほう}で{実際|じっさい}に{確認|かくにん}した{結果|けっか}も{一緒|いっしょ}に{記録|きろく}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Catat juga hasil pemeriksaan nyata dengan metode yang ditetapkan pada prinsip 6.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0185",
@@ -3962,7 +4234,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini adalah penutup agar tangan tidak salah masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0186",
@@ -3984,7 +4258,9 @@
    "contoh": "{洗剤|せんざい}を{使|つか}うルールを{守|まも}ってください。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Taati aturan pemakaian deterjen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0187",
@@ -4005,7 +4281,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci tangan dilakukan pada kasus berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0188",
@@ -4048,7 +4326,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, mesin dan alat masak dicuci dan disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0190",
@@ -4089,7 +4369,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan yang lulus pemeriksaan disimpan di gudang produk sampai dikirim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0192",
@@ -4108,7 +4390,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pastikan jumlah kantong/wadah yang dibuka sama dengan jumlah potongan sobekannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0193",
@@ -4128,7 +4412,9 @@
    "contoh": "{薬剤|やくざい}が{食品|しょくひん}に{混入|こんにゅう}すると、その{食品|しょくひん}を{食|た}べた{人|ひと}が{病気|びょうき}になることがあります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika bahan kimia tercampur ke makanan, orang yang memakannya bisa sakit.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0194",
@@ -4195,7 +4481,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dilakukan untuk tujuan pencegahan bahaya dan konfirmasi keselamatan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0197",
@@ -4216,7 +4504,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ada kotak kosong diletakkan di lorong.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0198",
@@ -4234,7 +4524,9 @@
    "contoh": "{帽子|ぼうし}をきちんとかぶります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pakai topi dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0199",
@@ -4257,7 +4549,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan juga memperbaiki atas keputusan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0200",
@@ -4278,7 +4572,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah lampu bisa menyala dan padam dengan normal?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0201",
@@ -4300,7 +4596,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang dibutuhkan agar bakteri berkembang adalah suhu, air, dan nutrisi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0202",
@@ -4321,7 +4619,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Konsentrasi bahan kimia dan waktu perlakuan penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0203",
@@ -4343,7 +4643,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini disebut \"kontaminasi silang\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0204",
@@ -4365,7 +4667,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jaga fasilitas dan mesin selalu dalam kondisi bersih (seiso).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0205",
@@ -4384,7 +4688,9 @@
    "contoh": "{原材料|げんざいりょう}を、{冷蔵庫|れいぞうこ}の{中|なか}に{隙間|すきま}なく{詰|つ}め{込|こ}んではいけません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan memasukkan bahan baku ke kulkas hingga penuh tanpa celah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0206",
@@ -4403,7 +4709,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika tahu titik kendali kritis menyimpang dari batas kritis, harus segera lapor ke penanggung jawab.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0207",
@@ -4422,7 +4730,9 @@
    "contoh": "{電源|でんげん}のスイッチにカギをかけて{動|うご}かなくする。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kunci sakelar daya agar tidak bisa bergerak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0208",
@@ -4443,7 +4753,9 @@
    "contoh": "{食品製造工場|しょくひんせいぞうこうじょう}では、ケガなどの{労働災害|ろうどうさいがい}が{起|お}きています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di pabrik makanan terjadi kecelakaan kerja seperti cedera.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0209",
@@ -4464,7 +4776,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bagian yang bisa dibongkar dibongkar lalu dicuci.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0210",
@@ -4484,7 +4798,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tanggal shomi kigen dan shohi kigen dicantumkan oleh perusahaan yang membuat makanan olahan (bahan baku) tersebut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0211",
@@ -4505,7 +4821,9 @@
    "contoh": "また、まな{板|いた}や{包丁|ほうちょう}などの{調理器具|ちょうりきぐ}を、{原材料別|げんざいりょうべつ}に{区別|くべつ}しておくことも{大切|たいせつ}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penting juga memisahkan alat masak seperti talenan dan pisau menurut bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0212",
@@ -4526,7 +4844,9 @@
    "contoh": "{薬剤|やくざい}の{濃度|のうど}と{処理|しょり}する{時間|じかん}が{重要|じゅうよう}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Konsentrasi bahan kimia dan waktu perlakuan penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0213",
@@ -4546,7 +4866,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan yang lulus pemeriksaan disimpan di gudang produk sampai dikirim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0214",
@@ -4566,7 +4888,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat bekerja, mekanisme perangkat pengaman ini harus digunakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0215",
@@ -4586,7 +4910,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tidak memasang \"pengunci pembuka\" tangga lipat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0216",
@@ -4608,7 +4934,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mungkin forklift muncul dan menabrak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0217",
@@ -4630,7 +4958,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "③…Bertindak sesuai instruksi penanggung jawab.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0218",
@@ -4653,7 +4983,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "S juga merupakan kegiatan penting untuk mencegah kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0219",
@@ -4674,7 +5006,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika bahan kimia tercampur ke makanan, orang yang memakannya bisa sakit.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0220",
@@ -4693,7 +5027,9 @@
    "contoh": "{最後|さいご}に、{服装|ふくそう}が{正|ただ}しいかどうか、{確認|かくにん}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terakhir, pastikan apakah pakaian sudah benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0221",
@@ -4714,7 +5050,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terakhir, pastikan apakah pakaian sudah benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0222",
@@ -4734,7 +5072,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selama pengangkutan, makanan diangkut pada suhu yang ditentukan per jenis agar mutunya tidak menurun.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0223",
@@ -4754,7 +5094,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 3: Menetapkan batas kritis. Tentukan batas kritis untuk titik kendali kritis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0224",
@@ -4774,7 +5116,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika detektor logam tidak berfungsi normal, harus segera lapor ke penanggung jawab.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0225",
@@ -4796,7 +5140,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "③…Bertindak sesuai instruksi penanggung jawab.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0226",
@@ -4816,7 +5162,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Taati aturan pemakaian deterjen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0227",
@@ -4836,7 +5184,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Panel operasi yang memakai tombol henti darurat dilengkapi tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0228",
@@ -4858,7 +5208,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pemeriksaan keselamatan lorong kurang memadai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0229",
@@ -4879,7 +5231,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Proses representatif yang menjadi titik kendali kritis dalam pembuatan makanan adalah lima berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0230",
@@ -4918,7 +5272,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena di antara benda asing keras, logam dapat dideteksi dengan detektor logam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0232",
@@ -4938,7 +5294,9 @@
    "contoh": "※「{表示|ひょうじ}をしたほうがいい」という{意味|いみ}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "※ Artinya \"sebaiknya dicantumkan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0233",
@@ -4958,7 +5316,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Norovirus tidak mati dengan disinfeksi alkohol.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0234",
@@ -4978,7 +5338,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Norovirus tidak mati dengan disinfeksi alkohol.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0235",
@@ -5016,7 +5378,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sebelum mulai bekerja, pastikan tidak ada gejala seperti diare, demam, mual, atau luka di tangan/jari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0237",
@@ -5037,7 +5401,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan membawa bahan baku masuk ke area semi-bersih atau bersih dalam keadaan masih di kardus/kontainer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0238",
@@ -5057,7 +5423,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat mengangkat kuali berat dengan dua tangan, pinggang terasa sangat sakit.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0239",
@@ -5095,7 +5463,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "(Catatan 1) Simpan di tempat kering pada suhu ruang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0241",
@@ -5116,7 +5486,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Catat juga hasil pemeriksaan nyata dengan metode yang ditetapkan pada prinsip 6.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0242",
@@ -5136,7 +5508,9 @@
    "contoh": "{絶対|ぜったい}にしないでください。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan pernah melakukannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0243",
@@ -5156,7 +5530,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Catat juga hasil pemeriksaan nyata dengan metode yang ditetapkan pada prinsip 6.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0244",
@@ -5177,7 +5553,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat memperbaiki konveyor, selalu matikan sakelar daya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0245",
@@ -5197,7 +5575,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat berjalan membawa nampan dengan dua tangan, hampir jatuh karena terpeleset di lantai basah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0246",
@@ -5218,7 +5598,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Agar bertindak benar saat terjadi keadaan tidak normal atau kecelakaan kerja, penting berlatih sehari-hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0247",
@@ -5237,7 +5619,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat membawa pelat besi, panci, atau kuali, pakai sarung tangan pelindung.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0248",
@@ -5258,7 +5642,9 @@
    "contoh": "{飲料|いんりょう}や{食料品|しょくりょうひん}を{工場|こうじょう}で{製造|せいぞう}する{仕事|しごと}が「{飲食料品製造業|いんしょくりょうひんせいぞうぎょう}」です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pekerjaan membuat minuman dan makanan di pabrik adalah \"industri manufaktur makanan dan minuman\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0249",
@@ -5278,7 +5664,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan bertindak sendiri seenaknya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0250",
@@ -5299,7 +5687,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tabel berikut adalah yang representatif di antara bahaya fisik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0251",
@@ -5338,7 +5728,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Deterjen dan disinfektan juga merupakan faktor bahaya kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0253",
@@ -5357,7 +5749,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Zat alergen\" adalah zat penyebab reaksi alergi, juga disebut alergen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0254",
@@ -5378,7 +5772,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kondisi penyimpanan seperti suhu ditentukan per jenis makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0255",
@@ -5399,7 +5795,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Freezer\" adalah tempat membekukan makanan atau menyimpan makanan beku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0256",
@@ -5441,7 +5839,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sering terjadi kesalahan angka pada tanggal kedaluwarsa (shomi kigen) atau batas konsumsi (shohi kigen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0258",
@@ -5462,7 +5862,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terus bekerja tanpa istirahat di tempat bersuhu dan kelembapan tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0259",
@@ -5481,7 +5883,9 @@
    "contoh": "トイレや、{休憩|きゅうけい}の{後|あと}、{作業場|さぎょうじょう}に{入|はい}るとき。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat masuk ke tempat kerja setelah dari toilet atau istirahat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0260",
@@ -5501,7 +5905,9 @@
    "contoh": "ノロウイルスは、アルコール{消毒|しょうどく}では{死|し}にません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Norovirus tidak mati dengan disinfeksi alkohol.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0261",
@@ -5522,7 +5928,9 @@
    "contoh": "{同|おな}じ{場所|ばしょ}を２{回以上切|かいいじょうき}らないようにします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan memotong di tempat yang sama dua kali atau lebih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0262",
@@ -5543,7 +5951,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mampu menjalankan aturan seiri, seiton, seiso, dan seiketsu sebagaimana mestinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0263",
@@ -5562,7 +5972,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di \"area kerja semi-bersih\", ditangani bahan baku sebelum disterilkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0264",
@@ -5584,7 +5996,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Fasilitas dan peralatan harus dibersihkan secara berkala dan selalu dijaga bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0265",
@@ -5605,7 +6019,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah bilah pemotong atau slicer tidak ada yang rompal?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0266",
@@ -5626,7 +6042,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat meninggalkan tempat kerja, beri tahu penanggung jawab dulu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0267",
@@ -5646,7 +6064,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seragam kerja umumnya dikenakan dengan urutan berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0268",
@@ -5666,7 +6086,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "②…Pindah ke tempat yang sejuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0269",
@@ -5686,7 +6108,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Laporkan kepada penanggung jawab, lalu lakukan pengembalian atau penukaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0270",
@@ -5706,7 +6130,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, saat membunuh mikroba dengan panas, suhu dan waktu pemanasan harus ditetapkan dengan tepat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0271",
@@ -5728,7 +6154,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada pekerjaan bersama, lakukan komunikasi dan isyarat dengan pasti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0272",
@@ -5787,7 +6215,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan juga memperbaiki atas keputusan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0275",
@@ -5809,7 +6239,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "(※) Untuk rambu keselamatan, lihat materi tambahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0276",
@@ -5830,7 +6262,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terjadi saat memakai mesin seperti oven, atau saat menangani air panas dan makanan panas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0277",
@@ -5850,7 +6284,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada sakit pinggang, bisa lama tidak sembuh atau mudah kambuh berkali-kali.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0278",
@@ -5870,7 +6306,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "⑤…Minum air yang mengandung garam atau minuman olahraga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0279",
@@ -5890,7 +6328,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Ikut serta juga dalam kegiatan tempat kerja yang bertujuan menghilangkan kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0280",
@@ -5910,7 +6350,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pahami prosedur kerja dengan benar, lalu bekerja menggunakan mesin.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0281",
@@ -5930,7 +6372,9 @@
    "contoh": "{一人|ひとり}で{勝手|かって}な{行動|こうどう}をしてはいけません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan bertindak sendiri seenaknya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0282",
@@ -5950,7 +6394,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pasang perangkat pengaman yang menghentikan mesin otomatis saat penutup dibuka.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0283",
@@ -5970,7 +6416,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perangkat pengaman juga harus selalu diperiksa.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0284",
@@ -5990,7 +6438,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Periksa suhu sebelum membawa, dan jika panas tinggi, ingatkan orang di sekitar agar berhati-hati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0285",
@@ -6009,7 +6459,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini disebut \"Hukum Heinrich\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0286",
@@ -6028,7 +6480,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di industri apa pun diperlukan pengetahuan dan keterampilan \"higiene pangan\" dan \"keselamatan kerja\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0287",
@@ -6048,7 +6502,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada freezer, mengisi makanan beku 80–90% membuat saling mendinginkan sehingga hemat listrik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0288",
@@ -6068,7 +6524,9 @@
    "contoh": "{日本|にほん}や{世界|せかい}のさまざまな{工場|こうじょう}や{作業|さぎょう}{場|じょ}などでおこなわれています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dilakukan di berbagai pabrik dan tempat kerja di Jepang maupun dunia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0289",
@@ -6089,7 +6547,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk itu, sampel diambil dengan proporsi tertentu dari produk lalu disimpan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0290",
@@ -6128,7 +6588,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pekerjaan membuat minuman dan makanan di pabrik adalah \"industri manufaktur makanan dan minuman\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0292",
@@ -6148,7 +6610,9 @@
    "contoh": "{会社|かいしゃ}の{信用|しんよう}も{落|お}としてしまいます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Juga menurunkan kepercayaan perusahaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0293",
@@ -6167,7 +6631,9 @@
    "contoh": "これを「{健康|けんこう}チェック」と{言|い}います。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"pemeriksaan kesehatan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0294",
@@ -6188,7 +6654,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dasar higiene pangan adalah tindakan berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0295",
@@ -6208,7 +6676,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penyimpanan bahan baku: cara penyimpanan berbeda menurut jenis bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0296",
@@ -6228,7 +6698,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Untuk itu akan dijelaskan pengelolaan higiene yang diperlukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0297",
@@ -6248,7 +6720,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di antara benda asing, yang keras seperti serpihan logam, kaca, dan batu disebut \"benda asing keras\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0298",
@@ -6268,7 +6742,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan yang bahayanya sudah cukup berkurang melalui penyortiran dan sterilisasi diisi dan dikemas ke dalam wadah bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0299",
@@ -6290,7 +6766,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Konsentrasi bahan kimia dan waktu perlakuan penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0300",
@@ -6310,7 +6788,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Deterjen dan disinfektan juga merupakan faktor bahaya kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0301",
@@ -6330,7 +6810,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan memasukkan bahan baku ke kulkas hingga penuh tanpa celah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0302",
@@ -6351,7 +6833,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, bahan kimia harus diberi label nama agar jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0303",
@@ -6489,7 +6973,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika kembali ke lingkungan yang mudah ditumbuhi bakteri, spora kembali menjadi bakteri biasa dan mulai berkembang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0310",
@@ -6510,7 +6996,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "(Catatan 1) Simpan di tempat kering pada suhu ruang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0311",
@@ -6529,7 +7017,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika kembali ke lingkungan yang mudah ditumbuhi bakteri, spora kembali menjadi bakteri biasa dan mulai berkembang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0312",
@@ -6548,7 +7038,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika pekerja terinfeksi norovirus, penting mendisinfeksi seluruh pabrik makanan dengan saksama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0313",
@@ -6606,7 +7098,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Air yang menempel pada alat juga menjadi penyebab berkembangnya mikroba.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0316",
@@ -6626,7 +7120,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seragam kerja harus selalu dipakai dengan benar selama bekerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0317",
@@ -6646,7 +7142,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan membawa bahan baku masuk ke area semi-bersih atau bersih dalam keadaan masih di kardus/kontainer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0318",
@@ -6666,7 +7164,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Terjadi saat memasukkan tangan ke mesin atau membersihkan gir konveyor.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0319",
@@ -6685,7 +7185,9 @@
    "contoh": "これを「{健康|けんこう}チェック」と{言|い}います。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"pemeriksaan kesehatan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0320",
@@ -6704,7 +7206,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Masker juga tidak boleh dilepas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0321",
@@ -6741,7 +7245,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat membawa barang berat, gunakan troli sebisa mungkin.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0323",
@@ -6761,7 +7267,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Saat masuk ke tempat kerja setelah dari toilet atau istirahat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0324",
@@ -6780,7 +7288,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, hal berbau kuat seperti parfum juga tidak boleh dibawa ke tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0325",
@@ -6799,7 +7309,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Batas penggunaan\" adalah hari terakhir bahan baku boleh digunakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0326",
@@ -6838,7 +7350,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang diletakkan di nampan jaring pada rak pencairan, dan tetesan air dialirkan langsung ke saluran pembuangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0328",
@@ -6858,7 +7372,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Secara rinci, lihat \"3. Higiene umum\" dalam bab ini.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0329",
@@ -6877,7 +7393,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika makanan dibekukan perlahan, tekstur seperti kekerasan dan kekenyalan serta cita rasanya memburuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0330",
@@ -6896,7 +7414,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 4: Menetapkan metode pemantauan. Tentukan cara memantau kondisi pengendalian titik kendali kritis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0331",
@@ -6916,7 +7436,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 6: Menetapkan metode verifikasi. Pastikan cara yang ditentukan sampai prinsip 5 efektif menghilangkan atau mengurangi bahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0332",
@@ -6971,7 +7493,9 @@
    "contoh": "{気温|きおん}と{湿度|しつど}が{高|たか}い{場所|ばしょ}で、{休憩|きゅうけい}を{取|と}らないで{作業|さぎょう}を{続|つづ}けた。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terus bekerja tanpa istirahat di tempat bersuhu dan kelembapan tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0335",
@@ -6991,7 +7515,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Berikut diperkenalkan alat pelindung diri yang sering dipakai di pabrik makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0336",
@@ -7013,7 +7539,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Berikut diperkenalkan alat pelindung diri yang sering dipakai di pabrik makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0337",
@@ -7050,7 +7578,9 @@
    "contoh": "{大|おお}きな{製品|せいひん}の{場合|ばあい}は、{二人|ふたり}で{作業|さぎょう}する。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk produk besar, kerjakan berdua.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0339",
@@ -7071,7 +7601,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika menyadari ada sesuatu yang tidak normal, tanggapi seperti berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0340",
@@ -7090,7 +7622,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah bagian yang seharusnya tidak bergerak pada komponen atau mesin tidak bergerak?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0341",
@@ -7109,7 +7643,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Masalah dapat diatasi dalam keadaan mesin berhenti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0342",
@@ -7129,7 +7665,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pasang tulisan \"sedang inspeksi dan perawatan\" di panel operasi mesin agar orang lain juga tahu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0343",
@@ -7148,7 +7686,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dilakukan secara berkala latihan evakuasi kebakaran, latihan evakuasi bencana lain, dan latihan menekan tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0344",
@@ -7185,7 +7725,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang penting adalah mengemukakan sebanyak mungkin pengalaman hiyari-hatto sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0346",
@@ -7204,7 +7746,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ada kotak kosong diletakkan di lorong.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0347",
@@ -7223,7 +7767,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tidak menekan tombol henti lini pengemasan dan tidak memastikan lini benar-benar berhenti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0348",
@@ -7242,7 +7788,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Forklift tidak berhenti sejenak di depan pintu gudang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0349",
@@ -7261,7 +7809,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Minuman dan makanan tidak terpisahkan dari kehidupan kita.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0350",
@@ -7279,7 +7829,9 @@
    "contoh": "{飲料|いんりょう}や{食料品|しょくりょうひん}は{私|わたし}たちの{生活|せいかつ}に{欠|か}かせません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Minuman dan makanan tidak terpisahkan dari kehidupan kita.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0351",
@@ -7316,7 +7868,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menurut statistik Kementerian Pertanian, Kehutanan, dan Perikanan, nilai produksi domestik industri makanan Jepang beberapa tahun ini sekitar 37 triliun yen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0353",
@@ -7355,7 +7909,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Juga menurunkan kepercayaan perusahaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0355",
@@ -7413,7 +7969,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selanjutnya akan dipelajari \"faktor bahaya\", \"higiene umum\", dan \"pengelolaan higiene dengan HACCP\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0358",
@@ -7432,7 +7990,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Cangkang telur yang masuk ke masakan seperti telur dadar padahal sudah dibuang juga termasuk benda asing.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0359",
@@ -7452,7 +8012,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di antara benda asing, yang keras seperti serpihan logam, kaca, dan batu disebut \"benda asing keras\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0360",
@@ -7471,7 +8033,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Benda asing tidak keras seperti serangga, rambut, dan serpihan kertas juga harus dicegah masuk ke makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0361",
@@ -7491,7 +8055,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Laporkan kepada penanggung jawab, lalu lakukan pengembalian atau penukaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0362",
@@ -7529,7 +8095,9 @@
    "contoh": "{微生物検査|びせいぶつけんさ}{法律|ほうりつ}で{微生物検査|びせいぶつけんさ}の{義務|ぎむ}がある{食品|しょくひん}は、{決|き}められた{方法|ほうほう}で{決|き}められた{項|こう}{目|もく}を{検査|けんさ}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Makanan yang wajib diperiksa mikrobanya menurut hukum diperiksa dengan metode dan butir yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0364",
@@ -7549,7 +8117,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan yang wajib diperiksa mikrobanya menurut hukum diperiksa dengan metode dan butir yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0365",
@@ -7605,7 +8175,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Anisakis hidup parasit pada ikan dan kerang seperti makarel, sarden, salmon, ikan kuwe, dan cumi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0368",
@@ -7624,7 +8196,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tunas dan kulit hijau kentang mengandung zat bernama \"solanin\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0369",
@@ -7644,7 +8218,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di antara mikroorganisme patogen, bakteri penyebab keracunan makanan disebut \"bakteri keracunan makanan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0370",
@@ -7702,7 +8278,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, kadang juga diperiksa Staphylococcus aureus, Salmonella, dan Campylobacter.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0373",
@@ -7762,7 +8340,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena jika kantong berlubang atau robek, sebagian bahan baku akan hanyut oleh air mengalir.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0376",
@@ -7781,7 +8361,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang dibutuhkan agar bakteri berkembang adalah suhu, air, dan nutrisi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0377",
@@ -7801,7 +8383,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk mencegah bakteri keracunan makanan berkembang pada makanan, penting menyimpan makanan pada suhu rendah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0378",
@@ -7820,7 +8404,9 @@
    "contoh": "きても、{全部|ぜんぶ}やっつける（{殺|ころ}す）ことができないで、{少|すこ}し{生|い}き{残|のこ}ってしまうものがいます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Meski dipanaskan, tidak semua bisa dibunuh; ada sedikit yang bertahan hidup.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0379",
@@ -7840,7 +8426,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, dari tiga prinsip pencegahan keracunan makanan, langkah \"jangan memperbanyak\" tidak efektif.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0380",
@@ -7860,7 +8448,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Spora jamur ada di mana-mana dan tidak bisa dihilangkan sepenuhnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0381",
@@ -7878,7 +8468,9 @@
    "contoh": "{人|ひと}や{動物|どうぶつ}の{体|からだ}の{表面|ひょうめん}や{体内|たいない}で、{人|ひと}や{動物|どうぶつ}から{栄養|えいよう}を{取|と}って{生|い}きているのが{寄生虫|きせいちゅう}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Parasit adalah makhluk yang hidup di permukaan atau dalam tubuh manusia/hewan dengan mengambil nutrisi darinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0382",
@@ -7898,7 +8490,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Parasit adalah makhluk yang hidup di permukaan atau dalam tubuh manusia/hewan dengan mengambil nutrisi darinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0383",
@@ -7918,7 +8512,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seragam kerja umumnya dikenakan dengan urutan berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0384",
@@ -7957,7 +8553,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seiri, seiton, seiso: jaga agar tidak ada barang tak perlu di tempat kerja (seiri).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0386",
@@ -7976,7 +8574,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saluran pembuangan dicuci dengan melepas tutupnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0387",
@@ -7995,7 +8595,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bagian yang bisa dibongkar dibongkar lalu dicuci.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0388",
@@ -8013,7 +8615,9 @@
    "contoh": "{原材料|げんざいりょう}の{見|み}た{目|め}や{臭|にお}い、{規格|きかく}（サイズや{入|い}り{数|すう}）、{包装状態|ほうそうじょうたい}、{期限|きげん}・{保存方法|ほぞんほうほう}の{表示|ひょうじ}、{品温|ひんおん}などを{確認|かくにん}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Periksa penampilan, bau, standar (ukuran dan isi), kondisi kemasan, label batas waktu dan cara penyimpanan, serta suhu bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0389",
@@ -8033,7 +8637,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pakai pakaian yang tembus udara, menyerap keringat, dan mudah kering.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0390",
@@ -8052,7 +8658,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sikat rambut dengan baik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0391",
@@ -8071,7 +8679,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sikat rambut dengan baik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0392",
@@ -8090,7 +8700,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sebelum masuk tempat kerja, ambil rambut dan debu pada seragam dengan roller perekat atau air shower.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0393",
@@ -8109,7 +8721,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sebelum masuk tempat kerja, ambil rambut dan debu pada seragam dengan roller perekat atau air shower.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0394",
@@ -8129,7 +8743,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terutama jangan menyentuh mulut botol, tutup, dan bagian dalam kantong dengan tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0395",
@@ -8164,7 +8780,9 @@
    "contoh": "{食品製造工場|しょくひんせいぞうこうじょう}によっては、ポケットのない{作業服|さぎょうふく}を{着|き}ることにしています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Beberapa pabrik makanan mewajibkan seragam tanpa saku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0397",
@@ -8236,7 +8854,9 @@
    "contoh": "{作業場|さぎょうじょう}には、ホチキスの{針|はり}やクリップがついた{書類|しょるい}、{鉛筆|えんぴつ}やシャープペンを{持|も}ち{込|こ}んではいけません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dokumen berstaples/klip, pensil, dan pensil mekanik tidak boleh dibawa ke tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0401",
@@ -8254,7 +8874,9 @@
    "contoh": "ホチキスの{針|はり}やクリップ、{鉛筆|えんぴつ}やシャープペンの{折|お}れた{芯|しん}が{異物混入|いぶつこんにゅう}の{原因|げんいん}になるからです。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena staples, klip, serta ujung pensil yang patah bisa menyebabkan benda asing tercampur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0402",
@@ -8274,7 +8896,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena staples, klip, serta ujung pensil yang patah bisa menyebabkan benda asing tercampur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0403",
@@ -8293,7 +8917,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena staples, klip, serta ujung pensil yang patah bisa menyebabkan benda asing tercampur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0404",
@@ -8312,7 +8938,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena staples, klip, serta ujung pensil yang patah bisa menyebabkan benda asing tercampur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0405",
@@ -8350,7 +8978,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tanggal batas penggunaan ditentukan untuk setiap bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0407",
@@ -8370,7 +9000,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Periksa penampilan, bau, standar (ukuran dan isi), kondisi kemasan, label batas waktu dan cara penyimpanan, serta suhu bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0408",
@@ -8390,7 +9022,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan yang lulus pemeriksaan disimpan di gudang produk sampai dikirim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0409",
@@ -8409,7 +9043,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan memasukkan bahan baku ke kulkas hingga penuh tanpa celah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0410",
@@ -8446,7 +9082,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bahan baku dipakai mulai dari yang lebih dulu dikirim (diterima).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0412",
@@ -8465,7 +9103,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini disebut \"masuk lebih dulu, keluar lebih dulu\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0413",
@@ -8484,7 +9124,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika kantong berlubang atau robek, pindahkan ke kantong lain, tutup rapat, lalu cairkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0414",
@@ -8503,7 +9145,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selama pengangkutan, makanan diangkut pada suhu yang ditentukan per jenis agar mutunya tidak menurun.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0415",
@@ -8578,7 +9222,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terutama jangan menyentuh mulut botol, tutup, dan bagian dalam kantong dengan tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0419",
@@ -8597,7 +9243,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terutama jangan menyentuh mulut botol, tutup, dan bagian dalam kantong dengan tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0420",
@@ -8616,7 +9264,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cetak tanggal kedaluwarsa dan batas konsumsi dengan benar pada wadah/kemasan makanan olahan yang dikirim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0421",
@@ -8636,7 +9286,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 7: Pencatatan. Catat secara tertulis hal yang ditentukan pada prinsip 1 sampai 6.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0422",
@@ -8655,7 +9307,9 @@
    "contoh": "{空気|くうき}を{通|とお}して、{汗|あせ}や{水分|すいぶん}を{吸|す}って、{乾|かわ}きやすい{衣服|いふく}を{着用|ちゃくよう}する。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pakai pakaian yang tembus udara, menyerap keringat, dan mudah kering.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0423",
@@ -8692,7 +9346,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kirim lebih dulu makanan yang lebih dulu masuk gudang produk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0425",
@@ -8711,7 +9367,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk itu, sampel diambil dengan proporsi tertentu dari produk lalu disimpan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0426",
@@ -8730,7 +9388,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 3: Menetapkan batas kritis. Tentukan batas kritis untuk titik kendali kritis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0427",
@@ -8749,7 +9409,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dipantau (monitoring), dan jika tidak dilaksanakan dengan benar, makanan itu tidak boleh dikirim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0428",
@@ -8806,7 +9468,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prosedur kerja harus selalu ditaati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0431",
@@ -8863,7 +9527,9 @@
    "contoh": "{積|つ}まれた{荷物|にもつ}が、くずれて{落|お}ちるかもしれない。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Barang yang ditumpuk mungkin runtuh dan jatuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0434",
@@ -8882,7 +9548,9 @@
    "contoh": "{階段|かいだん}を{走|はし}って{下|お}りたり、{走|はし}って{上|あ}がったりしない。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan berlari menuruni atau menaiki tangga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0435",
@@ -8976,7 +9644,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cairan panas masuk dari mulut sarung tangan dan menyebabkan luka bakar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0440",
@@ -9014,7 +9684,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Air panas mungkin masuk ke dalam sepatu bot dan menyebabkan luka bakar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0442",
@@ -9034,7 +9706,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini disebut \"pemeriksaan sebelum mulai kerja\", pekerjaan penting untuk produksi yang stabil setiap hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0443",
@@ -9053,7 +9727,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pasang tulisan \"sedang inspeksi dan perawatan\" di panel operasi mesin agar orang lain juga tahu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0444",
@@ -9073,7 +9749,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alkohol bisa terbakar dan menimbulkan kebakaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0445",
@@ -9092,7 +9770,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan bertindak sendiri seenaknya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0446",
@@ -9129,7 +9809,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang juga diperkenalkan contoh kecelakaan kerja di luar perusahaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0448",
@@ -9186,7 +9868,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencoba mengangkat benda berat dengan posisi tubuh tidak stabil.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0451",
@@ -9205,7 +9889,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pemeriksaan keselamatan lorong kurang memadai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0452",
@@ -9224,7 +9910,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tidak menghentikan ban berjalan saat membersihkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0453",
@@ -9243,7 +9931,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat mengiris roti tawar sambil menekannya dengan tangan di meja kerja, jari hampir terpotong bilah slicer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0454",
@@ -9262,7 +9952,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mengiris roti tawar sambil menekannya dengan tangan tanpa memakai papan penekan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0455",
@@ -9281,7 +9973,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tidak memakai sarung tangan pelindung anti-sayat di tangan kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0456",
@@ -9300,7 +9994,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tidak memasang \"pengunci pembuka\" tangga lipat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0457",
@@ -9319,7 +10015,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tidak memasang \"pengunci pembuka\" tangga lipat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0458",
@@ -9338,7 +10036,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencoba membawa pelat besi tepat setelah keluar dari oven dengan tangan kosong tanpa memeriksa suhunya, padahal sangat panas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0459",
@@ -9357,7 +10057,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pengemudi forklift harus selalu berhenti sejenak di depan pintu gudang, menunjuk-sebut, dan memastikan keselamatan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0460",
@@ -9376,7 +10078,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Forklift tidak berhenti sejenak di depan pintu gudang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0461",
@@ -9394,7 +10098,9 @@
    "contoh": "{飲料|いんりょう}や{食料品|しょくりょうひん}は{私|わたし}たちの{生活|せいかつ}に{欠|か}かせません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Minuman dan makanan tidak terpisahkan dari kehidupan kita.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0462",
@@ -9482,7 +10188,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menurut statistik Kementerian Pertanian, Kehutanan, dan Perikanan, nilai produksi domestik industri makanan Jepang beberapa tahun ini sekitar 37 triliun yen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0467",
@@ -9501,7 +10209,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menurut statistik Kementerian Pertanian, Kehutanan, dan Perikanan, nilai produksi domestik industri makanan Jepang beberapa tahun ini sekitar 37 triliun yen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0468",
@@ -9538,7 +10248,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menurut statistik Kementerian Pertanian, Kehutanan, dan Perikanan, nilai produksi domestik industri makanan Jepang beberapa tahun ini sekitar 37 triliun yen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0470",
@@ -9575,7 +10287,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di industri apa pun diperlukan pengetahuan dan keterampilan \"higiene pangan\" dan \"keselamatan kerja\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0472",
@@ -9594,7 +10308,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di industri apa pun diperlukan pengetahuan dan keterampilan \"higiene pangan\" dan \"keselamatan kerja\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0473",
@@ -9613,7 +10329,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Eisei\" (higiene) berarti menjaga (mamoru) kehidupan (inochi).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0474",
@@ -9632,7 +10350,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Eisei\" (higiene) berarti menjaga (mamoru) kehidupan (inochi).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0475",
@@ -9686,7 +10406,9 @@
    "contoh": "{日本語|にほんご}に{翻訳|ほんやく}すると「{危害要因分析重要管理点|きがいよういんぶんせきじゅうようかんりてん}」ですが、「ＨＡＣＣＰ」のまま{使|つか}われています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika diterjemahkan ke bahasa Jepang menjadi \"analisis bahaya dan titik kendali kritis\", tetapi tetap dipakai sebagai \"HACCP\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0478",
@@ -9704,7 +10426,9 @@
    "contoh": "{日本語|にほんご}に{翻訳|ほんやく}すると「{危害要因分析重要管理点|きがいよういんぶんせきじゅうようかんりてん}」ですが、「ＨＡＣＣＰ」のまま{使|つか}われています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika diterjemahkan ke bahasa Jepang menjadi \"analisis bahaya dan titik kendali kritis\", tetapi tetap dipakai sebagai \"HACCP\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0479",
@@ -9741,7 +10465,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tabel berikut adalah yang representatif di antara bahaya fisik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0481",
@@ -9760,7 +10486,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Deterjen dan disinfektan juga merupakan faktor bahaya kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0482",
@@ -9779,7 +10507,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cangkang telur yang masuk ke masakan seperti telur dadar padahal sudah dibuang juga termasuk benda asing.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0483",
@@ -9798,7 +10528,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, sayuran yang mungkin berpasir atau berbatu dicuci, disortir, dan dibersihkan lewat pra-pengolahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0484",
@@ -9924,7 +10656,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting juga memisahkan alat masak seperti talenan dan pisau menurut bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0491",
@@ -9997,7 +10731,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika makan makanan yang mengandung solanin, muncul gejala keracunan makanan seperti mual, muntah, diare, sakit perut, dan sakit kepala.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0495",
@@ -10016,7 +10752,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mikroorganisme berarti makhluk kecil seperti bakteri dan virus yang tidak terlihat tanpa mikroskop.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0496",
@@ -10296,7 +11034,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sebaliknya, pada 10℃ ke bawah perkembangannya melambat, dan pada 4℃ ke bawah hampir tidak berkembang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0511",
@@ -10315,7 +11055,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kerang bivalvia seperti tiram kadang tercemar norovirus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0512",
@@ -10334,7 +11076,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kerang bivalvia seperti tiram kadang tercemar norovirus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0513",
@@ -10353,7 +11097,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Norovirus terdapat pada tinja dan muntahan manusia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0514",
@@ -10390,7 +11136,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Muntahan ditangani dengan benar menggunakan alat khusus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0516",
@@ -10409,7 +11157,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Spora jamur ada di mana-mana dan tidak bisa dihilangkan sepenuhnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0517",
@@ -10428,7 +11178,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Spora jamur ada di mana-mana dan tidak bisa dihilangkan sepenuhnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0518",
@@ -10447,7 +11199,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kacang, serealia, sayur, dan buah mudah berjamur selama penyimpanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0519",
@@ -10465,7 +11219,9 @@
    "contoh": "{豆|まめ}、{穀類|こくるい}、{野菜|やさい}、{果物|くだもの}などは、{保存中|ほぞんちゅう}にカビが{増|ふ}えやすい{食品|しょくひん}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kacang, serealia, sayur, dan buah mudah berjamur selama penyimpanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0520",
@@ -10484,7 +11240,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Parasit adalah makhluk yang hidup di permukaan atau dalam tubuh manusia/hewan dengan mengambil nutrisi darinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0521",
@@ -10503,7 +11261,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Misalnya, ada parasit bernama Anisakis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0522",
@@ -10522,7 +11282,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pekerja tidak boleh membawa penyebab benda asing atau mikroorganisme patogen penyebab keracunan ke tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0523",
@@ -10540,7 +11302,9 @@
    "contoh": "「５Ｓ」とは、「Ｓ」で{始|はじ}まる５つの{活動|かつどう}（※）を{意味|いみ}する{言葉|ことば}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"5S\" adalah istilah yang berarti lima kegiatan (※) yang diawali huruf \"S\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0524",
@@ -10558,7 +11322,9 @@
    "contoh": "そのために、{場所|ばしょ}を{決|き}めて{置|お}いたり、{使|つか}いやすい{順序|じゅんじょ}に{並|なら}べたり、{名前|なまえ}や{数量|すうりょう}を{表示|ひょうじ}したりすること。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk itu, tentukan tempat meletakkan, susun menurut urutan yang mudah dipakai, dan beri label nama serta jumlah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0525",
@@ -10577,7 +11343,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk itu, tentukan tempat meletakkan, susun menurut urutan yang mudah dipakai, dan beri label nama serta jumlah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0526",
@@ -10596,7 +11364,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Fasilitas dan alat tidak tercemar mikroorganisme patogen.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0527",
@@ -10614,7 +11384,9 @@
    "contoh": "{日本|にほん}や{世界|せかい}のさまざまな{工場|こうじょう}や{作業|さぎょう}{場|じょ}などでおこなわれています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dilakukan di berbagai pabrik dan tempat kerja di Jepang maupun dunia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0528",
@@ -10633,7 +11405,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mengelola higiene dengan membagi area seperti ini disebut \"pengelolaan higiene per zona (zoning)\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0529",
@@ -10652,7 +11426,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat mengeluarkan bahan baku tak terpakai atau sampah hasil pembersihan dari tempat kerja, gunakan jalur yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0530",
@@ -10689,7 +11465,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saluran pembuangan dan bawah mesin besar mudah menjadi sumber serangga, jadi perlu perhatian khusus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0532",
@@ -10815,7 +11593,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan menyimpan bahan kimia seperti disinfektan dan deterjen di gudang yang sama dengan bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0539",
@@ -10834,7 +11614,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pekerja harus menjalani pemeriksaan kesehatan dan pemeriksaan tinja berkala yang ditentukan tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0540",
@@ -10853,7 +11635,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pekerja harus menjalani pemeriksaan kesehatan dan pemeriksaan tinja berkala yang ditentukan tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0541",
@@ -10872,7 +11656,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seragam kerja dikenakan di ruang ganti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0542",
@@ -10891,7 +11677,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan masuk tempat kerja dengan kuku palsu atau cat kuku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0543",
@@ -11050,7 +11838,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kancingkan dan tutup ritsleting dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0552",
@@ -11069,7 +11859,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di toilet, harus mengganti dengan alas kaki khusus toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0553",
@@ -11123,7 +11915,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tepat sebelum memulai pekerjaan di tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0556",
@@ -11142,7 +11936,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan sabun, cuci tangan, jari, hingga pergelangan tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0557",
@@ -11161,7 +11957,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Keringkan tangan dengan tisu sekali pakai atau pengering udara.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0558",
@@ -11180,7 +11978,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Keringkan tangan dengan tisu sekali pakai atau pengering udara.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0559",
@@ -11199,7 +11999,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Demi higiene menyeluruh, sering dipakai sarung tangan dan celemek sekali pakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0560",
@@ -11218,7 +12020,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Periksa apakah mesin, perangkat, dan alat yang dipakai bersih dan tidak cacat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0561",
@@ -11237,7 +12041,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Periksa apakah mesin, perangkat, dan alat yang dipakai bersih dan tidak cacat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0562",
@@ -11308,7 +12114,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bau bukan faktor bahaya, tetapi jika makanan terkena bau, mutunya terpengaruh buruk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0566",
@@ -11327,7 +12135,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini agar pekerja tidak sengaja membawa barang yang tidak dipakai kerja ke tempat kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0567",
@@ -11399,7 +12209,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Periksa penampilan, bau, standar (ukuran dan isi), kondisi kemasan, label batas waktu dan cara penyimpanan, serta suhu bahan baku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0571",
@@ -11489,7 +12301,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk hasil laut dan rumput laut, kadang dicuci dengan air garam berkonsentrasi tepat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0576",
@@ -11687,7 +12501,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "(Catatan 2) Sayur potong dalam wadah kadang punya suhu penyimpanan yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0587",
@@ -11705,7 +12521,9 @@
    "contoh": "（{注|ちゅう}２）…{容器|ようき}に{入|はい}ったカット{野菜|やさい}の{中|なか}には、{保管温度|ほかんおんど}が{指定|してい}されている{場|ば}{合|あい}があります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "(Catatan 2) Sayur potong dalam wadah kadang punya suhu penyimpanan yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0588",
@@ -11724,7 +12542,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tanpa celah, udara dingin tidak merata ke seluruh kulkas sehingga bahan baku tidak cukup dingin.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0589",
@@ -11743,7 +12563,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada freezer, mengisi makanan beku 80–90% membuat saling mendinginkan sehingga hemat listrik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0590",
@@ -11762,7 +12584,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Rak dan lantai di dalam kulkas dan freezer dibersihkan berkala agar tetap bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0591",
@@ -11782,7 +12606,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Suhu di dalam freezer dan kulkas diukur berkala apakah terjaga benar setiap hari, dan hasilnya dicatat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0592",
@@ -11801,7 +12627,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menurut Undang-Undang Sanitasi Makanan, freezer -15℃ ke bawah dan kulkas 10℃ ke bawah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0593",
@@ -11820,7 +12648,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tanggal shomi kigen dan shohi kigen dicantumkan oleh perusahaan yang membuat makanan olahan (bahan baku) tersebut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0594",
@@ -11857,7 +12687,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan (bahan baku) melewati batas konsumsi tidak pernah dipakai karena risiko keracunan makanan tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0596",
@@ -11876,7 +12708,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini disebut \"masuk lebih dulu, keluar lebih dulu\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0597",
@@ -11948,7 +12782,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang diletakkan di nampan jaring pada rak pencairan, dan tetesan air dialirkan langsung ke saluran pembuangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0601",
@@ -11967,7 +12803,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang diletakkan di nampan jaring pada rak pencairan, dan tetesan air dialirkan langsung ke saluran pembuangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0602",
@@ -11986,7 +12824,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kadang diletakkan di nampan jaring pada rak pencairan, dan tetesan air dialirkan langsung ke saluran pembuangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0603",
@@ -12005,7 +12845,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bahan baku berlemak padat atau pasta keras lebih mudah dikeluarkan dari wadah jika dihangatkan agar lunak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0604",
@@ -12024,7 +12866,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bahan baku berlemak padat atau pasta keras lebih mudah dikeluarkan dari wadah jika dihangatkan agar lunak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0605",
@@ -12043,7 +12887,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk hasil laut dan rumput laut, kadang dicuci dengan air garam berkonsentrasi tepat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0606",
@@ -12062,7 +12908,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk hasil laut dan rumput laut, kadang dicuci dengan air garam berkonsentrasi tepat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0607",
@@ -12080,7 +12928,9 @@
    "contoh": "{加熱工|かねつこう}{程|てい}がない{野菜|やさい}サラダなどの{原材料|げんざいりょう}は、{薬剤|やくざい}を{使|つか}って{殺菌|さっきん}をおこないます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bahan baku seperti salad sayur tanpa proses pemanasan disterilkan dengan bahan kimia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0608",
@@ -12185,7 +13035,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Makanan mengandung alergen kadang dibuat di akhir hari lalu dicuci dengan saksama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0614",
@@ -12204,7 +13056,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dengan pemanasan, bahan baku menjadi mudah dimakan, mudah dicerna, dan lebih enak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0615",
@@ -12223,7 +13077,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Pembekuan\" adalah mendinginkan dan membekukan bahan segar atau olahan untuk meningkatkan daya simpan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0616",
@@ -12242,7 +13098,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika makanan dibekukan perlahan, tekstur seperti kekerasan dan kekenyalan serta cita rasanya memburuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0617",
@@ -12261,7 +13119,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika makanan dibekukan perlahan, tekstur seperti kekerasan dan kekenyalan serta cita rasanya memburuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0618",
@@ -12280,7 +13140,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika makanan dibekukan perlahan, tekstur seperti kekerasan dan kekenyalan serta cita rasanya memburuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0619",
@@ -12299,7 +13161,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, agar makanan beku tetap enak, perlu dibekukan cepat dalam waktu singkat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0620",
@@ -12318,7 +13182,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sering terjadi kesalahan angka pada tanggal kedaluwarsa (shomi kigen) atau batas konsumsi (shohi kigen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0621",
@@ -12355,7 +13221,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena di antara benda asing keras, logam dapat dideteksi dengan detektor logam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0623",
@@ -12374,7 +13242,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat memakai daging mentah, kadang dicek dengan detektor benda asing sinar-X apakah ada tulang tersisa di dalam daging.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0624",
@@ -12393,7 +13263,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada pemeriksaan mikroba sukarela oleh produsen, umumnya diperiksa jumlah bakteri total, E. coli, dan koliform.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0625",
@@ -12412,7 +13284,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada pemeriksaan mikroba sukarela oleh produsen, umumnya diperiksa jumlah bakteri total, E. coli, dan koliform.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0626",
@@ -12431,7 +13305,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada pemeriksaan mikroba sukarela oleh produsen, umumnya diperiksa jumlah bakteri total, E. coli, dan koliform.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0627",
@@ -12468,7 +13344,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk itu, sampel diambil dengan proporsi tertentu dari produk lalu disimpan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0629",
@@ -12487,7 +13365,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selama pengangkutan, makanan diangkut pada suhu yang ditentukan per jenis agar mutunya tidak menurun.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0630",
@@ -12524,7 +13404,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "HACCP dijalankan menurut \"7 prinsip HACCP\" berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0632",
@@ -12562,7 +13444,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 6: Menetapkan metode verifikasi. Pastikan cara yang ditentukan sampai prinsip 5 efektif menghilangkan atau mengurangi bahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0634",
@@ -12581,7 +13465,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 7: Pencatatan. Catat secara tertulis hal yang ditentukan pada prinsip 1 sampai 6.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0635",
@@ -12599,7 +13485,9 @@
    "contoh": "{原則|げんそく}６で{決|き}めた{方法|ほうほう}で{実際|じっさい}に{確認|かくにん}した{結果|けっか}も{一緒|いっしょ}に{記録|きろく}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Catat juga hasil pemeriksaan nyata dengan metode yang ditetapkan pada prinsip 6.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0636",
@@ -12618,7 +13506,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yaitu kapan, siapa, dan bagaimana mencatat suhu tengah hamburg yang dipanaskan dan konsentrasi cairan sterilisasi yang dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0637",
@@ -12637,7 +13527,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dua tindakan yang diperlukan ini disebut \"tindakan perbaikan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0638",
@@ -12674,7 +13566,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Prinsip 6: Menetapkan metode verifikasi. Pastikan cara yang ditentukan sampai prinsip 5 efektif menghilangkan atau mengurangi bahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0640",
@@ -12692,7 +13586,9 @@
    "contoh": "{加|か}{熱|ねつ}されたハンバーグの{中心温度|ちゅうしんおんど}や{使|つか}った{殺菌液|さっきんえき}の{濃度|のうど}を、いつ、{誰|だれ}が、どのように{記録|きろく}するのか、などです。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yaitu kapan, siapa, dan bagaimana mencatat suhu tengah hamburg yang dipanaskan dan konsentrasi cairan sterilisasi yang dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0641",
@@ -12711,7 +13607,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencatat hal yang tidak benar sama sekali tidak boleh dilakukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0642",
@@ -12731,7 +13629,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan juga memperbaiki atas keputusan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0643",
@@ -12768,7 +13668,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Proporsi pekerja belum terampil dalam kecelakaan kerja di manufaktur makanan sekitar separuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0645",
@@ -12893,7 +13795,9 @@
    "contoh": "その{結果|けっか}、{頭|あたま}や{背中|せなか}を{打|う}ったり、{手|て}をついて{手|て}の{骨|ほね}を{折|お}ったりします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Akibatnya kepala atau punggung terbentur, atau tangan patah karena menahan jatuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0652",
@@ -12912,7 +13816,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terjadi saat memakai mesin pemotong seperti pisau dan cutter, atau saat memasukkan tangan karena bahan tersangkut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0653",
@@ -12931,7 +13837,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kaki terkilir, tubuh terbentur, atau tulang tangan patah karena menahan jatuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0654",
@@ -12950,7 +13858,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tangan atau kaki bisa terbakar, bahkan wajah dan seluruh tubuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0655",
@@ -12969,7 +13879,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada sakit pinggang, bisa lama tidak sembuh atau mudah kambuh berkali-kali.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0656",
@@ -13006,7 +13918,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ikut serta juga dalam kegiatan tempat kerja yang bertujuan menghilangkan kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0658",
@@ -13025,7 +13939,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Letakkan kotak dan palet di dalam bingkai yang ditentukan atau mengikuti pita di lantai (seiton).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0659",
@@ -13044,7 +13960,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Letakkan kotak dan palet di dalam bingkai yang ditentukan atau mengikuti pita di lantai (seiton).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0660",
@@ -13062,7 +13980,9 @@
    "contoh": "これで{設備|せつび}・{機械|きかい}が{急|きゅう}に{故障|こしょう}することが{減|へ}り、{巻|ま}き{込|こ}まれなどの{労働災|ろうどうさい}{害|がい}を{防|ふせ}ぐことにつながります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dengan ini, kerusakan mendadak pada fasilitas dan mesin berkurang, sehingga mencegah kecelakaan seperti terjepit.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0661",
@@ -13081,7 +14001,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Karena bisa bekerja dengan tenang, ini membantu mencegah kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0662",
@@ -13100,7 +14022,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada seragam lengan panjang, kencangkan manset dan jangan menggulung lengan saat bekerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0663",
@@ -13119,7 +14043,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada seragam lengan panjang, kencangkan manset dan jangan menggulung lengan saat bekerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0664",
@@ -13433,7 +14359,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Saat forklift lewat, berjalanlah sambil bertatap mata dengan pengemudinya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0681",
@@ -13452,7 +14380,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada pekerjaan bersama, lakukan komunikasi dan isyarat dengan pasti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0682",
@@ -13471,7 +14401,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Pada pekerjaan bersama, lakukan komunikasi dan isyarat dengan pasti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0683",
@@ -13489,7 +14421,9 @@
    "contoh": "{共同|きょうどう}でする{作業|さぎょう}は、{連絡|れんらく}や{合図|あいず}を{確実|かくじつ}におこなう。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada pekerjaan bersama, lakukan komunikasi dan isyarat dengan pasti.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0684",
@@ -13508,7 +14442,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Patuhi cara dan tempat meletakkan perkakas dan pisau yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0685",
@@ -13526,7 +14462,9 @@
    "contoh": "{工具|こうぐ}やナイフなどは{決|き}められた{置|お}き{方|かた}、{置|お}く{場所|ばじょ}を{守|まも}る。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Patuhi cara dan tempat meletakkan perkakas dan pisau yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0686",
@@ -13544,7 +14482,9 @@
    "contoh": "（※）{指差呼称|しさこしょう}{信号|しんごう}、{標識|ひょうしき}、{器具|きぐ}、{作業対象|さぎょうたいしょう}などを{指|ゆび}で{指|さ}しながら、その{名称|めいしょう}や{状態|じょうたい}を{声|こえ}に{出|だ}して{言|い}います。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "(※) Menunjuk-sebut: menunjuk dengan jari sinyal, rambu, alat, atau objek kerja sambil menyebutkan nama dan kondisinya dengan suara.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0687",
@@ -13562,7 +14502,9 @@
    "contoh": "{危|き}{険|けん}の{予防|よぼう}や、{安全|あんぜん}の{確認|かくにん}などの{目的|もくてき}でおこないます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dilakukan untuk tujuan pencegahan bahaya dan konfirmasi keselamatan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0688",
@@ -13598,7 +14540,9 @@
    "contoh": "{人|ひと}が{足|た}りないときは、{無理|むり}に{一人|ひとり}で{作業|さぎょう}はしてはいけません。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Jika kekurangan orang, jangan memaksa bekerja sendirian.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0690",
@@ -13616,7 +14560,9 @@
    "contoh": "これを「{始業前点検|しぎょうまえてんけん}」といって、{毎日|まいにち}の{安定|あんてい}した{製造|せいぞう}に{大切|たいせつ}な{作業|さぎょう}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini disebut \"pemeriksaan sebelum mulai kerja\", pekerjaan penting untuk produksi yang stabil setiap hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0691",
@@ -13635,7 +14581,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah ada suara yang berbeda dari biasanya? Apakah ada getaran yang berbeda dari biasanya?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0692",
@@ -13654,7 +14602,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah ada baut atau sekrup yang hilang?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0693",
@@ -13673,7 +14623,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah lampu bisa menyala dan padam dengan normal?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0694",
@@ -13692,7 +14644,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Apakah lampu bisa menyala dan padam dengan normal?",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0695",
@@ -13729,7 +14683,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bagian putar rantai dan gir konveyor dipasangi penutup pengaman (※fool-proof).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0697",
@@ -13766,7 +14722,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Panel operasi yang memakai tombol henti darurat dilengkapi tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0699",
@@ -13799,7 +14757,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Saat memperbaiki konveyor, selalu matikan sakelar daya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0701",
@@ -13818,7 +14778,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bagian putar rantai dan gir konveyor dipasangi penutup pengaman (※fool-proof).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0702",
@@ -13837,7 +14799,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Buat rencana kapan inspeksi dan perawatan dilakukan, dan harus selalu dilaksanakan meski produksi sibuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0703",
@@ -13857,7 +14821,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Buat rencana kapan inspeksi dan perawatan dilakukan, dan harus selalu dilaksanakan meski produksi sibuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0704",
@@ -13876,7 +14842,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Hal penting ada tiga poin berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0705",
@@ -13895,7 +14863,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Inspeksi dan perawatan (maintenance) sangat penting agar mesin bekerja stabil dan mencegah kecelakaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0706",
@@ -13913,7 +14883,9 @@
    "contoh": "{非常停止|ひじょうていし}ボタンを{使|つか}う{操作盤|そうさばん}には{非常停止|ひじょうていし}ボタンがついています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Panel operasi yang memakai tombol henti darurat dilengkapi tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0707",
@@ -13932,7 +14904,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencampur deterjen berbasis klorin dengan deterjen asam lalu memakainya bersamaan menghasilkan gas klorin beracun dan berbahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0708",
@@ -13951,7 +14925,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencampur deterjen berbasis klorin dengan deterjen asam lalu memakainya bersamaan menghasilkan gas klorin beracun dan berbahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0709",
@@ -13970,7 +14946,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencampur deterjen berbasis klorin dengan deterjen asam lalu memakainya bersamaan menghasilkan gas klorin beracun dan berbahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0710",
@@ -13989,7 +14967,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencampur deterjen berbasis klorin dengan deterjen asam lalu memakainya bersamaan menghasilkan gas klorin beracun dan berbahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0711",
@@ -14008,7 +14988,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alkohol disinfektan tidak boleh diletakkan dekat mesin bersuhu tinggi seperti oven dan penggorengan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0712",
@@ -14027,7 +15009,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Agar bertindak benar saat terjadi keadaan tidak normal atau kecelakaan kerja, penting berlatih sehari-hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0713",
@@ -14046,7 +15030,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dilakukan secara berkala latihan evakuasi kebakaran, latihan evakuasi bencana lain, dan latihan menekan tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0714",
@@ -14065,7 +15051,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dilakukan secara berkala latihan evakuasi kebakaran, latihan evakuasi bencana lain, dan latihan menekan tombol henti darurat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0715",
@@ -14174,7 +15162,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Yang penting adalah mengemukakan sebanyak mungkin pengalaman hiyari-hatto sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0721",
@@ -14352,7 +15342,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Lantai dapur kotor oleh minyak dan mungkin licin.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0731",
@@ -14371,7 +15363,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Api kompor gas yang sedang merebus bisa padam tanpa disadari dan gas menyebar di ruangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0732",
@@ -14390,7 +15384,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Api kompor gas yang sedang merebus bisa padam tanpa disadari dan gas menyebar di ruangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0733",
@@ -14409,7 +15405,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Api kompor gas yang sedang merebus bisa padam tanpa disadari dan gas menyebar di ruangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0734",
@@ -14463,7 +15461,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena membawa tumpukan kotak roti, pandangan ke kaki sulit terlihat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0737",
@@ -14500,7 +15500,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Memotong dan menahan ikan beku yang diolah sesuai posisi kerja dan jenis ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0739",
@@ -14519,7 +15521,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat naik dan turun tangga lipat, kosongkan satu tangan dan pegang tangga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0740",
@@ -14538,7 +15542,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencoba membawa pelat besi tepat setelah keluar dari oven dengan tangan kosong tanpa memeriksa suhunya, padahal sangat panas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0741",
@@ -14557,7 +15563,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mencoba mengangkat benda berat dengan posisi tubuh tidak stabil.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0742",
@@ -14648,7 +15656,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "⑤…Minum air yang mengandung garam atau minuman olahraga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0747",
@@ -14685,7 +15695,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pengemudi forklift harus selalu berhenti sejenak di depan pintu gudang, menunjuk-sebut, dan memastikan keselamatan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0749",

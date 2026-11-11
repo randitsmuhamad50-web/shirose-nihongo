@@ -14,7 +14,7 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261112d";
+} from "./ssw-core.js?v=20261112e";
 import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
 
 let FB = null;
@@ -220,8 +220,11 @@ async function renderBab([slug, babId]) {
 }
 
 /* ============================== BACA MATERI ============================== */
-function blocksHTML(arr) {
-  return (arr || []).map(b => {
+function blocksHTML(arr, anchors) {
+  return (arr || []).map((b, bi) => { const a = anchors && anchors.get(bi) || ""; return blockOne(b) + a; }).join("");
+}
+function blockOne(b) {
+  return [b].map(b => {
     if (b.h) return `<h3>${rich(b.h)}</h3>`;
     if (b.p) return `<p>${rich(b.p)}</p>`;
     if (b.ul) return `<ul>${b.ul.map(x => `<li>${rich(x)}</li>`).join("")}</ul>`;
@@ -230,21 +233,28 @@ function blocksHTML(arr) {
     return "";
   }).join("");
 }
-/** Gambar/diagram potongan buku, ditaruh di samping materi. Hanya bidang dengan "figs" di index.json (Agriculture/Livestock tidak terpengaruh). */
-function figsHTML(pack, s, lang) {
-  const all = (pack.figs || []).filter(f => f.sub === s.id); if (!all.length) return "";
-  const pick = all.some(f => f.book === lang) ? all.filter(f => f.book === lang) : all;
-  const other = lang === "jp" ? "id" : "jp", oname = lang === "jp" ? "Bahasa Indonesia" : "日本語";
-  const byId = new Map((pack.vocab || []).map(v => [v.id, v]));
-  const cards = pick.map(f => {
-    const chips = (f.terms || []).map(id => byId.get(id)).filter(Boolean).map(v => `<button type="button" class="sw-vc" onclick="SSW.vsheet('${pack.slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button>`).join("");
-    return `<figure class="sw-fig"><button type="button" class="sw-fig-img" onclick="SSW.figZoom('${f.src}')" aria-label="Perbesar gambar"><img loading="lazy" src="${f.src}" width="${f.w}" height="${f.h}" alt="${esc(f.cap?.[lang] || f.cap?.id || "")}"></button>
-      <figcaption><b class="${lang === "jp" ? "jp" : ""}">${esc(f.cap?.[lang] || f.cap?.id || "")}</b><p>${esc(f.exp?.[lang] || f.exp?.id || "")}</p>
-      ${chips ? `<div class="sw-vchips">${chips}</div>` : ""}
-      <details><summary>${oname}</summary><p><b class="${other === "jp" ? "jp" : ""}">${esc(f.cap?.[other] || "")}</b></p><p>${esc(f.exp?.[other] || "")}</p></details>
-      <small class="sw-muted">Hal. buku ${f.page}${f.auto ? " · penjelasan otomatis, perlu ditinjau" : ""}</small></figcaption></figure>`;
-  }).join("");
-  return `<aside class="sw-figs" aria-label="Gambar dan diagram"><h2>🖼️ Gambar &amp; diagram (${pick.length})</h2>${cards}</aside>`;
+/** Gambar/diagram potongan buku: disembunyikan, muncul sebagai pop-up persis di samping paragraf terkait. Hanya bidang dengan "figs" di index.json (Agriculture/Livestock tidak terpengaruh). */
+function figPick(pack, s, lang) {
+  const all = (pack.figs || []).filter(f => f.sub === s.id); if (!all.length) return [];
+  return (all.some(f => f.book === lang) ? all.filter(f => f.book === lang) : all).slice().sort((a, b) => (a.page + (a.y || 0)) - (b.page + (b.y || 0)));
+}
+function figAnchors(pack, s, lang, blocks) {
+  const pick = figPick(pack, s, lang); if (!pick.length || !blocks?.length) return { pick, map: new Map() };
+  const [p1, p2] = spages(s, lang), span = Math.max(1, p2 - p1 + 1);
+  const w = blocks.map(b => { const x = b.h || b.p || b.note || (b.ul || b.ol || []).join("") || ""; return Math.max(8, String(x).length); });
+  const tot = w.reduce((a, b) => a + b, 0), cum = []; let c = 0; for (const x of w) { c += x; cum.push(c / tot); }
+  const map = new Map();
+  pick.forEach((f, n) => {
+    const pos = Math.min(0.999, Math.max(0, (f.page - p1 + (f.y || 0)) / span));
+    let bi = cum.findIndex(v => v >= pos); if (bi < 0) bi = blocks.length - 1;
+    const btn = `<button type="button" class="sw-figbtn" onclick="SSW.figOpen('${pack.slug}','${s.id}',${n})" aria-label="Lihat gambar">🖼 <b>Gambar ${n + 1}</b><span>hal. ${f.page}</span></button>`;
+    map.set(bi, (map.get(bi) || "") + btn);
+  });
+  for (const [k, v] of map) map.set(k, `<div class="sw-figrow">${v}</div>`);
+  return { pick, map };
+}
+function figsBar(pick) {
+  return pick.length ? `<div class="sw-figbar"><button type="button" class="btn ghost" onclick="SSW.figOpen(CUR_SLUG_PLACEHOLDER,null,0)">🖼 ${pick.length} gambar subbab ini</button><small class="sw-muted">Ketuk tombol 🖼 di samping paragraf untuk membuka gambar di pop-up.</small></div>` : "";
 }
 function summaryHTML(s) {
   if (!s) return "";
@@ -268,7 +278,10 @@ async function renderBaca([slug, subId, mode, lang]) {
   const words = pack.vocab.filter(v => (v.src || []).includes(s.id));
   const [p1, p2] = spages(s, lang);
   const thumbs = []; for (let p = p1; p <= p2; p++) thumbs.push(p);
-  const body = mode === "lengkap" ? blocksHTML(s.full?.[lang] || s.full?.id) : summaryHTML(s.summary?.[lang] || s.summary?.id);
+  const fgBlocks = s.full?.[lang] || s.full?.id;
+  const fg = mode === "lengkap" ? figAnchors(pack, s, lang, fgBlocks) : { pick: [], map: new Map() };
+  window.__swFig = { slug, subId: s.id, lang, pick: fg.pick, n: 0, title: plain(L(s.title, lang)) };
+  const body = mode === "lengkap" ? blocksHTML(fgBlocks, fg.map) : summaryHTML(s.summary?.[lang] || s.summary?.id);
   setTimeout(() => window.SSW.linkVocab(slug), 0);
   return wrap(`
     ${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: `BAB ${c.no}`, go: `route('ssw-bab/${slug}/${c.id}')` }, { t: `${s.no}` }])}
@@ -293,9 +306,9 @@ async function renderBaca([slug, subId, mode, lang]) {
       <div class="sw-lh"><small>BAB ${c.no} · Subbab ${s.no}/${c.subs.length}</small><h1>${rich(L(s.title, lang))}</h1>
         <button class="sw-chip" onclick="SSW.sayTitle('${slug}','${s.id}','${lang}')">🔊</button></div>
       ${(() => { const miss = pack.idx.unified && ((mode === "lengkap" && lang === "jp" && !s.full?.jp && !s.pagesJp) || (mode === "ringkas" && lang === "jp" && !s.summary?.jp)); return miss ? `<div class="sw-note sw-langmiss">⚠️ Versi 日本語 untuk bagian ini belum tersedia — yang tampil adalah teks Indonesia.</div>` : ""; })()}
-      <div class="${mode === "lengkap" && (pack.figs || []).some(f => f.sub === s.id) ? "sw-lgrid" : ""}">
+      <div>
         <div class="sw-body">${body || '<p class="sw-muted">Konten belum tersedia untuk tampilan ini.</p>'}</div>
-        ${mode === "lengkap" ? figsHTML(pack, s, lang) : ""}
+        ${mode === "lengkap" ? figsBar(fg.pick).replace("CUR_SLUG_PLACEHOLDER", `'${slug}'`) : ""}
       </div>
     </article>
     ${pack.idx.nobook ? `<div class="sw-panel"><p class="sw-muted">Sumber: buku Jepang hal. ${p1 === p2 ? p1 : p1 + "–" + p2} (tampilan halaman buku tidak tersedia untuk bidang ini).</p></div>` : `<div class="sw-panel"><h2>📖 Halaman buku (${p1 === p2 ? "hal. " + p1 : `hal. ${p1}–${p2}`})</h2>
@@ -559,6 +572,25 @@ const SSW = window.SSW = {
   pref(k, d) { const p = getPrefs(); this.prefSet(k, Math.min(220, Math.max(70, p[k] + d)), true); },
   prefSet(k, v, redraw) { const p = getPrefs(); p[k] = Number(v); setPrefs(p); applyPrefs(); if (k === "popup" || k === "hafal") { const slug = (location.hash.match(/^#\/?ssw-[a-z]+\/([^\/]+)/) || [])[1] || "building-cleaning"; getProgress(slug).then(P => { P.pref = { popup: p.popup, hafal: p.hafal }; touch(slug); flush(slug); }); toast(k === "popup" ? (v ? "Pop-up kosakata ON" : "Pop-up kosakata OFF") : (v ? "Hafalan ON" : "Hafalan OFF")); } if (k === "size") { const o = document.getElementById("sw-o1"); if (o) o.textContent = p.size + "%"; const r = document.getElementById("sw-r1"); if (r) r.value = p.size; } else { const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } } },
   prefReset() { setPrefs({ ...PREF_DEF }); applyPrefs(); const sh = document.getElementById("sw-prefs"); if (sh) { sh.hidden = true; this.prefs(); } },
+  figOpen(slug, subId, n) {
+    const F = window.__swFig; if (!F || !F.pick.length) return;
+    F.n = Math.max(0, Math.min(F.pick.length - 1, +n || 0)); const f = F.pick[F.n], lang = F.lang;
+    const other = lang === "jp" ? "id" : "jp", oname = lang === "jp" ? "Bahasa Indonesia" : "日本語";
+    loadPack(F.slug).then(pack => {
+      const byId = new Map((pack.vocab || []).map(v => [v.id, v]));
+      const chips = (f.terms || []).map(id => byId.get(id)).filter(Boolean).map(v => `<button type="button" class="sw-vc" onclick="SSW.vsheet('${F.slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button>`).join("");
+      let el = document.getElementById("sw-figpop"); if (!el) { el = document.createElement("div"); el.id = "sw-figpop"; document.body.append(el); }
+      el.innerHTML = `<div class="sw-fp-bg" onclick="SSW.figClose()"></div><div class="sw-fp-in" role="dialog" aria-label="Gambar materi">
+        <div class="sw-fp-h"><b>🖼 Gambar ${F.n + 1}/${F.pick.length}</b><span class="sw-fp-nav"><button type="button" onclick="SSW.figOpen(null,null,${F.n - 1})" ${F.n === 0 ? "disabled" : ""} aria-label="Sebelumnya">‹</button><button type="button" onclick="SSW.figOpen(null,null,${F.n + 1})" ${F.n === F.pick.length - 1 ? "disabled" : ""} aria-label="Berikutnya">›</button><button type="button" onclick="SSW.figClose()" aria-label="Tutup">✕</button></span></div>
+        <div class="sw-fp-b"><button type="button" class="sw-fig-img" onclick="SSW.figZoom('${f.src}')" aria-label="Perbesar gambar"><img src="${f.src}" width="${f.w}" height="${f.h}" alt="${esc(f.cap?.[lang] || f.cap?.id || "")}"></button>
+        <b class="${lang === "jp" ? "jp" : ""}">${esc((f.auto && F.title) || f.cap?.[lang] || f.cap?.id || "")}</b><p>${esc(f.exp?.[lang] || f.exp?.id || "")}</p>
+        ${chips ? `<div class="sw-vchips">${chips}</div>` : ""}
+        <details><summary>${oname}</summary><p><b class="${other === "jp" ? "jp" : ""}">${esc(f.cap?.[other] || "")}</b></p><p>${esc(f.exp?.[other] || "")}</p></details>
+        <small class="sw-muted">Hal. buku ${f.page}${f.auto ? " · penjelasan otomatis, perlu ditinjau" : ""}</small></div></div>`;
+      el.hidden = false; document.body.classList.add("sw-figopen");
+    });
+  },
+  figClose() { const el = document.getElementById("sw-figpop"); if (el) el.hidden = true; document.body.classList.remove("sw-figopen"); },
   figZoom(src) {
     let lb = document.getElementById("sw-figlb"); if (lb) lb.remove();
     lb = document.createElement("div"); lb.id = "sw-figlb"; lb.innerHTML = `<button type="button" class="x" aria-label="Tutup">✕</button><img src="${src}" alt="">`;

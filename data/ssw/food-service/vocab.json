@@ -20,7 +20,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Keracunan makanan memiliki klasifikasi berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-002",
@@ -41,7 +43,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sebagian besar keracunan makanan terjadi karena faktor-faktor berikut yang menunjukkan kelemahan pengelolaan higiene.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-003",
@@ -83,7 +87,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, pemanasan yang kurang juga menyebabkan keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-005",
@@ -105,7 +111,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika tidak dipanaskan (misalnya salad), lakukan sterilisasi sesuai kebutuhan (untuk membunuh bakteri).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-006",
@@ -128,7 +136,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika memakai talenan atau pisau yang sama, cuci bersih dan disinfeksi setiap kali selesai dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-007",
@@ -150,7 +160,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bakteri yang ada di usus sapi, babi, dan ayam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-008",
@@ -266,7 +278,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Memakan kerang bivalvia (hasil laut) yang tercemar norovirus tanpa dipanaskan cukup dapat menyebabkan keracunan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-014",
@@ -310,7 +324,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karyawan sedang diare.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-016",
@@ -373,7 +389,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di dalam kulkas, tentukan tempat penyimpanan menurut jenis bahan baku dan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-019",
@@ -395,7 +413,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "① Periksa termometer suhu di dalam kulkas/freezer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-020",
@@ -418,7 +438,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada penyimpanan dan pengolahan bahan baku dan makanan, ada kemungkinan terjadi kontaminasi silang dan kontaminasi sekunder.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-021",
@@ -441,7 +463,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Periksa juga tanggal batas (batas konsumsi, kedaluwarsa) bahan baku dan makanan yang disimpan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-022",
@@ -464,7 +488,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika belum ada, pasang termometer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-023",
@@ -487,7 +513,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika memakai talenan atau pisau yang sama, cuci bersih dan disinfeksi setiap kali selesai dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-024",
@@ -510,7 +538,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika memakai talenan atau pisau yang sama, cuci bersih dan disinfeksi setiap kali selesai dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-025",
@@ -531,7 +561,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Beri deterjen, buat berbusa, dan cuci dengan baik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-026",
@@ -573,7 +605,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bilas deterjen dengan baik menggunakan air keran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-028",
@@ -594,7 +628,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Disinfeksi dengan air mendidih, disinfektan berbasis klorin, atau alkohol 70%.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-029",
@@ -611,7 +647,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Disinfeksi dengan air mendidih, disinfektan berbasis klorin, atau alkohol 70%.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-030",
@@ -649,7 +687,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kenakan pakaian, sepatu, dan sarung tangan karet yang berbeda dari saat memasak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-032",
@@ -689,7 +729,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Perhatikan hal berikut mengenai seragam dan penampilan bersih yang sesuai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-034",
@@ -728,7 +770,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ada luka di tangan atau jari karyawan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-036",
@@ -748,7 +792,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karyawan bekerja dengan tetap memakai perhiasan (jam tangan, kalung, cincin, anting, dll.).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-037",
@@ -768,7 +814,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karyawan bekerja dengan tetap memakai perhiasan (jam tangan, kalung, cincin, anting, dll.).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-038",
@@ -810,7 +858,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu bilas dengan air mengalir.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-040",
@@ -832,7 +882,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Dengan menerapkan 3S (seiri, seiton, seiso) secara menyeluruh, tempat menjadi bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-041",
@@ -855,7 +907,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Dengan menerapkan 3S (seiri, seiton, seiso) secara menyeluruh, tempat menjadi bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-042",
@@ -877,7 +931,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tentukan tempat yang dibersihkan dan bersihkan secara terencana.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-043",
@@ -899,7 +955,9 @@
    "tek": 1,
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Dengan menerapkan 3S (seiri, seiton, seiso) secara menyeluruh, tempat menjadi bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-044",
@@ -920,7 +978,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Artinya selalu melakukan hal yang ditentukan dengan benar, membiasakan diri menaatinya, atau mengajarkannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-045",
@@ -942,7 +1002,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sampah dapur dan sisa makanan dimasukkan ke wadah khusus bertutup.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-046",
@@ -963,7 +1025,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya sampah mudah terbakar, tidak mudah terbakar, plastik, botol, kaleng, dan minyak bekas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-047",
@@ -981,7 +1045,9 @@
    "tek": 1,
    "pos": [
     "KK"
-   ]
+   ],
+   "arti_contoh": "Selain itu, untuk ikan fugu yang penanganannya diatur, wajib menyimpan limbahnya dalam wadah terkunci.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-048",
@@ -1002,7 +1068,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Diperlukan tindakan seperti mendinginkan makanan di zona suhu berbahaya dalam waktu singkat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-049",
@@ -1025,7 +1093,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dalam bahasa Jepang, diterjemahkan sebagai \"analisis bahaya dan titik kendali kritis\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-050",
@@ -1048,7 +1118,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Diperlukan pemanasan dengan suhu tengah 70℃ selama 1 menit atau lebih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-051",
@@ -1108,7 +1180,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sering digunakan saat membuat sashimi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-054",
@@ -1128,7 +1202,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dengan direbus lama, kolagen larut sehingga empuk, cocok untuk semur, kari, dan masakan rebus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-055",
@@ -1187,7 +1263,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Katakan demikian, lalu tarik kembali hidangan yang kemasukan benda asing.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-058",
@@ -1206,7 +1284,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Anisakis ada di organ dalam ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-059",
@@ -1249,7 +1329,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bekukan pada -20℃ ke bawah selama 24 jam atau lebih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-061",
@@ -1272,7 +1354,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Catat hal yang dipastikan dalam pengelolaan higiene.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-062",
@@ -1369,7 +1453,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Fillet: bagian halus dan lembut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-067",
@@ -1385,7 +1471,9 @@
    ],
    "contoh": "そともも{赤身肉|あかみにく}で{味|あじ}はあっさりしてる。",
    "auto": true,
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Paha luar: daging merah dengan rasa ringan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-068",
@@ -1461,7 +1549,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Berikut musim terbaik (shun) ikan-ikan representatif di Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-072",
@@ -1481,7 +1571,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Berikut musim terbaik (shun) ikan-ikan representatif di Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-073",
@@ -1617,7 +1709,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pra-pengolahan dilakukan di meja kerja yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-080",
@@ -1640,7 +1734,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan biarkan bakteri berkembang saat mencairkan produk beku.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-081",
@@ -1792,7 +1888,9 @@
    "tek": 1,
    "pos": [
     "KK"
-   ]
+   ],
+   "arti_contoh": "Karena itu, saat menanak nasi, keseimbangan jumlah beras dan air penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-088",
@@ -1814,7 +1912,9 @@
    "tek": 1,
    "pos": [
     "KK"
-   ]
+   ],
+   "arti_contoh": "Menambahkan garam ke air rebusan membuat bentuk bahan tidak mudah rusak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-089",
@@ -1874,7 +1974,9 @@
    "auto": true,
    "pos": [
     "KK"
-   ]
+   ],
+   "arti_contoh": "Suhu merebus biasanya 100℃, yaitu saat bumbu cair mendidih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-092",
@@ -1934,7 +2036,9 @@
    "tek": 1,
    "pos": [
     "KK"
-   ]
+   ],
+   "arti_contoh": "Masakan yang dicampur (aemono) cenderung mudah menurun mutunya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-095",
@@ -2041,7 +2145,9 @@
    "auto": true,
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Jangan lalai memeriksa keselamatan hanya karena sudah biasa.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-101",
@@ -2098,7 +2204,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ada kemungkinan terjatuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-104",
@@ -2135,7 +2243,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Mesin berputar seperti slicer dan cutter mixer dapat menyebabkan kecelakaan besar jika salah penggunaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-106",
@@ -2153,7 +2263,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat menjauh dari mesin, selalu matikan daya dan cabut steker.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-107",
@@ -2194,7 +2306,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika terjadi kebakaran, segera lakukan pemadaman.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-109",
@@ -2217,7 +2331,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Biasakan memeriksa letak alat pemadam api (APAR) sehari-hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-110",
@@ -2240,7 +2356,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Setelah mengungsi, jangan sekali-kali kembali ke arah sumber api.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-111",
@@ -2281,7 +2399,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Masukkan minyak bekas ke wadah bertutup dan jauhkan dari api.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-113",
@@ -2299,7 +2419,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jaga agar debu tidak menumpuk pada sambungan steker dan stopkontak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-114",
@@ -2356,7 +2478,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dan semua ini diungkapkan dengan kata \"omotenashi\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-117",
@@ -2378,7 +2502,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Profesional pelayanan sengaja membuat senyum saat melayani.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-118",
@@ -2400,7 +2526,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hati-hati agar nampan tidak mengenai pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-119",
@@ -2441,7 +2569,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penting bagi kita untuk selalu bekerja dengan memikirkan kepuasan pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-121",
@@ -2464,7 +2594,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "<Contoh> Pelanggan yang sudah makan setengah hidangan mengeluh ada serangga di dalam makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-122",
@@ -2485,7 +2617,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di restoran, kesan bersih sangat penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-123",
@@ -2506,7 +2640,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tolok ukur penilaiannya disebut suasana (fun'iki).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-124",
@@ -2546,7 +2682,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Profesional pelayanan sengaja membuat senyum saat melayani.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-126",
@@ -2568,7 +2706,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ada tiga jenis ojigi (membungkuk) sesuai tujuan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-127",
@@ -2590,7 +2730,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Luruskan punggung dan turunkan pandangan ke lantai sekitar 2 m dari kaki.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-128",
@@ -2673,7 +2815,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan menaruh sumpit atau gelas sendiri di meja putar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-132",
@@ -2695,7 +2839,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ichiju-sansai adalah susunan dasar masakan Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-133",
@@ -2717,7 +2863,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kursi yang jauh dari pintu masuk adalah \"kamiza\" (kursi kehormatan).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-134",
@@ -2739,7 +2887,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "\"Shimoza\" adalah kursi yang dekat pintu masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-135",
@@ -2778,7 +2928,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Silver: sebutan untuk pisau dan garpu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-137",
@@ -2796,7 +2948,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Garpu diletakkan di sisi kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-138",
@@ -2839,7 +2993,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Anjing pendamping adalah sebutan umum untuk anjing penuntun tunanetra, anjing bantu, dan anjing pendengar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-140",
@@ -2861,7 +3017,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kursi roda ada kursi roda pendamping dan kursi roda yang digerakkan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-141",
@@ -2883,7 +3041,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika lansia datang sendirian, periksa saat pulang apakah ada barang tertinggal.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-142",
@@ -2943,7 +3103,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Namun, tingkat perhatian yang diperlukan berbeda tiap orang, jadi tidak perlu bertindak berdasarkan anggapan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-145",
@@ -2994,7 +3156,9 @@
     "f3s5"
    ],
    "contoh": "いらっしゃいませ お{客様|きゃくさま}が{来店|らいてん}されたときのあいさつです。",
-   "auto": true
+   "auto": true,
+   "arti_contoh": "Irasshaimase: salam saat pelanggan datang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-148",
@@ -3009,7 +3173,9 @@
    ],
    "contoh": "ありがとうございます お客様が帰るときのあいさつです。",
    "auto": true,
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Arigatou gozaimasu: salam saat pelanggan pulang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-149",
@@ -3046,7 +3212,9 @@
    ],
    "contoh": "{失礼|しつれい}いたします お{店|みせ}のスタッフが、お{客様|きゃくさま}の{座|すわ}る{席|せき}に{近|ちか}づくとき、はなれるときに{使|つか}います。",
    "auto": true,
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Shitsurei itashimasu: dipakai saat staf mendekati atau menjauhi kursi pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-151",
@@ -3064,7 +3232,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kashikomarimashita: dipakai saat menerima permintaan atau keinginan pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-152",
@@ -3099,7 +3269,9 @@
    ],
    "contoh": "{申|もう}し{訳|わけ}ございません お{客様|きゃくさま}にお{詫|わ}びをするときに{使|つか}います。",
    "auto": true,
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Moushiwake gozaimasen: dipakai untuk meminta maaf kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-154",
@@ -3117,7 +3289,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Menu makan siang rekomendasi hari ini adalah ○○.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-155",
@@ -3135,7 +3309,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Alergi makanan tidak memiliki metode pengobatan yang efektif.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-156",
@@ -3189,7 +3365,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Menyajikan minuman beralkohol kepada anak di bawah umur (di bawah 20 tahun) dilarang oleh hukum.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-159",
@@ -3229,7 +3407,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di antara zat gizi dalam makanan, ada yang tak tergantikan untuk kelangsungan hidup kita.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-161",
@@ -3266,7 +3446,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena pengunjung Muslim ke Jepang meningkat, pahami halal yang dicari umat Muslim dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-163",
@@ -3288,7 +3470,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Berikut adalah contoh persiapan pembukaan toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-164",
@@ -3310,7 +3494,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat jam tutup tiba dan semua pelanggan sudah keluar, lakukan semua pekerjaan penutupan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-165",
@@ -3368,7 +3554,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di toko-toko Jepang, sekitar 80% pembayaran dilakukan secara tunai (yen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-168",
@@ -3386,7 +3574,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Metode pembayaran nontunai yang representatif adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-169",
@@ -3421,7 +3611,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Uang kembalian yang diperlukan sudah ada di kasir.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-171",
@@ -3442,7 +3634,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu laporkan tercampurnya benda asing kepada penanggung jawab toko dan minta maaf bersama kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-172",
@@ -3482,7 +3676,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu laporkan tercampurnya benda asing kepada penanggung jawab toko dan minta maaf bersama kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-174",
@@ -3503,7 +3699,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya rambut, serpihan plastik, batu, dan serangga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-175",
@@ -3523,7 +3721,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya rambut, serpihan plastik, batu, dan serangga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-176",
@@ -3544,7 +3744,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu laporkan tercampurnya benda asing kepada penanggung jawab toko dan minta maaf bersama kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-177",
@@ -3585,7 +3787,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jepang adalah negara yang sering mengalami bencana alam seperti gempa bumi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-179",
@@ -3627,7 +3831,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, karena restoran menggunakan api, ada kemungkinan terjadi kebakaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fs-181",
@@ -3763,7 +3969,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, jika pengelolaan higiene buruk, hal yang tidak boleh ada pada makanan selain bakteri dan virus bisa masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-009",
@@ -3826,7 +4034,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Disinfeksi dengan air mendidih, disinfektan berbasis klorin, atau alkohol 70%.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-013",
@@ -3848,7 +4058,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Norovirus juga ada pada tinja dan muntahan, jadi mencuci tangan setelah dari toilet sangat penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-014",
@@ -3870,7 +4082,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ka. Cuci ibu jari dan pangkalnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-015",
@@ -3892,7 +4106,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Banyak bakteri berkembang pesat saat suhu dan kelembapan tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-016",
@@ -3914,7 +4130,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pengelolaan suhu bahan baku dan makanan itu penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-018",
@@ -3935,7 +4153,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Diperlukan tindakan seperti mendinginkan makanan di zona suhu berbahaya dalam waktu singkat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-019",
@@ -4038,7 +4258,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ciri-cirinya: berkembang di tempat tanpa oksigen dan membentuk spora.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-025",
@@ -4077,7 +4299,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Keringkan dan simpan di tempat bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-029",
@@ -4099,7 +4323,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tentukan sebelumnya suhu standar pengelolaan masing-masing kulkas dan freezer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-030",
@@ -4220,7 +4446,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena itu, karyawan perlu mencuci tangan dan menjaga kesehatan setiap hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-040",
@@ -4263,7 +4491,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada penyimpanan dan pengolahan bahan baku dan makanan, ada kemungkinan terjadi kontaminasi silang dan kontaminasi sekunder.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-042",
@@ -4284,7 +4514,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Benda asing keras seperti logam bisa melukai orang yang memakannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-043",
@@ -4299,7 +4531,9 @@
     "f1s6"
    ],
    "contoh": "{食品|しょくひん}を{取扱|とりあつ}う{飲食店|いんしょくてん}や{食品工場|しょくひんこうじょう}では、５Sを{合言葉|あいことば}として、{施設|しせつ}の{環境|かんきょ}を{管理|かんり}しています。",
-   "auto": true
+   "auto": true,
+   "arti_contoh": "Di restoran dan pabrik makanan yang menangani makanan, lingkungan fasilitas dikelola dengan semboyan 5S.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-044",
@@ -4399,7 +4633,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada tangan menempel berbagai bakteri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-052",
@@ -4421,7 +4657,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya deterjen, insektisida, kaca, dan serpihan logam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-053",
@@ -4483,7 +4721,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Banyak bakteri berkembang pesat saat suhu dan kelembapan tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-058",
@@ -4504,7 +4744,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Titik kendali kritis ini dikelola berdasarkan suhu dan waktu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-059",
@@ -4526,7 +4768,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karyawan bekerja dengan tetap memakai perhiasan (jam tangan, kalung, cincin, anting, dll.).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-063",
@@ -4569,7 +4813,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk mencegah keracunan makanan oleh bakteri, penting tiga prinsip pencegahan keracunan makanan berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-066",
@@ -4591,7 +4837,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika sisa makanan (sampah dapur) tidak ditangani dengan benar, bakteri berkembang dari sana.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-067",
@@ -4651,7 +4899,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bilas deterjen dengan baik menggunakan air keran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-070",
@@ -4752,7 +5002,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ambil sabun atau pembersih tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-081",
@@ -4950,7 +5202,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Cuci telapak tangan dan bagian dalam jari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-095",
@@ -5087,7 +5341,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terutama kerang bivalvia dan daging, penting dipanaskan dengan suhu tengah 75℃ selama 1 menit atau lebih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-105",
@@ -5129,7 +5385,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Disinfeksi dengan air mendidih, disinfektan berbasis klorin, atau alkohol 70%.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-108",
@@ -5171,7 +5429,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pilah dan buang dengan benar sesuai aturan tersebut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-111",
@@ -5193,7 +5453,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Limbah (sampah) dari dapur harus dipilah menurut jenisnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-112",
@@ -5340,7 +5602,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "※ Benda asing yang membuat pelanggan tidak nyaman seperti serangga juga disebut benda asing yang tidak menyenangkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-121",
@@ -5439,7 +5703,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ka. Cuci ibu jari dan pangkalnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-127",
@@ -5462,7 +5728,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Karena itu, penting menyimpan makanan pada 10℃ ke bawah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-128",
@@ -5561,7 +5829,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Deterjen dan bahan kimia yang dipakai di dapur harus dikelola dengan baik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-134",
@@ -5582,7 +5852,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ada luka di tangan atau jari karyawan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-135",
@@ -5643,7 +5915,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika ada alat pendingin, segera gunakan setelah pemanasan untuk menurunkan suhu makanan hingga 10℃ ke bawah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-141",
@@ -5699,7 +5973,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Paha luar: daging merah dengan rasa ringan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-145",
@@ -5994,7 +6270,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hidangan representatifnya adalah onigiri, sushi, dan makizushi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-164",
@@ -6296,7 +6574,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk mencegah kekurangan/kehabisan, lakukan dengan cara berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-185",
@@ -7373,7 +7653,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika terjadi kebakaran, segera lakukan pemadaman.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-253",
@@ -7611,7 +7893,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hidangan representatifnya adalah onigiri, sushi, dan makizushi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-266",
@@ -8757,7 +9041,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dengan direbus lama, kolagen larut sehingga empuk, cocok untuk semur, kari, dan masakan rebus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-333",
@@ -9001,7 +9287,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena cara memasak tanpa api atau panas, disebut \"masak tanpa pemanasan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-348",
@@ -9077,7 +9365,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Fillet: bagian halus dan lembut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-352",
@@ -9501,7 +9791,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, jika kentang yang dikukus dan dihaluskan dicampur dressing, menjadi salad kentang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-378",
@@ -9614,7 +9906,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hidangan representatifnya adalah onigiri, sushi, dan makizushi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-384",
@@ -10033,7 +10327,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya, berbagai sayuran dicuci, disterilkan, dipotong, lalu dicampur menjadi salad sayur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-411",
@@ -10455,7 +10751,9 @@
    "tek": 1,
    "pos": [
     "KK"
-   ]
+   ],
+   "arti_contoh": "Ucapkan salam lebih dulu secara aktif dari diri sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-436",
@@ -10669,7 +10967,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di restoran, kesan bersih sangat penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-449",
@@ -10687,7 +10987,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Orang vegetarian murni (tidak makan produk hewani sama sekali termasuk telur dan susu) disebut vegan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-450",
@@ -10821,7 +11123,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat menerima dan menyerahkan uang pada pembayaran, lakukan dengan cara seperti menghitung uang pelan dengan suara jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-464",
@@ -10843,7 +11147,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Anjing pendamping adalah sebutan umum untuk anjing penuntun tunanetra, anjing bantu, dan anjing pendengar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-465",
@@ -10865,7 +11171,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada kursi roda pendamping, pendamping yang mengoperasikan kursi roda, jadi staf toko tidak perlu membantu menggerakkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-467",
@@ -10887,7 +11195,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, dasar dari suasana adalah kenyamanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-469",
@@ -10909,7 +11219,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jangan berdiri untuk mengambil makanan di meja putar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-471",
@@ -10948,7 +11260,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Caster set: set bumbu yang diletakkan di meja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-473",
@@ -10970,7 +11284,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Nilai yang diberikan restoran kepada pelanggan adalah \"kelezatan hidangan\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-474",
@@ -11008,7 +11324,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Orang vegetarian murni (tidak makan produk hewani sama sekali termasuk telur dan susu) disebut vegan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-477",
@@ -11030,7 +11348,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dan harapan pelanggan dipengaruhi oleh hal berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-478",
@@ -11072,7 +11392,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Metode pembayaran nontunai yang representatif adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-480",
@@ -11107,7 +11429,9 @@
     "f3s2"
    ],
    "contoh": "この４つの{要素|ようそ}を{英語|えいご}にした{頭文字|かしらもじ}をとって、QSCAといいます。",
-   "auto": true
+   "auto": true,
+   "arti_contoh": "Huruf awal dari empat unsur ini dalam bahasa Inggris disebut QSCA.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-483",
@@ -11148,7 +11472,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat menerima dan menyerahkan uang pada pembayaran, lakukan dengan cara seperti menghitung uang pelan dengan suara jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-486",
@@ -11188,7 +11514,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat meletakkan gelas di meja, letakkan pelan tanpa bunyi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-489",
@@ -11228,7 +11556,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "\"Kepuasan\" dan \"ketidakpuasan\" terhadap toko timbul dari selisih antara harapan pelanggan dan pengalaman layanan sebenarnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-492",
@@ -11325,7 +11655,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terdiri dari \"nasi\", \"sup\", \"lauk\", dan \"tsukemono (acar)\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-499",
@@ -11343,7 +11675,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu minta manajer atau penanggung jawab menanganinya (callback).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-501",
@@ -11383,7 +11717,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Topang bagian tengah nampan dengan telapak tangan yang berlawanan dengan tangan dominan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-503",
@@ -11404,7 +11740,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika ditambah \"vitamin dan mineral\", disebut juga 5 zat gizi utama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-504",
@@ -11440,7 +11778,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Terdiri dari \"nasi\", \"sup\", \"lauk\", dan \"tsukemono (acar)\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-506",
@@ -11459,7 +11799,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Goblet glass: gelas khusus air yang terutama dipakai di restoran kelas atas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-507",
@@ -11478,7 +11820,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Salam adalah komunikasi pertama antarmanusia.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-508",
@@ -11555,7 +11899,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Agar layanan saran (suggestion) berhasil, pahami produk toko dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-513",
@@ -11577,7 +11923,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tata krama (sahō) adalah cara makan yang benar di suatu daerah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-514",
@@ -11670,7 +12018,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yaitu \"protein, lemak, dan karbohidrat\", disebut 3 zat gizi utama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-520",
@@ -11711,7 +12061,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kursi roda ada kursi roda pendamping dan kursi roda yang digerakkan sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-522",
@@ -11732,7 +12084,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "※ Uang kertas yang ditampilkan adalah contoh, jadi tertulis \"contoh\" dengan merah dan dua garis miring merah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-524",
@@ -11855,7 +12209,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Minuman sulingan: minuman hasil fermentasi yang disuling lagi, berkadar alkohol relatif tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-531",
@@ -11917,7 +12273,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ichiju-sansai adalah susunan dasar masakan Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-534",
@@ -11936,7 +12294,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Silver: sebutan untuk pisau dan garpu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-535",
@@ -12013,7 +12373,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika hidangan disertai sup, letakkan sendok sup di sisi kanan pisau.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-539",
@@ -12069,7 +12431,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika hidangan disertai sup, letakkan sendok sup di sisi kanan pisau.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-542",
@@ -12088,7 +12452,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hal ini disebut \"senyum dan kontak mata\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-543",
@@ -12256,7 +12622,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yaitu \"protein, lemak, dan karbohidrat\", disebut 3 zat gizi utama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-554",
@@ -12277,7 +12645,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Yaitu \"protein, lemak, dan karbohidrat\", disebut 3 zat gizi utama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-555",
@@ -12299,7 +12669,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Masakan Tiongkok disajikan di piring besar dan dibagi bersama oleh yang duduk semeja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-556",
@@ -12321,7 +12693,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Anjing pendamping adalah sebutan umum untuk anjing penuntun tunanetra, anjing bantu, dan anjing pendengar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-558",
@@ -12360,7 +12734,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hal penting dalam take-out adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-560",
@@ -12395,7 +12771,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kecuali sebagian hidangan penutup, hidangan dimakan dari sisi kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-562",
@@ -12488,7 +12866,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Hati-hati agar nampan tidak mengenai pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-567",
@@ -12509,7 +12889,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Vegetarian umumnya adalah orang yang tidak makan makanan hewani seperti daging dan ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-568",
@@ -12666,7 +13048,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat makan masakan Jepang di ruang tatami, perhatikan urutan tempat duduk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-577",
@@ -12746,7 +13130,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika tidak jelas apakah pelanggan di bawah umur, perlu memeriksa umur dengan kartu identitas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-581",
@@ -12841,7 +13227,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sebaliknya, hal yang \"tidak diizinkan\" disebut haram.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-589",
@@ -12859,7 +13247,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Untuk pelanggan rombongan, pastikan siapa yang menjadi handle keeper (pengemudi).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-590",
@@ -12908,7 +13298,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika ditambah \"vitamin dan mineral\", disebut juga 5 zat gizi utama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-594",
@@ -12949,7 +13341,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dalam adat Jepang ada urutan tempat duduk \"kamiza\" dan \"shimoza\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-596",
@@ -13013,7 +13407,9 @@
    "tek": 1,
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "\"Kepuasan\" dan \"ketidakpuasan\" terhadap toko timbul dari selisih antara harapan pelanggan dan pengalaman layanan sebenarnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-600",
@@ -13106,7 +13502,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini dibangun orang Jepang sebagai budaya melalui sejarah panjang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-606",
@@ -13124,7 +13522,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Vegetarian umumnya adalah orang yang tidak makan makanan hewani seperti daging dan ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-607",
@@ -13163,7 +13563,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Omotenashi = hospitality (keramahtamahan).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-610",
@@ -13182,7 +13584,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, hidangan di piring besar sebaiknya dipindahkan ke piring kecil sebelum dimakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-611",
@@ -13204,7 +13608,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penting bagi kita untuk selalu bekerja dengan memikirkan kepuasan pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-612",
@@ -13225,7 +13631,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Indera pengecap (mikaku) adalah rasa yang dirasakan manusia saat makan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-613",
@@ -13264,7 +13672,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika ditambah \"vitamin dan mineral\", disebut juga 5 zat gizi utama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-617",
@@ -13285,7 +13695,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika tidak jelas apakah pelanggan di bawah umur, perlu memeriksa umur dengan kartu identitas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-618",
@@ -13348,7 +13760,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Anjing pendamping adalah sebutan umum untuk anjing penuntun tunanetra, anjing bantu, dan anjing pendengar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-621",
@@ -13464,7 +13878,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pelanggan tetap (repeater) adalah pelanggan yang datang berulang kali.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-627",
@@ -13503,7 +13919,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Sering terdengar tentang kebaikan, keramahan, dan kesopanan orang Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-630",
@@ -13541,7 +13959,9 @@
    "tek": 1,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di restoran kelas atas, penyajian dimulai dari wanita (lady first), lalu yang lebih tua.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fj-632",
@@ -13595,7 +14015,9 @@
    "auto": true,
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ichiju-sansai adalah susunan dasar masakan Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0704",
@@ -13619,7 +14041,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika belum ada, pasang termometer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0705",
@@ -13643,7 +14067,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Masakan yang dipanggang di atas api juga salah satunya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0706",
@@ -13667,7 +14093,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pengelolaan suhu bahan baku dan makanan itu penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0707",
@@ -13692,7 +14120,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, tangani dengan cara berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0708",
@@ -13716,7 +14146,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Konfirmasi pemanasan sama seperti grup 2.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0709",
@@ -13739,7 +14171,9 @@
    "contoh": "{原材料|げんざいりょう}や{食品|しょくひん}の{温度管理|おんどかんり}は{大切|たいせつ}です。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Pengelolaan suhu bahan baku dan makanan itu penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0710",
@@ -13763,7 +14197,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan deterjen, sikat, dan spons khusus toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0711",
@@ -13786,7 +14222,9 @@
    "contoh": "ごみは{種類別|しゅるいべつ}に{分|わ}ける{必要|ひつよう}があります。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Sampah perlu dipilah menurut jenis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0712",
@@ -13809,7 +14247,9 @@
    "contoh": "{野菜|やさい}によって{対応方法|たいおうほうほう}が{異|こと}なります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Cara penanganan berbeda tergantung jenis sayuran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0713",
@@ -13834,7 +14274,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan menyajikan organ dalam ikan mentah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0714",
@@ -13858,7 +14300,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika menggunakan isi teks ini, cantumkan sumbernya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0715",
@@ -13882,7 +14326,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pengelolaan suhu bahan baku dan makanan itu penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0716",
@@ -13906,7 +14352,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Pisahkan alat masak menurut kegunaan seperti daging dan ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0717",
@@ -13927,7 +14375,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Peralatan yang dipakai pada memasak dalam jumlah besar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0718",
@@ -13948,7 +14398,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Konfirmasi pemanasan sama seperti grup 2.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0719",
@@ -13970,7 +14422,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cara memasak dengan mencampur beberapa bahan menjadi satu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0720",
@@ -13994,7 +14448,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ku. Setelah selesai, cuci tangan dengan saksama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0721",
@@ -14017,7 +14473,9 @@
    "contoh": "{清潔|せいけつ}な{場所|ばしょ}で{乾燥|かんそう}、{保管|ほかん}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Keringkan dan simpan di tempat bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0722",
@@ -14040,7 +14498,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Titik-titik pengelolaan higiene menjadi jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0723",
@@ -14063,7 +14523,9 @@
    "contoh": "{野菜|やさい}によって{対応方法|たいおうほうほう}が{異|こと}なります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Cara penanganan berbeda tergantung jenis sayuran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0724",
@@ -14087,7 +14549,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ada tiga jenis ojigi (membungkuk) sesuai tujuan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0725",
@@ -14111,7 +14575,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika salah menangani api, bisa terjadi kebakaran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0726",
@@ -14135,7 +14601,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, serangga dan tikus juga mungkin muncul.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0727",
@@ -14158,7 +14626,9 @@
    "contoh": "－15℃{以下|いか}ではふえません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tidak berkembang pada -15℃ ke bawah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0728",
@@ -14202,7 +14672,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Pisahkan alat masak menurut kegunaan seperti daging dan ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0730",
@@ -14226,7 +14698,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Sering digunakan saat membuat sashimi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0731",
@@ -14250,7 +14724,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ucapkan salam lebih dulu secara aktif dari diri sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0732",
@@ -14270,7 +14746,9 @@
    "contoh": "そして、お{客|きゃ}{様|くさま}によいサービスを{提供|ていきょう}する{原動力|げんどうりょく}になります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dan menjadi daya penggerak untuk memberikan layanan yang baik kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0733",
@@ -14294,7 +14772,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, serangga dan tikus juga mungkin muncul.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0734",
@@ -14316,7 +14796,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karyawan sedang diare.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0735",
@@ -14339,7 +14821,9 @@
    "contoh": "{日本|にほん}で{代|だ}{表的|いひょうて}な{魚|さか}の{旬|しゅ}を{紹介|しょうかい}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Berikut musim terbaik (shun) ikan-ikan representatif di Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0736",
@@ -14358,7 +14842,9 @@
    "contoh": "{本|ほん}テキストの{内容|ないよう}を{利用|りよう}する{場合|ばあい}には、{出典|しゅってん}を{記載|きさい}してください。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika menggunakan isi teks ini, cantumkan sumbernya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0737",
@@ -14382,7 +14868,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, beri label dengan benar agar isinya jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0738",
@@ -14406,7 +14894,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Lakukan pembersihan fasilitas cuci tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0739",
@@ -14430,7 +14920,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selalu jaga tetap bersih tanpa sampah dan kotoran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0740",
@@ -14454,7 +14946,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, penting mengelola dengan benar seperti berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0741",
@@ -14475,7 +14969,9 @@
    "contoh": "{本日|ほんじつ}のおすすめメニューは、〇〇です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Menu rekomendasi hari ini adalah ○○.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0742",
@@ -14498,7 +14994,9 @@
    "contoh": "{油|あぶ}は、{時間|じかん}がたつと{品質|ひんしつ}が{悪|わる}くなります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Minyak mutunya memburuk seiring waktu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0743",
@@ -14519,7 +15017,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika sulit ditangani, minta penanggung jawab toko menggantikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0744",
@@ -14566,7 +15066,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Berikut musim terbaik (shun) ikan-ikan representatif di Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0746",
@@ -14591,7 +15093,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Keringkan dan simpan di tempat bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0747",
@@ -14615,7 +15119,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pekerjaan utamanya adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0748",
@@ -14638,7 +15144,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Tata krama (sahō) adalah cara makan yang benar di suatu daerah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0749",
@@ -14662,7 +15170,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ciri-cirinya: berkembang di tempat tanpa oksigen dan membentuk spora.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0750",
@@ -14686,7 +15196,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting memanaskan dan mencuci hasil laut dengan air tawar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0751",
@@ -14710,7 +15222,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, beri label dengan benar agar isinya jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0752",
@@ -14732,7 +15246,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Periksa termometer suhu di dalam kulkas/freezer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0753",
@@ -14756,7 +15272,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Merokok di tempat yang ditentukan di luar dapur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0754",
@@ -14778,7 +15296,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Berikut musim terbaik (shun) ikan-ikan representatif di Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0755",
@@ -14802,7 +15322,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Selain itu, perhatikan hal berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0756",
@@ -14826,7 +15348,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan mengangkat mangkuk atau piring; makan dengan tetap di atas meja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0757",
@@ -14849,7 +15373,9 @@
    "contoh": "④{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "④ Jika ada masalah, tangani dengan cara yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0758",
@@ -14870,7 +15396,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Keracunan makanan memiliki klasifikasi berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0759",
@@ -14892,7 +15420,9 @@
    "contoh": "{加熱|かねつ}しない{場合|ばあい}（サラダなど）は、{必要|ひつよう}に{応|おう}じて{殺菌|さっきん}します（{細菌|さいきん}をやっつけるため）。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika tidak dipanaskan (misalnya salad), lakukan sterilisasi sesuai kebutuhan (untuk membunuh bakteri).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0760",
@@ -14916,7 +15446,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, singkirkan benda yang berisiko mencemari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0761",
@@ -14940,7 +15472,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tentukan sebelumnya suhu standar pengelolaan masing-masing kulkas dan freezer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0762",
@@ -14964,7 +15498,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Masukkan minyak bekas ke wadah bertutup dan jauhkan dari api.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0763",
@@ -15007,7 +15543,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Akibatnya, meski anak tidak bermaksud buruk, perlengkapan toko bisa rusak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0765",
@@ -15027,7 +15565,9 @@
    "contoh": "{相手|あいて}が{電話|でんわ}を{切|き}るのを{待|ま}ちます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tunggu sampai lawan bicara menutup telepon.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0766",
@@ -15048,7 +15588,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Hal ini disebut \"senyum dan kontak mata\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0767",
@@ -15071,7 +15613,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Staf yang diperlukan sudah lengkap dan pembagian tugas sudah dikonfirmasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0768",
@@ -15093,7 +15637,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seluruh bagian dalam toko sudah dibersihkan dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0769",
@@ -15112,7 +15658,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Metode pembayaran nontunai yang representatif adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0770",
@@ -15137,7 +15685,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk mencegah kekurangan/kehabisan, lakukan dengan cara berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0771",
@@ -15158,7 +15708,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting mendinginkan segera makanan yang sudah dimasak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0772",
@@ -15180,7 +15732,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini karena zat dalam sayuran bereaksi dengan oksigen sehingga berubah warna.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0773",
@@ -15201,7 +15755,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Minyak mutunya memburuk seiring waktu.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0774",
@@ -15224,7 +15780,9 @@
    "contoh": "そのルールに{従|した}って{適切|てきせつ}に{分別|ぶんべつ}、{廃棄|はいき}しましょう。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pilah dan buang dengan benar sesuai aturan tersebut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0775",
@@ -15301,7 +15859,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Tunggu sampai lawan bicara menutup telepon.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0779",
@@ -15324,7 +15884,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada dasarnya hidangan disajikan dari sisi kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0780",
@@ -15368,7 +15930,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, meskipun memakai sarung tangan sekali pakai, cuci tangan secara higienis.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0782",
@@ -15390,7 +15954,9 @@
    "contoh": "{職場|しょくば}の{環境維持|かんきょういじ}を{目的|もくてき}としたスローガンです。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ini adalah slogan yang bertujuan menjaga lingkungan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0783",
@@ -15413,7 +15979,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dasarnya adalah bersih, rapi, dan sederhana.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0784",
@@ -15436,7 +16004,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pilah dan buang dengan benar sesuai aturan tersebut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0785",
@@ -15456,7 +16026,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Rib eye: bertekstur halus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0786",
@@ -15499,7 +16071,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terutama diolah di perusahaan pengolahan hasil laut, dan namanya berubah menurut kondisi pengolahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0788",
@@ -15520,7 +16094,9 @@
    "contoh": "しかしながら、{食物|しょくもつ}アレルギーをもっているお{客様|きゃくさま}は、その{情報|じょうほう}がとても{大切|たいせつ}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Namun, bagi pelanggan yang punya alergi makanan, informasi itu sangat penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0789",
@@ -15539,7 +16115,9 @@
    "contoh": "お{客様|きゃくさま}に{少|すこ}し{待|ま}たせたときに{使|つか}う{言葉|ことば}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Kata yang dipakai saat membuat pelanggan menunggu sebentar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0790",
@@ -15558,7 +16136,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Luruskan punggung dan turunkan pandangan ke kaki.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0791",
@@ -15577,7 +16157,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ada tiga jenis ojigi (membungkuk) sesuai tujuan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0792",
@@ -15596,7 +16178,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alergi makanan tidak memiliki metode pengobatan yang efektif.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0793",
@@ -15616,7 +16200,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena pengunjung Muslim ke Jepang meningkat, pahami halal yang dicari umat Muslim dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0794",
@@ -15638,7 +16224,9 @@
    "contoh": "－20℃{以下|いか}で24{時間以上|じかんいじょう}、{冷凍|れいとう}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Bekukan pada -20℃ ke bawah selama 24 jam atau lebih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0795",
@@ -15659,7 +16247,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini karena zat dalam sayuran bereaksi dengan oksigen sehingga berubah warna.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0796",
@@ -15680,7 +16270,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Pembersihan dan disinfeksi toilet dilakukan dengan prosedur ④.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0797",
@@ -15701,7 +16293,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika ada gejala seperti diare, tidak boleh melakukan pekerjaan memasak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0798",
@@ -15724,7 +16318,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Misalnya rambut, serpihan plastik, batu, dan serangga.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0799",
@@ -15744,7 +16340,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan menyajikan organ dalam ikan mentah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0800",
@@ -15762,7 +16360,9 @@
    "contoh": "また、{荷物|にもつ}を{高|たか}く{積|つ}みすぎてはいけません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, jangan menumpuk barang terlalu tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0801",
@@ -15782,7 +16382,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pertama pastikan keselamatan diri sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0802",
@@ -15802,7 +16404,9 @@
    "contoh": "コードがすり{切|き}れていたら、{使用|しよう}してはいけません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika kabel terkelupas, jangan digunakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0803",
@@ -15861,7 +16465,9 @@
    "contoh": "そして、これらは「おもてなし」という{言葉|ことば}で{表現|ひょうげん}されます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dan semua ini diungkapkan dengan kata \"omotenashi\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0806",
@@ -15882,7 +16488,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pelanggan tetap (repeater) adalah pelanggan yang datang berulang kali.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0807",
@@ -15903,7 +16511,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Hal ini disebut \"senyum dan kontak mata\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0808",
@@ -15927,7 +16537,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pahami tujuan masing-masing dan lakukan ojigi dengan urutan yang benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0809",
@@ -15948,7 +16560,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perhiasan: pada prinsipnya tidak dipakai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0810",
@@ -15969,7 +16583,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Lakukan pemeriksaan ② sampai ⑥ dengan frekuensi yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0811",
@@ -15992,7 +16608,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, untuk memasak dalam jumlah besar, gunakan mesin dan alat masak khusus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0812",
@@ -16013,7 +16631,9 @@
    "contoh": "{私|わた}たちは、いつも{顧客満足|こきゃくまんぞく}を{考|かん}えながら{仕事|しごと}をすることが{大切|たいせつ}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Penting bagi kita untuk selalu bekerja dengan memikirkan kepuasan pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0813",
@@ -16034,7 +16654,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Lalu simpan di tempat yang tidak mengganggu pekerjaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0814",
@@ -16074,7 +16696,9 @@
    "contoh": "また、けがをしなくても、{食品|しょくひん}に{異物|いぶつ}が{入|はい}っているとクレームの{原因|げんいん}となります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, meski tidak terluka, benda asing dalam makanan menjadi penyebab keluhan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0816",
@@ -16163,7 +16787,9 @@
    "contoh": "このようなけがや{事故|じこ}をおこさないために、{次|つぎ}のようなことが{大切|たいせつ}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Agar tidak terjadi cedera dan kecelakaan seperti ini, hal berikut penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0821",
@@ -16185,7 +16811,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Profesional pelayanan sengaja membuat senyum saat melayani.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0822",
@@ -16207,7 +16835,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tolok ukur penilaiannya disebut suasana (fun'iki).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0823",
@@ -16226,7 +16856,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Perlahan angkat tubuh bagian atas dan lakukan senyum serta kontak mata.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0824",
@@ -16245,7 +16877,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Garpu diletakkan di sisi kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0825",
@@ -16265,7 +16899,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Juga sudah diletakkan di tempat yang ditentukan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0826",
@@ -16285,7 +16921,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di toko-toko Jepang, sekitar 80% pembayaran dilakukan secara tunai (yen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0827",
@@ -16306,7 +16944,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Konon 80% penyebab kejadian ini adalah karyawan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0828",
@@ -16367,7 +17007,9 @@
    "contoh": "{顔|かお} ひげは{毎日|まいにち}そります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Wajah: cukur kumis/jenggot setiap hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0831",
@@ -16387,7 +17029,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci dengan air keran dan buang kotoran yang terlihat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0832",
@@ -16407,7 +17051,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika lantai basah, ada risiko terpeleset dan jatuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0833",
@@ -16428,7 +17074,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "③ Periksa apakah ada luka pada tangan/jari karyawan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0834",
@@ -16449,7 +17097,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini adalah slogan yang bertujuan menjaga lingkungan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0835",
@@ -16470,7 +17120,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dengan menerapkan 3S (seiri, seiton, seiso) secara menyeluruh, tempat menjadi bersih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0836",
@@ -16491,7 +17143,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Zat alergen yang wajib dicantumkan adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0837",
@@ -16550,7 +17204,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Merapikan area merokok itu penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0840",
@@ -16572,7 +17228,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pilih ikan segar dan segera buang organ dalamnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0841",
@@ -16591,7 +17249,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Berikut musim terbaik sayur dan buah representatif di Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0842",
@@ -16609,7 +17269,9 @@
    "contoh": "※{地域|ちいき}や{気候|きこう}の{影響|えいきょう}によって、{旬|しゅ}となる{季節|きせつ}がかわる{場合|ばあい}もあります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "※ Musim terbaik bisa berubah tergantung pengaruh daerah dan iklim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0843",
@@ -16628,7 +17290,9 @@
    "contoh": "{原材料|げんざいりょう}に{下味|したあじ}をつけるために、{調味料|ちょうみりょう}に{漬|つ}け{込|こ}んだりします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Merendam bahan dalam bumbu untuk memberi rasa dasar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0844",
@@ -16648,7 +17312,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terutama diolah di perusahaan pengolahan hasil laut, dan namanya berubah menurut kondisi pengolahan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0845",
@@ -16670,7 +17336,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Barang yang tinggi atau tidak seimbang tidak diletakkan di ujung (sisi tangan).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0846",
@@ -16690,7 +17358,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, bahan cair seperti chawanmushi juga bisa dimasak dalam wadah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0847",
@@ -16710,7 +17380,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alat pemanas umum: sumber panas listrik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0848",
@@ -16784,7 +17456,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Namun saat menuruni lereng atau ada tangga/undakan, tarik troli atau kereta dorong dengan hati-hati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0852",
@@ -16804,7 +17478,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada kursi roda pendamping, pendamping yang mengoperasikan kursi roda, jadi staf toko tidak perlu membantu menggerakkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0853",
@@ -16824,7 +17500,9 @@
    "contoh": "そして、お{店|みせ}の{責任者|せきにんしゃ}などに{異物混入|いぶつこんにゅ}を{報告|ほうこく}し、{一緒|いっしょ}にお{客様|きゃくさま}にお{詫|わ}びをします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lalu laporkan tercampurnya benda asing kepada penanggung jawab toko dan minta maaf bersama kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0854",
@@ -16979,7 +17657,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika menggunakan isi teks ini, cantumkan sumbernya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0862",
@@ -16999,7 +17679,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Merupakan unsur yang sangat penting dalam berkomunikasi dengan orang lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0863",
@@ -17020,7 +17702,9 @@
    "contoh": "{電話対応|でんわたいおう}は、{相手|あいて}もこちらも、お{互|たが}いの{表情|ひょうじょ}や{様子|ようす}を{見|み}ることができません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada layanan telepon, kedua pihak tidak bisa melihat ekspresi satu sama lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0864",
@@ -17040,7 +17724,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Luruskan punggung dan turunkan pandangan ke kaki.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0865",
@@ -17060,7 +17746,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Letakkan lebih dulu barang berat di bagian depan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0866",
@@ -17079,7 +17767,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ambil dari piring besar hanya sebanyak yang ingin dimakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0867",
@@ -17099,7 +17789,9 @@
    "contoh": "ナイフとフォークが２{本|ほん}そろえて{斜|なな}めにおかれている{場合|ばあい}は、{食事|しょくじ}が{終了|しゅうりょ}していることを{意味|いみ}しています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Jika pisau dan garpu diletakkan berdampingan miring, artinya makan sudah selesai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0868",
@@ -17119,7 +17811,9 @@
    "contoh": "{子供|こども}の{動|うご}きは{予測|よそく}しにくい{場合|ばあい}が{多|おお}くあります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Gerakan anak sering sulit diprediksi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0869",
@@ -17156,7 +17850,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, kertas catatan seperti nota juga sudah diisi cukup.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0871",
@@ -17175,7 +17871,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan tiba-tiba mengelap kotoran kering dengan kain lap basah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0872",
@@ -17194,7 +17892,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Uang kertas 2000 yen jarang dipakai di Jepang, jadi jarang terlihat di restoran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0873",
@@ -17215,7 +17915,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Misalnya deterjen, insektisida, kaca, dan serpihan logam.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0874",
@@ -17255,7 +17957,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ciri-cirinya: berkembang di tempat tanpa oksigen dan membentuk spora.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0876",
@@ -17275,7 +17979,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "② Selanjutnya periksa penampilan luar, bau, kondisi kemasan, dan label (batas konsumsi, kedaluwarsa, cara penyimpanan).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0877",
@@ -17296,7 +18002,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Agar layanan saran (suggestion) berhasil, pahami produk toko dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0878",
@@ -17316,7 +18024,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "② Selanjutnya periksa penampilan luar, bau, kondisi kemasan, dan label (batas konsumsi, kedaluwarsa, cara penyimpanan).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0879",
@@ -17336,7 +18046,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, mutu bahan baku dan makanan bisa menurun.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0880",
@@ -17355,7 +18067,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kontaminasi silang/sekunder adalah bakteri pada daging atau hasil laut mentah menempel pada bahan baku atau makanan lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0881",
@@ -17375,7 +18089,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan setelah airnya dibuang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0882",
@@ -17394,7 +18110,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan deterjen, sikat, dan spons khusus toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0883",
@@ -17413,7 +18131,9 @@
    "contoh": "{手洗|てあら}い{設備|せつび}の{洗浄|せんじょう}を{行|おこ}います。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Lakukan pembersihan fasilitas cuci tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0884",
@@ -17434,7 +18154,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jaga agar debu tidak menumpuk pada sambungan steker dan stopkontak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0885",
@@ -17474,7 +18196,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, di restoran, ini upaya yang sangat efektif untuk mencegah keracunan makanan, benda asing, hingga kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0887",
@@ -17495,7 +18219,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "③ Anda dapat menjelaskan dengan percaya diri kepada dinas kesehatan dan pelanggan bahwa tokomu mengelola higiene dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0888",
@@ -17536,7 +18262,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Huruf awal dari empat unsur ini dalam bahasa Inggris disebut QSCA.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0890",
@@ -17557,7 +18285,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Penanganan ini hanyalah salah satu contoh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0891",
@@ -17577,7 +18307,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dalam bahasa Jepang, diterjemahkan sebagai \"analisis bahaya dan titik kendali kritis\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0892",
@@ -17615,7 +18347,9 @@
    "contoh": "{床|ゆか}がぬれていると、{滑|すべ}って{転|ころ}ぶ{危険性|きけんせい}があります。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Jika lantai basah, ada risiko terpeleset dan jatuh.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0894",
@@ -17635,7 +18369,9 @@
    "contoh": "{必|かな}ず{高|たか}いところから{清掃|せいそう}をはじめ、{最後|さいご}に{床面|ゆかめん}の{清掃|せいそう}をします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selalu mulai membersihkan dari tempat tinggi dan terakhir lantai.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0895",
@@ -17655,7 +18391,9 @@
    "contoh": "※{虫|むし}などお{客様|きゃくさま}の{気分|きぶん}を{悪|わる}くさせる{異物|いぶつ}を{不快異物|ふかいいぶつ}ともいいます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "※ Benda asing yang membuat pelanggan tidak nyaman seperti serangga juga disebut benda asing yang tidak menyenangkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0896",
@@ -17731,7 +18469,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Arahkan ibu jari ke luar agar sidik jari tidak menempel di piring.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0900",
@@ -17767,7 +18507,9 @@
    ],
    "auto": true,
    "arti_src": "jmdict-id (terjemahan mesin, perlu ditinjau)",
-   "contoh": "{旬|しゅ}とは、{魚介類|ぎょかいるい}や{野菜|やさい}・{果実|かじつ}などの{食材|しょくざい}が、{新鮮|しんせん}で{一番|いちばん}おいしく{食|た}べられる{時期|じき}のことをいいます。"
+   "contoh": "{旬|しゅ}とは、{魚介類|ぎょかいるい}や{野菜|やさい}・{果実|かじつ}などの{食材|しょくざい}が、{新鮮|しんせん}で{一番|いちばん}おいしく{食|た}べられる{時期|じき}のことをいいます。",
+   "arti_contoh": "Shun adalah masa ketika bahan seperti hasil laut, sayur, dan buah segar dan paling enak dimakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0902",
@@ -17787,7 +18529,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tata krama (sahō) adalah cara makan yang benar di suatu daerah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0903",
@@ -17807,7 +18551,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Hitung jumlah yang diperlukan untuk memasak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0904",
@@ -17827,7 +18573,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Membuatnya dengan tangan butuh keterampilan tertentu, tetapi mudah dibuat dengan mesin dan alat masak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0905",
@@ -17847,7 +18595,9 @@
    "contoh": "{最初|さいしょ}に{魚|さか}の{頭|あた}と{内蔵|ないぞう}を{取|と}り{除|のぞ}きます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pertama buang kepala dan organ dalam ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0906",
@@ -17866,7 +18616,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Setelah itu, memotong ikan dengan pisau mengikuti tulang tengah menjadi tiga: daging kanan, daging kiri, dan tulang tengah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0907",
@@ -17887,7 +18639,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Suhu merebus biasanya 100℃, yaitu saat bumbu cair mendidih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0908",
@@ -17906,7 +18660,9 @@
    "contoh": "{例|たと}えば、さまざまな{野菜|やさい}を{洗浄|せんじょう}、{殺菌|さっきん}し、カットしたものをまぜれば、{野菜|やさい}サラダになります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Misalnya, berbagai sayuran dicuci, disterilkan, dipotong, lalu dicampur menjadi salad sayur.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0909",
@@ -17925,7 +18681,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alat pemanas umum: sumber panas listrik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0910",
@@ -17982,7 +18740,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bertindaklah dengan memperhatikan hal berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0913",
@@ -18002,7 +18762,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Seragam dibuat untuk melindungi tubuh dari berbagai bahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0914",
@@ -18023,7 +18785,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pahami tujuan masing-masing dan lakukan ojigi dengan urutan yang benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0915",
@@ -18044,7 +18808,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, belakangan bagian bahan seperti tulang ikan atau daging pun dianggap benda asing oleh pelanggan dan menjadi keluhan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0916",
@@ -18065,7 +18831,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kecuali sebagian hidangan penutup, hidangan dimakan dari sisi kiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0917",
@@ -18086,7 +18854,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, pelanggan dan karyawan di toko berada dalam situasi berbahaya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0918",
@@ -18106,7 +18876,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Orang yang memadamkan segera menggunakan APAR.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0919",
@@ -18148,7 +18920,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Isi teks ini dapat diubah, dipindahkan, atau dihapus tanpa pemberitahuan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0921",
@@ -18167,7 +18941,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sebagai ciri layanan pelanggan di Jepang, dapat diberikan contoh berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0922",
@@ -18188,7 +18964,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Berikut adalah contoh persiapan pembukaan toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0923",
@@ -18207,7 +18985,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Lawan kata dari \"bersih\" (seiketsu) adalah \"kotor\" (fuketsu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0924",
@@ -18228,7 +19008,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Senyum adalah ekspresi tersenyum yang menunjukkan kegembiraan dan kesenangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0925",
@@ -18286,7 +19068,9 @@
    "contoh": "{作法|さほう}とは、その{地|ちい}{域|き}での{正|ただ}しい{食事|しょくじ}の{仕方|しかた}、{方法|ほうほう}などです。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Tata krama (sahō) adalah cara makan yang benar di suatu daerah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0928",
@@ -18305,7 +19089,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bagi yang tangan kanan dominan, saat memegang sumpit, ambil bagian tengah sumpit dengan tangan kiri lalu angkat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0929",
@@ -18323,7 +19109,9 @@
    "contoh": "{飲|の}み{物|もの}は{右側|みぎがわ}から{提供|ていきょう}します。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Minuman disajikan dari sisi kanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0930",
@@ -18342,7 +19130,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Serbet digunakan dengan lipatannya menghadap ke depan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0931",
@@ -18362,7 +19152,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Shimoza\" adalah kursi yang dekat pintu masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0932",
@@ -18382,7 +19174,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, bisa mengganggu pelanggan lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0933",
@@ -18401,7 +19195,9 @@
    "contoh": "そのため、{他|た}のお{客様|きゃくさま}に{迷惑|めいわく}がかからないような{席|せき}を{用意|ようい}するなど、{対応|たいおう}してあげることが{大切|たいせつ}です。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karena itu, penting menyediakan tempat duduk yang tidak mengganggu pelanggan lain.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0934",
@@ -18440,7 +19236,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dengan memberi rekomendasi, pelanggan menambah pesanan dan meningkatkan penjualan toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0936",
@@ -18459,7 +19257,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menu makan siang rekomendasi hari ini adalah ○○.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0937",
@@ -18478,7 +19278,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat jam tutup tiba dan semua pelanggan sudah keluar, lakukan semua pekerjaan penutupan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0938",
@@ -18497,7 +19299,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pembersihan di restoran bervariasi besar tingkat kotornya menurut area.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0939",
@@ -18516,7 +19320,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pelanggan menginginkan kondisi selalu bersih = cleanliness (kurinrinesu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0940",
@@ -18535,7 +19341,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di toko-toko Jepang, sekitar 80% pembayaran dilakukan secara tunai (yen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0941",
@@ -18554,7 +19362,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menampilkan kode QR di ponsel pintar lalu dipindai oleh terminal toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0942",
@@ -18573,7 +19383,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Sebagian besar keracunan makanan terjadi karena faktor-faktor berikut yang menunjukkan kelemahan pengelolaan higiene.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0943",
@@ -18727,7 +19539,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Penting memanaskan dan mencuci hasil laut dengan air tawar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0951",
@@ -18747,7 +19561,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Norovirus juga ada pada tinja dan muntahan, jadi mencuci tangan setelah dari toilet sangat penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0952",
@@ -18767,7 +19583,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Dengan memberi rekomendasi, pelanggan menambah pesanan dan meningkatkan penjualan toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0953",
@@ -18787,7 +19605,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, mutu bahan baku dan makanan bisa menurun.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0954",
@@ -18827,7 +19647,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di dalam kulkas, tentukan tempat penyimpanan menurut jenis bahan baku dan makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0956",
@@ -18865,7 +19687,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Suhu merebus biasanya 100℃, yaitu saat bumbu cair mendidih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0958",
@@ -18923,7 +19747,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karyawan bekerja dengan tetap memakai perhiasan (jam tangan, kalung, cincin, anting, dll.).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0961",
@@ -18941,7 +19767,9 @@
    "contoh": "{従業員|じゅうぎょうい}が{装飾品|そうしょくひん}（{腕時計|うでとけい}、ネックレス、{指輪|ゆびわ}、ピアスなど）をつけたまま{作業|さぎょう}している。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Karyawan bekerja dengan tetap memakai perhiasan (jam tangan, kalung, cincin, anting, dll.).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0962",
@@ -18960,7 +19788,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karyawan bekerja dengan tetap memakai perhiasan (jam tangan, kalung, cincin, anting, dll.).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0963",
@@ -18998,7 +19828,9 @@
    "contoh": "{洗浄剤|せんじょうざい}（{石鹸|せっけん}など）を{手|て}に{取|と}る。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Ambil sabun atau pembersih tangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0965",
@@ -19073,7 +19905,9 @@
    "contoh": "{日本語|にほんご}では、「{危害要因分析重要管理点|きがいよういんぶんせきじゅうようかんりてん}」と{訳|やく}されています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Dalam bahasa Jepang, diterjemahkan sebagai \"analisis bahaya dan titik kendali kritis\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0969",
@@ -19111,7 +19945,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tentukan tempat yang dibersihkan dan bersihkan secara terencana.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0971",
@@ -19189,7 +20025,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pilah dan buang dengan benar sesuai aturan tersebut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0975",
@@ -19287,7 +20125,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Diperlukan pemanasan dengan suhu tengah 70℃ selama 1 menit atau lebih.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0980",
@@ -19307,7 +20147,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Tolok ukur penilaiannya disebut suasana (fun'iki).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0981",
@@ -19346,7 +20188,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat menerima dan menyerahkan uang pada pembayaran, lakukan dengan cara seperti menghitung uang pelan dengan suara jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0983",
@@ -19539,7 +20383,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dengan direbus lama, kolagen larut sehingga empuk, cocok untuk semur, kari, dan masakan rebus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0993",
@@ -19596,7 +20442,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Musim terbaik bisa berubah tergantung pengaruh daerah dan iklim.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0996",
@@ -19653,7 +20501,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini karena zat dalam sayuran bereaksi dengan oksigen sehingga berubah warna.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a0999",
@@ -19710,7 +20560,9 @@
    "contoh": "{一般的|いっぱんてき}な{加熱機器|かねつきき}{熱源|ねつげん}は{電気|でんき}。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Alat pemanas umum: sumber panas listrik.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1002",
@@ -19865,7 +20717,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, jika kentang yang dikukus dan dihaluskan dicampur dressing, menjadi salad kentang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1010",
@@ -19904,7 +20758,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Peralatan yang dipakai pada memasak dalam jumlah besar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1012",
@@ -19924,7 +20780,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, untuk memasak dalam jumlah besar, gunakan mesin dan alat masak khusus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1013",
@@ -20209,7 +21067,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Namun saat menuruni lereng atau ada tangga/undakan, tarik troli atau kereta dorong dengan hati-hati.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1028",
@@ -20306,7 +21166,9 @@
    "contoh": "{一旦避難|いったんひなん}したら、{絶対|ぜったい}に{火|ひ}の{元|もと}の{方|ほう}へ{戻|もど}ってはいけません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Setelah mengungsi, jangan sekali-kali kembali ke arah sumber api.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1033",
@@ -20326,7 +21188,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Merapikan area merokok itu penting.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1034",
@@ -20384,7 +21248,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Vegetarian umumnya adalah orang yang tidak makan makanan hewani seperti daging dan ikan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1037",
@@ -20669,7 +21535,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Isi teks ini dapat diubah, dipindahkan, atau dihapus tanpa pemberitahuan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1052",
@@ -20689,7 +21557,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Isi teks ini dapat diubah, dipindahkan, atau dihapus tanpa pemberitahuan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1053",
@@ -20728,7 +21598,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini dibangun orang Jepang sebagai budaya melalui sejarah panjang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1055",
@@ -20767,7 +21639,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gerakan anak sering sulit diprediksi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1057",
@@ -20863,7 +21737,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Lawan kata dari \"bersih\" (seiketsu) adalah \"kotor\" (fuketsu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1062",
@@ -20922,7 +21798,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ucapkan salam lebih dulu secara aktif dari diri sendiri.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1065",
@@ -21116,7 +21994,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Arahkan ibu jari ke luar agar sidik jari tidak menempel di piring.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1075",
@@ -21154,7 +22034,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dalam adat Jepang ada urutan tempat duduk \"kamiza\" dan \"shimoza\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1077",
@@ -21172,7 +22054,9 @@
    "contoh": "{和室|わしつ}で{日本料理|にほんりょうり}を{食|た}べる{場合|ばあい}は、{席|せき}の{順番|じゅんば}に{気|き}をつけましょう。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Saat makan masakan Jepang di ruang tatami, perhatikan urutan tempat duduk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1078",
@@ -21191,7 +22075,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Saat makan masakan Jepang di ruang tatami, perhatikan urutan tempat duduk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1079",
@@ -21474,7 +22360,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Shitsurei itashimasu: dipakai saat staf mendekati atau menjauhi kursi pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1094",
@@ -21602,7 +22490,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menyajikan minuman beralkohol kepada anak di bawah umur (di bawah 20 tahun) dilarang oleh hukum.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1101",
@@ -21621,7 +22511,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menyajikan minuman beralkohol kepada anak di bawah umur (di bawah 20 tahun) dilarang oleh hukum.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1102",
@@ -21714,7 +22606,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Orang vegetarian murni (tidak makan produk hewani sama sekali termasuk telur dan susu) disebut vegan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1107",
@@ -21768,7 +22662,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena pengunjung Muslim ke Jepang meningkat, pahami halal yang dicari umat Muslim dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1110",
@@ -21787,7 +22683,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Berikut adalah contoh persiapan pembukaan toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1111",
@@ -21843,7 +22741,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pelanggan menginginkan kondisi selalu bersih = cleanliness (kurinrinesu).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1114",
@@ -21881,7 +22781,9 @@
    "contoh": "{日本|にほん}のお{店|みせ}では、{約|やく}80％の{金額|きんがく}が{現金|げんきん}（{日本円|にほんえん}）で{支払|しはら}われています。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Di toko-toko Jepang, sekitar 80% pembayaran dilakukan secara tunai (yen).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1116",
@@ -21900,7 +22802,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Uang kertas yang ditampilkan adalah contoh, jadi tertulis \"contoh\" dengan merah dan dua garis miring merah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1117",
@@ -22028,7 +22932,9 @@
    "contoh": "スマホ（スマートフォン）にQRコードを{表示|ひょうじ}してお{店|みせ}の{端末|たんまつ}で{読|よ}み{取|と}る。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Menampilkan kode QR di ponsel pintar lalu dipindai oleh terminal toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1124",
@@ -22139,7 +23045,9 @@
    "contoh": "また、{衛生管理|えいせいかんり}に{不備|ふび}があると、{細菌|さいきん}やウイルス{以外|いがい}にも{食品|しょくひん}についてはいけないものが{入|はい}ります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Selain itu, jika pengelolaan higiene buruk, hal yang tidak boleh ada pada makanan selain bakteri dan virus bisa masuk.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1130",
@@ -22176,7 +23084,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Untuk mencegah keracunan makanan oleh bakteri, penting tiga prinsip pencegahan keracunan makanan berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1132",
@@ -22681,7 +23591,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika belum ada, pasang termometer.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1159",
@@ -22756,7 +23668,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Gunakan deterjen, sikat, dan spons khusus toilet.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1163",
@@ -22794,7 +23708,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ku. Setelah selesai, cuci tangan dengan saksama.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1165",
@@ -22888,7 +23804,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Karena itu, karyawan perlu mencuci tangan dan menjaga kesehatan setiap hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1170",
@@ -22907,7 +23825,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Cuci telapak tangan dan bagian dalam jari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1171",
@@ -22926,7 +23846,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di restoran dan pabrik makanan yang menangani makanan, lingkungan fasilitas dikelola dengan semboyan 5S.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1172",
@@ -22945,7 +23867,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di restoran dan pabrik makanan yang menangani makanan, lingkungan fasilitas dikelola dengan semboyan 5S.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1173",
@@ -22964,7 +23888,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini adalah slogan yang bertujuan menjaga lingkungan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1174",
@@ -23038,7 +23964,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, di restoran, ini upaya yang sangat efektif untuk mencegah keracunan makanan, benda asing, hingga kecelakaan kerja.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1178",
@@ -23127,7 +24055,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, untuk ikan fugu yang penanganannya diatur, wajib menyimpan limbahnya dalam wadah terkunci.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1183",
@@ -23366,7 +24296,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Benda asing keras seperti logam bisa melukai orang yang memakannya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1196",
@@ -23423,7 +24355,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan menyajikan organ dalam ikan mentah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1199",
@@ -23442,7 +24376,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "① Titik-titik pengelolaan higiene menjadi jelas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1200",
@@ -23500,7 +24436,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "③ Anda dapat menjelaskan dengan percaya diri kepada dinas kesehatan dan pelanggan bahwa tokomu mengelola higiene dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1203",
@@ -23519,7 +24457,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "③ Anda dapat menjelaskan dengan percaya diri kepada dinas kesehatan dan pelanggan bahwa tokomu mengelola higiene dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1204",
@@ -23648,7 +24588,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Rib eye: bertekstur halus.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1211",
@@ -23813,7 +24755,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Shun adalah masa ketika bahan seperti hasil laut, sayur, dan buah segar dan paling enak dimakan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1220",
@@ -23886,7 +24830,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Hitung jumlah yang diperlukan untuk memasak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1224",
@@ -23904,7 +24850,9 @@
    "contoh": "{原材料|げんざいりょう}に{下味|したあじ}をつけるために、{調味料|ちょうみりょう}に{漬|つ}け{込|こ}んだりします。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Merendam bahan dalam bumbu untuk memberi rasa dasar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1225",
@@ -24382,7 +25330,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Masakan yang dicampur (aemono) cenderung mudah menurun mutunya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1251",
@@ -24400,7 +25350,9 @@
    "contoh": "{手|て}で{作|つく}るには、{一定|いってい}の{技術|ぎじゅつ}が{必要|ひつよう}となりますが、{調理機|ちょうりきき}器や{調理器具|ちょうりきぐ}を{使|つか}って{簡単|かんたん}に{作|つく}ることができます。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Membuatnya dengan tangan butuh keterampilan tertentu, tetapi mudah dibuat dengan mesin dan alat masak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1252",
@@ -24727,7 +25679,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jangan lalai memeriksa keselamatan hanya karena sudah biasa.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1270",
@@ -24969,7 +25923,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Mesin berputar seperti slicer dan cutter mixer dapat menyebabkan kecelakaan besar jika salah penggunaan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1283",
@@ -25437,7 +26393,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Biasakan memeriksa letak alat pemadam api (APAR) sehari-hari.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1308",
@@ -25511,7 +26469,9 @@
    "contoh": "{日本人|にほんじん}のやさしさ、{親切|しんせつ}さ、{礼儀|れいぎ}ただしさということが、よく{聞|き}こえてきます。",
    "pos": [
     "KSな"
-   ]
+   ],
+   "arti_contoh": "Sering terdengar tentang kebaikan, keramahan, dan kesopanan orang Jepang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1312",
@@ -25530,7 +26490,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Ini dibangun orang Jepang sebagai budaya melalui sejarah panjang.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1313",
@@ -25727,7 +26689,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "\"Kepuasan\" dan \"ketidakpuasan\" terhadap toko timbul dari selisih antara harapan pelanggan dan pengalaman layanan sebenarnya.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1324",
@@ -25764,7 +26728,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dan harapan pelanggan dipengaruhi oleh hal berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1326",
@@ -25837,7 +26803,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Huruf awal dari empat unsur ini dalam bahasa Inggris disebut QSCA.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1330",
@@ -26041,7 +27009,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Selain itu, dasar dari suasana adalah kenyamanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1341",
@@ -26132,7 +27102,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Senyum adalah ekspresi tersenyum yang menunjukkan kegembiraan dan kesenangan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1346",
@@ -26151,7 +27123,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dasarnya adalah bersih, rapi, dan sederhana.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1347",
@@ -26618,7 +27592,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Bagi yang tangan kanan dominan, saat memegang sumpit, ambil bagian tengah sumpit dengan tangan kiri lalu angkat.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1372",
@@ -26656,7 +27632,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Terdiri dari \"nasi\", \"sup\", \"lauk\", dan \"tsukemono (acar)\".",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1374",
@@ -26804,7 +27782,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika hidangan disertai sup, letakkan sendok sup di sisi kanan pisau.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1382",
@@ -26842,7 +27822,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di restoran kelas atas, penyajian dimulai dari wanita (lady first), lalu yang lebih tua.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1384",
@@ -27009,7 +27991,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Namun, tingkat perhatian yang diperlukan berbeda tiap orang, jadi tidak perlu bertindak berdasarkan anggapan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1393",
@@ -27028,7 +28012,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Akibatnya, meski anak tidak bermaksud buruk, perlengkapan toko bisa rusak.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1394",
@@ -27047,7 +28033,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Pada kursi roda pendamping, pendamping yang mengoperasikan kursi roda, jadi staf toko tidak perlu membantu menggerakkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1395",
@@ -27065,7 +28053,9 @@
    "contoh": "{介助用車椅子|かいじょようくるまいす}は、{介助者|かいじょしゃ}が{車椅子|くるまいす}を{操作|そうさ}するため、お{店|みせ}のスタッフが{移動|いどう}を{手伝|てつだ}う{必要|ひつよう}はありません。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pada kursi roda pendamping, pendamping yang mengoperasikan kursi roda, jadi staf toko tidak perlu membantu menggerakkan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1396",
@@ -27102,7 +28092,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Anjing pendamping adalah sebutan umum untuk anjing penuntun tunanetra, anjing bantu, dan anjing pendengar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1398",
@@ -27345,7 +28337,9 @@
     "KB",
     "KK"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kashikomarimashita: dipakai saat menerima permintaan atau keinginan pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1411",
@@ -27364,7 +28358,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Kashikomarimashita: dipakai saat menerima permintaan atau keinginan pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1412",
@@ -27739,7 +28735,9 @@
    "pos": [
     "KB",
     "KK"
-   ]
+   ],
+   "arti_contoh": "Agar layanan saran (suggestion) berhasil, pahami produk toko dengan benar.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1433",
@@ -27758,7 +28756,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menu makan siang rekomendasi hari ini adalah ○○.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1434",
@@ -27830,7 +28830,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Lalu minta manajer atau penanggung jawab menanganinya (callback).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1438",
@@ -27916,7 +28918,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Lalu minta manajer atau penanggung jawab menanganinya (callback).",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1443",
@@ -27953,7 +28957,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Jika tidak jelas apakah pelanggan di bawah umur, perlu memeriksa umur dengan kartu identitas.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1445",
@@ -27990,7 +28996,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Alergi makanan tidak memiliki metode pengobatan yang efektif.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1447",
@@ -28009,7 +29017,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Zat alergen yang wajib dicantumkan adalah sebagai berikut.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1448",
@@ -28084,7 +29094,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Minuman sulingan: minuman hasil fermentasi yang disuling lagi, berkadar alkohol relatif tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1452",
@@ -28103,7 +29115,9 @@
    "pos": [
     "KSな"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Minuman sulingan: minuman hasil fermentasi yang disuling lagi, berkadar alkohol relatif tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1453",
@@ -28122,7 +29136,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Minuman sulingan: minuman hasil fermentasi yang disuling lagi, berkadar alkohol relatif tinggi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1454",
@@ -28212,7 +29228,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Di antara zat gizi dalam makanan, ada yang tak tergantikan untuk kelangsungan hidup kita.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1459",
@@ -28681,7 +29699,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Staf yang diperlukan sudah lengkap dan pembagian tugas sudah dikonfirmasi.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1485",
@@ -28699,7 +29719,9 @@
    "contoh": "{飲食店|いんしょくてん}での{清掃|せいそう}は、エリアによって{汚|よご}れ{具合|ぐあい}が{大|おお}きく{異|こと}なります。",
    "pos": [
     "KB"
-   ]
+   ],
+   "arti_contoh": "Pembersihan di restoran bervariasi besar tingkat kotornya menurut area.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1486",
@@ -28884,7 +29906,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Dan menjadi daya penggerak untuk memberikan layanan yang baik kepada pelanggan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1496",
@@ -28977,7 +30001,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Uang kertas yang ditampilkan adalah contoh, jadi tertulis \"contoh\" dengan merah dan dua garis miring merah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1501",
@@ -28996,7 +30022,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Uang kertas yang ditampilkan adalah contoh, jadi tertulis \"contoh\" dengan merah dan dua garis miring merah.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1502",
@@ -29015,7 +30043,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "※ Uang kertas 2000 yen jarang dipakai di Jepang, jadi jarang terlihat di restoran.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1503",
@@ -29181,7 +30211,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "Menampilkan kode QR di ponsel pintar lalu dipindai oleh terminal toko.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1512",
@@ -29515,7 +30547,9 @@
    "pos": [
     "KB"
    ],
-   "tek": 1
+   "tek": 1,
+   "arti_contoh": "<Contoh> Pelanggan yang sudah makan setengah hidangan mengeluh ada serangga di dalam makanan.",
+   "arti_contoh_auto": true
   },
   {
    "id": "fo-a1530",
