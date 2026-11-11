@@ -1,0 +1,555 @@
+{
+ "schema": 1,
+ "bidang": "food-service",
+ "source": "Materi Pembelajaran untuk Penilaian Keterampilan dalam Industri Jasa Boga (Pengawasan Kebersihan / Persiapan Makanan dan Minuman / Layanan Pelanggan), versi 1 revisi 15 April 2021, terjemahan sementara Indonesia — Asosiasi Jasa Boga Jepang",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Persiapan Makanan dan Minuman",
+   "jp": "{調理|ちょうり}・{仕込|しこ}み"
+  },
+  "intro": {
+   "id": "Modul 2: pengetahuan bahan baku, proses persiapan dasar, metode memasak, perlengkapan dapur, serta keamanan dan keselamatan kerja.",
+   "jp": "{調理|ちょうり}・{仕込|しこ}み"
+  },
+  "pages": [
+   46,
+   79
+  ],
+  "subs": [
+   {
+    "id": "f2s1",
+    "no": 1,
+    "title": {
+     "id": "Jenis Daging dan Potongannya",
+     "jp": "{肉|にく}の{種類|しゅるい}と{部位|ぶい}"
+    },
+    "pages": [
+     46,
+     48
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Modul menjelaskan karakteristik tiap potongan dan hidangan yang umum memakainya (sumber: Meat Labeling Handbook 2015). Ilustrasi potongan ada pada halaman buku di bawah."
+      },
+      {
+       "h": "Daging sapi"
+      },
+      {
+       "ul": [
+        "**Sampil (Kata)**: merah, agak keras, kaya kolagen → sup, rebus/tumis.",
+        "**Sandung lamur (Katabara)**: merah dengan lapisan lemak, kenyal → rebus/tumis.",
+        "**Punuk-panggang (Kata-rosu)**: berurat, lemak sedang, penuh rasa → shabu-shabu, sukiyaki, yakiniku.",
+        "**Iga-panggang (Ribu-rosu)**: lembut, rasa daging asli → shabu-shabu, sukiyaki, steak.",
+        "**Has luar (Saaroin)**: lembut, kualitas terbaik → steak, daging panggang.",
+        "**Filet has dalam (Hire)**: halus, lembut, lemak rendah, cocok digoreng → steak, cutlet.",
+        "**Tanjung (Ranpu)**: lembut, rasa mendalam → steak, daging panggang.",
+        "**Perut & samcan (Tomobara)**: berlemak (marbling), kesat, kaya rasa → rebus/tumis, karubi-yaki.",
+        "**Gandik dalam (Uchi-momo)**: lemak terendah. **Gandik luar (Soto-momo)**: liat, lemak rendah, cocok ditumis jika diiris tipis.",
+        "**Sengkel (Sune)**: keras, banyak urat, melunak bila digodok lama (kolagen larut) → kari, hidangan berkuah kental."
+       ]
+      },
+      {
+       "h": "Daging babi"
+      },
+      {
+       "ul": [
+        "**Sampil (Kata)**: kesat, liat, lemak tinggi → rebus/tumis.",
+        "**Punuk-panggang (Kata-rosu)**: agak kesat, rasa dalam; **bagian urat dibuang** → kari, yaki-buta, shoga-yaki.",
+        "**Has dalam/loin (Rosu)**: lembut, lemak luar gurih → cutlet, buta-shabu, ham panggang.",
+        "**Filet (Hire)**: halus, kaya **Vitamin B1**, lemak rendah → cutlet, sauté.",
+        "**Kaki (Soto-momo)**, **Kapsim (Momo)**: rasa ringan/lemak rendah; Momo B1 tertinggi kedua → sauté, yakiniku, ham.",
+        "**Samcan (Bara)**: berlemak; bila bertulang disebut spare ribs → kari, Dongpo, rebus."
+       ]
+      },
+      {
+       "h": "Daging ayam"
+      },
+      {
+       "ul": [
+        "**Paha (Momo)**: lemak menyatu, kaya rasa, lebih liat → teriyaki, cutlet, kara-age.",
+        "**Dada (Mune)**: lembut, protein tinggi, lemak rendah → rebus, kukus.",
+        "**Dada bagian bawah (Sasami)**: lemak terendah, protein → goreng tepung, chawanmushi.",
+        "**Sayap (Teba)**: kaya kolagen → kara-age, rebus, yakitori."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 46–48 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cocokkan potongan dengan tekstur dan hidangannya.",
+      "points": [
+       "Hire/Saaroin/Ranpu → steak.",
+       "Sune → digodok lama (kari).",
+       "Babi Hire kaya Vitamin B1.",
+       "Ayam: Sasami lemak terendah; Teba kaya kolagen."
+      ],
+      "avoid": [
+       "Memakai bagian liat untuk masakan cepat tanpa direbus lama.",
+       "Lupa membuang urat pada Kata-rosu babi."
+      ],
+      "exam": [
+       "Potongan untuk steak.",
+       "Potongan ayam berlemak terendah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f2s2",
+    "no": 2,
+    "title": {
+     "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+     "jp": "{魚介|ぎょかい}・{野菜|やさい}・{果物|くだもの}と{旬|しゅん}"
+    },
+    "pages": [
+     49,
+     52
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bagian dasar ikan"
+      },
+      {
+       "p": "Mata, sirip punggung, tulang ekor, tulang tubuh, tutup insang, kantung insang, sirip dada, sirip perut, sirip anus, sirip ekor (10 bagian bergambar di modul)."
+      },
+      {
+       "h": "\"Sedang musim\" (旬, shun)"
+      },
+      {
+       "p": "Periode saat hidangan laut, sayuran, atau buah paling segar dan enak. Bisa berbeda menurut wilayah dan cuaca."
+      },
+      {
+       "ul": [
+        "**Semi**: makerel pasifik (sawara), kerang asari, rumput laut wakame, karper krusia (funa), seabream merah (madai).",
+        "**Panas**: ikan ayu, cumi-cumi (surumeika), skalop (hotate), sarden (maiwashi), makerel jack (maaji).",
+        "**Gugur**: cakalang (katsuo), salmon (sake), sauri (sanma), saba (masaba).",
+        "**Dingin**: kepiting salju, ikan kod (tara), fugu, hatahata, hokke, buri, tuna (maguro), udang kuruma, tiram (kaki)."
+       ]
+      },
+      {
+       "h": "Sayuran"
+      },
+      {
+       "ul": [
+        "**Umbi**: wortel (ninjin), lobak putih (daikon), akar teratai (renkon), kentang (jagaimo), talas (satoimo), kabu, gobou.",
+        "**Daun & batang**: sawi putih (hakusai), kubis (kyabetsu), bawang bombay (tamanegi), bayam (horenso), bawang daun (negi), selada, fuki, shungiku, mizuna.",
+        "**Buah (sayuran buah)**: terong (nasu), tomat, timun Jepang (kyuri), paprika (piman), cabai, labu kabocha, kacang panjang, edamame, sora-mame.",
+        "**Buah**: stroberi (ichigo), melon, semangka (suika)."
+       ]
+      },
+      {
+       "h": "Musim sayuran dan buah"
+      },
+      {
+       "ul": [
+        "**Semi**: rebung, nanohana, asparagus, sora-mame, stroberi.",
+        "**Panas**: paria (goya), paprika, persik (momo), timun, tomat, semangka.",
+        "**Gugur**: ubi jalar (satsumaimo), kastanye, kesemek (kaki), pir (nashi), jamur shimeji, ginnan.",
+        "**Dingin**: lobak putih, sawi putih, brokoli, bawang daun."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 49–52 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali nama Jepang bahan dan musimnya.",
+      "points": [
+       "Musim = paling segar dan enak.",
+       "Kabocha/terong/tomat = sayuran buah.",
+       "Semangka, tomat: musim panas; daikon, hakusai: dingin."
+      ],
+      "avoid": [
+       "Mengira musim sama di semua wilayah."
+      ],
+      "exam": [
+       "Pasangkan bahan dengan musim.",
+       "Kelompok sayuran umbi/daun/buah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f2s3",
+    "no": 3,
+    "title": {
+     "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+     "jp": "{下処理|したしょり}の{基本|きほん}"
+    },
+    "pages": [
+     54,
+     57
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Tujuan dan tugas utama persiapan dasar"
+      },
+      {
+       "ol": [
+        "Menghitung jumlah bahan yang diperlukan dan **hanya mengeluarkan** jumlah itu dari kulkas.",
+        "Membilas bahan dari lumpur, debu, bakteri, benda asing (sterilisasi bila perlu).",
+        "Memotong sesuai masakan (buang bagian tak dimakan, kupas, ukuran mudah dimakan).",
+        "Marinasi untuk membumbui."
+       ]
+      },
+      {
+       "h": "Hal yang perlu diperhatikan"
+      },
+      {
+       "ul": [
+        "Segera kerjakan persiapan dasar setelah bahan dikeluarkan dari kulkas/freezer.",
+        "Defrost lewat **kulkas atau air mengalir**, jangan sampai bakteri bertambah.",
+        "Gunakan permukaan kerja dan perkakas yang sesuai; kalau digunakan bersama, bersihkan dan sterilisasi sebelum dipakai lagi.",
+        "Persiapan dasar dan penyajian **tidak di saat dan tempat yang sama**.",
+        "Persiapan, memasak, dan penyajian **tidak dikerjakan hanya oleh satu orang**."
+       ]
+      },
+      {
+       "h": "2. Cara memotong sayuran"
+      },
+      {
+       "ul": [
+        "**Koguchigiri** potong bulat tipis dari sayuran panjang; **Nanamegiri** diagonal; **Rangiri** acak; **Sasagaki** serut tipis seperti daun bambu.",
+        "**Wagiri** bundar; **Hangetsugiri** setengah lingkaran; **Ichogiri** seperempat (daun ginkgo); **Shikishigiri** kotak ± 3 cm.",
+        "**Tanzakugiri** persegi panjang tipis; **Hyoshigikiri** balok 4–5 cm tebal 1 cm persegi; **Sengiri** korek api; **Shiraga** korek amat tipis.",
+        "**Katsuramuki** kupas tipis sepanjang mungkin; **Mijingiri** cincang halus; **Sainomekiri** dadu 1 cm; **Araregiri** dadu lebih kecil."
+       ]
+      },
+      {
+       "h": "Mencegah perubahan warna"
+      },
+      {
+       "ul": [
+        "**Air**: umbi, kentang, terong.",
+        "**Air garam**: apel, pir.",
+        "**Air cuka**: ketela Jepang (gobou), akar teratai."
+       ]
+      },
+      {
+       "h": "3. Persiapan ikan"
+      },
+      {
+       "p": "Teknik filet tiga bagian (**sanmai oroshi**): buang kepala dan isi perut, potong mengikuti tulang utama menjadi paruh kiri, paruh kanan, dan tulang utama; sering untuk sashimi."
+      },
+      {
+       "ul": [
+        "**Utuh**: belum diproses.",
+        "**Semi-dressed**: hanya organ dibuang.",
+        "**Dressed**: kepala, insang, organ dibuang.",
+        "**Filet**: tanpa kepala, insang, organ, **tulang utama, sirip, ekor**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 54–57 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Keluarkan secukupnya, cuci, potong sesuai masakan, cegah warna berubah.",
+      "points": [
+       "Defrost: kulkas atau air mengalir.",
+       "Persiapan ≠ penyajian di waktu/tempat yang sama.",
+       "Air garam untuk apel/pir; air cuka untuk gobou/renkon.",
+       "Filet = tanpa kepala, insang, organ, tulang utama, sirip, ekor."
+      ],
+      "avoid": [
+       "Mengeluarkan semua bahan sekaligus dari kulkas.",
+       "Satu orang mengerjakan persiapan, memasak, dan menyajikan."
+      ],
+      "exam": [
+       "Nama potongan (Wagiri, Hangetsugiri, Sengiri, dll.).",
+       "Tahapan pemrosesan ikan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f2s4",
+    "no": 4,
+    "title": {
+     "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+     "jp": "{加熱|かねつ}{調理|ちょうり}と{非加熱|ひかねつ}{調理|ちょうり}"
+    },
+    "pages": [
+     59,
+     62
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Memasak dengan panas"
+      },
+      {
+       "ul": [
+        "**Taku (menanak)** — beras. Agar pati menjadi pati alfa, masak minimal **20 menit pada ≥98℃**. Makin banyak air, makin lunak nasi.",
+        "**Yuderu (merebus)** — bahan direndam air mendidih. Garam → tidak mudah hancur; cuka → putih cerah; **natrium bikarbonat** → hijau sayur lebih jelas. Contoh edamame, kentang rebus.",
+        "**Ageru (menggoreng)** — minyak ± **180℃**. Cek mutu minyak tiap pakai; minyak buruk memunculkan banyak gelembung. Contoh tempura, kara-age, kroket.",
+        "**Itameru (menumis)** — sedikit minyak, suhu tinggi, waktu singkat. Wajan kurang panas/terlalu banyak bahan → tekstur tidak merata; terlalu lama → seperti rebus.",
+        "**Niru (merebus perlahan)** — dalam kaldu bergula, kecap; 100℃, atau **70–80℃** lama agar bahan tidak keras. Ikan: tulang mudah dibuang, bau berkurang. Contoh nikujaga, kinpira, buta no kakuni.",
+        "**Yaku (memanggang/membakar)** — suhu tinggi di api/oven. **Jikabiyaki** = langsung di atas api; **kansetsu-yaki** = tidak langsung (hot-plate, wajan). Contoh steak, teriyaki.",
+        "**Musu (mengukus)** — uap air mendidih; tekstur lunak tanpa merusak bentuk; contoh chawanmushi, shumai."
+       ]
+      },
+      {
+       "h": "Memasak tanpa panas"
+      },
+      {
+       "ul": [
+        "**Aeru (memberi saus/mengaduk)**: menggabungkan bahan (salad sayur, salad kentang, marinasi). Mutu cepat turun; pada acar, cairan bahan dapat mengencerkan cuka sehingga bakteri bisa membiak.",
+        "**Seikei/totonoe (membentuk dan merangkai)**: onigiri, sushi, makimono. Karena **tidak dipanaskan**, **cuci tangan bersih dan pakai sarung tangan sekali pakai**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 59–62 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali metode, suhu, dan contoh; yang tanpa panas menuntut kebersihan tangan.",
+      "points": [
+       "Nasi: ≥98℃, ≥20 menit.",
+       "Goreng ±180℃, cek mutu minyak.",
+       "Niru bisa 70–80℃ lama.",
+       "Onigiri/sushi: cuci tangan + sarung tangan."
+      ],
+      "avoid": [
+       "Memakai minyak buruk berbusa banyak.",
+       "Memegang onigiri tanpa sarung tangan."
+      ],
+      "exam": [
+       "Padanan metode–contoh.",
+       "Fungsi garam/cuka/baking soda pada rebusan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f2s5",
+    "no": 5,
+    "title": {
+     "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+     "jp": "{調理|ちょうり}{機器|きき}・{器具|きぐ}・{計量|けいりょう}"
+    },
+    "pages": [
+     64,
+     72
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Bagian ini menampilkan foto perlengkapan dapur; bandingkan dengan halaman buku di bawah."
+      },
+      {
+       "h": "Perlengkapan masak"
+      },
+      {
+       "ul": [
+        "**Kompor gas**, **kompor induksi (IH)** (listrik), **kompor gas khusus masakan Tiongkok**.",
+        "**Oven konveksi uap** (serbaguna: panggang, kukus, rebus), **pengukus**, **penggorengan (fryer)**, **perebus mi**, **griddle** (panggang dan tumis), **kabinet nasi bertingkat**.",
+        "**Penanak nasi**, **penghangat nasi**, **panggangan**, **jet oven** (ban berjalan), **braising pan/tilting pan** (jumlah besar: tumis dan rebus perlahan)."
+       ]
+      },
+      {
+       "h": "Pendingin dan pencuci"
+      },
+      {
+       "ul": [
+        "Kulkas freezer, kulkas meja kerja, kulkas etalase, **walk-in (prefabrik)**, pembuat es.",
+        "**Blast chiller** mendinginkan hidangan panas dengan cepat; **pendingin vakum** lebih cepat lagi.",
+        "Pencuci piring kecil/berpintu/ban berjalan; **pensteril** (sinar UV dan udara panas)."
+       ]
+      },
+      {
+       "h": "Perkakas"
+      },
+      {
+       "ul": [
+        "Wajan: penggorengan, wok Beijing/Guangdong, panci yukihira (aluminium lengan satu), panci silindris, kukusan, ceret.",
+        "Pisau: **Santoku** (serbaguna), **pisau sayur**, **pisau sashimi**, golok dapur (masakan Tiongkok), pisau roti; talenan.",
+        "Wadah: panci penyimpanan, loyang hotel, baki, mangkuk, saringan.",
+        "Alat kecil: spatula, sumpit panjang, centong, pengocok telur, sendok jaring, saringan mi, sendok nasi Miyajima, gelas/sendok takar."
+       ]
+      },
+      {
+       "h": "Alat ukur"
+      },
+      {
+       "ul": [
+        "**Timbangan** digital/analog; **termometer jarum** (suhu inti makanan); termometer kulkas/freezer; **higrometer** (kelembapan); **termometer inframerah** (suhu permukaan); **timer dapur**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 64–72 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali nama dan fungsi alat; pilih alat ukur yang tepat.",
+      "points": [
+       "Blast chiller & pendingin vakum = pendinginan cepat.",
+       "Termometer jarum = suhu inti; inframerah = suhu permukaan.",
+       "Santoku = serbaguna; pisau sayur untuk sayuran; pisau sashimi untuk sashimi."
+      ],
+      "avoid": [
+       "Memakai termometer inframerah untuk suhu inti."
+      ],
+      "exam": [
+       "Fungsi alat (blast chiller, pensteril, higrometer).",
+       "Alat ukur suhu inti vs permukaan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f2s6",
+    "no": 6,
+    "title": {
+     "id": "Keamanan dan Keselamatan Kerja di Dapur",
+     "jp": "{厨房|ちゅうぼう}の{安全|あんぜん}"
+    },
+    "pages": [
+     74,
+     77
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Cedera dan penyebabnya"
+      },
+      {
+       "ul": [
+        "Jari tersayat: tidak berkonsentrasi saat memotong.",
+        "Tangan/kaki terbakar: membawa wajan lebih berat dari perkiraan, terburu-buru menumpahkan minyak.",
+        "Kaki keseleo: berlari di lantai basah.",
+        "Jari putus: membiarkan pengiris menyala saat dibersihkan.",
+        "Kebakaran: meninggalkan dapur saat kompor menyala."
+       ]
+      },
+      {
+       "h": "2. Aturan umum"
+      },
+      {
+       "ul": [
+        "Semua staf melaksanakan prosedur keselamatan; jangan mengabaikannya karena sibuk, **\"mestinya tidak masalah\"**, atau karena \"sudah terbiasa\".",
+        "Seragam dipakai benar dan sesuai ukuran; jaket koki sering tahan api; sepatu dipakai benar agar tidak tergelincir.",
+        "**Mengangkat benda berat**: jangan lebih dari **35–40% berat badan**; bila lebih, angkat **berdua** atau dibagi. Jongkok, punggung lurus, geser satu kaki, angkat perlahan.",
+        "Isi panci/wajan cairan **maksimal 80%**.",
+        "**Troli**: pada dasarnya **didorong**; saat turunan atau tangga, **tarik perlahan**; jangan muatan terlalu tinggi.",
+        "**Dapur tidak basah**: lantai selalu kering (cegah tergelincir, bakteri, jamur)."
+       ]
+      },
+      {
+       "h": "3. Mesin pengiris, pisau, alat"
+      },
+      {
+       "ul": [
+        "Perlengkapan berpisau berputar hanya dipakai setelah **pelatihan**.",
+        "Jangan tinggalkan alat saat dipakai; kalau ditinggalkan **matikan dan cabut steker**; jangan masukkan tangan saat berjalan.",
+        "Mencuci alat: matikan, cabut steker, pastikan mata pisau berhenti, pakai alat pengaman.",
+        "Pisau: konsentrasi; saat membawa pisau ucapkan peringatan (\"Saya lewat dan membawa pisau\"); jangan tinggalkan di meja, cuci dan kembalikan.",
+        "Peralatan makan jangan ditumpuk tinggi; cuci jenis berbeda terpisah; **jangan pakai yang retak/gompel**; periksa serpihan.",
+        "Detergen/disinfektan diencerkan sesuai tata cara terpasang jelas; **semprotan alkohol tidak efektif jika basah dan mudah terbakar** — jauhkan dari api."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 74–77 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Patuhi prosedur, angkat dengan aman, jaga lantai kering, hati-hati dengan pisau dan mesin.",
+      "points": [
+       "Angkat ≤35–40% berat badan, lebih → berdua.",
+       "Isi cairan maksimal 80%.",
+       "Troli didorong; menurun ditarik.",
+       "Matikan + cabut steker sebelum membersihkan mesin."
+      ],
+      "avoid": [
+       "Berlari di lantai basah.",
+       "Meninggalkan mesin menyala.",
+       "Memakai piring retak."
+      ],
+      "exam": [
+       "Batas angkat beban.",
+       "Langkah aman membersihkan pengiris."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f2s7",
+    "no": 7,
+    "title": {
+     "id": "Pencegahan dan Pemadaman Kebakaran",
+     "jp": "{火災|かさい}の{予防|よぼう}と{消火|しょうか}"
+    },
+    "pages": [
+     78,
+     79
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Pencegahan"
+      },
+      {
+       "p": "Api dapat membahayakan pelanggan dan staf. Jika memakai api, **dilarang meninggalkan area kerja**."
+      },
+      {
+       "ul": [
+        "**Merokok**: hanya di tempat khusus di luar dapur. Puntung dan korek dibuang ke tempat **bertutup berisi air**, dibilas dan airnya diganti tiap hari.",
+        "**Peralatan api**: jangan tinggalkan saat menggoreng; sekitar kompor tertata tanpa bahan mudah terbakar; kaleng semprotan jangan di tempat panas/dekat api; **minyak bekas** dalam wadah bertutup dan jauh dari api.",
+        "**Peralatan listrik**: jangan sentuh dengan tangan basah; saat mencabut, **pegang kepala steker**, bukan kabel; matikan setelah dipakai; kabel aus jangan dipakai; jangan biarkan debu menumpuk di steker."
+       ]
+      },
+      {
+       "h": "2. Pemadaman"
+      },
+      {
+       "ul": [
+        "Segera padamkan api; ketahui lokasi **alat pemadam** secara berkala.",
+        "Jika **kebakaran besar** (api sampai langit-langit), **segera evakuasi**.",
+        "Alat pemadam: **(A) tarik pin pengaman, (B) arahkan selang ke sumber api, (C) remas tuas**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 78–79 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jangan tinggalkan api; jaga listrik dan minyak; pemadam: tarik–arahkan–remas.",
+      "points": [
+       "Merokok di luar dapur.",
+       "Cabut steker dengan memegang kepalanya.",
+       "Kebakaran besar → evakuasi."
+      ],
+      "avoid": [
+       "Meninggalkan penggorengan.",
+       "Menarik kabel."
+      ],
+      "exam": [
+       "Urutan memakai alat pemadam."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

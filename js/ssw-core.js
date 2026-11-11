@@ -62,7 +62,7 @@ export const DEFAULT_BIDANG = [
   { slug: "kaigo", nama: "Kaigo (Indonesia)", jp: "介護", aktif: true, urut: 2, tema: "kaigo", hasContent: true },
   { slug: "kaigo-jp", nama: "Kaigo (Bahasa Jepang)", jp: "介護の日本語", aktif: true, urut: 2.5, tema: "kaigo", hasContent: true },
   { slug: "food-manufacturing", nama: "Food Manufacturing", jp: "飲食料品製造業", aktif: false, urut: 3, tema: "factory" },
-  { slug: "food-service", nama: "Food Service", jp: "外食業", aktif: false, urut: 4, tema: "restaurant" },
+  { slug: "food-service", nama: "Food Service (Jasa Boga)", jp: "外食業", aktif: true, urut: 4, tema: "restaurant", hasContent: true },
   { slug: "agriculture", nama: "Agriculture", jp: "農業", aktif: false, urut: 5, tema: "farm" },
   { slug: "construction", nama: "Construction", jp: "建設", aktif: false, urut: 6, tema: "construction" },
   { slug: "accommodation", nama: "Accommodation", jp: "宿泊", aktif: false, urut: 7, tema: "hotel" },

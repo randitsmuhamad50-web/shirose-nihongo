@@ -1,0 +1,702 @@
+{
+ "schema": 1,
+ "bidang": "food-service",
+ "source": "Materi Pembelajaran untuk Penilaian Keterampilan dalam Industri Jasa Boga (Pengawasan Kebersihan / Persiapan Makanan dan Minuman / Layanan Pelanggan), versi 1 revisi 15 April 2021, terjemahan sementara Indonesia — Asosiasi Jasa Boga Jepang",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Layanan Pelanggan",
+   "jp": "{接客|せっきゃく}"
+  },
+  "intro": {
+   "id": "Modul 3: pengetahuan layanan pelanggan, pengetahuan makanan, pengelolaan restoran, penanganan keluhan, dan respons keadaan darurat.",
+   "jp": "{接客|せっきゃく}"
+  },
+  "pages": [
+   86,
+   125
+  ],
+  "subs": [
+   {
+    "id": "f3s1",
+    "no": 1,
+    "title": {
+     "id": "Omotenashi dan Kepuasan Pelanggan (QSCA)",
+     "jp": "おもてなしと{顧客満足|こきゃくまんぞく}"
+    },
+    "pages": [
+     86,
+     89
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Omotenashi"
+      },
+      {
+       "p": "Layanan pelanggan khas Jepang diungkapkan dengan **omotenashi** (keramahtamahan). Industri jasa boga termasuk usaha keramahtamahan, seperti hotel dan taman hiburan. Untuk menyampaikan *omotenashi-no-kokoro* ikutilah pola perilaku dasar (**kata**) dan latih dalam keseharian."
+      },
+      {
+       "h": "2. Kepuasan pelanggan (CS)"
+      },
+      {
+       "p": "CS (*customer satisfaction*) = memastikan pelanggan senang. Kepuasan ditentukan oleh selisih **harapan** dan **pengalaman**. Harapan dipengaruhi pengalaman pelanggan, informasi, suasana restoran, dan harga."
+      },
+      {
+       "ul": [
+        "Harapan < pengalaman → **kepuasan** (menjadi kesan).",
+        "Harapan = pengalaman → normal.",
+        "Harapan > pengalaman → **ketidakpuasan** (menjadi keluhan).",
+        "**Pelanggan tetap**: terus kembali karena puas — sangat penting."
+       ]
+      },
+      {
+       "h": "3. Faktor kepuasan: QSCA"
+      },
+      {
+       "ul": [
+        "**Q — Quality (kualitas)**: rasa, kesegaran, tampilan; **konsisten** rasa/jumlah/penataan, **suhu sesuai** (panas disajikan panas, dingin disajikan dingin), kecepatan layanan.",
+        "**S — Service (layanan)**: pelajari aturan dan buku pegangan; **senyum dan kontak mata**, bicara ramah dan ceria.",
+        "**C — Cleanliness (kebersihan)**: bersih, rapi, tertata; staf berpakaian rapi. Restoran kotor menyebarkan bakteri.",
+        "**A — Atmosphere (suasana)**: **aspek keras** (eksterior, fasilitas, interior) dan **aspek lunak** (hidangan, layanan, sikap staf). Dasarnya **kenyamanan** (suhu, musik latar, pencahayaan)."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 86–89 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pelanggan puas bila pengalaman ≥ harapan. QSCA = kualitas, layanan, kebersihan, suasana.",
+      "points": [
+       "Omotenashi = keramahtamahan.",
+       "Harapan > pengalaman → keluhan.",
+       "QSCA: Quality, Service, Cleanliness, Atmosphere.",
+       "Aspek keras vs lunak pada suasana."
+      ],
+      "avoid": [
+       "Menyajikan makanan panas dalam keadaan dingin.",
+       "Mengabaikan kebersihan karena makanan enak."
+      ],
+      "exam": [
+       "Arti QSCA.",
+       "Hubungan harapan–pengalaman dengan kepuasan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s2",
+    "no": 2,
+    "title": {
+     "id": "Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+     "jp": "{接客|せっきゃく}の{基本|きほん}"
+    },
+    "pages": [
+     90,
+     93
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Sapaan dan senyum"
+      },
+      {
+       "ul": [
+        "Sapaan = komunikasi pertama: **ceria dan bersemangat** walau suasana hati buruk; tatap mata (**tersenyum & kontak mata**); sapa **lebih dulu**.",
+        "Senyum: mata (sudut mata turun, ramah), mulut (bibir tersenyum penuh), perasaan."
+       ]
+      },
+      {
+       "h": "Pakaian dan penampilan"
+      },
+      {
+       "ul": [
+        "Rambut rapi, bebas ketombe; **melebihi pundak diikat**, tidak menutupi wajah.",
+        "Kumis/janggut dicukur tiap hari; gigi bersih; riasan sederhana; **hindari parfum tajam**.",
+        "Kuku pendek dan bersih; **tanpa cat kuku/hiasan**.",
+        "Perhiasan: pada dasarnya **tidak dipakai**.",
+        "Seragam bersih, bebas kerut, kancing terpasang; sepatu dipakai benar, **bukan sandal**."
+       ]
+      },
+      {
+       "h": "Postur dan cara berjalan"
+      },
+      {
+       "ul": [
+        "Punggung tegak (jangan menyandar), sadari keberadaan pelanggan tanpa menatap lama.",
+        "Kedua tangan di depan; **jangan melipat tangan atau memasukkan ke saku**.",
+        "Berat di kaki, lutut tidak ditekuk; kaki rapat saat membungkuk.",
+        "**Persilakan pelanggan lewat dahulu** di serambi, walau terburu-buru."
+       ]
+      },
+      {
+       "h": "Tiga jenis membungkuk"
+      },
+      {
+       "ul": [
+        "**Eshaku** (± 15°): berpapasan, memohon pelanggan menunggu; pandangan ke bawah 2 m.",
+        "**Keirei** (± 30°, membungkuk sopan): menyapa dan berterima kasih; pandangan 1 m.",
+        "**Saikeirei** (± 45°, hormat): salam perpisahan dan memohon maaf."
+       ]
+      },
+      {
+       "h": "Membawa baki, gelas, hidangan"
+      },
+      {
+       "ul": [
+        "Baki disokong **telapak tangan non-dominan**, siku ditekuk, lengan dekat tubuh. Muat dari sisi **terdekat**, barang terberat dulu; sajikan mulai dari sisi **terjauh**. Baki kosong dipegang di bawah ketiak.",
+        "Gelas: pegang **paruh bawah**, taruh perlahan tanpa bunyi.",
+        "Piring: ibu jari di pinggir, bagian bawah ditahan jari lain; ibu jari menghadap luar; hidangan menghadap pelanggan."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 90–93 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Senyum, rapi, postur tegak, membungkuk sesuai tujuan, dan membawa baki aman.",
+      "points": [
+       "Keirei 30° untuk sapaan/terima kasih; saikeirei 45° untuk minta maaf/perpisahan.",
+       "Tanpa cat kuku dan perhiasan.",
+       "Pelanggan lewat dahulu."
+      ],
+      "avoid": [
+       "Melipat tangan di depan pelanggan.",
+       "Memakai sandal atau parfum tajam."
+      ],
+      "exam": [
+       "Sudut membungkuk dan penggunaannya.",
+       "Aturan penampilan staf."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s3",
+    "no": 3,
+    "title": {
+     "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+     "jp": "{食事|しょくじ}のマナー"
+    },
+    "pages": [
+     94,
+     97
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Hidangan Jepang"
+      },
+      {
+       "ul": [
+        "**Sumpit**: hanya bagian atas yang digerakkan, bagian bawah diam.",
+        "**Ichijū sansai**: nasi, sup, tiga lauk, dan acar. **Nasi di kiri, sup di kanan, acar di tengah**; lauk utama kanan atas, lauk pelengkap kiri belakang.",
+        "Perjamuan **kaiseki**: pembuka → sup → sashimi → rebus → bakar → goreng → hidangan bercuka → nasi → buah.",
+        "**Kamiza** (tempat kehormatan) untuk yang tertua/jabatan tertinggi; **shimoza** untuk penjamu/jabatan terendah. **Tokonoma** di posisi terjauh dari pintu masuk dekat kamiza.",
+        "Mangkuk nasi, mangkuk pernis, piring kecil **dipegang di tangan**; hidangan dari piring besar diambil ke piring kecil."
+       ]
+      },
+      {
+       "h": "Hidangan Barat"
+      },
+      {
+       "ul": [
+        "**Pisau di kanan** (mata pisau ke dalam), **garpu di kiri**; sendok sup di kanan pisau; urutan dari luar ke dalam.",
+        "Pukul **8:20** = masih makan; pisau dan garpu **sejajar diagonal** = selesai.",
+        "Pisau/garpu jatuh → **segera ganti**, jangan pelanggan yang mengambil.",
+        "Hidangan disajikan dari **kiri**, minuman dari **kanan**. Di restoran kelas atas, perempuan dan lansia dilayani dahulu.",
+        "Serbet: ditinggalkan di kursi bila keluar sebentar; di sebelah kiri meja saat selesai."
+       ]
+      },
+      {
+       "h": "Hidangan Tiongkok"
+      },
+      {
+       "ul": [
+        "Meja bundar: tempat terjauh dari pintu = **kehormatan**; terdekat pintu = tempat penjamu.",
+        "Piring **diganti tiap hidangan**; tidak berdiri mengambil dari meja putar; meja putar diputar **searah jarum jam**; mangkuk tidak diangkat; sumpit/gelas tidak di meja putar.",
+        "Sisakan **1/3–1/4** di piring besar."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 94–97 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tiap masakan punya etiket penyajian dan tempat duduk sendiri.",
+      "points": [
+       "Nasi kiri, sup kanan.",
+       "Pisau kanan, garpu kiri; hidangan dari kiri, minuman dari kanan.",
+       "Meja putar searah jarum jam."
+      ],
+      "avoid": [
+       "Membiarkan pelanggan memungut garpu yang jatuh."
+      ],
+      "exam": [
+       "Posisi nasi dan sup.",
+       "Arti posisi pisau–garpu."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s4",
+    "no": 4,
+    "title": {
+     "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+     "jp": "{配慮|はいりょ}が{必要|ひつよう}なお{客様|きゃくさま}・{提供|ていきょう}"
+    },
+    "pages": [
+     98,
+     100
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pelanggan yang membutuhkan bantuan"
+      },
+      {
+       "ul": [
+        "**Bersama anak**: tempatkan di area yang tidak mengganggu pelanggan lain.",
+        "**Lansia**: ingatkan barang bawaan, **hitung uang dengan suara jelas**, sediakan **menu huruf besar**.",
+        "**Kursi roda**: kursi roda listrik mungkin perlu dibantu jika ada tangga tanpa lift; **berlutut** agar sejajar pandangan; bila meja sesuai, kursi roda langsung didorong ke meja.",
+        "**Anjing asisten** (penuntun tunanetra, terapi, pemandu tunarungu): menurut hukum Jepang, restoran terbuka untuk umum **wajib menerima**. Anjing penuntun memakai sabuk putih/kuning; yang lain punya nomor ID dan label. Izin bisa diminta untuk diperlihatkan.",
+        "Tanda khusus: anjing asisten, telinga, ostomate, hati plus, bantuan (help mark), hamil (maternity)."
+       ]
+      },
+      {
+       "note": "Jangan menduga seberapa banyak bantuan yang dibutuhkan; berbeda tiap orang."
+      },
+      {
+       "h": "Penyajian yang tepat"
+      },
+      {
+       "ul": [
+        "Sajikan segera; makanan di **10–60℃ (zona berbahaya)** menumbuhkan bakteri. **Aturan praktis: dimakan dalam 2 jam** setelah disiapkan.",
+        "**Membungkus sisa makanan**: ikuti kebijakan restoran; beri tahu pelanggan bila tidak boleh dibungkus karena alasan kesehatan.",
+        "**Bungkus (take-out)**: tentukan pengawasan suhu (mis. ≤10℃) dan batas waktu dimakan; beri informasi akurat."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 98–100 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bantu sesuai kebutuhan; makanan harus segera disajikan dan bungkus butuh informasi suhu/waktu.",
+      "points": [
+       "Anjing asisten wajib diterima.",
+       "Berlutut saat bicara dengan pengguna kursi roda.",
+       "Makanan dimakan dalam 2 jam."
+      ],
+      "avoid": [
+       "Menolak anjing asisten.",
+       "Membungkus sisa tanpa memberi peringatan kesehatan."
+      ],
+      "exam": [
+       "Aturan anjing asisten.",
+       "Aturan praktis 2 jam."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s5",
+    "no": 5,
+    "title": {
+     "id": "Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+     "jp": "{接客|せっきゃく}{用語|ようご}と{電話|でんわ}{対応|たいおう}"
+    },
+    "pages": [
+     101,
+     104
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Istilah dasar"
+      },
+      {
+       "ul": [
+        "**Irasshaimase**: selamat datang (saat pelanggan masuk).",
+        "**Arigatō gozaimasu / gozaimashita**: terima kasih (saat pelanggan pulang atau melakukan sesuatu).",
+        "**Omatase shimashita**: mohon maaf sudah menunggu.",
+        "**Shitsurei itashimasu**: permisi (saat menghampiri/meninggalkan tempat duduk).",
+        "**Kashikomarimashita**: dipahami (saat mencatat pesanan).",
+        "**Osoreirimasu**: maaf sudah merepotkan. **Mōshiwake gozaimasen**: mohon maaf."
+       ]
+      },
+      {
+       "h": "Ungkapan yang sering keliru → tepat"
+      },
+      {
+       "ul": [
+        "\"Kochira ga reshīto ni narimasu\" ✗ → **\"Kochira ga reshīto de gozaimasu\"** ✓.",
+        "\"5.000 yen kara oazukari shimasu\" ✗ → **\"5.000 yen oazukari shimasu\"** ✓.",
+        "\"Wakarimashita\" ✗ → **\"Kashikomarimashita\"** ✓.",
+        "\"Nan'nin desu ka\" ✗ → **\"Nan-meisama desu ka\"** ✓.",
+        "Gunakan **okyaku-sama**, **oko-sama**, **ohitori-sama**, bukan \"otoko no hito\", \"kodomo-san\"."
+       ]
+      },
+      {
+       "h": "Layanan rekomendasi"
+      },
+      {
+       "p": "Menyarankan menu baru agar pelanggan memesan lebih dan merasa lebih puas. Pahami produk, aktif menawarkan (\"Hari ini hidangan yang kami rekomendasikan adalah XX\")."
+      },
+      {
+       "h": "Tata krama telepon"
+      },
+      {
+       "ul": [
+        "Mengangkat: sebut **nama restoran dan nama Anda**; bila berdering lebih dari **3 kali**, awali dengan \"Mohon maaf sudah menunggu\".",
+        "Memberikan telepon ke orang lain: \"boleh tunggu sebentar\".",
+        "Menutup: **tunggu lawan bicara menutup dahulu**, lalu tutup perlahan.",
+        "Bila tidak bisa memenuhi permintaan: beri alasan, **catat kontak dan permintaan**, minta manajer menelepon kembali."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 101–104 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pakai ungkapan layanan yang baku dan santun.",
+      "points": [
+       "Irasshaimase, Kashikomarimashita, Omatase shimashita.",
+       "Telepon: sebut nama restoran dan nama; tunggu lawan bicara menutup."
+      ],
+      "avoid": [
+       "\"Reshīto ni narimasu\" dan \"kara oazukari\".",
+       "Menyebut \"Wakarimashita\" kepada pelanggan."
+      ],
+      "exam": [
+       "Makna istilah dasar.",
+       "Koreksi ungkapan keliru."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s6",
+    "no": 6,
+    "title": {
+     "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+     "jp": "{食}の{知識|ちしき}"
+    },
+    "pages": [
+     106,
+     110
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Alergi makanan"
+      },
+      {
+       "ul": [
+        "Reaksi: ruam, mual; parah → **syok anafilaksis** (sesak napas, tekanan darah turun, pingsan) → bisa fatal.",
+        "Sekitar **1–2% penduduk** Jepang; pada anak sekitar **10%**.",
+        "Tidak ada pengobatan efektif; hindari alergen. Wajib label pada makanan olahan untuk **7 bahan: telur, susu, gandum, soba, kacang, udang, kepiting**.",
+        "**Tidak ada kewajiban hukum** pelabelan alergen pada hidangan restoran, tetapi staf harus tahu bahan dengan akurat; **jika tidak yakin, tanya manajer** — informasi salah berakibat berat."
+       ]
+      },
+      {
+       "h": "Alkohol"
+      },
+      {
+       "ul": [
+        "**Hasil ramuan (fermentasi)**: anggur (dari anggur), bir (malt/gandum), cider (apel, persik), sake Jepang (beras), anggur shaoxing (beras).",
+        "**Hasil distilasi**: brandy/cognac (anggur), wiski (gandum), gin (gandum), shochu (ubi, gandum).",
+        "**Dilarang menyajikan alkohol** kepada yang **di bawah 20 tahun** (periksa identitas bila ragu) dan kepada yang **akan berkendara**. **Designated driver** = orang yang mengantar dan tidak minum."
+       ]
+      },
+      {
+       "h": "Nutrisi dan rasa"
+      },
+      {
+       "ul": [
+        "**5 gizi utama**: protein (membangun jaringan), lemak & karbohidrat (energi), vitamin & mineral (kelancaran fungsi tubuh; mineral juga tulang dan gigi).",
+        "**Rasa**: manis, asin, asam, pahit, **umami** (kaldu kombu, katsuobushi). Kekuatan rasa berbeda tiap orang dan dipengaruhi kondisi tubuh."
+       ]
+      },
+      {
+       "h": "Keberagaman makanan"
+      },
+      {
+       "ul": [
+        "**Halal** = boleh menurut Islam; **haram** = tidak boleh. Muslim sedunia ± 1,6 miliar.",
+        "**Vegetarian** tidak mengonsumsi produk hewani seperti daging dan ikan; **vegan** 100% nabati (tanpa telur dan susu). Kenali kebutuhan pelanggan; bila sulit, minta manajer."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 106–110 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali alergen, aturan alkohol, gizi, rasa, dan kebutuhan halal/vegetarian.",
+      "points": [
+       "7 alergen wajib label: telur, susu, gandum, soba, kacang, udang, kepiting.",
+       "Alkohol: dilarang untuk <20 tahun dan pengemudi.",
+       "5 gizi: protein, lemak, karbohidrat, vitamin, mineral."
+      ],
+      "avoid": [
+       "Menjawab pertanyaan alergi dengan menebak.",
+       "Menyajikan alkohol ke pengemudi."
+      ],
+      "exam": [
+       "Daftar alergen.",
+       "Larangan penyajian alkohol."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s7",
+    "no": 7,
+    "title": {
+     "id": "Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+     "jp": "{店舗|てんぽ}{運営|うんえい}"
+    },
+    "pages": [
+     112,
+     117
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Persiapan hari kerja"
+      },
+      {
+       "ul": [
+        "Parkir, pintu masuk, dan interior dibersihkan; toilet bersih dan perlengkapan (tisu) tersedia.",
+        "Perlengkapan makan, gelas, es siap untuk jam ramai; set bumbu terisi.",
+        "Meja-kursi tertata; reservasi dipastikan dengan koki; **uang kembalian cukup** di mesin kas; peran staf jelas."
+       ]
+      },
+      {
+       "h": "Tugas akhir hari kerja"
+      },
+      {
+       "p": "Dilakukan **setelah restoran tutup dan semua pelanggan pulang** — jangan mulai saat pelanggan masih ada. Isi: bersihkan interior dan toilet, cuci dan isi ulang set bumbu, rapikan meja kursi, **hitung kas**, buang sampah."
+      },
+      {
+       "h": "Pembersihan di luar dapur"
+      },
+      {
+       "ul": [
+        "Bedakan **area bersih** dan **area kotor**; peralatan pembersih berbeda tiap area (cegah kontaminasi silang).",
+        "**Dari atas ke bawah**.",
+        "**Jangan membasahi kotoran kering** dengan kain basah.",
+        "**Rendam sebelum mencuci** dalam air bersuhu **40℃** dengan detergen.",
+        "**Jangan membersihkan dengan peralatan kotor**.",
+        "Lakukan berkelanjutan dan menyeluruh; bersihkan tempat yang dilihat pelanggan; perbaiki karpet/wallpaper rusak; bersihkan juga ruang istirahat dan loker staf."
+       ]
+      },
+      {
+       "h": "Pembayaran"
+      },
+      {
+       "ul": [
+        "Di restoran Jepang ± **80% tunai (yen)**, ± **20% cashless**; cashless terus tumbuh, terutama wisatawan asing.",
+        "Uang kertas: 10.000, 5.000, 2.000 (jarang), 1.000 yen. Koin: 500, 100, 50, 10, 5, 1 yen.",
+        "Cashless: **kartu kredit** (bayar belakangan), **kartu debit** (langsung dipotong), **uang elektronik** (Suica, nanaco, WAON; isi dahulu), **kode QR** (LINE Pay, Rakuten Pay, dll.). Butuh terminal dan kontrak penerbit."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 112–117 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Siapkan sebelum buka, tutup dengan rapi, bersihkan dari atas ke bawah, kenali uang dan cashless.",
+      "points": [
+       "Akhir hari: setelah semua pelanggan pulang.",
+       "Rendam 40℃ sebelum mencuci.",
+       "80% tunai : 20% cashless."
+      ],
+      "avoid": [
+       "Mengelap kotoran kering dengan kain basah.",
+       "Membersihkan dengan kain kotor."
+      ],
+      "exam": [
+       "Dasar pembersihan.",
+       "Jenis cashless."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s8",
+    "no": 8,
+    "title": {
+     "id": "Penanganan Keluhan dan Benda Asing",
+     "jp": "{苦情|くじょう}と{異物混入|いぶつこんにゅう}{対応|たいおう}"
+    },
+    "pages": [
+     119,
+     121
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Keluhan"
+      },
+      {
+       "p": "Keluhan muncul saat ketidakpuasan melebihi toleransi pelanggan. Pahami apa yang dianggap tidak memuaskan."
+      },
+      {
+       "ol": [
+        "**Simak baik-baik** keluhan pelanggan.",
+        "Jika **Anda atau restoran** penyebabnya, **segera mohon maaf**.",
+        "Jika tidak yakin: beri tahu pelanggan bahwa Anda akan memanggil manajer dan **segera lapor ke manajer**.",
+        "Manajer meminta maaf kembali; **Anda berdiri di samping manajer** dan ikut meminta maaf.",
+        "Manajer memeriksa rincian dan memutuskan penyelesaian.",
+        "Bila pelanggan belum tenang: **ganti orang, tempat, atau waktu** penanganan."
+       ]
+      },
+      {
+       "h": "Benda asing"
+      },
+      {
+       "ul": [
+        "Benda asing: rambut, pecahan plastik, batu, serangga; juga **tulang** yang kadang dianggap benda asing oleh pelanggan.",
+        "**Keras**: pecahan plastik, serpihan gelas, logam, batu. **Lunak**: serangga, rambut, vinil, kertas."
+       ]
+      },
+      {
+       "h": "Prosedur contoh (serangga di hidangan)"
+      },
+      {
+       "ol": [
+        "Periksa dan pastikan itu benda asing.",
+        "**Mohon maaf** dan angkat hidangan (\"Kami akan segera menggantinya dengan yang baru\").",
+        "Ganti bila pelanggan mau; tanya manajer apakah perlu dibayar.",
+        "Manajer membuat **laporan kontaminasi benda asing**; staf menemani meminta maaf lagi.",
+        "Bawa hidangan ke dapur, **tunjukkan ke manajer dan kepala koki** untuk mencari sumber."
+       ]
+      },
+      {
+       "h": "Pencegahan di luar dapur"
+      },
+      {
+       "ul": [
+        "Pintu jangan dibiarkan terbuka.",
+        "Sampah jatuh segera diangkat.",
+        "Serangga ditangkap dan cari penyebabnya.",
+        "Bersihkan filter AC berkala.",
+        "Jangan pakai klip, stapler, pensil dekat makanan.",
+        "Jaga kebersihan dan kerapian diri."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 119–121 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dengar, minta maaf, lapor ke manajer; untuk benda asing, ganti hidangan dan cari sumbernya.",
+      "points": [
+       "Tidak yakin → panggil manajer.",
+       "Benda asing keras vs lunak.",
+       "Tunjukkan hidangan ke manajer dan kepala koki."
+      ],
+      "avoid": [
+       "Membantah pelanggan.",
+       "Membuang hidangan bermasalah tanpa pemeriksaan."
+      ],
+      "exam": [
+       "Urutan penanganan keluhan.",
+       "Contoh benda asing keras/lunak."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f3s9",
+    "no": 9,
+    "title": {
+     "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+     "jp": "{緊急|きんきゅう}{時|じ}の{対応|たいおう}"
+    },
+    "pages": [
+     123,
+     125
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pelanggan sakit"
+      },
+      {
+       "ul": [
+        "**Tidak sehat**: beri air, pandu ke tempat tenang atau toilet.",
+        "**Muntah**: beri air dan handuk bersih. Muntahan dapat mengandung virus → bersihkan dengan **alat khusus (celemek, sarung tangan, kain)** lalu **disinfeksi**.",
+        "**Tersedak**: jika bisa, minta **batuk**; beri **4–5 tepukan keras dan tajam** di punggung antara tulang belikat; jika makanan tak keluar dan pingsan, **segera hubungi ambulans**.",
+        "**Reaksi alergi** (kulit merah, ruam): beri air, tempat tenang; **anak jangan dibiarkan sendiri**; bila parah (sesak napas) **segera panggil ambulans**."
+       ]
+      },
+      {
+       "h": "Gempa besar"
+      },
+      {
+       "ol": [
+        "Utamakan **keselamatan sendiri**: berlindung di bawah meja.",
+        "Periksa pelanggan dan arahkan dengan suara keras agar berlindung di bawah meja.",
+        "Setelah gempa berhenti, periksa sekitar dan **evakuasi** sesuai lokasi dan metode yang ditetapkan restoran.",
+        "Bila risiko tsunami, evakuasi ke **dataran lebih tinggi**."
+       ]
+      },
+      {
+       "h": "Kebakaran"
+      },
+      {
+       "ol": [
+        "Teriakkan **\"KEBAKARAN\"** untuk memberi tahu pelanggan (nyalakan sirene bila ada).",
+        "Bertindak sesuai **peran** yang ditugaskan (sebagian memadamkan, sebagian evakuasi).",
+        "Yang memadamkan segera memakai pemadam, tetapi **keluar segera** bila api tak dapat dipadamkan (menjalar ke langit-langit).",
+        "Yang mengevakuasi meneriakkan rute dan memandu pelanggan dengan **postur serendah mungkin**.",
+        "Setelah keluar, **jangan kembali** ke sumber api; peringatkan pelanggan agar tidak masuk lagi."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 123–125 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tenang dan utamakan keselamatan: lindungi diri, selamatkan pelanggan, panggil bantuan.",
+      "points": [
+       "Tersedak: 4–5 tepukan di punggung; pingsan → ambulans.",
+       "Gempa: bawah meja dulu.",
+       "Kebakaran: teriak, peran, postur rendah, jangan kembali."
+      ],
+      "avoid": [
+       "Membersihkan muntahan tanpa alat dan disinfeksi.",
+       "Kembali masuk ke restoran yang terbakar."
+      ],
+      "exam": [
+       "Respons tersedak.",
+       "Urutan respons gempa."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
