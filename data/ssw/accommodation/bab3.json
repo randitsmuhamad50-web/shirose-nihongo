@@ -1,0 +1,424 @@
+{
+ "schema": 1,
+ "bidang": "accommodation",
+ "source": "全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』(2024)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Pelayanan Tamu (Sekkyaku)",
+   "jp": "{接客|せっきゃく}"
+  },
+  "intro": {
+   "id": "Salam, sikap dan membungkuk, tutur kata sopan, contoh pelayanan, telepon dan komplain.",
+   "jp": "{接客|せっきゃく}"
+  },
+  "pages": [
+   27,
+   34
+  ],
+  "subs": [
+   {
+    "id": "b3s1",
+    "no": 1,
+    "title": {
+     "id": "Salam",
+     "jp": "あいさつ"
+    },
+    "pages": [
+     28,
+     29
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Salam adalah dasar pelayanan. Beri salam dengan ceria, senyum, suara yang sampai ke lawan bicara, menatap mata, dan sepenuh hati."
+      },
+      {
+       "h": "Salam untuk tamu"
+      },
+      {
+       "ul": [
+        "いらっしゃいませ: saat tamu tiba di hotel/ryokan/restoran.",
+        "ありがとうございました: saat tamu pulang.",
+        "はい、かしこまりました: saat dapat memenuhi permintaan tamu.",
+        "申し訳ございません: meminta maaf / saat dikomplain. Setelah minta maaf, segera laporkan ke penanggung jawab tim.",
+        "恐れ入りますが…: saat meminta sesuatu kepada tamu.",
+        "お待たせいたしました: setelah membuat tamu menunggu.",
+        "少々お待ちください: saat harus membuat tamu menunggu sebentar.",
+        "失礼します: saat mendatangi atau meninggalkan kamar/meja tamu."
+       ]
+      },
+      {
+       "h": "Salam antarkaryawan"
+      },
+      {
+       "ul": [
+        "Masuk kerja: おはようございます.",
+        "Pulang: お先に失礼します.",
+        "Kepada yang pulang: お疲れさまでした.",
+        "Mulai istirahat: 休憩に入ります.",
+        "Memanggil nama: nama keluarga + さん."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "あいさつは接客の基本です。明るく元気に笑顔で、相手に届く声で、相手の目を見て、気持ちを込めてあいさつします。"
+      },
+      {
+       "ul": [
+        "「いらっしゃいませ」：お客様がいらっしゃった時",
+        "「ありがとうございました」：お客様がお帰りの時",
+        "「はい、かしこまりました」：ご要望に応えられる時",
+        "「申し訳ございません」：お詫びを表明する時（まず詫びて、すぐにチームの責任者に報告する）",
+        "「恐れ入りますが、・・・・・」：お客様に何かお願いする時",
+        "「お待たせいたしました」：お待たせしてしまった時",
+        "「少々お待ちください（ませ）」：お待たせしてしまう場合",
+        "「失礼します」：お部屋やテーブルにうかがった時、離れる時"
+       ]
+      },
+      {
+       "h": "従業員同士のあいさつ"
+      },
+      {
+       "ul": [
+        "出勤時：「おはようございます」",
+        "退勤時：「お先に失礼します」",
+        "退勤する人へ：「お疲れさまでした」",
+        "休憩に入る時：「休憩に入ります」",
+        "名前は名字に「さん」をつけて呼ぶ"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hafal ungkapan salam tamu dan antarkaryawan; setelah minta maaf segera lapor penanggung jawab.",
+      "points": [
+       "いらっしゃいませ (datang) vs ありがとうございました (pulang).",
+       "申し訳ございません → laporkan.",
+       "Pulang: お先に失礼します; ke yang pulang: お疲れさまでした.",
+       "Panggil: nama keluarga + さん."
+      ],
+      "avoid": [
+       "Tertukar お先に失礼します dan お疲れさまでした."
+      ],
+      "exam": [
+       "Ungkapan yang tepat per situasi"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s2",
+    "no": 2,
+    "title": {
+     "id": "Sikap Dasar dan Ojigi",
+     "jp": "{基本姿勢|きほんしせい}とおじぎ"
+    },
+    "pages": [
+     30,
+     31
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Sikap dasar"
+      },
+      {
+       "ul": [
+        "Punggung tegak.",
+        "Tarik perut, dagu sedikit ditarik.",
+        "Bahu rileks; tangan kanan di bawah, ditumpuk ringan sedikit di bawah perut (pria boleh menurunkan tangan di samping).",
+        "Ekspresi alami, jangan lupa senyum kepada tamu."
+       ]
+      },
+      {
+       "h": "Tiga jenis ojigi"
+      },
+      {
+       "p": "Tatap wajah tamu dahulu, lalu membungkuk."
+      },
+      {
+       "ul": [
+        "会釈 (eshaku): sekitar 15°. Saat berpapasan, mendatangi/meninggalkan meja tamu yang sedang makan.",
+        "普通礼/敬礼 (futsūrei): sekitar 30°. Paling sering dipakai, termasuk saat menyambut tamu.",
+        "最敬礼 (saikeirei): sekitar 45°. Saat mengantar tamu pulang atau meminta maaf."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "接客をする際には、基本姿勢とおじぎが大変重要です。"
+      },
+      {
+       "ul": [
+        "背筋を伸ばす",
+        "お腹を引き、あごは軽く引く",
+        "肩の力を抜き、腹よりやや下の位置で右手を下にして軽く重ねる（男性は自然に横に下げても良い）",
+        "自然な表情で、お客様には笑顔を忘れない"
+       ]
+      },
+      {
+       "h": "おじぎの種類"
+      },
+      {
+       "ul": [
+        "会釈：約15°前傾。お客様とすれ違う時、食事中のお客様のテーブルにうかがった時、離れる時など",
+        "普通礼（敬礼）：約30°前傾。お客様をお迎えする時をはじめ、様々な場面で最も使う",
+        "最敬礼：約45°前傾。お見送りの時、お詫びする時など"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Sikap: punggung tegak, tangan kanan di bawah; tiga ojigi 15° / 30° / 45°.",
+      "points": [
+       "会釈 15° (berpapasan).",
+       "敬礼 30° (menyambut tamu).",
+       "最敬礼 45° (mengantar pulang, minta maaf).",
+       "Tangan: kanan di bawah."
+      ],
+      "avoid": [
+       "Meminta maaf hanya dengan 会釈."
+      ],
+      "exam": [
+       "Sudut tiap ojigi",
+       "Posisi tangan"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s3",
+    "no": 3,
+    "title": {
+     "id": "Tutur Kata dan Keigo",
+     "jp": "{話|はな}し{方|かた}と{敬語|けいご}"
+    },
+    "pages": [
+     32,
+     32
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Bicara sambil menatap mata dan tersenyum. Jika ada permintaan mendadak, jangan langsung menolak: pikirkan bagaimana bisa memenuhinya, dan bila tidak bisa memutuskan, konsultasikan ke atasan. Bicara ceria dan jelas."
+      },
+      {
+       "h": "Tiga jenis keigo"
+      },
+      {
+       "ul": [
+        "尊敬語 (sonkeigo): menghormati orang yang lebih tinggi dengan mengangkat lawan bicara.",
+        "謙譲語 (kenjōgo): merendahkan diri sendiri untuk menghormati lawan bicara.",
+        "丁寧語 (teineigo): sopan lewat akhiran です・ます・ございます, atau awalan お/ご (お料理, ご宿泊)."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "お客様の目を見て、笑顔で話します。急なリクエストでもすぐに断らず、どうしたらお応えできるか考え、判断できなければ上司に相談します。敬語には3種類あります。"
+      },
+      {
+       "ul": [
+        "尊敬語：目上の人や自分より立場が上の人をうやまい、相手を立てる気持ちを表す",
+        "謙譲語：自分がへりくだることで相手を立て、敬意を表す",
+        "丁寧語：「です」「ます」「ございます」を付けたり、「お料理」「ご宿泊」のように「お」「ご」を付けたりして丁寧にする"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jangan langsung menolak permintaan tamu; keigo ada tiga: 尊敬語, 謙譲語, 丁寧語.",
+      "points": [
+       "尊敬語 = angkat lawan bicara.",
+       "謙譲語 = rendahkan diri.",
+       "丁寧語 = です/ます/ございます, お/ご.",
+       "Tak bisa memutuskan → konsultasi atasan."
+      ],
+      "avoid": [
+       "Menolak mentah-mentah."
+      ],
+      "exam": [
+       "Membedakan 3 keigo"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s4",
+    "no": 4,
+    "title": {
+     "id": "Contoh Pelayanan Konkret",
+     "jp": "{具体的|ぐたいてき}な{接客|せっきゃく}{方法|ほうほう}"
+    },
+    "pages": [
+     33,
+     33
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Yang terpenting adalah tamu merasa “senang menginap di sini”. Berikan pelayanan sepenuh hati (disebut おもてなし)."
+      },
+      {
+       "ul": [
+        "① Tamu terlihat mencari sesuatu → sapa “何かお探しでしょうか”.",
+        "② Mengantar tamu: berjalan 2–3 langkah di depan sebelah kiri, sesuai langkah tamu.",
+        "③ Berpapasan: berhenti, 会釈 sampai tamu lewat.",
+        "④ Dipanggil tamu: jawab “お呼びでございますか”.",
+        "⑤ Membawa bagasi tamu: hati-hati, bawa sampai ke dalam kamar.",
+        "⑥ Menunjuk peta: telapak tangan ke atas, empat jari dirapatkan.",
+        "⑦ Menyerahkan kunci: menghadap ke arah tamu, dengan dua tangan.",
+        "⑧ Lift: dahulukan tamu.",
+        "⑨ Tamu berkursi roda: sejajarkan tinggi mata.",
+        "⑩ Tamu tunanetra: tawarkan bantuan.",
+        "⑪ Tamu bertongkat di restoran: bila diminta, antar ke kursi dekat pintu."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "p": "宿泊のお客様に「泊まって良かったな」と満足していただくことが最も重要です。心のこもった接客やサービスを「おもてなし」といいます。"
+      },
+      {
+       "ul": [
+        "①何か探されている様子の場合は、「何かお探しでしょうか」とお声がけする",
+        "②ご案内する際は、2〜3歩、左前方を、お客様の歩調に合わせて歩く",
+        "③すれ違う時は、お客様が通過するまで立ち止まって会釈する",
+        "④呼び止められた時は、「お呼びでございますか」と返事をする",
+        "⑤手荷物は丁寧に客室内までお持ちする",
+        "⑥地図で道案内する時は、手のひらを上に向け4本の指をそろえる",
+        "⑦ルームキーは、相手から見て正面に向けて両手でお渡しする",
+        "⑧エレベーターは常にお客様を優先する",
+        "⑨車いすのお客様とは、目の高さを合わせて対応する",
+        "⑩視覚障がいのあるお客様には、お声かけをする",
+        "⑪杖をついた足の不自由な方がレストランにいらした時は、希望があれば出入り口に近い席にご案内する"
+       ]
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tujuan: tamu puas (おもてなし); hafal 11 contoh pelayanan: berjalan 2–3 langkah di depan kiri, kunci dengan dua tangan, dahulukan tamu di lift.",
+      "points": [
+       "Mengantar: 2–3 langkah, kiri depan.",
+       "Kunci: dua tangan, menghadap tamu.",
+       "Kursi roda: sejajarkan tinggi mata.",
+       "Lift: tamu didahulukan."
+      ],
+      "avoid": [
+       "Menyerahkan kunci dengan satu tangan."
+      ],
+      "exam": [
+       "Posisi saat mengantar",
+       "Cara menyerahkan kunci"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s5",
+    "no": 5,
+    "title": {
+     "id": "Telepon dan Komplain",
+     "jp": "{電話|でんわ}{対応|たいおう}・クレーム{対応|たいおう}"
+    },
+    "pages": [
+     34,
+     34
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Telepon"
+      },
+      {
+       "ul": [
+        "Siapkan catatan dan alat tulis sebelum mengangkat.",
+        "Setelah mengangkat, sebutkan nama dulu.",
+        "Saat menyambungkan, pastikan nama (perusahaan) penelepon.",
+        "Untuk tamu, letakkan gagang setelah memastikan tamu meletakkan lebih dulu."
+       ]
+      },
+      {
+       "h": "Komplain"
+      },
+      {
+       "ul": [
+        "Minta maaf dulu karena membuat tamu tidak nyaman.",
+        "Pastikan penyebab komplain dengan teliti.",
+        "Laporkan ke penanggung jawab."
+       ]
+      },
+      {
+       "p": "Walau jelas kesalahan sendiri, jangan menyelesaikan semuanya sendirian: ketidakpuasan menumpuk dan menimbulkan komplain lebih besar. Laporkan ke penanggung jawab."
+      }
+     ],
+     "jp": [
+      {
+       "h": "電話対応のポイント"
+      },
+      {
+       "ul": [
+        "電話を取る前にメモと筆記用具を用意しておく",
+        "電話に出たら、まず名乗る",
+        "取り次ぐ場合は、相手の名前（会社名）を確認する",
+        "お客様からの電話は、相手が受話器を置いたのを確認してから置く"
+       ]
+      },
+      {
+       "h": "クレーム（苦情）対応のポイント"
+      },
+      {
+       "ul": [
+        "まず、不快にさせたことをお詫びする",
+        "クレームの原因を丁寧に確認する",
+        "責任者に報告する"
+       ]
+      },
+      {
+       "p": "自分のミスが明らかでも、自分ですべて解決しようとするとさらなるクレームにつながるため、責任者へ報告することが重要です。"
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Telepon: siapkan catatan, sebut nama dulu, tamu menutup duluan. Komplain: minta maaf → cek penyebab → lapor penanggung jawab.",
+      "points": [
+       "Telepon: catatan siap; nama dulu.",
+       "Komplain: minta maaf, cek penyebab, lapor.",
+       "Jangan menyelesaikan sendirian."
+      ],
+      "avoid": [
+       "Membela diri / menyelesaikan sendiri."
+      ],
+      "exam": [
+       "Urutan penanganan komplain"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

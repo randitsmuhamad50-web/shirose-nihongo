@@ -1,0 +1,733 @@
+{
+ "items": [
+  {
+   "id": "ac-001",
+   "kata": "満室",
+   "kana": "まんしつ",
+   "romaji": "manshitsu",
+   "arti": "Kamar penuh",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "rb": [
+    "満室|まんしつ"
+   ]
+  },
+  {
+   "id": "ac-002",
+   "kata": "空室",
+   "kana": "くうしつ",
+   "romaji": "kuushitsu",
+   "arti": "Kamar kosong",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "rb": [
+    "空室|くうしつ"
+   ]
+  },
+  {
+   "id": "ac-003",
+   "kata": "予約",
+   "kana": "よやく",
+   "romaji": "yoyaku",
+   "arti": "Reservasi",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "rb": [
+    "予約|よやく"
+   ]
+  },
+  {
+   "id": "ac-004",
+   "kata": "宿泊税",
+   "kana": "しゅくはくぜい",
+   "romaji": "shukuhakuzei",
+   "arti": "Pajak menginap",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "rb": [
+    "宿泊税|しゅくはくぜい"
+   ]
+  },
+  {
+   "id": "ac-005",
+   "kata": "入湯税",
+   "kana": "にゅうとうぜい",
+   "romaji": "nyuutouzei",
+   "arti": "Pajak pemandian air panas",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "rb": [
+    "入湯税|にゅうとうぜい"
+   ]
+  },
+  {
+   "id": "ac-006",
+   "kata": "キャンセルポリシー",
+   "kana": "キャンセルポリシー",
+   "romaji": "kyanseruporishii",
+   "arti": "Kebijakan pembatalan",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "ac-007",
+   "kata": "ノーショー",
+   "kana": "ノーショー",
+   "romaji": "nooshoo",
+   "arti": "Tamu tidak datang tanpa batal (no-show)",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ]
+  },
+  {
+   "id": "ac-008",
+   "kata": "チェックイン",
+   "kana": "チェックイン",
+   "romaji": "chiekkuin",
+   "arti": "Masuk/lapor kedatangan di penginapan",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ]
+  },
+  {
+   "id": "ac-009",
+   "kata": "ルームキー",
+   "kana": "ルームキー",
+   "romaji": "ruumukii",
+   "arti": "Kunci kamar",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ]
+  },
+  {
+   "id": "ac-010",
+   "kata": "非常口",
+   "kana": "ひじょうぐち",
+   "romaji": "hijouguchi",
+   "arti": "Pintu darurat",
+   "cat": "Keselamatan",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "rb": [
+    "非常口|ひじょうぐち"
+   ]
+  },
+  {
+   "id": "ac-011",
+   "kata": "避難経路",
+   "kana": "ひなんけいろ",
+   "romaji": "hinankeiro",
+   "arti": "Jalur evakuasi",
+   "cat": "Keselamatan",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "rb": [
+    "避難経路|ひなんけいろ"
+   ]
+  },
+  {
+   "id": "ac-012",
+   "kata": "ドアマン",
+   "kana": "ドアマン",
+   "romaji": "doaman",
+   "arti": "Petugas pintu (doorman)",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "ac-013",
+   "kata": "ハウスキーパー",
+   "kana": "ハウスキーパー",
+   "romaji": "hausukiipaa",
+   "arti": "Petugas kebersihan kamar",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "ac-014",
+   "kata": "仲居",
+   "kana": "なかい",
+   "romaji": "nakai",
+   "arti": "Pelayan ryokan (nakai)",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "rb": [
+    "仲居|なかい"
+   ]
+  },
+  {
+   "id": "ac-015",
+   "kata": "コンシェルジュ",
+   "kana": "コンシェルジュ",
+   "romaji": "konshieruju",
+   "arti": "Concierge (petugas informasi & pengaturan)",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ]
+  },
+  {
+   "id": "ac-016",
+   "kata": "チェックアウト",
+   "kana": "チェックアウト",
+   "romaji": "chiekkuauto",
+   "arti": "Keluar/menyelesaikan penginapan",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ]
+  },
+  {
+   "id": "ac-017",
+   "kata": "館内利用",
+   "kana": "かんないりよう",
+   "romaji": "kannairiyou",
+   "arti": "Pemakaian layanan di dalam hotel di luar paket",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "rb": [
+    "館内利用|かんないりよう"
+   ]
+  },
+  {
+   "id": "ac-018",
+   "kata": "請求明細書",
+   "kana": "せいきゅうめいさいしょ",
+   "romaji": "seikyuumeisaisho",
+   "arti": "Rincian tagihan",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "rb": [
+    "請求明細書|せいきゅうめいさいしょ"
+   ]
+  },
+  {
+   "id": "ac-019",
+   "kata": "領収書",
+   "kana": "りょうしゅうしょ",
+   "romaji": "ryoushuusho",
+   "arti": "Tanda terima pembayaran",
+   "cat": "Front desk",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "rb": [
+    "領収書|りょうしゅうしょ"
+   ]
+  },
+  {
+   "id": "ac-020",
+   "kata": "一泊二食",
+   "kana": "いっぱくにしょく",
+   "romaji": "ippakunishoku",
+   "arti": "Paket menginap dengan makan malam dan sarapan",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "rb": [
+    "一泊二食|いっぱくにしょく"
+   ]
+  },
+  {
+   "id": "ac-021",
+   "kata": "連泊",
+   "kana": "れんぱく",
+   "romaji": "renpaku",
+   "arti": "Menginap 2 malam berturut-turut atau lebih",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "rb": [
+    "連泊|れんぱく"
+   ]
+  },
+  {
+   "id": "ac-022",
+   "kata": "ウォークイン",
+   "kana": "ウォークイン",
+   "romaji": "uookuin",
+   "arti": "Datang tanpa reservasi",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ]
+  },
+  {
+   "id": "ac-023",
+   "kata": "預り金",
+   "kana": "あずかりきん",
+   "romaji": "azukarikin",
+   "arti": "Uang jaminan (deposit)",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "rb": [
+    "預り金|あずかりきん"
+   ]
+  },
+  {
+   "id": "ac-024",
+   "kata": "稼働率",
+   "kana": "かどうりつ",
+   "romaji": "kadouritsu",
+   "arti": "Tingkat okupansi (OCC)",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "rb": [
+    "稼働率|かどうりつ"
+   ]
+  },
+  {
+   "id": "ac-025",
+   "kata": "ダイナミックプライシング",
+   "kana": "ダイナミックプライシング",
+   "romaji": "dainamikkupuraishingu",
+   "arti": "Penetapan harga dinamis",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ]
+  },
+  {
+   "id": "ac-026",
+   "kata": "リピーター",
+   "kana": "リピーター",
+   "romaji": "ripiitaa",
+   "arti": "Tamu langganan",
+   "cat": "Perencanaan",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ]
+  },
+  {
+   "id": "ac-027",
+   "kata": "口コミ",
+   "kana": "くちこみ",
+   "romaji": "kuchikomi",
+   "arti": "Ulasan dari mulut ke mulut",
+   "cat": "Humas",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "rb": [
+    "口コミ|くちこみ"
+   ]
+  },
+  {
+   "id": "ac-028",
+   "kata": "いらっしゃいませ",
+   "kana": "いらっしゃいませ",
+   "romaji": "irasshaimase",
+   "arti": "Selamat datang",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ac-029",
+   "kata": "かしこまりました",
+   "kana": "かしこまりました",
+   "romaji": "kashikomarimashita",
+   "arti": "Baik, saya mengerti (sopan)",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ac-030",
+   "kata": "申し訳ございません",
+   "kana": "もうしわけございません",
+   "romaji": "moushiwakegozaimasen",
+   "arti": "Mohon maaf (sangat sopan)",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "rb": [
+    "申し訳ございません|もうしわけございません"
+   ]
+  },
+  {
+   "id": "ac-031",
+   "kata": "恐れ入りますが",
+   "kana": "おそれいりますが",
+   "romaji": "osoreirimasuga",
+   "arti": "Mohon maaf mengganggu (saat meminta)",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "rb": [
+    "恐れ入りますが|おそれいりますが"
+   ]
+  },
+  {
+   "id": "ac-032",
+   "kata": "お待たせいたしました",
+   "kana": "おまたせいたしました",
+   "romaji": "omataseitashimashita",
+   "arti": "Maaf telah menunggu",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "rb": [
+    "お待たせいたしました|おまたせいたしました"
+   ]
+  },
+  {
+   "id": "ac-033",
+   "kata": "会釈",
+   "kana": "えしゃく",
+   "romaji": "eshaku",
+   "arti": "Membungkuk ringan (15°)",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "rb": [
+    "会釈|えしゃく"
+   ]
+  },
+  {
+   "id": "ac-034",
+   "kata": "最敬礼",
+   "kana": "さいけいれい",
+   "romaji": "saikeirei",
+   "arti": "Membungkuk dalam (45°)",
+   "cat": "Salam",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "rb": [
+    "最敬礼|さいけいれい"
+   ]
+  },
+  {
+   "id": "ac-035",
+   "kata": "尊敬語",
+   "kana": "そんけいご",
+   "romaji": "sonkeigo",
+   "arti": "Bahasa hormat",
+   "cat": "Bahasa",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "rb": [
+    "尊敬語|そんけいご"
+   ]
+  },
+  {
+   "id": "ac-036",
+   "kata": "謙譲語",
+   "kana": "けんじょうご",
+   "romaji": "kenjougo",
+   "arti": "Bahasa merendah",
+   "cat": "Bahasa",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "rb": [
+    "謙譲語|けんじょうご"
+   ]
+  },
+  {
+   "id": "ac-037",
+   "kata": "丁寧語",
+   "kana": "ていねいご",
+   "romaji": "teineigo",
+   "arti": "Bahasa sopan",
+   "cat": "Bahasa",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "rb": [
+    "丁寧語|ていねいご"
+   ]
+  },
+  {
+   "id": "ac-038",
+   "kata": "おもてなし",
+   "kana": "おもてなし",
+   "romaji": "omotenashi",
+   "arti": "Keramahtamahan (hospitality)",
+   "cat": "Pelayanan",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ]
+  },
+  {
+   "id": "ac-039",
+   "kata": "クレーム",
+   "kana": "クレーム",
+   "romaji": "kureemu",
+   "arti": "Komplain",
+   "cat": "Pelayanan",
+   "bab": "bab3",
+   "src": [
+    "b3s5"
+   ]
+  },
+  {
+   "id": "ac-040",
+   "kata": "一汁三菜",
+   "kana": "いちじゅうさんさい",
+   "romaji": "ichijuusansai",
+   "arti": "Nasi, sup, dan tiga lauk",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ],
+   "rb": [
+    "一汁三菜|いちじゅうさんさい"
+   ]
+  },
+  {
+   "id": "ac-041",
+   "kata": "懐石料理",
+   "kana": "かいせきりょうり",
+   "romaji": "kaisekiryouri",
+   "arti": "Masakan kaiseki",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ],
+   "rb": [
+    "懐石料理|かいせきりょうり"
+   ]
+  },
+  {
+   "id": "ac-042",
+   "kata": "旬",
+   "kana": "しゅん",
+   "romaji": "shun",
+   "arti": "Musim terbaik bahan makanan",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ],
+   "rb": [
+    "旬|しゅん"
+   ]
+  },
+  {
+   "id": "ac-043",
+   "kata": "アナフィラキシー",
+   "kana": "アナフィラキシー",
+   "romaji": "anafuirakishii",
+   "arti": "Reaksi alergi berat (anafilaksis)",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ]
+  },
+  {
+   "id": "ac-044",
+   "kata": "アレルゲン",
+   "kana": "アレルゲン",
+   "romaji": "arerugen",
+   "arti": "Zat pemicu alergi",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ]
+  },
+  {
+   "id": "ac-045",
+   "kata": "配膳",
+   "kana": "はいぜん",
+   "romaji": "haizen",
+   "arti": "Membawa dan menyajikan makanan ke meja",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ],
+   "rb": [
+    "配膳|はいぜん"
+   ]
+  },
+  {
+   "id": "ac-046",
+   "kata": "ブッフェ",
+   "kana": "ブッフェ",
+   "romaji": "buffue",
+   "arti": "Buffet (prasmanan)",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ]
+  },
+  {
+   "id": "ac-047",
+   "kata": "アラカルト",
+   "kana": "アラカルト",
+   "romaji": "arakaruto",
+   "arti": "Pesan per menu (à la carte)",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ]
+  },
+  {
+   "id": "ac-048",
+   "kata": "ソムリエ",
+   "kana": "ソムリエ",
+   "romaji": "somurie",
+   "arti": "Ahli anggur (sommelier)",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ]
+  },
+  {
+   "id": "ac-049",
+   "kata": "ハラール",
+   "kana": "ハラール",
+   "romaji": "haraaru",
+   "arti": "Halal",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ]
+  },
+  {
+   "id": "ac-050",
+   "kata": "ベジタリアン",
+   "kana": "ベジタリアン",
+   "romaji": "bejitarian",
+   "arti": "Vegetarian",
+   "cat": "Restoran",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ]
+  },
+  {
+   "id": "ac-051",
+   "kata": "消防署",
+   "kana": "しょうぼうしょ",
+   "romaji": "shoubousho",
+   "arti": "Kantor pemadam kebakaran",
+   "cat": "Keselamatan",
+   "bab": "bab5",
+   "src": [
+    "b5s2"
+   ],
+   "rb": [
+    "消防署|しょうぼうしょ"
+   ]
+  },
+  {
+   "id": "ac-052",
+   "kata": "食中毒",
+   "kana": "しょくちゅうどく",
+   "romaji": "shokuchuudoku",
+   "arti": "Keracunan makanan",
+   "cat": "Keselamatan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "rb": [
+    "食中毒|しょくちゅうどく"
+   ]
+  },
+  {
+   "id": "ac-053",
+   "kata": "感染症",
+   "kana": "かんせんしょう",
+   "romaji": "kansenshou",
+   "arti": "Penyakit menular",
+   "cat": "Keselamatan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "rb": [
+    "感染症|かんせんしょう"
+   ]
+  }
+ ]
+}
