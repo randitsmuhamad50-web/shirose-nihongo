@@ -228,3 +228,14 @@
 @media (min-width:700px){ #jx-kw{align-items:center;} .jx-kw-in{border-radius:18px;} }
 
 .jx-q{scroll-margin-top:120px;}
+
+/* gambar choukai */
+.jx-scene{margin:6px 0 12px; text-align:center}
+.jx-scene img{width:100%; max-width:480px; height:auto; border-radius:14px; border:1px solid rgba(255,255,255,.12); background:#eef3f8}
+.jx-opts.pics{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+.jx-opts.pics .jx-opt{flex-direction:column; align-items:stretch; justify-content:flex-start; padding:10px}
+.jx-opts.pics .jx-opt .k{align-self:flex-start}
+.jx-opts.pics .jx-opt .t{display:flex; flex-direction:column; align-items:center; gap:4px}
+.jx-oimg{width:100%; max-width:240px; max-height:130px; height:auto; object-fit:contain; border-radius:10px; background:#f4f7fa}
+.jx-ocap{font-size:12px; color:var(--gray); font-family:var(--font-jp); text-align:center}
+@media (max-width:480px){ .jx-oimg{max-height:100px} }

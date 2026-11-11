@@ -343,7 +343,7 @@ function htmlUjian() {
   const printed = !ck || ck.printed !== false;
   const opsiHtml = q.opts.map((o, i) => `
     <button class="jx-opt ${pilihan === i ? "on" : ""}" onclick="JLPT.jawab(${i})">
-      <span class="k">${ck ? i + 1 : ABCD[i]}</span><span class="t">${printed ? safe(o) : `Pilihan ${i + 1}`}</span></button>`).join("");
+      <span class="k">${ck ? i + 1 : ABCD[i]}</span>${optInner(q, i, printed, false)}</button>`).join("");
   const grid = pkg.flat.map((x, i) => {
     const cls = (s.jawaban[i] != null ? "ok" : "") + (s.tandai[i] ? " flag" : "") + (i === s.pos ? " cur" : "");
     const head = (i === 0 || pkg.flat[i - 1]._si !== x._si) ? `<span class="sec">M${pkg.sections[x._si].mondai}</span>` : "";
@@ -375,11 +375,12 @@ function htmlUjian() {
             <button class="btn" onclick="JLPT.putar()">▶ Putar audio</button>
             <span class="jx-muted">Diputar ${s.putar[s.pos] || 0}×${ck.audio ? " · rekaman" : " · suara TTS"}</span>
             ${ck.set && printed ? `<div class="jx-muted">${esc(ck.set)}</div>` : ""}</div>` : ""}
+        ${sceneHtml(q)}
         <div class="jx-q">
           <div class="no">${s.pos + 1}</div>
           <div class="txt">${qHtml(q)}</div>
         </div>
-        <div class="jx-opts ${q.html_opts ? "long" : ""}">${opsiHtml}</div>
+        <div class="jx-opts ${q.html_opts ? "long" : ""} ${q.oimg ? "pics" : ""}">${opsiHtml}</div>
         <div class="jx-nav">
           <button class="btn ghost" ${s.pos === 0 ? "disabled" : ""} onclick="JLPT.geser(-1)">← Sebelumnya</button>
           <button class="btn ghost jx-flagbtn ${s.tandai[s.pos] ? "on" : ""}" onclick="JLPT.tandai()">🚩 ${s.tandai[s.pos] ? "Ditandai" : "Tandai"}</button>
@@ -395,8 +396,15 @@ function htmlUjian() {
     </div>
   </div>`;
 }
-/* Soal ★ (文の組み立て): kotak kosong ditampilkan tanpa garis ＿＿＿, tanda ★ tetap. */
-function qHtml(q) { let t = q.q || ""; if (q.tipe === "kumitate") t = t.replace(/＿{2,}/g, "□").replace(/★□/g, "★ □").replace(/□★/g, "□ ★"); return safe(t); }
+/* Soal ★ (文の組み立て): kotak ditampilkan （　）（　）（★）（　） supaya mudah dikenali. */
+function qHtml(q) { let t = q.q || ""; if (q.tipe === "kumitate") t = t.replace(/★＿{2,}/g, "（★）").replace(/＿{2,}/g, "（　）").replace(/）\s+（/g, "）（").replace(/）\s+。/g, "）。"); return safe(t); }
+/* Gambar situasi soal choukai (adegan + yajirushi) dan pilihan bergambar. */
+const imgSrc = (p) => "./" + String(p).replace(/^\.?\//, "");
+function sceneHtml(q) { return q.img ? `<figure class="jx-scene"><img src="${imgSrc(q.img)}" alt="Gambar situasi" loading="lazy" draggable="false"></figure>` : ""; }
+function optInner(q, i, printed, review) {
+  if (q.oimg && q.oimg[i]) return `<span class="t"><img class="jx-oimg" src="${imgSrc(q.oimg[i])}" alt="Pilihan ${i + 1}" loading="lazy" draggable="false">${review ? `<small class="jx-ocap">${safe(q.opts[i])}</small>` : ""}</span>`;
+  return `<span class="t">${printed ? safe(q.opts[i]) : `Pilihan ${i + 1}`}</span>`;
+}
 /* Di app ini <body> yang punya overflow:auto, jadi window.scrollY selalu 0. Pakai elemen yang benar-benar menggulung. */
 function scroller() {
   const b = document.body;
@@ -812,7 +820,7 @@ function htmlReview() {
   const opts = q.opts.map((o, k) => {
     const cls = k === q.ans ? "right" : (k === pick ? "wrong" : "");
     const tag = k === q.ans ? `<em class="g">✓ Jawaban benar</em>` : (k === pick ? `<em class="r">✗ Jawabanmu</em>` : "");
-    return `<div class="jx-opt static ${cls}"><span class="k">${ck ? k + 1 : ABCD[k]}</span><span class="t">${safe(o)}</span>${tag}</div>`;
+    return `<div class="jx-opt static ${cls}"><span class="k">${ck ? k + 1 : ABCD[k]}</span>${optInner(q, k, true, true)}${tag}</div>`;
   }).join("");
   return `
   <div class="panel jx">
@@ -827,8 +835,9 @@ function htmlReview() {
       <div class="jx-muted">Jawabanmu: <b>${pick == null || pick < 0 ? "—" : (ck ? pick + 1 : ABCD[pick])}</b> · Jawaban benar: <b>${ck ? q.ans + 1 : ABCD[q.ans]}</b></div>
       ${passage ? `<details class="jx-passage" open><summary>📄 Bacaan</summary><div class="jp">${safe(passage.jp)}</div></details>` : ""}
       ${ck ? `<div class="jx-audio"><button class="btn ghost" onclick="JLPT.putarReview(${i})">▶ Putar ulang audio</button></div>` : ""}
+      ${sceneHtml(q)}
       <div class="jx-q"><div class="no">${i + 1}</div><div class="txt">${qHtml(q)}</div></div>
-      <div class="jx-opts ${q.html_opts ? "long" : ""}">${opts}</div>
+      <div class="jx-opts ${q.html_opts ? "long" : ""} ${q.oimg ? "pics" : ""}">${opts}</div>
       ${htmlEx(q, pkg)}
       <div class="jx-nav">
         <button class="btn ghost" ${R.pos <= 0 ? "disabled" : ""} onclick="JLPT.revGeser(-1)">← Sebelumnya</button>
