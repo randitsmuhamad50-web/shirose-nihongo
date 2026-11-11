@@ -14,7 +14,7 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261112g";
+} from "./ssw-core.js?v=20261112h";
 import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
 
 let FB = null;
@@ -671,7 +671,7 @@ const SSW = window.SSW = {
     const root = document.querySelector(".sw-lesson .sw-body"); if (!root || root.dataset.vl) return; root.dataset.vl = "1";
     if (!popupOn()) return;
     const pack = await loadPack(slug);
-    const list = (pack.vocab || []).filter(v => v.kata && v.kata.length >= 2);
+    const KJ = /^[\u4e00-\u9fff]$/, list = (pack.vocab || []).filter(v => v.kata && (v.kata.length >= 2 || KJ.test(v.kata)));
     if (!list.length) return;
     const byRb = new Map(); for (const v of pack.vocab) for (const k of (Array.isArray(v.rb) ? v.rb : [])) if (!byRb.has(k)) byRb.set(k, v);
     root.querySelectorAll("ruby").forEach((ru) => {
@@ -682,7 +682,7 @@ const SSW = window.SSW = {
       ru.replaceWith(sp); sp.appendChild(ru);
     });
     const byKata = new Map(); for (const v of list) if (!byKata.has(v.kata)) byKata.set(v.kata, v);
-    const re = new RegExp([...byKata.keys()].sort((x, y) => y.length - x.length).map(k => k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|"), "g");
+    const re = new RegExp([...byKata.keys()].sort((x, y) => y.length - x.length).map(k => { const e = k.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); return KJ.test(k) ? "(?<![\\u4e00-\\u9fff])" + e + "(?![\\u4e00-\\u9fff])" : e; }).join("|"), "g");
     const BLK = "p,li,td,th,h1,h2,h3,h4,h5,figcaption,div,summary,blockquote";
     const tw = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest("rt,rp,.sw-w,button,a,script,style") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
     const groups = new Map(); let n;

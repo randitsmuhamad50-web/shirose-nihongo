@@ -1,7 +1,7 @@
 {
  "items": [
   {
-   "id": "fs-001",
+   "id": "fs-1553",
    "kata": "食中毒",
    "kana": "しょくちゅうどく",
    "romaji": "shokuchuudoku",
@@ -25,7 +25,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-002",
+   "id": "fs-1554",
    "kata": "衛生管理",
    "kana": "えいせいかんり",
    "romaji": "eiseikanri",
@@ -48,7 +48,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-003",
+   "id": "fs-1555",
    "kata": "手洗い",
    "kana": "てあらい",
    "romaji": "tearai",
@@ -68,7 +68,7 @@
    ]
   },
   {
-   "id": "fs-004",
+   "id": "fs-1556",
    "kata": "加熱",
    "kana": "かねつ",
    "romaji": "kanetsu",
@@ -92,7 +92,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-005",
+   "id": "fs-1557",
    "kata": "殺菌",
    "kana": "さっきん",
    "romaji": "sakkin",
@@ -116,7 +116,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-006",
+   "id": "fs-1558",
    "kata": "消毒",
    "kana": "しょうどく",
    "romaji": "shoudoku",
@@ -141,7 +141,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-007",
+   "id": "fs-1559",
    "kata": "細菌",
    "kana": "さいきん",
    "romaji": "saikin",
@@ -165,7 +165,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-008",
+   "id": "fs-1560",
    "kata": "賞味期限",
    "kana": "しょうみきげん",
    "romaji": "shoumikigen",
@@ -185,7 +185,7 @@
    ]
   },
   {
-   "id": "fs-009",
+   "id": "fs-1561",
    "kata": "腸管出血性大腸菌",
    "kana": "ちょうかんしゅっけつせいだいちょうきん",
    "romaji": "choukanshukketsuseidaichoukin",
@@ -206,7 +206,7 @@
    ]
   },
   {
-   "id": "fs-010",
+   "id": "fs-1562",
    "kata": "カンピロバクター",
    "kana": "かんぴろばくたー",
    "romaji": "kanpirobakutaa",
@@ -224,7 +224,7 @@
    ]
   },
   {
-   "id": "fs-011",
+   "id": "fs-1563",
    "kata": "サルモネラ",
    "kana": "さるもねら",
    "romaji": "sarumonera",
@@ -241,7 +241,7 @@
    ]
   },
   {
-   "id": "fs-012",
+   "id": "fs-1564",
    "kata": "黄色ブドウ球菌",
    "kana": "おうしょくぶどうきゅうきん",
    "romaji": "oushokubudoukyuukin",
@@ -262,7 +262,7 @@
    ]
   },
   {
-   "id": "fs-013",
+   "id": "fs-1565",
    "kata": "ノロウイルス",
    "kana": "のろういるす",
    "romaji": "norouirusu",
@@ -283,7 +283,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-014",
+   "id": "fs-1566",
    "kata": "腸炎ビブリオ",
    "kana": "ちょうえんびぶりお",
    "romaji": "chouenbiburio",
@@ -304,7 +304,7 @@
    ]
   },
   {
-   "id": "fs-015",
+   "id": "fs-1567",
    "kata": "下痢",
    "kana": "げり",
    "romaji": "geri",
@@ -329,7 +329,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-016",
+   "id": "fs-1568",
    "kata": "嘔吐",
    "kana": "おうと",
    "romaji": "outo",
@@ -349,7 +349,7 @@
    ]
   },
   {
-   "id": "fs-017",
+   "id": "fs-1569",
    "kata": "納品",
    "kana": "のうひん",
    "romaji": "nouhin",
@@ -371,7 +371,7 @@
    ]
   },
   {
-   "id": "fs-018",
+   "id": "fs-1570",
    "kata": "冷蔵庫",
    "kana": "れいぞうこ",
    "romaji": "reizouko",
@@ -394,7 +394,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-019",
+   "id": "fs-1571",
    "kata": "冷凍庫",
    "kana": "れいとうこ",
    "romaji": "reitouko",
@@ -418,7 +418,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-020",
+   "id": "fs-1572",
    "kata": "二次汚染",
    "kana": "にじおせん",
    "romaji": "nijiosen",
@@ -443,7 +443,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-021",
+   "id": "fs-1573",
    "kata": "消費期限",
    "kana": "しょうひきげん",
    "romaji": "shouhikigen",
@@ -468,7 +468,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-022",
+   "id": "fs-1574",
    "kata": "温度計",
    "kana": "おんどけい",
    "romaji": "ondokei",
@@ -493,7 +493,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-023",
+   "id": "fs-1575",
    "kata": "まな板",
    "kana": "まないた",
    "romaji": "manaita",
@@ -518,7 +518,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-024",
+   "id": "fs-1576",
    "kata": "包丁",
    "kana": "ほうちょう",
    "romaji": "houchou",
@@ -543,7 +543,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-025",
+   "id": "fs-1577",
    "kata": "洗浄",
    "kana": "せんじょう",
    "romaji": "senjou",
@@ -566,7 +566,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-026",
+   "id": "fs-1578",
    "kata": "消毒液",
    "kana": "しょうどくえき",
    "romaji": "shoudokueki",
@@ -585,7 +585,7 @@
    ]
   },
   {
-   "id": "fs-027",
+   "id": "fs-1579",
    "kata": "洗剤",
    "kana": "せんざい",
    "romaji": "senzai",
@@ -610,7 +610,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-028",
+   "id": "fs-1580",
    "kata": "塩素系",
    "kana": "えんそけい",
    "romaji": "ensokei",
@@ -633,7 +633,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-029",
+   "id": "fs-1581",
    "kata": "アルコール",
    "kana": "あるこーる",
    "romaji": "arukooru",
@@ -652,7 +652,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-030",
+   "id": "fs-1582",
    "kata": "トイレ",
    "kana": "といれ",
    "romaji": "toire",
@@ -668,7 +668,7 @@
    ]
   },
   {
-   "id": "fs-031",
+   "id": "fs-1583",
    "kata": "手袋",
    "kana": "てぶくろ",
    "romaji": "tebukuro",
@@ -692,7 +692,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-032",
+   "id": "fs-1584",
    "kata": "ふきん",
    "kana": "ふきん",
    "romaji": "fukin",
@@ -709,7 +709,7 @@
    ]
   },
   {
-   "id": "fs-033",
+   "id": "fs-1585",
    "kata": "身だしなみ",
    "kana": "みだしなみ",
    "romaji": "midashinami",
@@ -734,7 +734,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-034",
+   "id": "fs-1586",
    "kata": "体調",
    "kana": "たいちょう",
    "romaji": "taichou",
@@ -753,7 +753,7 @@
    ]
   },
   {
-   "id": "fs-035",
+   "id": "fs-1587",
    "kata": "傷",
    "kana": "きず",
    "romaji": "kizu",
@@ -775,7 +775,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-036",
+   "id": "fs-1588",
    "kata": "指輪",
    "kana": "ゆびわ",
    "romaji": "yubiwa",
@@ -797,7 +797,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-037",
+   "id": "fs-1589",
    "kata": "時計",
    "kana": "とけい",
    "romaji": "tokei",
@@ -819,7 +819,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-038",
+   "id": "fs-1590",
    "kata": "石けん",
    "kana": "せっけん",
    "romaji": "sekken",
@@ -838,7 +838,7 @@
    ]
   },
   {
-   "id": "fs-039",
+   "id": "fs-1591",
    "kata": "流水",
    "kana": "りゅうすい",
    "romaji": "ryuusui",
@@ -863,7 +863,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-040",
+   "id": "fs-1592",
    "kata": "整理",
    "kana": "せいり",
    "romaji": "seiri",
@@ -887,7 +887,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-041",
+   "id": "fs-1593",
    "kata": "整頓",
    "kana": "せいとん",
    "romaji": "seiton",
@@ -912,7 +912,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-042",
+   "id": "fs-1594",
    "kata": "清掃",
    "kana": "せいそう",
    "romaji": "seisou",
@@ -936,7 +936,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-043",
+   "id": "fs-1595",
    "kata": "清潔",
    "kana": "せいけつ",
    "romaji": "seiketsu",
@@ -960,7 +960,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-044",
+   "id": "fs-1596",
    "kata": "習慣",
    "kana": "しゅうかん",
    "romaji": "shuukan",
@@ -983,7 +983,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-045",
+   "id": "fs-1597",
    "kata": "生ごみ",
    "kana": "なまごみ",
    "romaji": "namagomi",
@@ -1007,7 +1007,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-046",
+   "id": "fs-1598",
    "kata": "燃えるごみ",
    "kana": "もえるごみ",
    "romaji": "moerugomi",
@@ -1030,7 +1030,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-047",
+   "id": "fs-1599",
    "kata": "ふぐ",
    "kana": "ふぐ",
    "romaji": "fugu",
@@ -1050,7 +1050,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-048",
+   "id": "fs-1600",
    "kata": "危険温度帯",
    "kana": "きけんおんどたい",
    "romaji": "kikenondotai",
@@ -1073,7 +1073,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-049",
+   "id": "fs-1601",
    "kata": "重要管理点",
    "kana": "じゅうようかんりてん",
    "romaji": "juuyoukanriten",
@@ -1098,7 +1098,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-050",
+   "id": "fs-1602",
    "kata": "中心温度",
    "kana": "ちゅうしんおんど",
    "romaji": "chuushinondo",
@@ -1123,7 +1123,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-051",
+   "id": "fs-1603",
    "kata": "急速冷却",
    "kana": "きゅうそくれいきゃく",
    "romaji": "kyuusokureikyaku",
@@ -1142,7 +1142,7 @@
    ]
   },
   {
-   "id": "fs-052",
+   "id": "fs-1604",
    "kata": "再加熱",
    "kana": "さいかねつ",
    "romaji": "saikanetsu",
@@ -1162,7 +1162,7 @@
    ]
   },
   {
-   "id": "fs-053",
+   "id": "fs-1605",
    "kata": "刺身",
    "kana": "さしみ",
    "romaji": "sashimi",
@@ -1185,7 +1185,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-054",
+   "id": "fs-1606",
    "kata": "カレー",
    "kana": "かれー",
    "romaji": "karee",
@@ -1207,7 +1207,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-055",
+   "id": "fs-1607",
    "kata": "卵",
    "kana": "たまご",
    "romaji": "tamago",
@@ -1226,7 +1226,7 @@
    ]
   },
   {
-   "id": "fs-056",
+   "id": "fs-1608",
    "kata": "レバー",
    "kana": "ればー",
    "romaji": "rebaa",
@@ -1241,7 +1241,7 @@
    ]
   },
   {
-   "id": "fs-057",
+   "id": "fs-1609",
    "kata": "異物",
    "kana": "いぶつ",
    "romaji": "ibutsu",
@@ -1268,7 +1268,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-058",
+   "id": "fs-1610",
    "kata": "アニサキス",
    "kana": "あにさきす",
    "romaji": "anisakisu",
@@ -1289,7 +1289,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-059",
+   "id": "fs-1611",
    "kata": "寄生虫",
    "kana": "きせいちゅう",
    "romaji": "kiseichuu",
@@ -1311,7 +1311,7 @@
    ]
   },
   {
-   "id": "fs-060",
+   "id": "fs-1612",
    "kata": "冷凍",
    "kana": "れいとう",
    "romaji": "reitou",
@@ -1334,7 +1334,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-061",
+   "id": "fs-1613",
    "kata": "記録",
    "kana": "きろく",
    "romaji": "kiroku",
@@ -1359,7 +1359,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-062",
+   "id": "fs-1614",
    "kata": "内臓",
    "kana": "ないぞう",
    "romaji": "naizou",
@@ -1378,7 +1378,7 @@
    ]
   },
   {
-   "id": "fs-063",
+   "id": "fs-1615",
    "kata": "牛肉",
    "kana": "ぎゅうにく",
    "romaji": "gyuuniku",
@@ -1398,7 +1398,7 @@
    ]
   },
   {
-   "id": "fs-064",
+   "id": "fs-1616",
    "kata": "豚肉",
    "kana": "ぶたにく",
    "romaji": "butaniku",
@@ -1418,7 +1418,7 @@
    ]
   },
   {
-   "id": "fs-065",
+   "id": "fs-1617",
    "kata": "鶏肉",
    "kana": "とりにく",
    "romaji": "toriniku",
@@ -1438,7 +1438,7 @@
    ]
   },
   {
-   "id": "fs-066",
+   "id": "fs-1618",
    "kata": "ヒレ",
    "kana": "ひれ",
    "romaji": "hire",
@@ -1458,7 +1458,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-067",
+   "id": "fs-1619",
    "kata": "もも",
    "kana": "もも",
    "romaji": "momo",
@@ -1476,7 +1476,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-068",
+   "id": "fs-1620",
    "kata": "ささみ",
    "kana": "ささみ",
    "romaji": "sasami",
@@ -1493,7 +1493,7 @@
    ]
   },
   {
-   "id": "fs-069",
+   "id": "fs-1621",
    "kata": "手羽",
    "kana": "てば",
    "romaji": "teba",
@@ -1512,7 +1512,7 @@
    ]
   },
   {
-   "id": "fs-070",
+   "id": "fs-1622",
    "kata": "ステーキ",
    "kana": "すてーき",
    "romaji": "suteeki",
@@ -1530,7 +1530,7 @@
    ]
   },
   {
-   "id": "fs-071",
+   "id": "fs-1623",
    "kata": "旬",
    "kana": "しゅん",
    "romaji": "shun",
@@ -1554,7 +1554,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-072",
+   "id": "fs-1624",
    "kata": "魚",
    "kana": "さかな",
    "romaji": "sakana",
@@ -1576,7 +1576,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-073",
+   "id": "fs-1625",
    "kata": "大根",
    "kana": "だいこん",
    "romaji": "daikon",
@@ -1595,7 +1595,7 @@
    ]
   },
   {
-   "id": "fs-074",
+   "id": "fs-1626",
    "kata": "人参",
    "kana": "にんじん",
    "romaji": "ninjin",
@@ -1614,7 +1614,7 @@
    ]
   },
   {
-   "id": "fs-075",
+   "id": "fs-1627",
    "kata": "白菜",
    "kana": "はくさい",
    "romaji": "hakusai",
@@ -1633,7 +1633,7 @@
    ]
   },
   {
-   "id": "fs-076",
+   "id": "fs-1628",
    "kata": "玉ねぎ",
    "kana": "たまねぎ",
    "romaji": "tamanegi",
@@ -1652,7 +1652,7 @@
    ]
   },
   {
-   "id": "fs-077",
+   "id": "fs-1629",
    "kata": "ほうれん草",
    "kana": "ほうれんそう",
    "romaji": "hourensou",
@@ -1671,7 +1671,7 @@
    ]
   },
   {
-   "id": "fs-078",
+   "id": "fs-1630",
    "kata": "きゅうり",
    "kana": "きゅうり",
    "romaji": "kyuuri",
@@ -1689,7 +1689,7 @@
    ]
   },
   {
-   "id": "fs-079",
+   "id": "fs-1631",
    "kata": "下処理",
    "kana": "したしょり",
    "romaji": "shitashori",
@@ -1714,7 +1714,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-080",
+   "id": "fs-1632",
    "kata": "解凍",
    "kana": "かいとう",
    "romaji": "kaitou",
@@ -1739,7 +1739,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-081",
+   "id": "fs-1633",
    "kata": "輪切り",
    "kana": "わぎり",
    "romaji": "wagiri",
@@ -1761,7 +1761,7 @@
    ]
   },
   {
-   "id": "fs-082",
+   "id": "fs-1634",
    "kata": "半月切り",
    "kana": "はんげつぎり",
    "romaji": "hangetsugiri",
@@ -1783,7 +1783,7 @@
    ]
   },
   {
-   "id": "fs-083",
+   "id": "fs-1635",
    "kata": "いちょう切り",
    "kana": "いちょうぎり",
    "romaji": "ichougiri",
@@ -1805,7 +1805,7 @@
    ]
   },
   {
-   "id": "fs-084",
+   "id": "fs-1636",
    "kata": "千切り",
    "kana": "せんぎり",
    "romaji": "sengiri",
@@ -1827,7 +1827,7 @@
    ]
   },
   {
-   "id": "fs-085",
+   "id": "fs-1637",
    "kata": "みじん切り",
    "kana": "みじんぎり",
    "romaji": "mijingiri",
@@ -1849,7 +1849,7 @@
    ]
   },
   {
-   "id": "fs-086",
+   "id": "fs-1638",
    "kata": "三枚おろし",
    "kana": "さんまいおろし",
    "romaji": "sanmaioroshi",
@@ -1869,7 +1869,7 @@
    ]
   },
   {
-   "id": "fs-087",
+   "id": "fs-1639",
    "kata": "炊く",
    "kana": "たく",
    "romaji": "taku",
@@ -1893,7 +1893,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-088",
+   "id": "fs-1640",
    "kata": "茹でる",
    "kana": "ゆでる",
    "romaji": "yuderu",
@@ -1917,7 +1917,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-089",
+   "id": "fs-1641",
    "kata": "揚げる",
    "kana": "あげる",
    "romaji": "ageru",
@@ -1937,7 +1937,7 @@
    ]
   },
   {
-   "id": "fs-090",
+   "id": "fs-1642",
    "kata": "炒める",
    "kana": "いためる",
    "romaji": "itameru",
@@ -1956,7 +1956,7 @@
    ]
   },
   {
-   "id": "fs-091",
+   "id": "fs-1643",
    "kata": "煮る",
    "kana": "にる",
    "romaji": "niru",
@@ -1979,7 +1979,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-092",
+   "id": "fs-1644",
    "kata": "焼く",
    "kana": "やく",
    "romaji": "yaku",
@@ -1999,7 +1999,7 @@
    ]
   },
   {
-   "id": "fs-093",
+   "id": "fs-1645",
    "kata": "蒸す",
    "kana": "むす",
    "romaji": "musu",
@@ -2018,7 +2018,7 @@
    ]
   },
   {
-   "id": "fs-094",
+   "id": "fs-1646",
    "kata": "和える",
    "kana": "あえる",
    "romaji": "aeru",
@@ -2041,7 +2041,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-095",
+   "id": "fs-1647",
    "kata": "鍋",
    "kana": "なべ",
    "romaji": "nabe",
@@ -2060,7 +2060,7 @@
    ]
   },
   {
-   "id": "fs-096",
+   "id": "fs-1648",
    "kata": "フライパン",
    "kana": "ふらいぱん",
    "romaji": "furaipan",
@@ -2076,7 +2076,7 @@
    ]
   },
   {
-   "id": "fs-097",
+   "id": "fs-1649",
    "kata": "炊飯器",
    "kana": "すいはんき",
    "romaji": "suihanki",
@@ -2095,7 +2095,7 @@
    ]
   },
   {
-   "id": "fs-098",
+   "id": "fs-1650",
    "kata": "はかり",
    "kana": "はかり",
    "romaji": "hakari",
@@ -2111,7 +2111,7 @@
    ]
   },
   {
-   "id": "fs-099",
+   "id": "fs-1651",
    "kata": "タイマー",
    "kana": "たいまー",
    "romaji": "taimaa",
@@ -2128,7 +2128,7 @@
    ]
   },
   {
-   "id": "fs-100",
+   "id": "fs-1652",
    "kata": "安全",
    "kana": "あんぜん",
    "romaji": "anzen",
@@ -2150,7 +2150,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-101",
+   "id": "fs-1653",
    "kata": "怪我",
    "kana": "けが",
    "romaji": "kega",
@@ -2168,7 +2168,7 @@
    ]
   },
   {
-   "id": "fs-102",
+   "id": "fs-1654",
    "kata": "火傷",
    "kana": "やけど",
    "romaji": "yakedo",
@@ -2186,7 +2186,7 @@
    ]
   },
   {
-   "id": "fs-103",
+   "id": "fs-1655",
    "kata": "転倒",
    "kana": "てんとう",
    "romaji": "tentou",
@@ -2209,7 +2209,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-104",
+   "id": "fs-1656",
    "kata": "重い物",
    "kana": "おもいもの",
    "romaji": "omoimono",
@@ -2228,7 +2228,7 @@
    ]
   },
   {
-   "id": "fs-105",
+   "id": "fs-1657",
    "kata": "スライサー",
    "kana": "すらいさー",
    "romaji": "suraisaa",
@@ -2248,7 +2248,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-106",
+   "id": "fs-1658",
    "kata": "プラグ",
    "kana": "ぷらぐ",
    "romaji": "puragu",
@@ -2268,7 +2268,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-107",
+   "id": "fs-1659",
    "kata": "指差呼称",
    "kana": "しさこしょう",
    "romaji": "shisakoshou",
@@ -2287,7 +2287,7 @@
    ]
   },
   {
-   "id": "fs-108",
+   "id": "fs-1660",
    "kata": "火災",
    "kana": "かさい",
    "romaji": "kasai",
@@ -2311,7 +2311,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-109",
+   "id": "fs-1661",
    "kata": "消火器",
    "kana": "しょうかき",
    "romaji": "shoukaki",
@@ -2336,7 +2336,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-110",
+   "id": "fs-1662",
    "kata": "避難",
    "kana": "ひなん",
    "romaji": "hinan",
@@ -2361,7 +2361,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-111",
+   "id": "fs-1663",
    "kata": "禁煙",
    "kana": "きんえん",
    "romaji": "kinen",
@@ -2379,7 +2379,7 @@
    ]
   },
   {
-   "id": "fs-112",
+   "id": "fs-1664",
    "kata": "廃油",
    "kana": "はいゆ",
    "romaji": "haiyu",
@@ -2404,7 +2404,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-113",
+   "id": "fs-1665",
    "kata": "コンセント",
    "kana": "こんせんと",
    "romaji": "konsento",
@@ -2424,7 +2424,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-114",
+   "id": "fs-1666",
    "kata": "可燃物",
    "kana": "かねんぶつ",
    "romaji": "kanenbutsu",
@@ -2443,7 +2443,7 @@
    ]
   },
   {
-   "id": "fs-115",
+   "id": "fs-1667",
    "kata": "引火",
    "kana": "いんか",
    "romaji": "inka",
@@ -2462,7 +2462,7 @@
    ]
   },
   {
-   "id": "fs-116",
+   "id": "fs-1668",
    "kata": "おもてなし",
    "kana": "おもてなし",
    "romaji": "omotenashi",
@@ -2483,7 +2483,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-117",
+   "id": "fs-1669",
    "kata": "接客",
    "kana": "せっきゃく",
    "romaji": "sekkyaku",
@@ -2507,7 +2507,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-118",
+   "id": "fs-1670",
    "kata": "お客様",
    "kana": "おきゃくさま",
    "romaji": "okyakusama",
@@ -2531,7 +2531,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-119",
+   "id": "fs-1671",
    "kata": "常連客",
    "kana": "じょうれんきゃく",
    "romaji": "jourenkyaku",
@@ -2550,7 +2550,7 @@
    ]
   },
   {
-   "id": "fs-120",
+   "id": "fs-1672",
    "kata": "顧客満足",
    "kana": "こきゃくまんぞく",
    "romaji": "kokyakumanzoku",
@@ -2574,7 +2574,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-121",
+   "id": "fs-1673",
    "kata": "苦情",
    "kana": "くじょう",
    "romaji": "kujou",
@@ -2599,7 +2599,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-122",
+   "id": "fs-1674",
    "kata": "清潔感",
    "kana": "せいけつかん",
    "romaji": "seiketsukan",
@@ -2622,7 +2622,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-123",
+   "id": "fs-1675",
    "kata": "雰囲気",
    "kana": "ふんいき",
    "romaji": "funiki",
@@ -2645,7 +2645,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-124",
+   "id": "fs-1676",
    "kata": "挨拶",
    "kana": "あいさつ",
    "romaji": "aisatsu",
@@ -2663,7 +2663,7 @@
    ]
   },
   {
-   "id": "fs-125",
+   "id": "fs-1677",
    "kata": "笑顔",
    "kana": "えがお",
    "romaji": "egao",
@@ -2687,7 +2687,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-126",
+   "id": "fs-1678",
    "kata": "お辞儀",
    "kana": "おじぎ",
    "romaji": "ojigi",
@@ -2711,7 +2711,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-127",
+   "id": "fs-1679",
    "kata": "会釈",
    "kana": "えしゃく",
    "romaji": "eshaku",
@@ -2735,7 +2735,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-128",
+   "id": "fs-1680",
    "kata": "敬礼",
    "kana": "けいれい",
    "romaji": "keirei",
@@ -2756,7 +2756,7 @@
    ]
   },
   {
-   "id": "fs-129",
+   "id": "fs-1681",
    "kata": "最敬礼",
    "kana": "さいけいれい",
    "romaji": "saikeirei",
@@ -2778,7 +2778,7 @@
    ]
   },
   {
-   "id": "fs-130",
+   "id": "fs-1682",
    "kata": "お盆",
    "kana": "おぼん",
    "romaji": "obon",
@@ -2797,7 +2797,7 @@
    ]
   },
   {
-   "id": "fs-131",
+   "id": "fs-1683",
    "kata": "箸",
    "kana": "はし",
    "romaji": "hashi",
@@ -2820,7 +2820,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-132",
+   "id": "fs-1684",
    "kata": "一汁三菜",
    "kana": "いちじゅうさんさい",
    "romaji": "ichijuusansai",
@@ -2844,7 +2844,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-133",
+   "id": "fs-1685",
    "kata": "上座",
    "kana": "かみざ",
    "romaji": "kamiza",
@@ -2868,7 +2868,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-134",
+   "id": "fs-1686",
    "kata": "下座",
    "kana": "しもざ",
    "romaji": "shimoza",
@@ -2892,7 +2892,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-135",
+   "id": "fs-1687",
    "kata": "会席料理",
    "kana": "かいせきりょうり",
    "romaji": "kaisekiryouri",
@@ -2913,7 +2913,7 @@
    ]
   },
   {
-   "id": "fs-136",
+   "id": "fs-1688",
    "kata": "ナイフ",
    "kana": "ないふ",
    "romaji": "naifu",
@@ -2933,7 +2933,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-137",
+   "id": "fs-1689",
    "kata": "フォーク",
    "kana": "ふぉーく",
    "romaji": "fuooku",
@@ -2953,7 +2953,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-138",
+   "id": "fs-1690",
    "kata": "円卓",
    "kana": "えんたく",
    "romaji": "entaku",
@@ -2974,7 +2974,7 @@
    ]
   },
   {
-   "id": "fs-139",
+   "id": "fs-1691",
    "kata": "補助犬",
    "kana": "ほじょけん",
    "romaji": "hojoken",
@@ -2998,7 +2998,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-140",
+   "id": "fs-1692",
    "kata": "車椅子",
    "kana": "くるまいす",
    "romaji": "kurumaisu",
@@ -3022,7 +3022,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-141",
+   "id": "fs-1693",
    "kata": "高齢者",
    "kana": "こうれいしゃ",
    "romaji": "koureisha",
@@ -3046,7 +3046,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-142",
+   "id": "fs-1694",
    "kata": "持ち帰り",
    "kana": "もちかえり",
    "romaji": "mochikaeri",
@@ -3065,7 +3065,7 @@
    ]
   },
   {
-   "id": "fs-143",
+   "id": "fs-1695",
    "kata": "残り物",
    "kana": "のこりもの",
    "romaji": "nokorimono",
@@ -3084,7 +3084,7 @@
    ]
   },
   {
-   "id": "fs-144",
+   "id": "fs-1696",
    "kata": "配慮",
    "kana": "はいりょ",
    "romaji": "hairyo",
@@ -3108,7 +3108,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-145",
+   "id": "fs-1697",
    "kata": "案内",
    "kana": "あんない",
    "romaji": "annai",
@@ -3128,7 +3128,7 @@
    ]
   },
   {
-   "id": "fs-146",
+   "id": "fs-1698",
    "kata": "ヘルプマーク",
    "kana": "へるぷまーく",
    "romaji": "herupumaaku",
@@ -3145,7 +3145,7 @@
    ]
   },
   {
-   "id": "fs-147",
+   "id": "fs-1699",
    "kata": "いらっしゃいませ",
    "kana": "いらっしゃいませ",
    "romaji": "irasshaimase",
@@ -3161,7 +3161,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-148",
+   "id": "fs-1700",
    "kata": "ありがとうございます",
    "kana": "ありがとうございます",
    "romaji": "arigatougozaimasu",
@@ -3178,7 +3178,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-149",
+   "id": "fs-1701",
    "kata": "お待たせしました",
    "kana": "おまたせしました",
    "romaji": "omataseshimashita",
@@ -3197,7 +3197,7 @@
    ]
   },
   {
-   "id": "fs-150",
+   "id": "fs-1702",
    "kata": "失礼いたします",
    "kana": "しつれいいたします",
    "romaji": "shitsureiitashimasu",
@@ -3217,7 +3217,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-151",
+   "id": "fs-1703",
    "kata": "かしこまりました",
    "kana": "かしこまりました",
    "romaji": "kashikomarimashita",
@@ -3237,7 +3237,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-152",
+   "id": "fs-1704",
    "kata": "恐れ入ります",
    "kana": "おそれいります",
    "romaji": "osoreirimasu",
@@ -3254,7 +3254,7 @@
    "tek": 1
   },
   {
-   "id": "fs-153",
+   "id": "fs-1705",
    "kata": "申し訳ございません",
    "kana": "もうしわけございません",
    "romaji": "moushiwakegozaimasen",
@@ -3274,7 +3274,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-154",
+   "id": "fs-1706",
    "kata": "おすすめ",
    "kana": "おすすめ",
    "romaji": "osusume",
@@ -3294,7 +3294,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-155",
+   "id": "fs-1707",
    "kata": "アレルギー",
    "kana": "あれるぎー",
    "romaji": "arerugii",
@@ -3314,7 +3314,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-156",
+   "id": "fs-1708",
    "kata": "アレルゲン",
    "kana": "あれるげん",
    "romaji": "arerugen",
@@ -3330,7 +3330,7 @@
    ]
   },
   {
-   "id": "fs-157",
+   "id": "fs-1709",
    "kata": "アナフィラキシー",
    "kana": "あなふぃらきしー",
    "romaji": "anafuirakishii",
@@ -3347,7 +3347,7 @@
    ]
   },
   {
-   "id": "fs-158",
+   "id": "fs-1710",
    "kata": "未成年",
    "kana": "みせいねん",
    "romaji": "miseinen",
@@ -3370,7 +3370,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-159",
+   "id": "fs-1711",
    "kata": "飲酒運転",
    "kana": "いんしゅうんてん",
    "romaji": "inshuunten",
@@ -3389,7 +3389,7 @@
    ]
   },
   {
-   "id": "fs-160",
+   "id": "fs-1712",
    "kata": "栄養",
    "kana": "えいよう",
    "romaji": "eiyou",
@@ -3412,7 +3412,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-161",
+   "id": "fs-1713",
    "kata": "うま味",
    "kana": "うまみ",
    "romaji": "umami",
@@ -3431,7 +3431,7 @@
    ]
   },
   {
-   "id": "fs-162",
+   "id": "fs-1714",
    "kata": "ハラール",
    "kana": "はらーる",
    "romaji": "haraaru",
@@ -3451,7 +3451,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-163",
+   "id": "fs-1715",
    "kata": "開店準備",
    "kana": "かいてんじゅんび",
    "romaji": "kaitenjunbi",
@@ -3475,7 +3475,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-164",
+   "id": "fs-1716",
    "kata": "閉店作業",
    "kana": "へいてんさぎょう",
    "romaji": "heitensagyou",
@@ -3499,7 +3499,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-165",
+   "id": "fs-1717",
    "kata": "掃除",
    "kana": "そうじ",
    "romaji": "souji",
@@ -3518,7 +3518,7 @@
    ]
   },
   {
-   "id": "fs-166",
+   "id": "fs-1718",
    "kata": "釣り銭",
    "kana": "つりせん",
    "romaji": "tsurisen",
@@ -3537,7 +3537,7 @@
    ]
   },
   {
-   "id": "fs-167",
+   "id": "fs-1719",
    "kata": "現金",
    "kana": "げんきん",
    "romaji": "genkin",
@@ -3559,7 +3559,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-168",
+   "id": "fs-1720",
    "kata": "キャッシュレス",
    "kana": "きゃっしゅれす",
    "romaji": "kyasshuresu",
@@ -3579,7 +3579,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-169",
+   "id": "fs-1721",
    "kata": "クレジットカード",
    "kana": "くれじっとかーど",
    "romaji": "kurejittokaado",
@@ -3596,7 +3596,7 @@
    ]
   },
   {
-   "id": "fs-170",
+   "id": "fs-1722",
    "kata": "レジ",
    "kana": "れじ",
    "romaji": "reji",
@@ -3616,7 +3616,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-171",
+   "id": "fs-1723",
    "kata": "お詫び",
    "kana": "おわび",
    "romaji": "owabi",
@@ -3639,7 +3639,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-172",
+   "id": "fs-1724",
    "kata": "店長",
    "kana": "てんちょう",
    "romaji": "tenchou",
@@ -3658,7 +3658,7 @@
    ]
   },
   {
-   "id": "fs-173",
+   "id": "fs-1725",
    "kata": "混入",
    "kana": "こんにゅう",
    "romaji": "konnyuu",
@@ -3681,7 +3681,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-174",
+   "id": "fs-1726",
    "kata": "髪の毛",
    "kana": "かみのけ",
    "romaji": "kaminoke",
@@ -3704,7 +3704,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-175",
+   "id": "fs-1727",
    "kata": "虫",
    "kana": "むし",
    "romaji": "mushi",
@@ -3726,7 +3726,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-176",
+   "id": "fs-1728",
    "kata": "報告",
    "kana": "ほうこく",
    "romaji": "houkoku",
@@ -3749,7 +3749,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-177",
+   "id": "fs-1729",
    "kata": "救急車",
    "kana": "きゅうきゅうしゃ",
    "romaji": "kyuukyuusha",
@@ -3769,7 +3769,7 @@
    ]
   },
   {
-   "id": "fs-178",
+   "id": "fs-1730",
    "kata": "地震",
    "kana": "じしん",
    "romaji": "jishin",
@@ -3792,7 +3792,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-179",
+   "id": "fs-1731",
    "kata": "津波",
    "kana": "つなみ",
    "romaji": "tsunami",
@@ -3812,7 +3812,7 @@
    ]
   },
   {
-   "id": "fs-180",
+   "id": "fs-1732",
    "kata": "火事",
    "kana": "かじ",
    "romaji": "kaji",
@@ -3836,7 +3836,7 @@
    "arti_contoh_auto": true
   },
   {
-   "id": "fs-181",
+   "id": "fs-1733",
    "kata": "窒息",
    "kana": "ちっそく",
    "romaji": "chissoku",
