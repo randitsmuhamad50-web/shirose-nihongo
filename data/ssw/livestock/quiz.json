@@ -1,0 +1,2035 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q-sapi",
+    "title": {
+     "id": "Soal resmi buku (○×) — Sapi · Bab 1",
+     "jp": "{公式問題|こうしきもんだい}（{牛|うし}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Rata-rata volume susu per tahun yang dihasilkan sapi perah di Jepang adalah sekitar 5.000 kg.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Rata-rata volume susu sapi perah Jepang varietas Holstein adalah lebih dari 8.000 kg. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Masa kehamilan varietas Holstein adalah 280 hari.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Kualitas susu sapi perah adalah sama untuk sapi mana pun juga.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Kualitas susu sapi berbeda setiap ekor. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Saat cuaca panas di musim panas, volume konsumsi pakan sapi perah akan berkurang, dan volume susunya pun akan menurun.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Kotoran dan urin dari kandang sapi boleh dibuang ke lapangan.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Penanganan kompos yang benar ditentukan oleh hukum. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “SeluruhsapipedagingyangdipeliharadiJepangadalahvarietassapi hitamJepang.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Ada 3 varietas, selain wagyu ada juga sapi perah kastrasi, dan F1. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pada manajemen penggemukan varietas sapi hitam Jepang, sapi usia sekitar 10 bulan dibeli di pasaran, dan digemukkan hingga sekitar 30 bulan.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pada sapi bakalan, proporsi pemberian pakan kasar lebih tinggi daripada pakan konsentrat (campuran).”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Pakan untuk masa penggemukan proporsi pakan campuran lebih tinggi. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "bab1-q-babi",
+    "title": {
+     "id": "Soal resmi buku (○×) — Babi · Bab 1",
+     "jp": "{公式問題|こうしきもんだい}（{豚|ぶた}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Pertumbuhan babi bakalan Jepang cepat, bobotnya menjadi 100~110 kg dalam 5~6 bulan.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Jumlah anak yang dilahirkan induk babi Jepang dalam sekali melahirkan rata-rata 5 ekor.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Jumlah anak yang dilahirkan induk babi Jepang adalah 10~15 ekor. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Induk babi yang telah melahirkan akan dipelihara bersama anak babinya selama 2 bulan.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Masa menyusui anak babi adalah 3~4 minggu. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Induk babi Jepang dapat hamil dan melahirkan sebanyak 4~5 kali selama 2 tahun.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Karena penyakit pada peternakan babi di Jepang itu sedikit, maka tidak diperlukan penyuntikan vaksin.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Terdapat berbagai penyakit di peternakan babi, perlu vaksinasi pencegahan yang tepat. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "bab1-q-ayam",
+    "title": {
+     "id": "Soal resmi buku (○×) — Ayam · Bab 1",
+     "jp": "{公式問題|こうしきもんだい}（{鶏|にわとり}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Pertumbuhan anak ayam dibagi menjadi 4 urutan, yaitu anak ayam kecil, anak ayam sedang, anak ayam besar, dan ayam dewasa.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pakan campuran paling banyak dipergunakan sebagai pakan ayam petelur.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Ayam tidak akan mati walau terinfeksi flu burung.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Bila terinfeksi virus yang sangat patogenik, maka akan mati dalam 1 minggu. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pertumbuhan ayam pedaging (Broiler) lebih lambat daripada ayam petelur.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Karakteristik broiler adalah tingkat pertumbuhan yang cepat dibandingkan ayam petelur. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Bobot broiler pada 7 minggu pada ayam jantan adalah sekitar 5 kg.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Broiler jantan akan berbobot sekitar 3,3 kg pada 7 minggu. (Soal resmi buku hal. 39.)"
+      },
+      "ref": {
+       "p": 39
+      },
+      "mb": true
+     }
+    ]
+   }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q-sapi",
+    "title": {
+     "id": "Soal resmi buku (○×) — Sapi · Bab 2",
+     "jp": "{公式問題|こうしきもんだい}（{牛|うし}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Bila menjadi panas, maka jumlah napas sapi perah akan meningkat.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Di dalam kandang sapi free stall tidak ada bed, namun pada kandang sapi free barn terdapat bed untuk tidur secara individual.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Yang terdapat individual bed adalah kandang sapi free stall, kandang sapi free barn tidak ada bed. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Sapi sama seperti manusia, memiliki 1 perut.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Sapi memiliki 4 perut. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: ““Berhenti makan” pada sapi bakalan terjadi karena terlalu banyak makan pakan kasar.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Berhenti makan itu terjadi akibat terlalu banyak diberi pakan campuran terutama jenis sereal. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pada sapi perah dengan radang ambing (mastitis), jumlah sel somatik berkurang.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Jumlah sel somatik sapi perah dengan radang ambing akan meningkat. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Setelah melahirkan, induk sapi akan mengulang estrus rata-rata setiap 21 hari.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pedet dimasukkan ke dalam kandang, untuk dipelihara dengan mengeblok sinar matahari.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Pedet dipelihara pada lingkungan dengan ventilasi dan sinar matahari yang baik. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "bab2-q-babi",
+    "title": {
+     "id": "Soal resmi buku (○×) — Babi · Bab 2",
+     "jp": "{公式問題|こうしきもんだい}（{豚|ぶた}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Varietas babi yang paling banyak dipelihara di Jepang adalah Land Race, Large Yorkshire, dan Hampshire.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Land race, Large Yorkshire, Duroc. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Perkawinan babi di Jepang hanya perkawinan alami saja.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Dilakukan kawin alami dan inseminasi buatan (AI). (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Sulit melahirkan pada kelahiran babi itu jarang ada.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Bobot sekitar 0,5 kg pada anak babi saat dilahirkan adalah normal.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Bobot anak babi saat dilahirkan adalah rata-rata 1,4 kg. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Anak babi mendapatkan daya tahan terhadap berbagai penyakit dari kolostrum.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pengumpanan babi bakalan diberikan dengan volume yang sudah tetap 1 kali 1 hari.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Babi bakalan pada prinsipnya makan tanpa henti. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Karena babi adalah binatang yang bersifat berkerumun, maka walau dipelihara secara kawanan pun seluruh babi dapat makan umpan dengan volume yang sama.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Karena bila dipelihara secara kawanan, akan muncul babi yang pertumbuhannya buruk dikarenakan tidak dapat makan umpan dengan cukup, maka perlu berhati-hati. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "bab2-q-ayam",
+    "title": {
+     "id": "Soal resmi buku (○×) — Ayam · Bab 2",
+     "jp": "{公式問題|こうしきもんだい}（{鶏|にわとり}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Telur untuk ditetaskan akan menetas dalam 10 hari pada inkubator artifisial.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Telur untuk ditetaskan akan menetas dalam 21 hari. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Ayam akan bertelur dengan baik di musim yang siang harinya panjang.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Setelah terus-menerus bertelur selama beberapa hari, ayam akan beristirahat 1~3 hari, kemudian melanjutkan bertelur kembali selama beberapa hari.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Nilai rata-rata berat telur ayam sebagai produk adalah 30 gram.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Pada transaksi telur ayam, terutama adalah MS size (52~58 gram), M size (58~64 gram), dan L size (64~70 gram). (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Rasio bertelur dari ayam bila lewat umur 13~14 bulan maka akan meningkat secara signifikan.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Rasio bertelur pada umur 13~14 bulan akan menurun secara signifikan, dan akan memasuki ganti bulu. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Bila suhu tinggi, maka volume konsumsi pakan dari ayam akan berkurang.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Pada kandang ayam, terdapat kandang ayam tipe terbuka yang sinar matahari dapat masuk, dan juga kandang ayam tanpa jendela yang akan memblokir sinar (windowless).”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      },
+      "mb": true
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q-sapi",
+    "title": {
+     "id": "Soal resmi buku (○×) — Sapi · Bab 3",
+     "jp": "{公式問題|こうしきもんだい}（{牛|うし}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Penting untuk selalu membersihkan dengan baik tangki air atau water cup.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Karena sapi perah makan pakan ternak dengan memanjangkan lehernya, maka pakan ternak di dalam wadah pakan tidak perlu disapu.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Dilakukan penyapuan pakan ternak pada posisi sapi mudah makan. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Di saat panas musim panas pun suhu tubuh sapi perah tidak pernah di atas 39°C.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Saat suhu sekitar 30°C, suhu rektal bahkan bisa menjadi 40°C. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Saat sapi diare, kotoran menempel di keseluruhan bagian ekor.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Tidak boleh melakukan overmilking (machine stripping).”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Setelah pemerahan susu selesai, teat cup dilepas dari ambing satu per satu.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Keempat teat cup dilepaskan bersama-sama dari ambing. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Saat estrus, sapi perah menjadi tidak tenang.”",
+       "jp": "○か×か（{牛|うし}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "bab3-q-babi",
+    "title": {
+     "id": "Soal resmi buku (○×) — Babi · Bab 3",
+     "jp": "{公式問題|こうしきもんだい}（{豚|ぶた}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Bila anak babi yang masih menyusu tidak terjaga kehangatannya, maka akan mudah terjadi kecelakaan mati tertindih.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Anak babi tidak kuat dingin, tapi babi yang sudah dewasa akan menjadi tidak kuat panas.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Apabila terdapat tangki disinfeksi pijakan, maka sepatu panjang tidak perlu dibersihkan.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Setelah kotoran seperti lumpur dan sebagainya yang menempel di sepatu panjang dibilas, dilakukan disinfeksi pijakan. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Susu afkir untuk anak babi ada satu jenis.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Susu afkir dipilih dan diberikan kepada anak babi menyesuaikan pertumbuhannya. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Untuk mencegah bau dari kandang babi, maka perlu untuk tidak menumpuk kotoran dan urin di kandang babi.”",
+       "jp": "○か×か（{豚|ぶた}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "bab3-q-ayam",
+    "title": {
+     "id": "Soal resmi buku (○×) — Ayam · Bab 3",
+     "jp": "{公式問題|こうしきもんだい}（{鶏|にわとり}）"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benar atau salah: “Apabila menemukan burung liar mati di dekat kandang ayam, maka segera buang ke tempat sampah.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Untuk berhati-hati pada flu burung yang sangat patogenik, maka perlu informasikan pada kepala peternak dan Dinas Peternakan dan Kesehatan Hewan,dan sebagainya. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Ventilasi pada pemeliharaan ayam dengan jumlah banyak mudah rusak, sehingga harus hati-hati terhadap penyakit organ pernapasan.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Adalah penting untuk meminumkan air yang hangat saat panas di musim panas.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Adalah penting untuk meminumkan air dingin saat panas di musim panas. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Memasuki periode anak ayam sedang, akan terlihat mematuk anak ayam lain dan melukainya.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benar sesuai buku. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Ayam pedaging (broiler) boleh diberi makan pakan campuran yang mengandung zat antimikroba hingga sehari sebelum dikirimkan.”",
+       "jp": "○か×か（{鶏|にわとり}）"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Salah. Tidak boleh memberikan pakan ternak yang mengandung antimikroba pada ayam 7 hari sebelum dipotong. (Soal resmi buku hal. 148.)"
+      },
+      "ref": {
+       "p": 148
+      },
+      "mb": true
+     }
+    ]
+   }
+  ]
+ },
+ "tema": [
+  {
+   "id": "tema-istilah1",
+   "title": {
+    "id": "Istilah peternakan (A)",
+    "jp": "{畜産用語|ちくさんようご}"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "Apa arti 「Pelihara」?",
+      "jp": "「Pelihara」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi.",
+       "jp": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi."
+      },
+      {
+       "id": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak.",
+       "jp": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak."
+      },
+      {
+       "id": "Kondisi makan banyak atau makan sedikit.",
+       "jp": "Kondisi makan banyak atau makan sedikit."
+      },
+      {
+       "id": "Memelihara anak ayam yang baru menetas.",
+       "jp": "Memelihara anak ayam yang baru menetas."
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Pelihara (Pelihara) = Memelihara anak ayam yang baru menetas.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Pelihara（Pelihara）＝ Memelihara anak ayam yang baru menetas."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Transfer embrio」?",
+      "jp": "「Transfer embrio」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Peternakan industrial yang sangat besar.",
+       "jp": "Peternakan industrial yang sangat besar."
+      },
+      {
+       "id": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan.",
+       "jp": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan."
+      },
+      {
+       "id": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi.",
+       "jp": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi."
+      },
+      {
+       "id": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak.",
+       "jp": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak."
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Transfer embrio (Transfer embrio) = Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Transfer embrio（Transfer embrio）＝ Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Suplai suhu」?",
+      "jp": "「Suplai suhu」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Menjaga suhu di dalam ruang pemeliharaan anak ayam.",
+       "jp": "Menjaga suhu di dalam ruang pemeliharaan anak ayam."
+      },
+      {
+       "id": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak.",
+       "jp": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak."
+      },
+      {
+       "id": "Pakan ternak",
+       "jp": "Pakan ternak"
+      },
+      {
+       "id": "Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi",
+       "jp": "Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Suplai suhu (Suplai suhu) = Menjaga suhu di dalam ruang pemeliharaan anak ayam.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Suplai suhu（Suplai suhu）＝ Menjaga suhu di dalam ruang pemeliharaan anak ayam."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Perawatan」?",
+      "jp": "「Perawatan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Total Digestible Nutrient: Total nutrisi yang dicerna dari pakan ternak, pakan ternak dengan nilai yang tinggi memiliki kandungan energi yang tinggi.",
+       "jp": "Total Digestible Nutrient: Total nutrisi yang dicerna dari pakan ternak, pakan ternak dengan nilai yang tinggi memiliki kandungan energi yang tinggi."
+      },
+      {
+       "id": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi.",
+       "jp": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi."
+      },
+      {
+       "id": "Periode pemberian pakan cair sejak setelah dilahirkan hingga disapih.",
+       "jp": "Periode pemberian pakan cair sejak setelah dilahirkan hingga disapih."
+      },
+      {
+       "id": "Susu yang keluar beberapa hari setelah melahirkan.",
+       "jp": "Susu yang keluar beberapa hari setelah melahirkan."
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Perawatan (Perawatan) = Periode pemberian pakan cair sejak setelah dilahirkan hingga disapih.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Perawatan（Perawatan）＝ Periode pemberian pakan cair sejak setelah dilahirkan hingga disapih."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Pemberian Umpan」?",
+      "jp": "「Pemberian Umpan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Fase akhir masa kering pada susu perah. Periode sekitar 3 minggu sebelum melahirkan. Disebut juga dengan periode perinatal.",
+       "jp": "Fase akhir masa kering pada susu perah. Periode sekitar 3 minggu sebelum melahirkan. Disebut juga dengan periode perinatal."
+      },
+      {
+       "id": "Memberi pakan ternak pada ternak.",
+       "jp": "Memberi pakan ternak pada ternak."
+      },
+      {
+       "id": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.",
+       "jp": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air."
+      },
+      {
+       "id": "Memelihara anak ayam yang baru menetas.",
+       "jp": "Memelihara anak ayam yang baru menetas."
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Pemberian Umpan (Pemberian Umpan) = Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Pemberian Umpan（Pemberian Umpan）＝ Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Potong paruh」?",
+      "jp": "「Potong paruh」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Memotong setengah paruh atas dan bawah ayam. Dilakukan untuk mencegah kebiasaan patuk ekor atau makan bulu pada anak ayam sedang ke atas. Disebut juga dengan beak…",
+       "jp": "Memotong setengah paruh atas dan bawah ayam. Dilakukan untuk mencegah kebiasaan patuk ekor atau makan bulu pada anak ayam sedang ke atas. Disebut juga dengan beak…"
+      },
+      {
+       "id": "Disebut juga dengan ayam komersial. Varietas ayam yang hasil telur dan dagingnya tinggi, ayam yang umumnya populer.",
+       "jp": "Disebut juga dengan ayam komersial. Varietas ayam yang hasil telur dan dagingnya tinggi, ayam yang umumnya populer."
+      },
+      {
+       "id": "Material yang dipergunakan untuk mendukung kenyamanan ternak, sekaligus komposisasi kotoran dan urin, yang sering dipakai adalah serbuk gergaji, sekam, dan jerami.…",
+       "jp": "Material yang dipergunakan untuk mendukung kenyamanan ternak, sekaligus komposisasi kotoran dan urin, yang sering dipakai adalah serbuk gergaji, sekam, dan jerami.…"
+      },
+      {
+       "id": "Kondisi ternak yang tersakiti secara mental.",
+       "jp": "Kondisi ternak yang tersakiti secara mental."
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Potong paruh (Potong paruh) = Memotong setengah paruh atas dan bawah ayam. Dilakukan untuk mencegah kebiasaan patuk ekor atau makan bulu pada anak ayam sedang ke atas. Disebut juga dengan beak…. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Potong paruh（Potong paruh）＝ Memotong setengah paruh atas dan bawah ayam. Dilakukan untuk mencegah kebiasaan patuk ekor atau makan bulu pada anak ayam sedang ke atas. Disebut juga dengan beak…"
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Pengumpanan」?",
+      "jp": "「Pengumpanan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.",
+       "jp": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air."
+      },
+      {
+       "id": "Susu yang keluar selama beberapa hari setelah melahirkan",
+       "jp": "Susu yang keluar selama beberapa hari setelah melahirkan"
+      },
+      {
+       "id": "Pemberian pakan ternak pada ternak.",
+       "jp": "Pemberian pakan ternak pada ternak."
+      },
+      {
+       "id": "Memasukkan semen (sperma) secara artifisial pada alat kelamin betina untuk tujuan kehamilan.",
+       "jp": "Memasukkan semen (sperma) secara artifisial pada alat kelamin betina untuk tujuan kehamilan."
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Pengumpanan (Pengumpanan) = Pemberian pakan ternak pada ternak.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Pengumpanan（Pengumpanan）＝ Pemberian pakan ternak pada ternak."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Alas kandang」?",
+      "jp": "「Alas kandang」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Memberi pakan ternak pada ternak",
+       "jp": "Memberi pakan ternak pada ternak"
+      },
+      {
+       "id": "Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…",
+       "jp": "Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…"
+      },
+      {
+       "id": "Peternakan industrial yang sangat besar.",
+       "jp": "Peternakan industrial yang sangat besar."
+      },
+      {
+       "id": "Berbagai kondensasi besar-kecil yang terkandung dalam cairan susu",
+       "jp": "Berbagai kondensasi besar-kecil yang terkandung dalam cairan susu"
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Alas kandang (Alas kandang) = Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Alas kandang（Alas kandang）＝ Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…"
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Pengumpanan」?",
+      "jp": "「Pengumpanan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak.",
+       "jp": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak."
+      },
+      {
+       "id": "Memberi pakan ternak pada ternak",
+       "jp": "Memberi pakan ternak pada ternak"
+      },
+      {
+       "id": "Material yang dipergunakan untuk mendukung kenyamanan ternak, sekaligus komposisasi kotoran dan urin, yang sering dipakai adalah serbuk gergaji, sekam, dan jerami.…",
+       "jp": "Material yang dipergunakan untuk mendukung kenyamanan ternak, sekaligus komposisasi kotoran dan urin, yang sering dipakai adalah serbuk gergaji, sekam, dan jerami.…"
+      },
+      {
+       "id": "Kondisi betina mau dikawini jantan. Pada saat estrus ini dilakukan inseminasi buatan.",
+       "jp": "Kondisi betina mau dikawini jantan. Pada saat estrus ini dilakukan inseminasi buatan."
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Pengumpanan (Pengumpanan) = Memberi pakan ternak pada ternak. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Pengumpanan（Pengumpanan）＝ Memberi pakan ternak pada ternak"
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Pemberian Umpan」?",
+      "jp": "「Pemberian Umpan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Karena pengaruh buruk lingkungan atau kurang nutrisi, maka ayam yang dipelihara secara berkelompok saling mematuk. Kadang saling membunuh.",
+       "jp": "Karena pengaruh buruk lingkungan atau kurang nutrisi, maka ayam yang dipelihara secara berkelompok saling mematuk. Kadang saling membunuh."
+      },
+      {
+       "id": "Memelihara anak ayam yang baru menetas.",
+       "jp": "Memelihara anak ayam yang baru menetas."
+      },
+      {
+       "id": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir, dengan mempergunakan susu afkir.",
+       "jp": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir, dengan mempergunakan susu afkir."
+      },
+      {
+       "id": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.",
+       "jp": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air."
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Pemberian Umpan (Pemberian Umpan) = Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir, dengan mempergunakan susu afkir.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Pemberian Umpan（Pemberian Umpan）＝ Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir, dengan mempergunakan susu afkir."
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-istilah2",
+   "title": {
+    "id": "Istilah peternakan (B)",
+    "jp": "{畜産用語|ちくさんようご}"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "Apa arti 「Jidori」?",
+      "jp": "「Jidori」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Kerikil kecil yang menggiling butiran yang ada di perut ayam.",
+       "jp": "Kerikil kecil yang menggiling butiran yang ada di perut ayam."
+      },
+      {
+       "id": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi.",
+       "jp": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi."
+      },
+      {
+       "id": "Procine Epidemic Dhiarrea, diare epidemik pada babi",
+       "jp": "Procine Epidemic Dhiarrea, diare epidemik pada babi"
+      },
+      {
+       "id": "Kandang babi bersama yang kotoran, urin, dan alas kandang tidak dipisahkan.",
+       "jp": "Kandang babi bersama yang kotoran, urin, dan alas kandang tidak dipisahkan."
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Jidori (Jidori) = Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Jidori（Jidori）＝ Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「PRRS」?",
+      "jp": "「PRRS」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi",
+       "jp": "Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi"
+      },
+      {
+       "id": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…",
+       "jp": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…"
+      },
+      {
+       "id": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi.",
+       "jp": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi."
+      },
+      {
+       "id": "Kondisi betina mau dikawini jantan. Pada saat estrus ini dilakukan inseminasi buatan.",
+       "jp": "Kondisi betina mau dikawini jantan. Pada saat estrus ini dilakukan inseminasi buatan."
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "PRRS (PRRS) = Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi. Sumber: daftar kosakata modul hal. -.",
+      "jp": "PRRS（PRRS）＝ Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi"
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Tes kelompok sapi」?",
+      "jp": "「Tes kelompok sapi」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak.",
+       "jp": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak."
+      },
+      {
+       "id": "Jumlah hari sejak melahirkan hingga fertilisasi.",
+       "jp": "Jumlah hari sejak melahirkan hingga fertilisasi."
+      },
+      {
+       "id": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.",
+       "jp": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air."
+      },
+      {
+       "id": "Pakan ternak yang diberikan pada anak babi pada masa perawatan, terdapat susu afkir A yang diberikan selama bobot hingga 10 kg dan susu afkir B yang diberikan selama…",
+       "jp": "Pakan ternak yang diberikan pada anak babi pada masa perawatan, terdapat susu afkir A yang diberikan selama bobot hingga 10 kg dan susu afkir B yang diberikan selama…"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Tes kelompok sapi (Tes kelompok sapi) = Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Tes kelompok sapi（Tes kelompok sapi）＝ Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Berhenti makan」?",
+      "jp": "「Berhenti makan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pakan ternak.",
+       "jp": "Pakan ternak."
+      },
+      {
+       "id": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…",
+       "jp": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…"
+      },
+      {
+       "id": "Merapikan material pakan ternak yang tidak merata di dalam wadah umpan.",
+       "jp": "Merapikan material pakan ternak yang tidak merata di dalam wadah umpan."
+      },
+      {
+       "id": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi.",
+       "jp": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi."
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Berhenti makan (Berhenti makan) = Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Berhenti makan（Berhenti makan）＝ Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Grid」?",
+      "jp": "「Grid」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Kerikil kecil yang menggiling butiran yang ada di perut ayam.",
+       "jp": "Kerikil kecil yang menggiling butiran yang ada di perut ayam."
+      },
+      {
+       "id": "Nilai numerik dari kondisi akumulasi lemak subkutan, yang dipergunakan sebagai dasar penilaian apakah ternak terlalu gemuk atau kurus. Semakin besar nilainya, semakin…",
+       "jp": "Nilai numerik dari kondisi akumulasi lemak subkutan, yang dipergunakan sebagai dasar penilaian apakah ternak terlalu gemuk atau kurus. Semakin besar nilainya, semakin…"
+      },
+      {
+       "id": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak.",
+       "jp": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak."
+      },
+      {
+       "id": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…",
+       "jp": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Grid (Grid) = Kerikil kecil yang menggiling butiran yang ada di perut ayam.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Grid（Grid）＝ Kerikil kecil yang menggiling butiran yang ada di perut ayam."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Transfer embrio」?",
+      "jp": "「Transfer embrio」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan.",
+       "jp": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan."
+      },
+      {
+       "id": "Disebut juga dengan ayam komersial. Varietas ayam yang hasil telur dan dagingnya tinggi, ayam yang umumnya populer.",
+       "jp": "Disebut juga dengan ayam komersial. Varietas ayam yang hasil telur dan dagingnya tinggi, ayam yang umumnya populer."
+      },
+      {
+       "id": "Kondisi sapi yang volume asupan pakan ternaknya menurun secara tiba-tiba.",
+       "jp": "Kondisi sapi yang volume asupan pakan ternaknya menurun secara tiba-tiba."
+      },
+      {
+       "id": "Pergantian antara tumbuhnya bulu muda dengan rontoknya bulu yang tua. Terlihat antara akhir musim panas hingga musim gugur. Umumnya pada ayam petelur, mereka berhenti…",
+       "jp": "Pergantian antara tumbuhnya bulu muda dengan rontoknya bulu yang tua. Terlihat antara akhir musim panas hingga musim gugur. Umumnya pada ayam petelur, mereka berhenti…"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Transfer embrio (Transfer embrio) = Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Transfer embrio（Transfer embrio）＝ Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Makan pilih」?",
+      "jp": "「Makan pilih」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Ternak hanya makan yang disukainya saja dari dalam pakan ternak di wadah pakan, dan menyisakan pakan yang tidak disukainya. Disebut juga dengan selective feeding.",
+       "jp": "Ternak hanya makan yang disukainya saja dari dalam pakan ternak di wadah pakan, dan menyisakan pakan yang tidak disukainya. Disebut juga dengan selective feeding."
+      },
+      {
+       "id": "Babi yang Specific Pathogen Free: babi yang tidak memiliki patogen yang spesifik. Babi indukan yang menjadi asal babi SPF dibuat dengan dibesarkan dengan perawatan…",
+       "jp": "Babi yang Specific Pathogen Free: babi yang tidak memiliki patogen yang spesifik. Babi indukan yang menjadi asal babi SPF dibuat dengan dibesarkan dengan perawatan…"
+      },
+      {
+       "id": "Bakteri penyebab mastitis yang sulit disembuhkan bila berkembang biak di dalam ambing.",
+       "jp": "Bakteri penyebab mastitis yang sulit disembuhkan bila berkembang biak di dalam ambing."
+      },
+      {
+       "id": "Jumlah hari sejak melahirkan hingga fertilisasi.",
+       "jp": "Jumlah hari sejak melahirkan hingga fertilisasi."
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "Makan pilih (Makan pilih) = Ternak hanya makan yang disukainya saja dari dalam pakan ternak di wadah pakan, dan menyisakan pakan yang tidak disukainya. Disebut juga dengan selective feeding.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Makan pilih（Makan pilih）＝ Ternak hanya makan yang disukainya saja dari dalam pakan ternak di wadah pakan, dan menyisakan pakan yang tidak disukainya. Disebut juga dengan selective feeding."
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Umpan」?",
+      "jp": "「Umpan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…",
+       "jp": "Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…"
+      },
+      {
+       "id": "Metode pembuatan babi blaster dari 3 varietas atau 3 keturunan. Babi yang dibuat dengan mengawinkan jantan varietas ketiga pada babi indukan (betina) dua silangan.",
+       "jp": "Metode pembuatan babi blaster dari 3 varietas atau 3 keturunan. Babi yang dibuat dengan mengawinkan jantan varietas ketiga pada babi indukan (betina) dua silangan."
+      },
+      {
+       "id": "Kondisi ternak yang tersakiti secara mental.",
+       "jp": "Kondisi ternak yang tersakiti secara mental."
+      },
+      {
+       "id": "Pakan ternak",
+       "jp": "Pakan ternak"
+      }
+     ],
+     "a": 3,
+     "exp": {
+      "id": "Umpan (Umpan) = Pakan ternak. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Umpan（Umpan）＝ Pakan ternak"
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Penyakit mulut dan kuku」?",
+      "jp": "「Penyakit mulut dan kuku」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Memberi pakan ternak pada ternak.",
+       "jp": "Memberi pakan ternak pada ternak."
+      },
+      {
+       "id": "Penyakit menular akut yang sangat menular yang menyebabkan melepuh pada membran mukosa hidung, mulut dan kulit kuku, dan disebabkan oleh virus penyakit mulut dan…",
+       "jp": "Penyakit menular akut yang sangat menular yang menyebabkan melepuh pada membran mukosa hidung, mulut dan kulit kuku, dan disebabkan oleh virus penyakit mulut dan…"
+      },
+      {
+       "id": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan.",
+       "jp": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan."
+      },
+      {
+       "id": "Memelihara anak ayam yang baru menetas.",
+       "jp": "Memelihara anak ayam yang baru menetas."
+      }
+     ],
+     "a": 1,
+     "exp": {
+      "id": "Penyakit mulut dan kuku (Penyakit mulut dan kuku) = Penyakit menular akut yang sangat menular yang menyebabkan melepuh pada membran mukosa hidung, mulut dan kulit kuku, dan disebabkan oleh virus penyakit mulut dan…. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Penyakit mulut dan kuku（Penyakit mulut dan kuku）＝ Penyakit menular akut yang sangat menular yang menyebabkan melepuh pada membran mukosa hidung, mulut dan kulit kuku, dan disebabkan oleh virus penyakit mulut dan…"
+     }
+    },
+    {
+     "q": {
+      "id": "Apa arti 「Makan umpan」?",
+      "jp": "「Makan umpan」の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Metode pembuatan babi blaster dari 3 varietas atau 3 keturunan. Babi yang dibuat dengan mengawinkan jantan varietas ketiga pada babi indukan (betina) dua silangan.",
+       "jp": "Metode pembuatan babi blaster dari 3 varietas atau 3 keturunan. Babi yang dibuat dengan mengawinkan jantan varietas ketiga pada babi indukan (betina) dua silangan."
+      },
+      {
+       "id": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.",
+       "jp": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air."
+      },
+      {
+       "id": "Kondisi makan banyak atau makan sedikit.",
+       "jp": "Kondisi makan banyak atau makan sedikit."
+      },
+      {
+       "id": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak.",
+       "jp": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak."
+      }
+     ],
+     "a": 2,
+     "exp": {
+      "id": "Makan umpan (Makan umpan) = Kondisi makan banyak atau makan sedikit.. Sumber: daftar kosakata modul hal. -.",
+      "jp": "Makan umpan（Makan umpan）＝ Kondisi makan banyak atau makan sedikit."
+     }
+    }
+   ]
+  }
+ ]
+}
