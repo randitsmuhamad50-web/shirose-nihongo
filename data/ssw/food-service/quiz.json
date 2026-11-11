@@ -1,0 +1,8170 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 1 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Berapa persen keracunan makanan yang disebabkan bakteri dan virus menurut modul?"
+      },
+      "opts": [
+       {
+        "id": "Lebih dari 90%"
+       },
+       {
+        "id": "Sekitar 50%"
+       },
+       {
+        "id": "Kurang dari 10%"
+       },
+       {
+        "id": "Tepat 100%"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: 90%+ keracunan makanan disebabkan bakteri dan virus. (Modul hal. 5.)"
+      },
+      "ref": {
+       "p": 5
+      }
+     },
+     {
+      "q": {
+       "id": "Pada suhu berapa pembiakan bakteri tidak terjadi lagi?"
+      },
+      "opts": [
+       {
+        "id": "−15℃ ke bawah"
+       },
+       {
+        "id": "10℃ ke bawah"
+       },
+       {
+        "id": "20℃"
+       },
+       {
+        "id": "37℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada 10℃ ke bawah pembiakan melambat; pada −15℃ ke bawah tidak terjadi pembiakan. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan karyawan WAJIB mencuci tangan?"
+      },
+      "opts": [
+       {
+        "id": "Sebelum menyiapkan makanan dan setelah dari toilet"
+       },
+       {
+        "id": "Hanya saat akhir hari kerja"
+       },
+       {
+        "id": "Hanya jika tangan terlihat kotor"
+       },
+       {
+        "id": "Hanya sebelum makan siang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cuci tangan sebelum mulai menyiapkan makanan, sebelum/sesudah bahan mentah, dan setelah ke toilet atau menyeka hidung. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Keracunan akibat kari dan hidangan rebus yang dibiarkan umumnya disebabkan…"
+      },
+      "opts": [
+       {
+        "id": "Clostridium perfringens"
+       },
+       {
+        "id": "Norovirus"
+       },
+       {
+        "id": "Anisakis"
+       },
+       {
+        "id": "Campylobacter"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Clostridium perfringens membentuk spora tanpa oksigen; makanan pemicunya kari dan hidangan rebus/tumis. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Norovirus juga ada pada feses dan muntah, sehingga yang wajib dilakukan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencuci tangan setelah dari toilet"
+       },
+       {
+        "id": "Menambah garam pada masakan"
+       },
+       {
+        "id": "Memanggang makanan lebih lama"
+       },
+       {
+        "id": "Menyimpan makanan di freezer"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: cuci tangan setelah dari toilet untuk mencegah norovirus. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Nasi goreng (chahan) dan spaghetti dikaitkan dengan keracunan oleh…"
+      },
+      "opts": [
+       {
+        "id": "Bacillus cereus"
+       },
+       {
+        "id": "Campylobacter"
+       },
+       {
+        "id": "E. coli O157"
+       },
+       {
+        "id": "Norovirus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bacillus cereus ada di tanah/biji-bijian (beras); kasus nasi goreng dan spaghetti bila pengawasan tidak benar. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Di mana daging dan ikan mentah sebaiknya disimpan di kulkas?"
+      },
+      "opts": [
+       {
+        "id": "Rak paling bawah dalam wadah berpenutup"
+       },
+       {
+        "id": "Rak paling atas tanpa penutup"
+       },
+       {
+        "id": "Di pintu kulkas"
+       },
+       {
+        "id": "Di samping sayuran siap saji tanpa wadah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Simpan di rak terbawah agar cairan tidak menetes ke bahan lain. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Jika menemukan produk bermasalah saat pengantaran, Anda harus…"
+      },
+      "opts": [
+       {
+        "id": "Mengembalikannya sesuai metode pengembalian dan mencatat di diari"
+       },
+       {
+        "id": "Tetap memakainya setelah dimasak lama"
+       },
+       {
+        "id": "Mencampurnya dengan stok lama"
+       },
+       {
+        "id": "Membuangnya tanpa laporan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Prosedur: ada masalah → kembalikan produk sesuai metode dan catat rincian di diari. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "Cara disinfeksi talenan dan pisau yang disebut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Air mendidih, disinfektan berklorin, atau alkohol 70%"
+       },
+       {
+        "id": "Hanya dibilas air dingin"
+       },
+       {
+        "id": "Dijemur sebentar"
+       },
+       {
+        "id": "Dilap kain kering saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Langkah (D): disinfeksi dengan air mendidih, disinfektan berklorin, atau larutan alkohol 70%. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Detergen/disinfektan yang dipindah ke wadah lain harus…"
+      },
+      "opts": [
+       {
+        "id": "Di wadah khusus yang berlabel isi"
+       },
+       {
+        "id": "Di botol minuman bekas tanpa label"
+       },
+       {
+        "id": "Diletakkan di dekat bumbu"
+       },
+       {
+        "id": "Dicampur dengan air minum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gunakan wadah khusus yang sesuai dengan label isi, dan simpan agar tidak terpakai saat memasak. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Area toilet mana yang harus disinfeksi karena dapat membawa norovirus?"
+      },
+      "opts": [
+       {
+        "id": "Kenop penyiram, gagang pintu, pegangan tangan, dudukan"
+       },
+       {
+        "id": "Hanya lantai"
+       },
+       {
+        "id": "Hanya langit-langit"
+       },
+       {
+        "id": "Hanya cermin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Norovirus dapat mencemari dudukan toilet, kenop penyiram, pegangan tangan, gagang pintu. (Modul hal. 14.)"
+      },
+      "ref": {
+       "p": 14
+      }
+     },
+     {
+      "q": {
+       "id": "Jika ada luka pada tangan atau jari, yang dilakukan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Memasang perban lalu memakai sarung tangan"
+       },
+       {
+        "id": "Dibiarkan terbuka agar cepat kering"
+       },
+       {
+        "id": "Memakai cincin untuk menutup luka"
+       },
+       {
+        "id": "Menyuruh orang lain mengerjakan tanpa lapor"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gunakan perban lalu sarung tangan; tangan tetap dicuci walau memakai sarung tangan. (Modul hal. 15.)"
+      },
+      "ref": {
+       "p": 15
+      }
+     },
+     {
+      "q": {
+       "id": "Langkah terakhir pada prosedur cuci tangan modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sterilisasi dengan alkohol"
+       },
+       {
+        "id": "Menyeka dengan celemek"
+       },
+       {
+        "id": "Mengibaskan tangan"
+       },
+       {
+        "id": "Menyentuh gagang pintu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah mengeringkan tangan, lakukan sterilisasi dengan alkohol (langkah K). (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "SEITON dalam prinsip 5S berarti…"
+      },
+      "opts": [
+       {
+        "id": "Menata rapi dan mengembalikan benda ke tempatnya"
+       },
+       {
+        "id": "Membuang barang tak perlu"
+       },
+       {
+        "id": "Membersihkan lantai"
+       },
+       {
+        "id": "Membiasakan hal baik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "SEITON = menata rapi: tentukan tempat tiap benda dan kembalikan setelah dipakai. (Modul hal. 17.)"
+      },
+      "ref": {
+       "p": 17
+      }
+     },
+     {
+      "q": {
+       "id": "Isi kulkas/freezer dibersihkan…"
+      },
+      "opts": [
+       {
+        "id": "Seminggu sekali (berkala)"
+       },
+       {
+        "id": "Setiap jam"
+       },
+       {
+        "id": "Setahun sekali"
+       },
+       {
+        "id": "Tidak perlu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pembersihan mingguan: isi kulkas/freezer, pipa saluran, lantai (disikat), saluran pembuangan minyak. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "Sisa makanan dibuang ke tempat…"
+      },
+      "opts": [
+       {
+        "id": "Khusus berpenutup"
+       },
+       {
+        "id": "Terbuka di dekat meja kerja"
+       },
+       {
+        "id": "Wastafel"
+       },
+       {
+        "id": "Kulkas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Makanan sisa dibuang ke tempat khusus berpenutup agar tidak membiakkan bakteri/mengundang serangga. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "Rentang suhu zona berbahaya adalah…"
+      },
+      "opts": [
+       {
+        "id": "10℃–60℃"
+       },
+       {
+        "id": "0℃–5℃"
+       },
+       {
+        "id": "60℃–100℃"
+       },
+       {
+        "id": "−15℃–0℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada 10℃–60℃ bakteri berkembang biak pesat. (Modul hal. 22.)"
+      },
+      "ref": {
+       "p": 22
+      }
+     },
+     {
+      "q": {
+       "id": "Suhu inti daging yang dimasak (Kelompok 2) harus mencapai…"
+      },
+      "opts": [
+       {
+        "id": "75℃ selama minimal 1 menit"
+       },
+       {
+        "id": "50℃ selama 10 menit"
+       },
+       {
+        "id": "60℃ sesaat"
+       },
+       {
+        "id": "100℃ selama 1 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bakteri dalam daging dibasmi dengan suhu inti 75℃ selama setidaknya satu menit. (Modul hal. 24.)"
+      },
+      "ref": {
+       "p": 24
+      }
+     },
+     {
+      "q": {
+       "id": "Pada Kelompok 3, saat makanan dihangatkan ulang harus…"
+      },
+      "opts": [
+       {
+        "id": "Sampai mendidih (bergelembung)"
+       },
+       {
+        "id": "Hangat saja"
+       },
+       {
+        "id": "Hanya dipanaskan permukaannya"
+       },
+       {
+        "id": "Tidak perlu dipanaskan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat menghangatkan kembali, pastikan hingga mendidih (makanan bergelembung). (Modul hal. 25.)"
+      },
+      "ref": {
+       "p": 25
+      }
+     },
+     {
+      "q": {
+       "id": "Hati sapi dan babi…"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh dimakan mentah; masak 75℃ ≥1 menit"
+       },
+       {
+        "id": "Boleh mentah bila segar"
+       },
+       {
+        "id": "Cukup dibilas saja"
+       },
+       {
+        "id": "Dimasak 40℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kedua bahan tidak boleh dikonsumsi mentah; masak hingga 75℃ selama minimal 1 menit. (Modul hal. 27.)"
+      },
+      "ref": {
+       "p": 27
+      }
+     },
+     {
+      "q": {
+       "id": "Mana yang termasuk benda asing LUNAK?"
+      },
+      "opts": [
+       {
+        "id": "Rambut, serangga, carikan kertas"
+       },
+       {
+        "id": "Serpihan logam"
+       },
+       {
+        "id": "Pecahan kaca"
+       },
+       {
+        "id": "Batu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benda asing lunak: rambut, carikan kertas, bagian plastik vinil, serangga. (Modul hal. 27.)"
+      },
+      "ref": {
+       "p": 27
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 1 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah tiga prinsip pencegahan keracunan makanan?"
+      },
+      "opts": [
+       {
+        "id": "Jangan mencemari, jangan membiakkan, basmi mikroba patogen"
+       },
+       {
+        "id": "Dinginkan, bekukan, simpan lama"
+       },
+       {
+        "id": "Cuci, potong, sajikan"
+       },
+       {
+        "id": "Garami, asamkan, keringkan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tiga prinsip: hindari pencemaran, cegah pembiakan, basmi mikroba patogen. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Daging dan kerang-kerangan harus dipanaskan sampai bagian dalamnya…"
+      },
+      "opts": [
+       {
+        "id": "75℃ selama minimal 1 menit"
+       },
+       {
+        "id": "50℃ selama 10 detik"
+       },
+       {
+        "id": "60℃ selama 5 detik"
+       },
+       {
+        "id": "100℃ selama 1 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: panaskan bagian dalam hingga 75℃ dan masak minimal 1 menit pada suhu tersebut. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Bakteri pada kulit, tenggorokan, dan luka manusia yang berbahaya bila penyaji punya luka sayat adalah…"
+      },
+      "opts": [
+       {
+        "id": "Staphylococcus aureus"
+       },
+       {
+        "id": "Vibrio parahaemolyticus"
+       },
+       {
+        "id": "Clostridium perfringens"
+       },
+       {
+        "id": "Bacillus cereus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staphylococcus aureus ada di kulit, tenggorokan, dan luka; risiko tinggi jika penyaji punya luka sayat di tangan/jari. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Patogen yang aktif saat suhu air laut naik di musim panas adalah…"
+      },
+      "opts": [
+       {
+        "id": "Vibrio parahaemolyticus"
+       },
+       {
+        "id": "Salmonella"
+       },
+       {
+        "id": "Norovirus"
+       },
+       {
+        "id": "Bacillus cereus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Vibrio parahaemolyticus terdapat di air dan garam laut dan aktif saat suhu laut naik di musim panas. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Telur ayam dapat membawa bakteri…"
+      },
+      "opts": [
+       {
+        "id": "Salmonella"
+       },
+       {
+        "id": "Vibrio parahaemolyticus"
+       },
+       {
+        "id": "Norovirus"
+       },
+       {
+        "id": "Anisakis"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Salmonella ditemukan di isi perut hewan dan juga dapat ada di telur ayam. (Modul hal. 7.)"
+      },
+      "ref": {
+       "p": 7
+      }
+     },
+     {
+      "q": {
+       "id": "Apa itu kontaminasi silang?"
+      },
+      "opts": [
+       {
+        "id": "Bakteri dari daging/ikan mentah berpindah ke bahan atau makanan lain"
+       },
+       {
+        "id": "Makanan mengandung terlalu banyak garam"
+       },
+       {
+        "id": "Makanan beku mencair"
+       },
+       {
+        "id": "Suhu kulkas tidak stabil"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kontaminasi silang = bakteri pada daging mentah, hasil laut, dsb. terkena bahan baku dan makanan lain. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Contoh batas suhu kulkas dan freezer dalam modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kulkas ≤10℃, freezer ≤−15℃"
+       },
+       {
+        "id": "Kulkas ≤25℃, freezer ≤0℃"
+       },
+       {
+        "id": "Kulkas ≤5℃, freezer ≤10℃"
+       },
+       {
+        "id": "Kulkas ≤20℃, freezer ≤−5℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul memberi contoh: kulkas tidak lebih dari 10℃, freezer −15℃ ke bawah. (Modul hal. 11.)"
+      },
+      "ref": {
+       "p": 11
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa ikan merah yang tidak segar berbahaya?"
+      },
+      "opts": [
+       {
+        "id": "Dapat mengandung histamin yang memicu reaksi alergi"
+       },
+       {
+        "id": "Mengandung norovirus dari feses"
+       },
+       {
+        "id": "Mengandung spora Clostridium"
+       },
+       {
+        "id": "Mengandung pestisida"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan merah tidak segar bisa mengandung histamin; makan menyebabkan keracunan berupa reaksi alergi. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "Kain dan handuk dapur direndam air mendidih minimal…"
+      },
+      "opts": [
+       {
+        "id": "5 menit"
+       },
+       {
+        "id": "5 detik"
+       },
+       {
+        "id": "30 detik"
+       },
+       {
+        "id": "1 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika memungkinkan, rendam dalam air mendidih setidaknya 5 menit. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membersihkan toilet, pakaian dan sarung tangan…"
+      },
+      "opts": [
+       {
+        "id": "Berbeda dari yang dipakai menyiapkan makanan"
+       },
+       {
+        "id": "Sama dengan saat menyiapkan makanan"
+       },
+       {
+        "id": "Tidak perlu dipakai"
+       },
+       {
+        "id": "Boleh dipakai ke dapur setelahnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Langkah (A): gunakan pakaian, sepatu, sarung tangan berbeda dengan saat menyiapkan makanan. (Modul hal. 14.)"
+      },
+      "ref": {
+       "p": 14
+      }
+     },
+     {
+      "q": {
+       "id": "Karyawan yang diare atau muntah-muntah harus…"
+      },
+      "opts": [
+       {
+        "id": "Tidak bekerja dan memeriksakan diri ke rumah sakit"
+       },
+       {
+        "id": "Tetap bekerja memakai sarung tangan"
+       },
+       {
+        "id": "Hanya bekerja di bagian pencucian"
+       },
+       {
+        "id": "Minum obat lalu bekerja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Siapa pun dengan gejala tersebut tidak boleh bekerja dan harus ke rumah sakit. (Modul hal. 15.)"
+      },
+      "ref": {
+       "p": 15
+      }
+     },
+     {
+      "q": {
+       "id": "Perhiasan yang tidak boleh dipakai saat bekerja menyiapkan makanan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Jam tangan, kalung, cincin, anting"
+       },
+       {
+        "id": "Hanya anting"
+       },
+       {
+        "id": "Hanya kalung"
+       },
+       {
+        "id": "Semua boleh asal bersih"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pastikan karyawan tidak memakai perhiasan seperti jam tangan, kalung, cincin, anting. (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "Cara tambahan yang sangat efektif menurut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencuci tangan dua kali"
+       },
+       {
+        "id": "Mencuci tangan sekali sangat lama"
+       },
+       {
+        "id": "Memakai air hangat saja"
+       },
+       {
+        "id": "Menggosok dengan kain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mencuci tangan dua kali sangat efektif (ulangi langkah B–I). (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "SEIRI berarti…"
+      },
+      "opts": [
+       {
+        "id": "Memisahkan yang perlu dan tidak, lalu membuang yang tidak perlu"
+       },
+       {
+        "id": "Menata rapi"
+       },
+       {
+        "id": "Sanitasi"
+       },
+       {
+        "id": "Kebiasaan baik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "SEIRI = mengorganisir: pisahkan yang diperlukan dan tidak, buang yang tidak diperlukan. (Modul hal. 17.)"
+      },
+      "ref": {
+       "p": 17
+      }
+     },
+     {
+      "q": {
+       "id": "Limbah yang berkaitan dengan ikan kembung (fugu) harus dibuang dalam…"
+      },
+      "opts": [
+       {
+        "id": "Wadah terkunci"
+       },
+       {
+        "id": "Kantong plastik biasa"
+       },
+       {
+        "id": "Tempat sampah terbuka"
+       },
+       {
+        "id": "Saluran air"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Wajib membuang limbah fugu dalam wadah terkunci sesuai peraturan pemerintah. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "HACCP adalah singkatan dari…"
+      },
+      "opts": [
+       {
+        "id": "Hazard Analysis and Critical Control Point"
+       },
+       {
+        "id": "Healthy And Clean Cooking Procedure"
+       },
+       {
+        "id": "Hot And Cold Control Plan"
+       },
+       {
+        "id": "Hygiene And Cooking Check Point"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "HACCP = Hazard Analysis and Critical Control Point (Analisis Bahaya dan Titik Pengawasan Penting). (Modul hal. 21.)"
+      },
+      "ref": {
+       "p": 21
+      }
+     },
+     {
+      "q": {
+       "id": "Kari, sup, dan salad kentang termasuk kelompok…"
+      },
+      "opts": [
+       {
+        "id": "Kelompok 3 (dipanaskan, didinginkan, dihangatkan ulang)"
+       },
+       {
+        "id": "Kelompok 1 (didinginkan)"
+       },
+       {
+        "id": "Kelompok 2 (dimasak, disajikan panas)"
+       },
+       {
+        "id": "Tidak termasuk kelompok mana pun"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kelompok 3 contohnya kari, sup, saus, tare, salad kentang. (Modul hal. 21.)"
+      },
+      "ref": {
+       "p": 21
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk Kelompok 1 yang butuh lebih dari 30 menit sebelum disajikan, simpan di…"
+      },
+      "opts": [
+       {
+        "id": "10℃ atau lebih rendah"
+       },
+       {
+        "id": "30℃"
+       },
+       {
+        "id": "Suhu ruang"
+       },
+       {
+        "id": "60℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penting menyimpan makanan pada suhu 10℃ atau lebih rendah jika perlu waktu lebih dari 30 menit untuk menyajikannya. (Modul hal. 23.)"
+      },
+      "ref": {
+       "p": 23
+      }
+     },
+     {
+      "q": {
+       "id": "Telur ayam harus dimasak hingga suhu inti…"
+      },
+      "opts": [
+       {
+        "id": "70℃ selama minimal 1 menit"
+       },
+       {
+        "id": "50℃ selama 10 detik"
+       },
+       {
+        "id": "100℃ selama 1 jam"
+       },
+       {
+        "id": "30℃ sesaat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Telur dimasak hingga suhu internal 70℃ selama setidaknya satu menit. (Modul hal. 27.)"
+      },
+      "ref": {
+       "p": 27
+      }
+     },
+     {
+      "q": {
+       "id": "Pencegahan Anisakis pada ikan meliputi…"
+      },
+      "opts": [
+       {
+        "id": "Membekukan ≥24 jam pada −20℃ ke bawah atau memasak cukup panas"
+       },
+       {
+        "id": "Merendam dalam air tawar semalam"
+       },
+       {
+        "id": "Menambah garam saja"
+       },
+       {
+        "id": "Mendiamkan di suhu ruang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bekukan ikan setidaknya 24 jam di −20℃ ke bawah, atau masak ≥1 menit pada 60℃ / 70℃ ke atas. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     },
+     {
+      "q": {
+       "id": "Salah satu manfaat menyimpan catatan pengawasan kebersihan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menjadi bukti bahwa pengawasan dilaksanakan dengan benar jika timbul masalah"
+       },
+       {
+        "id": "Mengurangi jumlah pelanggan"
+       },
+       {
+        "id": "Menghindari cuci tangan"
+       },
+       {
+        "id": "Menghemat bahan baku"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Catatan menyediakan bukti bahwa pengawasan kebersihan sudah dilaksanakan dengan benar jika timbul masalah. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q3",
+    "title": {
+     "id": "Arti kosakata Bab 1",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「急速冷却」（きゅうそくれいきゃく）?",
+       "jp": "「急速冷却」（きゅうそくれいきゃく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "luka",
+        "jp": "luka"
+       },
+       {
+        "id": "pisau dapur",
+        "jp": "pisau dapur"
+       },
+       {
+        "id": "tanggal kedaluwarsa",
+        "jp": "tanggal kedaluwarsa"
+       },
+       {
+        "id": "pendinginan kilat",
+        "jp": "pendinginan kilat"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "急速冷却 (きゅうそくれいきゃく) = pendinginan kilat. Sumber: daftar kosakata modul hal. -.",
+       "jp": "急速冷却（きゅうそくれいきゃく）＝ pendinginan kilat"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「清掃」（せいそう）?",
+       "jp": "「清掃」（せいそう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pendinginan kilat",
+        "jp": "pendinginan kilat"
+       },
+       {
+        "id": "cuci tangan",
+        "jp": "cuci tangan"
+       },
+       {
+        "id": "sashimi",
+        "jp": "sashimi"
+       },
+       {
+        "id": "membersihkan (seisou)",
+        "jp": "membersihkan (seisou)"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "清掃 (せいそう) = membersihkan (seisou). Sumber: daftar kosakata modul hal. -.",
+       "jp": "清掃（せいそう）＝ membersihkan (seisou)"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「生ごみ」（なまごみ）?",
+       "jp": "「生ごみ」（なまごみ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "sampah basah/sisa makanan",
+        "jp": "sampah basah/sisa makanan"
+       },
+       {
+        "id": "Salmonella",
+        "jp": "Salmonella"
+       },
+       {
+        "id": "pemanasan",
+        "jp": "pemanasan"
+       },
+       {
+        "id": "kondisi tubuh",
+        "jp": "kondisi tubuh"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "生ごみ (なまごみ) = sampah basah/sisa makanan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "生ごみ（なまごみ）＝ sampah basah/sisa makanan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「加熱」（かねつ）?",
+       "jp": "「加熱」（かねつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "disinfeksi",
+        "jp": "disinfeksi"
+       },
+       {
+        "id": "pemanasan",
+        "jp": "pemanasan"
+       },
+       {
+        "id": "freezer",
+        "jp": "freezer"
+       },
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "加熱 (かねつ) = pemanasan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "加熱（かねつ）＝ pemanasan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「包丁」（ほうちょう）?",
+       "jp": "「包丁」（ほうちょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pisau dapur",
+        "jp": "pisau dapur"
+       },
+       {
+        "id": "muntah",
+        "jp": "muntah"
+       },
+       {
+        "id": "telur",
+        "jp": "telur"
+       },
+       {
+        "id": "sampah basah/sisa makanan",
+        "jp": "sampah basah/sisa makanan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "包丁 (ほうちょう) = pisau dapur. Sumber: daftar kosakata modul hal. -.",
+       "jp": "包丁（ほうちょう）＝ pisau dapur"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ふぐ」?",
+       "jp": "「ふぐ」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "parasit",
+        "jp": "parasit"
+       },
+       {
+        "id": "sarung tangan",
+        "jp": "sarung tangan"
+       },
+       {
+        "id": "ikan kembung/fugu",
+        "jp": "ikan kembung/fugu"
+       },
+       {
+        "id": "pemanasan",
+        "jp": "pemanasan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "ふぐ (ふぐ) = ikan kembung/fugu. Sumber: daftar kosakata modul hal. -.",
+       "jp": "ふぐ（ふぐ）＝ ikan kembung/fugu"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「アルコール」（あるこーる）?",
+       "jp": "「アルコール」（あるこーる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "sabun",
+        "jp": "sabun"
+       },
+       {
+        "id": "toilet",
+        "jp": "toilet"
+       },
+       {
+        "id": "Staphylococcus aureus",
+        "jp": "Staphylococcus aureus"
+       },
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "アルコール (あるこーる) = alkohol. Sumber: daftar kosakata modul hal. -.",
+       "jp": "アルコール（あるこーる）＝ alkohol"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「二次汚染」（にじおせん）?",
+       "jp": "「二次汚染」（にじおせん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "sarung tangan",
+        "jp": "sarung tangan"
+       },
+       {
+        "id": "pendinginan kilat",
+        "jp": "pendinginan kilat"
+       },
+       {
+        "id": "menata rapi (seiton)",
+        "jp": "menata rapi (seiton)"
+       },
+       {
+        "id": "kontaminasi silang",
+        "jp": "kontaminasi silang"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "二次汚染 (にじおせん) = kontaminasi silang. Sumber: daftar kosakata modul hal. -.",
+       "jp": "二次汚染（にじおせん）＝ kontaminasi silang"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「体調」（たいちょう）?",
+       "jp": "「体調」（たいちょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "tanggal sebaiknya dikonsumsi",
+        "jp": "tanggal sebaiknya dikonsumsi"
+       },
+       {
+        "id": "Salmonella",
+        "jp": "Salmonella"
+       },
+       {
+        "id": "kondisi tubuh",
+        "jp": "kondisi tubuh"
+       },
+       {
+        "id": "talenan",
+        "jp": "talenan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "体調 (たいちょう) = kondisi tubuh. Sumber: daftar kosakata modul hal. -.",
+       "jp": "体調（たいちょう）＝ kondisi tubuh"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「黄色ブドウ球菌」（おうしょくぶどうきゅうきん）?",
+       "jp": "「黄色ブドウ球菌」（おうしょくぶどうきゅうきん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Staphylococcus aureus",
+        "jp": "Staphylococcus aureus"
+       },
+       {
+        "id": "kondisi tubuh",
+        "jp": "kondisi tubuh"
+       },
+       {
+        "id": "talenan",
+        "jp": "talenan"
+       },
+       {
+        "id": "pembekuan",
+        "jp": "pembekuan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "黄色ブドウ球菌 (おうしょくぶどうきゅうきん) = Staphylococcus aureus. Sumber: daftar kosakata modul hal. -.",
+       "jp": "黄色ブドウ球菌（おうしょくぶどうきゅうきん）＝ Staphylococcus aureus"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「サルモネラ」（さるもねら）?",
+       "jp": "「サルモネラ」（さるもねら）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "membersihkan (seisou)",
+        "jp": "membersihkan (seisou)"
+       },
+       {
+        "id": "pembekuan",
+        "jp": "pembekuan"
+       },
+       {
+        "id": "Salmonella",
+        "jp": "Salmonella"
+       },
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "サルモネラ (さるもねら) = Salmonella. Sumber: daftar kosakata modul hal. -.",
+       "jp": "サルモネラ（さるもねら）＝ Salmonella"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「賞味期限」（しょうみきげん）?",
+       "jp": "「賞味期限」（しょうみきげん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "tanggal sebaiknya dikonsumsi",
+        "jp": "tanggal sebaiknya dikonsumsi"
+       },
+       {
+        "id": "Campylobacter",
+        "jp": "Campylobacter"
+       },
+       {
+        "id": "talenan",
+        "jp": "talenan"
+       },
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "賞味期限 (しょうみきげん) = tanggal sebaiknya dikonsumsi. Sumber: daftar kosakata modul hal. -.",
+       "jp": "賞味期限（しょうみきげん）＝ tanggal sebaiknya dikonsumsi"
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s1-q",
+    "title": {
+     "id": "Latihan: Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Berapa persen keracunan makanan yang disebabkan bakteri dan virus menurut modul?"
+      },
+      "opts": [
+       {
+        "id": "Lebih dari 90%"
+       },
+       {
+        "id": "Sekitar 50%"
+       },
+       {
+        "id": "Kurang dari 10%"
+       },
+       {
+        "id": "Tepat 100%"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: 90%+ keracunan makanan disebabkan bakteri dan virus. (Modul hal. 5.)"
+      },
+      "ref": {
+       "p": 5
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah tiga prinsip pencegahan keracunan makanan?"
+      },
+      "opts": [
+       {
+        "id": "Jangan mencemari, jangan membiakkan, basmi mikroba patogen"
+       },
+       {
+        "id": "Dinginkan, bekukan, simpan lama"
+       },
+       {
+        "id": "Cuci, potong, sajikan"
+       },
+       {
+        "id": "Garami, asamkan, keringkan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tiga prinsip: hindari pencemaran, cegah pembiakan, basmi mikroba patogen. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Pada suhu berapa pembiakan bakteri tidak terjadi lagi?"
+      },
+      "opts": [
+       {
+        "id": "−15℃ ke bawah"
+       },
+       {
+        "id": "10℃ ke bawah"
+       },
+       {
+        "id": "20℃"
+       },
+       {
+        "id": "37℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada 10℃ ke bawah pembiakan melambat; pada −15℃ ke bawah tidak terjadi pembiakan. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Daging dan kerang-kerangan harus dipanaskan sampai bagian dalamnya…"
+      },
+      "opts": [
+       {
+        "id": "75℃ selama minimal 1 menit"
+       },
+       {
+        "id": "50℃ selama 10 detik"
+       },
+       {
+        "id": "60℃ selama 5 detik"
+       },
+       {
+        "id": "100℃ selama 1 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: panaskan bagian dalam hingga 75℃ dan masak minimal 1 menit pada suhu tersebut. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan karyawan WAJIB mencuci tangan?"
+      },
+      "opts": [
+       {
+        "id": "Sebelum menyiapkan makanan dan setelah dari toilet"
+       },
+       {
+        "id": "Hanya saat akhir hari kerja"
+       },
+       {
+        "id": "Hanya jika tangan terlihat kotor"
+       },
+       {
+        "id": "Hanya sebelum makan siang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cuci tangan sebelum mulai menyiapkan makanan, sebelum/sesudah bahan mentah, dan setelah ke toilet atau menyeka hidung. (Modul hal. 6.)"
+      },
+      "ref": {
+       "p": 6
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s2-q",
+    "title": {
+     "id": "Latihan: Bakteri dan Virus Penyebab Keracunan Makanan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Bakteri pada kulit, tenggorokan, dan luka manusia yang berbahaya bila penyaji punya luka sayat adalah…"
+      },
+      "opts": [
+       {
+        "id": "Staphylococcus aureus"
+       },
+       {
+        "id": "Vibrio parahaemolyticus"
+       },
+       {
+        "id": "Clostridium perfringens"
+       },
+       {
+        "id": "Bacillus cereus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staphylococcus aureus ada di kulit, tenggorokan, dan luka; risiko tinggi jika penyaji punya luka sayat di tangan/jari. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Keracunan akibat kari dan hidangan rebus yang dibiarkan umumnya disebabkan…"
+      },
+      "opts": [
+       {
+        "id": "Clostridium perfringens"
+       },
+       {
+        "id": "Norovirus"
+       },
+       {
+        "id": "Anisakis"
+       },
+       {
+        "id": "Campylobacter"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Clostridium perfringens membentuk spora tanpa oksigen; makanan pemicunya kari dan hidangan rebus/tumis. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Patogen yang aktif saat suhu air laut naik di musim panas adalah…"
+      },
+      "opts": [
+       {
+        "id": "Vibrio parahaemolyticus"
+       },
+       {
+        "id": "Salmonella"
+       },
+       {
+        "id": "Norovirus"
+       },
+       {
+        "id": "Bacillus cereus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Vibrio parahaemolyticus terdapat di air dan garam laut dan aktif saat suhu laut naik di musim panas. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Norovirus juga ada pada feses dan muntah, sehingga yang wajib dilakukan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencuci tangan setelah dari toilet"
+       },
+       {
+        "id": "Menambah garam pada masakan"
+       },
+       {
+        "id": "Memanggang makanan lebih lama"
+       },
+       {
+        "id": "Menyimpan makanan di freezer"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: cuci tangan setelah dari toilet untuk mencegah norovirus. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     },
+     {
+      "q": {
+       "id": "Telur ayam dapat membawa bakteri…"
+      },
+      "opts": [
+       {
+        "id": "Salmonella"
+       },
+       {
+        "id": "Vibrio parahaemolyticus"
+       },
+       {
+        "id": "Norovirus"
+       },
+       {
+        "id": "Anisakis"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Salmonella ditemukan di isi perut hewan dan juga dapat ada di telur ayam. (Modul hal. 7.)"
+      },
+      "ref": {
+       "p": 7
+      }
+     },
+     {
+      "q": {
+       "id": "Nasi goreng (chahan) dan spaghetti dikaitkan dengan keracunan oleh…"
+      },
+      "opts": [
+       {
+        "id": "Bacillus cereus"
+       },
+       {
+        "id": "Campylobacter"
+       },
+       {
+        "id": "E. coli O157"
+       },
+       {
+        "id": "Norovirus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bacillus cereus ada di tanah/biji-bijian (beras); kasus nasi goreng dan spaghetti bila pengawasan tidak benar. (Modul hal. 8.)"
+      },
+      "ref": {
+       "p": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s3-q",
+    "title": {
+     "id": "Latihan: Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa itu kontaminasi silang?"
+      },
+      "opts": [
+       {
+        "id": "Bakteri dari daging/ikan mentah berpindah ke bahan atau makanan lain"
+       },
+       {
+        "id": "Makanan mengandung terlalu banyak garam"
+       },
+       {
+        "id": "Makanan beku mencair"
+       },
+       {
+        "id": "Suhu kulkas tidak stabil"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kontaminasi silang = bakteri pada daging mentah, hasil laut, dsb. terkena bahan baku dan makanan lain. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Di mana daging dan ikan mentah sebaiknya disimpan di kulkas?"
+      },
+      "opts": [
+       {
+        "id": "Rak paling bawah dalam wadah berpenutup"
+       },
+       {
+        "id": "Rak paling atas tanpa penutup"
+       },
+       {
+        "id": "Di pintu kulkas"
+       },
+       {
+        "id": "Di samping sayuran siap saji tanpa wadah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Simpan di rak terbawah agar cairan tidak menetes ke bahan lain. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Contoh batas suhu kulkas dan freezer dalam modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kulkas ≤10℃, freezer ≤−15℃"
+       },
+       {
+        "id": "Kulkas ≤25℃, freezer ≤0℃"
+       },
+       {
+        "id": "Kulkas ≤5℃, freezer ≤10℃"
+       },
+       {
+        "id": "Kulkas ≤20℃, freezer ≤−5℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul memberi contoh: kulkas tidak lebih dari 10℃, freezer −15℃ ke bawah. (Modul hal. 11.)"
+      },
+      "ref": {
+       "p": 11
+      }
+     },
+     {
+      "q": {
+       "id": "Jika menemukan produk bermasalah saat pengantaran, Anda harus…"
+      },
+      "opts": [
+       {
+        "id": "Mengembalikannya sesuai metode pengembalian dan mencatat di diari"
+       },
+       {
+        "id": "Tetap memakainya setelah dimasak lama"
+       },
+       {
+        "id": "Mencampurnya dengan stok lama"
+       },
+       {
+        "id": "Membuangnya tanpa laporan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Prosedur: ada masalah → kembalikan produk sesuai metode dan catat rincian di diari. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa ikan merah yang tidak segar berbahaya?"
+      },
+      "opts": [
+       {
+        "id": "Dapat mengandung histamin yang memicu reaksi alergi"
+       },
+       {
+        "id": "Mengandung norovirus dari feses"
+       },
+       {
+        "id": "Mengandung spora Clostridium"
+       },
+       {
+        "id": "Mengandung pestisida"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan merah tidak segar bisa mengandung histamin; makan menyebabkan keracunan berupa reaksi alergi. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s4-q",
+    "title": {
+     "id": "Latihan: Pembersihan dan Disinfeksi Perkakas & Toilet",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Cara disinfeksi talenan dan pisau yang disebut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Air mendidih, disinfektan berklorin, atau alkohol 70%"
+       },
+       {
+        "id": "Hanya dibilas air dingin"
+       },
+       {
+        "id": "Dijemur sebentar"
+       },
+       {
+        "id": "Dilap kain kering saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Langkah (D): disinfeksi dengan air mendidih, disinfektan berklorin, atau larutan alkohol 70%. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Kain dan handuk dapur direndam air mendidih minimal…"
+      },
+      "opts": [
+       {
+        "id": "5 menit"
+       },
+       {
+        "id": "5 detik"
+       },
+       {
+        "id": "30 detik"
+       },
+       {
+        "id": "1 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika memungkinkan, rendam dalam air mendidih setidaknya 5 menit. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Detergen/disinfektan yang dipindah ke wadah lain harus…"
+      },
+      "opts": [
+       {
+        "id": "Di wadah khusus yang berlabel isi"
+       },
+       {
+        "id": "Di botol minuman bekas tanpa label"
+       },
+       {
+        "id": "Diletakkan di dekat bumbu"
+       },
+       {
+        "id": "Dicampur dengan air minum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gunakan wadah khusus yang sesuai dengan label isi, dan simpan agar tidak terpakai saat memasak. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membersihkan toilet, pakaian dan sarung tangan…"
+      },
+      "opts": [
+       {
+        "id": "Berbeda dari yang dipakai menyiapkan makanan"
+       },
+       {
+        "id": "Sama dengan saat menyiapkan makanan"
+       },
+       {
+        "id": "Tidak perlu dipakai"
+       },
+       {
+        "id": "Boleh dipakai ke dapur setelahnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Langkah (A): gunakan pakaian, sepatu, sarung tangan berbeda dengan saat menyiapkan makanan. (Modul hal. 14.)"
+      },
+      "ref": {
+       "p": 14
+      }
+     },
+     {
+      "q": {
+       "id": "Area toilet mana yang harus disinfeksi karena dapat membawa norovirus?"
+      },
+      "opts": [
+       {
+        "id": "Kenop penyiram, gagang pintu, pegangan tangan, dudukan"
+       },
+       {
+        "id": "Hanya lantai"
+       },
+       {
+        "id": "Hanya langit-langit"
+       },
+       {
+        "id": "Hanya cermin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Norovirus dapat mencemari dudukan toilet, kenop penyiram, pegangan tangan, gagang pintu. (Modul hal. 14.)"
+      },
+      "ref": {
+       "p": 14
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s5-q",
+    "title": {
+     "id": "Latihan: Kebersihan Pribadi dan Cuci Tangan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Karyawan yang diare atau muntah-muntah harus…"
+      },
+      "opts": [
+       {
+        "id": "Tidak bekerja dan memeriksakan diri ke rumah sakit"
+       },
+       {
+        "id": "Tetap bekerja memakai sarung tangan"
+       },
+       {
+        "id": "Hanya bekerja di bagian pencucian"
+       },
+       {
+        "id": "Minum obat lalu bekerja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Siapa pun dengan gejala tersebut tidak boleh bekerja dan harus ke rumah sakit. (Modul hal. 15.)"
+      },
+      "ref": {
+       "p": 15
+      }
+     },
+     {
+      "q": {
+       "id": "Jika ada luka pada tangan atau jari, yang dilakukan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Memasang perban lalu memakai sarung tangan"
+       },
+       {
+        "id": "Dibiarkan terbuka agar cepat kering"
+       },
+       {
+        "id": "Memakai cincin untuk menutup luka"
+       },
+       {
+        "id": "Menyuruh orang lain mengerjakan tanpa lapor"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gunakan perban lalu sarung tangan; tangan tetap dicuci walau memakai sarung tangan. (Modul hal. 15.)"
+      },
+      "ref": {
+       "p": 15
+      }
+     },
+     {
+      "q": {
+       "id": "Perhiasan yang tidak boleh dipakai saat bekerja menyiapkan makanan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Jam tangan, kalung, cincin, anting"
+       },
+       {
+        "id": "Hanya anting"
+       },
+       {
+        "id": "Hanya kalung"
+       },
+       {
+        "id": "Semua boleh asal bersih"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pastikan karyawan tidak memakai perhiasan seperti jam tangan, kalung, cincin, anting. (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "Langkah terakhir pada prosedur cuci tangan modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sterilisasi dengan alkohol"
+       },
+       {
+        "id": "Menyeka dengan celemek"
+       },
+       {
+        "id": "Mengibaskan tangan"
+       },
+       {
+        "id": "Menyentuh gagang pintu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah mengeringkan tangan, lakukan sterilisasi dengan alkohol (langkah K). (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "Cara tambahan yang sangat efektif menurut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencuci tangan dua kali"
+       },
+       {
+        "id": "Mencuci tangan sekali sangat lama"
+       },
+       {
+        "id": "Memakai air hangat saja"
+       },
+       {
+        "id": "Menggosok dengan kain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mencuci tangan dua kali sangat efektif (ulangi langkah B–I). (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s6-q",
+    "title": {
+     "id": "Latihan: 5S, Pembersihan Terjadwal, dan Pembuangan Sampah",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "SEITON dalam prinsip 5S berarti…"
+      },
+      "opts": [
+       {
+        "id": "Menata rapi dan mengembalikan benda ke tempatnya"
+       },
+       {
+        "id": "Membuang barang tak perlu"
+       },
+       {
+        "id": "Membersihkan lantai"
+       },
+       {
+        "id": "Membiasakan hal baik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "SEITON = menata rapi: tentukan tempat tiap benda dan kembalikan setelah dipakai. (Modul hal. 17.)"
+      },
+      "ref": {
+       "p": 17
+      }
+     },
+     {
+      "q": {
+       "id": "SEIRI berarti…"
+      },
+      "opts": [
+       {
+        "id": "Memisahkan yang perlu dan tidak, lalu membuang yang tidak perlu"
+       },
+       {
+        "id": "Menata rapi"
+       },
+       {
+        "id": "Sanitasi"
+       },
+       {
+        "id": "Kebiasaan baik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "SEIRI = mengorganisir: pisahkan yang diperlukan dan tidak, buang yang tidak diperlukan. (Modul hal. 17.)"
+      },
+      "ref": {
+       "p": 17
+      }
+     },
+     {
+      "q": {
+       "id": "Isi kulkas/freezer dibersihkan…"
+      },
+      "opts": [
+       {
+        "id": "Seminggu sekali (berkala)"
+       },
+       {
+        "id": "Setiap jam"
+       },
+       {
+        "id": "Setahun sekali"
+       },
+       {
+        "id": "Tidak perlu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pembersihan mingguan: isi kulkas/freezer, pipa saluran, lantai (disikat), saluran pembuangan minyak. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "Limbah yang berkaitan dengan ikan kembung (fugu) harus dibuang dalam…"
+      },
+      "opts": [
+       {
+        "id": "Wadah terkunci"
+       },
+       {
+        "id": "Kantong plastik biasa"
+       },
+       {
+        "id": "Tempat sampah terbuka"
+       },
+       {
+        "id": "Saluran air"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Wajib membuang limbah fugu dalam wadah terkunci sesuai peraturan pemerintah. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "Sisa makanan dibuang ke tempat…"
+      },
+      "opts": [
+       {
+        "id": "Khusus berpenutup"
+       },
+       {
+        "id": "Terbuka di dekat meja kerja"
+       },
+       {
+        "id": "Wastafel"
+       },
+       {
+        "id": "Kulkas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Makanan sisa dibuang ke tempat khusus berpenutup agar tidak membiakkan bakteri/mengundang serangga. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s7-q",
+    "title": {
+     "id": "Latihan: Sistem Kebersihan Makanan Berbasis HACCP",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "HACCP adalah singkatan dari…"
+      },
+      "opts": [
+       {
+        "id": "Hazard Analysis and Critical Control Point"
+       },
+       {
+        "id": "Healthy And Clean Cooking Procedure"
+       },
+       {
+        "id": "Hot And Cold Control Plan"
+       },
+       {
+        "id": "Hygiene And Cooking Check Point"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "HACCP = Hazard Analysis and Critical Control Point (Analisis Bahaya dan Titik Pengawasan Penting). (Modul hal. 21.)"
+      },
+      "ref": {
+       "p": 21
+      }
+     },
+     {
+      "q": {
+       "id": "Rentang suhu zona berbahaya adalah…"
+      },
+      "opts": [
+       {
+        "id": "10℃–60℃"
+       },
+       {
+        "id": "0℃–5℃"
+       },
+       {
+        "id": "60℃–100℃"
+       },
+       {
+        "id": "−15℃–0℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada 10℃–60℃ bakteri berkembang biak pesat. (Modul hal. 22.)"
+      },
+      "ref": {
+       "p": 22
+      }
+     },
+     {
+      "q": {
+       "id": "Kari, sup, dan salad kentang termasuk kelompok…"
+      },
+      "opts": [
+       {
+        "id": "Kelompok 3 (dipanaskan, didinginkan, dihangatkan ulang)"
+       },
+       {
+        "id": "Kelompok 1 (didinginkan)"
+       },
+       {
+        "id": "Kelompok 2 (dimasak, disajikan panas)"
+       },
+       {
+        "id": "Tidak termasuk kelompok mana pun"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kelompok 3 contohnya kari, sup, saus, tare, salad kentang. (Modul hal. 21.)"
+      },
+      "ref": {
+       "p": 21
+      }
+     },
+     {
+      "q": {
+       "id": "Suhu inti daging yang dimasak (Kelompok 2) harus mencapai…"
+      },
+      "opts": [
+       {
+        "id": "75℃ selama minimal 1 menit"
+       },
+       {
+        "id": "50℃ selama 10 menit"
+       },
+       {
+        "id": "60℃ sesaat"
+       },
+       {
+        "id": "100℃ selama 1 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bakteri dalam daging dibasmi dengan suhu inti 75℃ selama setidaknya satu menit. (Modul hal. 24.)"
+      },
+      "ref": {
+       "p": 24
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk Kelompok 1 yang butuh lebih dari 30 menit sebelum disajikan, simpan di…"
+      },
+      "opts": [
+       {
+        "id": "10℃ atau lebih rendah"
+       },
+       {
+        "id": "30℃"
+       },
+       {
+        "id": "Suhu ruang"
+       },
+       {
+        "id": "60℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penting menyimpan makanan pada suhu 10℃ atau lebih rendah jika perlu waktu lebih dari 30 menit untuk menyajikannya. (Modul hal. 23.)"
+      },
+      "ref": {
+       "p": 23
+      }
+     },
+     {
+      "q": {
+       "id": "Pada Kelompok 3, saat makanan dihangatkan ulang harus…"
+      },
+      "opts": [
+       {
+        "id": "Sampai mendidih (bergelembung)"
+       },
+       {
+        "id": "Hangat saja"
+       },
+       {
+        "id": "Hanya dipanaskan permukaannya"
+       },
+       {
+        "id": "Tidak perlu dipanaskan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat menghangatkan kembali, pastikan hingga mendidih (makanan bergelembung). (Modul hal. 25.)"
+      },
+      "ref": {
+       "p": 25
+      }
+     }
+    ]
+   },
+   {
+    "id": "f1s8-q",
+    "title": {
+     "id": "Latihan: Titik Pengawasan Lain & Catatan Kebersihan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Telur ayam harus dimasak hingga suhu inti…"
+      },
+      "opts": [
+       {
+        "id": "70℃ selama minimal 1 menit"
+       },
+       {
+        "id": "50℃ selama 10 detik"
+       },
+       {
+        "id": "100℃ selama 1 jam"
+       },
+       {
+        "id": "30℃ sesaat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Telur dimasak hingga suhu internal 70℃ selama setidaknya satu menit. (Modul hal. 27.)"
+      },
+      "ref": {
+       "p": 27
+      }
+     },
+     {
+      "q": {
+       "id": "Hati sapi dan babi…"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh dimakan mentah; masak 75℃ ≥1 menit"
+       },
+       {
+        "id": "Boleh mentah bila segar"
+       },
+       {
+        "id": "Cukup dibilas saja"
+       },
+       {
+        "id": "Dimasak 40℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kedua bahan tidak boleh dikonsumsi mentah; masak hingga 75℃ selama minimal 1 menit. (Modul hal. 27.)"
+      },
+      "ref": {
+       "p": 27
+      }
+     },
+     {
+      "q": {
+       "id": "Pencegahan Anisakis pada ikan meliputi…"
+      },
+      "opts": [
+       {
+        "id": "Membekukan ≥24 jam pada −20℃ ke bawah atau memasak cukup panas"
+       },
+       {
+        "id": "Merendam dalam air tawar semalam"
+       },
+       {
+        "id": "Menambah garam saja"
+       },
+       {
+        "id": "Mendiamkan di suhu ruang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bekukan ikan setidaknya 24 jam di −20℃ ke bawah, atau masak ≥1 menit pada 60℃ / 70℃ ke atas. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     },
+     {
+      "q": {
+       "id": "Mana yang termasuk benda asing LUNAK?"
+      },
+      "opts": [
+       {
+        "id": "Rambut, serangga, carikan kertas"
+       },
+       {
+        "id": "Serpihan logam"
+       },
+       {
+        "id": "Pecahan kaca"
+       },
+       {
+        "id": "Batu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benda asing lunak: rambut, carikan kertas, bagian plastik vinil, serangga. (Modul hal. 27.)"
+      },
+      "ref": {
+       "p": 27
+      }
+     },
+     {
+      "q": {
+       "id": "Salah satu manfaat menyimpan catatan pengawasan kebersihan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menjadi bukti bahwa pengawasan dilaksanakan dengan benar jika timbul masalah"
+       },
+       {
+        "id": "Mengurangi jumlah pelanggan"
+       },
+       {
+        "id": "Menghindari cuci tangan"
+       },
+       {
+        "id": "Menghemat bahan baku"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Catatan menyediakan bukti bahwa pengawasan kebersihan sudah dilaksanakan dengan benar jika timbul masalah. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     }
+    ]
+   }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 2 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Potongan daging sapi berlemak sangat rendah, lembut, dan cocok digoreng (cutlet) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Filet has dalam (Hire)"
+       },
+       {
+        "id": "Sengkel (Sune)"
+       },
+       {
+        "id": "Sandung lamur (Katabara)"
+       },
+       {
+        "id": "Sampil (Kata)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hire: potongan halus dan lembut dengan lemak rendah, cocok digoreng; dipakai steak dan cutlet. (Modul hal. 46.)"
+      },
+      "ref": {
+       "p": 46
+      }
+     },
+     {
+      "q": {
+       "id": "Potongan daging ayam dengan lemak terendah dan rasa polos yang dipakai untuk chawanmushi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dada bagian bawah (Sasami)"
+       },
+       {
+        "id": "Paha (Momo)"
+       },
+       {
+        "id": "Sayap (Teba)"
+       },
+       {
+        "id": "Dada (Mune) dengan kulit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sasami memiliki kadar lemak terendah, mengandung protein, rasanya polos; dipakai chawanmushi. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Bagian ayam yang kaya kolagen adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sayap (Teba)"
+       },
+       {
+        "id": "Dada (Mune)"
+       },
+       {
+        "id": "Sasami"
+       },
+       {
+        "id": "Hati"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sayap (Teba) kaya akan kolagen. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Daikon (lobak putih) dan hakusai (sawi putih) sedang musim pada…"
+      },
+      "opts": [
+       {
+        "id": "Musim dingin"
+       },
+       {
+        "id": "Musim panas"
+       },
+       {
+        "id": "Musim semi"
+       },
+       {
+        "id": "Sepanjang tahun sama"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Musim dingin: lobak putih, sawi putih, brokoli, bawang daun. (Modul hal. 52.)"
+      },
+      "ref": {
+       "p": 52
+      }
+     },
+     {
+      "q": {
+       "id": "Terong, tomat, dan timun Jepang termasuk…"
+      },
+      "opts": [
+       {
+        "id": "Sayuran buah"
+       },
+       {
+        "id": "Sayuran umbi"
+       },
+       {
+        "id": "Sayuran daun"
+       },
+       {
+        "id": "Jamur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sayuran buah: terong, tomat, timun Jepang, paprika, kabocha, edamame, dll. (Modul hal. 51.)"
+      },
+      "ref": {
+       "p": 51
+      }
+     },
+     {
+      "q": {
+       "id": "Menurut modul, persiapan dasar dan penyajian hidangan…"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh berlangsung di saat dan tempat yang sama"
+       },
+       {
+        "id": "Sebaiknya di tempat yang sama agar cepat"
+       },
+       {
+        "id": "Boleh bebas"
+       },
+       {
+        "id": "Hanya dilakukan oleh satu orang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Persiapan dasar dan penyajian tidak boleh berlangsung di saat dan tempat yang sama. (Modul hal. 54.)"
+      },
+      "ref": {
+       "p": 54
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk mencegah apel dan pir berubah warna, direndam dalam…"
+      },
+      "opts": [
+       {
+        "id": "Air garam"
+       },
+       {
+        "id": "Air cuka"
+       },
+       {
+        "id": "Minyak"
+       },
+       {
+        "id": "Air panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Air garam untuk apel, pir; air cuka untuk gobou dan akar teratai; air biasa untuk umbi, kentang, terong. (Modul hal. 56.)"
+      },
+      "ref": {
+       "p": 56
+      }
+     },
+     {
+      "q": {
+       "id": "Tahap ikan \"filet\" berarti…"
+      },
+      "opts": [
+       {
+        "id": "Tanpa kepala, insang, organ, tulang utama, sirip, dan ekor"
+       },
+       {
+        "id": "Hanya organ dibuang"
+       },
+       {
+        "id": "Belum diproses"
+       },
+       {
+        "id": "Hanya kepala dibuang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Filet: selain tanpa kepala, insang, organ, juga membuang tulang utama, sirip, dan ekor. (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Pati beras menjadi pati alfa bila dimasak minimal…"
+      },
+      "opts": [
+       {
+        "id": "20 menit pada ≥98℃"
+       },
+       {
+        "id": "5 menit pada 60℃"
+       },
+       {
+        "id": "1 jam pada 50℃"
+       },
+       {
+        "id": "2 menit pada 70℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pati beras harus dimasak setidaknya 20 menit dengan suhu 98℃ atau lebih tinggi. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Suhu minyak untuk menggoreng sekitar…"
+      },
+      "opts": [
+       {
+        "id": "180℃"
+       },
+       {
+        "id": "60℃"
+       },
+       {
+        "id": "100℃ saja"
+       },
+       {
+        "id": "40℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Minyak dipanaskan hingga sekitar 180℃; hati-hati agar tidak terkena minyak. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Memanggang langsung di atas api disebut…"
+      },
+      "opts": [
+       {
+        "id": "Jikabiyaki"
+       },
+       {
+        "id": "Kansetsu-yaki"
+       },
+       {
+        "id": "Niru"
+       },
+       {
+        "id": "Musu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jikabiyaki = langsung; kansetsu-yaki = tidak langsung di hot-plate/wajan. (Modul hal. 60.)"
+      },
+      "ref": {
+       "p": 60
+      }
+     },
+     {
+      "q": {
+       "id": "Perlengkapan yang mendinginkan hidangan panas dengan cepat adalah…"
+      },
+      "opts": [
+       {
+        "id": "Blast chiller"
+       },
+       {
+        "id": "Penghangat nasi"
+       },
+       {
+        "id": "Pembuat es"
+       },
+       {
+        "id": "Griddle"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Blast chiller mendinginkan hidangan panas dengan cepat; pendingin vakum lebih kuat lagi. (Modul hal. 66.)"
+      },
+      "ref": {
+       "p": 66
+      }
+     },
+     {
+      "q": {
+       "id": "Termometer jarum dipakai untuk mengukur…"
+      },
+      "opts": [
+       {
+        "id": "Suhu inti makanan"
+       },
+       {
+        "id": "Kelembapan"
+       },
+       {
+        "id": "Berat"
+       },
+       {
+        "id": "Waktu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Termometer jarum mengukur suhu inti dalam makanan. (Modul hal. 72.)"
+      },
+      "ref": {
+       "p": 72
+      }
+     },
+     {
+      "q": {
+       "id": "Pisau serbaguna bernama…"
+      },
+      "opts": [
+       {
+        "id": "Santoku"
+       },
+       {
+        "id": "Pisau sashimi"
+       },
+       {
+        "id": "Pisau roti"
+       },
+       {
+        "id": "Golok dapur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pisau dapur (Santoku) = pisau serbaguna. (Modul hal. 70.)"
+      },
+      "ref": {
+       "p": 70
+      }
+     },
+     {
+      "q": {
+       "id": "Panci kaldu atau wajan berisi cairan hanya diisi sampai…"
+      },
+      "opts": [
+       {
+        "id": "80%"
+       },
+       {
+        "id": "100%"
+       },
+       {
+        "id": "50% saja"
+       },
+       {
+        "id": "95%"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Isi hingga 80% saja agar tidak terbakar bila cairan tumpah saat mendidih. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum membersihkan mesin pengiris, langkah yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Matikan mesin dan cabut steker"
+       },
+       {
+        "id": "Biarkan menyala agar cepat"
+       },
+       {
+        "id": "Gunakan tangan basah"
+       },
+       {
+        "id": "Tinggalkan lalu kembali nanti"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mencuci perlengkapan: matikan, cabut steker, pastikan mata pisau berhenti. (Modul hal. 76.)"
+      },
+      "ref": {
+       "p": 76
+      }
+     },
+     {
+      "q": {
+       "id": "Peralatan makan retak sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tidak digunakan"
+       },
+       {
+        "id": "Tetap dipakai sampai pecah"
+       },
+       {
+        "id": "Dicampur dengan yang utuh"
+       },
+       {
+        "id": "Dipakai untuk makanan panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan gunakan peralatan makan jika ada bagian hilang atau retak. (Modul hal. 77.)"
+      },
+      "ref": {
+       "p": 77
+      }
+     },
+     {
+      "q": {
+       "id": "Jika api merambat hingga langit-langit, yang harus dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Segera evakuasi"
+       },
+       {
+        "id": "Terus memadamkan sendirian"
+       },
+       {
+        "id": "Menyiram minyak"
+       },
+       {
+        "id": "Membuka semua pintu dan menunggu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Evakuasi segera dari tempat jika kebakaran besar terjadi (api merambat hingga langit-langit). (Modul hal. 79.)"
+      },
+      "ref": {
+       "p": 79
+      }
+     },
+     {
+      "q": {
+       "id": "Puntung rokok dibuang ke…"
+      },
+      "opts": [
+       {
+        "id": "Tempat bertutup berisi air di luar dapur"
+       },
+       {
+        "id": "Tempat sampah dapur"
+       },
+       {
+        "id": "Wastafel dapur"
+       },
+       {
+        "id": "Lantai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Puntung dan korek dibuang di tempat khusus (bertutup) dan berisi air; merokok hanya di tempat yang disediakan di luar dapur. (Modul hal. 78.)"
+      },
+      "ref": {
+       "p": 78
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 2 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Potongan sapi keras, banyak urat, melunak bila digodok lama adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sengkel (Sune)"
+       },
+       {
+        "id": "Has luar (Saaroin)"
+       },
+       {
+        "id": "Tanjung (Ranpu)"
+       },
+       {
+        "id": "Filet (Hire)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sengkel (Sune) keras dan berurat, melunak bila digodok lama karena kolagen larut. (Modul hal. 46.)"
+      },
+      "ref": {
+       "p": 46
+      }
+     },
+     {
+      "q": {
+       "id": "Pada babi Punuk-panggang (Kata-rosu), sebelum dimasak perlu…"
+      },
+      "opts": [
+       {
+        "id": "Membuang bagian urat"
+       },
+       {
+        "id": "Merendam dalam cuka"
+       },
+       {
+        "id": "Membekukan 24 jam"
+       },
+       {
+        "id": "Mengupas kulitnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bagian urat perlu dibuang sebelum digunakan dalam masakan. (Modul hal. 47.)"
+      },
+      "ref": {
+       "p": 47
+      }
+     },
+     {
+      "q": {
+       "id": "\"Sedang musim\" berarti…"
+      },
+      "opts": [
+       {
+        "id": "Saat bahan paling segar dan enak dimakan"
+       },
+       {
+        "id": "Saat bahan paling murah"
+       },
+       {
+        "id": "Saat bahan dibekukan"
+       },
+       {
+        "id": "Saat bahan diimpor"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sedang musim = periode saat bahan berada dalam kondisi paling segar dan enak untuk dimakan. (Modul hal. 50.)"
+      },
+      "ref": {
+       "p": 50
+      }
+     },
+     {
+      "q": {
+       "id": "Wortel, kentang, dan akar teratai termasuk…"
+      },
+      "opts": [
+       {
+        "id": "Sayuran umbi"
+       },
+       {
+        "id": "Sayuran daun"
+       },
+       {
+        "id": "Sayuran buah"
+       },
+       {
+        "id": "Buah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sayuran umbi: wortel, lobak putih, akar teratai, kentang, talas, kabu, gobou. (Modul hal. 51.)"
+      },
+      "ref": {
+       "p": 51
+      }
+     },
+     {
+      "q": {
+       "id": "Salmon (sake) dan cakalang (katsuo) menurut modul sedang musim…"
+      },
+      "opts": [
+       {
+        "id": "Gugur"
+       },
+       {
+        "id": "Semi"
+       },
+       {
+        "id": "Panas"
+       },
+       {
+        "id": "Dingin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Musim gugur: cakalang, salmon, sauri pasifik, saba. (Modul hal. 50.)"
+      },
+      "ref": {
+       "p": 50
+      }
+     },
+     {
+      "q": {
+       "id": "Cara defrost yang disebut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Di dalam kulkas atau dengan air mengalir"
+       },
+       {
+        "id": "Di suhu ruang semalaman"
+       },
+       {
+        "id": "Di dekat kompor"
+       },
+       {
+        "id": "Direndam air hangat sampai lunak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hindari penambahan bakteri saat defrost; mis. defrost menggunakan kulkas atau air mengalir. (Modul hal. 54.)"
+      },
+      "ref": {
+       "p": 54
+      }
+     },
+     {
+      "q": {
+       "id": "Potongan setengah lingkaran bernama…"
+      },
+      "opts": [
+       {
+        "id": "Hangetsugiri"
+       },
+       {
+        "id": "Wagiri"
+       },
+       {
+        "id": "Sengiri"
+       },
+       {
+        "id": "Araregiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hangetsugiri = membagi dua hasil Wagiri menjadi setengah lingkaran. (Modul hal. 55.)"
+      },
+      "ref": {
+       "p": 55
+      }
+     },
+     {
+      "q": {
+       "id": "Teknik memfilet ikan menjadi tiga bagian disebut…"
+      },
+      "opts": [
+       {
+        "id": "Sanmai oroshi (sakana no sabakikata)"
+       },
+       {
+        "id": "Shikishigiri"
+       },
+       {
+        "id": "Katsuramuki"
+       },
+       {
+        "id": "Mijingiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Teknik filet: paruh kiri, paruh kanan, dan tulang utama; sering untuk sashimi. (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Menambahkan cuka ke air rebusan membuat…"
+      },
+      "opts": [
+       {
+        "id": "Warna putih bahan lebih cerah"
+       },
+       {
+        "id": "Hijau sayur lebih jelas"
+       },
+       {
+        "id": "Bahan lebih lembek"
+       },
+       {
+        "id": "Minyak lebih panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cuka → warna putih bahan lebih cerah; natrium bikarbonat → hijau sayur semakin jelas; garam → tidak mudah hancur. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Tanda minyak goreng bermutu buruk saat dipanaskan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Muncul banyak gelembung"
+       },
+       {
+        "id": "Berbau harum"
+       },
+       {
+        "id": "Menjadi lebih jernih"
+       },
+       {
+        "id": "Tidak berubah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika memanaskan minyak yang sudah buruk, akan muncul banyak gelembung. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membuat onigiri dan sushi dengan tangan, yang wajib dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Cuci tangan bersih dan pakai sarung tangan sekali pakai"
+       },
+       {
+        "id": "Cukup mengelap tangan"
+       },
+       {
+        "id": "Memakai perhiasan agar menarik"
+       },
+       {
+        "id": "Tidak perlu apa pun"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hidangan dikonsumsi tanpa pemanasan/sterilisasi, jadi tangan dicuci bersih dan pakai sarung tangan sekali pakai. (Modul hal. 62.)"
+      },
+      "ref": {
+       "p": 62
+      }
+     },
+     {
+      "q": {
+       "id": "Alat untuk mengukur suhu permukaan bahan memakai sinar inframerah adalah…"
+      },
+      "opts": [
+       {
+        "id": "Termometer inframerah"
+       },
+       {
+        "id": "Termometer jarum"
+       },
+       {
+        "id": "Higrometer"
+       },
+       {
+        "id": "Timbangan digital"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Termometer inframerah mengukur suhu permukaan bahan baku/makanan. (Modul hal. 72.)"
+      },
+      "ref": {
+       "p": 72
+      }
+     },
+     {
+      "q": {
+       "id": "Perlengkapan yang mensterilisasi perkakas dengan sinar UV dan udara panas adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pensteril"
+       },
+       {
+        "id": "Pencuci piring kecil"
+       },
+       {
+        "id": "Jet oven"
+       },
+       {
+        "id": "Pengemas vakum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pensteril mensterilisasi perkakas memakai sinar UV dan udara panas. (Modul hal. 67.)"
+      },
+      "ref": {
+       "p": 67
+      }
+     },
+     {
+      "q": {
+       "id": "Batas wajar mengangkat benda berat menurut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "35–40% berat badan"
+       },
+       {
+        "id": "100% berat badan"
+       },
+       {
+        "id": "10% berat badan"
+       },
+       {
+        "id": "Tidak ada batas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Umumnya tidak disarankan mengangkat lebih dari 35–40% berat tubuh; bila lebih, angkat berdua. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Saat melewati turunan atau tangga, troli sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Ditarik perlahan"
+       },
+       {
+        "id": "Didorong cepat"
+       },
+       {
+        "id": "Dilepas"
+       },
+       {
+        "id": "Ditumpuk tinggi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada dasarnya troli didorong; saat turunan/tangga tarik perlahan. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Alasan \"dapur tidak basah\" adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah tergelincir dan pertumbuhan bakteri/jamur"
+       },
+       {
+        "id": "Menghemat air"
+       },
+       {
+        "id": "Mempercepat memasak"
+       },
+       {
+        "id": "Mengurangi suara"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lantai basah menimbulkan bahaya tergelincir serta bakteri dan jamur. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan memakai alat pemadam kebakaran yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tarik pin, arahkan selang ke api, remas tuas"
+       },
+       {
+        "id": "Remas tuas, tarik pin, buang"
+       },
+       {
+        "id": "Arahkan ke langit-langit, tiup"
+       },
+       {
+        "id": "Lemparkan alat ke api"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cara: (A) tarik pin pengaman, (B) arahkan selang ke sumber kebakaran, (C) remas tuas. (Modul hal. 79.)"
+      },
+      "ref": {
+       "p": 79
+      }
+     },
+     {
+      "q": {
+       "id": "Cara mencabut steker yang benar…"
+      },
+      "opts": [
+       {
+        "id": "Memegang kepala steker"
+       },
+       {
+        "id": "Menarik kabelnya"
+       },
+       {
+        "id": "Memutar kabel"
+       },
+       {
+        "id": "Menyiram air"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat mencabut steker, pegang kepalanya; jangan menarik kabelnya. (Modul hal. 78.)"
+      },
+      "ref": {
+       "p": 78
+      }
+     },
+     {
+      "q": {
+       "id": "Minyak bekas harus…"
+      },
+      "opts": [
+       {
+        "id": "Dimasukkan ke wadah bertutup dan dijauhkan dari api"
+       },
+       {
+        "id": "Dibiarkan di dekat kompor"
+       },
+       {
+        "id": "Dibuang ke saluran"
+       },
+       {
+        "id": "Disimpan di tempat panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Minyak bekas dimasukkan ke wadah bertutup dan dijauhkan dari api. (Modul hal. 78.)"
+      },
+      "ref": {
+       "p": 78
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q3",
+    "title": {
+     "id": "Arti kosakata Bab 2",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「牛肉」（ぎゅうにく）?",
+       "jp": "「牛肉」（ぎゅうにく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "potong korek api",
+        "jp": "potong korek api"
+       },
+       {
+        "id": "tersulut api",
+        "jp": "tersulut api"
+       },
+       {
+        "id": "daging sapi",
+        "jp": "daging sapi"
+       },
+       {
+        "id": "cincang halus",
+        "jp": "cincang halus"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "牛肉 (ぎゅうにく) = daging sapi. Sumber: daftar kosakata modul hal. -.",
+       "jp": "牛肉（ぎゅうにく）＝ daging sapi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ステーキ」（すてーき）?",
+       "jp": "「ステーキ」（すてーき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "cincang halus",
+        "jp": "cincang halus"
+       },
+       {
+        "id": "potong seperempat (ginkgo)",
+        "jp": "potong seperempat (ginkgo)"
+       },
+       {
+        "id": "sedang musim",
+        "jp": "sedang musim"
+       },
+       {
+        "id": "steak",
+        "jp": "steak"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "ステーキ (すてーき) = steak. Sumber: daftar kosakata modul hal. -.",
+       "jp": "ステーキ（すてーき）＝ steak"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「人参」（にんじん）?",
+       "jp": "「人参」（にんじん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kebakaran",
+        "jp": "kebakaran"
+       },
+       {
+        "id": "pengiris",
+        "jp": "pengiris"
+       },
+       {
+        "id": "wortel",
+        "jp": "wortel"
+       },
+       {
+        "id": "timbangan",
+        "jp": "timbangan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "人参 (にんじん) = wortel. Sumber: daftar kosakata modul hal. -.",
+       "jp": "人参（にんじん）＝ wortel"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ほうれん草」（ほうれんそう）?",
+       "jp": "「ほうれん草」（ほうれんそう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "memanggang",
+        "jp": "memanggang"
+       },
+       {
+        "id": "timer",
+        "jp": "timer"
+       },
+       {
+        "id": "timun Jepang",
+        "jp": "timun Jepang"
+       },
+       {
+        "id": "bayam Jepang",
+        "jp": "bayam Jepang"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "ほうれん草 (ほうれんそう) = bayam Jepang. Sumber: daftar kosakata modul hal. -.",
+       "jp": "ほうれん草（ほうれんそう）＝ bayam Jepang"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「消火器」（しょうかき）?",
+       "jp": "「消火器」（しょうかき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "persiapan dasar",
+        "jp": "persiapan dasar"
+       },
+       {
+        "id": "sedang musim",
+        "jp": "sedang musim"
+       },
+       {
+        "id": "potong bundar (wagiri)",
+        "jp": "potong bundar (wagiri)"
+       },
+       {
+        "id": "alat pemadam",
+        "jp": "alat pemadam"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "消火器 (しょうかき) = alat pemadam. Sumber: daftar kosakata modul hal. -.",
+       "jp": "消火器（しょうかき）＝ alat pemadam"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「スライサー」（すらいさー）?",
+       "jp": "「スライサー」（すらいさー）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "wajan penggorengan",
+        "jp": "wajan penggorengan"
+       },
+       {
+        "id": "merebus",
+        "jp": "merebus"
+       },
+       {
+        "id": "pengiris",
+        "jp": "pengiris"
+       },
+       {
+        "id": "daging ayam",
+        "jp": "daging ayam"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "スライサー (すらいさー) = pengiris. Sumber: daftar kosakata modul hal. -.",
+       "jp": "スライサー（すらいさー）＝ pengiris"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「魚」（さかな）?",
+       "jp": "「魚」（さかな）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ikan",
+        "jp": "ikan"
+       },
+       {
+        "id": "has dalam (hire)",
+        "jp": "has dalam (hire)"
+       },
+       {
+        "id": "mengaduk dengan saus",
+        "jp": "mengaduk dengan saus"
+       },
+       {
+        "id": "bawang bombay",
+        "jp": "bawang bombay"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "魚 (さかな) = ikan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "魚（さかな）＝ ikan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「怪我」（けが）?",
+       "jp": "「怪我」（けが）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "cedera",
+        "jp": "cedera"
+       },
+       {
+        "id": "tersulut api",
+        "jp": "tersulut api"
+       },
+       {
+        "id": "bahan mudah terbakar",
+        "jp": "bahan mudah terbakar"
+       },
+       {
+        "id": "ikan",
+        "jp": "ikan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "怪我 (けが) = cedera. Sumber: daftar kosakata modul hal. -.",
+       "jp": "怪我（けが）＝ cedera"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「避難」（ひなん）?",
+       "jp": "「避難」（ひなん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "benda berat",
+        "jp": "benda berat"
+       },
+       {
+        "id": "pengiris",
+        "jp": "pengiris"
+       },
+       {
+        "id": "paha/kapsim",
+        "jp": "paha/kapsim"
+       },
+       {
+        "id": "evakuasi",
+        "jp": "evakuasi"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "避難 (ひなん) = evakuasi. Sumber: daftar kosakata modul hal. -.",
+       "jp": "避難（ひなん）＝ evakuasi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「引火」（いんか）?",
+       "jp": "「引火」（いんか）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "merebus perlahan",
+        "jp": "merebus perlahan"
+       },
+       {
+        "id": "tersulut api",
+        "jp": "tersulut api"
+       },
+       {
+        "id": "bahan mudah terbakar",
+        "jp": "bahan mudah terbakar"
+       },
+       {
+        "id": "menumis",
+        "jp": "menumis"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "引火 (いんか) = tersulut api. Sumber: daftar kosakata modul hal. -.",
+       "jp": "引火（いんか）＝ tersulut api"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「コンセント」（こんせんと）?",
+       "jp": "「コンセント」（こんせんと）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "cedera",
+        "jp": "cedera"
+       },
+       {
+        "id": "stop kontak",
+        "jp": "stop kontak"
+       },
+       {
+        "id": "dada bagian bawah ayam",
+        "jp": "dada bagian bawah ayam"
+       },
+       {
+        "id": "potong setengah bulan",
+        "jp": "potong setengah bulan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "コンセント (こんせんと) = stop kontak. Sumber: daftar kosakata modul hal. -.",
+       "jp": "コンセント（こんせんと）＝ stop kontak"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「廃油」（はいゆ）?",
+       "jp": "「廃油」（はいゆ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "minyak bekas",
+        "jp": "minyak bekas"
+       },
+       {
+        "id": "memanggang",
+        "jp": "memanggang"
+       },
+       {
+        "id": "evakuasi",
+        "jp": "evakuasi"
+       },
+       {
+        "id": "merebus perlahan",
+        "jp": "merebus perlahan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "廃油 (はいゆ) = minyak bekas. Sumber: daftar kosakata modul hal. -.",
+       "jp": "廃油（はいゆ）＝ minyak bekas"
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s1-q",
+    "title": {
+     "id": "Latihan: Jenis Daging dan Potongannya",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Potongan daging sapi berlemak sangat rendah, lembut, dan cocok digoreng (cutlet) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Filet has dalam (Hire)"
+       },
+       {
+        "id": "Sengkel (Sune)"
+       },
+       {
+        "id": "Sandung lamur (Katabara)"
+       },
+       {
+        "id": "Sampil (Kata)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hire: potongan halus dan lembut dengan lemak rendah, cocok digoreng; dipakai steak dan cutlet. (Modul hal. 46.)"
+      },
+      "ref": {
+       "p": 46
+      }
+     },
+     {
+      "q": {
+       "id": "Potongan sapi keras, banyak urat, melunak bila digodok lama adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sengkel (Sune)"
+       },
+       {
+        "id": "Has luar (Saaroin)"
+       },
+       {
+        "id": "Tanjung (Ranpu)"
+       },
+       {
+        "id": "Filet (Hire)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sengkel (Sune) keras dan berurat, melunak bila digodok lama karena kolagen larut. (Modul hal. 46.)"
+      },
+      "ref": {
+       "p": 46
+      }
+     },
+     {
+      "q": {
+       "id": "Potongan daging ayam dengan lemak terendah dan rasa polos yang dipakai untuk chawanmushi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dada bagian bawah (Sasami)"
+       },
+       {
+        "id": "Paha (Momo)"
+       },
+       {
+        "id": "Sayap (Teba)"
+       },
+       {
+        "id": "Dada (Mune) dengan kulit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sasami memiliki kadar lemak terendah, mengandung protein, rasanya polos; dipakai chawanmushi. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Pada babi Punuk-panggang (Kata-rosu), sebelum dimasak perlu…"
+      },
+      "opts": [
+       {
+        "id": "Membuang bagian urat"
+       },
+       {
+        "id": "Merendam dalam cuka"
+       },
+       {
+        "id": "Membekukan 24 jam"
+       },
+       {
+        "id": "Mengupas kulitnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bagian urat perlu dibuang sebelum digunakan dalam masakan. (Modul hal. 47.)"
+      },
+      "ref": {
+       "p": 47
+      }
+     },
+     {
+      "q": {
+       "id": "Bagian ayam yang kaya kolagen adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sayap (Teba)"
+       },
+       {
+        "id": "Dada (Mune)"
+       },
+       {
+        "id": "Sasami"
+       },
+       {
+        "id": "Hati"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sayap (Teba) kaya akan kolagen. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s2-q",
+    "title": {
+     "id": "Latihan: Hidangan Laut, Sayuran, Buah dan Musimnya",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "\"Sedang musim\" berarti…"
+      },
+      "opts": [
+       {
+        "id": "Saat bahan paling segar dan enak dimakan"
+       },
+       {
+        "id": "Saat bahan paling murah"
+       },
+       {
+        "id": "Saat bahan dibekukan"
+       },
+       {
+        "id": "Saat bahan diimpor"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sedang musim = periode saat bahan berada dalam kondisi paling segar dan enak untuk dimakan. (Modul hal. 50.)"
+      },
+      "ref": {
+       "p": 50
+      }
+     },
+     {
+      "q": {
+       "id": "Daikon (lobak putih) dan hakusai (sawi putih) sedang musim pada…"
+      },
+      "opts": [
+       {
+        "id": "Musim dingin"
+       },
+       {
+        "id": "Musim panas"
+       },
+       {
+        "id": "Musim semi"
+       },
+       {
+        "id": "Sepanjang tahun sama"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Musim dingin: lobak putih, sawi putih, brokoli, bawang daun. (Modul hal. 52.)"
+      },
+      "ref": {
+       "p": 52
+      }
+     },
+     {
+      "q": {
+       "id": "Wortel, kentang, dan akar teratai termasuk…"
+      },
+      "opts": [
+       {
+        "id": "Sayuran umbi"
+       },
+       {
+        "id": "Sayuran daun"
+       },
+       {
+        "id": "Sayuran buah"
+       },
+       {
+        "id": "Buah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sayuran umbi: wortel, lobak putih, akar teratai, kentang, talas, kabu, gobou. (Modul hal. 51.)"
+      },
+      "ref": {
+       "p": 51
+      }
+     },
+     {
+      "q": {
+       "id": "Terong, tomat, dan timun Jepang termasuk…"
+      },
+      "opts": [
+       {
+        "id": "Sayuran buah"
+       },
+       {
+        "id": "Sayuran umbi"
+       },
+       {
+        "id": "Sayuran daun"
+       },
+       {
+        "id": "Jamur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sayuran buah: terong, tomat, timun Jepang, paprika, kabocha, edamame, dll. (Modul hal. 51.)"
+      },
+      "ref": {
+       "p": 51
+      }
+     },
+     {
+      "q": {
+       "id": "Salmon (sake) dan cakalang (katsuo) menurut modul sedang musim…"
+      },
+      "opts": [
+       {
+        "id": "Gugur"
+       },
+       {
+        "id": "Semi"
+       },
+       {
+        "id": "Panas"
+       },
+       {
+        "id": "Dingin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Musim gugur: cakalang, salmon, sauri pasifik, saba. (Modul hal. 50.)"
+      },
+      "ref": {
+       "p": 50
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s3-q",
+    "title": {
+     "id": "Latihan: Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Menurut modul, persiapan dasar dan penyajian hidangan…"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh berlangsung di saat dan tempat yang sama"
+       },
+       {
+        "id": "Sebaiknya di tempat yang sama agar cepat"
+       },
+       {
+        "id": "Boleh bebas"
+       },
+       {
+        "id": "Hanya dilakukan oleh satu orang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Persiapan dasar dan penyajian tidak boleh berlangsung di saat dan tempat yang sama. (Modul hal. 54.)"
+      },
+      "ref": {
+       "p": 54
+      }
+     },
+     {
+      "q": {
+       "id": "Cara defrost yang disebut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "Di dalam kulkas atau dengan air mengalir"
+       },
+       {
+        "id": "Di suhu ruang semalaman"
+       },
+       {
+        "id": "Di dekat kompor"
+       },
+       {
+        "id": "Direndam air hangat sampai lunak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hindari penambahan bakteri saat defrost; mis. defrost menggunakan kulkas atau air mengalir. (Modul hal. 54.)"
+      },
+      "ref": {
+       "p": 54
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk mencegah apel dan pir berubah warna, direndam dalam…"
+      },
+      "opts": [
+       {
+        "id": "Air garam"
+       },
+       {
+        "id": "Air cuka"
+       },
+       {
+        "id": "Minyak"
+       },
+       {
+        "id": "Air panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Air garam untuk apel, pir; air cuka untuk gobou dan akar teratai; air biasa untuk umbi, kentang, terong. (Modul hal. 56.)"
+      },
+      "ref": {
+       "p": 56
+      }
+     },
+     {
+      "q": {
+       "id": "Potongan setengah lingkaran bernama…"
+      },
+      "opts": [
+       {
+        "id": "Hangetsugiri"
+       },
+       {
+        "id": "Wagiri"
+       },
+       {
+        "id": "Sengiri"
+       },
+       {
+        "id": "Araregiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hangetsugiri = membagi dua hasil Wagiri menjadi setengah lingkaran. (Modul hal. 55.)"
+      },
+      "ref": {
+       "p": 55
+      }
+     },
+     {
+      "q": {
+       "id": "Tahap ikan \"filet\" berarti…"
+      },
+      "opts": [
+       {
+        "id": "Tanpa kepala, insang, organ, tulang utama, sirip, dan ekor"
+       },
+       {
+        "id": "Hanya organ dibuang"
+       },
+       {
+        "id": "Belum diproses"
+       },
+       {
+        "id": "Hanya kepala dibuang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Filet: selain tanpa kepala, insang, organ, juga membuang tulang utama, sirip, dan ekor. (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Teknik memfilet ikan menjadi tiga bagian disebut…"
+      },
+      "opts": [
+       {
+        "id": "Sanmai oroshi (sakana no sabakikata)"
+       },
+       {
+        "id": "Shikishigiri"
+       },
+       {
+        "id": "Katsuramuki"
+       },
+       {
+        "id": "Mijingiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Teknik filet: paruh kiri, paruh kanan, dan tulang utama; sering untuk sashimi. (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s4-q",
+    "title": {
+     "id": "Latihan: Metode Memasak: dengan Panas dan tanpa Panas",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pati beras menjadi pati alfa bila dimasak minimal…"
+      },
+      "opts": [
+       {
+        "id": "20 menit pada ≥98℃"
+       },
+       {
+        "id": "5 menit pada 60℃"
+       },
+       {
+        "id": "1 jam pada 50℃"
+       },
+       {
+        "id": "2 menit pada 70℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pati beras harus dimasak setidaknya 20 menit dengan suhu 98℃ atau lebih tinggi. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Menambahkan cuka ke air rebusan membuat…"
+      },
+      "opts": [
+       {
+        "id": "Warna putih bahan lebih cerah"
+       },
+       {
+        "id": "Hijau sayur lebih jelas"
+       },
+       {
+        "id": "Bahan lebih lembek"
+       },
+       {
+        "id": "Minyak lebih panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cuka → warna putih bahan lebih cerah; natrium bikarbonat → hijau sayur semakin jelas; garam → tidak mudah hancur. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Suhu minyak untuk menggoreng sekitar…"
+      },
+      "opts": [
+       {
+        "id": "180℃"
+       },
+       {
+        "id": "60℃"
+       },
+       {
+        "id": "100℃ saja"
+       },
+       {
+        "id": "40℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Minyak dipanaskan hingga sekitar 180℃; hati-hati agar tidak terkena minyak. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Tanda minyak goreng bermutu buruk saat dipanaskan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Muncul banyak gelembung"
+       },
+       {
+        "id": "Berbau harum"
+       },
+       {
+        "id": "Menjadi lebih jernih"
+       },
+       {
+        "id": "Tidak berubah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika memanaskan minyak yang sudah buruk, akan muncul banyak gelembung. (Modul hal. 59.)"
+      },
+      "ref": {
+       "p": 59
+      }
+     },
+     {
+      "q": {
+       "id": "Memanggang langsung di atas api disebut…"
+      },
+      "opts": [
+       {
+        "id": "Jikabiyaki"
+       },
+       {
+        "id": "Kansetsu-yaki"
+       },
+       {
+        "id": "Niru"
+       },
+       {
+        "id": "Musu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jikabiyaki = langsung; kansetsu-yaki = tidak langsung di hot-plate/wajan. (Modul hal. 60.)"
+      },
+      "ref": {
+       "p": 60
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membuat onigiri dan sushi dengan tangan, yang wajib dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Cuci tangan bersih dan pakai sarung tangan sekali pakai"
+       },
+       {
+        "id": "Cukup mengelap tangan"
+       },
+       {
+        "id": "Memakai perhiasan agar menarik"
+       },
+       {
+        "id": "Tidak perlu apa pun"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hidangan dikonsumsi tanpa pemanasan/sterilisasi, jadi tangan dicuci bersih dan pakai sarung tangan sekali pakai. (Modul hal. 62.)"
+      },
+      "ref": {
+       "p": 62
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s5-q",
+    "title": {
+     "id": "Latihan: Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Perlengkapan yang mendinginkan hidangan panas dengan cepat adalah…"
+      },
+      "opts": [
+       {
+        "id": "Blast chiller"
+       },
+       {
+        "id": "Penghangat nasi"
+       },
+       {
+        "id": "Pembuat es"
+       },
+       {
+        "id": "Griddle"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Blast chiller mendinginkan hidangan panas dengan cepat; pendingin vakum lebih kuat lagi. (Modul hal. 66.)"
+      },
+      "ref": {
+       "p": 66
+      }
+     },
+     {
+      "q": {
+       "id": "Alat untuk mengukur suhu permukaan bahan memakai sinar inframerah adalah…"
+      },
+      "opts": [
+       {
+        "id": "Termometer inframerah"
+       },
+       {
+        "id": "Termometer jarum"
+       },
+       {
+        "id": "Higrometer"
+       },
+       {
+        "id": "Timbangan digital"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Termometer inframerah mengukur suhu permukaan bahan baku/makanan. (Modul hal. 72.)"
+      },
+      "ref": {
+       "p": 72
+      }
+     },
+     {
+      "q": {
+       "id": "Termometer jarum dipakai untuk mengukur…"
+      },
+      "opts": [
+       {
+        "id": "Suhu inti makanan"
+       },
+       {
+        "id": "Kelembapan"
+       },
+       {
+        "id": "Berat"
+       },
+       {
+        "id": "Waktu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Termometer jarum mengukur suhu inti dalam makanan. (Modul hal. 72.)"
+      },
+      "ref": {
+       "p": 72
+      }
+     },
+     {
+      "q": {
+       "id": "Perlengkapan yang mensterilisasi perkakas dengan sinar UV dan udara panas adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pensteril"
+       },
+       {
+        "id": "Pencuci piring kecil"
+       },
+       {
+        "id": "Jet oven"
+       },
+       {
+        "id": "Pengemas vakum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pensteril mensterilisasi perkakas memakai sinar UV dan udara panas. (Modul hal. 67.)"
+      },
+      "ref": {
+       "p": 67
+      }
+     },
+     {
+      "q": {
+       "id": "Pisau serbaguna bernama…"
+      },
+      "opts": [
+       {
+        "id": "Santoku"
+       },
+       {
+        "id": "Pisau sashimi"
+       },
+       {
+        "id": "Pisau roti"
+       },
+       {
+        "id": "Golok dapur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pisau dapur (Santoku) = pisau serbaguna. (Modul hal. 70.)"
+      },
+      "ref": {
+       "p": 70
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s6-q",
+    "title": {
+     "id": "Latihan: Keamanan dan Keselamatan Kerja di Dapur",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Batas wajar mengangkat benda berat menurut modul adalah…"
+      },
+      "opts": [
+       {
+        "id": "35–40% berat badan"
+       },
+       {
+        "id": "100% berat badan"
+       },
+       {
+        "id": "10% berat badan"
+       },
+       {
+        "id": "Tidak ada batas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Umumnya tidak disarankan mengangkat lebih dari 35–40% berat tubuh; bila lebih, angkat berdua. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Panci kaldu atau wajan berisi cairan hanya diisi sampai…"
+      },
+      "opts": [
+       {
+        "id": "80%"
+       },
+       {
+        "id": "100%"
+       },
+       {
+        "id": "50% saja"
+       },
+       {
+        "id": "95%"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Isi hingga 80% saja agar tidak terbakar bila cairan tumpah saat mendidih. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Saat melewati turunan atau tangga, troli sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Ditarik perlahan"
+       },
+       {
+        "id": "Didorong cepat"
+       },
+       {
+        "id": "Dilepas"
+       },
+       {
+        "id": "Ditumpuk tinggi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pada dasarnya troli didorong; saat turunan/tangga tarik perlahan. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum membersihkan mesin pengiris, langkah yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Matikan mesin dan cabut steker"
+       },
+       {
+        "id": "Biarkan menyala agar cepat"
+       },
+       {
+        "id": "Gunakan tangan basah"
+       },
+       {
+        "id": "Tinggalkan lalu kembali nanti"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mencuci perlengkapan: matikan, cabut steker, pastikan mata pisau berhenti. (Modul hal. 76.)"
+      },
+      "ref": {
+       "p": 76
+      }
+     },
+     {
+      "q": {
+       "id": "Alasan \"dapur tidak basah\" adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah tergelincir dan pertumbuhan bakteri/jamur"
+       },
+       {
+        "id": "Menghemat air"
+       },
+       {
+        "id": "Mempercepat memasak"
+       },
+       {
+        "id": "Mengurangi suara"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lantai basah menimbulkan bahaya tergelincir serta bakteri dan jamur. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Peralatan makan retak sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tidak digunakan"
+       },
+       {
+        "id": "Tetap dipakai sampai pecah"
+       },
+       {
+        "id": "Dicampur dengan yang utuh"
+       },
+       {
+        "id": "Dipakai untuk makanan panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan gunakan peralatan makan jika ada bagian hilang atau retak. (Modul hal. 77.)"
+      },
+      "ref": {
+       "p": 77
+      }
+     }
+    ]
+   },
+   {
+    "id": "f2s7-q",
+    "title": {
+     "id": "Latihan: Pencegahan dan Pemadaman Kebakaran",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Urutan memakai alat pemadam kebakaran yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tarik pin, arahkan selang ke api, remas tuas"
+       },
+       {
+        "id": "Remas tuas, tarik pin, buang"
+       },
+       {
+        "id": "Arahkan ke langit-langit, tiup"
+       },
+       {
+        "id": "Lemparkan alat ke api"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cara: (A) tarik pin pengaman, (B) arahkan selang ke sumber kebakaran, (C) remas tuas. (Modul hal. 79.)"
+      },
+      "ref": {
+       "p": 79
+      }
+     },
+     {
+      "q": {
+       "id": "Jika api merambat hingga langit-langit, yang harus dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Segera evakuasi"
+       },
+       {
+        "id": "Terus memadamkan sendirian"
+       },
+       {
+        "id": "Menyiram minyak"
+       },
+       {
+        "id": "Membuka semua pintu dan menunggu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Evakuasi segera dari tempat jika kebakaran besar terjadi (api merambat hingga langit-langit). (Modul hal. 79.)"
+      },
+      "ref": {
+       "p": 79
+      }
+     },
+     {
+      "q": {
+       "id": "Cara mencabut steker yang benar…"
+      },
+      "opts": [
+       {
+        "id": "Memegang kepala steker"
+       },
+       {
+        "id": "Menarik kabelnya"
+       },
+       {
+        "id": "Memutar kabel"
+       },
+       {
+        "id": "Menyiram air"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat mencabut steker, pegang kepalanya; jangan menarik kabelnya. (Modul hal. 78.)"
+      },
+      "ref": {
+       "p": 78
+      }
+     },
+     {
+      "q": {
+       "id": "Puntung rokok dibuang ke…"
+      },
+      "opts": [
+       {
+        "id": "Tempat bertutup berisi air di luar dapur"
+       },
+       {
+        "id": "Tempat sampah dapur"
+       },
+       {
+        "id": "Wastafel dapur"
+       },
+       {
+        "id": "Lantai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Puntung dan korek dibuang di tempat khusus (bertutup) dan berisi air; merokok hanya di tempat yang disediakan di luar dapur. (Modul hal. 78.)"
+      },
+      "ref": {
+       "p": 78
+      }
+     },
+     {
+      "q": {
+       "id": "Minyak bekas harus…"
+      },
+      "opts": [
+       {
+        "id": "Dimasukkan ke wadah bertutup dan dijauhkan dari api"
+       },
+       {
+        "id": "Dibiarkan di dekat kompor"
+       },
+       {
+        "id": "Dibuang ke saluran"
+       },
+       {
+        "id": "Disimpan di tempat panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Minyak bekas dimasukkan ke wadah bertutup dan dijauhkan dari api. (Modul hal. 78.)"
+      },
+      "ref": {
+       "p": 78
+      }
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 3 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "QSCA adalah singkatan dari…"
+      },
+      "opts": [
+       {
+        "id": "Quality, Service, Cleanliness, Atmosphere"
+       },
+       {
+        "id": "Quick, Smart, Cheap, Active"
+       },
+       {
+        "id": "Quantity, Style, Comfort, Appearance"
+       },
+       {
+        "id": "Quality, Safety, Care, Action"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "QSCA = Quality (kualitas), Service (layanan), Cleanliness (kebersihan), Atmosphere (suasana). (Modul hal. 88.)"
+      },
+      "ref": {
+       "p": 88
+      }
+     },
+     {
+      "q": {
+       "id": "\"Pelanggan tetap\" adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pelanggan yang terus kembali mengunjungi restoran"
+       },
+       {
+        "id": "Pelanggan yang hanya sekali datang"
+       },
+       {
+        "id": "Pelanggan yang selalu mengeluh"
+       },
+       {
+        "id": "Staf restoran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pelanggan tetap adalah mereka yang terus-menerus kembali mengunjungi restoran. (Modul hal. 87.)"
+      },
+      "ref": {
+       "p": 87
+      }
+     },
+     {
+      "q": {
+       "id": "Kualitas hidangan yang baik antara lain…"
+      },
+      "opts": [
+       {
+        "id": "Rasa konsisten dan disajikan dengan suhu yang sesuai"
+       },
+       {
+        "id": "Selalu berubah tiap hari"
+       },
+       {
+        "id": "Disajikan dalam suhu ruang"
+       },
+       {
+        "id": "Sengaja lambat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Keseragaman rasa/kuantitas/penataan dan penyajian dengan suhu sesuai adalah kualitas utama hidangan. (Modul hal. 88.)"
+      },
+      "ref": {
+       "p": 88
+      }
+     },
+     {
+      "q": {
+       "id": "Membungkuk hormat (saikeirei) dipakai saat…"
+      },
+      "opts": [
+       {
+        "id": "Memberi salam perpisahan atau memohon maaf"
+       },
+       {
+        "id": "Berpapasan di serambi"
+       },
+       {
+        "id": "Menyapa saat pelanggan masuk"
+       },
+       {
+        "id": "Menerima pembayaran saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saikeirei dipakai saat salam perpisahan kepada pelanggan atau memohon maaf. (Modul hal. 92.)"
+      },
+      "ref": {
+       "p": 92
+      }
+     },
+     {
+      "q": {
+       "id": "Kuku staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Pendek dan bersih tanpa cat/hiasan kuku"
+       },
+       {
+        "id": "Panjang berhias"
+       },
+       {
+        "id": "Bercat bebas warna"
+       },
+       {
+        "id": "Ditutup perban setiap hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kuku dipotong pendek; jangan memakai cat kuku atau hiasan kuku. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Saat berpapasan dengan pelanggan di serambi, staf…"
+      },
+      "opts": [
+       {
+        "id": "Mempersilakan pelanggan lewat lebih dahulu"
+       },
+       {
+        "id": "Lewat lebih dulu karena terburu-buru"
+       },
+       {
+        "id": "Berhenti dan menatap lama"
+       },
+       {
+        "id": "Menyenggol bila perlu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Selalu persilakan pelanggan lewat lebih dahulu, bahkan saat terburu-buru. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Pada etiket Barat, pisau diletakkan di…"
+      },
+      "opts": [
+       {
+        "id": "Kanan dengan mata pisau mengarah ke dalam"
+       },
+       {
+        "id": "Kiri dengan mata ke luar"
+       },
+       {
+        "id": "Di atas piring"
+       },
+       {
+        "id": "Terserah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pisau di kanan dengan mata pisau ke dalam; garpu di kiri. (Modul hal. 96.)"
+      },
+      "ref": {
+       "p": 96
+      }
+     },
+     {
+      "q": {
+       "id": "Hidangan Barat umumnya disajikan dari…"
+      },
+      "opts": [
+       {
+        "id": "Sebelah kiri; minuman dari kanan"
+       },
+       {
+        "id": "Sebelah kanan; minuman dari kiri"
+       },
+       {
+        "id": "Depan"
+       },
+       {
+        "id": "Belakang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hidangan disajikan dari sebelah kiri, minuman dari sebelah kanan. (Modul hal. 96.)"
+      },
+      "ref": {
+       "p": 96
+      }
+     },
+     {
+      "q": {
+       "id": "Tempat duduk kehormatan pada hidangan Jepang disebut…"
+      },
+      "opts": [
+       {
+        "id": "Kamiza"
+       },
+       {
+        "id": "Shimoza"
+       },
+       {
+        "id": "Tokonoma"
+       },
+       {
+        "id": "Kaiseki"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kamiza adalah tempat duduk kehormatan; shimoza tempat duduk biasa. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     },
+     {
+      "q": {
+       "id": "Saat berbicara dengan pengguna kursi roda, staf sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Berlutut agar pandangan sejajar"
+       },
+       {
+        "id": "Berdiri dan membungkuk"
+       },
+       {
+        "id": "Berbicara dari belakang"
+       },
+       {
+        "id": "Berbicara dengan pendamping saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berlututlah agar berada pada ketinggian pandangan yang sama dan dapat bertatap muka. (Modul hal. 98.)"
+      },
+      "ref": {
+       "p": 98
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk pelanggan lansia, hal yang tepat adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyiapkan menu bertulisan besar dan menghitung uang dengan jelas"
+       },
+       {
+        "id": "Mempercepat pembayaran"
+       },
+       {
+        "id": "Tidak mengingatkan barang bawaan"
+       },
+       {
+        "id": "Memberi menu kecil"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lansia mungkin kurang mampu membaca huruf kecil; hitung uang dengan suara jelas dan ingatkan barang bawaan. (Modul hal. 98.)"
+      },
+      "ref": {
+       "p": 98
+      }
+     },
+     {
+      "q": {
+       "id": "Ucapan yang dipakai saat mencatat pesanan pelanggan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kashikomarimashita"
+       },
+       {
+        "id": "Wakarimashita"
+       },
+       {
+        "id": "Sō desu"
+       },
+       {
+        "id": "Shitte masu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kashikomarimashita digunakan saat mencatat permintaan atau pesanan pelanggan. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Saat telepon berdering lebih dari ... kali, staf memulai dengan \"Mohon maaf sudah menunggu\"."
+      },
+      "opts": [
+       {
+        "id": "3 kali"
+       },
+       {
+        "id": "1 kali"
+       },
+       {
+        "id": "10 kali"
+       },
+       {
+        "id": "Tidak ada aturan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika telepon berdering lebih dari 3 kali, mulai dengan mengatakan \"Mohon maaf sudah menunggu.\" (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Layanan rekomendasi bertujuan…"
+      },
+      "opts": [
+       {
+        "id": "Mendorong pelanggan memesan lebih dan meningkatkan kepuasan"
+       },
+       {
+        "id": "Mengurangi menu"
+       },
+       {
+        "id": "Menolak pesanan"
+       },
+       {
+        "id": "Menghindari pelanggan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Rekomendasi dapat mendorong pelanggan memesan lebih sehingga meningkatkan penjualan; pelanggan juga lebih puas bila sesuai selera. (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah ketujuh alergen yang wajib diberi label pada makanan olahan?"
+      },
+      "opts": [
+       {
+        "id": "Telur, susu, gandum, soba, kacang, udang, kepiting"
+       },
+       {
+        "id": "Telur, ikan, nasi, wijen, jahe, tomat, daging"
+       },
+       {
+        "id": "Susu, kedelai, beras, jagung, ayam, babi, sapi"
+       },
+       {
+        "id": "Kacang, ikan, cokelat, madu, kopi, teh, lemon"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "7 item: telur, susu, gandum, soba, kacang, udang, kepiting. (Modul hal. 106.)"
+      },
+      "ref": {
+       "p": 106
+      }
+     },
+     {
+      "q": {
+       "id": "Alkohol tidak boleh disajikan kepada orang yang berusia di bawah…"
+      },
+      "opts": [
+       {
+        "id": "20 tahun"
+       },
+       {
+        "id": "17 tahun"
+       },
+       {
+        "id": "25 tahun"
+       },
+       {
+        "id": "30 tahun"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Melanggar hukum menyajikan alkohol kepada yang belum dewasa (di bawah 20 tahun). (Modul hal. 108.)"
+      },
+      "ref": {
+       "p": 108
+      }
+     },
+     {
+      "q": {
+       "id": "Fungsi utama protein dalam tubuh adalah…"
+      },
+      "opts": [
+       {
+        "id": "Membangun jaringan tubuh"
+       },
+       {
+        "id": "Menjadi energi saja"
+       },
+       {
+        "id": "Membangun tulang saja"
+       },
+       {
+        "id": "Mengatur rasa"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Protein membangun jaringan tubuh; lemak dan karbohidrat menjadi energi. (Modul hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      }
+     },
+     {
+      "q": {
+       "id": "Tugas akhir hari kerja dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Setelah restoran tutup dan semua pelanggan pulang"
+       },
+       {
+        "id": "Tepat pada jam tutup walau pelanggan masih ada"
+       },
+       {
+        "id": "Sebelum buka"
+       },
+       {
+        "id": "Saat jam ramai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilaksanakan setelah restoran tutup dan semua pelanggan sudah pulang. (Modul hal. 112.)"
+      },
+      "ref": {
+       "p": 112
+      }
+     },
+     {
+      "q": {
+       "id": "Merendam sebelum mencuci menggunakan air bersuhu sekitar…"
+      },
+      "opts": [
+       {
+        "id": "40℃"
+       },
+       {
+        "id": "10℃"
+       },
+       {
+        "id": "100℃"
+       },
+       {
+        "id": "0℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Rendam dalam wadah berisi detergen dan air bersuhu 40℃. (Modul hal. 113.)"
+      },
+      "ref": {
+       "p": 113
+      }
+     },
+     {
+      "q": {
+       "id": "Perkiraan proporsi pembayaran tunai di restoran Jepang menurut modul…"
+      },
+      "opts": [
+       {
+        "id": "Sekitar 80%"
+       },
+       {
+        "id": "Sekitar 20%"
+       },
+       {
+        "id": "Sekitar 50%"
+       },
+       {
+        "id": "Sekitar 5%"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sekitar 80% tagihan dibayar uang tunai (yen); cashless sekitar 20%. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     },
+     {
+      "q": {
+       "id": "Langkah pertama saat pelanggan menyampaikan keluhan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyimak baik-baik"
+       },
+       {
+        "id": "Membantah"
+       },
+       {
+        "id": "Menjauh"
+       },
+       {
+        "id": "Memanggil pelanggan lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Prosedur dimulai dengan menyimak baik-baik keluhan pelanggan. (Modul hal. 119.)"
+      },
+      "ref": {
+       "p": 119
+      }
+     },
+     {
+      "q": {
+       "id": "Contoh benda asing LUNAK adalah…"
+      },
+      "opts": [
+       {
+        "id": "Serangga atau rambut"
+       },
+       {
+        "id": "Pecahan kaca"
+       },
+       {
+        "id": "Batu"
+       },
+       {
+        "id": "Kepingan logam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benda asing lunak: serangga, rambut, bagian plastik vinil, carikan kertas. (Modul hal. 120.)"
+      },
+      "ref": {
+       "p": 120
+      }
+     },
+     {
+      "q": {
+       "id": "Salah satu pencegahan kontaminasi benda asing di luar dapur…"
+      },
+      "opts": [
+       {
+        "id": "Membersihkan filter AC secara berkala"
+       },
+       {
+        "id": "Membuka pintu lebar"
+       },
+       {
+        "id": "Memakai stapler di dekat makanan"
+       },
+       {
+        "id": "Membiarkan sampah di lantai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saran: bersihkan filter AC berkala; jangan biarkan pintu terbuka; jangan pakai klip/stapler/pensil dekat makanan. (Modul hal. 121.)"
+      },
+      "ref": {
+       "p": 121
+      }
+     },
+     {
+      "q": {
+       "id": "Tepukan pada punggung pelanggan yang tersedak dilakukan sebanyak…"
+      },
+      "opts": [
+       {
+        "id": "4–5 kali, keras dan tajam, di antara tulang belikat"
+       },
+       {
+        "id": "1 kali pelan"
+       },
+       {
+        "id": "20 kali"
+       },
+       {
+        "id": "Di perut saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berikan 4–5 tepukan keras dan tajam ke punggung, di antara tulang belikat. (Modul hal. 123.)"
+      },
+      "ref": {
+       "p": 123
+      }
+     },
+     {
+      "q": {
+       "id": "Saat gempa besar prioritas pertama staf adalah…"
+      },
+      "opts": [
+       {
+        "id": "Keselamatan diri (bersembunyi di bawah meja)"
+       },
+       {
+        "id": "Mengambil barang berharga"
+       },
+       {
+        "id": "Lari ke dapur"
+       },
+       {
+        "id": "Memadamkan semua lampu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pastikan keselamatan Anda terlebih dahulu; sembunyi di bawah meja. (Modul hal. 124.)"
+      },
+      "ref": {
+       "p": 124
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah keluar dari gedung yang terbakar, staf…"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh kembali ke sumber api dan memperingatkan pelanggan"
+       },
+       {
+        "id": "Kembali mengambil kas"
+       },
+       {
+        "id": "Masuk lagi untuk memeriksa"
+       },
+       {
+        "id": "Membuka jendela"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah keluar, jangan kembali ke sumber kebakaran dan peringatkan pelanggan untuk tidak masuk kembali. (Modul hal. 125.)"
+      },
+      "ref": {
+       "p": 125
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 3 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jika harapan pelanggan lebih besar daripada pengalaman yang diterima, hasilnya…"
+      },
+      "opts": [
+       {
+        "id": "Ketidakpuasan yang bisa menjadi keluhan"
+       },
+       {
+        "id": "Kepuasan dan kesan"
+       },
+       {
+        "id": "Pelanggan tetap"
+       },
+       {
+        "id": "Normal saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Harapan > pengalaman → ketidakpuasan, yang bertumbuh menjadi keluhan. (Modul hal. 87.)"
+      },
+      "ref": {
+       "p": 87
+      }
+     },
+     {
+      "q": {
+       "id": "Termasuk aspek \"keras\" dari suasana adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tampilan eksterior dan fasilitas restoran"
+       },
+       {
+        "id": "Sikap staf"
+       },
+       {
+        "id": "Layanan pelanggan"
+       },
+       {
+        "id": "Rasa hidangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Aspek keras: tampilan eksterior, fasilitas, tampilan interior; aspek lunak: hidangan, layanan, sikap staf. (Modul hal. 89.)"
+      },
+      "ref": {
+       "p": 89
+      }
+     },
+     {
+      "q": {
+       "id": "Membungkuk sopan (keirei) kira-kira berapa derajat?"
+      },
+      "opts": [
+       {
+        "id": "30 derajat"
+       },
+       {
+        "id": "15 derajat"
+       },
+       {
+        "id": "45 derajat"
+       },
+       {
+        "id": "90 derajat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Eshaku ±15°, keirei ±30°, saikeirei ±45°. (Modul hal. 92.)"
+      },
+      "ref": {
+       "p": 92
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap tangan yang benar saat berdiri melayani adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kedua tangan di depan badan"
+       },
+       {
+        "id": "Dilipat di dada"
+       },
+       {
+        "id": "Dimasukkan ke saku"
+       },
+       {
+        "id": "Di belakang punggung sambil bersandar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Taruh kedua tangan di depan; jangan melipat tangan atau memasukkan ke saku. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membawa baki berisi hidangan, hidangan disajikan mulai dari sisi…"
+      },
+      "opts": [
+       {
+        "id": "Terjauh"
+       },
+       {
+        "id": "Terdekat"
+       },
+       {
+        "id": "Terberat saja"
+       },
+       {
+        "id": "Acak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat memuat mulai dari sisi terdekat; saat menyajikan mulai dari sisi terjauh. (Modul hal. 93.)"
+      },
+      "ref": {
+       "p": 93
+      }
+     },
+     {
+      "q": {
+       "id": "Pada hidangan ichijū sansai, posisi nasi dan sup adalah…"
+      },
+      "opts": [
+       {
+        "id": "Nasi di kiri, sup di kanan"
+       },
+       {
+        "id": "Nasi di kanan, sup di kiri"
+       },
+       {
+        "id": "Keduanya di tengah"
+       },
+       {
+        "id": "Nasi di belakang sup"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Nasi ditempatkan di bagian kiri, sup di kanan, dan acar di tengah. (Modul hal. 94.)"
+      },
+      "ref": {
+       "p": 94
+      }
+     },
+     {
+      "q": {
+       "id": "Pisau dan garpu diletakkan sejajar diagonal menandakan…"
+      },
+      "opts": [
+       {
+        "id": "Sudah selesai menyantap"
+       },
+       {
+        "id": "Masih makan"
+       },
+       {
+        "id": "Minta tambah"
+       },
+       {
+        "id": "Hidangan salah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sejajar secara diagonal artinya sudah selesai; layaknya jarum jam pukul 8:20 berarti masih makan. (Modul hal. 96.)"
+      },
+      "ref": {
+       "p": 96
+      }
+     },
+     {
+      "q": {
+       "id": "Meja putar Tiongkok digerakkan…"
+      },
+      "opts": [
+       {
+        "id": "Searah jarum jam"
+       },
+       {
+        "id": "Berlawanan arah jarum jam"
+       },
+       {
+        "id": "Ke mana saja"
+       },
+       {
+        "id": "Tidak boleh diputar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Meja putar digerakkan searah jarum jam (ke kanan). (Modul hal. 97.)"
+      },
+      "ref": {
+       "p": 97
+      }
+     },
+     {
+      "q": {
+       "id": "Restoran terbuka untuk umum di Jepang menurut hukum…"
+      },
+      "opts": [
+       {
+        "id": "Wajib menerima anjing asisten"
+       },
+       {
+        "id": "Boleh menolak anjing asisten"
+       },
+       {
+        "id": "Hanya menerima bila diizinkan manajer"
+       },
+       {
+        "id": "Wajib menolak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berdasarkan hukum Jepang, restoran yang terbuka untuk umum wajib menerima anjing asisten. (Modul hal. 99.)"
+      },
+      "ref": {
+       "p": 99
+      }
+     },
+     {
+      "q": {
+       "id": "Aturan praktis waktu makan setelah makanan disiapkan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dalam 2 jam"
+       },
+       {
+        "id": "Dalam 6 jam"
+       },
+       {
+        "id": "Dalam 1 hari"
+       },
+       {
+        "id": "Tidak ada batas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Makanan sebaiknya disantap pelanggan dalam waktu dua jam setelah disiapkan. (Modul hal. 100.)"
+      },
+      "ref": {
+       "p": 100
+      }
+     },
+     {
+      "q": {
+       "id": "Pada pesanan bungkus, penting memberi tahu pelanggan…"
+      },
+      "opts": [
+       {
+        "id": "Pengawasan suhu dan batas waktu makan"
+       },
+       {
+        "id": "Jumlah pelanggan lain"
+       },
+       {
+        "id": "Nama koki"
+       },
+       {
+        "id": "Harga bahan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penting memberi tahu informasi akurat: bagaimana suhu diawasi dan kapan harus disantap. (Modul hal. 100.)"
+      },
+      "ref": {
+       "p": 100
+      }
+     },
+     {
+      "q": {
+       "id": "Ungkapan yang tepat saat menyerahkan bon adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kochira ga reshīto de gozaimasu"
+       },
+       {
+        "id": "Kochira ga reshīto ni narimasu"
+       },
+       {
+        "id": "Reshīto desu yo"
+       },
+       {
+        "id": "Kore reshīto"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ungkapan tepat: \"Kochira ga reshīto de gozaimasu\". (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Saat menutup telepon, staf…"
+      },
+      "opts": [
+       {
+        "id": "Menunggu lawan bicara menutup dahulu"
+       },
+       {
+        "id": "Menutup lebih dulu"
+       },
+       {
+        "id": "Menutup dengan keras"
+       },
+       {
+        "id": "Langsung meletakkan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tunggu sampai lawan bicara menutup terlebih dahulu, baru tutup telepon perlahan. (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Istilah \"Shitsurei itashimasu\" dipakai saat…"
+      },
+      "opts": [
+       {
+        "id": "Menghampiri atau meninggalkan tempat duduk pelanggan"
+       },
+       {
+        "id": "Menyajikan bon"
+       },
+       {
+        "id": "Menyambut pelanggan di pintu"
+       },
+       {
+        "id": "Menerima telepon"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Digunakan saat staf menghampiri tempat duduk pelanggan dan saat meninggalkannya. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Hidangan di restoran menurut hukum Jepang pada modul…"
+      },
+      "opts": [
+       {
+        "id": "Tidak wajib mencantumkan alergen, tetapi staf harus bisa menjawab pertanyaan pelanggan"
+       },
+       {
+        "id": "Wajib mencantumkan semua alergen"
+       },
+       {
+        "id": "Dilarang menyebut alergen"
+       },
+       {
+        "id": "Tidak perlu informasi bahan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tidak ada kewajiban hukum mencantumkan alergen di hidangan restoran, namun informasi penting bagi pelanggan. (Modul hal. 106.)"
+      },
+      "ref": {
+       "p": 106
+      }
+     },
+     {
+      "q": {
+       "id": "Designated driver adalah…"
+      },
+      "opts": [
+       {
+        "id": "Orang yang mengantar teman ke restoran dan tidak minum alkohol"
+       },
+       {
+        "id": "Pemilik restoran"
+       },
+       {
+        "id": "Staf pengantar makanan"
+       },
+       {
+        "id": "Pelanggan yang paling mabuk"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Designated driver mengantar teman ke restoran dan tidak mengonsumsi minuman beralkohol. (Modul hal. 108.)"
+      },
+      "ref": {
+       "p": 108
+      }
+     },
+     {
+      "q": {
+       "id": "Vegan adalah orang yang…"
+      },
+      "opts": [
+       {
+        "id": "Makan 100% hidangan nabati tanpa telur dan susu"
+       },
+       {
+        "id": "Tidak makan daging tetapi makan ikan"
+       },
+       {
+        "id": "Makan semua"
+       },
+       {
+        "id": "Hanya minum susu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Vegan = 100% hidangan nabati, tanpa produk hewani seperti telur atau produk susu. (Modul hal. 110.)"
+      },
+      "ref": {
+       "p": 110
+      }
+     },
+     {
+      "q": {
+       "id": "Pembersihan harus dimulai dari…"
+      },
+      "opts": [
+       {
+        "id": "Atas ke bawah"
+       },
+       {
+        "id": "Bawah ke atas"
+       },
+       {
+        "id": "Lantai dulu"
+       },
+       {
+        "id": "Acak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Debu dan kotoran jatuh dari atas ke bawah; mulai dari titik tertinggi, lantai terakhir. (Modul hal. 113.)"
+      },
+      "ref": {
+       "p": 113
+      }
+     },
+     {
+      "q": {
+       "id": "Kotoran kering sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tidak langsung dibasahi dengan kain basah"
+       },
+       {
+        "id": "Selalu dilap dengan kain basah"
+       },
+       {
+        "id": "Dibiarkan"
+       },
+       {
+        "id": "Disiram air dingin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan menyeka kotoran kering dengan kain basah karena membuat pembersihan lebih lama. (Modul hal. 113.)"
+      },
+      "ref": {
+       "p": 113
+      }
+     },
+     {
+      "q": {
+       "id": "Kartu debit berbeda dari kartu kredit karena…"
+      },
+      "opts": [
+       {
+        "id": "Jumlah langsung dipotong dari rekening bank"
+       },
+       {
+        "id": "Dibayar bulan depan"
+       },
+       {
+        "id": "Diisi saldo dahulu"
+       },
+       {
+        "id": "Memakai kode QR"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kartu debit: jumlah langsung dipotong dari rekening bank; kartu kredit: pembayaran ditangguhkan. (Modul hal. 117.)"
+      },
+      "ref": {
+       "p": 117
+      }
+     },
+     {
+      "q": {
+       "id": "Jika tidak yakin cara menangani keluhan, staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Segera melapor dan memanggil manajer"
+       },
+       {
+        "id": "Menolak keluhan"
+       },
+       {
+        "id": "Menunggu pelanggan pergi"
+       },
+       {
+        "id": "Memberi diskon sendiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika tidak yakin, informasikan bahwa Anda akan memanggil manajer dan segera laporkan. (Modul hal. 119.)"
+      },
+      "ref": {
+       "p": 119
+      }
+     },
+     {
+      "q": {
+       "id": "Hidangan yang terkontaminasi benda asing harus…"
+      },
+      "opts": [
+       {
+        "id": "Dibawa ke dapur dan ditunjukkan ke manajer dan kepala koki"
+       },
+       {
+        "id": "Dibuang langsung"
+       },
+       {
+        "id": "Disajikan ke pelanggan lain"
+       },
+       {
+        "id": "Disimpan di meja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hidangan dibawa ke dapur dan ditunjukkan kepada manajer dan kepala koki untuk menemukan sumber kontaminasi. (Modul hal. 120.)"
+      },
+      "ref": {
+       "p": 120
+      }
+     },
+     {
+      "q": {
+       "id": "Saat pelanggan tersedak dan masih bisa batuk, langkah pertama adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyarankan agar batuk"
+       },
+       {
+        "id": "Memberi air banyak"
+       },
+       {
+        "id": "Mengabaikan"
+       },
+       {
+        "id": "Menyuruh makan nasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika pelanggan dapat batuk, sarankan agar mereka batuk; lalu 4–5 tepukan di punggung bila perlu. (Modul hal. 123.)"
+      },
+      "ref": {
+       "p": 123
+      }
+     },
+     {
+      "q": {
+       "id": "Muntahan pelanggan dibersihkan dengan…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan khusus (celemek, sarung tangan, kain) lalu disinfeksi"
+       },
+       {
+        "id": "Tangan kosong"
+       },
+       {
+        "id": "Disiram air saja"
+       },
+       {
+        "id": "Dibiarkan kering"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Muntah dapat mengandung virus; bersihkan dengan peralatan khusus kemudian lakukan disinfeksi. (Modul hal. 123.)"
+      },
+      "ref": {
+       "p": 123
+      }
+     },
+     {
+      "q": {
+       "id": "Saat mengevakuasi pelanggan dari kebakaran, posisi tubuh sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Serendah mungkin"
+       },
+       {
+        "id": "Tegak tinggi"
+       },
+       {
+        "id": "Berlari membungkuk ke arah api"
+       },
+       {
+        "id": "Berdiri diam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pandu pelanggan keluar seiring memastikan postur tubuh serendah mungkin. (Modul hal. 125.)"
+      },
+      "ref": {
+       "p": 125
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q3",
+    "title": {
+     "id": "Arti kosakata Bab 3",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「うま味」（うまみ）?",
+       "jp": "「うま味」（うまみ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "hidangan kaiseki",
+        "jp": "hidangan kaiseki"
+       },
+       {
+        "id": "membungkuk",
+        "jp": "membungkuk"
+       },
+       {
+        "id": "tempat biasa",
+        "jp": "tempat biasa"
+       },
+       {
+        "id": "umami",
+        "jp": "umami"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "うま味 (うまみ) = umami. Sumber: daftar kosakata modul hal. -.",
+       "jp": "うま味（うまみ）＝ umami"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ハラール」（はらーる）?",
+       "jp": "「ハラール」（はらーる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "hidangan kaiseki",
+        "jp": "hidangan kaiseki"
+       },
+       {
+        "id": "sisa makanan",
+        "jp": "sisa makanan"
+       },
+       {
+        "id": "umami",
+        "jp": "umami"
+       },
+       {
+        "id": "halal",
+        "jp": "halal"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "ハラール (はらーる) = halal. Sumber: daftar kosakata modul hal. -.",
+       "jp": "ハラール（はらーる）＝ halal"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「接客」（せっきゃく）?",
+       "jp": "「接客」（せっきゃく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "terima kasih",
+        "jp": "terima kasih"
+       },
+       {
+        "id": "persiapan buka",
+        "jp": "persiapan buka"
+       },
+       {
+        "id": "membungkuk",
+        "jp": "membungkuk"
+       },
+       {
+        "id": "melayani pelanggan",
+        "jp": "melayani pelanggan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "接客 (せっきゃく) = melayani pelanggan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "接客（せっきゃく）＝ melayani pelanggan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「混入」（こんにゅう）?",
+       "jp": "「混入」（こんにゅう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "permisi",
+        "jp": "permisi"
+       },
+       {
+        "id": "tercampur",
+        "jp": "tercampur"
+       },
+       {
+        "id": "mohon maaf",
+        "jp": "mohon maaf"
+       },
+       {
+        "id": "persiapan buka",
+        "jp": "persiapan buka"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "混入 (こんにゅう) = tercampur. Sumber: daftar kosakata modul hal. -.",
+       "jp": "混入（こんにゅう）＝ tercampur"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「釣り銭」（つりせん）?",
+       "jp": "「釣り銭」（つりせん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "manajer toko",
+        "jp": "manajer toko"
+       },
+       {
+        "id": "uang kembalian",
+        "jp": "uang kembalian"
+       },
+       {
+        "id": "cashless",
+        "jp": "cashless"
+       },
+       {
+        "id": "pisau makan",
+        "jp": "pisau makan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "釣り銭 (つりせん) = uang kembalian. Sumber: daftar kosakata modul hal. -.",
+       "jp": "釣り銭（つりせん）＝ uang kembalian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「上座」（かみざ）?",
+       "jp": "「上座」（かみざ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "gizi",
+        "jp": "gizi"
+       },
+       {
+        "id": "keramahtamahan (omotenashi)",
+        "jp": "keramahtamahan (omotenashi)"
+       },
+       {
+        "id": "tempat kehormatan",
+        "jp": "tempat kehormatan"
+       },
+       {
+        "id": "lansia",
+        "jp": "lansia"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "上座 (かみざ) = tempat kehormatan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "上座（かみざ）＝ tempat kehormatan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「飲酒運転」（いんしゅうんてん）?",
+       "jp": "「飲酒運転」（いんしゅうんてん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "senyum",
+        "jp": "senyum"
+       },
+       {
+        "id": "mengemudi setelah minum",
+        "jp": "mengemudi setelah minum"
+       },
+       {
+        "id": "umami",
+        "jp": "umami"
+       },
+       {
+        "id": "keluhan",
+        "jp": "keluhan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "飲酒運転 (いんしゅうんてん) = mengemudi setelah minum. Sumber: daftar kosakata modul hal. -.",
+       "jp": "飲酒運転（いんしゅうんてん）＝ mengemudi setelah minum"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「下座」（しもざ）?",
+       "jp": "「下座」（しもざ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "gizi",
+        "jp": "gizi"
+       },
+       {
+        "id": "tempat biasa",
+        "jp": "tempat biasa"
+       },
+       {
+        "id": "serangga",
+        "jp": "serangga"
+       },
+       {
+        "id": "pelanggan (hormat)",
+        "jp": "pelanggan (hormat)"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "下座 (しもざ) = tempat biasa. Sumber: daftar kosakata modul hal. -.",
+       "jp": "下座（しもざ）＝ tempat biasa"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「挨拶」（あいさつ）?",
+       "jp": "「挨拶」（あいさつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "sapaan",
+        "jp": "sapaan"
+       },
+       {
+        "id": "pelanggan (hormat)",
+        "jp": "pelanggan (hormat)"
+       },
+       {
+        "id": "maaf merepotkan",
+        "jp": "maaf merepotkan"
+       },
+       {
+        "id": "mohon maaf",
+        "jp": "mohon maaf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "挨拶 (あいさつ) = sapaan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "挨拶（あいさつ）＝ sapaan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「持ち帰り」（もちかえり）?",
+       "jp": "「持ち帰り」（もちかえり）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "perhatian/pertimbangan",
+        "jp": "perhatian/pertimbangan"
+       },
+       {
+        "id": "pelanggan tetap",
+        "jp": "pelanggan tetap"
+       },
+       {
+        "id": "meja bundar",
+        "jp": "meja bundar"
+       },
+       {
+        "id": "bungkus/take-out",
+        "jp": "bungkus/take-out"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "持ち帰り (もちかえり) = bungkus/take-out. Sumber: daftar kosakata modul hal. -.",
+       "jp": "持ち帰り（もちかえり）＝ bungkus/take-out"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「笑顔」（えがお）?",
+       "jp": "「笑顔」（えがお）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "senyum",
+        "jp": "senyum"
+       },
+       {
+        "id": "umami",
+        "jp": "umami"
+       },
+       {
+        "id": "dipahami",
+        "jp": "dipahami"
+       },
+       {
+        "id": "pelanggan tetap",
+        "jp": "pelanggan tetap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "笑顔 (えがお) = senyum. Sumber: daftar kosakata modul hal. -.",
+       "jp": "笑顔（えがお）＝ senyum"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「案内」（あんない）?",
+       "jp": "「案内」（あんない）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "meja bundar",
+        "jp": "meja bundar"
+       },
+       {
+        "id": "anjing asisten",
+        "jp": "anjing asisten"
+       },
+       {
+        "id": "serangga",
+        "jp": "serangga"
+       },
+       {
+        "id": "memandu",
+        "jp": "memandu"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "案内 (あんない) = memandu. Sumber: daftar kosakata modul hal. -.",
+       "jp": "案内（あんない）＝ memandu"
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s1-q",
+    "title": {
+     "id": "Latihan: Omotenashi dan Kepuasan Pelanggan (QSCA)",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "QSCA adalah singkatan dari…"
+      },
+      "opts": [
+       {
+        "id": "Quality, Service, Cleanliness, Atmosphere"
+       },
+       {
+        "id": "Quick, Smart, Cheap, Active"
+       },
+       {
+        "id": "Quantity, Style, Comfort, Appearance"
+       },
+       {
+        "id": "Quality, Safety, Care, Action"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "QSCA = Quality (kualitas), Service (layanan), Cleanliness (kebersihan), Atmosphere (suasana). (Modul hal. 88.)"
+      },
+      "ref": {
+       "p": 88
+      }
+     },
+     {
+      "q": {
+       "id": "Jika harapan pelanggan lebih besar daripada pengalaman yang diterima, hasilnya…"
+      },
+      "opts": [
+       {
+        "id": "Ketidakpuasan yang bisa menjadi keluhan"
+       },
+       {
+        "id": "Kepuasan dan kesan"
+       },
+       {
+        "id": "Pelanggan tetap"
+       },
+       {
+        "id": "Normal saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Harapan > pengalaman → ketidakpuasan, yang bertumbuh menjadi keluhan. (Modul hal. 87.)"
+      },
+      "ref": {
+       "p": 87
+      }
+     },
+     {
+      "q": {
+       "id": "\"Pelanggan tetap\" adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pelanggan yang terus kembali mengunjungi restoran"
+       },
+       {
+        "id": "Pelanggan yang hanya sekali datang"
+       },
+       {
+        "id": "Pelanggan yang selalu mengeluh"
+       },
+       {
+        "id": "Staf restoran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pelanggan tetap adalah mereka yang terus-menerus kembali mengunjungi restoran. (Modul hal. 87.)"
+      },
+      "ref": {
+       "p": 87
+      }
+     },
+     {
+      "q": {
+       "id": "Termasuk aspek \"keras\" dari suasana adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tampilan eksterior dan fasilitas restoran"
+       },
+       {
+        "id": "Sikap staf"
+       },
+       {
+        "id": "Layanan pelanggan"
+       },
+       {
+        "id": "Rasa hidangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Aspek keras: tampilan eksterior, fasilitas, tampilan interior; aspek lunak: hidangan, layanan, sikap staf. (Modul hal. 89.)"
+      },
+      "ref": {
+       "p": 89
+      }
+     },
+     {
+      "q": {
+       "id": "Kualitas hidangan yang baik antara lain…"
+      },
+      "opts": [
+       {
+        "id": "Rasa konsisten dan disajikan dengan suhu yang sesuai"
+       },
+       {
+        "id": "Selalu berubah tiap hari"
+       },
+       {
+        "id": "Disajikan dalam suhu ruang"
+       },
+       {
+        "id": "Sengaja lambat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Keseragaman rasa/kuantitas/penataan dan penyajian dengan suhu sesuai adalah kualitas utama hidangan. (Modul hal. 88.)"
+      },
+      "ref": {
+       "p": 88
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s2-q",
+    "title": {
+     "id": "Latihan: Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Membungkuk sopan (keirei) kira-kira berapa derajat?"
+      },
+      "opts": [
+       {
+        "id": "30 derajat"
+       },
+       {
+        "id": "15 derajat"
+       },
+       {
+        "id": "45 derajat"
+       },
+       {
+        "id": "90 derajat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Eshaku ±15°, keirei ±30°, saikeirei ±45°. (Modul hal. 92.)"
+      },
+      "ref": {
+       "p": 92
+      }
+     },
+     {
+      "q": {
+       "id": "Membungkuk hormat (saikeirei) dipakai saat…"
+      },
+      "opts": [
+       {
+        "id": "Memberi salam perpisahan atau memohon maaf"
+       },
+       {
+        "id": "Berpapasan di serambi"
+       },
+       {
+        "id": "Menyapa saat pelanggan masuk"
+       },
+       {
+        "id": "Menerima pembayaran saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saikeirei dipakai saat salam perpisahan kepada pelanggan atau memohon maaf. (Modul hal. 92.)"
+      },
+      "ref": {
+       "p": 92
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap tangan yang benar saat berdiri melayani adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kedua tangan di depan badan"
+       },
+       {
+        "id": "Dilipat di dada"
+       },
+       {
+        "id": "Dimasukkan ke saku"
+       },
+       {
+        "id": "Di belakang punggung sambil bersandar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Taruh kedua tangan di depan; jangan melipat tangan atau memasukkan ke saku. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Kuku staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Pendek dan bersih tanpa cat/hiasan kuku"
+       },
+       {
+        "id": "Panjang berhias"
+       },
+       {
+        "id": "Bercat bebas warna"
+       },
+       {
+        "id": "Ditutup perban setiap hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kuku dipotong pendek; jangan memakai cat kuku atau hiasan kuku. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membawa baki berisi hidangan, hidangan disajikan mulai dari sisi…"
+      },
+      "opts": [
+       {
+        "id": "Terjauh"
+       },
+       {
+        "id": "Terdekat"
+       },
+       {
+        "id": "Terberat saja"
+       },
+       {
+        "id": "Acak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saat memuat mulai dari sisi terdekat; saat menyajikan mulai dari sisi terjauh. (Modul hal. 93.)"
+      },
+      "ref": {
+       "p": 93
+      }
+     },
+     {
+      "q": {
+       "id": "Saat berpapasan dengan pelanggan di serambi, staf…"
+      },
+      "opts": [
+       {
+        "id": "Mempersilakan pelanggan lewat lebih dahulu"
+       },
+       {
+        "id": "Lewat lebih dulu karena terburu-buru"
+       },
+       {
+        "id": "Berhenti dan menatap lama"
+       },
+       {
+        "id": "Menyenggol bila perlu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Selalu persilakan pelanggan lewat lebih dahulu, bahkan saat terburu-buru. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s3-q",
+    "title": {
+     "id": "Latihan: Etiket Bersantap: Jepang, Barat, Tiongkok",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pada hidangan ichijū sansai, posisi nasi dan sup adalah…"
+      },
+      "opts": [
+       {
+        "id": "Nasi di kiri, sup di kanan"
+       },
+       {
+        "id": "Nasi di kanan, sup di kiri"
+       },
+       {
+        "id": "Keduanya di tengah"
+       },
+       {
+        "id": "Nasi di belakang sup"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Nasi ditempatkan di bagian kiri, sup di kanan, dan acar di tengah. (Modul hal. 94.)"
+      },
+      "ref": {
+       "p": 94
+      }
+     },
+     {
+      "q": {
+       "id": "Pada etiket Barat, pisau diletakkan di…"
+      },
+      "opts": [
+       {
+        "id": "Kanan dengan mata pisau mengarah ke dalam"
+       },
+       {
+        "id": "Kiri dengan mata ke luar"
+       },
+       {
+        "id": "Di atas piring"
+       },
+       {
+        "id": "Terserah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pisau di kanan dengan mata pisau ke dalam; garpu di kiri. (Modul hal. 96.)"
+      },
+      "ref": {
+       "p": 96
+      }
+     },
+     {
+      "q": {
+       "id": "Pisau dan garpu diletakkan sejajar diagonal menandakan…"
+      },
+      "opts": [
+       {
+        "id": "Sudah selesai menyantap"
+       },
+       {
+        "id": "Masih makan"
+       },
+       {
+        "id": "Minta tambah"
+       },
+       {
+        "id": "Hidangan salah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sejajar secara diagonal artinya sudah selesai; layaknya jarum jam pukul 8:20 berarti masih makan. (Modul hal. 96.)"
+      },
+      "ref": {
+       "p": 96
+      }
+     },
+     {
+      "q": {
+       "id": "Hidangan Barat umumnya disajikan dari…"
+      },
+      "opts": [
+       {
+        "id": "Sebelah kiri; minuman dari kanan"
+       },
+       {
+        "id": "Sebelah kanan; minuman dari kiri"
+       },
+       {
+        "id": "Depan"
+       },
+       {
+        "id": "Belakang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hidangan disajikan dari sebelah kiri, minuman dari sebelah kanan. (Modul hal. 96.)"
+      },
+      "ref": {
+       "p": 96
+      }
+     },
+     {
+      "q": {
+       "id": "Meja putar Tiongkok digerakkan…"
+      },
+      "opts": [
+       {
+        "id": "Searah jarum jam"
+       },
+       {
+        "id": "Berlawanan arah jarum jam"
+       },
+       {
+        "id": "Ke mana saja"
+       },
+       {
+        "id": "Tidak boleh diputar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Meja putar digerakkan searah jarum jam (ke kanan). (Modul hal. 97.)"
+      },
+      "ref": {
+       "p": 97
+      }
+     },
+     {
+      "q": {
+       "id": "Tempat duduk kehormatan pada hidangan Jepang disebut…"
+      },
+      "opts": [
+       {
+        "id": "Kamiza"
+       },
+       {
+        "id": "Shimoza"
+       },
+       {
+        "id": "Tokonoma"
+       },
+       {
+        "id": "Kaiseki"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kamiza adalah tempat duduk kehormatan; shimoza tempat duduk biasa. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s4-q",
+    "title": {
+     "id": "Latihan: Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Restoran terbuka untuk umum di Jepang menurut hukum…"
+      },
+      "opts": [
+       {
+        "id": "Wajib menerima anjing asisten"
+       },
+       {
+        "id": "Boleh menolak anjing asisten"
+       },
+       {
+        "id": "Hanya menerima bila diizinkan manajer"
+       },
+       {
+        "id": "Wajib menolak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berdasarkan hukum Jepang, restoran yang terbuka untuk umum wajib menerima anjing asisten. (Modul hal. 99.)"
+      },
+      "ref": {
+       "p": 99
+      }
+     },
+     {
+      "q": {
+       "id": "Saat berbicara dengan pengguna kursi roda, staf sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Berlutut agar pandangan sejajar"
+       },
+       {
+        "id": "Berdiri dan membungkuk"
+       },
+       {
+        "id": "Berbicara dari belakang"
+       },
+       {
+        "id": "Berbicara dengan pendamping saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berlututlah agar berada pada ketinggian pandangan yang sama dan dapat bertatap muka. (Modul hal. 98.)"
+      },
+      "ref": {
+       "p": 98
+      }
+     },
+     {
+      "q": {
+       "id": "Aturan praktis waktu makan setelah makanan disiapkan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dalam 2 jam"
+       },
+       {
+        "id": "Dalam 6 jam"
+       },
+       {
+        "id": "Dalam 1 hari"
+       },
+       {
+        "id": "Tidak ada batas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Makanan sebaiknya disantap pelanggan dalam waktu dua jam setelah disiapkan. (Modul hal. 100.)"
+      },
+      "ref": {
+       "p": 100
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk pelanggan lansia, hal yang tepat adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyiapkan menu bertulisan besar dan menghitung uang dengan jelas"
+       },
+       {
+        "id": "Mempercepat pembayaran"
+       },
+       {
+        "id": "Tidak mengingatkan barang bawaan"
+       },
+       {
+        "id": "Memberi menu kecil"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lansia mungkin kurang mampu membaca huruf kecil; hitung uang dengan suara jelas dan ingatkan barang bawaan. (Modul hal. 98.)"
+      },
+      "ref": {
+       "p": 98
+      }
+     },
+     {
+      "q": {
+       "id": "Pada pesanan bungkus, penting memberi tahu pelanggan…"
+      },
+      "opts": [
+       {
+        "id": "Pengawasan suhu dan batas waktu makan"
+       },
+       {
+        "id": "Jumlah pelanggan lain"
+       },
+       {
+        "id": "Nama koki"
+       },
+       {
+        "id": "Harga bahan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penting memberi tahu informasi akurat: bagaimana suhu diawasi dan kapan harus disantap. (Modul hal. 100.)"
+      },
+      "ref": {
+       "p": 100
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s5-q",
+    "title": {
+     "id": "Latihan: Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Ucapan yang dipakai saat mencatat pesanan pelanggan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kashikomarimashita"
+       },
+       {
+        "id": "Wakarimashita"
+       },
+       {
+        "id": "Sō desu"
+       },
+       {
+        "id": "Shitte masu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kashikomarimashita digunakan saat mencatat permintaan atau pesanan pelanggan. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Ungkapan yang tepat saat menyerahkan bon adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kochira ga reshīto de gozaimasu"
+       },
+       {
+        "id": "Kochira ga reshīto ni narimasu"
+       },
+       {
+        "id": "Reshīto desu yo"
+       },
+       {
+        "id": "Kore reshīto"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ungkapan tepat: \"Kochira ga reshīto de gozaimasu\". (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Saat telepon berdering lebih dari ... kali, staf memulai dengan \"Mohon maaf sudah menunggu\"."
+      },
+      "opts": [
+       {
+        "id": "3 kali"
+       },
+       {
+        "id": "1 kali"
+       },
+       {
+        "id": "10 kali"
+       },
+       {
+        "id": "Tidak ada aturan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika telepon berdering lebih dari 3 kali, mulai dengan mengatakan \"Mohon maaf sudah menunggu.\" (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Saat menutup telepon, staf…"
+      },
+      "opts": [
+       {
+        "id": "Menunggu lawan bicara menutup dahulu"
+       },
+       {
+        "id": "Menutup lebih dulu"
+       },
+       {
+        "id": "Menutup dengan keras"
+       },
+       {
+        "id": "Langsung meletakkan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tunggu sampai lawan bicara menutup terlebih dahulu, baru tutup telepon perlahan. (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Layanan rekomendasi bertujuan…"
+      },
+      "opts": [
+       {
+        "id": "Mendorong pelanggan memesan lebih dan meningkatkan kepuasan"
+       },
+       {
+        "id": "Mengurangi menu"
+       },
+       {
+        "id": "Menolak pesanan"
+       },
+       {
+        "id": "Menghindari pelanggan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Rekomendasi dapat mendorong pelanggan memesan lebih sehingga meningkatkan penjualan; pelanggan juga lebih puas bila sesuai selera. (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Istilah \"Shitsurei itashimasu\" dipakai saat…"
+      },
+      "opts": [
+       {
+        "id": "Menghampiri atau meninggalkan tempat duduk pelanggan"
+       },
+       {
+        "id": "Menyajikan bon"
+       },
+       {
+        "id": "Menyambut pelanggan di pintu"
+       },
+       {
+        "id": "Menerima telepon"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Digunakan saat staf menghampiri tempat duduk pelanggan dan saat meninggalkannya. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s6-q",
+    "title": {
+     "id": "Latihan: Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah ketujuh alergen yang wajib diberi label pada makanan olahan?"
+      },
+      "opts": [
+       {
+        "id": "Telur, susu, gandum, soba, kacang, udang, kepiting"
+       },
+       {
+        "id": "Telur, ikan, nasi, wijen, jahe, tomat, daging"
+       },
+       {
+        "id": "Susu, kedelai, beras, jagung, ayam, babi, sapi"
+       },
+       {
+        "id": "Kacang, ikan, cokelat, madu, kopi, teh, lemon"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "7 item: telur, susu, gandum, soba, kacang, udang, kepiting. (Modul hal. 106.)"
+      },
+      "ref": {
+       "p": 106
+      }
+     },
+     {
+      "q": {
+       "id": "Hidangan di restoran menurut hukum Jepang pada modul…"
+      },
+      "opts": [
+       {
+        "id": "Tidak wajib mencantumkan alergen, tetapi staf harus bisa menjawab pertanyaan pelanggan"
+       },
+       {
+        "id": "Wajib mencantumkan semua alergen"
+       },
+       {
+        "id": "Dilarang menyebut alergen"
+       },
+       {
+        "id": "Tidak perlu informasi bahan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tidak ada kewajiban hukum mencantumkan alergen di hidangan restoran, namun informasi penting bagi pelanggan. (Modul hal. 106.)"
+      },
+      "ref": {
+       "p": 106
+      }
+     },
+     {
+      "q": {
+       "id": "Alkohol tidak boleh disajikan kepada orang yang berusia di bawah…"
+      },
+      "opts": [
+       {
+        "id": "20 tahun"
+       },
+       {
+        "id": "17 tahun"
+       },
+       {
+        "id": "25 tahun"
+       },
+       {
+        "id": "30 tahun"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Melanggar hukum menyajikan alkohol kepada yang belum dewasa (di bawah 20 tahun). (Modul hal. 108.)"
+      },
+      "ref": {
+       "p": 108
+      }
+     },
+     {
+      "q": {
+       "id": "Designated driver adalah…"
+      },
+      "opts": [
+       {
+        "id": "Orang yang mengantar teman ke restoran dan tidak minum alkohol"
+       },
+       {
+        "id": "Pemilik restoran"
+       },
+       {
+        "id": "Staf pengantar makanan"
+       },
+       {
+        "id": "Pelanggan yang paling mabuk"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Designated driver mengantar teman ke restoran dan tidak mengonsumsi minuman beralkohol. (Modul hal. 108.)"
+      },
+      "ref": {
+       "p": 108
+      }
+     },
+     {
+      "q": {
+       "id": "Fungsi utama protein dalam tubuh adalah…"
+      },
+      "opts": [
+       {
+        "id": "Membangun jaringan tubuh"
+       },
+       {
+        "id": "Menjadi energi saja"
+       },
+       {
+        "id": "Membangun tulang saja"
+       },
+       {
+        "id": "Mengatur rasa"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Protein membangun jaringan tubuh; lemak dan karbohidrat menjadi energi. (Modul hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      }
+     },
+     {
+      "q": {
+       "id": "Vegan adalah orang yang…"
+      },
+      "opts": [
+       {
+        "id": "Makan 100% hidangan nabati tanpa telur dan susu"
+       },
+       {
+        "id": "Tidak makan daging tetapi makan ikan"
+       },
+       {
+        "id": "Makan semua"
+       },
+       {
+        "id": "Hanya minum susu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Vegan = 100% hidangan nabati, tanpa produk hewani seperti telur atau produk susu. (Modul hal. 110.)"
+      },
+      "ref": {
+       "p": 110
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s7-q",
+    "title": {
+     "id": "Latihan: Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tugas akhir hari kerja dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Setelah restoran tutup dan semua pelanggan pulang"
+       },
+       {
+        "id": "Tepat pada jam tutup walau pelanggan masih ada"
+       },
+       {
+        "id": "Sebelum buka"
+       },
+       {
+        "id": "Saat jam ramai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilaksanakan setelah restoran tutup dan semua pelanggan sudah pulang. (Modul hal. 112.)"
+      },
+      "ref": {
+       "p": 112
+      }
+     },
+     {
+      "q": {
+       "id": "Pembersihan harus dimulai dari…"
+      },
+      "opts": [
+       {
+        "id": "Atas ke bawah"
+       },
+       {
+        "id": "Bawah ke atas"
+       },
+       {
+        "id": "Lantai dulu"
+       },
+       {
+        "id": "Acak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Debu dan kotoran jatuh dari atas ke bawah; mulai dari titik tertinggi, lantai terakhir. (Modul hal. 113.)"
+      },
+      "ref": {
+       "p": 113
+      }
+     },
+     {
+      "q": {
+       "id": "Merendam sebelum mencuci menggunakan air bersuhu sekitar…"
+      },
+      "opts": [
+       {
+        "id": "40℃"
+       },
+       {
+        "id": "10℃"
+       },
+       {
+        "id": "100℃"
+       },
+       {
+        "id": "0℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Rendam dalam wadah berisi detergen dan air bersuhu 40℃. (Modul hal. 113.)"
+      },
+      "ref": {
+       "p": 113
+      }
+     },
+     {
+      "q": {
+       "id": "Kotoran kering sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tidak langsung dibasahi dengan kain basah"
+       },
+       {
+        "id": "Selalu dilap dengan kain basah"
+       },
+       {
+        "id": "Dibiarkan"
+       },
+       {
+        "id": "Disiram air dingin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan menyeka kotoran kering dengan kain basah karena membuat pembersihan lebih lama. (Modul hal. 113.)"
+      },
+      "ref": {
+       "p": 113
+      }
+     },
+     {
+      "q": {
+       "id": "Perkiraan proporsi pembayaran tunai di restoran Jepang menurut modul…"
+      },
+      "opts": [
+       {
+        "id": "Sekitar 80%"
+       },
+       {
+        "id": "Sekitar 20%"
+       },
+       {
+        "id": "Sekitar 50%"
+       },
+       {
+        "id": "Sekitar 5%"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sekitar 80% tagihan dibayar uang tunai (yen); cashless sekitar 20%. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     },
+     {
+      "q": {
+       "id": "Kartu debit berbeda dari kartu kredit karena…"
+      },
+      "opts": [
+       {
+        "id": "Jumlah langsung dipotong dari rekening bank"
+       },
+       {
+        "id": "Dibayar bulan depan"
+       },
+       {
+        "id": "Diisi saldo dahulu"
+       },
+       {
+        "id": "Memakai kode QR"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kartu debit: jumlah langsung dipotong dari rekening bank; kartu kredit: pembayaran ditangguhkan. (Modul hal. 117.)"
+      },
+      "ref": {
+       "p": 117
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s8-q",
+    "title": {
+     "id": "Latihan: Penanganan Keluhan dan Benda Asing",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Langkah pertama saat pelanggan menyampaikan keluhan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyimak baik-baik"
+       },
+       {
+        "id": "Membantah"
+       },
+       {
+        "id": "Menjauh"
+       },
+       {
+        "id": "Memanggil pelanggan lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Prosedur dimulai dengan menyimak baik-baik keluhan pelanggan. (Modul hal. 119.)"
+      },
+      "ref": {
+       "p": 119
+      }
+     },
+     {
+      "q": {
+       "id": "Jika tidak yakin cara menangani keluhan, staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Segera melapor dan memanggil manajer"
+       },
+       {
+        "id": "Menolak keluhan"
+       },
+       {
+        "id": "Menunggu pelanggan pergi"
+       },
+       {
+        "id": "Memberi diskon sendiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika tidak yakin, informasikan bahwa Anda akan memanggil manajer dan segera laporkan. (Modul hal. 119.)"
+      },
+      "ref": {
+       "p": 119
+      }
+     },
+     {
+      "q": {
+       "id": "Contoh benda asing LUNAK adalah…"
+      },
+      "opts": [
+       {
+        "id": "Serangga atau rambut"
+       },
+       {
+        "id": "Pecahan kaca"
+       },
+       {
+        "id": "Batu"
+       },
+       {
+        "id": "Kepingan logam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Benda asing lunak: serangga, rambut, bagian plastik vinil, carikan kertas. (Modul hal. 120.)"
+      },
+      "ref": {
+       "p": 120
+      }
+     },
+     {
+      "q": {
+       "id": "Hidangan yang terkontaminasi benda asing harus…"
+      },
+      "opts": [
+       {
+        "id": "Dibawa ke dapur dan ditunjukkan ke manajer dan kepala koki"
+       },
+       {
+        "id": "Dibuang langsung"
+       },
+       {
+        "id": "Disajikan ke pelanggan lain"
+       },
+       {
+        "id": "Disimpan di meja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hidangan dibawa ke dapur dan ditunjukkan kepada manajer dan kepala koki untuk menemukan sumber kontaminasi. (Modul hal. 120.)"
+      },
+      "ref": {
+       "p": 120
+      }
+     },
+     {
+      "q": {
+       "id": "Salah satu pencegahan kontaminasi benda asing di luar dapur…"
+      },
+      "opts": [
+       {
+        "id": "Membersihkan filter AC secara berkala"
+       },
+       {
+        "id": "Membuka pintu lebar"
+       },
+       {
+        "id": "Memakai stapler di dekat makanan"
+       },
+       {
+        "id": "Membiarkan sampah di lantai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Saran: bersihkan filter AC berkala; jangan biarkan pintu terbuka; jangan pakai klip/stapler/pensil dekat makanan. (Modul hal. 121.)"
+      },
+      "ref": {
+       "p": 121
+      }
+     }
+    ]
+   },
+   {
+    "id": "f3s9-q",
+    "title": {
+     "id": "Latihan: Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Saat pelanggan tersedak dan masih bisa batuk, langkah pertama adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyarankan agar batuk"
+       },
+       {
+        "id": "Memberi air banyak"
+       },
+       {
+        "id": "Mengabaikan"
+       },
+       {
+        "id": "Menyuruh makan nasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika pelanggan dapat batuk, sarankan agar mereka batuk; lalu 4–5 tepukan di punggung bila perlu. (Modul hal. 123.)"
+      },
+      "ref": {
+       "p": 123
+      }
+     },
+     {
+      "q": {
+       "id": "Tepukan pada punggung pelanggan yang tersedak dilakukan sebanyak…"
+      },
+      "opts": [
+       {
+        "id": "4–5 kali, keras dan tajam, di antara tulang belikat"
+       },
+       {
+        "id": "1 kali pelan"
+       },
+       {
+        "id": "20 kali"
+       },
+       {
+        "id": "Di perut saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berikan 4–5 tepukan keras dan tajam ke punggung, di antara tulang belikat. (Modul hal. 123.)"
+      },
+      "ref": {
+       "p": 123
+      }
+     },
+     {
+      "q": {
+       "id": "Muntahan pelanggan dibersihkan dengan…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan khusus (celemek, sarung tangan, kain) lalu disinfeksi"
+       },
+       {
+        "id": "Tangan kosong"
+       },
+       {
+        "id": "Disiram air saja"
+       },
+       {
+        "id": "Dibiarkan kering"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Muntah dapat mengandung virus; bersihkan dengan peralatan khusus kemudian lakukan disinfeksi. (Modul hal. 123.)"
+      },
+      "ref": {
+       "p": 123
+      }
+     },
+     {
+      "q": {
+       "id": "Saat gempa besar prioritas pertama staf adalah…"
+      },
+      "opts": [
+       {
+        "id": "Keselamatan diri (bersembunyi di bawah meja)"
+       },
+       {
+        "id": "Mengambil barang berharga"
+       },
+       {
+        "id": "Lari ke dapur"
+       },
+       {
+        "id": "Memadamkan semua lampu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pastikan keselamatan Anda terlebih dahulu; sembunyi di bawah meja. (Modul hal. 124.)"
+      },
+      "ref": {
+       "p": 124
+      }
+     },
+     {
+      "q": {
+       "id": "Saat mengevakuasi pelanggan dari kebakaran, posisi tubuh sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Serendah mungkin"
+       },
+       {
+        "id": "Tegak tinggi"
+       },
+       {
+        "id": "Berlari membungkuk ke arah api"
+       },
+       {
+        "id": "Berdiri diam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pandu pelanggan keluar seiring memastikan postur tubuh serendah mungkin. (Modul hal. 125.)"
+      },
+      "ref": {
+       "p": 125
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah keluar dari gedung yang terbakar, staf…"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh kembali ke sumber api dan memperingatkan pelanggan"
+       },
+       {
+        "id": "Kembali mengambil kas"
+       },
+       {
+        "id": "Masuk lagi untuk memeriksa"
+       },
+       {
+        "id": "Membuka jendela"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah keluar, jangan kembali ke sumber kebakaran dan peringatkan pelanggan untuk tidak masuk kembali. (Modul hal. 125.)"
+      },
+      "ref": {
+       "p": 125
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "tema": []
+}

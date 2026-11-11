@@ -1,0 +1,645 @@
+{
+ "schema": 1,
+ "bidang": "food-service",
+ "source": "Materi Pembelajaran untuk Penilaian Keterampilan dalam Industri Jasa Boga (Pengawasan Kebersihan / Persiapan Makanan dan Minuman / Layanan Pelanggan), versi 1 revisi 15 April 2021, terjemahan sementara Indonesia — Asosiasi Jasa Boga Jepang",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Pengawasan Kebersihan",
+   "jp": "{衛生管理|えいせいかんり}"
+  },
+  "intro": {
+   "id": "Modul 1: pengetahuan dasar keracunan makanan, praktik kebersihan yang baik, dan sistem kebersihan makanan berbasis HACCP.",
+   "jp": "{衛生管理|えいせいかんり}"
+  },
+  "pages": [
+   5,
+   28
+  ],
+  "subs": [
+   {
+    "id": "f1s1",
+    "no": 1,
+    "title": {
+     "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+     "jp": "{食中毒|しょくちゅうどく}の{基本|きほん}と{予防|よぼう}の3{原則|げんそく}"
+    },
+    "pages": [
+     5,
+     6
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Penyebab dan kategori keracunan makanan"
+      },
+      {
+       "ul": [
+        "Penyebab utama: karyawan yang kurang sehat atau cuci tangan kurang bersih, bahan baku pemasok yang tidak higienis, makanan tidak dipanaskan dengan benar, dan suhu makanan tidak diawasi.",
+        "Bakteri/virus mencemari makanan lalu pelanggan muntah dan diare. Pengawasan buruk juga bisa memasukkan **benda asing** (detergen, insektisida, kaca, serpihan logam).",
+        "**Lebih dari 90%** keracunan makanan disebabkan bakteri dan virus."
+       ]
+      },
+      {
+       "p": "Kategori: akibat **bakteri** (E. coli enterohemoragik, Salmonella, Staphylococcus), akibat **virus** (Norovirus, virus Hepatitis E), akibat **bahan kimia** (detergen, insektisida, pestisida), dan akibat **parasit** (Anisakis, cacing gelang)."
+      },
+      {
+       "h": "2. Tiga prinsip pencegahan keracunan makanan (bakteri)"
+      },
+      {
+       "ol": [
+        "**Jangan mencemari** makanan dengan mikroba patogen.",
+        "**Jangan membiakkan** mikroba patogen.",
+        "**Basmi** mikroba patogen."
+       ]
+      },
+      {
+       "h": "(1) Hindari pencemaran"
+      },
+      {
+       "p": "Di tangan ada banyak bakteri. Cuci tangan: (A) sebelum mulai menyiapkan makanan, (B) sebelum dan sesudah mengolah daging/ikan mentah dan telur, (C) setelah ke toilet atau menyeka hidung saat menyiapkan makanan. Pakai **talenan dan pisau terpisah** untuk bahan mentah; jika dipakai bersama, cuci dan disinfeksi setiap kali."
+      },
+      {
+       "h": "(2) Cegah pembiakan"
+      },
+      {
+       "ul": [
+        "Makin tinggi suhu dan kelembapan, bakteri makin cepat berkembang biak.",
+        "Pada **10℃ ke bawah** pembiakan melambat; pada **−15℃ ke bawah** tidak terjadi pembiakan.",
+        "Simpan makanan pada suhu 10℃ ke bawah dan gunakan sebelum tanggal kedaluwarsa, karena pada 10℃ pun bakteri masih membiak perlahan."
+       ]
+      },
+      {
+       "h": "(3) Basmi dengan panas"
+      },
+      {
+       "p": "Sebagian besar bakteri/virus mati oleh proses masak. Untuk **kerang-kerangan dan daging**, panaskan bagian dalam hingga **75℃** dan pertahankan **minimal 1 menit**. Makanan yang tidak dimasak (misalnya salad) harus disterilisasi/dicuci dengan benar."
+      },
+      {
+       "note": "Sumber: modul hal. 5–6 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tiga prinsip: jangan cemari, jangan biakkan, basmi. Angka kunci: 10℃, −15℃, 75℃ selama 1 menit.",
+      "points": [
+       "90%+ keracunan makanan disebabkan bakteri & virus.",
+       "Cuci tangan: sebelum mulai, sebelum/sesudah bahan mentah, setelah toilet/menyeka hidung.",
+       "Pembiakan melambat ≤10℃ dan berhenti ≤−15℃.",
+       "Daging & kerang: inti 75℃ selama ≥1 menit."
+      ],
+      "avoid": [
+       "Memakai talenan/pisau yang sama untuk daging mentah dan makanan matang tanpa dicuci.",
+       "Mengira suhu 10℃ menghentikan bakteri sepenuhnya."
+      ],
+      "exam": [
+       "Sebutkan 3 prinsip pencegahan.",
+       "Suhu & waktu pemanasan inti daging/kerang."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s2",
+    "no": 2,
+    "title": {
+     "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+     "jp": "{食中毒|しょくちゅうどく}の{原因|げんいん}となる{細菌|さいきん}・ウイルス"
+    },
+    "pages": [
+     7,
+     8
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Delapan patogen umum"
+      },
+      {
+       "ol": [
+        "**E. coli enterohemoragik (O157, O111)**: ada pada jeroan sapi/babi; sangat beracun, sakit perut, diare berair dan berdarah. Muncul dari daging mentah atau kurang matang.",
+        "**Campylobacter**: ada di isi perut sapi, babi, ayam; dari daging yang mengandung bakteri atau kurang matang.",
+        "**Salmonella**: ada di isi perut sapi, babi, ayam dan **telur ayam**; dari daging mentah/kurang matang.",
+        "**Bacillus cereus**: ada di alam (sungai, tanah). Sumber: biji-bijian (termasuk beras), rempah; contoh kasus **nasi goreng (chahan)** dan **spaghetti**.",
+        "**Staphylococcus aureus**: ada di kulit, tenggorokan, dan luka manusia. Risiko tinggi bila penyaji **punya luka sayat** di tangan/jari.",
+        "**Clostridium perfringens**: ada di isi perut manusia/hewan dan tanah; membentuk spora di tempat tanpa oksigen. Makanan: **kari dan hidangan rebus/tumis**. Makanan matang harus didinginkan.",
+        "**Vibrio parahaemolyticus**: ada di air dan garam laut; aktif saat suhu laut naik di **musim panas**. Dari ikan mentah. Cuci hasil laut dengan air mengalir atau masak.",
+        "**Norovirus**: dari kerang-kerangan yang kurang matang; juga ada di feses dan muntah, jadi **cuci tangan setelah dari toilet**."
+       ]
+      },
+      {
+       "note": "Cara mengingat: daging/telur → E. coli, Campylobacter, Salmonella; nasi/pasta → Bacillus cereus; luka tangan → Staphylococcus; kari → Clostridium; ikan mentah musim panas → Vibrio; kerang + toilet → Norovirus."
+      },
+      {
+       "note": "Sumber: modul hal. 7–8 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali patogen dan makanan pemicunya: kunci ke pencegahan yang tepat.",
+      "points": [
+       "O157: jeroan, daging mentah; diare berdarah.",
+       "Staphylococcus: dari luka di tangan.",
+       "Clostridium: kari/rebusan, harus didinginkan.",
+       "Norovirus: kerang dan feses/muntah."
+      ],
+      "avoid": [
+       "Menyiapkan makanan dengan luka terbuka tanpa sarung tangan.",
+       "Membiarkan kari/rebusan dingin perlahan."
+      ],
+      "exam": [
+       "Pasangkan patogen dengan makanan/sumber.",
+       "Pencegahan Vibrio dan Norovirus."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s3",
+    "no": 3,
+    "title": {
+     "id": "Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang",
+     "jp": "{納品|のうひん}{検査|けんさ}・{保管|ほかん}{温度|おんど}・{二次汚染|にじおせん}"
+    },
+    "pages": [
+     10,
+     12
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Pemeriksaan pengantaran"
+      },
+      {
+       "p": "Waspadai pasokan yang basi, kemasan rusak, lewat kedaluwarsa, atau salah penyimpanan. Prosedur:"
+      },
+      {
+       "ol": [
+        "Cocokkan produk dan jumlah dengan pesanan.",
+        "Periksa tampilan, bau, kemasan, dan label (tanggal kedaluwarsa, tanggal \"sebaiknya digunakan sebelum\", cara penyimpanan).",
+        "Jika mungkin, ukur suhu produk beku/dingin (mis. termometer inframerah); jangan biarkan di suhu ruang lama.",
+        "Ada masalah → **kembalikan** produk sesuai metode pengembalian.",
+        "Catat dalam **diari**."
+       ]
+      },
+      {
+       "note": "Histamin: ikan merah yang tidak segar dapat mengandung histamin → reaksi alergi. Segera simpan ikan di kulkas/freezer."
+      },
+      {
+       "h": "2. Pemeriksaan suhu kulkas/freezer"
+      },
+      {
+       "ul": [
+        "Pasang **termometer** di kulkas/freezer; tentukan suhu optimal tiap unit. Contoh: kulkas **tidak lebih dari 10℃**, freezer **−15℃ ke bawah**.",
+        "Periksa suhu **setiap hari** pada waktu yang ditetapkan (mis. sebelum kerja) dan cek tanggal kedaluwarsa.",
+        "Ada masalah → lapor ke penanggung jawab; catat dalam diari."
+       ]
+      },
+      {
+       "h": "3. Pencegahan kontaminasi silang"
+      },
+      {
+       "p": "**Kontaminasi silang**: bakteri dari daging/ikan mentah berpindah ke bahan atau makanan lain."
+      },
+      {
+       "ul": [
+        "Simpan daging dan ikan mentah dalam **wadah berpenutup** di **rak paling bawah** kulkas agar cairannya tidak menetes ke bahan lain.",
+        "Tentukan perkakas khusus (talenan, pisau) tiap jenis bahan; cuci dan disinfeksi setelah dipakai.",
+        "Periksa kondisi penyimpanan secara berkala; kalau talenan/pisau kotor, cuci dan disinfeksi ulang."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 10–12 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cek saat barang datang, jaga suhu kulkas/freezer, dan pisahkan bahan mentah supaya tidak terjadi kontaminasi silang.",
+      "points": [
+       "Kulkas ≤10℃, freezer ≤−15℃ (contoh di modul).",
+       "Bahan mentah di rak bawah, wadah tertutup.",
+       "Produk bermasalah dikembalikan dan dicatat di diari.",
+       "Ikan merah tidak segar → histamin."
+      ],
+      "avoid": [
+       "Meletakkan daging mentah di rak atas.",
+       "Membiarkan produk beku/dingin lama di suhu ruang."
+      ],
+      "exam": [
+       "Urutan pemeriksaan pengantaran.",
+       "Posisi penyimpanan daging mentah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s4",
+    "no": 4,
+    "title": {
+     "id": "Pembersihan dan Disinfeksi Perkakas & Toilet",
+     "jp": "{調理器具|ちょうりきぐ}・トイレの{洗浄|せんじょう}と{消毒|しょうどく}"
+    },
+    "pages": [
+     13,
+     14
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Perkakas dapur"
+      },
+      {
+       "p": "Perkakas kotor menyebarkan bakteri. Pisahkan perkakas menurut penggunaan (daging, ikan, dsb.), cuci dan disinfeksi segera setelah dipakai, periksa pencuciannya sesuai jadwal, dan catat di diari."
+      },
+      {
+       "h": "Prosedur: talenan, pisau, spatula"
+      },
+      {
+       "ol": [
+        "Bilas dengan air keran untuk menghilangkan noda terlihat.",
+        "Cuci dengan detergen pada spons sampai berbusa.",
+        "Bilas hingga detergen bersih.",
+        "**Disinfeksi** dengan air mendidih, disinfektan berklorin, atau **alkohol 70%**.",
+        "Keringkan dengan benar dan simpan di tempat bersih."
+       ]
+      },
+      {
+       "h": "Prosedur: kain dan handuk"
+      },
+      {
+       "p": "Bilas, cuci dengan detergen, bilas bersih, lalu **rendam air mendidih minimal 5 menit** (atau disinfektan berklorin), keringkan dan simpan di tempat bersih."
+      },
+      {
+       "note": "Detergen/disinfektan dapur harus diawasi ketat agar tidak terpakai saat memasak. Bila dipindah wadah, pakai wadah khusus **berlabel isi** dan simpan di tempat yang aman."
+      },
+      {
+       "h": "2. Toilet"
+      },
+      {
+       "p": "Toilet berisi banyak bakteri dan virus (termasuk norovirus pada dudukan, kenop penyiram, pegangan, gagang pintu). Prosedur:"
+      },
+      {
+       "ol": [
+        "Pakai **pakaian, sepatu, sarung tangan yang berbeda** dari saat menyiapkan makanan.",
+        "Pakai detergen, sikat, dan spons **khusus toilet**.",
+        "Seka kenop penyiram, gagang pintu, dan area yang sering disentuh dengan disinfektan berklorin.",
+        "Bersihkan fasilitas cuci tangan.",
+        "Bersihkan bowl dengan detergen dan sikat khusus, bilas air mengalir; lalu lantai.",
+        "Bersihkan dan keringkan alat sebelum disimpan.",
+        "Setelah selesai, **cuci tangan** dengan benar."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 13–14 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cuci lalu disinfeksi; alat dan pakaian toilet dipisahkan dari area makanan.",
+      "points": [
+       "Alkohol 70% / air mendidih / klorin untuk disinfeksi alat.",
+       "Kain: rendam air mendidih ≥5 menit.",
+       "Wadah detergen wajib berlabel.",
+       "Pakaian & alat toilet terpisah."
+      ],
+      "avoid": [
+       "Memakai sikat/sarung tangan toilet untuk area dapur.",
+       "Menaruh detergen dalam botol tanpa label di dapur."
+      ],
+      "exam": [
+       "Urutan mencuci talenan/pisau.",
+       "Aturan pakaian & alat saat membersihkan toilet."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s5",
+    "no": 5,
+    "title": {
+     "id": "Kebersihan Pribadi dan Cuci Tangan",
+     "jp": "{身だしなみ|みだしなみ}と{手洗い|てあらい}"
+    },
+    "pages": [
+     15,
+     16
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Kebersihan pribadi"
+      },
+      {
+       "p": "Karyawan dapat mencemari makanan jika: (A) diare, (B) ada luka di tangan/jari, (C) pakaian kerja kotor, (D) memakai perhiasan saat bekerja. Karena itu:"
+      },
+      {
+       "ul": [
+        "Karyawan yang **diare atau muntah** tidak boleh bekerja dan harus ke rumah sakit; setelah keracunan makanan, tidak bekerja sampai gejala hilang.",
+        "Ada luka di tangan/jari → **perban lalu sarung tangan**; tangan tetap dicuci bersih walau memakai sarung tangan sekali pakai.",
+        "Pakaian bersih saat menangani makanan; rambut bersih dan terikat bila perlu.",
+        "**Tidak memakai perhiasan**: jam tangan, kalung, cincin, anting.",
+        "Catat dalam diari."
+       ]
+      },
+      {
+       "note": "Sekitar 80% kasus keracunan norovirus diyakini berasal dari karyawan. Infeksi bisa tanpa gejala, jadi cuci tangan dan jaga kesehatan setiap saat."
+      },
+      {
+       "h": "2. Wajib cuci tangan — prosedur 11 langkah"
+      },
+      {
+       "ol": [
+        "Cuci dengan air mengalir.",
+        "Pakai sabun cair.",
+        "Telapak tangan dan jari.",
+        "Punggung tangan dan jari.",
+        "Sela-sela jari.",
+        "Ibu jari dan pangkalnya.",
+        "Ujung jari.",
+        "Pergelangan tangan.",
+        "Bilas semua sabun dengan air mengalir.",
+        "Seka sampai kering.",
+        "Sterilkan dengan **alkohol**."
+       ]
+      },
+      {
+       "note": "Mencuci tangan **dua kali** sangat efektif (ulangi langkah sabun sampai bilas)."
+      },
+      {
+       "note": "Sumber: modul hal. 15–16 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Karyawan sakit atau berluka dan perhiasan adalah sumber pencemaran; cuci tangan 11 langkah, idealnya dua kali.",
+      "points": [
+       "Diare/muntah → tidak bekerja.",
+       "Luka → perban + sarung tangan.",
+       "Tanpa jam tangan/cincin/kalung/anting.",
+       "Langkah terakhir cuci tangan: alkohol."
+      ],
+      "avoid": [
+       "Bekerja dengan diare karena \"merasa kuat\".",
+       "Menganggap sarung tangan menggantikan cuci tangan."
+      ],
+      "exam": [
+       "Urutan cuci tangan.",
+       "Apa yang dilakukan jika tangan terluka."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s6",
+    "no": 6,
+    "title": {
+     "id": "5S, Pembersihan Terjadwal, dan Pembuangan Sampah",
+     "jp": "5S・{清掃計画|せいそうけいかく}・{廃棄物|はいきぶつ}"
+    },
+    "pages": [
+     17,
+     18
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Prinsip 5S"
+      },
+      {
+       "p": "5S dipakai di tempat pengolahan makanan untuk menjaga lingkungan kerja. Kelima istilah Jepang berawalan huruf S:"
+      },
+      {
+       "ul": [
+        "**SEIRI (整理)** = mengorganisir: pisahkan yang perlu dan tidak, buang yang tidak perlu.",
+        "**SEITON (整頓)** = menata rapi: tentukan tempat tiap benda, kembalikan setelah dipakai.",
+        "**SEISOU (清掃)** = membersihkan: tempat kerja bebas sampah dan kotoran.",
+        "**SEIKETSU (清潔)** = sanitasi: hasil dari melaksanakan 3S sebelumnya.",
+        "**SYUKAN (習慣)** = kebiasaan baik: memelihara dan mengajarkan praktik baik."
+       ]
+      },
+      {
+       "p": "5S efektif mencegah keracunan makanan, masuknya benda asing, dan kecelakaan kerja."
+      },
+      {
+       "h": "2. Pembersihan terjadwal"
+      },
+      {
+       "ul": [
+        "**Harian**: stasiun cuci tangan, wastafel, permukaan kerja, sekitar kompor, lantai (disapu), saluran air.",
+        "**Mingguan**: isi kulkas/freezer, pipa saluran, lantai (disikat), saluran pembuangan minyak.",
+        "**Bulanan**: dinding, lampu, area yang tidak biasa dibersihkan."
+       ]
+      },
+      {
+       "h": "3. Pembuangan limbah"
+      },
+      {
+       "ul": [
+        "Makanan sisa dibuang ke tempat khusus **berpenutup**, di area yang tidak mengganggu pekerjaan; sisa makanan membiakkan bakteri dan mengundang serangga/tikus.",
+        "Limbah ikan kembung (**fugu**) wajib dibuang dalam **wadah terkunci** sesuai peraturan pemerintah.",
+        "Sampah lain disortir: dapat dibakar, tidak dapat dibakar, plastik, botol, kaleng, minyak bekas — ikuti peraturan setempat."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 17–18 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "5S menjaga dapur bersih; bersihkan berjadwal; sortir dan tutup sampah.",
+      "points": [
+       "Seiri-Seiton-Seisou-Seiketsu-Syukan.",
+       "Harian / mingguan / bulanan.",
+       "Limbah fugu: wadah terkunci."
+      ],
+      "avoid": [
+       "Membiarkan sisa makanan di tempat terbuka.",
+       "Mencampur semua jenis sampah."
+      ],
+      "exam": [
+       "Arti tiap S.",
+       "Contoh tugas pembersihan harian vs mingguan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s7",
+    "no": 7,
+    "title": {
+     "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+     "jp": "HACCP{方式|ほうしき}の{衛生管理|えいせいかんり}"
+    },
+    "pages": [
+     21,
+     26
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Apa itu HACCP?"
+      },
+      {
+       "p": "**HACCP** = *Hazard Analysis and Critical Control Point* (Analisis Bahaya dan Titik Pengawasan Penting): metode memeriksa keselamatan proses kunci sejak bahan baku tiba sampai makanan jadi. Hidangan restoran dibagi tiga kelompok:"
+      },
+      {
+       "ul": [
+        "**Kelompok 1 — makanan yang didinginkan** (sashimi, tahu dingin, salad sayuran segar): disajikan dingin tanpa pemanasan.",
+        "**Kelompok 2 — dimasak lalu disajikan panas** (steak, ikan/ayam bakar, hamburger, tempura, ayam goreng, nasi).",
+        "**Kelompok 3 — dipanaskan, didinginkan, lalu dihangatkan ulang** (kari, sup, saus, tare, salad kentang)."
+       ]
+      },
+      {
+       "h": "2. Zona berbahaya"
+      },
+      {
+       "p": "Bakteri berkembang pesat pada **10℃–60℃** (**zona berbahaya**). Titik saat bakteri bisa membiak jika tidak diawasi disebut **titik pengawasan penting**, diawasi lewat **suhu dan waktu**."
+      },
+      {
+       "h": "3. Kelompok 1"
+      },
+      {
+       "ul": [
+        "Sajikan segera setelah dikeluarkan dari kulkas; atur suhu kulkas.",
+        "Cuci sayuran teliti untuk menurunkan jumlah bakteri; simpan di kulkas agar tidak bertambah.",
+        "Jika penyajian butuh lebih dari 30 menit, simpan di **10℃ atau lebih rendah**."
+       ]
+      },
+      {
+       "h": "4. Kelompok 2"
+      },
+      {
+       "ul": [
+        "Pastikan bagian dalam matang: lihat panas, tampilan, warna sari daging, tekstur, suhu dalam.",
+        "Periksa **suhu inti** secara berkala; bakteri dalam daging mati bila inti **75℃ selama minimal 1 menit**.",
+        "Jangan sampai terjadi pencemaran sekunder lewat tangan atau perkakas kotor saat menyajikan.",
+        "Tidak wajib mencatat tiap masak, tetapi simpan laporan di akhir hari dan catat masalah di diari."
+       ]
+      },
+      {
+       "h": "5. Kelompok 3"
+      },
+      {
+       "ul": [
+        "Dinginkan makanan **segera** setelah dimasak; hindari zona 10–60℃.",
+        "Dinginkan kilat: bagi ke wadah kecil lalu kulkas, atau pakai **chiller** hingga 10℃ ke bawah.",
+        "Saat dihangatkan ulang, pastikan **mendidih (bergelembung)**."
+       ]
+      },
+      {
+       "note": "Referensi: FDA AS — 21℃ dalam 2 jam lalu 5℃ dalam 4 jam. Pedoman kantin besar Jepang — 20℃ dalam 30 menit lalu 10℃ dalam 1 jam."
+      },
+      {
+       "note": "Sumber: modul hal. 21–26 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "HACCP: kelompokkan hidangan, tentukan titik pengawasan penting, kendalikan suhu dan waktu.",
+      "points": [
+       "Zona berbahaya 10–60℃.",
+       "K1 dingin ≤10℃ jika >30 menit; K2 inti 75℃ ≥1 menit; K3 dinginkan segera & hangatkan sampai mendidih.",
+       "Kari/sup/salad kentang = Kelompok 3."
+      ],
+      "avoid": [
+       "Membiarkan kari dingin pelan-pelan di suhu ruang.",
+       "Menyajikan K2 tanpa memeriksa suhu inti."
+      ],
+      "exam": [
+       "Kelompokkan menu ke K1/K2/K3.",
+       "Zona berbahaya & suhu inti."
+      ]
+     }
+    }
+   },
+   {
+    "id": "f1s8",
+    "no": 8,
+    "title": {
+     "id": "Titik Pengawasan Lain & Catatan Kebersihan",
+     "jp": "その{他|ほか}の{管理|かんり}{点|てん}と{記録|きろく}"
+    },
+    "pages": [
+     27,
+     28
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Bakteri pada bahan baku"
+      },
+      {
+       "ul": [
+        "**Telur ayam**: masak hingga suhu inti **70℃ selama minimal 1 menit** (kecuali telur \"baik digunakan sebelum\" untuk dimakan mentah yang cepat dikonsumsi dan tidak retak/bocor).",
+        "**Hasil laut** yang dimakan mentah (sashimi): cuci baik dengan air mengalir, buang bagian berisiko.",
+        "**Hati sapi/babi**: tidak boleh dimakan mentah; masak hingga **75℃ selama minimal 1 menit**."
+       ]
+      },
+      {
+       "h": "2. Benda asing"
+      },
+      {
+       "p": "Benda asing keras (serpihan logam, pecahan plastik, serpih kaca, batu) dapat melukai; benda asing lunak (rambut, kertas, plastik vinil, serangga) membuat pelanggan tidak nyaman dan dapat berujung tuntutan hukum. Cegah dengan memeriksa bahan baku dan menjaga dapur bersih dan tertata."
+      },
+      {
+       "h": "3. Anisakis (parasit)"
+      },
+      {
+       "p": "Ada pada makarel, sarden, cakalang, salmon, cumi-cumi, sauri, makerel jack; menyebabkan sakit perut akut. Pencegahan:"
+      },
+      {
+       "ul": [
+        "Pilih ikan segar, **segera buang isi perutnya**.",
+        "Periksa visual; parasit cukup besar untuk terlihat.",
+        "Jangan sajikan organ dalam mentah (parasit hidup di organ).",
+        "**Bekukan minimal 24 jam di −20℃ ke bawah**, atau masak minimal 1 menit pada 60℃ / 70℃ ke atas."
+       ]
+      },
+      {
+       "h": "4. Menyimpan catatan pengawasan"
+      },
+      {
+       "ul": [
+        "Memperjelas titik pengawasan dan membantu mencegah keracunan.",
+        "Bukti pengawasan sudah benar bila timbul masalah.",
+        "Meyakinkan pusat kesehatan dan pelanggan.",
+        "Terlihat peningkatan kinerja kerja."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 27–28 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Telur 70℃, hati dan daging 75℃, anisakis dibekukan −20℃ ≥24 jam; catat semua.",
+      "points": [
+       "Telur: 70℃ ≥1 menit.",
+       "Hati sapi/babi tidak boleh mentah.",
+       "Anisakis: buang isi perut, bekukan −20℃ 24 jam.",
+       "Catatan = bukti kebersihan."
+      ],
+      "avoid": [
+       "Menyajikan organ dalam ikan mentah.",
+       "Tidak menyimpan catatan."
+      ],
+      "exam": [
+       "Suhu inti telur vs hati.",
+       "Pencegahan anisakis."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
