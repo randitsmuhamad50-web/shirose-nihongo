@@ -1,10 +1,11 @@
 // Panel guru SSW: aktif/nonaktif bidang, urutan, tambah bidang, status bab (Draft/Published/Hidden), progres siswa.
 // Menonaktifkan bidang TIDAK menghapus progres siswa (dokumen progres tidak disentuh).
-import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261110t";
+import { DEFAULT_BIDANG, esc, STATUS_LABEL } from "./ssw-core.js?v=20261111a";
 
 const TEMA = ["building", "kaigo", "factory", "restaurant", "farm", "construction", "hotel", "generic"];
 const BAB_ST = { published: "Published (tampil untuk siswa)", draft: "Draft (hanya guru)", hidden: "Hidden (disembunyikan)" };
-let FB = null, CTX = { toast: () => {}, rerender: () => {} }, VIEW = { progres: null, rank: null, kelas: "", cari: "" };
+let FB = null, CTX = { toast: () => {}, rerender: () => {} }, VIEW = { progres: null, rank: null, kelas: "", cari: "", bidang: "" };
+let BID = [], KLS = [];
 let SIS = [];
 
 async function loadAll() {
@@ -24,7 +25,7 @@ async function babList(slug) {
 
 export async function renderSswTab(fb, ctx) {
   FB = fb; CTX = ctx;
-  const list = await loadAll();
+  const list = await loadAll(); BID = list;
   let rows = "";
   for (const b of list) {
     const babs = b.hasContent ? await babList(b.slug) : [];
@@ -73,18 +74,45 @@ async function aksesHtml() {
   const q = VIEW.cari.toLowerCase();
   const vis = SIS.filter(x => (!VIEW.kelas || x.kelas === VIEW.kelas) && (!q || ((x.nama || "") + " " + (x.email || "")).toLowerCase().includes(q)))
     .sort((a, b) => (a.nama || "").localeCompare(b.nama || ""));
+  if (VIEW.bidang) return aksesBidangHtml(kelas, vis);
   const on = SIS.filter(x => x.aksesSsw !== false).length;
   const rows = vis.map(x => `<tr><td>${esc(x.nama || x.email || x.uid)}<div style="color:var(--gray);font-size:12px">${esc(x.kelas || "-")}</div></td>
     <td style="text-align:right"><label style="display:inline-flex;gap:6px;align-items:center;cursor:pointer;min-height:40px"><input type="checkbox" ${x.aksesSsw !== false ? "checked" : ""} onchange="SSWT.akses('${x.uid}',this.checked)"> ${x.aksesSsw !== false ? "Boleh" : "Diblokir"}</label></td></tr>`).join("");
   return `<div class="card" style="margin-bottom:14px"><b>🔑 Akses siswa ke SSW</b>
     <div style="color:var(--gray);font-size:12px;margin:4px 0 8px">Siswa baru otomatis boleh. Hilangkan centang untuk memblokir. Progres siswa yang diblokir tetap tersimpan. ${on}/${SIS.length} siswa punya akses.</div>
     <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px">
+      ${bidangSelect()}
       <select onchange="SSWT.filter('kelas',this.value)"><option value="">Semua kelas</option>${kelas.map(k => `<option ${VIEW.kelas === k ? "selected" : ""}>${esc(k)}</option>`).join("")}</select>
       <input id="sswt-cari" placeholder="Cari nama/email" value="${esc(VIEW.cari)}" style="width:160px" onchange="SSWT.filter('cari',this.value)">
       <button class="btn ghost sm" onclick="SSWT.massal(true)">✅ Izinkan yang tampil (${vis.length})</button>
       <button class="btn ghost sm" onclick="SSWT.massal(false)">🚫 Blokir yang tampil</button></div>
     ${rows ? `<div class="table-wrap" style="max-height:340px;overflow:auto"><table><tbody>${rows}</tbody></table></div>` : `<div style="color:var(--gray)">Tidak ada siswa.</div>`}</div>`;
 }
+/* ---- Akses per bidang: siswa (prioritas 1) → kelas (prioritas 2) → bawaan (hanya Building Cleaning terbuka) ---- */
+const bidangSelect = () => `<select onchange="SSWT.filter('bidang',this.value)"><option value="">Semua SSW (blokir total)</option>${BID.map(b => `<option value="${esc(b.slug)}" ${VIEW.bidang === b.slug ? "selected" : ""}>Bidang: ${esc(b.nama)}</option>`).join("")}</select>`;
+const tri = (v) => typeof v === "boolean" ? (v ? "1" : "0") : "";
+const triSel = (cur, fn) => `<select onchange="${fn}"><option value="" ${cur === "" ? "selected" : ""}>Ikut bawaan</option><option value="1" ${cur === "1" ? "selected" : ""}>Boleh</option><option value="0" ${cur === "0" ? "selected" : ""}>Blokir</option></select>`;
+async function aksesBidangHtml(kelas, vis) {
+  const slug = VIEW.bidang, b = BID.find(x => x.slug === slug) || { nama: slug };
+  try { KLS = await FB.listKelas(); } catch (e) { KLS = []; }
+  const bawaan = slug === "building-cleaning";
+  const efektif = (x) => { const a = (x.aksesSswBidang || {})[slug]; if (typeof a === "boolean") return a; const k = (KLS.find(k => k.nama === x.kelas)?.aksesSswBidang || {})[slug]; if (typeof k === "boolean") return k; return bawaan; };
+  const kRows = KLS.map(k => `<tr><td>${esc(k.nama || k.id)}</td><td style="text-align:right">${triSel(tri((k.aksesSswBidang || {})[slug]), `SSWT.aksesKelas('${k.id}',this.value)`)}</td></tr>`).join("");
+  const rows = vis.map(x => `<tr><td>${esc(x.nama || x.email || x.uid)}<div style="color:var(--gray);font-size:12px">${esc(x.kelas || "-")} · sekarang: <b style="color:${x.aksesSsw === false ? "var(--red)" : efektif(x) ? "var(--green,#10b981)" : "var(--red)"}">${x.aksesSsw === false ? "SSW diblokir total" : efektif(x) ? "boleh" : "terkunci"}</b></div></td>
+    <td style="text-align:right">${triSel(tri((x.aksesSswBidang || {})[slug]), `SSWT.aksesBidang('${x.uid}',this.value)`)}</td></tr>`).join("");
+  return `<div class="card" style="margin-bottom:14px"><b>🔑 Akses bidang: ${esc(b.nama)}</b>
+    <div style="color:var(--gray);font-size:12px;margin:4px 0 8px">Urutan: pengaturan siswa → pengaturan kelas → bawaan (${bawaan ? "terbuka" : "terkunci"}). Mengunci akses tidak menghapus progres.</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px">${bidangSelect()}
+      <select onchange="SSWT.filter('kelas',this.value)"><option value="">Semua kelas</option>${kelas.map(k => `<option ${VIEW.kelas === k ? "selected" : ""}>${esc(k)}</option>`).join("")}</select>
+      <input placeholder="Cari nama/email" value="${esc(VIEW.cari)}" style="width:160px" onchange="SSWT.filter('cari',this.value)">
+      <button class="btn ghost sm" onclick="SSWT.massalBidang(true)">✅ Boleh untuk yang tampil (${vis.length})</button>
+      <button class="btn ghost sm" onclick="SSWT.massalBidang(false)">🚫 Blokir yang tampil</button>
+      <button class="btn ghost sm" onclick="SSWT.massalBidang(null)">↺ Ikut bawaan</button></div>
+    ${kRows ? `<div style="font-size:13px;margin:6px 0 4px"><b>Per kelas</b></div><div class="table-wrap"><table><tbody>${kRows}</tbody></table></div>` : `<div style="color:var(--gray);font-size:12px">Belum ada kelas (buat di tab Kelas untuk mengatur akses per kelas).</div>`}
+    <div style="font-size:13px;margin:10px 0 4px"><b>Per siswa</b></div>
+    ${rows ? `<div class="table-wrap" style="max-height:340px;overflow:auto"><table><tbody>${rows}</tbody></table></div>` : `<div style="color:var(--gray)">Tidak ada siswa.</div>`}</div>`;
+}
+const triVal = (v) => v === "1" ? true : v === "0" ? false : null;
 async function rankHtml(slug) {
   const el = document.getElementById("sswt-rank"); if (!el) return;
   let rows = []; try { rows = await FB.loadSswRank(slug); } catch (e) { el.textContent = "Gagal: " + (e.message || e); return; }
@@ -134,6 +162,15 @@ window.SSWT = {
     const vis = SIS.filter(x => (!VIEW.kelas || x.kelas === VIEW.kelas) && (!q || ((x.nama || "") + " " + (x.email || "")).toLowerCase().includes(q)));
     if (!vis.length || !confirm(`${v ? "Izinkan" : "Blokir"} ${vis.length} siswa?`)) return;
     let n = 0; for (const x of vis) { try { await FB.setAksesSsw(x.uid, v); n++; } catch (e) {} }
+    CTX.toast(`${n} siswa diperbarui`); CTX.rerender();
+  },
+  aksesBidang: async (uid, v) => { const val = triVal(v); try { await FB.setAksesSswBidang(uid, VIEW.bidang, val); const x = SIS.find(y => y.uid === uid); if (x) { x.aksesSswBidang = { ...(x.aksesSswBidang || {}) }; if (val === null) delete x.aksesSswBidang[VIEW.bidang]; else x.aksesSswBidang[VIEW.bidang] = val; } CTX.toast("Akses bidang disimpan"); } catch (e) { CTX.toast("Gagal: " + (e.message || e)); } CTX.rerender(); },
+  aksesKelas: async (kid, v) => { try { await FB.setAksesSswKelas(kid, VIEW.bidang, triVal(v)); CTX.toast("Akses kelas disimpan"); } catch (e) { CTX.toast("Gagal: " + (e.message || e)); } CTX.rerender(); },
+  massalBidang: async (val) => {
+    const q = VIEW.cari.toLowerCase();
+    const vis = SIS.filter(x => (!VIEW.kelas || x.kelas === VIEW.kelas) && (!q || ((x.nama || "") + " " + (x.email || "")).toLowerCase().includes(q)));
+    if (!vis.length || !confirm(`Ubah akses bidang untuk ${vis.length} siswa?`)) return;
+    let n = 0; for (const x of vis) { try { await FB.setAksesSswBidang(x.uid, VIEW.bidang, val); n++; } catch (e) {} }
     CTX.toast(`${n} siswa diperbarui`); CTX.rerender();
   },
   progres: (slug) => { VIEW.progres = VIEW.progres === slug ? null : slug; CTX.rerender(); },

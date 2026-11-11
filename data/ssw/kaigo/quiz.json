@@ -1,0 +1,6951 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 1 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa konsep dasar dalam memberikan dukungan perawatan lansia?"
+      },
+      "opts": [
+       {
+        "id": "Martabat manusia"
+       },
+       {
+        "id": "Kecepatan kerja staf"
+       },
+       {
+        "id": "Keinginan keluarga saja"
+       },
+       {
+        "id": "Efisiensi biaya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: martabat manusia adalah konsep dasar pemberian dukungan; setiap orang dihormati sebagai individu. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "QOL (Quality of Life) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Cara berpikir tentang kehidupan yang mencakup rasa puas, bahagia, dan alasan hidup"
+       },
+       {
+        "id": "Ukuran jumlah obat yang diminum"
+       },
+       {
+        "id": "Lama tinggal di fasilitas"
+       },
+       {
+        "id": "Tingkat kebutuhan perawatan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "QOL = kualitas kehidupan, mencakup kekayaan spiritual seperti rasa puas dan bahagia serta alasan hidup. (Modul hal. 11.)"
+      },
+      "ref": {
+       "p": 11
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah dukungan kemandirian yang tepat?"
+      },
+      "opts": [
+       {
+        "id": "Membantu pengguna memilih dan memutuskan sendiri cara hidupnya"
+       },
+       {
+        "id": "Mengerjakan semuanya agar cepat selesai"
+       },
+       {
+        "id": "Melarang pengguna mencoba sendiri"
+       },
+       {
+        "id": "Memilihkan pakaian tanpa bertanya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dukungan kemandirian membantu pengguna hidup berdasarkan keputusannya sendiri dan menambah hal yang bisa ia lakukan. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah yang termasuk pembatasan fisik?"
+      },
+      "opts": [
+       {
+        "id": "Memagari tempat tidur sehingga pengguna tidak bisa turun sendiri"
+       },
+       {
+        "id": "Menemani pengguna berjalan-jalan"
+       },
+       {
+        "id": "Memasang pegangan di lorong"
+       },
+       {
+        "id": "Menanyakan keinginan pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul memberi 5 contoh pembatasan fisik, salah satunya memagari tempat tidur agar pengguna tidak bisa turun sendiri. (Modul hal. 17.)"
+      },
+      "ref": {
+       "p": 17
+      }
+     },
+     {
+      "q": {
+       "id": "Tindakan yang tepat tentang informasi pribadi pengguna adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tidak membicarakannya kepada orang lain tanpa izin"
+       },
+       {
+        "id": "Mengunggahnya ke media sosial bila ceritanya baik"
+       },
+       {
+        "id": "Menceritakannya ke teman di luar tempat kerja"
+       },
+       {
+        "id": "Membagikannya ke pengguna lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf wajib menjaga kerahasiaan; tidak boleh membicarakan atau mengirim informasi pengguna tanpa izin. (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "Pada prinsipnya, siapa yang melakukan tindakan medis?"
+      },
+      "opts": [
+       {
+        "id": "Dokter dan perawat"
+       },
+       {
+        "id": "Staf perawat lansia"
+       },
+       {
+        "id": "Juru masak"
+       },
+       {
+        "id": "Pekerja sosial"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf perawat lansia pada prinsipnya tidak dapat melakukan tindakan medis; itu tugas dokter dan perawat. (Modul hal. 20.)"
+      },
+      "ref": {
+       "p": 20
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan dasar proses perawatan lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Penilaian → penyusunan rencana → pelaksanaan → evaluasi"
+       },
+       {
+        "id": "Pelaksanaan → penilaian → evaluasi → rencana"
+       },
+       {
+        "id": "Rencana → evaluasi → penilaian → pelaksanaan"
+       },
+       {
+        "id": "Evaluasi → pelaksanaan → rencana → penilaian"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Alur dasar: (1) penilaian, (2) penyusunan rencana, (3) pelaksanaan, (4) evaluasi. (Modul hal. 23.)"
+      },
+      "ref": {
+       "p": 23
+      }
+     },
+     {
+      "q": {
+       "id": "Saat menggerakkan pengguna, mana yang lebih baik menurut mekanika tubuh?"
+      },
+      "opts": [
+       {
+        "id": "Menarik pengguna mendekat"
+       },
+       {
+        "id": "Mendorong pengguna menjauh"
+       },
+       {
+        "id": "Mengangkat setinggi mungkin"
+       },
+       {
+        "id": "Menggeser dengan satu tangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: upayakan menarik pengguna mendekati Anda ketimbang mendorong; menarik memperkecil gesekan. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     },
+     {
+      "q": {
+       "id": "Norovirus terutama menular melalui jalur…"
+      },
+      "opts": [
+       {
+        "id": "Infeksi kontak"
+       },
+       {
+        "id": "Infeksi udara"
+       },
+       {
+        "id": "Infeksi droplet"
+       },
+       {
+        "id": "Gigitan serangga"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: kontak = norovirus, O157; droplet = influenza; udara = tuberkulosis, campak. (Modul hal. 32.)"
+      },
+      "ref": {
+       "p": 32
+      }
+     },
+     {
+      "q": {
+       "id": "Bagian tangan yang mudah tidak tercuci dengan baik adalah…"
+      },
+      "opts": [
+       {
+        "id": "Ujung jari, sela jari, pangkal ibu jari, dan pergelangan"
+       },
+       {
+        "id": "Hanya telapak tangan"
+       },
+       {
+        "id": "Hanya lengan atas"
+       },
+       {
+        "id": "Siku"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bagian mudah kotor/terlewat: ujung jari, sela-sela jari, punggung tangan, pangkal ibu jari, pergelangan tangan. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk mencegah pengguna terjatuh, yang perlu diperiksa adalah…"
+      },
+      "opts": [
+       {
+        "id": "Alas kaki, pakaian, alat bantu, dan lingkungan sekitar"
+       },
+       {
+        "id": "Hanya menu makanan"
+       },
+       {
+        "id": "Hanya jadwal mandi"
+       },
+       {
+        "id": "Hanya suhu ruangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Selop mudah lepas, celana terlalu panjang, alat bantu rusak, lantai basah, dan kabel dapat menyebabkan jatuh. (Modul hal. 37.)"
+      },
+      "ref": {
+       "p": 37
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 1 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Siapakah pelaku utama dalam kehidupan pengguna?"
+      },
+      "opts": [
+       {
+        "id": "Pengguna itu sendiri"
+       },
+       {
+        "id": "Staf perawat lansia"
+       },
+       {
+        "id": "Dokter"
+       },
+       {
+        "id": "Keluarga pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Walaupun membutuhkan perawatan, pelaku utama dalam kehidupan adalah diri pengguna sendiri. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "Normalisasi berarti…"
+      },
+      "opts": [
+       {
+        "id": "Penyandang disabilitas dapat hidup normal di masyarakat tanpa prasangka dan haknya dilindungi"
+       },
+       {
+        "id": "Semua pengguna diberi jadwal yang sama"
+       },
+       {
+        "id": "Pengguna dipisahkan dari masyarakat agar aman"
+       },
+       {
+        "id": "Staf menormalkan tekanan darah pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Normalisasi: hidup secara normal sesuai keinginan di tengah masyarakat, sama seperti orang tanpa disabilitas. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Orang yang memerlukan perawatan cenderung menjadi pasif. Apa tugas staf?"
+      },
+      "opts": [
+       {
+        "id": "Membangkitkan semangat pengguna"
+       },
+       {
+        "id": "Membiarkannya saja"
+       },
+       {
+        "id": "Mengurangi interaksi"
+       },
+       {
+        "id": "Menegur pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: cara berpikir dan tindakan pengguna cenderung pasif, sehingga staf bertugas membangkitkan semangatnya. (Modul hal. 14.)"
+      },
+      "ref": {
+       "p": 14
+      }
+     },
+     {
+      "q": {
+       "id": "Menelantarkan orang yang memerlukan perawatan termasuk jenis kekerasan apa?"
+      },
+      "opts": [
+       {
+        "id": "Pengabaian perawatan (neglect)"
+       },
+       {
+        "id": "Kekerasan ekonomi"
+       },
+       {
+        "id": "Kekerasan fisik"
+       },
+       {
+        "id": "Kekerasan seksual"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Neglect = menelantarkan orang yang memerlukan perawatan lansia. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "Tenaga profesional yang melatih pengguna yang sulit berbicara dan menelan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Terapis wicara (ST)"
+       },
+       {
+        "id": "Terapis fisik (PT)"
+       },
+       {
+        "id": "Ahli gizi terdaftar"
+       },
+       {
+        "id": "Manajer perawatan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ST melatih bicara dan menelan; PT melatih gerak; OT melatih tindakan aktivitas sehari-hari. (Modul hal. 20.)"
+      },
+      "ref": {
+       "p": 20
+      }
+     },
+     {
+      "q": {
+       "id": "Layanan yang diberikan di fasilitas pada siang hari (day service) termasuk…"
+      },
+      "opts": [
+       {
+        "id": "Layanan ambulatori"
+       },
+       {
+        "id": "Layanan kunjungan"
+       },
+       {
+        "id": "Layanan inap"
+       },
+       {
+        "id": "Layanan darurat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Day service = layanan ambulatori; home help = layanan kunjungan; panti wreda = layanan inap. (Modul hal. 22.)"
+      },
+      "ref": {
+       "p": 22
+      }
+     },
+     {
+      "q": {
+       "id": "Prinsip mekanika tubuh yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Memperlebar landasan penopang dan merendahkan pusat berat"
+       },
+       {
+        "id": "Mengangkat dengan punggung bawah dan lutut lurus"
+       },
+       {
+        "id": "Menjauhkan tubuh dari pengguna"
+       },
+       {
+        "id": "Memuntir tubuh saat memindahkan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Landasan penopang lebar + pusat berat rendah membuat posisi stabil; gunakan otot besar dan jangan memuntir tubuh. (Modul hal. 26.)"
+      },
+      "ref": {
+       "p": 26
+      }
+     },
+     {
+      "q": {
+       "id": "Tiga elemen penyakit menular adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sumber infeksi, jalur infeksi, dan inang"
+       },
+       {
+        "id": "Demam, batuk, dan diare"
+       },
+       {
+        "id": "Masker, sarung tangan, dan celemek"
+       },
+       {
+        "id": "Virus, obat, dan vaksin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penyakit menular terjadi bila sumber infeksi, jalur infeksi, dan inang terhubung; penanganannya memutus rantai itu. (Modul hal. 32.)"
+      },
+      "ref": {
+       "p": 32
+      }
+     },
+     {
+      "q": {
+       "id": "Menurut kewaspadaan standar, setelah melepas sarung tangan staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Tetap mencuci tangan"
+       },
+       {
+        "id": "Langsung melanjutkan tindakan berikutnya"
+       },
+       {
+        "id": "Memakai kembali sarung tangan yang sama"
+       },
+       {
+        "id": "Cukup mengelap tangan ke celemek"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: cucilah tangan sekalipun Anda memakai sarung tangan; sarung tangan diganti untuk setiap tindakan. (Modul hal. 33.)"
+      },
+      "ref": {
+       "p": 33
+      }
+     },
+     {
+      "q": {
+       "id": "Pengguna hampir jatuh karena rem kursi roda lupa diaktifkan. Tindakan manajemen risiko yang tepat?"
+      },
+      "opts": [
+       {
+        "id": "Mencatat kejadian dan menyampaikannya ke semua staf"
+       },
+       {
+        "id": "Merahasiakannya karena tidak jadi jatuh"
+       },
+       {
+        "id": "Menyalahkan pengguna"
+       },
+       {
+        "id": "Melarang pengguna memakai kursi roda"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Manajemen risiko: pikirkan penyebab, tulis di catatan, tetapkan pencegahan, dan bagikan informasi ke seluruh staf. (Modul hal. 38.)"
+      },
+      "ref": {
+       "p": 38
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q3",
+    "title": {
+     "id": "Arti kosakata Bagian 1",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「災害」（さいがい）?",
+       "jp": "「災害」（さいがい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "dokter",
+        "jp": "dokter"
+       },
+       {
+        "id": "pembatasan fisik",
+        "jp": "pembatasan fisik"
+       },
+       {
+        "id": "bencana",
+        "jp": "bencana"
+       },
+       {
+        "id": "kekerasan/penganiayaan",
+        "jp": "kekerasan/penganiayaan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "災害 (さいがい) = bencana. Sumber: daftar kosakata modul hal. -.",
+       "jp": "災害（さいがい）＝ bencana"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「予防」（よぼう）?",
+       "jp": "「予防」（よぼう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pembatasan fisik",
+        "jp": "pembatasan fisik"
+       },
+       {
+        "id": "sakit pinggang",
+        "jp": "sakit pinggang"
+       },
+       {
+        "id": "pencegahan",
+        "jp": "pencegahan"
+       },
+       {
+        "id": "dokter",
+        "jp": "dokter"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "予防 (よぼう) = pencegahan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "予防（よぼう）＝ pencegahan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「感染症」（かんせんしょう）?",
+       "jp": "「感染症」（かんせんしょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pengguna (layanan)",
+        "jp": "pengguna (layanan)"
+       },
+       {
+        "id": "penyakit menular",
+        "jp": "penyakit menular"
+       },
+       {
+        "id": "pilihan sendiri",
+        "jp": "pilihan sendiri"
+       },
+       {
+        "id": "pembatasan fisik",
+        "jp": "pembatasan fisik"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "感染症 (かんせんしょう) = penyakit menular. Sumber: daftar kosakata modul hal. -.",
+       "jp": "感染症（かんせんしょう）＝ penyakit menular"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「利用者」（りようしゃ）?",
+       "jp": "「利用者」（りようしゃ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "dukungan kemandirian",
+        "jp": "dukungan kemandirian"
+       },
+       {
+        "id": "pilihan sendiri",
+        "jp": "pilihan sendiri"
+       },
+       {
+        "id": "pengguna (layanan)",
+        "jp": "pengguna (layanan)"
+       },
+       {
+        "id": "catatan",
+        "jp": "catatan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "利用者 (りようしゃ) = pengguna (layanan). Sumber: daftar kosakata modul hal. -.",
+       "jp": "利用者（りようしゃ）＝ pengguna (layanan)"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「事故」（じこ）?",
+       "jp": "「事故」（じこ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "menjaga kerahasiaan",
+        "jp": "menjaga kerahasiaan"
+       },
+       {
+        "id": "observasi",
+        "jp": "observasi"
+       },
+       {
+        "id": "sakit pinggang",
+        "jp": "sakit pinggang"
+       },
+       {
+        "id": "kecelakaan",
+        "jp": "kecelakaan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "事故 (じこ) = kecelakaan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "事故（じこ）＝ kecelakaan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「医師」（いし）?",
+       "jp": "「医師」（いし）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "cuci tangan",
+        "jp": "cuci tangan"
+       },
+       {
+        "id": "observasi",
+        "jp": "observasi"
+       },
+       {
+        "id": "kerja sama antarprofesi",
+        "jp": "kerja sama antarprofesi"
+       },
+       {
+        "id": "dokter",
+        "jp": "dokter"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "医師 (いし) = dokter. Sumber: daftar kosakata modul hal. -.",
+       "jp": "医師（いし）＝ dokter"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「記録」（きろく）?",
+       "jp": "「記録」（きろく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "martabat",
+        "jp": "martabat"
+       },
+       {
+        "id": "catatan",
+        "jp": "catatan"
+       },
+       {
+        "id": "kerja sama antarprofesi",
+        "jp": "kerja sama antarprofesi"
+       },
+       {
+        "id": "pengguna (layanan)",
+        "jp": "pengguna (layanan)"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "記録 (きろく) = catatan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "記録（きろく）＝ catatan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「自己決定」（じこけってい）?",
+       "jp": "「自己決定」（じこけってい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "penyakit menular",
+        "jp": "penyakit menular"
+       },
+       {
+        "id": "menjaga kerahasiaan",
+        "jp": "menjaga kerahasiaan"
+       },
+       {
+        "id": "observasi",
+        "jp": "observasi"
+       },
+       {
+        "id": "keputusan sendiri",
+        "jp": "keputusan sendiri"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "自己決定 (じこけってい) = keputusan sendiri. Sumber: daftar kosakata modul hal. -.",
+       "jp": "自己決定（じこけってい）＝ keputusan sendiri"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「尊厳」（そんげん）?",
+       "jp": "「尊厳」（そんげん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kerja sama antarprofesi",
+        "jp": "kerja sama antarprofesi"
+       },
+       {
+        "id": "bencana",
+        "jp": "bencana"
+       },
+       {
+        "id": "pilihan sendiri",
+        "jp": "pilihan sendiri"
+       },
+       {
+        "id": "martabat",
+        "jp": "martabat"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "尊厳 (そんげん) = martabat. Sumber: daftar kosakata modul hal. -.",
+       "jp": "尊厳（そんげん）＝ martabat"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「観察」（かんさつ）?",
+       "jp": "「観察」（かんさつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "observasi",
+        "jp": "observasi"
+       },
+       {
+        "id": "kekerasan/penganiayaan",
+        "jp": "kekerasan/penganiayaan"
+       },
+       {
+        "id": "informasi pribadi",
+        "jp": "informasi pribadi"
+       },
+       {
+        "id": "sakit pinggang",
+        "jp": "sakit pinggang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "観察 (かんさつ) = observasi. Sumber: daftar kosakata modul hal. -.",
+       "jp": "観察（かんさつ）＝ observasi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「手袋」（てぶくろ）?",
+       "jp": "「手袋」（てぶくろ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kekerasan/penganiayaan",
+        "jp": "kekerasan/penganiayaan"
+       },
+       {
+        "id": "pencegahan",
+        "jp": "pencegahan"
+       },
+       {
+        "id": "kerja sama antarprofesi",
+        "jp": "kerja sama antarprofesi"
+       },
+       {
+        "id": "sarung tangan",
+        "jp": "sarung tangan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "手袋 (てぶくろ) = sarung tangan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "手袋（てぶくろ）＝ sarung tangan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「自己選択」（じこせんたく）?",
+       "jp": "「自己選択」（じこせんたく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "informasi pribadi",
+        "jp": "informasi pribadi"
+       },
+       {
+        "id": "martabat",
+        "jp": "martabat"
+       },
+       {
+        "id": "observasi",
+        "jp": "observasi"
+       },
+       {
+        "id": "pilihan sendiri",
+        "jp": "pilihan sendiri"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "自己選択 (じこせんたく) = pilihan sendiri. Sumber: daftar kosakata modul hal. -.",
+       "jp": "自己選択（じこせんたく）＝ pilihan sendiri"
+      }
+     }
+    ]
+   },
+   {
+    "id": "k1s1-q",
+    "title": {
+     "id": "Latihan: Martabat dan Kemandirian Manusia dalam Perawatan Lansia",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa konsep dasar dalam memberikan dukungan perawatan lansia?"
+      },
+      "opts": [
+       {
+        "id": "Martabat manusia"
+       },
+       {
+        "id": "Kecepatan kerja staf"
+       },
+       {
+        "id": "Keinginan keluarga saja"
+       },
+       {
+        "id": "Efisiensi biaya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: martabat manusia adalah konsep dasar pemberian dukungan; setiap orang dihormati sebagai individu. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "Siapakah pelaku utama dalam kehidupan pengguna?"
+      },
+      "opts": [
+       {
+        "id": "Pengguna itu sendiri"
+       },
+       {
+        "id": "Staf perawat lansia"
+       },
+       {
+        "id": "Dokter"
+       },
+       {
+        "id": "Keluarga pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Walaupun membutuhkan perawatan, pelaku utama dalam kehidupan adalah diri pengguna sendiri. (Modul hal. 10.)"
+      },
+      "ref": {
+       "p": 10
+      }
+     },
+     {
+      "q": {
+       "id": "QOL (Quality of Life) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Cara berpikir tentang kehidupan yang mencakup rasa puas, bahagia, dan alasan hidup"
+       },
+       {
+        "id": "Ukuran jumlah obat yang diminum"
+       },
+       {
+        "id": "Lama tinggal di fasilitas"
+       },
+       {
+        "id": "Tingkat kebutuhan perawatan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "QOL = kualitas kehidupan, mencakup kekayaan spiritual seperti rasa puas dan bahagia serta alasan hidup. (Modul hal. 11.)"
+      },
+      "ref": {
+       "p": 11
+      }
+     },
+     {
+      "q": {
+       "id": "Normalisasi berarti…"
+      },
+      "opts": [
+       {
+        "id": "Penyandang disabilitas dapat hidup normal di masyarakat tanpa prasangka dan haknya dilindungi"
+       },
+       {
+        "id": "Semua pengguna diberi jadwal yang sama"
+       },
+       {
+        "id": "Pengguna dipisahkan dari masyarakat agar aman"
+       },
+       {
+        "id": "Staf menormalkan tekanan darah pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Normalisasi: hidup secara normal sesuai keinginan di tengah masyarakat, sama seperti orang tanpa disabilitas. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah dukungan kemandirian yang tepat?"
+      },
+      "opts": [
+       {
+        "id": "Membantu pengguna memilih dan memutuskan sendiri cara hidupnya"
+       },
+       {
+        "id": "Mengerjakan semuanya agar cepat selesai"
+       },
+       {
+        "id": "Melarang pengguna mencoba sendiri"
+       },
+       {
+        "id": "Memilihkan pakaian tanpa bertanya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dukungan kemandirian membantu pengguna hidup berdasarkan keputusannya sendiri dan menambah hal yang bisa ia lakukan. (Modul hal. 12.)"
+      },
+      "ref": {
+       "p": 12
+      }
+     },
+     {
+      "q": {
+       "id": "Orang yang memerlukan perawatan cenderung menjadi pasif. Apa tugas staf?"
+      },
+      "opts": [
+       {
+        "id": "Membangkitkan semangat pengguna"
+       },
+       {
+        "id": "Membiarkannya saja"
+       },
+       {
+        "id": "Mengurangi interaksi"
+       },
+       {
+        "id": "Menegur pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: cara berpikir dan tindakan pengguna cenderung pasif, sehingga staf bertugas membangkitkan semangatnya. (Modul hal. 14.)"
+      },
+      "ref": {
+       "p": 14
+      }
+     }
+    ]
+   },
+   {
+    "id": "k1s2-q",
+    "title": {
+     "id": "Latihan: Peran Staf Perawat Lansia: Etika Profesi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah yang termasuk pembatasan fisik?"
+      },
+      "opts": [
+       {
+        "id": "Memagari tempat tidur sehingga pengguna tidak bisa turun sendiri"
+       },
+       {
+        "id": "Menemani pengguna berjalan-jalan"
+       },
+       {
+        "id": "Memasang pegangan di lorong"
+       },
+       {
+        "id": "Menanyakan keinginan pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul memberi 5 contoh pembatasan fisik, salah satunya memagari tempat tidur agar pengguna tidak bisa turun sendiri. (Modul hal. 17.)"
+      },
+      "ref": {
+       "p": 17
+      }
+     },
+     {
+      "q": {
+       "id": "Menelantarkan orang yang memerlukan perawatan termasuk jenis kekerasan apa?"
+      },
+      "opts": [
+       {
+        "id": "Pengabaian perawatan (neglect)"
+       },
+       {
+        "id": "Kekerasan ekonomi"
+       },
+       {
+        "id": "Kekerasan fisik"
+       },
+       {
+        "id": "Kekerasan seksual"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Neglect = menelantarkan orang yang memerlukan perawatan lansia. (Modul hal. 18.)"
+      },
+      "ref": {
+       "p": 18
+      }
+     },
+     {
+      "q": {
+       "id": "Tindakan yang tepat tentang informasi pribadi pengguna adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tidak membicarakannya kepada orang lain tanpa izin"
+       },
+       {
+        "id": "Mengunggahnya ke media sosial bila ceritanya baik"
+       },
+       {
+        "id": "Menceritakannya ke teman di luar tempat kerja"
+       },
+       {
+        "id": "Membagikannya ke pengguna lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf wajib menjaga kerahasiaan; tidak boleh membicarakan atau mengirim informasi pengguna tanpa izin. (Modul hal. 16.)"
+      },
+      "ref": {
+       "p": 16
+      }
+     },
+     {
+      "q": {
+       "id": "Tenaga profesional yang melatih pengguna yang sulit berbicara dan menelan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Terapis wicara (ST)"
+       },
+       {
+        "id": "Terapis fisik (PT)"
+       },
+       {
+        "id": "Ahli gizi terdaftar"
+       },
+       {
+        "id": "Manajer perawatan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ST melatih bicara dan menelan; PT melatih gerak; OT melatih tindakan aktivitas sehari-hari. (Modul hal. 20.)"
+      },
+      "ref": {
+       "p": 20
+      }
+     },
+     {
+      "q": {
+       "id": "Pada prinsipnya, siapa yang melakukan tindakan medis?"
+      },
+      "opts": [
+       {
+        "id": "Dokter dan perawat"
+       },
+       {
+        "id": "Staf perawat lansia"
+       },
+       {
+        "id": "Juru masak"
+       },
+       {
+        "id": "Pekerja sosial"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf perawat lansia pada prinsipnya tidak dapat melakukan tindakan medis; itu tugas dokter dan perawat. (Modul hal. 20.)"
+      },
+      "ref": {
+       "p": 20
+      }
+     },
+     {
+      "q": {
+       "id": "Layanan yang diberikan di fasilitas pada siang hari (day service) termasuk…"
+      },
+      "opts": [
+       {
+        "id": "Layanan ambulatori"
+       },
+       {
+        "id": "Layanan kunjungan"
+       },
+       {
+        "id": "Layanan inap"
+       },
+       {
+        "id": "Layanan darurat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Day service = layanan ambulatori; home help = layanan kunjungan; panti wreda = layanan inap. (Modul hal. 22.)"
+      },
+      "ref": {
+       "p": 22
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan dasar proses perawatan lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Penilaian → penyusunan rencana → pelaksanaan → evaluasi"
+       },
+       {
+        "id": "Pelaksanaan → penilaian → evaluasi → rencana"
+       },
+       {
+        "id": "Rencana → evaluasi → penilaian → pelaksanaan"
+       },
+       {
+        "id": "Evaluasi → pelaksanaan → rencana → penilaian"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Alur dasar: (1) penilaian, (2) penyusunan rencana, (3) pelaksanaan, (4) evaluasi. (Modul hal. 23.)"
+      },
+      "ref": {
+       "p": 23
+      }
+     }
+    ]
+   },
+   {
+    "id": "k1s3-q",
+    "title": {
+     "id": "Latihan: Menjamin Keselamatan dan Manajemen Risiko",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Prinsip mekanika tubuh yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Memperlebar landasan penopang dan merendahkan pusat berat"
+       },
+       {
+        "id": "Mengangkat dengan punggung bawah dan lutut lurus"
+       },
+       {
+        "id": "Menjauhkan tubuh dari pengguna"
+       },
+       {
+        "id": "Memuntir tubuh saat memindahkan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Landasan penopang lebar + pusat berat rendah membuat posisi stabil; gunakan otot besar dan jangan memuntir tubuh. (Modul hal. 26.)"
+      },
+      "ref": {
+       "p": 26
+      }
+     },
+     {
+      "q": {
+       "id": "Saat menggerakkan pengguna, mana yang lebih baik menurut mekanika tubuh?"
+      },
+      "opts": [
+       {
+        "id": "Menarik pengguna mendekat"
+       },
+       {
+        "id": "Mendorong pengguna menjauh"
+       },
+       {
+        "id": "Mengangkat setinggi mungkin"
+       },
+       {
+        "id": "Menggeser dengan satu tangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: upayakan menarik pengguna mendekati Anda ketimbang mendorong; menarik memperkecil gesekan. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     },
+     {
+      "q": {
+       "id": "Tiga elemen penyakit menular adalah…"
+      },
+      "opts": [
+       {
+        "id": "Sumber infeksi, jalur infeksi, dan inang"
+       },
+       {
+        "id": "Demam, batuk, dan diare"
+       },
+       {
+        "id": "Masker, sarung tangan, dan celemek"
+       },
+       {
+        "id": "Virus, obat, dan vaksin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penyakit menular terjadi bila sumber infeksi, jalur infeksi, dan inang terhubung; penanganannya memutus rantai itu. (Modul hal. 32.)"
+      },
+      "ref": {
+       "p": 32
+      }
+     },
+     {
+      "q": {
+       "id": "Norovirus terutama menular melalui jalur…"
+      },
+      "opts": [
+       {
+        "id": "Infeksi kontak"
+       },
+       {
+        "id": "Infeksi udara"
+       },
+       {
+        "id": "Infeksi droplet"
+       },
+       {
+        "id": "Gigitan serangga"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: kontak = norovirus, O157; droplet = influenza; udara = tuberkulosis, campak. (Modul hal. 32.)"
+      },
+      "ref": {
+       "p": 32
+      }
+     },
+     {
+      "q": {
+       "id": "Menurut kewaspadaan standar, setelah melepas sarung tangan staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Tetap mencuci tangan"
+       },
+       {
+        "id": "Langsung melanjutkan tindakan berikutnya"
+       },
+       {
+        "id": "Memakai kembali sarung tangan yang sama"
+       },
+       {
+        "id": "Cukup mengelap tangan ke celemek"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: cucilah tangan sekalipun Anda memakai sarung tangan; sarung tangan diganti untuk setiap tindakan. (Modul hal. 33.)"
+      },
+      "ref": {
+       "p": 33
+      }
+     },
+     {
+      "q": {
+       "id": "Bagian tangan yang mudah tidak tercuci dengan baik adalah…"
+      },
+      "opts": [
+       {
+        "id": "Ujung jari, sela jari, pangkal ibu jari, dan pergelangan"
+       },
+       {
+        "id": "Hanya telapak tangan"
+       },
+       {
+        "id": "Hanya lengan atas"
+       },
+       {
+        "id": "Siku"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bagian mudah kotor/terlewat: ujung jari, sela-sela jari, punggung tangan, pangkal ibu jari, pergelangan tangan. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Pengguna hampir jatuh karena rem kursi roda lupa diaktifkan. Tindakan manajemen risiko yang tepat?"
+      },
+      "opts": [
+       {
+        "id": "Mencatat kejadian dan menyampaikannya ke semua staf"
+       },
+       {
+        "id": "Merahasiakannya karena tidak jadi jatuh"
+       },
+       {
+        "id": "Menyalahkan pengguna"
+       },
+       {
+        "id": "Melarang pengguna memakai kursi roda"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Manajemen risiko: pikirkan penyebab, tulis di catatan, tetapkan pencegahan, dan bagikan informasi ke seluruh staf. (Modul hal. 38.)"
+      },
+      "ref": {
+       "p": 38
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk mencegah pengguna terjatuh, yang perlu diperiksa adalah…"
+      },
+      "opts": [
+       {
+        "id": "Alas kaki, pakaian, alat bantu, dan lingkungan sekitar"
+       },
+       {
+        "id": "Hanya menu makanan"
+       },
+       {
+        "id": "Hanya jadwal mandi"
+       },
+       {
+        "id": "Hanya suhu ruangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Selop mudah lepas, celana terlalu panjang, alat bantu rusak, lantai basah, dan kabel dapat menyebabkan jatuh. (Modul hal. 37.)"
+      },
+      "ref": {
+       "p": 37
+      }
+     }
+    ]
+   }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 2 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Yang termasuk tanda-tanda vital adalah…"
+      },
+      "opts": [
+       {
+        "id": "Suhu tubuh, pernapasan, denyut nadi, tekanan darah"
+       },
+       {
+        "id": "Tinggi badan, berat badan, usia"
+       },
+       {
+        "id": "Nafsu makan, hobi, emosi"
+       },
+       {
+        "id": "Golongan darah dan alergi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tanda vital = tanda bahwa seseorang hidup: suhu tubuh, pernapasan, denyut nadi, tekanan darah. (Modul hal. 46.)"
+      },
+      "ref": {
+       "p": 46
+      }
+     },
+     {
+      "q": {
+       "id": "Frekuensi napas normal orang dewasa adalah…"
+      },
+      "opts": [
+       {
+        "id": "12–18 kali per menit"
+       },
+       {
+        "id": "5–8 kali per menit"
+       },
+       {
+        "id": "30–40 kali per menit"
+       },
+       {
+        "id": "60–80 kali per menit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Orang dewasa bernapas secara konstan 12–18 kali/menit. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Saraf yang bekerja saat santai, seperti ketika tidur dan beristirahat, adalah…"
+      },
+      "opts": [
+       {
+        "id": "Saraf parasimpatik"
+       },
+       {
+        "id": "Saraf simpatik"
+       },
+       {
+        "id": "Saraf optik"
+       },
+       {
+        "id": "Saraf pendengaran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Simpatik bekerja saat aktif/tegang; parasimpatik saat santai (nadi lebih lambat, tekanan darah turun). (Modul hal. 55.)"
+      },
+      "ref": {
+       "p": 55
+      }
+     },
+     {
+      "q": {
+       "id": "Tingkat paling dasar dalam hierarki kebutuhan Maslow adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kebutuhan fisiologis"
+       },
+       {
+        "id": "Kebutuhan aktualisasi diri"
+       },
+       {
+        "id": "Kebutuhan penghargaan"
+       },
+       {
+        "id": "Kebutuhan kasih sayang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Urutan dari bawah: fisiologis, rasa aman, rasa memiliki & kasih sayang, penghargaan, aktualisasi diri. (Modul hal. 45.)"
+      },
+      "ref": {
+       "p": 45
+      }
+     },
+     {
+      "q": {
+       "id": "Ciri tidur pada lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tidur nyenyak (non-REM) berkurang sehingga sering terbangun"
+       },
+       {
+        "id": "Waktu tidur jauh lebih panjang"
+       },
+       {
+        "id": "Tidak pernah terbangun malam"
+       },
+       {
+        "id": "Selalu bermimpi sepanjang malam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lansia: waktu tidur lebih singkat dan tidur non-REM berkurang, sehingga mudah terbangun. (Modul hal. 66.)"
+      },
+      "ref": {
+       "p": 66
+      }
+     },
+     {
+      "q": {
+       "id": "Poin perawatan untuk mencegah dehidrasi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Memberi asupan cairan dan mengatur suhu ruangan"
+       },
+       {
+        "id": "Mengurangi minum agar jarang ke toilet"
+       },
+       {
+        "id": "Mandi air panas lebih lama"
+       },
+       {
+        "id": "Menghentikan makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dehidrasi dicegah dengan asupan cairan, suhu ruangan yang tepat, dan minum sebelum-sesudah mandi/olahraga. (Modul hal. 71.)"
+      },
+      "ref": {
+       "p": 71
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk mencegah pneumonia aspirasi, staf perlu…"
+      },
+      "opts": [
+       {
+        "id": "Menjaga posisi duduk saat makan dan melakukan perawatan rongga mulut"
+       },
+       {
+        "id": "Membaringkan pengguna segera setelah makan"
+       },
+       {
+        "id": "Memberi makan dengan cepat"
+       },
+       {
+        "id": "Menghentikan perawatan mulut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Posisi duduk dipertahankan, tidak langsung berbaring setelah makan, dan rongga mulut dirawat. (Modul hal. 77.)"
+      },
+      "ref": {
+       "p": 77
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang harus dihindari saat pengguna memakai konsentrator oksigen adalah…"
+      },
+      "opts": [
+       {
+        "id": "Api"
+       },
+       {
+        "id": "Air minum"
+       },
+       {
+        "id": "Cahaya matahari"
+       },
+       {
+        "id": "Musik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terapi oksigen: hindari api, cegah penyakit menular, siapkan baterai cadangan. (Modul hal. 86.)"
+      },
+      "ref": {
+       "p": 86
+      }
+     },
+     {
+      "q": {
+       "id": "Demensia dengan ciri halusinasi visual dan berjalan dengan langkah kecil adalah…"
+      },
+      "opts": [
+       {
+        "id": "Demensia dengan badan Lewy"
+       },
+       {
+        "id": "Demensia tipe Alzheimer"
+       },
+       {
+        "id": "Demensia vaskular"
+       },
+       {
+        "id": "Demensia frontotemporal"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Badan Lewy: halusinasi visual, gejala Parkinson (langkah kecil), bersuara saat bermimpi. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap yang tepat terhadap pengguna dengan demensia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menerima perkataannya tanpa membantah dan memberi rasa tenang"
+       },
+       {
+        "id": "Mengoreksi setiap ucapannya dengan tegas"
+       },
+       {
+        "id": "Sering mengganti tata letak kamarnya"
+       },
+       {
+        "id": "Berbicara panjang dan cepat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terima tanpa membantah, dengarkan, gunakan kata singkat yang mudah dipahami, jangan mudah mengubah lingkungan. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 2 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pada pengguna yang lumpuh sebelah, suhu tubuh di ketiak diukur pada…"
+      },
+      "opts": [
+       {
+        "id": "Sisi yang tidak lumpuh"
+       },
+       {
+        "id": "Sisi yang lumpuh"
+       },
+       {
+        "id": "Kedua sisi bergantian tiap menit"
+       },
+       {
+        "id": "Bagian mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: untuk pengguna yang lumpuh, suhu tubuh diukur pada sisi yang tidak lumpuh. (Modul hal. 47.)"
+      },
+      "ref": {
+       "p": 47
+      }
+     },
+     {
+      "q": {
+       "id": "Bibir dan kuku membiru karena kesulitan bernapas yang parah disebut…"
+      },
+      "opts": [
+       {
+        "id": "Sianosis"
+       },
+       {
+        "id": "Edema"
+       },
+       {
+        "id": "Dekubitus"
+       },
+       {
+        "id": "Konstipasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kondisi warna bibir dan kuku membiru disebut sianosis. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Memori tentang pengalaman dan kenangan disebut…"
+      },
+      "opts": [
+       {
+        "id": "Memori episodik"
+       },
+       {
+        "id": "Memori semantik"
+       },
+       {
+        "id": "Memori prosedural"
+       },
+       {
+        "id": "Memori priming"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Episodik = pengalaman/kenangan; semantik = pengetahuan; prosedural = diingat tubuh; priming = tanpa disadari. (Modul hal. 44.)"
+      },
+      "ref": {
+       "p": 44
+      }
+     },
+     {
+      "q": {
+       "id": "Di organ mana gizi makanan terutama diserap?"
+      },
+      "opts": [
+       {
+        "id": "Usus halus"
+       },
+       {
+        "id": "Esofagus"
+       },
+       {
+        "id": "Rektum"
+       },
+       {
+        "id": "Kandung kemih"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: di usus halus terjadi penyerapan gizi makanan; usus besar menyerap cairan dan membentuk feses. (Modul hal. 62.)"
+      },
+      "ref": {
+       "p": 62
+      }
+     },
+     {
+      "q": {
+       "id": "Ciri penyakit pada lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Gejala sulit terlihat (atipikal) dan mudah berlangsung lama"
+       },
+       {
+        "id": "Selalu sembuh dalam sehari"
+       },
+       {
+        "id": "Hanya satu penyakit pada satu waktu"
+       },
+       {
+        "id": "Gejalanya selalu sama pada tiap orang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lansia sering menderita banyak penyakit, berlangsung lama, dan gejalanya sulit terlihat. (Modul hal. 70.)"
+      },
+      "ref": {
+       "p": 70
+      }
+     },
+     {
+      "q": {
+       "id": "Perawatan yang tepat untuk konstipasi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Membiasakan duduk di toilet setelah makan dan memijat searah gerakan usus"
+       },
+       {
+        "id": "Menahan keinginan buang air besar"
+       },
+       {
+        "id": "Mengurangi serat makanan"
+       },
+       {
+        "id": "Berbaring sepanjang hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: serat dan olahraga cukup, kebiasaan duduk di toilet setelah makan, pijat searah gerakan usus. (Modul hal. 72.)"
+      },
+      "ref": {
+       "p": 72
+      }
+     },
+     {
+      "q": {
+       "id": "Penyakit serebrovaskular karena pembuluh darah otak tersumbat disebut…"
+      },
+      "opts": [
+       {
+        "id": "Infark serebral"
+       },
+       {
+        "id": "Angina pektoris"
+       },
+       {
+        "id": "Osteoporosis"
+       },
+       {
+        "id": "Pneumonia"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tersumbat = infark serebral; pecah = perdarahan (hemorrhagia) intrakranial. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Yang benar tentang lupa pada demensia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Melupakan keseluruhan pengalaman dan tidak menyadarinya"
+       },
+       {
+        "id": "Hanya melupakan sebagian pengalaman"
+       },
+       {
+        "id": "Selalu sadar bahwa dirinya lupa"
+       },
+       {
+        "id": "Tidak mengganggu aktivitas hidup"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Demensia: seluruh pengalaman terlupa, berlanjut, tidak disadari, dan menyulitkan aktivitas hidup. (Modul hal. 90.)"
+      },
+      "ref": {
+       "p": 90
+      }
+     },
+     {
+      "q": {
+       "id": "Tidak dapat mengenali waktu, tempat, dan orang disebut…"
+      },
+      "opts": [
+       {
+        "id": "Disorientasi"
+       },
+       {
+        "id": "Disfungsi eksekutif"
+       },
+       {
+        "id": "Delusi"
+       },
+       {
+        "id": "Berkeliaran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Disorientasi adalah gejala inti demensia: tidak mengenali waktu, tempat, dan orang. (Modul hal. 93.)"
+      },
+      "ref": {
+       "p": 93
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q3",
+    "title": {
+     "id": "Arti kosakata Bagian 2",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「椅座位（座位）」（いざい（ざい））?",
+       "jp": "「椅座位（座位）」（いざい（ざい））の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "punggung tangan",
+        "jp": "punggung tangan"
+       },
+       {
+        "id": "dehidrasi",
+        "jp": "dehidrasi"
+       },
+       {
+        "id": "duduk kursi (duduk)",
+        "jp": "duduk kursi (duduk)"
+       },
+       {
+        "id": "dahi",
+        "jp": "dahi"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "椅座位（座位） (いざい（ざい）) = duduk kursi (duduk). Sumber: daftar kosakata modul hal. 206.",
+       "jp": "椅座位（座位）（いざい（ざい））＝ duduk kursi (duduk)"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「指先」（ゆびさき）?",
+       "jp": "「指先」（ゆびさき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "duduk kursi (duduk)",
+        "jp": "duduk kursi (duduk)"
+       },
+       {
+        "id": "ujung jari",
+        "jp": "ujung jari"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       },
+       {
+        "id": "postur",
+        "jp": "postur"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "指先 (ゆびさき) = ujung jari. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "指先（ゆびさき）＝ ujung jari"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「唇」（くちびる）?",
+       "jp": "「唇」（くちびる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "tanda-tanda vital",
+        "jp": "tanda-tanda vital"
+       },
+       {
+        "id": "bibir",
+        "jp": "bibir"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       },
+       {
+        "id": "sakit, nyeri",
+        "jp": "sakit, nyeri"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "唇 (くちびる) = bibir. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "唇（くちびる）＝ bibir"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「インフルエンザ」（いんふるえんざ）?",
+       "jp": "「インフルエンザ」（いんふるえんざ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "katarak",
+        "jp": "katarak"
+       },
+       {
+        "id": "influenza",
+        "jp": "influenza"
+       },
+       {
+        "id": "pergelangan tangan",
+        "jp": "pergelangan tangan"
+       },
+       {
+        "id": "sisi sakit",
+        "jp": "sisi sakit"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "インフルエンザ (いんふるえんざ) = influenza. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "インフルエンザ（いんふるえんざ）＝ influenza"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「耳」（みみ）?",
+       "jp": "「耳」（みみ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pusing",
+        "jp": "pusing"
+       },
+       {
+        "id": "konstipasi",
+        "jp": "konstipasi"
+       },
+       {
+        "id": "telinga",
+        "jp": "telinga"
+       },
+       {
+        "id": "hipertensi",
+        "jp": "hipertensi"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "耳 (みみ) = telinga. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "耳（みみ）＝ telinga"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「踵」（かかと）?",
+       "jp": "「踵」（かかと）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "telapak kaki (dasar kaki)",
+        "jp": "telapak kaki (dasar kaki)"
+       },
+       {
+        "id": "tekanan darah",
+        "jp": "tekanan darah"
+       },
+       {
+        "id": "tumit",
+        "jp": "tumit"
+       },
+       {
+        "id": "kontraktur",
+        "jp": "kontraktur"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "踵 (かかと) = tumit. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "踵（かかと）＝ tumit"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「吐き気」（はきけ）?",
+       "jp": "「吐き気」（はきけ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "disabilitas/gangguan",
+        "jp": "disabilitas/gangguan"
+       },
+       {
+        "id": "tidur",
+        "jp": "tidur"
+       },
+       {
+        "id": "pergelangan kaki",
+        "jp": "pergelangan kaki"
+       },
+       {
+        "id": "mual",
+        "jp": "mual"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "吐き気 (はきけ) = mual. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "吐き気（はきけ）＝ mual"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「頭」（あたま）?",
+       "jp": "「頭」（あたま）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "punggung tangan",
+        "jp": "punggung tangan"
+       },
+       {
+        "id": "kepala",
+        "jp": "kepala"
+       },
+       {
+        "id": "punggung",
+        "jp": "punggung"
+       },
+       {
+        "id": "sisi sakit",
+        "jp": "sisi sakit"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "頭 (あたま) = kepala. Sumber: daftar kosakata modul hal. 204.",
+       "jp": "頭（あたま）＝ kepala"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「かゆい」?",
+       "jp": "「かゆい」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "fraktur",
+        "jp": "fraktur"
+       },
+       {
+        "id": "gejala",
+        "jp": "gejala"
+       },
+       {
+        "id": "tidur",
+        "jp": "tidur"
+       },
+       {
+        "id": "gatal",
+        "jp": "gatal"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "かゆい (かゆい) = gatal. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "かゆい（かゆい）＝ gatal"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「口」（くち）?",
+       "jp": "「口」（くち）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "postur",
+        "jp": "postur"
+       },
+       {
+        "id": "fraktur",
+        "jp": "fraktur"
+       },
+       {
+        "id": "mulut",
+        "jp": "mulut"
+       },
+       {
+        "id": "tekanan darah",
+        "jp": "tekanan darah"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "口 (くち) = mulut. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "口（くち）＝ mulut"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「誤嚥性肺炎」（ごえんせいはいえん）?",
+       "jp": "「誤嚥性肺炎」（ごえんせいはいえん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pneumonia aspirasi",
+        "jp": "pneumonia aspirasi"
+       },
+       {
+        "id": "hipertensi",
+        "jp": "hipertensi"
+       },
+       {
+        "id": "duduk tegak lurus",
+        "jp": "duduk tegak lurus"
+       },
+       {
+        "id": "punggung",
+        "jp": "punggung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "誤嚥性肺炎 (ごえんせいはいえん) = pneumonia aspirasi. Sumber: daftar kosakata modul hal. -.",
+       "jp": "誤嚥性肺炎（ごえんせいはいえん）＝ pneumonia aspirasi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「立位」（りつい）?",
+       "jp": "「立位」（りつい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "sakit, nyeri",
+        "jp": "sakit, nyeri"
+       },
+       {
+        "id": "punggung",
+        "jp": "punggung"
+       },
+       {
+        "id": "posisi supinasi",
+        "jp": "posisi supinasi"
+       },
+       {
+        "id": "berdiri",
+        "jp": "berdiri"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "立位 (りつい) = berdiri. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "立位（りつい）＝ berdiri"
+      }
+     }
+    ]
+   },
+   {
+    "id": "k2s1-q",
+    "title": {
+     "id": "Latihan: Pemahaman atas Mekanisme Mental dan Tubuh",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Yang termasuk tanda-tanda vital adalah…"
+      },
+      "opts": [
+       {
+        "id": "Suhu tubuh, pernapasan, denyut nadi, tekanan darah"
+       },
+       {
+        "id": "Tinggi badan, berat badan, usia"
+       },
+       {
+        "id": "Nafsu makan, hobi, emosi"
+       },
+       {
+        "id": "Golongan darah dan alergi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tanda vital = tanda bahwa seseorang hidup: suhu tubuh, pernapasan, denyut nadi, tekanan darah. (Modul hal. 46.)"
+      },
+      "ref": {
+       "p": 46
+      }
+     },
+     {
+      "q": {
+       "id": "Pada pengguna yang lumpuh sebelah, suhu tubuh di ketiak diukur pada…"
+      },
+      "opts": [
+       {
+        "id": "Sisi yang tidak lumpuh"
+       },
+       {
+        "id": "Sisi yang lumpuh"
+       },
+       {
+        "id": "Kedua sisi bergantian tiap menit"
+       },
+       {
+        "id": "Bagian mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: untuk pengguna yang lumpuh, suhu tubuh diukur pada sisi yang tidak lumpuh. (Modul hal. 47.)"
+      },
+      "ref": {
+       "p": 47
+      }
+     },
+     {
+      "q": {
+       "id": "Frekuensi napas normal orang dewasa adalah…"
+      },
+      "opts": [
+       {
+        "id": "12–18 kali per menit"
+       },
+       {
+        "id": "5–8 kali per menit"
+       },
+       {
+        "id": "30–40 kali per menit"
+       },
+       {
+        "id": "60–80 kali per menit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Orang dewasa bernapas secara konstan 12–18 kali/menit. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Bibir dan kuku membiru karena kesulitan bernapas yang parah disebut…"
+      },
+      "opts": [
+       {
+        "id": "Sianosis"
+       },
+       {
+        "id": "Edema"
+       },
+       {
+        "id": "Dekubitus"
+       },
+       {
+        "id": "Konstipasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kondisi warna bibir dan kuku membiru disebut sianosis. (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Saraf yang bekerja saat santai, seperti ketika tidur dan beristirahat, adalah…"
+      },
+      "opts": [
+       {
+        "id": "Saraf parasimpatik"
+       },
+       {
+        "id": "Saraf simpatik"
+       },
+       {
+        "id": "Saraf optik"
+       },
+       {
+        "id": "Saraf pendengaran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Simpatik bekerja saat aktif/tegang; parasimpatik saat santai (nadi lebih lambat, tekanan darah turun). (Modul hal. 55.)"
+      },
+      "ref": {
+       "p": 55
+      }
+     },
+     {
+      "q": {
+       "id": "Memori tentang pengalaman dan kenangan disebut…"
+      },
+      "opts": [
+       {
+        "id": "Memori episodik"
+       },
+       {
+        "id": "Memori semantik"
+       },
+       {
+        "id": "Memori prosedural"
+       },
+       {
+        "id": "Memori priming"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Episodik = pengalaman/kenangan; semantik = pengetahuan; prosedural = diingat tubuh; priming = tanpa disadari. (Modul hal. 44.)"
+      },
+      "ref": {
+       "p": 44
+      }
+     },
+     {
+      "q": {
+       "id": "Tingkat paling dasar dalam hierarki kebutuhan Maslow adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kebutuhan fisiologis"
+       },
+       {
+        "id": "Kebutuhan aktualisasi diri"
+       },
+       {
+        "id": "Kebutuhan penghargaan"
+       },
+       {
+        "id": "Kebutuhan kasih sayang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Urutan dari bawah: fisiologis, rasa aman, rasa memiliki & kasih sayang, penghargaan, aktualisasi diri. (Modul hal. 45.)"
+      },
+      "ref": {
+       "p": 45
+      }
+     },
+     {
+      "q": {
+       "id": "Di organ mana gizi makanan terutama diserap?"
+      },
+      "opts": [
+       {
+        "id": "Usus halus"
+       },
+       {
+        "id": "Esofagus"
+       },
+       {
+        "id": "Rektum"
+       },
+       {
+        "id": "Kandung kemih"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: di usus halus terjadi penyerapan gizi makanan; usus besar menyerap cairan dan membentuk feses. (Modul hal. 62.)"
+      },
+      "ref": {
+       "p": 62
+      }
+     },
+     {
+      "q": {
+       "id": "Ciri tidur pada lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tidur nyenyak (non-REM) berkurang sehingga sering terbangun"
+       },
+       {
+        "id": "Waktu tidur jauh lebih panjang"
+       },
+       {
+        "id": "Tidak pernah terbangun malam"
+       },
+       {
+        "id": "Selalu bermimpi sepanjang malam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lansia: waktu tidur lebih singkat dan tidur non-REM berkurang, sehingga mudah terbangun. (Modul hal. 66.)"
+      },
+      "ref": {
+       "p": 66
+      }
+     }
+    ]
+   },
+   {
+    "id": "k2s2-q",
+    "title": {
+     "id": "Latihan: Pemahaman atas Orang yang Membutuhkan Perawatan: Penuaan, Disabilitas, Demensia",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Ciri penyakit pada lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Gejala sulit terlihat (atipikal) dan mudah berlangsung lama"
+       },
+       {
+        "id": "Selalu sembuh dalam sehari"
+       },
+       {
+        "id": "Hanya satu penyakit pada satu waktu"
+       },
+       {
+        "id": "Gejalanya selalu sama pada tiap orang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lansia sering menderita banyak penyakit, berlangsung lama, dan gejalanya sulit terlihat. (Modul hal. 70.)"
+      },
+      "ref": {
+       "p": 70
+      }
+     },
+     {
+      "q": {
+       "id": "Poin perawatan untuk mencegah dehidrasi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Memberi asupan cairan dan mengatur suhu ruangan"
+       },
+       {
+        "id": "Mengurangi minum agar jarang ke toilet"
+       },
+       {
+        "id": "Mandi air panas lebih lama"
+       },
+       {
+        "id": "Menghentikan makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dehidrasi dicegah dengan asupan cairan, suhu ruangan yang tepat, dan minum sebelum-sesudah mandi/olahraga. (Modul hal. 71.)"
+      },
+      "ref": {
+       "p": 71
+      }
+     },
+     {
+      "q": {
+       "id": "Perawatan yang tepat untuk konstipasi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Membiasakan duduk di toilet setelah makan dan memijat searah gerakan usus"
+       },
+       {
+        "id": "Menahan keinginan buang air besar"
+       },
+       {
+        "id": "Mengurangi serat makanan"
+       },
+       {
+        "id": "Berbaring sepanjang hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: serat dan olahraga cukup, kebiasaan duduk di toilet setelah makan, pijat searah gerakan usus. (Modul hal. 72.)"
+      },
+      "ref": {
+       "p": 72
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk mencegah pneumonia aspirasi, staf perlu…"
+      },
+      "opts": [
+       {
+        "id": "Menjaga posisi duduk saat makan dan melakukan perawatan rongga mulut"
+       },
+       {
+        "id": "Membaringkan pengguna segera setelah makan"
+       },
+       {
+        "id": "Memberi makan dengan cepat"
+       },
+       {
+        "id": "Menghentikan perawatan mulut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Posisi duduk dipertahankan, tidak langsung berbaring setelah makan, dan rongga mulut dirawat. (Modul hal. 77.)"
+      },
+      "ref": {
+       "p": 77
+      }
+     },
+     {
+      "q": {
+       "id": "Penyakit serebrovaskular karena pembuluh darah otak tersumbat disebut…"
+      },
+      "opts": [
+       {
+        "id": "Infark serebral"
+       },
+       {
+        "id": "Angina pektoris"
+       },
+       {
+        "id": "Osteoporosis"
+       },
+       {
+        "id": "Pneumonia"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tersumbat = infark serebral; pecah = perdarahan (hemorrhagia) intrakranial. (Modul hal. 75.)"
+      },
+      "ref": {
+       "p": 75
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang harus dihindari saat pengguna memakai konsentrator oksigen adalah…"
+      },
+      "opts": [
+       {
+        "id": "Api"
+       },
+       {
+        "id": "Air minum"
+       },
+       {
+        "id": "Cahaya matahari"
+       },
+       {
+        "id": "Musik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terapi oksigen: hindari api, cegah penyakit menular, siapkan baterai cadangan. (Modul hal. 86.)"
+      },
+      "ref": {
+       "p": 86
+      }
+     },
+     {
+      "q": {
+       "id": "Yang benar tentang lupa pada demensia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Melupakan keseluruhan pengalaman dan tidak menyadarinya"
+       },
+       {
+        "id": "Hanya melupakan sebagian pengalaman"
+       },
+       {
+        "id": "Selalu sadar bahwa dirinya lupa"
+       },
+       {
+        "id": "Tidak mengganggu aktivitas hidup"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Demensia: seluruh pengalaman terlupa, berlanjut, tidak disadari, dan menyulitkan aktivitas hidup. (Modul hal. 90.)"
+      },
+      "ref": {
+       "p": 90
+      }
+     },
+     {
+      "q": {
+       "id": "Demensia dengan ciri halusinasi visual dan berjalan dengan langkah kecil adalah…"
+      },
+      "opts": [
+       {
+        "id": "Demensia dengan badan Lewy"
+       },
+       {
+        "id": "Demensia tipe Alzheimer"
+       },
+       {
+        "id": "Demensia vaskular"
+       },
+       {
+        "id": "Demensia frontotemporal"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Badan Lewy: halusinasi visual, gejala Parkinson (langkah kecil), bersuara saat bermimpi. (Modul hal. 91.)"
+      },
+      "ref": {
+       "p": 91
+      }
+     },
+     {
+      "q": {
+       "id": "Tidak dapat mengenali waktu, tempat, dan orang disebut…"
+      },
+      "opts": [
+       {
+        "id": "Disorientasi"
+       },
+       {
+        "id": "Disfungsi eksekutif"
+       },
+       {
+        "id": "Delusi"
+       },
+       {
+        "id": "Berkeliaran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Disorientasi adalah gejala inti demensia: tidak mengenali waktu, tempat, dan orang. (Modul hal. 93.)"
+      },
+      "ref": {
+       "p": 93
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap yang tepat terhadap pengguna dengan demensia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menerima perkataannya tanpa membantah dan memberi rasa tenang"
+       },
+       {
+        "id": "Mengoreksi setiap ucapannya dengan tegas"
+       },
+       {
+        "id": "Sering mengganti tata letak kamarnya"
+       },
+       {
+        "id": "Berbicara panjang dan cepat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terima tanpa membantah, dengarkan, gunakan kata singkat yang mudah dipahami, jangan mudah mengubah lingkungan. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 3 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah yang termasuk komunikasi verbal?"
+      },
+      "opts": [
+       {
+        "id": "Bahasa isyarat"
+       },
+       {
+        "id": "Ekspresi wajah"
+       },
+       {
+        "id": "Gerakan tangan"
+       },
+       {
+        "id": "Postur tubuh"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: komunikasi verbal memakai bahasa — ucapan, bahasa isyarat, dan tulisan. (Modul hal. 99.)"
+      },
+      "ref": {
+       "p": 99
+      }
+     },
+     {
+      "q": {
+       "id": "Berempati berarti…"
+      },
+      "opts": [
+       {
+        "id": "Merasakan apa yang dipikirkan dan dirasakan pihak lain dengan menempatkan diri pada posisinya"
+       },
+       {
+        "id": "Menyetujui semua permintaan"
+       },
+       {
+        "id": "Memberi nasihat secepatnya"
+       },
+       {
+        "id": "Mendengar sambil mengerjakan hal lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Empati: memahami dengan menempatkan diri pada posisi pihak lain. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah contoh pertanyaan terbuka?"
+      },
+      "opts": [
+       {
+        "id": "\"Ibu suka makanan apa?\""
+       },
+       {
+        "id": "\"Bapak suka kari?\""
+       },
+       {
+        "id": "\"Mau teh atau kopi?\""
+       },
+       {
+        "id": "\"Sudah makan?\""
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pertanyaan terbuka dijawab bebas; pertanyaan tertutup dijawab ya/tidak atau A/B. (Modul hal. 103.)"
+      },
+      "ref": {
+       "p": 103
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap tubuh yang memberi kesan buruk saat mendengarkan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyilangkan tangan dan bersandar dengan arogan"
+       },
+       {
+        "id": "Menghadap lawan bicara"
+       },
+       {
+        "id": "Mengangguk"
+       },
+       {
+        "id": "Kontak mata sejajar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menyilangkan tangan/kaki atau duduk bersandar dengan arogan memberi kesan buruk. (Modul hal. 105.)"
+      },
+      "ref": {
+       "p": 105
+      }
+     },
+     {
+      "q": {
+       "id": "Cara menyampaikan posisi makanan kepada pengguna dengan gangguan penglihatan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Metode posisi jam"
+       },
+       {
+        "id": "Bahasa isyarat"
+       },
+       {
+        "id": "Menunjuk dengan jari"
+       },
+       {
+        "id": "Menulis di kertas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Posisi makanan dijelaskan sesuai posisi jarum jam (metode posisi jam). (Modul hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk pengidap afasia, jenis pertanyaan yang memudahkan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pertanyaan tertutup yang dijawab \"ya\" atau \"tidak\""
+       },
+       {
+        "id": "Pertanyaan terbuka yang panjang"
+       },
+       {
+        "id": "Pertanyaan \"mengapa\" berulang"
+       },
+       {
+        "id": "Pertanyaan tertulis yang rumit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: gunakan pertanyaan tertutup yang mudah dijawab, kata singkat, dan gambar; jangan tunjukkan kesalahan kecil. (Modul hal. 112.)"
+      },
+      "ref": {
+       "p": 112
+      }
+     },
+     {
+      "q": {
+       "id": "Manakah fakta objektif dalam catatan?"
+      },
+      "opts": [
+       {
+        "id": "Suhu tubuh 37,8°C"
+       },
+       {
+        "id": "Pengguna berkata \"kepala saya sakit\""
+       },
+       {
+        "id": "Pengguna merasa sedih"
+       },
+       {
+        "id": "Pengguna bilang tidak bisa tidur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Objektif = yang diamati staf dan angka (tekanan darah, suhu). Perkataan/keluhan pengguna = subjektif. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     },
+     {
+      "q": {
+       "id": "Agar catatan dipahami sekali baca, yang ditulis dengan jelas adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kapan, di mana, siapa, apa, mengapa, bagaimana"
+       },
+       {
+        "id": "Pendapat pribadi staf"
+       },
+       {
+        "id": "Hanya nama pengguna"
+       },
+       {
+        "id": "Hanya jam kerja staf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Enam hal (5W1H): When, Where, Who, What, Why, How. (Modul hal. 116.)"
+      },
+      "ref": {
+       "p": 116
+      }
+     },
+     {
+      "q": {
+       "id": "Yang termasuk cara berbagi informasi melalui catatan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Buku serah-terima tugas"
+       },
+       {
+        "id": "Obrolan di kantin"
+       },
+       {
+        "id": "Pesan pribadi di media sosial"
+       },
+       {
+        "id": "Ingatan masing-masing staf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bentuk catatan: rencana perawatan lansia, catatan kasus, buku serah-terima tugas. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 3 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Menerima perasaan dan pendapat lawan bicara tanpa menyangkal atau membenarkan disebut…"
+      },
+      "opts": [
+       {
+        "id": "Menerima"
+       },
+       {
+        "id": "Menyimak"
+       },
+       {
+        "id": "Berempati"
+       },
+       {
+        "id": "Menasihati"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Itu definisi 'menerima' (受容). Menyimak = mendengarkan penuh perhatian; berempati = merasakan hal yang sama. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Tujuan menguasai keterampilan komunikasi dalam perawatan lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Membangun hubungan kepercayaan dengan pihak lain"
+       },
+       {
+        "id": "Mempercepat pekerjaan saja"
+       },
+       {
+        "id": "Mengurangi percakapan"
+       },
+       {
+        "id": "Mengendalikan pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Komunikasi adalah alat untuk membangun hubungan kepercayaan. (Modul hal. 98.)"
+      },
+      "ref": {
+       "p": 98
+      }
+     },
+     {
+      "q": {
+       "id": "Mengulang kata-kata pengguna (\"Badan Bapak sakit dan tidak bisa tidur, ya\") bertujuan…"
+      },
+      "opts": [
+       {
+        "id": "Menunjukkan bahwa staf menyimak perkataan pengguna"
+       },
+       {
+        "id": "Mengoreksi ucapan pengguna"
+       },
+       {
+        "id": "Mengakhiri percakapan"
+       },
+       {
+        "id": "Menguji ingatan pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pengulangan menyampaikan pesan bahwa staf menyimak apa yang dikatakan pengguna. (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum membantu pengguna dengan gangguan penglihatan, staf sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Menyapa dengan memanggil namanya terlebih dahulu"
+       },
+       {
+        "id": "Langsung memegang tangannya"
+       },
+       {
+        "id": "Menepuk bahunya dari belakang"
+       },
+       {
+        "id": "Diam sampai pengguna bertanya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menyentuh tanpa berkata apa-apa akan mengejutkan; panggil nama dulu dan sebutkan nama sendiri. (Modul hal. 108.)"
+      },
+      "ref": {
+       "p": 108
+      }
+     },
+     {
+      "q": {
+       "id": "Cara berbicara yang tepat dengan pengguna yang mengalami gangguan pendengaran adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dari arah depan, perlahan dan jelas"
+       },
+       {
+        "id": "Dari belakang dengan suara sangat keras"
+       },
+       {
+        "id": "Dengan cepat agar tidak lelah"
+       },
+       {
+        "id": "Sambil menutup mulut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bicara dari depan agar ekspresi dan gerak mulut terlihat, perlahan dan jelas, tidak lebih keras dari perlu. (Modul hal. 110.)"
+      },
+      "ref": {
+       "p": 110
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan membantu pengguna membuat keputusan (informed consent) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tunjukkan pilihan → jelaskan kelebihan & kekurangan → beri kesempatan memilih sendiri"
+       },
+       {
+        "id": "Pilihkan yang terbaik → beri tahu hasilnya"
+       },
+       {
+        "id": "Tanya keluarga → putuskan → kabari pengguna"
+       },
+       {
+        "id": "Jelaskan satu pilihan → minta tanda tangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tiga langkah di modul: pilihan, kelebihan-kekurangan, lalu pengguna memilih dan menentukan sendiri. (Modul hal. 107.)"
+      },
+      "ref": {
+       "p": 107
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan sebaiknya catatan perawatan ditulis?"
+      },
+      "opts": [
+       {
+        "id": "Saat ingatan masih kuat"
+       },
+       {
+        "id": "Seminggu kemudian sekaligus"
+       },
+       {
+        "id": "Hanya bila diminta atasan"
+       },
+       {
+        "id": "Setelah pengguna pulang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dasar penulisan catatan: (1) mencatat saat memori masih kuat. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     },
+     {
+      "q": {
+       "id": "Tindakan yang tepat untuk melindungi informasi pribadi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tidak membicarakan pengguna di luar tempat kerja"
+       },
+       {
+        "id": "Mengunggah foto pengguna ke media sosial"
+       },
+       {
+        "id": "Menceritakan kondisi pengguna ke tetangga"
+       },
+       {
+        "id": "Memberikan alamat pengguna kepada tamu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan membicarakan pengguna/tempat kerja di luar, dan jangan menulisnya di internet atau media sosial. (Modul hal. 117.)"
+      },
+      "ref": {
+       "p": 117
+      }
+     },
+     {
+      "q": {
+       "id": "Tiga hal yang dicatat staf tentang perawatan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kondisi pengguna, tindakan yang dilakukan, dan respons pengguna"
+       },
+       {
+        "id": "Cuaca, menu, dan gaji"
+       },
+       {
+        "id": "Nama staf, hobi, dan alamat"
+       },
+       {
+        "id": "Harga alat, merek, dan toko"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf mencatat kondisi pengguna, tindakan terhadap pengguna, dan respons pengguna terhadap tindakan itu. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q3",
+    "title": {
+     "id": "Arti kosakata Bagian 3",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「視覚障害」（しかくしょうがい）?",
+       "jp": "「視覚障害」（しかくしょうがい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "gangguan penglihatan",
+        "jp": "gangguan penglihatan"
+       },
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       },
+       {
+        "id": "pergi tidur",
+        "jp": "pergi tidur"
+       },
+       {
+        "id": "dilarang merokok",
+        "jp": "dilarang merokok"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "視覚障害 (しかくしょうがい) = gangguan penglihatan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "視覚障害（しかくしょうがい）＝ gangguan penglihatan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「報告」（ほうこく）?",
+       "jp": "「報告」（ほうこく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "laporan",
+        "jp": "laporan"
+       },
+       {
+        "id": "komunikasi tertulis",
+        "jp": "komunikasi tertulis"
+       },
+       {
+        "id": "ekspresi wajah",
+        "jp": "ekspresi wajah"
+       },
+       {
+        "id": "partisipasi",
+        "jp": "partisipasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "報告 (ほうこく) = laporan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "報告（ほうこく）＝ laporan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「使用」（しよう）?",
+       "jp": "「使用」（しよう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "menerima",
+        "jp": "menerima"
+       },
+       {
+        "id": "menggunakan",
+        "jp": "menggunakan"
+       },
+       {
+        "id": "laporan",
+        "jp": "laporan"
+       },
+       {
+        "id": "area pintu masuk",
+        "jp": "area pintu masuk"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "使用 (しよう) = menggunakan. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "使用（しよう）＝ menggunakan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「行事」（ぎょうじ）?",
+       "jp": "「行事」（ぎょうじ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "acara",
+        "jp": "acara"
+       },
+       {
+        "id": "afasia",
+        "jp": "afasia"
+       },
+       {
+        "id": "konsultasi",
+        "jp": "konsultasi"
+       },
+       {
+        "id": "menyimak (mendengar aktif)",
+        "jp": "menyimak (mendengar aktif)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "行事 (ぎょうじ) = acara. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "行事（ぎょうじ）＝ acara"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「送迎車」（そうげいしゃ）?",
+       "jp": "「送迎車」（そうげいしゃ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pergi tidur",
+        "jp": "pergi tidur"
+       },
+       {
+        "id": "fasilitas",
+        "jp": "fasilitas"
+       },
+       {
+        "id": "mobil antar-jemput",
+        "jp": "mobil antar-jemput"
+       },
+       {
+        "id": "partisipasi",
+        "jp": "partisipasi"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "送迎車 (そうげいしゃ) = mobil antar-jemput. Sumber: daftar kosakata modul hal. 241.",
+       "jp": "送迎車（そうげいしゃ）＝ mobil antar-jemput"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「アルコール」（あるこーる）?",
+       "jp": "「アルコール」（あるこーる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "konsultasi",
+        "jp": "konsultasi"
+       },
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       },
+       {
+        "id": "alat bantu dengar",
+        "jp": "alat bantu dengar"
+       },
+       {
+        "id": "menggunakan",
+        "jp": "menggunakan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "アルコール (あるこーる) = alkohol. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "アルコール（あるこーる）＝ alkohol"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「手話」（しゅわ）?",
+       "jp": "「手話」（しゅわ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "dilarang merokok",
+        "jp": "dilarang merokok"
+       },
+       {
+        "id": "tinggal jangka pendek, short stay",
+        "jp": "tinggal jangka pendek, short stay"
+       },
+       {
+        "id": "bahasa isyarat",
+        "jp": "bahasa isyarat"
+       },
+       {
+        "id": "menerima",
+        "jp": "menerima"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "手話 (しゅわ) = bahasa isyarat. Sumber: daftar kosakata modul hal. -.",
+       "jp": "手話（しゅわ）＝ bahasa isyarat"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「自立」（じりつ）?",
+       "jp": "「自立」（じりつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kasus",
+        "jp": "kasus"
+       },
+       {
+        "id": "menggunakan",
+        "jp": "menggunakan"
+       },
+       {
+        "id": "staf penanggung jawab",
+        "jp": "staf penanggung jawab"
+       },
+       {
+        "id": "kemandirian",
+        "jp": "kemandirian"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "自立 (じりつ) = kemandirian. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "自立（じりつ）＝ kemandirian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「県」（けん）?",
+       "jp": "「県」（けん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "penjelasan",
+        "jp": "penjelasan"
+       },
+       {
+        "id": "menyapa/memberi tahu sebelum bertindak",
+        "jp": "menyapa/memberi tahu sebelum bertindak"
+       },
+       {
+        "id": "prefektur",
+        "jp": "prefektur"
+       },
+       {
+        "id": "pergi bekerja",
+        "jp": "pergi bekerja"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "県 (けん) = prefektur. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "県（けん）＝ prefektur"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「聴覚障害」（ちょうかくしょうがい）?",
+       "jp": "「聴覚障害」（ちょうかくしょうがい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "prefektur",
+        "jp": "prefektur"
+       },
+       {
+        "id": "penjelasan",
+        "jp": "penjelasan"
+       },
+       {
+        "id": "area pintu masuk",
+        "jp": "area pintu masuk"
+       },
+       {
+        "id": "gangguan pendengaran",
+        "jp": "gangguan pendengaran"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "聴覚障害 (ちょうかくしょうがい) = gangguan pendengaran. Sumber: daftar kosakata modul hal. -.",
+       "jp": "聴覚障害（ちょうかくしょうがい）＝ gangguan pendengaran"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「確認」（かくにん）?",
+       "jp": "「確認」（かくにん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "penjelasan",
+        "jp": "penjelasan"
+       },
+       {
+        "id": "fasilitas",
+        "jp": "fasilitas"
+       },
+       {
+        "id": "memeriksa, memastikan",
+        "jp": "memeriksa, memastikan"
+       },
+       {
+        "id": "menerima",
+        "jp": "menerima"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "確認 (かくにん) = memeriksa, memastikan. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "確認（かくにん）＝ memeriksa, memastikan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「説明」（せつめい）?",
+       "jp": "「説明」（せつめい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "penjelasan",
+        "jp": "penjelasan"
+       },
+       {
+        "id": "peserta",
+        "jp": "peserta"
+       },
+       {
+        "id": "persetujuan",
+        "jp": "persetujuan"
+       },
+       {
+        "id": "patroli",
+        "jp": "patroli"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "説明 (せつめい) = penjelasan. Sumber: daftar kosakata modul hal. -.",
+       "jp": "説明（せつめい）＝ penjelasan"
+      }
+     }
+    ]
+   },
+   {
+    "id": "k3s1-q",
+    "title": {
+     "id": "Latihan: Dasar Komunikasi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah yang termasuk komunikasi verbal?"
+      },
+      "opts": [
+       {
+        "id": "Bahasa isyarat"
+       },
+       {
+        "id": "Ekspresi wajah"
+       },
+       {
+        "id": "Gerakan tangan"
+       },
+       {
+        "id": "Postur tubuh"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: komunikasi verbal memakai bahasa — ucapan, bahasa isyarat, dan tulisan. (Modul hal. 99.)"
+      },
+      "ref": {
+       "p": 99
+      }
+     },
+     {
+      "q": {
+       "id": "Menerima perasaan dan pendapat lawan bicara tanpa menyangkal atau membenarkan disebut…"
+      },
+      "opts": [
+       {
+        "id": "Menerima"
+       },
+       {
+        "id": "Menyimak"
+       },
+       {
+        "id": "Berempati"
+       },
+       {
+        "id": "Menasihati"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Itu definisi 'menerima' (受容). Menyimak = mendengarkan penuh perhatian; berempati = merasakan hal yang sama. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Berempati berarti…"
+      },
+      "opts": [
+       {
+        "id": "Merasakan apa yang dipikirkan dan dirasakan pihak lain dengan menempatkan diri pada posisinya"
+       },
+       {
+        "id": "Menyetujui semua permintaan"
+       },
+       {
+        "id": "Memberi nasihat secepatnya"
+       },
+       {
+        "id": "Mendengar sambil mengerjakan hal lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Empati: memahami dengan menempatkan diri pada posisi pihak lain. (Modul hal. 101.)"
+      },
+      "ref": {
+       "p": 101
+      }
+     },
+     {
+      "q": {
+       "id": "Tujuan menguasai keterampilan komunikasi dalam perawatan lansia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Membangun hubungan kepercayaan dengan pihak lain"
+       },
+       {
+        "id": "Mempercepat pekerjaan saja"
+       },
+       {
+        "id": "Mengurangi percakapan"
+       },
+       {
+        "id": "Mengendalikan pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Komunikasi adalah alat untuk membangun hubungan kepercayaan. (Modul hal. 98.)"
+      },
+      "ref": {
+       "p": 98
+      }
+     }
+    ]
+   },
+   {
+    "id": "k3s2-q",
+    "title": {
+     "id": "Latihan: Komunikasi dengan Pengguna",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah contoh pertanyaan terbuka?"
+      },
+      "opts": [
+       {
+        "id": "\"Ibu suka makanan apa?\""
+       },
+       {
+        "id": "\"Bapak suka kari?\""
+       },
+       {
+        "id": "\"Mau teh atau kopi?\""
+       },
+       {
+        "id": "\"Sudah makan?\""
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pertanyaan terbuka dijawab bebas; pertanyaan tertutup dijawab ya/tidak atau A/B. (Modul hal. 103.)"
+      },
+      "ref": {
+       "p": 103
+      }
+     },
+     {
+      "q": {
+       "id": "Mengulang kata-kata pengguna (\"Badan Bapak sakit dan tidak bisa tidur, ya\") bertujuan…"
+      },
+      "opts": [
+       {
+        "id": "Menunjukkan bahwa staf menyimak perkataan pengguna"
+       },
+       {
+        "id": "Mengoreksi ucapan pengguna"
+       },
+       {
+        "id": "Mengakhiri percakapan"
+       },
+       {
+        "id": "Menguji ingatan pengguna"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pengulangan menyampaikan pesan bahwa staf menyimak apa yang dikatakan pengguna. (Modul hal. 104.)"
+      },
+      "ref": {
+       "p": 104
+      }
+     },
+     {
+      "q": {
+       "id": "Sikap tubuh yang memberi kesan buruk saat mendengarkan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menyilangkan tangan dan bersandar dengan arogan"
+       },
+       {
+        "id": "Menghadap lawan bicara"
+       },
+       {
+        "id": "Mengangguk"
+       },
+       {
+        "id": "Kontak mata sejajar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menyilangkan tangan/kaki atau duduk bersandar dengan arogan memberi kesan buruk. (Modul hal. 105.)"
+      },
+      "ref": {
+       "p": 105
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum membantu pengguna dengan gangguan penglihatan, staf sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Menyapa dengan memanggil namanya terlebih dahulu"
+       },
+       {
+        "id": "Langsung memegang tangannya"
+       },
+       {
+        "id": "Menepuk bahunya dari belakang"
+       },
+       {
+        "id": "Diam sampai pengguna bertanya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menyentuh tanpa berkata apa-apa akan mengejutkan; panggil nama dulu dan sebutkan nama sendiri. (Modul hal. 108.)"
+      },
+      "ref": {
+       "p": 108
+      }
+     },
+     {
+      "q": {
+       "id": "Cara menyampaikan posisi makanan kepada pengguna dengan gangguan penglihatan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Metode posisi jam"
+       },
+       {
+        "id": "Bahasa isyarat"
+       },
+       {
+        "id": "Menunjuk dengan jari"
+       },
+       {
+        "id": "Menulis di kertas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Posisi makanan dijelaskan sesuai posisi jarum jam (metode posisi jam). (Modul hal. 109.)"
+      },
+      "ref": {
+       "p": 109
+      }
+     },
+     {
+      "q": {
+       "id": "Cara berbicara yang tepat dengan pengguna yang mengalami gangguan pendengaran adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dari arah depan, perlahan dan jelas"
+       },
+       {
+        "id": "Dari belakang dengan suara sangat keras"
+       },
+       {
+        "id": "Dengan cepat agar tidak lelah"
+       },
+       {
+        "id": "Sambil menutup mulut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bicara dari depan agar ekspresi dan gerak mulut terlihat, perlahan dan jelas, tidak lebih keras dari perlu. (Modul hal. 110.)"
+      },
+      "ref": {
+       "p": 110
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk pengidap afasia, jenis pertanyaan yang memudahkan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pertanyaan tertutup yang dijawab \"ya\" atau \"tidak\""
+       },
+       {
+        "id": "Pertanyaan terbuka yang panjang"
+       },
+       {
+        "id": "Pertanyaan \"mengapa\" berulang"
+       },
+       {
+        "id": "Pertanyaan tertulis yang rumit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: gunakan pertanyaan tertutup yang mudah dijawab, kata singkat, dan gambar; jangan tunjukkan kesalahan kecil. (Modul hal. 112.)"
+      },
+      "ref": {
+       "p": 112
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan membantu pengguna membuat keputusan (informed consent) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tunjukkan pilihan → jelaskan kelebihan & kekurangan → beri kesempatan memilih sendiri"
+       },
+       {
+        "id": "Pilihkan yang terbaik → beri tahu hasilnya"
+       },
+       {
+        "id": "Tanya keluarga → putuskan → kabari pengguna"
+       },
+       {
+        "id": "Jelaskan satu pilihan → minta tanda tangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tiga langkah di modul: pilihan, kelebihan-kekurangan, lalu pengguna memilih dan menentukan sendiri. (Modul hal. 107.)"
+      },
+      "ref": {
+       "p": 107
+      }
+     }
+    ]
+   },
+   {
+    "id": "k3s3-q",
+    "title": {
+     "id": "Latihan: Komunikasi Tim",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Manakah fakta objektif dalam catatan?"
+      },
+      "opts": [
+       {
+        "id": "Suhu tubuh 37,8°C"
+       },
+       {
+        "id": "Pengguna berkata \"kepala saya sakit\""
+       },
+       {
+        "id": "Pengguna merasa sedih"
+       },
+       {
+        "id": "Pengguna bilang tidak bisa tidur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Objektif = yang diamati staf dan angka (tekanan darah, suhu). Perkataan/keluhan pengguna = subjektif. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan sebaiknya catatan perawatan ditulis?"
+      },
+      "opts": [
+       {
+        "id": "Saat ingatan masih kuat"
+       },
+       {
+        "id": "Seminggu kemudian sekaligus"
+       },
+       {
+        "id": "Hanya bila diminta atasan"
+       },
+       {
+        "id": "Setelah pengguna pulang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dasar penulisan catatan: (1) mencatat saat memori masih kuat. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     },
+     {
+      "q": {
+       "id": "Agar catatan dipahami sekali baca, yang ditulis dengan jelas adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kapan, di mana, siapa, apa, mengapa, bagaimana"
+       },
+       {
+        "id": "Pendapat pribadi staf"
+       },
+       {
+        "id": "Hanya nama pengguna"
+       },
+       {
+        "id": "Hanya jam kerja staf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Enam hal (5W1H): When, Where, Who, What, Why, How. (Modul hal. 116.)"
+      },
+      "ref": {
+       "p": 116
+      }
+     },
+     {
+      "q": {
+       "id": "Tindakan yang tepat untuk melindungi informasi pribadi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tidak membicarakan pengguna di luar tempat kerja"
+       },
+       {
+        "id": "Mengunggah foto pengguna ke media sosial"
+       },
+       {
+        "id": "Menceritakan kondisi pengguna ke tetangga"
+       },
+       {
+        "id": "Memberikan alamat pengguna kepada tamu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan membicarakan pengguna/tempat kerja di luar, dan jangan menulisnya di internet atau media sosial. (Modul hal. 117.)"
+      },
+      "ref": {
+       "p": 117
+      }
+     },
+     {
+      "q": {
+       "id": "Yang termasuk cara berbagi informasi melalui catatan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Buku serah-terima tugas"
+       },
+       {
+        "id": "Obrolan di kantin"
+       },
+       {
+        "id": "Pesan pribadi di media sosial"
+       },
+       {
+        "id": "Ingatan masing-masing staf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bentuk catatan: rencana perawatan lansia, catatan kasus, buku serah-terima tugas. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     },
+     {
+      "q": {
+       "id": "Tiga hal yang dicatat staf tentang perawatan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kondisi pengguna, tindakan yang dilakukan, dan respons pengguna"
+       },
+       {
+        "id": "Cuaca, menu, dan gaji"
+       },
+       {
+        "id": "Nama staf, hobi, dan alamat"
+       },
+       {
+        "id": "Harga alat, merek, dan toko"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf mencatat kondisi pengguna, tindakan terhadap pengguna, dan respons pengguna terhadap tindakan itu. (Modul hal. 115.)"
+      },
+      "ref": {
+       "p": 115
+      }
+     }
+    ]
+   }
+  ],
+  "bab4": [
+   {
+    "id": "bab4-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 4 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Yang termasuk ADL adalah…"
+      },
+      "opts": [
+       {
+        "id": "Makan, ekskresi, dan mandi"
+       },
+       {
+        "id": "Berbelanja dan mengelola uang"
+       },
+       {
+        "id": "Naik kendaraan umum"
+       },
+       {
+        "id": "Menggunakan telepon"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ADL = gerakan dasar: berpindah, makan, ganti pakaian, ekskresi, mandi. Belanja, uang, kendaraan = IADL. (Modul hal. 121.)"
+      },
+      "ref": {
+       "p": 121
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan berjalan dengan tongkat cara 3 gerakan pada hemiplegia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tongkat → kaki sisi sakit → kaki sisi sehat"
+       },
+       {
+        "id": "Tongkat → kaki sisi sehat → kaki sisi sakit"
+       },
+       {
+        "id": "Kaki sisi sakit → tongkat → kaki sisi sehat"
+       },
+       {
+        "id": "Kaki sisi sehat → kaki sisi sakit → tongkat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "3 gerakan: (1) tongkat, (2) sisi sakit, (3) sisi sehat; lebih stabil daripada 2 gerakan. (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Saat mendampingi pengguna hemiplegia berjalan dengan tongkat, staf berdiri di…"
+      },
+      "opts": [
+       {
+        "id": "Belakang sisi sakit"
+       },
+       {
+        "id": "Depan sisi sehat"
+       },
+       {
+        "id": "Jauh di belakang"
+       },
+       {
+        "id": "Samping sisi sehat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf berdiri di belakang sisi sakit dan menopang tubuh/pinggang bila perlu. (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Cara menuruni lereng curam dengan kursi roda yang aman adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menghadap ke belakang (mundur)"
+       },
+       {
+        "id": "Menghadap ke depan dengan cepat"
+       },
+       {
+        "id": "Melepas pegangan sebentar"
+       },
+       {
+        "id": "Mengangkat roda depan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mundur mencegah pengguna merosot jatuh dari kursi roda. (Modul hal. 142.)"
+      },
+      "ref": {
+       "p": 142
+      }
+     },
+     {
+      "q": {
+       "id": "Postur makan yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Duduk dalam, kaki menapak lantai, badan sedikit condong ke depan dengan dagu turun"
+       },
+       {
+        "id": "Bersandar jauh ke belakang dengan dagu terangkat"
+       },
+       {
+        "id": "Berbaring telentang datar"
+       },
+       {
+        "id": "Duduk dengan kaki menggantung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dagu yang terangkat berisiko aspirasi; postur benar: duduk dalam, kaki menapak, sedikit condong, dagu turun. (Modul hal. 146.)"
+      },
+      "ref": {
+       "p": 146
+      }
+     },
+     {
+      "q": {
+       "id": "Pada pengguna yang lumpuh sebelah, makanan disuapkan dari…"
+      },
+      "opts": [
+       {
+        "id": "Sudut mulut sisi sehat"
+       },
+       {
+        "id": "Sudut mulut sisi sakit"
+       },
+       {
+        "id": "Tengah atas"
+       },
+       {
+        "id": "Mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Untuk pengguna yang lumpuh, makanan disuapkan dari sudut mulut sisi sehat. (Modul hal. 150.)"
+      },
+      "ref": {
+       "p": 150
+      }
+     },
+     {
+      "q": {
+       "id": "Pada fase faring, apa yang mencegah makanan masuk ke trakea?"
+      },
+      "opts": [
+       {
+        "id": "Epiglotis menutup"
+       },
+       {
+        "id": "Lidah menjulur"
+       },
+       {
+        "id": "Gigi mengatup"
+       },
+       {
+        "id": "Lambung berkontraksi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Refleks menelan terjadi dan epiglotis menutup agar bolus tidak memasuki trakea. (Modul hal. 145.)"
+      },
+      "ref": {
+       "p": 145
+      }
+     },
+     {
+      "q": {
+       "id": "Bantuan makan biasanya dimulai dengan…"
+      },
+      "opts": [
+       {
+        "id": "Teh atau kuah sup untuk membasahi mulut"
+       },
+       {
+        "id": "Makanan paling keras"
+       },
+       {
+        "id": "Makanan penutup"
+       },
+       {
+        "id": "Obat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pengguna diminta mulai dengan minum teh atau kuah agar mulut basah. (Modul hal. 150.)"
+      },
+      "ref": {
+       "p": 150
+      }
+     },
+     {
+      "q": {
+       "id": "Frekuensi dan jumlah urine normal per hari adalah…"
+      },
+      "opts": [
+       {
+        "id": "4–6 kali, 1000–1500 ml"
+       },
+       {
+        "id": "10 kali atau lebih, 3000 ml"
+       },
+       {
+        "id": "1 kali, 300 ml"
+       },
+       {
+        "id": "15 kali, 500 ml"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Normal: 4–6 kali/hari dan 1000–1500 ml/hari. (Modul hal. 155.)"
+      },
+      "ref": {
+       "p": 155
+      }
+     },
+     {
+      "q": {
+       "id": "Pengguna demensia tidak tahu letak toilet sehingga mengompol. Ini inkontinensia urine…"
+      },
+      "opts": [
+       {
+        "id": "Fungsional"
+       },
+       {
+        "id": "Stres"
+       },
+       {
+        "id": "Refleks"
+       },
+       {
+        "id": "Luapan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Inkontinensia fungsional: fungsi berkemih normal tetapi tidak sempat/tidak tahu toilet, misalnya karena demensia. (Modul hal. 158.)"
+      },
+      "ref": {
+       "p": 158
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah pengguna duduk stabil di toilet, staf sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Keluar dan menutup pintu, lalu masuk lagi setelah ada isyarat selesai"
+       },
+       {
+        "id": "Tetap berdiri di depannya"
+       },
+       {
+        "id": "Membuka pintu lebar-lebar"
+       },
+       {
+        "id": "Meninggalkan fasilitas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menjaga privasi: staf keluar, menutup pintu, dan masuk kembali setelah pengguna memberi isyarat. (Modul hal. 163.)"
+      },
+      "ref": {
+       "p": 163
+      }
+     },
+     {
+      "q": {
+       "id": "Saat memasang popok, ruang yang disisakan di perut dan paha adalah…"
+      },
+      "opts": [
+       {
+        "id": "Selebar 2–3 jari"
+       },
+       {
+        "id": "Tidak ada ruang sama sekali"
+       },
+       {
+        "id": "Selebar satu kepalan"
+       },
+       {
+        "id": "Selebar telapak tangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tekanan yang kuat menyebabkan gatal; sisakan ruang 2–3 jari. (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Saat mengganti baju dalam posisi duduk, staf berdiri di…"
+      },
+      "opts": [
+       {
+        "id": "Sisi sakit pengguna"
+       },
+       {
+        "id": "Sisi sehat pengguna"
+       },
+       {
+        "id": "Belakang jauh"
+       },
+       {
+        "id": "Luar ruangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sisi sakit sulit kokoh sehingga pengguna mudah jatuh ke arah itu; staf berdiri di sisi sakit. (Modul hal. 173.)"
+      },
+      "ref": {
+       "p": 173
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan waktu yang baik untuk memotong kuku?"
+      },
+      "opts": [
+       {
+        "id": "Setelah mandi, ketika kuku melunak"
+       },
+       {
+        "id": "Saat kuku sangat kering"
+       },
+       {
+        "id": "Sebelum bangun tidur"
+       },
+       {
+        "id": "Saat makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kuku dipotong saat melunak setelah mandi (atau mandi tangan/kaki). (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     },
+     {
+      "q": {
+       "id": "Salah satu manfaat perawatan rongga mulut adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah pneumonia aspirasi"
+       },
+       {
+        "id": "Menurunkan tinggi badan"
+       },
+       {
+        "id": "Mengurangi air liur"
+       },
+       {
+        "id": "Menghilangkan rasa lapar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menekan bakteri di mulut mencegah pneumonia aspirasi; juga mencegah gigi berlubang dan bau napas. (Modul hal. 182.)"
+      },
+      "ref": {
+       "p": 182
+      }
+     },
+     {
+      "q": {
+       "id": "Alat cukur listrik digunakan dengan sudut…"
+      },
+      "opts": [
+       {
+        "id": "Tegak lurus terhadap kulit"
+       },
+       {
+        "id": "Sejajar menempel miring"
+       },
+       {
+        "id": "Ditekan sekuat mungkin"
+       },
+       {
+        "id": "Tanpa menyentuh kulit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tegak lurus terhadap kulit sambil meregangkan kerutan kulit. (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     },
+     {
+      "q": {
+       "id": "Mandi sebaiknya dihindari pada waktu…"
+      },
+      "opts": [
+       {
+        "id": "1 jam sebelum atau sesudah makan"
+       },
+       {
+        "id": "Sore hari"
+       },
+       {
+        "id": "Setelah minum air"
+       },
+       {
+        "id": "Setelah ke toilet"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mandi 1 jam sebelum/sesudah makan menurunkan fungsi pencernaan dan penyerapan. (Modul hal. 190.)"
+      },
+      "ref": {
+       "p": 190
+      }
+     },
+     {
+      "q": {
+       "id": "Air pancuran mulai disiramkan dari…"
+      },
+      "opts": [
+       {
+        "id": "Ujung jari, perlahan ke seluruh tubuh"
+       },
+       {
+        "id": "Kepala"
+       },
+       {
+        "id": "Dada"
+       },
+       {
+        "id": "Punggung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mulai dari ujung jari; untuk pengguna lumpuh dari sisi sehat. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan mandi seka seluruh tubuh adalah…"
+      },
+      "opts": [
+       {
+        "id": "Wajah → lengan → dada → punggung → kaki → area genital"
+       },
+       {
+        "id": "Kaki → genital → wajah → lengan"
+       },
+       {
+        "id": "Punggung → wajah → kaki → dada"
+       },
+       {
+        "id": "Genital → kaki → punggung → wajah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Urutan di modul: (1) wajah, (2) lengan, (3) dada/abdomen, (4) punggung, (5) kaki, (6) area genital. (Modul hal. 196.)"
+      },
+      "ref": {
+       "p": 196
+      }
+     },
+     {
+      "q": {
+       "id": "Saat keluar dari bak mandi, staf perlu waspada terhadap…"
+      },
+      "opts": [
+       {
+        "id": "Hipotensi ortostatik karena bangkit mendadak"
+       },
+       {
+        "id": "Konstipasi"
+       },
+       {
+        "id": "Gangguan pendengaran"
+       },
+       {
+        "id": "Polakiuria"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bangkit dari bak secara mendadak dapat menyebabkan hipotensi ortostatik. (Modul hal. 192.)"
+      },
+      "ref": {
+       "p": 192
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum membuang barang milik pengguna saat bersih-bersih, staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Memastikan dan mendapat persetujuan pengguna"
+       },
+       {
+        "id": "Langsung membuang yang terlihat tidak perlu"
+       },
+       {
+        "id": "Meminta izin pengguna lain"
+       },
+       {
+        "id": "Menyimpannya di rumah staf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Barang yang tampak tidak perlu bisa penting bagi pengguna; harus dipastikan dan disetujui. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Saat memasak untuk pengguna, bahan dan cara memasak ditentukan dengan mempertimbangkan…"
+      },
+      "opts": [
+       {
+        "id": "Penyakit dan alergi pengguna"
+       },
+       {
+        "id": "Selera staf"
+       },
+       {
+        "id": "Harga termurah saja"
+       },
+       {
+        "id": "Warna piring"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Memasak disesuaikan dengan kondisi fisik, penyakit, dan alergi pengguna. (Modul hal. 199.)"
+      },
+      "ref": {
+       "p": 199
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab4-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bagian 4 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Cara mencegah dekubitus yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mengubah posisi tubuh secara berkala"
+       },
+       {
+        "id": "Berbaring pada posisi yang sama sepanjang hari"
+       },
+       {
+        "id": "Mengurangi makan"
+       },
+       {
+        "id": "Membiarkan seprai berkerut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pencegahan: beranjak dari tempat tidur bila bisa, ubah posisi secara periodik, gizi cukup. (Modul hal. 127.)"
+      },
+      "ref": {
+       "p": 127
+      }
+     },
+     {
+      "q": {
+       "id": "Saat pengguna hemiplegia NAIK tangga dengan tongkat, urutannya…"
+      },
+      "opts": [
+       {
+        "id": "Tongkat → kaki sisi sehat → kaki sisi sakit"
+       },
+       {
+        "id": "Tongkat → kaki sisi sakit → kaki sisi sehat"
+       },
+       {
+        "id": "Kaki sisi sakit → kaki sisi sehat → tongkat"
+       },
+       {
+        "id": "Kaki sisi sehat → tongkat → kaki sisi sakit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Naik: tongkat, kaki sehat, kaki sakit. Turun: tongkat, kaki sakit, kaki sehat. (Modul hal. 135.)"
+      },
+      "ref": {
+       "p": 135
+      }
+     },
+     {
+      "q": {
+       "id": "Saat memindahkan pengguna hemiplegia dari tempat tidur ke kursi roda, kursi roda diletakkan di…"
+      },
+      "opts": [
+       {
+        "id": "Sisi sehat pengguna dengan rem aktif"
+       },
+       {
+        "id": "Sisi sakit pengguna tanpa rem"
+       },
+       {
+        "id": "Belakang pengguna"
+       },
+       {
+        "id": "Ujung tempat tidur bagian kaki"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kursi roda di sisi sehat dan direm; pengidap hemiplegia bergerak dari sisi sehat terlebih dahulu. (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum memakai kursi roda, yang perlu diperiksa adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tekanan udara roda dan kondisi rem"
+       },
+       {
+        "id": "Warna kursi roda"
+       },
+       {
+        "id": "Merek kursi roda"
+       },
+       {
+        "id": "Berat kursi roda"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tekanan udara rendah membuat rem tidak mencengkeram; selalu aktifkan rem saat berhenti. (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa staf menyuapi sambil duduk, bukan berdiri?"
+      },
+      "opts": [
+       {
+        "id": "Jika berdiri, dagu pengguna terangkat sehingga mudah terjadi aspirasi"
+       },
+       {
+        "id": "Agar staf bisa beristirahat"
+       },
+       {
+        "id": "Agar makanan cepat habis"
+       },
+       {
+        "id": "Karena aturan seragam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: bila dilakukan berdiri, dagu pengguna terangkat dan berbahaya karena mudah aspirasi. (Modul hal. 150.)"
+      },
+      "ref": {
+       "p": 150
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah makan, pengguna diminta tetap duduk sekitar 30 menit untuk…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah pneumonia aspirasi"
+       },
+       {
+        "id": "Menunggu makanan berikutnya"
+       },
+       {
+        "id": "Melatih otot kaki"
+       },
+       {
+        "id": "Menghemat tempat tidur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tetap duduk ±30 menit setelah makan mencegah pneumonia aspirasi. (Modul hal. 151.)"
+      },
+      "ref": {
+       "p": 151
+      }
+     },
+     {
+      "q": {
+       "id": "Makanan yang dikentalkan agar tidak tersedak karena kandungan airnya disebut…"
+      },
+      "opts": [
+       {
+        "id": "Makanan kental"
+       },
+       {
+        "id": "Makanan cincang"
+       },
+       {
+        "id": "Makanan lunak"
+       },
+       {
+        "id": "Makanan halus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Makanan kental untuk orang yang fungsi menelannya menurun; cincang = dipotong kecil; halus = seperti bubur. (Modul hal. 146.)"
+      },
+      "ref": {
+       "p": 146
+      }
+     },
+     {
+      "q": {
+       "id": "Seseorang mulai merasa ingin berkemih ketika urine di kandung kemih terkumpul sekitar…"
+      },
+      "opts": [
+       {
+        "id": "200–300 ml"
+       },
+       {
+        "id": "20–30 ml"
+       },
+       {
+        "id": "800–900 ml"
+       },
+       {
+        "id": "1500 ml"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kapasitas kandung kemih ±500 ml; keinginan berkemih muncul saat terkumpul 200–300 ml. (Modul hal. 153.)"
+      },
+      "ref": {
+       "p": 153
+      }
+     },
+     {
+      "q": {
+       "id": "Mengompol saat batuk atau bersin karena tekanan di perut disebut inkontinensia urine…"
+      },
+      "opts": [
+       {
+        "id": "Stres"
+       },
+       {
+        "id": "Urgensi"
+       },
+       {
+        "id": "Luapan"
+       },
+       {
+        "id": "Fungsional"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Stres = saat ada tekanan perut; urgensi = tidak sempat ke toilet; fungsional = mis. tidak tahu lokasi toilet. (Modul hal. 158.)"
+      },
+      "ref": {
+       "p": 158
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membersihkan area genital wanita, arah menyeka yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dari uretra ke arah anus (depan ke belakang)"
+       },
+       {
+        "id": "Dari anus ke arah uretra"
+       },
+       {
+        "id": "Memutar berulang di tempat yang sama"
+       },
+       {
+        "id": "Arah mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Depan ke belakang untuk mencegah infeksi. (Modul hal. 167.)"
+      },
+      "ref": {
+       "p": 167
+      }
+     },
+     {
+      "q": {
+       "id": "Poin perawatan yang tepat saat pengguna diare adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah dehidrasi dan melaporkan diare akut ke tenaga medis"
+       },
+       {
+        "id": "Menghentikan semua minuman"
+       },
+       {
+        "id": "Membiarkannya tanpa dibersihkan"
+       },
+       {
+        "id": "Memberi makanan berserat sangat banyak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Diare menghilangkan cairan tubuh; diare akut dicurigai penyakit menular sehingga harus dilaporkan. (Modul hal. 159.)"
+      },
+      "ref": {
+       "p": 159
+      }
+     },
+     {
+      "q": {
+       "id": "Prinsip mengganti pakaian pada pengguna yang lumpuh sebelah adalah…"
+      },
+      "opts": [
+       {
+        "id": "Melepas dari sisi sehat, memakai dari sisi sakit"
+       },
+       {
+        "id": "Melepas dari sisi sakit, memakai dari sisi sehat"
+       },
+       {
+        "id": "Selalu mulai dari kanan"
+       },
+       {
+        "id": "Selalu mulai dari kiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Melepas dari sisi sehat yang jangkauan geraknya luas mengurangi beban sisi sakit; memakai dari sisi sakit. (Modul hal. 172.)"
+      },
+      "ref": {
+       "p": 172
+      }
+     },
+     {
+      "q": {
+       "id": "Siapa yang sebaiknya memilih pakaian yang akan dipakai?"
+      },
+      "opts": [
+       {
+        "id": "Pengguna sendiri sesuai preferensinya"
+       },
+       {
+        "id": "Staf yang bertugas"
+       },
+       {
+        "id": "Keluarga saja"
+       },
+       {
+        "id": "Pengguna lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pakaian adalah ekspresi jati diri; pengguna diminta memilih sesuai preferensinya. (Modul hal. 172.)"
+      },
+      "ref": {
+       "p": 172
+      }
+     },
+     {
+      "q": {
+       "id": "Cara menyimpan gigi palsu yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Di dalam wadah berisi air dan cairan pembersih"
+       },
+       {
+        "id": "Dibungkus tisu kering"
+       },
+       {
+        "id": "Dijemur di bawah matahari"
+       },
+       {
+        "id": "Di saku pakaian"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gigi palsu bisa retak jika kering, jadi disimpan dalam wadah berisi air. (Modul hal. 184.)"
+      },
+      "ref": {
+       "p": 184
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membantu menggosok gigi, hal yang harus dihindari adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menaikkan dagu pengguna"
+       },
+       {
+        "id": "Berkumur terlebih dahulu"
+       },
+       {
+        "id": "Menggosok gigi satu per satu"
+       },
+       {
+        "id": "Memegang sikat seperti pensil"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dagu yang dinaikkan berisiko aspirasi. (Modul hal. 183.)"
+      },
+      "ref": {
+       "p": 183
+      }
+     },
+     {
+      "q": {
+       "id": "Efek buruk pada tubuh akibat perbedaan suhu mendadak disebut…"
+      },
+      "opts": [
+       {
+        "id": "Kejutan panas (heat shock)"
+       },
+       {
+        "id": "Sindrom disuse"
+       },
+       {
+        "id": "Dekubitus"
+       },
+       {
+        "id": "Sianosis"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kejutan panas dicegah dengan mengecilkan perbedaan suhu ruang ganti dan kamar mandi. (Modul hal. 189.)"
+      },
+      "ref": {
+       "p": 189
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum menyiramkan air pancuran ke pengguna, staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Memeriksa suhu air dengan tangannya sendiri terlebih dahulu"
+       },
+       {
+        "id": "Langsung menyiram ke kepala"
+       },
+       {
+        "id": "Menyiram dari punggung"
+       },
+       {
+        "id": "Memakai air sedingin mungkin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf memeriksa suhu dengan tangannya, lalu pengguna juga diminta memeriksa. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Pengguna yang lumpuh sebelah masuk ke bak mandi dari…"
+      },
+      "opts": [
+       {
+        "id": "Sisi sehat"
+       },
+       {
+        "id": "Sisi sakit"
+       },
+       {
+        "id": "Kepala lebih dulu"
+       },
+       {
+        "id": "Mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Masuk dari sisi sehat; sisi sakit ditopang karena cenderung mengapung. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Lengan dan kaki dibasuh/diseka ke arah…"
+      },
+      "opts": [
+       {
+        "id": "Dari ujung jari menuju jantung"
+       },
+       {
+        "id": "Dari jantung menuju ujung jari"
+       },
+       {
+        "id": "Melingkar di satu titik"
+       },
+       {
+        "id": "Acak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Membasuh dari ujung ke arah jantung memperlancar sirkulasi darah. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Pekerjaan rumah tangga seperti memasak dan mencuci termasuk dalam…"
+      },
+      "opts": [
+       {
+        "id": "IADL"
+       },
+       {
+        "id": "ADL dasar"
+       },
+       {
+        "id": "Tanda vital"
+       },
+       {
+        "id": "Tindakan medis"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "IADL = aktivitas instrumental: memasak, membersihkan, mencuci, berbelanja, mengelola uang. (Modul hal. 198.)"
+      },
+      "ref": {
+       "p": 198
+      }
+     },
+     {
+      "q": {
+       "id": "Pakaian yang terkena muntahan pengguna berpenyakit menular harus…"
+      },
+      "opts": [
+       {
+        "id": "Dicuci secara terpisah"
+       },
+       {
+        "id": "Dicampur dengan cucian lain"
+       },
+       {
+        "id": "Dijemur tanpa dicuci"
+       },
+       {
+        "id": "Disimpan dulu seminggu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pakaian terkena feses, muntahan, darah pengguna berpenyakit menular dicuci terpisah. (Modul hal. 201.)"
+      },
+      "ref": {
+       "p": 201
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa pekerjaan rumah tangga disebut sangat individual?"
+      },
+      "opts": [
+       {
+        "id": "Karena tiap orang memiliki gaya hidup dan prinsipnya sendiri"
+       },
+       {
+        "id": "Karena hanya boleh dikerjakan sendirian"
+       },
+       {
+        "id": "Karena tidak boleh dibantu"
+       },
+       {
+        "id": "Karena sama di semua negara"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tiap orang punya gaya hidup dan prinsip sendiri, jadi caranya pun berbeda. (Modul hal. 198.)"
+      },
+      "ref": {
+       "p": 198
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab4-q3",
+    "title": {
+     "id": "Arti kosakata Bagian 4",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「消毒」（しょうどく）?",
+       "jp": "「消毒」（しょうどく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "perawat",
+        "jp": "perawat"
+       },
+       {
+        "id": "disinfeksi",
+        "jp": "disinfeksi"
+       },
+       {
+        "id": "tongkat",
+        "jp": "tongkat"
+       },
+       {
+        "id": "kondisioner",
+        "jp": "kondisioner"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "消毒 (しょうどく) = disinfeksi. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "消毒（しょうどく）＝ disinfeksi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「便座」（べんざ）?",
+       "jp": "「便座」（べんざ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "urine",
+        "jp": "urine"
+       },
+       {
+        "id": "baju atasan",
+        "jp": "baju atasan"
+       },
+       {
+        "id": "bantuan makan",
+        "jp": "bantuan makan"
+       },
+       {
+        "id": "toilet duduk",
+        "jp": "toilet duduk"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "便座 (べんざ) = toilet duduk. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "便座（べんざ）＝ toilet duduk"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「パジャマ」（ぱじゃま）?",
+       "jp": "「パジャマ」（ぱじゃま）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "tongkat",
+        "jp": "tongkat"
+       },
+       {
+        "id": "berkeringat",
+        "jp": "berkeringat"
+       },
+       {
+        "id": "piyama",
+        "jp": "piyama"
+       },
+       {
+        "id": "sampo",
+        "jp": "sampo"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "パジャマ (ぱじゃま) = piyama. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "パジャマ（ぱじゃま）＝ piyama"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「浴室」（よくしつ）?",
+       "jp": "「浴室」（よくしつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "gorengan",
+        "jp": "gorengan"
+       },
+       {
+        "id": "berkumur",
+        "jp": "berkumur"
+       },
+       {
+        "id": "kamar mandi",
+        "jp": "kamar mandi"
+       },
+       {
+        "id": "jumlah",
+        "jp": "jumlah"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "浴室 (よくしつ) = kamar mandi. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "浴室（よくしつ）＝ kamar mandi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「豆腐」（とうふ）?",
+       "jp": "「豆腐」（とうふ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "mengering",
+        "jp": "mengering"
+       },
+       {
+        "id": "tahu",
+        "jp": "tahu"
+       },
+       {
+        "id": "tongkat",
+        "jp": "tongkat"
+       },
+       {
+        "id": "gigi palsu, gigi buatan",
+        "jp": "gigi palsu, gigi buatan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "豆腐 (とうふ) = tahu. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "豆腐（とうふ）＝ tahu"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「衣類」（いるい）?",
+       "jp": "「衣類」（いるい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "menjemur",
+        "jp": "menjemur"
+       },
+       {
+        "id": "keinginan defekasi",
+        "jp": "keinginan defekasi"
+       },
+       {
+        "id": "pakaian",
+        "jp": "pakaian"
+       },
+       {
+        "id": "kekentalan",
+        "jp": "kekentalan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "衣類 (いるい) = pakaian. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "衣類（いるい）＝ pakaian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「食品」（しょくひん）?",
+       "jp": "「食品」（しょくひん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "melipat",
+        "jp": "melipat"
+       },
+       {
+        "id": "acar",
+        "jp": "acar"
+       },
+       {
+        "id": "makanan",
+        "jp": "makanan"
+       },
+       {
+        "id": "tumis",
+        "jp": "tumis"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "食品 (しょくひん) = makanan. Sumber: daftar kosakata modul hal. 212.",
+       "jp": "食品（しょくひん）＝ makanan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「リーダー」（りーだー）?",
+       "jp": "「リーダー」（りーだー）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "mandi seka",
+        "jp": "mandi seka"
+       },
+       {
+        "id": "memeriksa",
+        "jp": "memeriksa"
+       },
+       {
+        "id": "merapikan penampilan",
+        "jp": "merapikan penampilan"
+       },
+       {
+        "id": "kepala tim",
+        "jp": "kepala tim"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "リーダー (りーだー) = kepala tim. Sumber: daftar kosakata modul hal. 212.",
+       "jp": "リーダー（りーだー）＝ kepala tim"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「煮付け」（につけ）?",
+       "jp": "「煮付け」（につけ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "tongkat",
+        "jp": "tongkat"
+       },
+       {
+        "id": "dokter gigi",
+        "jp": "dokter gigi"
+       },
+       {
+        "id": "rebus berbumbu, semur",
+        "jp": "rebus berbumbu, semur"
+       },
+       {
+        "id": "daftar makanan",
+        "jp": "daftar makanan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "煮付け (につけ) = rebus berbumbu, semur. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "煮付け（につけ）＝ rebus berbumbu, semur"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「副食」（ふくしょく）?",
+       "jp": "「副食」（ふくしょく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pisau cukur",
+        "jp": "pisau cukur"
+       },
+       {
+        "id": "merapikan diri",
+        "jp": "merapikan diri"
+       },
+       {
+        "id": "lauk",
+        "jp": "lauk"
+       },
+       {
+        "id": "area genital",
+        "jp": "area genital"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "副食 (ふくしょく) = lauk. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "副食（ふくしょく）＝ lauk"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「臥床」（がしょう）?",
+       "jp": "「臥床」（がしょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "bantal",
+        "jp": "bantal"
+       },
+       {
+        "id": "sikat gigi",
+        "jp": "sikat gigi"
+       },
+       {
+        "id": "kursi roda",
+        "jp": "kursi roda"
+       },
+       {
+        "id": "berbaring",
+        "jp": "berbaring"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "臥床 (がしょう) = berbaring. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "臥床（がしょう）＝ berbaring"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ご飯」（ごはん）?",
+       "jp": "「ご飯」（ごはん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "nasi putih",
+        "jp": "nasi putih"
+       },
+       {
+        "id": "rem",
+        "jp": "rem"
+       },
+       {
+        "id": "keramas",
+        "jp": "keramas"
+       },
+       {
+        "id": "asupan cairan",
+        "jp": "asupan cairan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ご飯 (ごはん) = nasi putih. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "ご飯（ごはん）＝ nasi putih"
+      }
+     }
+    ]
+   },
+   {
+    "id": "k4s1-q",
+    "title": {
+     "id": "Latihan: Perawatan Lansia untuk Berpindah",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Yang termasuk ADL adalah…"
+      },
+      "opts": [
+       {
+        "id": "Makan, ekskresi, dan mandi"
+       },
+       {
+        "id": "Berbelanja dan mengelola uang"
+       },
+       {
+        "id": "Naik kendaraan umum"
+       },
+       {
+        "id": "Menggunakan telepon"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ADL = gerakan dasar: berpindah, makan, ganti pakaian, ekskresi, mandi. Belanja, uang, kendaraan = IADL. (Modul hal. 121.)"
+      },
+      "ref": {
+       "p": 121
+      }
+     },
+     {
+      "q": {
+       "id": "Cara mencegah dekubitus yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mengubah posisi tubuh secara berkala"
+       },
+       {
+        "id": "Berbaring pada posisi yang sama sepanjang hari"
+       },
+       {
+        "id": "Mengurangi makan"
+       },
+       {
+        "id": "Membiarkan seprai berkerut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pencegahan: beranjak dari tempat tidur bila bisa, ubah posisi secara periodik, gizi cukup. (Modul hal. 127.)"
+      },
+      "ref": {
+       "p": 127
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan berjalan dengan tongkat cara 3 gerakan pada hemiplegia adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tongkat → kaki sisi sakit → kaki sisi sehat"
+       },
+       {
+        "id": "Tongkat → kaki sisi sehat → kaki sisi sakit"
+       },
+       {
+        "id": "Kaki sisi sakit → tongkat → kaki sisi sehat"
+       },
+       {
+        "id": "Kaki sisi sehat → kaki sisi sakit → tongkat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "3 gerakan: (1) tongkat, (2) sisi sakit, (3) sisi sehat; lebih stabil daripada 2 gerakan. (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Saat pengguna hemiplegia NAIK tangga dengan tongkat, urutannya…"
+      },
+      "opts": [
+       {
+        "id": "Tongkat → kaki sisi sehat → kaki sisi sakit"
+       },
+       {
+        "id": "Tongkat → kaki sisi sakit → kaki sisi sehat"
+       },
+       {
+        "id": "Kaki sisi sakit → kaki sisi sehat → tongkat"
+       },
+       {
+        "id": "Kaki sisi sehat → tongkat → kaki sisi sakit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Naik: tongkat, kaki sehat, kaki sakit. Turun: tongkat, kaki sakit, kaki sehat. (Modul hal. 135.)"
+      },
+      "ref": {
+       "p": 135
+      }
+     },
+     {
+      "q": {
+       "id": "Saat mendampingi pengguna hemiplegia berjalan dengan tongkat, staf berdiri di…"
+      },
+      "opts": [
+       {
+        "id": "Belakang sisi sakit"
+       },
+       {
+        "id": "Depan sisi sehat"
+       },
+       {
+        "id": "Jauh di belakang"
+       },
+       {
+        "id": "Samping sisi sehat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf berdiri di belakang sisi sakit dan menopang tubuh/pinggang bila perlu. (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Saat memindahkan pengguna hemiplegia dari tempat tidur ke kursi roda, kursi roda diletakkan di…"
+      },
+      "opts": [
+       {
+        "id": "Sisi sehat pengguna dengan rem aktif"
+       },
+       {
+        "id": "Sisi sakit pengguna tanpa rem"
+       },
+       {
+        "id": "Belakang pengguna"
+       },
+       {
+        "id": "Ujung tempat tidur bagian kaki"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kursi roda di sisi sehat dan direm; pengidap hemiplegia bergerak dari sisi sehat terlebih dahulu. (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Cara menuruni lereng curam dengan kursi roda yang aman adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menghadap ke belakang (mundur)"
+       },
+       {
+        "id": "Menghadap ke depan dengan cepat"
+       },
+       {
+        "id": "Melepas pegangan sebentar"
+       },
+       {
+        "id": "Mengangkat roda depan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mundur mencegah pengguna merosot jatuh dari kursi roda. (Modul hal. 142.)"
+      },
+      "ref": {
+       "p": 142
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum memakai kursi roda, yang perlu diperiksa adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tekanan udara roda dan kondisi rem"
+       },
+       {
+        "id": "Warna kursi roda"
+       },
+       {
+        "id": "Merek kursi roda"
+       },
+       {
+        "id": "Berat kursi roda"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tekanan udara rendah membuat rem tidak mencengkeram; selalu aktifkan rem saat berhenti. (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     }
+    ]
+   },
+   {
+    "id": "k4s2-q",
+    "title": {
+     "id": "Latihan: Perawatan Lansia untuk Makan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Postur makan yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Duduk dalam, kaki menapak lantai, badan sedikit condong ke depan dengan dagu turun"
+       },
+       {
+        "id": "Bersandar jauh ke belakang dengan dagu terangkat"
+       },
+       {
+        "id": "Berbaring telentang datar"
+       },
+       {
+        "id": "Duduk dengan kaki menggantung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dagu yang terangkat berisiko aspirasi; postur benar: duduk dalam, kaki menapak, sedikit condong, dagu turun. (Modul hal. 146.)"
+      },
+      "ref": {
+       "p": 146
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa staf menyuapi sambil duduk, bukan berdiri?"
+      },
+      "opts": [
+       {
+        "id": "Jika berdiri, dagu pengguna terangkat sehingga mudah terjadi aspirasi"
+       },
+       {
+        "id": "Agar staf bisa beristirahat"
+       },
+       {
+        "id": "Agar makanan cepat habis"
+       },
+       {
+        "id": "Karena aturan seragam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Modul: bila dilakukan berdiri, dagu pengguna terangkat dan berbahaya karena mudah aspirasi. (Modul hal. 150.)"
+      },
+      "ref": {
+       "p": 150
+      }
+     },
+     {
+      "q": {
+       "id": "Pada pengguna yang lumpuh sebelah, makanan disuapkan dari…"
+      },
+      "opts": [
+       {
+        "id": "Sudut mulut sisi sehat"
+       },
+       {
+        "id": "Sudut mulut sisi sakit"
+       },
+       {
+        "id": "Tengah atas"
+       },
+       {
+        "id": "Mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Untuk pengguna yang lumpuh, makanan disuapkan dari sudut mulut sisi sehat. (Modul hal. 150.)"
+      },
+      "ref": {
+       "p": 150
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah makan, pengguna diminta tetap duduk sekitar 30 menit untuk…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah pneumonia aspirasi"
+       },
+       {
+        "id": "Menunggu makanan berikutnya"
+       },
+       {
+        "id": "Melatih otot kaki"
+       },
+       {
+        "id": "Menghemat tempat tidur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tetap duduk ±30 menit setelah makan mencegah pneumonia aspirasi. (Modul hal. 151.)"
+      },
+      "ref": {
+       "p": 151
+      }
+     },
+     {
+      "q": {
+       "id": "Pada fase faring, apa yang mencegah makanan masuk ke trakea?"
+      },
+      "opts": [
+       {
+        "id": "Epiglotis menutup"
+       },
+       {
+        "id": "Lidah menjulur"
+       },
+       {
+        "id": "Gigi mengatup"
+       },
+       {
+        "id": "Lambung berkontraksi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Refleks menelan terjadi dan epiglotis menutup agar bolus tidak memasuki trakea. (Modul hal. 145.)"
+      },
+      "ref": {
+       "p": 145
+      }
+     },
+     {
+      "q": {
+       "id": "Makanan yang dikentalkan agar tidak tersedak karena kandungan airnya disebut…"
+      },
+      "opts": [
+       {
+        "id": "Makanan kental"
+       },
+       {
+        "id": "Makanan cincang"
+       },
+       {
+        "id": "Makanan lunak"
+       },
+       {
+        "id": "Makanan halus"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Makanan kental untuk orang yang fungsi menelannya menurun; cincang = dipotong kecil; halus = seperti bubur. (Modul hal. 146.)"
+      },
+      "ref": {
+       "p": 146
+      }
+     },
+     {
+      "q": {
+       "id": "Bantuan makan biasanya dimulai dengan…"
+      },
+      "opts": [
+       {
+        "id": "Teh atau kuah sup untuk membasahi mulut"
+       },
+       {
+        "id": "Makanan paling keras"
+       },
+       {
+        "id": "Makanan penutup"
+       },
+       {
+        "id": "Obat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pengguna diminta mulai dengan minum teh atau kuah agar mulut basah. (Modul hal. 150.)"
+      },
+      "ref": {
+       "p": 150
+      }
+     }
+    ]
+   },
+   {
+    "id": "k4s3-q",
+    "title": {
+     "id": "Latihan: Perawatan Lansia untuk Ekskresi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Seseorang mulai merasa ingin berkemih ketika urine di kandung kemih terkumpul sekitar…"
+      },
+      "opts": [
+       {
+        "id": "200–300 ml"
+       },
+       {
+        "id": "20–30 ml"
+       },
+       {
+        "id": "800–900 ml"
+       },
+       {
+        "id": "1500 ml"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kapasitas kandung kemih ±500 ml; keinginan berkemih muncul saat terkumpul 200–300 ml. (Modul hal. 153.)"
+      },
+      "ref": {
+       "p": 153
+      }
+     },
+     {
+      "q": {
+       "id": "Frekuensi dan jumlah urine normal per hari adalah…"
+      },
+      "opts": [
+       {
+        "id": "4–6 kali, 1000–1500 ml"
+       },
+       {
+        "id": "10 kali atau lebih, 3000 ml"
+       },
+       {
+        "id": "1 kali, 300 ml"
+       },
+       {
+        "id": "15 kali, 500 ml"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Normal: 4–6 kali/hari dan 1000–1500 ml/hari. (Modul hal. 155.)"
+      },
+      "ref": {
+       "p": 155
+      }
+     },
+     {
+      "q": {
+       "id": "Mengompol saat batuk atau bersin karena tekanan di perut disebut inkontinensia urine…"
+      },
+      "opts": [
+       {
+        "id": "Stres"
+       },
+       {
+        "id": "Urgensi"
+       },
+       {
+        "id": "Luapan"
+       },
+       {
+        "id": "Fungsional"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Stres = saat ada tekanan perut; urgensi = tidak sempat ke toilet; fungsional = mis. tidak tahu lokasi toilet. (Modul hal. 158.)"
+      },
+      "ref": {
+       "p": 158
+      }
+     },
+     {
+      "q": {
+       "id": "Pengguna demensia tidak tahu letak toilet sehingga mengompol. Ini inkontinensia urine…"
+      },
+      "opts": [
+       {
+        "id": "Fungsional"
+       },
+       {
+        "id": "Stres"
+       },
+       {
+        "id": "Refleks"
+       },
+       {
+        "id": "Luapan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Inkontinensia fungsional: fungsi berkemih normal tetapi tidak sempat/tidak tahu toilet, misalnya karena demensia. (Modul hal. 158.)"
+      },
+      "ref": {
+       "p": 158
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membersihkan area genital wanita, arah menyeka yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Dari uretra ke arah anus (depan ke belakang)"
+       },
+       {
+        "id": "Dari anus ke arah uretra"
+       },
+       {
+        "id": "Memutar berulang di tempat yang sama"
+       },
+       {
+        "id": "Arah mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Depan ke belakang untuk mencegah infeksi. (Modul hal. 167.)"
+      },
+      "ref": {
+       "p": 167
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah pengguna duduk stabil di toilet, staf sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Keluar dan menutup pintu, lalu masuk lagi setelah ada isyarat selesai"
+       },
+       {
+        "id": "Tetap berdiri di depannya"
+       },
+       {
+        "id": "Membuka pintu lebar-lebar"
+       },
+       {
+        "id": "Meninggalkan fasilitas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menjaga privasi: staf keluar, menutup pintu, dan masuk kembali setelah pengguna memberi isyarat. (Modul hal. 163.)"
+      },
+      "ref": {
+       "p": 163
+      }
+     },
+     {
+      "q": {
+       "id": "Poin perawatan yang tepat saat pengguna diare adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah dehidrasi dan melaporkan diare akut ke tenaga medis"
+       },
+       {
+        "id": "Menghentikan semua minuman"
+       },
+       {
+        "id": "Membiarkannya tanpa dibersihkan"
+       },
+       {
+        "id": "Memberi makanan berserat sangat banyak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Diare menghilangkan cairan tubuh; diare akut dicurigai penyakit menular sehingga harus dilaporkan. (Modul hal. 159.)"
+      },
+      "ref": {
+       "p": 159
+      }
+     },
+     {
+      "q": {
+       "id": "Saat memasang popok, ruang yang disisakan di perut dan paha adalah…"
+      },
+      "opts": [
+       {
+        "id": "Selebar 2–3 jari"
+       },
+       {
+        "id": "Tidak ada ruang sama sekali"
+       },
+       {
+        "id": "Selebar satu kepalan"
+       },
+       {
+        "id": "Selebar telapak tangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tekanan yang kuat menyebabkan gatal; sisakan ruang 2–3 jari. (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     }
+    ]
+   },
+   {
+    "id": "k4s4-q",
+    "title": {
+     "id": "Latihan: Perawatan Lansia untuk Merapikan Diri",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Prinsip mengganti pakaian pada pengguna yang lumpuh sebelah adalah…"
+      },
+      "opts": [
+       {
+        "id": "Melepas dari sisi sehat, memakai dari sisi sakit"
+       },
+       {
+        "id": "Melepas dari sisi sakit, memakai dari sisi sehat"
+       },
+       {
+        "id": "Selalu mulai dari kanan"
+       },
+       {
+        "id": "Selalu mulai dari kiri"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Melepas dari sisi sehat yang jangkauan geraknya luas mengurangi beban sisi sakit; memakai dari sisi sakit. (Modul hal. 172.)"
+      },
+      "ref": {
+       "p": 172
+      }
+     },
+     {
+      "q": {
+       "id": "Saat mengganti baju dalam posisi duduk, staf berdiri di…"
+      },
+      "opts": [
+       {
+        "id": "Sisi sakit pengguna"
+       },
+       {
+        "id": "Sisi sehat pengguna"
+       },
+       {
+        "id": "Belakang jauh"
+       },
+       {
+        "id": "Luar ruangan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sisi sakit sulit kokoh sehingga pengguna mudah jatuh ke arah itu; staf berdiri di sisi sakit. (Modul hal. 173.)"
+      },
+      "ref": {
+       "p": 173
+      }
+     },
+     {
+      "q": {
+       "id": "Siapa yang sebaiknya memilih pakaian yang akan dipakai?"
+      },
+      "opts": [
+       {
+        "id": "Pengguna sendiri sesuai preferensinya"
+       },
+       {
+        "id": "Staf yang bertugas"
+       },
+       {
+        "id": "Keluarga saja"
+       },
+       {
+        "id": "Pengguna lain"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pakaian adalah ekspresi jati diri; pengguna diminta memilih sesuai preferensinya. (Modul hal. 172.)"
+      },
+      "ref": {
+       "p": 172
+      }
+     },
+     {
+      "q": {
+       "id": "Kapan waktu yang baik untuk memotong kuku?"
+      },
+      "opts": [
+       {
+        "id": "Setelah mandi, ketika kuku melunak"
+       },
+       {
+        "id": "Saat kuku sangat kering"
+       },
+       {
+        "id": "Sebelum bangun tidur"
+       },
+       {
+        "id": "Saat makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kuku dipotong saat melunak setelah mandi (atau mandi tangan/kaki). (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     },
+     {
+      "q": {
+       "id": "Cara menyimpan gigi palsu yang benar adalah…"
+      },
+      "opts": [
+       {
+        "id": "Di dalam wadah berisi air dan cairan pembersih"
+       },
+       {
+        "id": "Dibungkus tisu kering"
+       },
+       {
+        "id": "Dijemur di bawah matahari"
+       },
+       {
+        "id": "Di saku pakaian"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gigi palsu bisa retak jika kering, jadi disimpan dalam wadah berisi air. (Modul hal. 184.)"
+      },
+      "ref": {
+       "p": 184
+      }
+     },
+     {
+      "q": {
+       "id": "Salah satu manfaat perawatan rongga mulut adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mencegah pneumonia aspirasi"
+       },
+       {
+        "id": "Menurunkan tinggi badan"
+       },
+       {
+        "id": "Mengurangi air liur"
+       },
+       {
+        "id": "Menghilangkan rasa lapar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Menekan bakteri di mulut mencegah pneumonia aspirasi; juga mencegah gigi berlubang dan bau napas. (Modul hal. 182.)"
+      },
+      "ref": {
+       "p": 182
+      }
+     },
+     {
+      "q": {
+       "id": "Saat membantu menggosok gigi, hal yang harus dihindari adalah…"
+      },
+      "opts": [
+       {
+        "id": "Menaikkan dagu pengguna"
+       },
+       {
+        "id": "Berkumur terlebih dahulu"
+       },
+       {
+        "id": "Menggosok gigi satu per satu"
+       },
+       {
+        "id": "Memegang sikat seperti pensil"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dagu yang dinaikkan berisiko aspirasi. (Modul hal. 183.)"
+      },
+      "ref": {
+       "p": 183
+      }
+     },
+     {
+      "q": {
+       "id": "Alat cukur listrik digunakan dengan sudut…"
+      },
+      "opts": [
+       {
+        "id": "Tegak lurus terhadap kulit"
+       },
+       {
+        "id": "Sejajar menempel miring"
+       },
+       {
+        "id": "Ditekan sekuat mungkin"
+       },
+       {
+        "id": "Tanpa menyentuh kulit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tegak lurus terhadap kulit sambil meregangkan kerutan kulit. (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     }
+    ]
+   },
+   {
+    "id": "k4s5-q",
+    "title": {
+     "id": "Latihan: Perawatan Lansia untuk Mandi dan Menjaga Kebersihan Tubuh",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Efek buruk pada tubuh akibat perbedaan suhu mendadak disebut…"
+      },
+      "opts": [
+       {
+        "id": "Kejutan panas (heat shock)"
+       },
+       {
+        "id": "Sindrom disuse"
+       },
+       {
+        "id": "Dekubitus"
+       },
+       {
+        "id": "Sianosis"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kejutan panas dicegah dengan mengecilkan perbedaan suhu ruang ganti dan kamar mandi. (Modul hal. 189.)"
+      },
+      "ref": {
+       "p": 189
+      }
+     },
+     {
+      "q": {
+       "id": "Mandi sebaiknya dihindari pada waktu…"
+      },
+      "opts": [
+       {
+        "id": "1 jam sebelum atau sesudah makan"
+       },
+       {
+        "id": "Sore hari"
+       },
+       {
+        "id": "Setelah minum air"
+       },
+       {
+        "id": "Setelah ke toilet"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mandi 1 jam sebelum/sesudah makan menurunkan fungsi pencernaan dan penyerapan. (Modul hal. 190.)"
+      },
+      "ref": {
+       "p": 190
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum menyiramkan air pancuran ke pengguna, staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Memeriksa suhu air dengan tangannya sendiri terlebih dahulu"
+       },
+       {
+        "id": "Langsung menyiram ke kepala"
+       },
+       {
+        "id": "Menyiram dari punggung"
+       },
+       {
+        "id": "Memakai air sedingin mungkin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Staf memeriksa suhu dengan tangannya, lalu pengguna juga diminta memeriksa. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Air pancuran mulai disiramkan dari…"
+      },
+      "opts": [
+       {
+        "id": "Ujung jari, perlahan ke seluruh tubuh"
+       },
+       {
+        "id": "Kepala"
+       },
+       {
+        "id": "Dada"
+       },
+       {
+        "id": "Punggung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mulai dari ujung jari; untuk pengguna lumpuh dari sisi sehat. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Pengguna yang lumpuh sebelah masuk ke bak mandi dari…"
+      },
+      "opts": [
+       {
+        "id": "Sisi sehat"
+       },
+       {
+        "id": "Sisi sakit"
+       },
+       {
+        "id": "Kepala lebih dulu"
+       },
+       {
+        "id": "Mana saja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Masuk dari sisi sehat; sisi sakit ditopang karena cenderung mengapung. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan mandi seka seluruh tubuh adalah…"
+      },
+      "opts": [
+       {
+        "id": "Wajah → lengan → dada → punggung → kaki → area genital"
+       },
+       {
+        "id": "Kaki → genital → wajah → lengan"
+       },
+       {
+        "id": "Punggung → wajah → kaki → dada"
+       },
+       {
+        "id": "Genital → kaki → punggung → wajah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Urutan di modul: (1) wajah, (2) lengan, (3) dada/abdomen, (4) punggung, (5) kaki, (6) area genital. (Modul hal. 196.)"
+      },
+      "ref": {
+       "p": 196
+      }
+     },
+     {
+      "q": {
+       "id": "Lengan dan kaki dibasuh/diseka ke arah…"
+      },
+      "opts": [
+       {
+        "id": "Dari ujung jari menuju jantung"
+       },
+       {
+        "id": "Dari jantung menuju ujung jari"
+       },
+       {
+        "id": "Melingkar di satu titik"
+       },
+       {
+        "id": "Acak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Membasuh dari ujung ke arah jantung memperlancar sirkulasi darah. (Modul hal. 191.)"
+      },
+      "ref": {
+       "p": 191
+      }
+     },
+     {
+      "q": {
+       "id": "Saat keluar dari bak mandi, staf perlu waspada terhadap…"
+      },
+      "opts": [
+       {
+        "id": "Hipotensi ortostatik karena bangkit mendadak"
+       },
+       {
+        "id": "Konstipasi"
+       },
+       {
+        "id": "Gangguan pendengaran"
+       },
+       {
+        "id": "Polakiuria"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bangkit dari bak secara mendadak dapat menyebabkan hipotensi ortostatik. (Modul hal. 192.)"
+      },
+      "ref": {
+       "p": 192
+      }
+     }
+    ]
+   },
+   {
+    "id": "k4s6-q",
+    "title": {
+     "id": "Latihan: Perawatan Lansia untuk Pekerjaan Rumah Tangga",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pekerjaan rumah tangga seperti memasak dan mencuci termasuk dalam…"
+      },
+      "opts": [
+       {
+        "id": "IADL"
+       },
+       {
+        "id": "ADL dasar"
+       },
+       {
+        "id": "Tanda vital"
+       },
+       {
+        "id": "Tindakan medis"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "IADL = aktivitas instrumental: memasak, membersihkan, mencuci, berbelanja, mengelola uang. (Modul hal. 198.)"
+      },
+      "ref": {
+       "p": 198
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum membuang barang milik pengguna saat bersih-bersih, staf harus…"
+      },
+      "opts": [
+       {
+        "id": "Memastikan dan mendapat persetujuan pengguna"
+       },
+       {
+        "id": "Langsung membuang yang terlihat tidak perlu"
+       },
+       {
+        "id": "Meminta izin pengguna lain"
+       },
+       {
+        "id": "Menyimpannya di rumah staf"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Barang yang tampak tidak perlu bisa penting bagi pengguna; harus dipastikan dan disetujui. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Pakaian yang terkena muntahan pengguna berpenyakit menular harus…"
+      },
+      "opts": [
+       {
+        "id": "Dicuci secara terpisah"
+       },
+       {
+        "id": "Dicampur dengan cucian lain"
+       },
+       {
+        "id": "Dijemur tanpa dicuci"
+       },
+       {
+        "id": "Disimpan dulu seminggu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pakaian terkena feses, muntahan, darah pengguna berpenyakit menular dicuci terpisah. (Modul hal. 201.)"
+      },
+      "ref": {
+       "p": 201
+      }
+     },
+     {
+      "q": {
+       "id": "Saat memasak untuk pengguna, bahan dan cara memasak ditentukan dengan mempertimbangkan…"
+      },
+      "opts": [
+       {
+        "id": "Penyakit dan alergi pengguna"
+       },
+       {
+        "id": "Selera staf"
+       },
+       {
+        "id": "Harga termurah saja"
+       },
+       {
+        "id": "Warna piring"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Memasak disesuaikan dengan kondisi fisik, penyakit, dan alergi pengguna. (Modul hal. 199.)"
+      },
+      "ref": {
+       "p": 199
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa pekerjaan rumah tangga disebut sangat individual?"
+      },
+      "opts": [
+       {
+        "id": "Karena tiap orang memiliki gaya hidup dan prinsipnya sendiri"
+       },
+       {
+        "id": "Karena hanya boleh dikerjakan sendirian"
+       },
+       {
+        "id": "Karena tidak boleh dibantu"
+       },
+       {
+        "id": "Karena sama di semua negara"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tiap orang punya gaya hidup dan prinsip sendiri, jadi caranya pun berbeda. (Modul hal. 198.)"
+      },
+      "ref": {
+       "p": 198
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "tema": []
+}

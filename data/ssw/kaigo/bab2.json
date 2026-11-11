@@ -1,0 +1,237 @@
+{
+ "schema": 1,
+ "bidang": "kaigo",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Mekanisme Mental dan Tubuh",
+   "jp": "こころとからだのしくみ"
+  },
+  "intro": {
+   "id": "Bagian 2 modul: cara kerja mental dan tubuh, lalu memahami orang yang membutuhkan perawatan (penuaan, disabilitas, demensia).",
+   "jp": "こころとからだのしくみ"
+  },
+  "pages": [
+   42,
+   95
+  ],
+  "subs": [
+   {
+    "id": "k2s1",
+    "no": 1,
+    "title": {
+     "id": "Pemahaman atas Mekanisme Mental dan Tubuh",
+     "jp": "こころとからだのしくみの{理解|りかい}"
+    },
+    "pages": [
+     42,
+     67
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Mekanisme mental"
+      },
+      {
+       "ul": [
+        "Perasaan dan cara berpikir tiap orang berbeda (sifat, pengalaman, pendidikan) dan berubah seiring usia; tampak pada **emosi** (sedih, bahagia, marah, senang) lewat ekspresi dan sikap.",
+        "**Semangat** ({意欲|いよく}): perasaan ingin melakukan sesuatu. Staf membantu pengguna memiliki semangat hidup.",
+        "**Stres**: keadaan tegang pada mental dan fisik; penyebabnya faktor fisik (bising, suhu), kondisi tubuh (lelah, kurang tidur, lapar), serta mental-sosial (khawatir, takut, hubungan sosial)."
+       ]
+      },
+      {
+       "h": "Memori dan kebutuhan"
+      },
+      {
+       "ul": [
+        "Proses memori: **menghafal → menyimpan → memanggil**.",
+        "Jenis: memori **jangka pendek** (sementara) dan **jangka panjang**; memori **episodik** (pengalaman), **semantik** (pengetahuan), **priming** (tanpa disadari), **prosedural** (diingat oleh tubuh).",
+        "**Hierarki kebutuhan Maslow** (5 tingkat, dari bawah): fisiologis → rasa aman → rasa memiliki & kasih sayang → penghargaan → aktualisasi diri."
+       ]
+      },
+      {
+       "h": "2. Homeostasis dan tanda-tanda vital"
+      },
+      {
+       "p": "**Homeostasis** menjaga kondisi tubuh tetap stabil walau lingkungan berubah (contoh: berkeringat saat panas). **Tanda-tanda vital** (バイタルサイン) = suhu tubuh, pernapasan, denyut nadi, tekanan darah."
+      },
+      {
+       "ul": [
+        "**Suhu tubuh** ({体温|たいおん}): tinggi siang hari, rendah saat tidur malam; suhu normal tiap orang berbeda. Di ketiak: ujung termometer tepat di ketiak, ketiak dirapatkan; pada pengguna lumpuh ukur di **sisi yang tidak lumpuh**.",
+        "**Pernapasan** ({呼吸|こきゅう}): dewasa normal **12–18 kali/menit**. Periksa sesak, dahak, bunyi napas. Bibir dan kuku membiru = **sianosis**.",
+        "**Denyut nadi** ({脈拍|みゃくはく}): biasanya diukur di pergelangan tangan (arteri radialis); amati frekuensi, ritme, kekuatan.",
+        "**Tekanan darah** ({血圧|けつあつ}): sistolik = saat jantung berkontraksi (tertinggi), diastolik = saat relaksasi (terendah). Naik saat kurang tidur, tegang, olahraga tiba-tiba, perubahan suhu drastis, mengejan, menahan BAK/BAB. Hipertensi berkepanjangan memicu penyakit otak dan jantung."
+       ]
+      },
+      {
+       "h": "3. Struktur tubuh dan sistem organ"
+      },
+      {
+       "ul": [
+        "Tubuh: kepala & leher, badan, ekstremitas atas, ekstremitas bawah.",
+        "**Saraf**: pusat (otak, medula spinalis) dan tepi. **Saraf otonom**: **simpatik** bekerja saat aktif/tegang (nadi cepat, tekanan darah naik), **parasimpatik** saat santai/tidur (nadi lambat, usus aktif).",
+        "**Rangka**: fungsi tulang = menopang, alat gerak, melindungi organ, menyimpan kalsium, membuat darah. Tulang belakang melengkung bentuk S.",
+        "**Otot**: menjaga postur dan bergerak. **Indra**: penglihatan, pendengaran, penciuman, pengecap, peraba.",
+        "**Pernapasan**: hidung → faring → laring → trakea → bronkus → paru-paru. Batuk lama dan dahak berubah warna = tanda tidak normal.",
+        "**Jantung** 4 ruang. Arteri membawa darah kaya oksigen dari jantung; vena mengembalikan darah. Sirkulasi **sistemik** (seluruh tubuh) dan **pulmonal** (jantung–paru).",
+        "**Pencernaan**: esofagus → lambung → usus halus (serap gizi) → usus besar (serap cairan, bentuk feses) → rektum → anus.",
+        "**Urinaria**: ginjal membuat urine → ureter → kandung kemih → uretra. **Endokrin**: kelenjar penghasil hormon.",
+        "**Kekebalan** naik dengan olahraga cukup, sering tertawa, menghangatkan tubuh, makan seimbang; turun karena usia, kurang tidur, kelelahan, olahraga berat, tekanan mental."
+       ]
+      },
+      {
+       "h": "4. Istirahat dan tidur"
+      },
+      {
+       "ul": [
+        "Tidur berkualitas: memantapkan memori, menghilangkan lelah, meningkatkan kekebalan, meredakan stres.",
+        "**Ritme sirkadian** diatur ulang oleh cahaya pagi.",
+        "Tidur **non-REM** (nyenyak, otak beristirahat) dan **REM** (dangkal, bermimpi) bergantian.",
+        "Lansia: waktu tidur lebih singkat, tidur nyenyak berkurang → sering terbangun."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 42–67. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali kondisi normal mental dan tubuh (emosi, memori, kebutuhan, tanda vital, sistem organ, tidur) agar bisa menyadari perubahan pada pengguna.",
+      "points": [
+       "Tanda vital: suhu, napas (12–18×/menit), nadi, tekanan darah.",
+       "Suhu pada pengguna lumpuh diukur di sisi sehat.",
+       "Simpatik = aktif/tegang; parasimpatik = santai.",
+       "Maslow: fisiologis → aman → kasih sayang → penghargaan → aktualisasi diri."
+      ],
+      "avoid": [
+       "Mengukur suhu di sisi tubuh yang lumpuh.",
+       "Mengabaikan bibir/kuku yang membiru (sianosis)."
+      ],
+      "exam": [
+       "Jenis memori (episodik, semantik, prosedural).",
+       "Urutan saluran pencernaan dan pernapasan.",
+       "Ciri tidur lansia."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k2s2",
+    "no": 2,
+    "title": {
+     "id": "Pemahaman atas Orang yang Membutuhkan Perawatan: Penuaan, Disabilitas, Demensia",
+     "jp": "{老化|ろうか}・{障害|しょうがい}・{認知症|にんちしょう}の{理解|りかい}"
+    },
+    "pages": [
+     68,
+     95
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Penuaan"
+      },
+      {
+       "p": "**Penuaan** ({老化|ろうか}) = menurunnya fungsi mental dan fisik seiring usia; terjadi pada semua orang, tetapi **berbeda tiap orang**, membuat lebih mudah sakit, dan dipengaruhi gaya hidup."
+      },
+      {
+       "ul": [
+        "Perubahan mental: khawatir dan tidak sabar (tidak lagi bisa melakukan yang dulu bisa), rasa kehilangan dan tidak berdaya (kematian pasangan/teman, perubahan peran) → rentan **depresi**.",
+        "Perubahan fisik: pendengaran menurun (sulit dengar nada tinggi), penglihatan menurun, fungsi napas menurun, pengecap berkurang, **mengunyah dan menelan** melemah, fungsi ginjal menurun, otot melemah (mudah jatuh), tekanan darah naik, usus melambat (mudah konstipasi).",
+        "Ciri penyakit lansia: banyak penyakit sekaligus, berlangsung lama/kronis, mudah komplikasi, **gejala sulit terlihat (atipikal)**."
+       ]
+      },
+      {
+       "h": "Gejala yang lazim dan poin perawatannya"
+      },
+      {
+       "ul": [
+        "**Dehidrasi** ({脱水|だっすい}): mulut/kulit kering, urine sedikit, nadi cepat. → beri cairan, atur suhu ruangan, minum sebelum-sesudah mandi dan olahraga. Bisa mematikan.",
+        "**Demam**: beri cairan, ukur suhu, amati gejala lain (pada lansia kadang tidak jelas).",
+        "**Konstipasi** ({便秘|べんぴ}): serat dan olahraga cukup, biasakan duduk di toilet setelah makan, pijat perut searah gerakan usus.",
+        "**Edema** (bengkak): amati lokasi dan tingkatnya; mudah timbul di sisi yang lumpuh; olahraga ringan, angkat kaki.",
+        "**Gatal**: lembapkan kulit, cegah luka garukan; koordinasi dengan tenaga medis (bisa menular).",
+        "**Susah tidur**: tata ritme hidup, berjemur pagi, olahraga secukupnya, hindari tidur siang lama.",
+        "**Hipertensi**: kurangi garam, jangan makan berlebihan, olahraga; berlanjut → arteriosklerosis → penyakit otak dan jantung."
+       ]
+      },
+      {
+       "h": "Penyakit yang lazim pada lansia"
+      },
+      {
+       "ul": [
+        "**Penyakit serebrovaskular**: pembuluh otak **tersumbat** (infark serebral) atau **pecah** (perdarahan).",
+        "**Penyakit jantung**: angina (menyempit), infark miokard (tersumbat), gagal jantung. Edema/berat naik → kurangi garam dan cairan; sesak → istirahat dengan posisi yang meringankan jantung.",
+        "**Pneumonia** dan **pneumonia aspirasi** ({誤嚥性肺炎|ごえんせいはいえん}): makanan/cairan masuk trakea. → jaga postur duduk saat makan, jangan langsung berbaring, **perawatan rongga mulut**.",
+        "**Diabetes**: tipe 2 lazim pada lansia (gaya hidup). Terapi makan, olahraga, obat. Komplikasi: retinopati, gagal ginjal, gangguan saraf; luka sulit sembuh.",
+        "**Osteoporosis**: tulang rapuh, mudah patah saat jatuh (leher femur, tulang punggung, lengan atas, radius). → kalsium, olahraga, berjemur, cegah jatuh."
+       ]
+      },
+      {
+       "h": "2. Disabilitas"
+      },
+      {
+       "p": "**ICF** memandang disabilitas bukan dari sisi negatif, melainkan sebagai bagian dari individualitas; melihat fungsi tubuh, aktivitas, partisipasi, serta faktor lingkungan dan individu."
+      },
+      {
+       "ul": [
+        "**Fisik**: gangguan pada tangan, kaki, badan; pakai alat bantu (tongkat, kursi roda, kaki prostesis).",
+        "**Penglihatan**: tidak melihat, hanya merasakan cahaya, bidang pandang sempit; makin banyak akibat diabetes.",
+        "**Pendengaran**: alat bantu dengar, komunikasi tertulis, bahasa isyarat, membaca gerak bibir.",
+        "**Bicara (afasia)**: komunikasi tertulis atau kartu bergambar.",
+        "**Jantung**: alat pacu jantung — hindari benturan di dada. **Ginjal**: dialisis — tidak berendam pada hari dialisis, lengan ber-shunt jangan bawa beban, batasi garam dan cairan.",
+        "**Pernapasan**: terapi oksigen — **jauhkan api**, siapkan baterai cadangan. **Stoma**: buang isi kantong; kulit sekitar stoma merah → lapor tenaga medis.",
+        "**Intelektual** dan **mental** (skizofrenia, gangguan suasana hati: halusinasi, delusi, depresi, manik): rawat sesuai kondisi tiap orang."
+       ]
+      },
+      {
+       "h": "3. Demensia"
+      },
+      {
+       "p": "**Demensia** ({認知症|にんちしょう}) = fungsi kognitif otak menurun sehingga menghambat aktivitas harian dan sosial. Berbeda dari lupa karena usia: pada demensia **seluruh pengalaman terlupa, terus berlanjut, tidak disadari, dan mengganggu kehidupan**."
+      },
+      {
+       "ul": [
+        "Penyebab utama: **Alzheimer** (lambat, mulai dari gangguan memori), **vaskular** (bertahap, ada lumpuh/gangguan bicara), **badan Lewy** (halusinasi visual, langkah kecil), **frontotemporal** (kepribadian berubah, pola tetap, agresif).",
+        "**Gejala inti**: gangguan memori, disorientasi (waktu, tempat, orang), disfungsi eksekutif (tidak paham prosedur), gangguan memahami dan menilai.",
+        "**BPSD** (gejala perilaku & mental): khawatir, halusinasi, delusi, emosional/agresif, berkeliaran — dipengaruhi lingkungan dan hubungan sosial."
+       ]
+      },
+      {
+       "note": "Cara merawat: berpikir dari sudut pandang pengguna; terima perkataannya tanpa membantah; dengarkan dan beri rasa tenang; gunakan kata singkat yang mudah dipahami; tata ritme hidup; jangan mudah mengubah lingkungan kamar."
+      },
+      {
+       "note": "Sumber: modul hal. 68–95. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Penuaan menurunkan fungsi tubuh dan mental secara berbeda tiap orang; kenali gejala dan penyakit lansia, jenis disabilitas, serta cara menghadapi demensia.",
+      "points": [
+       "Gejala lansia sering tidak khas (atipikal).",
+       "Dehidrasi: cairan + suhu ruangan. Konstipasi: serat, olahraga, pijat searah usus.",
+       "Pneumonia aspirasi dicegah dengan postur makan dan perawatan mulut.",
+       "Demensia: gejala inti vs BPSD.",
+       "Terapi oksigen: jauhkan api."
+      ],
+      "avoid": [
+       "Membantah atau memarahi pengguna demensia.",
+       "Sering mengubah lingkungan kamar pengguna demensia.",
+       "Membaringkan pengguna segera setelah makan."
+      ],
+      "exam": [
+       "Beda lupa karena usia dan lupa pada demensia.",
+       "4 penyakit penyebab demensia dan cirinya.",
+       "Poin perawatan dialisis, alat pacu jantung, oksigen, stoma."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

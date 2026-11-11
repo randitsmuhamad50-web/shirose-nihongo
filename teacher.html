@@ -152,8 +152,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261110t";
-import { renderSswTab } from "./js/ssw-teacher.js?v=20261110t";
+import * as FB from "./js/firebase-sync.js?v=20261111a";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261111a";
 
 const state = {
   user: null,
@@ -587,9 +587,14 @@ window.buatAkunBaru = async () => {
 };
 /* ===== Import siswa dari Excel ===== */
 const _ya = (v) => /^(ya|y|yes|1|true|aktif|v|✓|x)$/i.test(String(v ?? "").trim());
+// Kolom akses SSW di Excel → slug bidang. Kosong = tidak diatur (TIDAK otomatis diberi akses).
+const SSW_KOLOM = [["SSW Building Cleaning","building-cleaning"],["SSW Kaigo Indonesia","kaigo"],["SSW Kaigo Jepang","kaigo-jp"],["SSW Food Manufacturing","food-manufacturing"],
+  ["SSW Food Service","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
+const _tidak = (v) => /^(tidak|t|no|n|0|false|blokir)$/i.test(String(v ?? "").trim());
+function _bacaSsw(r){ const o = {}; for (const [kol, slug] of SSW_KOLOM){ const v = r[kol] ?? r[kol.toLowerCase()]; if (_ya(v)) o[slug] = true; else if (_tidak(v)) o[slug] = false; } return o; }
 window.downloadFormatSiswa = () => {
   const data = [
-    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak" },
+    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", "SSW Building Cleaning":"Ya", "SSW Kaigo Indonesia":"Ya", "SSW Kaigo Jepang":"", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
     { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak" },
   ];
   const ws = XLSX.utils.json_to_sheet(data);
@@ -602,6 +607,8 @@ window.downloadFormatSiswa = () => {
     ["- Nama (wajib): nama tampilan siswa."],
     ["- Kelas (opsional): nama kelas, misal 'Kelas A'."],
     ["- N5, N4, N3, N2, N1: isi Ya / Tidak. Ya = level dibuka untuk siswa ini. Kosong = Tidak."],
+    ["- SSW ... (per bidang): isi Ya / Tidak. Kosong = tidak diatur (ikut pengaturan kelas / bawaan; TIDAK otomatis dibuka)."],
+    ["- Email yang SUDAH terdaftar: tidak dibuat ulang. Hanya kolom akses SSW yang terisi (dan Kelas bila terisi) yang diperbarui. XP, koin, dan progres tidak disentuh."],
     [""], ["Akun dibuat di sistem login yang sama dengan website siswa & dashboard guru."],
   ]);
   inst["!cols"] = [{ wch:100 }];
@@ -625,6 +632,13 @@ window.bacaExcelSiswa = async (file) => {
       const nama = g("Nama");
       const kelas = g("Kelas");
       const aksesLevel = {}; ["n5","n4","n3","n2","n1"].forEach(l => aksesLevel[l] = _ya(r[l.toUpperCase()] ?? r[l]));
+      const ssw = _bacaSsw(r);
+      const lama = state.siswaList.find(x => (x.email||"").toLowerCase() === email);
+      if (lama && !dipakai.has(email)) {   // akun lama → hanya perbarui akses SSW / kelas
+        dipakai.add(email);
+        const adaUbah = Object.keys(ssw).length || (kelas && kelas !== (lama.kelas || ""));
+        return { baris: i + 2, email, password: "", nama: lama.nama || nama, kelas, aksesLevel: lama.aksesLevel || {}, ssw, uid: lama.uid, update: true, err: adaUbah ? "" : "Sudah terdaftar — tidak ada kolom SSW/Kelas yang diubah", hasil: "" };
+      }
       let err = "";
       if (!email && !password && !nama) return null;
       if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) err = "Email tidak valid";
@@ -634,7 +648,7 @@ window.bacaExcelSiswa = async (file) => {
       else if (sudahAda.has(email)) err = "Email sudah terdaftar";
       else if (dipakai.has(email)) err = "Email dobel di file";
       dipakai.add(email);
-      return { baris: i + 2, email, password, nama, kelas, aksesLevel, err, hasil: "" };
+      return { baris: i + 2, email, password, nama, kelas, aksesLevel, ssw, err, hasil: "" };
     }).filter(Boolean);
     document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
   } catch(e){
@@ -648,32 +662,35 @@ function renderPreviewSiswa(){
   return `
     <div style="font-size:13px; margin-bottom:8px;"><b>${list.length}</b> baris · <span style="color:var(--green);">${ok.length} siap dibuat</span> · <span style="color:var(--red);">${list.filter(x=>x.err).length} bermasalah (dilewati)</span></div>
     <div class="table-wrap" style="max-height:340px; overflow:auto;"><table>
-      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>Status</th></tr></thead>
+      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>SSW</th><th>Status</th></tr></thead>
       <tbody>${list.map(x => `<tr>
         <td>${x.baris}</td><td>${esc(x.email)}</td><td>${esc(x.nama)}</td><td>${esc(x.kelas)}</td>
         <td>${["n5","n4","n3","n2","n1"].filter(l => x.aksesLevel[l]).map(l => l.toUpperCase()).join(", ") || "-"}</td>
-        <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || "Siap")}</td>
+        <td style="font-size:12px;">${Object.entries(x.ssw || {}).map(([k, v]) => `${v ? "✓" : "✗"} ${k}`).join("<br>") || "-"}</td>
+        <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || (x.update ? "Siap: perbarui akun lama" : "Siap: akun baru"))}</td>
       </tr>`).join("")}</tbody></table></div>
     <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
-      ${ok.length ? `<button class="btn gold" id="imp-siswa-go" onclick="prosesImportSiswa()">✓ Buat ${ok.length} akun siswa</button>` : ""}
+      ${ok.length ? `<button class="btn gold" id="imp-siswa-go" onclick="prosesImportSiswa()">✓ Proses ${ok.length} baris (${ok.filter(x => !x.update).length} akun baru, ${ok.filter(x => x.update).length} diperbarui)</button>` : ""}
       <button class="btn ghost" onclick="state.importSiswa=null; renderTab()">Tutup</button>
     </div>`;
 }
 window.prosesImportSiswa = async () => {
   const list = (state.importSiswa || []).filter(x => !x.err && !x.hasil);
   if (!list.length) return;
-  if (!confirm(`Buat ${list.length} akun siswa baru?`)) return;
+  if (!confirm(`Proses ${list.length} baris? Akun lama hanya diperbarui aksesnya; progres tidak disentuh.`)) return;
   const btn = document.getElementById("imp-siswa-go");
   let n = 0, gagal = 0;
   for (const x of list){
     if (btn){ btn.disabled = true; btn.textContent = `Membuat akun ${n + gagal + 1}/${list.length}…`; }
     try {
-      await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
-      x.hasil = "✓ Akun dibuat"; n++;
+      const uid = x.update ? x.uid : await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
+      if (x.update && x.kelas) await FB.assignSiswaKeKelas([uid], x.kelas);
+      for (const [slug, v] of Object.entries(x.ssw || {})) await FB.setAksesSswBidang(uid, slug, v);
+      x.hasil = x.update ? "✓ Akses diperbarui" : "✓ Akun dibuat"; n++;
     } catch(e){ x.err = e.message || String(e); gagal++; }
     document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
   }
-  toast(`Import selesai: ${n} akun dibuat${gagal ? `, ${gagal} gagal` : ""}`);
+  toast(`Import selesai: ${n} baris diproses${gagal ? `, ${gagal} gagal` : ""}`);
   state.siswaList = await FB.listSiswa().catch(() => state.siswaList);
 };
 window.toggleStatus = async (uid, sedangNonaktif) => {

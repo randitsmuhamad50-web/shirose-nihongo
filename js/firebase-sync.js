@@ -1143,6 +1143,16 @@ export async function setAksesSsw(uid, on) {
   if (!userIsGuru()) throw new Error("Hanya guru");
   await updateDoc(doc(db, "siswa", uid), { aksesSsw: !!on });
 }
+/* Akses SSW per bidang. v: true = boleh, false = blokir, null = hapus (ikut kelas / bawaan).
+ * siswa/{uid}.aksesSswBidang.{slug}  dan  kelas/{id}.aksesSswBidang.{slug} */
+export async function setAksesSswBidang(uid, slug, v) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "siswa", uid), new FieldPath("aksesSswBidang", slug), v === null ? deleteField() : !!v);
+}
+export async function setAksesSswKelas(kelasId, slug, v) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "kelas", kelasId), new FieldPath("aksesSswBidang", slug), v === null ? deleteField() : !!v);
+}
 export async function saveSswRank(slug, data) {
   if (!currentUser) return;
   const d = { uid: currentUser.uid, slug, nama: String(data.nama || "Siswa").slice(0, 60), kelas: String(data.kelas || "").slice(0, 40),

@@ -1,0 +1,4372 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q1",
+    "title": {
+     "id": "Arti kosakata: Tubuh",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「体調」（たいちょう）?",
+       "jp": "「体調」（たいちょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "hipertensi",
+        "jp": "hipertensi"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       },
+       {
+        "id": "kondisi fisik",
+        "jp": "kondisi fisik"
+       },
+       {
+        "id": "hidung",
+        "jp": "hidung"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "体調 (たいちょう) = kondisi fisik. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "体調（たいちょう）＝ kondisi fisik"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「鼻」（はな）?",
+       "jp": "「鼻」（はな）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "hidung",
+        "jp": "hidung"
+       },
+       {
+        "id": "leher",
+        "jp": "leher"
+       },
+       {
+        "id": "norovirus",
+        "jp": "norovirus"
+       },
+       {
+        "id": "dahi",
+        "jp": "dahi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "鼻 (はな) = hidung. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "鼻（はな）＝ hidung"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「腰」（こし）?",
+       "jp": "「腰」（こし）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kesehatan",
+        "jp": "kesehatan"
+       },
+       {
+        "id": "pinggang",
+        "jp": "pinggang"
+       },
+       {
+        "id": "tumit",
+        "jp": "tumit"
+       },
+       {
+        "id": "posisi supinasi",
+        "jp": "posisi supinasi"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "腰 (こし) = pinggang. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "腰（こし）＝ pinggang"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「耳」（みみ）?",
+       "jp": "「耳」（みみ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "punggung",
+        "jp": "punggung"
+       },
+       {
+        "id": "gatal",
+        "jp": "gatal"
+       },
+       {
+        "id": "tanda-tanda vital",
+        "jp": "tanda-tanda vital"
+       },
+       {
+        "id": "telinga",
+        "jp": "telinga"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "耳 (みみ) = telinga. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "耳（みみ）＝ telinga"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「唇」（くちびる）?",
+       "jp": "「唇」（くちびる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "bibir",
+        "jp": "bibir"
+       },
+       {
+        "id": "ruam",
+        "jp": "ruam"
+       },
+       {
+        "id": "telinga",
+        "jp": "telinga"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "唇 (くちびる) = bibir. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "唇（くちびる）＝ bibir"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「喉」（のど）?",
+       "jp": "「喉」（のど）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "mual",
+        "jp": "mual"
+       },
+       {
+        "id": "tenggorokan",
+        "jp": "tenggorokan"
+       },
+       {
+        "id": "pantat",
+        "jp": "pantat"
+       },
+       {
+        "id": "punggung tangan",
+        "jp": "punggung tangan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "喉 (のど) = tenggorokan. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "喉（のど）＝ tenggorokan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「腕」（うで）?",
+       "jp": "「腕」（うで）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "batuk",
+        "jp": "batuk"
+       },
+       {
+        "id": "demam",
+        "jp": "demam"
+       },
+       {
+        "id": "lengan",
+        "jp": "lengan"
+       },
+       {
+        "id": "perut",
+        "jp": "perut"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "腕 (うで) = lengan. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "腕（うで）＝ lengan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「足底（足の裏）」（そくてい（あしのうら））?",
+       "jp": "「足底（足の裏）」（そくてい（あしのうら））の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "leher",
+        "jp": "leher"
+       },
+       {
+        "id": "posisi lateral",
+        "jp": "posisi lateral"
+       },
+       {
+        "id": "telapak kaki (dasar kaki)",
+        "jp": "telapak kaki (dasar kaki)"
+       },
+       {
+        "id": "keracunan makanan",
+        "jp": "keracunan makanan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "足底（足の裏） (そくてい（あしのうら）) = telapak kaki (dasar kaki). Sumber: daftar kosakata modul hal. 205.",
+       "jp": "足底（足の裏）（そくてい（あしのうら））＝ telapak kaki (dasar kaki)"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「背中」（せなか）?",
+       "jp": "「背中」（せなか）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "posisi pronasi",
+        "jp": "posisi pronasi"
+       },
+       {
+        "id": "lutut",
+        "jp": "lutut"
+       },
+       {
+        "id": "posisi",
+        "jp": "posisi"
+       },
+       {
+        "id": "punggung",
+        "jp": "punggung"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "背中 (せなか) = punggung. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "背中（せなか）＝ punggung"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「口」（くち）?",
+       "jp": "「口」（くち）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "telapak kaki (dasar kaki)",
+        "jp": "telapak kaki (dasar kaki)"
+       },
+       {
+        "id": "sakit, nyeri",
+        "jp": "sakit, nyeri"
+       },
+       {
+        "id": "dada",
+        "jp": "dada"
+       },
+       {
+        "id": "mulut",
+        "jp": "mulut"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "口 (くち) = mulut. Sumber: daftar kosakata modul hal. 205.",
+       "jp": "口（くち）＝ mulut"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q2",
+    "title": {
+     "id": "Arti kosakata: Posisi Tubuh",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「仰臥位」（ぎょうがい）?",
+       "jp": "「仰臥位」（ぎょうがい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "posisi supinasi",
+        "jp": "posisi supinasi"
+       },
+       {
+        "id": "berdiri",
+        "jp": "berdiri"
+       },
+       {
+        "id": "skabies",
+        "jp": "skabies"
+       },
+       {
+        "id": "hidung",
+        "jp": "hidung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "仰臥位 (ぎょうがい) = posisi supinasi. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "仰臥位（ぎょうがい）＝ posisi supinasi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「側臥位」（そくがい）?",
+       "jp": "「側臥位」（そくがい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "telapak tangan",
+        "jp": "telapak tangan"
+       },
+       {
+        "id": "posisi lateral",
+        "jp": "posisi lateral"
+       },
+       {
+        "id": "hipertensi",
+        "jp": "hipertensi"
+       },
+       {
+        "id": "jari",
+        "jp": "jari"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "側臥位 (そくがい) = posisi lateral. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "側臥位（そくがい）＝ posisi lateral"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「腹臥位」（ふくがい）?",
+       "jp": "「腹臥位」（ふくがい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ruam",
+        "jp": "ruam"
+       },
+       {
+        "id": "posisi pronasi",
+        "jp": "posisi pronasi"
+       },
+       {
+        "id": "keracunan makanan",
+        "jp": "keracunan makanan"
+       },
+       {
+        "id": "tumit",
+        "jp": "tumit"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "腹臥位 (ふくがい) = posisi pronasi. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "腹臥位（ふくがい）＝ posisi pronasi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「端座位」（たんざい）?",
+       "jp": "「端座位」（たんざい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ruam",
+        "jp": "ruam"
+       },
+       {
+        "id": "duduk tegak lurus",
+        "jp": "duduk tegak lurus"
+       },
+       {
+        "id": "tenggorokan",
+        "jp": "tenggorokan"
+       },
+       {
+        "id": "pusing",
+        "jp": "pusing"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "端座位 (たんざい) = duduk tegak lurus. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "端座位（たんざい）＝ duduk tegak lurus"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「立位」（りつい）?",
+       "jp": "「立位」（りつい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "punggung",
+        "jp": "punggung"
+       },
+       {
+        "id": "berdiri",
+        "jp": "berdiri"
+       },
+       {
+        "id": "norovirus",
+        "jp": "norovirus"
+       },
+       {
+        "id": "sisi sakit",
+        "jp": "sisi sakit"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "立位 (りつい) = berdiri. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "立位（りつい）＝ berdiri"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「椅座位（座位）」（いざい（ざい））?",
+       "jp": "「椅座位（座位）」（いざい（ざい））の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "keracunan makanan",
+        "jp": "keracunan makanan"
+       },
+       {
+        "id": "skabies",
+        "jp": "skabies"
+       },
+       {
+        "id": "pergelangan tangan",
+        "jp": "pergelangan tangan"
+       },
+       {
+        "id": "duduk kursi (duduk)",
+        "jp": "duduk kursi (duduk)"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "椅座位（座位） (いざい（ざい）) = duduk kursi (duduk). Sumber: daftar kosakata modul hal. 206.",
+       "jp": "椅座位（座位）（いざい（ざい））＝ duduk kursi (duduk)"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「体位」（たいい）?",
+       "jp": "「体位」（たいい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "telapak tangan",
+        "jp": "telapak tangan"
+       },
+       {
+        "id": "diare",
+        "jp": "diare"
+       },
+       {
+        "id": "kontraktur",
+        "jp": "kontraktur"
+       },
+       {
+        "id": "posisi",
+        "jp": "posisi"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "体位 (たいい) = posisi. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "体位（たいい）＝ posisi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「体位変換」（たいいへんかん）?",
+       "jp": "「体位変換」（たいいへんかん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kontraktur",
+        "jp": "kontraktur"
+       },
+       {
+        "id": "sisi sakit",
+        "jp": "sisi sakit"
+       },
+       {
+        "id": "ujung jari kaki",
+        "jp": "ujung jari kaki"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "体位変換 (たいいへんかん) = mengubah posisi. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "体位変換（たいいへんかん）＝ mengubah posisi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「姿勢」（しせい）?",
+       "jp": "「姿勢」（しせい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "postur",
+        "jp": "postur"
+       },
+       {
+        "id": "tanda-tanda vital",
+        "jp": "tanda-tanda vital"
+       },
+       {
+        "id": "jari",
+        "jp": "jari"
+       },
+       {
+        "id": "tumit",
+        "jp": "tumit"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "姿勢 (しせい) = postur. Sumber: daftar kosakata modul hal. 206.",
+       "jp": "姿勢（しせい）＝ postur"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q3",
+    "title": {
+     "id": "Arti kosakata: Penyakit dan Gejala",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「片麻痺」（かたまひ）?",
+       "jp": "「片麻痺」（かたまひ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "gejala",
+        "jp": "gejala"
+       },
+       {
+        "id": "posisi lateral",
+        "jp": "posisi lateral"
+       },
+       {
+        "id": "hemiplegia",
+        "jp": "hemiplegia"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "片麻痺 (かたまひ) = hemiplegia. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "片麻痺（かたまひ）＝ hemiplegia"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「便秘」（べんぴ）?",
+       "jp": "「便秘」（べんぴ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "telapak tangan",
+        "jp": "telapak tangan"
+       },
+       {
+        "id": "kepala",
+        "jp": "kepala"
+       },
+       {
+        "id": "konstipasi",
+        "jp": "konstipasi"
+       },
+       {
+        "id": "posisi",
+        "jp": "posisi"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "便秘 (べんぴ) = konstipasi. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "便秘（べんぴ）＝ konstipasi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「疥癬」（かいせん）?",
+       "jp": "「疥癬」（かいせん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ujung jari kaki",
+        "jp": "ujung jari kaki"
+       },
+       {
+        "id": "posisi supinasi",
+        "jp": "posisi supinasi"
+       },
+       {
+        "id": "skabies",
+        "jp": "skabies"
+       },
+       {
+        "id": "tanda-tanda vital",
+        "jp": "tanda-tanda vital"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "疥癬 (かいせん) = skabies. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "疥癬（かいせん）＝ skabies"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「症状」（しょうじょう）?",
+       "jp": "「症状」（しょうじょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "dagu",
+        "jp": "dagu"
+       },
+       {
+        "id": "dahi",
+        "jp": "dahi"
+       },
+       {
+        "id": "skabies",
+        "jp": "skabies"
+       },
+       {
+        "id": "gejala",
+        "jp": "gejala"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "症状 (しょうじょう) = gejala. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "症状（しょうじょう）＝ gejala"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「インフルエンザ」（いんふるえんざ）?",
+       "jp": "「インフルエンザ」（いんふるえんざ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "siku",
+        "jp": "siku"
+       },
+       {
+        "id": "influenza",
+        "jp": "influenza"
+       },
+       {
+        "id": "jari",
+        "jp": "jari"
+       },
+       {
+        "id": "norovirus",
+        "jp": "norovirus"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "インフルエンザ (いんふるえんざ) = influenza. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "インフルエンザ（いんふるえんざ）＝ influenza"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「白内障」（はくないしょう）?",
+       "jp": "「白内障」（はくないしょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kepala",
+        "jp": "kepala"
+       },
+       {
+        "id": "sisi sehat",
+        "jp": "sisi sehat"
+       },
+       {
+        "id": "pinggang",
+        "jp": "pinggang"
+       },
+       {
+        "id": "katarak",
+        "jp": "katarak"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "白内障 (はくないしょう) = katarak. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "白内障（はくないしょう）＝ katarak"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「吐き気」（はきけ）?",
+       "jp": "「吐き気」（はきけ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "jari",
+        "jp": "jari"
+       },
+       {
+        "id": "mual",
+        "jp": "mual"
+       },
+       {
+        "id": "demensia",
+        "jp": "demensia"
+       },
+       {
+        "id": "leher",
+        "jp": "leher"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "吐き気 (はきけ) = mual. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "吐き気（はきけ）＝ mual"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「発疹」（ほっしん）?",
+       "jp": "「発疹」（ほっしん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ruam",
+        "jp": "ruam"
+       },
+       {
+        "id": "bibir",
+        "jp": "bibir"
+       },
+       {
+        "id": "telapak tangan",
+        "jp": "telapak tangan"
+       },
+       {
+        "id": "mengubah posisi",
+        "jp": "mengubah posisi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "発疹 (ほっしん) = ruam. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "発疹（ほっしん）＝ ruam"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「痛い」（いたい）?",
+       "jp": "「痛い」（いたい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pusing",
+        "jp": "pusing"
+       },
+       {
+        "id": "sakit, nyeri",
+        "jp": "sakit, nyeri"
+       },
+       {
+        "id": "masuk angin",
+        "jp": "masuk angin"
+       },
+       {
+        "id": "lutut",
+        "jp": "lutut"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "痛い (いたい) = sakit, nyeri. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "痛い（いたい）＝ sakit, nyeri"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ノロウイルス」（のろういるす）?",
+       "jp": "「ノロウイルス」（のろういるす）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "norovirus",
+        "jp": "norovirus"
+       },
+       {
+        "id": "kesehatan",
+        "jp": "kesehatan"
+       },
+       {
+        "id": "telapak kaki (dasar kaki)",
+        "jp": "telapak kaki (dasar kaki)"
+       },
+       {
+        "id": "bibir",
+        "jp": "bibir"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ノロウイルス (のろういるす) = norovirus. Sumber: daftar kosakata modul hal. 207.",
+       "jp": "ノロウイルス（のろういるす）＝ norovirus"
+      }
+     }
+    ]
+   }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q1",
+    "title": {
+     "id": "Soal modul hal. 209–219",
+     "jp": "テキストの{問題|もんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、体調はどうですか。\n佐藤さん：悪くないです。\n介護職 ：これから歩く練習をしましょうか。\n佐藤さん：そうですね。\n介護職 ：杖と歩行器と、どちらを持ってきましょうか。\n佐藤さん：杖の方がいいです。\n介護職 ：わかりました。今、杖を持ってきますから、手すりにつかまってお待\nちくださいね。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：佐藤さん、体調はどうですか。\n佐藤さん：悪くないです。\n介護職 ：これから歩く練習をしましょうか。\n佐藤さん：そうですね。\n介護職 ：杖と歩行器と、どちらを持ってきましょうか。\n佐藤さん：杖の方がいいです。\n介護職 ：わかりました。今、杖を持ってきますから、手すりにつかまってお待\nちくださいね。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、体調がとてもよいので、歩く練習をします。",
+        "id": "佐藤さんは、体調がとてもよいので、歩く練習をします。"
+       },
+       {
+        "jp": "佐藤さんは、歩行器で歩く練習をします。",
+        "id": "佐藤さんは、歩行器で歩く練習をします。"
+       },
+       {
+        "jp": "佐藤さんは、杖で歩く練習をします。",
+        "id": "佐藤さんは、杖で歩く練習をします。"
+       },
+       {
+        "jp": "佐藤さんは、手すりにつかまって歩く練習をします。",
+        "id": "佐藤さんは、手すりにつかまって歩く練習をします。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、杖で歩く練習をします。 — Sato-san menjawab 杖の方がいいです (lebih baik tongkat), jadi ia berlatih berjalan dengan tongkat. Kondisinya 悪くない (tidak buruk), bukan sangat baik; pegangan hanya dipakai saat menunggu. (Buku hal. 209; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、杖で歩く練習をします。（テキスト 209ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 209
+      }
+     },
+     {
+      "q": {
+       "jp": "鈴木さん：トイレに行きたいんだけど。\n介護職 ：わかりました。いっしょに行きましょう。ベッドから起き上がれます\nか。\n鈴木さん：ゆっくりやってみるよ。\n介護職 ：あ、できましたね。 くつをはきましょう。お手伝いしましょうか。\n鈴木さん：お願い。\n介護職 ：私につかまってください。車いすに乗りましょう。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "鈴木さん：トイレに行きたいんだけど。\n介護職 ：わかりました。いっしょに行きましょう。ベッドから起き上がれます\nか。\n鈴木さん：ゆっくりやってみるよ。\n介護職 ：あ、できましたね。 くつをはきましょう。お手伝いしましょうか。\n鈴木さん：お願い。\n介護職 ：私につかまってください。車いすに乗りましょう。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、自分でトイレに行きました。",
+        "id": "鈴木さんは、自分でトイレに行きました。"
+       },
+       {
+        "jp": "鈴木さんは、自分で車いすに乗りました。",
+        "id": "鈴木さんは、自分で車いすに乗りました。"
+       },
+       {
+        "jp": "鈴木さんは、自分で起き上がりました。",
+        "id": "鈴木さんは、自分で起き上がりました。"
+       },
+       {
+        "jp": "鈴木さんは、自分でくつをはきました。",
+        "id": "鈴木さんは、自分でくつをはきました。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、自分で起き上がりました。 — Suzuki-san mencoba bangun pelan-pelan dan staf berkata あ、できましたね (sudah bisa), jadi ia bangun sendiri. Sepatu dibantu staf, dan naik kursi roda sambil berpegangan pada staf. (Buku hal. 210; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、自分で起き上がりました。（テキスト 210ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 210
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：鈴木さん、右足はどうですか。\n鈴木さん：もう、あまり痛くないよ。\n介護職 ：そうですか。じゃ、少し歩く練習をしましょう。杖をどうぞ。\n鈴木さん：ありがとう。\n介護職 ：私が声かけしますから、ゆっくり歩きましょう。\nはじめに、杖を前に出して、次に右足、そして左足ですよ。\n鈴木さん：左、杖、右だね。\n介護職 ：いいえ、（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：鈴木さん、右足はどうですか。\n鈴木さん：もう、あまり痛くないよ。\n介護職 ：そうですか。じゃ、少し歩く練習をしましょう。杖をどうぞ。\n鈴木さん：ありがとう。\n介護職 ：私が声かけしますから、ゆっくり歩きましょう。\nはじめに、杖を前に出して、次に右足、そして左足ですよ。\n鈴木さん：左、杖、右だね。\n介護職 ：いいえ、（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "杖、右足、左足ですよ",
+        "id": "杖、右足、左足ですよ"
+       },
+       {
+        "jp": "右足、杖、左足ですよ",
+        "id": "右足、杖、左足ですよ"
+       },
+       {
+        "jp": "左足、右足、杖ですよ",
+        "id": "左足、右足、杖ですよ"
+       },
+       {
+        "jp": "杖、左足、右足ですよ",
+        "id": "杖、左足、右足ですよ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jawaban: 杖、右足、左足ですよ — Staf sudah menjelaskan urutannya: 杖 (tongkat) → 右足 (kaki kanan yang sakit) → 左足. Suzuki-san salah mengulang, jadi staf mengoreksi dengan urutan yang sama. (Buku hal. 211; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：杖、右足、左足ですよ（テキスト 211ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 211
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：あまり食べていませんね。\n佐藤さん：右手が少し痛くて、はしがうまく持てません。\n介護職 ：右手が痛いんですね。お手伝いしましょうか。\n佐藤さん：大丈夫です。スプーンで食べます。持って来てください。\n介護職 ：わかりました。スプーンを持って来ますね。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：あまり食べていませんね。\n佐藤さん：右手が少し痛くて、はしがうまく持てません。\n介護職 ：右手が痛いんですね。お手伝いしましょうか。\n佐藤さん：大丈夫です。スプーンで食べます。持って来てください。\n介護職 ：わかりました。スプーンを持って来ますね。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、ご飯を全部食べました。",
+        "id": "佐藤さんは、ご飯を全部食べました。"
+       },
+       {
+        "jp": "佐藤さんは、左手ではしを持ちます。",
+        "id": "佐藤さんは、左手ではしを持ちます。"
+       },
+       {
+        "jp": "佐藤さんは、介護職に手伝ってもらって、ご飯を食べます。",
+        "id": "佐藤さんは、介護職に手伝ってもらって、ご飯を食べます。"
+       },
+       {
+        "jp": "佐藤さんは、自分で、ご飯を食べます。",
+        "id": "佐藤さんは、自分で、ご飯を食べます。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、自分で、ご飯を食べます。 — Sato-san menolak dibantu (大丈夫です) dan minta sendok: スプーンで食べます. Jadi ia makan sendiri. Ia belum menghabiskan makanan dan tidak menyebut tangan kiri. (Buku hal. 214; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、自分で、ご飯を食べます。（テキスト 214ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 214
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：鈴木さんの食事介護が終わりました。\nリーダー：お疲れ様です。鈴木さんは、食事を全部食べましたか。\n介護職 ：はい、全部食べました。\n鈴木さんは、最近、お茶やみそ汁を飲むと、むせることがあります。\nリーダー：そうですか。誤嚥に気をつけてください。\n食べた量は、必ず記録してくださいね。\n介護職 ：はい、記録します。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：鈴木さんの食事介護が終わりました。\nリーダー：お疲れ様です。鈴木さんは、食事を全部食べましたか。\n介護職 ：はい、全部食べました。\n鈴木さんは、最近、お茶やみそ汁を飲むと、むせることがあります。\nリーダー：そうですか。誤嚥に気をつけてください。\n食べた量は、必ず記録してくださいね。\n介護職 ：はい、記録します。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、食事を残しました。",
+        "id": "鈴木さんは、食事を残しました。"
+       },
+       {
+        "jp": "鈴木さんは、みそ汁を飲むとき、いつもむせています。",
+        "id": "鈴木さんは、みそ汁を飲むとき、いつもむせています。"
+       },
+       {
+        "jp": "鈴木さんは、食べた量を記録します。",
+        "id": "鈴木さんは、食べた量を記録します。"
+       },
+       {
+        "jp": "鈴木さんは、お茶を飲むと、ときどきむせます。",
+        "id": "鈴木さんは、お茶を飲むと、ときどきむせます。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、お茶を飲むと、ときどきむせます。 — むせることがあります = kadang-kadang tersedak, saat minum teh atau sup miso. Makanan habis semua; yang mencatat jumlah makan adalah staf, bukan Suzuki-san. (Buku hal. 215; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、お茶を飲むと、ときどきむせます。（テキスト 215ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 215
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、食事は終わりましたね。もう少し飲み物はいかがですか。\n佐藤さん：はい、いただきます。\n介護職 ：冷たい麦茶をお持ちしましょうか。\n佐藤さん：いいえ、温かい紅茶が飲みたいです。\n介護職 ：わかりました。じゃ、（　　　）。\n佐藤さん：ありがとう。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：佐藤さん、食事は終わりましたね。もう少し飲み物はいかがですか。\n佐藤さん：はい、いただきます。\n介護職 ：冷たい麦茶をお持ちしましょうか。\n佐藤さん：いいえ、温かい紅茶が飲みたいです。\n介護職 ：わかりました。じゃ、（　　　）。\n佐藤さん：ありがとう。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "冷たい麦茶を持って来ますね",
+        "id": "冷たい麦茶を持って来ますね"
+       },
+       {
+        "jp": "温かい麦茶を持って来ますね",
+        "id": "温かい麦茶を持って来ますね"
+       },
+       {
+        "jp": "温かい紅茶を持って来ますね",
+        "id": "温かい紅茶を持って来ますね"
+       },
+       {
+        "jp": "冷たい紅茶を持って来ますね",
+        "id": "冷たい紅茶を持って来ますね"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 温かい紅茶を持って来ますね — Sato-san berkata 温かい紅茶が飲みたいです (ingin teh hitam hangat), jadi staf membawakan teh hitam hangat. (Buku hal. 216; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：温かい紅茶を持って来ますね（テキスト 216ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 216
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、パジャマに着替える前にお尻をきれいにしましょうか。\n佐藤さん：そうですね。\n介護職 ：じゃ、ズボンを下げますね。\n佐藤さん：はい、お願いします。\n介護職 ：お尻がちょっと赤くなっていますね。痛くないですか。\n佐藤さん：はい。少し痛いです。\n介護職 ：そうですか。看護職に連絡しておきますね。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：佐藤さん、パジャマに着替える前にお尻をきれいにしましょうか。\n佐藤さん：そうですね。\n介護職 ：じゃ、ズボンを下げますね。\n佐藤さん：はい、お願いします。\n介護職 ：お尻がちょっと赤くなっていますね。痛くないですか。\n佐藤さん：はい。少し痛いです。\n介護職 ：そうですか。看護職に連絡しておきますね。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、パジャマに着替えました。",
+        "id": "佐藤さんは、パジャマに着替えました。"
+       },
+       {
+        "jp": "佐藤さんは、お尻が痛いです。",
+        "id": "佐藤さんは、お尻が痛いです。"
+       },
+       {
+        "jp": "佐藤さんは、自分でズボンを下げました。",
+        "id": "佐藤さんは、自分でズボンを下げました。"
+       },
+       {
+        "jp": "佐藤さんは、自分でお尻を拭きました。",
+        "id": "佐藤さんは、自分でお尻を拭きました。"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、お尻が痛いです。 — Ditanya 痛くないですか, Sato-san menjawab 少し痛いです: bokongnya sakit. Ia belum berganti piyama, dan celana diturunkan oleh staf. (Buku hal. 218; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、お尻が痛いです。（テキスト 218ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 218
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：鈴木さん、おかえりなさい。散歩はどうでしたか。\n鈴木さん：うん。外は涼しくて気持ちがよかったよ。\n介護職 ：それはよかったですね。これから昼ご飯ですからトイレに行きません\nか。\n鈴木さん：今はまだ行きたくないよ。\n介護職 ：そうですか。でも、食事の前に行けば安心ですよ。\n鈴木さん：そうか。じゃ、行っておこう。\n介護職 ：はい。わかりました。\n\n［問題］鈴木さんは、この後すぐに何をしますか。",
+       "id": "介護職 ：鈴木さん、おかえりなさい。散歩はどうでしたか。\n鈴木さん：うん。外は涼しくて気持ちがよかったよ。\n介護職 ：それはよかったですね。これから昼ご飯ですからトイレに行きません\nか。\n鈴木さん：今はまだ行きたくないよ。\n介護職 ：そうですか。でも、食事の前に行けば安心ですよ。\n鈴木さん：そうか。じゃ、行っておこう。\n介護職 ：はい。わかりました。\n\n［Soal］Apa yang dilakukan Suzuki-san segera setelah ini?"
+      },
+      "opts": [
+       {
+        "jp": "手を洗います。",
+        "id": "手を洗います。"
+       },
+       {
+        "jp": "ご飯を食べます。",
+        "id": "ご飯を食べます。"
+       },
+       {
+        "jp": "トイレに行きます。",
+        "id": "トイレに行きます。"
+       },
+       {
+        "jp": "散歩に行きます。",
+        "id": "散歩に行きます。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: トイレに行きます。 — Awalnya ia belum mau, tetapi setelah dibujuk ia berkata じゃ、行っておこう (kalau begitu saya pergi dulu) → ke toilet sebelum makan siang. (Buku hal. 219; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：トイレに行きます。（テキスト 219ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 219
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q2",
+    "title": {
+     "id": "Soal modul hal. 220–229",
+     "jp": "テキストの{問題|もんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "jp": "介護職 ：一人で便座に座れますか。\n佐藤さん：はい、大丈夫です。\nこのボタンは何ですか。\n介護職 ：呼び出しボタンです。職員を呼ぶとき、使います。\n私は外にいます。\n排泄が終わったら（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：一人で便座に座れますか。\n佐藤さん：はい、大丈夫です。\nこのボタンは何ですか。\n介護職 ：呼び出しボタンです。職員を呼ぶとき、使います。\n私は外にいます。\n排泄が終わったら（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "ボタンを押して、ドアを開けてください",
+        "id": "ボタンを押して、ドアを開けてください"
+       },
+       {
+        "jp": "ボタンを押して、ドアを閉めてください",
+        "id": "ボタンを押して、ドアを閉めてください"
+       },
+       {
+        "jp": "ボタンを押して、水を出してください",
+        "id": "ボタンを押して、水を出してください"
+       },
+       {
+        "jp": "ボタンを押して、知らせてください",
+        "id": "ボタンを押して、知らせてください"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: ボタンを押して、知らせてください — 呼び出しボタン adalah tombol untuk memanggil staf. Staf menunggu di luar, jadi setelah selesai pengguna menekan tombol untuk memberi tahu (知らせてください). (Buku hal. 220; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：ボタンを押して、知らせてください（テキスト 220ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 220
+      }
+     },
+     {
+      "q": {
+       "jp": "鈴木さん：きょうは寒いね。セーターを着よう。\n介護職 ：わかりました。どのセーターを着ますか。\n鈴木さん：その黒いセーターがいいね。\n介護職 ：きのう、奥さんが持って来たセーターですね。\n鈴木さん：うん、誕生日に娘がくれたんだよ。\n介護職 ：そうですか。いいですね。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "鈴木さん：きょうは寒いね。セーターを着よう。\n介護職 ：わかりました。どのセーターを着ますか。\n鈴木さん：その黒いセーターがいいね。\n介護職 ：きのう、奥さんが持って来たセーターですね。\n鈴木さん：うん、誕生日に娘がくれたんだよ。\n介護職 ：そうですか。いいですね。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、奥さんにセーターをもらいました。",
+        "id": "鈴木さんは、奥さんにセーターをもらいました。"
+       },
+       {
+        "jp": "鈴木さんは、きょう黒いセータ―を着ます。",
+        "id": "鈴木さんは、きょう黒いセータ―を着ます。"
+       },
+       {
+        "jp": "介護職は、鈴木さんがきょう着るセータ―を選びました。",
+        "id": "介護職は、鈴木さんがきょう着るセータ―を選びました。"
+       },
+       {
+        "jp": "きのう、娘さんがセーターを持って来ました。",
+        "id": "きのう、娘さんがセーターを持って来ました。"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、きょう黒いセータ―を着ます。 — Suzuki-san sendiri memilih: その黒いセーターがいいね → hari ini ia memakai sweter hitam. Sweter itu hadiah dari putrinya dan dibawa istrinya kemarin. (Buku hal. 222; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、きょう黒いセータ―を着ます。（テキスト 222ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 222
+      }
+     },
+     {
+      "q": {
+       "jp": "佐藤さん：歯を磨いたけれど、きちんとできたか見てください。\n介護職 ：はい、わかりました。口を開けてください。左側に食べ物が残ってい\nますよ。\n佐藤さん：すみませんが、取ってください。\n介護職 ：はい、じゃ、取りますね。\nきれいになりましたよ。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "佐藤さん：歯を磨いたけれど、きちんとできたか見てください。\n介護職 ：はい、わかりました。口を開けてください。左側に食べ物が残ってい\nますよ。\n佐藤さん：すみませんが、取ってください。\n介護職 ：はい、じゃ、取りますね。\nきれいになりましたよ。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、歯磨きをしませんでした。",
+        "id": "佐藤さんは、歯磨きをしませんでした。"
+       },
+       {
+        "jp": "佐藤さんは、きちんと歯磨きができました。",
+        "id": "佐藤さんは、きちんと歯磨きができました。"
+       },
+       {
+        "jp": "佐藤さんが、自分で口の中に残った食べ物を取りました。",
+        "id": "佐藤さんが、自分で口の中に残った食べ物を取りました。"
+       },
+       {
+        "jp": "介護職が、佐藤さんの口の中に残った食べ物を取りました。",
+        "id": "介護職が、佐藤さんの口の中に残った食べ物を取りました。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 介護職が、佐藤さんの口の中に残った食べ物を取りました。 — Sato-san meminta 取ってください dan staf menjawab じゃ、取りますね: staf yang mengambil sisa makanan di mulut. (Buku hal. 223; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：介護職が、佐藤さんの口の中に残った食べ物を取りました。（テキスト 223ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 223
+      }
+     },
+     {
+      "q": {
+       "jp": "佐藤さん：きょうは、歯磨きを止めておきます。歯が痛いんです。\n介護職 ：歯が痛いんですか。いつからですか。\n佐藤さん：夜中から痛くて、よく眠れませんでした。\n介護職 ：それはいけませんね。歯医者に診察してもらいますか。\n佐藤さん：はい。\n介護職 ：じゃ、予約しますね。看護職に連絡します。\n佐藤さん：お願いします。\n\n［問題］佐藤さんは、どうして歯磨きをしませんか。",
+       "id": "佐藤さん：きょうは、歯磨きを止めておきます。歯が痛いんです。\n介護職 ：歯が痛いんですか。いつからですか。\n佐藤さん：夜中から痛くて、よく眠れませんでした。\n介護職 ：それはいけませんね。歯医者に診察してもらいますか。\n佐藤さん：はい。\n介護職 ：じゃ、予約しますね。看護職に連絡します。\n佐藤さん：お願いします。\n\n［Soal］Mengapa Sato-san tidak menggosok gigi?"
+      },
+      "opts": [
+       {
+        "jp": "歯医者に診てもらうから。",
+        "id": "歯医者に診てもらうから。"
+       },
+       {
+        "jp": "歯医者を予約するから。",
+        "id": "歯医者を予約するから。"
+       },
+       {
+        "jp": "歯が痛いから。",
+        "id": "歯が痛いから。"
+       },
+       {
+        "jp": "よく眠れなかったから。",
+        "id": "よく眠れなかったから。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 歯が痛いから。 — Ia berkata 歯が痛いんです (gigi saya sakit). Dokter gigi dan janji temu adalah tindak lanjutnya, bukan alasannya. (Buku hal. 224; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：歯が痛いから。（テキスト 224ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 224
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、歯磨きは終わりましたか。\n佐藤さん：磨いたけれど、きれいになったかどうか見てほしいです。\n介護職 ：はい、わかりました。\n口をあけてください。左側に食べ物が残っていますよ。\n佐藤さん：すみません。取ってください。\n介護職 ：（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：佐藤さん、歯磨きは終わりましたか。\n佐藤さん：磨いたけれど、きれいになったかどうか見てほしいです。\n介護職 ：はい、わかりました。\n口をあけてください。左側に食べ物が残っていますよ。\n佐藤さん：すみません。取ってください。\n介護職 ：（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "はい、わかりました",
+        "id": "はい、わかりました"
+       },
+       {
+        "jp": "うがいをしましょう",
+        "id": "うがいをしましょう"
+       },
+       {
+        "jp": "歯ブラシを取り替えましょうか",
+        "id": "歯ブラシを取り替えましょうか"
+       },
+       {
+        "jp": "右側はきれいですよ",
+        "id": "右側はきれいですよ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jawaban: はい、わかりました — Pengguna meminta tolong (取ってください), jadi jawaban yang wajar adalah menerima permintaan: はい、わかりました. (Buku hal. 225; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：はい、わかりました（テキスト 225ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 225
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、お風呂に入りましょうか。\n佐藤さん：きょうは、お風呂に入りたくないです。\n介護職 ：どうしましたか。ご気分が悪いですか。\n佐藤さん：気分は悪くないけど、ちょっと腰が痛いです。服を脱ぐのが大変です。\n介護職 ：着替えをお手伝いしますから、お風呂に入りませんか。気持ちがいい\nですよ。\n佐藤さん：そうですね。じゃ、入ります。\n介護職 ：あしたも腰が痛かったら、病院を予約しましょうか。\n佐藤さん：そうですね。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：佐藤さん、お風呂に入りましょうか。\n佐藤さん：きょうは、お風呂に入りたくないです。\n介護職 ：どうしましたか。ご気分が悪いですか。\n佐藤さん：気分は悪くないけど、ちょっと腰が痛いです。服を脱ぐのが大変です。\n介護職 ：着替えをお手伝いしますから、お風呂に入りませんか。気持ちがいい\nですよ。\n佐藤さん：そうですね。じゃ、入ります。\n介護職 ：あしたも腰が痛かったら、病院を予約しましょうか。\n佐藤さん：そうですね。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、きょうは気分が悪いです。",
+        "id": "佐藤さんは、きょうは気分が悪いです。"
+       },
+       {
+        "jp": "佐藤さんは、これから病院へ行きます。",
+        "id": "佐藤さんは、これから病院へ行きます。"
+       },
+       {
+        "jp": "佐藤さんは、これからお風呂に入ります。",
+        "id": "佐藤さんは、これからお風呂に入ります。"
+       },
+       {
+        "jp": "佐藤さんは、自分で服を脱ぎます。",
+        "id": "佐藤さんは、自分で服を脱ぎます。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、これからお風呂に入ります。 — Setelah staf menawarkan bantuan ganti baju, Sato-san berkata じゃ、入ります → ia akan mandi. Ia tidak merasa tidak enak badan; rumah sakit baru dipesan bila besok masih sakit. (Buku hal. 227; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、これからお風呂に入ります。（テキスト 227ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 227
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：鈴木さん、体調はいかがですか。\n鈴木さん：まだ、背中がかゆいよ。\n介護職 ：ちょっと見てもいいですか。きのうより赤いですね。\nあとで、看護職に見てもらいましょう。\nきょうも、からだを拭きましょうか。\n鈴木さん：嫌だよ。お風呂に入りたいよ。\n介護職 ：そうですか。看護職に聞いてみますね。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：鈴木さん、体調はいかがですか。\n鈴木さん：まだ、背中がかゆいよ。\n介護職 ：ちょっと見てもいいですか。きのうより赤いですね。\nあとで、看護職に見てもらいましょう。\nきょうも、からだを拭きましょうか。\n鈴木さん：嫌だよ。お風呂に入りたいよ。\n介護職 ：そうですか。看護職に聞いてみますね。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、背中が痛いです。",
+        "id": "鈴木さんは、背中が痛いです。"
+       },
+       {
+        "jp": "鈴木さんの背中は、きのうより、きょうのほうが、赤いです。",
+        "id": "鈴木さんの背中は、きのうより、きょうのほうが、赤いです。"
+       },
+       {
+        "jp": "鈴木さんは、お風呂に入れないので、からだを拭きます。",
+        "id": "鈴木さんは、お風呂に入れないので、からだを拭きます。"
+       },
+       {
+        "jp": "鈴木さんは、きょう、お風呂に入ります。",
+        "id": "鈴木さんは、きょう、お風呂に入ります。"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jawaban: 鈴木さんの背中は、きのうより、きょうのほうが、赤いです。 — Staf berkata きのうより赤いですね: punggung lebih merah daripada kemarin. Keluhannya gatal (かゆい), bukan sakit; mandi atau tidak masih ditanyakan ke perawat. (Buku hal. 228; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんの背中は、きのうより、きょうのほうが、赤いです。（テキスト 228ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 228
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、きょうは入浴の日です。\n体調はいかがですか。\n佐藤さん：きのうは、少し咳が出ました。でも、きょうは大丈夫です。\n先週から、髪を洗っていないので、頭がかゆいです。\n介護職 ：わかりました。きょうは、髪をしっかり洗いましょう。\nじゃ、行きましょう。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：佐藤さん、きょうは入浴の日です。\n体調はいかがですか。\n佐藤さん：きのうは、少し咳が出ました。でも、きょうは大丈夫です。\n先週から、髪を洗っていないので、頭がかゆいです。\n介護職 ：わかりました。きょうは、髪をしっかり洗いましょう。\nじゃ、行きましょう。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、きょう、体調が悪いです。",
+        "id": "佐藤さんは、きょう、体調が悪いです。"
+       },
+       {
+        "jp": "佐藤さんは、きょう、咳が出ています。",
+        "id": "佐藤さんは、きょう、咳が出ています。"
+       },
+       {
+        "jp": "佐藤さんは、きのう、髪を洗いました。",
+        "id": "佐藤さんは、きのう、髪を洗いました。"
+       },
+       {
+        "jp": "佐藤さんは、きょう、髪を洗います。",
+        "id": "佐藤さんは、きょう、髪を洗います。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、きょう、髪を洗います。 — Staf berkata きょうは、髪をしっかり洗いましょう: hari ini keramas. Batuk terjadi kemarin; hari ini kondisinya baik. (Buku hal. 229; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、きょう、髪を洗います。（テキスト 229ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 229
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q3",
+    "title": {
+     "id": "Soal modul hal. 230–238",
+     "jp": "テキストの{問題|もんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "jp": "介護職 ：お湯の温度はいかがですか。\n鈴木さん：ちょっとぬるいよ。もっと熱いお湯のほうがいいよ。\n介護職 ：（　　　）。\n鈴木さん：ちょうどいい温度になったよ。ありがとう。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：お湯の温度はいかがですか。\n鈴木さん：ちょっとぬるいよ。もっと熱いお湯のほうがいいよ。\n介護職 ：（　　　）。\n鈴木さん：ちょうどいい温度になったよ。ありがとう。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "ちょうどいい温度でよかったです",
+        "id": "ちょうどいい温度でよかったです"
+       },
+       {
+        "jp": "少し熱いですか。ちょっとぬるくしますね",
+        "id": "少し熱いですか。ちょっとぬるくしますね"
+       },
+       {
+        "jp": "もう少しお風呂に入りたいですか",
+        "id": "もう少しお風呂に入りたいですか"
+       },
+       {
+        "jp": "少し熱くしますね",
+        "id": "少し熱くしますね"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 少し熱くしますね — Suzuki-san berkata ぬるい (kurang panas) dan ingin lebih panas, jadi staf menjawab 少し熱くしますね. Setelah itu suhunya pas. (Buku hal. 230; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：少し熱くしますね（テキスト 230ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 230
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：鈴木さん、体調はいかがですか。\n鈴木さん：大丈夫だよ。でも、ちょっと汗をかいた。\n介護職 ：そうですか。からだを拭きましょうか。\n鈴木さん：お願いするよ。\n介護職 ：わかりました。部屋の温度はどうですか。\n鈴木さん：ちょっと寒いよ。\n介護職 ：そうですか。（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：鈴木さん、体調はいかがですか。\n鈴木さん：大丈夫だよ。でも、ちょっと汗をかいた。\n介護職 ：そうですか。からだを拭きましょうか。\n鈴木さん：お願いするよ。\n介護職 ：わかりました。部屋の温度はどうですか。\n鈴木さん：ちょっと寒いよ。\n介護職 ：そうですか。（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "クーラーをつけますね",
+        "id": "クーラーをつけますね"
+       },
+       {
+        "jp": "窓を開けますね",
+        "id": "窓を開けますね"
+       },
+       {
+        "jp": "エアコンの温度を少し上げますね",
+        "id": "エアコンの温度を少し上げますね"
+       },
+       {
+        "jp": "カーテンを開けますね",
+        "id": "カーテンを開けますね"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: エアコンの温度を少し上げますね — Suzuki-san berkata ちょっと寒いよ (agak dingin), jadi staf menaikkan suhu AC. Menyalakan pendingin atau membuka jendela membuat makin dingin. (Buku hal. 231; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：エアコンの温度を少し上げますね（テキスト 231ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 231
+      }
+     },
+     {
+      "q": {
+       "jp": "リーダー：きょうは鈴木さんの入浴の日です。鈴木さんの入浴介護をお願いしま\nす。\n介護職 ：はい。でも、鈴木さんは、きのう、少し咳が出ると言いました。\n大丈夫ですか。\nリーダー：看護職に確認してもらいましたから大丈夫です。でも、鈴木さんに\n体調を聞いてください。\n介護職 ：はい、（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "リーダー：きょうは鈴木さんの入浴の日です。鈴木さんの入浴介護をお願いしま\nす。\n介護職 ：はい。でも、鈴木さんは、きのう、少し咳が出ると言いました。\n大丈夫ですか。\nリーダー：看護職に確認してもらいましたから大丈夫です。でも、鈴木さんに\n体調を聞いてください。\n介護職 ：はい、（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "看護職に確認します",
+        "id": "看護職に確認します"
+       },
+       {
+        "jp": "リーダーに確認します",
+        "id": "リーダーに確認します"
+       },
+       {
+        "jp": "鈴木さんに確認します",
+        "id": "鈴木さんに確認します"
+       },
+       {
+        "jp": "介護職に確認します",
+        "id": "介護職に確認します"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 鈴木さんに確認します — Leader meminta: 鈴木さんに体調を聞いてください (tanyakan kondisi ke Suzuki-san). Jadi jawabannya 鈴木さんに確認します. (Buku hal. 232; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんに確認します（テキスト 232ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 232
+      }
+     },
+     {
+      "q": {
+       "jp": "佐藤さん：きょうは、いい天気でしたね。\n介護職 ：はい、洗濯物をたくさん干しました。\nおしぼりも、タオルも、たくさんあります。\n佐藤さん、いっしょにおしぼりをたたみませんか。\n佐藤さん：ええ、おしぼりは、小さくたためばいいですか。\n介護職 ：はい、そうです。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "佐藤さん：きょうは、いい天気でしたね。\n介護職 ：はい、洗濯物をたくさん干しました。\nおしぼりも、タオルも、たくさんあります。\n佐藤さん、いっしょにおしぼりをたたみませんか。\n佐藤さん：ええ、おしぼりは、小さくたためばいいですか。\n介護職 ：はい、そうです。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、洗濯物を干します。",
+        "id": "佐藤さんは、洗濯物を干します。"
+       },
+       {
+        "jp": "佐藤さんは、おしぼりとタオルを干します。",
+        "id": "佐藤さんは、おしぼりとタオルを干します。"
+       },
+       {
+        "jp": "佐藤さんは、おしぼりとタオルをたたみます。",
+        "id": "佐藤さんは、おしぼりとタオルをたたみます。"
+       },
+       {
+        "jp": "佐藤さんは、おしぼりをたたみます。",
+        "id": "佐藤さんは、おしぼりをたたみます。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、おしぼりをたたみます。 — Staf mengajak いっしょにおしぼりをたたみませんか dan Sato-san setuju: ia melipat oshibori (handuk kecil). Yang menjemur adalah staf. (Buku hal. 234; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、おしぼりをたたみます。（テキスト 234ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 234
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、あまり食べていませんね。\n佐藤さん：おいしくないんです。\n介護職 ：そうですか。\n佐藤さんは、料理が上手でしたね。\nあしたの昼ご飯を、いっしょに作りましょうか。\n佐藤さん：うれしい。私は野菜の煮物がとても上手です。焼き魚も作りましょう。\n介護職 ：そうですね。私も楽しみです。\n\n［問題］会話の内容で、正しいものを選んでください。",
+       "id": "介護職 ：佐藤さん、あまり食べていませんね。\n佐藤さん：おいしくないんです。\n介護職 ：そうですか。\n佐藤さんは、料理が上手でしたね。\nあしたの昼ご飯を、いっしょに作りましょうか。\n佐藤さん：うれしい。私は野菜の煮物がとても上手です。焼き魚も作りましょう。\n介護職 ：そうですね。私も楽しみです。\n\n［Soal］Pilih pernyataan yang benar sesuai isi percakapan."
+      },
+      "opts": [
+       {
+        "jp": "あしたの昼ご飯は、佐藤さんが一人で作ります。",
+        "id": "あしたの昼ご飯は、佐藤さんが一人で作ります。"
+       },
+       {
+        "jp": "あしたの昼ご飯は、介護職が作ります。",
+        "id": "あしたの昼ご飯は、介護職が作ります。"
+       },
+       {
+        "jp": "あしたの昼ご飯は、野菜の煮物を作ります。",
+        "id": "あしたの昼ご飯は、野菜の煮物を作ります。"
+       },
+       {
+        "jp": "あしたの昼ご飯は、魚の煮付けを作ります。",
+        "id": "あしたの昼ご飯は、魚の煮付けを作ります。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: あしたの昼ご飯は、野菜の煮物を作ります。 — Mereka akan memasak bersama. Sato-san menyebut 野菜の煮物 (sayur rebus berbumbu) dan 焼き魚 (ikan bakar), bukan 魚の煮付け. (Buku hal. 235; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：あしたの昼ご飯は、野菜の煮物を作ります。（テキスト 235ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 235
+      }
+     },
+     {
+      "q": {
+       "jp": "介護職 ：佐藤さん、おはようございます。\n佐藤さん：おはようございます。\n介護職 ：ご気分はいかがですか。\n佐藤さん：悪くないですよ。\n介護職 ：よかったです。いいお天気ですね。\n窓を開けて、換気をしましょうか。\n佐藤さん：そうですねえ。でも、今ちょっと寒いです。\n介護職 ：（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "介護職 ：佐藤さん、おはようございます。\n佐藤さん：おはようございます。\n介護職 ：ご気分はいかがですか。\n佐藤さん：悪くないですよ。\n介護職 ：よかったです。いいお天気ですね。\n窓を開けて、換気をしましょうか。\n佐藤さん：そうですねえ。でも、今ちょっと寒いです。\n介護職 ：（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "じゃ、今窓を開けますね",
+        "id": "じゃ、今窓を開けますね"
+       },
+       {
+        "jp": "じゃ、今換気しますね",
+        "id": "じゃ、今換気しますね"
+       },
+       {
+        "jp": "じゃ、佐藤さんが食堂に行っているときに、窓を閉めますね",
+        "id": "じゃ、佐藤さんが食堂に行っているときに、窓を閉めますね"
+       },
+       {
+        "jp": "じゃ、佐藤さんが食堂に行っているときに、換気をしますね",
+        "id": "じゃ、佐藤さんが食堂に行っているときに、換気をしますね"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: じゃ、佐藤さんが食堂に行っているときに、換気をしますね — Sato-san merasa agak dingin sekarang, jadi ventilasi dilakukan saat ia berada di ruang makan. (Buku hal. 236; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：じゃ、佐藤さんが食堂に行っているときに、換気をしますね（テキスト 236ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 236
+      }
+     },
+     {
+      "q": {
+       "jp": "鈴木さん：きょうは洗濯物がたくさんあるね。\n介護職 ：はい。きょうは、パジャマを洗濯する日なんです。\n鈴木さん：大変だね。私は洗濯物をたたむのが上手だよ。\n介護職 ：そうですか。（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "鈴木さん：きょうは洗濯物がたくさんあるね。\n介護職 ：はい。きょうは、パジャマを洗濯する日なんです。\n鈴木さん：大変だね。私は洗濯物をたたむのが上手だよ。\n介護職 ：そうですか。（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "じゃ、お手伝いしましょうか",
+        "id": "じゃ、お手伝いしましょうか"
+       },
+       {
+        "jp": "じゃ、あした、パジャマを洗濯しましょう",
+        "id": "じゃ、あした、パジャマを洗濯しましょう"
+       },
+       {
+        "jp": "じゃ、洗濯物のたたみ方を教えてもらえませんか",
+        "id": "じゃ、洗濯物のたたみ方を教えてもらえませんか"
+       },
+       {
+        "jp": "じゃ、洗濯のやり方を教えてもらえませんか",
+        "id": "じゃ、洗濯のやり方を教えてもらえませんか"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: じゃ、洗濯物のたたみ方を教えてもらえませんか — Suzuki-san berkata pandai melipat cucian. Staf memanfaatkan kemampuannya: たたみ方を教えてもらえませんか (bisakah ajari cara melipat). (Buku hal. 237; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：じゃ、洗濯物のたたみ方を教えてもらえませんか（テキスト 237ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 237
+      }
+     },
+     {
+      "q": {
+       "jp": "佐藤さん：テーブルを拭きましたよ。\n介護職 ：お手伝いありがとうございます。\n佐藤さん：どういたしまして。きれいになると、気持ちがいいですから。\n介護職 ：そうですね。（　　　）。\n\n［問題］（　　）の中に入ることばを選んでください。",
+       "id": "佐藤さん：テーブルを拭きましたよ。\n介護職 ：お手伝いありがとうございます。\n佐藤さん：どういたしまして。きれいになると、気持ちがいいですから。\n介護職 ：そうですね。（　　　）。\n\n［Soal］Pilih kalimat yang tepat untuk mengisi bagian kosong （　　）."
+      },
+      "opts": [
+       {
+        "jp": "テーブルを拭いてください",
+        "id": "テーブルを拭いてください"
+       },
+       {
+        "jp": "テーブルが汚れていますよ",
+        "id": "テーブルが汚れていますよ"
+       },
+       {
+        "jp": "テーブルをきれいにしましょう",
+        "id": "テーブルをきれいにしましょう"
+       },
+       {
+        "jp": "テーブルがきれいになりましたね",
+        "id": "テーブルがきれいになりましたね"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: テーブルがきれいになりましたね — Meja sudah dilap dan Sato-san senang karena bersih. Staf menyetujui: テーブルがきれいになりましたね. (Buku hal. 238; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：テーブルがきれいになりましたね（テキスト 238ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 238
+      }
+     }
+    ]
+   },
+   {
+    "id": "j2s1-q",
+    "title": {
+     "id": "Arti kosakata: Perawatan untuk Berpindah",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「介護職」（かいごしょく）?",
+       "jp": "「介護職」（かいごしょく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berganti pakaian",
+        "jp": "berganti pakaian"
+       },
+       {
+        "id": "melipat",
+        "jp": "melipat"
+       },
+       {
+        "id": "bak mandi",
+        "jp": "bak mandi"
+       },
+       {
+        "id": "staf perawat lansia",
+        "jp": "staf perawat lansia"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "介護職 (かいごしょく) = staf perawat lansia. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "介護職（かいごしょく）＝ staf perawat lansia"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「離床」（りしょう）?",
+       "jp": "「離床」（りしょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "beranjak dari tempat tidur",
+        "jp": "beranjak dari tempat tidur"
+       },
+       {
+        "id": "feses",
+        "jp": "feses"
+       },
+       {
+        "id": "kamar mandi",
+        "jp": "kamar mandi"
+       },
+       {
+        "id": "keinginan berkemih",
+        "jp": "keinginan berkemih"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "離床 (りしょう) = beranjak dari tempat tidur. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "離床（りしょう）＝ beranjak dari tempat tidur"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「歩行器」（ほこうき）?",
+       "jp": "「歩行器」（ほこうき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berkumur",
+        "jp": "berkumur"
+       },
+       {
+        "id": "lap tangan basah",
+        "jp": "lap tangan basah"
+       },
+       {
+        "id": "mengeringkan",
+        "jp": "mengeringkan"
+       },
+       {
+        "id": "alat bantu jalan",
+        "jp": "alat bantu jalan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "歩行器 (ほこうき) = alat bantu jalan. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "歩行器（ほこうき）＝ alat bantu jalan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「支える」（ささえる）?",
+       "jp": "「支える」（ささえる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pekerjaan rumah",
+        "jp": "pekerjaan rumah"
+       },
+       {
+        "id": "teh hijau",
+        "jp": "teh hijau"
+       },
+       {
+        "id": "mendukung",
+        "jp": "mendukung"
+       },
+       {
+        "id": "keinginan berkemih",
+        "jp": "keinginan berkemih"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "支える (ささえる) = mendukung. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "支える（ささえる）＝ mendukung"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「つかまる」?",
+       "jp": "「つかまる」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "teh hijau",
+        "jp": "teh hijau"
+       },
+       {
+        "id": "pergantian udara",
+        "jp": "pergantian udara"
+       },
+       {
+        "id": "kekentalan",
+        "jp": "kekentalan"
+       },
+       {
+        "id": "berpegangan",
+        "jp": "berpegangan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "つかまる (つかまる) = berpegangan. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "つかまる（つかまる）＝ berpegangan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「（ブレーキを）かける」（（ぶれーきを）かける）?",
+       "jp": "「（ブレーキを）かける」（（ぶれーきを）かける）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "acar",
+        "jp": "acar"
+       },
+       {
+        "id": "mengerem",
+        "jp": "mengerem"
+       },
+       {
+        "id": "daftar makanan",
+        "jp": "daftar makanan"
+       },
+       {
+        "id": "toilet duduk",
+        "jp": "toilet duduk"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "（ブレーキを）かける (（ぶれーきを）かける) = mengerem. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "（ブレーキを）かける（（ぶれーきを）かける）＝ mengerem"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「臥床」（がしょう）?",
+       "jp": "「臥床」（がしょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "merapikan diri",
+        "jp": "merapikan diri"
+       },
+       {
+        "id": "mencuci (pakaian)",
+        "jp": "mencuci (pakaian)"
+       },
+       {
+        "id": "berbaring",
+        "jp": "berbaring"
+       },
+       {
+        "id": "beralih",
+        "jp": "beralih"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "臥床 (がしょう) = berbaring. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "臥床（がしょう）＝ berbaring"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「移動」（いどう）?",
+       "jp": "「移動」（いどう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berganti pakaian",
+        "jp": "berganti pakaian"
+       },
+       {
+        "id": "keramas",
+        "jp": "keramas"
+       },
+       {
+        "id": "berpindah",
+        "jp": "berpindah"
+       },
+       {
+        "id": "menjemur",
+        "jp": "menjemur"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "移動 (いどう) = berpindah. Sumber: daftar kosakata modul hal. 208.",
+       "jp": "移動（いどう）＝ berpindah"
+      }
+     }
+    ]
+   },
+   {
+    "id": "j2s2-q",
+    "title": {
+     "id": "Arti kosakata: Perawatan untuk Makan",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「あげもの」?",
+       "jp": "「あげもの」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pakaian",
+        "jp": "pakaian"
+       },
+       {
+        "id": "perawat",
+        "jp": "perawat"
+       },
+       {
+        "id": "gorengan",
+        "jp": "gorengan"
+       },
+       {
+        "id": "teh hijau",
+        "jp": "teh hijau"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "あげもの (あげもの) = gorengan. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "あげもの（あげもの）＝ gorengan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「カレーライス」（かれーらいす）?",
+       "jp": "「カレーライス」（かれーらいす）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "cucian",
+        "jp": "cucian"
+       },
+       {
+        "id": "nasi kari",
+        "jp": "nasi kari"
+       },
+       {
+        "id": "lap tangan basah",
+        "jp": "lap tangan basah"
+       },
+       {
+        "id": "pemeriksaan medis",
+        "jp": "pemeriksaan medis"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "カレーライス (かれーらいす) = nasi kari. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "カレーライス（かれーらいす）＝ nasi kari"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「水分補給」（すいぶんほきゅう）?",
+       "jp": "「水分補給」（すいぶんほきゅう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "keinginan berkemih",
+        "jp": "keinginan berkemih"
+       },
+       {
+        "id": "ruang ganti pakaian",
+        "jp": "ruang ganti pakaian"
+       },
+       {
+        "id": "asupan cairan",
+        "jp": "asupan cairan"
+       },
+       {
+        "id": "cegukan",
+        "jp": "cegukan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "水分補給 (すいぶんほきゅう) = asupan cairan. Sumber: daftar kosakata modul hal. 212.",
+       "jp": "水分補給（すいぶんほきゅう）＝ asupan cairan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「むせる」?",
+       "jp": "「むせる」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "bangkit",
+        "jp": "bangkit"
+       },
+       {
+        "id": "membersihkan",
+        "jp": "membersihkan"
+       },
+       {
+        "id": "cegukan",
+        "jp": "cegukan"
+       },
+       {
+        "id": "asupan cairan",
+        "jp": "asupan cairan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "むせる (むせる) = cegukan. Sumber: daftar kosakata modul hal. 212.",
+       "jp": "むせる（むせる）＝ cegukan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「咳込む」（せきこむ）?",
+       "jp": "「咳込む」（せきこむ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "batuk",
+        "jp": "batuk"
+       },
+       {
+        "id": "kekentalan",
+        "jp": "kekentalan"
+       },
+       {
+        "id": "keinginan berkemih",
+        "jp": "keinginan berkemih"
+       },
+       {
+        "id": "menelan",
+        "jp": "menelan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "咳込む (せきこむ) = batuk. Sumber: daftar kosakata modul hal. 212.",
+       "jp": "咳込む（せきこむ）＝ batuk"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「焼き魚」（やきざかな）?",
+       "jp": "「焼き魚」（やきざかな）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berganti pakaian",
+        "jp": "berganti pakaian"
+       },
+       {
+        "id": "rem",
+        "jp": "rem"
+       },
+       {
+        "id": "sarung tangan sekali pakai",
+        "jp": "sarung tangan sekali pakai"
+       },
+       {
+        "id": "ikan bakar",
+        "jp": "ikan bakar"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "焼き魚 (やきざかな) = ikan bakar. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "焼き魚（やきざかな）＝ ikan bakar"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「副食」（ふくしょく）?",
+       "jp": "「副食」（ふくしょく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pakaian dalam",
+        "jp": "pakaian dalam"
+       },
+       {
+        "id": "lauk",
+        "jp": "lauk"
+       },
+       {
+        "id": "yoghurt",
+        "jp": "yoghurt"
+       },
+       {
+        "id": "sapaan",
+        "jp": "sapaan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "副食 (ふくしょく) = lauk. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "副食（ふくしょく）＝ lauk"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「麦茶」（むぎちゃ）?",
+       "jp": "「麦茶」（むぎちゃ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "panduan",
+        "jp": "panduan"
+       },
+       {
+        "id": "inkontinensia",
+        "jp": "inkontinensia"
+       },
+       {
+        "id": "berpindah",
+        "jp": "berpindah"
+       },
+       {
+        "id": "teh gandum",
+        "jp": "teh gandum"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "麦茶 (むぎちゃ) = teh gandum. Sumber: daftar kosakata modul hal. 213.",
+       "jp": "麦茶（むぎちゃ）＝ teh gandum"
+      }
+     }
+    ]
+   },
+   {
+    "id": "j2s3-q",
+    "title": {
+     "id": "Arti kosakata: Perawatan untuk Ekskresi",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「尿」（にょう）?",
+       "jp": "「尿」（にょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "membereskan",
+        "jp": "membereskan"
+       },
+       {
+        "id": "urine",
+        "jp": "urine"
+       },
+       {
+        "id": "kaki",
+        "jp": "kaki"
+       },
+       {
+        "id": "teh hijau",
+        "jp": "teh hijau"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "尿 (にょう) = urine. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "尿（にょう）＝ urine"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「下げる」（さげる）?",
+       "jp": "「下げる」（さげる）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "menurunkan",
+        "jp": "menurunkan"
+       },
+       {
+        "id": "memasak",
+        "jp": "memasak"
+       },
+       {
+        "id": "mengeringkan",
+        "jp": "mengeringkan"
+       },
+       {
+        "id": "lap tangan basah",
+        "jp": "lap tangan basah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "下げる (さげる) = menurunkan. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "下げる（さげる）＝ menurunkan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「羞恥心」（しゅうちしん）?",
+       "jp": "「羞恥心」（しゅうちしん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "disinfeksi",
+        "jp": "disinfeksi"
+       },
+       {
+        "id": "nasi mangkuk",
+        "jp": "nasi mangkuk"
+       },
+       {
+        "id": "rasa malu",
+        "jp": "rasa malu"
+       },
+       {
+        "id": "membersihkan",
+        "jp": "membersihkan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "羞恥心 (しゅうちしん) = rasa malu. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "羞恥心（しゅうちしん）＝ rasa malu"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「使い捨て手袋」（つかいすててぶくろ）?",
+       "jp": "「使い捨て手袋」（つかいすててぶくろ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kaki",
+        "jp": "kaki"
+       },
+       {
+        "id": "berpindah",
+        "jp": "berpindah"
+       },
+       {
+        "id": "staf",
+        "jp": "staf"
+       },
+       {
+        "id": "sarung tangan sekali pakai",
+        "jp": "sarung tangan sekali pakai"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "使い捨て手袋 (つかいすててぶくろ) = sarung tangan sekali pakai. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "使い捨て手袋（つかいすててぶくろ）＝ sarung tangan sekali pakai"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ポータブルトイレ」（ぽーたぶるといれ）?",
+       "jp": "「ポータブルトイレ」（ぽーたぶるといれ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "sisi kiri",
+        "jp": "sisi kiri"
+       },
+       {
+        "id": "toilet portabel",
+        "jp": "toilet portabel"
+       },
+       {
+        "id": "pakaian dalam",
+        "jp": "pakaian dalam"
+       },
+       {
+        "id": "menurunkan",
+        "jp": "menurunkan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "ポータブルトイレ (ぽーたぶるといれ) = toilet portabel. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "ポータブルトイレ（ぽーたぶるといれ）＝ toilet portabel"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「職員」（しょくいん）?",
+       "jp": "「職員」（しょくいん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "staf",
+        "jp": "staf"
+       },
+       {
+        "id": "ikan bakar",
+        "jp": "ikan bakar"
+       },
+       {
+        "id": "menu",
+        "jp": "menu"
+       },
+       {
+        "id": "sisir",
+        "jp": "sisir"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "職員 (しょくいん) = staf. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "職員（しょくいん）＝ staf"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「看護職」（かんごしょく）?",
+       "jp": "「看護職」（かんごしょく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "staf perawat lansia",
+        "jp": "staf perawat lansia"
+       },
+       {
+        "id": "menu",
+        "jp": "menu"
+       },
+       {
+        "id": "perawat",
+        "jp": "perawat"
+       },
+       {
+        "id": "tumis",
+        "jp": "tumis"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "看護職 (かんごしょく) = perawat. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "看護職（かんごしょく）＝ perawat"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「陰部」（いんぶ）?",
+       "jp": "「陰部」（いんぶ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "membersihkan",
+        "jp": "membersihkan"
+       },
+       {
+        "id": "bak mandi",
+        "jp": "bak mandi"
+       },
+       {
+        "id": "area genital",
+        "jp": "area genital"
+       },
+       {
+        "id": "keinginan berkemih",
+        "jp": "keinginan berkemih"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "陰部 (いんぶ) = area genital. Sumber: daftar kosakata modul hal. 217.",
+       "jp": "陰部（いんぶ）＝ area genital"
+      }
+     }
+    ]
+   },
+   {
+    "id": "j2s4-q",
+    "title": {
+     "id": "Arti kosakata: Perawatan untuk Merapikan Diri",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「洋服」（ようふく）?",
+       "jp": "「洋服」（ようふく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kamar mandi",
+        "jp": "kamar mandi"
+       },
+       {
+        "id": "pakaian",
+        "jp": "pakaian"
+       },
+       {
+        "id": "staf",
+        "jp": "staf"
+       },
+       {
+        "id": "rebus berbumbu, semur",
+        "jp": "rebus berbumbu, semur"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "洋服 (ようふく) = pakaian. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "洋服（ようふく）＝ pakaian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「上着」（うわぎ）?",
+       "jp": "「上着」（うわぎ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pekerjaan rumah",
+        "jp": "pekerjaan rumah"
+       },
+       {
+        "id": "cuci muka",
+        "jp": "cuci muka"
+       },
+       {
+        "id": "baju atasan",
+        "jp": "baju atasan"
+       },
+       {
+        "id": "bangkit",
+        "jp": "bangkit"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "上着 (うわぎ) = baju atasan. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "上着（うわぎ）＝ baju atasan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「衣類」（いるい）?",
+       "jp": "「衣類」（いるい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ekskresi",
+        "jp": "ekskresi"
+       },
+       {
+        "id": "pakaian",
+        "jp": "pakaian"
+       },
+       {
+        "id": "larutan antiseptik",
+        "jp": "larutan antiseptik"
+       },
+       {
+        "id": "merapikan diri",
+        "jp": "merapikan diri"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "衣類 (いるい) = pakaian. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "衣類（いるい）＝ pakaian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「診察」（しんさつ）?",
+       "jp": "「診察」（しんさつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "baju atasan",
+        "jp": "baju atasan"
+       },
+       {
+        "id": "perawatan rongga mulut",
+        "jp": "perawatan rongga mulut"
+       },
+       {
+        "id": "pemeriksaan medis",
+        "jp": "pemeriksaan medis"
+       },
+       {
+        "id": "bantal",
+        "jp": "bantal"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "診察 (しんさつ) = pemeriksaan medis. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "診察（しんさつ）＝ pemeriksaan medis"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「みじたく」?",
+       "jp": "「みじたく」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kotak sampah",
+        "jp": "kotak sampah"
+       },
+       {
+        "id": "rasa malu",
+        "jp": "rasa malu"
+       },
+       {
+        "id": "asupan cairan",
+        "jp": "asupan cairan"
+       },
+       {
+        "id": "merapikan diri",
+        "jp": "merapikan diri"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "みじたく (みじたく) = merapikan diri. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "みじたく（みじたく）＝ merapikan diri"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「左側」（ひだりがわ）?",
+       "jp": "「左側」（ひだりがわ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berpegangan",
+        "jp": "berpegangan"
+       },
+       {
+        "id": "bangun tidur",
+        "jp": "bangun tidur"
+       },
+       {
+        "id": "keinginan defekasi",
+        "jp": "keinginan defekasi"
+       },
+       {
+        "id": "sisi kiri",
+        "jp": "sisi kiri"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "左側 (ひだりがわ) = sisi kiri. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "左側（ひだりがわ）＝ sisi kiri"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「スカート」（すかーと）?",
+       "jp": "「スカート」（すかーと）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "rem",
+        "jp": "rem"
+       },
+       {
+        "id": "nasi mangkuk",
+        "jp": "nasi mangkuk"
+       },
+       {
+        "id": "urine",
+        "jp": "urine"
+       },
+       {
+        "id": "rok",
+        "jp": "rok"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "スカート (すかーと) = rok. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "スカート（すかーと）＝ rok"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「歯磨き」（はみがき）?",
+       "jp": "「歯磨き」（はみがき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "memasak",
+        "jp": "memasak"
+       },
+       {
+        "id": "pasta gigi",
+        "jp": "pasta gigi"
+       },
+       {
+        "id": "batuk",
+        "jp": "batuk"
+       },
+       {
+        "id": "menu",
+        "jp": "menu"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "歯磨き (はみがき) = pasta gigi. Sumber: daftar kosakata modul hal. 221.",
+       "jp": "歯磨き（はみがき）＝ pasta gigi"
+      }
+     }
+    ]
+   },
+   {
+    "id": "j2s5-q",
+    "title": {
+     "id": "Arti kosakata: Perawatan untuk Mandi & Kebersihan Tubuh",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「拭く」（ふく）?",
+       "jp": "「拭く」（ふく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "pakaian dalam",
+        "jp": "pakaian dalam"
+       },
+       {
+        "id": "sisi kiri",
+        "jp": "sisi kiri"
+       },
+       {
+        "id": "pekerjaan rumah",
+        "jp": "pekerjaan rumah"
+       },
+       {
+        "id": "menyeka",
+        "jp": "menyeka"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "拭く (ふく) = menyeka. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "拭く（ふく）＝ menyeka"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「清潔保持」（せいけつほじ）?",
+       "jp": "「清潔保持」（せいけつほじ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "teh hijau",
+        "jp": "teh hijau"
+       },
+       {
+        "id": "menjaga kebersihan tubuh",
+        "jp": "menjaga kebersihan tubuh"
+       },
+       {
+        "id": "mengeringkan",
+        "jp": "mengeringkan"
+       },
+       {
+        "id": "dokter gigi",
+        "jp": "dokter gigi"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "清潔保持 (せいけつほじ) = menjaga kebersihan tubuh. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "清潔保持（せいけつほじ）＝ menjaga kebersihan tubuh"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「（汗を）かく」（（あせを）かく）?",
+       "jp": "「（汗を）かく」（（あせを）かく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "panduan",
+        "jp": "panduan"
+       },
+       {
+        "id": "pergantian udara",
+        "jp": "pergantian udara"
+       },
+       {
+        "id": "bangun tidur",
+        "jp": "bangun tidur"
+       },
+       {
+        "id": "berkeringat",
+        "jp": "berkeringat"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "（汗を）かく (（あせを）かく) = berkeringat. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "（汗を）かく（（あせを）かく）＝ berkeringat"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「脱衣室」（だついしつ）?",
+       "jp": "「脱衣室」（だついしつ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "keramas",
+        "jp": "keramas"
+       },
+       {
+        "id": "ruang ganti pakaian",
+        "jp": "ruang ganti pakaian"
+       },
+       {
+        "id": "rasa malu",
+        "jp": "rasa malu"
+       },
+       {
+        "id": "nasi putih",
+        "jp": "nasi putih"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "脱衣室 (だついしつ) = ruang ganti pakaian. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "脱衣室（だついしつ）＝ ruang ganti pakaian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「消毒液」（しょうどくえき）?",
+       "jp": "「消毒液」（しょうどくえき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "tahu",
+        "jp": "tahu"
+       },
+       {
+        "id": "larutan antiseptik",
+        "jp": "larutan antiseptik"
+       },
+       {
+        "id": "sisi kiri",
+        "jp": "sisi kiri"
+       },
+       {
+        "id": "teh gandum",
+        "jp": "teh gandum"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "消毒液 (しょうどくえき) = larutan antiseptik. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "消毒液（しょうどくえき）＝ larutan antiseptik"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「シャンプー」（しゃんぷー）?",
+       "jp": "「シャンプー」（しゃんぷー）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "menelan",
+        "jp": "menelan"
+       },
+       {
+        "id": "mengerem",
+        "jp": "mengerem"
+       },
+       {
+        "id": "sampo",
+        "jp": "sampo"
+       },
+       {
+        "id": "kasur",
+        "jp": "kasur"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "シャンプー (しゃんぷー) = sampo. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "シャンプー（しゃんぷー）＝ sampo"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「清拭」（せいしき）?",
+       "jp": "「清拭」（せいしき）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berkumur",
+        "jp": "berkumur"
+       },
+       {
+        "id": "nasi kari",
+        "jp": "nasi kari"
+       },
+       {
+        "id": "mandi seka",
+        "jp": "mandi seka"
+       },
+       {
+        "id": "menjaga kebersihan tubuh",
+        "jp": "menjaga kebersihan tubuh"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "清拭 (せいしき) = mandi seka. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "清拭（せいしき）＝ mandi seka"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「温度」（おんど）?",
+       "jp": "「温度」（おんど）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "suhu",
+        "jp": "suhu"
+       },
+       {
+        "id": "feses",
+        "jp": "feses"
+       },
+       {
+        "id": "larutan antiseptik",
+        "jp": "larutan antiseptik"
+       },
+       {
+        "id": "menjaga kebersihan tubuh",
+        "jp": "menjaga kebersihan tubuh"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "温度 (おんど) = suhu. Sumber: daftar kosakata modul hal. 226.",
+       "jp": "温度（おんど）＝ suhu"
+      }
+     }
+    ]
+   },
+   {
+    "id": "j2s6-q",
+    "title": {
+     "id": "Arti kosakata: Perawatan untuk Pekerjaan Rumah Tangga",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「掃除」（そうじ）?",
+       "jp": "「掃除」（そうじ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kamar mandi",
+        "jp": "kamar mandi"
+       },
+       {
+        "id": "tahu",
+        "jp": "tahu"
+       },
+       {
+        "id": "pasta gigi",
+        "jp": "pasta gigi"
+       },
+       {
+        "id": "membersihkan",
+        "jp": "membersihkan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "掃除 (そうじ) = membersihkan. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "掃除（そうじ）＝ membersihkan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「洗濯物」（せんたくもの）?",
+       "jp": "「洗濯物」（せんたくもの）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "teh gandum",
+        "jp": "teh gandum"
+       },
+       {
+        "id": "sisi kiri",
+        "jp": "sisi kiri"
+       },
+       {
+        "id": "cucian",
+        "jp": "cucian"
+       },
+       {
+        "id": "lauk",
+        "jp": "lauk"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "洗濯物 (せんたくもの) = cucian. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "洗濯物（せんたくもの）＝ cucian"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「おしぼり」?",
+       "jp": "「おしぼり」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kursi roda",
+        "jp": "kursi roda"
+       },
+       {
+        "id": "beranjak dari tempat tidur",
+        "jp": "beranjak dari tempat tidur"
+       },
+       {
+        "id": "lap tangan basah",
+        "jp": "lap tangan basah"
+       },
+       {
+        "id": "staf",
+        "jp": "staf"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "おしぼり (おしぼり) = lap tangan basah. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "おしぼり（おしぼり）＝ lap tangan basah"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「干す」（ほす）?",
+       "jp": "「干す」（ほす）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "jumlah",
+        "jp": "jumlah"
+       },
+       {
+        "id": "menjemur",
+        "jp": "menjemur"
+       },
+       {
+        "id": "sapaan",
+        "jp": "sapaan"
+       },
+       {
+        "id": "mengerem",
+        "jp": "mengerem"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "干す (ほす) = menjemur. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "干す（ほす）＝ menjemur"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「カーテン」（かーてん）?",
+       "jp": "「カーテン」（かーてん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "berganti pakaian",
+        "jp": "berganti pakaian"
+       },
+       {
+        "id": "suhu",
+        "jp": "suhu"
+       },
+       {
+        "id": "sisi kiri",
+        "jp": "sisi kiri"
+       },
+       {
+        "id": "tirai",
+        "jp": "tirai"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "カーテン (かーてん) = tirai. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "カーテン（かーてん）＝ tirai"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「片付ける」（かたづける）?",
+       "jp": "「片付ける」（かたづける）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "ruang ganti pakaian",
+        "jp": "ruang ganti pakaian"
+       },
+       {
+        "id": "suhu",
+        "jp": "suhu"
+       },
+       {
+        "id": "pergantian udara",
+        "jp": "pergantian udara"
+       },
+       {
+        "id": "membereskan",
+        "jp": "membereskan"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "片付ける (かたづける) = membereskan. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "片付ける（かたづける）＝ membereskan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「洗濯」（せんたく）?",
+       "jp": "「洗濯」（せんたく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "mandi",
+        "jp": "mandi"
+       },
+       {
+        "id": "beralih",
+        "jp": "beralih"
+       },
+       {
+        "id": "toilet duduk",
+        "jp": "toilet duduk"
+       },
+       {
+        "id": "mencuci (pakaian)",
+        "jp": "mencuci (pakaian)"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "洗濯 (せんたく) = mencuci (pakaian). Sumber: daftar kosakata modul hal. 233.",
+       "jp": "洗濯（せんたく）＝ mencuci (pakaian)"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ごみ箱」（ごみばこ）?",
+       "jp": "「ごみ箱」（ごみばこ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "cucian",
+        "jp": "cucian"
+       },
+       {
+        "id": "tirai",
+        "jp": "tirai"
+       },
+       {
+        "id": "deglutisi",
+        "jp": "deglutisi"
+       },
+       {
+        "id": "kotak sampah",
+        "jp": "kotak sampah"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "ごみ箱 (ごみばこ) = kotak sampah. Sumber: daftar kosakata modul hal. 233.",
+       "jp": "ごみ箱（ごみばこ）＝ kotak sampah"
+      }
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q1",
+    "title": {
+     "id": "Soal modul hal. 242–249",
+     "jp": "テキストの{問題|もんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］佐藤さんの排泄について、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar tentang ekskresi Sato-san."
+      },
+      "img": {
+       "p": 242,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "自立しています。",
+        "id": "自立しています。"
+       },
+       {
+        "jp": "いつもトイレへ行って排泄しています。",
+        "id": "いつもトイレへ行って排泄しています。"
+       },
+       {
+        "jp": "失禁があります。",
+        "id": "失禁があります。"
+       },
+       {
+        "jp": "夜は、ポータブルトイレで排泄しています。",
+        "id": "夜は、ポータブルトイレで排泄しています。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 夜は、ポータブルトイレで排泄しています。 — Teks: 夜はポータブルトイレを使っています (malam memakai toilet portabel). Ia perlu bantuan (tidak mandiri) dan tidak ada inkontinensia. (Buku hal. 242; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：夜は、ポータブルトイレで排泄しています。（テキスト 242ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 242
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih pernyataan yang benar sesuai isi teks."
+      },
+      "img": {
+       "p": 243,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、今入院しています。",
+        "id": "鈴木さんは、今入院しています。"
+       },
+       {
+        "jp": "鈴木さんは、いつも胸が痛いです。",
+        "id": "鈴木さんは、いつも胸が痛いです。"
+       },
+       {
+        "jp": "鈴木さんは、お風呂に一人で入ることができます。",
+        "id": "鈴木さんは、お風呂に一人で入ることができます。"
+       },
+       {
+        "jp": "鈴木さんは、手伝ってもらって、入浴しています。",
+        "id": "鈴木さんは、手伝ってもらって、入浴しています。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、手伝ってもらって、入浴しています。 — 入浴は、介護と見守りが必要です: mandi perlu bantuan dan pengawasan → ia mandi dengan dibantu. Ia sudah keluar dari rumah sakit; dada sesak hanya kadang saat mandi. (Buku hal. 243; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、手伝ってもらって、入浴しています。（テキスト 243ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 243
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 244,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんは、左耳も右耳もよく聞こえます。",
+        "id": "佐藤さんは、左耳も右耳もよく聞こえます。"
+       },
+       {
+        "jp": "佐藤さんは、左耳が聞こえにくいです。",
+        "id": "佐藤さんは、左耳が聞こえにくいです。"
+       },
+       {
+        "jp": "佐藤さんは、大きい声で話します。",
+        "id": "佐藤さんは、大きい声で話します。"
+       },
+       {
+        "jp": "佐藤さんは、右目も左目も見えにくいです。",
+        "id": "佐藤さんは、右目も左目も見えにくいです。"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jawaban: 佐藤さんは、左耳が聞こえにくいです。 — Baris 聞く: 左耳が少し聞こえにくい (telinga kiri agak sulit mendengar). Mata kanan terlihat jelas; yang perlu bersuara keras adalah lawan bicaranya. (Buku hal. 244; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんは、左耳が聞こえにくいです。（テキスト 244ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 244
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 245,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、自分で歩いて移動することができます。",
+        "id": "鈴木さんは、自分で歩いて移動することができます。"
+       },
+       {
+        "jp": "鈴木さんは、自分でご飯を食べることができます。",
+        "id": "鈴木さんは、自分でご飯を食べることができます。"
+       },
+       {
+        "jp": "鈴木さんは、自分でトイレへ行くことができます。",
+        "id": "鈴木さんは、自分でトイレへ行くことができます。"
+       },
+       {
+        "jp": "鈴木さんは、自分でお風呂に入ることができます。",
+        "id": "鈴木さんは、自分でお風呂に入ることができます。"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、自分でご飯を食べることができます。 — 食事: 自立しています → makan sendiri. Berpindah pakai kursi roda; ekskresi dan mandi perlu sedikit bantuan. (Buku hal. 245; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、自分でご飯を食べることができます。（テキスト 245ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 245
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 246,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "佐藤さんの娘さんの家は、施設から遠いです。",
+        "id": "佐藤さんの娘さんの家は、施設から遠いです。"
+       },
+       {
+        "jp": "佐藤さんの娘さんは、月曜日に面会に来ます。",
+        "id": "佐藤さんの娘さんは、月曜日に面会に来ます。"
+       },
+       {
+        "jp": "佐藤さんの息子さんは、働いています。",
+        "id": "佐藤さんの息子さんは、働いています。"
+       },
+       {
+        "jp": "佐藤さんの息子さんは、よく面会に来ます。",
+        "id": "佐藤さんの息子さんは、よく面会に来ます。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 佐藤さんの息子さんは、働いています。 — Putranya 仕事が忙しい (sibuk bekerja) → ia bekerja. Rumah putri dekat fasilitas dan putri hanya bisa berkunjung Sabtu–Minggu; putra jarang berkunjung. (Buku hal. 246; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：佐藤さんの息子さんは、働いています。（テキスト 246ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 246
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih pernyataan yang benar sesuai isi teks."
+      },
+      "img": {
+       "p": 247,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、気分が悪くて、夕食を残しました。",
+        "id": "鈴木さんは、気分が悪くて、夕食を残しました。"
+       },
+       {
+        "jp": "鈴木さんは、朝食のとき、お茶を２００cc 飲みました。",
+        "id": "鈴木さんは、朝食のとき、お茶を２００cc 飲みました。"
+       },
+       {
+        "jp": "鈴木さんは、夜中に熱がありました。",
+        "id": "鈴木さんは、夜中に熱がありました。"
+       },
+       {
+        "jp": "鈴木さんは、夜中に吐きました。",
+        "id": "鈴木さんは、夜中に吐きました。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、夜中に吐きました。 — Catatan 02:45: 少し嘔吐しました → muntah tengah malam. Makan malam habis; teh 200cc diminum saat makan malam; tanda vital seperti biasa (tidak demam). (Buku hal. 247; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、夜中に吐きました。（テキスト 247ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 247
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］車いすを押す前に何と言いますか。一番よいものはどれですか。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Apa yang paling tepat diucapkan sebelum mendorong kursi roda?"
+      },
+      "img": {
+       "p": 248,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "「車いすを押しますよ」",
+        "id": "「車いすを押しますよ」"
+       },
+       {
+        "jp": "「車いすのブレーキをかけますよ」",
+        "id": "「車いすのブレーキをかけますよ」"
+       },
+       {
+        "jp": "「危ないですよ」",
+        "id": "「危ないですよ」"
+       },
+       {
+        "jp": "「介護しますよ」",
+        "id": "「介護しますよ」"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jawaban: 「車いすを押しますよ」 — Teks: sebelum mendorong, sampaikan kepada pengguna bahwa kursi akan didorong → 「車いすを押しますよ」. (Buku hal. 248; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：「車いすを押しますよ」（テキスト 248ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 248
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容と同じものはどれですか。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Mana yang sama dengan isi teks?"
+      },
+      "img": {
+       "p": 249,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "利用者が車いすに乗るときは、ブレーキをかけます。",
+        "id": "利用者が車いすに乗るときは、ブレーキをかけます。"
+       },
+       {
+        "jp": "車いすを止めるときだけ、ブレーキをかけます。",
+        "id": "車いすを止めるときだけ、ブレーキをかけます。"
+       },
+       {
+        "jp": "車いすを使った後に、ブレーキとタイヤを確認します。",
+        "id": "車いすを使った後に、ブレーキとタイヤを確認します。"
+       },
+       {
+        "jp": "利用者の安全だけを考えて介護します。",
+        "id": "利用者の安全だけを考えて介護します。"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jawaban: 利用者が車いすに乗るときは、ブレーキをかけます。 — Teks: saat pengguna naik kursi roda, rem harus dikunci. Rem dan ban diperiksa SEBELUM dipakai; pikirkan keselamatan DAN rasa tenang. (Buku hal. 249; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：利用者が車いすに乗るときは、ブレーキをかけます。（テキスト 249ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 249
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q2",
+    "title": {
+     "id": "Soal modul hal. 250–257",
+     "jp": "テキストの{問題|もんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 250,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "火事が起きたら、まず119番に電話します。",
+        "id": "火事が起きたら、まず119番に電話します。"
+       },
+       {
+        "jp": "火事が起きたら、まず利用者の部屋に知らせに行きます。",
+        "id": "火事が起きたら、まず利用者の部屋に知らせに行きます。"
+       },
+       {
+        "jp": "火事が起きたら、まず非常ベルを押します。",
+        "id": "火事が起きたら、まず非常ベルを押します。"
+       },
+       {
+        "jp": "火事が起きたら、まず周りの人に知らせます。",
+        "id": "火事が起きたら、まず周りの人に知らせます。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 火事が起きたら、まず周りの人に知らせます。 — Langkah ① saat kebakaran: beri tahu orang sekitar dengan suara keras. Bel darurat ②, telepon 119 ③, evakuasi ④. (Buku hal. 250; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：火事が起きたら、まず周りの人に知らせます。（テキスト 250ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 250
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文と同じ順番の排泄介護を選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih urutan bantuan ekskresi yang sama dengan teks."
+      },
+      "img": {
+       "p": 251,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "利用者ができることを確認する→トイレへいっしょに行く→安全を確認する→ボタンについて説明する→トイレの外に出る",
+        "id": "利用者ができることを確認する→トイレへいっしょに行く→安全を確認する→ボタンについて説明する→トイレの外に出る"
+       },
+       {
+        "jp": "利用者ができることを確認する→トイレへいっしょに行く→安全を確認する→トイレの外に出る→ボタンについて説明する",
+        "id": "利用者ができることを確認する→トイレへいっしょに行く→安全を確認する→トイレの外に出る→ボタンについて説明する"
+       },
+       {
+        "jp": "トイレへいっしょに行く→ボタンについて説明する→トイレの外に出る→安全を確認する→利用者ができることを確認する",
+        "id": "トイレへいっしょに行く→ボタンについて説明する→トイレの外に出る→安全を確認する→利用者ができることを確認する"
+       },
+       {
+        "jp": "トイレへいっしょに行く→利用者ができることを確認する→ボタンについて説明する→安全を確認する→トイレの外に出る",
+        "id": "トイレへいっしょに行く→利用者ができることを確認する→ボタンについて説明する→安全を確認する→トイレの外に出る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jawaban: 利用者ができることを確認する→トイレへいっしょに行く→安全を確認する→ボタンについて説明する→トイレの外に出る — Urutan teks: periksa yang bisa dilakukan pengguna → ke toilet bersama → pastikan duduk aman → jelaskan tombol → keluar dari toilet. (Buku hal. 251; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：利用者ができることを確認する→トイレへいっしょに行く→安全を確認する→ボタンについて説明する→トイレの外に出る（テキスト 251ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 251
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容と同じものはどれですか。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Mana yang sama dengan isi teks?"
+      },
+      "img": {
+       "p": 252,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "入浴の前に利用者に「おなかがすいていますか」と聞きます。",
+        "id": "入浴の前に利用者に「おなかがすいていますか」と聞きます。"
+       },
+       {
+        "jp": "入浴の後で、利用者にトイレに行ってもらいます。",
+        "id": "入浴の後で、利用者にトイレに行ってもらいます。"
+       },
+       {
+        "jp": "脱衣室と浴室の温度に気をつけなければなりません。",
+        "id": "脱衣室と浴室の温度に気をつけなければなりません。"
+       },
+       {
+        "jp": "入浴の後で、利用者にすぐ食べ物を食べてもらいます。",
+        "id": "入浴の後で、利用者にすぐ食べ物を食べてもらいます。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 脱衣室と浴室の温度に気をつけなければなりません。 — Teks: 脱衣室や浴室の温度にも注意 (perhatikan suhu ruang ganti dan kamar mandi). Toilet dilakukan sebelum mandi; jangan mandi langsung setelah makan. (Buku hal. 252; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：脱衣室と浴室の温度に気をつけなければなりません。（テキスト 252ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 252
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容と同じものはどれですか。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Mana yang sama dengan isi teks?"
+      },
+      "img": {
+       "p": 253,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "立って食事介護をします。",
+        "id": "立って食事介護をします。"
+       },
+       {
+        "jp": "食後にメニューの説明をします。",
+        "id": "食後にメニューの説明をします。"
+       },
+       {
+        "jp": "食後にすぐ寝てもらいます。",
+        "id": "食後にすぐ寝てもらいます。"
+       },
+       {
+        "jp": "食後にうがい、歯みがきなどをしてもらいます。",
+        "id": "食後にうがい、歯みがきなどをしてもらいます。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 食後にうがい、歯みがきなどをしてもらいます。 — 食後に口腔ケアをします: setelah makan dilakukan perawatan mulut (berkumur, gosok gigi). Bantu makan sambil duduk; menu dijelaskan sebelum makan; setelah makan duduk ±30 menit. (Buku hal. 253; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：食後にうがい、歯みがきなどをしてもらいます。（テキスト 253ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 253
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 254,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "施設では建物の中で、たばこを吸うことができます。",
+        "id": "施設では建物の中で、たばこを吸うことができます。"
+       },
+       {
+        "jp": "施設では庭で、たばこを吸うことができます。",
+        "id": "施設では庭で、たばこを吸うことができます。"
+       },
+       {
+        "jp": "施設では建物の中で、携帯電話を使うことができます。",
+        "id": "施設では建物の中で、携帯電話を使うことができます。"
+       },
+       {
+        "jp": "施設では庭で、携帯電話を使うことができます。",
+        "id": "施設では庭で、携帯電話を使うことができます。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 施設では庭で、携帯電話を使うことができます。 — Seluruh fasilitas bebas rokok (termasuk halaman). Ponsel dilarang di dalam gedung dan dipakai di luar gedung → boleh di halaman. (Buku hal. 254; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：施設では庭で、携帯電話を使うことができます。（テキスト 254ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 254
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 255,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "6月になると、食中毒になります。",
+        "id": "6月になると、食中毒になります。"
+       },
+       {
+        "jp": "6月、7月、8月は、食品を持って来ることができます。",
+        "id": "6月、7月、8月は、食品を持って来ることができます。"
+       },
+       {
+        "jp": "9月から、食品を持って来ることができます。",
+        "id": "9月から、食品を持って来ることができます。"
+       },
+       {
+        "jp": "玄関で消毒すれば、食品を持って来ることができます。",
+        "id": "玄関で消毒すれば、食品を持って来ることができます。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 9月から、食品を持って来ることができます。 — Larangan membawa makanan berlaku 1 Juni–31 Agustus, jadi mulai September boleh. Disinfeksi tangan tidak menghapus larangan itu. (Buku hal. 255; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：9月から、食品を持って来ることができます。（テキスト 255ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 255
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］手の洗い方について、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar tentang cara mencuci tangan."
+      },
+      "img": {
+       "p": 256,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "はじめにせっけん液で洗います。",
+        "id": "はじめにせっけん液で洗います。"
+       },
+       {
+        "jp": "せっけん液をつけたら乾かします。",
+        "id": "せっけん液をつけたら乾かします。"
+       },
+       {
+        "jp": "指先をよく洗ってきれいにします。",
+        "id": "指先をよく洗ってきれいにします。"
+       },
+       {
+        "jp": "手首を洗ったら、手を乾かします。",
+        "id": "手首を洗ったら、手を乾かします。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 指先をよく洗ってきれいにします。 — Langkah ③: 指先をしっかり洗って、きれいにします. Awalnya dibilas air dulu; setelah sabun masih ada langkah mencuci dan membilas sebelum dikeringkan. (Buku hal. 256; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：指先をよく洗ってきれいにします。（テキスト 256ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 256
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih pernyataan yang benar sesuai isi teks."
+      },
+      "img": {
+       "p": 257,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "インフルエンザが流行しているので、面会ができません。",
+        "id": "インフルエンザが流行しているので、面会ができません。"
+       },
+       {
+        "jp": "ノロウィルスが多いので、面会ができません。",
+        "id": "ノロウィルスが多いので、面会ができません。"
+       },
+       {
+        "jp": "熱、せき、吐き気の症状があるときは、面会ができません。",
+        "id": "熱、せき、吐き気の症状があるときは、面会ができません。"
+       },
+       {
+        "jp": "玄関にアルコール消毒液がないときは、面会ができません。",
+        "id": "玄関にアルコール消毒液がないときは、面会ができません。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 熱、せき、吐き気の症状があるときは、面会ができません。 — Yang tidak boleh berkunjung adalah orang dengan gejala demam, batuk, atau mual. Musim flu/norovirus sendiri bukan larangan berkunjung. (Buku hal. 257; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：熱、せき、吐き気の症状があるときは、面会ができません。（テキスト 257ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 257
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q3",
+    "title": {
+     "id": "Soal modul hal. 258–265",
+     "jp": "テキストの{問題|もんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］上の献立表を見て、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Lihat tabel menu, lalu pilih yang benar."
+      },
+      "img": {
+       "p": 258,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "朝食の主食は、いつもご飯です。",
+        "id": "朝食の主食は、いつもご飯です。"
+       },
+       {
+        "jp": "副食は、果物やヨーグルトです。",
+        "id": "副食は、果物やヨーグルトです。"
+       },
+       {
+        "jp": "副食は、毎日サラダがあります。",
+        "id": "副食は、毎日サラダがあります。"
+       },
+       {
+        "jp": "副食は、毎日みそ汁があります。",
+        "id": "副食は、毎日みそ汁があります。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 副食は、毎日みそ汁があります。 — Sup miso (みそ汁) ada setiap hari: 1 Mei malam, 2 Mei pagi, 3 Mei malam. Makanan pokok pagi kadang roti; salad tidak ada setiap hari; buah/yogurt adalah デザート. (Buku hal. 258; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：副食は、毎日みそ汁があります。（テキスト 258ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 258
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］誕生日会について、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar tentang pesta ulang tahun."
+      },
+      "img": {
+       "p": 259,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "誕生日会で、昼ご飯を食べます。",
+        "id": "誕生日会で、昼ご飯を食べます。"
+       },
+       {
+        "jp": "利用者は、みんなプレゼントをもらいます。",
+        "id": "利用者は、みんなプレゼントをもらいます。"
+       },
+       {
+        "jp": "利用者が、テーブルといすを並べます。",
+        "id": "利用者が、テーブルといすを並べます。"
+       },
+       {
+        "jp": "利用者と職員は、歌の練習をします。",
+        "id": "利用者と職員は、歌の練習をします。"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jawaban: 利用者と職員は、歌の練習をします。 — Persiapan: 歌の練習をします（利用者・職員）→ pengguna dan staf berlatih menyanyi. Acara 13.00–15.30 (bukan makan siang); hadiah hanya untuk yang berulang tahun Desember; meja disusun staf. (Buku hal. 259; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：利用者と職員は、歌の練習をします。（テキスト 259ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 259
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］次の中から、正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih yang benar."
+      },
+      "img": {
+       "p": 260,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "夏まつりは、午前に行います。",
+        "id": "夏まつりは、午前に行います。"
+       },
+       {
+        "jp": "夏まつりは、利用者だけ参加します。",
+        "id": "夏まつりは、利用者だけ参加します。"
+       },
+       {
+        "jp": "介護職が家族をホールに案内します。",
+        "id": "介護職が家族をホールに案内します。"
+       },
+       {
+        "jp": "看護職が利用者をホールに誘導します。",
+        "id": "看護職が利用者をホールに誘導します。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 介護職が家族をホールに案内します。 — 介護職：家族をホールに案内します → staf kaigo mengantar keluarga ke aula. Acara pukul 13.00 (siang); keluarga juga ikut; pengguna juga diantar staf kaigo. (Buku hal. 260; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：介護職が家族をホールに案内します。（テキスト 260ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 260
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容について正しいものを選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih pernyataan yang benar sesuai isi teks."
+      },
+      "img": {
+       "p": 261,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "食事介護は11時０0分からです。",
+        "id": "食事介護は11時０0分からです。"
+       },
+       {
+        "jp": "休けいは12時30分から14時00分までです。",
+        "id": "休けいは12時30分から14時00分までです。"
+       },
+       {
+        "jp": "記録を書いてから、退勤します。",
+        "id": "記録を書いてから、退勤します。"
+       },
+       {
+        "jp": "水分補給の介護は1回します。",
+        "id": "水分補給の介護は1回します。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 記録を書いてから、退勤します。 — 17:30 記録 lalu 18:00 退勤: menulis catatan dulu baru pulang. Bantuan makan 11:30; istirahat 13:00 selama 60 menit; bantuan minum dua kali (10:00 dan 16:00). (Buku hal. 261; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：記録を書いてから、退勤します。（テキスト 261ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 261
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で正しい番号を一つ選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih satu nomor yang benar."
+      },
+      "img": {
+       "p": 262,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "出勤して、まず就寝介護をします。",
+        "id": "出勤して、まず就寝介護をします。"
+       },
+       {
+        "jp": "巡視は1回だけします。",
+        "id": "巡視は1回だけします。"
+       },
+       {
+        "jp": "起床介護で、利用者の洗面や歯みがきを手伝います。",
+        "id": "起床介護で、利用者の洗面や歯みがきを手伝います。"
+       },
+       {
+        "jp": "朝の食事介護の前に、ミーティングがあります。",
+        "id": "朝の食事介護の前に、ミーティングがあります。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 起床介護で、利用者の洗面や歯みがきを手伝います。 — 06:00 起床介護（洗面・口腔ケア・着替え）: membantu cuci muka dan gosok gigi. Setelah masuk kerja yang pertama adalah bantuan makan; patroli tiap 2 jam; rapat pagi setelah makan pagi. (Buku hal. 262; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：起床介護で、利用者の洗面や歯みがきを手伝います。（テキスト 262ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 262
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で正しい番号を一つ選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih satu nomor yang benar."
+      },
+      "img": {
+       "p": 263,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、介護職に入れ歯を洗ってもらいました。",
+        "id": "鈴木さんは、介護職に入れ歯を洗ってもらいました。"
+       },
+       {
+        "jp": "鈴木さんは、入れ歯をケースにしまいました。",
+        "id": "鈴木さんは、入れ歯をケースにしまいました。"
+       },
+       {
+        "jp": "鈴木さんは、入れ歯を落として割ってしまいました。",
+        "id": "鈴木さんは、入れ歯を落として割ってしまいました。"
+       },
+       {
+        "jp": "鈴木さんは、あした、自分で入れ歯を洗います。",
+        "id": "鈴木さんは、あした、自分で入れ歯を洗います。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、入れ歯を落として割ってしまいました。 — Isi laporan: gigi palsu jatuh ke lantai dan pecah. Saat kejadian Suzuki-san mencuci sendiri; ke depannya staf yang mencuci dan menyimpannya. (Buku hal. 263; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、入れ歯を落として割ってしまいました。（テキスト 263ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 263
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で正しい番号を一つ選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih satu nomor yang benar."
+      },
+      "img": {
+       "p": 264,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "あした、入る利用者は３人です。",
+        "id": "あした、入る利用者は３人です。"
+       },
+       {
+        "jp": "鈴木さんは、午後３時の送迎車で帰ります。",
+        "id": "鈴木さんは、午後３時の送迎車で帰ります。"
+       },
+       {
+        "jp": "鈴木さんは、ご家族が迎えに来ます。",
+        "id": "鈴木さんは、ご家族が迎えに来ます。"
+       },
+       {
+        "jp": "佐藤さんは、午後３時に帰ります。",
+        "id": "佐藤さんは、午後３時に帰ります。"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、午後３時の送迎車で帰ります。 — Pengguna yang pulang naik mobil antar-jemput pukul 15.00. Sato-san dijemput keluarga pukul 14.00, jadi Suzuki-san yang pulang dengan mobil pukul 15.00. Yang masuk total 4 orang. (Buku hal. 264; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、午後３時の送迎車で帰ります。（テキスト 264ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 264
+      }
+     },
+     {
+      "q": {
+       "jp": "（{上|うえ}の{文章|ぶんしょう}を{読|よ}んでください）\n\n［問題］文の内容で正しい番号を一つ選んでください。",
+       "id": "(Baca teks pada gambar halaman modul di atas.)\n\n［Soal］Pilih satu nomor yang benar."
+      },
+      "img": {
+       "p": 265,
+       "id": [
+        7,
+        5,
+        86,
+        74
+       ]
+      },
+      "opts": [
+       {
+        "jp": "鈴木さんは、あしたタクシーで、病院へ行きます。",
+        "id": "鈴木さんは、あしたタクシーで、病院へ行きます。"
+       },
+       {
+        "jp": "鈴木さんは、あした10時10分前に、病院へ行きます。",
+        "id": "鈴木さんは、あした10時10分前に、病院へ行きます。"
+       },
+       {
+        "jp": "鈴木さんは、あした看護職と病院へ行きます。",
+        "id": "鈴木さんは、あした看護職と病院へ行きます。"
+       },
+       {
+        "jp": "鈴木さんは、あした10時30分に、玄関へ行きます。",
+        "id": "鈴木さんは、あした10時30分に、玄関へ行きます。"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Jawaban: 鈴木さんは、あした看護職と病院へ行きます。 — 看護職がいっしょに病院へ行きます: Suzuki-san ke rumah sakit bersama perawat, naik mobil fasilitas pukul 10.30; harus sudah di pintu masuk 10 menit sebelumnya (10.20). (Buku hal. 265; kunci jawaban hal. 267.)",
+       "jp": "{正解|せいかい}：鈴木さんは、あした看護職と病院へ行きます。（テキスト 265ページ、{解答|かいとう} 267ページ）"
+      },
+      "ref": {
+       "p": 265
+      }
+     }
+    ]
+   },
+   {
+    "id": "j3s1-q",
+    "title": {
+     "id": "Arti kosakata: Kosakata untuk Kalimat",
+     "jp": "ことばの{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「担当者」（たんとうしゃ）?",
+       "jp": "「担当者」（たんとうしゃ）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "staf penanggung jawab",
+        "jp": "staf penanggung jawab"
+       },
+       {
+        "id": "roda",
+        "jp": "roda"
+       },
+       {
+        "id": "jadwal",
+        "jp": "jadwal"
+       },
+       {
+        "id": "juru masak",
+        "jp": "juru masak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "担当者 (たんとうしゃ) = staf penanggung jawab. Sumber: daftar kosakata modul hal. 241.",
+       "jp": "担当者（たんとうしゃ）＝ staf penanggung jawab"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「使用」（しよう）?",
+       "jp": "「使用」（しよう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "dilarang merokok",
+        "jp": "dilarang merokok"
+       },
+       {
+        "id": "staf penanggung jawab",
+        "jp": "staf penanggung jawab"
+       },
+       {
+        "id": "menggunakan",
+        "jp": "menggunakan"
+       },
+       {
+        "id": "jadwal",
+        "jp": "jadwal"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "使用 (しよう) = menggunakan. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "使用（しよう）＝ menggunakan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「状況」（じょうきょう）?",
+       "jp": "「状況」（じょうきょう）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "alkohol",
+        "jp": "alkohol"
+       },
+       {
+        "id": "kondisi",
+        "jp": "kondisi"
+       },
+       {
+        "id": "pergi tidur",
+        "jp": "pergi tidur"
+       },
+       {
+        "id": "dilarang merokok",
+        "jp": "dilarang merokok"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "状況 (じょうきょう) = kondisi. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "状況（じょうきょう）＝ kondisi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「ショートステイ」（しょーとすてい）?",
+       "jp": "「ショートステイ」（しょーとすてい）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "area pintu masuk",
+        "jp": "area pintu masuk"
+       },
+       {
+        "id": "jadwal",
+        "jp": "jadwal"
+       },
+       {
+        "id": "kemandirian",
+        "jp": "kemandirian"
+       },
+       {
+        "id": "tinggal jangka pendek, short stay",
+        "jp": "tinggal jangka pendek, short stay"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "ショートステイ (しょーとすてい) = tinggal jangka pendek, short stay. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "ショートステイ（しょーとすてい）＝ tinggal jangka pendek, short stay"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「巡視」（じゅんし）?",
+       "jp": "「巡視」（じゅんし）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "mobil antar-jemput",
+        "jp": "mobil antar-jemput"
+       },
+       {
+        "id": "patroli",
+        "jp": "patroli"
+       },
+       {
+        "id": "catatan",
+        "jp": "catatan"
+       },
+       {
+        "id": "juru masak",
+        "jp": "juru masak"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "巡視 (じゅんし) = patroli. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "巡視（じゅんし）＝ patroli"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「タイヤ」（たいや）?",
+       "jp": "「タイヤ」（たいや）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "terjatuh",
+        "jp": "terjatuh"
+       },
+       {
+        "id": "roda",
+        "jp": "roda"
+       },
+       {
+        "id": "kecelakaan",
+        "jp": "kecelakaan"
+       },
+       {
+        "id": "peserta",
+        "jp": "peserta"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "タイヤ (たいや) = roda. Sumber: daftar kosakata modul hal. 241.",
+       "jp": "タイヤ（たいや）＝ roda"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「計画」（けいかく）?",
+       "jp": "「計画」（けいかく）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "kemandirian",
+        "jp": "kemandirian"
+       },
+       {
+        "id": "rencana",
+        "jp": "rencana"
+       },
+       {
+        "id": "larangan",
+        "jp": "larangan"
+       },
+       {
+        "id": "dilarang merokok",
+        "jp": "dilarang merokok"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "計画 (けいかく) = rencana. Sumber: daftar kosakata modul hal. 240.",
+       "jp": "計画（けいかく）＝ rencana"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「調理員」（ちょうりいん）?",
+       "jp": "「調理員」（ちょうりいん）の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "juru masak",
+        "jp": "juru masak"
+       },
+       {
+        "id": "mobil antar-jemput",
+        "jp": "mobil antar-jemput"
+       },
+       {
+        "id": "patroli",
+        "jp": "patroli"
+       },
+       {
+        "id": "jadwal",
+        "jp": "jadwal"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "調理員 (ちょうりいん) = juru masak. Sumber: daftar kosakata modul hal. 241.",
+       "jp": "調理員（ちょうりいん）＝ juru masak"
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "tema": []
+}

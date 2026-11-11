@@ -1,0 +1,294 @@
+{
+ "schema": 1,
+ "bidang": "kaigo-jp",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Ayo Menghafal Kosakata",
+   "jp": "ことばを{覚|おぼ}えよう"
+  },
+  "intro": {
+   "id": "Kosakata dasar yang selalu muncul di tempat kerja kaigo: bagian tubuh, posisi tubuh, serta penyakit dan gejalanya.",
+   "jp": "ことばを{覚|おぼ}えよう"
+  },
+  "pages": [
+   204,
+   207
+  ],
+  "subs": [
+   {
+    "id": "j1s1",
+    "no": 1,
+    "title": {
+     "id": "Tubuh",
+     "jp": "からだのことば"
+    },
+    "pages": [
+     204,
+     205
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 204–205)"
+      },
+      {
+       "ul": [
+        "**頭** (あたま) = kepala",
+        "**額** (ひたい) = dahi",
+        "**目** (め) = mata",
+        "**耳** (みみ) = telinga",
+        "**鼻** (はな) = hidung",
+        "**口** (くち) = mulut",
+        "**唇** (くちびる) = bibir",
+        "**顎** (あご) = dagu",
+        "**首** (くび) = leher",
+        "**喉** (のど) = tenggorokan",
+        "**腕** (うで) = lengan",
+        "**肘** (ひじ) = siku",
+        "**腰** (こし) = pinggang",
+        "**手首** (てくび) = pergelangan tangan",
+        "**手のひら** (てのひら) = telapak tangan",
+        "**指** (ゆび) = jari",
+        "**指先** (ゆびさき) = ujung jari",
+        "**手の甲** (てのこう) = punggung tangan",
+        "**足首** (あしくび) = pergelangan kaki",
+        "**つま先** (つまさき) = ujung jari kaki",
+        "**肩** (かた) = bahu",
+        "**背中** (せなか) = punggung",
+        "**胸** (むね) = dada",
+        "**殿部（尻）** (でんぶ（しり）) = pantat",
+        "**腹** (はら) = perut",
+        "**膝** (ひざ) = lutut",
+        "**踵** (かかと) = tumit",
+        "**足底（足の裏）** (そくてい（あしのうら）) = telapak kaki (dasar kaki)",
+        "**顔色** (かおいろ) = air muka",
+        "**患側** (かんそく) = sisi sakit",
+        "**健側** (けんそく) = sisi sehat",
+        "**健康** (けんこう) = kesehatan",
+        "**体調** (たいちょう) = kondisi fisik",
+        "**バイタルサイン** (ばいたるさいん) = tanda-tanda vital"
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**頭**（あたま）＝ kepala",
+        "**額**（ひたい）＝ dahi",
+        "**目**（め）＝ mata",
+        "**耳**（みみ）＝ telinga",
+        "**鼻**（はな）＝ hidung",
+        "**口**（くち）＝ mulut",
+        "**唇**（くちびる）＝ bibir",
+        "**顎**（あご）＝ dagu",
+        "**首**（くび）＝ leher",
+        "**喉**（のど）＝ tenggorokan",
+        "**腕**（うで）＝ lengan",
+        "**肘**（ひじ）＝ siku",
+        "**腰**（こし）＝ pinggang",
+        "**手首**（てくび）＝ pergelangan tangan",
+        "**手のひら**（てのひら）＝ telapak tangan",
+        "**指**（ゆび）＝ jari",
+        "**指先**（ゆびさき）＝ ujung jari",
+        "**手の甲**（てのこう）＝ punggung tangan",
+        "**足首**（あしくび）＝ pergelangan kaki",
+        "**つま先**（つまさき）＝ ujung jari kaki",
+        "**肩**（かた）＝ bahu",
+        "**背中**（せなか）＝ punggung",
+        "**胸**（むね）＝ dada",
+        "**殿部（尻）**（でんぶ（しり））＝ pantat",
+        "**腹**（はら）＝ perut",
+        "**膝**（ひざ）＝ lutut",
+        "**踵**（かかと）＝ tumit",
+        "**足底（足の裏）**（そくてい（あしのうら））＝ telapak kaki (dasar kaki)",
+        "**顔色**（かおいろ）＝ air muka",
+        "**患側**（かんそく）＝ sisi sakit",
+        "**健側**（けんそく）＝ sisi sehat",
+        "**健康**（けんこう）＝ kesehatan",
+        "**体調**（たいちょう）＝ kondisi fisik",
+        "**バイタルサイン**（ばいたるさいん）＝ tanda-tanda vital"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "34 kata bagian tubuh. Kata ini dipakai setiap kali melapor kondisi pengguna (misalnya 腰が痛い = pinggang sakit).",
+      "points": [
+       "頭・額・目・耳・鼻・口: bagian kepala.",
+       "患側 (かんそく) = sisi yang sakit/lumpuh; 健側 (けんそく) = sisi yang sehat.",
+       "バイタルサイン = tanda-tanda vital."
+      ],
+      "exam": [
+       "Sumber: modul hal. 204–205."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j1s2",
+    "no": 2,
+    "title": {
+     "id": "Posisi Tubuh",
+     "jp": "{体位|たいい}のことば"
+    },
+    "pages": [
+     206,
+     206
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 206)"
+      },
+      {
+       "ul": [
+        "**仰臥位** (ぎょうがい) = posisi supinasi",
+        "**側臥位** (そくがい) = posisi lateral",
+        "**腹臥位** (ふくがい) = posisi pronasi",
+        "**端座位** (たんざい) = duduk tegak lurus",
+        "**立位** (りつい) = berdiri",
+        "**椅座位（座位）** (いざい（ざい）) = duduk kursi (duduk)",
+        "**体位** (たいい) = posisi",
+        "**体位変換** (たいいへんかん) = mengubah posisi",
+        "**姿勢** (しせい) = postur"
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**仰臥位**（ぎょうがい）＝ posisi supinasi",
+        "**側臥位**（そくがい）＝ posisi lateral",
+        "**腹臥位**（ふくがい）＝ posisi pronasi",
+        "**端座位**（たんざい）＝ duduk tegak lurus",
+        "**立位**（りつい）＝ berdiri",
+        "**椅座位（座位）**（いざい（ざい））＝ duduk kursi (duduk)",
+        "**体位**（たいい）＝ posisi",
+        "**体位変換**（たいいへんかん）＝ mengubah posisi",
+        "**姿勢**（しせい）＝ postur"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "9 kata posisi tubuh (体位). Wajib hafal untuk perawatan berpindah dan mengganti posisi.",
+      "points": [
+       "仰臥位 = telentang, 側臥位 = miring, 腹臥位 = tengkurap.",
+       "座位 = duduk, 端座位 = duduk di tepi tempat tidur, 立位 = berdiri."
+      ],
+      "exam": [
+       "Sumber: modul hal. 206–206."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j1s3",
+    "no": 3,
+    "title": {
+     "id": "Penyakit dan Gejala",
+     "jp": "{病気|びょうき}・{症状|しょうじょう}のことば"
+    },
+    "pages": [
+     207,
+     207
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 207)"
+      },
+      {
+       "ul": [
+        "**インフルエンザ** (いんふるえんざ) = influenza",
+        "**疥癬** (かいせん) = skabies",
+        "**風邪** (かぜ) = masuk angin",
+        "**高血圧症** (こうけつあつしょう) = hipertensi",
+        "**食中毒** (しょくちゅうどく) = keracunan makanan",
+        "**認知症** (にんちしょう) = demensia",
+        "**ノロウイルス** (のろういるす) = norovirus",
+        "**白内障** (はくないしょう) = katarak",
+        "**痛い** (いたい) = sakit, nyeri",
+        "**嘔吐** (おうと) = muntah",
+        "**片麻痺** (かたまひ) = hemiplegia",
+        "**かゆい** (かゆい) = gatal",
+        "**苦しい** (くるしい) = menderita",
+        "**下痢** (げり) = diare",
+        "**拘縮** (こうしゅく) = kontraktur",
+        "**骨折** (こっせつ) = fraktur",
+        "**症状** (しょうじょう) = gejala",
+        "**褥瘡** (じょくそう) = dekubitus",
+        "**咳** (せき) = batuk",
+        "**吐き気** (はきけ) = mual",
+        "**発汗** (はっかん) = keringat",
+        "**発疹** (ほっしん) = ruam",
+        "**発熱** (はつねつ) = demam",
+        "**便秘** (べんぴ) = konstipasi",
+        "**めまい** (めまい) = pusing"
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**インフルエンザ**（いんふるえんざ）＝ influenza",
+        "**疥癬**（かいせん）＝ skabies",
+        "**風邪**（かぜ）＝ masuk angin",
+        "**高血圧症**（こうけつあつしょう）＝ hipertensi",
+        "**食中毒**（しょくちゅうどく）＝ keracunan makanan",
+        "**認知症**（にんちしょう）＝ demensia",
+        "**ノロウイルス**（のろういるす）＝ norovirus",
+        "**白内障**（はくないしょう）＝ katarak",
+        "**痛い**（いたい）＝ sakit, nyeri",
+        "**嘔吐**（おうと）＝ muntah",
+        "**片麻痺**（かたまひ）＝ hemiplegia",
+        "**かゆい**（かゆい）＝ gatal",
+        "**苦しい**（くるしい）＝ menderita",
+        "**下痢**（げり）＝ diare",
+        "**拘縮**（こうしゅく）＝ kontraktur",
+        "**骨折**（こっせつ）＝ fraktur",
+        "**症状**（しょうじょう）＝ gejala",
+        "**褥瘡**（じょくそう）＝ dekubitus",
+        "**咳**（せき）＝ batuk",
+        "**吐き気**（はきけ）＝ mual",
+        "**発汗**（はっかん）＝ keringat",
+        "**発疹**（ほっしん）＝ ruam",
+        "**発熱**（はつねつ）＝ demam",
+        "**便秘**（べんぴ）＝ konstipasi",
+        "**めまい**（めまい）＝ pusing"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "25 kata penyakit dan gejala yang sering muncul pada lansia.",
+      "points": [
+       "認知症 = demensia, 誤嚥 = tersedak/salah telan, 褥瘡 = luka tekan (dekubitus).",
+       "Gejala: 熱・咳・吐き気・かゆみ・痛み.",
+       "Laporkan gejala ke perawat (看護職)."
+      ],
+      "exam": [
+       "Sumber: modul hal. 207–207."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

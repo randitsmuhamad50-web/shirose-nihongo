@@ -1,0 +1,630 @@
+{
+ "schema": 1,
+ "bidang": "kaigo-jp",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Kosakata & Dialog per Jenis Perawatan",
+   "jp": "{介護|かいご}の{場面|ばめん}のことばと{会話|かいわ}"
+  },
+  "intro": {
+   "id": "Enam jenis perawatan. Tiap bagian: daftar kosakata dari modul lalu soal Dialog dan Sapaan (会話・声かけ) seperti di ujian.",
+   "jp": "{介護|かいご}の{場面|ばめん}のことばと{会話|かいわ}"
+  },
+  "pages": [
+   208,
+   238
+  ],
+  "subs": [
+   {
+    "id": "j2s1",
+    "no": 1,
+    "title": {
+     "id": "Perawatan untuk Berpindah",
+     "jp": "{移動|いどう}の{介護|かいご}"
+    },
+    "pages": [
+     208,
+     211
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 208)"
+      },
+      {
+       "ul": [
+        "**移乗** (いじょう) = beralih",
+        "**移動** (いどう) = berpindah",
+        "**起き上がる** (おきあがる) = bangkit",
+        "**（ブレーキを）かける** (（ぶれーきを）かける) = mengerem",
+        "**臥床** (がしょう) = berbaring",
+        "**車いす** (くるまいす) = kursi roda",
+        "**声かけ** (こえかけ) = sapaan",
+        "**支える** (ささえる) = mendukung",
+        "**杖** (つえ) = tongkat",
+        "**つかまる** (つかまる) = berpegangan",
+        "**手すり** (てすり) = susuran",
+        "**ブレーキ** (ぶれーき) = rem",
+        "**歩行器** (ほこうき) = alat bantu jalan",
+        "**誘導** (ゆうどう) = panduan",
+        "**離床** (りしょう) = beranjak dari tempat tidur",
+        "**介護職** (かいごしょく) = staf perawat lansia"
+       ]
+      },
+      {
+       "h": "Soal Dialog dan Sapaan (会話・声かけ)"
+      },
+      {
+       "p": "Modul memuat **3 soal** untuk bagian ini (hal. 209–211). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**移乗**（いじょう）＝ beralih",
+        "**移動**（いどう）＝ berpindah",
+        "**起き上がる**（おきあがる）＝ bangkit",
+        "**（ブレーキを）かける**（（ぶれーきを）かける）＝ mengerem",
+        "**臥床**（がしょう）＝ berbaring",
+        "**車いす**（くるまいす）＝ kursi roda",
+        "**声かけ**（こえかけ）＝ sapaan",
+        "**支える**（ささえる）＝ mendukung",
+        "**杖**（つえ）＝ tongkat",
+        "**つかまる**（つかまる）＝ berpegangan",
+        "**手すり**（てすり）＝ susuran",
+        "**ブレーキ**（ぶれーき）＝ rem",
+        "**歩行器**（ほこうき）＝ alat bantu jalan",
+        "**誘導**（ゆうどう）＝ panduan",
+        "**離床**（りしょう）＝ beranjak dari tempat tidur",
+        "**介護職**（かいごしょく）＝ staf perawat lansia"
+       ]
+      },
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は3{問|もん}です（209〜211ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kosakata berpindah (移動) + 3 soal dialog.",
+      "points": [
+       "移乗 = beralih (mis. tempat tidur → kursi roda); 移動 = berpindah.",
+       "杖 = tongkat, 歩行器 = walker, 車いす = kursi roda, 手すり = pegangan.",
+       "Urutan berjalan dengan tongkat: tongkat → kaki yang sakit → kaki yang sehat."
+      ],
+      "exam": [
+       "Sumber: modul hal. 208–211."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j2s2",
+    "no": 2,
+    "title": {
+     "id": "Perawatan untuk Makan",
+     "jp": "{食事|しょくじ}の{介護|かいご}"
+    },
+    "pages": [
+     212,
+     216
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 212–213)"
+      },
+      {
+       "ul": [
+        "**エプロン** (えぷろん) = celemek",
+        "**嚥下** (えんげ) = deglutisi",
+        "**誤嚥** (ごえん) = aspirasi",
+        "**食品** (しょくひん) = makanan",
+        "**水分補給** (すいぶんほきゅう) = asupan cairan",
+        "**咳込む** (せきこむ) = batuk",
+        "**とろみ** (とろみ) = kekentalan",
+        "**飲み込み** (のみこみ) = menelan",
+        "**むせる** (むせる) = cegukan",
+        "**量** (りょう) = jumlah",
+        "**リーダー** (りーだー) = kepala tim",
+        "**あげもの** (あげもの) = gorengan",
+        "**いためもの** (いためもの) = tumis",
+        "**お茶** (おちゃ) = teh hijau",
+        "**カレーライス** (かれーらいす) = nasi kari",
+        "**ご飯** (ごはん) = nasi putih",
+        "**献立** (こんだて) = daftar makanan",
+        "**献立表** (こんだてひょう) = tabel daftar makanan",
+        "**主食** (しゅしょく) = makanan pokok",
+        "**汁物** (しるもの) = sup",
+        "**漬物** (つけもの) = acar",
+        "**豆腐** (とうふ) = tahu",
+        "**丼** (どんぶり) = nasi mangkuk",
+        "**煮付け** (につけ) = rebus berbumbu, semur",
+        "**煮物** (にもの) = rebusan",
+        "**副食** (ふくしょく) = lauk",
+        "**麦茶** (むぎちゃ) = teh gandum",
+        "**メニュー** (めにゅー) = menu",
+        "**焼き魚** (やきざかな) = ikan bakar",
+        "**ヨーグルト** (よーぐると) = yoghurt"
+       ]
+      },
+      {
+       "h": "Soal Dialog dan Sapaan (会話・声かけ)"
+      },
+      {
+       "p": "Modul memuat **3 soal** untuk bagian ini (hal. 214–216). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**エプロン**（えぷろん）＝ celemek",
+        "**嚥下**（えんげ）＝ deglutisi",
+        "**誤嚥**（ごえん）＝ aspirasi",
+        "**食品**（しょくひん）＝ makanan",
+        "**水分補給**（すいぶんほきゅう）＝ asupan cairan",
+        "**咳込む**（せきこむ）＝ batuk",
+        "**とろみ**（とろみ）＝ kekentalan",
+        "**飲み込み**（のみこみ）＝ menelan",
+        "**むせる**（むせる）＝ cegukan",
+        "**量**（りょう）＝ jumlah",
+        "**リーダー**（りーだー）＝ kepala tim",
+        "**あげもの**（あげもの）＝ gorengan",
+        "**いためもの**（いためもの）＝ tumis",
+        "**お茶**（おちゃ）＝ teh hijau",
+        "**カレーライス**（かれーらいす）＝ nasi kari",
+        "**ご飯**（ごはん）＝ nasi putih",
+        "**献立**（こんだて）＝ daftar makanan",
+        "**献立表**（こんだてひょう）＝ tabel daftar makanan",
+        "**主食**（しゅしょく）＝ makanan pokok",
+        "**汁物**（しるもの）＝ sup",
+        "**漬物**（つけもの）＝ acar",
+        "**豆腐**（とうふ）＝ tahu",
+        "**丼**（どんぶり）＝ nasi mangkuk",
+        "**煮付け**（につけ）＝ rebus berbumbu, semur",
+        "**煮物**（にもの）＝ rebusan",
+        "**副食**（ふくしょく）＝ lauk",
+        "**麦茶**（むぎちゃ）＝ teh gandum",
+        "**メニュー**（めにゅー）＝ menu",
+        "**焼き魚**（やきざかな）＝ ikan bakar",
+        "**ヨーグルト**（よーぐると）＝ yoghurt"
+       ]
+      },
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は3{問|もん}です（214〜216ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kosakata makan (食事) + 3 soal dialog.",
+      "points": [
+       "誤嚥 (ごえん) = makanan/minuman masuk ke saluran napas; むせる = tersedak.",
+       "Jumlah yang dimakan harus dicatat (記録).",
+       "Tawarkan bantuan dulu; hormati pilihan pengguna."
+      ],
+      "exam": [
+       "Sumber: modul hal. 212–216."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j2s3",
+    "no": 3,
+    "title": {
+     "id": "Perawatan untuk Ekskresi",
+     "jp": "{排泄|はいせつ}の{介護|かいご}"
+    },
+    "pages": [
+     217,
+     220
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 217)"
+      },
+      {
+       "ul": [
+        "**足元** (あしもと) = kaki",
+        "**陰部** (いんぶ) = area genital",
+        "**浣腸** (かんちょう) = enema",
+        "**着替える** (きがえる) = berganti pakaian",
+        "**下げる** (さげる) = menurunkan",
+        "**失禁** (しっきん) = inkontinensia",
+        "**羞恥心** (しゅうちしん) = rasa malu",
+        "**使い捨て手袋** (つかいすててぶくろ) = sarung tangan sekali pakai",
+        "**尿** (にょう) = urine",
+        "**尿意** (にょうい) = keinginan berkemih",
+        "**排泄** (はいせつ) = ekskresi",
+        "**便** (べん) = feses",
+        "**便意** (べんい) = keinginan defekasi",
+        "**便座** (べんざ) = toilet duduk",
+        "**ポータブルトイレ** (ぽーたぶるといれ) = toilet portabel",
+        "**看護職** (かんごしょく) = perawat",
+        "**職員** (しょくいん) = staf",
+        "**パジャマ** (ぱじゃま) = piyama",
+        "**呼び出しボタン** (よびだしぼたん) = tombol panggil"
+       ]
+      },
+      {
+       "h": "Soal Dialog dan Sapaan (会話・声かけ)"
+      },
+      {
+       "p": "Modul memuat **3 soal** untuk bagian ini (hal. 218–220). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**足元**（あしもと）＝ kaki",
+        "**陰部**（いんぶ）＝ area genital",
+        "**浣腸**（かんちょう）＝ enema",
+        "**着替える**（きがえる）＝ berganti pakaian",
+        "**下げる**（さげる）＝ menurunkan",
+        "**失禁**（しっきん）＝ inkontinensia",
+        "**羞恥心**（しゅうちしん）＝ rasa malu",
+        "**使い捨て手袋**（つかいすててぶくろ）＝ sarung tangan sekali pakai",
+        "**尿**（にょう）＝ urine",
+        "**尿意**（にょうい）＝ keinginan berkemih",
+        "**排泄**（はいせつ）＝ ekskresi",
+        "**便**（べん）＝ feses",
+        "**便意**（べんい）＝ keinginan defekasi",
+        "**便座**（べんざ）＝ toilet duduk",
+        "**ポータブルトイレ**（ぽーたぶるといれ）＝ toilet portabel",
+        "**看護職**（かんごしょく）＝ perawat",
+        "**職員**（しょくいん）＝ staf",
+        "**パジャマ**（ぱじゃま）＝ piyama",
+        "**呼び出しボタン**（よびだしぼたん）＝ tombol panggil"
+       ]
+      },
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は3{問|もん}です（218〜220ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kosakata ekskresi (排泄) + 3 soal dialog.",
+      "points": [
+       "便座 = dudukan toilet, 呼び出しボタン = tombol panggil.",
+       "Selesai → tekan tombol untuk memberi tahu staf.",
+       "Kulit merah/sakit → laporkan ke perawat."
+      ],
+      "exam": [
+       "Sumber: modul hal. 217–220."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j2s4",
+    "no": 4,
+    "title": {
+     "id": "Perawatan untuk Merapikan Diri",
+     "jp": "みじたくの{介護|かいご}"
+    },
+    "pages": [
+     221,
+     225
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 221)"
+      },
+      {
+       "ul": [
+        "**衣類** (いるい) = pakaian",
+        "**入れ歯** (いれば) = gigi tiruan",
+        "**うがい** (うがい) = berkumur",
+        "**上着** (うわぎ) = baju atasan",
+        "**着替え** (きがえ) = berganti pakaian",
+        "**義歯** (ぎし) = gigi palsu, gigi buatan",
+        "**起床** (きしょう) = bangun tidur",
+        "**くし** (くし) = sisir",
+        "**更衣** (こうい) = berganti pakaian",
+        "**口腔ケア** (こうくうけあ) = perawatan rongga mulut",
+        "**下着** (したぎ) = pakaian dalam",
+        "**スカート** (すかーと) = rok",
+        "**歯医者** (はいしゃ) = dokter gigi",
+        "**歯ブラシ** (はぶらし) = sikat gigi",
+        "**歯磨き** (はみがき) = pasta gigi",
+        "**パンツ** (ぱんつ) = celana dalam",
+        "**ひげ剃り** (ひげそり) = pisau cukur",
+        "**みじたく** (みじたく) = merapikan diri",
+        "**洋服** (ようふく) = pakaian",
+        "**診察** (しんさつ) = pemeriksaan medis",
+        "**左側** (ひだりがわ) = sisi kiri",
+        "**右側** (みぎがわ) = sisi kanan",
+        "**診る** (みる) = memeriksa",
+        "**夜中** (よなか) = tengah malam"
+       ]
+      },
+      {
+       "h": "Soal Dialog dan Sapaan (会話・声かけ)"
+      },
+      {
+       "p": "Modul memuat **4 soal** untuk bagian ini (hal. 222–225). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**衣類**（いるい）＝ pakaian",
+        "**入れ歯**（いれば）＝ gigi tiruan",
+        "**うがい**（うがい）＝ berkumur",
+        "**上着**（うわぎ）＝ baju atasan",
+        "**着替え**（きがえ）＝ berganti pakaian",
+        "**義歯**（ぎし）＝ gigi palsu, gigi buatan",
+        "**起床**（きしょう）＝ bangun tidur",
+        "**くし**（くし）＝ sisir",
+        "**更衣**（こうい）＝ berganti pakaian",
+        "**口腔ケア**（こうくうけあ）＝ perawatan rongga mulut",
+        "**下着**（したぎ）＝ pakaian dalam",
+        "**スカート**（すかーと）＝ rok",
+        "**歯医者**（はいしゃ）＝ dokter gigi",
+        "**歯ブラシ**（はぶらし）＝ sikat gigi",
+        "**歯磨き**（はみがき）＝ pasta gigi",
+        "**パンツ**（ぱんつ）＝ celana dalam",
+        "**ひげ剃り**（ひげそり）＝ pisau cukur",
+        "**みじたく**（みじたく）＝ merapikan diri",
+        "**洋服**（ようふく）＝ pakaian",
+        "**診察**（しんさつ）＝ pemeriksaan medis",
+        "**左側**（ひだりがわ）＝ sisi kiri",
+        "**右側**（みぎがわ）＝ sisi kanan",
+        "**診る**（みる）＝ memeriksa",
+        "**夜中**（よなか）＝ tengah malam"
+       ]
+      },
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は4{問|もん}です（222〜225ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kosakata merapikan diri (みじたく) + 4 soal dialog.",
+      "points": [
+       "着替える = ganti baju, 歯磨き = gosok gigi, うがい = berkumur.",
+       "Pengguna sendiri yang memilih pakaian.",
+       "Gigi sakit → janji dengan dokter gigi, hubungi perawat."
+      ],
+      "exam": [
+       "Sumber: modul hal. 221–225."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j2s5",
+    "no": 5,
+    "title": {
+     "id": "Perawatan untuk Mandi & Kebersihan Tubuh",
+     "jp": "{入浴|にゅうよく}・{清潔保持|せいけつほじ}の{介護|かいご}"
+    },
+    "pages": [
+     226,
+     232
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 226)"
+      },
+      {
+       "ul": [
+        "**温度** (おんど) = suhu",
+        "**（汗を）かく** (（あせを）かく) = berkeringat",
+        "**シャンプー** (しゃんぷー) = sampo",
+        "**消毒** (しょうどく) = disinfeksi",
+        "**消毒液** (しょうどくえき) = larutan antiseptik",
+        "**清潔保持** (せいけつほじ) = menjaga kebersihan tubuh",
+        "**清拭** (せいしき) = mandi seka",
+        "**洗髪** (せんぱつ) = keramas",
+        "**洗面** (せんめん) = cuci muka",
+        "**洗面器** (せんめんき) = baskom",
+        "**脱衣室** (だついしつ) = ruang ganti pakaian",
+        "**入浴** (にゅうよく) = mandi",
+        "**拭く** (ふく) = menyeka",
+        "**浴室** (よくしつ) = kamar mandi",
+        "**浴槽** (よくそう) = bak mandi",
+        "**リンス** (りんす) = kondisioner",
+        "**確認** (かくにん) = memeriksa, memastikan"
+       ]
+      },
+      {
+       "h": "Soal Dialog dan Sapaan (会話・声かけ)"
+      },
+      {
+       "p": "Modul memuat **6 soal** untuk bagian ini (hal. 227–232). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**温度**（おんど）＝ suhu",
+        "**（汗を）かく**（（あせを）かく）＝ berkeringat",
+        "**シャンプー**（しゃんぷー）＝ sampo",
+        "**消毒**（しょうどく）＝ disinfeksi",
+        "**消毒液**（しょうどくえき）＝ larutan antiseptik",
+        "**清潔保持**（せいけつほじ）＝ menjaga kebersihan tubuh",
+        "**清拭**（せいしき）＝ mandi seka",
+        "**洗髪**（せんぱつ）＝ keramas",
+        "**洗面**（せんめん）＝ cuci muka",
+        "**洗面器**（せんめんき）＝ baskom",
+        "**脱衣室**（だついしつ）＝ ruang ganti pakaian",
+        "**入浴**（にゅうよく）＝ mandi",
+        "**拭く**（ふく）＝ menyeka",
+        "**浴室**（よくしつ）＝ kamar mandi",
+        "**浴槽**（よくそう）＝ bak mandi",
+        "**リンス**（りんす）＝ kondisioner",
+        "**確認**（かくにん）＝ memeriksa, memastikan"
+       ]
+      },
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は6{問|もん}です（227〜232ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kosakata mandi & kebersihan (入浴・清潔保持) + 6 soal dialog.",
+      "points": [
+       "Sebelum mandi: tanyakan kondisi badan (体調).",
+       "ぬるい = suam/kurang panas, 熱い = panas.",
+       "Tidak bisa mandi → badan dilap (からだを拭く)."
+      ],
+      "exam": [
+       "Sumber: modul hal. 226–232."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j2s6",
+    "no": 6,
+    "title": {
+     "id": "Perawatan untuk Pekerjaan Rumah Tangga",
+     "jp": "{家事|かじ}の{介護|かいご}"
+    },
+    "pages": [
+     233,
+     238
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 233)"
+      },
+      {
+       "ul": [
+        "**おしぼり** (おしぼり) = lap tangan basah",
+        "**カーテン** (かーてん) = tirai",
+        "**家事** (かじ) = pekerjaan rumah",
+        "**片付ける** (かたづける) = membereskan",
+        "**乾かす** (かわかす) = mengeringkan",
+        "**乾く** (かわく) = mengering",
+        "**換気** (かんき) = pergantian udara",
+        "**ごみ箱** (ごみばこ) = kotak sampah",
+        "**清掃** (せいそう) = membersihkan",
+        "**洗濯** (せんたく) = mencuci (pakaian)",
+        "**洗濯物** (せんたくもの) = cucian",
+        "**掃除** (そうじ) = membersihkan",
+        "**たたむ** (たたむ) = melipat",
+        "**調理** (ちょうり) = memasak",
+        "**布団** (ふとん) = kasur",
+        "**干す** (ほす) = menjemur",
+        "**枕** (まくら) = bantal"
+       ]
+      },
+      {
+       "h": "Soal Dialog dan Sapaan (会話・声かけ)"
+      },
+      {
+       "p": "Modul memuat **5 soal** untuk bagian ini (hal. 234–238). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**おしぼり**（おしぼり）＝ lap tangan basah",
+        "**カーテン**（かーてん）＝ tirai",
+        "**家事**（かじ）＝ pekerjaan rumah",
+        "**片付ける**（かたづける）＝ membereskan",
+        "**乾かす**（かわかす）＝ mengeringkan",
+        "**乾く**（かわく）＝ mengering",
+        "**換気**（かんき）＝ pergantian udara",
+        "**ごみ箱**（ごみばこ）＝ kotak sampah",
+        "**清掃**（せいそう）＝ membersihkan",
+        "**洗濯**（せんたく）＝ mencuci (pakaian)",
+        "**洗濯物**（せんたくもの）＝ cucian",
+        "**掃除**（そうじ）＝ membersihkan",
+        "**たたむ**（たたむ）＝ melipat",
+        "**調理**（ちょうり）＝ memasak",
+        "**布団**（ふとん）＝ kasur",
+        "**干す**（ほす）＝ menjemur",
+        "**枕**（まくら）＝ bantal"
+       ]
+      },
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は5{問|もん}です（234〜238ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kosakata pekerjaan rumah (家事) + 5 soal dialog.",
+      "points": [
+       "洗濯物を干す = menjemur, たたむ = melipat.",
+       "換気 = ventilasi/ganti udara.",
+       "Ajak pengguna melakukan hal yang ia bisa."
+      ],
+      "exam": [
+       "Sumber: modul hal. 233–238."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

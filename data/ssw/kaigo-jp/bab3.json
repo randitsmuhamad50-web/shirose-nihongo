@@ -1,0 +1,315 @@
+{
+ "schema": 1,
+ "bidang": "kaigo-jp",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Kalimat (Bacaan Kerja)",
+   "jp": "{文章|ぶんしょう}"
+  },
+  "intro": {
+   "id": "Membaca teks pendek di tempat kerja: kondisi pengguna, catatan, cara kerja, pengumuman, menu, rencana acara, jadwal kerja, laporan kecelakaan, dan serah terima.",
+   "jp": "{文章|ぶんしょう}"
+  },
+  "pages": [
+   240,
+   265
+  ],
+  "subs": [
+   {
+    "id": "j3s1",
+    "no": 1,
+    "title": {
+     "id": "Kosakata untuk Kalimat",
+     "jp": "{文章|ぶんしょう}のことば"
+    },
+    "pages": [
+     240,
+     241
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Daftar kosakata (hal. 240–241)"
+      },
+      {
+       "ul": [
+        "**アルコール** (あるこーる) = alkohol",
+        "**確認** (かくにん) = memeriksa, memastikan",
+        "**観察** (かんさつ) = mengamati, observasi",
+        "**行事** (ぎょうじ) = acara",
+        "**記録** (きろく) = catatan",
+        "**禁煙** (きんえん) = dilarang merokok",
+        "**禁止** (きんし) = larangan",
+        "**計画** (けいかく) = rencana",
+        "**掲示** (けいじ) = pengumuman",
+        "**ケース** (けーす) = kasus",
+        "**県** (けん) = prefektur",
+        "**玄関** (げんかん) = area pintu masuk",
+        "**参加者** (さんかしゃ) = peserta",
+        "**参加** (さんか) = partisipasi",
+        "**事故** (じこ) = kecelakaan",
+        "**施設** (しせつ) = fasilitas",
+        "**就寝** (しゅうしん) = pergi tidur",
+        "**出勤** (しゅっきん) = pergi bekerja",
+        "**巡視** (じゅんし) = patroli",
+        "**使用** (しよう) = menggunakan",
+        "**状況** (じょうきょう) = kondisi",
+        "**ショートステイ** (しょーとすてい) = tinggal jangka pendek, short stay",
+        "**自立** (じりつ) = kemandirian",
+        "**スケジュール** (すけじゅーる) = jadwal",
+        "**送迎車** (そうげいしゃ) = mobil antar-jemput",
+        "**退勤** (たいきん) = pulang bekerja",
+        "**タイヤ** (たいや) = roda",
+        "**建物** (たてもの) = bangunan",
+        "**担当者** (たんとうしゃ) = staf penanggung jawab",
+        "**調理員** (ちょうりいん) = juru masak",
+        "**転倒** (てんとう) = terjatuh"
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "ことば"
+      },
+      {
+       "ul": [
+        "**アルコール**（あるこーる）＝ alkohol",
+        "**確認**（かくにん）＝ memeriksa, memastikan",
+        "**観察**（かんさつ）＝ mengamati, observasi",
+        "**行事**（ぎょうじ）＝ acara",
+        "**記録**（きろく）＝ catatan",
+        "**禁煙**（きんえん）＝ dilarang merokok",
+        "**禁止**（きんし）＝ larangan",
+        "**計画**（けいかく）＝ rencana",
+        "**掲示**（けいじ）＝ pengumuman",
+        "**ケース**（けーす）＝ kasus",
+        "**県**（けん）＝ prefektur",
+        "**玄関**（げんかん）＝ area pintu masuk",
+        "**参加者**（さんかしゃ）＝ peserta",
+        "**参加**（さんか）＝ partisipasi",
+        "**事故**（じこ）＝ kecelakaan",
+        "**施設**（しせつ）＝ fasilitas",
+        "**就寝**（しゅうしん）＝ pergi tidur",
+        "**出勤**（しゅっきん）＝ pergi bekerja",
+        "**巡視**（じゅんし）＝ patroli",
+        "**使用**（しよう）＝ menggunakan",
+        "**状況**（じょうきょう）＝ kondisi",
+        "**ショートステイ**（しょーとすてい）＝ tinggal jangka pendek, short stay",
+        "**自立**（じりつ）＝ kemandirian",
+        "**スケジュール**（すけじゅーる）＝ jadwal",
+        "**送迎車**（そうげいしゃ）＝ mobil antar-jemput",
+        "**退勤**（たいきん）＝ pulang bekerja",
+        "**タイヤ**（たいや）＝ roda",
+        "**建物**（たてもの）＝ bangunan",
+        "**担当者**（たんとうしゃ）＝ staf penanggung jawab",
+        "**調理員**（ちょうりいん）＝ juru masak",
+        "**転倒**（てんとう）＝ terjatuh"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "31 kata yang sering muncul di teks kerja (pengumuman, catatan, jadwal).",
+      "points": [
+       "出勤 = masuk kerja, 退勤 = pulang kerja, 巡視 = patroli.",
+       "禁煙 = dilarang merokok, 使用禁止 = dilarang dipakai.",
+       "申し送り = serah terima informasi antarshift."
+      ],
+      "exam": [
+       "Sumber: modul hal. 240–241."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j3s2",
+    "no": 2,
+    "title": {
+     "id": "Kondisi & Catatan Pengguna",
+     "jp": "{利用者|りようしゃ}の{状況|じょうきょう}・{記録|きろく}"
+    },
+    "pages": [
+     242,
+     247
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Soal Kalimat (文章)"
+      },
+      {
+       "p": "Modul memuat **6 soal** untuk bagian ini (hal. 242–247). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は6{問|もん}です（242〜247ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "6 teks pendek tentang kondisi pengguna dan catatan (記録).",
+      "points": [
+       "Perhatikan kata waktu: 夜は / いつも / ときどき.",
+       "自立 = mandiri; 介護が必要 = perlu bantuan; 見守り = pengawasan.",
+       "Catatan memakai jam; cocokkan jam dengan kejadiannya."
+      ],
+      "exam": [
+       "Sumber: modul hal. 242–247."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j3s3",
+    "no": 3,
+    "title": {
+     "id": "Cara Kerja",
+     "jp": "{仕事|しごと}のやり{方|かた}"
+    },
+    "pages": [
+     248,
+     253
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Soal Kalimat (文章)"
+      },
+      {
+       "p": "Modul memuat **6 soal** untuk bagian ini (hal. 248–253). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は6{問|もん}です（248〜253ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "6 teks tentang cara kerja yang benar.",
+      "points": [
+       "Sebelum merawat, selalu 声かけ (menyapa/memberi tahu).",
+       "Kursi roda berhenti → selalu rem.",
+       "Kebakaran: beri tahu sekitar → bel darurat → telepon 119 → evakuasi."
+      ],
+      "exam": [
+       "Sumber: modul hal. 248–253."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j3s4",
+    "no": 4,
+    "title": {
+     "id": "Pengumuman, Menu & Rencana Acara",
+     "jp": "{掲示|けいじ}・{献立|こんだて}・{行事|ぎょうじ}の{計画|けいかく}"
+    },
+    "pages": [
+     254,
+     260
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Soal Kalimat (文章)"
+      },
+      {
+       "p": "Modul memuat **7 soal** untuk bagian ini (hal. 254–260). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は7{問|もん}です（254〜260ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "7 teks: pengumuman (掲示), menu (献立), dan rencana acara (行事の計画).",
+      "points": [
+       "Baca siapa yang dituju: 面会のみなさまへ / ご家族のみなさまへ.",
+       "Perhatikan tanggal, tempat, dan penanggung jawab (担当者).",
+       "主食 = makanan pokok, 副食 = lauk."
+      ],
+      "exam": [
+       "Sumber: modul hal. 254–260."
+      ]
+     }
+    }
+   },
+   {
+    "id": "j3s5",
+    "no": 5,
+    "title": {
+     "id": "Jadwal Kerja, Laporan Kecelakaan & Serah Terima",
+     "jp": "{仕事|しごと}のスケジュール・{事故|じこ}の{報告|ほうこく}・{申|もう}し{送|おく}り"
+    },
+    "pages": [
+     261,
+     265
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Soal Kalimat (文章)"
+      },
+      {
+       "p": "Modul memuat **5 soal** untuk bagian ini (hal. 261–265). Soal asli lengkap dengan furigana ada pada gambar halaman di bawah; kerjakan di tombol **Kuis** bab ini. Kunci jawaban resmi ada di hal. 267."
+      },
+      {
+       "note": "Ujian Evaluasi Bahasa Jepang untuk Perawatan Lansia memakai bahasa Jepang. Biasakan membaca teks aslinya, lalu cek pembahasan bahasa Indonesia."
+      }
+     ],
+     "jp": [
+      {
+       "h": "もんだい"
+      },
+      {
+       "p": "この{部分|ぶぶん}の{問題|もんだい}は5{問|もん}です（261〜265ページ）。{答|こた}えは267ページ。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "5 teks: jadwal kerja (日勤・夜勤), laporan kecelakaan, dan serah terima.",
+      "points": [
+       "日勤 = shift siang, 夜勤 = shift malam.",
+       "Laporan kecelakaan: 日時・場所・内容・原因・対応.",
+       "申し送り: perhatikan jam dan siapa yang menjemput/mengantar."
+      ],
+      "exam": [
+       "Sumber: modul hal. 261–265."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
