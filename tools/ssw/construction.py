@@ -10,6 +10,7 @@ import os, re, sys, json
 sys.path.insert(0, os.path.dirname(__file__)); sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src", "construction"))
 from bidang_lib import vocab_item, vocab_quiz, write_pack
 import cn_data as D
+import jp_blocks as JB
 HEADS = json.load(open(os.path.join(os.path.dirname(__file__), "src", "construction", "heads.json"), encoding="utf-8"))
 
 def sub(id, key, pages, ti=None, tj=None, **kw): return dict(id=id, key=key, pages=pages, ti=ti, tj=tj, **kw)
@@ -141,7 +142,10 @@ def build_pack(P, glossary):
                 full = [{"p": s["intro"]}, {"h": "Topik pada subbab ini (judul asli buku)"}, {"ul": ["%s (hal. %d)" % (t, p) for p, n, t in hs] or ["Lihat halaman buku."]}] + list(s["extra"]) + [{"note": D.NOTE}]
                 summ = dict(core=s["intro"], points=["Baca topik sesuai pekerjaan yang akan kamu kerjakan.", "Perhatikan gambar alat dan urutan kerja di halaman buku."], avoid=["Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."], exam=["Nama alat/material dan fungsinya."])
                 items = [soal_item(t, p1) for t in s["soal"]]
-            subs_out.append(dict(id=s["id"], no=si, pagesJp=JP_PAGES[kat][s["id"]], title={"id": ti_s, "jp": tj_s}, pages=[p1, p2], full={"id": full}, summary={"id": summ}, _items=items, _hs=hs))
+            jp_rng = JP_PAGES[kat][s["id"]]; jb = JB.blocks(kat, *jp_rng)
+            if kat == "lifeline" and s["id"] in ("b5s1", "b5s2", "b5s3"):
+                jb = [{"note": "この小節（インフラ・ライフライン）は、教科書63〜72ページの内容をまとめて扱います。"}] + jb
+            subs_out.append(dict(id=s["id"], no=si, pagesJp=jp_rng, title={"id": ti_s, "jp": tj_s}, pages=[p1, p2], full={"id": full, "jp": jb}, summary={"id": summ, "jp": JB.summary(jb)}, _items=items, _hs=hs))
         # soal navigasi untuk subbab tanpa soal tulis-tangan
         for so in subs_out:
             if so["_items"]: continue
