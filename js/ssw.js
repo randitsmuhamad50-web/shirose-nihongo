@@ -14,7 +14,7 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261112e";
+} from "./ssw-core.js?v=20261112f";
 import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
 
 let FB = null;
@@ -428,9 +428,13 @@ async function renderHafal([slug, pre]) {
   const groups = chs.map(c => `<div class="sw-panel hf-g"><label class="hf-bab"><input type="checkbox" ${(!pre || pre === c.id) ? "checked" : ""} onchange="SSW.hafalBab('${c.id}',this.checked)"> <b>BAB ${c.no} — ${esc(plain(L(c.title, "id")))}</b></label>
     <div class="hf-subs">${c.subs.map(s => `<label class="hf-sub ${cnt(s.id) ? "" : "off"}"><input type="checkbox" data-sub="${s.id}" data-bab="${c.id}" ${(!pre || pre === c.id) && cnt(s.id) ? "checked" : ""} ${cnt(s.id) ? "" : "disabled"} onchange="SSW.hafalCount()"><span>${c.no}.${s.no} ${esc(plain(L(s.title, "id")))}</span><small>${cnt(s.id)} kata</small></label>`).join("")}</div></div>`).join("");
   const adaAlat = !!pack.idx.alat;
-  setTimeout(() => { SSW.hafalCount(); if (adaAlat) SSW.alatInit(slug); }, 0);
+  setTimeout(() => { SSW.hafalCount(); SSW.pickRender(slug); if (adaAlat) SSW.alatInit(slug); }, 0);
   return wrap(`${crumbs([{ t: "SSW", go: "route('ssw')" }, { t: esc(b.nama), go: `route('ssw-peta/${slug}')` }, { t: "Hafalan kosakata" }])}
     <div class="sw-head compact"><div class="jp">単語暗記</div><h1>Hafalan Kosakata</h1><p>Pilih subbab (boleh banyak). Kata yang sama dari beberapa subbab hanya muncul sekali.</p></div>
+    <div class="sw-panel pk-p"><h2>⭐ Hafalan Pilihan <small class="sw-muted">(rangkuman kata pilihanmu · <b id="pk-n">0</b> kata)</small></h2>
+      <p class="sw-muted">Hanya kata yang kamu tandai lewat pop-up kosakata. Terpisah dari Hafalan Penuh di bawah.</p><div id="pk-box"></div>
+      <div class="sw-actions left"><button class="btn" onclick="SSW.pickGo('flashcard')">🃏 Flashcard</button><button class="btn ghost" onclick="SSW.pickGo('multiple')">✅ Pilihan ganda</button><button class="btn ghost" onclick="SSW.pickGo('matching')">🔗 Matching</button><button class="btn ghost" onclick="SSW.pickGo('mixed')">🎲 Campur</button></div></div>
+    <div class="sw-head compact" style="margin-top:6px"><h2>📚 Hafalan Penuh <small class="sw-muted">(semua kosakata per subbab)</small></h2></div>
     ${!adaAlat ? "" : `<div class="sw-panel alat-p" id="alat-p"><h2>🧰 Flashcard Peralatan <span class="jp">ビルクリーニング用具</span></h2><p class="sw-muted">Gambar peralatan dari buku (hal. 81–82). Gambar tampil di depan — tebak namanya.</p><div id="alat-body"><p class="sw-muted">Memuat…</p></div></div>`}
     <div class="sw-panel"><div class="hf-stats"><span>Baru <b>${st.baru}</b></span><span>Belum <b>${st.belum}</b></span><span>Perlu ulang <b>${st.due}</b></span><span>Hafal <b>${st.hafal}</b></span><span>Kuasa <b>${st.kuasa}</b></span></div></div>
     <div class="hf-f sw-seg sm" style="flex-wrap:wrap;border-radius:18px">${[["semua", "Semua"], ["baru", "Baru"], ["belum", "Belum hafal"], ["ulang", "Perlu diulang"], ["hafal", "Sudah hafal"]].map(([k, t]) => `<button data-f="${k}" class="${k === "semua" ? "on" : ""}" onclick="SSW.hafalFilter('${k}')">${t}</button>`).join("")}</div>
@@ -685,6 +689,7 @@ const SSW = window.SSW = {
   async vsheet(slug, id) {
     const pack = await loadPack(slug), v = pack.vocab.find(x => x.id === id); if (!v) return;
     const P = await getProgress(slug), st = cardState(P.cards[id]);
+    const picked = !!(P.pick && P.pick[id]);
     const stl = { baru: "Baru", belum: "Belum hafal", ulang: "Perlu diulang", hafal: "Hafal", kuasa: "Dikuasai" }[st];
     const srcs = (v.src || []).map(x => `<a onclick="SSW.vclose();SSW.go('${slug}','${x}')">${esc(x.replace(/^b(\d+)s(\d+)$/, "BAB $1.$2"))}</a>`).join(" · ");
     let sh = document.getElementById("sw-vs"); if (!sh) { sh = document.createElement("div"); sh.id = "sw-vs"; document.body.append(sh); }
@@ -696,12 +701,35 @@ const SSW = window.SSW = {
       ${v.contoh ? `<div class="sw-vs-ex"><p class="jp">${rich(v.contoh)}</p><p class="sw-muted">${esc(v.arti_contoh || "")}</p></div>` : ""}
       ${v.cat ? `<p class="sw-muted">Kategori: ${esc(v.cat)}</p>` : ""}${srcs ? `<p class="sw-muted">Muncul di: ${srcs}</p>` : ""}
       <div class="sw-vs-b"><button class="btn" onclick="SSW.sayWord('${slug}','${id}')">🔊 Dengar</button>
-        <button class="btn ghost" onclick="SSW.vadd('${slug}','${id}')">➕ Tambah ke hafalan</button>
+        <button class="btn ${picked ? "gold" : "ghost"}" id="sw-vpick" onclick="SSW.vpick('${slug}','${id}')">${picked ? "★ Ada di Hafalan Pilihan (ketuk = hapus)" : "⭐ Masukkan ke Hafalan Pilihan"}</button>
         <button class="btn ghost" onclick="SSW.vclose();route('ssw-kartu/${slug}/w:${id}/semua')">🃏 Flashcard kata ini</button>
         <button class="btn ghost" onclick="SSW.vclose()">↩ Kembali ke materi</button></div></div>`;
     sh.hidden = false; document.body.classList.add("sw-lbopen");
   },
   vclose() { const sh = document.getElementById("sw-vs"); if (sh) sh.hidden = true; document.body.classList.remove("sw-lbopen"); },
+  async vpick(slug, id) {
+    const P = await getProgress(slug); P.pick = P.pick || {};
+    if (P.pick[id]) { delete P.pick[id]; toast("Dihapus dari Hafalan Pilihan"); }
+    else { P.pick[id] = Date.now(); toast("Masuk Hafalan Pilihan ⭐"); const pack = await loadPack(slug), v = pack.vocab.find(x => x.id === id); if (v && window.sswAddCard) { try { await window.sswAddCard(vnum(v), vnum(v) - 1); } catch (e) { /* kartu SRS opsional */ } } }
+    touch(slug); SSW.vsheet(slug, id);
+    const n = document.getElementById("pk-n"); if (n) SSW.pickRender(slug);
+  },
+  async pickRender(slug) {
+    const box = document.getElementById("pk-box"); if (!box) return;
+    const P = await getProgress(slug), pack = await loadPack(slug), ids = Object.keys(P.pick || {});
+    const rows = ids.map(i => pack.vocab.find(v => v.id === i)).filter(Boolean);
+    document.getElementById("pk-n").textContent = rows.length;
+    box.innerHTML = rows.length ? `<div class="sw-vchips">${rows.map(v => `<span class="sw-vc"><button type="button" class="pk-k" onclick="SSW.vsheet('${slug}','${v.id}')"><span class="jp">${esc(v.kata)}</span><small>${esc(v.arti)}</small></button><button type="button" class="pk-x" onclick="SSW.vpick('${slug}','${v.id}')" aria-label="Hapus">✕</button></span>`).join("")}</div>`
+      : `<p class="sw-muted">Belum ada kata. Ketuk kata di materi atau bank kosakata, lalu tekan “⭐ Masukkan ke Hafalan Pilihan”.</p>`;
+  },
+  async pickGo(mode) {
+    const slug = HF && HF.slug; if (!slug) return;
+    const P = await getProgress(slug), pack = await loadPack(slug);
+    const rows = Object.keys(P.pick || {}).map(i => pack.vocab.find(v => v.id === i)).filter(Boolean);
+    if (!rows.length) return toast("Belum ada kata di Hafalan Pilihan");
+    let m = mode; if (mode === "mixed") { const ms = ["flashcard", "multiple", "matching"]; m = ms[Math.floor(Math.random() * ms.length)]; toast("Mode acak: " + { flashcard: "Flashcard", multiple: "Pilihan ganda", matching: "Matching" }[m]); }
+    await window.sswHafalStart({ items: hafItems(rows), mode: m, back: `ssw-hafal/${slug}` });
+  },
   async vadd(slug, id) { const pack = await loadPack(slug), v = pack.vocab.find(x => x.id === id); if (!v || !window.sswAddCard) return; await window.sswAddCard(vnum(v), vnum(v) - 1); const P = await getProgress(slug); await syncCards(P, pack.vocab, true); toast("Masuk daftar hafalan ✓"); },
   /* --- hub hafalan --- */
   hafalCount() {

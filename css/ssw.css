@@ -305,3 +305,6 @@ body.sw-figopen{padding-bottom:62vh;}
   body.sw-figopen{padding-bottom:0;} body.sw-figopen .sw-wrap{margin-right:404px;max-width:none;}
   .sw-fp-b .sw-fig-img img{max-height:52vh;}
 }
+
+.pk-p{border-color:#d6a93a;} .pk-p h2{margin:0 0 4px;}
+.sw-vc:has(.pk-k){display:inline-flex;align-items:center;gap:4px;padding:0;} .pk-k{background:none;border:0;color:inherit;text-align:left;padding:6px 8px;cursor:pointer;} .pk-x{background:none;border:0;color:#ff9aa8;font-size:14px;padding:6px 8px;cursor:pointer;}
