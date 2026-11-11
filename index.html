@@ -1299,6 +1299,7 @@ html{overflow-x:hidden;}
 .bp-rumus li{background:rgba(255,255,255,.05); border-left:3px solid var(--pink,#ec4899); border-radius:8px; padding:8px 10px; font-size:14px; line-height:1.5; font-family:var(--font-jp,inherit);}
 .exam-area ruby rt{transition:opacity .2s;}
 .exam-area.no-furigana ruby rt{opacity:0; visibility:hidden;}
+.flash-card .front ruby rt{display:none; font-size:.45em; font-weight:600; color:var(--pink-light,#f9a8c9);} body.haf-furi-on .flash-card .front ruby rt{display:revert;}
 .furi-toggle{
   display:inline-flex; align-items:center; gap:6px;
   padding:6px 12px; border-radius:999px; cursor:pointer;
@@ -1360,8 +1361,8 @@ html{overflow-x:hidden;}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
-<link rel="stylesheet" href="./css/kana-center.css?v=20261111h"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261111h"/>
+<link rel="stylesheet" href="./css/kana-center.css?v=20261111j"/>
+<link rel="stylesheet" href="./css/ssw.css?v=20261111j"/>
 </head>
 <body>
 
@@ -1412,14 +1413,14 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261111h";
+import * as FB from "./js/firebase-sync.js?v=20261111j";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
-import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261111h";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261111j";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
-import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261111h";
+import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261111j";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261111h";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261111j";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
@@ -3567,6 +3568,11 @@ async function renderHafalanSession(){
   return renderHafalanFlashcard();
 }
 
+/* Furigana pada sisi depan flashcard: tombol ON/OFF (disimpan, default OFF supaya tetap jadi latihan baca) */
+function _hafFuriOn(){ try { return localStorage.getItem("shirose-haf-furi") === "1"; } catch(_) { return false; } }
+function _hafApplyFuri(){ document.body.classList.toggle("haf-furi-on", _hafFuriOn()); }
+window.hafToggleFuri = function hafToggleFuri(){ try { localStorage.setItem("shirose-haf-furi", _hafFuriOn() ? "0" : "1"); } catch(_) {} _hafApplyFuri(); const b = document.getElementById("haf-furi-btn"); if (b){ b.textContent = _hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"; b.setAttribute("aria-pressed", String(_hafFuriOn())); } }
+_hafApplyFuri();
 /* ========== MODE 1: FLASHCARD v2 — front-only, tap = reveal, center btn = prev ========== */
 function renderHafalanFlashcard(){
   const q = state.hafalan_queue;
@@ -3589,6 +3595,7 @@ function renderHafalanFlashcard(){
       <div class="haf-topbar">
         <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:14px; font-weight:700;">${pos+1} / ${q.length}</span>
+        <button class="btn ghost sm" id="haf-furi-btn" onclick="hafToggleFuri()" aria-pressed="${_hafFuriOn()}">${_hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"}</button>
         <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
 
@@ -3597,7 +3604,7 @@ function renderHafalanFlashcard(){
         <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
         <div class="flash-card enter" id="flash-card" data-front="${safeFront}" data-say="${safeFront}" onclick="hafCardTap(event)">
           <div class="no-pill">${fmtNo(it.dno ?? it.no)} · ${_hafBadge(it)}</div>
-          ${it.img ? `<div class="front imgf"><img src="${it.img}" alt="Gambar peralatan" draggable="false"></div>` : `<div class="front">${it.front}</div>`}
+          ${it.img ? `<div class="front imgf"><img src="${it.img}" alt="Gambar peralatan" draggable="false"></div>` : `<div class="front">${(it.reading && /[\u3400-\u9fff]/.test(it.front) && !/<ruby/.test(it.front) && String(it.reading).replace(/<[^>]+>/g,"") !== it.front) ? `<ruby>${it.front}<rt>${String(it.reading).replace(/<[^>]+>/g,"")}</rt></ruby>` : it.front}</div>`}
           <div class="back-face">
             ${it.img ? `<div class="jpname">${it.front}</div>` : ""}
             <div class="reading">${it.reading || "—"}</div>
