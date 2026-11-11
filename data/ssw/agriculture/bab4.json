@@ -1,0 +1,236 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab4",
+  "no": 4,
+  "title": {
+   "id": "Budidaya Sayuran di Ladang",
+   "jp": "{畑作|はたさく}・{露地野菜|ろじやさい}"
+  },
+  "intro": {
+   "id": "Bagian 5 modul: karakteristik tanaman ladang, pengelolaan budidaya (suhu, cahaya, air), benih, dan cara menanam benih.",
+   "jp": "{畑作|はたさく}・{露地野菜|ろじやさい}"
+  },
+  "pages": [
+   51,
+   60
+  ],
+  "subs": [
+   {
+    "id": "a4s1",
+    "no": 1,
+    "title": {
+     "id": "Karakteristik Tanaman yang Dibudidayakan",
+     "jp": "{作物|さくもつ}の{特徴|とくちょう}"
+    },
+    "pages": [
+     51,
+     57
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Golongan tanaman"
+      },
+      {
+       "ul": [
+        "**Biji-bijian**: gandum, barli, gandum hitam, oat; kacang kedelai, kacang merah (kedelai muda = **edamame**, termasuk sayuran).",
+        "**Ubi-ubian**: ubi jalar, kentang (bahan pati); ubi yang dimakan mentah adalah sayuran.",
+        "Sekitar **150 jenis sayur** dibudidayakan di Jepang; terbanyak kentang, ubi jalar, lobak, kol, sawi putih, bawang bombai, wortel, bayam.",
+        "Taksonomi: **sistem alami** (botani, satu suku punya kesamaan) dan **sistem artifisial** (menurut organ yang dimakan)."
+       ]
+      },
+      {
+       "h": "Taksonomi menurut organ"
+      },
+      {
+       "ul": [
+        "**Sayuran daun**: daunnya dimakan.",
+        "**Sayuran akar**: akar atau umbinya dimakan (bawang bombai tetap sayuran akar).",
+        "**Sayuran buah**: buah atau bijinya dimakan."
+       ]
+      },
+      {
+       "h": "Sayuran utama"
+      },
+      {
+       "ul": [
+        "**Kol, sawi putih, letus**: cocok iklim sejuk; kol dan letus biasanya tanam pindah; sawi putih sayuran musim gugur (acar, nabe).",
+        "**Bayam**: dapat dipanen 1,5–2 bulan setelah semai (tinggi daun ±25 cm); umumnya semai langsung; suhu tinggi memicu diferensiasi pucuk bunga.",
+        "**Lobak**: semai langsung; suhu rendah terus-menerus memicu diferensiasi pucuk bunga.",
+        "**Kentang**: ditanam dari bibit umbi. **Ubi jalar**: tumbuh di tanah miskin pupuk; pupuk berlebih membuat daun dan batang besar, akar tidak.",
+        "**Wortel**: kaya karotena, semai langsung, sulit bertunas bila kering.",
+        "**Tomat**: tanam pindah, **penyetekan** (pemangkasan tunas samping), pemangkasan tunas ujung dan buah. **Timun**: dipanen saat buah ±20 cm. **Terong**: perlu tiang penopang, pemangkasan, pengikatan."
+       ]
+      },
+      {
+       "h": "Tanaman industri dan pakan"
+      },
+      {
+       "ul": [
+        "**Tanaman industri** (perlu pengolahan canggih): teh, konnyaku, kacang tanah, mansiang, tembakau, bit gula, tebu.",
+        "**Teh** pohon abadi; tinggi sekitar pinggang agar mudah dipanen; lahannya disebut perkebunan teh. **Kacang tanah**: ginofor menusuk tanah dan menjadi polong.",
+        "**Tanaman pakan**: rumput pakan, padi, jagung, sorgum, oat; diberikan langsung, kering, atau **silase** (difermentasi tertutup tanpa oksigen), dipanen saat nilai gizi tinggi."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 51–57. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali golongan tanaman dan sayuran berdasarkan organ yang dimakan serta cara budidaya khasnya.",
+      "points": [
+       "Sayuran daun, akar, buah.",
+       "Wortel dan lobak: semai langsung; tomat, kol, letus: tanam pindah.",
+       "Silase = pakan fermentasi tanpa oksigen."
+      ],
+      "avoid": [
+       "Memberi pupuk berlebih pada ubi jalar."
+      ],
+      "exam": [
+       "Klasifikasi sayuran menurut organ.",
+       "Tanaman industri."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a4s2",
+    "no": 2,
+    "title": {
+     "id": "Pengelolaan Budidaya: Suhu, Cahaya, Air",
+     "jp": "{栽培管理|さいばいかんり}"
+    },
+    "pages": [
+     57,
+     58
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Suhu"
+      },
+      {
+       "p": "Tiap sayuran dan tahap pertumbuhan punya **suhu optimal**. Dengan rumah kaca, terowongan, dan penutupan langsung, tanaman bersuhu tinggi dapat ditanam di daerah dingin."
+      },
+      {
+       "h": "Cahaya dan fotosintesis"
+      },
+      {
+       "ul": [
+        "Makin kuat cahaya, fotosintesis makin aktif, tetapi ada **titik saturasi cahaya** (di atasnya tidak naik lagi).",
+        "Butuh cahaya kuat: **tomat, melon, jagung, wortel**. Cahaya lemah: **mitsuba, myoga**."
+       ]
+      },
+      {
+       "h": "Air"
+      },
+      {
+       "ul": [
+        "Air kurang → tanaman layu, kekurangan nutrisi. Air berlebih → kekurangan oksigen, akar membusuk.",
+        "Diukur dengan **tensiometer** atau pengukur kadar air tanah; satuan % atau **nilai pF**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 57–58. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Suhu, cahaya, dan air harus pas untuk jenis sayuran dan tahap pertumbuhannya.",
+      "points": [
+       "Titik saturasi cahaya.",
+       "Tomat, melon, jagung, wortel: cahaya kuat.",
+       "Kadar air dinyatakan % atau nilai pF."
+      ],
+      "avoid": [
+       "Memberi air berlebihan sehingga akar membusuk."
+      ],
+      "exam": [
+       "Sayur cahaya kuat vs lemah.",
+       "Alat ukur kadar air."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a4s3",
+    "no": 3,
+    "title": {
+     "id": "Benih dan Penanaman Benih",
+     "jp": "{種子|しゅし}と{播種|はしゅ}"
+    },
+    "pages": [
+     58,
+     60
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pertunasan"
+      },
+      {
+       "ul": [
+        "Tiga syarat pertunasan: **air, suhu, oksigen**. Air berlebih membuat kekurangan oksigen sehingga tidak bertunas.",
+        "**Fotoblastik positif** (mudah bertunas bila terkena cahaya): wortel, letus. **Fotoblastik negatif** (sulit bila terkena cahaya): lobak, tomat, semangka."
+       ]
+      },
+      {
+       "h": "Usia dan penyimpanan benih"
+      },
+      {
+       "ul": [
+        "Benih punya batas usia; simpan di suhu rendah dan kering.",
+        "**1–2 tahun**: wortel, jagung, bayam. **2–3 tahun**: bawang daun, bawang bombai, lobak, kol. **3–4 tahun**: tomat, terong."
+       ]
+      },
+      {
+       "h": "Benih olahan dan jenis"
+      },
+      {
+       "ul": [
+        "**Benih berlapis** (bulat seragam), **benih telanjang** (kulit dibuang), **benih steril**, **seed tape** (pita benih).",
+        "**Benih F1** (generasi pertama): unggul dari induknya, banyak dipakai sayuran. **Varietas bersari bebas**: benih bisa diambil sendiri (contoh Kyo-yasai, Kaga-yasai)."
+       ]
+      },
+      {
+       "h": "Penanaman benih"
+      },
+      {
+       "ul": [
+        "Cara: **disebar**, **sesuai jalur (sebaris)**, atau **beberapa benih per titik**; dipilih sesuai jenis sayur.",
+        "Menutup dengan tanah setelah semai = **penutupan tanah**. Benih fotoblastik positif (wortel) ditutup **tipis**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 58–60. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Benih bertunas karena air, suhu, oksigen; umur simpan dan cara semai berbeda per jenis.",
+      "points": [
+       "Fotoblastik positif: wortel, letus.",
+       "Benih F1 = generasi pertama.",
+       "Wortel ditutup tanah tipis."
+      ],
+      "avoid": [
+       "Menutup benih fotoblastik positif dengan tanah tebal."
+      ],
+      "exam": [
+       "Tiga syarat pertunasan.",
+       "Daya simpan benih per jenis."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

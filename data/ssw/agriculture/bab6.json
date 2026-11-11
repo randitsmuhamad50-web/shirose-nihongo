@@ -1,0 +1,462 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab6",
+  "no": 6,
+  "title": {
+   "id": "Budidaya Buah-buahan",
+   "jp": "{果樹栽培|かじゅさいばい}"
+  },
+  "intro": {
+   "id": "Bagian 7 modul: definisi pohon buah, pertumbuhan, bibit dan penyambungan, pemangkasan, penjarangan, panen, tanah dan pupuk, fasilitas, jenis buah utama, serta mesin.",
+   "jp": "{果樹栽培|かじゅさいばい}"
+  },
+  "pages": [
+   74,
+   95
+  ],
+  "subs": [
+   {
+    "id": "a6s1",
+    "no": 1,
+    "title": {
+     "id": "Pohon Buah dan Pertumbuhannya",
+     "jp": "{果樹|かじゅ}の{生育|せいいく}"
+    },
+    "pages": [
+     74,
+     76
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Definisi dan jenis"
+      },
+      {
+       "ul": [
+        "**Pohon buah** = pohon yang dibudidayakan untuk dipanen buahnya. Melon dan semangka layu dalam setahun sehingga termasuk **sayuran** (rumput).",
+        "**Pohon buah peluruh** (daun gugur di musim dingin): apel, anggur, pir, persik, kesemek, kastanye.",
+        "**Pohon buah hijau abadi**: jeruk unshiu, yuzu, loquat.",
+        "Bibit dibesarkan beberapa tahun tanpa berbuah; setelah besar berbuah dan bisa dipanen **20–40 tahun** tergantung jenis."
+       ]
+      },
+      {
+       "h": "Kuncup daun dan pucuk bunga"
+      },
+      {
+       "ul": [
+        "**Kuncup daun** mengeluarkan daun; **pucuk bunga** tempat bunga mekar dan berbuah. Umumnya pucuk bunga terbentuk **tahun sebelum** berbunga.",
+        "Persik dan ceri: pucuk bunga di ranting tahun lalu. Apel, pir, anggur: di ranting tahun ini. Jeruk unshiu: kedua tipe.",
+        "Pembantu diferensiasi pucuk bunga: kurangi efek nitrogen, jangan banyak pangkas, hindari buah berlebihan, kurangi sedikit air tanah.",
+        "Waktu diferensiasi: peluruh Juni–Agustus; anggur akhir Mei; jeruk unshiu Oktober dan seterusnya."
+       ]
+      },
+      {
+       "h": "Berbuah dan lingkungan"
+      },
+      {
+       "ul": [
+        "**Partenokarpi** (buah tanpa penyerbukan): jeruk unshiu, buah ara, kesemek Hiratanenashi. Anggur tanpa biji dibuat dengan **giberelin**.",
+        "Buah membesar: jumlah sel bertambah dulu, lalu ukuran sel; gula menumpuk, buah melunak saat matang.",
+        "Butuh suhu, penyinaran, curah hujan tepat; lindungi dari **angin kencang** (contoh pir ditanam di rak); nutrisi seimbang; tanah dengan retensi air dan pembuangan baik."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 74–76. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pohon buah berumur panjang; pucuk bunga terbentuk tahun sebelum berbunga.",
+      "points": [
+       "Peluruh vs hijau abadi.",
+       "Partenokarpi: unshiu, ara, Hiratanenashi.",
+       "Anggur tanpa biji: giberelin."
+      ],
+      "avoid": [
+       "Pemupukan nitrogen berlebihan dan pemangkasan berat yang menghambat pucuk bunga."
+      ],
+      "exam": [
+       "Contoh pohon peluruh.",
+       "Faktor pendukung diferensiasi pucuk bunga."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a6s2",
+    "no": 2,
+    "title": {
+     "id": "Bibit dan Penyambungan",
+     "jp": "{苗木|なえぎ}と{接|つ}ぎ{木|き}"
+    },
+    "pages": [
+     77,
+     80
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bibit pohon buah"
+      },
+      {
+       "ul": [
+        "Umumnya dibuat dengan **menyambung batang atas ke batang bawah**. Batang bawah: varietas tahan penyakit; batang atas: varietas unggul berbuah bagus.",
+        "Pembiakan **vegetatif** (penyambungan, setek, pencangkokan) dan **dari biji** (bibit **seedling/mishonae**, untuk batang bawah atau pemuliaan).",
+        "Bibit baik: akar halus panjang, tidak terserang penyakit/hama."
+       ]
+      },
+      {
+       "h": "Jenis penyambungan"
+      },
+      {
+       "ul": [
+        "**Penyambungan ranting**: dengan potong, pada celah (terutama pembaruan ranting utama), pada samping.",
+        "**Penyambungan tunas**: bentuk **T**, dan menggerus.",
+        "Tujuan: memperbanyak varietas sama; mempercepat mulai berbuah; memperbarui varietas cepat (**sambung atas**); mengurangi kerusakan penyakit dengan batang bawah tahan."
+       ]
+      },
+      {
+       "h": "Cara penyambungan ranting"
+      },
+      {
+       "ul": [
+        "Batang bawah dipotong 4,5–6 cm dari tanah; bahu dipotong 45°; batang atas diambil dari tengah ranting bertunas banyak, dipotong miring ±3,6 cm, sisakan 1–3 tunas.",
+        "**Cocokkan kambium** batang bawah dan atas (kambium tak terlihat, cocokkan bagian luar xilem). Olesi lilin, ikat isolasi, bungkus kantong polietilena; **jangan ada celah**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 77–80. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bibit buah = batang bawah tahan + batang atas unggul; sambungan harus mencocokkan kambium.",
+      "points": [
+       "Penyambungan ranting vs tunas.",
+       "Kambium harus bertemu.",
+       "Seedling = bibit dari biji."
+      ],
+      "avoid": [
+       "Meninggalkan celah antara batang bawah dan atas."
+      ],
+      "exam": [
+       "Tujuan penyambungan.",
+       "Bentuk T pada penyambungan tunas."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a6s3",
+    "no": 3,
+    "title": {
+     "id": "Perapian dan Pemangkasan",
+     "jp": "{整枝|せいし}・{剪定|せんてい}"
+    },
+    "pages": [
+     81,
+     84
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Perapian (整枝)** = merapikan bentuk pohon dengan memotong dan mengikat ranting. **Pemangkasan (剪定)** = memotong ranting.",
+        "Tujuan: pohon berbunga baik, panen stabil, kerja mudah.",
+        "**Pemangkasan berat** mendorong pertumbuhan vegetatif; **pemangkasan ringan** mendorong generatif.",
+        "Bentuk pohon: **batang utama** (budidaya kerdil apel, persik), **batang utama anomali** (apel, kesemek; persik, plum), **pusat terbuka** (persik), **rak** (anggur, pir Jepang).",
+        "Hindari **ranting roda putar** (beberapa ranting utama keluar dari satu titik).",
+        "Pemangkasan utama di **musim dingin**; pemangkasan musim panas sebagai tambahan.",
+        "**Pemangkasan di tengah ranting**: potong ranting panjang agar tumbuh ranting baru. **Pemangkasan penjarangan**: buang ranting tidak perlu agar udara dan sinar masuk."
+       ]
+      },
+      {
+       "h": "Cara memangkas"
+      },
+      {
+       "ul": [
+        "Periksa seluruh pohon dulu; mulai dari ranting utama, buang dari ujung ke dasar.",
+        "Ranting besar digergaji dari pangkal; ranting kecil digunting dari pangkal; ranting yang disisakan dipotong di atas tunas daun arah tumbuh.",
+        "Yang dipangkas: ranting panjang, berdiri, berbalik, sejajar, silang, epikormik, sulur. **Dahan utama tidak dipotong.**",
+        "Pir Jepang dan anggur memerlukan **pengikatan** untuk mengatur arah ranting muda."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 81–84. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pangkas di musim dingin untuk menyeimbangkan pertumbuhan vegetatif dan generatif.",
+      "points": [
+       "Berat → vegetatif; ringan → generatif.",
+       "Ranting roda putar dihindari.",
+       "Dahan utama tidak dipotong."
+      ],
+      "avoid": [
+       "Ranting roda putar."
+      ],
+      "exam": [
+       "Dua jenis pemangkasan.",
+       "Bentuk pohon tiap buah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a6s4",
+    "no": 4,
+    "title": {
+     "id": "Penyerbukan, Penjarangan, Kantong, dan Panen",
+     "jp": "{摘蕾|てきらい}から{収穫|しゅうかく}まで"
+    },
+    "pages": [
+     84,
+     88
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Pemangkasan tunas dan bunga** untuk buah berkualitas dan bunga tahun depan.",
+        "**Penyerbukan** menempelkan serbuk sari ke kepala putik; bisa dibantu serangga (kumbang); tanam **pollinizer** (varietas berbeda); ada **penyerbukan buatan**.",
+        "**Penjarangan buah (摘果)**: buang buah terkena hama/rusak, lambat tumbuh/bentuk berubah, atau di posisi sulit dikantongi.",
+        "**Pembungkusan kantong** mencegah hama dan membuat buah bagus: masukkan buah di tengah kantong, lipat pengait rapat, hati-hati agar tangkai/ranting tidak terjepit."
+       ]
+      },
+      {
+       "h": "Panen"
+      },
+      {
+       "ul": [
+        "Apel, pir Jepang, sitrus dipanen saat matang. **Pir barat dan kiwi** perlu **pematangan tambahan** setelah panen.",
+        "Jeruk unshiu: potong **dua kali** agar tangkai tidak panjang; jangan menarik buah."
+       ]
+      },
+      {
+       "h": "Pembaruan varietas"
+      },
+      {
+       "ul": [
+        "**Peremajaan** (tanam kembali bibit baru) pada kebun tua atau varietas buruk.",
+        "**Sambung atas**: menyambung varietas baru pada ranting pohon yang ada."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 84–88. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jarangkan bunga/buah, bantu penyerbukan, bungkus kantong, panen tepat waktu.",
+      "points": [
+       "Pollinizer = varietas pembantu penyerbukan.",
+       "Pir barat dan kiwi: matang tambahan.",
+       "Jeruk unshiu dipotong dua kali."
+      ],
+      "avoid": [
+       "Menarik buah saat panen."
+      ],
+      "exam": [
+       "Pematangan tambahan.",
+       "Fungsi kantong buah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a6s5",
+    "no": 5,
+    "title": {
+     "id": "Tanah, Pupuk, dan Pengiriman",
+     "jp": "{土壌|どじょう}・{施肥|せひ}・{出荷|しゅっか}"
+    },
+    "pages": [
+     88,
+     91
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pengelolaan tanah"
+      },
+      {
+       "ul": [
+        "Permukaan tanah: ① tanpa gulma, ② hamparan jerami/rumput, ③ selalu dibiarkan berumput, ④ kombinasi. Di lereng, metode ① tidak cocok (tanah mengalir).",
+        "Konservasi: saluran pembuangan, dinding batu; **pembajakan dalam** atau zat organik memperbaiki retensi air dan ventilasi.",
+        "Tanah Jepang banyak **asam**; sesuaikan **pH** dengan **kapur (alkali)**."
+       ]
+      },
+      {
+       "h": "Pemupukan"
+      },
+      {
+       "ul": [
+        "**Pupuk dasar**: masa tidak aktif; Desember–Januari (peluruh), Maret–April (hijau abadi).",
+        "Pemberian: **lapisan muka**, **seluruh lapisan**, atau **semprot daun**.",
+        "**Pupuk tambahan** (cepat bekerja): musim semi (**pupuk pucuk**), musim panas (**pupuk pembuahan**), musim gugur (**pupuk obi / pemulih tenaga pohon**)."
+       ]
+      },
+      {
+       "h": "Bencana, pengiriman, penyimpanan"
+      },
+      {
+       "ul": [
+        "Bencana: angin kencang, dingin, hujan deras, kekeringan, salju lebat, hujan batu.",
+        "Buah diseleksi menurut ukuran, rasa, penampilan. **Sitrus**: dikeringkan beberapa persen air sebelum simpan. **Apel**: **penyimpanan CA** (oksigen dikurangi, CO2 dinaikkan, dingin)."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 88–91. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jaga tanah (pH, air, konservasi), beri pupuk dasar dan tambahan tepat musim.",
+      "points": [
+       "Pupuk dasar saat dorman.",
+       "Pupuk obi di musim gugur.",
+       "CA storage untuk apel."
+      ],
+      "avoid": [
+       "Membiarkan permukaan tanah gundul di lereng."
+      ],
+      "exam": [
+       "Tiga pupuk tambahan.",
+       "Penyimpanan CA."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a6s6",
+    "no": 6,
+    "title": {
+     "id": "Fasilitas dan Pohon Buah Utama",
+     "jp": "{施設|しせつ}と{主要果樹|しゅようかじゅ}"
+    },
+    "pages": [
+     91,
+     93
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "Budidaya dalam fasilitas (anggur, jeruk unshiu, dll.): rumah kaca, rumah plastik, pelindung hujan, dan pemanas. Perbedaan suhu dalam-luar besar sehingga perlu pengelolaan dan **kontrol air**."
+       ]
+      },
+      {
+       "h": "Jenis utama"
+      },
+      {
+       "ul": [
+        "**Sitrus**: daerah hangat; 70% adalah **jeruk unshiu** (Miyagawawase 21%, Aoshima 14%, Okitsuwase 13%); lemah terhadap dingin dan angin; **siklus berbuah (tahun besar-kecil)**.",
+        "**Apel**: daerah dingin; Fuji 52%, Tsugaru 13%, Orin 8%; penyerbukan buatan, pemangkasan tunas/bunga/buah; **budidaya kerdil** dengan batang bawah kerdil.",
+        "**Anggur**: Kyoho 35%, Delaware 19%, Pione 16%; metode rak; tanpa biji dengan **giberelin 2 kali** (sebelum dan sesudah mekar).",
+        "**Kesemek**: manis (Fuyu 25%) dan **kelat** (Hiratanenashi 17%, Tonewase 15%); kelat diberi pengolahan penghilangan kelat; siklus berbuah.",
+        "**Pir**: Kosui 40%, Hosui 27%, Niitaka 10%; serbuk sesama varietas tidak berhasil → perlu penyerbukan pasti; pir Jepang pakai rak (angin).",
+        "**Persik**: Akatsuki 19%, Hakuho 16%; berbuah pada tahun ke-3; pangkas tunas/buah dan kantong."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 91–93. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hafal ciri buah utama: iklim, varietas utama, dan teknik khas.",
+      "points": [
+       "70% sitrus = jeruk unshiu.",
+       "Apel Fuji 52%.",
+       "Anggur tanpa biji: giberelin dua kali."
+      ],
+      "avoid": [
+       "Penyerbukan pir dengan serbuk sesama varietas."
+      ],
+      "exam": [
+       "Varietas utama.",
+       "Siklus berbuah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a6s7",
+    "no": 7,
+    "title": {
+     "id": "Perlengkapan dan Mesin Kebun Buah",
+     "jp": "{果樹園|かじゅえん}の{資材|しざい}と{機械|きかい}"
+    },
+    "pages": [
+     93,
+     95
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Perlengkapan**: rumah plastik, alat metode rak, **jaring** pencegah angin/burung/serangga, **sprinkler** (hama, air), serangga penyerbuk (kumbang), pestisida, **zat pengatur tumbuh**.",
+        "Kipas pencegah embun beku dan sprinkler pencegah kerusakan beku."
+       ]
+      },
+      {
+       "h": "Tujuan zat pengatur tumbuh"
+      },
+      {
+       "ul": [
+        "Mencegah kulit mengapung, membuat **buah tanpa biji**, mencegah **buah jatuh sebelum panen**, **mempercepat kematangan**, mendorong terbentuknya akar dan ranting (apel dll.)."
+       ]
+      },
+      {
+       "h": "Bahan"
+      },
+      {
+       "ul": [
+        "**Jaring burung/serangga**, **bahan mulsa** (cegah tanah mengalir dan air menguap), **lembar reflektif** (merefleksikan cahaya agar warna buah bagus; dihamparkan di bawah pohon saat panen)."
+       ]
+      },
+      {
+       "h": "Mesin dan alat"
+      },
+      {
+       "ul": [
+        "**Speed Sprayer (SS)** pengendalian hama; **monorel** dan **kereta pengangkut** untuk pengangkutan; mesin untuk pekerjaan di tempat tinggi; alat pemangkas, tangga."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 93–95. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jaring, mulsa, lembar reflektif, SS, dan monorel adalah perlengkapan khas kebun buah.",
+      "points": [
+       "Lembar reflektif memperbaiki warna buah.",
+       "Zat pengatur tumbuh: tanpa biji, cegah jatuh.",
+       "SS = alat semprot kebun."
+      ],
+      "avoid": [
+       "Membiarkan kebun tanpa jaring di daerah angin/burung."
+      ],
+      "exam": [
+       "Fungsi lembar reflektif.",
+       "Tujuan zat pengatur tumbuh."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

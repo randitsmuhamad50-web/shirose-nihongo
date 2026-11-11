@@ -33,7 +33,7 @@ Alur siswa: Hub (pulau) → Peta bab → Bab → Baca subbab (Lengkap/Ringkas, I
 | Kaigo (Bahasa Jepang) | Materi_Kaigo.pdf hal. 204–267 | 64 | **Masuk** (`kaigo-jp`): 222 kosakata + 48 soal modul |
 | Food Service | Pengawasan Kebersihan / Persiapan Makanan & Minuman / Layanan Pelanggan | 127 (ID) + 144 (JP) | **Masuk ID** (`food-service`): 3 bab, 24 subbab, buku gabungan 127 hal. **Masuk JP** (`food-service-jp`, anak dari food-service): 3 bab, 20 subbab, 144 hal. buku Jepang, 634 kosakata dari indeks resmi modul + soal arti & cara baca |
 | Food Manufacturing | SSW_PM.pdf (JP, 第4版 2024) | 82 | Belum |
-| Agriculture | pertanian.pdf (Pertanaman Umum, ID) | 102 | Belum |
+| Agriculture | pertanian.pdf (Pertanaman Umum, ID) | 102 | **Masuk** (`agriculture`): 7 bab, 33 subbab, 213 kosakata (padanan Jepang = tambahan Shirose), 148 soal tulis-tangan + soal kosakata; 102 hal. |
 | Construction | 3 kategori: Sipil (`ctextd` JP / `sipil_indo`), Bangunan (`bangunan` JP / `building_indo`), Lifeline & Peralatan (`INFRASTRUCTURE_TEXTBOOK_JP` / `THEORY_ID` + `PRACTICE_ID`, Tutorial 5–7 JP) | ±1.000 | Belum — bab 1–4 sama di ketiga kategori, bab 5–7 berbeda per kategori |
 | Accommodation | `4a7d082a` (PDF gambar, 52 hal., tanpa teks) | 52 | Belum — perlu dibaca visual/OCR |
 | Livestock | — | — | Modul belum diberikan |

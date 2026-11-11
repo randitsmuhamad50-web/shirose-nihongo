@@ -1,0 +1,193 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab7",
+  "no": 7,
+  "title": {
+   "id": "Istilah Kegiatan Pertanian dan Foto",
+   "jp": "{農作業|のうさぎょう}{用語|ようご}"
+  },
+  "intro": {
+   "id": "Bagian 8 modul: daftar istilah kegiatan pertanian beserta artinya, dan foto sayuran, bahan penutup, serta buah-buahan.",
+   "jp": "{農作業|のうさぎょう}{用語|ようご}"
+  },
+  "pages": [
+   96,
+   101
+  ],
+  "subs": [
+   {
+    "id": "a7s1",
+    "no": 1,
+    "title": {
+     "id": "Istilah Kegiatan Pertanian (A)",
+     "jp": "{農作業|のうさぎょう}{用語|ようご} 1"
+    },
+    "pages": [
+     96,
+     97
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Istilah di modul (bagian 1)"
+      },
+      {
+       "ul": [
+        "**Pemupukan setelah panen (お礼肥)**: memberi pupuk setelah panen buah untuk menambah nutrisi tersimpan.",
+        "**Pembuangan air terusan bawah tanah (暗渠排水)**: pipa tanah ditimbun dalam tanah.",
+        "**Pembibitan (育苗)**: membuat bibit di persemaian, bukan di lahan.",
+        "**Pembentukan bedengan (畝立て)**: menumpuk tanah lebih tinggi untuk tempat tanam.",
+        "**Pembajakan (耕うん)**: menggali dan melembutkan tanah agar ventilasi baik.",
+        "**Mempercepat pertunasan (催芽)**: benih bertunas ±1 mm sehari sebelum semai.",
+        "**Setek (挿し木)**: memotong bagian pohon, menusukkannya ke tanah hingga berakar.",
+        "**Penanaman benih langsung (直播き)**: menanam benih langsung di lahan.",
+        "**Pelumpuran (代かき)**: membajak sawah berair hingga empuk.",
+        "**Penyerbukan buatan (人工授粉)**: menempelkan serbuk sari ke kepala putik secara artifisial.",
+        "**Perendaman benih padi (浸種)**, **seleksi benih (選種, dengan larutan garam)**, **sterilisasi (種子消毒)**."
+       ]
+      },
+      {
+       "h": "Kerusakan"
+      },
+      {
+       "ul": [
+        "**Rusak kekeringan** (hujan tidak turun), **rusak genangan** (hujan deras)."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 96–97. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hafal istilah kegiatan pertanian beserta artinya.",
+      "points": [
+       "Seleksi benih memakai larutan garam.",
+       "Pembibitan dilakukan di persemaian.",
+       "Pembentukan bedengan = tumpuk tanah lebih tinggi."
+      ],
+      "avoid": [
+       "Mencampur istilah penanaman benih dan penanaman tetap."
+      ],
+      "exam": [
+       "Definisi istilah."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a7s2",
+    "no": 2,
+    "title": {
+     "id": "Istilah Kegiatan Pertanian (B)",
+     "jp": "{農作業|のうさぎょう}{用語|ようご} 2"
+    },
+    "pages": [
+     97,
+     99
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**Batang bawah (台木)** = tanaman yang punya akar saat penyambungan; **batang atas (穂木)** = tunas/ranting berbunga atau berbuah.",
+        "**Penghilangan kelat (渋抜き)**: membuat tanin menjadi tidak larut air.",
+        "**Pengolahan tanah saat budidaya (中耕)**: membajak dangkal selama tumbuh.",
+        "**Pemupukan tambahan (追肥)** dan **pupuk dasar (元肥)**.",
+        "**Penanaman tetap (定植)**: bibit dari persemaian ditanam di lahan.",
+        "**Pemangkasan bunga (摘花)**, **pemangkasan buah (摘果)**, **pemangkasan tunas ujung (摘心)**, **pemangkasan daun (摘葉)**, **pemangkasan tunas (芽かき)**.",
+        "**Penanaman beberapa benih dalam satu titik (点播き)**, **disebar (ばら播き)**, **sesuai jalur (すじ播き)**.",
+        "**Pengeringan sawah (中干し)**; **pengendalian hama (防除)**; **penutupan tanah (覆土)**.",
+        "**Penjarangan (間引き)**; **pemulsaan (マルチング)**; **pengikatan (誘引)**.",
+        "**Budidaya dipercepat (促成栽培)** vs **diperlambat (抑制栽培)**; **budidaya luar ruangan (露地栽培)**.",
+        "**Penanaman bergilir (輪作)**; **dampak negatif penanaman berurutan (連作障害)**; **kerusakan akibat dingin (冷害)**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 97–99. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bedakan istilah pemangkasan, penanaman, dan tipe penanaman.",
+      "points": [
+       "Budidaya dipercepat vs diperlambat.",
+       "Penanaman bergilir mencegah dampak negatif penanaman berurutan.",
+       "Pupuk dasar sebelum tanam; tambahan selama tumbuh."
+      ],
+      "avoid": [
+       "Menanam tanaman sejenis terus-menerus di lahan yang sama."
+      ],
+      "exam": [
+       "Definisi istilah pemangkasan.",
+       "Arti penanaman bergilir."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a7s3",
+    "no": 3,
+    "title": {
+     "id": "Foto Sayuran, Bahan Penutup, dan Buah",
+     "jp": "{写真|しゃしん}：{野菜|やさい}・{被覆資材|ひふくしざい}・{果物|くだもの}"
+    },
+    "pages": [
+     100,
+     101
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Klasifikasi sayuran utama (suku)"
+      },
+      {
+       "ul": [
+        "**Sayuran daun**: kol, sawi putih (Brassicaceae), letus (Asteraceae), bayam (Chenopodiaceae).",
+        "**Sayuran akar**: bawang bombai (Liliaceae), lobak (Brassicaceae), ubi jalar (Convolvulaceae), kentang (Solanaceae), wortel (Apiaceae).",
+        "**Sayuran buah**: tomat, terong (Solanaceae), timun (Cucurbitaceae)."
+       ]
+      },
+      {
+       "h": "Bahan penutup dan buah"
+      },
+      {
+       "ul": [
+        "Bahan penutup: vinil klorida, membran polietilena pertanian, kain bukan tenunan, kain saringan, jaring anti serangga.",
+        "Buah: apel, anggur, persik, bluberi, pir, kesemek, kastanye, jeruk unshiu, kiwi, jeruk yuzu, loquat."
+       ]
+      },
+      {
+       "note": "Lihat foto lengkap pada halaman buku di bawah."
+      },
+      {
+       "note": "Sumber: modul hal. 100–101. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali sayuran utama berikut sukunya, bahan penutup, dan buah.",
+      "points": [
+       "Tomat, terong, kentang = Solanaceae.",
+       "Kol, sawi putih, lobak = Brassicaceae.",
+       "Timun = Cucurbitaceae."
+      ],
+      "avoid": [
+       "Menyamakan kentang dengan ubi jalar (suku berbeda)."
+      ],
+      "exam": [
+       "Suku sayuran utama."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
