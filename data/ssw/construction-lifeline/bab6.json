@@ -1,0 +1,375 @@
+{
+ "schema": 1,
+ "bidang": "construction-lifeline",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori lifeline: Textbook THEORY_ID (hal. 1–117) + PRACTICE_ID hal. 5–98 (hal. 118–211)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab6",
+  "no": 6,
+  "title": {
+   "id": "Pengetahuan Pelaksanaan Lokasi Konstruksi",
+   "jp": "{施工|せこう}の{知識|ちしき}"
+  },
+  "intro": {
+   "id": "Hal umum di lokasi dan pelaksanaan pemipaan, AC, isolasi, lifeline, pelat logam, listrik, telekomunikasi, tungku, pemadam.",
+   "jp": "{施工|せこう}の{知識|ちしき}"
+  },
+  "pages": [
+   156,
+   193
+  ],
+  "subs": [
+   {
+    "id": "b6s1",
+    "no": 1,
+    "title": {
+     "id": "Hal Umum di Lokasi Konstruksi",
+     "jp": "{現場|げんば}の{共通|きょうつう}{事項|じこう}"
+    },
+    "pages": [
+     156,
+     160
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Lima karakteristik pekerjaan konstruksi"
+      },
+      {
+       "ol": [
+        "Satu produk dibuat sesuai pesanan.",
+        "Tunduk pada pembatasan lahan.",
+        "Dipengaruhi alam (cuaca, musim, topografi).",
+        "Tunduk pada pembatasan sosial (lingkungan sekitar dan hukum).",
+        "Kualitas dibangun dalam proses keselamatan."
+       ]
+      },
+      {
+       "h": "5M dan QCDSE"
+      },
+      {
+       "ul": [
+        "**5M**: Manusia, Material, Metode, Mesin, Uang.",
+        "**QCDSE**: Quality (mutu), Cost (biaya), Delivery (proses/waktu), Safety (keselamatan), Environment (lingkungan)."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Konstruksi: pesanan tunggal, terikat lahan, dipengaruhi alam; dikelola dengan 5M dan QCDSE.",
+      "points": [
+       "5M: Manusia, Material, Metode, Mesin, Uang.",
+       "QCDSE: mutu, biaya, proses, keselamatan, lingkungan.",
+       "Survei pendahuluan sebelum bekerja."
+      ],
+      "avoid": [
+       "Mengabaikan perencanaan dan survei."
+      ],
+      "exam": [
+       "Singkatan 5M dan QCDSE."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s2",
+    "no": 2,
+    "title": {
+     "id": "Pengolahan Pipa",
+     "jp": "{配管|はいかん}{工事|こうじ}"
+    },
+    "pages": [
+     161,
+     168
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pengolahan pipa baja karbon, PVC keras, dan pipa baja berlapis PVC untuk suplai air."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pengolahan pipa baja karbon untuk pemipaan (hal. 161)",
+        "Pengolahan pipa polivinil klorida keras (hal. 166)",
+        "Pengolahan pipa baja berlapis vinil klorida keras untuk suplai air (hal. 168)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pengolahan pipa baja karbon, PVC keras, dan pipa baja berlapis PVC untuk suplai air.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s3",
+    "no": 3,
+    "title": {
+     "id": "Pendingin Udara dan Isolasi Panas",
+     "jp": "{空調|くうちょう}と{保温|ほおん}"
+    },
+    "pages": [
+     169,
+     172
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pipa tembaga refrigeran dan sambungannya; bahan isolasi panas dan dingin."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pengolahan pipa tembaga berlapis untuk refrigeran (hal. 169)",
+        "Sambungan pipa untuk refrigeran (hal. 171)",
+        "Bentuk dan jenis bahan isolasi termal (hal. 172)",
+        "Contoh menjaga panas dan dingin untuk pemipaan (hal. 172)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pipa tembaga refrigeran dan sambungannya; bahan isolasi panas dan dingin.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s4",
+    "no": 4,
+    "title": {
+     "id": "Pipa Lifeline",
+     "jp": "ライフライン{配管|はいかん}"
+    },
+    "pages": [
+     173,
+     180
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Konstruksi pipa besi cor ulet, sambungan EF, dan hal penting pembenaman pipa."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Konstruksi pipa besi cor ulet suplai air (hal. 173)",
+        "Sambungan EF suplai air/gas (hal. 176)",
+        "Hal-hal yang perlu diperhatikan dalam pekerjaan telekomunikasi (hal. 178)",
+        "Hal-hal yang perlu diperhatikan dalam membenamkan pipa (hal. 178)"
+       ]
+      },
+      {
+       "h": "Pipa besi cor ulet jenis GX"
+      },
+      {
+       "ul": [
+        "Jepang sering gempa, sehingga dipakai **pipa besi cor ulet** untuk suplai air agar pipa tahan kerusakan gempa.",
+        "Sambungan jenis **GX** mengembang, menyusut, atau menekuk mengikuti gerakan tanah dan memiliki fungsi pencegah pipa lepas.",
+        "Pipa digantung hati-hati dengan **tanda pabrikan menghadap ke atas** saat disambung."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Konstruksi pipa besi cor ulet, sambungan EF, dan hal penting pembenaman pipa.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s5",
+    "no": 5,
+    "title": {
+     "id": "Pelat Logam Arsitektur",
+     "jp": "{板金|ばんきん}{工事|こうじ}"
+    },
+    "pages": [
+     181,
+     184
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pengolahan pelat logam dan metode sambungan saluran."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pengolahan pelat logam (hal. 181)",
+        "Metode sambungan saluran (hal. 182)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pengolahan pelat logam dan metode sambungan saluran.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s6",
+    "no": 6,
+    "title": {
+     "id": "Peralatan Listrik dan Telekomunikasi",
+     "jp": "{電気|でんき}・{通信|つうしん}{設備|せつび}"
+    },
+    "pages": [
+     185,
+     191
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Peralatan listrik: korsleting, ground fault, kebocoran listrik; peralatan telekomunikasi dan conduit."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Korsleting, ground fault, kebocoran listrik (hal. 185)",
+        "Hal-hal yang perlu diperhatikan dalam pekerjaan crimping kawat (hal. 186)",
+        "Kerusakan/pemotongan pipa terpendam yang ada, pemutusan pengabelan (hal. 186)",
+        "Hal-hal yang perlu diperhatikan dalam menggunakan jalan (hal. 187)",
+        "Jenis peralatan telekomunikasi (hal. 188)",
+        "Pemasangan conduit bawah tanah (hal. 190)",
+        "Hal-hal yang perlu diperhatikan dalam bekerja (hal. 191)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Peralatan listrik: korsleting, ground fault, kebocoran listrik; peralatan telekomunikasi dan conduit.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s7",
+    "no": 7,
+    "title": {
+     "id": "Tungku dan Peralatan Pemadam",
+     "jp": "{炉|ろ}と{消防設備|しょうぼうせつび}"
+    },
+    "pages": [
+     192,
+     193
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pekerjaan pembuatan tungku dan peralatan pemadam kebakaran."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Lihat halaman buku."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pekerjaan pembuatan tungku dan peralatan pemadam kebakaran.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

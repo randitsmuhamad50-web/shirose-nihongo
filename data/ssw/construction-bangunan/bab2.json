@@ -1,0 +1,223 @@
+{
+ "schema": 1,
+ "bidang": "construction-bangunan",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori bangunan: building_indo (152 hal.)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Hukum dan Peraturan yang Harus Dipatuhi",
+   "jp": "{守|まも}るべき{法律|ほうりつ}"
+  },
+  "intro": {
+   "id": "UU Ketenagakerjaan, Industri Konstruksi, Standar Bangunan, lingkungan, dan UU terkait lainnya.",
+   "jp": "{守|まも}るべき{法律|ほうりつ}"
+  },
+  "pages": [
+   8,
+   21
+  ],
+  "subs": [
+   {
+    "id": "b2s1",
+    "no": 1,
+    "title": {
+     "id": "Undang-Undang Ketenagakerjaan",
+     "jp": "{労働基準法|ろうどうきじゅんほう}"
+    },
+    "pages": [
+     8,
+     15
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Jam kerja dan libur"
+      },
+      {
+       "ul": [
+        "Maksimal **40 jam per minggu** dan **8 jam per hari** (jam kerja legal).",
+        "Istirahat minimal **45 menit** bila kerja lebih dari 6 jam dan **1 jam** bila lebih dari 8 jam.",
+        "Minimal **1 hari libur per minggu**.",
+        "Lembur: batas **45 jam per bulan** dan **360 jam per tahun**; berlaku untuk konstruksi sejak **April 2024**. Upah lembur dikenai tambahan (25%, 35%, dst.)."
+       ]
+      },
+      {
+       "h": "Cuti berbayar dan pemutusan kerja"
+      },
+      {
+       "ul": [
+        "Cuti berbayar **10 hari** diberikan setelah 6 bulan bekerja dengan kehadiran ≥ 80%; maksimal 20 hari per tahun.",
+        "Pemutusan kerja oleh pemberi kerja harus diberitahukan **30 hari sebelumnya** (atau bayar upah pengganti)."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "UU Ketenagakerjaan menjamin jam kerja, istirahat, libur, lembur, cuti berbayar, dan pemutusan kerja.",
+      "points": [
+       "40 jam/minggu, 8 jam/hari.",
+       "Istirahat 45 menit (>6 jam), 1 jam (>8 jam).",
+       "Cuti 10 hari setelah 6 bulan (kehadiran 80%).",
+       "Pemberitahuan PHK 30 hari."
+      ],
+      "avoid": [
+       "Lembur tanpa dicatat atau tanpa upah lembur."
+      ],
+      "exam": [
+       "Angka jam kerja, istirahat, cuti, lembur."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s2",
+    "no": 2,
+    "title": {
+     "id": "UU Industri Konstruksi dan UU Standar Bangunan",
+     "jp": "{建設業法|けんせつぎょうほう}・{建築基準法|けんちくきじゅんほう}"
+    },
+    "pages": [
+     16,
+     16
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "UU Industri Konstruksi: 5 tujuan"
+      },
+      {
+       "ol": [
+        "Meningkatkan kualifikasi pelaku usaha (izin usaha konstruksi).",
+        "Menyesuaikan perjanjian kontrak pekerjaan konstruksi.",
+        "Memastikan pelaksanaan konstruksi yang sesuai (insinyur penanggung jawab utama dan insinyur pengelola).",
+        "Melindungi pemesan.",
+        "Mendorong perkembangan industri konstruksi yang sehat."
+       ]
+      },
+      {
+       "h": "UU Standar Bangunan"
+      },
+      {
+       "ul": [
+        "Aturan minimum untuk membangun dan menggunakan bangunan.",
+        "Terdiri atas **peraturan individu** (bangunan itu sendiri: ketahanan gempa, pencegahan kebakaran, ventilasi, dll.) dan **peraturan kelompok** (lingkungan kota: rasio cakupan bangunan, rasio luas lantai, batas ketinggian)."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dua UU dasar: izin/kontrak usaha konstruksi dan standar minimum bangunan.",
+      "points": [
+       "UU Industri Konstruksi punya 5 tujuan.",
+       "UU Standar Bangunan: peraturan individu + kelompok."
+      ],
+      "avoid": [
+       "Mengabaikan izin dan standar bangunan."
+      ],
+      "exam": [
+       "Lima tujuan UU Industri Konstruksi."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s3",
+    "no": 3,
+    "title": {
+     "id": "Hukum Lingkungan: Limbah, Daur Ulang, Udara, Bising, Air",
+     "jp": "{環境|かんきょう}の{法律|ほうりつ}"
+    },
+    "pages": [
+     17,
+     18
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**UU Pembuangan Limbah**: kontraktor utama wajib membuat **manifest** (lembar kontrol limbah) dan pekerja menangani limbah sesuai manifest.",
+        "**UU Daur Ulang Konstruksi**: limbah konstruksi harus **dipilah menurut bahan** dan disimpan di tempat yang ditentukan agar bisa didaur ulang dan dipakai ulang.",
+        "**UU Pencegahan Polusi Udara**: menetapkan standar emisi zat pencemar udara dari pabrik dan tempat usaha.",
+        "**UU Regulasi Kebisingan / Pencegahan Getaran**: membatasi kebisingan dan getaran lokasi konstruksi.",
+        "**UU Pencegahan Polusi Air**: air limbah dari lokasi yang dibuang ke selokan atau sungai harus memenuhi standar prefektur."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Lokasi konstruksi wajib menjaga lingkungan: limbah, daur ulang, debu, bising, air.",
+      "points": [
+       "Kontraktor utama wajib membuat manifest limbah.",
+       "Pilah limbah menurut bahan untuk daur ulang.",
+       "Kendalikan bising dan getaran; air limbah sesuai standar."
+      ],
+      "avoid": [
+       "Membuang limbah sembarangan."
+      ],
+      "exam": [
+       "Fungsi manifest dan daur ulang."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s4",
+    "no": 4,
+    "title": {
+     "id": "UU Pemadam, Air, Drainase, Gas, Listrik, Telekomunikasi, Penerbangan, Parkir",
+     "jp": "ライフラインと{安全|あんぜん}の{法律|ほうりつ}"
+    },
+    "pages": [
+     18,
+     21
+    ],
+    "full": {
+     "id": [
+      {
+       "ul": [
+        "**UU Pemadam Kebakaran**: pencegahan dan pemadaman kebakaran; mengatur alat pemadam, hidran, alarm, dan peralatan evakuasi di gedung.",
+        "**UU Air Bersih**: pekerjaan di bawah instruksi insinyur/teknisi yang ditetapkan. **UU Drainase**: air limbah di atas nilai standar (logam berat, dll.) dilarang dibuang.",
+        "**UU Usaha Gas**: mencegah kebocoran gas dan ventilasi buruk. **UU Usaha Kelistrikan**: keselamatan fasilitas listrik (kebocoran listrik dapat menimbulkan kebakaran dan sengatan). **UU Usaha Telekomunikasi dan Gelombang Radio**: jaringan komunikasi.",
+        "**UU Penerbangan**: benda tinggi **≥ 60 m** dipasangi lampu penghalang; **drone ≥ 100 g** wajib didaftarkan.",
+        "**UU Parkir**: pengaturan tempat parkir dan penggunaan jalan sekitar lokasi."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Banyak UU lain mengatur lifeline, penerbangan, parkir di sekitar lokasi.",
+      "points": [
+       "Benda ≥ 60 m: lampu penghalang penerbangan.",
+       "Drone ≥ 100 g harus didaftarkan.",
+       "Pekerjaan air bersih di bawah instruksi insinyur yang ditetapkan."
+      ],
+      "avoid": [
+       "Menerbangkan drone tanpa izin dan pendaftaran."
+      ],
+      "exam": [
+       "Angka 60 m dan 100 g."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

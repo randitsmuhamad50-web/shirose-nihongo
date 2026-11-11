@@ -1,0 +1,6309 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 1 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pihak yang mengatur proses, mutu, dan keselamatan seluruh proyek adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kontraktor utama"
+       },
+       {
+        "id": "Pekerja baru"
+       },
+       {
+        "id": "Tamu proyek"
+       },
+       {
+        "id": "Pemasok makanan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kontraktor utama mengkoordinasi pekerjaan para subkontraktor. (Modul hal. 1.)"
+      },
+      "ref": {
+       "p": 1
+      }
+     },
+     {
+      "q": {
+       "id": "Level pada sistem kenaikan karier konstruksi (Career Up) ada…"
+      },
+      "opts": [
+       {
+        "id": "4 level"
+       },
+       {
+        "id": "2 level"
+       },
+       {
+        "id": "10 level"
+       },
+       {
+        "id": "tidak ada level"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Putih, biru, perak, dan emas. (Modul hal. 3.)"
+      },
+      "ref": {
+       "p": 3
+      }
+     },
+     {
+      "q": {
+       "id": "Kalimat penutup apel pagi di lokasi konstruksi adalah…"
+      },
+      "opts": [
+       {
+        "id": "“Hari ini pun semoga selamat!”"
+       },
+       {
+        "id": "“Selamat tidur”"
+       },
+       {
+        "id": "“Sampai jumpa besok”"
+       },
+       {
+        "id": "“Selamat makan”"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Semua orang saling mengharapkan keselamatan sebelum kerja. (Modul hal. 4.)"
+      },
+      "ref": {
+       "p": 4
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 1 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Bila belum paham perintah mandor, sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tanyakan dan pastikan"
+       },
+       {
+        "id": "Lanjut menebak"
+       },
+       {
+        "id": "Diam saja"
+       },
+       {
+        "id": "Berhenti kerja pulang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bertanya mencegah kesalahan dan kecelakaan. (Modul hal. 1.)"
+      },
+      "ref": {
+       "p": 1
+      }
+     },
+     {
+      "q": {
+       "id": "Level 2 membutuhkan sekitar berapa hari kerja?"
+      },
+      "opts": [
+       {
+        "id": "645 hari"
+       },
+       {
+        "id": "30 hari"
+       },
+       {
+        "id": "100 hari"
+       },
+       {
+        "id": "3000 hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "645 hari kerja kurang lebih 3 tahun. (Modul hal. 3.)"
+      },
+      "ref": {
+       "p": 3
+      }
+     },
+     {
+      "q": {
+       "id": "Kegiatan KY dalam apel pagi bertujuan…"
+      },
+      "opts": [
+       {
+        "id": "Memprediksi bahaya pekerjaan hari itu"
+       },
+       {
+        "id": "Membagi gaji"
+       },
+       {
+        "id": "Mengukur tinggi badan"
+       },
+       {
+        "id": "Memilih menu makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "KY = kiken yochi, prediksi bahaya. (Modul hal. 4.)"
+      },
+      "ref": {
+       "p": 4
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 1)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Sori」?",
+       "jp": "「Sori」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung",
+        "jp": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung"
+       },
+       {
+        "id": "1/10 dari isshaku",
+        "jp": "1/10 dari isshaku"
+       },
+       {
+        "id": "Meregangkan kabel logam, kabel serat optik, dll",
+        "jp": "Meregangkan kabel logam, kabel serat optik, dll"
+       },
+       {
+        "id": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu",
+        "jp": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sori (Sori) = Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Sori（Sori）＝ Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Aki」?",
+       "jp": "「Aki」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll",
+        "jp": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll"
+       },
+       {
+        "id": "Memasukkan tanah hingga ke dasar ruang tanah di dalam dan di luar bangunan setelah pekerjaan bawah tanah seperti balok bawah tanah, dll.…",
+        "jp": "Memasukkan tanah hingga ke dasar ruang tanah di dalam dan di luar bangunan setelah pekerjaan bawah tanah seperti balok bawah tanah, dll.…"
+       },
+       {
+        "id": "Menempatkan dan merakit rebar",
+        "jp": "Menempatkan dan merakit rebar"
+       },
+       {
+        "id": "Jarak antar rebar",
+        "jp": "Jarak antar rebar"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Aki (Aki) = Jarak antar rebar. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Aki（Aki）＝ Jarak antar rebar"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Nige」?",
+       "jp": "「Nige」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Memisahkan kabel dan pipa satu sama lain",
+        "jp": "Memisahkan kabel dan pipa satu sama lain"
+       },
+       {
+        "id": "Menyesuaikan suhu, kelembapan, dll. ruangan",
+        "jp": "Menyesuaikan suhu, kelembapan, dll. ruangan"
+       },
+       {
+        "id": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya",
+        "jp": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya"
+       },
+       {
+        "id": "Ini adalah interval alokasi",
+        "jp": "Ini adalah interval alokasi"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Nige (Nige) = Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Nige（Nige）＝ Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tatekomi」?",
+       "jp": "「Tatekomi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda",
+        "jp": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda"
+       },
+       {
+        "id": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain",
+        "jp": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain"
+       },
+       {
+        "id": "Menukar udara kotor di dalam ruangan dengan udara bersih",
+        "jp": "Menukar udara kotor di dalam ruangan dengan udara bersih"
+       },
+       {
+        "id": "Menempatkan dan merakit rebar",
+        "jp": "Menempatkan dan merakit rebar"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tatekomi (Tatekomi) = Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tatekomi（Tatekomi）＝ Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pemipaan pelat」?",
+       "jp": "「Pemipaan pelat」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Plumbing yang dibenamkan di lantai atau plafon bangunan",
+        "jp": "Plumbing yang dibenamkan di lantai atau plafon bangunan"
+       },
+       {
+        "id": "Mengalirnya beton karena pecahnya bekisting pada waktu pengecoran/pengerasan beton",
+        "jp": "Mengalirnya beton karena pecahnya bekisting pada waktu pengecoran/pengerasan beton"
+       },
+       {
+        "id": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti",
+        "jp": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti"
+       },
+       {
+        "id": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya",
+        "jp": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pemipaan pelat (Pemipaan pelat) = Plumbing yang dibenamkan di lantai atau plafon bangunan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pemipaan pelat（Pemipaan pelat）＝ Plumbing yang dibenamkan di lantai atau plafon bangunan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Dinding penahan」?",
+       "jp": "「Dinding penahan」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai",
+        "jp": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai"
+       },
+       {
+        "id": "Jarak antar rebar",
+        "jp": "Jarak antar rebar"
+       },
+       {
+        "id": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”",
+        "jp": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”"
+       },
+       {
+        "id": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan",
+        "jp": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Dinding penahan (Dinding penahan) = Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Dinding penahan（Dinding penahan）＝ Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Penggantian air」?",
+       "jp": "「Penggantian air」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu",
+        "jp": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu"
+       },
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "Hal mengikat",
+        "jp": "Hal mengikat"
+       },
+       {
+        "id": "Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa",
+        "jp": "Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Penggantian air (Penggantian air) = Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Penggantian air（Penggantian air）＝ Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pembenaman」?",
+       "jp": "「Pembenaman」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Kata ini menyatakan keadaan di mana permukaan dari 2 material adalah sejajar secara merata",
+        "jp": "Kata ini menyatakan keadaan di mana permukaan dari 2 material adalah sejajar secara merata"
+       },
+       {
+        "id": "Mengubur kabel listrik, dll. di dalam tanah",
+        "jp": "Mengubur kabel listrik, dll. di dalam tanah"
+       },
+       {
+        "id": "Melakukan pekerjaan untuk membuat tanah/fondasi bangunan atau struktur bawah tanah",
+        "jp": "Melakukan pekerjaan untuk membuat tanah/fondasi bangunan atau struktur bawah tanah"
+       },
+       {
+        "id": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll",
+        "jp": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Pembenaman (Pembenaman) = Mengubur kabel listrik, dll. di dalam tanah. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pembenaman（Pembenaman）＝ Mengubur kabel listrik, dll. di dalam tanah"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s1-q",
+    "title": {
+     "id": "Latihan: Kerja Sama Tim dan Sistem Pelaksanaan Konstruksi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pihak yang mengatur proses, mutu, dan keselamatan seluruh proyek adalah…"
+      },
+      "opts": [
+       {
+        "id": "Kontraktor utama"
+       },
+       {
+        "id": "Pekerja baru"
+       },
+       {
+        "id": "Tamu proyek"
+       },
+       {
+        "id": "Pemasok makanan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kontraktor utama mengkoordinasi pekerjaan para subkontraktor. (Modul hal. 1.)"
+      },
+      "ref": {
+       "p": 1
+      }
+     },
+     {
+      "q": {
+       "id": "Bila belum paham perintah mandor, sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tanyakan dan pastikan"
+       },
+       {
+        "id": "Lanjut menebak"
+       },
+       {
+        "id": "Diam saja"
+       },
+       {
+        "id": "Berhenti kerja pulang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bertanya mencegah kesalahan dan kecelakaan. (Modul hal. 1.)"
+      },
+      "ref": {
+       "p": 1
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s2-q",
+    "title": {
+     "id": "Latihan: Sistem Kenaikan Karier Konstruksi (Career Up)",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Level pada sistem kenaikan karier konstruksi (Career Up) ada…"
+      },
+      "opts": [
+       {
+        "id": "4 level"
+       },
+       {
+        "id": "2 level"
+       },
+       {
+        "id": "10 level"
+       },
+       {
+        "id": "tidak ada level"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Putih, biru, perak, dan emas. (Modul hal. 3.)"
+      },
+      "ref": {
+       "p": 3
+      }
+     },
+     {
+      "q": {
+       "id": "Level 2 membutuhkan sekitar berapa hari kerja?"
+      },
+      "opts": [
+       {
+        "id": "645 hari"
+       },
+       {
+        "id": "30 hari"
+       },
+       {
+        "id": "100 hari"
+       },
+       {
+        "id": "3000 hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "645 hari kerja kurang lebih 3 tahun. (Modul hal. 3.)"
+      },
+      "ref": {
+       "p": 3
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s3-q",
+    "title": {
+     "id": "Latihan: Salam dan Apel Pagi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Kalimat penutup apel pagi di lokasi konstruksi adalah…"
+      },
+      "opts": [
+       {
+        "id": "“Hari ini pun semoga selamat!”"
+       },
+       {
+        "id": "“Selamat tidur”"
+       },
+       {
+        "id": "“Sampai jumpa besok”"
+       },
+       {
+        "id": "“Selamat makan”"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Semua orang saling mengharapkan keselamatan sebelum kerja. (Modul hal. 4.)"
+      },
+      "ref": {
+       "p": 4
+      }
+     },
+     {
+      "q": {
+       "id": "Kegiatan KY dalam apel pagi bertujuan…"
+      },
+      "opts": [
+       {
+        "id": "Memprediksi bahaya pekerjaan hari itu"
+       },
+       {
+        "id": "Membagi gaji"
+       },
+       {
+        "id": "Mengukur tinggi badan"
+       },
+       {
+        "id": "Memilih menu makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "KY = kiken yochi, prediksi bahaya. (Modul hal. 4.)"
+      },
+      "ref": {
+       "p": 4
+      }
+     }
+    ]
+   }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 2 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jam kerja legal maksimal per minggu menurut UU Ketenagakerjaan adalah…"
+      },
+      "opts": [
+       {
+        "id": "40 jam"
+       },
+       {
+        "id": "60 jam"
+       },
+       {
+        "id": "30 jam"
+       },
+       {
+        "id": "80 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "40 jam per minggu dan 8 jam per hari. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Cuti berbayar 10 hari diberikan setelah bekerja…"
+      },
+      "opts": [
+       {
+        "id": "6 bulan dengan kehadiran ≥ 80%"
+       },
+       {
+        "id": "1 minggu"
+       },
+       {
+        "id": "10 tahun"
+       },
+       {
+        "id": "tidak pernah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Syarat: 6 bulan kerja dan kehadiran minimal 80%. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Pemberi kerja yang memutus hubungan kerja harus memberi tahu…"
+      },
+      "opts": [
+       {
+        "id": "30 hari sebelumnya"
+       },
+       {
+        "id": "1 jam sebelumnya"
+       },
+       {
+        "id": "setelah pekerja pulang"
+       },
+       {
+        "id": "tidak perlu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pemberitahuan 30 hari sebelumnya atau bayar upah pengganti. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "UU Standar Bangunan terdiri dari dua bagian, yaitu…"
+      },
+      "opts": [
+       {
+        "id": "Peraturan individu dan peraturan kelompok"
+       },
+       {
+        "id": "Peraturan siang dan malam"
+       },
+       {
+        "id": "Peraturan gaji dan cuti"
+       },
+       {
+        "id": "Peraturan darat dan laut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Individu = bangunan itu sendiri; kelompok = lingkungan kota. (Modul hal. 24.)"
+      },
+      "ref": {
+       "p": 24
+      }
+     },
+     {
+      "q": {
+       "id": "UU yang membatasi suara mesin dan getaran lokasi konstruksi adalah UU…"
+      },
+      "opts": [
+       {
+        "id": "Regulasi Kebisingan/Pencegahan Getaran"
+       },
+       {
+        "id": "Parkir"
+       },
+       {
+        "id": "Air Bersih"
+       },
+       {
+        "id": "Gas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mengurangi gangguan bagi lingkungan sekitar. (Modul hal. 26.)"
+      },
+      "ref": {
+       "p": 26
+      }
+     },
+     {
+      "q": {
+       "id": "Drone dengan berat minimal berapa wajib didaftarkan?"
+      },
+      "opts": [
+       {
+        "id": "100 g"
+       },
+       {
+        "id": "10 kg"
+       },
+       {
+        "id": "1 kg"
+       },
+       {
+        "id": "tidak ada"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Drone ≥ 100 g harus didaftarkan. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 2 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Bila bekerja lebih dari 8 jam, istirahat yang harus diberikan minimal…"
+      },
+      "opts": [
+       {
+        "id": "1 jam"
+       },
+       {
+        "id": "10 menit"
+       },
+       {
+        "id": "30 menit"
+       },
+       {
+        "id": "3 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lebih dari 6 jam = 45 menit; lebih dari 8 jam = 1 jam. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Batas lembur per bulan (berlaku konstruksi mulai April 2024) adalah…"
+      },
+      "opts": [
+       {
+        "id": "45 jam"
+       },
+       {
+        "id": "100 jam"
+       },
+       {
+        "id": "10 jam"
+       },
+       {
+        "id": "tanpa batas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "45 jam per bulan dan 360 jam per tahun. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "UU yang menetapkan standar minimum struktur dan keselamatan bangunan adalah…"
+      },
+      "opts": [
+       {
+        "id": "UU Standar Bangunan"
+       },
+       {
+        "id": "UU Parkir"
+       },
+       {
+        "id": "UU Drainase"
+       },
+       {
+        "id": "UU Telekomunikasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Standar minimum bangunan demi keselamatan dan kesehatan. (Modul hal. 24.)"
+      },
+      "ref": {
+       "p": 24
+      }
+     },
+     {
+      "q": {
+       "id": "Lembar kontrol limbah industri yang wajib dibuat kontraktor utama disebut…"
+      },
+      "opts": [
+       {
+        "id": "Manifest"
+       },
+       {
+        "id": "Kontrak"
+       },
+       {
+        "id": "Kartu Career Up"
+       },
+       {
+        "id": "Daftar hadir"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Manifest memastikan limbah ditangani sampai pembuangan akhir (termasuk daur ulang). (Modul hal. 26.)"
+      },
+      "ref": {
+       "p": 26
+      }
+     },
+     {
+      "q": {
+       "id": "Benda dengan ketinggian minimal berapa wajib dipasangi lampu penghalang penerbangan?"
+      },
+      "opts": [
+       {
+        "id": "60 m"
+       },
+       {
+        "id": "5 m"
+       },
+       {
+        "id": "10 m"
+       },
+       {
+        "id": "1 m"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ketentuan UU Penerbangan: 60 m atau lebih. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 2)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Pengalihan penggunaan」?",
+       "jp": "「Pengalihan penggunaan」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya",
+        "jp": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya"
+       },
+       {
+        "id": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya",
+        "jp": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya"
+       },
+       {
+        "id": "Menggunakan material bekisting yang sama di lokasi konstruksi lain",
+        "jp": "Menggunakan material bekisting yang sama di lokasi konstruksi lain"
+       },
+       {
+        "id": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti",
+        "jp": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Pengalihan penggunaan (Pengalihan penggunaan) = Menggunakan material bekisting yang sama di lokasi konstruksi lain. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pengalihan penggunaan（Pengalihan penggunaan）＝ Menggunakan material bekisting yang sama di lokasi konstruksi lain"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pengecoran」?",
+       "jp": "「Pengecoran」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Mengalirnya beton karena pecahnya bekisting pada waktu pengecoran/pengerasan beton",
+        "jp": "Mengalirnya beton karena pecahnya bekisting pada waktu pengecoran/pengerasan beton"
+       },
+       {
+        "id": "Kondisi dalam bentuk garis lurus",
+        "jp": "Kondisi dalam bentuk garis lurus"
+       },
+       {
+        "id": "Ini adalah benang yang direntangkan di antara mizunuki untuk menunjukkan kehorizontalan pada saat melakukan “yarikata”. Ini akan menjadi…",
+        "jp": "Ini adalah benang yang direntangkan di antara mizunuki untuk menunjukkan kehorizontalan pada saat melakukan “yarikata”. Ini akan menjadi…"
+       },
+       {
+        "id": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah",
+        "jp": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Pengecoran (Pengecoran) = Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pengecoran（Pengecoran）＝ Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Konstruksi RC」?",
+       "jp": "「Konstruksi RC」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Jarak antar rebar",
+        "jp": "Jarak antar rebar"
+       },
+       {
+        "id": "Jarak antar pusat rebar",
+        "jp": "Jarak antar pusat rebar"
+       },
+       {
+        "id": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja",
+        "jp": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja"
+       },
+       {
+        "id": "RC singkatan dari Reinforced Concrete",
+        "jp": "RC singkatan dari Reinforced Concrete"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Konstruksi RC (Konstruksi RC) = RC singkatan dari Reinforced Concrete. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Konstruksi RC（Konstruksi RC）＝ RC singkatan dari Reinforced Concrete"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tinta referensi」?",
+       "jp": "「Tinta referensi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Jarak antar rebar",
+        "jp": "Jarak antar rebar"
+       },
+       {
+        "id": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan",
+        "jp": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan"
+       },
+       {
+        "id": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya",
+        "jp": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya"
+       },
+       {
+        "id": "Fondasi yang secara langsung meneruskan beban bangunan ke tanah",
+        "jp": "Fondasi yang secara langsung meneruskan beban bangunan ke tanah"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Tinta referensi (Tinta referensi) = Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tinta referensi（Tinta referensi）＝ Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Struktur kayu」?",
+       "jp": "「Struktur kayu」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya",
+        "jp": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya"
+       },
+       {
+        "id": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya",
+        "jp": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya"
+       },
+       {
+        "id": "Kemiringan yang landai untuk memungkinkan air mengalir",
+        "jp": "Kemiringan yang landai untuk memungkinkan air mengalir"
+       },
+       {
+        "id": "Sebuah kata yang mengacu pada permukaan",
+        "jp": "Sebuah kata yang mengacu pada permukaan"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Struktur kayu (Struktur kayu) = Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Struktur kayu（Struktur kayu）＝ Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tatekomi」?",
+       "jp": "「Tatekomi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Mengeluarkan asap yang dihasilkan saat terjadi kebakaran, dll. dari dalam ruangan ke luar",
+        "jp": "Mengeluarkan asap yang dihasilkan saat terjadi kebakaran, dll. dari dalam ruangan ke luar"
+       },
+       {
+        "id": "1/10 dari isshaku",
+        "jp": "1/10 dari isshaku"
+       },
+       {
+        "id": "Garis vertikal ditampilkan pada permukaan seperti dinding, tiang, dll",
+        "jp": "Garis vertikal ditampilkan pada permukaan seperti dinding, tiang, dll"
+       },
+       {
+        "id": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda",
+        "jp": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Tatekomi (Tatekomi) = Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tatekomi（Tatekomi）＝ Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pembenaman」?",
+       "jp": "「Pembenaman」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Mengubur kabel listrik, dll. di dalam tanah",
+        "jp": "Mengubur kabel listrik, dll. di dalam tanah"
+       },
+       {
+        "id": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain",
+        "jp": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain"
+       },
+       {
+        "id": "Plumbing yang dibenamkan di lantai atau plafon bangunan",
+        "jp": "Plumbing yang dibenamkan di lantai atau plafon bangunan"
+       },
+       {
+        "id": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya",
+        "jp": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pembenaman (Pembenaman) = Mengubur kabel listrik, dll. di dalam tanah. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pembenaman（Pembenaman）＝ Mengubur kabel listrik, dll. di dalam tanah"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Issun」?",
+       "jp": "「Issun」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja",
+        "jp": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja"
+       },
+       {
+        "id": "Menukar udara kotor di dalam ruangan dengan udara bersih",
+        "jp": "Menukar udara kotor di dalam ruangan dengan udara bersih"
+       },
+       {
+        "id": "1/10 dari isshaku",
+        "jp": "1/10 dari isshaku"
+       },
+       {
+        "id": "Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…",
+        "jp": "Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Issun (Issun) = 1/10 dari isshaku. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Issun（Issun）＝ 1/10 dari isshaku"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s1-q",
+    "title": {
+     "id": "Latihan: Undang-Undang Ketenagakerjaan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jam kerja legal maksimal per minggu menurut UU Ketenagakerjaan adalah…"
+      },
+      "opts": [
+       {
+        "id": "40 jam"
+       },
+       {
+        "id": "60 jam"
+       },
+       {
+        "id": "30 jam"
+       },
+       {
+        "id": "80 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "40 jam per minggu dan 8 jam per hari. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Bila bekerja lebih dari 8 jam, istirahat yang harus diberikan minimal…"
+      },
+      "opts": [
+       {
+        "id": "1 jam"
+       },
+       {
+        "id": "10 menit"
+       },
+       {
+        "id": "30 menit"
+       },
+       {
+        "id": "3 jam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lebih dari 6 jam = 45 menit; lebih dari 8 jam = 1 jam. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Cuti berbayar 10 hari diberikan setelah bekerja…"
+      },
+      "opts": [
+       {
+        "id": "6 bulan dengan kehadiran ≥ 80%"
+       },
+       {
+        "id": "1 minggu"
+       },
+       {
+        "id": "10 tahun"
+       },
+       {
+        "id": "tidak pernah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Syarat: 6 bulan kerja dan kehadiran minimal 80%. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Batas lembur per bulan (berlaku konstruksi mulai April 2024) adalah…"
+      },
+      "opts": [
+       {
+        "id": "45 jam"
+       },
+       {
+        "id": "100 jam"
+       },
+       {
+        "id": "10 jam"
+       },
+       {
+        "id": "tanpa batas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "45 jam per bulan dan 360 jam per tahun. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     },
+     {
+      "q": {
+       "id": "Pemberi kerja yang memutus hubungan kerja harus memberi tahu…"
+      },
+      "opts": [
+       {
+        "id": "30 hari sebelumnya"
+       },
+       {
+        "id": "1 jam sebelumnya"
+       },
+       {
+        "id": "setelah pekerja pulang"
+       },
+       {
+        "id": "tidak perlu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pemberitahuan 30 hari sebelumnya atau bayar upah pengganti. (Modul hal. 13.)"
+      },
+      "ref": {
+       "p": 13
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s2-q",
+    "title": {
+     "id": "Latihan: UU Industri Konstruksi dan UU Standar Bangunan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "UU yang menetapkan standar minimum struktur dan keselamatan bangunan adalah…"
+      },
+      "opts": [
+       {
+        "id": "UU Standar Bangunan"
+       },
+       {
+        "id": "UU Parkir"
+       },
+       {
+        "id": "UU Drainase"
+       },
+       {
+        "id": "UU Telekomunikasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Standar minimum bangunan demi keselamatan dan kesehatan. (Modul hal. 24.)"
+      },
+      "ref": {
+       "p": 24
+      }
+     },
+     {
+      "q": {
+       "id": "UU Standar Bangunan terdiri dari dua bagian, yaitu…"
+      },
+      "opts": [
+       {
+        "id": "Peraturan individu dan peraturan kelompok"
+       },
+       {
+        "id": "Peraturan siang dan malam"
+       },
+       {
+        "id": "Peraturan gaji dan cuti"
+       },
+       {
+        "id": "Peraturan darat dan laut"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Individu = bangunan itu sendiri; kelompok = lingkungan kota. (Modul hal. 24.)"
+      },
+      "ref": {
+       "p": 24
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s3-q",
+    "title": {
+     "id": "Latihan: Hukum Lingkungan: Limbah, Daur Ulang, Udara, Bising, Air",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Lembar kontrol limbah industri yang wajib dibuat kontraktor utama disebut…"
+      },
+      "opts": [
+       {
+        "id": "Manifest"
+       },
+       {
+        "id": "Kontrak"
+       },
+       {
+        "id": "Kartu Career Up"
+       },
+       {
+        "id": "Daftar hadir"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Manifest memastikan limbah ditangani sampai pembuangan akhir (termasuk daur ulang). (Modul hal. 26.)"
+      },
+      "ref": {
+       "p": 26
+      }
+     },
+     {
+      "q": {
+       "id": "UU yang membatasi suara mesin dan getaran lokasi konstruksi adalah UU…"
+      },
+      "opts": [
+       {
+        "id": "Regulasi Kebisingan/Pencegahan Getaran"
+       },
+       {
+        "id": "Parkir"
+       },
+       {
+        "id": "Air Bersih"
+       },
+       {
+        "id": "Gas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Mengurangi gangguan bagi lingkungan sekitar. (Modul hal. 26.)"
+      },
+      "ref": {
+       "p": 26
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s4-q",
+    "title": {
+     "id": "Latihan: UU Pemadam, Air, Drainase, Gas, Listrik, Telekomunikasi, Penerbangan, Parkir",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Benda dengan ketinggian minimal berapa wajib dipasangi lampu penghalang penerbangan?"
+      },
+      "opts": [
+       {
+        "id": "60 m"
+       },
+       {
+        "id": "5 m"
+       },
+       {
+        "id": "10 m"
+       },
+       {
+        "id": "1 m"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ketentuan UU Penerbangan: 60 m atau lebih. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     },
+     {
+      "q": {
+       "id": "Drone dengan berat minimal berapa wajib didaftarkan?"
+      },
+      "opts": [
+       {
+        "id": "100 g"
+       },
+       {
+        "id": "10 kg"
+       },
+       {
+        "id": "1 kg"
+       },
+       {
+        "id": "tidak ada"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Drone ≥ 100 g harus didaftarkan. (Modul hal. 28.)"
+      },
+      "ref": {
+       "p": 28
+      }
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 3 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Dua tujuan utama bendungan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pengendalian banjir dan pemanfaatan air"
+       },
+       {
+        "id": "Hiburan dan wisata"
+       },
+       {
+        "id": "Pembangkit asap dan debu"
+       },
+       {
+        "id": "Penambangan dan pengeboran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bendungan mengatur jumlah air yang mengalir ke sungai. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Metode NATM pada terowongan gunung memakai…"
+      },
+      "opts": [
+       {
+        "id": "Shotcrete, penopang baja, baut batuan"
+       },
+       {
+        "id": "Hanya batu bata"
+       },
+       {
+        "id": "Pipa propulsi"
+       },
+       {
+        "id": "Kapal keruk"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah digali, permukaan dipasangi shotcrete, penopang baja, dan baut batuan. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan tanah” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 48 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan teknik sipil kelautan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 50 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan rangka baja” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 57 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan sambungan rebar” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 59 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pelat logam arsitektur” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 68 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan finishing interior” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 70 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     },
+     {
+      "q": {
+       "id": "Jenis kualifikasi menurut UU Keselamatan dan Kesehatan Kerja ada…"
+      },
+      "opts": [
+       {
+        "id": "Izin nasional, pelatihan keterampilan, pendidikan khusus"
+       },
+       {
+        "id": "Hanya ijazah"
+       },
+       {
+        "id": "Hanya SIM mobil"
+       },
+       {
+        "id": "Tidak ada"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ketiganya dibahas pada 3.3.1. (Modul hal. 82.)"
+      },
+      "ref": {
+       "p": 82
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 3 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jenis terowongan berikut yang menggunakan mesin perisai (shield) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Terowongan perisai"
+       },
+       {
+        "id": "Terowongan gunung"
+       },
+       {
+        "id": "Terowongan terbuka"
+       },
+       {
+        "id": "Terowongan propulsi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terowongan perisai memakai mesin penggali khusus; cocok untuk tanah lunak. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Jembatan penyeberangan perairan dibangun dalam dua tahap, yaitu…"
+      },
+      "opts": [
+       {
+        "id": "Konstruksi bawah dan atas"
+       },
+       {
+        "id": "Desain dan iklan"
+       },
+       {
+        "id": "Pembongkaran dan penimbunan"
+       },
+       {
+        "id": "Gambar dan cat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bawah = fondasi; atas = badan jembatan. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan terowongan propulsi” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 49 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pengeboran sumur” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 51 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan rebar” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 58 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan las” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 60 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pemasangan ubin” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 69 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pemajangan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 71 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 3)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Sengatan listrik」?",
+       "jp": "「Sengatan listrik」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Terhubungnya 2 titik dalam rangkaian listrik dengan konduktor berhambatan rendah",
+        "jp": "Terhubungnya 2 titik dalam rangkaian listrik dengan konduktor berhambatan rendah"
+       },
+       {
+        "id": "Saat melakukan penimbunan tanah di lereng yang curam, tanah dipotong membentuk tangga untuk mencegah timbunan tanah tergelincir ke bawah",
+        "jp": "Saat melakukan penimbunan tanah di lereng yang curam, tanah dipotong membentuk tangga untuk mencegah timbunan tanah tergelincir ke bawah"
+       },
+       {
+        "id": "Digunakan untuk menyatakan bahwa ada sesuatu yang terlewatkan atau tertinggal pada tahap setelah pekerjaan arsitektur hampir selesai",
+        "jp": "Digunakan untuk menyatakan bahwa ada sesuatu yang terlewatkan atau tertinggal pada tahap setelah pekerjaan arsitektur hampir selesai"
+       },
+       {
+        "id": "Arus listrik yang mengalir melalui tubuh manusia",
+        "jp": "Arus listrik yang mengalir melalui tubuh manusia"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Sengatan listrik (Sengatan listrik) = Arus listrik yang mengalir melalui tubuh manusia. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Sengatan listrik（Sengatan listrik）＝ Arus listrik yang mengalir melalui tubuh manusia"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tamping」?",
+       "jp": "「Tamping」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase",
+        "jp": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase"
+       },
+       {
+        "id": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll",
+        "jp": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll"
+       },
+       {
+        "id": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…",
+        "jp": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…"
+       },
+       {
+        "id": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat",
+        "jp": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Tamping (Tamping) = Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tamping（Tamping）＝ Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Terbang/jatuh」?",
+       "jp": "「Terbang/jatuh」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan tanah untuk fondasi tiang pancang",
+        "jp": "Pekerjaan tanah untuk fondasi tiang pancang"
+       },
+       {
+        "id": "Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir",
+        "jp": "Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir"
+       },
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya",
+        "jp": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Terbang/jatuh (Terbang/jatuh) = Breaker (pemutus) diaktifkan dan sirkuit dilepaskan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Terbang/jatuh（Terbang/jatuh）＝ Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pemipaan pelat」?",
+       "jp": "「Pemipaan pelat」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Plumbing yang dibenamkan di lantai atau plafon bangunan",
+        "jp": "Plumbing yang dibenamkan di lantai atau plafon bangunan"
+       },
+       {
+        "id": "Mengeluarkan dimensi dari posisi referensi",
+        "jp": "Mengeluarkan dimensi dari posisi referensi"
+       },
+       {
+        "id": "“Tinta induk” mengacu pada garis yang menjadi acuan untuk pekerjaan penandaan pada proses selanjutnya, seperti garis pusat atau tinta tanah",
+        "jp": "“Tinta induk” mengacu pada garis yang menjadi acuan untuk pekerjaan penandaan pada proses selanjutnya, seperti garis pusat atau tinta tanah"
+       },
+       {
+        "id": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…",
+        "jp": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pemipaan pelat (Pemipaan pelat) = Plumbing yang dibenamkan di lantai atau plafon bangunan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pemipaan pelat（Pemipaan pelat）＝ Plumbing yang dibenamkan di lantai atau plafon bangunan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pagar sementara」?",
+       "jp": "「Pagar sementara」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…",
+        "jp": "Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…"
+       },
+       {
+        "id": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…",
+        "jp": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…"
+       },
+       {
+        "id": "Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…",
+        "jp": "Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…"
+       },
+       {
+        "id": "Kata yang menggambarkan kondisi yang menyebar ke seluruh permukaan tanpa ada celah",
+        "jp": "Kata yang menggambarkan kondisi yang menyebar ke seluruh permukaan tanpa ada celah"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Pagar sementara (Pagar sementara) = Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pagar sementara（Pagar sementara）＝ Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Alat penangkal petir」?",
+       "jp": "「Alat penangkal petir」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai",
+        "jp": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai"
+       },
+       {
+        "id": "Kata yang menggambarkan kondisi yang menyebar ke seluruh permukaan tanpa ada celah",
+        "jp": "Kata yang menggambarkan kondisi yang menyebar ke seluruh permukaan tanpa ada celah"
+       },
+       {
+        "id": "Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir",
+        "jp": "Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir"
+       },
+       {
+        "id": "S singkatan dari Steel",
+        "jp": "S singkatan dari Steel"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Alat penangkal petir (Alat penangkal petir) = Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Alat penangkal petir（Alat penangkal petir）＝ Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Noro」?",
+       "jp": "「Noro」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…",
+        "jp": "Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…"
+       },
+       {
+        "id": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll",
+        "jp": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll"
+       },
+       {
+        "id": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya",
+        "jp": "Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan desainnya"
+       },
+       {
+        "id": "Hal tentang panjang",
+        "jp": "Hal tentang panjang"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Noro (Noro) = Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Noro（Noro）＝ Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Perancah」?",
+       "jp": "「Perancah」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat",
+        "jp": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat"
+       },
+       {
+        "id": "Menempatkan dan merakit rebar",
+        "jp": "Menempatkan dan merakit rebar"
+       },
+       {
+        "id": "Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya",
+        "jp": "Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya"
+       },
+       {
+        "id": "Garis yang melewati bagian tengah dinding",
+        "jp": "Garis yang melewati bagian tengah dinding"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Perancah (Perancah) = Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Perancah（Perancah）＝ Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s1-q",
+    "title": {
+     "id": "Latihan: Jenis Pekerjaan Konstruksi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Dua tujuan utama bendungan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pengendalian banjir dan pemanfaatan air"
+       },
+       {
+        "id": "Hiburan dan wisata"
+       },
+       {
+        "id": "Pembangkit asap dan debu"
+       },
+       {
+        "id": "Penambangan dan pengeboran"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bendungan mengatur jumlah air yang mengalir ke sungai. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Jenis terowongan berikut yang menggunakan mesin perisai (shield) adalah…"
+      },
+      "opts": [
+       {
+        "id": "Terowongan perisai"
+       },
+       {
+        "id": "Terowongan gunung"
+       },
+       {
+        "id": "Terowongan terbuka"
+       },
+       {
+        "id": "Terowongan propulsi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terowongan perisai memakai mesin penggali khusus; cocok untuk tanah lunak. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Metode NATM pada terowongan gunung memakai…"
+      },
+      "opts": [
+       {
+        "id": "Shotcrete, penopang baja, baut batuan"
+       },
+       {
+        "id": "Hanya batu bata"
+       },
+       {
+        "id": "Pipa propulsi"
+       },
+       {
+        "id": "Kapal keruk"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Setelah digali, permukaan dipasangi shotcrete, penopang baja, dan baut batuan. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     },
+     {
+      "q": {
+       "id": "Jembatan penyeberangan perairan dibangun dalam dua tahap, yaitu…"
+      },
+      "opts": [
+       {
+        "id": "Konstruksi bawah dan atas"
+       },
+       {
+        "id": "Desain dan iklan"
+       },
+       {
+        "id": "Pembongkaran dan penimbunan"
+       },
+       {
+        "id": "Gambar dan cat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bawah = fondasi; atas = badan jembatan. (Modul hal. 34.)"
+      },
+      "ref": {
+       "p": 34
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s2-q",
+    "title": {
+     "id": "Latihan: Pekerjaan Khusus Utama: Tanah sampai Perancah",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pekerjaan tanah” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 48 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan terowongan propulsi” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 49 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan teknik sipil kelautan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 50 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pengeboran sumur” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Tanah sampai Perancah”, hal. 51 (Modul hal. 48.)"
+      },
+      "ref": {
+       "p": 48
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s3-q",
+    "title": {
+     "id": "Latihan: Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pekerjaan rangka baja” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 57 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan rebar” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 58 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan sambungan rebar” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 59 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan las” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Rangka Baja sampai Atap”, hal. 60 (Modul hal. 57.)"
+      },
+      "ref": {
+       "p": 57
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s4-q",
+    "title": {
+     "id": "Latihan: Pekerjaan Khusus Utama: Finishing dan Instalasi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pelat logam arsitektur” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 68 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pemasangan ubin” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 69 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan finishing interior” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 70 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan pemajangan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pekerjaan Khusus Utama: Finishing dan Instalasi"
+       },
+       {
+        "id": "Jenis Pekerjaan Konstruksi"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Tanah sampai Perancah"
+       },
+       {
+        "id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pekerjaan Khusus Utama: Finishing dan Instalasi”, hal. 71 (Modul hal. 68.)"
+      },
+      "ref": {
+       "p": 68
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s5-q",
+    "title": {
+     "id": "Latihan: Kualifikasi yang Diperlukan",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jenis kualifikasi menurut UU Keselamatan dan Kesehatan Kerja ada…"
+      },
+      "opts": [
+       {
+        "id": "Izin nasional, pelatihan keterampilan, pendidikan khusus"
+       },
+       {
+        "id": "Hanya ijazah"
+       },
+       {
+        "id": "Hanya SIM mobil"
+       },
+       {
+        "id": "Tidak ada"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ketiganya dibahas pada 3.3.1. (Modul hal. 82.)"
+      },
+      "ref": {
+       "p": 82
+      }
+     }
+    ]
+   }
+  ],
+  "bab4": [
+   {
+    "id": "bab4-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 4 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "“Goanzen ni” berarti…"
+      },
+      "opts": [
+       {
+        "id": "Semoga selamat"
+       },
+       {
+        "id": "Selamat makan"
+       },
+       {
+        "id": "Terima kasih kembali"
+       },
+       {
+        "id": "Sampai jumpa"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dipakai untuk mengharapkan keselamatan. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     },
+     {
+      "q": {
+       "id": "Seruan peringatan bahaya di lokasi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Abunai"
+       },
+       {
+        "id": "Otsukare"
+       },
+       {
+        "id": "Shitsurei"
+       },
+       {
+        "id": "Ohayou"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Abunai = bahaya. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     },
+     {
+      "q": {
+       "id": "“Garis pusat” adalah garis yang…"
+      },
+      "opts": [
+       {
+        "id": "Melewati pusat dinding atau tiang"
+       },
+       {
+        "id": "Menandai batas kota"
+       },
+       {
+        "id": "Memotong pipa"
+       },
+       {
+        "id": "Menandai ketinggian helm"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dipakai sebagai acuan pemasangan. (Modul hal. 97.)"
+      },
+      "ref": {
+       "p": 97
+      }
+     },
+     {
+      "q": {
+       "id": "Arti “Seiri” dalam 5S adalah…"
+      },
+      "opts": [
+       {
+        "id": "Ringkas: memisahkan yang perlu dan tidak perlu"
+       },
+       {
+        "id": "Memasak"
+       },
+       {
+        "id": "Membangun"
+       },
+       {
+        "id": "Mengecat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Seiri = meringkas. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab4-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 4 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Salam yang sebaiknya TIDAK dipakai kepada orang yang lebih tua/atasan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Gokuro-sama"
+       },
+       {
+        "id": "Otsukare-sama desu"
+       },
+       {
+        "id": "Shitsurei shimasu"
+       },
+       {
+        "id": "Selamat pagi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Banyak orang Jepang menganggap Gokuro-sama kurang sopan untuk atasan. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     },
+     {
+      "q": {
+       "id": "“Yarikata” adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pagar sementara yang menampilkan garis dan tinggi acuan"
+       },
+       {
+        "id": "Alat potong beton"
+       },
+       {
+        "id": "Jenis crane"
+       },
+       {
+        "id": "Seragam kerja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dibuat dengan pancang kayu dan papan agar acuan mudah terlihat. (Modul hal. 97.)"
+      },
+      "ref": {
+       "p": 97
+      }
+     },
+     {
+      "q": {
+       "id": "Arti “Seiton” dalam 5S adalah…"
+      },
+      "opts": [
+       {
+        "id": "Rapi: menaruh barang di tempat yang ditentukan"
+       },
+       {
+        "id": "Ringkas"
+       },
+       {
+        "id": "Resik"
+       },
+       {
+        "id": "Rajin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Seiton = merapikan. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     },
+     {
+      "q": {
+       "id": "Merokok di lokasi konstruksi dan pos pekerja boleh dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Hanya di tempat yang ditentukan"
+       },
+       {
+        "id": "Di mana saja"
+       },
+       {
+        "id": "Di tempat tersembunyi"
+       },
+       {
+        "id": "Di atas perancah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilarang sembunyi-sembunyi merokok. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab4-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 4)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Penetrasi」?",
+       "jp": "「Penetrasi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya",
+        "jp": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya"
+       },
+       {
+        "id": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat",
+        "jp": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat"
+       },
+       {
+        "id": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai",
+        "jp": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai"
+       },
+       {
+        "id": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya",
+        "jp": "Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penetrasi (Penetrasi) = Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Penetrasi（Penetrasi）＝ Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pentanahan/grounding」?",
+       "jp": "「Pentanahan/grounding」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Menyambungkan peralatan listrik atau sirkuit ke tanah secara elektrik",
+        "jp": "Menyambungkan peralatan listrik atau sirkuit ke tanah secara elektrik"
+       },
+       {
+        "id": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase",
+        "jp": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase"
+       },
+       {
+        "id": "Ini adalah papan yang dipukul secara horizontal terhadap tiang pancang saat membuat “yarikata”",
+        "jp": "Ini adalah papan yang dipukul secara horizontal terhadap tiang pancang saat membuat “yarikata”"
+       },
+       {
+        "id": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cembung",
+        "jp": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cembung"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pentanahan/grounding (Pentanahan/grounding) = Menyambungkan peralatan listrik atau sirkuit ke tanah secara elektrik. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pentanahan/grounding（Pentanahan/grounding）＝ Menyambungkan peralatan listrik atau sirkuit ke tanah secara elektrik"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Ikuti」?",
+       "jp": "「Ikuti」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”",
+        "jp": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”"
+       },
+       {
+        "id": "Beton dengan tebal 5 cm - 10 cm dan dicor dengan rata terutama untuk menandai dan mendirikan bekisting",
+        "jp": "Beton dengan tebal 5 cm - 10 cm dan dicor dengan rata terutama untuk menandai dan mendirikan bekisting"
+       },
+       {
+        "id": "Mengeluarkan dimensi dari posisi referensi",
+        "jp": "Mengeluarkan dimensi dari posisi referensi"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Ikuti (Ikuti) = Mengeluarkan dimensi dari posisi referensi. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Ikuti（Ikuti）＝ Mengeluarkan dimensi dari posisi referensi"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Sori」?",
+       "jp": "「Sori」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”",
+        "jp": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”"
+       },
+       {
+        "id": "Menggunakan material bekisting yang sama di lokasi konstruksi lain",
+        "jp": "Menggunakan material bekisting yang sama di lokasi konstruksi lain"
+       },
+       {
+        "id": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung",
+        "jp": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Sori (Sori) = Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Sori（Sori）＝ Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Terbang/jatuh」?",
+       "jp": "「Terbang/jatuh」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Menyelidiki sesuatu disebut “ataru”. Dalam pekerjaan listrik, istilah ini digunakan saat menggunakan detektor tegangan untuk memeriksa…",
+        "jp": "Menyelidiki sesuatu disebut “ataru”. Dalam pekerjaan listrik, istilah ini digunakan saat menggunakan detektor tegangan untuk memeriksa…"
+       },
+       {
+        "id": "Melepaskan paku dari bekisting untuk menggunakan kembali material bekisting",
+        "jp": "Melepaskan paku dari bekisting untuk menggunakan kembali material bekisting"
+       },
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”",
+        "jp": "Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding penahan”"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Terbang/jatuh (Terbang/jatuh) = Breaker (pemutus) diaktifkan dan sirkuit dilepaskan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Terbang/jatuh（Terbang/jatuh）＝ Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Nekiri」?",
+       "jp": "「Nekiri」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai",
+        "jp": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai"
+       },
+       {
+        "id": "S singkatan dari Steel",
+        "jp": "S singkatan dari Steel"
+       },
+       {
+        "id": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll",
+        "jp": "Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll"
+       },
+       {
+        "id": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh",
+        "jp": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Nekiri (Nekiri) = Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Nekiri（Nekiri）＝ Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat berat, dll"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Lining (pelapisan)」?",
+       "jp": "「Lining (pelapisan)」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya",
+        "jp": "Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya"
+       },
+       {
+        "id": "Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…",
+        "jp": "Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…"
+       },
+       {
+        "id": "Ini adalah fondasi yang dibuat di tempat yang tanahnya lemah",
+        "jp": "Ini adalah fondasi yang dibuat di tempat yang tanahnya lemah"
+       },
+       {
+        "id": "“Pagar sementara” yang dibuat sedemikian rupa hingga garis-garis acuan untuk membangun bangunan (pusat tiang atau dinding, garis…",
+        "jp": "“Pagar sementara” yang dibuat sedemikian rupa hingga garis-garis acuan untuk membangun bangunan (pusat tiang atau dinding, garis…"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Lining (pelapisan) (Lining (pelapisan)) = Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Lining (pelapisan)（Lining (pelapisan)）＝ Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut “coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih…"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Antarmuka」?",
+       "jp": "「Antarmuka」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya",
+        "jp": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya"
+       },
+       {
+        "id": "Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring",
+        "jp": "Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring"
+       },
+       {
+        "id": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu",
+        "jp": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu"
+       },
+       {
+        "id": "Mengubur kabel listrik, dll. di dalam tanah",
+        "jp": "Mengubur kabel listrik, dll. di dalam tanah"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Antarmuka (Antarmuka) = Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Antarmuka（Antarmuka）＝ Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b4s1-q",
+    "title": {
+     "id": "Latihan: Salam dan Panggilan Darurat",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "“Goanzen ni” berarti…"
+      },
+      "opts": [
+       {
+        "id": "Semoga selamat"
+       },
+       {
+        "id": "Selamat makan"
+       },
+       {
+        "id": "Terima kasih kembali"
+       },
+       {
+        "id": "Sampai jumpa"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dipakai untuk mengharapkan keselamatan. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     },
+     {
+      "q": {
+       "id": "Salam yang sebaiknya TIDAK dipakai kepada orang yang lebih tua/atasan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Gokuro-sama"
+       },
+       {
+        "id": "Otsukare-sama desu"
+       },
+       {
+        "id": "Shitsurei shimasu"
+       },
+       {
+        "id": "Selamat pagi"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Banyak orang Jepang menganggap Gokuro-sama kurang sopan untuk atasan. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     },
+     {
+      "q": {
+       "id": "Seruan peringatan bahaya di lokasi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Abunai"
+       },
+       {
+        "id": "Otsukare"
+       },
+       {
+        "id": "Shitsurei"
+       },
+       {
+        "id": "Ohayou"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Abunai = bahaya. (Modul hal. 95.)"
+      },
+      "ref": {
+       "p": 95
+      }
+     }
+    ]
+   },
+   {
+    "id": "b4s2-q",
+    "title": {
+     "id": "Latihan: Istilah di Lokasi Konstruksi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "“Yarikata” adalah…"
+      },
+      "opts": [
+       {
+        "id": "Pagar sementara yang menampilkan garis dan tinggi acuan"
+       },
+       {
+        "id": "Alat potong beton"
+       },
+       {
+        "id": "Jenis crane"
+       },
+       {
+        "id": "Seragam kerja"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dibuat dengan pancang kayu dan papan agar acuan mudah terlihat. (Modul hal. 97.)"
+      },
+      "ref": {
+       "p": 97
+      }
+     },
+     {
+      "q": {
+       "id": "“Garis pusat” adalah garis yang…"
+      },
+      "opts": [
+       {
+        "id": "Melewati pusat dinding atau tiang"
+       },
+       {
+        "id": "Menandai batas kota"
+       },
+       {
+        "id": "Memotong pipa"
+       },
+       {
+        "id": "Menandai ketinggian helm"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dipakai sebagai acuan pemasangan. (Modul hal. 97.)"
+      },
+      "ref": {
+       "p": 97
+      }
+     }
+    ]
+   },
+   {
+    "id": "b4s3-q",
+    "title": {
+     "id": "Latihan: Hal yang Perlu Diperhatikan dalam Kehidupan Bersama",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Arti “Seiton” dalam 5S adalah…"
+      },
+      "opts": [
+       {
+        "id": "Rapi: menaruh barang di tempat yang ditentukan"
+       },
+       {
+        "id": "Ringkas"
+       },
+       {
+        "id": "Resik"
+       },
+       {
+        "id": "Rajin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Seiton = merapikan. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     },
+     {
+      "q": {
+       "id": "Arti “Seiri” dalam 5S adalah…"
+      },
+      "opts": [
+       {
+        "id": "Ringkas: memisahkan yang perlu dan tidak perlu"
+       },
+       {
+        "id": "Memasak"
+       },
+       {
+        "id": "Membangun"
+       },
+       {
+        "id": "Mengecat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Seiri = meringkas. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     },
+     {
+      "q": {
+       "id": "Merokok di lokasi konstruksi dan pos pekerja boleh dilakukan…"
+      },
+      "opts": [
+       {
+        "id": "Hanya di tempat yang ditentukan"
+       },
+       {
+        "id": "Di mana saja"
+       },
+       {
+        "id": "Di tempat tersembunyi"
+       },
+       {
+        "id": "Di atas perancah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilarang sembunyi-sembunyi merokok. (Modul hal. 114.)"
+      },
+      "ref": {
+       "p": 114
+      }
+     }
+    ]
+   }
+  ],
+  "bab5": [
+   {
+    "id": "bab5-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 5 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Crane yang bagian cranenya memanjat tiang atau bangunan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tower crane"
+       },
+       {
+        "id": "Crawler crane"
+       },
+       {
+        "id": "Rough terrain crane"
+       },
+       {
+        "id": "Truck pengaduk"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tower crane naik dengan mast climbing atau floor climbing. (Modul hal. 118.)"
+      },
+      "ref": {
+       "p": 118
+      }
+     },
+     {
+      "q": {
+       "id": "Perancah jenis pengikat baji dapat dirakit dan dibongkar dengan…"
+      },
+      "opts": [
+       {
+        "id": "Satu palu"
+       },
+       {
+        "id": "Mesin las"
+       },
+       {
+        "id": "Crane saja"
+       },
+       {
+        "id": "Bahan peledak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dirancang agar mudah dipasang dengan palu tunggal. (Modul hal. 118.)"
+      },
+      "ref": {
+       "p": 118
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan peralatan pendingin dan pengatur udara” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 134 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan menjaga suhu panas dan dingin” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 135 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Alat listrik” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 137 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Penandaan dan menandakan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 142 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab5-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 5 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Ekskavator hidrolik (backhoe) menggerakkan…"
+      },
+      "opts": [
+       {
+        "id": "Boom, arm, dan bucket dengan silinder hidrolik"
+       },
+       {
+        "id": "Hanya roda"
+       },
+       {
+        "id": "Pipa propulsi"
+       },
+       {
+        "id": "Cetakan beton"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Attachment dapat diganti sesuai keperluan. (Modul hal. 118.)"
+      },
+      "ref": {
+       "p": 118
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan telekomunikasi” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Telekomunikasi”, hal. 127 (Modul hal. 127.)"
+      },
+      "ref": {
+       "p": 127
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan peralatan suplai air, drainase dan kebersihan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 134 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan fasilitas pemadam kebakaran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 135 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Menggali/meratakan/memadatkan dan mengencangkan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 140 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Mengukur/memeriksa” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 143 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab5-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 5)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Mizumori」?",
+       "jp": "「Mizumori」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya",
+        "jp": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya"
+       },
+       {
+        "id": "Menentukan tingkat horizontal yang menjadi acuan tinggi bangunan",
+        "jp": "Menentukan tingkat horizontal yang menjadi acuan tinggi bangunan"
+       },
+       {
+        "id": "Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…",
+        "jp": "Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…"
+       },
+       {
+        "id": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja",
+        "jp": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Mizumori (Mizumori) = Menentukan tingkat horizontal yang menjadi acuan tinggi bangunan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Mizumori（Mizumori）＝ Menentukan tingkat horizontal yang menjadi acuan tinggi bangunan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Terbang/jatuh」?",
+       "jp": "「Terbang/jatuh」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "S singkatan dari Steel",
+        "jp": "S singkatan dari Steel"
+       },
+       {
+        "id": "Kemiringan yang landai untuk memungkinkan air mengalir",
+        "jp": "Kemiringan yang landai untuk memungkinkan air mengalir"
+       },
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "Jarak antar pusat rebar",
+        "jp": "Jarak antar pusat rebar"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Terbang/jatuh (Terbang/jatuh) = Breaker (pemutus) diaktifkan dan sirkuit dilepaskan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Terbang/jatuh（Terbang/jatuh）＝ Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Uji air penuh」?",
+       "jp": "「Uji air penuh」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase",
+        "jp": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase"
+       },
+       {
+        "id": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja",
+        "jp": "Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja"
+       },
+       {
+        "id": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung",
+        "jp": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung"
+       },
+       {
+        "id": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat",
+        "jp": "Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat menjadi padat"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Uji air penuh (Uji air penuh) = Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Uji air penuh（Uji air penuh）＝ Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tenaoshi (pembetulan)」?",
+       "jp": "「Tenaoshi (pembetulan)」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Beton dengan tebal 5 cm - 10 cm dan dicor dengan rata terutama untuk menandai dan mendirikan bekisting",
+        "jp": "Beton dengan tebal 5 cm - 10 cm dan dicor dengan rata terutama untuk menandai dan mendirikan bekisting"
+       },
+       {
+        "id": "S singkatan dari Steel",
+        "jp": "S singkatan dari Steel"
+       },
+       {
+        "id": "Memperbaiki sebagian dari pekerjaan yang sudah selesai",
+        "jp": "Memperbaiki sebagian dari pekerjaan yang sudah selesai"
+       },
+       {
+        "id": "Sebuah kata yang mengacu pada permukaan",
+        "jp": "Sebuah kata yang mengacu pada permukaan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Tenaoshi (pembetulan) (Tenaoshi (pembetulan)) = Memperbaiki sebagian dari pekerjaan yang sudah selesai. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tenaoshi (pembetulan)（Tenaoshi (pembetulan)）＝ Memperbaiki sebagian dari pekerjaan yang sudah selesai"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tsura (muka)」?",
+       "jp": "「Tsura (muka)」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Sebuah kata yang mengacu pada permukaan",
+        "jp": "Sebuah kata yang mengacu pada permukaan"
+       },
+       {
+        "id": "Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka",
+        "jp": "Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka"
+       },
+       {
+        "id": "Ini adalah interval alokasi",
+        "jp": "Ini adalah interval alokasi"
+       },
+       {
+        "id": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase",
+        "jp": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tsura (muka) (Tsura (muka)) = Sebuah kata yang mengacu pada permukaan. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tsura (muka)（Tsura (muka)）＝ Sebuah kata yang mengacu pada permukaan"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Danbane」?",
+       "jp": "「Danbane」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…",
+        "jp": "Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…"
+       },
+       {
+        "id": "Ini adalah interval alokasi",
+        "jp": "Ini adalah interval alokasi"
+       },
+       {
+        "id": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh",
+        "jp": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh"
+       },
+       {
+        "id": "S singkatan dari Steel",
+        "jp": "S singkatan dari Steel"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Danbane (Danbane) = Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Danbane（Danbane）＝ Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan tanah”), jiyama (tanah asli) dibiarkan dalam bentuk…"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Struktur kayu」?",
+       "jp": "「Struktur kayu」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Mencampur semen dan agregat secara merata",
+        "jp": "Mencampur semen dan agregat secara merata"
+       },
+       {
+        "id": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya",
+        "jp": "Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya"
+       },
+       {
+        "id": "Garis yang melewati bagian tengah tiang",
+        "jp": "Garis yang melewati bagian tengah tiang"
+       },
+       {
+        "id": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh",
+        "jp": "Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak runtuh"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Struktur kayu (Struktur kayu) = Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Struktur kayu（Struktur kayu）＝ Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Lereng」?",
+       "jp": "「Lereng」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Tinta dengan tinggi referensi untuk menunjukkan horizontal, juga dikenal sebagai “rikuzumi”. Ini juga disebut tinta pinggang, tinta air,…",
+        "jp": "Tinta dengan tinggi referensi untuk menunjukkan horizontal, juga dikenal sebagai “rikuzumi”. Ini juga disebut tinta pinggang, tinta air,…"
+       },
+       {
+        "id": "Sebuah kata yang mengacu pada permukaan",
+        "jp": "Sebuah kata yang mengacu pada permukaan"
+       },
+       {
+        "id": "Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring",
+        "jp": "Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring"
+       },
+       {
+        "id": "Garis yang melewati bagian tengah tiang",
+        "jp": "Garis yang melewati bagian tengah tiang"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Lereng (Lereng) = Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Lereng（Lereng）＝ Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada permukaan galian yang miring"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b5s1-q",
+    "title": {
+     "id": "Latihan: Mesin Konstruksi dan Peralatan Listrik",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Crane yang bagian cranenya memanjat tiang atau bangunan adalah…"
+      },
+      "opts": [
+       {
+        "id": "Tower crane"
+       },
+       {
+        "id": "Crawler crane"
+       },
+       {
+        "id": "Rough terrain crane"
+       },
+       {
+        "id": "Truck pengaduk"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tower crane naik dengan mast climbing atau floor climbing. (Modul hal. 118.)"
+      },
+      "ref": {
+       "p": 118
+      }
+     },
+     {
+      "q": {
+       "id": "Ekskavator hidrolik (backhoe) menggerakkan…"
+      },
+      "opts": [
+       {
+        "id": "Boom, arm, dan bucket dengan silinder hidrolik"
+       },
+       {
+        "id": "Hanya roda"
+       },
+       {
+        "id": "Pipa propulsi"
+       },
+       {
+        "id": "Cetakan beton"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Attachment dapat diganti sesuai keperluan. (Modul hal. 118.)"
+      },
+      "ref": {
+       "p": 118
+      }
+     },
+     {
+      "q": {
+       "id": "Perancah jenis pengikat baji dapat dirakit dan dibongkar dengan…"
+      },
+      "opts": [
+       {
+        "id": "Satu palu"
+       },
+       {
+        "id": "Mesin las"
+       },
+       {
+        "id": "Crane saja"
+       },
+       {
+        "id": "Bahan peledak"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dirancang agar mudah dipasang dengan palu tunggal. (Modul hal. 118.)"
+      },
+      "ref": {
+       "p": 118
+      }
+     }
+    ]
+   },
+   {
+    "id": "b5s2-q",
+    "title": {
+     "id": "Latihan: Telekomunikasi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pekerjaan telekomunikasi” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Telekomunikasi”, hal. 127 (Modul hal. 127.)"
+      },
+      "ref": {
+       "p": 127
+      }
+     }
+    ]
+   },
+   {
+    "id": "b5s3-q",
+    "title": {
+     "id": "Latihan: Pendingin, Air-Drainase, Isolasi, Pemadam",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pekerjaan peralatan pendingin dan pengatur udara” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 134 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan peralatan suplai air, drainase dan kebersihan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 134 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan menjaga suhu panas dan dingin” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 135 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pekerjaan fasilitas pemadam kebakaran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Alat dan Material Umum"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin, Air-Drainase, Isolasi, Pemadam”, hal. 135 (Modul hal. 134.)"
+      },
+      "ref": {
+       "p": 134
+      }
+     }
+    ]
+   },
+   {
+    "id": "b5s4-q",
+    "title": {
+     "id": "Latihan: Alat dan Material Umum",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Alat listrik” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 137 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Menggali/meratakan/memadatkan dan mengencangkan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 140 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Penandaan dan menandakan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 142 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Mengukur/memeriksa” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Alat dan Material Umum"
+       },
+       {
+        "id": "Mesin Konstruksi dan Peralatan Listrik"
+       },
+       {
+        "id": "Telekomunikasi"
+       },
+       {
+        "id": "Pendingin, Air-Drainase, Isolasi, Pemadam"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Alat dan Material Umum”, hal. 143 (Modul hal. 137.)"
+      },
+      "ref": {
+       "p": 137
+      }
+     }
+    ]
+   }
+  ],
+  "bab6": [
+   {
+    "id": "bab6-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 6 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Huruf S dalam QCDSE berarti…"
+      },
+      "opts": [
+       {
+        "id": "Safety (keselamatan)"
+       },
+       {
+        "id": "Speed (kecepatan)"
+       },
+       {
+        "id": "Sales (penjualan)"
+       },
+       {
+        "id": "Size (ukuran)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "QCDSE = mutu, biaya, proses, keselamatan, lingkungan. (Modul hal. 156.)"
+      },
+      "ref": {
+       "p": 156
+      }
+     },
+     {
+      "q": {
+       "id": "Pekerjaan konstruksi disebut “satu produk dibuat sesuai pesanan” karena…"
+      },
+      "opts": [
+       {
+        "id": "Tiap proyek dirancang sesuai permintaan pelanggan"
+       },
+       {
+        "id": "Dibuat massal di pabrik"
+       },
+       {
+        "id": "Tidak ada pemesan"
+       },
+       {
+        "id": "Desainnya selalu sama"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berbeda dari produksi massal pabrik. (Modul hal. 156.)"
+      },
+      "ref": {
+       "p": 156
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa polivinil klorida keras” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pengolahan Pipa”, hal. 166 (Modul hal. 161.)"
+      },
+      "ref": {
+       "p": 161
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa tembaga berlapis untuk refrigeran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 169 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Bentuk dan jenis bahan isolasi termal” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 172 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Pipa suplai air yang tahan gempa dan umum dipakai di Jepang adalah pipa…"
+      },
+      "opts": [
+       {
+        "id": "Besi cor ulet jenis GX"
+       },
+       {
+        "id": "Kaca"
+       },
+       {
+        "id": "Kertas"
+       },
+       {
+        "id": "Kayu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sambungan GX memiliki fungsi tahan gempa. (Modul hal. 173.)"
+      },
+      "ref": {
+       "p": 173
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pelat logam” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pelat Logam Arsitektur"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pelat Logam Arsitektur”, hal. 181 (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Korsleting, ground fault, kebocoran listrik” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 185 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Kerusakan/pemotongan pipa terpendam yang ada, pemutusan pengabelan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 186 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab6-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 6 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Berikut yang termasuk 5M adalah…"
+      },
+      "opts": [
+       {
+        "id": "Manusia, Material, Metode, Mesin, Uang"
+       },
+       {
+        "id": "Makan, Minum, Mandi, Main, Mimpi"
+       },
+       {
+        "id": "Mutu, Mesin, Merek, Mobil, Menu"
+       },
+       {
+        "id": "Meja, Mur, Mata bor, Mal, Mesin cuci"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "5M metode pelaksanaan: Men, Materials, Methods, Machinery, Money. (Modul hal. 156.)"
+      },
+      "ref": {
+       "p": 156
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa baja karbon untuk pemipaan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pengolahan Pipa”, hal. 161 (Modul hal. 161.)"
+      },
+      "ref": {
+       "p": 161
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa baja berlapis vinil klorida keras untuk suplai air” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pengolahan Pipa”, hal. 168 (Modul hal. 161.)"
+      },
+      "ref": {
+       "p": 161
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Sambungan pipa untuk refrigeran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 171 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Contoh menjaga panas dan dingin untuk pemipaan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 172 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Fungsi penting sambungan GX saat gempa adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mengembang, menyusut, menekuk, dan mencegah pipa lepas"
+       },
+       {
+        "id": "Mematikan listrik"
+       },
+       {
+        "id": "Menahan banjir"
+       },
+       {
+        "id": "Mengubah warna pipa"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pipa tidak lepas walau diregangkan hingga batasnya. (Modul hal. 173.)"
+      },
+      "ref": {
+       "p": 173
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Metode sambungan saluran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pelat Logam Arsitektur"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pelat Logam Arsitektur”, hal. 182 (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Hal-hal yang perlu diperhatikan dalam pekerjaan crimping kawat” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 186 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Hal-hal yang perlu diperhatikan dalam menggunakan jalan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 187 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab6-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 6)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Tsuki katame」?",
+       "jp": "「Tsuki katame」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Memperbaiki sebagian dari pekerjaan yang sudah selesai",
+        "jp": "Memperbaiki sebagian dari pekerjaan yang sudah selesai"
+       },
+       {
+        "id": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah",
+        "jp": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah"
+       },
+       {
+        "id": "Mencampur semen dan agregat secara merata",
+        "jp": "Mencampur semen dan agregat secara merata"
+       },
+       {
+        "id": "Meningkatkan kepadatan tanah penimbunan kembali dengan menggunakan penumbuk, pelat, dll",
+        "jp": "Meningkatkan kepadatan tanah penimbunan kembali dengan menggunakan penumbuk, pelat, dll"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Tsuki katame (Tsuki katame) = Meningkatkan kepadatan tanah penimbunan kembali dengan menggunakan penumbuk, pelat, dll. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tsuki katame（Tsuki katame）＝ Meningkatkan kepadatan tanah penimbunan kembali dengan menggunakan penumbuk, pelat, dll"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Uji tekanan hidrolik」?",
+       "jp": "「Uji tekanan hidrolik」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Pipa yang dilalui kabel listrik",
+        "jp": "Pipa yang dilalui kabel listrik"
+       },
+       {
+        "id": "Menukar udara kotor di dalam ruangan dengan udara bersih",
+        "jp": "Menukar udara kotor di dalam ruangan dengan udara bersih"
+       },
+       {
+        "id": "Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…",
+        "jp": "Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…"
+       },
+       {
+        "id": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan",
+        "jp": "Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah bangunan"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Uji tekanan hidrolik (Uji tekanan hidrolik) = Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Uji tekanan hidrolik（Uji tekanan hidrolik）＝ Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan air ke dalam pipa seperti pipa suplai air, pipa suplai air panas,…"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pencampuran」?",
+       "jp": "「Pencampuran」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Kemiringan yang landai untuk memungkinkan air mengalir",
+        "jp": "Kemiringan yang landai untuk memungkinkan air mengalir"
+       },
+       {
+        "id": "Ini adalah persentase dari setiap material pembuat beton",
+        "jp": "Ini adalah persentase dari setiap material pembuat beton"
+       },
+       {
+        "id": "Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir",
+        "jp": "Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari sambaran petir"
+       },
+       {
+        "id": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”",
+        "jp": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Pencampuran (Pencampuran) = Ini adalah persentase dari setiap material pembuat beton. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pencampuran（Pencampuran）＝ Ini adalah persentase dari setiap material pembuat beton"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pengaturan rebar」?",
+       "jp": "「Pengaturan rebar」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan",
+        "jp": "Breaker (pemutus) diaktifkan dan sirkuit dilepaskan"
+       },
+       {
+        "id": "Menempatkan dan merakit rebar",
+        "jp": "Menempatkan dan merakit rebar"
+       },
+       {
+        "id": "Terhubungnya 2 titik dalam rangkaian listrik dengan konduktor berhambatan rendah",
+        "jp": "Terhubungnya 2 titik dalam rangkaian listrik dengan konduktor berhambatan rendah"
+       },
+       {
+        "id": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya",
+        "jp": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Pengaturan rebar (Pengaturan rebar) = Menempatkan dan merakit rebar. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pengaturan rebar（Pengaturan rebar）＝ Menempatkan dan merakit rebar"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Yaita (tumpukan lembaran)」?",
+       "jp": "「Yaita (tumpukan lembaran)」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Garis yang melewati bagian tengah tiang",
+        "jp": "Garis yang melewati bagian tengah tiang"
+       },
+       {
+        "id": "Jarak antar rebar",
+        "jp": "Jarak antar rebar"
+       },
+       {
+        "id": "Papan untuk menopang tanah",
+        "jp": "Papan untuk menopang tanah"
+       },
+       {
+        "id": "Memasukkan tanah hingga ke dasar ruang tanah di dalam dan di luar bangunan setelah pekerjaan bawah tanah seperti balok bawah tanah, dll.…",
+        "jp": "Memasukkan tanah hingga ke dasar ruang tanah di dalam dan di luar bangunan setelah pekerjaan bawah tanah seperti balok bawah tanah, dll.…"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Yaita (tumpukan lembaran) (Yaita (tumpukan lembaran)) = Papan untuk menopang tanah. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Yaita (tumpukan lembaran)（Yaita (tumpukan lembaran)）＝ Papan untuk menopang tanah"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Jisumi」?",
+       "jp": "「Jisumi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Celah antar partikel dikurangi dan densitas ditingkatkan (disebut “mitsujitsu”) dengan memberikan tekanan pada tanah, pasir atau aspal",
+        "jp": "Celah antar partikel dikurangi dan densitas ditingkatkan (disebut “mitsujitsu”) dengan memberikan tekanan pada tanah, pasir atau aspal"
+       },
+       {
+        "id": "Melepaskan paku dari bekisting untuk menggunakan kembali material bekisting",
+        "jp": "Melepaskan paku dari bekisting untuk menggunakan kembali material bekisting"
+       },
+       {
+        "id": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu",
+        "jp": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu"
+       },
+       {
+        "id": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll",
+        "jp": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Jisumi (Jisumi) = Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Jisumi（Jisumi）＝ Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Koneksi」?",
+       "jp": "「Koneksi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Mencampur semen dan agregat secara merata",
+        "jp": "Mencampur semen dan agregat secara merata"
+       },
+       {
+        "id": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung",
+        "jp": "Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung"
+       },
+       {
+        "id": "Kondisi dalam bentuk garis lurus",
+        "jp": "Kondisi dalam bentuk garis lurus"
+       },
+       {
+        "id": "Secara umum, menghubungkan 2 hal atau lebih disebut “koneksi”. Saat menghubungkan jalur komunikasi, itu juga disebut “koneksi jalur”",
+        "jp": "Secara umum, menghubungkan 2 hal atau lebih disebut “koneksi”. Saat menghubungkan jalur komunikasi, itu juga disebut “koneksi jalur”"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Koneksi (Koneksi) = Secara umum, menghubungkan 2 hal atau lebih disebut “koneksi”. Saat menghubungkan jalur komunikasi, itu juga disebut “koneksi jalur”. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Koneksi（Koneksi）＝ Secara umum, menghubungkan 2 hal atau lebih disebut “koneksi”. Saat menghubungkan jalur komunikasi, itu juga disebut “koneksi jalur”"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Noro」?",
+       "jp": "「Noro」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Fondasi yang secara langsung meneruskan beban bangunan ke tanah",
+        "jp": "Fondasi yang secara langsung meneruskan beban bangunan ke tanah"
+       },
+       {
+        "id": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti",
+        "jp": "Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti"
+       },
+       {
+        "id": "Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…",
+        "jp": "Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…"
+       },
+       {
+        "id": "Celah antar partikel dikurangi dan densitas ditingkatkan (disebut “mitsujitsu”) dengan memberikan tekanan pada tanah, pasir atau aspal",
+        "jp": "Celah antar partikel dikurangi dan densitas ditingkatkan (disebut “mitsujitsu”) dengan memberikan tekanan pada tanah, pasir atau aspal"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Noro (Noro) = Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Noro（Noro）＝ Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor dari celah sambungan bekisting dan ini juga…"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s1-q",
+    "title": {
+     "id": "Latihan: Hal Umum di Lokasi Konstruksi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Huruf S dalam QCDSE berarti…"
+      },
+      "opts": [
+       {
+        "id": "Safety (keselamatan)"
+       },
+       {
+        "id": "Speed (kecepatan)"
+       },
+       {
+        "id": "Sales (penjualan)"
+       },
+       {
+        "id": "Size (ukuran)"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "QCDSE = mutu, biaya, proses, keselamatan, lingkungan. (Modul hal. 156.)"
+      },
+      "ref": {
+       "p": 156
+      }
+     },
+     {
+      "q": {
+       "id": "Berikut yang termasuk 5M adalah…"
+      },
+      "opts": [
+       {
+        "id": "Manusia, Material, Metode, Mesin, Uang"
+       },
+       {
+        "id": "Makan, Minum, Mandi, Main, Mimpi"
+       },
+       {
+        "id": "Mutu, Mesin, Merek, Mobil, Menu"
+       },
+       {
+        "id": "Meja, Mur, Mata bor, Mal, Mesin cuci"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "5M metode pelaksanaan: Men, Materials, Methods, Machinery, Money. (Modul hal. 156.)"
+      },
+      "ref": {
+       "p": 156
+      }
+     },
+     {
+      "q": {
+       "id": "Pekerjaan konstruksi disebut “satu produk dibuat sesuai pesanan” karena…"
+      },
+      "opts": [
+       {
+        "id": "Tiap proyek dirancang sesuai permintaan pelanggan"
+       },
+       {
+        "id": "Dibuat massal di pabrik"
+       },
+       {
+        "id": "Tidak ada pemesan"
+       },
+       {
+        "id": "Desainnya selalu sama"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Berbeda dari produksi massal pabrik. (Modul hal. 156.)"
+      },
+      "ref": {
+       "p": 156
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s2-q",
+    "title": {
+     "id": "Latihan: Pengolahan Pipa",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa baja karbon untuk pemipaan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pengolahan Pipa”, hal. 161 (Modul hal. 161.)"
+      },
+      "ref": {
+       "p": 161
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa polivinil klorida keras” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pengolahan Pipa”, hal. 166 (Modul hal. 161.)"
+      },
+      "ref": {
+       "p": 161
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa baja berlapis vinil klorida keras untuk suplai air” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pengolahan Pipa”, hal. 168 (Modul hal. 161.)"
+      },
+      "ref": {
+       "p": 161
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s3-q",
+    "title": {
+     "id": "Latihan: Pendingin Udara dan Isolasi Panas",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pengolahan pipa tembaga berlapis untuk refrigeran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 169 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Sambungan pipa untuk refrigeran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 171 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Bentuk dan jenis bahan isolasi termal” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 172 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Contoh menjaga panas dan dingin untuk pemipaan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pipa Lifeline"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pendingin Udara dan Isolasi Panas”, hal. 172 (Modul hal. 169.)"
+      },
+      "ref": {
+       "p": 169
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s4-q",
+    "title": {
+     "id": "Latihan: Pipa Lifeline",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pipa suplai air yang tahan gempa dan umum dipakai di Jepang adalah pipa…"
+      },
+      "opts": [
+       {
+        "id": "Besi cor ulet jenis GX"
+       },
+       {
+        "id": "Kaca"
+       },
+       {
+        "id": "Kertas"
+       },
+       {
+        "id": "Kayu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sambungan GX memiliki fungsi tahan gempa. (Modul hal. 173.)"
+      },
+      "ref": {
+       "p": 173
+      }
+     },
+     {
+      "q": {
+       "id": "Fungsi penting sambungan GX saat gempa adalah…"
+      },
+      "opts": [
+       {
+        "id": "Mengembang, menyusut, menekuk, dan mencegah pipa lepas"
+       },
+       {
+        "id": "Mematikan listrik"
+       },
+       {
+        "id": "Menahan banjir"
+       },
+       {
+        "id": "Mengubah warna pipa"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pipa tidak lepas walau diregangkan hingga batasnya. (Modul hal. 173.)"
+      },
+      "ref": {
+       "p": 173
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s5-q",
+    "title": {
+     "id": "Latihan: Pelat Logam Arsitektur",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Pengolahan pelat logam” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pelat Logam Arsitektur"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pelat Logam Arsitektur”, hal. 181 (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Metode sambungan saluran” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Pelat Logam Arsitektur"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Pelat Logam Arsitektur”, hal. 182 (Modul hal. 181.)"
+      },
+      "ref": {
+       "p": 181
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s6-q",
+    "title": {
+     "id": "Latihan: Peralatan Listrik dan Telekomunikasi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Topik “Korsleting, ground fault, kebocoran listrik” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 185 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Hal-hal yang perlu diperhatikan dalam pekerjaan crimping kawat” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 186 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Kerusakan/pemotongan pipa terpendam yang ada, pemutusan pengabelan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 186 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     },
+     {
+      "q": {
+       "id": "Topik “Hal-hal yang perlu diperhatikan dalam menggunakan jalan” dibahas pada subbab…"
+      },
+      "opts": [
+       {
+        "id": "Peralatan Listrik dan Telekomunikasi"
+       },
+       {
+        "id": "Hal Umum di Lokasi Konstruksi"
+       },
+       {
+        "id": "Pengolahan Pipa"
+       },
+       {
+        "id": "Pendingin Udara dan Isolasi Panas"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Topik ini ada di subbab “Peralatan Listrik dan Telekomunikasi”, hal. 187 (Modul hal. 185.)"
+      },
+      "ref": {
+       "p": 185
+      }
+     }
+    ]
+   },
+   {
+    "id": "b6s7-q",
+    "title": {
+     "id": "Latihan: Tungku dan Peralatan Pemadam",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": []
+   }
+  ],
+  "bab7": [
+   {
+    "id": "bab7-q1",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 7 (A)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Penyebab kecelakaan fatal terbanyak di konstruksi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Jatuh/terguling"
+       },
+       {
+        "id": "Kebakaran"
+       },
+       {
+        "id": "Tenggelam"
+       },
+       {
+        "id": "Sengatan listrik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terjatuh/terguling paling banyak. (Modul hal. 194.)"
+      },
+      "ref": {
+       "p": 194
+      }
+     },
+     {
+      "q": {
+       "id": "Peralatan penahan jatuh yang harus dipakai di ketinggian adalah…"
+      },
+      "opts": [
+       {
+        "id": "Full harness"
+       },
+       {
+        "id": "Sarung tangan kain"
+       },
+       {
+        "id": "Masker debu"
+       },
+       {
+        "id": "Sepatu sandal"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Full harness mencegah jatuh. (Modul hal. 194.)"
+      },
+      "ref": {
+       "p": 194
+      }
+     },
+     {
+      "q": {
+       "id": "Pada konstruksi, full harness dipakai bahkan mulai ketinggian lebih dari…"
+      },
+      "opts": [
+       {
+        "id": "5 m"
+       },
+       {
+        "id": "20 m"
+       },
+       {
+        "id": "30 m"
+       },
+       {
+        "id": "100 m"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Karena banyak kecelakaan jatuh. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Sarung tangan tidak boleh dipakai saat memakai…"
+      },
+      "opts": [
+       {
+        "id": "Gergaji bundar atau bor (mata pisau berputar)"
+       },
+       {
+        "id": "Palu"
+       },
+       {
+        "id": "Meteran"
+       },
+       {
+        "id": "Tangga"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sarung tangan bisa tersangkut mata pisau. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Hampir separuh korban jiwa di lokasi terjadi pada…"
+      },
+      "opts": [
+       {
+        "id": "Seminggu pertama setelah masuk lokasi"
+       },
+       {
+        "id": "Setelah 5 tahun"
+       },
+       {
+        "id": "Hanya malam hari"
+       },
+       {
+        "id": "Hari libur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Karena itu pendidikan pendatang baru diwajibkan. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab7-q2",
+    "rev": true,
+    "title": {
+     "id": "Ulangan Bab 7 (B)",
+     "jp": "まとめテスト"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Agar tidak tertimpa beban crane, Anda sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tidak berada di bawah beban gantung"
+       },
+       {
+        "id": "Berdiri tepat di bawahnya"
+       },
+       {
+        "id": "Memegang beban"
+       },
+       {
+        "id": "Berlari di bawahnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Slinging buruk dan gerakan beban bisa menimbulkan kecelakaan. (Modul hal. 194.)"
+      },
+      "ref": {
+       "p": 194
+      }
+     },
+     {
+      "q": {
+       "id": "Full harness wajib dipasang bila tinggi lantai kerja melebihi…"
+      },
+      "opts": [
+       {
+        "id": "6,75 m"
+       },
+       {
+        "id": "1 m"
+       },
+       {
+        "id": "50 m"
+       },
+       {
+        "id": "0,5 m"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ketentuan sejak 2 Januari 2022; di konstruksi dipakai sejak 5 m. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Pendidikan bagi pendatang baru memakan waktu sekitar…"
+      },
+      "opts": [
+       {
+        "id": "30 menit"
+       },
+       {
+        "id": "5 menit"
+       },
+       {
+        "id": "8 jam"
+       },
+       {
+        "id": "1 minggu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilakukan di ruang rapat sebelum bekerja. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Hari sangat panas (sengatan panas rawan) adalah saat suhu melebihi…"
+      },
+      "opts": [
+       {
+        "id": "35 ℃"
+       },
+       {
+        "id": "10 ℃"
+       },
+       {
+        "id": "20 ℃"
+       },
+       {
+        "id": "5 ℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hari pertengahan musim panas > 30 ℃; hari sangat panas > 35 ℃. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab7-q3",
+    "title": {
+     "id": "Arti istilah lokasi (Bab 7)",
+     "jp": "{現場用語|げんばようご}の{意味|いみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Apa arti 「Penggantian air」?",
+       "jp": "「Penggantian air」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Plumbing yang dibenamkan di lantai atau plafon bangunan",
+        "jp": "Plumbing yang dibenamkan di lantai atau plafon bangunan"
+       },
+       {
+        "id": "Jarak antar rebar",
+        "jp": "Jarak antar rebar"
+       },
+       {
+        "id": "Menghitung material yang diperlukan, kuantitasnya, dan tenaga kerjanya (berapa banyak orang yang dibutuhkan) dari denah dan spesifikasi",
+        "jp": "Menghitung material yang diperlukan, kuantitasnya, dan tenaga kerjanya (berapa banyak orang yang dibutuhkan) dari denah dan spesifikasi"
+       },
+       {
+        "id": "Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa",
+        "jp": "Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Penggantian air (Penggantian air) = Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Penggantian air（Penggantian air）＝ Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Penangkal petir」?",
+       "jp": "「Penangkal petir」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Digunakan untuk menyatakan bahwa ada sesuatu yang terlewatkan atau tertinggal pada tahap setelah pekerjaan arsitektur hampir selesai",
+        "jp": "Digunakan untuk menyatakan bahwa ada sesuatu yang terlewatkan atau tertinggal pada tahap setelah pekerjaan arsitektur hampir selesai"
+       },
+       {
+        "id": "Peralatan untuk melindungi bangunan dan manusia dari petir",
+        "jp": "Peralatan untuk melindungi bangunan dan manusia dari petir"
+       },
+       {
+        "id": "Ini tentang keluangan dan kelonggaran",
+        "jp": "Ini tentang keluangan dan kelonggaran"
+       },
+       {
+        "id": "Menggunakan material bekisting yang sama di lokasi konstruksi lain",
+        "jp": "Menggunakan material bekisting yang sama di lokasi konstruksi lain"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Penangkal petir (Penangkal petir) = Peralatan untuk melindungi bangunan dan manusia dari petir. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Penangkal petir（Penangkal petir）＝ Peralatan untuk melindungi bangunan dan manusia dari petir"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Tinta finishing」?",
+       "jp": "「Tinta finishing」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Mengubur kabel listrik, dll. di dalam tanah",
+        "jp": "Mengubur kabel listrik, dll. di dalam tanah"
+       },
+       {
+        "id": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya",
+        "jp": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya"
+       },
+       {
+        "id": "Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka",
+        "jp": "Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka"
+       },
+       {
+        "id": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain",
+        "jp": "Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "Tinta finishing (Tinta finishing) = Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Tinta finishing（Tinta finishing）＝ Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Penandaan」?",
+       "jp": "「Penandaan」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…",
+        "jp": "Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…"
+       },
+       {
+        "id": "Artinya listrik melewati benda itu",
+        "jp": "Artinya listrik melewati benda itu"
+       },
+       {
+        "id": "Peralatan untuk melindungi bangunan dan manusia dari petir",
+        "jp": "Peralatan untuk melindungi bangunan dan manusia dari petir"
+       },
+       {
+        "id": "Plumbing yang dibenamkan di lantai atau plafon bangunan",
+        "jp": "Plumbing yang dibenamkan di lantai atau plafon bangunan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Penandaan (Penandaan) = Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Penandaan（Penandaan）＝ Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot tinta tradisional dan perangkat penandaan laser…"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Ten-atsu」?",
+       "jp": "「Ten-atsu」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya",
+        "jp": "Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya"
+       },
+       {
+        "id": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…",
+        "jp": "Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan tanah atau jalan yang berdekatan, dll. serta membatasi…"
+       },
+       {
+        "id": "Bagian yang meneruskan berat bangunan (disebut “beban bangunan”) secara langsung ke tanah",
+        "jp": "Bagian yang meneruskan berat bangunan (disebut “beban bangunan”) secara langsung ke tanah"
+       },
+       {
+        "id": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll",
+        "jp": "Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ten-atsu (Ten-atsu) = Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Ten-atsu（Ten-atsu）＝ Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Pengecoran」?",
+       "jp": "「Pengecoran」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Hal tentang panjang",
+        "jp": "Hal tentang panjang"
+       },
+       {
+        "id": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda",
+        "jp": "Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda"
+       },
+       {
+        "id": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu",
+        "jp": "Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan terhadap bagian itu"
+       },
+       {
+        "id": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah",
+        "jp": "Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Pengecoran (Pengecoran) = Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Pengecoran（Pengecoran）＝ Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Kebocoran listrik」?",
+       "jp": "「Kebocoran listrik」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir",
+        "jp": "Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir"
+       },
+       {
+        "id": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”",
+        "jp": "“Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu (pukul)” atau “dasetsu suru (memukul)”"
+       },
+       {
+        "id": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase",
+        "jp": "Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase"
+       },
+       {
+        "id": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai",
+        "jp": "Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kebocoran listrik (Kebocoran listrik) = Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Kebocoran listrik（Kebocoran listrik）＝ Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir"
+      }
+     },
+     {
+      "q": {
+       "id": "Apa arti 「Penetrasi」?",
+       "jp": "「Penetrasi」の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Menyelidiki sesuatu disebut “ataru”. Dalam pekerjaan listrik, istilah ini digunakan saat menggunakan detektor tegangan untuk memeriksa…",
+        "jp": "Menyelidiki sesuatu disebut “ataru”. Dalam pekerjaan listrik, istilah ini digunakan saat menggunakan detektor tegangan untuk memeriksa…"
+       },
+       {
+        "id": "Menghitung material yang diperlukan, kuantitasnya, dan tenaga kerjanya (berapa banyak orang yang dibutuhkan) dari denah dan spesifikasi",
+        "jp": "Menghitung material yang diperlukan, kuantitasnya, dan tenaga kerjanya (berapa banyak orang yang dibutuhkan) dari denah dan spesifikasi"
+       },
+       {
+        "id": "Menukar udara kotor di dalam ruangan dengan udara bersih",
+        "jp": "Menukar udara kotor di dalam ruangan dengan udara bersih"
+       },
+       {
+        "id": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya",
+        "jp": "Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Penetrasi (Penetrasi) = Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya. Sumber: daftar kosakata modul hal. 97–113.",
+       "jp": "Penetrasi（Penetrasi）＝ Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b7s1-q",
+    "title": {
+     "id": "Latihan: Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Penyebab kecelakaan fatal terbanyak di konstruksi adalah…"
+      },
+      "opts": [
+       {
+        "id": "Jatuh/terguling"
+       },
+       {
+        "id": "Kebakaran"
+       },
+       {
+        "id": "Tenggelam"
+       },
+       {
+        "id": "Sengatan listrik"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Terjatuh/terguling paling banyak. (Modul hal. 194.)"
+      },
+      "ref": {
+       "p": 194
+      }
+     },
+     {
+      "q": {
+       "id": "Agar tidak tertimpa beban crane, Anda sebaiknya…"
+      },
+      "opts": [
+       {
+        "id": "Tidak berada di bawah beban gantung"
+       },
+       {
+        "id": "Berdiri tepat di bawahnya"
+       },
+       {
+        "id": "Memegang beban"
+       },
+       {
+        "id": "Berlari di bawahnya"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Slinging buruk dan gerakan beban bisa menimbulkan kecelakaan. (Modul hal. 194.)"
+      },
+      "ref": {
+       "p": 194
+      }
+     },
+     {
+      "q": {
+       "id": "Peralatan penahan jatuh yang harus dipakai di ketinggian adalah…"
+      },
+      "opts": [
+       {
+        "id": "Full harness"
+       },
+       {
+        "id": "Sarung tangan kain"
+       },
+       {
+        "id": "Masker debu"
+       },
+       {
+        "id": "Sepatu sandal"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Full harness mencegah jatuh. (Modul hal. 194.)"
+      },
+      "ref": {
+       "p": 194
+      }
+     }
+    ]
+   },
+   {
+    "id": "b7s2-q",
+    "title": {
+     "id": "Latihan: Kegiatan Keselamatan di Lokasi Konstruksi",
+     "jp": "{練習問題|れんしゅうもんだい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Full harness wajib dipasang bila tinggi lantai kerja melebihi…"
+      },
+      "opts": [
+       {
+        "id": "6,75 m"
+       },
+       {
+        "id": "1 m"
+       },
+       {
+        "id": "50 m"
+       },
+       {
+        "id": "0,5 m"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ketentuan sejak 2 Januari 2022; di konstruksi dipakai sejak 5 m. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Pada konstruksi, full harness dipakai bahkan mulai ketinggian lebih dari…"
+      },
+      "opts": [
+       {
+        "id": "5 m"
+       },
+       {
+        "id": "20 m"
+       },
+       {
+        "id": "30 m"
+       },
+       {
+        "id": "100 m"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Karena banyak kecelakaan jatuh. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Pendidikan bagi pendatang baru memakan waktu sekitar…"
+      },
+      "opts": [
+       {
+        "id": "30 menit"
+       },
+       {
+        "id": "5 menit"
+       },
+       {
+        "id": "8 jam"
+       },
+       {
+        "id": "1 minggu"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilakukan di ruang rapat sebelum bekerja. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Sarung tangan tidak boleh dipakai saat memakai…"
+      },
+      "opts": [
+       {
+        "id": "Gergaji bundar atau bor (mata pisau berputar)"
+       },
+       {
+        "id": "Palu"
+       },
+       {
+        "id": "Meteran"
+       },
+       {
+        "id": "Tangga"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sarung tangan bisa tersangkut mata pisau. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Hari sangat panas (sengatan panas rawan) adalah saat suhu melebihi…"
+      },
+      "opts": [
+       {
+        "id": "35 ℃"
+       },
+       {
+        "id": "10 ℃"
+       },
+       {
+        "id": "20 ℃"
+       },
+       {
+        "id": "5 ℃"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hari pertengahan musim panas > 30 ℃; hari sangat panas > 35 ℃. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     },
+     {
+      "q": {
+       "id": "Hampir separuh korban jiwa di lokasi terjadi pada…"
+      },
+      "opts": [
+       {
+        "id": "Seminggu pertama setelah masuk lokasi"
+       },
+       {
+        "id": "Setelah 5 tahun"
+       },
+       {
+        "id": "Hanya malam hari"
+       },
+       {
+        "id": "Hari libur"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Karena itu pendidikan pendatang baru diwajibkan. (Modul hal. 200.)"
+      },
+      "ref": {
+       "p": 200
+      }
+     }
+    ]
+   }
+  ]
+ },
+ "tema": []
+}

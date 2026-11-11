@@ -43,7 +43,7 @@ def build():
         babs.append({"schema": 1, "bidang": "food-service", "source": SOURCE, "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
                      "bab": {"id": bid, "no": bi, "title": {"id": B["title"][0], "jp": B["title"][1]}, "intro": {"id": B["intro"], "jp": B["title"][1]},
                              "pages": [B["subs"][0]["pages"][0], B["subs"][-1]["pages"][1]], "subs": subs_out}})
-    index = {"slug": "food-service", "nama": "Food Service (Jasa Boga)", "jp": "外食業", "book": "id", "pages": {"id": 127}}
+    index = {"slug": "food-service", "nama": "Food Service (Jasa Boga)", "jp": "外食業", "book": "id", "pages": {"id": 128}}
     write_pack("food-service", index, babs, vocab, quiz)
     print("soal tulis-tangan (unik):", nsoal)
 

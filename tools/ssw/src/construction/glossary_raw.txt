@@ -1,0 +1,306 @@
+Saat orang yang ingin Anda ajak bicara sedang bercakap-cakap dengan seseorang dan Anda ingin
+mengatakan sesuatu yang mendesak, ucapkan “Shitsurei shimasu (Permisi)”.
+Ketika Anda harus pulang lebih dulu dari orang yang sedang bekerja, Anda dapat menggunakan
+“Osaki ni shitsurei shimasu” (Permisi, saya pulang dulu). Terhadap hal itu, ucapkan “Otsukare sama
+deshita”.
+
+4.1.6 “Abunai” (Bahaya)
+Ketika seseorang begitu fokus pada pekerjaannya, ia mungkin tidak menyadari ada bahaya yang
+menghadang. Ketika orang-orang di sekitarnya merasa bahwa orang itu dalam bahaya, kata pertama
+yang keluar adalah “Abunai!” (Bahaya!). Jika bahayanya adalah sesuatu yang jatuh dari atas atau
+sesuatu yang menghantam Anda dari samping, ucapkan “Abunai! Yokero!” (Bahaya! Hindari itu!).
+Jika Anda mendengar seseorang berteriak, “Abunai!” (Bahaya!), bereaksilah dengan cepat.
+
+4.2 Istilah yang digunakan di lokasi konstruksi
+Bagian 4.2 menjelaskan istilah-istilah yang harus Anda ketahui saat bekerja di bawah arahan
+mandor atau senior.
+
+4.2.1 Istilah terkait dengan penandaan
+[Penandaan] Membuat berbagai garis referensi yang diperlukan untuk pekerjaan di tanah, dll. Pot
+tinta tradisional dan perangkat penandaan laser digunakan.
+[Tinta referensi] Garis lurus horizontal dan vertikal yang menjadi acuan dalam membangun sebuah
+bangunan. Dari tinta referensi, ditarik garis tengah tiang dan dinding (garis pusat).
+[Garis pusat] Garis yang melewati pusat. Kadang-kadang digunakan untuk merujuk pada “pusat
+dinding” atau “pusat tiang”.
+
+[Tinta kabur] Garis yang ditarik saat tinta tidak dapat ditarik karena hambatan, dll. Ini juga disebut
+“tinta balik”. Pisahkan dimensi tertentu dari tinta yang menjadi acuan dan tarik tinta sejajar atau pada
+garis perpanjangan. Catat dimensi kabur (lolos) sehingga Anda dapat melihat seberapa jauh Anda
+menarik garis dari tinta yang menjadi acuan.
+[Tinta tanah] Tinta dengan tinggi referensi untuk menunjukkan horizontal, juga dikenal sebagai
+“rikuzumi”. Ini juga disebut tinta pinggang, tinta air, dan tinta horizontal.
+[Tatezumi] Garis vertikal ditampilkan pada permukaan seperti dinding, tiang, dll.
+[Jisumi] Ini adalah tinta yang dioleskan langsung ke permukaan horizontal seperti lantai, dll.
+[Tinta finishing] Tinta yang menunjukkan dimensi finishing dari garis pusat dan permukaan kerangka.
+
+Contoh tinta yang ditampilkan
+pada kerangka
+
+G
+
+Dinding
+
+[Pusat dinding] Garis yang melewati bagian tengah
+dinding.
+Tiang
+
+[Pusat tiang] Garis yang melewati bagian tengah
+tiang.
+
+Dinding
+
+[Tinta induk] “Tinta induk” mengacu pada garis
+yang menjadi acuan untuk pekerjaan penandaan
+pada proses selanjutnya, seperti garis pusat atau tinta tanah.
+
+[Penandaan tinta] Menandai material kayu untuk diproses.
+
+4.2.2 Istilah terkait “yarikata” (cara mengerjakan)
+[Yarikata] “Pagar sementara” yang dibuat sedemikian rupa hingga garis-garis acuan untuk
+membangun bangunan (pusat tiang atau dinding, garis horizontal), posisi bangunan, sudut siku-siku,
+dan tingkat horizontal (titik acuan tinggi) terlihat. Ini dibuat dengan menggunakan pancang kayu dan
+papan yang disebut “mizunuki”. Dalam teknik sipil, digunakan istilah “chohari”.
+[Mizunuki] Ini adalah papan yang dipukul secara horizontal terhadap tiang pancang saat membuat
+“yarikata”.
+[Mizumori] Menentukan tingkat horizontal yang menjadi acuan tinggi bangunan. Disebut demikian
+karena menggunakan alat bernama kaleng mizumori (kaleng yang penuh berisi air).
+[Mizuito (benang air)] Ini adalah benang yang direntangkan di antara mizunuki untuk menunjukkan
+kehorizontalan pada saat melakukan “yarikata”. Ini akan menjadi acuan garis pusat.
+
+4.2.3 Istilah terkait pekerjaan tanah
+[Pekerjaan tanah] Melakukan pekerjaan untuk membuat tanah/fondasi bangunan atau struktur bawah
+tanah.
+[Penimbunan tanah] Menciptakan permukaan tanah yang rata dengan menumpuk tanah dan pasir
+pada lereng, tanah yang tidak rata, dan lahan rendah.
+[Pemotongan undakan] Saat melakukan penimbunan tanah di lereng yang curam, tanah dipotong
+membentuk tangga untuk mencegah timbunan tanah tergelincir ke bawah.
+[Pemadatan] Celah antar partikel dikurangi dan densitas ditingkatkan (disebut “mitsujitsu”) dengan
+memberikan tekanan pada tanah, pasir atau aspal. Misalnya, pemadatan dilakukan untuk membuat
+
+lapisan fondasi jalan yang kokoh saat melakukan pekerjaan perkerasan, dll.
+[Ten-atsu] Memadatkan tanah dengan menggunakan mesin penggilas pneumatic roller atau sejenisnya.
+Pemadatan batu pecah, kerikil, dll. dengan mesin kecil seperti penumbuk, dll. disebut juga dengan
+“ten-atsu”.
+[Penimbunan kembali] Memasukkan tanah hingga ke dasar ruang tanah di dalam dan di luar
+bangunan setelah pekerjaan bawah tanah seperti balok bawah tanah, dll. selesai.
+[Tsuki katame] Meningkatkan kepadatan tanah penimbunan kembali dengan menggunakan
+penumbuk, pelat, dll.
+[Nekiri] Menggali lubang sampai ke dasar fondasi (disebut “penggalian”) dengan menggunakan alat
+berat, dll.
+[Penahan tanah] Menahan tanah agar lereng, timbunan tanah, parit galian, dll. tidak runtuh.
+[Dinding penahan] Struktur berbentuk dinding dari “penahan tanah” secara khusus disebut “dinding
+penahan”.
+[Utsu (pukul)] “Utsu” berarti memukul, tetapi sebagai istilah konstruksi, menuang beton disebut “utsu
+(pukul)” atau “dasetsu suru (memukul)”.
+[Danbane] Ketika nekirinya dalam, untuk mengeluarkan tanah galian ke luar (disebut “pembuangan
+tanah”), jiyama (tanah asli) dibiarkan dalam bentuk berundak dan tanah galian dibuang ke undakan
+atas secara berurutan.
+[Lereng] Permukaan miring yang juga disebut “nori”. Di lokasi konstruksi, ini mengacu pada
+permukaan galian yang miring.
+[Menyangga tanah] Menahan tanah dengan menggunakan tumpukan lembaran agar tanah tidak
+runtuh. Jika ada cukup ruang di lahan, “metode open cut” digunakan untuk memotong tanah secara
+diagonal. Jika tidak ada cukup ruang di lahan, “metode open cut dinding yang menyangga tanah”
+digunakan, di mana dinding dan penopang dipasang.
+[Yaita (tumpukan lembaran)] Papan untuk menopang tanah.
+
+[Tumpukan lembaran baja] Tumpukan lembaran baja dengan ujung beralur sehingga dapat
+disatukan satu sama lain.
+[Penggantian air] Ini untuk membuang air yang terkumpul di dasar nekiri dengan ketel atau pompa.
+[Ketel] Sebuah lubang di mana pompa air dipasang untuk penggantian air.
+
+4.2.4 Istilah terkait pekerjaan tanah dan fondasi
+[Pekerjaan tanah] Bagian bawah pelat fondasi atau pekerjaan hal itu. Pasir, kerikil, batu pecah, beton
+buangan, tiang pancang, dll. dipasang untuk menyangga pelat fondasi. Ada berbagai jenis pekerjaan
+tanah bergantung pada jenis materialnya.
+[Fondasi] Bagian yang meneruskan berat bangunan (disebut “beban bangunan”) secara langsung ke
+tanah. Terdapat fondasi langsung dan fondasi tiang pancang.
+[Fondasi langsung] Fondasi yang secara langsung meneruskan beban bangunan ke tanah. Fondasi
+yang dibangun di seluruh bagian dasar bangunan disebut “beta kiso (fondasi alas)”. Selain itu, fondasi
+yang terlihat seperti huruf “T” terbalik yang dibangun khususnya hanya pada bagian di mana beban
+diterapkan disebut “pijakan (footing)”. Keduanya digunakan di tempat-tempat yang tanahnya kokoh
+dan padat.
+[Fondasi tiang pancang] Ini adalah fondasi yang dibuat di tempat yang tanahnya lemah. Beban
+struktur bangunan ditopang oleh tiang-tiang silindris yang disebut “tiang pancang” yang mencapai
+tanah yang keras.
+[Pekerjaan tiang pancang] Pekerjaan tanah untuk fondasi tiang pancang. Terdapat pekerjaan tiang
+pancang beton siap pakai, pekerjaan tiang pancang baja, dan pekerjaan tiang pancang beton cor di
+tempat.
+
+4.2.5 Istilah terkait perancah dan konstruksi sementara
+[Perancah] Ada berbagai jenis perancah bergantung pada tujuan dan strukturnya. Di lokasi konstruksi,
+ini mengacu pada lantai sementara dan lorong yang dipasang menggunakan pipa tunggal atau material
+khusus. Perancah bingkai, perancah pipa tunggal, perancah pengikat baji, dll. sering digunakan.
+[Lantai kerja] Merupakan lantai perancah yang dibuat dengan merentangkan papan perancah (disebut
+“papan kain”) sehingga orang dapat naik dan bekerja.
+[Pagar sementara] Merupakan pagar sementara yang menghalangi ruang antara lokasi konstruksi dan
+tanah atau jalan yang berdekatan, dll. serta membatasi keluar masuknya orang selain pihak yang
+terlibat dalam pekerjaan untuk mencegah bahaya dan mencegah pencurian.
+
+4.2.6 Istilah terkait pekerjaan rebar, bekisting, dan pengecoran beton
+[Pengaturan rebar] Menempatkan dan merakit rebar. Terdapat metode pengaturan seperti pengaturan
+rebar ganda, pengaturan rebar tunggal, pengaturan rebar tersebar, dll.
+[Hiroidashi] Menghitung material yang diperlukan, kuantitasnya, dan tenaga kerjanya (berapa banyak
+orang yang dibutuhkan) dari denah dan spesifikasi.
+[Asobi] Ini tentang keluangan dan kelonggaran.
+[Aki] Jarak antar rebar.
+[Interval] Jarak antar pusat rebar.
+[Sute concrete (beton buang)] Beton dengan tebal 5 cm - 10 cm dan dicor dengan rata terutama untuk
+menandai dan mendirikan bekisting. Istilah ini disingkat menjadi “sutekon”. Selain tujuan untuk
+membuat standar ketinggian yang ditandai, sutekon dilakukan sebagai dasar untuk menempatkan
+bekisting dan rebar secara akurat.
+[Kessoku (persatuan)] Hal mengikat. Dalam pekerjaan rebar, alat yang disebut “hacker (peretas)”
+khusus untuk mengikat kabel digunakan untuk mengikat persilangan rebar dengan rebar. Ada metode
+pengikatan yang disebut “tasuki kake” dan “katadasuki”.
+
+[Ketebalan penutup] Jarak antara rebar dan permukaan beton yang menutupinya.
+[Tatekomi] Ini adalah pekerjaan menyiapkan bekisting sesuai dengan garis tinta penanda.
+[Noro] Semen yang dilarutkan dalam air disebut “noro”. Dalam pekerjaan bekisting, beton dapat bocor
+dari celah sambungan bekisting dan ini juga disebut noro.
+[Pengalihan penggunaan] Menggunakan material bekisting yang sama di lokasi konstruksi lain.
+Ketika struktur setiap lantai sama dalam pekerjaan gedung, dll., bekisting bekas diangkat ke lantai atas
+dan digunakan kembali.
+[Punk] Mengalirnya beton karena pecahnya bekisting pada waktu pengecoran/pengerasan beton.
+Punk akan terjadi saat tidak ada “penopang” yang cukup.
+[Kugijimai] Melepaskan paku dari bekisting untuk menggunakan kembali material bekisting. Untuk
+alasan ini, istilah ini digunakan untuk mengartikan pemberesan bekisting.
+[Pengecoran] Beton dituangkan ke dalam bekisting dan dijejalkan tanpa celah.
+[Pengecoran sambung] Menuangkan beton di atas beton yang sudah mengeras. “Pengecoran
+sambung” dilakukan terhadap tempat-tempat yang ditentukan bahwa tidak ada masalah struktural atau
+kedap air.
+[Pemadatan] Istilah ini juga digunakan dalam pekerjaan tanah, tetapi dalam pengecoran beton hal ini
+dilakukan dengan menggetarkan beton yang dituang dengan vibrator atau memukul bekisting dengan
+palu karet untuk menghilangkan celah pada beton dan membuatnya lebih padat.
+[Tamping] Permukaan bekisting pelat dipukul-pukul agar beton yang dituangkan ke dalam pelat
+menjadi padat.
+[Menguleni dan mencampur] Mencampur semen dan agregat secara merata.
+[Pencampuran] Ini adalah persentase dari setiap material pembuat beton.
+
+4.2.7 Istilah yang menyatakan fitting dan kondisi
+[Osamari (fitting)] Kata yang mengungkapkan keseimbangan penempatan barang. Ini digunakan
+
+dalam istilah “Osamari ga ii (fittingnya bagus)” dan “Osamari ga warui (fittingnya buruk)”.
+[Antarmuka] Ini adalah bagian tempat 2 atau lebih material yang berbeda bertemu, atau perlakuan
+terhadap bagian itu. “Antarmuka buruk” digunakan untuk hal ketika material-material bertabrakan
+satu sama lain di tempat yang seharusnya tidak bertabrakan. Ungkapan “Osamari ga warui” juga
+digunakan dalam arti yang sama. Saat dikatakan, “Tenjo to kabe no toriai (antarmuka plafon dan
+dinding)”, yang dimaksudkan adalah sambungan antara plafon dan dinding.
+[Toori (jalan)] Kondisi dalam bentuk garis lurus. Jika bengkok atau terdistorsi, diucapkan “toori ga
+warui (jalannya buruk)”. Pekerjaan memeriksa apakah sesuatu berada dalam garis lurus atau tidak
+disebut “toori wo miru (melihat jalan)”.
+[Tsura (muka)] Sebuah kata yang mengacu pada permukaan. Kata ini juga disebut “men”.
+[Ttsura ichi (satu muka)] Kata ini menyatakan keadaan di mana permukaan dari 2 material adalah
+sejajar secara merata. Kata ini digunakan dengan mengatakan “tsura ichi ni suru (dibuat rata)”.
+[Sori] Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cekung.
+[Okori] Kata yang mengacu pada garis atau permukaan melengkung yang telah menjadi cembung.
+[Nige] Ini mengacu pada kelonggaran dalam hal dimensi dan osamari yang disisihkan sebelumnya.
+“Nige” disediakan untuk menyerap kesalahan pemrosesan material, kesalahan pemasangan di lokasi,
+dll.
+[Beta] Kata yang menggambarkan kondisi yang menyebar ke seluruh permukaan tanpa ada celah.
+“Beta kiso (fondasi alas)” adalah fondasi di mana beton dituangkan ke seluruh permukaan dasar
+bangunan. “Beta nuri” artinya mengecat seluruh permukaan.
+[Fukashi] Ini mengacu pada bagian yang selesai dalam kondisi ekstra besar dibandingkan dengan
+desainnya. Ini juga digunakan untuk menunjukkan bahwa permukaan yang telah selesai dibawa ke
+depan. Melakukan “fukashi” itu disebut “fukasu”.
+[Temodori (pengerjaan ulang)] Digunakan seperti dalam “temodori ga okoru (terjadi pengerjaan
+ulang)” dengan mengulang kembali proses pekerjaan yang telah selesai.
+
+[Dandori (persiapan)] Memikirkan metode konstruksi terlebih dahulu dan merencanakan
+prosedurnya agar tidak ada temodori (pengerjaan ulang).
+[Tenaoshi (pembetulan)] Memperbaiki sebagian dari pekerjaan yang sudah selesai. Pembetulan
+dilakukan jika ada bagian yang berbeda dari denah desain atau bagian cacat konstruksi.
+[Dame (tidak boleh)] Digunakan untuk menyatakan bahwa ada sesuatu yang terlewatkan atau
+tertinggal pada tahap setelah pekerjaan arsitektur hampir selesai. Menyelesaikan bagian itu disebut
+“dame naoshi (pembetulan tidak boleh)”.
+
+4.2.8 Istilah terkait panjang, luas, dan lebar
+[Pitch] Ini adalah interval alokasi.
+[Ikuti] Mengeluarkan dimensi dari posisi referensi.
+[Dimensi] Hal tentang panjang.
+[Ikken] Satuan panjang yang telah digunakan sejak zaman dulu di Jepang. Sekitar 1,8 m. Tepatnya
+1.818 mm.
+[Issun] 1/10 dari isshaku. Sekitar 3,03 cm.
+[Satu tsubo] Satuan luas yang telah digunakan sejak zaman dulu di Jepang. Satu tsubo = ikken x ikken.
+
+4.2.9 Istilah untuk struktur bangunan
+[Konstruksi RC] RC singkatan dari Reinforced Concrete. Struktur bangunan di mana beton
+dituangkan ke dalam bekisting yang terbuat dari rebar. Disebut juga “konstruksi beton bertulang”.
+[Konstruksi S] S singkatan dari Steel. Struktur bangunan yang menggunakan rangka baja untuk tiang
+dan balok. Juga dikenal sebagai “konstruksi rangka baja”.
+[Konstruksi SRC] Struktur bangunan yang merupakan kombinasi dari struktur S dan RC. Beton
+dituangkan ke dalam rebar yang dirakit di sekeliling rangka baja. Juga dikenal sebagai “konstruksi
+
+beton bertulang rangka baja”.
+[Struktur kayu] Struktur bangunan yang menggunakan kayu untuk tiang dan baloknya.
+
+4.2.10 Istilah terkait pekerjaan listrik dan pekerjaan telekomunikasi
+[Koneksi] Secara umum, menghubungkan 2 hal atau lebih disebut “koneksi”. Saat menghubungkan
+jalur komunikasi, itu juga disebut “koneksi jalur”.
+[Pengabelan] Meregangkan kabel logam, kabel serat optik, dll.
+[Pemisahan] Memisahkan kabel dan pipa satu sama lain. Jarak ini disebut “jarak pemisah”.
+[Isolasi] Mencegah arus mengalir dari suatu bagian di mana listrik mengalir ke bagian lain.
+[Penetrasi] Membuat lubang di dinding, lantai, plafon, dll. hingga ke sisi sebaliknya.
+[Conduit] Pipa yang dilalui kabel listrik. Metode mengubur kabel listrik di dalam tanah dengan
+menggunakan pipa disebut “metode conduit”.
+[Pembenaman] Mengubur kabel listrik, dll. di dalam tanah.
+・Jenis conduit: Metode di mana pipa vinil keras atau pipa logam dikubur dan kabel dilewatkan
+melaluinya.
+・ Metode pembenaman langsung: Metode pengabelan yang menggunakan kabel khusus
+pembenaman langsung.
+・Terowongan: Metode pembuatan terowongan khusus atau terowongan bersama untuk melewatkan
+kabel listrik.
+[Pengabelan overhead] Metode pengabelan kabel ke bagian dalam bangunan menggunakan tiang
+listrik.
+[Plumbing] Memasang pipa yang dilalui kabel.
+[Wiring] Melewatkan kabel melalui pipa.
+[Pemipaan pelat] Plumbing yang dibenamkan di lantai atau plafon bangunan.
+[MDF] Singkatan dari Main Distribution Frame dan merupakan panel distribusi kabel untuk
+
+mengelola dan menghubungkan jalur komunikasi yang mengarah dari dalam gedung ke luar.
+[Sengatan listrik] Arus listrik yang mengalir melalui tubuh manusia.
+[Kebocoran listrik] Listrik mengalir melalui bagian di mana listrik seharusnya tidak mengalir.
+[Pentanahan/grounding] Menyambungkan peralatan listrik atau sirkuit ke tanah secara elektrik. Hal
+ini dilakukan untuk mencegah sengatan listrik saat terjadi kebocoran listrik dan untuk melindungi
+peralatan komunikasi dari kerusakan.
+[Penangkal petir] Peralatan untuk melindungi bangunan dan manusia dari petir.
+[Alat penangkal petir] Perangkat yang melindungi peralatan komunikasi dan peralatan terminal dari
+sambaran petir.
+[Korsleting] Terhubungnya 2 titik dalam rangkaian listrik dengan konduktor berhambatan rendah. Ini
+juga disebut “short (hubungan singkat)”.
+[Crimping] Penyambungan dengan memberikan tekanan. Dalam pekerjaan listrik, ada alat khusus
+untuk melakukan crimping kawat inti dan terminal crimping (tang crimping, dll.)
+[Pelapis] Mengacu pada bagian vinil atau isolasi yang menutupi kawat inti.
+[Listrik hidup] Artinya listrik melewati benda itu.
+[Ataru] Menyelidiki sesuatu disebut “ataru”. Dalam pekerjaan listrik, istilah ini digunakan saat
+menggunakan detektor tegangan untuk memeriksa status hidup matinya listrik, atau menggunakan alat
+ukur untuk memeriksa tegangan dan arus listrik.
+[Crimp] Mengencangkan dengan kuat sambungan kawat dengan menghancurkan terminal crimping
+seperti sleeve ring, dll. dengan menggunakan tang crimping, dll.
+[Furu (geser)] Mengubah rute pemipaan dan pengabelan untuk menghindari rintangan.
+[Terbang/jatuh] Breaker (pemutus) diaktifkan dan sirkuit dilepaskan.
+
+4.2.11 Istilah yang digunakan dalam pekerjaan lifeline dan peralatan
+[AC] Menyesuaikan suhu, kelembapan, dll. ruangan. Ini adalah singkatan dari “peralatan pengatur
+udara”.
+[Suhu] Kata yang menyatakan derajat panas atau dingin. Di Jepang, satuan untuk suhu yang
+digunakan adalah “℃” (Celcius).
+[Kelembapan] Persentase kandungan air di udara. Jika ada banyak kandungan air, hal itu dikatakan
+sebagai “lembap dan humiditas tinggi”, dan jika ada sedikit kandungan air, hal itu dikatakan sebagai
+“menyegarkan dan humiditas rendah” untuk menyatakan kelembapan. Satuannya menggunakan “%”.
+[Ventilasi] Menukar udara kotor di dalam ruangan dengan udara bersih.
+[Pembuangan asap] Mengeluarkan asap yang dihasilkan saat terjadi kebakaran, dll. dari dalam
+ruangan ke luar.
+[Kebersihan] Melindungi kesehatan manusia dan menjaga sanitasi. Saat mengatakan “fasilitas
+kebersihan”, yang dimaksudkan di sini adalah fasilitas terkait tempat-tempat berair selain dapur
+(misalnya toilet, kamar mandi, dll.).[Burr] Ini adalah bagian berlebih yang mencuat dari tepi produk
+dalam proses pengolahan logam dan plastik. “Deburring” adalah pengambilan dan pembersihan burr.
+[Lining (pelapisan)] Melapisi permukaan pipa dan saluran dengan film tipis dan juga disebut
+“coating”. Bergantung pada ketebalan pelapis, pelapis yang lebih tebal disebut lining dan yang lebih
+tipis disebut coating, tetapi sering digunakan secara bergantian.
+[Uji kebocoran] Ini adalah pengujian untuk memeriksa bahwa tidak ada air yang bocor (disebut
+kebocoran air) setelah pemipaan selesai. Terdapat uji tekanan hidrolik, uji air penuh, dll.
+[Uji tekanan hidrolik] Pengujian untuk memastikan bahwa tidak ada kebocoran dengan menuangkan
+air ke dalam pipa seperti pipa suplai air, pipa suplai air panas, dll. dan memberikan tekanan.
+[Uji air penuh] Pengujian untuk memastikan tidak ada kebocoran dengan mengisi pipa drainase.
+[Gradien] Kemiringan yang landai untuk memungkinkan air mengalir.
+
+

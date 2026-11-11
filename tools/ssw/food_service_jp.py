@@ -86,7 +86,7 @@ def build():
         babs.append({"schema": 1, "bidang": "food-service-jp", "source": SOURCE, "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
                      "bab": {"id": bid, "no": bi, "title": {"id": ti, "jp": tj}, "intro": {"id": intro, "jp": tj},
                              "pages": [subs[0][3][0] + OFF[key], subs[-1][3][1] + OFF[key]], "subs": subs_out}})
-    index = {"slug": "food-service-jp", "nama": "Food Service (Bahasa Jepang)", "jp": "外食業（日本語）", "book": "jp", "pages": {"jp": 144}}
+    index = {"slug": "food-service-jp", "nama": "Food Service (Bahasa Jepang)", "jp": "外食業（日本語）", "book": "jp", "pages": {"jp": 145}}
     write_pack("food-service-jp", index, babs, vocab, quiz)
 
 if __name__ == "__main__":

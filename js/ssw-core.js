@@ -65,7 +65,9 @@ export const DEFAULT_BIDANG = [
   { slug: "food-service", nama: "Food Service (Jasa Boga)", jp: "外食業", aktif: true, urut: 4, tema: "restaurant", hasContent: true },
   { slug: "food-service-jp", nama: "Food Service (Bahasa Jepang)", jp: "外食業（日本語）", induk: "food-service", aktif: true, urut: 4.5, tema: "restaurant", hasContent: true },
   { slug: "agriculture", nama: "Agriculture (Pertanian)", jp: "農業", aktif: true, urut: 5, tema: "farm", hasContent: true },
-  { slug: "construction", nama: "Construction", jp: "建設", aktif: false, urut: 6, tema: "construction" },
+  { slug: "construction", nama: "Construction", jp: "建設", label: "🏗️ Sipil (Doboku) ›", aktif: true, urut: 6, tema: "construction", hasContent: true },
+  { slug: "construction-bangunan", nama: "Construction (Bangunan)", jp: "建設（建築）", label: "🏢 Bangunan (Kenchiku) ›", induk: "construction", aktif: true, urut: 6.1, tema: "construction", hasContent: true },
+  { slug: "construction-lifeline", nama: "Construction (Lifeline & Peralatan)", jp: "建設（ライフライン・設備）", label: "🔧 Lifeline & Peralatan ›", induk: "construction", aktif: true, urut: 6.2, tema: "construction", hasContent: true },
   { slug: "accommodation", nama: "Accommodation", jp: "宿泊", aktif: false, urut: 7, tema: "hotel" },
 ];
 

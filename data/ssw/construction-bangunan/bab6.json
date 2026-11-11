@@ -1,0 +1,189 @@
+{
+ "schema": 1,
+ "bidang": "construction-bangunan",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori bangunan: building_indo (152 hal.)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab6",
+  "no": 6,
+  "title": {
+   "id": "Pengetahuan Pelaksanaan Lokasi Konstruksi",
+   "jp": "{施工|せこう}の{知識|ちしき}"
+  },
+  "intro": {
+   "id": "Hal umum di lokasi dan pelaksanaan tiap pekerjaan khusus bangunan.",
+   "jp": "{施工|せこう}の{知識|ちしき}"
+  },
+  "pages": [
+   108,
+   136
+  ],
+  "subs": [
+   {
+    "id": "b6s1",
+    "no": 1,
+    "title": {
+     "id": "Hal Umum di Lokasi Konstruksi",
+     "jp": "{現場|げんば}の{共通|きょうつう}{事項|じこう}"
+    },
+    "pages": [
+     108,
+     110
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Lima karakteristik pekerjaan konstruksi"
+      },
+      {
+       "ol": [
+        "Satu produk dibuat sesuai pesanan.",
+        "Tunduk pada pembatasan lahan.",
+        "Dipengaruhi alam (cuaca, musim, topografi).",
+        "Tunduk pada pembatasan sosial (lingkungan sekitar dan hukum).",
+        "Kualitas dibangun dalam proses keselamatan."
+       ]
+      },
+      {
+       "h": "5M dan QCDSE"
+      },
+      {
+       "ul": [
+        "**5M**: Manusia, Material, Metode, Mesin, Uang.",
+        "**QCDSE**: Quality (mutu), Cost (biaya), Delivery (proses/waktu), Safety (keselamatan), Environment (lingkungan)."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Konstruksi: pesanan tunggal, terikat lahan, dipengaruhi alam; dikelola dengan 5M dan QCDSE.",
+      "points": [
+       "5M: Manusia, Material, Metode, Mesin, Uang.",
+       "QCDSE: mutu, biaya, proses, keselamatan, lingkungan.",
+       "Survei pendahuluan sebelum bekerja."
+      ],
+      "avoid": [
+       "Mengabaikan perencanaan dan survei."
+      ],
+      "exam": [
+       "Singkatan 5M dan QCDSE."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s2",
+    "no": 2,
+    "title": {
+     "id": "Pelaksanaan: Perancah sampai Pertukangan",
+     "jp": "{躯体|くたい}{工事|こうじ}の{知識|ちしき}"
+    },
+    "pages": [
+     111,
+     125
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pelaksanaan perancah, rangka baja, rebar, sambungan, las, bekisting, beton, pengecatan, plesteran, pertukangan."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pekerjaan perancah (hal. 111)",
+        "Pekerjaan rangka baja (hal. 113)",
+        "Pekerjaan rebar (hal. 115)",
+        "Pekerjaan sambungan rebar (hal. 117)",
+        "Pekerjaan las (hal. 119)",
+        "Pekerjaan bekisting (hal. 119)",
+        "Pekerjaan pemompaan beton (hal. 121)",
+        "Pekerjaan pengecatan (hal. 121)",
+        "Pekerjaan plesteran (hal. 123)",
+        "Pekerjaan pertukangan konstruksi (hal. 124)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pelaksanaan perancah, rangka baja, rebar, sambungan, las, bekisting, beton, pengecatan, plesteran, pertukangan.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b6s3",
+    "no": 3,
+    "title": {
+     "id": "Pelaksanaan: Atap sampai Pembongkaran",
+     "jp": "{仕上|しあ}げから{解体|かいたい}まで"
+    },
+    "pages": [
+     126,
+     136
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Pelaksanaan atap, pelat logam, ubin, interior, fitting, sash, uretan, anti air, pemasangan batu, pembongkaran."
+      },
+      {
+       "h": "Topik pada subbab ini (judul asli buku)"
+      },
+      {
+       "ul": [
+        "Pekerjaan atap (hal. 126)",
+        "Pekerjaan pelat logam arsitektur (hal. 127)",
+        "Pekerjaan pemasangan ubin (hal. 129)",
+        "Pekerjaan finishing interior (hal. 129)",
+        "Pekerjaan pemajangan (hal. 130)",
+        "Pekerjaan fitting (hal. 131)",
+        "Pekerjaan sash (hal. 132)",
+        "Pekerjaan penyemprotan uretan (hal. 133)",
+        "Pekerjaan anti air (hal. 133)",
+        "Pekerjaan pemasangan batu (hal. 134)",
+        "Pekerjaan pembongkaran (hal. 135)"
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pelaksanaan atap, pelat logam, ubin, interior, fitting, sash, uretan, anti air, pemasangan batu, pembongkaran.",
+      "points": [
+       "Baca topik sesuai pekerjaan yang akan kamu kerjakan.",
+       "Perhatikan gambar alat dan urutan kerja di halaman buku."
+      ],
+      "avoid": [
+       "Memakai alat atau material tanpa mengetahui fungsi dan bahayanya."
+      ],
+      "exam": [
+       "Nama alat/material dan fungsinya."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

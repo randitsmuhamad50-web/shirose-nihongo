@@ -1,0 +1,172 @@
+{
+ "schema": 1,
+ "bidang": "construction-lifeline",
+ "source": "Buku modul 建設分野 (Construction) bahasa Indonesia — kategori lifeline: Textbook THEORY_ID (hal. 1–117) + PRACTICE_ID hal. 5–98 (hal. 118–211)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Hal yang Dijaga di Tempat Kerja Jepang",
+   "jp": "{日本|にほん}の{職場|しょくば}で{大切|たいせつ}なこと"
+  },
+  "intro": {
+   "id": "Kerja sama tim, sistem pelaksanaan konstruksi, Career Up, salam dan apel pagi.",
+   "jp": "{日本|にほん}の{職場|しょくば}で{大切|たいせつ}なこと"
+  },
+  "pages": [
+   1,
+   12
+  ],
+  "subs": [
+   {
+    "id": "b1s1",
+    "no": 1,
+    "title": {
+     "id": "Kerja Sama Tim dan Sistem Pelaksanaan Konstruksi",
+     "jp": "チームワークと{施工|せこう}のしくみ"
+    },
+    "pages": [
+     1,
+     3
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Kerja sama tim"
+      },
+      {
+       "ul": [
+        "Pekerjaan konstruksi dikerjakan bersama banyak jenis pekerjaan; sapaan, laporan dan komunikasi menjaga keselamatan dan mutu.",
+        "Ikuti arahan mandor atau senior dan tanyakan bila belum paham."
+       ]
+      },
+      {
+       "h": "Sistem pelaksanaan konstruksi di Jepang"
+      },
+      {
+       "ul": [
+        "Satu proyek melibatkan pemesan, kontraktor utama, dan subkontraktor khusus yang bekerja bertingkat.",
+        "Kontraktor utama mengatur proses, mutu, keselamatan dan lingkungan; subkontraktor mengerjakan jenis pekerjaannya."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Konstruksi = kerja tim banyak pihak; komunikasi dan sapaan menjaga keselamatan.",
+      "points": [
+       "Kontraktor utama mengkoordinasi, subkontraktor khusus mengerjakan.",
+       "Laporkan, hubungi, konsultasikan bila ragu.",
+       "Patuhi arahan mandor."
+      ],
+      "avoid": [
+       "Bekerja sendiri tanpa memberi tahu mandor."
+      ],
+      "exam": [
+       "Peran kontraktor utama dan subkontraktor."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s2",
+    "no": 2,
+    "title": {
+     "id": "Sistem Kenaikan Karier Konstruksi (Career Up)",
+     "jp": "キャリアアップシステム"
+    },
+    "pages": [
+     3,
+     4
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Career Up System"
+      },
+      {
+       "ul": [
+        "Sistem yang mencatat pengalaman kerja dan kualifikasi pekerja konstruksi dan membaginya dalam **4 level**: **putih, biru, perak, emas**.",
+        "Level 2 (biru) memerlukan sekitar **645 hari kerja** ≈ **3 tahun** pengalaman.",
+        "Tujuan: pengalaman dan keahlian dinilai adil dan berpengaruh pada upah."
+       ]
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Career Up mencatat pengalaman dan kualifikasi dalam 4 level kartu.",
+      "points": [
+       "4 level: putih, biru, perak, emas.",
+       "Level 2 ≈ 645 hari kerja (±3 tahun).",
+       "Catatan kerja dipakai untuk menilai keahlian."
+      ],
+      "avoid": [
+       "Tidak mendaftarkan pengalaman kerja."
+      ],
+      "exam": [
+       "Jumlah level dan warna Career Up."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s3",
+    "no": 3,
+    "title": {
+     "id": "Salam dan Apel Pagi",
+     "jp": "あいさつと{朝礼|ちょうれい}"
+    },
+    "pages": [
+     4,
+     12
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Apel pagi"
+      },
+      {
+       "ol": [
+        "Senam radio (radio taiso).",
+        "Pengumuman dan arahan keselamatan hari itu.",
+        "Diskusi tiap jenis pekerjaan: prediksi bahaya (KY) dan pembagian pekerjaan.",
+        "Konfirmasi keselamatan: kondisi tubuh, APD, dan lain-lain.",
+        "Salam penutup bersama: “Hari ini pun semoga selamat!” lalu mulai bekerja."
+       ]
+      },
+      {
+       "p": "Apel pagi umum diikuti semua kontraktor; sesudahnya tiap jenis pekerjaan mengadakan apel sendiri."
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks asli pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Apel pagi menyatukan semua pekerja: senam, arahan, KY, konfirmasi, salam keselamatan.",
+      "points": [
+       "KY = prediksi bahaya (危険予知).",
+       "Penutup apel: “Hari ini pun semoga selamat!”",
+       "Datang tepat waktu, sehat, perlengkapan lengkap."
+      ],
+      "avoid": [
+       "Terlambat atau tidak ikut apel."
+      ],
+      "exam": [
+       "Isi dan urutan apel pagi."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
