@@ -11,7 +11,17 @@ def load(n, var):
     if not os.path.exists(f): return None
     sp = importlib.util.spec_from_file_location(n, f); m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m)
     return getattr(m, var)
-BANK = {k: v for k, v in ((k, load(k, VAR[k])) for k in VAR) if v}
+def load_all(n, var):
+    out = list(load(n, var) or [])
+    for i in range(2, 6):
+        x = load(n + str(i), var + str(i)) if os.path.exists(os.path.join(H, 'rw', LV, n + str(i) + '.py')) else None
+        if x: out += x
+    seen = set(); res = []
+    for r in out:
+        if r[0] in seen: continue
+        seen.add(r[0]); res.append(r)
+    return res
+BANK = {k: v for k, v in ((k, load_all(k, VAR[k])) for k in VAR) if v}
 NEX = int(os.environ.get('NEX', '10'))
 if os.environ.get('AUTO', '1') == '1':
     sys.path.insert(0, H)
