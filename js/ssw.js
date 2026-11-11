@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261111b";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111b";
+} from "./ssw-core.js?v=20261111c";
+import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111c";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -100,7 +100,7 @@ async function renderHub() {
   const list = await loadBidang();
   await loadKelasAkses();
   const guru = isGuru();
-  const isl = list.map((b, i) => {
+  const isl = list.filter(b => !b.induk).map((b, i) => {
     const open = b.aktif || guru;
     const tag = b.aktif ? (!b.hasContent ? "Segera" : sswAllowed(b.slug) ? "Tersedia" : "Terkunci") : (guru ? "Nonaktif · guru" : "Belum tersedia");
     const art = b.gambar ? `<img class="sw-isl-img" src="${esc(b.gambar)}" alt="" loading="lazy">` : islandSVG(b.tema || "generic", { dim: !open });
@@ -647,7 +647,7 @@ const SSW = window.SSW = {
     const el = document.getElementById("hf-n"); if (el) el.textContent = set.size; HF.sel = q; HF.n = set.size;
   },
   async alatInit(slug) {
-    try { if (!ALAT.items) ALAT.items = (await (await fetch(`./data/ssw/${slug}/alat.json?v=20261111b`)).json()).items; if (window.sswSrsLoad) ALAT.srs = await window.sswSrsLoad(); alatDraw(); }
+    try { if (!ALAT.items) ALAT.items = (await (await fetch(`./data/ssw/${slug}/alat.json?v=20261111c`)).json()).items; if (window.sswSrsLoad) ALAT.srs = await window.sswSrsLoad(); alatDraw(); }
     catch (e) { const b = document.getElementById("alat-body"); if (b) b.innerHTML = `<p class="sw-muted">Data peralatan belum bisa dimuat.</p>`; }
   },
   alatSet(k, v) { ALAT[k] = v; alatDraw(); },
@@ -682,8 +682,8 @@ const SSW = window.SSW = {
     const kunci = b.aktif && !sswAllowed(b.slug); const can = (b.aktif || isGuru()) && !kunci;
     sheet.hidden = false;
     sheet.innerHTML = `<div class="sw-sheet-in"><div><div class="jp">${esc(b.jp || "")}</div><h2>${esc(b.nama)}</h2>
-      <p class="sw-muted">${kunci ? "Guru belum membuka bidang ini untuk akun atau kelasmu." : can ? (!b.hasContent ? "Materi sedang disiapkan." : "Bidang ini sudah dibuka. Masuk dan jelajahi peta pembelajarannya.") : "Materi bidang ini belum tersedia. Progres belajarmu tidak akan hilang."}</p></div>
-      <div class="sw-sheet-b">${can ? `<button class="btn sw-big" onclick="route('ssw-peta/${esc(slug)}')">MASUK BELAJAR ›</button>` : `<button class="btn ghost" disabled>Belum tersedia</button>`}<button class="btn ghost" onclick="SSW.unpick()">Kembali</button></div></div>`;
+      <p class="sw-muted">${kunci ? "Guru belum membuka bidang ini untuk akun atau kelasmu." : can ? (!b.hasContent ? "Materi sedang disiapkan." : (list.some(x => x.induk === slug) ? "Pilih bahasa belajar: Bahasa Indonesia atau Bahasa Jepang." : "Bidang ini sudah dibuka. Masuk dan jelajahi peta pembelajarannya.")) : "Materi bidang ini belum tersedia. Progres belajarmu tidak akan hilang."}</p></div>
+      <div class="sw-sheet-b">${can && list.some(x => x.induk === slug) ? `<button class="btn sw-big" onclick="route('ssw-peta/${esc(slug)}')">🇮🇩 Bahasa Indonesia ›</button>${list.filter(x => x.induk === slug).map(x => `<button class="btn sw-big" onclick="route('ssw-peta/${esc(x.slug)}')">🇯🇵 Bahasa Jepang ›</button>`).join("")}` : can ? `<button class="btn sw-big" onclick="route('ssw-peta/${esc(slug)}')">MASUK BELAJAR ›</button>` : `<button class="btn ghost" disabled>Belum tersedia</button>`}<button class="btn ghost" onclick="SSW.unpick()">Kembali</button></div></div>`;
   },
   unpick() {
     const w = document.getElementById("sw-world"), s = document.getElementById("sw-sheet"); if (!w) return;
