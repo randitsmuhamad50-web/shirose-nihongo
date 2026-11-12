@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261112zg";
-import { islandSVG, buildingSVG } from "./ssw-art.js?v=20261111h";
+} from "./ssw-core.js?v=20261112zh";
+import { islandSVG, buildingSVG, bldFor } from "./ssw-art.js?v=20261112zh";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -159,7 +159,7 @@ async function renderPeta([slug]) {
   const chs = visibleChapters(b, pack);
   const nodes = chs.map((c, i) => {
     const pr = babProgress(P, c, pack.vocab);
-    return { bld: NODE_BLD[i] || "training", st: pr.status, label: `BAB ${c.no}`, sub: L(c.title, "id"), pct: pr.pct, go: `route('ssw-bab/${slug}/${c.id}')` };
+    return { bld: bldFor(slug, i), st: pr.status, label: `BAB ${c.no}`, sub: L(c.title, "id"), pct: pr.pct, go: `route('ssw-bab/${slug}/${c.id}')` };
   });
   const qDone = Object.keys(P.quiz || {}).length;
   nodes.push({ bld: "exam", st: qDone ? "proses" : "belum", label: "EVALUASI", sub: "試験センター", pct: null, go: `route('ssw-kuis/${slug}')` });
