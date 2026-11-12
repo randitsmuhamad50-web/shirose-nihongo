@@ -1358,6 +1358,7 @@ html{overflow-x:hidden;}
 .guru-link:hover{transform:translateY(-2px); box-shadow:0 15px 40px rgba(139,92,246,.6);}
 
 .hidden{display:none !important;}
+.vf-row{margin:8px 0;font-size:13px;color:var(--gray);display:flex;gap:8px;align-items:center;flex-wrap:wrap}.vf-sw{display:inline-flex;gap:6px}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
@@ -2739,8 +2740,9 @@ async function renderMateriList(tipe){
     const no = fmtNo(posCur === "all" ? itemNo(it, idx) : vi + 1);
     const cidx = vi;
     if (tipe === "kosakata") {
-      const kana = it.kana || it.f || "";
-      const kata = it.kata || it.k || "";
+      const _v = _vfPick(it);
+      const kana = _v.kana;
+      const kata = _v.kata;
       const arti = it.arti || it.a || "";
       return `<div class="materi-item" ${chunkAttr(cidx)} onclick="showMateri('${tipe}', ${idx}${posCur === "all" ? "" : ", " + (vi + 1)})">
         <span class="no-badge">${no}</span>
@@ -2788,6 +2790,7 @@ async function renderMateriList(tipe){
         <input type="text" id="search-${tipe}" placeholder="Cari di semua nomor..." oninput="filterMateri('${tipe}', this.value)"/>
       </div>
       ${posUI}
+      ${tipe === "kosakata" && data.some(x => x.km) ? `<div class="vf-row">Bentuk kata kerja: ${_vfBtn("setVerbFormMateri")}</div>` : ""}
       ${displayBar("materi")}
       ${tabs}
       <div class="materi-list" id="materi-list-${tipe}">${list}</div>${emptyPos}
@@ -2856,8 +2859,11 @@ window.showMateri = async (tipe, idx, vno) => {
       </div>
     `;
   } else if (tipe === "kosakata") {
-    const kata = it.kata || it.k || "";
-    const kana = it.kana || it.f || "";
+    const _v = _vfPick(it);
+    const kata = _v.kata;
+    const kana = _v.kana;
+    const _gl = {1:"Gol. 1 (godan)",2:"Gol. 2 (ichidan)",3:"Gol. 3 (tak beraturan)"};
+    const _vinfo = it.km ? `<div style="font-size:13px;color:var(--gray);margin:-4px 0 8px;">${_gl[it.g]||""} · 辞書形: ${_cleanKata(it.kata)} (${it.kana}) · ます形: ${it.km} (${it.ms})</div>` : "";
     const arti = it.arti || it.a || "";
     const contoh = it.contoh || it.ej || "";
     const contohArti = it.arti_contoh || it.et || "";
@@ -2866,7 +2872,7 @@ window.showMateri = async (tipe, idx, vno) => {
         <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
         <div class="big-k" style="font-size:72px;">${_cleanKata(kata)}</div>
         <div class="readings"><div class="r">${kana}</div></div>
-        <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
+        ${_vinfo}<div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
         ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left; position:relative;">
           <div class="jp">${contoh} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="kosakata-contoh" onclick="SV.btn(this)">🔊</button></div>
           <div class="id" style="text-align:left;">${contohArti}</div>
@@ -3264,6 +3270,16 @@ function _frHtml(fr){
   const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;");
   return String(fr).split(/\s+/).filter(Boolean).map(tok => tok.replace(/([^\[\]]*?)([^\s\[\]（）()]+?)\[([^\]]+)\]/g, (m, pre, base, rd) => `${esc(pre)}<ruby>${esc(base)}<rt>${esc(rd)}</rt></ruby>`)).join("");
 }
+/* Bentuk kata kerja: 辞書形 (default) / ます形 — disimpan di localStorage, berlaku di materi & hafalan */
+function _vfMasu(){ try { return localStorage.getItem("shirose-verbform") === "masu"; } catch(_) { return false; } }
+function _vfPick(it){
+  if (_vfMasu() && it && it.km) return { kata: it.km, kana: it.ms || it.kana || "", fr: it.fm || "" };
+  return { kata: it.kata || it.k || "", kana: it.kana || it.f || "", fr: it.fr || "" };
+}
+function _vfBtn(fn){ const m = _vfMasu(); return `<span class="vf-sw"><button class="haf-chip ${m ? "" : "on"}" onclick="${fn}('jisho')">辞書形</button><button class="haf-chip ${m ? "on" : ""}" onclick="${fn}('masu')">ます形</button></span>`; }
+window.setVerbForm = (m) => { try { localStorage.setItem("shirose-verbform", m === "masu" ? "masu" : "jisho"); } catch(_) {} };
+window.setVerbFormMateri = (m) => { setVerbForm(m); renderMateriList("kosakata").then(h => { document.getElementById("app").innerHTML = h; }); };
+window.setVerbFormHaf = (m) => { setVerbForm(m); document.getElementById("app").innerHTML = ""; renderHafalanSelect().then(h => { document.getElementById("app").innerHTML = h; }); };
 function _hafFront(it){
   if (it.fr && /\[/.test(it.fr)) {
     const pl = String(it.fr).replace(/\[[^\]]*\]/g, "").replace(/\s+/g, "");
@@ -3284,8 +3300,8 @@ function _normalizeItem(tipe, it, idx){
   }
   return {
     tipe, idx, no: itemNo(it, idx),
-    front: _cleanKata(it.kata || it.k || ""), fraw: it.kata || it.k || "", fr: it.fr || "",
-    reading: it.kana || it.f || "",
+    front: _cleanKata(_vfPick(it).kata), fraw: _vfPick(it).kata, fr: _vfPick(it).fr,
+    reading: _vfPick(it).kana,
     back: it.arti || it.a || "",
     pos: it.pos,
   };
@@ -3450,6 +3466,7 @@ async function _renderHafalanSelectImpl(){
         `}
       </div>
 
+      ${(cfg.tipe === "kosakata" || cfg.tipe === "semua") && kos.some(x => x.km) ? `<h3 style="margin:16px 0 8px;">Bentuk kata kerja</h3><div class="vf-row">${_vfBtn("setVerbFormHaf")}</div>` : ""}
       ${cfg.tipe === "kosakata" ? `<h3 style="margin:16px 0 8px;">Pilih kategori hafalan</h3>${posBar(kos, POS_DEF.some(d => d.k === cfg.pos) ? cfg.pos : "all", "hafPos")}` : ""}
       <h3 style="margin:16px 0 8px;">2. Rentang nomor <small style="color:var(--gray-dim); font-weight:400;">(bucket per 50)</small></h3>
       <div class="haf-chip-row">
