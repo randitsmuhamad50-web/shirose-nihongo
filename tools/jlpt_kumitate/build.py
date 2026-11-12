@@ -6,7 +6,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 STAR = [1, 2, 3, 0, 2, 1, 3, 2]
 def make(old, k, row, POLA):
-    pre, order, post, _, terj, pola = row; star = STAR[k % 8]
+    pre, order, post, _st, terj, pola = row; star = (_st if k >= 50 else STAR[k % 8])
     rnd = random.Random(1000 + k); perm = list(range(4)); rnd.shuffle(perm)
     opts = [order[i] for i in perm]; ans = opts.index(order[star])
     L = "ABCD"; pos_of = {p: i for i, p in enumerate(order)}
