@@ -21,4 +21,4 @@ Cara kerja per level `LV`:
 - Urutan kerja per level: (1) bank bahasa `tools/rw/<lv>/` → `NEX=20 python3 tools/jlpt_rewrite.py <lv>`; (2) `python3 tools/jlpt_kumitate/build.py` (N4: tambah baris di n4.py); (3) bank dokkai `tools/dokkai_long/<lv>_*.py` → `NEX=20 python3 tools/jlpt_dokkai_long.py <lv>` (info/お知らせ otomatis seed baru); (4) choukai `tools/choukai-src/<lv>-p11..p20.txt` → `python3 tools/choukai_build.py <lv>`; (5) `python3 tools/jlpt_choukai_swap.py <lv> 11 20`; (6) hapus staging dari commit, PR + merge paket → tunggu workflow Voice pack → daftarkan full-11..20 di `jlpt/index.json` (hapus key `staging`) + bump cache.
 - Berikutnya: N4 (bank belum ada), lalu N3, N2, N1. Fase ★ (20 soal) belum dikerjakan.
 
-- N4: Full Exam 11-20 terdaftar (MP3 p11-20 ada). N3: bank + choukai p11-20 sudah di main (PR #67); menunggu MP3, lalu daftarkan (staging regenerasi: rewrite→kumitate→dokkai→swap). N2/N1 belum.
+- N4 & N3: Full Exam 11-20 terdaftar (MP3 ada). N2: bank + dokkai + choukai p11-20 sudah di main (PR #69); menunggu MP3 voice pack, lalu daftarkan (regenerasi staging seperti N3). N1 belum.
