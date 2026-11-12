@@ -12,6 +12,7 @@ PLAN = {  # urutan slot per ujian: (slot, jumlah bacaan)
  'n4': [('tan', 3), ('chu', 2)],
  'n5': [('tan', 2), ('chu', 1)],
 }
+EXTRA = {'n3': ('tan', 60)}  # exam 11-20: tambahan 1 bacaan pendek menggantikan sisa soal lama
 def bank(lv):
     out = {}
     for f in sorted(glob.glob(os.path.join(H, 'dokkai_long', lv + '_*.py'))):
@@ -42,6 +43,8 @@ def apply(lv):
             if not pool: continue
             for i in range(cnt):
                 new.append(pool[(e * cnt + i) % len(pool)])
+            if EXTRA.get(lv, (None,))[0] == slot and e >= 10 and len(pool) >= EXTRA[lv][1] + (e - 10) + 1:
+                new.append(pool[EXTRA[lv][1] + (e - 10)])
         passages, items, n = {}, [], 0
         used = 0
         for p in new:

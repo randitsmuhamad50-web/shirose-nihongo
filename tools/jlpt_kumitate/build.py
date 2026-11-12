@@ -5,8 +5,8 @@ import json, glob, os, random, sys
 sys.path.insert(0, os.path.dirname(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 STAR = [1, 2, 3, 0, 2, 1, 3, 2]
-def make(old, k, row, POLA):
-    pre, order, post, _st, terj, pola = row; star = (_st if k >= 50 else STAR[k % 8])
+def make(old, k, row, POLA, own=False):
+    pre, order, post, _st, terj, pola = row; star = (_st if (k >= 50 or own) else STAR[k % 8])
     rnd = random.Random(1000 + k); perm = list(range(4)); rnd.shuffle(perm)
     opts = [order[i] for i in perm]; ans = opts.index(order[star])
     L = "ABCD"; pos_of = {p: i for i, p in enumerate(order)}
@@ -24,13 +24,14 @@ def make(old, k, row, POLA):
           "poin": "Strategi ★: (1) cari pasangan yang pasti menempel (kata benda + partikel, bentuk て + kata kerja bantu, pola tata bahasa); (2) susun dari kata yang paling dekat dengan bagian setelah kotak; (3) baru tentukan isi kotak ★."}
     new = dict(old); new.update({"q": q, "opts": opts, "ans": ans, "ex": ex}); new.pop("ref", None)
     return new
-for lv in ("n5", "n4"):
+for lv in ("n5", "n4", "n3"):
     mod = __import__(lv); k = 0
     for f in sorted(glob.glob(ROOT + "/jlpt/%s/full-*.json" % lv)):
+        if lv == "n3" and not json.load(open(f, encoding="utf-8")).get("staging"): continue
         d = json.load(open(f, encoding="utf-8"))
         for s in d["sections"]:
             for i, it in enumerate(s["items"]):
                 if it.get("tipe") == "kumitate":
-                    s["items"][i] = make(it, k, mod.S[k], mod.POLA); k += 1
+                    s["items"][i] = make(it, k, mod.S[k], mod.POLA, lv == "n3"); k += 1
         json.dump(d, open(f, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(lv, "diganti:", k)
