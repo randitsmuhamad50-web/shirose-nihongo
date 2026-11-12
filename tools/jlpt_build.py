@@ -304,13 +304,13 @@ def choukai_items(rnd, lv, exam_no, real):
     return items
 
 def choukai_packages(lv):
-    """Semua paket Choukai level ini, berurutan: jlpt-{lv}.json, lalu paket/{lv}-p2..p10."""
+    """Semua paket Choukai level ini, berurutan: jlpt-{lv}.json, lalu paket/{lv}-p2..p20."""
     pkgs = []
     try:
         pkgs.append(load(f"choukai/jlpt-{lv}.json"))
     except Exception:
         pass
-    for n in range(2, 11):
+    for n in range(2, 21):
         try:
             pkgs.append(load(f"choukai/paket/{lv}-p{n}.json"))
         except Exception:
