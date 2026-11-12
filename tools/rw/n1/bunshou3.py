@@ -1,0 +1,22 @@
+# -*- coding: utf-8 -*-
+S3 = [
+ ("日本の人口は減少している。（　）、地方では特にその傾向が強い。","とりわけ",["したがって","ところが","ちなみに"],"Populasi Jepang menurun. Terutama di daerah, tren itu kuat.","とりわけ."),
+ ("彼は優秀だ。（　）、協調性に欠けるという欠点がある。","ただし",["したがって","なぜなら","すなわち"],"Dia unggul. Namun, ada kekurangan yaitu kurang kerja sama.","ただし."),
+ ("計画は中止になった。（　）、資金が集まらなかったからだ。","なぜなら",["しかも","ところが","したがって"],"Rencana dibatalkan. Sebab dana tak terkumpul.","なぜなら."),
+ ("この薬は効果が高い。（　）、副作用もほとんどない。","しかも",["ところが","したがって","なぜなら"],"Obat ini sangat efektif. Terlebih, hampir tak ada efek samping.","しかも."),
+ ("売り上げは伸びている。（　）、利益は減っている。","ところが",["したがって","しかも","つまり"],"Penjualan naik. Tetapi keuntungan menurun.","ところが."),
+ ("環境破壊は深刻だ。（　）、私たちにできることから始めるべきだ。","それゆえ",["ところが","もっとも","ちなみに"],"Kerusakan lingkungan serius. Karena itu mulailah dari yang bisa kita lakukan.","それゆえ."),
+ ("会議は一時間で終わった。（　）、重要な決定は何も行われなかった。","もっとも",["したがって","なぜなら","つまり"],"Rapat selesai sejam. Meski begitu tak ada keputusan penting.","もっとも."),
+ ("彼は、勉強もスポーツも得意だ。（　）、友人も多い。","おまけに",["ところが","なぜなら","したがって"],"Dia pandai belajar dan olahraga. Ditambah, banyak teman.","おまけに."),
+ ("この商品は人気がある。（　）、すぐに売り切れてしまう。","それだけに",["ところが","つまり","ちなみに"],"Produk ini populer. Justru karena itu cepat habis.","それだけに."),
+ ("AはBより安い。（　）、品質はBのほうが上だ。","一方",["したがって","なぜなら","つまり"],"A lebih murah dari B. Di sisi lain, kualitas B lebih unggul.","一方."),
+ ("彼は、新しい技術を学ぶことに熱心だ。（　）、古い技術を軽視しているわけではない。","もっとも",["したがって","ところが","つまり"],"Dia antusias belajar teknologi baru. Namun bukan berarti meremehkan teknologi lama.","もっとも."),
+ ("雨が降り続いている。（　）、川の水位が上がってきた。","そのため",["ところが","もっとも","ちなみに"],"Hujan terus turun. Karena itu muka air sungai naik.","そのため."),
+ ("彼は、約束を守る人だ。（　）、信頼されている。","それゆえ",["ところが","ただし","もっとも"],"Dia orang yang menepati janji. Karena itu dipercaya.","それゆえ."),
+ ("交通費は自己負担だ。（　）、出張の場合は会社が負担する。","ただし",["したがって","なぜなら","つまり"],"Ongkos transportasi ditanggung sendiri. Namun untuk dinas, ditanggung perusahaan.","ただし."),
+ ("この計画には三つの問題がある。（　）、費用、期間、人員である。","すなわち",["ところが","もっとも","ちなみに"],"Rencana ini punya tiga masalah, yaitu biaya, waktu, dan tenaga.","すなわち."),
+ ("彼は、仕事が速い。（　）、正確だ。","しかも",["ところが","したがって","ちなみに"],"Dia cepat bekerja. Dan juga teliti.","しかも."),
+ ("会議の資料は、前日までに送ってください。（　）、急ぎの場合はご連絡ください。","ただし",["したがって","なぜなら","つまり"],"Kirim materi rapat paling lambat sehari sebelumnya. Namun bila mendesak, hubungi kami.","ただし."),
+ ("経済は回復している。（　）、国民の生活は苦しいままだ。","しかし",["したがって","なぜなら","すなわち"],"Ekonomi pulih. Namun kehidupan rakyat tetap sulit.","しかし."),
+ ("この問題は複雑だ。（　）、慎重に進める必要がある。","したがって",["ところが","もっとも","ちなみに"],"Masalah ini rumit. Karena itu perlu diproses hati-hati.","したがって."),
+]
