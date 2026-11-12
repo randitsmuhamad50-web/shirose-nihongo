@@ -1358,6 +1358,7 @@ html{overflow-x:hidden;}
 .guru-link:hover{transform:translateY(-2px); box-shadow:0 15px 40px rgba(139,92,246,.6);}
 
 .hidden{display:none !important;}
+.kimg{display:block;max-width:min(100%,360px);max-height:240px;margin:10px auto;border-radius:12px;object-fit:contain}
 .vf-row{margin:8px 0;font-size:13px;color:var(--gray);display:flex;gap:8px;align-items:center;flex-wrap:wrap}.vf-sw{display:inline-flex;gap:6px}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
@@ -2865,16 +2866,19 @@ window.showMateri = async (tipe, idx, vno) => {
     const _gl = {1:"Gol. 1 (godan)",2:"Gol. 2 (ichidan)",3:"Gol. 3 (tak beraturan)"};
     const _vinfo = it.km ? `<div style="font-size:13px;color:var(--gray);margin:-4px 0 8px;">${_gl[it.g]||""} · 辞書形: ${_cleanKata(it.kata)} (${it.kana}) · ます形: ${it.km} (${it.ms})</div>` : "";
     const arti = it.arti || it.a || "";
-    const contoh = it.contoh || it.ej || "";
+    const _c0 = it.contoh || it.ej || "";
     const contohArti = it.arti_contoh || it.et || "";
+    // contoh yang hanya mengulang kata itu sendiri (tanpa terjemahan) tidak ditampilkan
+    const contoh = (_c0 && (contohArti || _c0.replace(/\[[^\]]*\]/g, "").replace(/\s/g, "") !== _cleanKata(kata).replace(/\s/g, ""))) ? _c0 : "";
     body = `
       <div class="kanji-detail">
         <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
         <div class="big-k" style="font-size:72px;">${_cleanKata(kata)}</div>
         <div class="readings"><div class="r">${kana}</div></div>
         ${_vinfo}<div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
+        ${it.img ? `<img class="kimg" src="${it.img}" alt="" loading="lazy">` : ""}
         ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left; position:relative;">
-          <div class="jp">${contoh} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="kosakata-contoh" onclick="SV.btn(this)">🔊</button></div>
+          <div class="jp">${_rubyJp(contoh)} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="kosakata-contoh" onclick="SV.btn(this)">🔊</button></div>
           <div class="id" style="text-align:left;">${contohArti}</div>
           <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
                   onclick='rangkumPopup({}, "Contoh kalimat: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
@@ -3279,6 +3283,7 @@ function _vfPick(it){
 function _vfBtn(fn){ const m = _vfMasu(); return `<span class="vf-sw"><button class="haf-chip ${m ? "" : "on"}" onclick="${fn}('jisho')">辞書形</button><button class="haf-chip ${m ? "on" : ""}" onclick="${fn}('masu')">ます形</button></span>`; }
 window.setVerbForm = (m) => { try { localStorage.setItem("shirose-verbform", m === "masu" ? "masu" : "jisho"); } catch(_) {} };
 window.setVerbFormMateri = (m) => { setVerbForm(m); renderMateriList("kosakata").then(h => { document.getElementById("app").innerHTML = h; }); };
+function _rubyJp(t){ return String(t || "").replace(/&/g,"&amp;").replace(/<(?!\/?(b|ruby|rt)\b)/g,"&lt;").replace(/([\u3400-\u9fff々〆]+)\[([^\]]+)\]/g, "<ruby>$1<rt>$2</rt></ruby>"); }
 function _hafFront(it){
   if (it.fr && /\[/.test(it.fr)) {
     const pl = String(it.fr).replace(/\[[^\]]*\]/g, "").replace(/\s+/g, "");
@@ -3317,7 +3322,7 @@ function _normalizeItem(tipe, it, idx){
     front: _cleanKata(_vfPick(it).kata), fraw: _vfPick(it).kata, fr: _vfPick(it).fr,
     reading: _vfPick(it).kana,
     back: it.arti || it.a || "",
-    pos: it.pos, src: it.km ? it : undefined,
+    pos: it.pos, src: it.km ? it : undefined, kimg: it.img || "",
   };
 }
 // Filter kelas kata untuk Hafalan: nomor tampilan (dno) dihitung ulang 1..n; kunci SRS tetap pakai nomor asli.
@@ -3710,6 +3715,7 @@ function renderHafalanFlashcard(){
             ${it.img ? `<div class="jpname">${it.front}</div>` : ""}
             <div class="reading">${it.reading || "—"}</div>
             <div class="arti">${it.back || "—"}</div>
+            ${it.kimg ? `<img class="kimg" src="${it.kimg}" alt="" loading="lazy" draggable="false">` : ""}
             ${it.fungsi ? `<div class="fungsi">${it.fungsi}</div>` : ""}
           </div>
           <button class="say-btn" title="Dengarkan" onclick="event.stopPropagation(); speakJP(this.closest('.flash-card').dataset.say)">🔊</button>
