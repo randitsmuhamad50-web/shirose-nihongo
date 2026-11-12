@@ -1,0 +1,49 @@
+# -*- coding: utf-8 -*-
+# N2 統合理解 tambahan 3 (2問)
+PT = "Soal 統合: tandai pendapat A dan B secara terpisah, lalu cari titik temu/perbedaannya."
+JT = 'Bacaan gabungan (統合理解)'
+R = ['Tidak disebut dalam teks.', 'Berlawanan dengan isi teks.', 'Berlebihan / bukan pendapat penulis.']
+def X(jp, id, qs):
+    return dict(slot='tou', jenis=JT, jp=jp, id=id, qs=[(q, [ok] + w, 0, al, bu, R, PT) for (q, ok, w, al, bu) in qs])
+B = [
+ X('<b>【A】</b><br>通勤は、電車より自転車のほうがよい。運動になるし、時間も正確で、交通費もかからない。健康にも環境にもやさしい。<br><br><b>【B】</b><br>自転車通勤は健康的だが、雨の日や遠い職場には向かない。また、事故の危険や、汗をかいた後の着替えの問題もある。会社が環境を整えない限り、すべての人に勧めるのは難しい。',
+   '[A] Berangkat kerja lebih baik naik sepeda daripada kereta. Jadi olahraga, waktunya pasti, dan tak ada ongkos. Ramah kesehatan dan lingkungan.\n[B] Berangkat dengan sepeda sehat, tetapi tak cocok saat hujan atau tempat kerja jauh. Ada pula risiko kecelakaan dan masalah ganti baju setelah berkeringat. Selama perusahaan tak menyiapkan lingkungan, sulit menganjurkannya pada semua orang.',
+   [('Bが自転車通勤に反対する理由として挙げているのはどれか。','雨の日や遠い職場には向かず、事故の危険もあること',['交通費がかかること', '環境に悪いこと', '運動にならないこと'],'Alasan B.','雨の日や遠い職場には向かない…事故の危険'),
+    ('AとBの考えの違いはどれか。','Aは自転車通勤を勧め、Bはすべての人には勧めにくいと考える',['Aは電車を勧め、Bは自転車を勧める', 'AもBも自転車通勤に反対する', 'AもBも交通費を重視する'],'Perbedaan.','A：自転車のほうがよい / B：すべての人に勧めるのは難しい')]),
+ X('<b>【A】</b><br>子どもにスマートフォンを持たせるのは、中学生になってからでよい。小学生のうちは、ゲームやSNSに時間を使いすぎる恐れがあるからだ。まずは、親が使い方のルールを教えることが大切だ。<br><br><b>【B】</b><br>防犯の面から、子どもには早くからスマートフォンを持たせたほうがよい。居場所が分かり、緊急のときに連絡が取れるからだ。ただし、使う時間や、見てよいサイトは、家庭で決めておく必要がある。',
+   '[A] Memberi anak ponsel cukup setelah SMP. Selagi SD ada kekhawatiran terlalu banyak memakai waktu untuk game dan media sosial. Pertama, penting orang tua mengajarkan aturan pemakaian.\n[B] Dari sisi keamanan, sebaiknya anak diberi ponsel sejak dini. Karena lokasinya diketahui dan bisa dihubungi saat darurat. Namun waktu pemakaian dan situs yang boleh dilihat perlu ditetapkan keluarga.',
+   [('Bがスマートフォンを早く持たせたほうがよいと考える理由はどれか。','居場所が分かり、緊急のときに連絡が取れるから',['ゲームが上手になるから', '勉強に役立つから', '友達が増えるから'],'Alasan B.','居場所が分かり、緊急のときに連絡が取れる'),
+    ('AとBに共通している考えはどれか。','使い方のルールを決めることが必要だ',['小学生にはスマートフォンが不要だ', '子どもに持たせてはいけない', 'ルールは必要ない'],'Persamaan.','A：使い方のルールを教える / B：家庭で決めておく')]),
+ X('<b>【A】</b><br>新しい店を開くなら、人通りの多い駅前がよい。家賃は高いが、客が多く、宣伝にもなる。立地が悪ければ、どんなに良い商品でも、知ってもらえない。<br><br><b>【B】</b><br>駅前は、家賃が高く、同じような店との競争も激しい。それよりも、家賃の安い場所で、独自の商品や雰囲気で客を集めるほうが、長く続けやすい。インターネットで宣伝する方法もある。',
+   '[A] Bila membuka toko baru, depan stasiun yang ramai lalu lintas itu baik. Sewanya mahal tetapi pelanggan banyak dan jadi promosi. Jika lokasi buruk, sebagus apa pun barang tak akan dikenal.\n[B] Depan stasiun sewanya mahal dan persaingan dengan toko serupa sengit. Daripada itu, menarik pelanggan di tempat sewa murah dengan barang dan suasana khas lebih mudah bertahan lama. Ada pula cara promosi lewat internet.',
+   [('Bが駅前に反対する理由はどれか。','家賃が高く、競争も激しいから',['人通りが少ないから', '宣伝ができないから', '商品が売れないから'],'Alasan B.','家賃が高く、同じような店との競争も激しい'),
+    ('Aが立地を重視する理由はどれか。','立地が悪いと、良い商品でも知ってもらえないから',['家賃が安いから', '競争がないから', 'インターネットが使えないから'],'Alasan A.','立地が悪ければ…知ってもらえない')]),
+ X('<b>【A】</b><br>大学は、入学しやすく卒業しにくい仕組みにすべきだ。入学後に、学生が真剣に勉強するようになり、卒業時の能力も保証される。今のように、卒業が簡単だと、学ぶ意欲が下がる。<br><br><b>【B】</b><br>入学試験が難しいほうが、学生の質が高まるという考えもある。しかし、入学の時点の学力だけで、将来を決めるのは早すぎる。入学後の努力が正しく評価される仕組みも必要だが、厳しすぎる卒業条件には賛成できない。',
+   '[A] Universitas sebaiknya dibuat mudah masuk tetapi sulit lulus. Setelah masuk mahasiswa belajar sungguh-sungguh dan kemampuan saat lulus terjamin. Bila lulus mudah seperti sekarang, semangat belajar turun.\n[B] Ada pula pandangan bahwa ujian masuk yang sulit meningkatkan mutu mahasiswa. Namun menentukan masa depan hanya dari kemampuan saat masuk terlalu dini. Sistem yang menilai upaya setelah masuk dengan benar perlu, tetapi syarat lulus yang terlalu ketat tak bisa disetujui.',
+   [('Aが卒業を厳しくすべきだと考える理由はどれか。','学生が真剣に勉強し、能力が保証されるから',['入学試験を難しくできるから', '大学の数が増えるから', '学費が安くなるから'],'Alasan A.','真剣に勉強するようになり、卒業時の能力も保証'),
+    ('卒業条件について、Bはどう考えているか。','厳しすぎる条件には賛成できない',['もっと厳しくすべきだ', '条件は不要だ', '卒業は誰でもできるべきだ'],'Pendapat B.','厳しすぎる卒業条件には賛成できない')]),
+ X('<b>【A】</b><br>外食より、自炊のほうがよい。食費が安く、栄養のバランスも自分で整えられる。料理の腕が上がれば、楽しみにもなる。毎日でなくても、週に数回の自炊だけで、家計は大きく変わる。<br><br><b>【B】</b><br>自炊は、時間と手間がかかる。仕事で疲れた日に、買い物から片付けまで行うのは大変で、続かない人も多い。無理をせず、惣菜や外食も上手に利用して、心の余裕を保つほうが大切だと思う。',
+   '[A] Daripada makan di luar, masak sendiri lebih baik. Biaya makan murah dan keseimbangan gizi bisa diatur sendiri. Bila kemampuan memasak naik jadi kesenangan. Meski tak tiap hari, memasak beberapa kali seminggu sudah mengubah keuangan rumah tangga.\n[B] Masak sendiri memakan waktu dan tenaga. Pada hari lelah bekerja, mengurus dari belanja sampai membereskan itu berat dan banyak yang tak bertahan. Tanpa memaksa, memanfaatkan lauk siap saji dan makan di luar dengan baik demi menjaga kelonggaran hati menurut saya lebih penting.',
+   [('Aが自炊の利点として挙げていないものはどれか。','時間が短くなること',['食費が安いこと', '栄養を整えられること', '料理が楽しみになること'],'Bukan keuntungan A.','時間が短くなることは挙げていない'),
+    ('Bの考えに合うものはどれか。','惣菜や外食も利用して、心の余裕を保つことが大切だ',['自炊を毎日すべきだ', '外食は避けるべきだ', '惣菜は体に悪い'],'Pendapat B.','惣菜や外食も上手に利用して、心の余裕')]),
+ X('<b>【A】</b><br>駅や公共の場所での、歩きスマホは禁止すべきだ。前を見ていないため、人にぶつかったり、線路に落ちたりする危険がある。罰金を設けてでも、やめさせる必要がある。<br><br><b>【B】</b><br>歩きスマホは、確かに危険だが、罰金で解決するのは難しい。取り締まりには限界があるし、周りの人への配慮が自然に育たないからだ。駅の構造を見直し、立ち止まって使える場所を増やすなどの対策のほうが、効果があると思う。',
+   '[A] Berjalan sambil memakai ponsel di stasiun dan tempat umum harus dilarang. Karena tak melihat depan, ada bahaya menabrak orang atau jatuh ke rel. Harus dihentikan, bahkan dengan denda.\n[B] Berjalan sambil memakai ponsel memang berbahaya, tetapi sulit diselesaikan dengan denda. Penindakan ada batasnya dan kepedulian pada orang sekitar tak tumbuh alami. Menurut saya langkah seperti meninjau struktur stasiun dan menambah tempat berhenti memakai ponsel lebih efektif.',
+   [('Bが罰金に反対する理由はどれか。','取り締まりには限界があり、配慮が自然に育たないから',['罰金が安すぎるから', '歩きスマホは危険でないから', '駅が広いから'],'Alasan B.','取り締まりには限界がある…配慮が自然に育たない'),
+    ('Bが勧めている対策はどれか。','駅の構造を見直し、立ち止まって使える場所を増やす',['罰金を高くする', 'スマートフォンを禁止する', '駅員を増やす'],'Usulan B.','立ち止まって使える場所を増やす')]),
+ X('<b>【A】</b><br>日本の農業を守るために、国は、農家への補助金を増やすべきだ。農家は、天候や価格の変動に影響を受けやすく、収入が安定しない。生活の保障がなければ、若い人は農業を継がない。<br><br><b>【B】</b><br>補助金に頼るだけでは、農業は強くならない。農家自身が、品質を高めたり、直接販売したりして、収入を増やす努力が必要だ。国は、補助金より、そのための技術や販売の場を支援することに力を入れるべきだ。',
+   '[A] Untuk menjaga pertanian Jepang, negara sebaiknya menambah subsidi bagi petani. Petani mudah terpengaruh cuaca dan fluktuasi harga sehingga penghasilannya tak stabil. Tanpa jaminan hidup anak muda tak melanjutkan pertanian.\n[B] Hanya mengandalkan subsidi tak menguatkan pertanian. Petani sendiri perlu berupaya menaikkan penghasilan dengan meningkatkan mutu atau menjual langsung. Negara sebaiknya lebih memusatkan tenaga pada dukungan teknologi dan tempat penjualan untuk itu, daripada subsidi.',
+   [('Aが補助金を増やすべきだと考える理由はどれか。','収入が安定せず、若い人が継がないから',['農家が多すぎるから', '農産物が安すぎるから', '国の予算が余っているから'],'Alasan A.','収入が安定しない…若い人は農業を継がない'),
+    ('Bが国に求めていることはどれか。','技術や販売の場を支援すること',['補助金を増やすこと', '農業をやめさせること', '価格を下げること'],'Tuntutan B.','技術や販売の場を支援することに力を入れるべき')]),
+ X('<b>【A】</b><br>図書館の開館時間を、夜遅くまで延ばすべきだ。仕事で昼間に来られない人も、夜なら利用できる。静かで勉強しやすい場所が少ない町では、特に必要とされている。<br><br><b>【B】</b><br>開館時間を延ばすと、職員の負担が増え、人件費もかかる。利用する人が少ない時間帯に開けても、費用に見合わないだろう。まずは、どの時間に利用者が多いかを調べ、その結果に基づいて、時間を見直すべきだ。',
+   '[A] Jam buka perpustakaan sebaiknya diperpanjang sampai malam. Orang yang tak bisa datang siang karena kerja bisa memakainya malam hari. Sangat dibutuhkan di kota yang sedikit tempat tenang untuk belajar.\n[B] Bila jam buka diperpanjang, beban staf bertambah dan biaya tenaga kerja timbul. Membuka di jam sedikit pengguna mungkin tak sepadan dengan biayanya. Pertama sebaiknya diselidiki di jam mana pengguna banyak lalu meninjau jam berdasarkan hasilnya.',
+   [('Bが開館時間の延長に慎重な理由はどれか。','職員の負担や人件費が増え、費用に見合わないかもしれないから',['利用者が多すぎるから', '夜は危険だから', '図書館が狭いから'],'Alasan B.','職員の負担が増え、人件費もかかる'),
+    ('Bが最初にすべきだと考えていることはどれか。','利用者が多い時間を調べること',['すぐに時間を延ばすこと', '図書館を閉めること', '職員を増やすこと'],'Langkah B.','どの時間に利用者が多いかを調べ')]),
+ X('<b>【A】</b><br>就職活動では、学生は自分の長所を積極的にアピールすべきだ。企業は、短い時間で学生を判断するため、自分から伝えなければ、能力があっても評価されない。<br><br><b>【B】</b><br>自分をよく見せようとするあまり、事実と違うことを言ったり、無理に話を作ったりする学生もいる。大切なのは、等身大の自分を伝えることだ。短所も含めて正直に話したほうが、自分に合った会社に出会える。',
+   '[A] Dalam pencarian kerja mahasiswa sebaiknya aktif mempromosikan kelebihan diri. Karena perusahaan menilai mahasiswa dalam waktu singkat, jika tak menyampaikan sendiri, meski berkemampuan tak dinilai.\n[B] Ada mahasiswa yang karena ingin tampak baik mengatakan hal berbeda dari fakta atau memaksa mengarang cerita. Yang penting menyampaikan diri apa adanya. Berbicara jujur termasuk kekurangan lebih memungkinkan bertemu perusahaan yang cocok.',
+   [('Aが積極的にアピールすべきだと考える理由はどれか。','短い時間で判断されるため、伝えなければ評価されないから',['長所が少ないから', '企業が長所を知っているから', '学生が多いから'],'Alasan A.','自分から伝えなければ、能力があっても評価されない'),
+    ('Bが大切だと考えていることはどれか。','短所も含めて正直に、等身大の自分を伝えること',['長所だけを話すこと', '話を作ってでも目立つこと', '何も話さないこと'],'Pendapat B.','短所も含めて正直に話したほうが')]),
+ X('<b>【A】</b><br>観光地では、外国人観光客の入場料を、日本人より高くしてもよい。外国人観光客が増えて、設備の維持費がかさんでいる。観光で利益を得ている以上、その費用を、訪れる人が負担するのは自然だ。<br><br><b>【B】</b><br>国籍によって料金を変えるのは、公平ではない。観光客を歓迎する気持ちが伝わらなくなり、国の印象も悪くなる。料金を上げるなら、国籍に関係なく、全員に同じ料金を求めるべきだ。',
+   '[A] Di tempat wisata, tarif masuk turis asing boleh dibuat lebih tinggi daripada orang Jepang. Turis asing bertambah dan biaya pemeliharaan fasilitas membengkak. Selama mendapat untung dari wisata, wajar biayanya ditanggung yang berkunjung.\n[B] Mengubah tarif menurut kewarganegaraan tidak adil. Perasaan menyambut wisatawan tak tersampaikan dan kesan negara pun memburuk. Jika menaikkan tarif, harus meminta tarif sama untuk semua tanpa memandang kewarganegaraan.',
+   [('Bが料金の差に反対する理由はどれか。','不公平で、国の印象も悪くなるから',['料金が安すぎるから', '観光客が少ないから', '設備が必要ないから'],'Alasan B.','公平ではない…国の印象も悪くなる'),
+    ('AとBの考えの違いはどれか。','Aは外国人の料金を高くしてよいと考え、Bは全員同じ料金にすべきだと考える',['Aは全員同じ料金を、Bは外国人を高くすべきだと考える', 'AもBも料金を下げるべきだと考える', 'AもBも料金を上げるべきではないと考える'],'Perbedaan.','A：高くしてもよい / B：全員に同じ料金')]),
+]

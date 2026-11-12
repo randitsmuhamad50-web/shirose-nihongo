@@ -45,3 +45,56 @@ def _ok(r):
 K3 = [r for r in K3 if _ok(r)]
 _dr = ("予約が ない","勉強した（","彼は 何を","彼の 気持ちは 分から","彼女の 話は","風邪（","日本語は 難しい","彼女は 結婚","給料が","今年は 去年","駅へ 行く","私は 彼女の","今日は 雨","子どもたちは","母は 私の","スポーツが","家を 出よう","彼に 聞いた")
 K3 = [r for r in K3 if not any(x in r[0] for x in _dr)]
+
+K3 += [
+ ("この大会は、年齢や経験（　　　）、誰でも参加できる。","を問わず",["に限らず","を通じて","にわたって"],"Turnamen ini siapa pun bisa ikut tanpa memandang usia atau pengalaman.","〜を問わず."),
+ ("天気（　　　）、試合は予定どおり行われる。","にかかわらず",["に限って","をよそに","をきっかけに"],"Apa pun cuacanya, pertandingan berlangsung sesuai jadwal.","〜にかかわらず."),
+ ("彼は一年（　　　）、同じ服を着ている。","を通じて",["に際して","をめぐって","をはじめ"],"Sepanjang tahun dia memakai baju yang sama.","〜を通じて."),
+ ("彼女は、何も知らない（　　　）に話していた。","かのよう",["ばかり","だけ","まま"],"Dia berbicara seolah-olah tak tahu apa-apa.","〜かのように."),
+ ("彼は、周囲の反対（　　　）、会社を辞めて留学した。","をよそに",["に先立って","にかけては","にあたって"],"Dia keluar kerja dan studi ke luar negeri tak mengindahkan penolakan sekitar.","〜をよそに."),
+ ("今回の事故（　　　）、安全対策を見直すことになった。","をきっかけに",["にもかかわらず","をものともせず","にそって"],"Berawal dari kecelakaan ini, tindakan keselamatan ditinjau ulang.","〜をきっかけに."),
+ ("この仕事は、あなた（　　　）できない。","でなければ",["ならでは","のくせに","とあって"],"Pekerjaan ini tak bisa dilakukan kecuali Anda.","〜でなければ."),
+ ("病気で、学校を休むこと（　　　）なった。","を余儀なく",["に限り","にとって","に反して"],"Karena sakit, dia terpaksa tak masuk sekolah.","〜を余儀なくされる."),
+ ("この制度は、改善の余地が（　　　）。","なきにしもあらずだ",["ないにきまっている","なくもない","あるまじき"],"Sistem ini bukan tak ada ruang perbaikan.","〜なきにしもあらず."),
+ ("彼の説明は、あまりに難しくて、理解し（　　　）。","かねる",["がたい","かねない","づらい"],"Penjelasannya terlalu sulit sehingga sulit dipahami.","〜かねる."),
+ ("この問題は、誰にも解決し（　　　）。","えない",["かねない","がち","やすい"],"Masalah ini tak bisa diselesaikan siapa pun.","〜得ない."),
+ ("今となっては、謝り（　　　）。","ようがない",["かねない","がたい","つつある"],"Sekarang ini, tak ada cara untuk meminta maaf.","〜ようがない."),
+ ("彼は、忙しい（　　　）、家族との時間を大切にしている。","とはいえ",["にもかかわらず","うえに","ばかりに"],"Meski sibuk, dia menghargai waktu bersama keluarga.","〜とはいえ."),
+ ("たとえ失敗（　　　）、挑戦することに意味がある。","しようとも",["したために","するくせに","しなくて"],"Meski gagal, menantang itu ada artinya.","〜ようとも."),
+ ("彼は、何があっても（　　　）、最後までやり遂げる人だ。","くじけずに",["くじけながら","くじけたら","くじけたばかり"],"Dia orang yang menuntaskan sampai akhir tanpa patah semangat.","〜ずに."),
+ ("あの二人は、顔（　　　）似ている。","からして",["にあたって","にあって","にしては"],"Mereka berdua mirip bahkan dari wajahnya.","〜からして."),
+ ("成功するかどうかは、準備（　　　）だ。","しだい",["がてら","ばかり","かたがた"],"Berhasil tidaknya tergantung persiapan.","〜しだい."),
+ ("この会社は、技術力（　　　）日本一だと言われている。","にかけては",["にさいして","をめぐって","にくらべ"],"Soal kemampuan teknologi, perusahaan ini disebut nomor satu Jepang.","〜にかけては."),
+ ("社長ともなると、毎日のスケジュールが（　　　）。","びっしりだ",["ぎりぎりだ","のんびりだ","ゆったりだ"],"Kalau sudah level direktur, jadwal harian penuh padat.","〜ともなると."),
+ ("彼女は、教師（　　　）、医者でもある。","であり",["であっても","であるばかり","であるなり"],"Dia seorang guru sekaligus dokter.","〜であり〜."),
+ ("忙しくて、昼ご飯を食べる（　　　）がなかった。","ひま",["こと","わけ","ところ"],"Terlalu sibuk sampai tak sempat makan siang.","〜ひまがない."),
+ ("彼の発言は、事実（　　　）反している。","に",["を","が","で"],"Ucapannya bertentangan dengan fakta.","〜に反する."),
+ ("この資料は、会議で使う（　　　）作った。","べく",["ように","ために する","ほど"],"Dokumen ini dibuat untuk dipakai dalam rapat.","〜べく."),
+ ("彼は、約束を破る（　　　）人ではない。","ような",["ばかりの","くらいの","ほどの"],"Dia bukan orang yang ingkar janji.","〜ような人ではない."),
+ ("彼が来る（　　　）はずがない。","わけ",["もの","こと","ところ"],"Tidak mungkin dia datang.","〜わけがない."),
+ ("母は、料理（　　　）、掃除も上手だ。","のみならず",["にしては","につれて","をはじめ"],"Ibu bukan hanya pandai masak, tapi juga bersih-bersih.","〜のみならず."),
+ ("お金が（　　　）、どうすることもできない。","ない以上",["あるものの","なかろうと","なくても"],"Karena tak punya uang, tak bisa berbuat apa-apa.","〜以上."),
+ ("この薬は、使い方（　　　）、副作用が出ることがある。","によっては",["に関して","をめぐって","に対して"],"Obat ini tergantung cara pakai bisa menimbulkan efek samping.","〜によっては."),
+ ("彼女の演奏は、プロ（　　　）うまかった。","顔負けの",["並みの","ぎみの","らしくない"],"Permainannya sehebat profesional (bahkan mengungguli).","〜顔負け."),
+ ("彼は、大雨（　　　）、試合に出た。","をものともせず",["にそって","をふまえて","のもとで"],"Dia ikut bertanding tak peduli hujan lebat.","〜をものともせず."),
+ ("彼女のスピーチは、（　　　）人を引きつける。","いつも",["ずっと","もし","たとえ"],"Pidatonya selalu memikat orang.","副詞."),
+ ("新しい法律の施行（　　　）、説明会が開かれた。","に先立ち",["にあたり","に従い","に伴い"],"Menjelang pemberlakuan undang-undang baru diadakan penjelasan.","〜に先立ち."),
+ ("彼は、成功した（　　　）、決して威張らない。","からといって",["くせに","うえに","せいで"],"Meski sukses, dia tak pernah sombong.","〜からといって."),
+ ("急いだ（　　　）、もう間に合わないだろう。","ところで",["からには","おかげで","せいで"],"Sekalipun terburu-buru, sepertinya sudah tak sempat.","〜たところで."),
+ ("あの人は、見た目（　　　）、とても優しい人だ。","とは違って",["に応じて","に際して","ばかりか"],"Orang itu berbeda dari penampilannya, sangat baik.","〜とは違って."),
+ ("今日（　　　）は、早く帰らせてもらいます。","ばかりは",["だけは","こそ","しか"],"Khusus hari ini saya izin pulang cepat.","〜ばかりは."),
+ ("彼女の考え方は、私と（　　　）、大きく違う。","くらべて",["そって","かけて","つれて"],"Cara berpikirnya jauh berbeda jika dibandingkan dengan saya.","〜にくらべて."),
+ ("彼は、仕事（　　　）、家庭でも模範的だ。","でも",["ばかり","ほど","ほか"],"Dia teladan baik dalam pekerjaan maupun rumah tangga.","〜でも〜も."),
+ ("この会議は、必要（　　　）、開催される。","に応じて",["に際して","をめぐって","をはじめ"],"Rapat ini diadakan sesuai kebutuhan.","〜に応じて."),
+ ("そんなに食べた（　　　）、おなかが痛くなるのは当然だ。","のだから",["くせに","けれど","としても"],"Karena makan sebanyak itu, wajar perutnya sakit.","〜のだから."),
+ ("子どもの成長（　　　）、親の悩みも変わってくる。","につれて",["にかけて","にさいして","ばかり"],"Seiring pertumbuhan anak, kekhawatiran orang tua pun berubah.","〜につれて."),
+]
+K3 = [r for r in K3 if len(r[2])==3 and r[1] not in r[2]]
+_drop = ("病気で、学校","この制度は、改善","社長ともなると","彼女は、教師","この資料は、会議","彼は、約束を破る","彼が来る（","母は、料理","彼女の演奏","彼女のスピーチ","新しい法律","今日（")
+K3 = [r for r in K3 if not r[0].startswith(_drop)]
+_fix = {
+ "彼の説明は、あまりに難しくて、理解し（　　　）。": ["そうだ","かねない","やすい"],
+ "今となっては、謝り（　　　）。": ["かねない","つつある","やすい"],
+ "彼は、忙しい（　　　）、家族との時間を大切にしている。": ["くせに","ばかりに","うえに"],
+}
+K3 = [(a,b,_fix.get(a,c),d,e) for a,b,c,d,e in K3]

@@ -24,14 +24,15 @@ def make(old, k, row, POLA, own=False):
           "poin": "Strategi ★: (1) cari pasangan yang pasti menempel (kata benda + partikel, bentuk て + kata kerja bantu, pola tata bahasa); (2) susun dari kata yang paling dekat dengan bagian setelah kotak; (3) baru tentukan isi kotak ★."}
     new = dict(old); new.update({"q": q, "opts": opts, "ans": ans, "ex": ex}); new.pop("ref", None)
     return new
-for lv in ("n5", "n4", "n3"):
+for lv in ("n5", "n4", "n3", "n2", "n1"):
+    if not os.path.exists(os.path.join(os.path.dirname(__file__), lv + ".py")): continue
     mod = __import__(lv); k = 0
     for f in sorted(glob.glob(ROOT + "/jlpt/%s/full-*.json" % lv)):
-        if lv == "n3" and not json.load(open(f, encoding="utf-8")).get("staging"): continue
+        if lv in ("n3", "n2", "n1") and not json.load(open(f, encoding="utf-8")).get("staging"): continue
         d = json.load(open(f, encoding="utf-8"))
         for s in d["sections"]:
             for i, it in enumerate(s["items"]):
                 if it.get("tipe") == "kumitate":
-                    s["items"][i] = make(it, k, mod.S[k], mod.POLA, lv == "n3"); k += 1
+                    s["items"][i] = make(it, k, mod.S[k], mod.POLA, lv in ("n3", "n2", "n1")); k += 1
         json.dump(d, open(f, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
     print(lv, "diganti:", k)
