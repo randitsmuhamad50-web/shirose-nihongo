@@ -64,6 +64,7 @@ if __name__ == '__main__':
             if w['kata'] in BUKAN_VERBA: continue
             r = w['kana'].split('・')[0]
             if not (r[-1] in U or r.endswith('する')): continue
+            if lv == 'n3' and ('／' in w['kata'] or '／' in w['kana'] or len(w['kana']) < len(w['kata'])): skip.append((w['kata'], w['kana'])); continue
             m = masu(w)
             if m: w.update(m); n += 1
             else: skip.append((w['kata'], w['kana']))
