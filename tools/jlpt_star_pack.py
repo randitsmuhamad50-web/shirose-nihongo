@@ -19,7 +19,10 @@ for lv in ('n5', 'n4', 'n3', 'n2', 'n1'):
         rows = st.S[(p - 1) * 20: p * 20]; items = []
         for i, row in enumerate(rows):
             old = {'cat': 'bunpou', 'tipe': 'kumitate', 'tipe_jp': '文の組み立て'}
-            it = make(old, 1000 + (p - 1) * 20 + i, row, base.POLA, True)
+            tgt = (i * 3 + p) % 4
+            for kk in range(1000 + (p - 1) * 20 + i, 1000 + (p - 1) * 20 + i + 4000):
+                it = make(old, kk, row, base.POLA, True)
+                if it['ans'] == tgt and it['opts'] != list(row[1]): break
             it['no'] = i + 1; it['id'] = f'{lv}-star-{p:02d}-q{i+1:02d}'; items.append(it)
         d = {'id': f'{lv}-star-{p:02d}', 'lv': lv, 'jenis': 'star', 'judul': f'Bintang ★ Practice {p:02d}', 'durasi': 20,
              'sections': [{'mondai': 1, 'tipe': 'kumitate', 'cat': 'bunpou', 'tipe_jp': '文の組み立て', 'judul': 'Menyusun kalimat (★)', 'instr': INSTR, 'items': items}],
