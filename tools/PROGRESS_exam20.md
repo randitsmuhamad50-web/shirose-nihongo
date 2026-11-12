@@ -26,3 +26,4 @@ Cara kerja per level `LV`:
 ## Audit duplikat & paket ★ (terbaru)
 - `tools/jlpt_dedupe.py <lv>`: cari duplikat (q+opsi+bacaan; kalimat+jawaban; kalimat sama pada bunmyaku/keishiki/bunshou/settou/iikae) di semua file jlpt/<lv>/*.json, pertahankan kemunculan pertama, ganti sisanya dari `tools/rw/<lv>/dedupe_extra.py` + bank. Hasil: 0 duplikat N5–N1. JANGAN menjalankan ulang `jlpt_rewrite.py` setelah ini (akan mengisi ulang siklus bank dan memunculkan duplikat lagi); kalau perlu, jalankan `jlpt_dedupe.py` lagi.
 - Paket ★: `tools/jlpt_kumitate/star_<lv>.py` (40 baris/level) → `python3 tools/jlpt_star_pack.py` membuat `jlpt/<lv>/star-01..02.json` (20 soal) + mendaftarkan `level.<lv>.star` di jlpt/index.json. Jenis `star` ada di JENIS pada js/jlpt-center.js.
+- ★ diperbanyak: N5-N2 4 paket, N1 3 paket (total_soal 13163), sw v126.
