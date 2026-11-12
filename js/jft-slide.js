@@ -132,5 +132,5 @@ const JFTS = window.JFTS = {
   full() { const w = document.getElementById("jfs-wrap"); if (document.fullscreenElement) document.exitFullscreen(); else w?.requestFullscreen?.(); },
 };
 export const JFTS_ROUTES = {
-  "jft-slide": (p) => { const [lv, bab] = String(p || "").split("/"); return LV[lv] && +bab ? renderSlides(lv, +bab) : renderList(lv); },
+  "jft-slide": (p) => { const [lv, bab] = Array.isArray(p) ? p : String(p || "").split("/"); return LV[lv] && +bab ? renderSlides(lv, +bab) : renderList(lv); },
 };
