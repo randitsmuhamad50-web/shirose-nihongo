@@ -24,9 +24,13 @@ def apply(lv):
     for e in range(int(os.environ.get('NEX', '10'))):
         fp = os.path.join(ROOT, 'jlpt', lv, f'full-{e+1:02d}.json')
         d = json.load(open(fp, encoding='utf8'))
-        if not any(s['cat'] == 'dokkai' for s in d['sections']):  # staging 11-20: salin kerangka dokkai dari full-01
+        if not any(s['cat'] == 'dokkai' for s in d['sections']):  # staging 11-20: kerangka dokkai + bacaan template (情報検索 dll) seed baru
             d0 = json.load(open(os.path.join(ROOT, 'jlpt', lv, 'full-01.json'), encoding='utf8'))
-            d['sections'].append(next(s for s in d0['sections'] if s['cat'] == 'dokkai')); d['passages'] = dict(d0['passages'])
+            sec0 = json.loads(json.dumps(next(s for s in d0['sections'] if s['cat'] == 'dokkai')))
+            sys.path.insert(0, H); import jlpt_build as JB
+            its, store = JB.dokkai_items(random.Random(f'shirose-{lv}-ext-{e}'), lv, e + 1, d['id'])
+            for it in its: it['cat'] = 'dokkai'
+            sec0['items'] = its; d['sections'].append(sec0); d['passages'] = store
         sec = next(s for s in d['sections'] if s['cat'] == 'dokkai')
         target = len(sec['items'])
         keep = [it for it in sec['items'] if d['passages'][it['pid']].get('info')]
