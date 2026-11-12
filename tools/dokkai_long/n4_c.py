@@ -63,4 +63,6 @@ B = [
    '朝 どうして スープを 作りましたか。',['寒かったから','おなかが いっぱいだったから','夜 食べなかったから','店が なかったから'],0,'Karena dingin.','朝は 寒かったので、…スープを 作って',W,P2),
  T('駅の ちかくに、あたらしい 病院が できます。今の 病院は ふるくて せまいので、多くの 人が 待たなければ なりません。新しい 病院では、予約を すれば 待たずに みて もらえます。','Dekat stasiun akan dibuka rumah sakit baru. Rumah sakit sekarang tua dan sempit sehingga banyak orang harus menunggu. Di yang baru, jika reservasi, bisa diperiksa tanpa menunggu.',
    '新しい 病院で 待たない ためには どう すれば いいですか。',['予約を する','早く 行く','お金を はらう','電話を かける だけ'],0,'Dengan reservasi.','予約を すれば 待たずに',W),
+ T('わたしの 祖父は 七十五さいですが、毎日 早く おきて、近くの 公園で 体操を して います。体操の あとで、友だちと 話すのが 楽しみだと 言って います。','Kakek saya berusia 75 tahun tapi tiap hari bangun pagi dan senam di taman dekat rumah. Katanya menantikan ngobrol dengan teman setelah senam.',
+   '祖父は 体操の あとで 何を するのが 楽しみですか。',['友だちと 話す','ゆっくり ねる','買い物に 行く','しんぶんを 読む'],0,'Mengobrol dengan teman.','友だちと 話すのが 楽しみ',W,P2),
 ]
