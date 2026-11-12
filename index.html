@@ -3279,7 +3279,6 @@ function _vfPick(it){
 function _vfBtn(fn){ const m = _vfMasu(); return `<span class="vf-sw"><button class="haf-chip ${m ? "" : "on"}" onclick="${fn}('jisho')">辞書形</button><button class="haf-chip ${m ? "on" : ""}" onclick="${fn}('masu')">ます形</button></span>`; }
 window.setVerbForm = (m) => { try { localStorage.setItem("shirose-verbform", m === "masu" ? "masu" : "jisho"); } catch(_) {} };
 window.setVerbFormMateri = (m) => { setVerbForm(m); renderMateriList("kosakata").then(h => { document.getElementById("app").innerHTML = h; }); };
-window.setVerbFormHaf = (m) => { setVerbForm(m); document.getElementById("app").innerHTML = ""; renderHafalanSelect().then(h => { document.getElementById("app").innerHTML = h; }); };
 function _hafFront(it){
   if (it.fr && /\[/.test(it.fr)) {
     const pl = String(it.fr).replace(/\[[^\]]*\]/g, "").replace(/\s+/g, "");
@@ -3288,7 +3287,22 @@ function _hafFront(it){
   const rd = String(it.reading || '').replace(/<[^>]+>/g, '');
   return (rd && /[\u3400-\u9fff]/.test(it.front) && !/<ruby/.test(it.front) && rd !== it.front) ? `<ruby>${it.front}<rt>${rd}</rt></ruby>` : it.front;
 }
-function _hafFuriBtn(){ return `<button class="btn ghost sm" id="haf-furi-btn" onclick="hafToggleFuri()" aria-pressed="${_hafFuriOn()}">${_hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"}</button>`; }
+function _hafFormBtn(){
+  if (!(state.hafalan_queue || []).some(p => p.src && p.src.km)) return "";
+  return `<button class="btn ghost sm" id="haf-form-btn" onclick="hafToggleForm()" title="Ganti bentuk kata kerja">${_vfMasu() ? "ます形" : "辞書形"}</button>`;
+}
+function _hafFuriBtn(){ return `<button class="btn ghost sm" id="haf-furi-btn" onclick="hafToggleFuri()" aria-pressed="${_hafFuriOn()}">${_hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"}</button>${_hafFormBtn()}`; }
+function _hafRefit(p){
+  if (!p || !p.src || !p.src.km) return p;
+  const v = _vfPick(p.src);
+  p.front = _cleanKata(v.kata); p.fraw = v.kata; p.fr = v.fr; p.reading = v.kana;
+  return p;
+}
+window.hafToggleForm = function hafToggleForm(){
+  setVerbForm(_vfMasu() ? "jisho" : "masu");
+  (state.hafalan_queue || []).forEach(_hafRefit);
+  renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
+};
 function _normalizeItem(tipe, it, idx){
   if (tipe === "kanji"){
     return {
@@ -3303,7 +3317,7 @@ function _normalizeItem(tipe, it, idx){
     front: _cleanKata(_vfPick(it).kata), fraw: _vfPick(it).kata, fr: _vfPick(it).fr,
     reading: _vfPick(it).kana,
     back: it.arti || it.a || "",
-    pos: it.pos,
+    pos: it.pos, src: it.km ? it : undefined,
   };
 }
 // Filter kelas kata untuk Hafalan: nomor tampilan (dno) dihitung ulang 1..n; kunci SRS tetap pakai nomor asli.
@@ -3466,7 +3480,6 @@ async function _renderHafalanSelectImpl(){
         `}
       </div>
 
-      ${(cfg.tipe === "kosakata" || cfg.tipe === "semua") && kos.some(x => x.km) ? `<h3 style="margin:16px 0 8px;">Bentuk kata kerja</h3><div class="vf-row">${_vfBtn("setVerbFormHaf")}</div>` : ""}
       ${cfg.tipe === "kosakata" ? `<h3 style="margin:16px 0 8px;">Pilih kategori hafalan</h3>${posBar(kos, POS_DEF.some(d => d.k === cfg.pos) ? cfg.pos : "all", "hafPos")}` : ""}
       <h3 style="margin:16px 0 8px;">2. Rentang nomor <small style="color:var(--gray-dim); font-weight:400;">(bucket per 50)</small></h3>
       <div class="haf-chip-row">
@@ -3683,7 +3696,7 @@ function renderHafalanFlashcard(){
       <div class="haf-topbar">
         <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:14px; font-weight:700;">${pos+1} / ${q.length}</span>
-        <button class="btn ghost sm" id="haf-furi-btn" onclick="hafToggleFuri()" aria-pressed="${_hafFuriOn()}">${_hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"}</button>
+        ${_hafFuriBtn()}
         <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
 
