@@ -393,6 +393,7 @@ async function renderHub() {
     <div class="head"><div class="jp">JFT-Basic · いろどり</div><h1>JFT-Basic A2</h1>
       <p>Pilih level Irodori untuk belajar kosakata, kanji, bunpou &amp; hafalan — atau masuk ke ujian CBT tiap level.</p></div>
     <div class="jlpt-grid">${kartu}</div>
+    <div style="text-align:center;margin:14px 0"><button class="btn gold" onclick="route('jft-slide')">🎞️ Slide Bunpou Irodori (A1 · A2) — dengan audio</button></div>
     <div class="foot"><small style="color:var(--gray-dim)">Kosakata bersumber dari buku Irodori — The Japan Foundation (pemakaian edukasi non-komersial). Skor di sini hanya perkiraan latihan, bukan skor resmi JFT-Basic.</small></div>
   </div>`;
 }
@@ -486,7 +487,9 @@ function renderHasil() {
   </div>`;
 }
 
+import { JFTS_ROUTES } from "./jft-slide.js?v=20261113a";
 export const JFT_ROUTES = {
+  ...JFTS_ROUTES,
   jft: () => renderHub(),
   "jft-ujian": () => renderUjian(),
   "jft-paket": (p) => renderPaket(p),
