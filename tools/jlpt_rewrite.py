@@ -112,7 +112,7 @@ def main():
         else:
             d = json.load(open(os.path.join(ROOT, 'jlpt', LV, 'full-01.json'), encoding='utf8'))
             d['id'] = f'{LV}-full-{e+1:02d}'; d['judul'] = f'JLPT {LV.upper()} Full Exam {e+1:02d}'
-            d['sections'] = [s for s in d['sections'] if s['tipe'] in BANK]; d['passages'] = {}; d['staging'] = True
+            d['sections'] = [s for s in d['sections'] if s['tipe'] in BANK or s['tipe'] == 'kumitate']; d['passages'] = {}; d['staging'] = True
         for s in d['sections']:
             t = s['tipe']
             if t not in BANK: continue

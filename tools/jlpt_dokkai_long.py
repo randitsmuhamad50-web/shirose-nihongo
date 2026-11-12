@@ -21,9 +21,12 @@ def bank(lv):
 def br(s): return s.replace('\n', '<br>')
 def apply(lv):
     bk = bank(lv); idx = json.load(open(os.path.join(ROOT, 'jlpt', 'index.json'), encoding='utf8'))
-    for e in range(10):
+    for e in range(int(os.environ.get('NEX', '10'))):
         fp = os.path.join(ROOT, 'jlpt', lv, f'full-{e+1:02d}.json')
         d = json.load(open(fp, encoding='utf8'))
+        if not any(s['cat'] == 'dokkai' for s in d['sections']):  # staging 11-20: salin kerangka dokkai dari full-01
+            d0 = json.load(open(os.path.join(ROOT, 'jlpt', lv, 'full-01.json'), encoding='utf8'))
+            d['sections'].append(next(s for s in d0['sections'] if s['cat'] == 'dokkai')); d['passages'] = dict(d0['passages'])
         sec = next(s for s in d['sections'] if s['cat'] == 'dokkai')
         target = len(sec['items'])
         keep = [it for it in sec['items'] if d['passages'][it['pid']].get('info')]
