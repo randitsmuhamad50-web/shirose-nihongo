@@ -3260,7 +3260,15 @@ function _srsKey(tipe, it, idx){ return tipe[0] + ":" + itemNo(it, idx); }
 // Normalize an item from kanji or kosakata into a common pair for drills.
 /* penanda homonim [1] / [×yomi] di data kosakata tidak ditampilkan */
 function _cleanKata(k){ return String(k || '').replace(/\[[^\]]*\]/g, '').trim(); }
+function _frHtml(fr){
+  const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;");
+  return String(fr).split(/\s+/).filter(Boolean).map(tok => tok.replace(/([^\[\]]*?)([^\s\[\]（）()]+?)\[([^\]]+)\]/g, (m, pre, base, rd) => `${esc(pre)}<ruby>${esc(base)}<rt>${esc(rd)}</rt></ruby>`)).join("");
+}
 function _hafFront(it){
+  if (it.fr && /\[/.test(it.fr)) {
+    const pl = String(it.fr).replace(/\[[^\]]*\]/g, "").replace(/\s+/g, "");
+    if (pl === String(it.front).replace(/\s+/g, "")) return _frHtml(it.fr);
+  }
   const rd = String(it.reading || '').replace(/<[^>]+>/g, '');
   return (rd && /[\u3400-\u9fff]/.test(it.front) && !/<ruby/.test(it.front) && rd !== it.front) ? `<ruby>${it.front}<rt>${rd}</rt></ruby>` : it.front;
 }
@@ -3276,7 +3284,7 @@ function _normalizeItem(tipe, it, idx){
   }
   return {
     tipe, idx, no: itemNo(it, idx),
-    front: _cleanKata(it.kata || it.k || ""), fraw: it.kata || it.k || "",
+    front: _cleanKata(it.kata || it.k || ""), fraw: it.kata || it.k || "", fr: it.fr || "",
     reading: it.kana || it.f || "",
     back: it.arti || it.a || "",
     pos: it.pos,
