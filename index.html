@@ -1299,7 +1299,7 @@ html{overflow-x:hidden;}
 .bp-rumus li{background:rgba(255,255,255,.05); border-left:3px solid var(--pink,#ec4899); border-radius:8px; padding:8px 10px; font-size:14px; line-height:1.5; font-family:var(--font-jp,inherit);}
 .exam-area ruby rt{transition:opacity .2s;}
 .exam-area.no-furigana ruby rt{opacity:0; visibility:hidden;}
-.flash-card .front ruby rt{display:none; font-size:.45em; font-weight:600; color:var(--pink-light,#f9a8c9);} body.haf-furi-on .flash-card .front ruby rt{display:revert;}
+.flash-card .front ruby rt,.haf-r ruby rt{display:none; font-size:.45em; font-weight:600; color:var(--pink-light,#f9a8c9);} body.haf-furi-on .flash-card .front ruby rt,body.haf-furi-on .haf-r ruby rt{display:revert;}
 .furi-toggle{
   display:inline-flex; align-items:center; gap:6px;
   padding:6px 12px; border-radius:999px; cursor:pointer;
@@ -2744,7 +2744,7 @@ async function renderMateriList(tipe){
       const arti = it.arti || it.a || "";
       return `<div class="materi-item" ${chunkAttr(cidx)} onclick="showMateri('${tipe}', ${idx}${posCur === "all" ? "" : ", " + (vi + 1)})">
         <span class="no-badge">${no}</span>
-        <div class="kanji">${kata}</div>
+        <div class="kanji">${_cleanKata(kata)}</div>
         <div class="reading">${kana}</div>
         <div class="meaning">${arti}</div>
       </div>`;
@@ -2864,7 +2864,7 @@ window.showMateri = async (tipe, idx, vno) => {
     body = `
       <div class="kanji-detail">
         <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
-        <div class="big-k" style="font-size:72px;">${kata}</div>
+        <div class="big-k" style="font-size:72px;">${_cleanKata(kata)}</div>
         <div class="readings"><div class="r">${kana}</div></div>
         <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
         ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left; position:relative;">
@@ -3258,18 +3258,25 @@ function _autoSpeakJP(txt){
 function _srsKey(tipe, it, idx){ return tipe[0] + ":" + itemNo(it, idx); }
 
 // Normalize an item from kanji or kosakata into a common pair for drills.
+/* penanda homonim [1] / [×yomi] di data kosakata tidak ditampilkan */
+function _cleanKata(k){ return String(k || '').replace(/\[[^\]]*\]/g, '').trim(); }
+function _hafFront(it){
+  const rd = String(it.reading || '').replace(/<[^>]+>/g, '');
+  return (rd && /[\u3400-\u9fff]/.test(it.front) && !/<ruby/.test(it.front) && rd !== it.front) ? `<ruby>${it.front}<rt>${rd}</rt></ruby>` : it.front;
+}
+function _hafFuriBtn(){ return `<button class="btn ghost sm" id="haf-furi-btn" onclick="hafToggleFuri()" aria-pressed="${_hafFuriOn()}">${_hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"}</button>`; }
 function _normalizeItem(tipe, it, idx){
   if (tipe === "kanji"){
     return {
       tipe, idx, no: itemNo(it, idx),
-      front: it.kanji || it.k || "",
+      front: it.kanji || it.k || "", fraw: it.kanji || it.k || "",
       reading: it.kana || `${it.on || ""} ${it.kun || ""}`.trim() || "",
       back: it.arti || it.a || "",
     };
   }
   return {
     tipe, idx, no: itemNo(it, idx),
-    front: it.kata || it.k || "",
+    front: _cleanKata(it.kata || it.k || ""), fraw: it.kata || it.k || "",
     reading: it.kana || it.f || "",
     back: it.arti || it.a || "",
     pos: it.pos,
@@ -3635,7 +3642,7 @@ function renderHafalanFlashcard(){
   const pos = state.hafalan_pos;
   if (pos >= q.length) return renderHafalanDone();
   const it = q[pos];
-  const safeFront = (it.front || "").replace(/"/g, "&quot;");
+  const safeFront = (it.fraw || it.front || "").replace(/"/g, "&quot;");
   // Fresh reveal state each new card
   state._flashRevealed = false;
 
@@ -3660,7 +3667,7 @@ function renderHafalanFlashcard(){
         <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
         <div class="flash-card enter" id="flash-card" data-front="${safeFront}" data-say="${safeFront}" onclick="hafCardTap(event)">
           <div class="no-pill">${fmtNo(it.dno ?? it.no)} · ${_hafBadge(it)}</div>
-          ${it.img ? `<div class="front imgf"><img src="${it.img}" alt="Gambar peralatan" draggable="false"></div>` : `<div class="front">${(it.reading && /[\u3400-\u9fff]/.test(it.front) && !/<ruby/.test(it.front) && String(it.reading).replace(/<[^>]+>/g,"") !== it.front) ? `<ruby>${it.front}<rt>${String(it.reading).replace(/<[^>]+>/g,"")}</rt></ruby>` : it.front}</div>`}
+          ${it.img ? `<div class="front imgf"><img src="${it.img}" alt="Gambar peralatan" draggable="false"></div>` : `<div class="front">${_hafFront(it)}</div>`}
           <div class="back-face">
             ${it.img ? `<div class="jpname">${it.front}</div>` : ""}
             <div class="reading">${it.reading || "—"}</div>
@@ -3840,6 +3847,7 @@ function renderHafalanMatching(){
       <div class="haf-topbar">
         <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:13px;">Kelompok ${Math.floor(pos/5)+1} · ${batch.length} pasang</span>
+        ${_hafFuriBtn()}
         <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
       <p style="color:var(--gray); font-size:13px; margin:8px 0;">Tap kata di kiri, lalu arti yang cocok di kanan.</p>
@@ -3848,8 +3856,7 @@ function renderHafalanMatching(){
           ${batch.map((it, i) => `
             <button class="match-item" data-side="L" data-i="${i}" onclick="matchTap('L', ${i})">
               <span class="no-badge">${fmtNo(it.dno ?? it.no)}</span>
-              ${it.img ? `<img class="match-img" src="${it.img}" alt="Alat">` : `<div class="jp">${it.front}</div>
-              <div class="rd">${it.reading}</div>`}
+              ${it.img ? `<img class="match-img" src="${it.img}" alt="Alat">` : `<div class="jp haf-r">${_hafFront(it)}</div>`}
             </button>`).join("")}
         </div>
         <div class="match-col" id="match-right">
@@ -3908,7 +3915,7 @@ async function matchAfterPair(correct, iInBatch){
   state.srs[key] = card;
   await _saveSrs();
   if (correct){
-    _autoSpeakJP(it.front);
+    _autoSpeakJP(it.fraw || it.front);
     playJurus();
     await awardXP(3, justMastered ? 2 : 1);
     if (justMastered) toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
@@ -3950,13 +3957,13 @@ function renderHafalanMultiple(){
       <div class="haf-topbar">
         <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
         <span style="color:var(--gray); font-size:13px;">${pos+1} / ${q.length}</span>
+        ${_hafFuriBtn()}
         <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
       </div>
       <div class="kanji-detail" style="padding:12px 0;">
         <div class="no-pill">${fmtNo(it.dno ?? it.no)} · ${_hafBadge(it)}</div>
         ${it.img ? `<img class="mc-img" src="${it.img}" alt="Alat" draggable="false"><p style="color:var(--gray); margin-top:8px;">Alat apa ini? (pilih namanya)</p>`
-          : `<div class="big-k" style="font-size:72px;">${it.front}</div>
-        <div class="readings"><div class="r">${it.reading}</div></div>
+          : `<div class="big-k haf-r" style="font-size:72px;">${_hafFront(it)}</div>
         <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>`}
       </div>
       <div class="opsi-list" id="mc-opts">
