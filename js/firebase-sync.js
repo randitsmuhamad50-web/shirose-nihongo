@@ -1176,6 +1176,11 @@ export async function setAksesSsw(uid, on) {
   if (!userIsGuru()) throw new Error("Hanya guru");
   await updateDoc(doc(db, "siswa", uid), { aksesSsw: !!on });
 }
+/* siswa/{uid}.aksesJft (boolean; kosong = diizinkan) — hanya guru yang boleh mengubah (rules). */
+export async function setAksesJft(uid, on) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "siswa", uid), { aksesJft: !!on });
+}
 /* Akses SSW per bidang. v: true = boleh, false = blokir, null = hapus (ikut kelas / bawaan).
  * siswa/{uid}.aksesSswBidang.{slug}  dan  kelas/{id}.aksesSswBidang.{slug} */
 export async function setAksesSswBidang(uid, slug, v) {
