@@ -22,3 +22,7 @@ Cara kerja per level `LV`:
 - Berikutnya: N4 (bank belum ada), lalu N3, N2, N1. Fase ★ (20 soal) belum dikerjakan.
 
 - N4 & N3: Full Exam 11-20 terdaftar (MP3 ada). N2: bank + dokkai + choukai p11-20 sudah di main (PR #69); menunggu MP3 voice pack, lalu daftarkan (regenerasi staging seperti N3). N1 belum.
+
+## Audit duplikat & paket ★ (terbaru)
+- `tools/jlpt_dedupe.py <lv>`: cari duplikat (q+opsi+bacaan; kalimat+jawaban; kalimat sama pada bunmyaku/keishiki/bunshou/settou/iikae) di semua file jlpt/<lv>/*.json, pertahankan kemunculan pertama, ganti sisanya dari `tools/rw/<lv>/dedupe_extra.py` + bank. Hasil: 0 duplikat N5–N1. JANGAN menjalankan ulang `jlpt_rewrite.py` setelah ini (akan mengisi ulang siklus bank dan memunculkan duplikat lagi); kalau perlu, jalankan `jlpt_dedupe.py` lagi.
+- Paket ★: `tools/jlpt_kumitate/star_<lv>.py` (40 baris/level) → `python3 tools/jlpt_star_pack.py` membuat `jlpt/<lv>/star-01..02.json` (20 soal) + mendaftarkan `level.<lv>.star` di jlpt/index.json. Jenis `star` ada di JENIS pada js/jlpt-center.js.
