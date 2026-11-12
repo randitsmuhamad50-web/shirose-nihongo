@@ -297,24 +297,56 @@ export function buildQueue(P, vocab, { newLimit = 15, now = Date.now(), mode = "
 }
 
 /* ============================ KUIS ============================ */
-/** 3 kuis penuh = sampel deterministik dari seluruh bank soal semua bab. */
-export function fullQuizzes(pack, perQuiz = 20, count = 10) {
+/** Format ujian resmi tiap bidang (sumber: 実施要領 MOJ/JAC/MHLW). n = jumlah soal ujian penuh. */
+export const EXAM_SPEC = {
+  "food-manufacturing": { n: 40, img: 6, mb: 0, opts: 3, info: "Resmi (OTAFF): tulis 30 + praktik 10 = 40 soal, pilihan ganda 3 opsi, lulus ≥65%." },
+  "food-service": { n: 45, img: 8, mb: 0, opts: 3, info: "Resmi (OTAFF): tulis 30 + praktik 15 = 45 soal, pilihan ganda 3 opsi, lulus ≥65%." },
+  "construction": { n: 50, img: 8, mb: 20, info: "Resmi (JAC): tulis 30 (60 menit) + praktik 20 (40 menit) = 50 soal, ○× + pilihan ganda, lulus ≥65%." },
+  "construction-bangunan": { n: 50, img: 8, mb: 20, info: "Resmi (JAC): tulis 30 (60 menit) + praktik 20 (40 menit) = 50 soal, ○× + pilihan ganda, lulus ≥65%." },
+  "construction-lifeline": { n: 50, img: 8, mb: 20, info: "Resmi (JAC): tulis 30 (60 menit) + praktik 20 (40 menit) = 50 soal, ○× + pilihan ganda, lulus ≥65%." },
+  "accommodation": { n: 36, img: 4, mb: 10, info: "Resmi (宿泊業技能試験センター): tulis 30 + praktik 6 = 36 soal, 60 menit." },
+  "kaigo": { n: 45, img: 0, mb: 0, info: "Resmi (MHLW): 45 soal / 60 menit (tulis 40 + praktik 5), lulus ≥60%." },
+  "kaigo-jp": { n: 45, img: 4, mb: 0, info: "Resmi (MHLW): 45 soal / 60 menit (tulis 40 + praktik 5), lulus ≥60%." },
+};
+/** 10 ujian penuh = sampel deterministik dari seluruh bank soal; komposisi mengikuti ujian resmi bidangnya. */
+export function fullQuizzes(pack, perQuizArg, count = 10) {
+  const spec = EXAM_SPEC[pack.slug] || {};
+  const perQuiz = perQuizArg || spec.n || 20;
   const pool = [];
   for (const ch of pack.chapters) for (const q of (pack.quiz.bab?.[ch.id] || [])) { if (q.rev) continue; for (const it of q.items) pool.push({ ...it, bab: ch.id }); }   // q.rev = kuis ulangan (soalnya sudah ada di kuis subbab)
   if (!pool.length) return [];
   const out = [];
   const isImg = (x) => !!x.img, isMB = (x) => !!x.mb && !x.img, isMC = (x) => !x.mb && !x.img;
+  const stripTags = (t) => String(t || "").replace(/\{([^|}]*)\|[^}]*\}/g, "$1");
+  /** ○× dari pilihan ganda: pasangkan soal dengan satu jawaban (benar / salah) */
+  const toMB = (it, truth, rnd) => {
+    const k = truth ? it.a : shuffle(it.opts.map((_, j) => j).filter(j => j !== it.a), rnd)[0];
+    if (k == null) return null;
+    const o = it.opts[k];
+    return { q: { id: `Benar atau salah? Soal: “${it.q.id}” Jawaban: “${o.id}”`, jp: `○か×か。「${stripTags(it.q.jp)}」→「${stripTags(o.jp)}」` },
+      opts: [{ id: "Benar (○)", jp: "○ {正|ただ}しい" }, { id: "Salah (×)", jp: "× {間違|まちが}い" }], a: truth ? 0 : 1, exp: it.exp, mb: true, bab: it.bab, ref: it.ref };
+  };
+  const cut = (it, nOpt, rnd) => {   // kurangi opsi (ujian resmi FM/FS: 3 pilihan)
+    if (it.mb || !nOpt || it.opts.length <= nOpt) return it;
+    const wrong = shuffle(it.opts.map((_, j) => j).filter(j => j !== it.a), rnd).slice(0, nOpt - 1);
+    const keep = [it.a, ...wrong].sort((x, y) => x - y);
+    return { ...it, opts: keep.map(j => it.opts[j]), a: keep.indexOf(it.a) };
+  };
   for (let n = 1; n <= count; n++) {
     const rnd = seeded(`${pack.slug}-full-${n}`);
     const take = (arr, k, used) => shuffle(arr.filter(x => !used.has(x)), rnd).slice(0, k);
     const used = new Set(), pick = [];
-    const nImg = Math.min(4, pool.filter(isImg).length), nMB = 6;
-    for (const grp of [take(pool.filter(isImg), nImg, used), take(pool.filter(isMB), nMB, used)]) for (const x of grp) { used.add(x); pick.push(x); }
+    const nImg = Math.min(spec.img ?? 4, pool.filter(isImg).length), nMB = spec.mb ?? 6;
+    const mbReal = take(pool.filter(isMB), nMB, used);
+    for (const grp of [take(pool.filter(isImg), nImg, used), mbReal]) for (const x of grp) { used.add(x); pick.push(x); }
+    // kekurangan ○× dibuat dari pilihan ganda (setengah benar, setengah salah)
+    const need = nMB - mbReal.length;
+    if (need > 0) for (const [i, x] of take(pool.filter(isMC), need, used).entries()) { const m = toMB(x, i % 2 === 0, rnd); if (m) { used.add(x); pick.push(m); } }
     // sisanya pilihan ganda, dibagi merata antar bab
-    const byBab = {}; for (const it of pool.filter(isMC)) (byBab[it.bab] = byBab[it.bab] || []).push(it);
+    const byBab = {}; for (const it of pool.filter(x => isMC(x) && !used.has(x))) (byBab[it.bab] = byBab[it.bab] || []).push(it);
     const keys = Object.keys(byBab).map(k => shuffle(byBab[k], rnd)); let i = 0;
     while (pick.length < Math.min(perQuiz, pool.length) && keys.some(a => a.length)) { const it = keys[i++ % keys.length].shift(); if (it) pick.push(it); }
-    out.push({ id: `full-q${n}`, title: { id: `Ujian Penuh ${n}`, jp: `総合テスト ${n}` }, items: shuffle(pick, rnd) });
+    out.push({ id: `full-q${n}`, title: { id: `Ujian Penuh ${n}`, jp: `総合テスト ${n}` }, items: shuffle(pick.map(x => cut(x, spec.opts, rnd)), rnd) });
   }
   return out;
 }

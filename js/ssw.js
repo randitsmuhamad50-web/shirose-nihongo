@@ -13,9 +13,9 @@
  * ===================================================================== */
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
-  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261112zi";
-import { islandSVG, buildingSVG, bldFor } from "./ssw-art.js?v=20261112zi";
+  babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, EXAM_SPEC, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
+} from "./ssw-core.js?v=20261113a";
+import { islandSVG, buildingSVG, bldFor } from "./ssw-art.js?v=20261113a";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
@@ -511,7 +511,7 @@ async function renderKuis([slug, quizId]) {
       ${chs.map(c => `<div class="sw-panel"><h2>BAB ${c.no} — ${esc(L(c.title, "id"))}</h2><div class="sw-qlist">${(pack.quiz.bab?.[c.id] || []).map((q, i) => row(q, `Kuis ${i + 1} · ${esc(L(q.title, "id"))}${q.title && q.title.jp ? ` <span class="jp sw-tsub">${rich(q.title.jp, { ruby: false })}</span>` : ""}`)).join("") || '<p class="sw-muted">Belum ada kuis.</p>'}</div></div>`).join("")}
       ${(pack.quiz.tema || []).length ? `<div class="sw-panel"><h2>Kuis Tema</h2><p class="sw-muted">${slug === "building-cleaning" ? "Satu kuis untuk satu topik: rute pembersihan, jenis lantai, karpet, dan pH." : "Latihan kosakata per kategori: arti ↔ kata Jepang (10 soal tiap kuis)."}</p><div class="sw-qlist">${pack.quiz.tema.map(q => row(q, esc(L(q.title, "id")))).join("")}</div></div>` : ""}
       <div class="sw-panel"><h2>Tes Membaca Kosakata</h2><p class="sw-muted">Kanji dari kosakata buku → pilih bacaannya (hiragana/katakana). 15 soal acak.</p><div class="sw-qlist">${row({ id: "baca-kosakata", items: { length: 15 } }, "読み方テスト · Tes Membaca")}</div></div>
-      <div class="sw-panel"><h2>Ujian Penuh (semua bab)</h2><div class="sw-qlist">${full.map((q, i) => row(q, `Ujian Penuh ${i + 1}`)).join("") || '<p class="sw-muted">Belum ada soal.</p>'}</div></div>`);
+      <div class="sw-panel"><h2>Ujian Penuh (semua bab)</h2>${EXAM_SPEC[slug] ? `<p class="sw-muted">${EXAM_SPEC[slug].info} Ujian di sini mengikuti format itu.</p>` : ""}<div class="sw-qlist">${full.map((q, i) => row(q, `Ujian Penuh ${i + 1}`)).join("") || '<p class="sw-muted">Belum ada soal.</p>'}</div></div>`);
   }
   const q = quizId === "baca-kosakata" ? readingQuiz(pack) : [...chs.flatMap(c => pack.quiz.bab?.[c.id] || []), ...full, ...(pack.quiz.tema || [])].find(x => x.id === quizId);
   if (!q) return msgPage("🧭", "Kuis tidak ditemukan", "Kuis ini tidak ada atau belum dipublikasikan.", `route('ssw-kuis/${slug}')`);
