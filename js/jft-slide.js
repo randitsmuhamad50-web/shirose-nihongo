@@ -18,7 +18,7 @@ const LV = {
 };
 const cache = {};
 const dat = async (u) => cache[u] || (cache[u] = fetch(u).then(r => r.json()).catch(() => []));
-const sayBtn = (t, role) => `<button class="say-mini jfs-say" title="Dengarkan" data-say="${esc(t)}" data-role="${role}" onclick="event.stopPropagation();SV.btn(this)">🔊</button>`;
+const sayBtn = (t, role) => `<button class="say-mini jfs-say" title="Dengarkan" data-say="${esc(t)}" data-role="${role}" onclick="event.stopPropagation();JFTS.say(this)">🔊</button>`;
 const rubyOn = () => LS.get("shirose-jfs-ruby", "1") !== "0";
 const autoOn = () => LS.get("shirose-jfs-auto", "0") === "1";
 
@@ -126,6 +126,7 @@ function bind() {
   st.addEventListener("touchend", (e) => { const dx = e.changedTouches[0].clientX - tx; if (Math.abs(dx) > 60) JFTS.go(dx < 0 ? 1 : -1); }, { passive: true });
 }
 const JFTS = window.JFTS = {
+  say(b) { document.querySelectorAll(".sv-playing").forEach(x => x.classList.remove("sv-playing")); b.classList.add("sv-playing"); window.SV?.speak(b.dataset.say, { role: b.dataset.role, level: SL?.lv }); },
   go(d) { if (!SL) return; SL.i = Math.max(0, Math.min(SL.slides.length - 1, SL.i + d)); paint(); },
   ruby() { LS.set("shirose-jfs-ruby", rubyOn() ? "0" : "1"); document.getElementById("jfs-ruby").textContent = `ふりがな ${rubyOn() ? "ON" : "OFF"}`; paint(); },
   auto() { LS.set("shirose-jfs-auto", autoOn() ? "0" : "1"); document.getElementById("jfs-auto").textContent = `🔊 Auto ${autoOn() ? "ON" : "OFF"}`; },
