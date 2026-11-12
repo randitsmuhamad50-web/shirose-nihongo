@@ -23,6 +23,7 @@ const JENIS = {
   kotoba: { ico: "語", nama: "Kotoba", jp: "語彙", desc: "Kosakata: konteks, makna, penggunaan", durasi: 20 },
   bunpou: { ico: "文", nama: "Bunpou", jp: "文法", desc: "Tata bahasa & menyusun kalimat (★)", durasi: 20 },
   dokkai: { ico: "読", nama: "Dokkai", jp: "読解", desc: "Membaca: teks pendek, menengah, panjang, pencarian informasi", durasi: 20 },
+  star:   { ico: "★", nama: "Bintang ★", jp: "文の組み立て", desc: "Menyusun kalimat (★): pilih potongan yang jatuh di kotak ★, 20 soal per paket", durasi: 20 },
 };
 const CAT_LABEL = { kanji: "Kanji", kotoba: "Kotoba", bunpou: "Bunpou", dokkai: "Dokkai", choukai: "Choukai" };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
