@@ -7,7 +7,7 @@
   "no": 3,
   "title": {
    "id": "Pembersihan Berkala",
-   "jp": "定期清掃"
+   "jp": "{定期清掃|ていきせいそう}"
   },
   "pages": [
    61,
@@ -23,7 +23,7 @@
     "no": 1,
     "title": {
      "id": "Membersihkan Permukaan Lantai: Material Lantai",
-     "jp": "床面清掃：建材の知識"
+     "jp": "{床面清掃|ゆかめんせいそう}：{建材|けんざい}の{知識|ちしき}"
     },
     "pages": [
      61,
@@ -137,7 +137,7 @@
     "no": 2,
     "title": {
      "id": "Pengetahuan Mengenai Kotoran",
-     "jp": "汚れの知識"
+     "jp": "{汚|よご}れの{知識|ちしき}"
     },
     "pages": [
      63,
@@ -247,7 +247,7 @@
     "no": 3,
     "title": {
      "id": "Pengetahuan Mengenai Karbol (Deterjen)",
-     "jp": "洗剤の知識"
+     "jp": "{洗剤|せんざい}の{知識|ちしき}"
     },
     "pages": [
      64,
@@ -359,7 +359,7 @@
     "no": 4,
     "title": {
      "id": "Cara Membersihkan dan Tindakan Pencegahan",
-     "jp": "作業方法・予防策の知識"
+     "jp": "{作業方法|さぎょうほうほう}・{予防策|よぼうさく}の{知識|ちしき}"
     },
     "pages": [
      65,
@@ -469,7 +469,7 @@
     "no": 5,
     "title": {
      "id": "Polisher: Peralatan dan Persiapan",
-     "jp": "ポリッシャー：資器材と準備"
+     "jp": "ポリッシャー：{資器材|しきざい}と{準備|じゅんび}"
     },
     "pages": [
      66,
@@ -613,7 +613,7 @@
     "no": 6,
     "title": {
      "id": "Polisher: Menegakkan dan Mengendalikan",
-     "jp": "ポリッシャー：起こし方と操作"
+     "jp": "ポリッシャー：{起|お}こし{方|かた}と{操作|そうさ}"
     },
     "pages": [
      68,
@@ -729,7 +729,7 @@
     "no": 7,
     "title": {
      "id": "Polisher: Cara Membersihkan Lantai",
-     "jp": "ポリッシャー：床の清掃のしかた"
+     "jp": "ポリッシャー：{床|ゆか}の{清掃|せいそう}のしかた"
     },
     "pages": [
      70,
@@ -875,7 +875,7 @@
     "no": 8,
     "title": {
      "id": "Polisher: Setelah Selesai",
-     "jp": "ポリッシャー：作業後の片付け"
+     "jp": "ポリッシャー：{作業後|さぎょうご}の{片付|かたづ}け"
     },
     "pages": [
      73,
@@ -951,7 +951,7 @@
     "no": 9,
     "title": {
      "id": "Membersihkan Kaca: Peralatan dan Aplikasi Sabun",
-     "jp": "ガラス清掃：資器材と洗剤の塗布"
+     "jp": "ガラス{清掃|せいそう}：{資器材|しきざい}と{洗剤|せんざい}の{塗布|とふ}"
     },
     "pages": [
      75,
@@ -1065,7 +1065,7 @@
     "no": 10,
     "title": {
      "id": "Membersihkan Kaca: Menghilangkan Kotoran (Squeegee)",
-     "jp": "ガラス清掃：汚れの除去（スクイジー）"
+     "jp": "ガラス{清掃|せいそう}：{汚|よご}れの{除去|じょきょ}（スクイジー）"
     },
     "pages": [
      77,
@@ -1161,7 +1161,7 @@
     "no": 11,
     "title": {
      "id": "Membersihkan Kaca: Lap Basah dan Penutup",
-     "jp": "ガラス清掃：水拭きと仕上げ"
+     "jp": "ガラス{清掃|せいそう}：{水拭|みずぶ}きと{仕上|しあ}げ"
     },
     "pages": [
      78,
@@ -1247,7 +1247,7 @@
     "no": 12,
     "title": {
      "id": "Daftar Peralatan Cleaning Service",
-     "jp": "ビルクリーニングに使用する資器材リスト"
+     "jp": "ビルクリーニングに{使用|しよう}する{資器材|しきざい}リスト"
     },
     "pages": [
      81,

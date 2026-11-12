@@ -7,7 +7,7 @@
   "no": 2,
   "title": {
    "id": "Pembersihan Harian",
-   "jp": "日常清掃"
+   "jp": "{日常清掃|にちじょうせいそう}"
   },
   "pages": [
    15,
@@ -738,7 +738,7 @@
     "no": 7,
     "title": {
      "id": "Penyedot Debu",
-     "jp": "掃除機"
+     "jp": "{掃除機|そうじき}"
     },
     "pages": [
      34,
@@ -920,7 +920,7 @@
     "no": 8,
     "title": {
      "id": "Penyedot Debu Tipe Upright",
-     "jp": "アップライト型掃除機"
+     "jp": "アップライト{型|がた}{掃除機|そうじき}"
     },
     "pages": [
      39,
@@ -1022,7 +1022,7 @@
     "no": 9,
     "title": {
      "id": "Lap Pembersih (Horizontal)",
-     "jp": "拭き清掃（平面）"
+     "jp": "{拭|ふ}き{清掃|せいそう}（{平面|へいめん}）"
     },
     "pages": [
      40,
@@ -1154,7 +1154,7 @@
     "no": 10,
     "title": {
      "id": "Lap Pembersih (Vertikal)",
-     "jp": "拭き清掃（立面）"
+     "jp": "{拭|ふ}き{清掃|せいそう}（{立面|りつめん}）"
     },
     "pages": [
      42,
@@ -1274,7 +1274,7 @@
     "no": 11,
     "title": {
      "id": "Pembersihan Toilet",
-     "jp": "トイレ清掃"
+     "jp": "トイレ{清掃|せいそう}"
     },
     "pages": [
      44,
@@ -1392,7 +1392,7 @@
     "no": 12,
     "title": {
      "id": "Toilet ① Tempat Sampah dan Pengisian Ulang",
-     "jp": "トイレ清掃 ①ゴミ箱・補充"
+     "jp": "トイレ{清掃|せいそう} ①ゴミ{箱|ばこ}・{補充|ほじゅう}"
     },
     "pages": [
      46,
@@ -1463,7 +1463,7 @@
     "no": 13,
     "title": {
      "id": "Toilet ② Wastafel",
-     "jp": "トイレ清掃 ②洗面台"
+     "jp": "トイレ{清掃|せいそう} ②{洗面台|せんめんだい}"
     },
     "pages": [
      47,
@@ -1539,7 +1539,7 @@
     "no": 14,
     "title": {
      "id": "Toilet ③ Urinoir",
-     "jp": "トイレ清掃 ③小便器"
+     "jp": "トイレ{清掃|せいそう} ③{小便器|しょうべんき}"
     },
     "pages": [
      48,
@@ -1681,7 +1681,7 @@
     "no": 15,
     "title": {
      "id": "Toilet ④ Kloset (WC)",
-     "jp": "トイレ清掃 ④大便器"
+     "jp": "トイレ{清掃|せいそう} ④{大便器|だいべんき}"
     },
     "pages": [
      51,
@@ -1851,7 +1851,7 @@
     "no": 16,
     "title": {
      "id": "Toilet ⑤ Lantai",
-     "jp": "トイレ清掃 ⑤床"
+     "jp": "トイレ{清掃|せいそう} ⑤{床|ゆか}"
     },
     "pages": [
      55,
@@ -1920,7 +1920,7 @@
     "no": 17,
     "title": {
      "id": "Mengolah Limbah",
-     "jp": "廃棄物の処理"
+     "jp": "{廃棄物|はいきぶつ}の{処理|しょり}"
     },
     "pages": [
      56,
@@ -2045,7 +2045,7 @@
     "no": 18,
     "title": {
      "id": "Mengenai Kontrol Kebersihan",
-     "jp": "衛生管理について"
+     "jp": "{衛生管理|えいせいかんり}について"
     },
     "pages": [
      58,
@@ -2153,7 +2153,7 @@
     "no": 19,
     "title": {
      "id": "Proses Cleaning dan Keamanannya",
-     "jp": "清掃作業の安全と衛生"
+     "jp": "{清掃作業|せいそうさぎょう}の{安全|あんぜん}と{衛生|えいせい}"
     },
     "pages": [
      60,
