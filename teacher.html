@@ -219,7 +219,7 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261112d";
+import * as FB from "./js/firebase-sync.js?v=20261113z";
 import { renderSswTab } from "./js/ssw-teacher.js?v=20261112d";
 
 const state = {
@@ -553,7 +553,7 @@ window.refreshSiswa = () => { state.siswaStale = true; renderTab(); };
 function renderSiswaDaftarTabel(){
   return `      <div class="table-wrap">
         <table class="cards-m">
-          <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Status</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+          <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Status</th><th>Kelas</th><th>Akses JLPT</th><th>Akses SSW</th><th>Akses JFT</th><th>Aksi</th></tr></thead>
           <tbody>
             ${_potong(state.siswaList).map(s => {
               const role = s.role || "student";
@@ -572,6 +572,8 @@ function renderSiswaDaftarTabel(){
                   const on = s.aksesLevel?.[l];
                   return `<span class="chip btn-chip ${on?'on':''}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`;
                 }).join("")}</td>
+                <td data-label="SSW">${role === "student" ? _chipSsw(s) : "—"}</td>
+                <td data-label="JFT">${role === "student" ? _chipJft(s) : "—"}</td>
                 <td class="aksi">
                   ${role === "student" ? `<button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>` : ""}
                   <button class="btn sm ghost" onclick="lihatGami('${s.uid}', '${(s.nama||s.email).replace(/'/g,'')}')">Progres</button>
@@ -594,12 +596,16 @@ function _grupSiswa(){
   return { grup, tanpa, nama: Object.keys(grup).sort((a, b) => a.localeCompare(b)) };
 }
 const _chipAkses = (s) => ["n5","n4","n3","n2","n1"].map(l => `<span class="chip btn-chip ${s.aksesLevel?.[l] ? "on" : ""}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`).join("");
+const _chipSsw = (s) => { const on = s.aksesSsw !== false; return `<span class="chip btn-chip ${on ? "on" : ""}" title="${on ? "Klik untuk tutup akses SSW" : "Klik untuk buka akses SSW"}" onclick="toggleSsw('${s.uid}')">SSW ${on ? "Buka" : "Tutup"}</span>`; };
+const _chipJft = (s) => { const on = s.aksesJft !== false; return `<span class="chip btn-chip ${on ? "on" : ""}" title="${on ? "Klik untuk tutup akses JFT" : "Klik untuk buka akses JFT"}" onclick="toggleJft('${s.uid}')">JFT ${on ? "Buka" : "Tutup"}</span>`; };
 const _chipStatus = (s) => { const n = s.status === "nonaktif"; return `<span class="chip btn-chip ${n ? "" : "on"}" onclick="toggleStatus('${s.uid}', ${n})">${n ? "Nonaktif" : "Aktif"}</span>`; };
 function _barisSiswaKelas(s){
   const nonaktif = s.status === "nonaktif";
   return `<div class="sg-row" style="${nonaktif ? "opacity:.55;" : ""}">
     <div class="who"><b>${escHtml(s.nama || "(tanpa nama)")}</b><span class="em">${escHtml(s.email || "")}</span></div>
     <div>${_chipAkses(s)}</div>
+    ${_chipSsw(s)}
+    ${_chipJft(s)}
     ${_chipStatus(s)}
     <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
     <button class="btn sm ghost" onclick="pindahKelas('${s.uid}', '')">↩︎ Keluarkan</button>
@@ -619,7 +625,7 @@ function renderSiswaPerKelas(){
   const opsiKelas = nama.map(k => `<option value="${escHtml(k)}">${escHtml(k)}</option>`).join("");
   const tabelTanpa = tanpa.length ? `
     <div class="table-wrap"><table class="cards-m">
-      <thead><tr><th>Nama</th><th>Email</th><th>Status</th><th>Akses JLPT</th><th>Masukkan ke kelas</th><th>Aksi</th></tr></thead>
+      <thead><tr><th>Nama</th><th>Email</th><th>Status</th><th>Akses JLPT</th><th>Akses SSW</th><th>Akses JFT</th><th>Masukkan ke kelas</th><th>Aksi</th></tr></thead>
       <tbody>${_potong(tanpa).map(s => {
         const nonaktif = s.status === "nonaktif";
         return `<tr style="${nonaktif ? "opacity:.55;" : ""}">
@@ -627,13 +633,15 @@ function renderSiswaPerKelas(){
           <td data-label="Email">${escHtml(s.email || "")}</td>
           <td data-label="Status">${_chipStatus(s)}</td>
           <td data-label="Akses">${_chipAkses(s)}</td>
+          <td data-label="SSW">${_chipSsw(s)}</td>
+          <td data-label="JFT">${_chipJft(s)}</td>
           <td data-label="Kelas">${nama.length ? `<select onchange="pindahKelas('${s.uid}', this.value)"><option value="">— pilih kelas —</option>${opsiKelas}</select>` : `<span style="color:var(--gray); font-size:12px;">Belum ada kelas</span>`}</td>
           <td class="aksi">
             <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
             ${_bolehHapus(s) ? `<button class="btn sm danger" onclick="hapusSiswa('${s.uid}')">🗑️ Hapus</button>` : ""}
           </td>
         </tr>
-        <tr class="stat-row" hidden><td colspan="6"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`;
+        <tr class="stat-row" hidden><td colspan="8"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`;
       }).join("")}</tbody>
     </table></div>${_tombolLebih(tanpa.length)}` : `<div style="color:var(--gray); padding:8px 0;">Semua siswa sudah punya kelas ✓</div>`;
   const blokTanpa = `<div class="sg-kelas" style="border-color:#f59e0b;">
@@ -816,15 +824,16 @@ const _ya = (v) => /^(ya|y|yes|1|true|aktif|v|✓|x)$/i.test(String(v ?? "").tri
 // Kolom akses SSW di Excel → slug bidang. Kosong = tidak diatur (TIDAK otomatis diberi akses).
 const SSW_KOLOM = [["SSW Building Cleaning","building-cleaning"],["SSW Kaigo","kaigo"],["SSW Kaigo Indonesia","kaigo"],["SSW Kaigo Jepang","kaigo"],["SSW Food Manufacturing","food-manufacturing"],
   ["SSW Food Service","food-service"],["SSW Food Service Indonesia","food-service"],["SSW Food Service Jepang","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Construction Sipil","construction"],["SSW Construction Bangunan","construction-bangunan"],["SSW Construction Lifeline","construction-lifeline"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
+const _tri = (v) => _ya(v) ? true : _tidak(v) ? false : undefined;
 const _tidak = (v) => /^(tidak|t|no|n|0|false|blokir)$/i.test(String(v ?? "").trim());
 function _bacaSsw(r){ const o = {}; for (const [kol, slug] of SSW_KOLOM){ const v = r[kol] ?? r[kol.toLowerCase()]; if (_ya(v)) o[slug] = true; else if (_tidak(v)) o[slug] = false; } return o; }
 window.downloadFormatSiswa = () => {
   const data = [
-    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", "SSW Building Cleaning":"Ya", "SSW Kaigo":"Ya", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
-    { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak" },
+    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", SSW:"Ya", "SSW Building Cleaning":"Ya", "SSW Kaigo":"Ya", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
+    { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", SSW:"Tidak" },
   ];
   const ws = XLSX.utils.json_to_sheet(data);
-  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7}];
+  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7}];
   const inst = XLSX.utils.aoa_to_sheet([
     ["FORMAT IMPORT SISWA — SHIROSE NIHONGO"], [""],
     ["Isi sheet 'Siswa': 1 baris = 1 akun. Hapus 2 baris contoh sebelum upload."],
@@ -833,6 +842,8 @@ window.downloadFormatSiswa = () => {
     ["- Nama (wajib): nama tampilan siswa."],
     ["- Kelas (opsional): nama kelas, misal 'Kelas A'."],
     ["- N5, N4, N3, N2, N1: isi Ya / Tidak. Ya = level dibuka untuk siswa ini. Kosong = Tidak."],
+    ["- JFT: Ya / Tidak. Tidak = menu JFT ditutup untuk siswa ini. Kosong = tidak diatur (JFT tetap terbuka)."],
+    ["- SSW: Ya / Tidak. Tidak = SELURUH menu SSW ditutup. Kosong = tidak diatur (ikut kolom per bidang di bawah)."],
     ["- SSW ... (per bidang): isi Ya / Tidak. Kosong = tidak diatur (ikut pengaturan kelas / bawaan; TIDAK otomatis dibuka)."],
     ["- Email yang SUDAH terdaftar: tidak dibuat ulang. Hanya kolom akses SSW yang terisi (dan Kelas bila terisi) yang diperbarui. XP, koin, dan progres tidak disentuh."],
     [""], ["Akun dibuat di sistem login yang sama dengan website siswa & dashboard guru."],
@@ -859,11 +870,12 @@ window.bacaExcelSiswa = async (file) => {
       const kelas = g("Kelas");
       const aksesLevel = {}; ["n5","n4","n3","n2","n1"].forEach(l => aksesLevel[l] = _ya(r[l.toUpperCase()] ?? r[l]));
       const ssw = _bacaSsw(r);
+      const jft = _tri(r.JFT ?? r.jft ?? r.Jft), sswAll = _tri(r.SSW ?? r.ssw ?? r.Ssw);
       const lama = state.siswaList.find(x => (x.email||"").toLowerCase() === email);
       if (lama && !dipakai.has(email)) {   // akun lama → hanya perbarui akses SSW / kelas
         dipakai.add(email);
-        const adaUbah = Object.keys(ssw).length || (kelas && kelas !== (lama.kelas || ""));
-        return { baris: i + 2, email, password: "", nama: lama.nama || nama, kelas, aksesLevel: lama.aksesLevel || {}, ssw, uid: lama.uid, update: true, err: adaUbah ? "" : "Sudah terdaftar — tidak ada kolom SSW/Kelas yang diubah", hasil: "" };
+        const adaUbah = Object.keys(ssw).length || jft !== undefined || sswAll !== undefined || (kelas && kelas !== (lama.kelas || ""));
+        return { baris: i + 2, email, password: "", nama: lama.nama || nama, kelas, aksesLevel: lama.aksesLevel || {}, ssw, jft, sswAll, uid: lama.uid, update: true, err: adaUbah ? "" : "Sudah terdaftar — tidak ada kolom SSW/Kelas yang diubah", hasil: "" };
       }
       let err = "";
       if (!email && !password && !nama) return null;
@@ -874,7 +886,7 @@ window.bacaExcelSiswa = async (file) => {
       else if (sudahAda.has(email)) err = "Email sudah terdaftar";
       else if (dipakai.has(email)) err = "Email dobel di file";
       dipakai.add(email);
-      return { baris: i + 2, email, password, nama, kelas, aksesLevel, ssw, err, hasil: "" };
+      return { baris: i + 2, email, password, nama, kelas, aksesLevel, ssw, jft, sswAll, err, hasil: "" };
     }).filter(Boolean);
     document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
   } catch(e){
@@ -888,11 +900,12 @@ function renderPreviewSiswa(){
   return `
     <div style="font-size:13px; margin-bottom:8px;"><b>${list.length}</b> baris · <span style="color:var(--green);">${ok.length} siap dibuat</span> · <span style="color:var(--red);">${list.filter(x=>x.err).length} bermasalah (dilewati)</span></div>
     <div class="table-wrap" style="max-height:340px; overflow:auto;"><table>
-      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>SSW</th><th>Status</th></tr></thead>
+      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>JFT</th><th>SSW</th><th>Status</th></tr></thead>
       <tbody>${list.map(x => `<tr>
         <td>${x.baris}</td><td>${esc(x.email)}</td><td>${esc(x.nama)}</td><td>${esc(x.kelas)}</td>
         <td>${["n5","n4","n3","n2","n1"].filter(l => x.aksesLevel[l]).map(l => l.toUpperCase()).join(", ") || "-"}</td>
-        <td style="font-size:12px;">${Object.entries(x.ssw || {}).map(([k, v]) => `${v ? "✓" : "✗"} ${k}`).join("<br>") || "-"}</td>
+        <td>${x.jft === undefined ? "-" : x.jft ? "✓ Buka" : "✗ Tutup"}</td>
+        <td style="font-size:12px;">${x.sswAll === undefined ? "" : (x.sswAll ? "✓ SSW semua<br>" : "✗ SSW ditutup<br>")}${Object.entries(x.ssw || {}).map(([k, v]) => `${v ? "✓" : "✗"} ${k}`).join("<br>") || "-"}</td>
         <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || (x.update ? "Siap: perbarui akun lama" : "Siap: akun baru"))}</td>
       </tr>`).join("")}</tbody></table></div>
     <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
@@ -911,6 +924,8 @@ window.prosesImportSiswa = async () => {
     try {
       const uid = x.update ? x.uid : await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
       if (x.update && x.kelas) await FB.assignSiswaKeKelas([uid], x.kelas);
+      if (x.jft !== undefined) await FB.setAksesJft(uid, x.jft);
+      if (x.sswAll !== undefined) await FB.setAksesSsw(uid, x.sswAll);
       for (const [slug, v] of Object.entries(x.ssw || {})) await FB.setAksesSswBidang(uid, slug, v);
       x.hasil = x.update ? "✓ Akses diperbarui" : "✓ Akun dibuat"; n++;
     } catch(e){ x.err = e.message || String(e); gagal++; }
@@ -927,6 +942,26 @@ window.toggleStatus = async (uid, sedangNonaktif) => {
     toast(sedangNonaktif ? "Akun diaktifkan" : "Akun dinonaktifkan");
     renderTab();
   } catch(e){ toast("Gagal: " + (e.message || e)); }
+};
+window.toggleJft = async (uid) => {
+  const s = state.siswaList.find(x => x.uid === uid); if (!s) return;
+  const baru = s.aksesJft === false;
+  try {
+    await FB.setAksesJft(uid, baru);
+    s.aksesJft = baru;
+    toast(`Akses JFT ${baru ? "dibuka" : "ditutup"}`);
+  } catch(e){ toast("Gagal simpan akses JFT: " + (e.message || e)); }
+  renderTab();
+};
+window.toggleSsw = async (uid) => {
+  const s = state.siswaList.find(x => x.uid === uid); if (!s) return;
+  const baru = s.aksesSsw === false;
+  try {
+    await FB.setAksesSsw(uid, baru);
+    s.aksesSsw = baru;
+    toast(`Akses SSW ${baru ? "dibuka" : "ditutup"}`);
+  } catch(e){ toast("Gagal simpan akses SSW: " + (e.message || e)); }
+  renderTab();
 };
 window.toggleAkses = async (uid, lvl) => {
   const s = state.siswaList.find(x => x.uid === uid);
@@ -1634,19 +1669,21 @@ async function renderKelasTab(){
             ${members.length ? `
               <div class="table-wrap">
                 <table>
-                  <thead><tr><th>Nama</th><th>Email</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+                  <thead><tr><th>Nama</th><th>Email</th><th>Akses JLPT</th><th>SSW</th><th>JFT</th><th>Aksi</th></tr></thead>
                   <tbody>
                     ${members.map(s => `
                       <tr>
                         <td><b>${s.nama||"-"}</b></td>
                         <td>${s.email}</td>
                         <td>${["n5","n4","n3","n2","n1"].filter(l=>s.aksesLevel?.[l]).map(l=>l.toUpperCase()).join(", ")||"-"}</td>
+                        <td>${_chipSsw(s)}</td>
+                        <td>${_chipJft(s)}</td>
                         <td>
                           <button class="btn sm" onclick="toggleStat('${s.uid}', this)">📊 Profil</button>
                           <button class="btn sm danger" onclick="keluarkanDariKelas('${s.uid}')">Keluarkan</button>
                         </td>
                       </tr>
-                      <tr class="stat-row" hidden><td colspan="4"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`).join("")}
+                      <tr class="stat-row" hidden><td colspan="6"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`).join("")}
                   </tbody>
                 </table>
               </div>

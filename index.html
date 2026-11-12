@@ -1925,8 +1925,8 @@ function renderLevelPills(){
 function canAccessLevel(lvl){
   if (!lvl) return false;
   if (!state.user) return false;
-  if (String(lvl).startsWith("ir")) return true;   // JFT (Irodori): terbuka untuk semua siswa terdaftar
   if (FB.userIsGuru()) return true;
+  if (String(lvl).startsWith("ir")) return state.siswa?.aksesJft !== false;   // JFT (Irodori): terbuka kecuali guru menutup (siswa.aksesJft === false)
   const akses = state.siswa?.aksesLevel;
   return !!(akses && akses[lvl]);
 }
