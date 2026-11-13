@@ -2,13 +2,13 @@
  * MENSETSU ENGINE — logika wawancara (tanpa UI)
  * ---------------------------------------------------------------------
  * - Bank soal  : ./data/mensetsu/{bidang}.json (dibangun tools/mensetsu_build.py)
- * - Mode AI    : lewat Netlify Function /.netlify/functions/mensetsu-ai (key aman di server)
+ * - Mode AI    : lewat Cloudflare Worker "mensetsu-ai" (key aman di server; gratis)
  * - Mode Skrip : 100% di browser, tanpa AI, tanpa biaya (tanya-balik terbatas)
  * - STT        : Web Speech API browser (gratis; kualitas tergantung browser)
  * Semua fungsi murni (planner, klasifikasi, skor skrip) bisa dites di Node.
  * ===================================================================== */
 
-export const FN_URL = "/.netlify/functions/mensetsu-ai";
+export const FN_URL = "https://mensetsu-ai.shirose-nihongo.workers.dev";
 export const CATS = [
   { k: "jiko", jp: "自己紹介", id: "Perkenalan diri" },
   { k: "shibou", jp: "志望動機", id: "Alasan melamar" },
@@ -200,7 +200,7 @@ export function combine(ev, { voiceConf = null } = {}) {
   return { ...out, total: Math.max(0, Math.min(100, total)) };
 }
 
-/* ---------------- klien API (Netlify Function) ---------------- */
+/* ---------------- klien API (Cloudflare Worker) ---------------- */
 async function tokenOf(FB) {
   try { return FB && FB.getIdToken ? await FB.getIdToken() : null; } catch (e) { return null; }
 }

@@ -10,9 +10,13 @@
  * Global: window.MS (dipakai onclick di HTML)
  * ===================================================================== */
 import * as EN from "./mensetsu-engine.js";
+import { initPrep, PREP_ROUTES, sessionPrep } from "./mensetsu-prep.js";
 
 let FB = null;
-export function initMensetsu(fb) { FB = fb; }
+export function initMensetsu(fb) {
+  FB = fb;
+  initPrep({ getFB: () => FB, esc, toast, LS, uid, isGuest, param, setPage, refresh, BIDANG, cfgGet, getProv: () => PROV, loadProviders });
+}
 
 const S = () => window.__SHIROSE_STATE || window.state || {};
 const SV = () => window.SV;
@@ -45,7 +49,7 @@ const MODE = {
 };
 
 /* ---------------- pengaturan (disimpan per perangkat) ---------------- */
-const DEF = { mode: "latihan", cats: [], n: 10, level: 0, durasi: 0, random: false, provider: "auto", sttLang: "ja-JP", autoSend: true, autoMic: true, arti: true, simpan: true };
+const DEF = { mode: "latihan", cats: [], n: 10, level: 0, durasi: 0, random: false, provider: "auto", sttLang: "ja-JP", autoSend: true, autoMic: true, arti: true, simpan: true, pakaiPersiapan: true };
 const cfgGet = () => Object.assign({}, DEF, LS.get("shirose-mensetsu-cfg", {}));
 const cfgSet = (patch) => { const c = Object.assign(cfgGet(), patch); LS.set("shirose-mensetsu-cfg", c); return c; };
 
@@ -147,6 +151,12 @@ async function renderBidang(p) {
       <span class="ms-isl-art sm">${islandSvg(key)}</span>
       <div><div class="ms-isl-jp">${b.jp}</div><h1>${b.id}</h1><p>${bank.soal.length} pertanyaan wawancara khusus bidang ini · interviewer: 田中さん (${b.co})</p></div>
     </div>
+
+    <section class="ms-panel"><h2>0. Persiapan jawaban</h2>
+      <p class="ms-note" style="margin:0 0 10px">Pilih pertanyaan, tulis jawaban Jepang, periksa dengan AI添削, dengarkan audionya, lalu hafalkan. 自己紹介 selalu jadi pertanyaan pertama.</p>
+      <div class="pp-act"><button class="btn big" onclick="route('mensetsu-persiapan/${key}')">✍️ Persiapan jawaban</button><button class="btn" onclick="route('mensetsu-hafalan/${key}')">🧠 Mode hafalan</button></div>
+      <label class="ck"><input type="checkbox" ${c.pakaiPersiapan !== false ? "checked" : ""} onchange="MS.set('pakaiPersiapan',this.checked)"/> Wawancara memakai pertanyaan &amp; jawaban persiapanku (AI tahu jawaban yang kusiapkan, tapi jawaban spontan tetap diterima)</label>
+    </section>
 
     <section class="ms-panel"><h2>1. Pilih mode wawancara</h2><div class="ms-modes">${modeCards}</div></section>
 
@@ -333,15 +343,25 @@ async function mulai(key) {
   await loadProviders();
   let weak = new Set();
   if (cfg.mode === "lemah") { try { weak = EN.weakFromHistory(await listRiwayat(30)); } catch (e) {} if (!weak.size) toast("Belum ada data kelemahan — soal diacak."); }
-  const plan = EN.planQuestions(bank, cfg, weak);
+  let plan = EN.planQuestions(bank, cfg, weak), prep = {}, usedSel = false;
+  if (cfg.pakaiPersiapan !== false) {
+    try {
+      const sp = await sessionPrep(key, bank); prep = sp.prep;
+      if (sp.count >= 2 && cfg.mode !== "lemah") { plan = sp.plan; usedSel = true; }
+    } catch (e) { console.warn("persiapan tidak terbaca", e); }
+  }
+  // 自己紹介 SELALU pertama (tidak bisa dihapus / dilewati)
+  const jk = bank.soal.find(q => /^自己紹介/.test(q.ja));
+  if (jk) plan = [jk, ...plan.filter(q => q.i !== jk.i)];
   if (!plan.length) { toast("Tidak ada soal yang cocok dengan pengaturan."); return; }
   const useAI = cfg.provider !== "skrip" && PROV && PROV.length > 0 && !isGuest();
-  SES = { key, bank, cfg, plan, idx: 0, turns: [], followups: 0, t0: Date.now(), phase: "idle", useAI, aiFail: 0, providerUsed: null, confs: [], voiceUsed: false, closing: false, repeats: 0, helped: new Set(), dead: false, stt: null, pendingConf: null };
+  SES = { key, bank, cfg, plan, prep, usedSel, idx: 0, turns: [], followups: 0, t0: Date.now(), phase: "idle", useAI, aiFail: 0, providerUsed: null, confs: [], voiceUsed: false, closing: false, repeats: 0, helped: new Set(), dead: false, stt: null, pendingConf: null };
   document.getElementById("ms-startbox")?.classList.add("hidden");
   document.getElementById("ms-chat").innerHTML = "";
   ["ms-ans", "ms-mic", "ms-send", "ms-rep", "ms-hint", "ms-end"].forEach(id => { const e = document.getElementById(id); if (e) e.disabled = false; });
   SES.iv = setInterval(() => { if (!tickTimer()) clearInterval(SES && SES.iv); }, 1000); tickTimer();
   progress();
+  if (usedSel) toast("Memakai " + plan.length + " pertanyaan dari persiapanmu.");
   await say(EN.OPENING);
   if (SES.dead) return;
   await askCurrent(plan[0].ja.startsWith("自己紹介") ? "まず、自己紹介をお願いします。" : plan[0].ja);
@@ -411,7 +431,7 @@ async function kirim() {
   setPhase("thinking");
   if (SES.closing) return jawabPenutup(text);
   const q = SES.plan[SES.idx]; const cls = EN.classify(text);
-  SES.turns.push({ i: q.i, k: q.k, q: q.ja, a: text, lang: cls.lang, conf: conf, helped: false });
+  SES.turns.push({ i: q.i, k: q.k, q: q.ja, a: text, lang: cls.lang, conf: conf, helped: false, prep: SES.prep[q.i] || "" });
   if (conf != null) SES.confs.push(conf);
   await putaran(q, text, cls);
 }
@@ -422,7 +442,7 @@ async function putaran(q, text, cls) {
   let r = null;
   if (S2.useAI) {
     try {
-      const res = await EN.aiCall(FB, "turn", { bidang: S2.key, mode: S2.cfg.mode, question: q.ja, answer: text, followupsUsed: S2.followups, nextQuestion: nextQ ? nextQ.ja : "",
+      const res = await EN.aiCall(FB, "turn", { bidang: S2.key, mode: S2.cfg.mode, question: q.ja, answer: text, persiapan: S2.prep[q.i] || "", followupsUsed: S2.followups, nextQuestion: nextQ ? nextQ.ja : "",
         history: S2.turns.slice(-7, -1).map(t => ({ q: t.q, a: t.a })) }, S2.cfg.provider);
       if (res && res.data && res.data.say) { r = res.data; S2.providerUsed = res.provider; S2.aiFail = 0; }
     } catch (e) { S2.aiFail++; toast("AI gagal (" + (e.message || "error") + ") — pakai Mode Skrip untuk giliran ini."); if (S2.aiFail >= 2) { S2.useAI = false; toast("AI dimatikan untuk sesi ini; lanjut Mode Skrip."); } }
@@ -524,7 +544,7 @@ async function selesai() {
   let ev = null, prov = "skrip";
   if (S2.useAI || (S2.providerUsed && S2.cfg.provider !== "skrip")) {
     try {
-      const res = await EN.aiCall(FB, "evaluate", { bidang: S2.key, mode: S2.cfg.mode, turns: turns.map(t => ({ q: t.q, a: t.a, lang: t.lang })) }, S2.cfg.provider);
+      const res = await EN.aiCall(FB, "evaluate", { bidang: S2.key, mode: S2.cfg.mode, turns: turns.map(t => ({ q: t.q, a: t.a, lang: t.lang, prep: t.prep || "" })) }, S2.cfg.provider);
       if (res?.data?.skor) { ev = res.data; ev.sumber = res.provider; prov = res.provider; }
     } catch (e) { toast("Penilaian AI gagal — memakai penilaian skrip sederhana."); }
   }
@@ -677,5 +697,6 @@ export const MENSETSU_ROUTES = {
   "mensetsu-sesi": (p) => renderSesi(p),
   "mensetsu-hasil": (p) => renderHasil(p),
   "mensetsu-riwayat": () => renderRiwayat(),
+  ...PREP_ROUTES,
 };
 export const MENSETSU_PUBLIC = Object.keys(MENSETSU_ROUTES);

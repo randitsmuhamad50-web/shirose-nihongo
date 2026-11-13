@@ -613,6 +613,25 @@ export async function hapusSemuaHasilMensetsu() {
   return docs.length;
 }
 
+/* ========== MENSETSU 面接 — persiapan jawaban + koreksi AI ==========
+ * siswa/{uid}/mensetsu_persiapan/{bidang} → { sel:[id], order:[id], answers:{[id]:{asli,koreksi,diterima,ev,riwayat[],status,updated}}, updated }
+ * Milik siswa (pemilik + guru boleh baca) — tercakup Rules sub-koleksi siswa yang ada.
+ */
+export async function getPersiapanMensetsu(bidang) {
+  if (!currentUser) return null;
+  const s = await getDoc(doc(db, "siswa", currentUser.uid, "mensetsu_persiapan", bidang));
+  return s.exists() ? s.data() : null;
+}
+export async function setPersiapanMensetsu(bidang, data) {
+  if (!currentUser) throw new Error("Belum login");
+  const clean = JSON.parse(JSON.stringify(data || {}));
+  await setDoc(doc(db, "siswa", currentUser.uid, "mensetsu_persiapan", bidang), { ...clean, uid: currentUser.uid, bidang, tgl: serverTimestamp() });
+}
+export async function listPersiapanMensetsuOf(uid) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  return (await getDocs(collection(db, "siswa", uid, "mensetsu_persiapan"))).docs.map(d => ({ id: d.id, ...d.data() }));
+}
+
 /* ========== ACTIVITY CALENDAR (Part 12) ========== */
 // Each activity bumps a date-bucket document. Date is YYYYMMDD in Asia/Bangkok
 // so streaks line up with the user's local day. Activity types:
@@ -1095,7 +1114,7 @@ export async function daftarkanAkunExisting({ uid, email, nama, kelas, aksesLeve
  * terhapus (itu butuh Admin SDK / Firebase Console). Tanpa profil, akun itu tidak
  * bisa membaca data apa pun (status "belum terdaftar" di Rules).
  */
-const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","mensetsu_hasil","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
+const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","mensetsu_hasil","mensetsu_persiapan","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
 export async function hapusSiswa(uid) {
   if (!userIsGuru()) throw new Error("Hanya guru/moderator");
   if (!uid) throw new Error("UID kosong");
