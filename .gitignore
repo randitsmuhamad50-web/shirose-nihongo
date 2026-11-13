@@ -10,3 +10,4 @@ __pycache__/
 .idea/
 backup/kanji-lama-vietnamese.json
 backup/vi-arti-unique.txt
+graphify-out/

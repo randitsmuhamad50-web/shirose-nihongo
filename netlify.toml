@@ -3,6 +3,10 @@
   # No build step needed — static site
   command = "echo 'Static site, no build step required.'"
 
+# Serverless function: AI pewawancara MENSETSU (key disimpan di Environment Variables Netlify).
+[functions]
+  directory = "netlify/functions"
+
 [[headers]]
   for = "/*.json"
   [headers.values]
@@ -23,6 +27,12 @@
   [headers.values]
     Cache-Control = "no-cache"
     Content-Type = "application/javascript"
+
+# Audio VOICEVOX: boleh di-cache browser 7 hari (hemat bandwidth, siswa tidak unduh ulang).
+[[headers]]
+  for = "/audio/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
 
 [[headers]]
   for = "/*"

@@ -54,7 +54,8 @@ service cloud.firestore {
           // Admin/moderator: semua.
           || isAdmin();
 
-      allow delete: if isAdmin();
+      // Admin/moderator: semua. Guru: hanya akun siswa (role student).
+      allow delete: if isAdmin() || (isGuru() && targetSiswa());
 
       // Sub-koleksi milik siswa: srs, gami, activity, nilai, misi_harian,
       // rangkuman, ujian_rewards, dll.

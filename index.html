@@ -1350,6 +1350,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261110b"/>
+<link rel="stylesheet" href="./css/mensetsu.css?v=20261113a"/>
 </head>
 <body>
 
@@ -1400,14 +1401,17 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261109j";
+import * as FB from "./js/firebase-sync.js?v=20261113a";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
 import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261109j";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
 import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110b";
+import { MENSETSU_ROUTES, MENSETSU_PUBLIC, initMensetsu } from "./js/mensetsu.js?v=20261113a";
 initJlpt(FB);
 initKana(FB);
+// MENSETSU 面接: simulasi wawancara kerja Jepang 8 bidang SSW (js/mensetsu.js)
+initMensetsu(FB);
 
 /* ========== STATE ========== */
 const state = {
@@ -2037,6 +2041,8 @@ const routes = {
   "jlpt-review": (params) => renderReviewJlpt(params),
   // Hiragana & Katakana (js/kana-center.js): #kana, #kana-tabel, #kana-order, #kana-tulis, #kana-hafalan, #kana-tes, #kana-progres
   ...KANA_ROUTES,
+  // MENSETSU: #mensetsu, #mensetsu-bidang/{key}, #mensetsu-bank/{key}, #mensetsu-sesi/{key}, #mensetsu-hasil/{id}, #mensetsu-riwayat
+  ...MENSETSU_ROUTES,
 };
 
 // Routes that depend on state.level (and therefore on aksesLevel).
@@ -2279,7 +2285,8 @@ function renderCharaOrbital(){
 // Halaman yang boleh dibuka sebelum memilih level.
 // Rute kana berdiri sendiri (tidak butuh level JLPT) → boleh dibuka sebelum memilih level.
 const BEBAS_PILIH_LEVEL = new Set(["pilih-level","login","masuk","daftar","profile",
-  "kana","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres"]);
+  "kana","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
+  ...MENSETSU_PUBLIC]);
 const _KEY_PILIH = "shirose-level-dipilih";   // sessionStorage: uid yang sudah memilih di sesi ini
 function levelSudahDipilih(){
   if (!state.user) return false;
@@ -2323,6 +2330,14 @@ function renderPilihLevel(){
         <span class="desc">Hiragana &amp; Katakana dari nol: tabel, urutan goresan, latihan menulis, hafalan, dan tes membaca.</span>
         <span class="st">Tanpa pilih level</span>
       </button>`;
+  // MENSETSU 面接 — level baru: simulasi wawancara kerja Jepang (8 bidang SSW). Tanpa pilih level JLPT.
+  const kartuMensetsu = `
+      <button class="jlpt-card mensetsu" data-kanji="面" onclick="route('mensetsu')">
+        <span class="lv">面接</span>
+        <span class="jpname">MENSETSU · Wawancara kerja</span>
+        <span class="desc">Simulasi wawancara perusahaan Jepang untuk 8 bidang SSW: pewawancara AI berbasis suara, bantuan bahasa Indonesia, dan penilaian otomatis.</span>
+        <span class="st">8 bidang SSW</span>
+      </button>`;
   const kartuGuru = FB.userIsGuru() ? `
       <button class="jlpt-card guru" data-kanji="師" onclick="location.href='./teacher.html'">
         <span class="lv">師</span>
@@ -2337,7 +2352,7 @@ function renderPilihLevel(){
         <h1>${nama ? `Halo, ${nama}! ` : ""}Pilih level JLPT</h1>
         <p>Semua materi, hafalan, dan ujian akan mengikuti level yang kamu pilih.</p>
       </div>
-      <div class="jlpt-grid">${cards}${kartuKana}${kartuGuru}</div>
+      <div class="jlpt-grid">${cards}${kartuKana}${kartuMensetsu}${kartuGuru}</div>
       <div class="foot">
         ${adaYangBuka ? "Level bergembok dibuka oleh guru." : "Belum ada level yang dibuka untukmu — hubungi guru."}
         <div style="margin-top:12px;"><button class="btn ghost" onclick="logout()">Keluar</button></div>

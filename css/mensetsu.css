@@ -1,0 +1,95 @@
+/* MENSETSU 面接 — semua selector berawalan .ms- (tidak menyentuh gaya lama) */
+.ms-wrap{max-width:1040px; margin:0 auto; padding:4px 0 48px; color:var(--white);}
+.ms-crumbs{font-size:13px; color:var(--gray); margin:2px 2px 10px;} .ms-crumbs a{color:var(--pink-light); cursor:pointer;} .ms-crumbs b{color:var(--white);}
+.ms-head{text-align:center; padding:18px 8px 12px;}
+.ms-head .jp{font-family:var(--font-jp); font-size:clamp(34px,7vw,56px); font-weight:900; color:var(--pink-light); letter-spacing:8px;}
+.ms-head h1{margin:6px 0; font-size:clamp(20px,4.2vw,30px);} .ms-head p{margin:0 auto; max-width:640px; color:var(--gray); font-size:15px; line-height:1.55;}
+.ms-head.compact{padding:6px 8px 8px;} .ms-head.compact .jp{font-size:24px; letter-spacing:5px;}
+.ms-note{color:var(--gray); font-size:13px; line-height:1.55; margin:8px 2px 0;} .ms-note.center{text-align:center; max-width:760px; margin:10px auto;}
+.ms-wrap .btn.big{font-size:17px; padding:14px 26px;} .ms-wrap .btn.danger{background:#7f1d1d; border-color:#b91c1c; color:#fff;}
+.ms-wrap .hidden{display:none !important;}
+
+/* ---- peta pulau ---- */
+.ms-grid{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-top:10px;}
+.ms-island{--c1:#38bdf8; --c2:#0e7490; position:relative; display:flex; flex-direction:column; align-items:center; text-align:center; gap:4px; padding:12px 10px 14px; cursor:pointer; color:var(--white); font:inherit;
+  background:radial-gradient(120% 90% at 50% 0%, rgba(255,255,255,.05), transparent 60%), linear-gradient(180deg,var(--navy-2),var(--navy)); border:1px solid var(--border); border-radius:22px; transition:transform .2s, box-shadow .2s, border-color .2s;}
+.ms-island:hover{transform:translateY(-4px); border-color:var(--c1); box-shadow:0 14px 34px color-mix(in srgb, var(--c1) 35%, transparent);}
+.ms-island.soon{opacity:.55; filter:grayscale(.6);}
+.ms-isl-art{display:block; width:100%; animation:msFloat 5s ease-in-out infinite; animation-delay:var(--d,0s);}
+.ms-isl-art.sm{width:130px; flex:0 0 130px;}
+.ms-isl-svg{width:100%; height:auto; display:block;}
+.ms-isl-name{font-weight:800; font-size:16px;} .ms-isl-jp{font-family:var(--font-jp); font-size:19px; color:var(--pink-light); font-weight:800;}
+.ms-isl-st{margin-top:4px; font-size:12px; font-weight:800; padding:4px 12px; border-radius:999px; background:rgba(255,255,255,.08); color:var(--gray);} .ms-isl-st.ok{background:rgba(74,222,128,.16); color:#86efac;}
+@keyframes msFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+.ms-flow{margin:22px auto 8px; max-width:720px; text-align:center; color:var(--gray); font-size:14px; padding:12px 16px; border:1px dashed var(--border); border-radius:14px;}
+.ms-flow b{color:var(--pink-light);} .ms-hubfoot{display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:12px;}
+
+/* ---- halaman bidang ---- */
+.ms-bhead{--c1:#38bdf8; --c2:#0e7490; display:flex; align-items:center; gap:18px; padding:14px 18px; border-radius:22px; border:1px solid var(--c1); background:linear-gradient(135deg,var(--navy-2),var(--navy)); margin-bottom:6px;}
+.ms-bhead h1{margin:2px 0 4px; font-size:clamp(22px,4vw,30px);} .ms-bhead p{margin:0; color:var(--gray); font-size:14px;} .ms-bhead .ms-isl-jp{font-size:20px;}
+.ms-panel{background:linear-gradient(180deg,var(--navy-2),var(--navy)); border:1px solid var(--border); border-radius:20px; padding:16px 18px; margin-top:14px;}
+.ms-panel h2{margin:0 0 12px; font-size:18px;} .ms-panel h4{margin:14px 0 4px; font-size:13px; color:var(--pink-light); letter-spacing:.3px;}
+.ms-modes{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px;}
+.ms-mode{display:flex; flex-direction:column; gap:3px; text-align:left; padding:14px; cursor:pointer; color:var(--white); font:inherit; background:rgba(13,16,36,.45); border:1px solid var(--border); border-radius:16px; transition:border-color .2s, background .2s;}
+.ms-mode b{font-family:var(--font-jp); font-size:18px;} .ms-mode span{color:var(--pink-light); font-weight:700; font-size:13px;} .ms-mode small{color:var(--gray); font-size:12.5px; line-height:1.45;}
+.ms-mode.on{border-color:var(--pink); background:rgba(239,106,154,.13); box-shadow:0 0 0 2px rgba(239,106,154,.25);}
+.ms-chips{display:flex; flex-wrap:wrap; gap:8px; margin-bottom:12px;}
+.ms-chip{cursor:pointer; color:var(--white); font:inherit; font-size:14px; font-weight:700; padding:8px 12px; border-radius:999px; background:rgba(13,16,36,.45); border:1px solid var(--border);}
+.ms-chip small{color:var(--gray); font-weight:600; margin-left:4px;} .ms-chip.on{border-color:var(--pink); background:rgba(239,106,154,.18);}
+.ms-row{display:flex; flex-wrap:wrap; gap:14px; align-items:flex-end;}
+.ms-row label{display:flex; flex-direction:column; gap:4px; font-size:13px; color:var(--gray); min-width:150px;}
+.ms-row select, .ms-wrap textarea{background:#0d1024; color:var(--white); border:1px solid var(--border); border-radius:10px; padding:9px 10px; font:inherit; font-size:15px;}
+.ms-checks{display:flex; flex-direction:column; gap:8px; margin-top:12px;} .ck{display:flex; align-items:center; gap:8px; font-size:14px; color:var(--white); flex-direction:row !important; min-width:0 !important;}
+.ms-actions{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin-top:20px;}
+
+/* ---- bank soal ---- */
+.ms-qlist{display:flex; flex-direction:column; gap:10px; margin-top:6px;}
+.ms-q{background:linear-gradient(180deg,var(--navy-2),var(--navy)); border:1px solid var(--border); border-radius:16px; overflow:hidden;}
+.ms-q summary{list-style:none; cursor:pointer; display:flex; align-items:center; gap:10px; padding:12px 14px;} .ms-q summary::-webkit-details-marker{display:none;}
+.ms-q-ja{flex:1; font-family:var(--font-jp); font-size:17px; font-weight:700; line-height:1.5;}
+.ms-q-lv{font-size:11px; font-weight:800; padding:3px 9px; border-radius:999px; background:rgba(255,255,255,.08);} .ms-q-lv.l1{color:#86efac;} .ms-q-lv.l2{color:#fcd34d;} .ms-q-lv.l3{color:#fca5a5;}
+.ms-say{cursor:pointer; border:1px solid var(--border); background:rgba(255,255,255,.06); color:var(--white); border-radius:999px; width:34px; height:34px; font-size:15px;}
+.ms-q-body{padding:0 16px 16px; font-size:14.5px; line-height:1.6;} .ms-q-id{color:var(--gray); margin:0 0 4px;}
+.ms-voc{margin:4px 0 0; padding-left:18px;} .ms-ans{font-family:var(--font-jp); font-size:16px; margin:4px 0;} .ms-ans-id{color:var(--gray); margin:0;}
+
+/* ---- ruang wawancara ---- */
+.ms-room{display:flex; flex-direction:column; gap:12px; position:relative;}
+.ms-who{--c1:#ef6a9a; --c2:#9d174d; display:flex; align-items:center; gap:14px; flex-wrap:wrap; padding:14px 16px; border-radius:20px; border:1px solid var(--c1); background:linear-gradient(135deg,#1a2147,var(--navy));}
+.ms-avatar{position:relative; width:84px; height:84px; flex:0 0 84px;} .ms-avatar-svg{width:100%; height:100%; display:block; border-radius:50%;}
+.ms-ring{position:absolute; inset:-5px; border-radius:50%; border:3px solid transparent; pointer-events:none;}
+.ms-avatar.talk .ms-ring{border-color:#4ade80; animation:msPulse 1.1s ease-out infinite;} .ms-avatar.listen .ms-ring{border-color:#f472b6; animation:msPulse 1.1s ease-out infinite;} .ms-avatar.think .ms-ring{border-color:#fbbf24; animation:msPulse 1.6s ease-out infinite;}
+@keyframes msPulse{0%{box-shadow:0 0 0 0 rgba(255,255,255,.35)}100%{box-shadow:0 0 0 16px rgba(255,255,255,0)}}
+.ms-avatar.talk .ms-mouth{animation:msTalk .28s ease-in-out infinite alternate; transform-origin:60px 66px;} @keyframes msTalk{from{transform:scaleY(.5)}to{transform:scaleY(1.9)}}
+.ms-eyes{animation:msBlink 4.5s infinite; transform-origin:60px 52px;} @keyframes msBlink{0%,94%,100%{transform:scaleY(1)}97%{transform:scaleY(.1)}}
+.ms-who-t{flex:1; min-width:200px;} .ms-who-t .nm{font-family:var(--font-jp); font-size:20px; font-weight:800;} .ms-who-t .nm small{color:var(--gray); font-size:12px; font-weight:600;} .ms-who-t .pos{color:var(--gray); font-size:13px;}
+.ms-status{display:inline-block; margin-top:6px; font-size:13px; font-weight:800; padding:5px 12px; border-radius:999px; background:rgba(255,255,255,.08);}
+.ms-status[data-ph=speaking]{background:rgba(74,222,128,.16); color:#86efac;} .ms-status[data-ph=listening]{background:rgba(244,114,182,.2); color:#f9a8d4;} .ms-status[data-ph=thinking],.ms-status[data-ph=eval]{background:rgba(251,191,36,.16); color:#fcd34d;} .ms-status[data-ph=ready]{background:rgba(56,189,248,.16); color:#7dd3fc;}
+.ms-meta{display:flex; gap:8px; flex-wrap:wrap; font-size:12.5px; color:var(--gray);} .ms-meta span{padding:4px 10px; border-radius:999px; background:rgba(255,255,255,.07);} .ms-modepill{color:var(--pink-light);}
+.ms-chat{height:min(46vh,420px); min-height:220px; overflow-y:auto; display:flex; flex-direction:column; gap:10px; padding:14px; background:rgba(13,16,36,.55); border:1px solid var(--border); border-radius:18px;}
+.ms-b{max-width:86%; padding:10px 14px; border-radius:16px; line-height:1.55; animation:msIn .2s ease-out;} @keyframes msIn{from{opacity:0; transform:translateY(6px)}to{opacity:1; transform:none}}
+.ms-b-who{font-size:11px; font-weight:800; color:var(--gray); margin-bottom:2px;} .ms-b-ja{font-family:var(--font-jp); font-size:17px;} .ms-b-id{color:var(--gray); font-size:13px; margin-top:3px;} .ms-b-note{margin-top:4px; font-size:12.5px; color:#fcd34d;}
+.ms-b.ai{align-self:flex-start; background:#1f2850; border:1px solid #2f3a6e;} .ms-b.me{align-self:flex-end; background:rgba(239,106,154,.18); border:1px solid rgba(239,106,154,.45);} .ms-b.sys{align-self:center; max-width:100%; text-align:center; background:transparent; color:var(--gray); font-size:14px;}
+.ms-help{padding:12px 16px; border-radius:16px; background:rgba(251,191,36,.08); border:1px solid rgba(251,191,36,.4);} .ms-help .ja{font-family:var(--font-jp); font-size:17px; margin:2px 0;}
+.ms-input{display:flex; flex-direction:column; gap:8px;} .ms-input textarea{width:100%; box-sizing:border-box; resize:vertical; min-height:60px;}
+.ms-ctrl{display:flex; flex-wrap:wrap; gap:8px; align-items:center;}
+.ms-mic{width:56px; height:56px; border-radius:50%; font-size:24px; cursor:pointer; border:2px solid var(--pink); background:rgba(239,106,154,.14); color:var(--white);} .ms-mic.on{background:var(--pink); animation:msPulse 1s ease-out infinite;} .ms-mic:disabled{opacity:.4; cursor:not-allowed;}
+.ms-startbox{display:flex; flex-wrap:wrap; gap:10px; justify-content:center; padding:6px 0 0;}
+
+/* ---- hasil ---- */
+.ms-score{display:grid; grid-template-columns:200px 1fr; gap:20px; align-items:center;}
+.ms-ringsc{width:100%; max-width:190px; display:block; margin:0 auto;} .ms-ringsc circle{fill:none; stroke-width:10;} .ms-ringsc .bg{stroke:rgba(255,255,255,.1);} .ms-ringsc .fg{stroke:var(--pink); stroke-linecap:round; transform:rotate(-90deg); transform-origin:60px 60px; transition:stroke-dashoffset .8s;}
+.ms-ringsc text{fill:var(--white); font-size:34px; font-weight:900;} .ms-ringsc text.s{font-size:11px; fill:var(--gray); font-weight:600;}
+.ms-sc{margin-bottom:10px;} .ms-sc .top{display:flex; justify-content:space-between; font-size:14px;} .ms-sc .bar{height:9px; border-radius:999px; background:rgba(255,255,255,.09); overflow:hidden; margin:4px 0;} .ms-sc .bar i{display:block; height:100%; background:var(--pink); border-radius:999px;} .ms-sc small{color:var(--gray); font-size:12px; line-height:1.4; display:block;}
+.ms-two{display:grid; grid-template-columns:1fr 1fr; gap:14px;} .ms-ul{margin:0; padding-left:18px; line-height:1.65;} .ms-ul li{margin-bottom:8px;} .ms-ul small{color:var(--gray);}
+.ms-trs{display:flex; flex-direction:column; gap:10px;} .ms-tr{padding:10px 12px; border:1px solid var(--border); border-radius:14px; background:rgba(13,16,36,.4);} .ms-tr .q{font-family:var(--font-jp); font-weight:800; font-size:15px;} .ms-tr .a{margin-top:4px; font-family:var(--font-jp);} .ms-tr .a.id{color:#fca5a5; font-family:inherit;} .ms-tr .m{display:flex; flex-wrap:wrap; gap:6px; margin-top:6px; font-size:12px; color:var(--gray);} .ms-tr .m span{padding:2px 9px; border-radius:999px; background:rgba(255,255,255,.07);} .ms-tr .m .sc{color:var(--pink-light); font-weight:800;}
+
+/* ---- riwayat ---- */
+.ms-chart{width:100%; height:auto;} .ms-chart .grid line{stroke:rgba(255,255,255,.12);} .ms-chart .grid text{fill:var(--gray); font-size:11px;} .ms-chart polyline{stroke:var(--pink); stroke-width:2.5;} .ms-chart circle{fill:var(--pink);}
+.ms-hlist{display:flex; flex-direction:column; gap:8px;} .ms-hrow{display:flex; align-items:center; gap:12px; padding:10px 12px; border:1px solid var(--border); border-radius:14px; background:rgba(13,16,36,.4);} .ms-hrow>div:first-child{flex:1;} .ms-hrow small{display:block; color:var(--gray);} .ms-hrow .sc{font-size:24px; font-weight:900; color:var(--pink-light);} .ms-hrow .bt{display:flex; gap:6px;}
+
+@media (max-width:820px){ .ms-grid{grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px;} .ms-modes{grid-template-columns:1fr;} .ms-score,.ms-two{grid-template-columns:1fr;} }
+@media (max-width:560px){ .ms-isl-name{font-size:14px;} .ms-isl-jp{font-size:16px;} .ms-bhead{flex-direction:column; text-align:center;} .ms-isl-art.sm{width:150px;} .ms-b{max-width:94%;} .ms-avatar{width:68px; height:68px; flex-basis:68px;} .ms-chat{height:40vh;} .ms-hrow{flex-wrap:wrap;} }
+@media (prefers-reduced-motion:reduce){ .ms-isl-art,.ms-eyes,.ms-avatar .ms-ring,.ms-avatar.talk .ms-mouth,.ms-mic.on{animation:none !important;} }
+
+/* kartu di halaman pilih level */
+.jlpt-card.mensetsu{--acc:#38bdf8; border-color:rgba(56,189,248,.55);} .jlpt-card.mensetsu .lv{color:#7dd3fc;} .jlpt-card.mensetsu:hover{border-color:#38bdf8 !important; box-shadow:0 14px 36px rgba(56,189,248,.3) !important;}

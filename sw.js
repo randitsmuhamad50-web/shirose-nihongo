@@ -1,10 +1,11 @@
 /* Service worker: network-first, cache fallback */
+// v26 — MENSETSU 面接 (js/mensetsu*.js, css/mensetsu.css, data/mensetsu/index.json).
 // v25 — Hiragana & Katakana (kana-center, writer, data kana + goresan), cache goresan KanjiVG.
 // v23 — JLPT Center (Full Exam + Practice N5–N1, timer, pembahasan, riwayat).
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v25";
+const CACHE = "shirose-nihongo-v26";
 const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
 const KVG = "shirose-kvg-v1";       // goresan KanjiVG yang pernah dibuka (offline; tidak dihapus saat update)
 const CORE = [
@@ -30,6 +31,10 @@ const CORE = [
   "./css/kana-center.css",
   "./data/kana.json",
   "./data/kana-strokes.json",
+  "./js/mensetsu.js",
+  "./js/mensetsu-engine.js",
+  "./css/mensetsu.css",
+  "./data/mensetsu/index.json",
 ];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).catch(()=>{}));
@@ -41,6 +46,8 @@ self.addEventListener("activate", (e) => {
 });
 self.addEventListener("fetch", (e) => {
   const u = new URL(e.request.url);
+  // Fungsi AI Mensetsu: selalu jaringan, jangan pernah di-cache.
+  if (u.pathname.startsWith("/.netlify/functions/")) return;
   // Don't cache firebase or external APIs
   if (u.hostname.includes("firebase") || u.hostname.includes("googleapis") || u.hostname.includes("gstatic")) return;
   // Goresan KanjiVG (CDN): cache-first — file SVG ini tidak pernah berubah untuk commit yang sama.
