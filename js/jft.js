@@ -385,7 +385,7 @@ async function renderHub() {
     <div class="jlpt-card jft ${st.level === l ? "current" : ""}" data-kanji="${LV[l].jp}" role="button" tabindex="0" onclick="pilihLevel('${l}')">
       <span class="lv">${LV[l].jp}</span><span class="jpname">${LV[l].nama}</span>
       <span class="desc">${info[l]}<br><small>${cnt[l][0]} kosakata · ${cnt[l][1]} kanji · ${cnt[l][2]} bunpou</small></span>
-      <span class="st">${st.level === l ? "✓ Sedang dipelajari" : "Buka materi →"}</span>
+      <span class="st">${window.canAccessLevel && !window.canAccessLevel(l) ? "🔒 Dikunci guru" : st.level === l ? "✓ Sedang dipelajari" : "Buka materi →"}</span>
       <button class="btn jft-ujbtn" onclick="event.stopPropagation();JFT.keUjian('${l}')">📝 Ujian ${LV[l].ke}</button>
     </div>`).join("");
   return `

@@ -46,7 +46,7 @@ service cloud.firestore {
       allow update: if
           // Siswa: profil ringan saja (nama, karakter, aktif), tidak boleh ubah hak akses.
           (me() == sid && aktif()
-             && !diubah().hasAny(['role', 'aksesLevel', 'aksesSsw', 'aksesJft', 'aksesSswBidang', 'kelas', 'status', 'email', 'permissions', 'dibuatOleh']))
+             && !diubah().hasAny(['role', 'aksesLevel', 'aksesSsw', 'aksesJft', 'aksesJftLevel', 'aksesSswBidang', 'kelas', 'status', 'email', 'permissions', 'dibuatOleh']))
           // Moderator boleh memperbaiki profilnya sendiri.
           || (me() == sid && ownerEmail())
           // Guru: atur akses/kelas/status/nama siswa (bukan role, bukan akun guru lain).

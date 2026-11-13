@@ -1181,6 +1181,12 @@ export async function setAksesJft(uid, on) {
   if (!userIsGuru()) throw new Error("Hanya guru");
   await updateDoc(doc(db, "siswa", uid), { aksesJft: !!on });
 }
+/* siswa/{uid}.aksesJftLevel {ir0,ir1,ir2: boolean}; false = level itu ditutup. */
+export async function setAksesJftLevel(uid, map) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  const o = {}; ["ir0","ir1","ir2"].forEach(l => { if (typeof map?.[l] === "boolean") o[l] = map[l]; });
+  await updateDoc(doc(db, "siswa", uid), { aksesJftLevel: o });
+}
 /* Akses SSW per bidang. v: true = boleh, false = blokir, null = hapus (ikut kelas / bawaan).
  * siswa/{uid}.aksesSswBidang.{slug}  dan  kelas/{id}.aksesSswBidang.{slug} */
 export async function setAksesSswBidang(uid, slug, v) {
