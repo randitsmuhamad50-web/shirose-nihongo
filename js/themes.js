@@ -50,7 +50,7 @@
     var tr=document.querySelector(".topbar-right");
     if(tr&&!document.getElementById("th-menu")){
       var d=document.createElement("div");d.className="th-wrap";
-      d.innerHTML='<button class="th-btn" id="th-btn" title="Ganti tema" aria-label="Ganti tema">🎨</button><div class="th-menu" id="th-menu">'+TH.map(function(t){return '<button data-t="'+t[0]+'">'+t[1]+' '+t[2]+'</button>'}).join("")+'</div>';
+      d.innerHTML='<button class="th-btn" id="th-btn" title="Ganti tema" aria-label="Ganti tema">🎨 <span class="th-txt">Ganti tema</span></button><div class="th-menu" id="th-menu">'+TH.map(function(t){return '<button data-t="'+t[0]+'">'+t[1]+' '+t[2]+'</button>'}).join("")+'</div>';
       tr.insertBefore(d,tr.firstChild);
       d.querySelector("#th-btn").onclick=function(e){e.stopPropagation();document.getElementById("th-menu").classList.toggle("open")};
       d.querySelector("#th-menu").onclick=function(e){var b=e.target.closest("button");if(b){set(b.dataset.t);document.getElementById("th-menu").classList.remove("open")}};

@@ -1363,11 +1363,11 @@ html{overflow-x:hidden;}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
-<link rel="stylesheet" href="./css/kana-center.css?v=20261114e"/>
+<link rel="stylesheet" href="./css/kana-center.css?v=20261114f"/>
 <link rel="stylesheet" href="./css/ssw.css?v=20261112zh"/>
 <link rel="stylesheet" href="./css/mensetsu.css?v=20261113d"/>
-<link rel="stylesheet" href="./css/jft.css?v=20261114e"/>
-<link rel="stylesheet" href="./css/themes.css?v=20261114e"/>
+<link rel="stylesheet" href="./css/jft.css?v=20261114f"/>
+<link rel="stylesheet" href="./css/themes.css?v=20261114f"/>
 </head>
 <body>
 
@@ -1412,7 +1412,7 @@ html{overflow-x:hidden;}
 
 <!-- ============ TOASTS ============ -->
 <div class="toast-wrap" id="toasts"></div>
-<script src="./js/themes.js?v=20261114e"></script>
+<script src="./js/themes.js?v=20261114f"></script>
 
 <!-- ============ LEVEL UP OVERLAY ============ -->
 <div class="levelup-overlay" id="levelup">
@@ -1427,14 +1427,14 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261114e";
+import * as FB from "./js/firebase-sync.js?v=20261114f";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
-import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261114e";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261114f";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
-import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261114e";
+import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261114f";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261114e";
+import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261114f";
 import { JFT_ROUTES, initJft } from "./js/jft.js?v=20261113n";
 import { MENSETSU_ROUTES, MENSETSU_PUBLIC, initMensetsu } from "./js/mensetsu.js?v=20261113d";
 initJlpt(FB);

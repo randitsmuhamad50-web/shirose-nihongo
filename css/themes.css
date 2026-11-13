@@ -128,3 +128,6 @@ html[data-theme]:not([data-theme="ungu"]) .sosmed a{border-color:rgba(var(--sm-r
 html[data-theme]:not([data-theme="ungu"]) .sosmed a svg,html[data-theme]:not([data-theme="ungu"]) .sosmed .sm-tt svg{background:linear-gradient(135deg,var(--sm-a),var(--sm-b));fill:#10131f;box-shadow:0 4px 14px rgba(var(--sm-rgb),.45)}
 html[data-theme]:not([data-theme="ungu"]) .sosmed a:hover,html[data-theme]:not([data-theme="ungu"]) .sosmed a:focus-visible{border-color:var(--sm-a);background:linear-gradient(135deg,var(--sm-bg1),var(--sm-bg2));box-shadow:0 8px 26px rgba(var(--sm-rgb),.5),0 0 0 3px rgba(var(--sm-rgb),.18)}
 html[data-theme]:not([data-theme="ungu"]) .sosmed a:hover svg{background:linear-gradient(135deg,var(--sm-l),var(--sm-a))}
+.th-btn{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:700;white-space:nowrap}
+.th-btn .th-txt{font-size:12px}
+@media (max-width:420px){.th-btn{padding:7px 8px}.th-btn .th-txt{font-size:11px}}
