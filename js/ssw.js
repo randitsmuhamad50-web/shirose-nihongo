@@ -14,8 +14,8 @@
 import {
   initSswCore, esc, rich, plain, spoken, shuffle, seeded, isGuru, loadBidang, bidangBySlug, loadPack, getProgress, touch, flush, logAct,
   babProgress, STATUS_LABEL, babStatus, siswaBolehBab, newCard, cardState, schedule, cardStats, buildQueue, fullQuizzes, EXAM_SPEC, readingQuiz, recordQuiz, sswAllowed, loadKelasAkses, points, syncRank, loadRank, uidNow, syncCards, vnum, DAY
-} from "./ssw-core.js?v=20261113o";
-import { islandSVG, buildingSVG, bldFor } from "./ssw-art.js?v=20261113o";
+} from "./ssw-core.js?v=20261113p";
+import { islandSVG, buildingSVG, bldFor } from "./ssw-art.js?v=20261113p";
 
 let FB = null;
 export function initSsw(fb) { FB = fb; initSswCore(fb); }
