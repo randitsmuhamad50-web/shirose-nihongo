@@ -219,7 +219,7 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261113y2";
+import * as FB from "./js/firebase-sync.js?v=20261113y3";
 import { renderSswTab } from "./js/ssw-teacher.js?v=20261112d";
 
 const state = {
@@ -325,7 +325,7 @@ window.state = state;
 /* ===== Menu bawah (HP) + sheet "Lainnya" ===== */
 const MENU_UTAMA = [["siswa","👥","Siswa"],["kelas","🎓","Kelas"],["soal","📝","Soal"],["jlpt","🏯","JLPT"]];
 const MENU_LAIN = [["kategori","📂","Paket Soal"],["import","📊","Import Excel"],["kpos","🏷️","Kosakata"],["choukai","🎧","Choukai"],
-                   ["ssw","🌏","SSW"],["laporan","📈","Laporan"],["diagnostik","🔧","Diagnostik"],["admin","🛡️","Admin"]];
+                   ["ssw","🌏","SSW"],["mensetsu","🎙️","Mensetsu"],["laporan","📈","Laporan"],["diagnostik","🔧","Diagnostik"],["admin","🛡️","Admin"]];
 function renderBottomNav(){
   const lain = MENU_LAIN.filter(m => m[0] !== "admin" || FB.userIsAdmin());
   const lainAktif = lain.some(m => m[0] === state.tab);
@@ -356,6 +356,7 @@ function renderApp(){
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
         <div class="nav-item ${state.tab==='ssw'?'active':''}" onclick="setTab('ssw')"><span class="ico">🌏</span> SSW</div>
+        <div class="nav-item ${state.tab==='mensetsu'?'active':''}" onclick="setTab('mensetsu')"><span class="ico">🎙️</span> Hasil Mensetsu</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
         <div class="nav-item ${state.tab==='jlpt'?'active':''}" onclick="setTab('jlpt')"><span class="ico">🏯</span> Hasil JLPT</div>
         <div class="nav-item ${state.tab==='diagnostik'?'active':''}" onclick="setTab('diagnostik')"><span class="ico">🔧</span> Diagnostik</div>
@@ -382,6 +383,7 @@ async function renderTab(){
     else if (state.tab === "kpos") mount.innerHTML = await renderKposTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
     else if (state.tab === "ssw") mount.innerHTML = await renderSswTab(FB, { toast, rerender: () => renderTab() });
+    else if (state.tab === "mensetsu") mount.innerHTML = await renderMensetsuTab();
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
     else if (state.tab === "jlpt") mount.innerHTML = await renderJlptTab();
     else if (state.tab === "diagnostik") mount.innerHTML = await renderDiagnostikTab();
@@ -2130,6 +2132,76 @@ window.exportJlpt = () => {
   const ws = XLSX.utils.json_to_sheet(rows); const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "Hasil JLPT"); XLSX.writeFile(wb, `hasil-jlpt-${Date.now()}.xlsx`);
 };
+
+/* ========== TAB: HASIL MENSETSU (面接) ==========
+ * Membaca siswa/{uid}/mensetsu_hasil (sudah tercakup Rules: guru boleh baca).
+ * Hanya transkrip teks + nilai; tidak ada rekaman suara. */
+const _mx = { data: null, nama: "", bidang: "" };
+const _mxEsc = (t) => String(t ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const _mxMs = (h) => h.tgl?.seconds ? h.tgl.seconds * 1000 : (h.tglLocal ? Date.parse(h.tglLocal) : 0);
+const _mxCat = { jiko:"自己紹介 Perkenalan", shibou:"志望動機 Alasan melamar", shigoto:"仕事への理解 Pekerjaan", seikatsu:"日本での生活 Kehidupan", mokuhyou:"将来の目標 Tujuan", taiou:"職場での対応 Situasi kerja", saigo:"最後の質問 Penutup" };
+const _mxMode = { latihan:"Practice", nyata:"Real", lemah:"Weakness" };
+function _mxWeak(rows){
+  const c = {}; rows.forEach(h => (h.turns || []).forEach(t => (c[t.k] = c[t.k] || []).push(t.skor ?? 0)));
+  const a = Object.entries(c).map(([k,v]) => [k, Math.round(v.reduce((x,y) => x+y, 0) / v.length)]).sort((x,y) => x[1]-y[1]);
+  return a[0] ? { k: a[0][0], v: a[0][1] } : null;
+}
+async function renderMensetsuTab(){
+  if (!_mx.data){
+    const siswa = await FB.listSiswa(); const all = [];
+    for (const s of siswa){
+      try { (await FB.listHasilMensetsuOf(s.uid, 100)).forEach(h => all.push({ ...h, _uid: s.uid, _nama: s.nama || s.email || s.uid, _kelas: s.kelas || "" })); }
+      catch(e){ console.warn("mensetsu hasil", s.uid, e.message); }
+    }
+    all.sort((a,b) => _mxMs(b) - _mxMs(a)); _mx.data = all;
+  }
+  const rows = _mx.data.filter(h => (!_mx.bidang || h.bidang === _mx.bidang) && (!_mx.nama || (h._nama || "").toLowerCase().includes(_mx.nama.toLowerCase())));
+  const bidangs = [...new Set(_mx.data.map(h => h.bidang))];
+  const per = {}; rows.forEach(h => (per[h._uid] = per[h._uid] || []).push(h));
+  const ringkas = Object.values(per).map(list => {   // list terurut terbaru → lama
+    const last = list[0], prev = list[1], w = _mxWeak(list);
+    return `<tr><td>${_mxEsc(last._nama)}</td><td>${_mxEsc(last._kelas)}</td><td>${list.length}</td><td><b>${last.skor?.total ?? "–"}</b></td>
+      <td>${prev ? ((last.skor.total - prev.skor.total >= 0 ? "▲ +" : "▼ ") + (last.skor.total - prev.skor.total)) : "—"}</td>
+      <td>${Math.round(list.reduce((a,h) => a + (h.skor?.total || 0), 0) / list.length)}</td>
+      <td>${w ? _mxEsc(_mxCat[w.k] || w.k) + " (" + w.v + ")" : "—"}</td>
+      <td style="font-size:12px;">${w ? "Latih kategori " + _mxEsc((_mxCat[w.k] || w.k).split(" ")[0]) + " via mode Weakness" : ""}</td></tr>`;
+  }).join("");
+  return `
+    <div class="panel">
+      <h2>🎙️ Hasil Mensetsu (simulasi wawancara)</h2>
+      <p style="color:var(--gray); font-size:13px;">Riwayat wawancara siswa: nilai, transkrip, dan kategori terlemah. Nilai = perkiraan latihan (bukan penilaian resmi). Rekaman suara tidak disimpan.</p>
+      <div class="form-row" style="flex-wrap:wrap; gap:8px;">
+        <select onchange="_mx.bidang=this.value; renderTab()"><option value="">Semua bidang</option>${bidangs.map(b => `<option value="${b}" ${_mx.bidang===b?"selected":""}>${_mxEsc(b)}</option>`).join("")}</select>
+        <input placeholder="Cari nama siswa" value="${_mxEsc(_mx.nama)}" onchange="_mx.nama=this.value; renderTab()"/>
+        <button class="btn ghost" onclick="_mx.data=null; renderTab()">↻ Muat ulang</button>
+      </div>
+      <h3 style="margin-top:14px;">Perkembangan per siswa</h3>
+      <div class="table-wrap" style="max-height:30vh; overflow:auto;"><table>
+        <thead><tr><th>Siswa</th><th>Kelas</th><th>Sesi</th><th>Nilai terakhir</th><th>Perubahan</th><th>Rata-rata</th><th>Kategori terlemah</th><th>Rekomendasi</th></tr></thead>
+        <tbody>${ringkas || `<tr><td colspan="8" style="text-align:center; color:var(--gray);">Belum ada simulasi.</td></tr>`}</tbody></table></div>
+      <h3 style="margin-top:14px;">Semua sesi (${rows.length})</h3>
+      <div class="table-wrap" style="max-height:48vh; overflow:auto;"><table>
+        <thead><tr><th>Tanggal</th><th>Siswa</th><th>Kelas</th><th>Bidang</th><th>Mode</th><th>Nilai</th><th>Soal</th><th>Penilai</th><th></th></tr></thead>
+        <tbody>${rows.map(h => `<tr style="cursor:pointer;" onclick="mensetsuDetail('${h._uid}','${h.id}')">
+          <td>${new Date(_mxMs(h)).toLocaleString("id-ID", { dateStyle:"short", timeStyle:"short" })}</td><td>${_mxEsc(h._nama)}</td><td>${_mxEsc(h._kelas)}</td>
+          <td>${_mxEsc(h.bidangNama || h.bidang)}</td><td>${_mxMode[h.mode] || h.mode}</td><td><b>${h.skor?.total ?? "–"}</b></td>
+          <td>${h.dijawab}/${h.jumlahSoal}</td><td>${h.provider === "skrip" ? "Skrip" : "AI " + _mxEsc(h.provider)}</td><td>Detail ›</td></tr>`).join("") || `<tr><td colspan="9" style="text-align:center; color:var(--gray);">Belum ada hasil.</td></tr>`}</tbody></table></div>
+    </div>`;
+}
+window.mensetsuDetail = (uid, id) => {
+  const h = (_mx.data || []).find(x => x._uid === uid && x.id === id); if (!h) return;
+  const sk = h.skor || {}; const ev = h.ev || {};
+  const trans = (h.turns || []).map(t => `<tr><td>${_mxEsc(t.q)}</td><td>${_mxEsc(t.a || "(tidak dijawab)")}${t.lang === "id" ? " <i>[Indonesia]</i>" : ""}</td><td><b>${t.skor ?? "–"}</b>${t.helped ? " 💡" : ""}</td></tr>`).join("");
+  modal(`<h3>${_mxEsc(h._nama)} — ${_mxEsc(h.bidangNama || h.bidang)}</h3>
+    <p style="font-size:13px; color:var(--gray);">${new Date(_mxMs(h)).toLocaleString("id-ID")} · ${_mxMode[h.mode] || h.mode} · ${Math.round((h.durasi || 0) / 60)} menit · penilai: ${h.provider === "skrip" ? "Skrip sederhana" : "AI " + _mxEsc(h.provider)}</p>
+    <p><b style="font-size:22px;">${sk.total ?? "–"}/100</b> — isi ${sk.isi}/25 · tata bahasa ${sk.tata_bahasa}/20 · kosakata ${sk.kosakata}/15 · kelancaran ${sk.kelancaran}/15 · artikulasi ${sk.artikulasi == null ? "— (tidak dinilai)" : sk.artikulasi + "/15 (estimasi STT)"} · kesopanan ${sk.kesopanan}/10</p>
+    ${(ev.kekurangan || []).length ? `<p><b>Kekurangan:</b> ${(ev.kekurangan || []).map(_mxEsc).join("; ")}</p>` : ""}
+    ${(ev.saran || []).length ? `<p><b>Saran:</b> ${(ev.saran || []).map(_mxEsc).join("; ")}</p>` : ""}
+    <h4 style="margin-top:10px;">Transkrip</h4>
+    <div class="table-wrap" style="max-height:45vh; overflow:auto;"><table><thead><tr><th>Pertanyaan</th><th>Jawaban siswa</th><th>Skor</th></tr></thead><tbody>${trans}</tbody></table></div>
+    <button class="btn ghost" style="margin-top:10px;" onclick="closeModal()">Tutup</button>`);
+};
+window._mx = _mx;
 
 /* ========== TAB: DIAGNOSTIK ==========
  * Menolong guru debug "akun baru engga muncul" dengan cara test setiap

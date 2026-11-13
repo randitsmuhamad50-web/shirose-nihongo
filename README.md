@@ -70,6 +70,18 @@ python3 tools/jlpt_validate.py  # QC: ID unik, kunci valid, opsi lengkap, pembah
 ```
 Catatan: file `jlpt/*.json` bersifat publik (situs statis), jadi kunci jawaban secara teknis bisa dibuka lewat DevTools.
 
+## MENSETSU 面接 — Simulasi wawancara kerja Jepang (8 bidang SSW)
+
+Level baru di halaman pilih level (kartu **MENSETSU · 面接**), berdiri sendiri seperti Kana Center. Panduan lengkap setup & batasan: **[PANDUAN-MENSETSU.md](PANDUAN-MENSETSU.md)**.
+
+- **8 pulau**: Building Cleaning, Kaigo, Food Manufacturing, Food Service, Agriculture, Construction, Accommodation, Livestock. Tiap bidang punya bank soal sendiri (`data/mensetsu/{bidang}.json`, **40 soal**: 20 umum + 20 khusus bidang) dengan terjemahan, kosakata, maksud pertanyaan, contoh jawaban + arti, dan catatan pewawancara.
+- **3 mode**: Practice (boleh Indonesia, ada contoh jawaban), Real Interview (tanpa bantuan, evaluasi di akhir), Weakness Training (soal lemah dari riwayat).
+- **Pewawancara 田中さん**: AI (Gemini/Groq/OpenRouter/Cloudflare — semua punya tier gratis) lewat Netlify Function `netlify/functions/mensetsu-ai.js` (API key aman di server), **atau Mode Skrip** tanpa AI/tanpa biaya (tanya-balik terbatas, suara VOICEVOX/browser).
+- **Suara**: STT = Web Speech API browser; TTS = voice pack VOICEVOX (opsional, `tools/mensetsu_voicepack.py`) → VOICEVOX lokal → suara browser.
+- **Penilaian**: 6 kategori (25/20/15/15/15/10). Artikulasi hanya **estimasi dari keyakinan STT** (bukan penilaian fonetik) dan tidak dinilai bila tanpa suara.
+- **Data**: `siswa/{uid}/mensetsu_hasil` (transkrip teks + nilai; tanpa rekaman suara). Guru: tab **Hasil Mensetsu** di `teacher.html`. Siswa bisa menghapus riwayat sendiri. **Firestore Rules tidak perlu diubah** (sub-koleksi siswa sudah tercakup).
+- Ubah/tambah soal: edit `tools/mensetsu_src/*.py` lalu `python3 -I tools/mensetsu_build.py`.
+
 ## Arsitektur
 
 - **Frontend**: Static HTML + JS modular (ES modules via CDN import maps). Tidak ada bundler.

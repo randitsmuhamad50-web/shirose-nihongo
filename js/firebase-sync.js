@@ -575,6 +575,44 @@ export async function saveSswProgres(slug, data) {
     { ...data, uid: currentUser.uid, updated: serverTimestamp() });
 }
 
+/* ========== MENSETSU 面接 — hasil simulasi wawancara ==========
+ * Disimpan di siswa/{uid}/mensetsu_hasil/{autoId} — sub-koleksi milik siswa, sudah
+ * tercakup Firestore Rules yang ada (pemilik + guru boleh baca; siswa lain TIDAK).
+ * Hanya TRANSKRIP TEKS + nilai. Rekaman suara tidak pernah disimpan.
+ */
+export async function getIdToken() {
+  return currentUser ? await currentUser.getIdToken() : null;
+}
+export async function simpanHasilMensetsu(hasil) {
+  if (!currentUser) throw new Error("Belum login");
+  const { id, ...rest } = hasil || {};
+  const clean = JSON.parse(JSON.stringify(rest));   // buang undefined (Firestore menolak)
+  const d = await addDoc(collection(db, "siswa", currentUser.uid, "mensetsu_hasil"), { ...clean, uid: currentUser.uid, tgl: serverTimestamp() });
+  return d.id;
+}
+export async function listHasilMensetsu(limitN = 50) {
+  if (!currentUser) return [];
+  const q = query(collection(db, "siswa", currentUser.uid, "mensetsu_hasil"), orderBy("tgl", "desc"), limit(limitN));
+  return (await getDocs(q)).docs.map(d => ({ id: d.id, ...d.data() }));
+}
+export async function listHasilMensetsuOf(uid, limitN = 100) {
+  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
+  const q = query(collection(db, "siswa", uid, "mensetsu_hasil"), orderBy("tgl", "desc"), limit(limitN));
+  return (await getDocs(q)).docs.map(d => ({ id: d.id, ...d.data() }));
+}
+export async function hapusHasilMensetsu(id) {
+  if (!currentUser) throw new Error("Belum login");
+  await deleteDoc(doc(db, "siswa", currentUser.uid, "mensetsu_hasil", id));
+}
+export async function hapusSemuaHasilMensetsu() {
+  if (!currentUser) throw new Error("Belum login");
+  const docs = (await getDocs(collection(db, "siswa", currentUser.uid, "mensetsu_hasil"))).docs;
+  for (let i = 0; i < docs.length; i += 400) {
+    const b = writeBatch(db); docs.slice(i, i + 400).forEach(d => b.delete(d.ref)); await b.commit();
+  }
+  return docs.length;
+}
+
 /* ========== ACTIVITY CALENDAR (Part 12) ========== */
 // Each activity bumps a date-bucket document. Date is YYYYMMDD in Asia/Bangkok
 // so streaks line up with the user's local day. Activity types:
@@ -1057,7 +1095,7 @@ export async function daftarkanAkunExisting({ uid, email, nama, kelas, aksesLeve
  * terhapus (itu butuh Admin SDK / Firebase Console). Tanpa profil, akun itu tidak
  * bisa membaca data apa pun (status "belum terdaftar" di Rules).
  */
-const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
+const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","mensetsu_hasil","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
 export async function hapusSiswa(uid) {
   if (!userIsGuru()) throw new Error("Hanya guru/moderator");
   if (!uid) throw new Error("UID kosong");

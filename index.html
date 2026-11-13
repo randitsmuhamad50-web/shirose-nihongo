@@ -1365,6 +1365,7 @@ html{overflow-x:hidden;}
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
 <link rel="stylesheet" href="./css/kana-center.css?v=20261113p"/>
 <link rel="stylesheet" href="./css/ssw.css?v=20261112zh"/>
+<link rel="stylesheet" href="./css/mensetsu.css?v=20261113a"/>
 <link rel="stylesheet" href="./css/jft.css?v=20261113p"/>
 </head>
 <body>
@@ -1416,7 +1417,7 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261113p";
+import * as FB from "./js/firebase-sync.js?v=20261113q";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
 import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261113p";
@@ -1425,9 +1426,12 @@ import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261113p";
 // SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
 import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261113p";
 import { JFT_ROUTES, initJft } from "./js/jft.js?v=20261113n";
+import { MENSETSU_ROUTES, MENSETSU_PUBLIC, initMensetsu } from "./js/mensetsu.js?v=20261113a";
 initJlpt(FB);
 initKana(FB);
 initSsw(FB);
+// MENSETSU 面接: simulasi wawancara kerja Jepang 8 bidang SSW (js/mensetsu.js)
+initMensetsu(FB);
 initJft(FB, (t, l) => loadMateri(t, l));
 
 /* ========== STATE ========== */
@@ -2068,6 +2072,8 @@ const routes = {
   ...KANA_ROUTES,
   // SSW 特定技能 (js/ssw.js)
   ...SSW_ROUTES,
+  // MENSETSU: #mensetsu, #mensetsu-bidang/{key}, #mensetsu-bank/{key}, #mensetsu-sesi/{key}, #mensetsu-hasil/{id}, #mensetsu-riwayat
+  ...MENSETSU_ROUTES,
   // JFT-Basic / Irodori (js/jft.js)
   ...JFT_ROUTES,
 };
@@ -2375,7 +2381,8 @@ function renderCharaOrbital(){
 // Rute kana berdiri sendiri (tidak butuh level JLPT) → boleh dibuka sebelum memilih level.
 const BEBAS_PILIH_LEVEL = new Set(["pilih-level","jft","login","masuk","daftar","profile",
   "kana","kana-baca","kana-aturan","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
-  "ssw","ssw-peta","ssw-bab","ssw-baca","ssw-buku","ssw-kosa","ssw-kartu","ssw-kuis","ssw-progres"]);
+  "ssw","ssw-peta","ssw-bab","ssw-baca","ssw-buku","ssw-kosa","ssw-kartu","ssw-kuis","ssw-progres",
+  ...MENSETSU_PUBLIC]);
 const _KEY_PILIH = "shirose-level-dipilih";   // sessionStorage: uid yang sudah memilih di sesi ini
 function levelSudahDipilih(){
   if (!state.user) return false;
@@ -2436,6 +2443,14 @@ function renderPilihLevel(){
         <span class="desc">Belajar bahasa Jepang &amp; keterampilan kerja per bidang. Jelajahi pulau, masuki gedung belajar, hafalkan kosakata, kerjakan kuis.</span>
         <span class="st">Tanpa pilih level</span>
       </button>`;
+  // MENSETSU 面接 — level baru: simulasi wawancara kerja Jepang (8 bidang SSW). Tanpa pilih level JLPT.
+  const kartuMensetsu = `
+      <button class="jlpt-card mensetsu" data-kanji="面" onclick="route('mensetsu')">
+        <span class="lv">面接</span>
+        <span class="jpname">MENSETSU · Wawancara kerja</span>
+        <span class="desc">Simulasi wawancara perusahaan Jepang untuk 8 bidang SSW: pewawancara AI berbasis suara, bantuan bahasa Indonesia, dan penilaian otomatis.</span>
+        <span class="st">8 bidang SSW</span>
+      </button>`;
   const kartuGuru = FB.userIsGuru() ? `
       <button class="jlpt-card guru" data-kanji="師" onclick="location.href='./teacher.html'">
         <span class="lv">師</span>
@@ -2450,7 +2465,7 @@ function renderPilihLevel(){
         <h1>${nama ? `Halo, ${nama}! ` : ""}Pilih level JLPT</h1>
         <p>Semua materi, hafalan, dan ujian akan mengikuti level yang kamu pilih.</p>
       </div>
-      <div class="jlpt-grid">${cards}${kartuJft}${kartuKana}${kartuSsw}${kartuGuru}</div>
+      <div class="jlpt-grid">${cards}${kartuJft}${kartuKana}${kartuSsw}${kartuMensetsu}${kartuGuru}</div>
       <div class="foot">
         ${adaYangBuka ? "Level bergembok dibuka oleh guru." : "Belum ada level yang dibuka untukmu — hubungi guru."}
         <div style="margin-top:12px;"><button class="btn ghost" onclick="logout()">Keluar</button></div>
