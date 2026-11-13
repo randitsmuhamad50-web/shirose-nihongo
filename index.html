@@ -1286,20 +1286,8 @@ html{overflow-x:hidden;}
 .stroke-wrap:active{transform:scale(.98);}
 
 /* Furigana toggle: hide ruby reading when exam panel has .no-furigana */
-.pos-bar{margin:6px 0 10px;}
-.pos-row{display:flex;flex-wrap:wrap;gap:6px;}
-.pos-chip{background:rgba(42,50,112,.4);border:1px solid var(--border);color:inherit;border-radius:999px;padding:7px 12px;font-size:13px;cursor:pointer;display:inline-flex;gap:6px;align-items:center;}
-.pos-chip small{opacity:.7;font-size:11px;}
-.pos-chip.on{background:var(--gold,#f5b83d);color:#1a1d3a;border-color:transparent;font-weight:700;box-shadow:0 0 0 2px rgba(245,184,61,.35);}
-.pos-info{margin-top:6px;font-size:13px;color:var(--gray);}
-.bp-sec{text-align:left; margin:12px 0;}
-.bp-h{font-size:12px; font-weight:800; letter-spacing:.06em; color:var(--gold,#fbbf24); text-transform:uppercase; margin-bottom:4px;}
-.bp-b{font-size:15px; line-height:1.6;}
-.bp-rumus{margin:0; padding-left:0; list-style:none; display:grid; gap:6px;}
-.bp-rumus li{background:rgba(255,255,255,.05); border-left:3px solid var(--pink,#ec4899); border-radius:8px; padding:8px 10px; font-size:14px; line-height:1.5; font-family:var(--font-jp,inherit);}
 .exam-area ruby rt{transition:opacity .2s;}
 .exam-area.no-furigana ruby rt{opacity:0; visibility:hidden;}
-.flash-card .front ruby rt,.haf-r ruby rt{display:none; font-size:.45em; font-weight:600; color:var(--pink-light,#f9a8c9);} body.haf-furi-on .flash-card .front ruby rt,body.haf-furi-on .haf-r ruby rt{display:revert;}
 .furi-toggle{
   display:inline-flex; align-items:center; gap:6px;
   padding:6px 12px; border-radius:999px; cursor:pointer;
@@ -1358,15 +1346,11 @@ html{overflow-x:hidden;}
 .guru-link:hover{transform:translateY(-2px); box-shadow:0 15px 40px rgba(139,92,246,.6);}
 
 .hidden{display:none !important;}
-.kimg{display:block;max-width:min(100%,360px);max-height:240px;margin:10px auto;border-radius:12px;object-fit:contain}
-.vf-row{margin:8px 0;font-size:13px;color:var(--gray);display:flex;gap:8px;align-items:center;flex-wrap:wrap}.vf-sw{display:inline-flex;gap:6px}
 </style>
 <link rel="stylesheet" href="./css/shirose-extra.css?v=20261109b"/>
 <link rel="stylesheet" href="./css/jlpt-center.css?v=20261109j"/>
-<link rel="stylesheet" href="./css/kana-center.css?v=20261113r"/>
-<link rel="stylesheet" href="./css/ssw.css?v=20261112zh"/>
-<link rel="stylesheet" href="./css/mensetsu.css?v=20261113b"/>
-<link rel="stylesheet" href="./css/jft.css?v=20261113r"/>
+<link rel="stylesheet" href="./css/kana-center.css?v=20261110b"/>
+<link rel="stylesheet" href="./css/mensetsu.css?v=20261113a"/>
 </head>
 <body>
 
@@ -1396,7 +1380,7 @@ html{overflow-x:hidden;}
 <!-- ============ FLOATING NAV: Back + Home (hidden on home) ============ -->
 <div class="fab-nav hidden" id="fab-nav">
   <button class="fab" onclick="goBack()" title="Kembali">←</button>
-  <button class="fab home" onclick="goHomeFab()" title="Beranda mapel">🏠</button>
+  <button class="fab home" onclick="route('home')" title="Home">🏠</button>
 </div>
 
 <!-- ============ AUTH: now a dedicated page at route('login'); modal removed ============ -->
@@ -1417,22 +1401,17 @@ import { renderCharacter, CATALOG, CATALOG_LABELS, DEFAULT_EQUIPPED } from "./js
 import { allShopItems } from "./js/shop-seed.js";
 import { ACHIEVEMENTS } from "./js/achievements.js";
 // ?v=20261108h — cache-buster, lihat catatan sama di teacher.html.
-import * as FB from "./js/firebase-sync.js?v=20261113s";
+import * as FB from "./js/firebase-sync.js?v=20261113a";
 import { renderChoukaiJLPT, displayBar, applyDisplayPrefs } from "./js/choukai-jlpt.js?v=20261109c";
 import SV from "./js/voice.js?v=20261109c";
-import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261113r";
+import { renderJlpt, renderRiwayatJlpt, renderReviewJlpt, initJlpt, ringkasanTerakhir } from "./js/jlpt-center.js?v=20261109j";
 // Sesi Hiragana & Katakana + latihan menulis (berdiri sendiri, tidak terkait level JLPT)
-import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261113r";
-// SSW 特定技能 (Floating Learning Islands, peta bab, materi ID/JP, kosakata, flashcard SM-2, kuis)
-import { SSW_ROUTES, initSsw } from "./js/ssw.js?v=20261113r";
-import { JFT_ROUTES, initJft } from "./js/jft.js?v=20261113n";
-import { MENSETSU_ROUTES, MENSETSU_PUBLIC, initMensetsu } from "./js/mensetsu.js?v=20261113b";
+import { KANA_ROUTES, initKana } from "./js/kana-center.js?v=20261110b";
+import { MENSETSU_ROUTES, MENSETSU_PUBLIC, initMensetsu } from "./js/mensetsu.js?v=20261113a";
 initJlpt(FB);
 initKana(FB);
-initSsw(FB);
 // MENSETSU 面接: simulasi wawancara kerja Jepang 8 bidang SSW (js/mensetsu.js)
 initMensetsu(FB);
-initJft(FB, (t, l) => loadMateri(t, l));
 
 /* ========== STATE ========== */
 const state = {
@@ -1913,7 +1892,7 @@ function renderLevelPills(){
   const pills = document.getElementById("lvl-pills");
   if (!pills) return;
   if (!state.user || !levelSudahDipilih()){ pills.innerHTML = ""; return; }
-  pills.innerHTML = `<button class="lvl-badge" onclick="route('pilih-level')" title="Ganti level di halaman pemilihan JLPT">${window.levelLabel(state.level)} <span class="ganti">GANTI LEVEL</span></button>`;
+  pills.innerHTML = `<button class="lvl-badge" onclick="route('pilih-level')" title="Ganti level di halaman pemilihan JLPT">JLPT ${state.level.toUpperCase()} <span class="ganti">GANTI LEVEL</span></button>`;
   return;
   const levels = ["n5","n4","n3","n2","n1"];
   // Level yang belum dibuka guru ditandai gembok. Validasi sebenarnya ada
@@ -1930,7 +1909,6 @@ function canAccessLevel(lvl){
   if (!lvl) return false;
   if (!state.user) return false;
   if (FB.userIsGuru()) return true;
-  if (String(lvl).startsWith("ir")) return state.siswa?.aksesJft !== false && state.siswa?.aksesJftLevel?.[lvl] !== false;   // JFT (Irodori): terbuka kecuali guru menutup (siswa.aksesJft === false)
   const akses = state.siswa?.aksesLevel;
   return !!(akses && akses[lvl]);
 }
@@ -2022,13 +2000,6 @@ async function loadMateri(tipe, lvl){
   try {
     const r = await fetch(`./data/${tipe}-${lvl}.json`);
     const d = await r.json();
-    if (tipe === "kosakata") {
-      // Override kelas kata dari guru (Firestore) dipasang di memori; file data asli tidak diubah.
-      try {
-        const ov = (state.user && FB.getPosOverride) ? await FB.getPosOverride(lvl) : {};
-        d.forEach(it => { const t = ov[it.kata]; if (t) { if (t[0] === "-") delete it.pos; else it.pos = t; } });
-      } catch (_) { /* tanpa izin/offline: pakai tag bawaan */ }
-    }
     state.materi[tipe][lvl] = d;
     return d;
   } catch(e) {
@@ -2070,12 +2041,8 @@ const routes = {
   "jlpt-review": (params) => renderReviewJlpt(params),
   // Hiragana & Katakana (js/kana-center.js): #kana, #kana-tabel, #kana-order, #kana-tulis, #kana-hafalan, #kana-tes, #kana-progres
   ...KANA_ROUTES,
-  // SSW 特定技能 (js/ssw.js)
-  ...SSW_ROUTES,
   // MENSETSU: #mensetsu, #mensetsu-bidang/{key}, #mensetsu-bank/{key}, #mensetsu-sesi/{key}, #mensetsu-hasil/{id}, #mensetsu-riwayat
   ...MENSETSU_ROUTES,
-  // JFT-Basic / Irodori (js/jft.js)
-  ...JFT_ROUTES,
 };
 
 // Routes that depend on state.level (and therefore on aksesLevel).
@@ -2109,81 +2076,17 @@ window.addEventListener("popstate", () => {
   if (d && d.pushed && (location.hash.slice(1) || "") === d.back){ d.pushed = false; window.backFromDetail(true); }
 });
 
-// Mapel dipisah: JLPT, Kana, dan SSW tidak saling terhubung. Pindah mapel hanya lewat layar "pilih-level".
-const _subjectOf = (path) => { const n = String(path || "").split("/")[0]; if (n.startsWith("ssw")) return "ssw"; if (n.startsWith("kana")) return "kana"; if (n === "jft" || n.startsWith("jft-")) return "jft";
-  if (n === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) return "ssw"; return "jlpt"; };
-const _parentOf = (path) => {
-  const [n, slug = "building-cleaning", a2] = String(path || "").split("/");
-  if (n === "ssw") return "pilih-level";
-  if (n === "hafalan" && _subjectOf(path) === "ssw") return state.hafalan_back || "ssw";
-  if (n === "ssw-peta") return "ssw";
-  if (n === "ssw-bab") return `ssw-peta/${slug}`;
-  if (n === "ssw-baca") { const m = /^b(\d+)s/.exec(a2 || ""); return m ? `ssw-bab/${slug}/bab${m[1]}` : `ssw-peta/${slug}`; }
-  if (n === "ssw-progres") return "ssw";
-  if (n.startsWith("ssw-")) return `ssw-peta/${slug}`;
-  if (n === "jft") return "pilih-level";
-  if (n === "jft-ujian") return "jft";
-  if (n.startsWith("jft-")) return "jft-ujian";
-  if (n === "kana") return "pilih-level";
-  if (n.startsWith("kana-")) return "kana";
-  return null;
-};
-// Tutup popup/overlay paling atas (kalau ada). true = ada yang ditutup → jangan pindah halaman.
-window.closeTopOverlay = () => {
-  const cand = [];
-  const add = (sel, close) => document.querySelectorAll(sel).forEach(el => {
-    const cs = getComputedStyle(el);
-    if (cs.display === "none" || cs.visibility === "hidden") return;
-    cand.push({ el, z: parseInt(cs.zIndex, 10) || 0, close });
-  });
-  add("#sw-figlb", el => { const x = el.querySelector(".x"); x ? x.click() : el.remove(); });
-  add("#sw-lb", el => { const x = el.querySelector('[data-a="x"]'); x ? x.click() : el.remove(); });
-  add("#sw-vs:not([hidden])", () => window.SSW && window.SSW.vclose());
-  add("#jx-kw", () => window.JLPT && window.JLPT.kwClose());
-  add(".jx-modal", el => { const n = el.querySelector("[data-no]"); n ? n.click() : el.remove(); });
-  add("#kc-modal", el => el.click());
-  add(".modal-backdrop.open", el => { el.click(); if (document.body.contains(el) && el.classList.contains("open")) el.classList.remove("open"); });
-  add("#sw-prefs:not([hidden])", el => { el.hidden = true; });
-  if (!cand.length) return false;
-  cand.sort((a, b) => b.z - a.z);
-  try { cand[0].close(cand[0].el); } catch (e) { try { cand[0].el.remove(); } catch (_) {} }
-  return true;
-};
 window.goBack = () => {
-  if (window.closeTopOverlay()) return;   // popup terbuka: tutup popup-nya saja, halaman di belakang tetap
   if (window._materiDetail && (location.hash.slice(1) || "") === window._materiDetail.back){ window.backFromDetail(); return; }
-  const here = location.hash.slice(1) || "home";
-  const cur = here.split("/")[0];
-  const sub = _subjectOf(here);
-  const st = window._routeStack;
-  if (sub !== "jlpt"){
-    // Mundur tepat 1 halaman di mapel yang sama; kalau riwayat habis/beda mapel → halaman induk (bukan pemilihan JLPT).
-    let i = st.length - 1;
-    while (i >= 0 && (st[i] === here || (cur === "ssw-buku" && String(st[i]).startsWith("ssw-buku")))) i--;
-    const prev = i >= 0 ? st[i] : null;
-    window._routeStack = st.slice(0, Math.max(0, i));
-    if (prev && _subjectOf(prev) === sub && prev !== here){ route(prev); return; }
-    route(_parentOf(here) || "pilih-level"); return;
-  }
+  const cur = (location.hash.slice(1) || "home").split("/")[0];
   if (cur === "home" && state.user){ route("pilih-level"); return; }
-  if (st.length >= 2){
-    st.pop();                // remove current
-    const prev = st.pop();   // remove previous (route() will push it back)
-    if (_subjectOf(prev) !== "jlpt"){ route("home"); return; }
+  if (window._routeStack.length >= 2){
+    window._routeStack.pop();                // remove current
+    const prev = window._routeStack.pop();   // remove previous (route() will push it back)
     route(prev);
     return;
   }
   route("home");
-};
-// Home: JLPT → halaman karakter, SSW → pulau awal (hub), Kana → awal kana.
-// Kalau sudah di halaman awal itu, tekan lagi → kembali ke pilih level.
-window.goHomeFab = () => {
-  for (let i = 0; i < 6 && window.closeTopOverlay(); i++) {}
-  const here = location.hash.slice(1) || "home";
-  const cur = here.split("/")[0];
-  const sub = _subjectOf(here);
-  const awal = sub === "ssw" ? "ssw" : sub === "kana" ? "kana" : sub === "jft" ? "jft" : "home";
-  route(cur === awal ? "pilih-level" : awal);
 };
 
 function _updateFabNav(name){
@@ -2198,8 +2101,6 @@ function _updateFabNav(name){
   const isAuth = name === "login" || name === "masuk" || name === "daftar";
   document.body.classList.toggle("auth-mode", isAuth);
   if (isAuth) fab.classList.add("hidden");
-  const tb = document.querySelector(".topbar");
-  if (tb) document.documentElement.style.setProperty("--tb-h", tb.offsetHeight + "px");
 }
 
 function _renderRoute(name, rest){
@@ -2233,7 +2134,7 @@ window.route = (path) => {
 
   // Alur wajib: LOGIN → PEMILIHAN JLPT → CHARACTER → fitur. Selama siswa
   // belum memilih level di sesi ini, semua halaman diarahkan ke #pilih-level.
-  if (state.user && !BEBAS_PILIH_LEVEL.has(name) && !String(name).startsWith("ssw") && !String(name).startsWith("jft") && !(name === "hafalan" && (state.hafalan_ctx === "ssw" || sessionStorage.getItem("shirose-ssw-hafsess"))) && !levelSudahDipilih()){
+  if (state.user && !BEBAS_PILIH_LEVEL.has(name) && !levelSudahDipilih()){
     return route("pilih-level");
   }
   renderLevelPills();
@@ -2294,9 +2195,9 @@ function renderCharaOrbital(){
     { icon:"🏆", jp:"順位",  lbl:"PERINGKAT", route:"leaderboard", deg:315 },
   ];
   // Choukai JLPT ditambahkan → 9 node, jarak dihitung ulang supaya orbit tetap simetris.
-  if (String(state.level).startsWith("ir")){ NAV.find(n => n.route === "ujian").route = "jft-ujian"; }
-  else NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
+  NAV.splice(3, 0, { icon:"🎧", jp:"聴解", lbl:"CHOUKAI", route:"choukai" });
   // Sesi Hiragana & Katakana (berdiri sendiri) → 10 node, jarak dihitung ulang di bawah.
+  NAV.splice(1, 0, { icon:"あ", jp:"仮名", lbl:"KANA", route:"kana" });
   NAV.forEach((n, i) => { n.deg = i * 360 / NAV.length; });
   // Desktop: posisi di lingkaran memakai CSS var --R (radius responsif).
   // HP: node yang sama ditampilkan di kolom kiri & kanan karakter.
@@ -2337,6 +2238,10 @@ function renderCharaOrbital(){
     <div class="panel">
       <h2>Aktivitas cepat</h2>
       <div class="hub-grid">
+        <div class="hub-card kc-entry" onclick="route('kana')">
+          <div class="ico">あ</div>
+          <div class="info"><div class="ttl">Hiragana &amp; Katakana</div><div class="sub">Tabel, urutan goresan, latihan menulis, hafalan &amp; tes</div></div>
+        </div>
         ${FB.userIsGuru() ? `<div class="hub-card" onclick="location.href='./teacher.html'">
           <div class="ico">🛠️</div>
           <div class="info"><div class="ttl">Dashboard Guru</div><div class="sub">Kelola siswa, bank soal &amp; laporan</div></div>
@@ -2379,9 +2284,8 @@ function renderCharaOrbital(){
 /* ========== PEMILIHAN JLPT (halaman utama siswa setelah login) ========== */
 // Halaman yang boleh dibuka sebelum memilih level.
 // Rute kana berdiri sendiri (tidak butuh level JLPT) → boleh dibuka sebelum memilih level.
-const BEBAS_PILIH_LEVEL = new Set(["pilih-level","jft","login","masuk","daftar","profile",
-  "kana","kana-baca","kana-aturan","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
-  "ssw","ssw-peta","ssw-bab","ssw-baca","ssw-buku","ssw-kosa","ssw-kartu","ssw-kuis","ssw-progres",
+const BEBAS_PILIH_LEVEL = new Set(["pilih-level","login","masuk","daftar","profile",
+  "kana","kana-tabel","kana-order","kana-tulis","kana-hafalan","kana-tes","kana-progres",
   ...MENSETSU_PUBLIC]);
 const _KEY_PILIH = "shirose-level-dipilih";   // sessionStorage: uid yang sudah memilih di sesi ini
 function levelSudahDipilih(){
@@ -2393,9 +2297,6 @@ function levelSudahDipilih(){
 function _lupakanPilihanLevel(){ try { sessionStorage.removeItem(_KEY_PILIH); } catch(_){} }
 window.levelSudahDipilih = levelSudahDipilih;
 
-// Label level: JLPT N5..N1 atau JFT (Irodori) ir0/ir1/ir2.
-const IR_NAMA = { ir0:["入門","Starter A1","いろどり 入門"], ir1:["初級1","Shokyuu 1 A2","いろどり 初級1"], ir2:["初級2","Shokyuu 2 A2","いろどり 初級2"] };
-window.levelLabel = (l, panjang) => IR_NAMA[l] ? (panjang ? "JFT · " + IR_NAMA[l][1] : "JFT " + IR_NAMA[l][1]) : "JLPT " + String(l).toUpperCase();
 const JLPT_INFO = {
   n5: { jp:"入門", kanji:"五", nama:"Dasar",          desc:"Hiragana, katakana, ±100 kanji, kalimat sederhana sehari-hari." },
   n4: { jp:"初級", kanji:"四", nama:"Pemula",         desc:"Percakapan dasar, ±300 kanji, tata bahasa untuk kebutuhan harian." },
@@ -2429,20 +2330,6 @@ function renderPilihLevel(){
         <span class="desc">Hiragana &amp; Katakana dari nol: tabel, urutan goresan, latihan menulis, hafalan, dan tes membaca.</span>
         <span class="st">Tanpa pilih level</span>
       </button>`;
-  const kartuJft = `
-      <button class="jlpt-card jft" data-kanji="日" onclick="route('jft')">
-        <span class="lv">JFT</span>
-        <span class="jpname">JFT-Basic A2 · いろどり</span>
-        <span class="desc">Irodori Starter A1, Shokyuu 1 &amp; 2: kosakata, kanji, bunpou, hafalan, dan simulasi ujian CBT dengan skor 10–250.</span>
-        <span class="st">Terbuka untuk semua siswa</span>
-      </button>`;
-  const kartuSsw = `
-      <button class="jlpt-card ssw" data-kanji="技" onclick="route('ssw')">
-        <span class="lv">SSW</span>
-        <span class="jpname">特定技能 · Bidang kerja</span>
-        <span class="desc">Belajar bahasa Jepang &amp; keterampilan kerja per bidang. Jelajahi pulau, masuki gedung belajar, hafalkan kosakata, kerjakan kuis.</span>
-        <span class="st">Tanpa pilih level</span>
-      </button>`;
   // MENSETSU 面接 — level baru: simulasi wawancara kerja Jepang (8 bidang SSW). Tanpa pilih level JLPT.
   const kartuMensetsu = `
       <button class="jlpt-card mensetsu" data-kanji="面" onclick="route('mensetsu')">
@@ -2465,7 +2352,7 @@ function renderPilihLevel(){
         <h1>${nama ? `Halo, ${nama}! ` : ""}Pilih level JLPT</h1>
         <p>Semua materi, hafalan, dan ujian akan mengikuti level yang kamu pilih.</p>
       </div>
-      <div class="jlpt-grid">${cards}${kartuJft}${kartuKana}${kartuSsw}${kartuMensetsu}${kartuGuru}</div>
+      <div class="jlpt-grid">${cards}${kartuKana}${kartuMensetsu}${kartuGuru}</div>
       <div class="foot">
         ${adaYangBuka ? "Level bergembok dibuka oleh guru." : "Belum ada level yang dibuka untukmu — hubungi guru."}
         <div style="margin-top:12px;"><button class="btn ghost" onclick="logout()">Keluar</button></div>
@@ -2665,7 +2552,7 @@ async function renderMateriHub(){
   const bunpou = await loadMateri("bunpou", state.level);
   return `
     <div class="panel">
-      <h2>📚 Materi ${window.levelLabel(state.level, true)}</h2>
+      <h2>📚 Materi ${state.level.toUpperCase()}</h2>
       <div class="hub-grid">
         <div class="hub-card" onclick="route('kosakata')">
           <div class="ico">📖</div>
@@ -2679,13 +2566,10 @@ async function renderMateriHub(){
           <div class="ico">📐</div>
           <div class="info"><div class="ttl">Bunpou</div><div class="sub">${bunpou.length} pola</div></div>
         </div>
-        ${String(state.level).startsWith("ir") ? `<div class="hub-card" onclick="route('jft-ujian')">
-          <div class="ico">📝</div>
-          <div class="info"><div class="ttl">Simulasi JFT-Basic</div><div class="sub">CBT 50 soal · skor 10–250</div></div>
-        </div>` : `<div class="hub-card" onclick="route('choukai')">
+        <div class="hub-card" onclick="route('choukai')">
           <div class="ico">🎧</div>
           <div class="info"><div class="ttl">Choukai JLPT</div><div class="sub">Listening format ujian asli</div></div>
-        </div>`}
+        </div>
         <div class="hub-card" onclick="route('hafalan')">
           <div class="ico">🧠</div>
           <div class="info"><div class="ttl">Hafalan (SRS)</div><div class="sub">Pengulangan berjarak</div></div>
@@ -2709,60 +2593,30 @@ async function renderMateriHub(){
 function itemNo(it, idx){ return Number.isFinite(it?.no) ? it.no : (idx + 1); }
 function fmtNo(n){ return "No." + String(n).padStart(3, "0"); }
 
-/* ===== Kelas kata kosakata (動詞 / 名詞 / い形容詞 / な形容詞) =====
-   Tag disimpan di field `pos` tiap kata (data/kosakata-n*.json; guru bisa ubah).
-   Filter hanya menyaring tampilan; data asli & kunci SRS (nomor asli) tidak berubah. */
-const POS_DEF = [
-  { k:"KK",  jp:"動詞",     id:"Kata Kerja" },
-  { k:"KB",  jp:"名詞",     id:"Kata Benda" },
-  { k:"KSい", jp:"い形容詞", id:"Kata Sifat い" },
-  { k:"KSな", jp:"な形容詞", id:"Kata Sifat な" },
-];
-const posHas = (it, k) => Array.isArray(it?.pos) && it.pos.includes(k);
-function posCounts(arr){
-  const c = {}; POS_DEF.forEach(d => c[d.k] = arr.filter(it => posHas(it, d.k)).length); return c;
-}
-function posBar(arr, cur, fn){
-  const c = posCounts(arr);
-  const btn = (k, lbl, n) => `<button class="pos-chip ${cur === k ? "on" : ""}" onclick="${fn}('${k}')">${lbl}<small>${n}</small></button>`;
-  const info = cur === "all" ? `Semua — ${arr.length} kosakata`
-    : (() => { const d = POS_DEF.find(x => x.k === cur); return `${d.id} (${d.jp}) — ${c[cur]} kosakata`; })();
-  return `<div class="pos-bar"><div class="pos-row">${btn("all", "SEMUA", arr.length)}${POS_DEF.map(d => btn(d.k, `${d.jp} ${d.id}`, c[d.k])).join("")}</div><div class="pos-info">${info}</div></div>`;
-}
-window.setPosFilter = (k) => { state.posFilter = k; state.materiChunk = state.materiChunk || {}; state.materiChunk[`kosakata-${state.level}`] = 0; renderMateriList("kosakata").then(h => { document.getElementById("app").innerHTML = h; }); };
-
 async function renderMateriList(tipe){
   const data = await loadMateri(tipe, state.level);
   if (tipe === "kanji") { try { await window.KC?.ensure?.(); } catch(_){} }   // progres menulis (lencana ●/★)
   const label = {kosakata:"Kosakata", kanji:"Kanji", bunpou:"Bunpou"}[tipe];
   if (!data.length) return `<div class="panel"><h2>${label}</h2><div class="empty"><div class="emoji">📭</div>Belum ada data untuk level ini.</div></div>`;
 
-  // Filter kelas kata (kosakata): tampilan saja; nomor dihitung ulang dari daftar terfilter.
-  const posCur = (tipe === "kosakata" && POS_DEF.some(d => d.k === state.posFilter)) ? state.posFilter : "all";
-  const view = data.map((it, i) => ({ it, i })).filter(o => posCur === "all" || posHas(o.it, posCur));
-  const posUI = tipe === "kosakata" ? posBar(data, posCur, "setPosFilter") : "";
-  const emptyPos = tipe === "kosakata" && !view.length ? `<div class="empty"><div class="emoji">📭</div>Belum ada kosakata untuk kategori ini.</div>` : "";
   // Bagi materi per 50 item: 1–50, 51–100, dst.
   const PER = 50;
-  const nChunk = Math.max(1, Math.ceil(view.length / PER));
+  const nChunk = Math.ceil(data.length / PER);
   state.materiChunk = state.materiChunk || {};
   const ck = `${tipe}-${state.level}`;
   const aktif = Math.min(state.materiChunk[ck] || 0, nChunk - 1);
   const chunkAttr = (idx) => `data-chunk="${Math.floor(idx / PER)}" style="${Math.floor(idx / PER) === aktif ? "" : "display:none"}"`;
   const tabs = nChunk > 1 ? `<div class="chunk-tabs" id="chunk-tabs-${tipe}">${Array.from({length:nChunk}, (_, c) =>
-      `<button class="${c === aktif ? "on" : ""}" onclick="setMateriChunk('${tipe}', ${c})">${c*PER + 1}–${Math.min((c+1)*PER, view.length)}</button>`).join("")}</div>` : "";
-  const list = view.map((o, vi) => {
-    const it = o.it, idx = o.i;
-    const no = fmtNo(posCur === "all" ? itemNo(it, idx) : vi + 1);
-    const cidx = vi;
+      `<button class="${c === aktif ? "on" : ""}" onclick="setMateriChunk('${tipe}', ${c})">${c*PER + 1}–${Math.min((c+1)*PER, data.length)}</button>`).join("")}</div>` : "";
+  const list = data.map((it, idx) => {
+    const no = fmtNo(itemNo(it, idx));
     if (tipe === "kosakata") {
-      const _v = _vfPick(it);
-      const kana = _v.kana;
-      const kata = _v.kata;
+      const kana = it.kana || it.f || "";
+      const kata = it.kata || it.k || "";
       const arti = it.arti || it.a || "";
-      return `<div class="materi-item" ${chunkAttr(cidx)} onclick="showMateri('${tipe}', ${idx}${posCur === "all" ? "" : ", " + (vi + 1)})">
+      return `<div class="materi-item" ${chunkAttr(idx)} onclick="showMateri('${tipe}', ${idx})">
         <span class="no-badge">${no}</span>
-        <div class="kanji">${_cleanKata(kata)}</div>
+        <div class="kanji">${kata}</div>
         <div class="reading">${kana}</div>
         <div class="meaning">${arti}</div>
       </div>`;
@@ -2805,11 +2659,9 @@ async function renderMateriList(tipe){
       <div class="search-bar">
         <input type="text" id="search-${tipe}" placeholder="Cari di semua nomor..." oninput="filterMateri('${tipe}', this.value)"/>
       </div>
-      ${posUI}
-      ${tipe === "kosakata" && data.some(x => x.km) ? `<div class="vf-row">Bentuk kata kerja: ${_vfBtn("setVerbFormMateri")}</div>` : ""}
       ${displayBar("materi")}
       ${tabs}
-      <div class="materi-list" id="materi-list-${tipe}">${list}</div>${emptyPos}
+      <div class="materi-list" id="materi-list-${tipe}">${list}</div>
     </div>
   `;
 }
@@ -2836,10 +2688,10 @@ window.setMateriChunk = (tipe, c) => {
   filterMateri(tipe, "");
   document.getElementById(`chunk-tabs-${tipe}`)?.scrollIntoView({ block:"start", behavior:"smooth" });
 };
-window.showMateri = async (tipe, idx, vno) => {
+window.showMateri = async (tipe, idx) => {
   const data = state.materi[tipe][state.level];
   const it = data[idx];
-  const no = fmtNo(vno || itemNo(it, idx));   // vno = nomor dalam daftar terfilter (kelas kata)
+  const no = fmtNo(itemNo(it, idx));
   const app = document.getElementById("app");
   let body = "";
   if (tipe === "kanji") {
@@ -2867,7 +2719,7 @@ window.showMateri = async (tipe, idx, vno) => {
         </div>` : ""}
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" data-say="${SV.escAttr(k)}" data-role="kanji" onclick="SV.btn(this)">🔊 Dengar</button>
-          <button class="btn ghost" onclick="showStrokeOrder('${(k||"").replace(/'/g,"")}')">書き順を見る</button>
+          <button class="btn ghost" onclick="KC.openKanji(${idx},'belajar')">書き順を見る</button>
           <button class="btn" onclick="KC.openKanji(${idx},'latihan')">書いてみよう ✍️</button>
           <button class="btn gold" onclick='rangkumPopup({jp:"${(k||"").replace(/"/g,"\\&quot;")}",kana:"${(bagikana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kanji ${no}")'>➕ Rangkum</button>
         </div>
@@ -2875,25 +2727,19 @@ window.showMateri = async (tipe, idx, vno) => {
       </div>
     `;
   } else if (tipe === "kosakata") {
-    const _v = _vfPick(it);
-    const kata = _v.kata;
-    const kana = _v.kana;
-    const _gl = {1:"Gol. 1 (godan)",2:"Gol. 2 (ichidan)",3:"Gol. 3 (tak beraturan)"};
-    const _vinfo = it.km ? `<div style="font-size:13px;color:var(--gray);margin:-4px 0 8px;">${_gl[it.g]||""} · 辞書形: ${_cleanKata(it.kata)} (${it.kana}) · ます形: ${it.km} (${it.ms})</div>` : "";
+    const kata = it.kata || it.k || "";
+    const kana = it.kana || it.f || "";
     const arti = it.arti || it.a || "";
-    const _c0 = it.contoh || it.ej || "";
+    const contoh = it.contoh || it.ej || "";
     const contohArti = it.arti_contoh || it.et || "";
-    // contoh yang hanya mengulang kata itu sendiri (tanpa terjemahan) tidak ditampilkan
-    const contoh = (_c0 && (contohArti || _c0.replace(/\[[^\]]*\]/g, "").replace(/\s/g, "") !== _cleanKata(kata).replace(/\s/g, ""))) ? _c0 : "";
     body = `
       <div class="kanji-detail">
         <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
-        <div class="big-k" style="font-size:72px;">${_cleanKata(kata)}</div>
+        <div class="big-k" style="font-size:72px;">${kata}</div>
         <div class="readings"><div class="r">${kana}</div></div>
-        ${_vinfo}<div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
-        ${it.img ? `<img class="kimg" src="${it.img}" alt="" loading="lazy">` : ""}
+        <div style="font-size:16px; margin:12px 0;"><b>${arti}</b></div>
         ${contoh ? `<div class="contoh-item" style="justify-content:flex-start; flex-direction:column; text-align:left; position:relative;">
-          <div class="jp">${_rubyJp(contoh)} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="kosakata-contoh" onclick="SV.btn(this)">🔊</button></div>
+          <div class="jp">${contoh} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="kosakata-contoh" onclick="SV.btn(this)">🔊</button></div>
           <div class="id" style="text-align:left;">${contohArti}</div>
           <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
                   onclick='rangkumPopup({}, "Contoh kalimat: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
@@ -2901,7 +2747,6 @@ window.showMateri = async (tipe, idx, vno) => {
         <div style="display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:16px;">
           <button class="btn" data-say="${SV.escAttr(kata)}" data-read="${SV.escAttr(kana||kata)}" data-role="kosakata" onclick="SV.btn(this)">🔊 Dengar</button>
           <button class="btn ghost" onclick="showStrokeOrder('${(kata||"").replace(/'/g,"")}')">✍️ Urutan Goresan</button>
-          ${/[\u3400-\u9fff]/.test(kata) ? `<button class="btn" onclick="KC.openWord(${idx},'latihan')">書いてみよう ✍️</button>` : ""}
           <button class="btn gold" onclick='rangkumPopup({jp:"${(kata||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${(arti||"").replace(/"/g,"\\&quot;")}"}, "Kosakata ${no}")'>➕ Rangkum</button>
         </div>
         ${_commentsPlaceholder("kosakata", state.level, itemNo(it, idx))}
@@ -2911,28 +2756,20 @@ window.showMateri = async (tipe, idx, vno) => {
     const pola = it.pola || it.p || it.kata || "";
     const kana = it.kana || it.b || "";
     const penjelasan = it.penjelasan || it.e || "";
-    const _rb = (t) => String(t || "").replace(/([\u3400-\u9fff々]+)\[([^\]]+)\]/g, "<ruby>$1<rt>$2</rt></ruby>");
-    const rumus = Array.isArray(it.rumus) ? it.rumus : [];
-    const contohList = [];
-    if (it.contoh) contohList.push({ jp: it.contoh, id: it.arti_contoh || it.et || "" });
-    (it.contoh_lain || []).forEach(c => contohList.push(c));
-    const baru = rumus.length > 0;   // format baru: Arti / Penjelasan / Rumus / Contoh
-    const contohHtml = contohList.map(c => `<div class="contoh-item" style="flex-direction:column; align-items:flex-start; position:relative; margin-top:8px;">
-          <div class="jp">${_rb(c.jp)} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(c.jp)}" data-role="bunpou-contoh" onclick="SV.btn(this)">🔊</button></div>
-          <div class="id" style="text-align:left; align-self:stretch;">${c.id || ""}</div>
-        </div>`).join("");
+    const contoh = it.contoh || it.ej || "";
+    const contohArti = it.arti_contoh || it.et || "";
     body = `
       <div class="kanji-detail">
         <div class="no-pill">${no} · ${state.level.toUpperCase()}</div>
-        <div class="big-k" style="font-size:${pola.length > 12 ? 34 : 60}px;">${pola}</div>
+        <div class="big-k" style="font-size:60px;">${pola}</div>
         ${kana && kana !== pola ? `<div class="readings"><div class="r">${kana}</div></div>` : ""}
-        ${baru ? `
-        <div class="bp-sec"><div class="bp-h">Arti</div><div class="bp-b"><b>${it.arti || ""}</b></div></div>
-        <div class="bp-sec"><div class="bp-h">Penjelasan</div><div class="bp-b">${penjelasan}</div></div>
-        <div class="bp-sec"><div class="bp-h">Rumus Bunpou</div><ul class="bp-rumus">${rumus.map(r => `<li>${r}</li>`).join("")}</ul></div>
-        <div class="bp-sec"><div class="bp-h">Contoh</div>${contohHtml}</div>` : `
         <div style="font-size:14px; margin:12px 0; line-height:1.6; text-align:left; background:rgba(255,255,255,.04); padding:14px; border-radius:10px; white-space:pre-wrap;">${penjelasan}</div>
-        ${contohHtml}`}
+        ${contoh ? `<div class="contoh-item" style="flex-direction:column; align-items:flex-start; position:relative;">
+          <div class="jp">${contoh} <button class="say-mini" title="Dengarkan contoh" data-say="${SV.escAttr(contoh)}" data-role="bunpou-contoh" onclick="SV.btn(this)">🔊</button></div>
+          <div class="id" style="text-align:left; align-self:stretch;">${contohArti}</div>
+          <button class="btn sm ghost" style="position:absolute; top:6px; right:6px; padding:4px 8px;"
+                  onclick='rangkumPopup({}, "Contoh grammar: ${contoh.replace(/"/g,"\\&quot;").slice(0,60)}")'>➕ Rangkum</button>
+        </div>` : ""}
         <div style="margin-top:14px; text-align:center;">
           <button class="btn gold" onclick='rangkumPopup({jp:"${(pola||"").replace(/"/g,"\\&quot;")}",kana:"${(kana||"").replace(/"/g,"\\&quot;")}",arti:"${((it.arti||it.e||"")+"").slice(0,80).replace(/"/g,"\\&quot;")}"}, "Bunpou ${no}")'>➕ Rangkum pola ini</button>
         </div>
@@ -3103,30 +2940,14 @@ window.showStrokeOrder = async (word) => {
   await Promise.all(kanjiChars.map((c, i) => _loadKanjiPanel(c, i)));
 };
 
-const _strokeShards = {};
-async function _localStroke(ch){
-  const sh = (ch.codePointAt(0) >> 8).toString(16).padStart(3, "0");
-  if (!_strokeShards[sh]) _strokeShards[sh] = fetch(`./data/kanji-strokes/${sh}.json`).then(r => r.ok ? r.json() : {}).catch(() => ({}));
-  return (await _strokeShards[sh])[ch] || null;
-}
-function _strokeSvg(g){
-  const nums = g.n || g.s.map(d => { const m = /M\s*([\d.\-]+)[ ,]([\d.\-]+)/.exec(d); return m ? [parseFloat(m[1]) - 6, parseFloat(m[2]) - 2] : [10, 10]; });
-  return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 109 109"><g id="kvg:StrokePaths_x">${g.s.map(d => `<path d="${d}"/>`).join("")}</g><g id="kvg:StrokeNumbers_x">${nums.map((n, i) => `<text transform="matrix(1 0 0 1 ${n[0]} ${n[1]})">${i + 1}</text>`).join("")}</g></svg>`;
-}
 async function _loadKanjiPanel(ch, idx){
   const container = document.querySelector(`#stroke-grid .stroke-wrap[data-idx="${idx}"]`);
   const counter = document.querySelector(`#stroke-grid [data-counter="${idx}"]`);
   if (!container) return;
   try {
-    // 1) data goresan lokal (dibundel di repo: data/kanji-strokes/) → tidak tergantung internet/CDN
-    // 2) cadangan: KanjiVG lewat CDN
-    let text = null;
-    try { const g = await _localStroke(ch); if (g) text = _strokeSvg(g); } catch(_){}
-    if (!text) {
-      const res = await fetch(_kanjiVgUrl(ch));
-      if (!res.ok) throw new Error("Not in KanjiVG");
-      text = await res.text();
-    }
+    const res = await fetch(_kanjiVgUrl(ch));
+    if (!res.ok) throw new Error("Not in KanjiVG");
+    const text = await res.text();
     const doc = new DOMParser().parseFromString(text, "image/svg+xml");
     const svg = doc.querySelector("svg");
     if (!svg) throw new Error("SVG kosong");
@@ -3283,88 +3104,37 @@ function _autoSpeakJP(txt){
 function _srsKey(tipe, it, idx){ return tipe[0] + ":" + itemNo(it, idx); }
 
 // Normalize an item from kanji or kosakata into a common pair for drills.
-/* penanda homonim [1] / [×yomi] di data kosakata tidak ditampilkan */
-function _cleanKata(k){ return String(k || '').replace(/\[[^\]]*\]/g, '').trim(); }
-function _frHtml(fr){
-  const esc = (t) => String(t).replace(/&/g, "&amp;").replace(/</g, "&lt;");
-  return String(fr).split(/\s+/).filter(Boolean).map(tok => tok.replace(/([^\[\]]*?)([^\s\[\]（）()]+?)\[([^\]]+)\]/g, (m, pre, base, rd) => `${esc(pre)}<ruby>${esc(base)}<rt>${esc(rd)}</rt></ruby>`)).join("");
-}
-/* Bentuk kata kerja: 辞書形 (default) / ます形 — disimpan di localStorage, berlaku di materi & hafalan */
-function _vfMasu(){ try { return localStorage.getItem("shirose-verbform") === "masu"; } catch(_) { return false; } }
-function _vfPick(it){
-  if (_vfMasu() && it && it.km) return { kata: it.km, kana: it.ms || it.kana || "", fr: it.fm || "" };
-  return { kata: it.kata || it.k || "", kana: it.kana || it.f || "", fr: it.fr || "" };
-}
-function _vfBtn(fn){ const m = _vfMasu(); return `<span class="vf-sw"><button class="haf-chip ${m ? "" : "on"}" onclick="${fn}('jisho')">辞書形</button><button class="haf-chip ${m ? "on" : ""}" onclick="${fn}('masu')">ます形</button></span>`; }
-window.setVerbForm = (m) => { try { localStorage.setItem("shirose-verbform", m === "masu" ? "masu" : "jisho"); } catch(_) {} };
-window.setVerbFormMateri = (m) => { setVerbForm(m); renderMateriList("kosakata").then(h => { document.getElementById("app").innerHTML = h; }); };
-function _rubyJp(t){ return String(t || "").replace(/&/g,"&amp;").replace(/<(?!\/?(b|ruby|rt)\b)/g,"&lt;").replace(/([\u3400-\u9fff々〆]+)\[([^\]]+)\]/g, "<ruby>$1<rt>$2</rt></ruby>"); }
-function _hafFront(it){
-  if (it.fr && /\[/.test(it.fr)) {
-    const pl = String(it.fr).replace(/\[[^\]]*\]/g, "").replace(/\s+/g, "");
-    if (pl === String(it.front).replace(/\s+/g, "")) return _frHtml(it.fr);
-  }
-  const rd = String(it.reading || '').replace(/<[^>]+>/g, '');
-  return (rd && /[\u3400-\u9fff]/.test(it.front) && !/<ruby/.test(it.front) && rd !== it.front) ? `<ruby>${it.front}<rt>${rd}</rt></ruby>` : it.front;
-}
-function _hafFormBtn(){
-  if (!(state.hafalan_queue || []).some(p => p.src && p.src.km)) return "";
-  return `<button class="btn ghost sm" id="haf-form-btn" onclick="hafToggleForm()" title="Ganti bentuk kata kerja">${_vfMasu() ? "ます形" : "辞書形"}</button>`;
-}
-function _hafFuriBtn(){ return `<button class="btn ghost sm" id="haf-furi-btn" onclick="hafToggleFuri()" aria-pressed="${_hafFuriOn()}">${_hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"}</button>${_hafFormBtn()}`; }
-function _hafRefit(p){
-  if (!p || !p.src || !p.src.km) return p;
-  const v = _vfPick(p.src);
-  p.front = _cleanKata(v.kata); p.fraw = v.kata; p.fr = v.fr; p.reading = v.kana;
-  return p;
-}
-window.hafToggleForm = function hafToggleForm(){
-  setVerbForm(_vfMasu() ? "jisho" : "masu");
-  (state.hafalan_queue || []).forEach(_hafRefit);
-  renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
-};
 function _normalizeItem(tipe, it, idx){
   if (tipe === "kanji"){
     return {
       tipe, idx, no: itemNo(it, idx),
-      front: it.kanji || it.k || "", fraw: it.kanji || it.k || "",
+      front: it.kanji || it.k || "",
       reading: it.kana || `${it.on || ""} ${it.kun || ""}`.trim() || "",
       back: it.arti || it.a || "",
     };
   }
   return {
     tipe, idx, no: itemNo(it, idx),
-    front: _cleanKata(_vfPick(it).kata), fraw: _vfPick(it).kata, fr: _vfPick(it).fr,
-    reading: _vfPick(it).kana,
+    front: it.kata || it.k || "",
+    reading: it.kana || it.f || "",
     back: it.arti || it.a || "",
-    pos: it.pos, src: it.km ? it : undefined, kimg: it.img || "",
   };
-}
-// Filter kelas kata untuk Hafalan: nomor tampilan (dno) dihitung ulang 1..n; kunci SRS tetap pakai nomor asli.
-function _posPool(pool, cfg){
-  const k = cfg.tipe === "kosakata" ? cfg.pos : "all";
-  if (!POS_DEF.some(d => d.k === k)) { pool.forEach(p => { p.dno = p.no; }); return pool; }
-  const out = pool.filter(p => Array.isArray(p.pos) && p.pos.includes(k));
-  out.forEach((p, i) => { p.dno = i + 1; });
-  return out;
 }
 
 async function _loadSrs(){
   let srs = {};
   try {
-    if (state.user) srs = await FB.loadSRS(state._srsLevel || state.level);
-    else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state._srsLevel || state.level}`) || "{}");
+    if (state.user) srs = await FB.loadSRS(state.level);
+    else srs = JSON.parse(localStorage.getItem(`shirose-srs-${state.level}`) || "{}");
   } catch (e) { console.warn("_loadSrs:", e.message); srs = {}; }
   state.srs = srs || {};
   return state.srs;
 }
 async function _saveSrs(){
   try {
-    if (state.user) await FB.saveSRS(state._srsLevel || state.level, state.srs);
-    else localStorage.setItem(`shirose-srs-${state._srsLevel || state.level}`, JSON.stringify(state.srs));
+    if (state.user) await FB.saveSRS(state.level, state.srs);
+    else localStorage.setItem(`shirose-srs-${state.level}`, JSON.stringify(state.srs));
   } catch (e) { console.warn("_saveSrs:", e.message); }
-  // Progres SSW (poin & peringkat) langsung dihitung tiap kartu digeser, tidak menunggu sesi selesai.
-  if (String(state._srsLevel || "").startsWith("ssw-") && window.sswOnProgress) window.sswOnProgress();
 }
 
 // Entry router. renderHafalan() -> selection. renderHafalan(['go']) -> session using state.hafalan.
@@ -3373,7 +3143,6 @@ async function renderHafalan(params){
   if (sub === "go") return renderHafalanSession();
   // Reset the rangkuman-context flag when navigating to the normal /#hafalan.
   state._rangkumanContext = false;
-  if (state._srsLevel) { state._srsLevel = null; state.hafalan_ctx = null; state.hafalan_back = null; state.hafalan_queue = []; state.srs = {}; }
   return renderHafalanSelect();
 }
 
@@ -3435,9 +3204,8 @@ async function _renderHafalanSelectImpl(){
     }
     return pool;
   }
-  const poolAll = activePool();
-  const pool = _posPool(poolAll, cfg);
-  const maxNo = pool.reduce((m, p) => Math.max(m, p.dno), 0);
+  const pool = activePool();
+  const maxNo = pool.reduce((m, p) => Math.max(m, p.no), 0);
 
   function makeRanges(n){
     const r = [];
@@ -3459,7 +3227,7 @@ async function _renderHafalanSelectImpl(){
   let preview = pool;
   if (cfg.range !== "all"){
     const [lo, hi] = cfg.range.split("-").map(Number);
-    preview = preview.filter(p => p.dno >= lo && p.dno <= hi);
+    preview = preview.filter(p => p.no >= lo && p.no <= hi);
   }
   preview = preview.filter(p => {
     const key = _srsKey(p.tipe, {no:p.no}, p.idx);
@@ -3500,7 +3268,6 @@ async function _renderHafalanSelectImpl(){
         `}
       </div>
 
-      ${cfg.tipe === "kosakata" ? `<h3 style="margin:16px 0 8px;">Pilih kategori hafalan</h3>${posBar(kos, POS_DEF.some(d => d.k === cfg.pos) ? cfg.pos : "all", "hafPos")}` : ""}
       <h3 style="margin:16px 0 8px;">2. Rentang nomor <small style="color:var(--gray-dim); font-weight:400;">(bucket per 50)</small></h3>
       <div class="haf-chip-row">
         ${ranges.map(r => chip("range", r, r === "all" ? "Semua" : r)).join("")}
@@ -3532,7 +3299,7 @@ async function _renderHafalanSelectImpl(){
               const s = _cardStatus(state.srs[key]);
               return `
                 <div class="status-item" style="background:${s.bg}; border-color:${s.color}44;">
-                  <span class="no-badge">${fmtNo(p.dno ?? p.no)}</span>
+                  <span class="no-badge">${fmtNo(p.no)}</span>
                   <div class="status-jp">${p.front}</div>
                   <div class="status-mean">${p.back}</div>
                   <span class="status-chip" style="color:${s.color}; border-color:${s.color};">${s.label}</span>
@@ -3541,7 +3308,7 @@ async function _renderHafalanSelectImpl(){
             ${preview.length > 200 ? `<p style="text-align:center; color:var(--gray); margin-top:8px;">...dan ${preview.length-200} kartu lainnya</p>` : ""}
           </div>
         </details>
-      ` : `<p style="text-align:center; color:var(--gray-dim); margin:12px 0;">${cfg.tipe === "kosakata" && POS_DEF.some(d => d.k === cfg.pos) && !pool.length ? "Belum ada kosakata untuk kategori ini." : "Tidak ada kartu dengan filter ini."}</p>`}
+      ` : `<p style="text-align:center; color:var(--gray-dim); margin:12px 0;">Tidak ada kartu dengan filter ini.</p>`}
 
       <h3 style="margin:16px 0 8px;">4. Mode belajar</h3>
       <div class="haf-mode-row">
@@ -3571,17 +3338,14 @@ async function _renderHafalanSelectImpl(){
   `;
 }
 
-window.hafPos = (k) => hafCfg("pos", k);
 window.hafCfg = (field, value) => {
   state.hafalan = state.hafalan || {};
   state.hafalan[field] = value;
-  if (field === "pos") state.hafalan.range = "all";
   document.getElementById("app").innerHTML = "";
   renderHafalanSelect().then(h => { document.getElementById("app").innerHTML = h; });
 };
 
 window.hafStart = async () => {
-  state._srsLevel = null; state.hafalan_ctx = null; state.hafalan_back = null;
   const cfg = state.hafalan;
   const promises = [
     loadMateri("kosakata", state.level),
@@ -3595,7 +3359,7 @@ window.hafStart = async () => {
   const [kos, knj, rangList] = await Promise.all(promises);
   await _loadSrs();
 
-  let pool = [];
+  const pool = [];
   const push = (tipe, arr) => arr.forEach((it, idx) => pool.push(_normalizeItem(tipe, it, idx)));
   if (cfg.tipe === "rangkuman"){
     rangList.forEach((r, i) => pool.push({ tipe:"rangkuman", idx:i, no:i+1, front:r.jp, reading:r.kana||"", back:r.arti||"" }));
@@ -3603,13 +3367,12 @@ window.hafStart = async () => {
     if (cfg.tipe === "kosakata" || cfg.tipe === "semua") push("kosakata", kos);
     if (cfg.tipe === "kanji"    || cfg.tipe === "semua") push("kanji", knj);
   }
-  pool = _posPool(pool, cfg);
 
   // Range filter
   let inRange = pool;
   if (cfg.range && cfg.range !== "all"){
     const [lo, hi] = cfg.range.split("-").map(Number);
-    inRange = pool.filter(p => (p.dno ?? p.no) >= lo && (p.dno ?? p.no) <= hi);
+    inRange = pool.filter(p => p.no >= lo && p.no <= hi);
   }
 
   // Status filter
@@ -3639,49 +3402,11 @@ window.hafStart = async () => {
   route("hafalan/go");
 };
 
-/* ===== Jembatan SSW → mesin hafalan JLPT (3 mode yang sama; progres di dokumen SRS terpisah "ssw-bc") ===== */
-const _SSW_SESS = "shirose-ssw-hafsess";
-const _hafSSW = () => state.hafalan_ctx === "ssw";
-const _hafMenu = () => (_hafSSW() && state.hafalan_back) || "hafalan";
-const _hafHome = () => (_hafSSW() && state.hafalan_back) || "home";
-const _hafHomeLbl = () => _hafSSW() ? "↩ Kembali" : "🏠 Home";
-// Dokumen SRS per bidang SSW: Building Cleaning tetap "ssw-bc" (data lama), bidang lain "ssw-<slug>".
-const _sswLvl = (slug) => { slug = slug || (window.__sswSlug && window.__sswSlug()) || "building-cleaning"; return slug === "building-cleaning" ? "ssw-bc" : "ssw-" + slug; };
-const _hafBadge = (it) => it.tipe === "ssw" ? "SSW · " + String((window.__sswSlug && window.__sswSlug()) || "").replace(/-/g, " ").toUpperCase() : `${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}`;
-function _sswSaveSess(){ try { sessionStorage.setItem(_SSW_SESS, JSON.stringify({ lvl: state._srsLevel, q: state.hafalan_queue, pos: state.hafalan_pos, mode: (state.hafalan||{}).mode, back: state.hafalan_back, score: state.hafalan_score })); } catch(e){} }
-window.sswHafalStart = async ({ items, mode, back }) => {
-  if (!items || !items.length) { toast("Tidak ada kosakata untuk sesi ini"); return false; }
-  state._srsLevel = _sswLvl(); state.hafalan_ctx = "ssw"; state.hafalan_back = back || "ssw";
-  await _loadSrs();
-  state.hafalan = { tipe: "ssw", mode: mode || "flashcard", range: "all", filter: "all" };
-  state.hafalan_queue = items.slice().sort(() => Math.random() - 0.5);
-  state.hafalan_pos = 0; state.hafalan_score = { benar: 0, salah: 0 };
-  _sswSaveSess();
-  route("hafalan/go");
-  return true;
-};
-window.sswSrsLoad = async () => { const keep = state._srsLevel; state._srsLevel = _sswLvl(); const r = await _loadSrs(); state._srsLevel = keep; return r; };
-window.sswAddCard = async (no, idx) => {
-  const keep = state._srsLevel, keepSrs = state.srs; state._srsLevel = _sswLvl(); await _loadSrs();
-  const k = _srsKey("ssw", { no }, idx); if (!state.srs[k]) state.srs[k] = { n: 0, interval: 1, due: Date.now() };
-  await _saveSrs(); state._srsLevel = keep; state.srs = keepSrs || {};
-};
-async function _sswRestore(){
-  try {
-    const d = JSON.parse(sessionStorage.getItem(_SSW_SESS) || "null"); if (!d || !d.q || !d.q.length) return false;
-    state._srsLevel = d.lvl || "ssw-bc"; state.hafalan_ctx = "ssw"; state.hafalan_back = d.back || "ssw";
-    await _loadSrs();
-    state.hafalan = { tipe: "ssw", mode: d.mode || "flashcard", range: "all", filter: "all" };
-    state.hafalan_queue = d.q; state.hafalan_pos = d.pos || 0; state.hafalan_score = d.score || { benar: 0, salah: 0 };
-    return true;
-  } catch (e) { return false; }
-}
-async function renderHafalanSession(){
-  if (!(state.hafalan_queue || []).length && await _sswRestore()) { /* sesi SSW dipulihkan setelah refresh */ }
+function renderHafalanSession(){
   const cfg = state.hafalan || {};
   const mode = cfg.mode || "flashcard";
   const q = state.hafalan_queue || [];
-  if (!q.length) { if (_hafSSW() || sessionStorage.getItem(_SSW_SESS)) return `<div class="panel"><h2>Sesi hafalan selesai / kedaluwarsa</h2><button class="btn" onclick="route('${state.hafalan_back || "ssw"}')">↩ Kembali ke hafalan</button></div>`; return renderHafalanSelect(); }
+  if (!q.length) return renderHafalanSelect();
 
   if (mode === "flashcard") return renderHafalanFlashcard();
   if (mode === "matching")  return renderHafalanMatching();
@@ -3689,18 +3414,13 @@ async function renderHafalanSession(){
   return renderHafalanFlashcard();
 }
 
-/* Furigana pada sisi depan flashcard: tombol ON/OFF (disimpan, default OFF supaya tetap jadi latihan baca) */
-function _hafFuriOn(){ try { return localStorage.getItem("shirose-haf-furi") === "1"; } catch(_) { return false; } }
-function _hafApplyFuri(){ document.body.classList.toggle("haf-furi-on", _hafFuriOn()); }
-window.hafToggleFuri = function hafToggleFuri(){ try { localStorage.setItem("shirose-haf-furi", _hafFuriOn() ? "0" : "1"); } catch(_) {} _hafApplyFuri(); const b = document.getElementById("haf-furi-btn"); if (b){ b.textContent = _hafFuriOn() ? "ふりがな ON" : "ふりがな OFF"; b.setAttribute("aria-pressed", String(_hafFuriOn())); } }
-_hafApplyFuri();
 /* ========== MODE 1: FLASHCARD v2 — front-only, tap = reveal, center btn = prev ========== */
 function renderHafalanFlashcard(){
   const q = state.hafalan_queue;
   const pos = state.hafalan_pos;
   if (pos >= q.length) return renderHafalanDone();
   const it = q[pos];
-  const safeFront = (it.fraw || it.front || "").replace(/"/g, "&quot;");
+  const safeFront = (it.front || "").replace(/"/g, "&quot;");
   // Fresh reveal state each new card
   state._flashRevealed = false;
 
@@ -3714,24 +3434,20 @@ function renderHafalanFlashcard(){
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
+        <button class="btn ghost sm" onclick="route('hafalan')">← Menu</button>
         <span style="color:var(--gray); font-size:14px; font-weight:700;">${pos+1} / ${q.length}</span>
-        ${_hafFuriBtn()}
-        <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
       </div>
 
       <div class="flash-stage" id="flash-stage">
         <span class="flash-badge left" id="badge-lupa">✕ LUPA</span>
         <span class="flash-badge right" id="badge-ingat">✓ INGAT</span>
         <div class="flash-card enter" id="flash-card" data-front="${safeFront}" data-say="${safeFront}" onclick="hafCardTap(event)">
-          <div class="no-pill">${fmtNo(it.dno ?? it.no)} · ${_hafBadge(it)}</div>
-          ${it.img ? `<div class="front imgf"><img src="${it.img}" alt="Gambar peralatan" draggable="false"></div>` : `<div class="front">${_hafFront(it)}</div>`}
+          <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : it.tipe === "rangkuman" ? "RANGKUMAN" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+          <div class="front">${it.front}</div>
           <div class="back-face">
-            ${it.img ? `<div class="jpname">${it.front}</div>` : ""}
             <div class="reading">${it.reading || "—"}</div>
             <div class="arti">${it.back || "—"}</div>
-            ${it.kimg ? `<img class="kimg" src="${it.kimg}" alt="" loading="lazy" draggable="false">` : ""}
-            ${it.fungsi ? `<div class="fungsi">${it.fungsi}</div>` : ""}
           </div>
           <button class="say-btn" title="Dengarkan" onclick="event.stopPropagation(); speakJP(this.closest('.flash-card').dataset.say)">🔊</button>
           <div class="tap-hint">👆 Tap kartu = bolak-balik depan/belakang · ← Geser Lupa · Ingat Geser →</div>
@@ -3778,7 +3494,7 @@ window.hafCardTap = (ev) => {
 window.hafBack = () => {
   if ((state.hafalan_pos || 0) === 0) return;
   state.hafalan_pos--;
-  if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
+  document.getElementById("app").innerHTML = renderHafalanSession();
 };
 
 // Attach touch/pointer handlers for the physical swipe.
@@ -3866,18 +3582,17 @@ window.hafRate = async (rate) => {
   card.last = normalized;
   const justMastered = FB.detectNewMastery(card);
   state.srs[key] = card;
-  if (it.tipe === "ssw" && it.vnum) state.srs[_srsKey("ssw", { no: it.vnum }, it.vnum - 1)] = { ...card };   // kartu alat ikut progres kosakata utamanya
   await _saveSrs();
 
   if (normalized === "ingat"){
     playJurus();   // Part 25: signature animation on correct recall
-    await awardXP(3, justMastered ? 2 : 1);
+    await awardXP(3, justMastered ? 1 : 0);
     if (justMastered) toast(`🏆 ${it.tipe === "kanji" ? "Kanji" : "Kosakata"} ${it.front} — MASTERED! +1 🪙`);
     state.hafalan_score.benar++;
     if (state.user) {
       FB.updateMisiProgres("hafalan_10", 1).catch(()=>{});
       const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
-      if (it.tipe !== "ssw") FB.recordActivity(actType).catch(()=>{});
+      FB.recordActivity(actType).catch(()=>{});
     }
   } else {
     await awardXP(1, 0);
@@ -3885,8 +3600,7 @@ window.hafRate = async (rate) => {
   }
 
   state.hafalan_pos++;
-  if (_hafSSW()) _sswSaveSess();
-  document.getElementById("app").innerHTML = await renderHafalanSession();
+  document.getElementById("app").innerHTML = renderHafalanSession();
 };
 
 /* ========== MODE 2: MATCHING LINES (tap-to-pair, mobile-friendly) ========== */
@@ -3904,18 +3618,18 @@ function renderHafalanMatching(){
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
+        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
         <span style="color:var(--gray); font-size:13px;">Kelompok ${Math.floor(pos/5)+1} · ${batch.length} pasang</span>
-        ${_hafFuriBtn()}
-        <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
       </div>
       <p style="color:var(--gray); font-size:13px; margin:8px 0;">Tap kata di kiri, lalu arti yang cocok di kanan.</p>
       <div class="match-grid">
         <div class="match-col" id="match-left">
           ${batch.map((it, i) => `
             <button class="match-item" data-side="L" data-i="${i}" onclick="matchTap('L', ${i})">
-              <span class="no-badge">${fmtNo(it.dno ?? it.no)}</span>
-              ${it.img ? `<img class="match-img" src="${it.img}" alt="Alat">` : `<div class="jp haf-r">${_hafFront(it)}</div>`}
+              <span class="no-badge">${fmtNo(it.no)}</span>
+              <div class="jp">${it.front}</div>
+              <div class="rd">${it.reading}</div>
             </button>`).join("")}
         </div>
         <div class="match-col" id="match-right">
@@ -3974,13 +3688,13 @@ async function matchAfterPair(correct, iInBatch){
   state.srs[key] = card;
   await _saveSrs();
   if (correct){
-    _autoSpeakJP(it.fraw || it.front);
+    _autoSpeakJP(it.front);
     playJurus();
-    await awardXP(3, justMastered ? 2 : 1);
+    await awardXP(3, justMastered ? 1 : 0);
     if (justMastered) toast(`🏆 ${it.front} — MASTERED! +1 🪙`);
     if (state.user) {
       const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
-      if (it.tipe !== "ssw") FB.recordActivity(actType).catch(()=>{});
+      FB.recordActivity(actType).catch(()=>{});
     }
   }
 }
@@ -3988,12 +3702,12 @@ window.matchCheckDone = () => {
   const remaining = document.querySelectorAll('.match-item[data-side="L"]:not(:disabled)').length;
   if (remaining === 0){
     state.hafalan_pos = Math.min(state.hafalan_pos + 5, state.hafalan_queue.length);
-    if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
+    document.getElementById("app").innerHTML = renderHafalanSession();
   }
 };
 window.matchSkip = () => {
   state.hafalan_pos = Math.min(state.hafalan_pos + 5, state.hafalan_queue.length);
-  if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
+  document.getElementById("app").innerHTML = renderHafalanSession();
 };
 
 /* ========== MODE 3: MULTIPLE CHOICE ========== */
@@ -4014,16 +3728,15 @@ function renderHafalanMultiple(){
   return `
     <div class="panel">
       <div class="haf-topbar">
-        <button class="btn ghost sm" onclick="route('${_hafMenu()}')">← Kembali</button>
+        <button class="btn ghost sm" onclick="route('hafalan')">← Back</button>
         <span style="color:var(--gray); font-size:13px;">${pos+1} / ${q.length}</span>
-        ${_hafFuriBtn()}
-        <button class="btn ghost sm" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
+        <button class="btn ghost sm" onclick="route('home')">🏠 Home</button>
       </div>
       <div class="kanji-detail" style="padding:12px 0;">
-        <div class="no-pill">${fmtNo(it.dno ?? it.no)} · ${_hafBadge(it)}</div>
-        ${it.img ? `<img class="mc-img" src="${it.img}" alt="Alat" draggable="false"><p style="color:var(--gray); margin-top:8px;">Alat apa ini? (pilih namanya)</p>`
-          : `<div class="big-k haf-r" style="font-size:72px;">${_hafFront(it)}</div>
-        <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>`}
+        <div class="no-pill">${fmtNo(it.no)} · ${it.tipe === "kanji" ? "KANJI" : "KOSAKATA"} · ${state.level.toUpperCase()}</div>
+        <div class="big-k" style="font-size:72px;">${it.front}</div>
+        <div class="readings"><div class="r">${it.reading}</div></div>
+        <p style="color:var(--gray); margin-top:8px;">Apa arti kata di atas?</p>
       </div>
       <div class="opsi-list" id="mc-opts">
         ${options.map((o, i) => `
@@ -4081,14 +3794,14 @@ window.mcPick = async (encoded, btn) => {
   }
   if (correct && state.user){
     const actType = it.tipe === "kanji" ? "kanji" : "kosakata";
-    if (it.tipe !== "ssw") FB.recordActivity(actType).catch(()=>{});
+    FB.recordActivity(actType).catch(()=>{});
   }
 
   document.getElementById("mc-next").style.display = "flex";
 };
 window.mcNext = () => {
   state.hafalan_pos++;
-  if (_hafSSW()) _sswSaveSess(); renderHafalanSession().then(h => { document.getElementById("app").innerHTML = h; });
+  document.getElementById("app").innerHTML = renderHafalanSession();
 };
 
 /* ========== Session done summary ========== */
@@ -4106,8 +3819,8 @@ function renderHafalanDone(){
         <div style="color:var(--gray); margin-top:6px;">+${s.benar*3} XP · +${s.benar} 🪙</div>
       </div>
       <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-top:12px;">
-        <button class="btn" onclick="route('${_hafMenu()}')">Sesi lagi</button>
-        <button class="btn ghost" onclick="route('${_hafHome()}')">${_hafHomeLbl()}</button>
+        <button class="btn" onclick="route('hafalan')">Sesi lagi</button>
+        <button class="btn ghost" onclick="route('home')">🏠 Home</button>
       </div>
     </div>
   `;
@@ -4373,7 +4086,7 @@ window.ujianSelesai = async () => {
   const skor = Math.round((benar / total) * 100);
   const durasi = Math.round((Date.now() - u.mulai) / 1000);
   await FB.catatNilai({ kategoriId: u.kategoriId, skor, benar, salah, waktu: durasi });
-  await awardXP(benar * 5, benar > 0 ? Math.ceil(benar / 4) : 0);
+  await awardXP(benar * 5, 0);
   let lulusReward = { firstTime:false, rewardKoin:0 };
   if (state.user){
     try { lulusReward = await FB.claimUjianLulusReward(u.kategoriId, skor, lulusMin); } catch(e){}
