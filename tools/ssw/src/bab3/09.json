@@ -1,0 +1,53 @@
+{
+ "id": "b3s9", "no": 9,
+ "title": { "id": "Membersihkan Kaca: Peralatan dan Aplikasi Sabun", "jp": "ガラス清掃：資器材と洗剤の塗布" },
+ "pages": [75, 76],
+ "full": {
+  "id": [
+   { "h": "Peralatan yang digunakan untuk membersihkan kaca" },
+   { "ul": [
+     "Ember (untuk lap dan untuk window washer).",
+     "Window washer (alat pengoles sabun) dan window cleaner (squeegee).",
+     "Lap, sabun pembersih kaca, curing mat, floor sign."
+   ] },
+   { "h": "Proses pembersihan kaca" },
+   { "ol": [
+     "Mengaplikasikan sabun pembersih kaca (window washer).",
+     "Menghilangkan kotoran (window cleaner / squeegee).",
+     "Lap basah (bingkai jendela, lantai) dengan lap."
+   ] },
+   { "h": "① Mengaplikasikan sabun" },
+   { "ul": [
+     "Pertama siapkan ember yang sudah diberi sabun pembersih kaca (di atas curing mat).",
+     "Celupkan seluruh bagian window washer ke sabun.",
+     "Oleskan sabun ke 4 sudut kaca terlebih dahulu.",
+     "Selanjutnya jangan sampai ada yang belum teroles sabun di bagian tengah (zig-zag)."
+   ] }
+  ],
+  "jp": [
+   { "h": "ガラス{清掃|せいそう}で{使用|しよう}する{資器材|しきざい}" },
+   { "ul": [
+     "バケツ（タオル{用|よう}、シャンパー{用|よう}）。",
+     "シャンパーとウインドスクイジー。",
+     "タオル、ガラス{用洗剤|ようせんざい}、{養生|ようじょう}マット、フロアサイン。"
+   ] },
+   { "h": "ガラス{清掃|せいそう}の{作業工程|さぎょうこうてい}" },
+   { "ol": [
+     "{洗剤|せんざい}の{塗布|とふ}（シャンパー）",
+     "{汚|よご}れの{除去|じょきょ}（スクイジー）",
+     "{水拭|みずぶ}き（フレーム、{床|ゆか}）（タオル）"
+   ] },
+   { "h": "① {洗剤|せんざい}の{塗布|とふ}" },
+   { "ul": [
+     "まず{洗剤|せんざい}を{入|い}れたバケツを{用意|ようい}しておく（{養生|ようじょう}マットの{上|うえ}）。",
+     "シャンパー{全体|ぜんたい}に{洗剤|せんざい}をふくませて。",
+     "ガラスの{四隅|よすみ}から{洗剤|せんざい}を{塗布|とふ}していこう。",
+     "つづけて{中央|ちゅうおう}に{塗|ぬ}り{残|のこ}しのないように{塗布|とふ}するんだ。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Kaca 3 tahap: oles sabun (washer) → hilangkan kotoran (squeegee) → lap basah. Oles dari 4 sudut, lalu tengah tanpa terlewat.", "points": ["Window washer = oles sabun.", "Squeegee = angkat kotoran.", "Lap basah bingkai dan lantai.", "4 sudut dulu."], "avoid": ["Ada bagian tengah yang belum teroles."], "exam": ["3 tahap membersihkan kaca.", "Fungsi window washer dan squeegee."] },
+  "jp": { "core": "ガラスは3{工程|こうてい}：{洗剤|せんざい}{塗布|とふ}（シャンパー）→{汚|よご}れ{除去|じょきょ}（スクイジー）→{水拭|みずぶ}き。", "points": ["シャンパー＝{洗剤|せんざい}を{塗|ぬ}る", "スクイジー＝{汚|よご}れを{除去|じょきょ}", "フレームと{床|ゆか}を{水拭|みずぶ}き", "{四隅|よすみ}から"], "avoid": ["{中央|ちゅうおう}の{塗|ぬ}り{残|のこ}し"], "exam": ["ガラス{清掃|せいそう}の3{工程|こうてい}", "シャンパーとスクイジーの{役割|やくわり}"] }
+ }
+}

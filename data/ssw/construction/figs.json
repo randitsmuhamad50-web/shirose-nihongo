@@ -1,0 +1,3626 @@
+{
+"slug": "construction",
+"note": "Gambar dipotong otomatis dari halaman buku resmi; judul/penjelasan disusun dari teks pada gambar + kosakata (auto:true = perlu penyuntingan manusia).",
+"figs": [
+{
+"id": "construction-jp-p001-0",
+"sub": "b1s1",
+"book": "jp",
+"page": 1,
+"y": 0.7,
+"src": "./assets/ssw/construction/fig/jp-p001-0.webp",
+"w": 490,
+"h": 412,
+"cap": {
+"id": "Kerja Sama Tim dan Sistem Pelaksanaan Konstruksi",
+"jp": "③工事全体をまとめる会社"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 1, untuk subbab «Kerja Sama Tim dan Sistem Pelaksanaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト1ページ「チームワークと施工のしくみ」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p002-0",
+"sub": "b1s2",
+"book": "jp",
+"page": 2,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p002-0.webp",
+"w": 677,
+"h": 340,
+"cap": {
+"id": "Sistem Kenaikan Karier Konstruksi (Career Up)",
+"jp": "|トル)+++|"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 2, untuk subbab «Sistem Kenaikan Karier Konstruksi (Career Up)». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト2ページ「キャリアアップシステム」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p003-0",
+"sub": "b1s3",
+"book": "jp",
+"page": 3,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p003-0.webp",
+"w": 315,
+"h": 236,
+"cap": {
+"id": "Salam dan Apel Pagi",
+"jp": "にSR"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 3, untuk subbab «Salam dan Apel Pagi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト3ページ「あいさつと朝礼」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p005-0",
+"sub": "b1s3",
+"book": "jp",
+"page": 5,
+"y": 0.18,
+"src": "./assets/ssw/construction/fig/jp-p005-0.webp",
+"w": 682,
+"h": 148,
+"cap": {
+"id": "Salam dan Apel Pagi",
+"jp": "ゴーしーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 5, untuk subbab «Salam dan Apel Pagi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト5ページ「あいさつと朝礼」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p005-1",
+"sub": "b1s3",
+"book": "jp",
+"page": 5,
+"y": 0.3,
+"src": "./assets/ssw/construction/fig/jp-p005-1.webp",
+"w": 685,
+"h": 148,
+"cap": {
+"id": "Salam dan Apel Pagi",
+"jp": "いいが"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 5, untuk subbab «Salam dan Apel Pagi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト5ページ「あいさつと朝礼」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p005-2",
+"sub": "b1s3",
+"book": "jp",
+"page": 5,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p005-2.webp",
+"w": 319,
+"h": 486,
+"cap": {
+"id": "Salam dan Apel Pagi",
+"jp": "ここ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 5, untuk subbab «Salam dan Apel Pagi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト5ページ「あいさつと朝礼」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p006-0",
+"sub": "b1s3",
+"book": "jp",
+"page": 6,
+"y": 0.38,
+"src": "./assets/ssw/construction/fig/jp-p006-0.webp",
+"w": 316,
+"h": 228,
+"cap": {
+"id": "Salam dan Apel Pagi",
+"jp": "危険予知活動表"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Salam dan Apel Pagi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト6ページ「あいさつと朝礼」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p009-0",
+"sub": "b2s1",
+"book": "jp",
+"page": 9,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p009-0.webp",
+"w": 288,
+"h": 197,
+"cap": {
+"id": "Undang-Undang Ketenagakerjaan",
+"jp": "安全衛生旗の例"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 9, untuk subbab «Undang-Undang Ketenagakerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト9ページ「労働基準法」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p014-0",
+"sub": "b2s3",
+"book": "jp",
+"page": 14,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p014-0.webp",
+"w": 334,
+"h": 263,
+"cap": {
+"id": "Hukum Lingkungan: Limbah, Daur Ulang, Udara, Bising, Air",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 14, untuk subbab «Hukum Lingkungan: Limbah, Daur Ulang, Udara, Bising, Air». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト14ページ「環境の法律」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p019-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 19,
+"y": 0.4,
+"src": "./assets/ssw/construction/fig/jp-p019-0.webp",
+"w": 253,
+"h": 299,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 19, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト19ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p019-1",
+"sub": "b3s1",
+"book": "jp",
+"page": 19,
+"y": 0.67,
+"src": "./assets/ssw/construction/fig/jp-p019-1.webp",
+"w": 348,
+"h": 279,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "の|"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 19, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト19ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p019-2",
+"sub": "b3s1",
+"book": "jp",
+"page": 19,
+"y": 0.67,
+"src": "./assets/ssw/construction/fig/jp-p019-2.webp",
+"w": 344,
+"h": 279,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 19, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト19ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p019-3",
+"sub": "b3s1",
+"book": "jp",
+"page": 19,
+"y": 0.84,
+"src": "./assets/ssw/construction/fig/jp-p019-3.webp",
+"w": 289,
+"h": 196,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 19, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト19ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p020-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 20,
+"y": 0.25,
+"src": "./assets/ssw/construction/fig/jp-p020-0.webp",
+"w": 285,
+"h": 188,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 20, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト20ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p020-1",
+"sub": "b3s1",
+"book": "jp",
+"page": 20,
+"y": 0.53,
+"src": "./assets/ssw/construction/fig/jp-p020-1.webp",
+"w": 374,
+"h": 293,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "oattetき"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 20, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト20ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p020-2",
+"sub": "b3s1",
+"book": "jp",
+"page": 20,
+"y": 0.53,
+"src": "./assets/ssw/construction/fig/jp-p020-2.webp",
+"w": 232,
+"h": 293,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 20, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト20ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p021-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 21,
+"y": 0.44,
+"src": "./assets/ssw/construction/fig/jp-p021-0.webp",
+"w": 335,
+"h": 724,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "橋染工事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 21, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト21ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p021-1",
+"sub": "b3s1",
+"book": "jp",
+"page": 21,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p021-1.webp",
+"w": 314,
+"h": 249,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 21, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト21ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p022-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 22,
+"y": 0.21,
+"src": "./assets/ssw/construction/fig/jp-p022-0.webp",
+"w": 313,
+"h": 196,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 22, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト22ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p022-1",
+"sub": "b3s1",
+"book": "jp",
+"page": 22,
+"y": 0.37,
+"src": "./assets/ssw/construction/fig/jp-p022-1.webp",
+"w": 313,
+"h": 202,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "工事の種類"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 22, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト22ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p023-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 23,
+"y": 0.26,
+"src": "./assets/ssw/construction/fig/jp-p023-0.webp",
+"w": 288,
+"h": 229,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "ーー:"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト23ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p023-1",
+"sub": "b3s1",
+"book": "jp",
+"page": 23,
+"y": 0.66,
+"src": "./assets/ssw/construction/fig/jp-p023-1.webp",
+"w": 298,
+"h": 691,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "ジ!、"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト23ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p024-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 24,
+"y": 0.46,
+"src": "./assets/ssw/construction/fig/jp-p024-0.webp",
+"w": 673,
+"h": 732,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "外装工事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 24, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト24ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p025-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 25,
+"y": 0.76,
+"src": "./assets/ssw/construction/fig/jp-p025-0.webp",
+"w": 740,
+"h": 409,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "都市ガス供給のしくみ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト25ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p026-0",
+"sub": "b3s1",
+"book": "jp",
+"page": 26,
+"y": 0.66,
+"src": "./assets/ssw/construction/fig/jp-p026-0.webp",
+"w": 584,
+"h": 681,
+"cap": {
+"id": "Jenis Pekerjaan Konstruksi",
+"jp": "室内を快適な状態にす"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 26, untuk subbab «Jenis Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト26ページ「工事の種類」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p027-0",
+"sub": "b3s2",
+"book": "jp",
+"page": 27,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p027-0.webp",
+"w": 306,
+"h": 281,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "ンプ」の設置-事などがあります。"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 27, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト27ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p027-1",
+"sub": "b3s2",
+"book": "jp",
+"page": 27,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p027-1.webp",
+"w": 214,
+"h": 281,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "火災受信機"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 27, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト27ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p027-2",
+"sub": "b3s2",
+"book": "jp",
+"page": 27,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p027-2.webp",
+"w": 206,
+"h": 281,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "主要専門工事①"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 27, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト27ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p027-3",
+"sub": "b3s2",
+"book": "jp",
+"page": 27,
+"y": 0.55,
+"src": "./assets/ssw/construction/fig/jp-p027-3.webp",
+"w": 223,
+"h": 201,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "N油圧ショベル"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 27, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト27ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p028-0",
+"sub": "b3s2",
+"book": "jp",
+"page": 28,
+"y": 0.21,
+"src": "./assets/ssw/construction/fig/jp-p028-0.webp",
+"w": 311,
+"h": 233,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "ハンドガイド"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 28, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト28ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p028-1",
+"sub": "b3s2",
+"book": "jp",
+"page": 28,
+"y": 0.62,
+"src": "./assets/ssw/construction/fig/jp-p028-1.webp",
+"w": 582,
+"h": 241,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "イシ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 28, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト28ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p028-2",
+"sub": "b3s2",
+"book": "jp",
+"page": 28,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p028-2.webp",
+"w": 391,
+"h": 240,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "主要専門工事①"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 28, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト28ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p029-0",
+"sub": "b3s2",
+"book": "jp",
+"page": 29,
+"y": 0.24,
+"src": "./assets/ssw/construction/fig/jp-p029-0.webp",
+"w": 319,
+"h": 252,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "ここ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 29, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト29ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p029-1",
+"sub": "b3s2",
+"book": "jp",
+"page": 29,
+"y": 0.67,
+"src": "./assets/ssw/construction/fig/jp-p029-1.webp",
+"w": 313,
+"h": 274,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "\"チタンク"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 29, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト29ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p030-0",
+"sub": "b3s2",
+"book": "jp",
+"page": 30,
+"y": 0.44,
+"src": "./assets/ssw/construction/fig/jp-p030-0.webp",
+"w": 299,
+"h": 188,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "主要専門工事①"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 30, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト30ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p030-1",
+"sub": "b3s2",
+"book": "jp",
+"page": 30,
+"y": 0.73,
+"src": "./assets/ssw/construction/fig/jp-p030-1.webp",
+"w": 327,
+"h": 386,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "ニテ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 30, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト30ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p031-0",
+"sub": "b3s2",
+"book": "jp",
+"page": 31,
+"y": 0.21,
+"src": "./assets/ssw/construction/fig/jp-p031-0.webp",
+"w": 672,
+"h": 198,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "盛り土"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 31, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト31ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p031-1",
+"sub": "b3s2",
+"book": "jp",
+"page": 31,
+"y": 0.41,
+"src": "./assets/ssw/construction/fig/jp-p031-1.webp",
+"w": 242,
+"h": 331,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "主要専門工事①"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 31, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト31ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p031-2",
+"sub": "b3s2",
+"book": "jp",
+"page": 31,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p031-2.webp",
+"w": 326,
+"h": 258,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Tanah sampai Perancah",
+"jp": "Hfーーデニ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 31, untuk subbab «Pekerjaan Khusus Utama: Tanah sampai Perancah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト31ページ「主要専門工事①」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p032-0",
+"sub": "b3s3",
+"book": "jp",
+"page": 32,
+"y": 0.33,
+"src": "./assets/ssw/construction/fig/jp-p032-0.webp",
+"w": 251,
+"h": 230,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "人工事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 32, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト32ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p032-1",
+"sub": "b3s3",
+"book": "jp",
+"page": 32,
+"y": 0.72,
+"src": "./assets/ssw/construction/fig/jp-p032-1.webp",
+"w": 313,
+"h": 526,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "鉄骨工事の"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 32, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト32ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p033-0",
+"sub": "b3s3",
+"book": "jp",
+"page": 33,
+"y": 0.46,
+"src": "./assets/ssw/construction/fig/jp-p033-0.webp",
+"w": 311,
+"h": 999,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "ガス圧"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 33, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト33ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p034-0",
+"sub": "b3s3",
+"book": "jp",
+"page": 34,
+"y": 0.27,
+"src": "./assets/ssw/construction/fig/jp-p034-0.webp",
+"w": 302,
+"h": 240,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "ク深接作業"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 34, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト34ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p034-1",
+"sub": "b3s3",
+"book": "jp",
+"page": 34,
+"y": 0.52,
+"src": "./assets/ssw/construction/fig/jp-p034-1.webp",
+"w": 367,
+"h": 223,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "きすて|"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 34, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト34ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p034-2",
+"sub": "b3s3",
+"book": "jp",
+"page": 34,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p034-2.webp",
+"w": 417,
+"h": 238,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "有人"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 34, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト34ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p035-0",
+"sub": "b3s3",
+"book": "jp",
+"page": 35,
+"y": 0.26,
+"src": "./assets/ssw/construction/fig/jp-p035-0.webp",
+"w": 314,
+"h": 247,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "コンクリートポンプ車"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 35, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト35ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p035-1",
+"sub": "b3s3",
+"book": "jp",
+"page": 35,
+"y": 0.44,
+"src": "./assets/ssw/construction/fig/jp-p035-1.webp",
+"w": 312,
+"h": 245,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 35, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト35ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p035-2",
+"sub": "b3s3",
+"book": "jp",
+"page": 35,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p035-2.webp",
+"w": 317,
+"h": 231,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "ローラー外壁塗装"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 35, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト35ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p036-0",
+"sub": "b3s3",
+"book": "jp",
+"page": 36,
+"y": 0.21,
+"src": "./assets/ssw/construction/fig/jp-p036-0.webp",
+"w": 318,
+"h": 196,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "主要専門工事②"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 36, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト36ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p036-1",
+"sub": "b3s3",
+"book": "jp",
+"page": 36,
+"y": 0.65,
+"src": "./assets/ssw/construction/fig/jp-p036-1.webp",
+"w": 579,
+"h": 230,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "人EM"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 36, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト36ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p036-2",
+"sub": "b3s3",
+"book": "jp",
+"page": 36,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p036-2.webp",
+"w": 329,
+"h": 240,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "入隅・出則専用のこて"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 36, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト36ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p037-0",
+"sub": "b3s3",
+"book": "jp",
+"page": 37,
+"y": 0.19,
+"src": "./assets/ssw/construction/fig/jp-p037-0.webp",
+"w": 329,
+"h": 225,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "漆喰壁の例"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 37, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト37ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p037-1",
+"sub": "b3s3",
+"book": "jp",
+"page": 37,
+"y": 0.55,
+"src": "./assets/ssw/construction/fig/jp-p037-1.webp",
+"w": 374,
+"h": 232,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Rangka Baja sampai Atap",
+"jp": "主要専門工事②"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 37, untuk subbab «Pekerjaan Khusus Utama: Rangka Baja sampai Atap». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト37ページ「主要専門工事②」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p038-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 38,
+"y": 0.3,
+"src": "./assets/ssw/construction/fig/jp-p038-0.webp",
+"w": 316,
+"h": 437,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "の補人工事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 38, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト38ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p038-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 38,
+"y": 0.61,
+"src": "./assets/ssw/construction/fig/jp-p038-1.webp",
+"w": 324,
+"h": 205,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "トー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 38, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト38ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p038-2",
+"sub": "b3s4",
+"book": "jp",
+"page": 38,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p038-2.webp",
+"w": 323,
+"h": 256,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 38, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト38ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p039-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 39,
+"y": 0.23,
+"src": "./assets/ssw/construction/fig/jp-p039-0.webp",
+"w": 324,
+"h": 217,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 39, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト39ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p039-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 39,
+"y": 0.48,
+"src": "./assets/ssw/construction/fig/jp-p039-1.webp",
+"w": 320,
+"h": 254,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 39, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト39ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p039-2",
+"sub": "b3s4",
+"book": "jp",
+"page": 39,
+"y": 0.76,
+"src": "./assets/ssw/construction/fig/jp-p039-2.webp",
+"w": 318,
+"h": 425,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 39, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト39ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p040-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 40,
+"y": 0.39,
+"src": "./assets/ssw/construction/fig/jp-p040-0.webp",
+"w": 539,
+"h": 187,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "の塩ビタイル仕上"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト40ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p040-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 40,
+"y": 0.75,
+"src": "./assets/ssw/construction/fig/jp-p040-1.webp",
+"w": 612,
+"h": 228,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "長のクロス仕上げ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト40ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p041-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 41,
+"y": 0.18,
+"src": "./assets/ssw/construction/fig/jp-p041-0.webp",
+"w": 610,
+"h": 204,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "_Rito?ロス仕上げ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p041-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 41,
+"y": 0.45,
+"src": "./assets/ssw/construction/fig/jp-p041-1.webp",
+"w": 330,
+"h": 267,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p041-2",
+"sub": "b3s4",
+"book": "jp",
+"page": 41,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p041-2.webp",
+"w": 337,
+"h": 257,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p042-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 42,
+"y": 0.45,
+"src": "./assets/ssw/construction/fig/jp-p042-0.webp",
+"w": 318,
+"h": 252,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "エーーーミー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 42, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト42ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p042-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 42,
+"y": 0.68,
+"src": "./assets/ssw/construction/fig/jp-p042-1.webp",
+"w": 317,
+"h": 227,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "シーリング肪水工事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 42, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト42ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p043-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 43,
+"y": 0.21,
+"src": "./assets/ssw/construction/fig/jp-p043-0.webp",
+"w": 726,
+"h": 281,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "ぎゃせき"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 43, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト43ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p043-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 43,
+"y": 0.65,
+"src": "./assets/ssw/construction/fig/jp-p043-1.webp",
+"w": 328,
+"h": 463,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "コンセンBatyクスの取付け"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 43, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト43ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p044-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 44,
+"y": 0.32,
+"src": "./assets/ssw/construction/fig/jp-p044-0.webp",
+"w": 315,
+"h": 226,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "に、"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 44, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト44ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p044-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 44,
+"y": 0.53,
+"src": "./assets/ssw/construction/fig/jp-p044-1.webp",
+"w": 334,
+"h": 263,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 44, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト44ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p045-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 45,
+"y": 0.23,
+"src": "./assets/ssw/construction/fig/jp-p045-0.webp",
+"w": 257,
+"h": 206,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "ョデン"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 45, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト45ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p045-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 45,
+"y": 0.41,
+"src": "./assets/ssw/construction/fig/jp-p045-1.webp",
+"w": 291,
+"h": 232,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 45, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト45ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p045-2",
+"sub": "b3s4",
+"book": "jp",
+"page": 45,
+"y": 0.62,
+"src": "./assets/ssw/construction/fig/jp-p045-2.webp",
+"w": 234,
+"h": 314,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 45, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト45ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p046-0",
+"sub": "b3s4",
+"book": "jp",
+"page": 46,
+"y": 0.4,
+"src": "./assets/ssw/construction/fig/jp-p046-0.webp",
+"w": 320,
+"h": 491,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "セー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 46, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト46ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p046-1",
+"sub": "b3s4",
+"book": "jp",
+"page": 46,
+"y": 0.83,
+"src": "./assets/ssw/construction/fig/jp-p046-1.webp",
+"w": 271,
+"h": 215,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 46, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト46ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p046-2",
+"sub": "b3s4",
+"book": "jp",
+"page": 46,
+"y": 0.83,
+"src": "./assets/ssw/construction/fig/jp-p046-2.webp",
+"w": 313,
+"h": 215,
+"cap": {
+"id": "Pekerjaan Khusus Utama: Finishing dan Instalasi",
+"jp": "主要専門工事③"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 46, untuk subbab «Pekerjaan Khusus Utama: Finishing dan Instalasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト46ページ「主要専門工事③」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p050-0",
+"sub": "b4s2",
+"book": "jp",
+"page": 50,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p050-0.webp",
+"w": 480,
+"h": 319,
+"cap": {
+"id": "Istilah di Lokasi Konstruksi",
+"jp": "axdat’7*yーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 50, untuk subbab «Istilah di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト50ページ「現場の用語」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p063-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 63,
+"y": 0.31,
+"src": "./assets/ssw/construction/fig/jp-p063-0.webp",
+"w": 223,
+"h": 202,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "油圧ショベル"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト63ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p063-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 63,
+"y": 0.62,
+"src": "./assets/ssw/construction/fig/jp-p063-1.webp",
+"w": 237,
+"h": 647,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "上げ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト63ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p064-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 64,
+"y": 0.25,
+"src": "./assets/ssw/construction/fig/jp-p064-0.webp",
+"w": 437,
+"h": 281,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "|AA||か"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト64ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p064-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 64,
+"y": 0.48,
+"src": "./assets/ssw/construction/fig/jp-p064-1.webp",
+"w": 660,
+"h": 268,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "MAうがいょうず"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト64ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p065-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 65,
+"y": 0.65,
+"src": "./assets/ssw/construction/fig/jp-p065-0.webp",
+"w": 475,
+"h": 404,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "「に取り付けたカッターへ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 65, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト65ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p066-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 66,
+"y": 0.26,
+"src": "./assets/ssw/construction/fig/jp-p066-0.webp",
+"w": 275,
+"h": 219,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "専門工事の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト66ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p066-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 66,
+"y": 0.52,
+"src": "./assets/ssw/construction/fig/jp-p066-1.webp",
+"w": 275,
+"h": 192,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "専門工事の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト66ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p067-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 67,
+"y": 0.49,
+"src": "./assets/ssw/construction/fig/jp-p067-0.webp",
+"w": 319,
+"h": 231,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "ハンドガイドロ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 67, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト67ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p068-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 68,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p068-0.webp",
+"w": 304,
+"h": 221,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "べS"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト68ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p068-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 68,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p068-1.webp",
+"w": 399,
+"h": 221,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "枠組み足場"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト68ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p068-2",
+"sub": "b5s1",
+"book": "jp",
+"page": 68,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p068-2.webp",
+"w": 296,
+"h": 192,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "専門工事の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト68ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p069-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 69,
+"y": 0.25,
+"src": "./assets/ssw/construction/fig/jp-p069-0.webp",
+"w": 305,
+"h": 411,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "幅木"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト69ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p069-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 69,
+"y": 0.48,
+"src": "./assets/ssw/construction/fig/jp-p069-1.webp",
+"w": 343,
+"h": 173,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "専門工事の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト69ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p069-2",
+"sub": "b5s1",
+"book": "jp",
+"page": 69,
+"y": 0.48,
+"src": "./assets/ssw/construction/fig/jp-p069-2.webp",
+"w": 344,
+"h": 173,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "テーーーーニーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト69ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p069-3",
+"sub": "b5s1",
+"book": "jp",
+"page": 69,
+"y": 0.73,
+"src": "./assets/ssw/construction/fig/jp-p069-3.webp",
+"w": 289,
+"h": 230,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "専門工事の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト69ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p070-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 70,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p070-0.webp",
+"w": 478,
+"h": 392,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "もち"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト70ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p070-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 70,
+"y": 0.65,
+"src": "./assets/ssw/construction/fig/jp-p070-1.webp",
+"w": 477,
+"h": 190,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "結東線"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト70ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p070-2",
+"sub": "b5s1",
+"book": "jp",
+"page": 70,
+"y": 0.83,
+"src": "./assets/ssw/construction/fig/jp-p070-2.webp",
+"w": 278,
+"h": 186,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "ラムシリンダー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト70ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p071-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 71,
+"y": 0.28,
+"src": "./assets/ssw/construction/fig/jp-p071-0.webp",
+"w": 488,
+"h": 298,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "ミーデー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト71ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p071-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 71,
+"y": 0.47,
+"src": "./assets/ssw/construction/fig/jp-p071-1.webp",
+"w": 282,
+"h": 222,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "外観"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト71ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p071-2",
+"sub": "b5s1",
+"book": "jp",
+"page": 71,
+"y": 0.73,
+"src": "./assets/ssw/construction/fig/jp-p071-2.webp",
+"w": 501,
+"h": 229,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "レン"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト71ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p072-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 72,
+"y": 0.2,
+"src": "./assets/ssw/construction/fig/jp-p072-0.webp",
+"w": 313,
+"h": 257,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "フォームタイ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト72ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p072-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 72,
+"y": 0.47,
+"src": "./assets/ssw/construction/fig/jp-p072-1.webp",
+"w": 305,
+"h": 218,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "フォ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト72ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p072-2",
+"sub": "b5s1",
+"book": "jp",
+"page": 72,
+"y": 0.7,
+"src": "./assets/ssw/construction/fig/jp-p072-2.webp",
+"w": 315,
+"h": 397,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "ャーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト72ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p073-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 73,
+"y": 0.27,
+"src": "./assets/ssw/construction/fig/jp-p073-0.webp",
+"w": 316,
+"h": 329,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "ECジョルク"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 73, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト73ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p074-0",
+"sub": "b5s1",
+"book": "jp",
+"page": 74,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p074-0.webp",
+"w": 271,
+"h": 171,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "専門工事の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト74ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p074-1",
+"sub": "b5s1",
+"book": "jp",
+"page": 74,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p074-1.webp",
+"w": 276,
+"h": 581,
+"cap": {
+"id": "Alat dan Material Khusus per Pekerjaan",
+"jp": "バテ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Alat dan Material Khusus per Pekerjaan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト74ページ「専門工事の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p075-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 75,
+"y": 0.24,
+"src": "./assets/ssw/construction/fig/jp-p075-0.webp",
+"w": 231,
+"h": 193,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "2セラングンニージ|"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト75ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p075-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 75,
+"y": 0.58,
+"src": "./assets/ssw/construction/fig/jp-p075-1.webp",
+"w": 309,
+"h": 241,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ドリルドライバー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト75ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p075-2",
+"sub": "b5s2",
+"book": "jp",
+"page": 75,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p075-2.webp",
+"w": 297,
+"h": 216,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ディスクグ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト75ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p076-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 76,
+"y": 0.27,
+"src": "./assets/ssw/construction/fig/jp-p076-0.webp",
+"w": 306,
+"h": 434,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "高速切断機"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト76ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p076-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 76,
+"y": 0.63,
+"src": "./assets/ssw/construction/fig/jp-p076-1.webp",
+"w": 236,
+"h": 189,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "剣スコップ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト76ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p076-2",
+"sub": "b5s2",
+"book": "jp",
+"page": 76,
+"y": 0.63,
+"src": "./assets/ssw/construction/fig/jp-p076-2.webp",
+"w": 235,
+"h": 189,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "角スコップ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト76ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p076-3",
+"sub": "b5s2",
+"book": "jp",
+"page": 76,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p076-3.webp",
+"w": 235,
+"h": 220,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ランマ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト76ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p077-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 77,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p077-0.webp",
+"w": 262,
+"h": 551,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "所でも"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 77, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト77ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p077-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 77,
+"y": 0.75,
+"src": "./assets/ssw/construction/fig/jp-p077-1.webp",
+"w": 280,
+"h": 433,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "レベル"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 77, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト77ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p078-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 78,
+"y": 0.33,
+"src": "./assets/ssw/construction/fig/jp-p078-0.webp",
+"w": 263,
+"h": 428,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "す。"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 78, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト78ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p078-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 78,
+"y": 0.58,
+"src": "./assets/ssw/construction/fig/jp-p078-1.webp",
+"w": 267,
+"h": 189,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "コンペッタス"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 78, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト78ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p078-2",
+"sub": "b5s2",
+"book": "jp",
+"page": 78,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p078-2.webp",
+"w": 232,
+"h": 187,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ンー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 78, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト78ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p078-3",
+"sub": "b5s2",
+"book": "jp",
+"page": 78,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p078-3.webp",
+"w": 231,
+"h": 187,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 78, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト78ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p078-4",
+"sub": "b5s2",
+"book": "jp",
+"page": 78,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p078-4.webp",
+"w": 230,
+"h": 187,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 78, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト78ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p079-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 79,
+"y": 0.29,
+"src": "./assets/ssw/construction/fig/jp-p079-0.webp",
+"w": 472,
+"h": 384,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "きんで物を切る導具です。"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 79, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト79ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p079-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 79,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p079-1.webp",
+"w": 258,
+"h": 391,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ハンマーの例(くさのび足場用)"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 79, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト79ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p080-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 80,
+"y": 0.34,
+"src": "./assets/ssw/construction/fig/jp-p080-0.webp",
+"w": 241,
+"h": 184,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 80, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト80ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p080-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 80,
+"y": 0.34,
+"src": "./assets/ssw/construction/fig/jp-p080-1.webp",
+"w": 229,
+"h": 184,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ワイヤープラシ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 80, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト80ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p080-2",
+"sub": "b5s2",
+"book": "jp",
+"page": 80,
+"y": 0.52,
+"src": "./assets/ssw/construction/fig/jp-p080-2.webp",
+"w": 271,
+"h": 195,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 80, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト80ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p080-3",
+"sub": "b5s2",
+"book": "jp",
+"page": 80,
+"y": 0.77,
+"src": "./assets/ssw/construction/fig/jp-p080-3.webp",
+"w": 267,
+"h": 384,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 80, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト80ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p081-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 81,
+"y": 0.27,
+"src": "./assets/ssw/construction/fig/jp-p081-0.webp",
+"w": 273,
+"h": 219,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 81, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト81ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p081-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 81,
+"y": 0.53,
+"src": "./assets/ssw/construction/fig/jp-p081-1.webp",
+"w": 284,
+"h": 224,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ン\\"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 81, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト81ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p081-2",
+"sub": "b5s2",
+"book": "jp",
+"page": 81,
+"y": 0.83,
+"src": "./assets/ssw/construction/fig/jp-p081-2.webp",
+"w": 271,
+"h": 236,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 81, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト81ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p082-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 82,
+"y": 0.19,
+"src": "./assets/ssw/construction/fig/jp-p082-0.webp",
+"w": 298,
+"h": 237,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "『フォークリフト"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 82, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト82ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p082-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 82,
+"y": 0.56,
+"src": "./assets/ssw/construction/fig/jp-p082-1.webp",
+"w": 296,
+"h": 683,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ラーーーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 82, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト82ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p083-0",
+"sub": "b5s2",
+"book": "jp",
+"page": 83,
+"y": 0.31,
+"src": "./assets/ssw/construction/fig/jp-p083-0.webp",
+"w": 260,
+"h": 502,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "可搬"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 83, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト83ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p083-1",
+"sub": "b5s2",
+"book": "jp",
+"page": 83,
+"y": 0.71,
+"src": "./assets/ssw/construction/fig/jp-p083-1.webp",
+"w": 321,
+"h": 208,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "共通の道具"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 83, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト83ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p083-2",
+"sub": "b5s2",
+"book": "jp",
+"page": 83,
+"y": 0.71,
+"src": "./assets/ssw/construction/fig/jp-p083-2.webp",
+"w": 269,
+"h": 208,
+"cap": {
+"id": "Alat, Mesin, dan Material Umum",
+"jp": "ちりとり"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 83, untuk subbab «Alat, Mesin, dan Material Umum». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト83ページ「共通の道具」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p087-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 87,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p087-0.webp",
+"w": 337,
+"h": 259,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "記事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 87, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト87ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p088-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 88,
+"y": 0.36,
+"src": "./assets/ssw/construction/fig/jp-p088-0.webp",
+"w": 679,
+"h": 277,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "河川"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 88, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト88ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p089-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 89,
+"y": 0.45,
+"src": "./assets/ssw/construction/fig/jp-p089-0.webp",
+"w": 492,
+"h": 243,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "マー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 89, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト89ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p089-1",
+"sub": "b6s2",
+"book": "jp",
+"page": 89,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p089-1.webp",
+"w": 246,
+"h": 237,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "土木工事の知識"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 89, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト89ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p090-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 90,
+"y": 0.3,
+"src": "./assets/ssw/construction/fig/jp-p090-0.webp",
+"w": 293,
+"h": 446,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "ウィンチ作業RS"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 90, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト90ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p090-1",
+"sub": "b6s2",
+"book": "jp",
+"page": 90,
+"y": 0.77,
+"src": "./assets/ssw/construction/fig/jp-p090-1.webp",
+"w": 159,
+"h": 311,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "人4"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 90, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト90ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p091-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 91,
+"y": 0.19,
+"src": "./assets/ssw/construction/fig/jp-p091-0.webp",
+"w": 311,
+"h": 223,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "う例"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 91, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト91ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p091-1",
+"sub": "b6s2",
+"book": "jp",
+"page": 91,
+"y": 0.43,
+"src": "./assets/ssw/construction/fig/jp-p091-1.webp",
+"w": 315,
+"h": 220,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "ーーニー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 91, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト91ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p091-2",
+"sub": "b6s2",
+"book": "jp",
+"page": 91,
+"y": 0.75,
+"src": "./assets/ssw/construction/fig/jp-p091-2.webp",
+"w": 264,
+"h": 319,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "うま"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 91, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト91ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p092-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 92,
+"y": 0.78,
+"src": "./assets/ssw/construction/fig/jp-p092-0.webp",
+"w": 324,
+"h": 247,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "ウェルポイント工事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 92, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト92ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p093-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 93,
+"y": 0.54,
+"src": "./assets/ssw/construction/fig/jp-p093-0.webp",
+"w": 250,
+"h": 287,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "道路の携造"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 93, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト93ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p094-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 94,
+"y": 0.63,
+"src": "./assets/ssw/construction/fig/jp-p094-0.webp",
+"w": 326,
+"h": 146,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "ここ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 94, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト94ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p095-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 95,
+"y": 0.8,
+"src": "./assets/ssw/construction/fig/jp-p095-0.webp",
+"w": 517,
+"h": 308,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "アー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 95, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト95ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p096-0",
+"sub": "b6s2",
+"book": "jp",
+"page": 96,
+"y": 0.64,
+"src": "./assets/ssw/construction/fig/jp-p096-0.webp",
+"w": 329,
+"h": 187,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "土木工事の知識"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 96, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト96ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p096-1",
+"sub": "b6s2",
+"book": "jp",
+"page": 96,
+"y": 0.83,
+"src": "./assets/ssw/construction/fig/jp-p096-1.webp",
+"w": 350,
+"h": 206,
+"cap": {
+"id": "Pelaksanaan: Tanah sampai Tiang Pancang",
+"jp": "建地"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 96, untuk subbab «Pelaksanaan: Tanah sampai Tiang Pancang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト96ページ「土木工事の知識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p097-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 97,
+"y": 0.26,
+"src": "./assets/ssw/construction/fig/jp-p097-0.webp",
+"w": 324,
+"h": 419,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "ュー一ーー一"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 97, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト97ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p097-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 97,
+"y": 0.77,
+"src": "./assets/ssw/construction/fig/jp-p097-1.webp",
+"w": 282,
+"h": 225,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "ペースプレートの旋例"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 97, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト97ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p098-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 98,
+"y": 0.26,
+"src": "./assets/ssw/construction/fig/jp-p098-0.webp",
+"w": 195,
+"h": 199,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "ンBE"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 98, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト98ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p098-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 98,
+"y": 0.65,
+"src": "./assets/ssw/construction/fig/jp-p098-1.webp",
+"w": 292,
+"h": 468,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 98, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト98ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p099-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 99,
+"y": 0.24,
+"src": "./assets/ssw/construction/fig/jp-p099-0.webp",
+"w": 701,
+"h": 179,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "鉄筋の曲げ加工"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト99ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p099-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 99,
+"y": 0.41,
+"src": "./assets/ssw/construction/fig/jp-p099-1.webp",
+"w": 316,
+"h": 250,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "仮設から解体まで"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト99ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p100-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 100,
+"y": 0.23,
+"src": "./assets/ssw/construction/fig/jp-p100-0.webp",
+"w": 288,
+"h": 267,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "6で\"の"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 100, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト100ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p100-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 100,
+"y": 0.61,
+"src": "./assets/ssw/construction/fig/jp-p100-1.webp",
+"w": 304,
+"h": 242,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "|っ張り"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 100, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト100ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p101-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 101,
+"y": 0.21,
+"src": "./assets/ssw/construction/fig/jp-p101-0.webp",
+"w": 574,
+"h": 272,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "lilgu中"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 101, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト101ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p101-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 101,
+"y": 0.46,
+"src": "./assets/ssw/construction/fig/jp-p101-1.webp",
+"w": 308,
+"h": 113,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "仮設から解体まで"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 101, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト101ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p101-2",
+"sub": "b6s3",
+"book": "jp",
+"page": 101,
+"y": 0.74,
+"src": "./assets/ssw/construction/fig/jp-p101-2.webp",
+"w": 343,
+"h": 270,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "アーク溶"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 101, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト101ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p102-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 102,
+"y": 0.31,
+"src": "./assets/ssw/construction/fig/jp-p102-0.webp",
+"w": 343,
+"h": 211,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "仮設から解体まで"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 102, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト102ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p102-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 102,
+"y": 0.55,
+"src": "./assets/ssw/construction/fig/jp-p102-1.webp",
+"w": 338,
+"h": 259,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "フォームタイの締付け"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 102, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト102ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p102-2",
+"sub": "b6s3",
+"book": "jp",
+"page": 102,
+"y": 0.76,
+"src": "./assets/ssw/construction/fig/jp-p102-2.webp",
+"w": 416,
+"h": 192,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "引き"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 102, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト102ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p103-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 103,
+"y": 0.33,
+"src": "./assets/ssw/construction/fig/jp-p103-0.webp",
+"w": 307,
+"h": 472,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "受入検査"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 103, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト103ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p104-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 104,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p104-0.webp",
+"w": 332,
+"h": 203,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "仮設から解体まで"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 104, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト104ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p104-1",
+"sub": "b6s3",
+"book": "jp",
+"page": 104,
+"y": 0.63,
+"src": "./assets/ssw/construction/fig/jp-p104-1.webp",
+"w": 344,
+"h": 209,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "業生作業"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 104, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト104ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p105-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 105,
+"y": 0.35,
+"src": "./assets/ssw/construction/fig/jp-p105-0.webp",
+"w": 417,
+"h": 291,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "仮設から解体まで"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 105, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト105ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p106-0",
+"sub": "b6s3",
+"book": "jp",
+"page": 106,
+"y": 0.22,
+"src": "./assets/ssw/construction/fig/jp-p106-0.webp",
+"w": 324,
+"h": 242,
+"cap": {
+"id": "Pelaksanaan: Perancah sampai Pembongkaran",
+"jp": "仮設から解体まで"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 106, untuk subbab «Pelaksanaan: Perancah sampai Pembongkaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト106ページ「仮設から解体まで」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p107-0",
+"sub": "b7s1",
+"book": "jp",
+"page": 107,
+"y": 0.59,
+"src": "./assets/ssw/construction/fig/jp-p107-0.webp",
+"w": 725,
+"h": 393,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "され"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 107, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト107ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p109-0",
+"sub": "b7s1",
+"book": "jp",
+"page": 109,
+"y": 0.26,
+"src": "./assets/ssw/construction/fig/jp-p109-0.webp",
+"w": 295,
+"h": 404,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "した"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト109ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p109-1",
+"sub": "b7s1",
+"book": "jp",
+"page": 109,
+"y": 0.51,
+"src": "./assets/ssw/construction/fig/jp-p109-1.webp",
+"w": 251,
+"h": 202,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "死亡災害"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト109ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p109-2",
+"sub": "b7s1",
+"book": "jp",
+"page": 109,
+"y": 0.67,
+"src": "./assets/ssw/construction/fig/jp-p109-2.webp",
+"w": 261,
+"h": 199,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "=ユ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト109ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p110-0",
+"sub": "b7s1",
+"book": "jp",
+"page": 110,
+"y": 0.23,
+"src": "./assets/ssw/construction/fig/jp-p110-0.webp",
+"w": 304,
+"h": 118,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "死亡災害"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 110, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト110ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p110-1",
+"sub": "b7s1",
+"book": "jp",
+"page": 110,
+"y": 0.45,
+"src": "./assets/ssw/construction/fig/jp-p110-1.webp",
+"w": 260,
+"h": 208,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "死亡災害"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 110, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト110ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p110-2",
+"sub": "b7s1",
+"book": "jp",
+"page": 110,
+"y": 0.82,
+"src": "./assets/ssw/construction/fig/jp-p110-2.webp",
+"w": 324,
+"h": 257,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "エー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 110, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト110ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p111-0",
+"sub": "b7s1",
+"book": "jp",
+"page": 111,
+"y": 0.37,
+"src": "./assets/ssw/construction/fig/jp-p111-0.webp",
+"w": 356,
+"h": 285,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "河川1"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 111, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト111ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p111-1",
+"sub": "b7s1",
+"book": "jp",
+"page": 111,
+"y": 0.63,
+"src": "./assets/ssw/construction/fig/jp-p111-1.webp",
+"w": 383,
+"h": 297,
+"cap": {
+"id": "Kecelakaan Fatal dalam Pekerjaan Konstruksi",
+"jp": "死亡災害"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 111, untuk subbab «Kecelakaan Fatal dalam Pekerjaan Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト111ページ「死亡災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p113-0",
+"sub": "b7s2",
+"book": "jp",
+"page": 113,
+"y": 0.43,
+"src": "./assets/ssw/construction/fig/jp-p113-0.webp",
+"w": 433,
+"h": 297,
+"cap": {
+"id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+"jp": "毎日の安全施工"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 113, untuk subbab «Kegiatan Keselamatan di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト113ページ「現場の安全活動」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p116-0",
+"sub": "b7s2",
+"book": "jp",
+"page": 116,
+"y": 0.39,
+"src": "./assets/ssw/construction/fig/jp-p116-0.webp",
+"w": 240,
+"h": 407,
+"cap": {
+"id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+"jp": "現場の安全活動"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 116, untuk subbab «Kegiatan Keselamatan di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト116ページ「現場の安全活動」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p116-1",
+"sub": "b7s2",
+"book": "jp",
+"page": 116,
+"y": 0.39,
+"src": "./assets/ssw/construction/fig/jp-p116-1.webp",
+"w": 226,
+"h": 407,
+"cap": {
+"id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+"jp": "現場の安全活動"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 116, untuk subbab «Kegiatan Keselamatan di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト116ページ「現場の安全活動」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p116-2",
+"sub": "b7s2",
+"book": "jp",
+"page": 116,
+"y": 0.39,
+"src": "./assets/ssw/construction/fig/jp-p116-2.webp",
+"w": 222,
+"h": 407,
+"cap": {
+"id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+"jp": "現場の安全活動"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 116, untuk subbab «Kegiatan Keselamatan di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト116ページ「現場の安全活動」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p116-3",
+"sub": "b7s2",
+"book": "jp",
+"page": 116,
+"y": 0.76,
+"src": "./assets/ssw/construction/fig/jp-p116-3.webp",
+"w": 701,
+"h": 231,
+"cap": {
+"id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+"jp": "現場の安全活動"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 116, untuk subbab «Kegiatan Keselamatan di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト116ページ「現場の安全活動」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "construction-jp-p118-0",
+"sub": "b7s2",
+"book": "jp",
+"page": 118,
+"y": 0.33,
+"src": "./assets/ssw/construction/fig/jp-p118-0.webp",
+"w": 344,
+"h": 264,
+"cap": {
+"id": "Kegiatan Keselamatan di Lokasi Konstruksi",
+"jp": "現場の安全活動"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 118, untuk subbab «Kegiatan Keselamatan di Lokasi Konstruksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト118ページ「現場の安全活動」の図。"
+},
+"terms": [],
+"auto": true
+}
+]
+}

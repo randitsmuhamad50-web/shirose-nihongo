@@ -1,0 +1,652 @@
+{
+ "items": [
+  {
+   "id": "ls-001",
+   "kata": "Umpan",
+   "kana": "Umpan",
+   "romaji": "",
+   "arti": "Pakan ternak",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-002",
+   "kata": "Pengumpanan",
+   "kana": "Pengumpanan",
+   "romaji": "",
+   "arti": "Memberi pakan ternak pada ternak",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-003",
+   "kata": "Makan pilih",
+   "kana": "Makan pilih",
+   "romaji": "",
+   "arti": "Ternak hanya makan yang disukainya saja dari dalam pakan ternak di wadah pakan, dan menyisakan pakan yang tidak disukainya. Disebut juga dengan selective feeding.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-004",
+   "kata": "Staphylococcus aureus",
+   "kana": "Staphylococcus aureus",
+   "romaji": "",
+   "arti": "Bakteri penyebab mastitis yang sulit disembuhkan bila berkembang biak di dalam ambing.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-005",
+   "kata": "Volume asupan bahan kering",
+   "kana": "Volume asupan bahan kering",
+   "romaji": "",
+   "arti": "Pakan ternak yang tidak mengandung kelembaban disebut dengan bahan kering, dan volume (kg) bahan kering yang dimakan dalam 1 hari disebut dengan volume asupan bahan…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-006",
+   "kata": "Tes kelompok sapi",
+   "kana": "Tes kelompok sapi",
+   "romaji": "",
+   "arti": "Sistem yang melakukan pemeriksaan sebulan sekali atas kondisi volume susu, kualitas susu, dan perkembangbiakan sapi perah di peternak.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-007",
+   "kata": "Berhenti makan",
+   "kana": "Berhenti makan",
+   "romaji": "",
+   "arti": "Kondisi sapi yang volume asupan pakan ternaknya menurun secara tiba-tiba.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-008",
+   "kata": "Jumlah hari kosong",
+   "kana": "Jumlah hari kosong",
+   "romaji": "",
+   "arti": "Jumlah hari sejak melahirkan hingga fertilisasi.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-009",
+   "kata": "Fase close up",
+   "kana": "Fase close up",
+   "romaji": "",
+   "arti": "Fase akhir masa kering pada susu perah. Periode sekitar 3 minggu sebelum melahirkan. Disebut juga dengan periode perinatal.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-010",
+   "kata": "Penyakit mulut dan kuku",
+   "kana": "Penyakit mulut dan kuku",
+   "romaji": "",
+   "arti": "Penyakit menular akut yang sangat menular yang menyebabkan melepuh pada membran mukosa hidung, mulut dan kulit kuku, dan disebabkan oleh virus penyakit mulut dan…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-011",
+   "kata": "Alas kandang",
+   "kana": "Alas kandang",
+   "romaji": "",
+   "arti": "Material yang dipergunakan untuk mendukung kenyamanan ternak, sekaligus komposisasi kotoran dan urin, yang sering dipakai adalah serbuk gergaji, sekam, dan jerami.…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-012",
+   "kata": "Kolostrum",
+   "kana": "Kolostrum",
+   "romaji": "",
+   "arti": "Susu yang keluar beberapa hari setelah melahirkan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-013",
+   "kata": "Inseminasi buatan",
+   "kana": "Inseminasi buatan",
+   "romaji": "",
+   "arti": "Memasukkan semen (sperma) secara artifisial pada alat kelamin betina untuk tujuan kehamilan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-014",
+   "kata": "Stres",
+   "kana": "Stres",
+   "romaji": "",
+   "arti": "Kondisi ternak yang tersakiti secara mental.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-015",
+   "kata": "Pergeseran abomasum",
+   "kana": "Pergeseran abomasum",
+   "romaji": "",
+   "arti": "Penyakit dimana abomasum bergeser ke kanan atau kiri dari posisi yang seharusnya, sehingga volume makan dan susu menurun.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-016",
+   "kata": "Radang kuku",
+   "kana": "Radang kuku",
+   "romaji": "",
+   "arti": "Penyakit kongesti pada kuku sapi yang menyebabkan rasa sakit parah yang disertai kesulitan bergerak.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-017",
+   "kata": "Transfer embrio",
+   "kana": "Transfer embrio",
+   "romaji": "",
+   "arti": "Memasukkan embrio (sel telur subur) secara artifisial pada alat kelain betina untuk tujuan kehamilan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-018",
+   "kata": "Estrus",
+   "kana": "Estrus",
+   "romaji": "",
+   "arti": "Kondisi betina mau dikawini jantan. Pada saat estrus ini dilakukan inseminasi buatan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-019",
+   "kata": "Memamah biak",
+   "kana": "Memamah biak",
+   "romaji": "",
+   "arti": "Aktivitas dimana sapi memuntahkan bolus di dalam rumen, kemudian dikunyah dan ditelan kembali.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-020",
+   "kata": "Residu",
+   "kana": "Residu",
+   "romaji": "",
+   "arti": "Berbagai kondensasi besar-kecil yang terkandung dalam cairan susu",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-021",
+   "kata": "Melahirkan",
+   "kana": "Melahirkan",
+   "romaji": "",
+   "arti": "Lahirnya anak sapi. dari sapi dengan mastitis.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-022",
+   "kata": "Calving periode",
+   "kana": "Calving periode",
+   "romaji": "",
+   "arti": "Jarak antara hari melahirkan sapi yang sudah >2x melahirkan, dengan hari melahirkan sebelumnya.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-023",
+   "kata": "Perawatan",
+   "kana": "Perawatan",
+   "romaji": "",
+   "arti": "Periode pemberian pakan cair sejak setelah dilahirkan hingga disapih.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-024",
+   "kata": "Body condition",
+   "kana": "Body condition",
+   "romaji": "",
+   "arti": "Nilai numerik dari kondisi akumulasi lemak subkutan, yang dipergunakan sebagai dasar penilaian apakah ternak terlalu gemuk atau kurus. Semakin besar nilainya, semakin…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-025",
+   "kata": "Megafarm",
+   "kana": "Megafarm",
+   "romaji": "",
+   "arti": "Peternakan industrial yang sangat besar.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-026",
+   "kata": "TDN",
+   "kana": "TDN",
+   "romaji": "",
+   "arti": "Total Digestible Nutrient: Total nutrisi yang dicerna dari pakan ternak, pakan ternak dengan nilai yang tinggi memiliki kandungan energi yang tinggi.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-027",
+   "kata": "Wet Feeding",
+   "kana": "Wet Feeding",
+   "romaji": "",
+   "arti": "Metode pemberian pakan dengan kondisi telah diremas, campuran pakan ternak dengan air.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-028",
+   "kata": "Umpan",
+   "kana": "Umpan",
+   "romaji": "",
+   "arti": "Pakan ternak.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-029",
+   "kata": "Pengumpanan",
+   "kana": "Pengumpanan",
+   "romaji": "",
+   "arti": "Memberi pakan ternak pada ternak.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-030",
+   "kata": "Pemberian Umpan",
+   "kana": "Pemberian Umpan",
+   "romaji": "",
+   "arti": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir, dengan mempergunakan susu afkir.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-031",
+   "kata": "Kandang babi serbuk gergaji",
+   "kana": "Kandang babi serbuk gergaji",
+   "romaji": "",
+   "arti": "Kandang babi bersama yang kotoran, urin, dan alas kandang tidak dipisahkan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-032",
+   "kata": "Berhenti makan",
+   "kana": "Berhenti makan",
+   "romaji": "",
+   "arti": "Kondisi tib-tiba turunnya volume konsumsi pakan ternak dari babi.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-033",
+   "kata": "Babi tiga silangan",
+   "kana": "Babi tiga silangan",
+   "romaji": "",
+   "arti": "Metode pembuatan babi blaster dari 3 varietas atau 3 keturunan. Babi yang dibuat dengan mengawinkan jantan varietas ketiga pada babi indukan (betina) dua silangan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-034",
+   "kata": "Alas kandang",
+   "kana": "Alas kandang",
+   "romaji": "",
+   "arti": "Material yang dipergunakan untuk memberikan kenyamanan bagi ternak sembari mendukung komposisasi kotoran dan urin, dimana yang sering dipakai adalah serbuk gergaji,…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-035",
+   "kata": "Kolostrum",
+   "kana": "Kolostrum",
+   "romaji": "",
+   "arti": "Susu yang keluar selama beberapa hari setelah melahirkan",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-036",
+   "kata": "Susu afkir",
+   "kana": "Susu afkir",
+   "romaji": "",
+   "arti": "Pakan ternak yang diberikan pada anak babi pada masa perawatan, terdapat susu afkir A yang diberikan selama bobot hingga 10 kg dan susu afkir B yang diberikan selama…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-037",
+   "kata": "PRRS",
+   "kana": "PRRS",
+   "romaji": "",
+   "arti": "Procine Reproductive Respiratory Sindrome, sindrom penyakit reproduksi dan pernapasan pada babi",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-038",
+   "kata": "PED",
+   "kana": "PED",
+   "romaji": "",
+   "arti": "Procine Epidemic Dhiarrea, diare epidemik pada babi",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-039",
+   "kata": "Babi SPF",
+   "kana": "Babi SPF",
+   "romaji": "",
+   "arti": "Babi yang Specific Pathogen Free: babi yang tidak memiliki patogen yang spesifik. Babi indukan yang menjadi asal babi SPF dibuat dengan dibesarkan dengan perawatan…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-040",
+   "kata": "Pelihara",
+   "kana": "Pelihara",
+   "romaji": "",
+   "arti": "Memelihara anak ayam yang baru menetas.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-041",
+   "kata": "Umpan",
+   "kana": "Umpan",
+   "romaji": "",
+   "arti": "Pakan ternak.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-042",
+   "kata": "Pengumpanan",
+   "kana": "Pengumpanan",
+   "romaji": "",
+   "arti": "Pemberian pakan ternak pada ternak.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-043",
+   "kata": "Makan umpan",
+   "kana": "Makan umpan",
+   "romaji": "",
+   "arti": "Kondisi makan banyak atau makan sedikit.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-044",
+   "kata": "Merapikan umpan",
+   "kana": "Merapikan umpan",
+   "romaji": "",
+   "arti": "Merapikan material pakan ternak yang tidak merata di dalam wadah umpan.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-045",
+   "kata": "Pemberian Umpan",
+   "kana": "Pemberian Umpan",
+   "romaji": "",
+   "arti": "Pemberian pakan ternak pertama kali pada anak binatang yang baru lahir. Untuk anak ayam adalah pemberian pakan ternak dengan meremasnya dengan air.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-046",
+   "kata": "Ganti bulu",
+   "kana": "Ganti bulu",
+   "romaji": "",
+   "arti": "Pergantian antara tumbuhnya bulu muda dengan rontoknya bulu yang tua. Terlihat antara akhir musim panas hingga musim gugur. Umumnya pada ayam petelur, mereka berhenti…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-047",
+   "kata": "Kanibalisme",
+   "kana": "Kanibalisme",
+   "romaji": "",
+   "arti": "Karena pengaruh buruk lingkungan atau kurang nutrisi, maka ayam yang dipelihara secara berkelompok saling mematuk. Kadang saling membunuh.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-048",
+   "kata": "Suplai suhu",
+   "kana": "Suplai suhu",
+   "romaji": "",
+   "arti": "Menjaga suhu di dalam ruang pemeliharaan anak ayam.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-049",
+   "kata": "Grid",
+   "kana": "Grid",
+   "romaji": "",
+   "arti": "Kerikil kecil yang menggiling butiran yang ada di perut ayam.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-050",
+   "kata": "Ayam praktek",
+   "kana": "Ayam praktek",
+   "romaji": "",
+   "arti": "Disebut juga dengan ayam komersial. Varietas ayam yang hasil telur dan dagingnya tinggi, ayam yang umumnya populer.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-051",
+   "kata": "Jidori",
+   "kana": "Jidori",
+   "romaji": "",
+   "arti": "Berbeda dengan ayam praktek broiler, adalah varietas ayam yang berasal dari area itu, yang dipergunakan untuk melakukan produksi daging ayam bermutu tinggi.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-052",
+   "kata": "Potong paruh",
+   "kana": "Potong paruh",
+   "romaji": "",
+   "arti": "Memotong setengah paruh atas dan bawah ayam. Dilakukan untuk mencegah kebiasaan patuk ekor atau makan bulu pada anak ayam sedang ke atas. Disebut juga dengan beak…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-053",
+   "kata": "Peg order",
+   "kana": "Peg order",
+   "romaji": "",
+   "arti": "Ayam yang berkelompok akan mematuk ayam lain dengan paruhnya, atau menyerang dengan terbang tinggi dan menendang ayam lainnya. Ini adalah aktivitas insting yang akan…",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  },
+  {
+   "id": "ls-054",
+   "kata": "Pelihara padat",
+   "kana": "Pelihara padat",
+   "romaji": "",
+   "arti": "Menampung ayam dengan jumlah yang lebih banyak daripada jumlah yang seharusnya ditampung dalam luas tertentu. Memberi pengaruh buruk bagi kondisi kesehatan ayam.",
+   "cat": "Istilah peternakan",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ]
+  }
+ ]
+}

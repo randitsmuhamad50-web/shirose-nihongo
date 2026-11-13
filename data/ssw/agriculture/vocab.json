@@ -1,0 +1,3117 @@
+{
+ "items": [
+  {
+   "id": "ag-001",
+   "kata": "稲",
+   "kana": "いね",
+   "romaji": "ine",
+   "arti": "padi",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1"
+   ],
+   "rb": [
+    "稲|いね"
+   ]
+  },
+  {
+   "id": "ag-002",
+   "kata": "野菜",
+   "kana": "やさい",
+   "romaji": "yasai",
+   "arti": "sayuran",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1"
+   ],
+   "rb": [
+    "野菜|やさい"
+   ]
+  },
+  {
+   "id": "ag-003",
+   "kata": "果樹",
+   "kana": "かじゅ",
+   "romaji": "kaju",
+   "arti": "pohon buah",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1",
+    "a6s1"
+   ],
+   "rb": [
+    "果樹|かじゅ"
+   ]
+  },
+  {
+   "id": "ag-004",
+   "kata": "光合成",
+   "kana": "こうごうせい",
+   "romaji": "kougousei",
+   "arti": "fotosintesis",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1",
+    "a4s2"
+   ],
+   "rb": [
+    "光合成|こうごうせい"
+   ]
+  },
+  {
+   "id": "ag-005",
+   "kata": "呼吸",
+   "kana": "こきゅう",
+   "romaji": "kokyuu",
+   "arti": "pernapasan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1"
+   ],
+   "rb": [
+    "呼吸|こきゅう"
+   ]
+  },
+  {
+   "id": "ag-006",
+   "kata": "蒸散",
+   "kana": "じょうさん",
+   "romaji": "jousan",
+   "arti": "transpirasi",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1"
+   ],
+   "rb": [
+    "蒸散|じょうさん"
+   ]
+  },
+  {
+   "id": "ag-007",
+   "kata": "栄養成長",
+   "kana": "えいようせいちょう",
+   "romaji": "eiyouseichou",
+   "arti": "pertumbuhan vegetatif",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1"
+   ],
+   "rb": [
+    "栄養成長|えいようせいちょう"
+   ]
+  },
+  {
+   "id": "ag-008",
+   "kata": "生殖成長",
+   "kana": "せいしょくせいちょう",
+   "romaji": "seishokuseichou",
+   "arti": "pertumbuhan generatif",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s1"
+   ],
+   "rb": [
+    "生殖成長|せいしょくせいちょう"
+   ]
+  },
+  {
+   "id": "ag-009",
+   "kata": "播種",
+   "kana": "はしゅ",
+   "romaji": "hashu",
+   "arti": "penanaman benih",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2",
+    "a4s3"
+   ],
+   "rb": [
+    "播種|はしゅ"
+   ]
+  },
+  {
+   "id": "ag-010",
+   "kata": "間引き",
+   "kana": "まびき",
+   "romaji": "mabiki",
+   "arti": "penjarangan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2",
+    "a7s2"
+   ],
+   "rb": [
+    "間引き|まびき"
+   ]
+  },
+  {
+   "id": "ag-011",
+   "kata": "育苗",
+   "kana": "いくびょう",
+   "romaji": "ikubyou",
+   "arti": "pembibitan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2",
+    "a3s1"
+   ],
+   "rb": [
+    "育苗|いくびょう"
+   ]
+  },
+  {
+   "id": "ag-012",
+   "kata": "定植",
+   "kana": "ていしょく",
+   "romaji": "teishoku",
+   "arti": "penanaman bibit di lahan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2",
+    "a7s2"
+   ],
+   "rb": [
+    "定植|ていしょく"
+   ]
+  },
+  {
+   "id": "ag-013",
+   "kata": "直まき",
+   "kana": "じかまき",
+   "romaji": "jikamaki",
+   "arti": "penanaman benih langsung",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2"
+   ],
+   "rb": [
+    "直まき|じかまき"
+   ]
+  },
+  {
+   "id": "ag-014",
+   "kata": "発芽",
+   "kana": "はつが",
+   "romaji": "hatsuga",
+   "arti": "perkecambahan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2",
+    "a4s3"
+   ],
+   "rb": [
+    "発芽|はつが"
+   ]
+  },
+  {
+   "id": "ag-015",
+   "kata": "移植機",
+   "kana": "いしょくき",
+   "romaji": "ishokuki",
+   "arti": "transplanter",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2"
+   ],
+   "rb": [
+    "移植機|いしょくき"
+   ]
+  },
+  {
+   "id": "ag-016",
+   "kata": "苗",
+   "kana": "なえ",
+   "romaji": "nae",
+   "arti": "bibit",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s2"
+   ],
+   "rb": [
+    "苗|なえ"
+   ]
+  },
+  {
+   "id": "ag-017",
+   "kata": "水やり",
+   "kana": "みずやり",
+   "romaji": "mizuyari",
+   "arti": "menyiram",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ],
+   "rb": [
+    "水やり|みずやり"
+   ]
+  },
+  {
+   "id": "ag-018",
+   "kata": "じょうろ",
+   "kana": "じょうろ",
+   "romaji": "jouro",
+   "arti": "gembor",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ]
+  },
+  {
+   "id": "ag-019",
+   "kata": "スプリンクラー",
+   "kana": "すぷりんくらー",
+   "romaji": "supurinkuraa",
+   "arti": "sprinkler",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ]
+  },
+  {
+   "id": "ag-020",
+   "kata": "点滴",
+   "kana": "てんてき",
+   "romaji": "tenteki",
+   "arti": "tetes",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ],
+   "rb": [
+    "点滴|てんてき"
+   ]
+  },
+  {
+   "id": "ag-021",
+   "kata": "根腐れ",
+   "kana": "ねぐされ",
+   "romaji": "negusare",
+   "arti": "akar busuk",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ],
+   "rb": [
+    "根腐れ|ねぐされ"
+   ]
+  },
+  {
+   "id": "ag-022",
+   "kata": "畝",
+   "kana": "うね",
+   "romaji": "une",
+   "arti": "bedengan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ],
+   "rb": [
+    "畝|うね"
+   ]
+  },
+  {
+   "id": "ag-023",
+   "kata": "朝",
+   "kana": "あさ",
+   "romaji": "asa",
+   "arti": "pagi",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ],
+   "rb": [
+    "朝|あさ"
+   ]
+  },
+  {
+   "id": "ag-024",
+   "kata": "夕方",
+   "kana": "ゆうがた",
+   "romaji": "yuugata",
+   "arti": "sore",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s3"
+   ],
+   "rb": [
+    "夕方|ゆうがた"
+   ]
+  },
+  {
+   "id": "ag-025",
+   "kata": "粘土",
+   "kana": "ねんど",
+   "romaji": "nendo",
+   "arti": "tanah liat",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "粘土|ねんど"
+   ]
+  },
+  {
+   "id": "ag-026",
+   "kata": "砂",
+   "kana": "すな",
+   "romaji": "suna",
+   "arti": "pasir",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "砂|すな"
+   ]
+  },
+  {
+   "id": "ag-027",
+   "kata": "壌土",
+   "kana": "じょうど",
+   "romaji": "joudo",
+   "arti": "geluh",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "壌土|じょうど"
+   ]
+  },
+  {
+   "id": "ag-028",
+   "kata": "団粒構造",
+   "kana": "だんりゅうこうぞう",
+   "romaji": "danryuukouzou",
+   "arti": "struktur remah",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "団粒構造|だんりゅうこうぞう"
+   ]
+  },
+  {
+   "id": "ag-029",
+   "kata": "黒ボク土",
+   "kana": "くろぼくど",
+   "romaji": "kurobokudo",
+   "arti": "andosol",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "黒ボク土|くろぼくど"
+   ]
+  },
+  {
+   "id": "ag-030",
+   "kata": "腐植",
+   "kana": "ふしょく",
+   "romaji": "fushoku",
+   "arti": "humus",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "腐植|ふしょく"
+   ]
+  },
+  {
+   "id": "ag-031",
+   "kata": "三相分布",
+   "kana": "さんそうぶんぷ",
+   "romaji": "sansoubunpu",
+   "arti": "tiga fase tanah",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "三相分布|さんそうぶんぷ"
+   ]
+  },
+  {
+   "id": "ag-032",
+   "kata": "排水",
+   "kana": "はいすい",
+   "romaji": "haisui",
+   "arti": "pembuangan air",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s4"
+   ],
+   "rb": [
+    "排水|はいすい"
+   ]
+  },
+  {
+   "id": "ag-033",
+   "kata": "地力",
+   "kana": "ちりょく",
+   "romaji": "chiryoku",
+   "arti": "kesuburan tanah",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5"
+   ],
+   "rb": [
+    "地力|ちりょく"
+   ]
+  },
+  {
+   "id": "ag-034",
+   "kata": "耕うん",
+   "kana": "こううん",
+   "romaji": "kouun",
+   "arti": "pembajakan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5",
+    "a7s1"
+   ],
+   "rb": [
+    "耕うん|こううん"
+   ]
+  },
+  {
+   "id": "ag-035",
+   "kata": "石灰",
+   "kana": "せっかい",
+   "romaji": "sekkai",
+   "arti": "kapur",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5",
+    "a6s5"
+   ],
+   "rb": [
+    "石灰|せっかい"
+   ]
+  },
+  {
+   "id": "ag-036",
+   "kata": "酸性",
+   "kana": "さんせい",
+   "romaji": "sansei",
+   "arti": "asam",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5"
+   ],
+   "rb": [
+    "酸性|さんせい"
+   ]
+  },
+  {
+   "id": "ag-037",
+   "kata": "連作障害",
+   "kana": "れんさくしょうがい",
+   "romaji": "rensakushougai",
+   "arti": "dampak negatif penanaman berurutan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5",
+    "a7s2"
+   ],
+   "rb": [
+    "連作障害|れんさくしょうがい"
+   ]
+  },
+  {
+   "id": "ag-038",
+   "kata": "輪作",
+   "kana": "りんさく",
+   "romaji": "rinsaku",
+   "arti": "penanaman bergilir",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5",
+    "a7s2"
+   ],
+   "rb": [
+    "輪作|りんさく"
+   ]
+  },
+  {
+   "id": "ag-039",
+   "kata": "接ぎ木",
+   "kana": "つぎき",
+   "romaji": "tsugiki",
+   "arti": "enten/grafting",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5",
+    "a5s5",
+    "a6s2"
+   ],
+   "rb": [
+    "接ぎ木|つぎき"
+   ]
+  },
+  {
+   "id": "ag-040",
+   "kata": "耕うん機",
+   "kana": "こううんき",
+   "romaji": "kouunki",
+   "arti": "traktor tangan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s5"
+   ],
+   "rb": [
+    "耕うん機|こううんき"
+   ]
+  },
+  {
+   "id": "ag-041",
+   "kata": "肥料",
+   "kana": "ひりょう",
+   "romaji": "hiryou",
+   "arti": "pupuk",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6"
+   ],
+   "rb": [
+    "肥料|ひりょう"
+   ]
+  },
+  {
+   "id": "ag-042",
+   "kata": "窒素",
+   "kana": "ちっそ",
+   "romaji": "chisso",
+   "arti": "nitrogen",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6"
+   ],
+   "rb": [
+    "窒素|ちっそ"
+   ]
+  },
+  {
+   "id": "ag-043",
+   "kata": "リン酸",
+   "kana": "りんさん",
+   "romaji": "rinsan",
+   "arti": "fosfor",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6"
+   ],
+   "rb": [
+    "リン酸|りんさん"
+   ]
+  },
+  {
+   "id": "ag-044",
+   "kata": "カリ",
+   "kana": "かり",
+   "romaji": "kari",
+   "arti": "kalium",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6"
+   ]
+  },
+  {
+   "id": "ag-045",
+   "kata": "堆肥",
+   "kana": "たいひ",
+   "romaji": "taihi",
+   "arti": "kompos",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6"
+   ],
+   "rb": [
+    "堆肥|たいひ"
+   ]
+  },
+  {
+   "id": "ag-046",
+   "kata": "有機肥料",
+   "kana": "ゆうきひりょう",
+   "romaji": "yuukihiryou",
+   "arti": "pupuk organik",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6"
+   ],
+   "rb": [
+    "有機肥料|ゆうきひりょう"
+   ]
+  },
+  {
+   "id": "ag-047",
+   "kata": "元肥",
+   "kana": "もとごえ",
+   "romaji": "motogoe",
+   "arti": "pemupukan dasar",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6",
+    "a6s5"
+   ],
+   "rb": [
+    "元肥|もとごえ"
+   ]
+  },
+  {
+   "id": "ag-048",
+   "kata": "追肥",
+   "kana": "ついひ",
+   "romaji": "tsuihi",
+   "arti": "pemupukan tambahan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s6",
+    "a6s5"
+   ],
+   "rb": [
+    "追肥|ついひ"
+   ]
+  },
+  {
+   "id": "ag-049",
+   "kata": "畝立て",
+   "kana": "うねたて",
+   "romaji": "unetate",
+   "arti": "pembentukan bedengan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7",
+    "a7s1"
+   ],
+   "rb": [
+    "畝立て|うねたて"
+   ]
+  },
+  {
+   "id": "ag-050",
+   "kata": "摘心",
+   "kana": "てきしん",
+   "romaji": "tekishin",
+   "arti": "pemangkasan tunas ujung",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7",
+    "a7s2"
+   ],
+   "rb": [
+    "摘心|てきしん"
+   ]
+  },
+  {
+   "id": "ag-051",
+   "kata": "わき芽かき",
+   "kana": "わきめかき",
+   "romaji": "wakimekaki",
+   "arti": "pemangkasan tunas samping",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7"
+   ],
+   "rb": [
+    "わき芽かき|わきめかき"
+   ]
+  },
+  {
+   "id": "ag-052",
+   "kata": "摘果",
+   "kana": "てきか",
+   "romaji": "tekika",
+   "arti": "pemangkasan buah",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7",
+    "a6s4"
+   ],
+   "rb": [
+    "摘果|てきか"
+   ]
+  },
+  {
+   "id": "ag-053",
+   "kata": "人工授粉",
+   "kana": "じんこうじゅふん",
+   "romaji": "jinkoujufun",
+   "arti": "penyerbukan buatan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7",
+    "a6s4"
+   ],
+   "rb": [
+    "人工授粉|じんこうじゅふん"
+   ]
+  },
+  {
+   "id": "ag-054",
+   "kata": "誘引",
+   "kana": "ゆういん",
+   "romaji": "yuuin",
+   "arti": "pengikatan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7",
+    "a6s3"
+   ],
+   "rb": [
+    "誘引|ゆういん"
+   ]
+  },
+  {
+   "id": "ag-055",
+   "kata": "収穫",
+   "kana": "しゅうかく",
+   "romaji": "shuukaku",
+   "arti": "pemanenan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7",
+    "a3s3"
+   ],
+   "rb": [
+    "収穫|しゅうかく"
+   ]
+  },
+  {
+   "id": "ag-056",
+   "kata": "予冷",
+   "kana": "よれい",
+   "romaji": "yorei",
+   "arti": "pra-pendinginan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s7"
+   ],
+   "rb": [
+    "予冷|よれい"
+   ]
+  },
+  {
+   "id": "ag-057",
+   "kata": "マルチ",
+   "kana": "まるち",
+   "romaji": "maruchi",
+   "arti": "mulsa",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8",
+    "a6s7"
+   ]
+  },
+  {
+   "id": "ag-058",
+   "kata": "トンネル",
+   "kana": "とんねる",
+   "romaji": "tonneru",
+   "arti": "terowongan",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8"
+   ]
+  },
+  {
+   "id": "ag-059",
+   "kata": "殺菌剤",
+   "kana": "さっきんざい",
+   "romaji": "sakkinzai",
+   "arti": "fungisida",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8"
+   ],
+   "rb": [
+    "殺菌剤|さっきんざい"
+   ]
+  },
+  {
+   "id": "ag-060",
+   "kata": "殺虫剤",
+   "kana": "さっちゅうざい",
+   "romaji": "sacchuuzai",
+   "arti": "insektisida",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8"
+   ],
+   "rb": [
+    "殺虫剤|さっちゅうざい"
+   ]
+  },
+  {
+   "id": "ag-061",
+   "kata": "除草剤",
+   "kana": "じょそうざい",
+   "romaji": "josouzai",
+   "arti": "herbisida",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8",
+    "a3s2"
+   ],
+   "rb": [
+    "除草剤|じょそうざい"
+   ]
+  },
+  {
+   "id": "ag-062",
+   "kata": "雑草",
+   "kana": "ざっそう",
+   "romaji": "zassou",
+   "arti": "gulma",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8"
+   ],
+   "rb": [
+    "雑草|ざっそう"
+   ]
+  },
+  {
+   "id": "ag-063",
+   "kata": "天敵",
+   "kana": "てんてき",
+   "romaji": "tenteki",
+   "arti": "musuh alami",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8"
+   ],
+   "rb": [
+    "天敵|てんてき"
+   ]
+  },
+  {
+   "id": "ag-064",
+   "kata": "防虫ネット",
+   "kana": "ぼうちゅうねっと",
+   "romaji": "bouchuunetto",
+   "arti": "jaring anti serangga",
+   "cat": "Pertanaman Umum",
+   "bab": "bab1",
+   "src": [
+    "a1s8",
+    "a7s3"
+   ],
+   "rb": [
+    "防虫ネット|ぼうちゅうねっと"
+   ]
+  },
+  {
+   "id": "ag-065",
+   "kata": "農業機械",
+   "kana": "のうぎょうきかい",
+   "romaji": "nougyoukikai",
+   "arti": "mesin pertanian",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ],
+   "rb": [
+    "農業機械|のうぎょうきかい"
+   ]
+  },
+  {
+   "id": "ag-066",
+   "kata": "点検",
+   "kana": "てんけん",
+   "romaji": "tenken",
+   "arti": "pemeriksaan",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ],
+   "rb": [
+    "点検|てんけん"
+   ]
+  },
+  {
+   "id": "ag-067",
+   "kata": "トラクター",
+   "kana": "とらくたー",
+   "romaji": "torakutaa",
+   "arti": "traktor",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ]
+  },
+  {
+   "id": "ag-068",
+   "kata": "ブレーキ",
+   "kana": "ぶれーき",
+   "romaji": "bureeki",
+   "arti": "rem",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ]
+  },
+  {
+   "id": "ag-069",
+   "kata": "運転免許",
+   "kana": "うんてんめんきょ",
+   "romaji": "untenmenkyo",
+   "arti": "SIM",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ],
+   "rb": [
+    "運転免許|うんてんめんきょ"
+   ]
+  },
+  {
+   "id": "ag-070",
+   "kata": "草刈機",
+   "kana": "くさかりき",
+   "romaji": "kusakariki",
+   "arti": "mesin pemotong rumput",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ],
+   "rb": [
+    "草刈機|くさかりき"
+   ]
+  },
+  {
+   "id": "ag-071",
+   "kata": "エンジン",
+   "kana": "えんじん",
+   "romaji": "enjin",
+   "arti": "mesin/engine",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s1"
+   ]
+  },
+  {
+   "id": "ag-072",
+   "kata": "農薬",
+   "kana": "のうやく",
+   "romaji": "nouyaku",
+   "arti": "pestisida",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "農薬|のうやく"
+   ]
+  },
+  {
+   "id": "ag-073",
+   "kata": "防護服",
+   "kana": "ぼうごふく",
+   "romaji": "bougofuku",
+   "arti": "pakaian pelindung",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "防護服|ぼうごふく"
+   ]
+  },
+  {
+   "id": "ag-074",
+   "kata": "ゴム手袋",
+   "kana": "ごむてぶくろ",
+   "romaji": "gomutebukuro",
+   "arti": "sarung tangan karet",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "ゴム手袋|ごむてぶくろ"
+   ]
+  },
+  {
+   "id": "ag-075",
+   "kata": "散布",
+   "kana": "さんぷ",
+   "romaji": "sanpu",
+   "arti": "penyemprotan",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "散布|さんぷ"
+   ]
+  },
+  {
+   "id": "ag-076",
+   "kata": "希釈",
+   "kana": "きしゃく",
+   "romaji": "kishaku",
+   "arti": "pengenceran",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "希釈|きしゃく"
+   ]
+  },
+  {
+   "id": "ag-077",
+   "kata": "使用基準",
+   "kana": "しようきじゅん",
+   "romaji": "shiyoukijun",
+   "arti": "standar pemakaian",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "使用基準|しようきじゅん"
+   ]
+  },
+  {
+   "id": "ag-078",
+   "kata": "飛散",
+   "kana": "ひさん",
+   "romaji": "hisan",
+   "arti": "terbang/drift",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s2"
+   ],
+   "rb": [
+    "飛散|ひさん"
+   ]
+  },
+  {
+   "id": "ag-079",
+   "kata": "電源",
+   "kana": "でんげん",
+   "romaji": "dengen",
+   "arti": "sumber listrik",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ],
+   "rb": [
+    "電源|でんげん"
+   ]
+  },
+  {
+   "id": "ag-080",
+   "kata": "感電",
+   "kana": "かんでん",
+   "romaji": "kanden",
+   "arti": "sengatan listrik",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ],
+   "rb": [
+    "感電|かんでん"
+   ]
+  },
+  {
+   "id": "ag-081",
+   "kata": "燃料",
+   "kana": "ねんりょう",
+   "romaji": "nenryou",
+   "arti": "bahan bakar",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ],
+   "rb": [
+    "燃料|ねんりょう"
+   ]
+  },
+  {
+   "id": "ag-082",
+   "kata": "ガソリン",
+   "kana": "がそりん",
+   "romaji": "gasorin",
+   "arti": "bensin",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ]
+  },
+  {
+   "id": "ag-083",
+   "kata": "軽油",
+   "kana": "けいゆ",
+   "romaji": "keiyu",
+   "arti": "minyak ringan (solar)",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ],
+   "rb": [
+    "軽油|けいゆ"
+   ]
+  },
+  {
+   "id": "ag-084",
+   "kata": "灯油",
+   "kana": "とうゆ",
+   "romaji": "touyu",
+   "arti": "minyak tanah",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ],
+   "rb": [
+    "灯油|とうゆ"
+   ]
+  },
+  {
+   "id": "ag-085",
+   "kata": "消火器",
+   "kana": "しょうかき",
+   "romaji": "shoukaki",
+   "arti": "alat pemadam",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s3"
+   ],
+   "rb": [
+    "消火器|しょうかき"
+   ]
+  },
+  {
+   "id": "ag-086",
+   "kata": "脚立",
+   "kana": "きゃたつ",
+   "romaji": "kyatatsu",
+   "arti": "tangga lipat (kaki tiga)",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s4"
+   ],
+   "rb": [
+    "脚立|きゃたつ"
+   ]
+  },
+  {
+   "id": "ag-087",
+   "kata": "のこぎり",
+   "kana": "のこぎり",
+   "romaji": "nokogiri",
+   "arti": "gergaji",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s4"
+   ]
+  },
+  {
+   "id": "ag-088",
+   "kata": "はさみ",
+   "kana": "はさみ",
+   "romaji": "hasami",
+   "arti": "gunting",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s4"
+   ]
+  },
+  {
+   "id": "ag-089",
+   "kata": "手入れ",
+   "kana": "ていれ",
+   "romaji": "teire",
+   "arti": "perawatan",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s4"
+   ],
+   "rb": [
+    "手入れ|ていれ"
+   ]
+  },
+  {
+   "id": "ag-090",
+   "kata": "安全",
+   "kana": "あんぜん",
+   "romaji": "anzen",
+   "arti": "keselamatan",
+   "cat": "Keselamatan dan Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "a2s4"
+   ],
+   "rb": [
+    "安全|あんぜん"
+   ]
+  },
+  {
+   "id": "ag-091",
+   "kata": "種籾",
+   "kana": "たねもみ",
+   "romaji": "tanemomi",
+   "arti": "benih padi (gabah benih)",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s1"
+   ],
+   "rb": [
+    "種籾|たねもみ"
+   ]
+  },
+  {
+   "id": "ag-092",
+   "kata": "玄米",
+   "kana": "げんまい",
+   "romaji": "genmai",
+   "arti": "beras coklat",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s1"
+   ],
+   "rb": [
+    "玄米|げんまい"
+   ]
+  },
+  {
+   "id": "ag-093",
+   "kata": "胚",
+   "kana": "はい",
+   "romaji": "hai",
+   "arti": "embrio",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s1"
+   ],
+   "rb": [
+    "胚|はい"
+   ]
+  },
+  {
+   "id": "ag-094",
+   "kata": "胚乳",
+   "kana": "はいにゅう",
+   "romaji": "hainyuu",
+   "arti": "endosperma",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s1"
+   ],
+   "rb": [
+    "胚乳|はいにゅう"
+   ]
+  },
+  {
+   "id": "ag-095",
+   "kata": "田植機",
+   "kana": "たうえき",
+   "romaji": "taueki",
+   "arti": "mesin tanam padi (transplanter)",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s1"
+   ],
+   "rb": [
+    "田植機|たうえき"
+   ]
+  },
+  {
+   "id": "ag-096",
+   "kata": "いもち病",
+   "kana": "いもちびょう",
+   "romaji": "imochibyou",
+   "arti": "penyakit blas",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s1"
+   ],
+   "rb": [
+    "いもち病|いもちびょう"
+   ]
+  },
+  {
+   "id": "ag-097",
+   "kata": "代かき",
+   "kana": "しろかき",
+   "romaji": "shirokaki",
+   "arti": "pelumpuran",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s2"
+   ],
+   "rb": [
+    "代かき|しろかき"
+   ]
+  },
+  {
+   "id": "ag-098",
+   "kata": "分げつ",
+   "kana": "ぶんげつ",
+   "romaji": "bungetsu",
+   "arti": "penganakan",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s2"
+   ],
+   "rb": [
+    "分げつ|ぶんげつ"
+   ]
+  },
+  {
+   "id": "ag-099",
+   "kata": "中干し",
+   "kana": "なかぼし",
+   "romaji": "nakaboshi",
+   "arti": "pengeringan sawah",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s2"
+   ],
+   "rb": [
+    "中干し|なかぼし"
+   ]
+  },
+  {
+   "id": "ag-100",
+   "kata": "穂肥",
+   "kana": "ほごえ",
+   "romaji": "hogoe",
+   "arti": "pupuk malai",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s2"
+   ],
+   "rb": [
+    "穂肥|ほごえ"
+   ]
+  },
+  {
+   "id": "ag-101",
+   "kata": "入水",
+   "kana": "にゅうすい",
+   "romaji": "nyuusui",
+   "arti": "pemasukan air",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s2"
+   ],
+   "rb": [
+    "入水|にゅうすい"
+   ]
+  },
+  {
+   "id": "ag-102",
+   "kata": "穂",
+   "kana": "ほ",
+   "romaji": "ho",
+   "arti": "malai",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s2"
+   ],
+   "rb": [
+    "穂|ほ"
+   ]
+  },
+  {
+   "id": "ag-103",
+   "kata": "コンバイン",
+   "kana": "こんばいん",
+   "romaji": "konbain",
+   "arti": "combine (pemanen)",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s3"
+   ]
+  },
+  {
+   "id": "ag-104",
+   "kata": "乾燥",
+   "kana": "かんそう",
+   "romaji": "kansou",
+   "arti": "pengeringan",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s3"
+   ],
+   "rb": [
+    "乾燥|かんそう"
+   ]
+  },
+  {
+   "id": "ag-105",
+   "kata": "籾摺り",
+   "kana": "もみすり",
+   "romaji": "momisuri",
+   "arti": "penggilingan sekam",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s3"
+   ],
+   "rb": [
+    "籾摺り|もみすり"
+   ]
+  },
+  {
+   "id": "ag-106",
+   "kata": "直播栽培",
+   "kana": "ちょくはんさいばい",
+   "romaji": "chokuhansaibai",
+   "arti": "penyemaian langsung",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s3"
+   ],
+   "rb": [
+    "直播栽培|ちょくはんさいばい"
+   ]
+  },
+  {
+   "id": "ag-107",
+   "kata": "飼料用米",
+   "kana": "しりょうようまい",
+   "romaji": "shiryouyoumai",
+   "arti": "beras untuk pakan",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s3"
+   ],
+   "rb": [
+    "飼料用米|しりょうようまい"
+   ]
+  },
+  {
+   "id": "ag-108",
+   "kata": "稲WCS",
+   "kana": "いねだぶりゅーしーえす",
+   "romaji": "inedaburyuushiiesu",
+   "arti": "WCS padi (silase seluruh tanaman)",
+   "cat": "Budidaya Padi",
+   "bab": "bab3",
+   "src": [
+    "a3s3"
+   ],
+   "rb": [
+    "稲WCS|いねだぶりゅーしーえす"
+   ]
+  },
+  {
+   "id": "ag-109",
+   "kata": "葉菜類",
+   "kana": "はなさいるい",
+   "romaji": "hanasairui",
+   "arti": "sayuran daun",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ],
+   "rb": [
+    "葉菜類|はなさいるい"
+   ]
+  },
+  {
+   "id": "ag-110",
+   "kata": "根菜類",
+   "kana": "こんさいるい",
+   "romaji": "konsairui",
+   "arti": "sayuran akar",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ],
+   "rb": [
+    "根菜類|こんさいるい"
+   ]
+  },
+  {
+   "id": "ag-111",
+   "kata": "果菜類",
+   "kana": "かさいるい",
+   "romaji": "kasairui",
+   "arti": "sayuran buah",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ],
+   "rb": [
+    "果菜類|かさいるい"
+   ]
+  },
+  {
+   "id": "ag-112",
+   "kata": "工芸作物",
+   "kana": "こうげいさくもつ",
+   "romaji": "kougeisakumotsu",
+   "arti": "tanaman industri",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ],
+   "rb": [
+    "工芸作物|こうげいさくもつ"
+   ]
+  },
+  {
+   "id": "ag-113",
+   "kata": "サイレージ",
+   "kana": "さいれーじ",
+   "romaji": "saireeji",
+   "arti": "silase",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ]
+  },
+  {
+   "id": "ag-114",
+   "kata": "芽かき",
+   "kana": "めかき",
+   "romaji": "mekaki",
+   "arti": "pemangkasan tunas samping",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ],
+   "rb": [
+    "芽かき|めかき"
+   ]
+  },
+  {
+   "id": "ag-115",
+   "kata": "支柱",
+   "kana": "しちゅう",
+   "romaji": "shichuu",
+   "arti": "tiang penopang",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s1"
+   ],
+   "rb": [
+    "支柱|しちゅう"
+   ]
+  },
+  {
+   "id": "ag-116",
+   "kata": "最適温度",
+   "kana": "さいてきおんど",
+   "romaji": "saitekiondo",
+   "arti": "suhu optimal",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s2"
+   ],
+   "rb": [
+    "最適温度|さいてきおんど"
+   ]
+  },
+  {
+   "id": "ag-117",
+   "kata": "光飽和点",
+   "kana": "ひかりほうわてん",
+   "romaji": "hikarihouwaten",
+   "arti": "titik saturasi cahaya",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s2"
+   ],
+   "rb": [
+    "光飽和点|ひかりほうわてん"
+   ]
+  },
+  {
+   "id": "ag-118",
+   "kata": "テンションメーター",
+   "kana": "てんしょんめーたー",
+   "romaji": "tenshonmeetaa",
+   "arti": "tensiometer",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s2"
+   ]
+  },
+  {
+   "id": "ag-119",
+   "kata": "土壌水分",
+   "kana": "どじょうすいぶん",
+   "romaji": "dojousuibun",
+   "arti": "kadar air tanah",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s2"
+   ],
+   "rb": [
+    "土壌水分|どじょうすいぶん"
+   ]
+  },
+  {
+   "id": "ag-120",
+   "kata": "好光性種子",
+   "kana": "こうこうせいしゅし",
+   "romaji": "koukouseishushi",
+   "arti": "benih fotoblastik positif",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s3"
+   ],
+   "rb": [
+    "好光性種子|こうこうせいしゅし"
+   ]
+  },
+  {
+   "id": "ag-121",
+   "kata": "嫌光性種子",
+   "kana": "けんこうせいしゅし",
+   "romaji": "kenkouseishushi",
+   "arti": "benih fotoblastik negatif",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s3"
+   ],
+   "rb": [
+    "嫌光性種子|けんこうせいしゅし"
+   ]
+  },
+  {
+   "id": "ag-122",
+   "kata": "F1品種",
+   "kana": "えふわんひんしゅ",
+   "romaji": "efuwanhinshu",
+   "arti": "varietas F1",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s3"
+   ],
+   "rb": [
+    "F1品種|えふわんひんしゅ"
+   ]
+  },
+  {
+   "id": "ag-123",
+   "kata": "覆土",
+   "kana": "ふくど",
+   "romaji": "fukudo",
+   "arti": "penutupan dengan tanah",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s3"
+   ],
+   "rb": [
+    "覆土|ふくど"
+   ]
+  },
+  {
+   "id": "ag-124",
+   "kata": "固定種",
+   "kana": "こていしゅ",
+   "romaji": "koteishu",
+   "arti": "varietas bersari bebas",
+   "cat": "Budidaya Sayuran di Ladang",
+   "bab": "bab4",
+   "src": [
+    "a4s3"
+   ],
+   "rb": [
+    "固定種|こていしゅ"
+   ]
+  },
+  {
+   "id": "ag-125",
+   "kata": "トマト",
+   "kana": "とまと",
+   "romaji": "tomato",
+   "arti": "tomat",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s1"
+   ]
+  },
+  {
+   "id": "ag-126",
+   "kata": "イチゴ",
+   "kana": "いちご",
+   "romaji": "ichigo",
+   "arti": "stroberi",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s1"
+   ]
+  },
+  {
+   "id": "ag-127",
+   "kata": "ランナー",
+   "kana": "らんなー",
+   "romaji": "rannaa",
+   "arti": "geragih (stolon)",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s1"
+   ]
+  },
+  {
+   "id": "ag-128",
+   "kata": "単為結果",
+   "kana": "たんいけっか",
+   "romaji": "tanikekka",
+   "arti": "partenokarpi",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s1"
+   ],
+   "rb": [
+    "単為結果|たんいけっか"
+   ]
+  },
+  {
+   "id": "ag-129",
+   "kata": "キク",
+   "kana": "きく",
+   "romaji": "kiku",
+   "arti": "krisan",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s1"
+   ]
+  },
+  {
+   "id": "ag-130",
+   "kata": "挿し木",
+   "kana": "さしき",
+   "romaji": "sashiki",
+   "arti": "setek",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s1",
+    "a6s2"
+   ],
+   "rb": [
+    "挿し木|さしき"
+   ]
+  },
+  {
+   "id": "ag-131",
+   "kata": "ガラス温室",
+   "kana": "がらすおんしつ",
+   "romaji": "garasuonshitsu",
+   "arti": "rumah kaca (glass)",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s2"
+   ],
+   "rb": [
+    "ガラス温室|がらすおんしつ"
+   ]
+  },
+  {
+   "id": "ag-132",
+   "kata": "パイプハウス",
+   "kana": "ぱいぷはうす",
+   "romaji": "paipuhausu",
+   "arti": "rumah plastik rangka pipa",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s2"
+   ]
+  },
+  {
+   "id": "ag-133",
+   "kata": "雨よけ栽培",
+   "kana": "あめよけさいばい",
+   "romaji": "ameyokesaibai",
+   "arti": "budidaya rumah hujan",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s2"
+   ],
+   "rb": [
+    "雨よけ栽培|あめよけさいばい"
+   ]
+  },
+  {
+   "id": "ag-134",
+   "kata": "塩化ビニル",
+   "kana": "えんかびにる",
+   "romaji": "enkabiniru",
+   "arti": "vinil klorida (PVC)",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s2"
+   ],
+   "rb": [
+    "塩化ビニル|えんかびにる"
+   ]
+  },
+  {
+   "id": "ag-135",
+   "kata": "ポリオレフィン",
+   "kana": "ぽりおれふぃん",
+   "romaji": "poriorefuin",
+   "arti": "poliolefin",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s2"
+   ]
+  },
+  {
+   "id": "ag-136",
+   "kata": "保温",
+   "kana": "ほおん",
+   "romaji": "hoon",
+   "arti": "retensi panas",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s2"
+   ],
+   "rb": [
+    "保温|ほおん"
+   ]
+  },
+  {
+   "id": "ag-137",
+   "kata": "暖房機",
+   "kana": "だんぼうき",
+   "romaji": "danbouki",
+   "arti": "pemanas",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s3"
+   ],
+   "rb": [
+    "暖房機|だんぼうき"
+   ]
+  },
+  {
+   "id": "ag-138",
+   "kata": "換気",
+   "kana": "かんき",
+   "romaji": "kanki",
+   "arti": "ventilasi",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s3"
+   ],
+   "rb": [
+    "換気|かんき"
+   ]
+  },
+  {
+   "id": "ag-139",
+   "kata": "炭酸ガス発生装置",
+   "kana": "たんさんがすはっせいそうち",
+   "romaji": "tansangasuhasseisouchi",
+   "arti": "alat penghasil gas CO2",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s3"
+   ],
+   "rb": [
+    "炭酸ガス発生装置|たんさんがすはっせいそうち"
+   ]
+  },
+  {
+   "id": "ag-140",
+   "kata": "防虫灯",
+   "kana": "ぼうちゅうとう",
+   "romaji": "bouchuutou",
+   "arti": "lampu anti serangga",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s3"
+   ],
+   "rb": [
+    "防虫灯|ぼうちゅうとう"
+   ]
+  },
+  {
+   "id": "ag-141",
+   "kata": "温風暖房",
+   "kana": "おんぷうだんぼう",
+   "romaji": "onpuudanbou",
+   "arti": "pemanas udara hangat",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s3"
+   ],
+   "rb": [
+    "温風暖房|おんぷうだんぼう"
+   ]
+  },
+  {
+   "id": "ag-142",
+   "kata": "最高最低温度計",
+   "kana": "さいこうさいていおんどけい",
+   "romaji": "saikousaiteiondokei",
+   "arti": "termometer maksimum-minimum",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s4"
+   ],
+   "rb": [
+    "最高最低温度計|さいこうさいていおんどけい"
+   ]
+  },
+  {
+   "id": "ag-143",
+   "kata": "湿度",
+   "kana": "しつど",
+   "romaji": "shitsudo",
+   "arti": "kelembapan",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s4"
+   ],
+   "rb": [
+    "湿度|しつど"
+   ]
+  },
+  {
+   "id": "ag-144",
+   "kata": "結露",
+   "kana": "けつろ",
+   "romaji": "ketsuro",
+   "arti": "kondensasi",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s4"
+   ],
+   "rb": [
+    "結露|けつろ"
+   ]
+  },
+  {
+   "id": "ag-145",
+   "kata": "複合環境制御",
+   "kana": "ふくごうかんきょうせいぎょ",
+   "romaji": "fukugoukankyouseigyo",
+   "arti": "kontrol lingkungan majemuk",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s4"
+   ],
+   "rb": [
+    "複合環境制御|ふくごうかんきょうせいぎょ"
+   ]
+  },
+  {
+   "id": "ag-146",
+   "kata": "節間",
+   "kana": "せつかん",
+   "romaji": "setsukan",
+   "arti": "ruas/antar ruas",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s4"
+   ],
+   "rb": [
+    "節間|せつかん"
+   ]
+  },
+  {
+   "id": "ag-147",
+   "kata": "摂氏",
+   "kana": "せっし",
+   "romaji": "sesshi",
+   "arti": "Celsius",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s4"
+   ],
+   "rb": [
+    "摂氏|せっし"
+   ]
+  },
+  {
+   "id": "ag-148",
+   "kata": "養液栽培",
+   "kana": "ようえきさいばい",
+   "romaji": "youekisaibai",
+   "arti": "hidroponik",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s5"
+   ],
+   "rb": [
+    "養液栽培|ようえきさいばい"
+   ]
+  },
+  {
+   "id": "ag-149",
+   "kata": "台木",
+   "kana": "だいぎ",
+   "romaji": "daigi",
+   "arti": "batang bawah",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s5",
+    "a6s2"
+   ],
+   "rb": [
+    "台木|だいぎ"
+   ]
+  },
+  {
+   "id": "ag-150",
+   "kata": "セル成型育苗",
+   "kana": "せるせいけいいくびょう",
+   "romaji": "seruseikeiikubyou",
+   "arti": "pembibitan wadah sel",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s5"
+   ],
+   "rb": [
+    "セル成型育苗|せるせいけいいくびょう"
+   ]
+  },
+  {
+   "id": "ag-151",
+   "kata": "徒長苗",
+   "kana": "とちょうなえ",
+   "romaji": "tochounae",
+   "arti": "bibit panjang (etiolasi)",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s5"
+   ],
+   "rb": [
+    "徒長苗|とちょうなえ"
+   ]
+  },
+  {
+   "id": "ag-152",
+   "kata": "ロックウール",
+   "kana": "ろっくうーる",
+   "romaji": "rokkuuuru",
+   "arti": "rockwool",
+   "cat": "Hortikultura Rumah Kaca",
+   "bab": "bab5",
+   "src": [
+    "a5s5"
+   ]
+  },
+  {
+   "id": "ag-153",
+   "kata": "落葉果樹",
+   "kana": "らくようかじゅ",
+   "romaji": "rakuyoukaju",
+   "arti": "pohon buah peluruh",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s1"
+   ],
+   "rb": [
+    "落葉果樹|らくようかじゅ"
+   ]
+  },
+  {
+   "id": "ag-154",
+   "kata": "常緑果樹",
+   "kana": "じょうりょくかじゅ",
+   "romaji": "jouryokukaju",
+   "arti": "pohon buah hijau abadi",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s1"
+   ],
+   "rb": [
+    "常緑果樹|じょうりょくかじゅ"
+   ]
+  },
+  {
+   "id": "ag-155",
+   "kata": "花芽",
+   "kana": "はなめ",
+   "romaji": "haname",
+   "arti": "pucuk bunga",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s1"
+   ],
+   "rb": [
+    "花芽|はなめ"
+   ]
+  },
+  {
+   "id": "ag-156",
+   "kata": "葉芽",
+   "kana": "はめ",
+   "romaji": "hame",
+   "arti": "kuncup daun",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s1"
+   ],
+   "rb": [
+    "葉芽|はめ"
+   ]
+  },
+  {
+   "id": "ag-157",
+   "kata": "花芽分化",
+   "kana": "はなめぶんか",
+   "romaji": "hanamebunka",
+   "arti": "diferensiasi pucuk bunga",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s1"
+   ],
+   "rb": [
+    "花芽分化|はなめぶんか"
+   ]
+  },
+  {
+   "id": "ag-158",
+   "kata": "ジベレリン",
+   "kana": "じべれりん",
+   "romaji": "jibererin",
+   "arti": "giberelin",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s1"
+   ]
+  },
+  {
+   "id": "ag-159",
+   "kata": "穂木",
+   "kana": "ほぎ",
+   "romaji": "hogi",
+   "arti": "batang atas (entres)",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s2"
+   ],
+   "rb": [
+    "穂木|ほぎ"
+   ]
+  },
+  {
+   "id": "ag-160",
+   "kata": "実生",
+   "kana": "みしょう",
+   "romaji": "mishou",
+   "arti": "seedling (dari biji)",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s2"
+   ],
+   "rb": [
+    "実生|みしょう"
+   ]
+  },
+  {
+   "id": "ag-161",
+   "kata": "形成層",
+   "kana": "けいせいそう",
+   "romaji": "keiseisou",
+   "arti": "kambium",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s2"
+   ],
+   "rb": [
+    "形成層|けいせいそう"
+   ]
+  },
+  {
+   "id": "ag-162",
+   "kata": "芽接ぎ",
+   "kana": "めつぎ",
+   "romaji": "metsugi",
+   "arti": "penyambungan tunas",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s2"
+   ],
+   "rb": [
+    "芽接ぎ|めつぎ"
+   ]
+  },
+  {
+   "id": "ag-163",
+   "kata": "整枝",
+   "kana": "せいし",
+   "romaji": "seishi",
+   "arti": "perapian ranting",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s3"
+   ],
+   "rb": [
+    "整枝|せいし"
+   ]
+  },
+  {
+   "id": "ag-164",
+   "kata": "剪定",
+   "kana": "せんてい",
+   "romaji": "sentei",
+   "arti": "pemangkasan",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s3"
+   ],
+   "rb": [
+    "剪定|せんてい"
+   ]
+  },
+  {
+   "id": "ag-165",
+   "kata": "切り返し剪定",
+   "kana": "きりかえしせんてい",
+   "romaji": "kirikaeshisentei",
+   "arti": "pemangkasan di tengah ranting",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s3"
+   ],
+   "rb": [
+    "切り返し剪定|きりかえしせんてい"
+   ]
+  },
+  {
+   "id": "ag-166",
+   "kata": "間引き剪定",
+   "kana": "まびきせんてい",
+   "romaji": "mabikisentei",
+   "arti": "pemangkasan penjarangan",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s3"
+   ],
+   "rb": [
+    "間引き剪定|まびきせんてい"
+   ]
+  },
+  {
+   "id": "ag-167",
+   "kata": "棚仕立て",
+   "kana": "たなじたて",
+   "romaji": "tanajitate",
+   "arti": "bentuk rak",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s3"
+   ],
+   "rb": [
+    "棚仕立て|たなじたて"
+   ]
+  },
+  {
+   "id": "ag-168",
+   "kata": "摘蕾",
+   "kana": "てきらい",
+   "romaji": "tekirai",
+   "arti": "pemangkasan tunas",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s4"
+   ],
+   "rb": [
+    "摘蕾|てきらい"
+   ]
+  },
+  {
+   "id": "ag-169",
+   "kata": "摘花",
+   "kana": "てきか",
+   "romaji": "tekika",
+   "arti": "pemangkasan bunga",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s4"
+   ],
+   "rb": [
+    "摘花|てきか"
+   ]
+  },
+  {
+   "id": "ag-170",
+   "kata": "袋かけ",
+   "kana": "ふくろかけ",
+   "romaji": "fukurokake",
+   "arti": "pembungkusan buah dengan kantong",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s4"
+   ],
+   "rb": [
+    "袋かけ|ふくろかけ"
+   ]
+  },
+  {
+   "id": "ag-171",
+   "kata": "後熟",
+   "kana": "こうじゅく",
+   "romaji": "koujuku",
+   "arti": "pematangan tambahan",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s4"
+   ],
+   "rb": [
+    "後熟|こうじゅく"
+   ]
+  },
+  {
+   "id": "ag-172",
+   "kata": "改植",
+   "kana": "かいしょく",
+   "romaji": "kaishoku",
+   "arti": "peremajaan (tanam kembali)",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s4"
+   ],
+   "rb": [
+    "改植|かいしょく"
+   ]
+  },
+  {
+   "id": "ag-173",
+   "kata": "お礼肥",
+   "kana": "おれいごえ",
+   "romaji": "oreigoe",
+   "arti": "pupuk obi (terima kasih)",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s5"
+   ],
+   "rb": [
+    "お礼肥|おれいごえ"
+   ]
+  },
+  {
+   "id": "ag-174",
+   "kata": "深耕",
+   "kana": "しんこう",
+   "romaji": "shinkou",
+   "arti": "pembajakan dalam",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s5"
+   ],
+   "rb": [
+    "深耕|しんこう"
+   ]
+  },
+  {
+   "id": "ag-175",
+   "kata": "CA貯蔵",
+   "kana": "しーえーちょぞう",
+   "romaji": "shiieechozou",
+   "arti": "penyimpanan CA",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s5"
+   ],
+   "rb": [
+    "CA貯蔵|しーえーちょぞう"
+   ]
+  },
+  {
+   "id": "ag-176",
+   "kata": "温州みかん",
+   "kana": "うんしゅうみかん",
+   "romaji": "unshuumikan",
+   "arti": "jeruk unshiu",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ],
+   "rb": [
+    "温州みかん|うんしゅうみかん"
+   ]
+  },
+  {
+   "id": "ag-177",
+   "kata": "ふじ",
+   "kana": "ふじ",
+   "romaji": "fuji",
+   "arti": "apel Fuji",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ]
+  },
+  {
+   "id": "ag-178",
+   "kata": "巨峰",
+   "kana": "きょほう",
+   "romaji": "kyohou",
+   "arti": "anggur Kyoho",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ],
+   "rb": [
+    "巨峰|きょほう"
+   ]
+  },
+  {
+   "id": "ag-179",
+   "kata": "甘柿",
+   "kana": "あまがき",
+   "romaji": "amagaki",
+   "arti": "kesemek manis",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ],
+   "rb": [
+    "甘柿|あまがき"
+   ]
+  },
+  {
+   "id": "ag-180",
+   "kata": "渋柿",
+   "kana": "しぶがき",
+   "romaji": "shibugaki",
+   "arti": "kesemek kelat",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ],
+   "rb": [
+    "渋柿|しぶがき"
+   ]
+  },
+  {
+   "id": "ag-181",
+   "kata": "隔年結果",
+   "kana": "かくねんけっか",
+   "romaji": "kakunenkekka",
+   "arti": "siklus berbuah (tahun besar-kecil)",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ],
+   "rb": [
+    "隔年結果|かくねんけっか"
+   ]
+  },
+  {
+   "id": "ag-182",
+   "kata": "わい化栽培",
+   "kana": "わいかさいばい",
+   "romaji": "waikasaibai",
+   "arti": "budidaya kerdil",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s6"
+   ],
+   "rb": [
+    "わい化栽培|わいかさいばい"
+   ]
+  },
+  {
+   "id": "ag-183",
+   "kata": "防風ネット",
+   "kana": "ぼうふうねっと",
+   "romaji": "boufuunetto",
+   "arti": "jaring penahan angin",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s7"
+   ],
+   "rb": [
+    "防風ネット|ぼうふうねっと"
+   ]
+  },
+  {
+   "id": "ag-184",
+   "kata": "反射シート",
+   "kana": "はんしゃしーと",
+   "romaji": "hanshashiito",
+   "arti": "lembar reflektif",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s7"
+   ],
+   "rb": [
+    "反射シート|はんしゃしーと"
+   ]
+  },
+  {
+   "id": "ag-185",
+   "kata": "植物成長調整剤",
+   "kana": "しょくぶつせいちょうちょうせいざい",
+   "romaji": "shokubutsuseichouchouseizai",
+   "arti": "zat pengatur tumbuh",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s7"
+   ],
+   "rb": [
+    "植物成長調整剤|しょくぶつせいちょうちょうせいざい"
+   ]
+  },
+  {
+   "id": "ag-186",
+   "kata": "スピードスプレーヤー",
+   "kana": "すぴーどすぷれーやー",
+   "romaji": "supiidosupureeyaa",
+   "arti": "speed sprayer (SS)",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s7"
+   ]
+  },
+  {
+   "id": "ag-187",
+   "kata": "モノレール",
+   "kana": "ものれーる",
+   "romaji": "monoreeru",
+   "arti": "monorel",
+   "cat": "Budidaya Buah-buahan",
+   "bab": "bab6",
+   "src": [
+    "a6s7"
+   ]
+  },
+  {
+   "id": "ag-188",
+   "kata": "暗渠排水",
+   "kana": "あんきょはいすい",
+   "romaji": "ankyohaisui",
+   "arti": "pembuangan air terusan bawah tanah",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "暗渠排水|あんきょはいすい"
+   ]
+  },
+  {
+   "id": "ag-189",
+   "kata": "催芽",
+   "kana": "さいが",
+   "romaji": "saiga",
+   "arti": "mempercepat pertunasan",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "催芽|さいが"
+   ]
+  },
+  {
+   "id": "ag-190",
+   "kata": "選種",
+   "kana": "せんしゅ",
+   "romaji": "senshu",
+   "arti": "seleksi benih",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "選種|せんしゅ"
+   ]
+  },
+  {
+   "id": "ag-191",
+   "kata": "種子消毒",
+   "kana": "しゅししょうどく",
+   "romaji": "shushishoudoku",
+   "arti": "sterilisasi benih",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "種子消毒|しゅししょうどく"
+   ]
+  },
+  {
+   "id": "ag-192",
+   "kata": "干害",
+   "kana": "かんがい",
+   "romaji": "kangai",
+   "arti": "rusak kekeringan",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "干害|かんがい"
+   ]
+  },
+  {
+   "id": "ag-193",
+   "kata": "湿害",
+   "kana": "しつがい",
+   "romaji": "shitsugai",
+   "arti": "rusak genangan",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "湿害|しつがい"
+   ]
+  },
+  {
+   "id": "ag-194",
+   "kata": "直播き",
+   "kana": "じかまき",
+   "romaji": "jikamaki",
+   "arti": "penanaman benih langsung",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "直播き|じかまき"
+   ]
+  },
+  {
+   "id": "ag-195",
+   "kata": "浸種",
+   "kana": "しんしゅ",
+   "romaji": "shinshu",
+   "arti": "perendaman benih",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s1"
+   ],
+   "rb": [
+    "浸種|しんしゅ"
+   ]
+  },
+  {
+   "id": "ag-196",
+   "kata": "摘葉",
+   "kana": "てきよう",
+   "romaji": "tekiyou",
+   "arti": "pemangkasan daun",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "摘葉|てきよう"
+   ]
+  },
+  {
+   "id": "ag-197",
+   "kata": "防除",
+   "kana": "ぼうじょ",
+   "romaji": "boujo",
+   "arti": "pengendalian hama",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "防除|ぼうじょ"
+   ]
+  },
+  {
+   "id": "ag-198",
+   "kata": "促成栽培",
+   "kana": "そくせいさいばい",
+   "romaji": "sokuseisaibai",
+   "arti": "budidaya dipercepat",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "促成栽培|そくせいさいばい"
+   ]
+  },
+  {
+   "id": "ag-199",
+   "kata": "抑制栽培",
+   "kana": "よくせいさいばい",
+   "romaji": "yokuseisaibai",
+   "arti": "budidaya diperlambat",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "抑制栽培|よくせいさいばい"
+   ]
+  },
+  {
+   "id": "ag-200",
+   "kata": "露地栽培",
+   "kana": "ろじさいばい",
+   "romaji": "rojisaibai",
+   "arti": "pembudidayaan di luar ruangan",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "露地栽培|ろじさいばい"
+   ]
+  },
+  {
+   "id": "ag-201",
+   "kata": "冷害",
+   "kana": "れいがい",
+   "romaji": "reigai",
+   "arti": "kerusakan akibat dingin",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "冷害|れいがい"
+   ]
+  },
+  {
+   "id": "ag-202",
+   "kata": "中耕",
+   "kana": "ちゅうこう",
+   "romaji": "chuukou",
+   "arti": "pengolahan tanah saat budidaya",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s2"
+   ],
+   "rb": [
+    "中耕|ちゅうこう"
+   ]
+  },
+  {
+   "id": "ag-203",
+   "kata": "キャベツ",
+   "kana": "きゃべつ",
+   "romaji": "kyabetsu",
+   "arti": "kol",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-204",
+   "kata": "ハクサイ",
+   "kana": "はくさい",
+   "romaji": "hakusai",
+   "arti": "sawi putih",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-205",
+   "kata": "レタス",
+   "kana": "れたす",
+   "romaji": "retasu",
+   "arti": "letus",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-206",
+   "kata": "ホウレンソウ",
+   "kana": "ほうれんそう",
+   "romaji": "hourensou",
+   "arti": "bayam",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-207",
+   "kata": "タマネギ",
+   "kana": "たまねぎ",
+   "romaji": "tamanegi",
+   "arti": "bawang bombai",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-208",
+   "kata": "ダイコン",
+   "kana": "だいこん",
+   "romaji": "daikon",
+   "arti": "lobak",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-209",
+   "kata": "サツマイモ",
+   "kana": "さつまいも",
+   "romaji": "satsumaimo",
+   "arti": "ubi jalar",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-210",
+   "kata": "ジャガイモ",
+   "kana": "じゃがいも",
+   "romaji": "jagaimo",
+   "arti": "kentang",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-211",
+   "kata": "ニンジン",
+   "kana": "にんじん",
+   "romaji": "ninjin",
+   "arti": "wortel",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-212",
+   "kata": "ナス",
+   "kana": "なす",
+   "romaji": "nasu",
+   "arti": "terong",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  },
+  {
+   "id": "ag-213",
+   "kata": "キュウリ",
+   "kana": "きゅうり",
+   "romaji": "kyuuri",
+   "arti": "timun",
+   "cat": "Istilah Kegiatan Pertanian dan Foto",
+   "bab": "bab7",
+   "src": [
+    "a7s3"
+   ]
+  }
+ ]
+}

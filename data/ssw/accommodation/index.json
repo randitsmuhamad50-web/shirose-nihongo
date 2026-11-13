@@ -1,0 +1,35 @@
+{
+ "slug": "accommodation",
+ "nama": "Accommodation (Penginapan)",
+ "jp": "宿泊",
+ "pages": {
+  "id": 53
+ },
+ "book": "id",
+ "bab": [
+  {
+   "id": "bab1",
+   "file": "bab1.json"
+  },
+  {
+   "id": "bab2",
+   "file": "bab2.json"
+  },
+  {
+   "id": "bab3",
+   "file": "bab3.json"
+  },
+  {
+   "id": "bab4",
+   "file": "bab4.json"
+  },
+  {
+   "id": "bab5",
+   "file": "bab5.json"
+  }
+ ],
+ "vocab": "vocab.json",
+ "quiz": "quiz.json",
+ "figs": "figs.json",
+ "unified": true
+}

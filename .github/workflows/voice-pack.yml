@@ -17,6 +17,10 @@ on:
       - "data/kosakata-*.json"
       - "data/kanji-*.json"
       - "data/bunpou-*.json"
+      - "data/kana*.json"
+      - "data/ssw/**"
+      - "js/kana-center.js"
+      - "tools/vv_build.py"
       - "audio/vv/voices.json"
       - ".github/workflows/voice-pack.yml"
   workflow_dispatch:
@@ -65,7 +69,7 @@ jobs:
           ma = []
           if "${{ github.event_name }}" == "push" or "${{ github.event.inputs.materi }}" == "true":
               import vv_build
-              for lvl in ["n5", "n4", "n3", "n2", "n1"]:
+              for lvl in ["n5", "n4", "n3", "n2", "n1", "ssw-bc", "kana", "ir0", "ir1", "ir2"]:
                   try: jobs = vv_build.materi_jobs(lvl)
                   except Exception: continue
                   for cat, (vkey, items) in jobs.items():
@@ -96,7 +100,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: main }
       - name: Pasang ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) || command -v ffmpeg
       - name: Tunggu VOICEVOX
         run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
       - name: Buat audio Choukai
@@ -151,7 +155,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: main }
       - name: Pasang ffmpeg
-        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+        run: command -v ffmpeg || (sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg) || command -v ffmpeg
       - name: Tunggu VOICEVOX
         run: for i in $(seq 1 60); do curl -sf http://127.0.0.1:50021/version && exit 0; sleep 5; done; exit 1
       - name: Buat audio materi

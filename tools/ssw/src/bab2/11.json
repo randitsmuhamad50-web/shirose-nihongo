@@ -1,0 +1,49 @@
+{
+ "id": "b2s11", "no": 11,
+ "title": { "id": "Pembersihan Toilet", "jp": "トイレ清掃" },
+ "pages": [44, 45],
+ "full": {
+  "id": [
+   { "h": "Peralatan yang digunakan untuk membersihkan toilet" },
+   { "ul": [
+     "Sikat (brush) dan kotak; ember dengan sekat; sarung tangan (untuk toilet dan lainnya); Floor Sign.",
+     "Cloth untuk kaca; lap; pad putih; karbol toilet (pembersih toilet).",
+     "Kemoceng; lap (merah); sapu ruangan; pengki (serokan); ember; curing mat."
+   ] },
+   { "h": "Atur langkah-langkahnya" },
+   { "p": "Karena ada banyak langkah dan kotoran saat membersihkan toilet, kita harus mengatur langkah-langkah pembersihannya. Diatur dulu ya!" },
+   { "h": "Urutan membersihkan toilet" },
+   { "p": "Pada dasarnya, ada urutan ①〜⑤, mulai dari tempat yang sedikit kotorannya ke tempat yang banyak kotorannya." },
+   { "ol": [
+     "Tempat sampah dan pengisian ulang",
+     "Wastafel",
+     "Urinoir",
+     "Kloset (WC)",
+     "Lantai"
+   ] }
+  ],
+  "jp": [
+   { "h": "トイレ{清掃|せいそう}で{使用|しよう}する{資器材|しきざい}" },
+   { "ul": [
+     "ブラシ・ケース、{仕切|しき}りバケツ、{手袋|てぶくろ}（{便器用|べんきよう}・その{他|ほか}）、フロアサイン。",
+     "ガラス{専用|せんよう}クロス、タオル、{白|しろ}パッド、トイレ{用洗剤|ようせんざい}。",
+     "ほこり{取|と}り、モップ（{赤|あか}）、{自在|じざい}ぼうき、{文化|ぶんか}ちりとり、バケツ、{養生|ようじょう}マット。"
+   ] },
+   { "h": "{計画的|けいかくてき}に" },
+   { "p": "トイレ{清掃|せいそう}は{作業工程|さぎょうこうてい}も{汚|よご}れも{多|おお}いので{計画的|けいかくてき}に{作業|さぎょう}を{進|すす}めていかないといけない。" },
+   { "h": "トイレ{清掃|せいそう}の{作業|さぎょう}{順番|じゅんばん}" },
+   { "p": "{基本的|きほんてき}には①〜⑤の{順|じゅん}で{汚|よご}れの{少|すく}ない{所|ところ}から{多|おお}い{所|ところ}へ{順|じゅん}に{進|すす}めていく。" },
+   { "ol": [
+     "ゴミ{箱|ばこ}・{補充|ほじゅう}",
+     "{洗面台|せんめんだい}",
+     "{小便器|しょうべんき}",
+     "{大便器|だいべんき}",
+     "{床|ゆか}"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Toilet: urutan ①〜⑤ dari yang paling sedikit kotor ke yang paling kotor.", "points": ["① Tempat sampah & isi ulang.", "② Wastafel.", "③ Urinoir.", "④ Kloset.", "⑤ Lantai."], "avoid": ["Membersihkan tanpa urutan.", "Mulai dari tempat paling kotor."], "exam": ["Urutan pembersihan toilet.", "Alat-alat toilet."] },
+  "jp": { "core": "トイレは①〜⑤の{順|じゅん}、{汚|よご}れの{少|すく}ない{所|ところ}から。", "points": ["①ゴミ{箱|ばこ}・{補充|ほじゅう}", "②{洗面台|せんめんだい}", "③{小便器|しょうべんき}", "④{大便器|だいべんき}", "⑤{床|ゆか}"], "avoid": ["{順番|じゅんばん}を{決|き}めずに{始|はじ}める", "{汚|よご}れの{多|おお}い{所|ところ}から{始|はじ}める"], "exam": ["{清掃|せいそう}の{順番|じゅんばん}", "{使|つか}う{資器材|しきざい}"] }
+ }
+}

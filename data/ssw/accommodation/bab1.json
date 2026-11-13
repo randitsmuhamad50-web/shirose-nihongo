@@ -1,0 +1,499 @@
+{
+ "schema": 1,
+ "bidang": "accommodation",
+ "source": "全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』(2024)",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Pekerjaan Utama di Front Desk",
+   "jp": "フロントで{行|おこな}う{主|おも}な{業務|ぎょうむ}"
+  },
+  "intro": {
+   "id": "Reservasi, check-in, layanan di dalam hotel, check-out dan pembayaran.",
+   "jp": "フロントで{行|おこな}う{主|おも}な{業務|ぎょうむ}"
+  },
+  "pages": [
+   5,
+   17
+  ],
+  "subs": [
+   {
+    "id": "b1s1",
+    "no": 1,
+    "title": {
+     "id": "Manajemen Reservasi",
+     "jp": "{予約|よやく}{管理|かんり}"
+    },
+    "pages": [
+     5,
+     9
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Front desk = “wajah” penginapan"
+      },
+      {
+       "p": "Front desk (resepsi) mengurus berbagai prosedur sejak tamu disambut sampai diantar pulang. Karena menentukan kesan terhadap penginapan, tata krama dan tutur kata yang benar sangat penting."
+      },
+      {
+       "h": "Empat pekerjaan utama"
+      },
+      {
+       "ul": [
+        "1. Manajemen reservasi",
+        "2. Check-in",
+        "3. Melayani tamu & memberi informasi di dalam hotel",
+        "4. Check-out & akuntansi (kasir)"
+       ]
+      },
+      {
+       "h": "A. Menjawab pertanyaan reservasi"
+      },
+      {
+       "p": "Pertanyaan datang lewat telepon, e-mail, atau situs web. Cek dulu apakah kamar kosong pada tanggal yang diminta. Kamar penuh = 満室 (manshitsu); kamar kosong = 空室 (kūshitsu)."
+      },
+      {
+       "p": "Pahami dengan baik: rincian tarif (selain tarif menginap biasanya ada pajak menginap, pajak pemandian air panas, dan service charge), rincian layanan (jam check-in/check-out), tipe kamar (single = satu tempat tidur, twin = dua tempat tidur), rincian paket (makanan/layanan opsional yang dijual satu paket), pemandangan kamar & masakan, serta budaya dan acara daerah sekitar."
+      },
+      {
+       "h": "B. Memeriksa informasi tamu"
+      },
+      {
+       "p": "Saat menerima reservasi, tanyakan dan kelola data pribadi tamu dengan baik: tanggal menginap, nama, kontak (telepon/e-mail), jumlah tamu, cara datang/perkiraan jam tiba, dan alergi makanan. Tujuannya mencegah tamu tidak datang (no-show) dan menyiapkan pelayanan terbaik."
+      },
+      {
+       "h": "C. Pembatalan dan penyesuaian"
+      },
+      {
+       "p": "Pembatalan dikenai biaya sesuai kebijakan pembatalan (キャンセルポリシー) penginapan. Untuk pertanyaan lain (ubah reservasi, barang tertinggal), selalu pastikan tanggal menginap dan nama pemesan agar tamu teridentifikasi dengan benar."
+      },
+      {
+       "note": "Ringkasan ditulis Shirose berdasarkan buku modul (bukan terjemahan resmi). Baca teks resmi Bahasa Indonesia pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "p": "{宿泊|しゅくはく}{業|ぎょう}におけるフロント（レセプション）と{呼|よ}ばれる{仕事|しごと}は、{宿泊施設|しゅくはくしせつ}でお{客様|きゃくさま}のお{出迎|でむか}えからお{見送|みおく}りまでに{起|お}こるさまざまな{業務|ぎょうむ}の{総称|そうしょう}とも{言|い}える{仕事|しごと}で、お{客様|きゃくさま}が{宿泊施設|しゅくはくしせつ}での{時間|じかん}を{快適|かいてき}に{過|す}ごせるかどうか、{宿泊施設|しゅくはくしせつ}そのものの{印象|いんしょう}を{決|き}めることにつながる{重要|じゅうよう}な{業務|ぎょうむ}ですので、{正|ただ}しい{礼儀作法|れいぎさほう}（{言葉遣|ことばづか}いなど）を{身|み}につけることが{重要|じゅうよう}です。"
+      },
+      {
+       "h": "1.{予約管理|よやくかんり}"
+      },
+      {
+       "p": "{予約管理|よやくかんり}は、お{客様|きゃくさま}からの{予約|よやく}の{問|と}い{合|あ}わせへの{正|ただ}しい{対応|たいおう}、お{客様|きゃくさま}からのリクエストに{応|おう}じた{予約|よやく}のキャンセルや{変更|へんこう}の{調整|ちょうせい}など、お{客様|きゃくさま}が{宿泊施設|しゅくはくしせつ}に{宿泊|しゅくはく}するための{予約情報|よやくじょうほう}を{管理|かんり}する{業務|ぎょうむ}です。"
+      },
+      {
+       "h": "A.{予約問|よやくと}い{合|あ}わせへの{対応|たいおう}"
+      },
+      {
+       "p": "お{客様|きゃくさま}からの{電話|でんわ}、メール、ウェブサイトなどを{通|つう}じた{予約|よやく}の{問|と}い{合|あ}わせについて、お{客様|きゃくさま}の{宿泊希望日|しゅくはくきぼうび}に{部屋|へや}が{空|あ}いているかどうかを{確認|かくにん}する{必要|ひつよう}があります。もし{部屋|へや}が{空|あ}いていない{場合|ばあい}お{客様|きゃくさま}が{予約|よやく}することはできません。お{部屋|へや}が{空|あ}いていない{状態|じょうたい}のことを「{満室|まんしつ}」、お{部屋|へや}が{空|あ}いている{状態|じょうたい}を「{空室|くうしつ}」と{言|い}います。"
+      },
+      {
+       "p": "{宿泊施設|しゅくはくしせつ}のウェブサイト、{宿泊施設|しゅくはくしせつ}が{出|だ}している{広告|こうこく}などに{書|か}いてある{料金|りょうきん}やサービスについては、お{客様|きゃくさま}から{問合|といあわ}せがあることも{多|おお}く、{特|とく}に、{以下|いか}のことはしっかりと{理解|りかい}しておくことが{重要|じゅうよう}です。"
+      },
+      {
+       "ul": [
+        "{料金|りょうきん}の{詳細|しょうさい}：{日本|にほん}の{宿泊施設|しゅくはくしせつ}に{宿泊|しゅくはく}する{際|さい}には、{多|おお}くの{場合|ばあい}、{宿泊料金|しゅくはくりょうきん}{以外|いがい}に{宿泊税|しゅくはくぜい}、{入湯税|にゅうとうぜい}、サービス{料|りょう}などが{発生|はっせい}します",
+        "サービスの{詳細|しょうさい}：チェックイン、チェックアウトの{時間|じかん}など",
+        "お{部屋|へや}のタイプ：シングルルーム（シングルベッドが1つのお{部屋|へや}）、ツインルーム（ベッドが2つのお{部屋|へや}）など",
+        "{販売|はんばい}しているプランの{詳細|しょうさい}：{食事|しょくじ}やオプションサービスが{宿泊|しゅくはく}とセットとなって{販売|はんばい}されているものなど",
+        "{宿泊施設|しゅくはくしせつ}の{部屋|へや}から{見|み}える{景色|けしき}、{料理|りょうり}などの{詳細|しょうさい}",
+        "{宿泊施設|しゅくはくしせつ}が{所在|しょざい}する{地域|ちいき}の{文化|ぶんか}"
+       ]
+      },
+      {
+       "h": "B.お{客様情報|きゃくさまじょうほう}の{確認|かくにん}"
+      },
+      {
+       "p": "お{客様|きゃくさま}から{電話|でんわ}、メール、ウェブサイトなどを{通|つう}じて{予約|よやく}を{受|う}ける{時|とき}には、お{客様|きゃくさま}ご{自身|じしん}の{個人情報|こじんじょうほう}をお{聞|き}きし、{適切|てきせつ}に{管理|かんり}する{必要|ひつよう}があります。"
+      },
+      {
+       "ul": [
+        "{宿泊日|しゅくはくび}",
+        "{氏名|しめい}",
+        "{連絡先|れんらくさき}：{電話|でんわ}{番|ばん}{号|ごう}､メールアドレスなど",
+        "{宿泊人数|しゅくはくにんずう}",
+        "{交通手段|こうつうしゅだん}：どのような{方法|ほうほう}でいらっしゃるのか／{到着|とうちゃく}{予定|よてい}{時間|じかん}",
+        "{食事|しょくじ}のアレルギー"
+       ]
+      },
+      {
+       "p": "{上記|じょうき}を{事前|じぜん}にお{聞|き}きし、お{客様|きゃくさま}に{宿泊予定日|しゅくはくよていび}に{必|かなら}ず{来|き}ていただくこと（ノーショーの{防止|ぼうし}）をお{約束|やくそく}するとともに、{宿泊施設|しゅくはくしせつ}として{最高|さいこう}のおもてなしをお{客様|きゃくさま}に{提供|ていきょう}する{準備|じゅんび}ができるようにします。"
+      },
+      {
+       "h": "C.{予約|よやく}のキャンセル、{調整|ちょうせい}など"
+      },
+      {
+       "p": "お{客様|きゃくさま}が{宿泊予約|しゅくはくよやく}をキャンセルされる{場合|ばあい}は、{宿泊施設|しゅくはくしせつ}が{定|さだ}めるキャンセルポリシーにしたがって、キャンセル{料|りょう}をお{支払|しはら}いいただく{必要|ひつよう}があります。"
+      },
+      {
+       "p": "その{他|ほか}、{電話|でんわ}、メール、ウェブサイトなどを{通|つう}じて{様々|さまざま}なお{問合|といあわ}せがあります。{予約内容|よやくないよう}の{調整|ちょうせい}、{宿泊後|しゅくはくご}の{忘|わす}れ{物|もの}の{問|と}い{合|あ}わせなど、いずれの{場合|ばあい}でも、{宿泊日|しゅくはくび}と{予約者名|よやくしゃめい}を{必|かなら}ず{確認|かくにん}し、どのお{客様|きゃくさま}からの{問|と}い{合|あ}わせなのかなどをしっかりと{特定|とくてい}をして{対応|たいおう}するようにします。"
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Front desk mengurus semua prosedur dari tamu datang sampai pulang; reservasi = cek kamar kosong, data tamu, kebijakan pembatalan.",
+      "points": [
+       "満室 = penuh, 空室 = kosong.",
+       "Data tamu: tanggal, nama, kontak, jumlah, cara/jam tiba, alergi makanan.",
+       "Cegah no-show; pembatalan sesuai キャンセルポリシー.",
+       "Tarif: biasanya ada pajak menginap, pajak onsen, service charge."
+      ],
+      "avoid": [
+       "Menerima pembatalan/perubahan tanpa memastikan tanggal & nama pemesan."
+      ],
+      "exam": [
+       "Arti 満室/空室",
+       "Info yang ditanyakan saat reservasi",
+       "No-show"
+      ]
+     },
+     "jp": {
+      "core": "お客様のお出迎えからお見送りまでのさまざまな手続きを担当する、「宿泊施設の顔」ともいえる仕事です。正しい礼儀作法（言葉遣いなど）を身につけることが重要です。",
+      "points": [
+       "主な業務",
+       "1. 予約管理",
+       "2. チェックイン業務",
+       "3. 館内でのお客様対応と情報提供",
+       "A. 予約問い合わせへの対応",
+       "料金の詳細（宿泊税・入湯税・サービス料などが発生することが多い）",
+       "サービスの詳細（チェックイン・チェックアウトの時間など）"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s2",
+    "no": 2,
+    "title": {
+     "id": "Check-in",
+     "jp": "チェックイン{業務|ぎょうむ}"
+    },
+    "pages": [
+     10,
+     12
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pekerjaan check-in"
+      },
+      {
+       "p": "Menerima tamu di front desk saat tiba: memeriksa reservasi, prosedur menginap, menyerahkan kunci kamar, dan menjelaskan fasilitas."
+      },
+      {
+       "h": "A. Penampilan, sikap, tutur kata"
+      },
+      {
+       "p": "Check-in adalah pengalaman pertama tamu, jadi tampil bersih, bersikap benar, dan berbahasa sopan."
+      },
+      {
+       "h": "B. Memeriksa isi reservasi"
+      },
+      {
+       "ul": [
+        "Ada/tidaknya reservasi",
+        "Nama tamu",
+        "Jumlah tamu",
+        "Paket yang dipesan"
+       ]
+      },
+      {
+       "p": "Untuk tamu asing, hukum Jepang mewajibkan penginapan menyalin dan menyimpan paspor — minta tamu menunjukkannya."
+      },
+      {
+       "h": "C. Menyerahkan kunci & menjelaskan fasilitas"
+      },
+      {
+       "p": "Jelaskan jalan ke kamar, tempat dan jam fasilitas, serta pintu darurat dan jalur evakuasi saat kebakaran/bencana. Biasanya check-in jam 14.00 atau 15.00, check-out jam 10.00 atau 11.00 (berbeda tiap penginapan)."
+      }
+     ],
+     "jp": [
+      {
+       "h": "2.チェックイン{業務|ぎょうむ}"
+      },
+      {
+       "p": "チェックイン{業務|ぎょうむ}は、お{客様|きゃくさま}が{宿泊施設|しゅくはくしせつ}に{到着|とうちゃく}した{際|さい}に、フロントでお{客様|きゃくさま}の{受付|うけつけ}をする{業務|ぎょうむ}のことで、{予約|よやく}{内容|ないよう}を{確認|かくにん}し、ご{宿泊|しゅくはく}の{手続|てつづ}き、ルームキーのお{渡|わた}し、{館内|かんない}・{設備|せつび}の{説明|せつめい}などをして、お{客様|きゃくさま}に{安心|あんしん}してご{宿泊|しゅくはく}していただけるようにご{案内|あんない}をする{業務|ぎょうむ}です。"
+      },
+      {
+       "h": "A.{身|み}だしなみ・{姿勢|しせい}・{言葉遣|ことばづか}い"
+      },
+      {
+       "p": "チェックインはお{客様|きゃくさま}が{宿泊施設|しゅくはくしせつ}に{入|はい}ってはじめて{体験|たいけん}する{対応|たいおう}となります。そのため、お{客様|きゃくさま}に{良|い}いイメージを{与|あた}えられるように、{清潔感|せいけつかん}がある{身|み}だしなみ、{正|ただ}しい{姿勢|しせい}、{丁寧|ていねい}な{言葉|ことば}づかい、で{対応|たいおう}することが{重要|じゅうよう}です。"
+      },
+      {
+       "h": "B.{予約内容|よやくないよう}の{確認|かくにん}"
+      },
+      {
+       "p": "チェックインの{際|さい}には、お{客様|きゃくさま}に{予約|よやく}の{有無|うむ}（{間違|まちが}いなく{予約|よやく}が{取|と}れているか）と{予約内容|よやくないよう}を{確認|かくにん}する{必要|ひつよう}があります。{確認|かくにん}する{予約内容|よやくないよう}の{主|おも}なものとして、"
+      },
+      {
+       "ul": [
+        "{宿泊予約|しゅくはくよやく}の{有無|うむ}",
+        "お{客様|きゃくさま}の{氏名|しめい}",
+        "ご{予約人数|よやくにんずう}",
+        "ご{予約|よやく}のプラン"
+       ]
+      },
+      {
+       "p": "などがあります。"
+      },
+      {
+       "p": "また、{日本人以外|にほんじんいがい}の{外国人|がいこくじん}のお{客様|きゃくさま}が{日本|にほん}の{宿泊施設|しゅくはくしせつ}に{泊|と}まる{場合|ばあい}は、パスポートのコピーをとって{保管|ほかん}することが{日本|にほん}の{法律|ほうりつ}で{定|さだ}められているので、{忘|わす}れないようにお{客様|きゃくさま}に{提示|ていじ}していただくよう{気|き}を{付|つ}ける{必要|ひつよう}があります。"
+      },
+      {
+       "h": "C.ルームキーのお{渡|わた}し、{館内|かんない}・{設備|せつび}などの{説明|せつめい}"
+      },
+      {
+       "p": "お{客様|きゃくさま}の{予約内容|よやくないよう}の{確認|かくにん}ができたら、お{泊|と}りいただくお{部屋|へや}のルームキーをお{渡|わた}しして、お{客様|きゃくさま}に{館内|かんない}や{設備|せつび}などの{説明|せつめい}をします。その{際|さい}に{気|き}を{付|つ}けなければいけないことは、お{客様|きゃくさま}が{館内|かんない}で{迷|まよ}わないように、お{部屋|へや}への{行|おこな}き{方|かた}、{館内|かんない}の{利用|りよう}できる{場所|ばしょ}への{行|おこな}き{方|かた}や{利用可能|りようかのう}な{時間|じかん}、さらには、{火災|かさい}や{自然災害時|しぜんさいがいじ}に{利用|りよう}する{非常口|ひじょうぐち}と{避難経路|ひなんけいろ}などを{丁寧|ていねい}に{説明|せつめい}する{必要|ひつよう}があります。{多|おお}くの{場合|ばあい}、お{泊|と}りになるお{部屋|へや}の{利用可能|りようかのう}な{時間|じかん}は{宿泊施設|しゅくはくしせつ}が{定|さだ}めたチェックインからチェックアウト{時間|じかん}の{範囲内|はんいない}となります。なお、チェックイン、チェックアウト{時間|じかん}は{個々|ここ}の{宿泊施設|しゅくはくしせつ}により{異|こと}なりますが、チェックインは14{時|とき}または15{時|とき}、チェックアウトは10{時|とき}または11{時|とき}である{場合|ばあい}が{多|おお}くなっています。"
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Check-in = terima tamu, cek reservasi, serahkan kunci, jelaskan fasilitas & jalur evakuasi.",
+      "points": [
+       "Cek: ada reservasi, nama, jumlah tamu, paket.",
+       "Paspor tamu asing wajib difotokopi & disimpan (hukum Jepang).",
+       "Jelaskan pintu darurat dan jalur evakuasi.",
+       "Biasanya masuk 14–15, keluar 10–11."
+      ],
+      "avoid": [
+       "Lupa meminta paspor tamu asing."
+      ],
+      "exam": [
+       "Dokumen tamu asing",
+       "Jam check-in/out umum"
+      ]
+     },
+     "jp": {
+      "core": "到着したお客様の受付をし、予約内容の確認、宿泊の手続き、ルームキーのお渡し、館内・設備の説明を行う業務です。",
+      "points": [
+       "A. 身だしなみ・姿勢・言葉遣い",
+       "B. 予約内容の確認",
+       "宿泊予約の有無",
+       "お客様の氏名",
+       "ご予約人数",
+       "C. ルームキーのお渡し、館内・設備などの説明"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s3",
+    "no": 3,
+    "title": {
+     "id": "Melayani Tamu di Dalam Hotel",
+     "jp": "{館内|かんない}でのお{客様|きゃくさま}{対応|たいおう}"
+    },
+    "pages": [
+     13,
+     15
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pengetahuan luas"
+      },
+      {
+       "p": "Selama tamu menginap, banyak pertanyaan masuk, termasuk tentang toko di sekitar. Front desk perlu pengetahuan luas dan memahami pekerjaan departemen lain."
+      },
+      {
+       "h": "A. Telepon di dalam hotel"
+      },
+      {
+       "ul": [
+        "Bicara jelas dan pelan.",
+        "Saat menutup telepon, tunggu tamu menutup lebih dulu.",
+        "Pesanan room service: ulangi isi pesanan untuk memastikan."
+       ]
+      },
+      {
+       "h": "B. Pekerjaan lain yang harus dipahami front desk"
+      },
+      {
+       "ul": [
+        "Doorman: menyambut/mengantar tamu di pintu, mengarahkan tamu pertama ke front desk.",
+        "Housekeeper: membersihkan kamar & hotel, juga menata amenities.",
+        "Nakai (hanya ryokan): melayani tamu, mengantar ke kamar, menyajikan makanan.",
+        "Restoran: menyajikan masakan.",
+        "Concierge: informasi & pengaturan dalam/luar hotel; di hotel kecil sering dirangkap front desk."
+       ]
+      },
+      {
+       "h": "C. Masuk kamar tamu"
+      },
+      {
+       "p": "Selalu ketuk pintu atau bunyikan bel dan masuk hanya setelah tamu mengizinkan. Dilarang masuk sembarangan."
+      }
+     ],
+     "jp": [
+      {
+       "h": "3.{館内|かんない}でのお{客様対応|きゃくさまたいおう}と{情報提供|じょうほうていきょう}"
+      },
+      {
+       "p": "チェックインされたお{客様|きゃくさま}に{対|たい}しても、お{客様|きゃくさま}に{館内|かんない}で{快適|かいてき}にお{過|す}ごしいただけるよう、フロントではさまざまなお{客様対応|きゃくさまたいおう}を{行|おこな}う{必要|ひつよう}があります。お{客様|きゃくさま}の{滞在中|たいざいちゅう}には、{館内|かんない}のことはもちろん、{近|ちか}くのお{店|みせ}など{館外|かんがい}のことについてもフロントに{問|と}い{合|あ}わせが{入|はい}ることも{多|おお}くありますので、お{客様|きゃくさま}からのリクエストに{対応|たいおう}できるように、{幅広|はばひろ}い{知識|ちしき}を{身|み}につけておくことが{重要|じゅうよう}です。"
+      },
+      {
+       "p": "また、お{部屋|へや}や{館内|かんない}の{設備|せつび}の{準備|じゅんび}ができているか、きちんと{正|ただ}しい{場所|ばしょ}にスタッフが{配置|はいち}されているかなどの{情報|じょうほう}を{知|し}っておくためには、フロント{以外|いがい}の{部門|ぶもん}がどのような{作業|さぎょう}をしているかを{正|ただ}しく{理解|りかい}しておく{必要|ひつよう}もあります。"
+      },
+      {
+       "h": "A.{館内|かんない}で{行|おこな}う{電話対応|でんわたいおう}"
+      },
+      {
+       "p": "お{客様|きゃくさま}がご{滞在中|たいざいちゅう}にフロントに{電話|でんわ}があった{際|さい}は、{話|はな}している{内容|ないよう}が{聞|き}き{取|と}りやすいように、はっきりとゆっくり{話|はな}すよう{心|こころ}がけます。また、お{客様|きゃくさま}との{電話|でんわ}を{切|き}る{際|さい}には、{必|かなら}ず、お{客様|きゃくさま}が{電話|でんわ}を{切|き}ってから{電話|でんわ}を{切|き}るようにします。"
+      },
+      {
+       "p": "また、ご{滞在中|たいざいちゅう}のお{客様|きゃくさま}から{料理|りょうり}や{飲|の}み{物|もの}をお{部屋|へや}に{届|とど}けるルームサービスの{注文|ちゅうもん}を{電話|でんわ}で{受|う}ける{場合|ばあい}は、ご{注文内容|ちゅうもんないよう}に{間違|まちが}いがないかご{注文内容|ちゅうもんないよう}を{繰|く}り{返|かえ}すなどして、しっかり{確認|かくにん}することが{重要|じゅうよう}です。"
+      },
+      {
+       "h": "B.フロントが{把握|はあく}しておくべきほかの{業務|ぎょうむ}"
+      },
+      {
+       "p": "フロントは{館内|かんない}で{行|おこな}われている{業務|ぎょうむ}の{状況|じょうきょう}を{知|し}っておき、お{客様|きゃくさま}へのご{案内|あんない}につなげることが{必要|ひつよう}であり、{少|すく}なくとも{以下|いか}の{業務|ぎょうむ}については{事前|じぜん}に{理解|りかい}しておく{必要|ひつよう}があります。"
+      },
+      {
+       "ul": [
+        "ドアマン{業務|ぎょうむ}：{玄関|げんかん}などに{立|た}ちお{客様|きゃくさま}のお{出迎|でむか}えとお{見送|みおく}りをする{業務|ぎょうむ}で、お{客様|きゃくさま}のお{出迎|でむか}えの{際|さい}には、お{客様|きゃくさま}を{最初|さいしょ}にフロントに{案内|あんない}します",
+        "ハウスキーピング{業務|ぎょうむ}：お{部屋|へや}や{館内|かんない}の{清掃|せいそう}をする{業務|ぎょうむ}で、{清掃|せいそう}だけではなくアメニティ{類|るい}のセットなども{行|おこな}います",
+        "{仲居|なかい}{業務|ぎょうむ}（{旅館|りょかん}のみ）：お{客様|きゃくさま}のお{世話|せわ}{全般|ぜんぱん}を{行|おこな}う{業務|ぎょうむ}で、お{客様|きゃくさま}のお{部屋|へや}までのご{案内|あんない}、お{客様|きゃくさま}のお{食事|しょくじ}の{提供|ていきょう}などを{行|おこな}います",
+        "レストラン{業務|ぎょうむ}：レストランでの{料理|りょうり}{提供|ていきょう}を{行|おこな}います",
+        "コンシェルジュ{業務|ぎょうむ}：お{客様|きゃくさま}が{快適|かいてき}にお{過|す}ごしになれるよう{館内|かんない}・{館外|かんがい}の{情報提供|じょうほうていきょう}や{手配|てはい}を{専門|せんもん}にする{業務|ぎょうむ}です"
+       ]
+      },
+      {
+       "h": "C.{客室|きゃくしつ}での{対応|たいおう}"
+      },
+      {
+       "p": "お{客様|きゃくさま}からのリクエストに{応|おう}じて、アメニティのお{届|とど}け、ルームサービスなど、お{客様|きゃくさま}が{宿泊|しゅくはく}している{客室|きゃくしつ}に{入|はい}ることが{必要|ひつよう}なことがあります。その{際|さい}には、{必|かなら}ずドアをノックするか{呼|よ}び{鈴|りん}を{鳴|な}らし、お{客様|きゃくさま}が「{入|はい}ってください」という{許可|きょか}をもらってから{客室|きゃくしつ}に{入|はい}らなければいけません。お{客様|きゃくさま}の{許可|きょか}なく、むやみに{客室内|きゃくしつない}に{入|はい}っていってはいけません。"
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Layani tamu selama menginap; pahami pekerjaan departemen lain; masuk kamar hanya setelah diizinkan.",
+      "points": [
+       "Telepon: jelas, pelan, tamu menutup duluan.",
+       "Room service: ulang pesanan.",
+       "Doorman, housekeeper, nakai (ryokan), restoran, concierge.",
+       "Ketuk/bel → tunggu izin → masuk."
+      ],
+      "avoid": [
+       "Masuk kamar tanpa izin tamu."
+      ],
+      "exam": [
+       "Peran doorman/concierge/nakai",
+       "Aturan masuk kamar"
+      ]
+     },
+     "jp": {
+      "core": "はっきりゆっくり話します。電話を切る際は、お客様が切ってから切ります。ルームサービスの注文は、内容を繰り返して確認します。",
+      "points": [
+       "B. フロントが把握しておくべきほかの業務",
+       "ドアマン業務：お出迎え・お見送り。最初にフロントへ案内する",
+       "ハウスキーパー業務：清掃とアメニティのセット",
+       "仲居業務（旅館のみ）：お客様のお世話全般、ご案内、食事の提供",
+       "C. 客室での対応"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s4",
+    "no": 4,
+    "title": {
+     "id": "Check-out dan Pembayaran",
+     "jp": "チェックアウト・{会計|かいけい}{業務|ぎょうむ}"
+    },
+    "pages": [
+     16,
+     17
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Check-out & akuntansi adalah prosedur dan penyelesaian pembayaran saat tamu pulang. Lakukan dengan lancar agar tidak mengganggu jadwal tamu, dan pastikan pembayaran tidak keliru."
+      },
+      {
+       "h": "A. Memeriksa penggunaan layanan"
+      },
+      {
+       "p": "Layanan di luar paket (minuman, room service, pijat, dll.) disebut 館内利用 (kannai riyō). Periksa ada/tidaknya saat check-out."
+      },
+      {
+       "h": "B. Pembayaran (kasir)"
+      },
+      {
+       "p": "Terbitkan rincian tagihan (請求明細書: pemakaian hotel, tarif, service charge, pajak), tunjukkan ke tamu, tagih. Setelah dibayar, terbitkan tanda terima (領収書). Ada beberapa cara bayar; cegah kesalahan nominal."
+      },
+      {
+       "p": "Di Jepang tidak ada budaya tip; service charge ada yang sudah termasuk dalam tarif dan ada yang ditagih terpisah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "4.チェックアウト・{会計業務|かいけいぎょうむ}"
+      },
+      {
+       "p": "チェックアウト・{会計|かいけい}{業務|ぎょうむ}はお{客様|きゃくさま}が{宿泊|しゅくはく}を{終|お}えてお{帰|かえ}りになる{際|さい}の{手続|てつづ}きと{精算|せいさん}を{行|おこな}う{業務|ぎょうむ}です。お{客様|きゃくさま}のチェックアウト{後|あと}のご{予定|よてい}に{影響|えいきょう}が{出|だ}ないように、スムーズに{手続|てつづ}きを{進|すす}めて、{間違|まちが}いのないようにお{支払|しはら}いいただけるよう{気|き}を{付|つ}けることが{重要|じゅうよう}です。"
+      },
+      {
+       "h": "A.{館内|かんない}でご{利用|りよう}したサービス、{飲料|いんりょう}などの{確認|かくにん}"
+      },
+      {
+       "p": "お{客様|きゃくさま}がご{宿泊以外|しゅくはくいがい}の{館内|かんない}でご{利用|りよう}したサービス（プランには{含|ふく}まれていない{飲料|いんりょう}、ルームサービス、マッサージなど）を「{館内利用|かんないりよう}」といいます。{館内利用|かんないりよう}の{有無|うむ}とその{内容|ないよう}をお{客様|きゃくさま}のチェックアウトの{際|さい}に{確認|かくにん}します。"
+      },
+      {
+       "h": "B.{会計|かいけい}"
+      },
+      {
+       "p": "{会計|かいけい}またはキャッシャーと{呼|よ}ばれる{業務|ぎょうむ}で、{主|おも}な{内容|ないよう}として{館内利用|かんないりよう}、{宿泊料金|しゅくはくりょうきん}、サービス{料|りょう}、{税|ぜい}など、お{客様|きゃくさま}にご{請求|せいきゅう}する{内容|ないよう}を{記載|きさい}した{請求明細書|せいきゅうめいさいしょ}を{発行|はっこう}してお{客様|きゃくさま}にお{見|み}せし、{料金|りょうきん}を{請求|せいきゅう}します。{料金|りょうきん}をお{支払|しはら}いいただいた{後|ご}に{領収書|せいきゅうしょ}を{発行|はっこう}して、お{客様|きゃくさま}にお{渡|わた}しします。お{支払|しはら}いの{方法|ほうほう}がいくつかあり、{請求金額|せいきゅうきんがく}の{間違|まちが}いなどがないよう{気|き}をつける{必要|ひつよう}があります。"
+      },
+      {
+       "p": "なお、{日本|にほん}では{習慣|しゅうかん}としてチップを{受|う}け{取|と}る{文化|ぶんか}はありませんが、サービス{料|りょう}を{宿泊料金|しゅくはくりょうきん}に{含|ふく}んで{請求|せいきゅう}する{場合|ばあい}と{別|べつ}に{請求|せいきゅう}する{場合|ばあい}があります。"
+      },
+      {
+       "note": "出典：全旅連『特定技能1号評価試験（宿泊分野）学習用テキスト』（2024年）"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Check-out: cek 館内利用, terbitkan 請求明細書, tagih, lalu beri 領収書; tanpa tip.",
+      "points": [
+       "館内利用 = layanan di luar paket.",
+       "請求明細書 sebelum bayar, 領収書 sesudah bayar.",
+       "Tidak ada budaya tip di Jepang."
+      ],
+      "avoid": [
+       "Salah nominal tagihan."
+      ],
+      "exam": [
+       "館内利用",
+       "Urutan tagihan → tanda terima"
+      ]
+     },
+     "jp": {
+      "core": "お客様がお帰りになる際の手続きと精算を行う業務です。スムーズに手続きを進め、間違いのないようにお支払いいただきます。",
+      "points": [
+       "A. 館内でご利用したサービス、飲料などの確認",
+       "B. 会計"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

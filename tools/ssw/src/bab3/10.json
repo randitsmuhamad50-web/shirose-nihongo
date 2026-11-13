@@ -1,0 +1,41 @@
+{
+ "id": "b3s10", "no": 10,
+ "title": { "id": "Membersihkan Kaca: Menghilangkan Kotoran (Squeegee)", "jp": "ガラス清掃：汚れの除去（スクイジー）" },
+ "pages": [77, 78],
+ "full": {
+  "id": [
+   { "h": "② Menghilangkan kotoran" },
+   { "ul": [
+     "Selanjutnya ambil window cleaner (squeegee) dan kain lap. Pegang erat pegangan window cleaner.",
+     "Lap bagian atas kaca (tekan squeegee ke bagian atas kaca).",
+     "Tarik lurus ke bawah sambil dimiringkan sedikit; sambil menyesuaikan sudutnya, tarik ke bawah sekaligus hingga 20 cm.",
+     "Setelah ditarik ke bawah, sisa sabun harus segera dibersihkan dengan lap (lap dengan menggerakkan lapnya).",
+     "Ulangi langkah tersebut dan terus bersihkan kaca dari ujung ke ujung. Tumpuk 1/4 lebar window cleaner. Sisakan sekitar 20 cm di bagian bawah."
+   ] },
+   { "h": "Bagian bawah kaca" },
+   { "ul": [
+     "Selanjutnya, tarik bagian bawah kaca ke arah samping. Supaya kotoran tidak menetes, tahan dengan lap.",
+     "Terakhir untuk bagian yang tersisa, bersihkan dengan bentuk kipas tangan. Tahan dengan lap."
+   ] }
+  ],
+  "jp": [
+   { "h": "② {汚|よご}れの{除去|じょきょ}" },
+   { "ul": [
+     "{次|つぎ}はスクイジーとタオルに{持|も}ち{替|か}えて。グリップをしっかりにぎる。",
+     "ガラスの{上部|じょうぶ}に{押|お}し{当|あ}てる。",
+     "すこし{傾|かたむ}けながらまっすぐに{引|ひ}き{降|お}ろそう。{角度|かくど}を{固定|こてい}しながら{下|した}から20cmのところまで{一気|いっき}に{引|ひ}き{降|お}ろすんだ。",
+     "{一回引|いっかいひ}くごとにタオルで{洗剤|せんざい}を{拭|ふ}き{取|と}らないといけないよ（タオルを{動|うご}かして{拭|ふ}く）。",
+     "これを{繰|く}り{返|かえ}してガラスの{端|はし}から{端|はし}までキレイにしていこう。スクイジー{幅|はば}を1/4{程|ほど}{重|かさ}ねる。20cmほど{残|のこ}す。"
+   ] },
+   { "h": "ガラスの{下部|かぶ}" },
+   { "ul": [
+     "{次|つぎ}にガラスの{下部|かぶ}を{横引|よこび}きして。{汚|よご}れを{床|ゆか}へ{落|お}とさないようにタオルで{受|う}ける。",
+     "{最後|さいご}に{残|のこ}った{部分|ぶぶん}を{扇型|おうぎがた}に{引|ひ}くんだ。タオルで{受|う}ける。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Squeegee: tarik lurus ke bawah 20 cm sekaligus, lap sabun tiap tarikan, tumpuk 1/4 lebar. Bawah: tarik ke samping, tahan dengan lap.", "points": ["Pegang erat.", "Mulai dari atas kaca.", "Tumpuk 1/4 lebar squeegee.", "Sisakan 20 cm di bawah, tarik ke samping."], "avoid": ["Membiarkan sabun menetes ke lantai.", "Tidak melap squeegee tiap tarikan."], "exam": ["Tumpukan 1/4.", "Jarak tarik 20 cm."] },
+  "jp": { "core": "スクイジーは{上|うえ}から{下|した}へ。20cmずつ。{一回|いっかい}ごとにタオルで{拭|ふ}く。{幅|はば}は1/4{重|かさ}ねる。", "points": ["グリップをしっかり", "{上部|じょうぶ}から{開始|かいし}", "スクイジー{幅|はば}1/4{重|かさ}ね", "{下|した}20cmは{横引|よこび}き"], "avoid": ["{汚|よご}れを{床|ゆか}に{落|お}とす", "{拭|ふ}かずに{続|つづ}ける"], "exam": ["{重|かさ}ねる{幅|はば}（1/4）", "{一度|いちど}に{引|ひ}く{距離|きょり}（20cm）"] }
+ }
+}

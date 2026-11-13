@@ -129,6 +129,73 @@ tr.stat-row td{padding-top:0; border-top:none;}
 .view-toggle button{background:transparent; color:var(--gray); border:none; padding:8px 14px; cursor:pointer; font-weight:700; font-family:var(--font-sans);}
 .view-toggle button.on{background:var(--pink); color:#fff;}
 .lv-chip{--c:#888; display:inline-block; padding:2px 10px; border-radius:999px; background:var(--c); color:#fff; font-weight:800; font-size:12px;}
+/* ===== Mobile / Android: menu bawah, kartu, sentuhan besar (desktop tidak berubah) ===== */
+.bnav,.more-sheet{display:none;}
+@media (max-width:900px){
+  .sidebar{display:none;}
+  .topbar{padding:10px 14px; gap:8px;}
+  .brand{font-size:16px;}
+  #guru-nama{display:none;}
+  .topbar-right{display:flex; gap:6px; align-items:center;}
+  .topbar .btn{padding:8px 12px; min-height:38px; display:inline-flex; align-items:center; border-radius:12px;}
+  .main{padding:12px 12px 100px;}
+  .panel{padding:16px 14px; border-radius:20px;}
+  .panel h2{font-size:22px;}
+  .btn{min-height:42px; border-radius:12px; font-size:14px;}
+  .btn.sm{min-height:38px; padding:8px 12px; font-size:13px;}
+  input, select, textarea{font-size:16px; min-height:44px; border-radius:12px; padding:10px 12px;}
+  .chip.btn-chip, .chip.on, .chip.off{padding:8px 12px; font-size:12px; margin:2px; min-height:34px;}
+  .view-toggle{display:flex; width:100%; margin:0 0 10px 0; border-radius:14px;}
+  .view-toggle button{flex:1; padding:12px 8px; font-size:14px;}
+  .sg-kelas{border-radius:18px; padding:10px 14px;}
+  .sg-kelas > h3{font-size:17px; padding:10px 0; min-height:44px; display:flex; align-items:center; gap:6px;}
+  .sg-row .who{flex:1 1 100%;}
+  .sg-row{gap:8px; padding:12px 0;}
+  .sg-row .btn{flex:1 1 auto;}
+  details > summary{min-height:44px; display:flex; align-items:center;}
+
+  /* tabel -> kartu */
+  .table-wrap:has(> .cards-m){max-height:none !important; overflow:visible !important;}
+  .cards-m, .cards-m tbody{display:block;}
+  .cards-m thead{display:none;}
+  .cards-m tr{display:block; background:rgba(255,255,255,.03); border:1px solid var(--border); border-radius:16px; padding:10px 12px; margin-bottom:10px;}
+  .cards-m tr[hidden]{display:none;}
+  .cards-m tr:hover td{background:none;}
+  .cards-m td{display:flex; justify-content:space-between; align-items:center; gap:10px; border:none; padding:6px 0; white-space:normal; text-align:right; flex-wrap:wrap;}
+  .cards-m td::before{content:attr(data-label); color:var(--gray-dim); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.4px; text-align:left;}
+  .cards-m td.nama{font-size:16px; justify-content:flex-start;}
+  .cards-m td.nama::before, .cards-m td.aksi::before{display:none;}
+  .cards-m td[data-label="Akses"]{flex-direction:column; align-items:flex-start; gap:4px;}
+  .cards-m td[data-label="Akses"] .chip{margin:2px 4px 2px 0;}
+  .topbar .btn{white-space:nowrap; font-size:12px;}
+  .cards-m td.aksi{justify-content:flex-end; gap:8px;}
+  .cards-m td.aksi .btn{flex:1 1 auto;}
+  .cards-m td select, .cards-m td input{max-width:60%;}
+  .cards-m tr.stat-row{background:transparent; border:none; padding:0; margin:-6px 0 10px;}
+  .cards-m tr.stat-row td{display:block; padding:0; text-align:left;}
+  .cards-m tr.stat-row td::before{display:none;}
+
+  /* toast & modal gaya app */
+  .toast-wrap{top:auto; bottom:88px; left:12px; right:12px;}
+  .toast{border-radius:14px; padding:12px 16px; font-size:14px;}
+  .modal-backdrop{align-items:flex-end; padding:0;}
+  .modal{border-radius:22px 22px 0 0; max-height:88vh; padding:18px 16px 28px;}
+
+  /* menu bawah */
+  .bnav{display:flex; position:fixed; left:0; right:0; bottom:0; z-index:50; background:var(--navy); border-top:1px solid var(--border);
+        padding:6px 8px calc(6px + env(safe-area-inset-bottom)); gap:4px;}
+  .bnav button{flex:1; background:none; border:none; color:var(--gray); font:700 11px var(--font-sans); display:flex; flex-direction:column;
+        align-items:center; gap:2px; padding:8px 2px; border-radius:14px; cursor:pointer;}
+  .bnav button span{font-size:21px; line-height:1;}
+  .bnav button.on{background:var(--pink); color:#fff;}
+  .more-sheet.open{display:flex; position:fixed; inset:0; z-index:40; background:rgba(0,0,0,.6); align-items:flex-end;}
+  .more-card{width:100%; background:var(--navy-2); border-top:2px solid var(--pink); border-radius:22px 22px 0 0;
+        padding:18px 14px calc(96px + env(safe-area-inset-bottom)); display:grid; grid-template-columns:repeat(3,1fr); gap:10px;}
+  .more-card button{background:var(--navy); border:1px solid var(--border); border-radius:16px; color:#fff; padding:14px 6px;
+        font:700 12px var(--font-sans); display:flex; flex-direction:column; align-items:center; gap:6px; cursor:pointer; min-height:78px;}
+  .more-card button.on{border-color:var(--pink); background:rgba(239,106,154,.18);}
+  .more-card button span{font-size:24px; line-height:1;}
+}
 </style>
 </head>
 <body>
@@ -152,7 +219,8 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261113a";
+import * as FB from "./js/firebase-sync.js?v=20261113y2";
+import { renderSswTab } from "./js/ssw-teacher.js?v=20261112d";
 
 const state = {
   user: null,
@@ -163,6 +231,7 @@ const state = {
   excelParsed: null,
   level: "n5",
 };
+if (/^#\/?ssw/.test(location.hash)) state.tab = "ssw";
 
 /* ===== Level JLPT yang sedang dikelola guru (pembatas tegas N5–N1) ===== */
 const LV = ["n5","n4","n3","n2","n1"];
@@ -253,6 +322,28 @@ window.guruLogout = async () => {
 // Tombol/dropdown memakai atribut onclick/onchange (scope global), sedangkan
 // script ini adalah ES module — jadi state & renderTab harus diekspos ke window.
 window.state = state;
+/* ===== Menu bawah (HP) + sheet "Lainnya" ===== */
+const MENU_UTAMA = [["siswa","👥","Siswa"],["kelas","🎓","Kelas"],["soal","📝","Soal"],["jlpt","🏯","JLPT"]];
+const MENU_LAIN = [["kategori","📂","Paket Soal"],["import","📊","Import Excel"],["kpos","🏷️","Kosakata"],["choukai","🎧","Choukai"],
+                   ["ssw","🌏","SSW"],["laporan","📈","Laporan"],["diagnostik","🔧","Diagnostik"],["admin","🛡️","Admin"]];
+function renderBottomNav(){
+  const lain = MENU_LAIN.filter(m => m[0] !== "admin" || FB.userIsAdmin());
+  const lainAktif = lain.some(m => m[0] === state.tab);
+  return `
+    <nav class="bnav">
+      ${MENU_UTAMA.map(m => `<button class="${state.tab === m[0] ? "on" : ""}" onclick="setTab('${m[0]}')"><span>${m[1]}</span>${m[2]}</button>`).join("")}
+      <button class="${lainAktif ? "on" : ""}" onclick="toggleMore()"><span>⋯</span>Lainnya</button>
+    </nav>
+    <div class="more-sheet" id="more-sheet" onclick="if(event.target===this) toggleMore(false)">
+      <div class="more-card">
+        ${lain.map(m => `<button class="${state.tab === m[0] ? "on" : ""}" onclick="setTab('${m[0]}')"><span>${m[1]}</span>${m[2]}</button>`).join("")}
+      </div>
+    </div>`;
+}
+window.toggleMore = (buka) => {
+  const el = document.getElementById("more-sheet"); if (!el) return;
+  el.classList.toggle("open", buka === undefined ? !el.classList.contains("open") : buka);
+};
 function renderApp(){
   document.getElementById("root").innerHTML = `
     <div class="layout">
@@ -261,16 +352,18 @@ function renderApp(){
         <div class="nav-item ${state.tab==='kategori'?'active':''}" onclick="setTab('kategori')"><span class="ico">📂</span> Paket Soal</div>
         <div class="nav-item ${state.tab==='soal'?'active':''}" onclick="setTab('soal')"><span class="ico">📝</span> Bank Soal</div>
         <div class="nav-item ${state.tab==='import'?'active':''}" onclick="setTab('import')"><span class="ico">📊</span> Import Excel</div>
+        <div class="nav-item ${state.tab==='kpos'?'active':''}" onclick="setTab('kpos')"><span class="ico">🏷️</span> Kategori Kosakata</div>
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
         <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
+        <div class="nav-item ${state.tab==='ssw'?'active':''}" onclick="setTab('ssw')"><span class="ico">🌏</span> SSW</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
         <div class="nav-item ${state.tab==='jlpt'?'active':''}" onclick="setTab('jlpt')"><span class="ico">🏯</span> Hasil JLPT</div>
-        <div class="nav-item ${state.tab==='mensetsu'?'active':''}" onclick="setTab('mensetsu')"><span class="ico">🎙️</span> Hasil Mensetsu</div>
         <div class="nav-item ${state.tab==='diagnostik'?'active':''}" onclick="setTab('diagnostik')"><span class="ico">🔧</span> Diagnostik</div>
-        <div class="nav-item ${state.tab==='admin'?'active':''}" onclick="setTab('admin')" id="nav-admin" style="display:none;"><span class="ico">🛡️</span> Admin</div>
+        <div class="nav-item ${state.tab==='admin'?'active':''}" onclick="setTab('admin')" id="nav-admin" style="${FB.userIsAdmin() ? "" : "display:none;"}"><span class="ico">🛡️</span> Admin</div>
       </div>
       <div class="main" id="main"></div>
     </div>
+    ${renderBottomNav()}
   `;
   renderTab();
 }
@@ -286,14 +379,92 @@ async function renderTab(){
     else if (state.tab === "soal") mount.innerHTML = await renderSoalTab();
     else if (state.tab === "import") mount.innerHTML = await renderImportTab();
     else if (state.tab === "kelas") mount.innerHTML = await renderKelasTab();
+    else if (state.tab === "kpos") mount.innerHTML = await renderKposTab();
     else if (state.tab === "choukai") mount.innerHTML = await renderChoukaiTab();
+    else if (state.tab === "ssw") mount.innerHTML = await renderSswTab(FB, { toast, rerender: () => renderTab() });
     else if (state.tab === "laporan") mount.innerHTML = await renderLaporanTab();
     else if (state.tab === "jlpt") mount.innerHTML = await renderJlptTab();
-    else if (state.tab === "mensetsu") mount.innerHTML = await renderMensetsuTab();
     else if (state.tab === "diagnostik") mount.innerHTML = await renderDiagnostikTab();
     else if (state.tab === "admin")   mount.innerHTML = await renderAdminTab();
   } catch(e){ mount.innerHTML = `<div class="alert alert-err">Error: ${e.message}</div>`; console.error(e); }
 }
+
+/* ========== TAB: KATEGORI KOSAKATA (kelas kata) ========== */
+const KPOS = [["KK","動詞 Kata Kerja"],["KB","名詞 Kata Benda"],["KSい","い形容詞"],["KSな","な形容詞"]];
+state.kpos = state.kpos || { lv:"n5", q:"", page:0, rows:[], ov:{} };
+async function renderKposTab(){
+  const S = state.kpos;
+  const base = await (await fetch(`./data/kosakata-${S.lv}.json`, { cache:"no-store" })).json();
+  try { S.ov = await FB.getPosOverride(S.lv); } catch(e){ S.ov = {}; S.err = e.message; }
+  base.forEach(it => { const t = S.ov[it.kata]; it._base = it.pos; if (t) { if (t[0] === "-") delete it.pos; else it.pos = t; } it._ov = !!t; });
+  S.rows = base;
+  return kposDraw();
+}
+function kposDraw(){
+  const S = state.kpos, q = S.q.trim().toLowerCase(), PER = 50;
+  const idx = S.rows.map((it,i)=>i).filter(i => !q || (S.rows[i].kata+S.rows[i].kana+S.rows[i].arti).toLowerCase().includes(q));
+  const pages = Math.max(1, Math.ceil(idx.length / PER)); S.page = Math.min(S.page, pages-1);
+  const cnt = k => S.rows.filter(it => (it.pos||[]).includes(k)).length;
+  return `<div class="panel"><h2>🏷️ Kategori Kosakata</h2>
+    <p style="color:var(--gray);font-size:13px;">Centang kelas kata tiap kosakata (boleh lebih dari satu). Perubahan langsung tampil di Materi &amp; Hafalan siswa. Data asli tidak diubah.</p>
+    ${S.err ? `<div class="alert alert-err">Tidak bisa membaca/menulis override: ${escHtml(S.err)}. Publish rule <code>kosakata_pos</code> (lihat firestore.rules.example).</div>` : ""}
+    <div style="display:flex;gap:8px;flex-wrap:wrap;margin:10px 0;">
+      <select onchange="kposLv(this.value)">${["n5","n4","n3","n2","n1"].map(l=>`<option value="${l}" ${l===S.lv?"selected":""}>${l.toUpperCase()}</option>`).join("")}</select>
+      <input id="kpos-q" placeholder="Cari kata / arti…" value="${escHtml(S.q)}" oninput="kposQ(this.value)" style="flex:1;min-width:160px;"/>
+    </div>
+    <div style="font-size:13px;color:var(--gray);margin-bottom:8px;">${KPOS.map(([k,l])=>`${l}: <b>${cnt(k)}</b>`).join(" · ")} · Total ${S.rows.length}</div>
+    <div style="overflow:auto;"><table><thead><tr><th>#</th><th>Kata</th><th>Arti</th>${KPOS.map(([k,l])=>`<th>${l}</th>`).join("")}<th></th></tr></thead><tbody>
+    ${idx.slice(S.page*PER,(S.page+1)*PER).map(i=>{const it=S.rows[i];return `<tr><td>${i+1}</td><td><b>${escHtml(it.kata)}</b><br><small>${escHtml(it.kana||"")}</small></td><td>${escHtml((it.arti||"").slice(0,60))}</td>
+      ${KPOS.map(([k])=>`<td style="text-align:center;"><input type="checkbox" ${(it.pos||[]).includes(k)?"checked":""} onchange="kposSet(${i},'${k}',this.checked)"/></td>`).join("")}
+      <td>${it._ov ? `<button class="btn ghost" onclick="kposReset(${i})" title="Kembalikan ke bawaan">↺</button>` : ""}</td></tr>`}).join("")}
+    </tbody></table></div>
+    <div style="display:flex;gap:8px;margin-top:10px;align-items:center;">${Array.from({length:pages},(_,p)=>`<button class="btn ${p===S.page?"":"ghost"}" onclick="kposPage(${p})">${p+1}</button>`).join("")}</div></div>`;
+}
+const kposRedraw = () => { document.getElementById("main").innerHTML = kposDraw(); const q=document.getElementById("kpos-q"); if(q && document.activeElement!==q){} };
+window.kposLv = (l) => { state.kpos.lv = l; state.kpos.page = 0; renderTab(); };
+window.kposQ = (v) => { state.kpos.q = v; state.kpos.page = 0; kposRedraw(); const q=document.getElementById("kpos-q"); q.focus(); q.setSelectionRange(v.length, v.length); };
+window.kposPage = (p) => { state.kpos.page = p; kposRedraw(); };
+window.kposSet = async (i, k, on) => {
+  const S = state.kpos, it = S.rows[i], set = new Set(it.pos || []);
+  on ? set.add(k) : set.delete(k);
+  const tags = KPOS.map(([x])=>x).filter(x => set.has(x));
+  try { await FB.setPosOverride(S.lv, it.kata, tags); it.pos = tags.length ? tags : undefined; it._ov = true; S.err = null; toast("Tersimpan ✓"); }
+  catch(e){ S.err = e.message; toast("Gagal simpan: " + e.message); }
+  kposRedraw();
+};
+window.kposReset = async (i) => {
+  const S = state.kpos, it = S.rows[i];
+  try { await FB.resetPosOverride(S.lv, it.kata); it.pos = it._base; it._ov = false; toast("Dikembalikan ke bawaan"); }
+  catch(e){ toast("Gagal: " + e.message); }
+  kposRedraw();
+};
+
+/* ===== Tabel otomatis jadi kartu di HP (CSS .cards-m aktif hanya di layar <=900px) =====
+   Semua tabel di #main/#modal-body diberi label kolom dari <th>, jadi tab Kelas/Soal/JLPT/Laporan/dll
+   ikut ramah HP tanpa mengubah template tiap tab. Baris kolom pertama dijadikan judul kartu. */
+function kartuMobile(root){
+  if (!root) return;
+  root.querySelectorAll("table").forEach(t => {
+    if (t.dataset.cm) return;
+    const ths = [...t.querySelectorAll("thead th")].map(h => h.textContent.trim());
+    if (!ths.length || ths.length > 14) return;
+    t.dataset.cm = "1"; t.classList.add("cards-m");
+    t.querySelectorAll("tbody tr").forEach(tr => {
+      const cells = [...tr.children].filter(c => c.tagName === "TD");
+      cells.forEach((td, i) => {
+        if (td.colSpan > 1) return;
+        if (!td.hasAttribute("data-label") && ths[i]) td.setAttribute("data-label", ths[i]);
+        if (i === 0 && !td.classList.contains("nama")) td.classList.add("nama");
+        if (i === cells.length - 1 && cells.length > 2 && td.querySelector("button, a") && !td.classList.contains("aksi")) td.classList.add("aksi");
+      });
+    });
+  });
+}
+(function(){
+  let tmr = null;
+  const jalan = () => { clearTimeout(tmr); tmr = setTimeout(() => { kartuMobile(document.getElementById("main")); kartuMobile(document.getElementById("modal-body")); }, 60); };
+  new MutationObserver(jalan).observe(document.body, { childList: true, subtree: true });
+})();
 
 /* ========== TAB: SISWA ========== */
 async function renderSiswaTab(){
@@ -381,8 +552,8 @@ window.lebihBanyak = () => { state.siswaMax = (state.siswaMax || 100) + 100; ren
 window.refreshSiswa = () => { state.siswaStale = true; renderTab(); };
 function renderSiswaDaftarTabel(){
   return `      <div class="table-wrap">
-        <table>
-          <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Status</th><th>Kelas</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+        <table class="cards-m">
+          <thead><tr><th>Nama</th><th>Email</th><th>Role</th><th>Status</th><th>Kelas</th><th>Akses JLPT</th><th>Akses SSW</th><th>Akses JFT</th><th>Aksi</th></tr></thead>
           <tbody>
             ${_potong(state.siswaList).map(s => {
               const role = s.role || "student";
@@ -390,18 +561,20 @@ function renderSiswaDaftarTabel(){
               const bisaUbahStatus = role === "student" || FB.userIsAdmin();
               return `
               <tr style="${nonaktif?'opacity:.55;':''}">
-                <td><b>${s.nama || "(nama belum diisi)"}</b></td>
-                <td>${s.email}</td>
-                <td>${({student:"Siswa",guru:"Guru",admin:"Admin",developer:"Moderator"})[role] || role}</td>
-                <td>${bisaUbahStatus && role !== "developer"
+                <td class="nama" data-label="Nama"><b>${escHtml(s.nama || "(nama belum diisi)")}</b></td>
+                <td data-label="Email">${escHtml(s.email || "")}</td>
+                <td data-label="Role">${({student:"Siswa",guru:"Guru",admin:"Admin",developer:"Moderator"})[role] || role}</td>
+                <td data-label="Status">${bisaUbahStatus && role !== "developer"
                     ? `<span class="chip btn-chip ${nonaktif?'':'on'}" onclick="toggleStatus('${s.uid}', ${nonaktif})">${nonaktif ? "Nonaktif" : "Aktif"}</span>`
                     : (nonaktif ? "Nonaktif" : "Aktif")}</td>
-                <td><input type="text" placeholder="Kelas" value="${s.kelas||""}" onchange="updateKelas('${s.uid}', this.value)" style="width:100px;"/></td>
-                <td>${["n5","n4","n3","n2","n1"].map(l => {
+                <td data-label="Kelas"><input type="text" placeholder="Kelas" value="${s.kelas||""}" onchange="updateKelas('${s.uid}', this.value)" style="width:100px;"/></td>
+                <td data-label="Akses">${["n5","n4","n3","n2","n1"].map(l => {
                   const on = s.aksesLevel?.[l];
                   return `<span class="chip btn-chip ${on?'on':''}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`;
                 }).join("")}</td>
-                <td>
+                <td data-label="SSW">${role === "student" ? _chipSsw(s) : "—"}</td>
+                <td data-label="JFT">${role === "student" ? _chipJft(s) : "—"}</td>
+                <td class="aksi">
                   ${role === "student" ? `<button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>` : ""}
                   <button class="btn sm ghost" onclick="lihatGami('${s.uid}', '${(s.nama||s.email).replace(/'/g,'')}')">Progres</button>
                   ${_bolehHapus(s) ? `<button class="btn sm danger" onclick="hapusSiswa('${s.uid}')">🗑️ Hapus</button>` : ""}
@@ -423,12 +596,18 @@ function _grupSiswa(){
   return { grup, tanpa, nama: Object.keys(grup).sort((a, b) => a.localeCompare(b)) };
 }
 const _chipAkses = (s) => ["n5","n4","n3","n2","n1"].map(l => `<span class="chip btn-chip ${s.aksesLevel?.[l] ? "on" : ""}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`).join("");
+const _chipSsw = (s) => { const on = s.aksesSsw !== false; return `<span class="chip btn-chip ${on ? "on" : ""}" title="${on ? "Klik untuk tutup akses SSW" : "Klik untuk buka akses SSW"}" onclick="toggleSsw('${s.uid}')">SSW ${on ? "Buka" : "Tutup"}</span>`; };
+const JFT_LV = [["ir0","A1"],["ir1","A2.1"],["ir2","A2.2"]];
+const _jftOn = (s, l) => s.aksesJft !== false && s.aksesJftLevel?.[l] !== false;
+const _chipJft = (s) => JFT_LV.map(([l, n]) => { const on = _jftOn(s, l); return `<span class="chip btn-chip ${on ? "on" : ""}" title="JFT ${n}: klik untuk ${on ? "tutup" : "buka"}" onclick="toggleJft('${s.uid}','${l}')">JFT ${n}</span>`; }).join("");
 const _chipStatus = (s) => { const n = s.status === "nonaktif"; return `<span class="chip btn-chip ${n ? "" : "on"}" onclick="toggleStatus('${s.uid}', ${n})">${n ? "Nonaktif" : "Aktif"}</span>`; };
 function _barisSiswaKelas(s){
   const nonaktif = s.status === "nonaktif";
   return `<div class="sg-row" style="${nonaktif ? "opacity:.55;" : ""}">
     <div class="who"><b>${escHtml(s.nama || "(tanpa nama)")}</b><span class="em">${escHtml(s.email || "")}</span></div>
     <div>${_chipAkses(s)}</div>
+    ${_chipSsw(s)}
+    ${_chipJft(s)}
     ${_chipStatus(s)}
     <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
     <button class="btn sm ghost" onclick="pindahKelas('${s.uid}', '')">↩︎ Keluarkan</button>
@@ -447,22 +626,24 @@ function renderSiswaPerKelas(){
   state.siswaBuka = state.siswaBuka || {};
   const opsiKelas = nama.map(k => `<option value="${escHtml(k)}">${escHtml(k)}</option>`).join("");
   const tabelTanpa = tanpa.length ? `
-    <div class="table-wrap"><table>
-      <thead><tr><th>Nama</th><th>Email</th><th>Status</th><th>Akses JLPT</th><th>Masukkan ke kelas</th><th>Aksi</th></tr></thead>
+    <div class="table-wrap"><table class="cards-m">
+      <thead><tr><th>Nama</th><th>Email</th><th>Status</th><th>Akses JLPT</th><th>Akses SSW</th><th>Akses JFT</th><th>Masukkan ke kelas</th><th>Aksi</th></tr></thead>
       <tbody>${_potong(tanpa).map(s => {
         const nonaktif = s.status === "nonaktif";
         return `<tr style="${nonaktif ? "opacity:.55;" : ""}">
-          <td><b>${escHtml(s.nama || "(nama belum diisi)")}</b></td>
-          <td>${escHtml(s.email || "")}</td>
-          <td>${_chipStatus(s)}</td>
-          <td>${_chipAkses(s)}</td>
-          <td>${nama.length ? `<select onchange="pindahKelas('${s.uid}', this.value)"><option value="">— pilih kelas —</option>${opsiKelas}</select>` : `<span style="color:var(--gray); font-size:12px;">Belum ada kelas</span>`}</td>
-          <td>
+          <td class="nama" data-label="Nama"><b>${escHtml(s.nama || "(nama belum diisi)")}</b></td>
+          <td data-label="Email">${escHtml(s.email || "")}</td>
+          <td data-label="Status">${_chipStatus(s)}</td>
+          <td data-label="Akses">${_chipAkses(s)}</td>
+          <td data-label="SSW">${_chipSsw(s)}</td>
+          <td data-label="JFT">${_chipJft(s)}</td>
+          <td data-label="Kelas">${nama.length ? `<select onchange="pindahKelas('${s.uid}', this.value)"><option value="">— pilih kelas —</option>${opsiKelas}</select>` : `<span style="color:var(--gray); font-size:12px;">Belum ada kelas</span>`}</td>
+          <td class="aksi">
             <button class="btn sm ghost" onclick="toggleStat('${s.uid}', this)">📊 Detail</button>
             ${_bolehHapus(s) ? `<button class="btn sm danger" onclick="hapusSiswa('${s.uid}')">🗑️ Hapus</button>` : ""}
           </td>
         </tr>
-        <tr class="stat-row" hidden><td colspan="6"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`;
+        <tr class="stat-row" hidden><td colspan="8"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`;
       }).join("")}</tbody>
     </table></div>${_tombolLebih(tanpa.length)}` : `<div style="color:var(--gray); padding:8px 0;">Semua siswa sudah punya kelas ✓</div>`;
   const blokTanpa = `<div class="sg-kelas" style="border-color:#f59e0b;">
@@ -642,13 +823,19 @@ window.buatAkunBaru = async () => {
 };
 /* ===== Import siswa dari Excel ===== */
 const _ya = (v) => /^(ya|y|yes|1|true|aktif|v|✓|x)$/i.test(String(v ?? "").trim());
+// Kolom akses SSW di Excel → slug bidang. Kosong = tidak diatur (TIDAK otomatis diberi akses).
+const SSW_KOLOM = [["SSW Building Cleaning","building-cleaning"],["SSW Kaigo","kaigo"],["SSW Kaigo Indonesia","kaigo"],["SSW Kaigo Jepang","kaigo"],["SSW Food Manufacturing","food-manufacturing"],
+  ["SSW Food Service","food-service"],["SSW Food Service Indonesia","food-service"],["SSW Food Service Jepang","food-service"],["SSW Agriculture","agriculture"],["SSW Construction","construction"],["SSW Construction Sipil","construction"],["SSW Construction Bangunan","construction-bangunan"],["SSW Construction Lifeline","construction-lifeline"],["SSW Accommodation","accommodation"],["SSW Livestock","livestock"]];
+const _tri = (v) => _ya(v) ? true : _tidak(v) ? false : undefined;
+const _tidak = (v) => /^(tidak|t|no|n|0|false|blokir)$/i.test(String(v ?? "").trim());
+function _bacaSsw(r){ const o = {}; for (const [kol, slug] of SSW_KOLOM){ const v = r[kol] ?? r[kol.toLowerCase()]; if (_ya(v)) o[slug] = true; else if (_tidak(v)) o[slug] = false; } return o; }
 window.downloadFormatSiswa = () => {
   const data = [
-    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak" },
-    { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak" },
+    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", "JFT A1":"Ya", "JFT A2.1":"Ya", "JFT A2.2":"Tidak", SSW:"Ya", "SSW Building Cleaning":"Ya", "SSW Kaigo":"Ya", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
+    { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", SSW:"Tidak" },
   ];
   const ws = XLSX.utils.json_to_sheet(data);
-  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7}];
+  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:9},{wch:9},{wch:9},{wch:7}];
   const inst = XLSX.utils.aoa_to_sheet([
     ["FORMAT IMPORT SISWA — SHIROSE NIHONGO"], [""],
     ["Isi sheet 'Siswa': 1 baris = 1 akun. Hapus 2 baris contoh sebelum upload."],
@@ -657,6 +844,11 @@ window.downloadFormatSiswa = () => {
     ["- Nama (wajib): nama tampilan siswa."],
     ["- Kelas (opsional): nama kelas, misal 'Kelas A'."],
     ["- N5, N4, N3, N2, N1: isi Ya / Tidak. Ya = level dibuka untuk siswa ini. Kosong = Tidak."],
+    ["- JFT: Ya / Tidak. Tidak = SEMUA level JFT ditutup untuk siswa ini. Kosong = tidak diatur (JFT tetap terbuka)."],
+    ["- JFT A1, JFT A2.1, JFT A2.2: Ya / Tidak per level JFT (Starter, Shokyuu 1, Shokyuu 2). Kosong = tidak diatur."],
+    ["- SSW: Ya / Tidak. Tidak = SELURUH menu SSW ditutup. Kosong = tidak diatur (ikut kolom per bidang di bawah)."],
+    ["- SSW ... (per bidang): isi Ya / Tidak. Kosong = tidak diatur (ikut pengaturan kelas / bawaan; TIDAK otomatis dibuka)."],
+    ["- Email yang SUDAH terdaftar: tidak dibuat ulang. Hanya kolom akses SSW yang terisi (dan Kelas bila terisi) yang diperbarui. XP, koin, dan progres tidak disentuh."],
     [""], ["Akun dibuat di sistem login yang sama dengan website siswa & dashboard guru."],
   ]);
   inst["!cols"] = [{ wch:100 }];
@@ -680,6 +872,15 @@ window.bacaExcelSiswa = async (file) => {
       const nama = g("Nama");
       const kelas = g("Kelas");
       const aksesLevel = {}; ["n5","n4","n3","n2","n1"].forEach(l => aksesLevel[l] = _ya(r[l.toUpperCase()] ?? r[l]));
+      const ssw = _bacaSsw(r);
+      const jft = _tri(r.JFT ?? r.jft ?? r.Jft), jftLv = {}; JFT_LV.forEach(([l, n]) => { const v = _tri(r["JFT " + n] ?? r["jft " + n]); if (v !== undefined) jftLv[l] = v; });
+      const sswAll = _tri(r.SSW ?? r.ssw ?? r.Ssw);
+      const lama = state.siswaList.find(x => (x.email||"").toLowerCase() === email);
+      if (lama && !dipakai.has(email)) {   // akun lama → hanya perbarui akses SSW / kelas
+        dipakai.add(email);
+        const adaUbah = Object.keys(ssw).length || jft !== undefined || Object.keys(jftLv).length || sswAll !== undefined || (kelas && kelas !== (lama.kelas || ""));
+        return { baris: i + 2, email, password: "", nama: lama.nama || nama, kelas, aksesLevel: lama.aksesLevel || {}, ssw, jft, jftLv, sswAll, uid: lama.uid, update: true, err: adaUbah ? "" : "Sudah terdaftar — tidak ada kolom SSW/Kelas yang diubah", hasil: "" };
+      }
       let err = "";
       if (!email && !password && !nama) return null;
       if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) err = "Email tidak valid";
@@ -689,7 +890,7 @@ window.bacaExcelSiswa = async (file) => {
       else if (sudahAda.has(email)) err = "Email sudah terdaftar";
       else if (dipakai.has(email)) err = "Email dobel di file";
       dipakai.add(email);
-      return { baris: i + 2, email, password, nama, kelas, aksesLevel, err, hasil: "" };
+      return { baris: i + 2, email, password, nama, kelas, aksesLevel, ssw, jft, jftLv, sswAll, err, hasil: "" };
     }).filter(Boolean);
     document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
   } catch(e){
@@ -703,32 +904,39 @@ function renderPreviewSiswa(){
   return `
     <div style="font-size:13px; margin-bottom:8px;"><b>${list.length}</b> baris · <span style="color:var(--green);">${ok.length} siap dibuat</span> · <span style="color:var(--red);">${list.filter(x=>x.err).length} bermasalah (dilewati)</span></div>
     <div class="table-wrap" style="max-height:340px; overflow:auto;"><table>
-      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>Status</th></tr></thead>
+      <thead><tr><th>Baris</th><th>Email</th><th>Nama</th><th>Kelas</th><th>Akses</th><th>JFT</th><th>SSW</th><th>Status</th></tr></thead>
       <tbody>${list.map(x => `<tr>
         <td>${x.baris}</td><td>${esc(x.email)}</td><td>${esc(x.nama)}</td><td>${esc(x.kelas)}</td>
         <td>${["n5","n4","n3","n2","n1"].filter(l => x.aksesLevel[l]).map(l => l.toUpperCase()).join(", ") || "-"}</td>
-        <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || "Siap")}</td>
+        <td style="font-size:12px;">${x.jft === undefined ? "" : x.jft ? "✓ JFT semua<br>" : "✗ JFT ditutup<br>"}${Object.entries(x.jftLv || {}).map(([l, v]) => `${v ? "✓" : "✗"} ${l}`).join("<br>") || (x.jft === undefined ? "-" : "")}</td>
+        <td style="font-size:12px;">${x.sswAll === undefined ? "" : (x.sswAll ? "✓ SSW semua<br>" : "✗ SSW ditutup<br>")}${Object.entries(x.ssw || {}).map(([k, v]) => `${v ? "✓" : "✗"} ${k}`).join("<br>") || "-"}</td>
+        <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || (x.update ? "Siap: perbarui akun lama" : "Siap: akun baru"))}</td>
       </tr>`).join("")}</tbody></table></div>
     <div style="margin-top:10px; display:flex; gap:8px; flex-wrap:wrap;">
-      ${ok.length ? `<button class="btn gold" id="imp-siswa-go" onclick="prosesImportSiswa()">✓ Buat ${ok.length} akun siswa</button>` : ""}
+      ${ok.length ? `<button class="btn gold" id="imp-siswa-go" onclick="prosesImportSiswa()">✓ Proses ${ok.length} baris (${ok.filter(x => !x.update).length} akun baru, ${ok.filter(x => x.update).length} diperbarui)</button>` : ""}
       <button class="btn ghost" onclick="state.importSiswa=null; renderTab()">Tutup</button>
     </div>`;
 }
 window.prosesImportSiswa = async () => {
   const list = (state.importSiswa || []).filter(x => !x.err && !x.hasil);
   if (!list.length) return;
-  if (!confirm(`Buat ${list.length} akun siswa baru?`)) return;
+  if (!confirm(`Proses ${list.length} baris? Akun lama hanya diperbarui aksesnya; progres tidak disentuh.`)) return;
   const btn = document.getElementById("imp-siswa-go");
   let n = 0, gagal = 0;
   for (const x of list){
     if (btn){ btn.disabled = true; btn.textContent = `Membuat akun ${n + gagal + 1}/${list.length}…`; }
     try {
-      await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
-      x.hasil = "✓ Akun dibuat"; n++;
+      const uid = x.update ? x.uid : await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
+      if (x.update && x.kelas) await FB.assignSiswaKeKelas([uid], x.kelas);
+      if (x.jft !== undefined) await FB.setAksesJft(uid, x.jft);
+      if (Object.keys(x.jftLv || {}).length) await FB.setAksesJftLevel(uid, x.jftLv);
+      if (x.sswAll !== undefined) await FB.setAksesSsw(uid, x.sswAll);
+      for (const [slug, v] of Object.entries(x.ssw || {})) await FB.setAksesSswBidang(uid, slug, v);
+      x.hasil = x.update ? "✓ Akses diperbarui" : "✓ Akun dibuat"; n++;
     } catch(e){ x.err = e.message || String(e); gagal++; }
     document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
   }
-  toast(`Import selesai: ${n} akun dibuat${gagal ? `, ${gagal} gagal` : ""}`);
+  toast(`Import selesai: ${n} baris diproses${gagal ? `, ${gagal} gagal` : ""}`);
   state.siswaList = await FB.listSiswa().catch(() => state.siswaList);
 };
 window.toggleStatus = async (uid, sedangNonaktif) => {
@@ -739,6 +947,29 @@ window.toggleStatus = async (uid, sedangNonaktif) => {
     toast(sedangNonaktif ? "Akun diaktifkan" : "Akun dinonaktifkan");
     renderTab();
   } catch(e){ toast("Gagal: " + (e.message || e)); }
+};
+window.toggleJft = async (uid, lv) => {
+  const s = state.siswaList.find(x => x.uid === uid); if (!s) return;
+  const masterTutup = s.aksesJft === false;
+  const peta = {}; JFT_LV.forEach(([l]) => peta[l] = masterTutup ? false : s.aksesJftLevel?.[l] !== false);
+  peta[lv] = !peta[lv];
+  try {
+    if (masterTutup){ await FB.setAksesJft(uid, true); s.aksesJft = true; }   // master dibuka lagi; yang lain tetap tertutup
+    await FB.setAksesJftLevel(uid, peta);
+    s.aksesJftLevel = peta;
+    toast(`JFT ${JFT_LV.find(x => x[0] === lv)[1]} ${peta[lv] ? "dibuka" : "ditutup"}`);
+  } catch(e){ toast("Gagal simpan akses JFT: " + (e.message || e)); }
+  renderTab();
+};
+window.toggleSsw = async (uid) => {
+  const s = state.siswaList.find(x => x.uid === uid); if (!s) return;
+  const baru = s.aksesSsw === false;
+  try {
+    await FB.setAksesSsw(uid, baru);
+    s.aksesSsw = baru;
+    toast(`Akses SSW ${baru ? "dibuka" : "ditutup"}`);
+  } catch(e){ toast("Gagal simpan akses SSW: " + (e.message || e)); }
+  renderTab();
 };
 window.toggleAkses = async (uid, lvl) => {
   const s = state.siswaList.find(x => x.uid === uid);
@@ -1446,19 +1677,21 @@ async function renderKelasTab(){
             ${members.length ? `
               <div class="table-wrap">
                 <table>
-                  <thead><tr><th>Nama</th><th>Email</th><th>Akses JLPT</th><th>Aksi</th></tr></thead>
+                  <thead><tr><th>Nama</th><th>Email</th><th>Akses JLPT</th><th>SSW</th><th>JFT</th><th>Aksi</th></tr></thead>
                   <tbody>
                     ${members.map(s => `
                       <tr>
                         <td><b>${s.nama||"-"}</b></td>
                         <td>${s.email}</td>
                         <td>${["n5","n4","n3","n2","n1"].filter(l=>s.aksesLevel?.[l]).map(l=>l.toUpperCase()).join(", ")||"-"}</td>
+                        <td>${_chipSsw(s)}</td>
+                        <td>${_chipJft(s)}</td>
                         <td>
                           <button class="btn sm" onclick="toggleStat('${s.uid}', this)">📊 Profil</button>
                           <button class="btn sm danger" onclick="keluarkanDariKelas('${s.uid}')">Keluarkan</button>
                         </td>
                       </tr>
-                      <tr class="stat-row" hidden><td colspan="4"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`).join("")}
+                      <tr class="stat-row" hidden><td colspan="6"><div class="sg-stats stat-slot" data-uid="${s.uid}" style="display:none;">Memuat statistik…</div></td></tr>`).join("")}
                   </tbody>
                 </table>
               </div>
@@ -1897,76 +2130,6 @@ window.exportJlpt = () => {
   const ws = XLSX.utils.json_to_sheet(rows); const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, "Hasil JLPT"); XLSX.writeFile(wb, `hasil-jlpt-${Date.now()}.xlsx`);
 };
-
-/* ========== TAB: HASIL MENSETSU (面接) ==========
- * Membaca siswa/{uid}/mensetsu_hasil (sudah tercakup Rules: guru boleh baca).
- * Hanya transkrip teks + nilai; tidak ada rekaman suara. */
-const _mx = { data: null, nama: "", bidang: "" };
-const _mxEsc = (t) => String(t ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const _mxMs = (h) => h.tgl?.seconds ? h.tgl.seconds * 1000 : (h.tglLocal ? Date.parse(h.tglLocal) : 0);
-const _mxCat = { jiko:"自己紹介 Perkenalan", shibou:"志望動機 Alasan melamar", shigoto:"仕事への理解 Pekerjaan", seikatsu:"日本での生活 Kehidupan", mokuhyou:"将来の目標 Tujuan", taiou:"職場での対応 Situasi kerja", saigo:"最後の質問 Penutup" };
-const _mxMode = { latihan:"Practice", nyata:"Real", lemah:"Weakness" };
-function _mxWeak(rows){
-  const c = {}; rows.forEach(h => (h.turns || []).forEach(t => (c[t.k] = c[t.k] || []).push(t.skor ?? 0)));
-  const a = Object.entries(c).map(([k,v]) => [k, Math.round(v.reduce((x,y) => x+y, 0) / v.length)]).sort((x,y) => x[1]-y[1]);
-  return a[0] ? { k: a[0][0], v: a[0][1] } : null;
-}
-async function renderMensetsuTab(){
-  if (!_mx.data){
-    const siswa = await FB.listSiswa(); const all = [];
-    for (const s of siswa){
-      try { (await FB.listHasilMensetsuOf(s.uid, 100)).forEach(h => all.push({ ...h, _uid: s.uid, _nama: s.nama || s.email || s.uid, _kelas: s.kelas || "" })); }
-      catch(e){ console.warn("mensetsu hasil", s.uid, e.message); }
-    }
-    all.sort((a,b) => _mxMs(b) - _mxMs(a)); _mx.data = all;
-  }
-  const rows = _mx.data.filter(h => (!_mx.bidang || h.bidang === _mx.bidang) && (!_mx.nama || (h._nama || "").toLowerCase().includes(_mx.nama.toLowerCase())));
-  const bidangs = [...new Set(_mx.data.map(h => h.bidang))];
-  const per = {}; rows.forEach(h => (per[h._uid] = per[h._uid] || []).push(h));
-  const ringkas = Object.values(per).map(list => {   // list terurut terbaru → lama
-    const last = list[0], prev = list[1], w = _mxWeak(list);
-    return `<tr><td>${_mxEsc(last._nama)}</td><td>${_mxEsc(last._kelas)}</td><td>${list.length}</td><td><b>${last.skor?.total ?? "–"}</b></td>
-      <td>${prev ? ((last.skor.total - prev.skor.total >= 0 ? "▲ +" : "▼ ") + (last.skor.total - prev.skor.total)) : "—"}</td>
-      <td>${Math.round(list.reduce((a,h) => a + (h.skor?.total || 0), 0) / list.length)}</td>
-      <td>${w ? _mxEsc(_mxCat[w.k] || w.k) + " (" + w.v + ")" : "—"}</td>
-      <td style="font-size:12px;">${w ? "Latih kategori " + _mxEsc((_mxCat[w.k] || w.k).split(" ")[0]) + " via mode Weakness" : ""}</td></tr>`;
-  }).join("");
-  return `
-    <div class="panel">
-      <h2>🎙️ Hasil Mensetsu (simulasi wawancara)</h2>
-      <p style="color:var(--gray); font-size:13px;">Riwayat wawancara siswa: nilai, transkrip, dan kategori terlemah. Nilai = perkiraan latihan (bukan penilaian resmi). Rekaman suara tidak disimpan.</p>
-      <div class="form-row" style="flex-wrap:wrap; gap:8px;">
-        <select onchange="_mx.bidang=this.value; renderTab()"><option value="">Semua bidang</option>${bidangs.map(b => `<option value="${b}" ${_mx.bidang===b?"selected":""}>${_mxEsc(b)}</option>`).join("")}</select>
-        <input placeholder="Cari nama siswa" value="${_mxEsc(_mx.nama)}" onchange="_mx.nama=this.value; renderTab()"/>
-        <button class="btn ghost" onclick="_mx.data=null; renderTab()">↻ Muat ulang</button>
-      </div>
-      <h3 style="margin-top:14px;">Perkembangan per siswa</h3>
-      <div class="table-wrap" style="max-height:30vh; overflow:auto;"><table>
-        <thead><tr><th>Siswa</th><th>Kelas</th><th>Sesi</th><th>Nilai terakhir</th><th>Perubahan</th><th>Rata-rata</th><th>Kategori terlemah</th><th>Rekomendasi</th></tr></thead>
-        <tbody>${ringkas || `<tr><td colspan="8" style="text-align:center; color:var(--gray);">Belum ada simulasi.</td></tr>`}</tbody></table></div>
-      <h3 style="margin-top:14px;">Semua sesi (${rows.length})</h3>
-      <div class="table-wrap" style="max-height:48vh; overflow:auto;"><table>
-        <thead><tr><th>Tanggal</th><th>Siswa</th><th>Kelas</th><th>Bidang</th><th>Mode</th><th>Nilai</th><th>Soal</th><th>Penilai</th><th></th></tr></thead>
-        <tbody>${rows.map(h => `<tr style="cursor:pointer;" onclick="mensetsuDetail('${h._uid}','${h.id}')">
-          <td>${new Date(_mxMs(h)).toLocaleString("id-ID", { dateStyle:"short", timeStyle:"short" })}</td><td>${_mxEsc(h._nama)}</td><td>${_mxEsc(h._kelas)}</td>
-          <td>${_mxEsc(h.bidangNama || h.bidang)}</td><td>${_mxMode[h.mode] || h.mode}</td><td><b>${h.skor?.total ?? "–"}</b></td>
-          <td>${h.dijawab}/${h.jumlahSoal}</td><td>${h.provider === "skrip" ? "Skrip" : "AI " + _mxEsc(h.provider)}</td><td>Detail ›</td></tr>`).join("") || `<tr><td colspan="9" style="text-align:center; color:var(--gray);">Belum ada hasil.</td></tr>`}</tbody></table></div>
-    </div>`;
-}
-window.mensetsuDetail = (uid, id) => {
-  const h = (_mx.data || []).find(x => x._uid === uid && x.id === id); if (!h) return;
-  const sk = h.skor || {}; const ev = h.ev || {};
-  const trans = (h.turns || []).map(t => `<tr><td>${_mxEsc(t.q)}</td><td>${_mxEsc(t.a || "(tidak dijawab)")}${t.lang === "id" ? " <i>[Indonesia]</i>" : ""}</td><td><b>${t.skor ?? "–"}</b>${t.helped ? " 💡" : ""}</td></tr>`).join("");
-  modal(`<h3>${_mxEsc(h._nama)} — ${_mxEsc(h.bidangNama || h.bidang)}</h3>
-    <p style="font-size:13px; color:var(--gray);">${new Date(_mxMs(h)).toLocaleString("id-ID")} · ${_mxMode[h.mode] || h.mode} · ${Math.round((h.durasi || 0) / 60)} menit · penilai: ${h.provider === "skrip" ? "Skrip sederhana" : "AI " + _mxEsc(h.provider)}</p>
-    <p><b style="font-size:22px;">${sk.total ?? "–"}/100</b> — isi ${sk.isi}/25 · tata bahasa ${sk.tata_bahasa}/20 · kosakata ${sk.kosakata}/15 · kelancaran ${sk.kelancaran}/15 · artikulasi ${sk.artikulasi == null ? "— (tidak dinilai)" : sk.artikulasi + "/15 (estimasi STT)"} · kesopanan ${sk.kesopanan}/10</p>
-    ${(ev.kekurangan || []).length ? `<p><b>Kekurangan:</b> ${(ev.kekurangan || []).map(_mxEsc).join("; ")}</p>` : ""}
-    ${(ev.saran || []).length ? `<p><b>Saran:</b> ${(ev.saran || []).map(_mxEsc).join("; ")}</p>` : ""}
-    <h4 style="margin-top:10px;">Transkrip</h4>
-    <div class="table-wrap" style="max-height:45vh; overflow:auto;"><table><thead><tr><th>Pertanyaan</th><th>Jawaban siswa</th><th>Skor</th></tr></thead><tbody>${trans}</tbody></table></div>
-    <button class="btn ghost" style="margin-top:10px;" onclick="closeModal()">Tutup</button>`);
-};
-window._mx = _mx;
 
 /* ========== TAB: DIAGNOSTIK ==========
  * Menolong guru debug "akun baru engga muncul" dengan cara test setiap

@@ -1,0 +1,46 @@
+# -*- coding: utf-8 -*-
+import re
+K2 = [
+ ("彼は 病気な（　　　）、毎日 会社へ 来ます。","のに",["ので","から","ために"],"Padahal sakit, dia datang ke kantor tiap hari.","〜のに."),
+ ("電話する（　　　）、メールを 送ります。","かわりに",["あいだに","うちに","ところに"],"Sebagai ganti menelepon, saya kirim email.","〜かわりに."),
+ ("夏休みに（　　　）、アルバイトを して いました。","なると",["したら","すれば","ならば"],"Jika liburan musim panas tiba, saya bekerja paruh waktu.","〜になると."),
+ ("彼は 毎日 練習した（　　　）、試合に 勝てなかった。","のに",["ので","から","ために"],"Padahal berlatih tiap hari, dia tidak bisa menang.","〜のに."),
+ ("この 薬を 飲んだ（　　　）、熱が 下がりました。","おかげで",["せいで","くせに","ために ほしい"],"Berkat minum obat ini, panas turun.","〜おかげで."),
+ ("雨が 降った（　　　）、試合は 中止に なりました。","せいで",["おかげで","のに","ように"],"Gara-gara hujan, pertandingan dibatalkan.","〜せいで."),
+ ("彼女は 子ども（　　　）、大人の ような 話し方を します。","なのに",["だから","らしく","ように ない"],"Padahal anak kecil, bicaranya seperti orang dewasa.","〜なのに."),
+ ("毎日 運動して いる（　　　）、体の 調子が いいです。","おかげで",["せいで","くせに","わりに ほしい"],"Berkat olahraga tiap hari, kondisi tubuh baik.","〜おかげで."),
+ ("あの 人は 学生（　　　）、よく 勉強します。","らしく",["そうに","のように ない","ようで"],"Orang itu belajar dengan tekun, seperti layaknya pelajar.","〜らしい."),
+ ("この 問題は 難しすぎて、私（　　　）は できません。","には",["とは","では ない","ほどは"],"Soal ini terlalu sulit, saya tidak bisa.","〜には〜ない."),
+ ("彼女は 美しい（　　　）、やさしいです。","うえに",["あいだに","ところに","せいで"],"Dia cantik, lagipula baik hati.","〜うえに."),
+ ("部屋が 暗い（　　　）、電気を つけました。","ので",["のに","ても","ばかり"],"Karena kamar gelap, saya menyalakan lampu.","〜ので."),
+ ("もう 少し 早く 来れば、会えた（　　　）。","のに",["ので","から","ために"],"Kalau datang sedikit lebih awal, kita bisa bertemu.","〜ば〜のに."),
+ ("今日は 休みだ（　　　）、どこへも 行きたくない。","から",["のに","ても","ため"],"Karena hari ini libur, saya tidak mau ke mana-mana.","〜から."),
+ ("彼が 来る（　　　）、パーティーは 始められません。","まで",["あいだ","うちに","ところ"],"Sampai dia datang, pesta tidak bisa dimulai.","〜まで."),
+ ("電車が 来る（　　　）、あぶないですから 下がって ください。","から",["ので","ばかり","まで ない"],"Kereta akan datang, mundurlah karena berbahaya.","〜から."),
+ ("あなたが 行く（　　　）、私も 行きます。","なら",["のに","ても","ばかり"],"Kalau kamu pergi, saya juga pergi.","〜なら."),
+ ("雨が 降ろう（　　　）、試合は 行います。","と",["が ない","とも ない","か ない"],"Meski hujan, pertandingan tetap dilaksanakan.","〜ようと."),
+ ("この 薬は 食後に 飲む（　　　）に なって います。","こと",["もの","はず","ため"],"Obat ini aturannya diminum sesudah makan.","〜ことになっている."),
+ ("ここでは たばこを 吸っては いけない（　　　）に なって います。","こと",["もの","はず","ため"],"Di sini aturannya dilarang merokok.","〜ことになっている."),
+ ("私は 大学を 出る（　　　）、会社に 入りました。","と",["のに","ほど","ほど ない"],"Begitu lulus kuliah, saya masuk perusahaan.","〜と."),
+ ("彼は 来る（　　　）来る（　　　）、文句ばかり 言います。","たびに",["うちに","ところに","あいだに"],"Tiap kali datang, dia cuma mengeluh.","〜たびに."),
+ ("あの 店の 料理は 見た 目（　　　）、味も いいです。","だけでなく",["とは","ばかり ない","からは"],"Masakan toko itu bukan hanya tampilannya, rasanya juga enak.","〜だけでなく."),
+ ("田中さんは 来月 結婚する（　　　）。","そうです",["ところです","つもりです","ことです ない"],"Katanya Tanaka menikah bulan depan.","〜そうです."),
+ ("今にも 雨が 降りそう（　　　）。","です",["だそうです","らしいです","ようです"],"Sepertinya sebentar lagi akan hujan.","〜そうです (tampak)."),
+ ("彼は 日本語が 話せない（　　　）、日本で 働いて います。","のに",["ので","から","ために"],"Padahal tidak bisa bahasa Jepang, dia bekerja di Jepang.","〜のに."),
+ ("仕事が 終わった（　　　）、すぐ 帰りました。","ので",["のに","ても","ばかり"],"Karena pekerjaan selesai, saya langsung pulang.","〜ので."),
+ ("今日（　　　）、明日 絶対に 行きます。","でなければ",["ならば ない","ではなく","のはず"],"Kalau tidak hari ini, besok pasti saya pergi.","〜でなければ."),
+ ("子ども（　　　）あるまいし、そんな ことで 泣かないで。","では",["に","の","を"],"Bukan anak kecil, jangan menangis karena hal begitu.","〜ではあるまいし."),
+ ("先生に（　　　）、この 問題の 答えを 教えて ください。","でも",["すら ない","しか","だけ ない"],"Setidaknya tanyakan pada guru, dan beri tahu jawabannya.","〜でも."),
+ ("彼は 毎日 夜遅く（　　　）働いて います。","まで",["から","ほど","に"],"Dia bekerja sampai larut malam tiap hari.","〜まで."),
+ ("このごろ 忙しくて、映画を 見に 行く（　　　）ありません。","暇も",["暇しか","暇だけ","暇ほど"],"Belakangan sibuk, tak sempat pergi menonton film.","〜暇もない."),
+ ("彼は 歌手（　　　）、俳優としても 活躍して います。","であり",["にして","ながら ない","ばかり"],"Dia penyanyi dan juga aktif sebagai aktor.","〜であり."),
+ ("宿題が 終わって（　　　）、遊びに 行けません。","いなければ",["いても","いたら ない","いるのに"],"Kalau PR belum selesai, tidak boleh bermain.","〜なければ〜ない."),
+ ("彼女は 疲れて（　　　）、すぐ ねて しまいました。","いたので",["いても","いたのに","いなくて"],"Karena lelah, dia langsung tertidur.","〜ので."),
+ ("この 道を まっすぐ 行く（　　　）、右に 銀行が あります。","と",["のに","ほど","ばかり"],"Kalau lurus di jalan ini, di kanan ada bank.","〜と."),
+ ("友だちが 来る（　　　）、部屋を 掃除して おきます。","まえに",["あとで","ながら","たびに"],"Sebelum teman datang, saya bersihkan kamar.","〜まえに."),
+ ("先生に 注意された（　　　）、また 遅刻して しまいました。","のに",["ので","から","ために"],"Padahal sudah diperingatkan guru, saya terlambat lagi.","〜のに."),
+]
+def _ok(r): return len(r[2])==3 and r[1] not in r[2] and '（　　　）' in r[0] and not any(re.search(r' (ない|ある|ます|ほしい|ない です|でした|ない ます)$', w) or w in ('ならば ない','ほど ない') for w in r[2])
+K2 = [r for r in K2 if _ok(r)]
+_bad = ("ほど ない","ならば ない")
+K2 = [r for r in K2 if not any(x in r[0] for x in ("彼は 来る（","あなたが 行く","毎日 運動して いる","田中さんは 来月","今にも 雨","今日（　　　）","子ども（","先生に（","彼女は 疲れて","仕事が 終わった","彼は 日本語が 話せない","部屋が 暗い","今日は 休み","電車が 来る","雨が 降ろう"))]

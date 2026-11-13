@@ -26,7 +26,7 @@ import {
 import {
   getFirestore, doc, getDoc, setDoc, updateDoc, deleteDoc,
   collection, getDocs, onSnapshot, query, orderBy, limit, addDoc,
-  where, writeBatch, serverTimestamp, documentId
+  where, writeBatch, serverTimestamp, FieldPath, deleteField, documentId
 } from "https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore.js";
 
 const firebaseConfig = {
@@ -543,42 +543,36 @@ export async function saveKanaProgres(data) {
     { ...data, uid: currentUser.uid, updated: serverTimestamp() });
 }
 
-/* ========== MENSETSU 面接 — hasil simulasi wawancara ==========
- * Disimpan di siswa/{uid}/mensetsu_hasil/{autoId} — sub-koleksi milik siswa, sudah
- * tercakup Firestore Rules yang ada (pemilik + guru boleh baca; siswa lain TIDAK).
- * Hanya TRANSKRIP TEKS + nilai. Rekaman suara tidak pernah disimpan.
+/* ========== SSW 特定技能 ==========
+ * ssw_bidang/{slug}            konfigurasi bidang (guru menulis, siswa terdaftar membaca):
+ *                              { nama, jp, aktif, urut, tema, gambar, hasContent, bab:{babId:"draft|published|hidden"} }
+ * siswa/{uid}/ssw_progres/{slug} progres siswa — sub-koleksi milik siswa, sudah tercakup rules {sub}/{docId}.
+ * Menonaktifkan bidang TIDAK menghapus progres (dokumen progres tidak disentuh).
  */
-export async function getIdToken() {
-  return currentUser ? await currentUser.getIdToken() : null;
+export async function loadSswBidang() {
+  const snap = await getDocs(collection(db, "ssw_bidang"));
+  return snap.docs.map(d => ({ slug: d.id, ...d.data() }));
 }
-export async function simpanHasilMensetsu(hasil) {
-  if (!currentUser) throw new Error("Belum login");
-  const { id, ...rest } = hasil || {};
-  const clean = JSON.parse(JSON.stringify(rest));   // buang undefined (Firestore menolak)
-  const d = await addDoc(collection(db, "siswa", currentUser.uid, "mensetsu_hasil"), { ...clean, uid: currentUser.uid, tgl: serverTimestamp() });
-  return d.id;
+export async function saveSswBidang(slug, data) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  const clean = { ...data }; delete clean.slug;
+  await setDoc(doc(db, "ssw_bidang", slug), { ...clean, updated: serverTimestamp(), updatedBy: currentUser.uid }, { merge: true });
 }
-export async function listHasilMensetsu(limitN = 50) {
-  if (!currentUser) return [];
-  const q = query(collection(db, "siswa", currentUser.uid, "mensetsu_hasil"), orderBy("tgl", "desc"), limit(limitN));
-  return (await getDocs(q)).docs.map(d => ({ id: d.id, ...d.data() }));
+export async function deleteSswBidang(slug) {
+  if (!userIsAdmin() && !userIsDeveloper()) throw new Error("Hanya admin");
+  await deleteDoc(doc(db, "ssw_bidang", slug));
 }
-export async function listHasilMensetsuOf(uid, limitN = 100) {
-  if (!userIsGuru() && uid !== currentUser?.uid) throw new Error("Tidak diizinkan");
-  const q = query(collection(db, "siswa", uid, "mensetsu_hasil"), orderBy("tgl", "desc"), limit(limitN));
-  return (await getDocs(q)).docs.map(d => ({ id: d.id, ...d.data() }));
+export async function loadSswProgres(slug, uidOverride = null) {
+  const id = uidOverride || currentUser?.uid;
+  if (!id) return null;
+  if (uidOverride && uidOverride !== currentUser?.uid && !userIsGuru()) throw new Error("Tidak diizinkan");
+  const snap = await getDoc(doc(db, "siswa", id, "ssw_progres", slug));
+  return snap.exists() ? snap.data() : null;
 }
-export async function hapusHasilMensetsu(id) {
-  if (!currentUser) throw new Error("Belum login");
-  await deleteDoc(doc(db, "siswa", currentUser.uid, "mensetsu_hasil", id));
-}
-export async function hapusSemuaHasilMensetsu() {
-  if (!currentUser) throw new Error("Belum login");
-  const docs = (await getDocs(collection(db, "siswa", currentUser.uid, "mensetsu_hasil"))).docs;
-  for (let i = 0; i < docs.length; i += 400) {
-    const b = writeBatch(db); docs.slice(i, i + 400).forEach(d => b.delete(d.ref)); await b.commit();
-  }
-  return docs.length;
+export async function saveSswProgres(slug, data) {
+  if (!currentUser) return;
+  await setDoc(doc(db, "siswa", currentUser.uid, "ssw_progres", slug),
+    { ...data, uid: currentUser.uid, updated: serverTimestamp() });
 }
 
 /* ========== ACTIVITY CALENDAR (Part 12) ========== */
@@ -831,6 +825,22 @@ export async function hapusKategori(id) {
   await deleteDoc(doc(db, "kategori_ujian", id));
 }
 
+/* ========== KELAS KATA KOSAKATA (override guru) ==========
+   kosakata_pos/{lvl} = { map: { "<kata>": ["KK"|"KB"|"KSい"|"KSな", ...] | ["-"] } }
+   Data JSON asli tidak diubah; override dipasang di memori saat Materi/Hafalan dimuat. */
+export async function getPosOverride(lvl) {
+  const snap = await getDoc(doc(db, "kosakata_pos", lvl));
+  return snap.exists() ? (snap.data().map || {}) : {};
+}
+export async function setPosOverride(lvl, kata, tags) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await setDoc(doc(db, "kosakata_pos", lvl), { map: { [kata]: (tags && tags.length) ? tags : ["-"] }, updated: serverTimestamp() }, { merge: true });
+}
+export async function resetPosOverride(lvl, kata) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "kosakata_pos", lvl), new FieldPath("map", kata), deleteField());
+}
+
 /* ========== SOAL (per kategori / paket soal) ========== */
 // Urutan soal harus dipertahankan sesuai input Excel — Firestore tidak
 // menjamin urutan dari getDocs, jadi kita simpan field `urutan` di tiap
@@ -1047,7 +1057,7 @@ export async function daftarkanAkunExisting({ uid, email, nama, kelas, aksesLeve
  * terhapus (itu butuh Admin SDK / Firebase Console). Tanpa profil, akun itu tidak
  * bisa membaca data apa pun (status "belum terdaftar" di Rules).
  */
-const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","mensetsu_hasil","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
+const _SUB_SISWA = ["activity","gami","jlpt_hasil","kana_progres","misi_harian","nilai","rangkuman","srs","ujian_rewards"];
 export async function hapusSiswa(uid) {
   if (!userIsGuru()) throw new Error("Hanya guru/moderator");
   if (!uid) throw new Error("UID kosong");
@@ -1156,6 +1166,52 @@ export async function simpanKelas(data, id = null) {
     const r = await addDoc(collection(db, "kelas"), data);
     return r.id;
   }
+}
+
+
+/* ---- SSW: akses per siswa + leaderboard ----
+ * siswa/{uid}.aksesSsw  (boolean; kosong = diizinkan)  — hanya guru yang boleh mengubah (rules).
+ * ssw_rank/{slug}__{uid} { uid, slug, nama, kelas, poin, rinci{baca,kartu,kuis}, upd } — siswa menulis dokumennya sendiri. */
+export async function setAksesSsw(uid, on) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "siswa", uid), { aksesSsw: !!on });
+}
+/* siswa/{uid}.aksesJft (boolean; kosong = diizinkan) — hanya guru yang boleh mengubah (rules). */
+export async function setAksesJft(uid, on) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "siswa", uid), { aksesJft: !!on });
+}
+/* siswa/{uid}.aksesJftLevel {ir0,ir1,ir2: boolean}; false = level itu ditutup. */
+export async function setAksesJftLevel(uid, map) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  const o = {}; ["ir0","ir1","ir2"].forEach(l => { if (typeof map?.[l] === "boolean") o[l] = map[l]; });
+  await updateDoc(doc(db, "siswa", uid), { aksesJftLevel: o });
+}
+/* Akses SSW per bidang. v: true = boleh, false = blokir, null = hapus (ikut kelas / bawaan).
+ * siswa/{uid}.aksesSswBidang.{slug}  dan  kelas/{id}.aksesSswBidang.{slug} */
+export async function setAksesSswBidang(uid, slug, v) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "siswa", uid), new FieldPath("aksesSswBidang", slug), v === null ? deleteField() : !!v);
+}
+export async function setAksesSswKelas(kelasId, slug, v) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  await updateDoc(doc(db, "kelas", kelasId), new FieldPath("aksesSswBidang", slug), v === null ? deleteField() : !!v);
+}
+export async function saveSswRank(slug, data) {
+  if (!currentUser) return;
+  const d = { uid: currentUser.uid, slug, nama: String(data.nama || "Siswa").slice(0, 60), kelas: String(data.kelas || "").slice(0, 40),
+    poin: Math.max(0, Math.min(1000000, Math.round(data.poin || 0))), rinci: data.rinci || {}, upd: serverTimestamp() };
+  await setDoc(doc(db, "ssw_rank", `${slug}__${currentUser.uid}`), d);
+}
+export async function loadSswRank(slug) {
+  const snap = await getDocs(query(collection(db, "ssw_rank"), where("slug", "==", slug)));
+  return snap.docs.map(x => x.data());
+}
+export async function resetSswRank(slug) {
+  if (!userIsGuru()) throw new Error("Hanya guru");
+  const rows = await loadSswRank(slug);
+  for (const r of rows) await deleteDoc(doc(db, "ssw_rank", `${slug}__${r.uid}`));
+  return rows.length;
 }
 
 /* ========== LEADERBOARD ========== */

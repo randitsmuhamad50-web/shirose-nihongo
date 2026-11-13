@@ -1,0 +1,2049 @@
+{
+ "schema": 1,
+ "bidang": "livestock",
+ "source": "農業技能測定試験 テキスト 畜産農業全般 (全国農業会議所 / Dewan Pertanian Nasional), versi Indonesia, ver. 1.0",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Pengetahuan Dasar mengenai Ternak dan Pakan Ternak",
+   "jp": "{家畜|かちく}と{飼料|しりょう}の{基礎知識|きそちしき}"
+  },
+  "intro": {
+   "id": "Sifat ternak, kandang, pakan, reproduksi, kesehatan, dan penyakit tiap jenis ternak.",
+   "jp": "{家畜|かちく}と{飼料|しりょう}の{基礎知識|きそちしき}"
+  },
+  "pages": [
+   42,
+   108
+  ],
+  "subs": [
+   {
+    "id": "b2s1",
+    "no": 1,
+    "title": {
+     "id": "Sapi Perah",
+     "jp": "{乳用牛|にゅうようぎゅう}"
+    },
+    "pages": [
+     42,
+     56
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Sifat Sapi Perah"
+      },
+      {
+       "p": "Sapi perah adalah binatang yang memiliki kewaspadaan yang tinggi, dan syarafnya juga tajam, sehingga penting bagi manusia untuk melakukan kontak dengan sikap yang halus. Sapi perah dapat lebih suka memakan pakan konsentrat daripada pakan kasar, hal ini disebut dengan “makan pilih”."
+      },
+      {
+       "p": "Saat panas di musim panas, sapi perah akan memperbanyak jumlah napasnya untuk mengevaporasi air, mencegah meningkatnya suhu tubuh. Mengukur suhu tubuh sapi perah umumnya dilakukan dengan memasukkan termometer pada dubur."
+      },
+      {
+       "p": "Setelah melahirkan, volume susu sapi perah akan semakin bertambah, namun hingga minggu 5~7 volume susu per hari akan mencapai jumlah tertinggi, dimana banyak juga sapi perah yang menghasilkan volume susu sekitar 50 kg per hari."
+      },
+      {
+       "p": "Sekitar 60 hari sebelum melahirkan, pemerahan susu dihentikan, dan masuk pada masa kering."
+      },
+      {
+       "h": "2 Struktur Kandang Sapi Perah"
+      },
+      {
+       "p": "Ada cara memelihara sapi perah dengan membiarkannya di padang rumput (merumput, lepas bebas) dan memeliharanya di dalam kandang sapi (dikurung), namun di Jepang kebanyakan dikurung. Cara pemeliharaan sapi dikurung ada 3 metode “kandang tambat”, “free barn”, dan “free stall”."
+      },
+      {
+       "p": "Kandang tambat adalah metode memelihara sapi dengan mengikat sapi perah seekor seekor pada tiang dengan mempergunakan stanchion, tali, atau rantai. Wadah air kebanyakan mempergunakan water cup. Pemerahan susu dilakukan di lokasi sapi perah tertambat, dan susu yang telah diperah dimasukkan ke kulkas (bulk milk cooler) melalui pipa vacuum pengalir susu di atas kepala sapi."
+      },
+      {
+       "p": "Kandang Sapi Stanchion Tie Stall Cara New York Pemerahan Susu di Kandang Tambat Pengukur Vakum (Vacuum Meter) Alat Penyesuaian Pipa Pengalir Susu Wadah Penerima Susu"
+      },
+      {
+       "p": "(Milk Receiver Jar) Sistem Pemerahan Susu Free barn adalah metode yang membiarkan sapi perah bergerak bebas tanpa ditambat, di dalam pagar yang beratap di area luas. ditaburkan alas kandang di permukaan lantai, selain pada space pemberian pakan. Alas kandang yang ditaburkan kebanyakan yang dipergunakan adalah serbuk gergaji (serbuk kayu), atau back compost (kompos kering yang difermentasikan dan sudah matang)."
+      },
+      {
+       "p": "Tangki air banyak dipakai sebagai wadah air. Pemerahan susu dilakukan di milking parlor di ruangan yang berbeda. Kandang Free Barn Milking Parlor Robot Pemerahan Susu Seperti di gambar, pada free stall ditempatkan bed (lantai kandang sapi) yang dipisahkan secara individual. Inilah bedanya dengan free barn."
+      },
+      {
+       "p": "Wadah Pakan Kandang Sapi Free Stall Bed (Lantai Kandang Sapi) pada Kandang Sapi Free Stall Pada kandang sapi free barn atau free stall, ada kasus tidak jarang sapi lemah diusir dari wadah pakan oleh sapi kuat sehingga volume konsumsi pakan ternaknya berkurang."
+      },
+      {
+       "h": "3 Organ Pencernaan Sapi Perah"
+      },
+      {
+       "ul": [
+        "Sapi perah memiliki 4 perut/lambung.",
+        "Lambung terbesar adalah lambung pertama, disebut dengan rumen.",
+        "Banyak mikroorganisme terkandung di dalam rumen, mikroorganisme akan menguraikan pakan ternak, dan memberikan unsur nutrisi (asam lemak volatile) ke dalam tubuh sapi perah.",
+        "Pakan ternak yang sudah satu kali dimakan oleh sapi perah, kemudian akan dikembalikan ke dalam mulut, dikunyah, dihaluskan, kemudian akan ditelan kembali, disebut dengan memamah biak.",
+        "Pakan ternak akan menjadi halus dengan dimamah biak, sehingga penguraian dan pencernaan oleh mikroorganisme di dalam rumen akan berpsoses dengan cepat.",
+        "Pada perut pertama (rumen) sapi perah, dibuatlah asam lemak volatilitas (asam asetat, asam propionate, dan asam butirat) dari serat patisereal dan juga pakan kasar, yang akan diserap ke dalam tubuh sapi perah, dan digunakan untuk memproduksi susu sapi dan juga untuk menjaga tubuh sapi.",
+        "Protein yang diperlukan untuk memproduksi susu sapi dan menjaga tubuh sapi perah dibuat dari asam amino yang diserap dari usus kecil."
+       ]
+      },
+      {
+       "h": "4 Pakan Ternak"
+      },
+      {
+       "ul": [
+        "Yang sering dipergunakan sebagai pakan kasar, adalah silase rumput, silase jagung, silase sorgum, rumput kering, pakan kasar fermentasi beras (rice hole crop silage) atau jerami, dan sebagainya.",
+        "Yang sering dipergunakan sebagai pakan konsentrat adalah pakan ternak campuran, jagung, ampas kedelai, ampas hijauan, dedak, byproduct manufacture food (ampas tahu, ampas BSG / Brewery Spent Grain), beet pulp, dan sebagainya.",
+        "Pakan campuran adalah pakan ternak yang diproduksi dengan mencampurkan berbagai material pakan ternak di pabrik, namun sereal yang banyak dipakai adalah jagung, dan oil cake yang banyak dipakai adalah ampas kedelai.",
+        "Silase adalah pakan ternak rumput, atau gabah atau jagung (campuran batang, daun, dan butirannya) yang dipotong hancur yang disimpan tertutup dengan kondisi yang vacuum (tanpa oksigen).",
+        "Rerumputan yang fase tuainya cepat akan lebih tinggi kandungan protein atau rasio cerna seratnya daripada rerumputan yang fase tuainya lebih lambat, dan nilai nutrisinya juga lebih tinggi."
+       ]
+      },
+      {
+       "p": "Jenis Pakan Ternak Pakan Ternak Konsentrat Fasilitas Pakan Ternak Tangki Pakan Campuran"
+      },
+      {
+       "h": "5 Nilai Nutrisi Pakan Ternak"
+      },
+      {
+       "p": "(1) Komponen pakan ternak ditunjukkan dengan jumlah kandungan protein kasar, lemak kasar, karbohidrat, mineral, dan vitamin."
+      },
+      {
+       "p": "(2) Di Jepang, nilai nutrisi (energi) pakan ternak untuk sapi perah ditunjukkan dengan TDN (Total Digestible Nutrients / total nutrisi yang dapat dicerna)."
+      },
+      {
+       "p": "(3) Karena sereal mengandung banyak patidengan rasio cerna tinggi, maka volume kandungan TDN tinggi, sementara volume kandungan TDN jagung amat tinggi yakni 93,6% dalam kondisi kering."
+      },
+      {
+       "p": "(4) Rumput banyak mengandung serat, namun karena rasio cernanya lebih rendah dari pati sereal, maka volume kandungan TDN pun lebih rendah dari jagung."
+      },
+      {
+       "p": "(5) Rumput jenis padi memiliki volume kandungan protein kasar dan memiliki rasio cerna serat yang berbeda tergantung dari periode pemangkasannya, seperti pada tabel. Rumput dengan masa pemangkasan yang cepat memiliki nilai nutrisi yang tinggi."
+      },
+      {
+       "p": "Periode Pangkas Rumput dan Nilai Nutrisi (Italian Ryegrass, Timothy) Italian Ryegrass Kadar Protein Kasar Dalam Kondisi Kering % Rasio Cerna Serat Total % Kadar Protein Kasar Dalam Kondisi Kering % Rasio Cerna Serat Total %"
+      },
+      {
+       "h": "6 Produksi Pakan Ternak"
+      },
+      {
+       "p": "(1) Silase adalah pakan simpan rumput, atau padi dan jagung (campuran batang, daun, dan biji) yang dibuat dengan memfermentasikan asam laktat dengan menyimpannya di lingkungan udara terblokir tanpa oksigen."
+      },
+      {
+       "p": "(2) Untuk membuat silase yang baik, maka adalah penting untuk memotong material dengan halus, dan menekan injak atau mengompresikannya dengan cukup. Persiapan Silase Pemangkasan dengan Mower Conditioner Pekerjaan Memanen Rumput Pembuatan Stack Silo Sistem Role Bale Pemangkasan dengan Mower Conditioner Pekerjaan Pengepakan dengan Role Bale Pembungkusan dengan Wrapping Machine Silase Role Bale"
+      },
+      {
+       "h": "7 Pemberian Pakan Ternak"
+      },
+      {
+       "ul": [
+        "Metode pemberian pakan kasar dan pakan konsentrat sendiri-sendiri disebut dengan separate feeding, memberikan bersamaan dengan sebelumnya mencampurkannya dengan alat pencampur"
+       ]
+      },
+      {
+       "p": "(mixer) disebut dengan pemberian pakan campuran atau mixed feeding (TMR: Total Mixed Rations)."
+      },
+      {
+       "ul": [
+        "Pada sapi yang menyusui (sapi perah), volume konsumsi pakan ternak juga meningkat seiring dengan meningkatnya volume susu setelah melahirkan.",
+        "Volume konsumsi pakan konsentrat akan meningkat seiring dengan meningkatnya volume laktasi, namun pada separate feeding pikirkan rasio (balance/keseimbangan) pakan kasar dengan pakan konsentrat, dimana harus hati-hati agar volume konsumsi pakan konsentrat jangan berlebihan."
+       ]
+      },
+      {
+       "p": "Saat itu, pada mixed feeding (TMR) dapat ditambahkan volume konsumsi keduanya dengan keseimbangan yang baik."
+      },
+      {
+       "ul": [
+        "Pada saat separate feeding, sebaiknya pertama-tama diberikan pakan kasar seperti rumput kering atau silase, kemudian diberikan pakan konsentrat."
+       ]
+      },
+      {
+       "p": "ContohPemberianPakanpadaSapiPerahditunjukkandenganTabeldiBawah Hokkaido Volume Susu Harian 40 kg Silase Rumput 10 kg, Silase Jagung 14 kg, Pakan Campuran 10 kg, Jerami Alfalfa 2 kg, Beet Pulp 3 kg. Prefektur Ibaraki Volume Susu Harian 28 kg Jerami Timothy 4 kg, Jerami Alfalfa 2,9 kg, Jerami Rumput Bermuda 3,4 kg, Pakan Campuran 6,3 kg, Beet Pulp 3 kg."
+      },
+      {
+       "h": "8 Mutu Susu Sapi dan Radang Ambing (Mastitis)"
+      },
+      {
+       "p": "(1) Mutu susu sapi diperiksa dengan susu perahan sapi sebelum dikirimkan (campuran susu dari banyak sapi)."
+      },
+      {
+       "p": "(2) Harga jual susu sapi akan berbeda tergantung hasil pengujian susu perahan."
+      },
+      {
+       "p": "(3) Bila mutu susu setiap 1 ekor sapi diperiksa dalam kawanan, maka dilakukan pemeriksaan 1 bulan sekali. Kriteria Mutu Susu (Contoh) Mutu Susu Unggul Mutu Susu Standar Mutu Susu Perlu Rasio Lemak Susu % 3,9 atau lebih Rasio Protein Susu % 3,4 atau lebih Rasio Konten Padat Jumlah Sel Somatik 8,8 atau lebih Kurang dari 10 30-99 atau lebih"
+      },
+      {
+       "ul": [
+        "Susu sapi segera setelah melahirkan disebut dengan kolostrum.",
+        "Karena dibandingkan dengan susu sapi (susu normal), jumlah kandungan komponen susu pada kolostrum itu berbeda, maka susu selama 5 hari setelah melahirkan itu tidak dapat dikirimkan.",
+        "Mastitis adalah penyakit yang terjadi karena berkembang biaknya bakteri patogen di dalam ambing sapi perah. Bila terjadi mastitis, maka akan terjadi radang pada ambing, dan akan menunjukkan gejala klinis seperti demam, ambing bengkak, ataupun sakit. Apabila ambing terinfeksi oleh bakteri patogen, maka sel darah putih akan menjadi banyak, dan sel darah putih itu akan memakan materi asing seperti bakteri dan sebagainya, dan akan diekskresikan ke dalam"
+       ]
+      },
+      {
+       "p": "cairan susu sehingga jumlah sel somatik akan meningkat. Sel somatik di dalam susu sapi terdiri dari sel darah putih dan serpihan sel epitel di kelenjar susu. Jumlah sel somatik sapi umumnya di bawah 200.000/ml. Kemudian, jumlah sel somatik di dalam susu sapi dipergunakan pada evaluasi mutu higienitas susu sapi."
+      },
+      {
+       "h": "9 Alat Pencernaan dan Penyakit Kuku"
+      },
+      {
+       "p": "(1) Pada dasarnya, sapi perah adalah binatang herbivora yang memakan rumput, namun saat ini, untuk mendapatkan produksi susu yang mutu tinggi, maka semakin bannyak volume pemberian pati sereal."
+      },
+      {
+       "p": "(2) Kecepatan cerna pati sereal pada perut pertama (rumen) sangat cepat dibandingkan dengan serat rumput, dan dengan pemberian yang banyak, maka jumlah asam lemak volatilitas dan asam laktat yang diproduksi akan semakin banyak."
+      },
+      {
+       "p": "(3) Untuk itu, dengan banyaknya pemberian sereal, maka akan terjadi penurunan pH (konsentrasi ion hidrogen) pada rumen, dan terdapat risiko kemunculan asidosi rumen subklinis dan juga penyakit kuku."
+      },
+      {
+       "p": "(4) Di Jepang banyak terjadi pembuangan yang diakibatkan oleh gangguan tungkai (radang kuku, penyakit kuku)."
+      },
+      {
+       "p": "(5) Gangguan tungkai dapat juga terjadi akibat selective feeding (makan pilih) pakan konsentrat oleh sapi perah."
+      },
+      {
+       "p": "(6) Pada tabel berikut ditunjukkan perubahan perut keempat, asidosis rumen, dan kondisi sapi dengan radang kuku. Gangguan Alat Cerna dan Radang Kuku pada Sapi Perah Penyebab Kemunculan Gejala pada Sapi Perah Mudah terjadi akibat kurangnya pakan kasar segera setelah melahirkan, pemberian banyak pakan konsentrat."
+      },
+      {
+       "p": "Kehilangan nafsu makan, kehilangangairah, turunnya volume susu. Dikarenakan asupan yang banyak akan pati sereal, maka asam laktat bertumpuk pada perut pertama (rumen), dan pH menurun secara ekstrim. Kehilangan nafsu makan, menurunnya gerakan perut pertama, berkurangnya volume susu, menurunnya fungsi hati."
+      },
+      {
+       "p": "Asam laktat dan juga histamin yang terbentuk pada saat asidosis rumen, akan berdampak pada kapiler dermis kuku, dan menyebabkan radang. Karena sulit berjalan, maka tidak mendekati wadah pakan atau wadah air, volume asupan pakan berkurang, dan volume susu akan menurun."
+      },
+      {
+       "p": "\u001a Pengembangbiakan Sapi Perah"
+      },
+      {
+       "ul": [
+        "Sapi perah setelah melahirkan akan mengulangi estrus rata-rata setiap 21 hari.",
+        "Adalah penting untuk tidak melewatkan estrus untuk melakukan inseminasi buatan. Akhir-akhir ini tidak hanya inseminasi buatan, namun transplantasi sel telur yang telah difertilisasi pada sapi hitam Jepang pun menjadi populer.",
+        "Kebanyakan digunakan sperma beku.",
+        "Bila estrus, vulva sapi perah akan membengkak, dan akan mengeluarkan lendir.",
+        "Pada puncak fase estrus, kondisi sapi perah akan diam saja walau punggungnya dinaiki oleh sapi lain (standing estrus), dan observasi mengenai hal itu adalah penting.",
+        "Pengecekan fertilisasi (pembuahan) dilakukan melalui diputuskannya (judgement) kehamilan.",
+        "Calving period sapi perah idealnya 1 kelahiran setiap 1 tahun."
+       ]
+      },
+      {
+       "ul": [
+        "Bobot pedet saat dilahirkan oleh sapi perah adalah sekitar 45 kg.",
+        "Kelahiran alami yang tidak ada campur tangan manusia adalah ideal, namun saat kesulitan melahirkan, diperlukan bantuan pembidanan (bantuan melahirkan).",
+        "Saat membantu kelahiran, harus hati-hati agar tidak terjadi luka saluran lahir atau infeksi bakteri pada induk sapi.",
+        "Setelah melahirkan pedet, plasenta (afterbirth) akan disekresikan dalam kurun waktu 6 jam.",
+        "Induk sapi akan menjilat mengeringkan permukaan pedet yang dilahirkan, namun memindahkan pedet ke atas alas kandang sapi yang kering adalah penting."
+       ]
+      },
+      {
+       "ul": [
+        "Penting untuk meminumkan kolostrum yang banyak mengandung imunoglobulin, untuk memberikan imun (daya tahan) bagi pedet yang dilahirkan.",
+        "Sebaiknya berikan kolostrum pada pedet setidaknya selama 3 hari setelah dilahirkan."
+       ]
+      },
+      {
+       "p": "\u001a Perawatan dan Pemeliharaan Pedet"
+      },
+      {
+       "p": "(1) Direkomendasikan penyapihan metode penyapihan dini yang dilakukan pada umur 6 pekan, namun metode pemberian pakan untuk kasus itu adalah sesuai tabel berikut. Pemberian Pakan pada Metode Penyapihan Dini (Contoh) 1-2 liter dalam 4 jam setelah dilahirkan, 2 liter di antara 4-6 jam Susu Pengganti / Susu Induk Sapi Bila hanya memberikan susu pengganti bentuk cair maka 600 g / hari, (diberikan dengan dicairkan pada air hangat), bila hanya memanfaatkan susu sapi maka 4,5 kg / hari, dan ini diberikan hingga 6 pekan."
+      },
+      {
+       "p": "Pakan konsentrat untuk menyapih (susu artifisial) Diberikan sejak sekitar umur 1 pekan setelah lahir. Umur 1-2 Pekan 0,1 kg / Hari Umur 2-3 Pekan 0,2 kg / Hari Umur 3-4 Pekan 0,5 kg / Hari Umur 4-5 Pekan 0,8 kg / Hari Umur 5-6 Pekan 1,2 kg / Hari"
+      },
+      {
+       "p": "(Setelahnya, maka terus bertambah hingga umur 3 bulan, maksimal 2,5 kg / hari) Bebas makan rumput kering mutu baik."
+      },
+      {
+       "p": "(Standar Pemeliharaan Jepang, sapi perah, sistem kedokteran hewan produksi, sapi perah edisi 1)"
+      },
+      {
+       "p": "(2) Pada fase pemeliharaan sapi perah, terdapat 2 target sebagai berikut."
+      },
+      {
+       "p": "① Mengembangkan perut pertama (rumen) dengan baik dengan memberikan pakan kasar mutu baik dan mudah dimakan."
+      },
+      {
+       "p": "② Mengembangkan otot dan tulang dengan baik melalui bergerak yang optimal. \u001a Pengelolaan Kesehatan Pedet"
+      },
+      {
+       "ul": [
+        "Pedet mudah terserang diare, sepsis, radang paru-paru, dan sebagainya.",
+        "Memelihara pedet pada lingkungan berventilasi baik, terkena sinar matahari dengan baik, dan lingkungan yang bersih adalah penting.",
+        "Pada pemeliharaan pedet, banyak digunakan claf hatch atau kandang untuk pedet.",
+        "Penggunaan alas kandang yang banyak pada claf hatch atau kandang untuk pedet, dan membersihkannya adalah penting."
+       ]
+      },
+      {
+       "p": "(1) Body Condition adalah tingkatan penumpukan lemak subkutan sapi perah."
+      },
+      {
+       "p": "(2) Body Condition yang telah dikuantifikasi (dijadikan angka) disebut dengan Body Condition Score, ditunjukkan dengan BCS."
+      },
+      {
+       "p": "(3) BCS ditunjukkan pada kisaran 2,0-5,0."
+      },
+      {
+       "p": "(4) Pengukuran BCS ditentukan melalui pengamatan pinggul (thurl), tonjolan tulang pinggul depan"
+      },
+      {
+       "p": "(hooks), tonjolan tulang pinggul belakang (pins), sayap tulang belakang (short ribs), ligamentum sacral (sacral ligament), dan ligamentum pangkal ekor (tail-head ligament)."
+      },
+      {
+       "p": "(5) Karena BCS memiliki hubungan erat dengan produksi susu sapi atau kinerja perkembangbiakan, maka nilai target yang sesuai dengan periode produksi susu diatur sebagai berikut."
+      },
+      {
+       "p": "① Saat melahirkan sekitar 3,50 dengan kisaran 3,25-3,75."
+      },
+      {
+       "p": "② Kisaran jatuh maksimum setelah mulai laktasi antara 0,75 hingga 1,0."
+      },
+      {
+       "p": "③ Paling lambat hingga sekitar 100 hari setelah melahirkan dibuat agar pemulihan dimulai."
+      },
+      {
+       "p": "④ Kisaran pada masa kering dijadikan 3,25-3,75. Body Condition <Contoh Pengukuran Sederhana Body Condition Score> BCS Sederhana = 2 Kurus Tubuh: Foto dianggap amat kurus Tidak bersemangat, perut cekung, tidak diharapkan berkemampuan."
+      },
+      {
+       "p": "Pantat: Huruf V Tonjolan tulang pinggul depan (hooks) dan tonjolan tulang pinggul belakang (pins) mencuat. BCS Sederhana = 3 Sedang Tubuh: Foto menunjukkan ada sedikit tumpukan lemak, namun pada kisaran dianggap sedang."
+      },
+      {
+       "p": "Bagian tubuh berkontur jelas, dianggap memegang kemampuan yang cukup. Pantat: Huruf V Tonjolan tulang pinggul depan (hooks) dan tonjolan tulang pinggul belakang"
+      },
+      {
+       "p": "(pins) membulat. BCS Sederhana = 4 Gemuk Tubuh: Foto dianggap amat gemuk. Terdapat penumpukan lemak subkutan berlebih, konturnya sangat tidak jelas. Dikhawatirkan masalah setelah melahirkan. Pantat: Huruf U Tonjolan tulang pinggul depan (hooks) dan tonjolan tulang pinggul belakang"
+      },
+      {
+       "p": "(pins) tertutup lemak. Sumber foto (3 lembar badan sapi): Akiko Nishiura, Peneliti Senior, Organisasi Peneliti Umum Industri dan Teknik Pertanian dan Pangan, Badan Penelitian dan Pengembangan Nasional Sumber foto (6 lembar pantat sapi): Pusat Penelitian Sapi Perah Prefektur Tochigi \u001a Jenis-Jenis Kotoran dan Urin"
+      },
+      {
+       "ul": [
+        "Kotoran dan urin sapi perah ada 3, yaitu materi padat, slurry, dan materi cair.",
+        "Materi padat adalah benda yang urin sudah dipisahkan, yang merupakan campuran kotoran dengan alas kandang sapi, untuk kemudian akan dapat dijadikan kompos.",
+        "Materi cair adalah urin yang telah dipisahkan dengan kotoran.",
+        "Slurry adalah campuran kotoran dengan urin yang disimpan pada tangki, dan akan dipergunakan untuk produksi pupuk atau gas metana."
+       ]
+      },
+      {
+       "p": "Kotoran dan alas kandang yang diangkut dari kandang sapi dengan barn cleaner \u001a Pembuatan dan Penggunaan Kompos"
+      },
+      {
+       "ul": [
+        "Kompos adalah produk jadi dari kotoran sapi perah, materi campuran kotoran dengan alas kandang yang diuraikan secara aerobik (lingkungan yang mengandung oksigen), yang kadar airnya diturunkan.",
+        "Untuk membuat kompos bermutu baik, perlu dilakukan pemberian udara yang cukup, dan untuk itu dilakukan pembolak-balikan (pengadukan dan pencampuran).",
+        "Kompos dipergunakan sebagai pupuk. Kompos yang kering dapat dipergunakan kembali sebagai alas kandang taihidi dalam kandang sapi, dan ini disebut dengan “return compost”.",
+        "Kompos dianggap paling baik dengan kandungan air sekitar 60-65%, dan untuk itu dilakukan pembuatan kompos dengan mencampurkan material sekunder dan sebagainya.",
+        "Bila pengomposan berjalan lancar, maka suhu akan meningkat. Bila demikian, suhu akan menjadi 70-80 derajat Celsius, dan diakibatkan oleh suhu tinggi itu kuman patogen, parasite, benih gulma dan sebagainya akan mati."
+       ]
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 42–56). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Sapi perah adalah binatang yang memiliki kewaspadaan yang tinggi, dan syarafnya juga tajam, sehingga penting bagi manusia untuk melakukan kontak dengan sikap yang halus.",
+      "points": [
+       "Sifat Sapi Perah",
+       "Struktur Kandang Sapi Perah",
+       "Organ Pencernaan Sapi Perah",
+       "Pakan Ternak",
+       "Nilai Nutrisi Pakan Ternak",
+       "Produksi Pakan Ternak",
+       "Pemberian Pakan Ternak",
+       "Mutu Susu Sapi dan Radang Ambing (Mastitis)",
+       "Alat Pencernaan dan Penyakit Kuku"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 42–56)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s2",
+    "no": 2,
+    "title": {
+     "id": "Sapi Pedaging",
+     "jp": "{肉用牛|にくようぎゅう}"
+    },
+    "pages": [
+     57,
+     65
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Wagyu (Varietas Sapi Hitam Jepang)"
+      },
+      {
+       "p": "Wagyu merupakan sapi khas Jepang yang perkembangbiakannya diperbaiki oleh produsen di Jepang dalam waktu yang lama, dan dilindungi dengan baik. Terdapat varietas sapi hitam Jepang"
+      },
+      {
+       "p": "(warna hitam), varietas bulu coklat (warna coklat kekuningan), varietas tanduk pendek Jepang, dan varietas tanpa tanduk, namun yang paling banyak dipelihara adalah varietas sapi hitam Jepang. Varietas sapi hitam Jepang bersifat penurut."
+      },
+      {
+       "h": "（１）Pengelolaan Nutrisi Sapi Betina Indukan"
+      },
+      {
+       "p": "① Pengelolaan nutrisi untuk sapi betina indukan pada penyusuan alami 〇 Fase akhir kehamilan"
+      },
+      {
+       "ul": [
+        "2 bulan menjelang melahirkan ~ melahirkan janin akan berkembang pesat.",
+        "Nutrisi diperlukan untuk menjaga badan induk sapi dan perkembangan janin."
+       ]
+      },
+      {
+       "ul": [
+        "Perlu memberikan pakan ternak yang sesuai dengan volume laktasi.",
+        "Perlu menyesuaikan (menambah atau mengurangi) pemberian pakan, menyesuaikan dengan kondisi nutrisi induk sapi."
+       ]
+      },
+      {
+       "p": "② Pengelolaan Nutrisi Sapi Betina Indukan pada Penyusuan Artifisial Fase menyusui hampir tidak ada dibandingkan dengan induk sapi yang menyusui secara alami. 〇 Fase kehamilan"
+      },
+      {
+       "ul": [
+        "Sama dengan induk sapi yang menyusui secara alami."
+       ]
+      },
+      {
+       "ul": [
+        "Volume pemberian pakan perlu menyesuaikan dengan kondisi nutrisi induk sapi."
+       ]
+      },
+      {
+       "h": "（２）Pengembangbiakan Sapi Betina Sapi Pedaging"
+      },
+      {
+       "ul": [
+        "Sapi betina sapi pedaging setelah melahirkan akan mengulangi estrus rata-rata setiap 21 hari.",
+        "Adalah penting untuk tidak melewatkan estrus untuk melakukan inseminasi buatan.",
+        "Karena sperma dan telur yang telah dibuahi dari wagyu merupakan barang yang sangat penting bagi produsen di Jepang, maka penting untuk mengelola dengan tepat agar tidak hilang, dengan menyimpannya di tempat yang dapat dikunci.",
+        "Bila estrus, vulva sapi betina sapi pedaging akan membengkak, dan akan mengeluarkan lendir.",
+        "Pada puncak fase estrus, kondisi sapi perah akan diam saja walau punggungnya dinaiki oleh sapi lain (standing estrus), dan observasi mengenai hal itu adalah penting.",
+        "Mengecek pembuahan dilakukan dengan menerima tes kehamilan (inspeksi).",
+        "Calving period sapi betina sapi pedagung idealnya 1 kelahiran setiap 1 tahun."
+       ]
+      },
+      {
+       "h": "（３）Melahirkan"
+      },
+      {
+       "ul": [
+        "Bobot pedet saat dilahirkan oleh induk sapi pedaging adalah sekitar 30 kg.",
+        "Kelahiran alami yang tidak ada campur tangan manusia adalah ideal, namun saat kesulitan melahirkan, diperlukan bantuan pembidanan (bantuan melahirkan).",
+        "Saat membantu kelahiran, harus hati-hati agar tidak terjadi luka saluran lahir atau infeksi bakteri pada induk sapi.",
+        "Setelah melahirkan pedet, plasenta (afterbirth) akan disekresikan dalam kurun waktu 6 jam.",
+        "Induk sapi akan menjilat mengeringkan permukaan pedet yang dilahirkan, namun memindahkan pedet ke atas alas kandang yang kering adalah penting."
+       ]
+      },
+      {
+       "h": "（４）Pengelolaan Pedet Varietas Sapi Hitam Jepang"
+      },
+      {
+       "h": "① Bobot saat lahir"
+      },
+      {
+       "p": "Bobot varietas sapi hitam Jepang saat dilahirkan adalah sekitar 28 kg. Sesaat Setelah Lahir Penyusuan Alami Penyusuan Artifisial"
+      },
+      {
+       "h": "② Pemberian kolostrum"
+      },
+      {
+       "p": "Diberikan kolostrum pada 2~3 hari setelah dilahirkan. Karena pada kolostrum terkandung immunoglobulin yang memiliki retensi terhadap penularan sakit pada pedet, maka pastikan untuk meminumkannya."
+      },
+      {
+       "h": "③ Program pemberian pakan ternak setelah dilahirkan"
+      },
+      {
+       "p": "Tabel di bawah menunjukkan program pemberian pakan (setelah pemberian kolostrum) pada penyapihan dini pada Standar Pemeliharaan Jepang, sapi pedaging (edisi tahun 2008). Pada susu pengganti terkandung susu bubuk skim, air dadih susu kering, bubuk sereal, dan sebagainya. Susu afkir adalah pakan ternak padat pada fase menyusui, yang mengandung bubuk gandum, bubuk barley, bubuk jagung, bubuk kedelai, dan sebagainya."
+      },
+      {
+       "p": "Umur Hari Pasca Volume Pemberian Susu Pengganti"
+      },
+      {
+       "p": "(Kering Dianginkan g / Hari) Volume Pemberian"
+      },
+      {
+       "p": "(Kering Dianginkan g / hari) Dalam Kurung ( ): Volume pemberian bila melanjutkan laktasi walau lebih dari umur 7 pekan Susu Pengganti: Suhu air panas untuk mengencerkan susu pengganti pada dasarnya menjadi sekitar 38-40 derajat Celsius sama dengan saat pedet meminum susu induknya."
+      },
+      {
+       "p": "Untuk itu, maka sebaiknya diencerkan dengan air panas 45-50 derajat Celsius. Saat mengencerkan susu pengganti, siapkan air panas, kemudian masukkan susu pengganti ke dalamnya, aduk, dan encerkan. (Yayasan Promosi Sapi Pedaging Nasional, Asosiasi Peternakan Pusat, “Teknik Pengelolaan dan Pemeliharaan Sapi Perah dan Pedaging”, 2006)"
+      },
+      {
+       "h": "④ Poin pengelolaan pedet"
+      },
+      {
+       "p": "Pedet yang baru saja dilahirkan dengan daya tahan terhadap patogen masih lemah, dan untuk mencegah infeksi bakteri dari induk sapi, maka dikelola dengan memindahkannya pada fasilitas khusus pedet seperti claf hatch dan sebagainya. (Lihat “10 Pengelolaan Kesehatan Pedet” di halaman 23) Setiap hari diberikan susu afkir atau rumput kering yang segar. Berikan rumput kering yang bermutu bagus."
+      },
+      {
+       "p": "Lakukan observasi dengan baik atas diare atau kotoran lembek. Paru-paru radangmuncul karena tertular patogen dalam kondisi “turunnya daya tahan akibat stress atau kekurangan unsur nutrisi”, “luka mukosa bronkus akibat dingin atau kering”, atau “luka membran mukosa akibat gas ammonia”. Untuk pencegahannya, maka penting untuk “menghilangkan ammonia di kandang ternak”, “membersihkan kandang sapi”, “menjaga kehangatan pedet”, “pemberian pakan ternak yang cukup untuk mengurangi stress”, dan juga “pemberian kolostrum”."
+      },
+      {
+       "h": "（５）Poin Pengelolaan Selama Masa Pemeliharaan"
+      },
+      {
+       "p": "Masa pemeliharaan bagi sapi pedaging yang dipergunakan sebagai bakalan adalah sejak disapih hingga dimulainya penggemukan. Selama periode ini, adalah penting untuk memberikan pakan kasar yang bermutu bagus dengan cukup, untuk memperkaya pertumbuhan organ dalam, dan otot atau tulang."
+      },
+      {
+       "p": "Kastrasi pedet jantan dilakukan setidaknya hingga 4~5 bulan setelah dilahirkan."
+      },
+      {
+       "h": "（６）Penggemukan"
+      },
+      {
+       "p": "Penggemukan untuk varietas sapi hitam Jepang dimulai sejak umur 10 bulan atau sekitar 300 kg, dan dipelihara dalam kelompok beberapa ekor pada satu kandang. Dilakukan penggemukan dengan terutama pakan konsentrat selama sekitar 20 bulan."
+      },
+      {
+       "p": "① Pemberian pakan ternak masa penggemukan sapi varietas sapi hitam Jepang Pakan ternak masa penggemukan terpusat pakan konsentrat terutama jenis sereal (jagung, barley), sementara pakan kasar diberikan pada awal masa penggemukan (usia 10~16 bulan) yaitu rumput kering dan juga jerami padi, namun setelahnya diberikan hanya jerami saja sebagai pakan kasarnya. Volume pemberian jerami padi pada awal~pertengahan masa penggemukan adalah sekitar 2 kg, dan pada masa akhir penggemukan diberikan sekitar 1 kg."
+      },
+      {
+       "p": "② Volume Asupan Pakan dan Kinerja Penggemukan pada Fase Penggemukan (Contoh Percobaan) Volume Asupan Pakan"
+      },
+      {
+       "p": "(Bahan Kering, kg / Hari) Volume Peningkatan Bobot Saat Dikirim Pakan Konsentrat Fase Awal: Umur 10-18 Bulan Fase Akhir: Umur 18-27 Bulan Pada akhir masa penggemukan, volume konsumsi pakan ternak menjadi tidak konstan, dan kadang masa periode tertentu nafsu makan tiba-tiba menurun, disebut dengan “berhenti makan”. Lakukan observasi mendalam dengan hati-hati setiap harinya atas perubahan volume konsumsi pakan ternak, dan saat diputuskan/judgement “berhenti makan”, maka konsultasikan dengan dokter hewan, perjelas penyebabnya, kemudian harus refleksikan pada metode pemberian pakan ternak. Kebanyakan sebagai penyebab berhenti makan adalah rumen acidosis. Ini adalah penyakit yang ditimbulkan akibat terlalu banyak memberi jenis sereal."
+      },
+      {
+       "p": "Penyakit saluran kencing yang banyak terjadi pada penggemukan sapi kastrasi adalah urolithiasis. Pada fase awal, diketahui terdapat kristal batu yang halus berwarna putih keabu- abuan pada bagian kelamin. Untuk penyakit yang parah, muncul sakit pinggang dan retensi urin, atau kadang kematian yang disebabkan oleh hilangnya nafsu makan, kandung kemih pecah, atau uremia. Temukan secara dini pada tahap fase awal, dan harus diperiksakan ke dokter hewan."
+      },
+      {
+       "p": "Pada penyakit lain di masa penggemukan, selain urolithiasis, atau rumen acidosis, pada sapi bakalan ada penyakit kembung. Penyakit ini muncul saat gas yang timbul pada rumen tidak dapat dieksresikan dengan baik."
+      },
+      {
+       "p": "Sapi menyokong bobot beratnya dengan 4 kaki, untuk itu maka membentuk kuku yang normal adalah wajib pada pengelolaan kesehatan sapi bakalan, dan untuk itu perlu melakukan pemotongan kuku secara berkala."
+      },
+      {
+       "p": "Panjang Kuku yang Normal Kuku yang Tumbuh Terlalu Panjang"
+      },
+      {
+       "h": "④ Peringkat Karkas Wagyu"
+      },
+      {
+       "p": "Transaksi daging sapi dilakukan dengan kriteria peringkat karkas. Karkas adalah bagian yang sudah dihilangkan organ dalam dan kulit dan sebagainya dari badan sapi. Peringkat ditentukan tingkatannya dengan memotong pada antara tulang rusuk ke-6 dan ke-7 pada karkas, pada bagian ini ditentukan hasil, sebaran lemak, warna daging, kencangnya daging, dan juga tekstur, warna dan mutu lemak. Karakteristik varietas sapi hitam Jepang adalah tingkat sebaran lemak yang lebih tinggi daripada sapi lain mana pun (varietas blasteran atau sapi kastrasi Holstein)."
+      },
+      {
+       "p": "Salah satu alasan panjangnya masa penggemukan varietas sapi hitam Jepang adalah agar mendapatkan sebaran lemak dengan tingkatan yang lebih tinggi. Sebaran lemak dalam istilah lain juga disebut dengan “marbling”."
+      },
+      {
+       "p": "Untuk meningkatkan sebaran lemak, kadang dilakukan penyesuaian pemberian vitamin A."
+      },
+      {
+       "h": "2 Sapi Kastrasi Holstein"
+      },
+      {
+       "p": "Pedet jantan Holstein sapi perah dikastrasi, kemudian diberi pakan sebagai sapi pedaging. Umum disebut dengan penggemukan sapi kastrasi Holstein."
+      },
+      {
+       "h": "（１）Pengelolaan Pedet Holstein"
+      },
+      {
+       "h": "① Bobot Pedet Holstein Saat Dilahirkan"
+      },
+      {
+       "p": "Rata-rata bobot pedet Holstein saat dilahirkan adalah 45 kg."
+      },
+      {
+       "h": "② Pemberian Kolostrum"
+      },
+      {
+       "p": "Sama dengan sapi hitam Jepang di halaman sebelumnya (halaman 49). Pemberian kolostrum merupakan langkah pertama pemeliharaan sapi yang sehat."
+      },
+      {
+       "h": "③ Program Pemberian Pakan Setelah Lahir"
+      },
+      {
+       "p": "Sama dengan sapi hitam Jepang, program pemberian pakan pada fase perawatan dilakukan dengan proses yang sama. Dengan kata lain, setelah diberikan kolostrum dengan cukup, maka diberikan susu pengganti, susu afkir, kemudian rumput kering (perhatikan butir sebelumnya)."
+      },
+      {
+       "p": "Karena saat mengganti dari kolostrum ke susu pengganti pedet akan mudah terjangkit diare, maka jangan ganti ke volume utuh sekaligus, melainkan adalah penting untuk melakukan pencampuran kolostrum pada susu pengganti dan sebagainya, ganti perlahan sembari melihat kondisi pedet."
+      },
+      {
+       "p": "Pada tabel berikut ditunjukkan kondisi kotoran normal dari pedet yang baru lahir. Kotoran Normal Pedet Klasifikasi Kotoran Sifat dan Kondisi Kotoran"
+      },
+      {
+       "h": "1 Pekan Setelah Lahir"
+      },
+      {
+       "p": "Warna kotoran kuning hingga coklat muda, kekerasan seperti bubur hingga lemak hewan, lengket, dan sama sekali tidak mengandung unsur padatan. Bentuk ekskresi tetap tidak berubah. Warna kotoran dari kuning hingga abu-abu. Pedet yang Setelah Pergantian ke mulai makan rumput kering atau jerami akan mengeluarkan Susu Pengganti kotoran yang keras berbentuk lemak hewan lengket yang mengandung unsur padatan."
+      },
+      {
+       "h": "（２）Poin Pengelolaan Pedet"
+      },
+      {
+       "p": "Sama dengan poin sapi varietas sapi hitam Jepang yang sebelumnya (nomor (4) halaman 26). Gambar di bawah adalah kondisi pemeliharaan pada calf hatch. Pedet Holstein dan Calf Hatch"
+      },
+      {
+       "h": "① Potong Tanduk"
+      },
+      {
+       "p": "Saat melakukan pengelolaan sapi dalam kelompok, bila tanduk dibiarkan tumbuh, karena “berbahaya kepada pengelola”, dan juga “luka akibat saling menanduk sesama sapi” akan meningkat, maka dilakukan potong tanduk pada pedet varietas Holstein hingga 3 bulan setelah dilahirkan."
+      },
+      {
+       "h": "② Kastrasi"
+      },
+      {
+       "p": "Untuk mengurangi persaingan antar sapi, kemudian juga untuk memperbaiki mutu daging, maka perlu dilakukan kastrasi apabila sudah berumur lebih dari 3 bulan."
+      },
+      {
+       "h": "（３）Poin Pengelolaan Masa Pemeliharaan"
+      },
+      {
+       "p": "Poin pengelolaan pada masa pemeliharaan umur 4~10 bulan adalah “mendukung pertumbuhan lambung ruminansia dan villus rumen”, dan juga “pemenuhan otot atau tulang”. Untuk itu, sembari memberi rumput kering yang baik dengan konstan, danpenting untuk memberi pakan campuran dengan volume yang tepat. Perkiraan volume pemberian pakan campuran adalah 5 kg untuk umur 5 bulan, dan 6 kg untuk umur 6 bulan."
+      },
+      {
+       "h": "（４）Penggemukan Sapi Kastrasi Holstein"
+      },
+      {
+       "p": "Penggemukan sapi kastrasi Holstein dimulai sejak umur 7~8 bulan dengan bobot sekitar 280 kg, dan disembelih pada umur sekitar 20 bulan. Berikut ditunjukkan contoh pemberian pakan pada pemeliharaan sapi kastrasi Holstein di daerah Kyushu."
+      },
+      {
+       "p": "Contoh Pemberian Pakan di Peternakan Penggemukan di Daerah Kyushu Umur Bulan Penggemukan Peningkatan Bobot Periode kg / Hari Jerami Padi kg / Hari Rumput Kering kg / Hari Pakan Campuran kg / Hari"
+      },
+      {
+       "h": "（５）Poin Pengelolaan Masa Penggemukan"
+      },
+      {
+       "p": "Seperti yang tertulis pada item sapi bakalan varietas sapi hitam Jepang, diperlukan observasi harian dan konsultasi serta pemeriksaan pada dokter hewan berkenaan dengan rumen acidosis atau penyakit urolithiasis."
+      },
+      {
+       "h": "3 Varietas Blasteran (F1)"
+      },
+      {
+       "p": "Sperma dari varietas sapi hitam Jepang dilakukan inseminasi buatan pada sapi betina Holstein sapi perah, pedet yang dilahirkannya disebut dengan varietas blasteran (F1). Bobot saat sapi kastrasi dilahirkan adalah bobot antara varietas sapi hitam Jepang dengan varietas Holstein, yakni sekitar 40 kg. Lebih kecil daripada varietas Holstein, sehingga memiliki keuntungan kelahiran varietas Holstein yang melahirkan pertama kali jadi lebih mudah."
+      },
+      {
+       "h": "（１）Tujuan Sapi F1"
+      },
+      {
+       "p": "Objektif penggunaan sapi varietas blasteran adalah membuat sapi pedaging yang memiliki gabungan karakteristik sapi varietas sapi hitam Jepang yang unggul dalam penyilangan lemak karkas, dengan varietas Holstein yang unggul dalam peningkatan tubuh."
+      },
+      {
+       "p": "（２） Pengelolaan Pedet, Pengelolaan Masa Pemeliharaan, dan Pengelolaan Masa Penggemukan Mengenai hal ini, karena pada prinsipnya sama dengan varietas sapi hitam Jepang dan sapi kastrasi Holstein yang telah disebutkan di atas, maka mengenai pekerjaan penanganan sapi varietas blasteran ini merujuk pada bagian itu."
+      },
+      {
+       "h": "（３）Penggemukan Sapi Varietas Blasteran"
+      },
+      {
+       "p": "Penggemukan sapi varietas blasteran standarnya adalah dimulai sejak umur 7 bulan dengan bobot sekitar 250 kg, dan dikirimkan pada umur 25 bulan dengan bobot sekitar 730 kg. Berikut ditunjukkan contoh sistem pemeliharaan penggemukan sapi blasteran."
+      },
+      {
+       "p": "Sistem Penggemukan Varietas Blasteran (Contoh) Umur 7-11,5 Bulan Umur 11,5-18,5 Bulan Umur 11,5-25 Bulan V o l u m e P e n a m b a h a n Bobot Harian kg Pakan Campuran kg / 0,5 (hingga 13,5 Bulan) *Pakan Campuran: Barley terkandung pada fase akhir 22-25 bulan."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 57–65). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Wagyu merupakan sapi khas Jepang yang perkembangbiakannya diperbaiki oleh produsen di Jepang dalam waktu yang lama, dan dilindungi dengan baik.",
+      "points": [
+       "Wagyu (Varietas Sapi Hitam Jepang)",
+       "（１）Pengelolaan Nutrisi Sapi Betina Indukan",
+       "（２）Pengembangbiakan Sapi Betina Sapi Pedaging",
+       "（３）Melahirkan",
+       "（４）Pengelolaan Pedet Varietas Sapi Hitam Jepang",
+       "① Bobot saat lahir",
+       "② Pemberian kolostrum",
+       "③ Program pemberian pakan ternak setelah dilahirkan",
+       "④ Poin pengelolaan pedet",
+       "（５）Poin Pengelolaan Selama Masa Pemeliharaan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 57–65)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s3",
+    "no": 3,
+    "title": {
+     "id": "Babi",
+     "jp": "{豚|ぶた}"
+    },
+    "pages": [
+     66,
+     71
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Fisiologi Reproduksi dan Pengelolaan Babi Indukan"
+      },
+      {
+       "p": "Siklus estrus betina adalah 21 hari, dan akan terjadi pengulangan fase awal estrus, fase estrus, fase akhir estrus, serta periode jeda estrus dimana gejala estrus tidak terlihat. Perhatikan periode kawin untuk mengawinkan betina babi indukan. Ada kasus dilakukannya perkawinan alami, dan inseminasi buatan (AI), atau dilakukan keduanya. 21 hari setelah kawin, diputuskan bahwa babi telah hamil bila tidak ada estrus kembali."
+      },
+      {
+       "p": "Selama periode hamil, dipelihara di stall kandang babi tunggal, dan bila kelahiran sudah dekat, maka dipindahkan ke kandang babi yang memiliki pagar melahirkan untuk melahirkan. Kesulitan melahirkan pada kelahiran babi hanya sedikit, babi akan melahirkan 1 ekor dengan interval sekitar 10 menit. Saat anak babi selesai dilahirkan, plasenta (afterbirth) akan mulai keluar, dan akan selesai dalam 2~3 jam. Setelah melahirkan, estrus tidak akan muncul selama menyusui anak babi. Begitu anak babi disapih, maka estrus akan datang kembali dalam 4~5 hari."
+      },
+      {
+       "p": "Karena gemuknya babi hamil akan menjadi penyebab cacat tumbuh janin atau kesulitan melahirkan, maka sembari observasi mengenai baik buruknya kondisi tubuh, maka perlu dilakukan pemberian pakan yang dibatasi. Pada fase akhir kehamilan, sedikit tambahkan volume untuk memenuhi pertumbuhan janin."
+      },
+      {
+       "p": "Karena bobot babi indukan pada masa perawatan mudah berkurang akibat menyusui, maka perlu dilakukan penambahan volume pemberian pakan ternak. Setelah melahirkan, tambahkan volume pemberian pakan ternak sedikit demi sedikit, dan apabila volume makan tidak terkejar, maka dicari ide dengan meningkatkan frekuensi pemberian pakan."
+      },
+      {
+       "p": "Apabila telah berakhir perawatan karena anak babi disapih, maka dilakukan penyesuaian pakan ternak dengan memperhatikan kondisi badan induk babi. Pejantan babi indukan (babi indukan jantan) dipergunakan dengan melakukan inspeksi jumlah sperma dan vitalitasnya melalui inspeksi seminal. Bila dipelihara untuk kepentingan kawin alami, maka perlu dilakukan pengelolaan pemberian pakan yang menekan pembesaran agar tidak muncul perbedaan fisik yang besar dengan betina."
+      },
+      {
+       "h": "2 Perawatan dan Pemeliharaan Anak Babi"
+      },
+      {
+       "p": "Periode perawatan anak babi dan segera setelah penyapihan adalah periode dimana rasio kecelakaan paling tinggi. Dilahirkan dengan badan yang belum matang, kemudian imun dan kemampuan mencerna dalam tubuhnya dipenuhi secara pesat, saat disapih adalah pertumbuhan yang pesat hingga mencapai sekitar lebih dari 6 kali lipat saat dilahirkan. Untuk itu, dapat dikatakan juga bahwa keseimbangan dalam tubuhnya mudah runtuh. Bila ekor anak babi menggantung, kondisi tubuhnya tidak baik. Babi yang sehat tidak ada sekresi yang menempel di matanya, hidungnya cukup basah, ekornya melingkar (bergelung), dan kondisi bulunya bagus."
+      },
+      {
+       "p": "Segera setelah dilahirkan, perlu memberikan minum susu induk babi (kolostrum) pada anak babi. Kolostrum adalah susu induk sejak segera setelah melahirkan hingga hari kedua. Karena pada kolostrum terkandung antibody terhadap berbagai penyakit (immunoglobulin), maka dengan meminumnya barulah didapatkan resistensi terhadap penyakit dari luar."
+      },
+      {
+       "p": "Kemudian karena akan kekurangan zat besi yang menjadi material sel darah merah didalam darah, maka diberikan obat zat besi sesuai kebutuhan. Beberapa hari setelah dilahirkan, laktasi pun dilakukan dalam waktu singkat sekaligus. Biasanya laktasi dilakukan sekitar 24 kali per hari. Kondisi kesehatan induk babi dan volume susunya sangat berkaitan dengan pertumbuhan anak babi. Sejak sekitar 1 pekan setelah lahir, diberikan juga pakan untuk pemberian umpan (susuafkir), untuk membiasakannya juga dengan pakan ternak padat selain susu induknya."
+      },
+      {
+       "p": "Penyapihan dari induk babi umumnya dilakukan pada antara 3-4 pekan setelah lahir. Terdapat juga panyapihan dini yang disebut SEW yang lebih cepat, namun bila disapih kurang dari 2 pekan, akan muncul pengaruh buruk pada estrus datang kembali maupun rasio pembuahan induk babi."
+      },
+      {
+       "p": "Setelah disapih, maka akan diberikan pakan susu afkir A, namun selama beberapa hari diberikan juga dengan mencampurkan pakan untuk pemberian umpan yang diberikan sampai dengan saat itu. Setelah Dilahirkan Pakan untuk Pertumbuhan Anak Babi 3kg 5kg 10kg 20kg 30kg 50kg 3kg 5kg 10kg 20kg 30kg 50kg 3kg 5kg 10kg 20kg 30kg 50kg Pertumbuhan Anak Babi yang Diharapkan Pemberian Tanpa Henti Pengendalian Hama Pengendalian Hama Pakan untuk Pertumbuhan Babi Muda Pemberian Yang Dibatasi atau Pemberian Tanpa Henti"
+      },
+      {
+       "h": "10 Hari"
+      },
+      {
+       "h": "20 Hari"
+      },
+      {
+       "h": "1 Bulan"
+      },
+      {
+       "h": "2 Bulan"
+      },
+      {
+       "h": "3 Bulan"
+      },
+      {
+       "h": "4 Bulan"
+      },
+      {
+       "p": "Contoh Manajemen Pertumbuhan dan Pemeliharaan Anak Babi"
+      },
+      {
+       "h": "3 Cara Memelihara Babi Bakalan dan Fasilitas serta Sarana"
+      },
+      {
+       "p": "Biasanya, babi bakalan dikelola pada pemeliharaan secara berkelompok lebih dari 10 ekor. Umumnya kandang babi bakalan (kandang babi pedaging) adalah kandang babi tipe slatted floor"
+      },
+      {
+       "p": "(lantai bilah). Karena semakin tinggi kepadatan pada pemeliharaan maka akan mudah stress akibat perilaku bertarung, maka perlu menjaga luas lantai per ekor 0,7m2 untuk bobot 50 kg, dan 1,0 m2 untuk bobot 100 kg. Bila luas lantai menjadi lebih sempit dari ini, akan memberikan dampak buruk pada produktivitas."
+      },
+      {
+       "p": "Pemberian pakan ternak pada babi bakalan pada prinsipnya adalah makan tanpa henti. Wadah umpan mempergunakan wadah umpan tanpa henti (self feeder), dijaga kondisi pakan ternak selalu bisa dimakan. Pemasangan pemberi pakan otomatis dipergunakan sampai wadah pakan di dalam kandang babi. Struktur wadah pakan disesuaikan dengan makan tanpa henti, dan struktur wet feeder adalah agar babi dapat makan sembari mencampurkan pakan ternak dengan air."
+      },
+      {
+       "h": "4 Kebiasaan Babi dan Cara Kontak dengan Babi"
+      },
+      {
+       "p": "Babi adalah binatang yang memiliki sifat berkerumun, dan memiliki kebiasaan membentuk kelompok. Karena pada kasus pemeliharaan secara kawanan akan lahir yang kuat dan yang lemah di dalamnya, maka perlu agar babi lemah pun dapat makan pakan ternak dengan cukup. Bersifat penurut, jinak pada orang, dan memiliki kemampuan membedakan orang. Penciuman hidung dan pendengaran telinganya sangat berkembang. Penakut juga, dan bereaksi sensitive pada gerakan atau bunyi. Dengan demikian, kontak dengan babi dilakukan dengan tenang tanpa mengagetkannya. Saat pengiriman pun, diperlakukan agar babi tidak stress. Stress akan berpengaruh pada mutu daging."
+      },
+      {
+       "p": "Babi akan membeda-bedakan buang kotoran, buang air, dan tempat tidur pada tempat yang tetap. Tempat yang rendah dan lembab mudah menjadi tempat buang kotoran. Kemudian, bila terjadi saling berebut pada kandang babi yang saling bersebelahan, maka babi memiliki sifat buang kotoran di sekitar pagar yang merupakan garis batas sesama mereka."
+      },
+      {
+       "h": "5 Pakan Ternak Babi"
+      },
+      {
+       "p": "Pakan ternak babi terbagi menjadi susu afkir untuk anak babi, pakan ternak untuk pemeliharaan, dan pakan ternak untuk penggemukan. Karena volume unsur nutrisi yang dibutuhkan akan berbeda tergantung tahapan pertumbuhan babi, maka nutrisi di-setting sesuai dengan masing-masing tahapan. Angka yang kongkrit dari volume yang dibutuhkan merujuk pada standar pemberian pakan. Item yang dicek sebagai unsur nutrisi adalah energi (terutama karbohidrat dan lipid), protein, mineral, dan vitamin."
+      },
+      {
+       "p": "Susu afkir adalah pakan ternak bubuk untuk anak babi, yang banyak diformulasikan dengan susu bubuk skim. Dibagi lagi menjadi susu afkir untuk pembagian umpan, susu afkir A, susu afkir B, dan sebagainya, dan dilakukan pemberian pakan secara berurutan hingga bobot 15 kg. Susu afkir A adalah untuk fase awal penyapihan, dan susu afkir B adalah untuk fase akhir penyapihan. Setelah itu dilakukan pemberian pakan ternak untuk pemeliharaan anak babi yang banyak mengandung jagung, pakan ternak untuk fase awal babi bakalan, dan pakan ternak untuk fase akhir. Pada pakan ternak untuk fase akhir babi bakalan, tidak boleh terkandung zat aditif pakan ternak yang bersifat anti bakterial."
+      },
+      {
+       "p": "Pakan Ternak untuk Penggemukan"
+      },
+      {
+       "h": "6 Ide untuk Mengurangi Biaya Pakan Ternak"
+      },
+      {
+       "p": "Pada manajemen peternakan babi, biaya pembelian pakan ternak adalah mahal, menempati 60%~70% biaya produksi. Dengan demikian, diharapkan biaya pakan ternak murah dengan mempergunakan juga material pakan ternak yang dapat diperoleh secara murah dan dekat. Antara lain sisa makanan yang muncul pada saat pembuatan atau penjualan produk makanan. Pada saat itu, perlu memperhatikan penyetingan nutrisi. Terutama bila banyak terkandung lipid pada pakan ternak, maka akan berdampak buruk pada mutu daging. Dilakukan pemberian pakan dengan melakukan formulasi yang sesuai dengan volume unsur nutrisi yang dibutuhkan sesuai dengan tahap pertumbuhan babi, merujuk standar pemeliharaan Jepang. Terutama volume pemberian pakan ternak harus seimbang antara energi (TDN atau DE) dengan protein, dan lebih lagi berhati-hati atas kekurangan mineral seperti kalsium, dan fosfor."
+      },
+      {
+       "p": "7 Fase Penggemukan, dan Peningkatan Bobot serta Volume Pemberian Pakan Campuran Fase penggemukan sejak bobot 30 kg hingga pengiriman bobot 110~120 kg maka bobot akan meningkat signifikan seiring dengan peningkatan volume asupan pakan ternak. Begitu melebihi 50 kg, maka akan dimakan pakan ternak sebanyak 2 kg lebih dalam 1 hari, dan pada akhirnya akan diasup lebih dari 3 kg. Volume penambahan bobot harian dalam periode ini akan menjadi 0,85 kg."
+      },
+      {
+       "p": "Pertumbuhan badan akan berjalan dengan urutan tulang, otot (daging merah), kemudian lemak. Untuk itu, pada fase awal penggemukan, diberikan pakan agar tidak terjadi kekurangan protein yang dibutuhkan untuk otot. Karena volume penumpukan lemak akan menjadi banyak begitu memasuki fase akhir, maka volume protein dikurangi, dan untuk membuat lemak yang memiliki kekerasan optimal dengan rasa yang baik, maka diberikan banyak pakan berpati."
+      },
+      {
+       "p": "Cara Ukur Tinggi Badan Babi Diukur Di Sini"
+      },
+      {
+       "h": "8 Penyakit pada Babi dan Pencegahannya"
+      },
+      {
+       "p": "Dilakukan penanganan atas penyakit pada babi dari 3 sudut pandang."
+      },
+      {
+       "p": "① Pengisolasian babi yang sakit atau babi yang membawa penularan penyakit yang merupakan sumber penularan Dilakukan penanganan agar patogen tidak tersebar melalui pengobatan ataupun pemusnahan."
+      },
+      {
+       "h": "② Pemblokiran jalur penularan"
+      },
+      {
+       "p": "Dilakukan pencegahan masuknya patogen yang menempel pada manusia, tikus, burung liar, kendaraan, pakan ternak, air, peralatan, dan sebagainya. Dalam kaitannya dengan disinfeksi, untuk mengeblok jalur penularan, harus membunuh patogen dengan mempergunakan obat secara non biologis. Sebagai metode pemblokiran fisik, pergunakan pakaian kerja dan sepatu panjang khusus dalam kandang babi, dan tidak mempergunakannya di luar. Lakukan pengontrolan keluar-masuk orang dari luar ke dalam kandang babi. Bila terpaksa harus ada yang masuk, maka mintakan untuk mempergunakan pakaian perlindungan khusus dan sepatu panjang. Pilih dan pergunakan disinfektan yang tepat sesuai dengan tujuan. Tegaskan disinfeksi dengan tangki disinfeksi pijakan. Lakukan pembasmian tikus, dan jangan biarkan burung atau binatang lain masuk."
+      },
+      {
+       "h": "③ Penguatan daya tahan pada babi yang belum tertular"
+      },
+      {
+       "p": "Harus dilakukan penguatan daya imun atau daya tahan babi sehat yang belum tertular patogen karena telah dilakukan vaksinasi dan sebagainya. Dilakukan vaksinasi secara terencana yang mematuhi program vaksinasi sesuai dengan kondisi kini penyakit pada kandang babi."
+      },
+      {
+       "p": "Babi SPF dari Peternakan SPF adalah hewan yang tidak memiliki pneumonia mycoplasma, disentri babi, AR (Atrophic Rhinitis), penyakit Aujeszky, maupun taksoplasmosi. Dari induk babi yang tidak memiliki patogen-patogen ini dihasilkan hewan aseptik yang dikeluarkan melalui operasi caesar atau pemotongan rahim. Karena tidak memiliki gangguan produksi akibat penyakit, maka produktivitasnya sangat tinggi. Untuk menjaga kondisi higienis demikian, maka diperlukan isolasi dari luar dan disinfeksi ketat melebihi peternakan babi biasa."
+      },
+      {
+       "h": "9 Metode Penangan Kotoran dan Urin"
+      },
+      {
+       "p": "Kotoran dikumpulkan dengan mesin eksresi (scraper), kemudian dijadikan kompos. Pastikan untuk dikelola di tempat yang beratap. Jangan dibiarkan termakan cuaca. Poin yang diperlukan untuk menjadikan kompos adalah sebagai berikut:"
+      },
+      {
+       "h": "① Pasokan oksigen"
+      },
+      {
+       "p": "Diperlukan pasokan oksigen yang cukup agar mikroorganisme aerobik dapat mudah beraktivitas."
+      },
+      {
+       "h": "② Penyesuaian kelembaban"
+      },
+      {
+       "p": "Bila terlalu lembab, maka sirkulasi udara akan memburuk, sehingga dilakukan penyesuaian kelembaban sekitar 60% dengan menurunkan kelembaban dengan mencampur material sekunder."
+      },
+      {
+       "h": "③ Peningkatan suhu kompos"
+      },
+      {
+       "p": "Melalui aktivitas mikroorganisme yang aktif, maka suhu kompos malahan akan meningkat. Dengan demikian, telur parasit, bakteri patogen, biji gulma, dan sebagainya akan mati, dan dapat dipergunakan sebagai kompos yang aman."
+      },
+      {
+       "p": "Air kotor dari kandang babi yang mengandung urin dibuang setelah dilakukan proses pemurnian. Kemudian setelah urin dan kotoran dilakukan pemisahan padat dan cair, maka dilakukan proses biologis seperti metode lumpur aktif dan sebagainya, dimana setelah lumpur mengendap, maka supernatan (cairan di sebelah atas) yang bersih dibuang."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 66–71). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Siklus estrus betina adalah 21 hari, dan akan terjadi pengulangan fase awal estrus, fase estrus, fase akhir estrus, serta periode jeda estrus dimana gejala estrus tidak terlihat.",
+      "points": [
+       "Fisiologi Reproduksi dan Pengelolaan Babi Indukan",
+       "Perawatan dan Pemeliharaan Anak Babi",
+       "Cara Memelihara Babi Bakalan dan Fasilitas serta Sarana",
+       "Kebiasaan Babi dan Cara Kontak dengan Babi",
+       "Pakan Ternak Babi",
+       "Ide untuk Mengurangi Biaya Pakan Ternak",
+       "Penyakit pada Babi dan Pencegahannya",
+       "② Pemblokiran jalur penularan",
+       "③ Penguatan daya tahan pada babi yang belum tertular",
+       "Metode Penangan Kotoran dan Urin"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 66–71)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s4",
+    "no": 4,
+    "title": {
+     "id": "Ayam Petelur",
+     "jp": "{採卵鶏|さいらんけい}"
+    },
+    "pages": [
+     72,
+     93
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "① Ayam Petelur"
+      },
+      {
+       "h": "1 Cara Memelihara Ayam Petelur dan Fasilitas serta Mesin"
+      },
+      {
+       "h": "（１）Cara Memelihara"
+      },
+      {
+       "p": "Cara memelihara ayam petelur dibagi menjadi tipe pemeliharaan kandang yang memelihara ayam di dalam kandang ayam dengan memasukkan pada kandang, dan memelihara dengan melepas dan mengurungnya dengan jaring di sekitarnya, dan juga tipe umbaran dengan memelihara di atas lantai dalam kandang ayam, namun kebanyakan adalah tipe pemeliharaan kandang."
+      },
+      {
+       "h": "① Tipe Pemeliharaan Kandang"
+      },
+      {
+       "p": "Terdapat kandang pemeliharaan tunggal yang memelihara dengan memasukkan satu kandang satu ekor, dan kandang pemeliharaan jamak yang memasukkan 2 ekor atau lebih. Karena terpisah dengan tanah atau kotoran di permukaan lantai, maka hanya sedikit penularan penyakit yang terbawa dari kotoran. Biasanya, karena kandang bertumpuk beberapa lantai, maka kepadatan pemeliharaan dapat ditingkatkan, dan akan menguntungkan secara ekonomis, namun perlu diperhatikan dampak buruk pada kesehatan ayam."
+      },
+      {
+       "h": "② Tipe Umbaran"
+      },
+      {
+       "p": "Karena ayam dibiarkan bergerak dalam level tertentu di tanah atau di permukaan lantai, maka ini merupakan metode pemeliharaan yang sesuai dengan aktivitas orisinil ayam. Namun, ayam yang berkelompok akan melakukan penyerangan dengan mematuk ayam lainnya dengan paruh, melompat tinggi, menendang ayam lainnya dengan tajinya. Ini merupakan aktivitas insting yang menentukan urutan antar individu, dan dengan hal ini maka urutan kehidupan sosial akan dipertahankan. Ini disebut dengan peg order. Kemudian, bila tempat sempit, atau saat lingkungan dengan suhu tinggi dan kelembaban juga tinggi, atau terjadi kekurangan unsur nutrisi, maka akan terjadi aktivitas dimana ayam akan saling mematuk atau mematuk ekor ayam lain (mematuk ekor). Pada saat yang gawat kadang ayam akan membunuh ayam lainnya, dan bila dibiarkan maka dapat saja meluas pada keseluruhan kawanan. Ini disebut dengan kanibalisme. Karena secara higienitas akan langsung kontak dengan kotoran di lantai, maka banyak terjadi infeksi yang secara langsung ditularkan dari kotoran. Untuk itu, pemeliharaan banyak ayam itu tidak tepat."
+      },
+      {
+       "h": "（２）Pola Kandang Ayam"
+      },
+      {
+       "p": "Terdapat kandang ayam tipe terbuka yang sinar matahari dapat langsung masuk, dan juga kandang ayam tanpa jendela yang akan memblokir sinar (windowless)."
+      },
+      {
+       "h": "① Kandang Ayam Tipe Terbuka"
+      },
+      {
+       "p": "Kandang ayam yang membatasi bagian luar dengan jendela atau korden, dan yang mudah langsung menerima perubahan lingkungan luar seperti suhu udara, hujan dan angin, sinar matahari, dan sebagainya."
+      },
+      {
+       "h": "② Kandang Ayam Windowless"
+      },
+      {
+       "p": "Kandang ayam yang dilingkupi dengan dinding tanpa jendela agar sinar matahari tidak masuk, pada dinding dan plafon (atap) dipasang material penahan panas (insulasi). Pengelolaan penerangan dilakukan dengan lampu listrik, dan ventilasi dilakukan dengan ventilator. Karena dibandingkan dengan kandang ayam terbuka, pola ini dapat memelihara dengan kepadatan yang lebih tinggi, maka mudah dilakukan mekanisasi, dan sesuai untuk peternakan ayam yang berskala besar."
+      },
+      {
+       "h": "（３）Mesin dan Peralatan pada Kandang Ayam"
+      },
+      {
+       "p": "Pada peternakan ayam berskala besar yang memelihara ayam yang banyak, pemberian pakan ternak, suplai air, pengumpulan telur, dan pembersihan kotoran dilakukan secara mekanisasi, dan otomatisasi telah maju di berbagai tempat. Namun, pemanfaatan yang sesuai dengan skala peternakan adalah penting agar tidak terjadi kegagalan pada kesehatan ayam atau kecelakaan kerja."
+      },
+      {
+       "h": "① Wadah Umpan"
+      },
+      {
+       "p": "Pada tipe pemeliharaan kandang, dipasang wadah umpan bentuk parit, namun ada juga yang memakai self-propelled feeder, atau wadah umpan otomatis yang dapat menyeting jumlah pakan ternak maupun jadwal, sebagai alat pemberian umpan."
+      },
+      {
+       "p": "Tipe pemeliharaan umbaran itu adalah pemberian pakan ternak secara manual dengan wadah umpan bulat (pemberi umpan manual), atau umumnya juga adalah pemberian umpan otomatis dari hopper."
+      },
+      {
+       "h": "② Wadah Air"
+      },
+      {
+       "p": "Pada tipe pemeliharaan kandang, kebanyakan adalah wadah air bentuk parit, atau wadah air kecil yang disebut dengan nipple drinker. Pada tipe pemeliharaan umbaran, selain yang disebutkan sebelumnya, ada juga wadah air bentuk bel tipe bergantung."
+      },
+      {
+       "h": "③ Alat Pengumpul Telur Otomatis"
+      },
+      {
+       "p": "Pada tipe umbaran, lantai kotak bertelur dimiringkan untuk menggelindingkan telur ke atas belt, sementara pada tipe kandang, banyak dipasang belt bentuk jaring pada bagian penerima telur, agar telur dapat diterima dan diangkut hingga area pengumpulan telur secara otomatis dengan conveyor."
+      },
+      {
+       "h": "④ Alat Pembuangan Kotoran Otomatis"
+      },
+      {
+       "p": "Terdapat tipe scraper yang mengumpulkan kotoran di salah satu sisi dengan menarik papan pengumpul kotoran mempergunakan tali kawat, terdapat pula tipe yang seperti tipe pemeliharaan kandang yang memasang jaring yang memutar berbentuk belt conveyor di bawah kandang."
+      },
+      {
+       "h": "2 Struktur Organ Pencernaan dan Pencernaan serta Penyerapan Pakan Ternak"
+      },
+      {
+       "h": "（１）Unsur Nutrisi yang Diperlukan"
+      },
+      {
+       "p": "Dari pakan ternak, ayam akan mengkonsumi nutrisi seperti protein, lipid, karbohidrat, vitamin, mineral, dan unsur nutrisi lain, dan dipergunakan untuk menumbuhkan serta menjaga tubuh, atau untuk memproduksi telur. Adalah penting untuk memberikan pakan agar tidak kekurangan unsur-unsur nutrisi tersebut. Volume unsur nutrisi yang diperlukan untuk pemeliharaan yang ditunjukkan adalah standar pemeliharaan Jepang."
+      },
+      {
+       "h": "（２）Struktur Organ Pencernaan"
+      },
+      {
+       "p": "Struktur organ pencernaan adalah seperti pada gambar di bawah.. Lambung Kelenjar Alat Pencernaan Ayam"
+      },
+      {
+       "h": "（３）Karakteristik Alat Pencernaan"
+      },
+      {
+       "h": "① Paruh"
+      },
+      {
+       "p": "Ayam tidak memiliki gigi di mulutnya, namun ujungnya tajam dan keras, berbentuk optimal untuk mematuk, memakan, menyingkirkan biji gandum ataupun jenis serangga di atas dan di bawah tanah."
+      },
+      {
+       "h": "② Tembolok"
+      },
+      {
+       "p": "Terdapat di pertengahan kerongkongan, berfungsi menyimpan pakan untuk sementara, melunakkan pakan selain dengan air, juga dengan lendir dari faring rongga mulut ataupun kerongkongan."
+      },
+      {
+       "h": "③ Lambung"
+      },
+      {
+       "p": "Terdapat lambung kelenjar dan ampela. Lambung kelenjar akan mengeluarkan asam lambung dan cairan pencernaan. Ampela akan menghancuekan pakan dengan gerakan elastis dari otot yang kuat, kemudian mengaduknya. Ayam yang dipelihara dengan cara dilepas akan mematuk kerikil (grid), ditampung di ampela, dan berfungsi untuk menghancurkan pakan keras berupa gandum dan sebagainya. Akhir-akhir ini, pakan ternak butiran utamanya jagung tidak perlu diberikan kerikil, namun bila memberikan gandum dengan sekam padi maka perlu diberikan kerikil."
+      },
+      {
+       "h": "④ Saluran Usus"
+      },
+      {
+       "p": "Pakan ternak yang diasup akan dicerna dan diserap pada saluran cerna (terutama usus kecil). Dibandingkan dengan ternak lain, usus kecil ayam memiliki panjang dan kapasitas yang lebih pendek. Untuk itu, maka pakan akan diekskresikan melalui saluran usus dalam waktu yang pendek. Pada pakan campuran, 2,5 jam setelah makan maka ekskresi akan dimulai, dan semuanya akan dieksresikan dalam 7 jam. Dengan demikian, pencernaan akan komponen yang memerlukan waku panjang untuk dicerna seperti serat bagi ayam adalah sangat lemah dibandingan dengan ternak yang lain. Namun, komponen lain tidak berbeda jauh dengan sapi maupun babi, malahan sereal lebih unggul."
+      },
+      {
+       "h": "⑤ Usus Buntu"
+      },
+      {
+       "p": "Terdapat sepasang usus buntu, yang akan mengambil sebagian pakan berhenti dalam waktu relatif lama, kemudian diekskresikan setelah dicerna dan diserap dengan baik. Kotorannya akan berwarna coklat, sangat lengket, akan diekskresikan 4-5 kali sehari, dengan bau yang tajam."
+      },
+      {
+       "h": "⑥ Usus Besar"
+      },
+      {
+       "p": "Usus besar sangat pendek, dimana kotoran akan ditampung terlebih dahulu di kloaka, kemudian akan diekskresikan bersama dengan urin."
+      },
+      {
+       "h": "（４）Jenis dan Karakteristik Pakan Ternak"
+      },
+      {
+       "p": "Karena ayam lemah dalam mencerna serat, maka pakan ternak ayam terutama adalah pakan konsentrat yang baik bagi pencernaan, yang banyak mengandung karbohidrat, dan protein. Kemampuan ayam dalam memproduksi hasil ternak seperti telur atau daging dari pakan konsentrat yang diberikan, adalah tinggi daripada sapi atau babi."
+      },
+      {
+       "h": "① Sereal"
+      },
+      {
+       "p": "Yang paling bayak terkandung dalam pakan ternak ayam adalah jagung atau mylo, dan sebagainya. Terutama dipergunakan sebagai sumber energi. Untuk jagung adalah salah satu bahan yang paling penting sebagai bahan pakan ternak ayam."
+      },
+      {
+       "h": "② Ampas Minyak Nabati"
+      },
+      {
+       "p": "Terutama dipergunakan sebagai sumber protein. Yang banyak dipergunakan adalah ampas kedelai, namun karena ampas kedelai kekurangan metionin yaitu asam amino yang esensial, maka dipergunakan campuran dengan tepung ikan. Selain itu, dipergunakan biji kapas atau ampas rapeseed oil."
+      },
+      {
+       "h": "③ Jenis Dedak"
+      },
+      {
+       "p": "Untuk mengontrol energi dan mengisi mikronutrien, maka terlebih dulu dengan menambahkan sereal dan ampas minyak nabati. Dedak degreased rice adalah dedak yang minyak sudah dilepas."
+      },
+      {
+       "h": "④ Sumber Protein Hewani"
+      },
+      {
+       "p": "Komposisi asam amino pada tepung ikan itu baik, terutama kaya akan lisin dan metionin, dan sering dipergunakan sebagai bahan dasar pakan ternak."
+      },
+      {
+       "h": "⑤ Bahan Dasar Pakan Ternak Lainnya"
+      },
+      {
+       "p": "Alfalfa meal sering dimanfaatkan karena mengandung berbagai jenis vitamin dan xanthophyll sebagai pakan hijau. Sayuran hijau, rumput, tumbuhan liar dan sebagainya pun adalah bahan dasar pakan ternak yang dekat di sekitar. Karena ayam petelur memerlukan banyak kalsium dan fosfor, maka dipergunakan cangkang kerang, kalsium karbonat, kalsium fosfat, dan sebagainya sebagai pakan ternak mineral. Dan garam makan harus diberikan."
+      },
+      {
+       "p": "3 Pakan Ayam Petelur (Volume Nutrisi yang Dibutuhkan pada Fase Pertumbuhan dan Tingkat Konsentrasi dan Volume Pemberian Pakan Campuran)"
+      },
+      {
+       "h": "（１）Volume Nutrisi yang Dibutuhkan"
+      },
+      {
+       "p": "Pakan campuran ayam terdiri dari zat hewani dan nabati serta zat mineral yang mengandung unsur nutrisi keseluruhan seperti energi, protein, mineral, dan vitamin. Nutrisi dalam pakan ternak terbagi atas bagian yang dicerna dan diserap, dan bagian yang tidak dicerna. Nutrisi yang dicerna dan diserap terbagi lagi menjadi nutrisi yang dimanfaatkan untuk tubuh ayam, dan nutrisi yang terurai dieksresikan (urin) tanpa dimanfaatkan. Di dalamnya, nutrisi yang dimanfaatkan untuk tubuh ayam akan digunakan untuk menjaga tubuh ayam, pertumbuhan, dan produksi telur, dimana kelebihannya akan disimpan sebagai lemak."
+      },
+      {
+       "p": "Karena ayam memprioritaskan asupan energi dari nutrisinya, maka volume asupan pakan ditentukan oleh volume asupan energi. Dengan demikian, nutrisi selain itu harus mengandung volume yang amat cukup pada kisaran volume asupan tersebut. Memikirkan hal tersebut, maka yang menunjukkan volume kandungan nutrisi (rasio) pakan yang dapat memenuhi volume nutrisi yang dibutuhkan ayam adalah Standar Pemeliharaan Jepang. Volume yang dibutuhkan untuk protein kasar (CP) dan energi metabolisme (ME) yang ditunjukkan pada Standar Pemeliharaan Jepang adalah fase anak ayam kecil CP 19%, ME 2.900 kcal, fase anak ayam sedang CP 16%, ME 2.800 kcal, dan fase anak ayam besar CP 13%, ME 2.700 kcal, fase bertelur CP 15,5%, ME 2.800 kcal."
+      },
+      {
+       "p": "Untuk Anak Ayam Kecil Untuk Anak Ayam Sedang hingga Besar Untuk Ayam Dewasa"
+      },
+      {
+       "h": "（２）Tingkat Konsentrasi dan Volume Pemberian Pakan Campuran"
+      },
+      {
+       "p": "Ayam petelur umumnya diberikan pakan campuran yang dijual di pasaran. Dijual di pasaran pakan campuran yang sesuai dengan tingkat pemeliharaan, dan pakan campuran yang sesuai dengan fase bertelur untuk fase pemeliharaan. Pakan campuran yang dijual di pasar ditetapkan dengan CP dan ME agak tinggi, dan tidak hanya proporsi campurannya, melainkan bentuk pakannya pun ada bubuk dari material yang dihancurkan (mash), pellet keras berbentuk butiran, hancuran pellet yang digiling kasar (crumble), dan sebagainya, dimana banyak pakan hasil olahan dapat dimakan dan dapat dicerna."
+      },
+      {
+       "p": "Umumnya, pakan untuk pemberian umpan fase pemeliharaan (CP 22%, ME 3.150 kcal) adalah untuk makan bebas, dan pakan untuk ayam kecil (CP 21%, ME 2.950 kcal) adalah untuk makan bebas hingga volume makan 35 g / hari."
+      },
+      {
+       "p": "Setelahnya, dilakukan perubahan dengan melihat bobot, dari pakan untuk anak ayam sedang (CP 18%, ME 2.800 kcal) ke pakan untuk anak ayam besar (CP 15%, ME 2.800 kcal). Kemudian, dilakukan pemberian pakan yang patuh dengan manual varietas ayam agar mendekati bobot standar varietas ayam."
+      },
+      {
+       "p": "Volume pemberian pakan ayam dewasa (CP 18%, ME 2.850 kcal) pada fase ayam dewasa"
+      },
+      {
+       "p": "(masa bertelur) pun tergantung pada varietas ayamnya, namun umumnya manual ditargetkan 115 g / hari. Terdapat juga metode pemberian pakan yang dibedakan menjadi pakan fase awal masa bertelur (CP 18,5%, ME 2.870 kcal), dan pakan fase akhir masa bertelur (CP 17%, ME 2.870 kcal), tergantung dari pakan campurannya. Kemudian tergantung musim, maka ada juga yang proporsi campurannya diubah (musim panas CP 18,5%, musim dingin CP 17,5%)."
+      },
+      {
+       "h": "4 Pengumpulan Telur yang Dibuahi dan Penetasan"
+      },
+      {
+       "h": "（１）Pengumpulan Telur yang Dibuahi"
+      },
+      {
+       "p": "Telur (telur yang dibuahi) didapat dari perkawinan jantan dengan betina. Pada pemeliharaan umbaran, perkawinan terjadi secara alami, didapatkan telur dengan memelihara 1 grup 10-15 ekor betina dengan 1 ekor jantan. Pada pemeliharaan kandang, dilakukan inseminasi buatan."
+      },
+      {
+       "p": "Telur yang dibuahi akan keluar sekitar hari ke-3 setelah kawin, dan dengan 1 kali pembuahan akan menghasilkan telur selama sekitar 10 hari. Telur dipilih yang bagus, dengan bentuk normal dan besar 54-65 gram. Dilakukan disinfeksi, dan dengan bagian tumpul ke atas, dan disimpan pada ruangan bersuhu 15-20 derajat Celsius, dengan kelembaban 40-70%. Periode penyimpanan telur sebaiknya dalam jangka 1 pekan, kemudian setelahnya akan berturut-turut rasio menetas akan menurun."
+      },
+      {
+       "p": "Telur yang Dibuahi Berjejer di Dudukan Telur pada Inkubator"
+      },
+      {
+       "h": "（２）Penetasan"
+      },
+      {
+       "h": "① Cara Memroses Penetasan"
+      },
+      {
+       "p": "Dengan memberikan suhu (37,8 derajat Celsius) dan kelembaban (60%) yang tetap pada telur yang teah dibuahi, maka embrio akan berkembang. Pertama-tama blastodiscakan membesar, kemudian terbentuk syaraf dan pembuluh darah. Selanjutnya tulang, otak, alat pernapasan, cardiovascular, dan sebagainya terbentuk, pada hari ke-21 cangkang telur akan pecah oleh ujung paruh (gigi merobek cangkang), anak ayam akan mendorong cangkang telur dengan kepala dan kakinya, kemudian menetas."
+      },
+      {
+       "h": "② Jenis-Jenis Inkubator"
+      },
+      {
+       "p": "Ayam praktek semuanya ditetaskan secara artifisial dengan inkubator. Terdapat inkubator yang datar dan tiga dimensi, dimana inkubator datar kebanyakan tipe kecil, dan digunakan untuk praktikal. Tipe tiga dimensi adalah tipe besar, bahkan ada yang dapat menampung beberapa puluh ribu butir."
+      },
+      {
+       "h": "③ Pekerjaan Sebelum Menetas"
+      },
+      {
+       "p": "Inkubator sebelum digunakan maka dibersihkan, dicuci, didisinfeksi, dan diperiksa alat pengatur suhu dan kelembabannya. Telur yang telah dibuahi dilakukan disinfeksi dengan invert soap, disinfektan fenolik, dan sebagainya."
+      },
+      {
+       "h": "④ Pengelolaan Selama Penetasan"
+      },
+      {
+       "p": "Jejerkan telur yang telah dibuahi di atas dudukan telur atau tray dengan ujung tumpul keatas, mulai penetasan dengan memberikan tanda agar diketahui varietas dan jenisnya. Selama periode ini, lakukan ventilasi udara untuk memberikan udara segar pada telur."
+      },
+      {
+       "p": "Kemudian, agar embrio di dalam telur tidak menempel pada membrane cangkang telur, maka telur diputar 10-20 kali sehari sejak kemudian hari setelah telur dimasukkan hingga 18 hari."
+      },
+      {
+       "h": "⑤ Pemeriksaan Telur"
+      },
+      {
+       "p": "Pekerjaan memisahkan telur yang tak terbuahi atau telur yang terhenti perkembangannya disebut pemeriksaan telur, kebanyakan dilakukan pada hari ke-7 setelah telur dimasukkan. Pemeriksaan telur dilakukan pada ruangan gelap dengan menerawangkan ujung tumpul telur pada alat penguji telur listrik, untuk memeriksa kondisi bagian dalam telur."
+      },
+      {
+       "p": "⑥ Pemisahan Jantan-Betina (Sexing) dan Pengiriman Anak Ayam Baru Menetas Anak ayam yang belum lama menetas disebut anak ayam baru menetas, anak ayam yang diambil dari dudukan penetasan dipindahkan ke ruangan anak ayam, dan dilakukan pemisahan jantan-betina (sexing) melalui perbedaan jenis kelamin. Metode pemisahan jantan-betina"
+      },
+      {
+       "p": "(sexing) anak ayam terdapat metode pemisahan dubur dengan membedakan jantan-betina melalui bentuk kloaka anak ayam, dan metode pemisahan bulu sayap dengan memisahkan jantan-betina melalui perbedaan warna bulu sayap dan kaki, dan kecepatan pertumbuhan bulu sayap utama, dimana kini yang dilakukan secara luas adalah metode pemisahan bulu sayap."
+      },
+      {
+       "p": "Anak ayam betina yang telah terpilih disuntik vaksin, dan dikirimkan ke peternakan ayam. Ada juga yang dilakukan pemotongan paruh (debeak), baru kemudian dikirimkan."
+      },
+      {
+       "h": "5 Pertumbuhan Anak Ayam Petelur"
+      },
+      {
+       "p": "Pelihara (pemeliharaan) adalah memelihara anak ayam dengan maksud mempergunakannya sebagai ayam petelur di masa datang. Periode sejak pemberian umpan hingga menghasilkan telur disebut dengan masa pelihara, dibagi menjadi 3 tingkatan yakni fase anak ayam kecil, (0 hingga sekitar 4 minggu), fase anak ayam sedang (4~10 minggu), fase anak ayam besar (10~20 minggu, hingga menghasilkan telur). Pemeliharaan bagi anak ayam dasar pengelolaaanya adalah memeliharanya hingga kuat dengan membuat syarat lingkungan yang optimal. Kemudian, untuk mencegah timbulnya penyakit, maka adalah penting untuk melakukan secara berkala pengelolaan higienitas seperti vaksinasi."
+      },
+      {
+       "h": "（１）Metode Pemeliharaan"
+      },
+      {
+       "h": "① Metode dengan alat pemeliharaan bentuk box"
+      },
+      {
+       "p": "Alat pemeliharaan bentuk box adalah fasilitas paling mendasar yang memberikan alat penghangat pada box kayu. Sesuai untuk memelihara sekitar 50~100 ekor."
+      },
+      {
+       "h": "② Metode pemeliharaan baterai"
+      },
+      {
+       "p": "Alat pemeliharaan baterai adalah fasilitas yang sesuai untuk memelihara anak ayam dalam jumlah realtif banyak yang tidak makan tempat, alat pemanas dan lantai jaring logam, yang kotak pemeliharaan terbuat dari mesh atau bilah, yang ditumpuk. Anak ayam sedang dan anak ayam besar dipindahkaan ke dalam kandang untuk dipelihara sekaligus dibesarkan. Tidak makan biaya, namun saat musim dingin suplai suhu ada kalanya sulit merata."
+      },
+      {
+       "h": "③ Metode pemeliharaan umbaran"
+      },
+      {
+       "p": "Metode pemeliharaan di atas lantai dalam ruangan, alat pemeliharaan bentuk payung, atau dengan memberikan hangat dengan pipa air hangat yang dipasang di bawah lantai atau kandang (pemanas lantai), atau dengan memberikan hangat ke seluruh kandang dengan angin hangat. Sesuai untuk pemeliharaan jumlah ayam yang banyak, untuk memelihara hingga menampung di kandang anak ayam besar atau secara langsung menampung kandang ayam dewasa. Suhunya merata, pekerjaan disinfeksi dan sebagainya hemat tenaga kerja, namun perlu biaya."
+      },
+      {
+       "h": "（２）Pengelolaan Fase Anak Ayam Kecil"
+      },
+      {
+       "h": "① Anak ayam baru dimasukkan (penerimaan anak ayam)"
+      },
+      {
+       "p": "Anak ayam yang baru lahir setelah menetas hingga tiba di peternakan ayam akan memerlukan waktu yang cukup lama, sehingga bila sudah tiba segera berikan air, biarkan istirahat dalam ruangan gelap sebentar, untuk mengembalikan kekuatan tubuhnya. Untuk alat pemeliharaan tipe baterai, alat pemeliharaan tipe umbaran (mempergunakan chick guard), ataupun kehangatan permukaan lantai (mempergunakan chick guard) yang mana saja, dihangatkan terlebih dahulu sekitar 32~35°C, dan diatur kelembaban sekitar 65%. Sembari observasi kondisi anak ayam dengan baik, masukkan ke dalam alat pemeliharaan. Apabila ada anak ayam yang lemah, maka dimusnahkan. Ini disebut dengan memasukkan anak ayam."
+      },
+      {
+       "p": "Chick guard adalah pagar bentuk lingkaran dengan ketinggian sekitar 30 cm, dimana anak ayam kecil dipelihara di dalamnya sembari diberikan kehangatan. Anak Ayam yang Kuat Anak Ayam yang Lemah"
+      },
+      {
+       "h": "② Pemberian Umpan"
+      },
+      {
+       "p": "Waktu pemberian pakan baiknya adalah sekitar saat sebagian besar kuning telur yang tersisa dalam tubuh anak ayam telah tercerna, dengan standarnya adalah 25-60 jam setelah menetas, namun kenyataannya banyak yang menetapkan waktu pemberian pakan di tempat penetasan."
+      },
+      {
+       "p": "Setelah anak ayam dimasukkan, padatkan pakan ternak untuk anak ayam kecil dengan air kemudian letakkan di kertas atau di kotak yang tepinya dangkal (chick plate) di lantai bagian yang hangat di kandang pemeliharaan, kemudian letakkan pakan ternak di atasnya untuk memberikan makan. Ini disebut dengan pemberian umpan. Frekuensi pemberian umpan 5~6 kali per hari selama 3 hari, setelah itu kurangi frekuensinya menjadi 4 kali sehari. Jejerkan wadah pengumpan dan wadah air secara bergantian, persiapkan agar anak ayam dapat makan dengan santai. Sekitar seminggu pertama baik juga untuk memberikan penerangan agar anak ayam mengerti tempat umpan dan air minum."
+      },
+      {
+       "h": "③ Debeak atau Beak Trimming"
+      },
+      {
+       "p": "Efektif sebagai pencegahan kebiasaan buruk seperti patuk ekor atau makan bulu pada setelah fase anak ayam sedang. Umumnya pada selama umur 1~2 minggu, dilakukan pemotongan paruh dengan alat debeaker khusus pada 1/2 paruh atas dan bawah."
+      },
+      {
+       "h": "④ Kepadatan Pemeliharaan"
+      },
+      {
+       "p": "Perkiraan pada kandang terbuka, pemeliharaan kandang tipe baterai adalah 33~44 ekor / m2 hingga umur 6 minggu, sementara pemeliharaan kandang umbaran adalah 18~20 ekor / m2 hingga umur 6 minggu. Kemudian, pada kandang windowless, karena syarat lingkungan adalah lebih baik daripada kandang terbuka, maka kepadatan pemeliharaan akan semakin tinggi."
+      },
+      {
+       "h": "（３）Pengelolaan Fase Anak Ayam Sedang"
+      },
+      {
+       "p": "Selama fase anak ayam sedang sedapat mungkin biarkan mereka bergerak, biasakan mereka dengan udara segar, agar anak ayam berbadan kuat. Pada alat pemeliharaan baterai, dipindahkan ke baterai untuk anak ayam sedang pada sekitar umur 4 minggu. Jumlah anak ayam yang dapat ditampung pada 1 section baterai adalah sekitar level dimana semua anak ayam dapat berjejer dengan mudah pada alat pengumpan. Kepdadatan pemeliharaan akan berpengaruh pada pertumbuhan atau kondisi kesehatan anak ayam setelah itu. Ini juga merupakan periode pergantian pada pakan ternak untuk anak ayam sedang, dan karena perpindahannya merupakan stress yang berat bagi anak ayam, maka penting untuk melakukan penanganan dengan hati- hati. Untuk meringankan stress atau pencegahan penyakit, maka sebaiknya larutkan antibiotik, vitamin dan sebagainya ke air, dan berikan selama 2~3 hari."
+      },
+      {
+       "h": "① Pertumbuhan Anak Ayam"
+      },
+      {
+       "p": "Pertumbuhan anak ayam pada awal fase pemeliharaan adalah sangat cepat. Terutama pada fase awal pemeliharaan mereka akan tumbuh hingga umur seminggu bertumbuh 65 g lebih, umur 2 minggu 120 g lebih, umur 3 minggu 190 g lebih. Setelah itu, rasio peningkatan bobot akan semakin berkurang, namun peningkatan bobot per hari akan meningkat pesat hingga sekitar umur 10 minggu (bobot 850 g lebih), dan pada akhir periode pemeliharaan, rasio peningkatan bobot akan berkurang seiring dimulainya matang seksual, kecepatan pertumbuhannya akan semakin lembut."
+      },
+      {
+       "h": "② Penimbangan Bobot dan Bobot Rata-Rata Anak Ayam"
+      },
+      {
+       "p": "Karena anak ayam dipelihara dengan target bobot standar yang ditunjukkan pada manual varietas ayam, maka pelaksanaan penimbangan bobot adalah penting. Bobo anak ayam yang terlalu ringan memang tidak diharapkan, namun dibandingkan dengan ukuran yang besar atau kecil, maka kecilnya variasi (gap) sebagai kelompok ayam (keseragaman) adalah yang penting."
+      },
+      {
+       "h": "（４）Pengelolaan Fase Anak Ayam Besar"
+      },
+      {
+       "p": "Target pemeliharaan fase anak ayam besar adalah membuat tubuh yang dapat merespon dengan baik hingga bertelur yang lama, dan memelihara agar dapat mulai bertelur pada umur yang tepat. Pada pemeliharaan tipe baterai, adalah penting pemindahan ke baterai untuk anak ayam besar itu untuk menampung anak ayam yang level pertumbuhannya sama pada section yang sama. Jumlah anak ayam yang ditampung pada 1 section pun sama dengan periode anak ayam sedang, yaitu sekitar level dimana semua anak ayam dapat berjejer dengan mudah pada alat pengumpan."
+      },
+      {
+       "p": "Pakan ternak ditukar dari pakan untuk anak ayam sedang, ke pakan untuk anak ayam besar. Volume makan akan meningkat seiring dengan bertambahnya bobot, kemudian, volume sekresi kotoran pun akan meningkat. Karena apabila dibiarkan maka akan muncul gas beracun seperti ammonia dan sebagainya, maka pembersihan seperti pembuangan kotoran sangat diperlukan."
+      },
+      {
+       "p": "Anak ayam besar yang cepat matang sejak sekitar umur 130 hari akan mulai bertelur, sehingga sebelumnya dipindahkan ke kandang ayam dewasa."
+      },
+      {
+       "h": "① Kepadatan Pemeliharaan"
+      },
+      {
+       "p": "Untuk kandang ayam terbuka, pada pemeliharaan kandang tipe baterai adalah hingga umur 18 minggu 22~25 ekor / m2, pada pemeliharaan tipe umbaran adalah hingga umur 18 minggu 7~8 ekor / m2. Kemudian, pada kandang windowless karena syarat lingkungan adalah lebih baik daripada kandang terbuka, maka kepadatan pemeliharaan akan semakin tinggi."
+      },
+      {
+       "h": "② Pengelolaan Penerangan"
+      },
+      {
+       "p": "Pada fase anak ayam besar, lakukan pengelolaan penerangan dengan mengatur jam hari panjang (jam hari panjang + jam pemberian lampu) dengan menyalakan penerangan di kandang ayam. Ini adalah untuk mengatur kematangan seksual anak ayam, dimana saat jam hari panjang memendek maka kematangan seksual akan melambat, saat jam hari panjang memanjang maka kematangan seksual akan menjadi cepat. Secara umum, karena kematangan seksual ayam praktek itu cenderung cepat, sehingga pada kandang ayam terbuka dilakukan pengelolaan sinar matahari yang akan menekan kematangan seksual. Penerangan pada fase pemeliharaan dilakukan untuk mematangkan seksual pada umur yang tepat (mulai bertelur)."
+      },
+      {
+       "p": "Karena umur matang seksual yang tepat itu berbeda tergantung varietas ayam, maka sebaiknya menargetkan umur matang seksual yang direkomendasikan pada varietas ayam tersebut. Pada kandang ayam windowless, karena tidak terpengaruh pada jam hari panjang, sehingga penerangan dapat dikelola secara terencana. Sinar penerangan sekitar 5~10 lux pada posisi ayam, setelah periode ayam dewasa sebaiknya waktu penerangan tidak dipendekkan."
+      },
+      {
+       "h": "③ Penimbangan Bobot dan Pembatasan Pakan yang Diberikan"
+      },
+      {
+       "p": "Pengelolaan bobot anak ayam besar adalah penting, dan dengan mendekatkannya pada bobot standar, maka berikutnya kebanyakan akan didapat kinerja produksi telur yang baik. Lakukan penimbangan bobot setiap pekan, dan tentukan volume pengumpanan pekan berikutnya. Bila perkembangan baik dan melebihi bobot standar, maka dapat dilakukan metode pembatasan volume pemberian pakan ternak."
+      },
+      {
+       "h": "6 Bertelurnya Ayam Petelur dan Pengelolaan Fase Ayam Dewasa"
+      },
+      {
+       "h": "（１）Mulai Bertelur"
+      },
+      {
+       "p": "Ayam petelur akan mulai bertelur pada sekitar umur 18 minggu (sekitar 130 hari), dan selama 2~4 bulan setelahnya paling banyak jumlah telur yang dihasilkan, kemudian akan semakin berkurang. Cara transisi menghasilkan telur disebut dengan pola bertelur. Hari pada pertama bertelur pada ayam disebut umur pertama melahirkan (bertelur), dan juga merupakan matang seksual. Cepat atau lambatnya matang seksual akan sangat berpengaruh pada hasil telur produksi setelahnya. Selain cepat atau lambatnya matang seksual itu adalah bersifat genetis, juga sangat dipengaruhi juga oleh jam hari panjang atau pemberian nutrisi. Untuk itu, pengelolaan penerangan pada fase pemeliharaan atau pemberian pakan dioperasionalkan, agar dapat diraih metode pematangan seksual yang tepat."
+      },
+      {
+       "h": "① Bentuk Telur dan Ovulasi"
+      },
+      {
+       "p": "Pada ovarium ayam yang sudah mulai menghasilkan telur, terdapat kantung telur (follicle) yang ada pada tahap pertumbuhan yang beragam berdiameter hingga sekitar 1~35 mm. Kantung telur akan berkembang, dan bila menjadi paling besarnya, maka membrane sisi luar akan pecah, sel telur(kuning telur) akan berovulasi, dan masuk ke tuba fallopi dari bagian corong (tunnel)."
+      },
+      {
+       "p": "Kuning telur ini putih telurnya terbentuk sebagai bagian paling besar, membran cangkang telur dibentuk di bagian isthmus, dan cangkang telur dibentuk di rahim, kemudian telur akan dikeluarkan dari kloaka. Dari ovulasi hingga ke ovulasi berikutnya sekitar 25~26 jam."
+      },
+      {
+       "h": "② Periodesitas Bertelur"
+      },
+      {
+       "p": "Organ Kembang Biak Ayam Setelah terus berteur selama beberapa hari, ayam akan menunjukkan periodisitas istirahat bertelur selama 1 hari (atau selama 2-3 hari), kemudian melanjutkan kembali bertelur selama beberapa hari. Periode seperti ini disebut periodesitas bertelur, dan produksi telur yang serangkaian berturut-turut disebut clutch."
+      },
+      {
+       "h": "③ Perubahan Musim Bertelur"
+      },
+      {
+       "p": "Ayam akan banyak bertelur pada musim yang berhari panjang, dan berdasarkan hari panjang alami, maka produksi telur akan banyak pada musim semi, dan akan berkurang pada musim gugur. Untuk itu, maka pola produksi telur akan berbeda tergantung pada musim menetas, dimana pada anak ayam yang menetas di musim semi dan gugur, musim dingin dan panas, akan menunjukkan pola produksi telur yang kontras. Suhu yang optimal untuk bertelur adalah 12-25 derajat Celsius."
+      },
+      {
+       "h": "（２）Pengelolaan Fase Ayam Dewasa"
+      },
+      {
+       "h": "① Pemberian Pakan, Suplai Air"
+      },
+      {
+       "p": "Pakan ternak fase ayam dewasa biasanya jatah 1 hari dibagi dalam pagi dan sore, diberikan dengan observasi kondisi ayam, dan kondisi konsumsi pakannya. Bila mempergunakan wadah pengumpan otomatis, memungkinkan pemberian pakan dengan frekuensi banyak setiap hari, tidak akan ada pilih makan atau makanan yang tersisa sehingga volume makan stabil."
+      },
+      {
+       "p": "Karena produksi telur meningkat drastis sembari bertumbuh, maka pada fase awal bertelur diberikan pakan ternak tinggi protein, kemudian dilakukan metode pemberian pakan fase selama bertelur (sekitar 40~60 minggu) hingga fase akhir bertelur (sekitar setelah 60 minggu) menyesuaikan dengan level produksi telur atau pertumbuhannya, dengan menurunkan standar protein kasar (CP)."
+      },
+      {
+       "p": "Perlu pengelolaan agar ayam dapat kapan saja minum air segar, terutama saat musim panas jangan sampai air menjadi habis, dan juga jangan sampai suhu air meningkat, dan musim dingin jangan sampai air membeku."
+      },
+      {
+       "h": "② Pengumpulan Telur"
+      },
+      {
+       "p": "Bertelur biasanya selesai pada pagi hari. Pada peternakan ayam yang terpasang alat pengumpul telur otomatis, maka dalam 1 hari dilakukan beberapa kali pengumpulan telur kemudian dikirimkan. Pada peternakan ayam yang tidak terpasang alat pengumpul telur otomatis, dipergunakan keranjang pengumpul telur atau egg tray dan egg container, dan untuk mempertahankan kesegarannya maka dilakukan pengumpulan telur manual dalam 1 hari sedapat mungkin dengan frekuensi sering."
+      },
+      {
+       "h": "③ Pembuangan Kotoran dan Pembersihan"
+      },
+      {
+       "p": "Untuk mempertahankan kebersihan dalam kandang ayam, maka pekerjaan pembuangan kotoran dilakukan secara berkala. Terutama pada musim semi hingga musim gugur dimana banyak muncul lalat, dilakukan pembuangan kotoran sering, dan kotoran ayam ditangani segera pada fasilitas pengolahan kotoran ayam. Kemudian karena sampah atau debu pada kandang yang ada di sekitar ayam petelur, perlengkapan, plafon, dinding dan sebagainya itu akan menjadi habitat parasit dari luar, maka penting untuk dilakukan pembersihan dan dihilangkan agar bersih."
+      },
+      {
+       "h": "④ Pengelolaan Lingkungan"
+      },
+      {
+       "p": "Suhu tubuh ayam dewasa yang sehat adalah sekitar 41 derajat Celsius. ⅰ Reaksi terhadap Panas dan Pengelolaan di Musim Panas Bila suhu meningkat, maka ayam akan bernapas lewat mulut, dan jumlah napasnya meningkat (panting), untuk memfungsikan pelepasan panas tubuh, ayam akan berpostur membuka sayapnya untuk mencegah meningkatnya suhu tubuh. Kemudian volume air yang diminum akan meningkat, dan kotorannya akan berair. Bila suhu melebihi 30oC, maka akan berdampak pada rasio bertelur dan mutu telur. Dengan kata lain, bila suhu meningkat maka volume konsumsi pakan akan berkurang, sehingga telur akan mengecil, dan cangkang telur akan menipis."
+      },
+      {
+       "p": "ⅱ Reaksi terhadap Dingin dan Pengelolaan pada Musim Dingin Bila suhu menurun, ayam akan membungkukkan tubuhnya dan menegakkan bulunya untuk mempertahankan panas. Volume konsumsi pakan akan meningkat, namun produksi telur berkurang."
+      },
+      {
+       "p": "ⅲ Pengelolaan Penerangan Kandang ayam diterangi dan diberikan waktu penerangan yang cukup (jam hari panjang + jam penerangan), yang merupakan teknik pengelolaan untuk mengontrol matang seksual, atau untuk mempercepat produski telur. Pada kandang terbuka untuk fase ayam dewasa, fase awal produksi telur dilakukan penerangan dengan waktu yang seragam semuanya 14~15 jam (jam hari panjang + jam penerangan), sejak sekitar penurunan produksi telur mencolok perlahan jam penerangan diperpanjang (peningkatan bertahap: 30 menit per 2 minggu), dan saat mencapai 17 jam maka penerangan dilanjutkan dengan standar ini. Waktu penerangan ditambahkan lebih dari yang ini pun produksi telur tidak akan bertambah."
+      },
+      {
+       "p": "Pada kandang windowless, 2 minggu setelah pemberian umpan dilakukan penerangan 24 jam, pada umur 2 minggu penerangan 19 jam, setelah itu setiap 2 minggu penerangan dikurangi masing-masing 30 menit (pengurangan bertahap), dan umur 18 minggu diberi penerangan 14,5 jam. Fase ayam dewasa setelah itu disamakan dengan kandang terbuka."
+      },
+      {
+       "p": "iv Ganti Bulu Paksa dan Metodenya Memasuki 1 tahun setelah pertama bertelur, maka produksi telur akan berkurang, cangkang telur pun akan menipis, sehingga mutu telur menurun. Ayam akan istirahat bertelur selama 2-4 bulan sejak musim gugur hingga musim dingin dimana siang harinya pendek, dan selama itu akan terjadi ganti bulu alami dimana bulu yang tua akan rontok secara alami dan digantikan dengan bulu baru. Bila dilakukan ganti bulu secara artifisial dengan mendahului ganti bulu alami, maka mutu cangkang telur akan membaik, dan masa panen telur dapat diperpanjang."
+      },
+      {
+       "p": "Metode ini dinamakan ganti bulu paksa. Sebagai metode yang umum, pada sekitar umur 60 pekan dilakukan puasa makan pada musim panas 10-14 hari dan pada musim dingin 7-10 hari, dan secara bersamaan dilakukan pemutusan pencahayaan. Bila periode puasa berakhir, maka diberikan pakan ternak semakin lama semakin bertambah selama beberapa hari."
+      },
+      {
+       "p": "v Penyeleksian Ayam yang Buruk Ayam yang produksi telur menurun atau kondisi kesehatannya buruk walau dipelihara pun kinerja produksi telur tidak akan mningkat dan secara manajemen pun tidak akan menguntungkan. Temukan ayam buruk yang demikian ini dalam pengelolaan harian, dan kemudian diseleksi."
+      },
+      {
+       "h": "7 Kualitas Telur Ayam"
+      },
+      {
+       "p": "Sebagian besar telur ayam dikirimkan menyesuaikan dengan standar transaksi sebagai telur bercangkang seperti apa adanya ditelurkan. Kualitas telur ayam ditentukan oleh kondisi cangkang, kuning telur, putih telur, dan sebagainya."
+      },
+      {
+       "h": "（１）Standar dan Kualitas Telur Ayam"
+      },
+      {
+       "p": "Jenis dan kriteria peraturan adalah berat telur ayam per butir LL = 70 g atau lebih hingga kurang dari 76 g, L = 64 g atau lebih hingga kurang dari 70 g, M = 58 g atau lebih hingga kurang dari 64 g, MS = 52 g atau lebih hingga kruang dari 58 g, S = 46 g atau lebih hingga kurang dari 52 g, SS = 40 g atau lebih hingga kurang dari 46 g."
+      },
+      {
+       "p": "Telur ayam yang baik adalah yang berbentuk normal, tidak kotor, bercangkang mulus secara optimal, kuat, dan tidak ada retakan. Kemudian saat dipecah, putih telur yang baik adalah yang kental menggelembung, tidak terlihat adanya campuran benda asing (cairan darah, berdaging)."
+      },
+      {
+       "p": "Telur yang Dapat Dikirim Telur yang Tidak Dapat Dikirim"
+      },
+      {
+       "h": "（２）Faktor yang Menentukan Kualitas"
+      },
+      {
+       "p": "Kualitas telur ayam akan mendapatkan pengaruh dari faktor genetik, pakan ternak, musim, umur ayam, dan lingkungan pemeliharaan."
+      },
+      {
+       "h": "① Cangkang Telur"
+      },
+      {
+       "p": "Terutama terbentuk dari kalsium karbonat, cangkang telur semakin padat dan tebal maka akan semakin kuat, telur dengan cangkang tipis akan lemah, sehingga banyak terjadi telur pecah atau retak, dan nilai produk akan menurun drastis."
+      },
+      {
+       "p": "Tingkat kekuatan cangkang telur akan menurun umumnya tergantung pada kekurangan kandungan nutrisi, terutama anorganik seperti kalsium dan sebagainya, panas di musim panas, ayam yang sudah tua, dan sebagainya."
+      },
+      {
+       "h": "② Putih Telur"
+      },
+      {
+       "p": "Bening dengan warna agak kekuningan atau hijau kekuningan, bagian berair (putih telur berair / albumen luar) dan bagian yang pekat (putih telur yang pekat / albumen tengah). Semakin menggembung putih telur pekat, maka semakin baik. Karena tinggi gembungan putih teur pekat (albumen tengah) akan berkurang seiring dengan proses jumlah hari penyimpanan, sehingga akan menjadi standar tingkat kesegaran telur. Kemudian, tinggi gembungan ini akan semakin tinggi pada ayam umur muda."
+      },
+      {
+       "p": "Dari hal demikian ini berdasarkan ketinggian putih telur pekat dan berat telur pun akan ditetapkan angka Haugh Unit, dan dijadikan indeks tingkat kesegaran. Cairan darah yang sedikit dalam putih telur yang terlihat tercampur (berdarah) atau gumpalan daging (berdaging) tidak terlalu menjadi kendala, namun tidak disukai."
+      },
+      {
+       "h": "③ Kuning Telur"
+      },
+      {
+       "p": "Pigmen warna kuning merupakan perpindahan pigmen yang terkandung pada jagung dan makanan hijau dalam pakan ternak. Semakin kenyal dan gembung bulat, semakin baik kuning telur. Gembungan ini akan menjadi rata seiring waktu, dan tak lama akan rusak karena membrane kuning telur sobek."
+      },
+      {
+       "p": "Telur dengan Jagung sebagai Pakan Telur dari Ayam yang Diberikan Tepung Beras sebagai Pakan"
+      },
+      {
+       "h": "8 Penyakit pada Ayam"
+      },
+      {
+       "h": "（１）Observasi Ayam dan Ditemukannya Ayam Sakit"
+      },
+      {
+       "p": "Bila kandang ayam diperluas dan ayam yang dipelihara banyak, maka ventilasi mudah memburuk, dan gas beracun atau kelembaban akan meningkat, sehingga akan mudah terserang penyakit organ pernapasan. Kemudian, bila jumlah orang yang mengelola menjadi sedikit, maka pengelolaan harian, pembuangan kotoran, observasi kondisi kesehatan atau pengelolaan higienitas pun akan tidak mencukupi, sehingga harus hati-hati."
+      },
+      {
+       "p": "Terutama yang penting dalam penyakit adalah “penyakit epidemik yang ditetapkan secara hukum”, sehingga harus menerapkan peraturan pencegahan penyakit menular ternak, dan harus patuh pada ketentuannya. Penyakit menular yang ditetapkan secara hukum antara lain kolera unggas, flu burung yang sangat patogenik, Newcastle disease, penyakit salmorela unggas (disentri anak ayam)."
+      },
+      {
+       "h": "① Aktivitas ayam sakit"
+      },
+      {
+       "ul": [
+        "Tidak ada vitalitas dan gerakan lambat, tidak makan umpan.",
+        "Volume kotoran berkurang, warnanya berubah, diare.",
+        "Pada ayam dewasa, produksi telur akan berhenti, dan akan menelurkan telur lembek atau telur cacat.",
+        "Terkadang mengeluarkan suara aneh."
+       ]
+      },
+      {
+       "h": "② Penampakan ayam sakit"
+      },
+      {
+       "ul": [
+        "Bulu menegak, sayap menjuntai.",
+        "Warna jenggernya akan menipis, atau menjadi berwarna ungu tua.",
+        "Mata kotor dengan air mata, dan hidungnya beringus. Sering menutup mata.",
+        "Bernapas dengan paruh terbuka."
+       ]
+      },
+      {
+       "h": "（２）Pengontrolan Penyakit pada Ayam"
+      },
+      {
+       "h": "① Mencegah Masuknya Patogen dan Pencegahan Penularan"
+      },
+      {
+       "p": "Bila dipelihara pada lingkungan yang baik, maka penyakit menular mungkin tidak menimbulkan sakit, namun bila penularannya kuat, ada kalanya tidak bisa dicegah hanya dengan lingkungan yang baik saja. Pertama-tama hilangkan patogen di fasilitas kandang ayam, cegah masuknya patogen dari luar (penanganan binatang liar), kemudian harus tidak boleh membawa patogen dari luar (orang, kendaraan, pakan, material dan sebagainya)."
+      },
+      {
+       "p": "Kemudian, supaya patogen tidak menularkan kandang ayam sebelah, maka pengelola melakukan persiapan disinfektan tangan atau kaki, pakaian kerja khusus, dan sepatu untuk setiap kandang. Karena standar pengelolaan higienitas ternak ayam ditentukan pada peraturan pencegahan penyakit menular ternak, maka penting untuk pasti mematuhi standar itu."
+      },
+      {
+       "h": "② Mengontrol Penyakit dengan Vaksin dan Obat Pencegahan"
+      },
+      {
+       "p": "Untuk penyakit yang efektif dengan vaksinasi (Newcastle disease, pultry infectious bronchitis, fowl pox, Marek’s disease), maka buatlah program vaksinasi, dan pastikan dilaksanakan dengan setia (vaksinasi). Metode vaksinasi ada beragam seperti air minum, tetes hidung, tetes mata, spray, suntik, tusuk, dan sebagainya, namun sebaiknya dipilih metode yang paling tepat berdasarkan jenis vaksin, atau umur ayam, atau kondisi sakitnya."
+      },
+      {
+       "p": "Penyakit zona leukosit ayam yang diperantarakan oleh chicken biting midges (lalat ayam) dilakukan penambahan sulfonating agent pada pakan ternak, atau diobati dengan memberinya air minum, namum perlu menekan petumbuhan chicken biting midges (lalat ayam)yang nocturnal, atau menanganinya dengan melakukan kontrol insektisida. Untuk infeksi mikoplasma dengan infeksi organ pernafasan itu, tylosin dan spiramycin memiliki efek pencegahan. Kemudian, coccidiosis ayam yang menginfeksi saluran usus oleh protozoa memang sedikit pada pemeliharaan tipe kandang dan baterai, namun pada pemeliharaan tipe umbaran ada banyak. Akut pada anak ayam kecil dan anak ayam sedang, namun kebanyakan menjadi kronis pada anak ayam besar. Pengobatannya efisien dengan obat sulfa, namun obat pencegahannya akan lebih efisien dengan menambahkannya pada pakan pemeliharaan."
+      },
+      {
+       "h": "（３）Pengontrolan Hama Saniter"
+      },
+      {
+       "p": "Akhir-akhir ini banyak muncul tungau ayam yang merupakan parasit dari luar, dan kerusakannya antara lain munculnya telur kotor, atau ayam mati, kurang darah, turunnya produksi telur akibat menempelnya sekresi atau darah tungau ayam, dan juga berhenti bekerjanya pengelola karena tidak nyaman, atau juga terbawanya patogen menginfeksi baik orang dan ternak. Penanganan pengontrolan dengan menemukan tungau ayam secara dini, pembasmian secara dini, pencegahan masuknya tungau ayam, penegasan pembersihan setiap hari, penyemprotan insektisida, dan sebagainya. Selain itu, trisasida dan chiken biting midges (lalat ayam yang membawa penyakit zona leukosit) juga sama harus dilakukan pengontrolan."
+      },
+      {
+       "h": "（４）Pengontrolan Binatang Liar"
+      },
+      {
+       "p": "(parasit Dermanyssus Gallinae) Lakukan agar sekresi binatang liar seperti tikus atau burung liar tidak tercampur ke mesin pengumpan, mesin suplai air, dan juga tempat penyimpanan pakan ternak pada kandang ayam, pasanglah jaring pencegah burung di kandang ayam untuk mencegah masuk. Kerusakan akibat tikus itu ada banyak seperti pakan ternak hilang, kerusakan bangunan, dan juga tikus membawa patogen penyakit menular pada orang dan ternak."
+      },
+      {
+       "p": "Penanganan pengont rolan nya selain memblokir jalu r masu k nya, juga ada dengan memasang jebakan, atau penggunaan racun tikus. Terutama masuknya burung liar akan sangat berhubungan dengan f lu burung, dan akan jadi ancaman, sehingga diperlukan penanganan pengontrolan yang menyeluruh."
+      },
+      {
+       "h": "9 Flu Burung dan Perlawanannya"
+      },
+      {
+       "h": "（１）Flu Burung"
+      },
+      {
+       "p": "Flu burung adalah penyakit burung termasuk unggas akibat penularan influenza virus (virus AI), pada ayam, virus bersifat menimbulkan penyakit atau dari level itu dibedakan “patogen tinggi” dan “patogen rendah”, dari perbedaan toxisitas dibedakan “tipe toxic kuat” dan “tipe toxic lemah”. Viru AI yang memiliki “patogen tinggi” serta “tipe toxic kuat” memiliki tingkat rasio kematian 100% dalam 4~5 hari setelah dikonfirmasikan kemunculannya."
+      },
+      {
+       "h": "（２）Penanganan Pengontrolan Flu Burung"
+      },
+      {
+       "p": "Flu burung ditetapkan sebagai penyakit menular yang ditetapkan berdasarkan hukum oleh peraturan pencegahan penyakit menular ternak, ada penyetingan standar pengelolaan higienitas peternakan mengenai pencegahan kemunculan penyakit dan pencegahan penyebarannya, sehingga itu harus dipatuhi."
+      },
+      {
+       "h": "① Mencegah masuknya burung liar ke area kandang ayam"
+      },
+      {
+       "h": "② Penemuan dini melalui pelaksanaan screening dan sebagainya"
+      },
+      {
+       "h": "③ Pemusnahan dini saat isolasi virus (mencegah toxisasi kuat)"
+      },
+      {
+       "h": "④ Pelaksanaan monitoring"
+      },
+      {
+       "h": "⑤ Menjaga higienitas kandang ayam"
+      },
+      {
+       "h": "⑥ Melakukan observasi kesehatan ayam"
+      },
+      {
+       "p": "⑦ Pengecekan kondisi penyakit tertentu dari flu burung yang berpatogen tinggi Kondisi sakit: Rata-rata rasio kematian menjadi 2 kali lipat lebih pada periode rasio kematian ayam dalam 1 hari pada kandang ayam yang sama."
+      },
+      {
+       "p": "\u001a Metode Pemrosesan Kotoran Ayam Saat ini, hampir semua kotoran ayam diproses dengan cara fermentasi, kemudian dipergunakan sebagai kompos. Metode fermentasinya antara lain metode deposisi, metode aduk terbuka, dan metode aduk tertutup. Namun, apabila lingkungan adalah dapat memasang fasilitas pengeringan kotoran ayam, maka pada daerah beriklim hangat dan daerah beriklim menengah akan lebih menguntungkan apabila dibuat kotoran ayam kering. Untuk membuat kompos kotoran ayam pada peternakan dengan skala tidak lebih dari 10.000 ekor, maka lebih menguntungan mempergunakan bahan pengatur kelembaban, kandang kompos atau fasilitas fermentasi tipe kotak. Namun, saat menjadi 30.000 ekor atau lebih, maka diperlukan fasilitas fermentasi tipe terbuka atau tipe tertutup yang dipasang instalasi pengaduk, dan bahan pengatur kelembaban dilengkapi pada tipe terbuka, sementara perangkat pemanasan dilengkapi pada tipe tertutup."
+      },
+      {
+       "p": "\u001a Rencana Pemeliharaan dan Penilaian Kemampuan"
+      },
+      {
+       "h": "（１）Rencana Pemeliharaan"
+      },
+      {
+       "p": "Pengenalan anak ayam ditentukan oleh frekuensi pengenalan dan juga jumlah ayam yang diperkenalkan, seimbang dengan produksi telur ayam pada keseluruhan peternakan ayam, namun idealnya adalah pertukaran total (all in all out) jumlah ayam yang sama dengan jarak yang sama pada setiap kandang ayam."
+      },
+      {
+       "h": "（２）Penelitian dan Penilaian Kemampuan"
+      },
+      {
+       "h": "① Rasio Bertelur"
+      },
+      {
+       "p": "Rasio bertelur adalah angka yang menunjukkan proporsi ayam yang secara nyata bertelur dengan jumlah telur dalam periode tertentu pada kelompok ayam dibagi dengan jumlah ayam yang dipelihara dalam periode yang sama kemudian dikalikan 100 (ditunjukkan dalam %)."
+      },
+      {
+       "p": "Misalnya, pada rasio bertelur sederhana, bila 100 ekor ayam bertelur 90 butir dalam 1 hari, maka rasio bertelurnya adalah 90%. Rasio bertelur akan menjelang puncaknya dengan meningkat hingga sekitar 90% pada sekitar umur 200 hari setelah pertama bertelur, namun setelah bertelur tingkat tinggi dipertahankan selama sekitar 60 hari, maka akan semakin menurun, dan saat diseleksi pada umur 550 hari akan menjadi 65%. Kemudian, telur akan semakin berat seiring umur."
+      },
+      {
+       "p": "Meningkatkan rasio bertelur merupakan hal paling penting pada teknik ayam petelur, dan berdasarkan hal itu maka keuntungan manajemen akan sangat berbeda."
+      },
+      {
+       "h": "② Volume Bertelur"
+      },
+      {
+       "p": "Berat telur akan semakin meningkat selama 1 tahun sejak pertama bertelur, rata-rata 61-65 g. Bila dilihat total volume produksi telur, setiap 1 ekor ayam bertelur 17-20 kg / tahun. Total volume produksi sekumpulan ayam selama 1 hari dibagi dengan jumlah ayam yang dipelihara, akan menunjukkan volume bertelur ayam per ekor per hari, disebut dengan jumlah telur per hari. Jumlah telur per hari akan berhubungan dengan jumlah nutrisi yang dibutuhkan oleh ayam petelur, dan bila tidak dilakukan pemberian pakan yang mencukupi volume bertelur, maka volume bertelur akan semakin menurun."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 72–93). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cara memelihara ayam petelur dibagi menjadi tipe pemeliharaan kandang yang memelihara ayam di dalam kandang ayam dengan memasukkan pada kandang, dan memelihara dengan melepas dan mengurungnya dengan jaring di sekitarnya, dan juga tipe umbaran dengan…",
+      "points": [
+       "① Ayam Petelur",
+       "Cara Memelihara Ayam Petelur dan Fasilitas serta Mesin",
+       "（１）Cara Memelihara",
+       "① Tipe Pemeliharaan Kandang",
+       "② Tipe Umbaran",
+       "（２）Pola Kandang Ayam",
+       "① Kandang Ayam Tipe Terbuka",
+       "② Kandang Ayam Windowless",
+       "（３）Mesin dan Peralatan pada Kandang Ayam",
+       "① Wadah Umpan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 72–93)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s5",
+    "no": 5,
+    "title": {
+     "id": "Ayam Pedaging",
+     "jp": "{肉用鶏|にくようけい}"
+    },
+    "pages": [
+     94,
+     102
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "② Ayam Pedaging"
+      },
+      {
+       "h": "1 Cara Pelihara Ayam Pedaging, Fasilitas, dan Sarana"
+      },
+      {
+       "h": "（１）Cara Pelihara"
+      },
+      {
+       "p": "Perkembangan broiler amat lebih cepat dari pada ayam petelur, dan banyak dikirimkan pada umur sekitar 8 pekan. Umumnya adalah tipe umbaran yang memelihara secara merata di atas lantai, dimana sesuai dengan manajemen kelompok, dan dari mudahnya mekanisasi pengurangan tenaga kerja, maka ini merupakan metode pemeliharaan standar untuk broiler. Namun, untuk memperbanyak volume produksi, maka kepadatan pemeliharaan cenderung semakin tinggi, sehingga perlu diperhatikan dengan cukup mengenai pemeliharaan kesehatan ayam. Untuk itu, pada lantai kandang ayam dimasukkan bahan alas lantaibahan alas lantai dengan penyerap kelembaban baik ketebalan lebih dari 10 cm, seperti planar chip, serbuk gergaji, potongan jerami, dan sebagainya. Karena bobot broiler akan meningkat secara signifikan, maka ini memiliki efek meringankan beban berlebih pada kaki. Kemudian, saat broiler duduk pun akan ada beban yang sama pada tulang dada, dan karena mudah terkena penyakit radang (edema), maka bahan alas lantai juga berguna sebagai pencegahannya."
+      },
+      {
+       "p": "Kandang Pemeliharaan Broiler Dibandingkan dengan broiler, produksi daging jidori lebih rendah, namun dilihat dari tujuan produksi daging bermutu tinggi, maka memiliki karakteristik pemeliharaan jangka panjang lebih dari 80-150 hari, metode seperti tipe umbaran, tipe pelihara melepas, maupun tipe kepadatan rendah, dan juga pemberian bahan dasar pakan yang khusus."
+      },
+      {
+       "h": "（２）Pola Kandang Ayam"
+      },
+      {
+       "h": "① Kandang Ayam Tipe Terbuka"
+      },
+      {
+       "p": "Kandang dan bagian luar disekat dengan jendela atau tirai, sehingga mudah menerima secara langsung perubahan lingkungan luar seperti suhu, angin dan hujan, cahaya matahari, dan sebagainya."
+      },
+      {
+       "h": "② Kandang Tanpa Jendela"
+      },
+      {
+       "p": "Kandang ayam tanpa jendela agar cahaya matahari tidak masuk, dengan dipasangkan material penahan panas (insulasi) pada dinding dan plafon (atap). Pengelolaan cahaya dilakukan dengan lampu listrik, dan ventilasi dilakukan dengan ventilator. Karena dapat memelihara dengan kepadatan yang tinggi daripada kandang ayam tipe terbuka, maka mekanisasi jadi lebih mudah, dan cocok untuk peternakan ayam skala besar. Kemudian, dengan tertutupnya kandang, maka unggul pada sisi sanitasi. Namun memerlukan investasi sarana."
+      },
+      {
+       "h": "（３）Tipe Penghangat"
+      },
+      {
+       "p": "Terdapat metode pemeliharaan bentuk payung yang menggantungkan heater bentuk payung untuk menghangatkan, dan metode penghangat permukaan lantai."
+      },
+      {
+       "h": "① Metode Pemeliharaan Bentuk Payung, Panekuk"
+      },
+      {
+       "p": "Dari atap digantungkan brooder bentuk payung atau bentuk panekuk, untuk menghangatkan anak ayam dari bagian atas. Banyak yang berbahan bakar gas, dan perlu penyesuaian halus dari daya api sesuai dengan kondisi anak ayam. Pada lantai dimasukkan bahan alas lantai yang tebal, namun bila permukaan lantainya luas, maka sulit dibuat lingkungan yang seragam, dan perlu ide materi penahan panas (insulasi) untuk mencegah kelembaban dan dingin pada struktur lantai."
+      },
+      {
+       "h": "② Metode Penghangat Permukaan Lantai"
+      },
+      {
+       "p": "Pada fasilitas skala besar, dipasangkan pipa di bawah lantai beton, kemudian dihangatkan dari permukaan lantai dengan mengalirkan air panas. Diperlukan investasi sarana, namun cocok untuk Jepang yang berkelembaban tinggi, mudah mengamati anak ayam, dan dapat melakukan pemeliharaan dengan syarat lingkungan yang sama. Dengan hal ini, dikatakan pertumbuhan anak ayam jadi cepat, dan ayam lebih cepat berdaging. Terdapat pula keuntungan mudah pengelolaan mengeringkan kotoran, namun karena bila sudah cukup kering akan menjadi penyebab penyakit organ pernapasan, maka pengelolaan kelembaban adalah penting."
+      },
+      {
+       "h": "（４）Sarana, Peralatan"
+      },
+      {
+       "h": "① Chick Guard"
+      },
+      {
+       "p": "Mengepung anak ayam bentuk lingkaran dengan pagar (lembar seng panjang) dengan tinggi sekitar 30 cm yang digunakan untuk memelihara anak ayam baru menetas, dan di dalamnya dipasangkan bahan alas lantai, sumber panas, wadah pengumpan, dan wadah air."
+      },
+      {
+       "p": "Alat pelihara bentuk payung diletakkan di dekat bagian tengah lantai, pasangkan chick guard di sekelilingnya dengan bentuk lingkaran dengan jarak dari lantai sekitar 50 cm. Untuk penghangat permukaan lantai juga sama, menggunakan chick guard."
+      },
+      {
+       "p": "Lingkaran chick guard semakin diperluas setiap hari sedikit demi sedikit menyesuaikan dengan pertumbuhan anak ayam sejak sekitar 4 hari. Kemudian, dilepaskan pada umur 10 hari di musim panas, dan pada umur 13 hari di musim dingin."
+      },
+      {
+       "h": "② Wadah Pengumpan"
+      },
+      {
+       "p": "Pemberian umpan menggunakan kotak umpan dangkal bertepi rata (chick plate). Untuk alat pengumpan otomatis, terdapat tipe overhead yang menjatuhkan pakan ternak pada pan feeder dengan memasangkan pipa jalur pemberian pakan di plafon kandang ayam, dan juga tipe low level dimana jalur akan naik-turun menyesuaikan pertumbuhan, dengan memasang pipa jalur pemberian pakan pada tingginya ayam. Tipe yang mana pun akan disesuaikan jalur pemberian pakannya, tinggi alat pengumpan, maupun volume pakan di dalam hopper sesuai dengan kondisi ayam."
+      },
+      {
+       "h": "③ Wadah Air"
+      },
+      {
+       "p": "Pada saat pemberian umpan, agar anak ayam mudah minum, maka digunakan basin air atau drinker tambahan. Untuk nipple drinker atau wadah air bentuk bell, maka ketinggian dan tekanan air disesuaikan agar seluruh anak ayam dapat minum."
+      },
+      {
+       "p": "Kotak Pemberian Pakan untuk Memberi Umpan Drinker Tambahan 2 Pakan Ayam Pedaging (Volume Nutrisi yang Dibutuhkan pada Fase Pertumbuhan dan Tingkat Konsentrasi Pakan Campuran serta Volume Pemberian) Terhadap broiler diseragamkan diberikan pemberian pakan tanpa batas (pemberian pakan tanpa henti, bebas makan) pakan campuran (pakan ternak untuk fase awal dan pakan ternak untuk fase akhir) yang dijual di pasaran, saat dikirimkan sebagai bahan makanan, maka diberikan pakan yang tidak mengandung obat-obatan seperti antibiotik (pakan non kimia) pada lebih dari 7 hari sebelum dipotong."
+      },
+      {
+       "p": "Menurut Standar Pemeliharaan Jepang untuk Unggas edisi tahun 2011, ditentukan volume nutrisi yang dibutuhkan untuk broiler untuk fase awal (umur 0-3 pekan) adalah energi metabolism"
+      },
+      {
+       "p": "(ME) 3.100 kcal, protein kasar (CP) 20,0%, sementara untuk fase akhir (lebih dari 3 pekan) adalah ME 3.100 kcal, CP 16,0%, dan banyak pakan ternak dijual di pasar memiliki CP yang lebih tinggi sekitar 2%."
+      },
+      {
+       "p": "Pakan ternak antara lain bubuk dari material yang dihancurkan (mash), pellet keras berbentuk butiran, hancuran pellet yang digiling kasar (crumble), dan sebagainya, namun untuk broiler banyak digunakan pellet, dan crumble yang mudah dimakan. Kemudian, volume pemberian pakan per ekor pada fase pemeliharaan adalah sekitar 6,3 kg (volume asupan pakan 2,1 kali lipat dari sekitar 3,0 kg bobot untuk dikirimkan)."
+      },
+      {
+       "p": "Dibandingkan dengan broiler, karena perkembangan jidori lebih lambat, dan periode pemeliharaannya panjang, maka untuk menghindari meningkatnya biaya pakan atau lemak berlebih, tidak diperlukan pakan ternak berprotein tinggi, berenergi tinggi, kebanyakan kandungan nutrisi agak sedikit, dan menggunakan pakan ternak harga murah. Umumnya pakan ternak berprotein tinggi itu biaya pakan akan mahal, dan pakan ternak berkalori tinggi akan membuat terlalu gemuk."
+      },
+      {
+       "p": "Kemudian, pakan ternak yang dipikirkan untuk perbaikan mutu daging adalah campuran dedak bir atau dedak fermentasi alkohol untuk wiski. Untuk orientasi kesehatan, bahan makanan fungsional dapat menggunakan aditif seperti minyak ikan."
+      },
+      {
+       "h": "3 Pertumbuhan dan Perubahan Bobot Ayam Pedaging"
+      },
+      {
+       "h": "（１）Pertumbuhan Ayam Muda Pedaging (Broiler)"
+      },
+      {
+       "p": "Fase awal perkembangan broiler (umur 0-3 pekan) merupakan masa tumbuhnya tulang dan organ dalam, dimana volume asupan pakan pun sedikit, dan kemampuan pencernaan belum cukup berkembang. Bobot saat mulai pemberian umpan sekitar 40 g, dan akan menjadi sekitar 850 g pada 3 pekan. Bobot akan bertambah, semakin peka terhadap perubahan suhu, sehingga volume ventilasi yang dibutuhkan pun meningkat secara signifikan. Pada fase akhir dan masa jadi (umur 4-8 pekan), setiap hari bobot akan meningkat cepat karena merupakan masa berkembangnya otot. Fungsi penyesuaian suhu tubuh telah terbentuk, ganti bulu pun akan selesai. Berkelompoknya anak ayam akan terlihat semakin luas, dan kemampuan adaptasi terhadap lingkungan akan meningkat, namun sebaliknya, karena kandang akan menjadi padat dan lingkungan mudah memburuk, maka pengelolaan ventilasi akan menjadi penting. Bobot akan menjadi sekitar 3,0 kg pada saat pengiriman di umur 7-8 pekan."
+      },
+      {
+       "h": "（２）Pertumbuhan Jidori"
+      },
+      {
+       "p": "Terdapat perbedaan pada jidori tergantung varietas dan mereknya, namun karena periode pemeliharaannya panjang, maka bobot jantan dan betina akan sangat berbeda. Memasuki umur lebih dari 20 pekan, akan terdapat perbedaan bobot sekitar 1,0 kg, dimana jantan berbobot 3,0 kg dan betina berboto 2,0 kg. Tentu saja volume asupan pakan pada fase pemeliharaan akan menjadi banyak, yakni jantan sekitar 13,0 kg dan betina sekitar 10,0 kg."
+      },
+      {
+       "p": "4 Pengelolaan Pemeliharaan (Sejak Anak Ayam Baru Dimasukkan Hingga Pengiriman) Sejak anak ayam dimasukkan, pemberian umpan hingga umur 3 pekan disebut fase awal, setelahnya disebut fase akhir. Bobot broiler umum akan melebihi 3 kg untuk jantan, dan menjadi hampir 3 kg untuk betina pada umur 8 pekan."
+      },
+      {
+       "p": "Pemeliharaan broiler pada dasarnya tidak berbeda dengan pemeliharaan ayam petelur, namun tujuan broiler adalah penggemukan. Dari situ, untuk meningkatkan volume produksi per unit area, maka banyak dilakukan dengan pemeliharaan yang berprasyarat tidak sehat, antara lain kepadatan pemeliharaan ditingkatkan, gerakan dibatasi, diberikan pakan berprotein tinggi, berkalori tinggi, dan sebagainya. Karena bila pengelolaan kurang cukup akan mudah muncul penyakit, maka perlu berhati-hati."
+      },
+      {
+       "h": "（１）Pengelolaan Fase Awal"
+      },
+      {
+       "p": "Fase awal broiler pada pemeliharaan tipe umbaran adalah dengan memasukkan bahan alas lantai di lantai kandang ayam, dan perlu dihangatkan dengan perangkat pemanas selama 2-4 pekan. Pengelolaan suhu pemeliharaan adalah penting, dimana bila suhu rendah maka akan mudah terjangkit asites (perut membesar secara abnormal). Kemudian, ayam yang perkembangan buruk kebanyakan akan muncul cacat di kaki, dan ayam ini segera diseleksi."
+      },
+      {
+       "h": "① Anak Ayam Baru Dimasukkan (Penerimaan Anak Ayam)"
+      },
+      {
+       "p": "Untuk pemeliharaan tipe umbaran, baik alat pemeliharaan bentuk payung maupun penghangat permukaan lantai dikelilingkan dalam bentuk lingkaran terpusat pada bagian pemanas dengan chick guard, untuk sebelumnya diberikan kehangatan. Anak ayam yang baru tiba ditampung ke dalam chick guard, dan diistirahatkan. Suhu dan kelembaban dalam chick guard adalah penting, sehingga diatur suhu (32 derajat Celsius) dan kelembaban (sekitar 65%) agar anak ayam menyebar dengan nyaman."
+      },
+      {
+       "h": "② Pemberian Umpan"
+      },
+      {
+       "p": "Agar alat pengumpan juga stabil di atas bahan alas lantai, maka gunakan kotak umpan dangkal bertepi rata (chick plate) atau piring umpan. Wadah air dipasangkan nipple drinker dan juga wadah air bentuk bell, namun agar mudah meminum maka ditambahkan juga drinker tambahan. Persiapkan agar anak ayam dapat makan dengan santai, dengan menjejerkan bergantian wadah pengumpan dan wadah air ini. Pakan untuk pemberian umpan bila diberikan umpan yang diuleni dan umpan yang ditabur dengan volume sedikit dan frekuensi sering, maka akan menjadi baik. Pemberian pakan setelah pemberian umpan pada broiler dilakukan sesuai dengan manual pengelolaan ayam praktek."
+      },
+      {
+       "h": "③ Kepadatan Pemeliharaan"
+      },
+      {
+       "p": "Kepadatan pemeliharaan sebaiknya adalah 15 ekor per meter persegi luas lantai kandang pemeliharaan. Akan mudah dipelihara dengan pemeliharaan secara sexing (pemisahan jantan dan betina), dimana kinerja penambahan bobot pun akan meningkat, namun untuk menghemat waktu pemisahan, umumnya dipelihara campur jantan dan betina."
+      },
+      {
+       "h": "④ Pengelolaan Kelembaban"
+      },
+      {
+       "p": "Karena selama penghangatan pada pemeliharaan tipe umbaran itu menjaga kelembaban akan sulit dan akan terlalu kering, maka kadang kala dilakukan penyemprotan air di bagian tengah bahan alas lantai. Kelembaban selama penghangatan (di atas 50%) akan sangat mempengaruhi perkembangan ayam setelahnya."
+      },
+      {
+       "h": "⑤ Pengelolaan Suhu"
+      },
+      {
+       "p": "Sembari melihat kondisi anak ayam, dilakukan penurunan suhu pemeliharaan. Suhu perlahan diturunkan sedikit demi sedikit agar pada umur 7 hari menjadi 29 derajat Celsius. Disesuaikan agar menjadi kisaran suhu dimana anak ayam akan tersebar merata. Setelah anak ayam diperkenalkan, bila suhu kandag tidak diturunkan, maka akan menjadi lingkungan bersuhu tinggi daripada saat pemberian umpan pada sekitar umur 2-3 hari, sehingga suhu tinggi di fase awal yang demikian ini akan membuat volume makan berkurang, dan akan berpengaruh pada penambahan bobot setelahnya, dan menjadi penyebab perbedaan besar antar individu, sehingga harus hati-hati."
+      },
+      {
+       "h": "⑥ Pembuangan Suhu"
+      },
+      {
+       "p": "Menghentikan pemanasan disebut pembuangan suhu. Pada kandang terbuka adalah sekitar umur 2 pekan di musim panas, umur 3 pekan di musim dingin. Namun, pada kandang tanpa jendela, intinya tanpa adanya pemikiran mengenai pembuangan suhu, melainkan penting memberikan keseimbangan antara suhu dan volume ventilasi di dalam kandang ayam."
+      },
+      {
+       "h": "⑦ Pengelolaan Pengumpanan dan Pemberian Air"
+      },
+      {
+       "p": "Karena anak ayam akan bertumbuh secara sangat cepat, maka tinggi, tekanan air, posisi air untuk nipple drinker maupun wadah air bentuk bell disesuaikan dengan pertumbuhan. Nipple Drinker: Setinggi yang Mudah untuk Minum Wadah Pengumpan: Tepi Piring Setinggi Tembolok Anak Ayam Betina Wadah Air Bentuk Bell: Dasar Piring Setinggi Pundak Anak"
+      },
+      {
+       "h": "⑧ Pengelolaan Chick Guard"
+      },
+      {
+       "p": "Setelah pemberian umpan, maka lingkaran akan membesar seiring pertumbuhan anak ayam. Karena anak ayam akan capat melompati chick guard pada sekitar umur 10-13 hari, maka pada sekitar umur itu chick guard dilepas."
+      },
+      {
+       "h": "⑨ Ventilasi Udara"
+      },
+      {
+       "p": "Karena kepadatan pemeliharaan tinggi dan kelompok ayam pun besar, maka terutama hati- hati terhadap ventilasi udara."
+      },
+      {
+       "h": "⑩ Pengelolaan Cahaya"
+      },
+      {
+       "p": "Untuk kandang ayam tanpa jendela, dilakukan penerangan untuk ayam ayam hingga umur 1 pekan dengan tingkat penerangan 5 lux diterangi 24 jam, umur 2-3 pekan 3 lux, lebih dari itu diterangi 23 jam dengan penerangan rendah sekitar 0,5 lux. Pada kandang ayam tipe terbuka, siang cahaya alami, sementara malam diterangi dengan pencahayaan ini."
+      },
+      {
+       "h": "（２）Pengelolaan Fase Akhir"
+      },
+      {
+       "p": "Saat berumur 4 pekan, pakan ternak diganti dari pakan untuk fase awal dan pemeliharaan, menjadi pakan untuk fase akhir dan masa jadi. Anak ayam akan cukup berkembang, volume asupan pakan akan meningkat, dan volume kotoran pun akan menjadi banyak. Kemudian, sejak sekitar saat ini karena akan masuk ke kondisi pemeliharaan padat, maka dilakukan ventilasi udara. Terutama, penting untuk melakukan pengaliran udara ke permukaan lantai pada pemeliharaan tipe umbaran. Berdasarkan hal itu, maka bahan alas lantai akan mengering secara optimal, dan munculnya gas berbahaya pun akan berkurang."
+      },
+      {
+       "p": "Begitu menjadi fase akhir, seiring dengan bertambah bobot pergerakan akan semakin lamban, dan perbedaan perkembangan jantan dan betina akan semakin besar. Pada suhu dalam kandang ayam 19-23 derajat Celsius di periode ini volume asupan pakan adalah paling banyak, dan seiring dengan itu, maka volume peningkatan bobot pun akan menjadi banyak. Namun, pada saat panas di musim panas perlu tindakan pencegahan panas seperti hembusan angin, atau pun pembatasan pemberian pakan. Lebih lagi, saat mendadak suhu tinggi lebih dari 30 derajat Celsius, perlu hati- hati karena akan muncul sakit serangan panas (heat stroke)."
+      },
+      {
+       "h": "（３）Pengiriman"
+      },
+      {
+       "p": "Pada sekitar umur 6-7 pekan, anak ayam betina akan dikirimkan (take out). Karena setelahnya, perkembangan betina akan melambat. Tempat pemeliharaan jantan diperluas seluas area kosong setelah take out. Setelah take out, maka pada sekitar umur 9 pekan seluruh anak ayam akan dikirimkan. Standarnya adalah mengirimkan 32-35 kg dengan bobot mentah per meter persegi termasuk pengiriman take out."
+      },
+      {
+       "h": "5 Pengelolaan Sanitasi Ayam Pedaging (All In All Out dan Disinfeksinya)"
+      },
+      {
+       "p": "（１）Pembersihan Setelah Pengiriman dan Sebelum Memasukkan Anak Ayam Metode umum pada broiler adalah all in all out, yakni memasukkan hanya anak ayam yang hari menetasnya sama pada kandang ayam secara bersamaan (all in), dipelihara kemudian dikirimkan (all out)."
+      },
+      {
+       "p": "Karena kandang ayam digunakan berulang pada pengelolaan pemeliharaan pada periode tertentu (sejak memasukkan anak ayam hingga pengiriman), maka seiring dengan waktu terdapat kemungkinan tertinggalnya berbagai jenis patogen. Tujuan dari disinfektan adalah penghilangan menyeluruh bakteri patogen, mikroorganisme patogen, serangga berbahaya dan sebagainya yang ditinggalkan oleh ayam yang diperlihara sebelumnya. Setelah selesai dikirimkan, maka segera lakukan pembersihan kotoran pada kandang ayam yang kosong. Sebelum memasukkan anak ayam berikutnya, maka harus menghilangkan seluruh bahan alas lantai, lakukan insektisida, cuci seluruhnya, dan lakukan disinfeksi seluruhnya. Kemudian, tidak hanya bagian dalam kandang ayam saja, melainkan lakukan pembersihan, insektisida, pencucian, dan disinfeksi pada sekitar kandang ayam juga."
+      },
+      {
+       "h": "（２）Pengendalian Hama Binatang Liar"
+      },
+      {
+       "p": "Agar tikus atau burung liar tidak masuk ke dalam kandang ayam, maka dipasang jala logam atau jaring pencegah burung."
+      },
+      {
+       "h": "（３）Penggunaan Vaksin dan Obat Pencegahan"
+      },
+      {
+       "p": "Suntikan vaksin akan efisien terhadap penyakit Newcastle, bronchitis menular, bronchitis laring menular, penyakit bursal menular, cacar ayam, penyakit Marek, dan sebagainya, dimana mengenai setiap vaksin dilakukan program vaksinasi sesuai dengan jadwal yang telah ditentukan."
+      },
+      {
+       "p": "Untuk broiler umumnya adalah program terpusat pada vakisn hidup yang dilemahkan (attenuated vaccine)."
+      },
+      {
+       "h": "6 Metode Pengolahan Kotoran Ayam"
+      },
+      {
+       "p": "Saat ini, sebagian besar kotoran ayam diolah dengan cara fermentasi, dan dimanfaatkan sebagai kompos. Terdapat metode fermentasi dengan metode pengendapan, metode pengadukan tipe terbuka, metode pengadukan tipe tertutup, dan sebagainya. Metode pengolahan kotoran broiler kebanyakan pada fasilitas fermentasi bentuk terbuka. Karena campuran bahan alas lantai kotoran ayam broiler kebanyakan berkelembaban rendah, maka bila melakukan pengolahan fermentasi pada kandang kompos atau fasilitas fermentasi tipe kotak, maka perlu melakukan penyesuaian kelembaban pada fase awal. Kemudian, pengolahan kotoran pada fasilitas fermentasi tipe tertutup itu akan selesai dengan cepat, namun karena zat penghambat pertumbuhan bahan alas lantai seperti serbuk gergaji itu kadang tidak cukup terurai, maka harus berhati-hati."
+      },
+      {
+       "h": "7 Perencanaan Pemeliharaan dan Penilaian Kemampuan"
+      },
+      {
+       "h": "（１）Perencanaan Pemeliharaan"
+      },
+      {
+       "p": "Saat ini, sebagian besar broiler diperlihara dengan produksi kontrak dengan perusahaan pemeliharaan, organisasi perusahaan perdagangan, dan sebagainya. Karena hari pengenalan, jumlah ekor yang diperkenalkan, umur hari pengiriman dan sebagainya ditentukan dengan kontrak, maka perlu sebelumnya merencanakan fasilitas dan pengerjaan."
+      },
+      {
+       "h": "（２）Metode Investigasi Kemampuan"
+      },
+      {
+       "p": "Karena perkembangan cepat dan periode pemeliharaan juga pendek, maka dilakukan penimbangan bobot pada setiap pekan, dan juga dilakukan pengukuran volume asupan pakan. Dari hasil itu, maka dihitung kemampuan seperti penambahan bobot dan sebagainya. Berdasarkan rasio pengiriman (proporsi jumlah yang dapat dikirim vs jumlah anak ayam baru dimasukkan), volume bobot pengiriman (volume bobot pengiriman hidup per area unit) dan sebagainya, maka keuntungan manajemen akan sangat berbeda."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 94–102). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Perkembangan broiler amat lebih cepat dari pada ayam petelur, dan banyak dikirimkan pada umur sekitar 8 pekan.",
+      "points": [
+       "② Ayam Pedaging",
+       "Cara Pelihara Ayam Pedaging, Fasilitas, dan Sarana",
+       "（１）Cara Pelihara",
+       "（２）Pola Kandang Ayam",
+       "① Kandang Ayam Tipe Terbuka",
+       "② Kandang Tanpa Jendela",
+       "（３）Tipe Penghangat",
+       "① Metode Pemeliharaan Bentuk Payung, Panekuk",
+       "② Metode Penghangat Permukaan Lantai",
+       "（４）Sarana, Peralatan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 94–102)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s6",
+    "no": 6,
+    "title": {
+     "id": "Kuda Tipe Ringan dan Peternakan Lebah",
+     "jp": "{軽種馬|けいしゅば}・{養蜂|ようほう}"
+    },
+    "pages": [
+     103,
+     108
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "① Kuda Tipe Ringan"
+      },
+      {
+       "h": "1 Karakteristik Varietas Thoroughbred"
+      },
+      {
+       "ul": [
+        "Varietas Thoroughbred adalah binatang dengan kewaspadaan yang kuat. Kadang berlari dan mengamuk karena terkejut dengan gerakan tiba-tiba dari orang yang menanganinya. Saat bersentuhan dengan kuda, penting untuk mendekati dari arah depan, ajak bicara dengan suara ramah, dan menenangkan kuda.",
+        "Usus kuda relatif panjang dibandingkan dengan binatang lainnya, dan karena mudah terkena penyakit kolik (sakit perut), maka perlu berhati-hati dalam pengelolaan pemeliharaannya."
+       ]
+      },
+      {
+       "p": "2 Nama Bagian Tubuh Utama Varietas Thoroughbread (Perbandingan dengan Manusia)"
+      },
+      {
+       "h": "① Jambul"
+      },
+      {
+       "h": "② Surai"
+      },
+      {
+       "h": "③ Pundak"
+      },
+      {
+       "h": "④ Punggung"
+      },
+      {
+       "h": "⑤ Pantat"
+      },
+      {
+       "h": "⑥ Ekor"
+      },
+      {
+       "h": "⑦ Tinggi Badan"
+      },
+      {
+       "h": "⑧LututBelakang(LututManusia)"
+      },
+      {
+       "h": "⑨Sikut(SikutManusia)"
+      },
+      {
+       "h": "⑩SendiLengan(PergelanganTanganManusia)"
+      },
+      {
+       "p": "⑪SendiLompat(PergelanganKakiManusia) ⑫Fetlock(PangkalJariManusia) ⑬Kuku(KukuJariTengahManusia)"
+      },
+      {
+       "h": "3 Identifi kasi Individu"
+      },
+      {
+       "p": "Identifi kasi individu varietas Thoroughbred dilakukan dengan warna bulu, karakteristik (vitiligo, unyeng-unyeng, dan sebagainya), microchip, dan sebagainya. Informasi-informasi ini dicantumkan pada sertifi kat pendaftaran silsilah."
+      },
+      {
+       "h": "（１）Warna Bulu"
+      },
+      {
+       "p": "Warna bulu varietas Thoroughbred adalah 8 jenis berikut ini. Bulu Dark Chestnut Bulu Seal Brown"
+      },
+      {
+       "h": "（２）Karakteristik"
+      },
+      {
+       "ul": [
+        "Karekteristik menunjukkan vitiligo pada wajah atau keempat kaki, atau unyeng-unyeng pada seluruh tubuh."
+       ]
+      },
+      {
+       "h": "（３）Microchip"
+      },
+      {
+       "ul": [
+        "Ditanamkan pada bagian tengah kiri leher, sebelum mendapatkan pendaftaran silsilah.",
+        "Nomor microchip dicantumkan pada setifi kat pendaftaran silsilah.",
+        "Untuk menggunakan Thoroughbred pada pacuan kuda, perlu adanya penanaman microchip."
+       ]
+      },
+      {
+       "h": "4 Pakan Ternak"
+      },
+      {
+       "ul": [
+        "Terdapat pakan konsentrat dan pakan kasar sebagai pakan yang diberikan kepada Thoroughbred.",
+        "Pada pakan konsentrat, terdapat pakan campuran selain sereal utamanya seperti gandum oat, dedak gandum, dan sebagainya.",
+        "Pada pakan kasar, terdapat rumput kering yang diimpor dari luar negeri atau produksi sendiri."
+       ]
+      },
+      {
+       "h": "5 Bahan alas lantai"
+      },
+      {
+       "ul": [
+        "Ruangan bersekat pada kandang kuda disebut dengan istal, jerami dan sebagainya yang digelar sebagai lantai tidur pada istal disebut bahan alas lantai.",
+        "Pada bahan alas lantai terutama digunakan jerami padi, jerami gandum, rumput produksi sendiri, wood shave (serutan kayu), maupun serbuk gergaji.",
+        "Pada peternakan produksi digunakan jerami padi atau rumput buatan sendiri, namun pada peternakan pemeliharaan, untuk mencegah dimakannya bahan alas lantai maka banyak dipergunakan jerami gandum, wood shave, dan serbuk gergaji."
+       ]
+      },
+      {
+       "h": "② Peternakan Lebah"
+      },
+      {
+       "h": "1 Struktur Kotak Sarang"
+      },
+      {
+       "h": "（１）Kotak Sarang, Kotak Peneluran"
+      },
+      {
+       "p": "Lebah dipelihara di dalam kotak sarang"
+      },
+      {
+       "p": "(dihitung 1 koloni). Kotak sarang normalnya dapat dimasukkan sebanyak 8-10 lembar bingkai sarang, dan hidup sekitar 20.000 ekor lebah pekerja. Kemudian, saat koloni bertumbuh besar, maka diletakkan kotak tidak berdasar yang disebut kotak peneluran di atas kotak sarang, untuk menyesuaikan dengan meningkatnya jumlah lebah."
+      },
+      {
+       "h": "（２）Bingkai Sarang (Nest Spleen)"
+      },
+      {
+       "p": "Sekumpulan sarang disebut dengan bingkai sarang (nest spleen). Ini merupakan bagian dasar dari sarang lebah, yang akan menentukan besarya koloni dengan jumlah lembar bingkai sarang yang dimasukkan dalam kotak sarang, atau jumlah lembar bingkai sarang yang dimasukkan ke kotak sarang yang menyesuaikan dengan besarnya koloni."
+      },
+      {
+       "h": "（３）Wadah Pengumpan"
+      },
+      {
+       "p": "Wadah pengumpan adalah wadah untuk memberi pakan (air gula dan sebagainya) kepada lebah. Bila dimasukkan ke dalam kotak sarang, maka pakan diberikan dengan memasukkan pada bagian terluar bingkai sarang."
+      },
+      {
+       "h": "2 Makanan dan Pakan Lebah"
+      },
+      {
+       "h": "（１）Madu Bunga dan Serbuk Sari"
+      },
+      {
+       "p": "Kotak Peneluran Bingkai Sarang Wadah Pengumpan Makanan lebah adalah hanya madu bunga dan serbuk sari. Madu bunga merupakan sumber energi, serbuk sari akan menjadi mineral dan protein. Royal jelly yang diberikan pada lebah ratu dan larva adalah dihasilkan dari lebah pekerja yang memakan serbuk sari."
+      },
+      {
+       "h": "（２）Pemberian Pakan"
+      },
+      {
+       "p": "Lebah tidak perlu diberi pakan setiap hari. Namun saat madu bunga tidak terkumpul, maka kadang diberikan pakan (air gula dan sebagainya) untuk hidup lebah itu sendiri. Kemudian, pada periode dimana serbuk sari hanya sedikit, kadang diberikan pakan (pengganti serbuk bunga) yang dijual di pasaran sebagai pengganti serbuk bunga."
+      },
+      {
+       "h": "3 Aktivitas Mencari Makan Lebah"
+      },
+      {
+       "p": "Saat lebah berangkat ke bunga untuk mengambil madu atau serbuk sari, dikatakan biasanya akan terbang dengan kisaran sekitar radius 2 km, namun bila tidak ada bunga di sekitar, maka akan terbang hingga 10 km. Lebah menyukai bunga dengan tingkat konsentrasi gula tinggi, dan bunga yang paling banyak bermadu. Kemudian, untuk tidak membuang-buang energi, maka bila ada bunga bermadu baik dan bunga bermadu jelek pada jarak yang kurang lebih sama dari kotak sarang, maka bunga yang jelek akan diabaikan. Lebah memutuskan secara keseluruhan 3 unsur bunga “kualitas, volume, dan jarak”, kemudian memutuskan pergi ke bunga yang mana berdasarkan kondisi bunga di sekitarnya."
+      },
+      {
+       "p": "Kemudian, lebah terbagi atas lebah yang bertugas mengumpulkan madu dan lebah yang bertugas mengumpulkan serbuk sari, namun ada kalanya mengumpulkan keduanya tergantung keadaan. Bingkai Sarang Wadah Pengumpan Madu dan Serbuk Sari di Dalam Sarang Kotak Sarang dan Bingkai Sarang Tempat Lebah Hidup"
+      },
+      {
+       "h": "4 Penyakit Lebah"
+      },
+      {
+       "h": "（１）Penyakit Busuk (Penyakit Busuk Amerika, Penyakit Busuk Eropa)"
+      },
+      {
+       "p": "Begitu terinfeksi dengan penyakit busuk, maka akan mati saat masa larva atau pupa. Larva yang mati terinfeksi penyakit busuk Amerika akan membusuk, lengket, dan mengeluarkan bau menyengat (bau lem gelatin). Sementara, larva yang mati terinfeksi penyakit busuk Eropa tidak lengket, baunya pun berbau asam, berbeda dengan penyakit busuk Amerika."
+      },
+      {
+       "p": "Di Jepang, pencairan air tyran diakui sebagai obat pencegah penyakit busuk, namun koloni yang sudah muncul penyakit busuk harus dibuang dengan dibakar."
+      },
+      {
+       "h": "（２）Penyakit Varroa (Sindrom Tungau Varroa Destructor)"
+      },
+      {
+       "p": "AKelainan yang muncul akibat parasit Varroa Destructor disebut dengan penyakit Varroa. Darah akan dihisap oleh tungau varroa destructor ini, dan tubuh lebah akan melemah (serangga dewasa, larva, pupa). Kemudian, tungau ini akan menjadi perantara banyak virus."
+      },
+      {
+       "p": "Di Jepang, Nichino Apistan dan Apival diakui sebagai zat pembunuh tungau."
+      },
+      {
+       "h": "（３）Lain-Lain"
+      },
+      {
+       "p": "Selain yang tertera di atas pun, terdapat juga penyakit Nozema (lebah pekerja menunjukkan gejala seperti diare dan melemahkan koloni), penyakit kapur (pupa mati berbentuk putih keras seperti kapur), dan sebagainya."
+      },
+      {
+       "p": ". Larva yang Terkena Penyakit Busuk Amerika"
+      },
+      {
+       "p": "(Sumber: Departemen Pertanian Amerika Serikat) Larva yang Terkena Penyakit Busuk Eropa"
+      },
+      {
+       "p": "(Sumber: Departemen Pertanian Amerika Serikat) Larva yang Terkena Parasit Tungau Varroa Destructor Serangga Dewasa yang Parah Terkena Parasit Tungau Varroa Destructor"
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 103–108). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "2 Nama Bagian Tubuh Utama Varietas Thoroughbread (Perbandingan dengan Manusia)",
+      "points": [
+       "① Kuda Tipe Ringan",
+       "Karakteristik Varietas Thoroughbred",
+       "④ Punggung",
+       "⑦ Tinggi Badan",
+       "⑧LututBelakang(LututManusia)",
+       "⑨Sikut(SikutManusia)",
+       "⑩SendiLengan(PergelanganTanganManusia)",
+       "Identifi kasi Individu",
+       "（１）Warna Bulu",
+       "（２）Karakteristik"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 103–108)."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

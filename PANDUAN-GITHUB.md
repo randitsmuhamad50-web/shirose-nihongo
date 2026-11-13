@@ -100,3 +100,4 @@ Clear cache atau unregister service worker di DevTools. Service worker versi ber
 - **GitHub repo**: https://github.com/<username>/shirose-nihongo (private)
 - **Firebase console**: https://console.firebase.google.com/project/shirose-nihongo
 - **Netlify dashboard**: https://app.netlify.com/sites/shirose-nihongo
+<!-- redeploy 1221 -->

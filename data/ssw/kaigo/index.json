@@ -1,0 +1,29 @@
+{
+ "slug": "kaigo",
+ "nama": "Kaigo (Indonesia)",
+ "jp": "介護",
+ "book": "id",
+ "pages": {
+  "id": 271
+ },
+ "bab": [
+  {
+   "id": "bab1",
+   "file": "bab1.json"
+  },
+  {
+   "id": "bab2",
+   "file": "bab2.json"
+  },
+  {
+   "id": "bab3",
+   "file": "bab3.json"
+  },
+  {
+   "id": "bab4",
+   "file": "bab4.json"
+  }
+ ],
+ "vocab": "vocab.json",
+ "quiz": "quiz.json"
+}

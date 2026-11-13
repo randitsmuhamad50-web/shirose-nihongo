@@ -1,0 +1,306 @@
+{
+ "schema": 1,
+ "bidang": "agriculture",
+ "source": "Buku Pelajaran Pertanaman Umum (Agricultural Skill Assessment Test: General crop farming), edisi Indonesia, Ver 1.0 — National Chamber of Agriculture, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Keselamatan dan Kesehatan",
+   "jp": "{安全|あんぜん}と{健康|けんこう}"
+  },
+  "intro": {
+   "id": "Bagian 3 modul: pemakaian mesin pertanian, penyemprotan pestisida, listrik dan bahan bakar, perkakas, serta tangga secara aman.",
+   "jp": "{安全|あんぜん}と{健康|けんこう}"
+  },
+  "pages": [
+   36,
+   43
+  ],
+  "subs": [
+   {
+    "id": "a2s1",
+    "no": 1,
+    "title": {
+     "id": "Pemakaian Mesin Pertanian yang Aman",
+     "jp": "{農業機械|のうぎょうきかい}の{安全|あんぜん}な{使|つか}い{方|かた}"
+    },
+    "pages": [
+     36,
+     37
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Sebelum dan saat bekerja"
+      },
+      {
+       "ul": [
+        "Pahami dulu cara menjalankan, rem, dan menghentikan mesin dengan membaca panduannya.",
+        "**Pemeriksaan harian** dilakukan sebelum, selama, dan setelah pengoperasian. Saat memeriksa, pastikan mesin **berhenti** (kecuali memeriksa gerakan mesin yang sedang jalan).",
+        "Kalau berhenti sementara atau melepas tutup mesin, **matikan mesin**."
+       ]
+      },
+      {
+       "h": "Traktor yang dinaiki"
+      },
+      {
+       "ul": [
+        "Naik dan turun dari **sisi kiri**.",
+        "Saat melaju, **sambungkan pedal rem kiri dan kanan**.",
+        "Setelah selesai, lepaskan perlengkapan setelah dicuci atau turunkan ke tanah, lalu isi penuh tangki bahan bakar.",
+        "Melaju di jalan umum perlu **SIM**."
+       ]
+      },
+      {
+       "h": "Rencana kerja dan pakaian"
+      },
+      {
+       "ul": [
+        "Orang lelah kurang teliti sehingga mudah celaka: **istirahat** di sela pekerjaan.",
+        "**Dilarang** mengoperasikan mesin setelah minum alkohol.",
+        "Pakaian yang tepat agar tidak terlilit mesin atau sabuk: helm, sarung tangan, pakaian terusan, sepatu pengaman."
+       ]
+      },
+      {
+       "h": "Menyalakan dan mematikan"
+      },
+      {
+       "ul": [
+        "**Traktor tangan**: tuas kopling utama dan pembajakan OFF, tuas kecepatan di netral, saklar mesin ON, tarik pegangan recoil. Mematikan: turunkan putaran, kopling utama OFF, kecepatan netral, saklar mati.",
+        "**Pemotong rumput**: buka gas 1/3–separuh, tekan pompa primer beberapa kali, cuk TUTUP, tarik tali; setelah hidup cuk BUKA dan panaskan di kecepatan rendah. Mematikan: gas rendah, tekan saklar stop."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 36–37. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Mesin pertanian aman bila dipahami, diperiksa, dan dipakai dalam kondisi tubuh segar dan berpakaian tepat.",
+      "points": [
+       "Naik traktor dari sisi kiri; rem kiri-kanan disambung.",
+       "Mesin dimatikan saat berhenti atau melepas tutup.",
+       "Dilarang bekerja setelah minum alkohol."
+      ],
+      "avoid": [
+       "Memeriksa mesin dalam keadaan hidup.",
+       "Memakai pakaian longgar yang bisa terlilit."
+      ],
+      "exam": [
+       "Sisi naik traktor.",
+       "Urutan menyalakan traktor tangan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a2s2",
+    "no": 2,
+    "title": {
+     "id": "Penyemprotan Pestisida",
+     "jp": "{農薬|のうやく}{散布|さんぷ}"
+    },
+    "pages": [
+     38,
+     40
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pakaian pelindung"
+      },
+      {
+       "ul": [
+        "Pakai topi, baju lengan panjang dan celana panjang, sepatu bot, masker pertanian, kacamata pelindung (tipe goggles), dan **sarung tangan karet**.",
+        "**Dilarang** sarung tangan kain (gunte) karena bisa basah.",
+        "Lengan baju menutupi bagian atas sarung tangan; ujung celana menutupi sepatu bot."
+       ]
+      },
+      {
+       "h": "Standar pemakaian dan peralatan"
+      },
+      {
+       "ul": [
+        "Patuhi **standar pemakaian** (konsentrasi, frekuensi, masa, jumlah) dengan membaca label kemasan.",
+        "Periksa sambungan alat semprot (nosel, ring karet, sekrup, sabuk) tidak kendur atau rusak."
+       ]
+      },
+      {
+       "h": "Cara menyemprot yang benar"
+      },
+      {
+       "ul": [
+        "Cegah pestisida **terbang (drift)** ke sekitar; semprot saat angin tidak kencang, pagi atau sore yang sejuk.",
+        "Semprot **membelakangi arah angin**, menghadap ke depan, agar tidak terkena langsung.",
+        "Jangan terlalu lama; istirahat cukup. Bila pening atau mual, **segera ke dokter**.",
+        "Habiskan larutan yang disiapkan; dilarang membuang sisanya ke saluran air."
+       ]
+      },
+      {
+       "h": "Setelah menyemprot dan menyimpan"
+      },
+      {
+       "ul": [
+        "Cuci peralatan, cuci tangan, dan berkumur.",
+        "Simpan pestisida di tempat khusus yang **dikunci** dengan buku catatan pemakaian.",
+        "Pestisida beracun/berbahaya disimpan terpisah, dikunci, dan diberi tanda."
+       ]
+      },
+      {
+       "note": "Contoh hitungan: pengenceran 1.000 kali untuk 10 liter (10.000 ml) butuh 10 ml pestisida (1 ml pestisida + 999 ml air = 1 liter)."
+      },
+      {
+       "note": "Sumber: modul hal. 38–40. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pestisida aman bila memakai pakaian pelindung, patuh label, dan mencegah drift.",
+      "points": [
+       "Sarung tangan karet, bukan kain.",
+       "Menyemprot membelakangi angin.",
+       "Pengenceran 1.000 kali: 10 liter = 10 ml pestisida."
+      ],
+      "avoid": [
+       "Membuang sisa larutan ke saluran air.",
+       "Menyemprot saat angin kencang."
+      ],
+      "exam": [
+       "Hitungan pengenceran.",
+       "Penyimpanan pestisida beracun."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a2s3",
+    "no": 3,
+    "title": {
+     "id": "Listrik dan Bahan Bakar",
+     "jp": "{電源|でんげん}と{燃料|ねんりょう}"
+    },
+    "pages": [
+     40,
+     42
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Sumber listrik"
+      },
+      {
+       "ul": [
+        "Listrik pertanian: AC **100 V** dan **200 V tiga fase**. 200 V dipakai untuk mesin pengering, penggerak, dan pemanas.",
+        "Menyentuh panel/kabel dengan tangan telanjang berbahaya; menyentuh steker dengan **tangan basah** bisa menyebabkan sengatan listrik."
+       ]
+      },
+      {
+       "h": "Jenis bahan bakar"
+      },
+      {
+       "ul": [
+        "**Bensin**: traktor tangan, transplanter.",
+        "**Minyak ringan**: traktor, combine.",
+        "**Campuran bensin + oli**: pemotong rumput (dua langkah).",
+        "**Minyak berat/minyak tanah**: pengering biji-bijian, pemanas udara hangat."
+       ]
+      },
+      {
+       "h": "Aturan menangani"
+      },
+      {
+       "ul": [
+        "Pakai bahan bakar yang sesuai mesin; yang salah merusak mesin.",
+        "Matikan mesin saat mengisi; periksa tidak ada sumber api; jangan sampai meluber.",
+        "Bensin disimpan di wadah **logam**, **dilarang** di tangki polietilen minyak tanah (20 liter).",
+        "Minyak ringan boleh di wadah plastik maksimum **30 liter**.",
+        "Dilarang api di tempat penyimpanan; pasang alat pemadam.",
+        "Bahan bakar yang disimpan lama berubah sifat; jangan dipakai. Buka tutup setelah mengurangi tekanan."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 40–42. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Listrik 200 V dan bahan bakar berbahaya; pakai jenis yang tepat dan simpan di wadah yang benar.",
+      "points": [
+       "Steker jangan disentuh dengan tangan basah.",
+       "Bensin hanya di wadah logam.",
+       "Minyak ringan maksimal 30 liter di wadah plastik."
+      ],
+      "avoid": [
+       "Mengisi bahan bakar saat mesin hidup.",
+       "Menyimpan bensin di tangki polietilen."
+      ],
+      "exam": [
+       "Bahan bakar tiap mesin.",
+       "Wadah penyimpanan."
+      ]
+     }
+    }
+   },
+   {
+    "id": "a2s4",
+    "no": 4,
+    "title": {
+     "id": "Perkakas dan Tangga",
+     "jp": "{道具|どうぐ}と{脚立|きゃたつ}"
+    },
+    "pages": [
+     42,
+     43
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pembenahan perkakas"
+      },
+      {
+       "ul": [
+        "Tangani gergaji, gunting, dan sejenisnya dengan benar; simpan dengan hati-hati.",
+        "Periksa sebelum dipakai dan rawat setelah dipakai."
+       ]
+      },
+      {
+       "h": "Tangga secara aman"
+      },
+      {
+       "ul": [
+        "Periksa tidak ada bagian **retak, patah, atau bengkok**.",
+        "Pasang tangga di tempat yang **stabil**.",
+        "Pasang **stoper** (pengunci/rantai) dengan benar.",
+        "Bekerja dengan berdiri di anak tangga; **jangan** menaiki atau menunggangi papan atas.",
+        "Dilarang membungkuk dari tiang penyangga kaki tiga."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 42–43. Gambar, tabel, dan foto asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Periksa perkakas dan tangga sebelum dipakai; jangan berdiri di papan atas.",
+      "points": [
+       "Stoper tangga wajib terpasang.",
+       "Berdiri di anak tangga, bukan papan atas."
+      ],
+      "avoid": [
+       "Menunggangi papan atas tangga."
+      ],
+      "exam": [
+       "Larangan saat memakai tangga."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

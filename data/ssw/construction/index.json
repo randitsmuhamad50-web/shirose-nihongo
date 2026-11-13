@@ -1,0 +1,43 @@
+{
+ "slug": "construction",
+ "nama": "Construction — Sipil (Doboku)",
+ "jp": "建設（土木）",
+ "pages": {
+  "id": 152,
+  "jp": 121
+ },
+ "bab": [
+  {
+   "id": "bab1",
+   "file": "bab1.json"
+  },
+  {
+   "id": "bab2",
+   "file": "bab2.json"
+  },
+  {
+   "id": "bab3",
+   "file": "bab3.json"
+  },
+  {
+   "id": "bab4",
+   "file": "bab4.json"
+  },
+  {
+   "id": "bab5",
+   "file": "bab5.json"
+  },
+  {
+   "id": "bab6",
+   "file": "bab6.json"
+  },
+  {
+   "id": "bab7",
+   "file": "bab7.json"
+  }
+ ],
+ "vocab": "vocab.json",
+ "quiz": "quiz.json",
+ "figs": "figs.json",
+ "unified": true
+}

@@ -1,0 +1,2007 @@
+{
+"schema": "kana.baca/1",
+"hira": [
+{
+"k": "あおい",
+"r": "aoi",
+"a": "biru"
+},
+{
+"k": "あし",
+"r": "ashi",
+"a": "kaki"
+},
+{
+"k": "あした",
+"r": "ashita",
+"a": "besok"
+},
+{
+"k": "あめ",
+"r": "ame",
+"a": "hujan"
+},
+{
+"k": "あり",
+"r": "ari",
+"a": "semut"
+},
+{
+"k": "いえ",
+"r": "ie",
+"a": "rumah"
+},
+{
+"k": "いぬ",
+"r": "inu",
+"a": "anjing"
+},
+{
+"k": "いち",
+"r": "ichi",
+"a": "satu"
+},
+{
+"k": "いま",
+"r": "ima",
+"a": "sekarang"
+},
+{
+"k": "いし",
+"r": "ishi",
+"a": "batu"
+},
+{
+"k": "うみ",
+"r": "umi",
+"a": "laut"
+},
+{
+"k": "うた",
+"r": "uta",
+"a": "lagu"
+},
+{
+"k": "うで",
+"r": "ude",
+"a": "lengan"
+},
+{
+"k": "うま",
+"r": "uma",
+"a": "kuda"
+},
+{
+"k": "えき",
+"r": "eki",
+"a": "stasiun"
+},
+{
+"k": "えび",
+"r": "ebi",
+"a": "udang"
+},
+{
+"k": "えほん",
+"r": "ehon",
+"a": "buku bergambar"
+},
+{
+"k": "おか",
+"r": "oka",
+"a": "bukit"
+},
+{
+"k": "おかし",
+"r": "okashi",
+"a": "kue/camilan"
+},
+{
+"k": "おとこ",
+"r": "otoko",
+"a": "laki-laki"
+},
+{
+"k": "おんな",
+"r": "onna",
+"a": "perempuan"
+},
+{
+"k": "おおきい",
+"r": "ookii",
+"a": "besar"
+},
+{
+"k": "おいしい",
+"r": "oishii",
+"a": "enak"
+},
+{
+"k": "おちゃ",
+"r": "ocha",
+"a": "teh"
+},
+{
+"k": "かお",
+"r": "kao",
+"a": "wajah"
+},
+{
+"k": "かぎ",
+"r": "kagi",
+"a": "kunci"
+},
+{
+"k": "かぜ",
+"r": "kaze",
+"a": "angin; flu"
+},
+{
+"k": "かめ",
+"r": "kame",
+"a": "kura-kura"
+},
+{
+"k": "かばん",
+"r": "kaban",
+"a": "tas"
+},
+{
+"k": "からだ",
+"r": "karada",
+"a": "tubuh"
+},
+{
+"k": "き",
+"r": "ki",
+"a": "pohon"
+},
+{
+"k": "きって",
+"r": "kitte",
+"a": "perangko"
+},
+{
+"k": "きれい",
+"r": "kirei",
+"a": "cantik; bersih"
+},
+{
+"k": "くち",
+"r": "kuchi",
+"a": "mulut"
+},
+{
+"k": "くつ",
+"r": "kutsu",
+"a": "sepatu"
+},
+{
+"k": "くも",
+"r": "kumo",
+"a": "awan"
+},
+{
+"k": "くるま",
+"r": "kuruma",
+"a": "mobil"
+},
+{
+"k": "くだもの",
+"r": "kudamono",
+"a": "buah"
+},
+{
+"k": "くすり",
+"r": "kusuri",
+"a": "obat"
+},
+{
+"k": "くび",
+"r": "kubi",
+"a": "leher"
+},
+{
+"k": "こえ",
+"r": "koe",
+"a": "suara"
+},
+{
+"k": "こども",
+"r": "kodomo",
+"a": "anak"
+},
+{
+"k": "ごはん",
+"r": "gohan",
+"a": "nasi; makan"
+},
+{
+"k": "こおり",
+"r": "koori",
+"a": "es"
+},
+{
+"k": "さかな",
+"r": "sakana",
+"a": "ikan"
+},
+{
+"k": "さくら",
+"r": "sakura",
+"a": "sakura"
+},
+{
+"k": "さる",
+"r": "saru",
+"a": "monyet"
+},
+{
+"k": "さんぽ",
+"r": "sanpo",
+"a": "jalan-jalan"
+},
+{
+"k": "しお",
+"r": "shio",
+"a": "garam"
+},
+{
+"k": "しか",
+"r": "shika",
+"a": "rusa"
+},
+{
+"k": "しごと",
+"r": "shigoto",
+"a": "pekerjaan"
+},
+{
+"k": "した",
+"r": "shita",
+"a": "bawah"
+},
+{
+"k": "しんぶん",
+"r": "shinbun",
+"a": "koran"
+},
+{
+"k": "すし",
+"r": "sushi",
+"a": "sushi"
+},
+{
+"k": "すいか",
+"r": "suika",
+"a": "semangka"
+},
+{
+"k": "すき",
+"r": "suki",
+"a": "suka"
+},
+{
+"k": "すくない",
+"r": "sukunai",
+"a": "sedikit"
+},
+{
+"k": "せかい",
+"r": "sekai",
+"a": "dunia"
+},
+{
+"k": "せなか",
+"r": "senaka",
+"a": "punggung"
+},
+{
+"k": "そら",
+"r": "sora",
+"a": "langit"
+},
+{
+"k": "そば",
+"r": "soba",
+"a": "soba"
+},
+{
+"k": "たべる",
+"r": "taberu",
+"a": "makan"
+},
+{
+"k": "たまご",
+"r": "tamago",
+"a": "telur"
+},
+{
+"k": "たいせつ",
+"r": "taisetsu",
+"a": "penting"
+},
+{
+"k": "たのしい",
+"r": "tanoshii",
+"a": "menyenangkan"
+},
+{
+"k": "ちかい",
+"r": "chikai",
+"a": "dekat"
+},
+{
+"k": "ちず",
+"r": "chizu",
+"a": "peta"
+},
+{
+"k": "ちいさい",
+"r": "chiisai",
+"a": "kecil"
+},
+{
+"k": "つき",
+"r": "tsuki",
+"a": "bulan"
+},
+{
+"k": "つくえ",
+"r": "tsukue",
+"a": "meja"
+},
+{
+"k": "つめたい",
+"r": "tsumetai",
+"a": "dingin (benda)"
+},
+{
+"k": "て",
+"r": "te",
+"a": "tangan"
+},
+{
+"k": "てがみ",
+"r": "tegami",
+"a": "surat"
+},
+{
+"k": "てんき",
+"r": "tenki",
+"a": "cuaca"
+},
+{
+"k": "とり",
+"r": "tori",
+"a": "burung"
+},
+{
+"k": "ともだち",
+"r": "tomodachi",
+"a": "teman"
+},
+{
+"k": "なつ",
+"r": "natsu",
+"a": "musim panas"
+},
+{
+"k": "なまえ",
+"r": "namae",
+"a": "nama"
+},
+{
+"k": "なみ",
+"r": "nami",
+"a": "ombak"
+},
+{
+"k": "なに",
+"r": "nani",
+"a": "apa"
+},
+{
+"k": "にく",
+"r": "niku",
+"a": "daging"
+},
+{
+"k": "にほん",
+"r": "nihon",
+"a": "Jepang"
+},
+{
+"k": "にじ",
+"r": "niji",
+"a": "pelangi"
+},
+{
+"k": "ぬの",
+"r": "nuno",
+"a": "kain"
+},
+{
+"k": "ねこ",
+"r": "neko",
+"a": "kucing"
+},
+{
+"k": "ねぎ",
+"r": "negi",
+"a": "daun bawang"
+},
+{
+"k": "のむ",
+"r": "nomu",
+"a": "minum"
+},
+{
+"k": "はし",
+"r": "hashi",
+"a": "sumpit; jembatan"
+},
+{
+"k": "はな",
+"r": "hana",
+"a": "bunga; hidung"
+},
+{
+"k": "ひだり",
+"r": "hidari",
+"a": "kiri"
+},
+{
+"k": "ひるごはん",
+"r": "hirugohan",
+"a": "makan siang"
+},
+{
+"k": "ふね",
+"r": "fune",
+"a": "kapal"
+},
+{
+"k": "へび",
+"r": "hebi",
+"a": "ular"
+},
+{
+"k": "ほし",
+"r": "hoshi",
+"a": "bintang"
+},
+{
+"k": "ほね",
+"r": "hone",
+"a": "tulang"
+},
+{
+"k": "まど",
+"r": "mado",
+"a": "jendela"
+},
+{
+"k": "まち",
+"r": "machi",
+"a": "kota"
+},
+{
+"k": "まえ",
+"r": "mae",
+"a": "depan"
+},
+{
+"k": "みず",
+"r": "mizu",
+"a": "air"
+},
+{
+"k": "みみ",
+"r": "mimi",
+"a": "telinga"
+},
+{
+"k": "みち",
+"r": "michi",
+"a": "jalan"
+},
+{
+"k": "みどり",
+"r": "midori",
+"a": "hijau"
+},
+{
+"k": "みせ",
+"r": "mise",
+"a": "toko"
+},
+{
+"k": "むずかしい",
+"r": "muzukashii",
+"a": "sulit"
+},
+{
+"k": "めがね",
+"r": "megane",
+"a": "kacamata"
+},
+{
+"k": "もも",
+"r": "momo",
+"a": "persik"
+},
+{
+"k": "もり",
+"r": "mori",
+"a": "hutan"
+},
+{
+"k": "やさい",
+"r": "yasai",
+"a": "sayur"
+},
+{
+"k": "ゆき",
+"r": "yuki",
+"a": "salju"
+},
+{
+"k": "ゆび",
+"r": "yubi",
+"a": "jari"
+},
+{
+"k": "ゆめ",
+"r": "yume",
+"a": "mimpi"
+},
+{
+"k": "よる",
+"r": "yoru",
+"a": "malam"
+},
+{
+"k": "よむ",
+"r": "yomu",
+"a": "membaca"
+},
+{
+"k": "りんご",
+"r": "ringo",
+"a": "apel"
+},
+{
+"k": "るす",
+"r": "rusu",
+"a": "tidak di rumah"
+},
+{
+"k": "れい",
+"r": "rei",
+"a": "nol; contoh"
+},
+{
+"k": "ろく",
+"r": "roku",
+"a": "enam"
+},
+{
+"k": "わたし",
+"r": "watashi",
+"a": "saya"
+},
+{
+"k": "わに",
+"r": "wani",
+"a": "buaya"
+},
+{
+"k": "ぶた",
+"r": "buta",
+"a": "babi"
+},
+{
+"k": "ばら",
+"r": "bara",
+"a": "mawar"
+},
+{
+"k": "だいがく",
+"r": "daigaku",
+"a": "universitas"
+},
+{
+"k": "でんしゃ",
+"r": "densha",
+"a": "kereta listrik"
+},
+{
+"k": "ごみ",
+"r": "gomi",
+"a": "sampah"
+},
+{
+"k": "げんき",
+"r": "genki",
+"a": "sehat"
+},
+{
+"k": "ぞう",
+"r": "zou",
+"a": "gajah"
+},
+{
+"k": "じかん",
+"r": "jikan",
+"a": "waktu"
+},
+{
+"k": "ぎんこう",
+"r": "ginkou",
+"a": "bank"
+},
+{
+"k": "どうぶつ",
+"r": "doubutsu",
+"a": "hewan"
+},
+{
+"k": "べんきょう",
+"r": "benkyou",
+"a": "belajar"
+},
+{
+"k": "びょういん",
+"r": "byouin",
+"a": "rumah sakit"
+},
+{
+"k": "ぼうし",
+"r": "boushi",
+"a": "topi"
+},
+{
+"k": "ぱん",
+"r": "pan",
+"a": "roti"
+},
+{
+"k": "ぺん",
+"r": "pen",
+"a": "pena"
+},
+{
+"k": "えんぴつ",
+"r": "enpitsu",
+"a": "pensil"
+},
+{
+"k": "てんぷら",
+"r": "tenpura",
+"a": "tempura"
+},
+{
+"k": "ぽかぽか",
+"r": "pokapoka",
+"a": "hangat nyaman"
+},
+{
+"k": "ぴったり",
+"r": "pittari",
+"a": "pas"
+},
+{
+"k": "ぺらぺら",
+"r": "perapera",
+"a": "fasih"
+},
+{
+"k": "ざっし",
+"r": "zasshi",
+"a": "majalah"
+},
+{
+"k": "ずっと",
+"r": "zutto",
+"a": "terus; selama"
+},
+{
+"k": "いっしょ",
+"r": "issho",
+"a": "bersama"
+},
+{
+"k": "がっこう",
+"r": "gakkou",
+"a": "sekolah"
+},
+{
+"k": "ちょっと",
+"r": "chotto",
+"a": "sebentar"
+},
+{
+"k": "もっと",
+"r": "motto",
+"a": "lebih"
+},
+{
+"k": "きっぷ",
+"r": "kippu",
+"a": "tiket"
+},
+{
+"k": "にっき",
+"r": "nikki",
+"a": "buku harian"
+},
+{
+"k": "さっき",
+"r": "sakki",
+"a": "tadi"
+},
+{
+"k": "いっぱい",
+"r": "ippai",
+"a": "penuh"
+},
+{
+"k": "みっつ",
+"r": "mittsu",
+"a": "tiga buah"
+},
+{
+"k": "やっつ",
+"r": "yattsu",
+"a": "delapan buah"
+},
+{
+"k": "むっつ",
+"r": "muttsu",
+"a": "enam buah"
+},
+{
+"k": "よっつ",
+"r": "yottsu",
+"a": "empat buah"
+},
+{
+"k": "けっこん",
+"r": "kekkon",
+"a": "pernikahan"
+},
+{
+"k": "ひっこし",
+"r": "hikkoshi",
+"a": "pindahan"
+},
+{
+"k": "まっすぐ",
+"r": "massugu",
+"a": "lurus"
+},
+{
+"k": "ゆっくり",
+"r": "yukkuri",
+"a": "pelan-pelan"
+},
+{
+"k": "はっぱ",
+"r": "happa",
+"a": "daun"
+},
+{
+"k": "あっち",
+"r": "atchi",
+"a": "sana"
+},
+{
+"k": "しゃしん",
+"r": "shashin",
+"a": "foto"
+},
+{
+"k": "きょう",
+"r": "kyou",
+"a": "hari ini"
+},
+{
+"k": "じゅう",
+"r": "juu",
+"a": "sepuluh"
+},
+{
+"k": "びょうき",
+"r": "byouki",
+"a": "sakit"
+},
+{
+"k": "りょうり",
+"r": "ryouri",
+"a": "masakan"
+},
+{
+"k": "しゅくだい",
+"r": "shukudai",
+"a": "PR"
+},
+{
+"k": "きゃく",
+"r": "kyaku",
+"a": "tamu"
+},
+{
+"k": "ひゃく",
+"r": "hyaku",
+"a": "seratus"
+},
+{
+"k": "りゅう",
+"r": "ryuu",
+"a": "naga"
+},
+{
+"k": "しょくじ",
+"r": "shokuji",
+"a": "makan"
+},
+{
+"k": "ぎゅうにゅう",
+"r": "gyuunyuu",
+"a": "susu"
+},
+{
+"k": "じゃがいも",
+"r": "jagaimo",
+"a": "kentang"
+},
+{
+"k": "きょうしつ",
+"r": "kyoushitsu",
+"a": "ruang kelas"
+},
+{
+"k": "ちゅうごく",
+"r": "chuugoku",
+"a": "Cina"
+},
+{
+"k": "おもちゃ",
+"r": "omocha",
+"a": "mainan"
+},
+{
+"k": "おかあさん",
+"r": "okaasan",
+"a": "ibu"
+},
+{
+"k": "おにいさん",
+"r": "oniisan",
+"a": "kakak laki-laki"
+},
+{
+"k": "おねえさん",
+"r": "oneesan",
+"a": "kakak perempuan"
+},
+{
+"k": "おじいさん",
+"r": "ojiisan",
+"a": "kakek"
+},
+{
+"k": "おばあさん",
+"r": "obaasan",
+"a": "nenek"
+},
+{
+"k": "ありがとう",
+"r": "arigatou",
+"a": "terima kasih"
+},
+{
+"k": "おはよう",
+"r": "ohayou",
+"a": "selamat pagi"
+},
+{
+"k": "こんばんは",
+"r": "konbanha",
+"a": "selamat malam"
+},
+{
+"k": "さようなら",
+"r": "sayounara",
+"a": "sampai jumpa"
+},
+{
+"k": "おやすみ",
+"r": "oyasumi",
+"a": "selamat tidur"
+},
+{
+"k": "すみません",
+"r": "sumimasen",
+"a": "permisi; maaf"
+},
+{
+"k": "ごめんなさい",
+"r": "gomennasai",
+"a": "maaf"
+},
+{
+"k": "いただきます",
+"r": "itadakimasu",
+"a": "selamat makan"
+},
+{
+"k": "とうきょう",
+"r": "toukyou",
+"a": "Tokyo"
+},
+{
+"k": "とおい",
+"r": "tooi",
+"a": "jauh"
+},
+{
+"k": "おおい",
+"r": "ooi",
+"a": "banyak"
+},
+{
+"k": "えいが",
+"r": "eiga",
+"a": "film"
+},
+{
+"k": "ひこうき",
+"r": "hikouki",
+"a": "pesawat"
+},
+{
+"k": "おおさか",
+"r": "oosaka",
+"a": "Osaka"
+},
+{
+"k": "ふじさん",
+"r": "fujisan",
+"a": "Gunung Fuji"
+},
+{
+"k": "に",
+"r": "ni",
+"a": "dua"
+},
+{
+"k": "さん",
+"r": "san",
+"a": "tiga"
+},
+{
+"k": "よん",
+"r": "yon",
+"a": "empat"
+},
+{
+"k": "ご",
+"r": "go",
+"a": "lima"
+},
+{
+"k": "なな",
+"r": "nana",
+"a": "tujuh"
+},
+{
+"k": "きゅう",
+"r": "kyuu",
+"a": "sembilan"
+}
+],
+"kata": [
+{
+"k": "アイス",
+"r": "aisu",
+"a": "es"
+},
+{
+"k": "アイスクリーム",
+"r": "aisukurīmu",
+"a": "es krim"
+},
+{
+"k": "アパート",
+"r": "apāto",
+"a": "apartemen"
+},
+{
+"k": "アメリカ",
+"r": "amerika",
+"a": "Amerika"
+},
+{
+"k": "アジア",
+"r": "ajia",
+"a": "Asia"
+},
+{
+"k": "アルバイト",
+"r": "arubaito",
+"a": "kerja paruh waktu"
+},
+{
+"k": "イギリス",
+"r": "igirisu",
+"a": "Inggris"
+},
+{
+"k": "インド",
+"r": "indo",
+"a": "India"
+},
+{
+"k": "インドネシア",
+"r": "indoneshia",
+"a": "Indonesia"
+},
+{
+"k": "インターネット",
+"r": "intānetto",
+"a": "internet"
+},
+{
+"k": "イタリア",
+"r": "itaria",
+"a": "Italia"
+},
+{
+"k": "イヤホン",
+"r": "iyahon",
+"a": "earphone"
+},
+{
+"k": "エアコン",
+"r": "eakon",
+"a": "AC"
+},
+{
+"k": "エレベーター",
+"r": "erebētā",
+"a": "lift"
+},
+{
+"k": "エスカレーター",
+"r": "esukarētā",
+"a": "eskalator"
+},
+{
+"k": "エンジン",
+"r": "enjin",
+"a": "mesin"
+},
+{
+"k": "オレンジ",
+"r": "orenji",
+"a": "jeruk"
+},
+{
+"k": "オートバイ",
+"r": "ōtobai",
+"a": "sepeda motor"
+},
+{
+"k": "オーストラリア",
+"r": "ōsutoraria",
+"a": "Australia"
+},
+{
+"k": "オフィス",
+"r": "ofisu",
+"a": "kantor"
+},
+{
+"k": "オムライス",
+"r": "omuraisu",
+"a": "nasi omelet"
+},
+{
+"k": "カメラ",
+"r": "kamera",
+"a": "kamera"
+},
+{
+"k": "カレー",
+"r": "karē",
+"a": "kari"
+},
+{
+"k": "カレンダー",
+"r": "karendā",
+"a": "kalender"
+},
+{
+"k": "カーテン",
+"r": "kāten",
+"a": "gorden"
+},
+{
+"k": "カップ",
+"r": "kappu",
+"a": "cangkir"
+},
+{
+"k": "カード",
+"r": "kādo",
+"a": "kartu"
+},
+{
+"k": "ガス",
+"r": "gasu",
+"a": "gas"
+},
+{
+"k": "ガラス",
+"r": "garasu",
+"a": "kaca"
+},
+{
+"k": "ガソリン",
+"r": "gasorin",
+"a": "bensin"
+},
+{
+"k": "ギター",
+"r": "gitā",
+"a": "gitar"
+},
+{
+"k": "キッチン",
+"r": "kitchin",
+"a": "dapur"
+},
+{
+"k": "キロ",
+"r": "kiro",
+"a": "kilo"
+},
+{
+"k": "キーボード",
+"r": "kībōdo",
+"a": "keyboard"
+},
+{
+"k": "クラス",
+"r": "kurasu",
+"a": "kelas"
+},
+{
+"k": "クリスマス",
+"r": "kurisumasu",
+"a": "Natal"
+},
+{
+"k": "クッキー",
+"r": "kukkī",
+"a": "kue kering"
+},
+{
+"k": "ケーキ",
+"r": "kēki",
+"a": "kue"
+},
+{
+"k": "ゲーム",
+"r": "gēmu",
+"a": "permainan"
+},
+{
+"k": "コーヒー",
+"r": "kōhī",
+"a": "kopi"
+},
+{
+"k": "コート",
+"r": "kōto",
+"a": "mantel"
+},
+{
+"k": "コップ",
+"r": "koppu",
+"a": "gelas"
+},
+{
+"k": "コピー",
+"r": "kopī",
+"a": "fotokopi"
+},
+{
+"k": "コンビニ",
+"r": "konbini",
+"a": "minimarket"
+},
+{
+"k": "コンピューター",
+"r": "konpyūtā",
+"a": "komputer"
+},
+{
+"k": "コンサート",
+"r": "konsāto",
+"a": "konser"
+},
+{
+"k": "コーラ",
+"r": "kōra",
+"a": "cola"
+},
+{
+"k": "ココア",
+"r": "kokoa",
+"a": "cokelat panas"
+},
+{
+"k": "サッカー",
+"r": "sakkā",
+"a": "sepak bola"
+},
+{
+"k": "サラダ",
+"r": "sarada",
+"a": "salad"
+},
+{
+"k": "サンドイッチ",
+"r": "sandoitchi",
+"a": "sandwich"
+},
+{
+"k": "サイズ",
+"r": "saizu",
+"a": "ukuran"
+},
+{
+"k": "シャツ",
+"r": "shatsu",
+"a": "kemeja"
+},
+{
+"k": "シャワー",
+"r": "shawā",
+"a": "pancuran"
+},
+{
+"k": "シャンプー",
+"r": "shanpū",
+"a": "sampo"
+},
+{
+"k": "ジュース",
+"r": "jūsu",
+"a": "jus"
+},
+{
+"k": "ジャム",
+"r": "jamu",
+"a": "selai"
+},
+{
+"k": "ジーンズ",
+"r": "jīnzu",
+"a": "jeans"
+},
+{
+"k": "ジム",
+"r": "jimu",
+"a": "gym"
+},
+{
+"k": "スーパー",
+"r": "sūpā",
+"a": "supermarket"
+},
+{
+"k": "スカート",
+"r": "sukāto",
+"a": "rok"
+},
+{
+"k": "スプーン",
+"r": "supūn",
+"a": "sendok"
+},
+{
+"k": "スポーツ",
+"r": "supōtsu",
+"a": "olahraga"
+},
+{
+"k": "スマホ",
+"r": "sumaho",
+"a": "ponsel pintar"
+},
+{
+"k": "スキー",
+"r": "sukī",
+"a": "ski"
+},
+{
+"k": "ステーキ",
+"r": "sutēki",
+"a": "steik"
+},
+{
+"k": "ストーブ",
+"r": "sutōbu",
+"a": "pemanas"
+},
+{
+"k": "スーツ",
+"r": "sūtsu",
+"a": "setelan jas"
+},
+{
+"k": "スイッチ",
+"r": "suitchi",
+"a": "saklar"
+},
+{
+"k": "セーター",
+"r": "sētā",
+"a": "sweter"
+},
+{
+"k": "セット",
+"r": "setto",
+"a": "set"
+},
+{
+"k": "ソファ",
+"r": "sofa",
+"a": "sofa"
+},
+{
+"k": "ソース",
+"r": "sōsu",
+"a": "saus"
+},
+{
+"k": "ソーセージ",
+"r": "sōsēji",
+"a": "sosis"
+},
+{
+"k": "タクシー",
+"r": "takushī",
+"a": "taksi"
+},
+{
+"k": "タオル",
+"r": "taoru",
+"a": "handuk"
+},
+{
+"k": "タイ",
+"r": "tai",
+"a": "Thailand"
+},
+{
+"k": "ダンス",
+"r": "dansu",
+"a": "dansa"
+},
+{
+"k": "ダイエット",
+"r": "daietto",
+"a": "diet"
+},
+{
+"k": "チーズ",
+"r": "chīzu",
+"a": "keju"
+},
+{
+"k": "チョコレート",
+"r": "chokorēto",
+"a": "cokelat"
+},
+{
+"k": "チケット",
+"r": "chiketto",
+"a": "tiket"
+},
+{
+"k": "チーム",
+"r": "chīmu",
+"a": "tim"
+},
+{
+"k": "テーブル",
+"r": "tēburu",
+"a": "meja"
+},
+{
+"k": "テレビ",
+"r": "terebi",
+"a": "televisi"
+},
+{
+"k": "テニス",
+"r": "tenisu",
+"a": "tenis"
+},
+{
+"k": "テスト",
+"r": "tesuto",
+"a": "ujian"
+},
+{
+"k": "ティッシュ",
+"r": "tisshu",
+"a": "tisu"
+},
+{
+"k": "トイレ",
+"r": "toire",
+"a": "toilet"
+},
+{
+"k": "トマト",
+"r": "tomato",
+"a": "tomat"
+},
+{
+"k": "トラック",
+"r": "torakku",
+"a": "truk"
+},
+{
+"k": "ドア",
+"r": "doa",
+"a": "pintu"
+},
+{
+"k": "ドライヤー",
+"r": "doraiyā",
+"a": "pengering rambut"
+},
+{
+"k": "ドラマ",
+"r": "dorama",
+"a": "drama"
+},
+{
+"k": "ドレス",
+"r": "doresu",
+"a": "gaun"
+},
+{
+"k": "ドル",
+"r": "doru",
+"a": "dolar"
+},
+{
+"k": "トースト",
+"r": "tōsuto",
+"a": "roti panggang"
+},
+{
+"k": "ナイフ",
+"r": "naifu",
+"a": "pisau"
+},
+{
+"k": "ナプキン",
+"r": "napukin",
+"a": "serbet"
+},
+{
+"k": "ニュース",
+"r": "nyūsu",
+"a": "berita"
+},
+{
+"k": "ネクタイ",
+"r": "nekutai",
+"a": "dasi"
+},
+{
+"k": "ネット",
+"r": "netto",
+"a": "jaring; internet"
+},
+{
+"k": "ノート",
+"r": "nōto",
+"a": "buku catatan"
+},
+{
+"k": "ノック",
+"r": "nokku",
+"a": "ketukan"
+},
+{
+"k": "バス",
+"r": "basu",
+"a": "bus"
+},
+{
+"k": "バナナ",
+"r": "banana",
+"a": "pisang"
+},
+{
+"k": "バター",
+"r": "batā",
+"a": "mentega"
+},
+{
+"k": "バイク",
+"r": "baiku",
+"a": "motor"
+},
+{
+"k": "バスケットボール",
+"r": "basukettobōru",
+"a": "bola basket"
+},
+{
+"k": "パン",
+"r": "pan",
+"a": "roti"
+},
+{
+"k": "パソコン",
+"r": "pasokon",
+"a": "komputer pribadi"
+},
+{
+"k": "パーティー",
+"r": "pātī",
+"a": "pesta"
+},
+{
+"k": "パスポート",
+"r": "pasupōto",
+"a": "paspor"
+},
+{
+"k": "パンツ",
+"r": "pantsu",
+"a": "celana"
+},
+{
+"k": "ビール",
+"r": "bīru",
+"a": "bir"
+},
+{
+"k": "ビル",
+"r": "biru",
+"a": "gedung"
+},
+{
+"k": "ビデオ",
+"r": "bideo",
+"a": "video"
+},
+{
+"k": "ピアノ",
+"r": "piano",
+"a": "piano"
+},
+{
+"k": "ピザ",
+"r": "piza",
+"a": "pizza"
+},
+{
+"k": "ピンク",
+"r": "pinku",
+"a": "merah muda"
+},
+{
+"k": "フォーク",
+"r": "fōku",
+"a": "garpu"
+},
+{
+"k": "フランス",
+"r": "furansu",
+"a": "Prancis"
+},
+{
+"k": "プール",
+"r": "pūru",
+"a": "kolam renang"
+},
+{
+"k": "プレゼント",
+"r": "purezento",
+"a": "hadiah"
+},
+{
+"k": "プリン",
+"r": "purin",
+"a": "puding"
+},
+{
+"k": "ブラシ",
+"r": "burashi",
+"a": "sikat"
+},
+{
+"k": "ブルー",
+"r": "burū",
+"a": "biru"
+},
+{
+"k": "ベッド",
+"r": "beddo",
+"a": "tempat tidur"
+},
+{
+"k": "ペン",
+"r": "pen",
+"a": "pena"
+},
+{
+"k": "ページ",
+"r": "pēji",
+"a": "halaman"
+},
+{
+"k": "ベルト",
+"r": "beruto",
+"a": "ikat pinggang"
+},
+{
+"k": "ホテル",
+"r": "hoteru",
+"a": "hotel"
+},
+{
+"k": "ボール",
+"r": "bōru",
+"a": "bola"
+},
+{
+"k": "ボールペン",
+"r": "bōrupen",
+"a": "bolpoin"
+},
+{
+"k": "ポスト",
+"r": "posuto",
+"a": "kotak pos"
+},
+{
+"k": "ポケット",
+"r": "poketto",
+"a": "saku"
+},
+{
+"k": "ポテト",
+"r": "poteto",
+"a": "kentang"
+},
+{
+"k": "マンション",
+"r": "manshon",
+"a": "apartemen (kondominium)"
+},
+{
+"k": "マスク",
+"r": "masuku",
+"a": "masker"
+},
+{
+"k": "マフラー",
+"r": "mafurā",
+"a": "syal"
+},
+{
+"k": "メール",
+"r": "mēru",
+"a": "surel"
+},
+{
+"k": "メニュー",
+"r": "menyū",
+"a": "menu"
+},
+{
+"k": "メートル",
+"r": "mētoru",
+"a": "meter"
+},
+{
+"k": "モデル",
+"r": "moderu",
+"a": "model"
+},
+{
+"k": "モノレール",
+"r": "monorēru",
+"a": "monorel"
+},
+{
+"k": "ヨーロッパ",
+"r": "yōroppa",
+"a": "Eropa"
+},
+{
+"k": "ヨット",
+"r": "yotto",
+"a": "kapal layar"
+},
+{
+"k": "ラジオ",
+"r": "rajio",
+"a": "radio"
+},
+{
+"k": "ラーメン",
+"r": "rāmen",
+"a": "ramen"
+},
+{
+"k": "レストラン",
+"r": "resutoran",
+"a": "restoran"
+},
+{
+"k": "レモン",
+"r": "remon",
+"a": "lemon"
+},
+{
+"k": "レシート",
+"r": "reshīto",
+"a": "struk"
+},
+{
+"k": "レポート",
+"r": "repōto",
+"a": "laporan"
+},
+{
+"k": "レタス",
+"r": "retasu",
+"a": "selada"
+},
+{
+"k": "ロボット",
+"r": "robotto",
+"a": "robot"
+},
+{
+"k": "ロッカー",
+"r": "rokkā",
+"a": "loker"
+},
+{
+"k": "ワイン",
+"r": "wain",
+"a": "anggur (wine)"
+},
+{
+"k": "ワンピース",
+"r": "wanpīsu",
+"a": "terusan"
+},
+{
+"k": "ウイスキー",
+"r": "uisukī",
+"a": "wiski"
+},
+{
+"k": "ハンバーガー",
+"r": "hanbāgā",
+"a": "hamburger"
+},
+{
+"k": "ハンカチ",
+"r": "hankachi",
+"a": "saputangan"
+},
+{
+"k": "ハム",
+"r": "hamu",
+"a": "ham"
+},
+{
+"k": "ヘルメット",
+"r": "herumetto",
+"a": "helm"
+},
+{
+"k": "ホットドッグ",
+"r": "hottodoggu",
+"a": "hot dog"
+},
+{
+"k": "マラソン",
+"r": "marason",
+"a": "maraton"
+},
+{
+"k": "ミルク",
+"r": "miruku",
+"a": "susu"
+},
+{
+"k": "ミシン",
+"r": "mishin",
+"a": "mesin jahit"
+},
+{
+"k": "ミーティング",
+"r": "mītingu",
+"a": "rapat"
+},
+{
+"k": "ミキサー",
+"r": "mikisā",
+"a": "blender"
+},
+{
+"k": "ドイツ",
+"r": "doitsu",
+"a": "Jerman"
+},
+{
+"k": "ブラジル",
+"r": "burajiru",
+"a": "Brasil"
+},
+{
+"k": "ベトナム",
+"r": "betonamu",
+"a": "Vietnam"
+},
+{
+"k": "フィリピン",
+"r": "firipin",
+"a": "Filipina"
+},
+{
+"k": "ネパール",
+"r": "nepāru",
+"a": "Nepal"
+},
+{
+"k": "カンボジア",
+"r": "kanbojia",
+"a": "Kamboja"
+},
+{
+"k": "ミャンマー",
+"r": "myanmā",
+"a": "Myanmar"
+},
+{
+"k": "モンゴル",
+"r": "mongoru",
+"a": "Mongolia"
+},
+{
+"k": "ロシア",
+"r": "roshia",
+"a": "Rusia"
+},
+{
+"k": "モップ",
+"r": "moppu",
+"a": "pel"
+},
+{
+"k": "バケツ",
+"r": "baketsu",
+"a": "ember"
+},
+{
+"k": "ワックス",
+"r": "wakkusu",
+"a": "wax"
+},
+{
+"k": "ポリッシャー",
+"r": "porisshā",
+"a": "polisher"
+},
+{
+"k": "クロス",
+"r": "kurosu",
+"a": "kain lap"
+},
+{
+"k": "パッド",
+"r": "paddo",
+"a": "bantalan"
+},
+{
+"k": "カート",
+"r": "kāto",
+"a": "troli"
+},
+{
+"k": "スクレーパー",
+"r": "sukurēpā",
+"a": "scraper"
+},
+{
+"k": "ユニフォーム",
+"r": "yunifōmu",
+"a": "seragam"
+},
+{
+"k": "マニュアル",
+"r": "manyuaru",
+"a": "panduan"
+},
+{
+"k": "ルール",
+"r": "rūru",
+"a": "aturan"
+},
+{
+"k": "フロア",
+"r": "furoa",
+"a": "lantai"
+},
+{
+"k": "ロビー",
+"r": "robī",
+"a": "lobi"
+},
+{
+"k": "テント",
+"r": "tento",
+"a": "tenda"
+},
+{
+"k": "ライト",
+"r": "raito",
+"a": "lampu"
+},
+{
+"k": "ライオン",
+"r": "raion",
+"a": "singa"
+},
+{
+"k": "ゴリラ",
+"r": "gorira",
+"a": "gorila"
+},
+{
+"k": "パンダ",
+"r": "panda",
+"a": "panda"
+},
+{
+"k": "ペンギン",
+"r": "pengin",
+"a": "penguin"
+},
+{
+"k": "カンガルー",
+"r": "kangarū",
+"a": "kanguru"
+},
+{
+"k": "ホース",
+"r": "hōsu",
+"a": "selang"
+},
+{
+"k": "テープ",
+"r": "tēpu",
+"a": "selotip"
+}
+]
+}

@@ -1,0 +1,59 @@
+{
+ "id": "b2s4", "no": 4,
+ "title": { "id": "Sapu dan Pengki (Serokan)", "jp": "{自在|じざい}ぼうき・{文化|ぶんか}ちりとり" },
+ "pages": [22, 25],
+ "full": {
+  "id": [
+   { "h": "Sapu ruangan (自在ぼうき)" },
+   { "p": "Jangan menghamburkan debunya! Sapu ruangan dipakai untuk membersihkan tempat yang tidak bisa dibersihkan oleh Dust Cloth — misalnya lantai keramik (tile) bercelah, lantai batu, dan tangga. Ada tips cara pakainya." },
+   { "h": "Cara memegang" },
+   { "ul": ["Pertama, tekan ujungnya dengan ibu jari kemudian digenggam (jarak sekitar 30〜40 cm).", "Tujuannya supaya saat bagian ujungnya terkena orang lain, ibu jari Anda bisa berfungsi sebagai bantalan."] },
+   { "h": "Cara menyapu" },
+   { "ul": [
+     "Saat menyapu, sapu tidak terlepas dari lantai (jangan diayunkan sapunya).",
+     "Saat berhenti mengibaskan sapu, tekan sedikit ujung sapu agar sampahnya tidak berantakan.",
+     "Setelah membuang kotoran yang sudah disapu, pindah ke tempat selanjutnya.",
+     "Saat menyapu pinggiran dinding, berhati-hatilah agar tidak terkena plint dinding (sudut sapu sekitar 45°).",
+     "Jalur menyapu: mulai dari pintu masuk, sapu dari tepi ke tengah; kumpulkan sampah di satu titik di tengah-tengah."
+   ] },
+   { "h": "Tangga" },
+   { "p": "Tangga adalah yang paling harus diperhatikan! Agar tidak ada kecelakaan, jangan lupakan tempat menaruh peralatan dan sekitarnya." },
+   { "ul": ["Jangan taruh apapun di jalan lalu lalang; taruh barang di sudut ruangan (dasar tangga).", "Untuk sampah di tangga, kumpulkan di tengah-tengah, kemudian jatuhkan secara perlahan."] },
+   { "h": "Pengki (文化ちりとり / Serokan)" },
+   { "ul": [
+     "Setelah mengumpulkan sampah di tengah-tengah, kumpulkan sampah dengan gerakan melingkar, kemudian masukkan ke dalam pengki. Masukkan ujung sapu sampai ke dalam pengki.",
+     "Jika pengki diangkat, sampahnya akan tersisa. Ulangi gerakan barusan sampai sampahnya tidak tersisa (arahkan sapu ke bagian kanan / tegak lurus).",
+     "Setelah selesai, periksa ujung sapu; jika ada kotoran menempel, bersihkan menggunakan sikat pembersih.",
+     "Saat menyimpan sapu ruangan, arahkan ujung sapu ke atas, taruh dalam Cleaning Trolley."
+   ] }
+  ],
+  "jp": [
+   { "h": "{自在|じざい}ぼうき" },
+   { "p": "ホコリを{撒|ま}き{散|ち}らしちゃダメだよ！この{自在|じざい}ぼうきはダストクロスが{使|つか}えない{場所|ばしょ}の{清掃|せいそう}に{使用|しよう}する{資器材|しざい}です（タイル・{石材|せきざい}・{階段|かいだん}）。{使|つか}い{方|かた}にもコツがあります。" },
+   { "h": "{持|も}ち{方|かた}" },
+   { "ul": ["まず{先端|せんたん}を{上|うえ}の{手|て}の{親指|おやゆび}で{押|お}えるように{握|にぎ}る（30〜40cm）。", "これは{人|ひと}にぶつかったときに{親指|おやゆび}がクッションの{役割|やくわり}をするため。"] },
+   { "h": "{掃|は}き{方|かた}" },
+   { "ul": [
+     "{自在|じざい}ぼうきは{床|ゆか}から{離|はな}さないように{掃|は}く（{払|はら}わないでとめる）。",
+     "{掃|は}き{止|と}めるところで{毛先|けさき}を{軽|かる}くおさえるとゴミを{撒|ま}き{散|ち}らさない。",
+     "ほうきのゴミを{落|おと}としてから{次|つぎ}の{場所|ばしょ}に{移動|いどう}する。",
+     "{壁際|かべぎわ}を{掃|は}くときは{幅木|はばき}に{触|ふ}れないように{気|き}をつける（45°）。",
+     "{掃|は}き{清掃|せいそう}の{順路|じゅんろ}：{入口|いりぐち}から{始|はじ}め、ゴミは{壁際|かべぎわ}から{中央|ちゅうおう}の{一箇所|いっかしょ}に{集|あつ}める。"
+   ] },
+   { "h": "{階段|かいだん}" },
+   { "p": "{階段|かいだん}は{特|とく}に{注意|ちゅうい}が{必要|ひつよう}！{事故|じこ}を{起|お}こさないように{周|まわ}りや{資器材|しざい}を{置|お}く{場所|ばしょ}など{気配|きくば}りを{忘|わす}れないでね！" },
+   { "ul": ["{歩行動線|ほこうどうせん}にものを{置|お}かない。ものは{隅|すみ}に{置|お}く。", "{階段|かいだん}のゴミは{両端|りょうはし}から{中央|ちゅうおう}に{集|あつ}め、{静|しず}かに{落|お}とそう。"] },
+   { "h": "{文化|ぶんか}ちりとり" },
+   { "ul": [
+     "ゴミを{一箇所|いっかしょ}に{集|あつ}めてから、{円|えん}を{描|えが}くようにちりとりの{中|なか}にゴミを{回収|かいしゅう}。ちりとりの{中|なか}までブラシを{入|い}れる。",
+     "{文化|ぶんか}ちりとりを{持|も}ち{上|あ}げるとゴミが{残|のこ}っているので、ゴミがなくなるまで{繰|く}り{返|かえ}し{回収|かいしゅう}しよう（{直角|ちょっかく}に{向|む}ける）。",
+     "{作業後|さぎょうご}は{毛先|けさき}を{確認|かくにん}してゴミが{付|つ}いていたら{毛|け}カキを{使|つか}って{除去|じょきょ}しておこう。",
+     "{自在|じざい}ぼうきは{毛先|けさき}を{上|うえ}にした{状態|じょうたい}で{保管|ほかん}しておく。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Sapu ruangan: dipegang dengan ibu jari menekan ujung, tidak diayunkan, sampah dikumpulkan di tengah lalu dimasukkan ke pengki.", "points": ["Pegang ujung dengan ibu jari (30–40 cm) sebagai bantalan.", "Sapu tidak dilepas dari lantai; tekan ujung saat berhenti.", "Dinding: sudut 45°, jangan kena plint.", "Kumpulkan sampah di tengah; tangga: kumpulkan tengah lalu jatuhkan perlahan.", "Pengki: masukkan ujung sapu ke dalam; ulangi sampai bersih.", "Simpan dengan ujung sapu ke atas; bersihkan ujung sapu setelah dipakai."], "avoid": ["Mengayunkan sapu hingga debu berhamburan.", "Menaruh barang di jalur lalu lalang tangga.", "Membiarkan kotoran menempel di ujung sapu."], "exam": ["Cara memegang sapu ruangan.", "Jalur menyapu dan sudut 45° di dinding.", "Cara menyimpan sapu ruangan."] },
+  "jp": { "core": "{自在|じざい}ぼうきは{床|ゆか}から{離|はな}さず、ゴミを{中央|ちゅうおう}に{集|あつ}めて{文化|ぶんか}ちりとりで{回収|かいしゅう}する。", "points": ["{先端|せんたん}を{親指|おやゆび}で{押|お}さえて{握|にぎ}る", "{床|ゆか}から{離|はな}さない・{止|と}める{所|ところ}で{毛先|けさき}を{押|お}さえる", "{壁際|かべぎわ}は{幅木|はばき}に{注意|ちゅうい}（45°）", "{階段|かいだん}は{中央|ちゅうおう}に{集|あつ}めて{静|しず}かに{落|お}とす", "ちりとりは{毛先|けさき}を{中|なか}まで{入|い}れる", "{毛先|けさき}を{上|うえ}にして{保管|ほかん}"], "avoid": ["ほうきを{払|はら}ってホコリを{撒|ま}き{散|ち}らす", "{階段|かいだん}の{通路|つうろ}にものを{置|お}く"], "exam": ["{自在|じざい}ぼうきの{持|も}ち{方|かた}", "{順路|じゅんろ}と45°", "{保管方法|ほかんほうほう}"] }
+ }
+}

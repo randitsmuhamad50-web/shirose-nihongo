@@ -1,0 +1,35 @@
+{
+ "id": "b2s2", "no": 2,
+ "title": { "id": "Penjaminan Keamanan", "jp": "{安全|あんぜん}の{確保|かくほ}" },
+ "pages": [18, 20],
+ "full": {
+  "id": [
+   { "h": "Floor Sign (フロアサイン)" },
+   { "p": "Jika ada genangan air di lantai, segera dilap. Saat bekerja harus memasang Floor Sign. Jangan sampai tamu kecelakaan (terpeleset)! Floor Sign menandakan kalau Anda sedang bekerja." },
+   { "h": "Peralatan sesuai jenis lantai dan kotoran" },
+   { "p": "Peralatan digunakan tergantung dari jenis lantai dan kotorannya. Empat peralatan lantai: **Dust Cloth**, **Sapu Ruangan**, **Lap (Mop)**, **Penyedot Debu**." },
+   { "ul": [
+     "Lantai keramik + debu (debu dan helaian rambut yang banyak) → Dust Cloth dan Vacuum Cleaner.",
+     "Lantai karpet + debu → penyedot debu khusus untuk membersihkan lantai karpet.",
+     "Lantai berbahan batu + debu pasir (banyak kotoran debu pasir) → sapu dan Deck Brush.",
+     "Lantai yang ada noda air → kain pel (lap/mop); sering digunakan saat hujan. Sesuaikan dengan kondisinya."
+   ] }
+  ],
+  "jp": [
+   { "h": "フロアサイン" },
+   { "p": "{床|ゆか}に{水|みず}たまりがあったら{急|いそ}いで{拭|ふ}き{取|と}る。{作業|さぎょう}する{時|とき}はフロアサインを{設置|せっち}しないといけない。お{客様|きゃくさま}に{事故|じこ}があってはいけないので、{作業中|さぎょうちゅう}であることを{表示|ひょうじ}しておく{必要|ひつよう}がある。" },
+   { "h": "{床清掃|ゆかせいそう}に{使用|しよう}する{資器材|しきざい}" },
+   { "p": "{資器材|しきざい}は{床材|ゆかざい}と{汚|よご}れの{種類|しゅるい}によって{使|つか}い{分|わ}ける{必要|ひつよう}がある。ダストクロス・{自在|じざい}ぼうき・モップ・{掃除機|そうじき}。" },
+   { "ul": [
+     "ツルツルした{床|ゆか}＋ホコリ（{土砂|どしゃ}や{髪|かみ}ホコリが{多|おお}い）→ ダストクロスや{掃除機|そうじき}",
+     "カーペットの{床|ゆか}＋ホコリ → {専用|せんよう}の{掃除機|そうじき}",
+     "{石材|せきざい}の{床|ゆか}＋{土砂|どしゃ} → {自在|じざい}ぼうきやデッキブラシ",
+     "{水汚|みずよご}れのある{床|ゆか} → モップ。{雨天|うてん}のときはモップが{活躍|かつやく}するなど{状況|じょうきょう}に{合|あ}わせて{対応|たいおう}する"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Pasang Floor Sign saat bekerja; pilih alat sesuai jenis lantai dan kotoran.", "points": ["Genangan air segera dilap; pasang Floor Sign.", "Keramik + debu: Dust Cloth / penyedot debu.", "Karpet + debu: penyedot debu khusus karpet.", "Batu + debu pasir: sapu ruangan / Deck Brush.", "Noda air: lap (mop)."], "avoid": ["Bekerja tanpa Floor Sign.", "Memakai alat yang tidak cocok untuk jenis lantai."], "exam": ["Pasangan jenis lantai — alat pembersih.", "Fungsi Floor Sign."] },
+  "jp": { "core": "{作業中|さぎょうちゅう}はフロアサイン。{床材|ゆかざい}と{汚|よご}れに{合|あ}わせて{資器材|しきざい}を{選|えら}ぶ。", "points": ["{水|みず}たまりは{拭|ふ}き{取|と}る・フロアサイン", "ツルツルの{床|ゆか}：ダストクロス・{掃除機|そうじき}", "カーペット：{専用掃除機|せんようそうじき}", "{石材|せきざい}：{自在|じざい}ぼうき・デッキブラシ", "{水汚|みずよご}れ：モップ"], "avoid": ["フロアサインを{置|お}かない", "{床|ゆか}に{合|あ}わない{道具|どうぐ}を{使|つか}う"], "exam": ["{床材|ゆかざい}と{資器材|しきざい}の{組|く}み{合|あ}わせ"] }
+ }
+}

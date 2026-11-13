@@ -1,0 +1,763 @@
+1|かかと|かかと|tumit
+2|二つ折り|ふたつおり|dilipat dua
+3|||masing-masing orang
+4|||setiap satu kali
+5|一回|いっかい|satu kali
+6|一度|いちど|satu kali
+7|一度|いちど|satu kali
+8|一度|いちど|satu kali
+9|一拭き|ひとふき|satu kali lap
+10|||sekaligus
+11|||paling
+12|一番|いちばん|paling; nomor satu
+13|一筆書き|ひとふでがき|satu goresan tanpa putus
+14|||satu tempat
+15|||bersama-sama
+16|||umum
+17|||pembersih rumah tangga umum
+18|||daftar
+19|||sepatah kata
+20|||sebagian
+21|||sopan, teliti
+22|上げる|あげる|menaikkan
+23|||atas
+24|||naik-turun
+25|||bagian atas
+26|下ろす|おろす|menurunkan
+27|下がる|さがる|turun, mundur
+28|||bawah
+29|||bagian bawah
+30|||tidak beres, gangguan
+31|||kekurangan
+32|与える|あたえる|memberi
+33|||kedua sisi
+34|||kedua ujung
+35|||tengah, dalam
+36|||tengah, pusat
+37|||bagian tengah
+38|||jari tengah
+39|||keracunan
+40|||isi
+41|丸い|まるい|bulat
+42|||teliti, cermat
+43|主な|おもな|utama
+44|||komponen utama
+45|乗せる|のせる|menaruh di atas
+46|乱す|みだす|mengacaukan
+47|||kasar
+48|||sifat mengemulsi
+49|乾く|かわく|kering
+50|||tipe kering
+51|||lap kering
+52|||kecelakaan
+53|二つ|ふたつ|dua
+54|||bagian bercabang dua
+55|||saling
+56|||pertukaran, penggantian
+57|||lalu lintas
+58|||orang
+59|||orang-orang
+60|||sensor gerak manusia
+61|||hubungan antar manusia
+62|仕上げ|しあげ|finishing
+63|||pekerjaan
+64|||saat bekerja
+65|||rekan kerja
+66|仕切り|しきり|sekat
+67|||cara, metode
+68|||lain
+69|付く|つく|menempel
+70|||menempel (melekat)
+71|||teman, rekan
+72|休む|やすむ|beristirahat, tidak masuk
+73|||perusahaan
+74|||perusahaan
+75|||percakapan
+76|伝える|つたえる|menyampaikan
+77|伸ばす|のばす|meregangkan
+78|||posisi
+79|||penyesuaian posisi
+80|||tubuh
+81|||menjaga kondisi tubuh
+82|余る|あまる|bersisa
+83|作る|つくる|membuat
+84|||pekerjaan, operasi
+85|||sedang bekerja
+86|||jalur kerja
+87|||laporan kerja
+88|||pekerjaan selesai
+89|||tahapan kerja
+90|||setelah bekerja
+91|||papan tanda kerja
+92|||area kerja
+93|||mulai bekerja
+94|使う|つかう|memakai
+95|||penggunaan
+96|||sedang dipakai
+97|||sebelum dan sesudah dipakai
+98|||tempat pemakaian
+99|||sudah dipakai
+100|例えば|たとえば|misalnya
+101|||contoh
+102|||kloset
+103|||bagian dalam kloset
+104|||bagian luar kloset
+105|||untuk kloset
+106|||sarung tangan untuk kloset
+107|||dudukan kloset
+108|||penyimpanan
+109|||cara penyimpanan
+110|||sarung tangan pelindung
+111|倒す|たおす|menjatuhkan
+112|||kesehatan
+113|||sisi
+114|傾ける|かたむける|memiringkan
+115|||asal, semula
+116|||sehat, bersemangat
+117|||ujung
+118|入れる|いれる|memasukkan
+119|入る|はいる|masuk
+120|||pintu masuk
+121|||sekitar pintu masuk
+122|全て|すべて|semua
+123|||seluruh
+124|||seluruh permukaan
+125|||kerja sama
+126|||dipakai bersama
+127|||pemakaian bersama
+128|||secara konkret
+129|||dalam
+130|||dalam
+131|||sisi dalam
+132|||isi
+133|||bagian dalam
+134|||lingkaran
+135|||sarung tangan untuk pengolahan limbah
+136|||permukaan tidak rata
+137|出す|だす|mengeluarkan
+138|出る|でる|keluar
+139|||jam masuk kerja
+140|||hadir
+141|||sebelum masuk kerja
+142|||jam masuk kerja
+143|分ける|わける|memisahkan
+144|||membagi
+145|||membongkar
+146|||memisahkan
+147|||pemilahan
+148|切る|きる|memotong
+149|||pemula
+150|||membedakan
+151|||penilaian, keputusan
+152|||lain
+153|利き|きき|dominan (tangan)
+154|||pengguna
+155|||depan
+156|||maju-mundur
+157|||maju
+158|||bahan/zat
+159|割る|わる|memecahkan
+160|||bagian, rasio
+161|||tenaga
+162|||usaha
+163|||keselamatan dan kesehatan kerja
+164|||kecelakaan kerja
+165|||pekerja
+166|||kesehatan kerja
+167|||efek
+168|||efisiensi
+169|||secara efisien
+170|動かす|うごかす|menggerakkan
+171|||gerakan, bekerja (mesin)
+172|||cek pengoperasian
+173|||seenaknya
+174|勤める|つとめる|bekerja (di)
+175|||saat jam kerja
+176|||cukup
+177|||cukup hati-hati
+178|||bahaya
+179|||pelatihan prediksi bahaya
+180|||prinsip
+181|||penyebab
+182|||teman
+183|反する|はんする|bertentangan
+184|反時計回り|はんとけいまわり|berlawanan arah jarum jam
+185|||introspeksi
+186|||menyimpan
+187|||penyusutan
+188|取る|とる|mengambil
+189|受ける|うける|menerima
+190|叩く|たたく|memukul
+191|||meja/dudukan
+192|||troli
+193|叱る|しかる|memarahi
+194|||kanan
+195|||tiap tipe
+196|||tiap bagian
+197|合う|あう|cocok
+198|||resin sintetis
+199|同じ|おなじ|sama
+200|||nama
+201|向く|むく|menghadap
+202|||peningkatan
+203|吸う|すう|menyedot
+204|||menyedot
+205|吹く|ふく|meniup
+206|||sekeliling
+207|||masalah
+208|||wadah
+209|||pemeriksaan alat
+210|回る|まわる|berputar
+211|||pengumpulan
+212|||setelah dikumpulkan
+213|||putaran
+214|困る|こまる|kesulitan
+215|||menetapkan, mengunci
+216|||tanah
+217|||menempel kuat
+218|||untuk perawatan medis di rumah
+219|||merata
+220|垂れる|たれる|menetes
+221|||tegak lurus
+222|||tipe
+223|||penyedot debu tipe
+224|||dasar
+225|||bersifat dasar
+226|||prosedur pelaporan
+227|||tempat
+228|||dalam hal, kalau
+229|||tempat
+230|塗る|ぬる|mengoles
+231|||pengolesan
+232|塞ぐ|ふさぐ|menutup
+233|||pemutih berbahan klorin
+234|||jatuh dari ketinggian
+235|||jatuh (tergelincir/terjatuh)
+236|||dinding
+237|||pinggir dinding
+238|||luar
+239|外す|はずす|melepas
+240|||sisi luar
+241|||sekeliling luar
+242|多い|おおい|banyak
+243|大きさ|おおきさ|ukuran
+244|||penting
+245|||permisi (maaf)
+246|||bagian dalam
+247|始める|はじめる|memulai
+248|||sikap tubuh
+249|||bentuk huruf
+250|||ada, eksis
+251|守る|まもる|menaati
+252|||selesai
+253|定める|さだめる|menetapkan
+254|||secara berkala
+255|お客様|おきゃくさま|tamu (pelanggan)
+256|||pelayanan tamu
+257|||kerugian, bahaya
+258|||perabot
+259|||keluarga
+260|寄せる|よせる|menggeser mendekat
+261|寝かす|ねかす|membaringkan
+262|||menangani
+263|||khusus
+264|||penyedot debu khusus
+265|||hormat
+266|||pembersihan urinoir
+267|少ない|すくない|sedikit
+268|少し|すこし|sedikit
+269|||mendapat pekerjaan
+270|||pemberitahuan
+271|||akal, upaya
+272|||proses, tahapan
+273|||kiri
+274|||kiri-kanan
+275|||tangan kiri
+276|差す|さす|menyemprot/menyisipkan
+277|巻く|まく|menggulung
+278|帰る|かえる|pulang
+279|||saat pulang
+280|||selalu
+281|||lebar
+282|||permukaan datar
+283|||usia
+284|広い|ひろい|luas
+285|||lantai
+286|||saat lantai dicuci
+287|||pembersihan lantai
+288|||untuk lantai
+289|||deterjen netral untuk lantai
+290|||bahan perawat lantai
+291|||pengolesan bahan perawat lantai
+292|||bahan perawat lantai
+293|||pembersihan permukaan lantai
+294|||lorong
+295|引く|ひく|menarik
+296|||lemah
+297|||asam lemah
+298|張る|はる|merentangkan
+299|強い|つよい|kuat
+300|||sifat elastis
+301|当てる|あてる|mengenakan, menempelkan
+302|||berperan
+303|往復する|おうふくする|bolak-balik
+304|待たせる|またせる|membuat menunggu
+305|後|あと|setelah
+306|後ろ|うしろ|belakang
+307|後片付け|あとかたづけ|beres-beres
+308|||mundur
+309|従う|したがう|mengikuti
+310|||pekerja
+311|||pekerja
+312|||menyeluruh
+313|心がける|こころがける|berusaha menjaga
+314|||khawatir
+315|必ず|かならず|pasti
+316|||perlu
+317|||wajib
+318|忘れる|わすれる|lupa
+319|||nyaman
+320|念入り|ねんいり|dengan teliti
+321|思う|おもう|berpikir
+322|急ぐ|いそぐ|bergegas
+323|||sifat
+324|||jenis kelamin
+325|||deterjen berjenis
+326|悪い|わるい|buruk
+327|||pengaruh buruk
+328|||bau busuk
+329|||informasi
+330|||arti
+331|||menahan diri, bersabar
+332|戻す|もどす|mengembalikan
+333|||jumbai
+334|所|ところ|tempat
+335|||bentuk kipas
+336|手|て|tangan
+337|手入れ|ていれ|perawatan
+338|||dekat/depan
+339|||didorong tangan
+340|||pegangan tangga
+341|手洗い|てあらい|cuci tangan
+342|||prosedur
+343|||pergelangan tangan
+344|払う|はらう|membersihkan, membayar
+345|扱う|あつかう|menangani
+346|||mengerti (sopan)
+347|||teknik
+348|折る|おる|melipat
+349|抜く|ぬく|mencabut
+350|押さえる|おさえる|menahan
+351|拭く|ふく|mengelap
+352|持つ|もつ|memegang
+353|指|ゆび|jari
+354|||ujung jari
+355|||ditentukan
+356|||instruksi
+357|||cincin
+358|挟む|はさむ|menjepit
+359|振る|ふる|mengayunkan
+360|挿す|さす|menyisipkan
+361|捨てる|すてる|membuang
+362|掃く|はく|menyapu
+363|掃除する|そうじする|membersihkan
+364|掛ける|かける|menggantung
+365|接する|せっする|menghadapi (tamu)
+366|揃える|そろえる|merapikan
+367|描く|えがく|menggambar
+368|||menyediakan
+369|||deterjen kipas ventilasi
+370|握る|にぎる|menggenggam
+371|損ねる|そこねる|merusak
+372|||memasukkan barang
+373|||dibawa
+374|||ponsel
+375|撒く|まく|menabur
+376|||pengoperasian
+377|||perbaikan
+378|||kerusakan
+379|||pendidikan
+380|散らす|ちらす|menyebarkan
+381|||penyebaran
+382|敬う|うやまう|menghormati
+383|||rasa hormat
+384|整える|ととのえる|merapikan
+385|||penataan
+386|||kerapian
+387|||kebudayaan
+388|斜め|ななめ|miring
+389|新しい|あたらしい|baru
+390|||koran
+391|||kertas koran
+392|方|かた|cara
+393|||cara, metode
+394|||hari demi hari
+395|||Jepang
+396|日焼け|ひやけ|terbakar matahari
+397|||sehari-hari
+398|明るい|あかるい|terang
+399|||menjelaskan dengan jelas
+400|時|とき|saat
+401|||waktu
+402|||biasanya
+403|||tidak terangkat biasanya
+404|||biasa
+405|||lepas kendali
+406|||makan berlebihan
+407|書く|かく|menulis
+408|替える|かえる|mengganti
+409|最後|さいご|terakhir
+410|||pakaian
+411|||bahan kayu
+412|||bahan lantai kayu
+413|||buku
+414|||bagian belakang badan mesin
+415|||meja tulis
+416|染み|しみ|noda
+417|||pangkal
+418|||rak
+419|||pekerjaan
+420|||untuk keperluan usaha
+421|||tersusun
+422|様|さま|Tuan/Nyonya
+423|||berbagai
+424|||samping
+425|||posisi samping
+426|||tarikan menyamping
+427|機|き|mesin
+428|||mesin
+429|次|つぎ|berikutnya
+430|止まる|とまる|berhenti
+431|正しい|ただしい|benar
+432|||depan
+433|歩く|あるく|berjalan
+434|残す|のこす|menyisakan
+435|||tiap hari
+436|||dilakukan tiap hari
+437|||bulu
+438|||ujung bulu
+439|||rambut
+440|気|き|perhatian
+441|||perasaan
+442|||perhatian
+443|||genangan air
+444|||datar (horizontal)
+445|||bersifat air
+446|水拭き|みずぶき|lap basah
+447|水汚れ|みずよごれ|noda air
+448|||cuci dengan air
+449|求める|もとめる|dituntut
+450|汚れる|よごれる|kotor
+451|||ambang pelindung bawah
+452|||pengambilan air kotor
+453|||pengumpulan air kotor
+454|||benda kotor
+455|||wadah benda kotor
+456|||wadah benda kotor
+457|決める|きめる|memutuskan
+458|||perhatian, hati-hati
+459|||hal-hal yang perlu diperhatikan
+460|洗う|あらう|mencuci
+461|||pembersihan dengan air
+462|||seluruh wastafel
+463|||sarung tangan untuk wastafel
+464|||baskom
+465|||aktivitas
+466|||berprestasi
+467|流す|ながす|mengalirkan
+468|||air mengalir
+469|浮かす|うかす|mengangkat
+470|||deterjen kamar mandi
+471|||disinfeksi
+472|||sifat cairan
+473|||mabuk berat
+474|混ぜる|まぜる|mencampur
+475|||dilarang dicampur
+476|添える|そえる|menyertakan
+477|||pekerjaan membersihkan
+478|||setelah membersihkan
+479|||cara membersihkan
+480|||saat membersihkan
+481|||bersih
+482|済ませる|すませる|menyelesaikan
+483|減る|へる|berkurang
+484|||air hangat
+485|||pencucian air hangat
+486|||kloset air hangat (bidet)
+487|||tipe basah
+488|溜まる|たまる|menumpuk
+489|滑る|すべる|tergelincir
+490|||pemutih
+491|濡れる|ぬれる|basah
+492|||abu
+493|||titik
+494|||mengabaikan
+495|||asap
+496|燃える|もえる|terbakar
+497|||kuku
+498|片付ける|かたづける|membereskan
+499|||barang
+500|||barang
+501|||khususnya
+502|||berbentuk
+503|||keadaan
+504|||situasi
+505|狭い|せまい|sempit
+506|||lokasi kerja
+507|||alasan
+508|||memahami
+509|||lingkungan
+510|||untuk
+511|||persiapan
+512|||deterjen khusus
+513|||istilah
+514|||kegunaan
+515|||punggung tangan
+516|申す|もうす|berkata (sopan)
+517|異なる|ことなる|berbeda
+518|||kelainan
+519|||gugus hidrofobik
+520|疲れる|つかれる|lelah
+521|||penyakit
+522|||rumah sakit
+523|||selain rumah sakit
+524|||ucapan, pendapat
+525|白|しろ|putih
+526|||sebum
+527|目|め|mata
+528|||patokan
+529|||tujuan
+530|||pengecekan dengan mata
+531|直ぐ|すぐ|segera
+532|||langsung
+533|||langsung ke lantai
+534|||bersentuhan langsung
+535|||tegak lurus
+536|||lawan bicara
+537|真っ|まっ|tepat, sangat
+538|||penyedot debu vakum
+539|着る|きる|memakai (pakaian)
+540|着く|つく|tiba, menempel
+541|着崩す|きくずす|memakai berantakan
+542|着替え|きがえ|ganti baju
+543|||memakai (seragam)
+544|||tidur
+545|知る|しる|mengetahui
+546|||pendaftaran gubernur
+547|||pengetahuan
+548|石けん|せっけん|sabun
+549|||bahan batu
+550|||kerusakan
+551|硬い|かたい|keras
+552|||sifat keras
+553|||bahan lantai keras
+554|||memastikan
+555|||pengecekan
+556|礼儀正しい|れいぎただしい|sopan santun
+557|||karyawan
+558|||larangan
+559|私|わたし|saya
+560|||urusan pribadi
+561|||larangan urusan pribadi
+562|||detik
+563|||lebih dari ... detik
+564|||berpindah
+565|程|ほど|kira-kira
+566|||jenis
+567|||secara aktif
+568|穴|あな|lubang
+569|||ruang
+570|窓|まど|jendela
+571|立てる|たてる|menegakkan
+572|||posisi
+573|||tampak depan
+574|端|はし|tepi
+575|||wajah tersenyum
+576|||pertama
+577|||tempat, bagian
+578|||pengelolaan
+579|箱|はこ|kotak
+580|築く|きずく|membangun
+581|||jenis
+582|||tangan kosong
+583|||bakteri
+584|終わる|おわる|selesai
+585|組む|くむ|menyusun
+586|||pengalaman
+587|||tahun pengalaman
+588|絞る|しぼる|memeras
+589|||mutlak
+590|続く|つづく|berlanjut
+591|||mempertahankan
+592|綺麗|きれい|bersih, cantik
+593|綿|わた|kapas
+594|緑|みどり|hijau
+595|繰り返す|くりかえす|mengulang
+596|缶|かん|kaleng
+597|置く|おく|menaruh
+598|||keindahan tampilan
+599|考える|かんがえる|memikirkan
+600|聞く|きく|mendengar
+601|||tempat kerja
+602|||mata telanjang
+603|肘|ひじ|siku
+604|股|また|selangkangan
+605|||lebar bahu
+606|肺|はい|paru-paru
+607|||spora
+608|腰|こし|pinggang
+609|||diri sendiri
+610|||mesin cuci lantai otomatis
+611|||sapu serbaguna
+612|||secara alami
+613|||diri sendiri
+614|||baik
+615|色|いろ|warna
+616|芯|しん|inti
+617|||serbuk sari
+618|||peralatan teh
+619|落ちる|おちる|jatuh, terlepas
+620|落とす|おとす|menjatuhkan, menghilangkan
+621|行く|いく|pergi
+622|行う|おこなう|melakukan
+623|||bertindak
+624|||higienis
+625|||segi kebersihan
+626|表す|あらわす|menunjukkan
+627|||menampilkan
+628|||permukaan
+629|||deterjen permukaan
+630|袋|ふくろ|kantong
+631|袋|ぶくろ|kantong
+632|裂ける|さける|sobek
+633|||memasang
+634|裏|うら|belakang
+635|||sisi belakang
+636|裏返す|うらがえす|membalik
+637|||pengisian ulang
+638|裾|すそ|ujung pakaian
+639|覆う|おおう|menutupi
+640|見える|みえる|terlihat
+641|||ibu jari
+642|||gugus hidrofilik
+643|角|すみ|sudut
+644|||sudut (derajat)
+645|触る|さわる|menyentuh
+646|触れる|ふれる|tersentuh
+647|言う|いう|berkata
+648|||kata, bahasa
+649|言葉使い|ことばづかい|cara bicara
+650|||terencana
+651|||penakaran
+652|||melatih
+653|||menulis (mengisi)
+654|||memasang
+655|訳|わけ|alasan
+656|詰まる|つまる|tersumbat
+657|話す|はなす|berbicara
+658|話|はなし|pembicaraan
+659|認める|みとめる|mengakui
+660|||tertelan tak sengaja
+661|||penyesuaian
+662|譲る|ゆずる|mengalah
+663|||tanggung jawab
+664|||dipinjamkan
+665|資器材|しきざい|alat dan bahan
+666|資器材|しざい|alat dan bahan
+667|質|しつ|kualitas
+668|赤|あか|merah
+669|起こす|おこす|menimbulkan
+670|||serat sangat halus
+671|足|あし|kaki
+672|||jarak
+673|跡|あと|bekas
+674|踏む|ふむ|menginjak
+675|身|み|badan
+676|||tubuh
+677|||dekat
+678|転ぶ|ころぶ|jatuh terguling
+679|||jatuh tergelincir
+680|||poros
+681|軽い|かるい|ringan
+682|輪|わ|lingkaran
+683|辞儀|じぎ|membungkuk (ojigi)
+684|込む|こむ|masuk ke dalam
+685|近く|ちかく|dekat
+686|返す|かえす|mengembalikan
+687|||mengembalikan
+688|||sebelum pulang kerja
+689|||berhenti kerja
+690|送る|おくる|mengirim
+691|||kipas angin
+692|||kebalikan
+693|這う|はう|merayap
+694|||berangkat kerja
+695|||lorong
+696|速さ|はやさ|kecepatan
+697|進む|すすむ|maju
+698|||arah gerak maju
+699|運ぶ|はこぶ|membawa
+700|||saat dibawa
+701|||alat pemutus arus berlebih
+702|||alat
+703|違う|ちがう|berbeda
+704|遠い|とおい|jauh
+705|選ぶ|えらぶ|memilih
+706|避ける|さける|menghindari
+707|||gangguan
+708|||bagian
+709|重ねる|かさねる|menumpuk
+710|||titik berat
+711|||secara fokus
+712|||penting
+713|||besi
+714|||cermin
+715|長さ|ながさ|panjang
+716|||sisi panjang
+717|長持ち|ながもち|tahan lama
+718|||mulai
+719|||waktu mulai
+720|||antara
+721|関わる|かかわる|berkaitan
+722|||hubungan
+723|防ぐ|ふせぐ|mencegah
+724|||pencegahan
+725|降ろす|おろす|menurunkan
+726|除く|のぞく|menyingkirkan
+727|||penghilangan
+728|||penghilangan debu
+729|||keramik porselen
+730|隅|すみ|sudut
+731|||tangga
+732|||celah
+733|際|さい|saat
+734|集める|あつめる|mengumpulkan
+735|||kuman
+736|離す|はなす|melepaskan
+737|||saat hujan
+738|||mesin listrik
+739|||pemutus arus listrik
+740|||sumber listrik
+741|||sisi sumber listrik
+742|||telepon
+743|青|あお|biru
+744|静か|しずか|tenang
+745|||debu listrik statis
+746|面|めん|permukaan
+747|靴|くつ|sepatu
+748|順|じゅん|urutan
+749|||urutan
+750|||rute
+751|頑張る|がんばる|berusaha keras
+752|頭|あたま|kepala
+753|頼れる|たよれる|dapat diandalkan
+754|願う|ねがう|memohon
+755|||jenis
+756|飲む|のむ|minum
+757|||perlindungan (curing)
+758|高い|たかい|tinggi
+759|||mesin cuci tekanan tinggi
+760|||tempat tinggi
+761|髪|かみ|rambut
+762|黄色|きいろ|kuning
+763|鼻|はな|hidung

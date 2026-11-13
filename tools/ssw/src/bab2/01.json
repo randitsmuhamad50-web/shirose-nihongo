@@ -1,0 +1,104 @@
+{
+ "id": "b2s1",
+ "no": 1,
+ "title": {
+  "id": "Peralatan Yang Dibawa",
+  "jp": "{資器材|しきざい}の{搬入|はんにゅう}"
+ },
+ "pages": [
+  15,
+  17
+ ],
+ "full": {
+  "id": [
+   {
+    "note": "Halaman 16: sampul BAB 2 \"Pembersihan Harian\" (日常清掃) yang membuka bab pembersihan harian."
+   },
+   {
+    "h": "Pembersihan Harian: tempat berbeda, cara berbeda"
+   },
+   {
+    "p": "Tempat yang dibersihkan berbeda, maka cara pembersihannya juga berbeda. Contohnya: koridor dan pintu masuk, tangga, toilet."
+   },
+   {
+    "ul": [
+     "Hindari jam masuk kerja tamu saat membersihkan pintu masuk dan koridor — jangan sampai mengganggu.",
+     "Untuk toilet, selesaikan pembersihan sebelum para tamu masuk kerja. Menciptakan ruang yang nyaman sangat penting."
+    ]
+   },
+   {
+    "h": "Membawa perlengkapan"
+   },
+   {
+    "ul": [
+     "Agar tidak menghalangi para tamu, saat membawa keranjang peralatan, bawa keranjangnya dipinggir jalur lalu lalang.",
+     "Saat akan menaruh keranjang peralatan, jauhkan dari tempat orang lalu lalang (jalur lalu lalang).",
+     "Saat naik lift, jika ada tamu yang akan masuk lift, keluar dulu dari lift. Mengalah juga perlu."
+    ]
+   }
+  ],
+  "jp": [
+   {
+    "note": "16ページ：{第|だい}２{章|しょう}「{日常清掃|にちじょうせいそう}」の{扉|とびら}ページ。"
+   },
+   {
+    "h": "{日常清掃|にちじょうせいそう}は{場所|ばしょ}によって{方法|ほうほう}が{異|こと}なる"
+   },
+   {
+    "p": "{清掃|せいそう}する{場所|ばしょ}によって{清掃方法|せいそうほうほう}が{異|こと}なります。{例|たと}えば{廊下|ろうか}やエントランス、{階段|かいだん}、トイレです。"
+   },
+   {
+    "ul": [
+     "エントランスや{廊下|ろうか}の{清掃|せいそう}はお{客様|きゃくさま}の{出勤時間|しゅっきんじかん}を{避|さ}ける（{迷惑|めいわく}にならないように）",
+     "トイレはお{客様|きゃくさま}の{出社前|しゅっしゃまえ}に{済|す}ませておくなどの{気配|きくば}りも{大切|たいせつ}（{気持|きも}ちのよい{空間|くうかん}を{作|つく}る）"
+    ]
+   },
+   {
+    "h": "{資器材|しきざい}の{搬入|はんにゅう}"
+   },
+   {
+    "ul": [
+     "{作業|さぎょう}カートの{移動|いどう}はお{客様|きゃくさま}の{邪魔|じゃま}にならないよう{端|はし}に{寄|よ}って{避|さ}ける",
+     "{作業|さぎょう}カートから{離|はな}れるときは{歩行動線|ほこうどうせん}を{避|さ}けた{場所|ばしょ}に{置|お}く",
+     "エレベーターの{使用中|しようちゅう}にお{客様|きゃくさま}が{待|ま}っていたら、いったん{外|そと}に{出|で}て{譲|ゆず}るなどの{気配|きくば}りも{必要|ひつよう}"
+    ]
+   }
+  ]
+ },
+ "summary": {
+  "id": {
+   "core": "Bawa dan taruh peralatan tanpa mengganggu tamu; jadwalkan area ramai di luar jam tamu.",
+   "points": [
+    "Keranjang peralatan dibawa di pinggir jalur lalu lalang.",
+    "Saat menaruh keranjang, jauhkan dari jalur lalu lalang.",
+    "Di lift: keluar dulu jika ada tamu yang akan masuk.",
+    "Toilet dibersihkan sebelum tamu masuk kerja."
+   ],
+   "avoid": [
+    "Menghalangi jalan tamu dengan keranjang.",
+    "Membersihkan pintu masuk/koridor saat jam masuk kerja tamu."
+   ],
+   "exam": [
+    "Posisi membawa dan menaruh keranjang peralatan.",
+    "Sikap saat bertemu tamu di lift."
+   ]
+  },
+  "jp": {
+   "core": "{資器材|しきざい}はお{客様|きゃくさま}の{邪魔|じゃま}にならない{場所|ばしょ}・{時間|じかん}で{運|はこ}び、{置|お}く。",
+   "points": [
+    "{作業|さぎょう}カートは{端|はし}に{寄|よ}せて{移動|いどう}",
+    "{置|お}くときは{歩行動線|ほこうどうせん}を{避|さ}ける",
+    "エレベーターはお{客様|きゃくさま}に{譲|ゆず}る",
+    "トイレは{出社前|しゅっしゃまえ}に{済|す}ませる"
+   ],
+   "avoid": [
+    "{通路|つうろ}をふさぐ",
+    "{出勤時間|しゅっきんじかん}に{清掃|せいそう}する"
+   ],
+   "exam": [
+    "カートを{置|お}く{位置|いち}",
+    "エレベーターでの{対応|たいおう}"
+   ]
+  }
+ }
+}

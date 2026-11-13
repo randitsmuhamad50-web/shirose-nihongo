@@ -1,0 +1,2026 @@
+{
+ "schema": 1,
+ "bidang": "food-service",
+ "source": "Materi Pembelajaran untuk Penilaian Keterampilan dalam Industri Jasa Boga (Pengawasan Kebersihan / Persiapan Makanan dan Minuman / Layanan Pelanggan), versi 1 revisi 15 April 2021, terjemahan sementara Indonesia — Asosiasi Jasa Boga Jepang",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Pengawasan Kebersihan",
+   "jp": "{衛生管理|えいせいかんり}"
+  },
+  "intro": {
+   "id": "Modul 1: pengetahuan dasar keracunan makanan, praktik kebersihan yang baik, dan sistem kebersihan makanan berbasis HACCP.",
+   "jp": "{衛生管理|えいせいかんり}"
+  },
+  "pages": [
+   5,
+   28
+  ],
+  "subs": [
+   {
+    "id": "f1s1",
+    "no": 1,
+    "title": {
+     "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+     "jp": "{食中毒|しょくちゅうどく}の{基本|きほん}と{予防|よぼう}の3{原則|げんそく}"
+    },
+    "pages": [
+     5,
+     6
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Penyebab dan kategori keracunan makanan"
+      },
+      {
+       "ul": [
+        "Penyebab utama: karyawan yang kurang sehat atau cuci tangan kurang bersih, bahan baku pemasok yang tidak higienis, makanan tidak dipanaskan dengan benar, dan suhu makanan tidak diawasi.",
+        "Bakteri/virus mencemari makanan lalu pelanggan muntah dan diare. Pengawasan buruk juga bisa memasukkan **benda asing** (detergen, insektisida, kaca, serpihan logam).",
+        "**Lebih dari 90%** keracunan makanan disebabkan bakteri dan virus."
+       ]
+      },
+      {
+       "p": "Kategori: akibat **bakteri** (E. coli enterohemoragik, Salmonella, Staphylococcus), akibat **virus** (Norovirus, virus Hepatitis E), akibat **bahan kimia** (detergen, insektisida, pestisida), dan akibat **parasit** (Anisakis, cacing gelang)."
+      },
+      {
+       "h": "2. Tiga prinsip pencegahan keracunan makanan (bakteri)"
+      },
+      {
+       "ol": [
+        "**Jangan mencemari** makanan dengan mikroba patogen.",
+        "**Jangan membiakkan** mikroba patogen.",
+        "**Basmi** mikroba patogen."
+       ]
+      },
+      {
+       "h": "(1) Hindari pencemaran"
+      },
+      {
+       "p": "Di tangan ada banyak bakteri. Cuci tangan: (A) sebelum mulai menyiapkan makanan, (B) sebelum dan sesudah mengolah daging/ikan mentah dan telur, (C) setelah ke toilet atau menyeka hidung saat menyiapkan makanan. Pakai **talenan dan pisau terpisah** untuk bahan mentah; jika dipakai bersama, cuci dan disinfeksi setiap kali."
+      },
+      {
+       "h": "(2) Cegah pembiakan"
+      },
+      {
+       "ul": [
+        "Makin tinggi suhu dan kelembapan, bakteri makin cepat berkembang biak.",
+        "Pada **10℃ ke bawah** pembiakan melambat; pada **−15℃ ke bawah** tidak terjadi pembiakan.",
+        "Simpan makanan pada suhu 10℃ ke bawah dan gunakan sebelum tanggal kedaluwarsa, karena pada 10℃ pun bakteri masih membiak perlahan."
+       ]
+      },
+      {
+       "h": "(3) Basmi dengan panas"
+      },
+      {
+       "p": "Sebagian besar bakteri/virus mati oleh proses masak. Untuk **kerang-kerangan dan daging**, panaskan bagian dalam hingga **75℃** dan pertahankan **minimal 1 menit**. Makanan yang tidak dimasak (misalnya salad) harus disterilisasi/dicuci dengan benar."
+      },
+      {
+       "note": "Sumber: modul hal. 5–6 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "１．{基本的|きほんてき}な{衛生管理|えいせいかんり}の{知識|ちしき}"
+      },
+      {
+       "h": "（１）{食中毒|しょくちゅうどく}に{関|かん}する{基礎知識|きそちしき}"
+      },
+      {
+       "h": "①{飲食店|いんしょくてん}における{食中毒|しょくちゅうどく}の{主|おも}な{発生要因|はっせいよういん}"
+      },
+      {
+       "p": "{食中毒|しょくちゅうどく}の{多|おお}くは、{衛生管理|えいせいかんり}に{不備|ふび}がある{以下|いか}のような{要因|よういん}でおきています。"
+      },
+      {
+       "ul": [
+        "ア．{体調不良|たいちょうふりょう}、{手洗|てあら}い{不足|ふそく}など{調理従事者|ちょうりじゅうじしゃ}としての{衛生管理|えいせいかんり}を{守|まも}らない",
+        "イ．{衛生管理|えいせいかんり}を{十分|じゅうぶん}にしていない{業者|ぎょうしゃ}から{納品|のうひん}した{原材料|げんざいりょう}",
+        "ウ．{食品|しょくひん}の{加熱不足|かねつふそく}",
+        "エ．{食品|しょくひん}の{温度管理不備|おんどかんりふび}など"
+       ]
+      },
+      {
+       "p": "このような{要因|よういん}によって{細菌|さいきん}やウイルスが{食品|しょくひん}につき、それを{食|た}べた{人|ひと}がおう{吐|と}や{下痢|げり}などの{健康被害|けんこうひがい}が{発|はっ}{生|せい}します。また、{衛生管理|えいせいかんり}に{不備|ふび}があると、{細菌|さいきん}やウイルス{以外|いがい}にも{食品|しょくひん}についてはいけないものが{入|はい}ります。{例|たと}えば、{洗剤|せんざい}、{殺虫剤|さっちゅうざい}、ガラス、{金属片|きんぞくへん}などです。"
+      },
+      {
+       "h": "②{食中毒|しょくちゅうどく}の{分類|ぶんるい}について"
+      },
+      {
+       "p": "{食中毒|しょくちゅうどく}には、{次|つぎ}のような{分類|ぶんるい}があります。{食中毒|しょくちゅうどく}を{防止|ぼうし}するためには、それぞれの{特徴|とくちょう}に{合|あ}わせて{対応|たいおう}します。そして{食中毒|しょくちゅうどく}の90％{以上|いじょう}は、{細菌|さいきん}やウイルスによって{発生|はっせい}していますので、その{対策|たいさく}を{理解|りかい}することは{大|た}{切|いせ}です。"
+      },
+      {
+       "p": "{分類|ぶんるい}{主|おも}な{原因物質|げんいんぶっしつ}{主|おも}な{対策|たいさく}{細菌性食中毒|さいきんせいしょくちゅうどく}{腸管出血性大腸菌|ちょうかんしゅっけつせいだいちょう}（O１５７など）{細菌|さいきん}をつけないサルモネラ{属菌|ぞくきん}{細菌|さいきん}をふやさないブドウ{球菌|きゅうきん}など{細菌|さいきん}をやっつけるウイルス{性食中毒|せいしょくちゅうどく} ノロウイルス ウイルスをつけないE{型肝炎|がたかんえん}ウイルスなど ウイルスをやっつけるウイルスをもちこまないウイルスをひろげない{化学性食中毒|かがくせいしょくちゅうどく}{洗剤|せんざい}、{殺虫剤|さっちゅうざい}、{農薬|のうやく}など{化学物質|かがくぶっしつ}をつけない{寄生虫食中毒|きせいちゅうしょくちゅうどく} アニサキス、{回虫|かいちゅ}など{寄生虫|きせいちゅう}をつけない{寄生虫|きせいちゅう}をやっつける"
+      },
+      {
+       "p": "1"
+      },
+      {
+       "h": "（２）{食中毒予防|しょくちゅうどくよぼう}３{原則|げんそく}"
+      },
+      {
+       "p": "{食中毒|しょくちゅうどく}は、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}やウイルスが{食品|しょくひん}につき、それを{食|た}べることによって{発生|はっせい}します。{細菌|さいきん}による{食中毒|しょくちゅうどく}を{防|ふせ}ぐためには、{下記|かき}で{示|しめ}す{食中毒予防|しょくちゅうどくよぼう}３{原則|げんそく}が{大切|たいせつ}になります。"
+      },
+      {
+       "h": "①つけない"
+      },
+      {
+       "p": "{手|て}にはさまざまな{雑菌|ざっきん}がついています。{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}やウイルスを{食品|しょくひん}につけないように、{次|つぎ}のようなときは、かならず{手|て}を{洗|あら}います。"
+      },
+      {
+       "ul": [
+        "ア．{調理|ちょうり}をはじめるまえ",
+        "イ．{生|なま}の{肉|にく}や{魚|さか}、{卵|たま}などを{取扱|とりあつ}う{前後|ぜんご}",
+        "ウ．{調理|ちょうり}の{途中|とちゅう}で、トイレに{行|い}ったり、{鼻|はな}をかんだりしたあとなど"
+       ]
+      },
+      {
+       "p": "また、{生|なま}の{肉|にく}や{魚|さか}を{切|き}ったまな{板|いた}や{包丁|ほうちょう}には、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}がたくさんついています。そのため、そのようなものを{切|き}るまな{板|いた}や{包丁|ほうちょう}は、{加熱|かねつ}しないで{食|た}べるものと{区別|くべつ}して{使|つか}いましょう。{同|おな}じまな{板|いた}や{包丁|ほうちょう}を{使|つか}う{場合|ばあい}は、{使用|しよう}のつど、きれいに{洗|あら}い、{消毒|しょうどく}しましょう。"
+      },
+      {
+       "h": "②ふやさない"
+      },
+      {
+       "p": "{細菌|さいきん}の{多|おお}くは、{温度|おんど}と{湿度|しつど}が{高|たか}くなるとたくさんふえます。10℃{以下|いか}ではゆっくりふえます。－15℃{以下|いか}ではふえません。そのため、{食品|しょくひん}は10℃{以下|いか}で{保存|ほぞん}することが{大切|たいせつ}です。ただし、{細菌|さいきん}は10℃{以下|いか}でもゆっくりふえるため、{決|き}められた{期限内|きげんない}で{使用|しよう}することも{大切|たいせつ}です。"
+      },
+      {
+       "p": "2"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tiga prinsip: jangan cemari, jangan biakkan, basmi. Angka kunci: 10℃, −15℃, 75℃ selama 1 menit.",
+      "points": [
+       "90%+ keracunan makanan disebabkan bakteri & virus.",
+       "Cuci tangan: sebelum mulai, sebelum/sesudah bahan mentah, setelah toilet/menyeka hidung.",
+       "Pembiakan melambat ≤10℃ dan berhenti ≤−15℃.",
+       "Daging & kerang: inti 75℃ selama ≥1 menit."
+      ],
+      "avoid": [
+       "Memakai talenan/pisau yang sama untuk daging mentah dan makanan matang tanpa dicuci.",
+       "Mengira suhu 10℃ menghentikan bakteri sepenuhnya."
+      ],
+      "exam": [
+       "Sebutkan 3 prinsip pencegahan.",
+       "Suhu & waktu pemanasan inti daging/kerang."
+      ]
+     },
+     "jp": {
+      "core": "{食中毒|しょくちゅうどく}の{多|おお}くは、{衛生管理|えいせいかんり}に{不備|ふび}がある{以下|いか}のような{要因|よういん}でおきています。",
+      "points": [
+       "（１）{食中毒|しょくちゅうどく}に{関|かん}する{基礎知識|きそちしき}",
+       "①{飲食店|いんしょくてん}における{食中毒|しょくちゅうどく}の{主|おも}な{発生要因|はっせいよういん}",
+       "ア．{体調不良|たいちょうふりょう}、{手洗|てあら}い{不足|ふそく}など{調理従事者|ちょうりじゅうじしゃ}としての{衛生管理|えいせいかんり}を{守|まも}らない",
+       "イ．{衛生管理|えいせいかんり}を{十分|じゅうぶん}にしていない{業者|ぎょうしゃ}から{納品|のうひん}した{原材料|げんざいりょう}",
+       "ウ．{食品|しょくひん}の{加熱不足|かねつふそく}",
+       "②{食中毒|しょくちゅうどく}の{分類|ぶんるい}について",
+       "（２）{食中毒予防|しょくちゅうどくよぼう}３{原則|げんそく}"
+      ]
+     }
+    },
+    "pagesJp": [
+     4,
+     6
+    ]
+   },
+   {
+    "id": "f1s2",
+    "no": 2,
+    "title": {
+     "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+     "jp": "{食中毒|しょくちゅうどく}の{原因|げんいん}となる{細菌|さいきん}・ウイルス"
+    },
+    "pages": [
+     7,
+     8
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Delapan patogen umum"
+      },
+      {
+       "ol": [
+        "**E. coli enterohemoragik (O157, O111)**: ada pada jeroan sapi/babi; sangat beracun, sakit perut, diare berair dan berdarah. Muncul dari daging mentah atau kurang matang.",
+        "**Campylobacter**: ada di isi perut sapi, babi, ayam; dari daging yang mengandung bakteri atau kurang matang.",
+        "**Salmonella**: ada di isi perut sapi, babi, ayam dan **telur ayam**; dari daging mentah/kurang matang.",
+        "**Bacillus cereus**: ada di alam (sungai, tanah). Sumber: biji-bijian (termasuk beras), rempah; contoh kasus **nasi goreng (chahan)** dan **spaghetti**.",
+        "**Staphylococcus aureus**: ada di kulit, tenggorokan, dan luka manusia. Risiko tinggi bila penyaji **punya luka sayat** di tangan/jari.",
+        "**Clostridium perfringens**: ada di isi perut manusia/hewan dan tanah; membentuk spora di tempat tanpa oksigen. Makanan: **kari dan hidangan rebus/tumis**. Makanan matang harus didinginkan.",
+        "**Vibrio parahaemolyticus**: ada di air dan garam laut; aktif saat suhu laut naik di **musim panas**. Dari ikan mentah. Cuci hasil laut dengan air mengalir atau masak.",
+        "**Norovirus**: dari kerang-kerangan yang kurang matang; juga ada di feses dan muntah, jadi **cuci tangan setelah dari toilet**."
+       ]
+      },
+      {
+       "note": "Cara mengingat: daging/telur → E. coli, Campylobacter, Salmonella; nasi/pasta → Bacillus cereus; luka tangan → Staphylococcus; kari → Clostridium; ikan mentah musim panas → Vibrio; kerang + toilet → Norovirus."
+      },
+      {
+       "note": "Sumber: modul hal. 7–8 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "③やっつける"
+      },
+      {
+       "p": "{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}やウイルスは、{加熱|かねつ}することでほとんどやっつける（{殺|ころ}す）ことができます。{生|なま}の{肉|にく}、{魚|さか}、{野菜|やさい}には、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}がついている{場合|ばあい}があるため、{加熱|かねつ}をすることで{安心|あんしん}して{食|た}べることができます。{特|とく}に{二枚貝|にまいがい}（{魚介類|ぎょかいるい}）、{肉|にく}などは、{中心温度|ちゅうしんおんど}が75℃で1{分以上加熱|ぷんいじょうかねつ}することが{大切|たいせつ}です。{加熱|かねつ}しない{場合|ばあい}（サラダなど）は、{必要|ひつよう}に{応|おう}じて{殺菌|さっきん}します（{細菌|さいきん}をやっつけるため）。"
+      },
+      {
+       "p": "画像出典元"
+      },
+      {
+       "h": "（３）{食中毒|しょくちゅうどく}をひきおこす{代表的|だいひょうてき}な{細菌|さいきん}やウイルス東京都健康安全研究センターHPアーカイブセンター"
+      },
+      {
+       "h": "①{腸管出血性大腸菌|ちょうかんしゅっけつせいだいちょう}（O157、O111など）"
+      },
+      {
+       "p": "{牛|うし}や{豚|ぶた}などの{腸|ちょう}の{中|なか}にいる{病原大腸菌|びょうげんだいちょうき}の１つです。{強|つよ}い{毒|どく}をもち、{腹|ふく}{痛|つう}や{水|みず}のような{下痢|げり}、{出血|しゅっけつ}をともなう{下痢|げり}をひきおこします。{牛|うし}や{豚|ぶた}などの{肉|にく}についているため、{肉|にく}を{生|なま}で{食|た}べることによって{食中毒|しょくちゅうどく}になります。また、{加熱|かねつ}が{十分|じゅうぶん}でない{場合|ばあい}も{食中毒|しょくちゅうどく}になります。"
+      },
+      {
+       "h": "②カンピロバクター"
+      },
+      {
+       "p": "{牛|うし}や{豚|ぶた}、{鶏|とり}などの{腸|ちょう}にいる{細菌|さいきん}です。この{細菌|さいきん}がついた{肉|にく}を{生|なま}で{食|た}べると、{食中毒|しょくちゅうどく}になります。また、{加熱|かねつ}が{十分|じゅうぶん}でない{場合|ばあい}も{食中毒|しょくちゅうどく}になります。"
+      },
+      {
+       "h": "③サルモネラ{属菌|ぞくきん}"
+      },
+      {
+       "p": "{牛|うし}や{豚|ぶた}、{鶏|とり}などの{腸|ちょう}にいる{細菌|さいきん}です。この{細菌|さいきん}は{鶏|とり}の{卵|たま}にもついている{場合|ばあい}があります。{細菌|さいきん}がついた{肉|にく}を{生|なま}でたべたり、{加熱|かねつ}が{十分|じゅうぶん}でない{場合|ばあい}、{食中毒|しょくちゅうどく}になります。"
+      },
+      {
+       "p": "3"
+      },
+      {
+       "h": "④セレウス{菌|きん}"
+      },
+      {
+       "p": "{河川|かせん}や{土|つち}の{中|なか}など{自然界|しぜんかい}に{広|ひろ}く{分布|ぶんぷ}している{細菌|さいきん}です。{土|つち}がつきやすい{穀類|こくるい}（お{米|こめ}を{含|ふく}む）、{豆類|まめるい}、{香辛料|こうしんりょう}などが{主|おも}な{感染源|かんせんげん}です。きちんと{衛生管理|えいせいかんり}をしないと、チャーハンやスパゲティなどで{食中毒|しょくちゅうどく}になる{場合|ばあい}があります。"
+      },
+      {
+       "h": "⑤{黄色|おうしょく}ブドウ{球菌|きゅうきん}"
+      },
+      {
+       "p": "{人|ひと}の{皮膚|ひふ}やのど、{傷口|きずぐち}などにいる{細菌|さいきん}です。{特|とく}に{調理|ちょうり}する{人|ひと}の{手|て}や{指|ゆび}に{傷|きず}があると、{食品|しょくひん}を{汚染|おせん}する{可能性|かのうせい}が{高|たか}くなります。"
+      },
+      {
+       "h": "⑥ウェルシュ{菌|きん}"
+      },
+      {
+       "p": "{人|ひと}や{動物|どうぶつ}の{腸管|ちょうかん}や{土壌|どじょう}などに{広|ひろ}く{生息|せいそく}する{細菌|さいきん}です。{酸素|さんそ}のないところでふえ、{芽胞|がほう}を{作|つく}るのが{特徴|とくちょう}です。カレー、{煮物料理|にものりょうり}が{原因食品|げんいんしょくひん}になることがあります。{加熱調理|かねつちょうり}した{食品|しょくひん}を{速|すみ}やかに{冷|ひ}やすことが{大切|たいせつ}になります。"
+      },
+      {
+       "h": "⑦{腸炎|ちょうえん}ビブリオ"
+      },
+      {
+       "p": "{海水|かいすい}や{海|うみ}のドロなどに{生息|せいそく}する{細菌|さいきん}です。{夏場|なつば}の{海水|かいすい}の{温度|おんど}があがると、{細菌|さいきん}の{活動|かつどう}が{活発|かっぱつ}になって、{魚介類|ぎょかいるい}につきます。この{細菌|さいきん}がついた{魚|さか}を{生|なま}で{食|た}べると{食中毒|しょくちゅうどく}になります。{加熱|かねつ}したり、{魚介類|ぎょかいるい}を{真水|まみず}で{洗|あら}うことが{大切|たいせつ}になります。"
+      },
+      {
+       "h": "⑧ノロウイルス"
+      },
+      {
+       "p": "ノロウイルスに{汚染|おせん}された{二枚貝|にまいがい}（{魚介類|ぎょかいるい}）などを{十分|じゅうぶん}に{加熱|かねつ}しないで{食|た}べると{食中毒|しょくちゅうどく}になります。またノロウイルスは、ふん{便|べん}、おう{吐物|とぶつ}にもついているため、トイレのあとの{手洗|てあら}いはとても{大切|たいせつ}です。"
+      },
+      {
+       "p": "4"
+      },
+      {
+       "h": "２．{一般的衛生管理|いっぱんてきえいせいかんり}の{知識|ちしき}"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali patogen dan makanan pemicunya: kunci ke pencegahan yang tepat.",
+      "points": [
+       "O157: jeroan, daging mentah; diare berdarah.",
+       "Staphylococcus: dari luka di tangan.",
+       "Clostridium: kari/rebusan, harus didinginkan.",
+       "Norovirus: kerang dan feses/muntah."
+      ],
+      "avoid": [
+       "Menyiapkan makanan dengan luka terbuka tanpa sarung tangan.",
+       "Membiarkan kari/rebusan dingin perlahan."
+      ],
+      "exam": [
+       "Pasangkan patogen dengan makanan/sumber.",
+       "Pencegahan Vibrio dan Norovirus."
+      ]
+     },
+     "jp": {
+      "core": "{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}やウイルスは、{加熱|かねつ}することでほとんどやっつける（{殺|ころ}す）ことができます。{生|なま}の{肉|にく}、{魚|さか}、{野菜|やさい}には、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}がついている{場合|ばあい}があるため、{加熱|かねつ}をすることで{安心|あんしん}して{食|た}べることができます。{特|とく}に{二枚貝|にまいがい}（{魚介類|ぎょかいるい}）、{肉|にく}などは、{中心温度|ちゅうしんおんど}が75℃で1{分以上加熱|ぷんいじょうかねつ}することが{大切|たいせつ}です。{加熱|かねつ}しない{場合|ばあい}（サラダなど）は、{必要|ひつよう}に{応|おう}じて{殺菌|さっきん}します（{細菌|さいきん}をやっつけるため）。",
+      "points": [
+       "（３）{食中毒|しょくちゅうどく}をひきおこす{代表的|だいひょうてき}な{細菌|さいきん}やウイルス東京都健康安全研究センターHPアーカイブセンター",
+       "①{腸管出血性大腸菌|ちょうかんしゅっけつせいだいちょう}（O157、O111など）",
+       "②カンピロバクター",
+       "③サルモネラ{属菌|ぞくきん}",
+       "④セレウス{菌|きん}",
+       "⑤{黄色|おうしょく}ブドウ{球菌|きゅうきん}",
+       "⑥ウェルシュ{菌|きん}"
+      ]
+     }
+    },
+    "pagesJp": [
+     7,
+     9
+    ]
+   },
+   {
+    "id": "f1s3",
+    "no": 3,
+    "title": {
+     "id": "Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang",
+     "jp": "{納品|のうひん}{検査|けんさ}・{保管|ほかん}{温度|おんど}・{二次汚染|にじおせん}"
+    },
+    "pages": [
+     10,
+     12
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Pemeriksaan pengantaran"
+      },
+      {
+       "p": "Waspadai pasokan yang basi, kemasan rusak, lewat kedaluwarsa, atau salah penyimpanan. Prosedur:"
+      },
+      {
+       "ol": [
+        "Cocokkan produk dan jumlah dengan pesanan.",
+        "Periksa tampilan, bau, kemasan, dan label (tanggal kedaluwarsa, tanggal \"sebaiknya digunakan sebelum\", cara penyimpanan).",
+        "Jika mungkin, ukur suhu produk beku/dingin (mis. termometer inframerah); jangan biarkan di suhu ruang lama.",
+        "Ada masalah → **kembalikan** produk sesuai metode pengembalian.",
+        "Catat dalam **diari**."
+       ]
+      },
+      {
+       "note": "Histamin: ikan merah yang tidak segar dapat mengandung histamin → reaksi alergi. Segera simpan ikan di kulkas/freezer."
+      },
+      {
+       "h": "2. Pemeriksaan suhu kulkas/freezer"
+      },
+      {
+       "ul": [
+        "Pasang **termometer** di kulkas/freezer; tentukan suhu optimal tiap unit. Contoh: kulkas **tidak lebih dari 10℃**, freezer **−15℃ ke bawah**.",
+        "Periksa suhu **setiap hari** pada waktu yang ditetapkan (mis. sebelum kerja) dan cek tanggal kedaluwarsa.",
+        "Ada masalah → lapor ke penanggung jawab; catat dalam diari."
+       ]
+      },
+      {
+       "h": "3. Pencegahan kontaminasi silang"
+      },
+      {
+       "p": "**Kontaminasi silang**: bakteri dari daging/ikan mentah berpindah ke bahan atau makanan lain."
+      },
+      {
+       "ul": [
+        "Simpan daging dan ikan mentah dalam **wadah berpenutup** di **rak paling bawah** kulkas agar cairannya tidak menetes ke bahan lain.",
+        "Tentukan perkakas khusus (talenan, pisau) tiap jenis bahan; cuci dan disinfeksi setelah dipakai.",
+        "Periksa kondisi penyimpanan secara berkala; kalau talenan/pisau kotor, cuci dan disinfeksi ulang."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 10–12 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "（１）{原材料|げんざいりょう}の{受入|うけい}れの{確認|かくにん}"
+      },
+      {
+       "p": "{次|つぎ}のような{原材料|げんざいりょう}は、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などがふえている{可能性|かのうせい}があります。"
+      },
+      {
+       "ul": [
+        "ア．{原材料|げんざいりょう}がくさっているもの",
+        "イ．{包装|ほうそう}がやぶれているもの",
+        "ウ．{消費期限|しょうひきげん}がすぎているもの",
+        "エ．{保存方法|ほぞんほうほう}が{守|まも}られていないものなどそのため、{以下|いか}のような{方法|ほうほう}でしっかりと{原材料|げんざいりょう}の{受入|うけい}れの{確認|かくにん}を{行|おこ}います。"
+       ]
+      },
+      {
+       "h": "①{原材料|げんざいりょう}が{到着|とうちゃく}したら、{商品|しょうひん}、{数量|すうりょう}など、{注文|ちゅうもん}したものと{納品|のうひん}されたものがあっているかどうかを{確認|かくにん}しま"
+      },
+      {
+       "p": "す。"
+      },
+      {
+       "h": "②さらに、{外観|がいかん}、におい、{包装|ほうそう}の{状態|じょうたい}、{表示|ひょうじ}（{消費期限|しょうひきげん}、{賞味期限|しょうみきげん}、{保存方法|ほぞんほうほう}）などを{確認|かくにん}します。"
+      },
+      {
+       "h": "③{可能|かのう}であれば、{冷蔵|れいぞう}・{冷凍品|れいとうひん}の{温度|おんど}を{確認|かくにん}します（{例|たと}えば、{赤外線放射温度計|せきがいせんほうしゃおんどけい}を{使用|しよう}します）。なお、{冷|れ}"
+      },
+      {
+       "p": "{蔵|いぞ}・{冷凍品|れいとうひん}は、{室温|しつおん}におかれる{時間|じかん}をできるだけ{短|みじ}くします。"
+      },
+      {
+       "h": "④{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{返品|へんぴん}するなどをしましょう。"
+      },
+      {
+       "h": "⑤これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "p": "※ヒスタミン"
+      },
+      {
+       "p": "{鮮度|せんど}が{低下|ていか}した{赤身魚|あかみさか}やその{加工品|かこうひん}には、ヒスタミンという{物質|ぶっしつ}が{含|ふく}まれている{場合|ばあい}があります。ヒスタミンを{含|ふく}んだ{食品|しょくひん}を{食|た}べると、アレルギー{反応|はんのう}を{示|しめ}す{食中毒|しょくちゅうどく}をひきおこします。ヒスタミンは、{保存状態|ほぞんじょうたい}が{悪|わる}いと{増|ふ}えるため、{納品|のうひん}したものはすぐに{冷蔵|れいぞう}、または{冷凍庫|れいとうこ}にしまうことが{大切|たいせつ}です。"
+      },
+      {
+       "p": "5"
+      },
+      {
+       "h": "（２）{冷蔵|れいぞう}・{冷凍庫|れいとうこ}の{温度確認|おんどかくにん}"
+      },
+      {
+       "p": "{原材料|げんざいりょう}や{食品|しょくひん}の{温度管理|おんどかんり}は{大切|たいせつ}です。{冷蔵|れいぞう}・{冷凍庫|れいとうこ}の{温度管理|おんどかんり}が{悪|わる}かった{場合|ばあい}、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}がふえます。また、{原材料|げんざいりょう}や{食品|しょくひん}の{品質|ひんしつ}が{低下|ていか}する{可能性|かのうせい}があります。そのため、{次|つぎ}のような{方法|ほうほう}でしっかりと{冷蔵|れいぞう}・{冷凍庫|れいとうこ}の{温度|おんど}の{確認|かくにん}を{行|おこ}います。"
+      },
+      {
+       "h": "①{冷蔵|れいぞう}・{冷凍庫|れいとうこ}の{庫内温度|こないおんど}の{温度計|おんどけい}を{確認|かくにん}します。{温度計|おんどけい}が"
+      },
+      {
+       "p": "ついていない{場合|ばあい}は、{温度計|おんどけい}を{設置|せっち}しましょう。{外|そと}から{温度|おんど}が{見|み}えるものが{便利|べんり}です。そして、{事前|じぜん}に{冷蔵|れいぞう}・{冷凍庫|れいとうこ}それぞれの{管|か}{理基準温度|んりきじゅんおんど}を{決|き}めておきます。"
+      },
+      {
+       "p": "{例|れい}）{冷蔵庫|れいぞうこ}は10℃{以下|いか}、{冷凍庫|れいとうこ}は－15℃{以下|いか}"
+      },
+      {
+       "h": "②{温度|おんど}を{確認|かくにん}するタイミングは{事前|じぜん}に{決|き}め（{例|たと}えば、{作業開始前|さぎょうかいしまえ}）、{毎日|まいにち}、かならず{温度|おんど}を{確認|かくにん}します。な"
+      },
+      {
+       "p": "お、{保存|ほぞん}している{原材料|げんざいりょう}や{食品|しょくひん}の{期限|きげん}（{消費期限|しょうひきげん}、{賞味期限|しょうみきげん}）も{確認|かくにん}します。そして、{保存|ほぞん}されている{原材料|げんざいりょう}や{食品|しょくひん}を{期限内|きげんない}で{使用|しよう}しましょう。"
+      },
+      {
+       "h": "④{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "p": "{例|れい}）{責任者|せきにんしゃ}に{報告|ほうこく}するなど"
+      },
+      {
+       "h": "⑤これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "p": "6"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cek saat barang datang, jaga suhu kulkas/freezer, dan pisahkan bahan mentah supaya tidak terjadi kontaminasi silang.",
+      "points": [
+       "Kulkas ≤10℃, freezer ≤−15℃ (contoh di modul).",
+       "Bahan mentah di rak bawah, wadah tertutup.",
+       "Produk bermasalah dikembalikan dan dicatat di diari.",
+       "Ikan merah tidak segar → histamin."
+      ],
+      "avoid": [
+       "Meletakkan daging mentah di rak atas.",
+       "Membiarkan produk beku/dingin lama di suhu ruang."
+      ],
+      "exam": [
+       "Urutan pemeriksaan pengantaran.",
+       "Posisi penyimpanan daging mentah."
+      ]
+     },
+     "jp": {
+      "core": "{次|つぎ}のような{原材料|げんざいりょう}は、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などがふえている{可能性|かのうせい}があります。",
+      "points": [
+       "ア．{原材料|げんざいりょう}がくさっているもの",
+       "イ．{包装|ほうそう}がやぶれているもの",
+       "ウ．{消費期限|しょうひきげん}がすぎているもの",
+       "①{原材料|げんざいりょう}が{到着|とうちゃく}したら、{商品|しょうひん}、{数量|すうりょう}など、{注文|ちゅうもん}したものと{納品|のうひん}されたものがあっているかどうかを{確認|かくにん}しま",
+       "②さらに、{外観|がいかん}、におい、{包装|ほうそう}の{状態|じょうたい}、{表示|ひょうじ}（{消費期限|しょうひきげん}、{賞味期限|しょうみきげん}、{保存方法|ほぞんほうほう}）などを{確認|かくにん}します。",
+       "③{可能|かのう}であれば、{冷蔵|れいぞう}・{冷凍品|れいとうひん}の{温度|おんど}を{確認|かくにん}します（{例|たと}えば、{赤外線放射温度計|せきがいせんほうしゃおんどけい}を{使用|しよう}します）。なお、{冷|れ}",
+       "④{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{返品|へんぴん}するなどをしましょう。"
+      ]
+     }
+    },
+    "pagesJp": [
+     10,
+     11
+    ]
+   },
+   {
+    "id": "f1s4",
+    "no": 4,
+    "title": {
+     "id": "Pembersihan dan Disinfeksi Perkakas & Toilet",
+     "jp": "{調理器具|ちょうりきぐ}・トイレの{洗浄|せんじょう}と{消毒|しょうどく}"
+    },
+    "pages": [
+     13,
+     14
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Perkakas dapur"
+      },
+      {
+       "p": "Perkakas kotor menyebarkan bakteri. Pisahkan perkakas menurut penggunaan (daging, ikan, dsb.), cuci dan disinfeksi segera setelah dipakai, periksa pencuciannya sesuai jadwal, dan catat di diari."
+      },
+      {
+       "h": "Prosedur: talenan, pisau, spatula"
+      },
+      {
+       "ol": [
+        "Bilas dengan air keran untuk menghilangkan noda terlihat.",
+        "Cuci dengan detergen pada spons sampai berbusa.",
+        "Bilas hingga detergen bersih.",
+        "**Disinfeksi** dengan air mendidih, disinfektan berklorin, atau **alkohol 70%**.",
+        "Keringkan dengan benar dan simpan di tempat bersih."
+       ]
+      },
+      {
+       "h": "Prosedur: kain dan handuk"
+      },
+      {
+       "p": "Bilas, cuci dengan detergen, bilas bersih, lalu **rendam air mendidih minimal 5 menit** (atau disinfektan berklorin), keringkan dan simpan di tempat bersih."
+      },
+      {
+       "note": "Detergen/disinfektan dapur harus diawasi ketat agar tidak terpakai saat memasak. Bila dipindah wadah, pakai wadah khusus **berlabel isi** dan simpan di tempat yang aman."
+      },
+      {
+       "h": "2. Toilet"
+      },
+      {
+       "p": "Toilet berisi banyak bakteri dan virus (termasuk norovirus pada dudukan, kenop penyiram, pegangan, gagang pintu). Prosedur:"
+      },
+      {
+       "ol": [
+        "Pakai **pakaian, sepatu, sarung tangan yang berbeda** dari saat menyiapkan makanan.",
+        "Pakai detergen, sikat, dan spons **khusus toilet**.",
+        "Seka kenop penyiram, gagang pintu, dan area yang sering disentuh dengan disinfektan berklorin.",
+        "Bersihkan fasilitas cuci tangan.",
+        "Bersihkan bowl dengan detergen dan sikat khusus, bilas air mengalir; lalu lantai.",
+        "Bersihkan dan keringkan alat sebelum disimpan.",
+        "Setelah selesai, **cuci tangan** dengan benar."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 13–14 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "（３）{交差汚染|こうさおせん}・{二次汚染|にじおせん}の{防止|ぼうし}"
+      },
+      {
+       "p": "{交差汚染|こうさおせん}・{二次汚染|にじおせん}とは、{生肉|なまにく}や{生魚介類|なまぎょかいるい}などについている{細菌|さいきん}が、{他|た}の{原材料|げんざいりょう}や{食品|しょくひん}につくことを{言|い}います。{原材料|げんざいりょう}や{食品|しょくひん}の{保管|ほかん}、また{調理|ちょうり}において、{交差汚染|こうさおせん}・{二次汚染|にじおせん}する{可能性|かのうせい}があります。そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "h": "①{生肉|なまにく}、{生魚介類|なまぎょかいるい}などの{原材料|げんざいりょう}は、ふたつきの{容器|ようき}に{入|い}れま"
+      },
+      {
+       "p": "す。そして、{冷蔵庫|れいぞうこ}の{一番下|いちばんした}に{保管|ほかん}します（{生肉|なまにく}や{生魚介類|なまぎょかいるい}から{出|で}る{水分|すいぶん}が{下|した}にある{原材料|げんざいりょう}にうつらないようにするため）。{冷蔵|れいぞう}{庫内|こない}では、{原材料|げんざいりょう}や{食品|しょくひん}の{種類|しゅるい}ごとに{保管|ほかん}する{場所|ばしょ}を{決|き}めましょう。また、まな{板|いた}、{包丁|ほうちょう}などの{調理器具|ちょうりきぐ}は、{肉|にく}や{魚|さか}などの{種類|しゅるい}{別|べつ}にわけ、それらを{使用|しよう}したら、{十分|じゅうぶん}に{洗浄|せんじょう}して{消毒|しょうどく}しましょう。"
+      },
+      {
+       "h": "②{冷蔵庫内|れいぞうこない}の{保管状況|ほかんじょうきょ}は、{事前|じぜん}にタイミングを{決|き}めて、{定期的|ていきてき}に{確認|かくにん}しましょう。また{調理器具|ちょうりきぐ}の{使用|しよう}・{洗|せ}"
+      },
+      {
+       "p": "{浄方法|んじょうほうほ}も{同|おな}じように{定期的|ていきてき}に{確認|かくにん}しましょう。"
+      },
+      {
+       "h": "③{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "p": "{例|れい}）まな{板|いた}や{包丁|ほうちょう}などが{汚|よご}れていた{場合|ばあい}は、{再度洗浄|さいどせんじょう}し、{消毒|しょうどく}しましょう。"
+      },
+      {
+       "h": "④これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "p": "7"
+      },
+      {
+       "h": "（４）{調理器具|ちょうりきぐ}などの{洗浄|せんじょう}・{消毒|しょうどく}・{殺菌|さっきん}"
+      },
+      {
+       "p": "{調理器具|ちょうりきぐ}などに{汚|よご}れが{残|のこ}っていると、{他|た}の{原材料|げんざいりょう}や{食品|しょくひん}に{汚|よご}れ、{細菌|さいきん}がうつる{場合|ばあい}があります。そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "h": "①{調理器具|ちょうりきぐ}は、{肉|にく}や{魚|さか}などの{用途別|ようとべつ}にわけます。そして、それらを{使用|しよう}したらすぐに⑤の{手順|てじゅん}で{十分洗浄|じゅうぶんせんじょ}"
+      },
+      {
+       "p": "し、{消毒|しょうどく}しましょう。"
+      },
+      {
+       "h": "②{決|き}められた{頻度|ひんど}に{従|した}って{調理器具|ちょうりきぐ}の{洗浄|せんじょう}を{確認|かくにん}しましょう。"
+      },
+      {
+       "h": "③{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "p": "{例|れい}）{汚|よご}れが{残|のこ}っていた{場合|ばあい}は、{使用|しよう}する{前|まえ}に{再度洗浄|さいどせんじょう}し、{消毒|しょうどく}するなど"
+      },
+      {
+       "h": "④これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "h": "⑤{洗浄|せんじょう}などの{手順|てじゅん}"
+      },
+      {
+       "ul": [
+        "・まな{板|いた}、{包丁|ほうちょう}、へらなど",
+        "ア．{水道水|すいどうすい}で{水洗|みずあら}いし、{目|め}に{見|み}える{汚|よご}れを{取|と}り{除|のぞ}きます。",
+        "イ．スポンジタワシに{洗剤|せんざい}をつけ、あわ{立|た}ててよく{洗浄|せんじょう}します。",
+        "ウ．{水道水|すいどうすい}でよく{洗剤|せんざい}を{洗|あら}い{流|なが}します。",
+        "エ．{熱湯|ねっとう}、{塩素系殺菌剤|えんそけいさっきんざい}、または70％アルコールなどにより{消毒|しょうどく}します。",
+        "オ．よく{乾燥|かんそう}させ、{清潔|せいけつ}な{場所|ばしょ}で{保管|ほかん}します。",
+        "・ふきん、タオルなど",
+        "ア．{水道水|すいどうすい}で{水洗|みずあら}いします。",
+        "イ．{洗剤|せんざい}をつけ、あわ{立|た}ててよく{洗浄|せんじょう}します。",
+        "ウ．{水道水|すいどうすい}でよく{洗剤|せんざい}を{洗|あら}い{流|なが}します。",
+        "エ．{可能|かのう}であれば、{沸騰|ふっとう}したお{湯|ゆ}で５{分間以上|ふんかんいじょう}{煮沸消毒|しゃふつしょうどく}、または{塩素系殺菌剤|えんそけいさっきんざい}で{消毒|しょうどく}します。",
+        "オ．{清潔|せいけつ}な{場所|ばしょ}で{乾燥|かんそう}、{保管|ほかん}します。"
+       ]
+      },
+      {
+       "p": "※{調理場|ちょうりば}で{使用|しよう}する{洗剤|せんざい}・{薬剤|やくざい}の{管理|かんり}について"
+      },
+      {
+       "p": "{調理場|ちょうりば}で{使用|しよう}する{洗剤|せんざい}・{薬剤|やくざい}は、きちんと{管理|かんり}する{必要|ひつよう}があります。{管理|かんり}が{十分|じゅうぶん}でないと、{洗剤|せんざい}・{薬剤|やくざい}を{誤|あや}って{食品|しょくひん}に{使用|しよう}してしまう{危険性|きけんせい}があります。{洗剤|せんざい}・{薬剤|やくざい}を{他|た}の{容器|ようき}に{移|うつ}し{替|か}える{場合|ばあい}は、{専用|せんよう}の{容器|ようき}を{使用|しよう}します。また、{内容|ないよう}がわかるように、きちんと{表示|ひょうじ}します。さらに、{決|き}められた{場所|ばしょ}に{保管|ほかん}して、{間違|まちが}って{食品|しょくひん}に{使用|しよう}されないように{管理|かんり}します。"
+      },
+      {
+       "p": "8"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cuci lalu disinfeksi; alat dan pakaian toilet dipisahkan dari area makanan.",
+      "points": [
+       "Alkohol 70% / air mendidih / klorin untuk disinfeksi alat.",
+       "Kain: rendam air mendidih ≥5 menit.",
+       "Wadah detergen wajib berlabel.",
+       "Pakaian & alat toilet terpisah."
+      ],
+      "avoid": [
+       "Memakai sikat/sarung tangan toilet untuk area dapur.",
+       "Menaruh detergen dalam botol tanpa label di dapur."
+      ],
+      "exam": [
+       "Urutan mencuci talenan/pisau.",
+       "Aturan pakaian & alat saat membersihkan toilet."
+      ]
+     },
+     "jp": {
+      "core": "{交差汚染|こうさおせん}・{二次汚染|にじおせん}とは、{生肉|なまにく}や{生魚介類|なまぎょかいるい}などについている{細菌|さいきん}が、{他|た}の{原材料|げんざいりょう}や{食品|しょくひん}につくことを{言|い}います。{原材料|げんざいりょう}や{食品|しょくひん}の{保管|ほかん}、また{調理|ちょうり}において、{交差汚染|こうさおせん}・{二次汚染|にじおせん}する{可能性|かのうせい}があります。そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。",
+      "points": [
+       "①{生肉|なまにく}、{生魚介類|なまぎょかいるい}などの{原材料|げんざいりょう}は、ふたつきの{容器|ようき}に{入|い}れま",
+       "②{冷蔵庫内|れいぞうこない}の{保管状況|ほかんじょうきょ}は、{事前|じぜん}にタイミングを{決|き}めて、{定期的|ていきてき}に{確認|かくにん}しましょう。また{調理器具|ちょうりきぐ}の{使用|しよう}・{洗|せ}",
+       "③{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。",
+       "④これらを{日誌|にっし}に{記録|きろく}しましょう。",
+       "（４）{調理器具|ちょうりきぐ}などの{洗浄|せんじょう}・{消毒|しょうどく}・{殺菌|さっきん}",
+       "①{調理器具|ちょうりきぐ}は、{肉|にく}や{魚|さか}などの{用途別|ようとべつ}にわけます。そして、それらを{使用|しよう}したらすぐに⑤の{手順|てじゅん}で{十分洗浄|じゅうぶんせんじょ}",
+       "②{決|き}められた{頻度|ひんど}に{従|した}って{調理器具|ちょうりきぐ}の{洗浄|せんじょう}を{確認|かくにん}しましょう。"
+      ]
+     }
+    },
+    "pagesJp": [
+     12,
+     13
+    ]
+   },
+   {
+    "id": "f1s5",
+    "no": 5,
+    "title": {
+     "id": "Kebersihan Pribadi dan Cuci Tangan",
+     "jp": "{身だしなみ|みだしなみ}と{手洗い|てあらい}"
+    },
+    "pages": [
+     15,
+     16
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Kebersihan pribadi"
+      },
+      {
+       "p": "Karyawan dapat mencemari makanan jika: (A) diare, (B) ada luka di tangan/jari, (C) pakaian kerja kotor, (D) memakai perhiasan saat bekerja. Karena itu:"
+      },
+      {
+       "ul": [
+        "Karyawan yang **diare atau muntah** tidak boleh bekerja dan harus ke rumah sakit; setelah keracunan makanan, tidak bekerja sampai gejala hilang.",
+        "Ada luka di tangan/jari → **perban lalu sarung tangan**; tangan tetap dicuci bersih walau memakai sarung tangan sekali pakai.",
+        "Pakaian bersih saat menangani makanan; rambut bersih dan terikat bila perlu.",
+        "**Tidak memakai perhiasan**: jam tangan, kalung, cincin, anting.",
+        "Catat dalam diari."
+       ]
+      },
+      {
+       "note": "Sekitar 80% kasus keracunan norovirus diyakini berasal dari karyawan. Infeksi bisa tanpa gejala, jadi cuci tangan dan jaga kesehatan setiap saat."
+      },
+      {
+       "h": "2. Wajib cuci tangan — prosedur 11 langkah"
+      },
+      {
+       "ol": [
+        "Cuci dengan air mengalir.",
+        "Pakai sabun cair.",
+        "Telapak tangan dan jari.",
+        "Punggung tangan dan jari.",
+        "Sela-sela jari.",
+        "Ibu jari dan pangkalnya.",
+        "Ujung jari.",
+        "Pergelangan tangan.",
+        "Bilas semua sabun dengan air mengalir.",
+        "Seka sampai kering.",
+        "Sterilkan dengan **alkohol**."
+       ]
+      },
+      {
+       "note": "Mencuci tangan **dua kali** sangat efektif (ulangi langkah sabun sampai bilas)."
+      },
+      {
+       "note": "Sumber: modul hal. 15–16 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "（５）トイレの{洗浄|せんじょう}・{消毒|しょうどく}"
+      },
+      {
+       "p": "トイレは、{人|ひと}に{害|がい}をおよぼすさまざまな{細菌|さいきん}やウイルスに{汚染|おせん}されています。そして、トイレを{利用|りよう}した{人|ひと}の{手|て}には、そのような{細菌|さいきん}やウイルスがついている{場合|ばあい}があります。そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "h": "①トイレの{洗浄|せんじょう}・{消毒|しょうどく}は、④の{手順|てじゅん}で{洗浄|せんじょう}し、{消毒|しょうどく}します。そして、{洗浄|せんじょう}・{消毒|しょうどく}がきちんと{行|おこ}われているか{確|かく}"
+      },
+      {
+       "p": "{認|にん}しましょう。"
+      },
+      {
+       "h": "②{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "p": "{例|れい}）トイレが{汚|よご}れていた{場合|ばあい}は、{再度洗浄|さいどせんじょう}し、{消毒|しょうどく}するなど"
+      },
+      {
+       "h": "③これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "h": "④{洗浄|せんじょう}などの{手順|てじゅん}"
+      },
+      {
+       "ul": [
+        "ア．{調理|ちょうり}を{行|おこ}うときとは{違|ちが}う{服|ふく}、くつ、ゴム{手袋|てぶくろ}を{身|み}につけます。",
+        "イ．トイレ{用|よう}の{洗剤|せんざい}、ブラシ、スポンジを{使用|しよう}します。",
+        "ウ．{水洗|すいせん}レバー、ドアノブなど、{手指|てゆび}が{触|ふ}れる{場所|ばしょ}を{塩素系殺菌剤|えんそけいさっきんざい}でふきあげます。",
+        "エ．{手洗|てあら}い{設備|せつび}の{洗浄|せんじょう}を{行|おこ}います。",
+        "オ．{便器|べんき}は、{専用洗剤|せんようせんざい}を{使用|しよう}して、ブラシでこすり{洗|あら}いします。それから{流水|りゅうすい}ですすぎます。"
+       ]
+      },
+      {
+       "p": "カ．{床面|ゆかめん}は、{専用洗剤|せんようせんざい}を{使用|しよう}して、ブラシでこすり{洗|あら}いします。それから{流水|りゅうすい}で{洗|あら}い{流|なが}します。"
+      },
+      {
+       "p": "キ．{使用|しよう}した{用具|ようぐ}は{洗浄|せんじょう}し、{乾燥|かんそう}してから{保管|ほかん}します。"
+      },
+      {
+       "p": "ク．{終了後|しゅうりょうご}は、{十分|じゅうぶん}に{手|て}を{洗|あら}います。"
+      },
+      {
+       "p": "※ノロウイルスについて"
+      },
+      {
+       "p": "トイレは、{人|ひと}に{害|がい}をおよぼすノロウイルスなどがついている{場合|ばあい}があります。{便座|べんざ}、{水洗|すいせん}レバー、{手|て}すり、ドアノブなどにノロウイルスがついている{場合|ばあい}があります。トイレの{洗浄|せんじょう}においては、そのような{部分|ぶぶん}も{十分|じゅうぶん}に{洗浄|せんじょう}し、{消毒|しょうどく}することが{大切|たいせつ}です。"
+      },
+      {
+       "p": "9"
+      },
+      {
+       "h": "（６）{従業員|じゅうぎょういん}の{健康管理|けんこうかんり}・{衛生的|えいせいてき}な{作業着|さぎょうぎ}の{着用|ちゃくよう}など"
+      },
+      {
+       "p": "{従業員|じゅうぎょうい}が{以下|いか}のような{場合|ばあい}、{食品|しょくひん}に{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}やウイルス、また{異物|いぶつ}がついてしまう{可能性|かのうせい}があります。"
+      },
+      {
+       "ul": [
+        "ア．{従業員|じゅうぎょうい}が{下痢|げり}をしている。",
+        "イ．{従業員|じゅうぎょうい}の{手|て}や{指|ゆび}に{傷|きず}がある。",
+        "ウ．{従業員|じゅうぎょうい}が{汚|よご}れた{作業着|さぎょうぎ}を{着|き}ている。",
+        "エ．{従業員|じゅうぎょうい}が{装飾品|そうしょくひん}（{腕時計|うでとけい}、ネックレス、{指輪|ゆびわ}、ピアスなど）をつけたまま{作業|さぎょう}している。"
+       ]
+      },
+      {
+       "p": "そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "h": "①{決|き}められた{頻度|ひんど}で、②～⑥の{確認|かくにん}を{行|おこ}います。"
+      },
+      {
+       "h": "②{従業員|じゅうぎょうい}に{下痢|げり}やおう{吐|と}をしていないか、{確認|かくにん}します。そのような{症状|しょうじょ}がある{人|ひと}は、{仕事|しごと}をしないで{病院|びょういん}に"
+      },
+      {
+       "p": "いって{診察|しんさつ}してもらいましょう。{食中毒|しょくちゅうどく}であった{場合|ばあい}、{症状|しょうじょ}がなおるまでは、{仕事|しごと}をしてはいけません。"
+      },
+      {
+       "h": "③{従業員|じゅうぎょうい}に{手指|てゆび}に{傷|きず}がないか、{確認|かくにん}しましょう。{傷|きず}がある{場合|ばあい}は、バンソウコウをつけた{上|うえ}から{手袋|てぶくろ}をつけ"
+      },
+      {
+       "p": "ましょう。また、{使|つか}い{捨|す}て{手袋|てぶくろ}をつけていても、{衛生的|えいせいてき}な{手洗|てあら}いを{行|おこ}いましょう。"
+      },
+      {
+       "h": "④{従業員|じゅうぎょうい}が{食品|しょくひん}を{取扱|とりあつ}うときに{清潔|せいけつ}な{服|ふく}をきているか、{確認|かくにん}しましょう。"
+      },
+      {
+       "h": "⑤{従業員|じゅうぎょうい}が{髪|かみ}を{清潔|せいけつ}に{保|たも}ち、{必要|ひつよう}な{場合|ばあい}は{髪|かみ}を{結|むす}んでいるか、{確認|かくにん}しましょう。"
+      },
+      {
+       "h": "⑥{腕時計|うでとけい}、ネックレス、{指輪|ゆびわ}、ピアスなどの{装飾品|そうしょくひん}をつけていないか、{確認|かくにん}しましょう。"
+      },
+      {
+       "h": "⑦これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "p": "※{従業員|じゅうぎょうい}が{要因|よういん}となる{食中毒|しょくちゅうどく}"
+      },
+      {
+       "p": "{近年|きんねん}、ノロウイルス{食中毒|しょくちゅうどく}が{多数発生|たすうはっせい}しています。この{発生要因|はっせいよういん}の80％は、{従業員|じゅうぎょうい}と{言|い}われています。{下痢|げり}などの{症状|しょうじょ}がある{場合|ばあい}は、{調理作業|ちょうりさぎょう}を{行|おこ}ってはいけません。また、ノロウイルスに{感染|かんせん}しても{下痢|げり}などの{症状|しょうじょ}が{現|あら}れない{場合|ばあい}もあります。そのため、{従業員|じゅうぎょうい}は{普段|ふだん}からの{手洗|てあら}いや{健康管理|けんこうかんり}が{大切|たいせつ}です。"
+      },
+      {
+       "p": "10"
+      },
+      {
+       "h": "（７）{衛生的|えいせいてき}な{手洗|てあら}いの{実施|じっし}"
+      },
+      {
+       "p": "{手|て}には、{目|め}に{見|み}えない{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}やウイルスがついている{場合|ばあい}があります。そして、その{手|て}についた{細菌|さいきん}やウイルスが{食品|しょくひん}にうつる{可能性|かのうせい}があります。{手洗|てあら}いは、{見|み}た{目|め}の{汚|よご}れを{落|お}とすだけでなく、{細菌|さいきん}やウイルスも{落|お}とさなければなりません。そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "h": "①④の{手順|てじゅん}に{従|した}って、{決|き}められた{頻度|ひんど}で{衛生的|えいせいてき}な{手洗|てあら}いを{行|おこ}い、{確認|かくにん}しましょう。"
+      },
+      {
+       "h": "②{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "p": "{例|れい}）{決|き}められた{頻度|ひんど}で{従業員|じゅうぎょうい}が{手洗|てあら}いを{行|おこ}っていない{場合|ばあい}は、すぐに{手洗|てあら}いをさせるなど"
+      },
+      {
+       "h": "③これらを{日誌|にっし}に{記録|きろく}しましょう。"
+      },
+      {
+       "h": "④{手洗|てあら}いの{方法|ほうほう}"
+      },
+      {
+       "ul": [
+        "ア．{流水|りゅうすい}で{手|て}を{洗|あら}う。",
+        "イ．{洗浄剤|せんじょうざい}（{石鹸|せっけん}など）を{手|て}に{取|と}る。",
+        "ウ．{手|て}のひら、{指|ゆび}の{腹面|ふくめん}を{洗|あら}う。",
+        "エ．{手|て}の{甲|こう}、{指|ゆび}の{背|せ}を{洗|あら}う。",
+        "オ．{指|ゆび}の{間|あい}、{股|また}を{洗|あら}う。"
+       ]
+      },
+      {
+       "p": "カ．{親指|おやゆび}、{母指球|ぼしきゅう}（{親指|おやゆび}のつけね）を{洗|あら}う。"
+      },
+      {
+       "p": "キ．{指先|ゆびさき}を{洗|あら}う。"
+      },
+      {
+       "p": "ク．{手首|てくび}を{洗|あら}う。"
+      },
+      {
+       "p": "ケ．{洗浄剤|せんじょうざい}（{石鹸|せっけん}など）を{十分|じゅうぶん}な{流水|りゅうすい}でよく{洗|あら}い{流|なが}す。"
+      },
+      {
+       "p": "コ．{手|て}をふき{乾燥|かんそう}させる。"
+      },
+      {
+       "p": "サ．アルコールによる{消毒|しょうどく}"
+      },
+      {
+       "p": "2{度洗|どあら}いが{効果的|こうかてき}です（イ～ケまでをくりかえす）"
+      },
+      {
+       "p": "※{参考資料|さんこうしりょう}１において、イラストで{手洗|てあら}い{方法|ほうほう}を{説明|せつめい}しています"
+      },
+      {
+       "p": "11"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Karyawan sakit atau berluka dan perhiasan adalah sumber pencemaran; cuci tangan 11 langkah, idealnya dua kali.",
+      "points": [
+       "Diare/muntah → tidak bekerja.",
+       "Luka → perban + sarung tangan.",
+       "Tanpa jam tangan/cincin/kalung/anting.",
+       "Langkah terakhir cuci tangan: alkohol."
+      ],
+      "avoid": [
+       "Bekerja dengan diare karena \"merasa kuat\".",
+       "Menganggap sarung tangan menggantikan cuci tangan."
+      ],
+      "exam": [
+       "Urutan cuci tangan.",
+       "Apa yang dilakukan jika tangan terluka."
+      ]
+     },
+     "jp": {
+      "core": "トイレは、{人|ひと}に{害|がい}をおよぼすさまざまな{細菌|さいきん}やウイルスに{汚染|おせん}されています。そして、トイレを{利用|りよう}した{人|ひと}の{手|て}には、そのような{細菌|さいきん}やウイルスがついている{場合|ばあい}があります。そのため、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。",
+      "points": [
+       "①トイレの{洗浄|せんじょう}・{消毒|しょうどく}は、④の{手順|てじゅん}で{洗浄|せんじょう}し、{消毒|しょうどく}します。そして、{洗浄|せんじょう}・{消毒|しょうどく}がきちんと{行|おこ}われているか{確|かく}",
+       "②{何|なに}かしらの{問題|もんだい}があった{場合|ばあい}は、{決|き}められた{方法|ほうほう}で{対応|たいおう}します。",
+       "③これらを{日誌|にっし}に{記録|きろく}しましょう。",
+       "④{洗浄|せんじょう}などの{手順|てじゅん}",
+       "ア．{調理|ちょうり}を{行|おこ}うときとは{違|ちが}う{服|ふく}、くつ、ゴム{手袋|てぶくろ}を{身|み}につけます。",
+       "イ．トイレ{用|よう}の{洗剤|せんざい}、ブラシ、スポンジを{使用|しよう}します。",
+       "ウ．{水洗|すいせん}レバー、ドアノブなど、{手指|てゆび}が{触|ふ}れる{場所|ばしょ}を{塩素系殺菌剤|えんそけいさっきんざい}でふきあげます。"
+      ]
+     }
+    },
+    "pagesJp": [
+     14,
+     16
+    ]
+   },
+   {
+    "id": "f1s6",
+    "no": 6,
+    "title": {
+     "id": "5S, Pembersihan Terjadwal, dan Pembuangan Sampah",
+     "jp": "5S・{清掃計画|せいそうけいかく}・{廃棄物|はいきぶつ}"
+    },
+    "pages": [
+     17,
+     18
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Prinsip 5S"
+      },
+      {
+       "p": "5S dipakai di tempat pengolahan makanan untuk menjaga lingkungan kerja. Kelima istilah Jepang berawalan huruf S:"
+      },
+      {
+       "ul": [
+        "**SEIRI (整理)** = mengorganisir: pisahkan yang perlu dan tidak, buang yang tidak perlu.",
+        "**SEITON (整頓)** = menata rapi: tentukan tempat tiap benda, kembalikan setelah dipakai.",
+        "**SEISOU (清掃)** = membersihkan: tempat kerja bebas sampah dan kotoran.",
+        "**SEIKETSU (清潔)** = sanitasi: hasil dari melaksanakan 3S sebelumnya.",
+        "**SYUKAN (習慣)** = kebiasaan baik: memelihara dan mengajarkan praktik baik."
+       ]
+      },
+      {
+       "p": "5S efektif mencegah keracunan makanan, masuknya benda asing, dan kecelakaan kerja."
+      },
+      {
+       "h": "2. Pembersihan terjadwal"
+      },
+      {
+       "ul": [
+        "**Harian**: stasiun cuci tangan, wastafel, permukaan kerja, sekitar kompor, lantai (disapu), saluran air.",
+        "**Mingguan**: isi kulkas/freezer, pipa saluran, lantai (disikat), saluran pembuangan minyak.",
+        "**Bulanan**: dinding, lampu, area yang tidak biasa dibersihkan."
+       ]
+      },
+      {
+       "h": "3. Pembuangan limbah"
+      },
+      {
+       "ul": [
+        "Makanan sisa dibuang ke tempat khusus **berpenutup**, di area yang tidak mengganggu pekerjaan; sisa makanan membiakkan bakteri dan mengundang serangga/tikus.",
+        "Limbah ikan kembung (**fugu**) wajib dibuang dalam **wadah terkunci** sesuai peraturan pemerintah.",
+        "Sampah lain disortir: dapat dibakar, tidak dapat dibakar, plastik, botol, kaleng, minyak bekas — ikuti peraturan setempat."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 17–18 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "（８）{清掃管理|せいそうかんり}（{調理場|ちょうりば}）{及|およ}び{廃棄物処理|はいきぶつしょり}について"
+      },
+      {
+       "h": "①５Sの{設定|せってい}"
+      },
+      {
+       "p": "{職場|しょくば}の{環境維持|かんきょういじ}を{目的|もくてき}としたスローガンです。それぞれの{日本語|にほんご}のローマ{字表記|じひょうき}したときの{頭文字|かしらもじ}（S）が５つあるので、５Sと{呼|よ}ばれています。{食品|しょくひん}を{取扱|とりあつ}う{飲食店|いんしょくてん}や{食品工場|しょくひんこうじょう}では、５Sを{合言葉|あいことば}として、{施設|しせつ}の{環境|かんきょ}を{管理|かんり}しています。"
+      },
+      {
+       "ul": [
+        "ア．{整理|せいり}（SEIRI)"
+       ]
+      },
+      {
+       "p": "{必要|ひつよう}なものと{不必要|ふひつよう}なものとにわけ、{不必要|ふひつよう}なものを{捨|す}てます。"
+      },
+      {
+       "ul": [
+        "イ．{整頓|せいとん}（SEITON）"
+       ]
+      },
+      {
+       "p": "もののおき{場所|ばしょ}を{決|き}め、{使用後|しようご}は{必|かな}ず{元|もと}の{場所|ばしょ}に{戻|もど}します。"
+      },
+      {
+       "ul": [
+        "ウ．{清掃|せいそう}（SEISOU）"
+       ]
+      },
+      {
+       "p": "{衛生|えいせい}の{基本|きほん}です。ごみや{汚|よご}れのない、{常|つね}にきれいな{状態|じょうたい}を{保|たも}ちます。"
+      },
+      {
+       "ul": [
+        "エ．{清潔|せいけつ}（SEIKETSU）"
+       ]
+      },
+      {
+       "p": "{整理|せいり}、{整頓|せいとん}、{清掃|せいそう}の３Sを{徹底|てってい}すると{清潔|せいけつ}になります。"
+      },
+      {
+       "ul": [
+        "オ．{習慣|しゅうかん}（SYUKAN）"
+       ]
+      },
+      {
+       "p": "{決|き}められたことをいつも{正|ただ}しく{行|おこ}うこと、それを{守|まも}る{習慣|しゅうかん}をつけること、または{教|おし}えることをいいます。"
+      },
+      {
+       "p": "５Sによって{職場|しょくば}はきれいになります。また、{飲食店|いんしょくてん}においては、{食中毒防止|しょくちゅうどくぼうし}、{異物混入防止|いぶつこんにゅうぼうし}、{労働災害防止|ろうどうさいがいぼうし}まで、とても{効果的|こうかてき}な{取組|とりくみ}になります。"
+      },
+      {
+       "h": "②{計画的|けいかくてき}な{清掃|せいそう}"
+      },
+      {
+       "p": "{清掃|せいそう}はとても{大切|たいせつ}です。しかしながら、{普通|ふつう}の{仕事|しごと}をしながら、すべての{清掃|せいそう}をすることはできません。{清掃|せいそう}するところ{決|き}めて、{計画的|けいかくてき}に{清掃|せいそう}しましょう。{例|たと}えば、{毎日清掃|まいにちせいそう}するところ、1{週間|しゅうかん}に１{回清掃|かいせいそう}するところ、１か{月|げつ}に１{回清掃|かいせいそう}するところを{決|き}めます。"
+      },
+      {
+       "p": "＜{清掃計画|せいそうけいかく}の{一例|いちれい}＞"
+      },
+      {
+       "ul": [
+        "ア．{日常清掃|にちじょうせいそう}（{毎日清掃|まいにちせいそう}）"
+       ]
+      },
+      {
+       "p": "{手洗|てあら}い{場|ば}、シンク、{作業台|さぎょうだい}、レンジ{周|まわ}り、{床|ゆか}（{掃|は}き{掃除|そうじ}）、{排水溝|はいすいこう}など"
+      },
+      {
+       "ul": [
+        "イ．{定期清掃|ていきせいそう}（{毎週|まいしゅう}１{回|かい}）"
+       ]
+      },
+      {
+       "p": "{冷蔵|れいぞう}・{冷凍庫|れいとうこ}の{庫内|こない}、ダクト{内|ない}、{床|ゆか}（デッキブラシがけ）、グリストラップなど"
+      },
+      {
+       "p": "12"
+      },
+      {
+       "ul": [
+        "ウ．{定期清掃|ていきせいそう}（{毎月|まいつき}１{回|かい}）"
+       ]
+      },
+      {
+       "p": "{壁|かべ}、{照明|しょうめい}、ふだん{清掃|せいそう}できないところなど"
+      },
+      {
+       "h": "③{廃棄物|はいきぶつ}の{処理|しょり}について"
+      },
+      {
+       "p": "{調理場|ちょうりば}で{出|で}る{廃棄物|はいきぶつ}（ごみ）は、{種類別|しゅるいべつ}にわけなければなりません。{食品残|しょくひんざん}さ（{生|なま}ごみ、{食|た}べ{物|もの}のごみ）は、{適|てき}{切|せつ}に{取扱|とりあつ}わないとそこから{細菌|さいきん}が{増殖|ぞうしょく}します。また、{虫|むし}やねずみなども{発生|はっせい}する{可能性|かのうせい}があります。そのため、{次|つぎ}のようにきちんと{管理|かんり}することが{大切|たいせつ}です。"
+      },
+      {
+       "ul": [
+        "ア．{食品残|しょくひんざん}さ（{生|なま}ごみ、{食|た}べ{物|もの}のごみ）"
+       ]
+      },
+      {
+       "p": "{生|なま}ごみ、{食|た}べ{物|もの}のごみは、ふたつきの{専用容器|せんようようき}に{入|い}れます。そして、{作業|さぎょう}に{影響|えいきょう}のない{場所|ばしょ}に{保管|ほかん}しましょう。また、{取扱|とりあつ}いが{規制|きせい}されているふぐについては、{廃棄物|はいきぶつ}を{鍵付|かぎつ}きの{容器|ようき}に{保管|ほかん}する{義務|ぎむ}があります。"
+      },
+      {
+       "ul": [
+        "イ．その{他|た}のごみ"
+       ]
+      },
+      {
+       "p": "ごみは{種類別|しゅるいべつ}に{分|わ}ける{必要|ひつよう}があります。{例|たと}えば、{燃|も}えるごみ、{燃|も}えないごみ、プラスチック{類|るい}、ビン{類|るい}、カン{類|るい}、{廃油|はいゆ}などです。それぞれの{分別|ぶんべつ}については、お{店|みせ}がある{自治体|じちたい}などでルールが{決|き}められています。そのルールに{従|した}って{適切|てきせつ}に{分別|ぶんべつ}、{廃棄|はいき}しましょう。"
+      },
+      {
+       "p": "13"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "5S menjaga dapur bersih; bersihkan berjadwal; sortir dan tutup sampah.",
+      "points": [
+       "Seiri-Seiton-Seisou-Seiketsu-Syukan.",
+       "Harian / mingguan / bulanan.",
+       "Limbah fugu: wadah terkunci."
+      ],
+      "avoid": [
+       "Membiarkan sisa makanan di tempat terbuka.",
+       "Mencampur semua jenis sampah."
+      ],
+      "exam": [
+       "Arti tiap S.",
+       "Contoh tugas pembersihan harian vs mingguan."
+      ]
+     },
+     "jp": {
+      "core": "{職場|しょくば}の{環境維持|かんきょういじ}を{目的|もくてき}としたスローガンです。それぞれの{日本語|にほんご}のローマ{字表記|じひょうき}したときの{頭文字|かしらもじ}（S）が５つあるので、５Sと{呼|よ}ばれています。{食品|しょくひん}を{取扱|とりあつ}う{飲食店|いんしょくてん}や{食品工場|しょくひんこうじょう}では、５Sを{合言葉|あいことば}として、{施設|しせつ}の{環境|かんきょ}を{管理|かんり}しています。",
+      "points": [
+       "①５Sの{設定|せってい}",
+       "ア．{整理|せいり}（SEIRI)",
+       "イ．{整頓|せいとん}（SEITON）",
+       "ウ．{清掃|せいそう}（SEISOU）",
+       "エ．{清潔|せいけつ}（SEIKETSU）",
+       "オ．{習慣|しゅうかん}（SYUKAN）",
+       "②{計画的|けいかくてき}な{清掃|せいそう}"
+      ]
+     }
+    },
+    "pagesJp": [
+     17,
+     18
+    ]
+   },
+   {
+    "id": "f1s7",
+    "no": 7,
+    "title": {
+     "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+     "jp": "HACCP{方式|ほうしき}の{衛生管理|えいせいかんり}"
+    },
+    "pages": [
+     21,
+     26
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Apa itu HACCP?"
+      },
+      {
+       "p": "**HACCP** = *Hazard Analysis and Critical Control Point* (Analisis Bahaya dan Titik Pengawasan Penting): metode memeriksa keselamatan proses kunci sejak bahan baku tiba sampai makanan jadi. Hidangan restoran dibagi tiga kelompok:"
+      },
+      {
+       "ul": [
+        "**Kelompok 1 — makanan yang didinginkan** (sashimi, tahu dingin, salad sayuran segar): disajikan dingin tanpa pemanasan.",
+        "**Kelompok 2 — dimasak lalu disajikan panas** (steak, ikan/ayam bakar, hamburger, tempura, ayam goreng, nasi).",
+        "**Kelompok 3 — dipanaskan, didinginkan, lalu dihangatkan ulang** (kari, sup, saus, tare, salad kentang)."
+       ]
+      },
+      {
+       "h": "2. Zona berbahaya"
+      },
+      {
+       "p": "Bakteri berkembang pesat pada **10℃–60℃** (**zona berbahaya**). Titik saat bakteri bisa membiak jika tidak diawasi disebut **titik pengawasan penting**, diawasi lewat **suhu dan waktu**."
+      },
+      {
+       "h": "3. Kelompok 1"
+      },
+      {
+       "ul": [
+        "Sajikan segera setelah dikeluarkan dari kulkas; atur suhu kulkas.",
+        "Cuci sayuran teliti untuk menurunkan jumlah bakteri; simpan di kulkas agar tidak bertambah.",
+        "Jika penyajian butuh lebih dari 30 menit, simpan di **10℃ atau lebih rendah**."
+       ]
+      },
+      {
+       "h": "4. Kelompok 2"
+      },
+      {
+       "ul": [
+        "Pastikan bagian dalam matang: lihat panas, tampilan, warna sari daging, tekstur, suhu dalam.",
+        "Periksa **suhu inti** secara berkala; bakteri dalam daging mati bila inti **75℃ selama minimal 1 menit**.",
+        "Jangan sampai terjadi pencemaran sekunder lewat tangan atau perkakas kotor saat menyajikan.",
+        "Tidak wajib mencatat tiap masak, tetapi simpan laporan di akhir hari dan catat masalah di diari."
+       ]
+      },
+      {
+       "h": "5. Kelompok 3"
+      },
+      {
+       "ul": [
+        "Dinginkan makanan **segera** setelah dimasak; hindari zona 10–60℃.",
+        "Dinginkan kilat: bagi ke wadah kecil lalu kulkas, atau pakai **chiller** hingga 10℃ ke bawah.",
+        "Saat dihangatkan ulang, pastikan **mendidih (bergelembung)**."
+       ]
+      },
+      {
+       "note": "Referensi: FDA AS — 21℃ dalam 2 jam lalu 5℃ dalam 4 jam. Pedoman kantin besar Jepang — 20℃ dalam 30 menit lalu 10℃ dalam 1 jam."
+      },
+      {
+       "note": "Sumber: modul hal. 21–26 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "h": "３．HACCPの{考|かんが}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}の{知識|ちしき}"
+      },
+      {
+       "p": "（{重要管理|じゅうようかんり}のポイント）"
+      },
+      {
+       "h": "（１）HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}とは"
+      },
+      {
+       "p": "HACCPとは、HazardAnalysisandCriticalControlPointのそれぞれの{頭文字|かしらもじ}をとった{略称|りゃくしょ}です。{日本語|にほんご}では、「{危害要因分析重要管理点|きがいよういんぶんせきじゅうようかんりてん}」と{訳|やく}されています。"
+      },
+      {
+       "p": "{具体的|ぐたいてき}には、{原材料|げんざいりょう}の{入荷|にゅうか}から{製造|せいぞう}までの{重要|じゅうよう}な{工程|こうてい}において、{安全性|あんぜんせい}をチェックしていく{衛生管理|えいせいかんり}の{方法|ほうほう}です。{飲食店|いんしょくてん}では、たくさんの{食品|しょくひん}（{料理|りょうり}）を{作|つく}るため、{食品|しょくひん}（{料理|りょうり}）を{次|つぎ}のようにわけます。"
+      },
+      {
+       "ul": [
+        "ア．グループ１：「{加熱|かねつ}しないもの」",
+        "イ．グループ２：「{加熱|かねつ}するもの」",
+        "ウ．グループ３：「{加熱|かねつ}と{冷却|れいきゃ}をくりかえすもの」"
+       ]
+      },
+      {
+       "p": "この３つのグループに{対|たい}して、それぞれの{作業工程|さぎょうこうてい}で{危険|きけ}なポイント（{重要管理|じゅうようかんり}のポイント）を{見|み}つけて{管理|かんり}します。この{衛生管理|えいせいかんり}の{方法|ほうほう}を「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}」といいます。"
+      },
+      {
+       "p": "メニュー{分類|ぶんるい}（グループ） メニュー（{例|れい}）"
+      },
+      {
+       "p": "グループ１{刺身|さしみ}、{冷奴|ひややっ}、{生野菜|なまやさい}サラダなど「{加熱|かねつ}しないもの」"
+      },
+      {
+       "p": "（{冷蔵品|れいぞうひん}をつめたいまま{提供|ていきょう}するもの）"
+      },
+      {
+       "p": "グループ２ ステーキ、{焼|や}き{魚|さか}、{焼|や}き{鳥|とり}、ハンバーグ、「{加熱|かねつ}するもの」 てんぷら、からあげ、ごはんなど（{冷蔵品|れいぞうひん}を{加熱|かねつ}し、{熱|あつ}いまま{提供|ていきょう}するもの）"
+      },
+      {
+       "p": "（{加熱|かねつ}したあと、{高温保管|こうおんほかん}することを{含|ふく}む）"
+      },
+      {
+       "p": "グループ３ カレー、スープ、ソース、たれ、「{加熱|かねつ}と{冷却|れいきゃ}をくりかえすもの」 ポテトサラダなど"
+      },
+      {
+       "p": "※{参考資料|さんこうしりょう}２において、イラストでグループわけしたメニュー（{食品|しょくひん}）の{例|れい}を{説明|せつめい}しています"
+      },
+      {
+       "p": "14"
+      },
+      {
+       "h": "（２）{重要管理|じゅうようかんり}のポイント"
+      },
+      {
+       "p": "{食品|しょくひん}を10℃～60℃の{温度帯|おんどたい}（{危険温度帯|きけんおんどたい}）においたままにすると、{食品|しょくひん}についた{細菌|さいきん}がどんどんふえてしまいます。しかし、この{危険温度帯|きけんおんどたい}でも{短|みじ}い{時間|じかん}であれば、{人|ひと}に{害|がい}をおよぼすほど{細菌|さいきん}はふえません。{危険温|きけんお}{度帯|んどたい}にある{食品|しょくひん}を{短|みじ}い{時間|じかん}で{冷却|れいきゃ}するなどの{対応|たいおう}が{必要|ひつよう}となります。"
+      },
+      {
+       "p": "このように、{管理|かんり}しないと{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}がふえてしまうポイントを「{重要管理|じゅうようかんり}ポイント」といいます。この{重要管理|じゅうようかんり}ポイントは、{温度|おんど}と{時間|じかん}を{基本|きほん}として{管理|かんり}していきます。そして、３つのグループにわけたメニュー（{食品|しょくひん}）は、それぞれ{重要管理|じゅうようかんり}ポイントが{違|ちが}います。そのため、それぞれに{対応|たいおう}した{温度|おんど}と{時間|じかん}の{管理|かんり}が{必要|ひつよう}となります。"
+      },
+      {
+       "p": "{刺身|さしみ}、{冷奴|ひややっ}、{生野菜|なまやさい}サラダなど ステーキ、{焼|や}き{魚|さか}、{焼|や}き{鳥|とり}、 カレー、スープ、ソース、たれ、ハンバーグ、てんぷら、 ポテトサラダなどからあげ、ごはんなど"
+      },
+      {
+       "p": "15"
+      },
+      {
+       "h": "（３）グループ１：「{加熱|かねつ}しないもの」の{管理方法|かんりほうほう}について"
+      },
+      {
+       "p": "グループ１：「{加熱|かねつ}しないもの」の{管理方法|かんりほうほう}の{例|れい}を{紹介|しょうかい}します。"
+      },
+      {
+       "p": "メニュー{分類|ぶんるい}（グループ） メニュー（{例|れい}）{管理方法|かんりほうほう}（{例|れい}）"
+      },
+      {
+       "p": "グループ１{刺身|さしみ}、{冷奴|ひややっ}、 ・{冷蔵庫|れいぞうこ}からだしたら、すぐに{提供|ていきょう}する「{加熱|かねつ}しないもの」{生野菜|なまやさい}サラダなど ・{冷蔵庫|れいぞうこ}の{温度|おんど}の{管理|かんり}など（{冷蔵品|れいぞうひん}をつめたいまま{提供|ていきょう}するもの）"
+      },
+      {
+       "h": "①{具体的|ぐたいてき}な{管理方法|かんりほうほう}の{紹介|しょうかい}"
+      },
+      {
+       "p": "（{例|れい}）{生野菜|なまやさい}サラダ"
+      },
+      {
+       "ul": [
+        "ア．{野菜|やさい}を{十分|じゅうぶん}に{洗浄|せんじょう}し、{盛|も}り{付|つ}けて{提供|ていきょう}します。",
+        "イ．すぐに{提供|ていきょう}しない{場合|ばあい}には、{洗浄|せんじょう}した{野菜|やさい}を{冷蔵庫|れいぞうこ}で{保管|ほかん}します。そして、{提供|ていきょう}する{直前|ちょくぜん}に{冷蔵庫|れいぞうこ}から{洗浄|せんじょう}した{野菜|やさい}をだして、{盛|も}り{付|つ}けて{提供|ていきょう}します。"
+       ]
+      },
+      {
+       "h": "②{大事|だいじ}なポイント"
+      },
+      {
+       "ul": [
+        "ア．{加熱|かねつ}しない{食品|しょくひん}は、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などをやっつける（{殺|ころ}す）{加熱調理工程|かねつちょうりこうてい}がありません。そして、{原材料|げんざいりょう}に{細菌|さいきん}などがついている{場合|ばあい}があります。そのため、{原材料|げんざいりょう}を{十分|じゅうぶん}に{洗浄|せんじょう}して、{原材料|げんざいりょう}についている{細菌|さいきん}などを{減|へ}らしましょう。また{原材料|げんざいりょう}に{残|のこ}っている{細菌|さいきん}などがふえないように、{冷蔵庫|れいぞうこ}（{低|てい}{温|おん}）で{保管|ほかん}しましょう。",
+        "イ．{食品|しょくひん}を{提供|ていきょう}するまでに30{分以上時間|ふんいじょうじかん}がかかる{場合|ばあい}は、その{食品|しょくひん}を10℃{以下|いか}で{保存|ほぞん}することが{大切|たいせつ}です。"
+       ]
+      },
+      {
+       "p": "16"
+      },
+      {
+       "h": "（４）グループ２：「{加熱|かねつ}するもの」の{管理方法|かんりほうほう}について"
+      },
+      {
+       "p": "グループ２：「{加熱|かねつ}するもの」の{管理方法|かんりほうほう}の{例|れい}を{紹介|しょうかい}します。"
+      },
+      {
+       "p": "メニュー{分類|ぶんるい}（グループ） メニュー（{例|れい}）{管理方法|かんりほうほう}（{例|れい}）"
+      },
+      {
+       "p": "グループ２ ステーキ、{焼|や}き{魚|さか}、 ・{火|ひ}の{強|つよ}さ「{加熱|かねつ}するもの」{焼|や}き{鳥|とり}、ハンバーグ、 ・{見|み}た{目|め}てんぷら、からあげ、 ・{肉汁|にくじる}の{色|いろ}（{冷蔵品|れいぞうひん}を{加熱|かねつ}し、{熱|あつ}いまま{提供|ていきょう}するもの）"
+      },
+      {
+       "p": "ごはんなど ・{焼|や}き{上|あ}がりの{感触|かんしょく}（{弾力|だんりょく}）"
+      },
+      {
+       "ul": [
+        "・{中心温度|ちゅうしんおんど}など（{加熱|かねつ}したあと、{高温保管|こうおんほかん}することを{含|ふく}む）"
+       ]
+      },
+      {
+       "h": "①{具体的|ぐたいてき}な{管理方法|かんりほうほう}の{紹介|しょうかい}"
+      },
+      {
+       "ul": [
+        "ア．{食品|しょくひん}の{中心部|ちゅうしんぶ}が{十分|じゅうぶん}に{加熱|かねつ}されていることを{確認|かくにん}しましょう。{例|たと}えば、{火|ひ}の{強|つよ}さや{時間|じかん}、{見|み}た{目|め}（{形|かた}・{色|いろ}）、{中心部|ちゅうしんぶ}の{色|いろ}などを{事前|じぜん}に{確認|かくにん}しておきます。そして、{日々|ひび}の{調理|ちょうり}の{中|なか}で、{見|み}た{目|め}などによって{加熱|かねつ}が{十分|じゅうぶん}であることを{確認|かくにん}しましょう。",
+        "イ．{毎回|まいかい}の{記録|きろく}は{必要|ひつよう}ありませんが、1{日|にち}の{最後|さいご}に{加熱|かねつ}の{結果|けっか}を{記録|きろく}しましょう。また、{問題|もんだい}があった{場|ば}{合|あい}には、その{内容|ないよう}を{日誌|にっし}に{記録|きろく}しましょう。"
+       ]
+      },
+      {
+       "h": "②{大事|だいじ}なポイント"
+      },
+      {
+       "ul": [
+        "ア．{定期的|ていきてき}に{加熱|かねつ}した{食品|しょくひん}の{中心温度|ちゅうしんおんど}を{確認|かくにん}しましょう。{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などが{殺|ころ}される（{殺菌|さっきん}される）{温度|おんど}まで{加熱|かねつ}されているかを{確認|かくにん}することが{大切|たいせつ}です。{例|たと}えば、{新|あた}しくメニューを{考|かん}えたときなどに{確認|かくにん}を{行|おこ}います。",
+        "イ．{牛|ぎゅ}、{豚|ぶた}、{鶏|とり}などの{肉類|にくるい}は、{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などがついている{場合|ばあい}があります。そのため、{十分|じゅうぶん}な{加熱|かねつ}を{行|おこ}いましょう。",
+        "ウ．{加熱調理後|かねつちょうりご}、{盛|も}り{付|つ}けするときは、{汚|よご}れた{手指|てゆび}や{調理器具|ちょうりきぐ}（{食器|しょっき}も{含|ふく}む）で、{食品|しょくひん}に{汚|よご}れをうつさないように（{二次汚染|にじおせん}させないように）{注|ちゅ}{意|うい}しましょう。",
+        "エ．{肉類|にくるい}などについている{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などは、{食品|しょくひん}の{中心|ちゅうしん}{温度|おんど}を75℃で1{分間以上加熱|ぷんかんいじょうかねつ}するとやっつける（{殺|ころ}す、{殺菌|さっきん}する）ことができます。"
+       ]
+      },
+      {
+       "p": "17"
+      },
+      {
+       "p": "18"
+      },
+      {
+       "h": "（５）グループ３：「{加熱|かねつ}と{冷却|れいきゃく}をくりかえすもの」の{管理方法|かんりほうほう}について"
+      },
+      {
+       "p": "グループ３：「{加熱|かねつ}と{冷却|れいきゃ}をくりかえすもの」の{管理方法|かんりほうほう}の{例|れい}を{紹介|しょうかい}します。"
+      },
+      {
+       "p": "メニュー{分類|ぶんるい}（グループ） メニュー（{例|れい}）{管理方法|かんりほうほう}（{例|れい}）"
+      },
+      {
+       "p": "グループ３ カレー、スープ、 ・{加熱後|かねつご}すぐに{冷却|れいきゃ}させる「{加熱|かねつ}と{冷却|れいきゃ}をくりかえすもの」 ソース、たれ、 ・{再加熱|さいかねつ}するときの{気泡|きほう}ポテトサラダなど ・{見|み}た{目|め}"
+      },
+      {
+       "ul": [
+        "・{中心温度|ちゅうしんおんど}など"
+       ]
+      },
+      {
+       "h": "①{具体的|ぐたいてき}な{管理方法|かんりほうほう}の{紹介|しょうかい}"
+      },
+      {
+       "ul": [
+        "ア．{加熱|かねつ}の{確認|かくにん}は、グループ２と{同|おな}じです。",
+        "イ．{冷却|れいきゃ}する{場合|ばあい}は、10℃～60℃の{危険温度帯|きけんおんどたい}をできるだけさけるようにします。そのため、{加熱|かねつ}したあとは、すぐに{食品|しょくひん}の{温度|おんど}を{下|さ}げる{必要|ひつよう}があります。",
+        "ウ．すぐに{食品|しょくひん}の{温度|おんど}を{下|さ}げる{方法|ほうほう}として、{例|たと}えば、{食品|しょくひん}を{小|ちい}さな{容器|ようき}にわけて{冷蔵庫|れいぞうこ}に{入|い}れます。また、{冷却機器|れいきゃくきき}がある{場合|ばあい}は、{加熱後|かねつご}すぐに{冷却機器|れいきゃくきき}を{使用|しよう}して、{食品|しょくひん}の{温度|おんど}を10℃{以下|いか}まで{下|さ}げます。"
+       ]
+      },
+      {
+       "h": "②{大事|だいじ}なポイント"
+      },
+      {
+       "p": "{加熱後|かねつご}、{冷却|れいきゃ}するときに10℃～60℃の{危険温度帯|きけんおんどたい}をできるだけさけるようにします。"
+      },
+      {
+       "p": "※{参考情報|さんこうじょうほう}（{冷却|れいきゃ}をする{温度|おんど}と{時間|じかん}）"
+      },
+      {
+       "p": "{米国|べいこく}FDA{基準|きじゅん} ：2{時間以内|じかんいない}に21℃{以下|いか}、さらに4{時間以内|じかんいない}に５℃{以下|いか}に{冷却|れいきゃ}すること{日本|にほん}の{給食施設|きゅうしょくしせつ}を{対象|たいしょう}とした「{大量調理施設衛生管理|たいりょうちょうりしせつえいせいかんり}マニュアル」"
+      },
+      {
+       "p": "：30{分以内|ふんいない}に20℃{以下|いか}、さらに1{時間以内|じかんいない}に10℃{以下|いか}になるように{工夫|くふう}すること"
+      },
+      {
+       "p": "19"
+      },
+      {
+       "h": "（６）その{他|た}の{重要|じゅうよう}な{管理|かんり}ポイント"
+      },
+      {
+       "p": "{以下|いか}にある{原材料|げんざいりょう}は、{納品|のうひん}するときから{人|ひと}に{害|がい}をおよぼす{細菌|さいきん}などがついている{場合|ばあい}があります。そのため、{次|つぎ}のような{対応|たいおう}が{必要|ひつよう}となります。"
+      },
+      {
+       "h": "①{細菌|さいきん}などへの{対応|たいおう}"
+      },
+      {
+       "ul": [
+        "ア．{鶏|とり}の{卵|たま}"
+       ]
+      },
+      {
+       "p": "{中心温度|ちゅうしんおんど}が70℃で１{分以上|ぶいじょう}の{加熱|かねつ}が{必要|ひつよう}です。ただし、{賞味期限|しょうみきげん}を{過|す}ぎていない{生食用|なましょくよう}の{卵|たま}（ヒビなどによる{液漏|えきも}れがないことが{前提|ぜんてい}）を{使用|しよう}して、すみやかに{調理|ちょうり}する{場合|ばあい}は{除|のぞ}きます。"
+      },
+      {
+       "ul": [
+        "イ．{魚介類|ぎょかいるい}"
+       ]
+      },
+      {
+       "p": "{生|なま}で{食|た}べる{場合|ばあい}（{刺身|さしみ}など）は、{原材料|げんざいりょう}を{真水|まみず}（{水道水|すいどうすい}など）で{十分|じゅうぶん}に{洗浄|せんじょう}します。また、{汚染|おせん}するおそれのあるものを{取|と}り{除|のぞ}きます。"
+      },
+      {
+       "ul": [
+        "ウ．{牛|うし}の{肝臓|かんぞう}、{豚|ぶた}の{肝臓|かんぞう}いずれも{生|なま}で{食|た}べてはいけません。{食|た}べる{場合|ばあい}は、{中心温度|ちゅうしんおんど}が75℃で1{分以上|ぷんいじょう}となる{加熱|かねつ}が{必要|ひつよう}です。"
+       ]
+      },
+      {
+       "h": "②その{他|た}"
+      },
+      {
+       "ul": [
+        "ア．{異物|いぶつ}"
+       ]
+      },
+      {
+       "p": "{金属|きんぞく}などの{硬質異物|こうしついぶつ}は、それを{食|た}べた{人|ひと}がけがをする{場合|ばあい}があります。また、けがをしなくても、{食品|しょくひん}に{異物|いぶつ}が{入|はい}っているとクレームの{原因|げんいん}となります。{原材料|げんざいりょう}に{異物|いぶつ}がついていないか、{調理|ちょうり}しているときに{異|い}{物|ぶつ}がついていないか、つねに{確認|かくにん}することが{大切|たいせつ}です。さらに、{異物|いぶつ}が{食品|しょくひん}につかないように、{調理場|ちょうりば}を{整理整頓|せいりせいとん}することも{大切|たいせつ}です。"
+      },
+      {
+       "p": "＜{異物|いぶつ}の{種類|しゅるい}＞"
+      },
+      {
+       "ul": [
+        "・{硬質異物|こうしついぶつ} ：{金属片|きんぞくへん}、プラスチック{片|へん}、ガラス{片|へん}、{石|いし}など",
+        "・{軟質異物|なんしついぶつ} ：{髪|かみ}の{毛|け}、{紙|かみ}きれ、ビニール{片|へん}、{虫|むし}など"
+       ]
+      },
+      {
+       "p": "※{虫|むし}などお{客様|きゃくさま}の{気分|きぶん}を{悪|わる}くさせる{異物|いぶつ}を{不快異物|ふかいいぶつ}ともいいます。"
+      },
+      {
+       "p": "20"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "HACCP: kelompokkan hidangan, tentukan titik pengawasan penting, kendalikan suhu dan waktu.",
+      "points": [
+       "Zona berbahaya 10–60℃.",
+       "K1 dingin ≤10℃ jika >30 menit; K2 inti 75℃ ≥1 menit; K3 dinginkan segera & hangatkan sampai mendidih.",
+       "Kari/sup/salad kentang = Kelompok 3."
+      ],
+      "avoid": [
+       "Membiarkan kari dingin pelan-pelan di suhu ruang.",
+       "Menyajikan K2 tanpa memeriksa suhu inti."
+      ],
+      "exam": [
+       "Kelompokkan menu ke K1/K2/K3.",
+       "Zona berbahaya & suhu inti."
+      ]
+     },
+     "jp": {
+      "core": "HACCPとは、HazardAnalysisandCriticalControlPointのそれぞれの{頭文字|かしらもじ}をとった{略称|りゃくしょ}です。{日本語|にほんご}では、「{危害要因分析重要管理点|きがいよういんぶんせきじゅうようかんりてん}」と{訳|やく}されています。",
+      "points": [
+       "（１）HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}とは",
+       "ア．グループ１：「{加熱|かねつ}しないもの」",
+       "イ．グループ２：「{加熱|かねつ}するもの」",
+       "ウ．グループ３：「{加熱|かねつ}と{冷却|れいきゃ}をくりかえすもの」",
+       "（２）{重要管理|じゅうようかんり}のポイント",
+       "（３）グループ１：「{加熱|かねつ}しないもの」の{管理方法|かんりほうほう}について",
+       "①{具体的|ぐたいてき}な{管理方法|かんりほうほう}の{紹介|しょうかい}"
+      ]
+     }
+    },
+    "pagesJp": [
+     19,
+     26
+    ]
+   },
+   {
+    "id": "f1s8",
+    "no": 8,
+    "title": {
+     "id": "Titik Pengawasan Lain & Catatan Kebersihan",
+     "jp": "その{他|ほか}の{管理|かんり}{点|てん}と{記録|きろく}"
+    },
+    "pages": [
+     27,
+     28
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Bakteri pada bahan baku"
+      },
+      {
+       "ul": [
+        "**Telur ayam**: masak hingga suhu inti **70℃ selama minimal 1 menit** (kecuali telur \"baik digunakan sebelum\" untuk dimakan mentah yang cepat dikonsumsi dan tidak retak/bocor).",
+        "**Hasil laut** yang dimakan mentah (sashimi): cuci baik dengan air mengalir, buang bagian berisiko.",
+        "**Hati sapi/babi**: tidak boleh dimakan mentah; masak hingga **75℃ selama minimal 1 menit**."
+       ]
+      },
+      {
+       "h": "2. Benda asing"
+      },
+      {
+       "p": "Benda asing keras (serpihan logam, pecahan plastik, serpih kaca, batu) dapat melukai; benda asing lunak (rambut, kertas, plastik vinil, serangga) membuat pelanggan tidak nyaman dan dapat berujung tuntutan hukum. Cegah dengan memeriksa bahan baku dan menjaga dapur bersih dan tertata."
+      },
+      {
+       "h": "3. Anisakis (parasit)"
+      },
+      {
+       "p": "Ada pada makarel, sarden, cakalang, salmon, cumi-cumi, sauri, makerel jack; menyebabkan sakit perut akut. Pencegahan:"
+      },
+      {
+       "ul": [
+        "Pilih ikan segar, **segera buang isi perutnya**.",
+        "Periksa visual; parasit cukup besar untuk terlihat.",
+        "Jangan sajikan organ dalam mentah (parasit hidup di organ).",
+        "**Bekukan minimal 24 jam di −20℃ ke bawah**, atau masak minimal 1 menit pada 60℃ / 70℃ ke atas."
+       ]
+      },
+      {
+       "h": "4. Menyimpan catatan pengawasan"
+      },
+      {
+       "ul": [
+        "Memperjelas titik pengawasan dan membantu mencegah keracunan.",
+        "Bukti pengawasan sudah benar bila timbul masalah.",
+        "Meyakinkan pusat kesehatan dan pelanggan.",
+        "Terlihat peningkatan kinerja kerja."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 27–28 (buku gabungan). Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ],
+     "jp": [
+      {
+       "ul": [
+        "イ．アニサキス（{寄生虫|きせいちゅう}）"
+       ]
+      },
+      {
+       "p": "サバ、イワシ、カツオ、サケ、イカ、サンマ、アジなどの{魚介類|ぎょかいるい}にアニサキスが{寄生|きせい}している{場合|ばあい}があります。アニサキスが{寄生|きせい}した{魚介類|ぎょかいるい}を{食|た}べると{激|はげ}しい{腹痛|ふくつう}の{食中毒|しょくちゅうどく}になります。アニサキス{食中毒|しょくちゅうどく}を{防止|ぼうし}するためには、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。"
+      },
+      {
+       "ul": [
+        "・{新鮮|しんせん}な{魚|さか}を{選|えら}び、すぐに{内蔵|ないぞう}を{取|と}り{除|のぞ}きます。",
+        "・アニサキスは{目|め}で{見|み}える{大|おお}きさです。{魚|さか}にアニサキスがついていないか、{目|め}で{確認|かくにん}します。",
+        "・アニサキスは、{魚|さか}の{内蔵|ないぞう}にいます。{魚|さか}の{内蔵|ないぞう}を{生食|なましょく}で{提供|ていきょう}しない。",
+        "・－20℃{以下|いか}で24{時間以上|じかんいじょう}、{冷凍|れいとう}します。または60℃で１{分以上|ぷんいじょう}、もしくは70℃{以上|いじょう}で{加熱|かねつ}します。"
+       ]
+      },
+      {
+       "h": "（７）{衛生管理|えいせいかんり}の{記録|きろく}について"
+      },
+      {
+       "p": "{衛生管理|えいせいかんり}で{確認|かくにん}したことは、{記録|きろく}に{残|のこ}しておきましょう。{記録|きろく}に{残|のこ}すことで、{衛生管理|えいせいかんり}が{正|ただ}しく{行|おこ}われていることが{確認|かくにん}できます。また、{次|つぎ}のような{効果|こうか}もあります。"
+      },
+      {
+       "h": "①{衛生管理|えいせいかんり}のポイントが{明確|めいかく}になります。そして、{食中毒|しょくちゅうどく}の{予防|よぼう}につながります。"
+      },
+      {
+       "h": "②{問題|もんだい}が{発生|はっせい}した{場合|ばあい}、{衛生管理|えいせいかんり}を{適切|てきせつ}に{行|おこ}っていたことの{証拠|しょうこ}となります。"
+      },
+      {
+       "h": "③{保健所|ほけんじょ}やお{客様|きゃくさま}に{対|たい}して、{自分|じぶん}のお{店|みせ}が{衛生管理|えいせいかんり}を{適切|てきせつ}に{行|おこ}っているとを{自信|じしん}をもって{説明|せつめい}できます。"
+      },
+      {
+       "h": "④{業務|ぎょうむ}の{改善点|かいぜんてん}が{見|み}えてきます。"
+      },
+      {
+       "p": "※{参考資料|さんこうしりょう}３において、{一般飲食店|いっぱんいんしょくてん}における{衛生管理計画|えいせいかんりけいかく}の{参考様式|さんこうようしき}、{記載例|きさいれい}を{紹介|しょうかい}しています※{参考資料|さんこうしりょう}４において、{一般飲食店|いっぱんいんしょくてん}における{衛生管理実施記録|えいせいかんりじっしきろく}の{参考様式|さんこうようしき}、{記載例|きさいれい}を{紹介|しょうかい}しています"
+      },
+      {
+       "p": "21"
+      },
+      {
+       "h": "４．{参考資料|さんこうしりょう}"
+      },
+      {
+       "h": "■{参考資料|んこうしりょう}１：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}が{推奨|すいしょう}する{衛生的|えいせいてき}な{手洗|てあら}い"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}HPより"
+      },
+      {
+       "p": "22"
+      },
+      {
+       "h": "■{参考資料|んこうしりょう}２：グループわけした{食品|しょくひん}の{例|れい}"
+      },
+      {
+       "p": "グループ１：「加熱しないもの」"
+      },
+      {
+       "p": "グループ２：「加熱するもの」"
+      },
+      {
+       "p": "グループ３：「加熱と冷却をくりかえすもの」"
+      },
+      {
+       "p": "{出典|しゅってん}：{厚生労働省|こうせいろうどうしょう}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{食品衛生管理|しょくひんえいせいかんり}の{手引|てび}き（{飲食店編|いんしょくてんへん}）」より"
+      },
+      {
+       "p": "23"
+      },
+      {
+       "h": "■{参考資料|んこうしりょう}３：{一般飲食店|いっぱんいんしょくてん}における{衛生管理計画|えいせいかんりけいかく}＜{参考様式|さんこうようしき}、{記載例|きさいれい}＞"
+      },
+      {
+       "p": "{一般衛生管理|いっぱんえいせいかんり}のポイント＜{参考様式|さんこうようしき}＞"
+      },
+      {
+       "p": "一般的衛生管理のポイント"
+      },
+      {
+       "p": "いつ原材料の納入時・その他（ ）"
+      },
+      {
+       "p": "原材料の"
+      },
+      {
+       "h": "① どのように"
+      },
+      {
+       "p": "受入の確認"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "庫内温度の確認"
+      },
+      {
+       "h": "② どのように"
+      },
+      {
+       "p": "（冷蔵庫・冷凍庫）"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "交差汚染・"
+      },
+      {
+       "h": "③－１二次汚染の どのように"
+      },
+      {
+       "p": "防止問題があったとき"
+      },
+      {
+       "p": "いつ原材料の納入時・その他（ ）"
+      },
+      {
+       "p": "器具等の"
+      },
+      {
+       "h": "③－２洗浄・消毒・ どのように"
+      },
+      {
+       "p": "殺菌問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "トイレの"
+      },
+      {
+       "h": "③－３ どのように"
+      },
+      {
+       "p": "洗浄・消毒"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・その他（ ）"
+      },
+      {
+       "p": "従業員の"
+      },
+      {
+       "h": "④－１健康管理など どのように"
+      },
+      {
+       "p": "問題があったときトイレの後、調理施設に入る前、盛り付けの前、作業内容変更時、いつ生肉や生魚などを扱った後、金銭をさわった後、清掃をおこなった後、その他（ ）"
+      },
+      {
+       "p": "手洗いの"
+      },
+      {
+       "h": "④－２実施 どのように"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "24"
+      },
+      {
+       "p": "{一般衛生管理|いっぱんえいせいかんり}のポイント＜{記載例|きさいれい}＞"
+      },
+      {
+       "p": "一般的衛生管理のポイント"
+      },
+      {
+       "p": "いつ原材料の納入時・その他（ ）"
+      },
+      {
+       "p": "原材料の"
+      },
+      {
+       "h": "① どのように"
+      },
+      {
+       "p": "受入の確認"
+      },
+      {
+       "p": "問題があったとき返品し、交換する"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "庫内温度の"
+      },
+      {
+       "h": "②確認 どのように"
+      },
+      {
+       "p": "（冷蔵庫・冷凍庫）"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "交差汚染・"
+      },
+      {
+       "h": "③－１二次汚染の どのように"
+      },
+      {
+       "p": "防止問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "器具等の"
+      },
+      {
+       "h": "③－２洗浄・消毒・ どのように"
+      },
+      {
+       "p": "殺菌問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・業務終了後・その他（ ）"
+      },
+      {
+       "p": "トイレの"
+      },
+      {
+       "h": "③－３ どのように"
+      },
+      {
+       "p": "洗浄・消毒"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "いつ始業前・作業中・その他（ ）"
+      },
+      {
+       "h": "④－１従業員の どのように"
+      },
+      {
+       "p": "健康管理など"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "トイレの後、調理施設に入る前、盛り付けの前、作業内容変更時、いつ生肉や生魚などを扱った後、金銭をさわった後、清掃をおこなった後、その他（ ）"
+      },
+      {
+       "p": "手洗いの"
+      },
+      {
+       "h": "④－２実施 どのように"
+      },
+      {
+       "p": "問題があったとき"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "25"
+      },
+      {
+       "p": "{重要管理|じゅうようかんり}のポイント＜{参考様式|さんこうようしき}＞"
+      },
+      {
+       "h": "⑤重要管理のポイント"
+      },
+      {
+       "p": "分類 メニュー チェック方法"
+      },
+      {
+       "p": "非加熱のもの（冷蔵品を冷たいまま提供）"
+      },
+      {
+       "p": "加熱するもの（冷蔵品を加熱し、熱いまま提供）"
+      },
+      {
+       "p": "（加熱した後、高温保管）"
+      },
+      {
+       "p": "加熱後冷却し、再加熱するもの"
+      },
+      {
+       "p": "（加熱後、冷却するもの）"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "26"
+      },
+      {
+       "p": "{重要管理|じゅうようかんり}のポイント＜{記載例|きさいれい}＞"
+      },
+      {
+       "h": "⑤重要管理のポイント"
+      },
+      {
+       "p": "分類 メニュー チェック方法"
+      },
+      {
+       "p": "非加熱のもの（冷蔵刺身、冷奴冷蔵庫より取り出したらすぐに提供する品を冷たいまま提供）"
+      },
+      {
+       "p": "定期的に温度を計測しながら、ハンバーグ加熱するもの（冷蔵火の強さ、油の温度、加熱時間、肉汁、焼き上がりの様子など焼き魚 を確認する品を加熱し、熱いまま提供）"
+      },
+      {
+       "p": "から揚げ"
+      },
+      {
+       "p": "（加熱した後、高温保から揚げ定期的に温度をはかる管） ごはん"
+      },
+      {
+       "p": "加熱後冷却し、再加カレー速やかに冷却、再加熱をしっかり行う（いずれも温度を計測）"
+      },
+      {
+       "p": "熱するもの"
+      },
+      {
+       "p": "（加熱後、冷却するもポテトサラダの）"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "27"
+      },
+      {
+       "h": "■{参考資料|んこうしりょう}４：{一般飲食店|いっぱんいんしょくてん}における{衛生管理実施記録|えいせいかんりじっしきろく}＜{参考様式|さんこうようしき}、{記載例|きさいれい}＞"
+      },
+      {
+       "p": "{一般衛生管理|いっぱんえいせいかんり}の{実施記録|じっしきろく}＜{参考様式|さんこうようしき}＞"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "28"
+      },
+      {
+       "p": "{一般衛生管理|いっぱんえいせいかんり}の{実施記録|じっしきろく}＜{記載例|きさいれい}＞"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "29"
+      },
+      {
+       "p": "{重要管理|じゅうようかんり}の{実施記録|じっしきろく}＜{参考様式|さんこうようしき}＞"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "30"
+      },
+      {
+       "p": "{重要管理|じゅうようかんり}の{実施記録|じっしきろく}＜{記載例|きさいれい}＞"
+      },
+      {
+       "p": "{出典|しゅってん}：{日本食品衛生協会|にほんしょくひんえいせいきょうかい}「HACCPの{考|かん}え{方|かた}を{取|と}り{入|い}れた{衛生管理|えいせいかんり}のための{手引書|てびきしょ}」より"
+      },
+      {
+       "p": "31"
+      },
+      {
+       "p": "＜さくいん＞"
+      },
+      {
+       "p": "ひらがな{単語|たんご}（{漢字含|かんじふく}む）{備考|びこう}{掲載|けいさい}ページあかみさかな赤身魚食品に関するもの 5P～あにさきす アニサキス食中毒の原因となるもの（寄生虫） 21P～あるこーる（しょうどく） アルコール（消毒）衛生管理の説明で使用されているもの 8P～いーがたかんえんういるす E型肝炎ウイルス食中毒の原因となるもの（ウイルス） 1P～いっぱんてきえいせいかんり一般的衛生管理衛生管理の説明で使用されているもの 24P～いぶつ異物衛生管理の説明で使用されているもの 10P～いんしょくてん飲食店衛生管理の説明で使用されているもの 1P～ういるす ウイルス衛生管理の説明で使用されているもの 1P～ういるすせいしょくちゅうどく ウイルス性食中毒食中毒の原因となるもの（ウイルス） 1P～うぇるしゅきん ウェルシュ菌食中毒の原因となるもの（細菌） 3P～えんそけいさっきんざい塩素系殺菌剤衛生管理の説明で使用されているもの 8P～おうしょくぶどうきゅうきん黄色ブドウ球菌食中毒の原因となるもの（細菌） 3P～おうと おう吐衛生管理の説明で使用されているもの 1P～おやゆび親指衛生管理の説明で使用されているもの 11P～おんど温度衛生管理の説明で使用されているもの 2P～おんどかんり温度管理衛生管理の説明で使用されているもの 6P～おんどけい温度計調理器具・備品に関するもの 6P～おんどたい温度帯衛生管理の説明で使用されているもの 15P～かいちゅう回虫食中毒の原因となるもの（寄生虫） 1P～かがくせいしょくちゅうどく化学性食中毒食中毒の原因となるもの（化学性） 1P～かこうひん加工品食品に関するもの 5P～かねつ加熱衛生管理の説明で使用されているもの 2P～かねつぶそく加熱不足衛生管理の説明で使用されているもの 1P～がほう芽胞食中毒の原因となるもの（細菌） 3P～からあげ からあげ料理に関するもの 15P～かれー カレー料理に関するもの 15P～かんそう乾燥衛生管理の説明で使用されているもの 8P～かんぴろばくたー カンピロバクター食中毒の原因となるもの（細菌） 3P～かんりきじゅん管理基準衛生管理の説明で使用されているもの 6P～きがいよういんぶんせき危害要因分析衛生管理の説明で使用されているもの 14P～きけんおんどたい危険温度帯衛生管理の説明で使用されているもの 15P～きせいちゅう寄生虫食中毒の原因となるもの（寄生虫） 1P～きせいちゅうしょくちゅうどく寄生虫食中毒食中毒の原因となるもの（寄生虫） 1P～"
+      },
+      {
+       "p": "32"
+      },
+      {
+       "p": "ひらがな{単語|たんご}（{漢字含|かんじふく}む）{備考|びこう}{掲載|けいさい}ページぎょうしゃ業者衛生管理の説明で使用されているもの 1P～きろく記録衛生管理の説明で使用されているもの 5P～ぐりすとらっぷ グリストラップ調理機器・設備に関するもの 12P～げり下痢衛生管理の説明で使用されているもの 10P～げんいんぶっしつ原因物質衛生管理の説明で使用されているもの 1P～けんこうかんり健康管理衛生管理の説明で使用されているもの 10P～けんこうひがい健康被害衛生管理の説明で使用されているもの 1P～こうさおせん交差汚染衛生管理の説明で使用されているもの 7P～こうしついぶつ硬質異物衛生管理の説明で使用されているもの 20P～ごえす ５S衛生管理の説明で使用されているもの（５S） 12P～ごはん ごはん料理に関するもの 15P～さいきん細菌衛生管理の説明で使用されているもの 1P～さいきんせいしょくちゅうどく細菌性食中毒食中毒の原因となるもの（細菌） 1P～さぎょうこうてい作業工程衛生管理の説明で使用されているもの 14P～さぎょうだい作業台調理機器・設備に関するもの 12P～さしみ刺身料理に関するもの 15P～さっきん殺菌衛生管理の説明で使用されているもの 2P～ざっきん雑菌衛生管理の説明で使用されているもの 2P～さっちゅうざい殺虫剤衛生管理の説明で使用されているもの 1P～さるもねらきん サルモネラ菌食中毒の原因となるもの（細菌） 3P～しつおん室温衛生管理の説明で使用されているもの 5P～しつど湿度衛生管理の説明で使用されているもの 2P～しゅうかん習慣衛生管理の説明で使用されているもの（５S） 12P～じゅうようかんりてん重要管理点衛生管理の説明で使用されているもの 14P～じゅうようかんりぽいんと重要管理ポイント衛生管理の説明で使用されているもの 15P～しょうしょくひん装飾品衛生管理の説明で使用されているもの 10P～しょうどく消毒衛生管理の説明で使用されているもの 2P～しょうひきげん消費期限衛生管理の説明で使用されているもの 5P～しょうみきげん賞味期限衛生管理の説明で使用されているもの 5P～しょうめい照明調理機器・設備に関するもの 13P～しょくちゅうどく食中毒衛生管理の説明で使用されているもの 1P～しょくちゅうどくよぼうさんげんそく食中毒予防３原則衛生管理の説明で使用されているもの 2P～しょくひんざんさ食品残さ衛生管理の説明で使用されているもの 13P～しんく シンク調理機器・設備に関するもの 12P～すいせんればー水洗レバー調理機器・設備に関するもの 9P～"
+      },
+      {
+       "p": "33"
+      },
+      {
+       "p": "ひらがな{単語|たんご}（{漢字含|かんじふく}む）{備考|びこう}{掲載|けいさい}ページすいどうすい水道水衛生管理の説明で使用されているもの 8P～すーぷ スープ料理に関するもの 15P～すてーき ステーキ料理に関するもの 15P～せいけつ清潔衛生管理の説明で使用されているもの（５S） 12P～せいそう清掃衛生管理の説明で使用されているもの（５S） 12P～せいぞう製造衛生管理の説明で使用されているもの 14P～せいとん整頓衛生管理の説明で使用されているもの（５S） 12P～せいり整理衛生管理の説明で使用されているもの（５S） 12P～せきがいせんほうしゃおんどけい赤外線放射温度計調理器具・備品に関するもの 5P～せれうすきん セレウス菌食中毒の原因となるもの（細菌） 3P～せんざい洗剤衛生管理の説明で使用されているもの 1P～せんじょうざい洗浄剤衛生管理の説明で使用されているもの 11P～せんど鮮度衛生管理の説明で使用されているもの 5P～そーす ソース料理に関するもの 15P～たいちょうふりょう体調不良衛生管理の説明で使用されているもの 1P～だくと ダクト調理機器・設備に関するもの 12P～たれ たれ料理に関するもの 15P～ちゅうしんおんど中心温度衛生管理の説明で使用されているもの 2P～ちょうえんびぶりお腸炎ビブリオ食中毒の原因となるもの（細菌） 4P～ちょうかんしゅっけつせいだいちょうきん腸管出血性大腸菌食中毒の原因となるもの（細菌） 1P～てあらいば手洗い場調理機器・設備に関するもの 12P～ていきせいそう定期清掃衛生管理の説明で使用されているもの 12P～てくび手首衛生管理の説明で使用されているもの 11P～てのこう手の甲衛生管理の説明で使用されているもの 11P～てのひら手のひら衛生管理の説明で使用されているもの 11P～てぶくろ手袋衛生管理の説明で使用されているもの 10P～てんぷら てんぷら料理に関するもの 15P～どあのぶ ドアノブ調理機器・設備に関するもの 9P～といれ トイレ調理機器・設備に関するもの 9P～なまごみ生ごみ衛生管理の説明で使用されているもの 13P～なまやさいさらだ生野菜サラダ料理に関するもの 15P～なんしついぶつ軟質異物衛生管理の説明で使用されているもの 20P～にじおせん二次汚染衛生管理の説明で使用されているもの 7P～にちじょうせいそう日常清掃衛生管理の説明で使用されているもの 12P～にっし日誌衛生管理の説明で使用されているもの 5P～"
+      },
+      {
+       "p": "34"
+      },
+      {
+       "p": "ひらがな{単語|たんご}（{漢字含|かんじふく}む）{備考|びこう}{掲載|けいさい}ページにまいがい二枚貝食品に関するもの 2P～にゅうか入荷衛生管理の説明で使用されているもの 14P～ねっとう熱湯衛生管理の説明で使用されているもの 8P～のうひん納品衛生管理の説明で使用されているもの 1P～のうやく農薬食中毒の原因となるもの（化学性） 1P～のろういるす ノロウイルス食中毒の原因となるもの（ウイルス） 1P～はいき廃棄衛生管理の説明で使用されているもの 13P～はいきぶつ廃棄物衛生管理の説明で使用されているもの 13P～はいすいこう排水溝調理機器・設備に関するもの 12P～はいゆ廃油衛生管理の説明で使用されているもの 13P～はせっぷ（はさっぷ） HACCP衛生管理の説明で使用されているもの 14P～はっせいよういん発生要因衛生管理の説明で使用されているもの 1P～ばんそうこう バンソウコウ衛生管理の説明で使用されているもの 10P～はんばーぐ ハンバーグ料理に関するもの 15P～ひすたみん ヒスタミン食中毒の原因となるもの（その他） 5P～ひややっこ冷奴料理に関するもの 15P～ふかいいぶつ不快異物衛生管理の説明で使用されているもの 20P～ぶどうきゅうきん ブドウ球菌食中毒の原因となるもの（細菌） 1P～ふらいどちきん フライドチキン料理に関するもの 18P～べんき便器調理機器・設備に関するもの 9P～べんざ便座調理機器・設備に関するもの 9P～ほうちょう包丁調理器具・備品に関するもの 2P～ぼしきゅう母指球衛生管理の説明で使用されているもの 11P～ほぞん保存衛生管理の説明で使用されているもの 2P～ほぞんほうほう保存方法衛生管理の説明で使用されているもの 5P～ぽてとさらだ ポテトサラダ料理に関するもの 15P～まないた まな板調理器具・備品に関するもの 2P～やきさかな焼き魚料理に関するもの 15P～やきとり焼き鳥料理に関するもの 15P～やくざい薬剤衛生管理の説明で使用されているもの 8P～ゆび指衛生管理の説明で使用されているもの 11P～ゆびさき指先衛生管理の説明で使用されているもの 11P～りゅうすい流水衛生管理の説明で使用されているもの 9P～れいきゃく冷却衛生管理の説明で使用されているもの 14P～れいきゃくきき冷却機器調理機器・設備に関するもの 19P～"
+      },
+      {
+       "p": "35"
+      },
+      {
+       "p": "ひらがな{単語|たんご}（{漢字含|かんじふく}む）{備考|びこう}{掲載|けいさい}ページれいぞうこ冷蔵庫調理機器・設備に関するもの 6P～れいとうこ冷凍庫調理機器・設備に関するもの 6P～れんじ レンジ調理機器・設備に関するもの 12P～"
+      },
+      {
+       "p": "36"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Telur 70℃, hati dan daging 75℃, anisakis dibekukan −20℃ ≥24 jam; catat semua.",
+      "points": [
+       "Telur: 70℃ ≥1 menit.",
+       "Hati sapi/babi tidak boleh mentah.",
+       "Anisakis: buang isi perut, bekukan −20℃ 24 jam.",
+       "Catatan = bukti kebersihan."
+      ],
+      "avoid": [
+       "Menyajikan organ dalam ikan mentah.",
+       "Tidak menyimpan catatan."
+      ],
+      "exam": [
+       "Suhu inti telur vs hati.",
+       "Pencegahan anisakis."
+      ]
+     },
+     "jp": {
+      "core": "サバ、イワシ、カツオ、サケ、イカ、サンマ、アジなどの{魚介類|ぎょかいるい}にアニサキスが{寄生|きせい}している{場合|ばあい}があります。アニサキスが{寄生|きせい}した{魚介類|ぎょかいるい}を{食|た}べると{激|はげ}しい{腹痛|ふくつう}の{食中毒|しょくちゅうどく}になります。アニサキス{食中毒|しょくちゅうどく}を{防止|ぼうし}するためには、{次|つぎ}のような{方法|ほうほう}で{対応|たいおう}します。",
+      "points": [
+       "{新鮮|しんせん}な{魚|さか}を{選|えら}び、すぐに{内蔵|ないぞう}を{取|と}り{除|のぞ}きます。",
+       "アニサキスは{目|め}で{見|み}える{大|おお}きさです。{魚|さか}にアニサキスがついていないか、{目|め}で{確認|かくにん}します。",
+       "アニサキスは、{魚|さか}の{内蔵|ないぞう}にいます。{魚|さか}の{内蔵|ないぞう}を{生食|なましょく}で{提供|ていきょう}しない。",
+       "（７）{衛生管理|えいせいかんり}の{記録|きろく}について",
+       "①{衛生管理|えいせいかんり}のポイントが{明確|めいかく}になります。そして、{食中毒|しょくちゅうどく}の{予防|よぼう}につながります。",
+       "②{問題|もんだい}が{発生|はっせい}した{場合|ばあい}、{衛生管理|えいせいかんり}を{適切|てきせつ}に{行|おこ}っていたことの{証拠|しょうこ}となります。",
+       "③{保健所|ほけんじょ}やお{客様|きゃくさま}に{対|たい}して、{自分|じぶん}のお{店|みせ}が{衛生管理|えいせいかんり}を{適切|てきせつ}に{行|おこ}っているとを{自信|じしん}をもって{説明|せつめい}できます。"
+      ]
+     }
+    },
+    "pagesJp": [
+     27,
+     43
+    ]
+   }
+  ],
+  "pagesJp": [
+   4,
+   43
+  ]
+ }
+}

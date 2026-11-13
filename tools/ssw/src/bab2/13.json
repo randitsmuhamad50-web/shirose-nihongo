@@ -1,0 +1,31 @@
+{
+ "id": "b2s13", "no": 13,
+ "title": { "id": "Toilet ② Wastafel", "jp": "トイレ清掃 ②洗面台" },
+ "pages": [47, 47],
+ "full": {
+  "id": [
+   { "ol": [
+     "Pakai sarung tangan untuk wastafel. Semprotkan pembersih ke pad putih.",
+     "Bersihkan: ① keran, ② wastafel, ③ afur (lubang pembuangan). Mulai dari bagian atas yang mudah kotor.",
+     "Titik kotoran mudah menumpuk: bersihkan sampah dan rambut. Bagian depan wastafel mudah kotor: cuci dari depan.",
+     "Setelah membersihkan wastafel dengan pad putih, lap dengan kain basah.",
+     "Terakhir lap dengan kain kering, kemudian selesai. Lap sampai ke sisi belakang; jangan sampai noda kerak tersisa.",
+     "Untuk cermin, bisa dibersihkan 1 kali saja dengan Cloth khusus. Jika menggunakan lap, diperlukan lap basah dan lap kering (lihat Membersihkan Kaca, p.42)."
+   ] }
+  ],
+  "jp": [
+   { "ol": [
+     "{洗面台用手袋|せんめんだいようてぶくろ}を{着|つ}ける。{白|しろ}パッドに{洗剤|せんざい}をつけて。",
+     "{洗面台|せんめんだい}の{清掃|せいそう}：①{蛇口|じゃぐち}、②{洗面器|せんめんき}、③{排水口|はいすいこう}。{汚|よご}れやすい{上|うえ}から。",
+     "{汚|よご}れが{溜|た}まりやすいポイント（{毛|け}やゴミを{除去|じょきょ}）。{洗面器|せんめんき}は{汚|よご}れがつきやすい{正面|しょうめん}から{洗浄|せんじょう}する。",
+     "{洗面台全体|せんめんだいぜんたい}を{白|しろ}パッドで{洗浄|せんじょう}してからタオルで{水拭|みずぶ}きしよう。",
+     "{最後|さいご}に{乾|かわ}いたタオルで{仕上|しあ}げて{洗面台|せんめんだい}が{完了|かんりょう}だよ。{裏側|うらがわ}まで{拭|ふ}く。{水|みず}アカが{残|のこ}らないように。",
+     "{鏡|かがみ}は{専用|せんよう}クロスを{使用|しよう}すると{一度|いちど}で{仕上|しあ}げられる。タオルの{場合|ばあい}は{水拭|みずぶ}きと{乾拭|からぶ}きが{必要|ひつよう}（ガラス{清掃|せいそう}（{立面|りつめん}）P.42）。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Wastafel: pad putih + cairan, urutan keran → wastafel → afur, lap basah, lap kering sampai belakang.", "points": ["Sarung tangan khusus wastafel.", "Keran, wastafel, afur.", "Bersihkan rambut dan sampah.", "Lap kering agar tidak ada kerak.", "Cermin: cloth khusus 1 kali."], "avoid": ["Meninggalkan noda kerak.", "Lupa sisi belakang."], "exam": ["Urutan bagian wastafel.", "Alat membersihkan cermin."] },
+  "jp": { "core": "{洗面台|せんめんだい}は{白|しろ}パッド→{水拭|みずぶ}き→{乾拭|からぶ}き。①{蛇口|じゃぐち}②{洗面器|せんめんき}③{排水口|はいすいこう}。", "points": ["{洗面台用手袋|せんめんだいようてぶくろ}", "{蛇口|じゃぐち}・{洗面器|せんめんき}・{排水口|はいすいこう}", "{毛|け}やゴミを{除去|じょきょ}", "{乾拭|からぶ}きで{水|みず}アカ{防止|ぼうし}", "{鏡|かがみ}は{専用|せんよう}クロス"], "avoid": ["{水|みず}アカを{残|のこ}す", "{裏側|うらがわ}を{忘|わす}れる"], "exam": ["{洗面台|せんめんだい}の{順番|じゅんばん}", "{鏡|かがみ}の{道具|どうぐ}"] }
+ }
+}

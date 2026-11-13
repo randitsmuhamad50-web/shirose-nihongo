@@ -156,13 +156,21 @@ function loadIndex(lvl, cat){
     .then(r => r.ok ? r.json() : null).catch(() => null);
   return idxCache[k];
 }
-async function findClip(text, role, lvl){
+const ALL_LEVELS = ["n5", "n4", "n3", "n2", "n1", "ssw-bc", "kana", "ir0", "ir1", "ir2"];
+async function findClipIn(text, role, lvl){
   const order = role && CATS.includes(role) ? [role, ...CATS.filter(c => c !== role)] : CATS;
   for (const cat of order){
     const ix = await loadIndex(lvl, cat);
     const c = ix && ix.clips && ix.clips[text];
     if (c) return { url: `./audio/vv/${lvl}/${cat}/${String(c[0]).padStart(3, "0")}.mp3`, start: c[1], dur: c[2], voice: ix.voice };
   }
+  return null;
+}
+// Cari di level aktif dulu; kalau tidak ada, cari di SEMUA voice pack lain sebelum jatuh ke engine/suara browser.
+async function findClip(text, role, lvl){
+  const hit = await findClipIn(text, role, lvl);
+  if (hit) return hit;
+  for (const l of ALL_LEVELS){ if (l === lvl) continue; const h = await findClipIn(text, role, l); if (h) return h; }
   return null;
 }
 
@@ -232,7 +240,7 @@ export async function speak(text, opt = {}){
   stop(true); const my = token;
   lastReplay = () => speak(text, opt);
   await cfgReady;
-  const lvl = (opt.level || ST().level || "n5").toLowerCase();
+  const lvl = (opt.level || ST()._srsLevel || ST().level || "n5").toLowerCase();
   show("loading", "Memuat suara…");
   const clip = await findClip(text, opt.role, lvl);
   if (my !== token) return;

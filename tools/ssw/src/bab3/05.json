@@ -1,0 +1,73 @@
+{
+ "id": "b3s5", "no": 5,
+ "title": { "id": "Polisher: Peralatan dan Persiapan", "jp": "ポリッシャー：資器材と準備" },
+ "pages": [66, 67],
+ "full": {
+  "id": [
+   { "h": "Peralatan untuk membersihkan permukaan lantai (lantai vinil)" },
+   { "ul": [
+     "Pengki untuk air, ember, polisher, kipas pengering, lap.",
+     "Kain pel, pad, lap tipe dust cloth, lap untuk wax.",
+     "Perangkat pencegah listrik bocor atau arus pendek.",
+     "Curing mat, karbol tipe alkali, wax resin, Floor Sign.",
+     "Alat penarik air lantai (squeegee; di buku ID tertulis \"penanda lantai licin\")."
+   ] },
+   { "h": "Alur pembersihan permukaan lantai" },
+   { "ol": [
+     "Membersihkan debu.",
+     "Membersihkan permukaan lantai.",
+     "Mengumpulkan sampah/air kotor, mengepel.",
+     "Mengaplikasikan bahan perawatan lantai (wax)."
+   ] },
+   { "h": "Penempatan peralatan" },
+   { "ul": [
+     "Taruh peralatan di atas Curing Mat. Jangan taruh peralatan di atas lantai begitu saja (menimbulkan goresan atau kotoran).",
+     "Jaga jalur lalu lalang tetap bebas.",
+     "Pindahkan polisher. Tempatkan colokan di dekat stop kontak."
+   ] },
+   { "h": "Memasang pad dan memeriksa operasi" },
+   { "ol": [
+     "Baringkan polisher untuk memasang pad dan memeriksa operasi. Setelah mengeluarkan penyangga (stand), tekan tombol stopper.",
+     "Dorong ke depan rodanya dengan kaki (kunci ban dengan kaki, lalu rebahkan).",
+     "Hubungkan colokan ke perangkat pencegah listrik bocor atau arus pendek (hal.82).",
+     "Pegang tuas kiri dan kanan dan periksa apakah polisher berfungsi: tuas kanan = rotasi putaran; tuas kiri = penyemprot karbol.",
+     "Pasangkan alas pad ke Floor Pad (tempel), sesuaikan ketidakrataannya, lalu pasang ke polisher: putar pad dan kunci."
+   ] }
+  ],
+  "jp": [
+   { "h": "{床面清掃|ゆかめんせいそう}で{使用|しよう}する{資器材|しきざい}（ビニル{系|けい}）" },
+   { "ul": [
+     "{汚水取|おすいと}り、バケツ、ポリッシャー、{送風機|そうふうき}、タオル。",
+     "モップ、パッド、ダストクロス{型|がた}モップ、ワックス{用|よう}モップ。",
+     "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}。",
+     "{養生|ようじょう}マット、アルカリ{性洗剤|せいせんざい}、{樹脂|じゅし}ワックス、フロアサイン。",
+     "フロアスクイジー。"
+   ] },
+   { "h": "{床面清掃|ゆかめんせいそう}の{流|なが}れ" },
+   { "ol": [
+     "{除塵|じょじん}",
+     "{床面清掃|ゆかめんせいそう}",
+     "{汚水回収|おすいかいしゅう}、{水拭|みずぶ}き",
+     "{床維持剤塗布|ゆかいじざいとふ}"
+   ] },
+   { "h": "{資器材|しきざい}の{置|お}き{方|かた}" },
+   { "ul": [
+     "{資器材|しきざい}は{養生|ようじょう}マットの{上|うえ}に{置|お}こう。{直接床|ちょくせつゆか}に{資器材|しきざい}を{置|お}いてはいけない（キズや{汚|よご}れ）。",
+     "{歩行動線|ほこうどうせん}を{確保|かくほ}する。",
+     "ポリッシャーを{移動|いどう}させたらコンセントの{近|ちか}くへコードを{置|お}こう。"
+   ] },
+   { "h": "パッドの{装着|そうちゃく}と{動作確認|どうさかくにん}" },
+   { "ol": [
+     "{動作確認|どうさかくにん}とパッドを{装着|そうちゃく}するためにポリッシャーを{寝|ね}かせよう。このときスタンドを{出|だ}してからストッパーボタンを{押|お}す。",
+     "タイヤを{足|あし}で{固定|こてい}して{倒|たお}すんだよ。",
+     "{次|つぎ}はコンセントにさした{電流遮断器|でんりゅうしゃだんき}にプラグをつないで（{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち} P.82）。",
+     "{左右|さゆう}のレバーを{握|にぎ}りポリッシャーが{動作|どうさ}することを{確認|かくにん}しよう：{右|みぎ}レバー＝{軸|じく}の{回転|かいてん}、{左|ひだり}レバー＝{洗剤|せんざい}{散布|さんぷ}。",
+     "パッド{台|だい}にフロアパッドを{付|つ}けてポリッシャーへ{装着|そうちゃく}（{圧着|あっちゃく}、{凸凹|でこぼこ}を{合|あ}わせる、パッドを{回転|かいてん}させて{固定|こてい}する）。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Siapkan peralatan di atas curing mat. Baringkan polisher, cek tuas kanan (putar) dan kiri (semprot), pasang pad.", "points": ["Alur: debu → permukaan → kumpul air → wax.", "Peralatan di atas curing mat.", "Colokan lewat pencegah listrik bocor.", "Tuas kanan putar, kiri semprot karbol."], "avoid": ["Menaruh peralatan langsung di lantai.", "Memasang pad sebelum mengecek operasi."], "exam": ["Fungsi tuas kanan dan kiri.", "Alur pembersihan lantai."] },
+  "jp": { "core": "{資器材|しきざい}は{養生|ようじょう}マットの{上|うえ}。ポリッシャーを{寝|ね}かし、{右|みぎ}＝{回転|かいてん}・{左|ひだり}＝{散布|さんぷ}を{確認|かくにん}、パッドを{装着|そうちゃく}。", "points": ["{除塵|じょじん}→{床面清掃|ゆかめんせいそう}→{汚水回収|おすいかいしゅう}→{床維持剤|ゆかいじざい}", "{養生|ようじょう}マットの{上|うえ}", "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}", "{右|みぎ}レバー＝{回転|かいてん}、{左|ひだり}レバー＝{洗剤|せんざい}"], "avoid": ["{直接床|ちょくせつゆか}に{置|お}く", "{確認|かくにん}なしでパッドを{付|つ}ける"], "exam": ["レバーの{役割|やくわり}", "{床面清掃|ゆかめんせいそう}の{流|なが}れ"] }
+ }
+}

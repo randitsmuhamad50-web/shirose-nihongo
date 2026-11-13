@@ -1,0 +1,7004 @@
+{
+ "slug": "food-service",
+ "note": "Gambar dipotong otomatis dari halaman buku resmi; judul/penjelasan disusun dari teks pada gambar + kosakata (auto:true = perlu penyuntingan manusia).",
+ "figs": [
+  {
+   "id": "food-service-id-p005-0",
+   "sub": "f1s1",
+   "book": "id",
+   "page": 5,
+   "y": 0.72,
+   "src": "./assets/ssw/food-service/fig/id-p005-0.webp",
+   "w": 869,
+   "h": 615,
+   "cap": {
+    "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+    "jp": "食中毒の基本と予防の3原則"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 5, untuk subbab «Dasar Keracunan Makanan & 3 Prinsip Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト5ページ「食中毒の基本と予防の3原則」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p006-0",
+   "sub": "f1s1",
+   "book": "id",
+   "page": 6,
+   "y": 0.18,
+   "src": "./assets/ssw/food-service/fig/id-p006-0.webp",
+   "w": 187,
+   "h": 179,
+   "cap": {
+    "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+    "jp": "食中毒の基本と予防の3原則"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan & 3 Prinsip Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基本と予防の3原則」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p006-1",
+   "sub": "f1s1",
+   "book": "id",
+   "page": 6,
+   "y": 0.18,
+   "src": "./assets/ssw/food-service/fig/id-p006-1.webp",
+   "w": 145,
+   "h": 179,
+   "cap": {
+    "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+    "jp": "食中毒の基本と予防の3原則"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan & 3 Prinsip Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基本と予防の3原則」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p006-2",
+   "sub": "f1s1",
+   "book": "id",
+   "page": 6,
+   "y": 0.18,
+   "src": "./assets/ssw/food-service/fig/id-p006-2.webp",
+   "w": 177,
+   "h": 179,
+   "cap": {
+    "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+    "jp": "食中毒の基本と予防の3原則"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan & 3 Prinsip Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基本と予防の3原則」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p006-3",
+   "sub": "f1s1",
+   "book": "id",
+   "page": 6,
+   "y": 0.71,
+   "src": "./assets/ssw/food-service/fig/id-p006-3.webp",
+   "w": 242,
+   "h": 132,
+   "cap": {
+    "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+    "jp": "食中毒の基本と予防の3原則"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan & 3 Prinsip Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基本と予防の3原則」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p006-4",
+   "sub": "f1s1",
+   "book": "id",
+   "page": 6,
+   "y": 0.86,
+   "src": "./assets/ssw/food-service/fig/id-p006-4.webp",
+   "w": 298,
+   "h": 203,
+   "cap": {
+    "id": "Dasar Keracunan Makanan & 3 Prinsip Pencegahan",
+    "jp": "食中毒の基本と予防の3原則"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan & 3 Prinsip Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基本と予防の3原則」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-0",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/id-p007-0.webp",
+   "w": 226,
+   "h": 195,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-1",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/id-p007-1.webp",
+   "w": 117,
+   "h": 195,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-2",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/id-p007-2.webp",
+   "w": 208,
+   "h": 195,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-3",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/id-p007-3.webp",
+   "w": 239,
+   "h": 188,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "1分以上Ey"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-4",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/id-p007-4.webp",
+   "w": 268,
+   "h": 196,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-5",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/id-p007-5.webp",
+   "w": 215,
+   "h": 216,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p007-6",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 7,
+   "y": 0.85,
+   "src": "./assets/ssw/food-service/fig/id-p007-6.webp",
+   "w": 265,
+   "h": 196,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p008-0",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 8,
+   "y": 0.13,
+   "src": "./assets/ssw/food-service/fig/id-p008-0.webp",
+   "w": 269,
+   "h": 196,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p008-1",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 8,
+   "y": 0.29,
+   "src": "./assets/ssw/food-service/fig/id-p008-1.webp",
+   "w": 268,
+   "h": 216,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "ちこ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p008-2",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 8,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/id-p008-2.webp",
+   "w": 270,
+   "h": 216,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p008-3",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 8,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/id-p008-3.webp",
+   "w": 267,
+   "h": 199,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p008-4",
+   "sub": "f1s2",
+   "book": "id",
+   "page": 8,
+   "y": 0.82,
+   "src": "./assets/ssw/food-service/fig/id-p008-4.webp",
+   "w": 266,
+   "h": 212,
+   "cap": {
+    "id": "Bakteri dan Virus Penyebab Keracunan Makanan",
+    "jp": "食中毒の原因となる細菌・ウイルス"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Bakteri dan Virus Penyebab Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の原因となる細菌・ウイルス」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p011-0",
+   "sub": "f1s3",
+   "book": "id",
+   "page": 11,
+   "y": 0.26,
+   "src": "./assets/ssw/food-service/fig/id-p011-0.webp",
+   "w": 156,
+   "h": 271,
+   "cap": {
+    "id": "Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang",
+    "jp": "納品検査・保管温度・二次汚染"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 11, untuk subbab «Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト11ページ「納品検査・保管温度・二次汚染」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p012-0",
+   "sub": "f1s3",
+   "book": "id",
+   "page": 12,
+   "y": 0.25,
+   "src": "./assets/ssw/food-service/fig/id-p012-0.webp",
+   "w": 306,
+   "h": 188,
+   "cap": {
+    "id": "Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang",
+    "jp": "納品検査・保管温度・二次汚染"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 12, untuk subbab «Pemeriksaan Pengantaran, Suhu Penyimpanan, dan Kontaminasi Silang». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト12ページ「納品検査・保管温度・二次汚染」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p013-0",
+   "sub": "f1s4",
+   "book": "id",
+   "page": 13,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/id-p013-0.webp",
+   "w": 347,
+   "h": 247,
+   "cap": {
+    "id": "Pembersihan dan Disinfeksi Perkakas & Toilet",
+    "jp": "ドニーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 13, untuk subbab «Pembersihan dan Disinfeksi Perkakas & Toilet». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト13ページ「調理器具・トイレの洗浄と消毒」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p017-0",
+   "sub": "f1s6",
+   "book": "id",
+   "page": 17,
+   "y": 0.78,
+   "src": "./assets/ssw/food-service/fig/id-p017-0.webp",
+   "w": 269,
+   "h": 350,
+   "cap": {
+    "id": "5S, Pembersihan Terjadwal, dan Pembuangan Sampah",
+    "jp": "5S・清掃計画・廃棄物"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 17, untuk subbab «5S, Pembersihan Terjadwal, dan Pembuangan Sampah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト17ページ「5S・清掃計画・廃棄物」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p018-0",
+   "sub": "f1s6",
+   "book": "id",
+   "page": 18,
+   "y": 0.62,
+   "src": "./assets/ssw/food-service/fig/id-p018-0.webp",
+   "w": 224,
+   "h": 242,
+   "cap": {
+    "id": "5S, Pembersihan Terjadwal, dan Pembuangan Sampah",
+    "jp": "5S・清掃計画・廃棄物"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 18, untuk subbab «5S, Pembersihan Terjadwal, dan Pembuangan Sampah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト18ページ「5S・清掃計画・廃棄物」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p018-1",
+   "sub": "f1s6",
+   "book": "id",
+   "page": 18,
+   "y": 0.63,
+   "src": "./assets/ssw/food-service/fig/id-p018-1.webp",
+   "w": 221,
+   "h": 224,
+   "cap": {
+    "id": "5S, Pembersihan Terjadwal, dan Pembuangan Sampah",
+    "jp": "5S・清掃計画・廃棄物"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 18, untuk subbab «5S, Pembersihan Terjadwal, dan Pembuangan Sampah». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト18ページ「5S・清掃計画・廃棄物」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p021-0",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 21,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/id-p021-0.webp",
+   "w": 869,
+   "h": 513,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 21, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト21ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p022-0",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 22,
+   "y": 0.54,
+   "src": "./assets/ssw/food-service/fig/id-p022-0.webp",
+   "w": 760,
+   "h": 403,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 22, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト22ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p023-0",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 23,
+   "y": 0.21,
+   "src": "./assets/ssw/food-service/fig/id-p023-0.webp",
+   "w": 929,
+   "h": 228,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト23ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p023-1",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 23,
+   "y": 0.85,
+   "src": "./assets/ssw/food-service/fig/id-p023-1.webp",
+   "w": 189,
+   "h": 174,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト23ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p023-2",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 23,
+   "y": 0.85,
+   "src": "./assets/ssw/food-service/fig/id-p023-2.webp",
+   "w": 195,
+   "h": 140,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト23ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p024-0",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 24,
+   "y": 0.24,
+   "src": "./assets/ssw/food-service/fig/id-p024-0.webp",
+   "w": 911,
+   "h": 324,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "・Tingkatpanas"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 24, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト24ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p024-1",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 24,
+   "y": 0.85,
+   "src": "./assets/ssw/food-service/fig/id-p024-1.webp",
+   "w": 206,
+   "h": 186,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 24, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト24ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p025-0",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 25,
+   "y": 0.23,
+   "src": "./assets/ssw/food-service/fig/id-p025-0.webp",
+   "w": 133,
+   "h": 146,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p025-1",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 25,
+   "y": 0.25,
+   "src": "./assets/ssw/food-service/fig/id-p025-1.webp",
+   "w": 199,
+   "h": 111,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p025-2",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 25,
+   "y": 0.6,
+   "src": "./assets/ssw/food-service/fig/id-p025-2.webp",
+   "w": 911,
+   "h": 341,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p025-3",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 25,
+   "y": 0.86,
+   "src": "./assets/ssw/food-service/fig/id-p025-3.webp",
+   "w": 457,
+   "h": 214,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "OMシン"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p025-4",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 25,
+   "y": 0.87,
+   "src": "./assets/ssw/food-service/fig/id-p025-4.webp",
+   "w": 223,
+   "h": 129,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "ニーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p026-0",
+   "sub": "f1s7",
+   "book": "id",
+   "page": 26,
+   "y": 0.72,
+   "src": "./assets/ssw/food-service/fig/id-p026-0.webp",
+   "w": 217,
+   "h": 299,
+   "cap": {
+    "id": "Sistem Kebersihan Makanan Berbasis HACCP",
+    "jp": "HACCP方式の衛生管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 26, untuk subbab «Sistem Kebersihan Makanan Berbasis HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト26ページ「HACCP方式の衛生管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p046-0",
+   "sub": "f2s1",
+   "book": "id",
+   "page": 46,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/id-p046-0.webp",
+   "w": 872,
+   "h": 1189,
+   "cap": {
+    "id": "Jenis Daging dan Potongannya",
+    "jp": "ーーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 46, untuk subbab «Jenis Daging dan Potongannya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト46ページ「肉の種類と部位」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p047-0",
+   "sub": "f2s1",
+   "book": "id",
+   "page": 47,
+   "y": 0.15,
+   "src": "./assets/ssw/food-service/fig/id-p047-0.webp",
+   "w": 870,
+   "h": 340,
+   "cap": {
+    "id": "Jenis Daging dan Potongannya",
+    "jp": "肉の種類と部位"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 47, untuk subbab «Jenis Daging dan Potongannya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト47ページ「肉の種類と部位」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p047-1",
+   "sub": "f2s1",
+   "book": "id",
+   "page": 47,
+   "y": 0.66,
+   "src": "./assets/ssw/food-service/fig/id-p047-1.webp",
+   "w": 871,
+   "h": 781,
+   "cap": {
+    "id": "Jenis Daging dan Potongannya",
+    "jp": "肉の種類と部位"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 47, untuk subbab «Jenis Daging dan Potongannya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト47ページ「肉の種類と部位」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p048-0",
+   "sub": "f2s1",
+   "book": "id",
+   "page": 48,
+   "y": 0.15,
+   "src": "./assets/ssw/food-service/fig/id-p048-0.webp",
+   "w": 961,
+   "h": 424,
+   "cap": {
+    "id": "Jenis Daging dan Potongannya",
+    "jp": "のSN"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 48, untuk subbab «Jenis Daging dan Potongannya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト48ページ「肉の種類と部位」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p048-1",
+   "sub": "f2s1",
+   "book": "id",
+   "page": 48,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/id-p048-1.webp",
+   "w": 869,
+   "h": 834,
+   "cap": {
+    "id": "Jenis Daging dan Potongannya",
+    "jp": "肉の種類と部位"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 48, untuk subbab «Jenis Daging dan Potongannya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト48ページ「肉の種類と部位」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p049-0",
+   "sub": "f2s2",
+   "book": "id",
+   "page": 49,
+   "y": 0.3,
+   "src": "./assets/ssw/food-service/fig/id-p049-0.webp",
+   "w": 657,
+   "h": 561,
+   "cap": {
+    "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+    "jp": "魚介・野菜・果物と旬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 49, untuk subbab «Hidangan Laut, Sayuran, Buah dan Musimnya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト49ページ「魚介・野菜・果物と旬」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p050-0",
+   "sub": "f2s2",
+   "book": "id",
+   "page": 50,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/id-p050-0.webp",
+   "w": 869,
+   "h": 949,
+   "cap": {
+    "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+    "jp": "魚介・野菜・果物と旬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 50, untuk subbab «Hidangan Laut, Sayuran, Buah dan Musimnya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト50ページ「魚介・野菜・果物と旬」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p051-1",
+   "sub": "f2s2",
+   "book": "id",
+   "page": 51,
+   "y": 0.24,
+   "src": "./assets/ssw/food-service/fig/id-p051-1.webp",
+   "w": 136,
+   "h": 116,
+   "cap": {
+    "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+    "jp": "魚介・野菜・果物と旬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 51, untuk subbab «Hidangan Laut, Sayuran, Buah dan Musimnya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト51ページ「魚介・野菜・果物と旬」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p051-0",
+   "sub": "f2s2",
+   "book": "id",
+   "page": 51,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/id-p051-0.webp",
+   "w": 882,
+   "h": 1138,
+   "cap": {
+    "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+    "jp": "魚介・野菜・果物と旬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 51, untuk subbab «Hidangan Laut, Sayuran, Buah dan Musimnya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト51ページ「魚介・野菜・果物と旬」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p051-2",
+   "sub": "f2s2",
+   "book": "id",
+   "page": 51,
+   "y": 0.63,
+   "src": "./assets/ssw/food-service/fig/id-p051-2.webp",
+   "w": 149,
+   "h": 113,
+   "cap": {
+    "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+    "jp": "魚介・野菜・果物と旬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 51, untuk subbab «Hidangan Laut, Sayuran, Buah dan Musimnya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト51ページ「魚介・野菜・果物と旬」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p052-0",
+   "sub": "f2s2",
+   "book": "id",
+   "page": 52,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/id-p052-0.webp",
+   "w": 869,
+   "h": 871,
+   "cap": {
+    "id": "Hidangan Laut, Sayuran, Buah dan Musimnya",
+    "jp": "魚介・野菜・果物と旬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 52, untuk subbab «Hidangan Laut, Sayuran, Buah dan Musimnya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト52ページ「魚介・野菜・果物と旬」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p054-0",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 54,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/id-p054-0.webp",
+   "w": 195,
+   "h": 219,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 54, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト54ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p054-1",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 54,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/id-p054-1.webp",
+   "w": 469,
+   "h": 219,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 54, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト54ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p054-2",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 54,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/id-p054-2.webp",
+   "w": 194,
+   "h": 219,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "人0"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 54, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト54ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p055-0",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 55,
+   "y": 0.49,
+   "src": "./assets/ssw/food-service/fig/id-p055-0.webp",
+   "w": 869,
+   "h": 1146,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "ビッ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 55, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト55ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p056-0",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 56,
+   "y": 0.15,
+   "src": "./assets/ssw/food-service/fig/id-p056-0.webp",
+   "w": 961,
+   "h": 412,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "用Rs"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 56, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト56ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-0",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/id-p057-0.webp",
+   "w": 240,
+   "h": 196,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-1",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/id-p057-1.webp",
+   "w": 323,
+   "h": 196,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-2",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/id-p057-2.webp",
+   "w": 238,
+   "h": 196,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-3",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/id-p057-3.webp",
+   "w": 299,
+   "h": 129,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-4",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.61,
+   "src": "./assets/ssw/food-service/fig/id-p057-4.webp",
+   "w": 297,
+   "h": 128,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-5",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.71,
+   "src": "./assets/ssw/food-service/fig/id-p057-5.webp",
+   "w": 254,
+   "h": 128,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p057-6",
+   "sub": "f2s3",
+   "book": "id",
+   "page": 57,
+   "y": 0.85,
+   "src": "./assets/ssw/food-service/fig/id-p057-6.webp",
+   "w": 220,
+   "h": 127,
+   "cap": {
+    "id": "Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan",
+    "jp": "下処理の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 57, untuk subbab «Dasar Persiapan: Tujuan, Pemotongan Sayuran, dan Ikan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト57ページ「下処理の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p059-0",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 59,
+   "y": 0.31,
+   "src": "./assets/ssw/food-service/fig/id-p059-0.webp",
+   "w": 161,
+   "h": 273,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "加熱調理と非加熱調理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 59, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト59ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p059-1",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 59,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/id-p059-1.webp",
+   "w": 201,
+   "h": 275,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "加熱調理と非加熱調理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 59, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト59ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p059-2",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 59,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/id-p059-2.webp",
+   "w": 189,
+   "h": 269,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "加熱調理と非加熱調理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 59, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト59ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p060-0",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 60,
+   "y": 0.16,
+   "src": "./assets/ssw/food-service/fig/id-p060-0.webp",
+   "w": 196,
+   "h": 273,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "加熱調理と非加熱調理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 60, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト60ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p060-1",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 60,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/id-p060-1.webp",
+   "w": 175,
+   "h": 272,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "ツw"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 60, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト60ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p060-2",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 60,
+   "y": 0.78,
+   "src": "./assets/ssw/food-service/fig/id-p060-2.webp",
+   "w": 186,
+   "h": 304,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "加熱調理と非加熱調理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 60, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト60ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p062-0",
+   "sub": "f2s4",
+   "book": "id",
+   "page": 62,
+   "y": 0.32,
+   "src": "./assets/ssw/food-service/fig/id-p062-0.webp",
+   "w": 218,
+   "h": 466,
+   "cap": {
+    "id": "Metode Memasak: dengan Panas dan tanpa Panas",
+    "jp": "加熱調理と非加熱調理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 62, untuk subbab «Metode Memasak: dengan Panas dan tanpa Panas». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト62ページ「加熱調理と非加熱調理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p064-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 64,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/id-p064-1.webp",
+   "w": 164,
+   "h": 249,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p064-2",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 64,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/id-p064-2.webp",
+   "w": 148,
+   "h": 239,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p064-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 64,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/id-p064-0.webp",
+   "w": 911,
+   "h": 1169,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p064-3",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 64,
+   "y": 0.76,
+   "src": "./assets/ssw/food-service/fig/id-p064-3.webp",
+   "w": 137,
+   "h": 253,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p065-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 65,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/id-p065-0.webp",
+   "w": 912,
+   "h": 863,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "ソー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 65, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト65ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p066-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 66,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/id-p066-1.webp",
+   "w": 192,
+   "h": 205,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト66ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p066-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 66,
+   "y": 0.49,
+   "src": "./assets/ssw/food-service/fig/id-p066-0.webp",
+   "w": 912,
+   "h": 1209,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト66ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p066-2",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 66,
+   "y": 0.74,
+   "src": "./assets/ssw/food-service/fig/id-p066-2.webp",
+   "w": 186,
+   "h": 227,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト66ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p067-2",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 67,
+   "y": 0.18,
+   "src": "./assets/ssw/food-service/fig/id-p067-2.webp",
+   "w": 170,
+   "h": 188,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 67, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト67ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p067-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 67,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/id-p067-1.webp",
+   "w": 151,
+   "h": 241,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 67, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト67ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p067-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 67,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/id-p067-0.webp",
+   "w": 912,
+   "h": 873,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 67, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト67ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p067-3",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 67,
+   "y": 0.49,
+   "src": "./assets/ssw/food-service/fig/id-p067-3.webp",
+   "w": 171,
+   "h": 242,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 67, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト67ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p068-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 68,
+   "y": 0.36,
+   "src": "./assets/ssw/food-service/fig/id-p068-0.webp",
+   "w": 912,
+   "h": 830,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト68ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p068-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 68,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/id-p068-1.webp",
+   "w": 169,
+   "h": 193,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト68ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p069-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 69,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/id-p069-0.webp",
+   "w": 911,
+   "h": 1069,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト69ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p070-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 70,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/id-p070-1.webp",
+   "w": 166,
+   "h": 157,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト70ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p070-2",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 70,
+   "y": 0.2,
+   "src": "./assets/ssw/food-service/fig/id-p070-2.webp",
+   "w": 168,
+   "h": 164,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト70ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p070-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 70,
+   "y": 0.3,
+   "src": "./assets/ssw/food-service/fig/id-p070-0.webp",
+   "w": 911,
+   "h": 586,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト70ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p070-3",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 70,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p070-3.webp",
+   "w": 178,
+   "h": 158,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト70ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p070-4",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 70,
+   "y": 0.74,
+   "src": "./assets/ssw/food-service/fig/id-p070-4.webp",
+   "w": 911,
+   "h": 550,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト70ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p071-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 71,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/id-p071-1.webp",
+   "w": 140,
+   "h": 181,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p071-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 71,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/id-p071-0.webp",
+   "w": 911,
+   "h": 1082,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p071-2",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 71,
+   "y": 0.77,
+   "src": "./assets/ssw/food-service/fig/id-p071-2.webp",
+   "w": 187,
+   "h": 160,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p071-3",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 71,
+   "y": 0.77,
+   "src": "./assets/ssw/food-service/fig/id-p071-3.webp",
+   "w": 189,
+   "h": 136,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p072-1",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 72,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/id-p072-1.webp",
+   "w": 144,
+   "h": 207,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト72ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p072-0",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 72,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/id-p072-0.webp",
+   "w": 911,
+   "h": 1166,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト72ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p072-2",
+   "sub": "f2s5",
+   "book": "id",
+   "page": 72,
+   "y": 0.73,
+   "src": "./assets/ssw/food-service/fig/id-p072-2.webp",
+   "w": 149,
+   "h": 209,
+   "cap": {
+    "id": "Perlengkapan, Perkakas, dan Alat Ukur Dapur",
+    "jp": "調理機器・器具・計量"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Perlengkapan, Perkakas, dan Alat Ukur Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト72ページ「調理機器・器具・計量」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p074-0",
+   "sub": "f2s6",
+   "book": "id",
+   "page": 74,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p074-0.webp",
+   "w": 836,
+   "h": 577,
+   "cap": {
+    "id": "Keamanan dan Keselamatan Kerja di Dapur",
+    "jp": "厨房の安全"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Keamanan dan Keselamatan Kerja di Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト74ページ「厨房の安全」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p075-0",
+   "sub": "f2s6",
+   "book": "id",
+   "page": 75,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/id-p075-0.webp",
+   "w": 407,
+   "h": 219,
+   "cap": {
+    "id": "Keamanan dan Keselamatan Kerja di Dapur",
+    "jp": "厨房の安全"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Keamanan dan Keselamatan Kerja di Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト75ページ「厨房の安全」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p075-1",
+   "sub": "f2s6",
+   "book": "id",
+   "page": 75,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/id-p075-1.webp",
+   "w": 305,
+   "h": 226,
+   "cap": {
+    "id": "Keamanan dan Keselamatan Kerja di Dapur",
+    "jp": "厨房の安全"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Keamanan dan Keselamatan Kerja di Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト75ページ「厨房の安全」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p076-0",
+   "sub": "f2s6",
+   "book": "id",
+   "page": 76,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/id-p076-0.webp",
+   "w": 274,
+   "h": 239,
+   "cap": {
+    "id": "Keamanan dan Keselamatan Kerja di Dapur",
+    "jp": "っチン"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Keamanan dan Keselamatan Kerja di Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト76ページ「厨房の安全」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p076-1",
+   "sub": "f2s6",
+   "book": "id",
+   "page": 76,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/id-p076-1.webp",
+   "w": 246,
+   "h": 252,
+   "cap": {
+    "id": "Keamanan dan Keselamatan Kerja di Dapur",
+    "jp": "厨房の安全"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Keamanan dan Keselamatan Kerja di Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト76ページ「厨房の安全」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p090-0",
+   "sub": "f3s2",
+   "book": "id",
+   "page": 90,
+   "y": 0.73,
+   "src": "./assets/ssw/food-service/fig/id-p090-0.webp",
+   "w": 132,
+   "h": 121,
+   "cap": {
+    "id": "Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+    "jp": "接客の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 90, untuk subbab «Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト90ページ「接客の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p091-0",
+   "sub": "f3s2",
+   "book": "id",
+   "page": 91,
+   "y": 0.36,
+   "src": "./assets/ssw/food-service/fig/id-p091-0.webp",
+   "w": 869,
+   "h": 577,
+   "cap": {
+    "id": "Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+    "jp": "接客の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 91, untuk subbab «Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト91ページ「接客の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p092-0",
+   "sub": "f3s2",
+   "book": "id",
+   "page": 92,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/id-p092-0.webp",
+   "w": 911,
+   "h": 788,
+   "cap": {
+    "id": "Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+    "jp": "接客の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 92, untuk subbab «Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト92ページ「接客の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p093-0",
+   "sub": "f3s2",
+   "book": "id",
+   "page": 93,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/id-p093-0.webp",
+   "w": 235,
+   "h": 292,
+   "cap": {
+    "id": "Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+    "jp": "接客の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 93, untuk subbab «Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト93ページ「接客の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p093-1",
+   "sub": "f3s2",
+   "book": "id",
+   "page": 93,
+   "y": 0.71,
+   "src": "./assets/ssw/food-service/fig/id-p093-1.webp",
+   "w": 177,
+   "h": 227,
+   "cap": {
+    "id": "Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki",
+    "jp": "接客の基本"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 93, untuk subbab «Dasar Kinerja: Sapaan, Penampilan, Postur, Membungkuk, Baki». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト93ページ「接客の基本」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p094-0",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 94,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/id-p094-0.webp",
+   "w": 196,
+   "h": 136,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 94, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト94ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p094-1",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 94,
+   "y": 0.33,
+   "src": "./assets/ssw/food-service/fig/id-p094-1.webp",
+   "w": 197,
+   "h": 140,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 94, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト94ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p094-2",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 94,
+   "y": 0.76,
+   "src": "./assets/ssw/food-service/fig/id-p094-2.webp",
+   "w": 526,
+   "h": 431,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 94, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト94ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p095-0",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 95,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/id-p095-0.webp",
+   "w": 825,
+   "h": 371,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 95, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト95ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p096-0",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 96,
+   "y": 0.24,
+   "src": "./assets/ssw/food-service/fig/id-p096-0.webp",
+   "w": 204,
+   "h": 165,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 96, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト96ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p096-1",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 96,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p096-1.webp",
+   "w": 190,
+   "h": 171,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 96, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト96ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p096-2",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 96,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/id-p096-2.webp",
+   "w": 224,
+   "h": 158,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 96, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト96ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p096-3",
+   "sub": "f3s3",
+   "book": "id",
+   "page": 96,
+   "y": 0.75,
+   "src": "./assets/ssw/food-service/fig/id-p096-3.webp",
+   "w": 191,
+   "h": 141,
+   "cap": {
+    "id": "Etiket Bersantap: Jepang, Barat, Tiongkok",
+    "jp": "食事のマナー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 96, untuk subbab «Etiket Bersantap: Jepang, Barat, Tiongkok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト96ページ「食事のマナー」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p098-0",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 98,
+   "y": 0.29,
+   "src": "./assets/ssw/food-service/fig/id-p098-0.webp",
+   "w": 219,
+   "h": 190,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "配慮が必要なお客様・提供"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 98, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト98ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p098-1",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 98,
+   "y": 0.65,
+   "src": "./assets/ssw/food-service/fig/id-p098-1.webp",
+   "w": 255,
+   "h": 247,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "Os人"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 98, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト98ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-0",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.14,
+   "src": "./assets/ssw/food-service/fig/id-p099-0.webp",
+   "w": 167,
+   "h": 153,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "配慮が必要なお客様・提供"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-1",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/id-p099-1.webp",
+   "w": 159,
+   "h": 182,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "配慮が必要なお客様・提供"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-2",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.41,
+   "src": "./assets/ssw/food-service/fig/id-p099-2.webp",
+   "w": 168,
+   "h": 137,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "があ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-3",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/id-p099-3.webp",
+   "w": 148,
+   "h": 170,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "配慮が必要なお客様・提供"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-4",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/id-p099-4.webp",
+   "w": 151,
+   "h": 167,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "配慮が必要なお客様・提供"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-5",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.83,
+   "src": "./assets/ssw/food-service/fig/id-p099-5.webp",
+   "w": 171,
+   "h": 175,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "配慮が必要なお客様・提供"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p099-6",
+   "sub": "f3s4",
+   "book": "id",
+   "page": 99,
+   "y": 0.83,
+   "src": "./assets/ssw/food-service/fig/id-p099-6.webp",
+   "w": 182,
+   "h": 168,
+   "cap": {
+    "id": "Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus",
+    "jp": "の)"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 99, untuk subbab «Membantu Pelanggan yang Membutuhkan, Penyajian Cepat, Bungkus». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト99ページ「配慮が必要なお客様・提供」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p101-0",
+   "sub": "f3s5",
+   "book": "id",
+   "page": 101,
+   "y": 0.35,
+   "src": "./assets/ssw/food-service/fig/id-p101-0.webp",
+   "w": 869,
+   "h": 725,
+   "cap": {
+    "id": "Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+    "jp": "接客用語と電話対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 101, untuk subbab «Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト101ページ「接客用語と電話対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p101-1",
+   "sub": "f3s5",
+   "book": "id",
+   "page": 101,
+   "y": 0.79,
+   "src": "./assets/ssw/food-service/fig/id-p101-1.webp",
+   "w": 869,
+   "h": 396,
+   "cap": {
+    "id": "Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 101, untuk subbab «Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト101ページ「接客用語と電話対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p102-0",
+   "sub": "f3s5",
+   "book": "id",
+   "page": 102,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/id-p102-0.webp",
+   "w": 869,
+   "h": 1166,
+   "cap": {
+    "id": "Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+    "jp": "接客用語と電話対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 102, untuk subbab «Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト102ページ「接客用語と電話対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p103-0",
+   "sub": "f3s5",
+   "book": "id",
+   "page": 103,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/id-p103-0.webp",
+   "w": 869,
+   "h": 1172,
+   "cap": {
+    "id": "Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+    "jp": "接客用語と電話対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 103, untuk subbab «Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト103ページ「接客用語と電話対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p104-0",
+   "sub": "f3s5",
+   "book": "id",
+   "page": 104,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/id-p104-0.webp",
+   "w": 868,
+   "h": 346,
+   "cap": {
+    "id": "Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon",
+    "jp": "接客用語と電話対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 104, untuk subbab «Istilah Layanan, Ungkapan yang Tepat, Rekomendasi, Telepon». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト104ページ「接客用語と電話対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p106-0",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 106,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/id-p106-0.webp",
+   "w": 853,
+   "h": 111,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 106, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト106ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p107-0",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 107,
+   "y": 0.33,
+   "src": "./assets/ssw/food-service/fig/id-p107-0.webp",
+   "w": 788,
+   "h": 492,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "{食}の知識"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 107, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト107ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p107-1",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 107,
+   "y": 0.67,
+   "src": "./assets/ssw/food-service/fig/id-p107-1.webp",
+   "w": 788,
+   "h": 277,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "で\""
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 107, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト107ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p108-0",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 108,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/id-p108-0.webp",
+   "w": 183,
+   "h": 188,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "{食}の知識"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 108, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト108ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p108-1",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 108,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/id-p108-1.webp",
+   "w": 178,
+   "h": 180,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "ルー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 108, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト108ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p109-0",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 109,
+   "y": 0.38,
+   "src": "./assets/ssw/food-service/fig/id-p109-0.webp",
+   "w": 869,
+   "h": 451,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "{食}の知識"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト109ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p109-1",
+   "sub": "f3s6",
+   "book": "id",
+   "page": 109,
+   "y": 0.83,
+   "src": "./assets/ssw/food-service/fig/id-p109-1.webp",
+   "w": 634,
+   "h": 282,
+   "cap": {
+    "id": "Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal",
+    "jp": "{食}の知識"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Pengetahuan Makanan: Alergi, Alkohol, Nutrisi, Rasa, Halal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト109ページ「{食}の知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p113-0",
+   "sub": "f3s7",
+   "book": "id",
+   "page": 113,
+   "y": 0.41,
+   "src": "./assets/ssw/food-service/fig/id-p113-0.webp",
+   "w": 232,
+   "h": 226,
+   "cap": {
+    "id": "Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+    "jp": "る”硬い"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 113, untuk subbab «Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト113ページ「店舗運営」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p113-1",
+   "sub": "f3s7",
+   "book": "id",
+   "page": 113,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/id-p113-1.webp",
+   "w": 220,
+   "h": 184,
+   "cap": {
+    "id": "Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+    "jp": "店舗運営"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 113, untuk subbab «Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト113ページ「店舗運営」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p115-0",
+   "sub": "f3s7",
+   "book": "id",
+   "page": 115,
+   "y": 0.59,
+   "src": "./assets/ssw/food-service/fig/id-p115-0.webp",
+   "w": 827,
+   "h": 745,
+   "cap": {
+    "id": "Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+    "jp": "ミィ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 115, untuk subbab «Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト115ページ「店舗運営」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p116-0",
+   "sub": "f3s7",
+   "book": "id",
+   "page": 116,
+   "y": 0.55,
+   "src": "./assets/ssw/food-service/fig/id-p116-0.webp",
+   "w": 827,
+   "h": 1040,
+   "cap": {
+    "id": "Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+    "jp": "に2"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 116, untuk subbab «Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト116ページ「店舗運営」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p117-0",
+   "sub": "f3s7",
+   "book": "id",
+   "page": 117,
+   "y": 0.42,
+   "src": "./assets/ssw/food-service/fig/id-p117-0.webp",
+   "w": 870,
+   "h": 586,
+   "cap": {
+    "id": "Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran",
+    "jp": "店舗運営"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 117, untuk subbab «Pengelolaan Restoran: Buka–Tutup, Pembersihan, Pembayaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト117ページ「店舗運営」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p119-0",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 119,
+   "y": 0.34,
+   "src": "./assets/ssw/food-service/fig/id-p119-0.webp",
+   "w": 662,
+   "h": 282,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 119, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト119ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p119-1",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 119,
+   "y": 0.68,
+   "src": "./assets/ssw/food-service/fig/id-p119-1.webp",
+   "w": 911,
+   "h": 651,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 119, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト119ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p120-0",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 120,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p120-0.webp",
+   "w": 171,
+   "h": 171,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 120, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト120ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p120-1",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 120,
+   "y": 0.62,
+   "src": "./assets/ssw/food-service/fig/id-p120-1.webp",
+   "w": 741,
+   "h": 237,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 120, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト120ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p120-2",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 120,
+   "y": 0.8,
+   "src": "./assets/ssw/food-service/fig/id-p120-2.webp",
+   "w": 742,
+   "h": 225,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 120, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト120ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p121-0",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 121,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p121-0.webp",
+   "w": 154,
+   "h": 230,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 121, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト121ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p121-1",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 121,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p121-1.webp",
+   "w": 181,
+   "h": 229,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 121, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト121ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p121-2",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 121,
+   "y": 0.39,
+   "src": "./assets/ssw/food-service/fig/id-p121-2.webp",
+   "w": 216,
+   "h": 209,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 121, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト121ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p121-3",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 121,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/id-p121-3.webp",
+   "w": 214,
+   "h": 211,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 121, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト121ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p121-4",
+   "sub": "f3s8",
+   "book": "id",
+   "page": 121,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/id-p121-4.webp",
+   "w": 226,
+   "h": 200,
+   "cap": {
+    "id": "Penanganan Keluhan dan Benda Asing",
+    "jp": "苦情と異物混入対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 121, untuk subbab «Penanganan Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト121ページ「苦情と異物混入対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p123-0",
+   "sub": "f3s9",
+   "book": "id",
+   "page": 123,
+   "y": 0.56,
+   "src": "./assets/ssw/food-service/fig/id-p123-0.webp",
+   "w": 877,
+   "h": 972,
+   "cap": {
+    "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+    "jp": "生還"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 123, untuk subbab «Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト123ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p124-0",
+   "sub": "f3s9",
+   "book": "id",
+   "page": 124,
+   "y": 0.29,
+   "src": "./assets/ssw/food-service/fig/id-p124-0.webp",
+   "w": 362,
+   "h": 150,
+   "cap": {
+    "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+    "jp": "緊急時の対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 124, untuk subbab «Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト124ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p124-1",
+   "sub": "f3s9",
+   "book": "id",
+   "page": 124,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/id-p124-1.webp",
+   "w": 329,
+   "h": 471,
+   "cap": {
+    "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+    "jp": "ング"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 124, untuk subbab «Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト124ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p124-2",
+   "sub": "f3s9",
+   "book": "id",
+   "page": 124,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/id-p124-2.webp",
+   "w": 475,
+   "h": 471,
+   "cap": {
+    "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+    "jp": "SF=ふさご"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 124, untuk subbab «Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト124ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p125-0",
+   "sub": "f3s9",
+   "book": "id",
+   "page": 125,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/id-p125-0.webp",
+   "w": 300,
+   "h": 183,
+   "cap": {
+    "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+    "jp": "緊急時の対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 125, untuk subbab «Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト125ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-id-p125-1",
+   "sub": "f3s9",
+   "book": "id",
+   "page": 125,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/id-p125-1.webp",
+   "w": 317,
+   "h": 172,
+   "cap": {
+    "id": "Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran",
+    "jp": "緊急時の対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 125, untuk subbab «Respons Keadaan Darurat: Orang Sakit, Gempa, Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト125ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p005-0",
+   "sub": "f1s2",
+   "book": "jp",
+   "page": 5,
+   "y": 0.68,
+   "src": "./assets/ssw/food-service/fig/jp-p005-0.webp",
+   "w": 869,
+   "h": 494,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "性大"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 5, untuk subbab «Dasar Keracunan Makanan». Istilah yang tampak di gambar: 細菌 (bakteri).",
+    "jp": "テキスト5ページ「食中毒の基礎」の図。図の中の用語：細菌。"
+   },
+   "terms": [
+    "fs-1559"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p006-0",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 6,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/jp-p006-0.webp",
+   "w": 171,
+   "h": 178,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p006-1",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 6,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/jp-p006-1.webp",
+   "w": 164,
+   "h": 178,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "さない"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p006-2",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 6,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/jp-p006-2.webp",
+   "w": 179,
+   "h": 178,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p006-3",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 6,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/jp-p006-3.webp",
+   "w": 421,
+   "h": 153,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p006-4",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 6,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/jp-p006-4.webp",
+   "w": 234,
+   "h": 249,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p006-5",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 6,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/jp-p006-5.webp",
+   "w": 211,
+   "h": 245,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "温に"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 6, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト6ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p007-0",
+   "sub": "f1s2",
+   "book": "jp",
+   "page": 7,
+   "y": 0.26,
+   "src": "./assets/ssw/food-service/fig/jp-p007-0.webp",
+   "w": 226,
+   "h": 192,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p007-1",
+   "sub": "f1s2",
+   "book": "jp",
+   "page": 7,
+   "y": 0.26,
+   "src": "./assets/ssw/food-service/fig/jp-p007-1.webp",
+   "w": 114,
+   "h": 192,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p007-2",
+   "sub": "f1s2",
+   "book": "jp",
+   "page": 7,
+   "y": 0.26,
+   "src": "./assets/ssw/food-service/fig/jp-p007-2.webp",
+   "w": 208,
+   "h": 192,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p007-3",
+   "sub": "f1s2",
+   "book": "jp",
+   "page": 7,
+   "y": 0.26,
+   "src": "./assets/ssw/food-service/fig/jp-p007-3.webp",
+   "w": 237,
+   "h": 186,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "1分以上<P"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p007-4",
+   "sub": "f1s2",
+   "book": "jp",
+   "page": 7,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/jp-p007-4.webp",
+   "w": 267,
+   "h": 621,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト7ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p008-0",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 8,
+   "y": 0.12,
+   "src": "./assets/ssw/food-service/fig/jp-p008-0.webp",
+   "w": 267,
+   "h": 195,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p008-1",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 8,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p008-1.webp",
+   "w": 266,
+   "h": 214,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "テー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p008-2",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 8,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/jp-p008-2.webp",
+   "w": 267,
+   "h": 214,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p008-3",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 8,
+   "y": 0.59,
+   "src": "./assets/ssw/food-service/fig/jp-p008-3.webp",
+   "w": 267,
+   "h": 199,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p008-4",
+   "sub": "f1s1",
+   "book": "jp",
+   "page": 8,
+   "y": 0.75,
+   "src": "./assets/ssw/food-service/fig/jp-p008-4.webp",
+   "w": 267,
+   "h": 213,
+   "cap": {
+    "id": "Dasar Keracunan Makanan",
+    "jp": "食中毒の基礎"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Dasar Keracunan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト8ページ「食中毒の基礎」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p011-0",
+   "sub": "f1s4",
+   "book": "jp",
+   "page": 11,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p011-0.webp",
+   "w": 156,
+   "h": 272,
+   "cap": {
+    "id": "Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat",
+    "jp": "原材料・温度・交差汚染・洗浄"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 11, untuk subbab «Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト11ページ「原材料・温度・交差汚染・洗浄」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p012-0",
+   "sub": "f1s3",
+   "book": "jp",
+   "page": 12,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p012-0.webp",
+   "w": 306,
+   "h": 188,
+   "cap": {
+    "id": "Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat",
+    "jp": "原材料・温度・交差汚染・洗浄"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 12, untuk subbab «Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト12ページ「原材料・温度・交差汚染・洗浄」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p013-0",
+   "sub": "f1s4",
+   "book": "jp",
+   "page": 13,
+   "y": 0.62,
+   "src": "./assets/ssw/food-service/fig/jp-p013-0.webp",
+   "w": 403,
+   "h": 284,
+   "cap": {
+    "id": "Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat",
+    "jp": "原材料・温度・交差汚染・洗浄"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 13, untuk subbab «Penerimaan Bahan, Suhu, Kontaminasi Silang, Pencucian Alat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト13ページ「原材料・温度・交差汚染・洗浄」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p017-0",
+   "sub": "f1s6",
+   "book": "jp",
+   "page": 17,
+   "y": 0.32,
+   "src": "./assets/ssw/food-service/fig/jp-p017-0.webp",
+   "w": 259,
+   "h": 355,
+   "cap": {
+    "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+    "jp": "トイレ・健康管理・手洗い・清掃"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 17, untuk subbab «Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト17ページ「トイレ・健康管理・手洗い・清掃」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p017-1",
+   "sub": "f1s6",
+   "book": "jp",
+   "page": 17,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/jp-p017-1.webp",
+   "w": 242,
+   "h": 246,
+   "cap": {
+    "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+    "jp": "しマン"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 17, untuk subbab «Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト17ページ「トイレ・健康管理・手洗い・清掃」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p017-2",
+   "sub": "f1s6",
+   "book": "jp",
+   "page": 17,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/jp-p017-2.webp",
+   "w": 234,
+   "h": 246,
+   "cap": {
+    "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+    "jp": "ラン"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 17, untuk subbab «Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト17ページ「トイレ・健康管理・手洗い・清掃」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p018-0",
+   "sub": "f1s5",
+   "book": "jp",
+   "page": 18,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/jp-p018-0.webp",
+   "w": 383,
+   "h": 240,
+   "cap": {
+    "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+    "jp": "トイレ・健康管理・手洗い・清掃"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 18, untuk subbab «Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト18ページ「トイレ・健康管理・手洗い・清掃」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p018-1",
+   "sub": "f1s5",
+   "book": "jp",
+   "page": 18,
+   "y": 0.78,
+   "src": "./assets/ssw/food-service/fig/jp-p018-1.webp",
+   "w": 240,
+   "h": 204,
+   "cap": {
+    "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+    "jp": "トイレ・健康管理・手洗い・清掃"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 18, untuk subbab «Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト18ページ「トイレ・健康管理・手洗い・清掃」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p018-2",
+   "sub": "f1s5",
+   "book": "jp",
+   "page": 18,
+   "y": 0.78,
+   "src": "./assets/ssw/food-service/fig/jp-p018-2.webp",
+   "w": 185,
+   "h": 204,
+   "cap": {
+    "id": "Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur",
+    "jp": "トイレ・健康管理・手洗い・清掃"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 18, untuk subbab «Toilet, Kesehatan Karyawan, Cuci Tangan, Kebersihan Dapur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト18ページ「トイレ・健康管理・手洗い・清掃」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p020-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 20,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/jp-p020-0.webp",
+   "w": 869,
+   "h": 452,
+   "cap": {
+    "id": "Konsep HACCP",
+    "jp": "メニュー分類(グループ)"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 20, untuk subbab «Konsep HACCP». Istilah yang tampak di gambar: からあげ (ayam goreng tepung (karaage)); ごはん (nasi); てんぷら (tempura); からあげ (ayam goreng tepung (karaage)); ごはん (nasi); てんぷら (tempura).",
+    "jp": "テキスト20ページ「HACCPの考え方」の図。図の中の用語：からあげ、ごはん、てんぷら、からあげ、ごはん、てんぷら。"
+   },
+   "terms": [
+    "fj-025",
+    "fj-095",
+    "fj-189",
+    "fj-312",
+    "fj-044",
+    "fj-212"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p021-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 21,
+   "y": 0.54,
+   "src": "./assets/ssw/food-service/fig/jp-p021-0.webp",
+   "w": 805,
+   "h": 416,
+   "cap": {
+    "id": "Suhu",
+    "jp": "di危険温度帯と食品の通過パターン"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 21, untuk subbab «Konsep HACCP». Istilah yang tampak di gambar: 温度 (suhu); 温度帯 (rentang suhu); 加熱 (pemanasan); 危険温度帯 (zona suhu berbahaya); 冷却 (pendinginan); なし (pir).",
+    "jp": "テキスト21ページ「HACCPの考え方」の図。図の中の用語：温度、温度帯、加熱、危険温度帯、冷却、なし。"
+   },
+   "terms": [
+    "fs-1600",
+    "fj-018",
+    "fj-015",
+    "fs-1556",
+    "fj-137",
+    "fj-325"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p022-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 22,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/jp-p022-0.webp",
+   "w": 912,
+   "h": 198,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "ンマら"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 22, untuk subbab «Pengelolaan Tiap Kelompok». Istilah yang tampak di gambar: 加熱 (pemanasan); 冷奴 (tahu dingin (hiyayakko)).",
+    "jp": "テキスト22ページ「グループ別の管理」の図。図の中の用語：加熱、冷奴。"
+   },
+   "terms": [
+    "fs-1556",
+    "fj-119"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p022-1",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 22,
+   "y": 0.79,
+   "src": "./assets/ssw/food-service/fig/jp-p022-1.webp",
+   "w": 180,
+   "h": 168,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 22, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト22ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p022-2",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 22,
+   "y": 0.79,
+   "src": "./assets/ssw/food-service/fig/jp-p022-2.webp",
+   "w": 185,
+   "h": 135,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 22, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト22ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p023-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 23,
+   "y": 0.24,
+   "src": "./assets/ssw/food-service/fig/jp-p023-0.webp",
+   "w": 912,
+   "h": 325,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "んりほうほうれい"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Pengelolaan Tiap Kelompok». Istilah yang tampak di gambar: からあげ (ayam goreng tepung (karaage)); てんぷら (tempura); ハンバーグ (hamburger); 焼き鳥 (yakitori); からあげ (ayam goreng tepung (karaage)); てんぷら (tempura).",
+    "jp": "テキスト23ページ「グループ別の管理」の図。図の中の用語：からあげ、てんぷら、ハンバーグ、焼き鳥、からあげ、てんぷら。"
+   },
+   "terms": [
+    "fj-117",
+    "fj-025",
+    "fj-095",
+    "fj-189",
+    "fj-312",
+    "fj-132"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p023-1",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 23,
+   "y": 0.84,
+   "src": "./assets/ssw/food-service/fig/jp-p023-1.webp",
+   "w": 229,
+   "h": 213,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 23, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト23ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p024-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 24,
+   "y": 0.24,
+   "src": "./assets/ssw/food-service/fig/jp-p024-0.webp",
+   "w": 190,
+   "h": 123,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 24, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト24ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p025-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 25,
+   "y": 0.18,
+   "src": "./assets/ssw/food-service/fig/jp-p025-0.webp",
+   "w": 912,
+   "h": 240,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "メニュー(例)"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Pengelolaan Tiap Kelompok». Istilah yang tampak di gambar: カレー (kari); スープ (sup); ソース (saus); ポテトサラダ (salad kentang); カレー (kari); ポテトサラダ (salad kentang).",
+    "jp": "テキスト25ページ「グループ別の管理」の図。図の中の用語：カレー、スープ、ソース、ポテトサラダ、カレー、ポテトサラダ。"
+   },
+   "terms": [
+    "fj-129",
+    "fj-377",
+    "fs-1606",
+    "fj-070",
+    "fj-082"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p025-1",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 25,
+   "y": 0.35,
+   "src": "./assets/ssw/food-service/fig/jp-p025-1.webp",
+   "w": 170,
+   "h": 182,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "ら_"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p025-2",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 25,
+   "y": 0.35,
+   "src": "./assets/ssw/food-service/fig/jp-p025-2.webp",
+   "w": 205,
+   "h": 182,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p025-3",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 25,
+   "y": 0.86,
+   "src": "./assets/ssw/food-service/fig/jp-p025-3.webp",
+   "w": 147,
+   "h": 197,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト25ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p026-0",
+   "sub": "f1s7",
+   "book": "jp",
+   "page": 26,
+   "y": 0.86,
+   "src": "./assets/ssw/food-service/fig/jp-p026-0.webp",
+   "w": 157,
+   "h": 136,
+   "cap": {
+    "id": "Pengelolaan Tiap Kelompok",
+    "jp": "グループ別の管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 26, untuk subbab «Pengelolaan Tiap Kelompok». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト26ページ「グループ別の管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p029-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 29,
+   "y": 0.49,
+   "src": "./assets/ssw/food-service/fig/jp-p029-0.webp",
+   "w": 701,
+   "h": 1006,
+   "cap": {
+    "id": "Air mengalir",
+    "jp": "流水で手を洗"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 29, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: 洗浄剤 (bahan pembersih); 手首 (pergelangan tangan); 指先 (ujung jari); 流水 (air mengalir).",
+    "jp": "テキスト29ページ「記録・参考資料」の図。図の中の用語：洗浄剤、手首、指先、流水。"
+   },
+   "terms": [
+    "fj-080",
+    "fj-091",
+    "fj-135",
+    "fs-1591"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p030-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 30,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/jp-p030-0.webp",
+   "w": 599,
+   "h": 700,
+   "cap": {
+    "id": "Nasi",
+    "jp": "ごはんグループ2"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 30, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: ごはん (nasi); ごはん (nasi); ごはん (nasi).",
+    "jp": "テキスト30ページ「記録・参考資料」の図。図の中の用語：ごはん、ごはん、ごはん。"
+   },
+   "terms": [
+    "fj-044",
+    "fj-212",
+    "fj-505"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p031-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 31,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p031-0.webp",
+   "w": 820,
+   "h": 1038,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "ー般的衛生管理のポイント"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 31, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: 温度 (suhu); 冷蔵庫 (kulkas).",
+    "jp": "テキスト31ページ「記録・参考資料」の図。図の中の用語：温度、冷蔵庫。"
+   },
+   "terms": [
+    "fs-1570",
+    "fj-015"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p032-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 32,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p032-0.webp",
+   "w": 821,
+   "h": 1068,
+   "cap": {
+    "id": "Pengawasan kebersihan umum",
+    "jp": "一般的衛生管理のポイント"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 32, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: 一般的衛生管理 (pengawasan kebersihan umum); 温度 (suhu); 保存 (penyimpanan); 保存方法 (cara penyimpanan).",
+    "jp": "テキスト32ページ「記録・参考資料」の図。図の中の用語：一般的衛生管理、温度、保存、保存方法。"
+   },
+   "terms": [
+    "fj-005",
+    "fj-128",
+    "fj-015",
+    "fj-127"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p033-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 33,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/jp-p033-0.webp",
+   "w": 822,
+   "h": 894,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "⑤ぐ重要管理のポイント"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 33, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: 加熱 (pemanasan); 冷却 (pendinginan).",
+    "jp": "テキスト33ページ「記録・参考資料」の図。図の中の用語：加熱、冷却。"
+   },
+   "terms": [
+    "fs-1556",
+    "fj-137"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p034-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 34,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p034-0.webp",
+   "w": 825,
+   "h": 923,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "|⑤重要管理のポイント"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 34, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: 温度 (suhu); 加熱 (pemanasan); ハンバーグ (hamburger); 冷蔵庫 (kulkas).",
+    "jp": "テキスト34ページ「記録・参考資料」の図。図の中の用語：温度、加熱、ハンバーグ、冷蔵庫。"
+   },
+   "terms": [
+    "fj-117",
+    "fs-1570",
+    "fj-015",
+    "fs-1556"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p035-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 35,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/jp-p035-0.webp",
+   "w": 770,
+   "h": 1070,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "記録・参考資料"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 35, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト35ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p036-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 36,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/jp-p036-0.webp",
+   "w": 780,
+   "h": 990,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "あき"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 36, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト36ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p037-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 37,
+   "y": 0.53,
+   "src": "./assets/ssw/food-service/fig/jp-p037-0.webp",
+   "w": 754,
+   "h": 1090,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "マミ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 37, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト37ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p038-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 38,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/jp-p038-0.webp",
+   "w": 754,
+   "h": 908,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "記録・参考資料"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 38, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト38ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p039-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 39,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p039-0.webp",
+   "w": 909,
+   "h": 1204,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "をEく"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 39, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: アニサキス (Anisakis (parasit)).",
+    "jp": "テキスト39ページ「記録・参考資料」の図。図の中の用語：アニサキス。"
+   },
+   "terms": [
+    "fs-1610"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p040-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 40,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p040-0.webp",
+   "w": 909,
+   "h": 1275,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "BAEかんにあく"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト40ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p041-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 41,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p041-0.webp",
+   "w": 909,
+   "h": 1275,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "BAEかんにあく"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Catatan dan Bahan Acuan». Istilah yang tampak di gambar: スープ (sup); スープ (sup).",
+    "jp": "テキスト41ページ「記録・参考資料」の図。図の中の用語：スープ、スープ。"
+   },
+   "terms": [
+    "fj-070",
+    "fj-538"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p042-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 42,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p042-0.webp",
+   "w": 909,
+   "h": 1275,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "なん="
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 42, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト42ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p043-0",
+   "sub": "f1s8",
+   "book": "jp",
+   "page": 43,
+   "y": 0.09,
+   "src": "./assets/ssw/food-service/fig/jp-p043-0.webp",
+   "w": 909,
+   "h": 171,
+   "cap": {
+    "id": "Catatan dan Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 43, untuk subbab «Catatan dan Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト43ページ「記録・参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p050-0",
+   "sub": "f2s1",
+   "book": "jp",
+   "page": 50,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/jp-p050-0.webp",
+   "w": 869,
+   "h": 1226,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "25おも"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 50, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: しゃぶしゃぶ (shabu-shabu); 煮込み料理 (hidangan rebus lama); 部位 (bagian/potongan).",
+    "jp": "テキスト50ページ「食材」の図。図の中の用語：しゃぶしゃぶ、煮込み料理、部位。"
+   },
+   "terms": [
+    "fj-246",
+    "fj-331",
+    "fj-351"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p051-0",
+   "sub": "f2s2",
+   "book": "jp",
+   "page": 51,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/jp-p051-0.webp",
+   "w": 909,
+   "h": 1211,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "りょうり"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 51, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: カレー (kari); カレー (kari); シチュー (semur); 煮る (merebus perlahan).",
+    "jp": "テキスト51ページ「食材」の図。図の中の用語：カレー、カレー、シチュー、煮る。"
+   },
+   "terms": [
+    "fj-239",
+    "fs-1606",
+    "fs-1643"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p052-0",
+   "sub": "f2s1",
+   "book": "jp",
+   "page": 52,
+   "y": 0.21,
+   "src": "./assets/ssw/food-service/fig/jp-p052-0.webp",
+   "w": 345,
+   "h": 475,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "\\い"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 52, untuk subbab «Bahan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト52ページ「食材」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p052-1",
+   "sub": "f2s1",
+   "book": "jp",
+   "page": 52,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p052-1.webp",
+   "w": 869,
+   "h": 885,
+   "cap": {
+    "id": "Daging ayam",
+    "jp": "③鶏肉の部位の特徴と主な適した料理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 52, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: からあげ (ayam goreng tepung (karaage)); 焼き鳥 (yakitori); からあげ (ayam goreng tepung (karaage)); 鶏肉 (daging ayam); 部位 (bagian/potongan); 焼き鳥 (yakitori).",
+    "jp": "テキスト52ページ「食材」の図。図の中の用語：からあげ、焼き鳥、からあげ、鶏肉、部位、焼き鳥。"
+   },
+   "terms": [
+    "fj-025",
+    "fj-189",
+    "fj-132",
+    "fj-403",
+    "fs-1617",
+    "fj-351"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p053-0",
+   "sub": "f2s2",
+   "book": "jp",
+   "page": 53,
+   "y": 0.3,
+   "src": "./assets/ssw/food-service/fig/jp-p053-0.webp",
+   "w": 657,
+   "h": 564,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "り."
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 53, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: えらふた (tutup insang); おひれ (sirip); 腹ひれ (sirip perut).",
+    "jp": "テキスト53ページ「食材」の図。図の中の用語：えらふた、おひれ、腹ひれ。"
+   },
+   "terms": [
+    "fj-161",
+    "fj-164",
+    "fj-342"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p054-0",
+   "sub": "f2s1",
+   "book": "jp",
+   "page": 54,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p054-0.webp",
+   "w": 869,
+   "h": 915,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "Wohをせっ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 54, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: アサリ (kerang asari); サワラ (makerel pasifik (sawara)); スルメイカ (cumi-cumi surume); ホタテ (skalop); マアジ (makerel jack Jepang (maaji)); マイワシ (sarden Jepang).",
+    "jp": "テキスト54ページ「食材」の図。図の中の用語：アサリ、サワラ、スルメイカ、ホタテ、マアジ、マイワシ。"
+   },
+   "terms": [
+    "fj-272",
+    "fj-382",
+    "fj-147",
+    "fj-232",
+    "fj-375",
+    "fj-381"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p055-1",
+   "sub": "f2s2",
+   "book": "jp",
+   "page": 55,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p055-1.webp",
+   "w": 134,
+   "h": 115,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "食材"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 55, untuk subbab «Bahan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト55ページ「食材」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p055-2",
+   "sub": "f2s2",
+   "book": "jp",
+   "page": 55,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/jp-p055-2.webp",
+   "w": 172,
+   "h": 165,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "食材"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 55, untuk subbab «Bahan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト55ページ「食材」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p055-3",
+   "sub": "f2s2",
+   "book": "jp",
+   "page": 55,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/jp-p055-3.webp",
+   "w": 174,
+   "h": 154,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "食材"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 55, untuk subbab «Bahan Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト55ページ「食材」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p055-0",
+   "sub": "f2s2",
+   "book": "jp",
+   "page": 55,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p055-0.webp",
+   "w": 869,
+   "h": 1084,
+   "cap": {
+    "id": "Wortel",
+    "jp": "にんじん"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 55, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: キャベツ (kubis); さといも (talas); じゃがいも (kentang); しゅんぎく (daun seruni (shungiku)); だいこん (lobak putih); ほうれんそう (bayam Jepang).",
+    "jp": "テキスト55ページ「食材」の図。図の中の用語：キャベツ、さといも、じゃがいも、しゅんぎく、だいこん、ほうれんそう。"
+   },
+   "terms": [
+    "fj-372",
+    "fj-245",
+    "fj-250",
+    "fj-197",
+    "fj-230",
+    "fj-286"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p056-0",
+   "sub": "f2s1",
+   "book": "jp",
+   "page": 56,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/jp-p056-0.webp",
+   "w": 869,
+   "h": 915,
+   "cap": {
+    "id": "Bahan Makanan",
+    "jp": "しゆんをせっ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 56, untuk subbab «Bahan Makanan». Istilah yang tampak di gambar: アスパラガス (asparagus); きゅうり (timun Jepang); ギンナン (kacang ginkgo); ゴーヤー (paria (goya)); さつまいも (ubi jalar); ブロッコリー (brokoli).",
+    "jp": "テキスト56ページ「食材」の図。図の中の用語：アスパラガス、きゅうり、ギンナン、ゴーヤー、さつまいも、ブロッコリー。"
+   },
+   "terms": [
+    "fj-148",
+    "fj-369",
+    "fj-229",
+    "fs-1630",
+    "fj-200",
+    "fj-208"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p058-0",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 58,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/jp-p058-0.webp",
+   "w": 194,
+   "h": 212,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "5のOx"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 58, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト58ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p058-1",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 58,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/jp-p058-1.webp",
+   "w": 469,
+   "h": 212,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 58, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト58ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p058-2",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 58,
+   "y": 0.43,
+   "src": "./assets/ssw/food-service/fig/jp-p058-2.webp",
+   "w": 194,
+   "h": 212,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 58, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト58ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p059-0",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 59,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p059-0.webp",
+   "w": 869,
+   "h": 1191,
+   "cap": {
+    "id": "Potong bulat tipis (koguchigiri)",
+    "jp": "小口切り"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 59, untuk subbab «Penanganan Awal». Istilah yang tampak di gambar: 小口切り (potong bulat tipis (koguchigiri)); ささがき (serut tipis seperti bambu (sasagaki)); 斜め切り (potong diagonal (nanamegiri)); 乱切り (potong acak (rangiri)).",
+    "jp": "テキスト59ページ「下処理」の図。図の中の用語：小口切り、ささがき、斜め切り、乱切り。"
+   },
+   "terms": [
+    "fj-211",
+    "fj-224",
+    "fj-327",
+    "fj-418"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-0",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/jp-p061-0.webp",
+   "w": 239,
+   "h": 171,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-1",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/jp-p061-1.webp",
+   "w": 322,
+   "h": 171,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-2",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.22,
+   "src": "./assets/ssw/food-service/fig/jp-p061-2.webp",
+   "w": 237,
+   "h": 171,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-3",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/jp-p061-3.webp",
+   "w": 394,
+   "h": 140,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-4",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.6,
+   "src": "./assets/ssw/food-service/fig/jp-p061-4.webp",
+   "w": 399,
+   "h": 141,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-5",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.73,
+   "src": "./assets/ssw/food-service/fig/jp-p061-5.webp",
+   "w": 343,
+   "h": 142,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p061-6",
+   "sub": "f2s3",
+   "book": "jp",
+   "page": 61,
+   "y": 0.87,
+   "src": "./assets/ssw/food-service/fig/jp-p061-6.webp",
+   "w": 283,
+   "h": 135,
+   "cap": {
+    "id": "Penanganan Awal",
+    "jp": "下処理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Penanganan Awal». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト61ページ「下処理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p063-0",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 63,
+   "y": 0.31,
+   "src": "./assets/ssw/food-service/fig/jp-p063-0.webp",
+   "w": 163,
+   "h": 276,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト63ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p063-1",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 63,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/jp-p063-1.webp",
+   "w": 201,
+   "h": 276,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト63ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p063-2",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 63,
+   "y": 0.81,
+   "src": "./assets/ssw/food-service/fig/jp-p063-2.webp",
+   "w": 188,
+   "h": 267,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト63ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p064-0",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 64,
+   "y": 0.17,
+   "src": "./assets/ssw/food-service/fig/jp-p064-0.webp",
+   "w": 194,
+   "h": 271,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p064-1",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 64,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/jp-p064-1.webp",
+   "w": 174,
+   "h": 253,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p064-2",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 64,
+   "y": 0.77,
+   "src": "./assets/ssw/food-service/fig/jp-p064-2.webp",
+   "w": 188,
+   "h": 307,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト64ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p065-0",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 65,
+   "y": 0.17,
+   "src": "./assets/ssw/food-service/fig/jp-p065-0.webp",
+   "w": 132,
+   "h": 255,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 65, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト65ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p066-0",
+   "sub": "f2s4",
+   "book": "jp",
+   "page": 66,
+   "y": 0.3,
+   "src": "./assets/ssw/food-service/fig/jp-p066-0.webp",
+   "w": 220,
+   "h": 469,
+   "cap": {
+    "id": "Cara Memasak",
+    "jp": "調理方法"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Cara Memasak». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト66ページ「調理方法」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p068-1",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 68,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p068-1.webp",
+   "w": 165,
+   "h": 250,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト68ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p068-2",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 68,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/jp-p068-2.webp",
+   "w": 173,
+   "h": 280,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト68ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p068-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 68,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p068-0.webp",
+   "w": 912,
+   "h": 1168,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: レンジ (kompor); ガスレンジ (kompor gas); スチームコンベクションオーブン (oven konveksi uap).",
+    "jp": "テキスト68ページ「調理機器・器具・計測機器」の図。図の中の用語：レンジ、ガスレンジ、スチームコンベクションオーブン。"
+   },
+   "terms": [
+    "fj-266",
+    "fj-175",
+    "fj-141"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p068-3",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 68,
+   "y": 0.76,
+   "src": "./assets/ssw/food-service/fig/jp-p068-3.webp",
+   "w": 138,
+   "h": 254,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト68ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p069-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 69,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p069-0.webp",
+   "w": 912,
+   "h": 789,
+   "cap": {
+    "id": "Penghangat nasi",
+    "jp": "ライスウォーマー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: ジェットオーブン (jet oven); ブレージングパン (braising pan); ライスウォーマー (penghangat nasi); ジン (gin).",
+    "jp": "テキスト69ページ「調理機器・器具・計測機器」の図。図の中の用語：ジェットオーブン、ブレージングパン、ライスウォーマー、ジン。"
+   },
+   "terms": [
+    "fj-235",
+    "fj-367",
+    "fj-416",
+    "fj-536"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p070-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 70,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p070-0.webp",
+   "w": 912,
+   "h": 1169,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "れいぞうれいとうこ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: 冷凍庫 (freezer); テーブル型冷蔵冷凍庫 (kulkas freezer meja kerja); 冷蔵冷凍庫 (kulkas freezer).",
+    "jp": "テキスト70ページ「調理機器・器具・計測機器」の図。図の中の用語：冷凍庫、テーブル型冷蔵冷凍庫、冷蔵冷凍庫。"
+   },
+   "terms": [
+    "fj-304",
+    "fj-426",
+    "fs-1571"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p071-2",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 71,
+   "y": 0.18,
+   "src": "./assets/ssw/food-service/fig/jp-p071-2.webp",
+   "w": 171,
+   "h": 190,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p071-1",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 71,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/jp-p071-1.webp",
+   "w": 152,
+   "h": 241,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p071-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 71,
+   "y": 0.34,
+   "src": "./assets/ssw/food-service/fig/jp-p071-0.webp",
+   "w": 912,
+   "h": 789,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "こがたせんじょうき"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: 小型洗浄機 (pencuci piring kecil); コンベアタイプ洗浄機 (pencuci piring ban berjalan); ドアタイプ洗浄機 (pencuci piring berpintu).",
+    "jp": "テキスト71ページ「調理機器・器具・計測機器」の図。図の中の用語：小型洗浄機、コンベアタイプ洗浄機、ドアタイプ洗浄機。"
+   },
+   "terms": [
+    "fj-217",
+    "fj-313",
+    "fj-209"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p071-3",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 71,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/jp-p071-3.webp",
+   "w": 171,
+   "h": 244,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 71, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト71ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p072-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 72,
+   "y": 0.34,
+   "src": "./assets/ssw/food-service/fig/jp-p072-0.webp",
+   "w": 912,
+   "h": 789,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "こがたちょうりを"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: カッターミキサー (pemotong-pengaduk (cutter mixer)); 小型調理器 (alat masak kecil); フードスライサー (pengiris makanan).",
+    "jp": "テキスト72ページ「調理機器・器具・計測機器」の図。図の中の用語：カッターミキサー、小型調理器、フードスライサー。"
+   },
+   "terms": [
+    "fj-183",
+    "fj-353",
+    "fj-210"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p072-1",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 72,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/jp-p072-1.webp",
+   "w": 170,
+   "h": 192,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 72, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト72ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p073-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 73,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/jp-p073-0.webp",
+   "w": 912,
+   "h": 1042,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "ンー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 73, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: フライ (gorengan bertepung).",
+    "jp": "テキスト73ページ「調理機器・器具・計測機器」の図。図の中の用語：フライ。"
+   },
+   "terms": [
+    "fj-360"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p074-1",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 74,
+   "y": 0.19,
+   "src": "./assets/ssw/food-service/fig/jp-p074-1.webp",
+   "w": 166,
+   "h": 157,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト74ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p074-2",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 74,
+   "y": 0.2,
+   "src": "./assets/ssw/food-service/fig/jp-p074-2.webp",
+   "w": 170,
+   "h": 166,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト74ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p074-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 74,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/jp-p074-0.webp",
+   "w": 912,
+   "h": 536,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: 刺身 (sashimi); まな板 (talenan); 刺身 (sashimi); パン切りナイフ (pisau roti); まな板 (talenan); ナイフ (pisau makan).",
+    "jp": "テキスト74ページ「調理機器・器具・計測機器」の図。図の中の用語：刺身、まな板、刺身、パン切りナイフ、まな板、ナイフ。"
+   },
+   "terms": [
+    "fj-343",
+    "fs-1575",
+    "fs-1688",
+    "fs-1605"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p074-3",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 74,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p074-3.webp",
+   "w": 178,
+   "h": 159,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト74ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p074-4",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 74,
+   "y": 0.7,
+   "src": "./assets/ssw/food-service/fig/jp-p074-4.webp",
+   "w": 912,
+   "h": 536,
+   "cap": {
+    "id": "Panci dapur",
+    "jp": "キッチンポット"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 74, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: キッチンポット (panci dapur); ステンレスざる (saringan besi tahan karat); プラスチックざる (saringan plastik); ボール (mangkuk).",
+    "jp": "テキスト74ページ「調理機器・器具・計測機器」の図。図の中の用語：キッチンポット、ステンレスざる、プラスチックざる、ボール。"
+   },
+   "terms": [
+    "fj-363",
+    "fj-196",
+    "fj-268",
+    "fj-374"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p075-1",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 75,
+   "y": 0.2,
+   "src": "./assets/ssw/food-service/fig/jp-p075-1.webp",
+   "w": 139,
+   "h": 182,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト75ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p075-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 75,
+   "y": 0.46,
+   "src": "./assets/ssw/food-service/fig/jp-p075-0.webp",
+   "w": 912,
+   "h": 1042,
+   "cap": {
+    "id": "Spatula",
+    "jp": "スパテラ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: おたま (centong sup); さいばし (sumpit panjang); スパテラ (spatula); 中華用おたま (centong sup Tiongkok); へら (spatula); レードル (centong/sendok sup).",
+    "jp": "テキスト75ページ「調理機器・器具・計測機器」の図。図の中の用語：おたま、さいばし、スパテラ、中華用おたま、へら、レードル。"
+   },
+   "terms": [
+    "fj-300",
+    "fj-222",
+    "fj-270",
+    "fj-427",
+    "fj-162",
+    "fj-370"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p075-2",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 75,
+   "y": 0.74,
+   "src": "./assets/ssw/food-service/fig/jp-p075-2.webp",
+   "w": 187,
+   "h": 162,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト75ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p075-3",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 75,
+   "y": 0.74,
+   "src": "./assets/ssw/food-service/fig/jp-p075-3.webp",
+   "w": 191,
+   "h": 138,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 75, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト75ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p076-1",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 76,
+   "y": 0.5,
+   "src": "./assets/ssw/food-service/fig/jp-p076-1.webp",
+   "w": 154,
+   "h": 221,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト76ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p076-0",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 76,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p076-0.webp",
+   "w": 912,
+   "h": 1168,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Mesin, Alat, dan Alat Ukur». Istilah yang tampak di gambar: デジタルはかり (timbangan digital); はかり (timbangan).",
+    "jp": "テキスト76ページ「調理機器・器具・計測機器」の図。図の中の用語：デジタルはかり、はかり。"
+   },
+   "terms": [
+    "fj-305",
+    "fs-1650"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p076-2",
+   "sub": "f2s5",
+   "book": "jp",
+   "page": 76,
+   "y": 0.76,
+   "src": "./assets/ssw/food-service/fig/jp-p076-2.webp",
+   "w": 150,
+   "h": 209,
+   "cap": {
+    "id": "Mesin, Alat, dan Alat Ukur",
+    "jp": "調理機器・器具・計測機器"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 76, untuk subbab «Mesin, Alat, dan Alat Ukur». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト76ページ「調理機器・器具・計測機器」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p078-0",
+   "sub": "f2s6",
+   "book": "jp",
+   "page": 78,
+   "y": 0.34,
+   "src": "./assets/ssw/food-service/fig/jp-p078-0.webp",
+   "w": 869,
+   "h": 368,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "ほら"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 78, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Istilah yang tampak di gambar: スープ (sup); 包丁 (pisau dapur); 電源 (sumber listrik); なし (pir); スープ (sup).",
+    "jp": "テキスト78ページ「労働安全衛生・火災防止」の図。図の中の用語：スープ、包丁、電源、なし、スープ。"
+   },
+   "terms": [
+    "fj-070",
+    "fj-538",
+    "fs-1576",
+    "fj-310",
+    "fj-325"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p079-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 79,
+   "y": 0.33,
+   "src": "./assets/ssw/food-service/fig/jp-p079-0.webp",
+   "w": 197,
+   "h": 215,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "労働安全衛生・火災防止"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 79, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト79ページ「労働安全衛生・火災防止」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p079-1",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 79,
+   "y": 0.33,
+   "src": "./assets/ssw/food-service/fig/jp-p079-1.webp",
+   "w": 207,
+   "h": 215,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "労働安全衛生・火災防止"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 79, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト79ページ「労働安全衛生・火災防止」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p079-2",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 79,
+   "y": 0.54,
+   "src": "./assets/ssw/food-service/fig/jp-p079-2.webp",
+   "w": 302,
+   "h": 224,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "労働安全衛生・火災防止"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 79, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト79ページ「労働安全衛生・火災防止」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p080-0",
+   "sub": "f2s6",
+   "book": "jp",
+   "page": 80,
+   "y": 0.47,
+   "src": "./assets/ssw/food-service/fig/jp-p080-0.webp",
+   "w": 278,
+   "h": 255,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "労働安全衛生・火災防止"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 80, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト80ページ「労働安全衛生・火災防止」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p080-1",
+   "sub": "f2s6",
+   "book": "jp",
+   "page": 80,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p080-1.webp",
+   "w": 248,
+   "h": 254,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "労働安全衛生・火災防止"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 80, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト80ページ「労働安全衛生・火災防止」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p084-0",
+   "sub": "f2s6",
+   "book": "jp",
+   "page": 84,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p084-0.webp",
+   "w": 924,
+   "h": 1204,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 84, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Istilah yang tampak di gambar: レンジ (kompor); 和える (memberi saus/mengaduk (aeru)).",
+    "jp": "テキスト84ページ「労働安全衛生・火災防止」の図。図の中の用語：レンジ、和える。"
+   },
+   "terms": [
+    "fj-141",
+    "fs-1646"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p085-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 85,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p085-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Keselamatan Kerja dan Pencegahan Kebakaran",
+    "jp": "なかんじ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 85, untuk subbab «Keselamatan Kerja dan Pencegahan Kebakaran». Istilah yang tampak di gambar: レンジ (kompor); ガスレンジ (kompor gas).",
+    "jp": "テキスト85ページ「労働安全衛生・火災防止」の図。図の中の用語：レンジ、ガスレンジ。"
+   },
+   "terms": [
+    "fj-175",
+    "fj-141"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p086-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 86,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p086-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 86, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: 小型調理器 (alat masak kecil); 小口切り (potong bulat tipis (koguchigiri)).",
+    "jp": "テキスト86ページ「参考資料」の図。図の中の用語：小型調理器、小口切り。"
+   },
+   "terms": [
+    "fj-210",
+    "fj-211"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p087-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 87,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p087-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 87, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: じゃがいも (kentang).",
+    "jp": "テキスト87ページ「参考資料」の図。図の中の用語：じゃがいも。"
+   },
+   "terms": [
+    "fj-245"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p088-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 88,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p088-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 88, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: せびれ (sirip punggung).",
+    "jp": "テキスト88ページ「参考資料」の図。図の中の用語：せびれ。"
+   },
+   "terms": [
+    "fj-279"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p089-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 89,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p089-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 89, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: とうがらし (cabai rawit).",
+    "jp": "テキスト89ページ「参考資料」の図。図の中の用語：とうがらし。"
+   },
+   "terms": [
+    "fj-314"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p090-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 90,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p090-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 90, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: 牛肉 (daging sapi); 部位 (bagian/potongan).",
+    "jp": "テキスト90ページ「参考資料」の図。図の中の用語：牛肉、部位。"
+   },
+   "terms": [
+    "fs-1615",
+    "fj-351"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p091-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 91,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p091-0.webp",
+   "w": 924,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "なかん"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 91, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: マイワシ (sarden Jepang).",
+    "jp": "テキスト91ページ「参考資料」の図。図の中の用語：マイワシ。"
+   },
+   "terms": [
+    "fj-382"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p092-0",
+   "sub": "f2s7",
+   "book": "jp",
+   "page": 92,
+   "y": 0.3,
+   "src": "./assets/ssw/food-service/fig/jp-p092-0.webp",
+   "w": 924,
+   "h": 739,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 92, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: 乱切り (potong acak (rangiri)).",
+    "jp": "テキスト92ページ「参考資料」の図。図の中の用語：乱切り。"
+   },
+   "terms": [
+    "fj-418"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p103-0",
+   "sub": "f3s2",
+   "book": "jp",
+   "page": 103,
+   "y": 0.73,
+   "src": "./assets/ssw/food-service/fig/jp-p103-0.webp",
+   "w": 132,
+   "h": 121,
+   "cap": {
+    "id": "Layanan dan Gerakan Dasar",
+    "jp": "接客サービス・基本動作"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 103, untuk subbab «Layanan dan Gerakan Dasar». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト103ページ「接客サービス・基本動作」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p103-1",
+   "sub": "f3s2",
+   "book": "jp",
+   "page": 103,
+   "y": 0.73,
+   "src": "./assets/ssw/food-service/fig/jp-p103-1.webp",
+   "w": 170,
+   "h": 108,
+   "cap": {
+    "id": "Layanan dan Gerakan Dasar",
+    "jp": "ンーSS"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 103, untuk subbab «Layanan dan Gerakan Dasar». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト103ページ「接客サービス・基本動作」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p104-0",
+   "sub": "f3s1",
+   "book": "jp",
+   "page": 104,
+   "y": 0.36,
+   "src": "./assets/ssw/food-service/fig/jp-p104-0.webp",
+   "w": 869,
+   "h": 578,
+   "cap": {
+    "id": "Layanan dan Gerakan Dasar",
+    "jp": "ae,をe3いしこ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 104, untuk subbab «Layanan dan Gerakan Dasar». Istilah yang tampak di gambar: 異物 (benda asing); 指先 (ujung jari); 異物 (benda asing); 異物混入 (pencemaran benda asing).",
+    "jp": "テキスト104ページ「接客サービス・基本動作」の図。図の中の用語：異物、指先、異物、異物混入。"
+   },
+   "terms": [
+    "fj-446",
+    "fs-1609",
+    "fj-135"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p105-0",
+   "sub": "f3s2",
+   "book": "jp",
+   "page": 105,
+   "y": 0.41,
+   "src": "./assets/ssw/food-service/fig/jp-p105-0.webp",
+   "w": 912,
+   "h": 720,
+   "cap": {
+    "id": "Layanan dan Gerakan Dasar",
+    "jp": "馬eeee"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 105, untuk subbab «Layanan dan Gerakan Dasar». Istilah yang tampak di gambar: かに (kepiting).",
+    "jp": "テキスト105ページ「接客サービス・基本動作」の図。図の中の用語：かに。"
+   },
+   "terms": [
+    "fj-474"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p106-0",
+   "sub": "f3s1",
+   "book": "jp",
+   "page": 106,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p106-0.webp",
+   "w": 238,
+   "h": 296,
+   "cap": {
+    "id": "Layanan dan Gerakan Dasar",
+    "jp": "接客サービス・基本動作"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 106, untuk subbab «Layanan dan Gerakan Dasar». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト106ページ「接客サービス・基本動作」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p106-1",
+   "sub": "f3s1",
+   "book": "jp",
+   "page": 106,
+   "y": 0.54,
+   "src": "./assets/ssw/food-service/fig/jp-p106-1.webp",
+   "w": 234,
+   "h": 225,
+   "cap": {
+    "id": "Layanan dan Gerakan Dasar",
+    "jp": "接客サービス・基本動作"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 106, untuk subbab «Layanan dan Gerakan Dasar». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト106ページ「接客サービス・基本動作」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p107-0",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 107,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p107-0.webp",
+   "w": 196,
+   "h": 136,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 107, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト107ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p107-1",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 107,
+   "y": 0.38,
+   "src": "./assets/ssw/food-service/fig/jp-p107-1.webp",
+   "w": 197,
+   "h": 139,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 107, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト107ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p107-2",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 107,
+   "y": 0.71,
+   "src": "./assets/ssw/food-service/fig/jp-p107-2.webp",
+   "w": 526,
+   "h": 431,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 107, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト107ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p108-0",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 108,
+   "y": 0.59,
+   "src": "./assets/ssw/food-service/fig/jp-p108-0.webp",
+   "w": 294,
+   "h": 377,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "テーブル"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 108, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Istilah yang tampak di gambar: 下座 (tempat biasa (shimoza)).",
+    "jp": "テキスト108ページ「マナー・配慮・配膳」の図。図の中の用語：下座。"
+   },
+   "terms": [
+    "fs-1686"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p108-1",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 108,
+   "y": 0.59,
+   "src": "./assets/ssw/food-service/fig/jp-p108-1.webp",
+   "w": 472,
+   "h": 377,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 108, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト108ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p108-2",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 108,
+   "y": 0.62,
+   "src": "./assets/ssw/food-service/fig/jp-p108-2.webp",
+   "w": 136,
+   "h": 140,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "iu上"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 108, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト108ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p109-0",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 109,
+   "y": 0.34,
+   "src": "./assets/ssw/food-service/fig/jp-p109-0.webp",
+   "w": 219,
+   "h": 337,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト109ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p109-1",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 109,
+   "y": 0.6,
+   "src": "./assets/ssw/food-service/fig/jp-p109-1.webp",
+   "w": 275,
+   "h": 162,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "faマ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト109ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p109-2",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 109,
+   "y": 0.79,
+   "src": "./assets/ssw/food-service/fig/jp-p109-2.webp",
+   "w": 190,
+   "h": 140,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 109, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト109ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p111-0",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 111,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/jp-p111-0.webp",
+   "w": 218,
+   "h": 189,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 111, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト111ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p111-1",
+   "sub": "f3s4",
+   "book": "jp",
+   "page": 111,
+   "y": 0.67,
+   "src": "./assets/ssw/food-service/fig/jp-p111-1.webp",
+   "w": 247,
+   "h": 287,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 111, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト111ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p112-0",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 112,
+   "y": 0.16,
+   "src": "./assets/ssw/food-service/fig/jp-p112-0.webp",
+   "w": 164,
+   "h": 151,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 112, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト112ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p112-1",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 112,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/jp-p112-1.webp",
+   "w": 302,
+   "h": 315,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 112, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト112ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p112-2",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 112,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/jp-p112-2.webp",
+   "w": 149,
+   "h": 171,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 112, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト112ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p112-3",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 112,
+   "y": 0.65,
+   "src": "./assets/ssw/food-service/fig/jp-p112-3.webp",
+   "w": 152,
+   "h": 168,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "ほじょ犬"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 112, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト112ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p112-4",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 112,
+   "y": 0.83,
+   "src": "./assets/ssw/food-service/fig/jp-p112-4.webp",
+   "w": 171,
+   "h": 174,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 112, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト112ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p112-5",
+   "sub": "f3s3",
+   "book": "jp",
+   "page": 112,
+   "y": 0.83,
+   "src": "./assets/ssw/food-service/fig/jp-p112-5.webp",
+   "w": 181,
+   "h": 168,
+   "cap": {
+    "id": "Etiket Makan, Pelanggan Khusus, Penyajian",
+    "jp": "マナー・配慮・配膳"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 112, untuk subbab «Etiket Makan, Pelanggan Khusus, Penyajian». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト112ページ「マナー・配慮・配膳」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p114-0",
+   "sub": "f3s5",
+   "book": "jp",
+   "page": 114,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/jp-p114-0.webp",
+   "w": 869,
+   "h": 536,
+   "cap": {
+    "id": "Istilah Dasar Layanan",
+    "jp": "まうご"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 114, untuk subbab «Istilah Dasar Layanan». Istilah yang tampak di gambar: あいさつ (sapaan); お客様 (pelanggan (hormat)).",
+    "jp": "テキスト114ページ「接客基本用語」の図。図の中の用語：あいさつ、お客様。"
+   },
+   "terms": [
+    "fj-435",
+    "fs-1670"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p114-1",
+   "sub": "f3s5",
+   "book": "jp",
+   "page": 114,
+   "y": 0.6,
+   "src": "./assets/ssw/food-service/fig/jp-p114-1.webp",
+   "w": 869,
+   "h": 241,
+   "cap": {
+    "id": "Istilah Dasar Layanan",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 114, untuk subbab «Istilah Dasar Layanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト114ページ「接客基本用語」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p114-2",
+   "sub": "f3s5",
+   "book": "jp",
+   "page": 114,
+   "y": 0.84,
+   "src": "./assets/ssw/food-service/fig/jp-p114-2.webp",
+   "w": 869,
+   "h": 264,
+   "cap": {
+    "id": "Istilah Dasar Layanan",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 114, untuk subbab «Istilah Dasar Layanan». Istilah yang tampak di gambar: お客様 (pelanggan (hormat)).",
+    "jp": "テキスト114ページ「接客基本用語」の図。図の中の用語：お客様。"
+   },
+   "terms": [
+    "fs-1670"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p115-0",
+   "sub": "f3s5",
+   "book": "jp",
+   "page": 115,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p115-0.webp",
+   "w": 869,
+   "h": 958,
+   "cap": {
+    "id": "Istilah Dasar Layanan",
+    "jp": "|お者し物、おはきもの"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 115, untuk subbab «Istilah Dasar Layanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト115ページ「接客基本用語」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p116-0",
+   "sub": "f3s5",
+   "book": "jp",
+   "page": 116,
+   "y": 0.74,
+   "src": "./assets/ssw/food-service/fig/jp-p116-0.webp",
+   "w": 869,
+   "h": 410,
+   "cap": {
+    "id": "Istilah Dasar Layanan",
+    "jp": "ないおうほうほう"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 116, untuk subbab «Istilah Dasar Layanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト116ページ「接客基本用語」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p118-0",
+   "sub": "f3s6",
+   "book": "jp",
+   "page": 118,
+   "y": 0.49,
+   "src": "./assets/ssw/food-service/fig/jp-p118-0.webp",
+   "w": 700,
+   "h": 114,
+   "cap": {
+    "id": "Pengetahuan tentang Makanan",
+    "jp": "食に関する知識"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 118, untuk subbab «Pengetahuan tentang Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト118ページ「食に関する知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p119-0",
+   "sub": "f3s6",
+   "book": "jp",
+   "page": 119,
+   "y": 0.27,
+   "src": "./assets/ssw/food-service/fig/jp-p119-0.webp",
+   "w": 784,
+   "h": 325,
+   "cap": {
+    "id": "Pengetahuan tentang Makanan",
+    "jp": "ーー"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 119, untuk subbab «Pengetahuan tentang Makanan». Istilah yang tampak di gambar: 白ワイン (anggur putih); スパークリングワイン (anggur bersoda); ビール (bir); ワイン (anggur).",
+    "jp": "テキスト119ページ「食に関する知識」の図。図の中の用語：白ワイン、スパークリングワイン、ビール、ワイン。"
+   },
+   "terms": [
+    "fj-540",
+    "fj-535",
+    "fj-591",
+    "fj-633"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p119-1",
+   "sub": "f3s6",
+   "book": "jp",
+   "page": 119,
+   "y": 0.55,
+   "src": "./assets/ssw/food-service/fig/jp-p119-1.webp",
+   "w": 784,
+   "h": 283,
+   "cap": {
+    "id": "Pengetahuan tentang Makanan",
+    "jp": "半な分類"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 119, untuk subbab «Pengetahuan tentang Makanan». Istilah yang tampak di gambar: ウイスキー (wiski); コニャック (cognac); ジェネヴァ (jenever (gin)); ブレンデッドウイスキー (wiski campuran); モルトウイスキー (wiski malt); ロンドンジン (London gin).",
+    "jp": "テキスト119ページ「食に関する知識」の図。図の中の用語：ウイスキー、コニャック、ジェネヴァ、ブレンデッドウイスキー、モルトウイスキー、ロンドンジン。"
+   },
+   "terms": [
+    "fj-602",
+    "fj-621",
+    "fj-632",
+    "fj-450",
+    "fj-504",
+    "fj-516"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p120-0",
+   "sub": "f3s6",
+   "book": "jp",
+   "page": 120,
+   "y": 0.16,
+   "src": "./assets/ssw/food-service/fig/jp-p120-0.webp",
+   "w": 177,
+   "h": 180,
+   "cap": {
+    "id": "Pengetahuan tentang Makanan",
+    "jp": "私は送迎役で"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 120, untuk subbab «Pengetahuan tentang Makanan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト120ページ「食に関する知識」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p120-1",
+   "sub": "f3s6",
+   "book": "jp",
+   "page": 120,
+   "y": 0.68,
+   "src": "./assets/ssw/food-service/fig/jp-p120-1.webp",
+   "w": 869,
+   "h": 326,
+   "cap": {
+    "id": "Pengetahuan tentang Makanan",
+    "jp": "えいようそめし"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 120, untuk subbab «Pengetahuan tentang Makanan». Istilah yang tampak di gambar: 脂質 (lemak); たんぱく質 (protein).",
+    "jp": "テキスト120ページ「食に関する知識」の図。図の中の用語：脂質、たんぱく質。"
+   },
+   "terms": [
+    "fj-554",
+    "fj-518"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p121-0",
+   "sub": "f3s6",
+   "book": "jp",
+   "page": 121,
+   "y": 0.28,
+   "src": "./assets/ssw/food-service/fig/jp-p121-0.webp",
+   "w": 742,
+   "h": 283,
+   "cap": {
+    "id": "Pengetahuan tentang Makanan",
+    "jp": "しゅる"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 121, untuk subbab «Pengetahuan tentang Makanan». Istilah yang tampak di gambar: ピーマン (paprika); うま味 (umami); 苦味 (rasa pahit); ビール (bir).",
+    "jp": "テキスト121ページ「食に関する知識」の図。図の中の用語：ピーマン、うま味、苦味、ビール。"
+   },
+   "terms": [
+    "fj-346",
+    "fs-1713",
+    "fj-591",
+    "fj-572"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p124-0",
+   "sub": "f3s7",
+   "book": "jp",
+   "page": 124,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p124-0.webp",
+   "w": 235,
+   "h": 196,
+   "cap": {
+    "id": "Pengelolaan Toko",
+    "jp": "ふす/"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 124, untuk subbab «Pengelolaan Toko». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト124ページ「店舗管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p124-1",
+   "sub": "f3s7",
+   "book": "jp",
+   "page": 124,
+   "y": 0.64,
+   "src": "./assets/ssw/food-service/fig/jp-p124-1.webp",
+   "w": 221,
+   "h": 186,
+   "cap": {
+    "id": "Pengelolaan Toko",
+    "jp": "店舗管理"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 124, untuk subbab «Pengelolaan Toko». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト124ページ「店舗管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p126-0",
+   "sub": "f3s7",
+   "book": "jp",
+   "page": 126,
+   "y": 0.57,
+   "src": "./assets/ssw/food-service/fig/jp-p126-0.webp",
+   "w": 827,
+   "h": 747,
+   "cap": {
+    "id": "Pengelolaan Toko",
+    "jp": "1万円"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 126, untuk subbab «Pengelolaan Toko». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト126ページ「店舗管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p127-0",
+   "sub": "f3s7",
+   "book": "jp",
+   "page": 127,
+   "y": 0.45,
+   "src": "./assets/ssw/food-service/fig/jp-p127-0.webp",
+   "w": 827,
+   "h": 1085,
+   "cap": {
+    "id": "Pengelolaan Toko",
+    "jp": "しeるい"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 127, untuk subbab «Pengelolaan Toko». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト127ページ「店舗管理」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p128-0",
+   "sub": "f3s7",
+   "book": "jp",
+   "page": 128,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p128-0.webp",
+   "w": 869,
+   "h": 536,
+   "cap": {
+    "id": "Pengelolaan Toko",
+    "jp": "しるい"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 128, untuk subbab «Pengelolaan Toko». Istilah yang tampak di gambar: クレジットカード (kartu kredit); デビットカード (kartu debit); レジ (mesin kas).",
+    "jp": "テキスト128ページ「店舗管理」の図。図の中の用語：クレジットカード、デビットカード、レジ。"
+   },
+   "terms": [
+    "fs-1721",
+    "fj-562",
+    "fs-1722"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p130-0",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 130,
+   "y": 0.58,
+   "src": "./assets/ssw/food-service/fig/jp-p130-0.webp",
+   "w": 912,
+   "h": 958,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "人情"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 130, untuk subbab «Keluhan dan Benda Asing». Istilah yang tampak di gambar: 苦情 (keluhan).",
+    "jp": "テキスト130ページ「クレーム・異物混入」の図。図の中の用語：苦情。"
+   },
+   "terms": [
+    "fs-1673"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p131-0",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 131,
+   "y": 0.37,
+   "src": "./assets/ssw/food-service/fig/jp-p131-0.webp",
+   "w": 248,
+   "h": 245,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "クレーム・異物混入"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 131, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト131ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p131-1",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 131,
+   "y": 0.65,
+   "src": "./assets/ssw/food-service/fig/jp-p131-1.webp",
+   "w": 742,
+   "h": 241,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "いぶっ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 131, untuk subbab «Keluhan dan Benda Asing». Istilah yang tampak di gambar: 異物 (benda asing); 異物 (benda asing); かに (kepiting).",
+    "jp": "テキスト131ページ「クレーム・異物混入」の図。図の中の用語：異物、異物、かに。"
+   },
+   "terms": [
+    "fs-1609",
+    "fj-474"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p131-2",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 131,
+   "y": 0.85,
+   "src": "./assets/ssw/food-service/fig/jp-p131-2.webp",
+   "w": 742,
+   "h": 114,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "ききにをしゃ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 131, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト131ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p132-0",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 132,
+   "y": 0.36,
+   "src": "./assets/ssw/food-service/fig/jp-p132-0.webp",
+   "w": 152,
+   "h": 228,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "クレーム・異物混入"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 132, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト132ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p132-1",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 132,
+   "y": 0.36,
+   "src": "./assets/ssw/food-service/fig/jp-p132-1.webp",
+   "w": 179,
+   "h": 228,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "クレーム・異物混入"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 132, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト132ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p132-2",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 132,
+   "y": 0.38,
+   "src": "./assets/ssw/food-service/fig/jp-p132-2.webp",
+   "w": 216,
+   "h": 164,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "クレーム・異物混入"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 132, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト132ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p132-4",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 132,
+   "y": 0.55,
+   "src": "./assets/ssw/food-service/fig/jp-p132-4.webp",
+   "w": 224,
+   "h": 199,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "クレーム・異物混入"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 132, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト132ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p132-3",
+   "sub": "f3s8",
+   "book": "jp",
+   "page": 132,
+   "y": 0.56,
+   "src": "./assets/ssw/food-service/fig/jp-p132-3.webp",
+   "w": 216,
+   "h": 213,
+   "cap": {
+    "id": "Keluhan dan Benda Asing",
+    "jp": "クレーム・異物混入"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 132, untuk subbab «Keluhan dan Benda Asing». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト132ページ「クレーム・異物混入」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p134-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 134,
+   "y": 0.52,
+   "src": "./assets/ssw/food-service/fig/jp-p134-0.webp",
+   "w": 869,
+   "h": 958,
+   "cap": {
+    "id": "Keadaan Darurat",
+    "jp": "たいしょほうほう"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 134, untuk subbab «Keadaan Darurat». Istilah yang tampak di gambar: ウイルス (virus); おう吐 (muntah); トイレ (toilet); おう吐 (muntah).",
+    "jp": "テキスト134ページ「緊急時の対応」の図。図の中の用語：ウイルス、おう吐、トイレ、おう吐。"
+   },
+   "terms": [
+    "fj-008",
+    "fj-013",
+    "fs-1582",
+    "fj-456"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p135-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 135,
+   "y": 0.26,
+   "src": "./assets/ssw/food-service/fig/jp-p135-0.webp",
+   "w": 364,
+   "h": 150,
+   "cap": {
+    "id": "Keadaan Darurat",
+    "jp": "緊急時の対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 135, untuk subbab «Keadaan Darurat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト135ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p135-1",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 135,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/jp-p135-1.webp",
+   "w": 329,
+   "h": 472,
+   "cap": {
+    "id": "Keadaan Darurat",
+    "jp": "とと"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 135, untuk subbab «Keadaan Darurat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト135ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p135-2",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 135,
+   "y": 0.69,
+   "src": "./assets/ssw/food-service/fig/jp-p135-2.webp",
+   "w": 482,
+   "h": 472,
+   "cap": {
+    "id": "Keadaan Darurat",
+    "jp": "|画|"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 135, untuk subbab «Keadaan Darurat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト135ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p136-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 136,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/jp-p136-0.webp",
+   "w": 302,
+   "h": 182,
+   "cap": {
+    "id": "Keadaan Darurat",
+    "jp": "緊急時の対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 136, untuk subbab «Keadaan Darurat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト136ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p136-1",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 136,
+   "y": 0.44,
+   "src": "./assets/ssw/food-service/fig/jp-p136-1.webp",
+   "w": 317,
+   "h": 172,
+   "cap": {
+    "id": "Keadaan Darurat",
+    "jp": "緊急時の対応"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 136, untuk subbab «Keadaan Darurat». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト136ページ「緊急時の対応」の図。"
+   },
+   "terms": [],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p137-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 137,
+   "y": 0.51,
+   "src": "./assets/ssw/food-service/fig/jp-p137-0.webp",
+   "w": 904,
+   "h": 1204,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "BASあんE"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 137, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: あいさつ (sapaan).",
+    "jp": "テキスト137ページ「参考資料」の図。図の中の用語：あいさつ。"
+   },
+   "terms": [
+    "fj-435"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p138-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 138,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p138-0.webp",
+   "w": 904,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "いんに"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 138, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: 開店準備 (persiapan buka); 接客 (melayani pelanggan).",
+    "jp": "テキスト138ページ「参考資料」の図。図の中の用語：開店準備、接客。"
+   },
+   "terms": [
+    "fs-1715",
+    "fs-1669"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p139-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 139,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p139-0.webp",
+   "w": 904,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "かん"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 139, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: コニャック (cognac).",
+    "jp": "テキスト139ページ「参考資料」の図。図の中の用語：コニャック。"
+   },
+   "terms": [
+    "fj-504"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p140-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 140,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p140-0.webp",
+   "w": 904,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "かんじ"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 140, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: スープ (sup); 吸い物 (sup bening (suimono)); スープ (sup).",
+    "jp": "テキスト140ページ「参考資料」の図。図の中の用語：スープ、吸い物、スープ。"
+   },
+   "terms": [
+    "fj-070",
+    "fj-537",
+    "fj-538"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p141-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 141,
+   "y": 0.48,
+   "src": "./assets/ssw/food-service/fig/jp-p141-0.webp",
+   "w": 904,
+   "h": 1275,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 141, untuk subbab «Bahan Acuan». Istilah yang tampak di gambar: 苦味 (rasa pahit).",
+    "jp": "テキスト141ページ「参考資料」の図。図の中の用語：苦味。"
+   },
+   "terms": [
+    "fj-572"
+   ],
+   "auto": true
+  },
+  {
+   "id": "food-service-jp-p142-0",
+   "sub": "f3s9",
+   "book": "jp",
+   "page": 142,
+   "y": 0.41,
+   "src": "./assets/ssw/food-service/fig/jp-p142-0.webp",
+   "w": 904,
+   "h": 1059,
+   "cap": {
+    "id": "Bahan Acuan",
+    "jp": "ひらがな"
+   },
+   "exp": {
+    "id": "Gambar dari buku teks resmi, hal. 142, untuk subbab «Bahan Acuan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+    "jp": "テキスト142ページ「参考資料」の図。"
+   },
+   "terms": [],
+   "auto": true
+  }
+ ]
+}

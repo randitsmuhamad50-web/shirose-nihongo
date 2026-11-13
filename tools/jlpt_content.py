@@ -455,6 +455,129 @@ def essay_passage(rnd, essays, idx, jenis):
               {w: "Tidak sesuai dengan pendapat penulis / tidak disebut dalam teks." for w in wrong})
     return {"jenis": jenis, "jp": jp, "id": tr, "qs": [qq]}
 
+# =================================================================== 文章の文法 (grammar cloze)
+CONN_GLOSS = {
+    "でも": "tapi", "だから": "karena itu", "そして": "lalu / dan", "それから": "setelah itu",
+    "しかし": "namun", "つまり": "dengan kata lain", "ところが": "tak disangka / padahal",
+    "一方": "di sisi lain", "また": "selain itu", "ただし": "namun (dengan syarat)",
+    "たとえば": "misalnya", "とくに": "terutama", "そのため": "karena itu", "それで": "maka",
+    "とはいえ": "meski begitu", "したがって": "oleh karena itu", "それでも": "meski demikian",
+    "しかも": "terlebih lagi", "ゆえに": "karena itu", "ちなみに": "omong-omong",
+    "むしろ": "justru", "それにもかかわらず": "meski demikian",
+}
+# (konteks dengan （　）, penghubung benar, [3 pengecoh], terjemahan, catatan fungsi)
+BUNSHOU = {
+    "A": [
+        ("今日は雨でした。（　）、しあいは 中止に なりました。", "だから", ["でも", "そして", "それから"], "Hari ini hujan. Karena itu, pertandingan dibatalkan.", "menyatakan sebab→akibat"),
+        ("日本語を べんきょうして います。（　）、かんじは まだ むずかしいです。", "でも", ["だから", "そして", "それで"], "Saya sedang belajar bahasa Jepang. Tapi, kanji masih sulit.", "menyatakan hal yang berlawanan"),
+        ("朝ごはんを 食べました。（　）、歯を みがきました。", "それから", ["でも", "だから", "しかし"], "Saya sarapan. Setelah itu, saya menggosok gigi.", "urutan kejadian"),
+        ("この みせの ケーキは おいしいです。（　）、少し 高いです。", "でも", ["だから", "それで", "そして"], "Kue di toko ini enak. Tapi, sedikit mahal.", "kontras baik↔kurang"),
+        ("あした テストが あります。（　）、今夜は はやく ねます。", "だから", ["でも", "しかし", "それから"], "Besok ada ujian. Karena itu, malam ini saya tidur lebih awal.", "sebab→akibat"),
+        ("田中さんは やさしいです。（　）、しんせつです。", "そして", ["でも", "だから", "ところが"], "Tanaka-san baik. Dan juga ramah.", "menambah sifat yang searah"),
+        ("薬を のみました。（　）、よく なりませんでした。", "でも", ["だから", "そして", "それから"], "Saya minum obat. Tapi, tidak membaik.", "hasil di luar harapan"),
+        ("駅まで あるきました。（　）、バスに のりました。", "それから", ["でも", "だから", "しかし"], "Saya berjalan sampai stasiun. Setelah itu, naik bus.", "urutan kejadian"),
+        ("きのうは ひまでした。（　）、今日は いそがしいです。", "でも", ["だから", "そして", "それから"], "Kemarin senggang. Tapi, hari ini sibuk.", "kontras waktu"),
+        ("雨が ふって います。（　）、かさを もって いきましょう。", "だから", ["でも", "しかし", "ところが"], "Sedang hujan. Karena itu, mari bawa payung.", "sebab→ajakan"),
+        ("日本の 食べ物が すきです。（　）、すしが いちばん すきです。", "とくに", ["でも", "だから", "しかし"], "Saya suka makanan Jepang. Terutama, sushi yang paling saya suka.", "menonjolkan satu contoh"),
+        ("お金が ありません。（　）、りょこうに 行けません。", "だから", ["でも", "そして", "それから"], "Saya tidak punya uang. Karena itu, tidak bisa pergi liburan.", "sebab→akibat"),
+    ],
+    "B": [
+        ("この町は交通が便利だ。（　）、家賃も高い。", "しかし", ["だから", "つまり", "また"], "Kota ini transportasinya praktis. Namun, sewanya juga mahal.", "kontras keunggulan↔kelemahan"),
+        ("彼は毎日練習した。（　）、試合に勝つことができた。", "そのため", ["しかし", "ただし", "一方"], "Ia berlatih tiap hari. Karena itu, bisa memenangkan pertandingan.", "sebab→akibat"),
+        ("日本語には三種類の文字がある。（　）、ひらがな・カタカナ・漢字だ。", "つまり", ["しかし", "ところが", "一方"], "Bahasa Jepang punya tiga jenis huruf. Dengan kata lain, hiragana, katakana, dan kanji.", "menjelaskan ulang / merinci"),
+        ("兄はスポーツが得意だ。（　）、弟は音楽が得意だ。", "一方", ["だから", "つまり", "そのため"], "Kakak jago olahraga. Di sisi lain, adik jago musik.", "membandingkan dua hal"),
+        ("参加は自由です。（　）、事前の申し込みが必要です。", "ただし", ["つまり", "だから", "また"], "Partisipasi bebas. Namun dengan syarat, perlu mendaftar lebih dulu.", "menambah syarat/pengecualian"),
+        ("運動は健康にいい。（　）、ウォーキングや水泳がいい。", "たとえば", ["しかし", "つまり", "ただし"], "Olahraga baik untuk kesehatan. Misalnya, jalan kaki atau berenang.", "memberi contoh"),
+        ("雨が続いている。（　）、気温も下がってきた。", "また", ["しかし", "つまり", "ただし"], "Hujan terus turun. Selain itu, suhu juga mulai turun.", "menambah informasi searah"),
+        ("彼は忙しそうだった。（　）、手伝いを頼むのはやめた。", "それで", ["しかし", "つまり", "一方"], "Ia tampak sibuk. Maka, saya urung meminta bantuan.", "sebab→keputusan"),
+        ("計画は完璧だった。（　）、実際にはうまくいかなかった。", "ところが", ["だから", "つまり", "また"], "Rencananya sempurna. Tak disangka, nyatanya tidak berjalan baik.", "hasil tak terduga"),
+        ("この薬はよく効く。（　）、副作用もある。", "ただし", ["だから", "つまり", "たとえば"], "Obat ini manjur. Namun dengan syarat, ada efek sampingnya juga.", "menambah catatan/peringatan"),
+    ],
+    "C": [
+        ("新制度は効率的だ。（　）、現場からは反対の声も上がっている。", "とはいえ", ["したがって", "つまり", "ゆえに"], "Sistem baru itu efisien. Meski begitu, dari lapangan muncul juga suara penolakan.", "mengakui lalu menyanggah"),
+        ("調査の結果が出た。（　）、来月から対策を実施する。", "したがって", ["とはいえ", "むしろ", "ちなみに"], "Hasil survei sudah keluar. Oleh karena itu, bulan depan langkah penanganan dijalankan.", "kesimpulan logis"),
+        ("彼は失敗を重ねた。（　）、あきらめなかった。", "それでも", ["したがって", "つまり", "ゆえに"], "Ia berkali-kali gagal. Meski demikian, tidak menyerah.", "bertahan meski kondisi buruk"),
+        ("価格は据え置きだ。（　）、サービスは拡充された。", "しかも", ["しかし", "したがって", "つまり"], "Harga tetap. Terlebih lagi, layanannya diperluas.", "menambah keunggulan searah"),
+        ("データは限られている。（　）、傾向は明確に読み取れる。", "それでも", ["したがって", "ゆえに", "つまり"], "Datanya terbatas. Meski demikian, kecenderungannya terbaca jelas.", "hasil di luar keterbatasan"),
+        ("計画は承認された。（　）、予算には制約がある。", "ただし", ["したがって", "つまり", "ゆえに"], "Rencana disetujui. Namun dengan syarat, anggarannya terbatas.", "menambah syarat"),
+        ("両者の主張は対立している。（　）、妥協点を探る必要がある。", "したがって", ["とはいえ", "つまり", "ちなみに"], "Klaim kedua pihak bertentangan. Oleh karena itu, perlu mencari titik kompromi.", "sebab→kesimpulan"),
+        ("会議は長引いた。（　）、結論は出なかった。", "それにもかかわらず", ["したがって", "つまり", "ゆえに"], "Rapat berlarut-larut. Meski demikian, kesimpulan tak kunjung keluar.", "hasil berlawanan dengan harapan"),
+    ],
+}
+def _band(lv):
+    return "A" if lv in ("n5", "n4") else "B" if lv == "n3" else "C"
+
+def bunshou_items(rnd, lv, n):
+    """n soal 文章の文法: cloze konteks pendek, pilih penghubung yang tepat."""
+    pool = BUNSHOU[_band(lv)][:]
+    rnd.shuffle(pool)
+    out = []
+    for ctx, correct, wrong, trans, note in pool[:n]:
+        opts, ans = shuf(rnd, correct, wrong)
+        opsi = []
+        for i, o in enumerate(opts):
+            g = CONN_GLOSS.get(o, "")
+            if i == ans:
+                opsi.append(f"{ABCD[i]}. {o} — BENAR. 「{o}」= {g}; {note}.")
+            else:
+                opsi.append(f"{ABCD[i]}. {o} — Salah. 「{o}」= {g}; tidak cocok untuk {note}.")
+        out.append({
+            "cat": "bunpou", "tipe": "bunshou", "tipe_jp": "文章の文法",
+            "q": ctx, "opts": opts, "ans": ans, "ref": {"tipe": "bunpou", "pola": correct},
+            "ex": {
+                "jawaban": f"{ABCD[ans]}. {correct}",
+                "terjemahan": trans,
+                "alasan": f"Penghubung 「{correct}」（{CONN_GLOSS.get(correct,'')}） paling tepat di sini — {note}.",
+                "opsi": opsi,
+                "poin": "Soal 文章の文法 menguji alur antar-kalimat. Perhatikan hubungan makna: sebab-akibat, kontras, tambahan, atau urutan.",
+            },
+        })
+    return out
+
+# =================================================================== 接頭辞・接尾辞 (N2/N1)
+AFFIX_GLOSS = {"非": "non- / tidak ber-", "不": "tidak", "無": "tanpa / nihil", "未": "belum",
+               "的": "bersifat ~", "化": "proses menjadi ~", "性": "sifat ~", "風": "bergaya ~"}
+# (kalimat dengan （　）, imbuhan benar, [3 pengecoh], kata hasil, arti kata hasil, terjemahan kalimat)
+SETTOU = [
+    ("彼の行動は（　）常識だと言われた。", "非", ["不", "無", "未"], "非常識", "tidak tahu adat / di luar akal sehat", "Perilakunya disebut tidak tahu adat."),
+    ("工事はまだ（　）完成のままだ。", "未", ["不", "非", "無"], "未完成", "belum selesai", "Pembangunannya masih belum selesai."),
+    ("彼はその結果に（　）満を感じている。", "不", ["未", "非", "無"], "不満", "ketidakpuasan", "Ia merasa tidak puas dengan hasil itu."),
+    ("それは（　）意味な議論だ。", "無", ["不", "非", "未"], "無意味", "tidak bermakna / sia-sia", "Itu diskusi yang sia-sia."),
+    ("問題を（　）解決のままにするな。", "未", ["不", "無", "非"], "未解決", "belum terpecahkan", "Jangan biarkan masalahnya belum terpecahkan."),
+    ("それは（　）可能だと思われていた。", "不", ["無", "非", "未"], "不可能", "mustahil", "Itu dianggap mustahil."),
+    ("彼は（　）責任な発言をした。", "無", ["不", "非", "未"], "無責任", "tidak bertanggung jawab", "Ia membuat pernyataan yang tidak bertanggung jawab."),
+    ("試験の結果は（　）合格だった。", "不", ["未", "無", "非"], "不合格", "tidak lulus", "Hasil ujiannya tidak lulus."),
+    ("この仕事は（　）経験でも応募できる。", "未", ["不", "無", "非"], "未経験", "belum berpengalaman", "Pekerjaan ini bisa dilamar meski belum berpengalaman."),
+    ("環境問題は国際（　）な課題だ。", "的", ["性", "化", "風"], "国際的", "berskala internasional", "Masalah lingkungan adalah persoalan berskala internasional."),
+    ("書類の電子（　）が進んでいる。", "化", ["的", "性", "風"], "電子化", "digitalisasi", "Digitalisasi dokumen sedang berlangsung."),
+    ("この製品は安全（　）が高い。", "性", ["的", "化", "風"], "安全性", "tingkat keamanan", "Produk ini punya tingkat keamanan yang tinggi."),
+]
+def settou_items(rnd, lv, n):
+    pool = SETTOU[:]
+    rnd.shuffle(pool)
+    out = []
+    for sent, correct, wrong, word, wmean, trans in pool[:n]:
+        opts, ans = shuf(rnd, correct, wrong)
+        opsi = []
+        for i, o in enumerate(opts):
+            g = AFFIX_GLOSS.get(o, "")
+            if i == ans:
+                opsi.append(f"{ABCD[i]}. {o} — BENAR. 「{o}」= {g} → 「{word}」（{wmean}）.")
+            else:
+                opsi.append(f"{ABCD[i]}. {o} — Salah. 「{o}」= {g}; tidak membentuk kata yang tepat di sini.")
+        out.append({
+            "cat": "kotoba", "tipe": "settou", "tipe_jp": "接頭辞・接尾辞",
+            "q": sent, "opts": opts, "ans": ans, "ref": {"tipe": "kotoba", "kata": word},
+            "ex": {
+                "jawaban": f"{ABCD[ans]}. {correct}",
+                "terjemahan": trans,
+                "alasan": f"「{correct}」（{AFFIX_GLOSS.get(correct,'')}） + kata dasar → 「{word}」（{wmean}）.",
+                "opsi": opsi,
+                "poin": "Soal 接頭辞・接尾辞 menguji imbuhan: 非/不/無/未 (awalan negatif, maknanya beda tipis) dan 的/化/性/風 (akhiran pembentuk kata).",
+            },
+        })
+    return out
+
 def dokkai_set(rnd, lv, exam_no):
     """Kumpulan bacaan untuk satu paket Full Exam."""
     if lv in ("n5", "n4"):

@@ -1,0 +1,89 @@
+{
+ "id": "b2s7", "no": 7,
+ "title": { "id": "Penyedot Debu", "jp": "掃除機" },
+ "pages": [34, 38],
+ "full": {
+  "id": [
+   { "h": "4 jenis penyedot debu" },
+   { "ul": [
+     "Tipe Pod (kering): untuk lantai keras.",
+     "Tipe Upright: untuk karpet; sikat mengangkat kotoran lalu disedot.",
+     "Tipe Wet (basah): menyedot air kotor.",
+     "Tipe Handy: untuk tempat sempit atau tanpa stop kontak."
+   ] },
+   { "h": "Bagian Tipe Pod" },
+   { "p": "Nosel, wand (tongkat), selang, dan body (badan mesin)." },
+   { "h": "Cara pakai" },
+   { "ul": [
+     "Urai kabel, lalu colokkan ke stop kontak yang punya pengaman kebocoran/arus lebih (漏電・過電流防止装置).",
+     "Saat mendorong (maju), angkat sedikit ujung depan nosel. Saat menarik (mundur), angkat sedikit ujung belakang.",
+     "Kecepatan: sekitar 2 detik untuk satu kali maju-mundur.",
+     "Gunakan penyedot debu sambil menjauhi stop kontak.",
+     "Arahkan kepala nosel ke depan agar lebar kepala bertumpuk: (1) setelah disedot maju-mundur, (2) geser ke posisi horizontal."
+   ] },
+   { "h": "Hati-hati" },
+   { "ul": [
+     "Jangan sampai kabel tertarik saat menggerakkan body. Pindahkan body dengan tangan (jangan tarik selang).",
+     "Jangan sampai kabel tersangkut di sudut ruangan atau furnitur.",
+     "Jangan sampai nosel menabrak plint dinding."
+   ] },
+   { "h": "Setelah selesai" },
+   { "ul": [
+     "Cabut colokan dengan memegang steker. JANGAN tarik kabelnya.",
+     "Ulur dulu kabel sampai lurus. Kabel terbelit bisa menyebabkan putus ke sambungan listrik.",
+     "Lap kabel dengan kain lap dari pangkal kabelnya.",
+     "Gulung sambil berhati-hati agar tidak terbelit.",
+     "Taruh kabel yang sudah digulung di bagian atas; atur colokan (steker) di sisi luar gulungan."
+   ] },
+   { "h": "Pemeliharaan (Maintenance)" },
+   { "ul": [
+     "Jika kantung sampah sudah penuh sampai 2/3, segera ganti. Tutup lubang dengan selotip, buang ke tempat sampah. Lap bagian dalam body jika kotor.",
+     "Periksa tiap bagian: wand, selang (sobek?), nosel (penyumbatan/kerusakan?), body (bunyi aneh atau mesin panas tidak wajar?), kabel dan colokan (terbelit/rusak?).",
+     "Jika ada tumpukan kotoran, segera bersihkan. Jika ada kerusakan, segera laporkan ke PIC."
+   ] }
+  ],
+  "jp": [
+   { "h": "{掃除機|そうじき}の4{種類|しゅるい}" },
+   { "ul": [
+     "ポッド{型|がた}（{乾式|かんしき}）：{硬|かた}い{床|ゆか}{用|よう}。",
+     "アップライト{型|がた}：カーペット{用|よう}。ブラシでゴミを{浮|う}かせて{吸引|きゅういん}。",
+     "ウエット{型|がた}：{汚水|おすい}を{吸|す}う。",
+     "ハンディ{型|がた}：{狭|せま}い{場所|ばしょ}やコンセントがない{所|ところ}。"
+   ] },
+   { "h": "ポッド{型|がた}の{各部|かくぶ}" },
+   { "p": "ノズル、ウォンド、ホース、{本体|ほんたい}。" },
+   { "h": "{使|つか}い{方|かた}" },
+   { "ul": [
+     "コードを{伸|の}ばし、{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}のあるコンセントに{差|さ}す。",
+     "{押|お}すときはノズルの{前|まえ}を、{引|ひ}くときは{後|うし}ろを、{少|すこ}し{浮|う}かせる。",
+     "{往復|おうふく}2{秒|びょう}くらいの{速|はや}さ。",
+     "{掃除機|そうじき}は{電源|でんげん}から{離|はな}れていくように{進|すす}む。",
+     "ヘッド{幅|はば}を{重|かさ}ねるようにヘッドを{前後|ぜんご}させる：①{真|ま}っ{直|す}ぐ{往復|おうふく}してから②{横位置|よこいち}にずらす。"
+   ] },
+   { "h": "{気|き}をつけよう" },
+   { "ul": [
+     "{本体|ほんたい}の{移動|いどう}のときホースを{引|ひ}っ{張|ぱ}ってはダメ。{手|て}で{持|も}って{移動|いどう}。",
+     "ホースをコーナーや{家具|かぐ}に{引|ひ}っ{掛|か}けないよう{注意|ちゅうい}。",
+     "ノズルを{幅木|はばき}にぶつけないように{気|き}をつけよう！"
+   ] },
+   { "h": "{作業|さぎょう}が{終|お}わったら" },
+   { "ul": [
+     "プラグを{持|も}って{電源|でんげん}から{引|ひ}き{抜|ぬ}く。コードを{引|ひ}っ{張|ぱ}らない！",
+     "まずコードを{伸|の}ばし{切|き}ろう。ねじれていると{断線|だんせん}等の{原因|げんいん}になる。",
+     "コードの{根元|ねもと}からタオルで{拭|ふ}く。",
+     "コードがねじれないよう{注意|ちゅうい}しながら{巻|ま}き{取|と}る。",
+     "{巻|ま}き{取|と}ったコードはプラグが{上|うえ}になるように{置|お}く。プラグは{輪|わ}の{外|そと}へ。"
+   ] },
+   { "h": "メンテナンス" },
+   { "ul": [
+     "{紙袋|かみぶくろ}に2／3ほどゴミが{溜|た}まっていたら{交換|こうかん}。{穴|あな}をテープで{塞|ふさ}ぎゴミ{箱|ばこ}へ。{内部|ないぶ}が{汚|よご}れていたら{拭|ふ}いておく。",
+     "{各部|かくぶ}を{確認|かくにん}：ウォンド、ホース（{裂|さ}け）、ノズル（{詰|つ}まり・{破損|はそん}）、{本体|ほんたい}（{異音|いおん}や{発熱|はつねつ}）、コード・プラグ（ねじれ・{破損|はそん}）。",
+     "ゴミの{詰|つ}まりは{除去|じょきょ}。{故障|こしょう}は{責任者|せきにんしゃ}へ{報告|ほうこく}しよう。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Pod untuk lantai keras: maju angkat depan, mundur angkat belakang, ±2 detik per bolak-balik. Cabut steker, bukan kabel. Ganti kantung saat 2/3 penuh.", "points": ["4 tipe: Pod, Upright, Wet, Handy.", "Bagian Pod: nosel, wand, selang, body.", "Jauhi stop kontak sambil menyedot; lebar kepala bertumpuk.", "Pindahkan body dengan tangan, bukan tarik selang.", "Gulung kabel tanpa terbelit; steker di luar gulungan."], "avoid": ["Menarik kabel/selang.", "Nosel menabrak plint.", "Kabel terbelit atau tersangkut."], "exam": ["Fungsi tiap tipe.", "Saat kantung diganti (2/3).", "Cara mencabut steker."] },
+  "jp": { "core": "ポッド{型|がた}は{硬|かた}い{床|ゆか}。{押|お}す{時|とき}は{前|まえ}を、{引|ひ}く{時|とき}は{後|うし}ろを{浮|う}かせ、{往復|おうふく}2{秒|びょう}。プラグを{持|も}って{抜|ぬ}く。", "points": ["4{種類|しゅるい}：ポッド・アップライト・ウエット・ハンディ", "ポッド{型|がた}：ノズル・ウォンド・ホース・{本体|ほんたい}", "{電源|でんげん}から{離|はな}れる・ヘッド{幅|はば}を{重|かさ}ねる", "{本体|ほんたい}は{手|て}で{持|も}って{移動|いどう}", "コードはねじれないよう{巻|ま}く"], "avoid": ["コード・ホースを{引|ひ}っ{張|ぱ}る", "{幅木|はばき}にぶつける", "コードのねじれ"], "exam": ["{各型|かくがた}の{用途|ようと}", "{紙袋|かみぶくろ}の{交換|こうかん}（2／3）", "プラグの{抜|ぬ}き{方|かた}"] }
+ }
+}

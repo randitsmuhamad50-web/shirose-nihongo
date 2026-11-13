@@ -1,0 +1,51 @@
+# -*- coding: utf-8 -*-
+import re
+K3 = [
+ ("この スープは 熱い（　　　）、飲めません。","ので",["のに","ても","ながら"],"Sup ini panas jadi tidak bisa diminum.","〜ので."),
+ ("電車が 遅れた（　　　）、会議に 間に 合いませんでした。","せいで",["おかげで","くせに","わりに"],"Gara-gara kereta terlambat, saya tidak sempat ikut rapat.","〜せいで = akibat buruk."),
+ ("先生が 手伝って くださった（　　　）、早く 終わりました。","おかげで",["せいで","くせに","ばかりに"],"Berkat dibantu guru, selesai lebih cepat.","〜おかげで = berkat."),
+ ("彼は お金が ない（　　　）、高い 時計を 買った。","くせに",["おかげで","せいで","ので"],"Padahal tidak punya uang, dia membeli jam mahal.","〜くせに = padahal (sinis)."),
+ ("この 店は 値段が 高い（　　　）、料理は あまり おいしくない。","わりに",["おかげで","せいで","うえに"],"Toko ini masakannya tidak seenak harganya yang mahal.","〜わりに = relatif."),
+ ("彼女は 美人な（　　　）、性格も いい。","うえに",["くせに","せいで","おかげで"],"Dia cantik, lagipula berwatak baik.","〜うえに = lagipula."),
+ ("雨が 降って いる（　　　）、出かけたいです。","のに",["ので","から","ために"],"Meski hujan, saya ingin keluar.","〜のに."),
+ ("頑張った（　　　）、試験に 落ちて しまった。","のに",["ので","から","ために"],"Sudah berusaha, tetapi gagal ujian.","〜のに."),
+ ("友だちが 来る（　　　）に、部屋を 片づけよう。","まで",["あいだ","うち","ところ"],"Sebelum teman datang, ayo rapikan kamar.","〜までに (batas)."),
+ ("ご飯を 食べて いる（　　　）に、電話が 鳴った。","うち",["あいだ","まで","ところ"],"Selagi makan, telepon berbunyi.","〜ているうちに."),
+ ("私が 留守の（　　　）、猫の 世話を お願いします。","あいだ",["うちに","までに","ところ"],"Selama saya tidak di rumah, tolong urus kucing.","〜あいだ (durasi)."),
+ ("会議が 始まる（　　　）、資料を 配って ください。","までに",["あいだ","ところ","うちに"],"Bagikan materi sebelum rapat dimulai.","〜までに."),
+ ("買い物に 行った（　　　）、友だちに 会いました。","ところ",["あいだ","うちに","ばかり"],"Saat pergi belanja, saya bertemu teman.","〜たところ."),
+ ("今 家を 出た（　　　）です。","ところ",["ばかり","うち","あいだ"],"Saya baru saja keluar rumah.","〜たところ = baru saja."),
+ ("先月 日本に 来た（　　　）で、まだ 何も わかりません。","ばかり",["ところ","あいだ","うち"],"Saya baru datang ke Jepang bulan lalu, belum tahu apa-apa.","〜たばかり."),
+ ("宿題を して いる（　　　）に、眠って しまった。","うち",["ところ","あいだ","まま"],"Saat mengerjakan PR, saya ketiduran.","〜ているうちに."),
+ ("窓を 開けた（　　　）、寝て しまった。","まま",["うち","あいだ","ばかり"],"Saya tertidur dengan jendela terbuka.","〜たまま."),
+ ("子どもが 泣いて いる（　　　）、母親が 来た。","ところに",["うちに","あいだ","ばかり"],"Saat anak sedang menangis, ibunya datang.","〜ているところに."),
+ ("道を 渡ろう（　　　）した とき、車が 来た。","と",["か","の","を"],"Saat hendak menyeberang jalan, mobil datang.","〜ようとする."),
+ ("この 仕事は 私（　　　）できます。","にも",["だけ","ばかり","しか"],"Pekerjaan ini saya pun bisa.","〜にも."),
+ ("日本語は 難しい（　　　）、おもしろいです。","けれど",["から","ので","し ない"],"Bahasa Jepang sulit tetapi menarik.","〜けれど."),
+ ("彼は 来ない（　　　）しれません。","かも",["はず","つもり","よう"],"Mungkin dia tidak datang.","〜かもしれない."),
+ ("明日は 雨が 降る（　　　）です。","はず",["つもり","ところ","ばかり"],"Besok seharusnya hujan.","〜はずです."),
+ ("彼女が 一人で 行く（　　　）が ありません。","はず",["こと","もの","ところ"],"Mustahil dia pergi sendirian.","〜はずがない."),
+ ("夏休みは 国へ 帰る（　　　）です。","つもり",["はず","ところ","ばかり"],"Liburan musim panas saya berencana pulang kampung.","〜つもりです."),
+ ("薬を 飲んだ（　　　）、まだ 治りません。","のに",["ので","から","ために"],"Sudah minum obat, tapi belum sembuh.","〜のに."),
+ ("私の 部屋は 狭い（　　　）、住みやすいです。","けど",["から","ので","ために"],"Kamar saya sempit tetapi nyaman.","〜けど."),
+ ("店員が 親切だった（　　　）、また 来たいです。","ので",["のに","ても","くせに"],"Karena pelayannya ramah, saya ingin datang lagi.","〜ので."),
+ ("もう 食べられない（　　　）、お腹が いっぱいです。","ほど",["ばかり","だけ","まで"],"Perut kenyang sampai tak bisa makan lagi.","〜ほど."),
+ ("日本語が 上手に なる（　　　）、毎日 勉強します。","ように",["ために ない","ことに","ところに"],"Supaya mahir bahasa Jepang, saya belajar tiap hari.","〜ように."),
+ ("社長は 会議に 出席される（　　　）です。","そう",["よう","らしい","みたい ない"],"Katanya direktur akan menghadiri rapat.","〜そうです."),
+ ("田中さんは 忙しい（　　　）です。毎日 遅くまで 働いて います。","ようです",["そうです ない","みたいです ない","はずです ない"],"Tanaka tampaknya sibuk. Tiap hari bekerja sampai larut.","〜ようです."),
+ ("あの 人は 日本人（　　　）、日本語が 上手です。","だけあって",["のくせに","にしては","ばかりに"],"Memang orang Jepang, bahasa Jepangnya bagus.","〜だけあって = pantas."),
+ ("彼は 学生（　　　）、高級な 車に 乗って いる。","なのに",["だから","ように","らしく ない"],"Padahal mahasiswa, dia naik mobil mewah.","〜なのに."),
+ ("毎日 努力した（　　　）、合格できた。","おかげで",["せいで","くせに","わりに"],"Berkat berusaha tiap hari, saya lulus.","〜おかげで."),
+ ("今日（　　　）に 掃除して しまいましょう。","中",["内","間","上"],"Mari kita selesaikan bersih-bersih hari ini juga.","今日中に."),
+ ("彼は 手術を 受けた（　　　）、元気に なりました。","後",["前","間","中"],"Setelah operasi, dia jadi sehat.","〜後."),
+ ("私は 毎朝 コーヒーを 飲み（　　　）、新聞を 読みます。","ながら",["つつ ない","ばかり","ところ"],"Saya membaca koran sambil minum kopi tiap pagi.","〜ながら."),
+ ("彼は お金持ち（　　　）、いつも けちです。","なのに",["だから","ので","から"],"Padahal kaya, dia selalu pelit.","〜なのに."),
+ ("駅まで 走った（　　　）、電車に 乗れなかった。","のに",["ので","から","ために"],"Sudah lari ke stasiun, tapi tidak bisa naik kereta.","〜のに."),
+ ("この 道は 夜 一人で 歩く（　　　）危ないです。","と",["のに","ても","ばかり"],"Jalan ini berbahaya jika berjalan sendirian malam hari.","〜と."),
+ ("子どもの（　　　）、よく 魚を 釣りに 行った。","ころ",["あいだ","うちに","ところ"],"Waktu kecil, saya sering memancing.","〜ころ."),
+]
+_ok = lambda r: len(r[2])==3 and r[1] not in r[2] and '（　　　）' in r[0] and not any(re.search(r' (ない|ある|ます|ほしい|ない です|でした|ない ます)$', w) or w in ('ならば ない','ほど ない') for w in r[2])
+K3 = [r for r in K3 if _ok(r)]
+_dr = ("今日（　　　）に","彼は 手術","田中さんは 忙しい","社長は","日本語が 上手に","毎日 努力","彼は 来ない","私の 部屋","もう 食べられない","店員が")
+K3 = [r for r in K3 if not any(x in r[0] for x in _dr)]
+K3 = [r for r in K3 if not any(x in r[0] for x in ("ご飯を 食べて いる","私が 留守","宿題を して いる","子どもが 泣いて","友だちが 来る（"))]

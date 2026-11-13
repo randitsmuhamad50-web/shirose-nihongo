@@ -1,0 +1,114 @@
+{
+ "id": "b3s1",
+ "no": 1,
+ "title": {
+  "id": "Membersihkan Permukaan Lantai: Material Lantai",
+  "jp": "床面清掃：建材の知識"
+ },
+ "pages": [
+  61,
+  62
+ ],
+ "full": {
+  "id": [
+   {
+    "note": "Halaman 62: sampul BAB 3 \"Pembersihan Berkala\" (定期清掃) yang membuka bab pembersihan berkala."
+   },
+   {
+    "p": "Untuk membersihkan permukaan lantai biasanya dipakai polisher. Kita harus memilih cara membersihkan yang tepat, tergantung material lantai dan jenis kotorannya."
+   },
+   {
+    "h": "5 Prinsip Cleaning Service"
+   },
+   {
+    "ol": [
+     "Pengetahuan bangunan (material lantai)",
+     "Pengetahuan mengenai kotoran",
+     "Pengetahuan mengenai karbol",
+     "Pengetahuan mengenai cara membersihkan",
+     "Pengetahuan mengenai tindakan pencegahan"
+    ]
+   },
+   {
+    "h": "① Jenis material lantai"
+   },
+   {
+    "p": "Pada dasarnya material lantai dibagi menjadi 5 jenis:"
+   },
+   {
+    "ul": [
+     "**Lantai vinil:** tipe plastik, tipe linoleum, tipe karet.",
+     "**Lantai marmer (keras):** batu, keramik, semen.",
+     "**Lantai kayu:** flooring, cork.",
+     "**Lantai karpet:** karpet vinil, loop pile (tidak berbulu).",
+     "**Lainnya:** lantai cat, tatami."
+    ]
+   }
+  ],
+  "jp": [
+   {
+    "note": "62ページ：{第|だい}３{章|しょう}「{定期清掃|ていきせいそう}」の{扉|とびら}ページ。"
+   },
+   {
+    "p": "{床面清掃|ゆかめんせいそう}といえばポリッシャーですよね！{床材|ゆかざい}と{汚|よご}れに{合|あ}った{清掃方法|せいそうほうほう}を{選|えら}ばないといけない。"
+   },
+   {
+    "h": "ビルクリーニングの5{原則|げんそく}"
+   },
+   {
+    "ol": [
+     "{建材|けんざい}の{知識|ちしき}",
+     "{汚|よご}れの{知識|ちしき}",
+     "{洗剤|せんざい}の{知識|ちしき}",
+     "{作業方法|さぎょうほうほう}の{知識|ちしき}",
+     "{予防策|よぼうさく}の{知識|ちしき}"
+    ]
+   },
+   {
+    "h": "① {床材|ゆかざい}の{種類|しゅるい}"
+   },
+   {
+    "p": "{床材|ゆかざい}は{主|おも}にこれらの5{種類|しゅるい}に{分類|ぶんるい}できる："
+   },
+   {
+    "ul": [
+     "**{弾性床材|だんせいゆかざい}：**ビニル{系|けい}、リノリウム{系|けい}、ゴム{系|けい}",
+     "**{硬性床材|こうせいゆかざい}：**{石材|せきざい}、{陶磁器|とうじき}、コンクリート",
+     "**{木質床材|もくしつゆかざい}：**フローリング、コルク",
+     "**カーペット{床材|ゆかざい}：**タイルカーペット、じゅうたん",
+     "**その{他|ほか}：**{塗|ぬ}り{床|ゆか}、たたみ"
+    ]
+   }
+  ]
+ },
+ "summary": {
+  "id": {
+   "core": "Cara bersihkan lantai tergantung material dan kotoran. Ada 5 jenis material lantai.",
+   "points": [
+    "5 prinsip: bangunan, kotoran, karbol, cara, pencegahan.",
+    "Material: vinil, keras (marmer/keramik/semen), kayu, karpet, lainnya (cat/tatami)."
+   ],
+   "avoid": [
+    "Memakai cara yang sama untuk semua lantai."
+   ],
+   "exam": [
+    "Jenis material lantai.",
+    "5 prinsip pengetahuan Cleaning Service."
+   ]
+  },
+  "jp": {
+   "core": "{床材|ゆかざい}と{汚|よご}れに{合|あ}った{方法|ほうほう}を{選|えら}ぶ。{床材|ゆかざい}は5{種類|しゅるい}。",
+   "points": [
+    "5{原則|げんそく}：{建材|けんざい}・{汚|よご}れ・{洗剤|せんざい}・{作業方法|さぎょうほうほう}・{予防策|よぼうさく}",
+    "{弾性|だんせい}・{硬性|こうせい}・{木質|もくしつ}・カーペット・その{他|ほか}"
+   ],
+   "avoid": [
+    "どの{床|ゆか}も{同|おな}じ{方法|ほうほう}で{掃除|そうじ}する"
+   ],
+   "exam": [
+    "{床材|ゆかざい}の{種類|しゅるい}",
+    "5{原則|げんそく}"
+   ]
+  }
+ }
+}

@@ -128,15 +128,40 @@ def materi_jobs(lvl):
     def add(cat, key, say):
         key = (key or "").strip(); say = clean_say(say or key)
         if key and key not in jobs.setdefault(cat, {}): jobs[cat][key] = say
-    for it in json.load(open(os.path.join(ROOT, "data", f"kosakata-{lvl}.json"), encoding="utf-8")):
+    import re as _re
+    def _plain_ruby(t): return _re.sub(r"\{([^|{}]+)\|([^{}]+)\}", r"\2", t or "").replace("**", "")
+    if lvl == "kana":
+        kd = json.load(open(os.path.join(ROOT, "data", "kana.json"), encoding="utf-8"))
+        for ck, c in kd["chars"].items():
+            add("kosakata", ck.split(":", 1)[1], None)
+            if c.get("w"): add("kosakata", c["w"], None)
+        kb = json.load(open(os.path.join(ROOT, "data", "kana-baca.json"), encoding="utf-8"))
+        for grp in ("hira", "kata"):
+            for w in kb[grp]: add("kosakata", w["k"], None)
+        src = open(os.path.join(ROOT, "js", "kana-center.js"), encoding="utf-8").read()
+        for m in _re.findall(r'eg\("([^"]+)"', src): add("kosakata", m, None)
+        return {cat: (R[cat], items) for cat, items in jobs.items()}
+    def _load(name):
+        # level pseudo (mis. "ssw-bc") hanya punya kosakata; file kanji/bunpou boleh tidak ada.
+        pth = os.path.join(ROOT, "data", f"{name}-{lvl}.json")
+        if not os.path.exists(pth) and lvl.startswith("ssw-"): return []
+        return json.load(open(pth, encoding="utf-8"))
+    for it in _load("kosakata"):
         kata = it.get("kata") or it.get("k") or ""; kana = it.get("kana") or it.get("f") or ""
         add("kosakata", kata, kana or kata)
         add("kosakata-contoh", it.get("contoh") or it.get("ej") or "", None)
-    for it in json.load(open(os.path.join(ROOT, "data", f"kanji-{lvl}.json"), encoding="utf-8")):
+    for it in _load("kanji"):
         add("kanji", it.get("kanji") or it.get("k"), None)
         for c in it.get("c") or []: add("kanji-contoh", c.get("k"), c.get("r") or c.get("k"))
-    for it in json.load(open(os.path.join(ROOT, "data", f"bunpou-{lvl}.json"), encoding="utf-8")):
+    for it in _load("bunpou"):
         add("bunpou-contoh", it.get("contoh") or "", None)
+    if lvl.startswith("ssw-"):
+        # judul bab/subbab yang bisa diputar (kunci = teks JP dengan furigana → bacaan, sama dengan yang dikirim situs)
+        import glob
+        for f in sorted(glob.glob(os.path.join(ROOT, "data", "ssw", "building-cleaning", "bab*.json"))):
+            b = json.load(open(f, encoding="utf-8"))["bab"]
+            add("kosakata-contoh", _plain_ruby(b["title"]["jp"]), None)
+            for sb in b["subs"]: add("kosakata-contoh", _plain_ruby(sb["title"]["jp"]), None)
     return {cat: (R[cat], items) for cat, items in jobs.items()}
 
 def cmd_materi(args):

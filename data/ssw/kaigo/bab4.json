@@ -1,0 +1,596 @@
+{
+ "schema": 1,
+ "bidang": "kaigo",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab4",
+  "no": 4,
+  "title": {
+   "id": "Keterampilan Dukungan Kehidupan",
+   "jp": "{生活支援技術|せいかつしえんぎじゅつ}"
+  },
+  "intro": {
+   "id": "Bagian 4 modul: praktik perawatan sehari-hari — berpindah, makan, ekskresi, merapikan diri, mandi, dan pekerjaan rumah tangga.",
+   "jp": "{生活支援技術|せいかつしえんぎじゅつ}"
+  },
+  "pages": [
+   120,
+   201
+  ],
+  "subs": [
+   {
+    "id": "k4s1",
+    "no": 1,
+    "title": {
+     "id": "Perawatan Lansia untuk Berpindah",
+     "jp": "{移動|いどう}の{介護|かいご}"
+    },
+    "pages": [
+     120,
+     143
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Makna berpindah"
+      },
+      {
+       "p": "Dengan berpindah, jangkauan tindakan meluas dan fungsi fisik serta mental terpelihara. Berpindah terkait dengan **semua aktivitas hidup** (makan di ruang makan, ekskresi di toilet, mandi di kamar mandi)."
+      },
+      {
+       "ul": [
+        "**ADL** ({日常生活動作|にちじょうせいかつどうさ}): gerakan dasar untuk hidup mandiri — berpindah, makan, berganti pakaian, ekskresi, mandi.",
+        "**IADL**: kemampuan hidup di rumah dan masyarakat — mengelola uang, berbelanja, mencuci, naik kendaraan, memakai alat komunikasi."
+       ]
+      },
+      {
+       "h": "2. Posisi tubuh"
+      },
+      {
+       "ul": [
+        "**Berdiri** ({立位|りつい}); **duduk** ({座位|ざい}): duduk di kursi, duduk selonjor, setengah duduk (**posisi Fowler**), **duduk tegak lurus** di tepi tempat tidur ({端座位|たんざい}).",
+        "**Berbaring**: telentang/supinasi ({仰臥位|ぎょうがい}), miring/lateral ({側臥位|そくがい}), tengkurap/pronasi ({腹臥位|ふくがい}).",
+        "Posisi santai: telentang paling stabil; miring → bantal di depan dada dan di antara kaki; Fowler → naikkan kaki atau bantal di bawah lutut.",
+        "**Menjauhkan punggung sementara** setelah tubuh atas diangkat → mencegah dekubitus."
+       ]
+      },
+      {
+       "h": "Sindrom disuse dan dekubitus"
+      },
+      {
+       "ul": [
+        "**Sindrom disuse** ({廃用症候群|はいようしょうこうぐん}): kondisi akibat istirahat lama/kurang aktif — hipotensi ortostatik, atrofi otot dan tulang, kontraktur, dekubitus, penurunan fungsi jantung-paru dan mental.",
+        "**Dekubitus** ({褥瘡|じょくそう}): gangguan sirkulasi dan nekrosis kulit di **tonjolan tulang** (sakral, tumit, siku, belikat, belakang kepala) karena berbaring lama; kerutan seprai dan gesekan juga penyebab.",
+        "Pencegahan: (1) beranjak dari tempat tidur bila bisa, (2) **ubah posisi secara berkala**, (3) gizi cukup."
+       ]
+      },
+      {
+       "h": "Alat bantu"
+      },
+      {
+       "ul": [
+        "**Tongkat T**: ringan, mudah. **Tongkat multikaki**: penopang lebih luas. **Alat bantu jalan** (walker): lebih stabil daripada tongkat. **Alat pemindah** (lift): mengurangi beban staf."
+       ]
+      },
+      {
+       "h": "3. Dasar setiap tindakan perawatan"
+      },
+      {
+       "ol": [
+        "**Periksa kondisi fisik** pengguna; bila tidak baik jangan dipaksakan, laporkan ke tenaga medis.",
+        "**Jelaskan** tujuan dan isi tindakan, lalu **dapatkan persetujuan**.",
+        "**Atur tinggi tempat tidur** (mengurangi beban pinggang staf)."
+       ]
+      },
+      {
+       "note": "Dukungan kemandirian: bantu hanya hal yang tidak bisa dilakukan pengguna; minta ia melakukan yang ia bisa. Contoh modul memakai pengguna dengan hemiplegia (lumpuh sebelah) kiri."
+      },
+      {
+       "h": "Membalik badan, bangkit, berdiri"
+      },
+      {
+       "ul": [
+        "**Membalik**: tegakkan lutut, miringkan dengan **sisi sakit di atas**, tarik pinggang ke belakang agar stabil.",
+        "**Bangkit ke duduk**: atur tinggi tempat tidur agar **kedua telapak kaki menapak lantai**; turunkan kaki, pengguna menumpu pada siku sisi sehat.",
+        "**Berdiri**: duduk dangkal, tarik kaki sisi sehat ke belakang; staf berada **di sisi sakit** dan menopang lutut sisi sakit agar tidak **tertekuk** (penyebab jatuh)."
+       ]
+      },
+      {
+       "h": "Berjalan dengan tongkat (hemiplegia)"
+      },
+      {
+       "ul": [
+        "**3 gerakan** (lebih stabil): tongkat → kaki sisi sakit → kaki sisi sehat. **2 gerakan**: tongkat + sisi sakit → sisi sehat.",
+        "Staf berdiri di **belakang sisi sakit**.",
+        "**Naik tangga**: tongkat → kaki **sehat** → kaki sakit; staf satu anak tangga di bawah (belakang).",
+        "**Turun tangga**: tongkat → kaki **sakit** → kaki sehat; staf satu anak tangga di bawah (depan).",
+        "Gangguan penglihatan: sesuaikan kecepatan; jelaskan dulu sebelum undakan atau tikungan."
+       ]
+      },
+      {
+       "h": "Kursi roda"
+      },
+      {
+       "ul": [
+        "Sebelum dipakai periksa **tekanan udara roda dan rem**. **Selalu aktifkan rem saat berhenti**, juga saat kosong.",
+        "**Tempat tidur → kursi roda**: kursi roda di **sisi sehat** dan direm; pengguna memegang sandaran lengan yang jauh dengan tangan sehat, berdiri sambil menunduk, berputar, **duduk dalam**, kaki naik ke sandaran kaki. Hemiplegia bergerak **dari sisi sehat**.",
+        "Saat mendorong: kaki di sandaran kaki, tangan tidak terjepit roda, lepas rem, **beri tahu sebelum bergerak**.",
+        "**Naik undakan**: berhenti, jelaskan, injak tuas angkat, naikkan roda kastor lalu roda besar. **Turun undakan**: mundur, roda besar turun dulu.",
+        "**Menuruni lereng curam**: **menghadap ke belakang (mundur)** agar pengguna tidak merosot."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 120–143. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Berpindah menopang semua aktivitas hidup. Selalu: cek kondisi → jelaskan & minta persetujuan → atur lingkungan; pada hemiplegia lindungi sisi sakit dan mulai gerak dari sisi sehat.",
+      "points": [
+       "Tongkat 3 gerakan: tongkat → sakit → sehat.",
+       "Naik tangga: sehat dulu. Turun tangga: sakit dulu.",
+       "Kursi roda ditempatkan di sisi sehat, rem aktif.",
+       "Dekubitus dicegah dengan ubah posisi berkala.",
+       "Turunan curam: kursi roda mundur."
+      ],
+      "avoid": [
+       "Lupa mengaktifkan rem.",
+       "Berdiri di sisi sehat saat mendampingi berjalan.",
+       "Mendorong kursi roda tanpa memberi tahu."
+      ],
+      "exam": [
+       "ADL vs IADL.",
+       "Nama posisi tubuh (仰臥位・側臥位・端座位).",
+       "Lokasi dekubitus."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k4s2",
+    "no": 2,
+    "title": {
+     "id": "Perawatan Lansia untuk Makan",
+     "jp": "{食事|しょくじ}の{介護|かいご}"
+    },
+    "pages": [
+     144,
+     151
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Makna makan"
+      },
+      {
+       "p": "Makan memasukkan gizi untuk mempertahankan hidup, merangsang otak, membentuk ritme hidup, sekaligus **kesenangan hidup** dan kesempatan berkomunikasi."
+      },
+      {
+       "h": "2. Alur makan dan menelan (5 fase)"
+      },
+      {
+       "ol": [
+        "**Pendahuluan**: mengenali warna, bentuk, bau makanan; air liur keluar.",
+        "**Persiapan**: mengunyah, mencampur dengan air liur, membentuk gumpalan (bolus).",
+        "**Rongga mulut**: lidah membawa bolus ke belakang.",
+        "**Faring**: refleks menelan; **epiglotis menutup** agar tidak masuk trakea.",
+        "**Esofagus**: bolus dibawa ke lambung."
+       ]
+      },
+      {
+       "p": "Gangguan pada alur ini = **gangguan makan dan menelan** ({摂食|せっしょく}・{嚥下障害|えんげしょうがい})."
+      },
+      {
+       "h": "3. Hal yang diperhatikan"
+      },
+      {
+       "ul": [
+        "Periksa makanan yang disukai/tidak disukai, serta **larangan karena penyakit atau alergi**.",
+        "Sesuaikan bentuk makanan: **cincang**, **halus** (bubur setengah padat), **lunak** (bentuk asli tetapi empuk), **kental** (dikentalkan agar tidak tersedak cairan).",
+        "Makanan hangat disajikan hangat, yang dingin disajikan dingin."
+       ]
+      },
+      {
+       "h": "Postur makan"
+      },
+      {
+       "ul": [
+        "Duduk **dalam** di kursi, **telapak kaki menapak lantai**, badan **sedikit condong ke depan**, **dagu diturunkan**. Dagu terangkat → risiko aspirasi ({誤嚥|ごえん}).",
+        "Di tempat tidur: naikkan sandaran; bila sulit, posisi miring dengan **sisi sehat di bawah**.",
+        "Alat bantu: sendok/garpu mudah dipegang, sumpit berpegas, gelas berpegangan, piring mudah disendok, alas antilicin."
+       ]
+      },
+      {
+       "h": "Langkah bantuan makan"
+      },
+      {
+       "ol": [
+        "Periksa kondisi; jelaskan dan minta persetujuan.",
+        "Bersihkan tangan pengguna; pindah ke meja makan.",
+        "Letakkan makanan di posisi yang terlihat; **jelaskan menunya**.",
+        "Staf **duduk** di sisi tangan dominan atau menyerong di depan sisi sehat (sejajar mata).",
+        "Mulai dengan **teh atau kuah** untuk membasahi mulut.",
+        "Suapi sesuai kecepatan pengguna; pada lumpuh dari **sudut mulut sisi sehat**; sendok ditarik **mendatar**; **jangan ajak bicara saat mengunyah**.",
+        "Pastikan sudah ditelan dan tidak ada sisa di mulut.",
+        "**Perawatan rongga mulut** (berkumur, gosok gigi, bersihkan gigi palsu).",
+        "Tetap **duduk ±30 menit** setelah makan (cegah pneumonia aspirasi)."
+       ]
+      },
+      {
+       "note": "Gangguan penglihatan: jelaskan letak makanan dengan **posisi jam** (\"sumpit di posisi pukul 6\"), termasuk panas/dingin dan rasanya."
+      },
+      {
+       "note": "Sumber: modul hal. 144–151. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Makan adalah gizi sekaligus kesenangan. Cegah aspirasi dengan postur benar (dagu turun), bentuk makanan sesuai, menyuapi sambil duduk, dan perawatan mulut setelah makan.",
+      "points": [
+       "5 fase: pendahuluan → persiapan → rongga mulut → faring → esofagus.",
+       "Dagu turun, kaki menapak, condong ke depan.",
+       "Suapi dari sisi sehat; sendok ditarik mendatar.",
+       "Duduk ±30 menit setelah makan."
+      ],
+      "avoid": [
+       "Menyuapi sambil berdiri (dagu pengguna terangkat).",
+       "Mengajak bicara saat pengguna mengunyah.",
+       "Membaringkan segera setelah makan."
+      ],
+      "exam": [
+       "Jenis bentuk makanan (cincang, halus, lunak, kental).",
+       "Metode posisi jam."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k4s3",
+    "no": 3,
+    "title": {
+     "id": "Perawatan Lansia untuk Ekskresi",
+     "jp": "{排泄|はいせつ}の{介護|かいご}"
+    },
+    "pages": [
+     152,
+     169
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Makna ekskresi"
+      },
+      {
+       "p": "Ekskresi = mengeluarkan zat yang tidak diperlukan (urine, feses, keringat, karbon dioksida). Urine dan feses menunjukkan kondisi kesehatan. Ekskresi **disertai rasa malu**, jadi dukung dengan memahami perasaan dan menjaga **martabat** pengguna."
+      },
+      {
+       "h": "2. Mekanisme"
+      },
+      {
+       "ul": [
+        "**Berkemih**: urine dibuat **ginjal** → ureter → **kandung kemih** (kapasitas ±500 ml; ingin berkemih saat terisi **200–300 ml**) → uretra.",
+        "**Defekasi**: makanan dicerna lambung, gizi dan cairan diserap usus halus, feses terbentuk di usus besar, keluar lewat anus. Keinginan defekasi **hilang bila ditunda**.",
+        "Postur defekasi: **condong ke depan dengan tumit dinaikkan** → rektum dan anus lurus, feses mudah keluar."
+       ]
+      },
+      {
+       "h": "3. Urine dan feses normal"
+      },
+      {
+       "ul": [
+        "Urine normal: **4–6 kali/hari, 1000–1500 ml/hari**, kuning pucat–bening, tidak berbau. Tidak normal: ≥10 kali/hari (**polakiuria**), 2000–3000 ml (**poliuria**), 300–500 ml (**oliguria**), keruh/merah/cokelat tua, bau amonia kuat.",
+        "Feses normal: **1–2 kali/hari**, kecokelatan. Tidak normal: merah, hitam, putih."
+       ]
+      },
+      {
+       "h": "4. Peralatan"
+      },
+      {
+       "ul": [
+        "**Pispot urine/feses**: ada keinginan ekskresi tetapi terbaring atau sulit duduk.",
+        "**Toilet portabel** (ポータブルトイレ): tidak bisa ke toilet, atau untuk malam hari.",
+        "**Popok/pembalut** (おむつ): tidak merasakan keluarnya urine/feses (inkontinensia), atau sulit memakai toilet."
+       ]
+      },
+      {
+       "h": "5. Inkontinensia, konstipasi, diare"
+      },
+      {
+       "ul": [
+        "Inkontinensia urine ({尿失禁|にょうしっきん}): **stres** (saat batuk/bersin), **urgensi** (tidak sempat ke toilet), **luapan** (saluran tertutup, mis. prostat membesar; keluar sedikit-sedikit), **refleks** (cedera saraf, tanpa rasa ingin), **fungsional** (mis. demensia: tidak tahu letak toilet).",
+        "**Konstipasi**: fungsional atau organik. → kebiasaan ekskresi teratur, cairan cukup, serat, olahraga; tidak membaik → lapor tenaga medis.",
+        "**Diare**: cegah **dehidrasi** (air hangat/minuman olahraga suhu ruang), bersihkan kulit sekitar anus; diare akut → **lapor** (curiga penyakit menular)."
+       ]
+      },
+      {
+       "h": "6. Praktik"
+      },
+      {
+       "ul": [
+        "Jaga kebiasaan ekskresi, **rasa malu**, bau; pilih metode yang tepat; staf pakai **sarung tangan dan celemek sekali pakai**.",
+        "**Di toilet (hemiplegia)**: pengguna memegang susuran dengan sisi sehat; staf di **sisi sakit**; setelah duduk stabil staf **keluar dan menutup pintu**; masuk lagi setelah ada isyarat (tombol panggil); naikkan celana sebisanya saat masih duduk.",
+        "**Pispot**: tutup tirai, alas kedap air, handuk di perut untuk privasi, naikkan sandaran agar mudah mengejan; amati kulit.",
+        "**Ganti popok**: bersihkan area genital dengan air hangat suam; pada wanita **dari depan (uretra) ke belakang (anus)**; gulung sisi kotor ke dalam; beri ruang **2–3 jari** di perut/paha; rapikan kerutan pakaian dan seprai (cegah dekubitus); ganti udara ruangan."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 152–169. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Ekskresi menyangkut rasa malu dan martabat. Kenali kondisi normal urine/feses, pilih alat sesuai kemampuan, jaga privasi, dan cegah infeksi.",
+      "points": [
+       "Ingin berkemih saat kandung kemih 200–300 ml.",
+       "Urine normal 4–6×/hari, 1000–1500 ml.",
+       "5 jenis inkontinensia urine.",
+       "Wanita: seka dari depan ke belakang.",
+       "Popok: longgar 2–3 jari."
+      ],
+      "avoid": [
+       "Tetap berada di dalam toilet tanpa perlu (melanggar privasi).",
+       "Menyeka dari belakang ke depan.",
+       "Memasang popok terlalu ketat."
+      ],
+      "exam": [
+       "Membedakan jenis inkontinensia.",
+       "Kapan memakai pispot, toilet portabel, popok."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k4s4",
+    "no": 4,
+    "title": {
+     "id": "Perawatan Lansia untuk Merapikan Diri",
+     "jp": "みじたくの{介護|かいご}"
+    },
+    "pages": [
+     170,
+     185
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Makna merapikan diri"
+      },
+      {
+       "p": "Merapikan diri (cuci muka, menata rambut, berpakaian) bukan hanya kebersihan, tetapi **ekspresi jati diri**, mendorong kemandirian psikologis, dan menjaga hubungan sosial. Membantu merapikan diri = memotivasi semangat hidup."
+      },
+      {
+       "ul": [
+        "Efek: mengatur suhu tubuh dan menjaga kulit, menjaga fungsi mental-fisik, hidup aman dan nyaman, memberi keceriaan, mengekspresikan diri.",
+        "Hormati gaya dan **preferensi** pengguna; sesuaikan dengan musim, kegiatan hari itu, dan kondisinya."
+       ]
+      },
+      {
+       "h": "2. Berganti pakaian"
+      },
+      {
+       "p": "Hindari kulit tersingkap dan jaga rasa malu. Prinsip pada kelumpuhan: **lepas dari sisi sehat, pakai dari sisi sakit** ({脱健着患|だっけんちゃっかん})."
+      },
+      {
+       "ul": [
+        "Atur suhu ruangan; **pengguna memilih sendiri pakaiannya**. Gangguan penglihatan: minta menyentuh bahan dan jelaskan bentuknya.",
+        "Baju (duduk): pastikan duduk stabil; staf di **sisi sakit** (mudah jatuh ke sisi itu). Lepas dari sisi sehat; pakai dengan memasukkan **lengan sisi sakit dulu**.",
+        "Celana (duduk): lepas dari sisi sehat; pakai **sisi sakit dulu lalu sisi sehat**, naikkan sebisanya sambil duduk lalu berdiri.",
+        "Di tempat tidur: staf di sisi sehat; miringkan dengan **sisi sehat di bawah** (jangan menindih sisi lumpuh).",
+        "Akhiri dengan memeriksa kenyamanan (tidak kusut) dan kondisi fisik."
+       ]
+      },
+      {
+       "h": "3. Wajah, rambut, cukur, kuku, dandan"
+      },
+      {
+       "ul": [
+        "Cuci muka: lembapkan kulit sesudahnya; bila tidak bisa, seka dengan handuk hangat.",
+        "Rambut: periksa rambut dan kulit kepala; menyisir melancarkan aliran darah.",
+        "Cukur listrik: **tegak lurus** terhadap kulit sambil meregangkan kerutan; lindungi kulit dengan losion.",
+        "Kuku: potong saat **lunak setelah mandi**; jangan terlalu dalam; periksa kulit sekitarnya.",
+        "Dandan: ikuti keinginan pengguna; bersihkan sebelum tidur."
+       ]
+      },
+      {
+       "h": "4. Perawatan rongga mulut"
+      },
+      {
+       "ul": [
+        "Manfaat: mencegah gigi berlubang, penyakit gusi, bau napas; menekan bakteri → **mencegah pneumonia aspirasi**; merangsang air liur; menjaga rasa dan nafsu makan.",
+        "Gosok gigi: **berkumur dulu**, gosok satu per satu; pada kelumpuhan sisa makanan sering ada di **sisi sakit**; perdarahan/bengkak gusi → lapor.",
+        "**Dagu jangan dinaikkan** (risiko aspirasi). Sikat dipegang **seperti pensil**. Sikat spons bila tidak bisa disikat biasa.",
+        "**Gigi palsu** ({義歯|ぎし}): dilepas dan dibersihkan **setiap selesai makan**, disikat lalu dibilas air mengalir, **disimpan dalam wadah berisi air** (kering → retak)."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 170–185. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Merapikan diri adalah ekspresi jati diri. Biarkan pengguna memilih; pada kelumpuhan lepas dari sisi sehat dan pakai dari sisi sakit; perawatan mulut mencegah pneumonia aspirasi.",
+      "points": [
+       "脱健着患: lepas sisi sehat, pakai sisi sakit.",
+       "Kuku dipotong setelah mandi.",
+       "Cukur listrik tegak lurus kulit.",
+       "Gigi palsu disimpan dalam air."
+      ],
+      "avoid": [
+       "Memilihkan pakaian tanpa bertanya.",
+       "Menaikkan dagu saat menggosok gigi.",
+       "Menyimpan gigi palsu dalam keadaan kering."
+      ],
+      "exam": [
+       "Urutan memakai/melepas pada hemiplegia.",
+       "Manfaat perawatan rongga mulut."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k4s5",
+    "no": 5,
+    "title": {
+     "id": "Perawatan Lansia untuk Mandi dan Menjaga Kebersihan Tubuh",
+     "jp": "{入浴|にゅうよく}・{清潔保持|せいけつほじ}の{介護|かいご}"
+    },
+    "pages": [
+     186,
+     197
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Makna dan efek mandi"
+      },
+      {
+       "ul": [
+        "Menghilangkan kotoran dan menjaga kebersihan; memberi rasa segar, puas, rileks; menata ritme hidup.",
+        "Efek: pembuluh darah melebar dan sirkulasi lancar, metabolisme naik, nyeri sendi/otot berkurang, nafsu makan naik, kulit bersih (cegah infeksi), stres berkurang.",
+        "Fungsi kulit: melindungi organ, mencegah zat berbahaya, menjaga kelembapan, mengatur suhu. Bagian yang mudah kotor = **lipatan kulit**."
+       ]
+      },
+      {
+       "h": "2. Lingkungan dan persiapan"
+      },
+      {
+       "ul": [
+        "Jaga rasa malu; amati kulit dan laporkan kelainan.",
+        "Cegah jatuh (undakan, lantai licin) dan **kejutan panas** (ヒートショック): kecilkan beda suhu ruang ganti dan kamar mandi. Air terlalu panas membebani tubuh. Periksa alat bantu.",
+        "Sebelum mandi: cek kondisi, jelaskan dan minta persetujuan, atur suhu ruangan, siapkan pakaian pilihan pengguna, **selesaikan ekskresi**, **minum air**.",
+        "**Hindari mandi 1 jam sebelum/sesudah makan**.",
+        "Melepas pakaian sambil **duduk di kursi**; lumpuh: lepas dari sisi sehat, pakai dari sisi sakit."
+       ]
+      },
+      {
+       "h": "3. Selama mandi"
+      },
+      {
+       "ol": [
+        "Dampingi saat berpindah; pada kelumpuhan staf di **sisi sakit**.",
+        "**Staf mengecek suhu air dengan tangannya dulu**, lalu pengguna; siram **dari ujung jari** perlahan ke seluruh tubuh; pada kelumpuhan **dari sisi sehat**.",
+        "Sabuni dengan buih tanpa menggosok keras; lengan dan kaki dibasuh **dari ujung ke arah jantung**.",
+        "Masuk bak **dari sisi sehat**; topang sisi sakit (cenderung mengapung); amati wajah.",
+        "Keluar bak perlahan — waspada **hipotensi ortostatik**."
+       ]
+      },
+      {
+       "ul": [
+        "Keramas dengan **perut jari**, bukan kuku.",
+        "Setelah mandi: segera keringkan (tekan, jangan gosok), termasuk lipatan; krim pelembap; berpakaian; keringkan rambut (arahkan udara panas ke tangan staf); **minum dan istirahat**."
+       ]
+      },
+      {
+       "h": "4. Mandi sebagian, area genital, mandi seka"
+      },
+      {
+       "ul": [
+        "**Mandi tangan/kaki** ({手浴|しゅよく}・{足浴|そくよく}): dengan air hangat di baskom/ember; kuku jadi lunak.",
+        "**Area genital**: jaga privasi, air sesuai suhu kulit, sarung tangan sekali pakai; wanita **depan ke belakang**, tidak mengulang sisi yang sama; kulit merah → lapor.",
+        "**Mandi seka** ({清拭|せいしき}) bila tidak bisa mandi. Urutan seluruh tubuh: **wajah → lengan → dada/perut → punggung → kaki → area genital**. Air **lebih panas** daripada air mandi; seka dari ujung ke arah jantung; tutup dengan handuk mandi; **segera keringkan**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 186–197. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Mandi menyegarkan dan melancarkan sirkulasi, tetapi berisiko jatuh dan kejutan panas. Cek kondisi, atur suhu, mulai dari sisi sehat, dan beri minum sebelum-sesudah.",
+      "points": [
+       "Tidak mandi 1 jam sebelum/sesudah makan.",
+       "Staf cek suhu air dengan tangan dulu.",
+       "Siram dari ujung jari; basuh ke arah jantung.",
+       "Masuk bak dari sisi sehat.",
+       "Mandi seka: wajah → lengan → dada → punggung → kaki → genital."
+      ],
+      "avoid": [
+       "Perbedaan suhu besar antara ruang ganti dan kamar mandi.",
+       "Bangkit dari bak secara mendadak.",
+       "Keramas memakai kuku."
+      ],
+      "exam": [
+       "Arti kejutan panas.",
+       "Urutan mandi seka."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k4s6",
+    "no": 6,
+    "title": {
+     "id": "Perawatan Lansia untuk Pekerjaan Rumah Tangga",
+     "jp": "{家事|かじ}の{介護|かいご}"
+    },
+    "pages": [
+     198,
+     201
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Dalam **IADL**, pekerjaan rumah tangga ({家事|かじ}) meliputi memasak, membersihkan, mencuci, menata pakaian, dan berbelanja. Ini **dasar kehidupan** dan sangat **individual**: tiap orang punya gaya dan prinsipnya sendiri."
+      },
+      {
+       "h": "Memasak"
+      },
+      {
+       "ul": [
+        "Urutan: menentukan menu → menyiapkan bahan → memasak → menata → menyajikan → membereskan.",
+        "Sesuaikan dengan kondisi fisik; bahan dan cara masak mempertimbangkan **penyakit dan alergi**.",
+        "Kebiasaan makan berbeda tiap negara, daerah, dan orang. Di Jepang makanan mengikuti **acara tradisi dan musim** (contoh: osechi ryori saat Tahun Baru)."
+       ]
+      },
+      {
+       "h": "Membersihkan"
+      },
+      {
+       "ul": [
+        "Menciptakan tempat tinggal yang bersih dan aman.",
+        "Barang yang tampak tidak perlu bisa saja penting bagi pengguna → saat menata atau membuang, **pastikan dan minta persetujuan pengguna**."
+       ]
+      },
+      {
+       "h": "Mencuci"
+      },
+      {
+       "ul": [
+        "Menjaga kebersihan pakaian dan perlengkapan tidur.",
+        "Cuci sesuai **bahan** cucian.",
+        "Pakaian yang terkena feses, muntahan, atau darah pengguna berpenyakit menular **dicuci terpisah**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 198–201. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pekerjaan rumah tangga adalah dasar hidup dan sangat pribadi: hormati cara pengguna, minta persetujuan sebelum membuang barang, dan cuci terpisah yang terkontaminasi.",
+      "points": [
+       "Pekerjaan rumah termasuk IADL.",
+       "Masak: pertimbangkan penyakit dan alergi.",
+       "Buang/menata barang harus seizin pengguna.",
+       "Cucian terkontaminasi dicuci terpisah."
+      ],
+      "avoid": [
+       "Membuang barang pengguna karena terlihat tidak berguna."
+      ],
+      "exam": [
+       "Contoh IADL.",
+       "Penanganan cucian pengguna berpenyakit menular."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

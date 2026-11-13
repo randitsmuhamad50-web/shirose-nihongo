@@ -1,0 +1,243 @@
+{
+ "schema": 1,
+ "bidang": "kaigo",
+ "source": "Buku Teks Keterampilan Perawatan Lansia & Bahasa Jepang untuk Perawatan Lansia (versi Indonesia) — Japan Association of Certified Care Workers, Oktober 2019",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Keterampilan Komunikasi",
+   "jp": "コミュニケーション{技術|ぎじゅつ}"
+  },
+  "intro": {
+   "id": "Bagian 3 modul: dasar komunikasi, komunikasi dengan pengguna sesuai kondisinya, dan komunikasi tim lewat catatan.",
+   "jp": "コミュニケーション{技術|ぎじゅつ}"
+  },
+  "pages": [
+   98,
+   117
+  ],
+  "subs": [
+   {
+    "id": "k3s1",
+    "no": 1,
+    "title": {
+     "id": "Dasar Komunikasi",
+     "jp": "コミュニケーションの{基本|きほん}"
+    },
+    "pages": [
+     98,
+     101
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "**Komunikasi** = saling menyampaikan dan berbagi perasaan serta pemikiran. Ini alat untuk membangun **hubungan kepercayaan** ({信頼関係|しんらいかんけい})."
+      },
+      {
+       "h": "Cara menyampaikan informasi"
+      },
+      {
+       "ul": [
+        "**Komunikasi verbal** ({言語|げんご}コミュニケーション): memakai bahasa — ucapan, bahasa isyarat, tulisan.",
+        "**Komunikasi non-verbal** ({非言語|ひげんご}コミュニケーション): selain bahasa — gerakan tubuh/tangan, ekspresi wajah."
+       ]
+      },
+      {
+       "h": "Tiga sikap untuk membangun hubungan"
+      },
+      {
+       "ol": [
+        "**Menyimak** ({傾聴|けいちょう}): mendengarkan dengan penuh perhatian, akurat, dan antusias.",
+        "**Berempati** ({共感|きょうかん}): merasakan apa yang dipikirkan dan dirasakan lawan bicara; menempatkan diri pada posisinya.",
+        "**Menerima** ({受容|じゅよう}): menerima perasaan dan pendapat lawan bicara **tanpa menyangkal atau membenarkan**."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 98–101. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Komunikasi membangun kepercayaan; caranya verbal dan non-verbal, dengan sikap menyimak, berempati, dan menerima.",
+      "points": [
+       "Bahasa isyarat dan tulisan termasuk komunikasi VERBAL.",
+       "Ekspresi wajah dan gerakan tubuh = non-verbal.",
+       "Menerima = tidak menyangkal dan tidak membenarkan."
+      ],
+      "avoid": [
+       "Memotong pembicaraan dan langsung menilai benar/salah."
+      ],
+      "exam": [
+       "Definisi menyimak, berempati, menerima."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k3s2",
+    "no": 2,
+    "title": {
+     "id": "Komunikasi dengan Pengguna",
+     "jp": "{利用者|りようしゃ}とのコミュニケーション"
+    },
+    "pages": [
+     102,
+     113
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Teknik menyimak aktif"
+      },
+      {
+       "ul": [
+        "Hormati **nilai-nilai** pengguna (berbeda menurut zaman dan lingkungan ia dibesarkan).",
+        "Gunakan **bahasa yang sopan**.",
+        "**Pertanyaan tertutup** (クローズドクエスチョン): dijawab \"ya/tidak\" atau \"A/B\" — bila terus-menerus jadi satu arah. **Pertanyaan terbuka** (オープンクエスチョン): dijawab bebas (\"Bagaimana menurut Anda?\"). Terus bertanya \"Mengapa?\" membuat lawan bicara merasa disudutkan.",
+        "**Pengulangan**: mengulang kata pengguna menunjukkan bahwa Anda menyimak."
+       ]
+      },
+      {
+       "h": "Komunikasi non-verbal"
+      },
+      {
+       "ul": [
+        "Amati gerak-gerik dan ekspresi pengguna.",
+        "**Kontak mata** sejajar; melihat dari atas terasa mengintimidasi.",
+        "Nada bicara pelan, tenang, dengan jeda cukup; **mengangguk dan menimpali**.",
+        "Hadapkan badan ke pengguna. **Jangan** menyilangkan tangan/kaki atau bersandar dengan arogan.",
+        "Di Jepang banyak orang lebih nyaman dengan **jarak tertentu**. Sentuhan bermakna berbeda tergantung waktu, kekuatan, dan frekuensi."
+       ]
+      },
+      {
+       "h": "2. Penjelasan dan persetujuan (informed consent)"
+      },
+      {
+       "ol": [
+        "Tunjukkan pilihan yang ada.",
+        "Jelaskan kelebihan dan kekurangan tiap pilihan.",
+        "Beri kesempatan pengguna memilih dan menentukan sendiri."
+       ]
+      },
+      {
+       "h": "3. Komunikasi sesuai kondisi pengguna"
+      },
+      {
+       "ul": [
+        "**Gangguan penglihatan**: jelaskan posisi dan ciri benda dengan kata-kata; **sapa dan panggil namanya dulu** sebelum menyentuh, sebutkan nama Anda; jelaskan arah secara rinci (\"di kanan Anda\"); posisi makanan dengan **metode posisi jam**; alat: huruf Braille.",
+        "**Gangguan pendengaran**: bicara **dari depan** agar wajah dan mulut terlihat, dari sisi telinga yang lebih baik, **perlahan dan jelas**, tidak lebih keras dari perlu, di tempat tenang. Alat: baca gerak bibir, komunikasi tertulis, bahasa isyarat, alat bantu dengar.",
+        "**Afasia**: bicara perlahan dengan kata singkat; pakai gambar, foto, gerakan; **jangan menunjukkan kesalahan kecil**; gunakan **pertanyaan tertutup** yang mudah dijawab.",
+        "**Demensia**: bicara perlahan, kalimat singkat; **terima dan berempati tanpa menyangkal**, walau berbeda dari kenyataan."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 102–113. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Simak secara aktif, perhatikan bahasa tubuh, bantu pengguna memutuskan sendiri, dan pilih cara komunikasi sesuai disabilitasnya.",
+      "points": [
+       "Tertutup = ya/tidak; terbuka = jawaban bebas.",
+       "Gangguan penglihatan: panggil nama dulu, metode posisi jam.",
+       "Gangguan pendengaran: dari depan, perlahan, jelas.",
+       "Afasia: pertanyaan tertutup + gambar.",
+       "Demensia: jangan menyangkal."
+      ],
+      "avoid": [
+       "Menyentuh pengguna tunanetra tanpa menyapa.",
+       "Berteriak pada pengguna dengan gangguan pendengaran.",
+       "Mengoreksi kesalahan kecil penderita afasia.",
+       "Menyilangkan tangan saat mendengarkan."
+      ],
+      "exam": [
+       "Contoh pertanyaan terbuka vs tertutup.",
+       "Tiga langkah informed consent."
+      ]
+     }
+    }
+   },
+   {
+    "id": "k3s3",
+    "no": 3,
+    "title": {
+     "id": "Komunikasi Tim",
+     "jp": "チームのコミュニケーション"
+    },
+    "pages": [
+     114,
+     117
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1. Berbagi informasi"
+      },
+      {
+       "p": "Perawatan lansia dilakukan oleh **tim** bersama profesi lain. Informasi perawatan dan medis harus sampai ke seluruh anggota tim."
+      },
+      {
+       "ul": [
+        "Lewat **catatan** ({記録|きろく}): rencana perawatan, catatan kasus, buku serah-terima.",
+        "Lewat **rapat/dialog**: **serah-terima tugas** ({申|もう}し{送|おく}り) antarstaf dan rapat pembahasan perawatan."
+       ]
+      },
+      {
+       "h": "2. Makna dan dasar penulisan catatan"
+      },
+      {
+       "p": "Staf mencatat **kondisi pengguna, tindakan yang dilakukan, dan respons pengguna**. Catatan berguna untuk layanan yang lebih baik dan untuk kerja tim."
+      },
+      {
+       "ol": [
+        "Mencatat **saat ingatan masih kuat**.",
+        "Mencatat **tanggal dan waktu** dengan akurat.",
+        "Mencatat **fakta**: **objektif** (yang diamati staf, angka tekanan darah/suhu, data pemeriksaan) dan **subjektif** (yang dilihat/dialami/dikeluhkan pengguna, perkataannya).",
+        "Menulis agar dipahami sekali baca dengan **5W1H**: When (kapan), Where (di mana), Who (siapa), What (apa), Why (mengapa), How (bagaimana)."
+       ]
+      },
+      {
+       "note": "Contoh di modul: \"Pukul 08.00 saat bantuan ekskresi, bagian sakral Bapak ○○ memerah 1 cm (objektif). Saat ditanya beliau menjawab 'Tidak sakit' (subjektif). Dilaporkan ke perawat: tahap awal dekubitus.\""
+      },
+      {
+       "h": "3. Informasi pribadi dan kerahasiaan"
+      },
+      {
+       "ul": [
+        "Informasi pribadi ({個人情報|こじんじょうほう}): nama, alamat, nomor telepon, foto, dll.",
+        "Membagikannya memerlukan **persetujuan pengguna**.",
+        "**Jangan** membicarakan pengguna dan tempat kerja di luar tempat kerja; **jangan** menulisnya di internet atau media sosial."
+       ]
+      },
+      {
+       "note": "Sumber: modul hal. 114–117. Gambar, tabel, dan ilustrasi asli ada pada halaman buku di bawah."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Tim berbagi informasi lewat catatan dan serah-terima; catatan ditulis segera, akurat, berupa fakta, dengan 5W1H, dan informasi pribadi dijaga.",
+      "points": [
+       "Fakta objektif = yang diamati/angka; subjektif = perkataan/keluhan pengguna.",
+       "5W1H membuat catatan dipahami sekali baca.",
+       "Berbagi informasi pribadi perlu persetujuan pengguna."
+      ],
+      "avoid": [
+       "Menulis catatan lama setelah kejadian.",
+       "Menulis dugaan seolah-olah fakta.",
+       "Mengunggah cerita/foto pengguna ke media sosial."
+      ],
+      "exam": [
+       "Membedakan fakta objektif dan subjektif.",
+       "Bentuk catatan: rencana perawatan, catatan kasus, buku serah-terima."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

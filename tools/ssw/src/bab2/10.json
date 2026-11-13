@@ -1,0 +1,45 @@
+{
+ "id": "b2s10", "no": 10,
+ "title": { "id": "Lap Pembersih (Vertikal)", "jp": "拭き清掃（立面）" },
+ "pages": [42, 43],
+ "full": {
+  "id": [
+   { "h": "Peralatan pembersih (kaca)" },
+   { "p": "Handuk basah yang sudah diperas, handuk kering, dan pembersih kaca (semprot)." },
+   { "h": "Cara membersihkan kaca" },
+   { "ul": [
+     "Biasanya, semprotkan dulu pembersih kaca ke kain lap, lalu lap.",
+     "Jika kotorannya banyak, langsung semprotkan ke kaca, lalu lap.",
+     "Pertama, lap dulu semua bagian dari atas ke bawah dalam 1 kali lap (zig-zag, seperti sekali tarikan).",
+     "JANGAN lap dengan diputar-putar.",
+     "Kemudian, lipat handuk ke bagian yang masih bersih, lap 4 sudut kacanya.",
+     "Jika ada bingkai jendela, gunakan jari tengah untuk membersihkan sudut bingkai (jari tengah lebih kuat tenaganya; kotoran mudah menumpuk di sudut)."
+   ] },
+   { "h": "Jika tidak memakai spray" },
+   { "p": "Setelah dilap dengan air, lap kembali dengan lap kering, kemudian selesai." },
+   { "h": "Pemeriksaan akhir" },
+   { "p": "Cek dengan mata apakah ada sisa kotoran atau tidak. Kotoran pada umumnya: kerak, sebum (minyak), debu, dan lainnya." }
+  ],
+  "jp": [
+   { "h": "{拭|ふ}き{清掃|せいそう}の{資器材|しきざい}" },
+   { "p": "{硬|かた}く{絞|しぼ}ったタオルと{乾|かわ}いたタオル、ガラスクリーナー。" },
+   { "h": "ガラスの{拭|ふ}き{方|かた}" },
+   { "ul": [
+     "{普通|ふつう}はタオルにガラスクリーナーをつけてから{拭|ふ}く。",
+     "{汚|よご}れがひどいときは{直接|ちょくせつ}{吹|ふ}き{付|つ}けて{拭|ふ}こう。",
+     "まず{全面|ぜんめん}を{上|うえ}から{下|した}へ{向|む}かって{一筆書|ひとふでが}きのように{拭|ふ}いていく。",
+     "グルグルはダメ！",
+     "{次|つぎ}にタオルをキレイな{面|めん}に{折|お}り{返|かえ}して{四隅|よすみ}を{拭|ふ}き{上|あ}げよう。",
+     "フレームがある{場合|ばあい}は{中指|なかゆび}を{使|つか}って{角|すみ}の{汚|よご}れを{拭|ふ}き{取|と}っておこう（{中指|なかゆび}が{力|ちから}を{入|い}れやすい。{汚|よご}れが{溜|た}まりやすい）。"
+   ] },
+   { "h": "スプレーを{使|つか}わないとき" },
+   { "p": "①{水拭|みずぶ}きしたあとに②{乾|かわ}いたタオルで{拭|ふ}きあげてから{作業完了|さぎょうかんりょう}だよ！" },
+   { "h": "{作業後|さぎょうご}" },
+   { "p": "{汚|よご}れが{残|のこ}っていないか{目視|もくし}で{確認|かくにん}しておいてね。{主|おも}な{汚|よご}れ：{水|みず}アカ・{皮脂|ひし}・ホコリなど。" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Kaca: semprot ke lap, lap atas ke bawah zig-zag (jangan memutar), lalu 4 sudut. Tanpa spray: lap air lalu lap kering.", "points": ["Alat: handuk basah, handuk kering, pembersih kaca.", "Atas ke bawah dalam sekali jalur.", "Sudut dilap dengan sisi bersih.", "Sudut bingkai: jari tengah.", "Cek visual di akhir."], "avoid": ["Mengelap dengan diputar-putar.", "Melewatkan sudut bingkai."], "exam": ["Arah mengelap kaca.", "Cara tanpa spray.", "Jenis kotoran kaca."] },
+  "jp": { "core": "ガラスは{上|うえ}から{下|した}へ{一筆書|ひとふでが}き、グルグル{禁止|きんし}。{四隅|よすみ}は{中指|なかゆび}。スプレーなしは{水拭|みずぶ}き→{乾拭|からぶ}き。", "points": ["{絞|しぼ}ったタオル・{乾|かわ}いたタオル・ガラスクリーナー", "{上|うえ}から{下|した}へ", "{四隅|よすみ}をキレイな{面|めん}で", "フレームの{角|すみ}は{中指|なかゆび}", "{最後|さいご}に{目視|もくし}で{確認|かくにん}"], "avoid": ["グルグル{拭|ふ}き", "フレームの{角|すみ}の{拭|ふ}き{残|のこ}し"], "exam": ["{拭|ふ}く{向|む}き", "スプレーなしの{手順|てじゅん}", "{主|おも}な{汚|よご}れ"] }
+ }
+}

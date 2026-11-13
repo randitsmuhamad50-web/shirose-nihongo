@@ -1,0 +1,27 @@
+{
+ "slug": "food-service-jp",
+ "nama": "Food Service (Bahasa Jepang)",
+ "jp": "外食業（日本語）",
+ "book": "jp",
+ "pages": {
+  "jp": 145
+ },
+ "bab": [
+  {
+   "id": "bab1",
+   "file": "bab1.json"
+  },
+  {
+   "id": "bab2",
+   "file": "bab2.json"
+  },
+  {
+   "id": "bab3",
+   "file": "bab3.json"
+  }
+ ],
+ "vocab": "vocab.json",
+ "quiz": "quiz.json",
+ "figs": "figs.json",
+ "unified": true
+}

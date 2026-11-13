@@ -1,0 +1,44 @@
+# SSW — Pola Building Cleaning & Peta Modul (audit 11 Nov 2026)
+
+Dokumen kerja untuk siapa pun (Sonnet / Opus / Fable / manusia) yang melanjutkan bidang SSW. **Jangan membuat sistem baru; ikuti pola ini.**
+
+## 1. Pola Building Cleaning (master reference)
+
+| Hal | Lokasi | Catatan |
+|---|---|---|
+| Manifest bidang | `data/ssw/<slug>/index.json` | `bab[]`, `pages`, opsional `assets` (pakai folder gambar bidang lain), `book` (buku hanya 1 bahasa), `alat` (panel flashcard peralatan) |
+| Materi | `data/ssw/<slug>/babN.json` | `bab.subs[]`: `id`, `no`, `title{id,jp}`, `pages[awal,akhir]`, `full{id,jp}` (blok `h/p/ul/ol/note`), `summary{core,points,avoid,exam}` |
+| Kosakata | `data/ssw/<slug>/vocab.json` | `{id, kata, kana, romaji, arti, cat, bab, src[subId]}` — `src` menghubungkan kata ke subbab |
+| Soal | `data/ssw/<slug>/quiz.json` | `bab[babId][]`: `<bab>-q1..q3` (wajib 3, dipakai hitung progres) + `<subId>-q` (latihan di bawah materi). `rev:true` = kuis ulangan (tidak masuk bank Ujian Penuh) |
+| Gambar halaman modul | `assets/ssw/<slug>/<lang>/pNN.webp` | file `p(N+1)` = halaman bernomor N; `p01` = sampul. Dibuat dengan `tools/ssw/render_pages.py` |
+| Mesin | `js/ssw-core.js` (data, progres, akses), `js/ssw.js` (UI), `js/ssw-teacher.js` (guru) | Hafalan memakai mesin hafalan JLPT (`sswHafalStart` di index.html) |
+| Progres | Firestore `siswa/{uid}/ssw_progres/{slug}` + SRS `ssw-bc` (BC) / `ssw-<slug>` (bidang lain) | XP/koin lewat `awardXP` yang sama |
+| Konfigurasi guru | Firestore `ssw_bidang/{slug}` (aktif, status bab) | |
+| Akses | `siswa.aksesSsw` (blokir total) → `siswa.aksesSswBidang[slug]` → `kelas.aksesSswBidang[slug]` → bawaan (hanya Building Cleaning terbuka) | Diatur di dashboard guru tab SSW dan kolom Excel `SSW …` |
+
+Alur siswa: Hub (pulau) → Peta bab → Bab → Baca subbab (Lengkap/Ringkas, ID/JP) → halaman buku → kosakata subbab → hafalan → latihan soal → kuis bab → ujian penuh → progres/leaderboard.
+
+## 2. Cara menambah bidang
+
+1. `python3 tools/ssw/render_pages.py <pdf> <slug> <lang> [offset]`
+2. Tulis sumber isi di `tools/ssw/src/<slug>/…` (lihat `src/kaigo/id_b1.py`): tiap subbab = judul, halaman, `full`, `summary`, `kata`, `soal` (jawaban benar ditulis pertama, tiap soal menyebut halaman modul).
+3. Buat pembangun seperti `tools/ssw/kaigo_id.py` (memakai `bidang_lib.py`) → menghasilkan `data/ssw/<slug>/`.
+4. Tambahkan `hasContent: true` di `DEFAULT_BIDANG` (`js/ssw-core.js`).
+
+## 3. Peta modul yang diterima (11 Nov 2026)
+
+| Bidang | File | Hal. | Status |
+|---|---|---:|---|
+| Kaigo (Indonesia) | Materi_Kaigo.pdf hal. 10–201 | 192 | **Masuk** (`kaigo`): 4 bagian, 14 bab |
+| Kaigo (Bahasa Jepang) | Materi_Kaigo.pdf hal. 204–267 | 64 | **Masuk** (`kaigo-jp`): 222 kosakata + 48 soal modul |
+| Food Service | Pengawasan Kebersihan / Persiapan Makanan & Minuman / Layanan Pelanggan | 127 (ID) + 144 (JP) | **Masuk ID** (`food-service`): 3 bab, 24 subbab, buku gabungan 127 hal. **Masuk JP** (`food-service-jp`, anak dari food-service): 3 bab, 20 subbab, 144 hal. buku Jepang, 634 kosakata dari indeks resmi modul + soal arti & cara baca |
+| Food Manufacturing | SSW_PM.pdf (JP, 第4版 2024) | 82 | **Masuk** (`food-manufacturing`): 3 bab, 15 subbab, 141 kosakata resmi (indeks modul), 65 soal tulis-tangan + soal kosakata; buku Jepang 82 hal. |
+| Agriculture | pertanian.pdf (Pertanaman Umum, ID) | 102 | **Masuk** (`agriculture`): 7 bab, 33 subbab, 213 kosakata (padanan Jepang = tambahan Shirose), 148 soal tulis-tangan + soal kosakata; 102 hal. |
+| Construction | 3 kategori: Sipil (`sipil_indo`, 151 hal.), Bangunan (`building_indo`, 152 hal.), Lifeline & Peralatan (`THEORY_ID` 117 hal. + `PRACTICE_ID` hal. 5–98) | 515 | **Masuk versi Indonesia**: `construction` (Sipil, 7 bab, 22 subbab, 114 kosakata glosarium Bab 4.2), `construction-bangunan` (anak, 23 subbab), `construction-lifeline` (anak, 28 subbab). Bab 1, 2, 4, 6.1, 7 ditulis Shirose (sama di tiga buku); Bab 3, 5, 6.2 = daftar judul asli buku + soal per topik. **Edisi Jepang**: buku `ctextd`, `bangunan`, `INFRASTRUCTURE_TEXTBOOK_JP` (masing-masing 120 hal.) tersedia di tombol 日本語 pada buku/halaman subbab (nomor halaman Jepang dipetakan per subbab); penjelasan tetap Indonesia dan kosakata hanya glosarium Indonesia. **Belum**: Tutorial 5–7 (praktik). |
+| Accommodation | `4a7d082a` (Jepang, 全旅連 2024, 52 hal., teks diekstrak) + `hotel_bahasa_indonesia.pdf` (terjemahan resmi Indonesia, 52 hal., halaman sama) | 52 | **Masuk**: 5 bab, 18 subbab, 53 kosakata, 175 soal. Halaman buku = PDF Indonesia resmi (tombol buku/miniatur; mode 日本語 juga memakai halaman Indonesia karena halaman Jepang tidak bisa dirender). Teks Jepang subbab dari buku Jepang (tanpa furigana di isi, hanya judul); ringkasan Indonesia ditulis Shirose. Builder: `tools/ssw/accommodation.py`. |
+| Livestock | — | — | Modul belum diberikan |
+
+## 4. Batasan yang perlu diketahui
+
+- Materi SSW adalah file statis di GitHub Pages (repo publik). Gerbang akses ada di aplikasi + data Firestore; file JSON/gambar tetap bisa dibuka lewat URL langsung oleh orang yang tahu alamatnya. Pembatasan sisi server hanya mungkin bila materi dipindah ke penyimpanan ber-autentikasi.
+- `full.jp` Kaigo (Indonesia) belum ada (modulnya berbahasa Indonesia); tampilan 日本語 memakai teks Indonesia.

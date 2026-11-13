@@ -1,0 +1,1341 @@
+{
+ "schema": 1,
+ "bidang": "building-cleaning",
+ "source": "JBMA（一般社団法人 全国ビルメンテナンス協会）「Buku Panduan Pelajar Ujian TOKUTEI GINOU Building Cleaning」",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Pembersihan Berkala",
+   "jp": "{定期清掃|ていきせいそう}"
+  },
+  "pages": [
+   61,
+   84
+  ],
+  "intro": {
+   "id": "Pembersihan berkala: lantai, polisher, kaca, dan daftar perlengkapan.",
+   "jp": "定期清掃の基本：床、ポリッシャー、ガラス、資器材一覧。"
+  },
+  "subs": [
+   {
+    "id": "b3s1",
+    "no": 1,
+    "title": {
+     "id": "Membersihkan Permukaan Lantai: Material Lantai",
+     "jp": "{床面清掃|ゆかめんせいそう}：{建材|けんざい}の{知識|ちしき}"
+    },
+    "pages": [
+     61,
+     62
+    ],
+    "full": {
+     "id": [
+      {
+       "note": "Halaman 62: sampul BAB 3 \"Pembersihan Berkala\" (定期清掃) yang membuka bab pembersihan berkala."
+      },
+      {
+       "p": "Untuk membersihkan permukaan lantai biasanya dipakai polisher. Kita harus memilih cara membersihkan yang tepat, tergantung material lantai dan jenis kotorannya."
+      },
+      {
+       "h": "5 Prinsip Cleaning Service"
+      },
+      {
+       "ol": [
+        "Pengetahuan bangunan (material lantai)",
+        "Pengetahuan mengenai kotoran",
+        "Pengetahuan mengenai karbol",
+        "Pengetahuan mengenai cara membersihkan",
+        "Pengetahuan mengenai tindakan pencegahan"
+       ]
+      },
+      {
+       "h": "① Jenis material lantai"
+      },
+      {
+       "p": "Pada dasarnya material lantai dibagi menjadi 5 jenis:"
+      },
+      {
+       "ul": [
+        "**Lantai vinil:** tipe plastik, tipe linoleum, tipe karet.",
+        "**Lantai marmer (keras):** batu, keramik, semen.",
+        "**Lantai kayu:** flooring, cork.",
+        "**Lantai karpet:** karpet vinil, loop pile (tidak berbulu).",
+        "**Lainnya:** lantai cat, tatami."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "note": "62ページ：{第|だい}３{章|しょう}「{定期清掃|ていきせいそう}」の{扉|とびら}ページ。"
+      },
+      {
+       "p": "{床面清掃|ゆかめんせいそう}といえばポリッシャーですよね！{床材|ゆかざい}と{汚|よご}れに{合|あ}った{清掃方法|せいそうほうほう}を{選|えら}ばないといけない。"
+      },
+      {
+       "h": "ビルクリーニングの5{原則|げんそく}"
+      },
+      {
+       "ol": [
+        "{建材|けんざい}の{知識|ちしき}",
+        "{汚|よご}れの{知識|ちしき}",
+        "{洗剤|せんざい}の{知識|ちしき}",
+        "{作業方法|さぎょうほうほう}の{知識|ちしき}",
+        "{予防策|よぼうさく}の{知識|ちしき}"
+       ]
+      },
+      {
+       "h": "① {床材|ゆかざい}の{種類|しゅるい}"
+      },
+      {
+       "p": "{床材|ゆかざい}は{主|おも}にこれらの5{種類|しゅるい}に{分類|ぶんるい}できる："
+      },
+      {
+       "ul": [
+        "**{弾性床材|だんせいゆかざい}：**ビニル{系|けい}、リノリウム{系|けい}、ゴム{系|けい}",
+        "**{硬性床材|こうせいゆかざい}：**{石材|せきざい}、{陶磁器|とうじき}、コンクリート",
+        "**{木質床材|もくしつゆかざい}：**フローリング、コルク",
+        "**カーペット{床材|ゆかざい}：**タイルカーペット、じゅうたん",
+        "**その{他|ほか}：**{塗|ぬ}り{床|ゆか}、たたみ"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cara bersihkan lantai tergantung material dan kotoran. Ada 5 jenis material lantai.",
+      "points": [
+       "5 prinsip: bangunan, kotoran, karbol, cara, pencegahan.",
+       "Material: vinil, keras (marmer/keramik/semen), kayu, karpet, lainnya (cat/tatami)."
+      ],
+      "avoid": [
+       "Memakai cara yang sama untuk semua lantai."
+      ],
+      "exam": [
+       "Jenis material lantai.",
+       "5 prinsip pengetahuan Cleaning Service."
+      ]
+     },
+     "jp": {
+      "core": "{床材|ゆかざい}と{汚|よご}れに{合|あ}った{方法|ほうほう}を{選|えら}ぶ。{床材|ゆかざい}は5{種類|しゅるい}。",
+      "points": [
+       "5{原則|げんそく}：{建材|けんざい}・{汚|よご}れ・{洗剤|せんざい}・{作業方法|さぎょうほうほう}・{予防策|よぼうさく}",
+       "{弾性|だんせい}・{硬性|こうせい}・{木質|もくしつ}・カーペット・その{他|ほか}"
+      ],
+      "avoid": [
+       "どの{床|ゆか}も{同|おな}じ{方法|ほうほう}で{掃除|そうじ}する"
+      ],
+      "exam": [
+       "{床材|ゆかざい}の{種類|しゅるい}",
+       "5{原則|げんそく}"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s2",
+    "no": 2,
+    "title": {
+     "id": "Pengetahuan Mengenai Kotoran",
+     "jp": "{汚|よご}れの{知識|ちしき}"
+    },
+    "pages": [
+     63,
+     63
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Macam-macam kotoran di macam-macam lokasi"
+      },
+      {
+       "ul": [
+        "**Lantai vinil:** kerak (noda air), bekas heal (sepatu).",
+        "**Lantai pintu masuk dan koridor:** debu pasir dan debu, jamur, bekas matahari dan bekas jejak perabotan.",
+        "**Lantai karpet:** noda, debu di celah karpet.",
+        "**Lantai kantor:** rambut dan sampah, isi staples dan clip."
+       ]
+      },
+      {
+       "p": "Ada macam-macam kotoran, tergantung material lantai dan tempatnya."
+      },
+      {
+       "h": "② Jenis kotoran (5 jenis)"
+      },
+      {
+       "ul": [
+        "**Kotoran anorganik:** debu (pasir, kapas), debu rokok.",
+        "**Tipe cair (larut air):** noda cair, minuman, dan lainnya.",
+        "**Tipe minyak:** bekas heal (sepatu), sebum, dan lainnya.",
+        "**Kotoran yang dapat menularkan penyakit:** jamur, kutu, dan lainnya.",
+        "**Lainnya:** karat, bekas terbakar matahari, dan lainnya."
+       ]
+      },
+      {
+       "note": "Bekas terbakar matahari tidak bisa dibersihkan dengan pembersihan biasa."
+      }
+     ],
+     "jp": [
+      {
+       "h": "いろんな{場所|ばしょ}のいろんな{汚|よご}れ"
+      },
+      {
+       "ul": [
+        "**ビニル{系|けい}の{床|ゆか}：**{水|みず}アカ、ヒールマーク。",
+        "**{廊下|ろうか}・エントランスの{床|ゆか}：**{土砂|どしゃ}・ホコリ、カビ、{日焼|ひや}け・{家具|かぐ}の{跡|あと}。",
+        "**カーペットの{床|ゆか}：**{染|し}み、パイル{内|ない}のホコリ。",
+        "**オフィスの{床|ゆか}：**{髪|かみ}・ゴミ、ステープルの{芯|しん}・クリップなど。"
+       ]
+      },
+      {
+       "p": "{建材|けんざい}や{場所|ばしょ}によって{様々|さまざま}な{汚|よご}れがある。"
+      },
+      {
+       "h": "② {汚|よご}れの{種類|しゅるい}（5{種類|しゅるい}）"
+      },
+      {
+       "ul": [
+        "**{無機質|むきしつ}の{汚|よご}れ：**ホコリ（{土|つち}、{綿|わた}）、{灰|はい}など。",
+        "**{水溶性|すいようせい}：**{染|し}み、{飲|の}み{物|もの}など。",
+        "**{油溶性|ゆようせい}：**ヒールマーク、{皮脂|ひし}など。",
+        "**{感染性|かんせんせい}の{汚|よご}れ：**カビ、ダニなど。",
+        "**その{他|ほか}：**サビ、{日焼|ひや}けなど。"
+       ]
+      },
+      {
+       "note": "{日焼|ひや}けなどは{清掃|せいそう}では{落|お}ちない。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kotoran dibagi 5 jenis: anorganik, larut air, minyak, penular penyakit, lainnya.",
+      "points": [
+       "Setiap lokasi punya kotoran khas.",
+       "Anorganik = debu/pasir/abu.",
+       "Minyak = bekas heal, sebum.",
+       "Penular = jamur, kutu."
+      ],
+      "avoid": [
+       "Menganggap semua kotoran hanya debu dan pasir."
+      ],
+      "exam": [
+       "5 jenis kotoran.",
+       "Kotoran yang tidak bisa dibersihkan: bekas terbakar matahari."
+      ]
+     },
+     "jp": {
+      "core": "{汚|よご}れは5{種類|しゅるい}：{無機質|むきしつ}・{水溶性|すいようせい}・{油溶性|ゆようせい}・{感染性|かんせんせい}・その{他|ほか}。",
+      "points": [
+       "{場所|ばしょ}ごとに{汚|よご}れが{違|ちが}う",
+       "{無機質|むきしつ}＝ホコリ・{土|つち}・{灰|はい}",
+       "{油溶性|ゆようせい}＝ヒールマーク・{皮脂|ひし}",
+       "{感染性|かんせんせい}＝カビ・ダニ"
+      ],
+      "avoid": [
+       "{汚|よご}れは{土|つち}とホコリだけと{思|おも}う"
+      ],
+      "exam": [
+       "{汚|よご}れの5{種類|しゅるい}",
+       "{落|お}ちない{汚|よご}れ（{日焼|ひや}け）"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s3",
+    "no": 3,
+    "title": {
+     "id": "Pengetahuan Mengenai Karbol (Deterjen)",
+     "jp": "{洗剤|せんざい}の{知識|ちしき}"
+    },
+    "pages": [
+     64,
+     64
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "③ Penggunaan karbol cair (skala pH)"
+      },
+      {
+       "p": "Karbol pembersih sangat berbahaya, jadi hati-hati saat menggunakannya. Pada waktu menggunakannya, pastikan untuk cek jenisnya ya."
+      },
+      {
+       "ul": [
+        "**Tipe asam (pH 0):** pembersih toilet asam, pembersih karat besi.",
+        "**Tipe keasaman rendah (pH 3):** karbol toilet.",
+        "**Tipe menengah (pH 6):** karbol menengah untuk lantai, pembersih toilet menengah, karbol untuk karpet, sabun untuk cuci tangan.",
+        "**Tipe alkali rendah (pH 8):** karbol untuk permukaan lantai, karbol umum di pasaran, pembersih toilet tipe alkali.",
+        "**Tipe alkali (pH 11–14):** pembersih cat, pembersih untuk ventilasi udara, pembersih untuk jamur, pembersih untuk oven, pemutih klorin."
+       ]
+      },
+      {
+       "h": "Mekanisme menghilangkan kotoran"
+      },
+      {
+       "p": "Karbol bekerja dengan menembus kotoran dan menguraikan kotoran untuk menghilangkan kotoran tersebut. Zat aktifnya (surfaktan) punya bagian hidrofilik (suka air) dan hidrofobik (tidak suka air). Urutannya: kotoran → penetrasi → memisahkan → mengangkat kotoran."
+      },
+      {
+       "h": "Keselamatan"
+      },
+      {
+       "ul": [
+        "Karbol untuk Cleaning Service sangat berbahaya, jadi selalu gunakan sarung tangan.",
+        "Jika karbol terkena mata atau tertelan, segera ke rumah sakit."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "③ {液性|えきせい}による{洗剤|せんざい}の{用途|ようと}（pH）"
+      },
+      {
+       "p": "{洗剤|せんざい}はとても{危険|きけん}だから{取|と}り{扱|あつか}い{注意|ちゅうい}だよ！{使用|しよう}の{際|さい}は{必|かなら}ず{種類|しゅるい}を{確認|かくにん}してね。"
+      },
+      {
+       "ul": [
+        "**{酸性|さんせい}（pH 0）：**{酸性|さんせい}トイレクリーナー、{鉄|てつ}サビ{落|お}とし。",
+        "**{弱酸性|じゃくさんせい}（pH 3）：**{浴室用洗剤|よくしつようせんざい}、{中性|ちゅうせい}トイレクリーナー。",
+        "**{中性|ちゅうせい}（pH 6）：**{床用中性洗剤|ゆかようちゅうせいせんざい}、カーペット{洗剤|せんざい}、{手洗|てあら}い{用洗剤|ようせんざい}。",
+        "**{弱|じゃく}アルカリ{性|せい}（pH 8）：**{表面洗浄剤|ひょうめんせんじょうざい}、{一般住宅用洗剤|いっぱんじゅうたくようせんざい}、アルカリ{性|せい}トイレクリーナー。",
+        "**アルカリ{性|せい}（pH 11〜14）：**ハクリ{剤|ざい}、{換気扇用洗剤|かんきせんようせんざい}、カビ{取|と}り{剤|ざい}、ガスレンジ{用洗剤|ようせんざい}、{塩素系漂白剤|えんそけいひょうはくざい}。"
+       ]
+      },
+      {
+       "h": "{汚|よご}れの{落|お}ちるメカニズム"
+      },
+      {
+       "p": "{洗剤|せんざい}は{汚|よご}れに{浸透|しんとう}して{分解|ぶんかい}することで{汚|よご}れを{落|お}としているんだよ。{界面活性剤|かいめんかっせいざい}には{親水基|しんすいき}と{疎水基|そすいき}がある。{汚|よご}れ→{浸透|しんとう}→{分離|ぶんり}→{汚|よご}れを{浮|う}かす。"
+      },
+      {
+       "h": "{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "{業務用|ぎょうむよう}の{洗剤|せんざい}は{危険|きけん}だから{必|かなら}ず{手袋|てぶくろ}を{着用|ちゃくよう}すること！",
+        "{洗剤|せんざい}が{目|め}に{入|はい}ったときや{誤飲|ごいん}したときはすぐに{病院|びょういん}へ{行|い}くこと！"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cek jenis karbol sebelum pakai. Asam–netral–alkali menurut pH. Selalu pakai sarung tangan; terkena mata/tertelan → rumah sakit.",
+      "points": [
+       "pH 0 asam → pH 14 alkali.",
+       "Karbol bekerja: penetrasi, pisah, angkat kotoran.",
+       "Selalu sarung tangan."
+      ],
+      "avoid": [
+       "Mencampur klorin dengan asam.",
+       "Memakai karbol tanpa cek jenis."
+      ],
+      "exam": [
+       "Tipe karbol menurut pH.",
+       "Tindakan bila tertelan/terkena mata."
+      ]
+     },
+     "jp": {
+      "core": "{洗剤|せんざい}は{種類|しゅるい}を{確認|かくにん}。{酸性|さんせい}・{中性|ちゅうせい}・アルカリ{性|せい}。{手袋|てぶくろ}{必須|ひっす}。{目|め}に{入|はい}ったら{病院|びょういん}へ。",
+      "points": [
+       "pH0{酸性|さんせい}〜pH14アルカリ{性|せい}",
+       "{浸透|しんとう}→{分離|ぶんり}→{浮|う}かす",
+       "{手袋|てぶくろ}を{着用|ちゃくよう}"
+      ],
+      "avoid": [
+       "{塩素系|えんそけい}と{酸性|さんせい}を{混|ま}ぜる",
+       "{種類|しゅるい}を{確認|かくにん}せず{使|つか}う"
+      ],
+      "exam": [
+       "pHと{洗剤|せんざい}の{種類|しゅるい}",
+       "{誤飲|ごいん}・{目|め}に{入|はい}った{時|とき}の{対応|たいおう}"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s4",
+    "no": 4,
+    "title": {
+     "id": "Cara Membersihkan dan Tindakan Pencegahan",
+     "jp": "{作業方法|さぎょうほうほう}・{予防策|よぼうさく}の{知識|ちしき}"
+    },
+    "pages": [
+     65,
+     65
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "④ Rute pembersihan dasar"
+      },
+      {
+       "p": "Saat membersihkan ada beberapa teknik yang bisa digunakan:"
+      },
+      {
+       "ul": [
+        "Dari atas ke bawah.",
+        "Dari ujung ke depan.",
+        "Dari tempat sempit ke tempat luas.",
+        "Dari tempat yang sedikit kotoran ke tempat yang banyak kotoran.",
+        "Cek tempat penggunanya."
+       ]
+      },
+      {
+       "h": "⑤ Tindakan pencegahan"
+      },
+      {
+       "p": "Perlu tindakan pencegahan dengan menggunakan material perawatan lantai untuk melindungi lantai dari kotoran dan menjaga kebersihannya."
+      },
+      {
+       "h": "Jenis bahan perawatan lantai"
+      },
+      {
+       "ul": [
+        "**Wax resin:** tipe uretan dan tipe akrilik.",
+        "**Wax cair:** berbahan utama lilin.",
+        "**Wax emulsi:** lilin, resin sintetis."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "④ {作業動線|さぎょうどうせん}の{基本|きほん}"
+      },
+      {
+       "p": "{作業|さぎょう}にはいくつか{基本的|きほんてき}な{進|すす}め{方|かた}があるんだよ："
+      },
+      {
+       "ul": [
+        "{上|うえ}から{下|した}",
+        "{奥|おく}から{手前|てまえ}へ",
+        "{狭|せま}い{所|ところ}から{広|ひろ}い{所|ところ}へ",
+        "{汚|よご}れの{少|すく}ない{所|ところ}から{汚|よご}れの{多|おお}い{所|ところ}へ",
+        "{利用者|りようしゃ}の{位置|いち}で{確認|かくにん}"
+       ]
+      },
+      {
+       "h": "⑤ {予防策|よぼうさく}"
+      },
+      {
+       "p": "{床材|ゆかざい}等を{汚|よご}れから{守|まも}りキレイを{維持|いじ}するために{床維持材|ゆかいじざい}を{塗布|とふ}するなど{予防策|よぼうさく}も{必要|ひつよう}なんだよ。"
+      },
+      {
+       "h": "{床維持剤|ゆかいじざい}の{種類|しゅるい}"
+      },
+      {
+       "ul": [
+        "**{樹脂|じゅし}ワックス：**ウレタン{系|けい}、アクリル{系|けい}。",
+        "**{水性|すいせい}ワックス：**ロウが{主成分|しゅせいぶん}。",
+        "**{乳化性|にゅうかせい}ワックス：**ロウ、{合成樹脂|ごうせいじゅし}。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Rute: atas→bawah, ujung→depan, sempit→luas, bersih→kotor. Wax melindungi lantai.",
+      "points": [
+       "5 aturan rute dasar.",
+       "Wax resin, cair, emulsi."
+      ],
+      "avoid": [
+       "Mulai dari tempat paling kotor."
+      ],
+      "exam": [
+       "Rute dasar.",
+       "Jenis wax."
+      ]
+     },
+     "jp": {
+      "core": "{順|じゅん}：{上|うえ}→{下|した}、{奥|おく}→{手前|てまえ}、{狭|せま}い→{広|ひろ}い、{少|すく}→{多|おお}。ワックスで{床|ゆか}を{守|まも}る。",
+      "points": [
+       "{作業動線|さぎょうどうせん}の5つの{基本|きほん}",
+       "{樹脂|じゅし}・{水性|すいせい}・{乳化性|にゅうかせい}ワックス"
+      ],
+      "avoid": [
+       "{汚|よご}れの{多|おお}い{所|ところ}から{始|はじ}める"
+      ],
+      "exam": [
+       "{作業動線|さぎょうどうせん}の{基本|きほん}",
+       "ワックスの{種類|しゅるい}"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s5",
+    "no": 5,
+    "title": {
+     "id": "Polisher: Peralatan dan Persiapan",
+     "jp": "ポリッシャー：{資器材|しきざい}と{準備|じゅんび}"
+    },
+    "pages": [
+     66,
+     67
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Peralatan untuk membersihkan permukaan lantai (lantai vinil)"
+      },
+      {
+       "ul": [
+        "Pengki untuk air, ember, polisher, kipas pengering, lap.",
+        "Kain pel, pad, lap tipe dust cloth, lap untuk wax.",
+        "Perangkat pencegah listrik bocor atau arus pendek.",
+        "Curing mat, karbol tipe alkali, wax resin, Floor Sign.",
+        "Alat penarik air lantai (squeegee; di buku ID tertulis \"penanda lantai licin\")."
+       ]
+      },
+      {
+       "h": "Alur pembersihan permukaan lantai"
+      },
+      {
+       "ol": [
+        "Membersihkan debu.",
+        "Membersihkan permukaan lantai.",
+        "Mengumpulkan sampah/air kotor, mengepel.",
+        "Mengaplikasikan bahan perawatan lantai (wax)."
+       ]
+      },
+      {
+       "h": "Penempatan peralatan"
+      },
+      {
+       "ul": [
+        "Taruh peralatan di atas Curing Mat. Jangan taruh peralatan di atas lantai begitu saja (menimbulkan goresan atau kotoran).",
+        "Jaga jalur lalu lalang tetap bebas.",
+        "Pindahkan polisher. Tempatkan colokan di dekat stop kontak."
+       ]
+      },
+      {
+       "h": "Memasang pad dan memeriksa operasi"
+      },
+      {
+       "ol": [
+        "Baringkan polisher untuk memasang pad dan memeriksa operasi. Setelah mengeluarkan penyangga (stand), tekan tombol stopper.",
+        "Dorong ke depan rodanya dengan kaki (kunci ban dengan kaki, lalu rebahkan).",
+        "Hubungkan colokan ke perangkat pencegah listrik bocor atau arus pendek (hal.82).",
+        "Pegang tuas kiri dan kanan dan periksa apakah polisher berfungsi: tuas kanan = rotasi putaran; tuas kiri = penyemprot karbol.",
+        "Pasangkan alas pad ke Floor Pad (tempel), sesuaikan ketidakrataannya, lalu pasang ke polisher: putar pad dan kunci."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "{床面清掃|ゆかめんせいそう}で{使用|しよう}する{資器材|しきざい}（ビニル{系|けい}）"
+      },
+      {
+       "ul": [
+        "{汚水取|おすいと}り、バケツ、ポリッシャー、{送風機|そうふうき}、タオル。",
+        "モップ、パッド、ダストクロス{型|がた}モップ、ワックス{用|よう}モップ。",
+        "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}。",
+        "{養生|ようじょう}マット、アルカリ{性洗剤|せいせんざい}、{樹脂|じゅし}ワックス、フロアサイン。",
+        "フロアスクイジー。"
+       ]
+      },
+      {
+       "h": "{床面清掃|ゆかめんせいそう}の{流|なが}れ"
+      },
+      {
+       "ol": [
+        "{除塵|じょじん}",
+        "{床面清掃|ゆかめんせいそう}",
+        "{汚水回収|おすいかいしゅう}、{水拭|みずぶ}き",
+        "{床維持剤塗布|ゆかいじざいとふ}"
+       ]
+      },
+      {
+       "h": "{資器材|しきざい}の{置|お}き{方|かた}"
+      },
+      {
+       "ul": [
+        "{資器材|しきざい}は{養生|ようじょう}マットの{上|うえ}に{置|お}こう。{直接床|ちょくせつゆか}に{資器材|しきざい}を{置|お}いてはいけない（キズや{汚|よご}れ）。",
+        "{歩行動線|ほこうどうせん}を{確保|かくほ}する。",
+        "ポリッシャーを{移動|いどう}させたらコンセントの{近|ちか}くへコードを{置|お}こう。"
+       ]
+      },
+      {
+       "h": "パッドの{装着|そうちゃく}と{動作確認|どうさかくにん}"
+      },
+      {
+       "ol": [
+        "{動作確認|どうさかくにん}とパッドを{装着|そうちゃく}するためにポリッシャーを{寝|ね}かせよう。このときスタンドを{出|だ}してからストッパーボタンを{押|お}す。",
+        "タイヤを{足|あし}で{固定|こてい}して{倒|たお}すんだよ。",
+        "{次|つぎ}はコンセントにさした{電流遮断器|でんりゅうしゃだんき}にプラグをつないで（{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち} P.82）。",
+        "{左右|さゆう}のレバーを{握|にぎ}りポリッシャーが{動作|どうさ}することを{確認|かくにん}しよう：{右|みぎ}レバー＝{軸|じく}の{回転|かいてん}、{左|ひだり}レバー＝{洗剤|せんざい}{散布|さんぷ}。",
+        "パッド{台|だい}にフロアパッドを{付|つ}けてポリッシャーへ{装着|そうちゃく}（{圧着|あっちゃく}、{凸凹|でこぼこ}を{合|あ}わせる、パッドを{回転|かいてん}させて{固定|こてい}する）。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Siapkan peralatan di atas curing mat. Baringkan polisher, cek tuas kanan (putar) dan kiri (semprot), pasang pad.",
+      "points": [
+       "Alur: debu → permukaan → kumpul air → wax.",
+       "Peralatan di atas curing mat.",
+       "Colokan lewat pencegah listrik bocor.",
+       "Tuas kanan putar, kiri semprot karbol."
+      ],
+      "avoid": [
+       "Menaruh peralatan langsung di lantai.",
+       "Memasang pad sebelum mengecek operasi."
+      ],
+      "exam": [
+       "Fungsi tuas kanan dan kiri.",
+       "Alur pembersihan lantai."
+      ]
+     },
+     "jp": {
+      "core": "{資器材|しきざい}は{養生|ようじょう}マットの{上|うえ}。ポリッシャーを{寝|ね}かし、{右|みぎ}＝{回転|かいてん}・{左|ひだり}＝{散布|さんぷ}を{確認|かくにん}、パッドを{装着|そうちゃく}。",
+      "points": [
+       "{除塵|じょじん}→{床面清掃|ゆかめんせいそう}→{汚水回収|おすいかいしゅう}→{床維持剤|ゆかいじざい}",
+       "{養生|ようじょう}マットの{上|うえ}",
+       "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}",
+       "{右|みぎ}レバー＝{回転|かいてん}、{左|ひだり}レバー＝{洗剤|せんざい}"
+      ],
+      "avoid": [
+       "{直接床|ちょくせつゆか}に{置|お}く",
+       "{確認|かくにん}なしでパッドを{付|つ}ける"
+      ],
+      "exam": [
+       "レバーの{役割|やくわり}",
+       "{床面清掃|ゆかめんせいそう}の{流|なが}れ"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s6",
+    "no": 6,
+    "title": {
+     "id": "Polisher: Menegakkan dan Mengendalikan",
+     "jp": "ポリッシャー：{起|お}こし{方|かた}と{操作|そうさ}"
+    },
+    "pages": [
+     68,
+     69
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Membangunkan polisher"
+      },
+      {
+       "ul": [
+        "Bangunkan polisher: tarik kembali penyangga (stand), kunci rodanya (tarik kembali roda).",
+        "Sesuaikan posisi pegangan dengan pedal kaki.",
+        "Angkat rodanya setelah menyesuaikan posisi pegangan.",
+        "Pegang tuas kanan sambil dorong safety lock."
+       ]
+      },
+      {
+       "p": "Jika posisi pegangan salah, polisher bergerak sendiri dan sulit dikendalikan. Jangan panik: lepaskan tuas dan polisher berhenti."
+      },
+      {
+       "h": "Posisi pad"
+      },
+      {
+       "ul": [
+        "Gerakkan pegangan ke atas dan ke bawah untuk mengatur pad agar tetap dalam posisi horizontal.",
+        "Buat pad dalam posisi horizontal."
+       ]
+      },
+      {
+       "h": "Mengarahkan polisher"
+      },
+      {
+       "ul": [
+        "Naikkan sedikit pegangan → polisher maju ke kanan.",
+        "Turunkan sedikit pegangan → polisher maju ke kiri."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "ポリッシャーを{起|お}こす"
+      },
+      {
+       "ul": [
+        "ポリッシャーを{起|お}こして：スタンドを{収納|しゅうのう}する、タイヤを{固定|こてい}する。",
+        "ハンドル{位置|いち}を{調整|ちょうせい}しよう（フットペダル）。",
+        "タイヤを{持|も}ち{上|あ}げる（タイヤはハンドル{位置調整|いちちょうせい}の{後|あと}に{上|あ}げる）。",
+        "セーフティロックを{押|お}し{込|こ}みながら{右|みぎ}レバーを{握|にぎ}る。"
+       ]
+      },
+      {
+       "p": "ハンドルの{位置|いち}が{悪|わる}いと{勝手|かって}に{動|うご}きまわる！{落|お}ち{着|つ}いて！レバーを{離|はな}せば{止|と}まる。"
+      },
+      {
+       "h": "パッドの{向|む}き"
+      },
+      {
+       "ul": [
+        "ハンドルを{上下|じょうげ}させてパッドが{水平|すいへい}になるように{調整|ちょうせい}して！",
+        "パッドを{水平|すいへい}にする。"
+       ]
+      },
+      {
+       "h": "{進|すす}む{向|む}きの{操作|そうさ}"
+      },
+      {
+       "ul": [
+        "ハンドルを{少|すこ}し{上|あ}げる → {右|みぎ}に{進|すす}む。",
+        "ハンドルを{少|すこ}し{下|さ}げる → {左|ひだり}に{進|すす}む。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bangunkan polisher setelah atur pegangan. Pegangan naik → kanan; pegangan turun → kiri. Pad harus horizontal.",
+      "points": [
+       "Roda diangkat setelah posisi pegangan diatur.",
+       "Tuas kanan + safety lock.",
+       "Naik = kanan, turun = kiri.",
+       "Lepas tuas → berhenti."
+      ],
+      "avoid": [
+       "Panik saat polisher bergerak sendiri."
+      ],
+      "exam": [
+       "Arah gerak saat pegangan naik/turun.",
+       "Posisi pad."
+      ]
+     },
+     "jp": {
+      "core": "ハンドルを{調整|ちょうせい}してから{起|お}こす。{上|あ}げる＝{右|みぎ}、{下|さ}げる＝{左|ひだり}。パッドは{水平|すいへい}。",
+      "points": [
+       "{位置調整|いちちょうせい}の{後|あと}にタイヤを{上|あ}げる",
+       "{右|みぎ}レバー＋セーフティロック",
+       "{上|あ}げる＝{右|みぎ}・{下|さ}げる＝{左|ひだり}",
+       "レバーを{離|はな}すと{止|と}まる"
+      ],
+      "avoid": [
+       "{暴走|ぼうそう}してあわてる"
+      ],
+      "exam": [
+       "ハンドルの{上下|じょうげ}と{進行方向|しんこうほうこう}",
+       "パッドの{向|む}き"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s7",
+    "no": 7,
+    "title": {
+     "id": "Polisher: Cara Membersihkan Lantai",
+     "jp": "ポリッシャー：{床|ゆか}の{清掃|せいそう}のしかた"
+    },
+    "pages": [
+     70,
+     72
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Menggerakkan polisher"
+      },
+      {
+       "ul": [
+        "Jika body dimiringkan ke kanan dan kiri, polisher bergerak maju mundur: ① maju = miringkan ke kiri; ② mundur = miringkan ke kanan.",
+        "Gunakan polisher tanpa banyak tenaga. Cukup gerakkan dengan pegangannya."
+       ]
+      },
+      {
+       "h": "Urutan membersihkan"
+      },
+      {
+       "ul": [
+        "Pertama, tebarkan karbol pada sisi luar dan bersihkan berlawanan arah jarum jam.",
+        "Jangan sampai menabrak plint dinding dan perabotan; jangan mengotori plint dinding dan tembok saat menggerakkan kepala pel (di dekat dinding bergerak dari kanan ke kiri; kotoran masuk ke dalam).",
+        "Mulai dari tempat paling jauh dari stop kontak; posisikan kabel dekat plint dinding.",
+        "Bersihkan bagian tengah sambil mundur mendekati stop kontak."
+       ]
+      },
+      {
+       "h": "Tekanan pad"
+      },
+      {
+       "ul": [
+        "Biasanya pemula menekan satu bagian padnya. Sesuaikan pad secara horizontal agar tekanan dapat merata.",
+        "Bersihkan dengan menumpukkan 1/3 lebar pad."
+       ]
+      },
+      {
+       "h": "Mengelola kabel"
+      },
+      {
+       "ul": [
+        "Hati-hati jangan sampai menginjak atau membelit kabel saat membersihkan.",
+        "Singkirkan kabel ke kiri dan kanan sambil membersihkan (kendalikan dengan tangan kiri). Berikan jarak untuk polisher bergerak.",
+        "Berbahaya jika kabel terlalu panjang, jadi gulung kabelnya."
+       ]
+      },
+      {
+       "h": "Area luas atau ada furnitur"
+      },
+      {
+       "p": "Jika perlu memindahkan furnitur yang ada, bagi dulu area kerja baru bersihkan secara efisien (①〜⑥). Pindahkan furnitur dan berikan ruang untuk membersihkan."
+      }
+     ],
+     "jp": [
+      {
+       "h": "ポリッシャーの{動|うご}かし{方|かた}"
+      },
+      {
+       "ul": [
+        "{本体|ほんたい}を{左右|さゆう}に{傾|かたむ}けると{前後|ぜんご}へ{移動|いどう}する：①{前進|ぜんしん}＝{左|ひだり}へ{傾|かたむ}ける、②{後退|こうたい}＝{右|みぎ}へ{傾|かたむ}ける。",
+        "ポリッシャーは{力|ちから}を{入|い}れずにハンドル{操作|そうさ}で{移動|いどう}させる。"
+       ]
+      },
+      {
+       "h": "{清掃|せいそう}の{順番|じゅんばん}"
+      },
+      {
+       "ul": [
+        "はじめは{外周|がいしゅう}に{洗剤|せんざい}をまきながら{反時計回|はんとけいまわ}りに{清掃|せいそう}しよう。",
+        "{幅木|はばき}や{家具|かぐ}にぶつけないように{注意|ちゅうい}！{壁際|かべぎわ}は{右|みぎ}から{左|ひだり}へ{移動|いどう}すると{壁|かべ}や{幅木|はばき}を{汚|よご}さない（{汚|よご}れが{内側|うちがわ}へ{入|はい}り{込|こ}む）。",
+        "{電源|でんげん}から{一番遠|いちばんとお}いところから。コードを{壁際|かべぎわ}に{這|は}わせる。",
+        "{電源側|でんげんがわ}へ{下|さ}がりながら{中央|ちゅうおう}を{清掃|せいそう}していこう。"
+       ]
+      },
+      {
+       "h": "パッドへの{圧|あつ}"
+      },
+      {
+       "ul": [
+        "{初心者|しょしんしゃ}はパッドの{一部|いちぶ}に{圧|あつ}をかけてしまうことがある。{均等|きんとう}に{圧|あつ}がかかるようにパッドを{水平|すいへい}に{調整|ちょうせい}しよう。",
+        "パッド{幅|はば}を1/3{程|ほど}{重|かさ}ねるように{清掃|せいそう}していこうね。"
+       ]
+      },
+      {
+       "h": "コードの{扱|あつか}い"
+      },
+      {
+       "ul": [
+        "{移動|いどう}のときはコードを{踏|ふ}んだり{巻|ま}き{込|こ}まないように{気|き}をつけて。",
+        "コードを{左手|ひだりて}でさばきながら{移動|いどう}しよう（ポリッシャーが{進|すす}むスペースを{確保|かくほ}する）。",
+        "コードが{余|あま}ってきたら{危険|きけん}なので{巻|ま}き{取|と}っておこうね。"
+       ]
+      },
+      {
+       "h": "{広|ひろ}い{場所|ばしょ}や{家具|かぐ}がある{場合|ばあい}"
+      },
+      {
+       "p": "{広|ひろ}い{場所|ばしょ}や{家具|かぐ}の{移動|いどう}が{必要|ひつよう}な{場合|ばあい}は{作業範囲|さぎょうはんい}を{分割|ぶんかつ}して{効率的|こうりつてき}に{清掃|せいそう}しよう（①〜⑥）。{家具|かぐ}を{移動|いどう}させて{作業|さぎょう}スペースを{確保|かくほ}。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Polisher digerakkan dengan pegangan, tanpa tenaga. Mulai dari tempat terjauh dari stop kontak, tumpuk 1/3 lebar pad, kelola kabel.",
+      "points": [
+       "Miring kiri = maju; kanan = mundur.",
+       "Sisi luar dulu, berlawanan arah jarum jam.",
+       "Pad horizontal agar tekanan merata.",
+       "Gulung kabel yang berlebih."
+      ],
+      "avoid": [
+       "Menekan satu bagian pad.",
+       "Menginjak/membelit kabel.",
+       "Menabrak plint dan perabotan."
+      ],
+      "exam": [
+       "Tumpukan lebar pad (1/3).",
+       "Arah putaran sisi luar."
+      ]
+     },
+     "jp": {
+      "core": "ポリッシャーは{力|ちから}を{入|い}れずハンドルで{操作|そうさ}。{電源|でんげん}から{遠|とお}い{所|ところ}から、パッド{幅|はば}1/3{重|かさ}ねる。",
+      "points": [
+       "{左|ひだり}へ{傾|かたむ}ける＝{前進|ぜんしん}・{右|みぎ}＝{後退|こうたい}",
+       "{外周|がいしゅう}から{反時計回|はんとけいまわ}り",
+       "パッドを{水平|すいへい}に",
+       "{余|あま}ったコードは{巻|ま}く"
+      ],
+      "avoid": [
+       "パッドの{一部|いちぶ}だけに{圧|あつ}",
+       "コードを{踏|ふ}む・{巻|ま}き{込|こ}む",
+       "{幅木|はばき}や{家具|かぐ}にぶつける"
+      ],
+      "exam": [
+       "パッド{幅|はば}の{重|かさ}ね（1/3）",
+       "{外周|がいしゅう}の{回|まわ}る{向|む}き"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s8",
+    "no": 8,
+    "title": {
+     "id": "Polisher: Setelah Selesai",
+     "jp": "ポリッシャー：{作業後|さぎょうご}の{片付|かたづ}け"
+    },
+    "pages": [
+     73,
+     74
+    ],
+    "full": {
+     "id": [
+      {
+       "ol": [
+        "Setelah selesai, turunkan rodanya. Sesuaikan roda dengan kaki, lalu kembalikan pegangannya ke posisi tegak.",
+        "Baringkan polisher di atas curing mat; berdirikan penyangga (stand).",
+        "Sebelum melepas pad, cabut dulu colokannya. Pegang colokan, jangan tarik kabelnya.",
+        "Lepaskan floor pad. Kumpulkan air kotor jangan sampai menetes (lap air kotor dengan kain lap).",
+        "Alas pad mudah dilepaskan dengan obeng minus: ① masukkan obeng ke bagian bercabang dua, ② angkat.",
+        "Terakhir, lap body dengan lap basah (tangki, sisi belakang body, body).",
+        "Lap juga kabelnya sambil menggulung; tahan dengan tangan kiri, kunci roda dengan kaki.",
+        "Bereskan peralatan, kemudian selesai."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "ol": [
+        "{清掃後|せいそうご}はタイヤを{下|お}ろしてから。タイヤを{足|あし}で{固定|こてい}してポリッシャーを{寝|ね}かせよう（ハンドルを{垂直|すいちょく}に{戻|もど}し）。",
+        "{養生|ようじょう}マットの{上|うえ}に{寝|ね}かせ、スタンドを{立|た}てる。",
+        "パッドを{外|はず}す{前|まえ}に{電源|でんげん}からプラグを{抜|ぬ}こう。プラグを{持|も}つ。コードを{引|ひ}っ{張|ぱ}ってはいけない！！",
+        "{次|つぎ}はフロアパッドを{外|はず}して{汚水|おすい}をたらさないように{回収|かいしゅう}しよう（タオルで{汚水|おすい}を{受|う}ける）。",
+        "パッド{台|だい}はマイナスドライバーを{使|つか}うとかんたんに{外|はず}せるんだよ：①{二又部分|ふたまたぶぶん}にドライバーを{差|さ}し{込|こ}む、②{持|も}ち{上|あ}げる。",
+        "{仕上|しあ}げに{本体|ほんたい}をタオルで{水拭|みずぶ}きしてキレイにしよう（タンク、{本体裏|ほんたいうら}、{本体|ほんたい}）。",
+        "コードもタオルで{拭|ふ}きながら{回収|かいしゅう}しよう。{左手|ひだりて}でおさえる、{足|あし}でタイヤを{固定|こてい}する。",
+        "{資器材|しきざい}を{片付|かたづ}けたら{作業完了|さぎょうかんりょう}だよ！"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cabut colokan (pegang steker) sebelum lepas pad. Kumpulkan air kotor. Lap body dan kabel, bereskan peralatan.",
+      "points": [
+       "Roda diturunkan, polisher dibaringkan di curing mat.",
+       "Cabut colokan dulu.",
+       "Air kotor ditampung dengan lap.",
+       "Alas pad dilepas dengan obeng minus."
+      ],
+      "avoid": [
+       "Menarik kabel.",
+       "Melepas pad saat masih tercolok."
+      ],
+      "exam": [
+       "Urutan setelah polisher selesai dipakai."
+      ]
+     },
+     "jp": {
+      "core": "パッドを{外|はず}す{前|まえ}にプラグを{抜|ぬ}く。{汚水|おすい}を{受|う}ける。{本体|ほんたい}とコードを{拭|ふ}き{片付|かたづ}ける。",
+      "points": [
+       "タイヤを{下|お}ろし、{養生|ようじょう}マットの{上|うえ}で{寝|ね}かせる",
+       "まずプラグを{抜|ぬ}く",
+       "タオルで{汚水|おすい}を{受|う}ける",
+       "パッド{台|だい}はマイナスドライバー"
+      ],
+      "avoid": [
+       "コードを{引|ひ}っ{張|ぱ}る",
+       "プラグを{挿|さ}したままパッドを{外|はず}す"
+      ],
+      "exam": [
+       "{作業後|さぎょうご}の{手順|てじゅん}"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s9",
+    "no": 9,
+    "title": {
+     "id": "Membersihkan Kaca: Peralatan dan Aplikasi Sabun",
+     "jp": "ガラス{清掃|せいそう}：{資器材|しきざい}と{洗剤|せんざい}の{塗布|とふ}"
+    },
+    "pages": [
+     75,
+     76
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Peralatan yang digunakan untuk membersihkan kaca"
+      },
+      {
+       "ul": [
+        "Ember (untuk lap dan untuk window washer).",
+        "Window washer (alat pengoles sabun) dan window cleaner (squeegee).",
+        "Lap, sabun pembersih kaca, curing mat, floor sign."
+       ]
+      },
+      {
+       "h": "Proses pembersihan kaca"
+      },
+      {
+       "ol": [
+        "Mengaplikasikan sabun pembersih kaca (window washer).",
+        "Menghilangkan kotoran (window cleaner / squeegee).",
+        "Lap basah (bingkai jendela, lantai) dengan lap."
+       ]
+      },
+      {
+       "h": "① Mengaplikasikan sabun"
+      },
+      {
+       "ul": [
+        "Pertama siapkan ember yang sudah diberi sabun pembersih kaca (di atas curing mat).",
+        "Celupkan seluruh bagian window washer ke sabun.",
+        "Oleskan sabun ke 4 sudut kaca terlebih dahulu.",
+        "Selanjutnya jangan sampai ada yang belum teroles sabun di bagian tengah (zig-zag)."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "ガラス{清掃|せいそう}で{使用|しよう}する{資器材|しきざい}"
+      },
+      {
+       "ul": [
+        "バケツ（タオル{用|よう}、シャンパー{用|よう}）。",
+        "シャンパーとウインドスクイジー。",
+        "タオル、ガラス{用洗剤|ようせんざい}、{養生|ようじょう}マット、フロアサイン。"
+       ]
+      },
+      {
+       "h": "ガラス{清掃|せいそう}の{作業工程|さぎょうこうてい}"
+      },
+      {
+       "ol": [
+        "{洗剤|せんざい}の{塗布|とふ}（シャンパー）",
+        "{汚|よご}れの{除去|じょきょ}（スクイジー）",
+        "{水拭|みずぶ}き（フレーム、{床|ゆか}）（タオル）"
+       ]
+      },
+      {
+       "h": "① {洗剤|せんざい}の{塗布|とふ}"
+      },
+      {
+       "ul": [
+        "まず{洗剤|せんざい}を{入|い}れたバケツを{用意|ようい}しておく（{養生|ようじょう}マットの{上|うえ}）。",
+        "シャンパー{全体|ぜんたい}に{洗剤|せんざい}をふくませて。",
+        "ガラスの{四隅|よすみ}から{洗剤|せんざい}を{塗布|とふ}していこう。",
+        "つづけて{中央|ちゅうおう}に{塗|ぬ}り{残|のこ}しのないように{塗布|とふ}するんだ。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kaca 3 tahap: oles sabun (washer) → hilangkan kotoran (squeegee) → lap basah. Oles dari 4 sudut, lalu tengah tanpa terlewat.",
+      "points": [
+       "Window washer = oles sabun.",
+       "Squeegee = angkat kotoran.",
+       "Lap basah bingkai dan lantai.",
+       "4 sudut dulu."
+      ],
+      "avoid": [
+       "Ada bagian tengah yang belum teroles."
+      ],
+      "exam": [
+       "3 tahap membersihkan kaca.",
+       "Fungsi window washer dan squeegee."
+      ]
+     },
+     "jp": {
+      "core": "ガラスは3{工程|こうてい}：{洗剤|せんざい}{塗布|とふ}（シャンパー）→{汚|よご}れ{除去|じょきょ}（スクイジー）→{水拭|みずぶ}き。",
+      "points": [
+       "シャンパー＝{洗剤|せんざい}を{塗|ぬ}る",
+       "スクイジー＝{汚|よご}れを{除去|じょきょ}",
+       "フレームと{床|ゆか}を{水拭|みずぶ}き",
+       "{四隅|よすみ}から"
+      ],
+      "avoid": [
+       "{中央|ちゅうおう}の{塗|ぬ}り{残|のこ}し"
+      ],
+      "exam": [
+       "ガラス{清掃|せいそう}の3{工程|こうてい}",
+       "シャンパーとスクイジーの{役割|やくわり}"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s10",
+    "no": 10,
+    "title": {
+     "id": "Membersihkan Kaca: Menghilangkan Kotoran (Squeegee)",
+     "jp": "ガラス{清掃|せいそう}：{汚|よご}れの{除去|じょきょ}（スクイジー）"
+    },
+    "pages": [
+     77,
+     78
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "② Menghilangkan kotoran"
+      },
+      {
+       "ul": [
+        "Selanjutnya ambil window cleaner (squeegee) dan kain lap. Pegang erat pegangan window cleaner.",
+        "Lap bagian atas kaca (tekan squeegee ke bagian atas kaca).",
+        "Tarik lurus ke bawah sambil dimiringkan sedikit; sambil menyesuaikan sudutnya, tarik ke bawah sekaligus hingga 20 cm.",
+        "Setelah ditarik ke bawah, sisa sabun harus segera dibersihkan dengan lap (lap dengan menggerakkan lapnya).",
+        "Ulangi langkah tersebut dan terus bersihkan kaca dari ujung ke ujung. Tumpuk 1/4 lebar window cleaner. Sisakan sekitar 20 cm di bagian bawah."
+       ]
+      },
+      {
+       "h": "Bagian bawah kaca"
+      },
+      {
+       "ul": [
+        "Selanjutnya, tarik bagian bawah kaca ke arah samping. Supaya kotoran tidak menetes, tahan dengan lap.",
+        "Terakhir untuk bagian yang tersisa, bersihkan dengan bentuk kipas tangan. Tahan dengan lap."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "② {汚|よご}れの{除去|じょきょ}"
+      },
+      {
+       "ul": [
+        "{次|つぎ}はスクイジーとタオルに{持|も}ち{替|か}えて。グリップをしっかりにぎる。",
+        "ガラスの{上部|じょうぶ}に{押|お}し{当|あ}てる。",
+        "すこし{傾|かたむ}けながらまっすぐに{引|ひ}き{降|お}ろそう。{角度|かくど}を{固定|こてい}しながら{下|した}から20cmのところまで{一気|いっき}に{引|ひ}き{降|お}ろすんだ。",
+        "{一回引|いっかいひ}くごとにタオルで{洗剤|せんざい}を{拭|ふ}き{取|と}らないといけないよ（タオルを{動|うご}かして{拭|ふ}く）。",
+        "これを{繰|く}り{返|かえ}してガラスの{端|はし}から{端|はし}までキレイにしていこう。スクイジー{幅|はば}を1/4{程|ほど}{重|かさ}ねる。20cmほど{残|のこ}す。"
+       ]
+      },
+      {
+       "h": "ガラスの{下部|かぶ}"
+      },
+      {
+       "ul": [
+        "{次|つぎ}にガラスの{下部|かぶ}を{横引|よこび}きして。{汚|よご}れを{床|ゆか}へ{落|お}とさないようにタオルで{受|う}ける。",
+        "{最後|さいご}に{残|のこ}った{部分|ぶぶん}を{扇型|おうぎがた}に{引|ひ}くんだ。タオルで{受|う}ける。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Squeegee: tarik lurus ke bawah 20 cm sekaligus, lap sabun tiap tarikan, tumpuk 1/4 lebar. Bawah: tarik ke samping, tahan dengan lap.",
+      "points": [
+       "Pegang erat.",
+       "Mulai dari atas kaca.",
+       "Tumpuk 1/4 lebar squeegee.",
+       "Sisakan 20 cm di bawah, tarik ke samping."
+      ],
+      "avoid": [
+       "Membiarkan sabun menetes ke lantai.",
+       "Tidak melap squeegee tiap tarikan."
+      ],
+      "exam": [
+       "Tumpukan 1/4.",
+       "Jarak tarik 20 cm."
+      ]
+     },
+     "jp": {
+      "core": "スクイジーは{上|うえ}から{下|した}へ。20cmずつ。{一回|いっかい}ごとにタオルで{拭|ふ}く。{幅|はば}は1/4{重|かさ}ねる。",
+      "points": [
+       "グリップをしっかり",
+       "{上部|じょうぶ}から{開始|かいし}",
+       "スクイジー{幅|はば}1/4{重|かさ}ね",
+       "{下|した}20cmは{横引|よこび}き"
+      ],
+      "avoid": [
+       "{汚|よご}れを{床|ゆか}に{落|お}とす",
+       "{拭|ふ}かずに{続|つづ}ける"
+      ],
+      "exam": [
+       "{重|かさ}ねる{幅|はば}（1/4）",
+       "{一度|いちど}に{引|ひ}く{距離|きょり}（20cm）"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s11",
+    "no": 11,
+    "title": {
+     "id": "Membersihkan Kaca: Lap Basah dan Penutup",
+     "jp": "ガラス{清掃|せいそう}：{水拭|みずぶ}きと{仕上|しあ}げ"
+    },
+    "pages": [
+     78,
+     80
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "③ Lap basah"
+      },
+      {
+       "ul": [
+        "Siapkan lap yang sudah diperas. Lipat lap sesuai dengan lebar bingkai.",
+        "Lap bingkai jendela mengikuti urutan ①〜④; lipat lap ke bagian yang bersih setiap selesai membersihkan satu bagian. Jangan sampai menyentuh kaca.",
+        "Setelah selesai, cek apakah ada sisa sabun atau tidak. Kotoran mudah menumpuk di bagian tertentu.",
+        "Bersihkan lantai dengan lap basah (zig-zag); lap kemudian lipat ke bagian yang masih bersih.",
+        "Bereskan peralatan, kemudian pekerjaan selesai."
+       ]
+      },
+      {
+       "h": "Penutup"
+      },
+      {
+       "p": "Pekerjaan kita bukan hanya membersihkan saja; kita juga harus membuat lingkungan bersih dengan aman untuk memberikan kenyamanan kepada orang-orang. Mulai sekarang kita berjuang bersama sebagai Cleaning Service."
+      }
+     ],
+     "jp": [
+      {
+       "h": "③ {水拭|みずぶ}き"
+      },
+      {
+       "ul": [
+        "{硬|かた}く{絞|しぼ}ったタオルを{用意|ようい}して。タオルをフレームの{幅|はば}に{折|お}る。",
+        "{窓|まど}のフレームを{拭|ふ}きあげよう。①〜④ごとにタオルを{新|あたら}しい{面|めん}に{折|お}り{返|かえ}す。ガラスに{触|ふ}れないように。",
+        "{終|お}わったら{洗剤|せんざい}や{汚|よご}れの{拭|ふ}き{残|のこ}しがないか{確認|かくにん}しよう。{汚|よご}れが{残|のこ}りやすい{所|ところ}がある。",
+        "{床|ゆか}をタオルで{水拭|みずぶ}きして（ひと{拭|ふ}きしたらタオルを{折|お}り{返|かえ}す）。",
+        "{資器材|しきざい}の{片付|かたづ}けをしたら{作業完了|さぎょうかんりょう}だよ。"
+       ]
+      },
+      {
+       "h": "おわりに"
+      },
+      {
+       "p": "{私|わたし}たちのお{仕事|しごと}はただキレイにするだけではなく{安全|あんぜん}で{清潔|せいけつ}な{環境|かんきょう}を{作|つく}り{出|だ}すことで{人々|ひとびと}に{快適|かいてき}を{与|あた}えることができるんだ。これから{一緒|いっしょ}に{頑張|がんば}っていこうね！"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Lap basah bingkai ①〜④ dan lantai, balik lap tiap bagian, cek sisa sabun, bereskan peralatan.",
+      "points": [
+       "Lipat lap sesuai lebar bingkai.",
+       "Jangan sentuh kaca.",
+       "Cek sisa sabun.",
+       "Lap lantai zig-zag."
+      ],
+      "avoid": [
+       "Meninggalkan sisa sabun atau noda."
+      ],
+      "exam": [
+       "Urutan akhir pembersihan kaca."
+      ]
+     },
+     "jp": {
+      "core": "フレームと{床|ゆか}を{水拭|みずぶ}き、{折|お}り{返|かえ}し、{拭|ふ}き{残|のこ}しを{確認|かくにん}、{片付|かたづ}け。",
+      "points": [
+       "タオルをフレーム{幅|はば}に{折|お}る",
+       "ガラスに{触|ふ}れない",
+       "{拭|ふ}き{残|のこ}しを{確認|かくにん}",
+       "{床|ゆか}を{水拭|みずぶ}き"
+      ],
+      "avoid": [
+       "{洗剤|せんざい}や{汚|よご}れの{拭|ふ}き{残|のこ}し"
+      ],
+      "exam": [
+       "ガラス{清掃|せいそう}の{最後|さいご}の{手順|てじゅん}"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s12",
+    "no": 12,
+    "title": {
+     "id": "Daftar Peralatan Cleaning Service",
+     "jp": "ビルクリーニングに{使用|しよう}する{資器材|しきざい}リスト"
+    },
+    "pages": [
+     81,
+     84
+    ],
+    "full": {
+     "id": [
+      {
+       "note": "Halaman 83–85: halaman penutup buku dan keterangan penerbit (JBMA)."
+      },
+      {
+       "h": "Peralatan dasar (hal. 81)"
+      },
+      {
+       "ul": [
+        "Papan Tanda (Floor Sign); Sapu Ruangan; Sapu Ijuk; Pengki (Serokan); Dust Cloth.",
+        "Dust Cloth Tipe Pel; Pel Basah (sekali pakai); Pel Bentuk T; Pel Kering; Pel Bentuk Datar.",
+        "Sikat Dek; alat penarik air lantai (squeegee); Pengki untuk air; window washer; window cleaner.",
+        "Lap; lap serat ultrafine; Sikat Rambut; Ember; Alat Pemeras Kain Pel."
+       ]
+      },
+      {
+       "h": "Mesin dan perlengkapan lain (hal. 82)"
+      },
+      {
+       "ul": [
+        "Perangkat Pencegah Listrik Bocor atau Arus Pendek; Penyedot Debu Tipe Pod, Upright, Handheld, Wet.",
+        "Floor Pad; Polisher; Pembersih Lantai Otomatis; Extractor; Mesin Pembersih Bertekanan Tinggi.",
+        "Kipas Pengering; Hand Pad; Pembersih Debu Elektrik; Sarung Tangan Pelindung; Scraper.",
+        "Gelas Pengukur; Alat Sedot WC; Keranjang Peralatan; Keranjang Limbah; Troli Dorong."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "note": "83〜85ページ：{本|ほん}の{最後|さいご}のページと{発行|はっこう}{情報|じょうほう}（JBMA）。"
+      },
+      {
+       "h": "{基本|きほん}の{資器材|しきざい}（P.81）"
+      },
+      {
+       "ul": [
+        "{作業標示板|さぎょうひょうじばん}（フロアサイン）、{自在|じざい}ぼうき、シダぼうき、{文化|ぶんか}ちり{取|と}り、ダストクロス。",
+        "ダストクロス{型|がた}モップ、{湿式|しっしき}モップ（ワンタッチモップ）、T{字型|じがた}モップ、{乾式|かんしき}モップ、フラット{型|がた}モップ。",
+        "デッキブラシ、フロアスクイジー、{汚水取|おすいと}り、シャンパー、ウインドスクイジー。",
+        "タオル、{超極細繊維|ちょうごくさいせんい}クロス、{毛|け}かき、バケツ、モップ{絞|しぼ}り{器|き}。"
+       ]
+      },
+      {
+       "h": "{機械|きかい}とその{他|ほか}（P.82）"
+      },
+      {
+       "ul": [
+        "{漏電|ろうでん}・{過電流防止装置|かでんりゅうぼうしそうち}、{真空掃除機|しんくうそうじき}（ポッド{型|がた}・アップライト{型|がた}）、ハンディバキューム、ウエットバキューム。",
+        "フロアパッド、ポリッシャー、{自動床洗浄機|じどうゆかせんじょうき}、エクストラクター、{高圧洗浄機|こうあつせんじょうき}。",
+        "{送風機|そうふうき}、ハンドパッド、{静電気|せいでんき}ほこり{取|と}り、{保護手袋|ほごてぶくろ}、スクレーパー。",
+        "{計量|けいりょう}カップ、プランジャー、{作業|さぎょう}カート、{廃棄物|はいきぶつ}コレクター、{手押|ておし}し{台車|だいしゃ}。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Daftar peralatan Cleaning Service: alat dasar, mesin, dan perlengkapan penunjang.",
+      "points": [
+       "Pel: dust cloth, basah, T, kering, datar.",
+       "Penyedot debu: Pod, Upright, Handheld, Wet.",
+       "Mesin: polisher, pembersih otomatis, extractor, high pressure."
+      ],
+      "avoid": [],
+      "exam": [
+       "Nama alat dan fungsinya."
+      ]
+     },
+     "jp": {
+      "core": "ビルクリーニングで{使|つか}う{資器材|しきざい}の{一覧|いちらん}。",
+      "points": [
+       "モップ{類|るい}",
+       "{掃除機|そうじき}の{種類|しゅるい}",
+       "ポリッシャー・{自動床洗浄機|じどうゆかせんじょうき}など"
+      ],
+      "avoid": [],
+      "exam": [
+       "{道具|どうぐ}の{名前|なまえ}と{用途|ようと}"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

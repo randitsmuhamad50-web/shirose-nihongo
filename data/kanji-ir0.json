@@ -1,0 +1,2901 @@
+[
+{
+"bab": 1,
+"n": 1,
+"k": "先",
+"on": "セン",
+"kun": "さき、ま.ず",
+"a": "sebelum",
+"c": [
+{
+"k": "お先に失礼します",
+"r": "おさきにしつれいします",
+"a": "Permisi, saya duluan."
+},
+{
+"k": "〜先生",
+"r": "〜せんせい",
+"a": "〜 sensee (kata sapaan untuk guru)"
+}
+]
+},
+{
+"bab": 2,
+"n": 2,
+"k": "少",
+"on": "ショウ",
+"kun": "すく.ない、すこ.し",
+"a": "sedikit",
+"c": [
+{
+"k": "もう少し",
+"r": "もうすこし",
+"a": "Sedikit lagi"
+}
+]
+},
+{
+"bab": 2,
+"n": 3,
+"k": "名",
+"on": "メイ、ミョウ",
+"kun": "な、-な",
+"a": "nama",
+"c": [
+{
+"k": "名前",
+"r": "なまえ",
+"a": "Nama"
+},
+{
+"k": "名前／お名前",
+"r": "なまえ",
+"a": "Nama; nama (orang lain)"
+}
+]
+},
+{
+"bab": 2,
+"n": 4,
+"k": "前",
+"on": "ゼン",
+"kun": "まえ、-まえ",
+"a": "sisi depan; depan ini",
+"c": [
+{
+"k": "名前",
+"r": "なまえ",
+"a": "Nama"
+},
+{
+"k": "名前／お名前",
+"r": "なまえ",
+"a": "Nama; nama (orang lain)"
+},
+{
+"k": "午前",
+"r": "ごぜん",
+"a": "A.m. (Ante Meridiem: 00:00 – 11:59)"
+},
+{
+"k": "駅前",
+"r": "えきまえ",
+"a": "Di depan stasiun"
+}
+]
+},
+{
+"bab": 2,
+"n": 5,
+"k": "屋",
+"on": "オク",
+"kun": "や",
+"a": "rumah, atap rumah; pintu tanda",
+"c": [
+{
+"k": "部屋",
+"r": "へや",
+"a": "Kamar; ruangan"
+}
+]
+},
+{
+"bab": 2,
+"n": 6,
+"k": "言",
+"on": "ゲン、ゴン",
+"kun": "い.う、こと",
+"a": "mengatakan",
+"c": [
+{
+"k": "言ってください",
+"r": "いってください",
+"a": "Tolong katakan/ucapkan."
+}
+]
+},
+{
+"bab": 2,
+"n": 7,
+"k": "見",
+"on": "ケン",
+"kun": "み.る、み.える、み.せる",
+"a": "melihat",
+"c": [
+{
+"k": "見せてください",
+"r": "みせてください",
+"a": "Tolong tunjukkan."
+}
+]
+},
+{
+"bab": 2,
+"n": 8,
+"k": "書",
+"on": "ショ",
+"kun": "か.く、-が.き、-がき",
+"a": "menulis",
+"c": [
+{
+"k": "書いてください",
+"r": "かいてください",
+"a": "Tulis. Tolong"
+},
+{
+"k": "読書",
+"r": "どくしょ",
+"a": "Baca"
+}
+]
+},
+{
+"bab": 3,
+"n": 9,
+"k": "国",
+"on": "コク",
+"kun": "くに",
+"a": "negara",
+"c": [
+{
+"k": "韓国",
+"r": "かんこく",
+"a": "Korea Selatan"
+},
+{
+"k": "国／お国",
+"r": "くに",
+"a": "Negara; negara (orang lain)"
+}
+]
+},
+{
+"bab": 3,
+"n": 10,
+"k": "来",
+"on": "ライ、タイ",
+"kun": "く.る、きた.る、きた.す、き.たす、き.たる、き、こ",
+"a": "datang",
+"c": [
+{
+"k": "〜から来ました",
+"r": "〜からきました",
+"a": "Berasal dari 〜/ datang dari 〜"
+},
+{
+"k": "来る／来ます",
+"r": "くる",
+"a": "Datang"
+},
+{
+"k": "持って来て（ください）",
+"r": "もってきて",
+"a": "(Tolong) bawakan ke sini."
+}
+]
+},
+{
+"bab": 3,
+"n": 11,
+"k": "私",
+"on": "シ",
+"kun": "わたくし、わたし",
+"a": "pribadi pribadi; saya",
+"c": [
+{
+"k": "私鉄",
+"r": "してつ",
+"a": "private railway"
+},
+{
+"k": "私有",
+"r": "しゆう",
+"a": "private ownership"
+},
+{
+"k": "私立",
+"r": "しりつ",
+"a": "private (establishment)"
+}
+]
+},
+{
+"bab": 3,
+"n": 12,
+"k": "出",
+"on": "シュツ、スイ",
+"kun": "で.る、-で、だ.す、-だ.す、い.でる、い.だす",
+"a": "pintu keluar",
+"c": [
+{
+"k": "出身／ご出身",
+"r": "しゅっしん",
+"a": "Daerah asal; daerah asal (orang lain)"
+}
+]
+},
+{
+"bab": 3,
+"n": 13,
+"k": "身",
+"on": "シン",
+"kun": "み",
+"a": "tubuh",
+"c": [
+{
+"k": "出身／ご出身",
+"r": "しゅっしん",
+"a": "Daerah asal; daerah asal (orang lain)"
+},
+{
+"k": "刺身",
+"r": "さしみ",
+"a": "Sashimi (irisan ikan mentah)"
+}
+]
+},
+{
+"bab": 4,
+"n": 14,
+"k": "父",
+"on": "フ",
+"kun": "ちち",
+"a": "ayah",
+"c": [
+{
+"k": "叔父",
+"r": "おじ",
+"a": "uncle"
+},
+{
+"k": "父親",
+"r": "ちちおや",
+"a": "father"
+},
+{
+"k": "父母",
+"r": "ふぼ",
+"a": "father and mother; parents"
+}
+]
+},
+{
+"bab": 4,
+"n": 15,
+"k": "母",
+"on": "ボ",
+"kun": "はは、も",
+"a": "ibu",
+"c": [
+{
+"k": "叔母",
+"r": "おば",
+"a": "aunt"
+},
+{
+"k": "母親",
+"r": "ははおや",
+"a": "mother"
+},
+{
+"k": "母校",
+"r": "ぼこう",
+"a": "alma mater"
+}
+]
+},
+{
+"bab": 4,
+"n": 16,
+"k": "兄",
+"on": "ケイ、キョウ",
+"kun": "あに",
+"a": "anh trai",
+"c": [
+{
+"k": "従兄弟",
+"r": "いとこ",
+"a": "cousin (male)"
+},
+{
+"k": "兄弟",
+"r": "きょうだい",
+"a": "siblings; brothers and sisters"
+},
+{
+"k": "お兄さん",
+"r": "おにいさん",
+"a": "(1) older brother; elder brother (2) (vocative) young man; buddy; fella; laddie"
+}
+]
+},
+{
+"bab": 4,
+"n": 17,
+"k": "姉",
+"on": "シ",
+"kun": "あね、はは",
+"a": "kakak perempuan",
+"c": [
+{
+"k": "従姉妹",
+"r": "いとこ",
+"a": "cousin (female)"
+},
+{
+"k": "姉妹",
+"r": "しまい",
+"a": "sisters"
+},
+{
+"k": "お姉さん",
+"r": "おねえさん",
+"a": "(1) elder sister (2) (vocative) young lady (3) miss (referring to a waitress, etc.) (4) ma'am (used by geisha to refer to their superiors)"
+}
+]
+},
+{
+"bab": 4,
+"n": 18,
+"k": "弟",
+"on": "テイ、ダイ、デ",
+"kun": "おとうと",
+"a": "em trai",
+"c": [
+{
+"k": "従兄弟",
+"r": "いとこ",
+"a": "cousin (male)"
+},
+{
+"k": "兄弟",
+"r": "きょうだい",
+"a": "siblings; brothers and sisters"
+},
+{
+"k": "弟子",
+"r": "でし",
+"a": "pupil; disciple; adherent; follower; apprentice; young orang; teacher's student-helper"
+}
+]
+},
+{
+"bab": 4,
+"n": 19,
+"k": "妹",
+"on": "マイ",
+"kun": "いもうと",
+"a": "em gái",
+"c": [
+{
+"k": "従姉妹",
+"r": "いとこ",
+"a": "cousin (female)"
+},
+{
+"k": "姉妹",
+"r": "しまい",
+"a": "sisters"
+}
+]
+},
+{
+"bab": 4,
+"n": 20,
+"k": "子",
+"on": "シ、ス、ツ",
+"kun": "こ、-こ、ね",
+"a": "anak",
+"c": [
+{
+"k": "子ども",
+"r": "こども",
+"a": "Anak"
+}
+]
+},
+{
+"bab": 4,
+"n": 21,
+"k": "生",
+"on": "セイ、ショウ",
+"kun": "い.きる、い.かす、い.ける、う.まれる、うま.れる、う.まれ、うまれ、う.む、お.う、は.える、は.やす、き、なま、なま-、な.る、な.す、む.す、-う",
+"a": "kehidupan",
+"c": [
+{
+"k": "〜先生",
+"r": "〜せんせい",
+"a": "〜 sensee (kata sapaan untuk guru)"
+}
+]
+},
+{
+"bab": 4,
+"n": 22,
+"k": "紹",
+"on": "ショウ",
+"kun": "",
+"a": "dunia memperkenalkan; rencana mewarisi",
+"c": [
+{
+"k": "紹介する",
+"r": "しょうかいする",
+"a": "Memperkenalkan"
+},
+{
+"k": "紹介します",
+"r": "しょうかいします",
+"a": "Akan saya perkenalkan."
+}
+]
+},
+{
+"bab": 4,
+"n": 23,
+"k": "介",
+"on": "カイ",
+"kun": "",
+"a": "di tengah, bibir dunia; dunia memperkenalkan; jenis ada kulit",
+"c": [
+{
+"k": "紹介する",
+"r": "しょうかいする",
+"a": "Memperkenalkan"
+},
+{
+"k": "紹介します",
+"r": "しょうかいします",
+"a": "Akan saya perkenalkan."
+}
+]
+},
+{
+"bab": 4,
+"n": 24,
+"k": "家",
+"on": "カ、ケ",
+"kun": "いえ、や、うち",
+"a": "rumah; keluarga halaman; rumah khusus mata pelajaran",
+"c": [
+{
+"k": "家族／ご家族",
+"r": "かぞく",
+"a": "Keluarga; keluarga (orang lain)"
+},
+{
+"k": "家族",
+"r": "かぞく",
+"a": "Keluarga"
+}
+]
+},
+{
+"bab": 4,
+"n": 25,
+"k": "族",
+"on": "ゾク",
+"kun": "",
+"a": "aliran mereka, suku orang",
+"c": [
+{
+"k": "家族／ご家族",
+"r": "かぞく",
+"a": "Keluarga; keluarga (orang lain)"
+},
+{
+"k": "家族",
+"r": "かぞく",
+"a": "Keluarga"
+}
+]
+},
+{
+"bab": 4,
+"n": 26,
+"k": "何",
+"on": "カ",
+"kun": "なに、なん、なに-、なん-",
+"a": "buah apa, mana",
+"c": [
+{
+"k": "何歳",
+"r": "なんさい",
+"a": "Berapa usianya?"
+},
+{
+"k": "何時",
+"r": "なんじ",
+"a": "Jam berapa"
+},
+{
+"k": "何番線",
+"r": "なんばんせん",
+"a": "Peron berapa"
+},
+{
+"k": "何も",
+"r": "なにも",
+"a": "Apa pun"
+}
+]
+},
+{
+"bab": 5,
+"n": 27,
+"k": "魚",
+"on": "ギョ",
+"kun": "うお、さかな、-ざかな",
+"a": "con cá",
+"c": [
+{
+"k": "金魚",
+"r": "きんぎょ",
+"a": "goldfish"
+},
+{
+"k": "海鷂魚",
+"r": "えい",
+"a": "ray (fish); stingray"
+}
+]
+},
+{
+"bab": 5,
+"n": 28,
+"k": "肉",
+"on": "ニク",
+"kun": "しし",
+"a": "daging",
+"c": [
+{
+"k": "牛肉",
+"r": "ぎゅうにく",
+"a": "beef"
+},
+{
+"k": "豚肉",
+"r": "ぶたにく",
+"a": "pork"
+},
+{
+"k": "鶏肉",
+"r": "けいにく",
+"a": "chicken meat"
+}
+]
+},
+{
+"bab": 5,
+"n": 29,
+"k": "野",
+"on": "ヤ、ショ",
+"kun": "の、の-",
+"a": "sayap keping; hoang dã; rakyat biasa",
+"c": [
+{
+"k": "野菜",
+"r": "やさい",
+"a": "Sayuran"
+},
+{
+"k": "野外",
+"r": "やがい",
+"a": "Luar ruangan; tempa terbuka"
+}
+]
+},
+{
+"bab": 5,
+"n": 30,
+"k": "菜",
+"on": "サイ",
+"kun": "な",
+"a": "rau; món makan kèm",
+"c": [
+{
+"k": "野菜",
+"r": "やさい",
+"a": "Sayuran"
+}
+]
+},
+{
+"bab": 5,
+"n": 31,
+"k": "好",
+"on": "コウ",
+"kun": "この.む、す.く、よ.い、い.い",
+"a": "thích, menyukai; baik indah",
+"c": [
+{
+"k": "好きです",
+"r": "すきです",
+"a": "Saya suka."
+},
+{
+"k": "大好き（な）",
+"r": "だいすき（な）",
+"a": "Suka sekali"
+}
+]
+},
+{
+"bab": 5,
+"n": 32,
+"k": "刺",
+"on": "シ",
+"kun": "さ.す、さ.さる、さ.し、さし、とげ",
+"a": "menusuk, chích; gai; nama kartu",
+"c": [
+{
+"k": "刺身",
+"r": "さしみ",
+"a": "Sashimi (irisan ikan mentah)"
+}
+]
+},
+{
+"bab": 5,
+"n": 33,
+"k": "天",
+"on": "テン",
+"kun": "あまつ、あめ、あま-",
+"a": "langit, labu langit",
+"c": [
+{
+"k": "天ぷら",
+"r": "てんぷら",
+"a": "Tempura"
+}
+]
+},
+{
+"bab": 5,
+"n": 34,
+"k": "牛",
+"on": "ギュウ",
+"kun": "うし",
+"a": "ekor sapi",
+"c": [
+{
+"k": "牛丼",
+"r": "ぎゅうどん",
+"a": "Nasi daging sapi (beef bowl)"
+}
+]
+},
+{
+"bab": 5,
+"n": 35,
+"k": "納",
+"on": "ノウ、ナッ、ナ、ナン、トウ",
+"kun": "おさ.める、-おさ.める、おさ.まる",
+"a": "menyerahkan, mempersembahkan naik; menyimpan menjaga",
+"c": [
+{
+"k": "納豆",
+"r": "なっとう",
+"a": "Natto (kedelai fermentasi)"
+}
+]
+},
+{
+"bab": 5,
+"n": 36,
+"k": "豆",
+"on": "トウ、ズ",
+"kun": "まめ、まめ-",
+"a": "kacang",
+"c": [
+{
+"k": "納豆",
+"r": "なっとう",
+"a": "Natto (kedelai fermentasi)"
+}
+]
+},
+{
+"bab": 5,
+"n": 37,
+"k": "梅",
+"on": "バイ",
+"kun": "うめ",
+"a": "batang mimpi, bunga besok",
+"c": [
+{
+"k": "梅干し",
+"r": "うめぼし",
+"a": "Umeboshi (acar buah prem)"
+}
+]
+},
+{
+"bab": 5,
+"n": 38,
+"k": "干",
+"on": "カン",
+"kun": "ほ.す、ほ.し-、-ぼ.し、ひ.る",
+"a": "kering, puap kering; can persiapan",
+"c": [
+{
+"k": "梅干し",
+"r": "うめぼし",
+"a": "Umeboshi (acar buah prem)"
+}
+]
+},
+{
+"bab": 5,
+"n": 39,
+"k": "食",
+"on": "ショク、ジキ",
+"kun": "く.う、く.らう、た.べる、は.む",
+"a": "makan",
+"c": [
+{
+"k": "食べ物",
+"r": "たべもの",
+"a": "Makanan"
+},
+{
+"k": "食堂",
+"r": "しょくどう",
+"a": "Ruang makan; kantin"
+},
+{
+"k": "食堂",
+"r": "しょくどう",
+"a": "Kantin"
+},
+{
+"k": "ご飯を食べる／食べます",
+"r": "ごはんをたべる",
+"a": "Makan"
+}
+]
+},
+{
+"bab": 5,
+"n": 40,
+"k": "物",
+"on": "ブツ、モツ",
+"kun": "もの、もの-",
+"a": "benda; hal",
+"c": [
+{
+"k": "食べ物",
+"r": "たべもの",
+"a": "Makanan"
+},
+{
+"k": "買い物",
+"r": "かいもの",
+"a": "Belanja"
+},
+{
+"k": "飲み物",
+"r": "のみもの",
+"a": "Minuman"
+}
+]
+},
+{
+"bab": 6,
+"n": 41,
+"k": "品",
+"on": "ヒン、ホン",
+"kun": "しな",
+"a": "barang barang; produk zat, produk harga",
+"c": [
+{
+"k": "単品",
+"r": "たんぴん",
+"a": "Menu satuan"
+},
+{
+"k": "上映作品",
+"r": "じょうえいさくひん",
+"a": "Film yang ditayangkan"
+}
+]
+},
+{
+"bab": 6,
+"n": 42,
+"k": "茶",
+"on": "チャ、サ",
+"kun": "",
+"a": "trà",
+"c": [
+{
+"k": "ウーロン茶",
+"r": "ウーロンちゃ",
+"a": "Teh oolong"
+},
+{
+"k": "お茶をいれる／いれます",
+"r": "おちゃをいれる",
+"a": "Membuat/menyeduh teh"
+}
+]
+},
+{
+"bab": 7,
+"n": 43,
+"k": "玄",
+"on": "ゲン",
+"kun": "くろ、くろ.い",
+"a": "misterius rahasia, dalam tertutup; hitam pekat",
+"c": [
+{
+"k": "玄関",
+"r": "げんかん",
+"a": "Pintu/jalan masuk"
+}
+]
+},
+{
+"bab": 7,
+"n": 44,
+"k": "風",
+"on": "フウ、フ",
+"kun": "かぜ、かざ-、-かぜ",
+"a": "angin",
+"c": [
+{
+"k": "お風呂",
+"r": "おふろ",
+"a": "Kamar mandi"
+}
+]
+},
+{
+"bab": 7,
+"n": 45,
+"k": "呂",
+"on": "ロ、リョ",
+"kun": "せぼね",
+"a": "tulang hidup; suara hukum",
+"c": [
+{
+"k": "お風呂",
+"r": "おふろ",
+"a": "Kamar mandi"
+}
+]
+},
+{
+"bab": 7,
+"n": 46,
+"k": "階",
+"on": "カイ",
+"kun": "きざはし",
+"a": "lapisan gedung; tingkat thang; giai tingkat",
+"c": [
+{
+"k": "階段",
+"r": "かいだん",
+"a": "Tangga"
+},
+{
+"k": "1 階",
+"r": "いっかい",
+"a": "Lantai satu"
+},
+{
+"k": "2 階",
+"r": "にかい",
+"a": "Lantai dua"
+}
+]
+},
+{
+"bab": 7,
+"n": 47,
+"k": "台",
+"on": "ダイ、タイ",
+"kun": "うてな、われ、つかさ",
+"a": "buah tahta, kelopak; hitung máy móc",
+"c": [
+{
+"k": "台所",
+"r": "だいどころ",
+"a": "Dapur"
+}
+]
+},
+{
+"bab": 7,
+"n": 48,
+"k": "所",
+"on": "ショ",
+"kun": "ところ、-ところ、どころ、とこ",
+"a": "tempat, tempat",
+"c": [
+{
+"k": "台所",
+"r": "だいどころ",
+"a": "Dapur"
+},
+{
+"k": "喫煙所",
+"r": "きつえんじょ",
+"a": "Ruang merokok; area merokok"
+},
+{
+"k": "場所",
+"r": "ばしょ",
+"a": "Tempat; lokasi"
+}
+]
+},
+{
+"bab": 7,
+"n": 49,
+"k": "間",
+"on": "カン、ケン",
+"kun": "あいだ、ま、あい",
+"a": "sekitar, tengah; curang bertahan",
+"c": [
+{
+"k": "居間",
+"r": "いま",
+"a": "Ruang keluarga; ruang tamu"
+}
+]
+},
+{
+"bab": 7,
+"n": 50,
+"k": "管",
+"on": "カン",
+"kun": "くだ",
+"a": "pipa",
+"c": [
+{
+"k": "管理人室",
+"r": "かんりにんしつ",
+"a": "Kantor/ruang pengawas gedung"
+}
+]
+},
+{
+"bab": 7,
+"n": 51,
+"k": "理",
+"on": "リ",
+"kun": "ことわり",
+"a": "alasan, alasan alasan; menata meletakkan",
+"c": [
+{
+"k": "管理人室",
+"r": "かんりにんしつ",
+"a": "Kantor/ruang pengawas gedung"
+},
+{
+"k": "料理",
+"r": "りょうり",
+"a": "Masak"
+}
+]
+},
+{
+"bab": 7,
+"n": 52,
+"k": "人",
+"on": "ジン、ニン",
+"kun": "ひと、-り、-と",
+"a": "orang",
+"c": [
+{
+"k": "管理人室",
+"r": "かんりにんしつ",
+"a": "Kantor/ruang pengawas gedung"
+}
+]
+},
+{
+"bab": 7,
+"n": 53,
+"k": "室",
+"on": "シツ",
+"kun": "むろ",
+"a": "akar bertahan",
+"c": [
+{
+"k": "管理人室",
+"r": "かんりにんしつ",
+"a": "Kantor/ruang pengawas gedung"
+},
+{
+"k": "更衣室",
+"r": "こういしつ",
+"a": "Ruang ganti"
+},
+{
+"k": "給湯室",
+"r": "きゅうとうしつ",
+"a": "Pantri (pantry)"
+},
+{
+"k": "会議室",
+"r": "かいぎしつ",
+"a": "Ruang rapat"
+}
+]
+},
+{
+"bab": 7,
+"n": 54,
+"k": "堂",
+"on": "ドウ",
+"kun": "",
+"a": "curang rumah besar, sảnh jalan",
+"c": [
+{
+"k": "食堂",
+"r": "しょくどう",
+"a": "Ruang makan; kantin"
+},
+{
+"k": "食堂",
+"r": "しょくどう",
+"a": "Kantin"
+}
+]
+},
+{
+"bab": 7,
+"n": 55,
+"k": "入",
+"on": "ニュウ、ジュ",
+"kun": "い.る、-い.る、-い.り、い.れる、-い.れ、はい.る",
+"a": "masuk",
+"c": [
+{
+"k": "入る／入ります",
+"r": "はいる",
+"a": "Masuk"
+},
+{
+"k": "入ってください",
+"r": "はいってください",
+"a": "Silakan masuk."
+},
+{
+"k": "入場料",
+"r": "にゅうじょうりょう",
+"a": "HTM (harga tiket masuk)"
+}
+]
+},
+{
+"bab": 7,
+"n": 56,
+"k": "脱",
+"on": "ダツ",
+"kun": "ぬ.ぐ、ぬ.げる",
+"a": "melepas keluar, thoát lepas dari; membuang sót",
+"c": [
+{
+"k": "脱ぐ／脱ぎます",
+"r": "ぬぐ",
+"a": "Melepas"
+}
+]
+},
+{
+"bab": 7,
+"n": 57,
+"k": "飯",
+"on": "ハン",
+"kun": "めし",
+"a": "nasi; hidangan makan",
+"c": [
+{
+"k": "ご飯",
+"r": "ごはん",
+"a": "Makanan"
+},
+{
+"k": "ご飯を食べる／食べます",
+"r": "ごはんをたべる",
+"a": "Makan"
+},
+{
+"k": "炊飯器",
+"r": "すいはんき",
+"a": "Penanak nasi"
+}
+]
+},
+{
+"bab": 8,
+"n": 58,
+"k": "衣",
+"on": "イ、エ",
+"kun": "ころも、きぬ、-ぎ",
+"a": "baju celana",
+"c": [
+{
+"k": "更衣室",
+"r": "こういしつ",
+"a": "Ruang ganti"
+},
+{
+"k": "浴衣",
+"r": "ゆかた",
+"a": "Yukata (kimono berbahan katun yang digunakan saat musim panas)"
+}
+]
+},
+{
+"bab": 8,
+"n": 59,
+"k": "湯",
+"on": "トウ",
+"kun": "ゆ",
+"a": "air nóng; sungai kecil air nóng",
+"c": [
+{
+"k": "給湯室",
+"r": "きゅうとうしつ",
+"a": "Pantri (pantry)"
+}
+]
+},
+{
+"bab": 8,
+"n": 60,
+"k": "会",
+"on": "カイ、エ",
+"kun": "あ.う、あ.わせる、あつ.まる",
+"a": "bertemu wajah; perkumpulan rapat",
+"c": [
+{
+"k": "会議室",
+"r": "かいぎしつ",
+"a": "Ruang rapat"
+},
+{
+"k": "会場",
+"r": "かいじょう",
+"a": "Tempat acara"
+},
+{
+"k": "映画上映会",
+"r": "えいがじょうえいかい",
+"a": "Pemutaran film"
+},
+{
+"k": "会う／会います",
+"r": "あう",
+"a": "Bertemu"
+}
+]
+},
+{
+"bab": 8,
+"n": 61,
+"k": "喫",
+"on": "キツ",
+"kun": "の.む",
+"a": "makan, minum, hisap; menerima menanggung",
+"c": [
+{
+"k": "喫煙所",
+"r": "きつえんじょ",
+"a": "Ruang merokok; area merokok"
+}
+]
+},
+{
+"bab": 8,
+"n": 62,
+"k": "倉",
+"on": "ソウ",
+"kun": "くら",
+"a": "nhà kho",
+"c": [
+{
+"k": "倉庫",
+"r": "そうこ",
+"a": "Gudang"
+}
+]
+},
+{
+"bab": 8,
+"n": 63,
+"k": "庫",
+"on": "コ、ク",
+"kun": "くら",
+"a": "gudang mengandung",
+"c": [
+{
+"k": "倉庫",
+"r": "そうこ",
+"a": "Gudang"
+}
+]
+},
+{
+"bab": 8,
+"n": 64,
+"k": "着",
+"on": "チャク、ジャク",
+"kun": "き.る、-ぎ、き.せる、-き.せ、つ.く、つ.ける",
+"a": "memakai (baju); datang tempat; hitung kementerian celana baju",
+"c": [
+{
+"k": "着替える／着替えます",
+"r": "きがえる",
+"a": "Berganti pakaian"
+}
+]
+},
+{
+"bab": 8,
+"n": 65,
+"k": "替",
+"on": "タイ",
+"kun": "か.える、か.え-、か.わる",
+"a": "thay dunia, menukar",
+"c": [
+{
+"k": "着替える／着替えます",
+"r": "きがえる",
+"a": "Berganti pakaian"
+}
+]
+},
+{
+"bab": 8,
+"n": 66,
+"k": "合",
+"on": "ゴウ、ガッ、カッ",
+"kun": "あ.う、-あ.う、あ.い、あい-、-あ.い、-あい、あ.わす、あ.わせる、-あ.わせる",
+"a": "cocok lagi, baru saja memutar",
+"c": [
+{
+"k": "打ち合わせをする／します",
+"r": "うちあわせをする",
+"a": "Mengadakan rapat"
+},
+{
+"k": "お問い合わせ",
+"r": "おといあわせ",
+"a": "Pertanyaan"
+}
+]
+},
+{
+"bab": 8,
+"n": 67,
+"k": "男",
+"on": "ダン、ナン",
+"kun": "おとこ、お",
+"a": "laki-laki, anak laki-laki",
+"c": [
+{
+"k": "男性",
+"r": "だんせい",
+"a": "Pria"
+}
+]
+},
+{
+"bab": 9,
+"n": 68,
+"k": "今",
+"on": "コン、キン",
+"kun": "いま",
+"a": "sekarang, kini",
+"c": [
+{
+"k": "今年",
+"r": "ことし",
+"a": "this year"
+},
+{
+"k": "今週",
+"r": "こんしゅう",
+"a": "this week"
+},
+{
+"k": "今月",
+"r": "こんげつ",
+"a": "this bulan"
+}
+]
+},
+{
+"bab": 9,
+"n": 69,
+"k": "時",
+"on": "ジ",
+"kun": "とき、-どき",
+"a": "waktu",
+"c": [
+{
+"k": "何時",
+"r": "なんじ",
+"a": "Jam berapa"
+},
+{
+"k": "〜時",
+"r": "〜じ",
+"a": "Pukul/jam 〜"
+},
+{
+"k": "1 時",
+"r": "いちじ",
+"a": "Pukul satu; jam satu"
+},
+{
+"k": "2 時",
+"r": "にじ",
+"a": "Pukul dua; jam dua"
+}
+]
+},
+{
+"bab": 9,
+"n": 70,
+"k": "朝",
+"on": "チョウ",
+"kun": "あさ",
+"a": "pagi",
+"c": [
+{
+"k": "今朝",
+"r": "けさ",
+"a": "this morning"
+},
+{
+"k": "毎朝",
+"r": "まいあさ",
+"a": "every morning"
+},
+{
+"k": "朝ご飯",
+"r": "あさごはん",
+"a": "breakcepat"
+}
+]
+},
+{
+"bab": 9,
+"n": 71,
+"k": "昼",
+"on": "チュウ",
+"kun": "ひる",
+"a": "siang hari, tengah hari",
+"c": [
+{
+"k": "昼飯",
+"r": "ひるめし",
+"a": "lunch; midday meal"
+},
+{
+"k": "昼食",
+"r": "ちゅうしょく",
+"a": "(1) lunch; midday meal (2) food served at a tea party (tea ceremony)"
+},
+{
+"k": "昼間",
+"r": "ひるま",
+"a": "daytime; during the hari; time from sunrise until sunset; diurnal period"
+}
+]
+},
+{
+"bab": 9,
+"n": 72,
+"k": "夜",
+"on": "ヤ",
+"kun": "よ、よる",
+"a": "malam",
+"c": [
+{
+"k": "夜中",
+"r": "よなか",
+"a": "midnight; dead of night"
+},
+{
+"k": "夜間",
+"r": "やかん",
+"a": "at night; nighttime"
+},
+{
+"k": "今夜",
+"r": "こんや",
+"a": "this evening; tonight"
+}
+]
+},
+{
+"bab": 9,
+"n": 73,
+"k": "午",
+"on": "ゴ",
+"kun": "うま",
+"a": "siang",
+"c": [
+{
+"k": "午前",
+"r": "ごぜん",
+"a": "A.m. (Ante Meridiem: 00:00 – 11:59)"
+},
+{
+"k": "午後",
+"r": "ごご",
+"a": "P.m. (Post Meridiem: 12:00-23:59)"
+}
+]
+},
+{
+"bab": 9,
+"n": 74,
+"k": "後",
+"on": "ゴ、コウ",
+"kun": "のち、うし.ろ、うしろ、あと、おく.れる",
+"a": "belakang",
+"c": [
+{
+"k": "午後",
+"r": "ごご",
+"a": "P.m. (Post Meridiem: 12:00-23:59)"
+},
+{
+"k": "後ろ",
+"r": "うしろ",
+"a": "Belakang"
+}
+]
+},
+{
+"bab": 9,
+"n": 75,
+"k": "分",
+"on": "ブン、フン、ブ",
+"kun": "わ.ける、わ.け、わ.かれる、わ.かる、わ.かつ",
+"a": "membagi; menit; bagian; memahami",
+"c": [
+{
+"k": "〜分",
+"r": "〜ふん",
+"a": "〜 menit (menunjukkan waktu)"
+},
+{
+"k": "1 5分",
+"r": "じゅうごふん",
+"a": "〜 :15 / 〜 lewat seperempat"
+}
+]
+},
+{
+"bab": 10,
+"n": 76,
+"k": "並",
+"on": "ヘイ、ホウ",
+"kun": "な.み、なみ、なら.べる、なら.ぶ、なら.びに",
+"a": "menyusun barang, sánh ngang; bersama, và",
+"c": [
+{
+"k": "並べて（ください）",
+"r": "ならべて（ください）",
+"a": "(Tolong) susun."
+}
+]
+},
+{
+"bab": 10,
+"n": 77,
+"k": "片",
+"on": "ヘン",
+"kun": "かた-、かた",
+"a": "satu samping; keping, lembar",
+"c": [
+{
+"k": "片付けて（ください）",
+"r": "かたづけて（ください）",
+"a": "(Tolong) rapikan."
+}
+]
+},
+{
+"bab": 10,
+"n": 78,
+"k": "捨",
+"on": "シャ",
+"kun": "す.てる",
+"a": "membuang membuang, kata membuang",
+"c": [
+{
+"k": "捨てて（ください）",
+"r": "すてて（ください）",
+"a": "(Tolong) buang."
+}
+]
+},
+{
+"bab": 10,
+"n": 79,
+"k": "持",
+"on": "ジ",
+"kun": "も.つ、-も.ち、も.てる",
+"a": "memegang, menjaga; ada",
+"c": [
+{
+"k": "持って来て（ください）",
+"r": "もってきて",
+"a": "(Tolong) bawakan ke sini."
+},
+{
+"k": "持って行って（ください）",
+"r": "もっていって",
+"a": "(Tolong) bawakan ke sana."
+}
+]
+},
+{
+"bab": 10,
+"n": 80,
+"k": "行",
+"on": "コウ、ギョウ、アン",
+"kun": "い.く、ゆ.く、-ゆ.き、-ゆき、-い.き、-いき、おこな.う、おこ.なう",
+"a": "pergi; mengerjakan, nyata sekarang; barang jalan",
+"c": [
+{
+"k": "持って行って（ください）",
+"r": "もっていって",
+"a": "(Tolong) bawakan ke sana."
+},
+{
+"k": "飛行機",
+"r": "ひこうき",
+"a": "Pesawat"
+},
+{
+"k": "飲みに行く／飲みに行きます",
+"r": "のみにいく",
+"a": "Pergi minum (minuman beralkohol)"
+},
+{
+"k": "旅行する／旅行します",
+"r": "りょこうする",
+"a": "Berwisata; bepergian"
+}
+]
+},
+{
+"bab": 10,
+"n": 81,
+"k": "手",
+"on": "シュ、ズ",
+"kun": "て、て-、-て、た-",
+"a": "tangan",
+"c": [
+{
+"k": "手伝って（ください）",
+"r": "てつだって（ください）",
+"a": "(Tolong) bantu."
+}
+]
+},
+{
+"bab": 10,
+"n": 82,
+"k": "枚",
+"on": "マイ、バイ",
+"kun": "",
+"a": "hitung benda tipis pipih (lembar, lembar)",
+"c": [
+{
+"k": "〜枚",
+"r": "〜まい",
+"a": "〜 lembar"
+}
+]
+},
+{
+"bab": 10,
+"n": 83,
+"k": "隣",
+"on": "リン",
+"kun": "とな.る、となり",
+"a": "mengkilap hubungan, dekat samping",
+"c": []
+},
+{
+"bab": 11,
+"n": 84,
+"k": "趣",
+"on": "シュ",
+"kun": "おもむき、おもむ.く",
+"a": "menerima hewan, ý orang (sapaan hormat); arah sampai",
+"c": [
+{
+"k": "趣味",
+"r": "しゅみ",
+"a": "Hobi"
+}
+]
+},
+{
+"bab": 11,
+"n": 85,
+"k": "味",
+"on": "ミ",
+"kun": "あじ、あじ.わう",
+"a": "rasa, bau rasa; ý rasa",
+"c": [
+{
+"k": "趣味",
+"r": "しゅみ",
+"a": "Hobi"
+}
+]
+},
+{
+"bab": 11,
+"n": 86,
+"k": "音",
+"on": "オン、イン、-ノン",
+"kun": "おと、ね",
+"a": "suara; bunyi",
+"c": [
+{
+"k": "音楽",
+"r": "おんがく",
+"a": "Musik"
+}
+]
+},
+{
+"bab": 11,
+"n": 87,
+"k": "楽",
+"on": "ガク、ラク、ゴウ",
+"kun": "たの.しい、たの.しむ、この.む",
+"a": "senang nikmat, thoải atap; suara musik",
+"c": [
+{
+"k": "音楽",
+"r": "おんがく",
+"a": "Musik"
+},
+{
+"k": "楽しもう！",
+"r": "たのしもう！",
+"a": "Mari nikmati 〜 ."
+}
+]
+},
+{
+"bab": 11,
+"n": 88,
+"k": "映",
+"on": "エイ",
+"kun": "うつ.る、うつ.す、は.える、-ば.え",
+"a": "memantulkan",
+"c": [
+{
+"k": "映画",
+"r": "えいが",
+"a": "Film"
+},
+{
+"k": "映画上映会",
+"r": "えいがじょうえいかい",
+"a": "Pemutaran film"
+},
+{
+"k": "上映作品",
+"r": "じょうえいさくひん",
+"a": "Film yang ditayangkan"
+}
+]
+},
+{
+"bab": 11,
+"n": 89,
+"k": "画",
+"on": "ガ、カク、エ、カイ",
+"kun": "えが.く、かく.する、かぎ.る、はかりごと、はか.る",
+"a": "lukisan; goresan; merencanakan",
+"c": [
+{
+"k": "映画",
+"r": "えいが",
+"a": "Film"
+},
+{
+"k": "映画上映会",
+"r": "えいがじょうえいかい",
+"a": "Pemutaran film"
+}
+]
+},
+{
+"bab": 11,
+"n": 90,
+"k": "読",
+"on": "ドク、トク、トウ",
+"kun": "よ.む、-よ.み",
+"a": "membaca",
+"c": [
+{
+"k": "読書",
+"r": "どくしょ",
+"a": "Baca"
+}
+]
+},
+{
+"bab": 11,
+"n": 91,
+"k": "買",
+"on": "バイ",
+"kun": "か.う",
+"a": "membeli",
+"c": [
+{
+"k": "買い物",
+"r": "かいもの",
+"a": "Belanja"
+},
+{
+"k": "どこで買えますか？",
+"r": "どこでかえますか？",
+"a": "Di mana saya bisa membelinya?"
+},
+{
+"k": "買う／買います",
+"r": "かう",
+"a": "Membeli"
+}
+]
+},
+{
+"bab": 11,
+"n": 92,
+"k": "料",
+"on": "リョウ",
+"kun": "",
+"a": "benda apakah; uang biaya; apakah menghitung",
+"c": [
+{
+"k": "料理",
+"r": "りょうり",
+"a": "Masak"
+},
+{
+"k": "入場料",
+"r": "にゅうじょうりょう",
+"a": "HTM (harga tiket masuk)"
+}
+]
+},
+{
+"bab": 11,
+"n": 93,
+"k": "水",
+"on": "スイ",
+"kun": "みず、みず-",
+"a": "air",
+"c": [
+{
+"k": "水泳",
+"r": "すいえい",
+"a": "Renang"
+}
+]
+},
+{
+"bab": 11,
+"n": 94,
+"k": "大",
+"on": "ダイ、タイ",
+"kun": "おお-、おお.きい、-おお.いに",
+"a": "besar besar",
+"c": [
+{
+"k": "大好き（な）",
+"r": "だいすき（な）",
+"a": "Suka sekali"
+}
+]
+},
+{
+"bab": 11,
+"n": 95,
+"k": "卓",
+"on": "タク",
+"kun": "",
+"a": "melampaui menonjol, luar biasa melampaui; buah meja",
+"c": [
+{
+"k": "卓球",
+"r": "たっきゅう",
+"a": "Tenis meja"
+}
+]
+},
+{
+"bab": 12,
+"n": 96,
+"k": "夏",
+"on": "カ、ガ、ゲ",
+"kun": "なつ",
+"a": "musim panas",
+"c": [
+{
+"k": "夏祭り",
+"r": "なつまつり",
+"a": "Festival musim panas"
+},
+{
+"k": "夏休み",
+"r": "なつやすみ",
+"a": "Libur musim panas"
+}
+]
+},
+{
+"bab": 12,
+"n": 97,
+"k": "祭",
+"on": "サイ",
+"kun": "まつ.る、まつ.り、まつり",
+"a": "cúng halus; upacara perkumpulan",
+"c": [
+{
+"k": "夏祭り",
+"r": "なつまつり",
+"a": "Festival musim panas"
+}
+]
+},
+{
+"bab": 12,
+"n": 98,
+"k": "場",
+"on": "ジョウ、チョウ",
+"kun": "ば",
+"a": "tempat, tempat; lapangan",
+"c": [
+{
+"k": "会場",
+"r": "かいじょう",
+"a": "Tempat acara"
+},
+{
+"k": "広場",
+"r": "ひろば",
+"a": "Lapangan"
+},
+{
+"k": "入場料",
+"r": "にゅうじょうりょう",
+"a": "HTM (harga tiket masuk)"
+},
+{
+"k": "場所",
+"r": "ばしょ",
+"a": "Tempat; lokasi"
+}
+]
+},
+{
+"bab": 12,
+"n": 99,
+"k": "広",
+"on": "コウ",
+"kun": "ひろ.い、ひろ.まる、ひろ.める、ひろ.がる、ひろ.げる",
+"a": "lebar",
+"c": [
+{
+"k": "広場",
+"r": "ひろば",
+"a": "Lapangan"
+},
+{
+"k": "広島",
+"r": "ひろしま",
+"a": "Hiroshima"
+}
+]
+},
+{
+"bab": 12,
+"n": 100,
+"k": "飲",
+"on": "イン、オン",
+"kun": "の.む、-の.み",
+"a": "minum",
+"c": [
+{
+"k": "飲み物",
+"r": "のみもの",
+"a": "Minuman"
+},
+{
+"k": "飲みに行く／飲みに行きます",
+"r": "のみにいく",
+"a": "Pergi minum (minuman beralkohol)"
+}
+]
+},
+{
+"bab": 12,
+"n": 101,
+"k": "縁",
+"on": "エン、-ネン",
+"kun": "ふち、ふちど.る、ゆかり、よすが、へり、えにし",
+"a": "jodoh nasib, hubungan berhubungan sistem; mép, tepi",
+"c": [
+{
+"k": "縁日",
+"r": "えんにち",
+"a": "Pekan raya"
+}
+]
+},
+{
+"bab": 12,
+"n": 102,
+"k": "日",
+"on": "ニチ、ジツ",
+"kun": "ひ、-び、-か",
+"a": "hari",
+"c": [
+{
+"k": "縁日",
+"r": "えんにち",
+"a": "Pekan raya"
+},
+{
+"k": "昨日",
+"r": "きのう",
+"a": "Kemarin"
+},
+{
+"k": "土日",
+"r": "どにち",
+"a": "Sabtu dan Minggu"
+}
+]
+},
+{
+"bab": 12,
+"n": 103,
+"k": "文",
+"on": "ブン、モン",
+"kun": "ふみ、あや",
+"a": "kalimat",
+"c": [
+{
+"k": "文化センター",
+"r": "ぶんかセンター",
+"a": "Pusat kebudayaan"
+}
+]
+},
+{
+"bab": 12,
+"n": 104,
+"k": "外",
+"on": "ガイ、ゲ",
+"kun": "そと、ほか、はず.す、はず.れる、と-",
+"a": "luar",
+"c": [
+{
+"k": "野外",
+"r": "やがい",
+"a": "Luar ruangan; tempa terbuka"
+}
+]
+},
+{
+"bab": 12,
+"n": 105,
+"k": "円",
+"on": "エン",
+"kun": "まる.い、まる、まど、まど.か、まろ.やか",
+"a": "bulat; yen",
+"c": [
+{
+"k": "〜円",
+"r": "〜えん",
+"a": "〜 yen"
+},
+{
+"k": "1 00円ショップ",
+"r": "ひゃくえんショップ",
+"a": "Toko serba 100-yen"
+},
+{
+"k": "1 円",
+"r": "いちえん",
+"a": "1 yen"
+},
+{
+"k": "5 円",
+"r": "ごえん",
+"a": "5 yen"
+}
+]
+},
+{
+"bab": 12,
+"n": 106,
+"k": "上",
+"on": "ジョウ、ショウ、シャン",
+"kun": "うえ、-うえ、うわ-、かみ、あ.げる、-あ.げる、あ.がる、-あ.がる、あ.がり、-あ.がり、のぼ.る、のぼ.り、のぼ.せる、のぼ.す、よ.す",
+"a": "atas",
+"c": [
+{
+"k": "映画上映会",
+"r": "えいがじょうえいかい",
+"a": "Pemutaran film"
+},
+{
+"k": "上映作品",
+"r": "じょうえいさくひん",
+"a": "Film yang ditayangkan"
+}
+]
+},
+{
+"bab": 12,
+"n": 107,
+"k": "作",
+"on": "サク、サ",
+"kun": "つく.る、つく.り、-づく.り",
+"a": "membuat",
+"c": [
+{
+"k": "上映作品",
+"r": "じょうえいさくひん",
+"a": "Film yang ditayangkan"
+}
+]
+},
+{
+"bab": 12,
+"n": 108,
+"k": "問",
+"on": "モン",
+"kun": "と.う、と.い、とん",
+"a": "tanya; tanya topik",
+"c": [
+{
+"k": "お問い合わせ",
+"r": "おといあわせ",
+"a": "Pertanyaan"
+}
+]
+},
+{
+"bab": 13,
+"n": 109,
+"k": "電",
+"on": "デン",
+"kun": "",
+"a": "listrik",
+"c": [
+{
+"k": "電車",
+"r": "でんしゃ",
+"a": "Kereta"
+},
+{
+"k": "電池",
+"r": "でんち",
+"a": "Baterai"
+},
+{
+"k": "懐中電灯",
+"r": "かいちゅうでんとう",
+"a": "Senter"
+}
+]
+},
+{
+"bab": 13,
+"n": 110,
+"k": "車",
+"on": "シャ",
+"kun": "くるま",
+"a": "mobil",
+"c": [
+{
+"k": "電車",
+"r": "でんしゃ",
+"a": "Kereta"
+},
+{
+"k": "各駅停車／各停",
+"r": "かくえきていしゃ",
+"a": "(kereta) lokal (berhenti di setiap stasiun)"
+}
+]
+},
+{
+"bab": 13,
+"n": 111,
+"k": "地",
+"on": "チ、ジ",
+"kun": "",
+"a": "tanah, permukaan tanah; tempat",
+"c": [
+{
+"k": "地下鉄",
+"r": "ちかてつ",
+"a": "Kereta bawah tanah"
+}
+]
+},
+{
+"bab": 13,
+"n": 112,
+"k": "下",
+"on": "カ、ゲ",
+"kun": "した、しも、もと、さ.げる、さ.がる、くだ.る、くだ.り、くだ.す、-くだ.す、くだ.さる、お.ろす、お.りる",
+"a": "bawah",
+"c": [
+{
+"k": "地下鉄",
+"r": "ちかてつ",
+"a": "Kereta bawah tanah"
+}
+]
+},
+{
+"bab": 13,
+"n": 113,
+"k": "鉄",
+"on": "テツ",
+"kun": "くろがね",
+"a": "besi",
+"c": [
+{
+"k": "地下鉄",
+"r": "ちかてつ",
+"a": "Kereta bawah tanah"
+}
+]
+},
+{
+"bab": 13,
+"n": 114,
+"k": "乗",
+"on": "ジョウ、ショウ",
+"kun": "の.る、-の.り、の.せる",
+"a": "menunggang, naik kendaraan; orang (phép orang)",
+"c": [
+{
+"k": "〜に乗ります",
+"r": "〜にのります",
+"a": "Saya naik . 〜"
+},
+{
+"k": "〜番乗り場",
+"r": "〜ばんのりば",
+"a": "Dermaga nomor 〜"
+},
+{
+"k": "乗る／乗ります",
+"r": "のる",
+"a": "Naik (kendaraan)"
+}
+]
+},
+{
+"bab": 13,
+"n": 115,
+"k": "空",
+"on": "クウ",
+"kun": "そら、あ.く、あ.き、あ.ける、から、す.く、す.かす、むな.しい",
+"a": "kosong kosong; labu langit",
+"c": [
+{
+"k": "空港",
+"r": "くうこう",
+"a": "Bandara"
+}
+]
+},
+{
+"bab": 13,
+"n": 116,
+"k": "市",
+"on": "シ",
+"kun": "いち",
+"a": "pasar; kota",
+"c": [
+{
+"k": "市民病院",
+"r": "しみんびょういん",
+"a": "Rumah sakit kota"
+}
+]
+},
+{
+"bab": 13,
+"n": 117,
+"k": "民",
+"on": "ミン",
+"kun": "たみ",
+"a": "orang-orang",
+"c": [
+{
+"k": "市民病院",
+"r": "しみんびょういん",
+"a": "Rumah sakit kota"
+}
+]
+},
+{
+"bab": 13,
+"n": 118,
+"k": "病",
+"on": "ビョウ、ヘイ",
+"kun": "や.む、-や.み、やまい",
+"a": "sakit",
+"c": [
+{
+"k": "市民病院",
+"r": "しみんびょういん",
+"a": "Rumah sakit kota"
+}
+]
+},
+{
+"bab": 13,
+"n": 119,
+"k": "院",
+"on": "イン",
+"kun": "",
+"a": "lembaga, mesin pejabat; kuil; pengadilan rumah besar",
+"c": [
+{
+"k": "市民病院",
+"r": "しみんびょういん",
+"a": "Rumah sakit kota"
+}
+]
+},
+{
+"bab": 13,
+"n": 120,
+"k": "駅",
+"on": "エキ",
+"kun": "",
+"a": "nhà ga",
+"c": [
+{
+"k": "各駅停車／各停",
+"r": "かくえきていしゃ",
+"a": "(kereta) lokal (berhenti di setiap stasiun)"
+},
+{
+"k": "駅前",
+"r": "えきまえ",
+"a": "Di depan stasiun"
+}
+]
+},
+{
+"bab": 13,
+"n": 121,
+"k": "線",
+"on": "セン",
+"kun": "すじ",
+"a": "garis; jalur",
+"c": [
+{
+"k": "〜番線",
+"r": "〜ばんせん",
+"a": "Peron nomor 〜"
+},
+{
+"k": "何番線",
+"r": "なんばんせん",
+"a": "Peron berapa"
+}
+]
+},
+{
+"bab": 13,
+"n": 122,
+"k": "快",
+"on": "カイ",
+"kun": "こころよ.い",
+"a": "senang gaya, mudah menanggung; cepat",
+"c": [
+{
+"k": "快速",
+"r": "かいそく",
+"a": "(kereta) ekspres"
+}
+]
+},
+{
+"bab": 13,
+"n": 123,
+"k": "各",
+"on": "カク",
+"kun": "おのおの",
+"a": "setiap, masing-masing",
+"c": [
+{
+"k": "各駅停車／各停",
+"r": "かくえきていしゃ",
+"a": "(kereta) lokal (berhenti di setiap stasiun)"
+}
+]
+},
+{
+"bab": 13,
+"n": 124,
+"k": "停",
+"on": "テイ",
+"kun": "と.める、と.まる",
+"a": "berhenti lagi, halaman lagi",
+"c": [
+{
+"k": "各駅停車／各停",
+"r": "かくえきていしゃ",
+"a": "(kereta) lokal (berhenti di setiap stasiun)"
+}
+]
+},
+{
+"bab": 13,
+"n": 125,
+"k": "止",
+"on": "シ",
+"kun": "と.まる、-ど.まり、と.める、-と.める、-ど.め、とど.める、とど.め、とど.まる、や.める、や.む、-や.む、よ.す、-さ.す、-さ.し",
+"a": "berhenti, berhenti lagi",
+"c": [
+{
+"k": "止まる／止まります",
+"r": "とまる",
+"a": "Berhenti"
+}
+]
+},
+{
+"bab": 14,
+"n": 126,
+"k": "自",
+"on": "ジ、シ",
+"kun": "みずか.ら、おの.ずから、おの.ずと",
+"a": "sendiri diri, utama diri",
+"c": [
+{
+"k": "自動販売機",
+"r": "じどうはんばいき",
+"a": "Mesin penjual otomatis"
+}
+]
+},
+{
+"bab": 14,
+"n": 127,
+"k": "動",
+"on": "ドウ",
+"kun": "うご.く、うご.かす",
+"a": "bergerak",
+"c": [
+{
+"k": "自動販売機",
+"r": "じどうはんばいき",
+"a": "Mesin penjual otomatis"
+},
+{
+"k": "運動する／運動します",
+"r": "うんどうする",
+"a": "Berolahraga"
+}
+]
+},
+{
+"bab": 14,
+"n": 128,
+"k": "販",
+"on": "ハン",
+"kun": "",
+"a": "berjualan, konsumsi",
+"c": [
+{
+"k": "自動販売機",
+"r": "じどうはんばいき",
+"a": "Mesin penjual otomatis"
+}
+]
+},
+{
+"bab": 14,
+"n": 129,
+"k": "売",
+"on": "バイ",
+"kun": "う.る、う.れる",
+"a": "menjual",
+"c": [
+{
+"k": "自動販売機",
+"r": "じどうはんばいき",
+"a": "Mesin penjual otomatis"
+}
+]
+},
+{
+"bab": 14,
+"n": 130,
+"k": "奥",
+"on": "オウ",
+"kun": "おく、おく.まる、くま",
+"a": "hati",
+"c": [
+{
+"k": "奥さん",
+"r": "おくさん",
+"a": "wife; your wife; his wife; married lady; madam"
+}
+]
+},
+{
+"bab": 14,
+"n": 131,
+"k": "中",
+"on": "チュウ",
+"kun": "なか、うち、あた.る",
+"a": "di tengah, di dalam; rata-rata",
+"c": [
+{
+"k": "懐中電灯",
+"r": "かいちゅうでんとう",
+"a": "Senter"
+}
+]
+},
+{
+"bab": 15,
+"n": 132,
+"k": "池",
+"on": "チ",
+"kun": "いけ",
+"a": "kolam, danau kecil",
+"c": [
+{
+"k": "電池",
+"r": "でんち",
+"a": "Baterai"
+},
+{
+"k": "池袋",
+"r": "いけぶくろ",
+"a": "Ikebukuro"
+}
+]
+},
+{
+"bab": 15,
+"n": 133,
+"k": "洗",
+"on": "セン",
+"kun": "あら.う",
+"a": "mencuci, mencuci; hal tra teknik",
+"c": [
+{
+"k": "洗濯ばさみ",
+"r": "せんたくばさみ",
+"a": "Jepitan baju"
+}
+]
+},
+{
+"bab": 15,
+"n": 134,
+"k": "濯",
+"on": "タク",
+"kun": "すす.ぐ、ゆす.ぐ",
+"a": "mencuci mengibaskan, mencuci bersih",
+"c": [
+{
+"k": "洗濯ばさみ",
+"r": "せんたくばさみ",
+"a": "Jepitan baju"
+}
+]
+},
+{
+"bab": 15,
+"n": 135,
+"k": "浴",
+"on": "ヨク",
+"kun": "あ.びる、あ.びせる",
+"a": "mandi; dapat menikmati",
+"c": [
+{
+"k": "浴衣",
+"r": "ゆかた",
+"a": "Yukata (kimono berbahan katun yang digunakan saat musim panas)"
+}
+]
+},
+{
+"bab": 15,
+"n": 136,
+"k": "懐",
+"on": "カイ、エ",
+"kun": "ふところ、なつ.かしい、なつ.かしむ、なつ.く、なつ.ける、なず.ける、いだ.く、おも.う",
+"a": "hati, dada; kangen nhung; tas baju",
+"c": [
+{
+"k": "懐中電灯",
+"r": "かいちゅうでんとう",
+"a": "Senter"
+}
+]
+},
+{
+"bab": 15,
+"n": 137,
+"k": "灯",
+"on": "トウ",
+"kun": "ひ、ほ-、ともしび、とも.す、あかり",
+"a": "lampu, ngọn lampu",
+"c": [
+{
+"k": "懐中電灯",
+"r": "かいちゅうでんとう",
+"a": "Senter"
+}
+]
+},
+{
+"bab": 15,
+"n": 138,
+"k": "弁",
+"on": "ベン、ヘン",
+"kun": "かんむり、わきま.える、わ.ける、はなびら、あらそ.う",
+"a": "berargumen; kelopak bunga; katup",
+"c": [
+{
+"k": "弁当箱／お弁当箱",
+"r": "べんとうばこ",
+"a": "Kotak bekal"
+}
+]
+},
+{
+"bab": 15,
+"n": 139,
+"k": "店",
+"on": "テン",
+"kun": "みせ、たな",
+"a": "pintu barang",
+"c": [
+{
+"k": "店／お店",
+"r": "みせ",
+"a": "Toko"
+}
+]
+},
+{
+"bab": 17,
+"n": 140,
+"k": "休",
+"on": "キュウ",
+"kun": "やす.む、やす.まる、やす.める",
+"a": "beristirahat",
+"c": [
+{
+"k": "休み",
+"r": "やすみ",
+"a": "Libur"
+},
+{
+"k": "夏休み",
+"r": "なつやすみ",
+"a": "Libur musim panas"
+},
+{
+"k": "連休",
+"r": "れんきゅう",
+"a": "Libur panjang"
+}
+]
+},
+{
+"bab": 17,
+"n": 141,
+"k": "運",
+"on": "ウン",
+"kun": "はこ.ぶ",
+"a": "nasib memindahkan; nasib may, angka takdir",
+"c": [
+{
+"k": "運動する／運動します",
+"r": "うんどうする",
+"a": "Berolahraga"
+}
+]
+},
+{
+"bab": 17,
+"n": 142,
+"k": "服",
+"on": "フク",
+"kun": "",
+"a": "celana baju; menaklukkan pinus; minum obat",
+"c": [
+{
+"k": "衣服",
+"r": "いふく",
+"a": "clothes"
+},
+{
+"k": "服装",
+"r": "ふくそう",
+"a": "garments; attire"
+},
+{
+"k": "軍服",
+"r": "ぐんぷく",
+"a": "military or naval uniform"
+}
+]
+},
+{
+"bab": 17,
+"n": 143,
+"k": "話",
+"on": "ワ",
+"kun": "はな.す、はなし",
+"a": "berkata cerita; kalimat cerita",
+"c": [
+{
+"k": "話す／話します",
+"r": "はなす",
+"a": "Berbicara; bercakap-cakap"
+}
+]
+},
+{
+"bab": 17,
+"n": 144,
+"k": "掃",
+"on": "ソウ、シュ",
+"kun": "は.く",
+"a": "quét dọn",
+"c": [
+{
+"k": "掃除する／掃除します",
+"r": "そうじする",
+"a": "Bersih-bersih"
+}
+]
+},
+{
+"bab": 17,
+"n": 145,
+"k": "週",
+"on": "シュウ",
+"kun": "",
+"a": "minggu",
+"c": [
+{
+"k": "週末",
+"r": "しゅうまつ",
+"a": "Akhir pekan"
+}
+]
+},
+{
+"bab": 17,
+"n": 146,
+"k": "土",
+"on": "ド、ト",
+"kun": "つち",
+"a": "tanah",
+"c": [
+{
+"k": "土日",
+"r": "どにち",
+"a": "Sabtu dan Minggu"
+}
+]
+},
+{
+"bab": 18,
+"n": 147,
+"k": "旅",
+"on": "リョ",
+"kun": "たび",
+"a": "perjalanan",
+"c": [
+{
+"k": "旅行する／旅行します",
+"r": "りょこうする",
+"a": "Berwisata; bepergian"
+}
+]
+},
+{
+"bab": 18,
+"n": 148,
+"k": "友",
+"on": "ユウ",
+"kun": "とも",
+"a": "teman",
+"c": [
+{
+"k": "友だち",
+"r": "ともだち",
+"a": "Teman"
+}
+]
+},
+{
+"bab": 18,
+"n": 149,
+"k": "炊",
+"on": "スイ",
+"kun": "た.く、-だ.き",
+"a": "memasak nasi, memasak memanggang",
+"c": [
+{
+"k": "炊飯器",
+"r": "すいはんき",
+"a": "Penanak nasi"
+}
+]
+},
+{
+"bab": 18,
+"n": 150,
+"k": "器",
+"on": "キ",
+"kun": "うつわ",
+"a": "benda menggunakan, benda menampung; udara alat; udara derajat, bisa kekuatan",
+"c": [
+{
+"k": "炊飯器",
+"r": "すいはんき",
+"a": "Penanak nasi"
+}
+]
+},
+{
+"bab": 18,
+"n": 151,
+"k": "島",
+"on": "トウ",
+"kun": "しま",
+"a": "pulau",
+"c": [
+{
+"k": "広島",
+"r": "ひろしま",
+"a": "Hiroshima"
+}
+]
+},
+{
+"bab": 18,
+"n": 152,
+"k": "袋",
+"on": "タイ、ダイ",
+"kun": "ふくろ",
+"a": "cái túi, cái bao",
+"c": [
+{
+"k": "池袋",
+"r": "いけぶくろ",
+"a": "Ikebukuro"
+}
+]
+},
+{
+"bab": 18,
+"n": 153,
+"k": "士",
+"on": "シ",
+"kun": "さむらい",
+"a": "kaum terpelajar, orang berpendidikan; pendekar",
+"c": [
+{
+"k": "富士山",
+"r": "ふじさん",
+"a": "Gunung Fuji"
+}
+]
+},
+{
+"bab": 18,
+"n": 154,
+"k": "山",
+"on": "サン、セン",
+"kun": "やま",
+"a": "gunung",
+"c": [
+{
+"k": "富士山",
+"r": "ふじさん",
+"a": "Gunung Fuji"
+}
+]
+},
+{
+"bab": 18,
+"n": 155,
+"k": "京",
+"on": "キョウ、ケイ、キン",
+"kun": "みやこ",
+"a": "ibu kota metropolis",
+"c": [
+{
+"k": "京都",
+"r": "きょうと",
+"a": "Kyoto"
+}
+]
+},
+{
+"bab": 18,
+"n": 156,
+"k": "都",
+"on": "ト、ツ",
+"kun": "みやこ",
+"a": "metropolis menunjukkan, bertahan metropolis; seluruh; keseluruhan",
+"c": [
+{
+"k": "京都",
+"r": "きょうと",
+"a": "Kyoto"
+}
+]
+},
+{
+"bab": 18,
+"n": 157,
+"k": "社",
+"on": "シャ",
+"kun": "やしろ",
+"a": "perusahaan",
+"c": [
+{
+"k": "神社",
+"r": "じんじゃ",
+"a": "Kuil Shinto"
+}
+]
+}
+]

@@ -145,3 +145,12 @@ body[data-cm="4"] .materi-item .no-badge, body[data-cm="3"] .materi-item .no-bad
 .vv-credit{font-size:12px; color:var(--gray-dim); margin-top:12px; line-height:1.6;}
 .materi-item.just-viewed{border-color:var(--pink) !important; box-shadow:0 0 0 3px rgba(239,106,154,.45); transition:box-shadow .3s;}
 .ck-sec.ck-done{border-color:rgba(16,185,129,.55);}
+
+/* choukai divisi: gambar adegan & pilihan bergambar */
+.ck-scene.pic{text-align:center}
+.ck-scene.pic img{width:100%; max-width:480px; height:auto; border-radius:14px; background:#eef3f8}
+.ck-opts.pics{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+.ck-opts.pics .ck-opt{flex-direction:column; align-items:stretch; height:auto}
+.ck-opts.pics .ck-opt .t{display:flex; flex-direction:column; align-items:center; gap:4px}
+.ck-oimg{width:100%; max-width:240px; max-height:130px; object-fit:contain; border-radius:10px; background:#f4f7fa}
+.ck-opts.pics small{font-size:12px}

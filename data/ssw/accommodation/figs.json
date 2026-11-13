@@ -1,0 +1,206 @@
+{
+"slug": "accommodation",
+"note": "Gambar dipotong otomatis dari halaman buku resmi; judul/penjelasan disusun dari teks pada gambar + kosakata (auto:true = perlu penyuntingan manusia).",
+"figs": [
+{
+"id": "accommodation-id-p007-0",
+"sub": "b1s1",
+"book": "id",
+"page": 7,
+"y": 0.37,
+"src": "./assets/ssw/accommodation/fig/id-p007-0.webp",
+"w": 313,
+"h": 175,
+"cap": {
+"id": "Manajemen Reservasi",
+"jp": "予約管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Manajemen Reservasi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト7ページ「予約管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p030-0",
+"sub": "b3s2",
+"book": "id",
+"page": 30,
+"y": 0.76,
+"src": "./assets/ssw/accommodation/fig/id-p030-0.webp",
+"w": 629,
+"h": 199,
+"cap": {
+"id": "Sikap Dasar dan Ojigi",
+"jp": "基本姿勢とおじぎ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 30, untuk subbab «Sikap Dasar dan Ojigi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト30ページ「基本姿勢とおじぎ」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p039-0",
+"sub": "b4s2",
+"book": "id",
+"page": 39,
+"y": 0.72,
+"src": "./assets/ssw/accommodation/fig/id-p039-0.webp",
+"w": 683,
+"h": 249,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 39, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト39ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p040-0",
+"sub": "b4s2",
+"book": "id",
+"page": 40,
+"y": 0.21,
+"src": "./assets/ssw/accommodation/fig/id-p040-0.webp",
+"w": 228,
+"h": 137,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "食事の提供とマナー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト40ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p040-1",
+"sub": "b4s2",
+"book": "id",
+"page": 40,
+"y": 0.46,
+"src": "./assets/ssw/accommodation/fig/id-p040-1.webp",
+"w": 612,
+"h": 162,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "ジグ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト40ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p040-2",
+"sub": "b4s2",
+"book": "id",
+"page": 40,
+"y": 0.69,
+"src": "./assets/ssw/accommodation/fig/id-p040-2.webp",
+"w": 611,
+"h": 335,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "ンプ1"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト40ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p041-0",
+"sub": "b4s2",
+"book": "id",
+"page": 41,
+"y": 0.3,
+"src": "./assets/ssw/accommodation/fig/id-p041-0.webp",
+"w": 420,
+"h": 174,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p041-1",
+"sub": "b4s2",
+"book": "id",
+"page": 41,
+"y": 0.3,
+"src": "./assets/ssw/accommodation/fig/id-p041-1.webp",
+"w": 247,
+"h": 174,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "食事の提供とマナー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p041-2",
+"sub": "b4s2",
+"book": "id",
+"page": 41,
+"y": 0.46,
+"src": "./assets/ssw/accommodation/fig/id-p041-2.webp",
+"w": 234,
+"h": 174,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "accommodation-id-p041-3",
+"sub": "b4s2",
+"book": "id",
+"page": 41,
+"y": 0.46,
+"src": "./assets/ssw/accommodation/fig/id-p041-3.webp",
+"w": 432,
+"h": 174,
+"cap": {
+"id": "Penyajian dan Tata Cara Makan",
+"jp": "食事の提供とマナー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Penyajian dan Tata Cara Makan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「食事の提供とマナー」の図。"
+},
+"terms": [],
+"auto": true
+}
+]
+}

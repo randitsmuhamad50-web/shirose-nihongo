@@ -329,6 +329,46 @@ def make_imi(bank, tg, lv, rnd, qid, pool):
         ),
     }
 
+# ============================================================== KOTOBA: 言い換え類義
+def make_iikae(bank, tg, lv, rnd, qid, pool):
+    """言い換え類義: kalimat dengan kata bergaris bawah, pilih ungkapan yang maknanya
+    paling dekat (parafrasa). Bank hanya punya arti Indonesia, jadi opsi berupa arti
+    singkat; distraktor diambil dari arti kata lain dengan pos sama."""
+    m = first_meaning(tg["arti"])
+    if not m or len(m) < 2: return None
+    sims = [p for p in pool if p is not tg and p["pos"] == tg["pos"] and first_meaning(p["arti"]) and
+            first_meaning(p["arti"]).lower() != m.lower() and p["kata"] != tg["kata"]]
+    if len(sims) < 3: return None
+    picked = rnd.sample(sims, 3)
+    dist = [first_meaning(p["arti"]) for p in picked]
+    if len(set(x.lower() for x in dist + [m])) < 4: return None
+    opts, ans, src = shuffle_opts(m, dist, rnd)
+    q = sentence_with(bank, tg, lv, lambda s: f"<u>{esc(disp_word(bank, tg, lv))}</u>")
+    q += "<br><small>Pilih ungkapan yang maknanya paling dekat dengan kata bergaris bawah.</small>"
+    opsi_ex = []
+    for i, o in enumerate(opts):
+        p = tg if src[i] == 0 else picked[src[i]-1]
+        if src[i] == 0:
+            opsi_ex.append(f"{ABCD[i]}. \"{o}\" — BENAR. Maknanya sama dengan 「{tg['kata']}」（{tg['read']}）.")
+        else:
+            opsi_ex.append(f"{ABCD[i]}. \"{o}\" — Salah. Itu makna kata lain: 「{p['kata']}」（{p['read']}）.")
+    return {
+        "id": qid, "cat": "kotoba", "tipe": "iikae", "tipe_jp": "言い換え類義",
+        "q": q, "opts": opts, "ans": ans,
+        "ref": {"tipe": "kosakata", "kata": tg["kata"]},
+        "ex": ex_base(
+            jawaban=f"{ABCD[ans]}. {m}",
+            terjemahan=tg["sent"]["id"],
+            alasan=f"「{tg['kata']}」（{tg['read']}） maknanya \"{short(tg['arti'], 100)}\". Ungkapan yang paling dekat maknanya adalah \"{m}\".",
+            opsi=opsi_ex,
+            kosakata=[kosakata_line(tg)] + [kosakata_line(p) for p in picked],
+            kanji=kanji_notes(bank, tg["base"]),
+            struktur=struktur(bank.render(tg["sent"]["toks"], lv)),
+            contoh=extra_examples(bank, tg["kata"], tg["sent"]["plain"]),
+            poin="Soal 言い換え menguji sinonim/parafrasa. Pahami makna inti kata, lalu cari pilihan yang bisa menggantikannya tanpa mengubah arti kalimat.",
+        ),
+    }
+
 # ============================================================== KOTOBA: 用法
 def make_youhou(bank, tg, lv, rnd, qid, pool):
     if tg["pos"] not in ("noun", "kana") or len(tg["surf"]) < 2: return None

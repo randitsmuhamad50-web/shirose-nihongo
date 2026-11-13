@@ -48,9 +48,9 @@
 .jx-bar.big{height:12px; flex:1; margin:0;}
 
 /* paket */
-.jx-pkglist{display:grid; grid-template-columns:repeat(2, 1fr); gap:10px;}
-@media (max-width:760px){ .jx-pkglist{grid-template-columns:1fr;} }
-.jx-pkg{display:flex; gap:12px; align-items:center; padding:14px; border-radius:14px; background:var(--navy-3); border:1px solid var(--border); cursor:pointer;}
+.jx-pkglist{display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:10px; min-width:0; max-width:100%;}
+@media (max-width:760px){ .jx-pkglist{grid-template-columns:minmax(0,1fr);} }
+.jx-pkg{min-width:0; max-width:100%; box-sizing:border-box; display:flex; gap:12px; align-items:center; padding:14px; border-radius:14px; background:var(--navy-3); border:1px solid var(--border); cursor:pointer;}
 .jx-pkg:hover{border-color:var(--pink);}
 .jx-pkg.done{border-left:4px solid var(--green);}
 .jx-pkg.aktif{border-color:var(--gold); box-shadow:0 0 0 1px var(--gold) inset;}
@@ -58,7 +58,9 @@
 .jx-pkg .info{flex:1; min-width:0;}
 .jx-pkg .ttl{font-weight:800; font-size:17px;}
 .jx-pkg .sub{font-size:13px; color:var(--gray);}
-.jx-pkg .mondai{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+.jx-pkg .mondai{white-space:normal; overflow-wrap:anywhere; font-size:12px; line-height:1.5; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;}
+.jx-pkg .mondai:hover{-webkit-line-clamp:unset;}
+.panel.jx{min-width:0; max-width:100%;}
 .jx-pkg .st{display:flex; flex-direction:column; gap:4px; align-items:flex-end; flex:none;}
 
 /* setup */
@@ -195,3 +197,45 @@
 .jx-tbl th, .jx-tbl td{padding:10px 8px; border-bottom:1px solid var(--border); text-align:left; white-space:nowrap;}
 .jx-tbl tbody tr{cursor:pointer;} .jx-tbl tbody tr:hover{background:rgba(255,255,255,.04);}
 .jx-home{border-color:var(--gold) !important;}
+
+/* ---- Kartu skor JLPT (lulus/tidak, per-seksi, CEFR) ---- */
+.jx-jlpt-card{border-radius:16px; padding:16px 18px; margin:6px 0 16px; border:2px solid var(--border); background:var(--navy-4);}
+.jx-jlpt-card.lulus{border-color:var(--green); background:linear-gradient(180deg,rgba(46,204,113,.10),var(--navy-4));}
+.jx-jlpt-card.gagal{border-color:var(--red); background:linear-gradient(180deg,rgba(231,76,60,.10),var(--navy-4));}
+.jx-jlpt-top{display:flex; flex-wrap:wrap; align-items:baseline; gap:6px 18px; margin-bottom:12px;}
+.jx-jlpt-top .verdict{font-weight:800; font-size:20px; letter-spacing:.3px;}
+.jx-jlpt-card.lulus .verdict{color:var(--green);} .jx-jlpt-card.gagal .verdict{color:var(--red);}
+.jx-jlpt-top .tot{font-size:16px; color:var(--gray);} .jx-jlpt-top .tot b{font-size:34px; color:var(--ink,#fff);}
+.jx-jlpt-sec{width:100%; border-collapse:collapse; font-size:14px; margin:4px 0 8px;}
+.jx-jlpt-sec th{font-size:12px; color:var(--gray); text-align:left; padding:4px 8px; border-bottom:1px solid var(--border);}
+.jx-jlpt-sec td{padding:8px; border-bottom:1px solid var(--border); vertical-align:top;}
+.jx-jlpt-sec td b{font-size:16px;} .jx-jlpt-sec .g{color:var(--green); font-weight:700;} .jx-jlpt-sec .r{color:var(--red); font-weight:700;}
+.jx-jlpt-card .sm{font-size:11.5px; line-height:1.5; margin-top:4px;}
+
+/* kanji bisa dipencet di pembahasan */
+.jx-w{cursor:pointer; border-bottom:1px dotted var(--pink-light, #f9a8c9); border-radius:3px; transition:background .15s;}
+.jx-w:hover,.jx-w:focus{background:rgba(236,72,153,.22); outline:none;}
+#jx-kw{position:fixed; inset:0; z-index:9000; display:flex; align-items:flex-end; justify-content:center;}
+.jx-kw-bg{position:absolute; inset:0; background:rgba(0,0,0,.55);}
+.jx-kw-in{position:relative; width:min(560px,100%); max-height:80vh; overflow:auto; background:var(--navy-2,#1e2347); border:1px solid var(--border,#3a4080); border-radius:18px 18px 0 0; padding:18px 18px 22px; box-sizing:border-box;}
+.jx-kw-x{position:absolute; top:10px; right:12px; background:none; border:0; color:var(--gray,#aab); font-size:20px; cursor:pointer;}
+.jx-kw-h{display:flex; align-items:center; gap:10px; font-size:30px; margin-bottom:6px; overflow-wrap:anywhere;}
+.jx-kw-h .big{font-size:56px; line-height:1.1;}
+.jx-kw-m{font-size:17px; margin:6px 0 8px; overflow-wrap:anywhere;}
+.jx-kw-ex{margin-top:10px; padding:10px; border-radius:12px; background:var(--navy-3,#262d5c); overflow-wrap:anywhere;}
+.jx-kw-ex ul{margin:6px 0 0; padding-left:18px;}
+.jx-kw-in .jx-row{display:flex; gap:8px; margin-top:14px; flex-wrap:wrap;}
+@media (min-width:700px){ #jx-kw{align-items:center;} .jx-kw-in{border-radius:18px;} }
+
+.jx-q{scroll-margin-top:120px;}
+
+/* gambar choukai */
+.jx-scene{margin:6px 0 12px; text-align:center}
+.jx-scene img{width:100%; max-width:480px; height:auto; border-radius:14px; border:1px solid rgba(255,255,255,.12); background:#eef3f8}
+.jx-opts.pics{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+.jx-opts.pics .jx-opt{flex-direction:column; align-items:stretch; justify-content:flex-start; padding:10px}
+.jx-opts.pics .jx-opt .k{align-self:flex-start}
+.jx-opts.pics .jx-opt .t{display:flex; flex-direction:column; align-items:center; gap:4px}
+.jx-oimg{width:100%; max-width:240px; max-height:130px; height:auto; object-fit:contain; border-radius:10px; background:#f4f7fa}
+.jx-ocap{font-size:12px; color:var(--gray); font-family:var(--font-jp); text-align:center}
+@media (max-width:480px){ .jx-oimg{max-height:100px} }

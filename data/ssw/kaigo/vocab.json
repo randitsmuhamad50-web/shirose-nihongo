@@ -1,0 +1,4102 @@
+{
+ "items": [
+  {
+   "id": "kg-001",
+   "kata": "尊厳",
+   "kana": "そんげん",
+   "romaji": "songen",
+   "arti": "martabat",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "尊厳|そんげん"
+   ]
+  },
+  {
+   "id": "kg-002",
+   "kata": "自立支援",
+   "kana": "じりつしえん",
+   "romaji": "jiritsushien",
+   "arti": "dukungan kemandirian",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "自立支援|じりつしえん"
+   ]
+  },
+  {
+   "id": "kg-003",
+   "kata": "利用者",
+   "kana": "りようしゃ",
+   "romaji": "riyousha",
+   "arti": "pengguna (layanan)",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "利用者|りようしゃ"
+   ]
+  },
+  {
+   "id": "kg-004",
+   "kata": "介護職",
+   "kana": "かいごしょく",
+   "romaji": "kaigoshoku",
+   "arti": "staf perawat lansia",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1",
+    "k4s1"
+   ],
+   "rb": [
+    "介護職|かいごしょく"
+   ]
+  },
+  {
+   "id": "kg-005",
+   "kata": "自己決定",
+   "kana": "じこけってい",
+   "romaji": "jikokettei",
+   "arti": "keputusan sendiri",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "自己決定|じこけってい"
+   ]
+  },
+  {
+   "id": "kg-006",
+   "kata": "自己選択",
+   "kana": "じこせんたく",
+   "romaji": "jikosentaku",
+   "arti": "pilihan sendiri",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "自己選択|じこせんたく"
+   ]
+  },
+  {
+   "id": "kg-007",
+   "kata": "人権",
+   "kana": "じんけん",
+   "romaji": "jinken",
+   "arti": "hak asasi manusia",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "人権|じんけん"
+   ]
+  },
+  {
+   "id": "kg-008",
+   "kata": "生活",
+   "kana": "せいかつ",
+   "romaji": "seikatsu",
+   "arti": "kehidupan sehari-hari",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s1"
+   ],
+   "rb": [
+    "生活|せいかつ"
+   ]
+  },
+  {
+   "id": "kg-009",
+   "kata": "職業倫理",
+   "kana": "しょくぎょうりんり",
+   "romaji": "shokugyourinri",
+   "arti": "etika profesi",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "職業倫理|しょくぎょうりんり"
+   ]
+  },
+  {
+   "id": "kg-010",
+   "kata": "秘密保持",
+   "kana": "ひみつほじ",
+   "romaji": "himitsuhoji",
+   "arti": "menjaga kerahasiaan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "秘密保持|ひみつほじ"
+   ]
+  },
+  {
+   "id": "kg-011",
+   "kata": "身体拘束",
+   "kana": "しんたいこうそく",
+   "romaji": "shintaikousoku",
+   "arti": "pembatasan fisik",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "身体拘束|しんたいこうそく"
+   ]
+  },
+  {
+   "id": "kg-012",
+   "kata": "虐待",
+   "kana": "ぎゃくたい",
+   "romaji": "gyakutai",
+   "arti": "kekerasan/penganiayaan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "虐待|ぎゃくたい"
+   ]
+  },
+  {
+   "id": "kg-013",
+   "kata": "看護師",
+   "kana": "かんごし",
+   "romaji": "kangoshi",
+   "arti": "perawat",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "看護師|かんごし"
+   ]
+  },
+  {
+   "id": "kg-014",
+   "kata": "医師",
+   "kana": "いし",
+   "romaji": "ishi",
+   "arti": "dokter",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "医師|いし"
+   ]
+  },
+  {
+   "id": "kg-015",
+   "kata": "多職種連携",
+   "kana": "たしょくしゅれんけい",
+   "romaji": "tashokushurenkei",
+   "arti": "kerja sama antarprofesi",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2"
+   ],
+   "rb": [
+    "多職種連携|たしょくしゅれんけい"
+   ]
+  },
+  {
+   "id": "kg-016",
+   "kata": "個人情報",
+   "kana": "こじんじょうほう",
+   "romaji": "kojinjouhou",
+   "arti": "informasi pribadi",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s2",
+    "k3s3"
+   ],
+   "rb": [
+    "個人情報|こじんじょうほう"
+   ]
+  },
+  {
+   "id": "kg-017",
+   "kata": "観察",
+   "kana": "かんさつ",
+   "romaji": "kansatsu",
+   "arti": "observasi",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3",
+    "k3s3"
+   ],
+   "rb": [
+    "観察|かんさつ"
+   ]
+  },
+  {
+   "id": "kg-018",
+   "kata": "腰痛",
+   "kana": "ようつう",
+   "romaji": "youtsuu",
+   "arti": "sakit pinggang",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3"
+   ],
+   "rb": [
+    "腰痛|ようつう"
+   ]
+  },
+  {
+   "id": "kg-019",
+   "kata": "感染症",
+   "kana": "かんせんしょう",
+   "romaji": "kansenshou",
+   "arti": "penyakit menular",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3"
+   ],
+   "rb": [
+    "感染症|かんせんしょう"
+   ]
+  },
+  {
+   "id": "kg-020",
+   "kata": "手洗い",
+   "kana": "てあらい",
+   "romaji": "tearai",
+   "arti": "cuci tangan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3"
+   ],
+   "rb": [
+    "手洗い|てあらい"
+   ]
+  },
+  {
+   "id": "kg-021",
+   "kata": "予防",
+   "kana": "よぼう",
+   "romaji": "yobou",
+   "arti": "pencegahan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3"
+   ],
+   "rb": [
+    "予防|よぼう"
+   ]
+  },
+  {
+   "id": "kg-022",
+   "kata": "事故",
+   "kana": "じこ",
+   "romaji": "jiko",
+   "arti": "kecelakaan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3",
+    "k3s3"
+   ],
+   "rb": [
+    "事故|じこ"
+   ]
+  },
+  {
+   "id": "kg-023",
+   "kata": "転倒",
+   "kana": "てんとう",
+   "romaji": "tentou",
+   "arti": "terjatuh",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3",
+    "k3s3"
+   ],
+   "rb": [
+    "転倒|てんとう"
+   ]
+  },
+  {
+   "id": "kg-024",
+   "kata": "災害",
+   "kana": "さいがい",
+   "romaji": "saigai",
+   "arti": "bencana",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3"
+   ],
+   "rb": [
+    "災害|さいがい"
+   ]
+  },
+  {
+   "id": "kg-025",
+   "kata": "手袋",
+   "kana": "てぶくろ",
+   "romaji": "tebukuro",
+   "arti": "sarung tangan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3"
+   ],
+   "rb": [
+    "手袋|てぶくろ"
+   ]
+  },
+  {
+   "id": "kg-026",
+   "kata": "記録",
+   "kana": "きろく",
+   "romaji": "kiroku",
+   "arti": "catatan",
+   "cat": "Istilah kunci",
+   "bab": "bab1",
+   "src": [
+    "k1s3",
+    "k3s3"
+   ],
+   "rb": [
+    "記録|きろく"
+   ]
+  },
+  {
+   "id": "kg-027",
+   "kata": "頭",
+   "kana": "あたま",
+   "romaji": "atama",
+   "arti": "kepala",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "頭|あたま"
+   ]
+  },
+  {
+   "id": "kg-028",
+   "kata": "額",
+   "kana": "ひたい",
+   "romaji": "hitai",
+   "arti": "dahi",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "額|ひたい"
+   ]
+  },
+  {
+   "id": "kg-029",
+   "kata": "目",
+   "kana": "め",
+   "romaji": "me",
+   "arti": "mata",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "目|め"
+   ]
+  },
+  {
+   "id": "kg-030",
+   "kata": "耳",
+   "kana": "みみ",
+   "romaji": "mimi",
+   "arti": "telinga",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "耳|みみ"
+   ]
+  },
+  {
+   "id": "kg-031",
+   "kata": "鼻",
+   "kana": "はな",
+   "romaji": "hana",
+   "arti": "hidung",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "鼻|はな"
+   ]
+  },
+  {
+   "id": "kg-032",
+   "kata": "口",
+   "kana": "くち",
+   "romaji": "kuchi",
+   "arti": "mulut",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "口|くち"
+   ]
+  },
+  {
+   "id": "kg-033",
+   "kata": "唇",
+   "kana": "くちびる",
+   "romaji": "kuchibiru",
+   "arti": "bibir",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "唇|くちびる"
+   ]
+  },
+  {
+   "id": "kg-034",
+   "kata": "顎",
+   "kana": "あご",
+   "romaji": "ago",
+   "arti": "dagu",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "顎|あご"
+   ]
+  },
+  {
+   "id": "kg-035",
+   "kata": "首",
+   "kana": "くび",
+   "romaji": "kubi",
+   "arti": "leher",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "首|くび"
+   ]
+  },
+  {
+   "id": "kg-036",
+   "kata": "喉",
+   "kana": "のど",
+   "romaji": "nodo",
+   "arti": "tenggorokan",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "喉|のど"
+   ]
+  },
+  {
+   "id": "kg-037",
+   "kata": "腕",
+   "kana": "うで",
+   "romaji": "ude",
+   "arti": "lengan",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "腕|うで"
+   ]
+  },
+  {
+   "id": "kg-038",
+   "kata": "肘",
+   "kana": "ひじ",
+   "romaji": "hiji",
+   "arti": "siku",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "肘|ひじ"
+   ]
+  },
+  {
+   "id": "kg-039",
+   "kata": "腰",
+   "kana": "こし",
+   "romaji": "koshi",
+   "arti": "pinggang",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "腰|こし"
+   ]
+  },
+  {
+   "id": "kg-040",
+   "kata": "手首",
+   "kana": "てくび",
+   "romaji": "tekubi",
+   "arti": "pergelangan tangan",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "手首|てくび"
+   ]
+  },
+  {
+   "id": "kg-041",
+   "kata": "手のひら",
+   "kana": "てのひら",
+   "romaji": "tenohira",
+   "arti": "telapak tangan",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "手のひら|てのひら"
+   ]
+  },
+  {
+   "id": "kg-042",
+   "kata": "指",
+   "kana": "ゆび",
+   "romaji": "yubi",
+   "arti": "jari",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "指|ゆび"
+   ]
+  },
+  {
+   "id": "kg-043",
+   "kata": "指先",
+   "kana": "ゆびさき",
+   "romaji": "yubisaki",
+   "arti": "ujung jari",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "指先|ゆびさき"
+   ]
+  },
+  {
+   "id": "kg-044",
+   "kata": "手の甲",
+   "kana": "てのこう",
+   "romaji": "tenokou",
+   "arti": "punggung tangan",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "手の甲|てのこう"
+   ]
+  },
+  {
+   "id": "kg-045",
+   "kata": "足首",
+   "kana": "あしくび",
+   "romaji": "ashikubi",
+   "arti": "pergelangan kaki",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "足首|あしくび"
+   ]
+  },
+  {
+   "id": "kg-046",
+   "kata": "つま先",
+   "kana": "つまさき",
+   "romaji": "tsumasaki",
+   "arti": "ujung jari kaki",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "つま先|つまさき"
+   ]
+  },
+  {
+   "id": "kg-047",
+   "kata": "肩",
+   "kana": "かた",
+   "romaji": "kata",
+   "arti": "bahu",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "肩|かた"
+   ]
+  },
+  {
+   "id": "kg-048",
+   "kata": "背中",
+   "kana": "せなか",
+   "romaji": "senaka",
+   "arti": "punggung",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "背中|せなか"
+   ]
+  },
+  {
+   "id": "kg-049",
+   "kata": "胸",
+   "kana": "むね",
+   "romaji": "mune",
+   "arti": "dada",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "胸|むね"
+   ]
+  },
+  {
+   "id": "kg-050",
+   "kata": "殿部（尻）",
+   "kana": "でんぶ（しり）",
+   "romaji": "denbu（shiri）",
+   "arti": "pantat",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ]
+  },
+  {
+   "id": "kg-051",
+   "kata": "腹",
+   "kana": "はら",
+   "romaji": "hara",
+   "arti": "perut",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "腹|はら"
+   ]
+  },
+  {
+   "id": "kg-052",
+   "kata": "膝",
+   "kana": "ひざ",
+   "romaji": "hiza",
+   "arti": "lutut",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "膝|ひざ"
+   ]
+  },
+  {
+   "id": "kg-053",
+   "kata": "踵",
+   "kana": "かかと",
+   "romaji": "kakato",
+   "arti": "tumit",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "踵|かかと"
+   ]
+  },
+  {
+   "id": "kg-054",
+   "kata": "足底（足の裏）",
+   "kana": "そくてい（あしのうら）",
+   "romaji": "sokutei（ashinoura）",
+   "arti": "telapak kaki (dasar kaki)",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ]
+  },
+  {
+   "id": "kg-055",
+   "kata": "顔色",
+   "kana": "かおいろ",
+   "romaji": "kaoiro",
+   "arti": "air muka",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "顔色|かおいろ"
+   ]
+  },
+  {
+   "id": "kg-056",
+   "kata": "患側",
+   "kana": "かんそく",
+   "romaji": "kansoku",
+   "arti": "sisi sakit",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "患側|かんそく"
+   ]
+  },
+  {
+   "id": "kg-057",
+   "kata": "健側",
+   "kana": "けんそく",
+   "romaji": "kensoku",
+   "arti": "sisi sehat",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "健側|けんそく"
+   ]
+  },
+  {
+   "id": "kg-058",
+   "kata": "健康",
+   "kana": "けんこう",
+   "romaji": "kenkou",
+   "arti": "kesehatan",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "健康|けんこう"
+   ]
+  },
+  {
+   "id": "kg-059",
+   "kata": "体調",
+   "kana": "たいちょう",
+   "romaji": "taichou",
+   "arti": "kondisi fisik",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "体調|たいちょう"
+   ]
+  },
+  {
+   "id": "kg-060",
+   "kata": "バイタルサイン",
+   "kana": "ばいたるさいん",
+   "romaji": "baitarusain",
+   "arti": "tanda-tanda vital",
+   "cat": "Tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ]
+  },
+  {
+   "id": "kg-061",
+   "kata": "仰臥位",
+   "kana": "ぎょうがい",
+   "romaji": "gyougai",
+   "arti": "posisi supinasi",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "仰臥位|ぎょうがい"
+   ]
+  },
+  {
+   "id": "kg-062",
+   "kata": "側臥位",
+   "kana": "そくがい",
+   "romaji": "sokugai",
+   "arti": "posisi lateral",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "側臥位|そくがい"
+   ]
+  },
+  {
+   "id": "kg-063",
+   "kata": "腹臥位",
+   "kana": "ふくがい",
+   "romaji": "fukugai",
+   "arti": "posisi pronasi",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "腹臥位|ふくがい"
+   ]
+  },
+  {
+   "id": "kg-064",
+   "kata": "端座位",
+   "kana": "たんざい",
+   "romaji": "tanzai",
+   "arti": "duduk tegak lurus",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "端座位|たんざい"
+   ]
+  },
+  {
+   "id": "kg-065",
+   "kata": "立位",
+   "kana": "りつい",
+   "romaji": "ritsui",
+   "arti": "berdiri",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "立位|りつい"
+   ]
+  },
+  {
+   "id": "kg-066",
+   "kata": "椅座位（座位）",
+   "kana": "いざい（ざい）",
+   "romaji": "izai（zai）",
+   "arti": "duduk kursi (duduk)",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ]
+  },
+  {
+   "id": "kg-067",
+   "kata": "体位",
+   "kana": "たいい",
+   "romaji": "taii",
+   "arti": "posisi",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "体位|たいい"
+   ]
+  },
+  {
+   "id": "kg-068",
+   "kata": "体位変換",
+   "kana": "たいいへんかん",
+   "romaji": "taiihenkan",
+   "arti": "mengubah posisi",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1",
+    "k4s1"
+   ],
+   "rb": [
+    "体位変換|たいいへんかん"
+   ]
+  },
+  {
+   "id": "kg-069",
+   "kata": "姿勢",
+   "kana": "しせい",
+   "romaji": "shisei",
+   "arti": "postur",
+   "cat": "Posisi tubuh",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "姿勢|しせい"
+   ]
+  },
+  {
+   "id": "kg-070",
+   "kata": "体温",
+   "kana": "たいおん",
+   "romaji": "taion",
+   "arti": "suhu tubuh",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "体温|たいおん"
+   ]
+  },
+  {
+   "id": "kg-071",
+   "kata": "呼吸",
+   "kana": "こきゅう",
+   "romaji": "kokyuu",
+   "arti": "pernapasan",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "呼吸|こきゅう"
+   ]
+  },
+  {
+   "id": "kg-072",
+   "kata": "脈拍",
+   "kana": "みゃくはく",
+   "romaji": "myakuhaku",
+   "arti": "denyut nadi",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "脈拍|みゃくはく"
+   ]
+  },
+  {
+   "id": "kg-073",
+   "kata": "血圧",
+   "kana": "けつあつ",
+   "romaji": "ketsuatsu",
+   "arti": "tekanan darah",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "血圧|けつあつ"
+   ]
+  },
+  {
+   "id": "kg-074",
+   "kata": "睡眠",
+   "kana": "すいみん",
+   "romaji": "suimin",
+   "arti": "tidur",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "睡眠|すいみん"
+   ]
+  },
+  {
+   "id": "kg-075",
+   "kata": "意欲",
+   "kana": "いよく",
+   "romaji": "iyoku",
+   "arti": "semangat/kemauan",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s1"
+   ],
+   "rb": [
+    "意欲|いよく"
+   ]
+  },
+  {
+   "id": "kg-076",
+   "kata": "インフルエンザ",
+   "kana": "いんふるえんざ",
+   "romaji": "infuruenza",
+   "arti": "influenza",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ]
+  },
+  {
+   "id": "kg-077",
+   "kata": "疥癬",
+   "kana": "かいせん",
+   "romaji": "kaisen",
+   "arti": "skabies",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "疥癬|かいせん"
+   ]
+  },
+  {
+   "id": "kg-078",
+   "kata": "風邪",
+   "kana": "かぜ",
+   "romaji": "kaze",
+   "arti": "masuk angin",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "風邪|かぜ"
+   ]
+  },
+  {
+   "id": "kg-079",
+   "kata": "高血圧症",
+   "kana": "こうけつあつしょう",
+   "romaji": "kouketsuatsushou",
+   "arti": "hipertensi",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "高血圧症|こうけつあつしょう"
+   ]
+  },
+  {
+   "id": "kg-080",
+   "kata": "食中毒",
+   "kana": "しょくちゅうどく",
+   "romaji": "shokuchuudoku",
+   "arti": "keracunan makanan",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "食中毒|しょくちゅうどく"
+   ]
+  },
+  {
+   "id": "kg-081",
+   "kata": "認知症",
+   "kana": "にんちしょう",
+   "romaji": "ninchishou",
+   "arti": "demensia",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "認知症|にんちしょう"
+   ]
+  },
+  {
+   "id": "kg-082",
+   "kata": "ノロウイルス",
+   "kana": "のろういるす",
+   "romaji": "norouirusu",
+   "arti": "norovirus",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ]
+  },
+  {
+   "id": "kg-083",
+   "kata": "白内障",
+   "kana": "はくないしょう",
+   "romaji": "hakunaishou",
+   "arti": "katarak",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "白内障|はくないしょう"
+   ]
+  },
+  {
+   "id": "kg-084",
+   "kata": "痛い",
+   "kana": "いたい",
+   "romaji": "itai",
+   "arti": "sakit, nyeri",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "痛い|いたい"
+   ]
+  },
+  {
+   "id": "kg-085",
+   "kata": "嘔吐",
+   "kana": "おうと",
+   "romaji": "outo",
+   "arti": "muntah",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "嘔吐|おうと"
+   ]
+  },
+  {
+   "id": "kg-086",
+   "kata": "片麻痺",
+   "kana": "かたまひ",
+   "romaji": "katamahi",
+   "arti": "hemiplegia",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2",
+    "k4s1"
+   ],
+   "rb": [
+    "片麻痺|かたまひ"
+   ]
+  },
+  {
+   "id": "kg-087",
+   "kata": "かゆい",
+   "kana": "かゆい",
+   "romaji": "kayui",
+   "arti": "gatal",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ]
+  },
+  {
+   "id": "kg-088",
+   "kata": "苦しい",
+   "kana": "くるしい",
+   "romaji": "kurushii",
+   "arti": "menderita",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "苦しい|くるしい"
+   ]
+  },
+  {
+   "id": "kg-089",
+   "kata": "下痢",
+   "kana": "げり",
+   "romaji": "geri",
+   "arti": "diare",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2",
+    "k4s3"
+   ],
+   "rb": [
+    "下痢|げり"
+   ]
+  },
+  {
+   "id": "kg-090",
+   "kata": "拘縮",
+   "kana": "こうしゅく",
+   "romaji": "koushuku",
+   "arti": "kontraktur",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "拘縮|こうしゅく"
+   ]
+  },
+  {
+   "id": "kg-091",
+   "kata": "骨折",
+   "kana": "こっせつ",
+   "romaji": "kossetsu",
+   "arti": "fraktur",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "骨折|こっせつ"
+   ]
+  },
+  {
+   "id": "kg-092",
+   "kata": "症状",
+   "kana": "しょうじょう",
+   "romaji": "shoujou",
+   "arti": "gejala",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "症状|しょうじょう"
+   ]
+  },
+  {
+   "id": "kg-093",
+   "kata": "褥瘡",
+   "kana": "じょくそう",
+   "romaji": "jokusou",
+   "arti": "dekubitus",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "褥瘡|じょくそう"
+   ]
+  },
+  {
+   "id": "kg-094",
+   "kata": "咳",
+   "kana": "せき",
+   "romaji": "seki",
+   "arti": "batuk",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "咳|せき"
+   ]
+  },
+  {
+   "id": "kg-095",
+   "kata": "吐き気",
+   "kana": "はきけ",
+   "romaji": "hakike",
+   "arti": "mual",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "吐き気|はきけ"
+   ]
+  },
+  {
+   "id": "kg-096",
+   "kata": "発汗",
+   "kana": "はっかん",
+   "romaji": "hakkan",
+   "arti": "keringat",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "発汗|はっかん"
+   ]
+  },
+  {
+   "id": "kg-097",
+   "kata": "発疹",
+   "kana": "ほっしん",
+   "romaji": "hosshin",
+   "arti": "ruam",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "発疹|ほっしん"
+   ]
+  },
+  {
+   "id": "kg-098",
+   "kata": "発熱",
+   "kana": "はつねつ",
+   "romaji": "hatsunetsu",
+   "arti": "demam",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "発熱|はつねつ"
+   ]
+  },
+  {
+   "id": "kg-099",
+   "kata": "便秘",
+   "kana": "べんぴ",
+   "romaji": "benpi",
+   "arti": "konstipasi",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "便秘|べんぴ"
+   ]
+  },
+  {
+   "id": "kg-100",
+   "kata": "めまい",
+   "kana": "めまい",
+   "romaji": "memai",
+   "arti": "pusing",
+   "cat": "Penyakit & gejala",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ]
+  },
+  {
+   "id": "kg-101",
+   "kata": "老化",
+   "kana": "ろうか",
+   "romaji": "rouka",
+   "arti": "penuaan",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "老化|ろうか"
+   ]
+  },
+  {
+   "id": "kg-102",
+   "kata": "障害",
+   "kana": "しょうがい",
+   "romaji": "shougai",
+   "arti": "disabilitas/gangguan",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "障害|しょうがい"
+   ]
+  },
+  {
+   "id": "kg-103",
+   "kata": "脱水",
+   "kana": "だっすい",
+   "romaji": "dassui",
+   "arti": "dehidrasi",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "脱水|だっすい"
+   ]
+  },
+  {
+   "id": "kg-104",
+   "kata": "誤嚥性肺炎",
+   "kana": "ごえんせいはいえん",
+   "romaji": "goenseihaien",
+   "arti": "pneumonia aspirasi",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "誤嚥性肺炎|ごえんせいはいえん"
+   ]
+  },
+  {
+   "id": "kg-105",
+   "kata": "糖尿病",
+   "kana": "とうにょうびょう",
+   "romaji": "tounyoubyou",
+   "arti": "diabetes",
+   "cat": "Istilah kunci",
+   "bab": "bab2",
+   "src": [
+    "k2s2"
+   ],
+   "rb": [
+    "糖尿病|とうにょうびょう"
+   ]
+  },
+  {
+   "id": "kg-106",
+   "kata": "傾聴",
+   "kana": "けいちょう",
+   "romaji": "keichou",
+   "arti": "menyimak (mendengar aktif)",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s1"
+   ],
+   "rb": [
+    "傾聴|けいちょう"
+   ]
+  },
+  {
+   "id": "kg-107",
+   "kata": "共感",
+   "kana": "きょうかん",
+   "romaji": "kyoukan",
+   "arti": "empati",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s1"
+   ],
+   "rb": [
+    "共感|きょうかん"
+   ]
+  },
+  {
+   "id": "kg-108",
+   "kata": "受容",
+   "kana": "じゅよう",
+   "romaji": "juyou",
+   "arti": "menerima",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s1"
+   ],
+   "rb": [
+    "受容|じゅよう"
+   ]
+  },
+  {
+   "id": "kg-109",
+   "kata": "信頼関係",
+   "kana": "しんらいかんけい",
+   "romaji": "shinraikankei",
+   "arti": "hubungan kepercayaan",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s1"
+   ],
+   "rb": [
+    "信頼関係|しんらいかんけい"
+   ]
+  },
+  {
+   "id": "kg-110",
+   "kata": "表情",
+   "kana": "ひょうじょう",
+   "romaji": "hyoujou",
+   "arti": "ekspresi wajah",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s1"
+   ],
+   "rb": [
+    "表情|ひょうじょう"
+   ]
+  },
+  {
+   "id": "kg-111",
+   "kata": "声かけ",
+   "kana": "こえかけ",
+   "romaji": "koekake",
+   "arti": "menyapa/memberi tahu sebelum bertindak",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2",
+    "k4s1"
+   ],
+   "rb": [
+    "声かけ|こえかけ"
+   ]
+  },
+  {
+   "id": "kg-112",
+   "kata": "説明",
+   "kana": "せつめい",
+   "romaji": "setsumei",
+   "arti": "penjelasan",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "説明|せつめい"
+   ]
+  },
+  {
+   "id": "kg-113",
+   "kata": "同意",
+   "kana": "どうい",
+   "romaji": "doui",
+   "arti": "persetujuan",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "同意|どうい"
+   ]
+  },
+  {
+   "id": "kg-114",
+   "kata": "視覚障害",
+   "kana": "しかくしょうがい",
+   "romaji": "shikakushougai",
+   "arti": "gangguan penglihatan",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "視覚障害|しかくしょうがい"
+   ]
+  },
+  {
+   "id": "kg-115",
+   "kata": "聴覚障害",
+   "kana": "ちょうかくしょうがい",
+   "romaji": "choukakushougai",
+   "arti": "gangguan pendengaran",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "聴覚障害|ちょうかくしょうがい"
+   ]
+  },
+  {
+   "id": "kg-116",
+   "kata": "失語症",
+   "kana": "しつごしょう",
+   "romaji": "shitsugoshou",
+   "arti": "afasia",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "失語症|しつごしょう"
+   ]
+  },
+  {
+   "id": "kg-117",
+   "kata": "手話",
+   "kana": "しゅわ",
+   "romaji": "shuwa",
+   "arti": "bahasa isyarat",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "手話|しゅわ"
+   ]
+  },
+  {
+   "id": "kg-118",
+   "kata": "筆談",
+   "kana": "ひつだん",
+   "romaji": "hitsudan",
+   "arti": "komunikasi tertulis",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "筆談|ひつだん"
+   ]
+  },
+  {
+   "id": "kg-119",
+   "kata": "補聴器",
+   "kana": "ほちょうき",
+   "romaji": "hochouki",
+   "arti": "alat bantu dengar",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s2"
+   ],
+   "rb": [
+    "補聴器|ほちょうき"
+   ]
+  },
+  {
+   "id": "kg-120",
+   "kata": "アルコール",
+   "kana": "あるこーる",
+   "romaji": "arukooru",
+   "arti": "alkohol",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ]
+  },
+  {
+   "id": "kg-121",
+   "kata": "確認",
+   "kana": "かくにん",
+   "romaji": "kakunin",
+   "arti": "memeriksa, memastikan",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3",
+    "k4s5"
+   ],
+   "rb": [
+    "確認|かくにん"
+   ]
+  },
+  {
+   "id": "kg-122",
+   "kata": "行事",
+   "kana": "ぎょうじ",
+   "romaji": "gyouji",
+   "arti": "acara",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "行事|ぎょうじ"
+   ]
+  },
+  {
+   "id": "kg-123",
+   "kata": "禁煙",
+   "kana": "きんえん",
+   "romaji": "kinen",
+   "arti": "dilarang merokok",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "禁煙|きんえん"
+   ]
+  },
+  {
+   "id": "kg-124",
+   "kata": "禁止",
+   "kana": "きんし",
+   "romaji": "kinshi",
+   "arti": "larangan",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "禁止|きんし"
+   ]
+  },
+  {
+   "id": "kg-125",
+   "kata": "計画",
+   "kana": "けいかく",
+   "romaji": "keikaku",
+   "arti": "rencana",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "計画|けいかく"
+   ]
+  },
+  {
+   "id": "kg-126",
+   "kata": "掲示",
+   "kana": "けいじ",
+   "romaji": "keiji",
+   "arti": "pengumuman",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "掲示|けいじ"
+   ]
+  },
+  {
+   "id": "kg-127",
+   "kata": "ケース",
+   "kana": "けーす",
+   "romaji": "keesu",
+   "arti": "kasus",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ]
+  },
+  {
+   "id": "kg-128",
+   "kata": "県",
+   "kana": "けん",
+   "romaji": "ken",
+   "arti": "prefektur",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "県|けん"
+   ]
+  },
+  {
+   "id": "kg-129",
+   "kata": "玄関",
+   "kana": "げんかん",
+   "romaji": "genkan",
+   "arti": "area pintu masuk",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "玄関|げんかん"
+   ]
+  },
+  {
+   "id": "kg-130",
+   "kata": "参加者",
+   "kana": "さんかしゃ",
+   "romaji": "sankasha",
+   "arti": "peserta",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "参加者|さんかしゃ"
+   ]
+  },
+  {
+   "id": "kg-131",
+   "kata": "参加",
+   "kana": "さんか",
+   "romaji": "sanka",
+   "arti": "partisipasi",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "参加|さんか"
+   ]
+  },
+  {
+   "id": "kg-132",
+   "kata": "施設",
+   "kana": "しせつ",
+   "romaji": "shisetsu",
+   "arti": "fasilitas",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "施設|しせつ"
+   ]
+  },
+  {
+   "id": "kg-133",
+   "kata": "就寝",
+   "kana": "しゅうしん",
+   "romaji": "shuushin",
+   "arti": "pergi tidur",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "就寝|しゅうしん"
+   ]
+  },
+  {
+   "id": "kg-134",
+   "kata": "出勤",
+   "kana": "しゅっきん",
+   "romaji": "shukkin",
+   "arti": "pergi bekerja",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "出勤|しゅっきん"
+   ]
+  },
+  {
+   "id": "kg-135",
+   "kata": "巡視",
+   "kana": "じゅんし",
+   "romaji": "junshi",
+   "arti": "patroli",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "巡視|じゅんし"
+   ]
+  },
+  {
+   "id": "kg-136",
+   "kata": "使用",
+   "kana": "しよう",
+   "romaji": "shiyou",
+   "arti": "menggunakan",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "使用|しよう"
+   ]
+  },
+  {
+   "id": "kg-137",
+   "kata": "状況",
+   "kana": "じょうきょう",
+   "romaji": "joukyou",
+   "arti": "kondisi",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "状況|じょうきょう"
+   ]
+  },
+  {
+   "id": "kg-138",
+   "kata": "ショートステイ",
+   "kana": "しょーとすてい",
+   "romaji": "shootosutei",
+   "arti": "tinggal jangka pendek, short stay",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ]
+  },
+  {
+   "id": "kg-139",
+   "kata": "自立",
+   "kana": "じりつ",
+   "romaji": "jiritsu",
+   "arti": "kemandirian",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "自立|じりつ"
+   ]
+  },
+  {
+   "id": "kg-140",
+   "kata": "スケジュール",
+   "kana": "すけじゅーる",
+   "romaji": "sukejuuru",
+   "arti": "jadwal",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ]
+  },
+  {
+   "id": "kg-141",
+   "kata": "送迎車",
+   "kana": "そうげいしゃ",
+   "romaji": "sougeisha",
+   "arti": "mobil antar-jemput",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "送迎車|そうげいしゃ"
+   ]
+  },
+  {
+   "id": "kg-142",
+   "kata": "退勤",
+   "kana": "たいきん",
+   "romaji": "taikin",
+   "arti": "pulang bekerja",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "退勤|たいきん"
+   ]
+  },
+  {
+   "id": "kg-143",
+   "kata": "タイヤ",
+   "kana": "たいや",
+   "romaji": "taiya",
+   "arti": "roda",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ]
+  },
+  {
+   "id": "kg-144",
+   "kata": "建物",
+   "kana": "たてもの",
+   "romaji": "tatemono",
+   "arti": "bangunan",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "建物|たてもの"
+   ]
+  },
+  {
+   "id": "kg-145",
+   "kata": "担当者",
+   "kana": "たんとうしゃ",
+   "romaji": "tantousha",
+   "arti": "staf penanggung jawab",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "担当者|たんとうしゃ"
+   ]
+  },
+  {
+   "id": "kg-146",
+   "kata": "調理員",
+   "kana": "ちょうりいん",
+   "romaji": "chouriin",
+   "arti": "juru masak",
+   "cat": "Catatan & tempat kerja",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "調理員|ちょうりいん"
+   ]
+  },
+  {
+   "id": "kg-147",
+   "kata": "報告",
+   "kana": "ほうこく",
+   "romaji": "houkoku",
+   "arti": "laporan",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "報告|ほうこく"
+   ]
+  },
+  {
+   "id": "kg-148",
+   "kata": "連絡",
+   "kana": "れんらく",
+   "romaji": "renraku",
+   "arti": "pemberitahuan/kontak",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "連絡|れんらく"
+   ]
+  },
+  {
+   "id": "kg-149",
+   "kata": "相談",
+   "kana": "そうだん",
+   "romaji": "soudan",
+   "arti": "konsultasi",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "相談|そうだん"
+   ]
+  },
+  {
+   "id": "kg-150",
+   "kata": "申し送り",
+   "kana": "もうしおくり",
+   "romaji": "moushiokuri",
+   "arti": "serah-terima tugas",
+   "cat": "Istilah kunci",
+   "bab": "bab3",
+   "src": [
+    "k3s3"
+   ],
+   "rb": [
+    "申し送り|もうしおくり"
+   ]
+  },
+  {
+   "id": "kg-151",
+   "kata": "移乗",
+   "kana": "いじょう",
+   "romaji": "ijou",
+   "arti": "beralih",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "移乗|いじょう"
+   ]
+  },
+  {
+   "id": "kg-152",
+   "kata": "移動",
+   "kana": "いどう",
+   "romaji": "idou",
+   "arti": "berpindah",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "移動|いどう"
+   ]
+  },
+  {
+   "id": "kg-153",
+   "kata": "起き上がる",
+   "kana": "おきあがる",
+   "romaji": "okiagaru",
+   "arti": "bangkit",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "起き上がる|おきあがる"
+   ]
+  },
+  {
+   "id": "kg-154",
+   "kata": "（ブレーキを）かける",
+   "kana": "（ぶれーきを）かける",
+   "romaji": "（bureekio）kakeru",
+   "arti": "mengerem",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ]
+  },
+  {
+   "id": "kg-155",
+   "kata": "臥床",
+   "kana": "がしょう",
+   "romaji": "gashou",
+   "arti": "berbaring",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "臥床|がしょう"
+   ]
+  },
+  {
+   "id": "kg-156",
+   "kata": "車いす",
+   "kana": "くるまいす",
+   "romaji": "kurumaisu",
+   "arti": "kursi roda",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "車いす|くるまいす"
+   ]
+  },
+  {
+   "id": "kg-157",
+   "kata": "支える",
+   "kana": "ささえる",
+   "romaji": "sasaeru",
+   "arti": "mendukung",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "支える|ささえる"
+   ]
+  },
+  {
+   "id": "kg-158",
+   "kata": "杖",
+   "kana": "つえ",
+   "romaji": "tsue",
+   "arti": "tongkat",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "杖|つえ"
+   ]
+  },
+  {
+   "id": "kg-159",
+   "kata": "つかまる",
+   "kana": "つかまる",
+   "romaji": "tsukamaru",
+   "arti": "berpegangan",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ]
+  },
+  {
+   "id": "kg-160",
+   "kata": "手すり",
+   "kana": "てすり",
+   "romaji": "tesuri",
+   "arti": "susuran",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "手すり|てすり"
+   ]
+  },
+  {
+   "id": "kg-161",
+   "kata": "ブレーキ",
+   "kana": "ぶれーき",
+   "romaji": "bureeki",
+   "arti": "rem",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ]
+  },
+  {
+   "id": "kg-162",
+   "kata": "歩行器",
+   "kana": "ほこうき",
+   "romaji": "hokouki",
+   "arti": "alat bantu jalan",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "歩行器|ほこうき"
+   ]
+  },
+  {
+   "id": "kg-163",
+   "kata": "誘導",
+   "kana": "ゆうどう",
+   "romaji": "yuudou",
+   "arti": "panduan",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "誘導|ゆうどう"
+   ]
+  },
+  {
+   "id": "kg-164",
+   "kata": "離床",
+   "kana": "りしょう",
+   "romaji": "rishou",
+   "arti": "beranjak dari tempat tidur",
+   "cat": "Berpindah",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "離床|りしょう"
+   ]
+  },
+  {
+   "id": "kg-165",
+   "kata": "日常生活動作",
+   "kana": "にちじょうせいかつどうさ",
+   "romaji": "nichijouseikatsudousa",
+   "arti": "aktivitas kehidupan sehari-hari (ADL)",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "日常生活動作|にちじょうせいかつどうさ"
+   ]
+  },
+  {
+   "id": "kg-166",
+   "kata": "廃用症候群",
+   "kana": "はいようしょうこうぐん",
+   "romaji": "haiyoushoukougun",
+   "arti": "sindrom disuse",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s1"
+   ],
+   "rb": [
+    "廃用症候群|はいようしょうこうぐん"
+   ]
+  },
+  {
+   "id": "kg-167",
+   "kata": "エプロン",
+   "kana": "えぷろん",
+   "romaji": "epuron",
+   "arti": "celemek",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-168",
+   "kata": "嚥下",
+   "kana": "えんげ",
+   "romaji": "enge",
+   "arti": "deglutisi",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "嚥下|えんげ"
+   ]
+  },
+  {
+   "id": "kg-169",
+   "kata": "誤嚥",
+   "kana": "ごえん",
+   "romaji": "goen",
+   "arti": "aspirasi",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "誤嚥|ごえん"
+   ]
+  },
+  {
+   "id": "kg-170",
+   "kata": "食品",
+   "kana": "しょくひん",
+   "romaji": "shokuhin",
+   "arti": "makanan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "食品|しょくひん"
+   ]
+  },
+  {
+   "id": "kg-171",
+   "kata": "水分補給",
+   "kana": "すいぶんほきゅう",
+   "romaji": "suibunhokyuu",
+   "arti": "asupan cairan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "水分補給|すいぶんほきゅう"
+   ]
+  },
+  {
+   "id": "kg-172",
+   "kata": "咳込む",
+   "kana": "せきこむ",
+   "romaji": "sekikomu",
+   "arti": "batuk",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "咳込む|せきこむ"
+   ]
+  },
+  {
+   "id": "kg-173",
+   "kata": "とろみ",
+   "kana": "とろみ",
+   "romaji": "toromi",
+   "arti": "kekentalan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-174",
+   "kata": "飲み込み",
+   "kana": "のみこみ",
+   "romaji": "nomikomi",
+   "arti": "menelan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "飲み込み|のみこみ"
+   ]
+  },
+  {
+   "id": "kg-175",
+   "kata": "むせる",
+   "kana": "むせる",
+   "romaji": "museru",
+   "arti": "cegukan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-176",
+   "kata": "量",
+   "kana": "りょう",
+   "romaji": "ryou",
+   "arti": "jumlah",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "量|りょう"
+   ]
+  },
+  {
+   "id": "kg-177",
+   "kata": "リーダー",
+   "kana": "りーだー",
+   "romaji": "riidaa",
+   "arti": "kepala tim",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-178",
+   "kata": "あげもの",
+   "kana": "あげもの",
+   "romaji": "agemono",
+   "arti": "gorengan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-179",
+   "kata": "いためもの",
+   "kana": "いためもの",
+   "romaji": "itamemono",
+   "arti": "tumis",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-180",
+   "kata": "お茶",
+   "kana": "おちゃ",
+   "romaji": "ocha",
+   "arti": "teh hijau",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "お茶|おちゃ"
+   ]
+  },
+  {
+   "id": "kg-181",
+   "kata": "カレーライス",
+   "kana": "かれーらいす",
+   "romaji": "kareeraisu",
+   "arti": "nasi kari",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-182",
+   "kata": "ご飯",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "arti": "nasi putih",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "ご飯|ごはん"
+   ]
+  },
+  {
+   "id": "kg-183",
+   "kata": "献立",
+   "kana": "こんだて",
+   "romaji": "kondate",
+   "arti": "daftar makanan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "献立|こんだて"
+   ]
+  },
+  {
+   "id": "kg-184",
+   "kata": "献立表",
+   "kana": "こんだてひょう",
+   "romaji": "kondatehyou",
+   "arti": "tabel daftar makanan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "献立表|こんだてひょう"
+   ]
+  },
+  {
+   "id": "kg-185",
+   "kata": "主食",
+   "kana": "しゅしょく",
+   "romaji": "shushoku",
+   "arti": "makanan pokok",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "主食|しゅしょく"
+   ]
+  },
+  {
+   "id": "kg-186",
+   "kata": "汁物",
+   "kana": "しるもの",
+   "romaji": "shirumono",
+   "arti": "sup",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "汁物|しるもの"
+   ]
+  },
+  {
+   "id": "kg-187",
+   "kata": "漬物",
+   "kana": "つけもの",
+   "romaji": "tsukemono",
+   "arti": "acar",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "漬物|つけもの"
+   ]
+  },
+  {
+   "id": "kg-188",
+   "kata": "豆腐",
+   "kana": "とうふ",
+   "romaji": "toufu",
+   "arti": "tahu",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "豆腐|とうふ"
+   ]
+  },
+  {
+   "id": "kg-189",
+   "kata": "丼",
+   "kana": "どんぶり",
+   "romaji": "donburi",
+   "arti": "nasi mangkuk",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "丼|どんぶり"
+   ]
+  },
+  {
+   "id": "kg-190",
+   "kata": "煮付け",
+   "kana": "につけ",
+   "romaji": "nitsuke",
+   "arti": "rebus berbumbu, semur",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "煮付け|につけ"
+   ]
+  },
+  {
+   "id": "kg-191",
+   "kata": "煮物",
+   "kana": "にもの",
+   "romaji": "nimono",
+   "arti": "rebusan",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "煮物|にもの"
+   ]
+  },
+  {
+   "id": "kg-192",
+   "kata": "副食",
+   "kana": "ふくしょく",
+   "romaji": "fukushoku",
+   "arti": "lauk",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "副食|ふくしょく"
+   ]
+  },
+  {
+   "id": "kg-193",
+   "kata": "麦茶",
+   "kana": "むぎちゃ",
+   "romaji": "mugicha",
+   "arti": "teh gandum",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "麦茶|むぎちゃ"
+   ]
+  },
+  {
+   "id": "kg-194",
+   "kata": "メニュー",
+   "kana": "めにゅー",
+   "romaji": "menyuu",
+   "arti": "menu",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-195",
+   "kata": "焼き魚",
+   "kana": "やきざかな",
+   "romaji": "yakizakana",
+   "arti": "ikan bakar",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "焼き魚|やきざかな"
+   ]
+  },
+  {
+   "id": "kg-196",
+   "kata": "ヨーグルト",
+   "kana": "よーぐると",
+   "romaji": "yooguruto",
+   "arti": "yoghurt",
+   "cat": "Makan",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ]
+  },
+  {
+   "id": "kg-197",
+   "kata": "咀嚼",
+   "kana": "そしゃく",
+   "romaji": "soshaku",
+   "arti": "mengunyah",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "咀嚼|そしゃく"
+   ]
+  },
+  {
+   "id": "kg-198",
+   "kata": "食事介助",
+   "kana": "しょくじかいじょ",
+   "romaji": "shokujikaijo",
+   "arti": "bantuan makan",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s2"
+   ],
+   "rb": [
+    "食事介助|しょくじかいじょ"
+   ]
+  },
+  {
+   "id": "kg-199",
+   "kata": "口腔ケア",
+   "kana": "こうくうけあ",
+   "romaji": "koukuukea",
+   "arti": "perawatan rongga mulut",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s2",
+    "k4s4"
+   ],
+   "rb": [
+    "口腔ケア|こうくうけあ"
+   ]
+  },
+  {
+   "id": "kg-200",
+   "kata": "足元",
+   "kana": "あしもと",
+   "romaji": "ashimoto",
+   "arti": "kaki",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "足元|あしもと"
+   ]
+  },
+  {
+   "id": "kg-201",
+   "kata": "陰部",
+   "kana": "いんぶ",
+   "romaji": "inbu",
+   "arti": "area genital",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "陰部|いんぶ"
+   ]
+  },
+  {
+   "id": "kg-202",
+   "kata": "浣腸",
+   "kana": "かんちょう",
+   "romaji": "kanchou",
+   "arti": "enema",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "浣腸|かんちょう"
+   ]
+  },
+  {
+   "id": "kg-203",
+   "kata": "着替える",
+   "kana": "きがえる",
+   "romaji": "kigaeru",
+   "arti": "berganti pakaian",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "着替える|きがえる"
+   ]
+  },
+  {
+   "id": "kg-204",
+   "kata": "下げる",
+   "kana": "さげる",
+   "romaji": "sageru",
+   "arti": "menurunkan",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "下げる|さげる"
+   ]
+  },
+  {
+   "id": "kg-205",
+   "kata": "失禁",
+   "kana": "しっきん",
+   "romaji": "shikkin",
+   "arti": "inkontinensia",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "失禁|しっきん"
+   ]
+  },
+  {
+   "id": "kg-206",
+   "kata": "羞恥心",
+   "kana": "しゅうちしん",
+   "romaji": "shuuchishin",
+   "arti": "rasa malu",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "羞恥心|しゅうちしん"
+   ]
+  },
+  {
+   "id": "kg-207",
+   "kata": "使い捨て手袋",
+   "kana": "つかいすててぶくろ",
+   "romaji": "tsukaisutetebukuro",
+   "arti": "sarung tangan sekali pakai",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "使い捨て手袋|つかいすててぶくろ"
+   ]
+  },
+  {
+   "id": "kg-208",
+   "kata": "尿",
+   "kana": "にょう",
+   "romaji": "nyou",
+   "arti": "urine",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "尿|にょう"
+   ]
+  },
+  {
+   "id": "kg-209",
+   "kata": "尿意",
+   "kana": "にょうい",
+   "romaji": "nyoui",
+   "arti": "keinginan berkemih",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "尿意|にょうい"
+   ]
+  },
+  {
+   "id": "kg-210",
+   "kata": "排泄",
+   "kana": "はいせつ",
+   "romaji": "haisetsu",
+   "arti": "ekskresi",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "排泄|はいせつ"
+   ]
+  },
+  {
+   "id": "kg-211",
+   "kata": "便",
+   "kana": "べん",
+   "romaji": "ben",
+   "arti": "feses",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "便|べん"
+   ]
+  },
+  {
+   "id": "kg-212",
+   "kata": "便意",
+   "kana": "べんい",
+   "romaji": "beni",
+   "arti": "keinginan defekasi",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "便意|べんい"
+   ]
+  },
+  {
+   "id": "kg-213",
+   "kata": "便座",
+   "kana": "べんざ",
+   "romaji": "benza",
+   "arti": "toilet duduk",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "便座|べんざ"
+   ]
+  },
+  {
+   "id": "kg-214",
+   "kata": "ポータブルトイレ",
+   "kana": "ぽーたぶるといれ",
+   "romaji": "pootaburutoire",
+   "arti": "toilet portabel",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ]
+  },
+  {
+   "id": "kg-215",
+   "kata": "看護職",
+   "kana": "かんごしょく",
+   "romaji": "kangoshoku",
+   "arti": "perawat",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "看護職|かんごしょく"
+   ]
+  },
+  {
+   "id": "kg-216",
+   "kata": "職員",
+   "kana": "しょくいん",
+   "romaji": "shokuin",
+   "arti": "staf",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "職員|しょくいん"
+   ]
+  },
+  {
+   "id": "kg-217",
+   "kata": "パジャマ",
+   "kana": "ぱじゃま",
+   "romaji": "pajama",
+   "arti": "piyama",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ]
+  },
+  {
+   "id": "kg-218",
+   "kata": "呼び出しボタン",
+   "kana": "よびだしぼたん",
+   "romaji": "yobidashibotan",
+   "arti": "tombol panggil",
+   "cat": "Ekskresi",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "呼び出しボタン|よびだしぼたん"
+   ]
+  },
+  {
+   "id": "kg-219",
+   "kata": "尿失禁",
+   "kana": "にょうしっきん",
+   "romaji": "nyoushikkin",
+   "arti": "inkontinensia urine",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s3"
+   ],
+   "rb": [
+    "尿失禁|にょうしっきん"
+   ]
+  },
+  {
+   "id": "kg-220",
+   "kata": "衣類",
+   "kana": "いるい",
+   "romaji": "irui",
+   "arti": "pakaian",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "衣類|いるい"
+   ]
+  },
+  {
+   "id": "kg-221",
+   "kata": "入れ歯",
+   "kana": "いれば",
+   "romaji": "ireba",
+   "arti": "gigi tiruan",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "入れ歯|いれば"
+   ]
+  },
+  {
+   "id": "kg-222",
+   "kata": "うがい",
+   "kana": "うがい",
+   "romaji": "ugai",
+   "arti": "berkumur",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ]
+  },
+  {
+   "id": "kg-223",
+   "kata": "上着",
+   "kana": "うわぎ",
+   "romaji": "uwagi",
+   "arti": "baju atasan",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "上着|うわぎ"
+   ]
+  },
+  {
+   "id": "kg-224",
+   "kata": "着替え",
+   "kana": "きがえ",
+   "romaji": "kigae",
+   "arti": "berganti pakaian",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "着替え|きがえ"
+   ]
+  },
+  {
+   "id": "kg-225",
+   "kata": "義歯",
+   "kana": "ぎし",
+   "romaji": "gishi",
+   "arti": "gigi palsu, gigi buatan",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "義歯|ぎし"
+   ]
+  },
+  {
+   "id": "kg-226",
+   "kata": "起床",
+   "kana": "きしょう",
+   "romaji": "kishou",
+   "arti": "bangun tidur",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "起床|きしょう"
+   ]
+  },
+  {
+   "id": "kg-227",
+   "kata": "くし",
+   "kana": "くし",
+   "romaji": "kushi",
+   "arti": "sisir",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ]
+  },
+  {
+   "id": "kg-228",
+   "kata": "更衣",
+   "kana": "こうい",
+   "romaji": "koui",
+   "arti": "berganti pakaian",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "更衣|こうい"
+   ]
+  },
+  {
+   "id": "kg-229",
+   "kata": "下着",
+   "kana": "したぎ",
+   "romaji": "shitagi",
+   "arti": "pakaian dalam",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "下着|したぎ"
+   ]
+  },
+  {
+   "id": "kg-230",
+   "kata": "スカート",
+   "kana": "すかーと",
+   "romaji": "sukaato",
+   "arti": "rok",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ]
+  },
+  {
+   "id": "kg-231",
+   "kata": "歯医者",
+   "kana": "はいしゃ",
+   "romaji": "haisha",
+   "arti": "dokter gigi",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "歯医者|はいしゃ"
+   ]
+  },
+  {
+   "id": "kg-232",
+   "kata": "歯ブラシ",
+   "kana": "はぶらし",
+   "romaji": "haburashi",
+   "arti": "sikat gigi",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "歯ブラシ|はぶらし"
+   ]
+  },
+  {
+   "id": "kg-233",
+   "kata": "歯磨き",
+   "kana": "はみがき",
+   "romaji": "hamigaki",
+   "arti": "pasta gigi",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "歯磨き|はみがき"
+   ]
+  },
+  {
+   "id": "kg-234",
+   "kata": "パンツ",
+   "kana": "ぱんつ",
+   "romaji": "pantsu",
+   "arti": "celana dalam",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ]
+  },
+  {
+   "id": "kg-235",
+   "kata": "ひげ剃り",
+   "kana": "ひげそり",
+   "romaji": "higesori",
+   "arti": "pisau cukur",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "ひげ剃り|ひげそり"
+   ]
+  },
+  {
+   "id": "kg-236",
+   "kata": "みじたく",
+   "kana": "みじたく",
+   "romaji": "mijitaku",
+   "arti": "merapikan diri",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ]
+  },
+  {
+   "id": "kg-237",
+   "kata": "洋服",
+   "kana": "ようふく",
+   "romaji": "youfuku",
+   "arti": "pakaian",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "洋服|ようふく"
+   ]
+  },
+  {
+   "id": "kg-238",
+   "kata": "診察",
+   "kana": "しんさつ",
+   "romaji": "shinsatsu",
+   "arti": "pemeriksaan medis",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "診察|しんさつ"
+   ]
+  },
+  {
+   "id": "kg-239",
+   "kata": "左側",
+   "kana": "ひだりがわ",
+   "romaji": "hidarigawa",
+   "arti": "sisi kiri",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "左側|ひだりがわ"
+   ]
+  },
+  {
+   "id": "kg-240",
+   "kata": "右側",
+   "kana": "みぎがわ",
+   "romaji": "migigawa",
+   "arti": "sisi kanan",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "右側|みぎがわ"
+   ]
+  },
+  {
+   "id": "kg-241",
+   "kata": "診る",
+   "kana": "みる",
+   "romaji": "miru",
+   "arti": "memeriksa",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "診る|みる"
+   ]
+  },
+  {
+   "id": "kg-242",
+   "kata": "夜中",
+   "kana": "よなか",
+   "romaji": "yonaka",
+   "arti": "tengah malam",
+   "cat": "Merapikan diri",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "夜中|よなか"
+   ]
+  },
+  {
+   "id": "kg-243",
+   "kata": "脱健着患",
+   "kana": "だっけんちゃっかん",
+   "romaji": "dakkenchakkan",
+   "arti": "lepas dari sisi sehat, pakai dari sisi sakit",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "脱健着患|だっけんちゃっかん"
+   ]
+  },
+  {
+   "id": "kg-244",
+   "kata": "整容",
+   "kana": "せいよう",
+   "romaji": "seiyou",
+   "arti": "merapikan penampilan",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s4"
+   ],
+   "rb": [
+    "整容|せいよう"
+   ]
+  },
+  {
+   "id": "kg-245",
+   "kata": "温度",
+   "kana": "おんど",
+   "romaji": "ondo",
+   "arti": "suhu",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "温度|おんど"
+   ]
+  },
+  {
+   "id": "kg-246",
+   "kata": "（汗を）かく",
+   "kana": "（あせを）かく",
+   "romaji": "（aseo）kaku",
+   "arti": "berkeringat",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ]
+  },
+  {
+   "id": "kg-247",
+   "kata": "シャンプー",
+   "kana": "しゃんぷー",
+   "romaji": "shanpuu",
+   "arti": "sampo",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ]
+  },
+  {
+   "id": "kg-248",
+   "kata": "消毒",
+   "kana": "しょうどく",
+   "romaji": "shoudoku",
+   "arti": "disinfeksi",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "消毒|しょうどく"
+   ]
+  },
+  {
+   "id": "kg-249",
+   "kata": "消毒液",
+   "kana": "しょうどくえき",
+   "romaji": "shoudokueki",
+   "arti": "larutan antiseptik",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "消毒液|しょうどくえき"
+   ]
+  },
+  {
+   "id": "kg-250",
+   "kata": "清潔保持",
+   "kana": "せいけつほじ",
+   "romaji": "seiketsuhoji",
+   "arti": "menjaga kebersihan tubuh",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "清潔保持|せいけつほじ"
+   ]
+  },
+  {
+   "id": "kg-251",
+   "kata": "清拭",
+   "kana": "せいしき",
+   "romaji": "seishiki",
+   "arti": "mandi seka",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "清拭|せいしき"
+   ]
+  },
+  {
+   "id": "kg-252",
+   "kata": "洗髪",
+   "kana": "せんぱつ",
+   "romaji": "senpatsu",
+   "arti": "keramas",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "洗髪|せんぱつ"
+   ]
+  },
+  {
+   "id": "kg-253",
+   "kata": "洗面",
+   "kana": "せんめん",
+   "romaji": "senmen",
+   "arti": "cuci muka",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "洗面|せんめん"
+   ]
+  },
+  {
+   "id": "kg-254",
+   "kata": "洗面器",
+   "kana": "せんめんき",
+   "romaji": "senmenki",
+   "arti": "baskom",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "洗面器|せんめんき"
+   ]
+  },
+  {
+   "id": "kg-255",
+   "kata": "脱衣室",
+   "kana": "だついしつ",
+   "romaji": "datsuishitsu",
+   "arti": "ruang ganti pakaian",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "脱衣室|だついしつ"
+   ]
+  },
+  {
+   "id": "kg-256",
+   "kata": "入浴",
+   "kana": "にゅうよく",
+   "romaji": "nyuuyoku",
+   "arti": "mandi",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "入浴|にゅうよく"
+   ]
+  },
+  {
+   "id": "kg-257",
+   "kata": "拭く",
+   "kana": "ふく",
+   "romaji": "fuku",
+   "arti": "menyeka",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "拭く|ふく"
+   ]
+  },
+  {
+   "id": "kg-258",
+   "kata": "浴室",
+   "kana": "よくしつ",
+   "romaji": "yokushitsu",
+   "arti": "kamar mandi",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "浴室|よくしつ"
+   ]
+  },
+  {
+   "id": "kg-259",
+   "kata": "浴槽",
+   "kana": "よくそう",
+   "romaji": "yokusou",
+   "arti": "bak mandi",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "浴槽|よくそう"
+   ]
+  },
+  {
+   "id": "kg-260",
+   "kata": "リンス",
+   "kana": "りんす",
+   "romaji": "rinsu",
+   "arti": "kondisioner",
+   "cat": "Mandi & kebersihan",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ]
+  },
+  {
+   "id": "kg-261",
+   "kata": "手浴",
+   "kana": "しゅよく",
+   "romaji": "shuyoku",
+   "arti": "mandi tangan",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "手浴|しゅよく"
+   ]
+  },
+  {
+   "id": "kg-262",
+   "kata": "足浴",
+   "kana": "そくよく",
+   "romaji": "sokuyoku",
+   "arti": "mandi kaki",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "足浴|そくよく"
+   ]
+  },
+  {
+   "id": "kg-263",
+   "kata": "皮膚",
+   "kana": "ひふ",
+   "romaji": "hifu",
+   "arti": "kulit",
+   "cat": "Istilah kunci",
+   "bab": "bab4",
+   "src": [
+    "k4s5"
+   ],
+   "rb": [
+    "皮膚|ひふ"
+   ]
+  },
+  {
+   "id": "kg-264",
+   "kata": "おしぼり",
+   "kana": "おしぼり",
+   "romaji": "oshibori",
+   "arti": "lap tangan basah",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ]
+  },
+  {
+   "id": "kg-265",
+   "kata": "カーテン",
+   "kana": "かーてん",
+   "romaji": "kaaten",
+   "arti": "tirai",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ]
+  },
+  {
+   "id": "kg-266",
+   "kata": "家事",
+   "kana": "かじ",
+   "romaji": "kaji",
+   "arti": "pekerjaan rumah",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "家事|かじ"
+   ]
+  },
+  {
+   "id": "kg-267",
+   "kata": "片付ける",
+   "kana": "かたづける",
+   "romaji": "katazukeru",
+   "arti": "membereskan",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "片付ける|かたづける"
+   ]
+  },
+  {
+   "id": "kg-268",
+   "kata": "乾かす",
+   "kana": "かわかす",
+   "romaji": "kawakasu",
+   "arti": "mengeringkan",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "乾かす|かわかす"
+   ]
+  },
+  {
+   "id": "kg-269",
+   "kata": "乾く",
+   "kana": "かわく",
+   "romaji": "kawaku",
+   "arti": "mengering",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "乾く|かわく"
+   ]
+  },
+  {
+   "id": "kg-270",
+   "kata": "換気",
+   "kana": "かんき",
+   "romaji": "kanki",
+   "arti": "pergantian udara",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "換気|かんき"
+   ]
+  },
+  {
+   "id": "kg-271",
+   "kata": "ごみ箱",
+   "kana": "ごみばこ",
+   "romaji": "gomibako",
+   "arti": "kotak sampah",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "ごみ箱|ごみばこ"
+   ]
+  },
+  {
+   "id": "kg-272",
+   "kata": "清掃",
+   "kana": "せいそう",
+   "romaji": "seisou",
+   "arti": "membersihkan",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "清掃|せいそう"
+   ]
+  },
+  {
+   "id": "kg-273",
+   "kata": "洗濯",
+   "kana": "せんたく",
+   "romaji": "sentaku",
+   "arti": "mencuci (pakaian)",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "洗濯|せんたく"
+   ]
+  },
+  {
+   "id": "kg-274",
+   "kata": "洗濯物",
+   "kana": "せんたくもの",
+   "romaji": "sentakumono",
+   "arti": "cucian",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "洗濯物|せんたくもの"
+   ]
+  },
+  {
+   "id": "kg-275",
+   "kata": "掃除",
+   "kana": "そうじ",
+   "romaji": "souji",
+   "arti": "membersihkan",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "掃除|そうじ"
+   ]
+  },
+  {
+   "id": "kg-276",
+   "kata": "たたむ",
+   "kana": "たたむ",
+   "romaji": "tatamu",
+   "arti": "melipat",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ]
+  },
+  {
+   "id": "kg-277",
+   "kata": "調理",
+   "kana": "ちょうり",
+   "romaji": "chouri",
+   "arti": "memasak",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "調理|ちょうり"
+   ]
+  },
+  {
+   "id": "kg-278",
+   "kata": "布団",
+   "kana": "ふとん",
+   "romaji": "futon",
+   "arti": "kasur",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "布団|ふとん"
+   ]
+  },
+  {
+   "id": "kg-279",
+   "kata": "干す",
+   "kana": "ほす",
+   "romaji": "hosu",
+   "arti": "menjemur",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "干す|ほす"
+   ]
+  },
+  {
+   "id": "kg-280",
+   "kata": "枕",
+   "kana": "まくら",
+   "romaji": "makura",
+   "arti": "bantal",
+   "cat": "Pekerjaan rumah",
+   "bab": "bab4",
+   "src": [
+    "k4s6"
+   ],
+   "rb": [
+    "枕|まくら"
+   ]
+  }
+ ]
+}

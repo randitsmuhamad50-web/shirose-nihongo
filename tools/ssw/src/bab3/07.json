@@ -1,0 +1,65 @@
+{
+ "id": "b3s7", "no": 7,
+ "title": { "id": "Polisher: Cara Membersihkan Lantai", "jp": "ポリッシャー：床の清掃のしかた" },
+ "pages": [70, 72],
+ "full": {
+  "id": [
+   { "h": "Menggerakkan polisher" },
+   { "ul": [
+     "Jika body dimiringkan ke kanan dan kiri, polisher bergerak maju mundur: ① maju = miringkan ke kiri; ② mundur = miringkan ke kanan.",
+     "Gunakan polisher tanpa banyak tenaga. Cukup gerakkan dengan pegangannya."
+   ] },
+   { "h": "Urutan membersihkan" },
+   { "ul": [
+     "Pertama, tebarkan karbol pada sisi luar dan bersihkan berlawanan arah jarum jam.",
+     "Jangan sampai menabrak plint dinding dan perabotan; jangan mengotori plint dinding dan tembok saat menggerakkan kepala pel (di dekat dinding bergerak dari kanan ke kiri; kotoran masuk ke dalam).",
+     "Mulai dari tempat paling jauh dari stop kontak; posisikan kabel dekat plint dinding.",
+     "Bersihkan bagian tengah sambil mundur mendekati stop kontak."
+   ] },
+   { "h": "Tekanan pad" },
+   { "ul": [
+     "Biasanya pemula menekan satu bagian padnya. Sesuaikan pad secara horizontal agar tekanan dapat merata.",
+     "Bersihkan dengan menumpukkan 1/3 lebar pad."
+   ] },
+   { "h": "Mengelola kabel" },
+   { "ul": [
+     "Hati-hati jangan sampai menginjak atau membelit kabel saat membersihkan.",
+     "Singkirkan kabel ke kiri dan kanan sambil membersihkan (kendalikan dengan tangan kiri). Berikan jarak untuk polisher bergerak.",
+     "Berbahaya jika kabel terlalu panjang, jadi gulung kabelnya."
+   ] },
+   { "h": "Area luas atau ada furnitur" },
+   { "p": "Jika perlu memindahkan furnitur yang ada, bagi dulu area kerja baru bersihkan secara efisien (①〜⑥). Pindahkan furnitur dan berikan ruang untuk membersihkan." }
+  ],
+  "jp": [
+   { "h": "ポリッシャーの{動|うご}かし{方|かた}" },
+   { "ul": [
+     "{本体|ほんたい}を{左右|さゆう}に{傾|かたむ}けると{前後|ぜんご}へ{移動|いどう}する：①{前進|ぜんしん}＝{左|ひだり}へ{傾|かたむ}ける、②{後退|こうたい}＝{右|みぎ}へ{傾|かたむ}ける。",
+     "ポリッシャーは{力|ちから}を{入|い}れずにハンドル{操作|そうさ}で{移動|いどう}させる。"
+   ] },
+   { "h": "{清掃|せいそう}の{順番|じゅんばん}" },
+   { "ul": [
+     "はじめは{外周|がいしゅう}に{洗剤|せんざい}をまきながら{反時計回|はんとけいまわ}りに{清掃|せいそう}しよう。",
+     "{幅木|はばき}や{家具|かぐ}にぶつけないように{注意|ちゅうい}！{壁際|かべぎわ}は{右|みぎ}から{左|ひだり}へ{移動|いどう}すると{壁|かべ}や{幅木|はばき}を{汚|よご}さない（{汚|よご}れが{内側|うちがわ}へ{入|はい}り{込|こ}む）。",
+     "{電源|でんげん}から{一番遠|いちばんとお}いところから。コードを{壁際|かべぎわ}に{這|は}わせる。",
+     "{電源側|でんげんがわ}へ{下|さ}がりながら{中央|ちゅうおう}を{清掃|せいそう}していこう。"
+   ] },
+   { "h": "パッドへの{圧|あつ}" },
+   { "ul": [
+     "{初心者|しょしんしゃ}はパッドの{一部|いちぶ}に{圧|あつ}をかけてしまうことがある。{均等|きんとう}に{圧|あつ}がかかるようにパッドを{水平|すいへい}に{調整|ちょうせい}しよう。",
+     "パッド{幅|はば}を1/3{程|ほど}{重|かさ}ねるように{清掃|せいそう}していこうね。"
+   ] },
+   { "h": "コードの{扱|あつか}い" },
+   { "ul": [
+     "{移動|いどう}のときはコードを{踏|ふ}んだり{巻|ま}き{込|こ}まないように{気|き}をつけて。",
+     "コードを{左手|ひだりて}でさばきながら{移動|いどう}しよう（ポリッシャーが{進|すす}むスペースを{確保|かくほ}する）。",
+     "コードが{余|あま}ってきたら{危険|きけん}なので{巻|ま}き{取|と}っておこうね。"
+   ] },
+   { "h": "{広|ひろ}い{場所|ばしょ}や{家具|かぐ}がある{場合|ばあい}" },
+   { "p": "{広|ひろ}い{場所|ばしょ}や{家具|かぐ}の{移動|いどう}が{必要|ひつよう}な{場合|ばあい}は{作業範囲|さぎょうはんい}を{分割|ぶんかつ}して{効率的|こうりつてき}に{清掃|せいそう}しよう（①〜⑥）。{家具|かぐ}を{移動|いどう}させて{作業|さぎょう}スペースを{確保|かくほ}。" }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Polisher digerakkan dengan pegangan, tanpa tenaga. Mulai dari tempat terjauh dari stop kontak, tumpuk 1/3 lebar pad, kelola kabel.", "points": ["Miring kiri = maju; kanan = mundur.", "Sisi luar dulu, berlawanan arah jarum jam.", "Pad horizontal agar tekanan merata.", "Gulung kabel yang berlebih."], "avoid": ["Menekan satu bagian pad.", "Menginjak/membelit kabel.", "Menabrak plint dan perabotan."], "exam": ["Tumpukan lebar pad (1/3).", "Arah putaran sisi luar."] },
+  "jp": { "core": "ポリッシャーは{力|ちから}を{入|い}れずハンドルで{操作|そうさ}。{電源|でんげん}から{遠|とお}い{所|ところ}から、パッド{幅|はば}1/3{重|かさ}ねる。", "points": ["{左|ひだり}へ{傾|かたむ}ける＝{前進|ぜんしん}・{右|みぎ}＝{後退|こうたい}", "{外周|がいしゅう}から{反時計回|はんとけいまわ}り", "パッドを{水平|すいへい}に", "{余|あま}ったコードは{巻|ま}く"], "avoid": ["パッドの{一部|いちぶ}だけに{圧|あつ}", "コードを{踏|ふ}む・{巻|ま}き{込|こ}む", "{幅木|はばき}や{家具|かぐ}にぶつける"], "exam": ["パッド{幅|はば}の{重|かさ}ね（1/3）", "{外周|がいしゅう}の{回|まわ}る{向|む}き"] }
+ }
+}

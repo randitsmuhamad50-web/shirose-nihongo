@@ -1,0 +1,67 @@
+{
+ "id": "b2s14", "no": 14,
+ "title": { "id": "Toilet ③ Urinoir", "jp": "トイレ清掃 ③小便器" },
+ "pages": [48, 50],
+ "full": {
+  "id": [
+   { "h": "3 proses membersihkan urinoir" },
+   { "ol": [
+     "Membersihkan urinoir bagian dalam.",
+     "Mengelap urinoir bagian luar (basah).",
+     "Mengelap bagian yang disentuh orang (kering): rak, sensor manusia."
+   ] },
+   { "h": "Persiapan" },
+   { "ul": [
+     "Pertama tutup sensor manusia dengan kain lap, baru mulailah membersihkan.",
+     "Pakai sarung tangan untuk toilet. Lipat ujung sarung tangan untuk mencegah tetesan kena tangan (terutama saat membersihkan bagian atas)."
+   ] },
+   { "h": "Bagian dalam urinoir" },
+   { "ul": [
+     "Lepaskan penutup lubang urinoir (me-zara), masukkan ke ember berisi karbol yang diletakkan di atas curing mat.",
+     "Bersihkan bagian dalam dari atas ke bawah dengan pad putih yang sudah disemprot karbol.",
+     "Bersihkan dengan hati-hati, jangan ada yang tersisa. Jangan lupa rim sisi belakang juga dan bagian dalam bawah (tampungan).",
+     "Bersihkan lubang urinoir dengan sikat (brush).",
+     "Cuci penutup lubang dengan pad putih di ember. Jika di sini kotor, akan menjadi penyebab bau tidak sedap, jadi bersihkan dengan teliti. Hati-hati jangan sampai penutup lubang pecah.",
+     "Kembalikan penutup lubang yang sudah dibersihkan."
+   ] },
+   { "h": "Bagian luar dan yang disentuh" },
+   { "ul": [
+     "Jika pembersihan bagian dalam selesai, bilas 1 kali dengan air, lalu ambil kain lap.",
+     "Lap bagian luar urinoir dengan lap basah yang sudah diperas.",
+     "Bersihkan dengan air dan lap yang berbeda dengan lap urinoir untuk rak dan pegangan yang sering disentuh orang. Setelahnya, lap dengan lap kering, kemudian selesai. Lepaskan sarung tangan."
+   ] }
+  ],
+  "jp": [
+   { "h": "{小便器清掃|しょうべんきせいそう}の3つの{工程|こうてい}" },
+   { "ol": [
+     "{便器内|べんきない}の{洗浄|せんじょう}",
+     "{便器外側|べんきそとがわ}の{水拭|みずぶ}き",
+     "{人|ひと}が{触|さわ}る{場所|ばしょ}の{乾拭|からぶ}き（{棚|たな}、{人感|じんかん}センサー）"
+   ] },
+   { "h": "{準備|じゅんび}" },
+   { "ul": [
+     "{人感|じんかん}センサーをタオルで{覆|おお}ってから{作業|さぎょう}を{開始|かいし}しよう。",
+     "{便器用手袋|べんきようてぶくろ}。{手袋|てぶくろ}は{裾|すそ}を{折|お}り{返|かえ}しておくと{垂|た}れを{防止|ぼうし}できる（{上部|じょうぶ}の{清掃時|せいそうじ}）。"
+   ] },
+   { "h": "{便器内|べんきない}" },
+   { "ul": [
+     "はじめに{目皿|めざら}をはずしてバケツに{入|い}れる（{洗剤|せんざい}を{入|い}れたバケツ、{養生|ようじょう}マットの{上|うえ}）。",
+     "{便器内|べんきない}は{洗剤|せんざい}をつけた{白|しろ}パッドで{上|うえ}から{下|した}へ{清掃|せいそう}していこう。",
+     "{洗|あら}い{残|のこ}しのないように{丹念|たんねん}に{清掃|せいそう}。リムの{裏側|うらがわ}も{忘|わす}れずに。タレ{受|う}けも{洗|あら}う。",
+     "{続|つづ}いてトラップの{中|なか}をブラシで{清掃|せいそう}しよう。",
+     "{目皿|めざら}を{白|しろ}パッドで{清掃|せいそう}。ここが{汚|よご}れていると{悪臭|あくしゅう}の{原因|げんいん}になるのでしっかり{清掃|せいそう}。{目皿|めざら}を{割|わ}らないように{注意|ちゅうい}！",
+     "{清掃|せいそう}した{目皿|めざら}は{便器|べんき}に{戻|もど}しておこう。"
+   ] },
+   { "h": "{外側|そとがわ}と{触|さわ}る{場所|ばしょ}" },
+   { "ul": [
+     "{内部|ないぶ}の{清掃|せいそう}が{終|お}わったら{一度水|いちどみず}を{流|なが}してからタオルを{取|と}る。",
+     "{硬|かた}く{絞|しぼ}った{便器用|べんきよう}のタオルで{外側|そとがわ}を{拭|ふ}き{上|あ}げよう。",
+     "{棚|たな}や{手摺|てすり}など{人|ひと}が{触|ふ}れるところを{便器|べんき}と{別|べつ}のタオルで{水拭|みずぶ}きしてから{乾|かわ}いたタオルで{乾拭|からぶ}きして{仕上|しあ}げて{作業完了|さぎょうかんりょう}。{手袋|てぶくろ}を{外|はず}す。"
+   ] }
+  ]
+ },
+ "summary": {
+  "id": { "core": "Urinoir: tutup sensor, bersihkan dalam atas ke bawah (jangan lupa rim & penutup lubang), lap luar basah, lap bagian yang disentuh kering.", "points": ["3 proses: dalam → luar basah → yang disentuh kering.", "Tutup sensor dengan kain.", "Lipat ujung sarung tangan.", "Penutup lubang di ember; jangan pecah.", "Lap rak/pegangan dengan lap berbeda."], "avoid": ["Melewatkan rim belakang.", "Memecahkan penutup lubang.", "Memakai lap urinoir untuk rak/pegangan."], "exam": ["3 proses urinoir.", "Penyebab bau (penutup lubang kotor)."] },
+  "jp": { "core": "{小便器|しょうべんき}：センサーを{覆|おお}う→{内|うち}（{上|うえ}から{下|した}）→{外|そと}{水拭|みずぶ}き→{触|さわ}る{所|ところ}{乾拭|からぶ}き。", "points": ["3{工程|こうてい}：{内|うち}→{外|そと}{水拭|みずぶ}き→{乾拭|からぶ}き", "センサーをタオルで{覆|おお}う", "{手袋|てぶくろ}の{裾|すそ}を{折|お}る", "{目皿|めざら}はバケツで・{割|わ}らない", "{触|さわ}る{場所|ばしょ}は{別|べつ}タオル"], "avoid": ["リムの{裏|うら}を{忘|わす}れる", "{目皿|めざら}を{割|わ}る", "{便器|べんき}のタオルで{棚|たな}を{拭|ふ}く"], "exam": ["{小便器|しょうべんき}の3{工程|こうてい}", "{悪臭|あくしゅう}の{原因|げんいん}"] }
+ }
+}

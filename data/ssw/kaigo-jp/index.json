@@ -1,0 +1,26 @@
+{
+ "slug": "kaigo-jp",
+ "nama": "Kaigo (Bahasa Jepang)",
+ "jp": "介護の日本語",
+ "assets": "kaigo",
+ "book": "id",
+ "pages": {
+  "id": 271
+ },
+ "bab": [
+  {
+   "id": "bab1",
+   "file": "bab1.json"
+  },
+  {
+   "id": "bab2",
+   "file": "bab2.json"
+  },
+  {
+   "id": "bab3",
+   "file": "bab3.json"
+  }
+ ],
+ "vocab": "vocab.json",
+ "quiz": "quiz.json"
+}

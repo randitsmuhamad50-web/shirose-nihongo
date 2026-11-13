@@ -1,0 +1,958 @@
+{
+"slug": "food-manufacturing",
+"note": "Gambar dipotong otomatis dari halaman buku resmi; judul/penjelasan disusun dari teks pada gambar + kosakata (auto:true = perlu penyuntingan manusia).",
+"figs": [
+{
+"id": "food-manufacturing-jp-p007-0",
+"sub": "m1s1",
+"book": "jp",
+"page": 7,
+"y": 0.2,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p007-0.webp",
+"w": 771,
+"h": 184,
+"cap": {
+"id": "Industri dan Keterampilan yang Dibutuhkan",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Industri dan Keterampilan yang Dibutuhkan». Istilah yang tampak di gambar: 飲食料品製造業 (industri pengolahan makanan dan minuman).",
+"jp": "テキスト7ページ「飲食料品製造業の仕事」の図。図の中の用語：飲食料品製造業。"
+},
+"terms": [
+"fm-012"
+],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p007-1",
+"sub": "m1s1",
+"book": "jp",
+"page": 7,
+"y": 0.62,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p007-1.webp",
+"w": 729,
+"h": 692,
+"cap": {
+"id": "Industri dan Keterampilan yang Dibutuhkan",
+"jp": "Oeesや"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 7, untuk subbab «Industri dan Keterampilan yang Dibutuhkan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト7ページ「飲食料品製造業の仕事」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p008-0",
+"sub": "m1s1",
+"book": "jp",
+"page": 8,
+"y": 0.8,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p008-0.webp",
+"w": 166,
+"h": 210,
+"cap": {
+"id": "Industri dan Keterampilan yang Dibutuhkan",
+"jp": "飲食料品製造業の仕事"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 8, untuk subbab «Industri dan Keterampilan yang Dibutuhkan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト8ページ「飲食料品製造業の仕事」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p011-0",
+"sub": "m2s1",
+"book": "jp",
+"page": 11,
+"y": 0.33,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p011-0.webp",
+"w": 401,
+"h": 306,
+"cap": {
+"id": "Kebersihan Pangan, Bahaya Fisik dan Kimia",
+"jp": "要管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 11, untuk subbab «Kebersihan Pangan, Bahaya Fisik dan Kimia». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト11ページ「危害要因：物理的・化学的」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p012-0",
+"sub": "m2s1",
+"book": "jp",
+"page": 12,
+"y": 0.46,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p012-0.webp",
+"w": 745,
+"h": 170,
+"cap": {
+"id": "Kebersihan Pangan, Bahaya Fisik dan Kimia",
+"jp": "3とモくべん"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 12, untuk subbab «Kebersihan Pangan, Bahaya Fisik dan Kimia». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト12ページ「危害要因：物理的・化学的」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p014-0",
+"sub": "m2s1",
+"book": "jp",
+"page": 14,
+"y": 0.31,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p014-0.webp",
+"w": 376,
+"h": 208,
+"cap": {
+"id": "Kebersihan Pangan, Bahaya Fisik dan Kimia",
+"jp": "あわび"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 14, untuk subbab «Kebersihan Pangan, Bahaya Fisik dan Kimia». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト14ページ「危害要因：物理的・化学的」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p016-0",
+"sub": "m2s2",
+"book": "jp",
+"page": 16,
+"y": 0.45,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p016-0.webp",
+"w": 765,
+"h": 847,
+"cap": {
+"id": "Bahaya Biologis: Bakteri, Virus, Jamur, Parasit",
+"jp": "食中"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 16, untuk subbab «Bahaya Biologis: Bakteri, Virus, Jamur, Parasit». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト16ページ「生物的危害要因」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p024-0",
+"sub": "m2s4",
+"book": "jp",
+"page": 24,
+"y": 0.59,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p024-0.webp",
+"w": 201,
+"h": 208,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "上MM"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 24, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト24ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p025-0",
+"sub": "m2s4",
+"book": "jp",
+"page": 25,
+"y": 0.48,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p025-0.webp",
+"w": 136,
+"h": 151,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "作業者の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト25ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p025-1",
+"sub": "m2s4",
+"book": "jp",
+"page": 25,
+"y": 0.74,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p025-1.webp",
+"w": 161,
+"h": 163,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "作業者の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 25, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト25ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p026-0",
+"sub": "m2s4",
+"book": "jp",
+"page": 26,
+"y": 0.36,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p026-0.webp",
+"w": 295,
+"h": 356,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "作業者の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 26, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト26ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p026-1",
+"sub": "m2s4",
+"book": "jp",
+"page": 26,
+"y": 0.36,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p026-1.webp",
+"w": 143,
+"h": 213,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "作業者の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 26, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト26ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p027-0",
+"sub": "m2s4",
+"book": "jp",
+"page": 27,
+"y": 0.38,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p027-0.webp",
+"w": 766,
+"h": 671,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "へアーネットを"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 27, untuk subbab «Kebersihan Pekerja». Istilah yang tampak di gambar: 作業服 (pakaian kerja).",
+"jp": "テキスト27ページ「作業者の衛生管理」の図。図の中の用語：作業服。"
+},
+"terms": [
+"fm-050"
+],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p027-1",
+"sub": "m2s4",
+"book": "jp",
+"page": 27,
+"y": 0.76,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p027-1.webp",
+"w": 185,
+"h": 266,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "作業者の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 27, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト27ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p028-0",
+"sub": "m2s4",
+"book": "jp",
+"page": 28,
+"y": 0.4,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p028-0.webp",
+"w": 741,
+"h": 744,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "io湯科gi"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 28, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト28ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p028-1",
+"sub": "m2s4",
+"book": "jp",
+"page": 28,
+"y": 0.8,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p028-1.webp",
+"w": 741,
+"h": 272,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "まちがっている着け方"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 28, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト28ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p030-0",
+"sub": "m2s4",
+"book": "jp",
+"page": 30,
+"y": 0.53,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p030-0.webp",
+"w": 308,
+"h": 1007,
+"cap": {
+"id": "Kebersihan Pekerja",
+"jp": "aこ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 30, untuk subbab «Kebersihan Pekerja». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト30ページ「作業者の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p034-0",
+"sub": "m2s5",
+"book": "jp",
+"page": 34,
+"y": 0.5,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p034-0.webp",
+"w": 729,
+"h": 766,
+"cap": {
+"id": "Kebersihan Bahan Baku dan Proses Produksi",
+"jp": "てゅるい"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 34, untuk subbab «Kebersihan Bahan Baku dan Proses Produksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト34ページ「原材料・製造工程の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p038-0",
+"sub": "m2s5",
+"book": "jp",
+"page": 38,
+"y": 0.67,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p038-0.webp",
+"w": 706,
+"h": 140,
+"cap": {
+"id": "Kebersihan Bahan Baku dan Proses Produksi",
+"jp": "FRIアタ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 38, untuk subbab «Kebersihan Bahan Baku dan Proses Produksi». Istilah yang tampak di gambar: 芽胞 (spora bakteri); セレウス菌 (bakteri Bacillus cereus); 中心温度 (suhu bagian tengah); ノロウイルス (norovirus).",
+"jp": "テキスト38ページ「原材料・製造工程の衛生管理」の図。図の中の用語：芽胞、セレウス菌、中心温度、ノロウイルス。"
+},
+"terms": [
+"fm-101",
+"fm-078",
+"fm-086",
+"fm-027"
+],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p039-0",
+"sub": "m2s5",
+"book": "jp",
+"page": 39,
+"y": 0.55,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p039-0.webp",
+"w": 264,
+"h": 246,
+"cap": {
+"id": "Kebersihan Bahan Baku dan Proses Produksi",
+"jp": "原材料・製造工程の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 39, untuk subbab «Kebersihan Bahan Baku dan Proses Produksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト39ページ「原材料・製造工程の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p040-0",
+"sub": "m2s5",
+"book": "jp",
+"page": 40,
+"y": 0.62,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p040-0.webp",
+"w": 248,
+"h": 215,
+"cap": {
+"id": "Kebersihan Bahan Baku dan Proses Produksi",
+"jp": "原材料・製造工程の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 40, untuk subbab «Kebersihan Bahan Baku dan Proses Produksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト40ページ「原材料・製造工程の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p041-0",
+"sub": "m2s5",
+"book": "jp",
+"page": 41,
+"y": 0.42,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p041-0.webp",
+"w": 140,
+"h": 277,
+"cap": {
+"id": "Kebersihan Bahan Baku dan Proses Produksi",
+"jp": "原材料・製造工程の衛生管理"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 41, untuk subbab «Kebersihan Bahan Baku dan Proses Produksi». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト41ページ「原材料・製造工程の衛生管理」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p045-0",
+"sub": "m2s6",
+"book": "jp",
+"page": 45,
+"y": 0.62,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p045-0.webp",
+"w": 177,
+"h": 244,
+"cap": {
+"id": "Pengelolaan Higiene dengan HACCP",
+"jp": "RY月"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 45, untuk subbab «Pengelolaan Higiene dengan HACCP». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト45ページ「ＨＡＣＣＰ」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p048-0",
+"sub": "m3s1",
+"book": "jp",
+"page": 48,
+"y": 0.75,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p048-0.webp",
+"w": 325,
+"h": 334,
+"cap": {
+"id": "Kecelakaan Kerja di Industri Pangan",
+"jp": "労働災害"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 48, untuk subbab «Kecelakaan Kerja di Industri Pangan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト48ページ「労働災害」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p052-0",
+"sub": "m3s2",
+"book": "jp",
+"page": 52,
+"y": 0.56,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p052-0.webp",
+"w": 754,
+"h": 928,
+"cap": {
+"id": "5S, Pakaian, dan Alat Pelindung Diri",
+"jp": "とうugし"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 52, untuk subbab «5S, Pakaian, dan Alat Pelindung Diri». Istilah yang tampak di gambar: ヘルメット (helm); 保護メガネ (kacamata pelindung).",
+"jp": "テキスト52ページ「５Ｓ・服装・保護具」の図。図の中の用語：ヘルメット、保護メガネ。"
+},
+"terms": [
+"fm-121",
+"fm-125"
+],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p053-0",
+"sub": "m3s3",
+"book": "jp",
+"page": 53,
+"y": 0.4,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p053-0.webp",
+"w": 233,
+"h": 155,
+"cap": {
+"id": "Patuhi SOP, Aturan, dan Tanda Keselamatan",
+"jp": "作業手順書とルール"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 53, untuk subbab «Patuhi SOP, Aturan, dan Tanda Keselamatan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト53ページ「作業手順書とルール」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p053-1",
+"sub": "m3s3",
+"book": "jp",
+"page": 53,
+"y": 0.64,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p053-1.webp",
+"w": 211,
+"h": 127,
+"cap": {
+"id": "Patuhi SOP, Aturan, dan Tanda Keselamatan",
+"jp": "作業手順書とルール"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 53, untuk subbab «Patuhi SOP, Aturan, dan Tanda Keselamatan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト53ページ「作業手順書とルール」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p054-0",
+"sub": "m3s3",
+"book": "jp",
+"page": 54,
+"y": 0.2,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p054-0.webp",
+"w": 174,
+"h": 163,
+"cap": {
+"id": "Patuhi SOP, Aturan, dan Tanda Keselamatan",
+"jp": "ーデ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 54, untuk subbab «Patuhi SOP, Aturan, dan Tanda Keselamatan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト54ページ「作業手順書とルール」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p055-0",
+"sub": "m3s4",
+"book": "jp",
+"page": 55,
+"y": 0.86,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p055-0.webp",
+"w": 275,
+"h": 175,
+"cap": {
+"id": "Memakai Mesin dengan Benar",
+"jp": "機械を正しく使う"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 55, untuk subbab «Memakai Mesin dengan Benar». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト55ページ「機械を正しく使う」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p058-0",
+"sub": "m3s6",
+"book": "jp",
+"page": 58,
+"y": 0.62,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p058-0.webp",
+"w": 717,
+"h": 446,
+"cap": {
+"id": "Melatih Kepekaan terhadap Bahaya",
+"jp": "においがします"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 58, untuk subbab «Melatih Kepekaan terhadap Bahaya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト58ページ「危険に気づく力」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p059-0",
+"sub": "m3s6",
+"book": "jp",
+"page": 59,
+"y": 0.72,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p059-0.webp",
+"w": 176,
+"h": 201,
+"cap": {
+"id": "Melatih Kepekaan terhadap Bahaya",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 59, untuk subbab «Melatih Kepekaan terhadap Bahaya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト59ページ「危険に気づく力」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p060-0",
+"sub": "m3s6",
+"book": "jp",
+"page": 60,
+"y": 0.74,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p060-0.webp",
+"w": 393,
+"h": 340,
+"cap": {
+"id": "Melatih Kepekaan terhadap Bahaya",
+"jp": "人は"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 60, untuk subbab «Melatih Kepekaan terhadap Bahaya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト60ページ「危険に気づく力」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p060-1",
+"sub": "m3s6",
+"book": "jp",
+"page": 60,
+"y": 0.74,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p060-1.webp",
+"w": 320,
+"h": 340,
+"cap": {
+"id": "Melatih Kepekaan terhadap Bahaya",
+"jp": "穫は"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 60, untuk subbab «Melatih Kepekaan terhadap Bahaya». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト60ページ「危険に気づく力」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p061-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 61,
+"y": 0.67,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p061-0.webp",
+"w": 206,
+"h": 175,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "/ぞ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 61, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト61ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p062-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 62,
+"y": 0.2,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p062-0.webp",
+"w": 242,
+"h": 228,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 62, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト62ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p062-1",
+"sub": "m3s7",
+"book": "jp",
+"page": 62,
+"y": 0.78,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p062-1.webp",
+"w": 262,
+"h": 185,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 62, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト62ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p063-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 63,
+"y": 0.49,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p063-0.webp",
+"w": 226,
+"h": 163,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト63ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p063-1",
+"sub": "m3s7",
+"book": "jp",
+"page": 63,
+"y": 0.83,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p063-1.webp",
+"w": 192,
+"h": 177,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "みあ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 63, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト63ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p064-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 64,
+"y": 0.57,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p064-0.webp",
+"w": 174,
+"h": 156,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 64, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト64ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p065-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 65,
+"y": 0.21,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p065-0.webp",
+"w": 261,
+"h": 263,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 65, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト65ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p065-1",
+"sub": "m3s7",
+"book": "jp",
+"page": 65,
+"y": 0.47,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p065-1.webp",
+"w": 174,
+"h": 151,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 65, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト65ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p066-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 66,
+"y": 0.24,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p066-0.webp",
+"w": 181,
+"h": 172,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "にフリ"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト66ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p066-1",
+"sub": "m3s7",
+"book": "jp",
+"page": 66,
+"y": 0.42,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p066-1.webp",
+"w": 329,
+"h": 198,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 66, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト66ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p067-0",
+"sub": "m3s7",
+"book": "jp",
+"page": 67,
+"y": 0.58,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p067-0.webp",
+"w": 283,
+"h": 261,
+"cap": {
+"id": "Contoh Kasus dan Pencegahan",
+"jp": "事例と予防"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 67, untuk subbab «Contoh Kasus dan Pencegahan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト67ページ「事例と予防」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p068-0",
+"sub": "m3s8",
+"book": "jp",
+"page": 68,
+"y": 0.53,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p068-0.webp",
+"w": 769,
+"h": 1042,
+"cap": {
+"id": "Tanda Keselamatan",
+"jp": "ーー"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 68, untuk subbab «Tanda Keselamatan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト68ページ「安全標識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p069-0",
+"sub": "m3s8",
+"book": "jp",
+"page": 69,
+"y": 0.51,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p069-0.webp",
+"w": 769,
+"h": 1110,
+"cap": {
+"id": "Tanda Keselamatan",
+"jp": "険を知らせる標識"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 69, untuk subbab «Tanda Keselamatan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト69ページ「安全標識」の図。"
+},
+"terms": [],
+"auto": true
+},
+{
+"id": "food-manufacturing-jp-p070-0",
+"sub": "m3s8",
+"book": "jp",
+"page": 70,
+"y": 0.41,
+"src": "./assets/ssw/food-manufacturing/fig/jp-p070-0.webp",
+"w": 520,
+"h": 840,
+"cap": {
+"id": "Tanda Keselamatan",
+"jp": "@自を保護する必要があることを知らせる標識"
+},
+"exp": {
+"id": "Gambar dari buku teks resmi, hal. 70, untuk subbab «Tanda Keselamatan». Ketuk gambar untuk memperbesar; tulisan pada gambar tetap sama dengan buku.",
+"jp": "テキスト70ページ「安全標識」の図。"
+},
+"terms": [],
+"auto": true
+}
+]
+}

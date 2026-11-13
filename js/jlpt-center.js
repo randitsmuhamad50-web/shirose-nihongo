@@ -22,6 +22,8 @@ const JENIS = {
   kanji:  { ico: "漢", nama: "Kanji", jp: "漢字", desc: "Cara baca & penulisan kanji", durasi: 20 },
   kotoba: { ico: "語", nama: "Kotoba", jp: "語彙", desc: "Kosakata: konteks, makna, penggunaan", durasi: 20 },
   bunpou: { ico: "文", nama: "Bunpou", jp: "文法", desc: "Tata bahasa & menyusun kalimat (★)", durasi: 20 },
+  dokkai: { ico: "読", nama: "Dokkai", jp: "読解", desc: "Membaca: teks pendek, menengah, panjang, pencarian informasi", durasi: 20 },
+  star:   { ico: "★", nama: "Bintang ★", jp: "文の組み立て", desc: "Menyusun kalimat (★): pilih potongan yang jatuh di kotak ★, 20 soal per paket", durasi: 20 },
 };
 const CAT_LABEL = { kanji: "Kanji", kotoba: "Kotoba", bunpou: "Bunpou", dokkai: "Dokkai", choukai: "Choukai" };
 const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -97,8 +99,14 @@ export async function renderJlpt(params = []) {
     setTimeout(() => window.route && window.route("login"), 0);
     return `<div class="loading">Memuat…</div>`;
   }
-  const sesi = LS.get(SESI_KEY(), null);
-  const [lv, jenis, pkgId] = params;
+  let sesi = LS.get(SESI_KEY(), null);
+  let [lv, jenis, pkgId] = params;
+  // JLPT Center hanya untuk level yang sedang dipilih siswa (tidak digabung / tidak ada tautan antar level).
+  const cur = curLevel();
+  if (cur) {
+    if (sesi && sesi.lv && sesi.lv !== cur) sesi = null;
+    if (lv !== cur) { lv = cur; jenis = undefined; pkgId = undefined; }
+  }
   try {
     if (sesi && !sesi.selesai && pkgId && sesi.pkgId === pkgId) return await mulaiAtauLanjut(sesi);
     if (!lv) return await viewLevel(sesi);
@@ -116,6 +124,7 @@ export async function renderJlpt(params = []) {
 export async function renderRiwayatJlpt() { stopTimer(); return await viewRiwayat(); }
 export async function renderReviewJlpt(params = []) { stopTimer(); return await viewReviewDariRiwayat(params[0]); }
 
+const curLevel = () => { const l = String(S().level || "").toLowerCase(); return LV.includes(l) ? l : null; };
 function bolehLevel(lv) {
   return typeof window.canAccessLevel === "function" ? window.canAccessLevel(lv) : true;
 }
@@ -222,8 +231,8 @@ async function viewSetup(lv, jenis, pkgId, sesi) {
   const idx = await loadIndex();
   const meta = findMeta(idx, pkgId);
   if (!meta) throw new Error("Paket tidak ditemukan");
-  const def = JENIS[jenis].durasi;
-  const pilihan = jenis === "full" ? [30, 45, 60, 70] : [5, 10, 15, 20];
+  const def = meta.durasi || JENIS[jenis].durasi;
+  const pilihan = [...new Set([...(jenis === "full" ? [30, 45, 60, 70] : [5, 10, 15, 20]), def])].sort((a, b) => a - b);
   const lain = sesi && !sesi.selesai && sesi.pkgId !== pkgId;
   return `
     <div class="panel jx">
@@ -335,7 +344,7 @@ function htmlUjian() {
   const printed = !ck || ck.printed !== false;
   const opsiHtml = q.opts.map((o, i) => `
     <button class="jx-opt ${pilihan === i ? "on" : ""}" onclick="JLPT.jawab(${i})">
-      <span class="k">${ck ? i + 1 : ABCD[i]}</span><span class="t">${printed ? safe(o) : `Pilihan ${i + 1}`}</span></button>`).join("");
+      <span class="k">${ck ? i + 1 : ABCD[i]}</span>${optInner(q, i, printed, false)}</button>`).join("");
   const grid = pkg.flat.map((x, i) => {
     const cls = (s.jawaban[i] != null ? "ok" : "") + (s.tandai[i] ? " flag" : "") + (i === s.pos ? " cur" : "");
     const head = (i === 0 || pkg.flat[i - 1]._si !== x._si) ? `<span class="sec">M${pkg.sections[x._si].mondai}</span>` : "";
@@ -367,11 +376,12 @@ function htmlUjian() {
             <button class="btn" onclick="JLPT.putar()">▶ Putar audio</button>
             <span class="jx-muted">Diputar ${s.putar[s.pos] || 0}×${ck.audio ? " · rekaman" : " · suara TTS"}</span>
             ${ck.set && printed ? `<div class="jx-muted">${esc(ck.set)}</div>` : ""}</div>` : ""}
+        ${sceneHtml(q)}
         <div class="jx-q">
           <div class="no">${s.pos + 1}</div>
-          <div class="txt">${safe(q.q)}</div>
+          <div class="txt">${qHtml(q)}</div>
         </div>
-        <div class="jx-opts ${q.html_opts ? "long" : ""}">${opsiHtml}</div>
+        <div class="jx-opts ${q.html_opts ? "long" : ""} ${q.oimg ? "pics" : ""}">${opsiHtml}</div>
         <div class="jx-nav">
           <button class="btn ghost" ${s.pos === 0 ? "disabled" : ""} onclick="JLPT.geser(-1)">← Sebelumnya</button>
           <button class="btn ghost jx-flagbtn ${s.tandai[s.pos] ? "on" : ""}" onclick="JLPT.tandai()">🚩 ${s.tandai[s.pos] ? "Ditandai" : "Tandai"}</button>
@@ -387,13 +397,35 @@ function htmlUjian() {
     </div>
   </div>`;
 }
+/* Soal ★ (文の組み立て): kotak ditampilkan （　）（　）（★）（　） supaya mudah dikenali. */
+function qHtml(q) { let t = q.q || ""; if (q.tipe === "kumitate") t = t.replace(/★＿{2,}/g, "（★）").replace(/＿{2,}/g, "（　）").replace(/）\s+（/g, "）（").replace(/）\s+。/g, "）。"); return safe(t); }
+/* Gambar situasi soal choukai (adegan + yajirushi) dan pilihan bergambar. */
+const imgSrc = (p) => "./" + String(p).replace(/^\.?\//, "");
+function sceneHtml(q) { return q.img ? `<figure class="jx-scene"><img src="${imgSrc(q.img)}" alt="Gambar situasi" loading="lazy" draggable="false"></figure>` : ""; }
+function optInner(q, i, printed, review) {
+  if (q.oimg && q.oimg[i]) return `<span class="t"><img class="jx-oimg" src="${imgSrc(q.oimg[i])}" alt="Pilihan ${i + 1}" loading="lazy" draggable="false">${review ? `<small class="jx-ocap">${safe(q.opts[i])}</small>` : ""}</span>`;
+  return `<span class="t">${printed ? safe(q.opts[i]) : `Pilihan ${i + 1}`}</span>`;
+}
+/* Di app ini <body> yang punya overflow:auto, jadi window.scrollY selalu 0. Pakai elemen yang benar-benar menggulung. */
+function scroller() {
+  const b = document.body;
+  return (b.scrollHeight > b.clientHeight + 1 && /(auto|scroll)/.test(getComputedStyle(b).overflowY)) ? b : (document.scrollingElement || document.documentElement);
+}
+function toTop() { scroller().scrollTop = 0; window.scrollTo(0, 0); }
 function rerender(keepScroll) {
-  const y = window.scrollY;
+  const sc = scroller(), y = sc.scrollTop;
+  const g0 = document.querySelector(".jx-grid"), gy = g0 ? g0.scrollTop : 0;
   document.getElementById("app").innerHTML = htmlUjian();
   mulaiTimer();
-  if (keepScroll) window.scrollTo(0, y); else {
+  const g1 = document.querySelector(".jx-grid"); if (g1) g1.scrollTop = gy;   /* daftar nomor tidak lompat ke atas */
+  /* Pertahankan posisi scroll; hanya pindah kalau soal baru tidak terlihat di layar. */
+  scroller().scrollTop = y;
+  if (!keepScroll) {
     const el = document.querySelector(".jx-q");
-    if (el && el.getBoundingClientRect().top < 0) el.scrollIntoView({ block: "start" });
+    if (el) {
+      const top = el.getBoundingClientRect().top;
+      if (top < 0 || top > window.innerHeight * 0.7) el.scrollIntoView({ block: "start" });
+    }
   }
 }
 function jawab(i) {
@@ -404,9 +436,8 @@ function geser(d) {
   if (!E) return;
   stopAudio();
   E.sesi.pos = Math.max(0, Math.min(E.pkg.flat.length - 1, E.sesi.pos + d)); simpanSesi(); rerender(false);
-  window.scrollTo({ top: 0 });
 }
-function lompat(i) { if (!E) return; stopAudio(); E.sesi.pos = i; simpanSesi(); rerender(false); window.scrollTo({ top: 0 }); }
+function lompat(i) { if (!E) return; stopAudio(); E.sesi.pos = i; simpanSesi(); rerender(false); }
 function tandai() { if (!E) return; const p = E.sesi.pos; E.sesi.tandai[p] = !E.sesi.tandai[p]; simpanSesi(); rerender(true); }
 function stopAudio() { try { window.SV && window.SV.stop(true); } catch (e) {} }
 function putar(qOverride) {
@@ -414,11 +445,8 @@ function putar(qOverride) {
   if (!q || !q.ck) return;
   if (!qOverride && E) { E.sesi.putar[E.sesi.pos] = (E.sesi.putar[E.sesi.pos] || 0) + 1; simpanSesi(); }
   const lines = (q.ck.script && q.ck.script.length ? q.ck.script : q.ck.dialog).map(l => ({ s: l.s, t: String(l.t).replace(/<[^>]+>/g, "") }));
-  if (window.SV && window.SV.playScript) {
+  {
     window.SV.playScript({ file: q.ck.audio ? "./" + q.ck.audio : null, lines, voices: q.ck.voices || { N: "aoyama", F: "mochiko", M: "kurita" }, label: "Choukai", owner: "jlpt" });
-  } else if ("speechSynthesis" in window) {
-    speechSynthesis.cancel();
-    lines.forEach(l => { const u = new SpeechSynthesisUtterance(l.t); u.lang = "ja-JP"; speechSynthesis.speak(u); });
   }
   if (!qOverride) {
     const sp = document.querySelector(".jx-audio .jx-muted");
@@ -502,7 +530,7 @@ async function kumpulkan(timeout) {
     R = { hasil, pkg, filter: "semua", pos: 0, tersimpan };
     E = null;
     document.getElementById("app").innerHTML = htmlHasil();
-    window.scrollTo(0, 0);
+    toTop();
   } finally { _mengumpulkan = false; }
 }
 
@@ -522,16 +550,66 @@ const REKOM = {
   dokkai: ["Biasakan membaca pertanyaan dulu, lalu cari kalimat kunci.", "Untuk 情報検索, coret pilihan berdasarkan syarat satu per satu."],
   choukai: ["Latih di menu Choukai dengan Mode Ujian (teks disembunyikan).", "Perhatikan perubahan rencana di tengah percakapan (でも／じゃあ)."],
 };
+// ---- Penilaian ala JLPT resmi (jlpt.jp): seksi, skala poin, ambang lulus, CEFR ----
+const JLPT_PASS = {
+  n5: { overall: 80, cefr: "A1" }, n4: { overall: 90, cefr: "A2" },
+  n3: { overall: 95, cefr: "B1" }, n2: { overall: 90, cefr: "B2" }, n1: { overall: 100, cefr: "C1" },
+};
+function jlptSections(lv) {
+  if (lv === "n5" || lv === "n4") return [
+    { label: "言語知識・読解", sub: "Kosakata・Tata Bahasa・Membaca", max: 120, pass: 38, cats: ["kanji", "kotoba", "bunpou", "dokkai"] },
+    { label: "聴解", sub: "Menyimak", max: 60, pass: 19, cats: ["choukai"] },
+  ];
+  return [
+    { label: "言語知識", sub: "Kosakata・Tata Bahasa", max: 60, pass: 19, cats: ["kanji", "kotoba", "bunpou"] },
+    { label: "読解", sub: "Membaca", max: 60, pass: 19, cats: ["dokkai"] },
+    { label: "聴解", sub: "Menyimak", max: 60, pass: 19, cats: ["choukai"] },
+  ];
+}
+function hitungJLPT(h) {
+  const per = h.perKategori || {};
+  const secs = jlptSections(h.lv).map(s => {
+    let benar = 0, total = 0;
+    s.cats.forEach(c => { if (per[c]) { benar += per[c].benar; total += per[c].total; } });
+    const skor = total ? Math.round(benar / total * s.max) : 0;
+    return { ...s, benar, total, skor, lulus: skor >= s.pass };
+  });
+  const total = secs.reduce((a, s) => a + s.skor, 0);
+  const cfg = JLPT_PASS[h.lv] || { overall: 90, cefr: "-" };
+  const lulus = total >= cfg.overall && secs.every(s => s.lulus);
+  return { secs, total, overall: cfg.overall, cefr: cfg.cefr, lulus };
+}
 function htmlHasil() {
   const { hasil: h, pkg, tersimpan } = R;
   const a = analisis(h.perKategori || {});
-  const warna = h.skor >= 80 ? "var(--green)" : h.skor >= 60 ? "var(--gold)" : "var(--red)";
   const rata = h.total ? h.durasiAktual / h.total : 0;
+  const isFull = h.jenis === "full";
+  const J = isFull ? hitungJLPT(h) : null;
+  const warna = J ? (J.lulus ? "var(--green)" : "var(--red)") : (h.skor >= 80 ? "var(--green)" : h.skor >= 60 ? "var(--gold)" : "var(--red)");
+  const scorecard = J ? `
+    <div class="jx-jlpt-card ${J.lulus ? "lulus" : "gagal"}">
+      <div class="jx-jlpt-top">
+        <div class="verdict">${J.lulus ? "✅ GÔKAKU · LULUS" : "❌ FUGÔKAKU · TIDAK LULUS"}</div>
+        <div class="tot"><b>${J.total}</b> <span>/ 180</span></div>
+        <div class="jx-muted">Ambang lulus ${h.lv.toUpperCase()}: ${J.overall} · CEFR ≈ <b>${J.cefr}</b></div>
+      </div>
+      <table class="jx-jlpt-sec">
+        <tr><th>Seksi</th><th>Skor</th><th>Min.</th><th></th></tr>
+        ${J.secs.map(s => `<tr>
+          <td><b>${s.label}</b><br><small class="jx-muted">${s.sub} · ${s.benar}/${s.total} benar</small></td>
+          <td><b>${s.skor}</b> / ${s.max}</td>
+          <td>${s.pass}</td>
+          <td class="${s.lulus ? "g" : "r"}">${s.lulus ? "✔ lolos" : "✗ di bawah minimum"}</td>
+        </tr>`).join("")}
+      </table>
+      <div class="jx-muted sm">Skor diskalakan proporsional sebagai <b>estimasi</b> — JLPT asli memakai skala setara (equated). Lulus = total ≥ ambang DAN setiap seksi ≥ minimumnya.</div>
+    </div>` : "";
   return `
   <div class="panel jx jx-result">
     ${crumbs([["JLPT Center", "jlpt"], [`JLPT ${h.lv.toUpperCase()}`, `jlpt/${h.lv}`], [JENIS[h.jenis]?.nama || h.jenis, `jlpt/${h.lv}/${h.jenis}`], ["Hasil"]])}
+    ${scorecard}
     <div class="jx-res-head">
-      <div class="skor" style="--c:${warna}"><b>${h.skor}</b><span>%</span><div class="jx-muted">Estimasi hasil latihan</div></div>
+      <div class="skor" style="--c:${warna}"><b>${h.skor}</b><span>%</span><div class="jx-muted">${isFull ? "Akurasi jawaban" : "Estimasi hasil latihan"}</div></div>
       <div class="meta">
         <div><span>Nama</span><b>${esc(h.nama)}</b></div>
         <div><span>Level</span><b>JLPT ${h.lv.toUpperCase()}</b></div>
@@ -577,8 +655,123 @@ function daftarFilter() {
 function bukaReview() { R.filter = "semua"; R.pos = 0; renderReview(); }
 function renderReview() {
   document.getElementById("app").innerHTML = htmlReview();
-  window.scrollTo(0, 0);
+  toTop();
+  linkKanji(document.querySelector(".jx-revq")).catch(() => {});
 }
+/* ---------------- 8b. KANJI BISA DIPENCET DI PEMBAHASAN (kamus dari materi) ---------------- */
+const LV_ORDER = ["n5", "n4", "n3", "n2", "n1"];
+const isKj = (ch) => { const c = ch.codePointAt(0); return (c >= 0x4E00 && c <= 0x9FFF) || (c >= 0x3400 && c <= 0x4DBF) || (c >= 0xF900 && c <= 0xFAFF) || ch === "々"; };
+const hasKj = (str) => Array.from(str).some(isKj);
+const isHira = (ch) => ch >= "ぁ" && ch <= "ゖ";
+let KD = null, KD_PROMISE = null;
+async function loadKD(lv) {
+  const need = LV_ORDER.slice(0, Math.max(1, LV_ORDER.indexOf(lv) + 1));
+  const key = need.join();
+  if (KD && KD.key === key) return KD;
+  if (KD_PROMISE && KD_PROMISE.key === key) return KD_PROMISE.p;
+  const p = (async () => {
+    const getJ = (u) => fetch(u).then(r => r.ok ? r.json() : []).catch(() => []);
+    const files = await Promise.all(need.flatMap(l => [getJ(`./data/kosakata-${l}.json`), getJ(`./data/kanji-${l}.json`)]));
+    const words = new Map(), stems = new Map(), chars = new Map(), byChar = new Map();
+    const addWord = (kata, kana, arti, contoh, ctArti, l) => {
+      kata = String(kata || "").replace(/[（(][^）)]*[）)]|[～〜○]/g, "").trim();
+      if (!kata || !hasKj(kata) || words.has(kata)) return;
+      const e = { kata, kana: kana || "", arti: arti || "", contoh: contoh || "", ctArti: ctArti || "", lv: l };
+      words.set(kata, e);
+      for (const ch of new Set(Array.from(kata).filter(isKj))) { const a = byChar.get(ch) || []; if (a.length < 8) { a.push(e); byChar.set(ch, a); } }
+      const last = kata[kata.length - 1];
+      if (kata.length >= 3 && isHira(last)) { const st = kata.slice(0, -1); if (hasKj(st) && !stems.has(st)) stems.set(st, e); }
+    };
+    need.forEach((l, i) => {
+      for (const it of files[i * 2] || []) addWord(it.kata || it.k, it.kana || it.f, it.arti || it.a, it.contoh || it.ej, it.arti_contoh || it.et, l);
+      for (const it of files[i * 2 + 1] || []) {
+        const k = it.kanji || it.k || "";
+        if (Array.from(k).length === 1 && !chars.has(k)) chars.set(k, { k, on: it.onyomi || it.on || "", kun: it.kunyomi || it.kun || "", arti: it.arti || it.a || "", lv: l });
+        for (const c of it.c || []) addWord(c.k, c.r, c.a, "", "", l);
+      }
+    });
+    const maxLen = Math.max(...[...words.keys()].map(k => k.length), 2);
+    KD = { key, words, stems, chars, byChar, maxLen: Math.min(maxLen, 8), lv };
+    return KD;
+  })();
+  KD_PROMISE = { key, p };
+  return p;
+}
+function tokenKanji(str, D) {
+  const A = Array.from(str), out = []; let i = 0, buf = "";
+  const flush = () => { if (buf) { out.push({ t: buf }); buf = ""; } };
+  while (i < A.length) {
+    if (!isKj(A[i])) { buf += A[i++]; continue; }
+    let hit = null;
+    for (let n = Math.min(D.maxLen, A.length - i); n >= 1 && !hit; n--) {
+      const seg = A.slice(i, i + n).join("");
+      if (n >= 2 && D.words.has(seg)) hit = { seg, ty: "w", key: seg };
+      else if (n >= 2 && D.stems.has(seg)) hit = { seg, ty: "w", key: D.stems.get(seg).kata };
+    }
+    if (!hit) hit = { seg: A[i], ty: "c", key: A[i] };
+    flush(); out.push({ t: hit.seg, ty: hit.ty, key: hit.key }); i += Array.from(hit.seg).length;
+  }
+  flush(); return out;
+}
+async function linkKanji(root) {
+  if (!root || root.dataset.kw) return; root.dataset.kw = "1";
+  const D = await loadKD(R?.hasil?.lv || S().level || "n5").catch(() => null); if (!D) return;
+  const sels = ".jx-q .txt, .jx-opt .t, .jx-passage .jp, .jx-ex .ans, .jx-ex .jp, .jx-ex li, .jx-ex p";
+  for (const box of root.querySelectorAll(sels)) {
+    const tw = document.createTreeWalker(box, NodeFilter.SHOW_TEXT, { acceptNode: (n) => n.parentElement.closest("rt,rp,.jx-w,script,style,button") ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT });
+    const nodes = []; let n; while ((n = tw.nextNode())) if (hasKj(n.nodeValue)) nodes.push(n);
+    for (const nd of nodes) {
+      const toks = tokenKanji(nd.nodeValue, D); if (!toks.some(t => t.ty)) continue;
+      const fr = document.createDocumentFragment();
+      for (const t of toks) {
+        if (!t.ty) { fr.append(t.t); continue; }
+        const sp = document.createElement("span"); sp.className = "jx-w"; sp.dataset.ty = t.ty; sp.dataset.key = t.key; sp.tabIndex = 0; sp.setAttribute("role", "button");
+        sp.textContent = t.t; fr.append(sp);
+      }
+      nd.replaceWith(fr);
+    }
+  }
+}
+const brRuby = (t) => safe(String(t || "")).replace(/([\u3400-\u9fff々]+)\[([^\]]+)\]/g, "<ruby>$1<rt>$2</rt></ruby>");
+function kwClose() { document.getElementById("jx-kw")?.remove(); }
+function kwOpen(el) {
+  const D = KD; if (!D) return;
+  const ty = el.dataset.ty, key = el.dataset.key; let body = "", say = "", read = "";
+  const L = (D.lv || "").toUpperCase();
+  if (ty === "w") {
+    const e = D.words.get(key); if (!e) return;
+    say = e.kata; read = e.kana;
+    body = `<div class="jx-kw-h"><ruby class="jp">${esc(e.kata)}<rt>${esc(e.kana)}</rt></ruby><span class="tag">N${e.lv.slice(1)}</span></div>
+      <div class="jx-kw-m"><b>${esc(e.arti)}</b></div>
+      <div class="jx-muted">Bacaan: <b class="jp">${esc(e.kana)}</b></div>
+      ${e.contoh ? `<div class="jx-kw-ex"><p class="jp">${brRuby(e.contoh)}</p><p class="jx-muted">${esc(e.ctArti)}</p></div>` : ""}`;
+  } else {
+    const c = D.chars.get(key), ws = D.byChar.get(key) || [];
+    say = key; read = c ? (c.kun || c.on || "").split(/[、,\s]/)[0].replace(/[.\-]/g, "") : "";
+    body = `<div class="jx-kw-h"><span class="jp big">${esc(key)}</span>${c ? `<span class="tag">N${c.lv.slice(1)}</span>` : ""}</div>
+      ${c ? `<div class="jx-kw-m"><b>${esc(c.arti)}</b></div>
+        ${c.on ? `<div class="jx-muted">Onyomi: <b class="jp">${esc(c.on)}</b></div>` : ""}${c.kun ? `<div class="jx-muted">Kunyomi: <b class="jp">${esc(c.kun)}</b></div>` : ""}` : `<div class="jx-muted">Kanji ini belum ada di data materi level ${L} ke bawah.</div>`}
+      ${ws.length ? `<div class="jx-kw-ex"><b>Kata dengan ${esc(key)}:</b><ul>${ws.slice(0, 6).map(w => `<li><span class="jp">${esc(w.kata)}</span> (${esc(w.kana)}) — ${esc(w.arti)}</li>`).join("")}</ul></div>` : ""}`;
+  }
+  kwClose();
+  const sh = document.createElement("div"); sh.id = "jx-kw";
+  sh.innerHTML = `<div class="jx-kw-bg" onclick="JLPT.kwClose()"></div><div class="jx-kw-in" role="dialog" aria-label="Detail kanji">
+    <button type="button" class="jx-kw-x" onclick="JLPT.kwClose()" aria-label="Tutup">✕</button>${body}
+    <div class="jx-row"><button class="btn" onclick="JLPT.kwSay()">🔊 Dengar</button><button class="btn ghost" onclick="JLPT.kwClose()">Tutup</button></div></div>`;
+  sh.dataset.say = say; sh.dataset.read = read;
+  document.body.append(sh);
+}
+function kwSay() {
+  const sh = document.getElementById("jx-kw"); if (!sh) return;
+  try { window.SV.speak(sh.dataset.say, { role: "kosakata", level: (R?.hasil?.lv || "n5"), say: sh.dataset.read || undefined }); } catch (_) {}
+}
+if (!window.__jxKw) {
+  window.__jxKw = true;
+  const go = (e) => { const w = e.target.closest?.(".jx-w"); if (!w) return; e.preventDefault(); kwOpen(w); };
+  document.addEventListener("click", go);
+  document.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") go(e); });
+}
+
 function htmlEx(q, pkg) {
   const x = q.ex || {};
   const part = (no, jp, id, body) => body ? `<section><h5><span class="n">${no}</span>${jp} <small>${id}</small></h5>${body}</section>` : "";
@@ -628,7 +821,7 @@ function htmlReview() {
   const opts = q.opts.map((o, k) => {
     const cls = k === q.ans ? "right" : (k === pick ? "wrong" : "");
     const tag = k === q.ans ? `<em class="g">✓ Jawaban benar</em>` : (k === pick ? `<em class="r">✗ Jawabanmu</em>` : "");
-    return `<div class="jx-opt static ${cls}"><span class="k">${ck ? k + 1 : ABCD[k]}</span><span class="t">${safe(o)}</span>${tag}</div>`;
+    return `<div class="jx-opt static ${cls}"><span class="k">${ck ? k + 1 : ABCD[k]}</span>${optInner(q, k, true, true)}${tag}</div>`;
   }).join("");
   return `
   <div class="panel jx">
@@ -643,8 +836,9 @@ function htmlReview() {
       <div class="jx-muted">Jawabanmu: <b>${pick == null || pick < 0 ? "—" : (ck ? pick + 1 : ABCD[pick])}</b> · Jawaban benar: <b>${ck ? q.ans + 1 : ABCD[q.ans]}</b></div>
       ${passage ? `<details class="jx-passage" open><summary>📄 Bacaan</summary><div class="jp">${safe(passage.jp)}</div></details>` : ""}
       ${ck ? `<div class="jx-audio"><button class="btn ghost" onclick="JLPT.putarReview(${i})">▶ Putar ulang audio</button></div>` : ""}
-      <div class="jx-q"><div class="no">${i + 1}</div><div class="txt">${safe(q.q)}</div></div>
-      <div class="jx-opts ${q.html_opts ? "long" : ""}">${opts}</div>
+      ${sceneHtml(q)}
+      <div class="jx-q"><div class="no">${i + 1}</div><div class="txt">${qHtml(q)}</div></div>
+      <div class="jx-opts ${q.html_opts ? "long" : ""} ${q.oimg ? "pics" : ""}">${opts}</div>
       ${htmlEx(q, pkg)}
       <div class="jx-nav">
         <button class="btn ghost" ${R.pos <= 0 ? "disabled" : ""} onclick="JLPT.revGeser(-1)">← Sebelumnya</button>
@@ -661,7 +855,7 @@ function revLompat(i) {
   if (!ids.includes(i)) { R.filter = "semua"; ids = daftarFilter(); }
   R.pos = ids.indexOf(i); renderReview();
 }
-function kembaliHasil() { document.getElementById("app").innerHTML = htmlHasil(); window.scrollTo(0, 0); }
+function kembaliHasil() { document.getElementById("app").innerHTML = htmlHasil(); toTop(); }
 function putarReview(i) { putar(R.pkg.flat[i]); }
 
 async function viewReviewDariRiwayat(id) {
@@ -699,9 +893,10 @@ function grafik(list) {
 async function viewRiwayat() {
   const n = await sinkronLokal();
   if (n) toast(`☁️ ${n} hasil tersinkron ke server`);
-  const list = await riwayat(true);
+  const cur = curLevel();
+  const list = (await riwayat(true)).filter(h => !cur || h.lv === cur);
   const idx = await loadIndex();
-  const perLv = LV.map(lv => {
+  const perLv = LV.filter(l => !cur || l === cur).map(lv => {
     const total = Object.keys(JENIS).reduce((a, j) => a + (idx.level[lv]?.[j]?.length || 0), 0);
     const mine = list.filter(h => h.lv === lv);
     const unik = new Set(mine.map(h => h.pkgId)).size;
@@ -722,7 +917,7 @@ async function viewRiwayat() {
     <h2>📊 Riwayat &amp; Perkembangan</h2>
     <div class="jx-cards4">
       <div><span>Nilai terakhir</span><b>${last ? last.skor + "%" : "-"}</b><small>${last ? esc(last.judul) : "Belum ada"}</small></div>
-      <div><span>Total ujian</span><b>${list.length}</b><small>semua level</small></div>
+      <div><span>Total ujian</span><b>${list.length}</b><small>${cur ? "level " + cur.toUpperCase() : "semua level"}</small></div>
       <div><span>Rata-rata</span><b>${list.length ? Math.round(list.reduce((s, h) => s + (h.skor || 0), 0) / list.length) + "%" : "-"}</b><small>estimasi latihan</small></div>
       <div><span>Perlu dilatih</span><b>${a.lemah ? CAT_LABEL[a.lemah.k] : "-"}</b><small>${a.lemah ? a.lemah.pct + "% benar" : ""}</small></div>
     </div>
@@ -743,10 +938,10 @@ async function viewRiwayat() {
 
 /* ---------------- ringkasan untuk widget dashboard ---------------- */
 export async function ringkasanTerakhir() {
-  try { const l = await riwayat(); return l[0] || null; } catch (e) { return null; }
+  try { const c = curLevel(); const l = (await riwayat()).filter(h => !c || h.lv === c); return l[0] || null; } catch (e) { return null; }
 }
 
 window.JLPT = {
   pilihWaktu, mulai, batalSesi, jawab, geser, lompat, tandai, putar: () => putar(), konfirmasi,
-  bukaReview, filter: filterReview, revGeser, revLompat, kembaliHasil, putarReview,
+  bukaReview, kwClose, kwSay, filter: filterReview, revGeser, revLompat, kembaliHasil, putarReview,
 };

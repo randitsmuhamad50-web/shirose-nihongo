@@ -1,0 +1,1052 @@
+{
+ "schema": 1,
+ "bidang": "livestock",
+ "source": "農業技能測定試験 テキスト 畜産農業全般 (全国農業会議所 / Dewan Pertanian Nasional), versi Indonesia, ver. 1.0",
+ "markup": "Teks memakai {kanji|furigana} untuk ruby dan **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Karakteristik Peternakan",
+   "jp": "{畜産|ちくさん}の{特徴|とくちょう}"
+  },
+  "intro": {
+   "id": "Ciri tiap jenis peternakan di Jepang: sapi perah, sapi pedaging, babi, ayam, kuda tipe ringan, dan lebah madu.",
+   "jp": "{畜産|ちくさん}の{特徴|とくちょう}"
+  },
+  "pages": [
+   9,
+   38
+  ],
+  "subs": [
+   {
+    "id": "b1s1",
+    "no": 1,
+    "title": {
+     "id": "Peternakan Sapi Perah",
+     "jp": "{酪農|らくのう}"
+    },
+    "pages": [
+     9,
+     13
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Sapi Perah"
+      },
+      {
+       "p": "Peternakan Sapi Perah (Sapi Perah) Sebagian besar sapi perah di Jepang adalah varietas Holstein (berasal dari negara Belanda), dengan rata-rata volume susu lebih dari 8.000 kg per tahun. Sapi perah yang pernah melahirkan disebut dengan \"Keisangyuu\" dalam Bahasa Jepang, dan sapi yang baru pertama kali melahirkan disebut dengan \"Shosangyuu\" dalam bahasa Jepang."
+      },
+      {
+       "p": "Varietas Holstein Varietas Jersey Varietas Brown Swiss Gambar: Pusat Penangkaran Ternak Nasional – Lembaga Administratif Independen Gambar: Pusat Penangkaran Ternak Nasional – Lembaga Administratif Independen"
+      },
+      {
+       "h": "2 Bentuk dan Skala Manajemen (Industri) Peternakan Sapi Perah Susu"
+      },
+      {
+       "p": "(1) Manajemen (industri) peternakan sapi perah susu di Jepang paling banyak adalah usaha keluarga."
+      },
+      {
+       "p": "(2) Namun, beberapa tahun belakangan ini terjadi peningkatan manajemen korporasi yang menjalankan (industri) peternakan sapi perah susu bekerja sama dengan beberapa petani, atau manajemen perusahaan."
+      },
+      {
+       "p": "(3) Peternakan sapi perah yang jumlah sapinya sangat banyak disebut dengan Megafarm. Jumlah peternak sapi perah di Jepang setiap tahun mengalami penurunan, namun jumlah sapi perah peliharaan setiap satu peternakan semakin meningkat."
+      },
+      {
+       "p": ". Perubahan Jumlah Sapi Perah yang Pernah Melahirkan Setiap Satu Peternak"
+      },
+      {
+       "h": "3 Volume Susu Sapi Perah yang Pernah Melahirkan di Jepang"
+      },
+      {
+       "p": "Nilai rata-rata volume yang dihasilkan sapi perah yang pernah melahirkan selama 1 tahun di dalam negeri Jepang semakin meningkat. Tahun 2014 adalah 8.316 kg, meningkat sangat tinggi dibandingkan dengan 10 tahun sebelumnya yaitu tahun 2004 yang sebanyak 7.619 kg."
+      },
+      {
+       "h": "4 Siklus hidup Sapi Perah"
+      },
+      {
+       "ul": [
+        "Pada sekitar 6 bulan setelah dilahirkan, sapi perah disebut dengan pedet, setelah itu hingga sekitar 2 tahun disebut dengan sapi pembibitan (breeding cattle), dan setelah satu kali melahirkan disebut dengan sapi dewasa (adult cattle).",
+        "Umumnya sapi betina setelah usia 14~15 bulan akan melahirkan melalui inseminasi buatan.",
+        "Jarak waktu melahirkan sapi perah yang diharapkan adalah 365 hari, atau 1 tahun setiap 1 kelahiran, tapi jarak waktu melahirkan sapi perah di Jepang menjadi lebih lama. Tahun 1989 adalah 405 hari, dan tahun 2015 adalah 433 hari.",
+        "Masa kehamilan sapi perah adalah 280 hari (9,3 bulan).",
+        "Setelah melahirkan pedet, sapi betina dapat diperah susunya selama sekitar 1 tahun, namun selama waktu tersebut, untuk melahirkan sejak kehamilan berikutnya dapat dilakukan inseminasi buatan selama masa pemerahan.",
+        "2~3 bulan sebelum rencana kelahiran berikutnya, hentikan pemerahan susu, agar nutrisi dapat mengalir ke badan induk sapi dan janin sapi.",
+        "Sapi perah dapat mengulangi siklus ini dalam 400~430 hari, dan ada induk sapi yang dapat melahirkan sebanyak 7~8 kali kelahiran, namun rata-rata sekitar 4 kali kelahiran saja."
+       ]
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "15 Bulan"
+      },
+      {
+       "h": "2 Tahun 26 Bulan"
+      },
+      {
+       "h": "3 Tahun"
+      },
+      {
+       "h": "4 Tahun"
+      },
+      {
+       "p": "(Inseminasi Buatan) Melahirkan Pertama Calving Interval"
+      },
+      {
+       "p": "(14,2 Bulan: 432 Hari) *Pengulangan (Rata-rata 3 Kali) Rata-rata Usia Subur 6~7 Tahun (4 Kali Lahir) Puncak Laktasi Saat 3~4 Kali Melahirkan Pemerahan Susu"
+      },
+      {
+       "p": "(11,9 Bulan: 361 Hari) Kelahiran Kedua Siklus hidup Sapi Perah"
+      },
+      {
+       "h": "5 Periode Subur Sapi Perah"
+      },
+      {
+       "p": "(1) Umumnya, fase pembuahan untuk sapi perah melahirkan pedet pertama kalinya (melahirkan pertama) adalah umur 14~15 bulan."
+      },
+      {
+       "p": "(2) Setelah melahirkan, periode tidak hamil (tidak konsepsi) disebut dengan jumlah hari kosong"
+      },
+      {
+       "p": "(jumlah hari tanpa janin). Periode ditambahkannya masa hamil pada jumlah hari kosong adalah jarak waktu melahirkan."
+      },
+      {
+       "p": "(3) Misalnya jarak waktu melahirkan dengan jumlah hari kosong selama 120 hari (4 bulan) adalah 13,3 bulan (399 hari)."
+      },
+      {
+       "p": "(4) Sejak setelah melahirkan pedet pertama, kelahiran oleh sapi perah disebut dengan urutan melahirkan dengan menyebut kelahiran 2, kelahiran 3, kelahiran 4, dan seterusnya."
+      },
+      {
+       "p": "(5) Periode subur sapi perah Jepang yang pernah melahirkan (Keisan’gyu) cenderung semakin singkat, yakni pada tahun 2002 sebanyak 4,2 kelahiran, tahun 2007 sebanyak 4,0 kelahiran, dan tahun 2015 sebanyak 3,5 kelahiran."
+      },
+      {
+       "p": "(6) Disebabkan oleh semakin singkatnya periode subur sapi perah, maka kadang terjadi kendala seperti gangguan organ menyusui (mastitis dan sebagainya), gangguan berkembang biak, gangguan pada tungkai sapi (penyakit kuku), gangguan organ pencernaan, tidak bisa berdiri"
+      },
+      {
+       "p": "(demam susu), dan sebagainya."
+      },
+      {
+       "h": "6 Pakan Ternak"
+      },
+      {
+       "ul": [
+        "Pakan ternak yang diberikan pada sapi perah ada yang berupa pakan konsentrat dan pakan kasar.",
+        "Pakan konsentrat terutama diberikan dalam bentuk pakan campuran.",
+        "Untuk pakan kasar dapat terdiri dari silase yang diproduksi domestik, atau impor dari luar negeri, atau rumput kering yang diproduksi di Jepang.",
+        "Sereal unsur utama dalam pakan campuran adalah jagung impor."
+       ]
+      },
+      {
+       "h": "7 Pemeriksaan Kualitas Susu"
+      },
+      {
+       "ul": [
+        "Kualitas susu berbeda antara satu sapi perah dengan yang lain.",
+        "Pemeriksaan akan dilakukan atas susu sapi yang dikirimkan oleh peternak.",
+        "Pada pemeriksaan kualitas susu, terdapat pemeriksaan kualitas unsur susu seperti rasio lemak susu, rasio protein susu, rasio padatan tak berlemak, dan juga pemeriksaan kualitas higienitas seperti jumlah sel somatik dan jumlah bakteri."
+       ]
+      },
+      {
+       "h": "8 Panas di Musim Panas dan Sapi Perah"
+      },
+      {
+       "ul": [
+        "Zona suhu yang nyaman bagi sapi perah varietas Holstein adalah 13~18°C, varietas ini adalah ternak yang tidak kuat panas.",
+        "Saat kelembaban udara tinggi dan suhu meningkat menjadi sekitar 30°C, maka volume asupan bahan kering makanan sapi perah akan menurun, sehingga volume susu dan kualitas unsur susu pun akan menurun.",
+        "Sapi perah memiliki suhu tubuh normal 38,5°C, lebih tinggi dari manusia karena memiliki tangki fermentasi di perutnya yang disebut dengan rumen (perut beludru).",
+        "Akibat pengaruh pemanasan global, maka hari puncak musim panas (hari dengan suhu tertinggi di atas 30 derajat Celsius) dan hari dengan panas ekstrim (hari dengan suhu tertinggi di atas 35 derajat Celsius) pada musim panas Jepang semakin banyak.",
+        "Kadang terjadi kematian sapi perah akibat cuaca panas di musim panas. Pada musim panas tahun 2010, terdapat 959 ekor sapi perah yang mati atau tidak menghasilkan, dikarenakan cuaca panas musim panas.",
+        "Tabel di bawah menunjukkan kondisi sapi perah pada lingkungan dengan suhu 18, 26, dan 30 derajat Celsius. Volume asupan pakan ternak, bobot ternak, dan volume susu pun berkurang.",
+        "Seiring peningkatan suhu lingkungan, maka suhu badan dan jumlah napas ternak akan meningkat."
+       ]
+      },
+      {
+       "p": "Peningkatan Suhu Lingkungan dan Kondisi Sapi Perah (Contoh) Volume Asupan Pakan Campuran kg/hari Volume Asupan Rumput Kering Bobot (Pasca Percobaan) Bagaimana mengatasi masalah suhu panas untuk sapi perah menjadi satu masalah yang besar bagi peternakan sapi perah. Untuk itu, penjagaan dan pengelolaan struktur kandang, fasilitas pendingin seperti kipas angin atau sprinkler, penanaman pohon di sekitar kandang, dan juga pengelolaan nutrisi ternak adalah hal yang penting."
+      },
+      {
+       "p": "Kemudian, karena sapi perah adalah hewan ternak yang banyak meminum air, maka mereka akan sensitif terhadap kualitas air, sehingga terutama pada musim panas yang bercuaca panas, sebaiknya ciptakan lingkungan agar sapi bisa minum air bersih yang dingin setiap saat."
+      },
+      {
+       "h": "8 Penanganan Kotoran dan Urin"
+      },
+      {
+       "ul": [
+        "Permasalahan mengenai bau, penanganan kotoran dan urin yang benar, dan sebagainya diatur dalam undang-undang.",
+        "Penting untuk membuat kompos yang berkualitas baik, mempergunakannya untuk padang rumput, atau untuk diberikan pada peladang atau petani padi."
+       ]
+      },
+      {
+       "p": "Dari meningkatnya jumlah sapi perah yang diberi pakan oleh peternak, maka volume kotoran dan urin yang dihasilkan lahan ternak pun akan meningkat. Di lain pihak, peningkatan padang rumput dan area tanaman pakan ternak lebih rendah dibandingkan dengan peningkatan jumlah ternak itu sendiri, sehingga permasalahan mengenai volume kotoran dan urin atas berkurangnya padang rumput milik sendiri itu meningkat, atau permasalahan mengenai kotoran dan urin yang berlebihan."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 9–13). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Peternakan Sapi Perah (Sapi Perah) Sebagian besar sapi perah di Jepang adalah varietas Holstein (berasal dari negara Belanda), dengan rata-rata volume susu lebih dari 8.000 kg per tahun.",
+      "points": [
+       "Sapi Perah",
+       "Bentuk dan Skala Manajemen (Industri) Peternakan Sapi Perah Susu",
+       "Volume Susu Sapi Perah yang Pernah Melahirkan di Jepang",
+       "Siklus hidup Sapi Perah",
+       "Periode Subur Sapi Perah",
+       "Pakan Ternak",
+       "Pemeriksaan Kualitas Susu",
+       "Panas di Musim Panas dan Sapi Perah",
+       "Penanganan Kotoran dan Urin"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 9–13)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s2",
+    "no": 2,
+    "title": {
+     "id": "Produksi Daging Sapi (Sapi Pedaging)",
+     "jp": "{肉用牛|にくようぎゅう}"
+    },
+    "pages": [
+     14,
+     17
+    ],
+    "full": {
+     "id": [
+      {
+       "p": "Produksi Daging Sapi (Sapi Pedaging)"
+      },
+      {
+       "h": "1 Sapi Pedaging"
+      },
+      {
+       "p": "Sapi pedaging yang banyak volume produksi di Jepang ada tiga varietas: Sapi hitam Jepang"
+      },
+      {
+       "p": "(wagyu), sapi perah kastrasi (Holstein), dan sapi blasteran antara Wagyu dengan Holstein (F1). Masa penggemukan masing-masing varietas akan berbeda."
+      },
+      {
+       "h": "2 Bentuk Pemberian Pakan untuk Sapi Pedaging"
+      },
+      {
+       "p": "Bentuk manajemen produksi sapi pedaging di Jepang terbagi menjadi tiga, sebagai berikut:"
+      },
+      {
+       "h": "（１）Manajemen Perkembangbiakan"
+      },
+      {
+       "p": "Wagyu betina untuk diperkembangbiakkan dipelihara, kemudian akan dikirimkan ke pasar ternak sebagai sapi bakalan pada sekitar 10 bulan setelah melahirkan pedet. Peternak menargetkan kelahiran 1 pedet setiap 1 tahun. Sapi betina untuk diperkembangbiakkan rata-rata mengalami sekitar 7 kelahiran, namun di dalamnya ada juga peternak yang memiliki sapi betina untuk diperkembangbiakkan dengan lebih dari 10 kelahiran."
+      },
+      {
+       "h": "（２）Manajemen Penggemukan"
+      },
+      {
+       "p": "Wagyu (sekitar 10 bulan), sapi perah kastrasi (pedet), dan F1 (pedet atau sekitar 8 bulan) diperkenalkan sebagai sapi bakalan, dimana kemudian akan digemukkan dan dikirim untuk Wagyu pada usia sekitar 30 bulan, untuk sapi perah kastrasi sekitar 19~20 bulan, dan untuk F1 sekitar 25 bulan."
+      },
+      {
+       "h": "（３）Manajemen Terpadu"
+      },
+      {
+       "p": "Bentuk pelaksanaan berkelanjutan kedua pekerjaan yakni perkembangbiakan dan pemeliharaan serta penggemukan, yang dilakukan dalam sebuah manajemen disebut dengan manajemen terpadu, namun manajemen bentuk ini masih belum terlalu banyak untuk Wagyu."
+      },
+      {
+       "h": "（4）Lain-Lain"
+      },
+      {
+       "p": "Ada kalanya peternak sapi perah menghasilkan pedet blasteran melalui inseminasi buatan sperma Wagyu kepada sapi perah betina kemudian mengirimkan kepada peternak penggemukan. Bobot pedet blasteran saat dilahirkan adalah sekitar 30 kg, yakni lebih kecil dari pada pedet varietas sapi perah (sekitar 45 kg), dan memiliki keunggulan dapat dicegahnya sulit melahirkan pada sapi perah yang baru pertama melahirkan."
+      },
+      {
+       "p": "■Sapi Pedaging (Sapi betina yang memproduksi pedet)"
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "2 Tahun 25 Bulan"
+      },
+      {
+       "h": "3 Tahun"
+      },
+      {
+       "h": "4 Tahun"
+      },
+      {
+       "p": "■Sapi Pedaging (Sapi betina yang memproduksi pedet) Pembenihan untuk Kelahiran Pertama ■Sapi Pedaging (Sapi betina yang memproduksi pedet) Calving interval"
+      },
+      {
+       "p": "(Sekitar 13 Bulan) Melahirkan Kedua Kali Rata-rata Usia Subur"
+      },
+      {
+       "h": "9 Tahun (7 Kali Melahirkan)"
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "2 Tahun 25 Bulan"
+      },
+      {
+       "h": "3 Tahun"
+      },
+      {
+       "p": "■Sapi Pedaging (Sapi Bakalan)"
+      },
+      {
+       "h": "4 Tahun"
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "2 Tahun 25 Bulan"
+      },
+      {
+       "h": "3 Tahun"
+      },
+      {
+       "h": "4 Tahun"
+      },
+      {
+       "p": "Pembenihan untuk Kelahiran Pertama Calving interval"
+      },
+      {
+       "p": "(Sekitar 13 Bulan) ■Sapi Pedaging (Sapi Bakalan)"
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "10 Bulan"
+      },
+      {
+       "p": "Melahirkan Kedua Kali Pembenihan untuk Kelahiran Pertama Rata-rata Usia Subur"
+      },
+      {
+       "h": "9 Tahun (7 Kali Melahirkan)"
+      },
+      {
+       "p": "(Sekitar 13 Bulan) Melahirkan Kedua Kali Perdagangan Hewan Ternak Pengiriman Wagyu Kastrasi ■Sapi Pedaging (Sapi Bakalan) Số năm sử dụng trung bình"
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "10 Bulan"
+      },
+      {
+       "h": "6 Bulan"
+      },
+      {
+       "h": "10 Bulan"
+      },
+      {
+       "p": "Perdagangan Hewan Ternak Pengiriman Wagyu Kastrasi Perdagangan Hewan Ternak Pengiriman Wagyu Kastrasi Số năm sử dụng trung bình Rata-rata Usia Subur"
+      },
+      {
+       "h": "9 Tahun (7 Kali Melahirkan)"
+      },
+      {
+       "h": "3 Pakan dan Bentuk Pemberian Pakan"
+      },
+      {
+       "h": "（１）Pedet dan Sapi Pemeliharaan"
+      },
+      {
+       "p": "Sejak masa pedet hingga masa pemeliharaan, pakan akan berganti, baik untuk Wagyu, sapi perah kastrasi, maupun F1, dengan urutan: Susu Induk Sapi → Susu Pengganti (Calf Milk Replacer) → Susu Afkir → Rumput Kering dan Pakan Campuran."
+      },
+      {
+       "h": "（２）Sapi Bakalan"
+      },
+      {
+       "p": "Pakan untuk masa penggemukan yang diberikan untuk Wagyu adalah terutama pakan campuran dan jerami, untuk sapi perah kastrasi adalah silase (silase padi, silase rumput, silase jagung), rumput kering, dan pakan campuran, sedangkan untuk F1 adalah silase, rumput kering, jerami, dan pakan campuran. Pada proporsi volume pemberian pakan kasar dan pakan konsentrat, maka proporsi pakan campuran pada sapi bakalan akan lebih tinggi."
+      },
+      {
+       "h": "4 Poin Pengelolaan Pemberian Pakan"
+      },
+      {
+       "p": "Pada pemeliharaan sapi pedaging, berikut merupakan permasalahan pengelolaan pemberian pakan. Adalah penting untuk melakukan pengelolaan pemberian pakan setiap hari, sembari selalu memikirkan isu-isu berikut."
+      },
+      {
+       "h": "（１）Peningkatan Bobot yang Merata pada Semua Kelompok Sapi"
+      },
+      {
+       "p": "Dengan memikirkan pengelolaan nutrisi yang tepat dan kestabilan volume konsumsi pakan sapi, maka sapi tidak akan berebut pakan, sehingga mengembangbiakkan sapi berbobot berat dan memiliki daging yang berkualitas menjadi hal yang penting. Terutama untuk wagyu, sangat ditekankan produksi daging yang bertekstur seperti marmer."
+      },
+      {
+       "h": "（２）Pengelolaan Kesehatan Pedet"
+      },
+      {
+       "p": "Pedet mudah terkena radang paru-paru atau diare, sehingga penting untuk melakukan observasi, perawatan, dan juga pengobatan. Menjaga Pedet Tetap Hangat (Kain Penghangat)"
+      },
+      {
+       "h": "（３）Mencegah Masuknya Virus"
+      },
+      {
+       "p": "Perlu cukup hati-hati pada masuknya virus ke lahan ternak."
+      },
+      {
+       "h": "（４）Penanganan Kotoran dan Urin"
+      },
+      {
+       "p": "Perlu melakukan usaha yang sama dengan yang tercantum pada 1 Peternakan Sapi Perah poin 6 ."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 14–17). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Sapi pedaging yang banyak volume produksi di Jepang ada tiga varietas: Sapi hitam Jepang",
+      "points": [
+       "Sapi Pedaging",
+       "Bentuk Pemberian Pakan untuk Sapi Pedaging",
+       "（１）Manajemen Perkembangbiakan",
+       "（２）Manajemen Penggemukan",
+       "（３）Manajemen Terpadu",
+       "（4）Lain-Lain",
+       "Pakan dan Bentuk Pemberian Pakan",
+       "（１）Pedet dan Sapi Pemeliharaan",
+       "（２）Sapi Bakalan",
+       "Poin Pengelolaan Pemberian Pakan"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 14–17)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s3",
+    "no": 3,
+    "title": {
+     "id": "Peternakan Babi",
+     "jp": "{養豚|ようとん}"
+    },
+    "pages": [
+     18,
+     26
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "1 Varietas Babi"
+      },
+      {
+       "p": "Babi adalah binatang yang dikembangkan untuk meningkatkan kemampuan menghasilkan daging, setelah manusia terbiasa memelihara babi hutan. Varietas babi paling utama yang diberi pakan di Jepang adalah Landracer, Large Yorkshire, dan Duroc."
+      },
+      {
+       "p": "Varietas(Singkatan) Warna putih, berbadan panjang. Mukanya langsing, kuping menjuntai. Beranak banyak. Rasio memelihara anak babi tinggi. Large Yorkshire Warna putih, kupingnya tegak. Kemampuan bereproduksi sangat baik."
+      },
+      {
+       "p": "Warna coklat atau hitam, kuping menjuntai. Kualitas daging baik, tahan penyakit, dan pertumbuhan cepat. Babi hitam, ujung kaki, moncong, dan ujung ekor berwarna putih. Disebut roppaku. Jumlah anak atau pertumbuhan tidak sebaik varietas di atas, namun kualitas daging baik."
+      },
+      {
+       "p": "Warna hitam berompi putih. Dipergunakan sebagai pejantan pengganti Duroc pada kawin silang tiga. Middle Yorkshire Moncongnya mendongak ke atas, telinga tegak. Pertumbuhan lambat. Kualitas daging baik. Dengan membuat hibrida (mengawinkan) campuran ketiga varietas ini, maka rasio perkembangan akan tinggi, pertumbuhan akan cepat, dan mutu daging pun akan membaik. Ini disebut dengan “kawin tiga silangan” dan dilakukan secara luas di seluruh Jepang. Pertama- tama dikawinkan antara Landrace (L) dengan Large Yorkshire (W). Kemudian betina yang lahir dipelihara dan dijadikan babi indukan. Umumnya Duroc jantan (D) dikawinkan kepada betina itu, dan anak babi yang lahir (LWD) dibesarkan sebagai babi bakalan. Dengan kata lain, kebanyakan babi bakalan di Jepang adalah blasteran. Mengawinkan silang varietas dengan cara demikian akan meningkatkan kemampuan (produktivitas) anak babi itu, disebut dengan hibrida penekanan"
+      },
+      {
+       "p": "(heterosis). Sebagai varietas yang lainnya, terdapat Berkshire (babi hitam), Hampshire, dan Middle Yorkshire. Landrace Betina Large Yorkshire Jantan Induk babi hibrida generasi pertama × Hibrida tiga silangan(LWD) Kombinasi Kawin Tiga Silangan yang Khas Selain itu, terdapat babi indukan dan babi bakalan betina dan jantan yang dibuat dari perpaduan beberapa jenis varietas, yang disebut dengan babi hibrida. Ini bertujuan untuk menyediakan banyak babi indukan yang memiliki keseragaman yang unggul, dengan menghilangkan kekurangan kawin tiga silangan yang termasuk hal yang merepotkan."
+      },
+      {
+       "p": "Nama-Nama Setiap Bagian Tubuh Babi 1. Hidung 2. Kuping 3. Pipi 4. Leher (Leher Belakang) 5. Pundak 6. Punggung 7. Pinggang 8. Perut Samping 9. Ketiak 10. Perut Belakang 11. Pantat 12. Paha 13. Perut Bawah 14. Kaki Depan 15. Kaki Belakang 16. Ekor 17. Pinggul 18. Lutut Belakang 19. Sendi Kaki 20. Atas Kuku (Tsunagi) 21. Dada (Termasuk Perut) 22. Dada Depan 23. Cakar"
+      },
+      {
+       "h": "2 Siklus hidup Babi"
+      },
+      {
+       "p": "Berdasarkan metode penggunaannya, babi dibedakan menjadi babi bakalan dan babi indukan. Babi bakalan adalah babi yang dagingnya kita makan. Dapat disebut juga sebagai babi pedaging. Induk babi adalah induk dari babi bakalan tersebut. Babi jantan yang mengawini induk babi adalah babi pejantan. Disebut juga “tanebuta”. Induk babi akan kawin berulang, hamil, melahirkan, kemudian merawat anak babi."
+      },
+      {
+       "p": "Babi adalah omnivora yang memakan beragam pakan. Struktur dasar organ pencernaan babi itu sama dengan manusia yang juga merupakan omnivora. Pertama-tama, pakan akan dicerna di lambung, kemudian akan dicerna kembali di usus kecil, dan akan diserap tubuh. Setelah itu, di usus besar pun sebagian bahan yang tidak bisa dicerna akan terfermentasi dan diserap tubuh."
+      },
+      {
+       "h": "（１）Babi Bakalan (Babi Pedaging)"
+      },
+      {
+       "p": "Setelah dilahirkan, babi bakalan akan sementara dirawat oleh babi betina indukan yang merupakan induk babi. Sekitar 6 bulan setelah lahir (sekitar 180 hari), bobotnya akan menjadi 115 kg, disembelih, lalu akan menjadi pedaging. Periode sejak bobot sekitar 30 kg hingga pengiriman, disebut masa penggemukan."
+      },
+      {
+       "p": "（２）Induk Babi (Babi Betina Indukan, disebut juga “hahabuta”.) Induk babi pertama kali dikawinkan sejak 8 bulan setelah lahir hingga bobotnya sekitar 120 kg. Masa kehamilan 114 hari. Jumlah anak babi yang dilahirkan sekitar 10~15 ekor, dan setelah 3~4 minggu setelah melahirkan saat masa perawatan anak babi selesai, induk babi dikawinkan kembali. Induk babi yang kesehatannya dikelola dengan baik dapat hamil dan melahirkan 4~5 kali dalam 2 tahun. Siklus ini akan berulang pada induk babi, biasanya 6~10 kali melahirkan."
+      },
+      {
+       "p": "Siklus estrus babi adalah 21 hari."
+      },
+      {
+       "h": "（３）Babi Pejantan (Babi indukan jantan, disebut juga “tanebuta”)"
+      },
+      {
+       "p": "Babi pejantan akan matang secara seksual pada sekitar umur 7 bulan. Perkawinan ada yang kawin alami, ada pula inseminasi buatan (AI: Artificial Insemination), dan kini yang paling banyak adalah inseminasi buatan."
+      },
+      {
+       "h": "7 Bulan 8 Bulan 1 Tahun"
+      },
+      {
+       "h": "18 Bulan"
+      },
+      {
+       "h": "2 Tahun"
+      },
+      {
+       "p": "Calving Interval Pembenihan Kelahiran Pertama"
+      },
+      {
+       "h": "3 Tahun"
+      },
+      {
+       "p": "(6 Kali Melahirkan) Perkembangbiakan Siklus Hidup Babi Indukan (Induk Babi : Babi Pejantan) / Babi Bakalan"
+      },
+      {
+       "h": "3 Bentuk Manajemen Peternakan Babi"
+      },
+      {
+       "p": "Bentuk manajemen peternakan babi terbagi atas 3 jenis, yaitu “Manajemen Terpadu”, “Manajemen Perkembangbiakan”, dan “Manajemen Penggemukan”. Manajemen perkembangbiakan adalah bentuk manajemen yang mengirimkan anak babi sebagai babi bakalan dengan memelihara induk babi dan babi jantan."
+      },
+      {
+       "p": "Manajemen penggemukan adalah bentuk manajemen yang mengirimkan babi dengan menggemukannya setelah membeli anak babi dari manajemen perkembangbiakan. Manajemen terpadu adalah bentuk manajemen yang melaksanakan secara terpadu sejak perkembangbiakan hingga penggemukan, yang memelihara induk babi untuk diperkembangbiakkan, babi jantan, maupun babi bakalan. Saat ini, manajemen terpadu menjadi manajemen yang mayoritas. Alasan utamanya adalah karena untuk mengontrol masuknya penyakit dari pihak luar, dan juga karena peningkatan skala manajemen semakin maju."
+      },
+      {
+       "p": "Manajemen perkembangbiakkan yang ada sekarang terutama berbentuk penjualan kepada manajemen terpadu dengan memproduksi dan memperbaiki induk babi dan babi jantan. Skala manajemen adalah beragam, dari manajemen skala besar dengan jumlah karyawan 10 hingga lebih dari 100 orang, hingga manajemen keluarga skala kecil. Kadang manajemen skala besar disebut dengan perusahaan peternakan babi."
+      },
+      {
+       "p": "Tidak hanya produksi di dalam peternakan babi saja, produsen produk daging, grosir daging, dan retailer daging pun kadang dilaksanakan secara konsisten pada grup yang sama, ini disebut dengan integration."
+      },
+      {
+       "p": "Sebagai klasifikasi peternakan yang dilihat dari pengelolaan sanitasi, terdapat “Peternakan SPF (Specific Pathogen Free)” tersendiri yang berbeda dengan peternakan umumnya, dimana pengelolaan sanitasinya lebih ketat daripada peternakan biasa. Dibandingkan dengan SPF, peternakan yang umum disebut dengan conventional."
+      },
+      {
+       "h": "4 Pakan Ternak dan Bentuk Produksi, Pembelian, serta Pemberiannya"
+      },
+      {
+       "p": "Sebagian besar material pakan ternak babi diimpor dari luar negeri. Material jagung dan sebagainya yang telah tiba di pelabuhan akan dihancurkan halus di pabrik material pakan untuk memperbaiki pencernaan, dicampur dengan memikirkan keseimbangan gizi yang sesuai dengan tahap pertumbuhan babi, kemudian dijual sebagai pakan campuran. Pada material pakan banyak digunakan jagung dan ampas kedelai (kacang kedelai tanpa lemak)."
+      },
+      {
+       "p": "Bentuknya terdapat bubuk yang telah dihancurkan halus (mash), kemudian pellet yang terbentuk dari bubuk yang di-press (ditekan), dan juga bubuk hancuran pellet (crumble). Kemudian, juga digunakan pakan ternak liquid (cair) yang diberikan pakan dalam bentuk cair."
+      },
+      {
+       "p": "Pada metode pemberian pakan ternak, terdapat “pemberian pakan tanpa henti” dan “pemberian pakan yang dibatasi”. Pemberian pakan tanpa henti disebut juga dengan makan bebas, dimana babi dapat makan kapan saja karena selalu terdapat pakan ternak di dalam wadah pakan."
+      },
+      {
+       "p": "Pemberian pakan yang dibatasi adalah metode pemberian pakan dengan memberi volume yang telah ditentukan. Kebanyakan pemeliharaan babi bakalan dilakukan dengan pemberian pakan yang tanpa henti, dan babi indukan dengan pemberian pakan yang dibatasi."
+      },
+      {
+       "h": "5 Daging Karkas dan Daging Parsial"
+      },
+      {
+       "p": "Babi bakalan (babi pedaging) yang telah dikirimkan akan dipotong, dan akan diperdagangkan sebagai “daging karkas”. Daging karkas adalah bentuk dari keseluruhan tubuh yang telah dipotong kepala, keempat kaki, dan organ dalamnya. Dari babi dengan bobot 115 kg, akan diperoleh karkas sekitar 75 kg. Sekitar 65% sebagai hasil daging karkas. Daging karkas yang kemudian telah dibelah kiri dan kanan disebut dengan setengah karkas. Peringkat daging karkas akan dinilai berdasarkan standar transaksi daging karkas babi, dengan peringkat dari tertinggi adalah terbaik, baik, sedang, rata-rata, dan di luar ketentuan. Pertama-tama, setelah dinilai dengan berat daging karkas (setengah karkas ) dan ketebalan lemak punggung, maka akan dinilai penampakan dan mutu dagingnya."
+      },
+      {
+       "p": "Daging karkas kemudian akan dipotong menjadi daging parsial. Setelah itu, daging parsial akan dijual sebagai daging olahan iris, atau dijual setelah diproses menjadi ham maupun sosis. Terdapat standar untuk warna daging dan warna lemak, dimana warna daging yang terlalu pekat atau terlalu pucat (terlalu tipis warna) itu tidak baik, dimana idealnya adalah warna pertengahan yang agak pucat (tipis warna) saja. Akan dinilai dengan Pork Color Standard. Warna lemak yang diharapkan adalah putih, dan lemak berwarna kuning adalah tidak diharapkan. Lemak yang lunak disebut dengan lemak babi lembut, dan akan dinilai rendah."
+      },
+      {
+       "p": "Setengah Daging Karkas Bagian Pemotongan Daging Karkas Babi di Jepang"
+      },
+      {
+       "h": "6 Poin Pengelolaan Pemberian Pakan"
+      },
+      {
+       "h": "（１）Pengelolaan Anak Babi"
+      },
+      {
+       "p": "Bobot anak babi sekitar 1,4 kg. Anak babi yang baru lahir lemak subkutannya tipis, dan fungsi pengaturan suhu tubuhnya belum matang. Untuk mencegah kematian tidak sengaja atau mandegnya pertumbuhan babi, maka perlu mengelola suhu lingkungan pemeliharaan dengan tepat. Terutama anak babi usia seminggu, sebaiknya dijaga lingkungannya dengan suhu di atas 30°C."
+      },
+      {
+       "p": "Menjaga Anak Babi Tetap Hangat Kisaran suhu optimal menurut Riset A Kisaran suhu optimal menurut Riset B Poin bertanda lingkaran 〇 adalah suhu yang dianggap paling optimal ＡＡＢＢ ＡＡＢＢ ＡＡＢＢ ＡＡＢＢ ＡＡＢＢ ＡＡ Perkiraan Kisaran Suhu Optimal Anak Babi pada Setiap Usia (Hari)"
+      },
+      {
+       "h": "（２）Pencapaian Penambahan Bobot Babi"
+      },
+      {
+       "p": "Volume konsumsi pakan akan meningkat mengikuti pertumbuhan babi. Volume penambahan bobot per hari disebut ”Volume Penambahan Bobot Harian (DG: Daily Gain)”. Setelah disapih, bersamaan dengan volume konsumsi pakan, maka daily gain juga akan meningkat, dimana standar daily gain adalah 0,78 kg pada babi berbobot 30~50 kg, dan 0,85 kg pada babi berbobot 50~115 kg."
+      },
+      {
+       "p": "Jumlah pakan yang diperlukan untuk penambahan bobot 1 kg disebut dengan “rasio kebutuhan pakan”. Normalnya dalam lingkup 3,2~3,6. Lebih dari itu, konten pakan perlu di-review kembali. Terlalu Kurus Tulang pinggul dan tulang belakang terlihat dengan mata telanjang."
+      },
+      {
+       "p": "Ditekan dengan telapak tangan, maka tulang pinggul dan tulang belakang akan terasa dengan mudah. Ditekan kuat dengan telapak tangan, maka tulang pinggul dan tulang belakang akan terasa. Tulang pinggul dan tulang belakang tidak terasa."
+      },
+      {
+       "p": "Terlalu Gendut Tulang pinggul dan tulang belakang tertutupi dengan lemak tebal. Skor Kondisi Tubuh Induk Babi"
+      },
+      {
+       "h": "（３）Penyakit Menular"
+      },
+      {
+       "p": "Penyakit babi ada banyak, dan bila dalam penyakit tersebut muncul penyakit epidemik yang ditentukan Undang-Undang yaitu antara lain penyakit mulut dan kuku, kolera babi, atau ensefalitis epidemik, maka segeralah laporkan dan lakukan penanggulangan sesuai dengan instruksi Dinas Peternakan dan Kesehatan Hewan."
+      },
+      {
+       "p": "Pada saat perpindahan orang, pakan ternak, maupun material bagunan perlu dipatuhi sistem pencegahan dengan ketat. Ada beragam penyakit yang ditemukan pada peternakan babi, dan dilakukan vaksinasi yang efektif sebagai pencegahan. Saat ini sudah jarang kematian yang segera setelah tampak gejala akut, dan banyak penyakit dengan gejala kronis. Penyakit patogen virus antara lain TGE"
+      },
+      {
+       "p": "(Transmissible Gastro Enteritis), dan PRRS (Porcine Reproductive and Respiratory Syndrom); penyakit pathogen bakteri antara lain mycoplasma, E-Colli, dan streptococcus; kemudian penyakit parasit antara lain cacing gelang."
+      },
+      {
+       "h": "（４）Penanganan Bau dan Kotoran dan Urin pada Kandang Babi"
+      },
+      {
+       "p": "Babi indukan akan mengeluarkan kotoran 2-3 kg dan mengeluarkan urin 5,5 kg per hari, sementara babi bakalan akan mengeluarkan kotoran 1,9 kg dan mengeluarkan urin 3,5 kg per hari. Jumlah keluhan sebagai polusi yang dikarenakan bau akibat kotoran dan urin dari hewan ternak ini merupakan keluhan yang terbanyak, memperburuk kesan terhadap peternakan babi, dan juga menjadi penyebab yang mempengaruhi keberlanjutan manajemen. Tidak hanya itu, karena berkaitan dengan pengaruh buruk terhadap kesehatan manusia dan babi, dan pencemaran lingkungan seperti mengundang serta meningkatkan kembang biak hama seperti lalat, maka kemunculannya perlu ditekan."
+      },
+      {
+       "p": "Bau pada kandang babi disebabkan amonia yang muncul dari kotoran dan urin atau senyawa belerang, dan asam lemak volatil dari asam butirat, asam propionate, dan asetat. Hal tersebut berbahaya bagi babi dan bagi orang yang melakukan pemeliharaan, sehingga perlu meminimalisir kemunculan baunya. Untuk itu, lakukan pemilahan dengan sedapat mungkin tidak terkena kontak dengan kotoran dan urin babi, dan tekan reaksi antara enzim feses dengan urin."
+      },
+      {
+       "p": "Setiap kotoran dan urin perlu ditangani dengan tepat, dimana umumnya kotoran babi ditangani dengan fasilitas pengomposan, dan urin babi ditangani dengan fasilitas pemurnian. Selain itu, terdapat juga metode penanganan kotoran babi yang sudah tercampur dengan urin babi, dan campuran kotoran dan urin tersebut disebut dengan slurry."
+      },
+      {
+       "p": "Kompos merupakan benda yang sebagian besarnya adalah mikroba, yang di dalam kotoran terutama mikroorganisme aerobik akan berkembang biak dengan menguraikan zat organik septik. Untuk melakukan persiapan kompos, maka perlu melengkapi lingkungan yang optimal yang pada mikroorganisme aerobik yang memerlukan oksigen."
+      },
+      {
+       "h": "（５）Panas dan Dingin"
+      },
+      {
+       "p": "Kelenjar keringat babi mengalami kemunduran, sehingga pengeluaran panas tubuh dari kulit menjadi sulit. Terutama karena musim panas di Jepang itu suhu dan kelembabannya tinggi, sehingga panas tidak kunjung dikeluarkan. Oleh karena itu pada musim panas, dari dalam kandang babi perlu dibuang kelembabannya dengan mesin kipas angin."
+      },
+      {
+       "p": "Lingkungan yang panas akibat panasnya musim panas akan memberikan pengaruh buruk terutama pada babi indukan. Terjadi menurunnya jumlah sperma babi jantan, menurunnya keaktifan sperma, dan menurunnya birahi, pada babi betina akan terjadi penurunan keseluruhan kinerja berkembang biak seperti menurunnya volume susu akibat menurunnya nafsu makan, menurunnya bobot saat dilahirkan, kematian saat melahirkan, dan keterlambatan estrus."
+      },
+      {
+       "p": "Pada babi bakaln pun nafsu makan akan menurun, dan akan mempengaruhi kinerja penambahan bobot. Saat peningkatan suhu ekstrim, maka kadang terjadi kematian akibat serangan panas. Sebaliknya, karena pada musim dingin baik suhu maupun kelembaban rendah, maka kebalikan dengan musim panas, pelepasan panas tubuh akan terdorong secara berlebihan. Untuk itu, musim dingin harus diperhatikan pengelolaan suhu kandang babi, terutama pengelolaan suhu badan anak babi yang lemah terhadap dingin."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 18–26). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Babi adalah binatang yang dikembangkan untuk meningkatkan kemampuan menghasilkan daging, setelah manusia terbiasa memelihara babi hutan.",
+      "points": [
+       "Varietas Babi",
+       "Siklus hidup Babi",
+       "（１）Babi Bakalan (Babi Pedaging)",
+       "（３）Babi Pejantan (Babi indukan jantan, disebut juga “tanebuta”)",
+       "Bentuk Manajemen Peternakan Babi",
+       "Pakan Ternak dan Bentuk Produksi, Pembelian, serta Pemberiannya",
+       "Daging Karkas dan Daging Parsial",
+       "Poin Pengelolaan Pemberian Pakan",
+       "（１）Pengelolaan Anak Babi",
+       "（２）Pencapaian Penambahan Bobot Babi"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 18–26)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s4",
+    "no": 4,
+    "title": {
+     "id": "Peternakan Ayam",
+     "jp": "{養鶏|ようけい}"
+    },
+    "pages": [
+     27,
+     32
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "① Ayam Petelur"
+      },
+      {
+       "h": "1 Varietas Ayam Petelur"
+      },
+      {
+       "p": "Varietas (spesies ayam) representatif paling umum pada jenis petelur yang dipelihara di Jepang adalah varietas Single Comb White Leghorn (negara asal Italia). Sebagai ayam petelur bertelur warna putih, yang dipelihara secara luas adalah White Leghorn ini atau jenis hibridanya. Selain itu, sebagai ayam petelur bertelur warna coklat yang juga dipelihara adalah varietas Rhode Island Red"
+      },
+      {
+       "p": "(negara asal Amerika), atau varietas hibridanya, dan juga varietas (spesies ayam) telur pertengahan antara warna putih dan warna coklat.. Varietas Single Comb White Leghorn Varietas Rhode Island Red"
+      },
+      {
+       "h": "2 Skala Pemeliharaan dan Bentuk Manajemen Ayam Petelur"
+      },
+      {
+       "p": "Per tanggal 1 Februari 2018, jumlah ayam dewasa betina yang dipelihara adalah sebanyak 139.030.000 ekor, dan selama 20 tahun belakangan ini tidak ada perubahan besar. Jumlah peternakan ayam petelur sebanyak 2.200 peternak, dan setiap tahun berkurang terutama pada lapisan skala kecil."
+      },
+      {
+       "p": "Manajemen ayam petelur adalah manajemen pertanian 75%, dan manajemen perusahaan 25%. Peternak dengan manajemen perusahaan berjumlah sedikit, namun beternak dengan sekitar 70% keseluruhan jumlah ayam yang diternakkan. Kebanyakan manajemen perusahaan adalah perusahaan privat atau perusahaan keluarga."
+      },
+      {
+       "p": "Bentuk manajemen terdiri atas pelaksanaan manajemen yang terpusat pada pengelolaan ayam dewasa dengan memasrahkan anak ayam pada pemasok anak ayam, kemudian memperkenalkannya saat anak ayam kecil atau anak ayam besar, dan manajemen yang melakukan pengelolaan di pertaniannya sendiri secara konsisten sejak anak ayam hingga ayam dewasa."
+      },
+      {
+       "h": "3 Siklus Hidup Ayam Petelur"
+      },
+      {
+       "p": "Bila dipelihara dengan baik, maka ayam akan hidup selama 5 hingga 15 tahun. Produksi telur ayam dilihat dari segi ekonomis ditunjukkan dalam gambar siklus hidup ayam petelur. Jenis telur ayam (telur yang subur) bila dihangatkan dengan syarat suhu dan kelembaban yang tepat, maka akan menetas pada hari ke-21 menjadi anak ayam. Anak ayam betina akan menjadi ayam dewasa sekitar 150 hari, dan akan mulai bertelur. Kemudian 210 hari setelah menetas, maka ayam akan paling banyak bertelur (puncak bertelur). Setelah itu sejak 1 tahun hingga sekitar 1,5 tahun akan tetap bertelur, namun semakin jarang bertelur, sehingga sekitar usia 2 tahun akan dikirimkan sebagai daging olahan."
+      },
+      {
+       "h": "2 Hari"
+      },
+      {
+       "h": "30 Hari"
+      },
+      {
+       "h": "60 Hari 150 Hari"
+      },
+      {
+       "p": "210 Hari (Sekitar 6~7 Bulan) Masa Inkubasi (21 hari) Mulai Bertelur Puncak Bertelur 〈Rasio Bertelur〉"
+      },
+      {
+       "p": "(Rata-Rata 75~80% per Tahun) Siklus Hidup Ayam Petelur"
+      },
+      {
+       "h": "4 Pakan Ternak dan Bentuk Produksi, Pembelian, serta Pemberiannya"
+      },
+      {
+       "p": "Untuk memelihara ayam, pada kebanyakan peternakan ayam digunakan pakan campuran yang dijual di pasaran yang dibuat dengan memformulasikan beberapa material dasar, menyesuaikan dengan proses pertumbuhan atau penggunaannya."
+      },
+      {
+       "p": "Hampir semua material dasar seperti jagung, mylo, dedak kedelai adalah diimpor dari luar negeri. Dari perusahaan pembuat pakan ternak dijual berbagai produk campuran / formulasi, namun kini pakan campuran untuk ternak ayam yang diproduksi di dalam negeri menempati 42% keseluruhan volume produksi pakan campuran, dan merupakan menjadi yang terbanyak."
+      },
+      {
+       "p": "Di dalam pakan campuran untuk ternak ayam pun pakan ayam dewasa untuk ayam petelur adalah 58,2%, dan pakan ternak untuk anak ayam adalah 7,8%. 66% pakan campuran untuk peternakan ayam adalah untuk ayam petelur."
+      },
+      {
+       "p": "Pakan campuran yang dikembangkan sendiri untuk peternakan sendiri tanpa tergantung pada produk dari pembuat pakan ternak, disebut dengan pakan campuran buatan sendiri. Pada pakan campuran untuk ayam dewasa terkandung 60% jagung atau mylo berupa sereal sebagai sumber energi, 15% dedak kedelai jenis dedak minyak nabati sebagai sumber protein, 10% tepung ikan yang merupakan pakan hewani, 5% pakan gluten jagung yang merupakan jenis dedak padi dan sebagainya, dan 10% anorganik dan vitamin. Proporsi campuran, material dasar, komposisi, dan sebagainya berubah tergantung varietas atau usia ayam, dan lingkungan pemeliharaan."
+      },
+      {
+       "h": "5 Poin Pengelolaan Pemberian Pakan"
+      },
+      {
+       "h": "（１）Pengelolaan Higienitas"
+      },
+      {
+       "p": "Menegaskan higienitas preventif. Pertama-tama, harus mencegah masuknya patogen ke area pengelolaan pemeliharaan, kemudian harus melakukan perbaikan lingkungan yang baik di area pemeliharaan. Patuh pada standar pengelolaan higienitas pemberian pakan dari peraturan pencegahan penyakit menular ternak, harus lakukan penyetingan area pengelolaan yang higienis, untuk mencegah terbawanya pathogen ke area peternakan."
+      },
+      {
+       "p": "Untuk memelihara ayam dalam jumlah banyak dengan memperbesar kandang ayam, maka pengelolaan kesehatan ayam, pengaturan lingkungan di dalam kandang ayam, dan juga pengelolaan higienitas seperti pembuangan kotoran dan pembersihan akan mudah terjadi kekurangan, sehingga penyebab penyakit dan ancaman bahaya harus ditegaskan dan harus dihilangkan."
+      },
+      {
+       "p": "① Pengelolaan higienitas kandang ayam dan sarana lain. Penegasan pembuangan kotoran, pembersihan, pencucian, dan disinfeksi."
+      },
+      {
+       "p": "② Pengelolaan kesehatan ayam. Perlu perhatian pada penyakit organ pernapasan akibat perubahan lingkungan. Mengenai penyakit yang daya infeksinya kuat terhadap ayam, dilakukan program vaksinasi, dan dilakukan penyuntikan vaksin dengan baik."
+      },
+      {
+       "h": "（２）Flu Burung"
+      },
+      {
+       "p": "Mengecek informasi terbaru mengenai karantina ternak adalah penting, terutama pastikan untuk mengecek informasi mengenai flu burung yang sangat patogenik yang diinformasikan oleh Dinas Peternakan dan Kesehatan Hewan, dan patuhilah pengarahan dari Dinas Peternakan dan Kesehatan Hewan. Lakukan penegasan pencegahan masuknya burung liar dengan memasang jaring kandang di area pemeliharaan, lakukan observasi kesehatan ayam, dan saat ditemukan kelainan dan gejala penyakit tertentu, segeralah lakukan pelaporan. Kemudian, bila menemukan bangkai burung liar atau lainnya di dekat kandang ayam, adalah penting untuk memberitahu kepada pengelola."
+      },
+      {
+       "h": "② Ayam Pedaging"
+      },
+      {
+       "h": "1 Varietas Ayam Pedagin"
+      },
+      {
+       "p": "Lebih dari 85% ayam pedaging ditempati oleh ayam muda pedaging (broiler) yang sangat diperbaiki agar pertumbuhan cepat, dapat dikirimkan dalam jangka waktu pendek, dan dagingnya bagus. Varietas tersebut merupakan ayam hasil aplikasi hibrida generasi pertama perkawinan varietas White Plymouth Rock betina dengan White Cornish jantan. Proporsi ayam jidori (ayam kampung) pada ayam pedaging hanya sedikit yakni 1% saja, namun dikarenakan perbaikan mutu daging, maka ayam jidori adalah ayam pedaging bermutu tinggi yang dibuat dengan kawin silang yang menggunakan varietas lokal seperti Shamo, varietas Nagoya, varietas Rhode Island Red, dan sebagainya."
+      },
+      {
+       "h": "2 Skala Pemeliharaan dan Bentuk Manajemen Ayam Muda Pedaging (Broiler)"
+      },
+      {
+       "p": "Per 1 Februari 2018, jumlah peternak sebanyak 2.260 peternakan, jumlah ayam yang dipelihara sebanyak 138,77 juta ekor, jumlah ayam yang dipelihara per peternak sebanyak 61.400 ekor. Jumlah ayam yang diperlihara per satu peternak setiap tahun meningkat, dan perluasan skalanya semakin bertambah untuk majemen yang lebih efisien."
+      },
+      {
+       "p": "Kebanyakan broiler dipelihara dengan metode yang terutamanya adalah perusahaan trading umum atau koperasi pertanian dan privat, yang mengintegrasikan keseluruhan proses dari pemeliharaan hingga pengolahan dan pendistribusian, dan melakukan konsinyasi pemeliharaan dengan peternak. Kemudian, dikarenakan pertumbuhan cepat dari toko pengecer massal seperti supermarket dan sebagainya, maka distributor melakukan produksi broiler, sehingga terlihat juga metode yang mengintegrasikan keseluruhan."
+      },
+      {
+       "h": "3 Siklus Hidup Ayam Muda Pedaging (Broiler)"
+      },
+      {
+       "p": "Siklus hidup ayam muda pedaging (broiler) untuk daging ayam ditunjukkan pada gambar. Anak ayam yang dibentuk pada tipe kecil setelah menetas akan dipelihara sekitar 7 pekan, dan akan dikirimkan pada bobot sekitar 2,3 kg. Yang dibentuk pada tipe besar akan dipelihara sekitar 8 pekan, dan akan dikirimkan pada bobot sekitar 3,0 kg. Untuk jidori diperlukan masa pemeliharaan lebih dari 80 hari, dan untuk memberikan rasa gurih (umami) atau renyah, maka kebanyakan dikirimkan setelah diperlihara selama 4-5 bulan."
+      },
+      {
+       "p": "Proses Produksi (Bobot) Anak Ayam Baru Menetas Fase Awal Pemeliharaan Fase Akhir Pemeliharaam Anak Ayam Kecil Anak Ayam Sedang Anak Ayam Besar Pengiriman Tipe Kecil Pengiriman Tipe Besar pada 8 Pekan"
+      },
+      {
+       "p": "(Sekitar 2 Bulan) SiklusHidup Ayam Muda Pedaging"
+      },
+      {
+       "h": "4 Pakan Ternak dan Bentuk Produksi, Pembelian, serta Pemberiannya"
+      },
+      {
+       "p": "Pemeliharaan broiler kebanyakan menggunakan pakan ternak formulasi di pasaran yang dibuat dengan memformulasikan beberapa material dasar, disesuaikan dengan proses pertumbuhan. Dari pembuat pakan ternak dijual beragam produk campuran. Saat ini, pakan ternak campuran untuk broiler yang diproduksi di dalam negeri Jepang adalah sekitar 14% dari keseluruhan volume produksi pakan ternak campuran, dan menempati 34% pakan ternak campuran untuk peternakan ayam (menempati 42% keseluruhan pakan ternak campuran)."
+      },
+      {
+       "p": "Pada pakan ternak campuran untuk broiler paling banyak terkandung sereal jagung atau mylo sebagai sumber energi, selanjutnya terkandung dedak kedelai jenis minyak nabati sebagai sumber protein, dan tepung ikan sebagai pakan hewani. Selain itu, terkandung pakan gluten jagung jenis dedak padi, anorganik / jenis vitamin. Proporsi campuran, material dasar, dan komposisi dan sebagainya akan berubah tergantung varietas atau umur ayam, dan juga lingkungan pemeliharaannya."
+      },
+      {
+       "h": "5 Poin Pengelolaan Pemeliharaan"
+      },
+      {
+       "h": "（１）Pengelolaan Sanitasi"
+      },
+      {
+       "p": "Ditegaskan mengenai sanitasi preventif. Pertama-tama harus mencegah masuknya patogen ke area pengelolaan pemeliharaan, kemudian harus memperbaiki lingkungan yang tidak baik dari area pemeliharaan. Patuh pada standar pengelolaan sanitasi pemeliharaan dari peraturan pencegahan penyakit menular ternak, harus menetapkan area pengelolaan sanitasi, untuk mencegah terbawanya patogen."
+      },
+      {
+       "p": "Perbaikan pemeliharaan broiler terdapat perbaikan yang mencolok, terutama performa penambahan bobot semakin tinggi. Peternakan dengan jumlah ayam yang banyak menjadi umum, dan periode pemeliharaan yang pendek, cenderung menyebabkan penanganan pada pengelolaan pemeliharaan menjadi terlambat. Di situ, adalah penting untuk menghilangkan penyebab yang menjadi bahaya atau pengaruh buruk dalam pengelolaan pemeliharaan harian."
+      },
+      {
+       "h": "① Pengelolaan Sanitasi Fasilitas"
+      },
+      {
+       "p": "Agar tidak tersisa mikroorganisme patogen, serangga sanitasi, zat anti bakteri, dan sebagainya pada kandang ayam, maka ditegaskan mengenai pembuangan kotoran, pembersihan, pencucian, dan disinfeksi."
+      },
+      {
+       "h": "② Pengelolaan Kesehatan Badan Ayam"
+      },
+      {
+       "p": "Broiler yang pertumbuhannya cepat perlu diperhatikan penyakit organ pernapasannya, tanpa lengah atas pengelolaan ventilasi. Mengenai badan ayam, adalah penting untuk membuat program vaksinasi mengenai penyakit mudah menular, dan melaksanakan penyuntikan vaksin dengan baik."
+      },
+      {
+       "h": "（２）Tindakan terhadap Flu Burung"
+      },
+      {
+       "p": "Penting ditangani sama dengan ayam petelur (halaman 21)."
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 27–32). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Varietas (spesies ayam) representatif paling umum pada jenis petelur yang dipelihara di Jepang adalah varietas Single Comb White Leghorn (negara asal Italia).",
+      "points": [
+       "① Ayam Petelur",
+       "Varietas Ayam Petelur",
+       "Skala Pemeliharaan dan Bentuk Manajemen Ayam Petelur",
+       "Siklus Hidup Ayam Petelur",
+       "Pakan Ternak dan Bentuk Produksi, Pembelian, serta Pemberiannya",
+       "Poin Pengelolaan Pemberian Pakan",
+       "（１）Pengelolaan Higienitas",
+       "（２）Flu Burung",
+       "② Ayam Pedaging",
+       "Varietas Ayam Pedagin"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 27–32)."
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s5",
+    "no": 5,
+    "title": {
+     "id": "Kuda Tipe Ringan dan Peternakan Lebah",
+     "jp": "{軽種馬|けいしゅば}・{養蜂|ようほう}"
+    },
+    "pages": [
+     33,
+     38
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "① Kuda Tipe Ringan"
+      },
+      {
+       "h": "1 Kuda Tipe Ringan (Varietas Thoroughbred)"
+      },
+      {
+       "ul": [
+        "Terdapat 5 varietas kuda tipe ringan, yaitu varietas Thoroughbred, varietas Thorough, varietas Arab, varietas Anglo Arab, dan varietas Arab-Related, namun sebagian besar kuda tipe ringan yang diproduksi di Jepang adalah varietas Thorughbred.",
+        "Jumlah kelahiran varietas Thoroughbred per tahun adalah sekitar 7.000 ekor (tahun 2018), daerah penghasil utama adalah Hokkaido, Tohoku, dan Kyushu. Di dalamnya, Hokkaido menempati lebih dari 98% jumlah kelahiran.",
+        "Sebagian besar dari varietas Thoroughbred setelah menerima latihan untuk pacuan kuda, digunakan sebagai kuda pacu.",
+        "Varietas Thoroughbred yang digunakan pada pacuan kuda terbatas pada kuda yang dilahirkan dengan kawin alami."
+       ]
+      },
+      {
+       "p": "Kuda yang dilahirkan dari inseminasi buatan tidak dapat digunakan pada pacuan kuda."
+      },
+      {
+       "ul": [
+        "Thoroughbred adalah varietas yang silsilahnya dikelola dengan ketat berdasarkan pendaftaran silsilah. Hanya pedet yang lahir dari kuda pejantan dan kuda betina (induk kuda) yang telah terdaftarlah yang dapat didaftarkan silsilahnya. Kemudian, kuda yang tak memiliki pendaftaran silsilah tidak dapat menjadi kuda pacu."
+       ]
+      },
+      {
+       "p": "Kuda yang telah mendapat daftar silsilah akan diterbitkan sertifikat pendaftaran silsilah dari instansi pendaftaran."
+      },
+      {
+       "h": "2 Siklus Hidup"
+      },
+      {
+       "ul": [
+        "Penyebutan usia kuda itu unik, tahun dilahirkannya disebut umur saat itu, 2 tahun dan seterusnya setelah lahir disebut dengan 1 tahun, 2 tahun.",
+        "Masa kehamilan varietas Thoroughbred adalah sekitar 11 bulan, di Jepang kebanyakan varietas ini dilahirkan di antara sejak Februari hingga Mei.",
+        "Sejak lahir hingga musim panas, anak kuda akan dipelihara bersama dengan induk kuda, namun akan disapih pada musim gugur (sekitar 6 bulan setelah lahir), dan setelah itu dipelihara hanya sebagai anak kuda.",
+        "Sejak sekitar musim gugur di umur 1 tahun, akan dimulai latihan (latihan berkuda) untuk membiasakan ditunggangi orang dengan memasangkan peralatan sadel dan kendali kuda (bit, besi gigit).",
+        "Setelah latihan berkuda, dilakukan training (latihan) berlari dengan ditunggangi orang untuk memperkuat badannya.",
+        "Kuda yang sudah cukup berlatih dan berumur 2 tahun akan dipindahkan ke pacuan kuda atau training center, didaftarkan sebagai kuda pacu, dan akan dilatih lebih lagi menjelang mulai berpacu.",
+        "Di dalam kuda yang telah pensiun dari pacuan kuda, terutama kuda yang baik prestasi pacuan atau kuda yang baik silsilahnya akan kembali pada area produksi sebagai kuda penangkaran."
+       ]
+      },
+      {
+       "h": "① Pembibitan (Maret hingga Mei)"
+      },
+      {
+       "p": "(Masa Kehamilan: 11 Bulan)"
+      },
+      {
+       "h": "② Kelahiran"
+      },
+      {
+       "p": "(Februari hingga Mei Tahun Berikutnya)"
+      },
+      {
+       "h": "③ Menyusui"
+      },
+      {
+       "h": "④ Musim Gugur, Penyapihan"
+      },
+      {
+       "p": "⑤ Musim Dingin hinggaMusim Panas, Merumput Sesama Anak Kuda (Jantan dan Betina Dipisah Sendiri-Sendiri)"
+      },
+      {
+       "p": "(Umur 6 Bulan hingga Musim Panas 1 Tahun)"
+      },
+      {
+       "h": "⑥ Musim Gugur 1 Tahun Latihan Berkuda"
+      },
+      {
+       "h": "⑦ Musim Dingin 1 Tahun hingga 2 Tahun, Latihan"
+      },
+      {
+       "h": "⑧ Mulai 2 Tahun 4 Bulan, Debut Pacuan Kuda"
+      },
+      {
+       "h": "⑨ Pensiun, Sebagian Ditangkarkan Bersama"
+      },
+      {
+       "h": "3 Bentuk Manajemen Ternak Kuda"
+      },
+      {
+       "p": "Pada peternakan kuda tipe ringan terutama terdapat 2 bentuk manajemen."
+      },
+      {
+       "ul": [
+        "Peternakan Produksi Kuda Memelihara induk kuda dan memproduksi anak kuda, kemudian menjualnya di pasaran pelelangan dan sebagainya.",
+        "Peternakan Pemeliharaan Kuda Melakukan latihan berkuda atau training untuk kuda muda."
+       ]
+      },
+      {
+       "p": "Lebih lagi, terdapat pula peternakan kuda yang konsisten melakukan bisnis peternakan produksi dan peternakan pemeliharaan kuda. Peternakan Produksi Kuda Peternakan Pemeliharaan Kuda"
+      },
+      {
+       "h": "② Peternakan Lebah"
+      },
+      {
+       "h": "1 Varietas dan Karakteristik Lebah Madu"
+      },
+      {
+       "h": "（１）Varietas"
+      },
+      {
+       "p": "Di Jepang terdapat dua varietas lebah madu, yaitu lebah madu Barat dan lebah madu Jepang, namun yang dipelihara sebagai ternak sebagian besar adalah lebah madu Barat (selanjutnya, disebut lebah)."
+      },
+      {
+       "h": "（２）Karakteristik"
+      },
+      {
+       "p": "Lebah madu hidup berkoloni, dan memiliki masing-masing peran dalam koloninya."
+      },
+      {
+       "ul": [
+        "Lebah Pekerja (Betina) Lebah pekerja dipelihara pada sarang lebah biasa (ruang kecil segi enam yang membentuk sarang lebah). Selama masih larva, pada paruh pertama diberikan royal jelly, namun pada paruh kedua diberikan serbuk sari dan madu, dan akan menjadi dewasa dalam sekitar 21 hari. Masa hidup (periode kehidupan) sekitar 1 bulan, namun pada saat yang dingin di musim dingin, ada kalanya hidup sekitar setengah tahun. Setelah jadi dewasa, maka pertama-tama akan"
+       ]
+      },
+      {
+       "p": "membersihkan sarang lebah, setelah itu mengasuh larva, dan terakhir akan keluar dari sarang untuk mencari makan (mengambil madu atau serbuk sari bunga) dan sebagainya."
+      },
+      {
+       "ul": [
+        "Lebah Ratu (Betina) Lebah ratu dibesarkan dengan diberikan hanya royal jelly selama masa larva, di dalam sarang lebah khusus yang disebut dengan sel (ruang) calon ratu. Biasanya hanya ada 1 lebah ratu dalam 1 koloni lebah, dan hanya bertelur saja. Lebah ratu memiliki bobot yang lebih berat dari lebah pekerja, dengan masa hidup 2-3 tahun.",
+        "Lebah Pejantan Terlahirnya lebah pejantan adalah pada periode kawin lebah ratu (di Jepang waktu optimal adalah bulan April hingga Juni), dimana saat datangnya masa itu, maka akan dibuat sarang lebah khusus lebah pejantan oleh lebah pekerja di dalam sarang. Lebah pejantan tidak melakukan pekerjaan di dalam sarang, dan melakukan kawin dengan lebah ratu di udara."
+       ]
+      },
+      {
+       "h": "0 Hari"
+      },
+      {
+       "h": "3 Hari"
+      },
+      {
+       "h": "10 Hari"
+      },
+      {
+       "h": "15 Hari"
+      },
+      {
+       "h": "20 Hari"
+      },
+      {
+       "h": "7 Hari"
+      },
+      {
+       "p": "Sarang Lebah Pekerja (Ruangan Kecil Segi Enam) Siklus Hidup Lebah Pekerja Sekitar 16 Hari Mulai Bertelur"
+      },
+      {
+       "p": "(Sekitar 2.000 Butir Berhenti Bertelur Mulai Bertelur"
+      },
+      {
+       "p": "(Sekitar 2.000 Butir Pergantian ke Ratu Lebah yang Baru Oktober hingga November Februari hingga Maret Oktober hingga November Februari hingga Maret Tidak Melakukan Lebah Pejantan Sekitar Oktober Siklus Hidup Lebah Ratu dan Lebah Pejantan"
+      },
+      {
+       "h": "2 Aktivitas Lebah Selama Setahun"
+      },
+      {
+       "p": "Sejak musim semi hingga musim panas merupakan fase mekarnya banyak bunga, dan lebah akan mencari makan dan berkembang biak. Begitu satu kelompok menjadi besar tertentu, maka dimulailah kehidupan lebah pejantan untuk berkembang biak dan pembuatan sel (ruang) calon ratu. Beberapa hari sebelum lahirnya lebah ratu yang baru di sel (ruang) calon ratu, lebah ratu yang lama akan keluar dari sarang bersama dengan sekitar setengah lebah pekerja, dan akan membuat sarang baru di tempat lain. Ini disebut dengan berpisah koloni (swarming)."
+      },
+      {
+       "p": "Merupakan masa sulit bagi lebah karena sedikitnya bunga, kecuali dataran tinggi yang terdapat banyak bunga. Untuk itu, ada kalanya lebah melarikan diri dan tidak pulang kembali ke sarangnya untuk mencari dunia yang baru. Ini disebut dengan kabur."
+      },
+      {
+       "p": "Fase dimana harus mengumpukan madu (menyimpan madu di sarang) yang cukup sebelum musim dingin. Dari bunga yang baunya dibenci manusia pun, lebah akan mengumpulkan madunya dengan sekuat tenaga. Lebah bertahan akan dingin dengan saling mendekatkan badan dalam sarang. Bertelur dan mengasuh akan berhenti selama musin dingin, namun saat mendekati musim semi, akan mulai bertelur. Kemudian, pada masa ini ada kalanya lebah mati kelaparan karena kekurangan makanan akibat kurangnya madu yang disimpan."
+      },
+      {
+       "p": "Masa Berkembang Biak Lebah Pejantan Lebah Ratu Lama Lebah Ratu Baru Alur Satu Tahun dan Jumlah Lebah dalam Sarang"
+      },
+      {
+       "note": "Teks diambil dari buku resmi (hal. 33–38). Tabel, gambar, dan diagram lihat di tombol Buku (halaman asli)."
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kuda yang dilahirkan dari inseminasi buatan tidak dapat digunakan pada pacuan kuda.",
+      "points": [
+       "① Kuda Tipe Ringan",
+       "Kuda Tipe Ringan (Varietas Thoroughbred)",
+       "Siklus Hidup",
+       "① Pembibitan (Maret hingga Mei)",
+       "② Kelahiran",
+       "③ Menyusui",
+       "④ Musim Gugur, Penyapihan",
+       "⑥ Musim Gugur 1 Tahun Latihan Berkuda",
+       "⑦ Musim Dingin 1 Tahun hingga 2 Tahun, Latihan",
+       "⑧ Mulai 2 Tahun 4 Bulan, Debut Pacuan Kuda"
+      ],
+      "avoid": [
+       "Menghafal tanpa melihat gambar dan tabel di halaman buku."
+      ],
+      "exam": [
+       "Poin-poin pada daftar di atas, dan angka/waktu yang disebut buku (bandingkan dengan hal. 33–38)."
+      ]
+     }
+    }
+   }
+  ]
+ }
+}
