@@ -1,11 +1,12 @@
 /* Service worker: network-first, cache fallback */
-// v26 — MENSETSU 面接 (js/mensetsu*.js, css/mensetsu.css, data/mensetsu/index.json).
+// v149 — MENSETSU 面接 (js/mensetsu*.js, css/mensetsu.css, data/mensetsu/index.json); fungsi Netlify tidak pernah dicache.
+// v26 — SSW 特定技能 (ssw.js, ssw-core.js, ssw-art.js, css/ssw.css; data & gambar halaman buku dicache saat dibuka).
 // v25 — Hiragana & Katakana (kana-center, writer, data kana + goresan), cache goresan KanjiVG.
 // v23 — JLPT Center (Full Exam + Practice N5–N1, timer, pembahasan, riwayat).
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v26";
+const CACHE = "shirose-nihongo-v171";
 const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
 const KVG = "shirose-kvg-v1";       // goresan KanjiVG yang pernah dibuka (offline; tidak dihapus saat update)
 const CORE = [
@@ -30,9 +31,16 @@ const CORE = [
   "./js/kana-center.js",
   "./css/kana-center.css",
   "./data/kana.json",
+  "./data/kana-baca.json",
   "./data/kana-strokes.json",
+  "./js/ssw.js",
+  "./js/jft.js",
+  "./css/jft.css",
+  "./js/ssw-core.js",
+  "./js/ssw-art.js",
+  "./css/ssw.css",
   "./js/mensetsu.js",
-  "./js/mensetsu-engine.js",
+  "./js/mensetsu-engine.js", "./js/mensetsu-prep.js",
   "./css/mensetsu.css",
   "./data/mensetsu/index.json",
 ];
