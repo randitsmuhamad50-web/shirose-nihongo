@@ -86,3 +86,8 @@ html[data-theme="semi"] body{background:radial-gradient(ellipse at 80% 0%,rgba(2
 #wx .foam{left:0;right:0;bottom:20vh;height:10px;background:rgba(255,255,255,.75);filter:blur(2px);animation:wxwave 3s ease-in-out infinite alternate}
 #wx .sand{left:0;right:0;bottom:0;height:21vh;background:linear-gradient(to bottom,#f6dfa3,#e9c777 60%,#d9b05c);border-radius:50% 50% 0 0/18px 18px 0 0}
 #wx .palm{bottom:12vh;font-style:normal;line-height:1;filter:drop-shadow(0 6px 4px rgba(0,0,0,.25))}
+
+/* pemandangan: buram + memudar ke atas supaya menyatu */
+#wx .scene{position:absolute;left:0;right:0;bottom:0;width:100%;height:42vh;opacity:.62;filter:blur(1.8px);-webkit-mask-image:linear-gradient(to top,#000 50%,transparent 100%);mask-image:linear-gradient(to top,#000 50%,transparent 100%)}
+html[data-theme="panas"] #wx .palm{filter:blur(1.2px) drop-shadow(0 6px 4px rgba(0,0,0,.2));opacity:.9}
+html[data-theme="panas"] #wx .sand,html[data-theme="panas"] #wx .sea{filter:blur(1px)}
