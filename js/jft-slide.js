@@ -1,7 +1,7 @@
 /* =====================================================================
  * JFT · Slide Bunpou Irodori (ala buku interaktif SSW)
  *  - Pilih level: A1 (入門) · A2 (初級1) · A2 (初級2) → pilih bab → slideshow
- *  - Tiap bab: kosakata baru → pola bunpou (pola, arti, penjelasan, contoh) dengan tombol audio 🔊
+ *  - Tiap bab: pola bunpou (pola, arti, penjelasan, contoh) dengan tombol audio 🔊
  *  - Sumber slide: materi Shirose (data/bunpou-ir*.json + data/kosakata-ir*.json) — ada unduhan .pptx
  *  - Tab "PPT Resmi JF": tautan unduhan PPT resmi Irodori (Japan Foundation) + file lokal bila sudah diunggah.
  * Route: #jft-slide, #jft-slide/{ir0|ir1|ir2}, #jft-slide/{lv}/{bab}
@@ -52,7 +52,7 @@ async function renderList(lvIn) {
     <div class="panel">
       <h2>🎞️ Slide Irodori — ${L.nama}</h2>
       <div class="jfs-tabs">${tabs}</div>
-      <p style="color:var(--gray);font-size:14px;margin:8px 0">Slide per bab: kosakata baru → pola bunpou → contoh. Ketuk 🔊 untuk audio, panah/geser untuk pindah slide.</p>
+      <p style="color:var(--gray);font-size:14px;margin:8px 0">Slide per bab: pola bunpou → contoh. Ketuk 🔊 untuk audio, panah/geser untuk pindah slide.</p>
       <div class="jfs-grid">${kartu}</div>
       <div style="margin-top:12px"><a class="btn sm" href="./data/jft/slide/${lv}.pptx" download>⬇ Unduh PPTX ${L.ke} ${L.jp} (semua bab)</a></div>
     </div>
@@ -66,8 +66,7 @@ async function buildSlides(lv, bab) {
   const [bun, kos] = await Promise.all([dat(`./data/bunpou-${lv}.json`), dat(`./data/kosakata-${lv}.json`)]);
   const pols = bun.filter(x => x.bab === bab);
   const words = kos.filter(x => x.bab === bab && x.kata && x.kana && x.arti);
-  const slides = [{ t: "title", judul: `Bab ${bab}`, sub: `${LV[lv].nama} · ${pols.length} pola · ${words.length} kata` }];
-  for (let i = 0; i < words.length; i += 6) slides.push({ t: "vocab", items: words.slice(i, i + 6), hal: [i / 6 + 1, Math.ceil(words.length / 6)] });
+  const slides = [{ t: "title", judul: `Bab ${bab}`, sub: `${LV[lv].nama} · ${pols.length} pola` }];
   pols.forEach((p, k) => {
     slides.push({ t: "pola", p, k: k + 1, n: pols.length });
     if (p.contoh) slides.push({ t: "contoh", p, k: k + 1, n: pols.length });
