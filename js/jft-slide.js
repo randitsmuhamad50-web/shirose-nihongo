@@ -35,6 +35,8 @@ async function renderList(lvIn) {
     return `<button class="jfs-bab" onclick="route('jft-slide/${lv}/${b}')"><b>Bab ${b}</b><small>${n} pola</small></button>`;
   }).join("");
   const L = LV[lv];
+  const idx = await dat("./data/jft/ppt/index.json");
+  const pptPanel = idx.length ? `<div class="panel"><h3>📽️ PPT resmi Irodori (interaktif, ketuk ikon 🔊)</h3><div class="jfs-grid">${idx.filter(x => x.lv === lv).map(x => `<button class="jfs-bab" onclick="route('jft-ppt/${x.id}')"><b>${esc(x.judul)}</b><small>PPT resmi</small></button>`).join("") || '<small style="color:var(--gray)">Belum ada PPT resmi untuk level ini.</small>'}</div></div>` : "";
   const resmiTautan = `<div class="jfs-resmi">
       <h3>PPT resmi Irodori (Japan Foundation)</h3>
       <p>PPT kelas resmi (dengan audio tertanam) dibagikan Japan Foundation. Unduh langsung dari situs resmi, atau dari halaman Yangon:</p>
@@ -56,6 +58,7 @@ async function renderList(lvIn) {
       <div class="jfs-grid">${kartu}</div>
       <div style="margin-top:12px"><a class="btn sm" href="./data/jft/slide/${lv}.pptx" download>⬇ Unduh PPTX ${L.ke} ${L.jp} (semua bab)</a></div>
     </div>
+    ${pptPanel}
     <div class="panel">${resmiTautan}</div>
   </div>`;
 }
@@ -126,11 +129,56 @@ function bind() {
 }
 const JFTS = window.JFTS = {
   say(b) { document.querySelectorAll(".sv-playing").forEach(x => x.classList.remove("sv-playing")); b.classList.add("sv-playing"); window.SV?.speak(b.dataset.say, { role: b.dataset.role, level: SL?.lv }); },
+  ppGo(d) { if (!PP) return; ppStop(); PP.i = Math.max(0, Math.min(PP.m.slides.length - 1, PP.i + d)); ppPaint(); },
+  ppPlay(k, el) { if (!PP) return; if (el?.classList.contains("on")) { ppStop(); return; } ppPlay(PP.m.slides[PP.i].au[k].src, el); },
+  ppAll() { if (!PP) return; const au = PP.m.slides[PP.i].au; const hs = [...document.querySelectorAll(".jfs-hot")]; const run = (k) => { if (k >= au.length) return; ppPlay(au[k].src, hs[k], () => run(k + 1)); }; run(0); },
   go(d) { if (!SL) return; SL.i = Math.max(0, Math.min(SL.slides.length - 1, SL.i + d)); paint(); },
   ruby() { LS.set("shirose-jfs-ruby", rubyOn() ? "0" : "1"); document.getElementById("jfs-ruby").textContent = `ふりがな ${rubyOn() ? "ON" : "OFF"}`; paint(); },
   auto() { LS.set("shirose-jfs-auto", autoOn() ? "0" : "1"); document.getElementById("jfs-auto").textContent = `🔊 Auto ${autoOn() ? "ON" : "OFF"}`; },
   full() { const w = document.getElementById("jfs-wrap"); if (document.fullscreenElement) document.exitFullscreen(); else w?.requestFullscreen?.(); },
 };
+/* ---------- viewer PPT resmi (gambar slide + hotspot audio dari PPTX) ---------- */
+let PP = null, ppAudio = null;
+async function renderPpt(id) {
+  const st = S();
+  if (!st.user) { setTimeout(() => route("login"), 0); return '<div class="loading">Memuat…</div>'; }
+  const m = await fetch(`./data/jft/ppt/${id}/m.json`).then(r => r.json()).catch(() => null);
+  if (!m) return '<div class="panel">PPT tidak ditemukan.</div>';
+  const info = ((await dat("./data/jft/ppt/index.json")).find(x => x.id === id)) || { judul: id, lv: "ir0" };
+  PP = { id, m, i: PP && PP.id === id ? PP.i : 0, info };
+  setTimeout(() => { ppPaint(); ppBind(); }, 0);
+  return `
+  <div class="jfs-wrap" id="jfs-wrap">
+    <div class="jfs-top">
+      <button class="btn ghost sm" onclick="route('jft-slide/${info.lv}')">← Daftar</button>
+      <span id="jfs-pos" style="font-weight:700;color:var(--gray)"></span>
+      <span class="jfs-tools"><button class="btn ghost sm" onclick="JFTS.ppAll()">▶ Putar semua audio</button><button class="btn ghost sm" onclick="JFTS.full()">⛶</button></span>
+    </div>
+    <div class="jfs-progress"><i id="jfs-bar"></i></div>
+    <div class="jfs-pptbox" id="jfs-ppt"></div>
+    <div class="jfs-nav"><button class="btn" onclick="JFTS.ppGo(-1)">‹ Sebelumnya</button><button class="btn gold" onclick="JFTS.ppGo(1)">Berikutnya ›</button></div>
+  </div>`;
+}
+function ppStop() { if (ppAudio) { try { ppAudio.pause(); } catch (e) {} ppAudio = null; } document.querySelectorAll(".jfs-hot.on").forEach(x => x.classList.remove("on")); }
+function ppPlay(src, el, then) {
+  ppStop(); const a = ppAudio = new Audio(`./data/jft/ppt/${PP.id}/${src}`); el?.classList.add("on");
+  a.onended = () => { el?.classList.remove("on"); then?.(); }; a.onerror = () => el?.classList.remove("on"); a.play().catch(() => el?.classList.remove("on"));
+}
+function ppPaint() {
+  const box = document.getElementById("jfs-ppt"); if (!box || !PP) return;
+  const sl = PP.m.slides[PP.i];
+  box.innerHTML = `<div class="jfs-pptwrap" style="aspect-ratio:${PP.m.w}/${PP.m.h}"><img src="./data/jft/ppt/${PP.id}/${sl.img}" alt="Slide ${PP.i + 1}" draggable="false">${sl.au.map((a, k) => `<button class="jfs-hot" data-k="${k}" title="Putar audio" style="left:${a.x}%;top:${a.y}%;width:${a.w}%;height:${a.h}%" onclick="JFTS.ppPlay(${k},this)"></button>`).join("")}</div>`;
+  document.getElementById("jfs-pos").textContent = `${PP.i + 1} / ${PP.m.slides.length}`;
+  document.getElementById("jfs-bar").style.width = `${((PP.i + 1) / PP.m.slides.length) * 100}%`;
+}
+function ppBind() {
+  if (!window.__jfsPpKey) { window.__jfsPpKey = true; document.addEventListener("keydown", (e) => { if (!document.getElementById("jfs-ppt")) return; if (e.key === "ArrowRight") JFTS.ppGo(1); else if (e.key === "ArrowLeft") JFTS.ppGo(-1); }); }
+  const b = document.getElementById("jfs-ppt"); if (!b) return; let x0 = 0;
+  b.addEventListener("touchstart", (e) => { x0 = e.changedTouches[0].clientX; }, { passive: true });
+  b.addEventListener("touchend", (e) => { const dx = e.changedTouches[0].clientX - x0; if (Math.abs(dx) > 70) JFTS.ppGo(dx < 0 ? 1 : -1); }, { passive: true });
+}
+window.addEventListener("hashchange", () => ppStop());
 export const JFTS_ROUTES = {
+  "jft-ppt": (p) => renderPpt(Array.isArray(p) ? p[0] : String(p || "")),
   "jft-slide": (p) => { const [lv, bab] = Array.isArray(p) ? p : String(p || "").split("/"); return LV[lv] && +bab ? renderSlides(lv, +bab) : renderList(lv); },
 };

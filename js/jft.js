@@ -487,7 +487,7 @@ function renderHasil() {
   </div>`;
 }
 
-import { JFTS_ROUTES } from "./jft-slide.js?v=20261113d";
+import { JFTS_ROUTES } from "./jft-slide.js?v=20261113e";
 export const JFT_ROUTES = {
   ...JFTS_ROUTES,
   jft: () => renderHub(),
