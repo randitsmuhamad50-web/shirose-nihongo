@@ -17,6 +17,7 @@
   function city(c,glow){var o='<g fill="'+c+'">',x=0,hs=[90,140,110,170,100,130,80,150];for(var i=0;i<16;i++){var h=hs[i%8],w=60+(i*17%40);o+='<rect x="'+x+'" y="'+(300-h)+'" width="'+w+'" height="'+h+'"/>';if(glow&&i%3==0)o+='<rect x="'+(x+10)+'" y="'+(300-h+16)+'" width="10" height="14" fill="'+glow+'"/>';x+=w+8}return o+'</g>'}
   function scene(t){
     var S='',c;
+    if(t!=="badai")return "";
     if(t==="hujan"){c="#070d13";S=house(60,110,70,"#0c141b","#05090d","#ffcf6b")+pole(250,230,c)+pole(620,250,c)+pole(990,225,c)+wires([250,620,990],230,c)+house(400,120,86,"#0c141b","#05090d","#ffcf6b")+house(780,130,76,"#0c141b","#05090d","#ffcf6b")+house(1060,100,92,"#0c141b","#05090d")}
     else if(t==="badai"){c="#05050a";S=city("#0a0a14","#ffd60a")+pole(180,240,c)+pole(560,260,c)+pole(940,235,c)+wires([180,560,940],240,c)}
     else if(t==="salju"){S=pine(90,1.1,"#10243a")+house(240,150,80,"#1a3550","#e8f4ff","#ffd27a")+pine(520,.9,"#10243a")+house(640,170,90,"#1a3550","#e8f4ff","#ffd27a")+pine(980,1.2,"#10243a")+pine(1100,.8,"#10243a")}
@@ -33,8 +34,7 @@
     if(t==="badai")h+='<i class="flash"></i>';
     if(t==="salju"){for(i=0;i<36;i++){var s=r(3,7).toFixed(1);h+='<i class="flake" style="left:'+r(0,100).toFixed(1)+'%;width:'+s+'px;height:'+s+'px;animation-duration:'+r(7,14).toFixed(1)+'s;animation-delay:-'+r(0,12).toFixed(1)+'s"></i>'}}
     if(t==="gugur"||t==="semi"){var ch=t==="gugur"?["🍁","🍂"]:["🌸","🌸"];for(i=0;i<22;i++)h+='<i class="leaf" style="left:'+r(0,100).toFixed(1)+'%;font-size:'+r(14,26).toFixed(0)+'px;animation-duration:'+r(8,15).toFixed(1)+'s;animation-delay:-'+r(0,14).toFixed(1)+'s;opacity:.85">'+ch[i%2]+'</i>'}
-    if(t==="panas")h+='<i class="rays"></i><i class="sun2"></i><i class="sea"></i><i class="foam"></i><i class="sand"></i><i class="palm" style="left:2vw;font-size:min(22vh,150px)">🌴</i><i class="palm" style="right:3vw;font-size:min(17vh,115px)">🌴</i><i class="palm" style="left:14vw;font-size:min(9vh,60px);bottom:8vh">🐚</i>';
-    if(t==="cerah")h+='<i class="sun"></i>';
+        if(t==="cerah")h+='<i class="sun"></i>';
     w.innerHTML=h;
   }
   function apply(t){

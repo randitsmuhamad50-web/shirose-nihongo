@@ -91,7 +91,7 @@ html[data-theme="semi"]{
   --shadow-glow:0 0 30px rgba(255,143,192,.35);
 }
 html[data-theme="gugur"] body{background:radial-gradient(ellipse at 20% 0%,rgba(240,138,36,.2) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
-html[data-theme="panas"] body{background:linear-gradient(to bottom,#1e90e0 0%,#5cbcf0 45%,#a8e2fa 62%);background-attachment:fixed}
+html[data-theme="panas"] body{background:linear-gradient(160deg,#0e6fae 0%,#2a9ee0 40%,#8fd0ee 70%,#ffd96b 100%);background-attachment:fixed}
 html[data-theme="semi"] body{background:radial-gradient(ellipse at 80% 0%,rgba(255,143,192,.22) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
 #wx .leaf{top:-8vh;font-style:normal;line-height:1;animation:wxleaf linear infinite}
 @keyframes wxleaf{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(40px,55vh) rotate(180deg)}100%{transform:translate(-20px,112vh) rotate(360deg)}}
