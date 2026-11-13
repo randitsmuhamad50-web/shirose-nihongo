@@ -209,8 +209,8 @@ export async function renderPersiapan(p) {
     <section class="ms-panel"><h2>2. Urutan &amp; jawaban</h2>
       <p class="ms-note">自己紹介をお願いします。 selalu pertama dan tidak bisa dihapus. Ketuk pertanyaan untuk menulis jawaban. Urutan ini dipakai di simulasi wawancara.</p>
       <div class="pp-list">${list || '<p class="ms-note">Belum ada pertanyaan.</p>'}</div></section>
-    <div class="ms-actions"><button class="btn big" onclick="route('mensetsu-hafalan/${key}')">🧠 Mode hafalan</button>
-      <button class="btn big" onclick="route('mensetsu-sesi/${key}')">🎙️ Simulasi wawancara</button>
+    <div class="ms-actions"><button class="btn big" onclick="route('mensetsu-prompt/${key}')">🤖 Latihan wawancara di Claude / ChatGPT</button>
+      <button class="btn big" onclick="route('mensetsu-hafalan/${key}')">🧠 Mode hafalan</button>
       <button class="btn ghost" onclick="route('mensetsu-bidang/${key}')">← Pengaturan</button></div>
   </div>`;
 }
@@ -401,7 +401,7 @@ export async function renderHafalan(p) {
       <div class="pp-act pp-marks"><button class="btn ${a.status === "hafal" ? "" : "ghost"}" onclick="PP.hMark('hafal')">✅ Sudah hafal</button><button class="btn ${a.status === "sulit" ? "" : "ghost"}" onclick="PP.hMark('sulit')">⚠️ Sulit</button><button class="btn ${!a.status || a.status === "baru" ? "" : "ghost"}" onclick="PP.hMark('baru')">↺ Belum</button></div>
       <div class="pp-act"><button class="btn ghost" ${H.i ? "" : "disabled"} onclick="PP.hGo(-1)">← Sebelumnya</button><button class="btn ghost" ${H.i < items.length - 1 ? "" : "disabled"} onclick="PP.hGo(1)">Berikutnya →</button></div>
     </section>
-    <div class="ms-actions"><button class="btn ghost" onclick="route('mensetsu-persiapan/${key}')">✍️ Edit jawaban</button><button class="btn big" onclick="route('mensetsu-sesi/${key}')">🎙️ Simulasi wawancara</button></div></div>`;
+    <div class="ms-actions"><button class="btn ghost" onclick="route('mensetsu-persiapan/${key}')">✍️ Edit jawaban</button><button class="btn big" onclick="route('mensetsu-prompt/${key}')">🤖 Wawancara di Claude / ChatGPT</button></div></div>`;
 }
 Object.assign(PP, {
   hFilter(f) { ttsStop(); H.filter = f; H.i = 0; H.show = false; H.shadow = null; rerender(); },
@@ -423,14 +423,104 @@ Object.assign(PP, {
 });
 function stopRec() { try { H.rec && H.rec.stop && H.rec.stop(); } catch (e) {} }
 
-window.PP = PP;
-export const PREP_ROUTES = { "mensetsu-persiapan": (p) => renderPersiapan(p), "mensetsu-hafalan": (p) => renderHafalan(p) };
+/* ---------------- PROMPT untuk Claude / ChatGPT ---------------- */
+const PM_KEY = "shirose-mensetsu-pm";
+const pmOpt = () => Object.assign({ mode: "latihan", jawaban: true, furi: true }, X.LS.get(PM_KEY, {}));
+/** Susun prompt wawancara (teks biasa) dari pertanyaan terpilih + jawaban persiapan. Tanpa AI. */
+export function buildMensetsuPrompt({ b, qs, prep, mode, jawaban, furi }) {
+  const nyata = mode === "nyata";
+  const daftar = qs.map((q, i) => `${i + 1}. ${q.ja}  (${q.id})`).join("\n");
+  const persiapan = jawaban ? qs.filter(q => prep[q.i]).map(q => `- ${q.ja}\n  Jawaban persiapanku: ${prep[q.i]}`).join("\n") : "";
+  return `Kamu adalah 田中 誠 (Tanaka Makoto), staf HRD (人事担当) di ${b.co} bidang ${b.jp} (${b.id}), program Tokutei Ginou / SSW di Jepang. Kamu mewawancarai aku, kandidat dari Indonesia dengan bahasa Jepang tingkat pemula (sekitar N5–N4). Tugasmu: jadi pewawancara mensetsu (面接) yang realistis agar aku bisa berlatih.
 
-/* ---------------- dipakai simulasi wawancara ---------------- */
-/** Ambil pertanyaan terpilih (urutan siswa, 自己紹介 pertama) + jawaban persiapan aktif. */
-export async function sessionPrep(key, bank) {
-  const { data } = await loadPrep(key, bank);
-  const prep = {}; for (const i of data.order) { const t = aktif(data.answers[i]).trim(); if (t) prep[i] = t; }
-  const plan = data.order.map(i => bank.soal.find(q => q.i === i)).filter(Boolean);
-  return { plan, prep, count: data.order.length, answers: Object.keys(prep).length };
+ATURAN WAWANCARA
+1. Berbicara dalam bahasa Jepang sopan dan sederhana (です・ます, kosakata mudah). ${furi ? "Tulis hiragana di dalam kurung setelah kanji pada kalimatmu, contoh: 自己紹介(じこしょうかい)." : "Tidak perlu furigana."}
+2. Ajukan SATU pertanyaan setiap giliran, lalu TUNGGU jawabanku. Jangan menjawab untukku.
+3. Mulai dengan salam pembuka singkat (「それでは、面接を始めます。よろしくお願いします。」), lalu pertanyaan pertama WAJIB 自己紹介をお願いします。
+4. Setelah itu tanyakan pertanyaan dari daftar di bawah SESUAI URUTAN. Kamu boleh menambah maksimal 1–2 pertanyaan lanjutan (follow-up) yang bergantung pada isi jawabanku, lalu lanjut ke pertanyaan berikutnya.
+5. Respons dengan aizuchi yang alami dan bervariasi (はい、なるほど、そうですか、ありがとうございます), seperti pewawancara sungguhan.
+6. Jangan mengarang informasi perusahaan (gaji, jam kerja, jumlah karyawan). Kalau aku bertanya hal itu, jawab jujur bahwa belum bisa dipastikan.
+7. Aku mungkin menjawab dengan kata-kata yang berbeda dari jawaban persiapanku. Itu BOLEH. Jawaban persiapan hanya referensi, jangan menuntut aku menghafalnya dan jangan menilai dari kemiripan kata. Nilai kualitas komunikasi dan relevansi dengan pertanyaan.
+8. ${nyata ? "MODE NYATA: jangan memberi petunjuk atau koreksi selama wawancara. Kalau aku menjawab dalam bahasa Indonesia, minta dengan sopan: 「もう一度、日本語でお願いできますか。」 Semua umpan balik hanya di akhir." : "MODE LATIHAN: setelah beberapa giliran, atau kalau aku kesulitan, boleh memberi petunjuk singkat dalam bahasa Indonesia. Kalau aku menjawab dalam bahasa Indonesia, bantu ubah ke bahasa Jepang yang natural dan sopan, lalu minta aku mengucapkannya lagi dalam bahasa Jepang."}
+
+DAFTAR PERTANYAAN (urutan wawancara)
+${daftar}
+${persiapan ? `\nJAWABAN PERSIAPANKU (hanya referensi, boleh berbeda saat wawancara)\n${persiapan}\n` : ""}
+SETELAH SEMUA PERTANYAAN SELESAI (atau jika aku mengetik "selesai")
+Akhiri wawancara dengan sopan, lalu beri PENILAIAN dalam bahasa Indonesia:
+- Skor total 0–100 dan skor per aspek: isi & relevansi (25), tata bahasa Jepang (20), kosakata (15), kelancaran (15), kesopanan & komunikasi (10), kesiapan jawaban (15).
+- Kelebihan dan kekurangan jawabanku.
+- Daftar kalimat yang salah: kalimatku → versi benar, beserta alasan singkat (partikel, bentuk sopan, kosakata, kealamian).
+- Untuk 3 pertanyaan terlemah: contoh jawaban yang lebih baik (bahasa Jepang + arti Indonesia), mudah diucapkan dan sesuai level SSW.
+- Saran latihan untuk sesi berikutnya.
+
+Mulai sekarang. Jangan menjelaskan aturan ini kembali, langsung mulai sebagai pewawancara.`;
 }
+async function pmData(key) {
+  const bank = P && P.key === key && P.bank ? P.bank : await EN.loadBank(key);
+  const d = P && P.key === key && P.data ? P.data : (await loadPrep(key, bank)).data;
+  if (!P || P.key !== key) P = { key, bank, data: d, open: null, cat: "semua", status: null };
+  let qs = d.order.map(i => bank.soal.find(q => q.i === i)).filter(Boolean), auto = false;
+  if (qs.length < 2) {
+    const j = jikoOf(bank); const rest = bank.soal.filter(q => q !== j && q.k !== "saigo" && q.k !== "jiko");
+    const rank = Object.fromEntries(EN.CATS.map((c, i) => [c.k, i]));
+    const pick = []; const seen = new Set();
+    for (const q of rest) if (!seen.has(q.k) || pick.length >= 5) { /* satu per kategori dulu */ if (!seen.has(q.k)) { seen.add(q.k); pick.push(q); } }
+    for (const q of rest) { if (pick.length >= 9) break; if (!pick.includes(q)) pick.push(q); }
+    pick.sort((a, b) => rank[a.k] - rank[b.k]);
+    qs = [j, ...pick].filter(Boolean); auto = true;
+  }
+  const prep = {}; for (const q of qs) { const t = aktif(d.answers[q.i]).trim(); if (t) prep[q.i] = t; }
+  return { qs, prep, auto };
+}
+function chipsHtml() {
+  const cats = EN.CATS.filter(c => c.k !== "saigo");
+  return [`<button class="ms-chip ${P.cat === "semua" ? "on" : ""}" onclick="PP.cat('semua')">Semua</button>`, ...cats.map(c => `<button class="ms-chip ${P.cat === c.k ? "on" : ""}" onclick="PP.cat('${c.k}')">${c.jp} <small>${P.bank.soal.filter(q => q.k === c.k).length}</small></button>`)].join("");
+}
+function checkHtml() {
+  const jiko = jikoOf(P.bank);
+  return P.bank.soal.filter(q => q.k !== "saigo" && (P.cat === "semua" || q.k === P.cat)).map(q => {
+    const on = P.data.sel.includes(q.i); const lock = jiko && q.i === jiko.i;
+    return `<label class="pp-ck ${on ? "on" : ""}"><input type="checkbox" ${on ? "checked" : ""} ${lock ? "disabled" : ""} onchange="PP.toggle('${q.i}',this.checked)"/><span><b class="jp">${esc(q.ja)}</b><small>${esc(q.id)}${lock ? " · 🔒 wajib, selalu pertama" : ""}</small></span></label>`;
+  }).join("");
+}
+export async function renderPrompt(p) {
+  const key = X.param(p); if (!X.BIDANG[key]) { setTimeout(() => route("mensetsu"), 0); return '<div class="loading">Memuat…</div>'; }
+  X.setPage(renderPrompt, p);
+  const { qs, prep, auto } = await pmData(key); const o = pmOpt(); const b = X.BIDANG[key];
+  const text = buildMensetsuPrompt({ b, qs, prep, mode: o.mode, jawaban: o.jawaban, furi: o.furi });
+  const nPrep = Object.keys(prep).length;
+  return `<div class="ms-wrap pp">${crumbs(key, "Prompt wawancara")}
+    <div class="ms-head compact"><div class="jp">面接</div><h1>Prompt wawancara — ${esc(b.id)}</h1>
+      <p>Salin prompt ini ke Claude atau ChatGPT. AI di sana akan menjadi pewawancaramu memakai pertanyaan &amp; jawaban yang sudah kamu siapkan.</p></div>
+    <section class="ms-panel"><h2>1. お願いします — pilih pertanyaan yang ingin ditanyakan</h2>
+      <p class="ms-note" style="margin:0 0 8px">Centang pertanyaan yang mau kamu latihkan. 自己紹介 selalu pertama. Pilihan ini sama dengan di halaman Persiapan jawaban.</p>
+      <div class="ms-chips">${chipsHtml(key)}</div>
+      <div class="pp-act"><button class="btn ghost" onclick="PP.all(true)">Pilih semua yang tampil</button><button class="btn ghost" onclick="PP.all(false)">Kosongkan (自己紹介 tetap)</button></div>
+      <div class="pp-chk">${checkHtml(key)}</div></section>
+    <section class="ms-panel"><h2>2. Pengaturan</h2>
+      <p class="ms-note" style="margin:0 0 8px">${auto ? `Kamu belum memilih pertanyaan sendiri, jadi dipakai ${qs.length} pertanyaan standar (自己紹介 pertama). <a onclick="route('mensetsu-persiapan/${key}')" style="color:var(--pink-light);cursor:pointer">Pilih pertanyaan sendiri →</a>` : `${qs.length} pertanyaan pilihanmu (自己紹介 pertama), ${nPrep} sudah berjawaban.`}</p>
+      <div class="pp-act"><label class="pp-sp"><input type="radio" name="pm-mode" ${o.mode === "latihan" ? "checked" : ""} onchange="PP.pm('mode','latihan')"/> Mode Latihan (ada petunjuk &amp; koreksi)</label>
+        <label class="pp-sp"><input type="radio" name="pm-mode" ${o.mode === "nyata" ? "checked" : ""} onchange="PP.pm('mode','nyata')"/> Mode Nyata (umpan balik di akhir)</label></div>
+      <label class="ck"><input type="checkbox" ${o.jawaban ? "checked" : ""} onchange="PP.pm('jawaban',this.checked)"/> Sertakan jawaban persiapanku sebagai referensi</label>
+      <label class="ck"><input type="checkbox" ${o.furi ? "checked" : ""} onchange="PP.pm('furi',this.checked)"/> Minta AI menulis furigana (hiragana) pada kanji</label></section>
+    <section class="ms-panel"><h2>3. お願いします — salin &amp; tempel</h2>
+      <textarea id="pm-text" rows="12" readonly onclick="this.select()">${esc(text)}</textarea>
+      <p class="ms-note"><span id="pm-n">${text.length}</span> karakter. Tips: pakai mode suara (voice) di aplikasi Claude/ChatGPT agar bisa berlatih bicara.</p>
+      <div class="pp-act"><button class="btn big" onclick="PP.pmCopy()">📋 Salin prompt</button>
+        <a class="btn" href="https://claude.ai/new" target="_blank" rel="noopener" onclick="PP.pmCopy()">🟣 Salin &amp; buka Claude</a>
+        <a class="btn" href="https://chatgpt.com/" target="_blank" rel="noopener" onclick="PP.pmCopy()">🟢 Salin &amp; buka ChatGPT</a></div>
+      <p class="ms-note">Setelah chat baru terbuka, tempel (Ctrl+V / tahan lalu Tempel) dan kirim. Ketik “selesai” kapan saja untuk minta penilaian.</p></section>
+    <div class="ms-actions"><button class="btn" onclick="route('mensetsu-persiapan/${key}')">✍️ Persiapan jawaban</button><button class="btn ghost" onclick="route('mensetsu-bidang/${key}')">← Kembali</button></div></div>`;
+}
+Object.assign(PP, {
+  pm(k, v) { const o = pmOpt(); o[k] = v; X.LS.set(PM_KEY, o); rerender(); },
+  async pmCopy() {
+    const t = document.getElementById("pm-text")?.value || ""; if (!t) return;
+    try { await navigator.clipboard.writeText(t); toast("Prompt disalin. Tempel di chat baru."); }
+    catch (e) { const el = document.getElementById("pm-text"); el.removeAttribute("readonly"); el.select(); let ok = false; try { ok = document.execCommand("copy"); } catch (e2) {} el.setAttribute("readonly", ""); toast(ok ? "Prompt disalin. Tempel di chat baru." : "Gagal menyalin otomatis — teks sudah terpilih, salin manual."); }
+  },
+});
+
+window.PP = PP;
+export const PREP_ROUTES = { "mensetsu-persiapan": (p) => renderPersiapan(p), "mensetsu-hafalan": (p) => renderHafalan(p), "mensetsu-prompt": (p) => renderPrompt(p) };

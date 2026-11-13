@@ -27,12 +27,12 @@ const PROVIDERS = {
     label: "Google Gemini (gratis)",
     ready: () => !!env.GEMINI_API_KEY,
     async call({ system, messages, json, maxTokens, temperature, signal }) {
-      const model = env.GEMINI_MODEL || "gemini-2.0-flash";
+      const model = env.GEMINI_MODEL || "gemini-3.5-flash";
       const url = `https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`;
       const body = {
         systemInstruction: { parts: [{ text: system }] },
         contents: messages.map(m => ({ role: m.role === "assistant" ? "model" : "user", parts: [{ text: m.content }] })),
-        generationConfig: { temperature, maxOutputTokens: maxTokens, ...(json ? { responseMimeType: "application/json" } : {}) },
+        generationConfig: { temperature, maxOutputTokens: maxTokens + 3000, ...(json ? { responseMimeType: "application/json" } : {}) },
       };
       const r = await fetch(url, { method: "POST", signal, headers: { "Content-Type": "application/json", "x-goog-api-key": env.GEMINI_API_KEY }, body: JSON.stringify(body) });
       if (!r.ok) throw new Error("gemini " + r.status);
