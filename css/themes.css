@@ -53,6 +53,26 @@ html[data-theme]:not([data-theme="ungu"]) .topbar{background:color-mix(in srgb,v
 .sosmed a:hover{border-color:var(--pink);box-shadow:var(--shadow-glow)}
 .sosmed svg{width:18px;height:18px;fill:currentColor}
 body.auth-mode .sosmed{display:none}
+/* ===== Footer sosmed — versi hitam & ungu ===== */
+.sosmed{position:relative;margin:18px auto 0;max-width:560px;gap:12px;padding:20px 18px;margin-bottom:84px;border-radius:26px;
+  background:radial-gradient(120% 140% at 0% 0%,rgba(168,85,247,.28),transparent 55%),radial-gradient(120% 140% at 100% 100%,rgba(124,58,237,.30),transparent 55%),#07040f;
+  border:1px solid rgba(168,85,247,.45);box-shadow:0 0 0 1px rgba(0,0,0,.6) inset,0 12px 40px rgba(124,58,237,.28);overflow:hidden}
+.sosmed::before{content:"";position:absolute;inset:-60%;background:conic-gradient(from 0deg,transparent 0 70%,rgba(192,132,252,.35) 85%,transparent 100%);animation:smSpin 9s linear infinite;pointer-events:none;opacity:.55}
+.sosmed::after{content:"";position:absolute;inset:1px;border-radius:25px;background:linear-gradient(180deg,rgba(10,5,22,.92),rgba(5,2,12,.96));pointer-events:none}
+.sosmed>*{position:relative;z-index:1}
+@keyframes smSpin{to{transform:rotate(360deg)}}
+.sosmed .sm-lead{flex-basis:100%;text-align:center;font-size:12px;font-weight:800;letter-spacing:.28em;text-transform:uppercase;color:#c4b5fd}
+.sosmed .sm-id{flex-basis:100%;text-align:center;font-size:13px;color:#a78bfa;font-weight:600;letter-spacing:.04em}
+.sosmed a{gap:10px;padding:9px 18px 9px 10px;border:1px solid rgba(168,85,247,.55);background:linear-gradient(135deg,#120a24,#06030d);color:#f5f3ff;font-weight:700;font-size:14px;
+  box-shadow:0 0 0 0 rgba(168,85,247,0);transition:transform .22s cubic-bezier(.2,.9,.3,1.3),box-shadow .22s,border-color .22s,background .22s}
+.sosmed a svg{width:34px;height:34px;padding:8px;border-radius:50%;box-sizing:border-box;fill:#fff;background:linear-gradient(135deg,#a855f7,#6d28d9);box-shadow:0 4px 14px rgba(124,58,237,.55);transition:transform .3s,background .3s}
+.sosmed a:hover,.sosmed a:focus-visible{transform:translateY(-3px) scale(1.04);border-color:#c084fc;background:linear-gradient(135deg,#2a0f55,#0b0518);box-shadow:0 8px 26px rgba(168,85,247,.55),0 0 0 3px rgba(168,85,247,.18);outline:none}
+.sosmed a:hover svg{transform:rotate(-8deg) scale(1.08);background:linear-gradient(135deg,#d8b4fe,#8b5cf6)}
+.sosmed a:active{transform:translateY(0) scale(.98)}
+.sosmed .sm-tt svg{background:linear-gradient(135deg,#7c3aed,#c026d3)}
+@media (prefers-reduced-motion:reduce){.sosmed::before{animation:none}.sosmed a,.sosmed a svg{transition:none}}
+@media (max-width:420px){.sosmed{margin-left:12px;margin-right:12px;padding:18px 12px}.sosmed a{padding-right:14px}}
+
 
 /* ===== 4 musim (Dingin=salju, Gugur, Panas, Semi) ===== */
 html[data-theme="gugur"]{
