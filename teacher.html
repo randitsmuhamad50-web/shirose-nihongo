@@ -219,7 +219,7 @@ tr.stat-row td{padding-top:0; border-top:none;}
 <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
 <script type="module">
 // ?v=20261108i — cache-buster, lihat catatan sama di index.html.
-import * as FB from "./js/firebase-sync.js?v=20261113z";
+import * as FB from "./js/firebase-sync.js?v=20261113y2";
 import { renderSswTab } from "./js/ssw-teacher.js?v=20261112d";
 
 const state = {
@@ -597,7 +597,9 @@ function _grupSiswa(){
 }
 const _chipAkses = (s) => ["n5","n4","n3","n2","n1"].map(l => `<span class="chip btn-chip ${s.aksesLevel?.[l] ? "on" : ""}" onclick="toggleAkses('${s.uid}','${l}')">${l.toUpperCase()}</span>`).join("");
 const _chipSsw = (s) => { const on = s.aksesSsw !== false; return `<span class="chip btn-chip ${on ? "on" : ""}" title="${on ? "Klik untuk tutup akses SSW" : "Klik untuk buka akses SSW"}" onclick="toggleSsw('${s.uid}')">SSW ${on ? "Buka" : "Tutup"}</span>`; };
-const _chipJft = (s) => { const on = s.aksesJft !== false; return `<span class="chip btn-chip ${on ? "on" : ""}" title="${on ? "Klik untuk tutup akses JFT" : "Klik untuk buka akses JFT"}" onclick="toggleJft('${s.uid}')">JFT ${on ? "Buka" : "Tutup"}</span>`; };
+const JFT_LV = [["ir0","A1"],["ir1","A2.1"],["ir2","A2.2"]];
+const _jftOn = (s, l) => s.aksesJft !== false && s.aksesJftLevel?.[l] !== false;
+const _chipJft = (s) => JFT_LV.map(([l, n]) => { const on = _jftOn(s, l); return `<span class="chip btn-chip ${on ? "on" : ""}" title="JFT ${n}: klik untuk ${on ? "tutup" : "buka"}" onclick="toggleJft('${s.uid}','${l}')">JFT ${n}</span>`; }).join("");
 const _chipStatus = (s) => { const n = s.status === "nonaktif"; return `<span class="chip btn-chip ${n ? "" : "on"}" onclick="toggleStatus('${s.uid}', ${n})">${n ? "Nonaktif" : "Aktif"}</span>`; };
 function _barisSiswaKelas(s){
   const nonaktif = s.status === "nonaktif";
@@ -829,11 +831,11 @@ const _tidak = (v) => /^(tidak|t|no|n|0|false|blokir)$/i.test(String(v ?? "").tr
 function _bacaSsw(r){ const o = {}; for (const [kol, slug] of SSW_KOLOM){ const v = r[kol] ?? r[kol.toLowerCase()]; if (_ya(v)) o[slug] = true; else if (_tidak(v)) o[slug] = false; } return o; }
 window.downloadFormatSiswa = () => {
   const data = [
-    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", SSW:"Ya", "SSW Building Cleaning":"Ya", "SSW Kaigo":"Ya", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
+    { No:1, Email:"siswa1@contoh.com", Password:"rahasia123", Nama:"Budi Santoso", Kelas:"Kelas A", N5:"Ya", N4:"Tidak", N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", "JFT A1":"Ya", "JFT A2.1":"Ya", "JFT A2.2":"Tidak", SSW:"Ya", "SSW Building Cleaning":"Ya", "SSW Kaigo":"Ya", "SSW Food Manufacturing":"", "SSW Food Service":"", "SSW Agriculture":"", "SSW Construction":"", "SSW Accommodation":"", "SSW Livestock":"" },
     { No:2, Email:"siswa2@contoh.com", Password:"rahasia456", Nama:"Siti Aminah",  Kelas:"Kelas A", N5:"Ya", N4:"Ya",    N3:"Tidak", N2:"Tidak", N1:"Tidak", JFT:"Ya", SSW:"Tidak" },
   ];
   const ws = XLSX.utils.json_to_sheet(data);
-  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7}];
+  ws["!cols"] = [{wch:5},{wch:28},{wch:16},{wch:22},{wch:12},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:7},{wch:9},{wch:9},{wch:9},{wch:7}];
   const inst = XLSX.utils.aoa_to_sheet([
     ["FORMAT IMPORT SISWA — SHIROSE NIHONGO"], [""],
     ["Isi sheet 'Siswa': 1 baris = 1 akun. Hapus 2 baris contoh sebelum upload."],
@@ -842,7 +844,8 @@ window.downloadFormatSiswa = () => {
     ["- Nama (wajib): nama tampilan siswa."],
     ["- Kelas (opsional): nama kelas, misal 'Kelas A'."],
     ["- N5, N4, N3, N2, N1: isi Ya / Tidak. Ya = level dibuka untuk siswa ini. Kosong = Tidak."],
-    ["- JFT: Ya / Tidak. Tidak = menu JFT ditutup untuk siswa ini. Kosong = tidak diatur (JFT tetap terbuka)."],
+    ["- JFT: Ya / Tidak. Tidak = SEMUA level JFT ditutup untuk siswa ini. Kosong = tidak diatur (JFT tetap terbuka)."],
+    ["- JFT A1, JFT A2.1, JFT A2.2: Ya / Tidak per level JFT (Starter, Shokyuu 1, Shokyuu 2). Kosong = tidak diatur."],
     ["- SSW: Ya / Tidak. Tidak = SELURUH menu SSW ditutup. Kosong = tidak diatur (ikut kolom per bidang di bawah)."],
     ["- SSW ... (per bidang): isi Ya / Tidak. Kosong = tidak diatur (ikut pengaturan kelas / bawaan; TIDAK otomatis dibuka)."],
     ["- Email yang SUDAH terdaftar: tidak dibuat ulang. Hanya kolom akses SSW yang terisi (dan Kelas bila terisi) yang diperbarui. XP, koin, dan progres tidak disentuh."],
@@ -870,12 +873,13 @@ window.bacaExcelSiswa = async (file) => {
       const kelas = g("Kelas");
       const aksesLevel = {}; ["n5","n4","n3","n2","n1"].forEach(l => aksesLevel[l] = _ya(r[l.toUpperCase()] ?? r[l]));
       const ssw = _bacaSsw(r);
-      const jft = _tri(r.JFT ?? r.jft ?? r.Jft), sswAll = _tri(r.SSW ?? r.ssw ?? r.Ssw);
+      const jft = _tri(r.JFT ?? r.jft ?? r.Jft), jftLv = {}; JFT_LV.forEach(([l, n]) => { const v = _tri(r["JFT " + n] ?? r["jft " + n]); if (v !== undefined) jftLv[l] = v; });
+      const sswAll = _tri(r.SSW ?? r.ssw ?? r.Ssw);
       const lama = state.siswaList.find(x => (x.email||"").toLowerCase() === email);
       if (lama && !dipakai.has(email)) {   // akun lama → hanya perbarui akses SSW / kelas
         dipakai.add(email);
-        const adaUbah = Object.keys(ssw).length || jft !== undefined || sswAll !== undefined || (kelas && kelas !== (lama.kelas || ""));
-        return { baris: i + 2, email, password: "", nama: lama.nama || nama, kelas, aksesLevel: lama.aksesLevel || {}, ssw, jft, sswAll, uid: lama.uid, update: true, err: adaUbah ? "" : "Sudah terdaftar — tidak ada kolom SSW/Kelas yang diubah", hasil: "" };
+        const adaUbah = Object.keys(ssw).length || jft !== undefined || Object.keys(jftLv).length || sswAll !== undefined || (kelas && kelas !== (lama.kelas || ""));
+        return { baris: i + 2, email, password: "", nama: lama.nama || nama, kelas, aksesLevel: lama.aksesLevel || {}, ssw, jft, jftLv, sswAll, uid: lama.uid, update: true, err: adaUbah ? "" : "Sudah terdaftar — tidak ada kolom SSW/Kelas yang diubah", hasil: "" };
       }
       let err = "";
       if (!email && !password && !nama) return null;
@@ -886,7 +890,7 @@ window.bacaExcelSiswa = async (file) => {
       else if (sudahAda.has(email)) err = "Email sudah terdaftar";
       else if (dipakai.has(email)) err = "Email dobel di file";
       dipakai.add(email);
-      return { baris: i + 2, email, password, nama, kelas, aksesLevel, ssw, jft, sswAll, err, hasil: "" };
+      return { baris: i + 2, email, password, nama, kelas, aksesLevel, ssw, jft, jftLv, sswAll, err, hasil: "" };
     }).filter(Boolean);
     document.getElementById("imp-siswa-preview").innerHTML = renderPreviewSiswa();
   } catch(e){
@@ -904,7 +908,7 @@ function renderPreviewSiswa(){
       <tbody>${list.map(x => `<tr>
         <td>${x.baris}</td><td>${esc(x.email)}</td><td>${esc(x.nama)}</td><td>${esc(x.kelas)}</td>
         <td>${["n5","n4","n3","n2","n1"].filter(l => x.aksesLevel[l]).map(l => l.toUpperCase()).join(", ") || "-"}</td>
-        <td>${x.jft === undefined ? "-" : x.jft ? "✓ Buka" : "✗ Tutup"}</td>
+        <td style="font-size:12px;">${x.jft === undefined ? "" : x.jft ? "✓ JFT semua<br>" : "✗ JFT ditutup<br>"}${Object.entries(x.jftLv || {}).map(([l, v]) => `${v ? "✓" : "✗"} ${l}`).join("<br>") || (x.jft === undefined ? "-" : "")}</td>
         <td style="font-size:12px;">${x.sswAll === undefined ? "" : (x.sswAll ? "✓ SSW semua<br>" : "✗ SSW ditutup<br>")}${Object.entries(x.ssw || {}).map(([k, v]) => `${v ? "✓" : "✗"} ${k}`).join("<br>") || "-"}</td>
         <td style="color:${x.err ? "var(--red)" : x.hasil.startsWith("✓") ? "var(--green)" : "var(--gray)"};">${esc(x.err || x.hasil || (x.update ? "Siap: perbarui akun lama" : "Siap: akun baru"))}</td>
       </tr>`).join("")}</tbody></table></div>
@@ -925,6 +929,7 @@ window.prosesImportSiswa = async () => {
       const uid = x.update ? x.uid : await FB.buatAkunSiswa({ email:x.email, password:x.password, nama:x.nama, kelas:x.kelas, aksesLevel:x.aksesLevel, role:"student" });
       if (x.update && x.kelas) await FB.assignSiswaKeKelas([uid], x.kelas);
       if (x.jft !== undefined) await FB.setAksesJft(uid, x.jft);
+      if (Object.keys(x.jftLv || {}).length) await FB.setAksesJftLevel(uid, x.jftLv);
       if (x.sswAll !== undefined) await FB.setAksesSsw(uid, x.sswAll);
       for (const [slug, v] of Object.entries(x.ssw || {})) await FB.setAksesSswBidang(uid, slug, v);
       x.hasil = x.update ? "✓ Akses diperbarui" : "✓ Akun dibuat"; n++;
@@ -943,13 +948,16 @@ window.toggleStatus = async (uid, sedangNonaktif) => {
     renderTab();
   } catch(e){ toast("Gagal: " + (e.message || e)); }
 };
-window.toggleJft = async (uid) => {
+window.toggleJft = async (uid, lv) => {
   const s = state.siswaList.find(x => x.uid === uid); if (!s) return;
-  const baru = s.aksesJft === false;
+  const masterTutup = s.aksesJft === false;
+  const peta = {}; JFT_LV.forEach(([l]) => peta[l] = masterTutup ? false : s.aksesJftLevel?.[l] !== false);
+  peta[lv] = !peta[lv];
   try {
-    await FB.setAksesJft(uid, baru);
-    s.aksesJft = baru;
-    toast(`Akses JFT ${baru ? "dibuka" : "ditutup"}`);
+    if (masterTutup){ await FB.setAksesJft(uid, true); s.aksesJft = true; }   // master dibuka lagi; yang lain tetap tertutup
+    await FB.setAksesJftLevel(uid, peta);
+    s.aksesJftLevel = peta;
+    toast(`JFT ${JFT_LV.find(x => x[0] === lv)[1]} ${peta[lv] ? "dibuka" : "ditutup"}`);
   } catch(e){ toast("Gagal simpan akses JFT: " + (e.message || e)); }
   renderTab();
 };
