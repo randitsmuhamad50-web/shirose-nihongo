@@ -61,9 +61,9 @@ html[data-theme="gugur"]{
   --shadow-glow:0 0 30px rgba(240,138,36,.35);
 }
 html[data-theme="panas"]{
-  --navy:#0b3b5c; --navy-2:#0f5a80; --navy-3:#1479a3; --navy-4:#062a44;
-  --pink:#ffd23f; --pink-light:#ffe37a; --pink-dark:#e0a800; --purple:#22d3ee; --border:#16688f; --border-light:#2b8ab5;
-  --shadow-glow:0 0 30px rgba(255,210,63,.35);
+  --navy:#0e6fae; --navy-2:#1385c9; --navy-3:#2a9ee0; --navy-4:#0a5a94;
+  --pink:#ffd23f; --pink-light:#ffe37a; --pink-dark:#e0a800; --purple:#f4a261; --border:#2c93d1; --border-light:#5ab6ea;
+  --shadow-glow:0 0 30px rgba(255,210,63,.45);
 }
 html[data-theme="semi"]{
   --navy:#2e1f4a; --navy-2:#412c66; --navy-3:#57408a; --navy-4:#1d1233;
@@ -71,9 +71,18 @@ html[data-theme="semi"]{
   --shadow-glow:0 0 30px rgba(255,143,192,.35);
 }
 html[data-theme="gugur"] body{background:radial-gradient(ellipse at 20% 0%,rgba(240,138,36,.2) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
-html[data-theme="panas"] body{background:radial-gradient(ellipse at 85% 5%,rgba(255,210,63,.3) 0%,transparent 45%),radial-gradient(ellipse at 20% 90%,rgba(34,211,238,.22) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
+html[data-theme="panas"] body{background:linear-gradient(to bottom,#1e90e0 0%,#5cbcf0 45%,#a8e2fa 62%);background-attachment:fixed}
 html[data-theme="semi"] body{background:radial-gradient(ellipse at 80% 0%,rgba(255,143,192,.22) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
 #wx .leaf{top:-8vh;font-style:normal;line-height:1;animation:wxleaf linear infinite}
 @keyframes wxleaf{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(40px,55vh) rotate(180deg)}100%{transform:translate(-20px,112vh) rotate(360deg)}}
 #wx .wave{left:0;right:0;bottom:0;height:90px;background:linear-gradient(to top,rgba(34,211,238,.22),transparent);animation:wxwave 4s ease-in-out infinite alternate}
 @keyframes wxwave{to{opacity:.5;transform:translateY(8px)}}
+
+/* ===== Pantai (Panas) ===== */
+#wx .sun2{top:-70px;right:6vw;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,#fff6c2 0%,#ffd84a 45%,#ffb703 70%);box-shadow:0 0 90px 40px rgba(255,214,80,.55);animation:wxsun 5s ease-in-out infinite alternate}
+#wx .rays{top:-60vh;right:-30vw;width:120vw;height:120vh;background:repeating-conic-gradient(from 0deg at 80% 55%,rgba(255,240,170,.16) 0 6deg,transparent 6deg 16deg);animation:wxrot 60s linear infinite;transform-origin:80% 55%}
+@keyframes wxrot{to{transform:rotate(360deg)}}
+#wx .sea{left:0;right:0;bottom:20vh;height:16vh;background:linear-gradient(to bottom,rgba(0,150,200,.0),#14a3d6 30%,#2fc4e6);}
+#wx .foam{left:0;right:0;bottom:20vh;height:10px;background:rgba(255,255,255,.75);filter:blur(2px);animation:wxwave 3s ease-in-out infinite alternate}
+#wx .sand{left:0;right:0;bottom:0;height:21vh;background:linear-gradient(to bottom,#f6dfa3,#e9c777 60%,#d9b05c);border-radius:50% 50% 0 0/18px 18px 0 0}
+#wx .palm{bottom:12vh;font-style:normal;line-height:1;filter:drop-shadow(0 6px 4px rgba(0,0,0,.25))}

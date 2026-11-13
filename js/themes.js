@@ -11,7 +11,7 @@
     if(t==="badai")h+='<i class="flash"></i>';
     if(t==="salju"){for(i=0;i<36;i++){var s=r(3,7).toFixed(1);h+='<i class="flake" style="left:'+r(0,100).toFixed(1)+'%;width:'+s+'px;height:'+s+'px;animation-duration:'+r(7,14).toFixed(1)+'s;animation-delay:-'+r(0,12).toFixed(1)+'s"></i>'}}
     if(t==="gugur"||t==="semi"){var ch=t==="gugur"?["🍁","🍂"]:["🌸","🌸"];for(i=0;i<22;i++)h+='<i class="leaf" style="left:'+r(0,100).toFixed(1)+'%;font-size:'+r(14,26).toFixed(0)+'px;animation-duration:'+r(8,15).toFixed(1)+'s;animation-delay:-'+r(0,14).toFixed(1)+'s;opacity:.85">'+ch[i%2]+'</i>'}
-    if(t==="panas")h+='<i class="sun"></i><i class="wave"></i>';
+    if(t==="panas")h+='<i class="rays"></i><i class="sun2"></i><i class="sea"></i><i class="foam"></i><i class="sand"></i><i class="palm" style="left:2vw;font-size:min(22vh,150px)">🌴</i><i class="palm" style="right:3vw;font-size:min(17vh,115px)">🌴</i><i class="palm" style="left:14vw;font-size:min(9vh,60px);bottom:8vh">🐚</i>';
     if(t==="cerah")h+='<i class="sun"></i>';
     w.innerHTML=h;
   }
