@@ -53,3 +53,27 @@ html[data-theme]:not([data-theme="ungu"]) .topbar{background:color-mix(in srgb,v
 .sosmed a:hover{border-color:var(--pink);box-shadow:var(--shadow-glow)}
 .sosmed svg{width:18px;height:18px;fill:currentColor}
 body.auth-mode .sosmed{display:none}
+
+/* ===== 4 musim (Dingin=salju, Gugur, Panas, Semi) ===== */
+html[data-theme="gugur"]{
+  --navy:#2d1a14; --navy-2:#42261b; --navy-3:#5a3524; --navy-4:#1c100c;
+  --pink:#f08a24; --pink-light:#ffb25c; --pink-dark:#c0392b; --purple:#e0523a; --border:#5a3524; --border-light:#7d4b33;
+  --shadow-glow:0 0 30px rgba(240,138,36,.35);
+}
+html[data-theme="panas"]{
+  --navy:#0b3b5c; --navy-2:#0f5a80; --navy-3:#1479a3; --navy-4:#062a44;
+  --pink:#ffd23f; --pink-light:#ffe37a; --pink-dark:#e0a800; --purple:#22d3ee; --border:#16688f; --border-light:#2b8ab5;
+  --shadow-glow:0 0 30px rgba(255,210,63,.35);
+}
+html[data-theme="semi"]{
+  --navy:#2e1f4a; --navy-2:#412c66; --navy-3:#57408a; --navy-4:#1d1233;
+  --pink:#ff8fc0; --pink-light:#ffb8d8; --pink-dark:#d94f8f; --purple:#7aa7ff; --border:#4d3a78; --border-light:#6b55a0;
+  --shadow-glow:0 0 30px rgba(255,143,192,.35);
+}
+html[data-theme="gugur"] body{background:radial-gradient(ellipse at 20% 0%,rgba(240,138,36,.2) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
+html[data-theme="panas"] body{background:radial-gradient(ellipse at 85% 5%,rgba(255,210,63,.3) 0%,transparent 45%),radial-gradient(ellipse at 20% 90%,rgba(34,211,238,.22) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
+html[data-theme="semi"] body{background:radial-gradient(ellipse at 80% 0%,rgba(255,143,192,.22) 0%,transparent 55%),linear-gradient(to bottom,var(--navy-4),var(--navy));}
+#wx .leaf{top:-8vh;font-style:normal;line-height:1;animation:wxleaf linear infinite}
+@keyframes wxleaf{0%{transform:translate(0,0) rotate(0)}50%{transform:translate(40px,55vh) rotate(180deg)}100%{transform:translate(-20px,112vh) rotate(360deg)}}
+#wx .wave{left:0;right:0;bottom:0;height:90px;background:linear-gradient(to top,rgba(34,211,238,.22),transparent);animation:wxwave 4s ease-in-out infinite alternate}
+@keyframes wxwave{to{opacity:.5;transform:translateY(8px)}}
