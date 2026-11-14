@@ -15,6 +15,7 @@ window.LANDING_CONFIG = {
      "Pembaruan sistem" | "Perbaikan" | "Program baru".
      tanggal diisi hanya jika benar (format "2026-11-14"), boleh dikosongkan. */
   updates: [
-    // { kategori: "Fitur baru", judul: "Judul pembaruan", isi: "Penjelasan singkat.", tanggal: "" }
+    { kategori: "Fitur baru", judul: "Halaman pengenalan Shirose Nihongo", isi: "Halaman depan baru yang memperkenalkan program JLPT, JFT-Basic, Hiragana & Katakana, SSW, dan MENSETSU.", tanggal: "2026-11-14" },
+    { kategori: "Fitur baru", judul: "Tema tampilan", isi: "Pilih tema Ungu (bawaan), Cerah, Hujan, Salju, Gugur, Panas, Semi, atau Badai lewat tombol Ganti tema di aplikasi.", tanggal: "2026-11-14" }
   ]
 };
