@@ -6,12 +6,14 @@
 // v12 — halaman hasil ujian rombak total: skor besar dengan %, breakdown
 // benar/salah/kosong, navigasi pembahasan per-soal dengan grid jump dan
 // tombol prev/next, tombol "Ulangi Ujian".
-const CACHE = "shirose-nihongo-v186";
+const CACHE = "shirose-nihongo-v187";
 const AUDIO = "shirose-audio-v1";   // voice pack offline (tidak dihapus saat update)
 const KVG = "shirose-kvg-v1";       // goresan KanjiVG yang pernah dibuka (offline; tidak dihapus saat update)
 const CORE = [
   "./",
   "./index.html",
+  "./landing.html",
+  "./js/landing-config.js",
   "./teacher.html",
   "./manifest.webmanifest",
   "./icon-192.png",

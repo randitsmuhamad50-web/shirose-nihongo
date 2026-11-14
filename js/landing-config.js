@@ -1,0 +1,20 @@
+/* Konfigurasi landing page Shirose Nihongo (landing.html).
+ * Edit file ini saja — tidak perlu menyentuh landing.html.
+ */
+window.LANDING_CONFIG = {
+  /* Isi URL asli akun kamu. Kosong ("") = tombol tampil nonaktif "Segera hadir".
+     Contoh: instagram: "https://instagram.com/akunkamu" */
+  social: [
+    { id: "instagram", label: "Instagram", url: "" },
+    { id: "tiktok",    label: "TikTok",    url: "" },
+    { id: "youtube",   label: "YouTube",   url: "" }   // opsional; hapus baris jika tidak dipakai
+  ],
+
+  /* Pembaruan platform. Array kosong = section "What's New" disembunyikan.
+     Tambah entri baru DI ATAS. kategori: "Fitur baru" | "Materi baru" |
+     "Pembaruan sistem" | "Perbaikan" | "Program baru".
+     tanggal diisi hanya jika benar (format "2026-11-14"), boleh dikosongkan. */
+  updates: [
+    // { kategori: "Fitur baru", judul: "Judul pembaruan", isi: "Penjelasan singkat.", tanggal: "" }
+  ]
+};

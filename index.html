@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<script>
+/* Landing page publik: kunjungan pertama tanpa deep-link & tanpa riwayat login -> landing.html.
+   Tidak mengubah auth/routing; PWA terpasang & pengguna yang pernah login tetap langsung ke aplikasi. */
+(function(){try{
+  var standalone = (window.matchMedia && matchMedia("(display-mode: standalone)").matches) || navigator.standalone === true;
+  if (!location.hash && !standalone && !localStorage.getItem("shirose-returning")) location.replace("./landing.html");
+}catch(e){}})();
+</script>
 <title>SHIROSE NIHONGO — Learn Japanese. Track Your Progress. Build Your Future.</title>
 <meta name="description" content="SHIROSE NIHONGO by SSW no Ou — Platform belajar bahasa Jepang JLPT N5-N1."/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -5454,6 +5462,7 @@ FB.onAuth(async (user, siswa) => {
   state.user = user; state.siswa = siswa;
   const btn = document.getElementById("btn-auth");
   if (user) {
+    try { localStorage.setItem("shirose-returning","1"); } catch(e){}
     btn.innerHTML = `👋 ${siswa?.nama || user.email.split("@")[0]}`;
     btn.onclick = () => route("profile");
     document.getElementById("guru-link").classList.toggle("hidden", !FB.userIsGuru());

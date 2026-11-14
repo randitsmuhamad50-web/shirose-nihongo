@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<title>SHIROSE NIHONGO — Belajar bahasa Jepang, buka lebih banyak kesempatan</title>
+<meta name="description" content="Shirose Nihongo: platform belajar bahasa Jepang untuk pelajar Indonesia — JLPT N5–N1, JFT-Basic (Irodori), Hiragana & Katakana, SSW dan persiapan MENSETSU."/>
+<meta name="theme-color" content="#161b36"/>
+<meta property="og:title" content="SHIROSE NIHONGO"/>
+<meta property="og:description" content="日本語を学び、未来を広げよう。 Platform belajar bahasa Jepang untuk pelajar Indonesia."/>
+<link rel="manifest" href="./manifest.webmanifest"/>
+<link rel="icon" href="./icon-192.png"/>
+<link rel="apple-touch-icon" href="./apple-touch-icon.png"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet"/>
+<style>
+:root{
+  --navy:#161b36; --navy-2:#1f2650; --navy-3:#2a3270; --navy-4:#0d1024;
+  --pink:#ef6a9a; --pink-light:#f58bb0; --gold:#ffd700; --purple:#8b5cf6; --cyan:#22d3ee; --green:#10b981;
+  --white:#fff; --gray:#b9bfd9; --gray-dim:#7a80a0; --border:#2a3060;
+  --font-jp:'Shippori Mincho B1','Noto Serif JP',serif;
+  --font-sans:'Zen Kaku Gothic New','Inter',system-ui,-apple-system,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{background:#0d1024;scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:var(--font-sans);color:var(--white);line-height:1.6;overflow-x:hidden;
+  background:radial-gradient(ellipse at 15% 10%,rgba(139,92,246,.16),transparent 55%),
+             radial-gradient(ellipse at 85% 45%,rgba(239,106,154,.13),transparent 55%),
+             linear-gradient(to bottom,var(--navy-4),var(--navy));
+}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+.eyebrow{font-family:var(--font-jp);color:var(--pink-light);letter-spacing:.12em;font-size:14px;margin-bottom:8px}
+h2{font-family:var(--font-jp);font-size:clamp(26px,4vw,38px);line-height:1.25;margin-bottom:12px;font-weight:800}
+.lead{color:var(--gray);max-width:680px;font-size:17px}
+.center{text-align:center}.center .lead{margin:0 auto}
+
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:12px 26px;border-radius:999px;font-weight:700;font-size:16px;cursor:pointer;border:1.5px solid transparent;transition:transform .15s,box-shadow .2s,background .2s;font-family:inherit}
+.btn:active{transform:scale(.97)}
+.btn.primary{background:linear-gradient(135deg,var(--pink),var(--purple));color:#fff;box-shadow:0 8px 26px rgba(239,106,154,.35)}
+.btn.primary:hover{box-shadow:0 10px 34px rgba(239,106,154,.55);transform:translateY(-2px)}
+.btn.ghost{border-color:var(--navy-3);background:rgba(255,255,255,.04);color:#fff}
+.btn.ghost:hover{border-color:var(--pink);background:rgba(239,106,154,.1)}
+.btn.sm{min-height:40px;padding:8px 18px;font-size:14px}
+:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+/* nav */
+nav.top{position:sticky;top:0;z-index:50;background:rgba(13,16,36,.82);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding-top:env(safe-area-inset-top)}
+nav.top .wrap{display:flex;align-items:center;gap:18px;height:62px}
+.brand{display:flex;align-items:center;gap:10px;font-family:var(--font-jp);font-weight:800;letter-spacing:.04em;font-size:18px}
+.brand img{width:34px;height:34px;border-radius:9px}
+.links{display:flex;gap:20px;margin-left:auto;font-size:14.5px;color:var(--gray)}
+.links a:hover{color:#fff}
+.nav-cta{display:flex;gap:8px;margin-left:12px}
+@media(max-width:860px){.links{display:none}.nav-cta{margin-left:auto}}
+@media(max-width:420px){.brand span{display:none}}
+
+/* hero */
+.hero{padding:56px 0 40px}
+.hero .grid{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:center}
+.hero h1{font-family:var(--font-jp);font-size:clamp(26px,4.2vw,44px);line-height:1.25;font-weight:800;margin:10px 0 14px;text-wrap:balance}
+.hero h1 em{font-style:normal;background:linear-gradient(90deg,var(--pink-light),var(--gold));-webkit-background-clip:text;background-clip:text;color:transparent}
+.tag-jp{font-family:var(--font-jp);font-size:clamp(16px,2.4vw,21px);color:var(--gold)}
+.hero p.lead{margin-bottom:26px}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.chip{font-size:13px;padding:6px 13px;border-radius:999px;border:1px solid var(--navy-3);color:var(--gray);background:rgba(255,255,255,.03)}
+@media(max-width:860px){.hero .grid{grid-template-columns:1fr}.hero .art{order:-1;max-width:420px;margin:0 auto}}
+
+/* cards */
+.cards{display:grid;gap:16px;margin-top:34px}
+.c3{grid-template-columns:repeat(3,1fr)}.c2{grid-template-columns:repeat(2,1fr)}.c4{grid-template-columns:repeat(4,1fr)}
+@media(max-width:900px){.c3,.c4{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.c3,.c4,.c2{grid-template-columns:1fr}}
+.card{background:linear-gradient(160deg,rgba(42,50,112,.45),rgba(31,38,80,.5));border:1px solid var(--border);border-radius:18px;padding:22px;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--pink)}
+.card .ic{font-size:30px;margin-bottom:8px}
+.card h3{font-size:18px;margin-bottom:6px;font-family:var(--font-jp)}
+.card p{color:var(--gray);font-size:15px}
+
+/* program */
+.prog{display:grid;gap:18px;margin-top:34px}
+.pcard{display:grid;grid-template-columns:auto 1fr;gap:22px;background:linear-gradient(160deg,rgba(42,50,112,.4),rgba(22,27,54,.7));border:1px solid var(--border);border-radius:22px;padding:26px}
+.pcard .k{font-family:var(--font-jp);font-size:64px;line-height:1;font-weight:800;color:var(--pink);opacity:.9;min-width:78px;text-align:center}
+.pcard h3{font-family:var(--font-jp);font-size:22px;margin-bottom:6px}
+.pcard p{color:var(--gray);font-size:15.5px}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+.pill{font-size:13.5px;padding:6px 14px;border-radius:999px;background:rgba(139,92,246,.18);border:1px solid rgba(139,92,246,.4)}
+.pill.soon{background:rgba(255,215,0,.1);border-color:rgba(255,215,0,.45);color:var(--gold)}
+.pill.lv{background:rgba(239,106,154,.14);border-color:rgba(239,106,154,.45);font-weight:700}
+.ladder{display:flex;align-items:flex-end;gap:6px;margin-top:16px;height:64px}
+.ladder span{flex:1;border-radius:8px 8px 0 0;background:linear-gradient(to top,var(--purple),var(--pink));display:flex;align-items:flex-start;justify-content:center;font-size:13px;font-weight:700;padding-top:4px}
+.ssw-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.ssw-grid div{background:rgba(255,255,255,.05);border:1px solid var(--border);border-radius:12px;padding:10px 8px;text-align:center;font-size:13.5px}
+.ssw-grid b{display:block;font-family:var(--font-jp);font-size:17px;color:var(--gold);margin-bottom:2px}
+@media(max-width:600px){.pcard{grid-template-columns:1fr}.pcard .k{text-align:left}.ssw-grid{grid-template-columns:repeat(2,1fr)}}
+.note{font-size:13px;color:var(--gray-dim);margin-top:10px}
+
+/* orbit */
+.orbit-wrap{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:center;margin-top:30px}
+@media(max-width:860px){.orbit-wrap{grid-template-columns:1fr}}
+.orbit-spin{transform-origin:200px 200px;animation:spin 70s linear infinite}
+.orbit-spin .n{animation:counter 70s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes counter{to{transform:rotate(-360deg)}}
+.feat-list{display:grid;gap:14px}
+.feat{display:flex;gap:14px;align-items:flex-start}
+.feat .ic{flex:0 0 44px;height:44px;border-radius:12px;background:rgba(239,106,154,.14);border:1px solid rgba(239,106,154,.35);display:flex;align-items:center;justify-content:center;font-size:21px}
+.feat h3{font-size:16.5px}.feat p{color:var(--gray);font-size:14.5px}
+
+/* mini visuals */
+.mini{margin-top:34px;display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+@media(max-width:900px){.mini{grid-template-columns:1fr}}
+.vis{background:rgba(13,16,36,.55);border:1px solid var(--border);border-radius:18px;padding:20px}
+.vis h3{font-size:16px;margin-bottom:12px;font-family:var(--font-jp)}
+.bar{height:10px;background:rgba(255,255,255,.08);border-radius:999px;overflow:hidden;margin:6px 0 12px}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--pink),var(--purple));border-radius:999px}
+.lab{display:flex;justify-content:space-between;font-size:13px;color:var(--gray)}
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:6px}
+.cal i{aspect-ratio:1;border-radius:7px;background:rgba(255,255,255,.07);display:flex;align-items:center;justify-content:center;font-style:normal;font-size:12px;color:var(--gray-dim)}
+.cal i.on{background:linear-gradient(135deg,var(--pink),#f59e0b);color:#fff;font-weight:700}
+.cal i.hd{background:none;color:var(--gray-dim);aspect-ratio:auto;font-size:11px}
+.coins{display:flex;gap:10px;flex-wrap:wrap}
+.coins span{padding:6px 12px;border-radius:999px;background:rgba(255,215,0,.1);border:1px solid rgba(255,215,0,.35);font-size:13.5px}
+
+.themes{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:30px}
+@media(max-width:700px){.themes{grid-template-columns:repeat(2,1fr)}}
+.th{border:1px solid var(--border);border-radius:16px;padding:20px 12px;text-align:center;transition:transform .2s}
+.th:hover{transform:translateY(-3px)}.th span{display:block;font-size:30px}.th b{font-family:var(--font-jp);font-size:15px}
+/* steps */
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:34px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.step{position:relative;background:linear-gradient(160deg,rgba(42,50,112,.45),rgba(31,38,80,.5));border:1px solid var(--border);border-radius:18px;padding:26px 22px}
+.step::before{counter-increment:s;content:counter(s);position:absolute;top:-16px;left:20px;width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--pink),var(--purple));display:flex;align-items:center;justify-content:center;font-weight:800}
+.step .ic{font-size:36px;margin-bottom:8px}
+.step h3{font-size:18px;font-family:var(--font-jp);margin-bottom:6px}.step p{color:var(--gray);font-size:15px}
+
+/* about, social, news */
+.about{background:linear-gradient(135deg,rgba(139,92,246,.18),rgba(239,106,154,.14));border:1px solid var(--border);border-radius:24px;padding:36px;text-align:center}
+.about .big{font-family:var(--font-jp);font-size:clamp(24px,4vw,34px);font-weight:800;margin-bottom:10px}
+.about p{max-width:680px;margin:0 auto 10px;color:var(--gray)}
+.about .vision{color:#fff;font-style:italic}
+.social{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.social a,.social span{min-width:150px}
+.btn.off{opacity:.5;cursor:default;pointer-events:none}
+.news{display:grid;gap:12px;margin-top:28px}
+.news article{background:rgba(13,16,36,.55);border:1px solid var(--border);border-radius:14px;padding:16px 18px}
+.news .meta{font-size:12.5px;color:var(--pink-light);margin-bottom:4px}
+.news h3{font-size:17px}.news p{color:var(--gray);font-size:14.5px}
+
+/* faq */
+.faq{max-width:780px;margin:30px auto 0;display:grid;gap:10px}
+details{background:rgba(31,38,80,.5);border:1px solid var(--border);border-radius:14px;padding:0 18px}
+summary{cursor:pointer;padding:15px 0;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";color:var(--pink);font-size:22px;line-height:1}
+details[open] summary::after{content:"−"}
+details p{padding:0 0 16px;color:var(--gray);font-size:15.5px}
+
+footer{border-top:1px solid var(--border);padding:34px 0 calc(34px + env(safe-area-inset-bottom));text-align:center;color:var(--gray-dim);font-size:14px}
+footer .jp{font-family:var(--font-jp);color:var(--gray);font-size:16px;margin-bottom:6px}
+
+/* reveal */
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<nav class="top">
+  <div class="wrap">
+    <a class="brand" href="#top"><img src="./icon-192.png" alt="" width="34" height="34"/><span>SHIROSE NIHONGO</span></a>
+    <div class="links">
+      <a href="#tentang">Tentang</a><a href="#program">Program</a><a href="#keunggulan">Keunggulan</a><a href="#tema">Tema</a><a href="#mulai">Cara Mulai</a><a href="#faq">FAQ</a>
+    </div>
+    <div class="nav-cta">
+      <a class="btn ghost sm" href="./index.html#login">Login</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap grid">
+    <div>
+      <div class="tag-jp">日本語を学び、未来を広げよう。</div>
+      <h1>日本語を、もっと楽しく。<br><em>もっと実践的に。</em></h1>
+      <p class="lead">Belajar bahasa Jepang tidak harus membosankan. Mulai dari dasar, persiapkan JLPT dan JFT-Basic, hingga berlatih menghadapi wawancara kerja Jepang melalui satu platform.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="./index.html#login">Mulai Belajar →</a>
+        <a class="btn ghost" href="./index.html#login">Login</a>
+      </div>
+      <div class="chips"><span class="chip">JLPT N5–N1</span><span class="chip">JFT-Basic</span><span class="chip">ひらがな・カタカナ</span><span class="chip">SSW 特定技能</span><span class="chip">面接</span></div>
+    </div>
+    <div class="art" aria-hidden="true">
+      <svg viewBox="0 0 400 400" width="100%" role="img">
+        <defs>
+          <radialGradient id="hg" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ef6a9a" stop-opacity=".55"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+          <linearGradient id="hc" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ef6a9a"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+        </defs>
+        <circle cx="200" cy="200" r="190" fill="url(#hg)"/>
+        <circle cx="200" cy="200" r="150" fill="none" stroke="#3a4080" stroke-dasharray="3 7"/>
+        <circle cx="200" cy="200" r="100" fill="none" stroke="#3a4080" stroke-dasharray="3 7"/>
+        <rect x="132" y="120" width="136" height="160" rx="18" fill="#1f2650" stroke="url(#hc)" stroke-width="3"/>
+        <text x="200" y="215" text-anchor="middle" font-family="Shippori Mincho B1,serif" font-size="92" font-weight="800" fill="#fff">日</text>
+        <text x="200" y="262" text-anchor="middle" font-family="Zen Kaku Gothic New,sans-serif" font-size="14" fill="#f58bb0" letter-spacing="3">NIHONGO</text>
+        <g font-family="Shippori Mincho B1,serif" font-weight="800" font-size="20" fill="#fff" text-anchor="middle">
+          <circle cx="200" cy="50" r="26" fill="#8b5cf6"/><text x="200" y="57">N5</text>
+          <circle cx="345" cy="150" r="26" fill="#ef6a9a"/><text x="345" y="157">N3</text>
+          <circle cx="50" cy="160" r="26" fill="#22d3ee"/><text x="50" y="167" fill="#0d1024">あ</text>
+          <circle cx="90" cy="330" r="26" fill="#10b981"/><text x="90" y="337">面</text>
+          <circle cx="320" cy="320" r="26" fill="#f59e0b"/><text x="320" y="327">技</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<section id="tentang">
+  <div class="wrap">
+    <div class="center rv">
+      <div class="eyebrow">SHIROSE NIHONGOとは？</div>
+      <h2>Platform belajar bahasa Jepang yang terstruktur</h2>
+      <p class="lead">Shirose Nihongo merupakan platform pembelajaran bahasa Jepang yang dirancang untuk membantu pelajar Indonesia mempelajari bahasa Jepang secara bertahap, interaktif, dan lebih terstruktur. Platform ini menggabungkan pembelajaran JLPT, JFT-Basic berbasis Irodori, materi dasar bahasa Jepang, serta persiapan kerja Jepang melalui SSW dan MENSETSU.</p>
+    </div>
+    <div class="cards c4">
+      <div class="card rv"><div class="ic">🎯</div><h3>Sesuai level</h3><p>Belajar sesuai level kemampuanmu.</p></div>
+      <div class="card rv"><div class="ic">🪜</div><h3>Bertahap</h3><p>Materi tersusun dari dasar ke lanjutan.</p></div>
+      <div class="card rv"><div class="ic">📝</div><h3>Latihan & evaluasi</h3><p>Soal latihan dan pembahasan.</p></div>
+      <div class="card rv"><div class="ic">🔊</div><h3>Audio</h3><p>Dengarkan kosakata dan kalimat.</p></div>
+      <div class="card rv"><div class="ic">📈</div><h3>Progress belajar</h3><p>Pantau perkembanganmu.</p></div>
+      <div class="card rv"><div class="ic">🔥</div><h3>Streak harian</h3><p>Bangun kebiasaan belajar.</p></div>
+      <div class="card rv"><div class="ic">🪙</div><h3>Koin & reward</h3><p>Kumpulkan koin dari belajar.</p></div>
+      <div class="card rv"><div class="ic">🧑‍🎓</div><h3>Karakter</h3><p>Kustomisasi karakter lewat Shop.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="program">
+  <div class="wrap">
+    <div class="center rv">
+      <div class="eyebrow">学習プログラム</div>
+      <h2>Program pembelajaran</h2>
+      <p class="lead">Pilih program sesuai tujuanmu. Setiap program punya materi dan latihan sendiri.</p>
+    </div>
+    <div class="prog">
+
+      <div class="pcard rv"><div class="k">N5<br>–N1</div><div>
+        <h3>JLPT N5–N1</h3>
+        <p>Belajar bahasa Jepang dari dasar hingga tingkat lanjutan melalui kosakata, kanji, bunpou, latihan, dan simulasi ujian.</p>
+        <div class="ladder" aria-hidden="true"><span style="height:30%">N5</span><span style="height:45%">N4</span><span style="height:62%">N3</span><span style="height:80%">N2</span><span style="height:100%">N1</span></div>
+        <div class="pills"><span class="pill lv">N5</span><span class="pill lv">N4</span><span class="pill lv">N3</span><span class="pill lv">N2</span><span class="pill lv">N1</span></div>
+      </div></div>
+
+      <div class="pcard rv"><div class="k">基礎</div><div>
+        <h3>JFT-BASIC — 日本語基礎テスト</h3>
+        <p>Persiapkan kemampuan bahasa Jepang untuk kehidupan sehari-hari di Jepang melalui materi berbasis Irodori: kosakata, kanji, grammar, percakapan, listening, reading, dan tryout.</p>
+        <div class="pills"><span class="pill">入門</span><span class="pill">初級1</span><span class="pill">初級2</span><span class="pill lv">TRYOUT</span></div>
+      </div></div>
+
+      <div class="pcard rv"><div class="k">あ</div><div>
+        <h3>Hiragana dan Katakana</h3>
+        <p>Pelajari huruf dasar bahasa Jepang melalui latihan interaktif yang membantu siswa mengenali, membaca, dan mengingat karakter Jepang.</p>
+        <div class="pills"><span class="pill">Tabel huruf</span><span class="pill">Urutan goresan</span><span class="pill">Latihan menulis</span><span class="pill">Tes membaca</span></div>
+      </div></div>
+
+      <div class="pcard rv"><div class="k">技</div><div>
+        <h3>特定技能 — SSW</h3>
+        <p>Pelajari bahasa Jepang dan persiapkan diri untuk bekerja di berbagai bidang SSW. Setiap bidang memiliki materi dan latihan sesuai karakteristik pekerjaannya.</p>
+        <div class="ssw-grid">
+          <div><b>ビルクリーニング</b>Building Cleaning</div>
+          <div><b>介護</b>Kaigo</div>
+          <div><b>飲食料品製造業</b>Food Manufacturing</div>
+          <div><b>外食業</b>Food Service</div>
+          <div><b>農業</b>Agriculture</div>
+          <div><b>建設</b>Construction</div>
+          <div><b>宿泊</b>Accommodation</div>
+          <div><b>畜産業</b>Livestock</div>
+        </div>
+      </div></div>
+
+      <div class="pcard rv"><div class="k">面接</div><div>
+        <h3>AI MENSETSU — 日本語面接練習</h3>
+        <p>Persiapkan wawancara kerja Jepang dengan latihan pertanyaan berdasarkan bidang SSW.</p>
+        <div class="pills">
+          <span class="pill">Pertanyaan wawancara</span><span class="pill">Persiapan jawaban tertulis</span><span class="pill">Koreksi bahasa Jepang</span><span class="pill">Audio pengucapan</span><span class="pill">Prompt latihan wawancara AI</span><span class="pill soon">Simulasi wawancara AI di dalam situs · Coming Soon</span>
+        </div>
+        <p class="note">Koreksi dan latihan wawancara memanfaatkan bantuan AI; hasilnya sebagai bahan belajar, bukan penilaian resmi.</p>
+      </div></div>
+
+    </div>
+  </div>
+</section>
+
+<section id="keunggulan">
+  <div class="wrap">
+    <div class="center rv">
+      <div class="eyebrow">特長</div>
+      <h2>Keunggulan Shirose Nihongo</h2>
+    </div>
+    <div class="orbit-wrap">
+      <div class="rv" aria-hidden="true">
+        <svg viewBox="0 0 400 400" width="100%" style="max-width:440px;display:block;margin:0 auto">
+          <defs><radialGradient id="og" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#8b5cf6" stop-opacity=".4"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient></defs>
+          <circle cx="200" cy="200" r="195" fill="url(#og)"/>
+          <circle cx="200" cy="200" r="140" fill="none" stroke="#3a4080" stroke-dasharray="3 7"/>
+          <circle cx="200" cy="200" r="60" fill="#1f2650" stroke="#ef6a9a" stroke-width="2.5"/>
+          <text x="200" y="215" text-anchor="middle" font-size="44">🧑‍🎓</text>
+          <g class="orbit-spin" font-family="Zen Kaku Gothic New,sans-serif" font-size="12" font-weight="700" text-anchor="middle">
+            <g class="n"><circle cx="200" cy="60" r="26" fill="#8b5cf6"/><text x="200" y="65" fill="#fff">JLPT</text></g>
+            <g class="n"><circle cx="333" cy="103" r="26" fill="#ef6a9a"/><text x="333" y="108" fill="#fff">JFT</text></g>
+            <g class="n"><circle cx="340" cy="230" r="26" fill="#22d3ee"/><text x="340" y="235" fill="#0d1024">KANA</text></g>
+            <g class="n"><circle cx="265" cy="335" r="26" fill="#f59e0b"/><text x="265" y="340" fill="#0d1024">SSW</text></g>
+            <g class="n"><circle cx="135" cy="335" r="26" fill="#10b981"/><text x="135" y="340" fill="#fff">面接</text></g>
+            <g class="n"><circle cx="60" cy="230" r="26" fill="#ffd700"/><text x="60" y="235" fill="#0d1024">SHOP</text></g>
+            <g class="n"><circle cx="67" cy="103" r="26" fill="#6366f1"/><text x="67" y="108" fill="#fff">MISI</text></g>
+          </g>
+        </svg>
+      </div>
+      <div class="feat-list">
+        <div class="feat rv"><div class="ic">💡</div><div><h3>Interactive Learning</h3><p>Belajar melalui materi, latihan, audio, dan evaluasi interaktif.</p></div></div>
+        <div class="feat rv"><div class="ic">🪐</div><div><h3>Learning Orbit / Learning Map</h3><p>Jelajahi materi secara bertahap lewat peta orbit dan lihat perkembangan belajarmu.</p></div></div>
+        <div class="feat rv"><div class="ic">📈</div><div><h3>Progress Tracking</h3><p>Ketahui perkembangan belajar: level, materi yang selesai, dan aktivitas belajar.</p></div></div>
+        <div class="feat rv"><div class="ic">🔥</div><div><h3>Daily Streak</h3><p>Bangun kebiasaan belajar lewat sistem streak harian.</p></div></div>
+        <div class="feat rv"><div class="ic">🏆</div><div><h3>Gamification</h3><p>Koin, level, reward, dan pencapaian untuk menjaga semangat belajar.</p></div></div>
+        <div class="feat rv"><div class="ic">🎧</div><div><h3>Audio Learning</h3><p>Belajar dengan bantuan audio untuk mendukung kemampuan mendengar dan pengucapan.</p></div></div>
+      </div>
+    </div>
+
+    <div class="mini" aria-hidden="true">
+      <div class="vis rv"><h3>Progress belajar</h3>
+        <div class="lab"><span>Kosakata</span><span>contoh</span></div><div class="bar"><i style="width:72%"></i></div>
+        <div class="lab"><span>Kanji</span><span>contoh</span></div><div class="bar"><i style="width:48%"></i></div>
+        <div class="lab"><span>Bunpou</span><span>contoh</span></div><div class="bar"><i style="width:60%"></i></div>
+      </div>
+      <div class="vis rv"><h3>Daily streak</h3>
+        <div class="cal"><i class="hd">Sen</i><i class="hd">Sel</i><i class="hd">Rab</i><i class="hd">Kam</i><i class="hd">Jum</i><i class="hd">Sab</i><i class="hd">Min</i>
+          <i class="on">🔥</i><i class="on">🔥</i><i class="on">🔥</i><i class="on">🔥</i><i class="on">🔥</i><i>·</i><i>·</i></div>
+        <p class="note">Ilustrasi contoh tampilan streak.</p>
+      </div>
+      <div class="vis rv"><h3>Reward & karakter</h3>
+        <div class="coins"><span>🪙 Koin</span><span>⭐ Level</span><span>🎖️ Pencapaian</span><span>👕 Wardrobe</span></div>
+        <p class="note" style="margin-top:14px">Selesaikan misi harian, kumpulkan koin, lalu pakai di Shop untuk mengganti penampilan karakter.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tema">
+  <div class="wrap">
+    <div class="center rv"><div class="eyebrow">テーマ</div><h2>Tema tampilan</h2>
+      <p class="lead">Ganti suasana belajar sesuai seleniamu. Tersedia tema Ungu (bawaan) dan tema cuaca dengan latar bergerak.</p></div>
+    <div class="themes rv" aria-hidden="true"><div class="th" style="background:linear-gradient(145deg,#161b36 55%,#8b5cf6)"><span>🟣</span><b>Ungu</b></div><div class="th" style="background:linear-gradient(145deg,#12345f 55%,#4aa3ff)"><span>☀️</span><b>Cerah</b></div><div class="th" style="background:linear-gradient(145deg,#1c2733 55%,#5b7a93)"><span>🌧️</span><b>Hujan</b></div><div class="th" style="background:linear-gradient(145deg,#243a52 55%,#bfe3ff)"><span>❄️</span><b>Salju</b></div><div class="th" style="background:linear-gradient(145deg,#2d1a14 55%,#f08a24)"><span>🍁</span><b>Gugur</b></div><div class="th" style="background:linear-gradient(145deg,#0b3b5c 55%,#22d3ee)"><span>🌊</span><b>Panas</b></div><div class="th" style="background:linear-gradient(145deg,#2e1f4a 55%,#ffb3d6)"><span>🌸</span><b>Semi</b></div><div class="th" style="background:linear-gradient(145deg,#1a1a24 55%,#ffd60a)"><span>⛈️</span><b>Badai</b></div></div>
+  </div>
+</section>
+
+<section id="mulai">
+  <div class="wrap">
+    <div class="center rv"><div class="eyebrow">始め方</div><h2>Cara memulai</h2></div>
+    <div class="steps">
+      <div class="step rv"><div class="ic">🔑</div><h3>Buat Akun</h3><p>Akun siswa disiapkan oleh guru/pengelola. Setelah menerima akun, login ke Shirose Nihongo.</p></div>
+      <div class="step rv"><div class="ic">🧭</div><h3>Pilih Program</h3><p>Pilih JLPT, JFT-Basic, SSW, atau MENSETSU sesuai kebutuhan.</p></div>
+      <div class="step rv"><div class="ic">🚀</div><h3>Mulai Belajar</h3><p>Pelajari materi, kerjakan latihan, kumpulkan progress, dan tingkatkan kemampuan bahasa Jepang.</p></div>
+    </div>
+    <div class="center" style="margin-top:34px"><a class="btn primary" href="./index.html#login">Login & Mulai Belajar →</a></div>
+  </div>
+</section>
+
+<section id="pembuat">
+  <div class="wrap">
+    <div class="about rv">
+      <div class="eyebrow">Created by</div>
+      <div class="big">「Created by SSW00」</div>
+      <p>Shirose Nihongo dikembangkan oleh SSW00 sebagai platform pembelajaran bahasa Jepang yang berfokus pada pengalaman belajar yang interaktif, terstruktur, dan mudah diakses.</p>
+      <p class="vision">“Membantu lebih banyak pelajar Indonesia mempelajari bahasa Jepang dan mempersiapkan diri untuk kesempatan belajar maupun bekerja di Jepang.”</p>
+    </div>
+  </div>
+</section>
+
+<section id="news" hidden>
+  <div class="wrap">
+    <div class="center"><div class="eyebrow">What's New</div><h2>Pembaruan Shirose Nihongo</h2></div>
+    <div class="news" id="news-list"></div>
+  </div>
+</section>
+
+<section id="social">
+  <div class="wrap center">
+    <div class="eyebrow rv">Follow Us</div>
+    <h2 class="rv">Ikuti kami</h2>
+    <p class="lead rv">Dapatkan info materi dan pembaruan terbaru.</p>
+    <div class="social" id="social-list"></div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <div class="center"><div class="eyebrow">FAQ</div><h2>Pertanyaan umum</h2></div>
+    <div class="faq">
+      <details><summary>Apa itu Shirose Nihongo?</summary><p>Platform pembelajaran bahasa Jepang untuk pelajar Indonesia dengan materi terstruktur dan fitur interaktif: JLPT, JFT-Basic, Hiragana/Katakana, SSW, dan MENSETSU.</p></details>
+      <details><summary>Apakah Shirose Nihongo dapat digunakan melalui smartphone?</summary><p>Ya. Tampilannya responsif dan dapat dipasang seperti aplikasi (PWA) di Android maupun iOS lewat browser.</p></details>
+      <details><summary>Apakah tersedia materi JLPT?</summary><p>Ya, JLPT N5 sampai N1: kosakata, kanji, bunpou, latihan, dan simulasi ujian. Akses level dapat diatur oleh guru per siswa.</p></details>
+      <details><summary>Apakah tersedia materi JFT-Basic?</summary><p>Ya, berbasis Irodori (入門, 初級1, 初級2) dengan latihan dan tryout. Program JFT-Basic terpisah dari JLPT.</p></details>
+      <details><summary>Apa itu SSW?</summary><p>SSW (Specified Skilled Worker / 特定技能) adalah status kerja di Jepang untuk bidang tertentu. Di Shirose Nihongo tersedia materi bahasa Jepang untuk delapan bidang SSW.</p></details>
+      <details><summary>Apa fungsi MENSETSU?</summary><p>Membantu persiapan wawancara kerja (面接): memilih pertanyaan, menulis dan memeriksa jawaban bahasa Jepang, mendengarkan audionya, lalu berlatih. Simulasi wawancara AI di dalam situs masih Coming Soon.</p></details>
+      <details><summary>Apakah progress belajar tersimpan?</summary><p>Ya. Progress, XP, koin, dan streak tersimpan pada akunmu dan tersinkron antar perangkat saat login.</p></details>
+      <details><summary>Apakah tersedia audio?</summary><p>Ya. Tersedia audio untuk kosakata, kalimat, dan latihan listening (choukai). Kualitas suara dapat berbeda antar perangkat.</p></details>
+      <details><summary>Bagaimana cara membuat akun?</summary><p>Pendaftaran mandiri belum dibuka. Akun siswa dibuat oleh guru/pengelola. Setelah akunmu terdaftar, masuk lewat tombol Login.</p></details>
+      <details><summary>Bagaimana cara menghubungi pengelola?</summary><p>Hubungi pengelola lewat media sosial pada bagian “Follow Us” di halaman ini.</p></details>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="jp">日本語を学び、未来を広げよう。</div>
+    <div>© <span id="yr"></span> SHIROSE NIHONGO · Created by SSW00</div>
+    <div style="margin-top:6px"><a href="./index.html#login" style="color:var(--pink-light)">Login</a></div>
+  </div>
+</footer>
+
+<script src="./js/landing-config.js"></script>
+<script>
+(function(){
+  var C = window.LANDING_CONFIG || {};
+  document.getElementById("yr").textContent = new Date().getFullYear();
+
+  // Sosial: hanya URL https:// yang diisi di landing-config.js
+  var soc = document.getElementById("social-list");
+  (C.social || []).forEach(function(s){
+    var ok = /^https:\/\//i.test(s.url || "");
+    var el = document.createElement(ok ? "a" : "span");
+    el.className = "btn ghost" + (ok ? "" : " off");
+    el.textContent = ok ? s.label : s.label + " · segera hadir";
+    if (ok){ el.href = s.url; el.target = "_blank"; el.rel = "noopener noreferrer"; }
+    soc.appendChild(el);
+  });
+
+  // Pembaruan: sembunyikan section jika kosong
+  var ups = C.updates || [];
+  if (ups.length){
+    var list = document.getElementById("news-list");
+    ups.forEach(function(u){
+      var a = document.createElement("article");
+      var m = document.createElement("div"); m.className = "meta";
+      m.textContent = (u.kategori || "Pembaruan") + (u.tanggal ? " · " + u.tanggal : "");
+      var h = document.createElement("h3"); h.textContent = u.judul || "";
+      var p = document.createElement("p"); p.textContent = u.isi || "";
+      a.appendChild(m); a.appendChild(h); a.appendChild(p); list.appendChild(a);
+    });
+    document.getElementById("news").hidden = false;
+  }
+
+  // Reveal on scroll
+  var els = document.querySelectorAll(".rv");
+  if ("IntersectionObserver" in window){
+    var io = new IntersectionObserver(function(es){
+      es.forEach(function(e){ if (e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); } });
+    }, {threshold:.12});
+    els.forEach(function(e){ io.observe(e); });
+  } else els.forEach(function(e){ e.classList.add("in"); });
+})();
+</script>
+</body>
+</html>
