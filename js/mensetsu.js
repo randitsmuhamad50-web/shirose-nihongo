@@ -10,10 +10,13 @@
  * ===================================================================== */
 import * as EN from "./mensetsu-engine.js";
 import { initPrep, PREP_ROUTES } from "./mensetsu-prep.js";
+// Akses Mensetsu = akses SSW bidang yang sama (satu sumber aturan: ssw-core.js). Versi ?v= harus sama dengan yang dipakai ssw.js.
+import { initSswCore, sswAllowed, loadKelasAkses } from "./ssw-core.js?v=20261113zl";
 
 let FB = null;
 export function initMensetsu(fb) {
   FB = fb;
+  initSswCore(fb);   // aman dipanggil ulang: hanya menyimpan referensi FB
   initPrep({ getFB: () => FB, esc, toast, LS, uid, isGuest, param, setPage, refresh, BIDANG, cfgGet, getProv: () => PROV, loadProviders });
 }
 
@@ -93,18 +96,33 @@ async function refresh() {
   const app = document.getElementById("app"); if (app && typeof html === "string") { app.innerHTML = html; window.scrollTo(0, y); }
 }
 
+/* ---------------- akses: Mensetsu mengikuti akses SSW per bidang ----------------
+ * Sumber aturan: siswa/{uid}.aksesSswBidang[slug] → kelas → bawaan (js/ssw-core.js sswAllowed). Tamu & guru tidak berubah.
+ * Mengunci hanya menyembunyikan latihan; riwayat (mensetsu_hasil), persiapan & transkrip tidak dihapus dan kembali tersedia saat dibuka. */
+const slugOf = (key) => String(key).replace(/_/g, "-");
+async function bolehBidang(key) {
+  if (isGuest()) return true;
+  try { await loadKelasAkses(); return sswAllowed(slugOf(key)); } catch (e) { console.warn("mensetsu: cek akses gagal:", e.message || e); return false; }
+}
+const terkunciHtml = (key) => `<div class="ms-wrap"><div class="ms-panel" style="text-align:center">
+  <div style="font-size:42px">🔒</div><h2>Akses ${esc(BIDANG[key].id)} belum dibuka</h2>
+  <p>Mensetsu mengikuti akses SSW. Guru belum membuka bidang ini untuk akunmu. Hubungi gurumu. Riwayat dan progres Mensetsu-mu tetap tersimpan.</p>
+  <button class="btn" onclick="route('mensetsu')">← Pilih bidang lain</button></div></div>`;
+const jaga = (fn) => async (p) => { const key = param(p); if (BIDANG[key] && !(await bolehBidang(key))) { setPage(() => terkunciHtml(key)); return terkunciHtml(key); } return fn(p); };
+
 async function renderHub() {
   setPage(renderHub);
   let idx = null; try { idx = await EN.loadIndex(); } catch (e) {}
   const jml = Object.fromEntries((idx?.bidang || []).map(b => [b.bidang, b.jumlah]));
+  const buka = Object.fromEntries(await Promise.all(ORDER.map(async k => [k, await bolehBidang(k)])));
   const cards = ORDER.map((k, i) => {
-    const b = BIDANG[k], n = jml[k] || 0, ok = n > 0;
-    return `<button class="ms-island ${ok ? "" : "soon"}" style="--c1:${b.c[0]};--c2:${b.c[1]};--d:${(i % 4) * .35}s"
-        ${ok ? `onclick="route('mensetsu-bidang/${k}')"` : `onclick="toast('Materi MENSETSU bidang ini belum selesai dibuat.')"`}>
+    const b = BIDANG[k], n = jml[k] || 0, ok = n > 0, kunci = !buka[k];
+    return `<button class="ms-island ${ok && !kunci ? "" : "soon"}" style="--c1:${b.c[0]};--c2:${b.c[1]};--d:${(i % 4) * .35}s"
+        ${kunci ? `onclick="toast('Akses bidang ini belum dibuka guru (mengikuti akses SSW).')"` : ok ? `onclick="route('mensetsu-bidang/${k}')"` : `onclick="toast('Materi MENSETSU bidang ini belum selesai dibuat.')"`}>
       <span class="ms-isl-art">${islandSvg(k)}</span>
       <span class="ms-isl-name">${b.id}</span>
       <span class="ms-isl-jp">${b.jp}</span>
-      <span class="ms-isl-st ${ok ? "ok" : ""}">${ok ? `✓ Tersedia · ${n} soal` : "Segera hadir"}</span>
+      <span class="ms-isl-st ${ok && !kunci ? "ok" : ""}">${kunci ? "🔒 Belum dibuka guru" : ok ? `✓ Tersedia · ${n} soal` : "Segera hadir"}</span>
     </button>`;
   }).join("");
   return `<div class="ms-wrap">
@@ -191,8 +209,8 @@ window.MS = MS;
 
 export const MENSETSU_ROUTES = {
   mensetsu: () => renderHub(),
-  "mensetsu-bidang": (p) => renderBidang(p),
-  "mensetsu-bank": (p) => renderBank(p),
-  ...PREP_ROUTES,
+  "mensetsu-bidang": jaga(renderBidang),
+  "mensetsu-bank": jaga(renderBank),
+  ...Object.fromEntries(Object.entries(PREP_ROUTES).map(([r, f]) => [r, jaga(f)])),
 };
 export const MENSETSU_PUBLIC = Object.keys(MENSETSU_ROUTES);
