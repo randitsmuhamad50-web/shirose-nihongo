@@ -1812,7 +1812,7 @@ window.keluarkanDariKelas = async (uid) => {
 // Expanded student profile (Part 16)
 // ---- Akses SSW per bidang (checkbox per siswa). Pakai data yang sudah ada: siswa/{uid}.aksesSswBidang.{slug}.
 // Mensetsu otomatis mengikuti (js/mensetsu.js membaca aturan yang sama). Mencabut akses TIDAK menghapus progres/riwayat/transkrip.
-const _SSW_8 = [["building-cleaning","🧹 Building Cleaning"],["kaigo","🤝 Kaigo"],["food-manufacturing","🏭 Food Manufacturing"],["food-service","🍜 Food Service"],["agriculture","🌾 Agriculture"],["construction","🏗️ Construction"],["accommodation","🏨 Accommodation"],["livestock","🐄 Livestock"]];
+const _SSW_8 = [["building-cleaning","🧹 Building Cleaning"],["kaigo","🤝 Kaigo"],["food-manufacturing","🏭 Food Manufacturing"],["food-service","🍜 Food Service"],["agriculture","🌾 Agriculture"],["construction","🏗️ Construction"],["accommodation","🏨 Accommodation"],["livestock","🐄 Livestock"],["fishery","🐟 Fishery"]];
 const _sswKelasMap = (siswa, kelasList) => ((kelasList || []).find(k => k.nama === siswa.kelas) || {}).aksesSswBidang || {};
 const _sswEfektif = (siswa, kelasList, slug) => {
   const a = (siswa.aksesSswBidang || {})[slug]; if (typeof a === "boolean") return a;
