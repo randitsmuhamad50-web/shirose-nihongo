@@ -187,6 +187,7 @@ async function renderBank(p) {
         <p class="ms-ans">${esc(q.aj)} <button class="ms-say" onclick="MS.say(this)" data-t="${esc(q.aj)}" title="Dengarkan">🔊</button></p>
         <p class="ms-ans-id">${esc(q.ai)}</p>
         <h4>Yang ingin diketahui pewawancara</h4><p>${esc(q.c)}</p>
+        ${q.f && q.f.length ? `<h4>Pertanyaan lanjutan yang mungkin muncul</h4><ul class="ms-voc">${q.f.map(x => `<li><b>${esc(x.ja)}</b> — ${esc(x.id)}</li>`).join("")}</ul>` : ""}
       </div>
     </details>`).join("");
   return `<div class="ms-wrap">

@@ -16,6 +16,8 @@ export const CATS = [
   { k: "seikatsu", jp: "日本での生活", id: "Kehidupan di Jepang" },
   { k: "mokuhyou", jp: "将来の目標", id: "Tujuan masa depan" },
   { k: "taiou", jp: "職場での対応", id: "Situasi di tempat kerja" },
+  { k: "tim", jp: "チームワーク", id: "Kerja sama tim" },
+  { k: "anzen", jp: "安全・衛生", id: "Keselamatan & kebersihan" },
   { k: "saigo", jp: "最後の質問", id: "Pertanyaan penutup" },
 ];
 export const BOBOT = { isi: 25, tata_bahasa: 20, kosakata: 15, kelancaran: 15, artikulasi: 15, kesopanan: 10 };
