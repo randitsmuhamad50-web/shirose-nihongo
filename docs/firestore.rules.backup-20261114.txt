@@ -1,0 +1,93 @@
+// BACKUP Firestore Rules AKTIF di Console sebelum perubahan 2026-11-14 (komentar dibuang).
+// Dibuat otomatis saat audit. Untuk rollback: paste isi ini di Firebase Console > Firestore > Rules > Publish.
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function signedIn()   { return request.auth != null; }
+    function me()         { return request.auth.uid; }
+    function ownerEmail() { return signedIn() && request.auth.token.email == "randitsmuhamad50@gmail.com"; }
+    function profilPath(u){ return /databases/$(database)/documents/siswa/$(u); }
+    function adaProfil()  { return signedIn() && exists(profilPath(me())); }
+    function profil()     { return get(profilPath(me())).data; }
+    function aktif()      { return adaProfil() && profil().get('status', 'aktif') != 'nonaktif'; }
+    function role()       { return profil().get('role', 'student'); }
+    function isAdmin()    { return ownerEmail() || (aktif() && role() in ['admin', 'developer']); }
+    function isGuru()     { return isAdmin() || (aktif() && role() == 'guru'); }
+    function terdaftar()  { return ownerEmail() || aktif(); }
+    function bolehLevel(l){
+      return isGuru() || (aktif() && profil().get('aksesLevel', {}).get(l, false) == true);
+    }
+    function diubah()     { return request.resource.data.diff(resource.data).affectedKeys(); }
+    function targetSiswa(){ return resource.data.get('role', 'student') == 'student'; }
+
+    match /siswa/{sid} {
+      allow read: if signedIn() && (me() == sid || isGuru());
+
+      allow create: if (isGuru() && request.resource.data.get('role', 'student') == 'student')
+                    || (isAdmin() && request.resource.data.get('role', 'student') in ['student', 'guru'])
+                    || (me() == sid && ownerEmail());
+
+      allow update: if
+          (me() == sid && aktif()
+             && !diubah().hasAny(['role', 'aksesLevel', 'kelas', 'status', 'email', 'permissions', 'dibuatOleh', 'aksesSsw']))
+          || (me() == sid && ownerEmail())
+          || (isGuru() && targetSiswa() && !diubah().hasAny(['role', 'permissions']))
+          || isAdmin();
+
+      allow delete: if isAdmin();
+
+      match /{sub}/{docId} {
+        allow read: if signedIn() && ((me() == sid && terdaftar()) || isGuru());
+        allow write: if signedIn() && ((me() == sid && terdaftar()) || isGuru());
+      }
+    }
+
+    match /kategori_ujian/{id} {
+      allow read: if terdaftar();
+      allow write: if isGuru();
+    }
+    match /soal/{katId}/items/{soalId} {
+      allow read: if isGuru()
+        || bolehLevel(get(/databases/$(database)/documents/kategori_ujian/$(katId)).data.get('level', 'n5'));
+      allow write: if isGuru();
+    }
+    match /choukai/{lvl}/items/{id} {
+      allow read: if bolehLevel(lvl);
+      allow write: if isGuru();
+    }
+
+    match /ssw_bidang/{slug} {
+      allow read: if terdaftar();
+      allow write: if isGuru();
+      allow delete: if isAdmin();
+    }
+
+        match /ssw_rank/{rid} {
+      allow read: if terdaftar();
+      allow create, update: if signedIn() && aktif() && request.resource.data.uid == me()
+        && rid == request.resource.data.slug + '__' + me()
+        && request.resource.data.keys().hasOnly(['uid','slug','nama','kelas','poin','rinci','upd'])
+        && request.resource.data.poin is number && request.resource.data.poin >= 0 && request.resource.data.poin <= 1000000;
+      allow delete: if isGuru();
+    }
+
+    match /kelas/{kid} {
+      allow read: if terdaftar();
+      allow write: if isGuru();
+    }
+    match /item_shop/{kat}/items/{id} {
+      allow read: if terdaftar();
+      allow write: if isGuru();
+    }
+    match /komentar/{key}/items/{id} {
+      allow read: if terdaftar();
+      allow create: if terdaftar()
+                    && request.resource.data.uid == me()
+                    && request.resource.data.text is string
+                    && request.resource.data.text.size() <= 1000;
+      allow delete: if signedIn() && (resource.data.uid == me() || isGuru());
+      allow update: if false;
+    }
+  }
+}
