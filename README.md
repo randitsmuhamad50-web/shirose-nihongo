@@ -2,7 +2,7 @@
 
 Platform RPG belajar bahasa Jepang JLPT N5–N1. Dulunya website materi biasa, sekarang jadi game edukasi dengan karakter, EXP, koin, shop, dan quest.
 
-🌐 Live: https://shirose-nihongo.netlify.app  
+🌐 Live: https://shirose-nihongo.github.io  
 📱 Bisa dipasang sebagai app di HP (PWA)
 
 ## Fitur utama
@@ -83,8 +83,8 @@ Untuk 8 bidang SSW. Siswa memilih pertanyaan (自己紹介 selalu pertama), menu
 ## Arsitektur
 
 - **Frontend**: Static HTML + JS modular (ES modules via CDN import maps). Tidak ada bundler.
-- **Hosting**: Netlify (production di `shirose-nihongo.netlify.app`). Source di GitHub.
-- **Auto deploy**: Push ke `main` → GitHub Actions trigger Netlify deploy (`.github/workflows/deploy.yml`).
+- **Hosting**: GitHub Pages (production di `shirose-nihongo.github.io`). Netlify tidak lagi dipakai (konfigurasi lama `netlify.toml`/`_headers`/`netlify/functions` dibiarkan, tidak aktif).
+- **Auto deploy**: Push ke `main` → GitHub Pages build otomatis. `.github/workflows/check.yml` hanya memverifikasi file penting (tidak mendeploy).
 - **Backend**: Firebase Spark plan (gratis).
   - **Auth**: Email/Password.
   - **Firestore (Jakarta)**: struktur schema di komentar `js/firebase-sync.js`.

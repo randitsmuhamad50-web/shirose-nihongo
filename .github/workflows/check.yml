@@ -1,0 +1,29 @@
+name: Verify static assets
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify static assets
+        run: |
+          echo "=== Checking required files ==="
+          test -f index.html || { echo "❌ index.html missing"; exit 1; }
+          test -f teacher.html || { echo "❌ teacher.html missing"; exit 1; }
+          test -f manifest.webmanifest || { echo "❌ manifest missing"; exit 1; }
+          test -f sw.js || { echo "❌ service worker missing"; exit 1; }
+          test -d data || { echo "❌ data folder missing"; exit 1; }
+          test -d js || { echo "❌ js folder missing"; exit 1; }
+          test -d choukai || { echo "❌ choukai folder missing"; exit 1; }
+          echo "✅ All required files present"
+          echo "=== File count ==="
+          find . -type f -not -path "./.git/*" -not -path "./node_modules/*" -not -path "./backup/*" | wc -l
