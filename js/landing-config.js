@@ -5,8 +5,8 @@ window.LANDING_CONFIG = {
   /* Isi URL asli akun kamu. Kosong ("") = tombol tampil nonaktif "Segera hadir".
      Contoh: instagram: "https://instagram.com/akunkamu" */
   social: [
-    { id: "instagram", label: "Instagram", url: "" },
-    { id: "tiktok",    label: "TikTok",    url: "" },
+    { id: "instagram", label: "Instagram", url: "https://www.instagram.com/shirose.nihongo" },
+    { id: "tiktok",    label: "TikTok",    url: "https://www.tiktok.com/@shirose.nihongo" },
     { id: "youtube",   label: "YouTube",   url: "" }   // opsional; hapus baris jika tidak dipakai
   ],
 

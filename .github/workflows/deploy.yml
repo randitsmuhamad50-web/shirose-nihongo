@@ -28,7 +28,20 @@ jobs:
           echo "=== File count ==="
           find . -type f -not -path "./.git/*" -not -path "./node_modules/*" -not -path "./backup/*" | wc -l
 
+      - name: Cek secret Netlify
+        id: nl
+        env:
+          T: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          S: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -n "$T" ] && [ -n "$S" ]; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::NETLIFY_AUTH_TOKEN / NETLIFY_SITE_ID belum diisi. Deploy Netlify DILEWATI (situs Netlify tidak ikut terbarui). GitHub Pages tidak terpengaruh."
+          fi
+
       - name: Deploy to Netlify
+        if: steps.nl.outputs.ok == 'true'
         uses: nwtgck/actions-netlify@v3.0
         with:
           publish-dir: '.'
