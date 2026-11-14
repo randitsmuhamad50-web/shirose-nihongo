@@ -1,0 +1,812 @@
+{
+ "schema": 1,
+ "bidang": "fishery",
+ "source": "Shirose Nihongo — tulisan orisinal berdasarkan standar kompetensi resmi bidang Perikanan (MOJ/ISA, MAFF/Badan Perikanan, MHLW) dan materi keselamatan MHLW untuk pekerja asing; bukan salinan buku mana pun. Soal = Latihan Shirose Nihongo, bukan soal resmi.",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. Teks ID/JP memakai **tebal**.",
+ "bab": {
+  "id": "bab3",
+  "no": 3,
+  "title": {
+   "id": "Penangkapan dengan Jaring",
+   "jp": "{網|あみ}{漁業|ぎょぎょう}"
+  },
+  "intro": {
+   "id": "Cara kerja alat tangkap berbasis jaring: jaring insang, pukat cincin, pukat tarik dasar, jaring tetap, bubu dan jaring angkat, serta prosedur memasang, menarik, dan merapikan jaring.",
+   "jp": "{刺網|さしあみ}、{巻網|まきあみ}、{底|そこ}びき{網|あみ}、{定置網|ていちあみ}、かご・{棒受網|ぼうけあみ}のしくみと、{網|あみ}の{入|い}れ{方|かた}・{揚|あ}げ{方|かた}・{整理|せいり}の{手順|てじゅん}を{学|まな}びます。"
+  },
+  "pages": [
+   1,
+   1
+  ],
+  "subs": [
+   {
+    "id": "b3s1",
+    "no": 1,
+    "title": {
+     "id": "Jaring Insang (刺網)",
+     "jp": "{刺網|さしあみ}{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "**Jaring insang (刺網)** adalah jaring panjang yang dipasang tegak di air. Ikan yang berenang menabrak jaring, lalu kepala atau insangnya **tersangkut di mata jaring (網目)**. Bagian atas diberi pelampung (浮き) dan bagian bawah pemberat (おもり)."
+      },
+      {
+       "h": "Dua cara pemasangan"
+      },
+      {
+       "ul": [
+        "**Jaring dasar (底刺網)**: dipasang di dasar laut untuk ikan dasar dan udang.",
+        "**Jaring permukaan (浮刺網)**: menggantung di dekat permukaan untuk ikan seperti ikan migran."
+       ]
+      },
+      {
+       "h": "Urutan kerja"
+      },
+      {
+       "ol": [
+        "Menyiapkan jaring di dek dan memeriksa robekan.",
+        "**Memasang jaring (設置)** sambil kapal berjalan pelan; ujung diberi pelampung tanda (ブイ).",
+        "Membiarkan jaring beberapa jam atau semalam.",
+        "**Mengangkat jaring (揚網)** dan **melepas ikan dari jaring (魚外し)** dengan hati-hati agar ikan tidak rusak.",
+        "Membersihkan dan merapikan jaring."
+       ]
+      },
+      {
+       "note": "Ukuran mata jaring (目合) ikut menentukan ikan yang tertangkap dan diatur oleh aturan perikanan."
+      },
+      {
+       "h": "Hal yang perlu diperhatikan"
+      },
+      {
+       "ul": [
+        "Jaring yang hanyut atau hilang tetap menangkap ikan dan merusak laut. **Laporkan** jika jaring hilang.",
+        "Saat melepas ikan, jangan menarik kasar karena bisa merobek jaring dan melukai tangan."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "**{刺網|さしあみ}**は、{水|みず}の{中|なか}に{立|た}てて{入|い}れる{長|なが}い{網|あみ}です。{泳|およ}いできた{魚|さかな}が{網|あみ}にぶつかり、{頭|あたま}やえらが**{網|あみ}{目|め}**にかかります。{網|あみ}の{上|うえ}には{浮|う}き、{下|した}にはおもりをつけます。"
+      },
+      {
+       "h": "{入|い}れ{方|かた}は2つ"
+      },
+      {
+       "ul": [
+        "**{底|そこ}{刺網|さしあみ}**：{海|うみ}の{底|そこ}に{入|い}れる。{底魚|そこうお}やエビをとる。",
+        "**{浮|う}{刺網|さしあみ}**：{水面|すいめん}の{近|ちか}くにつるす。{回遊魚|かいゆうぎょ}などをとる。"
+       ]
+      },
+      {
+       "h": "{仕事|しごと}の{順番|じゅんばん}"
+      },
+      {
+       "ol": [
+        "{甲板|かんぱん}で{網|あみ}を{用意|ようい}して、やぶれがないか{調|しら}べる。",
+        "{船|ふね}をゆっくり{動|うご}かしながら、{網|あみ}を**{入|い}れる**。はしにはブイ（{目|め}じるし）をつける。",
+        "{何|なん}{時間|じかん}か、または{一晩|ひとばん}おく。",
+        "**{揚網|ようもう}**（{網|あみ}を{上|あ}げる）をして、{魚|さかな}を**{外|はず}す**。{魚|さかな}をいためないようにていねいにする。",
+        "{網|あみ}をきれいにして、{整理|せいり}する。"
+       ]
+      },
+      {
+       "note": "**{目合|めあい}**（{網|あみ}{目|め}の{大|おお}きさ）で、とれる{魚|さかな}がかわります。{目合|めあい}にはルールがあります。"
+      },
+      {
+       "h": "{気|き}をつけること"
+      },
+      {
+       "ul": [
+        "{流|なが}された{網|あみ}や、なくなった{網|あみ}も{魚|さかな}をとり{続|つづ}けて、{海|うみ}をいためます。なくしたときは**{報告|ほうこく}**します。",
+        "{魚|さかな}を{外|はず}すとき、むりに{引|ひ}っぱると、{網|あみ}がやぶれたり、{手|て}をけがしたりします。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jaring insang menangkap ikan yang tersangkut di mata jaring; lapor jika jaring hilang.",
+      "points": [
+       "刺網 dipasang tegak; ikan tersangkut di 網目.",
+       "底刺網 = dasar; 浮刺網 = permukaan.",
+       "Urutan: siapkan → pasang → tunggu → 揚網 → 魚外し.",
+       "Jaring hilang: laporkan."
+      ],
+      "avoid": [
+       "Membiarkan jaring hilang tanpa melapor.",
+       "Menarik ikan kasar dari jaring."
+      ],
+      "exam": [
+       "Cara kerja dan bagian jaring insang.",
+       "Beda jaring dasar dan jaring permukaan."
+      ]
+     },
+     "jp": {
+      "core": "{刺網|さしあみ}は{魚|さかな}が{網|あみ}{目|め}にかかる。{網|あみ}をなくしたら{報告|ほうこく}する。",
+      "points": [
+       "{刺網|さしあみ}は{立|た}てて{入|い}れ、{魚|さかな}が{網|あみ}{目|め}にかかる。",
+       "{底|そこ}{刺網|さしあみ}＝{底|そこ}、{浮|う}{刺網|さしあみ}＝{水面|すいめん}。",
+       "{順番|じゅんばん}：{用意|ようい}→{入|い}れる→{待|ま}つ→{揚網|ようもう}→{魚|さかな}{外|はず}し。",
+       "{網|あみ}をなくしたら{報告|ほうこく}。"
+      ],
+      "avoid": [
+       "{網|あみ}をなくして{報告|ほうこく}しないこと。",
+       "{魚|さかな}をむりに{引|ひ}っぱること。"
+      ],
+      "exam": [
+       "{刺網|さしあみ}のしくみ。",
+       "{底|そこ}{刺網|さしあみ}と{浮|う}{刺網|さしあみ}のちがい。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s2",
+    "no": 2,
+    "title": {
+     "id": "Pukat Cincin (巻網)",
+     "jp": "{巻網|まきあみ}{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "**Pukat cincin (巻網)** melingkari **kawanan ikan (魚群)** dengan jaring panjang, lalu **mengerutkan bagian bawah (絞る)** lewat tali yang melewati cincin (環) sehingga ikan terkurung seperti kantong. Dipakai untuk ikan berkelompok seperti イワシ, アジ, サバ, dan カツオ."
+      },
+      {
+       "h": "Kapal yang terlibat"
+      },
+      {
+       "ul": [
+        "**Kapal jaring (網船)**: membawa jaring dan melingkari kawanan ikan.",
+        "**Kapal pencari (探索船)**: mencari kawanan ikan dengan pencari ikan.",
+        "**Kapal lampu (灯船)**: menarik ikan dengan lampu di malam hari (集魚灯).",
+        "**Kapal pengangkut (運搬船)**: mengangkut ikan ke pelabuhan."
+       ]
+      },
+      {
+       "h": "Urutan kerja"
+      },
+      {
+       "ol": [
+        "Menemukan kawanan ikan (魚群探索).",
+        "Menurunkan jaring dan melingkari kawanan ikan dengan cepat.",
+        "Mengerutkan bagian bawah jaring (**絞る**), lalu menarik tali.",
+        "Mengecilkan lingkaran dan memindahkan ikan ke kapal (**すくい** / pompa ikan).",
+        "Menarik jaring ke kapal dan merapikannya."
+       ]
+      },
+      {
+       "h": "Keselamatan"
+      },
+      {
+       "ul": [
+        "Tali dan cincin bergerak cepat dengan beban sangat berat. Jauhi garis tali dan cincin.",
+        "Ikuti isyarat pemimpin (合図) dengan ketat, terutama saat jaring dilepas dan dikerutkan.",
+        "Di malam hari lampu terang dan dek licin; berhati-hati."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "**{巻網|まきあみ}**は、**{魚|さかな}{群|ぐん}**を{長|なが}い{網|あみ}でぐるっとかこみ、{網|あみ}の{下|した}を、{環|かん}（わ）を{通|とお}したロープで**{絞|しぼ}って**、{魚|さかな}をふくろのように{閉|と}じこめます。イワシ、アジ、サバ、カツオなど、{群|む}れでいる{魚|さかな}をとります。"
+      },
+      {
+       "h": "かかわる{船|ふね}"
+      },
+      {
+       "ul": [
+        "**{網|あみ}{船|ふね}**：{網|あみ}をつんで、{魚|さかな}{群|ぐん}をかこむ{船|ふね}。",
+        "**{探索船|たんさくせん}**：{魚群探知機|ぎょぐんたんちき}で{魚|さかな}{群|ぐん}を{探|さが}す{船|ふね}。",
+        "**{灯|ひ}{船|ふね}**：{夜|よる}、**{集魚灯|しゅうぎょとう}**で{魚|さかな}をあつめる{船|ふね}。",
+        "**{運搬船|うんぱんせん}**：とった{魚|さかな}を{港|みなと}まで{運|はこ}ぶ{船|ふね}。"
+       ]
+      },
+      {
+       "h": "{仕事|しごと}の{順番|じゅんばん}"
+      },
+      {
+       "ol": [
+        "{魚|さかな}{群|ぐん}を{見|み}つける（**{魚|さかな}{群|ぐん}{探索|たんさく}**）。",
+        "{網|あみ}を{入|い}れて、すばやく{魚|さかな}{群|ぐん}をかこむ。",
+        "{網|あみ}の{下|した}を**{絞|しぼ}って**、ロープをひく。",
+        "{輪|わ}をだんだん{小|ちい}さくして、{魚|さかな}を{船|ふね}に{移|うつ}す。",
+        "{網|あみ}を{船|ふね}に{上|あ}げて、{整理|せいり}する。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "ロープや{環|かん}は、とても{重|おも}いものを{速|はや}く{動|うご}かす。ロープの{線上|せんじょう}や{環|かん}に{近|ちか}づかない。",
+        "リーダーの**{合図|あいず}**を{守|まも}る。とくに{網|あみ}を{入|い}れる、{絞|しぼ}るとき。",
+        "{夜|よる}は{明|あ}かりが{強|つよ}く、{甲板|かんぱん}がすべる。{注意|ちゅうい}する。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pukat cincin melingkari kawanan ikan lalu mengerutkan bagian bawah jaring.",
+      "points": [
+       "巻網 untuk ikan berkelompok (イワシ, アジ, サバ, カツオ).",
+       "網船, 探索船, 灯船, 運搬船.",
+       "絞る = mengerutkan bagian bawah.",
+       "Jauhi tali dan cincin saat bekerja."
+      ],
+      "avoid": [
+       "Berdiri di garis tali saat jaring dikerutkan."
+      ],
+      "exam": [
+       "Peran tiap kapal.",
+       "Arti 絞る."
+      ]
+     },
+     "jp": {
+      "core": "{巻網|まきあみ}は{魚|さかな}{群|ぐん}をかこみ、{網|あみ}の{下|した}を{絞|しぼ}る。",
+      "points": [
+       "{巻網|まきあみ}は{群|む}れの{魚|さかな}（イワシ・アジ・サバ・カツオ）。",
+       "{網|あみ}{船|ふね}・{探索船|たんさくせん}・{灯|ひ}{船|ふね}・{運搬船|うんぱんせん}。",
+       "{絞|しぼ}る＝{網|あみ}の{下|した}をしめる。",
+       "ロープと{環|かん}に{近|ちか}づかない。"
+      ],
+      "avoid": [
+       "{網|あみ}を{絞|しぼ}るときロープの{線上|せんじょう}に{立|た}つこと。"
+      ],
+      "exam": [
+       "{各船|かくせん}の{役割|やくわり}。",
+       "{絞|しぼ}るの{意味|いみ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s3",
+    "no": 3,
+    "title": {
+     "id": "Pukat Tarik Dasar (底びき網)",
+     "jp": "{底|そこ}びき{網|あみ}{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "**Pukat tarik dasar (底びき網)** adalah jaring berbentuk kantong yang **ditarik (曳く)** kapal di dasar laut untuk menangkap ikan dan udang yang hidup di dasar, seperti カレイ, ヒラメ, タラ, エビ, dan カニ."
+      },
+      {
+       "h": "Bagian utama"
+      },
+      {
+       "ul": [
+        "**Mulut jaring (網口)**: bagian depan yang terbuka.",
+        "**Kantong jaring (袋網)**: bagian belakang tempat ikan terkumpul.",
+        "**Papan pembuka (オッターボード)**: papan di kiri dan kanan yang membuka mulut jaring saat ditarik.",
+        "**Kawat tarik (ワープ)**: kawat baja yang menghubungkan kapal dengan jaring."
+       ]
+      },
+      {
+       "h": "Urutan kerja"
+      },
+      {
+       "ol": [
+        "Menurunkan jaring (**網を入れる**) sambil mengulur kawat.",
+        "**Menarik jaring (曳網)** dengan kecepatan tetap selama beberapa jam.",
+        "Menarik kawat dan **mengangkat jaring (揚網)** dengan mesin penarik (ウインチ).",
+        "Membuka ikatan kantong dan menumpahkan hasil tangkapan ke dek.",
+        "Memilah (選別) ikan dari sampah dan hewan yang tidak dituju."
+       ]
+      },
+      {
+       "h": "Hal yang perlu diperhatikan"
+      },
+      {
+       "ul": [
+        "Menarik jaring merusak dasar laut, jadi ada **daerah dan musim terlarang** serta aturan ukuran mata jaring.",
+        "Saat kawat tegang atau mesin berputar, jangan berdiri di dekatnya.",
+        "Dek penuh ikan dan air sehingga sangat licin."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "**{底|そこ}びき{網|あみ}**は、ふくろの{形|かたち}の{網|あみ}を、{船|ふね}が{海|うみ}の{底|そこ}で**ひいて**、{底|そこ}にいる{魚|さかな}やエビをとる{漁|りょう}です。カレイ、ヒラメ、タラ、エビ、カニなどをとります。"
+      },
+      {
+       "h": "おもな{部分|ぶぶん}"
+      },
+      {
+       "ul": [
+        "**{網口|あみぐち}**：{前|まえ}の、{開|あ}いている{部分|ぶぶん}。",
+        "**{袋網|ふくろあみ}**：うしろの、{魚|さかな}があつまる{部分|ぶぶん}。",
+        "**オッターボード**：{左右|さゆう}の{板|いた}。ひくときに{網口|あみぐち}を{開|ひら}く。",
+        "**ワープ**：{船|ふね}と{網|あみ}をつなぐ、はがねのワイヤー。"
+       ]
+      },
+      {
+       "h": "{仕事|しごと}の{順番|じゅんばん}"
+      },
+      {
+       "ol": [
+        "ワープをのばしながら、{網|あみ}を**{入|い}れる**。",
+        "{一定|いってい}の{速|はや}さで、{何|なん}{時間|じかん}か**{曳網|えいもう}**（{網|あみ}をひく）。",
+        "ワープをまいて、ウインチで**{揚網|ようもう}**する。",
+        "{袋網|ふくろあみ}のひもをほどいて、とれたものを{甲板|かんぱん}に{出|だ}す。",
+        "{魚|さかな}とごみ、ねらっていない{生|い}き{物|もの}を**{選別|せんべつ}**する。"
+       ]
+      },
+      {
+       "h": "{気|き}をつけること"
+      },
+      {
+       "ul": [
+        "{海|うみ}の{底|そこ}をいためるので、**とってはいけない{場所|ばしょ}や{時期|じき}**、{網|あみ}{目|め}の{大|おお}きさのルールがある。",
+        "ワープがぴんと{張|は}っているとき、{機械|きかい}が{回|まわ}っているときは、そばに{立|た}たない。",
+        "{甲板|かんぱん}は{魚|さかな}と{水|みず}でとてもすべる。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pukat tarik dasar ditarik kapal di dasar laut dan diangkat dengan winch; ada aturan daerah dan mata jaring.",
+      "points": [
+       "網口, 袋網, オッターボード, ワープ.",
+       "曳網 = menarik; 揚網 = mengangkat.",
+       "Target: カレイ, ヒラメ, タラ, エビ, カニ.",
+       "Ada daerah/musim terlarang."
+      ],
+      "avoid": [
+       "Berdiri dekat kawat tegang atau winch yang berputar."
+      ],
+      "exam": [
+       "Fungsi オッターボード.",
+       "Beda 曳網 dan 揚網."
+      ]
+     },
+     "jp": {
+      "core": "{底|そこ}びき{網|あみ}は{海|うみ}の{底|そこ}をひき、ウインチで{揚|あ}げる。{場所|ばしょ}と{目合|めあい}のルールがある。",
+      "points": [
+       "{網口|あみぐち}・{袋網|ふくろあみ}・オッターボード・ワープ。",
+       "{曳網|えいもう}＝ひく、{揚網|ようもう}＝{上|あ}げる。",
+       "カレイ・ヒラメ・タラ・エビ・カニ。",
+       "とってはいけない{場所|ばしょ}と{時期|じき}がある。"
+      ],
+      "avoid": [
+       "{張|は}ったワープや{回|まわ}るウインチのそばに{立|た}つこと。"
+      ],
+      "exam": [
+       "オッターボードのはたらき。",
+       "{曳網|えいもう}と{揚網|ようもう}のちがい。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s4",
+    "no": 4,
+    "title": {
+     "id": "Jaring Tetap (定置網)",
+     "jp": "{定置網|ていちあみ}{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "**Jaring tetap (定置網)** dipasang di satu tempat di laut selama berbulan-bulan. Ikan yang berenang menyusuri pantai atau mengikuti arus **dibelokkan masuk** ke jaring, lalu sulit keluar. Tidak ada kapal yang mengejar ikan; kapal hanya datang untuk **mengangkat jaring**."
+      },
+      {
+       "h": "Bagian jaring"
+      },
+      {
+       "ul": [
+        "**Jaring penuntun (垣網)**: jaring panjang yang mengarahkan ikan ke dalam.",
+        "**Tempat masuk atau halaman (運動場)**: ruang tempat ikan berkumpul.",
+        "**Jaring kotak (箱網)** atau **jaring badan (身網)**: ruang akhir tempat ikan terkurung."
+       ]
+      },
+      {
+       "h": "Kerja harian"
+      },
+      {
+       "ol": [
+        "Berangkat **pagi-pagi sekali** menuju lokasi jaring.",
+        "**Mengangkat jaring (網起こし / 揚網)**: menarik jaring badan sedikit demi sedikit hingga ikan terkumpul.",
+        "Mengeruk ikan ke kapal dengan jaring serok (たも網).",
+        "Memilah hasil tangkapan sesuai jenis dan ukuran.",
+        "Pulang ke pelabuhan dan membongkar hasil tangkapan."
+       ]
+      },
+      {
+       "p": "Hasil tangkapan beragam dan bergantung musim, misalnya ブリ, サケ, イワシ, dan アジ."
+      },
+      {
+       "note": "Jaring tetap perlu diperiksa dan diperbaiki secara berkala. Kondisi laut buruk (gelombang, arus) membuat jaring bisa rusak."
+      },
+      {
+       "h": "Keselamatan"
+      },
+      {
+       "ul": [
+        "Menarik jaring dilakukan beramai-ramai. Ikuti aba-aba, jangan berdiri di dekat tali tegang.",
+        "Kapal kecil berhimpitan dan bergoyang. Pakai jaket pelampung."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "**{定置網|ていちあみ}**は、{海|うみ}の{決|き}まった{場所|ばしょ}に、{何|なん}か{月|げつ}もおいておく{網|あみ}です。{海岸|かいがん}にそって{泳|およ}ぐ{魚|さかな}や、{流|なが}れにのった{魚|さかな}が**{網|あみ}に{入|はい}るように**みちびかれ、{出|で}にくくなります。{魚|さかな}を{追|お}いかける{船|ふね}はなく、{船|ふね}は**{網|あみ}を{上|あ}げる**ために{行|い}きます。"
+      },
+      {
+       "h": "{網|あみ}の{部分|ぶぶん}"
+      },
+      {
+       "ul": [
+        "**{垣網|かきあみ}**：{魚|さかな}を{中|なか}へみちびく{長|なが}い{網|あみ}。",
+        "**{運動場|うんどうじょう}**：{魚|さかな}があつまる{広|ひろ}い{場所|ばしょ}。",
+        "**{箱網|はこあみ}**・**{身網|みあみ}**：いちばんおくの、{魚|さかな}がとじこめられる{部分|ぶぶん}。"
+       ]
+      },
+      {
+       "h": "{毎日|まいにち}の{仕事|しごと}"
+      },
+      {
+       "ol": [
+        "**{朝|あさ}{早|はや}く**、{網|あみ}の{場所|ばしょ}へ{行|い}く。",
+        "**{網起|あみお}こし（{揚網|ようもう}）**：{身網|みあみ}を{少|すこ}しずつひいて、{魚|さかな}をあつめる。",
+        "たも{網|あみ}で{魚|さかな}を{船|ふね}にすくう。",
+        "{種類|しゅるい}と{大|おお}きさで{魚|さかな}を{分|わ}ける。",
+        "{港|みなと}にもどって{水揚|みずあ}げする。"
+       ]
+      },
+      {
+       "p": "とれる{魚|さかな}は{季節|きせつ}でかわります。ブリ、サケ、イワシ、アジなどです。"
+      },
+      {
+       "note": "{定置網|ていちあみ}は、ときどき{点検|てんけん}して{直|なお}す{必要|ひつよう}があります。{波|なみ}や{流|なが}れが{強|つよ}いと、{網|あみ}がいたむことがあります。"
+      },
+      {
+       "h": "{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "{網|あみ}は、みんなでひきます。{合図|あいず}を{聞|き}いて、ぴんと{張|は}ったロープのそばに{立|た}たない。",
+        "{小|ちい}さい{船|ふね}がならんで、ゆれます。ライフジャケットを{着|き}る。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jaring tetap dipasang lama di satu tempat; ikan terpandu masuk dan jaring diangkat tiap pagi.",
+      "points": [
+       "垣網 menuntun; 運動場 tempat berkumpul; 箱網/身網 ruang akhir.",
+       "Tidak mengejar ikan.",
+       "Angkat jaring pagi hari (網起こし).",
+       "Hasil tergantung musim."
+      ],
+      "avoid": [
+       "Mengira kapal mengejar ikan pada jaring tetap."
+      ],
+      "exam": [
+       "Fungsi 垣網.",
+       "Waktu dan cara mengangkat jaring."
+      ]
+     },
+     "jp": {
+      "core": "{定置網|ていちあみ}は{決|き}まった{場所|ばしょ}に{長|なが}くおき、{毎朝|まいあさ}{網|あみ}を{上|あ}げる。",
+      "points": [
+       "{垣網|かきあみ}でみちびき、{運動場|うんどうじょう}にあつまり、{箱網|はこあみ}・{身網|みあみ}にとじこめる。",
+       "{魚|さかな}を{追|お}いかけない。",
+       "{朝|あさ}に{網起|あみお}こしをする。",
+       "とれる{魚|さかな}は{季節|きせつ}でかわる。"
+      ],
+      "avoid": [
+       "{定置網|ていちあみ}で{船|ふね}が{魚|さかな}を{追|お}うと{思|おも}うこと。"
+      ],
+      "exam": [
+       "{垣網|かきあみ}のはたらき。",
+       "{網|あみ}を{上|あ}げる{時間|じかん}ややり{方|かた}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s5",
+    "no": 5,
+    "title": {
+     "id": "Bubu, Jaring Angkat, dan Alat Pasif",
+     "jp": "かご・{棒受網|ぼうけあみ}・つぼ{漁|りょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bubu dan perangkap (かご・つぼ)"
+      },
+      {
+       "ul": [
+        "**Bubu (かご)**: kurungan berumpan untuk kepiting (カニかご), udang, dan ikan. Dipasang di dasar, ditandai pelampung (ブイ) dengan tali.",
+        "**Pot gurita (たこつぼ)**: tabung tanah liat atau plastik; gurita masuk karena menyukai tempat sempit. Biasanya dipasang berderet pada satu tali."
+       ]
+      },
+      {
+       "h": "Jaring angkat dan sauri (棒受網)"
+      },
+      {
+       "p": "**棒受網 (bouke-ami)** menangkap サンマ (ikan sauri) di malam hari. Lampu (集魚灯) menarik サンマ ke sisi kapal, lalu jaring di sisi kapal diangkat dengan tiang kayu atau besi."
+      },
+      {
+       "h": "Urutan kerja bubu"
+      },
+      {
+       "ol": [
+        "Memasang umpan di dalam bubu.",
+        "Menurunkan bubu berderet dan menandai posisi dengan pelampung.",
+        "Membiarkan beberapa hari.",
+        "Menarik tali dan mengangkat bubu dengan mesin.",
+        "Mengambil hasil tangkapan lalu memasang umpan baru."
+       ]
+      },
+      {
+       "h": "Keselamatan"
+      },
+      {
+       "ul": [
+        "Tali yang menurunkan bubu bergerak cepat; kaki bisa terlilit. Jangan berdiri di dalam gulungan tali.",
+        "Pengangkat tali (ライン・ホーラー) berputar; tangan tidak boleh dekat roda tali.",
+        "Kepiting dan hewan lain bisa menjepit atau menusuk; pakai sarung tangan."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "かごとつぼ"
+      },
+      {
+       "ul": [
+        "**かご**：えさを{入|い}れた、とじこめる{入|い}れ{物|もの}。カニ（カニかご）、エビ、{魚|さかな}をとる。{海|うみ}の{底|そこ}におき、ロープとブイで{目|め}じるしにする。",
+        "**たこつぼ**：{粘土|ねんど}やプラスチックのつぼ。タコはせまい{所|ところ}が{好|す}きなので{入|はい}る。1{本|ほん}のロープに、たくさんならべておく。"
+       ]
+      },
+      {
+       "h": "{棒受網|ぼうけあみ}"
+      },
+      {
+       "p": "**{棒受網|ぼうけあみ}**は、{夜|よる}にサンマをとる{漁|りょう}です。**{集魚灯|しゅうぎょとう}**でサンマを{船|ふね}のよこにあつめ、{船|ふね}のよこにある{網|あみ}を、{棒|ぼう}で{上|あ}げてとります。"
+      },
+      {
+       "h": "かご{漁|りょう}の{順番|じゅんばん}"
+      },
+      {
+       "ol": [
+        "かごの{中|なか}にえさを{入|い}れる。",
+        "かごをならべて{海|うみ}に{入|い}れ、ブイで{場所|ばしょ}のしるしをする。",
+        "{何日|なんにち}かおく。",
+        "ロープをひいて、{機械|きかい}でかごを{上|あ}げる。",
+        "とれたものを{出|で}して、{新|あたら}しいえさを{入|い}れる。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "かごを{海|うみ}に{入|い}れるロープは{速|はや}く{出|で}る。{足|あし}にからまるので、ロープの{輪|わ}の{中|なか}に{立|た}たない。",
+        "ロープをひく{機械|きかい}（ラインホーラー）は{回|まわ}る。{手|て}を{近|ちか}づけない。",
+        "カニなどにはさまれたり、さされたりする。{手袋|てぶくろ}をする。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bubu dan pot gurita menjebak hewan; 棒受網 menangkap サンマ dengan lampu; waspadai tali yang berputar.",
+      "points": [
+       "かご: kepiting, udang, ikan.",
+       "たこつぼ: gurita suka tempat sempit.",
+       "棒受網 = サンマ + 集魚灯.",
+       "Jangan berdiri di lingkaran tali."
+      ],
+      "avoid": [
+       "Berdiri di dalam gulungan tali bubu."
+      ],
+      "exam": [
+       "Alat tangkap untuk サンマ.",
+       "Ciri たこつぼ."
+      ]
+     },
+     "jp": {
+      "core": "かご・つぼはとじこめる{漁|りょう}。{棒受網|ぼうけあみ}は{灯|ひ}でサンマをとる。ロープとホーラーに{注意|ちゅうい}。",
+      "points": [
+       "かご：カニ・エビ・{魚|さかな}。",
+       "たこつぼ：タコはせまい{所|ところ}が{好|す}き。",
+       "{棒受網|ぼうけあみ}＝サンマ＋{集魚灯|しゅうぎょとう}。",
+       "ロープの{輪|わ}に{立|た}たない。"
+      ],
+      "avoid": [
+       "かごのロープの{輪|わ}の{中|なか}に{立|た}つこと。"
+      ],
+      "exam": [
+       "サンマをとる{漁具|ぎょぐ}。",
+       "たこつぼの{特|とく}ちょう。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b3s6",
+    "no": 6,
+    "title": {
+     "id": "Memasang, Menarik, dan Merapikan Jaring",
+     "jp": "{網|あみ}の{入|い}れ{方|かた}・{揚|あ}げ{方|かた}・{整理|せいり}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Mengapa urutan penting"
+      },
+      {
+       "p": "Jaring besar sangat berat dan bergerak cepat saat dipasang. Kesalahan urutan atau kurang aba-aba menyebabkan jaring kusut, kecelakaan, atau jaring hilang."
+      },
+      {
+       "h": "Memasang jaring (網を入れる)"
+      },
+      {
+       "ol": [
+        "Periksa jaring, tali, dan pelampung.",
+        "Tentukan pemberi aba-aba (合図者).",
+        "Sebelum memasang, pastikan **tidak ada orang di garis jaring dan tali**; serukan 「入れます！」.",
+        "Pasang pelampung dahulu, jaring di tengah, pemberat terakhir, dengan kecepatan stabil.",
+        "Cek bahwa jaring terbuka dan tidak kusut."
+       ]
+      },
+      {
+       "h": "Menarik jaring (揚網)"
+      },
+      {
+       "ol": [
+        "Serukan 「揚げます！」 dan pastikan semua siap.",
+        "Tarik jaring dengan mesin (ネットホーラー / ウインチ) secara perlahan; **ikuti kecepatan mesin**.",
+        "Tangan jangan dekat roda atau gulungan.",
+        "Saat ada jaring tersangkut, **hentikan mesin**, baru dilepas."
+       ]
+      },
+      {
+       "h": "Merapikan jaring (網の整理)"
+      },
+      {
+       "ul": [
+        "Rapikan jaring agar tidak kusut: pelampung di satu sisi, pemberat di sisi lain.",
+        "Lepas sampah, rumput laut, dan ikan yang tersangkut.",
+        "Perbaiki robekan sebelum pemasangan berikutnya (網の補修).",
+        "Simpan jaring di tempat yang ditentukan agar tidak menghalangi jalan."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "{順番|じゅんばん}が{大切|たいせつ}な{理由|りゆう}"
+      },
+      {
+       "p": "{大|おお}きい{網|あみ}はとても{重|おも}く、{入|い}れるときに{速|はや}くうごきます。{順番|じゅんばん}をまちがえたり、{合図|あいず}がなかったりすると、{網|あみ}がからまったり、{事故|じこ}がおきたり、{網|あみ}をなくしたりします。"
+      },
+      {
+       "h": "{網|あみ}を{入|い}れる"
+      },
+      {
+       "ol": [
+        "{網|あみ}、ロープ、{浮|う}きを{点検|てんけん}する。",
+        "**{合図|あいず}をする{人|ひと}**を{決|き}める。",
+        "{入|い}れるまえに、**{網|あみ}やロープの{線上|せんじょう}に{人|ひと}がいないか**{確認|かくにん}し、「{入|い}れます！」と{声|こえ}を{出|だ}す。",
+        "{浮|う}き、{網|あみ}、おもりの{順|じゅん}に、{一定|いってい}の{速|はや}さで{入|い}れる。",
+        "{網|あみ}が{開|あ}いて、からまっていないか{確認|かくにん}する。"
+       ]
+      },
+      {
+       "h": "{網|あみ}を{上|あ}げる（{揚網|ようもう}）"
+      },
+      {
+       "ol": [
+        "「{揚|あ}げます！」と{声|こえ}を{出|で}して、みんなが{準備|じゅんび}できたか{確認|かくにん}する。",
+        "{機械|きかい}（ネットホーラー、ウインチ）で、ゆっくりひく。**{機械|きかい}の{速|はや}さにあわせる**。",
+        "{手|て}を、ローラーや{巻|ま}く{部分|ぶぶん}に{近|ちか}づけない。",
+        "{網|あみ}がひっかかったときは、**{機械|きかい}をとめてから**はずす。"
+       ]
+      },
+      {
+       "h": "{網|あみ}の{整理|せいり}"
+      },
+      {
+       "ul": [
+        "からまないように、{浮|う}きは{一方|いっぽう}、おもりは{反対|はんたい}にまとめる。",
+        "ごみ、{海藻|かいそう}、{魚|さかな}をとりのぞく。",
+        "やぶれは{次|つぎ}に{入|い}れる{前|まえ}に{直|なお}す（{網|あみ}の{補修|ほしゅう}）。",
+        "{決|き}められた{場所|ばしょ}にしまう。{通路|つうろ}にじゃまにならないようにする。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Beri aba-aba, pastikan area bebas orang, ikuti kecepatan mesin, dan hentikan mesin sebelum melepas jaring tersangkut.",
+      "points": [
+       "Pasang: pelampung → jaring → pemberat.",
+       "Serukan 「入れます！」「揚げます！」.",
+       "Mesin dihentikan sebelum melepas jaring.",
+       "Rapikan dan perbaiki sebelum pemasangan berikutnya."
+      ],
+      "avoid": [
+       "Melepas jaring tersangkut saat mesin masih berjalan."
+      ],
+      "exam": [
+       "Urutan memasang jaring.",
+       "Aba-aba dan penghentian mesin."
+      ]
+     },
+     "jp": {
+      "core": "{声|こえ}かけ、{人|ひと}がいないか{確認|かくにん}、{機械|きかい}の{速|はや}さにあわせ、{止|と}めてからはずす。",
+      "points": [
+       "{入|い}れる{順番|じゅんばん}：{浮|う}き→{網|あみ}→おもり。",
+       "「{入|い}れます！」「{揚|あ}げます！」。",
+       "{機械|きかい}をとめてからはずす。",
+       "{整理|せいり}して{直|なお}してから{次|つぎ}へ。"
+      ],
+      "avoid": [
+       "{機械|きかい}が{動|うご}いたまま、ひっかかった{網|あみ}をはずすこと。"
+      ],
+      "exam": [
+       "{網|あみ}を{入|い}れる{順番|じゅんばん}。",
+       "{声|こえ}かけと{機械|きかい}の{停止|ていし}。"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

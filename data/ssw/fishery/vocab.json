@@ -1,0 +1,2962 @@
+{
+ "items": [
+  {
+   "id": "fy-001",
+   "kata": "漁業",
+   "kana": "ぎょぎょう",
+   "romaji": "gyogyou",
+   "arti": "perikanan",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{漁業|ぎょぎょう}は{魚|さかな}をとる{仕事|しごと}です。",
+   "arti_contoh": "Perikanan adalah pekerjaan menangkap ikan."
+  },
+  {
+   "id": "fy-002",
+   "kata": "沿岸漁業",
+   "kana": "えんがんぎょぎょう",
+   "romaji": "engan gyogyou",
+   "arti": "perikanan pantai",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{沿岸漁業|えんがんぎょぎょう}は{小|ちい}さい{船|ふね}で{行|おこな}います。",
+   "arti_contoh": "Perikanan pantai dilakukan dengan kapal kecil."
+  },
+  {
+   "id": "fy-003",
+   "kata": "沖合漁業",
+   "kana": "おきあいぎょぎょう",
+   "romaji": "okiai gyogyou",
+   "arti": "perikanan lepas pantai",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{沖合漁業|おきあいぎょぎょう}は{何日|なんにち}か{海|うみ}にいます。",
+   "arti_contoh": "Perikanan lepas pantai berada di laut beberapa hari."
+  },
+  {
+   "id": "fy-004",
+   "kata": "遠洋漁業",
+   "kana": "えんようぎょぎょう",
+   "romaji": "enyou gyogyou",
+   "arti": "perikanan samudra",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{遠洋漁業|えんようぎょぎょう}は{何|なん}か{月|げつ}も{海|うみ}にいます。",
+   "arti_contoh": "Perikanan samudra berbulan-bulan di laut."
+  },
+  {
+   "id": "fy-005",
+   "kata": "養殖",
+   "kana": "ようしょく",
+   "romaji": "youshoku",
+   "arti": "budidaya",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{海|うみ}で{貝|かい}を{養殖|ようしょく}します。",
+   "arti_contoh": "Membudidayakan kerang di laut."
+  },
+  {
+   "id": "fy-006",
+   "kata": "漁場",
+   "kana": "ぎょば",
+   "romaji": "gyoba",
+   "arti": "daerah penangkapan",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{漁場|ぎょば}へ{向|む}かいます。",
+   "arti_contoh": "Menuju daerah penangkapan."
+  },
+  {
+   "id": "fy-007",
+   "kata": "出港",
+   "kana": "しゅっこう",
+   "romaji": "shukkou",
+   "arti": "berangkat dari pelabuhan",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{朝|あさ}5{時|とき}に{出港|しゅっこう}します。",
+   "arti_contoh": "Berangkat dari pelabuhan pukul 5 pagi."
+  },
+  {
+   "id": "fy-008",
+   "kata": "帰港",
+   "kana": "きこう",
+   "romaji": "kikou",
+   "arti": "pulang ke pelabuhan",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1",
+    "b1s8"
+   ],
+   "contoh": "{天気|てんき}が{悪|わる}いので{早|はや}めに{帰港|きこう}します。",
+   "arti_contoh": "Karena cuaca buruk, pulang ke pelabuhan lebih awal."
+  },
+  {
+   "id": "fy-009",
+   "kata": "操業",
+   "kana": "そうぎょう",
+   "romaji": "sougyou",
+   "arti": "operasi penangkapan",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{今日|きょう}は6{時間|じかん}{操業|そうぎょう}します。",
+   "arti_contoh": "Hari ini beroperasi menangkap 6 jam."
+  },
+  {
+   "id": "fy-010",
+   "kata": "水揚げ",
+   "kana": "みずあげ",
+   "romaji": "mizuage",
+   "arti": "membongkar hasil tangkapan di pelabuhan",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{港|みなと}で{水揚|みずあ}げをします。",
+   "arti_contoh": "Membongkar hasil tangkapan di pelabuhan."
+  },
+  {
+   "id": "fy-011",
+   "kata": "市場",
+   "kana": "いちば",
+   "romaji": "ichiba",
+   "arti": "pasar (ikan)",
+   "cat": "Dasar perikanan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{魚|さかな}を{市場|いちば}に{出|で}します。",
+   "arti_contoh": "Mengirim ikan ke pasar."
+  },
+  {
+   "id": "fy-012",
+   "kata": "許可",
+   "kana": "きょか",
+   "romaji": "kyoka",
+   "arti": "izin",
+   "cat": "Aturan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{漁|りょう}には{許可|きょか}が{必要|ひつよう}です。",
+   "arti_contoh": "Menangkap ikan memerlukan izin."
+  },
+  {
+   "id": "fy-013",
+   "kata": "漁業権",
+   "kana": "ぎょぎょうけん",
+   "romaji": "gyogyouken",
+   "arti": "hak perikanan",
+   "cat": "Aturan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{漁業権|ぎょぎょうけん}がある{海|うみ}でとります。",
+   "arti_contoh": "Menangkap di laut yang punya hak perikanan."
+  },
+  {
+   "id": "fy-014",
+   "kata": "禁漁期",
+   "kana": "きんりょうき",
+   "romaji": "kinryouki",
+   "arti": "musim larangan tangkap",
+   "cat": "Aturan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{禁漁期|きんりょうき}は{魚|さかな}をとれません。",
+   "arti_contoh": "Pada musim larangan, ikan tidak boleh ditangkap."
+  },
+  {
+   "id": "fy-015",
+   "kata": "漁協",
+   "kana": "ぎょきょう",
+   "romaji": "gyokyou",
+   "arti": "koperasi nelayan",
+   "cat": "Aturan",
+   "bab": "bab1",
+   "src": [
+    "b1s1"
+   ],
+   "contoh": "{漁協|ぎょきょう}に{入|はい}っています。",
+   "arti_contoh": "Menjadi anggota koperasi nelayan."
+  },
+  {
+   "id": "fy-016",
+   "kata": "魚介類",
+   "kana": "ぎょかいるい",
+   "romaji": "gyokairui",
+   "arti": "ikan dan hasil laut",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "{魚介類|ぎょかいるい}は{日本|にほん}の{大切|たいせつ}な{食|た}べ{物|もの}です。",
+   "arti_contoh": "Hasil laut adalah makanan penting Jepang."
+  },
+  {
+   "id": "fy-017",
+   "kata": "回遊魚",
+   "kana": "かいゆうぎょ",
+   "romaji": "kaiyuugyo",
+   "arti": "ikan migran",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "カツオは{回遊魚|かいゆうぎょ}です。",
+   "arti_contoh": "Cakalang adalah ikan migran."
+  },
+  {
+   "id": "fy-018",
+   "kata": "底魚",
+   "kana": "そこうお",
+   "romaji": "sokouo",
+   "arti": "ikan dasar",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "ヒラメは{底魚|そこうお}です。",
+   "arti_contoh": "Ikan sebelah (hirame) adalah ikan dasar."
+  },
+  {
+   "id": "fy-019",
+   "kata": "青魚",
+   "kana": "あおざかな",
+   "romaji": "aozakana",
+   "arti": "ikan berpunggung biru",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "サバは{青魚|あおざかな}です。",
+   "arti_contoh": "Makerel adalah ikan berpunggung biru."
+  },
+  {
+   "id": "fy-020",
+   "kata": "白身魚",
+   "kana": "しろみざかな",
+   "romaji": "shiromizakana",
+   "arti": "ikan berdaging putih",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "タイは{白身魚|しろみざかな}です。",
+   "arti_contoh": "Kakap merah (tai) adalah ikan berdaging putih."
+  },
+  {
+   "id": "fy-021",
+   "kata": "赤身",
+   "kana": "あかみ",
+   "romaji": "akami",
+   "arti": "daging merah (ikan)",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "マグロは{赤身|あかみ}の{魚|さかな}です。",
+   "arti_contoh": "Tuna adalah ikan berdaging merah."
+  },
+  {
+   "id": "fy-022",
+   "kata": "旬",
+   "kana": "しゅん",
+   "romaji": "shun",
+   "arti": "musim terbaik",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "{今|いま}がカツオの{旬|しゅん}です。",
+   "arti_contoh": "Sekarang musim terbaik cakalang."
+  },
+  {
+   "id": "fy-023",
+   "kata": "貝類",
+   "kana": "かいるい",
+   "romaji": "kairui",
+   "arti": "kerang-kerangan",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "ホタテは{貝類|かいるい}です。",
+   "arti_contoh": "Scallop termasuk kerang-kerangan."
+  },
+  {
+   "id": "fy-024",
+   "kata": "甲殻類",
+   "kana": "こうかくるい",
+   "romaji": "koukakurui",
+   "arti": "krustasea",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "エビとカニは{甲殻類|こうかくるい}です。",
+   "arti_contoh": "Udang dan kepiting adalah krustasea."
+  },
+  {
+   "id": "fy-025",
+   "kata": "頭足類",
+   "kana": "とうそくるい",
+   "romaji": "tousokurui",
+   "arti": "cephalopoda",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "イカとタコは{頭足類|とうそくるい}です。",
+   "arti_contoh": "Cumi dan gurita adalah cephalopoda."
+  },
+  {
+   "id": "fy-026",
+   "kata": "海藻",
+   "kana": "かいそう",
+   "romaji": "kaisou",
+   "arti": "rumput laut",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "ワカメは{海藻|かいそう}です。",
+   "arti_contoh": "Wakame adalah rumput laut."
+  },
+  {
+   "id": "fy-027",
+   "kata": "遡上",
+   "kana": "そじょう",
+   "romaji": "sojou",
+   "arti": "naik ke hulu sungai",
+   "cat": "Ikan dan hasil laut",
+   "bab": "bab1",
+   "src": [
+    "b1s2"
+   ],
+   "contoh": "サケは{川|かわ}を{遡上|そじょう}します。",
+   "arti_contoh": "Salmon naik ke hulu sungai."
+  },
+  {
+   "id": "fy-028",
+   "kata": "漁船",
+   "kana": "ぎょせん",
+   "romaji": "gyosen",
+   "arti": "kapal ikan",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{漁船|ぎょせん}で{海|うみ}へ{出|で}ます。",
+   "arti_contoh": "Pergi ke laut dengan kapal ikan."
+  },
+  {
+   "id": "fy-029",
+   "kata": "船首",
+   "kana": "せんしゅ",
+   "romaji": "senshu",
+   "arti": "haluan",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{船首|せんしゅ}は{船|ふね}の{前|まえ}です。",
+   "arti_contoh": "Haluan adalah bagian depan kapal."
+  },
+  {
+   "id": "fy-030",
+   "kata": "船尾",
+   "kana": "せんび",
+   "romaji": "senbi",
+   "arti": "buritan",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{船尾|せんび}に{網|あみ}があります。",
+   "arti_contoh": "Ada jaring di buritan."
+  },
+  {
+   "id": "fy-031",
+   "kata": "左舷",
+   "kana": "さげん",
+   "romaji": "sagen",
+   "arti": "lambung kiri",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{左舷|さげん}の{灯|ひ}は{赤|あか}です。",
+   "arti_contoh": "Lampu lambung kiri berwarna merah."
+  },
+  {
+   "id": "fy-032",
+   "kata": "右舷",
+   "kana": "うげん",
+   "romaji": "ugen",
+   "arti": "lambung kanan",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{右舷|うげん}の{灯|ひ}は{緑|みどり}です。",
+   "arti_contoh": "Lampu lambung kanan berwarna hijau."
+  },
+  {
+   "id": "fy-033",
+   "kata": "甲板",
+   "kana": "かんぱん",
+   "romaji": "kanpan",
+   "arti": "dek",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{甲板|かんぱん}で{網|あみ}を{整|ととの}えます。",
+   "arti_contoh": "Merapikan jaring di dek."
+  },
+  {
+   "id": "fy-034",
+   "kata": "操舵室",
+   "kana": "そうだしつ",
+   "romaji": "soudashitsu",
+   "arti": "ruang kemudi",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{船長|せんちょう}は{操舵室|そうだしつ}にいます。",
+   "arti_contoh": "Kapten berada di ruang kemudi."
+  },
+  {
+   "id": "fy-035",
+   "kata": "魚倉",
+   "kana": "ぎょそう",
+   "romaji": "gyosou",
+   "arti": "palka ikan",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{魚倉|ぎょそう}に{氷|こおり}を{入|い}れます。",
+   "arti_contoh": "Memasukkan es ke palka ikan."
+  },
+  {
+   "id": "fy-036",
+   "kata": "機関室",
+   "kana": "きかんしつ",
+   "romaji": "kikanshitsu",
+   "arti": "kamar mesin",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{機関室|きかんしつ}はうるさいです。",
+   "arti_contoh": "Kamar mesin berisik."
+  },
+  {
+   "id": "fy-037",
+   "kata": "舵",
+   "kana": "かじ",
+   "romaji": "kaji",
+   "arti": "kemudi",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{舵|かじ}で{船|ふね}の{向|む}きをかえます。",
+   "arti_contoh": "Mengubah arah kapal dengan kemudi."
+  },
+  {
+   "id": "fy-038",
+   "kata": "錨",
+   "kana": "いかり",
+   "romaji": "ikari",
+   "arti": "jangkar",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{錨|いかり}を{下|お}ろします。",
+   "arti_contoh": "Menurunkan jangkar."
+  },
+  {
+   "id": "fy-039",
+   "kata": "総トン数",
+   "kana": "そうとんすう",
+   "romaji": "sou tonsuu",
+   "arti": "tonase kotor",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3"
+   ],
+   "contoh": "{船|ふね}の{大|おお}きさは{総|そう}トン{数|すう}で{表|あらわ}します。",
+   "arti_contoh": "Ukuran kapal dinyatakan dengan tonase kotor."
+  },
+  {
+   "id": "fy-040",
+   "kata": "動揺",
+   "kana": "どうよう",
+   "romaji": "douyou",
+   "arti": "goyangan kapal",
+   "cat": "Kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s3",
+    "b2s2"
+   ],
+   "contoh": "{船|ふね}の{動揺|どうよう}で{転|ころ}びやすいです。",
+   "arti_contoh": "Mudah jatuh karena goyangan kapal."
+  },
+  {
+   "id": "fy-041",
+   "kata": "船長",
+   "kana": "せんちょう",
+   "romaji": "senchou",
+   "arti": "kapten",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{船長|せんちょう}が{出港|しゅっこう}を{決|き}めます。",
+   "arti_contoh": "Kapten memutuskan keberangkatan."
+  },
+  {
+   "id": "fy-042",
+   "kata": "機関長",
+   "kana": "きかんちょう",
+   "romaji": "kikanchou",
+   "arti": "kepala kamar mesin",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{機関長|きかんちょう}がエンジンを{見|み}ます。",
+   "arti_contoh": "Kepala mesin memeriksa mesin."
+  },
+  {
+   "id": "fy-043",
+   "kata": "漁労長",
+   "kana": "ぎょろうちょう",
+   "romaji": "gyorouchou",
+   "arti": "kepala penangkapan",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{漁労長|ぎょろうちょう}が{漁|りょう}をまとめます。",
+   "arti_contoh": "Kepala penangkapan memimpin penangkapan."
+  },
+  {
+   "id": "fy-044",
+   "kata": "甲板員",
+   "kana": "かんぱんいん",
+   "romaji": "kanpan'in",
+   "arti": "awak dek",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{甲板員|かんぱんいん}は{網|あみ}を{引|ひ}きます。",
+   "arti_contoh": "Awak dek menarik jaring."
+  },
+  {
+   "id": "fy-045",
+   "kata": "司厨",
+   "kana": "しちゅう",
+   "romaji": "shichuu",
+   "arti": "juru masak kapal",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{司厨|しちゅう}が{食事|しょくじ}をつくります。",
+   "arti_contoh": "Juru masak membuat makanan."
+  },
+  {
+   "id": "fy-046",
+   "kata": "復唱",
+   "kana": "ふくしょう",
+   "romaji": "fukushou",
+   "arti": "mengulang perintah",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{指示|しじ}を{復唱|ふくしょう}します。",
+   "arti_contoh": "Mengulang perintah."
+  },
+  {
+   "id": "fy-047",
+   "kata": "報告",
+   "kana": "ほうこく",
+   "romaji": "houkoku",
+   "arti": "melapor",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "けがはすぐ{報告|ほうこく}します。",
+   "arti_contoh": "Segera melapor jika terluka."
+  },
+  {
+   "id": "fy-048",
+   "kata": "連絡",
+   "kana": "れんらく",
+   "romaji": "renraku",
+   "arti": "memberi kabar",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{船長|せんちょう}に{連絡|れんらく}します。",
+   "arti_contoh": "Memberi kabar kepada kapten."
+  },
+  {
+   "id": "fy-049",
+   "kata": "相談",
+   "kana": "そうだん",
+   "romaji": "soudan",
+   "arti": "berkonsultasi",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "わからないときは{相談|そうだん}します。",
+   "arti_contoh": "Jika tidak mengerti, berkonsultasi."
+  },
+  {
+   "id": "fy-050",
+   "kata": "合図",
+   "kana": "あいず",
+   "romaji": "aizu",
+   "arti": "isyarat",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4",
+    "b2s4"
+   ],
+   "contoh": "{手|て}で{合図|あいず}をします。",
+   "arti_contoh": "Memberi isyarat dengan tangan."
+  },
+  {
+   "id": "fy-051",
+   "kata": "当直",
+   "kana": "とうちょく",
+   "romaji": "touchoku",
+   "arti": "jaga (dinas jaga)",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{夜|よる}は{当直|とうちょく}があります。",
+   "arti_contoh": "Malam hari ada dinas jaga."
+  },
+  {
+   "id": "fy-052",
+   "kata": "見張り",
+   "kana": "みはり",
+   "romaji": "mihari",
+   "arti": "pengawasan, lookout",
+   "cat": "Awak kapal",
+   "bab": "bab1",
+   "src": [
+    "b1s4"
+   ],
+   "contoh": "{見張|みは}りが{前|まえ}を{見|み}ます。",
+   "arti_contoh": "Penjaga mengawasi ke depan."
+  },
+  {
+   "id": "fy-053",
+   "kata": "方位",
+   "kana": "ほうい",
+   "romaji": "houi",
+   "arti": "arah mata angin",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "コンパスで{方位|ほうい}を{調|しら}べます。",
+   "arti_contoh": "Memeriksa arah dengan kompas."
+  },
+  {
+   "id": "fy-054",
+   "kata": "海図",
+   "kana": "かいず",
+   "romaji": "kaizu",
+   "arti": "peta laut",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{海図|かいず}で{水|みず}の{深|ふか}さを{見|み}ます。",
+   "arti_contoh": "Melihat kedalaman air di peta laut."
+  },
+  {
+   "id": "fy-055",
+   "kata": "緯度",
+   "kana": "いど",
+   "romaji": "ido",
+   "arti": "lintang",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{緯度|いど}と{経度|けいど}で{位置|いち}を{表|あらわ}します。",
+   "arti_contoh": "Posisi dinyatakan dengan lintang dan bujur."
+  },
+  {
+   "id": "fy-056",
+   "kata": "経度",
+   "kana": "けいど",
+   "romaji": "keido",
+   "arti": "bujur",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{経度|けいど}は{東|ひがし}{西|にし}の{位置|いち}です。",
+   "arti_contoh": "Bujur adalah posisi timur-barat."
+  },
+  {
+   "id": "fy-057",
+   "kata": "海里",
+   "kana": "かいり",
+   "romaji": "kairi",
+   "arti": "mil laut",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "1{海里|かいり}は1,852メートルです。",
+   "arti_contoh": "1 mil laut adalah 1.852 meter."
+  },
+  {
+   "id": "fy-058",
+   "kata": "ノット",
+   "kana": "のっと",
+   "romaji": "notto",
+   "arti": "knot",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{船|ふね}は10ノットで{走|はし}ります。",
+   "arti_contoh": "Kapal melaju 10 knot."
+  },
+  {
+   "id": "fy-059",
+   "kata": "魚群探知機",
+   "kana": "ぎょぐんたんちき",
+   "romaji": "gyogun tanchiki",
+   "arti": "pencari kawanan ikan (fish finder)",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{魚群探知機|ぎょぐんたんちき}で{魚|さかな}を{探|さが}します。",
+   "arti_contoh": "Mencari ikan dengan fish finder."
+  },
+  {
+   "id": "fy-060",
+   "kata": "無線",
+   "kana": "むせん",
+   "romaji": "musen",
+   "arti": "radio",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{無線|むせん}で{連絡|れんらく}します。",
+   "arti_contoh": "Berkomunikasi lewat radio."
+  },
+  {
+   "id": "fy-061",
+   "kata": "海上保安庁",
+   "kana": "かいじょうほあんちょう",
+   "romaji": "kaijou hoanchou",
+   "arti": "Penjaga Pantai Jepang",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5",
+    "b2s3"
+   ],
+   "contoh": "{海|うみ}の{事故|じこ}は118{番|ばん}に{連絡|れんらく}します。",
+   "arti_contoh": "Kecelakaan laut dihubungi ke nomor 118."
+  },
+  {
+   "id": "fy-062",
+   "kata": "超音波",
+   "kana": "ちょうおんぱ",
+   "romaji": "chouonpa",
+   "arti": "gelombang ultrasonik",
+   "cat": "Navigasi",
+   "bab": "bab1",
+   "src": [
+    "b1s5"
+   ],
+   "contoh": "{超音波|ちょうおんぱ}で{海|うみ}の{底|そこ}を{調|しら}べます。",
+   "arti_contoh": "Memeriksa dasar laut dengan gelombang ultrasonik."
+  },
+  {
+   "id": "fy-063",
+   "kata": "結ぶ",
+   "kana": "むすぶ",
+   "romaji": "musubu",
+   "arti": "mengikat",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "ロープを{柱|はしら}に{結|むす}びます。",
+   "arti_contoh": "Mengikat tali ke tiang."
+  },
+  {
+   "id": "fy-064",
+   "kata": "ほどく",
+   "kana": "ほどく",
+   "romaji": "hodoku",
+   "arti": "melepas ikatan",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{結|むす}びをほどきます。",
+   "arti_contoh": "Melepas ikatan."
+  },
+  {
+   "id": "fy-065",
+   "kata": "もやい結び",
+   "kana": "もやいむすび",
+   "romaji": "moyai musubi",
+   "arti": "simpul bowline",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "もやい{結|むす}びで{船|ふね}をつなぎます。",
+   "arti_contoh": "Menambatkan kapal dengan bowline."
+  },
+  {
+   "id": "fy-066",
+   "kata": "本結び",
+   "kana": "ほんむすび",
+   "romaji": "hon musubi",
+   "arti": "simpul pipih (reef knot)",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{本|ほん}{結|むす}びで{同|おな}じ{太|ふと}さのロープをつなぎます。",
+   "arti_contoh": "Menyambung tali sama besar dengan simpul pipih."
+  },
+  {
+   "id": "fy-067",
+   "kata": "巻き結び",
+   "kana": "まきむすび",
+   "romaji": "maki musubi",
+   "arti": "simpul clove hitch",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "{巻|ま}き{結|むす}びを{柱|はしら}にします。",
+   "arti_contoh": "Membuat clove hitch pada tiang."
+  },
+  {
+   "id": "fy-068",
+   "kata": "止め結び",
+   "kana": "とめむすび",
+   "romaji": "tome musubi",
+   "arti": "simpul penahan",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6"
+   ],
+   "contoh": "8の{字|じ}は{止|と}め{結|むす}びです。",
+   "arti_contoh": "Simpul angka delapan adalah simpul penahan."
+  },
+  {
+   "id": "fy-069",
+   "kata": "跳ね返り",
+   "kana": "はねかえり",
+   "romaji": "hanekaeri",
+   "arti": "lecutan balik",
+   "cat": "Tali dan simpul",
+   "bab": "bab1",
+   "src": [
+    "b1s6",
+    "b2s4"
+   ],
+   "contoh": "ロープが{切|き}れると{跳|は}ね{返|かえ}りがあります。",
+   "arti_contoh": "Jika tali putus, ada lecutan balik."
+  },
+  {
+   "id": "fy-070",
+   "kata": "網地",
+   "kana": "あみじ",
+   "romaji": "amiji",
+   "arti": "kain jaring",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{網地|あみじ}がやぶれました。",
+   "arti_contoh": "Kain jaring robek."
+  },
+  {
+   "id": "fy-071",
+   "kata": "浮き",
+   "kana": "うき",
+   "romaji": "uki",
+   "arti": "pelampung",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{浮|う}きは{網|あみ}の{上|うえ}につけます。",
+   "arti_contoh": "Pelampung dipasang di atas jaring."
+  },
+  {
+   "id": "fy-072",
+   "kata": "沈子",
+   "kana": "ちんし",
+   "romaji": "chinshi",
+   "arti": "pemberat",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{沈子|ちんし}は{網|あみ}の{下|した}につけます。",
+   "arti_contoh": "Pemberat dipasang di bawah jaring."
+  },
+  {
+   "id": "fy-073",
+   "kata": "目合",
+   "kana": "めあい",
+   "romaji": "meai",
+   "arti": "ukuran mata jaring",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{目合|めあい}にはルールがあります。",
+   "arti_contoh": "Ada aturan ukuran mata jaring."
+  },
+  {
+   "id": "fy-074",
+   "kata": "刺網",
+   "kana": "さしあみ",
+   "romaji": "sashiami",
+   "arti": "jaring insang",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{刺網|さしあみ}に{魚|さかな}がかかります。",
+   "arti_contoh": "Ikan tersangkut di jaring insang."
+  },
+  {
+   "id": "fy-075",
+   "kata": "巻網",
+   "kana": "まきあみ",
+   "romaji": "makiami",
+   "arti": "pukat cincin",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{巻網|まきあみ}で{魚|さかな}の{群|む}れをかこみます。",
+   "arti_contoh": "Mengelilingi kawanan ikan dengan pukat cincin."
+  },
+  {
+   "id": "fy-076",
+   "kata": "底びき網",
+   "kana": "そこびきあみ",
+   "romaji": "sokobiki ami",
+   "arti": "pukat tarik dasar",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{底|そこ}びき{網|あみ}は{海|うみ}の{底|そこ}をひきます。",
+   "arti_contoh": "Pukat tarik dasar ditarik di dasar laut."
+  },
+  {
+   "id": "fy-077",
+   "kata": "定置網",
+   "kana": "ていちあみ",
+   "romaji": "teichi ami",
+   "arti": "jaring tetap",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{定置網|ていちあみ}に{魚|さかな}が{入|はい}ります。",
+   "arti_contoh": "Ikan masuk ke jaring tetap."
+  },
+  {
+   "id": "fy-078",
+   "kata": "釣り針",
+   "kana": "つりばり",
+   "romaji": "tsuribari",
+   "arti": "mata pancing",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{釣|つ}り{針|ばり}に{餌|えさ}をつけます。",
+   "arti_contoh": "Memasang umpan di mata pancing."
+  },
+  {
+   "id": "fy-079",
+   "kata": "餌",
+   "kana": "えさ",
+   "romaji": "esa",
+   "arti": "umpan",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{餌|えさ}を{海|うみ}に{入|い}れます。",
+   "arti_contoh": "Memasukkan umpan ke laut."
+  },
+  {
+   "id": "fy-080",
+   "kata": "漁具",
+   "kana": "ぎょぐ",
+   "romaji": "gyogu",
+   "arti": "alat tangkap",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{漁具|ぎょぐ}の{手|て}{入|い}れをします。",
+   "arti_contoh": "Merawat alat tangkap."
+  },
+  {
+   "id": "fy-081",
+   "kata": "補修",
+   "kana": "ほしゅう",
+   "romaji": "hoshuu",
+   "arti": "perbaikan",
+   "cat": "Jaring dan alat tangkap",
+   "bab": "bab1",
+   "src": [
+    "b1s7"
+   ],
+   "contoh": "{網|あみ}の{補修|ほしゅう}をします。",
+   "arti_contoh": "Memperbaiki jaring."
+  },
+  {
+   "id": "fy-082",
+   "kata": "風向",
+   "kana": "ふうこう",
+   "romaji": "fuukou",
+   "arti": "arah angin",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{風向|ふうこう}が{変|か}わりました。",
+   "arti_contoh": "Arah angin berubah."
+  },
+  {
+   "id": "fy-083",
+   "kata": "風速",
+   "kana": "ふうそく",
+   "romaji": "fuusoku",
+   "arti": "kecepatan angin",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{風速|ふうそく}は10メートルです。",
+   "arti_contoh": "Kecepatan angin 10 meter per detik."
+  },
+  {
+   "id": "fy-084",
+   "kata": "波高",
+   "kana": "はこう",
+   "romaji": "hakou",
+   "arti": "tinggi gelombang",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{波高|はこう}が{高|たか}いので{出|で}ません。",
+   "arti_contoh": "Karena gelombang tinggi, tidak berangkat."
+  },
+  {
+   "id": "fy-085",
+   "kata": "風浪",
+   "kana": "ふうろう",
+   "romaji": "fuurou",
+   "arti": "ombak angin",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{風浪|ふうろう}が{強|つよ}くなりました。",
+   "arti_contoh": "Ombak angin menguat."
+  },
+  {
+   "id": "fy-086",
+   "kata": "うねり",
+   "kana": "うねり",
+   "romaji": "uneri",
+   "arti": "gelombang jauh (swell)",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{台風|たいふう}のうねりが{来|き}ました。",
+   "arti_contoh": "Gelombang dari topan datang."
+  },
+  {
+   "id": "fy-087",
+   "kata": "満潮",
+   "kana": "まんちょう",
+   "romaji": "manchou",
+   "arti": "pasang tinggi",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{満潮|まんちょう}の{時間|じかん}を{調|しら}べます。",
+   "arti_contoh": "Memeriksa waktu pasang tinggi."
+  },
+  {
+   "id": "fy-088",
+   "kata": "干潮",
+   "kana": "かんちょう",
+   "romaji": "kanchou",
+   "arti": "air surut",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{干潮|かんちょう}のとき{岩|いわ}が{見|み}えます。",
+   "arti_contoh": "Saat surut batu terlihat."
+  },
+  {
+   "id": "fy-089",
+   "kata": "潮流",
+   "kana": "ちょうりゅう",
+   "romaji": "chouryuu",
+   "arti": "arus pasang surut",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{潮流|ちょうりゅう}が{速|はや}いです。",
+   "arti_contoh": "Arusnya deras."
+  },
+  {
+   "id": "fy-090",
+   "kata": "台風",
+   "kana": "たいふう",
+   "romaji": "taifuu",
+   "arti": "topan",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{台風|たいふう}が{近|ちか}づいています。",
+   "arti_contoh": "Topan sedang mendekat."
+  },
+  {
+   "id": "fy-091",
+   "kata": "霧",
+   "kana": "きり",
+   "romaji": "kiri",
+   "arti": "kabut",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{霧|きり}で{前|まえ}が{見|み}えません。",
+   "arti_contoh": "Tidak bisa melihat ke depan karena kabut."
+  },
+  {
+   "id": "fy-092",
+   "kata": "視界",
+   "kana": "しかい",
+   "romaji": "shikai",
+   "arti": "jarak pandang",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{視界|しかい}が{悪|わる}いです。",
+   "arti_contoh": "Jarak pandang buruk."
+  },
+  {
+   "id": "fy-093",
+   "kata": "警報",
+   "kana": "けいほう",
+   "romaji": "keihou",
+   "arti": "peringatan (bahaya)",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{波浪警報|はろうけいほう}が{出|で}ました。",
+   "arti_contoh": "Peringatan gelombang dikeluarkan."
+  },
+  {
+   "id": "fy-094",
+   "kata": "注意報",
+   "kana": "ちゅういほう",
+   "romaji": "chuuihou",
+   "arti": "peringatan awal (waspada)",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{強風注意報|きょうふうちゅういほう}が{出|で}ています。",
+   "arti_contoh": "Ada peringatan waspada angin kencang."
+  },
+  {
+   "id": "fy-095",
+   "kata": "気象庁",
+   "kana": "きしょうちょう",
+   "romaji": "kishouchou",
+   "arti": "Badan Meteorologi Jepang",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{気象庁|きしょうちょう}の{予報|よほう}を{見|み}ます。",
+   "arti_contoh": "Melihat prakiraan Badan Meteorologi."
+  },
+  {
+   "id": "fy-096",
+   "kata": "出漁",
+   "kana": "しゅつりょう",
+   "romaji": "shutsuryou",
+   "arti": "berangkat melaut",
+   "cat": "Cuaca dan laut",
+   "bab": "bab1",
+   "src": [
+    "b1s8"
+   ],
+   "contoh": "{今日|きょう}は{出漁|しゅつりょう}しません。",
+   "arti_contoh": "Hari ini tidak berangkat melaut."
+  },
+  {
+   "id": "fy-097",
+   "kata": "救命胴衣",
+   "kana": "きゅうめいどうい",
+   "romaji": "kyuumei doui",
+   "arti": "jaket pelampung",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1",
+    "b2s3"
+   ],
+   "contoh": "{救命胴衣|きゅうめいどうい}を{着|き}ます。",
+   "arti_contoh": "Memakai jaket pelampung."
+  },
+  {
+   "id": "fy-098",
+   "kata": "長靴",
+   "kana": "ながぐつ",
+   "romaji": "nagagutsu",
+   "arti": "sepatu bot",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "contoh": "すべらない{長靴|ながぐつ}をはきます。",
+   "arti_contoh": "Memakai bot yang tidak licin."
+  },
+  {
+   "id": "fy-099",
+   "kata": "手袋",
+   "kana": "てぶくろ",
+   "romaji": "tebukuro",
+   "arti": "sarung tangan",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "contoh": "{手袋|てぶくろ}で{手|て}を{守|まも}ります。",
+   "arti_contoh": "Melindungi tangan dengan sarung tangan."
+  },
+  {
+   "id": "fy-100",
+   "kata": "保護めがね",
+   "kana": "ほごめがね",
+   "romaji": "hogo megane",
+   "arti": "kacamata pelindung",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "contoh": "{保護|ほご}めがねをかけます。",
+   "arti_contoh": "Memakai kacamata pelindung."
+  },
+  {
+   "id": "fy-101",
+   "kata": "耳栓",
+   "kana": "みみせん",
+   "romaji": "mimisen",
+   "arti": "sumbat telinga",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "contoh": "{機関室|きかんしつ}で{耳栓|みみせん}をつけます。",
+   "arti_contoh": "Memasang sumbat telinga di kamar mesin."
+  },
+  {
+   "id": "fy-102",
+   "kata": "防寒着",
+   "kana": "ぼうかんぎ",
+   "romaji": "boukangi",
+   "arti": "pakaian hangat",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1"
+   ],
+   "contoh": "{寒|さむ}いので{防寒着|ぼうかんぎ}を{着|き}ます。",
+   "arti_contoh": "Karena dingin, memakai pakaian hangat."
+  },
+  {
+   "id": "fy-103",
+   "kata": "巻き込まれ",
+   "kana": "まきこまれ",
+   "romaji": "makikomare",
+   "arti": "tertarik/terlilit",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s1",
+    "b2s4"
+   ],
+   "contoh": "ゆるい{服|ふく}は{巻|ま}き{込|こ}まれの{原因|げんいん}です。",
+   "arti_contoh": "Baju longgar penyebab tertarik mesin."
+  },
+  {
+   "id": "fy-104",
+   "kata": "手すり",
+   "kana": "てすり",
+   "romaji": "tesuri",
+   "arti": "pegangan",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{手|て}すりを{持|も}って{歩|ある}きます。",
+   "arti_contoh": "Berjalan sambil memegang pegangan."
+  },
+  {
+   "id": "fy-105",
+   "kata": "すべる",
+   "kana": "すべる",
+   "romaji": "suberu",
+   "arti": "tergelincir",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "ぬれた{甲板|かんぱん}はすべります。",
+   "arti_contoh": "Dek yang basah licin."
+  },
+  {
+   "id": "fy-106",
+   "kata": "つまずく",
+   "kana": "つまずく",
+   "romaji": "tsumazuku",
+   "arti": "tersandung",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "ロープにつまずきました。",
+   "arti_contoh": "Tersandung tali."
+  },
+  {
+   "id": "fy-107",
+   "kata": "開口部",
+   "kana": "かいこうぶ",
+   "romaji": "kaikoubu",
+   "arti": "lubang terbuka (palka)",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{開口部|かいこうぶ}のふたをしめます。",
+   "arti_contoh": "Menutup tutup lubang palka."
+  },
+  {
+   "id": "fy-108",
+   "kata": "整理",
+   "kana": "せいり",
+   "romaji": "seiri",
+   "arti": "memilah (5S)",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "いらないものを{整理|せいり}します。",
+   "arti_contoh": "Memilah barang yang tidak perlu."
+  },
+  {
+   "id": "fy-109",
+   "kata": "整頓",
+   "kana": "せいとん",
+   "romaji": "seiton",
+   "arti": "menata (5S)",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{道具|どうぐ}を{整頓|せいとん}します。",
+   "arti_contoh": "Menata peralatan."
+  },
+  {
+   "id": "fy-110",
+   "kata": "清掃",
+   "kana": "せいそう",
+   "romaji": "seisou",
+   "arti": "membersihkan (5S)",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{甲板|かんぱん}を{清掃|せいそう}します。",
+   "arti_contoh": "Membersihkan dek."
+  },
+  {
+   "id": "fy-111",
+   "kata": "清潔",
+   "kana": "せいけつ",
+   "romaji": "seiketsu",
+   "arti": "menjaga kebersihan (5S)",
+   "cat": "Keselamatan kerja",
+   "bab": "bab2",
+   "src": [
+    "b2s2"
+   ],
+   "contoh": "{清潔|せいけつ}をたもちます。",
+   "arti_contoh": "Menjaga kebersihan."
+  },
+  {
+   "id": "fy-112",
+   "kata": "転落",
+   "kana": "てんらく",
+   "romaji": "tenraku",
+   "arti": "terjatuh",
+   "cat": "Jatuh ke laut",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{海|うみ}への{転落|てんらく}は{危険|きけん}です。",
+   "arti_contoh": "Jatuh ke laut berbahaya."
+  },
+  {
+   "id": "fy-113",
+   "kata": "救命浮環",
+   "kana": "きゅうめいうきわ",
+   "romaji": "kyuumei ukiwa",
+   "arti": "pelampung penyelamat",
+   "cat": "Jatuh ke laut",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{救命浮環|きゅうめいうきわ}を{投|な}げます。",
+   "arti_contoh": "Melempar pelampung penyelamat."
+  },
+  {
+   "id": "fy-114",
+   "kata": "背浮き",
+   "kana": "せうき",
+   "romaji": "seuki",
+   "arti": "mengapung telentang",
+   "cat": "Jatuh ke laut",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "{落|お}ちたら{背浮|せう}きをします。",
+   "arti_contoh": "Jika jatuh, mengapung telentang."
+  },
+  {
+   "id": "fy-115",
+   "kata": "低体温症",
+   "kana": "ていたいおんしょう",
+   "romaji": "teitaion shou",
+   "arti": "hipotermia",
+   "cat": "Jatuh ke laut",
+   "bab": "bab2",
+   "src": [
+    "b2s3",
+    "b2s6"
+   ],
+   "contoh": "{冷|つめ}たい{水|みず}で{低体温症|ていたいおんしょう}になります。",
+   "arti_contoh": "Terkena hipotermia karena air dingin."
+  },
+  {
+   "id": "fy-116",
+   "kata": "救助",
+   "kana": "きゅうじょ",
+   "romaji": "kyuujo",
+   "arti": "penyelamatan",
+   "cat": "Jatuh ke laut",
+   "bab": "bab2",
+   "src": [
+    "b2s3"
+   ],
+   "contoh": "すぐに{救助|きゅうじょ}します。",
+   "arti_contoh": "Segera menyelamatkan."
+  },
+  {
+   "id": "fy-117",
+   "kata": "ウインチ",
+   "kana": "ういんち",
+   "romaji": "uinchi",
+   "arti": "winch",
+   "cat": "Mesin dan tali",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ],
+   "contoh": "ウインチで{網|あみ}を{引|ひ}きます。",
+   "arti_contoh": "Menarik jaring dengan winch."
+  },
+  {
+   "id": "fy-118",
+   "kata": "はさまれ",
+   "kana": "はさまれ",
+   "romaji": "hasamare",
+   "arti": "terjepit",
+   "cat": "Mesin dan tali",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ],
+   "contoh": "{手|て}のはさまれに{注意|ちゅうい}します。",
+   "arti_contoh": "Waspada tangan terjepit."
+  },
+  {
+   "id": "fy-119",
+   "kata": "非常停止ボタン",
+   "kana": "ひじょうていしぼたん",
+   "romaji": "hijou teishi botan",
+   "arti": "tombol berhenti darurat",
+   "cat": "Mesin dan tali",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ],
+   "contoh": "{非常停止|ひじょうていし}ボタンをおします。",
+   "arti_contoh": "Menekan tombol berhenti darurat."
+  },
+  {
+   "id": "fy-120",
+   "kata": "安全装置",
+   "kana": "あんぜんそうち",
+   "romaji": "anzen souchi",
+   "arti": "alat pengaman",
+   "cat": "Mesin dan tali",
+   "bab": "bab2",
+   "src": [
+    "b2s4"
+   ],
+   "contoh": "{安全装置|あんぜんそうち}を{外|はず}さないでください。",
+   "arti_contoh": "Jangan melepas alat pengaman."
+  },
+  {
+   "id": "fy-121",
+   "kata": "点検",
+   "kana": "てんけん",
+   "romaji": "tenken",
+   "arti": "pemeriksaan",
+   "cat": "Mesin dan tali",
+   "bab": "bab2",
+   "src": [
+    "b2s1",
+    "b2s4"
+   ],
+   "contoh": "{出港前|しゅっこうまえ}に{機械|きかい}を{点検|てんけん}します。",
+   "arti_contoh": "Memeriksa mesin sebelum berangkat."
+  },
+  {
+   "id": "fy-122",
+   "kata": "燃料",
+   "kana": "ねんりょう",
+   "romaji": "nenryou",
+   "arti": "bahan bakar",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{燃料|ねんりょう}は{火|ひ}に{近|ちか}づけません。",
+   "arti_contoh": "Bahan bakar jangan didekatkan ke api."
+  },
+  {
+   "id": "fy-123",
+   "kata": "高圧ガス",
+   "kana": "こうあつがす",
+   "romaji": "kouatsu gasu",
+   "arti": "gas bertekanan",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{高圧|こうあつ}ガスは{倒|たお}れないようにします。",
+   "arti_contoh": "Gas bertekanan dijaga agar tidak roboh."
+  },
+  {
+   "id": "fy-124",
+   "kata": "引火",
+   "kana": "いんか",
+   "romaji": "inka",
+   "arti": "tersulut api",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{燃料|ねんりょう}に{引火|いんか}します。",
+   "arti_contoh": "Bahan bakar tersulut api."
+  },
+  {
+   "id": "fy-125",
+   "kata": "消火器",
+   "kana": "しょうかき",
+   "romaji": "shoukaki",
+   "arti": "alat pemadam api",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{消火器|しょうかき}を{使|つか}います。",
+   "arti_contoh": "Menggunakan alat pemadam."
+  },
+  {
+   "id": "fy-126",
+   "kata": "酸素欠乏",
+   "kana": "さんそけつぼう",
+   "romaji": "sanso ketsubou",
+   "arti": "kekurangan oksigen",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{魚倉|ぎょそう}は{酸素欠乏|さんそけつぼう}になることがあります。",
+   "arti_contoh": "Palka ikan bisa kekurangan oksigen."
+  },
+  {
+   "id": "fy-127",
+   "kata": "標識",
+   "kana": "ひょうしき",
+   "romaji": "hyoushiki",
+   "arti": "tanda/rambu",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{標識|ひょうしき}の{色|いろ}を{覚|おぼ}えます。",
+   "arti_contoh": "Menghafal warna rambu."
+  },
+  {
+   "id": "fy-128",
+   "kata": "禁止",
+   "kana": "きんし",
+   "romaji": "kinshi",
+   "arti": "larangan",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{火|ひ}{気|き}は{禁止|きんし}です。",
+   "arti_contoh": "Api dilarang."
+  },
+  {
+   "id": "fy-129",
+   "kata": "警告",
+   "kana": "けいこく",
+   "romaji": "keikoku",
+   "arti": "peringatan",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{黄|き}{色|いろ}は{警告|けいこく}の{色|いろ}です。",
+   "arti_contoh": "Kuning adalah warna peringatan."
+  },
+  {
+   "id": "fy-130",
+   "kata": "指示",
+   "kana": "しじ",
+   "romaji": "shiji",
+   "arti": "perintah/instruksi",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{青|あお}い{標識|ひょうしき}は{指示|しじ}を{表|あらわ}します。",
+   "arti_contoh": "Rambu biru menyatakan perintah."
+  },
+  {
+   "id": "fy-131",
+   "kata": "火災",
+   "kana": "かさい",
+   "romaji": "kasai",
+   "arti": "kebakaran",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{船|ふね}の{火災|かさい}はとても{危険|きけん}です。",
+   "arti_contoh": "Kebakaran di kapal sangat berbahaya."
+  },
+  {
+   "id": "fy-132",
+   "kata": "洗剤",
+   "kana": "せんざい",
+   "romaji": "senzai",
+   "arti": "deterjen",
+   "cat": "Bahan berbahaya",
+   "bab": "bab2",
+   "src": [
+    "b2s5"
+   ],
+   "contoh": "{洗剤|せんざい}を{混|ま}ぜないでください。",
+   "arti_contoh": "Jangan mencampur deterjen."
+  },
+  {
+   "id": "fy-133",
+   "kata": "睡眠",
+   "kana": "すいみん",
+   "romaji": "suimin",
+   "arti": "tidur",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{睡眠|すいみん}をしっかりとります。",
+   "arti_contoh": "Tidur yang cukup."
+  },
+  {
+   "id": "fy-134",
+   "kata": "船酔い",
+   "kana": "ふなよい",
+   "romaji": "funayoi",
+   "arti": "mabuk laut",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{船酔|ふなよ}いで{気|き}{持|も}ちが{悪|わる}いです。",
+   "arti_contoh": "Mual karena mabuk laut."
+  },
+  {
+   "id": "fy-135",
+   "kata": "熱中症",
+   "kana": "ねっちゅうしょう",
+   "romaji": "netchuushou",
+   "arti": "sengatan panas",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{夏|なつ}は{熱中症|ねっちゅうしょう}に{注意|ちゅうい}します。",
+   "arti_contoh": "Waspada sengatan panas di musim panas."
+  },
+  {
+   "id": "fy-136",
+   "kata": "止血",
+   "kana": "しけつ",
+   "romaji": "shiketsu",
+   "arti": "menghentikan pendarahan",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "きれいな{布|ぬの}で{止血|しけつ}します。",
+   "arti_contoh": "Menghentikan pendarahan dengan kain bersih."
+  },
+  {
+   "id": "fy-137",
+   "kata": "応急手当",
+   "kana": "おうきゅうてあて",
+   "romaji": "oukyuu teate",
+   "arti": "pertolongan pertama",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{応急手当|おうきゅうてあて}をします。",
+   "arti_contoh": "Melakukan pertolongan pertama."
+  },
+  {
+   "id": "fy-138",
+   "kata": "胸骨圧迫",
+   "kana": "きょうこつあっぱく",
+   "romaji": "kyoukotsu appaku",
+   "arti": "kompresi dada",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{息|いき}がないときは{胸骨圧迫|きょうこつあっぱく}をします。",
+   "arti_contoh": "Jika tidak bernapas, lakukan kompresi dada."
+  },
+  {
+   "id": "fy-139",
+   "kata": "体調",
+   "kana": "たいちょう",
+   "romaji": "taichou",
+   "arti": "kondisi badan",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{体調|たいちょう}が{悪|わる}いときは{言|い}います。",
+   "arti_contoh": "Jika kondisi badan buruk, katakan."
+  },
+  {
+   "id": "fy-140",
+   "kata": "救急車",
+   "kana": "きゅうきゅうしゃ",
+   "romaji": "kyuukyuusha",
+   "arti": "ambulans",
+   "cat": "Kesehatan",
+   "bab": "bab2",
+   "src": [
+    "b2s6"
+   ],
+   "contoh": "{陸|りく}では119{番|ばん}で{救急車|きゅうきゅうしゃ}を{呼|よ}びます。",
+   "arti_contoh": "Di darat, panggil ambulans lewat 119."
+  },
+  {
+   "id": "fy-141",
+   "kata": "設置",
+   "kana": "せっち",
+   "romaji": "secchi",
+   "arti": "memasang (alat tetap)",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "contoh": "{網|あみ}を{海|うみ}に{設置|せっち}します。",
+   "arti_contoh": "Memasang jaring di laut."
+  },
+  {
+   "id": "fy-142",
+   "kata": "網目",
+   "kana": "あみめ",
+   "romaji": "amime",
+   "arti": "mata jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "contoh": "{魚|さかな}が{網|あみ}{目|め}にかかります。",
+   "arti_contoh": "Ikan tersangkut di mata jaring."
+  },
+  {
+   "id": "fy-143",
+   "kata": "底刺網",
+   "kana": "そこさしあみ",
+   "romaji": "soko sashiami",
+   "arti": "jaring insang dasar",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "contoh": "{底|そこ}{刺網|さしあみ}でカレイをとります。",
+   "arti_contoh": "Menangkap ikan sebelah dengan jaring insang dasar."
+  },
+  {
+   "id": "fy-144",
+   "kata": "浮刺網",
+   "kana": "うきさしあみ",
+   "romaji": "uki sashiami",
+   "arti": "jaring insang permukaan",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "contoh": "{浮|う}{刺網|さしあみ}は{水面|すいめん}の{近|ちか}くに{入|い}れます。",
+   "arti_contoh": "Jaring insang permukaan dipasang dekat permukaan."
+  },
+  {
+   "id": "fy-145",
+   "kata": "揚網",
+   "kana": "ようもう",
+   "romaji": "youmou",
+   "arti": "mengangkat jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1",
+    "b3s3",
+    "b3s6"
+   ],
+   "contoh": "{朝|あさ}、{揚網|ようもう}をします。",
+   "arti_contoh": "Pagi hari mengangkat jaring."
+  },
+  {
+   "id": "fy-146",
+   "kata": "魚外し",
+   "kana": "さかなはずし",
+   "romaji": "sakana hazushi",
+   "arti": "melepas ikan dari jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1"
+   ],
+   "contoh": "{魚|さかな}{外|はず}しはていねいにします。",
+   "arti_contoh": "Melepas ikan dengan hati-hati."
+  },
+  {
+   "id": "fy-147",
+   "kata": "ブイ",
+   "kana": "ぶい",
+   "romaji": "bui",
+   "arti": "pelampung tanda (buoy)",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s1",
+    "b3s5"
+   ],
+   "contoh": "ブイで{場所|ばしょ}のしるしをします。",
+   "arti_contoh": "Menandai tempat dengan pelampung."
+  },
+  {
+   "id": "fy-148",
+   "kata": "魚群",
+   "kana": "ぎょぐん",
+   "romaji": "gyogun",
+   "arti": "kawanan ikan",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "contoh": "{魚|さかな}{群|ぐん}を{見|み}つけました。",
+   "arti_contoh": "Menemukan kawanan ikan."
+  },
+  {
+   "id": "fy-149",
+   "kata": "絞る",
+   "kana": "しぼる",
+   "romaji": "shiboru",
+   "arti": "mengerutkan, memeras",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "contoh": "{網|あみ}の{下|した}を{絞|しぼ}ります。",
+   "arti_contoh": "Mengerutkan bagian bawah jaring."
+  },
+  {
+   "id": "fy-150",
+   "kata": "網船",
+   "kana": "あみぶね",
+   "romaji": "amibune",
+   "arti": "kapal jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "contoh": "{網|あみ}{船|ふね}が{魚|さかな}{群|ぐん}をかこみます。",
+   "arti_contoh": "Kapal jaring mengelilingi kawanan ikan."
+  },
+  {
+   "id": "fy-151",
+   "kata": "灯船",
+   "kana": "ひぶね",
+   "romaji": "hibune",
+   "arti": "kapal lampu",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "contoh": "{灯|ひ}{船|ふね}は{夜|よる}に{光|ひかり}で{魚|さかな}をあつめます。",
+   "arti_contoh": "Kapal lampu mengumpulkan ikan dengan cahaya di malam hari."
+  },
+  {
+   "id": "fy-152",
+   "kata": "運搬船",
+   "kana": "うんぱんせん",
+   "romaji": "unpansen",
+   "arti": "kapal pengangkut",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s2"
+   ],
+   "contoh": "{運搬船|うんぱんせん}が{魚|さかな}を{港|みなと}へ{運|はこ}びます。",
+   "arti_contoh": "Kapal pengangkut membawa ikan ke pelabuhan."
+  },
+  {
+   "id": "fy-153",
+   "kata": "集魚灯",
+   "kana": "しゅうぎょとう",
+   "romaji": "shuugyotou",
+   "arti": "lampu pengumpul ikan",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s2",
+    "b3s5",
+    "b4s4"
+   ],
+   "contoh": "{集魚灯|しゅうぎょとう}をつけます。",
+   "arti_contoh": "Menyalakan lampu pengumpul ikan."
+  },
+  {
+   "id": "fy-154",
+   "kata": "曳網",
+   "kana": "えいもう",
+   "romaji": "eimou",
+   "arti": "menarik jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "3{時間|じかん}、{曳網|えいもう}をします。",
+   "arti_contoh": "Menarik jaring selama 3 jam."
+  },
+  {
+   "id": "fy-155",
+   "kata": "網口",
+   "kana": "あみぐち",
+   "romaji": "amiguchi",
+   "arti": "mulut jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "{網口|あみぐち}が{開|ひら}きます。",
+   "arti_contoh": "Mulut jaring terbuka."
+  },
+  {
+   "id": "fy-156",
+   "kata": "袋網",
+   "kana": "ふくろあみ",
+   "romaji": "fukuro ami",
+   "arti": "kantong jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "{袋網|ふくろあみ}に{魚|さかな}があつまります。",
+   "arti_contoh": "Ikan terkumpul di kantong jaring."
+  },
+  {
+   "id": "fy-157",
+   "kata": "オッターボード",
+   "kana": "おったーぼーど",
+   "romaji": "ottaa boodo",
+   "arti": "papan pembuka jaring",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "オッターボードが{網口|あみぐち}を{開|ひら}きます。",
+   "arti_contoh": "Papan pembuka membuka mulut jaring."
+  },
+  {
+   "id": "fy-158",
+   "kata": "ワープ",
+   "kana": "わーぷ",
+   "romaji": "waapu",
+   "arti": "kawat tarik",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s3"
+   ],
+   "contoh": "ワープをウインチでまきます。",
+   "arti_contoh": "Menggulung kawat tarik dengan winch."
+  },
+  {
+   "id": "fy-159",
+   "kata": "選別",
+   "kana": "せんべつ",
+   "romaji": "senbetsu",
+   "arti": "memilah",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s3",
+    "b5s2"
+   ],
+   "contoh": "{魚|さかな}を{種類|しゅるい}で{選別|せんべつ}します。",
+   "arti_contoh": "Memilah ikan menurut jenis."
+  },
+  {
+   "id": "fy-160",
+   "kata": "垣網",
+   "kana": "かきあみ",
+   "romaji": "kakiami",
+   "arti": "jaring penuntun",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ],
+   "contoh": "{垣網|かきあみ}が{魚|さかな}をみちびきます。",
+   "arti_contoh": "Jaring penuntun mengarahkan ikan."
+  },
+  {
+   "id": "fy-161",
+   "kata": "運動場",
+   "kana": "うんどうじょう",
+   "romaji": "undoujou",
+   "arti": "area penampung ikan (jaring tetap)",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ],
+   "contoh": "{魚|さかな}が{運動場|うんどうじょう}に{入|はい}ります。",
+   "arti_contoh": "Ikan masuk ke area penampung."
+  },
+  {
+   "id": "fy-162",
+   "kata": "箱網",
+   "kana": "はこあみ",
+   "romaji": "hakoami",
+   "arti": "jaring kotak",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ],
+   "contoh": "{箱網|はこあみ}に{魚|さかな}がたまります。",
+   "arti_contoh": "Ikan terkumpul di jaring kotak."
+  },
+  {
+   "id": "fy-163",
+   "kata": "身網",
+   "kana": "みあみ",
+   "romaji": "miami",
+   "arti": "jaring badan",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ],
+   "contoh": "{身網|みあみ}をひき{上|あ}げます。",
+   "arti_contoh": "Menarik jaring badan."
+  },
+  {
+   "id": "fy-164",
+   "kata": "網起こし",
+   "kana": "あみおこし",
+   "romaji": "ami okoshi",
+   "arti": "mengangkat jaring tetap",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ],
+   "contoh": "{朝|あさ}{早|はや}く{網起|あみお}こしをします。",
+   "arti_contoh": "Mengangkat jaring pagi-pagi."
+  },
+  {
+   "id": "fy-165",
+   "kata": "たも網",
+   "kana": "たもあみ",
+   "romaji": "tamo ami",
+   "arti": "jaring serok",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s4"
+   ],
+   "contoh": "たも{網|あみ}で{魚|さかな}をすくいます。",
+   "arti_contoh": "Menyerok ikan dengan jaring serok."
+  },
+  {
+   "id": "fy-166",
+   "kata": "かご",
+   "kana": "かご",
+   "romaji": "kago",
+   "arti": "bubu, keranjang perangkap",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s5"
+   ],
+   "contoh": "かごでカニをとります。",
+   "arti_contoh": "Menangkap kepiting dengan bubu."
+  },
+  {
+   "id": "fy-167",
+   "kata": "たこつぼ",
+   "kana": "たこつぼ",
+   "romaji": "takotsubo",
+   "arti": "pot gurita",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s5"
+   ],
+   "contoh": "たこつぼにタコが{入|はい}ります。",
+   "arti_contoh": "Gurita masuk ke pot gurita."
+  },
+  {
+   "id": "fy-168",
+   "kata": "棒受網",
+   "kana": "ぼうけあみ",
+   "romaji": "boukeami",
+   "arti": "jaring angkat dengan tiang (sauri)",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s5"
+   ],
+   "contoh": "{棒受網|ぼうけあみ}でサンマをとります。",
+   "arti_contoh": "Menangkap ikan sauri dengan jaring angkat."
+  },
+  {
+   "id": "fy-169",
+   "kata": "ラインホーラー",
+   "kana": "らいんほーらー",
+   "romaji": "rain hoora",
+   "arti": "mesin penarik tali",
+   "cat": "Jaring",
+   "bab": "bab3",
+   "src": [
+    "b3s5"
+   ],
+   "contoh": "ラインホーラーにさわらないでください。",
+   "arti_contoh": "Jangan menyentuh mesin penarik tali."
+  },
+  {
+   "id": "fy-170",
+   "kata": "道糸",
+   "kana": "みちいと",
+   "romaji": "michiito",
+   "arti": "tali utama pancing",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s1"
+   ],
+   "contoh": "{道|みち}{糸|いと}をまき{機|き}にまきます。",
+   "arti_contoh": "Menggulung tali utama pada gulungan."
+  },
+  {
+   "id": "fy-171",
+   "kata": "ハリス",
+   "kana": "はりす",
+   "romaji": "harisu",
+   "arti": "tali kail",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s1"
+   ],
+   "contoh": "ハリスは{細|ほそ}くて{短|みじか}い{糸|いと}です。",
+   "arti_contoh": "Tali kail halus dan pendek."
+  },
+  {
+   "id": "fy-172",
+   "kata": "竿",
+   "kana": "さお",
+   "romaji": "sao",
+   "arti": "joran",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s1"
+   ],
+   "contoh": "{竿|さお}で{魚|さかな}を{上|あ}げます。",
+   "arti_contoh": "Mengangkat ikan dengan joran."
+  },
+  {
+   "id": "fy-173",
+   "kata": "カエシ",
+   "kana": "かえし",
+   "romaji": "kaeshi",
+   "arti": "kait (barb) pada mata pancing",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s1",
+    "b4s2"
+   ],
+   "contoh": "カエシなしの{針|はり}は{外|はず}しやすいです。",
+   "arti_contoh": "Mata pancing tanpa kait mudah dilepas."
+  },
+  {
+   "id": "fy-174",
+   "kata": "活き餌",
+   "kana": "いきえさ",
+   "romaji": "ikiesa",
+   "arti": "umpan hidup",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s1",
+    "b4s2"
+   ],
+   "contoh": "{活|い}き{餌|えさ}をまきます。",
+   "arti_contoh": "Menebar umpan hidup."
+  },
+  {
+   "id": "fy-175",
+   "kata": "疑似餌",
+   "kana": "ぎじえ",
+   "romaji": "gijie",
+   "arti": "umpan tiruan",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s1"
+   ],
+   "contoh": "{疑似餌|ぎじえ}で{魚|さかな}を{釣|つ}ります。",
+   "arti_contoh": "Memancing ikan dengan umpan tiruan."
+  },
+  {
+   "id": "fy-176",
+   "kata": "一本釣り",
+   "kana": "いっぽんづり",
+   "romaji": "ippon zuri",
+   "arti": "pancing joran tunggal",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ],
+   "contoh": "カツオの{一本|いっぽん}{釣|づ}りをします。",
+   "arti_contoh": "Memancing cakalang dengan joran tunggal."
+  },
+  {
+   "id": "fy-177",
+   "kata": "散水",
+   "kana": "さんすい",
+   "romaji": "sansui",
+   "arti": "menyemprotkan air",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s2"
+   ],
+   "contoh": "{散水|さんすい}して{魚|さかな}に{船|ふね}を{見|み}せません。",
+   "arti_contoh": "Menyemprot air agar ikan tidak melihat kapal."
+  },
+  {
+   "id": "fy-178",
+   "kata": "幹縄",
+   "kana": "みきなわ",
+   "romaji": "mikinawa",
+   "arti": "tali utama rawai",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ],
+   "contoh": "{幹縄|みきなわ}はとても{長|なが}いです。",
+   "arti_contoh": "Tali utama rawai sangat panjang."
+  },
+  {
+   "id": "fy-179",
+   "kata": "枝縄",
+   "kana": "えだなわ",
+   "romaji": "edanawa",
+   "arti": "tali cabang rawai",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ],
+   "contoh": "{枝縄|えだなわ}に{針|はり}をつけます。",
+   "arti_contoh": "Memasang mata pancing pada tali cabang."
+  },
+  {
+   "id": "fy-180",
+   "kata": "はえ縄",
+   "kana": "はえなわ",
+   "romaji": "haenawa",
+   "arti": "rawai",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ],
+   "contoh": "はえ{縄|なわ}でマグロをとります。",
+   "arti_contoh": "Menangkap tuna dengan rawai."
+  },
+  {
+   "id": "fy-181",
+   "kata": "餌付け",
+   "kana": "えづけ",
+   "romaji": "edzuke",
+   "arti": "memasang umpan",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ],
+   "contoh": "{針|はり}に{餌付|えづけ}けをします。",
+   "arti_contoh": "Memasang umpan pada mata pancing."
+  },
+  {
+   "id": "fy-182",
+   "kata": "投縄",
+   "kana": "なげなわ",
+   "romaji": "nagenawa",
+   "arti": "menurunkan rawai",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ],
+   "contoh": "{船尾|せんび}から{投縄|なげなわ}をします。",
+   "arti_contoh": "Menurunkan rawai dari buritan."
+  },
+  {
+   "id": "fy-183",
+   "kata": "揚縄",
+   "kana": "あげなわ",
+   "romaji": "agenawa",
+   "arti": "menarik rawai",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s3"
+   ],
+   "contoh": "{機械|きかい}で{揚縄|あげなわ}をします。",
+   "arti_contoh": "Menarik rawai dengan mesin."
+  },
+  {
+   "id": "fy-184",
+   "kata": "スルメイカ",
+   "kana": "するめいか",
+   "romaji": "surume ika",
+   "arti": "cumi surume",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ],
+   "contoh": "スルメイカは{夜|よる}に{釣|つ}ります。",
+   "arti_contoh": "Cumi surume dipancing malam hari."
+  },
+  {
+   "id": "fy-185",
+   "kata": "イカ角",
+   "kana": "いかづの",
+   "romaji": "ika tsuno",
+   "arti": "kait cumi (squid jig)",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ],
+   "contoh": "イカ{角|つの}にイカがかかります。",
+   "arti_contoh": "Cumi tersangkut pada kait cumi."
+  },
+  {
+   "id": "fy-186",
+   "kata": "自動イカ釣り機",
+   "kana": "じどういかつりき",
+   "romaji": "jidou ika tsuri ki",
+   "arti": "mesin pancing cumi otomatis",
+   "cat": "Pancing",
+   "bab": "bab4",
+   "src": [
+    "b4s4"
+   ],
+   "contoh": "{自動|じどう}イカ{釣|つ}り{機|き}を{点検|てんけん}します。",
+   "arti_contoh": "Memeriksa mesin pancing cumi otomatis."
+  },
+  {
+   "id": "fy-187",
+   "kata": "鮮度",
+   "kana": "せんど",
+   "romaji": "sendo",
+   "arti": "kesegaran",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1"
+   ],
+   "contoh": "{鮮度|せんど}が{高|たか}い{魚|さかな}です。",
+   "arti_contoh": "Ikan yang sangat segar."
+  },
+  {
+   "id": "fy-188",
+   "kata": "氷",
+   "kana": "こおり",
+   "romaji": "koori",
+   "arti": "es",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1",
+    "b5s2"
+   ],
+   "contoh": "{魚|さかな}に{氷|こおり}をかけます。",
+   "arti_contoh": "Menaburkan es pada ikan."
+  },
+  {
+   "id": "fy-189",
+   "kata": "海水氷",
+   "kana": "かいすいごおり",
+   "romaji": "kaisui gouri",
+   "arti": "es air laut",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1"
+   ],
+   "contoh": "{海|うみ}{水|みず}{氷|こおり}で{魚|さかな}を{冷|ひ}やします。",
+   "arti_contoh": "Mendinginkan ikan dengan es air laut."
+  },
+  {
+   "id": "fy-190",
+   "kata": "冷海水",
+   "kana": "れいかいすい",
+   "romaji": "reikaisui",
+   "arti": "air laut dingin",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1"
+   ],
+   "contoh": "{冷|ひ}{海|うみ}{水|みず}に{魚|さかな}を{入|い}れます。",
+   "arti_contoh": "Memasukkan ikan ke air laut dingin."
+  },
+  {
+   "id": "fy-191",
+   "kata": "冷凍",
+   "kana": "れいとう",
+   "romaji": "reitou",
+   "arti": "pembekuan",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1"
+   ],
+   "contoh": "{魚|さかな}を{冷凍|れいとう}します。",
+   "arti_contoh": "Membekukan ikan."
+  },
+  {
+   "id": "fy-192",
+   "kata": "血抜き",
+   "kana": "ちぬき",
+   "romaji": "chinuki",
+   "arti": "membuang darah ikan",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1"
+   ],
+   "contoh": "{魚|さかな}の{血抜|ちぬき}きをします。",
+   "arti_contoh": "Membuang darah ikan."
+  },
+  {
+   "id": "fy-193",
+   "kata": "活け締め",
+   "kana": "いけじめ",
+   "romaji": "ikejime",
+   "arti": "mematikan ikan dengan cepat",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s1"
+   ],
+   "contoh": "{活|い}け{締|じ}めで{品質|ひんしつ}をたもちます。",
+   "arti_contoh": "Menjaga mutu dengan mematikan ikan cepat."
+  },
+  {
+   "id": "fy-194",
+   "kata": "魚種",
+   "kana": "ぎょしゅ",
+   "romaji": "gyoshu",
+   "arti": "jenis ikan",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s2"
+   ],
+   "contoh": "{魚種|ぎょしゅ}ごとに{分|わ}けます。",
+   "arti_contoh": "Memisahkan menurut jenis ikan."
+  },
+  {
+   "id": "fy-195",
+   "kata": "計量",
+   "kana": "けいりょう",
+   "romaji": "keiryou",
+   "arti": "menimbang",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s2"
+   ],
+   "contoh": "{魚|さかな}の{重|おも}さを{計量|けいりょう}します。",
+   "arti_contoh": "Menimbang berat ikan."
+  },
+  {
+   "id": "fy-196",
+   "kata": "箱詰め",
+   "kana": "はこづめ",
+   "romaji": "hakozume",
+   "arti": "mengemas dalam kotak",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s2"
+   ],
+   "contoh": "{魚|さかな}を{箱詰|はこづ}めします。",
+   "arti_contoh": "Mengemas ikan dalam kotak."
+  },
+  {
+   "id": "fy-197",
+   "kata": "ラベル",
+   "kana": "らべる",
+   "romaji": "raberu",
+   "arti": "label",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s2"
+   ],
+   "contoh": "{箱|はこ}にラベルをはります。",
+   "arti_contoh": "Menempel label pada kotak."
+  },
+  {
+   "id": "fy-198",
+   "kata": "品質",
+   "kana": "ひんしつ",
+   "romaji": "hinshitsu",
+   "arti": "mutu, kualitas",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s2"
+   ],
+   "contoh": "{品質|ひんしつ}のよい{魚|さかな}です。",
+   "arti_contoh": "Ikan bermutu baik."
+  },
+  {
+   "id": "fy-199",
+   "kata": "手洗い",
+   "kana": "てあらい",
+   "romaji": "tearai",
+   "arti": "mencuci tangan",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "{作業|さぎょう}{前|まえ}に{手|て}{洗|あら}いをします。",
+   "arti_contoh": "Mencuci tangan sebelum bekerja."
+  },
+  {
+   "id": "fy-200",
+   "kata": "洗浄",
+   "kana": "せんじょう",
+   "romaji": "senjou",
+   "arti": "mencuci/membersihkan (alat)",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "{道具|どうぐ}を{洗浄|せんじょう}します。",
+   "arti_contoh": "Membersihkan peralatan."
+  },
+  {
+   "id": "fy-201",
+   "kata": "交差汚染",
+   "kana": "こうさおせん",
+   "romaji": "kousa osen",
+   "arti": "kontaminasi silang",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "{交差汚染|こうさおせん}を{防|ふせ}ぎます。",
+   "arti_contoh": "Mencegah kontaminasi silang."
+  },
+  {
+   "id": "fy-202",
+   "kata": "ヒスタミン",
+   "kana": "ひすたみん",
+   "romaji": "hisutamin",
+   "arti": "histamin",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "ヒスタミンは{冷|ひ}やさない{魚|さかな}にできます。",
+   "arti_contoh": "Histamin terbentuk pada ikan yang tidak didinginkan."
+  },
+  {
+   "id": "fy-203",
+   "kata": "アニサキス",
+   "kana": "あにさきす",
+   "romaji": "anisakisu",
+   "arti": "parasit Anisakis",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "アニサキスは{冷凍|れいとう}や{加熱|かねつ}で{死|し}にます。",
+   "arti_contoh": "Anisakis mati oleh pembekuan atau pemanasan."
+  },
+  {
+   "id": "fy-204",
+   "kata": "食中毒",
+   "kana": "しょくちゅうどく",
+   "romaji": "shokuchuudoku",
+   "arti": "keracunan makanan",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "{食中毒|しょくちゅうどく}に{注意|ちゅうい}します。",
+   "arti_contoh": "Waspada keracunan makanan."
+  },
+  {
+   "id": "fy-205",
+   "kata": "フグ",
+   "kana": "ふぐ",
+   "romaji": "fugu",
+   "arti": "ikan buntal (beracun)",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s3"
+   ],
+   "contoh": "フグは{毒|どく}があります。",
+   "arti_contoh": "Ikan buntal beracun."
+  },
+  {
+   "id": "fy-206",
+   "kata": "岸壁",
+   "kana": "がんぺき",
+   "romaji": "ganpeki",
+   "arti": "dermaga",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s4"
+   ],
+   "contoh": "{船|ふね}が{岸壁|がんぺき}につきます。",
+   "arti_contoh": "Kapal bersandar di dermaga."
+  },
+  {
+   "id": "fy-207",
+   "kata": "魚箱",
+   "kana": "さかなばこ",
+   "romaji": "sakana bako",
+   "arti": "kotak ikan",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s4"
+   ],
+   "contoh": "{魚|さかな}{箱|はこ}を{岸壁|がんぺき}に{上|あ}げます。",
+   "arti_contoh": "Mengangkat kotak ikan ke dermaga."
+  },
+  {
+   "id": "fy-208",
+   "kata": "競り",
+   "kana": "せり",
+   "romaji": "seri",
+   "arti": "lelang",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s4"
+   ],
+   "contoh": "{市場|いちば}で{競|せ}りがあります。",
+   "arti_contoh": "Di pasar ada lelang."
+  },
+  {
+   "id": "fy-209",
+   "kata": "フォークリフト",
+   "kana": "ふぉーくりふと",
+   "romaji": "fooku rifuto",
+   "arti": "forklift",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s4"
+   ],
+   "contoh": "フォークリフトの{通|とお}り{道|みち}に{立|た}ちません。",
+   "arti_contoh": "Tidak berdiri di jalur forklift."
+  },
+  {
+   "id": "fy-210",
+   "kata": "クレーン",
+   "kana": "くれーん",
+   "romaji": "kureen",
+   "arti": "derek",
+   "cat": "Hasil tangkapan",
+   "bab": "bab5",
+   "src": [
+    "b5s4"
+   ],
+   "contoh": "クレーンで{荷物|にもつ}を{上|あ}げます。",
+   "arti_contoh": "Mengangkat barang dengan derek."
+  }
+ ]
+}

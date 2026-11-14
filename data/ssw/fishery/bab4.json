@@ -1,0 +1,524 @@
+{
+ "schema": 1,
+ "bidang": "fishery",
+ "source": "Shirose Nihongo — tulisan orisinal berdasarkan standar kompetensi resmi bidang Perikanan (MOJ/ISA, MAFF/Badan Perikanan, MHLW) dan materi keselamatan MHLW untuk pekerja asing; bukan salinan buku mana pun. Soal = Latihan Shirose Nihongo, bukan soal resmi.",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. Teks ID/JP memakai **tebal**.",
+ "bab": {
+  "id": "bab4",
+  "no": 4,
+  "title": {
+   "id": "Penangkapan dengan Pancing",
+   "jp": "{釣|つ}り{漁業|ぎょぎょう}"
+  },
+  "intro": {
+   "id": "Peralatan pancing dasar, pancing joran tunggal (cakalang), rawai, dan pancing cumi, termasuk keselamatan dengan mata pancing dan lampu.",
+   "jp": "{釣|つ}り{道具|どうぐ}の{基本|きほん}、{一本|いっぽん}{釣|づ}り、はえ{縄|なわ}、イカ{釣|つ}りと、{針|はり}や{明|あ}かりの{安全|あんぜん}を{学|まな}びます。"
+  },
+  "pages": [
+   1,
+   1
+  ],
+  "subs": [
+   {
+    "id": "b4s1",
+    "no": 1,
+    "title": {
+     "id": "Peralatan Pancing Dasar",
+     "jp": "{釣|つ}り{道具|どうぐ}の{基本|きほん}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bagian peralatan"
+      },
+      {
+       "ul": [
+        "**Joran (竿)**: batang untuk menarik atau mengangkat ikan.",
+        "**Tali utama (道糸 / 幹糸)**: tali panjang dari joran atau gulungan.",
+        "**Tali kail (ハリス)**: tali pendek dan halus antara tali utama dan mata pancing; tidak mudah terlihat ikan.",
+        "**Mata pancing (釣り針)**: bagian yang menusuk mulut ikan; ada yang berkait (カエシあり) dan **tanpa kait (カエシなし)**.",
+        "**Pemberat (おもり)** dan **pelampung (浮き)**: mengatur kedalaman umpan."
+       ]
+      },
+      {
+       "h": "Umpan"
+      },
+      {
+       "ul": [
+        "**Umpan hidup (活き餌)**: ikan kecil hidup yang menarik ikan besar.",
+        "**Umpan mati (餌)**: potongan ikan atau cumi.",
+        "**Umpan tiruan (疑似餌)**: umpan buatan yang bergerak seperti mangsa."
+       ]
+      },
+      {
+       "h": "Memilih alat"
+      },
+      {
+       "p": "Pilih mata pancing, tali, dan umpan sesuai **jenis ikan, kedalaman, dan arus**. Tali yang terlalu lemah putus, tali yang terlalu tebal mudah terlihat ikan."
+      },
+      {
+       "h": "Perawatan"
+      },
+      {
+       "ol": [
+        "Bilas alat dengan air tawar atau air bersih setelah dipakai.",
+        "Periksa tali yang aus dan mata pancing yang berkarat atau tumpul.",
+        "Simpan mata pancing di kotak agar tidak menusuk orang."
+       ]
+      },
+      {
+       "note": "Mata pancing selalu dipegang pada bagian lengkungnya dan tidak diarahkan ke orang lain."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{道具|どうぐ}の{部分|ぶぶん}"
+      },
+      {
+       "ul": [
+        "**{竿|さお}**：{魚|さかな}をひく、{上|あ}げるための{棒|ぼう}。",
+        "**{道|みち}{糸|いと}・{幹糸|みきいと}**：{竿|さお}やまき{機|き}から{出|で}る{長|なが}い{糸|いと}。",
+        "**ハリス**：{道|みち}{糸|いと}と{針|はり}のあいだの、{短|みじか}くて{細|ほそ}い{糸|いと}。{魚|さかな}に{見|み}えにくい。",
+        "**{釣|つ}り{針|ばり}**：{魚|さかな}の{口|くち}にささる{部分|ぶぶん}。**カエシ**のある{針|はり}と、**カエシなし**の{針|はり}がある。",
+        "**おもり**と**{浮|う}き**：えさの{深|ふか}さを{決|き}める。"
+       ]
+      },
+      {
+       "h": "えさ"
+      },
+      {
+       "ul": [
+        "**{活|い}き{餌|えさ}**：{生|い}きている{小|ちい}さい{魚|さかな}。{大|おお}きい{魚|さかな}をよぶ。",
+        "**{餌|えさ}**：{魚|さかな}やイカのきった{身|み}。",
+        "**{疑似餌|ぎじえ}**：つくったえさ。{生|い}き{物|もの}のように{動|うご}く。"
+       ]
+      },
+      {
+       "h": "{道具|どうぐ}のえらび{方|かた}"
+      },
+      {
+       "p": "**{魚|さかな}の{種類|しゅるい}、{深|ふか}さ、{流|なが}れ**にあわせて、{針|はり}、{糸|いと}、えさを{選|えら}びます。{糸|いと}が{弱|よわ}いと{切|き}れ、{太|ふと}すぎると{魚|さかな}に{見|み}えます。"
+      },
+      {
+       "h": "{手|て}{入|い}れ"
+      },
+      {
+       "ol": [
+        "{使|つか}ったあとは、きれいな{水|みず}で{洗|あら}う。",
+        "{糸|いと}が{古|ふる}くなっていないか、{針|はり}がさびたり、にぶくなったりしていないか{見|み}る。",
+        "{針|はり}は{箱|はこ}に{入|い}れて、{人|ひと}にささらないようにしまう。"
+       ]
+      },
+      {
+       "note": "{針|はり}は、まがった{所|ところ}を{持|も}ちます。{人|ひと}のほうにむけません。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pancing terdiri dari joran, tali utama, ハリス, mata pancing, dan umpan; pilih sesuai ikan dan arus.",
+      "points": [
+       "道糸 = tali utama; ハリス = tali kail.",
+       "カエシなし = tanpa kait.",
+       "活き餌, 餌, 疑似餌.",
+       "Simpan mata pancing di kotak."
+      ],
+      "avoid": [
+       "Mengarahkan mata pancing ke orang."
+      ],
+      "exam": [
+       "Beda 道糸 dan ハリス.",
+       "Jenis umpan."
+      ]
+     },
+     "jp": {
+      "core": "{釣|つ}りは{竿|さお}・{道|みち}{糸|いと}・ハリス・{針|はり}・えさ。{魚|さかな}と{流|なが}れにあわせて{選|えら}ぶ。",
+      "points": [
+       "{道|みち}{糸|いと}＝{長|なが}い{糸|いと}、ハリス＝{針|はり}につなぐ{細|ほそ}い{糸|いと}。",
+       "カエシなし＝かえしのない{針|はり}。",
+       "{活|い}き{餌|えさ}・{餌|えさ}・{疑似餌|ぎじえ}。",
+       "{針|はり}は{箱|はこ}に{入|い}れる。"
+      ],
+      "avoid": [
+       "{針|はり}を{人|ひと}のほうにむけること。"
+      ],
+      "exam": [
+       "{道|みち}{糸|いと}とハリスのちがい。",
+       "えさの{種類|しゅるい}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b4s2",
+    "no": 2,
+    "title": {
+     "id": "Pancing Joran Tunggal (一本釣り)",
+     "jp": "{一本|いっぽん}{釣|づ}り{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "**一本釣り (ippon-zuri)** memancing ikan **satu per satu** memakai joran dan satu mata pancing. Contoh terkenal: **カツオ一本釣り** (cakalang) dan マグロ一本釣り. Ikan ditarik langsung ke dek. Cara ini menjaga ikan tidak lecet sehingga **kualitasnya tinggi**."
+      },
+      {
+       "h": "Cakalang (カツオ一本釣り)"
+      },
+      {
+       "ol": [
+        "Menemukan kawanan カツオ dengan penjaga pandang (見張り) dan pencari ikan.",
+        "Menebar **umpan hidup (活き餌)** ke laut untuk memancing ikan naik.",
+        "**Menyemprotkan air (散水)** agar ikan tidak melihat kapal dan mengira umpan hidup.",
+        "Para pemancing berdiri di tepi kapal dan menyentak ikan ke dek dengan **mata pancing tanpa kait** sehingga cepat lepas.",
+        "Ikan segera dimasukkan ke palka dan didinginkan."
+       ]
+      },
+      {
+       "h": "Keselamatan dan kerja"
+      },
+      {
+       "ul": [
+        "Tepi kapal licin dan bergoyang; pakai jaket pelampung dan sepatu anti licin.",
+        "Beban pada lengan dan punggung sangat berat. Gunakan **posisi yang benar** dan istirahat bergantian.",
+        "Hati-hati terhadap ikan yang melompat dan mata pancing yang melayang saat menyentak."
+       ]
+      },
+      {
+       "note": "Teknik ini membutuhkan kerja sama: ikut aba-aba, jangan memancing terlalu dekat dengan orang lain."
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "**{一本|いっぽん}{釣|づ}り**は、{竿|さお}と{針|はり}1{本|ほん}で、{魚|さかな}を**1ぴきずつ**{釣|つ}る{漁|りょう}です。{有名|ゆうめい}なのは**カツオ{一本|いっぽん}{釣|づ}り**とマグロ{一本|いっぽん}{釣|づ}りです。{魚|さかな}を{直接|ちょくせつ}、{甲板|かんぱん}に{上|あ}げます。{魚|さかな}にきずがつきにくいので、**{品質|ひんしつ}が{高|たか}い**です。"
+      },
+      {
+       "h": "カツオ{一本|いっぽん}{釣|づ}り"
+      },
+      {
+       "ol": [
+        "{見張|みは}りと{魚群探知機|ぎょぐんたんちき}でカツオの{群|む}れを{見|み}つける。",
+        "**{活|い}き{餌|えさ}**を{海|うみ}にまいて、{魚|さかな}をよぶ。",
+        "**{散水|さんすい}**（{水|みず}をまく）して、{魚|さかな}に{船|ふね}が{見|み}えないようにし、{活|い}き{餌|えさ}とまちがえさせる。",
+        "{釣|つ}り{人|ひと}は{船|ふね}のはしに{立|た}ち、**カエシなしの{針|はり}**で{魚|さかな}を{甲板|かんぱん}にはね{上|あ}げる。すぐに{針|はり}がはずれる。",
+        "{魚|さかな}をすぐ{魚倉|ぎょそう}に{入|い}れて、{冷|ひ}やす。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}と{仕事|しごと}"
+      },
+      {
+       "ul": [
+        "{船|ふね}のはしはすべって、ゆれる。ライフジャケットとすべりにくい{靴|くつ}をつける。",
+        "うでと{背中|せなか}の{負担|ふたん}がとても{大|おお}きい。**{正|ただ}しい{姿勢|しせい}**で、{交代|こうたい}で{休|やす}む。",
+        "とび{上|あ}がる{魚|さかな}と、はね{上|あ}げるときの{針|はり}に{気|き}をつける。"
+       ]
+      },
+      {
+       "note": "この{漁|りょう}は{協力|きょうりょく}が{大切|たいせつ}です。{合図|あいず}を{聞|き}いて、ほかの{人|ひと}の{近|ちか}くで{釣|つ}りすぎないようにします。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pancing joran tunggal menangkap ikan satu per satu dengan kualitas tinggi; pakai umpan hidup, air semprot, dan kail tanpa kait.",
+      "points": [
+       "一本釣り = ikan ditarik satu per satu.",
+       "カツオ一本釣り: 活き餌 + 散水.",
+       "Mata pancing tanpa kait mudah lepas.",
+       "Jaga postur lengan/punggung."
+      ],
+      "avoid": [
+       "Memancing terlalu dekat dengan orang lain."
+      ],
+      "exam": [
+       "Alasan kualitas ikan lebih baik.",
+       "Fungsi 散水."
+      ]
+     },
+     "jp": {
+      "core": "{一本|いっぽん}{釣|づ}りは1ぴきずつ{釣|つ}るので{品質|ひんしつ}が{高|たか}い。{活|い}き{餌|えさ}・{散水|さんすい}・カエシなしの{針|はり}を{使|つか}う。",
+      "points": [
+       "{一本|いっぽん}{釣|づ}り＝1ぴきずつ{釣|つ}る。",
+       "カツオ{一本|いっぽん}{釣|づ}り：{活|い}き{餌|えさ}＋{散水|さんすい}。",
+       "カエシなしの{針|はり}は{外|はず}れやすい。",
+       "うでと{背中|せなか}の{姿勢|しせい}に{注意|ちゅうい}。"
+      ],
+      "avoid": [
+       "ほかの{人|ひと}の{近|ちか}くで{釣|つ}ること。"
+      ],
+      "exam": [
+       "{品質|ひんしつ}が{高|たか}い{理由|りゆう}。",
+       "{散水|さんすい}のはたらき。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b4s3",
+    "no": 3,
+    "title": {
+     "id": "Rawai (はえ縄)",
+     "jp": "はえ{縄|なわ}{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "**Rawai (はえ縄 / 延縄)** adalah **tali utama (幹縄)** yang sangat panjang, kadang puluhan kilometer, dengan banyak **tali cabang (枝縄)** yang masing-masing berisi mata pancing berumpan. Dipakai untuk マグロ, メカジキ, タラ, dan ikan besar lain."
+      },
+      {
+       "h": "Bagian utama"
+      },
+      {
+       "ul": [
+        "**Tali utama (幹縄)**: tali panjang di air.",
+        "**Tali cabang (枝縄)**: tali pendek berkail yang digantung pada tali utama.",
+        "**Pelampung (浮き) dan tiang bendera**: menandai posisi dan menahan tali.",
+        "**Pelampung bola (ブイ)** dan lampu: terlihat dari jauh, terutama di malam hari."
+       ]
+      },
+      {
+       "h": "Urutan kerja"
+      },
+      {
+       "ol": [
+        "**Memasang umpan (餌付け)** pada tiap mata pancing.",
+        "**Menurunkan rawai (投縄)** dari buritan sambil kapal bergerak; tali, cabang, dan pelampung dipasang berurutan.",
+        "Membiarkan rawai beberapa jam.",
+        "**Menarik rawai (揚縄)** dengan mesin; hasil tangkapan dinaikkan satu per satu.",
+        "Menyimpan tali cabang dan mata pancing dengan rapi."
+       ]
+      },
+      {
+       "h": "Keselamatan"
+      },
+      {
+       "ul": [
+        "Saat diturunkan, kail terayun ke belakang cepat. **Jangan berdiri di jalur tali.**",
+        "Tali cabang bisa melilit kaki. Berhati-hati dan jangan berdiri di antara gulungan tali.",
+        "Mata pancing besar sangat berbahaya. Jika tertusuk, **segera lapor**, jangan mencabutnya sendiri secara paksa."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "**はえ{縄|なわ}**は、とても{長|なが}い**{幹縄|みきなわ}**（ときには{何|なん}{十|じゅう}キロメートルも）に、えさをつけた{針|はり}のついた**{枝縄|えだなわ}**をたくさんつけた{漁具|ぎょぐ}です。マグロ、メカジキ、タラなど、{大|おお}きい{魚|さかな}をとります。"
+      },
+      {
+       "h": "おもな{部分|ぶぶん}"
+      },
+      {
+       "ul": [
+        "**{幹縄|みきなわ}**：{水|みず}の{中|なか}の{長|なが}いロープ。",
+        "**{枝縄|えだなわ}**：{幹縄|みきなわ}からたれる、{針|はり}のついた{短|みじか}いロープ。",
+        "**{浮|う}き**と**{旗|はた}ざお**：{場所|ばしょ}の{目|め}じるしで、ロープをささえる。",
+        "**ブイ**とライト：{遠|とお}くからも{見|み}える。{夜|よる}は{特|とく}に{大切|たいせつ}。"
+       ]
+      },
+      {
+       "h": "{仕事|しごと}の{順番|じゅんばん}"
+      },
+      {
+       "ol": [
+        "{針|はり}に**えさをつける**（**{餌付|えづけ}け**）。",
+        "{船|ふね}を{動|うご}かしながら、{船尾|せんび}から**{投縄|なげなわ}**する。{幹縄|みきなわ}、{枝縄|えだなわ}、{浮|う}きを{順|じゅん}に{出|だ}す。",
+        "{何|なん}{時間|じかん}か、おいておく。",
+        "{機械|きかい}で**{揚縄|あげなわ}**（ロープを{上|あ}げる）する。{魚|さかな}を1ぴきずつ{船|ふね}に{上|あ}げる。",
+        "{枝縄|えだなわ}と{針|はり}をきれいにしまう。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "{出|だ}すとき、{針|はり}は{後|うし}ろへ{速|はや}くとぶ。**ロープの{通|とお}り{道|みち}に{立|た}たない。**",
+        "{枝縄|えだなわ}が{足|あし}にからまることがある。ロープの{間|あいだ}に{立|た}たない。",
+        "{大|おお}きい{針|はり}はとてもあぶない。ささったら**すぐ{報告|ほうこく}**し、{自分|じぶん}でむりにぬかない。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Rawai = tali utama panjang + tali cabang berkail; waspadai kail yang terayun dan tali yang melilit.",
+      "points": [
+       "幹縄 = tali utama; 枝縄 = tali cabang.",
+       "餌付け → 投縄 → 揚縄.",
+       "Jangan berdiri di jalur tali.",
+       "Kail menusuk: lapor, jangan cabut paksa."
+      ],
+      "avoid": [
+       "Mencabut mata pancing yang menusuk dengan paksa."
+      ],
+      "exam": [
+       "Beda 幹縄 dan 枝縄.",
+       "Urutan kerja rawai."
+      ]
+     },
+     "jp": {
+      "core": "はえ{縄|なわ}は{長|なが}い{幹縄|みきなわ}と{針|はり}つきの{枝縄|えだなわ}。{針|はり}のふりと{縄|なわ}のからまりに{注意|ちゅうい}。",
+      "points": [
+       "{幹縄|みきなわ}＝メインのロープ、{枝縄|えだなわ}＝{針|はり}のついたロープ。",
+       "{餌付|えづけ}け→{投縄|なげなわ}→{揚縄|あげなわ}。",
+       "ロープの{通|とお}り{道|みち}に{立|た}たない。",
+       "{針|はり}がささったら{報告|ほうこく}。"
+      ],
+      "avoid": [
+       "ささった{針|はり}をむりにぬくこと。"
+      ],
+      "exam": [
+       "{幹縄|みきなわ}と{枝縄|えだなわ}のちがい。",
+       "はえ{縄|なわ}の{仕事|しごと}の{順番|じゅんばん}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b4s4",
+    "no": 4,
+    "title": {
+     "id": "Pancing Cumi (イカ釣り)",
+     "jp": "イカ{釣|つ}り{漁業|ぎょぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Cara kerja"
+      },
+      {
+       "p": "Cumi (イカ), terutama **スルメイカ**, ditangkap di **malam hari**. Lampu sangat terang (**集魚灯**) menarik cumi dan ikan kecil ke dekat kapal. Mata pancing khusus cumi tidak berumpan: **kait berbentuk mahkota (イカ角 / 擬似針)** menjerat tentakel cumi."
+      },
+      {
+       "h": "Mesin pancing cumi"
+      },
+      {
+       "p": "**Mesin pancing cumi otomatis (自動イカ釣り機)** menaik-turunkan tali panjang berisi banyak kail. Cumi yang tersangkut ikut naik, lalu dilepas otomatis dan jatuh ke palka atau meja sortir."
+      },
+      {
+       "h": "Urutan kerja"
+      },
+      {
+       "ol": [
+        "Berangkat sore hari dan mencari lokasi.",
+        "Menyalakan lampu pengumpul ikan setelah gelap.",
+        "Menurunkan tali kail dengan mesin.",
+        "Memeriksa mesin dan memilah cumi: **jenis, ukuran, dan kondisi**.",
+        "Mendinginkan atau membekukan cumi dengan cepat."
+       ]
+      },
+      {
+       "h": "Keselamatan"
+      },
+      {
+       "ul": [
+        "Bekerja di malam hari sehingga **kantuk** dan lelah menyebabkan kecelakaan. Atur istirahat bergantian.",
+        "Lampu panas dan sangat terang; jangan menyentuh lampu atau kabel, dan jangan menatapnya langsung.",
+        "Tali dan kail mesin bergerak cepat; jangan menyentuh saat berjalan. Matikan mesin sebelum memperbaiki.",
+        "Cumi menyemprotkan tinta dan membuat dek licin."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "しくみ"
+      },
+      {
+       "p": "イカ、とくに**スルメイカ**は、**{夜|よる}**にとります。とても{明|あか}るい**{集魚灯|しゅうぎょとう}**で、イカや{小|ちい}さい{魚|さかな}を{船|ふね}の{近|ちか}くにあつめます。イカをとる{針|はり}は、えさがありません。**イカ{角|つの}（{疑似針|ぎじばり}）**がイカの{足|あし}にひっかかります。"
+      },
+      {
+       "h": "イカ{釣|つ}り{機|き}"
+      },
+      {
+       "p": "**{自動|じどう}イカ{釣|つ}り{機|き}**は、たくさんの{針|はり}がついた{長|なが}い{糸|いと}を、{上|あ}げ{下|さ}げします。イカがかかったまま{上|あ}がり、{自動|じどう}ではずれて、{魚倉|ぎょそう}や{選別台|せんべつだい}に{落|お}ちます。"
+      },
+      {
+       "h": "{仕事|しごと}の{順番|じゅんばん}"
+      },
+      {
+       "ol": [
+        "{夕方|ゆうがた}に{出|で}て、{場所|ばしょ}を{探|さが}す。",
+        "{暗|くら}くなったら{集魚灯|しゅうぎょとう}をつける。",
+        "{機械|きかい}で、{針|はり}のついた{糸|いと}を{海|うみ}に{入|い}れる。",
+        "{機械|きかい}を{見回|みまわ}り、イカを**{種類|しゅるい}・{大|おお}きさ・{状態|じょうたい}**で{選別|せんべつ}する。",
+        "イカをすばやく{冷|ひ}やす、または{凍|こお}らせる。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "{夜|よる}の{仕事|しごと}なので、**ねむけ**とつかれで{事故|じこ}がおきる。{交代|こうたい}で{休|やす}む。",
+        "ライトは{熱|あつ}く、とても{明|あか}るい。ライトやケーブルにさわらない。じかに{見|み}ない。",
+        "{機械|きかい}の{糸|いと}と{針|はり}は{速|はや}くうごく。{動|うご}いているときはさわらない。{直|なお}すときは、{先|さき}に{機械|きかい}をとめる。",
+        "イカは{墨|すみ}をはいて、{甲板|かんぱん}がすべる。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cumi ditangkap malam hari dengan lampu dan kait tanpa umpan; mesin otomatis; waspadai kantuk, lampu panas, dan mesin berputar.",
+      "points": [
+       "スルメイカ, malam hari.",
+       "集魚灯 menarik cumi.",
+       "イカ角 = kait cumi tanpa umpan.",
+       "Kantuk dan lampu panas berbahaya."
+      ],
+      "avoid": [
+       "Memperbaiki mesin yang masih hidup."
+      ],
+      "exam": [
+       "Fungsi 集魚灯 dan イカ角.",
+       "Bahaya kerja malam."
+      ]
+     },
+     "jp": {
+      "core": "イカは{夜|よる}、{灯|ひ}と{針|はり}でとる。ねむけ・{熱|あつ}いライト・{機械|きかい}に{注意|ちゅうい}。",
+      "points": [
+       "スルメイカは{夜|よる}にとる。",
+       "{集魚灯|しゅうぎょとう}でイカをあつめる。",
+       "イカ{角|つの}＝えさなしの{針|はり}。",
+       "ねむけと{熱|あつ}いライトに{注意|ちゅうい}。"
+      ],
+      "avoid": [
+       "{動|うご}いている{機械|きかい}を{直|なお}すこと。"
+      ],
+      "exam": [
+       "{集魚灯|しゅうぎょとう}とイカ{角|つの}のはたらき。",
+       "{夜|よる}の{仕事|しごと}のきけん。"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -69,6 +69,7 @@ export const DEFAULT_BIDANG = [
   { slug: "construction-lifeline", nama: "Construction (Lifeline & Peralatan)", jp: "建設（ライフライン・設備）", label: "🔧 Lifeline & Peralatan ›", induk: "construction", aktif: true, urut: 6.2, tema: "construction", hasContent: true },
   { slug: "accommodation", nama: "Accommodation (Penginapan)", jp: "宿泊", aktif: true, urut: 7, tema: "hotel", hasContent: true },
   { slug: "livestock", nama: "Livestock (Peternakan)", jp: "畜産業", aktif: true, urut: 8, tema: "farm", hasContent: true },
+  { slug: "fishery", nama: "Fishery (Perikanan)", jp: "漁業", aktif: true, urut: 9, tema: "generic", hasContent: true },
 ];
 
 let _bidang = null;
@@ -308,6 +309,7 @@ export const EXAM_SPEC = {
   "accommodation": { n: 36, img: 4, mb: 10, info: "Resmi (宿泊業技能試験センター): tulis 30 + praktik 6 = 36 soal, 60 menit." },
   "kaigo": { n: 45, img: 0, mb: 0, info: "Resmi (MHLW): 45 soal / 60 menit (tulis 40 + praktik 5), lulus ≥60%." },
   "kaigo-jp": { n: 45, img: 4, mb: 0, info: "Resmi (MHLW): 45 soal / 60 menit (tulis 40 + praktik 5), lulus ≥60%." },
+  "fishery": { n: 30, img: 2, mb: 6, info: "Ujian Latihan Shirose Nihongo (bukan format resmi): jumlah soal dan durasi ujian resmi tidak dipublikasikan. Info resmi: ambang lulus ujian 漁業 tercatat 65% (laporan pelaksanaan ujian MAFF)." },
 };
 /** 10 ujian penuh = sampel deterministik dari seluruh bank soal; komposisi mengikuti ujian resmi bidangnya. */
 export function fullQuizzes(pack, perQuizArg, count = 10) {

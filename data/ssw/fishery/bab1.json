@@ -1,0 +1,974 @@
+{
+ "schema": 1,
+ "bidang": "fishery",
+ "source": "Shirose Nihongo — tulisan orisinal berdasarkan standar kompetensi resmi bidang Perikanan (MOJ/ISA, MAFF/Badan Perikanan, MHLW) dan materi keselamatan MHLW untuk pekerja asing; bukan salinan buku mana pun. Soal = Latihan Shirose Nihongo, bukan soal resmi.",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. Teks ID/JP memakai **tebal**.",
+ "bab": {
+  "id": "bab1",
+  "no": 1,
+  "title": {
+   "id": "Pengetahuan Umum Perikanan",
+   "jp": "{漁業|ぎょぎょう}の{基礎知識|きそちしき}"
+  },
+  "intro": {
+   "id": "Mengenal dunia perikanan Jepang: jenis usaha, ikan dan hasil laut utama, kapal dan bagian-bagiannya, awak kapal, navigasi, tali dan simpul, jaring dan alat tangkap, serta cuaca dan laut.",
+   "jp": "{日本|にほん}の{漁業|ぎょぎょう}のしくみ、{魚|さかな}、{船|ふね}、{航海|こうかい}、ロープ、{漁具|ぎょぐ}、{天気|てんき}と{海|うみ}の{基本|きほん}を{学|まな}びます。"
+  },
+  "pages": [
+   1,
+   1
+  ],
+  "subs": [
+   {
+    "id": "b1s1",
+    "no": 1,
+    "title": {
+     "id": "Mengenal Perikanan Jepang",
+     "jp": "{日本|にほん}の{漁業|ぎょぎょう}のしくみ"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Apa itu perikanan (漁業)?"
+      },
+      {
+       "p": "**Perikanan (漁業)** adalah kegiatan menangkap atau membudidayakan ikan dan hasil laut lain seperti kerang, udang, cumi, dan rumput laut. Hasilnya dijual sebagai bahan pangan di seluruh Jepang."
+      },
+      {
+       "h": "Jenis perikanan menurut tempat dan ukuran kapal"
+      },
+      {
+       "ol": [
+        "**Perikanan pantai (沿岸漁業)**: kapal kecil atau alat tetap di dekat pantai. Biasanya berangkat dan pulang di hari yang sama.",
+        "**Perikanan lepas pantai (沖合漁業)**: kapal berukuran menengah, bekerja di laut yang lebih jauh dan bisa beberapa hari di laut.",
+        "**Perikanan samudra (遠洋漁業)**: kapal besar yang berlayar jauh, sering berbulan-bulan, ke samudra atau perairan negara lain.",
+        "**Budidaya laut (海面養殖業)**: memelihara ikan, kerang, atau rumput laut di laut sampai siap panen.",
+        "**Perikanan perairan darat (内水面漁業)**: di sungai dan danau."
+       ]
+      },
+      {
+       "note": "Ujian bidang Perikanan dibagi menjadi 漁業 (penangkapan ikan) dan 養殖業 (budidaya). Modul ini membahas 漁業."
+      },
+      {
+       "h": "Aturan: tidak boleh menangkap sesuka hati"
+      },
+      {
+       "p": "Sumber daya ikan terbatas. Karena itu ada aturan: **izin perikanan (許可)**, **hak perikanan (漁業権)** untuk memakai perairan tertentu, batas jumlah tangkapan, **musim larangan tangkap (禁漁期)**, dan batas ukuran ikan. Nelayan biasanya tergabung dalam **koperasi perikanan (漁業協同組合, disingkat 漁協)**."
+      },
+      {
+       "h": "Alur pekerjaan sehari"
+      },
+      {
+       "ol": [
+        "Persiapan dan berangkat dari pelabuhan (出港).",
+        "Menuju daerah penangkapan (漁場).",
+        "Menangkap ikan (操業).",
+        "Pulang ke pelabuhan (帰港).",
+        "Membongkar hasil tangkapan (水揚げ) dan mengirim ke pasar ikan (市場)."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "{漁業|ぎょぎょう}とは"
+      },
+      {
+       "p": "**{漁業|ぎょぎょう}**は、{魚|さかな}や{貝|かい}、エビ、イカ、{海藻|かいそう}などをとったり{育|そだ}てたりする{仕事|しごと}です。とった{魚|さかな}は{日本中|にほんじゅう}の{食|た}べ{物|もの}になります。"
+      },
+      {
+       "h": "{場所|ばしょ}と{船|ふね}の{大|おお}きさで{分|わ}ける{漁業|ぎょぎょう}"
+      },
+      {
+       "ol": [
+        "**{沿岸漁業|えんがんぎょぎょう}**：{小|ちい}さい{船|ふね}や、{海岸|かいがん}の{近|ちか}くにおく{漁具|ぎょぐ}を{使|つか}います。たいてい、その{日|ひ}のうちに{帰|かえ}ります。",
+        "**{沖合漁業|おきあいぎょぎょう}**：{中|ちゅう}くらいの{船|ふね}で、{少|すこ}し{遠|とお}い{海|うみ}へ{行|い}きます。{何日|なんにち}か{海|うみ}にいることもあります。",
+        "**{遠洋漁業|えんようぎょぎょう}**：{大|おお}きい{船|ふね}で{遠|とお}くの{海|うみ}へ{行|い}きます。{何|なん}か{月|げつ}も{海|うみ}にいることがあります。",
+        "**{海面養殖業|かいめんようしょくぎょう}**：{海|うみ}で{魚|さかな}や{貝|かい}、{海藻|かいそう}を{育|そだ}てます。",
+        "**{内水面漁業|ないすいめんぎょぎょう}**：{川|かわ}や{湖|みずうみ}でする{漁業|ぎょぎょう}です。"
+       ]
+      },
+      {
+       "note": "{試験|しけん}の{分野|ぶんや}は、{漁業|ぎょぎょう}（{魚|さかな}をとる）と{養殖業|ようしょくぎょう}（{魚|さかな}を{育|そだ}てる）に{分|わ}かれています。このモジュールは{漁業|ぎょぎょう}を{学|まな}びます。"
+      },
+      {
+       "h": "ルールがあります"
+      },
+      {
+       "p": "{魚|さかな}の{数|かず}には{限|かぎ}りがあります。だから、**{許可|きょか}**、**{漁業権|ぎょぎょうけん}**、とってよい{量|りょう}の{制限|せいげん}、**{禁漁期|きんりょうき}**（とってはいけない{時期|じき}）、{魚|さかな}の{大|おお}きさの{制限|せいげん}などのルールがあります。{漁師|りょうし}は**{漁業協同組合|ぎょぎょうきょうどうくみあい}（{漁協|ぎょきょう}）**に{入|はい}ることが{多|おお}いです。"
+      },
+      {
+       "h": "1{日|ひ}の{流|なが}れ"
+      },
+      {
+       "ol": [
+        "{準備|じゅんび}をして**{出港|しゅっこう}**する。",
+        "**{漁場|ぎょば}**（{魚|さかな}をとる{場所|ばしょ}）へ{行|い}く。",
+        "**{操業|そうぎょう}**（{漁|りょう}をする）。",
+        "**{帰港|きこう}**（{港|みなと}へ{帰|かえ}る）。",
+        "**{水揚|みずあ}げ**をして、**{市場|いちば}**へ{出|だ}す。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Perikanan Jepang dibagi pantai, lepas pantai, samudra, budidaya, dan perairan darat, dan semuanya diatur izin dan aturan sumber daya.",
+      "points": [
+       "Pantai (沿岸) = kapal kecil; lepas pantai (沖合) = menengah; samudra (遠洋) = kapal besar berbulan-bulan.",
+       "Budidaya (養殖) memelihara sampai panen.",
+       "Ada izin (許可), hak perikanan (漁業権), musim larangan (禁漁期).",
+       "Alur: 出港 → 漁場 → 操業 → 帰港 → 水揚げ."
+      ],
+      "avoid": [
+       "Menganggap boleh menangkap ikan di mana saja dan kapan saja."
+      ],
+      "exam": [
+       "Urutan jenis: 沿岸 < 沖合 < 遠洋 (jarak dan ukuran kapal).",
+       "Arti 禁漁期 dan 漁業権."
+      ]
+     },
+     "jp": {
+      "core": "{漁業|ぎょぎょう}は{沿岸|えんがん}・{沖合|おきあい}・{遠洋|えんよう}・{養殖|ようしょく}・{内水面|ないすいめん}に{分|わ}かれ、{許可|きょか}とルールで{資源|しげん}を{守|まも}ります。",
+      "points": [
+       "{沿岸|えんがん}＝{小|ちい}さい{船|ふね}、{沖合|おきあい}＝{中|ちゅう}くらい、{遠洋|えんよう}＝{大|おお}きい{船|ふね}。",
+       "{養殖|ようしょく}は{育|そだ}てて{収穫|しゅうかく}する。",
+       "{許可|きょか}・{漁業権|ぎょぎょうけん}・{禁漁期|きんりょうき}がある。",
+       "{出港|しゅっこう}→{漁場|ぎょば}→{操業|そうぎょう}→{帰港|きこう}→{水揚|みずあ}げ。"
+      ],
+      "avoid": [
+       "どこでも、いつでも{魚|さかな}をとってよいと{思|おも}うこと。"
+      ],
+      "exam": [
+       "{沿岸|えんがん}・{沖合|おきあい}・{遠洋|えんよう}の{順番|じゅんばん}と{意味|いみ}。",
+       "{禁漁期|きんりょうき}と{漁業権|ぎょぎょうけん}の{意味|いみ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s2",
+    "no": 2,
+    "title": {
+     "id": "Ikan dan Hasil Laut Utama",
+     "jp": "{主|おも}な{魚介類|ぎょかいるい}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Kelompok hasil laut"
+      },
+      {
+       "ul": [
+        "**Ikan (魚類)**: イワシ (sarden), サバ (makerel), アジ (kembung/horse mackerel), カツオ (cakalang), マグロ (tuna), サケ (salmon), タイ (kakap merah Jepang).",
+        "**Kerang (貝類)**: ホタテ (scallop), カキ (tiram), アサリ.",
+        "**Krustasea (甲殻類)**: エビ (udang), カニ (kepiting).",
+        "**Cephalopoda (頭足類)**: イカ (cumi), タコ (gurita).",
+        "**Rumput laut (海藻)**: ノリ, ワカメ, コンブ."
+       ]
+      },
+      {
+       "h": "Dua cara membedakan ikan"
+      },
+      {
+       "ul": [
+        "**Menurut kebiasaan hidup**: ikan migran (回遊魚) berenang jauh mengikuti musim, misalnya カツオ, マグロ, サバ, イワシ, サンマ. Ikan dasar (底魚) hidup dekat dasar laut, misalnya タラ, カレイ, ヒラメ.",
+        "**Menurut warna daging**: ikan berpunggung biru (青魚) seperti イワシ, アジ, サバ, サンマ; ikan berdaging putih (白身魚) seperti タイ, ヒラメ, タラ; ikan berdaging merah (赤身) seperti マグロ dan カツオ."
+       ]
+      },
+      {
+       "h": "Musim (旬)"
+      },
+      {
+       "p": "Setiap hasil laut punya **musim terbaik (旬)**, yaitu saat rasanya paling enak dan jumlahnya banyak. Contohnya カツオ ditangkap di musim semi (初ガツオ) dan kembali lagi di musim gugur (戻りガツオ). サケ naik ke sungai tempat ia lahir untuk bertelur (遡上)."
+      },
+      {
+       "note": "Mengenal nama ikan dalam bahasa Jepang membantu saat menerima perintah, misalnya memilah hasil tangkapan di dek."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{魚介類|ぎょかいるい}のなかま"
+      },
+      {
+       "ul": [
+        "**{魚類|ぎょるい}**：イワシ、サバ、アジ、カツオ、マグロ、サケ、タイ。",
+        "**{貝類|かいるい}**：ホタテ、カキ、アサリ。",
+        "**{甲殻類|こうかくるい}**：エビ、カニ。",
+        "**{頭足類|とうそくるい}**：イカ、タコ。",
+        "**{海藻|かいそう}**：ノリ、ワカメ、コンブ。"
+       ]
+      },
+      {
+       "h": "{魚|さかな}の{分|わ}け{方|かた}"
+      },
+      {
+       "ul": [
+        "**くらし{方|かた}**：**{回遊魚|かいゆうぎょ}**は{季節|きせつ}にあわせて{遠|とお}くまで{泳|およ}ぎます（カツオ、マグロ、サバ、イワシ、サンマ）。**{底魚|そこうお}**は{海|うみ}の{底|そこ}の{近|ちか}くにいます（タラ、カレイ、ヒラメ）。",
+        "**{肉|にく}の{色|いろ}**：{背中|せなか}が{青|あお}い**{青魚|あおざかな}**（イワシ、アジ、サバ、サンマ）、**{白身魚|しろみざかな}**（タイ、ヒラメ、タラ）、**{赤身|あかみ}**（マグロ、カツオ）。"
+       ]
+      },
+      {
+       "h": "{旬|しゅん}"
+      },
+      {
+       "p": "{魚|さかな}や{貝|かい}には、いちばんおいしくて、たくさんとれる{時期|じき}があります。これを**{旬|しゅん}**といいます。カツオは{春|はる}の**{初|はつ}ガツオ**と、{秋|あき}の**{戻|もど}りガツオ**があります。サケは{生|う}まれた{川|かわ}にもどって{卵|たまご}をうみます（**{遡上|そじょう}**）。"
+      },
+      {
+       "note": "{魚|さかな}の{日本語|にほんご}の{名前|なまえ}を{知|し}っていると、{船|ふね}の{上|うえ}で{仕事|しごと}の{指示|しじ}がわかりやすくなります。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hasil laut: ikan, kerang, krustasea, cephalopoda, rumput laut; ikan dibedakan migran/dasar dan biru/putih/merah.",
+      "points": [
+       "Ikan migran (回遊魚): カツオ, マグロ, サバ, イワシ.",
+       "Ikan dasar (底魚): タラ, カレイ, ヒラメ.",
+       "Ikan biru (青魚): イワシ, アジ, サバ, サンマ.",
+       "旬 = musim terbaik."
+      ],
+      "avoid": [
+       "Menyamakan ikan dasar dengan ikan migran."
+      ],
+      "exam": [
+       "Menggolongkan nama ikan ke kelompoknya.",
+       "Arti 旬."
+      ]
+     },
+     "jp": {
+      "core": "{魚介類|ぎょかいるい}は{魚|さかな}・{貝|かい}・エビカニ・イカタコ・{海藻|かいそう}。{回遊魚|かいゆうぎょ}と{底魚|そこうお}、{青魚|あおざかな}と{白身魚|しろみざかな}に{分|わ}ける。",
+      "points": [
+       "{回遊魚|かいゆうぎょ}：カツオ・マグロ・サバ・イワシ。",
+       "{底魚|そこうお}：タラ・カレイ・ヒラメ。",
+       "{青魚|あおざかな}：イワシ・アジ・サバ・サンマ。",
+       "{旬|しゅん}＝いちばんおいしい{時期|じき}。"
+      ],
+      "avoid": [
+       "{底魚|そこうお}と{回遊魚|かいゆうぎょ}をまちがえること。"
+      ],
+      "exam": [
+       "{魚|さかな}の{名前|なまえ}をなかまに{分|わ}ける。",
+       "{旬|しゅん}の{意味|いみ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s3",
+    "no": 3,
+    "title": {
+     "id": "Kapal Ikan dan Bagian-Bagiannya",
+     "jp": "{漁船|ぎょせん}と{船|ふね}の{各部|かくぶ}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Arah dan sisi kapal"
+      },
+      {
+       "ul": [
+        "**Haluan (船首)**: bagian depan kapal.",
+        "**Buritan (船尾)**: bagian belakang kapal.",
+        "**Lambung kiri (左舷)** dan **lambung kanan (右舷)**: kiri dan kanan jika menghadap haluan."
+       ]
+      },
+      {
+       "note": "Lampu navigasi malam hari: sisi kiri (左舷) merah, sisi kanan (右舷) hijau."
+      },
+      {
+       "h": "Bagian-bagian kapal"
+      },
+      {
+       "ul": [
+        "**Dek (甲板)**: lantai terbuka tempat bekerja.",
+        "**Ruang kemudi (操舵室)**: tempat kapten mengendalikan kapal dan melihat peralatan navigasi.",
+        "**Palka ikan (魚倉)**: ruang penyimpanan hasil tangkapan, dijaga dingin dengan es atau pendingin.",
+        "**Kamar mesin (機関室)**: tempat mesin utama.",
+        "**Kemudi (舵)** dan **baling-baling (スクリュー)**: mengarahkan dan menggerakkan kapal.",
+        "**Jangkar (錨)**: menahan kapal agar tidak hanyut saat berhenti."
+       ]
+      },
+      {
+       "h": "Ukuran kapal"
+      },
+      {
+       "p": "Ukuran kapal dinyatakan dengan **tonase kotor (総トン数)**. Kapal kecil bekerja dekat pantai, kapal besar bisa berlayar jauh. Kapal bergerak naik-turun dan miring oleh ombak (**動揺**), jadi jaga keseimbangan saat berjalan."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{船|ふね}の{方向|ほうこう}"
+      },
+      {
+       "ul": [
+        "**{船首|せんしゅ}**：{船|ふね}の{前|まえ}。",
+        "**{船尾|せんび}**：{船|ふね}の{後|うし}ろ。",
+        "**{左舷|さげん}**と**{右舷|うげん}**：{船首|せんしゅ}のほうを{向|む}いて、{左|ひだり}と{右|みぎ}。"
+       ]
+      },
+      {
+       "note": "{夜|よる}の{航海灯|こうかいとう}：{左舷|さげん}は{赤|あか}、{右舷|うげん}は{緑|みどり}です。"
+      },
+      {
+       "h": "{船|ふね}の{各部|かくぶ}"
+      },
+      {
+       "ul": [
+        "**{甲板|かんぱん}**：{外|そと}にあって、{仕事|しごと}をする{床|ゆか}。",
+        "**{操舵室|そうだしつ}**：{船長|せんちょう}が{船|ふね}をうごかし、{機械|きかい}を{見|み}る{部屋|へや}。",
+        "**{魚倉|ぎょそう}**：とった{魚|さかな}をおく{場所|ばしょ}。{氷|こおり}や{冷|ひ}やす{機械|きかい}で{冷|つめ}たくします。",
+        "**{機関室|きかんしつ}**：エンジンがある{部屋|へや}。",
+        "**{舵|かじ}**と**スクリュー**：{船|ふね}の{向|む}きをかえ、{船|ふね}をすすめる。",
+        "**{錨|いかり}**：{船|ふね}がとまっているとき、{流|なが}されないようにする。"
+       ]
+      },
+      {
+       "h": "{船|ふね}の{大|おお}きさ"
+      },
+      {
+       "p": "{船|ふね}の{大|おお}きさは**{総|そう}トン{数|すう}**で{表|あらわ}します。{小|ちい}さい{船|ふね}は{海岸|かいがん}の{近|ちか}く、{大|おお}きい{船|ふね}は{遠|とお}くの{海|うみ}で{仕事|しごと}をします。{船|ふね}は{波|なみ}でゆれるので（**{動揺|どうよう}**）、{歩|ある}くときはバランスに{気|き}をつけます。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Hafal haluan/buritan/kiri/kanan dan fungsi bagian kapal.",
+      "points": [
+       "船首 = depan; 船尾 = belakang.",
+       "左舷 = kiri (lampu merah); 右舷 = kanan (lampu hijau).",
+       "魚倉 = palka ikan; 操舵室 = ruang kemudi; 機関室 = kamar mesin.",
+       "Ukuran kapal: 総トン数."
+      ],
+      "avoid": [
+       "Tertukar kiri-kanan: 左舷 dan 右舷 ditentukan saat menghadap haluan."
+      ],
+      "exam": [
+       "Gambar kapal: tunjuk bagian yang ditanya.",
+       "Warna lampu kiri dan kanan."
+      ]
+     },
+     "jp": {
+      "core": "{船首|せんしゅ}・{船尾|せんび}・{左舷|さげん}・{右舷|うげん}と、{船|ふね}の{各部|かくぶ}のはたらきを{覚|おぼ}える。",
+      "points": [
+       "{船首|せんしゅ}＝{前|まえ}、{船尾|せんび}＝{後|うし}ろ。",
+       "{左舷|さげん}＝{左|ひだり}（{赤|あか}）、{右舷|うげん}＝{右|みぎ}（{緑|みどり}）。",
+       "{魚倉|ぎょそう}・{操舵室|そうだしつ}・{機関室|きかんしつ}。",
+       "{大|おお}きさは{総|そう}トン{数|すう}。"
+      ],
+      "avoid": [
+       "{左舷|さげん}と{右舷|うげん}を{逆|ぎゃく}に{覚|おぼ}えること。"
+      ],
+      "exam": [
+       "{船|ふね}の{図|ず}で{場所|ばしょ}を{答|こた}える。",
+       "{左右|さゆう}の{航海灯|こうかいとう}の{色|いろ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s4",
+    "no": 4,
+    "title": {
+     "id": "Awak Kapal dan Komunikasi",
+     "jp": "{乗組員|のりくみいん}の{役割|やくわり}と{報連相|ほうれんそう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pembagian tugas di kapal"
+      },
+      {
+       "ul": [
+        "**Kapten (船長)**: penanggung jawab keselamatan kapal dan keputusan akhir.",
+        "**Kepala kamar mesin (機関長)**: bertanggung jawab atas mesin.",
+        "**Kepala penangkapan (漁労長)**: memimpin kegiatan menangkap ikan, terutama di kapal besar.",
+        "**Awak dek (甲板員)**: mengerjakan jaring, tali, dan tugas di dek.",
+        "**Juru masak (司厨)**: menyiapkan makanan awak."
+       ]
+      },
+      {
+       "h": "Aturan emas: ikuti perintah dan konfirmasi"
+      },
+      {
+       "ol": [
+        "Dengarkan perintah sampai selesai.",
+        "**Ulangi perintah (復唱)** untuk memastikan tidak salah paham, misalnya 「はい、網を上げます」.",
+        "Jika tidak mengerti, katakan 「もう一度お願いします」. Jangan menebak."
+       ]
+      },
+      {
+       "h": "Lapor, kabari, konsultasi (報告・連絡・相談)"
+      },
+      {
+       "p": "Disingkat **ほうれんそう**. **報告** = melapor hasil; **連絡** = memberi kabar; **相談** = bertanya sebelum memutuskan. Laporkan juga hal kecil seperti luka, alat rusak, atau badan tidak enak, karena di laut masalah kecil cepat jadi besar."
+      },
+      {
+       "h": "Isyarat di tempat bising"
+      },
+      {
+       "p": "Suara mesin dan ombak membuat suara sulit terdengar. Karena itu dipakai **isyarat tangan (合図)** dan seruan (声かけ), misalnya 「あぶない！」 saat ada bahaya. Selalu ada orang yang **berjaga (見張り / 当直)**."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{船|ふね}の{仕事|しごと}のわけ{方|かた}"
+      },
+      {
+       "ul": [
+        "**{船長|せんちょう}**：{船|ふね}の{安全|あんぜん}にせきにんがあり、{最後|さいご}に{決|き}める{人|ひと}。",
+        "**{機関長|きかんちょう}**：エンジンのせきにんしゃ。",
+        "**{漁労長|ぎょろうちょう}**：{漁|りょう}のリーダー。{大|おお}きい{船|ふね}にいます。",
+        "**{甲板員|かんぱんいん}**：{甲板|かんぱん}で、{網|あみ}やロープなどの{仕事|しごと}をする{人|ひと}。",
+        "**{司厨|しちゅう}**：{船|ふね}の{食事|しょくじ}をつくる{人|ひと}。"
+       ]
+      },
+      {
+       "h": "{大切|たいせつ}なルール：{指示|しじ}をきいて、{確認|かくにん}する"
+      },
+      {
+       "ol": [
+        "{指示|しじ}を{最後|さいご}まできく。",
+        "**{復唱|ふくしょう}**する。{例|れい}：「はい、{網|あみ}を{上|あ}げます」。",
+        "わからないときは「もう{一度|いちど}お{願|ねが}いします」と{言|い}う。{想像|そうぞう}でやらない。"
+       ]
+      },
+      {
+       "h": "{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}"
+      },
+      {
+       "p": "**ほうれんそう**といいます。**{報告|ほうこく}**＝{結果|けっか}をつたえる、**{連絡|れんらく}**＝{知|し}らせる、**{相談|そうだん}**＝{決|き}める{前|まえ}に{聞|き}く。けがや{道具|どうぐ}のこわれ、{体|からだ}の{調子|ちょうし}が{悪|わる}いときも、すぐに{言|い}います。{海|うみ}では{小|ちい}さな{問題|もんだい}が{大|おお}きくなりやすいです。"
+      },
+      {
+       "h": "うるさい{場所|ばしょ}の{合図|あいず}"
+      },
+      {
+       "p": "エンジンや{波|なみ}の{音|おと}で{声|こえ}が{聞|き}こえにくいので、**{合図|あいず}**（{手|て}の{合図|あいず}）や**{声|こえ}かけ**（「あぶない！」）を{使|つか}います。いつも**{見張|みは}り**や**{当直|とうちょく}**の{人|ひと}がいます。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Ikuti perintah, ulangi untuk konfirmasi, dan laporkan semuanya (ほうれんそう).",
+      "points": [
+       "船長 memutuskan; 機関長 = mesin; 漁労長 = penangkapan.",
+       "復唱 = mengulang perintah.",
+       "ほうれんそう = 報告・連絡・相談.",
+       "Gunakan 合図 di tempat bising."
+      ],
+      "avoid": [
+       "Menebak perintah yang tidak jelas.",
+       "Menyembunyikan luka atau alat rusak."
+      ],
+      "exam": [
+       "Tugas tiap jabatan.",
+       "Arti ほうれんそう."
+      ]
+     },
+     "jp": {
+      "core": "{指示|しじ}を{復唱|ふくしょう}し、{小|ちい}さなことでも{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}する。",
+      "points": [
+       "{船長|せんちょう}が{決|き}める。{機関長|きかんちょう}＝エンジン、{漁労長|ぎょろうちょう}＝{漁|りょう}。",
+       "{復唱|ふくしょう}＝{指示|しじ}をくりかえす。",
+       "ほうれんそう＝{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}。",
+       "うるさい{所|ところ}では{合図|あいず}。"
+      ],
+      "avoid": [
+       "わからない{指示|しじ}を{想像|そうぞう}でやること。",
+       "けがや{故障|こしょう}をかくすこと。"
+      ],
+      "exam": [
+       "{役割|やくわり}のちがい。",
+       "ほうれんそうの{意味|いみ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s5",
+    "no": 5,
+    "title": {
+     "id": "Navigasi Dasar dan Peralatan",
+     "jp": "{航海|こうかい}の{基本|きほん}と{機器|きき}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Arah dan posisi"
+      },
+      {
+       "p": "Arah ditentukan dengan **kompas (コンパス)**. Empat arah utama: 北 (utara), 東 (timur), 南 (selatan), 西 (barat). Posisi di bumi dinyatakan dengan **lintang (緯度)** dan **bujur (経度)**. **Peta laut (海図)** menunjukkan kedalaman, batu karang, dan pelabuhan."
+      },
+      {
+       "h": "Satuan jarak dan kecepatan di laut"
+      },
+      {
+       "ul": [
+        "**Mil laut (海里)**: 1 mil laut = 1.852 m.",
+        "**Knot (ノット)**: kecepatan 1 mil laut per jam."
+       ]
+      },
+      {
+       "h": "Peralatan utama"
+      },
+      {
+       "ul": [
+        "**GPS**: menunjukkan posisi kapal.",
+        "**Radar (レーダー)**: menampakkan kapal lain, pulau, dan daratan, juga saat berkabut atau malam.",
+        "**Pencari ikan (魚群探知機)**: mengirim gelombang suara (超音波) ke bawah; pantulannya menunjukkan kawanan ikan dan dasar laut.",
+        "**Radio (無線)**: untuk berkomunikasi dengan kapal lain dan kantor di darat."
+       ]
+      },
+      {
+       "note": "Keadaan darurat di laut: hubungi **Penjaga Pantai Jepang (海上保安庁) di nomor 118**."
+      },
+      {
+       "h": "Memeriksa sebelum berlayar"
+      },
+      {
+       "p": "Pastikan bahan bakar cukup, radio dan GPS hidup, dan prakiraan cuaca sudah dicek. Jangan memaksa berlayar dengan alat yang rusak."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{方位|ほうい}と{位置|いち}"
+      },
+      {
+       "p": "{方位|ほうい}は**コンパス**で{調|しら}べます。{四|よっ}つの{方位|ほうい}は、{北|きた}・{東|ひがし}・{南|みなみ}・{西|にし}です。{地球|ちきゅう}の{上|うえ}の{場所|ばしょ}は**{緯度|いど}**と**{経度|けいど}**で{表|あらわ}します。**{海図|かいず}**には、{水|みず}の{深|ふか}さ、{岩|いわ}、{港|みなと}などがかいてあります。"
+      },
+      {
+       "h": "{海|うみ}の{距離|きょり}と{速|はや}さ"
+      },
+      {
+       "ul": [
+        "**{海里|かいり}**：1{海里|かいり}は1,852メートル。",
+        "**ノット**：1{時間|じかん}に1{海里|かいり}すすむ{速|はや}さ。"
+       ]
+      },
+      {
+       "h": "おもな{機器|きき}"
+      },
+      {
+       "ul": [
+        "**GPS**：{船|ふね}の{位置|いち}がわかる。",
+        "**レーダー**：ほかの{船|ふね}や{島|しま}、{陸|りく}が{見|み}える。{霧|きり}や{夜|よる}でも{使|つか}える。",
+        "**{魚群探知機|ぎょぐんたんちき}**：{音|おと}（**{超音波|ちょうおんぱ}**）を{下|した}に{送|おく}り、はね{返|かえ}りで{魚|さかな}の{群|む}れや{海底|かいてい}がわかる。",
+        "**{無線|むせん}**：ほかの{船|ふね}や{陸|りく}の{事務所|じむしょ}と{話|はな}す。"
+       ]
+      },
+      {
+       "note": "{海|うみ}の{事故|じこ}のとき：**{海上保安庁|かいじょうほあんちょう} 118{番|ばん}**に{連絡|れんらく}します。"
+      },
+      {
+       "h": "{出港前|しゅっこうまえ}の{確認|かくにん}"
+      },
+      {
+       "p": "{燃料|ねんりょう}は{足|た}りるか、{無線|むせん}とGPSは{動|うご}くか、{天気予報|てんきよほう}はどうか、を{確|たし}かめます。{機器|きき}がこわれているときは、{無理|むり}に{出|で}ません。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Navigasi memakai kompas, peta laut, GPS, radar, pencari ikan, dan radio; 1 knot = 1 mil laut/jam.",
+      "points": [
+       "海里 = 1.852 m; ノット = mil laut per jam.",
+       "魚群探知機 = gelombang suara untuk melihat ikan.",
+       "レーダー berguna saat kabut/malam.",
+       "Darurat laut: 118."
+      ],
+      "avoid": [
+       "Berangkat tanpa memeriksa radio, GPS, dan BBM."
+      ],
+      "exam": [
+       "Fungsi tiap alat.",
+       "Nomor darurat laut."
+      ]
+     },
+     "jp": {
+      "core": "コンパス・{海図|かいず}・GPS・レーダー・{魚群探知機|ぎょぐんたんちき}・{無線|むせん}で{航海|こうかい}する。",
+      "points": [
+       "1{海里|かいり}＝1,852m。ノット＝1{時間|じかん}の{海里|かいり}。",
+       "{魚群探知機|ぎょぐんたんちき}＝{音|おと}で{魚|さかな}を{見|み}つける。",
+       "レーダーは{霧|きり}や{夜|よる}に{役|やく}{立|だ}つ。",
+       "{海|うみ}の{事故|じこ}は118{番|ばん}。"
+      ],
+      "avoid": [
+       "{機器|きき}と{燃料|ねんりょう}を{確認|かくにん}しないで{出|で}ること。"
+      ],
+      "exam": [
+       "{機器|きき}のはたらき。",
+       "{海|うみ}の{緊急電話番号|きんきゅうでんわばんごう}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s6",
+    "no": 6,
+    "title": {
+     "id": "Tali dan Simpul",
+     "jp": "ロープワーク"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Mengapa simpul penting"
+      },
+      {
+       "p": "Di kapal, tali dipakai untuk menambatkan kapal, mengikat alat, dan menarik jaring. Simpul yang salah bisa lepas atau tidak bisa dibuka. Simpul yang baik **kuat, tidak mudah lepas, dan mudah dibuka**."
+      },
+      {
+       "h": "Simpul dasar"
+      },
+      {
+       "ul": [
+        "**もやい結び (bowline)**: membuat lingkaran yang tidak mengecil. Dipakai untuk menambatkan kapal. Tetap mudah dibuka setelah ditarik kencang.",
+        "**本結び (simpul pipih)**: menyambung dua tali yang ukurannya sama. Tidak cocok untuk beban berat atau tali yang licin.",
+        "**一重継ぎ (sheet bend)**: menyambung dua tali yang ukurannya berbeda.",
+        "**巻き結び (clove hitch)**: mengikat tali pada tiang atau pagar dengan cepat.",
+        "**8の字結び (angka delapan)**: simpul penahan di ujung tali agar tidak lepas dari lubang."
+       ]
+      },
+      {
+       "h": "Aturan keselamatan dengan tali"
+      },
+      {
+       "ul": [
+        "Jangan melilitkan tali di tangan atau kaki.",
+        "Jangan berdiri di dalam lingkaran tali yang bisa mengencang.",
+        "Jangan berdiri di garis tali yang sedang tegang. Jika putus, tali bisa melesat (跳ね返り).",
+        "Periksa tali yang aus, berserabut, atau berjamur, dan ganti."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "なぜロープワークが{大切|たいせつ}か"
+      },
+      {
+       "p": "{船|ふね}では、ロープで{船|ふね}をとめたり、{道具|どうぐ}をしばったり、{網|あみ}をひいたりします。{結|むす}び{方|かた}をまちがえると、ほどけたり、あけられなくなったりします。よい{結|むす}びは**{強|つよ}く、ほどけにくく、すぐほどける**{結|むす}びです。"
+      },
+      {
+       "h": "{基本|きほん}の{結|むす}び{方|かた}"
+      },
+      {
+       "ul": [
+        "**もやい{結|むす}び**：{小|ちい}さくならない{輪|わ}をつくる。{船|ふね}をつなぐときに{使|つか}う。{強|つよ}くひいても、あとでほどける。",
+        "**{本|ほん}{結|むす}び**：{同|おな}じ{太|ふと}さのロープ2{本|ほん}をつなぐ。{重|おも}いものや、すべりやすいロープには{向|む}かない。",
+        "**{一重|ひとえ}{継|つ}ぎ**：{太|ふと}さがちがうロープ2{本|ほん}をつなぐ。",
+        "**{巻|ま}き{結|むす}び**：{柱|はしら}やてすりにロープをすぐに{結|むす}ぶ。",
+        "**8の{字|じ}{結|むす}び**：ロープの{先|さき}がぬけないようにする{止|と}め{結|むす}び。"
+       ]
+      },
+      {
+       "h": "ロープの{安全|あんぜん}ルール"
+      },
+      {
+       "ul": [
+        "ロープを{手|て}や{足|あし}に{巻|ま}かない。",
+        "しまる{輪|わ}のなかに{立|た}たない。",
+        "ぴんと{張|は}ったロープのまっすぐ{前|まえ}に{立|た}たない。{切|き}れると**{跳|は}ね{返|かえ}り**があり、あぶない。",
+        "{古|ふる}い、{毛羽立|けばだ}った、カビのあるロープは{点検|てんけん}してかえる。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pilih simpul sesuai tujuan; jangan berdiri di garis tali yang tegang.",
+      "points": [
+       "もやい結び = lingkaran tetap untuk menambat.",
+       "本結び = sambung tali sama besar.",
+       "一重継ぎ = tali beda ukuran.",
+       "巻き結び = ikat ke tiang; 8の字結び = penahan."
+      ],
+      "avoid": [
+       "Memakai 本結び untuk beban berat.",
+       "Berdiri di depan tali tegang."
+      ],
+      "exam": [
+       "Nama simpul dan gunanya.",
+       "Posisi aman dekat tali tegang."
+      ]
+     },
+     "jp": {
+      "core": "{目的|もくてき}にあう{結|むす}びを{選|えら}ぶ。{張|は}ったロープの{線上|せんじょう}に{立|た}たない。",
+      "points": [
+       "もやい{結|むす}び＝つなぐ{輪|わ}。",
+       "{本|ほん}{結|むす}び＝{同|おな}じ{太|ふと}さをつなぐ。",
+       "{一重|ひとえ}{継|つ}ぎ＝ちがう{太|ふと}さをつなぐ。",
+       "{巻|ま}き{結|むす}び＝{柱|はしら}に{結|むす}ぶ。8の{字|じ}＝{止|と}め{結|むす}び。"
+      ],
+      "avoid": [
+       "{本|ほん}{結|むす}びで{重|おも}いものを{引|ひ}くこと。",
+       "{張|は}ったロープの{前|まえ}に{立|た}つこと。"
+      ],
+      "exam": [
+       "{結|むす}びの{名前|なまえ}とつかい{方|かた}。",
+       "{張|は}ったロープのまわりで{安全|あんぜん}な{位置|いち}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s7",
+    "no": 7,
+    "title": {
+     "id": "Jaring dan Alat Tangkap Dasar",
+     "jp": "{網|あみ}と{漁具|ぎょぐ}の{基礎|きそ}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bagian jaring"
+      },
+      {
+       "ul": [
+        "**Kain jaring (網地)**: bagian berlubang yang menahan ikan.",
+        "**Pelampung (浮き)**: membuat bagian atas jaring mengapung.",
+        "**Pemberat (おもり／沈子)**: membuat bagian bawah jaring tenggelam.",
+        "**Mata jaring (目合)**: ukuran lubang. Mata kecil menangkap ikan kecil juga, sehingga ada aturan ukuran mata."
+       ]
+      },
+      {
+       "h": "Jenis alat tangkap"
+      },
+      {
+       "ul": [
+        "**Jaring insang (刺網)**: dipasang tegak; ikan tersangkut di mata jaring.",
+        "**Pukat cincin (巻網)**: melingkari kawanan ikan lalu mengerutkan bagian bawah.",
+        "**Pukat tarik dasar (底びき網)**: ditarik kapal di dasar laut.",
+        "**Jaring tetap (定置網)**: dipasang di tempat tertentu dan ikan masuk sendiri.",
+        "**Pancing (釣り)**: memakai mata pancing (釣り針), tali (釣り糸), dan umpan (餌).",
+        "**Bubu (かご・つぼ)**: perangkap untuk kepiting, gurita, dan sebagainya."
+       ]
+      },
+      {
+       "h": "Merawat alat tangkap"
+      },
+      {
+       "ol": [
+        "Setelah dipakai, bilas dari lumpur dan sisa ikan.",
+        "Periksa robekan; **perbaiki jaring (網の補修)** dengan jarum jaring dan benang.",
+        "Keringkan dan simpan di tempat yang tidak terkena matahari langsung.",
+        "Jangan membuang jaring atau tali bekas ke laut karena mencemari dan bisa menjerat makhluk laut."
+       ]
+      }
+     ],
+     "jp": [
+      {
+       "h": "{網|あみ}の{部分|ぶぶん}"
+      },
+      {
+       "ul": [
+        "**{網地|あみじ}**：あみの、あなのあいた{部分|ぶぶん}。",
+        "**{浮|う}き**：{網|あみ}の{上|うえ}をうかせる。",
+        "**おもり（{沈子|ちんし}）**：{網|あみ}の{下|した}をしずめる。",
+        "**{目合|めあい}**：あなの{大|おお}きさ。{小|ちい}さいと{小|ちい}さい{魚|さかな}もとれるので、ルールがあります。"
+       ]
+      },
+      {
+       "h": "{漁具|ぎょぐ}の{種類|しゅるい}"
+      },
+      {
+       "ul": [
+        "**{刺網|さしあみ}**：{立|た}てておき、{魚|さかな}が{網|あみ}の{目|め}にかかる。",
+        "**{巻網|まきあみ}**：{魚|さかな}の{群|む}れをぐるっとかこんで、{下|した}をしぼる。",
+        "**{底|そこ}びき{網|あみ}**：{船|ふね}が{海|うみ}の{底|そこ}をひく。",
+        "**{定置網|ていちあみ}**：{決|き}まった{場所|ばしょ}において、{魚|さかな}が{入|はい}る。",
+        "**{釣|つ}り**：**{釣|つ}り{針|ばり}**、**{釣|つ}り{糸|いと}**、**{餌|えさ}**を{使|つか}う。",
+        "**かご・つぼ**：カニやタコなどを{入|い}れる{入|い}れ{物|もの}。"
+       ]
+      },
+      {
+       "h": "{漁具|ぎょぐ}の{手|て}{入|い}れ"
+      },
+      {
+       "ol": [
+        "{使|つか}ったあとは、どろや{魚|さかな}のかすを{水|みず}で{洗|あら}う。",
+        "やぶれを{点検|てんけん}して、**{網|あみ}の{補修|ほしゅう}**（{網|あみ}をつくろう）をする。",
+        "かわかして、{日光|にっこう}があたらない{所|ところ}にしまう。",
+        "{古|ふる}い{網|あみ}やロープを{海|うみ}にすてない。{海|うみ}をよごし、{生|い}き{物|もの}がからまるからです。"
+       ]
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jaring = kain, pelampung, pemberat; pilih alat sesuai ikan dan rawat setelah dipakai.",
+      "points": [
+       "浮き di atas, おもり di bawah.",
+       "Mata jaring (目合) diatur aturan.",
+       "刺網, 巻網, 底びき網, 定置網, 釣り, かご.",
+       "Jangan buang jaring bekas ke laut."
+      ],
+      "avoid": [
+       "Membuang jaring rusak ke laut."
+      ],
+      "exam": [
+       "Nama bagian jaring.",
+       "Cara kerja tiap alat tangkap."
+      ]
+     },
+     "jp": {
+      "core": "{網|あみ}は{網地|あみじ}・{浮|う}き・おもりでできている。{漁具|ぎょぐ}は{魚|さかな}にあわせて{選|えら}び、{手|て}{入|い}れする。",
+      "points": [
+       "{浮|う}きは{上|うえ}、おもりは{下|した}。",
+       "{目合|めあい}にはルールがある。",
+       "{刺網|さしあみ}・{巻網|まきあみ}・{底|そこ}びき{網|あみ}・{定置網|ていちあみ}・{釣|つ}り・かご。",
+       "{古|ふる}い{網|あみ}を{海|うみ}にすてない。"
+      ],
+      "avoid": [
+       "こわれた{網|あみ}を{海|うみ}にすてること。"
+      ],
+      "exam": [
+       "{網|あみ}の{部分|ぶぶん}の{名前|なまえ}。",
+       "{漁具|ぎょぐ}ごとのしくみ。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b1s8",
+    "no": 8,
+    "title": {
+     "id": "Cuaca, Ombak, dan Keputusan Melaut",
+     "jp": "{天気|てんき}と{海|うみ}の{知識|ちしき}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Hal yang perlu diketahui"
+      },
+      {
+       "ul": [
+        "**Angin (風)**: arah (風向) dan kecepatan (風速).",
+        "**Ombak (波)**: tinggi ombak disebut 波高. **Ombak angin (風浪)** dibuat angin setempat; **gelombang jauh (うねり)** datang dari badai yang jauh, panjang dan bisa datang walau cuaca tampak tenang.",
+        "**Pasang surut (潮)**: pasang tinggi (満潮) dan surut (干潮); arus (潮流) mempengaruhi alat tangkap dan kapal.",
+        "**Topan (台風)** dan **kabut (霧)**: sangat berbahaya, jarak pandang (視界) turun."
+       ]
+      },
+      {
+       "h": "Sumber informasi"
+      },
+      {
+       "p": "**Badan Meteorologi Jepang (気象庁)**, peta cuaca (天気図), prakiraan laut, peringatan (注意報・警報), dan radio nelayan (漁業無線)."
+      },
+      {
+       "h": "Memutuskan berangkat atau tidak (出漁判断)"
+      },
+      {
+       "ol": [
+        "Cek prakiraan angin, ombak, dan peringatan.",
+        "Kapten memutuskan berdasarkan keselamatan, bukan hasil tangkapan.",
+        "Jika kondisi memburuk, **pulang lebih awal (早めの帰港)**.",
+        "Awak boleh dan harus menyampaikan kekhawatiran kepada kapten."
+       ]
+      },
+      {
+       "note": "Ikan yang hilang bisa dicari lagi besok. Nyawa tidak."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{知|し}っておくこと"
+      },
+      {
+       "ul": [
+        "**{風|かぜ}**：**{風向|ふうこう}**（むき）と**{風速|ふうそく}**（はやさ）。",
+        "**{波|なみ}**：{波|なみ}の{高|たか}さは**{波高|はこう}**。**{風浪|ふうろう}**はその{場|ば}の{風|かぜ}でできる{波|なみ}。**うねり**は{遠|とお}くの{嵐|あらし}からくる、{長|なが}い{波|なみ}で、{天気|てんき}がよく{見|み}えてもきます。",
+        "**{潮|しお}**：**{満潮|まんちょう}**と**{干潮|かんちょう}**。**{潮流|ちょうりゅう}**は{船|ふね}や{漁具|ぎょぐ}にえいきょうします。",
+        "**{台風|たいふう}**と**{霧|きり}**：とてもあぶない。{霧|きり}で**{視界|しかい}**（{見|み}える{範囲|はんい}）がせまくなる。"
+       ]
+      },
+      {
+       "h": "{情報|じょうほう}の{入手|にゅうしゅ}"
+      },
+      {
+       "p": "**{気象庁|きしょうちょう}**、**{天気図|てんきず}**、{海|うみ}の{予報|よほう}、**{注意報|ちゅういほう}・{警報|けいほう}**、**{漁業無線|ぎょぎょうむせん}**で{調|しら}べます。"
+      },
+      {
+       "h": "{出|で}るか{出|で}ないか（{出漁判断|しゅつりょうはんだん}）"
+      },
+      {
+       "ol": [
+        "{風|かぜ}、{波|なみ}、{警報|けいほう}の{予報|よほう}を{確認|かくにん}する。",
+        "{船長|せんちょう}は、{魚|さかな}のりょうではなく、{安全|あんぜん}を{第一|だいいち}に{決|き}める。",
+        "{天気|てんき}が{悪|わる}くなったら、**{早|はや}めに{帰港|きこう}**する。",
+        "{乗組員|のりくみいん}は、{不安|ふあん}なことを{船長|せんちょう}につたえてよい。つたえるべきです。"
+       ]
+      },
+      {
+       "note": "{魚|さかな}はまたあした{探|さが}せます。{命|いのち}はもどりません。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Keselamatan lebih penting daripada hasil tangkapan; pulang lebih awal jika cuaca memburuk.",
+      "points": [
+       "風浪 = ombak angin lokal; うねり = gelombang dari badai jauh.",
+       "満潮 = pasang; 干潮 = surut.",
+       "Info: 気象庁, 天気図, 注意報・警報.",
+       "Keputusan melaut oleh kapten, dengan prioritas keselamatan."
+      ],
+      "avoid": [
+       "Memaksa melaut karena takut rugi."
+      ],
+      "exam": [
+       "Beda 風浪 dan うねり.",
+       "Tindakan jika cuaca memburuk."
+      ]
+     },
+     "jp": {
+      "core": "{安全|あんぜん}が{第一|だいいち}。{天気|てんき}が{悪|わる}くなったら{早|はや}めに{帰|かえ}る。",
+      "points": [
+       "{風浪|ふうろう}＝その{場|ば}の{風|かぜ}の{波|なみ}。うねり＝{遠|とお}くの{嵐|あらし}の{波|なみ}。",
+       "{満潮|まんちょう}＝{高|たか}い、{干潮|かんちょう}＝{低|ひく}い。",
+       "{気象庁|きしょうちょう}・{天気図|てんきず}・{警報|けいほう}。",
+       "{出漁|しゅつりょう}は{船長|せんちょう}が{安全|あんぜん}を{第一|だいいち}に{決|き}める。"
+      ],
+      "avoid": [
+       "{損|そん}をしたくなくて{無理|むり}に{出|で}ること。"
+      ],
+      "exam": [
+       "{風浪|ふうろう}とうねりのちがい。",
+       "{天気|てんき}が{悪|わる}いときの{行動|こうどう}。"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,738 @@
+{
+ "schema": 1,
+ "bidang": "fishery",
+ "source": "Shirose Nihongo — tulisan orisinal berdasarkan standar kompetensi resmi bidang Perikanan (MOJ/ISA, MAFF/Badan Perikanan, MHLW) dan materi keselamatan MHLW untuk pekerja asing; bukan salinan buku mana pun. Soal = Latihan Shirose Nihongo, bukan soal resmi.",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. Teks ID/JP memakai **tebal**.",
+ "bab": {
+  "id": "bab2",
+  "no": 2,
+  "title": {
+   "id": "Keselamatan dan Kesehatan Kerja",
+   "jp": "{安全|あんぜん}と{衛生|えいせい}"
+  },
+  "intro": {
+   "id": "Cara bekerja dengan selamat di kapal ikan: pakaian dan pelindung, bekerja di dek, jatuh ke laut, mesin dan tali, bahan berbahaya dan api, serta kesehatan dan pertolongan pertama.",
+   "jp": "{船|ふね}の{上|うえ}で{安全|あんぜん}に{働|はたら}くための{服|ふく}そう、{甲板|かんぱん}、{海|うみ}への{転落|てんらく}、{機械|きかい}とロープ、{危険物|きけんぶつ}と{火|ひ}、{健康|けんこう}と{応急手当|おうきゅうてあて}を{学|まな}びます。"
+  },
+  "pages": [
+   1,
+   1
+  ],
+  "subs": [
+   {
+    "id": "b2s1",
+    "no": 1,
+    "title": {
+     "id": "Pakaian Kerja dan Alat Pelindung Diri",
+     "jp": "{服|ふく}そうと{保護具|ほごぐ}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Pakaian kerja"
+      },
+      {
+       "ul": [
+        "Pakai baju kerja yang pas. Ujung lengan dan celana jangan longgar karena bisa **tersangkut (巻き込まれ)** mesin atau tali.",
+        "Lepas **perhiasan** seperti cincin, gelang, dan kalung. Ikat rambut panjang.",
+        "Pakai **sepatu bot (長靴)** dengan sol anti licin. Sandal tidak boleh dipakai di dek."
+       ]
+      },
+      {
+       "h": "Alat pelindung diri (APD)"
+      },
+      {
+       "ul": [
+        "**Jaket pelampung (ライフジャケット／救命胴衣)**: dipakai terus saat bekerja di dek. Banyak kecelakaan fatal terjadi karena jatuh ke laut tanpa jaket.",
+        "**Sarung tangan (手袋)**: melindungi dari tali, jaring, dan sirip tajam. Dekat bagian berputar, sarung tangan longgar justru berbahaya.",
+        "**Helm (ヘルメット)**: jika ada risiko benda jatuh.",
+        "**Kacamata pelindung (保護めがね)**: saat memotong, membersihkan, atau ada percikan.",
+        "**Sumbat telinga (耳栓)**: di kamar mesin yang bising.",
+        "**Jas hujan (カッパ) dan pakaian hangat (防寒着)**: menjaga tubuh tidak basah dan dingin."
+       ]
+      },
+      {
+       "note": "Periksa jaket pelampung sebelum berangkat: tali pengencang utuh dan tidak sobek."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{作業|さぎょう}の{服|ふく}"
+      },
+      {
+       "ul": [
+        "{体|からだ}にあう{作業服|さぎょうふく}を{着|き}る。そでやズボンのすそがゆるいと、{機械|きかい}やロープに**{巻|ま}き{込|こ}まれる**ことがあります。",
+        "{指輪|ゆびわ}、うでわ、ネックレスなどは{外|はず}す。{長|なが}い{髪|かみ}はむすぶ。",
+        "すべりにくい{底|そこ}の**{長靴|ながぐつ}**をはく。{甲板|かんぱん}でサンダルはだめです。"
+       ]
+      },
+      {
+       "h": "{保護具|ほごぐ}"
+      },
+      {
+       "ul": [
+        "**ライフジャケット（{救命胴衣|きゅうめいどうい}）**：{甲板|かんぱん}で{働|はたら}くとき、いつも{着|き}る。{海|うみ}に{落|お}ちて{亡|な}くなる{事故|じこ}が{多|おお}いです。",
+        "**{手袋|てぶくろ}**：ロープや{網|あみ}、{魚|さかな}のとげから{手|て}を{守|まも}る。{回|まわ}る{部品|ぶひん}の{近|ちか}くでは、ゆるい{手袋|てぶくろ}はかえってあぶない。",
+        "**ヘルメット**：ものが{落|お}ちるおそれがあるとき。",
+        "**{保護|ほご}めがね**：{切|き}る、そうじする、{水|みず}がとぶとき。",
+        "**{耳栓|みみせん}**：うるさい{機関室|きかんしつ}で。",
+        "**カッパと{防寒着|ぼうかんぎ}**：ぬれたり、{冷|ひ}えたりしないため。"
+       ]
+      },
+      {
+       "note": "{出港|しゅっこう}まえに、ライフジャケットのひもがきれていないか{点検|てんけん}します。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pakaian rapat, tanpa perhiasan, bot anti licin, dan jaket pelampung dipakai terus.",
+      "points": [
+       "Lengan/celana longgar bisa tersangkut (巻き込まれ).",
+       "Lepas cincin, gelang, kalung.",
+       "Jaket pelampung (救命胴衣) selalu dipakai di dek.",
+       "Sarung tangan longgar berbahaya dekat bagian berputar."
+      ],
+      "avoid": [
+       "Melepas jaket pelampung karena panas atau gerah.",
+       "Memakai sandal di dek."
+      ],
+      "exam": [
+       "APD yang tepat untuk situasi tertentu.",
+       "Alasan tidak memakai perhiasan."
+      ]
+     },
+     "jp": {
+      "core": "{体|からだ}にあう{服|ふく}、アクセサリーなし、すべらない{長靴|ながぐつ}、ライフジャケットをいつも{着|き}る。",
+      "points": [
+       "ゆるい{服|ふく}は{巻|ま}き{込|こ}まれる。",
+       "{指輪|ゆびわ}などは{外|はず}す。",
+       "{甲板|かんぱん}ではライフジャケットをいつも{着|き}る。",
+       "{回|まわ}る{部品|ぶひん}の{近|ちか}くでゆるい{手袋|てぶくろ}はあぶない。"
+      ],
+      "avoid": [
+       "{暑|あつ}いからとライフジャケットを{脱|ぬ}ぐこと。",
+       "{甲板|かんぱん}でサンダルをはくこと。"
+      ],
+      "exam": [
+       "{場面|ばめん}にあう{保護具|ほごぐ}。",
+       "アクセサリーを{外|はず}す{理由|りゆう}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s2",
+    "no": 2,
+    "title": {
+     "id": "Bekerja di Dek dengan Aman",
+     "jp": "{甲板|かんぱん}での{安全|あんぜん}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Penyebab kecelakaan di dek"
+      },
+      {
+       "ul": [
+        "Dek **licin** karena air, minyak, dan lendir ikan.",
+        "Kapal **bergoyang (動揺)** oleh ombak.",
+        "Benda berserakan yang membuat orang **tersandung**.",
+        "Lubang palka yang terbuka (**開口部**) sehingga orang bisa jatuh."
+       ]
+      },
+      {
+       "h": "Cara kerja yang aman"
+      },
+      {
+       "ol": [
+        "Berjalan pelan, kaki terbuka, lutut sedikit ditekuk.",
+        "Prinsip **satu tangan untuk diri sendiri, satu untuk kapal**: berpeganganlah pada pegangan (手すり).",
+        "Di tangga, pakai tiga titik tumpu: dua tangan satu kaki, atau satu tangan dua kaki.",
+        "Bersihkan dek dari lendir dan minyak secara rutin.",
+        "Saat cuaca buruk, kurangi kerja di luar dan ikuti perintah kapten.",
+        "Angkat beban dengan punggung lurus; beban berat dibawa berdua."
+       ]
+      },
+      {
+       "h": "Rapi dan bersih: 5S"
+      },
+      {
+       "p": "**5S**: **整理** (pilah, buang yang tidak perlu), **整頓** (tata, tiap barang punya tempat), **清掃** (bersihkan), **清潔** (jaga kebersihan), **しつけ** (jadi kebiasaan). Dek yang rapi mengurangi kecelakaan."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{甲板|かんぱん}の{事故|じこ}の{原因|げんいん}"
+      },
+      {
+       "ul": [
+        "{水|みず}、{油|あぶら}、{魚|さかな}のぬめりで{甲板|かんぱん}が**すべる**。",
+        "{波|なみ}で{船|ふね}が**ゆれる**（**{動揺|どうよう}**）。",
+        "ものがちらかっていて**つまずく**。",
+        "{魚倉|ぎょそう}のふたが{開|あ}いている（**{開口部|かいこうぶ}**）ので、{落|お}ちる。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}なやり{方|かた}"
+      },
+      {
+       "ol": [
+        "ゆっくり{歩|ある}く。{足|あし}を{少|すこ}し{開|あ}いて、ひざを{少|すこ}しまげる。",
+        "**{片手|かたて}は{自分|じぶん}、{片手|かたて}は{船|ふね}**。**{手|て}すり**を{持|も}つ。",
+        "はしごは3{点|てん}で{支|ささ}える（{両手|りょうて}と{片足|かたあし}、または{片手|かたて}と{両足|りょうあし}）。",
+        "{甲板|かんぱん}の{油|あぶら}やぬめりを、よくそうじする。",
+        "{天気|てんき}が{悪|わる}いときは{外|そと}の{仕事|しごと}を{少|すく}なくして、{船長|せんちょう}の{指示|しじ}に{従|したが}う。",
+        "{重|おも}いものは、{背|せ}すじをのばして{持|も}つ。とても{重|おも}いものは2{人|ひと}で{持|も}つ。"
+       ]
+      },
+      {
+       "h": "きれいに{整|ととの}える：5S"
+      },
+      {
+       "p": "**5S**は、**{整理|せいり}**（いらないものをすてる）、**{整頓|せいとん}**（{場所|ばしょ}を{決|き}める）、**{清掃|せいそう}**（そうじする）、**{清潔|せいけつ}**（きれいをたもつ）、**しつけ**（{習慣|しゅうかん}にする）です。きれいな{甲板|かんぱん}は{事故|じこ}が{少|すく}ないです。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dek licin dan bergoyang; pegangan kuat, jalan pelan, rapikan dengan 5S.",
+      "points": [
+       "Penyebab: licin, goyang, tersandung, lubang terbuka.",
+       "一手は船 (手すり).",
+       "Tangga: tiga titik tumpu.",
+       "5S = 整理・整頓・清掃・清潔・しつけ."
+      ],
+      "avoid": [
+       "Berlari di dek.",
+       "Meletakkan barang di jalan dan membiarkan palka terbuka."
+      ],
+      "exam": [
+       "Urutan 5S.",
+       "Cara berjalan dan naik tangga yang aman."
+      ]
+     },
+     "jp": {
+      "core": "{甲板|かんぱん}はすべってゆれる。{手|て}すりを{持|も}ち、ゆっくり{歩|ある}き、5Sで{整|ととの}える。",
+      "points": [
+       "{原因|げんいん}：すべる・ゆれる・つまずく・{開口部|かいこうぶ}。",
+       "{片手|かたて}は{船|ふね}（{手|て}すり）。",
+       "はしごは3{点|てん}{支持|しじ}。",
+       "5S＝{整理|せいり}・{整頓|せいとん}・{清掃|せいそう}・{清潔|せいけつ}・しつけ。"
+      ],
+      "avoid": [
+       "{甲板|かんぱん}を{走|はし}ること。",
+       "{通路|つうろ}にものをおく、ふたをあけたままにすること。"
+      ],
+      "exam": [
+       "5Sの{意味|いみ}。",
+       "{歩|ある}き{方|かた}とはしごの{使|つか}い{方|かた}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s3",
+    "no": 3,
+    "title": {
+     "id": "Jatuh ke Laut dan Penyelamatan",
+     "jp": "{海|うみ}への{転落|てんらく}と{救助|きゅうじょ}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Mengapa sangat berbahaya"
+      },
+      {
+       "p": "Jatuh ke laut adalah penyebab kematian terbesar kecelakaan perikanan. Air dingin cepat menghabiskan tenaga, pakaian dan bot menjadi berat, ombak menyulitkan, dan di malam hari korban sulit terlihat."
+      },
+      {
+       "h": "Jika Anda melihat orang jatuh"
+      },
+      {
+       "ol": [
+        "Berteriak keras: **「人が落ちた！」** (ada orang jatuh).",
+        "**Tunjuk ke arah korban dan jangan lepaskan pandangan.**",
+        "Lempar **pelampung penyelamat (救命浮環)** atau benda apa pun yang mengapung.",
+        "Segera lapor ke **ruang kemudi** agar kapal diperlambat atau diputar balik.",
+        "Hubungi **118** (Penjaga Pantai) jika diperlukan.",
+        "Jangan terjun menolong tanpa persiapan karena Anda bisa menjadi korban kedua."
+       ]
+      },
+      {
+       "h": "Jika Anda yang jatuh"
+      },
+      {
+       "ol": [
+        "Jangan panik. Tarik napas.",
+        "Berbaring telentang dan **mengapung (背浮き)**; hemat tenaga, jangan berenang melawan arus.",
+        "Lambaikan tangan atau berteriak agar terlihat.",
+        "Tetap pakai jaket pelampung; itu yang menyelamatkan."
+       ]
+      },
+      {
+       "note": "Pencegahan terbaik: jaket pelampung, jangan bekerja sendirian di tepi kapal, dan berhati-hati di malam hari atau cuaca buruk."
+      }
+     ],
+     "jp": [
+      {
+       "h": "なぜとてもあぶないか"
+      },
+      {
+       "p": "{海|うみ}に{落|お}ちるのは、{漁業|ぎょぎょう}の{死亡事故|しぼうじこ}でいちばん{多|おお}い{原因|げんいん}です。{冷|つめ}たい{水|みず}で{体力|たいりょく}がすぐなくなり、{服|ふく}と{長靴|ながぐつ}が{重|おも}くなり、{波|なみ}で{動|うご}きにくく、{夜|よる}は{見|み}つけにくいです。"
+      },
+      {
+       "h": "{人|ひと}が{落|お}ちたのを{見|み}たら"
+      },
+      {
+       "ol": [
+        "{大|おお}きい{声|こえ}で**「{人|ひと}が{落|お}ちた！」**と{言|い}う。",
+        "**その{人|ひと}の{方向|ほうこう}を{指|ゆび}さして、{目|め}をはなさない。**",
+        "**{救命浮環|きゅうめいうきわ}**や、うくものを{投|な}げる。",
+        "すぐに**{操舵室|そうだしつ}**に{知|し}らせて、{船|ふね}をおそくする、またはもどす。",
+        "{必要|ひつよう}なら**118{番|ばん}**（{海上保安庁|かいじょうほあんちょう}）に{連絡|れんらく}する。",
+        "{準備|じゅんび}なしで{海|うみ}に{飛|と}び{込|こ}まない。{二人目|ふたりめ}の{被害者|ひがいしゃ}になるからです。"
+       ]
+      },
+      {
+       "h": "{自分|じぶん}が{落|お}ちたら"
+      },
+      {
+       "ol": [
+        "あわてない。ゆっくり{息|いき}をする。",
+        "あおむけになって**{背浮|せう}き**をする。{体力|たいりょく}をつかわない。{流|なが}れにさからって{泳|およ}がない。",
+        "{手|て}をふったり{声|こえ}を{出|で}したりして、{見|み}つけてもらう。",
+        "ライフジャケットは{着|き}たままにする。"
+       ]
+      },
+      {
+       "note": "いちばんの{予防|よぼう}：ライフジャケット、{船|ふね}のはしに{一人|ひとり}で{行|い}かない、{夜|よる}や{天気|てんき}が{悪|わる}いときは{特|とく}に{注意|ちゅうい}。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Teriak, tunjuk, lempar pelampung, lapor ke ruang kemudi; korban mengapung telentang.",
+      "points": [
+       "「人が落ちた！」 + tunjuk + jangan lepas pandangan.",
+       "Lempar 救命浮環.",
+       "Korban: 背浮き, hemat tenaga.",
+       "Jangan terjun tanpa persiapan."
+      ],
+      "avoid": [
+       "Mengira hanya perlu menolong sendiri.",
+       "Melepas pandangan dari korban."
+      ],
+      "exam": [
+       "Urutan tindakan saat melihat orang jatuh.",
+       "Arti 背浮き dan 救命浮環."
+      ]
+     },
+     "jp": {
+      "core": "{叫|さけ}ぶ・{指|ゆび}さす・{浮環|うきわ}を{投|な}げる・{操舵室|そうだしつ}へ{知|し}らせる。{落|お}ちた{人|ひと}は{背浮|せう}き。",
+      "points": [
+       "「{人|ひと}が{落|お}ちた！」＋{指|ゆび}さし＋{目|め}をはなさない。",
+       "{救命浮環|きゅうめいうきわ}を{投|な}げる。",
+       "{落|お}ちた{人|ひと}は{背浮|せう}きで{体力|たいりょく}を{守|まも}る。",
+       "{準備|じゅんび}なしで{飛|と}び{込|こ}まない。"
+      ],
+      "avoid": [
+       "{自分|じぶん}だけで{助|たす}けようとすること。",
+       "{落|お}ちた{人|ひと}から{目|め}をはなすこと。"
+      ],
+      "exam": [
+       "{人|ひと}が{落|お}ちたときの{順番|じゅんばん}。",
+       "{背浮|せう}きと{救命浮環|きゅうめいうきわ}の{意味|いみ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s4",
+    "no": 4,
+    "title": {
+     "id": "Mesin, Winch, dan Tali",
+     "jp": "{機械|きかい}・ウインチ・ロープの{危険|きけん}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bahaya utama"
+      },
+      {
+       "ul": [
+        "**Tertarik dan terlilit (巻き込まれ)** oleh drum, roda, atau tali yang bergerak.",
+        "**Terjepit (はさまれ)** di antara tali, jaring, dan badan kapal.",
+        "**Tali atau kawat putus dan melesat (跳ね返り)**."
+       ]
+      },
+      {
+       "h": "Peralatan"
+      },
+      {
+       "ul": [
+        "**ウインチ (winch)**: mesin penarik tali atau jaring.",
+        "**ドラム (drum)**: bagian berputar tempat tali digulung.",
+        "**非常停止ボタン (tombol berhenti darurat)**: tahu letaknya sebelum bekerja."
+       ]
+      },
+      {
+       "h": "Aturan aman"
+      },
+      {
+       "ol": [
+        "Jangan membersihkan atau memberi minyak mesin yang masih berjalan.",
+        "Jangan melepas **pelindung (カバー)** dan alat pengaman.",
+        "Jangan memegang tali yang sedang bergulung dengan tangan; jauhi drum.",
+        "Jangan berdiri di depan tali tegang atau di dalam lingkaran tali.",
+        "Sebelum menyalakan mesin atau menarik tali, **beri aba-aba dan cek sekeliling** (「巻きます！」「よし！」).",
+        "Jika ada yang terjepit, **tekan tombol berhenti darurat** dan panggil orang."
+       ]
+      },
+      {
+       "note": "Gunakan satu orang yang menjadi pemberi isyarat (合図者) agar semua mengerti kapan mesin bergerak."
+      }
+     ],
+     "jp": [
+      {
+       "h": "おもな{危険|きけん}"
+      },
+      {
+       "ul": [
+        "{動|うご}いているドラムや、ロープに**{巻|ま}き{込|こ}まれる**。",
+        "ロープや{網|あみ}と{船|ふね}のあいだに**はさまれる**。",
+        "ロープやワイヤーが{切|き}れて、**{跳|は}ね{返|かえ}る**。"
+       ]
+      },
+      {
+       "h": "{機械|きかい}"
+      },
+      {
+       "ul": [
+        "**ウインチ**：ロープや{網|あみ}をひく{機械|きかい}。",
+        "**ドラム**：ロープを{巻|ま}く、{回|まわ}る{部分|ぶぶん}。",
+        "**{非常停止|ひじょうていし}ボタン**：{仕事|しごと}のまえに、{場所|ばしょ}を{覚|おぼ}える。"
+       ]
+      },
+      {
+       "h": "{安全|あんぜん}のルール"
+      },
+      {
+       "ol": [
+        "{動|うご}いている{機械|きかい}をそうじしたり、{油|あぶら}をさしたりしない。",
+        "**カバー**や{安全装置|あんぜんそうち}を{外|はず}さない。",
+        "{巻|ま}いているロープを{手|て}でさわらない。ドラムから{遠|とお}くにいる。",
+        "ぴんと{張|は}ったロープの{前|まえ}や、ロープの{輪|わ}のなかに{立|た}たない。",
+        "{機械|きかい}をうごかす{前|まえ}、ロープをひく{前|まえ}に、**{声|こえ}をかけて、まわりを{確認|かくにん}する**（「{巻|ま}きます！」「よし！」）。",
+        "はさまれた{人|ひと}がいたら、すぐ**{非常停止|ひじょうていし}ボタン**をおして、{人|ひと}を{呼|よ}ぶ。"
+       ]
+      },
+      {
+       "note": "{合図|あいず}をする{人|ひと}を{一人|ひとり}{決|き}めると、みんなが{機械|きかい}のうごく{時|とき}を{知|し}ることができます。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Mesin berputar dan tali tegang berbahaya; beri aba-aba, jauhi, dan tahu tombol darurat.",
+      "points": [
+       "巻き込まれ, はさまれ, 跳ね返り.",
+       "Jangan servis mesin yang hidup.",
+       "Jangan lepas カバー.",
+       "Beri aba-aba; tekan 非常停止ボタン jika darurat."
+      ],
+      "avoid": [
+       "Mengatasi macet dengan tangan saat mesin hidup."
+      ],
+      "exam": [
+       "Nama bahaya dan pencegahannya.",
+       "Tindakan jika ada yang terjepit."
+      ]
+     },
+     "jp": {
+      "core": "{回|まわ}る{機械|きかい}と{張|は}ったロープはあぶない。{声|こえ}かけをして、{離|はな}れて、{非常停止|ひじょうていし}ボタンの{場所|ばしょ}を{知|し}る。",
+      "points": [
+       "{巻|ま}き{込|こ}まれ・はさまれ・{跳|は}ね{返|かえ}り。",
+       "{動|うご}く{機械|きかい}を{整備|せいび}しない。",
+       "カバーを{外|はず}さない。",
+       "{声|こえ}かけ。{非常停止|ひじょうていし}ボタン。"
+      ],
+      "avoid": [
+       "{動|うご}いている{機械|きかい}を{手|て}でなおすこと。"
+      ],
+      "exam": [
+       "{危険|きけん}の{名前|なまえ}と{防|ふせ}ぎ{方|かた}。",
+       "はさまれたときの{行動|こうどう}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s5",
+    "no": 5,
+    "title": {
+     "id": "Bahan Berbahaya, Tanda, dan Kebakaran",
+     "jp": "{危険物|きけんぶつ}・{標識|ひょうしき}・{火災|かさい}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Bahan berbahaya di kapal"
+      },
+      {
+       "ul": [
+        "**Bahan bakar (燃料)** seperti solar dan bensin: mudah terbakar.",
+        "**Gas bertekanan (高圧ガス)** seperti LPG untuk memasak: bisa terbakar dan meledak.",
+        "**Pendingin (冷媒)** pada mesin pendingin: bisa beracun.",
+        "**Deterjen dan pemutih**: jangan dicampur karena menghasilkan gas beracun (tulisan 「混ぜるな危険」)."
+       ]
+      },
+      {
+       "h": "Kekurangan oksigen"
+      },
+      {
+       "p": "Ruang tertutup seperti **palka ikan (魚倉)** atau tangki bisa **kekurangan oksigen (酸素欠乏)**. Jangan masuk sendirian; buka ventilasi dulu dan beri tahu orang lain."
+      },
+      {
+       "h": "Warna tanda keselamatan"
+      },
+      {
+       "ul": [
+        "**Merah**: larangan dan alat pemadam kebakaran (禁止・防火).",
+        "**Kuning**: peringatan, hati-hati (警告・注意).",
+        "**Biru**: perintah, wajib dilakukan (指示).",
+        "**Hijau**: aman dan jalur evakuasi (安全・避難)."
+       ]
+      },
+      {
+       "h": "Jika terjadi kebakaran"
+      },
+      {
+       "ol": [
+        "Teriakkan 「火事だ！」 dan beri tahu semua orang dan kapten.",
+        "Gunakan **alat pemadam (消火器)**: cabut pin → arahkan selang ke pangkal api → tekan tuas.",
+        "Jika api terlalu besar, jangan memaksa; keluar dengan aman dan hubungi **118**."
+       ]
+      },
+      {
+       "note": "Bahan berbahaya memiliki **lembar data keselamatan (SDS)** dan label. Baca sebelum memakainya."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{船|ふね}にある{危険物|きけんぶつ}"
+      },
+      {
+       "ul": [
+        "**{燃料|ねんりょう}**（{軽油|けいゆ}、ガソリン）：もえやすい。",
+        "**{高圧|こうあつ}ガス**（{調理|ちょうり}のLPGなど）：{火事|かじ}や{爆発|ばくはつ}のおそれ。",
+        "**{冷媒|れいばい}**（{冷|ひ}やす{機械|きかい}のガス）：{毒|どく}になることがある。",
+        "**{洗剤|せんざい}と{漂白剤|ひょうはくざい}**：{混|ま}ぜると{毒|どく}のガスが{出|で}る（「{混|ま}ぜるな{危険|きけん}」）。"
+       ]
+      },
+      {
+       "h": "{酸素|さんそ}がたりない{場所|ばしょ}"
+      },
+      {
+       "p": "**{魚倉|ぎょそう}**やタンクのようなしめきった{場所|ばしょ}は、**{酸素欠乏|さんそけつぼう}**になることがあります。{一人|ひとり}で{入|はい}らない。まず{空気|くうき}を{入|い}れかえて、ほかの{人|ひと}に{知|し}らせます。"
+      },
+      {
+       "h": "{標識|ひょうしき}の{色|いろ}"
+      },
+      {
+       "ul": [
+        "**{赤|あか}**：{禁止|きんし}、{消火器|しょうかき}など（{禁止|きんし}・{防火|ぼうか}）。",
+        "**{黄|き}**：{気|き}をつける（{警告|けいこく}・{注意|ちゅうい}）。",
+        "**{青|あお}**：しなければならない（{指示|しじ}）。",
+        "**{緑|みどり}**：{安全|あんぜん}、にげる{道|みち}（{安全|あんぜん}・{避難|ひなん}）。"
+       ]
+      },
+      {
+       "h": "{火事|かじ}のとき"
+      },
+      {
+       "ol": [
+        "「{火事|かじ}だ！」と{大|おお}きい{声|こえ}で{言|い}って、みんなと{船長|せんちょう}に{知|し}らせる。",
+        "**{消火器|しょうかき}**：ピンをぬく→ホースを{火|ひ}のもとに{向|む}ける→レバーをにぎる。",
+        "{火|ひ}が{大|おお}きいときは{無理|むり}をしない。{安全|あんぜん}に{出|で}て、**118{番|ばん}**に{連絡|れんらく}する。"
+       ]
+      },
+      {
+       "note": "{危険物|きけんぶつ}には**SDS（{安全|あんぜん}データシート）**とラベルがあります。{使|つか}うまえに{読|よ}みます。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Kenali bahan berbahaya, warna tanda, dan cara memakai alat pemadam; ruang tertutup bisa kekurangan oksigen.",
+      "points": [
+       "Merah = larangan/pemadam; kuning = peringatan; biru = perintah; hijau = aman.",
+       "Jangan campur deterjen dan pemutih.",
+       "消火器: cabut pin → arahkan → tekan tuas.",
+       "魚倉 bisa 酸素欠乏."
+      ],
+      "avoid": [
+       "Mencampur pembersih.",
+       "Masuk ke palka tertutup sendirian."
+      ],
+      "exam": [
+       "Arti warna tanda.",
+       "Urutan memakai 消火器."
+      ]
+     },
+     "jp": {
+      "core": "{危険物|きけんぶつ}・{標識|ひょうしき}の{色|いろ}・{消火器|しょうかき}の{使|つか}い{方|かた}を{知|し}る。しめきった{場所|ばしょ}は{酸素欠乏|さんそけつぼう}に{注意|ちゅうい}。",
+      "points": [
+       "{赤|あか}＝{禁止|きんし}・{防火|ぼうか}、{黄|き}＝{警告|けいこく}、{青|あお}＝{指示|しじ}、{緑|みどり}＝{安全|あんぜん}。",
+       "{洗剤|せんざい}と{漂白剤|ひょうはくざい}は{混|ま}ぜない。",
+       "{消火器|しょうかき}：ピン→{向|む}ける→レバー。",
+       "{魚倉|ぎょそう}は{酸素欠乏|さんそけつぼう}に{注意|ちゅうい}。"
+      ],
+      "avoid": [
+       "{洗剤|せんざい}をまぜること。",
+       "{一人|ひとり}で{魚倉|ぎょそう}に{入|はい}ること。"
+      ],
+      "exam": [
+       "{標識|ひょうしき}の{色|いろ}の{意味|いみ}。",
+       "{消火器|しょうかき}の{使|つか}い{方|かた}の{順番|じゅんばん}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b2s6",
+    "no": 6,
+    "title": {
+     "id": "Kesehatan, Kelelahan, dan Pertolongan Pertama",
+     "jp": "{健康管理|けんこうかんり}と{応急手当|おうきゅうてあて}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Menjaga kesehatan"
+      },
+      {
+       "ul": [
+        "**Tidur cukup (睡眠)**: kantuk adalah penyebab kecelakaan. Manfaatkan waktu istirahat dan giliran jaga.",
+        "**Mabuk laut (船酔い)**: tidur cukup, jangan makan terlalu banyak atau minum alkohol sebelum berangkat, lihat jauh ke horizon.",
+        "**Sengatan panas (熱中症)**: minum air dan garam, berteduh, dinginkan tubuh.",
+        "**Hipotermia (低体温症)**: ganti baju basah, pakai pakaian hangat, minum yang hangat."
+       ]
+      },
+      {
+       "h": "Luka dan cedera"
+      },
+      {
+       "ol": [
+        "**Laporkan** semua luka walau kecil, termasuk tertusuk mata pancing atau sirip ikan beracun.",
+        "**Hentikan perdarahan (止血)** dengan menekan langsung luka memakai kain bersih.",
+        "Cuci mata yang kemasukan dengan air bersih.",
+        "Jika tidak sadar atau tidak bernapas, lakukan **kompresi dada (胸骨圧迫)** dan minta bantuan."
+       ]
+      },
+      {
+       "h": "Menghubungi bantuan"
+      },
+      {
+       "p": "**118**: Penjaga Pantai untuk keadaan darurat di laut. **119**: ambulans dan pemadam kebakaran di darat. Sampaikan: apa yang terjadi, posisi, jumlah korban, dan kondisi."
+      },
+      {
+       "note": "Jangan menahan sakit atau gejala. Mengatakan 「体調が悪いです」 lebih baik daripada diam."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{健康|けんこう}をまもる"
+      },
+      {
+       "ul": [
+        "**{睡眠|すいみん}**：ねむいと{事故|じこ}がおきます。{休|やす}けいや{交代|こうたい}の{時間|じかん}でしっかりねる。",
+        "**{船酔|ふなよ}い**：よくねる、{出|で}るまえに{食|た}べすぎたりお{酒|さけ}を{飲|の}んだりしない、{遠|とお}くを{見|み}る。",
+        "**{熱中症|ねっちゅうしょう}**：{水|みず}と{塩分|えんぶん}をとる、{日|ひ}かげに{入|はい}る、{体|からだ}を{冷|ひ}やす。",
+        "**{低体温症|ていたいおんしょう}**：ぬれた{服|ふく}をかえる、あたたかい{服|ふく}を{着|き}る、あたたかい{飲|の}み{物|もの}をとる。"
+       ]
+      },
+      {
+       "h": "けが"
+      },
+      {
+       "ol": [
+        "{小|ちい}さいけがでも、かならず**{報告|ほうこく}**する。{釣|つ}り{針|ばり}や{魚|さかな}のとげにさされたときもです。",
+        "**{止血|しけつ}**：{清潔|せいけつ}な{布|ぬの}で、{傷口|きずぐち}を{直接|ちょくせつ}おさえる。",
+        "{目|め}に{入|い}ったものは、きれいな{水|みず}で{洗|あら}う。",
+        "{意識|いしき}がない、{息|いき}をしていないときは、**{胸骨圧迫|きょうこつあっぱく}**をして、{助|たす}けを{呼|よ}ぶ。"
+       ]
+      },
+      {
+       "h": "{助|たす}けを{呼|よ}ぶ"
+      },
+      {
+       "p": "**118{番|ばん}**：{海|うみ}の{事故|じこ}（{海上保安庁|かいじょうほあんちょう}）。**119{番|ばん}**：{陸|りく}の{救急車|きゅうきゅうしゃ}と{消防|しょうぼう}。{何|なに}がおきたか、{場所|ばしょ}、けが{人|ひと}の{数|かず}、{様子|ようす}を{伝|つた}えます。"
+      },
+      {
+       "note": "がまんしないで、「{体調|たいちょう}が{悪|わる}いです」と{言|い}いましょう。だまっているより、ずっと{安全|あんぜん}です。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Jaga tidur, hidrasi, dan suhu tubuh; laporkan luka; 118 untuk laut, 119 untuk darat.",
+      "points": [
+       "睡眠 cukup mencegah kecelakaan.",
+       "熱中症: air + garam + teduh; 低体温症: ganti baju basah.",
+       "止血 = tekan langsung luka.",
+       "118 laut; 119 darat."
+      ],
+      "avoid": [
+       "Menyembunyikan sakit agar tidak merepotkan."
+      ],
+      "exam": [
+       "Gejala dan penanganan 熱中症 vs 低体温症.",
+       "Nomor darurat yang tepat."
+      ]
+     },
+     "jp": {
+      "core": "{睡眠|すいみん}・{水分|すいぶん}・{体温|たいおん}に{気|き}をつける。けがは{報告|ほうこく}。{海|うみ}は118、{陸|りく}は119。",
+      "points": [
+       "{睡眠不足|すいみんぶそく}は{事故|じこ}のもと。",
+       "{熱中症|ねっちゅうしょう}は{水|みず}と{塩分|えんぶん}と{日|ひ}かげ、{低体温症|ていたいおんしょう}は{服|ふく}をかえる。",
+       "{止血|しけつ}＝{傷口|きずぐち}を{直接|ちょくせつ}おさえる。",
+       "{海|うみ}は118、{陸|りく}は119。"
+      ],
+      "avoid": [
+       "めいわくだと{思|おも}って{体調不良|たいちょうふりょう}をかくすこと。"
+      ],
+      "exam": [
+       "{熱中症|ねっちゅうしょう}と{低体温症|ていたいおんしょう}の{対応|たいおう}のちがい。",
+       "{緊急電話番号|きんきゅうでんわばんごう}。"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,6352 @@
+{
+ "bab": {
+  "bab1": [
+   {
+    "id": "bab1-q1",
+    "title": {
+     "id": "Perikanan, ikan, dan kapal",
+     "jp": "{漁業|ぎょぎょう}・{魚|さかな}・{船|ふね}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Perikanan yang kapalnya besar dan berlayar berbulan-bulan adalah…",
+       "jp": "{大|おお}きい{船|ふね}で{何|なん}か{月|げつ}も{海|うみ}にいる{漁業|ぎょぎょう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "沿岸漁業",
+        "jp": "{沿岸漁業|えんがんぎょぎょう}"
+       },
+       {
+        "id": "沖合漁業",
+        "jp": "{沖合漁業|おきあいぎょぎょう}"
+       },
+       {
+        "id": "遠洋漁業",
+        "jp": "{遠洋漁業|えんようぎょぎょう}"
+       },
+       {
+        "id": "内水面漁業",
+        "jp": "{内水面漁業|ないすいめんぎょぎょう}"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "遠洋漁業 = perikanan samudra.",
+       "jp": "{遠洋漁業|えんようぎょぎょう}は、{遠|とお}くの{海|うみ}へ{行|い}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan dasar (底魚) adalah…",
+       "jp": "{底魚|そこうお}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "カツオ",
+        "jp": "カツオ"
+       },
+       {
+        "id": "イワシ",
+        "jp": "イワシ"
+       },
+       {
+        "id": "サバ",
+        "jp": "サバ"
+       },
+       {
+        "id": "タラ",
+        "jp": "タラ"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "タラ hidup dekat dasar laut.",
+       "jp": "タラは{海|うみ}の{底|そこ}の{近|ちか}くにいます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan berpunggung biru (青魚) adalah…",
+       "jp": "{青魚|あおざかな}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "ヒラメ",
+        "jp": "ヒラメ"
+       },
+       {
+        "id": "アジ",
+        "jp": "アジ"
+       },
+       {
+        "id": "タイ",
+        "jp": "タイ"
+       },
+       {
+        "id": "マグロ",
+        "jp": "マグロ"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "アジ, サバ, イワシ, サンマ adalah 青魚.",
+       "jp": "アジは{青魚|あおざかな}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Arah kiri kapal jika menghadap haluan disebut…",
+       "jp": "{船首|せんしゅ}を{向|む}いて、{左側|ひだりがわ}を{何|なに}といいますか。"
+      },
+      "opts": [
+       {
+        "id": "右舷",
+        "jp": "{右舷|うげん}"
+       },
+       {
+        "id": "左舷",
+        "jp": "{左舷|さげん}"
+       },
+       {
+        "id": "船尾",
+        "jp": "{船尾|せんび}"
+       },
+       {
+        "id": "甲板",
+        "jp": "{甲板|かんぱん}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "左舷 = lambung kiri.",
+       "jp": "{左舷|さげん}は{左側|ひだりがわ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pada gambar, huruf A menunjukkan…",
+       "jp": "{図|ず}のAは{何|なに}ですか。"
+      },
+      "opts": [
+       {
+        "id": "船首",
+        "jp": "{船首|せんしゅ}"
+       },
+       {
+        "id": "船尾",
+        "jp": "{船尾|せんび}"
+       },
+       {
+        "id": "魚倉",
+        "jp": "{魚倉|ぎょそう}"
+       },
+       {
+        "id": "操舵室",
+        "jp": "{操舵室|そうだしつ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "A di depan kapal, yaitu haluan.",
+       "jp": "Aは{船|ふね}の{前|まえ}、{船首|せんしゅ}です。"
+      },
+      "img": {
+       "src": "assets/ssw/fishery/kapal-bagian.svg"
+      }
+     },
+     {
+      "q": {
+       "id": "Pada gambar, bagian D tempat menyimpan hasil tangkapan adalah…",
+       "jp": "{図|ず}のDは{何|なに}ですか。"
+      },
+      "opts": [
+       {
+        "id": "機関室",
+        "jp": "{機関室|きかんしつ}"
+       },
+       {
+        "id": "魚倉",
+        "jp": "{魚倉|ぎょそう}"
+       },
+       {
+        "id": "操舵室",
+        "jp": "{操舵室|そうだしつ}"
+       },
+       {
+        "id": "船尾",
+        "jp": "{船尾|せんび}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "D adalah palka ikan.",
+       "jp": "Dは{魚倉|ぎょそう}です。"
+      },
+      "img": {
+       "src": "assets/ssw/fishery/kapal-bagian.svg"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q2",
+    "title": {
+     "id": "Awak kapal, navigasi, dan tali",
+     "jp": "{乗組員|のりくみいん}・{航海|こうかい}・ロープ"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Orang yang bertanggung jawab atas keselamatan kapal dan keputusan akhir adalah…",
+       "jp": "{船|ふね}の{安全|あんぜん}にせきにんがあり、{最後|さいご}に{決|き}める{人|ひと}はだれですか。"
+      },
+      "opts": [
+       {
+        "id": "機関長",
+        "jp": "{機関長|きかんちょう}"
+       },
+       {
+        "id": "船長",
+        "jp": "{船長|せんちょう}"
+       },
+       {
+        "id": "司厨",
+        "jp": "{司厨|しちゅう}"
+       },
+       {
+        "id": "甲板員",
+        "jp": "{甲板員|かんぱんいん}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "船長 = kapten.",
+       "jp": "{船長|せんちょう}が{最後|さいご}に{決|き}めます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Isyarat (合図) dipakai terutama karena…",
+       "jp": "{合図|あいず}を{使|つか}う{大|おお}きな{理由|りゆう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Suara sulit terdengar karena mesin dan ombak",
+        "jp": "エンジンや{波|なみ}の{音|おと}で{声|こえ}がきこえにくい"
+       },
+       {
+        "id": "Untuk bermain",
+        "jp": "{遊|あそ}ぶため"
+       },
+       {
+        "id": "Agar tidak bekerja",
+        "jp": "{仕事|しごと}をしないため"
+       },
+       {
+        "id": "Karena dilarang bicara",
+        "jp": "{話|はな}してはいけないため"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tempat kerja di kapal bising.",
+       "jp": "{船|ふね}の{上|うえ}はうるさいです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Satuan kecepatan kapal adalah…",
+       "jp": "{船|ふね}の{速|はや}さの{単位|たんい}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "メートル",
+        "jp": "メートル"
+       },
+       {
+        "id": "ノット",
+        "jp": "ノット"
+       },
+       {
+        "id": "リットル",
+        "jp": "リットル"
+       },
+       {
+        "id": "トン",
+        "jp": "トン"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Knot = mil laut per jam.",
+       "jp": "ノットは1{時間|じかん}の{海里|かいり}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alat yang memperlihatkan kapal lain saat kabut atau malam adalah…",
+       "jp": "{霧|きり}や{夜|よる}でもほかの{船|ふね}が{見|み}える{機器|きき}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "レーダー",
+        "jp": "レーダー"
+       },
+       {
+        "id": "浮き",
+        "jp": "{浮|う}き"
+       },
+       {
+        "id": "舵",
+        "jp": "{舵|かじ}"
+       },
+       {
+        "id": "錨",
+        "jp": "{錨|いかり}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Radar memantulkan gelombang radio.",
+       "jp": "レーダーで{見|み}えます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Simpul yang menyambung dua tali berbeda ukuran adalah…",
+       "jp": "{太|ふと}さのちがうロープ2{本|ほん}をつなぐ{結|むす}びはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "本結び",
+        "jp": "{本|ほん}{結|むす}び"
+       },
+       {
+        "id": "一重継ぎ",
+        "jp": "{一重|ひとえ}{継|つ}ぎ"
+       },
+       {
+        "id": "もやい結び",
+        "jp": "もやい{結|むす}び"
+       },
+       {
+        "id": "8の字結び",
+        "jp": "8の{字|じ}{結|むす}び"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "一重継ぎ = sheet bend.",
+       "jp": "{一重|ひとえ}{継|つ}ぎは{太|ふと}さがちがうロープをつなぎます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Simpul penahan agar ujung tali tidak lepas dari lubang adalah…",
+       "jp": "ロープの{先|さき}がぬけないようにする{止|と}め{結|むす}びはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "8の字結び",
+        "jp": "8の{字|じ}{結|むす}び"
+       },
+       {
+        "id": "本結び",
+        "jp": "{本|ほん}{結|むす}び"
+       },
+       {
+        "id": "巻き結び",
+        "jp": "{巻|ま}き{結|むす}び"
+       },
+       {
+        "id": "もやい結び",
+        "jp": "もやい{結|むす}び"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "8の字結び = figure eight.",
+       "jp": "8の{字|じ}{結|むす}びは{止|と}め{結|むす}びです。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab1-q3",
+    "title": {
+     "id": "Jaring, cuaca, dan keputusan",
+     "jp": "{網|あみ}・{天気|てんき}・{判断|はんだん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Bagian jaring yang menahan ikan (berlubang) adalah…",
+       "jp": "{魚|さかな}をとめる、あなのあいた{網|あみ}の{部分|ぶぶん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "網地",
+        "jp": "{網地|あみじ}"
+       },
+       {
+        "id": "浮き",
+        "jp": "{浮|う}き"
+       },
+       {
+        "id": "沈子",
+        "jp": "{沈子|ちんし}"
+       },
+       {
+        "id": "目合",
+        "jp": "{目合|めあい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "網地 = kain jaring.",
+       "jp": "{網地|あみじ}はあなのあいた{部分|ぶぶん}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ukuran mata jaring disebut…",
+       "jp": "{網|あみ}のあなの{大|おお}きさを{何|なに}といいますか。"
+      },
+      "opts": [
+       {
+        "id": "目合",
+        "jp": "{目合|めあい}"
+       },
+       {
+        "id": "網地",
+        "jp": "{網地|あみじ}"
+       },
+       {
+        "id": "浮き",
+        "jp": "{浮|う}き"
+       },
+       {
+        "id": "沈子",
+        "jp": "{沈子|ちんし}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "目合 = ukuran mata jaring.",
+       "jp": "{目合|めあい}はあなの{大|おお}きさです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jaring yang dipasang tegak dan ikan tersangkut di matanya adalah…",
+       "jp": "{立|た}てておき、{魚|さかな}が{目|め}にかかる{網|あみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "巻網",
+        "jp": "{巻網|まきあみ}"
+       },
+       {
+        "id": "底びき網",
+        "jp": "{底|そこ}びき{網|あみ}"
+       },
+       {
+        "id": "刺網",
+        "jp": "{刺網|さしあみ}"
+       },
+       {
+        "id": "定置網",
+        "jp": "{定置網|ていちあみ}"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "刺網 = jaring insang.",
+       "jp": "{刺網|さしあみ}は{魚|さかな}が{網|あみ}の{目|め}にかかります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pasang tinggi disebut…",
+       "jp": "{潮|しお}が{高|たか}いときを{何|なに}といいますか。"
+      },
+      "opts": [
+       {
+        "id": "干潮",
+        "jp": "{干潮|かんちょう}"
+       },
+       {
+        "id": "満潮",
+        "jp": "{満潮|まんちょう}"
+       },
+       {
+        "id": "潮流",
+        "jp": "{潮流|ちょうりゅう}"
+       },
+       {
+        "id": "風向",
+        "jp": "{風向|ふうこう}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "満潮 = pasang tinggi; 干潮 = surut.",
+       "jp": "{満潮|まんちょう}は{高|たか}い{潮|しお}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Sebelum berangkat, informasi cuaca yang perlu diperiksa adalah…",
+       "jp": "{出港前|しゅっこうまえ}に{調|しら}べるのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Prakiraan angin, ombak, dan peringatan",
+        "jp": "{風|かぜ}・{波|なみ}・{警報|けいほう}の{予報|よほう}"
+       },
+       {
+        "id": "Harga ikan",
+        "jp": "{魚|さかな}のねだん"
+       },
+       {
+        "id": "Warna kapal",
+        "jp": "{船|ふね}の{色|いろ}"
+       },
+       {
+        "id": "Jumlah awak lain",
+        "jp": "{他|ほか}の{船|ふね}の{人数|にんずう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Keputusan berangkat harus berdasar informasi cuaca.",
+       "jp": "{天気|てんき}の{情報|じょうほう}で{出漁|しゅつりょう}を{決|き}めます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kabut menyempitkan…",
+       "jp": "{霧|きり}で、{何|なに}がせまくなりますか。"
+      },
+      "opts": [
+       {
+        "id": "視界",
+        "jp": "{視界|しかい}"
+       },
+       {
+        "id": "潮",
+        "jp": "{潮|しお}"
+       },
+       {
+        "id": "波高",
+        "jp": "{波高|はこう}"
+       },
+       {
+        "id": "風速",
+        "jp": "{風速|ふうそく}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "視界 = jarak pandang.",
+       "jp": "{霧|きり}で{見|み}える{範囲|はんい}がせまくなります。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s1-q",
+    "sub": "b1s1",
+    "title": {
+     "id": "Subbab 1.1 · Mengenal Perikanan Jepang",
+     "jp": "1.1 {日本|にほん}の{漁業|ぎょぎょう}のしくみ"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Perikanan dengan kapal kecil yang biasanya berangkat dan pulang pada hari yang sama adalah…",
+       "jp": "その{日|ひ}のうちに{帰|かえ}ることが{多|おお}い、{小|ちい}さい{船|ふね}の{漁業|ぎょぎょう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "沿岸漁業",
+        "jp": "{沿岸漁業|えんがんぎょぎょう}"
+       },
+       {
+        "id": "沖合漁業",
+        "jp": "{沖合漁業|おきあいぎょぎょう}"
+       },
+       {
+        "id": "遠洋漁業",
+        "jp": "{遠洋漁業|えんようぎょぎょう}"
+       },
+       {
+        "id": "内水面漁業",
+        "jp": "{内水面漁業|ないすいめんぎょぎょう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Perikanan pantai (沿岸漁業) memakai kapal kecil di dekat pantai.",
+       "jp": "{沿岸漁業|えんがんぎょぎょう}は、{海岸|かいがん}の{近|ちか}くで{小|ちい}さい{船|ふね}を{使|つか}います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Arti 禁漁期 yang tepat adalah…",
+       "jp": "{禁漁期|きんりょうき}の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Waktu ketika menangkap ikan dilarang",
+        "jp": "{魚|さかな}をとってはいけない{時期|じき}"
+       },
+       {
+        "id": "Waktu ikan paling enak",
+        "jp": "{魚|さかな}がいちばんおいしい{時期|じき}"
+       },
+       {
+        "id": "Waktu air pasang tinggi",
+        "jp": "{潮|しお}が{高|たか}い{時間|じかん}"
+       },
+       {
+        "id": "Waktu berangkat kerja",
+        "jp": "{仕事|しごと}を{始|はじ}める{時間|じかん}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "禁漁期 melindungi sumber daya ikan dengan melarang penangkapan pada masa tertentu.",
+       "jp": "{禁漁期|きんりょうき}は、{魚|さかな}を{守|まも}るために、とってはいけない{時期|じき}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Hak perikanan (漁業権) berarti siapa pun boleh menangkap ikan di laut mana saja.”",
+       "jp": "○か×か。「{漁業権|ぎょぎょうけん}は、だれでもどこの{海|うみ}でも{魚|さかな}をとってよいという{意味|いみ}です。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "漁業権 hanya memberi hak memakai perairan tertentu menurut aturan.",
+       "jp": "{漁業権|ぎょぎょうけん}は、{決|き}まった{海|うみ}を{使|つか}うための{権利|けんり}です。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b1s2-q",
+    "sub": "b1s2",
+    "title": {
+     "id": "Subbab 1.2 · Ikan dan Hasil Laut Utama",
+     "jp": "1.2 {主|おも}な{魚介類|ぎょかいるい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Ikan migran yang berenang jauh mengikuti musim adalah…",
+       "jp": "{季節|きせつ}にあわせて{遠|とお}くまで{泳|およ}ぐ{回遊魚|かいゆうぎょ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "カツオ",
+        "jp": "カツオ"
+       },
+       {
+        "id": "ヒラメ",
+        "jp": "ヒラメ"
+       },
+       {
+        "id": "タラ",
+        "jp": "タラ"
+       },
+       {
+        "id": "カレイ",
+        "jp": "カレイ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "カツオ adalah ikan migran. ヒラメ, タラ, カレイ adalah ikan dasar.",
+       "jp": "カツオは{回遊魚|かいゆうぎょ}です。ヒラメ、タラ、カレイは{底魚|そこうお}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan berdaging putih (白身魚) adalah…",
+       "jp": "{白身魚|しろみざかな}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "マグロ",
+        "jp": "マグロ"
+       },
+       {
+        "id": "サバ",
+        "jp": "サバ"
+       },
+       {
+        "id": "タイ",
+        "jp": "タイ"
+       },
+       {
+        "id": "カツオ",
+        "jp": "カツオ"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "タイ berdaging putih. マグロ dan カツオ berdaging merah, サバ ikan biru.",
+       "jp": "タイは{白身魚|しろみざかな}です。マグロとカツオは{赤身|あかみ}、サバは{青魚|あおざかな}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "旬 berarti…",
+       "jp": "{旬|しゅん}の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Musim ketika rasa dan jumlahnya terbaik",
+        "jp": "いちばんおいしくて、たくさんとれる{時期|じき}"
+       },
+       {
+        "id": "Waktu berangkat kapal",
+        "jp": "{船|ふね}が{出|で}る{時間|じかん}"
+       },
+       {
+        "id": "Musim larangan tangkap",
+        "jp": "とってはいけない{時期|じき}"
+       },
+       {
+        "id": "Nama alat tangkap",
+        "jp": "{漁具|ぎょぐ}の{名前|なまえ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "旬 adalah musim terbaik suatu hasil laut.",
+       "jp": "{旬|しゅん}は、いちばんおいしい{時期|じき}のことです。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s3-q",
+    "sub": "b1s3",
+    "title": {
+     "id": "Subbab 1.3 · Kapal Ikan dan Bagian-Bagiannya",
+     "jp": "1.3 {漁船|ぎょせん}と{船|ふね}の{各部|かくぶ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pada gambar, huruf mana yang menunjukkan buritan (船尾)?",
+       "jp": "{図|ず}で、{船尾|せんび}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "A",
+        "jp": "A"
+       },
+       {
+        "id": "B",
+        "jp": "B"
+       },
+       {
+        "id": "C",
+        "jp": "C"
+       },
+       {
+        "id": "D",
+        "jp": "D"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Huruf B ada di belakang kapal, yaitu buritan.",
+       "jp": "Bは{船|ふね}の{後|うし}ろです。{船尾|せんび}です。"
+      },
+      "img": {
+       "src": "assets/ssw/fishery/kapal-bagian.svg"
+      }
+     },
+     {
+      "q": {
+       "id": "Pada gambar, bagian C adalah…",
+       "jp": "{図|ず}のCは{何|なに}ですか。"
+      },
+      "opts": [
+       {
+        "id": "船首",
+        "jp": "{船首|せんしゅ}"
+       },
+       {
+        "id": "魚倉",
+        "jp": "{魚倉|ぎょそう}"
+       },
+       {
+        "id": "操舵室",
+        "jp": "{操舵室|そうだしつ}"
+       },
+       {
+        "id": "錨",
+        "jp": "{錨|いかり}"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "C adalah ruang kemudi tempat kapten mengendalikan kapal.",
+       "jp": "Cは{船長|せんちょう}が{船|ふね}を{動|うご}かす{部屋|へや}、{操舵室|そうだしつ}です。"
+      },
+      "img": {
+       "src": "assets/ssw/fishery/kapal-bagian.svg"
+      }
+     },
+     {
+      "q": {
+       "id": "Warna lampu navigasi pada lambung kanan (右舷) adalah…",
+       "jp": "{右舷|うげん}の{航海灯|こうかいとう}の{色|いろ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Merah",
+        "jp": "{赤|あか}"
+       },
+       {
+        "id": "Hijau",
+        "jp": "{緑|みどり}"
+       },
+       {
+        "id": "Kuning",
+        "jp": "{黄|き}"
+       },
+       {
+        "id": "Biru",
+        "jp": "{青|あお}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Kiri merah, kanan hijau.",
+       "jp": "{左舷|さげん}は{赤|あか}、{右舷|うげん}は{緑|みどり}です。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s4-q",
+    "sub": "b1s4",
+    "title": {
+     "id": "Subbab 1.4 · Awak Kapal dan Komunikasi",
+     "jp": "1.4 {乗組員|のりくみいん}の{役割|やくわり}と{報連相|ほうれんそう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "復唱 berarti…",
+       "jp": "{復唱|ふくしょう}の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Mengulang perintah untuk memastikan",
+        "jp": "{指示|しじ}をくりかえして{確認|かくにん}する"
+       },
+       {
+        "id": "Menolak perintah",
+        "jp": "{指示|しじ}をことわる"
+       },
+       {
+        "id": "Memberi perintah kepada kapten",
+        "jp": "{船長|せんちょう}に{指示|しじ}する"
+       },
+       {
+        "id": "Tidur saat jaga",
+        "jp": "{当直|とうちょく}でねる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dengan 復唱 kesalahpahaman dicegah.",
+       "jp": "{復唱|ふくしょう}で、{聞|き}きちがいを{防|ふせ}ぎます。"
+      }
+     },
+     {
+      "q": {
+       "id": "ほうれんそう adalah singkatan dari…",
+       "jp": "ほうれんそうは{何|なに}の{略|りゃく}ですか。"
+      },
+      "opts": [
+       {
+        "id": "報告・連絡・相談",
+        "jp": "{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}"
+       },
+       {
+        "id": "報告・連絡・操業",
+        "jp": "{報告|ほうこく}・{連絡|れんらく}・{操業|そうぎょう}"
+       },
+       {
+        "id": "方位・連絡・相談",
+        "jp": "{方位|ほうい}・{連絡|れんらく}・{相談|そうだん}"
+       },
+       {
+        "id": "報告・準備・相談",
+        "jp": "{報告|ほうこく}・{準備|じゅんび}・{相談|そうだん}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lapor, kabari, konsultasi.",
+       "jp": "{報告|ほうこく}・{連絡|れんらく}・{相談|そうだん}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Anda tidak mengerti perintah kapten. Tindakan terbaik?",
+       "jp": "{船長|せんちょう}の{指示|しじ}がわかりません。どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Menebak lalu mengerjakan",
+        "jp": "{想像|そうぞう}して{仕事|しごと}をする"
+       },
+       {
+        "id": "Bertanya: 「もう一度お願いします」",
+        "jp": "「もう{一度|いちど}お{願|ねが}いします」と{聞|き}く"
+       },
+       {
+        "id": "Diam dan menunggu",
+        "jp": "だまって{待|ま}つ"
+       },
+       {
+        "id": "Mengerjakan yang lain",
+        "jp": "ほかの{仕事|しごと}をする"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jika tidak mengerti, tanyakan. Menebak berbahaya.",
+       "jp": "わからないときは{聞|き}きます。{想像|そうぞう}はあぶないです。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s5-q",
+    "sub": "b1s5",
+    "title": {
+     "id": "Subbab 1.5 · Navigasi Dasar dan Peralatan",
+     "jp": "1.5 {航海|こうかい}の{基本|きほん}と{機器|きき}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "1 mil laut (海里) sama dengan…",
+       "jp": "1{海里|かいり}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "1,000 m",
+        "jp": "1,000 m"
+       },
+       {
+        "id": "1,852 m",
+        "jp": "1,852 m"
+       },
+       {
+        "id": "1,609 m",
+        "jp": "1,609 m"
+       },
+       {
+        "id": "2,000 m",
+        "jp": "2,000 m"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "1 mil laut = 1.852 m.",
+       "jp": "1{海里|かいり}は1,852メートルです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Fungsi pencari ikan (魚群探知機) adalah…",
+       "jp": "{魚群探知機|ぎょぐんたんちき}のはたらきはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Mengirim gelombang suara untuk melihat ikan dan dasar laut",
+        "jp": "{音|おと}を{送|おく}って{魚|さかな}と{海底|かいてい}を{調|しら}べる"
+       },
+       {
+        "id": "Menunjukkan arah angin",
+        "jp": "{風|かぜ}の{向|む}きを{知|し}らせる"
+       },
+       {
+        "id": "Menyalakan lampu kapal",
+        "jp": "{船|ふね}の{灯|ひ}をつける"
+       },
+       {
+        "id": "Mengukur kecepatan angin",
+        "jp": "{風|かぜ}の{速|はや}さをはかる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pantulan gelombang ultrasonik menunjukkan ikan.",
+       "jp": "{超音波|ちょうおんぱ}のはね{返|かえ}りで{魚|さかな}がわかります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Nomor telepon darurat Penjaga Pantai untuk kecelakaan laut?",
+       "jp": "{海|うみ}の{事故|じこ}の{緊急電話番号|きんきゅうでんわばんごう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "110",
+        "jp": "110"
+       },
+       {
+        "id": "118",
+        "jp": "118"
+       },
+       {
+        "id": "119",
+        "jp": "119"
+       },
+       {
+        "id": "117",
+        "jp": "117"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "118 = 海上保安庁. 119 = ambulans/pemadam darat.",
+       "jp": "118は{海上保安庁|かいじょうほあんちょう}、119は{陸|りく}の{救急|きゅうきゅう}と{消防|しょうぼう}です。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s6-q",
+    "sub": "b1s6",
+    "title": {
+     "id": "Subbab 1.6 · Tali dan Simpul",
+     "jp": "1.6 ロープワーク"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Simpul yang membuat lingkaran tetap dan dipakai menambatkan kapal adalah…",
+       "jp": "{小|ちい}さくならない{輪|わ}をつくり、{船|ふね}をつなぐときに{使|つか}う{結|むす}びはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "本結び",
+        "jp": "{本|ほん}{結|むす}び"
+       },
+       {
+        "id": "もやい結び",
+        "jp": "もやい{結|むす}び"
+       },
+       {
+        "id": "8の字結び",
+        "jp": "8の{字|じ}{結|むす}び"
+       },
+       {
+        "id": "巻き結び",
+        "jp": "{巻|ま}き{結|むす}び"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "もやい結び tidak mengecil dan mudah dibuka.",
+       "jp": "もやい{結|むす}びは{輪|わ}がしまらず、ほどきやすいです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Simpul pipih (本結び) cocok untuk menarik beban sangat berat.”",
+       "jp": "○か×か。「{本|ほん}{結|むす}びは、とても{重|おも}いものをひくのに{向|む}いている。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "本結び mudah mengendur pada beban berat atau tali licin.",
+       "jp": "{本|ほん}{結|むす}びは{重|おも}いものには{向|む}きません。"
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "Posisi paling aman di dekat tali yang sedang tegang adalah…",
+       "jp": "ぴんと{張|は}ったロープのまわりで、いちばん{安全|あんぜん}な{場所|ばしょ}はどこですか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak berdiri di garis lurus tali",
+        "jp": "ロープの{線上|せんじょう}に{立|た}たない"
+       },
+       {
+        "id": "Tepat di depan tali",
+        "jp": "ロープのまっすぐ{前|まえ}"
+       },
+       {
+        "id": "Di dalam lingkaran tali",
+        "jp": "ロープの{輪|わ}のなか"
+       },
+       {
+        "id": "Memegang tali dengan tangan",
+        "jp": "ロープを{手|て}で{持|も}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jika putus, tali melesat lurus (跳ね返り).",
+       "jp": "{切|き}れると、ロープはまっすぐ{跳|は}ね{返|かえ}ります。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b1s7-q",
+    "sub": "b1s7",
+    "title": {
+     "id": "Subbab 1.7 · Jaring dan Alat Tangkap Dasar",
+     "jp": "1.7 {網|あみ}と{漁具|ぎょぐ}の{基礎|きそ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Fungsi pelampung (浮き) pada jaring adalah…",
+       "jp": "{網|あみ}の{浮|う}きのはたらきはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Menjaga bagian atas jaring tetap mengapung",
+        "jp": "{網|あみ}の{上|うえ}をうかせる"
+       },
+       {
+        "id": "Menenggelamkan bagian bawah jaring",
+        "jp": "{網|あみ}の{下|した}をしずめる"
+       },
+       {
+        "id": "Memperkecil mata jaring",
+        "jp": "{目合|めあい}を{小|ちい}さくする"
+       },
+       {
+        "id": "Menarik ikan",
+        "jp": "{魚|さかな}をよぶ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "浮き di atas, おもり (沈子) di bawah.",
+       "jp": "{浮|う}きは{上|うえ}、おもりは{下|した}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alat tangkap yang dipasang di tempat tertentu dan ikan masuk sendiri adalah…",
+       "jp": "{決|き}まった{場所|ばしょ}においておき、{魚|さかな}が{入|はい}る{漁具|ぎょぐ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "刺網",
+        "jp": "{刺網|さしあみ}"
+       },
+       {
+        "id": "底びき網",
+        "jp": "{底|そこ}びき{網|あみ}"
+       },
+       {
+        "id": "定置網",
+        "jp": "{定置網|ていちあみ}"
+       },
+       {
+        "id": "巻網",
+        "jp": "{巻網|まきあみ}"
+       }
+      ],
+      "a": 2,
+      "exp": {
+       "id": "定置網 = jaring tetap.",
+       "jp": "{定置網|ていちあみ}は、{決|き}まった{場所|ばしょ}に{置|お}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Jaring dan tali bekas boleh dibuang ke laut.”",
+       "jp": "○か×か。「{古|ふる}い{網|あみ}やロープは{海|うみ}にすててもよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Sampah jaring mencemari laut dan menjerat makhluk laut.",
+       "jp": "{海|うみ}をよごし、{生|い}き{物|もの}がからまるので、すててはいけません。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b1s8-q",
+    "sub": "b1s8",
+    "title": {
+     "id": "Subbab 1.8 · Cuaca, Ombak, dan Keputusan Melaut",
+     "jp": "1.8 {天気|てんき}と{海|うみ}の{知識|ちしき}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Gelombang panjang yang datang dari badai jauh disebut…",
+       "jp": "{遠|とお}くの{嵐|あらし}からくる{長|なが}い{波|なみ}を{何|なに}といいますか。"
+      },
+      "opts": [
+       {
+        "id": "風浪",
+        "jp": "{風浪|ふうろう}"
+       },
+       {
+        "id": "うねり",
+        "jp": "うねり"
+       },
+       {
+        "id": "満潮",
+        "jp": "{満潮|まんちょう}"
+       },
+       {
+        "id": "潮流",
+        "jp": "{潮流|ちょうりゅう}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "うねり bisa datang walau cuaca tampak tenang.",
+       "jp": "うねりは、{天気|てんき}がよく{見|み}えてもきます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Cuaca mulai memburuk saat di laut. Yang benar adalah…",
+       "jp": "{海|うみ}で{天気|てんき}が{悪|わる}くなってきました。{正|ただ}しいのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Pulang lebih awal",
+        "jp": "{早|はや}めに{帰港|きこう}する"
+       },
+       {
+        "id": "Menunggu sampai ikan penuh",
+        "jp": "{魚|さかな}がいっぱいになるまで{待|ま}つ"
+       },
+       {
+        "id": "Menyembunyikan kekhawatiran",
+        "jp": "{不安|ふあん}をかくす"
+       },
+       {
+        "id": "Menaikkan kecepatan jaring",
+        "jp": "{網|あみ}を{速|はや}く{引|ひ}く"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Keselamatan lebih penting daripada hasil tangkapan.",
+       "jp": "{安全|あんぜん}が{第一|だいいち}です。{早|はや}めに{帰|かえ}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Keputusan berangkat melaut ditentukan oleh jumlah ikan yang bisa ditangkap, bukan keselamatan.”",
+       "jp": "○か×か。「{出漁|しゅつりょう}は、{安全|あんぜん}より{魚|さかな}のりょうで{決|き}める。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Keselamatan harus diutamakan.",
+       "jp": "{出漁|しゅつりょう}は{安全|あんぜん}を{第一|だいいち}に{決|き}めます。"
+      },
+      "mb": true
+     }
+    ]
+   }
+  ],
+  "bab2": [
+   {
+    "id": "bab2-q1",
+    "title": {
+     "id": "Pelindung diri dan dek",
+     "jp": "{保護具|ほごぐ}と{甲板|かんぱん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pakaian kerja yang aman adalah…",
+       "jp": "{安全|あんぜん}な{作業|さぎょう}の{服|ふく}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Pas di badan, tanpa perhiasan",
+        "jp": "{体|からだ}にあい、アクセサリーなし"
+       },
+       {
+        "id": "Longgar dan panjang",
+        "jp": "ゆるくて{長|なが}い"
+       },
+       {
+        "id": "Memakai kalung",
+        "jp": "ネックレスをつける"
+       },
+       {
+        "id": "Memakai sandal",
+        "jp": "サンダル"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hindari bagian yang bisa tersangkut.",
+       "jp": "{巻|ま}き{込|こ}まれないようにします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alas kaki yang tepat di dek adalah…",
+       "jp": "{甲板|かんぱん}に{合|あ}うはき{物|もの}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "サンダル",
+        "jp": "サンダル"
+       },
+       {
+        "id": "すべりにくい長靴",
+        "jp": "すべりにくい{長靴|ながぐつ}"
+       },
+       {
+        "id": "はだし",
+        "jp": "はだし"
+       },
+       {
+        "id": "ハイヒール",
+        "jp": "ハイヒール"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "長靴 dengan sol anti licin.",
+       "jp": "すべりにくい{長靴|ながぐつ}をはきます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Sarung tangan longgar dekat bagian berputar berbahaya karena…",
+       "jp": "{回|まわ}る{部品|ぶひん}の{近|ちか}くでゆるい{手袋|てぶくろ}があぶない{理由|りゆう}は？"
+      },
+      "opts": [
+       {
+        "id": "Bisa tertarik ke mesin",
+        "jp": "{機械|きかい}に{引|ひ}きこまれる"
+       },
+       {
+        "id": "Terlalu hangat",
+        "jp": "あつくなる"
+       },
+       {
+        "id": "Berat",
+        "jp": "{重|おも}い"
+       },
+       {
+        "id": "Mudah kotor",
+        "jp": "よごれやすい"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Sarung tangan bisa terlilit.",
+       "jp": "{手袋|てぶくろ}が{巻|ま}き{込|こ}まれます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pegangan (手すり) dipakai…",
+       "jp": "{手|て}すりの{使|つか}い{方|かた}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Satu tangan untuk kapal",
+        "jp": "{片手|かたて}は{船|ふね}をもつ"
+       },
+       {
+        "id": "Tidak dipakai",
+        "jp": "{使|つか}わない"
+       },
+       {
+        "id": "Hanya saat tenang",
+        "jp": "おだやかなときだけ"
+       },
+       {
+        "id": "Dilepas",
+        "jp": "{外|はず}す"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Satu tangan untuk diri, satu tangan untuk kapal.",
+       "jp": "{片手|かたて}は{自分|じぶん}、{片手|かたて}は{船|ふね}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "5S yang berarti 'menata, tiap barang punya tempat' adalah…",
+       "jp": "「{場所|ばしょ}を{決|き}めてならべる」5Sはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "整理",
+        "jp": "{整理|せいり}"
+       },
+       {
+        "id": "整頓",
+        "jp": "{整頓|せいとん}"
+       },
+       {
+        "id": "清掃",
+        "jp": "{清掃|せいそう}"
+       },
+       {
+        "id": "清潔",
+        "jp": "{清潔|せいけつ}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "整頓 = menata.",
+       "jp": "{整頓|せいとん}は{場所|ばしょ}を{決|き}めてならべることです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Lubang palka sebaiknya…",
+       "jp": "{魚倉|ぎょそう}のふた（{開口部|かいこうぶ}）はどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Ditutup agar tidak ada yang jatuh",
+        "jp": "しめて、{落|お}ちないようにする"
+       },
+       {
+        "id": "Dibiarkan terbuka",
+        "jp": "あけたまま"
+       },
+       {
+        "id": "Ditutupi barang",
+        "jp": "ものをおく"
+       },
+       {
+        "id": "Dilompati",
+        "jp": "とびこえる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lubang terbuka bisa membuat orang jatuh.",
+       "jp": "{開口部|かいこうぶ}は{落|お}ちる{原因|げんいん}です。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q2",
+    "title": {
+     "id": "Jatuh ke laut dan mesin",
+     "jp": "{転落|てんらく}と{機械|きかい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Saat melihat orang jatuh, hal yang tidak boleh dilakukan adalah…",
+       "jp": "{人|ひと}が{落|お}ちたのを{見|み}たとき、してはいけないことは？"
+      },
+      "opts": [
+       {
+        "id": "Melepas pandangan dari korban",
+        "jp": "{落|お}ちた{人|ひと}から{目|め}をはなす"
+       },
+       {
+        "id": "Menunjuk korban",
+        "jp": "{指|ゆび}をさす"
+       },
+       {
+        "id": "Melempar pelampung",
+        "jp": "{浮環|うきわ}を{投|な}げる"
+       },
+       {
+        "id": "Melapor ke ruang kemudi",
+        "jp": "{操舵室|そうだしつ}に{知|し}らせる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pandangan jangan lepas.",
+       "jp": "{目|め}をはなしてはいけません。"
+      }
+     },
+     {
+      "q": {
+       "id": "Orang yang jatuh sebaiknya…",
+       "jp": "{海|うみ}に{落|お}ちた{人|ひと}はどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "暴れる",
+        "jp": "{暴|あば}れる"
+       },
+       {
+        "id": "背浮きで体力を守る",
+        "jp": "{背浮|せう}きで{体力|たいりょく}を{守|まも}る"
+       },
+       {
+        "id": "すぐ全力で泳ぐ",
+        "jp": "すぐ{全力|ぜんりょく}で{泳|およ}ぐ"
+       },
+       {
+        "id": "もぐる",
+        "jp": "もぐる"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Mengapung telentang menghemat tenaga.",
+       "jp": "{背浮|せう}きで{体力|たいりょく}を{守|まも}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pelampung penyelamat disebut…",
+       "jp": "{救助|きゅうじょ}に{使|つか}う{浮環|うきわ}は{何|なに}ですか。"
+      },
+      "opts": [
+       {
+        "id": "救命浮環",
+        "jp": "{救命浮環|きゅうめいうきわ}"
+       },
+       {
+        "id": "錨",
+        "jp": "{錨|いかり}"
+       },
+       {
+        "id": "舵",
+        "jp": "{舵|かじ}"
+       },
+       {
+        "id": "浮き",
+        "jp": "{浮|う}き"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "救命浮環 = lifebuoy.",
+       "jp": "{救命浮環|きゅうめいうきわ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bahaya ‘terlilit atau tertarik’ disebut…",
+       "jp": "「{巻|ま}き{込|こ}まれ」は{何|なに}の{危険|きけん}ですか。"
+      },
+      "opts": [
+       {
+        "id": "Tertarik dan terlilit mesin/tali",
+        "jp": "{機械|きかい}やロープに{引|ひ}きこまれる"
+       },
+       {
+        "id": "Jatuh dari ketinggian",
+        "jp": "{高|たか}いところから{落|お}ちる"
+       },
+       {
+        "id": "Kebakaran",
+        "jp": "{火事|かじ}"
+       },
+       {
+        "id": "Sengatan panas",
+        "jp": "{熱中症|ねっちゅうしょう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "巻き込まれ = tertarik/terlilit.",
+       "jp": "{巻|ま}き{込|こ}まれは、{引|ひ}きこまれる{事故|じこ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Tombol yang harus diketahui letaknya sebelum bekerja dengan mesin adalah…",
+       "jp": "{仕事|しごと}のまえに{場所|ばしょ}を{知|し}るのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "非常停止ボタン",
+        "jp": "{非常停止|ひじょうていし}ボタン"
+       },
+       {
+        "id": "電源の色",
+        "jp": "{電源|でんげん}の{色|いろ}"
+       },
+       {
+        "id": "スピーカー",
+        "jp": "スピーカー"
+       },
+       {
+        "id": "アンテナ",
+        "jp": "アンテナ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tombol berhenti darurat.",
+       "jp": "{非常停止|ひじょうていし}ボタンです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pelindung (カバー) mesin…",
+       "jp": "{機械|きかい}のカバーはどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak boleh dilepas",
+        "jp": "{外|はず}さない"
+       },
+       {
+        "id": "Dilepas agar cepat",
+        "jp": "{早|はや}くするため{外|はず}す"
+       },
+       {
+        "id": "Dilepas saat malam",
+        "jp": "{夜|よる}は{外|はず}す"
+       },
+       {
+        "id": "Dijual",
+        "jp": "{売|う}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pelindung menjaga dari bagian berputar.",
+       "jp": "カバーは{外|はず}してはいけません。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab2-q3",
+    "title": {
+     "id": "Bahan berbahaya dan kesehatan",
+     "jp": "{危険物|きけんぶつ}と{健康|けんこう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Warna rambu yang berarti larangan dan alat pemadam adalah…",
+       "jp": "{禁止|きんし}・{防火|ぼうか}を{表|あらわ}す{標識|ひょうしき}の{色|いろ}は？"
+      },
+      "opts": [
+       {
+        "id": "赤",
+        "jp": "{赤|あか}"
+       },
+       {
+        "id": "青",
+        "jp": "{青|あお}"
+       },
+       {
+        "id": "緑",
+        "jp": "{緑|みどり}"
+       },
+       {
+        "id": "黄",
+        "jp": "{黄|き}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Merah = larangan/pemadam.",
+       "jp": "{赤|あか}は{禁止|きんし}・{防火|ぼうか}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ruang tertutup seperti palka bisa mengalami…",
+       "jp": "しめきった{魚倉|ぎょそう}で{起|お}こることがあるのは？"
+      },
+      "opts": [
+       {
+        "id": "Kekurangan oksigen",
+        "jp": "{酸素欠乏|さんそけつぼう}"
+       },
+       {
+        "id": "Kelebihan ikan",
+        "jp": "{魚|さかな}がふえすぎる"
+       },
+       {
+        "id": "Gempa",
+        "jp": "{地震|じしん}"
+       },
+       {
+        "id": "Kabut",
+        "jp": "{霧|きり}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan masuk sendirian; buka ventilasi.",
+       "jp": "{一人|ひとり}で{入|はい}らず、{空気|くうき}を{入|い}れかえます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bahan bakar harus dijauhkan dari…",
+       "jp": "{燃料|ねんりょう}は{何|なに}から{遠|とお}ざけますか。"
+      },
+      "opts": [
+       {
+        "id": "火",
+        "jp": "{火|ひ}"
+       },
+       {
+        "id": "水",
+        "jp": "{水|みず}"
+       },
+       {
+        "id": "氷",
+        "jp": "{氷|こおり}"
+       },
+       {
+        "id": "塩",
+        "jp": "{塩|しお}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Bahan bakar mudah terbakar.",
+       "jp": "{燃料|ねんりょう}は{火|ひ}に{近|ちか}づけません。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mabuk laut dapat dikurangi dengan…",
+       "jp": "{船酔|ふなよ}いをへらす{方法|ほうほう}は？"
+      },
+      "opts": [
+       {
+        "id": "Tidur cukup dan melihat jauh",
+        "jp": "よくねて、{遠|とお}くを{見|み}る"
+       },
+       {
+        "id": "Minum alkohol",
+        "jp": "お{酒|さけ}を{飲|の}む"
+       },
+       {
+        "id": "Makan sangat banyak",
+        "jp": "たくさん{食|た}べる"
+       },
+       {
+        "id": "Tidak tidur",
+        "jp": "ねない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kondisi badan baik membantu.",
+       "jp": "{体調|たいちょう}をととのえます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Untuk sengatan panas (熱中症), yang dilakukan adalah…",
+       "jp": "{熱中症|ねっちゅうしょう}のときの{対応|たいおう}は？"
+      },
+      "opts": [
+       {
+        "id": "Berteduh, minum air dan garam",
+        "jp": "{日|ひ}かげで、{水|みず}と{塩分|えんぶん}をとる"
+       },
+       {
+        "id": "Tetap bekerja",
+        "jp": "{仕事|しごと}をつづける"
+       },
+       {
+        "id": "Mandi air panas",
+        "jp": "{熱|あつ}い{風呂|ふろ}に{入|はい}る"
+       },
+       {
+        "id": "Minum kopi saja",
+        "jp": "コーヒーだけ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dinginkan tubuh dan beri cairan.",
+       "jp": "{体|からだ}を{冷|ひ}やして{水分|すいぶん}をとります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Luka berdarah dihentikan dengan…",
+       "jp": "{血|ち}が{出|で}ているとき、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Menekan langsung luka dengan kain bersih",
+        "jp": "きれいな{布|ぬの}で{傷口|きずぐち}を{直接|ちょくせつ}おさえる"
+       },
+       {
+        "id": "Membiarkan",
+        "jp": "そのまま"
+       },
+       {
+        "id": "Menyiram minyak",
+        "jp": "{油|あぶら}をかける"
+       },
+       {
+        "id": "Meniup",
+        "jp": "{息|いき}をふきかける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "止血 = tekan langsung.",
+       "jp": "{傷口|きずぐち}を{直接|ちょくせつ}おさえます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s1-q",
+    "sub": "b2s1",
+    "title": {
+     "id": "Subbab 2.1 · Pakaian Kerja dan Alat Pelindung Diri",
+     "jp": "2.1 {服|ふく}そうと{保護具|ほごぐ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Lengan atau ujung celana yang longgar berbahaya karena…",
+       "jp": "ゆるいそでやすそがあぶない{理由|りゆう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Bisa tersangkut mesin atau tali",
+        "jp": "{機械|きかい}やロープに{巻|ま}き{込|こ}まれる"
+       },
+       {
+        "id": "Menghalangi pandangan",
+        "jp": "{見|み}えにくくなる"
+       },
+       {
+        "id": "Membuat kapal berat",
+        "jp": "{船|ふね}が{重|おも}くなる"
+       },
+       {
+        "id": "Menarik ikan",
+        "jp": "{魚|さかな}がよってくる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pakaian longgar mudah terlilit.",
+       "jp": "ゆるい{服|ふく}は{巻|ま}き{込|こ}まれやすいです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Jaket pelampung boleh dilepas jika cuaca panas.”",
+       "jp": "○か×か。「{暑|あつ}いときは、ライフジャケットを{脱|ぬ}いでもよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jaket pelampung dipakai terus saat bekerja di dek.",
+       "jp": "{甲板|かんぱん}では、ライフジャケットをいつも{着|き}ます。"
+      },
+      "mb": true
+     },
+     {
+      "q": {
+       "id": "APD yang cocok untuk kamar mesin yang bising adalah…",
+       "jp": "うるさい{機関室|きかんしつ}で{使|つか}う{保護具|ほごぐ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "耳栓",
+        "jp": "{耳栓|みみせん}"
+       },
+       {
+        "id": "日よけ",
+        "jp": "{日|ひ}よけ"
+       },
+       {
+        "id": "マスク",
+        "jp": "マスク"
+       },
+       {
+        "id": "ライフジャケット",
+        "jp": "ライフジャケット"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "耳栓 melindungi pendengaran.",
+       "jp": "{耳栓|みみせん}は{耳|みみ}を{守|まも}ります。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s2-q",
+    "sub": "b2s2",
+    "title": {
+     "id": "Subbab 2.2 · Bekerja di Dek dengan Aman",
+     "jp": "2.2 {甲板|かんぱん}での{安全|あんぜん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Di tangga dipakai prinsip…",
+       "jp": "はしごを{使|つか}うときの{正|ただ}しい{方法|ほうほう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tiga titik tumpu",
+        "jp": "3{点|てん}で{支|ささ}える"
+       },
+       {
+        "id": "Dua tangan membawa barang",
+        "jp": "{両手|りょうて}でものを{持|も}つ"
+       },
+       {
+        "id": "Berlari naik",
+        "jp": "{走|はし}ってのぼる"
+       },
+       {
+        "id": "Tanpa berpegangan",
+        "jp": "つかまらない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dua tangan satu kaki, atau satu tangan dua kaki.",
+       "jp": "{両手|りょうて}と{片足|かたあし}、または{片手|かたて}と{両足|りょうあし}で{支|ささ}えます。"
+      }
+     },
+     {
+      "q": {
+       "id": "しつけ dalam 5S berarti…",
+       "jp": "5Sの「しつけ」の{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Menjadikan semuanya kebiasaan",
+        "jp": "{習慣|しゅうかん}にする"
+       },
+       {
+        "id": "Membuang barang",
+        "jp": "ものをすてる"
+       },
+       {
+        "id": "Membersihkan lantai",
+        "jp": "{床|ゆか}をそうじする"
+       },
+       {
+        "id": "Menata alat",
+        "jp": "{道具|どうぐ}をならべる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "整理・整頓・清掃・清潔 dijadikan kebiasaan.",
+       "jp": "{全部|ぜんぶ}を{習慣|しゅうかん}にすることです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Dek licin karena lendir ikan. Tindakan yang benar?",
+       "jp": "{魚|さかな}のぬめりで{甲板|かんぱん}がすべります。{正|ただ}しい{対応|たいおう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Membersihkan dan berjalan pelan",
+        "jp": "そうじして、ゆっくり{歩|ある}く"
+       },
+       {
+        "id": "Berlari cepat",
+        "jp": "{走|はし}って{移動|いどう}する"
+       },
+       {
+        "id": "Membiarkan",
+        "jp": "そのままにする"
+       },
+       {
+        "id": "Memakai sandal",
+        "jp": "サンダルをはく"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Singkirkan sumber licin dan berjalan hati-hati.",
+       "jp": "ぬめりを{取|と}って、ゆっくり{歩|ある}きます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s3-q",
+    "sub": "b2s3",
+    "title": {
+     "id": "Subbab 2.3 · Jatuh ke Laut dan Penyelamatan",
+     "jp": "2.3 {海|うみ}への{転落|てんらく}と{救助|きゅうじょ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tindakan pertama jika melihat orang jatuh ke laut?",
+       "jp": "{人|ひと}が{海|うみ}に{落|お}ちたのを{見|み}ました。{最初|さいしょ}にすることはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Berteriak 「人が落ちた！」",
+        "jp": "「{人|ひと}が{落|お}ちた！」と{叫|さけ}ぶ"
+       },
+       {
+        "id": "Terjun segera",
+        "jp": "すぐ{飛|と}び{込|こ}む"
+       },
+       {
+        "id": "Diam-diam kembali bekerja",
+        "jp": "だまって{仕事|しごと}にもどる"
+       },
+       {
+        "id": "Mematikan lampu",
+        "jp": "{灯|ひ}を{消|け}す"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Teriak dan tunjuk lalu lapor ke ruang kemudi.",
+       "jp": "{大声|おおごえ}で{知|し}らせ、{指|ゆび}さして、{操舵室|そうだしつ}に{知|し}らせます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Cara korban menghemat tenaga di air adalah…",
+       "jp": "{海|うみ}に{落|お}ちた{人|ひと}が{体力|たいりょく}を{守|まも}る{方法|ほうほう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "背浮き",
+        "jp": "{背浮|せう}き"
+       },
+       {
+        "id": "全力で泳ぐ",
+        "jp": "{全力|ぜんりょく}で{泳|およ}ぐ"
+       },
+       {
+        "id": "重い服を着る",
+        "jp": "{重|おも}い{服|ふく}を{着|き}る"
+       },
+       {
+        "id": "もぐる",
+        "jp": "もぐる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "背浮き (mengapung telentang) menghemat tenaga.",
+       "jp": "{背浮|せう}きで{体力|たいりょく}を{守|まも}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Terjun menolong tanpa persiapan adalah tindakan yang benar.”",
+       "jp": "○か×か。「{準備|じゅんび}なしで{飛|と}び{込|こ}んで{助|たす}けるのが{正|ただ}しい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Anda bisa menjadi korban kedua.",
+       "jp": "{二人目|ふたりめ}の{被害者|ひがいしゃ}になるおそれがあります。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b2s4-q",
+    "sub": "b2s4",
+    "title": {
+     "id": "Subbab 2.4 · Mesin, Winch, dan Tali",
+     "jp": "2.4 {機械|きかい}・ウインチ・ロープの{危険|きけん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pada tali yang tegang, hindari berdiri…",
+       "jp": "ぴんと{張|は}ったロープでは、どこに{立|た}ってはいけませんか。"
+      },
+      "opts": [
+       {
+        "id": "Di garis lurus tali",
+        "jp": "ロープのまっすぐな{線上|せんじょう}"
+       },
+       {
+        "id": "Jauh di samping",
+        "jp": "{横|よこ}の{遠|とお}く"
+       },
+       {
+        "id": "Di belakang pelindung",
+        "jp": "カバーのうしろ"
+       },
+       {
+        "id": "Di dekat tombol berhenti",
+        "jp": "{非常停止|ひじょうていし}ボタンの{近|ちか}く"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tali putus akan melesat lurus.",
+       "jp": "{切|き}れたロープはまっすぐ{跳|は}ね{返|かえ}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Seseorang terjepit mesin. Tindakan pertama?",
+       "jp": "{機械|きかい}にはさまれた{人|ひと}がいます。すぐにすることはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "非常停止ボタンをおす",
+        "jp": "{非常停止|ひじょうていし}ボタンをおす"
+       },
+       {
+        "id": "機械を速くする",
+        "jp": "{機械|きかい}を{速|はや}くする"
+       },
+       {
+        "id": "手で引っぱる",
+        "jp": "{手|て}で{引|ひ}っぱる"
+       },
+       {
+        "id": "見ている",
+        "jp": "{見|み}ている"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tekan tombol berhenti darurat lalu panggil bantuan.",
+       "jp": "まず{止|と}めて、{人|ひと}を{呼|よ}びます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Mesin yang masih berjalan boleh dibersihkan jika berhati-hati.”",
+       "jp": "○か×か。「{動|うご}いている{機械|きかい}を、{気|き}をつければそうじしてもよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Mesin dimatikan sebelum dibersihkan atau diberi minyak.",
+       "jp": "{止|と}めてからそうじや{油|あぶら}さしをします。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b2s5-q",
+    "sub": "b2s5",
+    "title": {
+     "id": "Subbab 2.5 · Bahan Berbahaya, Tanda, dan Kebakaran",
+     "jp": "2.5 {危険物|きけんぶつ}・{標識|ひょうしき}・{火災|かさい}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Warna tanda keselamatan yang berarti perintah (wajib dilakukan) adalah…",
+       "jp": "「しなければならない」という{指示|しじ}の{標識|ひょうしき}の{色|いろ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Biru",
+        "jp": "{青|あお}"
+       },
+       {
+        "id": "Merah",
+        "jp": "{赤|あか}"
+       },
+       {
+        "id": "Hijau",
+        "jp": "{緑|みどり}"
+       },
+       {
+        "id": "Kuning",
+        "jp": "{黄|き}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Biru = perintah; merah = larangan/pemadam; kuning = peringatan; hijau = aman.",
+       "jp": "{青|あお}は{指示|しじ}、{赤|あか}は{禁止|きんし}・{防火|ぼうか}、{黄|き}は{警告|けいこく}、{緑|みどり}は{安全|あんぜん}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan memakai alat pemadam yang benar adalah…",
+       "jp": "{消火器|しょうかき}の{使|つか}い{方|かた}の{正|ただ}しい{順番|じゅんばん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Cabut pin → arahkan selang → tekan tuas",
+        "jp": "ピンをぬく→ホースを{向|む}ける→レバーをにぎる"
+       },
+       {
+        "id": "Tekan tuas → cabut pin → arahkan",
+        "jp": "レバー→ピン→{向|む}ける"
+       },
+       {
+        "id": "Arahkan → tekan tuas → cabut pin",
+        "jp": "{向|む}ける→レバー→ピン"
+       },
+       {
+        "id": "Lempar alat ke api",
+        "jp": "{消火器|しょうかき}を{火|ひ}に{投|な}げる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pin dulu, lalu arahkan ke pangkal api, baru tekan.",
+       "jp": "まずピンをぬき、{火|ひ}のもとに{向|む}けます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mencampur deterjen dan pemutih berbahaya karena…",
+       "jp": "{洗剤|せんざい}と{漂白剤|ひょうはくざい}を{混|ま}ぜるとあぶない{理由|りゆう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Menghasilkan gas beracun",
+        "jp": "{毒|どく}のガスが{出|で}る"
+       },
+       {
+        "id": "Menjadi lengket",
+        "jp": "ねばねばになる"
+       },
+       {
+        "id": "Menjadi dingin",
+        "jp": "{冷|つめ}たくなる"
+       },
+       {
+        "id": "Menarik ikan",
+        "jp": "{魚|さかな}がくる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tulisan 「混ぜるな危険」 berarti dilarang dicampur.",
+       "jp": "「{混|ま}ぜるな{危険|きけん}」は、{混|ま}ぜてはいけないという{意味|いみ}です。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b2s6-q",
+    "sub": "b2s6",
+    "title": {
+     "id": "Subbab 2.6 · Kesehatan, Kelelahan, dan Pertolongan Pertama",
+     "jp": "2.6 {健康管理|けんこうかんり}と{応急手当|おうきゅうてあて}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Penanganan hipotermia (低体温症) yang tepat adalah…",
+       "jp": "{低体温症|ていたいおんしょう}の{対応|たいおう}で{正|ただ}しいのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Ganti baju basah dan hangatkan",
+        "jp": "ぬれた{服|ふく}をかえて、あたためる"
+       },
+       {
+        "id": "Minum alkohol",
+        "jp": "お{酒|さけ}を{飲|の}む"
+       },
+       {
+        "id": "Mandi air dingin",
+        "jp": "{冷|つめ}たい{水|みず}を{浴|あ}びる"
+       },
+       {
+        "id": "Tetap basah",
+        "jp": "ぬれたままにする"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hangatkan tubuh, jangan biarkan basah.",
+       "jp": "ぬれた{服|ふく}を{脱|ぬ}いで、{体|からだ}をあたためます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Telepon darurat untuk kecelakaan di laut adalah…",
+       "jp": "{海|うみ}の{事故|じこ}のとき、{電話|でんわ}するのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "110",
+        "jp": "110"
+       },
+       {
+        "id": "118",
+        "jp": "118"
+       },
+       {
+        "id": "119",
+        "jp": "119"
+       },
+       {
+        "id": "104",
+        "jp": "104"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "118 = Penjaga Pantai; 119 = ambulans darat.",
+       "jp": "{海|うみ}は118、{陸|りく}の{救急|きゅうきゅう}は119です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Anda terluka kecil karena mata pancing. Yang benar adalah…",
+       "jp": "{釣|つ}り{針|ばり}で{小|ちい}さいけがをしました。{正|ただ}しいのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Melaporkan dan merawat",
+        "jp": "{報告|ほうこく}して{手当|てあて}てをする"
+       },
+       {
+        "id": "Menyembunyikan",
+        "jp": "かくす"
+       },
+       {
+        "id": "Mengabaikan",
+        "jp": "{気|き}にしない"
+       },
+       {
+        "id": "Menunggu sampai membesar",
+        "jp": "ひどくなるのを{待|ま}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Luka kecil bisa infeksi. Laporkan.",
+       "jp": "{小|ちい}さなけがも{報告|ほうこく}します。"
+      }
+     }
+    ]
+   }
+  ],
+  "bab3": [
+   {
+    "id": "bab3-q1",
+    "title": {
+     "id": "Jaring insang, pukat cincin, dan tarik dasar",
+     "jp": "{刺網|さしあみ}・{巻網|まきあみ}・{底|そこ}びき{網|あみ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Ikan di 底刺網 ditangkap di…",
+       "jp": "{底|そこ}{刺網|さしあみ}でとる{場所|ばしょ}はどこですか。"
+      },
+      "opts": [
+       {
+        "id": "Dasar laut",
+        "jp": "Dasar laut"
+       },
+       {
+        "id": "Permukaan",
+        "jp": "Permukaan"
+       },
+       {
+        "id": "Udara",
+        "jp": "Udara"
+       },
+       {
+        "id": "Sungai",
+        "jp": "Sungai"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "底刺網 dipasang di dasar.",
+       "jp": "{海|うみ}の{底|そこ}に{入|い}れます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Peran 探索船 adalah…",
+       "jp": "{探索船|たんさくせん}の{役割|やくわり}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Mencari kawanan ikan",
+        "jp": "{魚|さかな}{群|ぐん}を{探|さが}す"
+       },
+       {
+        "id": "Mengangkut ikan",
+        "jp": "{魚|さかな}を{運|はこ}ぶ"
+       },
+       {
+        "id": "Memasang lampu",
+        "jp": "{灯|ひ}をつける"
+       },
+       {
+        "id": "Menarik jaring dasar",
+        "jp": "{底|そこ}びき{網|あみ}をひく"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "探索船 mencari kawanan ikan.",
+       "jp": "{魚|さかな}{群|ぐん}を{探|さが}す{船|ふね}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kata kerja yang berarti 'mengerutkan bagian bawah jaring' adalah…",
+       "jp": "「{網|あみ}の{下|した}をしめる」を{表|あらわ}す{言葉|ことば}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "絞る",
+        "jp": "{絞|しぼ}る"
+       },
+       {
+        "id": "曳く",
+        "jp": "{曳|ひ}く"
+       },
+       {
+        "id": "外す",
+        "jp": "{外|はず}す"
+       },
+       {
+        "id": "起こす",
+        "jp": "{起|お}こす"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "絞る = mengerutkan.",
+       "jp": "{絞|しぼ}るは、しめることです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kawat yang menghubungkan kapal dan jaring tarik adalah…",
+       "jp": "{船|ふね}と{底|そこ}びき{網|あみ}をつなぐワイヤーはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "ワープ",
+        "jp": "ワープ"
+       },
+       {
+        "id": "ブイ",
+        "jp": "ブイ"
+       },
+       {
+        "id": "ハリス",
+        "jp": "ハリス"
+       },
+       {
+        "id": "枝縄",
+        "jp": "{枝縄|えだなわ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "ワープ = kawat tarik.",
+       "jp": "ワープは{船|ふね}と{網|あみ}をつなぎます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Target pukat cincin umumnya…",
+       "jp": "{巻網|まきあみ}でとる{魚|さかな}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "イワシ",
+        "jp": "イワシ"
+       },
+       {
+        "id": "カレイ",
+        "jp": "カレイ"
+       },
+       {
+        "id": "タコ",
+        "jp": "タコ"
+       },
+       {
+        "id": "カニ",
+        "jp": "カニ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan berkelompok seperti イワシ.",
+       "jp": "{群|む}れでいるイワシなどです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bahaya utama saat jaring dikerutkan adalah…",
+       "jp": "{網|あみ}を{絞|しぼ}るときの{大|おお}きなきけんはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tali dan cincin bergerak cepat",
+        "jp": "ロープと{環|かん}が{速|はや}く{動|うご}く"
+       },
+       {
+        "id": "Terlalu banyak ikan kecil",
+        "jp": "{小|ちい}さい{魚|さかな}が{多|おお}い"
+       },
+       {
+        "id": "Air terlalu jernih",
+        "jp": "{水|みず}がきれい"
+       },
+       {
+        "id": "Lampu mati",
+        "jp": "ライトが{消|き}える"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jauhi garis tali.",
+       "jp": "ロープの{線上|せんじょう}に{近|ちか}づきません。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q2",
+    "title": {
+     "id": "Jaring tetap, bubu, dan prosedur",
+     "jp": "{定置網|ていちあみ}・かご・{手順|てじゅん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Ruang akhir tempat ikan terkurung pada jaring tetap adalah…",
+       "jp": "{定置網|ていちあみ}で、{魚|さかな}がとじこめられる{最後|さいご}の{部分|ぶぶん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "箱網",
+        "jp": "{箱網|はこあみ}"
+       },
+       {
+        "id": "垣網",
+        "jp": "{垣網|かきあみ}"
+       },
+       {
+        "id": "ブイ",
+        "jp": "ブイ"
+       },
+       {
+        "id": "ワープ",
+        "jp": "ワープ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "箱網 / 身網 adalah ruang akhir.",
+       "jp": "{箱網|はこあみ}や{身網|みあみ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kapal pada jaring tetap fungsinya…",
+       "jp": "{定置網|ていちあみ}で{船|ふね}が{行|おこな}う{仕事|しごと}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Mengangkat jaring",
+        "jp": "{網|あみ}を{上|あ}げる"
+       },
+       {
+        "id": "Mengejar ikan",
+        "jp": "{魚|さかな}を{追|お}う"
+       },
+       {
+        "id": "Menarik jaring di dasar",
+        "jp": "{底|そこ}をひく"
+       },
+       {
+        "id": "Memasang lampu",
+        "jp": "{灯|ひ}をつける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kapal hanya mengangkat jaring.",
+       "jp": "{船|ふね}は{網|あみ}を{上|あ}げに{行|い}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alat tangkap yang cocok untuk gurita…",
+       "jp": "タコをとる{漁具|ぎょぐ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "たこつぼ",
+        "jp": "たこつぼ"
+       },
+       {
+        "id": "巻網",
+        "jp": "{巻網|まきあみ}"
+       },
+       {
+        "id": "棒受網",
+        "jp": "{棒受網|ぼうけあみ}"
+       },
+       {
+        "id": "刺網",
+        "jp": "{刺網|さしあみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "たこつぼ = pot gurita.",
+       "jp": "たこつぼにタコが{入|はい}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pada hari pemasangan, hal pertama yang dilakukan adalah…",
+       "jp": "{網|あみ}を{入|い}れる{前|まえ}に{最初|さいしょ}にすることはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Memeriksa jaring, tali, dan pelampung",
+        "jp": "{網|あみ}・ロープ・{浮|う}きを{点検|てんけん}する"
+       },
+       {
+        "id": "Melempar jaring tanpa melihat",
+        "jp": "{見|み}ずに{網|あみ}を{投|な}げる"
+       },
+       {
+        "id": "Tidur",
+        "jp": "ねる"
+       },
+       {
+        "id": "Mematikan lampu",
+        "jp": "{灯|ひ}を{消|け}す"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cek peralatan dulu.",
+       "jp": "まず{点検|てんけん}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Aba-aba sebelum menarik jaring adalah…",
+       "jp": "{網|あみ}を{上|あ}げる{前|まえ}の{声|こえ}かけはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "「揚げます！」",
+        "jp": "「{揚|あ}げます！」"
+       },
+       {
+        "id": "「帰ります！」",
+        "jp": "「{帰|かえ}ります！」"
+       },
+       {
+        "id": "「食べます！」",
+        "jp": "「{食|た}べます！」"
+       },
+       {
+        "id": "「休みます！」",
+        "jp": "「{休|やす}みます！」"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Serukan 「揚げます！」.",
+       "jp": "「{揚|あ}げます！」と{声|こえ}を{出|で}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Setelah dipakai, jaring harus…",
+       "jp": "{使|つか}ったあとの{網|あみ}はどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Dirapikan, dibersihkan, dan diperbaiki",
+        "jp": "{整理|せいり}し、きれいにして、{直|なお}す"
+       },
+       {
+        "id": "Dibuang ke laut",
+        "jp": "{海|うみ}にすてる"
+       },
+       {
+        "id": "Dibiarkan kusut",
+        "jp": "からまったまま"
+       },
+       {
+        "id": "Dijemur lama di matahari",
+        "jp": "{日光|にっこう}に{長|なが}くあてる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Rawat agar siap dipakai lagi.",
+       "jp": "{次|つぎ}に{使|つか}えるようにします。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab3-q3",
+    "title": {
+     "id": "Campuran jaring",
+     "jp": "{網|あみ}{漁業|ぎょぎょう}の{総|そう}まとめ"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Alat tangkap yang BUKAN jaring adalah…",
+       "jp": "{網|あみ}でない{漁具|ぎょぐ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "釣り針",
+        "jp": "{釣|つ}り{針|ばり}"
+       },
+       {
+        "id": "刺網",
+        "jp": "{刺網|さしあみ}"
+       },
+       {
+        "id": "巻網",
+        "jp": "{巻網|まきあみ}"
+       },
+       {
+        "id": "底びき網",
+        "jp": "{底|そこ}びき{網|あみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "釣り針 adalah mata pancing.",
+       "jp": "{釣|つ}り{針|ばり}は{網|あみ}ではありません。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa pukat tarik dasar diatur?",
+       "jp": "{底|そこ}びき{網|あみ}にルールがある{理由|りゆう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Merusak dasar laut",
+        "jp": "{海|うみ}の{底|そこ}をいためる"
+       },
+       {
+        "id": "Terlalu murah",
+        "jp": "{安|やす}すぎる"
+       },
+       {
+        "id": "Terlalu pelan",
+        "jp": "おそすぎる"
+       },
+       {
+        "id": "Tidak menangkap ikan",
+        "jp": "{魚|さかな}がとれない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ada daerah dan musim terlarang.",
+       "jp": "とってはいけない{場所|ばしょ}と{時期|じき}があります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Waktu terbaik mengangkat jaring tetap…",
+       "jp": "{定置網|ていちあみ}を{上|あ}げる{時間|じかん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "朝早く",
+        "jp": "{朝|あさ}{早|はや}く"
+       },
+       {
+        "id": "夜中だけ",
+        "jp": "{夜|よる}{中|なか}だけ"
+       },
+       {
+        "id": "年に1回",
+        "jp": "{年|ねん}に1{回|かい}"
+       },
+       {
+        "id": "ときどき",
+        "jp": "ときどき"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Biasanya pagi hari.",
+       "jp": "{朝|あさ}{早|はや}く{行|おこな}います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alat tangkap dengan lampu di malam hari untuk サンマ…",
+       "jp": "{夜|よる}、{灯|ひ}でサンマをとる{漁|りょう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "棒受網",
+        "jp": "{棒受網|ぼうけあみ}"
+       },
+       {
+        "id": "底びき網",
+        "jp": "{底|そこ}びき{網|あみ}"
+       },
+       {
+        "id": "はえ縄",
+        "jp": "はえ{縄|なわ}"
+       },
+       {
+        "id": "一本釣り",
+        "jp": "{一本|いっぽん}{釣|づ}り"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "棒受網.",
+       "jp": "{棒受網|ぼうけあみ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Yang paling berbahaya saat melepas jaring tersangkut…",
+       "jp": "ひっかかった{網|あみ}をはずすとき、いちばんあぶないのは？"
+      },
+      "opts": [
+       {
+        "id": "Mesin masih berjalan",
+        "jp": "{機械|きかい}が{動|うご}いている"
+       },
+       {
+        "id": "Mesin sudah mati",
+        "jp": "{機械|きかい}がとまっている"
+       },
+       {
+        "id": "Ada pemberi aba-aba",
+        "jp": "{合図|あいず}の{人|ひと}がいる"
+       },
+       {
+        "id": "Memakai jaket pelampung",
+        "jp": "ライフジャケットを{着|き}ている"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Matikan mesin dulu.",
+       "jp": "{先|さき}にとめます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika jaring hilang, tindakan yang benar adalah…",
+       "jp": "{網|あみ}をなくしたら、どうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Melapor",
+        "jp": "{報告|ほうこく}する"
+       },
+       {
+        "id": "Diam",
+        "jp": "だまる"
+       },
+       {
+        "id": "Menyalahkan orang",
+        "jp": "{人|ひと}のせいにする"
+       },
+       {
+        "id": "Membuang jaring lain",
+        "jp": "{別|べつ}の{網|あみ}をすてる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jaring hilang merusak laut.",
+       "jp": "{海|うみ}をいためるので{報告|ほうこく}します。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s1-q",
+    "sub": "b3s1",
+    "title": {
+     "id": "Subbab 3.1 · Jaring Insang (刺網)",
+     "jp": "3.1 {刺網|さしあみ}{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pada jaring insang (刺網), ikan tertangkap karena…",
+       "jp": "{刺網|さしあみ}で{魚|さかな}がとれるのはなぜですか。"
+      },
+      "opts": [
+       {
+        "id": "Kepala atau insang tersangkut di mata jaring",
+        "jp": "{頭|あたま}やえらが{網|あみ}{目|め}にかかる"
+       },
+       {
+        "id": "Ditarik kapal di dasar laut",
+        "jp": "{船|ふね}が{海|うみ}の{底|そこ}をひく"
+       },
+       {
+        "id": "Dikurung di perangkap",
+        "jp": "つぼにとじこめられる"
+       },
+       {
+        "id": "Dipancing satu per satu",
+        "jp": "1ぴきずつ{釣|つ}られる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jaring dipasang tegak dan ikan menabrak jaring.",
+       "jp": "{刺網|さしあみ}は{立|た}てて{入|い}れ、{魚|さかな}が{網|あみ}{目|め}にかかります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jaring yang dipasang di dasar laut untuk ikan dasar disebut…",
+       "jp": "{海|うみ}の{底|そこ}に{入|い}れ、{底魚|そこうお}をとる{刺網|さしあみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "浮刺網",
+        "jp": "{浮|う}{刺網|さしあみ}"
+       },
+       {
+        "id": "底刺網",
+        "jp": "{底|そこ}{刺網|さしあみ}"
+       },
+       {
+        "id": "巻網",
+        "jp": "{巻網|まきあみ}"
+       },
+       {
+        "id": "定置網",
+        "jp": "{定置網|ていちあみ}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "底刺網 = jaring insang dasar.",
+       "jp": "{底|そこ}{刺網|さしあみ}は{海|うみ}の{底|そこ}に{入|い}れます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Jaring yang hanyut atau hilang tidak perlu dilaporkan karena sudah tidak dipakai.”",
+       "jp": "○か×か。「{流|なが}された{網|あみ}は、もう{使|つか}わないので{報告|ほうこく}しなくてよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Jaring hilang masih menangkap ikan dan merusak laut. Harus dilaporkan.",
+       "jp": "なくなった{網|あみ}も{魚|さかな}をとり{続|つづ}けます。{報告|ほうこく}します。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b3s2-q",
+    "sub": "b3s2",
+    "title": {
+     "id": "Subbab 3.2 · Pukat Cincin (巻網)",
+     "jp": "3.2 {巻網|まきあみ}{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pukat cincin (巻網) bekerja dengan cara…",
+       "jp": "{巻網|まきあみ}のしくみはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Melingkari kawanan ikan lalu mengerutkan bagian bawah jaring",
+        "jp": "{魚|さかな}{群|ぐん}をかこみ、{網|あみ}の{下|した}を{絞|しぼ}る"
+       },
+       {
+        "id": "Menarik jaring di dasar laut",
+        "jp": "{海|うみ}の{底|そこ}で{網|あみ}をひく"
+       },
+       {
+        "id": "Memasang jaring tetap",
+        "jp": "{決|き}まった{場所|ばしょ}に{網|あみ}をおく"
+       },
+       {
+        "id": "Memancing dengan joran",
+        "jp": "{竿|さお}で{釣|つ}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan terkurung seperti kantong.",
+       "jp": "{魚|さかな}をふくろのように{閉|と}じこめます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kapal yang menarik ikan dengan lampu di malam hari adalah…",
+       "jp": "{夜|よる}、{光|ひかり}で{魚|さかな}をあつめる{船|ふね}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "網船",
+        "jp": "{網|あみ}{船|ふね}"
+       },
+       {
+        "id": "灯船",
+        "jp": "{灯|ひ}{船|ふね}"
+       },
+       {
+        "id": "運搬船",
+        "jp": "{運搬船|うんぱんせん}"
+       },
+       {
+        "id": "探索船",
+        "jp": "{探索船|たんさくせん}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "灯船 = kapal lampu.",
+       "jp": "{灯|ひ}{船|ふね}は{集魚灯|しゅうぎょとう}で{魚|さかな}をあつめます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kapal yang membawa ikan ke pelabuhan adalah…",
+       "jp": "とった{魚|さかな}を{港|みなと}へ{運|はこ}ぶ{船|ふね}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "運搬船",
+        "jp": "{運搬船|うんぱんせん}"
+       },
+       {
+        "id": "網船",
+        "jp": "{網|あみ}{船|ふね}"
+       },
+       {
+        "id": "探索船",
+        "jp": "{探索船|たんさくせん}"
+       },
+       {
+        "id": "灯船",
+        "jp": "{灯|ひ}{船|ふね}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "運搬船 = kapal pengangkut.",
+       "jp": "{運搬船|うんぱんせん}は{魚|さかな}を{運|はこ}びます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s3-q",
+    "sub": "b3s3",
+    "title": {
+     "id": "Subbab 3.3 · Pukat Tarik Dasar (底びき網)",
+     "jp": "3.3 {底|そこ}びき{網|あみ}{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Fungsi オッターボード adalah…",
+       "jp": "オッターボードのはたらきはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Membuka mulut jaring saat ditarik",
+        "jp": "ひくときに{網口|あみぐち}を{開|ひら}く"
+       },
+       {
+        "id": "Menggulung kawat",
+        "jp": "ワープをまく"
+       },
+       {
+        "id": "Menahan ikan",
+        "jp": "{魚|さかな}をとめる"
+       },
+       {
+        "id": "Menyalakan lampu",
+        "jp": "{灯|ひ}をつける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Papan di kiri-kanan membuka mulut jaring.",
+       "jp": "{左右|さゆう}の{板|いた}が{網口|あみぐち}を{開|ひら}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bagian tempat ikan terkumpul pada pukat tarik dasar adalah…",
+       "jp": "{底|そこ}びき{網|あみ}で{魚|さかな}があつまる{部分|ぶぶん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "網口",
+        "jp": "{網口|あみぐち}"
+       },
+       {
+        "id": "袋網",
+        "jp": "{袋網|ふくろあみ}"
+       },
+       {
+        "id": "ワープ",
+        "jp": "ワープ"
+       },
+       {
+        "id": "オッターボード",
+        "jp": "オッターボード"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "袋網 = kantong jaring.",
+       "jp": "{袋網|ふくろあみ}に{魚|さかな}があつまります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hasil tangkapan pukat tarik dasar umumnya adalah…",
+       "jp": "{底|そこ}びき{網|あみ}でとる{魚|さかな}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "カレイ",
+        "jp": "カレイ"
+       },
+       {
+        "id": "カツオ",
+        "jp": "カツオ"
+       },
+       {
+        "id": "サンマ",
+        "jp": "サンマ"
+       },
+       {
+        "id": "マグロ",
+        "jp": "マグロ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan dasar seperti カレイ.",
+       "jp": "{底|そこ}にいるカレイなどをとります。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s4-q",
+    "sub": "b3s4",
+    "title": {
+     "id": "Subbab 3.4 · Jaring Tetap (定置網)",
+     "jp": "3.4 {定置網|ていちあみ}{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Jaring tetap (定置網) bekerja dengan cara…",
+       "jp": "{定置網|ていちあみ}のしくみはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Dipasang lama di satu tempat dan ikan terpandu masuk",
+        "jp": "{長|なが}く{同|おな}じ{場所|ばしょ}において{魚|さかな}をみちびく"
+       },
+       {
+        "id": "Kapal mengejar kawanan ikan",
+        "jp": "{船|ふね}が{魚|さかな}{群|ぐん}を{追|お}う"
+       },
+       {
+        "id": "Ditarik di dasar laut",
+        "jp": "{海|うみ}の{底|そこ}をひく"
+       },
+       {
+        "id": "Memancing dengan umpan",
+        "jp": "えさで{釣|つ}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kapal hanya datang untuk mengangkat jaring.",
+       "jp": "{船|ふね}は{網|あみ}を{上|あ}げに{行|い}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jaring penuntun yang mengarahkan ikan ke dalam disebut…",
+       "jp": "{魚|さかな}を{中|なか}へみちびく{網|あみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "垣網",
+        "jp": "{垣網|かきあみ}"
+       },
+       {
+        "id": "袋網",
+        "jp": "{袋網|ふくろあみ}"
+       },
+       {
+        "id": "身網",
+        "jp": "{身網|みあみ}"
+       },
+       {
+        "id": "箱網",
+        "jp": "{箱網|はこあみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "垣網 = jaring penuntun.",
+       "jp": "{垣網|かきあみ}が{魚|さかな}をみちびきます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jaring tetap biasanya diangkat pada…",
+       "jp": "{定置網|ていちあみ}は、ふつういつ{上|あ}げますか。"
+      },
+      "opts": [
+       {
+        "id": "Pagi hari",
+        "jp": "Pagi hari"
+       },
+       {
+        "id": "Hanya sekali setahun",
+        "jp": "Hanya sekali setahun"
+       },
+       {
+        "id": "Hanya saat badai",
+        "jp": "Hanya saat badai"
+       },
+       {
+        "id": "Tidak pernah",
+        "jp": "Tidak pernah"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jaring diangkat tiap pagi.",
+       "jp": "{毎朝|まいあさ}、{網|あみ}を{上|あ}げます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b3s5-q",
+    "sub": "b3s5",
+    "title": {
+     "id": "Subbab 3.5 · Bubu, Jaring Angkat, dan Alat Pasif",
+     "jp": "3.5 かご・{棒受網|ぼうけあみ}・つぼ{漁|りょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pot gurita (たこつぼ) menjebak gurita karena…",
+       "jp": "たこつぼにタコが{入|はい}る{理由|りゆう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Gurita suka tempat sempit",
+        "jp": "タコはせまい{所|ところ}が{好|す}き"
+       },
+       {
+        "id": "Pot berisi umpan beracun",
+        "jp": "どくのえさがある"
+       },
+       {
+        "id": "Pot menarik dengan lampu",
+        "jp": "ライトでよぶ"
+       },
+       {
+        "id": "Pot ditarik kapal",
+        "jp": "{船|ふね}がひく"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gurita masuk sendiri ke tempat sempit.",
+       "jp": "タコはせまい{所|ところ}に{入|はい}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Alat tangkap yang dipakai untuk サンマ (sauri) di malam hari adalah…",
+       "jp": "{夜|よる}にサンマをとる{漁|りょう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "棒受網",
+        "jp": "{棒受網|ぼうけあみ}"
+       },
+       {
+        "id": "はえ縄",
+        "jp": "はえ{縄|なわ}"
+       },
+       {
+        "id": "底びき網",
+        "jp": "{底|そこ}びき{網|あみ}"
+       },
+       {
+        "id": "刺網",
+        "jp": "{刺網|さしあみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "棒受網 memakai lampu 集魚灯.",
+       "jp": "{棒受網|ぼうけあみ}は{集魚灯|しゅうぎょとう}をつかいます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Berdiri di dalam gulungan tali bubu aman selama tali belum bergerak.”",
+       "jp": "○か×か。「まだ{動|うご}いていなければ、かごのロープの{輪|わ}の{中|なか}に{立|た}ってもよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Tali bisa tiba-tiba bergerak cepat dan melilit kaki.",
+       "jp": "ロープが{急|きゅう}に{出|で}て、{足|あし}にからまります。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b3s6-q",
+    "sub": "b3s6",
+    "title": {
+     "id": "Subbab 3.6 · Memasang, Menarik, dan Merapikan Jaring",
+     "jp": "3.6 {網|あみ}の{入|い}れ{方|かた}・{揚|あ}げ{方|かた}・{整理|せいり}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Urutan memasang jaring yang benar adalah…",
+       "jp": "{網|あみ}を{入|い}れる{正|ただ}しい{順番|じゅんばん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Pelampung → jaring → pemberat",
+        "jp": "{浮|う}き→{網|あみ}→おもり"
+       },
+       {
+        "id": "Pemberat → jaring → pelampung",
+        "jp": "おもり→{網|あみ}→{浮|う}き"
+       },
+       {
+        "id": "Jaring → pemberat → pelampung",
+        "jp": "{網|あみ}→おもり→{浮|う}き"
+       },
+       {
+        "id": "Tanpa urutan",
+        "jp": "{順番|じゅんばん}はない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pelampung dipasang dulu, pemberat terakhir.",
+       "jp": "{浮|う}きが{先|さき}、おもりが{最後|さいご}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jaring tersangkut saat ditarik dengan mesin. Tindakan yang benar adalah…",
+       "jp": "{機械|きかい}で{網|あみ}をひいているとき、{網|あみ}がひっかかりました。{正|ただ}しいのは？"
+      },
+      "opts": [
+       {
+        "id": "Hentikan mesin, baru dilepas",
+        "jp": "{機械|きかい}をとめてからはずす"
+       },
+       {
+        "id": "Lepas dengan tangan saat mesin berjalan",
+        "jp": "{動|うご}いたまま{手|て}ではずす"
+       },
+       {
+        "id": "Mempercepat mesin",
+        "jp": "{機械|きかい}を{速|はや}くする"
+       },
+       {
+        "id": "Menunggu sambil memegang jaring",
+        "jp": "{網|あみ}を{持|も}って{待|ま}つ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hentikan mesin dulu.",
+       "jp": "{先|さき}に{機械|きかい}をとめます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Sebelum memasang jaring, tidak perlu memeriksa apakah ada orang di garis jaring.”",
+       "jp": "○か×か。「{網|あみ}を{入|い}れる{前|まえ}に、{線上|せんじょう}に{人|ひと}がいるか{確認|かくにん}しなくてよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Selalu pastikan area bebas dan serukan 「入れます！」.",
+       "jp": "{人|ひと}がいないか{確認|かくにん}し、{声|こえ}を{出|で}します。"
+      },
+      "mb": true
+     }
+    ]
+   }
+  ],
+  "bab4": [
+   {
+    "id": "bab4-q1",
+    "title": {
+     "id": "Peralatan dan pancing joran",
+     "jp": "{道具|どうぐ}と{一本|いっぽん}{釣|づ}り"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Umpan hidup disebut…",
+       "jp": "{生|い}きている{小|ちい}さい{魚|さかな}のえさはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "活き餌",
+        "jp": "{活|い}き{餌|えさ}"
+       },
+       {
+        "id": "疑似餌",
+        "jp": "{疑似餌|ぎじえ}"
+       },
+       {
+        "id": "餌付け",
+        "jp": "{餌付|えづけ}け"
+       },
+       {
+        "id": "ハリス",
+        "jp": "ハリス"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "活き餌 = umpan hidup.",
+       "jp": "{活|い}き{餌|えさ}は{生|い}きたえさです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Tali dari joran/gulungan yang panjang adalah…",
+       "jp": "{竿|さお}やまき{機|き}から{出|で}る{長|なが}い{糸|いと}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "道糸",
+        "jp": "{道|みち}{糸|いと}"
+       },
+       {
+        "id": "ハリス",
+        "jp": "ハリス"
+       },
+       {
+        "id": "枝縄",
+        "jp": "{枝縄|えだなわ}"
+       },
+       {
+        "id": "幹縄",
+        "jp": "{幹縄|みきなわ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "道糸 = tali utama.",
+       "jp": "{道|みち}{糸|いと}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mengapa ikan hasil 一本釣り bermutu tinggi?",
+       "jp": "{一本|いっぽん}{釣|づ}りの{魚|さかな}の{品質|ひんしつ}が{高|たか}い{理由|りゆう}は？"
+      },
+      "opts": [
+       {
+        "id": "Ditarik satu per satu sehingga tidak lecet",
+        "jp": "1ぴきずつ{釣|つ}るのできずがつきにくい"
+       },
+       {
+        "id": "Dijemur",
+        "jp": "{日光|にっこう}にあてる"
+       },
+       {
+        "id": "Dibekukan di dek",
+        "jp": "{甲板|かんぱん}で{凍|こお}らせる"
+       },
+       {
+        "id": "Dibiarkan lama",
+        "jp": "{長|なが}くおく"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kualitas terjaga.",
+       "jp": "きずがつきにくいです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mata pancing disimpan…",
+       "jp": "{針|はり}の{保管|ほかん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Di kotak",
+        "jp": "{箱|はこ}に{入|い}れる"
+       },
+       {
+        "id": "Di saku",
+        "jp": "ポケットに{入|い}れる"
+       },
+       {
+        "id": "Di dek",
+        "jp": "{甲板|かんぱん}におく"
+       },
+       {
+        "id": "Di rambut",
+        "jp": "{髪|かみ}につける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Agar tidak menusuk orang.",
+       "jp": "{人|ひと}にささらないようにします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Yang perlu dipilih sesuai ikan dan arus adalah…",
+       "jp": "{魚|さかな}と{流|なが}れにあわせて{選|えら}ぶものは？"
+      },
+      "opts": [
+       {
+        "id": "針・糸・えさ",
+        "jp": "{針|はり}・{糸|いと}・えさ"
+       },
+       {
+        "id": "船の色",
+        "jp": "{船|ふね}の{色|いろ}"
+       },
+       {
+        "id": "旗",
+        "jp": "{旗|はた}"
+       },
+       {
+        "id": "帽子",
+        "jp": "{帽子|ぼうし}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pilih alat sesuai target.",
+       "jp": "{魚|さかな}にあう{道具|どうぐ}を{選|えら}びます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pancing カツオ dilakukan dari…",
+       "jp": "カツオ{一本|いっぽん}{釣|づ}りで{釣|つ}り{人|ひと}が{立|た}つ{場所|ばしょ}は？"
+      },
+      "opts": [
+       {
+        "id": "Tepi kapal",
+        "jp": "Tepi kapal"
+       },
+       {
+        "id": "Dalam palka",
+        "jp": "Dalam palka"
+       },
+       {
+        "id": "Di dermaga",
+        "jp": "Di dermaga"
+       },
+       {
+        "id": "Di kamar mesin",
+        "jp": "Di kamar mesin"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pemancing berdiri di tepi kapal.",
+       "jp": "{船|ふね}のはしに{立|た}ちます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab4-q2",
+    "title": {
+     "id": "Rawai dan pancing cumi",
+     "jp": "はえ{縄|なわ}とイカ{釣|つ}り"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Rawai sering dipakai untuk…",
+       "jp": "はえ{縄|なわ}でとる{魚|さかな}は？"
+      },
+      "opts": [
+       {
+        "id": "マグロ",
+        "jp": "マグロ"
+       },
+       {
+        "id": "アサリ",
+        "jp": "アサリ"
+       },
+       {
+        "id": "ノリ",
+        "jp": "ノリ"
+       },
+       {
+        "id": "カキ",
+        "jp": "カキ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan besar seperti マグロ.",
+       "jp": "マグロなど{大|おお}きい{魚|さかな}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "投縄 berarti…",
+       "jp": "{投縄|なげなわ}の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Menurunkan rawai ke laut",
+        "jp": "はえ{縄|なわ}を{海|うみ}に{入|い}れる"
+       },
+       {
+        "id": "Menarik rawai",
+        "jp": "はえ{縄|なわ}を{上|あ}げる"
+       },
+       {
+        "id": "Memasang umpan",
+        "jp": "えさをつける"
+       },
+       {
+        "id": "Membersihkan",
+        "jp": "そうじする"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "投縄 = menurunkan.",
+       "jp": "{海|うみ}に{入|い}れることです。"
+      }
+     },
+     {
+      "q": {
+       "id": "揚縄 berarti…",
+       "jp": "{揚縄|あげなわ}の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Menarik rawai",
+        "jp": "はえ{縄|なわ}を{上|あ}げる"
+       },
+       {
+        "id": "Menurunkan rawai",
+        "jp": "はえ{縄|なわ}を{入|い}れる"
+       },
+       {
+        "id": "Memasang umpan",
+        "jp": "えさをつける"
+       },
+       {
+        "id": "Memancing cumi",
+        "jp": "イカを{釣|つ}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "揚縄 = menarik rawai.",
+       "jp": "ロープを{上|あ}げることです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Cumi dipancing dengan bantuan…",
+       "jp": "イカ{釣|つ}りで{使|つか}うのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "集魚灯",
+        "jp": "{集魚灯|しゅうぎょとう}"
+       },
+       {
+        "id": "オッターボード",
+        "jp": "オッターボード"
+       },
+       {
+        "id": "垣網",
+        "jp": "{垣網|かきあみ}"
+       },
+       {
+        "id": "たも網",
+        "jp": "たも{網|あみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lampu menarik cumi.",
+       "jp": "{集魚灯|しゅうぎょとう}でイカをよびます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mesin pancing cumi otomatis menjatuhkan cumi ke…",
+       "jp": "{自動|じどう}イカ{釣|つ}り{機|き}でとれたイカは、どこへ{落|お}ちますか。"
+      },
+      "opts": [
+       {
+        "id": "Palka atau meja sortir",
+        "jp": "{魚倉|ぎょそう}や{選別台|せんべつだい}"
+       },
+       {
+        "id": "Laut",
+        "jp": "{海|うみ}"
+       },
+       {
+        "id": "Dermaga",
+        "jp": "{岸壁|がんぺき}"
+       },
+       {
+        "id": "Joran",
+        "jp": "{竿|さお}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dilepas otomatis.",
+       "jp": "{自動|じどう}ではずれます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang harus dilakukan sebelum memperbaiki mesin adalah…",
+       "jp": "{機械|きかい}を{直|なお}す{前|まえ}にすることは？"
+      },
+      "opts": [
+       {
+        "id": "Matikan mesin",
+        "jp": "{機械|きかい}をとめる"
+       },
+       {
+        "id": "Pegang kait",
+        "jp": "{針|はり}をさわる"
+       },
+       {
+        "id": "Percepat mesin",
+        "jp": "{機械|きかい}を{速|はや}くする"
+       },
+       {
+        "id": "Tidur",
+        "jp": "ねる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Matikan dulu.",
+       "jp": "{先|さき}にとめます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab4-q3",
+    "title": {
+     "id": "Campuran pancing",
+     "jp": "{釣|つ}り{漁業|ぎょぎょう}の{総|そう}まとめ"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Pancing yang memakai tali cabang banyak adalah…",
+       "jp": "{枝縄|えだなわ}がたくさんある{漁|りょう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "はえ縄",
+        "jp": "はえ{縄|なわ}"
+       },
+       {
+        "id": "一本釣り",
+        "jp": "{一本|いっぽん}{釣|づ}り"
+       },
+       {
+        "id": "巻網",
+        "jp": "{巻網|まきあみ}"
+       },
+       {
+        "id": "底びき網",
+        "jp": "{底|そこ}びき{網|あみ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "はえ縄.",
+       "jp": "はえ{縄|なわ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mata pancing tanpa kait berguna untuk…",
+       "jp": "カエシなしの{針|はり}のよい{点|てん}は？"
+      },
+      "opts": [
+       {
+        "id": "Mudah dilepas dari ikan",
+        "jp": "{魚|さかな}からはずしやすい"
+       },
+       {
+        "id": "Menahan ikan lebih lama",
+        "jp": "{魚|さかな}が{長|なが}くかかる"
+       },
+       {
+        "id": "Lebih murah",
+        "jp": "{安|やす}い"
+       },
+       {
+        "id": "Lebih berat",
+        "jp": "{重|おも}い"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cepat lepas.",
+       "jp": "すぐはずれます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pancing cumi dilakukan terutama…",
+       "jp": "イカ{釣|つ}りの{時間|じかん}は？"
+      },
+      "opts": [
+       {
+        "id": "Malam",
+        "jp": "Malam"
+       },
+       {
+        "id": "Siang",
+        "jp": "Siang"
+       },
+       {
+        "id": "Pagi",
+        "jp": "Pagi"
+       },
+       {
+        "id": "Sore",
+        "jp": "Sore"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Malam hari.",
+       "jp": "{夜|よる}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bahaya kantuk lebih besar pada…",
+       "jp": "ねむけのきけんが{大|おお}きいのは？"
+      },
+      "opts": [
+       {
+        "id": "Kerja malam",
+        "jp": "Kerja malam"
+       },
+       {
+        "id": "Kerja pagi",
+        "jp": "Kerja pagi"
+       },
+       {
+        "id": "Libur",
+        "jp": "Libur"
+       },
+       {
+        "id": "Makan",
+        "jp": "Makan"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kerja malam.",
+       "jp": "{夜|よる}の{仕事|しごと}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mata pancing besar menusuk tangan. Tindakan pertama…",
+       "jp": "{大|おお}きい{針|はり}が{手|て}にささりました。まずどうしますか？"
+      },
+      "opts": [
+       {
+        "id": "Lapor",
+        "jp": "{報告|ほうこく}する"
+       },
+       {
+        "id": "Cabut paksa",
+        "jp": "むりにぬく"
+       },
+       {
+        "id": "Abaikan",
+        "jp": "{気|き}にしない"
+       },
+       {
+        "id": "Teruskan bekerja",
+        "jp": "{仕事|しごと}をつづける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lapor segera.",
+       "jp": "すぐ{報告|ほうこく}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pemancingan cakalang memakai…",
+       "jp": "カツオ{一本|いっぽん}{釣|づ}りで{使|つか}うのは？"
+      },
+      "opts": [
+       {
+        "id": "散水",
+        "jp": "{散水|さんすい}"
+       },
+       {
+        "id": "オッターボード",
+        "jp": "オッターボード"
+       },
+       {
+        "id": "垣網",
+        "jp": "{垣網|かきあみ}"
+       },
+       {
+        "id": "ラインホーラー",
+        "jp": "ラインホーラー"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "散水.",
+       "jp": "{水|みず}をまきます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b4s1-q",
+    "sub": "b4s1",
+    "title": {
+     "id": "Subbab 4.1 · Peralatan Pancing Dasar",
+     "jp": "4.1 {釣|つ}り{道具|どうぐ}の{基本|きほん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tali pendek dan halus antara tali utama dan mata pancing disebut…",
+       "jp": "{道|みち}{糸|いと}と{針|はり}のあいだの{短|みじか}くて{細|ほそ}い{糸|いと}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "道糸",
+        "jp": "{道|みち}{糸|いと}"
+       },
+       {
+        "id": "ハリス",
+        "jp": "ハリス"
+       },
+       {
+        "id": "幹縄",
+        "jp": "{幹縄|みきなわ}"
+       },
+       {
+        "id": "枝縄",
+        "jp": "{枝縄|えだなわ}"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "ハリス = tali kail.",
+       "jp": "ハリスは{針|はり}につなぐ{細|ほそ}い{糸|いと}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mata pancing カエシなし berarti…",
+       "jp": "カエシなしの{針|はり}とは{何|なに}ですか。"
+      },
+      "opts": [
+       {
+        "id": "Tanpa kait, mudah dilepas",
+        "jp": "かえしがなく、はずしやすい{針|はり}"
+       },
+       {
+        "id": "Mata pancing besar",
+        "jp": "{大|おお}きい{針|はり}"
+       },
+       {
+        "id": "Mata pancing berkarat",
+        "jp": "さびた{針|はり}"
+       },
+       {
+        "id": "Tanpa umpan",
+        "jp": "えさがない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "カエシ = kait.",
+       "jp": "カエシはかえしのことです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Umpan buatan yang bergerak seperti mangsa adalah…",
+       "jp": "{生|い}き{物|もの}のように{動|うご}く、つくったえさはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "活き餌",
+        "jp": "{活|い}き{餌|えさ}"
+       },
+       {
+        "id": "疑似餌",
+        "jp": "{疑似餌|ぎじえ}"
+       },
+       {
+        "id": "餌",
+        "jp": "{餌|えさ}"
+       },
+       {
+        "id": "ブイ",
+        "jp": "ブイ"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "疑似餌 = umpan tiruan.",
+       "jp": "{疑似餌|ぎじえ}はつくったえさです。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b4s2-q",
+    "sub": "b4s2",
+    "title": {
+     "id": "Subbab 4.2 · Pancing Joran Tunggal (一本釣り)",
+     "jp": "4.2 {一本|いっぽん}{釣|づ}り{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Keunggulan 一本釣り adalah…",
+       "jp": "{一本|いっぽん}{釣|づ}りのよいところはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Ikan tidak mudah lecet sehingga mutunya tinggi",
+        "jp": "{魚|さかな}にきずがつきにくく、{品質|ひんしつ}が{高|たか}い"
+       },
+       {
+        "id": "Menangkap banyak ikan sekaligus",
+        "jp": "{一度|いちど}にたくさんとれる"
+       },
+       {
+        "id": "Tidak butuh tenaga",
+        "jp": "{力|ちから}がいらない"
+       },
+       {
+        "id": "Tidak butuh umpan",
+        "jp": "えさがいらない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Ikan ditarik satu per satu.",
+       "jp": "1ぴきずつ{釣|つ}るので、きずがつきにくいです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Tujuan 散水 pada カツオ一本釣り adalah…",
+       "jp": "カツオ{一本|いっぽん}{釣|づ}りで{散水|さんすい}する{理由|りゆう}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Agar ikan tidak melihat kapal dan mengira umpan",
+        "jp": "{魚|さかな}に{船|ふね}が{見|み}えないようにする"
+       },
+       {
+        "id": "Mendinginkan palka",
+        "jp": "{魚倉|ぎょそう}を{冷|ひ}やす"
+       },
+       {
+        "id": "Membersihkan dek",
+        "jp": "{甲板|かんぱん}をそうじする"
+       },
+       {
+        "id": "Menyalakan lampu",
+        "jp": "{灯|ひ}をつける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Air semprot menyamarkan kapal.",
+       "jp": "{水|みず}で{船|ふね}を{見|み}えにくくします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Memancing カツオ dengan joran tunggal tidak membebani lengan dan punggung.”",
+       "jp": "○か×か。「カツオの{一本|いっぽん}{釣|づ}りは、うでや{背中|せなか}の{負担|ふたん}が{小|ちい}さい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Beban sangat besar. Gunakan posisi benar dan bergantian.",
+       "jp": "{負担|ふたん}が{大|おお}きいので、{正|ただ}しい{姿勢|しせい}で{交代|こうたい}します。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b4s3-q",
+    "sub": "b4s3",
+    "title": {
+     "id": "Subbab 4.3 · Rawai (はえ縄)",
+     "jp": "4.3 はえ{縄|なわ}{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tali yang digantungi mata pancing pada rawai disebut…",
+       "jp": "はえ{縄|なわ}で、{針|はり}がついているロープはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "幹縄",
+        "jp": "{幹縄|みきなわ}"
+       },
+       {
+        "id": "枝縄",
+        "jp": "{枝縄|えだなわ}"
+       },
+       {
+        "id": "道糸",
+        "jp": "{道|みち}{糸|いと}"
+       },
+       {
+        "id": "浮き",
+        "jp": "{浮|う}き"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "枝縄 = tali cabang.",
+       "jp": "{枝縄|えだなわ}に{針|はり}をつけます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Urutan kerja rawai yang benar adalah…",
+       "jp": "はえ{縄|なわ}の{正|ただ}しい{順番|じゅんばん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "餌付け → 投縄 → 揚縄",
+        "jp": "{餌付|えづけ}け→{投縄|なげなわ}→{揚縄|あげなわ}"
+       },
+       {
+        "id": "揚縄 → 餌付け → 投縄",
+        "jp": "{揚縄|あげなわ}→{餌付|えづけ}け→{投縄|なげなわ}"
+       },
+       {
+        "id": "投縄 → 揚縄 → 餌付け",
+        "jp": "{投縄|なげなわ}→{揚縄|あげなわ}→{餌付|えづけ}け"
+       },
+       {
+        "id": "餌付け → 揚縄 → 投縄",
+        "jp": "{餌付|えづけ}け→{揚縄|あげなわ}→{投縄|なげなわ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pasang umpan, turunkan, lalu tarik.",
+       "jp": "えさをつけ、{入|い}れて、{上|あ}げます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Mata pancing besar yang menusuk tangan sebaiknya dicabut paksa sendiri.”",
+       "jp": "○か×か。「{大|おお}きい{針|はり}が{手|て}にささったら、{自分|じぶん}でむりにぬくのがよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Segera lapor dan jangan cabut paksa.",
+       "jp": "すぐ{報告|ほうこく}し、むりにぬきません。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b4s4-q",
+    "sub": "b4s4",
+    "title": {
+     "id": "Subbab 4.4 · Pancing Cumi (イカ釣り)",
+     "jp": "4.4 イカ{釣|つ}り{漁業|ぎょぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Cumi ditangkap terutama pada…",
+       "jp": "イカ{釣|つ}りは、いつ{行|おこな}うことが{多|おお}いですか。"
+      },
+      "opts": [
+       {
+        "id": "Malam hari",
+        "jp": "Malam hari"
+       },
+       {
+        "id": "Pagi hari",
+        "jp": "Pagi hari"
+       },
+       {
+        "id": "Siang hari",
+        "jp": "Siang hari"
+       },
+       {
+        "id": "Tengah hari",
+        "jp": "Tengah hari"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lampu menarik cumi di malam hari.",
+       "jp": "{夜|よる}に{集魚灯|しゅうぎょとう}でイカをよびます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Kait cumi (イカ角) berbeda dari kail biasa karena…",
+       "jp": "イカ{角|つの}のとくちょうはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tanpa umpan, menjerat tentakel cumi",
+        "jp": "えさがなく、イカの{足|あし}にかかる"
+       },
+       {
+        "id": "Berumpan hidup",
+        "jp": "{活|い}き{餌|えさ}がつく"
+       },
+       {
+        "id": "Hanya untuk ikan besar",
+        "jp": "{大|おお}きい{魚|さかな}{用|よう}"
+       },
+       {
+        "id": "Terbuat dari karet",
+        "jp": "ゴム{製|せい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kait berbentuk mahkota menjerat tentakel.",
+       "jp": "{針|はり}が{足|あし}にひっかかります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bahaya utama kerja malam pada pancing cumi adalah…",
+       "jp": "イカ{釣|つ}りの{夜|よる}の{仕事|しごと}で{大|おお}きなきけんはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Kantuk dan lelah",
+        "jp": "ねむけとつかれ"
+       },
+       {
+        "id": "Terlalu dingin es",
+        "jp": "{氷|こおり}が{多|おお}い"
+       },
+       {
+        "id": "Terlalu banyak ikan",
+        "jp": "{魚|さかな}が{多|おお}すぎる"
+       },
+       {
+        "id": "Tidak ada lampu",
+        "jp": "ライトがない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Atur istirahat bergantian.",
+       "jp": "{交代|こうたい}で{休|やす}みます。"
+      }
+     }
+    ]
+   }
+  ],
+  "bab5": [
+   {
+    "id": "bab5-q1",
+    "title": {
+     "id": "Kesegaran dan pemilahan",
+     "jp": "{鮮度|せんど}と{選別|せんべつ}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Es air laut disebut…",
+       "jp": "{海|うみ}{水|みず}でつくる{氷|こおり}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "海水氷",
+        "jp": "{海|うみ}{水|みず}{氷|こおり}"
+       },
+       {
+        "id": "冷凍",
+        "jp": "{冷凍|れいとう}"
+       },
+       {
+        "id": "血抜き",
+        "jp": "{血抜|ちぬき}き"
+       },
+       {
+        "id": "競り",
+        "jp": "{競|せ}り"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "海水氷.",
+       "jp": "{海|うみ}{水|みず}{氷|こおり}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan mudah rusak karena…",
+       "jp": "{魚|さかな}がいたみやすい{理由|りゆう}は？"
+      },
+      "opts": [
+       {
+        "id": "Bakteri dan enzim bekerja cepat",
+        "jp": "{細菌|さいきん}や{酵素|こうそ}が{早|はや}くはたらく"
+       },
+       {
+        "id": "Terlalu dingin",
+        "jp": "{冷|つめ}たすぎる"
+       },
+       {
+        "id": "Terlalu bersih",
+        "jp": "きれいすぎる"
+       },
+       {
+        "id": "Terlalu keras",
+        "jp": "かたすぎる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dinginkan cepat.",
+       "jp": "{早|はや}く{冷|ひ}やします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang dilakukan pada 選別 adalah…",
+       "jp": "{選別|せんべつ}でするのは？"
+      },
+      "opts": [
+       {
+        "id": "Memisahkan jenis, ukuran, mutu",
+        "jp": "{種類|しゅるい}・{大|おお}きさ・{品質|ひんしつ}で{分|わ}ける"
+       },
+       {
+        "id": "Menimbang saja",
+        "jp": "はかるだけ"
+       },
+       {
+        "id": "Membuang semua",
+        "jp": "{全部|ぜんぶ}すてる"
+       },
+       {
+        "id": "Menjual",
+        "jp": "{売|う}る"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "選別 = memilah.",
+       "jp": "{分|わ}けることです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan di kotak diberi es di…",
+       "jp": "{魚|さかな}{箱|はこ}に{氷|こおり}を{入|い}れる{場所|ばしょ}は？"
+      },
+      "opts": [
+       {
+        "id": "Atas dan bawah ikan",
+        "jp": "{魚|さかな}の{上|うえ}と{下|した}"
+       },
+       {
+        "id": "Hanya di luar kotak",
+        "jp": "{箱|はこ}の{外|そと}だけ"
+       },
+       {
+        "id": "Tidak perlu",
+        "jp": "いらない"
+       },
+       {
+        "id": "Hanya di tutup",
+        "jp": "ふただけ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Es menyentuh ikan.",
+       "jp": "{氷|こおり}が{魚|さかな}にふれるようにします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Satuan berat yang dipakai di label adalah…",
+       "jp": "ラベルの{重|おも}さの{単位|たんい}は？"
+      },
+      "opts": [
+       {
+        "id": "kg",
+        "jp": "kg"
+       },
+       {
+        "id": "cm",
+        "jp": "cm"
+       },
+       {
+        "id": "℃",
+        "jp": "℃"
+       },
+       {
+        "id": "ノット",
+        "jp": "ノット"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "kg.",
+       "jp": "キログラムです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang membuat mutu turun adalah…",
+       "jp": "{品質|ひんしつ}が{下|さ}がる{原因|げんいん}は？"
+      },
+      "opts": [
+       {
+        "id": "Melukai ikan",
+        "jp": "{魚|さかな}にきずをつける"
+       },
+       {
+        "id": "Mendinginkan cepat",
+        "jp": "{早|はや}く{冷|ひ}やす"
+       },
+       {
+        "id": "Memilah",
+        "jp": "{選別|せんべつ}する"
+       },
+       {
+        "id": "Label benar",
+        "jp": "{正|ただ}しいラベル"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Hindari luka.",
+       "jp": "きずをつけません。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab5-q2",
+    "title": {
+     "id": "Kebersihan dan keamanan pangan",
+     "jp": "{衛生|えいせい}と{食|しょく}{品|ひん}の{安全|あんぜん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "交差汚染 berarti…",
+       "jp": "{交差汚染|こうさおせん}の{意味|いみ}は？"
+      },
+      "opts": [
+       {
+        "id": "Kotoran berpindah ke bahan bersih",
+        "jp": "よごれがきれいなものにうつる"
+       },
+       {
+        "id": "Es mencair",
+        "jp": "{氷|こおり}がとける"
+       },
+       {
+        "id": "Ikan membeku",
+        "jp": "{魚|さかな}が{凍|こお}る"
+       },
+       {
+        "id": "Jaring kusut",
+        "jp": "{網|あみ}がからまる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pisahkan alat dan wadah.",
+       "jp": "{入|い}れ{物|もの}や{道具|どうぐ}を{分|わ}けます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Parasit yang ada pada サバ, イカ, サケ adalah…",
+       "jp": "サバ・イカ・サケにいる{寄生虫|きせいちゅう}は？"
+      },
+      "opts": [
+       {
+        "id": "アニサキス",
+        "jp": "アニサキス"
+       },
+       {
+        "id": "ヒスタミン",
+        "jp": "ヒスタミン"
+       },
+       {
+        "id": "フグ",
+        "jp": "フグ"
+       },
+       {
+        "id": "ブイ",
+        "jp": "ブイ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "アニサキス.",
+       "jp": "アニサキスです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Cara mematikan Anisakis adalah…",
+       "jp": "アニサキスをなくす{方法|ほうほう}は？"
+      },
+      "opts": [
+       {
+        "id": "Pembekuan atau pemanasan",
+        "jp": "{凍|こお}らせる、または{加熱|かねつ}する"
+       },
+       {
+        "id": "Menjemur sebentar",
+        "jp": "{少|すこ}し{日|ひ}にあてる"
+       },
+       {
+        "id": "Menyiram air",
+        "jp": "{水|みず}をかける"
+       },
+       {
+        "id": "Mengaduk",
+        "jp": "まぜる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Beku sekitar -20℃ 24 jam atau panaskan.",
+       "jp": "{凍|こお}らせるか{加熱|かねつ}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan buntal (フグ) harus…",
+       "jp": "フグはどうしますか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak ditangani sembarangan",
+        "jp": "{自分|じぶん}で{判断|はんだん}しない"
+       },
+       {
+        "id": "Dijual",
+        "jp": "{売|う}る"
+       },
+       {
+        "id": "Dimakan",
+        "jp": "{食|た}べる"
+       },
+       {
+        "id": "Dibuang ke dek",
+        "jp": "{甲板|かんぱん}にすてる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Tanyakan kepada penanggung jawab.",
+       "jp": "{責任者|せきにんしゃ}に{聞|き}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Ikan sebaiknya dicuci dengan…",
+       "jp": "{魚|さかな}を{洗|あら}うのは？"
+      },
+      "opts": [
+       {
+        "id": "Air laut atau air bersih",
+        "jp": "きれいな{海|うみ}{水|みず}や{水|みず}"
+       },
+       {
+        "id": "Air got",
+        "jp": "どぶの{水|みず}"
+       },
+       {
+        "id": "Air dek kotor",
+        "jp": "{甲板|かんぱん}のよごれた{水|みず}"
+       },
+       {
+        "id": "Minyak",
+        "jp": "{油|あぶら}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Gunakan air bersih.",
+       "jp": "きれいな{水|みず}を{使|つか}います。"
+      }
+     },
+     {
+      "q": {
+       "id": "Jika sakit perut atau diare…",
+       "jp": "おなかがいたい、{下痢|げり}のときは？"
+      },
+      "opts": [
+       {
+        "id": "Lapor dan jangan menangani makanan",
+        "jp": "{報告|ほうこく}して、{食|た}べ{物|もの}をあつかわない"
+       },
+       {
+        "id": "Tetap bekerja",
+        "jp": "{仕事|しごと}をつづける"
+       },
+       {
+        "id": "Menyembunyikan",
+        "jp": "かくす"
+       },
+       {
+        "id": "Makan ikan mentah",
+        "jp": "{生魚|なまざかな}を{食|た}べる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Cegah penularan.",
+       "jp": "うつさないようにします。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "bab5-q3",
+    "title": {
+     "id": "Pembongkaran dan pasar",
+     "jp": "{水揚|みずあ}げと{市場|いちば}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Alat yang mengangkat kotak ikan ke dermaga…",
+       "jp": "{魚|さかな}{箱|はこ}を{岸壁|がんぺき}に{上|あ}げる{機械|きかい}は？"
+      },
+      "opts": [
+       {
+        "id": "クレーン",
+        "jp": "クレーン"
+       },
+       {
+        "id": "ワープ",
+        "jp": "ワープ"
+       },
+       {
+        "id": "オッターボード",
+        "jp": "オッターボード"
+       },
+       {
+        "id": "集魚灯",
+        "jp": "{集魚灯|しゅうぎょとう}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "クレーン / フォークリフト.",
+       "jp": "クレーンやフォークリフトです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Pembongkaran dilakukan dengan cepat karena…",
+       "jp": "{水揚|みずあ}げを{早|はや}くする{理由|りゆう}は？"
+      },
+      "opts": [
+       {
+        "id": "Matahari dan angin merusak ikan",
+        "jp": "{日光|にっこう}や{風|かぜ}で{魚|さかな}がいたむ"
+       },
+       {
+        "id": "Agar kapal pergi",
+        "jp": "{船|ふね}が{出|で}るから"
+       },
+       {
+        "id": "Agar tidur",
+        "jp": "ねるため"
+       },
+       {
+        "id": "Tidak ada alasan",
+        "jp": "{理由|りゆう}はない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jaga kesegaran.",
+       "jp": "{鮮度|せんど}をたもつためです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Penjualan ikan di pasar dengan penawaran disebut…",
+       "jp": "{市場|いちば}でねだんを{決|き}めて{売|う}ることは？"
+      },
+      "opts": [
+       {
+        "id": "競り",
+        "jp": "{競|せ}り"
+       },
+       {
+        "id": "揚網",
+        "jp": "{揚網|ようもう}"
+       },
+       {
+        "id": "絞る",
+        "jp": "{絞|しぼ}る"
+       },
+       {
+        "id": "血抜き",
+        "jp": "{血抜|ちぬき}き"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "競り = lelang.",
+       "jp": "{競|せ}りです。"
+      }
+     },
+     {
+      "q": {
+       "id": "Bahaya di dermaga adalah…",
+       "jp": "{岸壁|がんぺき}のきけんは？"
+      },
+      "opts": [
+       {
+        "id": "Jatuh ke laut dan alat berat",
+        "jp": "{海|うみ}への{転落|てんらく}と{重|じゅう}{機|き}"
+       },
+       {
+        "id": "Terlalu sepi",
+        "jp": "しずかすぎる"
+       },
+       {
+        "id": "Terlalu bersih",
+        "jp": "きれいすぎる"
+       },
+       {
+        "id": "Tidak ada bahaya",
+        "jp": "きけんはない"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Waspadai.",
+       "jp": "{注意|ちゅうい}します。"
+      }
+     },
+     {
+      "q": {
+       "id": "Mengangkat kotak berat dilakukan dengan…",
+       "jp": "{重|おも}い{魚|さかな}{箱|はこ}の{持|も}ち{方|かた}は？"
+      },
+      "opts": [
+       {
+        "id": "Lutut ditekuk, punggung lurus",
+        "jp": "ひざをまげ、{背|せ}すじをのばす"
+       },
+       {
+        "id": "Membungkuk cepat",
+        "jp": "いきおいよくかがむ"
+       },
+       {
+        "id": "Satu tangan",
+        "jp": "{片手|かたて}"
+       },
+       {
+        "id": "Sambil berlari",
+        "jp": "{走|はし}りながら"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Lindungi punggung.",
+       "jp": "{腰|こし}を{守|まも}ります。"
+      }
+     },
+     {
+      "q": {
+       "id": "Dermaga licin karena…",
+       "jp": "{岸壁|がんぺき}がすべる{理由|りゆう}は？"
+      },
+      "opts": [
+       {
+        "id": "Air dan es",
+        "jp": "{水|みず}と{氷|こおり}"
+       },
+       {
+        "id": "Pasir kering",
+        "jp": "かわいた{砂|すな}"
+       },
+       {
+        "id": "Kayu baru",
+        "jp": "{新|あたら}しい{木|き}"
+       },
+       {
+        "id": "Karpet",
+        "jp": "カーペット"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pakai bot.",
+       "jp": "{長靴|ながぐつ}をはきます。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b5s1-q",
+    "sub": "b5s1",
+    "title": {
+     "id": "Subbab 5.1 · Menjaga Kesegaran Ikan",
+     "jp": "5.1 {鮮度|せんど}の{保|たも}ち{方|かた}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Prinsip utama menjaga kesegaran adalah…",
+       "jp": "{鮮度|せんど}を{保|たも}つ{基本|きほん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Dinginkan cepat dan jaga tetap dingin",
+        "jp": "{早|はや}く{冷|ひ}やして、{冷|つめ}たくたもつ"
+       },
+       {
+        "id": "Jemur di matahari",
+        "jp": "{日光|にっこう}にあてる"
+       },
+       {
+        "id": "Tumpuk setinggi mungkin",
+        "jp": "{高|たか}く{積|つ}む"
+       },
+       {
+        "id": "Biarkan di dek",
+        "jp": "{甲板|かんぱん}にそのままおく"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kesegaran turun cepat saat hangat.",
+       "jp": "あたたかいと{鮮度|せんど}が{下|さ}がります。"
+      }
+     },
+     {
+      "q": {
+       "id": "血抜き artinya…",
+       "jp": "{血抜|ちぬき}きの{意味|いみ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Membuang darah ikan",
+        "jp": "{魚|さかな}の{血|ち}を{出|だ}す"
+       },
+       {
+        "id": "Membekukan ikan",
+        "jp": "{魚|さかな}を{凍|こお}らせる"
+       },
+       {
+        "id": "Menimbang ikan",
+        "jp": "{魚|さかな}をはかる"
+       },
+       {
+        "id": "Menyortir ikan",
+        "jp": "{魚|さかな}を{分|わ}ける"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "血抜き membuat daging bersih dan awet.",
+       "jp": "{肉|にく}がきれいで{長|なが}{持|も}ちします。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Menginjak ikan tidak masalah karena akan dimasak.”",
+       "jp": "○か×か。「どうせ{料理|りょうり}するので、{魚|さかな}をふんでもよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Melukai ikan menurunkan mutu.",
+       "jp": "きずがつくと{品質|ひんしつ}が{下|さ}がります。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b5s2-q",
+    "sub": "b5s2",
+    "title": {
+     "id": "Subbab 5.2 · Memilah, Menimbang, dan Mengemas",
+     "jp": "5.2 {選別|せんべつ}・{計量|けいりょう}・{箱詰|はこづ}め"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Dasar pemilahan hasil tangkapan adalah…",
+       "jp": "{選別|せんべつ}の{基準|きじゅん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Jenis, ukuran, dan mutu",
+        "jp": "{種類|しゅるい}・{大|おお}きさ・{品質|ひんしつ}"
+       },
+       {
+        "id": "Warna kapal",
+        "jp": "{船|ふね}の{色|いろ}"
+       },
+       {
+        "id": "Waktu makan",
+        "jp": "{食事|しょくじ}の{時間|じかん}"
+       },
+       {
+        "id": "Harga es",
+        "jp": "{氷|こおり}のねだん"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Pilah menurut 魚種, 大きさ, 品質.",
+       "jp": "{魚種|ぎょしゅ}・{大|おお}きさ・{品質|ひんしつ}で{分|わ}けます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang TIDAK perlu ada pada label adalah…",
+       "jp": "ラベルに{書|か}かなくてよいものはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "魚の名前",
+        "jp": "{魚|さかな}の{名前|なまえ}"
+       },
+       {
+        "id": "重さ",
+        "jp": "{重|おも}さ"
+       },
+       {
+        "id": "とれた場所",
+        "jp": "とれた{場所|ばしょ}"
+       },
+       {
+        "id": "船員の好きな色",
+        "jp": "{船|ふね}{員|いん}の{好|す}きな{色|いろ}"
+       }
+      ],
+      "a": 3,
+      "exp": {
+       "id": "Label memuat nama, ukuran, berat, tempat, tanggal.",
+       "jp": "{名前|なまえ}・{大|おお}きさ・{重|おも}さ・{場所|ばしょ}・{日|ひ}づけを{書|か}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Menambah air untuk menambah berat ikan boleh dilakukan.”",
+       "jp": "○か×か。「{重|おも}さを{増|ふ}やすために{水|みず}を{足|た}してもよい。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Itu menipu pembeli.",
+       "jp": "{買|か}う{人|ひと}をだますことになります。"
+      },
+      "mb": true
+     }
+    ]
+   },
+   {
+    "id": "b5s3-q",
+    "sub": "b5s3",
+    "title": {
+     "id": "Subbab 5.3 · Kebersihan dan Keamanan Pangan",
+     "jp": "5.3 {衛生|えいせい}{管理|かんり}と{食|しょく}{品|ひん}の{安全|あんぜん}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Kapan harus mencuci tangan?",
+       "jp": "{手|て}{洗|あら}いをするのはいつですか。"
+      },
+      "opts": [
+       {
+        "id": "Sebelum menangani ikan dan setelah dari toilet",
+        "jp": "{魚|さかな}をさわる{前|まえ}と、トイレのあと"
+       },
+       {
+        "id": "Hanya saat makan",
+        "jp": "{食|た}べるときだけ"
+       },
+       {
+        "id": "Tidak perlu",
+        "jp": "いらない"
+       },
+       {
+        "id": "Hanya setiap minggu",
+        "jp": "{週|しゅう}に1{回|かい}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Kebersihan tangan mencegah kontaminasi.",
+       "jp": "{手|て}をきれいにして{汚染|おせん}を{防|ふせ}ぎます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Histamin pada ikan terbentuk terutama karena…",
+       "jp": "ヒスタミンができる{大|おお}きな{原因|げんいん}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Ikan tidak didinginkan dengan benar",
+        "jp": "{魚|さかな}を{正|ただ}しく{冷|ひ}やさない"
+       },
+       {
+        "id": "Ikan terlalu segar",
+        "jp": "{魚|さかな}が{新鮮|しんせん}すぎる"
+       },
+       {
+        "id": "Ikan dicuci bersih",
+        "jp": "{魚|さかな}を{洗|あら}う"
+       },
+       {
+        "id": "Ikan dibekukan",
+        "jp": "{魚|さかな}を{凍|こお}らせる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Dinginkan cepat.",
+       "jp": "{早|はや}く{冷|ひ}やすことが{大切|たいせつ}です。"
+      }
+     },
+     {
+      "q": {
+       "id": "Anda menemukan ikan yang tidak dikenal dan mungkin beracun. Tindakan yang benar adalah…",
+       "jp": "{知|し}らない、{毒|どく}があるかもしれない{魚|さかな}を{見|み}つけました。{正|ただ}しいのは？"
+      },
+      "opts": [
+       {
+        "id": "Tanyakan kepada penanggung jawab",
+        "jp": "{責任者|せきにんしゃ}に{聞|き}く"
+       },
+       {
+        "id": "Menjualnya",
+        "jp": "{売|う}る"
+       },
+       {
+        "id": "Memakannya",
+        "jp": "{食|た}べる"
+       },
+       {
+        "id": "Membuangnya ke dek",
+        "jp": "{甲板|かんぱん}にすてる"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Jangan menangani sendiri.",
+       "jp": "{自分|じぶん}で{判断|はんだん}しません。"
+      }
+     }
+    ]
+   },
+   {
+    "id": "b5s4-q",
+    "sub": "b5s4",
+    "title": {
+     "id": "Subbab 5.4 · Pembongkaran di Pelabuhan (水揚げ)",
+     "jp": "5.4 {水揚|みずあ}げ{作業|さぎょう}"
+    },
+    "items": [
+     {
+      "q": {
+       "id": "Tempat kapal bersandar untuk membongkar muatan adalah…",
+       "jp": "{船|ふね}がついて、{荷物|にもつ}をおろす{場所|ばしょ}はどれですか。"
+      },
+      "opts": [
+       {
+        "id": "岸壁",
+        "jp": "{岸壁|がんぺき}"
+       },
+       {
+        "id": "運動場",
+        "jp": "{運動場|うんどうじょう}"
+       },
+       {
+        "id": "魚倉",
+        "jp": "{魚倉|ぎょそう}"
+       },
+       {
+        "id": "船首",
+        "jp": "{船首|せんしゅ}"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "岸壁 = dermaga.",
+       "jp": "{岸壁|がんぺき}に{船|ふね}をつけます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Hal yang benar di dermaga adalah…",
+       "jp": "{岸壁|がんぺき}で{正|ただ}しいのはどれですか。"
+      },
+      "opts": [
+       {
+        "id": "Tidak berdiri di bawah beban atau jalur forklift",
+        "jp": "{荷物|にもつ}の{下|した}やフォークリフトの{通|とお}り{道|みち}に{立|た}たない"
+       },
+       {
+        "id": "Berdiri di bawah beban untuk membantu",
+        "jp": "{荷物|にもつ}の{下|した}で{手伝|てつだ}う"
+       },
+       {
+        "id": "Berlari di tepi dermaga",
+        "jp": "はしを{走|はし}る"
+       },
+       {
+        "id": "Melepas jaket pelampung",
+        "jp": "ライフジャケットを{脱|ぬ}ぐ"
+       }
+      ],
+      "a": 0,
+      "exp": {
+       "id": "Alat berat bergerak.",
+       "jp": "{重|じゅう}{機|き}は{動|うご}きます。"
+      }
+     },
+     {
+      "q": {
+       "id": "Benar atau salah: “Lelang (競り) dilakukan di kapal sebelum tiba di pelabuhan.”",
+       "jp": "○か×か。「{競|せ}りは、{港|みなと}につく{前|まえ}に{船|ふね}の{上|うえ}で{行|おこな}う。」"
+      },
+      "opts": [
+       {
+        "id": "Benar (○)",
+        "jp": "○ {正|ただ}しい"
+       },
+       {
+        "id": "Salah (×)",
+        "jp": "× {間違|まちが}い"
+       }
+      ],
+      "a": 1,
+      "exp": {
+       "id": "Lelang dilakukan di pasar ikan.",
+       "jp": "{競|せ}りは{市場|いちば}で{行|おこな}います。"
+      },
+      "mb": true
+     }
+    ]
+   }
+  ]
+ },
+ "tema": [
+  {
+   "id": "tema-kapal",
+   "tema": true,
+   "title": {
+    "id": "Kosakata kapal dan awak",
+    "jp": "{船|ふね}と{乗組員|のりくみいん}のことば"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "船首 artinya…",
+      "jp": "{船首|せんしゅ}の{意味|いみ}はどれですか。"
+     },
+     "opts": [
+      {
+       "id": "Haluan",
+       "jp": "{船|ふね}の{前|まえ}"
+      },
+      {
+       "id": "Buritan",
+       "jp": "{船|ふね}の{後|うし}ろ"
+      },
+      {
+       "id": "Dek",
+       "jp": "{外|そと}の{床|ゆか}"
+      },
+      {
+       "id": "Jangkar",
+       "jp": "{船|ふね}をとめるもの"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "船首 = haluan.",
+      "jp": "{船首|せんしゅ}は{船|ふね}の{前|まえ}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "魚倉 artinya…",
+      "jp": "{魚倉|ぎょそう}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Palka ikan",
+       "jp": "{魚|さかな}をおく{場所|ばしょ}"
+      },
+      {
+       "id": "Kamar mesin",
+       "jp": "エンジンの{部屋|へや}"
+      },
+      {
+       "id": "Dapur",
+       "jp": "{台所|だいどころ}"
+      },
+      {
+       "id": "Kemudi",
+       "jp": "{舵|かじ}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "魚倉 = palka ikan.",
+      "jp": "{魚倉|ぎょそう}は{魚|さかな}をおく{場所|ばしょ}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "操舵室 artinya…",
+      "jp": "{操舵室|そうだしつ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Ruang kemudi",
+       "jp": "{船長|せんちょう}が{船|ふね}を{動|うご}かす{部屋|へや}"
+      },
+      {
+       "id": "Kamar mesin",
+       "jp": "エンジンの{部屋|へや}"
+      },
+      {
+       "id": "Palka ikan",
+       "jp": "{魚|さかな}をおく{場所|ばしょ}"
+      },
+      {
+       "id": "Dek",
+       "jp": "{外|そと}の{床|ゆか}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "操舵室 = ruang kemudi.",
+      "jp": "{船長|せんちょう}が{船|ふね}を{動|うご}かす{部屋|へや}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "機関長 bertugas atas…",
+      "jp": "{機関長|きかんちょう}の{仕事|しごと}は？"
+     },
+     "opts": [
+      {
+       "id": "Mesin",
+       "jp": "エンジン"
+      },
+      {
+       "id": "Makanan",
+       "jp": "{食事|しょくじ}"
+      },
+      {
+       "id": "Jaring",
+       "jp": "{網|あみ}"
+      },
+      {
+       "id": "Radio",
+       "jp": "{無線|むせん}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "機関長 = kepala kamar mesin.",
+      "jp": "{機関長|きかんちょう}はエンジンの{責任者|せきにんしゃ}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "司厨 artinya…",
+      "jp": "{司厨|しちゅう}は{何|なに}をする{人|ひと}ですか。"
+     },
+     "opts": [
+      {
+       "id": "Juru masak kapal",
+       "jp": "{食事|しょくじ}をつくる{人|ひと}"
+      },
+      {
+       "id": "Kapten",
+       "jp": "{船長|せんちょう}"
+      },
+      {
+       "id": "Teknisi",
+       "jp": "エンジンの{人|ひと}"
+      },
+      {
+       "id": "Penjaga",
+       "jp": "{見張|みは}りの{人|ひと}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "司厨 = juru masak.",
+      "jp": "{食事|しょくじ}をつくる{人|ひと}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "見張り artinya…",
+      "jp": "{見張|みは}りの{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pengawasan/lookout",
+       "jp": "まわりを{見|み}てあぶないことを{探|さが}す"
+      },
+      {
+       "id": "Memasak",
+       "jp": "{食事|しょくじ}をつくる"
+      },
+      {
+       "id": "Tidur",
+       "jp": "ねる"
+      },
+      {
+       "id": "Menjual",
+       "jp": "{売|う}る"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "見張り = lookout.",
+      "jp": "まわりを{見|み}て、あぶないことを{探|さが}します。"
+     }
+    },
+    {
+     "q": {
+      "id": "合図 artinya…",
+      "jp": "{合図|あいず}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Isyarat",
+       "jp": "{手|て}などでしらせる"
+      },
+      {
+       "id": "Perintah rahasia",
+       "jp": "ひみつの{指示|しじ}"
+      },
+      {
+       "id": "Alat",
+       "jp": "{道具|どうぐ}"
+      },
+      {
+       "id": "Mesin",
+       "jp": "{機械|きかい}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "合図 = isyarat.",
+      "jp": "{手|て}などで{知|し}らせることです。"
+     }
+    },
+    {
+     "q": {
+      "id": "当直 artinya…",
+      "jp": "{当直|とうちょく}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Jaga (dinas jaga)",
+       "jp": "{順番|じゅんばん}に{見張|みは}る{仕事|しごと}"
+      },
+      {
+       "id": "Libur",
+       "jp": "{休|やす}み"
+      },
+      {
+       "id": "Makan",
+       "jp": "{食事|しょくじ}"
+      },
+      {
+       "id": "Berangkat",
+       "jp": "{出港|しゅっこう}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "当直 = jaga.",
+      "jp": "{順番|じゅんばん}に{見張|みは}る{仕事|しごと}です。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-keselamatan",
+   "tema": true,
+   "title": {
+    "id": "Kosakata keselamatan dan kesehatan",
+    "jp": "{安全|あんぜん}と{健康|けんこう}のことば"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "救命胴衣 artinya…",
+      "jp": "{救命胴衣|きゅうめいどうい}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Jaket pelampung",
+       "jp": "ライフジャケット"
+      },
+      {
+       "id": "Jas hujan",
+       "jp": "カッパ"
+      },
+      {
+       "id": "Helm",
+       "jp": "ヘルメット"
+      },
+      {
+       "id": "Sepatu bot",
+       "jp": "{長靴|ながぐつ}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "救命胴衣 = jaket pelampung.",
+      "jp": "ライフジャケットのことです。"
+     }
+    },
+    {
+     "q": {
+      "id": "熱中症 artinya…",
+      "jp": "{熱中症|ねっちゅうしょう}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Sengatan panas",
+       "jp": "{暑|あつ}さで{体|からだ}が{悪|わる}くなる"
+      },
+      {
+       "id": "Mabuk laut",
+       "jp": "{船|ふね}に{酔|よ}う"
+      },
+      {
+       "id": "Hipotermia",
+       "jp": "{体温|たいおん}が{下|さ}がる"
+      },
+      {
+       "id": "Luka",
+       "jp": "けが"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "熱中症 = sengatan panas.",
+      "jp": "{暑|あつ}さで{体調|たいちょう}が{悪|わる}くなります。"
+     }
+    },
+    {
+     "q": {
+      "id": "低体温症 artinya…",
+      "jp": "{低体温症|ていたいおんしょう}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Hipotermia",
+       "jp": "{体温|たいおん}が{下|さ}がりすぎる"
+      },
+      {
+       "id": "Sengatan panas",
+       "jp": "{暑|あつ}さで{体|からだ}が{悪|わる}くなる"
+      },
+      {
+       "id": "Mabuk laut",
+       "jp": "{船酔|ふなよ}い"
+      },
+      {
+       "id": "Alergi",
+       "jp": "アレルギー"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "低体温症 = hipotermia.",
+      "jp": "{体温|たいおん}が{下|さ}がりすぎる{病気|びょうき}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "酸素欠乏 artinya…",
+      "jp": "{酸素欠乏|さんそけつぼう}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Kekurangan oksigen",
+       "jp": "{空気|くうき}に{酸素|さんそ}がたりない"
+      },
+      {
+       "id": "Kelebihan gas",
+       "jp": "ガスが{多|おお}い"
+      },
+      {
+       "id": "Banjir",
+       "jp": "{水|みず}が{入|はい}る"
+      },
+      {
+       "id": "Kabut",
+       "jp": "{霧|きり}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "酸素欠乏 = kekurangan oksigen.",
+      "jp": "{空気|くうき}に{酸素|さんそ}がたりないことです。"
+     }
+    },
+    {
+     "q": {
+      "id": "消火器 artinya…",
+      "jp": "{消火器|しょうかき}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Alat pemadam api",
+       "jp": "{火|ひ}を{消|け}す{道具|どうぐ}"
+      },
+      {
+       "id": "Detektor asap",
+       "jp": "けむりのセンサー"
+      },
+      {
+       "id": "Selimut",
+       "jp": "{毛布|もうふ}"
+      },
+      {
+       "id": "Tangga",
+       "jp": "はしご"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "消火器 = alat pemadam.",
+      "jp": "{火|ひ}を{消|け}す{道具|どうぐ}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "止血 artinya…",
+      "jp": "{止血|しけつ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Menghentikan pendarahan",
+       "jp": "{血|ち}を{止|と}める"
+      },
+      {
+       "id": "Mengukur tekanan",
+       "jp": "{血圧|けつあつ}をはかる"
+      },
+      {
+       "id": "Menyuntik",
+       "jp": "{注射|ちゅうしゃ}する"
+      },
+      {
+       "id": "Memotong",
+       "jp": "{切|き}る"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "止血 = menghentikan pendarahan.",
+      "jp": "{血|ち}を{止|と}めることです。"
+     }
+    },
+    {
+     "q": {
+      "id": "応急手当 artinya…",
+      "jp": "{応急手当|おうきゅうてあて}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pertolongan pertama",
+       "jp": "すぐにする{手当|てあて}て"
+      },
+      {
+       "id": "Operasi",
+       "jp": "{手術|しゅじゅつ}"
+      },
+      {
+       "id": "Obat",
+       "jp": "{薬|くすり}"
+      },
+      {
+       "id": "Rumah sakit",
+       "jp": "{病院|びょういん}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "応急手当 = pertolongan pertama.",
+      "jp": "すぐにする{手当|てあて}てです。"
+     }
+    },
+    {
+     "q": {
+      "id": "非常停止ボタン artinya…",
+      "jp": "{非常停止|ひじょうていし}ボタンの{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Tombol berhenti darurat",
+       "jp": "{緊急|きんきゅう}のとき{機械|きかい}を{止|と}める"
+      },
+      {
+       "id": "Tombol lampu",
+       "jp": "{電気|でんき}をつける"
+      },
+      {
+       "id": "Tombol radio",
+       "jp": "{無線|むせん}を{入|い}れる"
+      },
+      {
+       "id": "Tombol kecepatan",
+       "jp": "{速|はや}さをかえる"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "非常停止ボタン = tombol berhenti darurat.",
+      "jp": "{緊急|きんきゅう}のとき{機械|きかい}を{止|と}めるボタンです。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-jaring",
+   "tema": true,
+   "title": {
+    "id": "Kosakata jaring dan alat tangkap",
+    "jp": "{網|あみ}と{漁具|ぎょぐ}のことば"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "刺網 artinya…",
+      "jp": "{刺網|さしあみ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Jaring insang",
+       "jp": "{魚|さかな}が{網|あみ}{目|め}にかかる{網|あみ}"
+      },
+      {
+       "id": "Pukat cincin",
+       "jp": "{魚|さかな}{群|ぐん}をかこむ{網|あみ}"
+      },
+      {
+       "id": "Pukat dasar",
+       "jp": "{海|うみ}の{底|そこ}をひく{網|あみ}"
+      },
+      {
+       "id": "Jaring tetap",
+       "jp": "おいておく{網|あみ}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "刺網 = jaring insang.",
+      "jp": "{刺網|さしあみ}は{魚|さかな}が{網|あみ}{目|め}にかかります。"
+     }
+    },
+    {
+     "q": {
+      "id": "巻網 artinya…",
+      "jp": "{巻網|まきあみ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pukat cincin",
+       "jp": "{魚|さかな}{群|ぐん}をかこんで{絞|しぼ}る{網|あみ}"
+      },
+      {
+       "id": "Jaring insang",
+       "jp": "{魚|さかな}が{網|あみ}{目|め}にかかる{網|あみ}"
+      },
+      {
+       "id": "Bubu",
+       "jp": "{入|い}れ{物|もの}"
+      },
+      {
+       "id": "Pancing",
+       "jp": "{釣|つ}り"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "巻網 = pukat cincin.",
+      "jp": "{魚|さかな}{群|ぐん}をかこんで{絞|しぼ}る{網|あみ}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "底びき網 artinya…",
+      "jp": "{底|そこ}びき{網|あみ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pukat tarik dasar",
+       "jp": "{海|うみ}の{底|そこ}をひく{網|あみ}"
+      },
+      {
+       "id": "Jaring tetap",
+       "jp": "おいておく{網|あみ}"
+      },
+      {
+       "id": "Pukat cincin",
+       "jp": "{魚|さかな}{群|ぐん}をかこむ{網|あみ}"
+      },
+      {
+       "id": "Pancing",
+       "jp": "{釣|つ}り"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "底びき網 = pukat tarik dasar.",
+      "jp": "{海|うみ}の{底|そこ}をひきます。"
+     }
+    },
+    {
+     "q": {
+      "id": "定置網 artinya…",
+      "jp": "{定置網|ていちあみ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Jaring tetap",
+       "jp": "{決|き}まった{場所|ばしょ}におく{網|あみ}"
+      },
+      {
+       "id": "Jaring insang",
+       "jp": "{刺網|さしあみ}"
+      },
+      {
+       "id": "Pukat cincin",
+       "jp": "{巻網|まきあみ}"
+      },
+      {
+       "id": "Bubu",
+       "jp": "かご"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "定置網 = jaring tetap.",
+      "jp": "{決|き}まった{場所|ばしょ}におきます。"
+     }
+    },
+    {
+     "q": {
+      "id": "網口 artinya…",
+      "jp": "{網口|あみぐち}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Mulut jaring",
+       "jp": "{網|あみ}の{開|あ}いている{前|まえ}の{部分|ぶぶん}"
+      },
+      {
+       "id": "Kantong jaring",
+       "jp": "{網|あみ}のうしろの{部分|ぶぶん}"
+      },
+      {
+       "id": "Kawat",
+       "jp": "ワイヤー"
+      },
+      {
+       "id": "Pelampung",
+       "jp": "{浮|う}き"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "網口 = mulut jaring.",
+      "jp": "{前|まえ}の{開|あ}いた{部分|ぶぶん}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "袋網 artinya…",
+      "jp": "{袋網|ふくろあみ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Kantong jaring",
+       "jp": "{魚|さかな}があつまる{網|あみ}の{部分|ぶぶん}"
+      },
+      {
+       "id": "Mulut jaring",
+       "jp": "{網|あみ}の{前|まえ}の{部分|ぶぶん}"
+      },
+      {
+       "id": "Kawat tarik",
+       "jp": "ワープ"
+      },
+      {
+       "id": "Papan",
+       "jp": "{板|いた}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "袋網 = kantong jaring.",
+      "jp": "{魚|さかな}があつまる{部分|ぶぶん}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "揚網 artinya…",
+      "jp": "{揚網|ようもう}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Mengangkat jaring",
+       "jp": "{網|あみ}を{上|あ}げる"
+      },
+      {
+       "id": "Memasang jaring",
+       "jp": "{網|あみ}を{入|い}れる"
+      },
+      {
+       "id": "Memperbaiki jaring",
+       "jp": "{網|あみ}を{直|なお}す"
+      },
+      {
+       "id": "Menjual jaring",
+       "jp": "{網|あみ}を{売|う}る"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "揚網 = mengangkat jaring.",
+      "jp": "{網|あみ}を{上|あ}げることです。"
+     }
+    },
+    {
+     "q": {
+      "id": "ブイ artinya…",
+      "jp": "ブイの{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Pelampung tanda",
+       "jp": "{場所|ばしょ}の{目|め}じるしになる{浮|う}き"
+      },
+      {
+       "id": "Pemberat",
+       "jp": "おもり"
+      },
+      {
+       "id": "Kawat",
+       "jp": "ワイヤー"
+      },
+      {
+       "id": "Mata pancing",
+       "jp": "{針|はり}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "ブイ = buoy.",
+      "jp": "{目|め}じるしの{浮|う}きです。"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tema-hasil",
+   "tema": true,
+   "title": {
+    "id": "Kosakata pancing dan hasil tangkapan",
+    "jp": "{釣|つ}りと{漁獲物|ぎょかくぶつ}のことば"
+   },
+   "items": [
+    {
+     "q": {
+      "id": "ハリス artinya…",
+      "jp": "ハリスの{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Tali kail",
+       "jp": "{針|はり}につなぐ{細|ほそ}い{糸|いと}"
+      },
+      {
+       "id": "Tali utama",
+       "jp": "{道|みち}{糸|いと}"
+      },
+      {
+       "id": "Joran",
+       "jp": "{竿|さお}"
+      },
+      {
+       "id": "Pelampung",
+       "jp": "{浮|う}き"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "ハリス = tali kail.",
+      "jp": "{針|はり}につなぐ{細|ほそ}い{糸|いと}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "枝縄 artinya…",
+      "jp": "{枝縄|えだなわ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Tali cabang rawai",
+       "jp": "{針|はり}のついた{短|みじか}いロープ"
+      },
+      {
+       "id": "Tali utama rawai",
+       "jp": "{幹縄|みきなわ}"
+      },
+      {
+       "id": "Joran",
+       "jp": "{竿|さお}"
+      },
+      {
+       "id": "Jaring",
+       "jp": "{網|あみ}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "枝縄 = tali cabang.",
+      "jp": "{針|はり}のついたロープです。"
+     }
+    },
+    {
+     "q": {
+      "id": "疑似餌 artinya…",
+      "jp": "{疑似餌|ぎじえ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Umpan tiruan",
+       "jp": "つくったえさ"
+      },
+      {
+       "id": "Umpan hidup",
+       "jp": "{活|い}き{餌|えさ}"
+      },
+      {
+       "id": "Umpan mati",
+       "jp": "{切|き}った{魚|さかな}"
+      },
+      {
+       "id": "Pelampung",
+       "jp": "{浮|う}き"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "疑似餌 = umpan tiruan.",
+      "jp": "つくったえさです。"
+     }
+    },
+    {
+     "q": {
+      "id": "鮮度 artinya…",
+      "jp": "{鮮度|せんど}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Kesegaran",
+       "jp": "{魚|さかな}のあたらしさ"
+      },
+      {
+       "id": "Berat",
+       "jp": "{重|おも}さ"
+      },
+      {
+       "id": "Harga",
+       "jp": "ねだん"
+      },
+      {
+       "id": "Ukuran",
+       "jp": "{大|おお}きさ"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "鮮度 = kesegaran.",
+      "jp": "あたらしさのことです。"
+     }
+    },
+    {
+     "q": {
+      "id": "選別 artinya…",
+      "jp": "{選別|せんべつ}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Memilah",
+       "jp": "{分|わ}ける"
+      },
+      {
+       "id": "Menimbang",
+       "jp": "はかる"
+      },
+      {
+       "id": "Mengemas",
+       "jp": "{箱|はこ}に{入|い}れる"
+      },
+      {
+       "id": "Menjual",
+       "jp": "{売|う}る"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "選別 = memilah.",
+      "jp": "{分|わ}けることです。"
+     }
+    },
+    {
+     "q": {
+      "id": "箱詰め artinya…",
+      "jp": "{箱詰|はこづ}めの{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Mengemas dalam kotak",
+       "jp": "{箱|はこ}に{入|い}れる"
+      },
+      {
+       "id": "Memilah",
+       "jp": "{分|わ}ける"
+      },
+      {
+       "id": "Menimbang",
+       "jp": "はかる"
+      },
+      {
+       "id": "Mencuci",
+       "jp": "{洗|あら}う"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "箱詰め = mengemas.",
+      "jp": "{箱|はこ}に{入|い}れることです。"
+     }
+    },
+    {
+     "q": {
+      "id": "岸壁 artinya…",
+      "jp": "{岸壁|がんぺき}の{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Dermaga",
+       "jp": "{船|ふね}がつく{岸|きし}"
+      },
+      {
+       "id": "Palka",
+       "jp": "{魚倉|ぎょそう}"
+      },
+      {
+       "id": "Haluan",
+       "jp": "{船首|せんしゅ}"
+      },
+      {
+       "id": "Pasar",
+       "jp": "{市場|いちば}"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "岸壁 = dermaga.",
+      "jp": "{船|ふね}がつく{岸|きし}です。"
+     }
+    },
+    {
+     "q": {
+      "id": "競り artinya…",
+      "jp": "{競|せ}りの{意味|いみ}は？"
+     },
+     "opts": [
+      {
+       "id": "Lelang",
+       "jp": "{市場|いちば}でねだんを{決|き}めて{売|う}る"
+      },
+      {
+       "id": "Pemilahan",
+       "jp": "{分|わ}ける"
+      },
+      {
+       "id": "Penimbangan",
+       "jp": "はかる"
+      },
+      {
+       "id": "Pembekuan",
+       "jp": "{凍|こお}らせる"
+      }
+     ],
+     "a": 0,
+     "exp": {
+      "id": "競り = lelang.",
+      "jp": "{市場|いちば}でねだんを{決|き}めて{売|う}ることです。"
+     }
+    }
+   ]
+  }
+ ]
+}
