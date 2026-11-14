@@ -323,16 +323,14 @@ window.guruLogout = async () => {
 // script ini adalah ES module — jadi state & renderTab harus diekspos ke window.
 window.state = state;
 /* ===== Menu bawah (HP) + sheet "Lainnya" ===== */
-const MENU_UTAMA = [["siswa","👥","Siswa"],["kelas","🎓","Kelas"],["soal","📝","Soal"],["jlpt","🏯","JLPT"]];
-const MENU_LAIN = [["kategori","📂","Paket Soal"],["import","📊","Import Excel"],["kpos","🏷️","Kosakata"],["choukai","🎧","Choukai"],
-                   ["ssw","🌏","SSW"],["mensetsu","🎙️","Mensetsu"],["laporan","📈","Laporan"],["diagnostik","🔧","Diagnostik"],["admin","🛡️","Admin"]];
+const MENU_UTAMA = [["siswa","👥","Siswa"],["kelas","🎓","Kelas"],["ssw","🌏","SSW"],["laporan","📈","Laporan"]];
+const MENU_LAIN = [];   // menu lain dihapus dari tampilan (fungsi backend tetap ada)
 function renderBottomNav(){
   const lain = MENU_LAIN.filter(m => m[0] !== "admin" || FB.userIsAdmin());
   const lainAktif = lain.some(m => m[0] === state.tab);
   return `
     <nav class="bnav">
       ${MENU_UTAMA.map(m => `<button class="${state.tab === m[0] ? "on" : ""}" onclick="setTab('${m[0]}')"><span>${m[1]}</span>${m[2]}</button>`).join("")}
-      <button class="${lainAktif ? "on" : ""}" onclick="toggleMore()"><span>⋯</span>Lainnya</button>
     </nav>
     <div class="more-sheet" id="more-sheet" onclick="if(event.target===this) toggleMore(false)">
       <div class="more-card">
@@ -349,18 +347,9 @@ function renderApp(){
     <div class="layout">
       <div class="sidebar">
         <div class="nav-item ${state.tab==='siswa'?'active':''}" onclick="setTab('siswa')"><span class="ico">👥</span> Siswa</div>
-        <div class="nav-item ${state.tab==='kategori'?'active':''}" onclick="setTab('kategori')"><span class="ico">📂</span> Paket Soal</div>
-        <div class="nav-item ${state.tab==='soal'?'active':''}" onclick="setTab('soal')"><span class="ico">📝</span> Bank Soal</div>
-        <div class="nav-item ${state.tab==='import'?'active':''}" onclick="setTab('import')"><span class="ico">📊</span> Import Excel</div>
-        <div class="nav-item ${state.tab==='kpos'?'active':''}" onclick="setTab('kpos')"><span class="ico">🏷️</span> Kategori Kosakata</div>
         <div class="nav-item ${state.tab==='kelas'?'active':''}" onclick="setTab('kelas')"><span class="ico">🎓</span> Kelas</div>
-        <div class="nav-item ${state.tab==='choukai'?'active':''}" onclick="setTab('choukai')"><span class="ico">🎧</span> Choukai</div>
         <div class="nav-item ${state.tab==='ssw'?'active':''}" onclick="setTab('ssw')"><span class="ico">🌏</span> SSW</div>
-        <div class="nav-item ${state.tab==='mensetsu'?'active':''}" onclick="setTab('mensetsu')"><span class="ico">🎙️</span> Hasil Mensetsu</div>
         <div class="nav-item ${state.tab==='laporan'?'active':''}" onclick="setTab('laporan')"><span class="ico">📈</span> Laporan</div>
-        <div class="nav-item ${state.tab==='jlpt'?'active':''}" onclick="setTab('jlpt')"><span class="ico">🏯</span> Hasil JLPT</div>
-        <div class="nav-item ${state.tab==='diagnostik'?'active':''}" onclick="setTab('diagnostik')"><span class="ico">🔧</span> Diagnostik</div>
-        <div class="nav-item ${state.tab==='admin'?'active':''}" onclick="setTab('admin')" id="nav-admin" style="${FB.userIsAdmin() ? "" : "display:none;"}"><span class="ico">🛡️</span> Admin</div>
       </div>
       <div class="main" id="main"></div>
     </div>
@@ -368,7 +357,8 @@ function renderApp(){
   `;
   renderTab();
 }
-window.setTab = (t) => { state.tab = t; state.siswaStale = true; renderApp(); };
+const TAB_BOLEH = ["siswa","kelas","ssw","laporan"];
+window.setTab = (t) => { state.tab = TAB_BOLEH.includes(t) ? t : "siswa"; state.siswaStale = true; renderApp(); };
 
 window.renderTab = (...a) => renderTab(...a);
 async function renderTab(){
@@ -531,6 +521,7 @@ async function renderSiswaTab(){
         <button class="${state.siswaView === "daftar" ? "on" : ""}" onclick="setSiswaView('daftar')">📋 Daftar</button>
       </div>
       <button class="btn sm ghost" style="margin-bottom:10px;" onclick="refreshSiswa()">🔄 Refresh daftar</button>
+      ${FB.userIsAdmin() ? `<button class="btn sm ghost" style="margin-bottom:10px;" onclick="bukaAdmin()">🛡️ Atur Role &amp; Hak Akses</button>` : ""}
       ${state.siswaView !== "daftar" ? renderSiswaPerKelas() : renderSiswaDaftar()}
     </div>
   `;
@@ -1819,15 +1810,58 @@ window.keluarkanDariKelas = async (uid) => {
 };
 
 // Expanded student profile (Part 16)
+// ---- Akses SSW per bidang (checkbox per siswa). Pakai data yang sudah ada: siswa/{uid}.aksesSswBidang.{slug}.
+// Mensetsu otomatis mengikuti (js/mensetsu.js membaca aturan yang sama). Mencabut akses TIDAK menghapus progres/riwayat/transkrip.
+const _SSW_8 = [["building-cleaning","🧹 Building Cleaning"],["kaigo","🤝 Kaigo"],["food-manufacturing","🏭 Food Manufacturing"],["food-service","🍜 Food Service"],["agriculture","🌾 Agriculture"],["construction","🏗️ Construction"],["accommodation","🏨 Accommodation"],["livestock","🐄 Livestock"],["fishery","🐟 Fishery"]];
+const _sswKelasMap = (siswa, kelasList) => ((kelasList || []).find(k => k.nama === siswa.kelas) || {}).aksesSswBidang || {};
+const _sswEfektif = (siswa, kelasList, slug) => {
+  const a = (siswa.aksesSswBidang || {})[slug]; if (typeof a === "boolean") return a;
+  const k = _sswKelasMap(siswa, kelasList)[slug]; if (typeof k === "boolean") return k;
+  return slug === "building-cleaning"; // bawaan sama dengan js/ssw-core.js
+};
+const _aksesSswBox = (siswa, kelasList) => {
+  const blok = siswa.aksesSsw === false;
+  const rows = _SSW_8.map(([slug, nama]) => {
+    const on = _sswEfektif(siswa, kelasList, slug), eksplisit = typeof (siswa.aksesSswBidang || {})[slug] === "boolean";
+    const sumber = eksplisit ? "diatur untuk siswa ini" : (typeof _sswKelasMap(siswa, kelasList)[slug] === "boolean" ? "ikut kelas" : "bawaan");
+    return `<label style="display:flex; align-items:center; gap:10px; padding:10px 8px; min-height:44px; border-bottom:1px solid rgba(255,255,255,.06); cursor:pointer;">
+      <input type="checkbox" ${on ? "checked" : ""} ${blok ? "disabled" : ""} onchange="setAksesBidangSiswa('${siswa.uid}','${slug}',this.checked,this)" style="width:20px; height:20px;">
+      <span style="flex:1;">${nama}</span><span style="font-size:11px; color:var(--gray);">${sumber}</span></label>`;
+  }).join("");
+  return `${blok ? `<p style="font-size:12px; color:var(--red,#f87171);">⚠️ Akses SSW siswa ini diblokir total (chip SSW di daftar siswa). Selama itu semua bidang & Mensetsu terkunci. Centang di bawah dipertahankan.</p>` : ""}
+    <p style="font-size:12px; color:var(--gray); margin:0 0 6px;">Centang = SSW <b>dan</b> Mensetsu bidang itu terbuka untuk siswa. Mencabut akses tidak menghapus progres, riwayat, atau transkrip.</p>${rows}`;
+};
+window.setAksesBidangSiswa = async (uid, slug, val, el) => {
+  const siswa = (state.siswaList||[]).find(s => s.uid === uid); if (!siswa) return;
+  try {
+    await FB.setAksesSswBidang(uid, slug, !!val);
+    siswa.aksesSswBidang = { ...(siswa.aksesSswBidang || {}), [slug]: !!val };
+    const nm = (_SSW_8.find(x => x[0] === slug) || [])[1] || slug;
+    toast(`✓ ${nm}: SSW & Mensetsu ${val ? "dibuka" : "ditutup"}`);
+  } catch (e) { toast("❌ " + (e.message || e)); if (el) el.checked = !val; return; }
+  const box = document.getElementById("akses-ssw-box"); if (box) box.innerHTML = _aksesSswBox(siswa, state.kelasList || []);
+};
 window.studentProfile = async (uid) => {
   const siswa = (state.siswaList||[]).find(s => s.uid === uid);
   if (!siswa) return toast("Siswa tidak ditemukan");
   modal(`<div style="text-align:center; padding:20px;">Memuat profil...</div>`);
-  const [gami, nilai, mastery] = await Promise.all([
+  const [gami, nilai, mastery, mxHasil, kelasAkses] = await Promise.all([
     FB.getSiswaGami(uid),
     FB.listNilaiOf(uid, 20).catch(()=>[]),
     FB.getSiswaMasteryCounts(uid).catch(()=>({})),
+    FB.listHasilMensetsuOf(uid, 100).catch(()=>[]),
+    FB.listKelas().catch(()=>state.kelasList||[]),
   ]);
+  if (Array.isArray(kelasAkses) && kelasAkses.length) state.kelasList = kelasAkses;
+  // Hasil MENSETSU siswa ini: simpan ke cache _mx agar mensetsuDetail() bisa membuka detail/transkrip.
+  const mxList = (mxHasil || []).map(h => ({ ...h, _uid: uid, _nama: siswa.nama || siswa.email || uid, _kelas: siswa.kelas || "" }))
+    .sort((a,b) => _mxMs(b) - _mxMs(a));
+  _mx.data = (_mx.data || []).filter(h => h._uid !== uid).concat(mxList);
+  const mxRows = mxList.map(h => `<tr style="cursor:pointer;" onclick="mensetsuDetail('${uid}','${h.id}')">
+      <td>${new Date(_mxMs(h)).toLocaleDateString("id-ID")}</td><td>${_mxEsc(h.bidangNama || h.bidang)}</td><td>${_mxMode[h.mode] || h.mode}</td>
+      <td><b>${h.skor?.total ?? "–"}</b></td><td>${h.dijawab}/${h.jumlahSoal}</td><td>Detail ›</td></tr>`).join("")
+    || '<tr><td colspan="6" style="color:var(--gray); text-align:center;">Belum ada simulasi MENSETSU</td></tr>';
+  const mxLemah = _mxWeak(mxList);
 
   // Daily / Weekly / Monthly buckets from exam history
   const now = Date.now();
@@ -1884,11 +1918,23 @@ window.studentProfile = async (uid) => {
       </table>
     </div>
 
+    <h3 style="margin-top:14px;">🌏 Akses SSW &amp; Mensetsu per Bidang</h3>
+    <div id="akses-ssw-box">${_aksesSswBox(siswa, state.kelasList || [])}</div>
+
     <h3 style="margin-top:14px;">10 Ujian Terakhir</h3>
     <div class="table-wrap">
       <table>
         <thead><tr><th>Tanggal</th><th>Nilai</th><th>Benar</th><th>Durasi</th></tr></thead>
         <tbody>${nilaiRow}</tbody>
+      </table>
+    </div>
+
+    <h3 style="margin-top:14px;">🎙️ Hasil MENSETSU (${mxList.length} sesi)</h3>
+    ${mxList.length > 1 ? `<p style="font-size:12px; color:var(--gray);">Nilai terakhir <b>${mxList[0].skor?.total ?? "–"}</b>, rata-rata <b>${Math.round(mxList.reduce((a,h) => a + (h.skor?.total || 0), 0) / mxList.length)}</b>${mxLemah ? ` · terlemah: ${_mxEsc(_mxCat[mxLemah.k] || mxLemah.k)}` : ""}</p>` : ""}
+    <div class="table-wrap" style="max-height:30vh; overflow:auto;">
+      <table>
+        <thead><tr><th>Tanggal</th><th>Bidang</th><th>Mode</th><th>Nilai</th><th>Soal</th><th></th></tr></thead>
+        <tbody>${mxRows}</tbody>
       </table>
     </div>
 
@@ -2199,6 +2245,7 @@ window.mensetsuDetail = (uid, id) => {
     ${(ev.saran || []).length ? `<p><b>Saran:</b> ${(ev.saran || []).map(_mxEsc).join("; ")}</p>` : ""}
     <h4 style="margin-top:10px;">Transkrip</h4>
     <div class="table-wrap" style="max-height:45vh; overflow:auto;"><table><thead><tr><th>Pertanyaan</th><th>Jawaban siswa</th><th>Skor</th></tr></thead><tbody>${trans}</tbody></table></div>
+    <button class="btn ghost" style="margin-top:10px;" onclick="studentProfile('${uid}')">‹ Kembali ke profil siswa</button>
     <button class="btn ghost" style="margin-top:10px;" onclick="closeModal()">Tutup</button>`);
 };
 window._mx = _mx;
@@ -2378,12 +2425,22 @@ async function renderAdminTab(){
     </div>
   `;
 }
+// Pengaturan Admin (role & ∞ coins) dibuka dari tab Siswa → "Atur Role & Hak Akses" (hanya admin/developer).
+const _adminModalTerbuka = () => document.getElementById("modal").classList.contains("open");
+window.bukaAdmin = async () => {
+  if (!FB.userIsAdmin()) return toast("Hanya admin/developer");
+  modal(`<div style="text-align:center; padding:20px;">Memuat akun…</div>`);
+  try {
+    modal((await renderAdminTab()) + `<div style="margin-top:12px; display:flex; justify-content:flex-end;"><button class="btn ghost" onclick="closeModal()">Tutup</button></div>`);
+  } catch(e){ modal(`<p>❌ ${e.message || e}</p><button class="btn ghost" onclick="closeModal()">Tutup</button>`); }
+};
 window.setAkunRole = async (uid, role) => {
   try {
     await FB.setRole(uid, role);
     toast(`✓ Role diubah ke ${role}`);
-    renderTab();
-  } catch(e){ toast("❌ " + e.message); renderTab(); }
+  } catch(e){ toast("❌ " + e.message); }
+  state.siswaStale = true;
+  if (_adminModalTerbuka()) bukaAdmin(); else renderTab();
 };
 window.toggleUnlimited = async (uid, on) => {
   try {

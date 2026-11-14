@@ -1,0 +1,480 @@
+{
+ "schema": 1,
+ "bidang": "fishery",
+ "source": "Shirose Nihongo — tulisan orisinal berdasarkan standar kompetensi resmi bidang Perikanan (MOJ/ISA, MAFF/Badan Perikanan, MHLW) dan materi keselamatan MHLW untuk pekerja asing; bukan salinan buku mana pun. Soal = Latihan Shirose Nihongo, bukan soal resmi.",
+ "markup": "Teks JP memakai {kanji|furigana} untuk ruby. Teks ID/JP memakai **tebal**.",
+ "bab": {
+  "id": "bab5",
+  "no": 5,
+  "title": {
+   "id": "Penanganan Hasil Tangkapan",
+   "jp": "{漁獲物|ぎょかくぶつ}の{取|と}り{扱|あつか}い"
+  },
+  "intro": {
+   "id": "Menjaga kesegaran ikan, memilah dan mengemas, kebersihan dan keamanan pangan, serta pembongkaran di pelabuhan.",
+   "jp": "{魚|さかな}の{鮮度|せんど}、{選別|せんべつ}と{箱詰|はこづ}め、{衛生|えいせい}{管理|かんり}、{水揚|みずあ}げ{作業|さぎょう}を{学|まな}びます。"
+  },
+  "pages": [
+   1,
+   1
+  ],
+  "subs": [
+   {
+    "id": "b5s1",
+    "no": 1,
+    "title": {
+     "id": "Menjaga Kesegaran Ikan",
+     "jp": "{鮮度|せんど}の{保|たも}ち{方|かた}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Mengapa kesegaran penting"
+      },
+      {
+       "p": "Ikan cepat rusak. Setelah ditangkap, **kesegaran (鮮度)** turun cepat karena bakteri dan enzim, apalagi pada suhu hangat. Ikan segar lebih mahal dan lebih aman dimakan."
+      },
+      {
+       "h": "Prinsip: dinginkan cepat, jaga tetap dingin"
+      },
+      {
+       "ul": [
+        "**Es (氷)**: letakkan ikan berlapis es di palka; es harus menyentuh ikan.",
+        "**Es air laut (海水氷 / シャーベット氷)** atau **air laut dingin (冷海水)**: mendinginkan lebih cepat dan merata.",
+        "**Pembekuan (冷凍)**: untuk penyimpanan lama di atas kapal besar.",
+        "Hindari sinar matahari langsung dan tumpukan ikan yang terlalu tinggi."
+       ]
+      },
+      {
+       "h": "Teknik penanganan"
+      },
+      {
+       "ul": [
+        "**Mengeluarkan darah (血抜き)**: memutus insang atau ekor lalu mencelupkan ke air agar darah keluar; daging lebih bersih dan awet.",
+        "**Mematikan ikan dengan cepat (活け締め)**: mengurangi stres dan menjaga kualitas.",
+        "**Tidak melukai** kulit dan daging: jangan menusuk dengan tongkat sembarangan, jangan menginjak ikan."
+       ]
+      },
+      {
+       "note": "Prinsip singkat: **cepat, dingin, bersih, lembut**."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{鮮度|せんど}が{大切|たいせつ}な{理由|りゆう}"
+      },
+      {
+       "p": "{魚|さかな}はすぐにいたみます。とったあと、{細菌|さいきん}や{酵素|こうそ}で**{鮮度|せんど}**が{早|はや}く{下|さ}がります。あたたかいと、もっと{早|はや}いです。{新鮮|しんせん}な{魚|さかな}は{高|たか}く{売|う}れ、{食|た}べても{安全|あんぜん}です。"
+      },
+      {
+       "h": "{考|かんが}え{方|かた}：{早|はや}く{冷|ひ}やして、{冷|つめ}たくたもつ"
+      },
+      {
+       "ul": [
+        "**{氷|こおり}**：{魚倉|ぎょそう}で、{魚|さかな}と{氷|こおり}を{重|かさ}ねる。{氷|こおり}が{魚|さかな}にふれるようにする。",
+        "**{海|うみ}{水|みず}{氷|こおり}（シャーベット{氷|こおり}）**と**{冷|ひ}{海|うみ}{水|みず}**：{早|はや}く、まんべんなく{冷|ひ}える。",
+        "**{冷凍|れいとう}**：{大|おお}きい{船|ふね}で、{長|なが}くとっておくとき。",
+        "{直射日光|ちょくしゃにっこう}と、{魚|さかな}の{積|つ}みすぎをさける。"
+       ]
+      },
+      {
+       "h": "{取|と}り{扱|あつか}いのわざ"
+      },
+      {
+       "ul": [
+        "**{血抜|ちぬき}き**：えらや{尾|び}を{切|き}って{水|みず}に{入|い}れ、{血|ち}を{出|だ}す。{肉|にく}がきれいで、{長|なが}{持|も}ちする。",
+        "**{活|い}け{締|じ}め**：すばやく{魚|さかな}をしめる。ストレスをへらして、{品質|ひんしつ}をたもつ。",
+        "{皮|かわ}や{身|み}に**きずをつけない**。{棒|ぼう}でむやみにさしたり、{魚|さかな}をふんだりしない。"
+       ]
+      },
+      {
+       "note": "みじかく{言|い}うと、**{早|はや}く・{冷|つめ}たく・きれいに・やさしく**。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Dinginkan ikan cepat dengan es atau es air laut, hindari matahari, dan jangan melukai ikan.",
+      "points": [
+       "鮮度 turun cepat saat hangat.",
+       "氷, 海水氷, 冷海水 mendinginkan.",
+       "血抜き = membuang darah.",
+       "Cepat, dingin, bersih, lembut."
+      ],
+      "avoid": [
+       "Menumpuk ikan terlalu tinggi dan membiarkannya di bawah matahari."
+      ],
+      "exam": [
+       "Alasan menurunkan suhu.",
+       "Arti 血抜き dan 活け締め."
+      ]
+     },
+     "jp": {
+      "core": "{魚|さかな}は{早|はや}く{冷|ひ}やす。{氷|こおり}や{海|うみ}{水|みず}{氷|こおり}を{使|つか}い、{日光|にっこう}をさけ、きずをつけない。",
+      "points": [
+       "{暖|あたた}かいと{鮮度|せんど}が{早|はや}く{下|さ}がる。",
+       "{氷|こおり}・{海|うみ}{水|みず}{氷|こおり}・{冷|ひ}{海|うみ}{水|みず}で{冷|ひ}やす。",
+       "{血抜|ちぬき}き＝{血|ち}を{出|だ}す。",
+       "{早|はや}く・{冷|つめ}たく・きれいに・やさしく。"
+      ],
+      "avoid": [
+       "{魚|さかな}を{積|つ}みすぎ、{日光|にっこう}にあてること。"
+      ],
+      "exam": [
+       "{冷|ひ}やす{理由|りゆう}。",
+       "{血抜|ちぬき}きと{活|い}け{締|じ}めの{意味|いみ}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s2",
+    "no": 2,
+    "title": {
+     "id": "Memilah, Menimbang, dan Mengemas",
+     "jp": "{選別|せんべつ}・{計量|けいりょう}・{箱詰|はこづ}め"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Memilah (選別)"
+      },
+      {
+       "p": "Hasil tangkapan dipilah berdasarkan **jenis (魚種)**, **ukuran (大・中・小)**, dan **mutu (品質)**. Ikan rusak, kecil, atau bukan target dipisahkan. Ikan yang masih hidup dan jenis yang dilindungi dikembalikan ke laut sesuai aturan."
+      },
+      {
+       "h": "Menimbang (計量)"
+      },
+      {
+       "ul": [
+        "Gunakan timbangan yang diperiksa dan diatur nol.",
+        "Tulis berat dalam **kilogram (kg)** dan catat dengan benar.",
+        "Jangan menambahkan es atau air berlebihan sehingga berat palsu."
+       ]
+      },
+      {
+       "h": "Mengemas (箱詰め)"
+      },
+      {
+       "ol": [
+        "Siapkan kotak bersih (**発泡スチロール箱** atau kotak plastik).",
+        "Susun ikan dengan rapi, kepala atau perut ke arah yang sama.",
+        "Beri **es (氷詰め)** di atas dan di bawah ikan; jangan tekan terlalu keras.",
+        "Tutup rapat dan beri **label (ラベル)**: nama ikan, ukuran, berat, daerah tangkapan, dan tanggal."
+       ]
+      },
+      {
+       "note": "Label yang salah membuat pembeli salah paham dan dapat menyebabkan masalah. Tulis informasi benar."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{選別|せんべつ}"
+      },
+      {
+       "p": "とれたものを、**{魚種|ぎょしゅ}**、**{大|おお}きさ（{大|だい}・{中|ちゅう}・{小|しょう}）**、**{品質|ひんしつ}**で{分|わ}けます。きずのある{魚|さかな}、{小|ちい}さい{魚|さかな}、ねらっていない{魚|さかな}は{別|べつ}にします。{生|い}きている{魚|さかな}や、{守|まも}る{必要|ひつよう}のある{種類|しゅるい}は、ルールに{従|したが}って{海|うみ}にもどします。"
+      },
+      {
+       "h": "{計量|けいりょう}"
+      },
+      {
+       "ul": [
+        "{点検|てんけん}してゼロにあわせたはかりを{使|つか}う。",
+        "{重|おも}さは**キログラム（kg）**で、{正|ただ}しく{記録|きろく}する。",
+        "{氷|こおり}や{水|みず}を{入|い}れすぎて、{重|おも}さをごまかさない。"
+       ]
+      },
+      {
+       "h": "{箱詰|はこづ}め"
+      },
+      {
+       "ol": [
+        "きれいな{箱|はこ}（**{発泡|はっぽう}スチロール{箱|はこ}**やプラスチックの{箱|はこ}）を{用意|ようい}する。",
+        "{魚|さかな}の{向|む}きをそろえて、きれいにならべる。",
+        "{魚|さかな}の{上|うえ}と{下|した}に**{氷|こおり}**を{入|い}れる（**{氷詰|こおりづ}め**）。つよくおさえない。",
+        "しっかりふたをして、**ラベル**をはる。{魚|さかな}の{名前|なまえ}、{大|おお}きさ、{重|おも}さ、とれた{場所|ばしょ}、{日|ひ}づけを{書|か}く。"
+       ]
+      },
+      {
+       "note": "まちがったラベルは、{買|か}う{人|ひと}をまちがえさせます。{正|ただ}しく{書|か}きます。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Pilah menurut jenis, ukuran, mutu; timbang dengan benar; kemas dengan es dan label akurat.",
+      "points": [
+       "選別 = jenis, ukuran, mutu.",
+       "計量 dalam kg.",
+       "箱詰め + 氷詰め.",
+       "Label: nama, ukuran, berat, tempat, tanggal."
+      ],
+      "avoid": [
+       "Memberi label yang salah atau menambah air untuk menambah berat."
+      ],
+      "exam": [
+       "Hal yang ada di label.",
+       "Langkah mengemas ikan."
+      ]
+     },
+     "jp": {
+      "core": "{種類|しゅるい}・{大|おお}きさ・{品質|ひんしつ}で{分|わ}け、{正|ただ}しくはかり、{氷|こおり}と{正|ただ}しいラベルで{箱詰|はこづ}めする。",
+      "points": [
+       "{選別|せんべつ}＝{種類|しゅるい}・{大|おお}きさ・{品質|ひんしつ}。",
+       "{計量|けいりょう}はkg。",
+       "{箱詰|はこづ}め＋{氷詰|こおりづ}め。",
+       "ラベル：{名前|なまえ}・{大|おお}きさ・{重|おも}さ・{場所|ばしょ}・{日|ひ}づけ。"
+      ],
+      "avoid": [
+       "まちがったラベルや{水|みず}で{重|おも}さをごまかすこと。"
+      ],
+      "exam": [
+       "ラベルに{書|か}くこと。",
+       "{魚|さかな}の{箱詰|はこづ}めの{手順|てじゅん}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s3",
+    "no": 3,
+    "title": {
+     "id": "Kebersihan dan Keamanan Pangan",
+     "jp": "{衛生|えいせい}{管理|かんり}と{食|しょく}{品|ひん}の{安全|あんぜん}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Kebersihan dasar"
+      },
+      {
+       "ul": [
+        "**Cuci tangan (手洗い)** sebelum bekerja dengan ikan dan setelah dari toilet atau menyentuh sampah.",
+        "Pakai pakaian kerja bersih, sarung tangan, dan sepatu bot bersih; rambut rapi.",
+        "**Cuci dan sanitasi alat dan meja (洗浄)** setelah dipakai.",
+        "Bersihkan hasil tangkapan dengan **air laut bersih atau air bersih**, bukan air kotor dari dek."
+       ]
+      },
+      {
+       "h": "Mencegah kontaminasi silang (交差汚染)"
+      },
+      {
+       "p": "Jangan mencampur ikan segar dengan sampah, umpan, atau bahan kimia. Gunakan wadah dan alat berbeda. Ikan tidak diletakkan di lantai."
+      },
+      {
+       "h": "Bahaya keamanan pangan"
+      },
+      {
+       "ul": [
+        "**Histamin (ヒスタミン)**: pada ikan seperti サバ dan マグロ yang tidak didinginkan dengan benar; bisa menyebabkan keracunan walau dimasak. Dinginkan cepat.",
+        "**Parasit Anisakis (アニサキス)**: ada pada サバ, イカ, サケ, dll. Pembekuan (kira-kira -20℃ selama 24 jam atau lebih) atau pemanasan mematikannya; periksa dan buang.",
+        "**Ikan beracun (フグ)** dan jenis tidak dikenal: jangan dijual atau dimakan; **tanyakan kepada penanggung jawab**."
+       ]
+      },
+      {
+       "note": "Jika Anda sakit perut atau diare, laporkan dan jangan menangani makanan."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{基本|きほん}の{衛生|えいせい}"
+      },
+      {
+       "ul": [
+        "{魚|さかな}をさわる{前|まえ}、トイレやごみにさわったあとは**{手|て}{洗|あら}い**をする。",
+        "{清潔|せいけつ}な{作業服|さぎょうふく}、{手袋|てぶくろ}、{長靴|ながぐつ}を{使|つか}い、{髪|かみ}を{整|ととの}える。",
+        "{使|つか}ったあとの{道具|どうぐ}とテーブルは**{洗浄|せんじょう}**する。",
+        "{魚|さかな}は、きれいな**{海|うみ}{水|みず}や{水|みず}**で{洗|あら}う。{甲板|かんぱん}のよごれた{水|みず}は{使|つか}わない。"
+       ]
+      },
+      {
+       "h": "{交差汚染|こうさおせん}を{防|ふせ}ぐ"
+      },
+      {
+       "p": "{新鮮|しんせん}な{魚|さかな}を、ごみ、えさ、{薬|くすり}{品|ひん}と{混|ま}ぜない。{入|い}れ{物|もの}と{道具|どうぐ}を{分|わ}ける。{魚|さかな}を{床|ゆか}におかない。"
+      },
+      {
+       "h": "{食|しょく}{品|ひん}の{安全|あんぜん}のきけん"
+      },
+      {
+       "ul": [
+        "**ヒスタミン**：サバやマグロなど、{正|ただ}しく{冷|ひ}やさないとできる。{加熱|かねつ}しても{食中毒|しょくちゅうどく}になる。{早|はや}く{冷|ひ}やす。",
+        "**アニサキス**：サバ、イカ、サケなどにいる{寄生虫|きせいちゅう}。{凍|こお}らせる（およそ-20℃で24{時間|じかん}{以上|いじょう}）か{加熱|かねつ}すると{死|し}ぬ。{見|み}つけてとる。",
+        "**{毒|どく}のある{魚|さかな}（フグ）**や、{知|し}らない{種類|しゅるい}は、{売|う}ったり{食|た}べたりしない。**{責任者|せきにんしゃ}に{聞|き}く**。"
+       ]
+      },
+      {
+       "note": "おなかがいたい、{下痢|げり}のときは{報告|ほうこく}して、{食|た}べ{物|もの}をあつかわない。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Cuci tangan, bersihkan alat, hindari kontaminasi silang, dan waspadai histamin, Anisakis, serta ikan beracun.",
+      "points": [
+       "手洗い, 洗浄.",
+       "交差汚染 = mencampur bahan kotor dan bersih.",
+       "ヒスタミン = ikan tidak didinginkan; アニサキス = parasit.",
+       "Ikan tak dikenal: tanyakan."
+      ],
+      "avoid": [
+       "Menangani ikan saat sakit perut atau diare.",
+       "Menjual ikan beracun yang tak dikenal."
+      ],
+      "exam": [
+       "Arti 交差汚染.",
+       "Penyebab dan pencegahan ヒスタミン dan アニサキス."
+      ]
+     },
+     "jp": {
+      "core": "{手|て}{洗|あら}い、{洗浄|せんじょう}、{交差汚染|こうさおせん}を{防|ふせ}ぐ。ヒスタミン・アニサキス・{毒|どく}{魚|さかな}に{注意|ちゅうい}。",
+      "points": [
+       "{手|て}{洗|あら}い・{洗浄|せんじょう}。",
+       "{交差汚染|こうさおせん}＝よごれとあたらしいものをまぜる。",
+       "ヒスタミン＝{冷|ひ}やさない{魚|さかな}、アニサキス＝{寄生虫|きせいちゅう}。",
+       "{知|し}らない{魚|さかな}は{聞|き}く。"
+      ],
+      "avoid": [
+       "おなかがいたいのに{魚|さかな}をあつかうこと。",
+       "{知|し}らない{毒|どく}の{魚|さかな}を{売|う}ること。"
+      ],
+      "exam": [
+       "{交差汚染|こうさおせん}の{意味|いみ}。",
+       "ヒスタミンとアニサキスの{原因|げんいん}と{防|ふせ}ぎ{方|かた}。"
+      ]
+     }
+    }
+   },
+   {
+    "id": "b5s4",
+    "no": 4,
+    "title": {
+     "id": "Pembongkaran di Pelabuhan (水揚げ)",
+     "jp": "{水揚|みずあ}げ{作業|さぎょう}"
+    },
+    "pages": [
+     1,
+     1
+    ],
+    "full": {
+     "id": [
+      {
+       "h": "Alur pembongkaran"
+      },
+      {
+       "ol": [
+        "Kapal bersandar di **dermaga (岸壁)** dan diikat dengan tali tambat.",
+        "Hasil tangkapan dikeluarkan dari palka ke **kotak ikan (魚箱)**.",
+        "Kotak diangkat ke dermaga dengan **derek atau forklift (クレーン / フォークリフト)**, atau pompa ikan.",
+        "Hasil tangkapan ditimbang dan dibawa ke **pasar ikan (市場)**.",
+        "Pasar mengadakan **lelang (競り)** atau penjualan; pembeli membeli menurut jenis dan mutu."
+       ]
+      },
+      {
+       "h": "Mengapa cepat dan dingin"
+      },
+      {
+       "p": "Di pelabuhan matahari dan angin mempercepat kerusakan ikan. Bekerja cepat, tutup kotak, dan jaga **es** tetap cukup."
+      },
+      {
+       "h": "Keselamatan di dermaga"
+      },
+      {
+       "ul": [
+        "**Jatuh dari dermaga atau di antara kapal dan dermaga** sangat berbahaya. Jaga jarak dari tepi dan pakai jaket pelampung.",
+        "Alat berat (**フォークリフト, クレーン**) bergerak. Jangan berdiri di bawah beban atau di jalur forklift; lihat pemberi isyarat.",
+        "Lantai dermaga licin karena air dan es. Pakai bot dan berjalan hati-hati.",
+        "Mengangkat kotak berat: lutut ditekuk, punggung lurus, atau gunakan alat."
+       ]
+      },
+      {
+       "note": "Selama pembongkaran, tetap saling memberi aba-aba: 「上げます！」「下ろします！」."
+      }
+     ],
+     "jp": [
+      {
+       "h": "{水揚|みずあ}げの{流|なが}れ"
+      },
+      {
+       "ol": [
+        "{船|ふね}が**{岸壁|がんぺき}**につき、ロープで{船|ふね}をつなぐ。",
+        "{魚倉|ぎょそう}から**{魚|さかな}{箱|はこ}**に{魚|さかな}を{出|だ}す。",
+        "**クレーンやフォークリフト**、または{魚|さかな}ポンプで、{岸壁|がんぺき}に{魚|さかな}{箱|はこ}を{上|あ}げる。",
+        "{重|おも}さをはかって、**{市場|いちば}**に{運|はこ}ぶ。",
+        "{市場|いちば}で**{競|せ}り**や{売|う}ることをする。{買|か}う{人|ひと}が、{種類|しゅるい}と{品質|ひんしつ}で{買|か}う。"
+       ]
+      },
+      {
+       "h": "{早|はや}く、{冷|つめ}たくする{理由|りゆう}"
+      },
+      {
+       "p": "{港|みなと}では、{日光|にっこう}と{風|かぜ}で{魚|さかな}が{早|はや}くいたみます。すばやく{作業|さぎょう}し、{箱|はこ}にふたをして、**{氷|こおり}**を{切|き}らさないようにします。"
+      },
+      {
+       "h": "{岸壁|がんぺき}の{安全|あんぜん}"
+      },
+      {
+       "ul": [
+        "**{岸壁|がんぺき}から{落|お}ちる、{船|ふね}と{岸壁|がんぺき}のあいだに{落|お}ちる**のはとてもあぶない。はしから{離|はな}れ、ライフジャケットを{着|き}る。",
+        "**フォークリフトやクレーン**は{動|うご}く。{荷物|にもつ}の{下|した}や、フォークリフトの{通|とお}り{道|みち}に{立|た}たない。{合図|あいず}の{人|ひと}を{見|み}る。",
+        "{岸壁|がんぺき}の{床|ゆか}は{水|みず}と{氷|こおり}ですべる。{長靴|ながぐつ}をはき、{気|き}をつけて{歩|ある}く。",
+        "{重|おも}い{魚|さかな}{箱|はこ}：ひざをまげて、{背|せ}すじをのばす。または{道具|どうぐ}を{使|つか}う。"
+       ]
+      },
+      {
+       "note": "{水揚|みずあ}げのあいだも、「{上|あ}げます！」「{下|お}ろします！」と{声|こえ}をかけ{合|あ}います。"
+      }
+     ]
+    },
+    "summary": {
+     "id": {
+      "core": "Bongkar hasil tangkapan cepat dan dingin; waspadai jatuh dari dermaga dan alat berat.",
+      "points": [
+       "岸壁, 魚箱, 市場, 競り.",
+       "Jaga es tetap cukup.",
+       "Jangan berdiri di bawah beban/jalur forklift.",
+       "Pakai jaket pelampung di dermaga."
+      ],
+      "avoid": [
+       "Berdiri di bawah beban yang diangkat.",
+       "Berjalan dekat tepi dermaga tanpa jaket pelampung."
+      ],
+      "exam": [
+       "Alur pembongkaran.",
+       "Bahaya di dermaga."
+      ]
+     },
+     "jp": {
+      "core": "{水揚|みずあ}げは{早|はや}く{冷|つめ}たく。{岸壁|がんぺき}からの{転落|てんらく}と{重|じゅう}{機|き}に{注意|ちゅうい}。",
+      "points": [
+       "{岸壁|がんぺき}・{魚|さかな}{箱|はこ}・{市場|いちば}・{競|せ}り。",
+       "{氷|こおり}をたやさない。",
+       "{荷物|にもつ}の{下|した}とフォークリフトの{通|とお}り{道|みち}に{立|た}たない。",
+       "{岸壁|がんぺき}でもライフジャケット。"
+      ],
+      "avoid": [
+       "{持|も}ち{上|あ}げた{荷物|にもつ}の{下|した}に{立|た}つこと。",
+       "{岸壁|がんぺき}のはしをライフジャケットなしで{歩|ある}くこと。"
+      ],
+      "exam": [
+       "{水揚|みずあ}げの{流|なが}れ。",
+       "{岸壁|がんぺき}のきけん。"
+      ]
+     }
+    }
+   }
+  ]
+ }
+}

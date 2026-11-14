@@ -83,7 +83,7 @@ Untuk 8 bidang SSW. Siswa memilih pertanyaan (自己紹介 selalu pertama), menu
 ## Arsitektur
 
 - **Frontend**: Static HTML + JS modular (ES modules via CDN import maps). Tidak ada bundler.
-- **Hosting**: GitHub Pages (production di `shirose-nihongo.github.io`). Netlify tidak lagi dipakai (konfigurasi lama `netlify.toml`/`_headers`/`netlify/functions` dibiarkan, tidak aktif).
+- **Hosting**: GitHub Pages (production di `shirose-nihongo.github.io`).
 - **Auto deploy**: Push ke `main` → GitHub Pages build otomatis. `.github/workflows/check.yml` hanya memverifikasi file penting (tidak mendeploy).
 - **Backend**: Firebase Spark plan (gratis).
   - **Auth**: Email/Password.
@@ -100,8 +100,6 @@ Untuk 8 bidang SSW. Siswa memilih pertanyaan (自己紹介 selalu pertama), menu
 ├── teacher.html                 # Teacher Dashboard
 ├── manifest.webmanifest
 ├── sw.js                        # Service worker
-├── _headers                     # Netlify MIME overrides
-├── netlify.toml                 # Netlify config
 ├── js/
 │   ├── character.js             # Layered SVG character system (bald base + slots)
 │   ├── firebase-sync.js         # Firebase integration (Auth + Firestore)
@@ -116,10 +114,10 @@ Untuk 8 bidang SSW. Siswa memilih pertanyaan (自己紹介 selalu pertama), menu
 ├── backup/
 │   ├── README.md
 │   └── kanji-lama-vietnamese.json
-└── .github/workflows/deploy.yml
+└── .github/workflows/check.yml
 ```
 
-## Setup pertama kali (lokal → GitHub → Netlify)
+## Setup pertama kali (lokal → GitHub Pages)
 
 1. **Clone repo**:
    ```bash
@@ -131,23 +129,7 @@ Untuk 8 bidang SSW. Siswa memilih pertanyaan (自己紹介 selalu pertama), menu
 
 3. **Firebase**: project `shirose-nihongo` sudah live. Config di `js/firebase-sync.js` (apiKey publik Firebase memang aman untuk dipaparkan).
 
-4. **Netlify setup** (sekali saja):
-   - Login https://app.netlify.com
-   - Klik **Add new site → Import an existing project**
-   - Connect ke GitHub → pilih repo `shirose-nihongo`
-   - Build settings:
-     - Build command: (kosong)
-     - Publish directory: `.`
-   - Site name: `shirose-nihongo` (biar URL tetap `shirose-nihongo.netlify.app`)
-   - Deploy!
-
-5. **GitHub Actions secrets** (untuk auto-deploy dari push):
-   - Di GitHub repo → **Settings → Secrets and variables → Actions**
-   - Add:
-     - `NETLIFY_AUTH_TOKEN`: dari https://app.netlify.com/user/applications#personal-access-tokens
-     - `NETLIFY_SITE_ID`: ada di Netlify site → **Settings → Site information → Site ID**
-
-   Setelah itu, setiap `git push origin main` akan auto-deploy ke Netlify.
+4. **GitHub Pages**: repo `shirose-nihongo.github.io` di-publish otomatis dari branch `main` (Settings → Pages). Setiap `git push origin main` langsung tayang di https://shirose-nihongo.github.io.
 
 ## Update konten tanpa coding
 
