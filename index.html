@@ -1837,6 +1837,8 @@ window.kirimResetPassword = async () => {
 // tapi siswa doc gagal dibuat). Firebase Auth butuh "recent login"
 // sebelum delete, jadi urutannya login → delete.
 window.hapusAkunRusak = async () => {
+  // Dinonaktifkan: tidak ada lagi alur hapus akun untuk siswa.
+  return;
   const email = (document.getElementById("auth-page-email")?.value || "").trim();
   const pwd = document.getElementById("auth-page-pwd")?.value || "";
   const err = document.getElementById("auth-page-err");
@@ -5407,14 +5409,13 @@ function showOrphanBannerIfNeeded(){
         <span style="color:#d9d9e0;">
           Login berhasil, tapi Firestore ${status === "write_blocked" ? "menolak membuat profil siswa baru" : "menolak membaca profil siswa"}
           — biasanya karena Firestore Rules belum ter-deploy sesuai <code>firestore.rules.example</code>.
-          ${guruMode ? "Deploy rules dulu di Firebase Console, lalu klik Coba Lagi." : "Hubungi guru untuk deploy rules, atau klik Reset Akun untuk daftar ulang."}
+          ${guruMode ? "Deploy rules dulu di Firebase Console, lalu klik Coba Lagi." : "Hubungi guru untuk memperbaiki profil akunmu. Akunmu tidak perlu dihapus."}
         </span>
       </div>
       <button onclick="hideOrphanBanner()" style="background:transparent; border:none; color:#aaa; font-size:20px; cursor:pointer; padding:0 6px;">×</button>
     </div>
     <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
       <button class="btn" onclick="cobaReparasiAkun()">🔄 Coba Lagi</button>
-      <button class="btn danger" onclick="resetAkunSekarang()">🗑️ Reset Akun (hapus & daftar ulang)</button>
       <button class="btn ghost" onclick="logout()">Keluar</button>
     </div>
   `;
@@ -5438,6 +5439,9 @@ window.cobaReparasiAkun = async () => {
 };
 
 window.resetAkunSekarang = async () => {
+  // Dinonaktifkan: siswa tidak boleh diminta menghapus akun.
+  toast("Hubungi guru untuk memperbaiki akunmu. Akun tidak perlu dihapus.");
+  return;
   if (!confirm("HAPUS akun kamu? Email kamu bisa dipakai daftar ulang setelah ini. Tindakan ini tidak bisa dibatalkan.")) return;
   try {
     await FB.hapusAkunSendiri();
